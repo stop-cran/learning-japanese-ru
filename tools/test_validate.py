@@ -1,5 +1,6 @@
 """Regression tests for authoring rules and the Android front-matter subset."""
 import copy
+import hashlib
 import io
 import json
 import sys
@@ -1073,6 +1074,17 @@ class ValidateTests(unittest.TestCase):
                     with self.subTest(folder=folder, name=name):
                         self.check_card(REPO / folder / f"{name}.md")
         self.assertEqual([], validate.errors)
+
+    def test_current_stroke_bytes_match_frozen_source_provenance(self):
+        ledger = json.loads((REPO / "docs" / "translation-ledger.json").read_text(encoding="utf-8"))
+        strokes = [entry for entry in ledger["entries"] if entry["path"].startswith("strokes/")]
+        self.assertTrue(strokes)
+        for entry in strokes:
+            with self.subTest(path=entry["path"]):
+                data = REPO.joinpath(*entry["path"].split("/")).read_bytes()
+                digest = hashlib.sha256(data).hexdigest()
+                self.assertEqual(entry["upstreamRawSha256"], digest)
+                self.assertEqual(entry["ruRawSha256"], digest)
 
     def image_card(self, header_extra):
         header = WORD_HEADER + header_extra

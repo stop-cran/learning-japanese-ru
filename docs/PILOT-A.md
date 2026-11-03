@@ -328,6 +328,26 @@ separately from the accepted teaching-export hash; RU `main`/ordinary C7 activat
 Production remains frozen unless a proven defect is reported. All broader Settings/source/offline/
 progress/IME/drawing/capture/voice/notification C5 gates remain separately open.
 
+### Public candidate export correction
+
+The first signed C4 candidate `fb581b3901213de31e8de1d03253519402dcc946` passed 108 tooling
+tests and CI, but its actual codeload ZIP exposed a publication defect: generic `*.json text eol=lf`
+attributes normalized 11 frozen CRLF stroke blobs. All 51 normalized manifest hashes and geometry
+were unchanged, but the claimed raw source identity was no longer true in the delivered ZIP.
+The original reviewed ZIP's 12 stroke files match the immutable EN Git blobs byte for byte.
+The first public ZIP is preserved as evidence: 73,679 bytes, SHA-256
+`ac888c93ec139486f4e535efe8043478e7ed028716442b6137abe118998e2cd5`.
+It is not accepted as the final byte-identical candidate; signed-release RU import waits for correction.
+
+The correction narrowly disables Git text conversion for `strokes/*.json`, keeps the approved
+source bytes, and adds distinct raw source/RU hashes to the contributor ledger without changing
+its existing normalized hashes or advancing its integration checkpoint.
+A focused genuine-pilot regression checks those raw hashes on checkout; actual public export
+verification remains required. The manifest version stays `afe5c99e66524d95` because normalized
+runtime text and geometry are unchanged. This is a packaging/provenance correction, not a new
+teaching edit or permission to reinterpret an asset's byte identity.
+Active RU guidance now distinguishes normalized transport hashes from raw source/export identity.
+
 The current EN main refresh is now checked in an isolated worktree at
 `625cc3229e767ae5314847e7c1781640fcaff5c6`, preserving its four incoming N1 sets:
 360 tests passed, validator 0, budget passed, 8,214 runtime hashes verified.
