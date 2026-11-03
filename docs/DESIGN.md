@@ -91,6 +91,7 @@ It establishes provenance only; no translation is claimed to be complete at that
 | Shared language contract and compatibility | [EN #61](https://github.com/stop-cran/learning-japanese/issues/61) |
 | Complete app localization | [Android #28](https://github.com/stop-cran/kanji-cards-android/issues/28) |
 | Coordinated app language/source transitions | [Android #127](https://github.com/stop-cran/kanji-cards-android/issues/127) |
+| Pilot integration and methodology correction checkpoints | [RU #5](https://github.com/stop-cran/learning-japanese-ru/issues/5) |
 
 Independent plan review and maintainer reconciliation belong to these work items.
 They do not replace later review of implemented instructions or actual translated content.
@@ -99,3 +100,12 @@ The [cross-repository plan review](https://github.com/stop-cran/learning-japanes
 and [dedicated instruction-plan review](https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6599291063)
 have been reconciled with their original reviewers; no unresolved plan findings remain from those bounded reviews.
 Actual instruction implementation and Russian publication remain open work items.
+
+## Checkpoint delivery and methodology
+
+The [implementation plan](IMPLEMENTATION-PLAN.md) adds an early app/kanji/word integration gate, followed by a
+small structured-content/media gate before broad translation. Complete reviewed first-version RU instructions
+precede pilot authoring; real pilot findings can refine them rather than freezing the method in advance.
+Minimal manual provenance is required from the first batch; scheduled drift automation is not a pilot prerequisite.
+Verified reusable findings are incorporated into the corresponding app/content instructions with their evidence
+and scope in the same correction batch. Plan approval never counts as implementation or linguistic acceptance.
