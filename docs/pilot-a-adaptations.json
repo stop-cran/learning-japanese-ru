@@ -1,0 +1,51 @@
+{
+ "status": "independently-content-reviewed-awaiting-integration",
+ "upstreamCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+ "kanjiDistractors": {
+  "日": ["月", "口"],
+  "月": ["日", "口"],
+  "火": ["水", "山", "木"],
+  "水": ["火", "川", "木"],
+  "木": ["人", "水", "山"],
+  "山": ["川", "大"],
+  "川": ["山", "水", "火"],
+  "人": ["木", "大"],
+  "大": ["木", "人", "口"],
+  "口": ["日", "山"],
+  "待": ["時", "日", "口"],
+  "時": ["日", "待", "月"]
+ },
+ "curatedWordDistractorDispositions": {
+  "大人": {"upstream": ["大学", "大切"], "action": "omit optional unavailable curated candidates; retain complete normal option pool"},
+  "時間": {"upstream": ["時代", "時計"], "action": "omit optional unavailable curated candidates; retain complete normal option pool"}
+ },
+ "requiredWordExclusions": {
+  "日": ["太陽"],
+  "川": ["河"],
+  "日中": ["昼間", "昼"]
+ },
+ "candidateRussianExclusions": {
+  "昼": ["昼間"],
+  "昼間": ["昼"],
+  "川": ["小川"],
+  "小川": ["川"]
+ },
+ "candidateExclusionRationale": "The Russian displayed meanings of 昼/昼間 overlap in daytime context; 川 includes ручей and 小川 is ручей. Each is a direct semantic pair, not a transitive topic clique; preserve source 川/河 without adding 小川/河 automatically.",
+ "reviewCorrections": {
+  "kanji/木.md": ["F2: place 材木 (ざいもく) under モク, not ボク"],
+  "kanji/山.md": ["Place 火山 (かざん) under the existing voiced ザン row"],
+  "kanji/日.md": ["Qualify 日本 as a special name-reading example, not mechanical ニチ evidence"],
+  "kanji/水.md": ["F6: 水玉 gloss is a droplet/polka-dot pattern, not a literal pea"],
+  "kanji/口.md": ["F7: 改札口 retains ticket-control entry/exit meaning", "Place 出口/入口 under the existing voiced -ぐち row"],
+  "kanji/待.md": ["F8: distinguish retained suffix -ま.ち from an initial verb-stem example"],
+  "words/川.md": ["F1: add direct 川/小川 Russian meaning guard; retain source 川/河"],
+  "words/小川.md": ["F1: add direct 小川/川 Russian meaning guard"],
+  "words/大木.md": ["F3: select attested タイ and ボク; remove invented ダイ-to-タイ conversion"],
+  "words/火山.md": ["F4: contrast 火山 with 山 plus 火事, not a reversal of two kanji"],
+  "words/日中.md": ["F5: retain daytime sense of 昼 and contextual noon/lunch qualification"]
+ },
+ "reviewCorrectionStatus": "resolved in independent affected-content re-review; app/native integration pending",
+ "optionalLinkPolicy": "Keep all links resolving inside the exact pilot; unadopted broader links become unlinked Japanese mentions with Russian explanation/readings, recorded per file. Do not remove rules, reading examples or qualifiers.",
+ "acceptance": "Independent actual-content review accepted these adaptations; native candidate-pool/import/integration acceptance remains pending. No gate or grading change.",
+ "reviewEvidence": "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+}

@@ -1,6 +1,34 @@
 # EN/RU implementation: small checkpoints before broad translation
 
-Status: approved design, independently reviewed execution checkpoints; no implementation or acceptance tests are claimed.
+Status: execution started; C2 instructions independently reviewed and adopted, shared C1 Python checks passing,
+app localization in progress; pilot-A content is independently accepted after all eight corrections and
+affected-content re-review. The real RU tooling suite passes 108 tests; app/native/publication acceptance remains pending.
+Retained Android correction regressions pass 85 tests with zero failures/errors/skips; the isolated
+released reader also passes 2 actual current-main EN/RU archive cases. The next bounded correction
+batch passes 40 retained tests with zero failures/errors/skips; the parent verified the release APK
+signature/hash/size and unchanged original UX snapshots. Targeted reviews resolve duplicate manifest
+declarations, candidate busy cleanup, the queued-sync overwrite and typed Drawing admission.
+The second review still returns NEEDSFIX for two coupled gaps: obsolete branch authority blocks an
+intentional default-source transition, and Practice recovery/stale-preview guidance remains English.
+The author completed the two-fix batch; the parent verified 25 retained passing cases with zero
+failures/errors/skips, final command exit statuses, APK hash/size and unchanged original UX snapshots.
+That narrow review confirmed the original default-sync recovery and all four Practice notices, but
+returned NEEDSFIX for one coupled marker defect: a same-branch English/System choice is saved only
+in preferences, allowing startup to restore older language intent. A single-issue marker/recovery
+correction is now implemented. The parent verified 12 retained passing cases with zero failures,
+errors or skips, final raw build/command outcomes, APK signature/hash and original UX snapshots.
+The one-issue followup returned bounded CLEAN: the latest-intent marker is resolved and no directly
+coupled regression was established. All reported app findings are reconciled across the retained
+review sequence; this is not whole-app/native certification.
+The first bounded C5 batch passes four raw-recorded, non-skipped article/import/locale/Back executions
+on API 29/35 at font scales 1.0/1.5. It uses debug instrumentation and an explicit pilot fixture source;
+the frozen signed release has only a separate launch/readiness smoke so far. The next bounded
+batch exercises real signed-release Settings intent/restart. C4 explicitly allows publishing the
+reviewed runtime only to `ru-pilot-a`; that public candidate is required for the subsequent real
+signed-release/public-source import gate, not ordinary `main`/C7 activation.
+A prior native smoke without a preserved raw log is not counted as acceptance.
+Refreshed current-main EN tooling and actual released-reader checks passed; green tests do not replace
+the unresolved production-path findings, native gates or publication checks.
 The [design](DESIGN.md) remains authoritative for language/source behavior. This plan changes delivery order,
 not the agreed independent histories, Japanese target, Latin romaji or no-English-fallback policy.
 [Independent review and reconciliation](https://github.com/stop-cran/learning-japanese-ru/issues/5#issuecomment-6599641819):
@@ -63,6 +91,12 @@ Exit: compatibility matrix and exact transport are green and documented. Do not 
 app at a draft RU package or raise the live EN schema just to exercise RU rejection.
 
 ## C2: complete instructions before teaching-content authoring
+
+First usable instruction revision implemented and independently accepted at RU
+`df6839f4292a52e3316cf040450de38b6adf9add`;
+[review and reconciliation](https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753).
+All identified source-rule omissions were restored. This instruction checkpoint permits pilot-A authoring,
+not publication acceptance; the original C2 contract below remains the reference for future instruction updates.
 
 - Freshly enumerate EN instructions, scoped authoring files, reviewer agents and normative references;
   compare with the planning inventory and document retain/adapt/replace/remove decisions.

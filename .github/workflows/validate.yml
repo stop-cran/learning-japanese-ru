@@ -1,0 +1,21 @@
+name: Validate Russian content
+on:
+  push:
+    branches: [main, ru-pilot-a]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tools -p "test_*.py"
+      - run: python tools/validate.py
+      - run: python tools/check_content_budget.py
+      - run: |
+          python tools/build_manifest.py
+          git diff --exit-code manifest.json
