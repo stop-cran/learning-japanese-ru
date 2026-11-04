@@ -251,7 +251,20 @@ not adoption of the whole optional source article.
 [Exact hashes, actual review scope and limits](translation-batches/004-entry-exit-review.json)
 remain separate from public-archive CI evidence and all release/device/media gates.
 
-Current runtime membership is **170 objects**: 17 kanji, 126 words, 17 strokes and unchanged
-other families. Full-target statuses are **167 reviewed-current**, three partial,
+After batch 004, runtime membership was **170 objects**: 17 kanji, 126 words, 17 strokes and unchanged
+other families. Full-target statuses were **167 reviewed-current**, three partial,
 two reviewed runtime-blocked drafts and **8,106 pending**; **8,108 runtime paths remain absent**.
+
+Batch **005 — books and study** completes 本, 28 full word articles and one byte-identical
+KanjiVG file. The required negative-reference closure added six complete perception/calendar
+articles before authoring; no source distractor was discarded to shrink scope.
+Independent whole reading of all29 RU/EN texts,31 exact dictionary objects and154 actual
+Russian answer labels returned CLEAN on all three facets, with no established finding.
+The source-based 生 suffix clarification and six individually justified direct guards are
+recorded with exact hashes and real scope/limits in the
+[batch review](translation-batches/005-books-study-review.json).
+
+Current runtime membership is **200 objects**: 18 kanji,154 words,18 strokes and unchanged
+other families. Full-target statuses are **197 reviewed-current**, three partial,
+two reviewed runtime-blocked drafts and **8,076 pending**; **8,078 runtime paths remain absent**.
 Continue the finite remaining corpus without retargeting the frozen English revision.

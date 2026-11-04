@@ -8,12 +8,20 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-The fourth full-target source batch is independently accepted: two kanji, 14 full word
+The fifth full-target source batch is independently accepted: 本,28 complete word articles
+and one exact KanjiVG file. [Batch005](translation-batches/005-books-study-review.json)
+records whole29-text RU/EN reading,31 complete dictionary objects and154 actual answer labels;
+all three facets CLEAN, no findings. Runtime membership is now200;8,076 frozen objects remain
+pending, three are partial and two reviewed drafts remain runtime-blocked. Continuous source
+authoring proceeds; no release/device/media permissions or frozen pilot refs change.
+
+The fourth full-target source batch was independently accepted: two kanji, 14 full word
 articles and two exact KanjiVG files. [Batch 004](translation-batches/004-entry-exit-review.json)
 records actual full reading of all16 RU/EN texts, source-based reading-table correction
 and bounded grammar adaptation; all three facets CLEAN, no findings. Runtime membership
-is now170; 8,106 frozen objects remain pending, three are partial and two reviewed drafts
-remain runtime-blocked. Continuous source authoring and separate release gates remain.
+was170;8,106 frozen objects then remained pending, three partial and two reviewed drafts
+runtime-blocked. Its exact source CI41867262069 has now succeeded; actual public archive
+and170 runtime hashes were separately verified, without device/release acceptance.
 
 The third full-target source batch was independently accepted: 19 complete kinship/relationship
 word articles, actual full review and an exact six-pair correction recheck.

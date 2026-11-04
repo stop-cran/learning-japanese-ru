@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "batch": "005-books-study",
+  "state": "independently-reviewed-source-accepted",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "reviewedRussianCommit": "875ece941ec1da5e17a282f7d4d4f0299495e38c",
+  "exactFileHashes": "docs/translation-batches/005-books-study-candidate.json",
+  "independentReview": {
+    "reviewer": "GitHub Copilot; ru-005-full-readonly-review",
+    "model": null,
+    "modelLimit": "Unavailable, not guessed.",
+    "actualScope": {
+      "learnerTexts": 29,
+      "fullRussianAndFrozenEnglish": true,
+      "paths": "All one kanji and28 words listed in the exact scope/candidate.",
+      "russianWorkingBytes": 73630,
+      "russianLines": 1141,
+      "frozenEnglishBlobBytes": 45745,
+      "frozenEnglishLines": 1009,
+      "dictionaryQueries": 31,
+      "dictionarySenses": 120,
+      "dictionary": "All31 complete captured objects, all forms, senses, restrictions, tags, information and attribution;12 Wikipedia pseudo-definitions not treated as blanket lexical authority.",
+      "baselineAnswerLabels": 126,
+      "newAnswerLabels": 28,
+      "allBaselineBodies": false,
+      "baselineFullRussianAndEnglishBodies": [
+        "words/おしゃべり.md",
+        "words/ぺらぺら.md",
+        "words/休む.md",
+        "words/友達.md",
+        "kanji/木.md",
+        "kanji/休.md",
+        "kanji/大.md",
+        "kanji/日.md",
+        "kanji/人.md",
+        "kanji/月.md"
+      ],
+      "other": "All requested active guidance/rubrics/methodology/format/worked-adaptation documents; full frozen counters/hon.json as supporting evidence only; relevant confusable inventory rows/context; embedded complete KANJIDIC2 本 entry; stroke schema, geometry and license.",
+      "incompleteAssignedLearnerReads": []
+    },
+    "verdicts": {
+      "japaneseCorrectness": "CLEAN",
+      "adoptedCoverageAndConsistency": "CLEAN",
+      "russianComprehensibilityAndCombinedPool": "CLEAN"
+    },
+    "verification": [
+      "All30 sourceRaw/source-LF/RU-working-raw/RU-LF records match their stated byte domains; unchanged preauthoring freeze verified.",
+      "Technical metadata/levels and all nine source direct distractor pairs remain exactly; all32 relative-link occurrences resolve, both required 本/word reading pairs closed.",
+      "All170 prior manifest entries and raw Git runtime blobs unchanged, exact30 additions, all200 current manifest hashes verified, independently recomputed version52da0874c45aa4b6.",
+      "All154 actual word labels verified from front matter and considered semantically, not just for string uniqueness; no confirmed missing or unjustified direct pair.",
+      "Each of six added guards independently defensible: two language under-specification guards, 教室/授業 lesson overlap, 教室/学校 explicit school sense, and two speech/chatter overlaps. No transitive clique or grammatical equivalence asserted.",
+      "Source 聞く/聞こえる and 見る/見える/見せる/会う distractors retain distinguishable actual Russian meanings; broad institutional relation alone does not force 学校/大学 exclusion.",
+      "学生 生 clarification supported by captured student suffix restricted toせい and whole先生 lexical born-earlier explanation; no universal person-forming rule.",
+      "日本語 acknowledges capturedにっぽんご while teaching usualにほんご; 日本語/国語 tendencies not prohibitions. 書く usual spelling distinction does not deny captured secondary drawing sense.",
+      "本 readings/radical/stroke count agree with captured entry; all numbered/question readings and eight/ten variants retained, books count冊. History and standaloneもと qualifiers inherited, not inferred from frequency flags.",
+      "Complete self-contained Russian adaptations preserve Japanese functions, all source forms/examples/contrasts and source epistemic limits, without English placeholders or invented levels.",
+      "Complete stroke JSON inspected: schema1, 本, five ordered strokes,16 finite in-box points per stroke; raw bytes equal exact frozen source and candidate including line endings.",
+      "本 stroke raw SHA256 c6f486af161386a014b1967bd79a7d084fdfdee8b8c117b4579c959da4bbb787; KanjiVG revision, CC BY-SA3.0 and applicable NOTICE retained.",
+      "Tracking/progress still at accepted170 during review, candidate genuinely pending; no author preapproval or checkpoint authority."
+    ],
+    "findings": [],
+    "optional": [],
+    "proceduralException": "Initial oversized guidance command caused automatic output spill. Reviewer did not open/use spill; required originals subsequently read in bounded ranges. Run not entirely spill-free; no required substantive ranges remain unread.",
+    "limits": [
+      "Recorded124-test/zero-validator/budget receipts read, not rerun or independently witnessed.",
+      "Embedded PGP headers observed, not independently cryptographically verified; author verifies separately.",
+      "Historical archive/CI/signature trust not freshly independently reproduced; dictionary services not re-fetched.",
+      "Read-only: no authored files, tests/builds/generators, delegation, workflows, translators, integration/ref changes or competing checkout changes.",
+      "No bitmap adopted/pixel inspection claimed. Captured dictionary pseudo-definitions and archaic/historical/homograph senses not wholesale adopted.",
+      "Bounded content review, not whole-corpus/native-speaker/historical-etymology/learning-effectiveness/device/publication/production acceptance."
+    ]
+  },
+  "authorDisposition": "Accept the bounded29-text complete source translation after actual independent full three-facet review with no established finding. No learner bytes changed after reviewed snapshot.",
+  "releaseSeparation": "No media-package authority, ordinary RU activation, checkpoint/tag advancement or app/device acceptance.",
+  "authorValidation": {
+    "validator": {
+      "command": "python tools\\validate.py",
+      "exitCode": 0,
+      "output": "0 error(s)\r\n"
+    },
+    "unittest": {
+      "command": "python -m unittest discover -s tools -p test_*.py",
+      "exitCode": 0,
+      "seconds": 35.075,
+      "output": "............................................................................................................................\r\n----------------------------------------------------------------------\r\nRan 124 tests in 34.721s\r\n\r\nOK\r\n"
+    },
+    "budget": {
+      "command": "python tools\\check_content_budget.py",
+      "exitCode": 0,
+      "output": "{'files': 207, 'entries': 216, 'retainedBytes': 580676, 'inflatedBytes': 594093, 'localZipBytes': 348041, 'listeningTaskMediaBytes': 0}\r\n"
+    },
+    "manifest": {
+      "command": "python tools\\build_manifest.py",
+      "exitCode": 0,
+      "output": "manifest.json: 200 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 52da0874c45aa4b6\r\n"
+    },
+    "scope": "All four checks serial on unchanged reviewed candidate runtime; final documentation/tracking does not change runtime. Validator/budget/manifest rerun on final combined tree.",
+    "trackingCorrection": "First fresh-report assertion correctly stopped: all30 new accepted records omitted explicit coverage field, so helper conservatively reported33partial/167reviewed-current. Retained actual initial report privately; added coverage:complete only to these fully independently reviewed30 records. No runtime/helper/test changes or historical rewrites.",
+    "signaturesVerified": [
+      "51b219de951a1038f6a3f108af7f758625a61ad7",
+      "20f02d3872c1519fbfcd86803f18833b8ab65230",
+      "875ece941ec1da5e17a282f7d4d4f0299495e38c"
+    ],
+    "progress": {
+      "runtimeEntries": 8278,
+      "adoptedEntries": 200,
+      "statuses": {
+        "draft-reviewed-runtime-blocked": 2,
+        "partial-reviewed": 3,
+        "pending": 8076,
+        "reviewed-current": 197
+      },
+      "russianContentVersion": "52da0874c45aa4b6",
+      "checkpointAuthority": null,
+      "checkpointReady": false,
+      "sha256": "7c81428b0e9735424a0c888bd56882fe0c699fbca210a533d17fe1015420c008"
+    },
+    "historicalPreservation": "All170 prior tracking records and every other tracking section unchanged; immutable historical ledger and pilot/full-review records untouched."
+  }
+}
