@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "batch": "009-clothing-accessories",
+  "state": "actual-independent-full-review-with-provenance-finding",
+  "reviewer": {
+    "agentId": "9b58e590-e117-4c0f-8655-9335f8b7b801",
+    "name": "ru-009-full-readonly-review",
+    "role": "One read-only reviewer covering all three required facets",
+    "model": null
+  },
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "candidateCommit": "6611988e712b8d2599696fd1e39a34895f940a56",
+  "russianBaselineCommit": "dc5c9a3e1b858ff081420a1c4b3edc901efdc833",
+  "preauthoringFreezeCommit": "49e5eba2e4988d5affdb5db49542d26f6ab430ec",
+  "actualSnapshotVerification": {
+    "candidateSignature": "Reviewer observed good Git signature",
+    "suppliedReceiptRawHashes": "4/4 match",
+    "candidateSourceRuRawLfFingerprints": "92/92 match",
+    "sourceRuNormalizedWorkingVersusSignedBlobs": "46/46 match",
+    "sourceScopeFingerprints": "46/46 match",
+    "frozenScopeDictionaryIdentity": "Both remain identical to freeze",
+    "baselineRuntimeNormalizedTextRawBinaryHashes": "227/227 unchanged",
+    "workingByteDomain": "All23 RU articles CRLF; committed blobs LF, explicitly distinguished",
+    "untrackedBoundary": "Only disclosed tools/__pycache__/"
+  },
+  "actualReading": {
+    "completeRuEnPairs": 23,
+    "paths": [
+      "words/服.md", "words/洋服.md", "words/シャツ.md", "words/ワイシャツ.md",
+      "words/靴.md", "words/靴下.md", "words/帽子.md", "words/コート.md",
+      "words/上着.md", "words/ズボン.md", "words/スカート.md", "words/セーター.md",
+      "words/背広.md", "words/ネクタイ.md", "words/ハンカチ.md", "words/ポケット.md",
+      "words/眼鏡.md", "words/傘.md", "words/時計.md", "words/着る.md",
+      "words/履く.md", "words/脱ぐ.md", "words/掛ける.md"
+    ],
+    "scope": "Every complete actual metadata/body/example/reading/explanation/qualifier/citation in all23RU and23frozenEN articles",
+    "dictionaryQueries": 27,
+    "dictionaryEntries": 29,
+    "dictionarySenses": 96,
+    "dictionaryJapaneseForms": 52,
+    "dictionaryLimits": "All restrictions/source notes/attributions read;16Wikipedia pseudo-definitions not lexical proof",
+    "combinedAnswerLabels": 204,
+    "actualAnswerPoolFieldsVerified": "1224/1224 fields match actual cards",
+    "completeBaselinePairs": ["words/時間.md"],
+    "completeRelevantRuBaselineBodies": [
+      "kanji/時.md", "words/入れる.md", "words/出す.md", "words/話す.md", "words/月日.md"
+    ],
+    "historicalAuthority": "Actual accepted 時間 tracking record read",
+    "normative": "Active global/scoped instructions, all3 reviewer rubrics, requested methodology/reference/worked-adaptation documents, frozen confusable policy andCW020",
+    "external": "Actual Jisho HTML spelling-note spans for時計/背広/脊広; actual named Nipponica complete etymology paragraph, adjacent material and source attribution, not first aggregate block"
+  },
+  "facets": {
+    "japaneseCorrectness": "CLEAN within adopted teaching scope",
+    "coverageDependenciesQuizConsistency": "FINDINGS: one low-severity provenance discrepancy, no learner-content defect established",
+    "russianLearnerComprehension": "CLEAN for article text"
+  },
+  "findings": [
+    {
+      "id": "R1",
+      "severity": "low",
+      "facet": "provenance/coverage",
+      "confidence": "high",
+      "path": "docs/translation-batches/009-clothing-accessories-adjudication-clarification.json",
+      "line": 11,
+      "claim": "Complete capture retains がんきょう as evidence",
+      "actual": "Captured眼鏡 entry lists onlyメガネ and眼鏡/めがね at dictionary lines1252–1260. Original editorial overstatement at2860 is not lexical evidence.",
+      "requestedFix": "Clarify thatがんきょう is neither in this captured lexical entry nor adopted in learner prose. Preserve immutable original dictionary receipt; do not add a reading to runtime眼鏡.",
+      "initialStatus": "open"
+    }
+  ],
+  "actualSubstantiveConclusions": [
+    "All4 symmetric guards individually justified; no additional clothing-wide/transitive exclusion clique established.",
+    "All7 retained internal links resolve;17 flattened targets retain substantive teaching.",
+    "時計 physical-device gloss distinct from時間 quantity/duration/appointed-time meanings; historical adaptation does not warrant restoring[時代,時計] or unscoped時代.",
+    "掛ける retains hanging/phone teaching and precise okurigana terminology.",
+    "背広 preserves competing etymologies and correctly attributes Nipponica to石山彰."
+  ],
+  "limitations": [
+    "CLEAN is bounded absence of established learner defect, not native certification.",
+    "App mapping gaps25occurrences/23cards remain unverified rendering follow-up.",
+    "Native option-pool, device, media and release gates remain pending.",
+    "No reviewer edits, tests/builds, agents/workflows or Git-ref writes; supplied validation remains author evidence."
+  ],
+  "reviewStatus": "full-review-returned-provenance-correction-required-not-yet-accepted"
+}
