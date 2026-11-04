@@ -471,8 +471,8 @@ all Japanese/technical/accepted forms, other ten new files and all305 baseline R
 remain unchanged. This narrower proof is not a second whole122-expression semantic review.
 The original NEEDS FIX report remains historical; all three composite source/text facets are CLEAN.
 
-Current membership is **316 runtime objects**:18 kanji,250 words,18 strokes,2 articles,22 counter
-files,1 grammar set,2 scene catalogs and3 images. Fresh strict8278-entry progress has
+At the batch013 milestone membership was **316 runtime objects**:18 kanji,250 words,18 strokes,2 articles,22 counter
+files,1 grammar set,2 scene catalogs and3 images. Its strict8278-entry progress had
 **316 reviewed-current**, **no partial units**, **two reviewed runtime-blocked drafts** and
 **7,960 pending**; **7,962 runtime paths remain absent**. All305 earlier tracking records and
 non-record sections are unchanged. Checkpoint authority remains null and checkpointReady false.
@@ -487,3 +487,42 @@ were not newly consulted, and automated editorial evidence is not native/exhaust
 Android/phone/IME/media/activation/release approval. C6/C7 and four frozen pilot/controlled refs
 remain separate and unchanged. Continue remaining N5 calendar/time words, freezing their actual
 direct dependency/negative-reference closure before authoring, then continue all remaining families.
+
+Batch **014 — calendar/time vocabulary** completes38 full word articles:34 N5 roots and four
+mandatory negative-reference dependencies. Source levels remain35 N5/two N4/one N3; no N1 coverage
+is invented. The15 original direct exclusions/distractors survive. Six additional individually
+evidenced Russian guards protect shared morning meaning and actual breakfast/dinner senses against
+the inspected baseline labels. They are not a transitive daypart/meal clique or blanket adoption
+of every captured sense. All316 prior runtime RAW objects and tracking records remain unchanged.
+
+[Actual composite review](translation-batches/014-calendar-time-words-review.json) preserves full
+1302EN/1271RU-line reading, all38 titles and152 sections, all288 actual displayed meanings and seven
+complete supporting baseline bodies. All45 complete dictionary entries/70 forms were inspected;
+81 returned sense objects comprise64 lexical senses and17 Wikipedia pseudo-definitions, not81
+lexical senses plus17. The latter are not lexical proof. Source-specific reading restrictions,
+mixed on/kun classification, calendar periods versus durations and recurrence versus all-night
+activity remain explicit. Optional navigation has49 retained/64 flattened references, with no
+substantive teaching removed or English placeholder cards added.
+
+One genuine minor finding narrowed夕方 to time before evening. The exact clause was corrected to
+«конец дня или ранний вечер» and independently rechecked against the complete original/current/source
+朝 articles and existing晩/夜 comparisons. Other37 new files, all Japanese/technical fields and
+all316 baseline RAW objects are unchanged. Two active boundary-meaning guidance lines accompany the
+repair; three earlier API-pseudo-definition guidance lines remain. This is a whole38 review plus
+a real narrow correction proof, not two whole38 semantic reviews. The initial NEEDS FIX receipt
+is preserved; all three final composite source/text facets are CLEAN.
+
+Current membership is **354 runtime objects**:18 kanji,288 words,18 strokes,2 articles,22 counter
+files,1 grammar set,2 scene catalogs and3 images. Fresh strict8278-entry progress has
+**354 reviewed-current**, **no partial units**, **two reviewed runtime-blocked drafts** and
+**7,922 pending**; **7,924 runtime paths remain absent**. All316 old tracking records/non-record
+sections remain unchanged. Checkpoint authority remains null and checkpointReady false.
+Actual final serialized checks:0 errors/124 tests32.911s; budget361files/370entries/
+1163599retained/1177016inflated/581157localZIP bytes; version `636066eada6c6783`.
+
+The immutable pinned app function exposes seven unmapped canonical IDs across21 occurrences/
+20 new cards; some IDs were already known. This is a recorded app-hint follow-up, not permission
+to edit the concurrent app or translate technical IDs. No grammar contexts/assets/media or app
+changes were made. Source publication does not grant native/device/IME/C6/C7/media/package/
+activation/release/checkpoint authority or move any frozen runtime ref. Continue the next safe
+remaining N5 kanji/words/support batch, then every remaining level and source family against6af98cb.

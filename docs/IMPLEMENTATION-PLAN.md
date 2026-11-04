@@ -8,22 +8,42 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-The thirteenth full-target source batch completes eleven missing N5 schema2 number/time files:
+The fourteenth full-target source batch completes38 full calendar/time word articles:
+34 N5 roots plus four mandatory source negative-reference dependencies, preserving35 N5/two N4/
+one N3 levels. [Batch014](translation-batches/014-calendar-time-words-review.json) records actual
+whole1302EN/1271RU-line reading,38 titles/152 localized sections, all288 displayed meanings and seven
+complete supporting baseline bodies. All15 source edges and six individually evidenced new Russian
+guards survive; no meal/daypart transitive clique or indiscriminate sense adoption was added.
+One genuine minor source-fidelity finding required夕方's comparison to include early evening.
+The exact one-clause repair and two active guidance lines were independently rechecked; the other37
+new files, all Japanese/technical data and all316 earlier runtime RAW objects are unchanged.
+Initial NEEDS FIX evidence remains historical; the final composite three source/text facets are CLEAN.
+Current membership354; strict8278-entry statuses354reviewed-current, no partial, two reviewed
+runtime-blocked drafts and7,922pending, with7,924runtime paths absent. All316 earlier tracking records/
+non-record sections remain unchanged; checkpoint authority null/Ready false.
+Final serialized checks:0errors/124tests32.911s; budget361files370entries1163599retained/
+1177016inflated/581157localZIP bytes; version `636066eada6c6783`.
+Actual dictionary counts are45entries/70forms/81returned sense objects, including17Wikipedia
+pseudo-definitions, not81lexical+17. Seven pinned-app unmapped IDs affect21 occurrences/20 new
+cards; canonical IDs remain stable and the concurrent app was not changed.
+No new assets/grammar contexts/media or native/device/IME/activation/release authority follows.
+Continue the next safe remaining N5 kanji/words/support batch and then all remaining source families.
+
+The thirteenth full-target source batch completed eleven missing N5 schema2 number/time files:
 122 complete expressions,255 Russian learner-text leaves,392 written-answer occurrences and149
 reading-answer occurrences. [Batch013](translation-batches/013-n5-number-time-expressions-review.json)
 records actual whole2064EN/2064RU-line reading and one genuine minor finding: `24 дней` required
 `24 дня`. The exact cue-only correction and two-line active guidance lesson were independently
 rechecked; all other254 leaves, all Japanese/technical/accepted data and all305 prior runtime
 RAW fingerprints remain unchanged. The narrower check is not a second whole122-expression review.
-Current membership is316; strict8278-entry statuses are316reviewed-current, no partial, two reviewed
+At that milestone membership was316; strict8278-entry statuses were316reviewed-current, no partial, two reviewed
 runtime-blocked drafts and7,960pending, with7,962runtime paths absent. All305 earlier tracking
 records/non-record sections remain unchanged; checkpoint authority is null and Ready remains false.
 Final serialized checks:0errors/124tests28.490s; budget323files332entries1077037retained/
 1090454inflated/534880localZIP bytes; version `2d5ac8dd3491a7de`.
 Calendar/timepoint/duration and canonical-versus-alternate-reading constraints survive in Russian.
 No word-quiz/grammar/media/app changes or native/exhaustive/parser/device/activation approval follows.
-Continue remaining N5 calendar/time words against the same finite frozen source, with actual direct
-dependency/negative-reference closure frozen before the next authoring batch.
+The subsequently frozen calendar/time word scope was completed and reviewed as014 above.
 
 The twelfth full-target source batch completed the full ten-file N5 schema1 counter component:
 nine new files plus completion of the partial `tsu.json`,124forward cards/20reverse fixtures/
