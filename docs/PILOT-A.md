@@ -1,10 +1,64 @@
 # Pilot A execution dossier
 
 Status: exact pilot A authored and packaged for the first app/content experiment;
-independent teaching review accepted; app/import/native/publication acceptance pending.
+independent teaching review accepted; reviewed C4 runtime candidate published on `ru-pilot-a`;
+bounded Pilot A signed-native C5 integration accepted through Native15; testing-branch publication
+authorized. C6 structured/media, C7 release and ordinary Russian activation remain separate.
+Earlier pending/failed dispositions below are retained chronologically, not current gate status.
 Execution follows [C0-C5](IMPLEMENTATION-PLAN.md). This dossier does not activate the ordinary Russian default.
 C2 adoption: `df6839f4292a52e3316cf040450de38b6adf9add`,
 [independent implemented-instruction review](https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753).
+
+## Controlled-source follow-up
+
+The user explicitly authorized a temporary public integration-test repository, separate from both
+official editions. Its initial valid source is
+[`6f93547aee6dc258ea7f546739d8b7df916def9c`](https://github.com/stop-cran/learning-japanese-ru-integration-test/tree/6f93547aee6dc258ea7f546739d8b7df916def9c).
+All51 runtime bodies, including12 raw strokes, match the reviewed official pilot exactly.
+The six actual exported fixtures are verified; invalid branches change only the documented
+language metadata/checksum, not teaching text. No learner data is published.
+The bounded native execution is assigned, not yet accepted:
+[plan and authorization](https://github.com/stop-cran/learning-japanese-ru/issues/5#issuecomment-6625623307).
+Test `main` may advance through the prepared corruption and repair commits; official heads stay fixed.
+Native13 now has parent bounded acceptance for actual custom admission, same-language RU retention
+and same-glyph/source history separation. Two real custom meaning answers add only2states/2logs/
+1session; all official8/11/5 records are unchanged, final10/13/6 and official RU source restored.
+Both invalid metadata candidates receive generic localized rejection, not an exact-cause diagnosis.
+The unfiltered27-word count and cross-language custom alignment remain unproven. Corrupt-update/
+interruption checks were not run because the harness used the default GitHub account; parent has
+verified an operation-local owner credential and push permission. Task-file absence is not proven
+by the failed unscoped cleanup probe; exact owned processes/ports are absent.
+[Native13 disposition](https://github.com/stop-cran/learning-japanese-ru/issues/5#issuecomment-6626137522).
+Native14 additionally verifies actual English-to-Russian custom import without default-source
+replacement and corrupt same-source candidate Save/repaired retry. Five real SQLite/WAL copies
+pass integrity checking; all retain12kanji/27words and every progress row. The rejected update's
+entire DB/WAL/SHM archive is byte-identical to baseline; final genuine export exactly retains
+Native13's10/13/6, with no new answers, and official RU/Russian relaunch is restored.
+The one attempted pending interruption had already committed valid-pilot before the stop;
+the actual DB overrides the contradictory false summary flag. AVD-name property output was
+empty, so launch metadata/API29 do not become a direct pre-app named-device probe.
+Actual30-path cleanup, restored network profile, exact owned process absence and unchanged
+signed APK are parent verified. No wholeC5/C7 acceptance or further native assignment.
+[Native14 disposition](https://github.com/stop-cran/learning-japanese-ru/issues/5#issuecomment-6626796016).
+Native15 resolves the remaining pending-validation boundary in one user-approved direct check.
+Actual namedAPI29 preflight and installeda7a9 bytes are verified. Test-app UID-only IPv4/IPv6
+HTTPS drops count2packets/120bytes; a realChecking frame and fresh durable pending token precede
+force-stop at1.8491112seconds afterSave, before the8second request timeout. Post-stop Room still
+accepts official544dd15 and its entire DB/WAL/SHM archive is byte-identical. All5SQLite/WAL
+snapshots pass integrity checking with all30tables equal, both12/27caches and all10/13/6 rows.
+Relaunch clears the abandoned token and retains officialRU/explicitRussian/actualHome. Both
+complete firewall sets restore byte-for-byte;13exact XML files and owned PID/ports are absent.
+481original hashes are verified. App instructions preserve the actual fault-control mechanism.
+C5's bounded Pilot A gate is accepted; no mid-body/post-commit crash or C6/C7 claim.
+Testing branches: app/RU docs`ru-pilot-a-integration`, EN tooling`en-language-contract-pilot`.
+[Native15 acceptance](https://github.com/stop-cran/learning-japanese-ru/issues/5#issuecomment-6627649531).
+
+EN compatibility was refreshed separately at `ab874b6136ad664f7ede1f7ee2adcc2a9f44d7d6`.
+The generated schema1 `en/ja` package has content version`5f51b3c30c61a8be`;368 tooling tests,
+validator0,budgets/vocabulary checks and8266 runtime hashes pass, with incoming runtime hashes
+unchanged. Actual released-reader2/current-reader2 cases each pass without skips or failures.
+This is an unpublished compatibility candidate, not an update to this pilot's teaching provenance:
+[exact record](https://github.com/stop-cran/learning-japanese/issues/61#issuecomment-6625623363).
 
 ## Frozen sources
 
@@ -12,6 +66,8 @@ C2 adoption: `df6839f4292a52e3316cf040450de38b6adf9add`,
 - Android committed baseline: `fec3c0a9d7485b50be3f13212098ff8772fb665b`, with earlier unrelated Home/quiz UX
   edits preserved in the worktree. Localization validation must identify those combined test inputs.
 - RU baseline: `ede53dc2e562b93997736fc14d279523daa1a92a`.
+- Signed public C4 runtime candidate: `544dd15f6a07e53042bdb488b9d7a04da9685313` on `ru-pilot-a`;
+  main/default activation remains closed.
 - Shared language tooling is a separate C1 change from these sources; record its accepted commit with the final package.
 - The fresh instruction inventory/adaptation matrix belongs to C2. A source SHA alone is not instruction or translation acceptance.
 
@@ -55,9 +111,9 @@ the real structured/media cohort is C6 after first-gate corrections.
 | --- | --- | --- |
 | C1 | language metadata hashing, EN schema1/RU schema2, invalid declarations, neutral counter alias | tooling/current-main and actual new/released-reader checks pass; reported parser/authority findings resolved at bounded code-review boundary; native importer/publication gates separate |
 | C2 | full RU author/reviewer instructions, fresh inventory, independent review/reconciliation | independently reviewed and adopted; all identified source-rule omissions resolved |
-| C4 | complete 12/27 translated files, 12 unchanged strokes, exact hashes/links/exclusions, notices, independent correctness/coverage/RU review | independent bounded content acceptance after all eight corrections; app/import/native/publication acceptance pending |
-| C3 | complete app strings/labels/speech, safe locale/source/cache transitions, focused tests/build/native shell | retained correction batches pass; all reported code findings reconciled and final one-issue review CLEAN; native shell/C5 remains pending |
-| C5 | exact signed APK/public runtime archive, real API29/35 sync/quiz/article/IME/offline/source-history evidence | integration pending |
+| C4 | complete 12/27 translated files, 12 unchanged strokes, exact hashes/links/exclusions, notices, independent correctness/coverage/RU review | independently accepted, signed candidate published and real public archive verified after raw-byte correction; signed-release/C5/C7 acceptance separate |
+| C3 | complete app strings/labels/speech, safe locale/source/cache transitions, focused tests/build/native shell | retained correction batches pass; all reported code findings reconciled and bounded reviews CLEAN; native pilot acceptance is recorded with each exact APK scope |
+| C5 | exact signed APK/public runtime archive, real API29/35 sync/quiz/article/IME/offline/source-history evidence | bounded Pilot A gate accepted through Native15; actual pending-validation interruption closes the final case; C6/C7/ordinary activation remain separate |
 
 Record meaningful verified defects, ownership, fixes, affected checks and instruction/plan updates here or in RU #5.
 No finding quota; no inherited EN, plan, media or physical-device acceptance. No phone installation/testing is claimed.
@@ -320,13 +376,375 @@ The immutable signed release copy still hashes to
 `060cbc50787d2d22d12355a591adca7f2904bc67c7f5da56452c395a4de5bd5a`;
 its separate API 35 smoke installs and launches actual release `MainActivity`, but does not import RU.
 
-The next bounded batch is actual signed-release Settings English/System choice and normal-restart
-persistence at both APIs/font sizes. As explicitly allowed by C4, the reviewed runtime is being
-prepared for the public `ru-pilot-a` candidate branch so the subsequent signed-release import uses
-the real delivered repository instead of an HTTP fixture. Public archive identity will be recorded
-separately from the accepted teaching-export hash; RU `main`/ordinary C7 activation remains closed.
+The actual signed-release selector/restart batch is now complete, as recorded below.
+As explicitly allowed by C4, the reviewed runtime is published only on `ru-pilot-a` so the next
+signed-release import uses the real delivered repository instead of an HTTP fixture. Public archive
+identity is separate from the accepted teaching-export hash; RU `main`/ordinary C7 activation remains closed.
 Production remains frozen unless a proven defect is reported. All broader Settings/source/offline/
 progress/IME/drawing/capture/voice/notification C5 gates remain separately open.
+
+### Second C5 batch: signed-release selector and normal restart
+
+Four real Settings English -> System -> English flows completed on API 29/35 at font scales 1.0/1.5.
+The parent independently checked all 84-command raw driver streams per configuration, selected-state
+screenshots, installed APK hash/signer, and ordinary force-stop/relaunch persistence after each choice.
+The exact signed APK remains `060cbc50787d2d22d12355a591adca7f2904bc67c7f5da56452c395a4de5bd5a`
+(51,517,714 bytes), certificate SHA-256
+`c059f19f7f7eef8f984618632b525f3cf7479afd834984dda169910640b4ad1f`.
+Retained records: `ru-app-c5-native-batch2` and `ru-app-c5-native-batch2-parent-verification.txt`.
+[Verified owner app record](https://github.com/stop-cran/kanji-cards-android/issues/127#issuecomment-6610466990)
+and [partial integration record](https://github.com/stop-cran/learning-japanese-ru/issues/5#issuecomment-6610467170).
+
+API 35's actual locale probes show `[en]` for English and `[]` for System, including after restart.
+API 29 has no `cmd locale` service; its 11 unavailable probes per flow return 20, while all other
+commands return 0. Its selected-intent proof is the real postrestart radio screenshot, not an
+invented platform query. The Compose hierarchy exposes option labels but not a checkable selected
+node; screenshot verification is required. One failed tablet-coordinate attempt is preserved and
+excluded. No crash/ANR was found in the retained logcats. Fonts/locales were restored, packages
+removed and only the two owned AVDs stopped.
+
+This is an ADB-driven real signed-release selector/normal-restart smoke, not instrumentation,
+physical pre-acknowledgement death, source import, external Android Settings return or full C5.
+The page showed default EN URL/`main`; this does not establish imported content/cache restoration.
+At API 29/font 1.5 the adjacent Intensive studying control wraps vertically/clips; language radios
+remain usable, but enlarged whole-Settings acceptance is not clean. Baseline-versus-RU causality
+is under bounded triage; no production fix has been made.
+
+### Third C5 batch: real public RU import and two Settings defects
+
+All four actual signed-release UI flows completed on API 29/35 at font scales 1.0/1.5,
+using the frozen `060cbc...5bd5a` APK. The parent independently checked all installed `base.apk`
+bytes and full raw traces (119/114/122/95 commands respectively), actual candidate and postrestart
+fields `https://github.com/stop-cran/learning-japanese-ru` / `ru-pilot-a`, Russian questions/options/
+correct feedback and API 35's retained `[ru]`. Settings showed content version `afe5c99e66524d95`.
+The originally returned report omitted `-ru` once; raw evidence shows the correct RU URL in all
+four configurations. That original report is preserved at SHA-256
+`cf97341a3ddabb3c8652181f975e235137caef6995a85ece4f5c834400aa44ed`.
+Evidence: `ru-app-c5-native-batch3` and `ru-app-c5-native-batch3-parent-verification.txt`.
+[Verified owner native findings](https://github.com/stop-cran/kanji-cards-android/issues/127#issuecomment-6611440503)
+and [partial integration record](https://github.com/stop-cran/learning-japanese-ru/issues/5#issuecomment-6611440514).
+
+Ordinary questions were 人/川/日/水, each with four substantive Russian meaning choices and
+correct Russian feedback. The tablet captures additionally show the separate `Не знаю` action;
+it is not a fifth meaning option. No learning gate or progress fixture was injected.
+API 29/font 1.0 followed the actual 大 crosslink and API 35/font 1.5 the 木 crosslink, each returning
+to feedback. The other two render embedded Russian articles and return to Kanji; they are not
+claimed as nested-document Back acceptance. The native HTTP response/archive bytes were not
+captured. API 29/font 1.0 has no separate final logcat; other retained logcats had no app fatal/ANR
+match. One preliminary tablet uninstall failed before the successful install and completed flow;
+that command remains in the raw trace. Owned AVDs were restored/uninstalled/stopped.
+
+This confirms real public-source admission, automatic Russian UI alignment without a manual
+Russian-radio workaround, non-main branch retention and a narrow ordinary quiz path, not clean
+whole-app/native acceptance. Two concrete production findings reopen the app checkpoint:
+
+- Existing horizontal commitment/source-action Rows squeeze the longer RU labels. API 29/font 1.0
+  renders the default-repository action almost character by character; at 1.5 the commitment row
+  squeezes its second choice and hides the later one. The old English Row is inherited, but the
+  translated labels demonstrably expose a coupled narrow-width failure.
+- API 35's Russian postimport/settled Settings captures retain English
+  `Checking and importing the selected repository…`; after normal restart they show `Уже обновлено`.
+  This is a confirmed saved/status-lifecycle presentation gap, not just a speculative transient flash.
+
+Only these two responsive-layout/current-locale status fixes are authorized, with focused regressions,
+targeted review and a new signed artifact before more native testing. Diagnosis must preserve
+candidate generation ownership, real rotation-persistent validation errors, source authority and
+existing callback/default-confirmation semantics. No teaching/source/grading change is authorized;
+the reviewed public branch remains pinned. All broader C5 and C7 gates remain open.
+
+### Bounded Settings correction: static component acceptance, status followup
+
+The author replaced only the two affected Rows with FlowRows (8 dp horizontal/vertical gaps),
+preserving selection/default callbacks and gates. Candidate statuses now carry stable message
+identities, migrate known EN/RU saved strings, save acceptance before locale application, and clear
+orphaned checking rather than discard terminal errors.
+The parent independently parsed 33 JUnit results (0 failures/errors/skips), explicit final command
+statuses, all six source fingerprints and the focused delta. Lint/build/signature pass; Detekt
+retains only original ComposeUiTest LargeClass/MaxLineLength at lines 81/345.
+New APK: 51,534,098 bytes, SHA-256
+`603e3e7d67dc7a23eaf46315ec9c8dd8754e9d3943a4742ba66dc973852f3728`,
+same certificate. It has not been installed or run natively; the original `060cbc` artifact remains preserved.
+
+Direct bounded parent review accepts the responsive components at the static boundary, but returns
+NEEDSFIX for two strictly coupled status cases: saved invalid-URL strings are outside the new
+message migration map and retain the old locale; source equality is checked before a returned
+acceptance failure, potentially displaying Accepted/applying locale for a failed same-source update.
+The same completion path must not let an older ordinary-sync UpToDate hide the new candidate
+rejection when pending clears; candidate validation/acceptance does not publish ordinary activity.
+[Verified owner correction review](https://github.com/stop-cran/kanji-cards-android/issues/127#issuecomment-6612238696)
+and [integration gate record](https://github.com/stop-cran/learning-japanese-ru/issues/5#issuecomment-6612238725).
+Only these small rendering/completion followups and focused regressions are authorized. Existing
+candidate ownership, terminal errors, source protocol and all learning behavior must remain intact.
+Evidence: `ru-app-settings-correction`, focus diff SHA-256
+`b6b71480b983db797999dc645d28f484d7f9576400821b06d98d8296a7c6286a`,
+`ru-app-settings-correction-parent-review.md` and parent verification receipt.
+No new native/C5/C7 acceptance is claimed.
+
+### Settings completion accepted statically; native rerun candidate
+
+The returned status followup passed 22 cases. Parent completion-path corrections additionally
+guard successful stale callbacks as well as failures, clear only the failed current pending token,
+and preserve source/revision provenance when pending clears. Saved activity revisions carry a
+coordinator process epoch; a previous-process counter cannot hide a newer sync, even when equal.
+These methodological findings are in the app instructions. No teaching/schema/source-protocol
+change was made. Existing errors remain localized rather than erased.
+
+Final 25 focused cases pass with zero failures/errors/skips, lint/build/signature/diff check pass,
+and Detekt retains only the original ComposeUiTest findings at 81/345. The 33/22/25 executions
+overlap and must not be summed as unique coverage.
+New frozen APK: 51,534,098 bytes, SHA-256
+`8b96a453aebf35b051fc32e2cec4326bc4750ff1a22918e68c8dd7013f33525c`, unchanged signer.
+[Verified owner frozen-candidate disposition](https://github.com/stop-cran/kanji-cards-android/issues/127#issuecomment-6612678360)
+and [integration record](https://github.com/stop-cran/learning-japanese-ru/issues/5#issuecomment-6612678352).
+Evidence: `ru-app-settings-parent-finalization`, seven source fingerprints and exact parent delta
+`bfab982dc53d31bdb158ab1d3ade90eea95e71905e78ec17fa87340e97ed666f`.
+It has no native acceptance yet. A bounded four-configuration public-import rerun is next;
+earlier `060cbc` flows are not proof of this APK. All remaining C5 gates and ordinary main/C7 remain open.
+
+### Fourth C5 batch: corrected signed-release Settings gate
+
+All four API29/API35 x font1.0/1.5 actual public-source flows now use the frozen `8b96a453` APK.
+Parent verified all installed hashes/certificates, seven unchanged source fingerprints, physical
+artifact hashes and complete 209/206/166/179 command/status streams. Current-language acceptance,
+automatic RU alignment, wrapping/reachable choices/actions, same-source Save and normal restart
+pass at this bounded gate. Primary 大/山/水/火 questions show four substantive RU choices/correct
+feedback; nested 水/火 with Back to parent feedback are covered in two configurations.
+No Next was tapped, so committed history remains for the next batch.
+
+Evidence: `ru-app-c5-native-batch4`, parent verification JSON/text and parent report.
+[Verified owner disposition](https://github.com/stop-cran/kanji-cards-android/issues/127#issuecomment-6614846692)
+and [RU integration record](https://github.com/stop-cran/learning-japanese-ru/issues/5#issuecomment-6614847702).
+Screenshot
+stdout is retained in 154 PNGs, without separately logged stderr for those binary commands.
+Expected setup exits and helper/parser attempts are retained. No target crash/ANR was found;
+unrelated hotword-package failures are not attributed to the app. Owned measured inputs were
+restored/stopped; historical API29 font1.1 versus later1.0 remains explicitly unresolved.
+
+There is no native HTTP hash or observed version-footer proof here. The returned claim that
+Settings lacks a version field is corrected: production renders contentVersion below the captured
+viewports. Source/history/Kana/offline/recovery, reading/typing/drawing and broader language/custom
+cases remain open. No C5/C7 or ordinary rollout claim.
+
+### Follow-on localized notices
+
+Fresh Drawing/Readings remain legitimately locked under the two-day meaning rule; the displayed
+RU content-unavailable diagnosis was an unhandled producer-owned `UnlockRule.hint`, not a source
+admission failure. Both rules now reuse the existing exhaustive localized resource mapping, without
+changing unlock or admission policy. The sole Settings voice wrapper now leaves the full stop to its
+complete localized reason sentence in both locales. Five focused Home/Settings UI tests pass with
+zero failures/errors/skips, including both rule hints across EN/RU/EN recomposition; lint and release
+build, signature and scoped diff checks pass; Detekt has only original ComposeUiTest81/345.
+The new 51,534,098-byte APK is frozen as
+`0556d572fe261cb6b40788e383551efc3ec397fbcca5452f98d25beb863d1664`
+with the unchanged signer. Eleven current fingerprints/snapshots and raw checks are retained in
+`ru-app-notice-finalization`; affected native observations remain pending.
+App instructions record both adjudicated rendering invariants. Native4 acceptance remains attached
+only to `8b96a453...`; it is not acceptance of this follow-on build.
+[Verified notice checkpoint](https://github.com/stop-cran/kanji-cards-android/issues/127#issuecomment-6615099466)
+and [RU record](https://github.com/stop-cran/learning-japanese-ru/issues/5#issuecomment-6615100470).
+The next 45-minute native source/history batch is assigned on `0556d572...`, with no progress/teacher
+fixtures or authority edits. It includes actual Next/Kana continuity, offline recovery and affected
+initial notices/footer. Its results and parent verification remain pending.
+
+### Fifth C5 batch: API29 lifecycle, narrower API35 notices
+
+Parent verified all668 original artifact hashes,716 complete command/status records,161 PNG/XML/
+separate-empty-stderr pairs, eleven unchanged fingerprints and both installed APK/signature identities.
+All use frozen`0556d572...`; recorded ADB elapsed time is33.96 minutes.
+API29 normal UI executes EN/RU/EN/RU/EN, rejects ordinary RU main even with cached pilot, commits
+EN同/RU大 and later offline EN年 meaning answers with Next, and commits builtin Kanaよ→Latin`yo`.
+Aggregate source new allowances restore EN9/RU9, then EN8 after the offline commit; Kana9 persists
+through the later source switches. This is not inspection of individual history/SRS rows.
+Both localized rule hints appear for both locked modes without weakening eligibility; original
+policy is restored. Offline radio states/network-none and restored validated connectivity are retained;
+failed same-source Save keeps its source and unedited retry succeeds. API35 only covers retained RU
+selection, settled notices and footer, not source/quiz/Kana/offline.
+Actual footer versions EN`2793bdf7fa3bb180` and RU`afe5c99e66524d95` are captured; both API voice
+reasons have one final full stop. Native archive bytes/hash remain absent. Both owned AVDs stop;
+unrelated5556 is untouched. No new consequential defect at this bounded scope or new instruction
+rule is claimed. Existing guidance distinguishes allowance ceilings from eligible opportunities.
+[Verified owner disposition](https://github.com/stop-cran/kanji-cards-android/issues/127#issuecomment-6616072446)
+and [RU record](https://github.com/stop-cran/learning-japanese-ru/issues/5#issuecomment-6616073312).
+API35 lifecycle, per-card history/SRS evidence, typing/IME/readings/word/drawing, external-locale/
+recovery and enlarged hint observations remain open. No C5/C7 or ordinary rollout acceptance.
+The next45-minute checkpoint is assigned to API35 source/Kana/offline lifecycle and actual read-only
+progress exports on the same frozen candidate, with existing lab data preserved and no injection.
+That returned batch is now verified below; original no-injection evidence remains preserved.
+
+### Sixth C5 batch: API35 lifecycle and actual exported progress
+
+Parent verified452 original file hashes,479 complete raw command/status blocks,103 PNG/XML/separate
+stderr pairs, eleven unchanged source inputs and installed APK bytes/signatures at start and end.
+The same0556 signed release executes actual RU-pilot/EN-main source switches, ordinary RU-main
+rejection/restored pilot, normal EN梅/RU日/Kanaけ→Latin`ke` and offline EN額 Next commits.
+Actual version footers show EN`ac3f4e4da89adf35` and RU`afe5c99e66524d95`; no delivered HTTP/archive
+hash or exact prior desktop EN commit identity is claimed.
+
+Three genuine Android-picker format6 progress ZIPs are retained privately. Parent read the actual
+review-log/SRS JSON: EN梅/RU日/builtinけ survive unchanged when offline EN額 is added, and all4
+records are identical after restart and final RU reacceptance. Grade3, reps1 and positive stored
+memory/due fields are real data, not inference from capped Home counts. This establishes retained
+source-ID-bound histories for exercised cards, not same-glyph cross-source isolation.
+Wi-Fi-off leaves no active network; cached study succeeds and sync Save fails without replacing
+the saved source. Wi-Fi restores validated connectivity and unedited retry succeeds. Tablet phone
+service is absent, so its attempted data disable fails20; baseline/final radio settings are unchanged.
+Original producer note incorrectly says the cached offline quiz failed: actual Next/export proves
+it succeeded, while only Save failed. That original note remains preserved.
+
+Both locked-mode hints and single-period voice reason are correct. Owned exact processes/device
+are stopped; unrelated5556 untouched. Full logcat contains only unrelated hotword-package failures,
+not target app crash/ANR. No fixtures, clearing, code/build change or new consequential production
+finding at this bounded gate.
+[Verified owner disposition](https://github.com/stop-cran/kanji-cards-android/issues/127#issuecomment-6616998936)
+and [RU record](https://github.com/stop-cran/learning-japanese-ru/issues/5#issuecomment-6617000206).
+Evidence: original `ru-app-c5-native-batch6`, parent verifier/signature records and separate parent
+report. Eligible reading/word typing/IME/drawing and broader external-language/recovery observations
+remain open. No C5/C7 or ordinary rollout acceptance.
+
+### Seventh C5 batch: production-image fixture block and Word-lock finding
+
+The author stopped after approximately4minutes when API35 production adbd refused root and
+run-as refused the non-debuggable signed release. Parent verified69 inventoried hashes,79 complete
+text/binary command records,11 PNG/XML/separate-empty-stderr pairs, eleven unchanged source inputs,
+both installed APK/signatures and4 actual prior log/state rows. No fixture or typed/readings/drawing/
+IME/recognition/Next acceptance. Owned5572 stopped, old lab data preserved, unrelated5556 untouched.
+
+Actual RU Word-mode screenshot shows valid N5 pool13/eligible0, but all3 normally gated directions
+wrongly advise checking content in Settings. WordModeRow formats a localized prerequisite into
+the legacy Locked.reason path; Home's adapter replaces it with generic RU unavailability. Its
+format argument also uses English-only gate.label. Correction must use existing localizedReason
+presentation and localized direction resources, keeping the original state/gates, plus focused
+tests and app instruction evidence. This is a new consequential app finding, not a teaching defect.
+[Verified parent disposition](https://github.com/stop-cran/kanji-cards-android/issues/127#issuecomment-6617308178)
+and [RU record](https://github.com/stop-cran/learning-japanese-ru/issues/5#issuecomment-6617308201).
+Original batch7 artifacts/reports remain preserved. Native8 is assigned with45-minute limit on
+a fresh task-owned API29 installed Google APIs test image, unchanged signed release/public pilot,
+and only safely inspected/backed-up disclosed learner prerequisites. No old-lab/person/teaching/
+authority/gate/time changes. Production correction follows that frozen run's return; C5 stays open.
+
+### Eighth C5 batch: actual eligible modes; combined Word presentation corrections
+
+Parent verified325 original artifact hashes,329 recorded ADB channels,64 PNG/XML/separate-stderr
+pairs, original0556 installed identity/signature and eleven original inputs before correction.
+The fresh owned API29 image actually provides userdebug/root; actual backed-up SQLite/WAL snapshots
+pass integrity and30-table comparison. Only3 prerequisite states/6 dated logs/sqlite_sequence
+change before exercise; no teaching/cache/authority/session/own-mode injection. Four normal Grade3
+responses (KanjiKun/On, Draw, WordReading) match the real private export7states/10logs/4sessions.
+WordReading is four-choice; WordType is focused with visible Gboard before input, but no correct
+answer/Next follows its shell Unicode key-event mapping failure. This is not a focus defect or
+proof of Japanese keyboard capability. No native model/archive bytes were captured.
+
+After normal UI, only accepted_source's pending→authority token and normal artSetLast differ;
+source/branch/head/versions/epochs remain unchanged, and fixture itself preserved authority.
+Full logcat has no target crash/ANR; owned5580/processes stop and prior labs/5556 remain untouched.
+The original no-network/model-download sentence is not accepted as such; public sync uses network.
+Parent verifier cleanup/SQLite Boolean-projection attempts are resolved without rewriting originals.
+
+Both Word presentation gaps are now corrected statically: preserve original lock state while
+presenting localized prerequisite/direction, and localize visible canonical metadata (`noun · nature`
+was English in RU Type). All14 adopted pilot labels are covered, with unchanged IDs/origin filtering/
+English behavior/authored custom labels. Both new regressions fail before fix; combined7 actual UI
+cases pass0fail/error/skip, lint/release/signature/diff pass, Detekt only original81/345.
+App instructions record both verified mechanisms and the input-harness distinction.
+[Verified parent gate](https://github.com/stop-cran/kanji-cards-android/issues/127#issuecomment-6618215472)
+and [RU record](https://github.com/stop-cran/learning-japanese-ru/issues/5#issuecomment-6618215462).
+
+New frozen signed candidate15ab35ef4592e2f0e3e74fff1ccda6b79d57ca3731b36b30bf6fd85d42c4cb6b,
+51,540,218 bytes, fourteen current source/test/instruction snapshots. Native9 is assigned45minutes
+for new-APK corrected/enlarged Word notices/API35 history preservation and actual API29 WordType
+metadata/validation/Next. A separately signed local UiAutomation helper is input-only and requires
+fresh actual focus/IME proof before use. New-APK native/helper runtime results remain pending.
+No ordinary-main/C5/C7 or phone delivery; earlier0556 mode evidence is not relabeled new-APK proof.
+
+### Ninth C5 batch: Word presentation and successful typed response
+
+Parent accepted the exact15ab candidate on API35/API29, upgrading without clearing data. API35
+corrected Word directions/prerequisites pass normal/1.5 font, with enlarged disabled Type action
+reached by scrolling. Source/restart stays pinned; real private export independently retains all
+four Native6 state/log rows and five sessions exactly. API29 shows Russian noun/nature metadata,
+blank focused input/visible Gboard before helper installation, one input-only helper entry of川,
+normal Check/Правильно!/article/Next and completed1of1. This is not Japanese keyboard support proof.
+All30 actual SQLite/WAL tables compared: original7states/10logs/4sessions remain unchanged, exactly
+one genuine Grade3 WordType state/log/completed session is added; source authority/sync unchanged.
+Final actual private export matches8states/11logs/5sessions; no new prerequisite fixture.
+
+Verified175 original hashes,14 frozen files,26 PNG/XML/separate stderr pairs containing onlyCRLF,
+both installed signatures and exact owned cleanup. Raw log has262 recognizable command labels but
+only244 independently separated records;18 damaged/interleaved blocks and extra status markers are
+preserved/excluded, not claimed complete. Every critical upgrade/helper/Check/Next/DB-copy/cleanup
+record is complete. Both pre/post-cleanup full logcats show no target crash/ANR; the producer's
+52009/17621 counts describe the post-cleanup files. Methodological finding is now in app instructions:
+atomic records or separate per-device logs, never completeness inferred from total status markers.
+[Parent gate](https://github.com/stop-cran/kanji-cards-android/issues/127#issuecomment-6618617092)
+and [RU record](https://github.com/stop-cran/learning-japanese-ru/issues/5#issuecomment-6618617104).
+Both Word presentation findings are reconciled. API29 enlarged Type, external/System transitions,
+remaining recovery/custom cases and full C5/C7/general publication stay separate.
+Native10 is assigned45minutes for real external Android language/System return and one actual
+Android backup/restore attempt in the disposable lab; interrupted candidate is optional within
+that bound. Native9's exact15ab APK/code remains unchanged; only the post-run guide correction is
+separately fingerprinted. Separate per-device or atomic logs required. No data reset, fake OS
+locale, root-copy-as-platform-backup or new public repo. Await actual results/semantic blockers.
+Native10 parent bounded acceptance now verifies real external English/System and SystemRU→EN,
+retained source with mismatched fresh lessons blocked, final explicitRU/Systemen-US and exact
+4state/4log/5session preservation.649 original hashes,433 atomic command records (80 malformed
+startup attempts excluded from353valid),55 PNG/XML/empty-stderr pairs,14 unchanged inputs,
+both APKs/signatures, full logcats and exact owned cleanup verified. Source-replacement confirmation/
+distinct-fork behavior not exercised. [Parent10](https://github.com/stop-cran/kanji-cards-android/issues/127#issuecomment-6619212791)
+and [RU record](https://github.com/stop-cran/learning-japanese-ru/issues/5#issuecomment-6619212824).
+Actual backup failed because its confirmation expired before the tap; original log records timeout
+then invalid-token acknowledgement. This is a harness-ordering finding, not platform backup
+inability. No restore/candidate interruption. Named array parameters, bounded fail-fast probes and
+asynchronous timely confirmation are now in app instructions; one corrected backup attempt remains.
+Native11 is assigned15minutes, only API29, for one correctly asynchronous/timely-confirmed real
+backup/restore attempt and actual Native9 progress/source-language preservation. No repeated
+external matrix, root-copy fake, data clear or new fixtures. Same15ab code/APK; updated method
+guide separately fingerprinted. Actual result/semantic platform cause remains pending.
+Native11 parent backup/restore acceptance now verifies196 original hashes,14 frozen inputs,
+115 atomic records/112 numeric statuses,13 PNG/XML pairs and installed15ab APK/signature.
+Three unknown-status launch records describe one backup and one restore; numeric host exits
+are not inferred. Android acknowledged timely fresh confirmations and completed both passes,
+including its normal preparatory data clear on restore. The25,649,927-byte Android Backupv5
+archive's actual SQLite/WAL copy passes integrity checking and matches8state/11log/5session
+rows in the post-restore genuine export, exactly retained fromNative9 with all exported settings.
+Actual Russian app Home/Settings are verified; the screenshot named final Home is the launcher
+and is not credited. Exact owned cleanup/no target fatal or ANR verified; private files stay local.
+[Parent11](https://github.com/stop-cran/kanji-cards-android/issues/127#issuecomment-6619800477)
+and [RU record](https://github.com/stop-cran/learning-japanese-ru/issues/5#issuecomment-6619801292).
+The actual guide and stored parent receipt agree; the producer's different expected-text value
+does not substantiate a parent handoff mismatch. No original evidence is rewritten.
+English UI changed before restore, but the default-source action did not switch repository:
+source-restoration across different selected repositories is not established. The parent
+reproduced lost confirmation with cancellation at the older-Android recreation callback followed
+by saved-state restoration. Saving confirmation before locale application and aligning changed
+default drafts corrects the code path without skipping durable intents; explicit Keep/Use default
+and a bounded affected signed-release check remain the acceptance boundary. C5/C7 are not closed.
+The final correction has8 passing focused UI cases, lint/release/signature/diff success and only
+the original two Detekt findings. Its separately frozen signed APK is51,540,218bytes,
+SHA`a7a9e6b349275fd95221f8cebd1b05f7ad55026118c55f2c49c3b1b7278ecc51`, with18 input hashes.
+Native12 is assigned20minutes on ownedAPI29 for in-place upgrade and the actual confirmation/
+Keep/repair/default-field flow, built-in changed-default drafts, pilot reacceptance/restart and
+8state/11log/5session preservation. No new answers/fixtures or repeated backup/external matrix;
+signed-native acceptance of this correction remains pending.
+Native12 stopped before install when assigned5580 was occupied by an unrelatedAPI35 AVD.
+Parent verified28 original hashes,6 numeric records and real scoped identity; ambiguous initial
+probe/pidof statuses remain unknown and reconstructed before hashes are not a direct pass.
+No target UI/upgrade acceptance. The same signeda7a9/code remains frozen; only the app method
+guide now requires AVD/API identity, scoped commands and actual hash rows. Native12b is explicitly
+authorized20minutes on checked-free5582/5583 for the same ownedAPI29 userdata, not anotherAVD
+or a reset. The affected flow remains pending and unrelated devices must remain untouched.
+Native12b's affected correction is parent-accepted:648 original hashes,18 direct before/after
+inputs,181 numeric records/179 successes,33 actual PNG/XML/binary-stdout/empty-diagnostic pairs,
+both APKs/signers and genuine progress retention verified. Keep/reopened repair at1.5/default
+fields and EN sync are observed; explicitpilot acceptance/Russian relaunch retain every progress
+family exactly, including8state/11log/5session rows and the frozen pilot head.
+[Parent12b](https://github.com/stop-cran/kanji-cards-android/issues/127#issuecomment-6620512425)
+and [RU record](https://github.com/stop-cran/learning-japanese-ru/issues/5#issuecomment-6620513102).
+A mislabelled Russian tap selected Spaced same day; normal UI restored Next day before further
+checks, with no answers. Effective defaults are restored, not raw unset preferences: explicit
+NextDay/font1.0 remain. Two cleanup syntax errors were followed by successful per-path checks.
+No target fatal/ANR; owned processes/ports are clean. Active app guidance records both findings.
+No separate Activity-instance/EN-default-restart/rollout-specific cause proof is claimed.
+Broader C5/source publication and ordinaryRU/C7 remain open; no new native matrix is assigned.
 
 ### Public candidate export correction
 
@@ -347,6 +765,28 @@ verification remains required. The manifest version stays `afe5c99e66524d95` bec
 runtime text and geometry are unchanged. This is a packaging/provenance correction, not a new
 teaching edit or permission to reinterpret an asset's byte identity.
 Active RU guidance now distinguishes normalized transport hashes from raw source/export identity.
+
+The corrected signed candidate is published at `544dd15f6a07e53042bdb488b9d7a04da9685313`.
+The actual immutable public ZIP is 73,744 bytes, SHA-256
+`d0e03caa840853613d1109c1704ef0de30f7d440a6101416b2b2e629a2b11579`;
+all 51 normalized runtime hashes and all 12 raw frozen stroke blobs were verified.
+Its [109-test CI](https://github.com/stop-cran/learning-japanese-ru/actions/runs/41678505744)
+passes validator/budget and unchanged manifest regeneration.
+Public archive totals: 58 files/62 entries, 115,289 retained and 125,712 inflated bytes.
+This closes candidate packaging, not signed-release import or C5/C7.
+[Verified owner publication record](https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6610189455)
+and [integration-boundary record](https://github.com/stop-cran/learning-japanese-ru/issues/5#issuecomment-6610189436).
+Record the actual native GitHub download URL/hash separately: archive endpoint/root-prefix variants
+may have different ZIP identities even when the manifest and all runtime bytes agree.
+The public branch remains pinned for the next integration batch; later dossier updates stay local meanwhile.
+
+An independent desktop fetch of
+`https://codeload.github.com/stop-cran/learning-japanese-ru/zip/refs/heads/ru-pilot-a`
+produced 70,024 bytes, SHA-256 `1dab23ad9a91270fff60a68d21cd3303107ced0c0df7ffea154d7c14db286b15`.
+Its root is `learning-japanese-ru-ru-pilot-a`, unlike the full-commit root of the 73,744-byte archive.
+All 58 exported file bodies match exactly between these two actual public variants, including
+all 51 reviewed runtime files and 12 raw strokes. Evidence: `ru-public-pilot-archive-variant-verification.txt`.
+This demonstrates endpoint-specific ZIP identity; neither desktop download is claimed as captured native traffic.
 
 The current EN main refresh is now checked in an isolated worktree at
 `625cc3229e767ae5314847e7c1781640fcaff5c6`, preserving its four incoming N1 sets:
