@@ -49,8 +49,8 @@ The corrected scope adds 30 runtime files to Pilot A's 51: one grammar JSON, two
 20 word articles, two companion articles, two scene JSONs and three existing images.
 The initial 12-file candidate was rejected by the real validator; its failed output is retained.
 The additional word set follows required references only and leaves the image/media cohort unchanged.
-File counts describe packaging, not learning depth. The actual choice pools, semantic exclusions,
-accessibility and operation coverage still need checking.
+File counts describe packaging, not learning depth. The bounded reader/native observations and
+remaining earned-history gates below distinguish packaging from actual operation coverage.
 
 ### Complete audio adaptations, initially blocked outside runtime
 
@@ -149,8 +149,81 @@ fails only on unchanged `ComposeUiTest.kt:81`/`:345`; no global green claim. The
 signer `c059f19f7f7eef8f984618632b525f3cf7479afd834984dda169910640b4ad1f`.
 It was built from app `30b0719` plus the frozen reviewed localization patch, before publication.
 
-Current status: **B0/B1 and corrected content review accepted; B2 public-archive execution,
-B3 actual wider-content integration and B4 final persistence still pending.**
+### Final public package and bounded native observations
+
+Both repositories published the same signed runtime commit
+`7ce81c74e72fc189185a1bebe71d775379792124`. Their immutable public ZIPs have different root names/raw
+hashes but all 88 exported bodies equal the signed local archive. All 81 runtime hashes and all 51
+Pilot A file bodies were verified, the latter raw-byte identical to baseline. The three final
+controlled-public-archive reader/domain cases execute **3/0/0/0** (tests/failures/errors/skipped).
+Desktop ZIP verification is not a claim about the raw HTTP bytes downloaded by Android.
+
+The owned API-29 lab actually accepted `stop-cran/learning-japanese-ru-integration-test`,
+branch `ru-pilot-b`, head `7ce81c7…`, content version `24362f736bc17328`. The accepted cache contains
+12 kanji, 47 words, two counter files, one grammar set, three pictures and three scenes.
+There is no RU audio runtime; cached English recordings do not become fallback RU lessons.
+
+| Actual operation | Observed result and boundary |
+| --- | --- |
+| Grammar | All four exercises: two noun-choice and two typed verb-fragment answers, 4/4 correct. Only `て` was entered for the supplied verb stem. Russian instruction precedes the answer; completed Japanese and full Russian feedback follow it. The five-entry vocabulary list and actual `学生`/`がくせい` Russian gloss were opened; this does not claim that every one of the 15 tips was opened natively. Companion article/Back preserves the checked answer. |
+| Counters | Actual legacy context `りんごを二（　）食べました。` accepts `つ`; feedback shows `二つ (ふたつ)` and Russian meaning. Whole-expression v2 accepts `十`. Kana reading accepts `やっつ`, `とお`, and `ふたつ`; intentionally entered `にこ` is rejected as the reading of displayed `二つ`. The reading session ends 3/4 because of that deliberate negative case. Russian companion/Back works. `10`, `十つ`/`じゅう` and declared legacy whole alternatives have real-archive domain coverage, not claimed native entry here. |
+| Pictures | Both `きらきら` and `にこにこ` were seen, visually inspected and graded in both actual directions, 2/2 each. Each question legitimately has two choices. Russian scene/accessibility text contains no Japanese answer. The article-only sparkling-eyes scene remains non-eligible in the real-archive domain check; the native sessions use only the two eligible scenes. |
+| Earned history | The 13-word thematic stack is available under the existing four-word rule, independently of JLPT unlocking; source levels/absent levels are unchanged. One ordinary 13-answer session and five ordinary ten-answer extra-practice sessions earned both picture targets. After just two correct answers, `きらきら` had stability 1.41 days, insufficient for the two-day Word gate. No clocks, DB states or thresholds were changed. |
+| Question/check and recovery | Normal Home/background/return preserves the reverse-picture question and its checked answer. Language replacement requires explicit consent, uses the English default, and validating the controlled RU source realigns the interface to Russian. All controlled-source learning rows (28 states / 79 logs / 13 sessions, including earlier controlled-pilot rows) remain exactly equal across that roundtrip and a later force-stop/relaunch. This proves committed history, not saved transient encounters or a crash during import. |
+
+The new cohort exposed a second app defect: the counter-reference caption stayed English even though
+its RU resource existed. `CounterHome` used application-context resources inside a retained producer.
+The minimal correction resolves the current Compose string and keys the producer on that caption.
+Its same-source/content EN → RU → EN regression was genuinely red before the fix; independent
+two-file review accepted the correction. The four CounterHome and two Word-hint tests pass **6/0/0/0**;
+lint and signed release succeed. Detekt still has only the two unchanged findings above.
+The supplemental review report SHA-256 is
+`ec096f0d9830ee1803edd946461e1e5f6b6b673a048e42f43adfad6d25b3c176`;
+its accepted raw inputs are `CounterHome.kt`
+`a166047729a64bc76695eaf53316eca1c994b7770e5b5aafa5727b8e66014490` and
+`CounterHomeTest.kt` `69de8eef4aa176ba21463c3db4cff05178b8b1345348bba41ef754fba4edb80f`.
+The original review receipt remains historical: its pre-native boundaries are not overwritten.
+
+The corrected signed APK is
+`190561ef590dba2c65c6360a2c90fc09febf75f5c28fc8957a3d51d27610167d`,
+with the same `c059f19f…` signer; actual installed `base.apk` bytes match it. It was built from app
+`30b0719` plus the reviewed hint/counter patches, before their source commit. Earlier grammar/counter
+observations retain their `af1d2201…` APK scope; the new reference caption and subsequent words/pictures/
+language/relaunch observations use `190561ef…`. Neither receipt is silently retargeted.
+
+During the English return, live EN/main had legitimately advanced to
+`b189ed637bf27f388b0ac8f3e8b31aee634504cc`, version `1a13e8e6d637bc5b`
+(1,061 kanji / 5,019 words). It was imported normally. Pilot B's translation provenance remains frozen
+at `5f460b8…`; this roundtrip is not a substantive review of the newer EN corpus.
+
+### Remaining gates and restoration
+
+- **Counter suffix / legacy whole-phrase typing:** native-deferred until the existing two-distinct-days
+  Choose prerequisite is genuinely earned. One actual Choose day is recorded; do not advance the clock
+  or inject state to complete the matrix.
+- **New-cohort Word Type:** the separate Russian-to-Japanese prerequisite has not been earned.
+  The 18-label real-composable regression passes, but no new-cohort native Type pass is claimed.
+- **Listening:** both complete reviewed Russian adaptations remain outside runtime pending fresh
+  exact-package publication authority and subsequent playback/interruption checks.
+- **Release:** physical phone, Japanese-capable IME, C7, ordinary RU defaults and whole-corpus parity
+  are not accepted by this bounded lab.
+
+The daily limit was temporarily raised by ordinary Settings presets/input (20, then 30); it was restored
+to effective 10 and the word stack to N5 through the ordinary selector. Original official
+`stop-cran/learning-japanese-ru` / `ru-pilot-a` was normally revalidated at pinned `544dd15…`,
+version `afe5c99e66524d95`, with explicit Russian. All original 10 states / 13 logs / six sessions remain
+unchanged; totals are now 36 / 90 / 18 because real controlled-pilot practice is retained.
+The previously absent daily-limit/word-stack preferences are now explicit defaults; the legitimate
+article-navigation counter advanced from 1 to 2. Raw preferences are not claimed identical.
+The input-only helper was removed, all 421 exact task-created device XML paths were individually checked
+absent, the original Latin IME and non-root ADB UID 2000 were restored, and only the owned emulator/process/
+5582–5583 listeners were stopped. Foreign emulator 5556 was not addressed and remained present.
+Private DB/preferences/command evidence stays local; it is not uploaded with these aggregate observations.
+
+Current status: **B0/B1/B2 complete; the observed B3 subset passes with the explicit deferred gates above;
+B4 instructions, reflection, signed branch publication and fast-forward main integration completed.**
+These new source merges do not activate ordinary Russian defaults or count the deferred native paths as passed.
+The controlled runtime branch stays at `7ce81c7…`; the Russian follow-up commit changes documentation only.
 The two audio families are **BLOCKED for runtime publication** pending fresh package authority;
 their complete Russian text and source reuse plan remain part of the implementation/review scope.
 C7, ordinary RU defaults, physical-phone acceptance and whole-corpus synchronization remain separate.

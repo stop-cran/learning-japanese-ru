@@ -7,6 +7,14 @@ not production/default activation. Official `ru-pilot-a` remains pinned at544dd1
 The next C6 cohort and its separately frozen necessary closure amendment are specified in
 [Pilot B](PILOT-B.md): 81 runtime entries, complete structured lessons and bounded reused pictures;
 both complete audio adaptations remain text drafts blocked for runtime by fresh-package authority.
+Pilot B now has accepted independent content review, 109 tool tests, final public-archive readers,
+and bounded actual grammar/counter/picture integration on the owned API-29 lab. That integration
+also corrected retained-producer locale resolution in the app. The complete observation matrix,
+exact APK/package identities, restored original lab state and remaining earned-history/native
+boundaries are in [Pilot B](PILOT-B.md); counter suffix typing, new-cohort Word Type and listening
+are not silently counted green. New work is published on `ru-pilot-b` / `ru-pilot-b-integration`
+and fast-forwarded into the respective mains as source integration, not substituted into the frozen
+official `ru-pilot-a` or the controlled native runtime commit.
 C7 and broad translation remain separate. Earlier pending/failed dispositions below retain their dates.
 
 Earlier status: C2 instructions independently reviewed and adopted, shared C1 Python checks passing,
