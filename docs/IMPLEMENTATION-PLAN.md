@@ -8,6 +8,12 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The first full-target source batch is independently accepted: 23 complete demonstrative
+word articles, exact direct answer-pair corrections and current hashes are recorded in
+[batch 001](translation-batches/001-demonstratives-review.json). Runtime membership is now
+104; 8,172 frozen objects remain pending, three are partial and two reviewed drafts remain
+runtime-blocked. Continue authoring; this does not change any release/media/device gate.
+
 Current full-scope execution (2026-11-04): the owner requested the remaining roadmap, not
 another smaller pilot. [Full scope and dependency order](FULL-TRANSLATION-PLAN.md) freeze EN
 `6af98cb...`: 8,278 runtime objects across14families; RU has81 present, including three partial

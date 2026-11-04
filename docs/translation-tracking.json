@@ -44,30 +44,6 @@
   }
  ],
  "guidance": {
-  ".github/copilot-instructions.md": {
-   "note": "Accepted 6af98cb delta: localized reading consumers, raw duplicate rejection and separately justified inherited Japanese corrections; not new linguistic or media approval",
-   "reviewEvidence": [
-    "docs/full-translation-review.json",
-    "docs/instruction-source-inventory.md"
-   ],
-   "sha256": "92b00a0f58db0468c91840bfdfce7d5803c201f68ecbd1364d8888f5737ed55a"
-  },
-  "docs/content-format.md": {
-   "note": "Accepted published EN/RU schema and base-language contract; existing English-reader compatibility and Russian fail-closed requirements retained",
-   "reviewEvidence": [
-    "docs/full-translation-review.json",
-    "docs/instruction-source-inventory.md"
-   ],
-   "sha256": "271af8dcfceeebaa30174476721e4b8b5e663c54b1c57af2b1fcc77f15356a5c"
-  },
-  "docs/jlpt-levels.md": {
-   "note": "Accepted historical Snake bounded-owner-testing note only; no new level claims, general Russian activation or transfer of testing authority",
-   "reviewEvidence": [
-    "docs/full-translation-review.json",
-    "docs/instruction-source-inventory.md"
-   ],
-   "sha256": "0d4433a5cfdcaefd531b098e76c26e92040a9f28afdfd411639d475d5dde94d5"
-  },
   ".github/agents/content-consistency-reviewer.agent.md": {
    "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
    "reviewEvidence": [
@@ -88,6 +64,14 @@
     "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
    ],
    "sha256": "db8af279851cb57c69d849ca3ad83d3430913d08d7cc50b73031474307ad530c"
+  },
+  ".github/copilot-instructions.md": {
+   "note": "Accepted 6af98cb delta: localized reading consumers, raw duplicate rejection and separately justified inherited Japanese corrections; not new linguistic or media approval",
+   "reviewEvidence": [
+    "docs/full-translation-review.json",
+    "docs/instruction-source-inventory.md"
+   ],
+   "sha256": "92b00a0f58db0468c91840bfdfce7d5803c201f68ecbd1364d8888f5737ed55a"
   },
   ".github/instructions/content-structure.instructions.md": {
    "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
@@ -123,6 +107,14 @@
     "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
    ],
    "sha256": "c29a9fde295a3f05be8f1f7e478ce7a854cb61e8d1f905b249f1e21be2aaac0e"
+  },
+  "docs/content-format.md": {
+   "note": "Accepted published EN/RU schema and base-language contract; existing English-reader compatibility and Russian fail-closed requirements retained",
+   "reviewEvidence": [
+    "docs/full-translation-review.json",
+    "docs/instruction-source-inventory.md"
+   ],
+   "sha256": "271af8dcfceeebaa30174476721e4b8b5e663c54b1c57af2b1fcc77f15356a5c"
   },
   "docs/counter-n4.md": {
    "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
@@ -690,6 +682,14 @@
     "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
    ],
    "sha256": "0b046d96655e6d421c14a779f62e79431cd754da13c80b9fbd1c3ab3e07eb1eb"
+  },
+  "docs/jlpt-levels.md": {
+   "note": "Accepted historical Snake bounded-owner-testing note only; no new level claims, general Russian activation or transfer of testing authority",
+   "reviewEvidence": [
+    "docs/full-translation-review.json",
+    "docs/instruction-source-inventory.md"
+   ],
+   "sha256": "0d4433a5cfdcaefd531b098e76c26e92040a9f28afdfd411639d475d5dde94d5"
   },
   "docs/listening-n4.md": {
    "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
@@ -1341,6 +1341,96 @@
   },
   {
    "adaptations": [
+    "Complete Russian translation; preserve Japanese examples, readings, levels and technical identity.",
+    "Retain all direct source exclusions and independently reviewed Russian-label pairs; source optional rare-spelling kanji navigation becomes plain 何方."
+   ],
+   "coverage": "complete",
+   "path": "words/あそこ.md",
+   "reviewEvidence": [
+    "docs/translation-batches/001-demonstratives-initial-review.json",
+    "docs/translation-batches/001-demonstratives-review.json"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "1bac0283d804ce7e9e4634f5a950da077b09e4f39e333cdf8c634380fa1f0af4",
+   "ruSha256": "f0a4bbd7e969a6a9bd4a2caa02bd92c265de18fd6ef646888d9a1f8bc2530807",
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "181dacea5464d2ec0d84d0f6b36f8eb49a01ec030a3ac39f10ccacb04083cfb2",
+   "sourceSha256": "181dacea5464d2ec0d84d0f6b36f8eb49a01ec030a3ac39f10ccacb04083cfb2"
+  },
+  {
+   "adaptations": [
+    "Complete Russian translation; preserve Japanese examples, readings, levels and technical identity.",
+    "Retain all direct source exclusions and independently reviewed Russian-label pairs; source optional rare-spelling kanji navigation becomes plain 何方."
+   ],
+   "coverage": "complete",
+   "path": "words/あちら.md",
+   "reviewEvidence": [
+    "docs/translation-batches/001-demonstratives-initial-review.json",
+    "docs/translation-batches/001-demonstratives-review.json"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "df9801f05c6b0cc7b26de436eeac10307438ae75c44de20d6b38328cc9c02b30",
+   "ruSha256": "6cc44b9b43897d846a7444b345c2ed13bc0d694806b7470937ca41175ce99b6f",
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "aff85fb2453256e5940a98760637c173b92da4fc84dee594d8cc226eadc160f8",
+   "sourceSha256": "aff85fb2453256e5940a98760637c173b92da4fc84dee594d8cc226eadc160f8"
+  },
+  {
+   "adaptations": [
+    "Complete Russian translation; preserve Japanese examples, readings, levels and technical identity.",
+    "Retain all direct source exclusions and independently reviewed Russian-label pairs; source optional rare-spelling kanji navigation becomes plain 何方."
+   ],
+   "coverage": "complete",
+   "path": "words/あっち.md",
+   "reviewEvidence": [
+    "docs/translation-batches/001-demonstratives-initial-review.json",
+    "docs/translation-batches/001-demonstratives-review.json"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "298269df94bae4abc3ed264ff8d49e20d2bdfdd0ac647f68d341700d5c194082",
+   "ruSha256": "ece9fc0a9a74bc4445584fb122ecb11dd9a7342b1bf923b6230cf8178f7fa049",
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "9c002cef302c47e02dcf88d2a106389285a76d57c53d5a9dae744b38eb830e48",
+   "sourceSha256": "9c002cef302c47e02dcf88d2a106389285a76d57c53d5a9dae744b38eb830e48"
+  },
+  {
+   "adaptations": [
+    "Complete Russian translation; preserve Japanese examples, readings, levels and technical identity.",
+    "Retain all direct source exclusions and independently reviewed Russian-label pairs; source optional rare-spelling kanji navigation becomes plain 何方."
+   ],
+   "coverage": "complete",
+   "path": "words/あれ.md",
+   "reviewEvidence": [
+    "docs/translation-batches/001-demonstratives-initial-review.json",
+    "docs/translation-batches/001-demonstratives-review.json"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "f925541f14073886e8f504a6c04a3a409f5f0181c2ee2b61064db7ca393a0bdc",
+   "ruSha256": "ffccdf57d743a91bfca7af65730efd907febfd6542c6f6b3b23b7d152de06efb",
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "76983a7e04d3a922f586b9db444ec0132394de96147aadfd45ec298363c983b1",
+   "sourceSha256": "76983a7e04d3a922f586b9db444ec0132394de96147aadfd45ec298363c983b1"
+  },
+  {
+   "adaptations": [
+    "Complete Russian translation; preserve Japanese examples, readings, levels and technical identity.",
+    "Retain all direct source exclusions and independently reviewed Russian-label pairs; source optional rare-spelling kanji navigation becomes plain 何方."
+   ],
+   "coverage": "complete",
+   "path": "words/あんな.md",
+   "reviewEvidence": [
+    "docs/translation-batches/001-demonstratives-initial-review.json",
+    "docs/translation-batches/001-demonstratives-review.json"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "47294f3ed8790e54308aaa20fbde475e33b75175961cfd2723c1bf1d34032668",
+   "ruSha256": "7462c248d8f6734c02e4d76d073564fe7f11e220623b0a840c9166d1689cb449",
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "30977177d773ee1873b3d59cf63a4045ef48fc13ef91e8b50abca71c16ab57e0",
+   "sourceSha256": "30977177d773ee1873b3d59cf63a4045ef48fc13ef91e8b50abca71c16ab57e0"
+  },
+  {
+   "adaptations": [
     "Retain the separately reviewed Pilot B scope and intentional omissions"
    ],
    "coverage": "complete",
@@ -1392,6 +1482,114 @@
   },
   {
    "adaptations": [
+    "Complete Russian translation; preserve Japanese examples, readings, levels and technical identity.",
+    "Retain all direct source exclusions and independently reviewed Russian-label pairs; source optional rare-spelling kanji navigation becomes plain 何方."
+   ],
+   "coverage": "complete",
+   "path": "words/ここ.md",
+   "reviewEvidence": [
+    "docs/translation-batches/001-demonstratives-initial-review.json",
+    "docs/translation-batches/001-demonstratives-review.json"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "80f5a4a05c654c778ebdec57c71b3572cafcf8f5975116837131427ea5ebf44b",
+   "ruSha256": "3cb52590ab792c88116e2c06c612b081f285f95b44a50251efa767e969ea1539",
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "9e10c8b0c45101a34420e4429c25ba4958a5afa540a1c33ca83c78e66994a6c0",
+   "sourceSha256": "9e10c8b0c45101a34420e4429c25ba4958a5afa540a1c33ca83c78e66994a6c0"
+  },
+  {
+   "adaptations": [
+    "Complete Russian translation; preserve Japanese examples, readings, levels and technical identity.",
+    "Retain all direct source exclusions and independently reviewed Russian-label pairs; source optional rare-spelling kanji navigation becomes plain 何方."
+   ],
+   "coverage": "complete",
+   "path": "words/こちら.md",
+   "reviewEvidence": [
+    "docs/translation-batches/001-demonstratives-initial-review.json",
+    "docs/translation-batches/001-demonstratives-review.json"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "e2b3a3982190593da6aff5474d401214045ee2cdcaa31122a691cdd049de6ac3",
+   "ruSha256": "cf6120914aa70c11adcd3ce13fc905cd64d7553020a29428a4e5ddf3bd097771",
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "fe8ffb993400e9697f5f010c504ffbd3550b0e9d2aeaa68db6ef969b307bb45b",
+   "sourceSha256": "fe8ffb993400e9697f5f010c504ffbd3550b0e9d2aeaa68db6ef969b307bb45b"
+  },
+  {
+   "adaptations": [
+    "Complete Russian translation; preserve Japanese examples, readings, levels and technical identity.",
+    "Retain all direct source exclusions and independently reviewed Russian-label pairs; source optional rare-spelling kanji navigation becomes plain 何方."
+   ],
+   "coverage": "complete",
+   "path": "words/こっち.md",
+   "reviewEvidence": [
+    "docs/translation-batches/001-demonstratives-initial-review.json",
+    "docs/translation-batches/001-demonstratives-review.json"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "403f36e7dfac1cccf2e04ad660abfd76539b51ceefb74572cbd7a6f4d5e09eb1",
+   "ruSha256": "95fd575b17e84b91458923b073abd99589db136f3c5e657b7f829585772ad5a6",
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "8115434cdaf7833030f3218f42583c17d8baccf18e74dea5da3a6b3e87458140",
+   "sourceSha256": "8115434cdaf7833030f3218f42583c17d8baccf18e74dea5da3a6b3e87458140"
+  },
+  {
+   "adaptations": [
+    "Complete Russian translation; preserve Japanese examples, readings, levels and technical identity.",
+    "Retain all direct source exclusions and independently reviewed Russian-label pairs; source optional rare-spelling kanji navigation becomes plain 何方."
+   ],
+   "coverage": "complete",
+   "path": "words/この.md",
+   "reviewEvidence": [
+    "docs/translation-batches/001-demonstratives-initial-review.json",
+    "docs/translation-batches/001-demonstratives-review.json"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "80e9d163a9e10ed8d31f4fa090889393eaa5dca2d72db662ca0fde6ab5875cb7",
+   "ruSha256": "3391ce878a0c28bd8091b33da4154e375f0dc23c96e8d2ab6021973c0c94bdf1",
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "90a8edcce08399c3f60f96778ccd681a8e71c32ab34271a2b89aab9724a76f70",
+   "sourceSha256": "90a8edcce08399c3f60f96778ccd681a8e71c32ab34271a2b89aab9724a76f70"
+  },
+  {
+   "adaptations": [
+    "Complete Russian translation; preserve Japanese examples, readings, levels and technical identity.",
+    "Retain all direct source exclusions and independently reviewed Russian-label pairs; source optional rare-spelling kanji navigation becomes plain 何方."
+   ],
+   "coverage": "complete",
+   "path": "words/これ.md",
+   "reviewEvidence": [
+    "docs/translation-batches/001-demonstratives-initial-review.json",
+    "docs/translation-batches/001-demonstratives-review.json"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "519d38376710967bf38353e2b8f4e510cf958b3d48bb6b468ae4f36562f9a7a2",
+   "ruSha256": "c944cf13eeab78642617c8c110cf0a7e43994519deb24dea69a8fabf805b3d7d",
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "0a875583ec38f2ff9f093e627f0f0b125f1ccf094ce4e142b583676492f3c523",
+   "sourceSha256": "0a875583ec38f2ff9f093e627f0f0b125f1ccf094ce4e142b583676492f3c523"
+  },
+  {
+   "adaptations": [
+    "Complete Russian translation; preserve Japanese examples, readings, levels and technical identity.",
+    "Retain all direct source exclusions and independently reviewed Russian-label pairs; source optional rare-spelling kanji navigation becomes plain 何方."
+   ],
+   "coverage": "complete",
+   "path": "words/こんな.md",
+   "reviewEvidence": [
+    "docs/translation-batches/001-demonstratives-initial-review.json",
+    "docs/translation-batches/001-demonstratives-review.json"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "f11b3e817d77e0dd09bc42af729a929552f992be1d8a095b4be5ce92978f6d82",
+   "ruSha256": "ec97ef9dcca3c876b996ac13737300cc6c375e682712e62513b8c2506ac8e326",
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "361eebd6db8d947f6cf31777c21fcfccf1c0fcf9512242f74e5ed4f19a5dd83a",
+   "sourceSha256": "361eebd6db8d947f6cf31777c21fcfccf1c0fcf9512242f74e5ed4f19a5dd83a"
+  },
+  {
+   "adaptations": [
     "Retain the separately reviewed Pilot B scope and intentional omissions"
    ],
    "coverage": "complete",
@@ -1423,6 +1621,114 @@
    "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
    "sourceRawSha256": "36e9bc98636a6cf6609d900452ccfb55579a7415a0edae8cc667193424602997",
    "sourceSha256": "f09fc412baace7f1880a420ac47b40b3163ea18bfbb279ca2838be142ad2cc34"
+  },
+  {
+   "adaptations": [
+    "Complete Russian translation; preserve Japanese examples, readings, levels and technical identity.",
+    "Retain all direct source exclusions and independently reviewed Russian-label pairs; source optional rare-spelling kanji navigation becomes plain 何方."
+   ],
+   "coverage": "complete",
+   "path": "words/そこ.md",
+   "reviewEvidence": [
+    "docs/translation-batches/001-demonstratives-initial-review.json",
+    "docs/translation-batches/001-demonstratives-review.json"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "4b007a8e81b55a91a1bee8726975557056a8c08ae1e29caef6140775c162deaa",
+   "ruSha256": "7ac38144113c872134e7940a5811e66036c6ef609a0f7dc987ecec8bee0813c1",
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "beaa6c7fe1e944b8b1160f85bc477528d842d326b4149cf727c59827b74c0286",
+   "sourceSha256": "beaa6c7fe1e944b8b1160f85bc477528d842d326b4149cf727c59827b74c0286"
+  },
+  {
+   "adaptations": [
+    "Complete Russian translation; preserve Japanese examples, readings, levels and technical identity.",
+    "Retain all direct source exclusions and independently reviewed Russian-label pairs; source optional rare-spelling kanji navigation becomes plain 何方."
+   ],
+   "coverage": "complete",
+   "path": "words/そちら.md",
+   "reviewEvidence": [
+    "docs/translation-batches/001-demonstratives-initial-review.json",
+    "docs/translation-batches/001-demonstratives-review.json"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "943b8a2ebd5bb9f30fee7bc594d47d161677d6969272ae275d3b8b258b3f344e",
+   "ruSha256": "679764c0144a4b81d97f4df8188b07bf7e6e2c24ea6e5e55e4323a145f24271c",
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "1e5e42acd719515977adcb653f61614d41585c04dad6b7af6511dcdc3599906d",
+   "sourceSha256": "1e5e42acd719515977adcb653f61614d41585c04dad6b7af6511dcdc3599906d"
+  },
+  {
+   "adaptations": [
+    "Complete Russian translation; preserve Japanese examples, readings, levels and technical identity.",
+    "Retain all direct source exclusions and independently reviewed Russian-label pairs; source optional rare-spelling kanji navigation becomes plain 何方."
+   ],
+   "coverage": "complete",
+   "path": "words/そっち.md",
+   "reviewEvidence": [
+    "docs/translation-batches/001-demonstratives-initial-review.json",
+    "docs/translation-batches/001-demonstratives-review.json"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "0cf437f967ece2b4604cb0a5d893cfabc4319cc505c4027cfd63b0ecba965991",
+   "ruSha256": "80771246d31813479fad9f4b05c3a0106916c0c19f8593ee5d9983dc6d5dfd0f",
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "9f7cc9b3f1fc54091e88fd37e98f167872e8ab260395982a9cda778cb0aed5e9",
+   "sourceSha256": "9f7cc9b3f1fc54091e88fd37e98f167872e8ab260395982a9cda778cb0aed5e9"
+  },
+  {
+   "adaptations": [
+    "Complete Russian translation; preserve Japanese examples, readings, levels and technical identity.",
+    "Retain all direct source exclusions and independently reviewed Russian-label pairs; source optional rare-spelling kanji navigation becomes plain 何方."
+   ],
+   "coverage": "complete",
+   "path": "words/その.md",
+   "reviewEvidence": [
+    "docs/translation-batches/001-demonstratives-initial-review.json",
+    "docs/translation-batches/001-demonstratives-review.json"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "248addcb1e3c66a257da32e536f07d5cf0d079a16189fbc76c85cb30b6c6301c",
+   "ruSha256": "2d5564baee0eab3e81160b7c316d0ef9c7ee798256194d14c58fa81a482e46d5",
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "03e41264848db0c5ac824a37bedfa3d551c0ada0d1dd2f73ab7ae029cf12d1a0",
+   "sourceSha256": "03e41264848db0c5ac824a37bedfa3d551c0ada0d1dd2f73ab7ae029cf12d1a0"
+  },
+  {
+   "adaptations": [
+    "Complete Russian translation; preserve Japanese examples, readings, levels and technical identity.",
+    "Retain all direct source exclusions and independently reviewed Russian-label pairs; source optional rare-spelling kanji navigation becomes plain 何方."
+   ],
+   "coverage": "complete",
+   "path": "words/それ.md",
+   "reviewEvidence": [
+    "docs/translation-batches/001-demonstratives-initial-review.json",
+    "docs/translation-batches/001-demonstratives-review.json"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "7202e036f9fcfd6a5620ee8e22fc0b5de33b6d99b579924009c4343f1c9d9608",
+   "ruSha256": "17ce4e46d33e08fbf626bc562c522443fd7ec898f0cd6c7532a247075c584c9c",
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "56dfbf4cad4b762d3bc1012da6cca98d66b3766d4f969fd4ecad9f51c9a918c4",
+   "sourceSha256": "56dfbf4cad4b762d3bc1012da6cca98d66b3766d4f969fd4ecad9f51c9a918c4"
+  },
+  {
+   "adaptations": [
+    "Complete Russian translation; preserve Japanese examples, readings, levels and technical identity.",
+    "Retain all direct source exclusions and independently reviewed Russian-label pairs; source optional rare-spelling kanji navigation becomes plain 何方."
+   ],
+   "coverage": "complete",
+   "path": "words/そんな.md",
+   "reviewEvidence": [
+    "docs/translation-batches/001-demonstratives-initial-review.json",
+    "docs/translation-batches/001-demonstratives-review.json"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "d3d1551477492b0bc9a6901075795c082763e0b747fe939d7f1454afa4a42e8c",
+   "ruSha256": "b45b882d6919d845aa9dfe1d53a753461e21f694979ebc383cd065af94fdb1fb",
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "aaf77eeaa4b3ec0c04570a76eaaedab2017f65504b105d9ccb9b5c2c84bce1c1",
+   "sourceSha256": "aaf77eeaa4b3ec0c04570a76eaaedab2017f65504b105d9ccb9b5c2c84bce1c1"
   },
   {
    "adaptations": [
@@ -1477,6 +1783,96 @@
   },
   {
    "adaptations": [
+    "Complete Russian translation; preserve Japanese examples, readings, levels and technical identity.",
+    "Retain all direct source exclusions and independently reviewed Russian-label pairs; source optional rare-spelling kanji navigation becomes plain 何方."
+   ],
+   "coverage": "complete",
+   "path": "words/どこ.md",
+   "reviewEvidence": [
+    "docs/translation-batches/001-demonstratives-initial-review.json",
+    "docs/translation-batches/001-demonstratives-review.json"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "dfce41511fe3fb1823eff2261523415d77fbd3c901cb21b705fd4ec8c7ca377b",
+   "ruSha256": "fe2e8ac8e362c1fc302e4e0bb1d606658581d392bd927f70ea7b25deff82894b",
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "898bdcb84041eee7253b94b2273aad2ebf24a73e8df9c98d89ec1c6fd301a801",
+   "sourceSha256": "898bdcb84041eee7253b94b2273aad2ebf24a73e8df9c98d89ec1c6fd301a801"
+  },
+  {
+   "adaptations": [
+    "Complete Russian translation; preserve Japanese examples, readings, levels and technical identity.",
+    "Retain all direct source exclusions and independently reviewed Russian-label pairs; source optional rare-spelling kanji navigation becomes plain 何方."
+   ],
+   "coverage": "complete",
+   "path": "words/どちら.md",
+   "reviewEvidence": [
+    "docs/translation-batches/001-demonstratives-initial-review.json",
+    "docs/translation-batches/001-demonstratives-review.json"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "b8117e6fc8fe53b08da18949a4763c62dd70cc5b8f58b9743d77dc62d65d9bc3",
+   "ruSha256": "878f5aa8f6fb26131ee435b018d4de487223b6da34c52c967b904d83ca8c5979",
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "dabea33f51f8b9e86f05503e005a28d61a56d05b5847eb9140a3957180c36baa",
+   "sourceSha256": "dabea33f51f8b9e86f05503e005a28d61a56d05b5847eb9140a3957180c36baa"
+  },
+  {
+   "adaptations": [
+    "Complete Russian translation; preserve Japanese examples, readings, levels and technical identity.",
+    "Retain all direct source exclusions and independently reviewed Russian-label pairs; source optional rare-spelling kanji navigation becomes plain 何方."
+   ],
+   "coverage": "complete",
+   "path": "words/どっち.md",
+   "reviewEvidence": [
+    "docs/translation-batches/001-demonstratives-initial-review.json",
+    "docs/translation-batches/001-demonstratives-review.json"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "f6b9ef1a4ec17e2695b2a5c84bfafbc154d1231f213469c295da8e899955050b",
+   "ruSha256": "c38e220e153b983b87e02be7527c0dc5ca51df0fb135299139de653686286d3e",
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "ac6690d4a344f6d6190a8519cffbf75b747ed1eca0fa83563b83eab2e7a168f0",
+   "sourceSha256": "ac6690d4a344f6d6190a8519cffbf75b747ed1eca0fa83563b83eab2e7a168f0"
+  },
+  {
+   "adaptations": [
+    "Complete Russian translation; preserve Japanese examples, readings, levels and technical identity.",
+    "Retain all direct source exclusions and independently reviewed Russian-label pairs; source optional rare-spelling kanji navigation becomes plain 何方."
+   ],
+   "coverage": "complete",
+   "path": "words/どの.md",
+   "reviewEvidence": [
+    "docs/translation-batches/001-demonstratives-initial-review.json",
+    "docs/translation-batches/001-demonstratives-review.json"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "fdd445d67d5c04be7b6fd85358771859d7c6d4dcac1017c81fec15324ee3b3a5",
+   "ruSha256": "7478d4d275eae16ee047f9c86329ece8f2e9a1382b55763ccd5f15bae67b8e77",
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "c9a108beeeead28ae25dced44448d98a46df01b91ee33677ee08c0504547cde1",
+   "sourceSha256": "c9a108beeeead28ae25dced44448d98a46df01b91ee33677ee08c0504547cde1"
+  },
+  {
+   "adaptations": [
+    "Complete Russian translation; preserve Japanese examples, readings, levels and technical identity.",
+    "Retain all direct source exclusions and independently reviewed Russian-label pairs; source optional rare-spelling kanji navigation becomes plain 何方."
+   ],
+   "coverage": "complete",
+   "path": "words/どれ.md",
+   "reviewEvidence": [
+    "docs/translation-batches/001-demonstratives-initial-review.json",
+    "docs/translation-batches/001-demonstratives-review.json"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "8347a7e81395acec1cacf7c69e8bf2fe0d4b7772bc5d3f55fde7167750b05c6e",
+   "ruSha256": "5afb85634a2c6a3766bafd83679e896f4a2c5d6d239832f1b75ccfde9c888445",
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "df743c6b9ccce89085870ee0fe966259374a7a3bc65060d5d9ae8ec48047a9e6",
+   "sourceSha256": "df743c6b9ccce89085870ee0fe966259374a7a3bc65060d5d9ae8ec48047a9e6"
+  },
+  {
+   "adaptations": [
     "Retain the separately reviewed Pilot B scope and intentional omissions"
    ],
    "coverage": "complete",
@@ -1491,6 +1887,24 @@
    "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
    "sourceRawSha256": "8ec4826f03e569fd24cf6e59a5c9ffc84f1fcb6850cf5ee51359857af569a48e",
    "sourceSha256": "8f910e02c62636efd65cf64c2c63be9259bf9a2612f7d8b3238c7cc6dd1a9d40"
+  },
+  {
+   "adaptations": [
+    "Complete Russian translation; preserve Japanese examples, readings, levels and technical identity.",
+    "Retain all direct source exclusions and independently reviewed Russian-label pairs; source optional rare-spelling kanji navigation becomes plain 何方."
+   ],
+   "coverage": "complete",
+   "path": "words/どんな.md",
+   "reviewEvidence": [
+    "docs/translation-batches/001-demonstratives-initial-review.json",
+    "docs/translation-batches/001-demonstratives-review.json"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "fddad5104b6b8edaaa64ba8a11993164fc6310ce03d0e39d67d6692b187a6b78",
+   "ruSha256": "aa36cdf18950741cf9cc753ca0759c5985918bdd7fc52559a8cd33f754d02c7f",
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "5fb6936ef9dfc02523ca6a7b0cee1199746d5c654e6bacdb7d1c57747d567477",
+   "sourceSha256": "5fb6936ef9dfc02523ca6a7b0cee1199746d5c654e6bacdb7d1c57747d567477"
   },
   {
    "adaptations": [

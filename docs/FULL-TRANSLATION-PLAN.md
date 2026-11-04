@@ -198,3 +198,17 @@ force-push, amend or discard unrelated work. Integrate accepted batches frequent
 unreviewed WIP remains explicitly unaccepted on its own branch or excluded draft lane.
 Record each completed batch and actual remaining scope so interrupted work can resume
 without repeating, losing or falsely approving it. Do not silently retarget to later EN main.
+
+## Reviewed source batches
+
+Batch **001 — demonstratives** completes 23 full word articles from the frozen target:
+20 retain N5, two retain N4 and one retains N3. All Japanese examples, readings, source
+senses and qualifications survive. An independent complete three-facet review identified
+Russian answer-label overlap; an independent narrow recheck accepted exactly 30 additional
+direct pairs, with all earlier pairs preserved and no transitive expansion.
+[Exact source/Russian hashes and review boundaries](translation-batches/001-demonstratives-review.json)
+remain separate from the unchanged historical pilot receipts and release/device/media gates.
+Current runtime membership is 104 objects; full-target statuses are 101 reviewed-current,
+three partial, two reviewed runtime-blocked drafts and 8,172 pending. The 8,174 absent runtime
+paths and three partial units remain work, not a completion claim.
+Continue the remaining N5 vocabulary/kanji/support batches, then all later levels and families.

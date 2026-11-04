@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "batch": "001-demonstratives",
+  "state": "independently-reviewed-source-accepted",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "reviewedRussianCommit": "ee514050588160ec8c21899518c0a2695fb2418e",
+  "initialFullReview": "docs/translation-batches/001-demonstratives-initial-review.json",
+  "exactCorrectedFileHashes": "docs/translation-batches/001-demonstratives-corrections.json",
+  "correctionRecheck": {
+    "reviewer": "GitHub Copilot; ru-001-fix-recheck",
+    "model": null,
+    "modelLimit": "Unavailable, not guessed.",
+    "reuseLimit": "The original sync-mode reviewer could not receive a same-task message. A distinct read-only reviewer performed this narrow recheck; no claim that it freshly reread all unchanged articles.",
+    "snapshot": "ee514050588160ec8c21899518c0a2695fb2418e",
+    "actualScope": "Preserved initial findings, correction packet, exact 13-file diff against 1988a0952e79f705ea64729b7da082e02d439f4f, actual metadata/IDs, affected labels, relevant dictionary projections and guidance.",
+    "verdicts": {
+      "japaneseNonRegression": "CLEAN",
+      "adoptedCoverageAndDependencyNonRegression": "CLEAN",
+      "russianAnswerClarityCorrectionsF1F2F3": "CLEAN"
+    },
+    "findings": [
+      {
+        "id": "F1",
+        "status": "resolved",
+        "evidence": "All 21 specified object/person-overlap pairs exist in actual quiz_exclusions."
+      },
+      {
+        "id": "F2",
+        "status": "resolved",
+        "evidence": "All six standalone/modifier-label pairs exist, including words/この.md:9 and words/その.md:9."
+      },
+      {
+        "id": "F3",
+        "status": "resolved",
+        "evidence": "All three selection-label pairs exist in words/どの.md:9."
+      }
+    ],
+    "verification": [
+      "All 30 additions exactly match initial findings and correction mappings; all previous 26 pairs survive. Union 56, no extra/transitive pairs, missing targets or distractor conflicts.",
+      "Stripping only quiz_exclusions lines establishes unchanged prose, titles, Japanese and other metadata across all 23 articles. Exactly nine learner files changed; no baseline learner changes.",
+      "All 79 relative links resolve; required あんな–そんな remains.",
+      "All 23 current RU raw/LF and frozen-source raw/LF hashes match records.",
+      "Manifest is 99 files + three images + two scenes; only nine file hashes changed, recomputed version cffe1139c4559e46.",
+      "Guidance at .github/copilot-instructions.md:197–201 faithfully captures F1–F3, preserves Japanese distinctions, rejects transitive expansion and resolves to actual evidence."
+    ],
+    "optional": "None.",
+    "limits": [
+      "Unchanged surfaces rely on initial full-reading receipt; this reviewer did not freshly reread all 23 RU/source bodies or baseline bodies.",
+      "Signature header observed, not cryptographically verified by reviewer.",
+      "No writes, tests/builds, commits/ref changes or delegation.",
+      "CLEAN is bounded, not whole-corpus or native-speaker approval."
+    ]
+  },
+  "authorDisposition": "Accept complete 23-article source translation after independent full review plus exact correction recheck. All F1–F3 resolved; no consequential unresolved claim remains in this scope.",
+  "releaseSeparation": "No media-package authority, ordinary RU activation, checkpoint/tag advancement or app/device acceptance.",
+  "authorValidation": {
+    "validator": {
+      "errors": 0,
+      "exitCode": 0
+    },
+    "unittest": {
+      "tests": 124,
+      "failures": 0,
+      "errors": 0,
+      "skips": 0,
+      "exitCode": 0
+    },
+    "archiveBudget": {
+      "files": 111,
+      "entries": 120,
+      "retainedBytes": 336977,
+      "inflatedBytes": 350351,
+      "localZipBytes": 221967,
+      "listeningTaskMediaBytes": 0,
+      "exitCode": 0
+    },
+    "manifest": {
+      "runtimeObjects": 104,
+      "contentVersion": "cffe1139c4559e46",
+      "exitCode": 0
+    },
+    "progress": {
+      "runtimeEntries": 8278,
+      "adoptedEntries": 104,
+      "statuses": {
+        "reviewed-current": 101,
+        "partial-reviewed": 3,
+        "draft-reviewed-runtime-blocked": 2,
+        "pending": 8172
+      },
+      "sha256": "50b162b7e87fb1b654444c303d68238d0cb7f5ef0404c4271f1ee90af2495f84",
+      "checkpointAuthority": null,
+      "checkpointAdvanced": false
+    },
+    "historicalPreservation": "All 81 prior tracking records and every other prior ledger section compare semantically unchanged. Immutable old ledgers/pilot reports untouched.",
+    "signatureVerification": "git verify-commit succeeded for both candidate and correction commits."
+  }
+}
