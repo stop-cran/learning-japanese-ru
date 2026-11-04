@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "batch": "002-people-family",
+  "state": "independently-reviewed-source-accepted",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "reviewedRussianCommit": "2f3404eaf7cc8c9e8f26b94c376e4422836f0ced",
+  "exactFileHashes": "docs/translation-batches/002-people-family-candidate.json",
+  "independentReview": {
+    "reviewer": "GitHub Copilot; ru-002-readonly-review",
+    "agentId": "f0c5cd36-48e1-4d60-9530-e28364751472",
+    "model": null,
+    "modelLimit": "Unavailable, not guessed.",
+    "actualScope": {
+      "learnerTexts": 27,
+      "fullRussianAndFrozenEnglish": true,
+      "newKanji": [
+        "休",
+        "女",
+        "男"
+      ],
+      "newWords": [
+        "男女",
+        "女",
+        "男",
+        "女性",
+        "男性",
+        "女の子",
+        "男の子",
+        "女の人",
+        "男の人",
+        "お母さん",
+        "お父さん",
+        "兄",
+        "姉",
+        "弟",
+        "妹",
+        "お兄さん",
+        "お姉さん",
+        "家族",
+        "両親",
+        "親",
+        "休む",
+        "女子",
+        "婦人"
+      ],
+      "affectedBaseline": [
+        "words/休日.md"
+      ],
+      "dictionary": "All 23 complete captured query objects, forms, senses, restrictions and homonyms.",
+      "other": "All four batch records, actual NOTICE, applicable instructions/methodology/format/adaptations, relevant baseline 人/大人/deictic-person and 木/人 bodies, frozen 母 and all three stroke objects.",
+      "incompleteRequiredLearnerReads": []
+    },
+    "verdicts": {
+      "japaneseCorrectness": "CLEAN",
+      "adoptedCoverageAndConsistency": "CLEAN",
+      "russianComprehensibilityAndAnswerAmbiguity": "CLEAN"
+    },
+    "verification": [
+      "All 30 candidate source/RU raw and LF hashes and all 29 scope-source records match their stated domains.",
+      "Three strokes match exact frozen Git blobs, candidate Git blobs and working bytes, not just LF normalization.",
+      "Pre-authoring scope and baseline amendment precede their respective learner changes; immutable records unchanged.",
+      "Manifest adds exactly 29 objects, removes none, and changes only baseline 休日; all 30 affected hashes match.",
+      "All 97 relative links resolve; 15 source pairs plus 17 individually assessed additions equal 32 direct pairs.",
+      "All Japanese examples/readings, classifications, levels and absent levels preserved; rare readings, honorific construction and absence with を corroborated.",
+      "母 key correction, compound-specific 男女 order and qualified くノ一 account have adequate bounded evidence.",
+      "Compared all 70 baseline answer labels and new labels, reading relevant baseline bodies; exact duplicate titles deduplicate. No high-confidence missed direct pair established.",
+      "Holiday's only textual delta is the restored 休 link. Historical ledger/tracking unchanged at review snapshot."
+    ],
+    "findings": [],
+    "limits": [
+      "Reviewer read recorded 124-test/zero-validator/budget results but did not rerun or independently witness them.",
+      "Signature presence observed, not cryptographically verified by reviewer; author verifies separately.",
+      "Historical research checking covered relevant Wikipedia excerpt, not underlying books.",
+      "Read-only: no writes, tests/builds, commits/ref changes, delegation or concurrent-checkout access.",
+      "No phone, IME, playback, native-speaker, activation, restricted-media or whole-corpus acceptance."
+    ]
+  },
+  "authorDisposition": "Accept the bounded complete source batch after actual independent full three-facet review. No finding or consequential unresolved claim returned in this scope. No learner bytes changed after the reviewed candidate.",
+  "releaseSeparation": "No media-package authority, ordinary RU activation, checkpoint/tag advancement or app/device acceptance.",
+  "authorValidation": {
+    "validator": {
+      "command": "python tools\\validate.py",
+      "exitCode": 0,
+      "output": "0 error(s)\r\n"
+    },
+    "unittest": {
+      "command": "python -m unittest discover -s tools -p test_*.py",
+      "exitCode": 0,
+      "output": "............................................................................................................................\r\n----------------------------------------------------------------------\r\nRan 124 tests in 32.585s\r\n\r\nOK\r\n"
+    },
+    "budget": {
+      "command": "python tools\\check_content_budget.py",
+      "exitCode": 0,
+      "output": "{'files': 140, 'entries': 149, 'retainedBytes': 410307, 'inflatedBytes': 423724, 'localZipBytes': 259832, 'listeningTaskMediaBytes': 0}\r\n"
+    },
+    "manifest": {
+      "command": "python tools\\build_manifest.py",
+      "exitCode": 0,
+      "output": "manifest.json: 133 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version efed03fe86380c49\r\n"
+    },
+    "progress": {
+      "runtimeEntries": 8278,
+      "adoptedEntries": 133,
+      "statuses": {
+        "draft-reviewed-runtime-blocked": 2,
+        "partial-reviewed": 3,
+        "pending": 8143,
+        "reviewed-current": 130
+      },
+      "russianContentVersion": "efed03fe86380c49",
+      "checkpointAuthority": null,
+      "checkpointReady": false,
+      "sha256": "14c5f69a93352d6548b46cdbcb9c56ee799840297e5a4ed29b66a986114a2429"
+    },
+    "historicalPreservation": "All 103 other baseline tracking records and every non-record ledger section unchanged; affected holiday current record updated after whole-article review. Historical translation-ledger, pilot receipts and full-translation-review untouched.",
+    "signaturesVerified": [
+      "91ee6a3",
+      "278f484",
+      "4ec3eaedcc27e66455deb8442d0de269f6ac22a0",
+      "2f3404eaf7cc8c9e8f26b94c376e4422836f0ced"
+    ]
+  }
+}

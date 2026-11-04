@@ -10,7 +10,7 @@ changes are drift, not moving inputs to an in-flight translation.
 RU baseline is `4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f`;
 app baseline is `5c000bd5596d2189ef878da572687bd01ab3bb5f`.
 
-| Family | Frozen EN objects | Present RU objects |
+| Family | Frozen EN objects | RU objects at pilot baseline |
 | --- | ---: | ---: |
 | Kanji | 1,062 | 12 |
 | Words | 5,020 | 47 |
@@ -28,7 +28,7 @@ app baseline is `5c000bd5596d2189ef878da572687bd01ab3bb5f`.
 | Task images | 11 | 0 |
 | **Total** | **8,278** | **81** |
 
-Thus 8,197 target paths are absent, and presence does not establish full translation:
+At that pilot baseline, 8,197 target paths were absent; presence does not establish full translation:
 the two articles and legacy counter unit retain explicit partial coverage. Source kanji
 levels are N5 80 / N4 166 / N3 367 / N2 367 / N1 82; word levels are
 N5 672 / N4 636 / N3 1,625 / N2 1,739 / N1 2, with 346 intentionally unlabelled.
@@ -208,7 +208,24 @@ Russian answer-label overlap; an independent narrow recheck accepted exactly 30 
 direct pairs, with all earlier pairs preserved and no transitive expansion.
 [Exact source/Russian hashes and review boundaries](translation-batches/001-demonstratives-review.json)
 remain separate from the unchanged historical pilot receipts and release/device/media gates.
-Current runtime membership is 104 objects; full-target statuses are 101 reviewed-current,
+After batch 001, runtime membership was 104 objects; full-target statuses were 101 reviewed-current,
 three partial, two reviewed runtime-blocked drafts and 8,172 pending. The 8,174 absent runtime
 paths and three partial units remain work, not a completion claim.
 Continue the remaining N5 vocabulary/kanji/support batches, then all later levels and families.
+
+Batch **002 — people and family** adds three complete N5 kanji, 23 complete word articles
+and three raw-identical KanjiVG stroke files. The dependency-closed family includes 女子/婦人;
+all source levels and absent levels remain unchanged. A separately frozen amendment restores
+the now-required 休 link in 休日 and includes that whole baseline article in re-review.
+One independent reviewer actually read all 27 RU/EN learner pairs and all 23 captured dictionary
+queries; Japanese correctness, actual adopted coverage and Russian comprehensibility are CLEAN
+for this bounded scope, with no findings. The 32 direct answer pairs have individual evidence;
+exact matching titles deduplicate without inventing transitive exclusions.
+[Exact candidate hashes, actual scope and limits](translation-batches/002-people-family-review.json)
+remain distinct from device, activation and restricted-media authority.
+
+Current runtime membership is **133 objects**: 15 kanji, 93 words, 15 strokes and the unchanged
+other baseline families. Full-target statuses are **130 reviewed-current**, three partial,
+two reviewed runtime-blocked drafts and **8,143 pending**; **8,145 runtime paths remain absent**.
+Continue the next safe sequential batch; neither this milestone nor source publication completes
+the full translation objective.
