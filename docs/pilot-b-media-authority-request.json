@@ -1,0 +1,179 @@
+{
+ "contentReview": "docs/pilot-b-review.json",
+ "limits": [
+  "Earlier EN approval is not transferred; no approval fields are emitted.",
+  "Original reviewed Russian drafts remain unchanged and outside runtime.",
+  "Exact new RU-package authorization is still required before binding/publication.",
+  "Hashes and prior Japanese audio review do not establish new playback or phone acceptance."
+ ],
+ "newGeneration": false,
+ "ordinaryRelease": false,
+ "packages": [
+  {
+   "bindingSha256": "5dbf4fc2691928a443879d682bd973d4372b89883ddaa043e1963e34d056b185",
+   "candidateWithoutApprovalSha256": "e9f6991a548a8e3b7250b4d5a1db7a7b4adf981728ad10e053bf7af628373fd0",
+   "draftPath": "docs/pilot-b-drafts/listening/n5-a-phone-message.json",
+   "exactSourceAssets": [
+    {
+     "bytes": 97470,
+     "gitBlob": "b120893bff3e76b253eb7fed980f5b586cfff09c",
+     "path": "audio/n5-a-phone-message.ogg",
+     "rawSha256": "4b29f1d44879eb08c00832dbbae391ea3ee475f8458c13863da95059507cc749",
+     "sourceDurationMs": 29414
+    }
+   ],
+   "id": "n5-a-phone-message",
+   "kind": "legacy-listening",
+   "nativePlayback": "pending",
+   "ownerTestingAuthority": null,
+   "phoneAcceptance": "pending",
+   "proposedBinding": {
+    "contentSha256": "446d3339aeebb1e87fadfaf05466542652456b0fb9d2f514cff87a6629791811",
+    "durationMs": 29414,
+    "path": "audio/n5-a-phone-message.ogg",
+    "sha256": "4b29f1d44879eb08c00832dbbae391ea3ee475f8458c13863da95059507cc749",
+    "turns": [
+     {
+      "endMs": 12693,
+      "id": "t1",
+      "startMs": 150
+     },
+     {
+      "endMs": 19933,
+      "id": "t2",
+      "startMs": 13043
+     },
+     {
+      "endMs": 29214,
+      "id": "t3",
+      "startMs": 20283
+     }
+    ]
+   },
+   "reviewedDraftSha256": "5e764e658fa06efe206908ed5c2303da428c3ffb4664bfe8d5ae24f37fc883af",
+   "russianContentSha256": "446d3339aeebb1e87fadfaf05466542652456b0fb9d2f514cff87a6629791811",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourcePackage": "listening/n5-a-phone-message.json"
+  },
+  {
+   "bindingSha256": "eed8eb2d12e46e5a177688f453fc692730b1bed3d94c8734d9491a1a32703581",
+   "candidateWithoutApprovalSha256": "bc8018f9b403c31df51c948cf9da03eaa8a65bb90981cc69e23b2a194f96c421",
+   "draftPath": "docs/pilot-b-drafts/listening-tasks/n5-task-borrow-umbrella.json",
+   "exactSourceAssets": [
+    {
+     "bytes": 17213,
+     "gitBlob": "e8d7fc6b888ebb37156aff20bb773f9f363f4447",
+     "path": "task-audio/stage-9d29dc697599be3f6eb1e9f18b95a91259df745296b9f70c467c177c809e8061.ogg",
+     "rawSha256": "dce991001cc89529049444e8be608724ee0b51d7d707e677c7f01059ff9d43a3",
+     "sourceDurationMs": 4989
+    },
+    {
+     "bytes": 25331,
+     "gitBlob": "67439dbdb59c37bf93f1ee24247440dcbee1405b",
+     "path": "task-audio/stage-980da9a89da48205745f7b33f705b618e22a41bd89b3c2929ae41ea278568d3f.ogg",
+     "rawSha256": "4efd6965afed6f1de8e2ecfe48fa4f574ded074fd69bb88e49ccf9294fd0a7dc",
+     "sourceDurationMs": 7406
+    },
+    {
+     "bytes": 14485,
+     "gitBlob": "6de1a3c84b086141454ff681bfe30391fc17b6e0",
+     "path": "task-audio/stage-5a8779eb981f068e46103cbf271d001179e92a2c71a18a43cb9573d68b011f7a.ogg",
+     "rawSha256": "2b05b190777e7138153f7d61cf3a04fff41517cdfcc735e5a50146bc93b27571",
+     "sourceDurationMs": 4850
+    },
+    {
+     "bytes": 13391,
+     "gitBlob": "c9392b7f852f904c46429d87598b612476bc969e",
+     "path": "task-audio/stage-1b0a8a46e3567b8615aa50ed5f6a709f2a989157cd6d079e4c6d8a2ae4883a68.ogg",
+     "rawSha256": "e009544486d5665cb39d4359fcb18b9d3678a69f7570ef6cf5786869afd5937b",
+     "sourceDurationMs": 4603
+    },
+    {
+     "bytes": 13516,
+     "gitBlob": "5c32c238fc18e8b388a5ef06195c3fb8f975013a",
+     "path": "task-audio/stage-a4109bc3be48a2c43b6fc34a141b465a882d5456c3ae156a0facc59b633743e9.ogg",
+     "rawSha256": "b500694e549c5abd07d693d13ca5f488851bdf10ac8333fd2197649085eae5c2",
+     "sourceDurationMs": 4614
+    }
+   ],
+   "id": "n5-task-borrow-umbrella",
+   "kind": "japanese-task",
+   "nativePlayback": "pending",
+   "ownerTestingAuthority": null,
+   "phoneAcceptance": "pending",
+   "proposedBinding": {
+    "audio": {
+     "choice-1": {
+      "durationMs": 4850,
+      "path": "task-audio/stage-5a8779eb981f068e46103cbf271d001179e92a2c71a18a43cb9573d68b011f7a.ogg",
+      "sha256": "2b05b190777e7138153f7d61cf3a04fff41517cdfcc735e5a50146bc93b27571",
+      "turns": [
+       {
+        "endMs": 4650,
+        "id": "choice-1",
+        "startMs": 150
+       }
+      ]
+     },
+     "choice-2": {
+      "durationMs": 4603,
+      "path": "task-audio/stage-1b0a8a46e3567b8615aa50ed5f6a709f2a989157cd6d079e4c6d8a2ae4883a68.ogg",
+      "sha256": "e009544486d5665cb39d4359fcb18b9d3678a69f7570ef6cf5786869afd5937b",
+      "turns": [
+       {
+        "endMs": 4403,
+        "id": "choice-2",
+        "startMs": 150
+       }
+      ]
+     },
+     "choice-3": {
+      "durationMs": 4614,
+      "path": "task-audio/stage-a4109bc3be48a2c43b6fc34a141b465a882d5456c3ae156a0facc59b633743e9.ogg",
+      "sha256": "b500694e549c5abd07d693d13ca5f488851bdf10ac8333fd2197649085eae5c2",
+      "turns": [
+       {
+        "endMs": 4414,
+        "id": "choice-3",
+        "startMs": 150
+       }
+      ]
+     },
+     "instruction": {
+      "durationMs": 4989,
+      "path": "task-audio/stage-9d29dc697599be3f6eb1e9f18b95a91259df745296b9f70c467c177c809e8061.ogg",
+      "sha256": "dce991001cc89529049444e8be608724ee0b51d7d707e677c7f01059ff9d43a3",
+      "turns": [
+       {
+        "endMs": 4789,
+        "id": "instruction",
+        "startMs": 150
+       }
+      ]
+     },
+     "utterance": {
+      "durationMs": 7406,
+      "path": "task-audio/stage-980da9a89da48205745f7b33f705b618e22a41bd89b3c2929ae41ea278568d3f.ogg",
+      "sha256": "4efd6965afed6f1de8e2ecfe48fa4f574ded074fd69bb88e49ccf9294fd0a7dc",
+      "turns": [
+       {
+        "endMs": 7206,
+        "id": "utterance",
+        "startMs": 150
+       }
+      ]
+     }
+    },
+    "contentSha256": "3835333060485e718854266e4a4c6c08298bee0b5227bd3596dabe098c15251d"
+   },
+   "reviewedDraftSha256": "a215aea0097615b5caeb5893ff367afe03a6d03fdb83c77820fba518a7e2305e",
+   "russianContentSha256": "3835333060485e718854266e4a4c6c08298bee0b5227bd3596dabe098c15251d",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourcePackage": "listening-tasks/n5-task-borrow-umbrella.json"
+  }
+ ],
+ "paidRequests": 0,
+ "requestedScope": "Bounded owner-testing publication of these two exact Russian packages using unchanged Japanese audio",
+ "schemaVersion": 1,
+ "status": "REQUEST-ONLY; NO RUNTIME AUTHORITY"
+}

@@ -137,8 +137,9 @@ upstream [`grammar exercises`](https://github.com/stop-cran/learning-japanese/bl
 
 Согласованный C1-контракт описывает RU `content-language.json` с `baseLanguage: ru` и `targetLanguage: ja`,
 RU manifest schema 2 и сохранение schema 1 для EN. Сверяйте раздел `Repository teaching language` в
-текущем EN [`docs/content-format.md`](https://github.com/stop-cran/learning-japanese/blob/3196c3a273b9db8375bb79bede01ab8db5bce0d0/docs/content-format.md)
-с учётом того, что сам раздел добавлен в рабочую копию после указанного SHA и пока не вошёл в этот pinned-файл.
+зафиксированном EN [`docs/content-format.md`](https://github.com/stop-cran/learning-japanese/blob/6af98cb717755690a9ca793e5454a96ebd7a8f9f/docs/content-format.md).
+Раздел уже опубликован; старое описание незакоммиченного C1-добавка относится только к историческому снимку.
+Проверяйте повторные raw-декларации до JSON-декодирования, иначе decoder может скрыть дубликат.
 Пользуйтесь фактически имеющимися C1-инструментами из RU-дерева. Само наличие валидатора/генератора не
 означает, что runtime-контент, импорт в приложение, old-reader compatibility или APK/device acceptance
 уже приняты.

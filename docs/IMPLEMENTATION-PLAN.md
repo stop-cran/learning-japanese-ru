@@ -1,5 +1,19 @@
 # EN/RU implementation: small checkpoints before broad translation
 
+Current full-scope execution (2026-11-04): the owner requested the remaining roadmap, not
+another smaller pilot. [Full scope and dependency order](FULL-TRANSLATION-PLAN.md) freeze EN
+`6af98cb...`: 8,278 runtime objects across14families; RU has81 present, including three partial
+units. The independently reviewed plan retains C6/C7 gates. Contributor provenance/drift
+tooling is implemented and independently accepted after correcting raw duplicate JSON loading;
+124 tests and the actual zero-error validator pass. The reproducible manual report leaves
+partial units, runtime-blocked drafts and the remaining corpus pending; no checkpoint/tag advanced.
+Additional owned API29 testing earned 40 real reverse answers and passed five newly unlocked
+Word Type questions with automatic focus/IME and committed source-bound history.
+Delivery of the new signed `0293a7ba...` APK to the phone is verified, not phone
+installation/acceptance. Counter second-day, exact audio authority/playback and owner-device/C7
+remain blocked; broad translation has not been declared complete or silently enabled.
+The historical pilot narrative below retains its original scope and earlier observations.
+
 Current status: Pilot A's bounded C5 integration gate is accepted through Native15. The owner
 subsequently authorized merging all three reviewed testing branches: app main `30b0719`,
 RU main `98046a9`, EN main signed two-parent merge `5f460b8`. This is source publication,

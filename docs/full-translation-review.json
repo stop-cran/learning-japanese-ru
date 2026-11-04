@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "scope": "Full-scope roadmap and contributor provenance tooling; not corpus, media, device or release approval",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "ruBaselineCommit": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+  "independentReviewer": "48e0a722-3c37-4f0c-bc44-6f57770ee2b2",
+  "reviewSequence": [
+    {
+      "turn": 0,
+      "scope": "Original complete 8278-object plan, dependency order and execution boundaries",
+      "verdict": "CLEAN",
+      "reviewedPlanSha256Prefix": "85909c94"
+    },
+    {
+      "turn": 1,
+      "scope": "Contributor implementation, source bindings, deterministic report, media-authority request and three guidance dispositions",
+      "verdict": "NEEDS FIX",
+      "reviewedPlanSha256": "ca2dc4bd19a1f01978dac684afb684d94488d917923be857d3adae82d24a4215",
+      "finding": "F1: ordinary JSON decoding collapses raw duplicate source and Russian manifest declarations before validation",
+      "severity": "medium",
+      "guidanceDisposition": "Accepted, contingent on F1 correction"
+    },
+    {
+      "turn": 2,
+      "scope": "F1 correction and tightly coupled source/Russian JSON loading, focused regressions and retained guidance dispositions",
+      "verdict": "CLEAN",
+      "findingDisposition": "F1 resolved",
+      "productionSha256": "4c77865769ba46f821d1761dd9c2168b4ac776944e5d05abd2aba8b001f10392",
+      "testsSha256": "ac473f2f7446bce645750ab775bbba7d8b85c7e66f3c3380001ad1a5d21d5f44",
+      "guidanceDisposition": "All three exact 6af98cb dispositions accepted; not new C2, linguistic or media acceptance"
+    }
+  ],
+  "validation": {
+    "command": "python -m unittest discover -s tools -v",
+    "tests": 124,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "behavioralRedBeforeCorrection": {
+      "tests": 2,
+      "failingSubtests": 4,
+      "cases": [
+        "Local manifest: conflicting literal schemaVersion declarations",
+        "Local manifest: escaped-equivalent schemaVersion declarations",
+        "Immutable Git source: conflicting literal schemaVersion declarations",
+        "Immutable Git source: escaped-equivalent schemaVersion declarations"
+      ]
+    },
+    "strictLoaderRealInventoryEquality": {
+      "beforeCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+      "beforeObjects": 8272,
+      "afterCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "afterObjects": 8278,
+      "matchesOriginalInventoriesExactly": true
+    }
+  },
+  "historicalRecords": {
+    "pilotARuntimeBindings": 51,
+    "pilotBRuntimeBindings": 30,
+    "separatelyReviewedRuntimeBlockedDrafts": 2,
+    "originalReceiptsRewritten": false,
+    "runtimeManifestChanged": false
+  },
+  "excludedAcceptance": [
+    "Full corpus translation",
+    "Broad C6/C7 completion",
+    "Physical-phone or Japanese-capable keyboard acceptance",
+    "New audio-package authority and native playback",
+    "Ordinary Russian default activation"
+  ],
+  "checkpointAuthority": null,
+  "checkpointAdvanced": false
+}

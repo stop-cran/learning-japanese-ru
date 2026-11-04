@@ -1,0 +1,2225 @@
+{
+ "checkpoint": null,
+ "checkpointAuthority": null,
+ "drafts": [
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "draftPath": "docs/pilot-b-drafts/listening-tasks/n5-task-borrow-umbrella.json",
+   "path": "listening-tasks/n5-task-borrow-umbrella.json",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "a215aea0097615b5caeb5893ff367afe03a6d03fdb83c77820fba518a7e2305e",
+   "ruSha256": "a215aea0097615b5caeb5893ff367afe03a6d03fdb83c77820fba518a7e2305e",
+   "runtimeAcceptance": "blocked",
+   "runtimeAuthority": null,
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "70cc11649de191dbf0bf9f361ba09e980ef5e2c0bfc1433a78c752392b1e16eb",
+   "sourceSha256": "70cc11649de191dbf0bf9f361ba09e980ef5e2c0bfc1433a78c752392b1e16eb"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "draftPath": "docs/pilot-b-drafts/listening/n5-a-phone-message.json",
+   "path": "listening/n5-a-phone-message.json",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "5e764e658fa06efe206908ed5c2303da428c3ffb4664bfe8d5ae24f37fc883af",
+   "ruSha256": "5e764e658fa06efe206908ed5c2303da428c3ffb4664bfe8d5ae24f37fc883af",
+   "runtimeAcceptance": "blocked",
+   "runtimeAuthority": null,
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "b14049ae0932e77b1ca62aae63b2b0d1afed2829c9d8b3baafbb240d425d5f34",
+   "sourceSha256": "b14049ae0932e77b1ca62aae63b2b0d1afed2829c9d8b3baafbb240d425d5f34"
+  }
+ ],
+ "guidance": {
+  ".github/copilot-instructions.md": {
+   "note": "Accepted 6af98cb delta: localized reading consumers, raw duplicate rejection and separately justified inherited Japanese corrections; not new linguistic or media approval",
+   "reviewEvidence": [
+    "docs/full-translation-review.json",
+    "docs/instruction-source-inventory.md"
+   ],
+   "sha256": "92b00a0f58db0468c91840bfdfce7d5803c201f68ecbd1364d8888f5737ed55a"
+  },
+  "docs/content-format.md": {
+   "note": "Accepted published EN/RU schema and base-language contract; existing English-reader compatibility and Russian fail-closed requirements retained",
+   "reviewEvidence": [
+    "docs/full-translation-review.json",
+    "docs/instruction-source-inventory.md"
+   ],
+   "sha256": "271af8dcfceeebaa30174476721e4b8b5e663c54b1c57af2b1fcc77f15356a5c"
+  },
+  "docs/jlpt-levels.md": {
+   "note": "Accepted historical Snake bounded-owner-testing note only; no new level claims, general Russian activation or transfer of testing authority",
+   "reviewEvidence": [
+    "docs/full-translation-review.json",
+    "docs/instruction-source-inventory.md"
+   ],
+   "sha256": "0d4433a5cfdcaefd531b098e76c26e92040a9f28afdfd411639d475d5dde94d5"
+  },
+  ".github/agents/content-consistency-reviewer.agent.md": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "df817ab7bd6abbdd0182b3e5db1ec3871ed0766ebdf4d63e3aba69c0ca7d6b1f"
+  },
+  ".github/agents/kanji-accuracy-reviewer.agent.md": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "f839076113f2b3f3928676277f1a36a629f271d158e1d62eb665864944e31544"
+  },
+  ".github/agents/kanji-comprehension-reviewer.agent.md": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "db8af279851cb57c69d849ca3ad83d3430913d08d7cc50b73031474307ad530c"
+  },
+  ".github/instructions/content-structure.instructions.md": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "c96de5ab347bc2fa5f224697f8dafb5f801dbe08985da845cd2b626681b434ef"
+  },
+  ".github/instructions/listening-authoring.instructions.md": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "9eac3eca4ba84bff001f6ed533ddb70d5898caf6091b0781c39dc3534222948b"
+  },
+  "README.md": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "50490f8f14877bfbba5f0c84b9d784813fd08518fda58cf4a1791572b57a4348"
+  },
+  "REVIEW.md": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "7ce24fb0399df0c12fb212349b6a6e4b84898624b8eaf18a877a379732d1a082"
+  },
+  "docs/confusable-words.md": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "c29a9fde295a3f05be8f1f7e478ce7a854cb61e8d1f905b249f1e21be2aaac0e"
+  },
+  "docs/counter-n4.md": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "0684f8ce6291f28bfa6a745cbc4886ed136754cd9186a353957db03ea572d15a"
+  },
+  "docs/counter-n5.md": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "7c8fb91d607a16ea9839da39b344f17f4a6b31dc1e991db12cb1c3398be81b32"
+  },
+  "docs/grammar-ability-perception-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "ca8ac2411b6aba473cdebdc21ffd3e7bbb7e9f6ae4626330e75cc8ed66011a69"
+  },
+  "docs/grammar-actions-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "74225f202ec198b4d5039ad18fc6f3536858cc22d7e7686c3ae120ab106d09f7"
+  },
+  "docs/grammar-appearance-impressions-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "8daf417501982192611fcf8fb41eb20389754841ff520f8cea1bb86c30ddecf7"
+  },
+  "docs/grammar-authoring-sources.md": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "e7496cba13fce9873b73bf1c7ccde3f43e3afd43b703275210c6e8ad3c647a29"
+  },
+  "docs/grammar-basic-particles-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "4b9c22b94999dd1189840416a6d13bc3e5e445396570578603dd95a021c19eb5"
+  },
+  "docs/grammar-before-after-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "b6ec5ea07db2247dd1bf277a3a8b8ac97292e107e5323f0e8df2944d16e22772"
+  },
+  "docs/grammar-benefactive-requests-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "0b1ddec4ab95174b6dc3a1646888006e1b6fb343b1b648cd3c86334530b2608c"
+  },
+  "docs/grammar-causative-perspective-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "ac313b48a36ea9d6bef5447ce71909a32e87926fe5a2a1c06bd2944049c13658"
+  },
+  "docs/grammar-causes-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "270b81d914c779833721b1e88bce3369065e721b41c7a8a9c4772d6a00b05877"
+  },
+  "docs/grammar-comparisons-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "8b954b1511266ca4d349207f8f5d1a56d443b3d535fb82726dc0797771045fa2"
+  },
+  "docs/grammar-composition-text-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "ba6f57060ca3ab086569fa08ae9acd49a7b7f7522d3e834c0f84cb46460fa941"
+  },
+  "docs/grammar-compound-relations-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "b564191171268a6c4d663da45a68fca25f8ec743ba0fe386859290a31ed4eb34"
+  },
+  "docs/grammar-conditionals-contexts-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "ea56752df7ecec1673d14f301ff6a4e3f2126549e9fe2f557445ce354f9728e3"
+  },
+  "docs/grammar-conditionals-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "c2e3449898f59e101e1545e974f89decfd4ed3a530db593a2ffb3e6dd301973d"
+  },
+  "docs/grammar-conditions-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "42f8389a4242b72fd486380cdbc383fbffa7c0414ed16123033c132fc8e9e33e"
+  },
+  "docs/grammar-contextual-transfer-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "f9ff528b5ed73990cbc0ad85eafe51033d985616f4ca813775a8ae788ef432af"
+  },
+  "docs/grammar-conversation-connectors-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "e785f66f1203f06d84bb8092a8eaab140ce23f90f14bff4548158557328d0c65"
+  },
+  "docs/grammar-curriculum-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "4e045426a2d9a1fac79ec58f54007b2f9f34d63a62cd721156272be73e3ee591"
+  },
+  "docs/grammar-degree-and-polarity-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "b5938b6cdffc96335caf395c07fa39b81386c6e8b5e0d072c092529fca4db88b"
+  },
+  "docs/grammar-degree-extent-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "370d77956f8dad6755bf3ef868136135924aecfab222af734fef350fd5a8484a"
+  },
+  "docs/grammar-descriptive-contexts-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "eaec5b9ad4629f8526690b4656158e3a9821d9c8a2cd5dc502895404fcd150b8"
+  },
+  "docs/grammar-desire-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "5f95d3078fae5014db740ca0a5ce0a241b65ccb1e2803d60559bfe424e7b1268"
+  },
+  "docs/grammar-expectations-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "e2bcd4f02b768536b037c609f62359c191084a04a60a380e17ac1462bb112f8a"
+  },
+  "docs/grammar-foundations-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "194975e1e2d79cb62e2f3d6aac64f905e6d5309b6c02a2101a6d18c83b46df4b"
+  },
+  "docs/grammar-hoka-exclusion-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "0d906485233bfc2af35596e1e7626d4c3b4743b9e4c69428437baff60f2c8066"
+  },
+  "docs/grammar-honorific-humble-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "8d71bc6ff5dddb6c7e7e7996e07864d10660b3b1315c70e5a0faaa2ec6726f95"
+  },
+  "docs/grammar-hopes-wishes-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "6d2e1343273c26328f854355b3657d45624c12508550def4f6cd0114230c6832"
+  },
+  "docs/grammar-intent-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "432a3df20e3992283817e2f7449a27a3e6f9f187bf014dde3c27ae8815c68805"
+  },
+  "docs/grammar-intention-denial-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "0473bc973e733e538c6a974bdfd9f4bce6e3ae7c274e3b4e48b9402ffee6c0e2"
+  },
+  "docs/grammar-jlpt-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "7b817e3b8b630409241086682c47b927ffd68a4c486cfa75fd866776c830a851"
+  },
+  "docs/grammar-judgment-expectation-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "1d69d95443826cf60821b3d2d8a49eb049931b13bc621a48ce2e8b55254e8e2c"
+  },
+  "docs/grammar-kiri-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "4a4bc4b96aa6125b6bbfb3884b4d365d191a10552c279bc764a44450bf0e1240"
+  },
+  "docs/grammar-kurai-degree-minimum-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "dcb8f6b217e552313a0668eb72db142f6e3699777cec95bea2303b3d196615b4"
+  },
+  "docs/grammar-listing-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "dc26419598938ca90404291bf4805222a82cd2b975d5b6029b8232ffe988c7e6"
+  },
+  "docs/grammar-means-and-scope-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "8b60248a99ccb99a4ec002194587768929e02233e188bdc734fe530f69c70827"
+  },
+  "docs/grammar-mixed-completion-state-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "fad9438ee82496949feef6b94d79e348000e22034b20a065b7fbf0498480b8b2"
+  },
+  "docs/grammar-mixed-intention-necessity-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "41ed5e2a97496d499b67bb2e09ac9fd44a28586de80333b7bf889e46a667b612"
+  },
+  "docs/grammar-mixed-norms-expectations-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "b194e2aea6028f84ce05cb3e3a22dc11cb38653879639001e16dcd3f276ca3a2"
+  },
+  "docs/grammar-mixed-past-stance-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "c520b8f2dbcc6e0e861e772c64a5ce74e7d39f4970a29a7070b81c18082e3ff3"
+  },
+  "docs/grammar-mixed-routines-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "807a0e18823214c21bb50e6476496895d779b00fdfd030acf56a61d6153f158d"
+  },
+  "docs/grammar-mono-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "9bf52eea5dc2d309e76d890ec06e9beddb219d5231165561f0746d63102d0370"
+  },
+  "docs/grammar-motion-stages-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "edacf5660ccd143cc199cb709c8dbe85d71a5bc55d1c810983370a485a9a23c3"
+  },
+  "docs/grammar-multi-correct-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "bc8ba59d861972b726516c24c8de37b759cfe002e8956923c7369ddbe069a9eb"
+  },
+  "docs/grammar-n4-consolidation-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "8318fb6b8a4ce3f3e9ee1eea7bd9e6b6bd3e497518b41f87e98ad86b2dcae019"
+  },
+  "docs/grammar-n5-comparisons-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "ebc6a517a1917ab678721834201b785f74acffa750d2486c5dff846fcbad1051"
+  },
+  "docs/grammar-n5-descriptions-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "4e077eceacfc96f307e0da7530f74045f3806ccba41279a5e2f372c20bf70e50"
+  },
+  "docs/grammar-n5-endings-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "0d5e0474dd776f3ed9c1fb36282933ede2eafd263ddffc7502cdb6058969cc94"
+  },
+  "docs/grammar-n5-foundations-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "520c506b8c81eae2e3a29da587339bb8746d1b8698e982cfd98514005aaf2502"
+  },
+  "docs/grammar-n5-giving-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "53b536857ef471dd0395f6269300175fceceec628b5a6bbde7802033ce21814c"
+  },
+  "docs/grammar-n5-pointing-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "f1667e957ee982bbd6d8dff3e789da09de1540fa588c1907b0ee94f4acf385f1"
+  },
+  "docs/grammar-n5-reasons-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "192e4bcf1a1acf8a40468fbaa72da920d927b1872019eed88ddcde3a9f1b8e41"
+  },
+  "docs/grammar-n5-wants-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "71ac31c7f50e4701d35e17fd677e7b338ca5e261137843d8e63bbd963ba85a96"
+  },
+  "docs/grammar-necessity-instructions-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "7e7fb8b937f4ad14dee95a9a35548c6de7400086e558b5f2f4c1ad2d021d368c"
+  },
+  "docs/grammar-noni-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "cbc5e050590b4763b1ca1bd912f56273d07bba6f60348a9b08625580eb3a0311"
+  },
+  "docs/grammar-onomatopoeia-expansion-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "e7fecebef0035707f847f8bd3d891598111c7a643bc718058a17efd15d88a38a"
+  },
+  "docs/grammar-onomatopoeia-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "49555fd187a0aa4c627e3a39b88e85f04771cdfdce6c7f50b025519758f8cef7"
+  },
+  "docs/grammar-particles-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "5e5919fd3a422136c1d3d8db00a48e0bc65f2d2009e94eb84c137d90303b5529"
+  },
+  "docs/grammar-passive-participants-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "96509044badd2a1ba8b2911b783fb82c534480187e8ec7045c56f6cf3445c51f"
+  },
+  "docs/grammar-past-expectation-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "77ef45b2e54efc23f97979d8a8d1d5bb0f50516a828ef59289b1d8467d9f25e8"
+  },
+  "docs/grammar-plans-goals-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "0bbdad56c87e521f6806902e6da90ef54a88b7b660b63a928c79db086b5e4393"
+  },
+  "docs/grammar-plans-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "f0760224feb167abfaebb6164bd4698403ba81c402e9a383f20263b002cf1e5c"
+  },
+  "docs/grammar-possible-extent-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "4d910693edf7a158af47aaa64aaba937b42c2853c969b9d7ae415c20ee888de2"
+  },
+  "docs/grammar-productive-descriptions-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "21f9ea83c042bcf35e17f5a03ec77457bf2188cbd0bfc46215949880ffd3b0b7"
+  },
+  "docs/grammar-quantity-scope-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "52de72f90ec46590153846d5fbe93614cad1503c248a57e549c6ead28ae16827"
+  },
+  "docs/grammar-quantity-zutsu-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "e3dc1a1a01e0db4a494367134937bfbd967883440b2580b96561c7df72907253"
+  },
+  "docs/grammar-relations-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "7274e73895a6737eaaf7b2f130ea31a77cf9c9afb5545867ef70a8da87dd27f7"
+  },
+  "docs/grammar-reports-questions-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "bff19bc80785b67aa0b487f0af73967d295308034f030326e0aac8cad0f44e69"
+  },
+  "docs/grammar-restriction-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "6e8d3c12ad1ad6025d894a381aba8237f85112b9def0dd7ef3d88507f6ad90b1"
+  },
+  "docs/grammar-self-assessment-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "3799e67f4b40ce958bd8d1b12f29105ab63c99e75a3e8acec4990c7198c07708"
+  },
+  "docs/grammar-stages-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "b61e47f28d65b9e38d9c75c07a7a9f3d1928174eeaf2bae3ac44c9fbabc56635"
+  },
+  "docs/grammar-state-change-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "832fc367c3f9c7f2693303e806bfabcacbb079d8a3a5efde2a2ae9b81c08642e"
+  },
+  "docs/grammar-states-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "805f8892e14a346b273f65f74bcf7ccd8e2d175fe5d3b3b43b9d353991193797"
+  },
+  "docs/grammar-time-linking-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "c8d5d3f5b461d39a6ca97fe1a388c1fd9750452ed6f2a94c469877c00a54b7d1"
+  },
+  "docs/grammar-time-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "67c6fda548c1180b4cabb3e4d3ada65d23551e66d0a5accb312446ed4763e0af"
+  },
+  "docs/grammar-topic-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "5ba2b4854df3c63b0ccdbd1d5a77e1ac2254f6e477414d01c28297307cd8a968"
+  },
+  "docs/grammar-transitivity-results-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "94de978f82c6f0eaf579fd3eb8a0c9513954fc51ceace4c31ab67f9dbd6fb922"
+  },
+  "docs/grammar-try-prepare-complete-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "842fdbba885504ffba6237449a2a63f626165940d7ae6aac451473852225e1ca"
+  },
+  "docs/grammar-you-change-effort-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "b2fb1db093e663f2368cd87902ad948766f04ecff595badf7b5ba9cb02135f85"
+  },
+  "docs/grammar-you-sources.json": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "0b046d96655e6d421c14a779f62e79431cd754da13c80b9fbd1c3ab3e07eb1eb"
+  },
+  "docs/listening-n4.md": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "cbb9224040c649fbe2f9efc831d9cf53a3299b7c9dec5738f0cb77a6d7d61074"
+  },
+  "docs/listening-n5.md": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "bc50a1c7f7bcdb032ff09cc323eb15e171ffd315039294d7e8a082c7c44891f2"
+  },
+  "docs/listening-tasks.md": {
+   "note": "Unchanged C2 instruction-source guidance, not new learner-content approval",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/1#issuecomment-6602318753"
+   ],
+   "sha256": "3b4edf62fb61f9b39df206a5987fb9cac7480fce5cd9a3ab03883b204c5af428"
+  }
+ },
+ "historicalRussianRuntime": "7ce81c74e72fc189185a1bebe71d775379792124",
+ "limits": [
+  "Historical review evidence is retained, not reissued as a fresh review.",
+  "Three adopted units have deliberate partial coverage; two text drafts have no runtime authority.",
+  "No whole-corpus translation, current-source alignment, C7 or general release is approved."
+ ],
+ "records": [
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "partial",
+   "path": "articles/japanese-listing-and-examples.md",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "3197adaec266372f9a016f53fe689f393efcc3334a6eb33eba00df4b418a5b3a",
+   "ruSha256": "3197adaec266372f9a016f53fe689f393efcc3334a6eb33eba00df4b418a5b3a",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "c9afb64d9f341b6b9d854666140de57cbb554495217f67e707ab6ee9065c9bff",
+   "sourceSha256": "ea22f52d520983f12ba0df2872e84cf02c79d30294c6d986e890835bff1727f6"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "partial",
+   "path": "articles/numbers-and-counters.md",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "a0b31b08148bf1a30ab3fdf62aa4f6ce34cf5c4af37809387054930a48b8c8f2",
+   "ruSha256": "a0b31b08148bf1a30ab3fdf62aa4f6ce34cf5c4af37809387054930a48b8c8f2",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "62121e5289d25c54b7e0c7048b1158b55a4961fa6bf706371d2aa90ef0a4b19d",
+   "sourceSha256": "b9e2433e7f862524462ec6f1ec307b40c9f74d86a2982ab3d8d716b073dfc930"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "counters/native.json",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "a6324ca32f23e8c3b9d60208c582dc30004c818fd566be58fe60db2445d560a6",
+   "ruSha256": "a6324ca32f23e8c3b9d60208c582dc30004c818fd566be58fe60db2445d560a6",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "fbf2757bfc7f38b389ac668a8790091ec2a0c4e1c96d544d571e645c68f805f9",
+   "sourceSha256": "fbf2757bfc7f38b389ac668a8790091ec2a0c4e1c96d544d571e645c68f805f9"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "partial",
+   "path": "counters/tsu.json",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "cb0ff192bbb21ff6b75ef25c7779540493ea55359aafe2e1e181ba21711fedb5",
+   "ruSha256": "cb0ff192bbb21ff6b75ef25c7779540493ea55359aafe2e1e181ba21711fedb5",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "f7547781516c985f1da049dd3b31fbabcb8e591bd98f8695eab68efa3601088e",
+   "sourceSha256": "f7547781516c985f1da049dd3b31fbabcb8e591bd98f8695eab68efa3601088e"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "grammar/n5-foundation-connections.json",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "c4a9597cfc656ec192f6989d07df3b573ce8b6b1e995e5b46d78fdd3da540802",
+   "ruSha256": "c4a9597cfc656ec192f6989d07df3b573ce8b6b1e995e5b46d78fdd3da540802",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "594d65c96d24698e7e10ff246c9fe85ed2b83cfe80e56bc1bc40338769e97490",
+   "sourceSha256": "594d65c96d24698e7e10ff246c9fe85ed2b83cfe80e56bc1bc40338769e97490"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "images/きらきら--sparkling-interested-eyes.webp",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "3d4394c0fb258cfa7bf56902560d1bf91706ef57b1ea562c973e0264994f692b",
+   "ruSha256": "3d4394c0fb258cfa7bf56902560d1bf91706ef57b1ea562c973e0264994f692b",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "3d4394c0fb258cfa7bf56902560d1bf91706ef57b1ea562c973e0264994f692b",
+   "sourceSha256": "3d4394c0fb258cfa7bf56902560d1bf91706ef57b1ea562c973e0264994f692b"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "images/きらきら.webp",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "7a2aa8ad5ddcd8c746dffe14a41c6a675b5c94002e32fa98476e181e50096456",
+   "ruSha256": "7a2aa8ad5ddcd8c746dffe14a41c6a675b5c94002e32fa98476e181e50096456",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "7a2aa8ad5ddcd8c746dffe14a41c6a675b5c94002e32fa98476e181e50096456",
+   "sourceSha256": "7a2aa8ad5ddcd8c746dffe14a41c6a675b5c94002e32fa98476e181e50096456"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "images/にこにこ.webp",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "f3c9df76f7f2709f5982925d90a3651eb94c54d1c7d8c91f5d90061268afc6a6",
+   "ruSha256": "f3c9df76f7f2709f5982925d90a3651eb94c54d1c7d8c91f5d90061268afc6a6",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "f3c9df76f7f2709f5982925d90a3651eb94c54d1c7d8c91f5d90061268afc6a6",
+   "sourceSha256": "f3c9df76f7f2709f5982925d90a3651eb94c54d1c7d8c91f5d90061268afc6a6"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained",
+    "distractors: candidate-pool adaptation independently content-reviewed; native option-pool verification pending"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [
+    "休.md",
+    "入.md"
+   ],
+   "path": "kanji/人.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "374690d5a54deceda00811b697840f694648c6aeaffb6c80a6e0ff9cd1c4ff9a",
+   "ruSha256": "bbd5ab0fd2ac070ea101e29f486521dfe426c853a8b2bf147c8892d4075eaff2",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "b4dc367685d7f68abd547f5ee9c37bd266b7e581e66464aae62d121df552d7d7",
+   "sourceSha256": "64281af5455b0586607dc7a47b0e31cb72edb9bc5b75602c441d0d119a609ff4"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [
+    "../words/入口.md",
+    "../words/出入口.md",
+    "../words/出口.md"
+   ],
+   "path": "kanji/口.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "58b60ed8a74862d7c3cbea50471921ed723f8ceab43fe83fa8a959fc69c1e729",
+   "ruSha256": "1ab87c95a5b69b4f435baca58c8848a085fb252ec21fca6acbacec3056a3eb0e",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "af1b353ec5b168bebceb14e25a7bb65a8e8b16a76bc2025f7b7fd5179cf14852",
+   "sourceSha256": "16454fe66b9c5ec7668c6de0efefd74a1cc1336b8a3b35e80a5f088a0e1ea769"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained",
+    "distractors: candidate-pool adaptation independently content-reviewed; native option-pool verification pending"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [
+    "../words/中小.md",
+    "../words/大小.md",
+    "小.md"
+   ],
+   "path": "kanji/大.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "3ed965845a13910aace5a6d4031498a1d426832a286d32280794b471c4baca38",
+   "ruSha256": "961221be4af7e5db91fa54780b972a6bd6539c55c9e7175f9fffa5afd1f0e319",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "d335bbba02bdbc6e8ca185e91d7afd528d770d48492b4b72540107b333493a44",
+   "sourceSha256": "cd08a62930b919b82400f10c8cb1d0d2fc63a8eb3afcfc2ffe309809d1050afc"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained",
+    "distractors: candidate-pool adaptation independently content-reviewed; native option-pool verification pending"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [
+    "出.md"
+   ],
+   "path": "kanji/山.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "1c62d4420e8d5c30d46d7d2ad3c22a9e23bc5b4581cc5f689f5236a4313c2d4b",
+   "ruSha256": "833f182653100eb0261d97f27420493a99ace8adb073b3bf462b6f02f52be2c1",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "1c1ced6e0444bb9c40b3d6e081e79158944e4587e4954239378d0f6add1e95e1",
+   "sourceSha256": "4213ec59eb3019d4170eeb8fb2c753cb39947fa3ce31a9f12b709cabd90255d6"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained",
+    "English-specific comparison removed or replaced by Russian-audience explanation",
+    "distractors: candidate-pool adaptation independently content-reviewed; native option-pool verification pending"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "kanji/川.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "971f466ac557cef86922be85ac5ef11ded53527a6be017c7ec3818d8fbb6c781",
+   "ruSha256": "12003c0cfb985c82f88bc971ea84a76b40aa3cc69c71f4d46905772819f620a6",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "f59ffc496dd9339329b608d304ad07ccfc4a4fbbcc314fd153c98df88c855abe",
+   "sourceSha256": "161899528017a211d4ef01ebc37ecaf0c8faecfa74382b2e3a448c06a53194a4"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained",
+    "English-specific comparison removed or replaced by Russian-audience explanation",
+    "distractors: candidate-pool adaptation independently content-reviewed; native option-pool verification pending"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [
+    "持.md"
+   ],
+   "path": "kanji/待.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "e8c9a2ab2bdbd974228789bd80135d40ebb76c1330203cc986fe790ae757b870",
+   "ruSha256": "ff7899b80052f28862911ed2cc5659d87fd11b009e2208b7c42c721a845e6f7c",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "2dda80484f69550ad22c08c436d9ae46e75f21c4200dbc3a46b92c20bc8ec9d6",
+   "sourceSha256": "2dda80484f69550ad22c08c436d9ae46e75f21c4200dbc3a46b92c20bc8ec9d6"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "kanji/日.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "d55ff75624c1a122671491370c682c21fcb6fcc746c0703da08a55ac98649617",
+   "ruSha256": "1599806fcd5995423168d481e337aae242d47464f05dd1f6f0ff7f2e1a4f7ee8",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "5e22073d806f4557a0736f95ed5da0d8546966695578c60a669dd13fb2e6ee07",
+   "sourceSha256": "7f13f3cabb66da342d3dc0b361e2bdadc7a62d951b01f03b428916a3699ee36f"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained",
+    "distractors: candidate-pool adaptation independently content-reviewed; native option-pool verification pending"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [
+    "../words/何時.md",
+    "../words/時々.md",
+    "間.md"
+   ],
+   "path": "kanji/時.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "84313dc2d35645d20a53fbd9b168461d57ddf12ee91ecc8a8ba06a84f52780ce",
+   "ruSha256": "9f2189f0031f0270f5968f1eb13adc0bde2f6dfc6af88b5fddda61837a1586ea",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "bc72feee31b4adc4aa5287336151cab767db36d840cd18a7ab9d81db8631f317",
+   "sourceSha256": "302f74c22601c7431840032a727f02612b29d50d9f00042e9f05efac61fc78ba"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "kanji/月.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "450dfbc9c11087bbecd8d869978f8e1263d16b71797455db3d905cb1fd8073de",
+   "ruSha256": "2da67607b6c415fd486814c7d0a5ca0a03eff01edb7350c16c7a624584e93f01",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "250ad9ca01cc1356dd3d1c0f06c37299ca8c8b8ef1163da3b7408e94ed395563",
+   "sourceSha256": "10831c2dca40aff93ae945124b5be84205bc59d7cd482cd071b3a3f5f79f5629"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained",
+    "distractors: candidate-pool adaptation independently content-reviewed; native option-pool verification pending"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "kanji/木.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "477e22815439f8e25044e82a2a6b49d89387e301af5974366fabec89b3e091df",
+   "ruSha256": "aad1ccff0c4a35bb1b2a6a7aa9eebf7f139065d8a9149aa228dd285db1d4b522",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "699e6376cf44b54facd3a7bdba3a87ebbe06f461492ed4d49a1da1a7b3c73430",
+   "sourceSha256": "d79dbdb56724edc8b736d1754b713e1d878daac71bb90a8f79960864257578d6"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained",
+    "English-specific comparison removed or replaced by Russian-audience explanation"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "kanji/水.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "c464b2b218824ea13d35be634f990a1fec5b0f5954282f94d303df614ea8c381",
+   "ruSha256": "21d00fb520fed7552520bcc4198c735be260c0cab2735ac76a03b12b394ca97c",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "75e20ead1dc63885c9bedd91b4ebbeec753e6b0961b101adca5975d6089f1788",
+   "sourceSha256": "d79faed70d63dea21dcb6aa025815ee78d1a41abc557ccd70b120dbc95785f00"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "kanji/火.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "41824393337f1127fa8e512318be4fca0579483f3435f02fb114b486ddc8525e",
+   "ruSha256": "902537ea0d3c1e74cc762c9d8c6373b44d4660ff4a2a0913729076a0d22047a5",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "952b66b178841c25c2e4cc4933da6458df82f7267b6cb600bab816099bc4b8da",
+   "sourceSha256": "77346b682e170509ee8f744d9dc96ad545c8ea8cbae0b563fe6e8de6ff5cc26c"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "scenes/きらきら.json",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "e2a4aaf796c36993d300b907df2a15cf512b14575c0c7bdd2e39e51076c8e219",
+   "ruSha256": "e2a4aaf796c36993d300b907df2a15cf512b14575c0c7bdd2e39e51076c8e219",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "91ef46874ea564e5a08b9d7d5206362b92b2b15984458d4452c9ccdf7d161868",
+   "sourceSha256": "91ef46874ea564e5a08b9d7d5206362b92b2b15984458d4452c9ccdf7d161868"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "scenes/にこにこ.json",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "b03891c283e7712e04ec5c9d4dc244f4bde58de565190331304d643e572790d2",
+   "ruSha256": "b03891c283e7712e04ec5c9d4dc244f4bde58de565190331304d643e572790d2",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "0b5827fc7ebf1d4d23c6df39b2a65548cfd0aca8e93730aa68e8f3ff23d0c3ba",
+   "sourceSha256": "0b5827fc7ebf1d4d23c6df39b2a65548cfd0aca8e93730aa68e8f3ff23d0c3ba"
+  },
+  {
+   "adaptations": [
+    "byte-identical KanjiVG-derived geometry; CC BY-SA 3.0 retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "strokes/人.json",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "4c53f56ba919f6f34b672a7e86e8c20e562c606038de1d59031b5c7b9a94914d",
+   "ruSha256": "bf243d73ecf9f5ab1802878c191764807f61c0f2027196a7e81a012daf19a92c",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "4c53f56ba919f6f34b672a7e86e8c20e562c606038de1d59031b5c7b9a94914d",
+   "sourceSha256": "bf243d73ecf9f5ab1802878c191764807f61c0f2027196a7e81a012daf19a92c"
+  },
+  {
+   "adaptations": [
+    "byte-identical KanjiVG-derived geometry; CC BY-SA 3.0 retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "strokes/口.json",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "5b5563ae4e2c3248217447aca1e811b4fc631b653b98caf636fa1a80fc346114",
+   "ruSha256": "25e23524c1d238a053b61601535df7ee5e2d5521cd5fc807998e1206d860f1ae",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "5b5563ae4e2c3248217447aca1e811b4fc631b653b98caf636fa1a80fc346114",
+   "sourceSha256": "25e23524c1d238a053b61601535df7ee5e2d5521cd5fc807998e1206d860f1ae"
+  },
+  {
+   "adaptations": [
+    "byte-identical KanjiVG-derived geometry; CC BY-SA 3.0 retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "strokes/大.json",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "a26a3d224f99934263bfba0bca3a56c7741b401fd55b852f1c92b1a861bed7c3",
+   "ruSha256": "59a392969cdcd7d72d1a9ba813890b613a90a966c02a5f3b430854d020d12801",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "a26a3d224f99934263bfba0bca3a56c7741b401fd55b852f1c92b1a861bed7c3",
+   "sourceSha256": "59a392969cdcd7d72d1a9ba813890b613a90a966c02a5f3b430854d020d12801"
+  },
+  {
+   "adaptations": [
+    "byte-identical KanjiVG-derived geometry; CC BY-SA 3.0 retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "strokes/山.json",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "bedc12bdcfaa5426e8d48b654635b7c56877ac370f5436f675723399f3152b36",
+   "ruSha256": "4a2ee7e95ac714c42f82f0a89270d56c503d3a91b6dee56e0929c532999739f9",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "bedc12bdcfaa5426e8d48b654635b7c56877ac370f5436f675723399f3152b36",
+   "sourceSha256": "4a2ee7e95ac714c42f82f0a89270d56c503d3a91b6dee56e0929c532999739f9"
+  },
+  {
+   "adaptations": [
+    "byte-identical KanjiVG-derived geometry; CC BY-SA 3.0 retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "strokes/川.json",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "131f8df4736600374c2e5d339159c6b17e17cc9fbbc55410144509aafeccbbdd",
+   "ruSha256": "19c39d889018dbdf16d4ced2cf6a10a3065e2c62aae12f2217f2b464cacd279a",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "131f8df4736600374c2e5d339159c6b17e17cc9fbbc55410144509aafeccbbdd",
+   "sourceSha256": "19c39d889018dbdf16d4ced2cf6a10a3065e2c62aae12f2217f2b464cacd279a"
+  },
+  {
+   "adaptations": [
+    "byte-identical KanjiVG-derived geometry; CC BY-SA 3.0 retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "strokes/待.json",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "3434fac1fb5a1635e5091f1f0f22b7bccc37c1e6e6c1b252fe8318a1e357648c",
+   "ruSha256": "3434fac1fb5a1635e5091f1f0f22b7bccc37c1e6e6c1b252fe8318a1e357648c",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "3434fac1fb5a1635e5091f1f0f22b7bccc37c1e6e6c1b252fe8318a1e357648c",
+   "sourceSha256": "3434fac1fb5a1635e5091f1f0f22b7bccc37c1e6e6c1b252fe8318a1e357648c"
+  },
+  {
+   "adaptations": [
+    "byte-identical KanjiVG-derived geometry; CC BY-SA 3.0 retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "strokes/日.json",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "06a565ada0fc5dcedec05339fc5f75b5b0f536ccaa158e92ed76bca43c3693be",
+   "ruSha256": "67b2aa494d4746ba6095688c9374ffca136f60e11f9278ac88e6b605c3eabe9b",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "06a565ada0fc5dcedec05339fc5f75b5b0f536ccaa158e92ed76bca43c3693be",
+   "sourceSha256": "67b2aa494d4746ba6095688c9374ffca136f60e11f9278ac88e6b605c3eabe9b"
+  },
+  {
+   "adaptations": [
+    "byte-identical KanjiVG-derived geometry; CC BY-SA 3.0 retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "strokes/時.json",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "b52ace71717b94277cbf8fe6abeeed9a12758238b43f203be3c451af0432d96e",
+   "ruSha256": "4305451cd25c7e3618c55f21cc256745a51998e2089a7a07d90c70c695148a5c",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "b52ace71717b94277cbf8fe6abeeed9a12758238b43f203be3c451af0432d96e",
+   "sourceSha256": "4305451cd25c7e3618c55f21cc256745a51998e2089a7a07d90c70c695148a5c"
+  },
+  {
+   "adaptations": [
+    "byte-identical KanjiVG-derived geometry; CC BY-SA 3.0 retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "strokes/月.json",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "e48c7252e56e332ee142a1dce4b292faeaa95b16e51ee3fefcb092a8a700c381",
+   "ruSha256": "7aeaef7a370f5f8b0bcbe2b1ca16584b1feccd8cb8729e91363d592fcde7c658",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "e48c7252e56e332ee142a1dce4b292faeaa95b16e51ee3fefcb092a8a700c381",
+   "sourceSha256": "7aeaef7a370f5f8b0bcbe2b1ca16584b1feccd8cb8729e91363d592fcde7c658"
+  },
+  {
+   "adaptations": [
+    "byte-identical KanjiVG-derived geometry; CC BY-SA 3.0 retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "strokes/木.json",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "e4a16ab316712da8a30aa5de3e4724592c109619082caa625d1b5fd8fc306ed6",
+   "ruSha256": "0c7f1769490addd3a4672811585bd31d0bf8e6027b26618ea96bcace4d89a67b",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "e4a16ab316712da8a30aa5de3e4724592c109619082caa625d1b5fd8fc306ed6",
+   "sourceSha256": "0c7f1769490addd3a4672811585bd31d0bf8e6027b26618ea96bcace4d89a67b"
+  },
+  {
+   "adaptations": [
+    "byte-identical KanjiVG-derived geometry; CC BY-SA 3.0 retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "strokes/水.json",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "df4dc5b07ae9dfb0efe0abbfb4d8b314c2f5f3e35ea24303268b09bc58d95d07",
+   "ruSha256": "6a00722306f61bda5ba5348244bf6f6bb474b38111dba4785aca8fe858721588",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "df4dc5b07ae9dfb0efe0abbfb4d8b314c2f5f3e35ea24303268b09bc58d95d07",
+   "sourceSha256": "6a00722306f61bda5ba5348244bf6f6bb474b38111dba4785aca8fe858721588"
+  },
+  {
+   "adaptations": [
+    "byte-identical KanjiVG-derived geometry; CC BY-SA 3.0 retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "strokes/火.json",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "8d41bf7b31678f84e031f7a58e24c27dd9d4f5aa6460529d59f84e3b19413177",
+   "ruSha256": "63a6ad1d1d02f88c7d4d2cfd88df0d9933aa4979950c886c8f235b7779c80373",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "8d41bf7b31678f84e031f7a58e24c27dd9d4f5aa6460529d59f84e3b19413177",
+   "sourceSha256": "63a6ad1d1d02f88c7d4d2cfd88df0d9933aa4979950c886c8f235b7779c80373"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "words/おしゃべり.md",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "6de4e92951115df5e3e9a69d74feaf33d73961d85eca36b33eb6a13191b30563",
+   "ruSha256": "6de4e92951115df5e3e9a69d74feaf33d73961d85eca36b33eb6a13191b30563",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "919360bc489bd7da54f70a32e5233059fa5bf02191ad1add93d9d5c9ffe5c3e9",
+   "sourceSha256": "919360bc489bd7da54f70a32e5233059fa5bf02191ad1add93d9d5c9ffe5c3e9"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "words/きらきら.md",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "21b017fea08b7aeee223d093a7744a9109bbdd3d40ca8b50f0054d0b37e9e862",
+   "ruSha256": "21b017fea08b7aeee223d093a7744a9109bbdd3d40ca8b50f0054d0b37e9e862",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "59382e945991c9c337570981bcbe0b4911c6d1c643cd1e9648b558422aacae57",
+   "sourceSha256": "91345c538c0f89a99dc3af7af0c5c1d8b9e87462a18f6cbc0866dd51730dc480"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "words/ぎらぎら.md",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "a61dfdf4ae84f086c61bd303fe6f54928c1993d4635c51ff699873a7f7805a27",
+   "ruSha256": "a61dfdf4ae84f086c61bd303fe6f54928c1993d4635c51ff699873a7f7805a27",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "61ba4ff317efe64dee60cd2e749b76797377899451e0fba34cc866827685399f",
+   "sourceSha256": "cf67147f2ce4a3405fc2d411a8c4d5766e8f56aea3c70185924065a775b05ba2"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "words/さらさら.md",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "793f5330c46440f689099f6fe5aba85fb1e7b9456d64410887973a1d26fabbda",
+   "ruSha256": "793f5330c46440f689099f6fe5aba85fb1e7b9456d64410887973a1d26fabbda",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "5d893216c14f0f1016ee6f57f6340d8c2de20068153ad464fa5a069ba55d5e1c",
+   "sourceSha256": "a9a0818da7e5a9fb1319bec442188ade4a08eb5e6fd5a1d15f3074e66b477eb9"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "words/すべすべ.md",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "cf324aecfc67fdb7560a552ffd6e40321b6a18ba0c253e7b0c30f2565a2a5fab",
+   "ruSha256": "cf324aecfc67fdb7560a552ffd6e40321b6a18ba0c253e7b0c30f2565a2a5fab",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "36e9bc98636a6cf6609d900452ccfb55579a7415a0edae8cc667193424602997",
+   "sourceSha256": "f09fc412baace7f1880a420ac47b40b3163ea18bfbb279ca2838be142ad2cc34"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "words/つやつや.md",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "5129d1d576742a42dddc9a86fee78f55c67cf82fea449ba0047e9280fef7e0e7",
+   "ruSha256": "5129d1d576742a42dddc9a86fee78f55c67cf82fea449ba0047e9280fef7e0e7",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "b041c25f6f4da5657d6af135ba1c7daab6d121b6ae15d9981ea90d8f45cc44e4",
+   "sourceSha256": "2b8ca1a4496dc5aba7c5e888a355daa556df1c9ab016c5553b65c09eb1be71cb"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "words/つるつる.md",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "1fb68ebbe3198ddf7f86e0d564ddaeb77791fcf0e7bb8431500128702f1a2085",
+   "ruSha256": "1fb68ebbe3198ddf7f86e0d564ddaeb77791fcf0e7bb8431500128702f1a2085",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "9b4e9e5184e6e0df31d18c562128604ad3d54f6e6ee9da6595bd49771a999b16",
+   "sourceSha256": "403328e259626983d17ee3282c74b91ec9f37b01db822e9528dace0335f0bfdb"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "words/てかてか.md",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "ed206445b76b9a854701328ddd58bf70e6357cf5a582f22afdace14305efaf2c",
+   "ruSha256": "ed206445b76b9a854701328ddd58bf70e6357cf5a582f22afdace14305efaf2c",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "2ad231adaf570c6797ae88740e98dc6b18e6abd7b8bcdace88ff709432df66c2",
+   "sourceSha256": "51476547e5d5909e87214f0a7d3f7aaaa4b123d77bc0dfefad2d47a1b8c90e74"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "words/どろどろ.md",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "8455ff71f0a2f9822e0e41c025249b145d8bca042c393a3defa6c015cc5be739",
+   "ruSha256": "8455ff71f0a2f9822e0e41c025249b145d8bca042c393a3defa6c015cc5be739",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "8ec4826f03e569fd24cf6e59a5c9ffc84f1fcb6850cf5ee51359857af569a48e",
+   "sourceSha256": "8f910e02c62636efd65cf64c2c63be9259bf9a2612f7d8b3238c7cc6dd1a9d40"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "words/にこにこ.md",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "c06a5a9e3acf83ce2cd4c642b1c36e3bf5ee5176178fcaa8d53e3558200a3666",
+   "ruSha256": "c06a5a9e3acf83ce2cd4c642b1c36e3bf5ee5176178fcaa8d53e3558200a3666",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "c6dc6e543bbb1d171df6a2ef0217a1a84a417028ee5d0110a6d250bf7ffafa08",
+   "sourceSha256": "2e8a1fd4850262990039e22644d39aeb9d02df2797329ef448cadc99ef9bec43"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "words/にっこり.md",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "9bc039c75bf90b435c37abb6df1f11233f94dce95a78cd841d372b42bfe64639",
+   "ruSha256": "9bc039c75bf90b435c37abb6df1f11233f94dce95a78cd841d372b42bfe64639",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "cc4bba8588d4c5b15e1dcc916067d2f2b4d5ab7f2a0dcc4c4bf8bc3c74e29687",
+   "sourceSha256": "cc4bba8588d4c5b15e1dcc916067d2f2b4d5ab7f2a0dcc4c4bf8bc3c74e29687"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "words/ぬるぬる.md",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "1a29159e153f539d9322502fa772071d688eebef1b8dc75da30281bd42e58159",
+   "ruSha256": "1a29159e153f539d9322502fa772071d688eebef1b8dc75da30281bd42e58159",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "cbbce09a5ac811c11d53b4cbb04af83e1c46d99a190e936128a89d4120b725a6",
+   "sourceSha256": "4856edcf3eadaf98b9fcf9ed70b5fd2a9372f527c4081f0e2367c03ede25220e"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "words/べちゃべちゃ.md",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "8984160afc9af1aec31e91110041639414d27cbe5b2f1e004be1dea90f579376",
+   "ruSha256": "8984160afc9af1aec31e91110041639414d27cbe5b2f1e004be1dea90f579376",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "1e69787430ee738b48a2c917de7ac4c31914efc28ebae92e5d7010d70215e12b",
+   "sourceSha256": "2c7e46766042ad1ed593480f7896d97e23112a0bd9d6262effa3ad3504f55f9f"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "words/ぺらぺら.md",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "818388b2540015fa8f4dd8ddd6e2fc442af8972b7824b090e4d5ae8de9234417",
+   "ruSha256": "818388b2540015fa8f4dd8ddd6e2fc442af8972b7824b090e4d5ae8de9234417",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "4d351313112f4605177d5749ab2dc24dcd3a178aef0f8e30174f3f43ad8af54d",
+   "sourceSha256": "ef5ff1d0f075f21834ebfe450d0d8d80f8921471277c39d4562f4d076a33bc91"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "words/人.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "e8c812af266960dd66bf1e4dfa6c8633c9fcf980e7735fefa50644a117536632",
+   "ruSha256": "f9d01e5cf6e6399bb99a73dc91a93d194db6d77aaa044a49f14397cbd74e2938",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "d74cf630ac1e1f27368554e23742dc273f49f4a5f8959456c0061842549e0c64",
+   "sourceSha256": "d74cf630ac1e1f27368554e23742dc273f49f4a5f8959456c0061842549e0c64"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "words/人口.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "3c9709a0df33ed21aef58c46613d393a6115c4183e32d6237794cff560a502a0",
+   "ruSha256": "d8ea2d8de81f75012050eeb34c9bc35cab5f65d6fd4df88c31be7e71bd307c9e",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "361cde072ff46ff0a03ac8e35c881750bc69508706700da1206521fa73bf79ab",
+   "sourceSha256": "2a8a666545c7354de6ea5dc50b5a64f0eeda7619263a9b7992489c670158f150"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [
+    "../kanji/休.md",
+    "おやすみ.md"
+   ],
+   "path": "words/休日.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "5bde1eaf039c6b05d395f112a43a0c8282c537b93cd30b14c1932217e71e8357",
+   "ruSha256": "3c9be6b9ddabe2aeccdd8fe832363c86cccb2e0aec0aaf5dae4950cfb8a00910",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "b73d1814c9b8d32e09905bf4441d202a38fdad8210d330cdf3c67d77ca47785a",
+   "sourceSha256": "b628c82ac86bd65f74fd559668a7e0cbdb5a4235857e7f429fae7778735360e9"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "words/光る.md",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "adb9909907803ee5782cbaac36f7b6f167c29ba8a5a235bd4804bc01c6df6f7b",
+   "ruSha256": "adb9909907803ee5782cbaac36f7b6f167c29ba8a5a235bd4804bc01c6df6f7b",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "41134595c1d3931688100b9d382d5c8def5cbbedbd0db2bab2a6a71c778bd520",
+   "sourceSha256": "41134595c1d3931688100b9d382d5c8def5cbbedbd0db2bab2a6a71c778bd520"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "words/口.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "880fd6ffaff2a3314d6ea41c330f75a9ac020a4bf9bd652bff8754041e10074a",
+   "ruSha256": "d649477576a5ebc25ba89cb180b5adf794c9cef52cbe1052f9c398a33a689727",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "c57aadb3ba99edc53ef97a7340d96285878f05866787bcac7f36cd2e4d165111",
+   "sourceSha256": "c57aadb3ba99edc53ef97a7340d96285878f05866787bcac7f36cd2e4d165111"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained",
+    "English-specific comparison removed or replaced by Russian-audience explanation"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "words/大きい.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "7b0dd76edcb41ae833106772adf29a6aeb64f3ae9c486ed5c006b004ac7670fe",
+   "ruSha256": "19b8ca607fb50442297fa460b9a6fd073e46cad1b0bc698d63b8c06efa3a6cee",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "a628456b50b79493fee8007d6d9bf0a6a5089f7e1038a864428118ef6f065482",
+   "sourceSha256": "a628456b50b79493fee8007d6d9bf0a6a5089f7e1038a864428118ef6f065482"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained",
+    "quiz_distractors: candidate-pool adaptation independently content-reviewed; native option-pool verification pending"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "words/大人.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "3ccddcfd028bb46a7ab1760c3c493856b29e615b461d428dfde26e1fa2f6e6ef",
+   "ruSha256": "cdd44dc70e786f7e1761ee57f40f9e1611bd3e99940889d15b975808b4a98a3d",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "4cf6d7085aa294a8a3b899ac2fa242e65240788a5ce85f7cc9dda1411d944d28",
+   "sourceSha256": "5c4dde9846fae8985e23edf248d356514c2e4650b7830489c169ea1d501f2f8f"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "words/大木.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "b7fc0228f2a19e552dbc576c20578a9949b0ac029b7bafe679f57e92d5e4c0ed",
+   "ruSha256": "32879ddffde457f58fd41b95c57a701cbf8b53b86266dc7fae4aefedf02e7e05",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "56d426b1b8ec8a0c62d56367f6d088bd036f787b10f6e35a4ad957533028e91c",
+   "sourceSha256": "31e690418409be0357f4338a37691e1f25d20f1417281d1fb459dc5d78033714"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [
+    "../kanji/太.md",
+    "../kanji/陽.md",
+    "日光.md"
+   ],
+   "path": "words/太陽.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "bd173221dabac422375d70902d772bedcfc165f78211bc5f6aa4df43148e81ec",
+   "ruSha256": "61513d2b8e3a9c162871c4ea27c6c129a0ef471ebb715dcf96c584b1fbf4f9b9",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "a4ffa4be2059cbb703b7f8761f10580fb687001a2430e4842fc4f1043dd1ba2a",
+   "sourceSha256": "a4ffa4be2059cbb703b7f8761f10580fb687001a2430e4842fc4f1043dd1ba2a"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained",
+    "Direct Russian displayed-meaning overlap pair; independent content review accepted; app enforcement pending"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [
+    "../kanji/小.md"
+   ],
+   "path": "words/小川.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "e68b0f786d12978d400125a330acddad61411c58d4226338576a68c2f328a9cb",
+   "ruSha256": "404125e91e91c1c4f4a9b31f50310e3e70bbd421ca884d1fa2de0a0039705c00",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "edd1e3c56b6a0a22f3b9ba17426ba720bdd347e2adfdb6581c10d62973035974",
+   "sourceSha256": "9a6235dde2bef8b5551f6b861ea681de345f5677de720406f5d34a5c6fe8c50e"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "words/山.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "f7f6b1cb8aefe900f5c86ec252a2737b4ef76b20040a14b7419cd07f00a2a4b4",
+   "ruSha256": "edb657c9ae16fb34e941be9fcbe57420e88acfbe41dbed328a1ab774273ab6e9",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "4e5379f8ea2789e46f4029a4ae8d3310110f2fc6637e4efac93a249e0702827d",
+   "sourceSha256": "4e5379f8ea2789e46f4029a4ae8d3310110f2fc6637e4efac93a249e0702827d"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [
+    "大小.md"
+   ],
+   "path": "words/山水.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "af881d2bdf4a1ab0c6f07d938ff625ea1782aea92162e530373374f60d7c0ce7",
+   "ruSha256": "0f95154329a4c47cc47eade3bae4edb5686131c7ec405e50cbcef098a18a519d",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "d4f4b3781114e0f411c9d1240f537b135f47cedbbb54901ea206138ab8e34362",
+   "sourceSha256": "34e007080876559c5ca14a04993f82b299b4cc1f72054f57568211003e02b913"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained",
+    "English-specific comparison removed or replaced by Russian-audience explanation",
+    "Direct Russian displayed-meaning overlap pair; independent content review accepted; app enforcement pending"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [
+    "海.md",
+    "湖.md"
+   ],
+   "path": "words/川.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "6976e86703a6b2c376b823efbe05c556bab9a5cf91140abae90832b665e4adb6",
+   "ruSha256": "dfcfea848c9e1013165a2c094787c547bdcdcc4259f369d0e98f1404d8dbbb4b",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "08b5ba019272e86b70cdfeae7fb53e84d0e5f415f6508cb1d17d23f30cab73ba",
+   "sourceSha256": "08b5ba019272e86b70cdfeae7fb53e84d0e5f415f6508cb1d17d23f30cab73ba"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [
+    "../kanji/上.md"
+   ],
+   "path": "words/川上.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "b6f666d88fd090ebacd7e7021e3eaad77a871d7ad6631138b7cbd6829587b6dc",
+   "ruSha256": "ba97ceced57fc995c199205bac7b0728e8c5a207da205d1f7765a0835347e322",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "c54a96708f9e62c27bb59b0d44944cb9de07d56262d09cf553dd14754b241d9a",
+   "sourceSha256": "89b33e40dbe3dbf2c58483c175732a611b1e9817707e49a393248fd58c92a082"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained",
+    "English-specific comparison removed or replaced by Russian-audience explanation"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [
+    "急ぐ.md"
+   ],
+   "path": "words/待つ.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "38a6f0c7b26921382cd641452cce8252d5d69ac9dc7b7b775d17585186aa74a3",
+   "ruSha256": "f0a5f9678e2b3517db4e2fd8c6a13d4dd96cb337f118e7a2c71cd0a72c86b1b7",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "7791fac13d7c5c095f60454704b38b98621d2ed99250096d8bd4a5f6cc8842d2",
+   "sourceSha256": "7791fac13d7c5c095f60454704b38b98621d2ed99250096d8bd4a5f6cc8842d2"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "words/微笑む.md",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "64b1f54ab32804abb4ce3b8bd3efd094b0524fa38682592ed95b88041a1c86bf",
+   "ruSha256": "64b1f54ab32804abb4ce3b8bd3efd094b0524fa38682592ed95b88041a1c86bf",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "6be0c98191c2ca42ddeb5698276d827c746436754093a4344d1e9f9fe4cd741e",
+   "sourceSha256": "6be0c98191c2ca42ddeb5698276d827c746436754093a4344d1e9f9fe4cd741e"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [
+    "二日.md",
+    "夜.md"
+   ],
+   "path": "words/日.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "754d5d61622cbea42df0753ab2c766ac91bfcf89dd373bc13d3a4081cb44d8ac",
+   "ruSha256": "8b57455a36ec234972e7a9a5c47dca793552bf02e4adf3c93b90aed2b06e80b8",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "052a0c7f9ab3d5f43283c9d6df3e1e6e863140fd2143466cb0680ff9878503d2",
+   "sourceSha256": "052a0c7f9ab3d5f43283c9d6df3e1e6e863140fd2143466cb0680ff9878503d2"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [
+    "../kanji/中.md",
+    "夜.md",
+    "夜中.md",
+    "気温.md"
+   ],
+   "path": "words/日中.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "34718bccda62a6f475f9d1fd1e87af233eb5a2a36ad0a971001c97f1ab7b8a5b",
+   "ruSha256": "699be266950dad431c6228680fa41afbf1115a2c14be73fce924664f8b574bc8",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "cb8ef7495e7f5d24dc05dba76a6c39af405ee681bbeb16e6d2377ac839f34ac0",
+   "sourceSha256": "91ab54381e8cb9457a863c47e4e8e2d8815d414beb61b6d58c0203c162c0f313"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained",
+    "Direct Russian displayed-meaning overlap pair; independent content review accepted; app enforcement pending"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [
+    "../kanji/昼.md",
+    "夜.md"
+   ],
+   "path": "words/昼.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "b2b411ae25c75649e865ebaf2f0ee22fdfb161a93c910036385da0294a892734",
+   "ruSha256": "3228a6dcd7d99001a9a996b3400bc508fe61281cdc7025e2f013fa8c5b16f86f",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "ce52287596a3ab3b33dbf7909adb664499702fe7179fb020e329343c43f358b9",
+   "sourceSha256": "ce52287596a3ab3b33dbf7909adb664499702fe7179fb020e329343c43f358b9"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained",
+    "Direct Russian displayed-meaning overlap pair; independent content review accepted; app enforcement pending"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [
+    "../kanji/昼.md",
+    "../kanji/間.md"
+   ],
+   "path": "words/昼間.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "13c5c1c79c64c87e75cfa073ec2d491b10032d758cc3cf737e1413ce09eaa43d",
+   "ruSha256": "e41fdb6cdec7c577a8ae71967382bca69dc5bb01be53d0ca44a5009dbe98435d",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "67fea8073876f71aded0a703b689c89a101d67d2d026f0087694cdd17d0cab8a",
+   "sourceSha256": "67fea8073876f71aded0a703b689c89a101d67d2d026f0087694cdd17d0cab8a"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained",
+    "quiz_distractors: candidate-pool adaptation independently content-reviewed; native option-pool verification pending"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [
+    "../kanji/間.md"
+   ],
+   "path": "words/時間.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "51253733bbf01dbc159c19afd866b3015609abeb87d6718598155a48dfbe766b",
+   "ruSha256": "e4b9b23b8abfc623ac442bdfe542c53b4f64e24d4ad3c940a5af871f62a26532",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "c5a5d370c231582bc42a901458cb902c71d5b768c92606d07b512acba95cb4a4",
+   "sourceSha256": "ff7e543ba999be71107cef1ac9f0006a036a3f0da86f4036cb8d3e76a87fabd7"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "words/月.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "5e26649e39d6d044719976251fcfa69ef10dd4eaca9a6ec013f1d09d056a86a2",
+   "ruSha256": "ec5cd56bc3c675868258bfc69bcea578f64fce950d9dd0857af097e7c8a4de83",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "b6f9738509adab18ff1bc84d834a04852bec656aef0a49224a8e294e9a348f7f",
+   "sourceSha256": "b6f9738509adab18ff1bc84d834a04852bec656aef0a49224a8e294e9a348f7f"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "words/月日.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "1af90c9a92589b1b989e88cddf15647d0efe8e7665d5e05d8041199d74c7cdbe",
+   "ruSha256": "301e6cdc5af5f2fb07d93053d8477b0a7f688e1b290e8aaa770990a1da62ae01",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "41314b39419d6e0d36846202ef2a6b0039ad9aef9c28af5e3f262b0934e6b5c7",
+   "sourceSha256": "a3afb2e006d7fda3e5e0a2d1c9eae3b1058212d65cae74fe0375de0aefc3c3b9"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "words/木.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "06495e3871acfeb970a9d3b9a510a538f443723af070dccedfb0218dbf9602c0",
+   "ruSha256": "c4f8356f8697df8194ad40495fba7f3fbc749828105b7eafc66082c65957caec",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "a89ebc19be4976ae4c3b13ae6f7e62cc35b15acfe23bd5b22f80d8fffe38ff0a",
+   "sourceSha256": "a89ebc19be4976ae4c3b13ae6f7e62cc35b15acfe23bd5b22f80d8fffe38ff0a"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained",
+    "English-specific comparison removed or replaced by Russian-audience explanation"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [],
+   "path": "words/水.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "ed19783e3f5f4c3d95a959b7f6b57b36e3f8eaa39a336166e3832a5f24870222",
+   "ruSha256": "49b91310b52f4027efe90035fdd894eaf8a55e1c91ec60592f759b997cc58b1c",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "bd1163c70e138eac8e5bfc35b79014ec48c57c1e998852a1504a5aa77eb795e7",
+   "sourceSha256": "bd1163c70e138eac8e5bfc35b79014ec48c57c1e998852a1504a5aa77eb795e7"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [
+    "../kanji/中.md"
+   ],
+   "path": "words/水中.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "5ed0cf8efeeee2ee51db9fe49f4d8a13c48b61ef1df485a7b86dc1d48430611a",
+   "ruSha256": "8f1d259ad15f909a6eb997938622341a5c89813304518f3e83fc4b2aad89198f",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "96f2fc259ced4d8968e366019fbbe5edabb31b6340b7ce2d69efc3ac0939a81b",
+   "sourceSha256": "35a6a609a53e11b81700655fecf9bec180ff722104d543442628cf2e148b033f"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained",
+    "English-specific comparison removed or replaced by Russian-audience explanation"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [
+    "../kanji/河.md"
+   ],
+   "path": "words/河.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "b27f6d276338e999b8d9eaa7e327696f1ce0f7a843a40ebb229a3002f131477d",
+   "ruSha256": "0d97a25602d36a5da32a3c2446aedaa4f3d1638d90c93569f71782ff346a1b2b",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "608bab517fa8e0b6aa7cbf2b2ec0da97f03f41788dc53c069b68da64b813c553",
+   "sourceSha256": "608bab517fa8e0b6aa7cbf2b2ec0da97f03f41788dc53c069b68da64b813c553"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [
+    "火事.md"
+   ],
+   "path": "words/火.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "a53c50f29d6c99256a16eb21aaed9b0df2a5252b82da49efb9a1d6e78f02d9c2",
+   "ruSha256": "e05692676602ea6df7eb8794f81601c195b21a44fce58a2544f114b43c5d287f",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "572db0fbc9880681132010a2901d756b10cc566a71cf3de76395022d310010ec",
+   "sourceSha256": "572db0fbc9880681132010a2901d756b10cc566a71cf3de76395022d310010ec"
+  },
+  {
+   "adaptations": [
+    "Russian learner prose/glosses/headings; Japanese metadata retained; separately evidenced teaching corrections recorded below",
+    "Optional out-of-scope navigation unlinked with Russian explanation/reading retained"
+   ],
+   "coverage": "complete",
+   "omittedOptionalLinks": [
+    "火口.md"
+   ],
+   "path": "words/火山.md",
+   "reviewEvidence": [
+    "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6603245447"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "f08a0210afaf8e84d048621b78054be7e018de1e0674d99b9ed8a3d5036a3405",
+   "ruSha256": "9578c579e047e414dac781a0ac95f48ba9ba6286c791717c19f62563b1b8745a",
+   "sourceCommit": "3196c3a273b9db8375bb79bede01ab8db5bce0d0",
+   "sourceRawSha256": "4c70a5eca26fb719ae37e540b0a21ae32ba5b5cf44db944c258fa45c97e29d6c",
+   "sourceSha256": "94816ea0d69e65282d2597b6c0cf3b626ff16e0e9237017adf66a3ddd373fe3f"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "words/笑い.md",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "d32c6c36f77dd1abdf3f41964dfb8b4255f18985fc0dcc4aeec85f7620948c9d",
+   "ruSha256": "d32c6c36f77dd1abdf3f41964dfb8b4255f18985fc0dcc4aeec85f7620948c9d",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "acb6dd7410ab4f6c32f53961a1eeb27d6e180e8e9609ebd37a94e07d2229fcc8",
+   "sourceSha256": "acb6dd7410ab4f6c32f53961a1eeb27d6e180e8e9609ebd37a94e07d2229fcc8"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "words/笑う.md",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "04562010f0f9116d860ffb7e8c6d0142724a136ba27ce485a2a668b1a8765519",
+   "ruSha256": "04562010f0f9116d860ffb7e8c6d0142724a136ba27ce485a2a668b1a8765519",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "dc4923578b5aff38930a0061672f5d198947ffd1663b4acec4ff1aaec4d2fce2",
+   "sourceSha256": "dc4923578b5aff38930a0061672f5d198947ffd1663b4acec4ff1aaec4d2fce2"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "words/笑顔.md",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "7c20b2028c4e3e3acdfed365814a0d79a579f6095c5a5bb6ab8c64a986f552d6",
+   "ruSha256": "7c20b2028c4e3e3acdfed365814a0d79a579f6095c5a5bb6ab8c64a986f552d6",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "76fc3b64f982895e034cac9291f195f60cbc137dd466ef36cc288adb548bc973",
+   "sourceSha256": "76fc3b64f982895e034cac9291f195f60cbc137dd466ef36cc288adb548bc973"
+  },
+  {
+   "adaptations": [
+    "Retain the separately reviewed Pilot B scope and intentional omissions"
+   ],
+   "coverage": "complete",
+   "path": "words/輝く.md",
+   "reviewEvidence": [
+    "docs/pilot-b-review.json",
+    "docs/PILOT-B.md"
+   ],
+   "reviewStatus": "accepted",
+   "ruRawSha256": "2a12c02fe439634303d6ddb5b8d9e42950fb094b2c7107fe0e085fe03a4e114b",
+   "ruSha256": "2a12c02fe439634303d6ddb5b8d9e42950fb094b2c7107fe0e085fe03a4e114b",
+   "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+   "sourceRawSha256": "be1b8405960dea6b144ef1adab95d39c2d458ba870475613ab20db3d1291eb7a",
+   "sourceSha256": "be1b8405960dea6b144ef1adab95d39c2d458ba870475613ab20db3d1291eb7a"
+  }
+ ],
+ "schemaVersion": 1,
+ "scope": "all-frozen-upstream-runtime",
+ "targetCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f"
+}
