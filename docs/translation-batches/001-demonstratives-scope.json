@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "batch": "001-demonstratives",
+  "state": "frozen-before-authoring",
+  "baseline": "fe9a507cf7218e680b6d2fc290351bc0f4315acf",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "scope": [
+    "words/あそこ.md",
+    "words/あちら.md",
+    "words/あっち.md",
+    "words/あれ.md",
+    "words/ここ.md",
+    "words/こちら.md",
+    "words/こっち.md",
+    "words/これ.md",
+    "words/この.md",
+    "words/そこ.md",
+    "words/そちら.md",
+    "words/そっち.md",
+    "words/それ.md",
+    "words/その.md",
+    "words/どこ.md",
+    "words/どちら.md",
+    "words/どっち.md",
+    "words/どれ.md",
+    "words/どの.md",
+    "words/どんな.md",
+    "words/こんな.md",
+    "words/そんな.md",
+    "words/あんな.md"
+  ],
+  "coverage": "23 complete word articles: 20 N5, two N4, one N3; preserve source levels",
+  "requiredDependencies": [
+    {
+      "from": "words/あんな.md",
+      "field": "quiz_exclusions",
+      "to": "words/そんな.md"
+    }
+  ],
+  "dependencyDisposition": {
+    "allJapaneseExamplesAndReadings": "Retain every source example, spelling note, selected sense and qualifier.",
+    "sourceWordLinks": "All source relative word links resolve inside this scope.",
+    "optionalKanjiLinks": "どちら cites the rare spelling 何方 via two source kanji links. Preserve 何方 as plain Japanese spelling; do not introduce runtime kanji cards just for this optional navigation.",
+    "grammarPrerequisites": [],
+    "licensedAssets": [],
+    "baselineEditsPlanned": [],
+    "extraLevelRationale": "Complete the coherent こんな・そんな・あんな・どんな comparison family without inventing N5 membership."
+  },
+  "adaptationPolicy": [
+    "Translate every learner-facing heading, explanation and example translation; retain Japanese text and technical fields.",
+    "Replace the English article analogy in その with an audience-independent explanation of anaphoric reference.",
+    "Review actual combined Russian answer labels and add only direct evidenced exclusions; identical full titles already deduplicate.",
+    "No media, runtime activation, pilot-ref movement, paid generation or device acceptance in this batch."
+  ],
+  "reviewStatus": "pending",
+  "sourceFiles": [
+    {
+      "path": "words/あそこ.md",
+      "sourceRawSha256": "181dacea5464d2ec0d84d0f6b36f8eb49a01ec030a3ac39f10ccacb04083cfb2",
+      "sourceSha256": "181dacea5464d2ec0d84d0f6b36f8eb49a01ec030a3ac39f10ccacb04083cfb2"
+    },
+    {
+      "path": "words/あちら.md",
+      "sourceRawSha256": "aff85fb2453256e5940a98760637c173b92da4fc84dee594d8cc226eadc160f8",
+      "sourceSha256": "aff85fb2453256e5940a98760637c173b92da4fc84dee594d8cc226eadc160f8"
+    },
+    {
+      "path": "words/あっち.md",
+      "sourceRawSha256": "9c002cef302c47e02dcf88d2a106389285a76d57c53d5a9dae744b38eb830e48",
+      "sourceSha256": "9c002cef302c47e02dcf88d2a106389285a76d57c53d5a9dae744b38eb830e48"
+    },
+    {
+      "path": "words/あれ.md",
+      "sourceRawSha256": "76983a7e04d3a922f586b9db444ec0132394de96147aadfd45ec298363c983b1",
+      "sourceSha256": "76983a7e04d3a922f586b9db444ec0132394de96147aadfd45ec298363c983b1"
+    },
+    {
+      "path": "words/ここ.md",
+      "sourceRawSha256": "9e10c8b0c45101a34420e4429c25ba4958a5afa540a1c33ca83c78e66994a6c0",
+      "sourceSha256": "9e10c8b0c45101a34420e4429c25ba4958a5afa540a1c33ca83c78e66994a6c0"
+    },
+    {
+      "path": "words/こちら.md",
+      "sourceRawSha256": "fe8ffb993400e9697f5f010c504ffbd3550b0e9d2aeaa68db6ef969b307bb45b",
+      "sourceSha256": "fe8ffb993400e9697f5f010c504ffbd3550b0e9d2aeaa68db6ef969b307bb45b"
+    },
+    {
+      "path": "words/こっち.md",
+      "sourceRawSha256": "8115434cdaf7833030f3218f42583c17d8baccf18e74dea5da3a6b3e87458140",
+      "sourceSha256": "8115434cdaf7833030f3218f42583c17d8baccf18e74dea5da3a6b3e87458140"
+    },
+    {
+      "path": "words/これ.md",
+      "sourceRawSha256": "0a875583ec38f2ff9f093e627f0f0b125f1ccf094ce4e142b583676492f3c523",
+      "sourceSha256": "0a875583ec38f2ff9f093e627f0f0b125f1ccf094ce4e142b583676492f3c523"
+    },
+    {
+      "path": "words/この.md",
+      "sourceRawSha256": "90a8edcce08399c3f60f96778ccd681a8e71c32ab34271a2b89aab9724a76f70",
+      "sourceSha256": "90a8edcce08399c3f60f96778ccd681a8e71c32ab34271a2b89aab9724a76f70"
+    },
+    {
+      "path": "words/そこ.md",
+      "sourceRawSha256": "beaa6c7fe1e944b8b1160f85bc477528d842d326b4149cf727c59827b74c0286",
+      "sourceSha256": "beaa6c7fe1e944b8b1160f85bc477528d842d326b4149cf727c59827b74c0286"
+    },
+    {
+      "path": "words/そちら.md",
+      "sourceRawSha256": "1e5e42acd719515977adcb653f61614d41585c04dad6b7af6511dcdc3599906d",
+      "sourceSha256": "1e5e42acd719515977adcb653f61614d41585c04dad6b7af6511dcdc3599906d"
+    },
+    {
+      "path": "words/そっち.md",
+      "sourceRawSha256": "9f7cc9b3f1fc54091e88fd37e98f167872e8ab260395982a9cda778cb0aed5e9",
+      "sourceSha256": "9f7cc9b3f1fc54091e88fd37e98f167872e8ab260395982a9cda778cb0aed5e9"
+    },
+    {
+      "path": "words/それ.md",
+      "sourceRawSha256": "56dfbf4cad4b762d3bc1012da6cca98d66b3766d4f969fd4ecad9f51c9a918c4",
+      "sourceSha256": "56dfbf4cad4b762d3bc1012da6cca98d66b3766d4f969fd4ecad9f51c9a918c4"
+    },
+    {
+      "path": "words/その.md",
+      "sourceRawSha256": "03e41264848db0c5ac824a37bedfa3d551c0ada0d1dd2f73ab7ae029cf12d1a0",
+      "sourceSha256": "03e41264848db0c5ac824a37bedfa3d551c0ada0d1dd2f73ab7ae029cf12d1a0"
+    },
+    {
+      "path": "words/どこ.md",
+      "sourceRawSha256": "898bdcb84041eee7253b94b2273aad2ebf24a73e8df9c98d89ec1c6fd301a801",
+      "sourceSha256": "898bdcb84041eee7253b94b2273aad2ebf24a73e8df9c98d89ec1c6fd301a801"
+    },
+    {
+      "path": "words/どちら.md",
+      "sourceRawSha256": "dabea33f51f8b9e86f05503e005a28d61a56d05b5847eb9140a3957180c36baa",
+      "sourceSha256": "dabea33f51f8b9e86f05503e005a28d61a56d05b5847eb9140a3957180c36baa"
+    },
+    {
+      "path": "words/どっち.md",
+      "sourceRawSha256": "ac6690d4a344f6d6190a8519cffbf75b747ed1eca0fa83563b83eab2e7a168f0",
+      "sourceSha256": "ac6690d4a344f6d6190a8519cffbf75b747ed1eca0fa83563b83eab2e7a168f0"
+    },
+    {
+      "path": "words/どれ.md",
+      "sourceRawSha256": "df743c6b9ccce89085870ee0fe966259374a7a3bc65060d5d9ae8ec48047a9e6",
+      "sourceSha256": "df743c6b9ccce89085870ee0fe966259374a7a3bc65060d5d9ae8ec48047a9e6"
+    },
+    {
+      "path": "words/どの.md",
+      "sourceRawSha256": "c9a108beeeead28ae25dced44448d98a46df01b91ee33677ee08c0504547cde1",
+      "sourceSha256": "c9a108beeeead28ae25dced44448d98a46df01b91ee33677ee08c0504547cde1"
+    },
+    {
+      "path": "words/どんな.md",
+      "sourceRawSha256": "5fb6936ef9dfc02523ca6a7b0cee1199746d5c654e6bacdb7d1c57747d567477",
+      "sourceSha256": "5fb6936ef9dfc02523ca6a7b0cee1199746d5c654e6bacdb7d1c57747d567477"
+    },
+    {
+      "path": "words/こんな.md",
+      "sourceRawSha256": "361eebd6db8d947f6cf31777c21fcfccf1c0fcf9512242f74e5ed4f19a5dd83a",
+      "sourceSha256": "361eebd6db8d947f6cf31777c21fcfccf1c0fcf9512242f74e5ed4f19a5dd83a"
+    },
+    {
+      "path": "words/そんな.md",
+      "sourceRawSha256": "aaf77eeaa4b3ec0c04570a76eaaedab2017f65504b105d9ccb9b5c2c84bce1c1",
+      "sourceSha256": "aaf77eeaa4b3ec0c04570a76eaaedab2017f65504b105d9ccb9b5c2c84bce1c1"
+    },
+    {
+      "path": "words/あんな.md",
+      "sourceRawSha256": "30977177d773ee1873b3d59cf63a4045ef48fc13ef91e8b50abca71c16ab57e0",
+      "sourceSha256": "30977177d773ee1873b3d59cf63a4045ef48fc13ef91e8b50abca71c16ab57e0"
+    }
+  ]
+}
