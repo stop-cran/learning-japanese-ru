@@ -63,8 +63,10 @@ tracking ledger and drift report must not relabel old work as newly translated.
    This is delivery, not installation, Japanese-IME, playback or phone approval.
    Preserve the applicable API29/API35/enlarged-text/source/history acceptance matrix.
    Ordinary RU defaults remain disabled until the required gates pass.
-5. **R4 — translate the complete inventory (RU #3).** After the applicable C6/C7 gates,
-   execute coherent dependency-closed batches, starting with remaining N5 kanji/words,
+5. **R4 — translate the complete inventory (RU #3).** The owner's subsequent
+   2026-11-04 authorization starts authoring now, without waiting for C6/C7 device
+   acceptance; those gates still govern release/activation and restricted media packages.
+   Execute coherent dependency-closed batches, starting with remaining N5 kanji/words,
    then N4/N3/N2/N1 and unlabelled words; complete all articles, counters, grammar and
    curriculum alongside the units they support. Scenes/media/listening are separate
    exact-package lanes, never omitted from the backlog. A batch closes required examples,
@@ -80,17 +82,20 @@ tracking ledger and drift report must not relabel old work as newly translated.
    report-only Action. No report self-translates, self-approves, merges, advances immutable
    tags or affects offline study. New upstream content remains pending until adopted.
 
-This request does not waive the existing C6/C7 dependency or authorize paid media,
-fabricated phone acceptance or ordinary RU activation. Inventory and contributor tooling
-can proceed now; blocked release gates must not be bypassed to claim corpus completion.
+The later authorization removes C6/C7 as a prerequisite to translation authoring.
+It does not authorize paid media, fabricated phone acceptance, transfer of audio-package
+approval or ordinary RU activation. Reviewed text batches may be integrated while the
+separate release gates remain open.
 The official `ru-pilot-a` and controlled `ru-pilot-b` runtime pins remain unchanged.
 
 ## Completion evidence
 
-Full translation means every frozen target object has a complete reviewed Russian unit
+Full translated-corpus coverage means every frozen target object has a complete reviewed Russian unit
 or an explicit justified non-translatable asset disposition, all necessary dependencies
-are closed, all changed guidance/source semantics are reconciled, and applicable
-runtime/device gates pass. Partial articles, blocked drafts, absent files, copied English
+are closed, and all changed guidance/source semantics are reconciled. Runtime publication
+of restricted packages and release/activation additionally require their applicable
+authority/device gates. Report translated text, runtime parity and release readiness
+separately. Partial articles, blocked drafts, absent files, copied English
 prose, hashes and a generated manifest cannot satisfy that definition.
 
 Current work items remain the authority for outstanding acceptance: RU #2 provenance,
@@ -169,5 +174,27 @@ fresh exact-package authority for both Russian audio adaptations followed by act
 playback/interruption tests, and physical-phone/Japanese-IME/release acceptance.
 [The exact authority request](pilot-b-media-authority-request.json) is prepared, not
 approved. Ordinary RU activation and broad R4 authoring have not been unlocked.
-The complete 8,197 absent-path backlog plus partial units remains visible; this
+At that checkpoint the complete 8,197 absent-path backlog plus partial units remained visible; this
 checkpoint is not a claim that the full corpus has been translated.
+
+## Subsequent owner authorization: sequential background authoring
+
+The owner subsequently requested continuous background translation against the **same**
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f` target. ETA is not a constraint.
+The earlier R2/R3 observations remain historical evidence, not a reason to idle the
+independent text lane. Translate restricted listening packages as non-runtime drafts
+until their actual publication authority is obtained; continue other families meanwhile.
+
+Use one authoring lane and at most one read-only reviewer at a time, with serialized
+tests/builds; do not launch fleets, extra authoring sessions or unattended competing writers.
+Freeze convenient dependency-closed batches before authoring, review every adopted
+learner-facing surface, resolve and recheck findings, then validate the combined tree.
+Update exact per-file provenance and the mutable current report without rewriting old receipts.
+
+Keep branches short-lived: pull/fetch before each batch and before integration, reconcile
+concurrent work without overwriting it, commit recoverable progress periodically and push
+without asking for confirmation. Use normal signed commits and normal pushes, never
+force-push, amend or discard unrelated work. Integrate accepted batches frequently;
+unreviewed WIP remains explicitly unaccepted on its own branch or excluded draft lane.
+Record each completed batch and actual remaining scope so interrupted work can resume
+without repeating, losing or falsely approving it. Do not silently retarget to later EN main.

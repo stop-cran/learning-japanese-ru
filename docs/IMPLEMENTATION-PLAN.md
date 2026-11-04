@@ -1,5 +1,13 @@
 # EN/RU implementation: small checkpoints before broad translation
 
+Latest owner direction (2026-11-04): proceed with continuous background authoring against
+the same frozen EN `6af98cb...`. C6/C7 device and exact media-package approval remain
+release/publication gates, not prerequisites to translating independent text batches.
+Use one authoring lane, at most one reviewer at a time, convenient dependency-closed batches
+and frequent signed commits, pulls/reconciliation and pushes without confirmation.
+The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
+records this revised order; earlier blocked observations below remain historical.
+
 Current full-scope execution (2026-11-04): the owner requested the remaining roadmap, not
 another smaller pilot. [Full scope and dependency order](FULL-TRANSLATION-PLAN.md) freeze EN
 `6af98cb...`: 8,278 runtime objects across14families; RU has81 present, including three partial
