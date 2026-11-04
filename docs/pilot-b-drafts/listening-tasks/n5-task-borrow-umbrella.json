@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "policyVersion": 1,
+  "jlpt": 5,
+  "id": "n5-task-borrow-umbrella",
+  "exposureId": "n5-story-borrow-umbrella",
+  "taskType": "quick-response",
+  "kind": "dialogue",
+  "usage": "scored",
+  "blueprint": "n5-section-v1",
+  "title": "Перед выходом на улицу",
+  "topic": "Неожиданно пошёл дождь. Можно попользоваться этим зонтиком до ухода домой?",
+  "levelRationale": "Задание начального уровня на соответствие реплики ситуации, а не узнавание перевода. Нумерованные варианты различаются по цели высказывания; подсказки поясняют менее знакомую лексику.",
+  "speakers": [
+    {"id": "n", "role": "narrator", "voice": "ja-JP-NanamiNeural", "ratePercent": -10},
+    {"id": "a", "role": "character", "voice": "ja-JP-KeitaNeural", "ratePercent": -10},
+    {"id": "b", "role": "character", "voice": "ja-JP-MayuNeural", "ratePercent": -10}
+  ],
+  "turns": [
+    {"id": "instruction", "speaker": "n", "text": "話を聞いて、返事を一つ選んでください。", "translation": "Прослушайте реплику и выберите один ответ."},
+    {"id": "utterance", "speaker": "b", "text": "急に雨が降ってきましたね。この傘、帰るまで借りてもいいですか。", "translation": "Неожиданно пошёл дождь. Можно попользоваться этим зонтиком до ухода домой?"},
+    {"id": "choice-1", "speaker": "a", "text": "1。ええ、どうぞ使ってください。", "spokenText": "いち。ええ、どうぞ使ってください。", "translation": "1. Да, пожалуйста, пользуйтесь."},
+    {"id": "choice-2", "speaker": "a", "text": "2。いいえ、まだ降っていません。", "spokenText": "に。いいえ、まだ降っていません。", "translation": "2. Нет, дождь ещё не идёт."},
+    {"id": "choice-3", "speaker": "a", "text": "3。はい、昨日返しました。", "spokenText": "さん。はい、昨日返しました。", "translation": "3. Да, я вернул его вчера."}
+  ],
+  "options": [
+    {"id": "option-1", "number": 1, "label": "ええ、どうぞ使ってください。", "translation": "Да, пожалуйста, пользуйтесь.", "rationale": "Так собеседник даёт запрошенное разрешение взять зонтик."},
+    {"id": "option-2", "number": 2, "label": "いいえ、まだ降っていません。", "translation": "Нет, дождь ещё не идёт.", "rationale": "Это отрицание прямо отмеченного дождя, а не ответ на просьбу взять зонтик."},
+    {"id": "option-3", "number": 3, "label": "はい、昨日返しました。", "translation": "Да, я вернул его вчера.", "rationale": "Отвечающий сообщает, что сам вернул вещь в прошлом, а не разрешает или запрещает взять её сейчас."}
+  ],
+  "stages": [
+    {"id": "instruction", "role": "instruction", "turns": ["instruction"]},
+    {"id": "utterance", "role": "utterance", "turns": ["utterance"]},
+    {"id": "choice-1", "role": "choice", "turns": ["choice-1"], "optionId": "option-1"},
+    {"id": "choice-2", "role": "choice", "turns": ["choice-2"], "optionId": "option-2"},
+    {"id": "choice-3", "role": "choice", "turns": ["choice-3"], "optionId": "option-3"}
+  ],
+  "choiceMode": "audio",
+  "answer": "option-1",
+  "evidence": ["utterance"],
+  "explanation": "借りてもいいですか — просьба о разрешении. Уместный отказ тоже был бы возможен, но среди этих отвлекающих вариантов его нет.",
+  "vocabulary": [
+    {"surface": "急に", "reading": "きゅうに", "gloss": "внезапно"}
+  ]
+}

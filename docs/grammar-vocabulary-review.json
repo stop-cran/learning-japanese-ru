@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "baselineRevision": "5f460b85b391404e7da01be0a0cded78243b7538",
+  "stage": "pilot",
+  "records": [
+    {
+      "file": "n5-foundation-connections.json",
+      "exerciseId": "n5-connections-doctor-teacher",
+      "promptSha256": "63624bd78ea683277a51b4096c1a494bf377a60258663905072f98836a0d5b60",
+      "contextSha256": "9201040ff281c7b5926c5f70d00748c92556890a9f4d2ef44361114fe1638fbb",
+      "status": "reviewed",
+      "vocabularySha256": "6acc6dfb5e134e1f9a45bdcbdf4cc756a30c6504f74abf7f7973ca8a1d19177f",
+      "reviewer": "Copilot independent reviewer 8b1561cf-d78f-4750-a604-77ee50b596dc; Pilot B content review, RU issue #6",
+      "notes": "Reviewed all four lexical occurrences and kinship readings in the actual siblings/jobs context. The first-person kinship glosses fit this sentence; both topic markers, final copula and the protected connection blank are explicitly accounted for.",
+      "exclusions": [
+        {
+          "start": 1,
+          "end": 2,
+          "text": "は",
+          "reason": "function"
+        },
+        {
+          "start": 4,
+          "end": 8,
+          "text": "____",
+          "reason": "grammar-target"
+        },
+        {
+          "start": 8,
+          "end": 9,
+          "text": "、",
+          "reason": "punctuation"
+        },
+        {
+          "start": 10,
+          "end": 11,
+          "text": "は",
+          "reason": "function"
+        },
+        {
+          "start": 13,
+          "end": 15,
+          "text": "です",
+          "reason": "function"
+        },
+        {
+          "start": 15,
+          "end": 16,
+          "text": "。",
+          "reason": "punctuation"
+        }
+      ]
+    },
+    {
+      "file": "n5-foundation-connections.json",
+      "exerciseId": "n5-connections-eat-school",
+      "promptSha256": "ba7db5ccb48b265922005c872573d34dc41260b9417348d84fc0cc7cd9a7d8e1",
+      "contextSha256": "cea6e8b36ac53859424bf72c48ac0287ee58243ea9b92371ac075da70cc8e295",
+      "status": "reviewed",
+      "vocabularySha256": "131d67d9341f1549107843e0c1cc3cdeaa8c44c02408658c7bf5809298faab9f",
+      "reviewer": "Copilot independent reviewer 8b1561cf-d78f-4750-a604-77ee50b596dc; Pilot B content review, RU issue #6",
+      "notes": "Reviewed all three Japanese surface/reading/headword/Russian-gloss occurrences in the breakfast-to-school context; the supplied verb plus blank is protected as the target and remaining segments cover functions/punctuation exactly.",
+      "exclusions": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "を",
+          "reason": "function"
+        },
+        {
+          "start": 4,
+          "end": 10,
+          "text": "食べ____",
+          "reason": "grammar-target"
+        },
+        {
+          "start": 10,
+          "end": 11,
+          "text": "、",
+          "reason": "punctuation"
+        },
+        {
+          "start": 13,
+          "end": 14,
+          "text": "に",
+          "reason": "function"
+        },
+        {
+          "start": 18,
+          "end": 19,
+          "text": "。",
+          "reason": "punctuation"
+        }
+      ]
+    },
+    {
+      "file": "n5-foundation-connections.json",
+      "exerciseId": "n5-connections-student-friend",
+      "promptSha256": "ebe27d6e3a36d1571c97330f92bc3f96bbc831ce1672c2ec7030ed18e37e98c3",
+      "contextSha256": "2db046ee9c478f5e122f773fd4f22ac77aa461b3ca521ded446282bfd5e3c19d",
+      "status": "reviewed",
+      "vocabularySha256": "790b92601b9ba64beef0d3b96aba3f8a80f620d33aec9943fb6b2ff10eb6cc59",
+      "reviewer": "Copilot independent reviewer 8b1561cf-d78f-4750-a604-77ee50b596dc; Pilot B content review, RU issue #6",
+      "notes": "Reviewed all five occurrences; あの is the prenominal demonstrative, 人 has the contextual ひと reading, and 私 is the lexical pronoun within 私の友達. Function/blank exclusions complete the prompt without providing the assessed connector.",
+      "exclusions": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "は",
+          "reason": "function"
+        },
+        {
+          "start": 6,
+          "end": 10,
+          "text": "____",
+          "reason": "grammar-target"
+        },
+        {
+          "start": 10,
+          "end": 11,
+          "text": "、",
+          "reason": "punctuation"
+        },
+        {
+          "start": 12,
+          "end": 13,
+          "text": "の",
+          "reason": "function"
+        },
+        {
+          "start": 15,
+          "end": 17,
+          "text": "です",
+          "reason": "function"
+        },
+        {
+          "start": 17,
+          "end": 18,
+          "text": "。",
+          "reason": "punctuation"
+        }
+      ]
+    },
+    {
+      "file": "n5-foundation-connections.json",
+      "exerciseId": "n5-connections-walk-train",
+      "promptSha256": "05d3c481f92582058c125740b9169ed262db50ce1d4b3291370ad1c80de4ff6b",
+      "contextSha256": "381b66b8e9855d310de6339779a46f8c1c99c6b1d4c44b24990e346753ec88f7",
+      "status": "reviewed",
+      "vocabularySha256": "735a54527611931f1abf28a2ccd7fe8b39d44fda79808af0ed64391153fff251",
+      "reviewer": "Copilot independent reviewer 8b1561cf-d78f-4750-a604-77ee50b596dc; Pilot B content review, RU issue #6",
+      "notes": "Reviewed all three occurrences in the walking-to-station/boarding context; 乗りました has the boarding sense, correct past surface reading and dictionary headword 乗る. The target fragment is not exposed by vocabulary.",
+      "exclusions": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "まで",
+          "reason": "function"
+        },
+        {
+          "start": 3,
+          "end": 9,
+          "text": "歩い____",
+          "reason": "grammar-target"
+        },
+        {
+          "start": 9,
+          "end": 10,
+          "text": "、",
+          "reason": "punctuation"
+        },
+        {
+          "start": 12,
+          "end": 13,
+          "text": "に",
+          "reason": "function"
+        },
+        {
+          "start": 18,
+          "end": 19,
+          "text": "。",
+          "reason": "punctuation"
+        }
+      ]
+    }
+  ]
+}

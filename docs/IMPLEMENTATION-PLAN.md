@@ -1,10 +1,13 @@
 # EN/RU implementation: small checkpoints before broad translation
 
-Current status: Pilot A's bounded C5 integration gate is accepted through Native15. The user
-authorized testing-branch publication, not production/default activation: app/RU documentation
-`ru-pilot-a-integration`, EN tooling `en-language-contract-pilot`. Official RU runtime remains
-`ru-pilot-a` at544dd15. C6 structured/media Pilot B, C7 release acceptance and broad translation
-remain separate. The chronology below preserves earlier pending/failed dispositions at their actual dates.
+Current status: Pilot A's bounded C5 integration gate is accepted through Native15. The owner
+subsequently authorized merging all three reviewed testing branches: app main `30b0719`,
+RU main `98046a9`, EN main signed two-parent merge `5f460b8`. This is source publication,
+not production/default activation. Official `ru-pilot-a` remains pinned at544dd15.
+The next C6 cohort and its separately frozen necessary closure amendment are specified in
+[Pilot B](PILOT-B.md): 81 runtime entries, complete structured lessons and bounded reused pictures;
+both complete audio adaptations remain text drafts blocked for runtime by fresh-package authority.
+C7 and broad translation remain separate. Earlier pending/failed dispositions below retain their dates.
 
 Earlier status: C2 instructions independently reviewed and adopted, shared C1 Python checks passing,
 app localization received bounded code acceptance, then native testing reopened two Settings defects;
@@ -423,7 +426,8 @@ or choose simpler cards if closure grows too large.
 - Translate all learner-visible fields and bodies. Check Russian label uniqueness/semantic ambiguity and mark
   intentional adaptations; unchanged Japanese provenance is reused without restarting every source investigation.
 - Independently review content for correctness, bounded coverage and Russian comprehensibility; reconcile, validate
-  and regenerate the exact runtime manifest. Publish only on an explicitly named RU testing branch/revision until C7.
+  and regenerate the exact runtime manifest. Initially publish on an explicitly named testing branch/revision.
+  A later owner-authorized merge of reviewed sources into main is not C7 approval or ordinary RU activation.
 
 Exit: reviewed pilot A archive is dependency-closed, format/budget checks pass, and source/RU hashes are recorded.
 App-wide localization is broader than pilot teaching coverage; missing content families must be disclosed as unavailable.
@@ -455,6 +459,9 @@ article/vocabulary/prerequisites; bounded counter v1/v2 examples; at least two p
 one complete legacy listening passage and one existing supported Japanese task package with localized help/feedback.
 Choose exact source objects and their true dependency closure before authoring; do not extract arbitrary JSON rows
 or inherit package approvals. Synthetic C1 format fixtures are not actual-content acceptance.
+The concrete B0–B4 plan, pre-authoring objects, negative-reference closure and scoped operation matrix are in
+[PILOT-B.md](PILOT-B.md). Actual vocabulary review binds every translated context; canonical content tags also
+need checking at their UI renderer. Existing validator/vocabulary tooling is retained rather than weakened.
 
 Reuse unchanged verified Japanese audio/artwork only, with licenses and fresh package bindings/approval boundaries.
 If suitable media or approval is absent, narrow the candidate with an explicit blocked/missing case instead of

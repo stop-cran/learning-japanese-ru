@@ -1,0 +1,394 @@
+{
+  "schemaVersion": 1,
+  "batch": "ru-pilot-b",
+  "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+  "reason": "Actual RU validator reports ten absent quiz-exclusion word articles in the initial two-word candidate. Preserve all direct negative edges by adopting their finite directed reference closure, rather than weakening exclusions or filling a quiz quota.",
+  "initialRuntimeWordSeeds": [
+    "きらきら",
+    "にこにこ"
+  ],
+  "completeWordClosure": [
+    "おしゃべり",
+    "きらきら",
+    "ぎらぎら",
+    "さらさら",
+    "すべすべ",
+    "つやつや",
+    "つるつる",
+    "てかてか",
+    "どろどろ",
+    "にこにこ",
+    "にっこり",
+    "ぬるぬる",
+    "べちゃべちゃ",
+    "ぺらぺら",
+    "光る",
+    "微笑む",
+    "笑い",
+    "笑う",
+    "笑顔",
+    "輝く"
+  ],
+  "directReferenceGraph": {
+    "にこにこ": {
+      "quiz_exclusions": [
+        "にっこり",
+        "微笑む",
+        "笑う",
+        "笑顔",
+        "笑い"
+      ]
+    },
+    "笑い": {
+      "quiz_exclusions": [
+        "笑う",
+        "微笑む"
+      ]
+    },
+    "微笑む": {
+      "quiz_exclusions": [
+        "笑う",
+        "笑顔"
+      ]
+    },
+    "笑顔": {
+      "quiz_exclusions": [
+        "笑い",
+        "笑う"
+      ]
+    },
+    "笑う": {},
+    "にっこり": {
+      "quiz_exclusions": [
+        "微笑む",
+        "笑う",
+        "笑顔",
+        "笑い"
+      ]
+    },
+    "きらきら": {
+      "quiz_exclusions": [
+        "ぎらぎら",
+        "つやつや",
+        "てかてか",
+        "輝く",
+        "光る"
+      ]
+    },
+    "光る": {},
+    "輝く": {
+      "quiz_exclusions": [
+        "光る"
+      ]
+    },
+    "てかてか": {
+      "quiz_exclusions": [
+        "つるつる",
+        "輝く",
+        "光る"
+      ]
+    },
+    "つるつる": {
+      "quiz_exclusions": [
+        "すべすべ",
+        "さらさら",
+        "ぬるぬる"
+      ]
+    },
+    "ぬるぬる": {
+      "quiz_exclusions": [
+        "どろどろ",
+        "べちゃべちゃ"
+      ]
+    },
+    "べちゃべちゃ": {
+      "quiz_exclusions": [
+        "ぺらぺら",
+        "おしゃべり"
+      ]
+    },
+    "おしゃべり": {},
+    "ぺらぺら": {
+      "quiz_exclusions": [
+        "おしゃべり"
+      ]
+    },
+    "どろどろ": {
+      "quiz_exclusions": [
+        "べちゃべちゃ"
+      ]
+    },
+    "さらさら": {
+      "quiz_exclusions": [
+        "ぺらぺら"
+      ]
+    },
+    "すべすべ": {
+      "quiz_exclusions": [
+        "さらさら"
+      ]
+    },
+    "つやつや": {
+      "quiz_exclusions": [
+        "てかてか",
+        "つるつる",
+        "輝く",
+        "光る"
+      ]
+    },
+    "ぎらぎら": {
+      "quiz_exclusions": [
+        "てかてか",
+        "つやつや",
+        "輝く",
+        "光る"
+      ]
+    }
+  },
+  "additionalObjects": [
+    {
+      "path": "words/おしゃべり.md",
+      "gitBlob": "2d0c67c589e5f854d0f1122da6db2d7fb40042d1",
+      "rawSha256": "919360bc489bd7da54f70a32e5233059fa5bf02191ad1add93d9d5c9ffe5c3e9",
+      "bytes": 1738,
+      "requiredDirectReferences": {},
+      "optionalMediaDisposition": "Word article only; do not adopt any optional image/image_scene or scene catalog for this dependency",
+      "status": "source-frozen-before-expanded-authoring; translation/review pending"
+    },
+    {
+      "path": "words/ぎらぎら.md",
+      "gitBlob": "291ea93bc595c72f5d63f2de16e72f16f21dacfe",
+      "rawSha256": "61ba4ff317efe64dee60cd2e749b76797377899451e0fba34cc866827685399f",
+      "bytes": 1509,
+      "requiredDirectReferences": {
+        "quiz_exclusions": [
+          "てかてか",
+          "つやつや",
+          "輝く",
+          "光る"
+        ]
+      },
+      "optionalMediaDisposition": "Word article only; do not adopt any optional image/image_scene or scene catalog for this dependency",
+      "status": "source-frozen-before-expanded-authoring; translation/review pending"
+    },
+    {
+      "path": "words/さらさら.md",
+      "gitBlob": "7f95435a39954202b250fe69bc300545827edef3",
+      "rawSha256": "5d893216c14f0f1016ee6f57f6340d8c2de20068153ad464fa5a069ba55d5e1c",
+      "bytes": 1628,
+      "requiredDirectReferences": {
+        "quiz_exclusions": [
+          "ぺらぺら"
+        ]
+      },
+      "optionalMediaDisposition": "Word article only; do not adopt any optional image/image_scene or scene catalog for this dependency",
+      "status": "source-frozen-before-expanded-authoring; translation/review pending"
+    },
+    {
+      "path": "words/すべすべ.md",
+      "gitBlob": "1eed05ac053644551d51f0e747f00c79a849c27b",
+      "rawSha256": "36e9bc98636a6cf6609d900452ccfb55579a7415a0edae8cc667193424602997",
+      "bytes": 1478,
+      "requiredDirectReferences": {
+        "quiz_exclusions": [
+          "さらさら"
+        ]
+      },
+      "optionalMediaDisposition": "Word article only; do not adopt any optional image/image_scene or scene catalog for this dependency",
+      "status": "source-frozen-before-expanded-authoring; translation/review pending"
+    },
+    {
+      "path": "words/つやつや.md",
+      "gitBlob": "ee1aebdd30a92913f761f8d69ec56f8fad5c8cf0",
+      "rawSha256": "b041c25f6f4da5657d6af135ba1c7daab6d121b6ae15d9981ea90d8f45cc44e4",
+      "bytes": 1482,
+      "requiredDirectReferences": {
+        "quiz_exclusions": [
+          "てかてか",
+          "つるつる",
+          "輝く",
+          "光る"
+        ]
+      },
+      "optionalMediaDisposition": "Word article only; do not adopt any optional image/image_scene or scene catalog for this dependency",
+      "status": "source-frozen-before-expanded-authoring; translation/review pending"
+    },
+    {
+      "path": "words/つるつる.md",
+      "gitBlob": "f0c01f2a1c7c488a199eb162950dac3bb86c7a6f",
+      "rawSha256": "9b4e9e5184e6e0df31d18c562128604ad3d54f6e6ee9da6595bd49771a999b16",
+      "bytes": 1721,
+      "requiredDirectReferences": {
+        "quiz_exclusions": [
+          "すべすべ",
+          "さらさら",
+          "ぬるぬる"
+        ]
+      },
+      "optionalMediaDisposition": "Word article only; do not adopt any optional image/image_scene or scene catalog for this dependency",
+      "status": "source-frozen-before-expanded-authoring; translation/review pending"
+    },
+    {
+      "path": "words/てかてか.md",
+      "gitBlob": "a703f08b1d5d2cdeed146eafcc73e5652a4c4ee6",
+      "rawSha256": "2ad231adaf570c6797ae88740e98dc6b18e6abd7b8bcdace88ff709432df66c2",
+      "bytes": 1596,
+      "requiredDirectReferences": {
+        "quiz_exclusions": [
+          "つるつる",
+          "輝く",
+          "光る"
+        ]
+      },
+      "optionalMediaDisposition": "Word article only; do not adopt any optional image/image_scene or scene catalog for this dependency",
+      "status": "source-frozen-before-expanded-authoring; translation/review pending"
+    },
+    {
+      "path": "words/どろどろ.md",
+      "gitBlob": "8bd0c77344aee5592912f801e03198fd7a7b6a93",
+      "rawSha256": "8ec4826f03e569fd24cf6e59a5c9ffc84f1fcb6850cf5ee51359857af569a48e",
+      "bytes": 1980,
+      "requiredDirectReferences": {
+        "quiz_exclusions": [
+          "べちゃべちゃ"
+        ]
+      },
+      "optionalMediaDisposition": "Word article only; do not adopt any optional image/image_scene or scene catalog for this dependency",
+      "status": "source-frozen-before-expanded-authoring; translation/review pending"
+    },
+    {
+      "path": "words/にっこり.md",
+      "gitBlob": "8129e25de37e1d4c74650c74f92a1cfb90a2c0fe",
+      "rawSha256": "cc4bba8588d4c5b15e1dcc916067d2f2b4d5ab7f2a0dcc4c4bf8bc3c74e29687",
+      "bytes": 2050,
+      "requiredDirectReferences": {
+        "quiz_exclusions": [
+          "微笑む",
+          "笑う",
+          "笑顔",
+          "笑い"
+        ]
+      },
+      "optionalMediaDisposition": "Word article only; do not adopt any optional image/image_scene or scene catalog for this dependency",
+      "status": "source-frozen-before-expanded-authoring; translation/review pending"
+    },
+    {
+      "path": "words/ぬるぬる.md",
+      "gitBlob": "0ddf43bd4a03fd9684ab34f754eff1749f6098ce",
+      "rawSha256": "cbbce09a5ac811c11d53b4cbb04af83e1c46d99a190e936128a89d4120b725a6",
+      "bytes": 1714,
+      "requiredDirectReferences": {
+        "quiz_exclusions": [
+          "どろどろ",
+          "べちゃべちゃ"
+        ]
+      },
+      "optionalMediaDisposition": "Word article only; do not adopt any optional image/image_scene or scene catalog for this dependency",
+      "status": "source-frozen-before-expanded-authoring; translation/review pending"
+    },
+    {
+      "path": "words/べちゃべちゃ.md",
+      "gitBlob": "a7e53a2bb292ca8181aeaf91d7c0b2c5e0c9743a",
+      "rawSha256": "1e69787430ee738b48a2c917de7ac4c31914efc28ebae92e5d7010d70215e12b",
+      "bytes": 1666,
+      "requiredDirectReferences": {
+        "quiz_exclusions": [
+          "ぺらぺら",
+          "おしゃべり"
+        ]
+      },
+      "optionalMediaDisposition": "Word article only; do not adopt any optional image/image_scene or scene catalog for this dependency",
+      "status": "source-frozen-before-expanded-authoring; translation/review pending"
+    },
+    {
+      "path": "words/ぺらぺら.md",
+      "gitBlob": "dcd088f1cbc388043cb2ca147cf2aa97a5f8f864",
+      "rawSha256": "4d351313112f4605177d5749ab2dc24dcd3a178aef0f8e30174f3f43ad8af54d",
+      "bytes": 1748,
+      "requiredDirectReferences": {
+        "quiz_exclusions": [
+          "おしゃべり"
+        ]
+      },
+      "optionalMediaDisposition": "Word article only; do not adopt any optional image/image_scene or scene catalog for this dependency",
+      "status": "source-frozen-before-expanded-authoring; translation/review pending"
+    },
+    {
+      "path": "words/光る.md",
+      "gitBlob": "89c865ba846fcb934f4e9ae90049231203af7389",
+      "rawSha256": "41134595c1d3931688100b9d382d5c8def5cbbedbd0db2bab2a6a71c778bd520",
+      "bytes": 1599,
+      "requiredDirectReferences": {},
+      "optionalMediaDisposition": "Word article only; do not adopt any optional image/image_scene or scene catalog for this dependency",
+      "status": "source-frozen-before-expanded-authoring; translation/review pending"
+    },
+    {
+      "path": "words/微笑む.md",
+      "gitBlob": "7602a0eb7f0d41553c96d9f665eb06b405fed78a",
+      "rawSha256": "6be0c98191c2ca42ddeb5698276d827c746436754093a4344d1e9f9fe4cd741e",
+      "bytes": 1758,
+      "requiredDirectReferences": {
+        "quiz_exclusions": [
+          "笑う",
+          "笑顔"
+        ]
+      },
+      "optionalMediaDisposition": "Word article only; do not adopt any optional image/image_scene or scene catalog for this dependency",
+      "status": "source-frozen-before-expanded-authoring; translation/review pending"
+    },
+    {
+      "path": "words/笑い.md",
+      "gitBlob": "4acbe1ac0855271adc669be07738e6d639f811c0",
+      "rawSha256": "acb6dd7410ab4f6c32f53961a1eeb27d6e180e8e9609ebd37a94e07d2229fcc8",
+      "bytes": 1754,
+      "requiredDirectReferences": {
+        "quiz_exclusions": [
+          "笑う",
+          "微笑む"
+        ]
+      },
+      "optionalMediaDisposition": "Word article only; do not adopt any optional image/image_scene or scene catalog for this dependency",
+      "status": "source-frozen-before-expanded-authoring; translation/review pending"
+    },
+    {
+      "path": "words/笑う.md",
+      "gitBlob": "e42d50beb56ccb31d280f82c629a053c03ce398c",
+      "rawSha256": "dc4923578b5aff38930a0061672f5d198947ffd1663b4acec4ff1aaec4d2fce2",
+      "bytes": 1921,
+      "requiredDirectReferences": {},
+      "optionalMediaDisposition": "Word article only; do not adopt any optional image/image_scene or scene catalog for this dependency",
+      "status": "source-frozen-before-expanded-authoring; translation/review pending"
+    },
+    {
+      "path": "words/笑顔.md",
+      "gitBlob": "03a363bd45a84fea8163cfc5ad7a837b8078fd17",
+      "rawSha256": "76fc3b64f982895e034cac9291f195f60cbc137dd466ef36cc288adb548bc973",
+      "bytes": 1768,
+      "requiredDirectReferences": {
+        "quiz_exclusions": [
+          "笑い",
+          "笑う"
+        ]
+      },
+      "optionalMediaDisposition": "Word article only; do not adopt any optional image/image_scene or scene catalog for this dependency",
+      "status": "source-frozen-before-expanded-authoring; translation/review pending"
+    },
+    {
+      "path": "words/輝く.md",
+      "gitBlob": "5a2f7b65307c887ca4f9ebb9912828d35ac18bc9",
+      "rawSha256": "be1b8405960dea6b144ef1adab95d39c2d458ba870475613ab20db3d1291eb7a",
+      "bytes": 1854,
+      "requiredDirectReferences": {
+        "quiz_exclusions": [
+          "光る"
+        ]
+      },
+      "optionalMediaDisposition": "Word article only; do not adopt any optional image/image_scene or scene catalog for this dependency",
+      "status": "source-frozen-before-expanded-authoring; translation/review pending"
+    }
+  ],
+  "mediaCohortUnchanged": true,
+  "audioRuntimeBlocked": true,
+  "semanticTransitivity": false,
+  "ordinaryRussianMainActivation": false
+}

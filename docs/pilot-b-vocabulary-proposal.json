@@ -1,0 +1,217 @@
+{
+  "status": "all four proposals independently approved at their recorded contexts on 2026-11-04",
+  "reviewer": "Copilot independent reviewer 8b1561cf-d78f-4750-a604-77ee50b596dc; Pilot B content review, RU issue #6",
+  "sourceCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
+  "exercises": [
+    {
+      "file": "n5-foundation-connections.json",
+      "exerciseId": "n5-connections-eat-school",
+      "contextSha256": "cea6e8b36ac53859424bf72c48ac0287ee58243ea9b92371ac075da70cc8e295",
+      "segments": [
+        [
+          "朝ご飯",
+          "あさごはん",
+          "朝ご飯",
+          "завтрак"
+        ],
+        [
+          "を",
+          "function"
+        ],
+        [
+          "食べ____",
+          "grammar-target"
+        ],
+        [
+          "、",
+          "punctuation"
+        ],
+        [
+          "学校",
+          "がっこう",
+          "学校",
+          "школа"
+        ],
+        [
+          "に",
+          "function"
+        ],
+        [
+          "行きます",
+          "いきます",
+          "行く",
+          "идти"
+        ],
+        [
+          "。",
+          "punctuation"
+        ]
+      ],
+      "notes": "Reviewed all three Japanese surface/reading/headword/Russian-gloss occurrences in the breakfast-to-school context; the supplied verb plus blank is protected as the target and remaining segments cover functions/punctuation exactly."
+    },
+    {
+      "file": "n5-foundation-connections.json",
+      "exerciseId": "n5-connections-walk-train",
+      "contextSha256": "381b66b8e9855d310de6339779a46f8c1c99c6b1d4c44b24990e346753ec88f7",
+      "segments": [
+        [
+          "駅",
+          "えき",
+          "駅",
+          "станция"
+        ],
+        [
+          "まで",
+          "function"
+        ],
+        [
+          "歩い____",
+          "grammar-target"
+        ],
+        [
+          "、",
+          "punctuation"
+        ],
+        [
+          "電車",
+          "でんしゃ",
+          "電車",
+          "поезд"
+        ],
+        [
+          "に",
+          "function"
+        ],
+        [
+          "乗りました",
+          "のりました",
+          "乗る",
+          "сел на транспорт"
+        ],
+        [
+          "。",
+          "punctuation"
+        ]
+      ],
+      "notes": "Reviewed all three occurrences in the walking-to-station/boarding context; 乗りました has the boarding sense, correct past surface reading and dictionary headword 乗る. The target fragment is not exposed by vocabulary."
+    },
+    {
+      "file": "n5-foundation-connections.json",
+      "exerciseId": "n5-connections-doctor-teacher",
+      "contextSha256": "9201040ff281c7b5926c5f70d00748c92556890a9f4d2ef44361114fe1638fbb",
+      "segments": [
+        [
+          "姉",
+          "あね",
+          "姉",
+          "моя старшая сестра"
+        ],
+        [
+          "は",
+          "function"
+        ],
+        [
+          "医者",
+          "いしゃ",
+          "医者",
+          "врач"
+        ],
+        [
+          "____",
+          "grammar-target"
+        ],
+        [
+          "、",
+          "punctuation"
+        ],
+        [
+          "兄",
+          "あに",
+          "兄",
+          "мой старший брат"
+        ],
+        [
+          "は",
+          "function"
+        ],
+        [
+          "教師",
+          "きょうし",
+          "教師",
+          "учитель"
+        ],
+        [
+          "です",
+          "function"
+        ],
+        [
+          "。",
+          "punctuation"
+        ]
+      ],
+      "notes": "Reviewed all four lexical occurrences and kinship readings in the actual siblings/jobs context. The first-person kinship glosses fit this sentence; both topic markers, final copula and the protected connection blank are explicitly accounted for."
+    },
+    {
+      "file": "n5-foundation-connections.json",
+      "exerciseId": "n5-connections-student-friend",
+      "contextSha256": "2db046ee9c478f5e122f773fd4f22ac77aa461b3ca521ded446282bfd5e3c19d",
+      "segments": [
+        [
+          "あの",
+          "あの",
+          "あの",
+          "вон тот; перед существительным"
+        ],
+        [
+          "人",
+          "ひと",
+          "人",
+          "человек"
+        ],
+        [
+          "は",
+          "function"
+        ],
+        [
+          "学生",
+          "がくせい",
+          "学生",
+          "учащийся; студент"
+        ],
+        [
+          "____",
+          "grammar-target"
+        ],
+        [
+          "、",
+          "punctuation"
+        ],
+        [
+          "私",
+          "わたし",
+          "私",
+          "я"
+        ],
+        [
+          "の",
+          "function"
+        ],
+        [
+          "友達",
+          "ともだち",
+          "友達",
+          "друг"
+        ],
+        [
+          "です",
+          "function"
+        ],
+        [
+          "。",
+          "punctuation"
+        ]
+      ],
+      "notes": "Reviewed all five occurrences; あの is the prenominal demonstrative, 人 has the contextual ひと reading, and 私 is the lexical pronoun within 私の友達. Function/blank exclusions complete the prompt without providing the assessed connector."
+    }
+  ]
+}

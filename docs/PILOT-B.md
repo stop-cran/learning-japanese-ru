@@ -23,8 +23,11 @@ All 8,279 exported file bodies in the immutable public ZIP equal the tested pref
 This does not claim that GitHub Actions ran or that the local main refs had already moved.
 Unrelated authoring worktrees, caches and JSON files were preserved.
 
-The exact pre-authoring objects, Japanese IDs, media hashes, instruction inventory and
+The initial pre-authoring objects, Japanese IDs, media hashes, instruction inventory and
 planned omissions are frozen in [pilot-b-sources.json](pilot-b-sources.json).
+The actual validator exposed ten required exclusion references missing from that plan.
+Their finite directed closure is frozen separately in [pilot-b-closure.json](pilot-b-closure.json)
+before authoring the additional 18 word articles; it does not overwrite the initial freeze.
 Existing Pilot A content is reused unchanged; it is not silently relabelled as translated
 from the new EN snapshot. Its own per-object provenance remains authoritative.
 
@@ -39,10 +42,13 @@ from the new EN snapshot. Its own per-object provenance remains authoritative.
 | Counters v2 | Complete `counters/native.json`, including its one expression | Preserve `十`/`10`, `とお`, Japanese unit and stable IDs; translate cue, title and explanation. |
 | Counter article | `articles/numbers-and-counters.md` | Scoped Russian companion for this adopted つ series, whole-expression writing/reading and distinction between alternative units and readings. The source's wider time/date/N4 syllabus is not claimed translated. |
 | Word pictures | Complete `words/きらきら.md`, `words/にこにこ.md` and corresponding `scenes/*.json` | Retain Japanese examples, dictionary identity, levels/absence of a level, tags and direct quiz exclusions. All comparative explanations remain Russian; unadopted related pages are not unresolved clickable prerequisites. |
+| Required word closure | The 18 additional articles enumerated in `pilot-b-closure.json`, making 20 new word articles in total | Preserve every source direct exclusion/distractor reference. These are required negative-edge dependencies, not quota-filling pages or inferred transitive exclusions. Optional pictures/scene catalogs of these dependencies are not adopted. |
 | Existing pictures | `images/きらきら.webp`, `images/きらきら--sparkling-interested-eyes.webp`, `images/にこにこ.webp` | Reuse exact three source binaries with attribution. Retain the source's two quiz-eligible scenes and its explicitly non-eligible sparkling-eyes scene. Inspect actual files, not just descriptions. No new generation. |
 
-This adds 12 runtime files to Pilot A's 51: one grammar JSON, two counter JSONs,
-two word articles, two companion articles, two scene JSONs and three existing images.
+The corrected scope adds 30 runtime files to Pilot A's 51: one grammar JSON, two counter JSONs,
+20 word articles, two companion articles, two scene JSONs and three existing images.
+The initial 12-file candidate was rejected by the real validator; its failed output is retained.
+The additional word set follows required references only and leaves the image/media cohort unchanged.
 File counts describe packaging, not learning depth. The actual choice pools, semantic exclusions,
 accessibility and operation coverage still need checking.
 
@@ -106,12 +112,45 @@ No missing family counts green, and no English fallback substitutes for it.
 the complete plan/inventory, all three actual images, dependency closure and approval boundaries.
 Its sole minor finding was the legacy `電話` optional article link; the disposition above
 and in the frozen-source inventory resolves it without importing an unselected word article.
-The report did not review authored Russian or perform native tests. Actual picture availability
-must use a legitimately available stack: these words are not N5, and two words do not expose
-the four-word thematic stack. Record the real lab's unlock/stack state; do not change levels
-or weaken gates. A legitimate two-candidate picture pool has two options, not a fabricated four.
+The report did not review authored Russian or perform native tests. Its source-closure conclusion
+was superseded by the actual validator failure above: reading metadata had not proven that all
+negative-edge references resolved in the candidate. The bounded closure amendment was independently
+accepted before those dependencies were authored. As a consequence, the corrected source cohort also
+meets the existing four-word thematic-stack rule; this was not the reason for expanding it.
+Record the actual stack, gates and option counts; do not relabel levels or weaken gates.
+A legitimate two-candidate picture pool has two options, not a fabricated four.
 
-Current status: **B0 accepted with that correction; B1–B4 not yet passed.**
+The independent amendment review verified the exact 20-word closure, all 43 source direct
+exclusion edges, all 18 additional immutable source objects and all 18 proposed localized app tags.
+It accepted the amendment with no blocking findings; authored text and implementation still
+require separate review. The sync-mode first reviewer could not accept follow-up messages, so
+this narrower amendment used one fresh background reviewer rather than pretending continuity.
+
+**B1 and bounded content review completed:** the independent reviewer read all 29 new learner-facing
+text files, the full selected source counterparts and all three actual 512 px pictures. The one minor
+finding was misleading “Краткое” before とお in the counter companion; only that adjective was removed,
+and focused recheck accepted the correction. All four grammar-vocabulary proposals / 15 spans were
+explicitly approved, recorded with the actual reviewer and applied using the existing tool.
+Its grammar rewrite was verified semantically identical; the changed raw hash is formatting, not
+an unreviewed replacement. The renderer-only app change and separate three real-archive tests also
+received bounded acceptance. [pilot-b-review.json](pilot-b-review.json) records per-object hashes,
+actual report identities, the resolved finding and nonclaims.
+
+The corrected runtime version is `24362f736bc17328`, not the original review snapshot's
+`6f879eef5e83e952`. Actual checks pass: validator 0 errors, vocabulary 4/4 complete, 109 Python
+tests, reproducible manifest and the 88-file / 97-entry export budget. All 39 baseline text bodies
+remain unchanged after normalization; all 12 strokes and three reused pictures match raw bytes.
+The three working-archive domain cases passed before F1; that receipt is retained, not relabelled
+as final-public-archive execution.
+
+The app's old/new hint tests pass 2/0/0/0, Android lint and signed release succeed. Detekt still
+fails only on unchanged `ComposeUiTest.kt:81`/`:345`; no global green claim. The new APK is
+`af1d22014b0d278cc81bba7cb16e099de9900344edb851458a091b31005ec214`, 51,548,294 bytes,
+signer `c059f19f7f7eef8f984618632b525f3cf7479afd834984dda169910640b4ad1f`.
+It was built from app `30b0719` plus the frozen reviewed localization patch, before publication.
+
+Current status: **B0/B1 and corrected content review accepted; B2 public-archive execution,
+B3 actual wider-content integration and B4 final persistence still pending.**
 The two audio families are **BLOCKED for runtime publication** pending fresh package authority;
 their complete Russian text and source reuse plan remain part of the implementation/review scope.
 C7, ordinary RU defaults, physical-phone acceptance and whole-corpus synchronization remain separate.
