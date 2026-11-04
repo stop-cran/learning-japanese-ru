@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 1,
+  "batch": "002-people-family",
+  "state": "frozen-before-authoring",
+  "baseline": "4ec3eaedcc27e66455deb8442d0de269f6ac22a0",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "kanji": [
+    "休",
+    "女",
+    "男"
+  ],
+  "words": [
+    "男女",
+    "女",
+    "男",
+    "女性",
+    "男性",
+    "女の子",
+    "男の子",
+    "女の人",
+    "男の人",
+    "お母さん",
+    "お父さん",
+    "兄",
+    "姉",
+    "弟",
+    "妹",
+    "お兄さん",
+    "お姉さん",
+    "家族",
+    "両親",
+    "親",
+    "休む",
+    "女子",
+    "婦人"
+  ],
+  "requiredClosure": {
+    "kanjiDistractors": {
+      "休": [
+        "木",
+        "人"
+      ],
+      "女": [
+        "男",
+        "休"
+      ],
+      "男": [
+        "女",
+        "人"
+      ]
+    },
+    "baselineReuses": [
+      "kanji/木.md",
+      "kanji/人.md",
+      "words/休日.md"
+    ],
+    "wordAmendmentsBeforeFreeze": [
+      "女子",
+      "婦人"
+    ],
+    "wordAmendmentReason": "女の人's direct exclusions require 女子 and 婦人. Recursively checked all source quiz_exclusions/quiz_distractors before this freeze; closure has exactly 23 words.",
+    "requiredLinkedReadingExamples": [
+      "休む",
+      "休日",
+      "男女"
+    ],
+    "assets": [
+      "strokes/休.json",
+      "strokes/女.json",
+      "strokes/男.json"
+    ],
+    "assetPolicy": "Copy exact frozen Git blobs, raw-byte identity; retain KanjiVG attribution and CC BY-SA 3.0 already present in NOTICE.md.",
+    "sourceDirectEdges": [
+      {
+        "from": "words/女の人.md",
+        "field": "quiz_exclusions",
+        "to": "words/女.md"
+      },
+      {
+        "from": "words/女の人.md",
+        "field": "quiz_exclusions",
+        "to": "words/女性.md"
+      },
+      {
+        "from": "words/女の人.md",
+        "field": "quiz_exclusions",
+        "to": "words/婦人.md"
+      },
+      {
+        "from": "words/女の人.md",
+        "field": "quiz_exclusions",
+        "to": "words/女子.md"
+      },
+      {
+        "from": "words/女の人.md",
+        "field": "quiz_exclusions",
+        "to": "words/女の子.md"
+      },
+      {
+        "from": "words/男の人.md",
+        "field": "quiz_exclusions",
+        "to": "words/男.md"
+      },
+      {
+        "from": "words/男の人.md",
+        "field": "quiz_exclusions",
+        "to": "words/男性.md"
+      },
+      {
+        "from": "words/兄.md",
+        "field": "quiz_exclusions",
+        "to": "words/お兄さん.md"
+      },
+      {
+        "from": "words/姉.md",
+        "field": "quiz_exclusions",
+        "to": "words/お姉さん.md"
+      },
+      {
+        "from": "words/両親.md",
+        "field": "quiz_exclusions",
+        "to": "words/親.md"
+      },
+      {
+        "from": "words/女子.md",
+        "field": "quiz_exclusions",
+        "to": "words/女の子.md"
+      },
+      {
+        "from": "words/女子.md",
+        "field": "quiz_exclusions",
+        "to": "words/女性.md"
+      },
+      {
+        "from": "words/女子.md",
+        "field": "quiz_exclusions",
+        "to": "words/女.md"
+      },
+      {
+        "from": "words/婦人.md",
+        "field": "quiz_exclusions",
+        "to": "words/女性.md"
+      },
+      {
+        "from": "words/婦人.md",
+        "field": "quiz_exclusions",
+        "to": "words/女.md"
+      }
+    ]
+  },
+  "optionalNavigation": "Preserve substantive definitions/comparisons and all Japanese text; links to unadopted kanji/words may become plain labels, never English placeholder cards. In particular 子, 性, parents/sibling kanji, 大小, 長短, 男子 and 夫人 are navigation rather than prerequisites. Keep all written kanji in word metadata.",
+  "reviewFocus": [
+    "26 complete learner texts: all Japanese forms, examples, rare readings, kanji composition, historical qualifications and Russian answer meanings.",
+    "Family reference versus direct address; relative sibling age rather than absolute age; no universal politeness ranking.",
+    "Source 女 incorrectly groups 母 under key 女 although frozen 母 metadata specifies 毋/80. Preserve graphic relation but distinguish component/family from dictionary key.",
+    "Scope the fixed 男女 order claim to this lexical compound, not a universal ban on other written expressions.",
+    "Verify qualified くノ一 history as memory aid/pop culture, not proof of ninja history; preserve all source qualifications.",
+    "Check ordinary person/child/relative senses against the combined Russian pool; only individually justified direct exclusions."
+  ],
+  "releaseSeparation": "No media generation, package authority, runtime activation, pilot-ref movement, device/IME/playback tests.",
+  "reviewStatus": "pending",
+  "scope": [
+    "kanji/休.md",
+    "kanji/女.md",
+    "kanji/男.md",
+    "words/男女.md",
+    "words/女.md",
+    "words/男.md",
+    "words/女性.md",
+    "words/男性.md",
+    "words/女の子.md",
+    "words/男の子.md",
+    "words/女の人.md",
+    "words/男の人.md",
+    "words/お母さん.md",
+    "words/お父さん.md",
+    "words/兄.md",
+    "words/姉.md",
+    "words/弟.md",
+    "words/妹.md",
+    "words/お兄さん.md",
+    "words/お姉さん.md",
+    "words/家族.md",
+    "words/両親.md",
+    "words/親.md",
+    "words/休む.md",
+    "words/女子.md",
+    "words/婦人.md",
+    "strokes/休.json",
+    "strokes/女.json",
+    "strokes/男.json"
+  ],
+  "sourceFiles": [
+    {
+      "path": "kanji/休.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "0ce1049346791f1e747597ef7198268fd298d716ea54b5ea1da006f5f4886cb7",
+      "sourceSha256": "e6c3ffb5fa702ea2de852e572c445746402ea6965dcca0c90daf0d9df4c593d5"
+    },
+    {
+      "path": "kanji/女.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "9ad70263b6076b8f16486448d77c9b2dbe53163e43667e0cb38675ef689e6472",
+      "sourceSha256": "450bf6f09deb256a7685efdb50b8c47a5855e8f9657f856a295a92d387a4be44"
+    },
+    {
+      "path": "kanji/男.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "30b7bef0a314d081b4bd640887eee07933bbb71f4b7d739b5ddaef7eb0703edc",
+      "sourceSha256": "964895c739f4d61b0a26039d38b8ff5ce594f1e82b2081e36d99a3ab1c417dd3"
+    },
+    {
+      "path": "words/男女.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "791818437dc1f6b7fd812bda00de2cef92330948da3e357eda530ee96c382154",
+      "sourceSha256": "077ab31c2414e69a66e130fe8c3918ef048461ba578f7c2b36bb3e3375dd4558"
+    },
+    {
+      "path": "words/女.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "e771a2fa452fec0aca3bd7ca1bf57562ce7d7eb2dee0d866fafdcf79c5bf88f7",
+      "sourceSha256": "e771a2fa452fec0aca3bd7ca1bf57562ce7d7eb2dee0d866fafdcf79c5bf88f7"
+    },
+    {
+      "path": "words/男.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "951c6510bd0fe12c6f67381f9919975d2e85af200dcdb4cf0471e6762ed4d059",
+      "sourceSha256": "951c6510bd0fe12c6f67381f9919975d2e85af200dcdb4cf0471e6762ed4d059"
+    },
+    {
+      "path": "words/女性.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "73539e962d151c682f1ad4f063ee1b4497bbecf3641d15c18b9296e972a69ce6",
+      "sourceSha256": "73539e962d151c682f1ad4f063ee1b4497bbecf3641d15c18b9296e972a69ce6"
+    },
+    {
+      "path": "words/男性.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "e0459326b5e2f275b5c23e54aa4a41fbe4915259975431a3f1139aecb890c665",
+      "sourceSha256": "e0459326b5e2f275b5c23e54aa4a41fbe4915259975431a3f1139aecb890c665"
+    },
+    {
+      "path": "words/女の子.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "8517f34633a073d4beabb24b6606782027c9d18abc99db682dad3b1fb82535db",
+      "sourceSha256": "8517f34633a073d4beabb24b6606782027c9d18abc99db682dad3b1fb82535db"
+    },
+    {
+      "path": "words/男の子.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "756b027065b562190c924457cdeda11a41601a0a9ead2964a63a8e3a8642be84",
+      "sourceSha256": "756b027065b562190c924457cdeda11a41601a0a9ead2964a63a8e3a8642be84"
+    },
+    {
+      "path": "words/女の人.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "06a871d90e735cd835269aa5208125b11d37c2c620efec4a864aedf970165831",
+      "sourceSha256": "06a871d90e735cd835269aa5208125b11d37c2c620efec4a864aedf970165831"
+    },
+    {
+      "path": "words/男の人.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "a008d5dace29b4e1eb5251cb6ad1f82292da607dcc65bd5b59e55f1ff779ed2b",
+      "sourceSha256": "a008d5dace29b4e1eb5251cb6ad1f82292da607dcc65bd5b59e55f1ff779ed2b"
+    },
+    {
+      "path": "words/お母さん.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "520e333cc66a5ca7fabf582a5d4c8d46e7dfb1519c4b58d09460d598c258412f",
+      "sourceSha256": "19ad3b44cdd8968ef2dc2fbc16790eeabdaf873fa4921fda4f0c406b1e38abce"
+    },
+    {
+      "path": "words/お父さん.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "13bc3dd6c0d5b43c3304c7917129dc6d57c77d82a0226dfc0d22754cd440fa3f",
+      "sourceSha256": "d25bb5e0d6817c74cce3e7b3b96062e16d856d801eb50f9ee1547b147331b6b8"
+    },
+    {
+      "path": "words/兄.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "3896307b083759fad9af80c12b152562747834ad1e6eef34d2d78a971d080bdb",
+      "sourceSha256": "3896307b083759fad9af80c12b152562747834ad1e6eef34d2d78a971d080bdb"
+    },
+    {
+      "path": "words/姉.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "e1cece8ebe37c52e2d02bae690f64f43a96c6fc31745b3b2489cc5c261ec2aec",
+      "sourceSha256": "e1cece8ebe37c52e2d02bae690f64f43a96c6fc31745b3b2489cc5c261ec2aec"
+    },
+    {
+      "path": "words/弟.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "61985ddc841962562f42a050aaa8533da69ddd4708794d251a3b272ce8661b9f",
+      "sourceSha256": "61985ddc841962562f42a050aaa8533da69ddd4708794d251a3b272ce8661b9f"
+    },
+    {
+      "path": "words/妹.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "b7a86c3b4ae99796d58afbd4e0131c0cdf76ec61d0e885e08b2a095beaad1e2a",
+      "sourceSha256": "b7a86c3b4ae99796d58afbd4e0131c0cdf76ec61d0e885e08b2a095beaad1e2a"
+    },
+    {
+      "path": "words/お兄さん.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "c532798fb198078005b86d6a60da8822530cf708ee343f8fe6b53fdf6959571f",
+      "sourceSha256": "c532798fb198078005b86d6a60da8822530cf708ee343f8fe6b53fdf6959571f"
+    },
+    {
+      "path": "words/お姉さん.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "cb3667bf1361bd2820e258ec751cfffd7755aba318921300250c637b445f26d4",
+      "sourceSha256": "cb3667bf1361bd2820e258ec751cfffd7755aba318921300250c637b445f26d4"
+    },
+    {
+      "path": "words/家族.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "ae1a246a785e8cbd1bec7ae36ae2a4c2decf25a4eef0bc2840be83e9f6d24633",
+      "sourceSha256": "ae1a246a785e8cbd1bec7ae36ae2a4c2decf25a4eef0bc2840be83e9f6d24633"
+    },
+    {
+      "path": "words/両親.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "fcc9713507d523f276ffd4cebc52700722a35baa548bdde068e6f7ac536a016c",
+      "sourceSha256": "fcc9713507d523f276ffd4cebc52700722a35baa548bdde068e6f7ac536a016c"
+    },
+    {
+      "path": "words/親.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "1f14bfd415a635ef50c7fada6fc52f4478e4383721f31ac96e3feba2bdb33737",
+      "sourceSha256": "1f14bfd415a635ef50c7fada6fc52f4478e4383721f31ac96e3feba2bdb33737"
+    },
+    {
+      "path": "words/休む.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "4d000703312ab57650ce72cddc27909d42be3867c5ffc7242a4acf589c28cd0c",
+      "sourceSha256": "3b548f174f13b3890be2e52dff154747ebcbd5272c4730a9c0971713dd699d7f"
+    },
+    {
+      "path": "words/女子.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "0bdcc6840c62e77a1c7a195d2fbd425cca9a66bdf888b9339626616be61d4818",
+      "sourceSha256": "0bdcc6840c62e77a1c7a195d2fbd425cca9a66bdf888b9339626616be61d4818"
+    },
+    {
+      "path": "words/婦人.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "f69a54fcb138ffe1de99e50ec7144c441eb54b8fe88f3a447837aa81fd33ff2e",
+      "sourceSha256": "f69a54fcb138ffe1de99e50ec7144c441eb54b8fe88f3a447837aa81fd33ff2e"
+    },
+    {
+      "path": "strokes/休.json",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "c53ac0f05eb76a6e7fd8c5f5fb6274c66e7b9a4a4e8bba5a3024c27d573d2dba",
+      "sourceSha256": "023feda30198fbaf1ee6a5a30ebbf60c457b4e4f1de77db7196798170fdff8c2"
+    },
+    {
+      "path": "strokes/女.json",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "ab9de84c710f25a800db1030815acf034edbf7c7d886ebc79cb44c135cc92b3a",
+      "sourceSha256": "16f5848bd0f3a96826c297836852d214cf2346f45fe57d303c39da3a959e91a8"
+    },
+    {
+      "path": "strokes/男.json",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "4c5c7d2f3ac90e60cfc02ec2ed8bfb0096928daadd89fc961624c78c2893be85",
+      "sourceSha256": "557a05fea40ed4d544d37ad13fbe3b509977b503439be6e5782c47c0e3e13a79"
+    }
+  ]
+}
