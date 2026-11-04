@@ -340,8 +340,8 @@ corrected records, resolved the finding and verified all23 learner files raw/LF-
 [Actual full and narrow review scopes](translation-batches/009-clothing-accessories-review.json)
 are distinct; no second whole-batch linguistic reread or native certification is claimed.
 
-Current membership is **250 runtime objects**:18 kanji,204 words,18 strokes and unchanged
-other families. Statuses are **249 reviewed-current**, **one partial** (`counters/tsu.json`),
+After batch009, membership was **250 runtime objects**:18 kanji,204 words,18 strokes and unchanged
+other families. Statuses were **249 reviewed-current**, **one partial** (`counters/tsu.json`),
 **two reviewed runtime-blocked drafts** and **8,026 pending**; **8,028 runtime paths remain absent**.
 All227 earlier tracking records are unchanged; fresh strict progress preserves null checkpoint authority.
 
@@ -350,3 +350,38 @@ The pinned renderer follow-up additionally records `clothing`, `sports`, `everyd
 Canonical IDs are preserved and the concurrent app remains untouched; no current phone rendering,
 native option-pool, media, activation or release acceptance follows from source review.
 Continue the remaining finite frozen target; no device gate or pilot/controlled ref has moved.
+
+Batch **010 — home and furniture** completes25 full word articles:24 source-N5 words
+and the mandatory direct N4 会話 dependency. One independent read-only reviewer actually read
+all25 complete Russian/frozen-English pairs, the complete frozen マンション comparison,
+all32 complete dictionary queries/32 entries/82 sense records/58 forms and every one
+of229 actual answer-label/metadata records. Nine relevant baseline bodies were read in full;
+other baseline objects received fingerprint/metadata checks, not whole linguistic rereview.
+The24 Wikipedia records are capture provenance, not lexical proof.
+All three facets returned CLEAN, with no established consequential defect or optional polish.
+[Exact actual scope, fingerprints and limits](translation-batches/010-home-furniture-review.json)
+record100 candidate RAW/LF comparisons,50 frozen-source comparisons and all275 manifest hashes.
+
+The seven direct Russian guards are individually justified. In particular, shared «кухня»
+in 台所/料理 would be an ambiguous answer label even though the bodies distinguish a cooking
+room from a culinary tradition; only the new 台所 card adds that guard and clarification.
+No housing/furniture/category or transitive clique was introduced. Separate fully read
+電力/汽車 evidence supports conservative electrical-power terminology and qualified
+dated/rural train senses; neither auxiliary article was adopted.
+A mistakenly retained provisional sentence in the signed freeze receipt is explicitly corrected
+by the new adjudication; its original historical bytes are preserved. Active guidance now
+requires checking stage claims before final freeze and explicit correction of immutable errors.
+
+Current membership is **275 runtime objects**:18 kanji,229 words,18 strokes and unchanged
+other families. Fresh strict8278-entry progress has **274 reviewed-current**, **one partial**
+(`counters/tsu.json`), **two reviewed runtime-blocked drafts** and **8,001 pending**;
+**8,003 runtime paths remain absent**. All250 earlier tracking records and their non-record
+sections are preserved. Checkpoint authority remains null and checkpointReady false.
+
+Actual serialized checks:0 validator errors,124 tests passed in28.009s, final budget
+282files/291entries/880178retained/893595inflated/476833localZIP bytes after manifest generation.
+Version is `08b6d0fe34307bea`. The pinned external app follow-up covers17 canonical IDs,
+29 occurrences across24 new cards; some IDs already existed. IDs and concurrent app checkout
+remain untouched. Source review is not native, rendering, phone, package/media, ordinary activation
+or release acceptance. All four frozen pilot/controlled refs remain separately fixed.
+Continue the remaining finite frozen corpus; no independent safe authoring lane is blocked.

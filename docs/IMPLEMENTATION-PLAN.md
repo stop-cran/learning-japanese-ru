@@ -8,13 +8,26 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-The ninth full-target source batch completes23 full N5 clothing/accessory word articles.
+The tenth full-target source batch completes25 full home/furniture word articles:
+24N5 plus the mandatory N4 会話 dependency. [Batch010](translation-batches/010-home-furniture-review.json)
+records actual independent reading of all25 complete RU/EN pairs,32 complete dictionary
+queries,229 actual answer labels and nine relevant complete baseline bodies; all three
+facets CLEAN, no findings. Seven direct Russian ambiguity guards include the room/cuisine
+polysemy of «кухня», without a housing/furniture/transitive clique. A stale provisional
+sentence in the immutable freeze receipt is explicitly corrected, not rewritten.
+Membership is275; statuses are274 reviewed-current, one partial counter, two reviewed
+runtime-blocked drafts and8,001 pending. All250 earlier tracking records are unchanged.
+Pinned app-hint follow-up covers17 IDs/29occurrences/24cards, not all newly introduced.
+No native/rendering/device/media/activation/checkpoint or frozen-ref approval is implied.
+Continuous authoring proceeds against the same frozen full target.
+
+The ninth full-target source batch completed23 full N5 clothing/accessory word articles.
 [Batch009](translation-batches/009-clothing-accessories-review.json) records whole23-pair reading,
 all27 dictionary queries and204 actual answer labels, with four individually justified direct
 exclusion pairs. A real low-severity provenance overstatement was corrected and independently
 rechecked; all23 learner files and all prior runtime objects stayed unchanged through closure.
-Membership is250; statuses are249 reviewed-current, one partial counter, two reviewed
-runtime-blocked drafts and8,026 pending. Source authoring continues.
+Membership became250; statuses were249 reviewed-current, one partial counter, two reviewed
+runtime-blocked drafts and8,026 pending. Source authoring continued.
 The exact pinned app-hint gaps additionally cover seven IDs/25occurrences in23 new cards;
 canonical IDs and concurrent app remain untouched. No native option-pool, device/media,
 activation, checkpoint or frozen pilot/controlled ref approval is implied.
