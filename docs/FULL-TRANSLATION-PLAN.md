@@ -372,8 +372,8 @@ A mistakenly retained provisional sentence in the signed freeze receipt is expli
 by the new adjudication; its original historical bytes are preserved. Active guidance now
 requires checking stage claims before final freeze and explicit correction of immutable errors.
 
-Current membership is **275 runtime objects**:18 kanji,229 words,18 strokes and unchanged
-other families. Fresh strict8278-entry progress has **274 reviewed-current**, **one partial**
+After batch010, membership was **275 runtime objects**:18 kanji,229 words,18 strokes and unchanged
+other families. Fresh strict8278-entry progress had **274 reviewed-current**, **one partial**
 (`counters/tsu.json`), **two reviewed runtime-blocked drafts** and **8,001 pending**;
 **8,003 runtime paths remain absent**. All250 earlier tracking records and their non-record
 sections are preserved. Checkpoint authority remains null and checkpointReady false.
@@ -385,3 +385,37 @@ Version is `08b6d0fe34307bea`. The pinned external app follow-up covers17 canoni
 remain untouched. Source review is not native, rendering, phone, package/media, ordinary activation
 or release acceptance. All four frozen pilot/controlled refs remain separately fixed.
 Continue the remaining finite frozen corpus; no independent safe authoring lane is blocked.
+
+Batch **011 — stationery and personal objects** completes21 full source-N5 word articles.
+One independent read-only reviewer actually read every complete Russian/frozen-English pair:
+699 English lines and848 Russian lines. All23 complete queries/24entries/57sense records/36forms,
+all250 actual answer-label/metadata records and four complete baseline EN/RU pairs were read.
+The19 Wikipedia records and the independent same-reading ＰＥＮ organization entry were not
+used as ordinary stationery lexical evidence. The complete GogenYurai origin article was freshly
+read; 鞄 remains qualified as uncertain borrowing, not inferred native history from its kanji.
+All three facets returned CLEAN, no consequential finding or optional polish.
+[Exact actual review and limits](translation-batches/011-stationery-personal-objects-review.json)
+distinguish the full assigned scope from the other229 baseline bodies, which were not freshly
+linguistically rereviewed. The reviewer did not verify signature authenticity or rerun author tests.
+
+Three direct Russian guards are individually justified: ペン/ボールペン, ペン/万年筆,
+and 新聞/雑誌. The last protects broad «периодическое издание» in the displayed Russian label;
+it does not assert Japanese interchangeability. No inferred ボールペン/万年筆 edge,
+publication/category clique or transitive closure was added. All source teaching survives27
+optional-link flattenings; 紙→新聞 remains. カメラ retains its legitimate three-section structure.
+Selected fountain-pen reading does not deny captured variants; the paper homophone comparison
+does not invent pitch data, and photographic spelling/mnemonics do not guarantee image truth.
+
+Current membership is **296 runtime objects**:18 kanji,250 words,18 strokes and unchanged
+other families. Fresh strict8278-entry progress has **295 reviewed-current**, **one partial**
+(`counters/tsu.json`), **two reviewed runtime-blocked drafts** and **7,980 pending**;
+**7,982 runtime paths remain absent**. All275 previous tracking records/non-record sections
+and canonical runtime Git blobs are unchanged. Checkpoint authority remains null and
+checkpointReady false. This is not completion of the full corpus.
+
+Actual serialized checks:0 validator errors,124 tests passed in30.629s, final budget
+303files/312entries/927602retained/941019inflated/502457localZIP bytes after manifest generation.
+Version is `5a0e500cfdbc372d`. Pinned app follow-up covers17 canonical IDs/22occurrences/19cards,
+not all newly introduced. Canonical IDs, concurrent app checkout and all frozen pilot/controlled
+refs remain untouched. No ordinary activation, native/rendering/phone, package/media or release
+approval follows. Continue the next safe source batch against the same finite frozen target.

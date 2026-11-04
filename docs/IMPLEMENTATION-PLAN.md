@@ -8,14 +8,26 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-The tenth full-target source batch completes25 full home/furniture word articles:
+The eleventh full-target source batch completes21 full N5 stationery/personal-object articles.
+[Batch011](translation-batches/011-stationery-personal-objects-review.json) records actual
+whole21-pair reading (699EN/848RUlines), all23 queries/24entries/57senses/36forms,
+250 actual answer labels and four complete baseline EN/RU pairs. All three facets CLEAN,
+no findings or optional polish. Three direct guards cover generic/specific pens and the
+Russian periodical label, not a writing-tool/publication clique.
+Membership is296; statuses are295 reviewed-current, one partial counter, two reviewed
+runtime-blocked drafts and7,980 pending. All275 earlier tracking records are unchanged.
+Pinned app-hint follow-up covers17 IDs/22occurrences/19cards, not all newly introduced.
+No native/rendering/device/media/activation/checkpoint or frozen-ref approval is implied.
+Continuous full-frozen-target authoring proceeds.
+
+The tenth full-target source batch completed25 full home/furniture word articles:
 24N5 plus the mandatory N4 会話 dependency. [Batch010](translation-batches/010-home-furniture-review.json)
 records actual independent reading of all25 complete RU/EN pairs,32 complete dictionary
 queries,229 actual answer labels and nine relevant complete baseline bodies; all three
 facets CLEAN, no findings. Seven direct Russian ambiguity guards include the room/cuisine
 polysemy of «кухня», without a housing/furniture/transitive clique. A stale provisional
 sentence in the immutable freeze receipt is explicitly corrected, not rewritten.
-Membership is275; statuses are274 reviewed-current, one partial counter, two reviewed
+Membership became275; statuses were274 reviewed-current, one partial counter, two reviewed
 runtime-blocked drafts and8,001 pending. All250 earlier tracking records are unchanged.
 Pinned app-hint follow-up covers17 IDs/29occurrences/24cards, not all newly introduced.
 No native/rendering/device/media/activation/checkpoint or frozen-ref approval is implied.
