@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "batch": "006-listing-examples",
+  "state": "ready-for-independent-read-only-review-not-accepted",
+  "baseline": "372a4d3bf2237b75f43e00b688975a6a710d34d0",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "scopeFreezeCommit": "c0faea4e5103a4d5807de42ee6cc55c936ffd060",
+  "learnerTexts": 1,
+  "runtimeObjectsChanged": 1,
+  "newRuntimeObjects": 0,
+  "records": [
+    {
+      "path": "articles/japanese-listing-and-examples.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "c9afb64d9f341b6b9d854666140de57cbb554495217f67e707ab6ee9065c9bff",
+      "sourceSha256": "ea22f52d520983f12ba0df2872e84cf02c79d30294c6d986e890835bff1727f6",
+      "ruRawSha256": "90eee344afe26d7175913c18d178413cdd09a58e289ff16cf6a033bad60af2c4",
+      "ruSha256": "90eee344afe26d7175913c18d178413cdd09a58e289ff16cf6a033bad60af2c4",
+      "coverage": "complete"
+    }
+  ],
+  "actualTextMetrics": {
+    "sourceBlobBytes": 26145,
+    "sourceLines": 469,
+    "baselineRussianBytes": 4523,
+    "baselineRussianLines": 57,
+    "candidateRussianWorkingBytes": 45421,
+    "candidateRussianLines": 536
+  },
+  "priorApprovedSupplement": {
+    "source": "372a4d3bf2237b75f43e00b688975a6a710d34d0:articles/japanese-listing-and-examples.md",
+    "preservedJapaneseExamples": [
+      "朝ご飯を食べて、学校に行きます。",
+      "駅まで歩いて、電車に乗りました。",
+      "姉は医者で、兄は教師です。",
+      "あの人は学生で、私の友達です。"
+    ],
+    "preserved": "Complete four-example explanations, godan/ichidanて/で, temporal/context qualifications, object/subject roles and exact input guidance. Old section labels retained as lower-level headings; only deictic scope adjusted to indicate current supplemental section rather than deny broader article coverage.",
+    "limits": "Source current whole article remains intro/comparison; other linked article units and their exercises not adopted by this change."
+  },
+  "grammarPreservation": {
+    "path": "grammar/n5-foundation-connections.json",
+    "baselineGitBlobRawSha256": "c4a9597cfc656ec192f6989d07df3b573ce8b6b1e995e5b46d78fdd3da540802",
+    "workingRawSha256": "c4a9597cfc656ec192f6989d07df3b573ce8b6b1e995e5b46d78fdd3da540802",
+    "normalizedEquality": true,
+    "contextsIdsAndVocabularyReviewsUnchanged": true
+  },
+  "sourceCoverageAid": "All frozen Japanese unique runs and all previous RU Japanese unique runs mechanically retained. Not semantic equivalence proof; reviewer must read whole source/baseline/new article.",
+  "adaptations": [
+    "Translate every source section/table/example/reading/negation scope/qualification and source citation into self-contained Russian. Remove only unavailable optional internal navigation; keep grammar distinctions and comparative scope limits.",
+    "Retain all prior reviewed beginner supplementary content; no destructive overwrite of earlier Russian corrections. No new grammar context or exercise owner/IDs, no transferred EN vocabulary review.",
+    "English and/or/etc/final analogies replaced by corresponding Russian explanation without changing Japanese rule. Contextual Russian wording does not establish one-to-one particle/case/aspect equivalence.",
+    "Source present/future surface forms within nominalization/たり do not mechanically impose future/past; negating finalする differs from negativeたりitem. Single example/reason legal; no exhaustive/only or universal extra-reason inference.",
+    "Source source/recognition map and current four-exercise supplement separated; no false claim that all source grammar exercises are present in RU."
+  ],
+  "manifest": {
+    "beforeObjects": 200,
+    "afterObjects": 200,
+    "newObjects": 0,
+    "onlyChangedRuntimePath": "articles/japanese-listing-and-examples.md",
+    "other199EntriesUnchanged": true,
+    "contentVersion": "f69e932112098e53"
+  },
+  "validation": {
+    "validator": {
+      "command": "python tools\\validate.py",
+      "exitCode": 0,
+      "seconds": 2.64,
+      "output": "0 error(s)\r\n"
+    },
+    "unittest": {
+      "command": "python -m unittest discover -s tools -p test_*.py",
+      "exitCode": 0,
+      "seconds": 58.911,
+      "output": "............................................................................................................................\r\n----------------------------------------------------------------------\r\nRan 124 tests in 57.885s\r\n\r\nOK\r\n"
+    },
+    "manifest": {
+      "command": "python tools\\build_manifest.py",
+      "exitCode": 0,
+      "seconds": 0.193,
+      "output": "manifest.json: 200 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version f69e932112098e53\r\n"
+    },
+    "budget": {
+      "command": "python tools\\check_content_budget.py",
+      "exitCode": 0,
+      "seconds": 0.326,
+      "output": "{'files': 207, 'entries': 216, 'retainedBytes': 620433, 'inflatedBytes': 633850, 'localZipBytes': 358788, 'listeningTaskMediaBytes': 0}\r\n"
+    }
+  },
+  "validationTiming": "Manifest generated before final budget; budget belongs to actual generated200-object tree, not prior manifest snapshot.",
+  "reviewEvidence": "Pending actual independent full-article review, including prior supplement; no self-approval.",
+  "limits": [
+    "Live normative source reading/limitations are honestly recorded in immutable scope. Other cited sites not all freshly re-fetched.",
+    "No word/kanji titles or actual word answer pool changes, no new exclusion pairs; no bitmap/audio adopted.",
+    "Tracking/progress still source200/197reviewed/3partial until actual review/adjudication updates only this article current record.",
+    "No release/media/device/checkpoint authority, pilot refs or concurrent app/ordinary EN changes."
+  ]
+}
