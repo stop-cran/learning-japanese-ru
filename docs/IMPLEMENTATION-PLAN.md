@@ -8,13 +8,33 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-The eleventh full-target source batch completes21 full N5 stationery/personal-object articles.
+The twelfth full-target source batch completes the full ten-file N5 schema1 counter component:
+nine new files plus completion of the partial `tsu.json`,124forward cards/20reverse fixtures/
+80live option contexts/191Russian text leaves. [Batch012](translation-batches/012-n5-counter-closure-review.json)
+preserves the initial whole review and actual findings: six wrong `回` choices admitted action
+frequency, and bare `お茶` admitted bottled `本`. Seven exact negative sites were prefrozen,
+corrected and independently adjudicated; all prompts/accepted tiers/readings/IDs/Russian leaf
+values stayed unchanged. Direct full-range evidence resolved the language/bounded-form policy,
+not Android normalization or native/editor/exhaustive-grading acceptance.
+The actual narrower adjudication read12complete current/source/initial records and four live
+reverse nouns; a generic interim result was not counted as scoped evidence.
+Current membership is305; statuses are305reviewed-current, no partial, two reviewed runtime-blocked
+drafts and7,971pending, with7,973runtime paths absent. All295other prior tracking records/runtime
+blobs and non-record sections remain unchanged; old partial-tsu receipts remain historical.
+Final serialized checks:0errors/124tests43.252s, budget312files321entries984818retained/
+998235inflated/520508localZIP bytes; version `e82c69299a2d0bbe`.
+No word-tag/app/media/frozen-ref/checkpoint authority changed. C6/C7 and historical automatic
+grading/native/device bounds still gate activation/release, not independent text authoring.
+Continue with the proposed eleven missing N5 schema2 number/time files,122expressions:
+complete source bodies read, but the next scope is not yet frozen or authored.
+
+The eleventh full-target source batch completed21 full N5 stationery/personal-object articles.
 [Batch011](translation-batches/011-stationery-personal-objects-review.json) records actual
 whole21-pair reading (699EN/848RUlines), all23 queries/24entries/57senses/36forms,
 250 actual answer labels and four complete baseline EN/RU pairs. All three facets CLEAN,
 no findings or optional polish. Three direct guards cover generic/specific pens and the
 Russian periodical label, not a writing-tool/publication clique.
-Membership is296; statuses are295 reviewed-current, one partial counter, two reviewed
+Membership became296; statuses were295 reviewed-current, one partial counter, two reviewed
 runtime-blocked drafts and7,980 pending. All275 earlier tracking records are unchanged.
 Pinned app-hint follow-up covers17 IDs/22occurrences/19cards, not all newly introduced.
 No native/rendering/device/media/activation/checkpoint or frozen-ref approval is implied.

@@ -406,8 +406,8 @@ optional-link flattenings; 紙→新聞 remains. カメラ retains its legitimat
 Selected fountain-pen reading does not deny captured variants; the paper homophone comparison
 does not invent pitch data, and photographic spelling/mnemonics do not guarantee image truth.
 
-Current membership is **296 runtime objects**:18 kanji,250 words,18 strokes and unchanged
-other families. Fresh strict8278-entry progress has **295 reviewed-current**, **one partial**
+At the batch011 milestone membership was **296 runtime objects**:18 kanji,250 words,18 strokes
+and unchanged other families. That strict8278-entry progress had **295 reviewed-current**, **one partial**
 (`counters/tsu.json`), **two reviewed runtime-blocked drafts** and **7,980 pending**;
 **7,982 runtime paths remain absent**. All275 previous tracking records/non-record sections
 and canonical runtime Git blobs are unchanged. Checkpoint authority remains null and
@@ -419,3 +419,39 @@ Version is `5a0e500cfdbc372d`. Pinned app follow-up covers17 canonical IDs/22occ
 not all newly introduced. Canonical IDs, concurrent app checkout and all frozen pilot/controlled
 refs remain untouched. No ordinary activation, native/rendering/phone, package/media or release
 approval follows. Continue the next safe source batch against the same finite frozen target.
+
+Batch **012 — N5 legacy-counter dependency closure** completes the full ten-file schema1
+component: nine new files and the two previously omitted reverse fixtures in `tsu.json`.
+This is124 forward cards,20 reverse fixtures,80 actual referenced noun contexts and191 Russian
+learner-text leaves, not124 runtime paths or completion of all N5 content.
+[Actual composite review](translation-batches/012-n5-counter-closure-review.json) preserves
+the initial whole254EN/259RU-line review and its genuine findings. Six source-derived
+wrong `回` choices allowed ordinary action-frequency meanings; bare `お茶` was also a valid
+`本` reverse answer for bottled tea. Exactly seven negative-choice sites were separately frozen,
+corrected and independently adjudicated. Original prompts, quantities, accepted tiers/readings,
+IDs and all191 Russian leaf values stayed unchanged. Active counter guidance records the lesson.
+
+The narrower evidence adjudicator read12 complete current/source/initial records, the changed
+fixture's four live nouns, actual direct usage/range evidence and relevant guidance.
+F1/F2 and the complete `五六本`→`ごろっぽん` language/bounded-answer-policy question resolved
+CLEAN. This was not a second124-pair review. A generic interim “no significant issues” result
+did not supply reading scope or resolve U1 and is not substituted for the actual adjudication.
+The historical range capture remains immutable even though the fresh haiku-page RAW changed;
+the actual target fields were checked, and original printed-book consultation is not claimed.
+
+Current membership is **305 runtime objects**, including11 counter files. Fresh strict8278-entry
+progress has **305 reviewed-current**, **no partial units**, **two reviewed runtime-blocked drafts**
+and **7,971 pending**; **7,973 runtime paths remain absent**. Only the current partial-tsu
+tracking record was replaced after real full-scope review; its Pilot B receipts remain historical.
+All295 other earlier tracking records/canonical runtime blobs and all non-record sections stay
+unchanged. Checkpoint authority remains null and checkpointReady false.
+
+Actual final serialized checks:0 validator errors,124 tests passed in43.252s; final budget
+312files/321entries/984818retained/998235inflated/520508localZIP bytes. Version is
+`e82c69299a2d0bbe`. No word labels/guards/tags, assets/media or concurrent app files changed.
+Native/editor certification, exhaustive counter alternatives, Android range/full-phrase grading
+and ordinary activation/device/media/release tests remain unperformed/separately gated; source
+acceptance does not erase those bounds or move any frozen pilot/controlled ref.
+Continue the finite frozen corpus: the next safe proposed lane is eleven missing N5 schema2
+number/time files with122 expressions, whose complete source bodies have now been read;
+that next scope is not yet frozen or authored.
