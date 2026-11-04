@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "batch": "006-listing-examples",
+  "state": "optional-reviewer-wording-adopted-awaiting-focused-recheck",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "originalReviewedCandidate": "3afa9a9eeb7a1d1cd2b8a59e222eb9598ee9f207",
+  "initialFullReview": "docs/translation-batches/006-listing-examples-initial-review.json",
+  "optionalId": "O1",
+  "exactChange": {
+    "before": "отсутствие еды — одна из чередующихся ситуаций.",
+    "after": "то, что человек не ест, — одна из чередующихся ситуаций.",
+    "occurrences": 1,
+    "allOtherArticleBytesUnchanged": true,
+    "japaneseExamplesAndClaimsUnchanged": true,
+    "punctuation": "Reviewer proposed phrase adopted with the required clause-closing comma before dash; initial mechanical comparison omitted that comma and correctly failed before tests, corrected comparison proves whole exact clause only."
+  },
+  "records": [
+    {
+      "path": "articles/japanese-listing-and-examples.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "c9afb64d9f341b6b9d854666140de57cbb554495217f67e707ab6ee9065c9bff",
+      "sourceSha256": "ea22f52d520983f12ba0df2872e84cf02c79d30294c6d986e890835bff1727f6",
+      "ruRawSha256": "0b6dc64aff1b26466bdbfbc0561d80587becf6b4f1081cb405b8ff3a0211107c",
+      "ruSha256": "0b6dc64aff1b26466bdbfbc0561d80587becf6b4f1081cb405b8ff3a0211107c",
+      "coverage": "complete"
+    }
+  ],
+  "validation": {
+    "validator": {
+      "command": "python tools\\validate.py",
+      "exitCode": 0,
+      "seconds": 0.633,
+      "output": "0 error(s)\r\n"
+    },
+    "unittest": {
+      "command": "python -m unittest discover -s tools -p test_*.py",
+      "exitCode": 0,
+      "seconds": 29.299,
+      "output": "............................................................................................................................\r\n----------------------------------------------------------------------\r\nRan 124 tests in 29.004s\r\n\r\nOK\r\n"
+    },
+    "manifest": {
+      "command": "python tools\\build_manifest.py",
+      "exitCode": 0,
+      "seconds": 0.099,
+      "output": "manifest.json: 200 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version d08ee0aec9ae9cde\r\n"
+    },
+    "budget": {
+      "command": "python tools\\check_content_budget.py",
+      "exitCode": 0,
+      "seconds": 0.251,
+      "output": "{'files': 207, 'entries': 216, 'retainedBytes': 620446, 'inflatedBytes': 633863, 'localZipBytes': 358800, 'listeningTaskMediaBytes': 0}\r\n"
+    }
+  },
+  "manifest": {
+    "runtimeObjects": 200,
+    "contentVersion": "d08ee0aec9ae9cde"
+  },
+  "reviewEvidence": "Original full reviewer explicitly proposed phrase; focused actual post-edit recheck still pending, not self-approved."
+}

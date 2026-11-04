@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "batch": "006-listing-examples",
+  "state": "full-review-returned-clean-optional-clarity-polish-pending",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "reviewedRussianCommit": "3afa9a9eeb7a1d1cd2b8a59e222eb9598ee9f207",
+  "reviewer": "GitHub Copilot; ru-006-full-readonly-review",
+  "reviewerAgentId": "76927a00-f8dd-417a-bccb-7966837740ea",
+  "model": null,
+  "actualScope": {
+    "learnerTexts": 1,
+    "fullFrozenEnglish": {"lines": 469, "rawBytes": 26145, "returnedRanges": "1–80,81–160,161–240,241–320,321–400,401–469"},
+    "fullRussianCandidate": {"lines": 536, "workingBytes": 45421, "returnedRanges": "Consecutive60-line ranges through480, then481–536"},
+    "fullPriorApprovedRussianGitBlob": {"lines": 57, "bytes": 4523},
+    "guidance": "All285 global instruction lines,158 scoped lines, all three43/54/44-line reviewer rubrics, entire methodology/format reference, worked-adaptation grammar lines59–110.",
+    "other": "Whole393-line scope and98-line candidate; full315-line existing grammar file; four associated vocabulary-review records.",
+    "missingRanges": [],
+    "outputDiscipline": "All requested line/10000UTF8-byte limits respected; largest numbered-text payload7729bytes. No spill, truncation or recovery exception."
+  },
+  "verdicts": {
+    "japaneseCorrectness": "CLEAN",
+    "adoptedCoverageAndConsistency": "CLEAN",
+    "russianComprehensibility": "CLEAN"
+  },
+  "verification": [
+    "Exact frozen raw/LF, baselineRU and candidateRU hashes match declared domains. Candidate working raw/LF90eee344afe26d7175913c18d178413cdd09a58e289ff16cf6a033bad60af2c4.",
+    "Immutable scope byte-identical to signed freeze. Preauthoring article equals baseline; current candidate equals signed candidate Git blob.",
+    "Existing grammar raw bytes identical, SHA256c4a9597cfc656ec192f6989d07df3b573ce8b6b1e995e5b46d78fdd3da540802; vocabulary-review file/records/contexts/IDs/answer classes unchanged.",
+    "Manifest same200 paths, only article changed, other199 entries unchanged; actual all200 object hashes compared without mismatch, versionf69e932112098e53.",
+    "All12 external citation URLs preserved. All six removed optional article destinations genuinely absent; no replacement dangling navigation.",
+    "All248 frozen Japanese body-projection entries and43 priorRU entries retained. Additional raw-text並立助詞 run belongs to unchanged citationURL. Projection not semantic proof.",
+    "All full-source rows/examples/constructions/qualifiers/citations retained, no invented unique answer or broader practice availability.",
+    "Complete prior supplement at candidate lines479–536 retains all four examples, explanations, input guidance and earlier corrections; only heading levels and deictic framing changed.",
+    "Nounと/exampleやとかなど, たりformation/time/negative scopes, しattachment and qualified inferences, てconnections, もcase relations, かalternatives, でもsuggestions and bounded advanced map retain contextual distinctions.",
+    "Natural self-contained Russian, no consequential participant/polarity/time distortion or English dependency.",
+    "Tracking/progress still unchanged200adopted/197reviewed/3partial/8076pending during actual review.",
+    "Git reported valid signatures(G), HEADs/branch unchanged; only preexisting untracked pycache retained, frozen EN clean."
+  ],
+  "findings": [],
+  "optional": [
+    {
+      "id": "O1",
+      "path": "articles/japanese-listing-and-examples.md",
+      "candidateLine": 237,
+      "before": "отсутствие еды",
+      "proposed": "то, что человек не ест",
+      "rationale": "Avoid possible food-unavailability reading; surrounding breakfast example already expresses eating versus not eating correctly.",
+      "severity": "optional-not-blocking",
+      "authorDisposition": "Adopt exact proposed phrase, then verify narrow change without claiming another full reread."
+    }
+  ],
+  "limits": [
+    "No writes/edits, tests/builds/generators, agents/workflows/external translators or branch changes.",
+    "Author validation receipts read, not rerun or independently witnessed; normative sites not freshly recaptured.",
+    "No full-corpus/native-speaker/learning-effectiveness/device/publication/checkpoint/release acceptance."
+  ]
+}
