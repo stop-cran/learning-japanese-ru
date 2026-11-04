@@ -1,0 +1,25 @@
+{
+"schemaVersion": 1, "id": "nin", "counter": "人", "reading": "にん",
+"title": "люди", "level": 5,
+"sources": ["https://www.tofugu.com/japanese/japanese-counter-nin/"],
+"article": "articles/numbers-and-counters.md",
+"cards": [
+  {"id": "nin-one-1", "kind": "irregular", "text": "教室に学生が一{}います。", "translation": "В классе один учащийся.", "noun": "学生", "phrase": "一人", "reading": "ひとり", "good": ["人", "一人"], "kana": ["ひとり"], "hard": [{"forms": ["名", "一名", "いちめい"], "phrase": "一名", "reading": "いちめい", "reason": "Допустимый формальный счёт людей; в этой обычной ситуации в классе отрабатывается 人."}], "distractors": ["枚", "本", "杯"], "readingAnswers": ["ひとり"]},
+  {"id": "nin-four-1", "kind": "irregular", "text": "私の家族は四{}です。", "translation": "В моей семье четыре человека.", "noun": "家族", "phrase": "四人", "reading": "よにん", "good": ["人", "四人"], "kana": ["よにん"], "distractors": ["本", "匹", "冊"], "readingAnswers": ["よにん"]},
+  {"id": "nin-two-1", "kind": "irregular", "text": "駅で友だちが二{}待っています。", "translation": "Два друга ждут на станции.", "noun": "友だち", "phrase": "二人", "reading": "ふたり", "good": ["人", "二人"], "kana": ["ふたり"], "distractors": ["枚", "台", "杯"], "readingAnswers": ["ふたり"]},
+  {"id": "nin-teacher-1", "kind": "plain", "text": "この学校には先生が十{}います。", "translation": "В этой школе десять учителей.", "noun": "先生", "phrase": "十人", "reading": "じゅうにん", "good": ["人", "十人"], "kana": ["じゅうにん"], "hard": [{"forms": ["名", "十名", "じゅうめい"], "phrase": "十名", "reading": "じゅうめい", "reason": "Формальный счёт сотрудников; в этой карточке отрабатывается повседневное 人."}], "distractors": ["匹", "冊", "回"], "readingAnswers": ["じゅうにん"]},
+  {"id": "nin-child-1", "kind": "plain", "text": "公園で子どもが三{}遊んでいます。", "translation": "В парке играют трое детей.", "noun": "子ども", "phrase": "三人", "reading": "さんにん", "good": ["人", "三人"], "kana": ["さんにん"], "distractors": ["枚", "本", "杯"], "readingAnswers": ["さんにん"]},
+  {"id": "nin-customer-1", "kind": "plain", "text": "店の前にお客さんが五{}います。", "translation": "Перед магазином пять посетителей.", "noun": "お客さん", "phrase": "五人", "reading": "ごにん", "good": ["人", "五人", "名", "五名"], "kana": ["ごにん", "ごめい"], "distractors": ["枚", "匹", "冊"], "note": "Для счёта посетителей 名 подходит не хуже.", "readingAnswers": ["ごにん"]},
+  {"id": "nin-question-1", "kind": "question", "text": "今日、クラスに学生は何{}いますか。", "translation": "Сколько учащихся сегодня в классе?", "noun": "学生", "phrase": "何人", "reading": "なんにん", "good": ["人", "何人"], "kana": ["なんにん"], "hard": [{"forms": ["名", "何名", "なんめい"], "phrase": "何名", "reading": "なんめい", "reason": "Формальный счёт людей; в этой карточке отрабатывается повседневное 人."}], "distractors": ["枚", "本", "杯"], "readingAnswers": ["なんにん"]},
+  {"id": "nin-approx-1", "kind": "approximate", "text": "バスの中に二十{}ぐらいいます。", "translation": "В автобусе около двадцати человек.", "noun": "バスの乗客", "phrase": "二十人", "reading": "にじゅうにん", "good": ["人", "二十人"], "kana": ["にじゅうにん"], "distractors": ["枚", "匹", "冊"], "readingAnswers": ["にじゅうにん"]},
+  {"id": "nin-negative-1", "kind": "negative", "text": "今日は教室に一{}もいません。", "translation": "Сегодня в классе нет ни одного человека.", "noun": "教室の人", "phrase": "一人", "reading": "ひとり", "good": ["人", "一人"], "kana": ["ひとり"], "distractors": ["匹", "枚", "冊"], "readingAnswers": ["ひとり"]},
+  {"id": "nin-sister-1", "kind": "plain", "text": "妹が二{}います。", "translation": "У меня две младшие сестры.", "noun": "妹", "phrase": "二人", "reading": "ふたり", "good": ["人", "二人"], "kana": ["ふたり"], "distractors": ["匹", "本", "台"], "readingAnswers": ["ふたり"]},
+  {"id": "nin-woman-1", "kind": "noun", "text": "女の人 七{}", "translation": "Семь женщин", "noun": "女の人", "phrase": "七人", "reading": "ななにん", "good": ["人", "七人"], "kana": ["ななにん", "しちにん"], "distractors": ["枚", "匹", "冊"], "readingAnswers": ["ななにん", "しちにん"]},
+  {"id": "nin-swim-1", "kind": "plain", "text": "プールで六{}泳いでいます。", "translation": "В бассейне плавают шесть человек.", "noun": "泳いでいる人", "phrase": "六人", "reading": "ろくにん", "good": ["人", "六人"], "kana": ["ろくにん"], "distractors": ["枚", "本", "冊"], "readingAnswers": ["ろくにん"]}
+],
+"reverse": [
+  {"id": "nin-noun-1", "answer": "nin-teacher-1", "options": ["nin-teacher-1", "satsu-textbook-1", "hon-pencil-1", "ko-egg-1"]},
+  {"id": "nin-noun-2", "answer": "nin-sister-1", "options": ["nin-sister-1", "mai-handkerchief-1", "dai-car-1", "hai-rice-1"]}
+],
+"vocabulary": {"泳いでいます": {"reading": "およいでいます", "gloss": "плавают"}, "乗客": {"reading": "じょうきゃく", "gloss": "пассажир"}}
+}

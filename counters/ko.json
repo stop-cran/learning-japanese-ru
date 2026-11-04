@@ -1,0 +1,25 @@
+{
+"schemaVersion": 1, "id": "ko", "counter": "個", "reading": "こ",
+"title": "отдельные компактные предметы", "level": 5,
+"sources": ["https://www.tofugu.com/japanese/japanese-counter-ko/", "https://www.tofugu.com/japanese/japanese-counter-tsu/"],
+"article": "articles/numbers-and-counters.md",
+"cards": [
+  {"id": "ko-apple-1", "kind": "plain", "text": "りんごを三{}買いました。", "translation": "Я купил три яблока.", "noun": "りんご", "phrase": "三個", "reading": "さんこ", "good": ["個", "三個", "つ", "三つ"], "kana": ["さんこ", "みっつ"], "distractors": ["人", "匹", "冊"], "readingAnswers": ["さんこ"]},
+  {"id": "ko-egg-1", "kind": "plain", "text": "卵を六{}ください。", "translation": "Шесть яиц, пожалуйста.", "noun": "卵", "phrase": "六個", "reading": "ろっこ", "good": ["個", "六個", "つ", "六つ"], "kana": ["ろっこ", "むっつ"], "distractors": ["人", "匹", "冊"], "readingAnswers": ["ろっこ"]},
+  {"id": "ko-negative-1", "kind": "negative", "text": "小さいケーキを一{}も食べませんでした。", "translation": "Я не съел ни одного маленького пирожного.", "noun": "小さいケーキ", "phrase": "一個", "reading": "いっこ", "good": ["個", "一個", "つ", "一つ"], "kana": ["いっこ", "ひとつ"], "distractors": ["人", "匹", "冊"], "readingAnswers": ["いっこ"]},
+  {"id": "ko-comparison-1", "kind": "comparison", "text": "りんごはみかんより三{}多いです。", "translation": "Яблок на три больше, чем мандаринов.", "noun": "りんご", "phrase": "三個", "reading": "さんこ", "good": ["個", "三個", "つ", "三つ"], "kana": ["さんこ", "みっつ"], "distractors": ["人", "匹", "冊"], "readingAnswers": ["さんこ"]},
+  {"id": "ko-orange-1", "kind": "plain", "text": "お弁当にみかんを二{}入れました。", "translation": "Я положил в контейнер с обедом два мандарина.", "noun": "みかん", "phrase": "二個", "reading": "にこ", "good": ["個", "二個", "つ", "二つ"], "kana": ["にこ", "ふたつ"], "distractors": ["人", "匹", "台"], "readingAnswers": ["にこ"]},
+  {"id": "ko-ball-1", "kind": "floated-quantity", "text": "箱の中にボールが四{}あります。", "translation": "В коробке четыре мяча.", "noun": "ボール", "phrase": "四個", "reading": "よんこ", "good": ["個", "四個", "つ", "四つ"], "kana": ["よんこ", "よっつ"], "distractors": ["人", "冊", "回"], "readingAnswers": ["よんこ"]},
+  {"id": "ko-candy-1", "kind": "plain", "text": "弟にあめを五{}あげました。", "translation": "Я дал младшему брату пять конфет.", "noun": "あめ", "phrase": "五個", "reading": "ごこ", "good": ["個", "五個", "つ", "五つ"], "kana": ["ごこ", "いつつ"], "distractors": ["人", "匹", "台"], "readingAnswers": ["ごこ"]},
+  {"id": "ko-stone-1", "kind": "plain", "text": "川の近くで小さい石を八{}拾いました。", "translation": "Я подобрал возле реки восемь маленьких камней.", "noun": "小さい石", "phrase": "八個", "reading": "はっこ", "good": ["個", "八個", "つ", "八つ"], "kana": ["はっこ", "はちこ", "やっつ"], "distractors": ["人", "匹", "冊"], "readingAnswers": ["はっこ", "はちこ"]},
+  {"id": "ko-question-1", "kind": "question", "text": "冷蔵庫に卵は何{}ありますか。", "translation": "Сколько в холодильнике яиц?", "noun": "卵", "phrase": "何個", "reading": "なんこ", "good": ["個", "何個", "いくつ"], "kana": ["なんこ"], "distractors": ["人", "匹", "冊"], "note": "いくつ заменяет целое 何個; не вставляйте つ в пропуск после 何, получая 何つ.", "readingAnswers": ["なんこ"]},
+  {"id": "ko-approx-1", "kind": "approximate", "text": "袋の中にりんごが十{}ぐらいあります。", "translation": "В пакете примерно десять яблок.", "noun": "りんご", "phrase": "十個", "reading": "じゅっこ", "good": ["個", "十個", "十"], "kana": ["じゅっこ", "じっこ", "とお"], "distractors": ["人", "匹", "冊"], "note": "Исконнояпонский счёт: 十（とお）, а не 十つ.", "readingAnswers": ["じゅっこ", "じっこ"]},
+  {"id": "ko-eraser-1", "kind": "noun", "text": "消しゴム 二{}", "translation": "Два ластика", "noun": "消しゴム", "phrase": "二個", "reading": "にこ", "good": ["個", "二個", "つ", "二つ"], "kana": ["にこ", "ふたつ"], "distractors": ["人", "匹", "冊"], "readingAnswers": ["にこ"]},
+  {"id": "ko-potato-1", "kind": "plain", "text": "夕ご飯に使うじゃがいもを四{}洗いました。", "translation": "Я вымыл четыре картофелины для ужина.", "noun": "じゃがいも", "phrase": "四個", "reading": "よんこ", "good": ["個", "四個", "つ", "四つ"], "kana": ["よんこ", "よっつ"], "distractors": ["人", "匹", "冊"], "readingAnswers": ["よんこ"]}
+],
+"reverse": [
+  {"id": "ko-noun-1", "answer": "ko-egg-1", "options": ["ko-egg-1", "nin-child-1", "hiki-ant-1", "kai-write-1"]},
+  {"id": "ko-noun-2", "answer": "ko-stone-1", "options": ["ko-stone-1", "nin-teacher-1", "hiki-frog-1", "kai-phone-1"]}
+],
+"vocabulary": {"冷蔵庫": {"reading": "れいぞうこ", "gloss": "холодильник"}, "消しゴム": {"reading": "けしゴム", "gloss": "ластик"}, "拾いました": {"reading": "ひろいました", "gloss": "подобрал"}}
+}

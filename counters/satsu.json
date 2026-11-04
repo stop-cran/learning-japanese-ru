@@ -1,0 +1,25 @@
+{
+"schemaVersion": 1, "id": "satsu", "counter": "冊", "reading": "さつ",
+"title": "книги и тетради в переплёте", "level": 5,
+"sources": ["https://www.tofugu.com/japanese/japanese-counter-satsu/"],
+"article": "articles/numbers-and-counters.md",
+"cards": [
+  {"id": "satsu-book-1", "kind": "plain", "text": "図書館で本を三{}借りました。", "translation": "Я взял в библиотеке три книги.", "noun": "本", "phrase": "三冊", "reading": "さんさつ", "good": ["冊", "三冊"], "kana": ["さんさつ"], "distractors": ["本", "匹", "杯"], "readingAnswers": ["さんさつ"]},
+  {"id": "satsu-notebook-1", "kind": "plain", "text": "学校で使うノートを二{}買いました。", "translation": "Я купил две тетради для школы.", "noun": "ノート", "phrase": "二冊", "reading": "にさつ", "good": ["冊", "二冊"], "kana": ["にさつ"], "distractors": ["本", "人", "杯"], "readingAnswers": ["にさつ"]},
+  {"id": "satsu-dictionary-1", "kind": "plain", "text": "机の上に辞書が一{}あります。", "translation": "На письменном столе один словарь.", "noun": "辞書", "phrase": "一冊", "reading": "いっさつ", "good": ["冊", "一冊"], "kana": ["いっさつ"], "distractors": ["本", "匹", "回"], "readingAnswers": ["いっさつ"]},
+  {"id": "satsu-magazine-1", "kind": "plain", "text": "父は雑誌を四{}持っています。", "translation": "У моего отца четыре журнала.", "noun": "雑誌", "phrase": "四冊", "reading": "よんさつ", "good": ["冊", "四冊", "部", "四部"], "kana": ["よんさつ", "よんぶ"], "distractors": ["本", "人", "杯"], "readingAnswers": ["よんさつ"]},
+  {"id": "satsu-picturebook-1", "kind": "plain", "text": "子どもに絵本を五{}読みました。", "translation": "Я прочитал ребёнку пять книжек с картинками.", "noun": "絵本", "phrase": "五冊", "reading": "ごさつ", "good": ["冊", "五冊"], "kana": ["ごさつ"], "distractors": ["本", "匹", "杯"], "readingAnswers": ["ごさつ"]},
+  {"id": "satsu-comic-1", "kind": "plain", "text": "かばんに漫画の本を六{}入れました。", "translation": "Я положил в сумку шесть книг с комиксами.", "noun": "漫画の本", "phrase": "六冊", "reading": "ろくさつ", "good": ["冊", "六冊"], "kana": ["ろくさつ"], "distractors": ["本", "人", "杯"], "readingAnswers": ["ろくさつ"]},
+  {"id": "satsu-textbook-1", "kind": "plain", "text": "教科書を二{}学校に持っていきます。", "translation": "Я возьму в школу два учебника.", "noun": "教科書", "phrase": "二冊", "reading": "にさつ", "good": ["冊", "二冊"], "kana": ["にさつ"], "distractors": ["本", "匹", "回"], "readingAnswers": ["にさつ"]},
+  {"id": "satsu-question-1", "kind": "question", "text": "この本棚に本は何{}ありますか。", "translation": "Сколько книг на этой книжной полке?", "noun": "本", "phrase": "何冊", "reading": "なんさつ", "good": ["冊", "何冊"], "kana": ["なんさつ"], "distractors": ["本", "人", "杯"], "readingAnswers": ["なんさつ"]},
+  {"id": "satsu-negative-1", "kind": "negative", "text": "日本語の辞書は一{}も持っていません。", "translation": "У меня нет ни одного словаря японского языка.", "noun": "日本語の辞書", "phrase": "一冊", "reading": "いっさつ", "good": ["冊", "一冊"], "kana": ["いっさつ"], "distractors": ["本", "匹", "杯"], "readingAnswers": ["いっさつ"]},
+  {"id": "satsu-approx-1", "kind": "approximate", "text": "弟の部屋に漫画の本が十{}ぐらいあります。", "translation": "В комнате моего младшего брата около десяти книг с комиксами.", "noun": "漫画の本", "phrase": "十冊", "reading": "じゅっさつ", "good": ["冊", "十冊"], "kana": ["じゅっさつ", "じっさつ"], "distractors": ["本", "人", "回"], "readingAnswers": ["じゅっさつ", "じっさつ"]},
+  {"id": "satsu-memopad-1", "kind": "noun", "text": "メモ帳 八{}", "translation": "Восемь блокнотов для записей", "noun": "メモ帳", "phrase": "八冊", "reading": "はっさつ", "good": ["冊", "八冊"], "kana": ["はっさつ", "はちさつ"], "distractors": ["本", "匹", "杯"], "readingAnswers": ["はっさつ", "はちさつ"]},
+  {"id": "satsu-album-1", "kind": "plain", "text": "写真のアルバムを二{}見ました。", "translation": "Я посмотрел два фотоальбома.", "noun": "写真のアルバム", "phrase": "二冊", "reading": "にさつ", "good": ["冊", "二冊"], "kana": ["にさつ"], "distractors": ["枚", "匹", "杯"], "note": "Считаются альбомы в переплёте, а не отдельные фотографии.", "readingAnswers": ["にさつ"]}
+],
+"reverse": [
+  {"id": "satsu-noun-1", "answer": "satsu-notebook-1", "options": ["satsu-notebook-1", "mai-paper-1", "hon-pen-1", "nin-one-1"]},
+  {"id": "satsu-noun-2", "answer": "satsu-album-1", "options": ["satsu-album-1", "mai-photo-1", "dai-bicycle-1", "hai-water-1"]}
+],
+"vocabulary": {"教科書": {"reading": "きょうかしょ", "gloss": "учебник"}, "漫画": {"reading": "まんが", "gloss": "комиксы"}, "絵本": {"reading": "えほん", "gloss": "книжка с картинками"}, "メモ帳": {"reading": "メモちょう", "gloss": "блокнот для записей"}}
+}

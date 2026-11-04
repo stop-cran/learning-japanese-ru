@@ -17,6 +17,10 @@
     {"id": "tsu-negative-1", "kind": "negative", "text": "今日は宿題が一{}もありません。", "translation": "Сегодня у меня нет ни одного домашнего задания.", "noun": "宿題の課題", "phrase": "一つ", "reading": "ひとつ", "good": ["つ", "一つ"], "kana": ["ひとつ"], "distractors": ["人", "匹", "台"], "readingAnswers": ["ひとつ"]},
     {"id": "tsu-question-1", "kind": "question", "text": "りんごはいく{}ありますか。", "translation": "Сколько яблок?", "noun": "りんご", "phrase": "いくつ", "reading": "いくつ", "good": ["つ", "いくつ", "何個"], "kana": ["なんこ"], "distractors": ["人", "匹", "冊"], "note": "Целое 何個 заменяет целое いくつ. Нельзя получать форму いく個.", "readingAnswers": ["いくつ"]}
   ],
+  "reverse": [
+    {"id": "tsu-noun-1", "answer": "tsu-questionitem-1", "options": ["tsu-questionitem-1", "nin-one-1", "hiki-ant-1", "hiki-turtle-1"]},
+    {"id": "tsu-noun-2", "answer": "tsu-season-1", "options": ["tsu-season-1", "nin-sister-1", "hiki-mouse-1", "hiki-cat-1"]}
+  ],
   "vocabulary": {
     "季節": {"reading": "きせつ", "gloss": "время года"},
     "課題": {"reading": "かだい", "gloss": "задание"},
