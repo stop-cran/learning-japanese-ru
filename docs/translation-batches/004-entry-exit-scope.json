@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "batch": "004-entry-exit",
+  "state": "frozen-before-authoring",
+  "baseline": "b5ba80c79bf0c315696684fd82fed570aa010c04",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "kanji": [
+    "入",
+    "出"
+  ],
+  "words": [
+    "入口",
+    "出口",
+    "出入口",
+    "入る",
+    "出る",
+    "入れる",
+    "出す",
+    "出かける",
+    "外出",
+    "入学",
+    "入院",
+    "出発",
+    "出席",
+    "入場"
+  ],
+  "learnerTexts": 16,
+  "newRuntimeObjects": 18,
+  "requiredClosure": {
+    "kanjiDistractors": {
+      "入": [
+        "人",
+        "出"
+      ],
+      "出": [
+        "入",
+        "山"
+      ]
+    },
+    "sourceWordDirectEdges": [],
+    "requiredLinkedReadingExamples": [
+      "入口",
+      "出口",
+      "出入口"
+    ],
+    "baselineReuses": [
+      "kanji/人.md",
+      "kanji/山.md",
+      "kanji/口.md"
+    ],
+    "assets": [
+      "strokes/入.json",
+      "strokes/出.json"
+    ],
+    "assetPolicy": "Exact frozen KanjiVG Git blobs, raw-byte identity and existing NOTICE/license coverage; no handwritten geometry or media generation."
+  },
+  "optionalNavigation": "Preserve substantive definitions/examples/comparisons with all readings, unlink only navigation to unadopted kanji/words such as 出入り/玄関/帰宅/退院/通う. Do not invent source-absent 入り口 or 出入り口 runtime aliases; preserve alternative spellings in prose.",
+  "reviewFocus": [
+    "Read all complete source units before freeze; retain classifications, levels and all Japanese forms, rare readings and qualifiers.",
+    "Correct inherited 入 reading-table misplacement: 入り口 belongs with 入る/いる stem 入り, not with 入れる. Frozen 入口 article explicitly explains this and distinguishes 居る. Move the intact example to the correct row; independently review the correction.",
+    "Explain 入 versus 人 by actual stroke lengths/shapes/order, without inventing a reversed universal stroke direction.",
+    "出 origin remains a qualified traditional explanation; stacked 山 shape is not the etymological construction.",
+    "Godan 入る versus ichidan 入れる; same spelling 入れる also has potential はいれる in another reading. Transitivity, particle を for departure versus object, destination に, purpose に and reason で must remain distinct.",
+    "Resulting states 入っている/出かけている/外出している; 出かけるところ/出かけたところに context does not justify a mechanical た equals completed or ている equals Russian aspect rule.",
+    "Physical entrance versus admission, enrollment as student, patient status and attendance; fees not implied by 入場.",
+    "Replace 出す English put-out-fire analogy with direct Russian explanation that extinguishing uses 消す, not 出す. Preserve actual Japanese rule.",
+    "出す optional article pointer may become concise independently reviewed Russian comparison sourced from exact frozen article lines119–132 and287–294: ます-stem + 始める relatively neutral onset, +出す often salient/abrupt onset, neither universal involuntariness nor every 出す means start. Do not claim whole article translated/adopted.",
+    "Assess combined actual Russian answer labels and direct ordinary-sense overlap; do not infer transitive cliques or fabricate grammatical distinctions."
+  ],
+  "publicationDependencyNote": "Batch003 accepted source is main baseline; actual desktop archive already verified, CI41864170951 still queued at the last observation. Do not describe that CI as passed; continue safe independent authoring and record its actual eventual result separately.",
+  "reviewStatus": "pending",
+  "releaseSeparation": "No paid media, restricted package authority, device tests, pilot-ref movement, runtime activation or checkpoint.",
+  "scope": [
+    "kanji/入.md",
+    "kanji/出.md",
+    "words/入口.md",
+    "words/出口.md",
+    "words/出入口.md",
+    "words/入る.md",
+    "words/出る.md",
+    "words/入れる.md",
+    "words/出す.md",
+    "words/出かける.md",
+    "words/外出.md",
+    "words/入学.md",
+    "words/入院.md",
+    "words/出発.md",
+    "words/出席.md",
+    "words/入場.md",
+    "strokes/入.json",
+    "strokes/出.json"
+  ],
+  "sourceFiles": [
+    {
+      "path": "kanji/入.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "bb5b4845896c645f54f7cb827b2f5c41d03230066556245c11a82f354c1565db",
+      "sourceSha256": "1fc74c34572a759a9d6173cbe5b9ce62f70f55d763d5c45d93e4081258debe9a"
+    },
+    {
+      "path": "kanji/出.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "6bfe0fc37efab9e43346847e71e33125f79ec315324ebd903d4392c3024701a1",
+      "sourceSha256": "2fa98fcd86cbfb2a52bfe7299528f8c69fbb485e1ec4de97be48b7ac7f2ad33c"
+    },
+    {
+      "path": "words/入口.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "70c5beb8ced91483b51669dc403454b613c45391d8f07a30784998277e2b4ecf",
+      "sourceSha256": "cafd9eceed52743914f9256aa81bd71b720e172ac7f1ef280098ca1864ea9a12"
+    },
+    {
+      "path": "words/出口.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "43d4ffb7eb8495d3e693896710cca6703b3616f75bb330e375686caeac326541",
+      "sourceSha256": "1578b5ff65b72d79a0a37d64e3f034254b8e79b68de65c3812aea9d5bf80d193"
+    },
+    {
+      "path": "words/出入口.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "ab09cafad1c6463193d9cd9670136e8dcc6a9be570c3b7cb7a6124d67d995393",
+      "sourceSha256": "a63f4892561bdf73bc05f0a203448fe83fa97c5b38cdaecbcee1ab884071de77"
+    },
+    {
+      "path": "words/入る.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "06a2e906792a72f80147527334d432544655a712c58dffbb53999d426565df4a",
+      "sourceSha256": "06a2e906792a72f80147527334d432544655a712c58dffbb53999d426565df4a"
+    },
+    {
+      "path": "words/出る.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "3c9a8a2fcd6c680b481e5669aabb0b3d5cc713a06676149434d627e7630c3b10",
+      "sourceSha256": "3c9a8a2fcd6c680b481e5669aabb0b3d5cc713a06676149434d627e7630c3b10"
+    },
+    {
+      "path": "words/入れる.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "16310eb1fbb5c44a953d825f3bce71251a4991e93dd8c1b5e798a8c5bf5abd4c",
+      "sourceSha256": "16310eb1fbb5c44a953d825f3bce71251a4991e93dd8c1b5e798a8c5bf5abd4c"
+    },
+    {
+      "path": "words/出す.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "87602eb78329ed1c77fe920e892cc658e0657f5636b849d0a0ba2ed76103d73a",
+      "sourceSha256": "87602eb78329ed1c77fe920e892cc658e0657f5636b849d0a0ba2ed76103d73a"
+    },
+    {
+      "path": "words/出かける.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "0810912616275debf8d756701383d5450935c8e402300224084a69b59b14554c",
+      "sourceSha256": "0810912616275debf8d756701383d5450935c8e402300224084a69b59b14554c"
+    },
+    {
+      "path": "words/外出.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "9df8629bf3340e8e381c217a84dcf171e21653aec4bd3c3e0ad3f649ad8f8611",
+      "sourceSha256": "bb396964773a15fd800eca660ec5f535e07a78bc25ed4fa38503921c5cc43f49"
+    },
+    {
+      "path": "words/入学.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "53584abbc0853aa8ab7b6f296dd67a00386d0146e10b114a1c8bf800080b674d",
+      "sourceSha256": "53584abbc0853aa8ab7b6f296dd67a00386d0146e10b114a1c8bf800080b674d"
+    },
+    {
+      "path": "words/入院.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "084d09073a483bb1ef6e78935e65465a3231ba50bcff07d46c7093dc7c93a868",
+      "sourceSha256": "084d09073a483bb1ef6e78935e65465a3231ba50bcff07d46c7093dc7c93a868"
+    },
+    {
+      "path": "words/出発.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "7c9a16f5238869ce2a197be727a621939a07dc476ea1cb6712d30712ffb105c1",
+      "sourceSha256": "7c9a16f5238869ce2a197be727a621939a07dc476ea1cb6712d30712ffb105c1"
+    },
+    {
+      "path": "words/出席.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "0c712662fa87c1d7e255ad3c9cbf647ab80caaac20e7cd45a874e999fcf4d76b",
+      "sourceSha256": "0c712662fa87c1d7e255ad3c9cbf647ab80caaac20e7cd45a874e999fcf4d76b"
+    },
+    {
+      "path": "words/入場.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "ab4ec8f5fdd81f01ef649306e7b4147c57b53927fc38320154de74831d37029c",
+      "sourceSha256": "ab4ec8f5fdd81f01ef649306e7b4147c57b53927fc38320154de74831d37029c"
+    },
+    {
+      "path": "strokes/入.json",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "ccb03e1d981037637ddd70f5865ad1a99054685e4165ee391fe4a691bddc5341",
+      "sourceSha256": "cc7fe185bfda6615495c4983c3b8fca987259686cce3fcf4b5ca4fb72764cd49"
+    },
+    {
+      "path": "strokes/出.json",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "c76a556f12ac13340c996946d9f171259ca55f93c45eee806b60787b178756c8",
+      "sourceSha256": "c6aa97785e6b3e4221accd4d174abd65f679f3e11b4b21ebc1298576f207b94e"
+    }
+  ],
+  "optionalInlineEvidence": {
+    "path": "articles/verb-extensions-direction-and-aspect.md",
+    "sourceRawSha256": "36945d52c483654b9dc6a767866d690678bfd3c0c53bb3229467697d42148500",
+    "sourceSha256": "36945d52c483654b9dc6a767866d690678bfd3c0c53bb3229467697d42148500",
+    "actuallyReadSourceRanges": [
+      [
+        119,
+        132
+      ],
+      [
+        287,
+        294
+      ]
+    ],
+    "adoptedAsRuntimeArticle": false
+  }
+}
