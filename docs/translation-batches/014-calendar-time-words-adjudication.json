@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "batch": "014-calendar-time-words",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "frozenScopeCommit": "299bb9ab5044cb75f65340dd4fe1afc2946f691e",
+  "state": "author-adjudication-pending-independent-review",
+  "actualAdoptedScope": {
+    "newFiles": 38,
+    "sourceFullLines": 1302,
+    "russianFullLines": 1271,
+    "oldDisplayedMeaningsActuallyRead": 250,
+    "newDisplayedMeaningsActuallyRead": 38,
+    "newDirectMetadataEdges": 21,
+    "sourcePreservedEdges": 15,
+    "addedDirectRussianGuards": 6
+  },
+  "guardPairs": [
+    {
+      "left": "朝",
+      "right": "午前",
+      "reason": "Actual source/JMdict shared morning sense; different clock versus natural-morning boundaries do not make an unqualified Russianутро wrong."
+    },
+    {
+      "left": "朝",
+      "right": "朝ごはん",
+      "reason": "Actual朝JMdictsense2breakfast and existing displayedзавтрак; protect a legitimate contextual sense without expanding the adopted primary morning title/body."
+    },
+    {
+      "left": "晩",
+      "right": "夕飯",
+      "reason": "Actual晩sense2abbreviated dinner and existing displayedужин; directly checked, not inferred through夜."
+    },
+    {
+      "left": "晩",
+      "right": "晩御飯",
+      "reason": "Same actual independently inspected晩dinner sense versus this second existingужинlabel; individual direct overlap."
+    },
+    {
+      "left": "夜",
+      "right": "夕飯",
+      "reason": "Actual夜sense2dinner explicitly restricted toよる, exactly this card's canonical reading; existingужинlabel. Not transferred toよ."
+    },
+    {
+      "left": "夜",
+      "right": "晩御飯",
+      "reason": "Same directly inspectedよる-only dinner sense versus this second actualужинlabel, not a transitive daypart/meal clique."
+    }
+  ],
+  "actualAnswerPoolAssessment": [
+    "Personally read every actual250baseline displayed meaning and every38finalnewmeaning, plus complete baseline朝ごはん/夕飯/晩御飯/日/昼bodies. This is not a full reread of all250baseline bodies.",
+    "朝/午前share actualmorning; source夜/晩bothactualnight/evening retain originaldirectguard. 朝/朝ごはん,晩/夕飯,晩/晩御飯,夜/夕飯,夜/晩御飯individually supported by exact captured source-word secondary breakfast/dinner senses and actual baseline labels, withよるrestriction honored.",
+    "Do not newly teach every meal/rare sense merely to justify guards. Generic食事/ご飯meal is not made a synonym clique with every specific meal; no transitive朝/晩/夜/daypart/meals inference.",
+    "午後actualпослеполудня/втораяполовинадня contrasts with actual昼дневноевремя/полдень,昼間дневноевремя,日день/солнцеand日中днём/ЯпонияиКитай. Broader daytime versus specified after-noon is not treated as identical; no broad daypart clique.",
+    "今日きょうсегодня versusこんにちpresent-era sense remains directly protected against allthreeactualrecent-period labels by originalsourceexclusions. Allthree近頃/最近/このごろdirect pairings explicitly source-supported, not inferred transitivity.",
+    "Calendar reference anchors distinguish yesterday/day-before/tomorrow, current/next week/month/year, this/every morning/evening and yesterdayevening. 年год/возраст distinct from時間время/час and月日течениевремени/календарнаядата. Birthday/dayoff/weekday names are not interchangeable."
+  ],
+  "completeTranslation": "All38titles/H1/152exactRussianH2/all source paragraphs/examples/explanatory qualifications/source citation labels localized. Englishspring/autumn/morninganalogies made independent Russian Japanese-rule teaching without dropping source facts. Stable word/reading/type/JLPT/tags/kanji/distractors preserved exactly; only six declared directguard additions to three new files.",
+  "sourceAdaptations": [
+    "午前sourceclock-only phrasing qualified by actual capturedJapanese definition alsoattestingordinarydawn–noon sense. Preserve exactclock0–12/night2/3o'clock distinction; retain OxfordEnglish-onlysourceas provenance, notJapanese authority.",
+    "Preserve今日reading-specificnowadays,明日あすnear-future,夜よる-onlydinner,秋ときseparate time entry; no APIWikipedia pseudo-definition treated as lexical proof.",
+    "All Japanese examples/readings retained, contextual Russian translations natural. No particle↔Russian case or Japanese↔Russian aspect equivalences, forced on-readings for mixed weekday compounds, universalweekdayworkday/weekstart rules, fixedworldwideseasondates or guessedetymologies.",
+    "Optional missing Markdown navigation flattened while retaining all substantive Japanese comparisons and kanji metadata; kept every available/planned substantive link. Four closure additions complete rather than placeholders.",
+    "Actual pinned app5c000bdfunction verified immutableblob530ff7e5...:7unmappedIDs21occurrences20newcards. SomeIDsalreadyknown; not allnewglobalcategories. PreservecanonicalIDs; no concurrentapp edit/build/nativeproof.",
+    "Added three active guidance lines distinguishing actual lexical sense/restrictions/info from APIWikipedia pseudo-definitions, evidenced by秋ときmislink. Not a new validator exemption."
+  ],
+  "baseline316RawObjectsAndAllOldTrackingUnchanged": true,
+  "dictionaryEvidence": "docs/translation-batches/014-calendar-time-words-dictionary.json",
+  "pinnedUiFollowUp": {
+    "appCommit": "5c000bd5596d2189ef878da572687bd01ab3bb5f",
+    "path": "app/src/main/java/io/github/stopcran/kanji/ui/WordQuizScreen.kt",
+    "rawBlobSha256": "530ff7e5d6da2829bc08ff57c6356162af04b0ab84598cb7c19127217f71c08c",
+    "actualPinnedFunction": "fun localizedWordPromptTag(tag: String): String {\r\n    val resource = when (tag) {\r\n        \"adjective\" -> R.string.word_tag_adjective\r\n        \"appearance\" -> R.string.word_tag_appearance\r\n        \"body\" -> R.string.word_tag_body\r\n        \"compound\" -> R.string.word_tag_compound\r\n        \"conversation\" -> R.string.word_tag_conversation\r\n        \"daily-life\" -> R.string.word_tag_daily_life\r\n        \"drink\" -> R.string.word_tag_drink\r\n        \"expression\" -> R.string.word_tag_expression\r\n        \"feelings\" -> R.string.word_tag_feelings\r\n        \"giongo\" -> R.string.word_tag_giongo\r\n        \"giseigo\" -> R.string.word_tag_giseigo\r\n        \"gitaigo\" -> R.string.word_tag_gitaigo\r\n        \"godan\" -> R.string.word_tag_godan\r\n        \"intransitive\" -> R.string.word_tag_intransitive\r\n        \"jukujikun\" -> R.string.word_tag_jukujikun\r\n        \"light\" -> R.string.word_tag_light\r\n        \"literary\" -> R.string.word_tag_literary\r\n        \"mimetic\" -> R.string.word_tag_mimetic\r\n        \"movement\" -> R.string.word_tag_movement\r\n        \"nature\" -> R.string.word_tag_nature\r\n        \"noun\" -> R.string.word_tag_noun\r\n        \"onomatopoeia\" -> R.string.word_tag_onomatopoeia\r\n        \"people\" -> R.string.word_tag_people\r\n        \"personality\" -> R.string.word_tag_personality\r\n        \"reduplication\" -> R.string.word_tag_reduplication\r\n        \"ri-ending\" -> R.string.word_tag_ri_ending\r\n        \"size\" -> R.string.word_tag_size\r\n        \"sokuon\" -> R.string.word_tag_sokuon\r\n        \"texture\" -> R.string.word_tag_texture\r\n        \"time\" -> R.string.word_tag_time\r\n        \"verb\" -> R.string.word_tag_verb\r\n        \"voiced\" -> R.string.word_tag_voiced\r\n        else -> return tag\r\n    }\r\n    return stringResource(resource)\r\n}",
+    "unmappedCanonicalTagsByAffectedCard": {
+      "adverb": [
+        "words/明日.md",
+        "words/一昨日.md",
+        "words/毎朝.md",
+        "words/毎晩.md",
+        "words/今朝.md",
+        "words/来月.md",
+        "words/今週.md",
+        "words/近頃.md",
+        "words/このごろ.md",
+        "words/昨夜.md"
+      ],
+      "calendar": [
+        "words/木曜日.md"
+      ],
+      "celebrations": [
+        "words/誕生日.md"
+      ],
+      "mixed-reading": [
+        "words/毎朝.md"
+      ],
+      "season": [
+        "words/春.md",
+        "words/夏.md",
+        "words/秋.md",
+        "words/冬.md"
+      ],
+      "time-of-day": [
+        "words/夜.md"
+      ],
+      "weekday": [
+        "words/水曜日.md",
+        "words/金曜日.md",
+        "words/土曜日.md"
+      ]
+    },
+    "limits": "Actual immutable committed function only, not current dirty app/main/phone behavior. No app modifications/builds; canonical IDs preserved."
+  },
+  "reviewStatus": "pending",
+  "independentReviewer": null,
+  "limits": "Author reasoning and mechanical checks, not independent linguistic/native/UI/phone/media/checkpoint approval."
+}
