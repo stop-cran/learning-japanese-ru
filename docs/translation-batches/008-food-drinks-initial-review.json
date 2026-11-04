@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "batch": "008-food-drinks",
+  "state": "independent-initial-review-needs-fix",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "reviewedRussianCommit": "e925d8e0c4cb3ce6ff481a0d9b51ffbe6e1ed03e",
+  "reviewer": {
+    "name": "GitHub Copilot; ru-008-full-readonly-review",
+    "agentId": "3f6079d5-2ddd-453c-ba26-148ad7531351",
+    "model": null
+  },
+  "actualScope": {
+    "all27CompleteRussianAndFrozenEnglishCards": true,
+    "perFileReadRanges": "Each complete1–EOF range exactly as line counts in immutable008candidate records.",
+    "russianLines": 1049,
+    "russianRawBytes": 61727,
+    "englishLines": 958,
+    "englishRawBytes": 39396,
+    "pairedTotalLines": 2007,
+    "pairedTotalRawBytes": 101123,
+    "pairedTotalLfBytes": 99904,
+    "dictionaryQueries": 27,
+    "dictionaryObjects": 31,
+    "dictionarySenses": 73,
+    "dictionaryJapaneseForms": 49,
+    "wikipediaPseudoDefinitionsNotLexicalAuthority": 14,
+    "completeDictionaryObjectsRead": true,
+    "all181ActualAnswerPoolObjectsRead": true,
+    "baselineFullBodies": [
+      {
+        "path": "words/昼.md",
+        "ruLines": "1–33",
+        "enLines": "1–32",
+        "ruRawBytes": 1871,
+        "ruLfBytes": 1838,
+        "enRawBytes": 1129,
+        "ruRawSha256": "b2b411ae25c75649e865ebaf2f0ee22fdfb161a93c910036385da0294a892734",
+        "ruSha256": "3228a6dcd7d99001a9a996b3400bc508fe61281cdc7025e2f013fa8c5b16f86f",
+        "enRawAndLfSha256": "ce52287596a3ab3b33dbf7909adb664499702fe7179fb020e329343c43f358b9"
+      }
+    ],
+    "guidanceActualRanges": {
+      ".github/copilot-instructions.md": "1–285",
+      ".github/instructions/content-structure.instructions.md": "1–158",
+      ".github/agents/kanji-accuracy-reviewer.agent.md": "1–43",
+      ".github/agents/kanji-comprehension-reviewer.agent.md": "1–44",
+      ".github/agents/content-consistency-reviewer.agent.md": "1–54",
+      "docs/translation-methodology.md": "1–138",
+      "docs/content-format-reference.md": "1–107",
+      "docs/worked-russian-adaptations.md": "1–110",
+      "docs/FULL-TRANSLATION-PLAN.md": "1–302",
+      "docs/IMPLEMENTATION-PLAN.md": "1–100; not remaining historical sections"
+    },
+    "frozenAdditionalRanges": {
+      "docs/confusable-words.md": "1–50,137–141,174–178,188–192,251–255",
+      "docs/jlpt-levels.md": "1–96,192–234,255–287; not whole document",
+      "pinnedAppWordQuizScreen": "51,148–201"
+    },
+    "incompleteAssignedReads": [],
+    "outputLimit": "Initial UTF8 output failure recovered before substantive reading; no spill file opened."
+  },
+  "hashVerification": {
+    "all108IndividualSourceRawLfAndRussianWorkingRawLfHashesMatch": true,
+    "sourceScopeHashesMatch": true,
+    "final27RussianRawHashesUnchanged": true,
+    "ledgerDigest": "6ee71d241e7a19a63c09e150c9651a9d11cc1789bd2390073847c289c6ee697e",
+    "ledgerDefinition": "UTF8 scope order: path<TAB>ENraw<TAB>ENLF<TAB>RUraw<TAB>RULF<LF>",
+    "scope": "acc16e93526c10d0dca4e3f236588ac9dffdd74cd23afe7f251620bcfb3f0f6b",
+    "dictionary": "7bd39da9287d6b1bf812c8a6c2bdbb82e18890e5035495bff7e591c7de338f8a",
+    "candidate": "dfb853ef58a6a328a27d3f27ebe78799897ef0984de0d86792b37040eb0cc006",
+    "manifest": "ac69ff1e661506125d378bab84880a4d045a519e1e1047f7c93210c7acb1fb1e"
+  },
+  "verdicts": {
+    "japaneseCorrectnessIncludingAnswerSemantics": "NEEDS FIX",
+    "adoptedCoverageAndConsistency": "NEEDS FIX",
+    "authoredRussianComprehensibility": "CLEAN"
+  },
+  "findings": [
+    {
+      "id": "008-R1",
+      "priority": "P2",
+      "confidence": "high",
+      "pair": [
+        "words/昼.md",
+        "words/昼御飯.md"
+      ],
+      "location": "Existing昼16,33 and frozenEnglish15,32 teach lunch; new昼御飯4,15 displaysобед.",
+      "effect": "ForJapanese昼, displayed distractorобед is a taught valid meaning if sampled; distinct complete titles do not prevent direct ambiguity.",
+      "requiredAction": "Add direct昼↔昼御飯 exclusion, e.g.quiz_exclusions:[昼] on new昼御飯, preserve baseline昼→昼間 and all other guards. No daytime/meal clique.",
+      "generatedQuizOccurrenceWitnessed": false
+    }
+  ],
+  "optionalRecommendations": [
+    {
+      "path": "words/肉.md",
+      "old": "肉 само по себе не указывает на животное.",
+      "new": "Само по себе 肉 не уточняет вид животного."
+    },
+    {
+      "path": "words/魚.md",
+      "old": "общественного учебного списка N3",
+      "new": "неофициального учебного списка N3"
+    }
+  ],
+  "otherVerification": [
+    "Complete frozen teaching bodies/citations retained;27 original citation sequences with22 URL occurrences preserved.",
+    "All11 current relative links resolve;51 original optional decisions read (10retained,41flattened).",
+    "All technical metadata/levels preserved; source meal guard and two initial added direct pairs independently evidenced.",
+    "All prior200 manifest hashes and baseline content comparisons unchanged (Markdown LF-normalized, other assets RAW;162 also RAW-identical).",
+    "Whole27-query actual evidence inspected with all forms/restrictions/notes; unrelated homographs, places, slang and Wikipedia pseudo-definitions not silently adopted.",
+    "Pinned app six-ID gap verified:26 occurrences/22 new cards, still external unresolved. Some IDs preexist baseline; concurrent app correction status UNVERIFIED."
+  ],
+  "limits": [
+    "Read-only; no writes/tests/builds/generators/delegation/ref changes.",
+    "Recorded author checks read, not rerun or witnessed; PGP signature blocks seen, not cryptographically verified.",
+    "No pixels/assets adopted or inspected; no source re-fetch, publication, phone/native/release/activation approval witnessed.",
+    "Only one additional baseline pair fully read; no whole-corpus/native-language acceptance claim.",
+    "Candidate remains unaccepted pending correction and genuine bounded recheck."
+  ]
+}
