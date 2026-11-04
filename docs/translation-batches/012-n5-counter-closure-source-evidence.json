@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "batch": "012-n5-counter-closure",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "state": "actual-reference-reading-before-authoring-not-linguistic-approval",
+  "recordedAt": "2026-11-04T21:25:00.587236+00:00",
+  "completeFrozenSourceBodiesRead": [
+    "counters/dai.json",
+    "counters/hai.json",
+    "counters/hiki.json",
+    "counters/hon.json",
+    "counters/kai.json",
+    "counters/ko.json",
+    "counters/mai.json",
+    "counters/nin.json",
+    "counters/satsu.json",
+    "counters/tsu.json"
+  ],
+  "completeSupplementaryBaselinePairRead": "counters/native.json; source one expression and current full Russian counterpart, unchanged",
+  "frozenNormativeReading": {
+    "docs/content-format.md": [
+      [
+        1,
+        100
+      ]
+    ],
+    "docs/counter-n5.md": "Complete"
+  },
+  "activeRussianGuidanceRead": [
+    ".github/copilot-instructions.md",
+    ".github/instructions/content-structure.instructions.md",
+    ".github/agents/kanji-accuracy-reviewer.agent.md",
+    ".github/agents/content-consistency-reviewer.agent.md",
+    ".github/agents/kanji-comprehension-reviewer.agent.md",
+    "docs/translation-methodology.md",
+    "docs/content-format-reference.md",
+    "docs/worked-russian-adaptations.md"
+  ],
+  "currentArticleActuallyRead": {
+    "path": "articles/numbers-and-counters.md",
+    "lines": [
+      1,
+      56
+    ],
+    "limit": "Relevant existing core-counter/mode section, not a fresh whole-article rereview"
+  },
+  "freshExternalReading": [
+    {
+      "url": "https://www.tofugu.com/japanese/japanese-counter-hon/",
+      "read": "Complete simplified article, consecutive offsets0,12000,24000 through final footnote",
+      "adopted": "Specific pronunciation table including all three 何本 readings and eight/ten variants; thin objects, stems/trees, bottles and movies",
+      "notAdopted": "No new etymology, media history, sports, product or other advanced category; no copied article prose/images"
+    },
+    {
+      "url": "https://www.tofugu.com/japanese/japanese-counter-tsu/",
+      "read": "Complete simplified article, offsets0,10000 through footnote",
+      "adopted": "Native1–10/いくつ, general counts, ordering/abstract counts and contextual substitutions, not an unrestricted universal grading rule"
+    },
+    {
+      "url": "https://www.tofugu.com/japanese/japanese-counter-dai/",
+      "read": "Complete simplified article, offsets0,10000 through footnote",
+      "adopted": "Unchanged pronunciations; chosen vehicles, appliances, phones/cameras, beds and large musical instruments"
+    },
+    {
+      "url": "https://www.tofugu.com/japanese/japanese-counter-nin/",
+      "read": "Complete simplified article through footnote",
+      "adopted": "Selected person-count readings and formal 名; no newly adopted animal/monster contexts"
+    },
+    {
+      "url": "https://www.tofugu.com/japanese/japanese-counter-satsu/",
+      "read": "Complete simplified article through footnote",
+      "adopted": "Selected readings, bound books/notebooks/memo pads; bound-volume versus individual sheet/copy distinction, not new origin claims"
+    },
+    {
+      "url": "https://www.tofugu.com/japanese/japanese-counter-hiki/",
+      "read": "Simplified offsets0–12000: pronunciation table, small animals, fish, reptiles/amphibians and insects; ends inside later unadopted human-animal section",
+      "adopted": "All chosen animals are ordinary living-animal/insect contexts. Specific table explicitly lists both はちひき and はっぴき"
+    },
+    {
+      "url": "https://www.tofugu.com/japanese/japanese-counter-mai/",
+      "read": "Simplified offsets0–12000: pronunciation, flat objects, paper, photographs and chosen cloth/clothing; stops at later fabric-roll passage",
+      "adopted": "Chosen sheets/tickets/stamps/postcards/photographs/plates/cloth/shirts; no imported origin claims"
+    },
+    {
+      "url": "https://www.tofugu.com/japanese/japanese-counter-ko/",
+      "read": "Simplified offsets0–12000: pronunciation, physical objects/general alternatives, boundaries and orders; remainder not read",
+      "adopted": "Chosen compact-object counts and contextual general alternatives; no universal counter-compatibility assertion"
+    },
+    {
+      "url": "https://www.tofugu.com/japanese/japanese-counter-kai-times/",
+      "read": "Simplified offsets0–10000: table, repeated actions/events and nuanced 回/度 discussion; remainder not read",
+      "adopted": "Selected repeated actions and existing contextual 度 alternatives, no automatic prediction rule or blanket interchangeability"
+    },
+    {
+      "url": "https://www.tofugu.com/japanese/japanese-counters-guide/",
+      "read": "Simplified offsets0–24000: systems, pronunciation matrix, individual 個/匹 discussion, resource guidance and start of grammar; remainder not read",
+      "adopted": "General pronunciation matrix corroborates ordinary h/k/s changes, not exact attestation of every authored sentence or every permitted contextual variant"
+    },
+    {
+      "url": "https://en.wiktionary.org/wiki/%E6%9D%AF#Japanese",
+      "actualBoundedSource": "https://en.wiktionary.org/w/api.php?action=parse&page=%E6%9D%AF&section=17&prop=text&format=json&formatversion=2",
+      "read": "Complete extracted expanded Japanese section17, discovered from actual API section map",
+      "privateCapture": "ru-012-wiktionary-hai-japanese-capture.json",
+      "privateCaptureRawSha256": "e30e5e34a55e508708a3469e6120f541e70ca589cdad9d654d639cd649bbd414",
+      "adopted": "Base はい and cupful counter meaning only; the section does not provide the numeric inflection table",
+      "notAdopted": "Initial Chinese/translingual output, CSS/Lua-error material, kanji origin, game suffix or food-squid sense are not evidence for the adopted cup contexts"
+    }
+  ],
+  "discardedLookups": [
+    {
+      "requestedUrl": "https://www.sanabo.com/kazoekata/ct_ha/ha/hai/",
+      "actualRedirect": "https://www.sanabo.com/kazoekata/ct_ha/ha/haikaki/",
+      "actualTitle": "はいかき【灰掻き】",
+      "disposition": "Wrong object, excluded; not 杯 evidence"
+    }
+  ],
+  "referenceConflict": {
+    "actualObservation": "Tofugu general-guide prose denies はちひき for 八匹 while its dedicated 匹 table explicitly lists はちひき/はっぴき.",
+    "plannedDisposition": "Preserve both actually frozen source readings; use the counter-specific table, not a general paragraph, for this exact form. Pending independent review.",
+    "scope": "No new Japanese reading introduced or old reading removed"
+  },
+  "inheritedSourceLimits": "Frozen counter-n5 distinguishes authored bounded alternatives and target-counter yellow scoring from exhaustive Japanese correctness. Its historical requests for native/editor evidence and range/parser checks are not RU device/native/automatic-grader acceptance. Preserve those limits; source reliability is not Russian approval.",
+  "limits": "No full unadopted external sections, paid dictionary, copied third-party article prose/images, new media, native speaker certificate, app inspection/rendering or phone test."
+}
