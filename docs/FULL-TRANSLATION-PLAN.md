@@ -312,8 +312,8 @@ current hash records and resolved the finding. Baseline 昼 and the other24 new 
 raw-identical. [Actual full reading and corrective closure](translation-batches/008-food-drinks-review.json)
 distinguish their respective scopes; no whole-batch reread by the narrow reviewer is claimed.
 
-Current membership is **227 runtime objects**:18 kanji,181 words,18 strokes and unchanged other
-families. Statuses are **226 reviewed-current**, **one partial** (`counters/tsu.json`),
+After batch008, membership was **227 runtime objects**:18 kanji,181 words,18 strokes and unchanged other
+families. Statuses were **226 reviewed-current**, **one partial** (`counters/tsu.json`),
 **two reviewed runtime-blocked drafts** and **8,049 pending**; **8,051 runtime paths remain absent**.
 All earlier tracking records and immutable receipts are preserved; checkpoint authority is null.
 
@@ -324,3 +324,29 @@ Canonical IDs remain unchanged; the concurrent app checkout was not edited or bu
 The app owner still needs Russian mappings; no current dirty-app fix, phone rendering or ordinary
 RU activation is claimed. This renderer/release follow-up does not stop independent source authoring.
 Continue the remaining frozen corpus, with original media/device/release gates and pilot refs intact.
+
+Batch **009 — clothing and accessories** completes23 full source-N5 word articles.
+One independent reviewer actually read every complete RU/frozen-EN pair, all27 dictionary
+queries/29 entries/96 senses/52 Japanese forms and all204 actual combined answer labels,
+plus relevant baseline bodies and actual spelling/etymology evidence. The four direct symmetric
+guards are individually justified, not a clothing-category clique. The previously reviewed
+`時間` candidate-pool adaptation remains unchanged; `時計` explicitly names a physical device.
+
+The full reviewer found one low-severity **provenance** error, not a learner-text defect:
+an editorial receipt incorrectly claimed that an additional reading appeared in the capture.
+The clarification and active evidence guidance were corrected; the original frozen receipt
+remains historical. One actual bounded recheck read the complete relevant pair/query and
+corrected records, resolved the finding and verified all23 learner files raw/LF-unchanged.
+[Actual full and narrow review scopes](translation-batches/009-clothing-accessories-review.json)
+are distinct; no second whole-batch linguistic reread or native certification is claimed.
+
+Current membership is **250 runtime objects**:18 kanji,204 words,18 strokes and unchanged
+other families. Statuses are **249 reviewed-current**, **one partial** (`counters/tsu.json`),
+**two reviewed runtime-blocked drafts** and **8,026 pending**; **8,028 runtime paths remain absent**.
+All227 earlier tracking records are unchanged; fresh strict progress preserves null checkpoint authority.
+
+The pinned renderer follow-up additionally records `clothing`, `sports`, `everyday`,
+`special-reading`, `weather`, `irregular-reading`, `actions`:25 occurrences across23 new cards.
+Canonical IDs are preserved and the concurrent app remains untouched; no current phone rendering,
+native option-pool, media, activation or release acceptance follows from source review.
+Continue the remaining finite frozen target; no device gate or pilot/controlled ref has moved.

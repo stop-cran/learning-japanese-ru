@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "batch": "009-clothing-accessories",
+  "state": "independently-reviewed-source-accepted",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "reviewedRussianCommit": "12b64645ab12bb8458251795d53bcfaabb4e6313",
+  "initialFullReview": "docs/translation-batches/009-clothing-accessories-initial-review.json",
+  "exactCurrentHashesAndCorrections": "docs/translation-batches/009-clothing-accessories-corrections.json",
+  "independentCorrectionRecheck": {
+    "reviewer": "GitHub Copilot; ru-009-provenance-readonly-recheck",
+    "agentId": "b39b2bef-8e80-4be6-8584-12c0110305a8",
+    "model": null,
+    "retentionLimit": "Synchronous task follow-up unsupported, as actually evidenced in prior batches; one fresh bounded rechecker used after full reviewer finished, not concurrent reviewers.",
+    "actualReading": {
+      "clarification": "Complete41lines",
+      "initialReview": "Complete85lines",
+      "corrections": "Complete294lines",
+      "fullRussianAndFrozenEnglishPairs": [
+        "words/眼鏡.md"
+      ],
+      "completeDictionaryQuery": "眼鏡:1entry,5sense records,2forms, all notes/restrictions/attributions",
+      "guidance": "All3 reviewer rubrics, relevant active guidance and corrective delta",
+      "notRepeated": "Not another23-pair linguistic review; earlier whole review applies to unchanged learner files"
+    },
+    "actualVerification": {
+      "suppliedRawReceiptHashes": "5/5 match",
+      "candidateSourceRuRawLfFingerprints": "92/92 match",
+      "sourceScopeFingerprints": "46/46 match",
+      "all23InitialCurrentSignedLearnerBlobsIdentical": true,
+      "workingCrlfVersusSignedLfDistinguished": true,
+      "manifestUnchanged": true,
+      "scopeDictionaryIdenticalToFreeze": true,
+      "initialCandidateReceiptImmutable": true,
+      "correctiveDiff": "Exactly4docs/guidance files; normalized working bytes match signedHEAD",
+      "correctedHeadSignature": "Good"
+    },
+    "verdictsForBoundedR1Closure": {
+      "japaneseCorrectness": "CLEAN",
+      "provenanceCoverageConsistency": "CLEAN",
+      "russianComprehensibility": "CLEAN"
+    },
+    "findingR1": "Resolved high confidence: clarification11–12 and guidance71–73 distinguish actual lexical fields from editorial prose, with no universal nonexistence claim.眼鏡23 limitsガン+キョウ comparison to taughtめがね reading.",
+    "newConsequentialFindings": [],
+    "limits": "Read-only; no files/edits/tests/builds/agents/Git-ref writes. Prior author validation not rerun. No whole23reread/native/app-rendering/device/media/release acceptance."
+  },
+  "authorDisposition": "Accept all23 complete text articles from actual whole three-facet review plus actual narrowly resolved provenanceR1. No learner defect established, all23 learner files raw/LF unchanged through corrective closure. Original flawed editorial freeze note preserved with explicit corrected receipt, not silently rewritten.",
+  "authorValidation": {
+    "manifest": {
+      "command": "C:\\Users\\stop-\\AppData\\Local\\Programs\\Python\\Python312\\python.exe tools\\build_manifest.py",
+      "exitCode": 0,
+      "seconds": 0.187,
+      "output": "manifest.json: 250 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version e6837237eab47278\n"
+    },
+    "validator": {
+      "command": "C:\\Users\\stop-\\AppData\\Local\\Programs\\Python\\Python312\\python.exe tools\\validate.py",
+      "exitCode": 0,
+      "seconds": 0.86,
+      "output": "0 error(s)\n"
+    },
+    "unittest": {
+      "command": "C:\\Users\\stop-\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m unittest discover -s tools -p test_*.py",
+      "exitCode": 0,
+      "seconds": 45.032,
+      "output": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 44.630s\n\nOK\n"
+    },
+    "budget": {
+      "command": "C:\\Users\\stop-\\AppData\\Local\\Programs\\Python\\Python312\\python.exe tools\\check_content_budget.py",
+      "exitCode": 0,
+      "seconds": 0.328,
+      "output": "{'files': 257, 'entries': 266, 'retainedBytes': 821372, 'inflatedBytes': 834789, 'localZipBytes': 445564, 'listeningTaskMediaBytes': 0}\n"
+    }
+  },
+  "currentRuntimeObjects": 250,
+  "manifestVersion": "e6837237eab47278",
+  "externalAppFollowUp": "Frozen009scope pins exact seven unmapped canonical IDs,25occurrences/23newcards. IDs preserved; concurrent app untouched; ordinary activation remains gated.",
+  "releaseSeparation": "No ordinaryRUactivation, device/media authority, checkpoint advancement or frozen pilot/controlled ref change."
+}

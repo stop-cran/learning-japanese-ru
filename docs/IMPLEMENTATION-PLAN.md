@@ -8,13 +8,24 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-The eighth full-target source batch completes27 full food/drink/meal word articles:
+The ninth full-target source batch completes23 full N5 clothing/accessory word articles.
+[Batch009](translation-batches/009-clothing-accessories-review.json) records whole23-pair reading,
+all27 dictionary queries and204 actual answer labels, with four individually justified direct
+exclusion pairs. A real low-severity provenance overstatement was corrected and independently
+rechecked; all23 learner files and all prior runtime objects stayed unchanged through closure.
+Membership is250; statuses are249 reviewed-current, one partial counter, two reviewed
+runtime-blocked drafts and8,026 pending. Source authoring continues.
+The exact pinned app-hint gaps additionally cover seven IDs/25occurrences in23 new cards;
+canonical IDs and concurrent app remain untouched. No native option-pool, device/media,
+activation, checkpoint or frozen pilot/controlled ref approval is implied.
+
+The eighth full-target source batch completed27 full food/drink/meal word articles:
 26N5 plus the mandatory N4 食事 dependency. [Batch008](translation-batches/008-food-drinks-review.json)
 records whole27-pair reading, all27 complete dictionary queries and181 actual answer labels,
 then genuine corrective recheck of the missing direct 昼/昼御飯 lunch guard and two exact
 optional phrases. Existing baseline bodies and the other24 new cards are unchanged.
-Membership is227; statuses are226 reviewed-current, one partial counter, two reviewed
-runtime-blocked drafts and8,049 pending. Source authoring continues.
+Membership became227; statuses were226 reviewed-current, one partial counter, two reviewed
+runtime-blocked drafts and8,049 pending. Source authoring continued.
 The pinned external app renderer still needs Russian mappings for six canonical hint IDs
 (`food`, `drinks`, `animal`, `polite-prefix`, `suru-verb`, `meals`); some already affect baseline.
 The exact affected scope is documented, IDs preserved, concurrent app untouched.
