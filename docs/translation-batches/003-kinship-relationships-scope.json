@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "batch": "003-kinship-relationships",
+  "state": "frozen-before-authoring",
+  "baseline": "9b5be8f0c6a91865f59f38390d79aceb8bda255c",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "words": [
+    "祖母",
+    "祖父",
+    "おばあさん",
+    "おじいさん",
+    "おじさん",
+    "兄弟",
+    "姉妹",
+    "子供",
+    "子",
+    "娘",
+    "息子",
+    "親戚",
+    "友達",
+    "友人",
+    "夫",
+    "妻",
+    "主人",
+    "奥さん",
+    "結婚"
+  ],
+  "learnerTexts": 19,
+  "newRuntimeObjects": 19,
+  "requiredClosure": {
+    "sourceDirectEdges": [
+      {
+        "from": "words/祖母.md",
+        "field": "quiz_exclusions",
+        "to": "words/おばあさん.md"
+      }
+    ],
+    "baselineReuses": [
+      "words/家族.md",
+      "words/親.md",
+      "words/兄.md",
+      "words/姉.md",
+      "words/弟.md",
+      "words/妹.md",
+      "words/女の子.md",
+      "words/男の子.md",
+      "words/大人.md",
+      "kanji/人.md"
+    ],
+    "assets": [],
+    "grammarPrerequisites": "No new structured grammar/vocabulary coverage rows; retain the complete source explanations of marriage と and resulting-state ている."
+  },
+  "optionalNavigation": "Unadopted kanji and comparative vocabulary links become plain Japanese labels with all source readings/meaning distinctions retained. This includes 親友/同僚/夫婦 and related parent, ancestor and marriage terminology. No invented runtime cards for source-absent 母/父/おばさん/ご主人.",
+  "reviewFocus": [
+    "Read every complete source before freeze. Preserve all original Japanese examples/readings, classifications, exact levels/absent levels and register qualifiers.",
+    "Family reference versus address; long vowels in grandparents versus uncle/aunt; kanji spelling distinctions; no assumption that age labels are welcome direct address.",
+    "兄弟 can include sisters; 姉妹 selects しまい while preserving dictionary special-reading note; counting siblings may include or exclude the speaker depending on question.",
+    "子供/子 and daughter/son meanings are not restricted to small children; 娘 also has an independent young-woman sense. 一人娘 does not exclude brothers.",
+    "友達/友人 differ chiefly in register, not mandatory emotional closeness; no invented acquaintance distinction.",
+    "夫/妻 are not inherently humble grammar; 主人 includes proprietor/master, not universal boss; 奥さん is a social term, not a literal rule about where women belong.",
+    "Review new/combined Russian answer labels and real secondary senses; direct pairs only, no transitive/superordinate cliques."
+  ],
+  "reviewStatus": "pending",
+  "releaseSeparation": "No generated/adopted media, restricted package authority, device tests, pilot-ref movement, runtime activation or checkpoint.",
+  "scope": [
+    "words/祖母.md",
+    "words/祖父.md",
+    "words/おばあさん.md",
+    "words/おじいさん.md",
+    "words/おじさん.md",
+    "words/兄弟.md",
+    "words/姉妹.md",
+    "words/子供.md",
+    "words/子.md",
+    "words/娘.md",
+    "words/息子.md",
+    "words/親戚.md",
+    "words/友達.md",
+    "words/友人.md",
+    "words/夫.md",
+    "words/妻.md",
+    "words/主人.md",
+    "words/奥さん.md",
+    "words/結婚.md"
+  ],
+  "sourceFiles": [
+    {
+      "path": "words/祖母.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "3897d658ea2de5e309e546b252808ade860ce7409597b2e360a314840fb10331",
+      "sourceSha256": "3897d658ea2de5e309e546b252808ade860ce7409597b2e360a314840fb10331"
+    },
+    {
+      "path": "words/祖父.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "20fc39228923be618d38847d43cf9951293aa843dcf9b70be584fc05e9691d07",
+      "sourceSha256": "20fc39228923be618d38847d43cf9951293aa843dcf9b70be584fc05e9691d07"
+    },
+    {
+      "path": "words/おばあさん.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "e063b283bea3c6cb6e70e3a83784450207ec7645301687acd2f58bbe0393cf73",
+      "sourceSha256": "e063b283bea3c6cb6e70e3a83784450207ec7645301687acd2f58bbe0393cf73"
+    },
+    {
+      "path": "words/おじいさん.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "8db45989f986c49201ac73da0c8f2795d2518ebd60c1ed595eb2a49619a98ad4",
+      "sourceSha256": "8db45989f986c49201ac73da0c8f2795d2518ebd60c1ed595eb2a49619a98ad4"
+    },
+    {
+      "path": "words/おじさん.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "1871b26f57d59f67e4fb1adf8a4abdf2a94c3f4872b070f64aadb3e667fc0e64",
+      "sourceSha256": "1871b26f57d59f67e4fb1adf8a4abdf2a94c3f4872b070f64aadb3e667fc0e64"
+    },
+    {
+      "path": "words/兄弟.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "2861e545633aba45524f9ea871ee182ca7c7e3052e5f600b035c44f46f33b701",
+      "sourceSha256": "2861e545633aba45524f9ea871ee182ca7c7e3052e5f600b035c44f46f33b701"
+    },
+    {
+      "path": "words/姉妹.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "49427db4f37f8a230aecd824271422d4c4955ff1970d86fd652399424a46c5a1",
+      "sourceSha256": "49427db4f37f8a230aecd824271422d4c4955ff1970d86fd652399424a46c5a1"
+    },
+    {
+      "path": "words/子供.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "b6c074dde82aa8923e0d7c9c3b9048b9f09f08ef7605f2eadcba55879487083f",
+      "sourceSha256": "cd6c2a124da518c933aae78e69897659d67efb9d714f1ca00bf8bfd8dd34fee5"
+    },
+    {
+      "path": "words/子.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "7c2e8e5f116f4fe7f4ae3feaef6c581c51356e4b1fcddd692c1271ac8dea32ce",
+      "sourceSha256": "7c2e8e5f116f4fe7f4ae3feaef6c581c51356e4b1fcddd692c1271ac8dea32ce"
+    },
+    {
+      "path": "words/娘.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "6ddc0a9daeca559068bbc5b47c69875f16ce428f7c046bb4fbdfeff1b72ad4ae",
+      "sourceSha256": "6ddc0a9daeca559068bbc5b47c69875f16ce428f7c046bb4fbdfeff1b72ad4ae"
+    },
+    {
+      "path": "words/息子.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "c01941ca355a28f4841acc4d9023f43f9b7d8d6cdffadcbd729249af18671127",
+      "sourceSha256": "c01941ca355a28f4841acc4d9023f43f9b7d8d6cdffadcbd729249af18671127"
+    },
+    {
+      "path": "words/親戚.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "5e28e5027e9fc7f77db56caa47d684f4ebaa5f643abb573fd8c42a474faa4e4f",
+      "sourceSha256": "5e28e5027e9fc7f77db56caa47d684f4ebaa5f643abb573fd8c42a474faa4e4f"
+    },
+    {
+      "path": "words/友達.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "ddfa4ef2e11f83d83a9d11d9c648e2a84ba4f89e809318c9427785dacb923b91",
+      "sourceSha256": "6c4c8df7709b4d8fb7de2b5375da1f09006bf59ec8b1fa7cae13edebf6e27c6d"
+    },
+    {
+      "path": "words/友人.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "94d260b2b8b0ba6e21ba43cc43f7a5b808b010e09cbf19943276059aab4448ce",
+      "sourceSha256": "94d260b2b8b0ba6e21ba43cc43f7a5b808b010e09cbf19943276059aab4448ce"
+    },
+    {
+      "path": "words/夫.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "8fe320fcb730c9b5a48156db0993648a45f49f7b17d0ac7fce368fd589f0bba0",
+      "sourceSha256": "8fe320fcb730c9b5a48156db0993648a45f49f7b17d0ac7fce368fd589f0bba0"
+    },
+    {
+      "path": "words/妻.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "008ee22e211ca923ad1dfc9fa3b437a0c1073e3a543903039c4a9f3eedd3b2ca",
+      "sourceSha256": "008ee22e211ca923ad1dfc9fa3b437a0c1073e3a543903039c4a9f3eedd3b2ca"
+    },
+    {
+      "path": "words/主人.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "b707e7142a4d9f893ae3c759c93d371155e1e5cc08409504babb3dfbdb64fe42",
+      "sourceSha256": "b707e7142a4d9f893ae3c759c93d371155e1e5cc08409504babb3dfbdb64fe42"
+    },
+    {
+      "path": "words/奥さん.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "623896305b1bcd7b5581e4d816a2871577d6955c47f96a7cd80d56a07a5d969d",
+      "sourceSha256": "623896305b1bcd7b5581e4d816a2871577d6955c47f96a7cd80d56a07a5d969d"
+    },
+    {
+      "path": "words/結婚.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "f52e6158c49ea578378def8a0591c18a2c970411be89e42fdcbb6352951cc86f",
+      "sourceSha256": "f52e6158c49ea578378def8a0591c18a2c970411be89e42fdcbb6352951cc86f"
+    }
+  ]
+}
