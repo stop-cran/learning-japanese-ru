@@ -8,11 +8,19 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-The fifth full-target source batch is independently accepted: 本,28 complete word articles
+The sixth full-target source batch completes the previously partial listing/examples article:
+all469 frozen English lines are translated, with the57-line prior reviewed Russian adaptation
+retained as a bounded supplement. [Batch006](translation-batches/006-listing-examples-review.json)
+records whole-body three-facet CLEAN review and the optional reviewer-proposed wording polish.
+Runtime membership remains200; statuses are198 reviewed-current, two partial,
+two reviewed runtime-blocked drafts and8,076 pending. No new grammar exercise, vocabulary
+context, media permission, frozen pilot ref or release/device approval is introduced.
+
+The fifth full-target source batch was independently accepted: 本,28 complete word articles
 and one exact KanjiVG file. [Batch005](translation-batches/005-books-study-review.json)
 records whole29-text RU/EN reading,31 complete dictionary objects and154 actual answer labels;
-all three facets CLEAN, no findings. Runtime membership is now200;8,076 frozen objects remain
-pending, three are partial and two reviewed drafts remain runtime-blocked. Continuous source
+all three facets CLEAN, no findings. Runtime membership became200;8,076 frozen objects then remained
+pending, three were partial and two reviewed drafts remained runtime-blocked. Continuous source
 authoring proceeds; no release/device/media permissions or frozen pilot refs change.
 
 The fourth full-target source batch was independently accepted: two kanji, 14 full word

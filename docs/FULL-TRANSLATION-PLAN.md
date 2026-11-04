@@ -264,7 +264,22 @@ The source-based 生 suffix clarification and six individually justified direct 
 recorded with exact hashes and real scope/limits in the
 [batch review](translation-batches/005-books-study-review.json).
 
-Current runtime membership is **200 objects**: 18 kanji,154 words,18 strokes and unchanged
-other families. Full-target statuses are **197 reviewed-current**, three partial,
+After batch005, runtime membership was **200 objects**: 18 kanji,154 words,18 strokes and unchanged
+other families. Full-target statuses were **197 reviewed-current**, three partial,
 two reviewed runtime-blocked drafts and **8,076 pending**; **8,078 runtime paths remain absent**.
+
+Batch **006 — listing and examples** completes the previously partial article, preserving all
+469 frozen English lines' substantive coverage, examples, distinctions and citations.
+The previously reviewed57-line Russian adaptation remains as an explicitly bounded supplement;
+its four existing exercises and reviewed vocabulary contexts are unchanged.
+Independent whole reading of source,536-line Russian candidate and prior adaptation returned
+CLEAN on all three facets. One optional reviewer-proposed phrase now explicitly describes
+not eating rather than possible food unavailability; all other article bytes are unchanged.
+[Exact full review, optional correction and limited narrow recheck](translation-batches/006-listing-examples-review.json)
+distinguish actual reading scope from the terse recheck result.
+
+Current membership remains **200 runtime objects**; full-target statuses are now
+**198 reviewed-current**, **two partial**, two reviewed runtime-blocked drafts and
+**8,076 pending**. The other article and the legacy counter unit still require completion;
+**8,078 runtime paths remain absent**. No checkpoint, media authority or release/device gate moved.
 Continue the finite remaining corpus without retargeting the frozen English revision.

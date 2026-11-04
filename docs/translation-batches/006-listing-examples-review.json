@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "batch": "006-listing-examples",
+  "state": "independently-reviewed-source-accepted",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "originalWholeReviewedRussianCommit": "3afa9a9eeb7a1d1cd2b8a59e222eb9598ee9f207",
+  "correctedRussianCommit": "b935a39477a75a9eeb777268dec5d086ce69a7d7",
+  "exactFileHashes": [
+    {
+      "path": "articles/japanese-listing-and-examples.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "c9afb64d9f341b6b9d854666140de57cbb554495217f67e707ab6ee9065c9bff",
+      "sourceSha256": "ea22f52d520983f12ba0df2872e84cf02c79d30294c6d986e890835bff1727f6",
+      "ruRawSha256": "0b6dc64aff1b26466bdbfbc0561d80587becf6b4f1081cb405b8ff3a0211107c",
+      "ruSha256": "0b6dc64aff1b26466bdbfbc0561d80587becf6b4f1081cb405b8ff3a0211107c",
+      "coverage": "complete"
+    }
+  ],
+  "independentFullReview": {
+    "receipt": "docs/translation-batches/006-listing-examples-initial-review.json",
+    "reviewerAgentId": "76927a00-f8dd-417a-bccb-7966837740ea",
+    "model": null,
+    "actualScope": {
+      "learnerTexts": 1,
+      "fullFrozenEnglish": {
+        "lines": 469,
+        "rawBytes": 26145,
+        "returnedRanges": "1–80,81–160,161–240,241–320,321–400,401–469"
+      },
+      "fullRussianCandidate": {
+        "lines": 536,
+        "workingBytes": 45421,
+        "returnedRanges": "Consecutive60-line ranges through480, then481–536"
+      },
+      "fullPriorApprovedRussianGitBlob": {
+        "lines": 57,
+        "bytes": 4523
+      },
+      "guidance": "All285 global instruction lines,158 scoped lines, all three43/54/44-line reviewer rubrics, entire methodology/format reference, worked-adaptation grammar lines59–110.",
+      "other": "Whole393-line scope and98-line candidate; full315-line existing grammar file; four associated vocabulary-review records.",
+      "missingRanges": [],
+      "outputDiscipline": "All requested line/10000UTF8-byte limits respected; largest numbered-text payload7729bytes. No spill, truncation or recovery exception."
+    },
+    "verdicts": {
+      "japaneseCorrectness": "CLEAN",
+      "adoptedCoverageAndConsistency": "CLEAN",
+      "russianComprehensibility": "CLEAN"
+    },
+    "findings": [],
+    "optional": [
+      {
+        "id": "O1",
+        "path": "articles/japanese-listing-and-examples.md",
+        "candidateLine": 237,
+        "before": "отсутствие еды",
+        "proposed": "то, что человек не ест",
+        "rationale": "Avoid possible food-unavailability reading; surrounding breakfast example already expresses eating versus not eating correctly.",
+        "severity": "optional-not-blocking",
+        "authorDisposition": "Adopt exact proposed phrase, then verify narrow change without claiming another full reread."
+      }
+    ],
+    "limits": [
+      "No writes/edits, tests/builds/generators, agents/workflows/external translators or branch changes.",
+      "Author validation receipts read, not rerun or independently witnessed; normative sites not freshly recaptured.",
+      "No full-corpus/native-speaker/learning-effectiveness/device/publication/checkpoint/release acceptance."
+    ]
+  },
+  "optionalCorrection": {
+    "receipt": "docs/translation-batches/006-listing-examples-corrections.json",
+    "exactChange": {
+      "before": "отсутствие еды — одна из чередующихся ситуаций.",
+      "after": "то, что человек не ест, — одна из чередующихся ситуаций.",
+      "occurrences": 1,
+      "allOtherArticleBytesUnchanged": true,
+      "japaneseExamplesAndClaimsUnchanged": true,
+      "punctuation": "Reviewer proposed phrase adopted with the required clause-closing comma before dash; initial mechanical comparison omitted that comma and correctly failed before tests, corrected comparison proves whole exact clause only."
+    },
+    "sameReviewerFollowupAttempt": "Actual write_agent request to original synchronous reviewer returned: write_agent only supports background agents; original reviewer is sync. No retained followup or reread claimed.",
+    "freshNarrowRecheck": {
+      "reviewer": "GitHub Copilot; ru-006-optional-narrow-recheck",
+      "reviewerAgentId": "fa4b6892-b75b-48a3-9264-d62f29fde1c5",
+      "model": null,
+      "requestedScope": "Exact one-clause diff and surrounding RU/EN negative-scope discussion; no whole-body reread requested.",
+      "actualReturnedText": "No significant issues found in the reviewed changes.",
+      "actualReadRanges": null,
+      "actualFacetEnumeration": null,
+      "limits": "Rechecker returned no detailed range/hash/facet report; do not infer a second full reading or independent reproduction of every requested mechanical check."
+    }
+  },
+  "authorDisposition": "Accept bounded full source after actual whole-body three-facet CLEAN review. The only post-review learner change adopts that full reviewer explicit optional phrase with necessary punctuation; exact replacement proves all other article bytes unchanged. Separate narrow code-review returned no significant issues, without detailed scope/facets; no missing detailed report is invented.",
+  "authorValidation": {
+    "checks": {
+      "validator": {
+        "command": "python tools\\validate.py",
+        "exitCode": 0,
+        "seconds": 0.633,
+        "output": "0 error(s)\r\n"
+      },
+      "unittest": {
+        "command": "python -m unittest discover -s tools -p test_*.py",
+        "exitCode": 0,
+        "seconds": 29.299,
+        "output": "............................................................................................................................\r\n----------------------------------------------------------------------\r\nRan 124 tests in 29.004s\r\n\r\nOK\r\n"
+      },
+      "manifest": {
+        "command": "python tools\\build_manifest.py",
+        "exitCode": 0,
+        "seconds": 0.099,
+        "output": "manifest.json: 200 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version d08ee0aec9ae9cde\r\n"
+      },
+      "budget": {
+        "command": "python tools\\check_content_budget.py",
+        "exitCode": 0,
+        "seconds": 0.251,
+        "output": "{'files': 207, 'entries': 216, 'retainedBytes': 620446, 'inflatedBytes': 633863, 'localZipBytes': 358800, 'listeningTaskMediaBytes': 0}\r\n"
+      }
+    },
+    "signaturesVerified": [
+      "c0faea4e5103a4d5807de42ee6cc55c936ffd060",
+      "3afa9a9eeb7a1d1cd2b8a59e222eb9598ee9f207",
+      "b935a39477a75a9eeb777268dec5d086ce69a7d7"
+    ],
+    "historicalPreservation": "Only the affected current article record updated; other199 records and every non-record tracking section unchanged. Old ledger/pilot/full-review receipts untouched.",
+    "progress": {
+      "runtimeEntries": 8278,
+      "adoptedEntries": 200,
+      "statuses": {
+        "draft-reviewed-runtime-blocked": 2,
+        "partial-reviewed": 2,
+        "pending": 8076,
+        "reviewed-current": 198
+      },
+      "russianContentVersion": "d08ee0aec9ae9cde",
+      "checkpointAuthority": null,
+      "checkpointReady": false,
+      "sha256": "e93477d72b9aed425106c6495b37a873846f1c1e7f44c6a078611d02db3fb1de"
+    }
+  },
+  "releaseSeparation": "No new runtime path/grammar/context/media adopted, no checkpoint/tag authority or ordinary RU activation/device/media/release acceptance."
+}
