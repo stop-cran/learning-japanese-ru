@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "batch": "007-numbers-counters-article",
+  "state": "optional-exact-independent-proposal-adopted",
+  "originalWholeReviewedRussianCommit": "828596d287ab03d9eb8f1acd0c5d780044b59100",
+  "originalFullReview": "docs/translation-batches/007-numbers-counters-article-initial-review.json",
+  "optionalId": "O1",
+  "exactChange": {
+    "before": "Для прошедшего времени используйте 時間",
+    "after": "Для длительности в часах используйте 時間",
+    "occurrences": 1,
+    "allOtherArticleBytesUnchanged": true,
+    "japaneseAndMetadataUnchanged": true
+  },
+  "records": [
+    {
+      "path": "articles/numbers-and-counters.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "62121e5289d25c54b7e0c7048b1158b55a4961fa6bf706371d2aa90ef0a4b19d",
+      "sourceSha256": "b9e2433e7f862524462ec6f1ec307b40c9f74d86a2982ab3d8d716b073dfc930",
+      "ruRawSha256": "3412941e6823439bc4ef4658e4560659fc99216517ec87f7ea4772db8bc978b5",
+      "ruSha256": "3412941e6823439bc4ef4658e4560659fc99216517ec87f7ea4772db8bc978b5",
+      "coverage": "complete"
+    }
+  ],
+  "validation": {
+    "validator": {
+      "command": "python tools\\validate.py",
+      "exitCode": 0,
+      "seconds": 1.281,
+      "output": "0 error(s)\r\n"
+    },
+    "unittest": {
+      "command": "python -m unittest discover -s tools -p test_*.py",
+      "exitCode": 0,
+      "seconds": 44.624,
+      "output": "............................................................................................................................\r\n----------------------------------------------------------------------\r\nRan 124 tests in 44.131s\r\n\r\nOK\r\n"
+    },
+    "manifest": {
+      "command": "python tools\\build_manifest.py",
+      "exitCode": 0,
+      "seconds": 0.118,
+      "output": "manifest.json: 200 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version cb068567cd03248c\r\n"
+    },
+    "budget": {
+      "command": "python tools\\check_content_budget.py",
+      "exitCode": 0,
+      "seconds": 0.304,
+      "output": "{'files': 207, 'entries': 216, 'retainedBytes': 700880, 'inflatedBytes': 714297, 'localZipBytes': 381743, 'listeningTaskMediaBytes': 0}\r\n"
+    }
+  },
+  "manifest": {
+    "runtimeObjects": 200,
+    "contentVersion": "cb068567cd03248c"
+  },
+  "reviewEvidence": "Original independent whole reviewer explicitly proposed this exact replacement; no real finding existed. Apply verbatim optional proposal with actual sole-replacement proof and serial checks, relying on full review for unchanged body. No additional reviewer or post-edit independent reread is claimed.",
+  "additionalPostEditIndependentReview": false
+}
