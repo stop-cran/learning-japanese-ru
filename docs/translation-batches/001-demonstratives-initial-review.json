@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batch": "001-demonstratives",
+  "reviewer": {
+    "identity": "GitHub Copilot",
+    "agentId": "d0f29d9f-8b1a-4faa-9e51-765ffe4c88b9",
+    "model": null,
+    "modelLimit": "Underlying model identity unavailable; not guessed.",
+    "access": "read-only; no edits, tests, builds, publication or ref changes"
+  },
+  "snapshot": {
+    "ruCommit": "1988a0952e79f705ea64729b7da082e02d439f4f",
+    "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "candidateSha256Reported": "6dbbfeb9017d9d5a05b2ebf46185238c4c612199f213084480b2324d6391c745",
+    "hashVerification": "All 23 source raw/normalized and RU working-tree raw/normalized hashes match the candidate. Source bytes equal frozen Git blobs; normalized RU bytes equal candidate-commit blobs.",
+    "tree": "Tracked clean; only pre-existing tools/__pycache__/ untracked.",
+    "manifest": "Exactly 23 text objects added: 81 -> 104, version f9e0d334bb4de818. Existing entries, images and scenes unchanged."
+  },
+  "actualReadingScope": {
+    "completeRussianAndFrozenArticles": [
+      "あそこ", "あちら", "あっち", "あれ", "ここ", "こちら", "こっち", "これ",
+      "この", "そこ", "そちら", "そっち", "それ", "その", "どこ", "どちら",
+      "どっち", "どれ", "どの", "どんな", "こんな", "そんな", "あんな"
+    ],
+    "guidance": "Entire repository instructions (255 logical lines), scoped structure instructions, all three reviewer rubrics, entire format reference and translation methodology.",
+    "evidence": "Entire scope and candidate; dictionary header and all 23 complete query objects, including forms, senses, restrictions and unrelated homophones; all 47 baseline titles verified against baseline headers; all 26 direct-pair rationales and three exact-title pairs; complete RU/frozen NOTICE; frozen word-format/quiz contract and relevant confusable-word sections.",
+    "readIntegrity": "An initial oversized combined instruction read was discarded as incomplete; subsequent bounded reads covered both files completely.",
+    "baselineBodies": "Not reviewed."
+  },
+  "verdicts": {
+    "japaneseCorrectness": "CLEAN for all 23",
+    "adoptedSourceCoverageAndDependencies": "CLEAN for all 23",
+    "russianAnswerClarity": "NEEDS FIX for 15 files participating in findings",
+    "russianComprehensionClean": ["あそこ", "ここ", "そこ", "どこ", "どんな", "こんな", "そんな", "あんな"]
+  },
+  "coverageObservations": [
+    "All source examples/readings, spelling notes and substantive distinctions survive.",
+    "Levels remain 20 N5, two N4, one N3; inherited あんな–そんな exclusion retained.",
+    "All 79 Russian relative links resolve.",
+    "Plain 何方 and audience-independent その explanation preserve intended material.",
+    "NOTICE attribution/license continuity is honest."
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "severity": "medium",
+      "facet": "Russian answer ambiguity",
+      "locations": ["words/こちら.md:4,16,32", "words/こっち.md:4,15", "words/あちら.md:4,32", "words/あっち.md:4,32", "words/そちら.md:4,16", "words/そっち.md:4,21", "words/これ.md:4", "words/それ.md:4", "words/あれ.md:4"],
+      "claim": "Object/person uses cross direction-only exclusion families. A bare こっち question can offer both intended сюда and это; этот предмет, although its adopted meaning includes этот вариант. あっち includes object selection, making вон то a valid alternative. Existing pairs cover place/direction but not ordinary object/person readings.",
+      "directPairs": [
+        ["こちら", "これ"], ["こちら", "それ"], ["こちら", "あれ"],
+        ["こちら", "あちら"], ["こちら", "あっち"], ["こちら", "そちら"], ["こちら", "そっち"],
+        ["こっち", "これ"], ["こっち", "それ"],
+        ["あちら", "これ"], ["あちら", "それ"], ["あちら", "あれ"],
+        ["あっち", "これ"], ["あっち", "それ"], ["あっち", "あれ"],
+        ["そちら", "これ"], ["そちら", "それ"], ["そちら", "あれ"],
+        ["そっち", "これ"], ["そっち", "それ"], ["そっち", "あれ"]
+      ],
+      "evidence": "Full source/RU articles; dictionary families 1004500 senses 3/5, 1483185 senses 2/3, 1006780 senses 3/5, 1000580 sense 2. Russian это does not encode Japanese proximity; этот человек does not encode politeness. Extra dictionary person senses justify quiz protection, not an expansion requirement.",
+      "remedy": "Add the identified direct pairs or make labels demonstrably disjoint while retaining valid meanings. No transitive closure implied.",
+      "confidence": "High for object overlaps; medium-high for person-label overlaps."
+    },
+    {
+      "id": "F2",
+      "severity": "medium",
+      "facet": "Russian answer ambiguity",
+      "locations": ["words/この.md:4,15", "words/その.md:4,18,32", "words/これ.md:4", "words/それ.md:4", "words/あれ.md:4"],
+      "claim": "Modifier labels remain compatible with unrestricted demonstrative labels. Этот (перед существительным) does not uniquely separate この from その: the latter translates その映画 as Этот фильм. Unrestricted Russian это/то have attributive uses; qualifying only one competing label does not make the other interpretation false.",
+      "directPairs": [
+        ["この", "その"], ["この", "これ"], ["この", "それ"],
+        ["その", "これ"], ["その", "それ"], ["その", "あれ"]
+      ],
+      "evidence": "Actual labels/examples and frozen entries 1582920/1006830, sense 1. This is Russian-label ambiguity, not interchangeability of Japanese standalone and modifying forms.",
+      "remedy": "Direct exclusions or explicit mutually discriminating standalone/modifier and reference qualifications.",
+      "confidence": "High for この–その; medium-high for other label-level pairs."
+    },
+    {
+      "id": "F3",
+      "severity": "medium",
+      "facet": "Russian answer ambiguity",
+      "locations": ["words/どの.md:4,15", "words/どれ.md:4", "words/どちら.md:4", "words/どっち.md:4"],
+      "claim": "Unrestricted selection labels overlap どの. Который из нескольких and который из двух describe selection meanings also available to どの. Those labels do not restrict themselves to standalone use; only どの's label supplies the syntactic qualification.",
+      "directPairs": [["どの", "どれ"], ["どの", "どちら"], ["どの", "どっち"]],
+      "evidence": "Frozen どの article's understood selection set; JMdict 1920240 sense 1 and 1189360 sense 2. No size restriction excludes two alternatives from どの.",
+      "remedy": "Add the three direct exclusions or explicitly disambiguate standalone versus noun-modifying labels.",
+      "confidence": "Medium-high."
+    }
+  ],
+  "optional": "No prose-polishing requirement. Existing 26 exclusions are defensible independently; three identical-title pairs need no additional exclusions. No new baseline-title overlap established.",
+  "limits": [
+    "Author-reported validation not rerun.",
+    "Signature header observed; cryptographic verification not performed by reviewer.",
+    "API usually-kana tags do not independently verify every rare-spelling flag; explicit frozen rarity notes retained as inherited evidence.",
+    "No app/device/media/native-speaker acceptance or whole-corpus certification."
+  ],
+  "authorAdjudication": {
+    "disposition": "All three findings accepted for correction; none self-approved as resolved.",
+    "reason": "Actual bare-word Russian answer labels underdetermine viewpoint and syntactic placement. Full source/dictionary senses confirm the individual ordinary overlaps. Preserve all valid meanings and source levels; add exactly the 30 identified direct pairs without transitive expansion.",
+    "narrowRecheck": "pending"
+  }
+}
