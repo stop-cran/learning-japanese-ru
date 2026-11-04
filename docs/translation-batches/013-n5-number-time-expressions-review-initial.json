@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "batch": "013-n5-number-time-expressions",
+  "state": "actual-whole-independent-review-one-russian-finding-unresolved",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "reviewedCandidateCommit": "ca6162004c914538efe3f54a8ddc4c9f2ea8e635",
+  "preauthoringFreezeCommit": "9978a296bf56b6a551b23ce6cc9eae92c29ddd53",
+  "candidateRecordWorkingRawSha256": "2ed16aabb72b4de82bbecee0010a66c4a6ac1e6feda7a9c81950bd5c11afcbff",
+  "reviewer": {
+    "agentId": "fdfce6e5-a70e-4a7e-80a5-69938a31764c",
+    "name": "ru-013-whole-expression-review",
+    "type": "general-purpose",
+    "mode": "synchronous-read-only",
+    "model": null
+  },
+  "reportRepresentation": "Structured transcription of the actual returned independent report, not an invented tool transcript or native certificate. Original report remains in the identified reviewer conversation.",
+  "actualReadingScope": {
+    "completeSourceFiles": 11,
+    "completeRussianFiles": 11,
+    "sourceLines": 2064,
+    "russianLines": 2064,
+    "expressions": 122,
+    "russianLearnerTextLeaves": 255,
+    "writtenAnswerOccurrences": 392,
+    "readingAnswerOccurrences": 149,
+    "groups": {
+      "everyday": 17,
+      "time": 105
+    },
+    "scope": "Personally read every complete EN/RU title, cue, explanation, canonical expression, accepted-answer array, ID, metadata field and source URL, not only projections or samples.",
+    "support": [
+      "Complete RU/EN articles/numbers-and-counters.md:987/856lines",
+      "Complete RU/EN counters/native.json:22/29lines, one reused expression",
+      "Current general instructions, all three named actual reviewer rubrics, methodology, content-format reference and worked adaptations",
+      "Scoped counter guidance88–134 before the new Russian-declension lesson",
+      "Complete frozen docs/counter-n5.md:all220actual lines",
+      "FULL-TRANSLATION-PLAN.md1–228 and421–457:current owner authorization/release separation/latest012–013boundary",
+      "Candidate/preparation/source-evidence/adjudication records; scope metadata/fingerprints"
+    ],
+    "supportBoundary": "Support objects remain unchanged accepted baseline reuse, not additional013acceptance objects."
+  },
+  "actualFingerprintChecks": {
+    "allElevenSourceAndRuWorkingRawAndNormalizedLfMatch": true,
+    "sourceGitBlobsMatchFrozenScope": true,
+    "ruGitBlobsMatchNormalizedWorkingFiles": true,
+    "newElevenRawAndLfDomainsCoincide": true,
+    "all305BaselineWorkingRawHashesMatch": true,
+    "baselineCrLfObjects": 161,
+    "trackingAndProgressUnchangedAccepted012Baseline": true,
+    "githubCandidateSignatureAndRemoteBranchVerified": true,
+    "signatureBoundary": "Reviewer observed GitHub verified/valid, not independent local cryptographic verification. Author separately verified local GPG signature when sealing."
+  },
+  "facets": {
+    "japaneseCorrectness": {
+      "verdict": "CLEAN",
+      "reason": "No actionable defect in adopted selection. Age/year, floor/occurrence, clock/duration, calendar/day/duration senses and all intended variants preserved; canonical readings do not derive from alternate written forms."
+    },
+    "adoptedCoverageConsistencyC1": {
+      "verdict": "CLEAN",
+      "reason": "All255leaves fully Russian, source qualifiers/forms retained, all technical/Japanese arrays unchanged, eleven existing article references resolve; no new word/card/grammar/media edges or word-quiz pool changes."
+    },
+    "russianComprehensibility": {
+      "verdict": "NEEDS FIX",
+      "reason": "Otherwise self-contained and understandable; F1is one real numeral-declension error."
+    }
+  },
+  "findings": [
+    {
+      "id": "F1",
+      "severity": "minor",
+      "facet": "russianComprehensibility",
+      "path": "counters/days.json",
+      "line": 210,
+      "expressionId": "days-expression-13",
+      "actualCue": "Длительность: 24 дней, не календарная дата.",
+      "suggestedCue": "Длительность: 24 дня, не календарная дата.",
+      "problem": "After24 Russian requires дня, not дней:final component four outside11–14 exception. Visible grammatical error, not Japanese-answer/quantity error.",
+      "confidence": "high",
+      "statusAtReturn": "unresolved",
+      "technicalChangesRequired": false
+    }
+  ],
+  "actualPersonallyReadExternalReferences": [
+    {"url": "https://www.tofugu.com/japanese/japanese-counter-ji-jikan/", "sections": "Complete clock/hour tables, minute composition, 半 and duration usage"},
+    {"url": "https://www.tofugu.com/japanese/japanese-counter-fun/", "sections": "Complete pronunciation table and time/duration sections"},
+    {"url": "https://www.tofugu.com/japanese/japanese-counter-tsuki-gatsu-getsu/", "sections": "Native-duration/か月tables, six spellings, calendar-month table and July clarification"},
+    {"url": "https://www.tofugu.com/japanese/japanese-counter-ka-nichi/", "sections": "Pronunciation table, 一日, 八日, 十四日 and XX十四日, 二十日 and ordinary-day usage;24-day alternate directly supported in personally read XX十四日 section"},
+    {"url": "https://www.tofugu.com/japanese/japanese-counter-kai-floors/", "sections": "Pronunciation table and floor identification"},
+    {"url": "https://www.tofugu.com/japanese/japanese-counters-nen/", "sections": "Pronunciation table and year-duration usage"},
+    {"url": "https://www.tofugu.com/japanese/japanese-counters-list/", "sections": "Actual歳and週sections"}
+  ],
+  "consequentialUnresolvedJapaneseUncertainty": null,
+  "disposition": "One minor Russian correction required before whole-batch source/text acceptance. No independent approval of post-correction bytes yet.",
+  "limits": [
+    "Uncontracted age/week omissions are bounded authored selection, not proof unlisted readings impossible.",
+    "Original IrodoriPDFs/printed dictionaries not consulted; not every inherited reference independently re-established.",
+    "No native proficiency/exhaustive-alternative/parser/grader/Android/phone/IME/media/activation/release certificate.",
+    "One read-only review; no nested agents, edits, report files, tests/builds, app inspection or external AI translation services."
+  ]
+}

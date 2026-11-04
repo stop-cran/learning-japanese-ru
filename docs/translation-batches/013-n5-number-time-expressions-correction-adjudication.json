@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "batch": "013-n5-number-time-expressions",
+  "state": "exact-f1-correction-applied-pending-focused-independent-recheck",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "initialReviewedCandidateCommit": "ca6162004c914538efe3f54a8ddc4c9f2ea8e635",
+  "initialReview": {
+    "path": "docs/translation-batches/013-n5-number-time-expressions-review-initial.json",
+    "workingRawSha256": "ba510e24906387c02fe8a6bb32a0b60d706cf974e3925464d56128ffbe185d27"
+  },
+  "finding": {
+    "id": "F1",
+    "severity": "minor",
+    "facet": "russianComprehensibility",
+    "path": "counters/days.json",
+    "line": 210,
+    "expressionId": "days-expression-13",
+    "actualCue": "Длительность: 24 дней, не календарная дата.",
+    "suggestedCue": "Длительность: 24 дня, не календарная дата.",
+    "problem": "After24 Russian requires дня, not дней:final component four outside11–14 exception. Visible grammatical error, not Japanese-answer/quantity error.",
+    "confidence": "high",
+    "statusAtReturn": "unresolved",
+    "technicalChangesRequired": false
+  },
+  "appliedCue": "Длительность: 24 дня, не календарная дата.",
+  "exactDelta": "Only days-expression-13cue changed24дней→24дня. Other254Russian leaves, all Japanese/technical/answer fields, quantities, every other new file and all305baseline RAW runtime objects unchanged.",
+  "sourceAmendmentRequired": false,
+  "sourceAmendmentReason": "No Japanese/source technical/coverage/dependency change; one Russian declension repair within already frozen localizable cue field.",
+  "activeGuidance": {
+    "path": ".github/instructions/content-structure.instructions.md",
+    "workingRawSha256": "cc38d1930684842b8ff20cb191e64ecc103eee2b381357c103f6edd08518369c",
+    "actualChange": "Exactly two added counter-guidance lines:inspect actual numeral declensions,24дняvs14дней; repeated templates/JSONvalidation do not establish Russian grammar."
+  },
+  "reviewerContinuityLimit": "Initial reviewer was synchronous; this tool mode cannot accept same-task messages, as evidenced in prior012attempt. Request one fresh narrower read-only correction proof, not another whole-batch review/facet fleet.",
+  "reviewStatus": "pending",
+  "independentRechecker": null,
+  "limits": "Author correction/proof and serial checks, not self-approval or device/native/release/checkpoint authority."
+}
