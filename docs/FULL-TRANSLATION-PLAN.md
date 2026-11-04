@@ -439,8 +439,8 @@ did not supply reading scope or resolve U1 and is not substituted for the actual
 The historical range capture remains immutable even though the fresh haiku-page RAW changed;
 the actual target fields were checked, and original printed-book consultation is not claimed.
 
-Current membership is **305 runtime objects**, including11 counter files. Fresh strict8278-entry
-progress has **305 reviewed-current**, **no partial units**, **two reviewed runtime-blocked drafts**
+At the batch012 milestone membership was **305 runtime objects**, including11 counter files. Its strict8278-entry
+progress had **305 reviewed-current**, **no partial units**, **two reviewed runtime-blocked drafts**
 and **7,971 pending**; **7,973 runtime paths remain absent**. Only the current partial-tsu
 tracking record was replaced after real full-scope review; its Pilot B receipts remain historical.
 All295 other earlier tracking records/canonical runtime blobs and all non-record sections stay
@@ -452,6 +452,38 @@ Actual final serialized checks:0 validator errors,124 tests passed in43.252s; fi
 Native/editor certification, exhaustive counter alternatives, Android range/full-phrase grading
 and ordinary activation/device/media/release tests remain unperformed/separately gated; source
 acceptance does not erase those bounds or move any frozen pilot/controlled ref.
-Continue the finite frozen corpus: the next safe proposed lane is eleven missing N5 schema2
-number/time files with122 expressions, whose complete source bodies have now been read;
-that next scope is not yet frozen or authored.
+The next proposed lane at that time was eleven missing N5 schema2 number/time files.
+It was subsequently frozen, authored and reviewed as013 below.
+
+Batch **013 — N5 number/time expressions** completes eleven schema2 files and122 expressions:
+age/floor, clock/minutes, calendar months/dates and durations in hours/days/weeks/months/years.
+All255 learner-text leaves are Russian;392 written-answer and149 reading-answer occurrences retain
+the exact frozen Japanese values, canonical-versus-alternate-reading boundaries, IDs and metadata.
+The single already-reviewed native expression and complete numbers article are unchanged support,
+not new013 acceptance objects or duplicated exercise identities.
+
+[Actual composite review](translation-batches/013-n5-number-time-expressions-review.json) preserves
+whole2064EN/2064RU-line reading, all122 complete pairs and full987RU/856EN-line article support.
+Japanese correctness and adopted coverage were CLEAN; one actual Russian finding required
+`24 дней` → `24 дня`. The exact one-cue repair was independently read and rechecked, together with
+the two added active-guidance lines about actual numeral declensions. Other254 Russian leaves,
+all Japanese/technical/accepted forms, other ten new files and all305 baseline RAW runtime objects
+remain unchanged. This narrower proof is not a second whole122-expression semantic review.
+The original NEEDS FIX report remains historical; all three composite source/text facets are CLEAN.
+
+Current membership is **316 runtime objects**:18 kanji,250 words,18 strokes,2 articles,22 counter
+files,1 grammar set,2 scene catalogs and3 images. Fresh strict8278-entry progress has
+**316 reviewed-current**, **no partial units**, **two reviewed runtime-blocked drafts** and
+**7,960 pending**; **7,962 runtime paths remain absent**. All305 earlier tracking records and
+non-record sections are unchanged. Checkpoint authority remains null and checkpointReady false.
+This is not completion of the full corpus or all N5 teaching.
+
+Actual final serialized checks:0 validator errors,124 tests passed in28.490s; final budget
+323files/332entries/1077037retained/1090454inflated/534880localZIP bytes. Version is
+`2d5ac8dd3491a7de`. Explicit date-validity/day-only,週間 andか月-unit constraints survive;
+unlisted readings are not declared impossible. No new word-quiz guards/tags, grammar-vocabulary
+contexts, media/assets or concurrent app changes were made. Original PDFs/printed dictionaries
+were not newly consulted, and automated editorial evidence is not native/exhaustive/parser/
+Android/phone/IME/media/activation/release approval. C6/C7 and four frozen pilot/controlled refs
+remain separate and unchanged. Continue remaining N5 calendar/time words, freezing their actual
+direct dependency/negative-reference closure before authoring, then continue all remaining families.

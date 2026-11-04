@@ -8,7 +8,24 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-The twelfth full-target source batch completes the full ten-file N5 schema1 counter component:
+The thirteenth full-target source batch completes eleven missing N5 schema2 number/time files:
+122 complete expressions,255 Russian learner-text leaves,392 written-answer occurrences and149
+reading-answer occurrences. [Batch013](translation-batches/013-n5-number-time-expressions-review.json)
+records actual whole2064EN/2064RU-line reading and one genuine minor finding: `24 дней` required
+`24 дня`. The exact cue-only correction and two-line active guidance lesson were independently
+rechecked; all other254 leaves, all Japanese/technical/accepted data and all305 prior runtime
+RAW fingerprints remain unchanged. The narrower check is not a second whole122-expression review.
+Current membership is316; strict8278-entry statuses are316reviewed-current, no partial, two reviewed
+runtime-blocked drafts and7,960pending, with7,962runtime paths absent. All305 earlier tracking
+records/non-record sections remain unchanged; checkpoint authority is null and Ready remains false.
+Final serialized checks:0errors/124tests28.490s; budget323files332entries1077037retained/
+1090454inflated/534880localZIP bytes; version `2d5ac8dd3491a7de`.
+Calendar/timepoint/duration and canonical-versus-alternate-reading constraints survive in Russian.
+No word-quiz/grammar/media/app changes or native/exhaustive/parser/device/activation approval follows.
+Continue remaining N5 calendar/time words against the same finite frozen source, with actual direct
+dependency/negative-reference closure frozen before the next authoring batch.
+
+The twelfth full-target source batch completed the full ten-file N5 schema1 counter component:
 nine new files plus completion of the partial `tsu.json`,124forward cards/20reverse fixtures/
 80live option contexts/191Russian text leaves. [Batch012](translation-batches/012-n5-counter-closure-review.json)
 preserves the initial whole review and actual findings: six wrong `回` choices admitted action
@@ -18,15 +35,15 @@ values stayed unchanged. Direct full-range evidence resolved the language/bounde
 not Android normalization or native/editor/exhaustive-grading acceptance.
 The actual narrower adjudication read12complete current/source/initial records and four live
 reverse nouns; a generic interim result was not counted as scoped evidence.
-Current membership is305; statuses are305reviewed-current, no partial, two reviewed runtime-blocked
+At that milestone membership was305; statuses were305reviewed-current, no partial, two reviewed runtime-blocked
 drafts and7,971pending, with7,973runtime paths absent. All295other prior tracking records/runtime
 blobs and non-record sections remain unchanged; old partial-tsu receipts remain historical.
 Final serialized checks:0errors/124tests43.252s, budget312files321entries984818retained/
 998235inflated/520508localZIP bytes; version `e82c69299a2d0bbe`.
 No word-tag/app/media/frozen-ref/checkpoint authority changed. C6/C7 and historical automatic
 grading/native/device bounds still gate activation/release, not independent text authoring.
-Continue with the proposed eleven missing N5 schema2 number/time files,122expressions:
-complete source bodies read, but the next scope is not yet frozen or authored.
+The next proposed lane at that time was eleven missing N5 schema2 number/time files;
+that scope was subsequently frozen, authored and reviewed as013 above.
 
 The eleventh full-target source batch completed21 full N5 stationery/personal-object articles.
 [Batch011](translation-batches/011-stationery-personal-objects-review.json) records actual
