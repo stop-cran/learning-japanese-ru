@@ -238,7 +238,20 @@ wife label is «жена другого человека (уважительно
 [Full review, exact corrections and bounded recheck](translation-batches/003-kinship-relationships-review.json)
 separate actual reading from unchanged-body reliance and record all limitations.
 
-Current runtime membership is **152 objects**: 15 kanji, 112 words, 15 strokes and unchanged
-other families. Full-target statuses are **149 reviewed-current**, three partial,
+After batch 003, runtime membership was **152 objects**: 15 kanji, 112 words, 15 strokes and unchanged
+other families. Full-target statuses were **149 reviewed-current**, three partial,
 two reviewed runtime-blocked drafts and **8,124 pending**; **8,126 runtime paths remain absent**.
 Continue sequential authoring against the same frozen source; release/device/media gates remain.
+
+Batch **004 — entry and exit** completes two N5 kanji, 14 full word articles and two
+byte-identical KanjiVG files. Independent full reading of all 16 RU/EN texts and captured
+dictionary evidence returned CLEAN on all three facets, including the inherited 入り口
+reading-table correction and the bounded Russian ～出す/～始める comparison. The latter is
+not adoption of the whole optional source article.
+[Exact hashes, actual review scope and limits](translation-batches/004-entry-exit-review.json)
+remain separate from public-archive CI evidence and all release/device/media gates.
+
+Current runtime membership is **170 objects**: 17 kanji, 126 words, 17 strokes and unchanged
+other families. Full-target statuses are **167 reviewed-current**, three partial,
+two reviewed runtime-blocked drafts and **8,106 pending**; **8,108 runtime paths remain absent**.
+Continue the finite remaining corpus without retargeting the frozen English revision.

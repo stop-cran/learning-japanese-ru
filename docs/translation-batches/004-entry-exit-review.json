@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "batch": "004-entry-exit",
+  "state": "independently-reviewed-source-accepted",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "reviewedRussianCommit": "ba4b93a0844fa9b138194857877947d0544326e6",
+  "exactFileHashes": "docs/translation-batches/004-entry-exit-candidate.json",
+  "independentReview": {
+    "reviewer": "GitHub Copilot; ru-004-readonly-review",
+    "model": null,
+    "modelLimit": "Unavailable, not guessed.",
+    "actualScope": {
+      "learnerTexts": 16,
+      "fullRussianAndFrozenEnglish": true,
+      "paths": "All two kanji and 14 words listed in the exact scope/candidate.",
+      "dictionary": "Complete captured 14-query dictionary record, including forms, senses and restrictions.",
+      "other": "All three reviewer specifications, active global/scoped instructions, methodology, format reference, worked adaptations, complete scope/candidate records, current NOTICE/LICENSE, baseline 人/山/口 cards, stroke geometry, exact optional source article lines119–132 and287–294.",
+      "baselineAnswerLabels": 112,
+      "newAnswerLabels": 14,
+      "allBaselineBodies": false,
+      "incompleteAssignedLearnerReads": []
+    },
+    "verdicts": {
+      "japaneseCorrectness": "CLEAN",
+      "adoptedCoverageAndConsistency": "CLEAN",
+      "russianComprehensibilityAndCombinedPool": "CLEAN"
+    },
+    "verification": [
+      "All 18 sourceRaw/source-LF/RU-working-raw/RU-LF records match their stated byte domains.",
+      "Both strokes match exact frozen Git blobs byte-for-byte; 入 raw SHA256 ccb03e1d981037637ddd70f5865ad1a99054685e4165ee391fe4a691bddc5341, 出 c76a556f12ac13340c996946d9f171259ca55f93c45eee806b60787b178756c8.",
+      "Immutable freeze is candidate parent; scope unchanged. Manifest exactly152 to170, no old learner/manifest changes, recomputed version60c0dada3d7c31bf.",
+      "All technical metadata/levels including 出入口 N2 and mandatory distractors preserved; all60 relative-link occurrences resolve.",
+      "入り口 derivation correction supported by frozen 入口 and captured forms; はいりぐち not declared impossible. Actual geometry supports long/short proportions, not reversed stroke order.",
+      "Rare/literary readings, origin qualifiers, transitivity, potential はいれる, particles, resulting states, ところ contexts and institutional-status distinctions survive.",
+      "出す concise inline comparison supported by exact source article ranges; ます-stem, neutral/salient onset, deliberate action and lexical-compound limits retained. 消す rule no longer depends on English.",
+      "All12 actual direct guards individually justified; no confirmed overbroad guard or high-confidence missing pair. No transitive clique or universal noun/verb equivalence.",
+      "Optional navigation retains explanations, no invented spelling aliases/runtime article/media; NOTICE covers dictionary material and separate KanjiVG CC BY-SA3.0."
+    ],
+    "findings": [],
+    "limits": [
+      "Recorded124-test/zero-validator/budget results read, not rerun or independently witnessed.",
+      "Signature headers observed, not cryptographically verified; author verifies separately.",
+      "Dictionary services not independently re-fetched; supplemental frozen policy/NOTICE documents read in relevant excerpts.",
+      "Baseline label reading does not claim reading112 baseline bodies.",
+      "Read-only: no writes, tests/builds, delegation, publication/ref changes, concurrent app/ordinary EN access.",
+      "No CI-success, native/device/media/activation/checkpoint or whole-corpus acceptance claim."
+    ]
+  },
+  "authorDisposition": "Accept the bounded16-text complete source translation after actual independent full three-facet review, with no established finding. No learner bytes changed after reviewed snapshot.",
+  "releaseSeparation": "No media-package authority, ordinary RU activation, checkpoint/tag advancement or app/device acceptance.",
+  "authorValidation": {
+    "manifest": {
+      "command": "python tools\\build_manifest.py",
+      "exitCode": 0,
+      "output": "manifest.json: 170 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 60c0dada3d7c31bf\r\n"
+    },
+    "validator": {
+      "command": "python tools\\validate.py",
+      "exitCode": 0,
+      "output": "0 error(s)\r\n"
+    },
+    "unittest": {
+      "command": "python -m unittest discover -s tools -p test_*.py",
+      "exitCode": 0,
+      "output": "............................................................................................................................\r\n----------------------------------------------------------------------\r\nRan 124 tests in 39.410s\r\n\r\nOK\r\n"
+    },
+    "budget": {
+      "command": "python tools\\check_content_budget.py",
+      "exitCode": 0,
+      "output": "{'files': 177, 'entries': 186, 'retainedBytes': 503618, 'inflatedBytes': 517035, 'localZipBytes': 308693, 'listeningTaskMediaBytes': 0}\r\n"
+    },
+    "scope": "All four checks ran serially on exact reviewed runtime candidate; final documentation/tracking edits do not change exported runtime bodies. Final validator/budget/manifest rerun below.",
+    "signaturesVerified": [
+      "058b2ada35f8059e4008c05800bfc60abcec37cf",
+      "b5ba80c79bf0c315696684fd82fed570aa010c04",
+      "ba4b93a0844fa9b138194857877947d0544326e6"
+    ],
+    "progress": {
+      "runtimeEntries": 8278,
+      "adoptedEntries": 170,
+      "statuses": {
+        "draft-reviewed-runtime-blocked": 2,
+        "partial-reviewed": 3,
+        "pending": 8106,
+        "reviewed-current": 167
+      },
+      "russianContentVersion": "60c0dada3d7c31bf",
+      "checkpointAuthority": null,
+      "checkpointReady": false,
+      "sha256": "6c2a59605e5e98dc8eb469780196f7eb34360f3bc9db2f432e6487288bba1766"
+    },
+    "historicalPreservation": "All152 prior current-tracking records and all other tracking sections unchanged; immutable historical ledger and pilot/full-review records untouched."
+  }
+}

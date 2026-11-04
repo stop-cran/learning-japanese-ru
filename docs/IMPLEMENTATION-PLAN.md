@@ -8,10 +8,17 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-The third full-target source batch is independently accepted: 19 complete kinship/relationship
+The fourth full-target source batch is independently accepted: two kanji, 14 full word
+articles and two exact KanjiVG files. [Batch 004](translation-batches/004-entry-exit-review.json)
+records actual full reading of all16 RU/EN texts, source-based reading-table correction
+and bounded grammar adaptation; all three facets CLEAN, no findings. Runtime membership
+is now170; 8,106 frozen objects remain pending, three are partial and two reviewed drafts
+remain runtime-blocked. Continuous source authoring and separate release gates remain.
+
+The third full-target source batch was independently accepted: 19 complete kinship/relationship
 word articles, actual full review and an exact six-pair correction recheck.
 [Batch 003](translation-batches/003-kinship-relationships-review.json) preserves Japanese facts,
-all original pairs, dictionary restrictions and review limits. Runtime membership is now 152;
+all original pairs, dictionary restrictions and review limits. Runtime membership then became 152;
 8,124 frozen objects remain pending, three are partial and two reviewed drafts remain
 runtime-blocked. Continue the next safe source batch; no release/media/device gate changed.
 
