@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "batch": "012-n5-counter-closure",
+  "state": "new-actual-author-evidence-pending-independent-focused-recheck",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "unmodifiedCandidateCommit": "cac1da11da53e266d7402994a71b943725811688",
+  "priorEvidencePreserved": "docs/translation-batches/012-n5-counter-closure-source-evidence.json",
+  "initialIndependentReview": "docs/translation-batches/012-n5-counter-closure-review-initial.json",
+  "rangeEvidence": [
+    {
+      "url": "https://www2.yamanashi-ken.ac.jp/~itoyo/basho/shitibusyu/sarumino50.htm",
+      "capturedAt": "2026-11-04T21:56:01.340842+00:00",
+      "rawSha256": "20e3fb62213be70f21d72b41d71e761da7f89d9300486fab9d4fb5827a67d7d4",
+      "actualDecoding": "HTTP had no charset; HTML declared shift_jis. Fresh actual bytes decoded strictly cp932, not the unreadable UTF-8 web-tool output.",
+      "actualReadingScope": "Only targeted 五六本 / ごろっぽん and adjacent academic commentary contexts, not full13281-character chapter",
+      "factualAttestation": "University-hosted 猿蓑 annotation explicitly renders written 五六本 with ごろっぽん in a wooden-log context.",
+      "privateCaptureRawSha256": "b0d3dd32951659bc90fea8fa6fe4ea481f4e85b2aa0e8639ff9c84fad89821de",
+      "limits": "Historical verse annotation, not a modern Android parser/input test, native-speaker interview or fresh whole-book review."
+    },
+    {
+      "url": "https://haikudatabase.com/haikus/5793",
+      "capturedAt": "2026-11-04T21:59:25.176943+00:00",
+      "rawSha256": "d67d0baf7e86f9a23236acae1c46ad401de0e9f0b3d2674b310db0a4349cc077",
+      "actualDecoding": "Fresh bytes decoded strictly utf-8; actual written title and kana verified, not only a search snippet",
+      "actualReadingScope": "Actual original written title, explicit kana reading, author and source citation;619-character rendered page body",
+      "factualAttestation": "五六本 is explicitly read ごろっぽん in a willow-tree context; author 向井去来1651–1704.",
+      "reportedPrintSource": "三省堂 虚子編 新歳時記 増訂版 一七七頁",
+      "privateCaptureRawSha256": "04916bf01d66c756dc43b645763e03a2e3c3df0b12d469e0f8157e92d1da29e5",
+      "limits": "Original printed book not consulted; no poem or commentary text imported into runtime or committed evidence."
+    }
+  ],
+  "declaredRangeAnswerPolicy": {
+    "cardId": "hon-approx-1",
+    "quantitySense": "Approximately five or six trees, never56",
+    "canonicalWritten": "五、六本",
+    "canonicalReading": "ごろっぽん",
+    "retainedGood": [
+      "本",
+      "五、六本",
+      "五六本"
+    ],
+    "retainedKanaAndReadingAnswers": [
+      "ごろっぽん"
+    ],
+    "interpretation": "Bare 本 is the existing legacy suffix answer; both full orthographies denote the same approximate adjacent-number phrase. The comma separates the adjacent values, not an additional spoken syllable. Exact unpunctuated whole phrase/kana now directly attested.",
+    "unchangedAndBounded": "No new accepted form, numeral conversion, parser rule or claim that all valid alternatives are enumerated. Existing five/six-language and authored-acceptance policy proposed for independent text review.",
+    "stillUnperformed": "Native/editor certification, Android range normalization and exact full-phrase/reading handling remain unperformed historical automatic-grading/release tests, not supplied by these pages."
+  },
+  "negativeChoiceEvidenceActuallyReread": [
+    {
+      "url": "https://www.tofugu.com/japanese/japanese-counter-hon/",
+      "simplifiedTextOffsets": [
+        0,
+        14000
+      ],
+      "relevantFacts": "Bottled drinks use 本; actual pen/pencil/tree/stem categories. Bare お茶 therefore cannot be assumed incompatible with 本."
+    },
+    {
+      "url": "https://www.tofugu.com/japanese/japanese-counter-kai-times/",
+      "simplifiedTextOffsets": [
+        0,
+        12000
+      ],
+      "relevantFacts": "回 counts repeated actions/regular events and can count a single occurrence. Purchase/giving/placing/drinking/carrying repetitions remain valid meanings in the six actual visible prompts."
+    },
+    {
+      "frozenPath": "counters/hon.json",
+      "cardId": "hon-film-1",
+      "relevantFacts": "Existing explicit source note excludes 回 as a wrong option because it instead counts viewings; same visible-context principle applies to the reported six action cards."
+    }
+  ],
+  "discoveryAndFailureLimits": [
+    "Google exact-phrase requests returned JavaScript bootstrap, no lexical evidence; Bing exact-phrase request failed transport. Yahoo search snippets were discovery only; direct pages above supplied evidence.",
+    "Direct なつかし亭2021-03-28 page also explicitly paired the phrase/kana in a heading; not needed as principal evidence and no verse text adopted.",
+    "Broad 五六 dictionary search surfaced surname/fictional-person/dice senses, not a dictionary proof of this range; none adopted."
+  ],
+  "reviewStatus": "pending",
+  "independentRechecker": null,
+  "limits": "New actual author research, not a clean verdict, source-wide native/editor acceptance, exhaustive grading proof or device/release authority."
+}

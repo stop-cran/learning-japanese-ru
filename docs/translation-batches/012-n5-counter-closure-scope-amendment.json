@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "batch": "012-n5-counter-closure",
+  "state": "bounded-seven-site-amendment-frozen-before-runtime-correction",
+  "frozenAt": "2026-11-04T22:02:03.190920+00:00",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "originalFreezeCommit": "e440402a75023c2480e60f217279cd0a11eab3d4",
+  "unmodifiedCandidateCommit": "cac1da11da53e266d7402994a71b943725811688",
+  "russianBaselineCommit": "016189db82eac395662c515bfb5f6ccb1410616b",
+  "policyBasis": "Existing owner full-task direction permits separately evidenced and independently reviewed corrections to otherwise preserved frozen source facts/grading. This signed scope amendment proposes seven exact negative-choice fixes, not self-approval or new owner/native/media/release authority.",
+  "initialIndependentReview": {
+    "path": "docs/translation-batches/012-n5-counter-closure-review-initial.json",
+    "rawSha256": "8a235106d78aaabf35b8e4b0e944088b075ed7010f9722386d347258323e5d38"
+  },
+  "newEvidence": {
+    "path": "docs/translation-batches/012-n5-counter-closure-range-and-negative-evidence.json",
+    "rawSha256": "f7a57a1d0d101cbaf1e17de25ab8b76552fbef1959575e264946c9aa654b0918"
+  },
+  "plannedJapaneseDataCorrections": [
+    {
+      "path": "counters/hon.json",
+      "cardId": "hon-pencil-1",
+      "jsonPointer": "/cards/5/distractors",
+      "field": "distractors",
+      "before": [
+        "人",
+        "匹",
+        "回"
+      ],
+      "proposedAfter": [
+        "人",
+        "匹",
+        "冊"
+      ],
+      "reason": "Remove a valid repeated-action 回 meaning from wrong choices, preserving actual prompt/quantity/roles and every accepted tier/reading."
+    },
+    {
+      "path": "counters/hon.json",
+      "cardId": "hon-flower-1",
+      "jsonPointer": "/cards/7/distractors",
+      "field": "distractors",
+      "before": [
+        "人",
+        "冊",
+        "回"
+      ],
+      "proposedAfter": [
+        "人",
+        "冊",
+        "匹"
+      ],
+      "reason": "Remove a valid repeated-action 回 meaning from wrong choices, preserving actual prompt/quantity/roles and every accepted tier/reading."
+    },
+    {
+      "path": "counters/hon.json",
+      "cardId": "hon-spoon-1",
+      "jsonPointer": "/cards/11/distractors",
+      "field": "distractors",
+      "before": [
+        "匹",
+        "冊",
+        "回"
+      ],
+      "proposedAfter": [
+        "匹",
+        "冊",
+        "台"
+      ],
+      "reason": "Remove a valid repeated-action 回 meaning from wrong choices, preserving actual prompt/quantity/roles and every accepted tier/reading."
+    },
+    {
+      "path": "counters/hon.json",
+      "cardId": "hon-ten-1",
+      "jsonPointer": "/cards/13/distractors",
+      "field": "distractors",
+      "before": [
+        "匹",
+        "冊",
+        "回"
+      ],
+      "proposedAfter": [
+        "匹",
+        "冊",
+        "台"
+      ],
+      "reason": "Remove a valid repeated-action 回 meaning from wrong choices, preserving actual prompt/quantity/roles and every accepted tier/reading."
+    },
+    {
+      "path": "counters/hai.json",
+      "cardId": "hai-milk-1",
+      "jsonPointer": "/cards/3/distractors",
+      "field": "distractors",
+      "before": [
+        "匹",
+        "冊",
+        "回"
+      ],
+      "proposedAfter": [
+        "匹",
+        "冊",
+        "枚"
+      ],
+      "reason": "Remove a valid repeated-action 回 meaning from wrong choices, preserving actual prompt/quantity/roles and every accepted tier/reading."
+    },
+    {
+      "path": "counters/satsu.json",
+      "cardId": "satsu-textbook-1",
+      "jsonPointer": "/cards/6/distractors",
+      "field": "distractors",
+      "before": [
+        "本",
+        "匹",
+        "回"
+      ],
+      "proposedAfter": [
+        "本",
+        "匹",
+        "台"
+      ],
+      "reason": "Remove a valid repeated-action 回 meaning from wrong choices, preserving actual prompt/quantity/roles and every accepted tier/reading."
+    },
+    {
+      "path": "counters/hon.json",
+      "cardId": "hon-noun-2",
+      "jsonPointer": "/reverse/1/options",
+      "field": "options",
+      "before": [
+        "hon-film-1",
+        "dai-tv-1",
+        "hai-tea-1",
+        "nin-sister-1"
+      ],
+      "proposedAfter": [
+        "hon-film-1",
+        "dai-tv-1",
+        "hiki-mouse-1",
+        "nin-sister-1"
+      ],
+      "reason": "Replace bare お茶, ordinary bottled-drink 本 ambiguity, with existing already-scoped live noun ねずみ from hiki-mouse-1. Retain correct 映画 answer/order and other options."
+    }
+  ],
+  "sourceTruthDomain": "Frozen English source tree/commit remains untouched. Final RU differs from source only in ordinary localization and these declared Japanese negative-choice sites, subject to actual focused independent recheck.",
+  "unchangedScope": "Same ten files/nine new runtime paths,124forward IDs,20reverse IDs,80references,191Russian leaves. No mandatory expansion, new examples/media/words/grammar/tags or changes to accepted answer/readings/tier lists.",
+  "plannedGuidance": "Add the real visible-context negative-choice lesson: 回 may count repetitions of actions; bare お茶 supports bottled 本. Do not rely on hidden sentences/full post-answer translation to make a wrong option exclusive.",
+  "preCorrectionFingerprints": [
+    {
+      "path": "counters/dai.json",
+      "sourceRawSha256": "04a4b65416c6f6f440c6177b5b6512dbd5239239be16b0a76fb1bc9844add4eb",
+      "sourceWorkingRawSha256": "04a4b65416c6f6f440c6177b5b6512dbd5239239be16b0a76fb1bc9844add4eb",
+      "sourceSha256": "04a4b65416c6f6f440c6177b5b6512dbd5239239be16b0a76fb1bc9844add4eb",
+      "ruRawSha256": "d5ed44825ab13685b755ed4aa72437a35cab6d8b7fe5956eaf7388607114f571",
+      "ruSha256": "2c7bc572dcb6ae8c3545b9a8f06704185e3a22df9dc5a047890d3d33588e2323",
+      "sourceLines": 25,
+      "ruLines": 25,
+      "sourceRawBytes": 5282,
+      "ruWorkingRawBytes": 5993,
+      "newRuntimePath": true,
+      "learnerTextLeaves": 17
+    },
+    {
+      "path": "counters/hai.json",
+      "sourceRawSha256": "6679a51a5beb3e7bc84e44c2a286fc0c4bc86936f830da2e5d2f184d09a1356f",
+      "sourceWorkingRawSha256": "6679a51a5beb3e7bc84e44c2a286fc0c4bc86936f830da2e5d2f184d09a1356f",
+      "sourceSha256": "6679a51a5beb3e7bc84e44c2a286fc0c4bc86936f830da2e5d2f184d09a1356f",
+      "ruRawSha256": "2372adeaf57b5d946b9a96334bfbf4c95dd746a0ba4c1fd9daf40dffc5585a24",
+      "ruSha256": "761f6abff53e1e127d1cd387fc5324322b686629770dfe161815ea050c70889d",
+      "sourceLines": 26,
+      "ruLines": 26,
+      "sourceRawBytes": 5353,
+      "ruWorkingRawBytes": 5924,
+      "newRuntimePath": true,
+      "learnerTextLeaves": 18
+    },
+    {
+      "path": "counters/hiki.json",
+      "sourceRawSha256": "6c501a17f6abf8e8d245d8f68155f76c2fa86fcccc188c55225ea8f9b5c7d334",
+      "sourceWorkingRawSha256": "6c501a17f6abf8e8d245d8f68155f76c2fa86fcccc188c55225ea8f9b5c7d334",
+      "sourceSha256": "6c501a17f6abf8e8d245d8f68155f76c2fa86fcccc188c55225ea8f9b5c7d334",
+      "ruRawSha256": "c9997934515ba0f174e5d568d655b0bf5745387705ae701353f343623c8770fc",
+      "ruSha256": "1c18434e494f41bb29cf232efb18b7bbf212831fbaa6274a2fcfb9f2aaa24eeb",
+      "sourceLines": 25,
+      "ruLines": 25,
+      "sourceRawBytes": 5063,
+      "ruWorkingRawBytes": 5535,
+      "newRuntimePath": true,
+      "learnerTextLeaves": 18
+    },
+    {
+      "path": "counters/hon.json",
+      "sourceRawSha256": "d25261f2a3c77a978421a83ad0b2ebf7004ce0fde234b083e0ed2644a3c1f543",
+      "sourceWorkingRawSha256": "d25261f2a3c77a978421a83ad0b2ebf7004ce0fde234b083e0ed2644a3c1f543",
+      "sourceSha256": "d25261f2a3c77a978421a83ad0b2ebf7004ce0fde234b083e0ed2644a3c1f543",
+      "ruRawSha256": "b00b44475a89dec2c24a942aa5ada3fd13d7a4fc2930abd5824797842d2704bd",
+      "ruSha256": "1ed7a2086df6cdbb1a89de7895b4d1b61139e65ca26c5f710f44db42a4d020f9",
+      "sourceLines": 27,
+      "ruLines": 27,
+      "sourceRawBytes": 7470,
+      "ruWorkingRawBytes": 8753,
+      "newRuntimePath": true,
+      "learnerTextLeaves": 28
+    },
+    {
+      "path": "counters/kai.json",
+      "sourceRawSha256": "a66c2c67cf0529a9ea4e28cd989cb4a187de9ea32a710c5385647dc3ac3d57df",
+      "sourceWorkingRawSha256": "a66c2c67cf0529a9ea4e28cd989cb4a187de9ea32a710c5385647dc3ac3d57df",
+      "sourceSha256": "a66c2c67cf0529a9ea4e28cd989cb4a187de9ea32a710c5385647dc3ac3d57df",
+      "ruRawSha256": "c1c0113cb62a1f97823f3e00637b9edb61eb197e6124e839bad8d8ae351e3cd8",
+      "ruSha256": "71123c73cb295b35e250892c777c17ef896519e5abafce55ba2d722d3f1d29dd",
+      "sourceLines": 26,
+      "ruLines": 26,
+      "sourceRawBytes": 5758,
+      "ruWorkingRawBytes": 6407,
+      "newRuntimePath": true,
+      "learnerTextLeaves": 17
+    },
+    {
+      "path": "counters/ko.json",
+      "sourceRawSha256": "9cc9d5dd1d50e3046e9857613a58951af912e51c51ba01b257bf9a49a8e55376",
+      "sourceWorkingRawSha256": "9cc9d5dd1d50e3046e9857613a58951af912e51c51ba01b257bf9a49a8e55376",
+      "sourceSha256": "9cc9d5dd1d50e3046e9857613a58951af912e51c51ba01b257bf9a49a8e55376",
+      "ruRawSha256": "4326bed456545f3bf962aedcea4bb49056711e39f9c3106b4a8fbb07c14cf1e6",
+      "ruSha256": "0a67894dffe1d73bdbd4a75da1df94f3ac5c672f3daab2499f4d7355e55c503e",
+      "sourceLines": 25,
+      "ruLines": 25,
+      "sourceRawBytes": 5216,
+      "ruWorkingRawBytes": 5790,
+      "newRuntimePath": true,
+      "learnerTextLeaves": 18
+    },
+    {
+      "path": "counters/mai.json",
+      "sourceRawSha256": "c93b8aa9a7f22cd780ea22abf241504c26db45df0efccdf0e23858ce6b3f0f54",
+      "sourceWorkingRawSha256": "c93b8aa9a7f22cd780ea22abf241504c26db45df0efccdf0e23858ce6b3f0f54",
+      "sourceSha256": "c93b8aa9a7f22cd780ea22abf241504c26db45df0efccdf0e23858ce6b3f0f54",
+      "ruRawSha256": "be907c16081a5d95b8161f7a5b77a2722865fa75b00a67585b5f02451da008eb",
+      "ruSha256": "8847743817b21a0162534106417b6fff18752c61e913ebf7d4d9f9d63e0db62c",
+      "sourceLines": 25,
+      "ruLines": 25,
+      "sourceRawBytes": 5309,
+      "ruWorkingRawBytes": 6038,
+      "newRuntimePath": true,
+      "learnerTextLeaves": 19
+    },
+    {
+      "path": "counters/nin.json",
+      "sourceRawSha256": "1c52aeb27ef6bbe694cdfb2ff2ba3b9d1534d0d5b58faf9a97d5f8db17dbdfb3",
+      "sourceWorkingRawSha256": "1c52aeb27ef6bbe694cdfb2ff2ba3b9d1534d0d5b58faf9a97d5f8db17dbdfb3",
+      "sourceSha256": "1c52aeb27ef6bbe694cdfb2ff2ba3b9d1534d0d5b58faf9a97d5f8db17dbdfb3",
+      "ruRawSha256": "9aa751d1518caef92bbb8b7cd4e409b9f6f9f6e2932582bb920eaa88d16aed5f",
+      "ruSha256": "4c3e3f64b7993e2bd06146d921835e826553f5aa1a0523488cc2f75f858220f3",
+      "sourceLines": 25,
+      "ruLines": 25,
+      "sourceRawBytes": 5363,
+      "ruWorkingRawBytes": 5959,
+      "newRuntimePath": true,
+      "learnerTextLeaves": 19
+    },
+    {
+      "path": "counters/satsu.json",
+      "sourceRawSha256": "d6d5ca1b058f6d849777807b018a20a1132ea5f53388ba22a513490f8c2dc4fd",
+      "sourceWorkingRawSha256": "d6d5ca1b058f6d849777807b018a20a1132ea5f53388ba22a513490f8c2dc4fd",
+      "sourceSha256": "d6d5ca1b058f6d849777807b018a20a1132ea5f53388ba22a513490f8c2dc4fd",
+      "ruRawSha256": "7cf2e5ecc9abb9bc82b7e75430735044e9db61f7484718693c9385e7f3df8eee",
+      "ruSha256": "3b29dbe2c27044e5aa7b5f7bfc413ebcfcce2c4d7e705df3893afea511f81e23",
+      "sourceLines": 25,
+      "ruLines": 25,
+      "sourceRawBytes": 5074,
+      "ruWorkingRawBytes": 5710,
+      "newRuntimePath": true,
+      "learnerTextLeaves": 18
+    },
+    {
+      "path": "counters/tsu.json",
+      "sourceRawSha256": "f7547781516c985f1da049dd3b31fbabcb8e591bd98f8695eab68efa3601088e",
+      "sourceWorkingRawSha256": "f7547781516c985f1da049dd3b31fbabcb8e591bd98f8695eab68efa3601088e",
+      "sourceSha256": "f7547781516c985f1da049dd3b31fbabcb8e591bd98f8695eab68efa3601088e",
+      "ruRawSha256": "0f46741c82a20ba0d2a2638240b292489ce413a74c22a58583925a61b95c91c7",
+      "ruSha256": "0f46741c82a20ba0d2a2638240b292489ce413a74c22a58583925a61b95c91c7",
+      "sourceLines": 25,
+      "ruLines": 30,
+      "sourceRawBytes": 5119,
+      "ruWorkingRawBytes": 5698,
+      "newRuntimePath": false,
+      "learnerTextLeaves": 19
+    }
+  ],
+  "preCorrectionGuidanceRawSha256": "60493ba616211afd6179c568d9b7a8ed5be20a81bc2ba8fcd5e948c9aef8fb5e",
+  "beforeWritingVerification": "All ten current runtime RAW hashes still match actual initial review; no tracked working diff; no proposed negative-choice or guidance change authored yet.",
+  "reviewStatus": "pending-focused-recheck",
+  "independentRechecker": null
+}

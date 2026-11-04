@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batch": "012-n5-counter-closure",
+  "state": "independent-whole-review-needs-correction-and-focused-recheck",
+  "reviewedRussianCommit": "cac1da11da53e266d7402994a71b943725811688",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineCommit": "016189db82eac395662c515bfb5f6ccb1410616b",
+  "preauthoringFreezeCommit": "e440402a75023c2480e60f217279cd0a11eab3d4",
+  "candidateRawSha256": "08694da1367019daaf2e0c58381b4ecea1c658c9db41d5df9364688288678336",
+  "independentReviewer": {
+    "name": "GitHub Copilot; ru-012-counter-whole-review",
+    "agentId": "ab264cbf-5e70-499a-97e1-2398b1ecd0e6",
+    "agentType": "code-review",
+    "model": null,
+    "readOnly": true,
+    "actualReading": {
+      "completeSourceRussianPairs": [
+        {"path": "counters/dai.json", "sourceLines": 25, "ruLines": 25},
+        {"path": "counters/hai.json", "sourceLines": 26, "ruLines": 26},
+        {"path": "counters/hiki.json", "sourceLines": 25, "ruLines": 25},
+        {"path": "counters/hon.json", "sourceLines": 27, "ruLines": 27},
+        {"path": "counters/kai.json", "sourceLines": 26, "ruLines": 26},
+        {"path": "counters/ko.json", "sourceLines": 25, "ruLines": 25},
+        {"path": "counters/mai.json", "sourceLines": 25, "ruLines": 25},
+        {"path": "counters/nin.json", "sourceLines": 25, "ruLines": 25},
+        {"path": "counters/satsu.json", "sourceLines": 25, "ruLines": 25},
+        {"path": "counters/tsu.json", "sourceLines": 25, "ruLines": 30}
+      ],
+      "forwardCards": 124,
+      "russianTextLeaves": {"translations": 124, "hardReasons": 16, "notes": 11, "glosses": 30, "titles": 10, "total": 191},
+      "reverseFixtures": 20,
+      "liveReferencedNounContexts": 80,
+      "gradingAndReadingMetadata": "All actual assigned cards, alternatives and canonical reading metadata",
+      "guidance": [
+        ".github/copilot-instructions.md lines1–294",
+        ".github/instructions/content-structure.instructions.md lines1–165 including four added source-conflict lines",
+        "Complete three actual accuracy/consistency/comprehension rubric files",
+        "Complete translation-methodology/content-format-reference/worked-russian-adaptations documents",
+        "Complete frozen docs/counter-n5.md; frozen docs/content-format.md lines1–100"
+      ],
+      "supportContext": "Complete unchanged English/Russian native.json pair; current numbers-and-counters article ONLY lines1–56, not a whole-article rereview",
+      "receipts": "All five specified scope/preparation/source-evidence/adjudication/candidate receipts inspected; large scope/candidate records mechanically queried rather than dumped",
+      "freshExternalSimplifiedTextOffsets": {
+        "https://www.tofugu.com/japanese/japanese-counter-hon/": [0, 12000],
+        "https://www.tofugu.com/japanese/japanese-counter-hiki/": [0, 6000],
+        "https://www.tofugu.com/japanese/japanese-counter-kai-times/": [0, 12000],
+        "https://www.tofugu.com/japanese/japanese-counter-tsu/": [0, 9000],
+        "https://www.tofugu.com/japanese/japanese-counters-guide/": [0, 20500]
+      },
+      "otherExternalEvidence": "Complete extracted Japanese-section text in the specified private 杯 capture; failed lookups supplied no evidence"
+    },
+    "actualFingerprintChecks": "Both HEADs matched; all ten recorded source GitRAW/workingRAW/LF and Russian workingRAW/LF fingerprints matched actual bytes; candidate receipt RAW hash matched. No uncommitted tracked changes included; pre-existing untracked tools/__pycache__ excluded.",
+    "verdicts": {
+      "japaneseCorrectness": "NEEDS FIX; range-evidence limitation UNVERIFIED",
+      "actualCoverageDependenciesAndFormat": "NEEDS FIX for answer ambiguity; structural closure/preservation clean",
+      "russianComprehensibility": "CLEAN within all assigned learner text"
+    },
+    "findings": [
+      {
+        "id": "F1",
+        "severity": "medium",
+        "path": "counters/hon.json",
+        "line": 24,
+        "cardId": "hon-noun-2",
+        "problem": "With displayed 本, both 映画 and the bare お茶 distractor are ordinary compatible answers: bottled tea is counted with 本. The original tea sentence's cup quantity is not displayed in reverse noun mode.",
+        "liveReference": {"path": "counters/hai.json", "line": 7, "noun": "お茶"},
+        "evidence": "Actual referenced noun and inspected 本 guide's bottled-drink category",
+        "suggestedDisposition": "Separately evidenced/reviewed Japanese-content correction replacing this option or explicitly making its displayed context cup-based"
+      },
+      {
+        "id": "F2",
+        "severity": "medium",
+        "path": "counters/hon.json",
+        "line": 20,
+        "cardId": "hon-ten-1",
+        "problem": "えんぴつを十回買いました is a valid ten-times purchase sentence, but 回 is an authored wrong choice. Hidden post-answer translation cannot disambiguate object quantity from action frequency.",
+        "additionalAffectedCards": [
+          {"path": "counters/hon.json", "line": 12, "cardId": "hon-pencil-1"},
+          {"path": "counters/hon.json", "line": 14, "cardId": "hon-flower-1"},
+          {"path": "counters/hon.json", "line": 18, "cardId": "hon-spoon-1"},
+          {"path": "counters/hai.json", "line": 10, "cardId": "hai-milk-1"},
+          {"path": "counters/satsu.json", "line": 13, "cardId": "satsu-textbook-1"}
+        ],
+        "evidence": "Actual sentence contexts, source's explicit same ambiguity note for hon-film-1 and inspected 回 guide's repeatable-action usage",
+        "suggestedDisposition": "Replace 回 with genuinely incompatible distractors through a separately evidenced and reviewed source-content correction"
+      }
+    ],
+    "consequentialUnverified": [
+      {
+        "id": "U1",
+        "path": "counters/hon.json",
+        "line": 11,
+        "cardId": "hon-approx-1",
+        "claim": "Complete 五、六本／五六本 → ごろっぽん range reading and accepted-input policy",
+        "actualDisposition": "Inspected evidence did not directly establish this complete phrase. Not evidence that ごろっぽん is wrong; source preservation and individual-number tables do not resolve the historical evidence item."
+      }
+    ],
+    "limits": "No edits, tests/builds, delegation, generation, app/device work or receipt/tracking writes. Not source-wide/native-speaker/media/release/signature-authenticity/automatic-grader certification. Author validation read, not independently rerun."
+  },
+  "authorDispositionAtCapture": "Genuine source-derived findings accepted for bounded amendment preparation, not silently waived. No corrected runtime bytes or final acceptance in this receipt; obtain actual focused recheck after separately frozen corrections and new exact range evidence."
+}
