@@ -295,8 +295,32 @@ proof and real corrected serial checks; no additional post-edit reread is claime
 [Actual scope, hashes and limits](translation-batches/007-numbers-counters-article-review.json)
 do not approve the counter families, grammar exercises or media merely mentioned by the article.
 
-Current membership remains **200 runtime objects**; statuses are **199 reviewed-current**,
+After batch007, membership remained **200 runtime objects**; statuses were **199 reviewed-current**,
 **one partial** (`counters/tsu.json`), two reviewed runtime-blocked drafts and **8,076 pending**.
 Both formerly partial articles are now complete; **8,078 runtime paths remain absent**.
 No frozen pilot ref, checkpoint authority, ordinary activation or device/media/release gate moved.
 Continue the finite remaining corpus without retargeting the frozen English revision.
+
+Batch **008 — food, drinks and meals** completes27 full word articles:26 source-classified N5
+words and the mandatory direct N4 食事 dependency. One independent reviewer actually read every
+complete RU/EN pair, all27 captured dictionary queries/31 objects/73 senses and all181 actual
+combined answer labels. A real missing 昼/昼御飯 lunch guard was found from the already taught
+meaning in the baseline card's body, despite its different short title.
+The guard was added only to the new card; two exact optional wording proposals were adopted.
+One bounded independent recheck read all four affected/relevant full pairs, verified all27
+current hash records and resolved the finding. Baseline 昼 and the other24 new cards remained
+raw-identical. [Actual full reading and corrective closure](translation-batches/008-food-drinks-review.json)
+distinguish their respective scopes; no whole-batch reread by the narrow reviewer is claimed.
+
+Current membership is **227 runtime objects**:18 kanji,181 words,18 strokes and unchanged other
+families. Statuses are **226 reviewed-current**, **one partial** (`counters/tsu.json`),
+**two reviewed runtime-blocked drafts** and **8,049 pending**; **8,051 runtime paths remain absent**.
+All earlier tracking records and immutable receipts are preserved; checkpoint authority is null.
+
+An actionable **external app-hint localization gap** is pinned in the008scope: committed
+app `5c000bd...` falls back to raw IDs for `food`, `drinks`, `animal`, `polite-prefix`,
+`suru-verb`, `meals`—26 occurrences across22 new cards, with some IDs already in baseline.
+Canonical IDs remain unchanged; the concurrent app checkout was not edited or built.
+The app owner still needs Russian mappings; no current dirty-app fix, phone rendering or ordinary
+RU activation is claimed. This renderer/release follow-up does not stop independent source authoring.
+Continue the remaining frozen corpus, with original media/device/release gates and pilot refs intact.

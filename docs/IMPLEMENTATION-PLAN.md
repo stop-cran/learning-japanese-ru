@@ -8,12 +8,24 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-The seventh full-target source batch completes the full numbers/counters article:
+The eighth full-target source batch completes27 full food/drink/meal word articles:
+26N5 plus the mandatory N4 食事 dependency. [Batch008](translation-batches/008-food-drinks-review.json)
+records whole27-pair reading, all27 complete dictionary queries and181 actual answer labels,
+then genuine corrective recheck of the missing direct 昼/昼御飯 lunch guard and two exact
+optional phrases. Existing baseline bodies and the other24 new cards are unchanged.
+Membership is227; statuses are226 reviewed-current, one partial counter, two reviewed
+runtime-blocked drafts and8,049 pending. Source authoring continues.
+The pinned external app renderer still needs Russian mappings for six canonical hint IDs
+(`food`, `drinks`, `animal`, `polite-prefix`, `suru-verb`, `meals`); some already affect baseline.
+The exact affected scope is documented, IDs preserved, concurrent app untouched.
+No ordinary activation, device/media authority, checkpoint or frozen pilot ref changed.
+
+The seventh full-target source batch completed the full numbers/counters article:
 all856 frozen source lines,67 citation occurrences and the prior77-line reviewed Russian
 general-count lesson. [Batch007](translation-batches/007-numbers-counters-article-review.json)
 records whole987-line RU/EN/baseline reading with all three facets CLEAN, no findings,
 and adoption of the reviewer's exact optional duration wording.
-Membership remains200; statuses are199 reviewed-current, one partial counter unit,
+Membership remained200; statuses were199 reviewed-current, one partial counter unit,
 two reviewed runtime-blocked drafts and8,076 pending. Only the article changed;
 no new counter, grammar exercise, vocabulary context, asset or release authority was adopted.
 

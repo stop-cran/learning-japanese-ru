@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "batch": "008-food-drinks",
+  "state": "independently-reviewed-source-accepted",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "reviewedRussianCommit": "4a2c258e60b004ef1feed74975f9ed74a72f1b85",
+  "initialFullReview": "docs/translation-batches/008-food-drinks-initial-review.json",
+  "exactCurrentHashesAndCorrections": "docs/translation-batches/008-food-drinks-corrections.json",
+  "independentCorrectionRecheck": {
+    "reviewer": "GitHub Copilot; ru-008-corrections-readonly-recheck",
+    "agentId": "0f38b883-389a-48d0-a928-99ef278fab23",
+    "model": null,
+    "retentionLimit": "Actual same-task write_agent attempt to original reviewer3f6079d5 failed: sync mode only supports initial task, follow-up messaging only background agents. One fresh bounded rechecker used; never concurrent reviewers.",
+    "actualScope": {
+      "fullRussianAndExactFrozenEnglishPairs": [
+        {
+          "path": "words/昼御飯.md",
+          "ru": "1–40",
+          "en": "1–34"
+        },
+        {
+          "path": "words/肉.md",
+          "ru": "1–39",
+          "en": "1–41"
+        },
+        {
+          "path": "words/魚.md",
+          "ru": "1–41",
+          "en": "1–43"
+        },
+        {
+          "path": "words/昼.md",
+          "ru": "1–33",
+          "en": "1–32"
+        }
+      ],
+      "initialReview": "1–120",
+      "corrections": "1–359",
+      "all181CurrentCombinedLabelsAndNegativeMetadataRead": true,
+      "all108CorrectedSourceAndRussianRawLfHashesVerified": true,
+      "all24OtherNewCardsRawUnchanged": true,
+      "baselineDaytimeRawUnchanged": true,
+      "allOld200ManifestEntriesPreserved": true,
+      "dictionaryCompleteQueries": {
+        "肉": "519–685",
+        "魚": "686–736",
+        "昼御飯": "2045–2099"
+      },
+      "supplementaryFishEtymologyRecordRead": true,
+      "guidanceActualRanges": {
+        "accuracyRubric": "1–43",
+        "comprehensionRubric": "1–44",
+        "consistencyRubric": "1–54",
+        "globalInstructions": "1–285",
+        "scopedInstructions": "1–161",
+        "methodology": "1–45,100–138",
+        "formatReference": "1–79",
+        "workedAdaptations": "1–58",
+        "frozenJlptPolicy": "1–65,192–234,255–287",
+        "frozenContentFormat": "137–173",
+        "frozenConfusables": "1–50"
+      },
+      "additionalFrozenEvidence": "N3 index134 explicitly魚/うお; N5/N4 index261 explicitly魚/さかな.",
+      "initialFullReadingNotRepeatedOrClaimed": "Explicit reliance on prior whole27-pair review for24 unchanged bodies and remaining dictionary evidence."
+    },
+    "verdictsForBoundedCorrectionClosure": {
+      "japaneseAnswerSemantics": "CLEAN",
+      "coverageAndConsistency": "CLEAN",
+      "russianComprehensibility": "CLEAN"
+    },
+    "finding008R1": "Resolved high confidence: direct昼↔昼御飯 declared on new card; frozen content-format162–170 defines symmetric non-transitive exclusion. No baseline rewrite or daytime/food clique.",
+    "optionalProposals": "Both exact肉/魚 proposals adopted verbatim, source meaning preserved.",
+    "guidanceAddition": "Sole new bullet83–85 accurately records baseline BODY-only meaning lesson and rejects category-wide exclusions.",
+    "hashLedgerDigest": "2ebf83af6737a9313ceb60f56910be46f14ab4f4579ccf2eb1f133571817a9bc",
+    "manifestRawSha256": "20cb24747d4cd64aa459f6685af9094b616e607a0d57ce282e332eb63c2d3470",
+    "signature": "Corrected HEAD cryptographically verified good by rechecker, in addition to author verification.",
+    "dictionaryScopeLimitation": "No昼query exists in008capture. Rechecker did not claim a nonexistent full captured entry or fresh lexical reconfirmation; both complete already-adopted昼 bodies explicitly teach lunch and suffice to establish this actual answer ambiguity.",
+    "newFindings": [],
+    "limits": [
+      "Read-only; no writes/tests/builds/generators/delegation/ref or working-tree changes; no temporary/spill files.",
+      "Author validation receipts read, not rerun or witnessed.",
+      "No whole27-body reread, whole-corpus/native/device/publication/activation acceptance claim.",
+      "Pinned app six-ID mapping gap remains external unresolved; no app checkout read or changed."
+    ]
+  },
+  "authorDisposition": "Accept complete27-card text translation based on actual whole three-facet review plus actual corrective closure. Required lunch pair fixed; optional exact proposals adopted; remaining24 full-reviewed cards unchanged. No consequential unresolved learner-text claim established.",
+  "authorValidation": {
+    "manifest": {
+      "command": "C:\\Users\\stop-\\AppData\\Local\\Programs\\Python\\Python312\\python.exe tools\\build_manifest.py",
+      "exitCode": 0,
+      "seconds": 0.11,
+      "output": "manifest.json: 227 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 144ccbdfd9d1b6d5\n"
+    },
+    "validator": {
+      "command": "C:\\Users\\stop-\\AppData\\Local\\Programs\\Python\\Python312\\python.exe tools\\validate.py",
+      "exitCode": 0,
+      "seconds": 0.594,
+      "output": "0 error(s)\n"
+    },
+    "unittest": {
+      "command": "C:\\Users\\stop-\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m unittest discover -s tools -p test_*.py",
+      "exitCode": 0,
+      "seconds": 35.109,
+      "output": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 34.775s\n\nOK\n"
+    },
+    "budget": {
+      "command": "C:\\Users\\stop-\\AppData\\Local\\Programs\\Python\\Python312\\python.exe tools\\check_content_budget.py",
+      "exitCode": 0,
+      "seconds": 0.312,
+      "output": "{'files': 234, 'entries': 243, 'retainedBytes': 765068, 'inflatedBytes': 778485, 'localZipBytes': 416046, 'listeningTaskMediaBytes': 0}\n"
+    }
+  },
+  "currentRuntimeObjects": 227,
+  "manifestVersion": "144ccbdfd9d1b6d5",
+  "releaseSeparation": "No ordinary RU activation/device/media/checkpoint authority; pinned pilot/controlled refs must remain unchanged. App mappings remain actionable, not fixed.",
+  "externalAppFollowUp": "Frozen008scope records exact pinned renderer and six IDs;26occurrences across22 new cards, some IDs preexisting baseline. Do not edit concurrent app."
+}
