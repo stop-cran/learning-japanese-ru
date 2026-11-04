@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "batch": "009-clothing-accessories",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "freezeCommit": "49e5eba2e4988d5affdb5db49542d26f6ab430ec",
+  "state": "authoring-clarification-not-review-approval",
+  "correctedReceiptStatement": {
+    "path": "docs/translation-batches/009-clothing-accessories-dictionary.json",
+    "field": "adjudication[5]",
+    "originalOverstatement": "眼鏡 retains eyewear sense, alternate めがね spelling and additional がんきょう reading",
+    "actualAdoption": "The complete capture retains がんきょう as evidence, but the frozen learner article teaches めがね. No new alternative がんきょう reading is added to Russian runtime prose. The existing ガン + キョウ comparison remains, explicitly about the taught めがね reading.",
+    "effect": "Clarifies captured evidence versus adopted teaching, not a path/dependency-scope expansion. Original immutable freeze receipt preserved."
+  },
+  "sourceTitleAdaptations": {
+    "words/掛ける.md": "Russian title names both hanging and telephone calling, both already fully taught in the frozen source body.",
+    "words/時計.md": "часы (прибор) distinguishes the actual physical device from the unchanged, historically reviewed duration/unit card 時間."
+  },
+  "sourceTerminologyAdaptation": {
+    "words/掛ける.md": "Trailing written ける is described as okurigana, not an inflectional ending that would misleadingly suggest removing both kana in ichidan conjugation. All source Japanese forms remain."
+  },
+  "proposedDirectRussianExclusionPairs": [
+    {
+      "pair": ["服", "洋服"],
+      "basis": "Both source bodies and dictionary clothing sense explicitly overlap for ordinary Western clothes, not merely because every garment belongs to clothing."
+    },
+    {
+      "pair": ["シャツ", "ワイシャツ"],
+      "basis": "シャツ includes outer collared shirts; ワイシャツ is a dress/business shirt. Actual Russian рубашка label can describe the latter."
+    },
+    {
+      "pair": ["コート", "上着"],
+      "basis": "Actual dictionary 上着 coat/jacket/outerwear sense and source broader outer-garment comparison overlap the adopted コート coat sense. Sports court remains a separate adopted sense, not a reason for a category clique."
+    },
+    {
+      "pair": ["着る", "履く"],
+      "basis": "Actual Russian generic надевать/носить одежду label under-specifies the Japanese upper-/lower-body selection. Keep the substantive Japanese restrictions in both full bodies; no generic wearing-verb clique."
+    }
+  ],
+  "baselinePreservation": "No baseline runtime cards changed. Exact historical 時間 candidate-pool adaptation and still-pending native option-pool verification are pinned in the frozen scope; no invented restoration of 時代/時計 metadata.",
+  "reviewStatus": "pending-independent-whole-batch-three-facet-review"
+}
