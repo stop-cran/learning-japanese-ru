@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "batch": "007-numbers-counters-article",
+  "state": "complete-author-candidate-awaiting-real-independent-review",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineCommit": "2e42030c1f5800cc777e253c139b485b34cbef69",
+  "freezeCommit": "e5c39eca4b6e1f38f9cb720e8208bc558eece987",
+  "freezeAmendmentCommit": "05b66907d7b1fd336e04821232d81a301da73e86",
+  "source": {
+    "rawSha256": "62121e5289d25c54b7e0c7048b1158b55a4961fa6bf706371d2aa90ef0a4b19d",
+    "lfSha256": "b9e2433e7f862524462ec6f1ec307b40c9f74d86a2982ab3d8d716b073dfc930",
+    "rawBytes": 52510,
+    "lines": 856,
+    "completeActualReadRanges": "1–145,146–285,286–425,426–565,566–705,706–856"
+  },
+  "russian": {
+    "rawBytes": 85381,
+    "lines": 987,
+    "completeOriginalSourceMain": true,
+    "priorRussianSupplementPreserved": true
+  },
+  "records": [
+    {
+      "path": "articles/numbers-and-counters.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "62121e5289d25c54b7e0c7048b1158b55a4961fa6bf706371d2aa90ef0a4b19d",
+      "sourceSha256": "b9e2433e7f862524462ec6f1ec307b40c9f74d86a2982ab3d8d716b073dfc930",
+      "ruRawSha256": "5df50eca97669cf3e71ed8ab1eb6db894e8099d812e0f0cc154e131e7e4d1094",
+      "ruSha256": "5df50eca97669cf3e71ed8ab1eb6db894e8099d812e0f0cc154e131e7e4d1094",
+      "coverage": "complete"
+    }
+  ],
+  "mechanicalCoverageAids": {
+    "sourceJapaneseBodyRunOccurrences": 1040,
+    "russianMainJapaneseBodyRunOccurrences": 1040,
+    "japaneseBodyMultisetsIdentical": true,
+    "japaneseOrderLimit": "Sentence adaptation can move a reading before or after its written form; equal token multisets are only review aids, not semantic proof.",
+    "priorRussianJapaneseRunOccurrences": 80,
+    "priorSupplementJapaneseMultisetIdentical": true,
+    "externalCitationOccurrences": 67,
+    "allExternalCitationsExactlySameOrderedUrls": true,
+    "removedOptionalLinkOccurrences": 20,
+    "allRemovedOptionalTargetsActuallyAbsent": true,
+    "retainedExistingLink": "../words/時間.md"
+  },
+  "unchangedRelatedRuntime": {
+    "counters/tsu.json": {
+      "baselineGitRawSha256": "cb0ff192bbb21ff6b75ef25c7779540493ea55359aafe2e1e181ba21711fedb5",
+      "currentWorkingRawSha256": "cb0ff192bbb21ff6b75ef25c7779540493ea55359aafe2e1e181ba21711fedb5",
+      "normalizedIdentical": true
+    },
+    "counters/native.json": {
+      "baselineGitRawSha256": "a6324ca32f23e8c3b9d60208c582dc30004c818fd566be58fe60db2445d560a6",
+      "currentWorkingRawSha256": "a6324ca32f23e8c3b9d60208c582dc30004c818fd566be58fe60db2445d560a6",
+      "normalizedIdentical": true
+    },
+    "grammar/n5-foundation-connections.json": {
+      "baselineGitRawSha256": "c4a9597cfc656ec192f6989d07df3b573ce8b6b1e995e5b46d78fdd3da540802",
+      "currentWorkingRawSha256": "c4a9597cfc656ec192f6989d07df3b573ce8b6b1e995e5b46d78fdd3da540802",
+      "normalizedIdentical": true
+    },
+    "words/時間.md": {
+      "baselineGitRawSha256": "e4b9b23b8abfc623ac442bdfe542c53b4f64e24d4ad3c940a5af871f62a26532",
+      "currentWorkingRawSha256": "51253733bbf01dbc159c19afd866b3015609abeb87d6718598155a48dfbe766b",
+      "normalizedIdentical": true
+    }
+  },
+  "manifest": {
+    "runtimeObjects": 200,
+    "contentVersion": "3e6f27d2a4a8dfe1",
+    "changedExistingEntries": [
+      "articles/numbers-and-counters.md"
+    ],
+    "newEntries": [],
+    "other199EntriesUnchanged": true
+  },
+  "validation": {
+    "validator": {
+      "command": "python tools\\validate.py",
+      "exitCode": 0,
+      "seconds": 0.679,
+      "output": "0 error(s)\r\n"
+    },
+    "unittest": {
+      "command": "python -m unittest discover -s tools -p test_*.py",
+      "exitCode": 0,
+      "seconds": 33.962,
+      "output": "............................................................................................................................\r\n----------------------------------------------------------------------\r\nRan 124 tests in 33.660s\r\n\r\nOK\r\n"
+    },
+    "manifest": {
+      "command": "python tools\\build_manifest.py",
+      "exitCode": 0,
+      "seconds": 0.108,
+      "output": "manifest.json: 200 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 3e6f27d2a4a8dfe1\r\n"
+    },
+    "budget": {
+      "command": "python tools\\check_content_budget.py",
+      "exitCode": 0,
+      "seconds": 0.27,
+      "output": "{'files': 207, 'entries': 216, 'retainedBytes': 700877, 'inflatedBytes': 714294, 'localZipBytes': 381752, 'listeningTaskMediaBytes': 0}\r\n"
+    }
+  },
+  "adaptationEvidence": {
+    "initialAvailabilityQualification": "Based on actual current manifest, two existing counter files only; broad article and conditional future-topic discovery do not claim new runtime exercise availability.",
+    "uiLabels": "Exact pinned committed app strings captured in scope; no writes/builds/concurrent checkout changes.",
+    "japaneseFactualClaims": "Inherited exact complete reviewed frozen article and220-line N5/N4 normative documents; no new Japanese examples or expanded reading acceptance authored. Existing citations retained; not claiming every external page freshly read in this RU batch.",
+    "priorRussian": "All77 prior lines teaching content and examples preserved, except bounded heading levels/deictic scope replacing obsolete whole-article omission statement.",
+    "language": "Russian number-group names and decimal explanation preserve Japanese written decimals and requested forms; all classifications remain editorial.",
+    "navigationPrecheck": "First mechanical assertion incorrectly assumed all21 source optional targets absent and correctly stopped before running tests. Frozen scope actually lists existing時間; restored that source link, read complete currentRU/frozenEN時間 bodies, then reran actual closure/checks. Only20 genuinely absent links flattened, teaching retained."
+  },
+  "reviewStatus": "pending-real-whole-article-three-facet-review",
+  "trackingAtCandidate": "Unchanged200adopted/198reviewed-current/2partial/2blocked drafts/8076pending; no acceptance or checkpoint fabricated."
+}
