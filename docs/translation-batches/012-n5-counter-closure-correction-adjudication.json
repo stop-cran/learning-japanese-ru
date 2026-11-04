@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "batch": "012-n5-counter-closure",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "state": "seven-source-derived-findings-corrected-pending-independent-recheck",
+  "initialReviewedCandidate": "cac1da11da53e266d7402994a71b943725811688",
+  "precorrectionAmendmentFreezeCommit": "cdc7c38d706d38c013f18ce039a4b5132f8684af",
+  "initialWholeReview": "docs/translation-batches/012-n5-counter-closure-review-initial.json",
+  "amendment": "docs/translation-batches/012-n5-counter-closure-scope-amendment.json",
+  "newEvidence": "docs/translation-batches/012-n5-counter-closure-range-and-negative-evidence.json",
+  "authorDisposition": "Accept both actual finding groups; implement exactly six 回-removals and one tea→mouse reverse option. No Russian sentence, original Japanese prompt, accepted tier/form/reading or stable ID changed.",
+  "exactCorrections": [
+    {
+      "path": "counters/hon.json",
+      "cardId": "hon-pencil-1",
+      "jsonPointer": "/cards/5/distractors",
+      "field": "distractors",
+      "before": [
+        "人",
+        "匹",
+        "回"
+      ],
+      "proposedAfter": [
+        "人",
+        "匹",
+        "冊"
+      ],
+      "reason": "Remove a valid repeated-action 回 meaning from wrong choices, preserving actual prompt/quantity/roles and every accepted tier/reading."
+    },
+    {
+      "path": "counters/hon.json",
+      "cardId": "hon-flower-1",
+      "jsonPointer": "/cards/7/distractors",
+      "field": "distractors",
+      "before": [
+        "人",
+        "冊",
+        "回"
+      ],
+      "proposedAfter": [
+        "人",
+        "冊",
+        "匹"
+      ],
+      "reason": "Remove a valid repeated-action 回 meaning from wrong choices, preserving actual prompt/quantity/roles and every accepted tier/reading."
+    },
+    {
+      "path": "counters/hon.json",
+      "cardId": "hon-spoon-1",
+      "jsonPointer": "/cards/11/distractors",
+      "field": "distractors",
+      "before": [
+        "匹",
+        "冊",
+        "回"
+      ],
+      "proposedAfter": [
+        "匹",
+        "冊",
+        "台"
+      ],
+      "reason": "Remove a valid repeated-action 回 meaning from wrong choices, preserving actual prompt/quantity/roles and every accepted tier/reading."
+    },
+    {
+      "path": "counters/hon.json",
+      "cardId": "hon-ten-1",
+      "jsonPointer": "/cards/13/distractors",
+      "field": "distractors",
+      "before": [
+        "匹",
+        "冊",
+        "回"
+      ],
+      "proposedAfter": [
+        "匹",
+        "冊",
+        "台"
+      ],
+      "reason": "Remove a valid repeated-action 回 meaning from wrong choices, preserving actual prompt/quantity/roles and every accepted tier/reading."
+    },
+    {
+      "path": "counters/hai.json",
+      "cardId": "hai-milk-1",
+      "jsonPointer": "/cards/3/distractors",
+      "field": "distractors",
+      "before": [
+        "匹",
+        "冊",
+        "回"
+      ],
+      "proposedAfter": [
+        "匹",
+        "冊",
+        "枚"
+      ],
+      "reason": "Remove a valid repeated-action 回 meaning from wrong choices, preserving actual prompt/quantity/roles and every accepted tier/reading."
+    },
+    {
+      "path": "counters/satsu.json",
+      "cardId": "satsu-textbook-1",
+      "jsonPointer": "/cards/6/distractors",
+      "field": "distractors",
+      "before": [
+        "本",
+        "匹",
+        "回"
+      ],
+      "proposedAfter": [
+        "本",
+        "匹",
+        "台"
+      ],
+      "reason": "Remove a valid repeated-action 回 meaning from wrong choices, preserving actual prompt/quantity/roles and every accepted tier/reading."
+    },
+    {
+      "path": "counters/hon.json",
+      "cardId": "hon-noun-2",
+      "jsonPointer": "/reverse/1/options",
+      "field": "options",
+      "before": [
+        "hon-film-1",
+        "dai-tv-1",
+        "hai-tea-1",
+        "nin-sister-1"
+      ],
+      "proposedAfter": [
+        "hon-film-1",
+        "dai-tv-1",
+        "hiki-mouse-1",
+        "nin-sister-1"
+      ],
+      "reason": "Replace bare お茶, ordinary bottled-drink 本 ambiguity, with existing already-scoped live noun ねずみ from hiki-mouse-1. Retain correct 映画 answer/order and other options."
+    }
+  ],
+  "rangeDisposition": "Direct whole 五六本→ごろっぽん attestations now actually read in university annotation and a willow-tree verse record, with original print consultation explicitly not claimed. Existing bounded orthographies/readings unchanged. Submit language/declared-policy conclusion for actual recheck; Android/native range normalization remains unperformed and separately gated.",
+  "guidanceDisposition": "Record actual visible-context negative-choice lesson, linked to immutable pre-correction amendment. Initial source-conflict guidance retained unchanged.",
+  "scopeAndRussianLeafPreservation": "Same ten files/nine new runtime paths,124forward/20reverse/80direct occurrences/191Russian leaves. All191Russian leaf values exactly unchanged from initial independent full reading; no learner prose added.",
+  "reviewStatus": "pending",
+  "independentRechecker": null,
+  "limits": "Not self-approved; initial NEEDS FIX/U1 receipt and original candidate/evidence remain historical. No claim of exhaustive Japanese alternatives, native/phone/parser/release acceptance."
+}
