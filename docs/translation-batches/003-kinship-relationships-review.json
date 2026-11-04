@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "batch": "003-kinship-relationships",
+  "state": "independently-reviewed-source-accepted",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "reviewedRussianCommit": "a496ac4b47db426d0a89bc0edd306517fb7610f9",
+  "initialFullReview": "docs/translation-batches/003-kinship-relationships-initial-review.json",
+  "exactCorrectedFileHashes": "docs/translation-batches/003-kinship-relationships-corrections.json",
+  "correctionRecheck": {
+    "reviewer": "GitHub Copilot; ru-003-fix-recheck",
+    "model": null,
+    "modelLimit": "Unavailable, not guessed.",
+    "reuseLimit": "Original full reviewer was sync-mode and unavailable for retained messaging. A distinct read-only reviewer performed this narrow recheck; no claim to a second complete 19-article reread.",
+    "snapshot": "a496ac4b47db426d0a89bc0edd306517fb7610f9",
+    "actualScope": "Exact 1188fae to a496ac4 diff, initial review and correction records, both complete affected RU/frozen-EN articles, relevant baseline meanings and captured dictionary objects.",
+    "verdicts": {
+      "japaneseNonRegression": "CLEAN",
+      "adoptedCoverageAndDependencyNonRegression": "CLEAN",
+      "russianCorrections": "CLEAN"
+    },
+    "findings": [
+      {
+        "id": "F1",
+        "status": "resolved",
+        "evidence": "Actual son sense supported; single 男の子–息子 pair added."
+      },
+      {
+        "id": "F2",
+        "status": "resolved",
+        "evidence": "Actual married-woman address sense supported; five specified female-person guards added, prior spouse guard preserved."
+      }
+    ],
+    "verification": [
+      "Exactly six direct pairs added; all 38 original pairs retained, union 44; no extras, missing targets or distractor conflicts.",
+      "息子 only gains exclusion metadata. 奥さん only changes title/H1 and exclusion metadata; every body/example/other-metadata byte unchanged after normalization. Remaining 17 learner files identical.",
+      "All 76 source/RU raw and normalized hash declarations match actual domains, including distinct source-internal CRLF in 子供/友達.",
+      "Exactly two manifest hashes changed; 152 objects, recomputed version cb861c3f312637ab.",
+      "Links resolve; no baseline/media/grammar changes; guidance remains lexical, not a transitive family/category clique.",
+      "Neutral wife label and both direct semantic correction rationales supported; no new finding."
+    ],
+    "limits": [
+      "Broader unchanged semantic assurance relies on the initial complete review.",
+      "Author's 124-test/zero-validator/budget records read, not rerun or independently witnessed.",
+      "Read-only: no writes, delegation, ref changes, tests/builds or app/device/media acceptance.",
+      "Bounded correction recheck, not whole-corpus or native-speaker approval."
+    ]
+  },
+  "authorDisposition": "Accept complete 19-article source translation after actual independent full review and narrow correction recheck. Both medium findings resolved. No learner bytes changed after the rechecked snapshot.",
+  "releaseSeparation": "No media-package authority, ordinary RU activation, checkpoint/tag advancement or app/device acceptance.",
+  "authorValidation": {
+    "manifest": {
+      "command": "python tools\\build_manifest.py",
+      "exitCode": 0,
+      "output": "manifest.json: 152 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version cb861c3f312637ab\r\n"
+    },
+    "validator": {
+      "command": "python tools\\validate.py",
+      "exitCode": 0,
+      "output": "0 error(s)\r\n"
+    },
+    "unittest": {
+      "command": "python -m unittest discover -s tools -p test_*.py",
+      "exitCode": 0,
+      "output": "............................................................................................................................\r\n----------------------------------------------------------------------\r\nRan 124 tests in 41.443s\r\n\r\nOK\r\n"
+    },
+    "budget": {
+      "command": "python tools\\check_content_budget.py",
+      "exitCode": 0,
+      "output": "{'files': 159, 'entries': 168, 'retainedBytes': 458780, 'inflatedBytes': 472197, 'localZipBytes': 285447, 'listeningTaskMediaBytes': 0}\r\n"
+    },
+    "scope": "All four checks actually ran serially on exact corrected runtime tree before recheck; final documentation/tracking edits do not change exported runtime bodies. Final validator/budget/manifest rerun below.",
+    "signaturesVerified": [
+      "87b24df",
+      "1188faeaedc7bea5b7994955cb05bb1542b27e5d",
+      "a496ac4b47db426d0a89bc0edd306517fb7610f9"
+    ],
+    "progress": {
+      "runtimeEntries": 8278,
+      "adoptedEntries": 152,
+      "statuses": {
+        "draft-reviewed-runtime-blocked": 2,
+        "partial-reviewed": 3,
+        "pending": 8124,
+        "reviewed-current": 149
+      },
+      "russianContentVersion": "cb861c3f312637ab",
+      "checkpointAuthority": null,
+      "checkpointReady": false,
+      "sha256": "24fd2fb2b107375d83a2e464469eaef3ab12cb4f1a35477ed886022b28baa888"
+    },
+    "historicalPreservation": "All 133 prior current-tracking records and every non-record ledger section unchanged; immutable historical ledger/pilot/full-review/initial-review records untouched."
+  }
+}

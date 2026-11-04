@@ -224,8 +224,21 @@ exact matching titles deduplicate without inventing transitive exclusions.
 [Exact candidate hashes, actual scope and limits](translation-batches/002-people-family-review.json)
 remain distinct from device, activation and restricted-media authority.
 
-Current runtime membership is **133 objects**: 15 kanji, 93 words, 15 strokes and the unchanged
-other baseline families. Full-target statuses are **130 reviewed-current**, three partial,
+After batch 002, runtime membership was **133 objects**: 15 kanji, 93 words, 15 strokes and the unchanged
+other baseline families. Full-target statuses were **130 reviewed-current**, three partial,
 two reviewed runtime-blocked drafts and **8,143 pending**; **8,145 runtime paths remain absent**.
 Continue the next safe sequential batch; neither this milestone nor source publication completes
 the full translation objective.
+
+Batch **003 — kinship and relationships** completes 19 more word articles. One full
+independent review found two real quiz ambiguities: 男の子 also means «сын», and 奥さん
+has a married-woman address use. An independent narrow recheck accepted exactly six new
+direct guards, preserving the original 38 pairs and all learner body facts. The neutral
+wife label is «жена другого человека (уважительно)».
+[Full review, exact corrections and bounded recheck](translation-batches/003-kinship-relationships-review.json)
+separate actual reading from unchanged-body reliance and record all limitations.
+
+Current runtime membership is **152 objects**: 15 kanji, 112 words, 15 strokes and unchanged
+other families. Full-target statuses are **149 reviewed-current**, three partial,
+two reviewed runtime-blocked drafts and **8,124 pending**; **8,126 runtime paths remain absent**.
+Continue sequential authoring against the same frozen source; release/device/media gates remain.
