@@ -278,8 +278,25 @@ not eating rather than possible food unavailability; all other article bytes are
 [Exact full review, optional correction and limited narrow recheck](translation-batches/006-listing-examples-review.json)
 distinguish actual reading scope from the terse recheck result.
 
-Current membership remains **200 runtime objects**; full-target statuses are now
+After batch006, membership remained **200 runtime objects**; full-target statuses became
 **198 reviewed-current**, **two partial**, two reviewed runtime-blocked drafts and
 **8,076 pending**. The other article and the legacy counter unit still require completion;
 **8,078 runtime paths remain absent**. No checkpoint, media authority or release/device gate moved.
+
+Batch **007 — numbers and counters article** completes all856 frozen source lines, preserving
+all67 citation URL occurrences and the separately reviewed77-line general-count lesson.
+The existing 時間 link remains; only20 genuinely absent optional destinations become plain labels,
+without deleting teaching content. Broad practice descriptions and future Grammar navigation
+are explicitly distinguished from the currently available Russian exercise sets.
+One independent reviewer actually read all987 Russian lines, all856 source lines, all77 prior
+Russian lines and the declared normative evidence; all three facets returned CLEAN, no findings.
+The original reviewer's exact optional duration phrase was adopted verbatim, with a sole-replacement
+proof and real corrected serial checks; no additional post-edit reread is claimed.
+[Actual scope, hashes and limits](translation-batches/007-numbers-counters-article-review.json)
+do not approve the counter families, grammar exercises or media merely mentioned by the article.
+
+Current membership remains **200 runtime objects**; statuses are **199 reviewed-current**,
+**one partial** (`counters/tsu.json`), two reviewed runtime-blocked drafts and **8,076 pending**.
+Both formerly partial articles are now complete; **8,078 runtime paths remain absent**.
+No frozen pilot ref, checkpoint authority, ordinary activation or device/media/release gate moved.
 Continue the finite remaining corpus without retargeting the frozen English revision.

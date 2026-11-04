@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "batch": "007-numbers-counters-article",
+  "state": "independently-reviewed-source-accepted",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "originalWholeReviewedRussianCommit": "828596d287ab03d9eb8f1acd0c5d780044b59100",
+  "correctedRussianCommit": "914c36c1d92eebed208750e670c196d3690c1bde",
+  "exactFileHashes": [
+    {
+      "path": "articles/numbers-and-counters.md",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceRawSha256": "62121e5289d25c54b7e0c7048b1158b55a4961fa6bf706371d2aa90ef0a4b19d",
+      "sourceSha256": "b9e2433e7f862524462ec6f1ec307b40c9f74d86a2982ab3d8d716b073dfc930",
+      "ruRawSha256": "3412941e6823439bc4ef4658e4560659fc99216517ec87f7ea4772db8bc978b5",
+      "ruSha256": "3412941e6823439bc4ef4658e4560659fc99216517ec87f7ea4772db8bc978b5",
+      "coverage": "complete"
+    }
+  ],
+  "independentFullReview": {
+    "receipt": "docs/translation-batches/007-numbers-counters-article-initial-review.json",
+    "reviewerAgentId": "af2e64af-db95-4274-9b9a-ccc0fbc6667b",
+    "model": null,
+    "actualScope": {
+      "currentRussianArticle": {
+        "lines": 987,
+        "rawBytes": 85381,
+        "returnedRanges": "Consecutive55-line ranges1–935, then936–987"
+      },
+      "frozenEnglishArticle": {
+        "lines": 856,
+        "rawBytes": 52510,
+        "returnedRanges": "Consecutive100-line ranges1–700, then701–790 and791–856"
+      },
+      "priorApprovedRussianGitBlob": {
+        "lines": 77,
+        "bytes": 4950,
+        "returnedRanges": "1–55,56–77"
+      },
+      "fullRelatedWord": "RU時間1–34 and frozenEN時間1–35",
+      "completeGuidance": "Global1–285; scoped1–158; three rubric43/54/44; methodology1–138; format1–107; worked adaptations1–110. Byte-capped guidance continued at exact next unread line.",
+      "completeNormativeEvidence": "Frozen docs/counter-n5.md and counter-n4.md1–220 each; current native22 and tsu26 lines.",
+      "completeBatchRecords": "Scope214lines, amendment18, candidate113.",
+      "targetedNotWholeReads": "Manifest maps, tracking/progress records, frozen quantity Grammar metadata and pinned app UI resource strings; not whole semantic review of these larger files.",
+      "missingRequiredRanges": [],
+      "outputDiscipline": "All requested payloads bounded; no spill pointer access, unexpected truncation or recovery exception."
+    },
+    "verdicts": {
+      "japaneseCorrectness": "CLEAN",
+      "adoptedCoverageAndConsistency": "CLEAN",
+      "russianComprehensibility": "CLEAN"
+    },
+    "findings": [],
+    "optional": [
+      {
+        "id": "O1",
+        "path": "articles/numbers-and-counters.md",
+        "candidateLine": 158,
+        "before": "Для прошедшего времени используйте 時間",
+        "proposed": "Для длительности в часах используйте 時間",
+        "rationale": "Avoid momentary grammatical-past-tense reading of прошедшее время; surrounding examples already establish correct elapsed-hours distinction.",
+        "severity": "optional-not-blocking",
+        "authorDisposition": "Adopt exact independently proposed phrase verbatim, verify exact sole replacement; no additional post-edit independent reread claimed."
+      }
+    ],
+    "verification": [
+      "All987RU/856EN/77priorRU lines compared semantically, every source section/table/example/numeral/reading/qualification/citation annotation, not only projection counts.",
+      "Suffix choice, whole-expression writing and displayed-canonical reading distinct; alternate units do not become pronunciations.",
+      "Clock/duration/date/monthspan/numbering/quantity/ordinal distinctions, four-digit grouping/internal empty positions, decimal zeros/fractions/temperatureぶ/minuteふんぷん, discount bases and multipliers retain meanings.",
+      "Object/set/package/contents, people/servings, paired/single, document/sheet/copy and dwelling/building/room distinctions remain contextual, not absolute.",
+      "Reading alternatives/exclusions retain bounded evidential status; no unsupported universal impossibility from absence.",
+      "N5/N4/N3 editorial levels and separateN2 gap interpretation preserved; historical EN native/review approvals not transferred to RU.",
+      "Prior71 lines after former introduction match exactly after heading-level adjustment; entire77-line lesson teaching content/examples/corrections retained as bounded supplement.",
+      "All67 external citationURL occurrences identical/ordered;20 flattened optional links genuinely absent with teaching retained; existing21st時間 link retained/correct with unchanged prior card and receipt.",
+      "Manifest200runtime with zero added/removed paths, only article changed, other199entries unchanged; actual all200 payload hashes independently verified.",
+      "All138 counters remain outside changed scope:2existing,136absent,tsu stillpartial; no exercise/vocabulary context/quiz pool/media/assets/curriculum adopted.",
+      "Availability qualification and conditional future-browser directions honest; seven UI labels match pinned resources including formatted Новая грамматика: %1$s.",
+      "Frozen quantity metadata corroborates22unclassified interpretations and separateN2 supplement; tracking stays prior accepted200/198/2partial/2blocked/8076pending, no checkpoint authority.",
+      "Self-contained natural Russian, correct clock/large-number/decimal/fraction/discount/serving distinctions; proper source/course titles not English instructional dependencies.",
+      "Actual currentRU raw/LF5df50eca97669cf3e71ed8ab1eb6db894e8099d812e0f0cc154e131e7e4d1094 and frozen raw62121e5289d25c54b7e0c7048b1158b55a4961fa6bf706371d2aa90ef0a4b19d/LFb9e2433e7f862524462ec6f1ec307b40c9f74d86a2982ab3d8d716b073dfc930 and priora0b31b08148bf1a30ab3fdf62aa4f6ce34cf5c4af37809387054930a48b8c8f2 verified.",
+      "Japanese body run multiset1040/1040, prior/supplement80/80 corroborate only, not semantic proof.",
+      "GPG signatures independently verified for original candidate, freeze and full05b66907d7b1fd336e04821232d81a301da73e86 amendment; amendment rawCRLF differs from GitLF but normalized content identical.",
+      "Final frozen/source/Russian checkout state and hashes unchanged at review completion."
+    ],
+    "limits": [
+      "Author validator0/124tests33.660s/manifest/budget receipts read, not rerun or independently witnessed.",
+      "External pages not freshly recaptured; no suspicious consequential inherited/new claim remained unresolved.",
+      "No edits/tests/builds/generators/delegation/workflows/AI translators or competing checkout changes.",
+      "No native-speaker/proficiency/learning-effectiveness/full-corpus/media/device/publication/C6/C7 acceptance; underlying model unavailable, not inferred."
+    ]
+  },
+  "optionalCorrection": {
+    "receipt": "docs/translation-batches/007-numbers-counters-article-corrections.json",
+    "exactChange": {
+      "before": "Для прошедшего времени используйте 時間",
+      "after": "Для длительности в часах используйте 時間",
+      "occurrences": 1,
+      "allOtherArticleBytesUnchanged": true,
+      "japaneseAndMetadataUnchanged": true
+    },
+    "independentEvidence": "Exact wording was explicitly proposed by the original full reviewer; accepted verbatim, not a new unreviewed author Japanese claim. Entire rest of article byte-identical to fully reviewed snapshot.",
+    "additionalPostEditIndependentReview": false,
+    "authorNarrowRecheck": "Actual raw-byte comparison proves sole exact proposal replacement; Japanese and metadata unchanged, full serial corrected checks passed. No second independent reading or facet return invented."
+  },
+  "authorDisposition": "Accept complete bounded article after genuine whole-body three-facet CLEAN review with no findings, retaining prior Russian adaptation. Optional exact independently proposed clarity wording applied verbatim; changed wording supported by actual original reviewer proposal, unchanged body by original full read.",
+  "authorValidation": {
+    "checks": {
+      "validator": {
+        "command": "python tools\\validate.py",
+        "exitCode": 0,
+        "seconds": 1.281,
+        "output": "0 error(s)\r\n"
+      },
+      "unittest": {
+        "command": "python -m unittest discover -s tools -p test_*.py",
+        "exitCode": 0,
+        "seconds": 44.624,
+        "output": "............................................................................................................................\r\n----------------------------------------------------------------------\r\nRan 124 tests in 44.131s\r\n\r\nOK\r\n"
+      },
+      "manifest": {
+        "command": "python tools\\build_manifest.py",
+        "exitCode": 0,
+        "seconds": 0.118,
+        "output": "manifest.json: 200 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version cb068567cd03248c\r\n"
+      },
+      "budget": {
+        "command": "python tools\\check_content_budget.py",
+        "exitCode": 0,
+        "seconds": 0.304,
+        "output": "{'files': 207, 'entries': 216, 'retainedBytes': 700880, 'inflatedBytes': 714297, 'localZipBytes': 381743, 'listeningTaskMediaBytes': 0}\r\n"
+      }
+    },
+    "signaturesVerified": [
+      "e5c39eca4b6e1f38f9cb720e8208bc558eece987",
+      "05b66907d7b1fd336e04821232d81a301da73e86",
+      "828596d287ab03d9eb8f1acd0c5d780044b59100",
+      "914c36c1d92eebed208750e670c196d3690c1bde"
+    ],
+    "historicalPreservation": "Only affected article current record updated; other199 records and all non-record tracking sections unchanged; immutable ledger/pilot/full-review receipts untouched.",
+    "progress": {
+      "runtimeEntries": 8278,
+      "adoptedEntries": 200,
+      "statuses": {
+        "draft-reviewed-runtime-blocked": 2,
+        "partial-reviewed": 1,
+        "pending": 8076,
+        "reviewed-current": 199
+      },
+      "russianContentVersion": "cb068567cd03248c",
+      "checkpointAuthority": null,
+      "checkpointReady": false,
+      "sha256": "dadef53f9a1662c655023203dccde5e61d9ff208e9e9106a876589063cac466a"
+    }
+  },
+  "releaseSeparation": "No counter/exercise/context/curriculum/media added, no checkpoint/tag authority, ordinary activation/device/media/release acceptance."
+}

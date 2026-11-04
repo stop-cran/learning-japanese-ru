@@ -8,11 +8,20 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-The sixth full-target source batch completes the previously partial listing/examples article:
+The seventh full-target source batch completes the full numbers/counters article:
+all856 frozen source lines,67 citation occurrences and the prior77-line reviewed Russian
+general-count lesson. [Batch007](translation-batches/007-numbers-counters-article-review.json)
+records whole987-line RU/EN/baseline reading with all three facets CLEAN, no findings,
+and adoption of the reviewer's exact optional duration wording.
+Membership remains200; statuses are199 reviewed-current, one partial counter unit,
+two reviewed runtime-blocked drafts and8,076 pending. Only the article changed;
+no new counter, grammar exercise, vocabulary context, asset or release authority was adopted.
+
+The sixth full-target source batch completed the previously partial listing/examples article:
 all469 frozen English lines are translated, with the57-line prior reviewed Russian adaptation
 retained as a bounded supplement. [Batch006](translation-batches/006-listing-examples-review.json)
 records whole-body three-facet CLEAN review and the optional reviewer-proposed wording polish.
-Runtime membership remains200; statuses are198 reviewed-current, two partial,
+Runtime membership remained200; statuses became198 reviewed-current, two partial,
 two reviewed runtime-blocked drafts and8,076 pending. No new grammar exercise, vocabulary
 context, media permission, frozen pilot ref or release/device approval is introduced.
 
