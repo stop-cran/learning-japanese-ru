@@ -1,0 +1,1357 @@
+{
+  "schemaVersion": 1,
+  "batch": "014-calendar-time-words",
+  "state": "actual-initial-independent-review-needs-fix",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "candidateCommit": "7c7f4d177b5159fc21e30e08706df9d44b52f689",
+  "preauthoringFreezeCommit": "299bb9ab5044cb75f65340dd4fe1afc2946f691e",
+  "candidateReceiptRawSha256": "4932d389286f59dd45dc0a3298359315f38555a44a418ada68931d4d7c11ceeb",
+  "reviewer": {
+    "agentId": "58a8d93b-69af-426e-9c21-ebebddfa3b44",
+    "name": "ru-014-whole-calendar-word-review",
+    "type": "general-purpose",
+    "model": null,
+    "execution": "single synchronous read-only review; no writes/tests/builds/nested agents"
+  },
+  "actualReading": {
+    "completeSourceFiles": 38,
+    "completeSourceLines": 1302,
+    "completeRussianFiles": 38,
+    "completeRussianLines": 1271,
+    "completeTitlesAndH1": 38,
+    "completeLocalizedSections": 152,
+    "paths": [
+      "words/年.md",
+      "words/朝.md",
+      "words/晩.md",
+      "words/夜.md",
+      "words/午前.md",
+      "words/午後.md",
+      "words/今日.md",
+      "words/昨日.md",
+      "words/明日.md",
+      "words/一昨日.md",
+      "words/毎日.md",
+      "words/毎朝.md",
+      "words/毎晩.md",
+      "words/今朝.md",
+      "words/今晩.md",
+      "words/今年.md",
+      "words/去年.md",
+      "words/来年.md",
+      "words/今月.md",
+      "words/来月.md",
+      "words/今週.md",
+      "words/来週.md",
+      "words/月曜日.md",
+      "words/火曜日.md",
+      "words/水曜日.md",
+      "words/木曜日.md",
+      "words/金曜日.md",
+      "words/土曜日.md",
+      "words/日曜日.md",
+      "words/誕生日.md",
+      "words/春.md",
+      "words/夏.md",
+      "words/秋.md",
+      "words/冬.md",
+      "words/近頃.md",
+      "words/最近.md",
+      "words/このごろ.md",
+      "words/昨夜.md"
+    ],
+    "baselineCompleteRussianBodies": {
+      "朝ごはん": [
+        1,
+        43
+      ],
+      "夕飯": [
+        1,
+        38
+      ],
+      "晩御飯": [
+        1,
+        40
+      ],
+      "日": [
+        1,
+        42
+      ],
+      "昼": [
+        1,
+        33
+      ],
+      "日中": [
+        1,
+        38
+      ],
+      "昼間": [
+        1,
+        34
+      ]
+    },
+    "actualCombinedDisplayedRussianWordMeanings": 288,
+    "allDictionaryQueryObjects": [
+      0,
+      44
+    ],
+    "dictionaryEntries": 45,
+    "japaneseForms": 70,
+    "returnedSenseObjects": 81,
+    "actualLexicalSenses": 64,
+    "includedWikipediaPseudoDefinitions": 17,
+    "dictionaryScope": "Every returned form/restriction/note/sense object, receipt adjudication/supplementary evidence/final fields;17pseudo-definitions included in81objects, NOT81lexical+17.",
+    "guidance": {
+      ".github/copilot-instructions.md": [
+        [
+          1,
+          294
+        ]
+      ],
+      ".github/instructions/content-structure.instructions.md": [
+        [
+          1,
+          174
+        ]
+      ],
+      ".github/agents/kanji-accuracy-reviewer.agent.md": [
+        [
+          1,
+          43
+        ]
+      ],
+      ".github/agents/content-consistency-reviewer.agent.md": [
+        [
+          1,
+          54
+        ]
+      ],
+      ".github/agents/kanji-comprehension-reviewer.agent.md": [
+        [
+          1,
+          44
+        ]
+      ],
+      "docs/translation-methodology.md": [
+        [
+          1,
+          138
+        ]
+      ],
+      "docs/content-format-reference.md": [
+        [
+          1,
+          107
+        ]
+      ],
+      "docs/worked-russian-adaptations.md": [
+        [
+          1,
+          110
+        ]
+      ],
+      "docs/FULL-TRANSLATION-PLAN.md": [
+        [
+          1,
+          110
+        ],
+        [
+          180,
+          216
+        ]
+      ],
+      "docs/IMPLEMENTATION-PLAN.md": [
+        [
+          1,
+          110
+        ]
+      ],
+      "frozenEN/docs/confusable-words.md": [
+        [
+          1,
+          115
+        ],
+        [
+          168,
+          174
+        ],
+        [
+          300,
+          356
+        ]
+      ]
+    },
+    "sourcePolicyPathCorrection": "Requested confusable-words-policy.md does not exist; reviewer actually read confusable-words.md relevant complete policy and calendar/recent-time comparison rows. Earlier generic evidence phrase confusablepolicy is not a claim this nonexistent filename was read.",
+    "receipts": "Complete source-evidence/adjudication/preparation; relevant candidate/scope records; all complete45dictionary objects.",
+    "freshPublicReferences": "Both cited Kotobank午前/午後精選版日本国語大辞典 definitions; returned七曜Sun/Moon/five-planets correspondence; exactJisho夕方andKotobank夕方definitions resolvingF014-01."
+  },
+  "actualFingerprintChecks": "All38EN/RUrecords matched declared workingRAW/LF/Git domains; scope identical to preauthoringGitblob; candidate/freeze good signatures and locally recorded originbranch matching candidate. All316baseline runtime hashes and Gitobjects/tracking/progress unchanged. Only declared preexistingcache untracked.",
+  "facetVerdicts": {
+    "japaneseCorrectness": "NEEDS FIX",
+    "coverageConsistencyC1": "NEEDS FIX",
+    "russianComprehensibilityCompleteness": "CLEAN"
+  },
+  "findings": [
+    {
+      "id": "F014-01",
+      "severity": "minor",
+      "confidence": "high",
+      "facets": [
+        "Japanese correctness/source fidelity",
+        "coverage/cross-card consistency"
+      ],
+      "path": "words/朝.md",
+      "line": 28,
+      "quote": "夕方 ゆうがた — время ближе к концу дня, перед наступлением вечера",
+      "problem": "Before the onset of evening incorrectly excludes the source's early-evening part; frozen EN says late afternoon OR early evening. Other new晩/夜comparisons already correctly includeраннийвечер.",
+      "frozenSourceEvidence": {
+        "path": "words/朝.md",
+        "line": 27,
+        "quote": "late afternoon or early evening"
+      },
+      "otherBatchEvidence": [
+        {
+          "path": "words/晩.md",
+          "line": 26,
+          "quote": "конец дня или ранний вечер"
+        },
+        {
+          "path": "words/夜.md",
+          "line": 35,
+          "quote": "конец дня или ранний вечер"
+        }
+      ],
+      "actualReviewerReferenceReading": "Fresh exact Jisho夕方entry says early evening/dusk; actual Kotobankデジタル大辞泉日の暮れがた。日の沈むころ and精選版日本国語大辞典日が暮れかかるころ。夕日が沈むころ. These returned readings are reviewer evidence, not a separately author-captured APIobject.",
+      "requiredFix": "Use夕方ゆうがた—конецдняилираннийвечер; no old baseline article edit required.",
+      "status": "open-at-initial-review"
+    }
+  ],
+  "optionalSuggestions": [],
+  "otherActualConclusions": [
+    "No other consequential defect established in entire assignedbatch.",
+    "Reading-specific restrictions, wholeword/mixedreadings, stabletypes/levels, calendar/duration and recurrence/allnight distinctions sound.",
+    "All15original directedges retained; exactsixnewguards independentlysupported byactualmorning/breakfast/abbreviateddinner/よる-onlydinnersenses and realbaselinebodies/labels. No additional daypart/meal-superclass/transitiveclique warranted.",
+    "All49actual local links resolve; sourceoptional inventory49retained/64flattened without substantive teaching loss.",
+    "Technicalmetadataunchangedexcepttitles/sixguards; sourcekana-onlyこのごろ/sparsekanjimetadataintact. 午前supportedclarification/OxfordEnglish-onlyprovenanceappropriate."
+  ],
+  "reviewLimits": "Bounded content review, not native-speaker/app-rendering/device/IME/media/release/whole8278acceptance. Author tests not rerun. No writes/builds/installs/commits/GitHubchanges. Pinned app dossier inspected, not mutable app/screens. Initial oversized guidance response auto-spilled; spill never accessed; allrequiredguidance subsequently directly read in boundedranges.",
+  "records": [
+    {
+      "path": "words/年.md",
+      "sourceRawSha256": "e4a3be68371c265a1af54d12356f164de052439f7718ce7ad55cf7b210446603",
+      "sourceWorkingRawSha256": "e4a3be68371c265a1af54d12356f164de052439f7718ce7ad55cf7b210446603",
+      "sourceSha256": "e4a3be68371c265a1af54d12356f164de052439f7718ce7ad55cf7b210446603",
+      "ruRawSha256": "c79840eff0a7db2298dfb80c39f684bdf2ebad1f3fa2452a0653616a0b0d2607",
+      "ruSha256": "c79840eff0a7db2298dfb80c39f684bdf2ebad1f3fa2452a0653616a0b0d2607",
+      "sourceLines": 36,
+      "ruLines": 36,
+      "sourceRawBytes": 1354,
+      "ruWorkingRawBytes": 2026,
+      "displayedRussianMeaning": "год; возраст",
+      "sourceMetadata": {
+        "word": "年",
+        "reading": "とし",
+        "title": "year; age",
+        "jlpt": "5",
+        "type": "wago",
+        "kanji": [
+          "年"
+        ],
+        "tags": [
+          "wago",
+          "noun",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/朝.md",
+      "sourceRawSha256": "1f415175d8d6dc3cea9b1d92656853d1ab7d1d65b7c3e56259d6ceaf06ec459f",
+      "sourceWorkingRawSha256": "1f415175d8d6dc3cea9b1d92656853d1ab7d1d65b7c3e56259d6ceaf06ec459f",
+      "sourceSha256": "1f415175d8d6dc3cea9b1d92656853d1ab7d1d65b7c3e56259d6ceaf06ec459f",
+      "ruRawSha256": "fd18af224746dadd4f79d4244a3b4cf3dff97bb78eef5347ff8ba83d594b58b9",
+      "ruSha256": "fd18af224746dadd4f79d4244a3b4cf3dff97bb78eef5347ff8ba83d594b58b9",
+      "sourceLines": 31,
+      "ruLines": 32,
+      "sourceRawBytes": 1319,
+      "ruWorkingRawBytes": 2107,
+      "displayedRussianMeaning": "утро",
+      "sourceMetadata": {
+        "word": "朝",
+        "reading": "あさ",
+        "jlpt": "5",
+        "title": "morning",
+        "type": "wago",
+        "kanji": [
+          "朝"
+        ],
+        "tags": [
+          "wago",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/晩.md",
+      "sourceRawSha256": "aa8dcf557a37a9f1f404241626765745794aa4cec1dd07db6e83cf5572b49b30",
+      "sourceWorkingRawSha256": "aa8dcf557a37a9f1f404241626765745794aa4cec1dd07db6e83cf5572b49b30",
+      "sourceSha256": "aa8dcf557a37a9f1f404241626765745794aa4cec1dd07db6e83cf5572b49b30",
+      "ruRawSha256": "2f0dd5c15442aa30ca568ff338167b24f8b2095c3ac531d93c4048089a553e2d",
+      "ruSha256": "2f0dd5c15442aa30ca568ff338167b24f8b2095c3ac531d93c4048089a553e2d",
+      "sourceLines": 31,
+      "ruLines": 32,
+      "sourceRawBytes": 1228,
+      "ruWorkingRawBytes": 1907,
+      "displayedRussianMeaning": "вечер; ночь",
+      "sourceMetadata": {
+        "word": "晩",
+        "reading": "ばん",
+        "title": "evening; night",
+        "jlpt": "5",
+        "type": "kango",
+        "kanji": [
+          "晩"
+        ],
+        "tags": [
+          "kango",
+          "noun",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/夜.md",
+      "sourceRawSha256": "a3bfd4b5e872b82edbb3911f00eac23d4e7d42090a23eb8a8c4ee754c14f5257",
+      "sourceWorkingRawSha256": "a3bfd4b5e872b82edbb3911f00eac23d4e7d42090a23eb8a8c4ee754c14f5257",
+      "sourceSha256": "a3bfd4b5e872b82edbb3911f00eac23d4e7d42090a23eb8a8c4ee754c14f5257",
+      "ruRawSha256": "90cfbeb491d5eeb71b08b35d21137f27476c8d9e58625949ea9460ffd8237a04",
+      "ruSha256": "90cfbeb491d5eeb71b08b35d21137f27476c8d9e58625949ea9460ffd8237a04",
+      "sourceLines": 47,
+      "ruLines": 45,
+      "sourceRawBytes": 2110,
+      "ruWorkingRawBytes": 3194,
+      "displayedRussianMeaning": "ночь",
+      "sourceMetadata": {
+        "word": "夜",
+        "reading": "よる",
+        "title": "night",
+        "jlpt": "5",
+        "type": "wago",
+        "kanji": [
+          "夜"
+        ],
+        "tags": [
+          "wago",
+          "time-of-day"
+        ],
+        "quiz_exclusions": [
+          "晩"
+        ]
+      }
+    },
+    {
+      "path": "words/午前.md",
+      "sourceRawSha256": "31876732482a6ba02b17087477004e681f42bae8e1d2637bf8a81f9c910053bd",
+      "sourceWorkingRawSha256": "31876732482a6ba02b17087477004e681f42bae8e1d2637bf8a81f9c910053bd",
+      "sourceSha256": "2bd3e0cd47a7148a5bf96319fc1ef20d57dbc81f3bc6ddd1eae79b294bb1095d",
+      "ruRawSha256": "3b622925b37bbe03af95b224c327e89d6ede7402e42715c68f12eac410032321",
+      "ruSha256": "3b622925b37bbe03af95b224c327e89d6ede7402e42715c68f12eac410032321",
+      "sourceLines": 30,
+      "ruLines": 32,
+      "sourceRawBytes": 1215,
+      "ruWorkingRawBytes": 2603,
+      "displayedRussianMeaning": "утро; до полудня",
+      "sourceMetadata": {
+        "word": "午前",
+        "reading": "ごぜん",
+        "jlpt": "5",
+        "title": "morning, a.m.",
+        "type": "kango",
+        "kanji": [
+          "午",
+          "前"
+        ],
+        "tags": [
+          "kango",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/午後.md",
+      "sourceRawSha256": "03ce26fc6ea35bd457b3089526fb2ae20ef7b6c57a37d1f391b95cd81aa4cbd9",
+      "sourceWorkingRawSha256": "03ce26fc6ea35bd457b3089526fb2ae20ef7b6c57a37d1f391b95cd81aa4cbd9",
+      "sourceSha256": "8a5f5b37d2b3b97a39a717d32504c2a8b7ac8917f37718ede395e84ecff74a23",
+      "ruRawSha256": "b8ab0f036770aa8b1f49cb070bc054f89e771b817a9b55fe84dcf3f826563ba3",
+      "ruSha256": "b8ab0f036770aa8b1f49cb070bc054f89e771b817a9b55fe84dcf3f826563ba3",
+      "sourceLines": 35,
+      "ruLines": 35,
+      "sourceRawBytes": 1747,
+      "ruWorkingRawBytes": 2797,
+      "displayedRussianMeaning": "после полудня; вторая половина дня",
+      "sourceMetadata": {
+        "word": "午後",
+        "reading": "ごご",
+        "jlpt": "5",
+        "title": "afternoon, p.m.",
+        "type": "kango",
+        "kanji": [
+          "午",
+          "後"
+        ],
+        "tags": [
+          "kango",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/今日.md",
+      "sourceRawSha256": "a458752f8828194815a975a3c9ba1430bcc906ac1b69b5ff75c5ca0ca4fff148",
+      "sourceWorkingRawSha256": "a458752f8828194815a975a3c9ba1430bcc906ac1b69b5ff75c5ca0ca4fff148",
+      "sourceSha256": "950a094ee7f19187d01ad3df26f69bbf1956a677d2860bcf67bda542cbc89fb5",
+      "ruRawSha256": "3997c49f849fc2c12bbf245fbe18cca8ef1fbc3deaf9b7cc05d5767093a9bfde",
+      "ruSha256": "3997c49f849fc2c12bbf245fbe18cca8ef1fbc3deaf9b7cc05d5767093a9bfde",
+      "sourceLines": 44,
+      "ruLines": 38,
+      "sourceRawBytes": 2223,
+      "ruWorkingRawBytes": 3252,
+      "displayedRussianMeaning": "сегодня",
+      "sourceMetadata": {
+        "word": "今日",
+        "reading": "きょう",
+        "title": "today",
+        "jlpt": "5",
+        "type": "jukujikun",
+        "kanji": [
+          "今",
+          "日"
+        ],
+        "tags": [
+          "jukujikun",
+          "time"
+        ],
+        "quiz_exclusions": [
+          "近頃",
+          "最近",
+          "このごろ"
+        ],
+        "quiz_distractors": [
+          "今朝",
+          "今年",
+          "今月"
+        ]
+      }
+    },
+    {
+      "path": "words/昨日.md",
+      "sourceRawSha256": "4fcdf5d6ed5e199cb45756f9ee758ca96e3750b91bab6cd54d1956182bd07cbe",
+      "sourceWorkingRawSha256": "4fcdf5d6ed5e199cb45756f9ee758ca96e3750b91bab6cd54d1956182bd07cbe",
+      "sourceSha256": "4fcdf5d6ed5e199cb45756f9ee758ca96e3750b91bab6cd54d1956182bd07cbe",
+      "ruRawSha256": "5fe782678f26763024b217adb64064819acb90b7de590f7ea81505a415c5bc83",
+      "ruSha256": "5fe782678f26763024b217adb64064819acb90b7de590f7ea81505a415c5bc83",
+      "sourceLines": 43,
+      "ruLines": 36,
+      "sourceRawBytes": 1847,
+      "ruWorkingRawBytes": 2621,
+      "displayedRussianMeaning": "вчера",
+      "sourceMetadata": {
+        "word": "昨日",
+        "reading": "きのう",
+        "jlpt": "5",
+        "title": "yesterday",
+        "type": "jukujikun",
+        "kanji": [
+          "昨",
+          "日"
+        ],
+        "tags": [
+          "jukujikun",
+          "time"
+        ],
+        "quiz_distractors": [
+          "昨夜",
+          "今日",
+          "明日"
+        ]
+      }
+    },
+    {
+      "path": "words/明日.md",
+      "sourceRawSha256": "47108c3909aa0d93fb1ed168f9e42ee8b336d7571af58baafcbea37d8b390eba",
+      "sourceWorkingRawSha256": "47108c3909aa0d93fb1ed168f9e42ee8b336d7571af58baafcbea37d8b390eba",
+      "sourceSha256": "47108c3909aa0d93fb1ed168f9e42ee8b336d7571af58baafcbea37d8b390eba",
+      "ruRawSha256": "21c3af1a2664d3d72b5885c24c23a65e7abdfd784b660482cdbfaff59134520a",
+      "ruSha256": "21c3af1a2664d3d72b5885c24c23a65e7abdfd784b660482cdbfaff59134520a",
+      "sourceLines": 33,
+      "ruLines": 33,
+      "sourceRawBytes": 1553,
+      "ruWorkingRawBytes": 2216,
+      "displayedRussianMeaning": "завтра",
+      "sourceMetadata": {
+        "word": "明日",
+        "reading": "あした",
+        "title": "tomorrow",
+        "jlpt": "5",
+        "type": "jukujikun",
+        "kanji": [
+          "明",
+          "日"
+        ],
+        "tags": [
+          "jukujikun",
+          "noun",
+          "adverb",
+          "time"
+        ],
+        "quiz_distractors": [
+          "昨日",
+          "来週"
+        ]
+      }
+    },
+    {
+      "path": "words/一昨日.md",
+      "sourceRawSha256": "c2ded314a1262367057f9dba6819c95cd652c4b1121b7b269d295b235db43b22",
+      "sourceWorkingRawSha256": "c2ded314a1262367057f9dba6819c95cd652c4b1121b7b269d295b235db43b22",
+      "sourceSha256": "c2ded314a1262367057f9dba6819c95cd652c4b1121b7b269d295b235db43b22",
+      "ruRawSha256": "4b58a45da48d038a716f685aa5995a3cc9a034a52c93aca01c1524c0a45a9ca1",
+      "ruSha256": "4b58a45da48d038a716f685aa5995a3cc9a034a52c93aca01c1524c0a45a9ca1",
+      "sourceLines": 35,
+      "ruLines": 35,
+      "sourceRawBytes": 1555,
+      "ruWorkingRawBytes": 2174,
+      "displayedRussianMeaning": "позавчера",
+      "sourceMetadata": {
+        "word": "一昨日",
+        "reading": "おととい",
+        "title": "day before yesterday",
+        "jlpt": "5",
+        "type": "jukujikun",
+        "kanji": [
+          "一",
+          "昨",
+          "日"
+        ],
+        "tags": [
+          "jukujikun",
+          "noun",
+          "adverb",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/毎日.md",
+      "sourceRawSha256": "ebc4ee3a178892da285472a23e40226fe2d9688c32617707529888ea27ef6e08",
+      "sourceWorkingRawSha256": "ebc4ee3a178892da285472a23e40226fe2d9688c32617707529888ea27ef6e08",
+      "sourceSha256": "a7a656123a977a42b39df8a229973d44d08f0029fd303941724554670571f64a",
+      "ruRawSha256": "2e9c0e536a7a88ae3f9ffb23ed2552d5a15a22ce77396d6ef20c853e22ae871c",
+      "ruSha256": "2e9c0e536a7a88ae3f9ffb23ed2552d5a15a22ce77396d6ef20c853e22ae871c",
+      "sourceLines": 28,
+      "ruLines": 28,
+      "sourceRawBytes": 950,
+      "ruWorkingRawBytes": 1666,
+      "displayedRussianMeaning": "каждый день",
+      "sourceMetadata": {
+        "word": "毎日",
+        "reading": "まいにち",
+        "title": "every day",
+        "jlpt": "5",
+        "type": "kango",
+        "kanji": [
+          "毎",
+          "日"
+        ],
+        "tags": [
+          "kango",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/毎朝.md",
+      "sourceRawSha256": "4570661d412ae6637c481fc0d886d869b63c214f192f4109661a08e71cf03478",
+      "sourceWorkingRawSha256": "4570661d412ae6637c481fc0d886d869b63c214f192f4109661a08e71cf03478",
+      "sourceSha256": "4570661d412ae6637c481fc0d886d869b63c214f192f4109661a08e71cf03478",
+      "ruRawSha256": "5aa6aba36f878ee2922c63f9ad0ed90b2ba4b30513790f922391817132fa0325",
+      "ruSha256": "5aa6aba36f878ee2922c63f9ad0ed90b2ba4b30513790f922391817132fa0325",
+      "sourceLines": 34,
+      "ruLines": 34,
+      "sourceRawBytes": 1491,
+      "ruWorkingRawBytes": 2177,
+      "displayedRussianMeaning": "каждое утро",
+      "sourceMetadata": {
+        "word": "毎朝",
+        "reading": "まいあさ",
+        "title": "every morning",
+        "jlpt": "5",
+        "type": "kango",
+        "kanji": [
+          "毎",
+          "朝"
+        ],
+        "tags": [
+          "mixed-reading",
+          "noun",
+          "adverb",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/毎晩.md",
+      "sourceRawSha256": "a4935aaa268a9328d6559d3cde02bc29a9175e374f363c2fb875c089c54f7b8e",
+      "sourceWorkingRawSha256": "a4935aaa268a9328d6559d3cde02bc29a9175e374f363c2fb875c089c54f7b8e",
+      "sourceSha256": "a4935aaa268a9328d6559d3cde02bc29a9175e374f363c2fb875c089c54f7b8e",
+      "ruRawSha256": "cd57e97e932d1ad0b1c277e430fb9598769ab08660c761ec46b26664c7744750",
+      "ruSha256": "cd57e97e932d1ad0b1c277e430fb9598769ab08660c761ec46b26664c7744750",
+      "sourceLines": 34,
+      "ruLines": 34,
+      "sourceRawBytes": 1450,
+      "ruWorkingRawBytes": 2213,
+      "displayedRussianMeaning": "каждый вечер; каждую ночь",
+      "sourceMetadata": {
+        "word": "毎晩",
+        "reading": "まいばん",
+        "title": "every night",
+        "jlpt": "5",
+        "type": "kango",
+        "kanji": [
+          "毎",
+          "晩"
+        ],
+        "tags": [
+          "kango",
+          "noun",
+          "adverb",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/今朝.md",
+      "sourceRawSha256": "c00eb33fe3bd0c1180ba546a460223932269898296b04144069822c65f5447df",
+      "sourceWorkingRawSha256": "c00eb33fe3bd0c1180ba546a460223932269898296b04144069822c65f5447df",
+      "sourceSha256": "c00eb33fe3bd0c1180ba546a460223932269898296b04144069822c65f5447df",
+      "ruRawSha256": "49221449cf555e9f3cfdbcfe20cc50eec478577776c9358f7438aaa7a9fa341d",
+      "ruSha256": "49221449cf555e9f3cfdbcfe20cc50eec478577776c9358f7438aaa7a9fa341d",
+      "sourceLines": 31,
+      "ruLines": 31,
+      "sourceRawBytes": 1203,
+      "ruWorkingRawBytes": 1816,
+      "displayedRussianMeaning": "сегодня утром",
+      "sourceMetadata": {
+        "word": "今朝",
+        "reading": "けさ",
+        "title": "this morning",
+        "jlpt": "5",
+        "type": "jukujikun",
+        "kanji": [
+          "今",
+          "朝"
+        ],
+        "tags": [
+          "noun",
+          "adverb",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/今晩.md",
+      "sourceRawSha256": "885c565c2fc88b222b01034eb46a29b7a789e42fdba8cf3a5eb309b93b7c8a8a",
+      "sourceWorkingRawSha256": "885c565c2fc88b222b01034eb46a29b7a789e42fdba8cf3a5eb309b93b7c8a8a",
+      "sourceSha256": "885c565c2fc88b222b01034eb46a29b7a789e42fdba8cf3a5eb309b93b7c8a8a",
+      "ruRawSha256": "8f8b51c592aca163c9bb61dd86d795417ce171389805e44da6c9609b40ea5bb0",
+      "ruSha256": "8f8b51c592aca163c9bb61dd86d795417ce171389805e44da6c9609b40ea5bb0",
+      "sourceLines": 40,
+      "ruLines": 34,
+      "sourceRawBytes": 1737,
+      "ruWorkingRawBytes": 2816,
+      "displayedRussianMeaning": "сегодня вечером; сегодня ночью",
+      "sourceMetadata": {
+        "word": "今晩",
+        "reading": "こんばん",
+        "title": "tonight",
+        "jlpt": "5",
+        "type": "kango",
+        "kanji": [
+          "今",
+          "晩"
+        ],
+        "tags": [
+          "kango",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/今年.md",
+      "sourceRawSha256": "0f0d3911cfc059333a0fa757bef8f1283f2f9c587d165a300f8c6e9dc3037aeb",
+      "sourceWorkingRawSha256": "0f0d3911cfc059333a0fa757bef8f1283f2f9c587d165a300f8c6e9dc3037aeb",
+      "sourceSha256": "a46205356d0995d8f74e4024f4adcc0e4be8edf537491fc6126137d83514279a",
+      "ruRawSha256": "90a299e5597d86bf3c83fa02679ee6b6193c5c37c90ffbafbd2e80b1b86e416c",
+      "ruSha256": "90a299e5597d86bf3c83fa02679ee6b6193c5c37c90ffbafbd2e80b1b86e416c",
+      "sourceLines": 28,
+      "ruLines": 28,
+      "sourceRawBytes": 1193,
+      "ruWorkingRawBytes": 1754,
+      "displayedRussianMeaning": "этот год; в этом году",
+      "sourceMetadata": {
+        "word": "今年",
+        "reading": "ことし",
+        "jlpt": "5",
+        "title": "this year",
+        "type": "jukujikun",
+        "kanji": [
+          "今",
+          "年"
+        ],
+        "tags": [
+          "jukujikun",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/去年.md",
+      "sourceRawSha256": "d45ee3892ef70de5372fabcbb000fbe91ca93910312af95d32e2a061e837bf7c",
+      "sourceWorkingRawSha256": "d45ee3892ef70de5372fabcbb000fbe91ca93910312af95d32e2a061e837bf7c",
+      "sourceSha256": "d45ee3892ef70de5372fabcbb000fbe91ca93910312af95d32e2a061e837bf7c",
+      "ruRawSha256": "b887748d278b913932c8c98e68ead7ae94305d44c3d311e71f531f9106c1878f",
+      "ruSha256": "b887748d278b913932c8c98e68ead7ae94305d44c3d311e71f531f9106c1878f",
+      "sourceLines": 34,
+      "ruLines": 34,
+      "sourceRawBytes": 1274,
+      "ruWorkingRawBytes": 1972,
+      "displayedRussianMeaning": "прошлый год; в прошлом году",
+      "sourceMetadata": {
+        "word": "去年",
+        "reading": "きょねん",
+        "title": "last year",
+        "jlpt": "5",
+        "type": "kango",
+        "kanji": [
+          "去",
+          "年"
+        ],
+        "tags": [
+          "kango",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/来年.md",
+      "sourceRawSha256": "384b341f84fcfa6fbe07883c9cb955bec27138328bd6be1e7703f40f4ce267b5",
+      "sourceWorkingRawSha256": "384b341f84fcfa6fbe07883c9cb955bec27138328bd6be1e7703f40f4ce267b5",
+      "sourceSha256": "834dc47904691ff05e26d0c513bb65b05a4a1bd2fe5476d5463b151dbfcdfed1",
+      "ruRawSha256": "7bc23cf7778f9c6b3f4f5c0cacaa053e25a282fb71df4e61de9874c4c472d262",
+      "ruSha256": "7bc23cf7778f9c6b3f4f5c0cacaa053e25a282fb71df4e61de9874c4c472d262",
+      "sourceLines": 28,
+      "ruLines": 28,
+      "sourceRawBytes": 1158,
+      "ruWorkingRawBytes": 1840,
+      "displayedRussianMeaning": "следующий год; в следующем году",
+      "sourceMetadata": {
+        "word": "来年",
+        "reading": "らいねん",
+        "jlpt": "5",
+        "title": "next year",
+        "type": "kango",
+        "kanji": [
+          "来",
+          "年"
+        ],
+        "tags": [
+          "kango",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/今月.md",
+      "sourceRawSha256": "54ca587133f2e5812a54a9a3a3404bbcdac1908bf704c1347049f7bafff27763",
+      "sourceWorkingRawSha256": "54ca587133f2e5812a54a9a3a3404bbcdac1908bf704c1347049f7bafff27763",
+      "sourceSha256": "b1f1f459bb6429fdccba49c7d317671a244f9a977e3277c760918d90441870da",
+      "ruRawSha256": "d5f813ecff76c72bdbb78d20c4320187e06c8a1acf4088385c92171f95fe5ac5",
+      "ruSha256": "d5f813ecff76c72bdbb78d20c4320187e06c8a1acf4088385c92171f95fe5ac5",
+      "sourceLines": 28,
+      "ruLines": 28,
+      "sourceRawBytes": 859,
+      "ruWorkingRawBytes": 1256,
+      "displayedRussianMeaning": "этот месяц; в этом месяце",
+      "sourceMetadata": {
+        "word": "今月",
+        "reading": "こんげつ",
+        "jlpt": "5",
+        "title": "this month",
+        "type": "kango",
+        "kanji": [
+          "今",
+          "月"
+        ],
+        "tags": [
+          "kango",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/来月.md",
+      "sourceRawSha256": "577624f1696f6fac4613be2868be521aecc236fda53811293f88a7092beb0774",
+      "sourceWorkingRawSha256": "577624f1696f6fac4613be2868be521aecc236fda53811293f88a7092beb0774",
+      "sourceSha256": "577624f1696f6fac4613be2868be521aecc236fda53811293f88a7092beb0774",
+      "ruRawSha256": "a883f0c9b3afc97414ce4442bf4a4eb87d6f8461f41d8ef7c5944c1a94d510c7",
+      "ruSha256": "a883f0c9b3afc97414ce4442bf4a4eb87d6f8461f41d8ef7c5944c1a94d510c7",
+      "sourceLines": 34,
+      "ruLines": 34,
+      "sourceRawBytes": 1368,
+      "ruWorkingRawBytes": 2097,
+      "displayedRussianMeaning": "следующий месяц; в следующем месяце",
+      "sourceMetadata": {
+        "word": "来月",
+        "reading": "らいげつ",
+        "title": "next month",
+        "jlpt": "5",
+        "type": "kango",
+        "kanji": [
+          "来",
+          "月"
+        ],
+        "tags": [
+          "kango",
+          "noun",
+          "adverb",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/今週.md",
+      "sourceRawSha256": "c6105efe547c05c8a41f0ca6bb7aa3fddc9c05d8b005192b7f824d58f96ad55a",
+      "sourceWorkingRawSha256": "c6105efe547c05c8a41f0ca6bb7aa3fddc9c05d8b005192b7f824d58f96ad55a",
+      "sourceSha256": "c6105efe547c05c8a41f0ca6bb7aa3fddc9c05d8b005192b7f824d58f96ad55a",
+      "ruRawSha256": "1f58f152a79bbf1af3b610941317e2ad847847ae7a8fe6037f3e85e4684a9875",
+      "ruSha256": "1f58f152a79bbf1af3b610941317e2ad847847ae7a8fe6037f3e85e4684a9875",
+      "sourceLines": 33,
+      "ruLines": 33,
+      "sourceRawBytes": 1455,
+      "ruWorkingRawBytes": 2181,
+      "displayedRussianMeaning": "эта неделя; на этой неделе",
+      "sourceMetadata": {
+        "word": "今週",
+        "reading": "こんしゅう",
+        "title": "this week",
+        "jlpt": "5",
+        "type": "kango",
+        "kanji": [
+          "今",
+          "週"
+        ],
+        "tags": [
+          "kango",
+          "noun",
+          "adverb",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/来週.md",
+      "sourceRawSha256": "024d9ae12f7e6c12d5e1408c466d7d784afd135c9da314236d75a7f86432fa22",
+      "sourceWorkingRawSha256": "024d9ae12f7e6c12d5e1408c466d7d784afd135c9da314236d75a7f86432fa22",
+      "sourceSha256": "024d9ae12f7e6c12d5e1408c466d7d784afd135c9da314236d75a7f86432fa22",
+      "ruRawSha256": "b33f07c5b8454cd91b20a9c83e4318e55050b85aeca97b49c8d93d6132e2640e",
+      "ruSha256": "b33f07c5b8454cd91b20a9c83e4318e55050b85aeca97b49c8d93d6132e2640e",
+      "sourceLines": 41,
+      "ruLines": 38,
+      "sourceRawBytes": 1515,
+      "ruWorkingRawBytes": 2506,
+      "displayedRussianMeaning": "следующая неделя; на следующей неделе",
+      "sourceMetadata": {
+        "word": "来週",
+        "reading": "らいしゅう",
+        "title": "next week",
+        "jlpt": "5",
+        "type": "kango",
+        "kanji": [
+          "来",
+          "週"
+        ],
+        "tags": [
+          "kango",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/月曜日.md",
+      "sourceRawSha256": "d2d9ca2d2cd17231ecf60b6e261b0722b0764a20e183049ba97c39c13aa3cd27",
+      "sourceWorkingRawSha256": "d2d9ca2d2cd17231ecf60b6e261b0722b0764a20e183049ba97c39c13aa3cd27",
+      "sourceSha256": "d2d9ca2d2cd17231ecf60b6e261b0722b0764a20e183049ba97c39c13aa3cd27",
+      "ruRawSha256": "aaec134c167320e16f0c8580db996a5f2bc86f7b05d5f68846c701e5d03b8e74",
+      "ruSha256": "aaec134c167320e16f0c8580db996a5f2bc86f7b05d5f68846c701e5d03b8e74",
+      "sourceLines": 33,
+      "ruLines": 33,
+      "sourceRawBytes": 1344,
+      "ruWorkingRawBytes": 2018,
+      "displayedRussianMeaning": "понедельник",
+      "sourceMetadata": {
+        "word": "月曜日",
+        "reading": "げつようび",
+        "title": "Monday",
+        "jlpt": "5",
+        "type": "kango",
+        "kanji": [
+          "月",
+          "曜",
+          "日"
+        ],
+        "tags": [
+          "kango",
+          "noun",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/火曜日.md",
+      "sourceRawSha256": "8f4fe7ce17c55c9869d20b367783556c2f3a659e7b0c1268bd72516a040f3697",
+      "sourceWorkingRawSha256": "8f4fe7ce17c55c9869d20b367783556c2f3a659e7b0c1268bd72516a040f3697",
+      "sourceSha256": "8f4fe7ce17c55c9869d20b367783556c2f3a659e7b0c1268bd72516a040f3697",
+      "ruRawSha256": "b6011ac4a6d20f96b53dc66caf189fe23ae0d38658912cc7944a1068d6e54577",
+      "ruSha256": "b6011ac4a6d20f96b53dc66caf189fe23ae0d38658912cc7944a1068d6e54577",
+      "sourceLines": 33,
+      "ruLines": 33,
+      "sourceRawBytes": 1337,
+      "ruWorkingRawBytes": 1882,
+      "displayedRussianMeaning": "вторник",
+      "sourceMetadata": {
+        "word": "火曜日",
+        "reading": "かようび",
+        "title": "Tuesday",
+        "jlpt": "5",
+        "type": "kango",
+        "kanji": [
+          "火",
+          "曜",
+          "日"
+        ],
+        "tags": [
+          "kango",
+          "noun",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/水曜日.md",
+      "sourceRawSha256": "705787a028acc0b84803ba68e3e27bcb1d767915c36b1ac742f1586eb745098f",
+      "sourceWorkingRawSha256": "705787a028acc0b84803ba68e3e27bcb1d767915c36b1ac742f1586eb745098f",
+      "sourceSha256": "705787a028acc0b84803ba68e3e27bcb1d767915c36b1ac742f1586eb745098f",
+      "ruRawSha256": "481c127da56c53ebd12701843fed443ffdbafedb397e7103c28c40ef984e2ec8",
+      "ruSha256": "481c127da56c53ebd12701843fed443ffdbafedb397e7103c28c40ef984e2ec8",
+      "sourceLines": 33,
+      "ruLines": 33,
+      "sourceRawBytes": 1468,
+      "ruWorkingRawBytes": 2042,
+      "displayedRussianMeaning": "среда",
+      "sourceMetadata": {
+        "word": "水曜日",
+        "reading": "すいようび",
+        "title": "Wednesday",
+        "jlpt": "5",
+        "type": "kango",
+        "kanji": [
+          "水",
+          "曜",
+          "日"
+        ],
+        "tags": [
+          "kango",
+          "noun",
+          "time",
+          "weekday"
+        ]
+      }
+    },
+    {
+      "path": "words/木曜日.md",
+      "sourceRawSha256": "67e75c61a7f731429b77d85297acb1f285b7c0267e2b6162c5086fdbb411dfa6",
+      "sourceWorkingRawSha256": "67e75c61a7f731429b77d85297acb1f285b7c0267e2b6162c5086fdbb411dfa6",
+      "sourceSha256": "67e75c61a7f731429b77d85297acb1f285b7c0267e2b6162c5086fdbb411dfa6",
+      "ruRawSha256": "152907bdf09f19f66c90ceda6e67b4cc2414db5eb0ab29aa2abac6161cf7d474",
+      "ruSha256": "152907bdf09f19f66c90ceda6e67b4cc2414db5eb0ab29aa2abac6161cf7d474",
+      "sourceLines": 34,
+      "ruLines": 34,
+      "sourceRawBytes": 1360,
+      "ruWorkingRawBytes": 2036,
+      "displayedRussianMeaning": "четверг",
+      "sourceMetadata": {
+        "word": "木曜日",
+        "reading": "もくようび",
+        "title": "Thursday",
+        "jlpt": "5",
+        "type": "kango",
+        "kanji": [
+          "木",
+          "曜",
+          "日"
+        ],
+        "tags": [
+          "kango",
+          "noun",
+          "calendar"
+        ]
+      }
+    },
+    {
+      "path": "words/金曜日.md",
+      "sourceRawSha256": "5f43f453833ed43d01f16575abf646498518c2a7507d8bc6ba996edd6ef828e4",
+      "sourceWorkingRawSha256": "5f43f453833ed43d01f16575abf646498518c2a7507d8bc6ba996edd6ef828e4",
+      "sourceSha256": "5f43f453833ed43d01f16575abf646498518c2a7507d8bc6ba996edd6ef828e4",
+      "ruRawSha256": "eeeda1782bf49194fe7073773bab9605050163496be4a34d3ccdd90ebd502db2",
+      "ruSha256": "eeeda1782bf49194fe7073773bab9605050163496be4a34d3ccdd90ebd502db2",
+      "sourceLines": 28,
+      "ruLines": 28,
+      "sourceRawBytes": 1052,
+      "ruWorkingRawBytes": 1642,
+      "displayedRussianMeaning": "пятница",
+      "sourceMetadata": {
+        "word": "金曜日",
+        "reading": "きんようび",
+        "title": "Friday",
+        "jlpt": "5",
+        "type": "kango",
+        "kanji": [
+          "金",
+          "曜",
+          "日"
+        ],
+        "tags": [
+          "kango",
+          "weekday"
+        ]
+      }
+    },
+    {
+      "path": "words/土曜日.md",
+      "sourceRawSha256": "430560e4a19beec1d1f17e73b8024945b93bb5eb7b9669d70edbb56ef78e21ad",
+      "sourceWorkingRawSha256": "430560e4a19beec1d1f17e73b8024945b93bb5eb7b9669d70edbb56ef78e21ad",
+      "sourceSha256": "430560e4a19beec1d1f17e73b8024945b93bb5eb7b9669d70edbb56ef78e21ad",
+      "ruRawSha256": "3e0e010440e8b8f59b21efdb8e670846b5e25fd71a277b8376b0c7fd2baf6643",
+      "ruSha256": "3e0e010440e8b8f59b21efdb8e670846b5e25fd71a277b8376b0c7fd2baf6643",
+      "sourceLines": 30,
+      "ruLines": 30,
+      "sourceRawBytes": 1154,
+      "ruWorkingRawBytes": 2048,
+      "displayedRussianMeaning": "суббота",
+      "sourceMetadata": {
+        "word": "土曜日",
+        "reading": "どようび",
+        "jlpt": "5",
+        "title": "Saturday",
+        "type": "kango",
+        "kanji": [
+          "土",
+          "曜",
+          "日"
+        ],
+        "tags": [
+          "kango",
+          "weekday"
+        ]
+      }
+    },
+    {
+      "path": "words/日曜日.md",
+      "sourceRawSha256": "c84370e2137b2b1fcdb19c2beab4773a835f78402d9251e13d8a8accf496fa0e",
+      "sourceWorkingRawSha256": "c84370e2137b2b1fcdb19c2beab4773a835f78402d9251e13d8a8accf496fa0e",
+      "sourceSha256": "c84370e2137b2b1fcdb19c2beab4773a835f78402d9251e13d8a8accf496fa0e",
+      "ruRawSha256": "9c341976ffa62415360172a786adb2afb01516ba694400c113a0c750fdb12bf8",
+      "ruSha256": "9c341976ffa62415360172a786adb2afb01516ba694400c113a0c750fdb12bf8",
+      "sourceLines": 31,
+      "ruLines": 31,
+      "sourceRawBytes": 1268,
+      "ruWorkingRawBytes": 1960,
+      "displayedRussianMeaning": "воскресенье",
+      "sourceMetadata": {
+        "word": "日曜日",
+        "reading": "にちようび",
+        "title": "Sunday",
+        "jlpt": "5",
+        "type": "kango",
+        "kanji": [
+          "日",
+          "曜"
+        ],
+        "tags": [
+          "kango",
+          "noun",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/誕生日.md",
+      "sourceRawSha256": "80a783222cd72a53188cd0fdcab9a539de7bf2b7bd6c06212140d873d6306011",
+      "sourceWorkingRawSha256": "80a783222cd72a53188cd0fdcab9a539de7bf2b7bd6c06212140d873d6306011",
+      "sourceSha256": "80a783222cd72a53188cd0fdcab9a539de7bf2b7bd6c06212140d873d6306011",
+      "ruRawSha256": "538f144e66fc1eb5d7f997765850b6fd27d8fb7d4bca6e8631cc3307f4473c4f",
+      "ruSha256": "538f144e66fc1eb5d7f997765850b6fd27d8fb7d4bca6e8631cc3307f4473c4f",
+      "sourceLines": 34,
+      "ruLines": 34,
+      "sourceRawBytes": 1379,
+      "ruWorkingRawBytes": 1945,
+      "displayedRussianMeaning": "день рождения",
+      "sourceMetadata": {
+        "word": "誕生日",
+        "reading": "たんじょうび",
+        "title": "birthday",
+        "jlpt": "5",
+        "type": "kango",
+        "kanji": [
+          "誕",
+          "生",
+          "日"
+        ],
+        "tags": [
+          "kango",
+          "noun",
+          "celebrations",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/春.md",
+      "sourceRawSha256": "8a4173411b0a33e5d36b836181e5d840b5079604e47a821660aa0b26612d52ec",
+      "sourceWorkingRawSha256": "8a4173411b0a33e5d36b836181e5d840b5079604e47a821660aa0b26612d52ec",
+      "sourceSha256": "8a4173411b0a33e5d36b836181e5d840b5079604e47a821660aa0b26612d52ec",
+      "ruRawSha256": "04f151d724518f05d908542da896ecde3911ca6b0212475507a86a852832b8fd",
+      "ruSha256": "04f151d724518f05d908542da896ecde3911ca6b0212475507a86a852832b8fd",
+      "sourceLines": 31,
+      "ruLines": 31,
+      "sourceRawBytes": 1242,
+      "ruWorkingRawBytes": 1867,
+      "displayedRussianMeaning": "весна",
+      "sourceMetadata": {
+        "word": "春",
+        "reading": "はる",
+        "title": "spring",
+        "jlpt": "5",
+        "type": "wago",
+        "kanji": [
+          "春"
+        ],
+        "tags": [
+          "wago",
+          "season"
+        ]
+      }
+    },
+    {
+      "path": "words/夏.md",
+      "sourceRawSha256": "acf37ccf940806e65d5461dbd3a0dfd3658af62a3b02f4ea41f54b99f61d5671",
+      "sourceWorkingRawSha256": "acf37ccf940806e65d5461dbd3a0dfd3658af62a3b02f4ea41f54b99f61d5671",
+      "sourceSha256": "acf37ccf940806e65d5461dbd3a0dfd3658af62a3b02f4ea41f54b99f61d5671",
+      "ruRawSha256": "ee423923ec844a1823c086c2f7bcf6257a3082a35d6e1b19a721597957e6bbf4",
+      "ruSha256": "ee423923ec844a1823c086c2f7bcf6257a3082a35d6e1b19a721597957e6bbf4",
+      "sourceLines": 36,
+      "ruLines": 36,
+      "sourceRawBytes": 1431,
+      "ruWorkingRawBytes": 1982,
+      "displayedRussianMeaning": "лето",
+      "sourceMetadata": {
+        "word": "夏",
+        "reading": "なつ",
+        "jlpt": "5",
+        "title": "summer",
+        "type": "wago",
+        "kanji": [
+          "夏"
+        ],
+        "tags": [
+          "wago",
+          "season"
+        ]
+      }
+    },
+    {
+      "path": "words/秋.md",
+      "sourceRawSha256": "5a472363b4a047363a62298e6b1f52b271c2aa94d93ad8690025f7dd582d4c62",
+      "sourceWorkingRawSha256": "5a472363b4a047363a62298e6b1f52b271c2aa94d93ad8690025f7dd582d4c62",
+      "sourceSha256": "5a472363b4a047363a62298e6b1f52b271c2aa94d93ad8690025f7dd582d4c62",
+      "ruRawSha256": "db61c8f7cdfdac173f4df09ec02d1b4b7e974792fe0d219182bf5dc9b600c625",
+      "ruSha256": "db61c8f7cdfdac173f4df09ec02d1b4b7e974792fe0d219182bf5dc9b600c625",
+      "sourceLines": 41,
+      "ruLines": 37,
+      "sourceRawBytes": 1640,
+      "ruWorkingRawBytes": 2320,
+      "displayedRussianMeaning": "осень",
+      "sourceMetadata": {
+        "word": "秋",
+        "reading": "あき",
+        "jlpt": "5",
+        "title": "autumn; fall",
+        "type": "wago",
+        "kanji": [
+          "秋"
+        ],
+        "tags": [
+          "wago",
+          "season"
+        ]
+      }
+    },
+    {
+      "path": "words/冬.md",
+      "sourceRawSha256": "869b4863e89a7725520539bba086cddc130cdf60443fbca1e77e6cdc3afbb045",
+      "sourceWorkingRawSha256": "869b4863e89a7725520539bba086cddc130cdf60443fbca1e77e6cdc3afbb045",
+      "sourceSha256": "869b4863e89a7725520539bba086cddc130cdf60443fbca1e77e6cdc3afbb045",
+      "ruRawSha256": "a5f95b1a3ce7de151f78389b1848bdf9e9b6e518e7925e00b64336d57aa7d5c4",
+      "ruSha256": "a5f95b1a3ce7de151f78389b1848bdf9e9b6e518e7925e00b64336d57aa7d5c4",
+      "sourceLines": 34,
+      "ruLines": 34,
+      "sourceRawBytes": 1186,
+      "ruWorkingRawBytes": 1684,
+      "displayedRussianMeaning": "зима",
+      "sourceMetadata": {
+        "word": "冬",
+        "reading": "ふゆ",
+        "jlpt": "5",
+        "title": "winter",
+        "type": "wago",
+        "kanji": [
+          "冬"
+        ],
+        "tags": [
+          "wago",
+          "season"
+        ]
+      }
+    },
+    {
+      "path": "words/近頃.md",
+      "sourceRawSha256": "6136da36d09c024fd7bf2e931343021f5518ea589f25b68a610da7487659b899",
+      "sourceWorkingRawSha256": "6136da36d09c024fd7bf2e931343021f5518ea589f25b68a610da7487659b899",
+      "sourceSha256": "6136da36d09c024fd7bf2e931343021f5518ea589f25b68a610da7487659b899",
+      "ruRawSha256": "8351bc483bca67aaa38b1a94c8b2e60494d24c2e316d2c4a33132be6352e8c93",
+      "ruSha256": "8351bc483bca67aaa38b1a94c8b2e60494d24c2e316d2c4a33132be6352e8c93",
+      "sourceLines": 35,
+      "ruLines": 35,
+      "sourceRawBytes": 1861,
+      "ruWorkingRawBytes": 2957,
+      "displayedRussianMeaning": "в последнее время; в наши дни",
+      "sourceMetadata": {
+        "word": "近頃",
+        "reading": "ちかごろ",
+        "title": "lately; nowadays",
+        "jlpt": "3",
+        "type": "wago",
+        "kanji": [
+          "近",
+          "頃"
+        ],
+        "tags": [
+          "wago",
+          "time",
+          "adverb"
+        ],
+        "quiz_exclusions": [
+          "最近",
+          "このごろ"
+        ]
+      }
+    },
+    {
+      "path": "words/最近.md",
+      "sourceRawSha256": "0148df9ba784dbf77f3cc994172ea71e91531a1a0c6f96eca9344047125398ec",
+      "sourceWorkingRawSha256": "0148df9ba784dbf77f3cc994172ea71e91531a1a0c6f96eca9344047125398ec",
+      "sourceSha256": "0148df9ba784dbf77f3cc994172ea71e91531a1a0c6f96eca9344047125398ec",
+      "ruRawSha256": "7e9b0b496d803ae091bc16aa6c1fd403db7c85d68971043163800a9f3d003639",
+      "ruSha256": "7e9b0b496d803ae091bc16aa6c1fd403db7c85d68971043163800a9f3d003639",
+      "sourceLines": 42,
+      "ruLines": 35,
+      "sourceRawBytes": 1829,
+      "ruWorkingRawBytes": 2861,
+      "displayedRussianMeaning": "недавно; в последнее время",
+      "sourceMetadata": {
+        "word": "最近",
+        "reading": "さいきん",
+        "title": "recently; these days",
+        "jlpt": "4",
+        "type": "kango",
+        "kanji": [
+          "最",
+          "近"
+        ],
+        "tags": [
+          "kango",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/このごろ.md",
+      "sourceRawSha256": "6d76b787bfd52fa646f59234d268d222f88e21b3ced5c6fb77b1ec3fb1baa26f",
+      "sourceWorkingRawSha256": "6d76b787bfd52fa646f59234d268d222f88e21b3ced5c6fb77b1ec3fb1baa26f",
+      "sourceSha256": "6d76b787bfd52fa646f59234d268d222f88e21b3ced5c6fb77b1ec3fb1baa26f",
+      "ruRawSha256": "e2ef8ad432c4eb95daf8902940532c733238eaf44038e489bd4eec320c575ecb",
+      "ruSha256": "e2ef8ad432c4eb95daf8902940532c733238eaf44038e489bd4eec320c575ecb",
+      "sourceLines": 35,
+      "ruLines": 35,
+      "sourceRawBytes": 1605,
+      "ruWorkingRawBytes": 2547,
+      "displayedRussianMeaning": "в наши дни; в последнее время",
+      "sourceMetadata": {
+        "word": "このごろ",
+        "quiz_exclusions": [
+          "最近"
+        ],
+        "reading": "このごろ",
+        "title": "these days; lately",
+        "jlpt": "4",
+        "type": "wago",
+        "kanji": [],
+        "tags": [
+          "wago",
+          "adverb",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "words/昨夜.md",
+      "sourceRawSha256": "fe54bb721942e98d760ea4599cd2e7604d1f0721b003adb89442234b606f2ba0",
+      "sourceWorkingRawSha256": "fe54bb721942e98d760ea4599cd2e7604d1f0721b003adb89442234b606f2ba0",
+      "sourceSha256": "fe54bb721942e98d760ea4599cd2e7604d1f0721b003adb89442234b606f2ba0",
+      "ruRawSha256": "c9740134ab80f087b1ca79332b92dd31a356443a5efd50546d2d5725f745d554",
+      "ruSha256": "c9740134ab80f087b1ca79332b92dd31a356443a5efd50546d2d5725f745d554",
+      "sourceLines": 34,
+      "ruLines": 34,
+      "sourceRawBytes": 1512,
+      "ruWorkingRawBytes": 2233,
+      "displayedRussianMeaning": "вчера вечером; прошлой ночью",
+      "sourceMetadata": {
+        "word": "昨夜",
+        "reading": "ゆうべ",
+        "title": "last night",
+        "jlpt": "5",
+        "type": "jukujikun",
+        "kanji": [
+          "昨",
+          "夜"
+        ],
+        "tags": [
+          "jukujikun",
+          "noun",
+          "adverb",
+          "time"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "batch": "014-calendar-time-words",
+  "state": "accepted-finding-planned-correction-pending-recheck",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "initialCandidateCommit": "7c7f4d177b5159fc21e30e08706df9d44b52f689",
+  "initialReview": "docs/translation-batches/014-calendar-time-words-review-initial.json",
+  "finding": {
+    "id": "F014-01",
+    "severity": "minor",
+    "confidence": "high",
+    "facets": [
+      "Japanese correctness/source fidelity",
+      "coverage/cross-card consistency"
+    ],
+    "path": "words/朝.md",
+    "line": 28,
+    "quote": "夕方 ゆうがた — время ближе к концу дня, перед наступлением вечера",
+    "problem": "Before the onset of evening incorrectly excludes the source's early-evening part; frozen EN says late afternoon OR early evening. Other new晩/夜comparisons already correctly includeраннийвечер.",
+    "frozenSourceEvidence": {
+      "path": "words/朝.md",
+      "line": 27,
+      "quote": "late afternoon or early evening"
+    },
+    "otherBatchEvidence": [
+      {
+        "path": "words/晩.md",
+        "line": 26,
+        "quote": "конец дня или ранний вечер"
+      },
+      {
+        "path": "words/夜.md",
+        "line": 35,
+        "quote": "конец дня или ранний вечер"
+      }
+    ],
+    "actualReviewerReferenceReading": "Fresh exact Jisho夕方entry says early evening/dusk; actual Kotobankデジタル大辞泉日の暮れがた。日の沈むころ and精選版日本国語大辞典日が暮れかかるころ。夕日が沈むころ. These returned readings are reviewer evidence, not a separately author-captured APIobject.",
+    "requiredFix": "Use夕方ゆうがた—конецдняилираннийвечер; no old baseline article edit required.",
+    "status": "open-at-initial-review"
+  },
+  "authorDecision": "AcceptF014-01infull:sourcealreadyexplicitlyearlyevening; Russianbeforeeveningunjustifiablynarrowedspan. Replaceonlythisclause; retainallJapanese/metadata/examples/other37cards/baseline316.",
+  "runtimeDeltaPlanned": {
+    "path": "words/朝.md",
+    "old": "夕方 ゆうがた — время ближе к концу дня, перед наступлением вечера;",
+    "new": "夕方 ゆうがた — конец дня или ранний вечер;"
+  },
+  "activeGuidanceDelta": "Two directlyrelatedlines:preserveboundarymeaningsindayparttranslations;夕方earlyeveningnotonlybeforeevening. Three earlier APIpseudo-definition guidance lines retained.",
+  "evidencePrecision": "45entries/70forms/81returned sense objects comprises64lexicalsenses+17Wikipediapseudo-definitions. Historical counts.senses81meansreturnedobjects; no81lexical+17claim. Actualfrozenpolicypathdocs/confusable-words.md, not nonexistent-suffixfilename.",
+  "reviewStatus": "pending-focused-independent-exact-delta-recheck",
+  "limits": "Whole initial finding remainsopenhistorically. No selfapproval, oldtrackingrewrite, release/media/native/checkpointauthority."
+}
