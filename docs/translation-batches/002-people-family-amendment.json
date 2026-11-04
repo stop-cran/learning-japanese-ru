@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "batch": "002-people-family",
+  "state": "frozen-before-baseline-edit",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "originalScope": "docs/translation-batches/002-people-family-scope.json",
+  "affectedBaselinePath": "words/休日.md",
+  "reason": "Actual validator rejects a metadata kanji with an adopted card but no article link. Adding kanji/休.md makes the previous optional omission stale.",
+  "allowedChange": "Restore only [休](../kanji/休.md) in the composition paragraph. Retain all earlier justified Russian wording, examples, classifications and readings.",
+  "review": "The whole current Russian 休日 article and exact frozen English source join the independent batch review. Update its current tracking entry with new hashes/evidence; retain immutable earlier ledger and review receipts.",
+  "runtimeDelta": 0,
+  "completeLearnerTextsToReview": 27,
+  "newRuntimeObjects": 29,
+  "beforeRuRawSha256": "5bde1eaf039c6b05d395f112a43a0c8282c537b93cd30b14c1932217e71e8357",
+  "beforeRuSha256": "3c9be6b9ddabe2aeccdd8fe832363c86cccb2e0aec0aaf5dae4950cfb8a00910",
+  "sourceRawSha256": "b73d1814c9b8d32e09905bf4441d202a38fdad8210d330cdf3c67d77ca47785a",
+  "sourceSha256": "b628c82ac86bd65f74fd559668a7e0cbdb5a4235857e7f429fae7778735360e9"
+}
