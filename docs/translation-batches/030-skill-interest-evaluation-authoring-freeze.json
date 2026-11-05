@@ -1,0 +1,1139 @@
+{
+ "allNewSourceNegativeEdges": [],
+ "assetBoundary": {
+  "assetAdoption": [],
+  "boundary": "Only22exactrootmatches checked, not wholecorpusimageabsence or permissionwaiver. Remainingassets stay in8278backlog.",
+  "exactOptionalMatchingSceneOrImagePaths": [],
+  "mandatoryExplicitReferences": [],
+  "noActualPixelOrSceneSemanticReviewClaim": true
+ },
+ "baselineAnswerRows": 541,
+ "baselineCommit": "4dc81585fa8fbacbf553536e8b11c72bbe11a944",
+ "baselineRuntimeObjects": 853,
+ "baselineTrackingAndProgressMustRemainUnchangedUntilActualReview": true,
+ "batch": "030-skill-interest-evaluation",
+ "branch": "full-ru-030-skill-interest-evaluation",
+ "checkpointAuthority": null,
+ "combinedExistingPairCount": 32,
+ "continueRequired": true,
+ "directGuardCount": 49,
+ "directGuardProposals": [
+  {
+   "actualCaptionAndSenseRationale": "強い has an explicit skilled/good-at sense. New умелый is a legitimate answer to that sense; not a claim that physical strength is skill.",
+   "confidence": "high",
+   "id": "RU030-G01",
+   "left": "上手",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "強い"
+  },
+  {
+   "actualCaptionAndSenseRationale": "上手 explicitly includes good-at; the unqualified existing хороший can describe that favourable skill assessment. Check this one-way broad-label ambiguity, not all positive adjectives.",
+   "confidence": "conservative",
+   "id": "RU030-G02",
+   "left": "上手",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "いい"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Same directly assessed good-at versus actual existing хороший label; no inference through the separate いい edge.",
+   "confidence": "conservative",
+   "id": "RU030-G03",
+   "left": "上手",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "良い"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Weak also explicitly means unskilled; new неумелый is a valid direct sense.",
+   "confidence": "high",
+   "id": "RU030-G04",
+   "left": "下手",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "弱い"
+  },
+  {
+   "actualCaptionAndSenseRationale": "悪い sense6 explicitly means bad at doing something; неумелый overlaps that ability assessment.",
+   "confidence": "high",
+   "id": "RU030-G05",
+   "left": "下手",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "悪い"
+  },
+  {
+   "actualCaptionAndSenseRationale": "不味い sense2 explicitly includes unskillful/bungling/clumsy; preserve its occasionally-as拙い qualifier, not a spelling ban.",
+   "confidence": "high",
+   "id": "RU030-G06",
+   "left": "下手",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "不味い"
+  },
+  {
+   "actualCaptionAndSenseRationale": "The unqualified нравиться/любить label can also answer intensified 大好き; intensity alone does not make the baseline option unambiguously wrong.",
+   "confidence": "high",
+   "id": "RU030-G07",
+   "left": "好き",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "大好き"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Both include disliking; new не хочется and baseline-style dislike formulations can overlap contextually. Not a fixed temporary/permanent boundary.",
+   "confidence": "high",
+   "id": "RU030-G08",
+   "left": "嫌",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "嫌い"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Explicit undesirable in both complete entries; new неприятный can fit that unwanted/disagreeable reading of 悪い.",
+   "confidence": "high",
+   "id": "RU030-G09",
+   "left": "嫌",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "悪い"
+  },
+  {
+   "actualCaptionAndSenseRationale": "不味い explicitly includes unpleasant and troublesome/unfavourable; the new unqualified неприятный can be a valid label.",
+   "confidence": "high",
+   "id": "RU030-G10",
+   "left": "嫌",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "不味い"
+  },
+  {
+   "actualCaptionAndSenseRationale": "うるさい can express annoyance/troublesomeness, not merely volume. Check whether new неприятный is a defensible direct label; not every negative word is thereby excluded.",
+   "confidence": "conservative",
+   "id": "RU030-G11",
+   "left": "嫌",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "うるさい"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Both explicitly include enjoyable/fun/pleasant; actual Russian весёлый/приятный can overlap the adopted entertainment sense.",
+   "confidence": "high",
+   "id": "RU030-G12",
+   "left": "楽しい",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "面白い"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Both have an explicit pleasant sense; actual new приятный is a valid answer to that old entry.",
+   "confidence": "high",
+   "id": "RU030-G13",
+   "left": "楽しい",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "いい"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Independently explicit pleasant in 良い, not transitive closure through いい.",
+   "confidence": "high",
+   "id": "RU030-G14",
+   "left": "楽しい",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "良い"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Actual existing cheerful/spirited sense and жизнерадостный label permit new весёлый, independently of illumination.",
+   "confidence": "high",
+   "id": "RU030-G15",
+   "left": "楽しい",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "明るい"
+  },
+  {
+   "actualCaptionAndSenseRationale": "元気 explicitly includes full-of-spirit/lively. Check actual new весёлый against that high-spirits sense, not a generic healthy=happy claim.",
+   "confidence": "conservative",
+   "id": "RU030-G16",
+   "left": "楽しい",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "元気"
+  },
+  {
+   "actualCaptionAndSenseRationale": "賑やか sense2 explicitly includes merry/cheerful; new весёлый can answer it without equating every lively place with enjoyment.",
+   "confidence": "high",
+   "id": "RU030-G17",
+   "left": "楽しい",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "賑やか"
+  },
+  {
+   "actualCaptionAndSenseRationale": "寒い explicitly includes uninteresting/lame/dull jokes; actual new скучный is a valid answer to that adopted secondary sense.",
+   "confidence": "high",
+   "id": "RU030-G18",
+   "left": "つまらない",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "寒い"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Russian слабый has independently read poor/unsuccessful-work sense. Check one-way quality judgement for an uninteresting/worthless work; do not infer a general all-negative clique.",
+   "confidence": "conservative",
+   "id": "RU030-G19",
+   "left": "つまらない",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "弱い"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Existing плохой can be a defensible broad quality label for an uninteresting/pointless work. Needs direct C2 adjudication; no claim that all bad things are boring.",
+   "confidence": "conservative",
+   "id": "RU030-G20",
+   "left": "つまらない",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "悪い"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Existing неудачный can overlap the explicitly disappointing/pointless assessment of a work/result. Needs direct C2 adjudication, not English bad-token matching.",
+   "confidence": "conservative",
+   "id": "RU030-G21",
+   "left": "つまらない",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "不味い"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Both complete entries explicitly cover financial hardship; new быть в затруднении can answer that actual 苦しい sense.",
+   "confidence": "high",
+   "id": "RU030-G22",
+   "left": "困る",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "苦しい"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Bare 苦しい includes difficult/tough/hard, independently of its separately restricted suffix sense. Actual трудный/тяжёлый labels overlap.",
+   "confidence": "high",
+   "id": "RU030-G23",
+   "left": "大変",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "苦しい"
+  },
+  {
+   "actualCaptionAndSenseRationale": "重い explicitly includes serious/grave/severe, directly matching new серьёзный; also real Russian тяжёлый for hard circumstances.",
+   "confidence": "high",
+   "id": "RU030-G24",
+   "left": "大変",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "重い"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Both explicit serious/significant assessments permit a serious/important-matter reading; do not equate every cherished thing with difficulty.",
+   "confidence": "high",
+   "id": "RU030-G25",
+   "left": "大変",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "大切"
+  },
+  {
+   "actualCaptionAndSenseRationale": "大変 explicitly includes immense/enormous/great; existing большой can be a legitimate size/extent label, not admirable-quality English great.",
+   "confidence": "high",
+   "id": "RU030-G26",
+   "left": "大変",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "大きい"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Same independently assessed actual большой-before-noun label and immense/large-scale sense; preserve the old prenominal restriction.",
+   "confidence": "high",
+   "id": "RU030-G27",
+   "left": "大変",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "大きな"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Russian дорогой has both cherished and high-price readings. The displayed forms alone do not disambiguate these genuine senses.",
+   "confidence": "high",
+   "id": "RU030-G28",
+   "left": "大切",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "高い"
+  },
+  {
+   "actualCaptionAndSenseRationale": "かわいい explicitly includes dear/precious; new дорогой is legitimate in that sense, not only visual cuteness.",
+   "confidence": "high",
+   "id": "RU030-G29",
+   "left": "大切",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "かわいい"
+  },
+  {
+   "actualCaptionAndSenseRationale": "重い sense4 explicitly includes important position/responsibility; new важный is a legitimate direct answer.",
+   "confidence": "high",
+   "id": "RU030-G30",
+   "left": "大切",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "重い"
+  },
+  {
+   "actualCaptionAndSenseRationale": "立派 explicitly includes fine/splendid and positive quality; actual existing хороший can directly describe that assessment.",
+   "confidence": "high",
+   "id": "RU030-G31",
+   "left": "立派",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "いい"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Independent fine/good overlap with actual хороший, not transitive positive-category closure.",
+   "confidence": "high",
+   "id": "RU030-G32",
+   "left": "立派",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "良い"
+  },
+  {
+   "actualCaptionAndSenseRationale": "立派 explicitly includes handsome/elegant; existing красивый can be a legitimate appearance label.",
+   "confidence": "high",
+   "id": "RU030-G33",
+   "left": "立派",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "きれい"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Both complete objects explicitly include splendid/fine; new хороший can describe 立派 and both admirable-quality senses overlap.",
+   "confidence": "high",
+   "id": "RU030-G34",
+   "left": "立派",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "結構"
+  },
+  {
+   "actualCaptionAndSenseRationale": "重い sense6 includes dignified/solid; check new достойный as a direct dignified-character rendering, not English solid token matching.",
+   "confidence": "conservative",
+   "id": "RU030-G35",
+   "left": "立派",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "重い"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Both include fine/acceptable/sufficient, and actual хороший/подходит can answer the relevant response sense.",
+   "confidence": "high",
+   "id": "RU030-G36",
+   "left": "結構",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "いい"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Both independently include fine/good and sufficient; actual хороший is ambiguous here.",
+   "confidence": "high",
+   "id": "RU030-G37",
+   "left": "結構",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "良い"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Actual existing всё в порядке/нормально overlaps acceptable/all-right 結構; not a blanket claim that every refusal means acceptance.",
+   "confidence": "high",
+   "id": "RU030-G38",
+   "left": "結構",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "大丈夫"
+  },
+  {
+   "actualCaptionAndSenseRationale": "結構 sense5 and 組織 sense2 explicitly mean structure/construction. Actual existing структура is a valid alternative noun sense, not the ordinary offer-response reading.",
+   "confidence": "high",
+   "id": "RU030-G39",
+   "left": "結構",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "組織"
+  },
+  {
+   "actualCaptionAndSenseRationale": "結構 adjective sense explicitly includes delightful/lovely/nice. Check actual new приятный against that sense, independently of the いい and 面白い edges.",
+   "confidence": "conservative",
+   "id": "RU030-G40",
+   "left": "結構",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "楽しい"
+  },
+  {
+   "actualCaptionAndSenseRationale": "The new unqualified лёгкий is a valid answer to physical 軽い even though its own old label adds по весу; one unsafe direction suffices.",
+   "confidence": "high",
+   "id": "RU030-G41",
+   "left": "易しい",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "軽い"
+  },
+  {
+   "actualCaptionAndSenseRationale": "暇 explicitly includes time/time required as well as spare time. Actual old время can therefore be a valid direct label.",
+   "confidence": "high",
+   "id": "RU030-G42",
+   "left": "暇",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "時間"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Actual new unqualified свободный can also describe 自由 as a な-adjective. Freedom and leisure remain distinct concepts in the prose.",
+   "confidence": "high",
+   "id": "RU030-G43",
+   "left": "暇",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "自由"
+  },
+  {
+   "actualCaptionAndSenseRationale": "暇 explicitly includes time off/leave/holiday; actual old выходной/праздничный день can overlap that noun sense. Not every day off entails no obligations.",
+   "confidence": "conservative",
+   "id": "RU030-G44",
+   "left": "暇",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "休日"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Actual new полезный can answer the explicit beneficial sense of いい; not merely the observation that useful things are good.",
+   "confidence": "high",
+   "id": "RU030-G45",
+   "left": "便利",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "いい"
+  },
+  {
+   "actualCaptionAndSenseRationale": "良い independently includes beneficial; actual new полезный can answer it without deriving an edge transitively.",
+   "confidence": "high",
+   "id": "RU030-G46",
+   "left": "便利",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "良い"
+  },
+  {
+   "actualCaptionAndSenseRationale": "賑やか sense2 explicitly includes loud/noisy; actual new шумный is legitimate even where the scene is positive.",
+   "confidence": "high",
+   "id": "RU030-G47",
+   "left": "うるさい",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "賑やか"
+  },
+  {
+   "actualCaptionAndSenseRationale": "Both explicitly include lively; actual new оживлённый can describe that spirited sense of 元気 without implying all healthy people are noisy.",
+   "confidence": "high",
+   "id": "RU030-G48",
+   "left": "賑やか",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "元気"
+  },
+  {
+   "actualCaptionAndSenseRationale": "賑やか explicitly includes merry/cheerful; actual old жизнерадостный can be a valid label for that sense.",
+   "confidence": "high",
+   "id": "RU030-G49",
+   "left": "賑やか",
+   "mechanism": "One direct pair, serialized only on the new left card; existing baseline RAWs unchanged.",
+   "reviewStatus": "PENDING; author proposal, not independent linguistic approval",
+   "right": "明るい"
+  }
+ ],
+ "fullTaskComplete": false,
+ "grammarBoundary": "No new grammar runtime object; explain the actual source が/な/に/たい/の constructions without case/aspect equivalences. Optional navigation does not recursively force the frozen corpus.",
+ "independentReviewStatus": "PENDING",
+ "instructionDelta": {
+  "actualTwoLines": [
+   "  Если вместо японских слов остались пустые 「」 или одни частицы, восстановите полный текст из HTML,",
+   "  включая содержимое span/ruby, прежде чем считать примеры прочитанными."
+  ],
+  "evidence": "Actual030desire simplifiedHTML omission and successful rawUTF8/span recovery, not speculative process.",
+  "path": ".github/instructions/content-structure.instructions.md",
+  "reviewStatus": "PENDING with complete54pair candidate review",
+  "workingRawSha256": "c14ceecaf8a354e774866e0246d920b6b74ff24c5b6126e32695faf9645a472b"
+ },
+ "intakeCommit": "7ddd0fcf1ea4992f4792b5f7f9c0e1513108300a",
+ "newAssets": [],
+ "newGrammarSets": [],
+ "newKanji": [],
+ "newRootCount": 22,
+ "newRoots": [
+  {
+   "actualSourceAdaptationDecision": "Preserveじょうず,な/に/activityが and non-liking distinction. Relevant Wiktionary section actually supports conventionalず, not a productive reading of all手 compounds.",
+   "metadata": {
+    "jlpt": 5,
+    "kanji": [
+     "上",
+     "手"
+    ],
+    "reading": "じょうず",
+    "tags": [
+     "na-adjective",
+     "kango",
+     "ability"
+    ],
+    "title": "skillful; good at",
+    "type": "kango",
+    "word": "上手"
+   },
+   "path": "words/上手.md",
+   "plannedDirectQuizExclusions": [
+    "強い",
+    "いい",
+    "良い"
+   ],
+   "preserveAllSourceTechnicalMetadata": true,
+   "reviewStatus": "PENDING",
+   "russianTitleMeaning": "умелый",
+   "sourceGitObject": "c2d3c3648c67984fd97db275a98d06a168c5518f",
+   "sourceGitRawSha256": "42c3686b23674a99564f5aad7e45ff67fafb2a0bc1a9bd6987fe60ab645edc5a",
+   "sourceNormalizedLfSha256": "42c3686b23674a99564f5aad7e45ff67fafb2a0bc1a9bd6987fe60ab645edc5a"
+  },
+  {
+   "actualSourceAdaptationDecision": "Wholeへた; do not deriveた from prefixた-. Preserve verb+のが下手, negative tact/苦手 distinction and noきらくない-style false inflection.",
+   "metadata": {
+    "jlpt": 5,
+    "kanji": [
+     "下",
+     "手"
+    ],
+    "reading": "へた",
+    "tags": [
+     "jukujikun",
+     "na-adjective",
+     "ability"
+    ],
+    "title": "unskillful; bad at",
+    "type": "jukujikun",
+    "word": "下手"
+   },
+   "path": "words/下手.md",
+   "plannedDirectQuizExclusions": [
+    "弱い",
+    "悪い",
+    "不味い"
+   ],
+   "preserveAllSourceTechnicalMetadata": true,
+   "reviewStatus": "PENDING",
+   "russianTitleMeaning": "неумелый",
+   "sourceGitObject": "38ddb5186813701984d7ae708db0db5367e6c182",
+   "sourceGitRawSha256": "21526c4d270ffc96585794c10fc9f5f461de7386e8c4057076b309b5c7764a8b",
+   "sourceNormalizedLfSha256": "21526c4d270ffc96585794c10fc9f5f461de7386e8c4057076b309b5c7764a8b"
+  },
+  {
+   "actualSourceAdaptationDecision": "Explainな-adjective and Xが好き naturally in Russian; not好きする or a mechanical が=Russian case rule; liking a person need not be romantic.",
+   "metadata": {
+    "jlpt": 5,
+    "kanji": [
+     "好"
+    ],
+    "reading": "すき",
+    "tags": [
+     "wago",
+     "preferences",
+     "na-adjective"
+    ],
+    "title": "fond of; liking",
+    "type": "wago",
+    "word": "好き"
+   },
+   "path": "words/好き.md",
+   "plannedDirectQuizExclusions": [
+    "大好き"
+   ],
+   "preserveAllSourceTechnicalMetadata": true,
+   "reviewStatus": "PENDING",
+   "russianTitleMeaning": "нравиться; любить",
+   "sourceGitObject": "60bff299863e4d55e0c80af16aba41601d422d13",
+   "sourceGitRawSha256": "fa146f699c724710a1dc423fb1d90c78aa8f868647a255129b78144495800dee",
+   "sourceNormalizedLfSha256": "fa146f699c724710a1dc423fb1d90c78aa8f868647a255129b78144495800dee"
+  },
+  {
+   "actualSourceAdaptationDecision": "Keep source kango technical convention for mixed on-first compounds. Explain大ダイ + native好き; strong liking, not objectively very likeable.",
+   "metadata": {
+    "jlpt": 5,
+    "kanji": [
+     "大",
+     "好"
+    ],
+    "reading": "だいすき",
+    "tags": [
+     "na-adjective",
+     "preference",
+     "mixed-reading"
+    ],
+    "title": "like very much; love",
+    "type": "kango",
+    "word": "大好き"
+   },
+   "path": "words/大好き.md",
+   "plannedDirectQuizExclusions": [],
+   "preserveAllSourceTechnicalMetadata": true,
+   "reviewStatus": "PENDING",
+   "russianTitleMeaning": "очень нравиться; обожать",
+   "sourceGitObject": "6c07e431b61f3e8a4fe5a036dfd4d3d34d516ac4",
+   "sourceGitRawSha256": "33f7eba166ed400ff34f626aa61bb988068b094a0b5395fd808425f5b3267ad7",
+   "sourceNormalizedLfSha256": "33f7eba166ed400ff34f626aa61bb988068b094a0b5395fd808425f5b3267ad7"
+  },
+  {
+   "actualSourceAdaptationDecision": "な-adjective despite finalい,嫌いではない; noきらくない. Negated dislike need not enthusiastic love.",
+   "metadata": {
+    "jlpt": 5,
+    "kanji": [
+     "嫌"
+    ],
+    "reading": "きらい",
+    "tags": [
+     "wago",
+     "na-adjective",
+     "preference"
+    ],
+    "title": "disliked, dislike",
+    "type": "wago",
+    "word": "嫌い"
+   },
+   "path": "words/嫌い.md",
+   "plannedDirectQuizExclusions": [],
+   "preserveAllSourceTechnicalMetadata": true,
+   "reviewStatus": "PENDING",
+   "russianTitleMeaning": "не любить; испытывать неприязнь",
+   "sourceGitObject": "8b79c7c4e7a439d2592b1aedcdbb9a020298c87e",
+   "sourceGitRawSha256": "b808c0fe59f8376ab59a21f566f24778317c3394b6a2011d7ccc96423fe869ec",
+   "sourceNormalizedLfSha256": "b808c0fe59f8376ab59a21f566f24778317c3394b6a2011d7ccc96423fe869ec"
+  },
+  {
+   "actualSourceAdaptationDecision": "いや/イヤ; reluctance and unpleasantness. Emotionalいや! is not neutral politeいいえ; temporary/stable distinctions are tendencies.",
+   "metadata": {
+    "jlpt": 5,
+    "kanji": [
+     "嫌"
+    ],
+    "reading": "いや",
+    "tags": [
+     "wago",
+     "na-adjective",
+     "feeling"
+    ],
+    "title": "unpleasant; unwanted",
+    "type": "wago",
+    "word": "嫌"
+   },
+   "path": "words/嫌.md",
+   "plannedDirectQuizExclusions": [
+    "嫌い",
+    "悪い",
+    "不味い",
+    "うるさい"
+   ],
+   "preserveAllSourceTechnicalMetadata": true,
+   "reviewStatus": "PENDING",
+   "russianTitleMeaning": "неприятный; не хочется",
+   "sourceGitObject": "707d6b4341d194a0168febcdb0e1bcd7794bf6ed",
+   "sourceGitRawSha256": "1f3021c5408f37c403b27f3e43b7268d6fc6f44598287e8d5186d7a986976afa",
+   "sourceNormalizedLfSha256": "1f3021c5408f37c403b27f3e43b7268d6fc6f44598287e8d5186d7a986976afa"
+  },
+  {
+   "actualSourceAdaptationDecision": "Keep full enjoyment versus楽らく/面白い/嬉しい distinctions and inflections. No invented numeric dictionary entry ID.",
+   "metadata": {
+    "jlpt": 5,
+    "kanji": [
+     "楽"
+    ],
+    "reading": "たのしい",
+    "tags": [
+     "wago",
+     "adjective",
+     "feelings"
+    ],
+    "title": "enjoyable, fun",
+    "type": "wago",
+    "word": "楽しい"
+   },
+   "path": "words/楽しい.md",
+   "plannedDirectQuizExclusions": [
+    "面白い",
+    "いい",
+    "良い",
+    "明るい",
+    "元気",
+    "賑やか"
+   ],
+   "preserveAllSourceTechnicalMetadata": true,
+   "reviewStatus": "PENDING",
+   "russianTitleMeaning": "весёлый; приятный",
+   "sourceGitObject": "d3fea4ee549636b7e60ebe2410d07d7d7505e25c",
+   "sourceGitRawSha256": "5e4eb5b4748dd17671bf1f6d57785dd6dbdbe762fa5387e7d05c91659bdad5c8",
+   "sourceNormalizedLfSha256": "5e4eb5b4748dd17671bf1f6d57785dd6dbdbe762fa5387e7d05c91659bdad5c8"
+  },
+  {
+   "actualSourceAdaptationDecision": "Preserve amusing/interesting/enjoyable, inflection and nonliteral components; no invented white-face etymology. Qualified usually-negative favourable sense must not become an unrestricted good gloss.",
+   "metadata": {
+    "jlpt": 5,
+    "kanji": [
+     "面",
+     "白"
+    ],
+    "reading": "おもしろい",
+    "tags": [
+     "wago",
+     "evaluation"
+    ],
+    "title": "interesting; amusing",
+    "type": "wago",
+    "word": "面白い"
+   },
+   "path": "words/面白い.md",
+   "plannedDirectQuizExclusions": [],
+   "preserveAllSourceTechnicalMetadata": true,
+   "reviewStatus": "PENDING",
+   "russianTitleMeaning": "интересный; забавный",
+   "sourceGitObject": "7705b9d17962f717761f03a3906d665125296579",
+   "sourceGitRawSha256": "d72b343cf92ff8b7f8e1f274031ef8efde10c56b587e6379362cfddf71c52485",
+   "sourceNormalizedLfSha256": "d72b343cf92ff8b7f8e1f274031ef8efde10c56b587e6379362cfddf71c52485"
+  },
+  {
+   "actualSourceAdaptationDecision": "Keep recorded spellings and all boring/trivial/pointless and gift-modesty uses; no derivation of the taught sense as not blocked.",
+   "metadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "つまらない",
+    "tags": [
+     "wago",
+     "adjective",
+     "evaluation"
+    ],
+    "title": "boring",
+    "type": "wago",
+    "word": "つまらない"
+   },
+   "path": "words/つまらない.md",
+   "plannedDirectQuizExclusions": [
+    "寒い",
+    "弱い",
+    "悪い",
+    "不味い"
+   ],
+   "preserveAllSourceTechnicalMetadata": true,
+   "reviewStatus": "PENDING",
+   "russianTitleMeaning": "скучный; пустяковый",
+   "sourceGitObject": "a2257eb7b9ec450c44ebdf9ff9ad4928692fb685",
+   "sourceGitRawSha256": "cf3d3b5385c6f5151758ed5f1dba89d1cdf6a04d0b5cd8908fc9fc1f2af05fe1",
+   "sourceNormalizedLfSha256": "cf3d3b5385c6f5151758ed5f1dba89d1cdf6a04d0b5cd8908fc9fc1f2af05fe1"
+  },
+  {
+   "actualSourceAdaptationDecision": "Keep thingが,欲しくない, sourceほ.しい,要る contrast, allたい examples and妹/欲しがる. Do not turn first-person pedagogy into a universal third-person ban.",
+   "metadata": {
+    "jlpt": 5,
+    "kanji": [
+     "欲"
+    ],
+    "reading": "ほしい",
+    "tags": [
+     "wago",
+     "i-adjective",
+     "desire"
+    ],
+    "title": "want to have",
+    "type": "wago",
+    "word": "欲しい"
+   },
+   "path": "words/欲しい.md",
+   "plannedDirectQuizExclusions": [],
+   "preserveAllSourceTechnicalMetadata": true,
+   "reviewStatus": "PENDING",
+   "russianTitleMeaning": "хотеть; желать получить",
+   "sourceGitObject": "657a67e0a3a90e2936d6f1c2c58ef37e1609bcd4",
+   "sourceGitRawSha256": "7931f54527207798dae72db246c8b514d970374b617830b5d81585c78d993d0c",
+   "sourceNormalizedLfSha256": "7931f54527207798dae72db246c8b514d970374b617830b5d81585c78d993d0c"
+  },
+  {
+   "actualSourceAdaptationDecision": "Intransitive experiencer;財布を belongsなくす. Preserve困ります/困って,コン in困難 and困らせる perspective; practical difficulty need not anger/shame.",
+   "metadata": {
+    "jlpt": 5,
+    "kanji": [
+     "困"
+    ],
+    "reading": "こまる",
+    "tags": [
+     "wago",
+     "verb",
+     "feelings"
+    ],
+    "title": "be in difficulty",
+    "type": "wago",
+    "word": "困る"
+   },
+   "path": "words/困る.md",
+   "plannedDirectQuizExclusions": [
+    "苦しい"
+   ],
+   "preserveAllSourceTechnicalMetadata": true,
+   "reviewStatus": "PENDING",
+   "russianTitleMeaning": "быть в затруднении",
+   "sourceGitObject": "aacfc1026def3388d6cff826d0d1de5c59f14b39",
+   "sourceGitRawSha256": "48c4139917e6814b2aebf1ebd34e7cf6cb396b83bdf0240deb768ad1d60d6b83",
+   "sourceNormalizedLfSha256": "48c4139917e6814b2aebf1ebd34e7cf6cb396b83bdf0240deb768ad1d60d6b83"
+  },
+  {
+   "actualSourceAdaptationDecision": "Keep difficult/serious/sympathy and adverb大変おいしいです with noな; extent/great is not automatically admirable quality.",
+   "metadata": {
+    "jlpt": 5,
+    "kanji": [
+     "大",
+     "変"
+    ],
+    "reading": "たいへん",
+    "tags": [
+     "kango",
+     "na-adjective",
+     "adverb"
+    ],
+    "title": "difficult, serious",
+    "type": "kango",
+    "word": "大変"
+   },
+   "path": "words/大変.md",
+   "plannedDirectQuizExclusions": [
+    "苦しい",
+    "重い",
+    "大切",
+    "大きい",
+    "大きな"
+   ],
+   "preserveAllSourceTechnicalMetadata": true,
+   "reviewStatus": "PENDING",
+   "russianTitleMeaning": "трудный; серьёзный",
+   "sourceGitObject": "e0605734cf9ac8bedf78bc3a767fd793408f8a65",
+   "sourceGitRawSha256": "7be31e038340e89c87d755ac72403007d04e212ddccef18ad88792de58846867",
+   "sourceNormalizedLfSha256": "7be31e038340e89c87d755ac72403007d04e212ddccef18ad88792de58846867"
+  },
+  {
+   "actualSourceAdaptationDecision": "Preserve importance/cherishedness and大切にする with objectを; not literal big-cutting or automatic high monetary price.",
+   "metadata": {
+    "jlpt": 5,
+    "kanji": [
+     "大",
+     "切"
+    ],
+    "reading": "たいせつ",
+    "tags": [
+     "kango",
+     "na-adjective"
+    ],
+    "title": "important; precious",
+    "type": "kango",
+    "word": "大切"
+   },
+   "path": "words/大切.md",
+   "plannedDirectQuizExclusions": [
+    "高い",
+    "かわいい",
+    "重い"
+   ],
+   "preserveAllSourceTechnicalMetadata": true,
+   "reviewStatus": "PENDING",
+   "russianTitleMeaning": "важный; дорогой",
+   "sourceGitObject": "58ceb82724c14b391e2a0ce829cdd78a70dee69c",
+   "sourceGitRawSha256": "aa9fd14aa7fa0193f7b1d4ac9c743f4143b9dde796e6e2375d3207d158631f5f",
+   "sourceNormalizedLfSha256": "aa9fd14aa7fa0193f7b1d4ac9c743f4143b9dde796e6e2375d3207d158631f5f"
+  },
+  {
+   "actualSourceAdaptationDecision": "Preserve smallっ, appearance/conduct examples and omitted-subject neutrality; not literal standing-school or wealth/rank as a requirement.",
+   "metadata": {
+    "jlpt": 5,
+    "kanji": [
+     "立",
+     "派"
+    ],
+    "reading": "りっぱ",
+    "tags": [
+     "kango",
+     "na-adjective"
+    ],
+    "title": "splendid, admirable",
+    "type": "kango",
+    "word": "立派"
+   },
+   "path": "words/立派.md",
+   "plannedDirectQuizExclusions": [
+    "いい",
+    "良い",
+    "きれい",
+    "結構",
+    "重い"
+   ],
+   "preserveAllSourceTechnicalMetadata": true,
+   "reviewStatus": "PENDING",
+   "russianTitleMeaning": "впечатляющий; достойный",
+   "sourceGitObject": "cc378a422d372915f517683f841700d43fd74bef",
+   "sourceGitRawSha256": "eb706e8b71d36bced49eb203e4c6d2f67bc97fe3830712606d8ed7ab298afa0e",
+   "sourceNormalizedLfSha256": "eb706e8b71d36bced49eb203e4c6d2f67bc97fe3830712606d8ed7ab298afa0e"
+  },
+  {
+   "actualSourceAdaptationDecision": "Preserve Xで有名 and popularity/knownness contrast,無名 ambiguity and useful name association without invented history. No invented numeric dictionary entry ID.",
+   "metadata": {
+    "jlpt": 5,
+    "kanji": [
+     "有",
+     "名"
+    ],
+    "reading": "ゆうめい",
+    "tags": [
+     "kango",
+     "adjective",
+     "reputation"
+    ],
+    "title": "famous, well-known",
+    "type": "kango",
+    "word": "有名"
+   },
+   "path": "words/有名.md",
+   "plannedDirectQuizExclusions": [],
+   "preserveAllSourceTechnicalMetadata": true,
+   "reviewStatus": "PENDING",
+   "russianTitleMeaning": "известный; знаменитый",
+   "sourceGitObject": "00993148f76d281be6c41b50741ade0f8042d7e9",
+   "sourceGitRawSha256": "b5342567932ba90c7f4387066c4c2faf74a1f39fd0c2b4e9635e822090dc4792",
+   "sourceNormalizedLfSha256": "b5342567932ba90c7f4387066c4c2faf74a1f39fd0c2b4e9635e822090dc4792"
+  },
+  {
+   "actualSourceAdaptationDecision": "Keep all polite offer/adequacy/refusal/adverb uses and context dependence. Dictionary noun structure is an evidenced additional sense motivating direct組織 guard, not the normal offer-response interpretation.",
+   "metadata": {
+    "jlpt": 5,
+    "kanji": [
+     "結",
+     "構"
+    ],
+    "reading": "けっこう",
+    "tags": [
+     "kango",
+     "na-adjective",
+     "adverb"
+    ],
+    "title": "fine; sufficient",
+    "type": "kango",
+    "word": "結構"
+   },
+   "path": "words/結構.md",
+   "plannedDirectQuizExclusions": [
+    "いい",
+    "良い",
+    "大丈夫",
+    "組織",
+    "楽しい"
+   ],
+   "preserveAllSourceTechnicalMetadata": true,
+   "reviewStatus": "PENDING",
+   "russianTitleMeaning": "хороший; достаточно",
+   "sourceGitObject": "a21f02734ef58b31a4c3942d937c0b002631cb22",
+   "sourceGitRawSha256": "86a96680a81be14d4985e55bcf005bad2d36ac5cbb0a4dc6e98830f951d05ecb",
+   "sourceNormalizedLfSha256": "86a96680a81be14d4985e55bcf005bad2d36ac5cbb0a4dc6e98830f951d05ecb"
+  },
+  {
+   "actualSourceAdaptationDecision": "Retain ENTIRE substantialチョロい subsection, all same-question examples and優しい/容易な contrasts; slang can belittle, not a fixed extra-easy degree or automatically an insult.",
+   "metadata": {
+    "jlpt": 5,
+    "kanji": [
+     "易"
+    ],
+    "reading": "やさしい",
+    "tags": [
+     "wago",
+     "adjective",
+     "difficulty"
+    ],
+    "title": "easy",
+    "type": "wago",
+    "word": "易しい"
+   },
+   "path": "words/易しい.md",
+   "plannedDirectQuizExclusions": [
+    "軽い"
+   ],
+   "preserveAllSourceTechnicalMetadata": true,
+   "reviewStatus": "PENDING",
+   "russianTitleMeaning": "лёгкий; несложный",
+   "sourceGitObject": "ef9a262c02316d7010bbcf1232ec2710226a33ef",
+   "sourceGitRawSha256": "9414d59b746dab8ee3cdfde31b3ee2bf75781655feef9bb2c6d1d9745252aa78",
+   "sourceNormalizedLfSha256": "9414d59b746dab8ee3cdfde31b3ee2bf75781655feef9bb2c6d1d9745252aa78"
+  },
+  {
+   "actualSourceAdaptationDecision": "Keepい-adjective inflection,で source of busyness and多忙な contrast; noな or invented single-job restriction.",
+   "metadata": {
+    "jlpt": 5,
+    "kanji": [
+     "忙"
+    ],
+    "reading": "いそがしい",
+    "tags": [
+     "wago",
+     "daily-life",
+     "adjective"
+    ],
+    "title": "busy; occupied",
+    "type": "wago",
+    "word": "忙しい"
+   },
+   "path": "words/忙しい.md",
+   "plannedDirectQuizExclusions": [],
+   "preserveAllSourceTechnicalMetadata": true,
+   "reviewStatus": "PENDING",
+   "russianTitleMeaning": "занятый делами",
+   "sourceGitObject": "34339ebc6d2b9fafa53bfb2a999561e7977caff0",
+   "sourceGitRawSha256": "356a3341ff1a2a1d960760780c0dae5ed40b37e569ee1987ca7b8109b229e215",
+   "sourceNormalizedLfSha256": "356a3341ff1a2a1d960760780c0dae5ed40b37e569ee1987ca7b8109b229e215"
+  },
+  {
+   "actualSourceAdaptationDecision": "Noun free time andな-adjective unoccupied; preserve fixed-expression caution,休み distinction and tact.自由 overlap is Russian label ambiguity, not leisure=liberty.",
+   "metadata": {
+    "jlpt": 5,
+    "kanji": [
+     "暇"
+    ],
+    "reading": "ひま",
+    "tags": [
+     "wago",
+     "noun",
+     "na-adjective",
+     "time"
+    ],
+    "title": "free time; not busy",
+    "type": "wago",
+    "word": "暇"
+   },
+   "path": "words/暇.md",
+   "plannedDirectQuizExclusions": [
+    "時間",
+    "自由",
+    "休日"
+   ],
+   "preserveAllSourceTechnicalMetadata": true,
+   "reviewStatus": "PENDING",
+   "russianTitleMeaning": "свободное время; свободный",
+   "sourceGitObject": "47fc8715e8c992e4f0e629154f2553dc3304a5c7",
+   "sourceGitRawSha256": "45bbbe0329c4fcb996b019aead4ff4503f1019457a2de8f516038264a4adb9c8",
+   "sourceNormalizedLfSha256": "45bbbe0329c4fcb996b019aead4ff4503f1019457a2de8f516038264a4adb9c8"
+  },
+  {
+   "actualSourceAdaptationDecision": "Keep便利な/に,買い物に and no便利のアプリ; usefulness is not always convenience.",
+   "metadata": {
+    "jlpt": 5,
+    "kanji": [
+     "便",
+     "利"
+    ],
+    "reading": "べんり",
+    "tags": [
+     "kango",
+     "na-adjective"
+    ],
+    "title": "convenient; handy",
+    "type": "kango",
+    "word": "便利"
+   },
+   "path": "words/便利.md",
+   "plannedDirectQuizExclusions": [
+    "いい",
+    "良い"
+   ],
+   "preserveAllSourceTechnicalMetadata": true,
+   "reviewStatus": "PENDING",
+   "russianTitleMeaning": "удобный; полезный",
+   "sourceGitObject": "4b048ca4b8861c16f3ae8022e7f9eec0a05fb402",
+   "sourceGitRawSha256": "4026da5144adf4d4be72fd0fee8e924fb68990bfd86fdb341060146c5101222b",
+   "sourceNormalizedLfSha256": "4026da5144adf4d4be72fd0fee8e924fb68990bfd86fdb341060146c5101222b"
+  },
+  {
+   "actualSourceAdaptationDecision": "Preserve kana preference and both recorded spellings withkanji:[]; noisy/annoying/fussy,食べ物に and harshうるさい!; not just decibels.",
+   "metadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "うるさい",
+    "tags": [
+     "wago",
+     "adjective"
+    ],
+    "title": "noisy; annoying",
+    "type": "wago",
+    "word": "うるさい"
+   },
+   "path": "words/うるさい.md",
+   "plannedDirectQuizExclusions": [
+    "賑やか"
+   ],
+   "preserveAllSourceTechnicalMetadata": true,
+   "reviewStatus": "PENDING",
+   "russianTitleMeaning": "шумный; назойливый",
+   "sourceGitObject": "7921700586394cbc5e374a540218310a60165f6d",
+   "sourceGitRawSha256": "1f8ee02aad9739ea4d51d6ae0cc25a5d1a3b515446216b400d534cbf72eebb75",
+   "sourceNormalizedLfSha256": "1f8ee02aad9739ea4d51d6ae0cc25a5d1a3b515446216b400d534cbf72eebb75"
+  },
+  {
+   "actualSourceAdaptationDecision": "Preserve positive/neutral liveliness and noise contrast. Japanese workload/liveliness distinction must be understandable without English busy;にぎ+やか not freely removable suffix.",
+   "metadata": {
+    "jlpt": 5,
+    "kanji": [
+     "賑"
+    ],
+    "reading": "にぎやか",
+    "tags": [
+     "wago",
+     "na-adjective",
+     "atmosphere"
+    ],
+    "title": "lively; bustling",
+    "type": "wago",
+    "word": "賑やか"
+   },
+   "path": "words/賑やか.md",
+   "plannedDirectQuizExclusions": [
+    "元気",
+    "明るい"
+   ],
+   "preserveAllSourceTechnicalMetadata": true,
+   "reviewStatus": "PENDING",
+   "russianTitleMeaning": "оживлённый; людный",
+   "sourceGitObject": "284c927ecfc5bba37fb9e4d5a17bb2aefd52c181",
+   "sourceGitRawSha256": "21771104f5a88263fe20f43c83c12d6219e108bd980328af05ebe6b47cdad5df",
+   "sourceNormalizedLfSha256": "21771104f5a88263fe20f43c83c12d6219e108bd980328af05ebe6b47cdad5df"
+  }
+ ],
+ "newStrokes": [],
+ "oldRuntimeEditsPlanned": [],
+ "ordinaryActivationAuthorized": false,
+ "preserveAll853ExistingRuntimeWorkingRawHashes": true,
+ "projectedAcceptedStatusesIfActuallyReviewed": {
+  "draft-reviewed-runtime-blocked": 2,
+  "pending": 7401,
+  "reviewed-current": 875
+ },
+ "projectedCombinedAnswerRows": 563,
+ "projectedCompletePairCount": 54,
+ "projectedRuntimeObjectsIfAccepted": 875,
+ "releaseBoundary": "Reviewed source main integration permitted independently of C6/C7. No ordinary RU activation, human checkpoint, new exact audio permission, paid generation or device/media acceptance.",
+ "runtimeAcceptance": false,
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "stage": "Actual22Russian metadata/adaptation/direct-guard plan frozen BEFORE runtime authoring"
+}
