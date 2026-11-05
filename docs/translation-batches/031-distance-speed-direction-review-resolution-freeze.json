@@ -1,0 +1,190 @@
+{
+ "acceptedRuntimeObjects": 875,
+ "actualInitialFacets": {
+  "C1": "CLEAN",
+  "C2": "NEEDS FIX",
+  "C3": "CLEAN"
+ },
+ "actualInitialReportUtf8Sha256": "25dd6b6350787b4dcc2416c2e468249457ec5a92db52cc54143ba592a4c32048",
+ "actualInitialReviewerAgentId": "b6abf999-8505-46c5-a6f4-c9b27d3346d1",
+ "additionalActuallyReadSourceEvidence": [
+  {
+   "actualReadingBoundary": "Correct UTF8decoded rawHTML extraction:横精選版heading+senses①–④ with④complete;向こうcompleteデジタル大辞泉lexicalsection including③and its actual example. Not a claim to have read every dictionary on either page.",
+   "authorActuallyReadAfterCapture": true,
+   "dictionary": "精選版 日本国語大辞典",
+   "privateRawArtifact": "ru-031-review-kotobank-yoko-response-001.html",
+   "rawResponseSha256": "e3dd659f81af508f91538a11186491c5277d66b9accfb235d25f3bbf12a438a9",
+   "reading": "よこ",
+   "sense": "④",
+   "shortRelevantQuote": "かたわら。そば。わき。ほとり。付近。",
+   "url": "https://kotobank.jp/word/%E6%A8%AA-448707"
+  },
+  {
+   "actualReadingBoundary": "Correct UTF8decoded rawHTML extraction:横精選版heading+senses①–④ with④complete;向こうcompleteデジタル大辞泉lexicalsection including③and its actual example. Not a claim to have read every dictionary on either page.",
+   "authorActuallyReadAfterCapture": true,
+   "dictionary": "デジタル大辞泉",
+   "privateRawArtifact": "ru-031-review-kotobank-mukou-response-001.html",
+   "rawResponseSha256": "7c3da44f5a7eb2f412675c20ed7bba704bc7c4a69effa9cbb61918ac0f824456",
+   "reading": "むこう",
+   "sense": "３",
+   "shortRelevantQuote": "３ 相手。先方。「向こうが悪い」",
+   "url": "https://kotobank.jp/word/%E5%90%91%E3%81%93%E3%81%86-641258"
+  }
+ ],
+ "additionalBaselineRuntimeEdits": [],
+ "additionalDirectGuardCount": 3,
+ "additionalDirectGuardProposals": [
+  {
+   "finding": "RU031-C2-01",
+   "left": "横",
+   "reason": "Actual поблизости caption is directly compatible with 横's ordinary beside/next-to/付近 sense; not transitive via側/隣.",
+   "right": "近く"
+  },
+  {
+   "finding": "RU031-C2-02",
+   "left": "向こう",
+   "reason": "Actual другой caption can name the other individual participant in counterpart use; independent direct compatibility, not transitive through他人.",
+   "right": "ほか"
+  },
+  {
+   "finding": "RU031-C2-02",
+   "left": "向こう",
+   "reason": "Actual другой caption plus explicitly personal 他/た use directly permits the individual-counterparty answer; not a category or transitive clique.",
+   "right": "他"
+  }
+ ],
+ "authorFindingAdjudication": "ACCEPT both grouped C2findings/three DIRECT missing pairs. Do not mark the uncreated corrected snapshot accepted.",
+ "batchId": "031-distance-speed-direction",
+ "checkpointAuthority": null,
+ "continueRequired": true,
+ "expectedRuntimeDeltas": [
+  {
+   "afterLine": "quiz_exclusions: [左右, 近く]",
+   "beforeLine": "quiz_exclusions: [左右]",
+   "beforeNormalizedLfSha256": "2119f57796fcfb29c39ac608e9adb181ddfca0d557378b71691ac3531e6f4a03",
+   "beforeWorkingRawSha256": "c1ee0c8863293cb414a24f8aa9f7bed947fbc838445bb7232146ac64f54ec605",
+   "expectedAfterNormalizedLfSha256": "c601628cbaa0887b34ef580e171e5ee9488b7db3bc14ffd7d034965b1bace7d2",
+   "expectedAfterWorkingRawSha256": "bb23b094c7ffb7e103d2b8c1cefa7e4cdbb268e1864c8b6191feb6788571ee7a",
+   "expectedRussianMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "横"
+    ],
+    "quiz_exclusions": [
+     "左右",
+     "近く"
+    ],
+    "reading": "よこ",
+    "tags": [
+     "wago",
+     "position"
+    ],
+    "title": "сбоку; по горизонтали",
+    "type": "wago",
+    "word": "横"
+   },
+   "learnerBodyUnchanged": true,
+   "path": "words/横.md"
+  },
+  {
+   "afterLine": "quiz_exclusions: [こちら, そちら, そっち, あちら, あっち, そこ, あそこ, 他人, ほか, 他]",
+   "beforeLine": "quiz_exclusions: [こちら, そちら, そっち, あちら, あっち, そこ, あそこ, 他人]",
+   "beforeNormalizedLfSha256": "2c831fe3e4d3a2e16bfe513b49315be15d7112f610699bbd7a68817e682bc8b5",
+   "beforeWorkingRawSha256": "4408afb96abe6682cc0dd3563042abe2cc37c2908fa70d43b03e3a6c3195418a",
+   "expectedAfterNormalizedLfSha256": "cbf9e48f3df23c5d148d111da2998e11e7358d4a8d65835163dfc03c5cc018fe",
+   "expectedAfterWorkingRawSha256": "230e4235a91b1f07e7665c24cdd96ac137daab157180d2387b77ace292b833ba",
+   "expectedRussianMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "向"
+    ],
+    "quiz_exclusions": [
+     "こちら",
+     "そちら",
+     "そっち",
+     "あちら",
+     "あっち",
+     "そこ",
+     "あそこ",
+     "他人",
+     "ほか",
+     "他"
+    ],
+    "reading": "むこう",
+    "tags": [
+     "wago",
+     "noun",
+     "position"
+    ],
+    "title": "там; по ту сторону",
+    "type": "wago",
+    "word": "向こう"
+   },
+   "learnerBodyUnchanged": true,
+   "path": "words/向こう.md"
+  },
+  {
+   "afterLine": "quiz_exclusions: [軽い]",
+   "beforeLine": "quiz_exclusions: [易しい, 軽い]",
+   "beforeNormalizedLfSha256": "8161d7472515bbeb25aabeb5483036a57d10a6b8c22f17057e1c238f105c8591",
+   "beforeWorkingRawSha256": "75bf203381360618d0b848142b205d02c06c0a7aa3ede271c52ccf8946698486",
+   "expectedAfterNormalizedLfSha256": "b878dc9785c561ee8d4298cd2fa4599095517585896e7a8576ce6b4e7b633db0",
+   "expectedAfterWorkingRawSha256": "ff30fb7037532f89abb45b5431c37023ab2724478830dfeb9991d991a5c81754",
+   "expectedRussianMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "速"
+    ],
+    "quiz_exclusions": [
+     "軽い"
+    ],
+    "reading": "はやい",
+    "tags": [
+     "wago",
+     "adjective",
+     "speed"
+    ],
+    "title": "быстрый",
+    "type": "wago",
+    "word": "速い"
+   },
+   "learnerBodyUnchanged": true,
+   "path": "words/速い.md"
+  }
+ ],
+ "focusedRecheckCompletePairs": [
+  "words/横.md",
+  "words/近く.md",
+  "words/向こう.md",
+  "words/ほか.md",
+  "words/他.md",
+  "words/速い.md",
+  "words/易しい.md"
+ ],
+ "fullCombinedAnswerRowsUnchanged": 594,
+ "fullScopeTitleReadingChange": false,
+ "fullTaskComplete": false,
+ "guidanceDecision": "No duplicate guidance added: current content-structure instructions already explicitly require independently proving or withdrawing doubtful extra exclusions, inspecting spelling/sense qualifiers and separating real captions from shared third meanings; general source instructions already require exactdictionary/HTMLand actual returnedURL rather than generatedsearchURL.",
+ "newAssets": [],
+ "newRuntimeProviderExpansion": [],
+ "ordinaryActivationAuthorized": false,
+ "originalCandidateDirectGuardCount": 65,
+ "phase": "Returned whole-review findings adjudicated; exact THREE metadata-line edits frozen BEFORE runtime edits; focused same-reviewer recheck PENDING.",
+ "projectedDirectGuardCount": 67,
+ "recordedAt": "2026-11-05T21:29:26.549043+00:00",
+ "runtimeAcceptance": false,
+ "russianCandidateBeforeCorrection": "6714018d54ec454442f94dbbf0cb7df7708227c6",
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "sourceRetrievalBoundary": "Simplifiedwebfetch omitted向こうdefinitions; actual rawHTML correctly decoded/extracted/read. AIsearch response text suggested conflicting642412while its actual citation+canonicalHTML retained641258: only actual641258adopted. This repeats an existing explicit active-instruction pitfall, not a new linguistic source.",
+ "unchangedPrimaryLearnerBodyCount": 32,
+ "withdrawnAuthorDirectGuardCount": 1,
+ "withdrawnAuthorGuardProposals": [
+  {
+   "left": "速い",
+   "reason": "Actual review did not establish ordinary written速いmeaningнесложный from a shared object whose easy/simple sense saysesp.早い. Existing active guidance requires independently justifying or withdrawing doubtful extra guards. Withdraw this AUTHOR-ADDED precaution for lack of adequate ordinary-spelling support; do NOT claim the dictionary absolutely forbids速い or that review found an actual learner-body mistranslation.",
+   "right": "易しい",
+   "status": "WITHDRAW before acceptance; metadata removal/recheck pending"
+  }
+ ]
+}

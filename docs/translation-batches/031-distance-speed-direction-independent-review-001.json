@@ -1,0 +1,63 @@
+{
+ "actualCompactAnswerRows": 594,
+ "actualCompletePrimaryBodies": 64,
+ "actualCompletePrimaryPairs": 32,
+ "actualEventId": "62cdaa06-ee0a-4a21-9442-e6a78f462833",
+ "actualEventType": "assistant.message",
+ "actualRetainedCompleteLexicalObjects": 63,
+ "actualSupportingRussianFullBodiesForC2": 39,
+ "batchId": "031-distance-speed-direction",
+ "captureBoundary": "Exact single unique returned reviewer report string from bounded1MiBjournal tail; duplicate identical event fields are not multiple reviews; no unrelated content retained.",
+ "capturedAt": "2026-11-05T21:24:36.818103+00:00",
+ "checkpointAuthority": null,
+ "continueRequired": true,
+ "facets": {
+  "C1": "CLEAN",
+  "C2": "NEEDS FIX",
+  "C3": "CLEAN"
+ },
+ "findings": [
+  {
+   "facet": "C2",
+   "id": "RU031-C2-01",
+   "pairs": [
+    [
+     "横",
+     "近く"
+    ]
+   ],
+   "severity": "medium",
+   "status": "ACCEPTED AS FINDING; edit/recheck pending"
+  },
+  {
+   "facet": "C2",
+   "id": "RU031-C2-02",
+   "pairs": [
+    [
+     "向こう",
+     "ほか"
+    ],
+    [
+     "向こう",
+     "他"
+    ]
+   ],
+   "severity": "medium",
+   "status": "ACCEPTED AS FINDING; edit/recheck pending"
+  }
+ ],
+ "fullTaskComplete": false,
+ "identicalStringOccurrences": 2,
+ "noPrimaryOrCaptionScopeOmissionsReported": true,
+ "ordinaryActivationAuthorized": false,
+ "reviewerAgentId": "b6abf999-8505-46c5-a6f4-c9b27d3346d1",
+ "reviewerName": "ru031-whole-c1-c2-c3",
+ "reviewerType": "code-review",
+ "runtimeAcceptance": false,
+ "russianSnapshot": "6714018d54ec454442f94dbbf0cb7df7708227c6",
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "supportingEnglishFullBodiesNotRead": 39,
+ "verbatimPublicReport": "## Verdicts\n\n| Facet | Verdict |\n|---|---|\n| C1 — Japanese factual/translation correctness | **CLEAN** |\n| C2 — Coverage, dependencies and actual quiz-answer safety | **NEEDS FIX** |\n| C3 — Russian comprehensibility/naturalness | **CLEAN** |\n\nTwo consequential findings establish **three missing direct exclusions**.\n\n## Issue: 横 and 近く can supply competing valid answers\n**File:** `C:\\Users\\stop-\\learning-japanese-ru\\words\\横.md:9`  \n**Severity:** Medium  \n**Facet:** C2\n\n**Problem:** Neither endpoint excludes the other. The actual captions are:\n\n- 横: «сбоку; по горизонтали»\n- 近く: «поблизости; окрестности»\n\n横 has an ordinary locative meaning “beside; next to”, for which «поблизости» is a reasonable short answer. Consequently, a meaning question for 横 can offer two defensible answers.\n\n**Evidence:**\n- `C:\\Users\\stop-\\learning-japanese-ru\\words\\横.md:17` explicitly teaches «сбоку от; рядом с»; lines 20–24 demonstrate this locative use.\n- The retained よこ dictionary object, JMdict 1180570, sense 4, gives “beside; aside; next to”.\n- [精選版 日本国語大辞典, 横, sense ④](https://kotobank.jp/word/%E6%A8%AA-448707) independently includes そば and 付近.\n- `C:\\Users\\stop-\\learning-japanese-ru\\words\\近く.md:4` supplies the actual «поблизости» caption.\n- Both actual exclusion lists were inspected. Exclusions through 側 or 隣 do **not** exclude 横–近く.\n\n**Suggested fix:** Add 近く to 横’s existing exclusion list. No supporting baseline article needs modification.\n\n**Confidence:** High.\n\n## Issue: 向こう remains directly compatible with the “другой” answers\n**File:** `C:\\Users\\stop-\\learning-japanese-ru\\words\\向こう.md:9`  \n**Severity:** Medium  \n**Facet:** C2\n\n**Problem:** 向こう excludes 他人 but excludes neither ほか nor 他. Their actual captions both contain «другой»:\n\n- ほか: «другой; остальное»\n- 他: «другой; прочие»\n\nIn an individual-counterparty use of 向こう, Russian substantive «другой» can identify the other participant. This is a direct compatibility with each caption, not an inference through 他人.\n\n**Evidence:**\n- The complete retained 向こう object, JMdict 1277140, sense 4, says **“the other party; the other side”**. It does not literally quote “another person”.\n- [デジタル大辞泉, 向こう, sense 3](https://kotobank.jp/word/%E5%90%91%E3%81%93%E3%81%86-641258) gives 相手・先方 and the example 向こうが悪い. In a two-person contrast, «виноват другой» is a natural Russian rendering.\n- The retained ほか object expressly includes another person; the retained 他／た object expressly includes people.\n- Actual learner text confirms these personal uses:\n  - `C:\\Users\\stop-\\learning-japanese-ru\\words\\ほか.md:16`\n  - `C:\\Users\\stop-\\learning-japanese-ru\\words\\他.md:23–26`\n- Neither endpoint declares either missing pair. The existing 向こう–他人 exclusion provides no transitive protection.\n\n**Suggested fix:** Add **both ほか and 他** to 向こう’s existing exclusion list. This does not assert interchangeability in every construction or require adding a new learner-facing lesson.\n\n**Confidence:** High.\n\n## Adjudication of the highlighted questions\n\n- **速い–易しい:** I do **not** establish ordinary written 速い meaning «несложный» merely from an empty restriction list in the shared object. The easy/simple sense explicitly prefers **早い**. The existing extra exclusion is conservative metadata, not evidence permitting that sense to be taught as an ordinary meaning of 速い. This is an evidence limitation, not an established learner-facing translation defect.\n- **速い–軽い:** The defensible overlap is the actual «быстрый» answer against 軽い’s nimble/agile, light-footed sense—not an invented literal “quick” gloss or the «лёгкий по весу» caption. 重い’s explicit slow/sluggish sense supports the slow-family precautions.\n- **ゆっくり:** Rest/relaxation is supported by its する use. The 結構 precaution rests on sufficiently/amply/time-to-spare, **not** on converting “sleep well” into generic “good”.\n- **すぐに–まっすぐ:** The exclusion is justified by Russian «сразу домой» potentially expressing no intermediate stop. The lesson correctly distinguishes that interpretation from Japanese immediacy.\n- **Additional readings and constructions:** The complete 上, 下, 中 and 外 lessons preserve the relevant reading distinctions without assigning every secondary sense N5. River, grade and coarse-language contexts were distinguished. 内’s home/company/family/spouse senses remain spelling-restricted to **内**; they were not transferred to 中／うち. The 入る precautions were assessed against the actual resulting-state example 入っています, not substring matching.\n- **辺–土地 / 向こう–他人:** Both proposed precautions have direct support: actual «местность» for the former; an individual counterpart and actual «другой человек» for the latter. Neither licenses a spatial or personal exclusion clique.\n- The 近い citation was treated as a usage tendency with exceptions, not a universal prohibition. 遠い町 remains intact. All four 他人 examples, the たにん restrictions, and the negative/additive ほか teaching were included in the review.\n\n## Snapshot and actual reading scope\n\n**Verified snapshots**\n- Russian repository: `C:\\Users\\stop-\\learning-japanese-ru`\n- Branch: `full-ru-031-distance-speed-direction`\n- HEAD: `6714018d54ec454442f94dbbf0cb7df7708227c6`\n- Accepted baseline: `651a571483c5949d92a1955de19d3d0510eac254`\n- Frozen source root: `C:\\Users\\stop-\\.copilot\\session-state\\68a44f7f-62db-4755-8296-fd586c861a35\\files\\ru-full-scope-en-6af98cb`\n- Source HEAD: `6af98cb717755690a9ca793e5454a96ebd7a8f9f`\n\nFinal status still contained only the pre-existing untracked `C:\\Users\\stop-\\learning-japanese-ru\\tools\\__pycache__\\`. The baseline Git diff preserves the other 874 runtime objects; 川上 has exactly the authorized phrase correction.\n\n**Fingerprint inspection**\n- All 71 review-pair fingerprints matched.\n- All 906 working runtime RAW fingerprints and the manifest matched the recovered author-validation binding.\n- All 594 answer-pool row fingerprints matched actual working files.\n- Candidate SHA256: `0c6c66d5e931a99115d517d29e12c64eac32c8ded253dfa64ef31a171b3a1090`\n- Answer-pool SHA256: `9cbf4bdf95389d0f13e9f7696427b349832d45b5dce8259c455f5539a56fc504`\n\n**Actual reading**\n- **All 32 primary Russian units, line 1 through EOF**, against their **complete 32 frozen English counterparts, line 1 through EOF**.\n- **All 594 actual captions/readings**, in returned ranges 1–100, 101–200, 201–300, 301–400, 401–500 and 501–594.\n- **All 63 retained complete dictionary evidence objects**, including qualifiers and restrictions; their selected-object bindings matched the retained RAW responses. The amendment’s six objects matched those records. The rejected 怡怡 homophone was not used.\n- **All 39 supporting Russian units, line 1 through EOF**, for C2 context under `C:\\Users\\stop-\\learning-japanese-ru\\words\\`: 内側, 上着, 上下, 左右, 後ろ, 方, こちら, こっち, そちら, そっち, あちら, あっち, ここ, そこ, あそこ, 家, 家族, 会社, 組織, 団体, 夫, 妻, 主人, 右手, 左手, 高い, 低い, いい, 良い, 結構, 易しい, 軽い, 重い, 休む, 長短, 土地, 汚い, 悪い, 入る. Their English bodies were **not** fully read; these supporting units are not independently certified under every facet.\n\nThere are **no primary-unit or caption-scope omissions**. No edits, delegation, tests, builds or emulators were performed. App mappings for comparison/distance/speed remain unverified, not established missing. These verdicts do not confer corpus acceptance, native certification, device approval or release authority.",
+ "verbatimPublicReportUtf8Sha256": "25dd6b6350787b4dcc2416c2e468249457ec5a92db52cc54143ba592a4c32048"
+}
