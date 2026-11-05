@@ -1,0 +1,47 @@
+{
+ "actualAdditionalShortDictionarySections": [
+  "DigitalDaijisenかどcompletelexicalsubsection, not wholepage"
+ ],
+ "actualFreshCompleteBodies": 14,
+ "actualFreshCompletePairs": 7,
+ "actualFreshSemanticAnswerRows": 7,
+ "actualMechanicalAnswerRowBindings": 621,
+ "actualPinnedAppSourceRanges": {
+  "WordQuizScreen": [
+   [
+    98,
+    226
+   ]
+  ],
+  "WordQuizViewModel": [
+   [
+    200,
+    232
+   ],
+   [
+    343,
+    362
+   ]
+  ]
+ },
+ "actualRepeatedCompleteLexicalObjects": 6,
+ "batchId": "032-travel-places-transport",
+ "capturedFrom": "Actual task final visible response, also returned by read_agent, copied verbatim without terminal newline; agent ID independently obtained from actual subagent.started event.",
+ "checkpointAuthority": null,
+ "cumulativeAcceptanceSupportedByActualReturn": true,
+ "facets": {
+  "C1": "CLEAN",
+  "C2": "CLEAN",
+  "C3": "CLEAN"
+ },
+ "journalCaptureBoundary": "Bounded journal probe found the start/working events but not this final report text at capture time; this copy is not falsely labelled a journal extraction.",
+ "notFreshAll27PrimaryOr621SemanticRows": true,
+ "ordinaryActivationAuthorized": false,
+ "reviewerAgentId": "2707c5c2-8998-4d6f-ba14-9afcc4b212ec",
+ "reviewerName": "ru032-focused-gate-c2-adjudication",
+ "russianSnapshot": "733ee14f564e2ffebd5ab754deb994523b52f4ca",
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "verbatimPublicReport": "## Disposition\n\n**C1 CLEAN · C2 CLEAN · C3 CLEAN** for this focused correction. The initial C2 uncertainty is **resolved**; its preserved report remains unchanged.\n\n**Cumulative initial + focused evidence supports editorial acceptance of all 27 batch032 articles at the corrected candidate.** No further content correction is required. This is not whole-corpus, native/device, release or ordinary-activation approval; accepted tracking remains **906**.\n\n### Snapshots\n\n- Corrected RU: `733ee14f564e2ffebd5ab754deb994523b52f4ca`\n- Initial RU: `0c9fea39a8f2d273f5d3d545b38d40a5eaa7b246`\n- Accepted baseline: `d79f4434df73849e5b62461d7ef25ff609727cfc`\n- Frozen EN: `6af98cb717755690a9ca793e5454a96ebd7a8f9f`\n- Resolution freeze: `c1fe596e5ad71c8bb408f3157bced2aa65ca79af`\n- Captured app source: `5c000bd5596d2189ef878da572687bd01ab3bb5f`\n\nNo uncommitted changes were included.\n\n## C2 adjudication\n\nThe three additions at **`C:\\Users\\stop-\\learning-japanese-ru\\words\\門.md:9`** are justified:\n\n| Direct pair | Decision and evidence |\n|---|---|\n| 門–家 | **Retain.** Daijisen かど sense3 explicitly includes 家. The actual caption «дом; жилище» contains the applicable alternative «дом». |\n| 門–家族 | **Retain.** Sense3 also gives 一族・一門, corroborating the captured family sense and actual «семья» caption. |\n| 門–庭 | **Retain.** Sense2 explicitly denotes the area before the gate/garden around it. This directly overlaps «сад; двор», not merely an associated location. |\n\nThe complete short modern Daijisen subsection supplies no archaic qualifier for those senses. Its proverb example supports the family/household use without establishing unrestricted substitution.\n\nThe pinned app source resolves the presentation boundary: `WordQuizPrompt` receives and renders **`word.word`** for JpToEn, with separate reading help. **もん is not an always-visible restriction before answering.** These guards therefore protect legitimate alternatives for bare 門; they do not teach a new article reading.\n\n**門–ドア and 門–戸 are not required in this pool.** Daijisen defines かど sense1 as the entrance through the house’s **outer enclosure**, matching the gate distinction—not an ordinary building/room/vehicle door or movable door panel. The complete Russian articles teach those latter meanings. The English gloss `door` alone does not establish their equivalence.\n\nIndependently, the captured 戸／と object restricts its door sense specifically to **戸**. Its additional 門 spelling, archaic entrance sense, place-name and Wikipedia enrichment do not override that restriction.\n\n**Do not add 門–公園:** «общественный парк» is not the gate-side yard sense. The decision also leaves intact the original20 supported direct pairs, including **角→隅**. Neither exit functionality nor containment establishes 門–出口 or an all-venues–建物 group.\n\n## Actual fresh reading and mechanical evidence\n\n**Freshly read completely:** seven EN/RU pairs—門、家、家族、庭、ドア、戸、公園—**14 complete article bodies**, including metadata and seven actual Russian answer labels.\n\nAlso read:\n- Six complete preserved lexical objects: source-adjudication rows **17,21,39,54,55,56**.\n- The complete short Daijisen かど lexical subsection, checked against captured raw HTML—not the whole webpage.\n- Captured `WordQuizScreen` **98–226** and `WordQuizViewModel` **200–232,343–362**.\n- Applicable RU instructions, all three reviewer rubrics, relevant methodology, original report, freeze and corrected record.\n\n**Mechanically confirmed, not fresh semantic review:**\n- All **50** available pair fingerprints across declared RAW/normalized domains.\n- Both pool hashes and all **621** corrected metadata bindings; only 門 exclusions changed, with **zero title/reading changes**.\n- All **933** runtime objects accounted for; **932** other candidate RAWs and **906** baseline RAWs unchanged; no learner-body changes.\n- All23 direct guards present; original20 preserved.\n- Dictionary/app capture hashes and immutable initial report hash matched.\n\nThe initial **27 primary +21 contextual pairs,621 semantic rows and57 lexical rows** remain prior-review evidence, not fresh reads here. 書店／読書 were not newly read.\n\n**Limits:** No edits, agents, tests, builds, validators or device checks. Serialized technical results were inspected, not rerun. Missing pinned app tag mappings remain a separate app follow-up, not a blocker for authorized independent text authoring.",
+ "verbatimPublicReportUtf8Sha256": "61c565d450bc59d84dfa577f64fc90b1b1b01a8899ed2d4773bfffb484505ae8"
+}

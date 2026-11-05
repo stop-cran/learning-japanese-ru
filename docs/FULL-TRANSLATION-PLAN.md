@@ -1298,3 +1298,53 @@ app mappings remain UNVERIFIED, not established missing. The concurrent app is u
 Device/exact media-package/C6/C7/ordinary activation/release gates remain separate.
 Continue the remaining 264 N5 words and every safe frozen level/family, including
 honest excluded listening drafts; the entire translation objective remains in progress.
+
+## Reviewed source milestone 032: travel, places and transport
+
+The [reviewed source record](translation-batches/032-travel-places-transport-reviewed-source.json)
+adds 27 complete Russian word articles: 26 N5 roots and the required N4 隅,
+against unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+All 906 accepted baseline runtime RAWs and earlier tracking rows remain unchanged.
+
+The [cumulative independent record](translation-batches/032-travel-places-transport-independent-review.json)
+preserves the actual whole review of 27 primary and 21 supporting EN/RU pairs,
+621 compact semantic answer rows and 57 complete selected dictionary-object rows.
+Those include repeated objects and distinct homographs, not 57 adopted lexemes.
+The initial C1/C3 CLEAN and C2 UNVERIFIED report stays immutable.
+The fresh sequential focused reviewer read seven complete pairs, seven labels,
+six repeated complete lexical objects, the short actual Daijisen かど subsection
+and exact pinned app Git-source ranges. This supports cumulative C1/C2/C3 CLEAN,
+not a fresh 27-primary/621-semantic-row review or 50 reviewed bilingual pairs.
+The cumulative unique complete-pair count is 48; 書店 and 読書 have only
+mechanical fingerprint verification in these independent reviews.
+
+Actual modern dictionary evidence and the bare-word meaning prompt resolve
+the 門／かど question with direct 門–家/家族/庭 safeguards. The initial 20 pairs
+remain; the total is **23 direct guards**, without a transitive park/entrance clique.
+Door-sense restrictions on 戸 are not transferred to another listed spelling.
+The precise outer-enclosure definition does not require 門–ドア/戸 in this pool.
+All 933 learner bodies and 621 captions/readings stay unchanged during the
+focused metadata correction. Active guidance records the actual optional-reading
+boundary and per-sense spelling restriction, not a phone-test claim.
+
+Membership is **933 runtime objects**: 141 kanji/621 words/141 strokes/2 articles/
+22 counter files/one grammar set/2 scene catalogs/3 images.
+Word levels are 434 N5/54 N4/60 N3/19 N2/54 unlabelled:
+**434 of 672 frozen N5 words are adopted; 238 remain**.
+Fresh strict 8,278-entry progress: **933 reviewed-current**, **no partial**,
+**two excluded reviewed runtime-blocked drafts**, **7,343 pending**,
+**7,345 runtime paths absent**. Checkpoint authority null/Ready false;
+version `5d758becdc2891a3`.
+Corrected-candidate serialized checks: validator 0 errors, 124 tests OK in 29.428s;
+budget 941 files/950 entries/2,658,751 retained/2,675,433 inflated/1,336,507 ZIP bytes.
+Final checks, source integration, actual public archive, signatures and exact-main
+CI have separate receipts, not Android/phone/IME/playback acceptance.
+
+No new assets, paid generation or media authority occurred.
+At the inspected exact app commit `5c000bd`, canonical tag IDs `buildings`,
+`entertainment`, `shopping`, `swimming` and previous `comparison`, `distance`,
+`speed` lack explicit localized cases and fall through as raw tags.
+This is a pinned-source app follow-up, not inspection or modification of concurrent
+dirty app work. Keep technical IDs stable; ordinary activation/release remains gated.
+Continue the remaining 238 N5 words and every safe frozen level/family,
+including honest excluded listening drafts; the entire objective remains in progress.

@@ -1,0 +1,727 @@
+{
+ "activeGuidanceDelta": "Actual pinned bare-question/optional-reading boundary and per-sense spelling restriction, independently read in focused review.",
+ "actualReviewScope": {
+  "all50AvailableBilingualPairsClaimedRead": false,
+  "all621WholeBodiesClaimedRead": false,
+  "cumulativeUniqueCompleteBilingualPairs": 48,
+  "focusedCompletePairs": 7,
+  "focusedRepeatedCompleteObjects": 6,
+  "focusedSemanticAnswerRows": 7,
+  "initialCompletePrimaryPairs": 27,
+  "initialCompleteSupportingPairs": 21,
+  "initialSelectedCompleteObjectRows": 57,
+  "initialSemanticAnswerRows": 621
+ },
+ "appHintFollowUp": {
+  "evidence": "Actual complete localizedWordPromptTag mapping ends else -> return tag; English canonical IDs remain untranslated in RU source. App follow-up only; concurrent app untouched.",
+  "new032TagsWithoutExplicitLocalizedCase": [
+   "buildings",
+   "entertainment",
+   "shopping",
+   "swimming"
+  ],
+  "previous031TagsWithoutExplicitLocalizedCase": [
+   "comparison",
+   "distance",
+   "speed"
+  ]
+ },
+ "baselineCommit": "d79f4434df73849e5b62461d7ef25ff609727cfc",
+ "batchId": "032-travel-places-transport",
+ "checkpointAuthority": null,
+ "continueRequired": true,
+ "currentNewRussianClaimsUnverified": [],
+ "directGuardDecisions": [
+  {
+   "boundary": "Direct actual-caption safeguard, not unrestricted synonymy/transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "角",
+   "from": "角",
+   "reason": "Preserve the actual source edge; both actual Russian labels contain угол; distinguish かど and すみ in prose.",
+   "reviewSupport": "docs/translation-batches/032-travel-places-transport-independent-review-001.json",
+   "to": "隅"
+  },
+  {
+   "boundary": "Direct actual-caption safeguard, not unrestricted synonymy/transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "タクシー",
+   "from": "タクシー",
+   "reason": "The actual accepted 車 caption includes транспортное средство and автомобиль; a taxi vehicle fits both in ordinary travel.",
+   "reviewSupport": "docs/translation-batches/032-travel-places-transport-independent-review-001.json",
+   "to": "車"
+  },
+  {
+   "boundary": "Direct actual-caption safeguard, not unrestricted synonymy/transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "タクシー",
+   "from": "タクシー",
+   "reason": "The hired car sense of タクシー fits the actual автомобиль caption; not a claim that every automobile is a taxi.",
+   "reviewSupport": "docs/translation-batches/032-travel-places-transport-independent-review-001.json",
+   "to": "自動車"
+  },
+  {
+   "boundary": "Direct actual-caption safeguard, not unrestricted synonymy/transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "バス",
+   "from": "バス",
+   "reason": "The actual broad транспортное средство label fits an ordinary passenger bus.",
+   "reviewSupport": "docs/translation-batches/032-travel-places-transport-independent-review-001.json",
+   "to": "車"
+  },
+  {
+   "boundary": "Direct actual-caption safeguard, not unrestricted synonymy/transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "バス",
+   "from": "バス",
+   "reason": "The ordinary motor-vehicle sense of 自動車 includes an автобус; preserve the car/bus distinction in teaching.",
+   "reviewSupport": "docs/translation-batches/032-travel-places-transport-independent-review-001.json",
+   "to": "自動車"
+  },
+  {
+   "boundary": "Direct actual-caption safeguard, not unrestricted synonymy/transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "バス",
+   "from": "バス",
+   "reason": "A distinct exact-spelling バス lexical object denotes bass fish; the actual current label рыба is defensible for that homograph. Do not merge this identity into the transport entry.",
+   "reviewSupport": "docs/translation-batches/032-travel-places-transport-independent-review-001.json",
+   "to": "魚"
+  },
+  {
+   "boundary": "Direct actual-caption safeguard, not unrestricted synonymy/transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "地下鉄",
+   "from": "地下鉄",
+   "reason": "The railway-train use of 地下鉄 fits the actual broad транспортное средство label.",
+   "reviewSupport": "docs/translation-batches/032-travel-places-transport-independent-review-001.json",
+   "to": "車"
+  },
+  {
+   "boundary": "Direct actual-caption safeguard, not unrestricted synonymy/transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "地下鉄",
+   "from": "地下鉄",
+   "reason": "The actual электропоезд label fits ordinary electric subway trains; not every 電車 is underground.",
+   "reviewSupport": "docs/translation-batches/032-travel-places-transport-independent-review-001.json",
+   "to": "電車"
+  },
+  {
+   "boundary": "Direct actual-caption safeguard, not unrestricted synonymy/transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "自転車",
+   "from": "自転車",
+   "reason": "The actual broad транспортное средство label fits a bicycle; not a claim that a bicycle is an automobile.",
+   "reviewSupport": "docs/translation-batches/032-travel-places-transport-independent-review-001.json",
+   "to": "車"
+  },
+  {
+   "boundary": "Direct actual-caption safeguard, not unrestricted synonymy/transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "飛行機",
+   "from": "飛行機",
+   "reason": "The actual Russian alternative транспортное средство is broad enough for a plane. This is a Russian-caption safeguard, NOT an assertion that Japanese 車 ordinarily means aircraft.",
+   "reviewSupport": "docs/translation-batches/032-travel-places-transport-independent-review-001.json",
+   "to": "車"
+  },
+  {
+   "boundary": "Direct actual-caption safeguard, not unrestricted synonymy/transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "門",
+   "from": "門",
+   "reason": "A gate is an entrance through the grounds boundary; 入口 explicitly includes gate and its actual caption is вход.",
+   "reviewSupport": "docs/translation-batches/032-travel-places-transport-independent-review-001.json",
+   "to": "入口"
+  },
+  {
+   "boundary": "Direct actual-caption safeguard, not unrestricted synonymy/transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "門",
+   "from": "門",
+   "reason": "The actual compound label вход; прихожая contains the broad вход, which fits the entrance/gateway sense of 門; not every gate is an entrance hall.",
+   "reviewSupport": "docs/translation-batches/032-travel-places-transport-independent-review-001.json",
+   "to": "玄関"
+  },
+  {
+   "boundary": "Direct actual-caption safeguard, not unrestricted synonymy/transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "門",
+   "from": "門",
+   "reason": "The unchanged accepted 出入口 body explicitly includes gates; actual вход и выход describes an opening used for passage both ways.",
+   "reviewSupport": "docs/translation-batches/032-travel-places-transport-independent-review-001.json",
+   "to": "出入口"
+  },
+  {
+   "boundary": "Direct actual-caption safeguard, not unrestricted synonymy/transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "門",
+   "from": "門",
+   "reason": "The actual mon lexical object has the school/branch-of-learning sense; the current Russian caption школа does not encode which kind.",
+   "reviewSupport": "docs/translation-batches/032-travel-places-transport-independent-review-001.json",
+   "to": "学校"
+  },
+  {
+   "boundary": "Direct actual-caption safeguard, not unrestricted synonymy/transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "公園",
+   "from": "公園",
+   "reason": "The actual label сад overlaps partly with парк in ordinary Russian; the captured Russian dictionary explicitly marks partial, not universal, synonymy.",
+   "reviewSupport": "docs/translation-batches/032-travel-places-transport-independent-review-001.json",
+   "to": "庭"
+  },
+  {
+   "boundary": "Direct actual-caption safeguard, not unrestricted synonymy/transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "レストラン",
+   "from": "レストラン",
+   "reason": "The actual shokudou lexical object has restaurant/eatery sense2; ресторан is defensible for that ordinary sense.",
+   "reviewSupport": "docs/translation-batches/032-travel-places-transport-independent-review-001.json",
+   "to": "食堂"
+  },
+  {
+   "boundary": "Direct actual-caption safeguard, not unrestricted synonymy/transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "レストラン",
+   "from": "レストラン",
+   "reason": "The unchanged 店 article and lexical object explicitly include restaurant; the new actual label ресторан is defensible for that sense.",
+   "reviewSupport": "docs/translation-batches/032-travel-places-transport-independent-review-001.json",
+   "to": "店"
+  },
+  {
+   "boundary": "Direct actual-caption safeguard, not unrestricted synonymy/transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "喫茶店",
+   "from": "喫茶店",
+   "reason": "The unchanged accepted 店 body explicitly includes cafés; the new кофейня; чайная label overlaps that taught establishment sense.",
+   "reviewSupport": "docs/translation-batches/032-travel-places-transport-independent-review-001.json",
+   "to": "店"
+  },
+  {
+   "boundary": "Direct actual-caption safeguard, not unrestricted synonymy/transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "食堂",
+   "from": "食堂",
+   "reason": "Public eating-establishment sense of 食堂 overlaps the restaurant sense explicitly taught in 店; compare the actual столовая label, not English cafeteria.",
+   "reviewSupport": "docs/translation-batches/032-travel-places-transport-independent-review-001.json",
+   "to": "店"
+  },
+  {
+   "boundary": "Direct actual-caption safeguard, not unrestricted synonymy/transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "デパート",
+   "from": "デパート",
+   "reason": "The current магазин caption directly fits the department-store sense; this does not create a clique of store subtypes.",
+   "reviewSupport": "docs/translation-batches/032-travel-places-transport-independent-review-001.json",
+   "to": "店"
+  },
+  {
+   "boundary": "Direct actual-caption safeguard, not unrestricted synonymy/transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "門",
+   "from": "門",
+   "reason": "Actual Daijisenかど sense3家 and JMdict house/family fit the current bareдом alternative; bare meaning prompt does not guarantee visible primaryもん.",
+   "reviewSupport": "docs/translation-batches/032-travel-places-transport-independent-review-002.json",
+   "to": "家"
+  },
+  {
+   "boundary": "Direct actual-caption safeguard, not unrestricted synonymy/transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "門",
+   "from": "門",
+   "reason": "Actual modern lexicalかど sense3一族/一門 and captured family fit the current bareсемья caption.",
+   "reviewSupport": "docs/translation-batches/032-travel-places-transport-independent-review-002.json",
+   "to": "家族"
+  },
+  {
+   "boundary": "Direct actual-caption safeguard, not unrestricted synonymy/transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "門",
+   "from": "門",
+   "reason": "Actualかど sense2 explicitly names庭around gate; current庭 caption includesдвор. A direct lexical/range overlap, not a transitive park/entrance/venue clique.",
+   "reviewSupport": "docs/translation-batches/032-travel-places-transport-independent-review-002.json",
+   "to": "庭"
+  }
+ ],
+ "facets": {
+  "C1": "CLEAN",
+  "C2": "CLEAN",
+  "C3": "CLEAN"
+ },
+ "fullTaskComplete": false,
+ "historicalReceiptsPreserved": true,
+ "limits": [
+  "Actual initial27primary+21supportingcompleteEN/RUpairs,621compactsemanticanswerrows and57complete selectedquery-objectrows; repeated objects and homographs are not57adoptedlexemes.",
+  "Actual focused7completepairs/14bodies,7semanticlabels,6repeatedcompleteobjects, complete shortDaijisenかどsubsection and exactpinnedappsource ranges;621rowbindingsmechanical, not fresh621semanticread.",
+  "Cumulative uniquecompletebilingualpaircount48; all27primarypairs covered. Available書店/読書 fingerprints are not full independent readings; not50fullpairs or621fullarticles.",
+  "InitialC2UNVERIFIED is immutable. Actual focusedCLEAN resolves bare門/かど after source-backed3directmetadata additions. All933learnerbodies and621captions/readings unchanged;932othercandidateRAWs and906baselineRAWs exact.",
+  "門–ドア/戸 not required for this actual pool: preciseJapanese outer-enclosure meaning differs from actual door/panel teaching. 戸sense-specific spellingrestriction is not transferred to門/と. No transitive門–公園 or functional門–出口 clique.",
+  "WorkingRAW, canonicalGitRAW and normalizedLF are distinct. Hash/projection verification is not independent linguistic/native proof.",
+  "Exact committedapp5c000bd source only, not concurrent livefiles; canonicaltagmapping gaps at that pin are follow-up, not permission to change IDs or race appwriter.",
+  "No assets/media generation/authority, phone/IME/playback/new audio-package/C6/C7/defaultactivation/release/humancheckpoint authority."
+ ],
+ "newKanji": 0,
+ "newMediaAssets": [],
+ "newRuntimePaths": 27,
+ "newStrokes": 0,
+ "newWords": 27,
+ "next": "Continue remaining238N5words and every other safe frozenlevel/family, including restrictedlisteningtext as honestexcluded drafts; device/media/releasegates remainseparate.",
+ "oldRuntimeEdits": [],
+ "omittedOptionalWrappers": [
+  {
+   "path": "words/交差点.md",
+   "sourceLink": "../kanji/交.md"
+  },
+  {
+   "path": "words/交差点.md",
+   "sourceLink": "../kanji/差.md"
+  },
+  {
+   "path": "words/交差点.md",
+   "sourceLink": "../kanji/点.md"
+  },
+  {
+   "path": "words/交番.md",
+   "sourceLink": "../kanji/交.md"
+  },
+  {
+   "path": "words/交番.md",
+   "sourceLink": "../kanji/番.md"
+  },
+  {
+   "path": "words/公園.md",
+   "sourceLink": "../kanji/園.md"
+  },
+  {
+   "path": "words/公園.md",
+   "sourceLink": "公演.md"
+  },
+  {
+   "path": "words/切符.md",
+   "sourceLink": "../kanji/切.md"
+  },
+  {
+   "path": "words/切符.md",
+   "sourceLink": "../kanji/符.md"
+  },
+  {
+   "path": "words/喫茶店.md",
+   "sourceLink": "../kanji/喫.md"
+  },
+  {
+   "path": "words/喫茶店.md",
+   "sourceLink": "../kanji/茶.md"
+  },
+  {
+   "path": "words/図書館.md",
+   "sourceLink": "../kanji/図.md"
+  },
+  {
+   "path": "words/図書館.md",
+   "sourceLink": "../kanji/館.md"
+  },
+  {
+   "path": "words/地下鉄.md",
+   "sourceLink": "../kanji/地.md"
+  },
+  {
+   "path": "words/地下鉄.md",
+   "sourceLink": "../kanji/鉄.md"
+  },
+  {
+   "path": "words/大使館.md",
+   "sourceLink": "../kanji/使.md"
+  },
+  {
+   "path": "words/大使館.md",
+   "sourceLink": "../kanji/館.md"
+  },
+  {
+   "path": "words/映画館.md",
+   "sourceLink": "../kanji/映.md"
+  },
+  {
+   "path": "words/映画館.md",
+   "sourceLink": "../kanji/画.md"
+  },
+  {
+   "path": "words/映画館.md",
+   "sourceLink": "../kanji/館.md"
+  },
+  {
+   "path": "words/橋.md",
+   "sourceLink": "../kanji/橋.md"
+  },
+  {
+   "path": "words/自転車.md",
+   "sourceLink": "../kanji/自.md"
+  },
+  {
+   "path": "words/自転車.md",
+   "sourceLink": "../kanji/転.md"
+  },
+  {
+   "path": "words/荷物.md",
+   "sourceLink": "../kanji/荷.md"
+  },
+  {
+   "path": "words/荷物.md",
+   "sourceLink": "../kanji/物.md"
+  },
+  {
+   "path": "words/角.md",
+   "sourceLink": "../kanji/角.md"
+  },
+  {
+   "path": "words/郵便局.md",
+   "sourceLink": "../kanji/郵.md"
+  },
+  {
+   "path": "words/郵便局.md",
+   "sourceLink": "../kanji/便.md"
+  },
+  {
+   "path": "words/郵便局.md",
+   "sourceLink": "../kanji/局.md"
+  },
+  {
+   "path": "words/門.md",
+   "sourceLink": "../kanji/門.md"
+  },
+  {
+   "path": "words/門.md",
+   "sourceLink": "正門.md"
+  },
+  {
+   "path": "words/隅.md",
+   "sourceLink": "../kanji/隅.md"
+  },
+  {
+   "path": "words/階段.md",
+   "sourceLink": "../kanji/階.md"
+  },
+  {
+   "path": "words/階段.md",
+   "sourceLink": "../kanji/段.md"
+  },
+  {
+   "path": "words/飛行機.md",
+   "sourceLink": "../kanji/飛.md"
+  },
+  {
+   "path": "words/飛行機.md",
+   "sourceLink": "../kanji/機.md"
+  },
+  {
+   "path": "words/食堂.md",
+   "sourceLink": "../kanji/堂.md"
+  }
+ ],
+ "ordinaryActivationAuthorized": false,
+ "perFileHashes": [
+  {
+   "path": "words/エレベーター.md",
+   "ruGitRawSha256": "30133e93e0282228b548a9a25cf84bb658043c84e1523e495617c4d5f13f712f",
+   "ruRawSha256": "091712e1612e0bc79c8e021b742af5dfa46d97d5c3e496d2ca4d101087870097",
+   "ruSha256": "30133e93e0282228b548a9a25cf84bb658043c84e1523e495617c4d5f13f712f",
+   "sourceRawSha256": "bbc89976411068f3663e898d3e2536fe618a61dab3d3ee333c17941f27341063",
+   "sourceSha256": "bbc89976411068f3663e898d3e2536fe618a61dab3d3ee333c17941f27341063"
+  },
+  {
+   "path": "words/タクシー.md",
+   "ruGitRawSha256": "6cb92cc6517bc8bbee9b935a06fa9bae7238115ebe97ac66256ac1a6a2916e64",
+   "ruRawSha256": "1f46437bbe5a165069ab5d699133dbeaf39c483faa183296fe06286352842e48",
+   "ruSha256": "6cb92cc6517bc8bbee9b935a06fa9bae7238115ebe97ac66256ac1a6a2916e64",
+   "sourceRawSha256": "07c1a4308497132e8e265a8f68b6b7a97b10a9ff1b631fcebf43a99ef56935d7",
+   "sourceSha256": "07c1a4308497132e8e265a8f68b6b7a97b10a9ff1b631fcebf43a99ef56935d7"
+  },
+  {
+   "path": "words/デパート.md",
+   "ruGitRawSha256": "214aef8cc3f783304dde287b39220232f791460464b84c0ce38b639a755c9b10",
+   "ruRawSha256": "feeb8265a035773f69ca4558f82cb7614ba344bc8a8c0af7475626bdc4a8458c",
+   "ruSha256": "214aef8cc3f783304dde287b39220232f791460464b84c0ce38b639a755c9b10",
+   "sourceRawSha256": "b7c5a034ccb0206dbfb643bb0c3b5d7c6b464988dae01e5da5d9583e1b4e7b1f",
+   "sourceSha256": "b7c5a034ccb0206dbfb643bb0c3b5d7c6b464988dae01e5da5d9583e1b4e7b1f"
+  },
+  {
+   "path": "words/バス.md",
+   "ruGitRawSha256": "759c65a2063844e7f87f06c3a7f30472c5763628bade05e04e8fef7fb05adeba",
+   "ruRawSha256": "f1f6ac50e71928388b4b4ef66f95c34bfdaf6197c275846934cb7ac0e52856b4",
+   "ruSha256": "759c65a2063844e7f87f06c3a7f30472c5763628bade05e04e8fef7fb05adeba",
+   "sourceRawSha256": "8a0a47a52ce79bbc765db8be7bdc173a2c683c5459d3632f97e655c97b58c25e",
+   "sourceSha256": "8a0a47a52ce79bbc765db8be7bdc173a2c683c5459d3632f97e655c97b58c25e"
+  },
+  {
+   "path": "words/プール.md",
+   "ruGitRawSha256": "f3f462e79cc5e86ffaf2649b912014d9ed094f78889610e34eabc313114773e9",
+   "ruRawSha256": "20a4b72bdadc2c587b1952b5080124f65dd0b09e318d71b293c34283d9bf22fd",
+   "ruSha256": "f3f462e79cc5e86ffaf2649b912014d9ed094f78889610e34eabc313114773e9",
+   "sourceRawSha256": "3013caa5550b88bcbb828102976b7f4e7acb976772e5a4fc685b151764503db3",
+   "sourceSha256": "3013caa5550b88bcbb828102976b7f4e7acb976772e5a4fc685b151764503db3"
+  },
+  {
+   "path": "words/ホテル.md",
+   "ruGitRawSha256": "a65ffb03165a6e555b87e951272a4e554b518439cf851a5f3fdebd4a2e92508e",
+   "ruRawSha256": "c87e5eb0f3bdddb418cd9a18c0c70a43ea34401f6877e45471db662b03679425",
+   "ruSha256": "a65ffb03165a6e555b87e951272a4e554b518439cf851a5f3fdebd4a2e92508e",
+   "sourceRawSha256": "f7646ef8215912ab8ac851d0f43e5e0a3ee62031a56af6735f878d820e775a45",
+   "sourceSha256": "f7646ef8215912ab8ac851d0f43e5e0a3ee62031a56af6735f878d820e775a45"
+  },
+  {
+   "path": "words/レストラン.md",
+   "ruGitRawSha256": "48129922b013e98f92a32994beb868825d8fd663ea4e26e04c7c2057e6d7d7b2",
+   "ruRawSha256": "994f13476070d7e75e385a13f269749c3fe8d6c468e49d9c910c484b4d115338",
+   "ruSha256": "48129922b013e98f92a32994beb868825d8fd663ea4e26e04c7c2057e6d7d7b2",
+   "sourceRawSha256": "39a3bc5b19c6c81b5b3e1fa1ee5e6e846401f7c31ac48c8aaec9b135da32dcc6",
+   "sourceSha256": "39a3bc5b19c6c81b5b3e1fa1ee5e6e846401f7c31ac48c8aaec9b135da32dcc6"
+  },
+  {
+   "path": "words/交差点.md",
+   "ruGitRawSha256": "e5cce0bb1428ae58e77950317893152a8671e902a3cef2f4961ed53ba64c7c0f",
+   "ruRawSha256": "8bf4fbd8c5acdd2ae9cca32c65d5590347e2bbabca5996a5a3ccb2266d7c6958",
+   "ruSha256": "e5cce0bb1428ae58e77950317893152a8671e902a3cef2f4961ed53ba64c7c0f",
+   "sourceRawSha256": "3c40282b80d1aef59273b37ca3190e79efb652edae52077069742c936130581b",
+   "sourceSha256": "3c40282b80d1aef59273b37ca3190e79efb652edae52077069742c936130581b"
+  },
+  {
+   "path": "words/交番.md",
+   "ruGitRawSha256": "c60b5823bf636d517129947f13d55b7e7db4fd8926e49edd432c3c03ea70d076",
+   "ruRawSha256": "0d18a907193faceb9f27d4d9f240b5b878afb20bf193d905bff56a507d25883c",
+   "ruSha256": "c60b5823bf636d517129947f13d55b7e7db4fd8926e49edd432c3c03ea70d076",
+   "sourceRawSha256": "32b20e8a80dc89fefb46cfa2cd4c5ff8dae603cc66acaed446c15ffb922f37c6",
+   "sourceSha256": "32b20e8a80dc89fefb46cfa2cd4c5ff8dae603cc66acaed446c15ffb922f37c6"
+  },
+  {
+   "path": "words/公園.md",
+   "ruGitRawSha256": "2c033d1dbd5293ec2b2ed7ba2a5722a7eaf257a429c37d51be4ab0acf42368d2",
+   "ruRawSha256": "3262e03c7788d00ed3ae68350ce03392243134e09a6dac5ca4a86aedc0f08903",
+   "ruSha256": "2c033d1dbd5293ec2b2ed7ba2a5722a7eaf257a429c37d51be4ab0acf42368d2",
+   "sourceRawSha256": "4af39971624dc4e414202d10f462d8164618e03fec00c53b521d4b67b2807352",
+   "sourceSha256": "4af39971624dc4e414202d10f462d8164618e03fec00c53b521d4b67b2807352"
+  },
+  {
+   "path": "words/切符.md",
+   "ruGitRawSha256": "8500bdb470ccb8d26af6c2d050287ec299acad8b2fca84f71f0407c12a12432b",
+   "ruRawSha256": "dbd2acaa88f3b33247297be1a8f058c3a3c4fbafbb79e630206e088e119179b1",
+   "ruSha256": "8500bdb470ccb8d26af6c2d050287ec299acad8b2fca84f71f0407c12a12432b",
+   "sourceRawSha256": "cda932191792b9fbc642a9b9260519a3ec5dd2a4def2e99620c5fb6f5226263c",
+   "sourceSha256": "cda932191792b9fbc642a9b9260519a3ec5dd2a4def2e99620c5fb6f5226263c"
+  },
+  {
+   "path": "words/喫茶店.md",
+   "ruGitRawSha256": "9f6bc6f08929a9a672f33bddbddfb26792ec4a306e278acfb04ee7f6e90d237f",
+   "ruRawSha256": "62f3e00640e04019fde1fc7734807ea8ee46515331ac3201297d6098c2d9d19a",
+   "ruSha256": "9f6bc6f08929a9a672f33bddbddfb26792ec4a306e278acfb04ee7f6e90d237f",
+   "sourceRawSha256": "c17d948dde9b52b41086df6afd318bdcce44d2807e98526024f188fd8a70628e",
+   "sourceSha256": "c17d948dde9b52b41086df6afd318bdcce44d2807e98526024f188fd8a70628e"
+  },
+  {
+   "path": "words/図書館.md",
+   "ruGitRawSha256": "12d162ebe692412bed66f2c9a74ae7b9e2f5783623f0f0ac75d92c193c216d00",
+   "ruRawSha256": "9812387a77c025e1f23b0b4dec4a5b7634dd840575102ff950daeb1240571d89",
+   "ruSha256": "12d162ebe692412bed66f2c9a74ae7b9e2f5783623f0f0ac75d92c193c216d00",
+   "sourceRawSha256": "210d321939e87afd919512e082e216b62cf4688781acdafb543c4ee28f38db24",
+   "sourceSha256": "210d321939e87afd919512e082e216b62cf4688781acdafb543c4ee28f38db24"
+  },
+  {
+   "path": "words/地下鉄.md",
+   "ruGitRawSha256": "87a2f10fafa67b1ab4f0aa112de99ce99eaea7f9072c3fa18dbc12551a29e693",
+   "ruRawSha256": "b989ece74c41faf2d7f03355bedf8c511952d9ec97236a892a53b8d0e98eb257",
+   "ruSha256": "87a2f10fafa67b1ab4f0aa112de99ce99eaea7f9072c3fa18dbc12551a29e693",
+   "sourceRawSha256": "e449f41c59e2bed226688d38b1670d875c063d00e576c60a341ae5dee6b17287",
+   "sourceSha256": "e449f41c59e2bed226688d38b1670d875c063d00e576c60a341ae5dee6b17287"
+  },
+  {
+   "path": "words/大使館.md",
+   "ruGitRawSha256": "21cd74e447e957a9db7d5ccdf94906697c3ae5a3ca3eb614eb185cc1efb3cd8f",
+   "ruRawSha256": "54f8a4847dc375376d21d4923ea771e67b62a4ac323dca308228c2b9bb05c703",
+   "ruSha256": "21cd74e447e957a9db7d5ccdf94906697c3ae5a3ca3eb614eb185cc1efb3cd8f",
+   "sourceRawSha256": "3b5f5f0cff9b6a5fe9987df716199964d80993182123b428688f0a85f274b0c8",
+   "sourceSha256": "3b5f5f0cff9b6a5fe9987df716199964d80993182123b428688f0a85f274b0c8"
+  },
+  {
+   "path": "words/廊下.md",
+   "ruGitRawSha256": "c1ae7b9edc2d62a9786886143f0874fb267eca795f4c92c280629fa6c41d5ff9",
+   "ruRawSha256": "0ec2772da243c7f177571b1c7d3da60a0276d9228b8dbd8c49958d1dc8ef8187",
+   "ruSha256": "c1ae7b9edc2d62a9786886143f0874fb267eca795f4c92c280629fa6c41d5ff9",
+   "sourceRawSha256": "9946ed26d7b02e5718a1ec94e526a506cefea23c5808c6e3802079eb7492e2b2",
+   "sourceSha256": "9946ed26d7b02e5718a1ec94e526a506cefea23c5808c6e3802079eb7492e2b2"
+  },
+  {
+   "path": "words/映画館.md",
+   "ruGitRawSha256": "ec93cf996caa09369d354292dc4c6ba947472a8f82874548323fc1488cb4df39",
+   "ruRawSha256": "f41c8daaf96381343e87cb6e3c8d78347874600d539aec1e836238337573d1e3",
+   "ruSha256": "ec93cf996caa09369d354292dc4c6ba947472a8f82874548323fc1488cb4df39",
+   "sourceRawSha256": "1332803f5562abaa195078ab540510e5087f776dd5e2c82ae809477a9bcc45f0",
+   "sourceSha256": "1332803f5562abaa195078ab540510e5087f776dd5e2c82ae809477a9bcc45f0"
+  },
+  {
+   "path": "words/橋.md",
+   "ruGitRawSha256": "cdc234960e400c6b4bd4e2387f961ef9cbb39aa334a5a2ab94aecbb06d75f6b8",
+   "ruRawSha256": "cadbd8e5771ef922d25eb58f9738969e655db7cfb0dad9f7d710982bd3ee2e09",
+   "ruSha256": "cdc234960e400c6b4bd4e2387f961ef9cbb39aa334a5a2ab94aecbb06d75f6b8",
+   "sourceRawSha256": "bee8eab4c8e9ebea2a0723cd37b5f6d495a5351dc1da68a8bc7f613ddbffdb29",
+   "sourceSha256": "bee8eab4c8e9ebea2a0723cd37b5f6d495a5351dc1da68a8bc7f613ddbffdb29"
+  },
+  {
+   "path": "words/自転車.md",
+   "ruGitRawSha256": "b87d5ccb7b5c882e7169c93ccf38f9be3270b132ac649cbe45cefba369f84d89",
+   "ruRawSha256": "bfc06e7b43c76b21aa3f5ae4c59c5f70369867faf2e9d865387ee8b98394a69d",
+   "ruSha256": "b87d5ccb7b5c882e7169c93ccf38f9be3270b132ac649cbe45cefba369f84d89",
+   "sourceRawSha256": "b48cad048576990cf40e4597968818c34ac9e0cef5e9e58533e3351671ac5fda",
+   "sourceSha256": "b48cad048576990cf40e4597968818c34ac9e0cef5e9e58533e3351671ac5fda"
+  },
+  {
+   "path": "words/荷物.md",
+   "ruGitRawSha256": "ba267ee2d08ee7b163ecffe2b193000d4fcf0e2aa330e1a5666a1044f6709f35",
+   "ruRawSha256": "261137de53616b2eca9f9f9e74900b534c18fbc81ea7c4764038e8ee93750a12",
+   "ruSha256": "ba267ee2d08ee7b163ecffe2b193000d4fcf0e2aa330e1a5666a1044f6709f35",
+   "sourceRawSha256": "010cae78f421168ee91580c82e28019a1fc6fbe5364ae376160ec2948a50341d",
+   "sourceSha256": "010cae78f421168ee91580c82e28019a1fc6fbe5364ae376160ec2948a50341d"
+  },
+  {
+   "path": "words/角.md",
+   "ruGitRawSha256": "1303faa53a3e924f300b1de641b71e89bc5b42226f565a22731796419b23053d",
+   "ruRawSha256": "3cebf4e62997fe49fb1f91ca5ce3c2b2925005b532c80e047f3ed5b7f50ae11c",
+   "ruSha256": "1303faa53a3e924f300b1de641b71e89bc5b42226f565a22731796419b23053d",
+   "sourceRawSha256": "072ac56d3aa1897ea47b7729dacd96c3c305e8e83a67a662a583094252d1c1b6",
+   "sourceSha256": "072ac56d3aa1897ea47b7729dacd96c3c305e8e83a67a662a583094252d1c1b6"
+  },
+  {
+   "path": "words/郵便局.md",
+   "ruGitRawSha256": "5464ec1a927fa25970f9bcccf8dde1e6012fc78c0354a0996714fe27218cebc2",
+   "ruRawSha256": "fbef58210ad5632f430d60bc3e7c92e2dfdc76cd234eb4a8b4c94b96c74c1a8d",
+   "ruSha256": "5464ec1a927fa25970f9bcccf8dde1e6012fc78c0354a0996714fe27218cebc2",
+   "sourceRawSha256": "8cd756c2046aac21a5bee6b0cae521b1b6e9c1842e981a04c20f20fd975a96f1",
+   "sourceSha256": "8cd756c2046aac21a5bee6b0cae521b1b6e9c1842e981a04c20f20fd975a96f1"
+  },
+  {
+   "path": "words/門.md",
+   "ruGitRawSha256": "030839209e2f4fdd5877fc171cf81cf44dc931cee9426c8a2ead9800b325e3b3",
+   "ruRawSha256": "81eb949df00378b53bc330a60080d4647f55ec12f7116401f9d52694503cfd92",
+   "ruSha256": "030839209e2f4fdd5877fc171cf81cf44dc931cee9426c8a2ead9800b325e3b3",
+   "sourceRawSha256": "c1d4e9c7396899783a2fc7e80ce9e80b18e826062a5e0c38cac002c14f381cb2",
+   "sourceSha256": "c1d4e9c7396899783a2fc7e80ce9e80b18e826062a5e0c38cac002c14f381cb2"
+  },
+  {
+   "path": "words/隅.md",
+   "ruGitRawSha256": "ea2e81d4d6de9ca17f1e081bf2bfad2e29172491458cc080abeace9571074b59",
+   "ruRawSha256": "d4fe3ae8e99545d4cba2d4ad5a66a11b639dd785dfa0f88aa4f6769c70c28cfb",
+   "ruSha256": "ea2e81d4d6de9ca17f1e081bf2bfad2e29172491458cc080abeace9571074b59",
+   "sourceRawSha256": "a671d04e96cb1ff8f9df0ca1ba5e8616784e377cff7ba572f616661136d02280",
+   "sourceSha256": "a671d04e96cb1ff8f9df0ca1ba5e8616784e377cff7ba572f616661136d02280"
+  },
+  {
+   "path": "words/階段.md",
+   "ruGitRawSha256": "4908fa8c7fa0f67ba9b918b57dacf7d0e4ef105d505c1f22d9d1cc967bd5b169",
+   "ruRawSha256": "d705403aa3bac472a847b61b2dfa2d5279cd78c3dda039694615adca7e01d27e",
+   "ruSha256": "4908fa8c7fa0f67ba9b918b57dacf7d0e4ef105d505c1f22d9d1cc967bd5b169",
+   "sourceRawSha256": "5cfd176b37a93b48424010a72f8b4a7e7383859e5ed846c9a3c001b33329ec6d",
+   "sourceSha256": "5cfd176b37a93b48424010a72f8b4a7e7383859e5ed846c9a3c001b33329ec6d"
+  },
+  {
+   "path": "words/飛行機.md",
+   "ruGitRawSha256": "04ce522088d9212792446fae109ada80ee64928d230639eb3b59d7c3a7a097fa",
+   "ruRawSha256": "1b1fcc98c8e24db3ba9ff92783b8193d88f6cdd5517828b40bf049f541b3846c",
+   "ruSha256": "04ce522088d9212792446fae109ada80ee64928d230639eb3b59d7c3a7a097fa",
+   "sourceRawSha256": "daef2918d8d2f4d57e986625b949dd1b0450f7bdaba83e65ffe3bf7cff880cdf",
+   "sourceSha256": "daef2918d8d2f4d57e986625b949dd1b0450f7bdaba83e65ffe3bf7cff880cdf"
+  },
+  {
+   "path": "words/食堂.md",
+   "ruGitRawSha256": "96e4e61e4c34c3bfbd4e706d95fc9a2e10b1fd977d9eed95117e7f1992e5cf99",
+   "ruRawSha256": "fcf38ee358323e92c08504ae6425be3a6a8c9dc17be9c0cf20a0ca2f37242951",
+   "ruSha256": "96e4e61e4c34c3bfbd4e706d95fc9a2e10b1fd977d9eed95117e7f1992e5cf99",
+   "sourceRawSha256": "19779c7eaa2373d0cdbc54196ce713bb1f290dcdb245c0b7e0eb958d9c3d0b4a",
+   "sourceSha256": "19779c7eaa2373d0cdbc54196ce713bb1f290dcdb245c0b7e0eb958d9c3d0b4a"
+  }
+ ],
+ "phase": "Actual whole plus focused independent review supports SOURCE TEXT acceptance; signed main integration/public archive/exact CI have separate receipts.",
+ "requiredFindingsRemaining": [],
+ "review": "docs/translation-batches/032-travel-places-transport-independent-review.json",
+ "reviewedRussianSourceCommit": "733ee14f564e2ffebd5ab754deb994523b52f4ca",
+ "runtime": {
+  "N5Words": 434,
+  "allN5Kanji80PresentUnchangedFromBaseline": true,
+  "allN5WordsOrEntireCorpusComplete": false,
+  "contentVersion": "5d758becdc2891a3",
+  "families": {
+   "articles": 2,
+   "counters": 22,
+   "grammar": 1,
+   "images": 3,
+   "kanji": 141,
+   "scenes": 2,
+   "strokes": 141,
+   "words": 621
+  },
+  "frozenN5Words": 672,
+  "objects": 933,
+  "remainingN5Words": 238,
+  "wordJlptCounts": {
+   "2": 19,
+   "3": 60,
+   "4": 54,
+   "5": 434,
+   "unlabelled": 54
+  }
+ },
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "unaffectedBaselineRawObjectsVerified": 906,
+ "validation": {
+  "actualExecution": "Four actual final commands author-serialized after independently supported tracking/report generation.",
+  "contentVersion": "5d758becdc2891a3",
+  "manifestGeneratedWithoutByteChange": true,
+  "runs": [
+   {
+    "command": [
+     "tools\\build_manifest.py"
+    ],
+    "completedAt": "2026-11-05T22:51:05.227995+00:00",
+    "returncode": 0,
+    "seconds": 0.18799999996554106,
+    "startedAt": "2026-11-05T22:51:05.036981+00:00",
+    "stderr": "",
+    "stdout": "manifest.json: 933 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 5d758becdc2891a3\n"
+   },
+   {
+    "command": [
+     "tools\\validate.py"
+    ],
+    "completedAt": "2026-11-05T22:51:07.380632+00:00",
+    "returncode": 0,
+    "seconds": 2.155999999959022,
+    "startedAt": "2026-11-05T22:51:05.227995+00:00",
+    "stderr": "",
+    "stdout": "0 error(s)\n"
+   },
+   {
+    "command": [
+     "-m",
+     "unittest",
+     "discover",
+     "-s",
+     "tools",
+     "-p",
+     "test_*.py"
+    ],
+    "completedAt": "2026-11-05T22:51:36.463224+00:00",
+    "returncode": 0,
+    "seconds": 29.078000000095926,
+    "startedAt": "2026-11-05T22:51:07.384196+00:00",
+    "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 28.794s\n\nOK\n",
+    "stdout": ""
+   },
+   {
+    "command": [
+     "tools\\check_content_budget.py"
+    ],
+    "completedAt": "2026-11-05T22:51:37.090439+00:00",
+    "returncode": 0,
+    "seconds": 0.640999999945052,
+    "startedAt": "2026-11-05T22:51:36.463224+00:00",
+    "stderr": "",
+    "stdout": "{'files': 941, 'entries': 950, 'retainedBytes': 2658751, 'inflatedBytes': 2675433, 'localZipBytes': 1336507, 'listeningTaskMediaBytes': 0}\n"
+   }
+  ],
+  "runtimeObjects": 933
+ }
+}

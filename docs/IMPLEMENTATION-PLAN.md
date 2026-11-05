@@ -8,6 +8,38 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The thirty-second full-target source batch adds 27 complete travel, place and
+transport word articles: 26 N5 roots and the mandatory N4 corner provider 隅.
+[Batch 032 reviewed source](translation-batches/032-travel-places-transport-reviewed-source.json)
+and its [cumulative independent record](translation-batches/032-travel-places-transport-independent-review.json)
+preserve the actual initial 27-primary/21-supporting complete-pair, 621-caption
+and 57 selected-object-row review. Initial C2 UNVERIFIED remains immutable.
+The focused seven-pair/seven-label/six-repeated-object recheck, actual short
+Japanese dictionary subsection and pinned app source resolve the bare 門／かど
+question with three direct 家/家族/庭 additions. All 23 guards are direct;
+the cumulative unique complete-pair count is 48, not all 50 available fingerprints.
+All 933 learner bodies, 621 captions/readings and 906 baseline RAWs are unchanged
+through the metadata correction. Active guidance preserves the observed
+optional-reading boundary and per-sense spelling restriction.
+
+Membership is 933 runtime objects: 141 kanji/621 words/141 strokes/2 articles/
+22 counter files/one grammar set/2 scene catalogs/3 images. Fresh strict progress:
+933 reviewed-current, no partial, two excluded reviewed runtime-blocked drafts,
+7,343 pending and 7,345 absent runtime paths. Word levels are
+434 N5/54 N4/60 N3/19 N2/54 unlabelled; 238 of 672 frozen N5 words remain.
+Version `5d758becdc2891a3`; checkpoint authority null/Ready false.
+Corrected-candidate serialized checks: validator 0 errors, 124 tests OK in 29.428s;
+budget 941 files/950 entries/2,658,751 retained/2,675,433 inflated/1,336,507 ZIP bytes.
+Final checks, source integration, desktop archive and exact-main CI have separate receipts.
+Exact pinned app `5c000bd` lacks localized cases for new `buildings`, `entertainment`,
+`shopping`, `swimming` and previous `comparison`, `distance`, `speed`; they fall
+through as raw tags. Reported app follow-up only, not a concurrent-app modification
+or current-dirty-tree inspection. No new assets, paid generation, phone/IME/playback/
+new audio-package/C6/C7/activation/release/checkpoint authority follows.
+Continue all remaining safe frozen levels and families, including excluded listening drafts.
+
+Earlier accepted milestones below are historical.
+
 The thirty-first full-target source batch adds 31 complete distance, speed,
 position and direction word articles: 26 N5, three N4 and two N3.
 [Batch 031 reviewed source](translation-batches/031-distance-speed-direction-reviewed-source.json)
@@ -40,8 +72,6 @@ app mappings UNVERIFIED, not established missing; the concurrent app stays untou
 No new assets, paid generation, phone/IME/playback/new audio-package/C6/C7/
 activation/release/checkpoint authority follows. Continue every remaining safe
 frozen level and family, including honest excluded listening drafts.
-
-Earlier accepted milestones below are historical.
 
 The thirtieth full-target source batch adds 22 complete N5 skill, preference,
 interest and practical-evaluation word articles.
