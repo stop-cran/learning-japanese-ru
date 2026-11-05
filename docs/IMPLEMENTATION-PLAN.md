@@ -2,11 +2,44 @@
 
 Latest owner direction (2026-11-04): proceed with continuous background authoring against
 the same frozen EN `6af98cb...`. C6/C7 device and exact media-package approval remain
-release/publication gates, not prerequisites to translating independent text batches.
+ordinary RU activation/release gates, not prerequisites to translating and publishing reviewed source batches.
 Use one authoring lane, at most one reviewer at a time, convenient dependency-closed batches
 and frequent signed commits, pulls/reconciliation and pushes without confirmation.
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
+
+The twenty-ninth full-target source batch adds 25 complete weather, taste and
+condition word articles: 24 N5 and the actual N3 negative-answer provider 苦しい.
+[Batch 029 reviewed source](translation-batches/029-weather-taste-condition-reviewed-source.json)
+and its [cumulative independent record](translation-batches/029-weather-taste-condition-independent-review.json)
+preserve the actual initial 43-pair/541-answer-row/35-lexical-object review and
+the fresh focused three-pair/three-row/one-repeated-object recheck separately.
+Together they support C1/C2/C3 CLEAN across 43 unique complete EN/RU pair paths,
+not a fresh 43-pair or 541-semantic-row recheck. Initial C2/C3 findings remain
+immutable. The corrections add a moderate conservative direct 寒い–弱い guard
+and verified 下手（へた）comparison reading; all 21 original guards are retained.
+No category/transitive clique or direct Japanese–Russian cold-joke attestation
+is claimed. All 828 baseline runtime RAWs and earlier tracking rows are unchanged.
+Seven new methodological lines were independently read across the two reviews:
+four on kana-only/homonym selection and three on verified comparison readings.
+
+Membership is 853 runtime objects: 141 kanji/541 words/141 strokes/2 articles/
+22 counter files/one grammar set/2 scene catalogs/3 images. Fresh strict progress:
+853 reviewed-current, no partial, two excluded reviewed runtime-blocked drafts,
+7,423 pending and 7,425 absent runtime paths. Word levels are
+360 N5/50 N4/58 N3/19 N2/54 unlabelled; 312 of 672 frozen N5 words remain.
+Version `ccfb8fceb5c857bf`; checkpoint authority null/Ready false.
+Actual final serialized checks: validator 0 errors, 124 tests OK in 44.704s;
+budget 861 files/870 entries/2,447,460 retained/2,464,142 inflated/1,227,330 ZIP bytes.
+Source integration, desktop archive and exact-main CI have separate actual receipts.
+The five newly adopted canonical word-tag IDs `condition`, `difficulty`,
+`evaluation`, `taste`, `temperature` have app mappings UNVERIFIED, not
+established missing; the concurrent app stays untouched.
+No new assets, paid generation, phone/IME/playback/new audio-package/C6/C7/
+activation/release/checkpoint authority follows. Continue every remaining safe
+frozen level and family, including honest excluded listening drafts.
+
+Earlier accepted milestones below are historical.
 
 The twenty-eighth full-target source batch adds 33 complete colour/shape/size and
 related word articles: 27 N5 and six actual negative-answer providers. The frozen
@@ -36,8 +69,6 @@ The eight newly adopted word-tag IDs `behavior`, `character`, `cleaning`,
 UNVERIFIED, not established missing. The concurrent app remains untouched.
 No new assets, paid generation, phone/IME/playback/C6/C7/activation/release
 authority follows. Continue every remaining safe frozen level and family.
-
-Earlier accepted milestones below are historical.
 
 The twenty-seventh full-target source batch adds 14 complete N5 numeral word
 articles without changing any of the 781 baseline runtime RAW objects.

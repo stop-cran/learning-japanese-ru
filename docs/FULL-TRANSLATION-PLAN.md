@@ -1123,3 +1123,61 @@ untouched. Device/IME/playback/exact media-package/C6/C7/ordinary activation/
 release gates remain separate. Continue remaining N5 and every safe frozen
 level/family, including honest excluded listening drafts; the full task is
 still in progress.
+
+## Reviewed source milestone 029: weather, taste and condition
+
+The [reviewed source record](translation-batches/029-weather-taste-condition-reviewed-source.json)
+adds 25 complete Russian word articles: 24 N5 and the actual N3 source-negative
+provider 苦しい. The frozen target stays
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+All 828 baseline runtime RAWs and earlier tracking rows remain unchanged.
+
+The [cumulative independent record](translation-batches/029-weather-taste-condition-independent-review.json)
+preserves two actual returns separately. The initial reviewer read all
+43 complete EN/RU pairs (25 new and 18 existing), all 541 combined compact
+title/metadata/direct-guard rows, 35 complete selected lexical objects and
+the four new kana-only/homonym guidance lines. Seven of the eight いい
+reading matches are unrelated homonyms, not seven more senses of the adjective.
+The initial reviewer retained all 21 original direct guards and returned
+C1 CLEAN with C2/C3 findings; that historical report is not rewritten.
+
+The focused reviewer freshly read three complete pairs/six bodies, three
+focused answer rows, one repeated complete 寒い lexical object and the three
+new verified-comparison-reading guidance lines. The two exact corrections
+add a direct 寒い–弱い safeguard and 下手（へた）in the comparison.
+The focused return is C1/C2/C3 CLEAN and explicitly supports cumulative
+scoped textual acceptance across 43 unique pair paths and 22 direct guards.
+It is not a fresh 43-pair or 541-semantic-row review, 541 whole bodies,
+36 unique lexical objects, or whole-corpus/native/human acceptance.
+
+The additional guard is moderate and conservative: the actual 寒い entry
+includes weak/lame jokes, while Russian слабый has a poor-quality sense.
+This is not a direct Japanese–Russian dictionary entry, attestation of the
+exact «слабая шутка» collocation, universal synonymy or observed device failure.
+No guard follows from transitivity through 冷たい or a negative-quality clique.
+The added へた reading is verified in frozen 悪い, not guessed from components.
+All source examples/forms/readings and level/tag/type IDs remain; unavailable
+optional wrappers become plain Japanese terms without dropping teaching.
+The displayed 不味い special-reading note and neuter карри evidence retain
+their exact reading boundaries; the Gramota collection-only response is not proof.
+
+Membership is **853 runtime objects**: 141 kanji/541 words/141 strokes/2 articles/
+22 counter files/one grammar set/2 scene catalogs/3 images.
+Word levels are 360 N5/50 N4/58 N3/19 N2/54 unlabelled:
+**360 of 672 frozen N5 words are adopted; 312 remain**.
+Fresh strict 8,278-entry progress: **853 reviewed-current**, **no partial**,
+**two excluded reviewed runtime-blocked drafts**, **7,423 pending**,
+**7,425 runtime paths absent**. Checkpoint authority null/Ready false;
+version `ccfb8fceb5c857bf`.
+Actual final serialized checks: validator 0 errors, 124 tests OK in 44.704s;
+budget 861 files/870 entries/2,447,460 retained/2,464,142 inflated/1,227,330 ZIP bytes.
+Main integration, actual public desktop archive, signatures and exact-main CI
+have separate receipts, not Android/phone/IME/playback acceptance.
+
+No new assets/media or paid generation occurred. The five canonical word-tag
+IDs `condition`, `difficulty`, `evaluation`, `taste`, `temperature` are new to
+this adopted word pool; app mappings remain UNVERIFIED, not established missing.
+The concurrent app remains untouched. Device/exact media-package/C6/C7/ordinary
+activation/release gates remain separate. Continue the remaining 312 N5 words
+and every safe frozen level/family, including honest excluded listening drafts;
+the entire translation objective remains in progress.
