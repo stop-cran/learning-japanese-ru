@@ -1,0 +1,70 @@
+{
+ "authorReadyCommit": "d278d49400a7b7759525c66a588cdb3e9aadc488",
+ "batch": "024-motion-night-space",
+ "budget": {
+  "entries": 703,
+  "files": 694,
+  "inflatedBytes": 2026586,
+  "listeningTaskMediaBytes": 0,
+  "localZipBytes": 1005053,
+  "retainedBytes": 2009904
+ },
+ "commands": [
+  {
+   "command": [
+    "tools\\build_manifest.py"
+   ],
+   "exitCode": 0,
+   "logFile": "ru-024-validation-manifest-002.log",
+   "logRawSha256": "4c52f6ae307e735b00b31c9f9a1c5e2496d463e46e8098bcd8e29174212920fe",
+   "name": "manifest",
+   "seconds": 0.161
+  },
+  {
+   "command": [
+    "tools\\validate.py"
+   ],
+   "exitCode": 0,
+   "logFile": "ru-024-validation-validator-002.log",
+   "logRawSha256": "c87d0897e6616b01474906213df2ff35e9e0eeb5e6e86eaa0367145b271abcc5",
+   "name": "validator",
+   "seconds": 1.486
+  },
+  {
+   "command": [
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tools",
+    "-p",
+    "test_*.py"
+   ],
+   "exitCode": 0,
+   "logFile": "ru-024-validation-unit-tests-002.log",
+   "logRawSha256": "0c1956f24f9161512c3278b4ff1720db9713f92f205fb0ebe105dacb4f6bd4c1",
+   "name": "unit-tests",
+   "seconds": 31.799
+  },
+  {
+   "command": [
+    "tools\\check_content_budget.py"
+   ],
+   "exitCode": 0,
+   "logFile": "ru-024-validation-budget-002.log",
+   "logRawSha256": "cf8527ca7d9ab8001af78c305ce62cfa6a413a708c7a884a46338fd535d718f6",
+   "name": "budget",
+   "seconds": 0.497
+  }
+ ],
+ "contentVersion": "dc1555f59e7dc259",
+ "fixtureLocation": "Owned session fixtures, no OS temporary directory.",
+ "ordinaryValidationSerialized": true,
+ "recordedAt": "2026-11-05T11:17:51.619034+00:00",
+ "runnerReportedTestSeconds": 31.403,
+ "runtimeObjects": 686,
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "stage": "Fresh actual final-source checks; not independent semantic/native/release acceptance.",
+ "testCount": 124
+}
