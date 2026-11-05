@@ -587,7 +587,7 @@ intransitive birth, know/understand qualifications, lending direction, half/minu
 conventions remain explicit. Two related active-guidance lines document the source-label issue.
 All391 prior runtime RAW objects/tracking records and non-record sections remain unchanged.
 
-Current membership is **416 runtime objects**:18kanji,350words,18strokes,2articles,22counterfiles,
+At the016 milestone membership was **416 runtime objects**:18kanji,350words,18strokes,2articles,22counterfiles,
 onegrammarset,2scenecatalogs and3images. Fresh strict8278-entry progress has **416reviewed-current**,
 **no partial units**, **two reviewed runtime-blocked drafts**, **7,860pending** and **7,862runtime
 paths absent**. Checkpoint authority remains null/Readyfalse.
@@ -600,3 +600,39 @@ Git/public LF domains are separately verified, not falsely equated with working 
 No new assets/grammar contexts/media or native/device/IME/C6/C7/package/activation/release/checkpoint
 authority follows. Continue the next safe required-word support batch, the real57-new-kanji
 mandatory-distractor component and every remaining frozen family.
+
+Batch **017 — places, periods and reading-word support** completes25 full word articles,
+preserving2N2/5N3/2N4/oneN5/15unlabelled classifications. Its headers require no additional
+source-negative closure; two individually justified direct guards cover見物–見るand読書–読む.
+They protect actual viewing/book-reading overlaps, not a transitive vision/communication clique
+or a rule that grammatical tags alone establish answer safety.
+
+[Actual whole review](translation-batches/017-places-time-reading-words-review.json) records
+794EN/913RU lines,25titles/100sections/all375actual labels and nine complete unchanged Russian
+baseline bodies335lines. All66complete successful dictionary query objects were read:
+66entryoccurrences/96forms/106objects=92nonWikiNonPlace+twoPlace+12Wiki. Seven failed exact
+lookups are neither positive evidence nor proof of invalidity. Exact name revisions and the
+accepted六か月counter row are separately bound; no blanket sense/API-level adoption follows.
+
+The real official北海道FAQ supports qualified加伊→海/1869/regional道teaching. Search-generated
+quotes and guessed URLs were rejected; the genuine pamphlet does not itself contain the
+replacement passage. Two active-guidance lines preserve this methodological lesson.
+Freedom versus price, application versus acceptance, count/nationality/clock/duration,
+book-reading construction, specific sliding shutters and youth qualifications remain explicit.
+The actual whole review found no consequential defect or required correction; all three scoped
+source/text facets are CLEAN. All416earlier runtime RAW objects/tracking records and non-record
+sections remain unchanged.
+
+Current membership is **441runtime objects**:18kanji,375words,18strokes,2articles,22counterfiles,
+onegrammarset,2scenecatalogs and3images. Fresh strict8278-entry progress has **441reviewed-current**,
+**no partial units**, **two reviewed runtime-blocked drafts**, **7,835pending** and **7,837runtime
+paths absent**. Checkpoint authority remains null/Readyfalse.
+Actual serialized checks:0errors/124tests27.955s; final budget448files/457entries/
+1352155retained/1366172inflated/680317localZIPbytes; version `d0406f8891b9ecac`.
+
+The immutable pinned app function has16unmapped canonical IDs across21occurrences in this batch.
+Current app rendering remains UNVERIFIED; IDs stable and concurrent app untouched.
+All25new working texts are CRLF; normalized/Git/public domains remain distinct.
+No new assets/grammar contexts/media or native/device/IME/C6/C7/package/activation/release/checkpoint
+authority follows. Continue the remaining three linked roots and their21-word closed component,
+then the real57-new-kanji mandatory-distractor component and every remaining frozen family.

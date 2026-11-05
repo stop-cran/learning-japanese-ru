@@ -8,7 +8,29 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-The sixteenth full-target source batch completes25 full everyday reading-word articles:
+The seventeenth full-target source batch completes25 full place/period/name/reading-support
+articles, preserving2N2/5N3/2N4/oneN5/15unlabelled classifications.
+[Batch017](translation-batches/017-places-time-reading-words-review.json) records actual whole
+794EN/913RU lines,25titles/100sections/all375actual labels/nine complete unchanged baseline
+Russian bodies335lines. All66complete successful queries comprise66entryoccurrences/96forms/
+106objects=92nonWikiNonPlace+twoPlace+12Wiki; seven exact failures are not positive evidence
+or invalidity. Actual proper-name revisions and accepted六か月row are separately bound.
+The genuine北海道FAQ—not a search-invented quote in the actual pamphlet—supports the qualified
+replacement history. Two directly related active-guidance lines preserve exact-source discipline.
+There are no source-header negative edges; two independently justified direct guards protect
+見物–見るand読書–読むactual Russian overlaps, not transitive cliques or POS-only reasoning.
+All three scoped source/text facets CLEAN after actual whole review; no required correction.
+Current membership441; strict8278-entry statuses441reviewed-current, no partial, two reviewed
+runtime-blocked drafts and7,835pending, with7,837runtimepathsabsent.
+All416earlier tracking records/non-record sections/runtimeRAWobjects unchanged;
+checkpointauthoritynull/Readyfalse. Serialized checks:0errors/124tests27.955s;
+budget448files457entries1352155retained/1366172inflated/680317localZIPbytes;
+version `d0406f8891b9ecac`. Sixteen pinned-app unmapped IDs affect21occurrences; app rendering
+UNVERIFIED and concurrent checkout untouched. All25new working textsCRLF; byte domains distinct.
+No assets/grammar/media or device/native/C6/C7/package/activation/release/checkpoint authority.
+Continue the remaining3linked roots/21closed words,57-new-kanji component, then all frozen families.
+
+The sixteenth full-target source batch completed25 full everyday reading-word articles:
 19roots plus six real source negative-reference dependencies, preserving24N5/oneN3.
 [Batch016](translation-batches/016-everyday-reading-words-review.json) records actual whole
 820EN/844RU-line reading,25titles/100sections/all350displayed meanings/nine complete unchanged
@@ -21,7 +43,7 @@ money usage. No transitive colour/food/bodypart/transport/movement clique is inf
 The actual whole three-facet review found no consequential defect; all scoped facets CLEAN.
 Hand/foot non-antonym, every-year dual readings, birth/knowledge/loan/colour/half distinctions
 remain; two directly related guidance lines document the source-label discrepancy.
-Current membership416; strict8278-entry statuses416reviewed-current, no partial, two reviewed
+At that milestone membership416; strict8278-entry statuses416reviewed-current, no partial, two reviewed
 runtime-blocked drafts and7,860pending, with7,862runtime paths absent. All391 earlier tracking
 records/non-record sections and runtimeRAWobjects remain unchanged; checkpointauthoritynull/Readyfalse.
 Serialized checks:0errors/124tests48.039s; budget423files432entries1294859retained/
