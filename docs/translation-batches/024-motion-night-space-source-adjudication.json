@@ -1,0 +1,122 @@
+{
+ "actualAuthorReading": {
+  "baselinePoolWorkingRawSha256": "00865c2b7ef938377427745b18aac359c167adbd23d893fa4493a18d7687afc7",
+  "baselineTitleGuardRowsActuallyRead": 536,
+  "boundary": "No historical pictures/native/app/device/playback inspection. Refused oversized prints received no reading credit; nonexact response orthographies are not full-object review.",
+  "completeMatchingLexicalObjectOccurrences": 49,
+  "completeOfficialHistoricalPageTexts": 5,
+  "completePrimaryXmlRecords": [
+   "動",
+   "夜",
+   "広",
+   "度",
+   "病",
+   "重",
+   "働"
+  ],
+  "completeUnicodeRadicalRows": [
+   19,
+   36,
+   53,
+   104
+  ],
+  "existingCompleteRussianFrozenEnglishPairs": 23,
+  "lexicalCaptureRecords": [
+   "ru-024-primary-evidence-capture.json",
+   "ru-024-source-followup-capture-001.json",
+   "ru-024-time-comparison-capture-001.json"
+  ],
+  "newFrozenCompleteBodies": 9,
+  "newRussianBodiesRead": 0,
+  "supportingFrozenEnglishOnlyBodies": [
+   "words/今.md"
+  ]
+ },
+ "appBoundary": {
+  "actualNewTags": [
+   "health",
+   "i-adjective",
+   "kango",
+   "noun",
+   "place",
+   "time",
+   "wago"
+  ],
+  "actualUnmappedBatchTags": [
+   "health",
+   "i-adjective",
+   "place"
+  ],
+  "evidence": "docs/translation-batches/023-n5-support-foundations-app-tag-followup.json remains historical; subset check is not full app renderer/native proof.",
+  "knownUnresolvedBaselineMappings": [
+   "institutions",
+   "na-adjective",
+   "work"
+  ],
+  "newCanonicalWordTagIds": [
+   "i-adjective"
+  ]
+ },
+ "baselineCommit": "1d230d2d6b30f7f7fa59ac2ab242b2b5174f0c1e",
+ "batch": "024-motion-night-space",
+ "checkpointAuthority": null,
+ "historicalEvidenceRecord": "ru-024-historical-evidence-capture.json",
+ "independentAcceptance": false,
+ "intakeCommit": "b5da5e2b5626c09dfc71f62f65c29f9553aa505d",
+ "proposedDecisions": [
+  {
+   "basis": "動く has ordinary movement and mechanism-operation senses; source車が動く can reasonably be renderedедетand時計が動くчасыидут. Existing行captionидти;ехатьis not reliably wrong. 男is existing, semantically distinct and shares力 visually. No closure shrink.",
+   "decision": "Replace direct foil行with男; preserve all other14source kanji edges.",
+   "id": "D024-01",
+   "scope": "kanji/動.md"
+  },
+  {
+   "basis": "Actual大きいdictionary sense includesextensive/spacious; accepted土地already renders広い土地asбольшойземельныйучасток. Keep both meanings and source size/breadth contrast; no transitive size clique.",
+   "decision": "Direct広い→大きいonly.",
+   "id": "D024-02",
+   "scope": "words/広い.md"
+  },
+  {
+   "basis": "Read each complete current/frozen pair and actual lexical sense. 今度sense3recently/latelyoverlaps each actualrecent/latelycaption independently; future/occasion nuance remains. Not inferred from existing three-way guards.",
+   "decision": "Three direct pairs今度→最近/近頃/このごろ.",
+   "id": "D024-03",
+   "scope": "words/今度.md"
+  },
+  {
+   "basis": "FullKANJIDIC2affix notation and full恋病dictionary forms. 病み上がり/病み付きstart with病みand do not prove suffix position. The threeexact-querymisses do not prove impossibility or license invented病みspellings.",
+   "decision": "Keep-や.みand both source initial病みexamples, explicitly distinguish stem position; add attested恋病こいやみ/こいやまい as a whole-word ending example without pretending its spelling has externalみ.",
+   "id": "D024-04",
+   "scope": "kanji/病.md"
+  },
+  {
+   "basis": "Actually read complete corresponding lexical entries, excluding Wikipedia as lexical proof.",
+   "decision": "Render病み上がりas recovery/convalescence, not guaranteed fully recovered; preserve病み付きabsorbing/addictive-metaphor sense.",
+   "id": "D024-05",
+   "scope": "kanji/病.md"
+  },
+  {
+   "basis": "ActualJMdict-backed lexical definition explicitly saysusuallyexcluding minor ailments/common cold; not inferred fromis_commonflags. The clinical/Wikipedia linked definition is not evidence used.",
+   "decision": "Retain source minor-ailment/cold tendency with its explicit nonabsolute caveat.",
+   "id": "D024-06",
+   "scope": "words/病気.md"
+  },
+  {
+   "basis": "Actual complete entry andUsually written using kana alonequalifier.",
+   "decision": "Keep-た.いand目出度いめでたい; explicitly teach fixed whole-word reading and usual kana spelling, not a productive suffix rule.",
+   "id": "D024-07",
+   "scope": "kanji/度.md"
+  },
+  {
+   "basis": "Read complete official動history with力+音符重, complete重XML, and complete働XML explicitly marked(kokuji). No historical illustration inspection.",
+   "decision": "Retain sourced重phonetic and Japanese-made働claim; label heavy/strength association only as mnemonic.",
+   "id": "D024-08",
+   "scope": "kanji/動.md"
+  }
+ ],
+ "recordedAt": "2026-11-05T11:02:05.494878+00:00",
+ "runtimeAcceptance": "Not accepted; no runtime authoring or review certification at this freeze.",
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "sourceMetadataPreservation": "Exact source type/IDs/tags/levels/readings/ordering/classical radicals/stroke count; onlytitleandthe stateddirectnegative adaptations differ.",
+ "stage": "Evidence-backed source/adaptation proposals awaiting real independent review"
+}
