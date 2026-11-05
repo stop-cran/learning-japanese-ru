@@ -1,0 +1,969 @@
+{
+ "actualFocusedAnswerRows": 19,
+ "actualInitialAnswerRows": 516,
+ "all516CurrentMetadataAndRawLfMechanicallyVerifiedByFocusedReviewer": true,
+ "all516TitlesReadingsUnchangedBetweenReviews": true,
+ "baselineCommit": "3aa2a30dc9abc2a36248bb703f3d242840ba1b26",
+ "batch": "028-colour-shape-size",
+ "checkpointAuthority": null,
+ "completePairFingerprints": [
+  {
+   "path": "kanji/円.md",
+   "ruGitRawSha256": "afc661ec04c8fea7d7e77b9394de92440ab684f4e7a4be4619040475a9a6ed4f",
+   "ruRawSha256": "5cca2dad5cbc654bacfb8ba9f0be38d3befb9fd635b5e29f4ce432451afb5371",
+   "ruSha256": "afc661ec04c8fea7d7e77b9394de92440ab684f4e7a4be4619040475a9a6ed4f",
+   "sourceRawSha256": "4678274cb3ecba33ed9bb28be5e8e389dd84b9ffa55ef2c237e3293b00d45942",
+   "sourceSha256": "4678274cb3ecba33ed9bb28be5e8e389dd84b9ffa55ef2c237e3293b00d45942"
+  },
+  {
+   "path": "kanji/土.md",
+   "ruGitRawSha256": "902dc3c65ed7caf581cb0598b2ddf66ab20149ff2ddd6e401e715d4ad85cec76",
+   "ruRawSha256": "e137bdc12564390d7204470403bd56e51f1c9a7f6daf3e8ae8c99ef3ac922575",
+   "ruSha256": "902dc3c65ed7caf581cb0598b2ddf66ab20149ff2ddd6e401e715d4ad85cec76",
+   "sourceRawSha256": "0cd5a9a6f6aec2da45a59a952cc2591967bf1d8e08ec59d5bde7b56c2c924619",
+   "sourceSha256": "14e247161bd623a16052a6972651bcac5788e20cf0b81145f4a1c0d7b310bc76"
+  },
+  {
+   "path": "kanji/大.md",
+   "ruGitRawSha256": "121d041e5c1d7dadfb0f23998d5f121d554559525cc521f3a19b0d9494c036f8",
+   "ruRawSha256": "82b2b7cfa37285978b71f5952f1ff0cabb9b85d67e569bfb2f911bbec4cee52c",
+   "ruSha256": "121d041e5c1d7dadfb0f23998d5f121d554559525cc521f3a19b0d9494c036f8",
+   "sourceRawSha256": "d335bbba02bdbc6e8ca185e91d7afd528d770d48492b4b72540107b333493a44",
+   "sourceSha256": "cd08a62930b919b82400f10c8cb1d0d2fc63a8eb3afcfc2ffe309809d1050afc"
+  },
+  {
+   "path": "kanji/小.md",
+   "ruGitRawSha256": "bdeaeb8a6c4f4b33fbda9f8caa7ff4e7c8e35edef04f359345337c519f46f2c7",
+   "ruRawSha256": "e728f1f4cd85d91f9550f73ab56d4e6d4cf183faecaa7122818418a989815c7e",
+   "ruSha256": "bdeaeb8a6c4f4b33fbda9f8caa7ff4e7c8e35edef04f359345337c519f46f2c7",
+   "sourceRawSha256": "a2d3b5a66465119d4bdc5c474b5040ddb3862d2295be90f4cace97888a662993",
+   "sourceSha256": "49ca6836b2201b96322e785e34fb22716074f9bcdcd19a28dbc7d57c3bf09959"
+  },
+  {
+   "path": "kanji/白.md",
+   "ruGitRawSha256": "78de0df45f20ef7f28e594e49cc0f0d17fe431e6c424dfd8bd85318e5b7c50ac",
+   "ruRawSha256": "bdb67f008a44e9d3e7439362dad9c5f748885bf9c2cd9d989232693277d42893",
+   "ruSha256": "78de0df45f20ef7f28e594e49cc0f0d17fe431e6c424dfd8bd85318e5b7c50ac",
+   "sourceRawSha256": "1a2bbcfb3d59b1f1e005a30253bbc7cba08649e30254bd06f6c27086aadb5718",
+   "sourceSha256": "bf8bb61bc5c7e9a2b41e836fcae366e80870a6f862c80e9e1a27871e5f27085d"
+  },
+  {
+   "path": "kanji/赤.md",
+   "ruGitRawSha256": "654d6d520d4599dab5416d32d8d0d1ac51e6e4f422b552767e755e4a5fb6b224",
+   "ruRawSha256": "ebc9dcc06c2da5f845420fc8b5011a5c4c09af236a54f0a39f79ba3c55503e13",
+   "ruSha256": "654d6d520d4599dab5416d32d8d0d1ac51e6e4f422b552767e755e4a5fb6b224",
+   "sourceRawSha256": "cc9014a3316e1da1e05f8879017e1f6f1a586946597f3e9dad47116e369b2584",
+   "sourceSha256": "056bd7e4617262ae81078951a67851c31d871f33c7658e315fdcc8a17e5ea3be"
+  },
+  {
+   "path": "kanji/長.md",
+   "ruGitRawSha256": "6e79235d3161def26a50d46a78aaaa76c9c5f645c28d69112d2e45ef3b808906",
+   "ruRawSha256": "571020af70693a804b81b490f458ab56bd6dbb7f89290c3ca2a31f7798778145",
+   "ruSha256": "6e79235d3161def26a50d46a78aaaa76c9c5f645c28d69112d2e45ef3b808906",
+   "sourceRawSha256": "07258edee265290025bf26ef06fb5ba6912f3c7e065c77bf4eb90f6d155557b9",
+   "sourceSha256": "e1bea7753d05f7930e48791e46b8c37e20a09866d7ee33792ab163a5d7589118"
+  },
+  {
+   "path": "kanji/青.md",
+   "ruGitRawSha256": "dcb7f316172afd298d1bf6cde8168bf2f313683c44be1fc343e0a4acc5fbac07",
+   "ruRawSha256": "17a0f8f21f11c458feb5d6cc4c7919db29ecdd658977f953a82b924dfe078655",
+   "ruSha256": "dcb7f316172afd298d1bf6cde8168bf2f313683c44be1fc343e0a4acc5fbac07",
+   "sourceRawSha256": "0e057e846d8616b62138fd4398320805fb5b4c824defd995ecc9cd7e90b18543",
+   "sourceSha256": "5bce6e20eec950aeefa929b81a336f5694ed22e45a8353e5c121e1f97d6a3b50"
+  },
+  {
+   "path": "kanji/黒.md",
+   "ruGitRawSha256": "0e73338894fe3e7703c6d982d8fc64d205c5cb524a0f10b2de2ca60ea87c11e5",
+   "ruRawSha256": "bf08f952b9db19d264da3a86af7ca1df45bd6a63d28af49cb79a9b1de22c5a63",
+   "ruSha256": "0e73338894fe3e7703c6d982d8fc64d205c5cb524a0f10b2de2ca60ea87c11e5",
+   "sourceRawSha256": "ed495cf4c55a0966c91f31e915f48f24d36c04431d0393f15bd5131663c4cf15",
+   "sourceSha256": "b1ae93595a8bccf4c674083e252f8ac41864dcb7ed825fc8bd804f7e8710cd0d"
+  },
+  {
+   "path": "words/かわいい.md",
+   "ruGitRawSha256": "3703a27203663d9b3e4efe718c746a129395bd671a1757ed3b4069bb4fbc10c3",
+   "ruRawSha256": "e24dd936fb323717257ea975b6c9cb380011e0b431796d21ec006df0ea317099",
+   "ruSha256": "3703a27203663d9b3e4efe718c746a129395bd671a1757ed3b4069bb4fbc10c3",
+   "sourceRawSha256": "475ee51eea9de628d1fbb212c7f727b794f806f61ccb07a01509b08632272ae0",
+   "sourceSha256": "475ee51eea9de628d1fbb212c7f727b794f806f61ccb07a01509b08632272ae0"
+  },
+  {
+   "path": "words/きれい.md",
+   "ruGitRawSha256": "b23c527332215acf02f68c62560e3483fee54593b48aecef685fcf44e8c9da33",
+   "ruRawSha256": "76baf1f5decf1f7d8894d689ad6bfd402d8d101446aa64f9c2838263f5c429a4",
+   "ruSha256": "b23c527332215acf02f68c62560e3483fee54593b48aecef685fcf44e8c9da33",
+   "sourceRawSha256": "c45c5232d57e14ae716572dddb180aa9c9eeceb29f0b49a3567d2b89e3ba6f04",
+   "sourceSha256": "c45c5232d57e14ae716572dddb180aa9c9eeceb29f0b49a3567d2b89e3ba6f04"
+  },
+  {
+   "path": "words/けち.md",
+   "ruGitRawSha256": "e880b9a30263077d23bac331c0841f0ca7f1cf7173f0aede3a38e82113bba0d8",
+   "ruRawSha256": "5319f2ef4a5a8e8a6b3d9736fb3405bbd0d8eee69ee028af23f9b177cae5f6b3",
+   "ruSha256": "e880b9a30263077d23bac331c0841f0ca7f1cf7173f0aede3a38e82113bba0d8",
+   "sourceRawSha256": "e03764e81bb8b8b34bb1313cf2bd49583b46b515cd45ed470ab7d788527f5109",
+   "sourceSha256": "e03764e81bb8b8b34bb1313cf2bd49583b46b515cd45ed470ab7d788527f5109"
+  },
+  {
+   "path": "words/ぺらぺら.md",
+   "ruGitRawSha256": "818388b2540015fa8f4dd8ddd6e2fc442af8972b7824b090e4d5ae8de9234417",
+   "ruRawSha256": "818388b2540015fa8f4dd8ddd6e2fc442af8972b7824b090e4d5ae8de9234417",
+   "ruSha256": "818388b2540015fa8f4dd8ddd6e2fc442af8972b7824b090e4d5ae8de9234417",
+   "sourceRawSha256": "4d351313112f4605177d5749ab2dc24dcd3a178aef0f8e30174f3f43ad8af54d",
+   "sourceSha256": "ef5ff1d0f075f21834ebfe450d0d8d80f8921471277c39d4562f4d076a33bc91"
+  },
+  {
+   "path": "words/わがまま.md",
+   "ruGitRawSha256": "b8703e4e41b772e31a2058b1abbad9a93a1c168864cb3b788915dab434b2673f",
+   "ruRawSha256": "d04af6770184caf62749570bcdc74a032a094500d527b6380ffd4a6f9323e725",
+   "ruSha256": "b8703e4e41b772e31a2058b1abbad9a93a1c168864cb3b788915dab434b2673f",
+   "sourceRawSha256": "0cdb696cf4cd093521ebf9ef9968d5509001f0ee789e2122c6c6e67df1190988",
+   "sourceSha256": "0cdb696cf4cd093521ebf9ef9968d5509001f0ee789e2122c6c6e67df1190988"
+  },
+  {
+   "path": "words/丸い.md",
+   "ruGitRawSha256": "727f3e703aebce3c1e861d26a7bd5356f4d8648c398af9732edb1b220b5c9d4f",
+   "ruRawSha256": "7d941d128eb48227c548971c260144922be986bbe0f178976bec92210f57d8d2",
+   "ruSha256": "727f3e703aebce3c1e861d26a7bd5356f4d8648c398af9732edb1b220b5c9d4f",
+   "sourceRawSha256": "d0d1d92922aa4c409e9766089edbf07958ae0a55eba8fcacf0c785a8d6228ea0",
+   "sourceSha256": "d0d1d92922aa4c409e9766089edbf07958ae0a55eba8fcacf0c785a8d6228ea0"
+  },
+  {
+   "path": "words/低い.md",
+   "ruGitRawSha256": "e38cd2df5fcfd685a6f60c6e662652fee166ddd7be681acf148bef83ca917ab2",
+   "ruRawSha256": "23fe967cefc410b37399b384bd4c3eac686001effdf456ed6db1cf875526ece4",
+   "ruSha256": "e38cd2df5fcfd685a6f60c6e662652fee166ddd7be681acf148bef83ca917ab2",
+   "sourceRawSha256": "3795bc2dd59b6ffb25a6dbe9a4d62c4f7f104c09de14d329ece20226a2647ebc",
+   "sourceSha256": "3795bc2dd59b6ffb25a6dbe9a4d62c4f7f104c09de14d329ece20226a2647ebc"
+  },
+  {
+   "path": "words/円い.md",
+   "ruGitRawSha256": "df55388451ed5111d20d0e2bc2eb10ff65173b342f887554e22ab6a002eb37c9",
+   "ruRawSha256": "1ec373e02473829e31c442b2ae362fdf234fa6688e1501de55ce4a573bad8985",
+   "ruSha256": "df55388451ed5111d20d0e2bc2eb10ff65173b342f887554e22ab6a002eb37c9",
+   "sourceRawSha256": "454a24416d000f5b20990614e27de497a7877238062711437aa20ca27bc0629e",
+   "sourceSha256": "454a24416d000f5b20990614e27de497a7877238062711437aa20ca27bc0629e"
+  },
+  {
+   "path": "words/厚い.md",
+   "ruGitRawSha256": "779c43f8ddf91f8ccaae51392e9a25f5e90b00615a453ec4deed9eb853f50dba",
+   "ruRawSha256": "bf712dbfb5826a1961129d5cd0619c550e9783cfdf2cd744aed03737eccc399d",
+   "ruSha256": "779c43f8ddf91f8ccaae51392e9a25f5e90b00615a453ec4deed9eb853f50dba",
+   "sourceRawSha256": "6da7bcfa762e46b5ee24fd82c3b3a3589bab4162eb5c1fe865c1275fa37537c5",
+   "sourceSha256": "6da7bcfa762e46b5ee24fd82c3b3a3589bab4162eb5c1fe865c1275fa37537c5"
+  },
+  {
+   "path": "words/土.md",
+   "ruGitRawSha256": "f687533f4493ccfe628b16b1996556cd688224eb320707167856cfd8ba2d39ee",
+   "ruRawSha256": "9521aa00aade8e4658e8697bfe3ab0457f8294579c43cd34185a0f62b6bde146",
+   "ruSha256": "f687533f4493ccfe628b16b1996556cd688224eb320707167856cfd8ba2d39ee",
+   "sourceRawSha256": "ee146b3665f7dbdbf4889f8b589f786fb57f9aadf540f2fd52a3189d7bfff05a",
+   "sourceSha256": "ee146b3665f7dbdbf4889f8b589f786fb57f9aadf540f2fd52a3189d7bfff05a"
+  },
+  {
+   "path": "words/土地.md",
+   "ruGitRawSha256": "cd69d789cb882cfedd2b99934689b80a1a5f86cae0d4f0cb5579941ef3aa2167",
+   "ruRawSha256": "976296c43c5e6fa910b0ec61d71076419915b72981e36a65d8f3a0007b3ed874",
+   "ruSha256": "cd69d789cb882cfedd2b99934689b80a1a5f86cae0d4f0cb5579941ef3aa2167",
+   "sourceRawSha256": "e98970f135a6a59cd3781034b86a022781ae3ae30db3b005b533f555314157be",
+   "sourceSha256": "e98970f135a6a59cd3781034b86a022781ae3ae30db3b005b533f555314157be"
+  },
+  {
+   "path": "words/大きい.md",
+   "ruGitRawSha256": "b058e63aeea843ec31d4c417831f5d4a399ed238d79b034b81ab71d842692c80",
+   "ruRawSha256": "96c7b0862aee1f4286867f5803cd61380c0f23fb3179109a69e6de6d6ef1764b",
+   "ruSha256": "b058e63aeea843ec31d4c417831f5d4a399ed238d79b034b81ab71d842692c80",
+   "sourceRawSha256": "a628456b50b79493fee8007d6d9bf0a6a5089f7e1038a864428118ef6f065482",
+   "sourceSha256": "a628456b50b79493fee8007d6d9bf0a6a5089f7e1038a864428118ef6f065482"
+  },
+  {
+   "path": "words/大きな.md",
+   "ruGitRawSha256": "6a88f537482cca69dc59b4b65d9c7e2c89f7f6c73955d7412bd39781d222a5ee",
+   "ruRawSha256": "056acd170c4b5e9df8fd0fcee348d5c949496c9e3d359a651697145648654af9",
+   "ruSha256": "6a88f537482cca69dc59b4b65d9c7e2c89f7f6c73955d7412bd39781d222a5ee",
+   "sourceRawSha256": "96fcc1ee41d2707c2a76356ca390b3ef972255bd7bc6a5ef9c2c4e33fa4fd981",
+   "sourceSha256": "96fcc1ee41d2707c2a76356ca390b3ef972255bd7bc6a5ef9c2c4e33fa4fd981"
+  },
+  {
+   "path": "words/太い.md",
+   "ruGitRawSha256": "311ccf269a8ef4413287eda4de7f8f80315dc197271f259c59450b810bc0da55",
+   "ruRawSha256": "bc32c9f85af1003a67cc469a515d989e2f52617df62ae2599ddd1df87f5fb291",
+   "ruSha256": "311ccf269a8ef4413287eda4de7f8f80315dc197271f259c59450b810bc0da55",
+   "sourceRawSha256": "1dd01926e64d3f70e7e8d00a626a14214375bebe6c0bca62316b3b491ea7a7ae",
+   "sourceSha256": "1dd01926e64d3f70e7e8d00a626a14214375bebe6c0bca62316b3b491ea7a7ae"
+  },
+  {
+   "path": "words/安い.md",
+   "ruGitRawSha256": "e2864e149d542cef6c4db7032b5d0c038905aa5a9ee482701a4aba847819914b",
+   "ruRawSha256": "8f8ebbdf4c1065ddb3387b642e9da2947569bf0d7fa27b82681c83f6c14dd330",
+   "ruSha256": "e2864e149d542cef6c4db7032b5d0c038905aa5a9ee482701a4aba847819914b",
+   "sourceRawSha256": "0a25f6054e3a1768f506339eec029ac2ebba4674cf82c4bebd35f4c9ad35aecf",
+   "sourceSha256": "2d000ef6c323caf1dd08180991acce38714f58ee9c3c1841c829e2f684f35b48"
+  },
+  {
+   "path": "words/小さい.md",
+   "ruGitRawSha256": "393ea9db0f0224574c80b0a1b1351cba7ee188ae340e5fcac8468f863652b197",
+   "ruRawSha256": "f1a9f16a57a6ad26cb22c9e5bd8223a8865a91d81bf70581b107fa1a494d444a",
+   "ruSha256": "393ea9db0f0224574c80b0a1b1351cba7ee188ae340e5fcac8468f863652b197",
+   "sourceRawSha256": "2ff21d86e71b09627ed64870646a34645c061366f8e8e2987d3dfccfa60532e0",
+   "sourceSha256": "2ff21d86e71b09627ed64870646a34645c061366f8e8e2987d3dfccfa60532e0"
+  },
+  {
+   "path": "words/小さな.md",
+   "ruGitRawSha256": "3341a999045d8cc9b2bc9c6dfb9c9890101729316902ced35bf9b3d906945284",
+   "ruRawSha256": "62c77633a8a5f5c697f34f3d6fb1ab9d5b1a660e10206d01b63e0df3aef18624",
+   "ruSha256": "3341a999045d8cc9b2bc9c6dfb9c9890101729316902ced35bf9b3d906945284",
+   "sourceRawSha256": "16653ffdfb80a3a5a069e78a0a4716076cdab1f6edb1aac78b7a824cff818457",
+   "sourceSha256": "16653ffdfb80a3a5a069e78a0a4716076cdab1f6edb1aac78b7a824cff818457"
+  },
+  {
+   "path": "words/少ない.md",
+   "ruGitRawSha256": "face0f3b853460d4981ea5375162e8c25b72165f595b94e1dbabf509334c9110",
+   "ruRawSha256": "300d2a36bc02d9a8da6a1597fafbfa679830f6905dabe2bb9c06ec6ded05f99b",
+   "ruSha256": "face0f3b853460d4981ea5375162e8c25b72165f595b94e1dbabf509334c9110",
+   "sourceRawSha256": "1c660c33eaf98446fc1490e167f7eb80601bd93d552831a07a0759519685dedc",
+   "sourceSha256": "a5eece8854dc2ddf4d876ab899b398fa905c889981fc9188c889c815af67c90d"
+  },
+  {
+   "path": "words/広い.md",
+   "ruGitRawSha256": "d7f873510a9cd45ad57f58964ced574acaac3c3d70d68b2d5838f35c964ee78d",
+   "ruRawSha256": "92f206c014cd80a8dfd5c2431a357074c8210c547a826d32e9595157efa07489",
+   "ruSha256": "d7f873510a9cd45ad57f58964ced574acaac3c3d70d68b2d5838f35c964ee78d",
+   "sourceRawSha256": "c51228f8a7f9273b2cf4863ca2ef7c04f8c70dba7040b8feef3ecd909288c65c",
+   "sourceSha256": "c51228f8a7f9273b2cf4863ca2ef7c04f8c70dba7040b8feef3ecd909288c65c"
+  },
+  {
+   "path": "words/明るい.md",
+   "ruGitRawSha256": "dd88774a2d34c957d8bdd79efbc40b459d6c140f883136a1c74c36f5db1e1ccb",
+   "ruRawSha256": "c1b992e3f2a60d38e7759aea6ed740a941c3cb5d27e468fdf9f6a5a8912f1618",
+   "ruSha256": "dd88774a2d34c957d8bdd79efbc40b459d6c140f883136a1c74c36f5db1e1ccb",
+   "sourceRawSha256": "9f203e97dbc0393643ac88a3fa6718ae3766fb15050cfbe36cef3c1ea77b3ae7",
+   "sourceSha256": "9f203e97dbc0393643ac88a3fa6718ae3766fb15050cfbe36cef3c1ea77b3ae7"
+  },
+  {
+   "path": "words/暗い.md",
+   "ruGitRawSha256": "a1c2ce5144a404ac76db15adf5fb5760115d993c78bf5ec7f268e9e95b299447",
+   "ruRawSha256": "bf6ce8e5963e1b7a9278aef61415b5b638a24f1086a27e8949e4ff9d6f326fa1",
+   "ruSha256": "a1c2ce5144a404ac76db15adf5fb5760115d993c78bf5ec7f268e9e95b299447",
+   "sourceRawSha256": "9048904f208227c1a075b7ed492987a96e6697c971fae53108b3d70c495a8d9b",
+   "sourceSha256": "9048904f208227c1a075b7ed492987a96e6697c971fae53108b3d70c495a8d9b"
+  },
+  {
+   "path": "words/欲張り.md",
+   "ruGitRawSha256": "6540c2dc1415348bb7819ae02e8558ba0d600be906f2804397d565d77ea44776",
+   "ruRawSha256": "e2a922dd8d9cb55903d76eb712b0cff9a6bdb2658b608a198b43789df77550a2",
+   "ruSha256": "6540c2dc1415348bb7819ae02e8558ba0d600be906f2804397d565d77ea44776",
+   "sourceRawSha256": "d17adf231be732889a75817ccceaf6fda995686fc0e5d177f8f8a3bd4b37c2c8",
+   "sourceSha256": "d17adf231be732889a75817ccceaf6fda995686fc0e5d177f8f8a3bd4b37c2c8"
+  },
+  {
+   "path": "words/汚い.md",
+   "ruGitRawSha256": "16b5e690c540344ddc2d47b88017b83f8f12dfdd1d6c5541fd7690e330e85b14",
+   "ruRawSha256": "181450cd32f759cbe456cbcb4d92d5dfe6d165590c55730658570ac39cc73078",
+   "ruSha256": "16b5e690c540344ddc2d47b88017b83f8f12dfdd1d6c5541fd7690e330e85b14",
+   "sourceRawSha256": "c1f68b114e3e38a569210c63469065221fb127180e2899e780e04d6a15d9e88d",
+   "sourceSha256": "c1f68b114e3e38a569210c63469065221fb127180e2899e780e04d6a15d9e88d"
+  },
+  {
+   "path": "words/汚す.md",
+   "ruGitRawSha256": "f0e8e3394e295081fbccd1ce79d7badbc60208017cd872fbbec8c985407c0ee1",
+   "ruRawSha256": "15b1577bc5cc8a527f594772ea76c280538e9aa6967c49cd9b006e290c3c63d2",
+   "ruSha256": "f0e8e3394e295081fbccd1ce79d7badbc60208017cd872fbbec8c985407c0ee1",
+   "sourceRawSha256": "c3c5048ce6e543db4e41806f6b8cd5bca0ff6284a7c5be8ad7b98ef5d524523d",
+   "sourceSha256": "c3c5048ce6e543db4e41806f6b8cd5bca0ff6284a7c5be8ad7b98ef5d524523d"
+  },
+  {
+   "path": "words/汚れる.md",
+   "ruGitRawSha256": "5ceaf999f4ddccc7d088dd10b6e5c321d9886bc99c6da44caa284a95e77a4252",
+   "ruRawSha256": "cbf86ebf9e87deac83d1fad7c264b0d68d33d033eefde81698670d558968d7cb",
+   "ruSha256": "5ceaf999f4ddccc7d088dd10b6e5c321d9886bc99c6da44caa284a95e77a4252",
+   "sourceRawSha256": "d890cd7af8b749c2c173ebd31a540deefc5716a6ae7cc2e2fb98009254d55770",
+   "sourceSha256": "d890cd7af8b749c2c173ebd31a540deefc5716a6ae7cc2e2fb98009254d55770"
+  },
+  {
+   "path": "words/狭い.md",
+   "ruGitRawSha256": "44bfafd64963fc28e350d37cae059088e731c2d6101917f9b5ab136d005a20d4",
+   "ruRawSha256": "69a4af1144815d2b9112519f88d7f424779fb5a52e3c717a9dedbd51c8ae0e86",
+   "ruSha256": "44bfafd64963fc28e350d37cae059088e731c2d6101917f9b5ab136d005a20d4",
+   "sourceRawSha256": "52af41856d5ddb0e1905b3670f3a39d1a9c511e9bd9948bd0acc5e7819f34eaa",
+   "sourceSha256": "52af41856d5ddb0e1905b3670f3a39d1a9c511e9bd9948bd0acc5e7819f34eaa"
+  },
+  {
+   "path": "words/現れ.md",
+   "ruGitRawSha256": "bd497adade68a8f5ca46593ec0800aac552d4630e6045c21e596bf7ef26027d1",
+   "ruRawSha256": "4eba4ea512646c06cb02fd1e9c1f7e117c2a75c90495a8bea4bc54f93d19f8f8",
+   "ruSha256": "bd497adade68a8f5ca46593ec0800aac552d4630e6045c21e596bf7ef26027d1",
+   "sourceRawSha256": "948b8f128871015e3e841dc02dff18caf3610ce0689ce2c53c600ee090c59b75",
+   "sourceSha256": "948b8f128871015e3e841dc02dff18caf3610ce0689ce2c53c600ee090c59b75"
+  },
+  {
+   "path": "words/白.md",
+   "ruGitRawSha256": "966e1d485d15c8e6423b3de989a88473dcdea3f4d16347da3af471eb6f9634ce",
+   "ruRawSha256": "2317d919696d6679ace9e2fe2ea18ee1e5352e9de11f815bb03fc353dfa370f5",
+   "ruSha256": "966e1d485d15c8e6423b3de989a88473dcdea3f4d16347da3af471eb6f9634ce",
+   "sourceRawSha256": "9844e61709d764eee8094007bc2148671063a5bda160290d4ed05473001fd805",
+   "sourceSha256": "9844e61709d764eee8094007bc2148671063a5bda160290d4ed05473001fd805"
+  },
+  {
+   "path": "words/白い.md",
+   "ruGitRawSha256": "3b76d111dea0fe33f1c8ae744ab5206a7fac1c95ed99a9c9e740343245bc8d85",
+   "ruRawSha256": "8e131217de622c01161d30fc6f144de1341dd0cf03a00910030d2469792b8561",
+   "ruSha256": "3b76d111dea0fe33f1c8ae744ab5206a7fac1c95ed99a9c9e740343245bc8d85",
+   "sourceRawSha256": "934e17e9114b736d741bcd47132c59e0daaa85a16a5fbe0d541e1f86524f7551",
+   "sourceSha256": "51a79647be18ff3478d7811ac43b76ce48b1e607e2051eb318f894a8397d4706"
+  },
+  {
+   "path": "words/短い.md",
+   "ruGitRawSha256": "6cd9dab5bc1883b2bd4c2417ce8c7dd1a6fef36f71b5b0592ec9c10e7869f053",
+   "ruRawSha256": "5edfae67e1ddc2ecf139382f8f9d83ca7a37af0fc475c3a394e95bdd314d0691",
+   "ruSha256": "6cd9dab5bc1883b2bd4c2417ce8c7dd1a6fef36f71b5b0592ec9c10e7869f053",
+   "sourceRawSha256": "acac105af96f1f6365e185c0f6294d1eda503f86bc87d184a17d3fb9019c5abe",
+   "sourceSha256": "acac105af96f1f6365e185c0f6294d1eda503f86bc87d184a17d3fb9019c5abe"
+  },
+  {
+   "path": "words/細い.md",
+   "ruGitRawSha256": "aa58006881139ec8717c52070f46b84a28fc10234ee4e5432a379be821fa15c3",
+   "ruRawSha256": "1156ba83c2b817cd17506ac4a1a55b44fdef3fbb8a43c92ba10345034ab92831",
+   "ruSha256": "aa58006881139ec8717c52070f46b84a28fc10234ee4e5432a379be821fa15c3",
+   "sourceRawSha256": "39837881f45a8f3ffc016df4851514fb33e99f5d3fa07b03f5b23bf05a3729ff",
+   "sourceSha256": "39837881f45a8f3ffc016df4851514fb33e99f5d3fa07b03f5b23bf05a3729ff"
+  },
+  {
+   "path": "words/緑.md",
+   "ruGitRawSha256": "2818d395caee4ed2e15f5fa2506eb31de1d83206681771c5965bc95dc9d9802d",
+   "ruRawSha256": "1726518568f04d0f1802f8d3616515bb4df6cdef0f933aa4a862638c050e3dfe",
+   "ruSha256": "2818d395caee4ed2e15f5fa2506eb31de1d83206681771c5965bc95dc9d9802d",
+   "sourceRawSha256": "f6fa54fb188644b387ae33037a4b25f01c486b32ea9211453844bc37e6d670ee",
+   "sourceSha256": "f6fa54fb188644b387ae33037a4b25f01c486b32ea9211453844bc37e6d670ee"
+  },
+  {
+   "path": "words/自由.md",
+   "ruGitRawSha256": "4496adeeb4c7ac90fcbdcf58429ba98c39d5b998fe3d6d649a07e727be60eb41",
+   "ruRawSha256": "82f8677440c162602e6f2ac7b7fd01a8adab0bd3af18b698e5fe12d9cbd245e6",
+   "ruSha256": "4496adeeb4c7ac90fcbdcf58429ba98c39d5b998fe3d6d649a07e727be60eb41",
+   "sourceRawSha256": "96c58947527010d198cda19405d7a28543a81e0f4dfeee278ce06450cc10d92a",
+   "sourceSha256": "96c58947527010d198cda19405d7a28543a81e0f4dfeee278ce06450cc10d92a"
+  },
+  {
+   "path": "words/色.md",
+   "ruGitRawSha256": "5f99c3570d256fd7e4c105dc3496c4c2be33813a96bd00600fc6d72bfea2c6ef",
+   "ruRawSha256": "96eec8a72b46f2bda151b809f25b29e2064f3b4892b49477035483868b4e80f5",
+   "ruSha256": "5f99c3570d256fd7e4c105dc3496c4c2be33813a96bd00600fc6d72bfea2c6ef",
+   "sourceRawSha256": "23b58399de24eb5526c6f8104551d88193912eef672f8af3aba336fd10564092",
+   "sourceSha256": "23b58399de24eb5526c6f8104551d88193912eef672f8af3aba336fd10564092"
+  },
+  {
+   "path": "words/茶色.md",
+   "ruGitRawSha256": "861f1f9b8b0eb3c1b8791937d9c9a310bf93aa54fe80bfa9f6da0491c6a731f2",
+   "ruRawSha256": "971eb29bb415a33564c1f18157237ab951300dec7dd5ea9f50d534fe50233abe",
+   "ruSha256": "861f1f9b8b0eb3c1b8791937d9c9a310bf93aa54fe80bfa9f6da0491c6a731f2",
+   "sourceRawSha256": "cbd5dc3d8404d08f60b4eff164bd7ac735a01a223743fddae5489e4cb497ac5b",
+   "sourceSha256": "cbd5dc3d8404d08f60b4eff164bd7ac735a01a223743fddae5489e4cb497ac5b"
+  },
+  {
+   "path": "words/薄い.md",
+   "ruGitRawSha256": "c2649b94c3480975b9da5b90e40e88ecd33ff19dd01d0c99b40414d4f801a279",
+   "ruRawSha256": "1cdc9982fe0ffb29de47ce87d5016aa8f1c3328c7d86db3080fc83e334abde27",
+   "ruSha256": "c2649b94c3480975b9da5b90e40e88ecd33ff19dd01d0c99b40414d4f801a279",
+   "sourceRawSha256": "900f22d506b24332fc1add27546cea74f8f7c096df241ebdf5e9eae0b53fb767",
+   "sourceSha256": "900f22d506b24332fc1add27546cea74f8f7c096df241ebdf5e9eae0b53fb767"
+  },
+  {
+   "path": "words/表現.md",
+   "ruGitRawSha256": "24c8ab78db37560238410926fa56749850a117ec6cf4de3257ee9239ab09f81d",
+   "ruRawSha256": "116e4c09ebbe514d24859b4b498cdf3c76b6469abfd5b42ba7fb9cab2279bb37",
+   "ruSha256": "24c8ab78db37560238410926fa56749850a117ec6cf4de3257ee9239ab09f81d",
+   "sourceRawSha256": "4832bb291be365566898e3bcd17282c0fea6654dda763b5bee83e30c93aacd32",
+   "sourceSha256": "4832bb291be365566898e3bcd17282c0fea6654dda763b5bee83e30c93aacd32"
+  },
+  {
+   "path": "words/赤.md",
+   "ruGitRawSha256": "aed82042d2f3881f57113ea18eb14ee4a20f3210f8725cc58b69900a802e736a",
+   "ruRawSha256": "c9e3f50d9ff94e24a52ca3c3259be6b7421d8d566975a634d6b77826113c4e2d",
+   "ruSha256": "aed82042d2f3881f57113ea18eb14ee4a20f3210f8725cc58b69900a802e736a",
+   "sourceRawSha256": "85262211122dd5812c3b5a7213bceef40055a989e842c778d96417199bc4637f",
+   "sourceSha256": "85262211122dd5812c3b5a7213bceef40055a989e842c778d96417199bc4637f"
+  },
+  {
+   "path": "words/赤い.md",
+   "ruGitRawSha256": "76cec7b284532ab157f915e9165dbb401fe9c55953525f3e4a20f47f728540a0",
+   "ruRawSha256": "c7104a037ccfa0f3694101651150aafa5592b78a9020009a08ed31ee276510ba",
+   "ruSha256": "76cec7b284532ab157f915e9165dbb401fe9c55953525f3e4a20f47f728540a0",
+   "sourceRawSha256": "cf847c98d1d20e83c98b6368688c351d7dd87d7242350bc84d3eb78d50a5a781",
+   "sourceSha256": "0c888fb447ae95b57115b824dbd5a5f055a84c7ed2c7b94962f6abbe09e52a7e"
+  },
+  {
+   "path": "words/軽い.md",
+   "ruGitRawSha256": "721c2c51dac7f2f4312316a63e51301511997593716a9ad43aa0985e77b9d540",
+   "ruRawSha256": "fd3b1b7550e707b09cf84e484d7728dd45a135e2911c35a00dbcceacaee05b24",
+   "ruSha256": "721c2c51dac7f2f4312316a63e51301511997593716a9ad43aa0985e77b9d540",
+   "sourceRawSha256": "b2d36ac05a316b55fce9f4e2751175e68b4f8a2c01c26bae9bb922eac06ec385",
+   "sourceSha256": "b2d36ac05a316b55fce9f4e2751175e68b4f8a2c01c26bae9bb922eac06ec385"
+  },
+  {
+   "path": "words/輝く.md",
+   "ruGitRawSha256": "e51506837a3d05121825583087a03cc66e1dd8a8c06f57e563367567e2ef766b",
+   "ruRawSha256": "e51506837a3d05121825583087a03cc66e1dd8a8c06f57e563367567e2ef766b",
+   "ruSha256": "e51506837a3d05121825583087a03cc66e1dd8a8c06f57e563367567e2ef766b",
+   "sourceRawSha256": "be1b8405960dea6b144ef1adab95d39c2d458ba870475613ab20db3d1291eb7a",
+   "sourceSha256": "be1b8405960dea6b144ef1adab95d39c2d458ba870475613ab20db3d1291eb7a"
+  },
+  {
+   "path": "words/重い.md",
+   "ruGitRawSha256": "de061ea17eb1030bfebe2fe63aec0057fb3a07044cc665cd6ad889a5e16999e6",
+   "ruRawSha256": "71c2929c6987b83a35cce8032b2efbc9dcb85327f70aa50c9e4b7d3e9a62d220",
+   "ruSha256": "de061ea17eb1030bfebe2fe63aec0057fb3a07044cc665cd6ad889a5e16999e6",
+   "sourceRawSha256": "a203240fdc54c753bf203405645d21bdd3f5228814bbfacaae320bfb81a1cc88",
+   "sourceSha256": "a203240fdc54c753bf203405645d21bdd3f5228814bbfacaae320bfb81a1cc88"
+  },
+  {
+   "path": "words/長い.md",
+   "ruGitRawSha256": "a5bd84197ec102b6731810d5be6ea74949ae5a3a3eb69da067e2841751627f46",
+   "ruRawSha256": "ab5ff08306a0f7a104871da9d6a18f4f9cb8fee3ac884478a51dec5ca8c4c81a",
+   "ruSha256": "a5bd84197ec102b6731810d5be6ea74949ae5a3a3eb69da067e2841751627f46",
+   "sourceRawSha256": "1e2d9cc025ea746f8ce1ea28546a08f84e4eb0929aa88ad01621413acf19ed14",
+   "sourceSha256": "1e2d9cc025ea746f8ce1ea28546a08f84e4eb0929aa88ad01621413acf19ed14"
+  },
+  {
+   "path": "words/青.md",
+   "ruGitRawSha256": "b141edf2e5d130bbc63bb0bff961da9d4b79b9bcdda4a2a8bb7bb91e093d7a6a",
+   "ruRawSha256": "71cbab819ce1e42991325fb4edbad232a96435f24e992e64244ea661e0b0e5bd",
+   "ruSha256": "b141edf2e5d130bbc63bb0bff961da9d4b79b9bcdda4a2a8bb7bb91e093d7a6a",
+   "sourceRawSha256": "22da1d292c9d728564a34571787259c74c240b709bb32fe0dc9117ee6059b7ae",
+   "sourceSha256": "22da1d292c9d728564a34571787259c74c240b709bb32fe0dc9117ee6059b7ae"
+  },
+  {
+   "path": "words/青い.md",
+   "ruGitRawSha256": "8208f628ea7b47414e19fe1bf0019971496ba072ca8e0a802dd0b81f85d930ef",
+   "ruRawSha256": "79af5b52c0e985ab1655f8d775e39bfa39e4aedce6c2903583001724596ce1c3",
+   "ruSha256": "8208f628ea7b47414e19fe1bf0019971496ba072ca8e0a802dd0b81f85d930ef",
+   "sourceRawSha256": "0e1f329a963e22ea1e7d62a3eef98b250af33589a9a7a1cfb7e529c89882e0b2",
+   "sourceSha256": "e7535962882ea41ea58b4695fc128ac1c710bb4fc8f493d78512cecb903777f4"
+  },
+  {
+   "path": "words/高い.md",
+   "ruGitRawSha256": "8044c61d82e8fe4891e3d058d95fc050e9d5d3b0a98645c2600c5d107e6f64e1",
+   "ruRawSha256": "b9670f2ead7b8d4c189d04f4c90628cfe0da656531596e9b3cd0e268f56793b7",
+   "ruSha256": "8044c61d82e8fe4891e3d058d95fc050e9d5d3b0a98645c2600c5d107e6f64e1",
+   "sourceRawSha256": "bac08363d0f271f85b87ba6817c5745c09fd06a692fedc6fef6e42e1b074b25d",
+   "sourceSha256": "bd7d7a62dac5dc0227125718eff05f3eb24a23bbca657d64d6fc904ac2fedc86"
+  },
+  {
+   "path": "words/黄色.md",
+   "ruGitRawSha256": "cb63c4555e3595a3c298e4e77b6b0cccdbe3eae6ed20addbbb003862a56de655",
+   "ruRawSha256": "3078a9df4b9837642ee255fa93712dc5bdc92c03e206ee1316d08645e17eb80f",
+   "ruSha256": "cb63c4555e3595a3c298e4e77b6b0cccdbe3eae6ed20addbbb003862a56de655",
+   "sourceRawSha256": "9b137afa5dbb90e47692227cadb0053941a7a792e48fcfe0c4fdf5ecd2c3a9da",
+   "sourceSha256": "9b137afa5dbb90e47692227cadb0053941a7a792e48fcfe0c4fdf5ecd2c3a9da"
+  },
+  {
+   "path": "words/黄色い.md",
+   "ruGitRawSha256": "d24b1a04f53b61874cdef7e2c34a029445bb79a0f15555fc5fe09187d2079255",
+   "ruRawSha256": "b065a44f2ceb8729fc2f7de11fd40ea13509e4e8759a20ba8875b2d34b4d8590",
+   "ruSha256": "d24b1a04f53b61874cdef7e2c34a029445bb79a0f15555fc5fe09187d2079255",
+   "sourceRawSha256": "d608713d10bb6e1d5e52b69bfcbaf3dfa851e270a8bc3eaef4c8f0b0e9bbddc2",
+   "sourceSha256": "d608713d10bb6e1d5e52b69bfcbaf3dfa851e270a8bc3eaef4c8f0b0e9bbddc2"
+  },
+  {
+   "path": "words/黒.md",
+   "ruGitRawSha256": "ed0f1ecdc4c45e2021bcba8ba89ecc2a78108c4bdd9ee605f8acea3669191b5e",
+   "ruRawSha256": "66c25f444315d0173c86acc7b87f9e47a414ef810eb9ea5eb4b048fabda33af5",
+   "ruSha256": "ed0f1ecdc4c45e2021bcba8ba89ecc2a78108c4bdd9ee605f8acea3669191b5e",
+   "sourceRawSha256": "bf1506a8a2928ed65fd1d0c9234c8c9bba5b7756fb28310b79ee6de075f1bd62",
+   "sourceSha256": "bf1506a8a2928ed65fd1d0c9234c8c9bba5b7756fb28310b79ee6de075f1bd62"
+  },
+  {
+   "path": "words/黒い.md",
+   "ruGitRawSha256": "b449795f498d13fd7ef41e2d0ddd08fa22f4b027ec80cd15cec9b8460716f605",
+   "ruRawSha256": "d0b919e7d351fd23a4e6b13707a7163daf9a87b1d501727e288f916c75abf2f6",
+   "ruSha256": "b449795f498d13fd7ef41e2d0ddd08fa22f4b027ec80cd15cec9b8460716f605",
+   "sourceRawSha256": "152d5c5c91a71849cfefd3c3fea9ee3f17bc30a0b13aec6646f4a5189c45dd22",
+   "sourceSha256": "e8a235da0d0ce3e5a22ca6d5e5dea26bf5c036428eae62ee3ed918e258c2d8a1"
+  },
+  {
+   "path": "words/言葉.md",
+   "ruGitRawSha256": "d4c3413bd110510a4ec8e1920d0e3e1005fe92393afa901dfa8b945eff4642e4",
+   "ruRawSha256": "d4c3413bd110510a4ec8e1920d0e3e1005fe92393afa901dfa8b945eff4642e4",
+   "ruSha256": "d4c3413bd110510a4ec8e1920d0e3e1005fe92393afa901dfa8b945eff4642e4",
+   "sourceRawSha256": "015240dfd77e1d4b26b8aa88e59ee5515700dd55b3b9164f87d92010fe9103de",
+   "sourceSha256": "015240dfd77e1d4b26b8aa88e59ee5515700dd55b3b9164f87d92010fe9103de"
+  },
+  {
+   "path": "words/性格.md",
+   "ruGitRawSha256": "3b817f3f7663f1ed16a26ffe8f2608c93731d1900c6796a7ef5608f6f26f783c",
+   "ruRawSha256": "0eeb176ee3d4f5bddbb1685f04092289e8fb425ac6cf9aba632a6cfad00ea271",
+   "ruSha256": "3b817f3f7663f1ed16a26ffe8f2608c93731d1900c6796a7ef5608f6f26f783c",
+   "sourceRawSha256": "8c65363c1b6ecd9fb06b30b8b140f323e725413e26f7b0eb2e0dd9ce6d01a9fe",
+   "sourceSha256": "8c65363c1b6ecd9fb06b30b8b140f323e725413e26f7b0eb2e0dd9ce6d01a9fe"
+  }
+ ],
+ "consequentialUnverifiedNewRussianClaims": [],
+ "cumulativeUniqueCompletePairCount": 61,
+ "directPairs": [
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "青",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "青い"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "白",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "白い"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "汚い",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "汚す"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "汚す",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "汚れる"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "汚い",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "欲張り"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "汚い",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "けち"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "欲張り",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "わがまま"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "土",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "土地"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "丸い",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "円い"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "小さい",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "小さな"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "大きな",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "大きい"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "大きな",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "広い"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "赤",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "赤い"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "黒",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "黒い"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "黄色",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "黄色い"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "青",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "緑"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "厚い",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "太い"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "細い",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "薄い"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "細い",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "狭い"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "狭い",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "小さい"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "狭い",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "小さな"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "明るい",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "薄い"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "暗い",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "黒い"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "低い",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "太い"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "かわいい",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "きれい"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "かわいい",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "小さい"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "かわいい",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "小さな"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "かわいい",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "高い"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "けち",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "安い"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "けち",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "狭い"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "薄い",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "ぺらぺら"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "薄い",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "小さい"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "薄い",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "小さな"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "薄い",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "低い"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "軽い",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "小さい"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "軽い",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "小さな"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "黄色い",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "高い"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "黄色い",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "細い"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "細い",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "高い"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "色",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "表現"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "色",
+   "reviewSupport": "028-colour-shape-size-independent-review-001.json",
+   "to": "現れ"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "欲張り",
+   "reviewSupport": "028-colour-shape-size-independent-review-002.json",
+   "to": "けち"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "色",
+   "reviewSupport": "028-colour-shape-size-independent-review-002.json",
+   "to": "言葉"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "moderate conservative safeguard",
+   "decision": "RETAIN",
+   "from": "明るい",
+   "reviewSupport": "028-colour-shape-size-independent-review-002.json",
+   "to": "きれい"
+  },
+  {
+   "boundary": "Direct defensible safeguard; not a category/transitive clique or universal synonymy.",
+   "confidence": "supported within actual scoped review",
+   "decision": "RETAIN",
+   "from": "色",
+   "reviewSupport": "028-colour-shape-size-independent-review-002.json",
+   "to": "性格"
+  }
+ ],
+ "facets": {
+  "C1": "CLEAN",
+  "C2": "CLEAN",
+  "C3": "CLEAN"
+ },
+ "findingsResolved": [
+  "F1 direct 欲張り–けち",
+  "F2 direct 色–言葉",
+  "F3 seven rejected/questionable proposals removed or withdrawn"
+ ],
+ "limits": [
+  "Initial actual59 full EN/RU pairs/516 title-metadata-guard rows/33 selected lexical objects(32unique)/3XML entries/Kotobank entry; focused actual10 full pairs/19 focused rows/5lexical objects/2Russian meaning sections/eight new guidance lines.61unique cumulative pairs, not one fresh61pair review or516full bodies.",
+  "Original C2/C3 findings remain immutable; cumulative CLEAN follows actual targeted corrections and independent focused return, not author self-approval.",
+  "41original accepted plus4new accepted direct safeguards; six questionable proposals withdrawn, not universally disproved; density-to-quantity proposal rejected.",
+  "Cached XML is not fresh origin authentication or equality to frozen source dataset. Not every inherited numeric dictionary attribution ID was independently authenticated.",
+  "Working RAW, canonical Git RAW and normalized LF are distinct recorded domains.",
+  "Eight newly adopted word-tag app mappings remain UNVERIFIED, not established missing; concurrent app untouched.",
+  "No new media/paid generation/device/IME/playback/new audio-package/C6/C7/default activation/release/checkpoint authority."
+ ],
+ "newlyAdjudicatedFormerUnverifiedPairs": [
+  [
+   "明るい",
+   "きれい"
+  ],
+  [
+   "色",
+   "性格"
+  ]
+ ],
+ "old793RuntimeRawUnchanged": true,
+ "ordinaryActivationAuthorized": false,
+ "recordedAt": "2026-11-05T16:48:48.376670+00:00",
+ "requiredFindingsRemaining": [],
+ "reviewerReuseBoundary": "Initial synchronous reviewer could not receive write_agent follow-up; one fresh narrower read-only correction reviewer was used sequentially, not a simultaneous fleet.",
+ "reviewers": [
+  {
+   "actualAnswerRows": 516,
+   "actualInitialFacets": {
+    "C1": "CLEAN",
+    "C2": "FINDINGS",
+    "C3": "FINDINGS for quiz ambiguity; explanatory prose otherwise CLEAN"
+   },
+   "actualKotobankEntryRead": true,
+   "actualReportUtf8Sha256": "6f20be590bbbabe4451510f9083159b9e6f07244b040dfdc9d751825f6dd1faf",
+   "actualSelectedCompleteXmlEntries": 3,
+   "actualSelectedLexicalObjects": 33,
+   "actualWholePairs": 59,
+   "actualWholeTexts": 118,
+   "id": "729286f5-6682-41b3-b6b6-142a0e410848",
+   "name": "ru028-readonly-three-facet-review",
+   "report": "docs/translation-batches/028-colour-shape-size-independent-review-001.json",
+   "uniqueLexicalObjects": 32
+  },
+  {
+   "actualFreshAnswerRows": 19,
+   "actualFreshWholePairs": 10,
+   "actualFreshWholeTexts": 20,
+   "actualNewGuidanceLines": 8,
+   "actualReportUtf8Sha256": "c9d2379b9bd9ce478c1d5e4f329ff9539c01268d9f7f57123c485b5adf1f1024",
+   "actualRussianMeaningSections": 2,
+   "actualSelectedLexicalObjects": 5,
+   "facets": {
+    "C1": "CLEAN",
+    "C2": "CLEAN",
+    "C3": "CLEAN"
+   },
+   "id": "261f258e-405a-4e70-ac8b-b5d80ef029ae",
+   "name": "ru028-focused-review-corrections",
+   "notFreshAll61PairOr516SemanticRowReading": true,
+   "report": "docs/translation-batches/028-colour-shape-size-independent-review-002.json"
+  }
+ ],
+ "russianCommit": "e3cbf104ad366ea4179b4409b79d4d6e32557ae8",
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "twoOldNavigationEditsExactlyReversible": true,
+ "withdrawnUnapprovedPairs": [
+  [
+   "暗い",
+   "黒"
+  ],
+  [
+   "低い",
+   "小さい"
+  ],
+  [
+   "低い",
+   "小さな"
+  ],
+  [
+   "薄い",
+   "白い"
+  ],
+  [
+   "薄い",
+   "少ない"
+  ],
+  [
+   "明るい",
+   "白い"
+  ],
+  [
+   "明るい",
+   "白"
+  ]
+ ]
+}

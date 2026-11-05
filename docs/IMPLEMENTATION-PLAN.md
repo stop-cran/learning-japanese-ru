@@ -8,6 +8,37 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The twenty-eighth full-target source batch adds 33 complete colour/shape/size and
+related word articles: 27 N5 and six actual negative-answer providers. The frozen
+source remains EN `6af98cb...`. [Batch 028 reviewed source](translation-batches/028-colour-shape-size-reviewed-source.json)
+and its [cumulative independent record](translation-batches/028-colour-shape-size-independent-review.json)
+distinguish the actual initial 59-pair/516-answer-row review from the focused
+10-pair/19-row recheck; together they cover 61 unique complete EN/RU pairs.
+Initial C2/C3 findings remain immutable. The focused reviewer returns C1/C2/C3
+CLEAN for the corrections and supports cumulative scoped textual acceptance.
+Exactly 41 previously accepted plus four newly adjudicated direct guards remain;
+six questionable proposals were withdrawn and one rejected proposal removed,
+not declared universally impossible. No category/transitive clique was added.
+793 baseline runtime RAWs are unchanged; the other two changes are exactly
+reversible navigation wrappers in 土地/輝く, with earlier adaptations preserved.
+
+Membership is 828 runtime objects: 141 kanji/516 words/141 strokes/2 articles/
+22 counter files/one grammar set/2 scene catalogs/3 images. Fresh strict progress:
+828 reviewed-current, no partial, two excluded reviewed runtime-blocked drafts,
+7,448 pending and 7,450 absent runtime paths. Exactly 336 of 672 frozen N5 words
+are adopted; 336 N5 words and every other pending family remain in scope.
+Version `01fc236dddbb5efe`; checkpoint authority null/Ready false.
+Corrected-candidate serialized checks: validator 0 errors, 124 tests OK in 32.569s,
+budget 836 files/845 entries/2,380,105 retained/2,396,787 inflated/1,192,811 ZIP bytes.
+Final checks, source integration, desktop archive and exact-main CI are separate receipts.
+The eight newly adopted word-tag IDs `behavior`, `character`, `cleaning`,
+`description`, `dimension`, `length`, `property`, `shape` have app mappings
+UNVERIFIED, not established missing. The concurrent app remains untouched.
+No new assets, paid generation, phone/IME/playback/C6/C7/activation/release
+authority follows. Continue every remaining safe frozen level and family.
+
+Earlier accepted milestones below are historical.
+
 The twenty-seventh full-target source batch adds 14 complete N5 numeral word
 articles without changing any of the 781 baseline runtime RAW objects.
 [Batch 027 reviewed source](translation-batches/027-numeral-words-reviewed-source.json)
@@ -33,8 +64,6 @@ Canonical tag `quantity` is new to the adopted word pool; its app hint remains
 UNVERIFIED, not an established missing mapping. The concurrent app was untouched.
 No new assets, paid generation, phone/IME/playback/C6/C7/activation/release
 authority follows. Continue the entire frozen corpus after this milestone.
-
-Earlier accepted milestones below are historical.
 
 The twenty-sixth full-target source batch adds29complete kanji and29RAW-identical
 licensed frozen strokes. [Batch026 reviewed source](translation-batches/026-n5-kanji-closure-reviewed-source.json)

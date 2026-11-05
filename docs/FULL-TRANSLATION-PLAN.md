@@ -1060,3 +1060,66 @@ Existing device/IME/playback/exact media-package/C6/C7/ordinary activation/relea
 gates remain separate. Continue remaining N5 and all safe frozen levels/families,
 including honest excluded drafts for restricted listening packages; the full task
 is still in progress.
+
+## Reviewed source milestone 028: colour, shape and size
+
+The [reviewed source record](translation-batches/028-colour-shape-size-reviewed-source.json)
+adds 33 complete Russian word articles: 27 N5, three N3, two N2 and one N4.
+Six words are actual source-negative providers, not placeholder closure cards.
+The source remains frozen at `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+793 baseline runtime RAWs remain byte-identical; only the two prefrozen useful
+navigation wrappers in 土地/輝く change, exactly reversible to their intake RAWs.
+Their complete prior teaching and adaptations remain; old receipts are historical.
+
+The [cumulative independent record](translation-batches/028-colour-shape-size-independent-review.json)
+preserves the whole initial review and bounded correction recheck separately.
+The first reviewer actually read 59 complete EN/RU pairs, all 516 combined
+title/metadata/direct-guard rows, 33 complete selected lexical objects
+(32 unique), three selected complete XML entries and the actual Daijisen よごす
+entry. Its C1 was CLEAN; C2/C3 had findings. The synchronous agent could not
+receive follow-up, so one subsequent read-only focused reviewer read ten
+complete pairs, 19 focused answer rows, five complete primary objects and two
+Russian meaning sections, plus the eight new guidance lines. It returned
+explicit C1/C2/C3 CLEAN within its scope and supports cumulative textual
+acceptance over 61 unique pairs. This is not one fresh 61-pair review,
+516 complete bodies, native-human certification or whole-corpus acceptance.
+
+The final 45 direct safeguards comprise 41 initially accepted pairs and four
+independently adjudicated additions: 欲張り–けち, 色–言葉, 明るい–きれい,
+色–性格. Six questionable proposals were withdrawn rather than self-approved;
+薄い–少ない was removed for unsupported density-to-total-quantity reasoning.
+Withdrawing an extra proposal does not assert universal impossibility.
+The English soil homograph does not survive in the actual Russian 汚す/土
+captions, while Russian «дорогой» creates a valid かわいい–高い ambiguity.
+These observed lessons and actual-caption/entailment limits are now in active
+content instructions. No transitive or semantic-category clique was added.
+
+Japanese facts/examples/readings, canonical types/IDs/tags/levels and qualifiers
+remain. The precise 明い search-only label, 長い/永い restriction and
+non-absolute よごす/けがす distinction have actual selected-source support.
+The cached XML is not a fresh origin authentication or frozen-dataset match.
+Russian prose stands alone; only unavailable local link wrappers are omitted,
+never substantive teaching or English placeholder cards. 色 cites an actual
+query URL without an invented numeric dictionary ID.
+
+Membership is **828 runtime objects**: 141 kanji/516 words/141 strokes/2 articles/
+22 counter files/one grammar set/2 scene catalogs/3 images. Word levels are
+336 N5/50 N4/57 N3/19 N2/54 unlabelled. All 80 frozen N5 kanji are present,
+and exactly **half of 672 frozen N5 words** are adopted; **336 remain**.
+Fresh strict 8,278-entry progress: **828 reviewed-current**, **no partial**,
+**two excluded reviewed runtime-blocked drafts**, **7,448 pending**,
+**7,450 runtime paths absent**. Checkpoint authority null/Ready false;
+version `01fc236dddbb5efe`.
+Actual corrected-candidate serialized checks: validator 0 errors, 124 tests OK
+in 32.569s; budget 836 files/845 entries/2,380,105 retained/2,396,787 inflated/
+1,192,811 ZIP bytes. Final checks, public desktop archive, signatures and
+exact-main CI have separate actual receipts, not device or release acceptance.
+
+No new strokes/images/scenes/audio or paid generation occurred. The canonical
+word-tag IDs `behavior`, `character`, `cleaning`, `description`, `dimension`,
+`length`, `property`, `shape` are new to this adopted word pool; their app
+mappings remain UNVERIFIED, not established missing. The concurrent app stays
+untouched. Device/IME/playback/exact media-package/C6/C7/ordinary activation/
+release gates remain separate. Continue remaining N5 and every safe frozen
+level/family, including honest excluded listening drafts; the full task is
+still in progress.
