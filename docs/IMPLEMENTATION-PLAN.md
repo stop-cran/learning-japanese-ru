@@ -8,7 +8,30 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-The seventeenth full-target source batch completes25 full place/period/name/reading-support
+The eighteenth full-target source batch completes21 full human/sign/trace articles:
+three remaining linked roots plus18 actual negative-reference dependencies,
+preserving15N3/3N2/oneN4/oneN5/oneunlabelled classifications.
+[Batch018](translation-batches/018-people-signs-traces-words-review.json) records actual whole
+816EN/1027RU lines,21titles/84sections/all396actual title/hash records and six complete
+unchanged Russian baseline bodies222lines. All55complete successful dictionary queries comprise
+58entryoccurrences/104forms/161objects=144lexical+17Wiki; a separate complete人query supplies
+eight lexical senses. NamedSeisenban兆候evidence is distinguished from the firstDaijisen block.
+All24source references and13 individually justified direct Russian guards survive;
+character/collective-human/mark/signal/expression overlaps are assessed directly, not transitively.
+Actual whole three-facet review: all scoped source/text facets CLEAN; no required correction.
+Current membership462; strict8278-entry statuses462reviewed-current, no partial, two reviewed
+runtime-blocked drafts and7,814pending, with7,816runtimepathsabsent.
+All441earlier tracking records/non-record sections/runtimeRAWobjects unchanged;
+checkpointauthoritynull/Readyfalse. Serialized checks:0errors/124tests49.038s;
+budget469files478entries1413172retained/1427189inflated/710824localZIPbytes;
+version `2896f5c9d706c5bd`. Twenty-one pinned-app unmapped IDs affect27occurrences;
+current rendering UNVERIFIED, concurrent app untouched. All21new working textsCRLF;
+RAW/LF/Git/public domains remain distinct. The format-reference intro now targets the committed
+frozen6afcontract instead of later/dirtyEN, retaining earlier test reports as historical.
+No assets/grammar/media or device/native/C6/C7/package/activation/release/checkpoint authority.
+Continue the real57-new-kanji mandatory-distractor component and every remaining frozen family.
+
+The seventeenth full-target source batch completed25 full place/period/name/reading-support
 articles, preserving2N2/5N3/2N4/oneN5/15unlabelled classifications.
 [Batch017](translation-batches/017-places-time-reading-words-review.json) records actual whole
 794EN/913RU lines,25titles/100sections/all375actual labels/nine complete unchanged baseline
@@ -20,7 +43,7 @@ replacement history. Two directly related active-guidance lines preserve exact-s
 There are no source-header negative edges; two independently justified direct guards protect
 見物–見るand読書–読むactual Russian overlaps, not transitive cliques or POS-only reasoning.
 All three scoped source/text facets CLEAN after actual whole review; no required correction.
-Current membership441; strict8278-entry statuses441reviewed-current, no partial, two reviewed
+At that milestone membership441; strict8278-entry statuses441reviewed-current, no partial, two reviewed
 runtime-blocked drafts and7,835pending, with7,837runtimepathsabsent.
 All416earlier tracking records/non-record sections/runtimeRAWobjects unchanged;
 checkpointauthoritynull/Readyfalse. Serialized checks:0errors/124tests27.955s;

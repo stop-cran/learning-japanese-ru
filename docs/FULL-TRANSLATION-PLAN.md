@@ -623,8 +623,8 @@ The actual whole review found no consequential defect or required correction; al
 source/text facets are CLEAN. All416earlier runtime RAW objects/tracking records and non-record
 sections remain unchanged.
 
-Current membership is **441runtime objects**:18kanji,375words,18strokes,2articles,22counterfiles,
-onegrammarset,2scenecatalogs and3images. Fresh strict8278-entry progress has **441reviewed-current**,
+After batch017 membership was **441runtime objects**:18kanji,375words,18strokes,2articles,22counterfiles,
+onegrammarset,2scenecatalogs and3images. Its fresh strict8278-entry progress had **441reviewed-current**,
 **no partial units**, **two reviewed runtime-blocked drafts**, **7,835pending** and **7,837runtime
 paths absent**. Checkpoint authority remains null/Readyfalse.
 Actual serialized checks:0errors/124tests27.955s; final budget448files/457entries/
@@ -636,3 +636,36 @@ All25new working texts are CRLF; normalized/Git/public domains remain distinct.
 No new assets/grammar contexts/media or native/device/IME/C6/C7/package/activation/release/checkpoint
 authority follows. Continue the remaining three linked roots and their21-word closed component,
 then the real57-new-kanji mandatory-distractor component and every remaining frozen family.
+
+Batch **018 — humans, signs and traces** completes21 full word articles: the remaining
+three reading-linked roots and their18 source-negative dependencies, preserving15N3/3N2/
+oneN4/oneN5/oneunlabelled classifications. All24 original directed references remain,
+with13 separately reasoned direct Russian guards for actual person/character/collective-human/
+mark/signal/expression overlaps—not a transitive people/sign clique.
+
+[Actual whole review](translation-batches/018-people-signs-traces-words-review.json) records
+816EN/1027RU lines,21titles/84sections/all396actual title/hash records and six complete
+unchanged Russian baseline bodies222lines. All55complete query objects were read:
+58entryoccurrences/104forms/161objects=144lexical+17Wiki. A separate complete人query
+contains eight lexical senses; counts are not unique lexemes or blanket API adoption.
+NamedSeisenban兆候definitions are distinguished from the aggregator's firstDaijisen block.
+The actual whole three-facet review found no required correction or consequential unresolved
+textual claim; all three scoped source/text facets are CLEAN. Source Japanese/readings/levels/
+qualifications, mathematical homograph distinctions and direct answer safeguards remain.
+All441earlier tracking records/non-record sections/runtimeRAWobjects are unchanged.
+
+Current membership is **462runtime objects**:18kanji,396words,18strokes,2articles,22counterfiles,
+onegrammarset,2scenecatalogs and3images. Fresh strict8278-entry progress has **462reviewed-current**,
+**no partial units**, **two reviewed runtime-blocked drafts**, **7,814pending** and **7,816runtime
+paths absent**. Checkpoint authority remains null/Readyfalse.
+Actual serialized checks:0errors/124tests49.038s; final budget469files/478entries/
+1413172retained/1427189inflated/710824localZIPbytes; version `2896f5c9d706c5bd`.
+
+The immutable pinned app function has21unmapped canonical IDs across27occurrences in this batch.
+Current rendering remains UNVERIFIED; IDs stable and concurrent app untouched.
+All21new working texts are CRLF; normalized/Git/public domains remain distinct.
+The directly related format-reference intro now points at the already committed frozen6afcontract,
+not later/dirtyEN; earlier owner-test results remain explicitly historical.
+No new assets/grammar contexts/media or native/device/IME/C6/C7/package/activation/release/checkpoint
+authority follows. Continue the real57-new-kanji mandatory-distractor component and every
+remaining frozen family; this milestone is not completion of the full corpus or allN5.
