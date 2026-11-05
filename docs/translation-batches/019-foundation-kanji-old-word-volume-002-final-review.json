@@ -1,0 +1,618 @@
+{
+  "schemaVersion": 1,
+  "batch": "019-foundation-kanji-component",
+  "volume": "002-old-word-amendments",
+  "stage": "Actual independent45-word review plus actual focused current分/guidance recheck complete; whole component incomplete.",
+  "recordedAt": "2026-11-05T05:03:59.289767+00:00",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "initialWordReviewCommit": "eccc2c11c0368b5ab2698e3d308c62ccf84cfba5",
+  "currentReviewedTargetCorrectionCommit": "dd9a758e233174af3f0d6f4672ef37fc089df997",
+  "initialReviewerAgentId": "aba8ac1f-3357-482c-bb92-5a98a1c786b2",
+  "focusedRecheckAgentId": "663477aa-9333-4a52-b160-a35d00e88ab3",
+  "focusedRecheckMode": "One fresh narrow reviewer; completed sync tasks cannot receive follow-up as earlier actual tool rejections established.",
+  "initialReview": {
+    "path": "docs/translation-batches/019-foundation-kanji-old-word-volume-002-initial-review.json",
+    "workingRawSha256": "a1143fac26f309ee5cb4a1813326b09cf68e27d4165c27353aac632db5391d92",
+    "verdicts": {
+      "japaneseCorrectness": "NEEDS FIX",
+      "assignedVolumeCoverageConsistency": "NEEDS FIX",
+      "russianComprehensibility": "NEEDS FIX"
+    },
+    "actualCompleteWordPairs": 45
+  },
+  "actualFocusedRecheck": {
+    "agentId": "663477aa-9333-4a52-b160-a35d00e88ab3",
+    "snapshot": "dd9a758e233174af3f0d6f4672ef37fc089df997",
+    "findingId": "019-W002-F01",
+    "status": "resolved",
+    "confidence": "high",
+    "verdicts": {
+      "japaneseCorrectness": "CLEAN",
+      "assignedVolumeCoverageConsistency": "CLEAN",
+      "russianComprehensibility": "CLEAN"
+    },
+    "regressions": [],
+    "optionalFindings": [],
+    "actualReading": "Complete RU分1–56/frozenEN分1–54, root294lines/scoped201lines, three actual rubrics43/54/44lines, three new receipts901/41/38lines and complete two-path correction diff.",
+    "actualChecks": "Exact canonicalGit hashes and two-row/two-guidance-line delta independently verified; both detached worktrees clean before/after. RU/EN commonGit directories differ; shared source storage was not assumed.",
+    "hashDomainBoundary": "Author workingRAW not independently read; rechecker reproduced reportedCRLF hash only in memory. CanonicalGit RAW/LF independently calculated.",
+    "readingProvenanceBoundary": "Actual returned reviewer report retained, not a parent raw execution-payload audit.",
+    "returnedReportCaptureSha256": "d1a6473e5eea797a1cd733dc83f9b0c29340e0d92f6f3a655927acc99359bfd3",
+    "captureDomain": "Faithful formatting-normalized UTF8-LF transcription, not transport-payload bytes.",
+    "limits": "Focused classification/preservation only; no new dictionary validation of inherited variants, fresh45/57review, validators/tests/native/device/media/runtime/release approval."
+  },
+  "currentWordVolumeVerdicts": {
+    "japaneseCorrectness": "CLEAN",
+    "assignedVolumeCoverageConsistency": "CLEAN",
+    "russianComprehensibility": "CLEAN"
+  },
+  "compositionBoundary": "Actual whole45word/32completeRUtarget review found only分classification; actual focused current分/guidance recheck resolves it. All45 signedword bodies unchanged. Not fresh45/57/corpus/native acceptance.",
+  "files": [
+    {
+      "path": "words/八月.md",
+      "russianGitRawSha256": "de1c6ade1e719f7b82da53fe41a31f6b631cbf111be2f1bf5ee3d0d84fd4dec3",
+      "reviewWorkingRawSha256": "de1c6ade1e719f7b82da53fe41a31f6b631cbf111be2f1bf5ee3d0d84fd4dec3",
+      "russianLfSha256": "de1c6ade1e719f7b82da53fe41a31f6b631cbf111be2f1bf5ee3d0d84fd4dec3",
+      "sourceGitRawSha256": "011d7bffaa5f0222632310a538e55b2565c71568d7cb2c6cf82c384fafe11a8d",
+      "sourceWorkingRawSha256": "011d7bffaa5f0222632310a538e55b2565c71568d7cb2c6cf82c384fafe11a8d",
+      "sourceLfSha256": "5f6fe976030a3d84c6198403ee1a01b211d8db768894d073990dbbe28103135c",
+      "requiredRestoredKanjiLinks": [
+        "八"
+      ]
+    },
+    {
+      "path": "words/六つ.md",
+      "russianGitRawSha256": "1b1ec62d754137a68132b82b619ad5281c4274619fc277a2c09eba951a308c63",
+      "reviewWorkingRawSha256": "1b1ec62d754137a68132b82b619ad5281c4274619fc277a2c09eba951a308c63",
+      "russianLfSha256": "1b1ec62d754137a68132b82b619ad5281c4274619fc277a2c09eba951a308c63",
+      "sourceGitRawSha256": "9f748ac0a7b88e49bc91224b6cc4bd3ae4989ae1955e2d456fa5c6a6991b7429",
+      "sourceWorkingRawSha256": "9f748ac0a7b88e49bc91224b6cc4bd3ae4989ae1955e2d456fa5c6a6991b7429",
+      "sourceLfSha256": "9f748ac0a7b88e49bc91224b6cc4bd3ae4989ae1955e2d456fa5c6a6991b7429",
+      "requiredRestoredKanjiLinks": [
+        "六"
+      ]
+    },
+    {
+      "path": "words/六日.md",
+      "russianGitRawSha256": "5cefaaaeedb5ed509c5cb3d2f2fddb2bf70e57458be84a324ffee03cf567ccdc",
+      "reviewWorkingRawSha256": "5cefaaaeedb5ed509c5cb3d2f2fddb2bf70e57458be84a324ffee03cf567ccdc",
+      "russianLfSha256": "5cefaaaeedb5ed509c5cb3d2f2fddb2bf70e57458be84a324ffee03cf567ccdc",
+      "sourceGitRawSha256": "ff968e7e02e551ea73a5b4a58a4c9afefd0ce3973a182af58275898f9e3572e6",
+      "sourceWorkingRawSha256": "ff968e7e02e551ea73a5b4a58a4c9afefd0ce3973a182af58275898f9e3572e6",
+      "sourceLfSha256": "e7756afb508de124315580a5d592463bd7967147c0852cf0a2340360b039d68a",
+      "requiredRestoredKanjiLinks": [
+        "六"
+      ]
+    },
+    {
+      "path": "words/六月.md",
+      "russianGitRawSha256": "522cbc92b1b3b9d6f976a8e363e21a67f9847722dc1c0f96b40df32a4cf0be66",
+      "reviewWorkingRawSha256": "522cbc92b1b3b9d6f976a8e363e21a67f9847722dc1c0f96b40df32a4cf0be66",
+      "russianLfSha256": "522cbc92b1b3b9d6f976a8e363e21a67f9847722dc1c0f96b40df32a4cf0be66",
+      "sourceGitRawSha256": "2d662d41d98027a4727a2a567af523c3473e45a5f361a345600bfab7ae93faaf",
+      "sourceWorkingRawSha256": "2d662d41d98027a4727a2a567af523c3473e45a5f361a345600bfab7ae93faaf",
+      "sourceLfSha256": "02528a6039fc9d373a7155f838c83b1dbfe423d45293411e8026abf9ffa76cab",
+      "requiredRestoredKanjiLinks": [
+        "六"
+      ]
+    },
+    {
+      "path": "words/六百.md",
+      "russianGitRawSha256": "1b0128a6054596041cfa2a1968bbbb5b468d3b0ad28ff2bce76c8a67b608c5f8",
+      "reviewWorkingRawSha256": "1b0128a6054596041cfa2a1968bbbb5b468d3b0ad28ff2bce76c8a67b608c5f8",
+      "russianLfSha256": "1b0128a6054596041cfa2a1968bbbb5b468d3b0ad28ff2bce76c8a67b608c5f8",
+      "sourceGitRawSha256": "8b984f32c556cbdac554ff1200096b1ad76ca9d9f132dc918bac364719f39214",
+      "sourceWorkingRawSha256": "8b984f32c556cbdac554ff1200096b1ad76ca9d9f132dc918bac364719f39214",
+      "sourceLfSha256": "deeb153325e81be2f7a09977bce83931f04dfaa86f7be19307f72830ed9c4518",
+      "requiredRestoredKanjiLinks": [
+        "六",
+        "百"
+      ]
+    },
+    {
+      "path": "words/内側.md",
+      "russianGitRawSha256": "bf31473022481ace80ae19f0faa74df14a96fc722fa14b42abeaa2e6e1152e79",
+      "reviewWorkingRawSha256": "bf31473022481ace80ae19f0faa74df14a96fc722fa14b42abeaa2e6e1152e79",
+      "russianLfSha256": "bf31473022481ace80ae19f0faa74df14a96fc722fa14b42abeaa2e6e1152e79",
+      "sourceGitRawSha256": "941a71a04ac1b79dc46a6b8298e4ff2a853206b813f8025b022869e8aeb9a17b",
+      "sourceWorkingRawSha256": "941a71a04ac1b79dc46a6b8298e4ff2a853206b813f8025b022869e8aeb9a17b",
+      "sourceLfSha256": "bfdb2c3e431fa89e9ac00ad9b5227e64f2f2881a91e5ce75395d785606d73359",
+      "requiredRestoredKanjiLinks": [
+        "内"
+      ]
+    },
+    {
+      "path": "words/円高.md",
+      "russianGitRawSha256": "a0c1aa7fefdda85baae7196db8ef74a5740c67b95fa25a6ba13db613a08a73ec",
+      "reviewWorkingRawSha256": "a0c1aa7fefdda85baae7196db8ef74a5740c67b95fa25a6ba13db613a08a73ec",
+      "russianLfSha256": "a0c1aa7fefdda85baae7196db8ef74a5740c67b95fa25a6ba13db613a08a73ec",
+      "sourceGitRawSha256": "a25a8e1481e7815dcf1b60ef268be791e6c3888e235f6a05b8b08d5c476c8761",
+      "sourceWorkingRawSha256": "a25a8e1481e7815dcf1b60ef268be791e6c3888e235f6a05b8b08d5c476c8761",
+      "sourceLfSha256": "d7c23fc2e1035025ccdef36ab6ed20b0ce74d32954a771372fcc5f1c715dd262",
+      "requiredRestoredKanjiLinks": [
+        "円"
+      ]
+    },
+    {
+      "path": "words/分かる.md",
+      "russianGitRawSha256": "148860359eed9e0ad5066584e768384509e08201e788dab54bd6f920f799950c",
+      "reviewWorkingRawSha256": "148860359eed9e0ad5066584e768384509e08201e788dab54bd6f920f799950c",
+      "russianLfSha256": "148860359eed9e0ad5066584e768384509e08201e788dab54bd6f920f799950c",
+      "sourceGitRawSha256": "2e6538f6370cc9a4b7d90c62e2de69ef575f3cb9085f999eb714f46bb549bf57",
+      "sourceWorkingRawSha256": "2e6538f6370cc9a4b7d90c62e2de69ef575f3cb9085f999eb714f46bb549bf57",
+      "sourceLfSha256": "2f710817c8d2a5854c2a7bfe496b25734733009418de9544c2946b39793cf3a0",
+      "requiredRestoredKanjiLinks": [
+        "分"
+      ]
+    },
+    {
+      "path": "words/切手.md",
+      "russianGitRawSha256": "9ed02654365557387068536a3fba2e8e90bba79bd53c3334aa1bdc4185d3753f",
+      "reviewWorkingRawSha256": "9ed02654365557387068536a3fba2e8e90bba79bd53c3334aa1bdc4185d3753f",
+      "russianLfSha256": "9ed02654365557387068536a3fba2e8e90bba79bd53c3334aa1bdc4185d3753f",
+      "sourceGitRawSha256": "84d7a4f45288438832f1b8e499b621ac9a7ea0150756857de7acee1768ebec89",
+      "sourceWorkingRawSha256": "84d7a4f45288438832f1b8e499b621ac9a7ea0150756857de7acee1768ebec89",
+      "sourceLfSha256": "84d7a4f45288438832f1b8e499b621ac9a7ea0150756857de7acee1768ebec89",
+      "requiredRestoredKanjiLinks": [
+        "手"
+      ]
+    },
+    {
+      "path": "words/前半.md",
+      "russianGitRawSha256": "00ba8eafd6195d2bf7f7c47e5b729e01d6434428fb3284edb49319fbb5f1c05e",
+      "reviewWorkingRawSha256": "00ba8eafd6195d2bf7f7c47e5b729e01d6434428fb3284edb49319fbb5f1c05e",
+      "russianLfSha256": "00ba8eafd6195d2bf7f7c47e5b729e01d6434428fb3284edb49319fbb5f1c05e",
+      "sourceGitRawSha256": "860341ea3b7007d9bf9adecd3c6e28f4596e63d64c215023ed761ec35b367ffb",
+      "sourceWorkingRawSha256": "860341ea3b7007d9bf9adecd3c6e28f4596e63d64c215023ed761ec35b367ffb",
+      "sourceLfSha256": "c2ca59bb86c15fa1a82315aa8c143c64f4a9e9bfbe79338515131e8b0911d468",
+      "requiredRestoredKanjiLinks": [
+        "半"
+      ]
+    },
+    {
+      "path": "words/北海道.md",
+      "russianGitRawSha256": "35dfc855745a6f806c6ec0f7289874e804ef20f888df55af7a5b9868048d6fd6",
+      "reviewWorkingRawSha256": "35dfc855745a6f806c6ec0f7289874e804ef20f888df55af7a5b9868048d6fd6",
+      "russianLfSha256": "35dfc855745a6f806c6ec0f7289874e804ef20f888df55af7a5b9868048d6fd6",
+      "sourceGitRawSha256": "75c0a6f4166d8c8468cf182ae36202d028a980f0e4c7c3c64dccecf0dc33512c",
+      "sourceWorkingRawSha256": "75c0a6f4166d8c8468cf182ae36202d028a980f0e4c7c3c64dccecf0dc33512c",
+      "sourceLfSha256": "7faf6408fb50eea9a93d2ff39dfcac9cc84a4ec95d3665f2c02feeb6d3c21b1f",
+      "requiredRestoredKanjiLinks": [
+        "北"
+      ]
+    },
+    {
+      "path": "words/十.md",
+      "russianGitRawSha256": "155cd275ddc745ad6d350bf36e4a33a0cb8a9048429634c061ae0caa540939a2",
+      "reviewWorkingRawSha256": "155cd275ddc745ad6d350bf36e4a33a0cb8a9048429634c061ae0caa540939a2",
+      "russianLfSha256": "155cd275ddc745ad6d350bf36e4a33a0cb8a9048429634c061ae0caa540939a2",
+      "sourceGitRawSha256": "9a9663d02378f95c154ccd226afc314abc74418c59f22e70c14be44e2375c7e9",
+      "sourceWorkingRawSha256": "9a9663d02378f95c154ccd226afc314abc74418c59f22e70c14be44e2375c7e9",
+      "sourceLfSha256": "9a9663d02378f95c154ccd226afc314abc74418c59f22e70c14be44e2375c7e9",
+      "requiredRestoredKanjiLinks": [
+        "十"
+      ]
+    },
+    {
+      "path": "words/十日.md",
+      "russianGitRawSha256": "b55c3a1120ca057a3b3a1b3e1365629ae8f69bce6c6635d232b99a1c69640537",
+      "reviewWorkingRawSha256": "b55c3a1120ca057a3b3a1b3e1365629ae8f69bce6c6635d232b99a1c69640537",
+      "russianLfSha256": "b55c3a1120ca057a3b3a1b3e1365629ae8f69bce6c6635d232b99a1c69640537",
+      "sourceGitRawSha256": "22a3f29ba53cf8aafef8be321480f1f4c4df051414d1d05e6138640552e2b7db",
+      "sourceWorkingRawSha256": "22a3f29ba53cf8aafef8be321480f1f4c4df051414d1d05e6138640552e2b7db",
+      "sourceLfSha256": "22a3f29ba53cf8aafef8be321480f1f4c4df051414d1d05e6138640552e2b7db",
+      "requiredRestoredKanjiLinks": [
+        "十"
+      ]
+    },
+    {
+      "path": "words/十月.md",
+      "russianGitRawSha256": "0f35115995d3198ba41d536d77d466c834801968602efdb21d97bfcdcb7d99ad",
+      "reviewWorkingRawSha256": "0f35115995d3198ba41d536d77d466c834801968602efdb21d97bfcdcb7d99ad",
+      "russianLfSha256": "0f35115995d3198ba41d536d77d466c834801968602efdb21d97bfcdcb7d99ad",
+      "sourceGitRawSha256": "0d400a243d9009de5b6a64523f57186323ef9be7a1fab1712e47192003926f79",
+      "sourceWorkingRawSha256": "0d400a243d9009de5b6a64523f57186323ef9be7a1fab1712e47192003926f79",
+      "sourceLfSha256": "c2cba83369089c77bbe6f89f20ea3f5152a995955c33bcf29d7d498b29e62cb2",
+      "requiredRestoredKanjiLinks": [
+        "十"
+      ]
+    },
+    {
+      "path": "words/千円.md",
+      "russianGitRawSha256": "2803fc9ff6d68e259851d6e235bfb5b3e7f1b868d58a9a8b3b07d630ce7d5c5f",
+      "reviewWorkingRawSha256": "2803fc9ff6d68e259851d6e235bfb5b3e7f1b868d58a9a8b3b07d630ce7d5c5f",
+      "russianLfSha256": "2803fc9ff6d68e259851d6e235bfb5b3e7f1b868d58a9a8b3b07d630ce7d5c5f",
+      "sourceGitRawSha256": "2293c3b3d194411bfe501c672d6062caa573e4311f9198eddcbdc7ae5b67bf9e",
+      "sourceWorkingRawSha256": "2293c3b3d194411bfe501c672d6062caa573e4311f9198eddcbdc7ae5b67bf9e",
+      "sourceLfSha256": "29f89ead03553b052cbbb231c80434473e56ad1ef89b01fee6b2ec2d1012d57f",
+      "requiredRestoredKanjiLinks": [
+        "円",
+        "千"
+      ]
+    },
+    {
+      "path": "words/午前.md",
+      "russianGitRawSha256": "014ee436634cc42c1e188b5f8ad8036ad7c590e3b680132c308d05f8e3faa50f",
+      "reviewWorkingRawSha256": "014ee436634cc42c1e188b5f8ad8036ad7c590e3b680132c308d05f8e3faa50f",
+      "russianLfSha256": "014ee436634cc42c1e188b5f8ad8036ad7c590e3b680132c308d05f8e3faa50f",
+      "sourceGitRawSha256": "31876732482a6ba02b17087477004e681f42bae8e1d2637bf8a81f9c910053bd",
+      "sourceWorkingRawSha256": "31876732482a6ba02b17087477004e681f42bae8e1d2637bf8a81f9c910053bd",
+      "sourceLfSha256": "2bd3e0cd47a7148a5bf96319fc1ef20d57dbc81f3bc6ddd1eae79b294bb1095d",
+      "requiredRestoredKanjiLinks": [
+        "午"
+      ]
+    },
+    {
+      "path": "words/午後.md",
+      "russianGitRawSha256": "1b393299e92a551e49be5100b7a9352d4fcbe6f7772516059d5020cc4697bc52",
+      "reviewWorkingRawSha256": "1b393299e92a551e49be5100b7a9352d4fcbe6f7772516059d5020cc4697bc52",
+      "russianLfSha256": "1b393299e92a551e49be5100b7a9352d4fcbe6f7772516059d5020cc4697bc52",
+      "sourceGitRawSha256": "03ce26fc6ea35bd457b3089526fb2ae20ef7b6c57a37d1f391b95cd81aa4cbd9",
+      "sourceWorkingRawSha256": "03ce26fc6ea35bd457b3089526fb2ae20ef7b6c57a37d1f391b95cd81aa4cbd9",
+      "sourceLfSha256": "8a5f5b37d2b3b97a39a717d32504c2a8b7ac8917f37718ede395e84ecff74a23",
+      "requiredRestoredKanjiLinks": [
+        "午"
+      ]
+    },
+    {
+      "path": "words/半分.md",
+      "russianGitRawSha256": "a280945fc3679535e6f87012f9749a960a44b6a5c996a62791f985ce90862f3d",
+      "reviewWorkingRawSha256": "a280945fc3679535e6f87012f9749a960a44b6a5c996a62791f985ce90862f3d",
+      "russianLfSha256": "a280945fc3679535e6f87012f9749a960a44b6a5c996a62791f985ce90862f3d",
+      "sourceGitRawSha256": "4f842afa79a9e275cc1243213eec619700c5c1330e7ec1114a5761338ccbb65e",
+      "sourceWorkingRawSha256": "4f842afa79a9e275cc1243213eec619700c5c1330e7ec1114a5761338ccbb65e",
+      "sourceLfSha256": "cce383d1ecf8881cc2b156ac251e4587c75c5196d9c5152ae1f5d29658be3072",
+      "requiredRestoredKanjiLinks": [
+        "分",
+        "半"
+      ]
+    },
+    {
+      "path": "words/半年.md",
+      "russianGitRawSha256": "b629b06a6e5e297f7dcf1a6c59523a8f8811d78a28667af833a89921c9f7f93d",
+      "reviewWorkingRawSha256": "b629b06a6e5e297f7dcf1a6c59523a8f8811d78a28667af833a89921c9f7f93d",
+      "russianLfSha256": "b629b06a6e5e297f7dcf1a6c59523a8f8811d78a28667af833a89921c9f7f93d",
+      "sourceGitRawSha256": "0a54db3b8de624acc3ac5c7a184c41bed7a2be5543728808ad05d8554c0427ea",
+      "sourceWorkingRawSha256": "0a54db3b8de624acc3ac5c7a184c41bed7a2be5543728808ad05d8554c0427ea",
+      "sourceLfSha256": "878203ea8a4936429bf0fd03f890d31b55d108665a5191f173924ddd9f46a785",
+      "requiredRestoredKanjiLinks": [
+        "半",
+        "年"
+      ]
+    },
+    {
+      "path": "words/南口.md",
+      "russianGitRawSha256": "ceeb56f4d24a57bf0fbb99865f5d25c4f95177585a7f5f940ad83338a102d287",
+      "reviewWorkingRawSha256": "ceeb56f4d24a57bf0fbb99865f5d25c4f95177585a7f5f940ad83338a102d287",
+      "russianLfSha256": "ceeb56f4d24a57bf0fbb99865f5d25c4f95177585a7f5f940ad83338a102d287",
+      "sourceGitRawSha256": "539a9031b6a334e4b9b5fa6c0214c2a24bcb817d3f8ebf239aa64580632b19cd",
+      "sourceWorkingRawSha256": "539a9031b6a334e4b9b5fa6c0214c2a24bcb817d3f8ebf239aa64580632b19cd",
+      "sourceLfSha256": "8ff6a0ca2973aebffb8a07ea87ed6922bc56d73273d79dd003e4de8f67c9b26a",
+      "requiredRestoredKanjiLinks": [
+        "南"
+      ]
+    },
+    {
+      "path": "words/去年.md",
+      "russianGitRawSha256": "aa7390cc5e527149aea4459b77334bd15df1fd9eb76484fece48de88bfb267d3",
+      "reviewWorkingRawSha256": "aa7390cc5e527149aea4459b77334bd15df1fd9eb76484fece48de88bfb267d3",
+      "russianLfSha256": "aa7390cc5e527149aea4459b77334bd15df1fd9eb76484fece48de88bfb267d3",
+      "sourceGitRawSha256": "d45ee3892ef70de5372fabcbb000fbe91ca93910312af95d32e2a061e837bf7c",
+      "sourceWorkingRawSha256": "d45ee3892ef70de5372fabcbb000fbe91ca93910312af95d32e2a061e837bf7c",
+      "sourceLfSha256": "d45ee3892ef70de5372fabcbb000fbe91ca93910312af95d32e2a061e837bf7c",
+      "requiredRestoredKanjiLinks": [
+        "年"
+      ]
+    },
+    {
+      "path": "words/句読点.md",
+      "russianGitRawSha256": "6bb8f06dc40366dd8339ff0a551e0fee523f30cc93b04c0ac6b091ed5b7ac301",
+      "reviewWorkingRawSha256": "6bb8f06dc40366dd8339ff0a551e0fee523f30cc93b04c0ac6b091ed5b7ac301",
+      "russianLfSha256": "6bb8f06dc40366dd8339ff0a551e0fee523f30cc93b04c0ac6b091ed5b7ac301",
+      "sourceGitRawSha256": "f2be4cf1e1030c79bc4fb41256869fb395559324cc15bd6f6075c33c3e00ce7b",
+      "sourceWorkingRawSha256": "f2be4cf1e1030c79bc4fb41256869fb395559324cc15bd6f6075c33c3e00ce7b",
+      "sourceLfSha256": "f2be4cf1e1030c79bc4fb41256869fb395559324cc15bd6f6075c33c3e00ce7b",
+      "requiredRestoredKanjiLinks": [
+        "読"
+      ]
+    },
+    {
+      "path": "words/四つ.md",
+      "russianGitRawSha256": "df475dccd30afa74a94e03113911e15cc4632e3b1a13713559d1422227103e25",
+      "reviewWorkingRawSha256": "df475dccd30afa74a94e03113911e15cc4632e3b1a13713559d1422227103e25",
+      "russianLfSha256": "df475dccd30afa74a94e03113911e15cc4632e3b1a13713559d1422227103e25",
+      "sourceGitRawSha256": "6b15bbca42dd69ddcc55910b97c9213f8befaef100d6cf3bd99da5fbf19a2ce2",
+      "sourceWorkingRawSha256": "6b15bbca42dd69ddcc55910b97c9213f8befaef100d6cf3bd99da5fbf19a2ce2",
+      "sourceLfSha256": "4dae5fd1246c093324a183a0299cbd546769c662a3113268698a7cf4201c6886",
+      "requiredRestoredKanjiLinks": [
+        "四"
+      ]
+    },
+    {
+      "path": "words/四日.md",
+      "russianGitRawSha256": "f08723a5d796e98aa798fa8abb136cdbc2dbf3d48df2d1b75c5afefbd411141a",
+      "reviewWorkingRawSha256": "f08723a5d796e98aa798fa8abb136cdbc2dbf3d48df2d1b75c5afefbd411141a",
+      "russianLfSha256": "f08723a5d796e98aa798fa8abb136cdbc2dbf3d48df2d1b75c5afefbd411141a",
+      "sourceGitRawSha256": "24a3e94a7a8204a850d0317f541d3b71dfe6af23efb90c92e7b4a8497d1a4afa",
+      "sourceWorkingRawSha256": "24a3e94a7a8204a850d0317f541d3b71dfe6af23efb90c92e7b4a8497d1a4afa",
+      "sourceLfSha256": "24a3e94a7a8204a850d0317f541d3b71dfe6af23efb90c92e7b4a8497d1a4afa",
+      "requiredRestoredKanjiLinks": [
+        "四"
+      ]
+    },
+    {
+      "path": "words/四月.md",
+      "russianGitRawSha256": "f9cda6fab29a80701342da8c1d0aceb9988d654beb7f5c42e0685aa11028bfa8",
+      "reviewWorkingRawSha256": "f9cda6fab29a80701342da8c1d0aceb9988d654beb7f5c42e0685aa11028bfa8",
+      "russianLfSha256": "f9cda6fab29a80701342da8c1d0aceb9988d654beb7f5c42e0685aa11028bfa8",
+      "sourceGitRawSha256": "11f8e718ffb424598b1960a37263361c3bd4c6260e99caea681f78e512a3eafc",
+      "sourceWorkingRawSha256": "11f8e718ffb424598b1960a37263361c3bd4c6260e99caea681f78e512a3eafc",
+      "sourceLfSha256": "6480920711314635c668893580085b8cefd95aabc896f58f8ced77e934f41fce",
+      "requiredRestoredKanjiLinks": [
+        "四"
+      ]
+    },
+    {
+      "path": "words/国内.md",
+      "russianGitRawSha256": "0c527a0a73a246857bd584b9820027e0b17af546b63042423dabf3f0b8157ff4",
+      "reviewWorkingRawSha256": "0c527a0a73a246857bd584b9820027e0b17af546b63042423dabf3f0b8157ff4",
+      "russianLfSha256": "0c527a0a73a246857bd584b9820027e0b17af546b63042423dabf3f0b8157ff4",
+      "sourceGitRawSha256": "ea978aeefd03786f6f26b1c43d7ed3b02971ba13b32079d94c4e380879e2fce1",
+      "sourceWorkingRawSha256": "ea978aeefd03786f6f26b1c43d7ed3b02971ba13b32079d94c4e380879e2fce1",
+      "sourceLfSha256": "ca5601b29581e1e0501231cd830d8dabaa1f60fce165bb3bb4cbe07bff5f9865",
+      "requiredRestoredKanjiLinks": [
+        "内"
+      ]
+    },
+    {
+      "path": "words/土地.md",
+      "russianGitRawSha256": "5990481f41d4a5f195b051ddc0f8a363ad71a1a8aeb4c576ae574cf3c7794d74",
+      "reviewWorkingRawSha256": "5990481f41d4a5f195b051ddc0f8a363ad71a1a8aeb4c576ae574cf3c7794d74",
+      "russianLfSha256": "5990481f41d4a5f195b051ddc0f8a363ad71a1a8aeb4c576ae574cf3c7794d74",
+      "sourceGitRawSha256": "e98970f135a6a59cd3781034b86a022781ae3ae30db3b005b533f555314157be",
+      "sourceWorkingRawSha256": "e98970f135a6a59cd3781034b86a022781ae3ae30db3b005b533f555314157be",
+      "sourceLfSha256": "e98970f135a6a59cd3781034b86a022781ae3ae30db3b005b533f555314157be",
+      "requiredRestoredKanjiLinks": [
+        "土"
+      ]
+    },
+    {
+      "path": "words/土曜日.md",
+      "russianGitRawSha256": "f9a30de148014b7fa49fed44cd3995074eebf1d00637ebe17f387a68de5b8af9",
+      "reviewWorkingRawSha256": "f9a30de148014b7fa49fed44cd3995074eebf1d00637ebe17f387a68de5b8af9",
+      "russianLfSha256": "f9a30de148014b7fa49fed44cd3995074eebf1d00637ebe17f387a68de5b8af9",
+      "sourceGitRawSha256": "430560e4a19beec1d1f17e73b8024945b93bb5eb7b9669d70edbb56ef78e21ad",
+      "sourceWorkingRawSha256": "430560e4a19beec1d1f17e73b8024945b93bb5eb7b9669d70edbb56ef78e21ad",
+      "sourceLfSha256": "430560e4a19beec1d1f17e73b8024945b93bb5eb7b9669d70edbb56ef78e21ad",
+      "requiredRestoredKanjiLinks": [
+        "土"
+      ]
+    },
+    {
+      "path": "words/外出.md",
+      "russianGitRawSha256": "4ba7e5f2f6598b0455a33a5f6645f952dc6897da3fbafff832df50690df6d717",
+      "reviewWorkingRawSha256": "4ba7e5f2f6598b0455a33a5f6645f952dc6897da3fbafff832df50690df6d717",
+      "russianLfSha256": "4ba7e5f2f6598b0455a33a5f6645f952dc6897da3fbafff832df50690df6d717",
+      "sourceGitRawSha256": "9df8629bf3340e8e381c217a84dcf171e21653aec4bd3c3e0ad3f649ad8f8611",
+      "sourceWorkingRawSha256": "9df8629bf3340e8e381c217a84dcf171e21653aec4bd3c3e0ad3f649ad8f8611",
+      "sourceLfSha256": "bb396964773a15fd800eca660ec5f535e07a78bc25ed4fa38503921c5cc43f49",
+      "requiredRestoredKanjiLinks": [
+        "外"
+      ]
+    },
+    {
+      "path": "words/外国.md",
+      "russianGitRawSha256": "b36d13e110d5f4cdf1c2490a2e6a847b5c7e8debcbbb45702378a857bda218c9",
+      "reviewWorkingRawSha256": "b36d13e110d5f4cdf1c2490a2e6a847b5c7e8debcbbb45702378a857bda218c9",
+      "russianLfSha256": "b36d13e110d5f4cdf1c2490a2e6a847b5c7e8debcbbb45702378a857bda218c9",
+      "sourceGitRawSha256": "f935a5d90b798ec6a33cd9df967ef1a9a0a11bb519437528364c25a901b7037d",
+      "sourceWorkingRawSha256": "f935a5d90b798ec6a33cd9df967ef1a9a0a11bb519437528364c25a901b7037d",
+      "sourceLfSha256": "f0cab509066c7f0a4e5a838b57a6e7821b5a03d9f802f801e2cdafcdf7e7fb36",
+      "requiredRestoredKanjiLinks": [
+        "外"
+      ]
+    },
+    {
+      "path": "words/学生.md",
+      "russianGitRawSha256": "6e96780160ffa3056d1beae743ec3662c3e7fff86b2304e53fc41ab59ef691f5",
+      "reviewWorkingRawSha256": "6e96780160ffa3056d1beae743ec3662c3e7fff86b2304e53fc41ab59ef691f5",
+      "russianLfSha256": "6e96780160ffa3056d1beae743ec3662c3e7fff86b2304e53fc41ab59ef691f5",
+      "sourceGitRawSha256": "36439245d79c413a4d7986251e3dd7212d016aed8a47c274267858f0555f666e",
+      "sourceWorkingRawSha256": "36439245d79c413a4d7986251e3dd7212d016aed8a47c274267858f0555f666e",
+      "sourceLfSha256": "304fc4f8f4e2a6a9a7cc6a64fa932d6ffe5468bdaaa68253e2b249e4f015622d",
+      "requiredRestoredKanjiLinks": [
+        "生"
+      ]
+    },
+    {
+      "path": "words/川上.md",
+      "russianGitRawSha256": "006d700b831c23e32538dcab674bf29e430d8a2bd68a233e1b2446382721d512",
+      "reviewWorkingRawSha256": "006d700b831c23e32538dcab674bf29e430d8a2bd68a233e1b2446382721d512",
+      "russianLfSha256": "006d700b831c23e32538dcab674bf29e430d8a2bd68a233e1b2446382721d512",
+      "sourceGitRawSha256": "c54a96708f9e62c27bb59b0d44944cb9de07d56262d09cf553dd14754b241d9a",
+      "sourceWorkingRawSha256": "c54a96708f9e62c27bb59b0d44944cb9de07d56262d09cf553dd14754b241d9a",
+      "sourceLfSha256": "89b33e40dbe3dbf2c58483c175732a611b1e9817707e49a393248fd58c92a082",
+      "requiredRestoredKanjiLinks": [
+        "上"
+      ]
+    },
+    {
+      "path": "words/年.md",
+      "russianGitRawSha256": "27d8332b575b498a91b7bf705dd972d02386de0fad66ce151b9e897fb022a182",
+      "reviewWorkingRawSha256": "27d8332b575b498a91b7bf705dd972d02386de0fad66ce151b9e897fb022a182",
+      "russianLfSha256": "27d8332b575b498a91b7bf705dd972d02386de0fad66ce151b9e897fb022a182",
+      "sourceGitRawSha256": "e4a3be68371c265a1af54d12356f164de052439f7718ce7ad55cf7b210446603",
+      "sourceWorkingRawSha256": "e4a3be68371c265a1af54d12356f164de052439f7718ce7ad55cf7b210446603",
+      "sourceLfSha256": "e4a3be68371c265a1af54d12356f164de052439f7718ce7ad55cf7b210446603",
+      "requiredRestoredKanjiLinks": [
+        "年"
+      ]
+    },
+    {
+      "path": "words/後半.md",
+      "russianGitRawSha256": "0931ab17b40bb37bbdc7089cb3ded55cde7fd85d378b468459e1db0a0b3dc7df",
+      "reviewWorkingRawSha256": "0931ab17b40bb37bbdc7089cb3ded55cde7fd85d378b468459e1db0a0b3dc7df",
+      "russianLfSha256": "0931ab17b40bb37bbdc7089cb3ded55cde7fd85d378b468459e1db0a0b3dc7df",
+      "sourceGitRawSha256": "810847b95c906580c1104f447be9dc33306c4ac03b7365e2f4759d33dccbb0f6",
+      "sourceWorkingRawSha256": "810847b95c906580c1104f447be9dc33306c4ac03b7365e2f4759d33dccbb0f6",
+      "sourceLfSha256": "7012875c82302a759818c1bd32d23f5e6429449c3040f9078aedf487e52d64c2",
+      "requiredRestoredKanjiLinks": [
+        "半"
+      ]
+    },
+    {
+      "path": "words/手.md",
+      "russianGitRawSha256": "e050a6c3102d18d4a7e3fd20c47a02c73ed4b8c4e3fa3d5b217ccb45d35cdfa4",
+      "reviewWorkingRawSha256": "e050a6c3102d18d4a7e3fd20c47a02c73ed4b8c4e3fa3d5b217ccb45d35cdfa4",
+      "russianLfSha256": "e050a6c3102d18d4a7e3fd20c47a02c73ed4b8c4e3fa3d5b217ccb45d35cdfa4",
+      "sourceGitRawSha256": "bc379aab643a9a655f5d817f21176716def534e96b7e4b1478bef3892e8e6341",
+      "sourceWorkingRawSha256": "bc379aab643a9a655f5d817f21176716def534e96b7e4b1478bef3892e8e6341",
+      "sourceLfSha256": "0e74c0087de85a2ead6ed6475d70901c75b14c05505c5b1b3de2e1ecdcc5dbb0",
+      "requiredRestoredKanjiLinks": [
+        "手"
+      ]
+    },
+    {
+      "path": "words/手紙.md",
+      "russianGitRawSha256": "e9601ea69df30f8b44d8e5c7ccb424772f283baf01f9070325cb27302c691c36",
+      "reviewWorkingRawSha256": "e9601ea69df30f8b44d8e5c7ccb424772f283baf01f9070325cb27302c691c36",
+      "russianLfSha256": "e9601ea69df30f8b44d8e5c7ccb424772f283baf01f9070325cb27302c691c36",
+      "sourceGitRawSha256": "25293566460993d8f0dd580e8af9f2c464a237afac4fbd03d0c88d37b498ca8b",
+      "sourceWorkingRawSha256": "25293566460993d8f0dd580e8af9f2c464a237afac4fbd03d0c88d37b498ca8b",
+      "sourceLfSha256": "25293566460993d8f0dd580e8af9f2c464a237afac4fbd03d0c88d37b498ca8b",
+      "requiredRestoredKanjiLinks": [
+        "手"
+      ]
+    },
+    {
+      "path": "words/新聞.md",
+      "russianGitRawSha256": "c6384af404df360ccb3399aa50836ab6f6e1586057b569e3b5e3a207bbd6c7f3",
+      "reviewWorkingRawSha256": "c6384af404df360ccb3399aa50836ab6f6e1586057b569e3b5e3a207bbd6c7f3",
+      "russianLfSha256": "c6384af404df360ccb3399aa50836ab6f6e1586057b569e3b5e3a207bbd6c7f3",
+      "sourceGitRawSha256": "bdad0bde8a40717953b0b962ee3042bfc3d24b6bcb8f7dd11e3fd5660065ae84",
+      "sourceWorkingRawSha256": "bdad0bde8a40717953b0b962ee3042bfc3d24b6bcb8f7dd11e3fd5660065ae84",
+      "sourceLfSha256": "02aa8a709c2ea3bea4c9c6e8ef6233aff605330b9dde89dfeef0df7ff04f9563",
+      "requiredRestoredKanjiLinks": [
+        "聞"
+      ]
+    },
+    {
+      "path": "words/日中.md",
+      "russianGitRawSha256": "0f55f44b4df6b6fc031ef32a955e03b961299c38812778a250019e2d83e37a30",
+      "reviewWorkingRawSha256": "0f55f44b4df6b6fc031ef32a955e03b961299c38812778a250019e2d83e37a30",
+      "russianLfSha256": "0f55f44b4df6b6fc031ef32a955e03b961299c38812778a250019e2d83e37a30",
+      "sourceGitRawSha256": "cb8ef7495e7f5d24dc05dba76a6c39af405ee681bbeb16e6d2377ac839f34ac0",
+      "sourceWorkingRawSha256": "cb8ef7495e7f5d24dc05dba76a6c39af405ee681bbeb16e6d2377ac839f34ac0",
+      "sourceLfSha256": "91ab54381e8cb9457a863c47e4e8e2d8815d414beb61b6d58c0203c162c0f313",
+      "requiredRestoredKanjiLinks": [
+        "中"
+      ]
+    },
+    {
+      "path": "words/昼間.md",
+      "russianGitRawSha256": "a52f34a2f51af89a9fef6967b0f327a66545e2854fe268393b1e2fe7eb58a526",
+      "reviewWorkingRawSha256": "a52f34a2f51af89a9fef6967b0f327a66545e2854fe268393b1e2fe7eb58a526",
+      "russianLfSha256": "a52f34a2f51af89a9fef6967b0f327a66545e2854fe268393b1e2fe7eb58a526",
+      "sourceGitRawSha256": "67fea8073876f71aded0a703b689c89a101d67d2d026f0087694cdd17d0cab8a",
+      "sourceWorkingRawSha256": "67fea8073876f71aded0a703b689c89a101d67d2d026f0087694cdd17d0cab8a",
+      "sourceLfSha256": "67fea8073876f71aded0a703b689c89a101d67d2d026f0087694cdd17d0cab8a",
+      "requiredRestoredKanjiLinks": [
+        "間"
+      ]
+    },
+    {
+      "path": "words/時間.md",
+      "russianGitRawSha256": "e122d2415decd68109e413a219375b2d5259ed126fc10683dc572adb65b10548",
+      "reviewWorkingRawSha256": "e122d2415decd68109e413a219375b2d5259ed126fc10683dc572adb65b10548",
+      "russianLfSha256": "e122d2415decd68109e413a219375b2d5259ed126fc10683dc572adb65b10548",
+      "sourceGitRawSha256": "c5a5d370c231582bc42a901458cb902c71d5b768c92606d07b512acba95cb4a4",
+      "sourceWorkingRawSha256": "c5a5d370c231582bc42a901458cb902c71d5b768c92606d07b512acba95cb4a4",
+      "sourceLfSha256": "ff7e543ba999be71107cef1ac9f0006a036a3f0da86f4036cb8d3e76a87fabd7",
+      "requiredRestoredKanjiLinks": [
+        "間"
+      ]
+    },
+    {
+      "path": "words/書く.md",
+      "russianGitRawSha256": "c5dde023d62db5e060a31df1ded96d9ea2c5c9db365f957389ed944f08be1b16",
+      "reviewWorkingRawSha256": "c5dde023d62db5e060a31df1ded96d9ea2c5c9db365f957389ed944f08be1b16",
+      "russianLfSha256": "c5dde023d62db5e060a31df1ded96d9ea2c5c9db365f957389ed944f08be1b16",
+      "sourceGitRawSha256": "a4b805868cf6dd34a320c0e40192d678633d57ef80a4660070dc828afd1bbde3",
+      "sourceWorkingRawSha256": "a4b805868cf6dd34a320c0e40192d678633d57ef80a4660070dc828afd1bbde3",
+      "sourceLfSha256": "66d7ace084108999e00d55f40c19af1007cb9fc352b8ce0b42b5a3159f772c5c",
+      "requiredRestoredKanjiLinks": [
+        "書"
+      ]
+    },
+    {
+      "path": "words/来年.md",
+      "russianGitRawSha256": "f31d9dcdbf42f97a007045dbd98ad539fa370651007ac48b95439e9e9716e268",
+      "reviewWorkingRawSha256": "f31d9dcdbf42f97a007045dbd98ad539fa370651007ac48b95439e9e9716e268",
+      "russianLfSha256": "f31d9dcdbf42f97a007045dbd98ad539fa370651007ac48b95439e9e9716e268",
+      "sourceGitRawSha256": "384b341f84fcfa6fbe07883c9cb955bec27138328bd6be1e7703f40f4ce267b5",
+      "sourceWorkingRawSha256": "384b341f84fcfa6fbe07883c9cb955bec27138328bd6be1e7703f40f4ce267b5",
+      "sourceLfSha256": "834dc47904691ff05e26d0c513bb65b05a4a1bd2fe5476d5463b151dbfcdfed1",
+      "requiredRestoredKanjiLinks": [
+        "年"
+      ]
+    },
+    {
+      "path": "words/東京.md",
+      "russianGitRawSha256": "cec23179a7b64019255632e12b4a36d386f63d23f708e9ce9cc56aaf32bbab46",
+      "reviewWorkingRawSha256": "cec23179a7b64019255632e12b4a36d386f63d23f708e9ce9cc56aaf32bbab46",
+      "russianLfSha256": "cec23179a7b64019255632e12b4a36d386f63d23f708e9ce9cc56aaf32bbab46",
+      "sourceGitRawSha256": "f04fa311e96f6d10adb60cb925d3f283f55b1a8838bb76a2bffe8350bd482d12",
+      "sourceWorkingRawSha256": "f04fa311e96f6d10adb60cb925d3f283f55b1a8838bb76a2bffe8350bd482d12",
+      "sourceLfSha256": "f04fa311e96f6d10adb60cb925d3f283f55b1a8838bb76a2bffe8350bd482d12",
+      "requiredRestoredKanjiLinks": [
+        "東"
+      ]
+    },
+    {
+      "path": "words/毎年.md",
+      "russianGitRawSha256": "dfb40c4eea677c6bf11952d267b7cae607f7c219e8496f2ed71bf69750a5df60",
+      "reviewWorkingRawSha256": "dfb40c4eea677c6bf11952d267b7cae607f7c219e8496f2ed71bf69750a5df60",
+      "russianLfSha256": "dfb40c4eea677c6bf11952d267b7cae607f7c219e8496f2ed71bf69750a5df60",
+      "sourceGitRawSha256": "e0d7d732b2aadd0ec0ec555d2c90f2afdf8de2d2b111c21edcbbdfd78cc78350",
+      "sourceWorkingRawSha256": "e0d7d732b2aadd0ec0ec555d2c90f2afdf8de2d2b111c21edcbbdfd78cc78350",
+      "sourceLfSha256": "e1d7bc9231e828f947fa5b36405efb4093a619980b4f510cb17531812be7de9d",
+      "requiredRestoredKanjiLinks": [
+        "年"
+      ]
+    },
+    {
+      "path": "words/水中.md",
+      "russianGitRawSha256": "2ce071177af20f9da2d91d1693409bb3e126a87b0b3f88de97ac636c5fb6a503",
+      "reviewWorkingRawSha256": "2ce071177af20f9da2d91d1693409bb3e126a87b0b3f88de97ac636c5fb6a503",
+      "russianLfSha256": "2ce071177af20f9da2d91d1693409bb3e126a87b0b3f88de97ac636c5fb6a503",
+      "sourceGitRawSha256": "96f2fc259ced4d8968e366019fbbe5edabb31b6340b7ce2d69efc3ac0939a81b",
+      "sourceWorkingRawSha256": "96f2fc259ced4d8968e366019fbbe5edabb31b6340b7ce2d69efc3ac0939a81b",
+      "sourceLfSha256": "35a6a609a53e11b81700655fecf9bec180ff722104d543442628cf2e148b033f",
+      "requiredRestoredKanjiLinks": [
+        "中"
+      ]
+    }
+  ],
+  "wordFiles": 45,
+  "restoredRequiredLinks": 49,
+  "recheckedTarget": {
+    "path": "kanji/分.md",
+    "russianGitRawSha256": "84ede4ec14c78622938dc6522615a308c0155223aeda3459a1a7e6d0d4454293",
+    "russianAuthorWorkingRawSha256": "3cbdc23c38871abe89922665d0d0272675a27d0425e8fdedd3f36697f591436b",
+    "russianLfSha256": "84ede4ec14c78622938dc6522615a308c0155223aeda3459a1a7e6d0d4454293",
+    "sourceGitRawSha256": "fd14c97bca8efc7c3951a9c6414c4e97fde88a11585682f5107f98fe4d0cca73"
+  },
+  "reviewedGuidance": {
+    "path": ".github/instructions/content-structure.instructions.md",
+    "russianGitRawSha256": "bff5cb77db27b37b9cad1c5c8e870d6fa0f00ba2dc5f95841d53c3efd0779e7d"
+  },
+  "cumulativeActuallyReviewedWordFiles": 90,
+  "cumulativeActuallyReviewedRestoredLinks": 101,
+  "remainingOldWordAmendments": 45,
+  "remainingRequiredLinks": 51,
+  "historicalReceipts": "Original NEEDS FIX and author pending-recheck receipts intentionally preserved.",
+  "fullCombinedValidation": "pending complete135word closure",
+  "runtimeAccepted": false,
+  "ordinaryActivationAuthorized": false,
+  "checkpointAuthority": null
+}
