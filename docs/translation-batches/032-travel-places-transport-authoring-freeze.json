@@ -1,0 +1,866 @@
+{
+ "actualCompletedReading": {
+  "actualCompactBaselineAnswerRows": 594,
+  "boundary": "57 selected query-object rows include repetitions and homographs; NOT57 adopted lexemes, 594 complete body pairs or a whole-corpus review. Two actual word-page HTML requests add only the selected note/partial-synonym sections.",
+  "completeCandidateQueryObjectRows": 57,
+  "completeContextualEnglishRussianPairs": 23,
+  "completeFrozenPrimaryBodies": 27,
+  "numberOfActualApiRequests": 48,
+  "primarySourceBytes": 38341,
+  "primarySourceLines": 921
+ },
+ "adjudication": "docs/translation-batches/032-travel-places-transport-source-adjudication.json",
+ "appTagMappingStatus": {
+  "buildings": "UNVERIFIED",
+  "entertainment": "UNVERIFIED",
+  "shopping": "UNVERIFIED",
+  "swimming": "UNVERIFIED"
+ },
+ "assets": [],
+ "baselineContentVersion": "36b8a5c1bbb4b3ed",
+ "baselineRuntimeChangesAuthorizedByThisFreeze": [],
+ "baselineRuntimeCount": 906,
+ "batchId": "032-travel-places-transport",
+ "directGuardsToAuthorForReview": [
+  {
+   "directReason": "Preserve the actual source edge; both actual Russian labels contain угол; distinguish かど and すみ in prose.",
+   "from": "角",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "隅"
+  },
+  {
+   "directReason": "The actual accepted 車 caption includes транспортное средство and автомобиль; a taxi vehicle fits both in ordinary travel.",
+   "from": "タクシー",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "車"
+  },
+  {
+   "directReason": "The hired car sense of タクシー fits the actual автомобиль caption; not a claim that every automobile is a taxi.",
+   "from": "タクシー",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "自動車"
+  },
+  {
+   "directReason": "The actual broad транспортное средство label fits an ordinary passenger bus.",
+   "from": "バス",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "車"
+  },
+  {
+   "directReason": "The ordinary motor-vehicle sense of 自動車 includes an автобус; preserve the car/bus distinction in teaching.",
+   "from": "バス",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "自動車"
+  },
+  {
+   "directReason": "A distinct exact-spelling バス lexical object denotes bass fish; the actual current label рыба is defensible for that homograph. Do not merge this identity into the transport entry.",
+   "from": "バス",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "魚"
+  },
+  {
+   "directReason": "The railway-train use of 地下鉄 fits the actual broad транспортное средство label.",
+   "from": "地下鉄",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "車"
+  },
+  {
+   "directReason": "The actual электропоезд label fits ordinary electric subway trains; not every 電車 is underground.",
+   "from": "地下鉄",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "電車"
+  },
+  {
+   "directReason": "The actual broad транспортное средство label fits a bicycle; not a claim that a bicycle is an automobile.",
+   "from": "自転車",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "車"
+  },
+  {
+   "directReason": "The actual Russian alternative транспортное средство is broad enough for a plane. This is a Russian-caption safeguard, NOT an assertion that Japanese 車 ordinarily means aircraft.",
+   "from": "飛行機",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "車"
+  },
+  {
+   "directReason": "A gate is an entrance through the grounds boundary; 入口 explicitly includes gate and its actual caption is вход.",
+   "from": "門",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "入口"
+  },
+  {
+   "directReason": "The actual compound label вход; прихожая contains the broad вход, which fits the entrance/gateway sense of 門; not every gate is an entrance hall.",
+   "from": "門",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "玄関"
+  },
+  {
+   "directReason": "The unchanged accepted 出入口 body explicitly includes gates; actual вход и выход describes an opening used for passage both ways.",
+   "from": "門",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "出入口"
+  },
+  {
+   "directReason": "The actual mon lexical object has the school/branch-of-learning sense; the current Russian caption школа does not encode which kind.",
+   "from": "門",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "学校"
+  },
+  {
+   "directReason": "The actual label сад overlaps partly with парк in ordinary Russian; the captured Russian dictionary explicitly marks partial, not universal, synonymy.",
+   "from": "公園",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "庭"
+  },
+  {
+   "directReason": "The actual shokudou lexical object has restaurant/eatery sense2; ресторан is defensible for that ordinary sense.",
+   "from": "レストラン",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "食堂"
+  },
+  {
+   "directReason": "The unchanged 店 article and lexical object explicitly include restaurant; the new actual label ресторан is defensible for that sense.",
+   "from": "レストラン",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "店"
+  },
+  {
+   "directReason": "The unchanged accepted 店 body explicitly includes cafés; the new кофейня; чайная label overlaps that taught establishment sense.",
+   "from": "喫茶店",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "店"
+  },
+  {
+   "directReason": "Public eating-establishment sense of 食堂 overlaps the restaurant sense explicitly taught in 店; compare the actual столовая label, not English cafeteria.",
+   "from": "食堂",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "店"
+  },
+  {
+   "directReason": "The current магазин caption directly fits the department-store sense; this does not create a clique of store subtypes.",
+   "from": "デパート",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "店"
+  }
+ ],
+ "explicitReviewQuestions": [
+  "Adjudicate all20 proposed direct pairs against actual621-row combined Russian caption pool. Pay special attention to plane/broad vehicle, bus fish homograph, gate/entry variants, food-establishment captions and partial Russian сад/парк overlap. Reject unsupported overguards rather than approving a category clique.",
+  "Additional 門/かど object gives door, house, family. Decide whether actual grading/primary-reading boundaries and ordinary usage warrant direct guards againstドア/戸/家/家族. The戸/と object's restriction itself does NOT establish門/と means door.",
+  "出口 actually means exit/outlet, not a captured gate definition. A gate can function as an exit, but that shared function alone has not established a new門–出口 pair.",
+  "Keep unsupported subtype/containment precautions unapproved. No source body or substantive example may be dropped to make the batch smaller."
+ ],
+ "frozenSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "grammarVocabularyContexts": [],
+ "intakeCommit": "8a4cb4c64e24db23f9961fb098f56bff26cf75d4",
+ "mandatoryNewKanjiProviders": [],
+ "newWords": [
+  {
+   "map": "files",
+   "path": "words/タクシー.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "07c1a4308497132e8e265a8f68b6b7a97b10a9ff1b631fcebf43a99ef56935d7",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "タクシー",
+    "tags": [
+     "gairaigo",
+     "noun",
+     "transport"
+    ],
+    "title": "taxi",
+    "type": "gairaigo",
+    "word": "タクシー"
+   },
+   "sourceNormalizedLfSha256": "07c1a4308497132e8e265a8f68b6b7a97b10a9ff1b631fcebf43a99ef56935d7",
+   "sourceWorkingRawSha256": "07c1a4308497132e8e265a8f68b6b7a97b10a9ff1b631fcebf43a99ef56935d7",
+   "word": "タクシー"
+  },
+  {
+   "map": "files",
+   "path": "words/バス.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "8a0a47a52ce79bbc765db8be7bdc173a2c683c5459d3632f97e655c97b58c25e",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "バス",
+    "tags": [
+     "gairaigo",
+     "noun",
+     "transport"
+    ],
+    "title": "bus",
+    "type": "gairaigo",
+    "word": "バス"
+   },
+   "sourceNormalizedLfSha256": "8a0a47a52ce79bbc765db8be7bdc173a2c683c5459d3632f97e655c97b58c25e",
+   "sourceWorkingRawSha256": "8a0a47a52ce79bbc765db8be7bdc173a2c683c5459d3632f97e655c97b58c25e",
+   "word": "バス"
+  },
+  {
+   "map": "files",
+   "path": "words/地下鉄.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "e449f41c59e2bed226688d38b1670d875c063d00e576c60a341ae5dee6b17287",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "地",
+     "下",
+     "鉄"
+    ],
+    "reading": "ちかてつ",
+    "tags": [
+     "kango",
+     "noun",
+     "transport"
+    ],
+    "title": "subway; metro",
+    "type": "kango",
+    "word": "地下鉄"
+   },
+   "sourceNormalizedLfSha256": "e449f41c59e2bed226688d38b1670d875c063d00e576c60a341ae5dee6b17287",
+   "sourceWorkingRawSha256": "e449f41c59e2bed226688d38b1670d875c063d00e576c60a341ae5dee6b17287",
+   "word": "地下鉄"
+  },
+  {
+   "map": "files",
+   "path": "words/自転車.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "b48cad048576990cf40e4597968818c34ac9e0cef5e9e58533e3351671ac5fda",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "自",
+     "転",
+     "車"
+    ],
+    "reading": "じてんしゃ",
+    "tags": [
+     "kango",
+     "transport"
+    ],
+    "title": "bicycle",
+    "type": "kango",
+    "word": "自転車"
+   },
+   "sourceNormalizedLfSha256": "b48cad048576990cf40e4597968818c34ac9e0cef5e9e58533e3351671ac5fda",
+   "sourceWorkingRawSha256": "b48cad048576990cf40e4597968818c34ac9e0cef5e9e58533e3351671ac5fda",
+   "word": "自転車"
+  },
+  {
+   "map": "files",
+   "path": "words/飛行機.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "daef2918d8d2f4d57e986625b949dd1b0450f7bdaba83e65ffe3bf7cff880cdf",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "飛",
+     "行",
+     "機"
+    ],
+    "reading": "ひこうき",
+    "tags": [
+     "kango",
+     "noun",
+     "transport"
+    ],
+    "title": "airplane",
+    "type": "kango",
+    "word": "飛行機"
+   },
+   "sourceNormalizedLfSha256": "daef2918d8d2f4d57e986625b949dd1b0450f7bdaba83e65ffe3bf7cff880cdf",
+   "sourceWorkingRawSha256": "daef2918d8d2f4d57e986625b949dd1b0450f7bdaba83e65ffe3bf7cff880cdf",
+   "word": "飛行機"
+  },
+  {
+   "map": "files",
+   "path": "words/切符.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "cda932191792b9fbc642a9b9260519a3ec5dd2a4def2e99620c5fb6f5226263c",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "切",
+     "符"
+    ],
+    "reading": "きっぷ",
+    "tags": [
+     "noun",
+     "transport",
+     "mixed-reading"
+    ],
+    "title": "ticket",
+    "type": "wago",
+    "word": "切符"
+   },
+   "sourceNormalizedLfSha256": "cda932191792b9fbc642a9b9260519a3ec5dd2a4def2e99620c5fb6f5226263c",
+   "sourceWorkingRawSha256": "cda932191792b9fbc642a9b9260519a3ec5dd2a4def2e99620c5fb6f5226263c",
+   "word": "切符"
+  },
+  {
+   "map": "files",
+   "path": "words/荷物.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "010cae78f421168ee91580c82e28019a1fc6fbe5364ae376160ec2948a50341d",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "荷",
+     "物"
+    ],
+    "reading": "にもつ",
+    "tags": [
+     "noun",
+     "travel"
+    ],
+    "title": "luggage",
+    "type": "wago",
+    "word": "荷物"
+   },
+   "sourceNormalizedLfSha256": "010cae78f421168ee91580c82e28019a1fc6fbe5364ae376160ec2948a50341d",
+   "sourceWorkingRawSha256": "010cae78f421168ee91580c82e28019a1fc6fbe5364ae376160ec2948a50341d",
+   "word": "荷物"
+  },
+  {
+   "map": "files",
+   "path": "words/交差点.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "3c40282b80d1aef59273b37ca3190e79efb652edae52077069742c936130581b",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "交",
+     "差",
+     "点"
+    ],
+    "reading": "こうさてん",
+    "tags": [
+     "kango",
+     "noun",
+     "travel"
+    ],
+    "title": "intersection",
+    "type": "kango",
+    "word": "交差点"
+   },
+   "sourceNormalizedLfSha256": "3c40282b80d1aef59273b37ca3190e79efb652edae52077069742c936130581b",
+   "sourceWorkingRawSha256": "3c40282b80d1aef59273b37ca3190e79efb652edae52077069742c936130581b",
+   "word": "交差点"
+  },
+  {
+   "map": "files",
+   "path": "words/橋.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "bee8eab4c8e9ebea2a0723cd37b5f6d495a5351dc1da68a8bc7f613ddbffdb29",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "橋"
+    ],
+    "reading": "はし",
+    "tags": [
+     "wago",
+     "noun",
+     "places"
+    ],
+    "title": "bridge",
+    "type": "wago",
+    "word": "橋"
+   },
+   "sourceNormalizedLfSha256": "bee8eab4c8e9ebea2a0723cd37b5f6d495a5351dc1da68a8bc7f613ddbffdb29",
+   "sourceWorkingRawSha256": "bee8eab4c8e9ebea2a0723cd37b5f6d495a5351dc1da68a8bc7f613ddbffdb29",
+   "word": "橋"
+  },
+  {
+   "map": "files",
+   "path": "words/角.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "072ac56d3aa1897ea47b7729dacd96c3c305e8e83a67a662a583094252d1c1b6",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "角"
+    ],
+    "quiz_exclusions": [
+     "隅"
+    ],
+    "reading": "かど",
+    "tags": [
+     "wago",
+     "noun",
+     "position"
+    ],
+    "title": "corner",
+    "type": "wago",
+    "word": "角"
+   },
+   "sourceNormalizedLfSha256": "072ac56d3aa1897ea47b7729dacd96c3c305e8e83a67a662a583094252d1c1b6",
+   "sourceWorkingRawSha256": "072ac56d3aa1897ea47b7729dacd96c3c305e8e83a67a662a583094252d1c1b6",
+   "word": "角"
+  },
+  {
+   "map": "files",
+   "path": "words/門.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "c1d4e9c7396899783a2fc7e80ce9e80b18e826062a5e0c38cac002c14f381cb2",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "門"
+    ],
+    "reading": "もん",
+    "tags": [
+     "noun",
+     "building"
+    ],
+    "title": "gate",
+    "type": "kango",
+    "word": "門"
+   },
+   "sourceNormalizedLfSha256": "c1d4e9c7396899783a2fc7e80ce9e80b18e826062a5e0c38cac002c14f381cb2",
+   "sourceWorkingRawSha256": "c1d4e9c7396899783a2fc7e80ce9e80b18e826062a5e0c38cac002c14f381cb2",
+   "word": "門"
+  },
+  {
+   "map": "files",
+   "path": "words/階段.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "5cfd176b37a93b48424010a72f8b4a7e7383859e5ed846c9a3c001b33329ec6d",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "階",
+     "段"
+    ],
+    "reading": "かいだん",
+    "tags": [
+     "kango",
+     "noun",
+     "building"
+    ],
+    "title": "stairs",
+    "type": "kango",
+    "word": "階段"
+   },
+   "sourceNormalizedLfSha256": "5cfd176b37a93b48424010a72f8b4a7e7383859e5ed846c9a3c001b33329ec6d",
+   "sourceWorkingRawSha256": "5cfd176b37a93b48424010a72f8b4a7e7383859e5ed846c9a3c001b33329ec6d",
+   "word": "階段"
+  },
+  {
+   "map": "files",
+   "path": "words/廊下.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "9946ed26d7b02e5718a1ec94e526a506cefea23c5808c6e3802079eb7492e2b2",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "廊",
+     "下"
+    ],
+    "reading": "ろうか",
+    "tags": [
+     "kango",
+     "noun",
+     "buildings"
+    ],
+    "title": "corridor; hallway",
+    "type": "kango",
+    "word": "廊下"
+   },
+   "sourceNormalizedLfSha256": "9946ed26d7b02e5718a1ec94e526a506cefea23c5808c6e3802079eb7492e2b2",
+   "sourceWorkingRawSha256": "9946ed26d7b02e5718a1ec94e526a506cefea23c5808c6e3802079eb7492e2b2",
+   "word": "廊下"
+  },
+  {
+   "map": "files",
+   "path": "words/エレベーター.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "bbc89976411068f3663e898d3e2536fe618a61dab3d3ee333c17941f27341063",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "エレベーター",
+    "tags": [
+     "gairaigo",
+     "noun",
+     "building"
+    ],
+    "title": "elevator; lift",
+    "type": "gairaigo",
+    "word": "エレベーター"
+   },
+   "sourceNormalizedLfSha256": "bbc89976411068f3663e898d3e2536fe618a61dab3d3ee333c17941f27341063",
+   "sourceWorkingRawSha256": "bbc89976411068f3663e898d3e2536fe618a61dab3d3ee333c17941f27341063",
+   "word": "エレベーター"
+  },
+  {
+   "map": "files",
+   "path": "words/公園.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "4af39971624dc4e414202d10f462d8164618e03fec00c53b521d4b67b2807352",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "公",
+     "園"
+    ],
+    "reading": "こうえん",
+    "tags": [
+     "kango",
+     "places"
+    ],
+    "title": "public park",
+    "type": "kango",
+    "word": "公園"
+   },
+   "sourceNormalizedLfSha256": "4af39971624dc4e414202d10f462d8164618e03fec00c53b521d4b67b2807352",
+   "sourceWorkingRawSha256": "4af39971624dc4e414202d10f462d8164618e03fec00c53b521d4b67b2807352",
+   "word": "公園"
+  },
+  {
+   "map": "files",
+   "path": "words/プール.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "3013caa5550b88bcbb828102976b7f4e7acb976772e5a4fc685b151764503db3",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "プール",
+    "tags": [
+     "gairaigo",
+     "noun",
+     "swimming",
+     "place"
+    ],
+    "title": "swimming pool",
+    "type": "gairaigo",
+    "word": "プール"
+   },
+   "sourceNormalizedLfSha256": "3013caa5550b88bcbb828102976b7f4e7acb976772e5a4fc685b151764503db3",
+   "sourceWorkingRawSha256": "3013caa5550b88bcbb828102976b7f4e7acb976772e5a4fc685b151764503db3",
+   "word": "プール"
+  },
+  {
+   "map": "files",
+   "path": "words/ホテル.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "f7646ef8215912ab8ac851d0f43e5e0a3ee62031a56af6735f878d820e775a45",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "ホテル",
+    "tags": [
+     "gairaigo",
+     "noun",
+     "travel"
+    ],
+    "title": "hotel",
+    "type": "gairaigo",
+    "word": "ホテル"
+   },
+   "sourceNormalizedLfSha256": "f7646ef8215912ab8ac851d0f43e5e0a3ee62031a56af6735f878d820e775a45",
+   "sourceWorkingRawSha256": "f7646ef8215912ab8ac851d0f43e5e0a3ee62031a56af6735f878d820e775a45",
+   "word": "ホテル"
+  },
+  {
+   "map": "files",
+   "path": "words/レストラン.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "39a3bc5b19c6c81b5b3e1fa1ee5e6e846401f7c31ac48c8aaec9b135da32dcc6",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "レストラン",
+    "tags": [
+     "gairaigo",
+     "noun",
+     "place",
+     "food"
+    ],
+    "title": "restaurant",
+    "type": "gairaigo",
+    "word": "レストラン"
+   },
+   "sourceNormalizedLfSha256": "39a3bc5b19c6c81b5b3e1fa1ee5e6e846401f7c31ac48c8aaec9b135da32dcc6",
+   "sourceWorkingRawSha256": "39a3bc5b19c6c81b5b3e1fa1ee5e6e846401f7c31ac48c8aaec9b135da32dcc6",
+   "word": "レストラン"
+  },
+  {
+   "map": "files",
+   "path": "words/喫茶店.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "c17d948dde9b52b41086df6afd318bdcce44d2807e98526024f188fd8a70628e",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "喫",
+     "茶",
+     "店"
+    ],
+    "reading": "きっさてん",
+    "tags": [
+     "kango",
+     "noun",
+     "place",
+     "food"
+    ],
+    "title": "coffee shop; tearoom",
+    "type": "kango",
+    "word": "喫茶店"
+   },
+   "sourceNormalizedLfSha256": "c17d948dde9b52b41086df6afd318bdcce44d2807e98526024f188fd8a70628e",
+   "sourceWorkingRawSha256": "c17d948dde9b52b41086df6afd318bdcce44d2807e98526024f188fd8a70628e",
+   "word": "喫茶店"
+  },
+  {
+   "map": "files",
+   "path": "words/食堂.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "19779c7eaa2373d0cdbc54196ce713bb1f290dcdb245c0b7e0eb958d9c3d0b4a",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "食",
+     "堂"
+    ],
+    "reading": "しょくどう",
+    "tags": [
+     "kango",
+     "food",
+     "place"
+    ],
+    "title": "dining hall, cafeteria",
+    "type": "kango",
+    "word": "食堂"
+   },
+   "sourceNormalizedLfSha256": "19779c7eaa2373d0cdbc54196ce713bb1f290dcdb245c0b7e0eb958d9c3d0b4a",
+   "sourceWorkingRawSha256": "19779c7eaa2373d0cdbc54196ce713bb1f290dcdb245c0b7e0eb958d9c3d0b4a",
+   "word": "食堂"
+  },
+  {
+   "map": "files",
+   "path": "words/デパート.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "b7c5a034ccb0206dbfb643bb0c3b5d7c6b464988dae01e5da5d9583e1b4e7b1f",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "デパート",
+    "tags": [
+     "gairaigo",
+     "noun",
+     "shopping"
+    ],
+    "title": "department store",
+    "type": "gairaigo",
+    "word": "デパート"
+   },
+   "sourceNormalizedLfSha256": "b7c5a034ccb0206dbfb643bb0c3b5d7c6b464988dae01e5da5d9583e1b4e7b1f",
+   "sourceWorkingRawSha256": "b7c5a034ccb0206dbfb643bb0c3b5d7c6b464988dae01e5da5d9583e1b4e7b1f",
+   "word": "デパート"
+  },
+  {
+   "map": "files",
+   "path": "words/図書館.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "210d321939e87afd919512e082e216b62cf4688781acdafb543c4ee28f38db24",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "図",
+     "書",
+     "館"
+    ],
+    "reading": "としょかん",
+    "tags": [
+     "kango",
+     "noun",
+     "place"
+    ],
+    "title": "library",
+    "type": "kango",
+    "word": "図書館"
+   },
+   "sourceNormalizedLfSha256": "210d321939e87afd919512e082e216b62cf4688781acdafb543c4ee28f38db24",
+   "sourceWorkingRawSha256": "210d321939e87afd919512e082e216b62cf4688781acdafb543c4ee28f38db24",
+   "word": "図書館"
+  },
+  {
+   "map": "files",
+   "path": "words/郵便局.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "8cd756c2046aac21a5bee6b0cae521b1b6e9c1842e981a04c20f20fd975a96f1",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "郵",
+     "便",
+     "局"
+    ],
+    "reading": "ゆうびんきょく",
+    "tags": [
+     "kango",
+     "noun",
+     "institutions"
+    ],
+    "title": "post office",
+    "type": "kango",
+    "word": "郵便局"
+   },
+   "sourceNormalizedLfSha256": "8cd756c2046aac21a5bee6b0cae521b1b6e9c1842e981a04c20f20fd975a96f1",
+   "sourceWorkingRawSha256": "8cd756c2046aac21a5bee6b0cae521b1b6e9c1842e981a04c20f20fd975a96f1",
+   "word": "郵便局"
+  },
+  {
+   "map": "files",
+   "path": "words/交番.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "32b20e8a80dc89fefb46cfa2cd4c5ff8dae603cc66acaed446c15ffb922f37c6",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "交",
+     "番"
+    ],
+    "reading": "こうばん",
+    "tags": [
+     "kango",
+     "noun",
+     "place"
+    ],
+    "title": "neighborhood police box",
+    "type": "kango",
+    "word": "交番"
+   },
+   "sourceNormalizedLfSha256": "32b20e8a80dc89fefb46cfa2cd4c5ff8dae603cc66acaed446c15ffb922f37c6",
+   "sourceWorkingRawSha256": "32b20e8a80dc89fefb46cfa2cd4c5ff8dae603cc66acaed446c15ffb922f37c6",
+   "word": "交番"
+  },
+  {
+   "map": "files",
+   "path": "words/大使館.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "3b5f5f0cff9b6a5fe9987df716199964d80993182123b428688f0a85f274b0c8",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "大",
+     "使",
+     "館"
+    ],
+    "reading": "たいしかん",
+    "tags": [
+     "kango",
+     "noun",
+     "institutions"
+    ],
+    "title": "embassy",
+    "type": "kango",
+    "word": "大使館"
+   },
+   "sourceNormalizedLfSha256": "3b5f5f0cff9b6a5fe9987df716199964d80993182123b428688f0a85f274b0c8",
+   "sourceWorkingRawSha256": "3b5f5f0cff9b6a5fe9987df716199964d80993182123b428688f0a85f274b0c8",
+   "word": "大使館"
+  },
+  {
+   "map": "files",
+   "path": "words/映画館.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "1332803f5562abaa195078ab540510e5087f776dd5e2c82ae809477a9bcc45f0",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "映",
+     "画",
+     "館"
+    ],
+    "reading": "えいがかん",
+    "tags": [
+     "kango",
+     "noun",
+     "entertainment",
+     "place"
+    ],
+    "title": "cinema; movie theater",
+    "type": "kango",
+    "word": "映画館"
+   },
+   "sourceNormalizedLfSha256": "1332803f5562abaa195078ab540510e5087f776dd5e2c82ae809477a9bcc45f0",
+   "sourceWorkingRawSha256": "1332803f5562abaa195078ab540510e5087f776dd5e2c82ae809477a9bcc45f0",
+   "word": "映画館"
+  },
+  {
+   "map": "files",
+   "path": "words/隅.md",
+   "role": "required-negative-reference-provider",
+   "sourceGitRawSha256": "a671d04e96cb1ff8f9df0ca1ba5e8616784e377cff7ba572f616661136d02280",
+   "sourceMetadata": {
+    "jlpt": 4,
+    "kanji": [
+     "隅"
+    ],
+    "reading": "すみ",
+    "tags": [
+     "wago",
+     "noun",
+     "position"
+    ],
+    "title": "corner; nook",
+    "type": "wago",
+    "word": "隅"
+   },
+   "sourceNormalizedLfSha256": "a671d04e96cb1ff8f9df0ca1ba5e8616784e377cff7ba572f616661136d02280",
+   "sourceWorkingRawSha256": "a671d04e96cb1ff8f9df0ca1ba5e8616784e377cff7ba572f616661136d02280",
+   "word": "隅"
+  }
+ ],
+ "phase": "Pre-authoring semantic freeze; new Russian semantics NOT accepted",
+ "plannedN5WordsAfterAcceptance": 434,
+ "plannedRemainingFrozenN5Words": 238,
+ "plannedRuntimeAfterAcceptance": 933,
+ "plannedWordCountAfterAcceptance": 621,
+ "proposedRussianTitles": {
+  "エレベーター": "лифт",
+  "タクシー": "такси",
+  "デパート": "универмаг",
+  "バス": "автобус",
+  "プール": "бассейн",
+  "ホテル": "гостиница; отель",
+  "レストラン": "ресторан",
+  "交差点": "перекрёсток",
+  "交番": "полицейский пост",
+  "公園": "общественный парк",
+  "切符": "билет",
+  "喫茶店": "кофейня; чайная",
+  "図書館": "библиотека",
+  "地下鉄": "метро",
+  "大使館": "посольство",
+  "廊下": "коридор",
+  "映画館": "кинотеатр",
+  "橋": "мост",
+  "自転車": "велосипед",
+  "荷物": "багаж",
+  "角": "угол",
+  "郵便局": "почтовое отделение",
+  "門": "ворота",
+  "隅": "угол; укромное место",
+  "階段": "лестница",
+  "飛行機": "самолёт",
+  "食堂": "столовая; обеденный зал"
+ },
+ "releaseBoundary": "Source authoring only; frozen EN and four protected refs stay fixed. No app/ordinary EN edits, media generation/authority, phone/IME/playback/C6/C7/default activation/release/human checkpoint.",
+ "requiredSourceNegativeEdges": [
+  {
+   "field": "quiz_exclusions",
+   "from": "角",
+   "to": "隅"
+  }
+ ],
+ "reviewStatus": "PENDING; actual independent three-facet whole-batch reading required",
+ "russianBaselineCommit": "d79f4434df73849e5b62461d7ef25ff609727cfc",
+ "schemaVersion": 1,
+ "sourceNavigationDisposition": "Keep all substantive teaching; link accepted/new runtime targets only; unavailable optional navigation becomes full plain text with readings, not placeholder runtime cards."
+}
