@@ -1,0 +1,88 @@
+{
+ "accepted": false,
+ "allPassed": true,
+ "authoringCommit": "ca3e72338a13017f3d5874538c9cf4253c422b45",
+ "batch": "022-foundation-contrasts-kanji",
+ "budget": {
+  "entries": 658,
+  "files": 649,
+  "inflatedBytes": 1903520,
+  "listeningTaskMediaBytes": 0,
+  "localZipBytes": 944262,
+  "retainedBytes": 1886838
+ },
+ "checkpointAuthority": null,
+ "commands": [
+  {
+   "argv": [
+    "python",
+    "tools\\build_manifest.py"
+   ],
+   "completedAt": "2026-11-05T08:38:24.423392+00:00",
+   "durationSeconds": 0.1720000000204891,
+   "returncode": 0,
+   "startedAt": "2026-11-05T08:38:24.257065+00:00",
+   "stderr": "",
+   "stdout": "manifest.json: 641 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version add35d1a4509626b\n"
+  },
+  {
+   "argv": [
+    "python",
+    "tools\\validate.py"
+   ],
+   "completedAt": "2026-11-05T08:38:26.163554+00:00",
+   "durationSeconds": 1.3900000000139698,
+   "returncode": 0,
+   "startedAt": "2026-11-05T08:38:24.768184+00:00",
+   "stderr": "",
+   "stdout": "0 error(s)\n"
+  },
+  {
+   "argv": [
+    "python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tools",
+    "-p",
+    "test_*.py"
+   ],
+   "completedAt": "2026-11-05T08:39:04.296238+00:00",
+   "durationSeconds": 38.14100000006147,
+   "returncode": 0,
+   "startedAt": "2026-11-05T08:38:26.163554+00:00",
+   "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 37.589s\n\nOK\n",
+   "stdout": ""
+  },
+  {
+   "argv": [
+    "python",
+    "tools\\check_content_budget.py"
+   ],
+   "completedAt": "2026-11-05T08:39:04.746370+00:00",
+   "durationSeconds": 0.4369999999180436,
+   "returncode": 0,
+   "startedAt": "2026-11-05T08:39:04.296238+00:00",
+   "stderr": "",
+   "stdout": "{'files': 649, 'entries': 658, 'retainedBytes': 1886838, 'inflatedBytes': 1903520, 'localZipBytes': 944262, 'listeningTaskMediaBytes': 0}\n"
+  }
+ ],
+ "execution": "Author executes ordinaryPythoncommandsseriallyandwaitsforeachactualexit;nontestsdelegated,nobuilds/emulators.",
+ "manifest": {
+  "contentVersion": "add35d1a4509626b",
+  "rawSha256": "c0607a21d3441f163c773009e773ed0dbeb19495c7136c045028a8f976197dec",
+  "runtimeObjects": 641,
+  "unchangedFromFocusedReviewSnapshot": true
+ },
+ "ordinaryActivationAuthorized": false,
+ "schemaVersion": 1,
+ "semanticAcceptanceBoundary": "Actualtestsallpassedonfinalreviewedsnapshot;testreportacceptedfalsemeansnoindependentreleaseauthority,notatestfailure. Editorialacceptanceinseparatereview/source.",
+ "semanticReviewAtStart": "022-F1authorfiximplemented;independentfocusedrecheckseparateandnotassumed.",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "tests": {
+  "count": 124,
+  "result": "OK",
+  "runnerSeconds": 37.589
+ }
+}

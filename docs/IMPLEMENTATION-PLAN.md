@@ -8,6 +8,34 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The twenty-second full-target source batch adds full友・古・右・天・左・新・気・犬・良・銀・長
+cards,13complete word articles and11RAW-identical licensed frozen-source strokes.
+[Batch022 accepted source](translation-batches/022-foundation-contrasts-kanji-reviewed-source.json)
+binds46affected paths:35new runtime objects and14exact wrappers across11older bodies.
+All595other baseline RAW objects remain unchanged. Actual independent review read47complete
+RU/ENpairs and417word/97kanji title/guard rows—not514whole-body reviews. One finding,
+unsafe長→良 because both have ordinary positive-quality meanings, was recorded before
+a separate signed amendment and resolved by長→銀. A focused independent3-pair recheck
+confirmed the fix and unchanged640other runtime objects; all three textual facets are CLEAN.
+The synchronous initial reviewer could not receive follow-up messages, so a fresh narrow
+recheck was necessary; there was never more than one active reviewer.
+
+All33final directed kanji edges, six source word negative edges and three new direct guards
+(子犬–犬、右手–手、左手–手) are reviewed; no transitive clique. Four source kanji edges
+change in total. Named気reading-classification/history, qualified右岸うがん correction,
+古/新/良reading grouping and register retain their exact evidence boundaries.
+Current membership641:97kanji/417words/97strokes/2articles/22counterfiles/onegrammarset/
+2scenecatalogs/3images. Strict8278-entry progress:641reviewed-current, no partial,
+two reviewed runtime-blocked drafts,7,635pending and7,637runtimepathsabsent.
+Kanji levels74N5/18N4/5N3 leave six frozenN5kanji:名・子・学・小・校・高.
+Actual final serialized checks:0errors/124tests37.589s; budget649files/658entries,
+1886838retained/1903520inflated/944262localZIPbytes; version `add35d1a4509626b`.
+Public desktop archive/exact-main CI follow separately. No new canonical tag IDs;
+concurrent app and frozen pilot refs remain untouched. No phone/IME/playback/newmedia/
+packageaudio/C6/C7/activation/release/checkpoint authority. Continue every safe frozen family.
+
+Earlier accepted milestones below are historical.
+
 The twenty-first full-target source batch adds full万・国・語・母・父・毎・海 cards,
 two complete word articles and seven RAW-identical licensed frozen-source strokes.
 The separately frozen navigation amendment covers18old bodies with22exact wrappers;

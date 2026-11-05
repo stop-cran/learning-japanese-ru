@@ -776,3 +776,44 @@ New retained canonical `set-phrase` and `simplified-form` app rendering is UNVER
 not a proven defect; concurrent app untouched. No phone/IME/native/playback/newmedia/
 packageaudio/C6/C7/ordinaryactivation/release/checkpoint authority follows. Continue
 sequential safe authoring across every remaining frozen family, not just this milestone.
+
+## Reviewed source milestone022: foundation contrasts
+
+The [accepted source record](translation-batches/022-foundation-contrasts-kanji-reviewed-source.json)
+adds complete友・古・右・天・左・新・気・犬・良・銀・長 cards,13complete word articles
+and11RAW-identical licensed frozen-source strokes. Fourteen separately frozen wrappers
+across11older bodies restore adopted navigation; all other old RAW bytes and595unaffected
+baseline runtime objects remain unchanged. All46affected paths retain exact source and
+current Russian workingRAW/canonicalGitRAW/LF hashes. Earlier milestone counts are historical.
+
+Actual independent whole review read47completeRU/ENpairs:35authored/amended bodies,
+12unchanged contexts, plus all417word/97kanji title/guard rows. It found one unsafe retained
+長→良 meaning edge: both have ordinary positive-quality senses. The actual finding was saved,
+then a separate signed pre-edit amendment froze長→銀. A focused independent3-pair recheck
+read final長/銀/良, verified the one-line fix and640unchanged other runtime objects, and
+confirmed all three textual facets CLEAN. The original synchronous reviewer could not receive
+follow-up messages; that evidenced tool limitation required the fresh focused reviewer.
+The final47-pair coverage is carried forward with unchanged proof, not a second47-pair reread.
+All33directed kanji edges, six source word negative edges and three direct word guards
+(子犬–犬、右手–手、左手–手) are reviewed. Four kanji source edges change in total;
+there is no transitive right/left-hand or human-child/puppy clique.
+
+気's KANJIDIC/KanjiPedia classification difference is explicit; selected grading is preserved.
+The old-氣 dictionary history is distinct from the rice/steam mnemonic. Unsupported positive
+ゆうがん teaching is omitted without asserting universal impossibility; right-bankうがん
+andユウthrough左右 remain. 古/新/良 reading groupings,年上 and年寄り register are qualified.
+長短's actual named dictionary bodies were read at canonical568822; generated URL prose
+and an incomplete simplifiedHTML extraction are not used as evidence. Historical receipts
+remain immutable, including their explicit later corrections.
+
+Current membership is **641runtime objects**:97kanji/417words/97strokes/2articles/
+22counterfiles/onegrammarset/2scenecatalogs/3images. Kanji74N5/18N4/5N3 leave six frozenN5
+cards absent:名・子・学・小・校・高. Fresh strict8278-entry progress:
+**641reviewed-current**, **no partial**, **two reviewed runtime-blocked drafts**,
+**7,635pending**, **7,637runtimepathsabsent**. Checkpointauthoritynull/Readyfalse.
+Actual final serialized checks:0errors/124tests37.589s; budget649files/658entries/
+1886838retained/1903520inflated/944262localZIPbytes; version `add35d1a4509626b`.
+Public desktop archive and exact-main CI are separate publication evidence, not inferred here.
+Existing licenses/rootUnicode notice remain; no new canonical tag IDs. Concurrent app untouched.
+No native/phone/IME/playback/newmedia/packageaudio/C6/C7/ordinaryactivation/release authority.
+Continue all remaining safe frozen families; neither allN5 nor the full corpus is complete.
