@@ -1,0 +1,649 @@
+{
+  "schemaVersion": 1,
+  "batch": "016-everyday-reading-words",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "frozenScopeCommit": "152c90480ee0120675ac8aa375f99cc919de8300",
+  "state": "author-adjudication-pending-independent-review",
+  "actualAdoptedScope": {
+    "newFiles": 25,
+    "sourceFullLines": 820,
+    "russianFullLines": 844,
+    "oldDisplayedMeaningsActuallyRead": 325,
+    "newDisplayedMeaningsActuallyRead": 25,
+    "sourcePreservedDirectedEdges": 8,
+    "addedDirectRussianGuards": 8
+  },
+  "guardPairs": [
+    {
+      "left": "自動車",
+      "right": "車",
+      "reason": "Actual primary automobile meaning shared by both source bodies and exact dictionary objects10/15; planned Russianавтомобильlabels. Not a generic all-transport clique."
+    },
+    {
+      "left": "知る",
+      "right": "理解",
+      "reason": "Independent direct witness: query20知るsense3 explicitly includes understand/comprehend/grasp/appreciate; query19理解and itsするusage concern understanding. Not inferred from the source's two分かるedges or asserted unrestricted interchangeability."
+    },
+    {
+      "left": "足",
+      "right": "車",
+      "reason": "Source足actually teaches transport in足がない; query14sense6 is means of transportation/(one's)ride, restricted to足. Query15車sense1 includes vehicle; planned Russian title retainsтранспортное средство. Do not infer足–自動車or a vehicle-type clique."
+    },
+    {
+      "left": "足",
+      "right": "お金",
+      "reason": "Query14sense7 explicitly lists colloquialmoney/coinwithinfo usuお〜; query0is money. Provisional lexical guard retains that qualifier and does NOT teach bare足as ordinary money or transfer the sense to脚/肢. Independent reviewer must assess the actual reading/label boundary; not inferred through車."
+    },
+    {
+      "left": "立つ",
+      "right": "出かける",
+      "reason": "Query24senses4–5 directly include leave/set off/depart; sense5oftenwritten発つ, not restricted to it. Actual baseline出かけるtitle/body includesвыходить/отправляться. Posture is still the primary taught use, not every sense made synonymous."
+    },
+    {
+      "left": "立つ",
+      "right": "出発",
+      "reason": "Independent query24sense5depart/set off matches actual baseline出発/出発するdeparture use. Oftenwritten発つqualifier retained in provenance; no inference through出かける."
+    },
+    {
+      "left": "立つ",
+      "right": "出る",
+      "reason": "Independent query24sense4leaveand7appear(of rainbow/clouds etc.) overlap actual baselineвыходить/появлятьсяlabels. Sense restrictions remain; no claim all立つ/出るconstructions substitute."
+    },
+    {
+      "left": "生まれる",
+      "right": "出る",
+      "reason": "Actual frozen source生まれるexplicitly teaches new things coming into being/new ideas arising; current出るlabel includesпоявляться. Direct Russian appearance overlap, not a transitive inference through立つ, and not a claim literal birth equals every exit."
+    }
+  ],
+  "actualAnswerPoolAssessment": [
+    "All325actual baseline labels and25new labels read, plus nine complete relevant baseline bodies. Assess all350actual displayed meanings, not English gloss/string equality/type/tag differences alone.",
+    "Additional direct pairs use individually recorded lexical witnesses. Carprimarysynonyms, qualifiedfoottransport/cash, knowledgeunderstanding, standingdeparture/appearanceandbirthappearanceeach have their own explanation. Footcashis explicitlycolloquial/usuお〜; not claimed ordinary unprefixed usage. No transitive extension to all cars/transports/movement/people/colours/food.",
+    "Source8directednegativeedgesallretained;source買う–売るisdeclaredinbothdirectionsandnotcountedasnewsemantics. Exactsource24N5/1N3, allkanji/types/tags/primaryreadingspreserved. Source毎年bothH1readingsretained.",
+    "Colourblue/greenconventionsandwhite/bluepalenessreadintheiractualsource/dictionarycontexts;noall-colourclique. Physicaltanningandfigurative腹黒いkeptseparate. Hand/footarebodypartcontrasts,notstrictantonyms.",
+    "All391oldruntimebytes,trackingrecordsandgeneratedprogressremainexactprioracceptedbaseline;noindependentreviewacceptanceinsertedbeforeactualreturnedreview."
+  ],
+  "sourceAdaptations": [
+    {
+      "path": "words/手.md",
+      "claim": "Relabel足comparison as related/contrasting body part, not strict lexical antonym; preserve手足and all examples.",
+      "evidence": "Actual full足source explicitly says related body part/not an antonym; complete hand/foot dictionary objects."
+    },
+    {
+      "path": "words/毎年.md",
+      "claim": "Keep sourceH1bothまいとし／まいねん, primary metadataまいとし/typekango. Explain mixedon/kunversusall-onwithout inventing a new class.",
+      "evidence": "Actual written-form/reading fields in queries4/27; both source readings preserved."
+    },
+    {
+      "path": "words/分かる.md",
+      "claim": "Replace Englishpassive-perspective dependency with self-contained Russian explanation of intransitive godan/nonpassive form. Retain分る/解るand labelled learning-image-not-etymology.",
+      "evidence": "Complete source and actual query1forms/labels/senses1–2."
+    },
+    {
+      "path": "words/生まれる.md",
+      "claim": "Translate産まれるas variant referring to being born/physical birth, not transitivegivingbirth. Preserve子供を生むversus子供が生まれる, extended ideas, birthplace noun and own-birth past.",
+      "evidence": "Actual queries6/31both list intransitive birth; query30birth/birthplace noun. Complete source teaching preserved."
+    },
+    {
+      "path": "words/貸す.md",
+      "claim": "Remove Englishrent/borrowdependency but retain lender/borrower direction,に/をroles, temporary use versus gift and who acts inペンを貸してください.",
+      "evidence": "Complete source and queries22/43/44; no particle-to-Russian-case equivalence."
+    },
+    {
+      "path": "words/緑.md",
+      "claim": "Remove Englishcolourcategorydependency; teach Japanese緑のand conventional青信号without unrestricted青/緑interchangeability.",
+      "evidence": "Actual queries17/23/51/52and complete source colour bodies."
+    },
+    {
+      "path": "words/雨.md",
+      "claim": "Preserve textual Tokyo pitch contrast rainHL/candyLH; do not call Russian stress, audio playback or native/device acceptance.",
+      "evidence": "Both complete actual Wiktionarypronunciationsections, same revision2345350, map雨section7acc1and飴section13acc0. Not supplied by JishoAPI."
+    },
+    {
+      "path": "words/足.md",
+      "claim": "Render retained一足いっそくexample as one pair of footwear, not one individual shoe; preserveあし/た/ソク/きゃくand足/脚qualifications.",
+      "evidence": "Complete supplemental exact一足いっそくquery explicitlya pair(of shoes or socks); actual foot and脚きゃくobjects."
+    },
+    {
+      "path": "words/買う.md",
+      "claim": "Keep買わないnot買あない,買えるpotentialand買う/飼うdistinction; flatten absentoptionalkaeruarticle into a fully Russian comparison label without dropping its change/replace/exchange/return teaching.",
+      "evidence": "Complete source and queries12/45/46; optional navigation is not a new article prerequisite."
+    }
+  ],
+  "actualPrevalidationProbe": "Initial Japanese-token-set aid flagged missing standalone買in買い物component discussion; the kanji was already present in metadata/stem but was restored explicitly for clarity. This was before manifest/validator/tests, not a failed validator or semantic proof. The actual rerun requires no missing source tokens.",
+  "additionalActualEvidenceAfterFreeze": {
+    "captureRawSha256": "6660c3e21a5575aa34237d5b8141baabeea0cf91629e0ff6115753b2952b649a",
+    "completeCapture": {
+      "at": "2026-11-05T00:51:54.851731+00:00",
+      "state": "additional-complete-object-evidence-captured-and-actually-read-after-freeze-before-candidate",
+      "queries": [
+        {
+          "url": "https://jisho.org/api/v1/search/words?keyword=%E9%87%91%E8%B2%B8%E3%81%97",
+          "requestedWord": "金貸し",
+          "requestedReading": "かねかし",
+          "exactEntries": [
+            {
+              "slug": "金貸し",
+              "is_common": false,
+              "tags": [],
+              "jlpt": [],
+              "japanese": [
+                {
+                  "word": "金貸し",
+                  "reading": "かねかし"
+                }
+              ],
+              "senses": [
+                {
+                  "english_definitions": [
+                    "moneylending"
+                  ],
+                  "parts_of_speech": [
+                    "Noun",
+                    "Suru verb"
+                  ],
+                  "links": [],
+                  "tags": [],
+                  "restrictions": [],
+                  "see_also": [],
+                  "antonyms": [],
+                  "source": [],
+                  "info": []
+                },
+                {
+                  "english_definitions": [
+                    "moneylender"
+                  ],
+                  "parts_of_speech": [
+                    "Noun"
+                  ],
+                  "links": [],
+                  "tags": [],
+                  "restrictions": [],
+                  "see_also": [],
+                  "antonyms": [],
+                  "source": [],
+                  "info": []
+                }
+              ],
+              "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+              }
+            }
+          ]
+        },
+        {
+          "url": "https://jisho.org/api/v1/search/words?keyword=%E8%B2%AF%E9%87%91",
+          "requestedWord": "貯金",
+          "requestedReading": "ちょきん",
+          "exactEntries": [
+            {
+              "slug": "貯金",
+              "is_common": true,
+              "tags": [
+                "wanikani26"
+              ],
+              "jlpt": [
+                "jlpt-n3"
+              ],
+              "japanese": [
+                {
+                  "word": "貯金",
+                  "reading": "ちょきん"
+                }
+              ],
+              "senses": [
+                {
+                  "english_definitions": [
+                    "putting money aside",
+                    "savings",
+                    "deposit (e.g. in a bank)"
+                  ],
+                  "parts_of_speech": [
+                    "Noun",
+                    "Suru verb",
+                    "Transitive verb"
+                  ],
+                  "links": [],
+                  "tags": [],
+                  "restrictions": [],
+                  "see_also": [],
+                  "antonyms": [],
+                  "source": [],
+                  "info": []
+                },
+                {
+                  "english_definitions": [
+                    "accumulated surplus of wins",
+                    "wins in the bank"
+                  ],
+                  "parts_of_speech": [
+                    "Noun",
+                    "Suru verb",
+                    "Transitive verb"
+                  ],
+                  "links": [],
+                  "tags": [
+                    "Baseball"
+                  ],
+                  "restrictions": [],
+                  "see_also": [],
+                  "antonyms": [],
+                  "source": [],
+                  "info": []
+                }
+              ],
+              "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+              }
+            }
+          ]
+        },
+        {
+          "url": "https://jisho.org/api/v1/search/words?keyword=%E9%87%91%E9%A1%8D",
+          "requestedWord": "金額",
+          "requestedReading": "きんがく",
+          "exactEntries": [
+            {
+              "slug": "金額",
+              "is_common": true,
+              "tags": [],
+              "jlpt": [
+                "jlpt-n3"
+              ],
+              "japanese": [
+                {
+                  "word": "金額",
+                  "reading": "きんがく"
+                }
+              ],
+              "senses": [
+                {
+                  "english_definitions": [
+                    "amount of money",
+                    "sum"
+                  ],
+                  "parts_of_speech": [
+                    "Noun"
+                  ],
+                  "links": [],
+                  "tags": [],
+                  "restrictions": [],
+                  "see_also": [],
+                  "antonyms": [],
+                  "source": [],
+                  "info": []
+                }
+              ],
+              "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+              }
+            }
+          ]
+        },
+        {
+          "url": "https://jisho.org/api/v1/search/words?keyword=%E6%BA%80%E8%B6%B3",
+          "requestedWord": "満足",
+          "requestedReading": "まんぞく",
+          "exactEntries": [
+            {
+              "slug": "満足",
+              "is_common": true,
+              "tags": [
+                "wanikani25"
+              ],
+              "jlpt": [
+                "jlpt-n3"
+              ],
+              "japanese": [
+                {
+                  "word": "満足",
+                  "reading": "まんぞく"
+                },
+                {
+                  "word": "滿足",
+                  "reading": "まんぞく"
+                }
+              ],
+              "senses": [
+                {
+                  "english_definitions": [
+                    "satisfaction",
+                    "contentment",
+                    "gratification"
+                  ],
+                  "parts_of_speech": [
+                    "Noun",
+                    "Na-adjective (keiyodoshi)",
+                    "Suru verb",
+                    "Transitive verb",
+                    "Intransitive verb"
+                  ],
+                  "links": [],
+                  "tags": [],
+                  "restrictions": [],
+                  "see_also": [],
+                  "antonyms": [],
+                  "source": [],
+                  "info": []
+                },
+                {
+                  "english_definitions": [
+                    "sufficient",
+                    "satisfactory",
+                    "enough",
+                    "adequate",
+                    "proper",
+                    "decent"
+                  ],
+                  "parts_of_speech": [
+                    "Na-adjective (keiyodoshi)",
+                    "Noun"
+                  ],
+                  "links": [],
+                  "tags": [],
+                  "restrictions": [],
+                  "see_also": [],
+                  "antonyms": [],
+                  "source": [],
+                  "info": []
+                },
+                {
+                  "english_definitions": [
+                    "satisfying (an equation)"
+                  ],
+                  "parts_of_speech": [
+                    "Noun",
+                    "Suru verb",
+                    "Transitive verb",
+                    "Intransitive verb"
+                  ],
+                  "links": [],
+                  "tags": [
+                    "Mathematics"
+                  ],
+                  "restrictions": [],
+                  "see_also": [],
+                  "antonyms": [],
+                  "source": [],
+                  "info": []
+                }
+              ],
+              "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+              }
+            }
+          ]
+        },
+        {
+          "url": "https://jisho.org/api/v1/search/words?keyword=%E9%81%A0%E8%B6%B3",
+          "requestedWord": "遠足",
+          "requestedReading": "えんそく",
+          "exactEntries": [
+            {
+              "slug": "遠足",
+              "is_common": true,
+              "tags": [
+                "wanikani16"
+              ],
+              "jlpt": [
+                "jlpt-n2"
+              ],
+              "japanese": [
+                {
+                  "word": "遠足",
+                  "reading": "えんそく"
+                }
+              ],
+              "senses": [
+                {
+                  "english_definitions": [
+                    "school trip",
+                    "field trip",
+                    "excursion",
+                    "outing"
+                  ],
+                  "parts_of_speech": [
+                    "Noun",
+                    "Suru verb",
+                    "Intransitive verb"
+                  ],
+                  "links": [],
+                  "tags": [],
+                  "restrictions": [],
+                  "see_also": [],
+                  "antonyms": [],
+                  "source": [],
+                  "info": []
+                },
+                {
+                  "english_definitions": [
+                    "long walk",
+                    "excursion (on foot)"
+                  ],
+                  "parts_of_speech": [
+                    "Noun",
+                    "Suru verb",
+                    "Intransitive verb"
+                  ],
+                  "links": [],
+                  "tags": [
+                    "Dated term"
+                  ],
+                  "restrictions": [],
+                  "see_also": [],
+                  "antonyms": [],
+                  "source": [],
+                  "info": []
+                }
+              ],
+              "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+              }
+            }
+          ]
+        },
+        {
+          "url": "https://jisho.org/api/v1/search/words?keyword=%E7%9B%AE%E7%8E%89",
+          "requestedWord": "目玉",
+          "requestedReading": "めだま",
+          "exactEntries": [
+            {
+              "slug": "目玉",
+              "is_common": true,
+              "tags": [
+                "wanikani2"
+              ],
+              "jlpt": [],
+              "japanese": [
+                {
+                  "word": "目玉",
+                  "reading": "めだま"
+                }
+              ],
+              "senses": [
+                {
+                  "english_definitions": [
+                    "eyeball"
+                  ],
+                  "parts_of_speech": [
+                    "Noun"
+                  ],
+                  "links": [],
+                  "tags": [],
+                  "restrictions": [],
+                  "see_also": [],
+                  "antonyms": [],
+                  "source": [],
+                  "info": []
+                },
+                {
+                  "english_definitions": [
+                    "special feature",
+                    "centerpiece",
+                    "showpiece",
+                    "drawcard"
+                  ],
+                  "parts_of_speech": [
+                    "Noun"
+                  ],
+                  "links": [],
+                  "tags": [
+                    "Abbreviation"
+                  ],
+                  "restrictions": [],
+                  "see_also": [
+                    "目玉番組 めだまばんぐみ"
+                  ],
+                  "antonyms": [],
+                  "source": [],
+                  "info": []
+                },
+                {
+                  "english_definitions": [
+                    "special program",
+                    "loss leader"
+                  ],
+                  "parts_of_speech": [
+                    "Noun"
+                  ],
+                  "links": [],
+                  "tags": [
+                    "Abbreviation"
+                  ],
+                  "restrictions": [],
+                  "see_also": [
+                    "目玉商品 めだましょうひん"
+                  ],
+                  "antonyms": [],
+                  "source": [],
+                  "info": []
+                },
+                {
+                  "english_definitions": [
+                    "sunny-side up fried egg"
+                  ],
+                  "parts_of_speech": [
+                    "Noun"
+                  ],
+                  "links": [],
+                  "tags": [
+                    "Abbreviation"
+                  ],
+                  "restrictions": [],
+                  "see_also": [
+                    "目玉焼き めだまやき"
+                  ],
+                  "antonyms": [],
+                  "source": [],
+                  "info": []
+                },
+                {
+                  "english_definitions": [
+                    "Medama"
+                  ],
+                  "parts_of_speech": [
+                    "Place"
+                  ],
+                  "links": [],
+                  "tags": [],
+                  "restrictions": [],
+                  "see_also": [],
+                  "antonyms": [],
+                  "source": [],
+                  "info": []
+                }
+              ],
+              "attribution": {
+                "jmdict": true,
+                "jmnedict": true,
+                "dbpedia": false
+              }
+            }
+          ]
+        }
+      ],
+      "purpose": "Confirm Russian meanings supplied for retained source compounds; no new runtime unit or retargeted English source."
+    },
+    "counts": {
+      "completeQueries": 6,
+      "entryOccurrences": 6,
+      "writtenFormReadingOccurrences": 7,
+      "senseObjects": 15,
+      "lexical": 14,
+      "properNamePlace": 1,
+      "wikipedia": 0
+    },
+    "actualReadScope": "Every complete returned金貸し/貯金/金額/満足/遠足/目玉entry/form/sense/restriction/attributionobjectactuallyreadbeforecandidate. MedamaPlaceisnotcommon-nounevidence. 遠足datedlong-walksenseand目玉abbreviationqualifiersdistinguished;noall-senseadoption.",
+    "effectiveDictionaryTotals": {
+      "queryOccurrences": 73,
+      "entryOccurrencesNotAssertedUnique": 73,
+      "writtenFormReadingOccurrences": 126,
+      "senseObjects": 289,
+      "lexical": 270,
+      "properNamePlace": 2,
+      "wikipedia": 17
+    },
+    "totalsBoundary": "Core66+oneprefrozen一足query+sixpostfreezeclarificationqueries. Textualpitchsectionsnotdictionaryqueryobjects. Signedprefreezerecordsremainhistorical,notrewritten."
+  },
+  "completeTranslation": "All25titles/H1/100exactRussianH2/allparagraphs/examples/qualifications/citationlabelsfullylocalized. Japaneseforms/sourceURLsretained. Optionalabsentnavigationflattenedwithoutdiscardingteaching;existingword/日linksremainvalid. Noassets/grammarcontexts/newkanji/strokes/audio.",
+  "activeGuidanceChanges": "Two related scoped lines: sourceAntonymlabelisnotproof;手–足arebodypartcontrast,nonstrictantonyms. Actualfullsource足contradictshand'sAntonymlabel. Whole reviewer must read this delta.",
+  "baseline391RawObjectsAndAllOldTrackingUnchanged": true,
+  "pinnedUiFollowUp": {
+    "appCommit": "5c000bd5596d2189ef878da572687bd01ab3bb5f",
+    "path": "app/src/main/java/io/github/stopcran/kanji/ui/WordQuizScreen.kt",
+    "rawBlobSha256": "530ff7e5d6da2829bc08ff57c6356162af04b0ab84598cb7c19127217f71c08c",
+    "actualPinnedFunction": "fun localizedWordPromptTag(tag: String): String {\r\n    val resource = when (tag) {\r\n        \"adjective\" -> R.string.word_tag_adjective\r\n        \"appearance\" -> R.string.word_tag_appearance\r\n        \"body\" -> R.string.word_tag_body\r\n        \"compound\" -> R.string.word_tag_compound\r\n        \"conversation\" -> R.string.word_tag_conversation\r\n        \"daily-life\" -> R.string.word_tag_daily_life\r\n        \"drink\" -> R.string.word_tag_drink\r\n        \"expression\" -> R.string.word_tag_expression\r\n        \"feelings\" -> R.string.word_tag_feelings\r\n        \"giongo\" -> R.string.word_tag_giongo\r\n        \"giseigo\" -> R.string.word_tag_giseigo\r\n        \"gitaigo\" -> R.string.word_tag_gitaigo\r\n        \"godan\" -> R.string.word_tag_godan\r\n        \"intransitive\" -> R.string.word_tag_intransitive\r\n        \"jukujikun\" -> R.string.word_tag_jukujikun\r\n        \"light\" -> R.string.word_tag_light\r\n        \"literary\" -> R.string.word_tag_literary\r\n        \"mimetic\" -> R.string.word_tag_mimetic\r\n        \"movement\" -> R.string.word_tag_movement\r\n        \"nature\" -> R.string.word_tag_nature\r\n        \"noun\" -> R.string.word_tag_noun\r\n        \"onomatopoeia\" -> R.string.word_tag_onomatopoeia\r\n        \"people\" -> R.string.word_tag_people\r\n        \"personality\" -> R.string.word_tag_personality\r\n        \"reduplication\" -> R.string.word_tag_reduplication\r\n        \"ri-ending\" -> R.string.word_tag_ri_ending\r\n        \"size\" -> R.string.word_tag_size\r\n        \"sokuon\" -> R.string.word_tag_sokuon\r\n        \"texture\" -> R.string.word_tag_texture\r\n        \"time\" -> R.string.word_tag_time\r\n        \"verb\" -> R.string.word_tag_verb\r\n        \"voiced\" -> R.string.word_tag_voiced\r\n        else -> return tag\r\n    }\r\n    return stringResource(resource)\r\n}",
+    "unmappedCanonicalTagsByAffectedCard": {
+      "color": [
+        "words/緑.md"
+      ],
+      "food": [
+        "words/牛肉.md"
+      ],
+      "knowledge": [
+        "words/知る.md"
+      ],
+      "number": [
+        "words/半分.md"
+      ],
+      "polite-prefix": [
+        "words/お金.md"
+      ],
+      "posture": [
+        "words/立つ.md"
+      ],
+      "suru-verb": [
+        "words/買い物.md"
+      ],
+      "thinking": [
+        "words/理解.md"
+      ],
+      "transitive": [
+        "words/売る.md",
+        "words/貸す.md"
+      ],
+      "transport": [
+        "words/自動車.md",
+        "words/車.md"
+      ],
+      "weather": [
+        "words/雨.md"
+      ]
+    },
+    "limits": "Exact immutable committed blob/function reused and its Git blob hash freshly verified, not current dirty app/main/phone behavior. Canonical IDs preserved. No app modifications/builds; follow-up only.",
+    "unmappedOccurrences": 13
+  },
+  "reviewStatus": "pending",
+  "independentReviewer": null,
+  "limits": "Authorreasoning/checksonly,notindependentlinguistic/native/UI/phone/media/checkpointapproval."
+}
