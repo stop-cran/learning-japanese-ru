@@ -1,0 +1,194 @@
+{
+ "acceptedOriginalDirectPairsFromActualReview": [
+  [
+   "いい",
+   "良い"
+  ],
+  [
+   "いい",
+   "大丈夫"
+  ],
+  [
+   "辛い",
+   "苦しい"
+  ],
+  [
+   "苦しい",
+   "痛い"
+  ],
+  [
+   "丈夫",
+   "強い"
+  ],
+  [
+   "丈夫",
+   "元気"
+  ],
+  [
+   "強い",
+   "元気"
+  ],
+  [
+   "大丈夫",
+   "良い"
+  ],
+  [
+   "大丈夫",
+   "元気"
+  ],
+  [
+   "不味い",
+   "悪い"
+  ],
+  [
+   "冷たい",
+   "寒い"
+  ],
+  [
+   "弱い",
+   "薄い"
+  ],
+  [
+   "辛い",
+   "痛い"
+  ],
+  [
+   "辛い",
+   "重い"
+  ],
+  [
+   "苦しい",
+   "重い"
+  ],
+  [
+   "甘い",
+   "弱い"
+  ],
+  [
+   "不味い",
+   "弱い"
+  ],
+  [
+   "悪い",
+   "弱い"
+  ],
+  [
+   "晴れ",
+   "天気"
+  ],
+  [
+   "辛い",
+   "冷たい"
+  ],
+  [
+   "不味い",
+   "汚い"
+  ]
+ ],
+ "actualInitialFacets": {
+  "C1": "CLEAN",
+  "C2": "FINDINGS",
+  "C3": "FINDINGS"
+ },
+ "actualInitialReportUtf8Sha256": "baa22ded7efb563b300be8872e4501182dcfc3f49aacbe192ceeb73f8533a1aa",
+ "actualInitialReviewerAgentId": "c499ea7c-f6e5-4925-8891-eda968e5e2ef",
+ "additionalJapaneseLexicalEvidence": {
+  "actualCompleteObjectReadByAuthorAgain": true,
+  "actualSense2EnglishDefinitions": [
+   "uninteresting (esp. joke)",
+   "lame",
+   "dull",
+   "weak",
+   "corny"
+  ],
+  "captureFile": "ru-029-dictionary-query-06-001.json",
+  "captureWorkingRawSha256": "4871906c66565f1622df923e25aa63273bf3f40f074ae58ac725a20849df5357",
+  "rawResponseSha256": "f159b501545a486a984fd971dfdf747c8a265cc2d4202f4566ddfa38bfd93207"
+ },
+ "additionalProposedDirectPair": {
+  "confidence": "moderate",
+  "correctedSnapshotIndependentRecheck": "PENDING",
+  "declaredOn": "寒い",
+  "origin": "actual independent whole-reviewF1; author accepts the correction recommendation, not automatic corrected-snapshot acceptance",
+  "pair": [
+   "寒い",
+   "弱い"
+  ],
+  "reason": "Actual寒い lexical sense2 includes uninteresting/lame/dull/weak jokes; actual combined caption弱い isслабый. Conservative direct colloquial-quality safeguard, not weather synonyms, negative-category clique or transitivity through冷たい."
+ },
+ "additionalRussianMeaningEvidence": {
+  "actualScope": "Actually read complete returnedЗначение1–6, particularly sense4плохой/неудачный/неспособный and examplesслабыйфильм/учёный/доклад. Lateretymology truncated, not claimedcomplete.",
+  "boundary": "GeneralRussian poor-quality sense supports the moderate editorial assessment, NOT a direct Japanese–Russian entry, attestation of the exactслабаяшуткаcollocation, or unrestricted synonymy.",
+  "rawResponseSha256": null,
+  "url": "https://ru.wiktionary.org/wiki/%D1%81%D0%BB%D0%B0%D0%B1%D1%8B%D0%B9"
+ },
+ "answerRowsUnchanged": 541,
+ "baselineCommit": "28ab62ae7a7dd8e1913bc68a352e3933ead1839f",
+ "batch": "029-weather-taste-condition",
+ "checkpointAuthority": null,
+ "completePairCountUnchanged": 43,
+ "continueRequired": true,
+ "expectedMetadataOverride": {
+  "expectedRussianMetadata": {
+   "jlpt": 5,
+   "kanji": [
+    "寒"
+   ],
+   "quiz_exclusions": [
+    "弱い"
+   ],
+   "reading": "さむい",
+   "tags": [
+    "wago",
+    "adjective",
+    "weather"
+   ],
+   "title": "холодно; зябко",
+   "type": "wago",
+   "word": "寒い"
+  },
+  "path": "words/寒い.md"
+ },
+ "finalProposedDirectPairCount": 22,
+ "fullTaskComplete": false,
+ "guidanceChangePlanned": {
+  "addedLines": 3,
+  "anchor": "- В ответе словарного API отличайте лексические sense от объектов с меткой `Wikipedia definition`:\n",
+  "beforeNormalizedLfSha256": "e685d571db118312b3480590f65ce8379429acbcc1ba9166891049eca8268823",
+  "beforeWorkingRawSha256": "e685d571db118312b3480590f65ce8379429acbcc1ba9166891049eca8268823",
+  "exactAddedText": "- У слова-сравнения без доступной ссылки укажите подтверждённое чтение рядом с кандзи.\n  Если в исходной статье чтения нет, проверьте его по другой точной статье замороженного\n  источника или словарю; не угадывайте чтение по компонентам.\n",
+  "expectedAfterNormalizedLfSha256": "bf927bb674e7df4e208427b6eecb6d553d3d85cd37f7f8d144efe5fb199defd7",
+  "independentRecheck": "PENDING",
+  "path": ".github/instructions/content-structure.instructions.md",
+  "reason": "ActualF2: removing an unavailable optional wrapper must not leave the irregularly read comparison word unpronounceable; verify a missing source reading elsewhere instead of guessing."
+ },
+ "initialReview": "docs/translation-batches/029-weather-taste-condition-independent-review-001.json",
+ "newWholePairScope": [],
+ "oldRuntimeEditsPlanned": [],
+ "ordinaryActivationAuthorized": false,
+ "protectedBaselineRuntimeRawCount": 828,
+ "readingCorrection": {
+  "actualFrozenSourceLines": [
+   "良い よい (good), also commonly いい, is the usual opposite. 下手 へた describes poor skill: 日本語が下手 にほんごがへた means \"not skillful at Japanese\". It is not interchangeable with 悪い in descriptions of weather or moral behavior."
+  ],
+  "beforeNormalizedLfSha256": "cd3684f59d83960ecb5d60aef73a93d11715c33e5e9cfee2b2dfe3ffac424566",
+  "beforeWorkingRawSha256": "ed84b598732aaaa1d33ae30bf6cafb5ad5e6c69ff9ff8522bdda071adea9437f",
+  "boundary": "Verified comparison-word reading added for self-contained Russian comprehension; source examples/mainreadings/types/levels/tags unaffected.",
+  "expectedAfterNormalizedLfSha256": "61929b585df754b21864642c6c27050f3f69cccacee87a953681a09a4eca0559",
+  "finding": "F2",
+  "japaneseVisibleFragmentAddition": {
+   "へた": 1
+  },
+  "newLiteral": "下手（へた）, «неумелый»",
+  "oldLiteral": "下手, «неумелый»",
+  "path": "words/弱い.md",
+  "readingEvidenceSourceGitRawSha256": "470b93609e50ff39f00d59011e034ee951bbc0790d8d656922946e6d7c1875ce",
+  "readingEvidenceSourcePath": "words/悪い.md"
+ },
+ "recordedAt": "2026-11-05T17:58:56.084135+00:00",
+ "runtimeAcceptance": false,
+ "russianReviewedCandidate": "50d4407620d367bb4055a1e37a250fc8fa20a915",
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "stage": "Actual whole review preserved; exact two corrections, one direct-safeguard amendment and three guidance lines frozen BEFORE editing runtime/guidance. Corrected snapshot recheck PENDING."
+}
