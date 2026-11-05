@@ -1,0 +1,80 @@
+{
+ "allPassed": true,
+ "authoringCommit": "e3f8e29be46faccc286d563e140da86c756f7b68",
+ "batch": "020-motion-position-kanji",
+ "budget": {
+  "entries": 607,
+  "files": 598,
+  "inflatedBytes": 1770968,
+  "listeningTaskMediaBytes": 0,
+  "localZipBytes": 877733,
+  "retainedBytes": 1754286
+ },
+ "checkpointAuthority": null,
+ "commands": [
+  {
+   "argv": [
+    "python",
+    "tools\\build_manifest.py"
+   ],
+   "completedAt": "2026-11-05T06:45:32.520889+00:00",
+   "durationSeconds": 0.23499999998603016,
+   "returncode": 0,
+   "startedAt": "2026-11-05T06:45:32.293368+00:00",
+   "stderr": "",
+   "stdout": "manifest.json: 590 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version b4730636d151b4ee\n"
+  },
+  {
+   "argv": [
+    "python",
+    "tools\\validate.py"
+   ],
+   "completedAt": "2026-11-05T06:45:34.775476+00:00",
+   "durationSeconds": 1.827999999979511,
+   "returncode": 0,
+   "startedAt": "2026-11-05T06:45:32.946637+00:00",
+   "stderr": "",
+   "stdout": "0 error(s)\n"
+  },
+  {
+   "argv": [
+    "python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tools",
+    "-p",
+    "test_*.py"
+   ],
+   "completedAt": "2026-11-05T06:46:32.204764+00:00",
+   "durationSeconds": 57.42200000002049,
+   "returncode": 0,
+   "startedAt": "2026-11-05T06:45:34.775476+00:00",
+   "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 57.027s\n\nOK\n",
+   "stdout": ""
+  },
+  {
+   "argv": [
+    "python",
+    "tools\\check_content_budget.py"
+   ],
+   "completedAt": "2026-11-05T06:46:32.835695+00:00",
+   "durationSeconds": 0.6400000000139698,
+   "returncode": 0,
+   "startedAt": "2026-11-05T06:46:32.204764+00:00",
+   "stderr": "",
+   "stdout": "{'files': 598, 'entries': 607, 'retainedBytes': 1754286, 'inflatedBytes': 1770968, 'localZipBytes': 877733, 'listeningTaskMediaBytes': 0}\n"
+  }
+ ],
+ "execution": "Author waits for actual exit of each command before launching the next; no delegated tests or native builds.",
+ "manifest": {
+  "contentVersion": "b4730636d151b4ee",
+  "rawSha256": "fb00b8d10e21182231e1935b2921b5dc30f1fbcd4c4bc8a0b8424a7b65b37fee",
+  "runtimeObjects": 590,
+  "unchangedFromActualReviewedSnapshot": true
+ },
+ "ordinaryActivationAuthorized": false,
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f"
+}

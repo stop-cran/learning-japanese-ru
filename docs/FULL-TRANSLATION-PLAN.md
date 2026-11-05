@@ -706,3 +706,37 @@ Canonical technical IDs remain; current app rendering/native behavior is UNVERIF
 concurrent app is untouched. No phone/IME/reader/grading/playback/newmedia/packageaudio/C6/C7/
 activation/release/checkpoint authority follows. Continue the finite frozen target in safe
 sequential batches; this source milestone is not full corpus, runtime parity or allN5 completion.
+
+Batch **020 — motion and position kanji with their word support** adds full前・後・来・行
+cards, six full word articles and four exact frozen-source KanjiVG stroke files. Nine
+previously accepted bodies restore one source-linked wrapper each; all their other RAW
+bytes and earlier justified Russian adaptations remain. The
+[accepted source record](translation-batches/020-motion-position-reviewed-source.json)
+binds all23affected runtime paths to exact frozen English and current Russian working,
+normalized and canonical Git hashes.
+
+One genuine independent whole-batch read-only review covers all31completeRU/ENpairs:
+19authored/amended bodies and12additional complete contexts, plus all402word/79kanji
+title/guard rows. It reports CLEAN Japanese correctness, assigned coverage/dependencies/
+quiz semantics and Russian comprehensibility; no required finding. The481title rows are
+not481complete bodies, and individual review-tool execution history was not exposed by
+the synchronous invocation. Author recomputed the exact snapshot hashes.
+All12new-kanji directed edges are reviewed. The one source edge前→先 becomes前→月
+because the original displayed meanings overlap. Three direct行くdeparture guards are
+individually supported; no transitive movement clique or extra unsupported pair is added.
+The attributed後origin,来character-versus-word reading table and qualified銀行history
+preserve the actual source/evidence boundaries.
+
+Current membership is **590runtime objects**:79kanji,402words,79strokes,2articles,
+22counterfiles,onegrammarset,2scenecatalogs and3images. Actual kanji levels62N5/13N4/4N3
+leave18of the frozen80N5kanji absent. Fresh strict8278-entry progress:
+**590reviewed-current**, **no partial**, **two reviewed runtime-blocked drafts**,
+**7,686pending** and **7,688runtimepathsabsent**. All567unaffected baseline RAW objects
+remain unchanged; historical receipts are immutable, checkpointauthoritynull/Readyfalse.
+Actual final serialized checks:0errors/124tests57.027s; final budget598files/607entries/
+1754286retained/1770968inflated/877733localZIPbytes; version `b4730636d151b4ee`.
+Public desktop archive/exact-main CI are separate publication evidence, not inferred here.
+Existing licenses/root Unicode notice remain; four strokeRAWs exactly match frozen blobs.
+Canonical `irregular` ID stays unchanged; current app rendering is UNVERIFIED, app untouched.
+No phone/IME/native/playback/newmedia/packageaudio/C6/C7/ordinaryactivation/release/checkpoint
+authority follows. Continue sequential safe authoring across every remaining frozen family.

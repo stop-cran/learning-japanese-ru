@@ -1,0 +1,72 @@
+{
+ "schemaVersion": 1,
+ "batch": "020-motion-position-kanji",
+ "reviewedRussianCommit": "e3f8e29be46faccc286d563e140da86c756f7b68",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "reviewer": {
+  "invocationName": "ru020-whole-review",
+  "type": "general-purpose",
+  "execution": "One actual synchronous independent read-only reviewer; no nested delegation or facet fleet.",
+  "agentId": null,
+  "agentIdBoundary": "Synchronous task returned the complete report directly, without an agent ID.",
+  "captureDomain": "Structured faithful capture of the actual returned report, not raw transport bytes or a verbatim transcript."
+ },
+ "actualCompletePairs": {
+  "kanji": ["先", "出", "前", "外", "後", "月", "木", "来", "東", "行", "見", "間"],
+  "words": ["出かける", "出る", "出発", "前半", "午前", "午後", "名前", "外出", "後ろ", "後半", "旅行", "来る", "来年", "来月", "来週", "立つ", "署名", "行く", "銀行"],
+  "pairCount": 31,
+  "authoredOrAmendedBodies": 19,
+  "additionalUnchangedContexts": 12,
+  "readingBoundary": "Every complete current Russian/frozen English body, metadata, examples, qualifiers and navigation returned with END marker; not only diffs or titles."
+ },
+ "actualTitlePoolReading": {
+  "words": {"rows": 402, "completeRanges": [[0, 100], [100, 200], [200, 300], [300, 402]]},
+  "kanji": {"rows": 79, "completeRanges": [[0, 79]]},
+  "boundary": "481 actual title/guard rows, not 481 complete bodies."
+ },
+ "actualGuidanceReading": [
+  "Complete root instructions lines1–299 and scoped content instructions lines1–207, including three new lines.",
+  "All three actual reviewer definitions, without invoking further reviewers.",
+  "Complete Russian methodology and content-format reference; worked adaptations lines1–58; current owner authorization lines180–201.",
+  "Frozen EN content-format lines71–177; complete confusable-words lines1–357; additional JLPT guidance lines1–120 and199–260, not the whole JLPT document.",
+  "Complete020 authoring-freeze, source-adjudication and authored-snapshot records.",
+  "Initially oversized/truncated instruction/confusables reads were recovered with bounded reads; unavailable output was not counted."
+ ],
+ "actualPrimaryEvidenceReading": [
+  "Six complete captured KANJIDIC records for前後来行先月.",
+  "All14 matching complete object occurrences from nine initial dictionary query groups; repeated objects not treated as independent authority.",
+  "Five complete context objects for出かける出る立つ出発外出; Wiki and外出/そとで Place sense not lexical proof.",
+  "Complete extracted non-script text of cached KanjiPedia後 and BOJ naming pages, with both supplied RAW hashes checked.",
+  "Four captured Unicode radical rows in adjudication evidence, not an independent full Unicode-table read."
+ ],
+ "verdicts": {
+  "japaneseCorrectness": "CLEAN",
+  "assignedCoverageDependenciesQuizSemantics": "CLEAN",
+  "russianComprehensibility": "CLEAN"
+ },
+ "findings": [],
+ "optionalPolish": [],
+ "actualAdjudications": [
+  "前→先 replacement by前→月 justified by actual shared before/earlier meanings; other adopted edges and substantive comparison retained.",
+  "後 origin accurately attributed to角川新字源改訂新版 via KanjiPedia, not universal historical certainty; alternate後/うしろ clarification supported.",
+  "来 rareタイ/source readings retained;来た人 correctly underき; word table explicitly distinguishes glyph readings from whole words.",
+  "行 forms and viewpoint, 今行きます contextual Russian rendering, purposeに and future continuation remain coherent.",
+  "名前 person/thing naming,後ろ spatial distinction,旅行/旅 qualified tendency are complete and intelligible.",
+  "銀行 preserves qualified BOJ1872 naming account, euphony, uncertain silver-standard linkage, Chineseháng and distinct洋行 historical-China/store versus Western-travel senses.",
+  "All12 actual directed new-kanji distractor edges checked against complete target meanings; no further equivalent displayed answer established.",
+  "Three direct行く guards against出かける/出る/立つ individually supported by actual departure senses, not a transitive movement clique.",
+  "No additional necessary pair established for来る/行く,出発/外出 or旅行/見物;見物 read only as actual title/guard row, not full body.",
+  "All nine older amended bodies retain prior justified Russian adaptations; no JLPT invented on前半/後半. Reviewer did not rerun exact RAW-wrapper comparison.",
+  "Unavailable optional名/旅/銀/article links removed without deleting substantive teaching; related〜ていく/〜てくる topic pointers remain Russian."
+ ],
+ "limits": [
+  "Actual reading scope comes from the returned reviewer report; synchronous task did not expose individual tool execution history. Exact snapshot hashes are separately recomputed by author.",
+  "Bounded textual review, not runtime acceptance, full-corpus audit, native-speaker certification or absolute correctness.",
+  "No edits, tests, builds, validators, generators, installations, media generation or external AI used by reviewer.",
+  "Snapshot HEADs and read-only Git status checked; remote signatures/publication not independently reverified by reviewer.",
+  "App rendering of canonical irregular ID remains unverified; concurrent app and ordinary EN checkout untouched.",
+  "Exact stroke reuse evidence read, not new stroke geometry, licensing audit, animation or phone approval.",
+  "No phone, IME, playback, native, device, media-package, ordinary activation, C6/C7, release or checkpoint approval.",
+  "Author preflight read but not adopted as reviewer-run validation; WIP590 remains unaccepted until separate author checks and acceptance."
+ ]
+}

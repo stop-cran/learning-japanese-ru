@@ -8,6 +8,29 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The twentieth full-target source batch adds complete motion/position cards for前・後・来・行,
+six complete words and four RAW-identical licensed frozen-source strokes; nine older bodies
+restore one source-linked wrapper each without altering their other RAW bytes.
+[Batch020 accepted source](translation-batches/020-motion-position-reviewed-source.json)
+binds all23affected paths and the actual independent whole31RU/EN-pair review
+(19authored/amended bodies plus12complete contexts), all402word/79kanji title/guard rows
+and three CLEAN textual facets. These title tables are not481complete-body reviews.
+The single前→先 distractor replacement by前→月 and three individually supported
+行く–出かける/出る/立つ guards preserve Japanese meanings without a movement clique.
+後history is explicitly attributed;来glyph readings and銀行history retain their qualifiers.
+All567unaffected baseline runtimeRAW objects and immutable historical receipts remain.
+
+Current membership590:79kanji/402words/79strokes/2articles/22counterfiles/onegrammarset/
+2scenecatalogs/3images. Strict8278-entry progress:590reviewed-current, no partial,
+two reviewed runtime-blocked drafts,7,686pending and7,688runtimepathsabsent.
+Kanji membership62N5/13N4/4N3 leaves18frozenN5kanji absent; no invented syllabus coverage.
+Actual final serialized checks:0errors/124tests57.027s; final budget598files/607entries,
+1754286retained/1770968inflated/877733localZIPbytes; version `b4730636d151b4ee`.
+Public desktop archive/exact-main CI follow separately from source acceptance.
+The new canonical `irregular` ID remains technical; current app rendering is UNVERIFIED.
+No native/phone/IME/playback/newmedia/packageaudio/C6/C7/activation/release/checkpoint authority.
+Continue the remaining safe frozen-target batches; this is not full-corpus or allN5 completion.
+
 The nineteenth full-target source batch completes the frozen57-kanji foundation component:
 42N5/11N4/4N3 kanji,57byte-identical licensed source strokes, and135previously accepted word
 amendments restoring152required links. One inherited月teaching claim is separately corrected.
