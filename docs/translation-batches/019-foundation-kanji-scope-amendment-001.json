@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "batch": "019-foundation-kanji-component",
+  "amendment": "001-coupled-baseline-moon-reading",
+  "stage": "Frozen before authoring the additional baseline correction.",
+  "recordedAt": "2026-11-05T04:33:55.614260+00:00",
+  "pinnedBeforeCommit": "5886f03e23fded182b84615f45c12a93ab861d3e",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "768393327637f1ec08f5cd7d1ba4afe3be00c612",
+  "trigger": {
+    "review": "docs/translation-batches/019-foundation-kanji-old-word-volume-001-initial-review.json",
+    "findingId": "019-W001-F01"
+  },
+  "extraRuntimePathsAdded": 0,
+  "extraAffectedAcceptedRuntimePaths": [
+    "kanji/月.md"
+  ],
+  "extraAffectedDeveloperPaths": [
+    ".github/instructions/content-structure.instructions.md"
+  ],
+  "frozenBeforeHashes": {
+    "russianWorkingRawSha256": "450dfbc9c11087bbecd8d869978f8e1263d16b71797455db3d905cb1fd8073de",
+    "russianGitRawSha256": "2da67607b6c415fd486814c7d0a5ca0a03eff01edb7350c16c7a624584e93f01",
+    "russianLfSha256": "2da67607b6c415fd486814c7d0a5ca0a03eff01edb7350c16c7a624584e93f01",
+    "frozenEnglishWorkingRawSha256": "250ad9ca01cc1356dd3d1c0f06c37299ca8c8b8ef1163da3b7408e94ed395563",
+    "frozenEnglishGitRawSha256": "250ad9ca01cc1356dd3d1c0f06c37299ca8c8b8ef1163da3b7408e94ed395563",
+    "frozenEnglishLfSha256": "10831c2dca40aff93ae945124b5be84205bc59d7cd482cd071b3a3f5f79f5629"
+  },
+  "authorAdjudicationBeforeAuthoring": "Accept the component-attribution finding. The two-mora つき→づき voicing is real; no shortening of月 is shown. Do not infer a historical derivation for precedingみか from this comparison.",
+  "authorActualAdditionalSourceReading": "Complete RU/frozen EN月; actual complete named精選版 entry (not initial Daijisen novel block), complete月 API record and exact JMdict lexical三日月 forms/senses in returned API object.",
+  "plannedLearnerChange": "в 三日月 чтение 月 озвончается: つき → づき",
+  "plannedGuidanceChange": "Tie each sound change to the actual component; distinguish月つき→づき from preceding三日みか versus standaloneみっか.",
+  "preserve": "All IDs, title, source level/tags/reading metadata, strokes/radicals, examples, relative links and other月 body wording. No new word/stroke/media adoption; no English/app checkout changes.",
+  "requiredFocusedRecheck": [
+    "kanji/月.md",
+    ".github/instructions/content-structure.instructions.md"
+  ],
+  "independentCorrectionApproval": "pending actual authoring and focused recheck",
+  "historicalReceipts": "Initial 135-file intake and all earlier receipts remain immutable; this adds one coupled baseline target only.",
+  "ordinaryActivationAuthorized": false
+}
