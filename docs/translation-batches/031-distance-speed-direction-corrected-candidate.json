@@ -1,0 +1,1885 @@
+{
+ "acceptedRuntimeObjects": 875,
+ "acceptedTrackingProgressUnchanged": true,
+ "all32PrimaryAnd39SupportingRussianLearnerBodiesUnchanged": true,
+ "all594ActualTitlesReadingsUnchanged": true,
+ "all903OtherCandidateRuntimeWorkingRawsUnchanged": true,
+ "allEightSourceDirectNegativeEdgesPreserved": true,
+ "answerPoolPrivateArtifact": "ru-031-corrected-answer-pool-001.json",
+ "answerPoolWorkingRawSha256": "b5b50e5cdbaa7e72ff67d831974b88eb28a8fdba4eb96e93bf66d0dd36b30b77",
+ "batchId": "031-distance-speed-direction",
+ "candidateRuntimeObjectsNotYetAccepted": 906,
+ "changedRuntimePaths": [
+  "words/向こう.md",
+  "words/横.md",
+  "words/速い.md"
+ ],
+ "checkpointAuthority": null,
+ "checks": {
+  "actualExecution": "Four actual existing commands serialized by sole author on corrected snapshot; no delegated tests or semantic approval.",
+  "contentVersion": "36b8a5c1bbb4b3ed",
+  "manifestWorkingRawSha256": "04030c15a168c898bc306932e189dcaf335e5c6bb47905df220d1d5d9cdf7c2c",
+  "runs": [
+   {
+    "command": [
+     "tools\\build_manifest.py"
+    ],
+    "completedAt": "2026-11-05T21:30:53.533372+00:00",
+    "returncode": 0,
+    "seconds": 0.2029999999795109,
+    "startedAt": "2026-11-05T21:30:53.327998+00:00",
+    "stderr": "",
+    "stdout": "manifest.json: 906 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 36b8a5c1bbb4b3ed\n"
+   },
+   {
+    "command": [
+     "tools\\validate.py"
+    ],
+    "completedAt": "2026-11-05T21:30:55.543881+00:00",
+    "returncode": 0,
+    "seconds": 2.0160000000614673,
+    "startedAt": "2026-11-05T21:30:53.534385+00:00",
+    "stderr": "",
+    "stdout": "0 error(s)\n"
+   },
+   {
+    "command": [
+     "-m",
+     "unittest",
+     "discover",
+     "-s",
+     "tools",
+     "-p",
+     "test_*.py"
+    ],
+    "completedAt": "2026-11-05T21:31:24.860463+00:00",
+    "returncode": 0,
+    "seconds": 29.31299999996554,
+    "startedAt": "2026-11-05T21:30:55.543881+00:00",
+    "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 28.994s\n\nOK\n",
+    "stdout": ""
+   },
+   {
+    "command": [
+     "tools\\check_content_budget.py"
+    ],
+    "completedAt": "2026-11-05T21:31:25.457527+00:00",
+    "returncode": 0,
+    "seconds": 0.5929999999934807,
+    "startedAt": "2026-11-05T21:31:24.860463+00:00",
+    "stderr": "",
+    "stdout": "{'files': 914, 'entries': 923, 'retainedBytes': 2597051, 'inflatedBytes': 2613733, 'localZipBytes': 1303376, 'listeningTaskMediaBytes': 0}\n"
+   }
+  ],
+  "runtimeObjects": 906
+ },
+ "combinedAnswerRows": 594,
+ "completeReviewPairs": [
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/近い.md",
+   "russianCanonicalGitRawSha256": "7684021de0daed0165d7fe35369a81069e5bf6400e6bf49769eee657c988131b",
+   "russianNormalizedLfSha256": "7684021de0daed0165d7fe35369a81069e5bf6400e6bf49769eee657c988131b",
+   "russianWorkingRawSha256": "c35b724b06802b87344b0db8af52f606017b31895e56b01b1e89a3ea3dee1bbd",
+   "sourceGitRawSha256": "67907f75c4a27d820e1b0bf6079db7d89fe3777bac5299da85bdcabf19970aba",
+   "sourceNormalizedLfSha256": "67907f75c4a27d820e1b0bf6079db7d89fe3777bac5299da85bdcabf19970aba"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/遠い.md",
+   "russianCanonicalGitRawSha256": "e99af87d7f060e0c5ff25381f04993e5a0accf5ef2419ad4f4ff4899dcb3d37a",
+   "russianNormalizedLfSha256": "e99af87d7f060e0c5ff25381f04993e5a0accf5ef2419ad4f4ff4899dcb3d37a",
+   "russianWorkingRawSha256": "400fa2e4002cc51f731e449550122496d12ed00f1e8632d134bb678a4d7873be",
+   "sourceGitRawSha256": "cffc6a951af3dcd8d34bd77c05c5b474b09c2246c627aa89764ef9750ec11b0d",
+   "sourceNormalizedLfSha256": "cffc6a951af3dcd8d34bd77c05c5b474b09c2246c627aa89764ef9750ec11b0d"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/近く.md",
+   "russianCanonicalGitRawSha256": "8ba8b007778cde9eae4a378ea20129a1eda2e7149dcbd7eba7eff54b1c5b0aad",
+   "russianNormalizedLfSha256": "8ba8b007778cde9eae4a378ea20129a1eda2e7149dcbd7eba7eff54b1c5b0aad",
+   "russianWorkingRawSha256": "3833a357ae92b14ea4bc7c4f1fbc51b15ef6c9a32d71eeb4f4a03f9f5e3e03ad",
+   "sourceGitRawSha256": "a0f3d6349b8f1e7760e8b5ce8131191214f71fe19644c31196ddfb89f7fd6b95",
+   "sourceNormalizedLfSha256": "a0f3d6349b8f1e7760e8b5ce8131191214f71fe19644c31196ddfb89f7fd6b95"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/遠く.md",
+   "russianCanonicalGitRawSha256": "b897d1fb371e873007cf9f53cb37912f7189d55d66778b8697563ca1869936e0",
+   "russianNormalizedLfSha256": "b897d1fb371e873007cf9f53cb37912f7189d55d66778b8697563ca1869936e0",
+   "russianWorkingRawSha256": "48c407834f008114d4b525fe70531f1ee473ef3bc402e57b93191b71baf14e4c",
+   "sourceGitRawSha256": "ad1c11bfc0b409d5de39254b441270cf91aa8065e117a14c20dd3627e7eb2c85",
+   "sourceNormalizedLfSha256": "ad1c11bfc0b409d5de39254b441270cf91aa8065e117a14c20dd3627e7eb2c85"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/早い.md",
+   "russianCanonicalGitRawSha256": "41a3df4780656afcb74a9f6e5a834ab44a56ce177ef436a8ff5852d89a160a39",
+   "russianNormalizedLfSha256": "41a3df4780656afcb74a9f6e5a834ab44a56ce177ef436a8ff5852d89a160a39",
+   "russianWorkingRawSha256": "6c875db2c4462e4aecbcfd27645bd6bdee348fb1837b63d1024001b704406fd2",
+   "sourceGitRawSha256": "3cf3686154ca8665a1c28aa582812aa0c9fd29827386744d2f615af3364a70fb",
+   "sourceNormalizedLfSha256": "3cf3686154ca8665a1c28aa582812aa0c9fd29827386744d2f615af3364a70fb"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/速い.md",
+   "russianCanonicalGitRawSha256": "b878dc9785c561ee8d4298cd2fa4599095517585896e7a8576ce6b4e7b633db0",
+   "russianNormalizedLfSha256": "b878dc9785c561ee8d4298cd2fa4599095517585896e7a8576ce6b4e7b633db0",
+   "russianWorkingRawSha256": "ff30fb7037532f89abb45b5431c37023ab2724478830dfeb9991d991a5c81754",
+   "sourceGitRawSha256": "90b4b5231c3c370a915b5b95496c46060b46ac1e5e1eb1cd85a0080c05cfdfac",
+   "sourceNormalizedLfSha256": "90b4b5231c3c370a915b5b95496c46060b46ac1e5e1eb1cd85a0080c05cfdfac"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/遅い.md",
+   "russianCanonicalGitRawSha256": "27b5458300ab693f6ddf4e411d1a35b382727408fd29273be5e2538bcd7490ae",
+   "russianNormalizedLfSha256": "27b5458300ab693f6ddf4e411d1a35b382727408fd29273be5e2538bcd7490ae",
+   "russianWorkingRawSha256": "6885ecb10c6cb9ca4477ab79af51a086eb4d8e970d836152680c66fe7bfd20bf",
+   "sourceGitRawSha256": "371b27093b86858bba19361f4cfb6f8a42cf1c5f94971399326a8f855a824b34",
+   "sourceNormalizedLfSha256": "371b27093b86858bba19361f4cfb6f8a42cf1c5f94971399326a8f855a824b34"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/ゆっくり.md",
+   "russianCanonicalGitRawSha256": "369c0cf715d52fa6f4b213520c34d5a6f266bfd8835f3e9dcf295fd46506d80e",
+   "russianNormalizedLfSha256": "369c0cf715d52fa6f4b213520c34d5a6f266bfd8835f3e9dcf295fd46506d80e",
+   "russianWorkingRawSha256": "00e4e887e184cf46b5e0491af9ed99d1998ed4d48fec2c5afe972b2e3672431d",
+   "sourceGitRawSha256": "f5fc33c73325a2297ef372b8598e4d51f4fc32f366121b38eb4256cef22b7523",
+   "sourceNormalizedLfSha256": "f5fc33c73325a2297ef372b8598e4d51f4fc32f366121b38eb4256cef22b7523"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/すぐに.md",
+   "russianCanonicalGitRawSha256": "1835295c6fde8ac5fefbf844dbc7b954cae09ee2d3a63dfe1dda1d8063d81295",
+   "russianNormalizedLfSha256": "1835295c6fde8ac5fefbf844dbc7b954cae09ee2d3a63dfe1dda1d8063d81295",
+   "russianWorkingRawSha256": "3dd94bef920a57327d8cd08bd3cacf4a9341cd4edeea39d32cf0e4df2c550db7",
+   "sourceGitRawSha256": "09d1bf2726d62cc90f214c4ac415b8ce11c84da00e6f8a2a26af943139df1730",
+   "sourceNormalizedLfSha256": "09d1bf2726d62cc90f214c4ac415b8ce11c84da00e6f8a2a26af943139df1730"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/まっすぐ.md",
+   "russianCanonicalGitRawSha256": "f268896d9b36118e843ac7a985c72dfcf31030fb51b2db782ac6055a733d97a7",
+   "russianNormalizedLfSha256": "f268896d9b36118e843ac7a985c72dfcf31030fb51b2db782ac6055a733d97a7",
+   "russianWorkingRawSha256": "355f31ce26a4381c20a07f2ba37ff1f06ff05482a6daf37eaa5e5072123f5395",
+   "sourceGitRawSha256": "ba95df5f0a930e00f3ae4a49d4d4434aa0b2b4441a6b9cf4b88def3301ef55de",
+   "sourceNormalizedLfSha256": "ba95df5f0a930e00f3ae4a49d4d4434aa0b2b4441a6b9cf4b88def3301ef55de"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/側.md",
+   "russianCanonicalGitRawSha256": "dd5adc9e02d0e835e83a4d4a8ad2c0a369b5450e992ab25ea31d30f1b8410973",
+   "russianNormalizedLfSha256": "dd5adc9e02d0e835e83a4d4a8ad2c0a369b5450e992ab25ea31d30f1b8410973",
+   "russianWorkingRawSha256": "b617d1918546ecfe817ef71bd97685873979da960fd4e74ed0103593756e8e85",
+   "sourceGitRawSha256": "1c96b2adad8e5b08e3517459864bcda0c88f06f6202ca20ff44ff1dbb48ccf58",
+   "sourceNormalizedLfSha256": "1c96b2adad8e5b08e3517459864bcda0c88f06f6202ca20ff44ff1dbb48ccf58"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/隣.md",
+   "russianCanonicalGitRawSha256": "0e9f48395e51457ae42473133780260cd5b666f633b273e0b1e6f90a1357bd73",
+   "russianNormalizedLfSha256": "0e9f48395e51457ae42473133780260cd5b666f633b273e0b1e6f90a1357bd73",
+   "russianWorkingRawSha256": "529b9582160131fa372850f9cddea1fd1acb9a18ab5510fa0262bd2f30074233",
+   "sourceGitRawSha256": "901140e6fa321fb16505c0f1b81b28d796e14825d97c882951716df23992ad6f",
+   "sourceNormalizedLfSha256": "901140e6fa321fb16505c0f1b81b28d796e14825d97c882951716df23992ad6f"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/辺.md",
+   "russianCanonicalGitRawSha256": "6517c06112bea0cf0a99db846797896b23dbb3d651646eabc3ab11850ead5c1c",
+   "russianNormalizedLfSha256": "6517c06112bea0cf0a99db846797896b23dbb3d651646eabc3ab11850ead5c1c",
+   "russianWorkingRawSha256": "026abac04bea7da133e2f608f492bfca51b29d06fb75bdbc47391a874e66c75a",
+   "sourceGitRawSha256": "60854ebc8dc824a098ded15c01356cccb126f92f5f5a5230ae7827696eb7e884",
+   "sourceNormalizedLfSha256": "60854ebc8dc824a098ded15c01356cccb126f92f5f5a5230ae7827696eb7e884"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/向こう.md",
+   "russianCanonicalGitRawSha256": "cbf9e48f3df23c5d148d111da2998e11e7358d4a8d65835163dfc03c5cc018fe",
+   "russianNormalizedLfSha256": "cbf9e48f3df23c5d148d111da2998e11e7358d4a8d65835163dfc03c5cc018fe",
+   "russianWorkingRawSha256": "230e4235a91b1f07e7665c24cdd96ac137daab157180d2387b77ace292b833ba",
+   "sourceGitRawSha256": "167a404860ec3bfdbcc4a744c7d0bd8c5040d792b4f7053f767dd375cfa3faa2",
+   "sourceNormalizedLfSha256": "167a404860ec3bfdbcc4a744c7d0bd8c5040d792b4f7053f767dd375cfa3faa2"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/横.md",
+   "russianCanonicalGitRawSha256": "c601628cbaa0887b34ef580e171e5ee9488b7db3bc14ffd7d034965b1bace7d2",
+   "russianNormalizedLfSha256": "c601628cbaa0887b34ef580e171e5ee9488b7db3bc14ffd7d034965b1bace7d2",
+   "russianWorkingRawSha256": "bb23b094c7ffb7e103d2b8c1cefa7e4cdbb268e1864c8b6191feb6788571ee7a",
+   "sourceGitRawSha256": "aa81df6b08acc78b6fdfec208f6a4bf5f5a51896530b9dac025c211747e65c24",
+   "sourceNormalizedLfSha256": "aa81df6b08acc78b6fdfec208f6a4bf5f5a51896530b9dac025c211747e65c24"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/縦.md",
+   "russianCanonicalGitRawSha256": "5b681f9af997b39176edaf03a7f83f31a1303d7afa669a7cf5675a79123c7a20",
+   "russianNormalizedLfSha256": "5b681f9af997b39176edaf03a7f83f31a1303d7afa669a7cf5675a79123c7a20",
+   "russianWorkingRawSha256": "6dc61ecaf2014356bb4cbc7c5140f55edb7efada189fbe19763b44d1a47faa05",
+   "sourceGitRawSha256": "6dd61537df691f3521030736963cde00e388a2554b50d5949a1a978b7adc0ea4",
+   "sourceNormalizedLfSha256": "6dd61537df691f3521030736963cde00e388a2554b50d5949a1a978b7adc0ea4"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/上.md",
+   "russianCanonicalGitRawSha256": "361cbb8d326f43152fc1b3f5ddee427b40ecf38932f87c8e715ece71b29d97cd",
+   "russianNormalizedLfSha256": "361cbb8d326f43152fc1b3f5ddee427b40ecf38932f87c8e715ece71b29d97cd",
+   "russianWorkingRawSha256": "c7e0ff00ced402dffd66f11f6de1aa18111b5fc7f89d568256c7b3c09be10fe7",
+   "sourceGitRawSha256": "1f709b4e0c142f5e92ae98c6311caf09f2a601f0e603afbe79d304096aeb5e5f",
+   "sourceNormalizedLfSha256": "1f709b4e0c142f5e92ae98c6311caf09f2a601f0e603afbe79d304096aeb5e5f"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/下.md",
+   "russianCanonicalGitRawSha256": "fd7307e00e35e6f25ff6fe8911ce3fdd76f733dff68d33dca6e0ee92110e7123",
+   "russianNormalizedLfSha256": "fd7307e00e35e6f25ff6fe8911ce3fdd76f733dff68d33dca6e0ee92110e7123",
+   "russianWorkingRawSha256": "ce51be6744b671da3f8fa5229d397c6919d387dae55be744c501690102f9872c",
+   "sourceGitRawSha256": "971329a05ae18f22e8342a28a180762edadafbc5b223cca93df71fa44781153d",
+   "sourceNormalizedLfSha256": "971329a05ae18f22e8342a28a180762edadafbc5b223cca93df71fa44781153d"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/中.md",
+   "russianCanonicalGitRawSha256": "ff60bf22d64478c7caa10d20fe3257d45506cd631e77317b96008f5233e50323",
+   "russianNormalizedLfSha256": "ff60bf22d64478c7caa10d20fe3257d45506cd631e77317b96008f5233e50323",
+   "russianWorkingRawSha256": "57bc7be03a9585523ed070630363881a535be7c8e0e853f2c5738ab3d8bd267a",
+   "sourceGitRawSha256": "e1aa773ceb448350b213893db9b6636783a841362ca0c26ea5f5212453090043",
+   "sourceNormalizedLfSha256": "e1aa773ceb448350b213893db9b6636783a841362ca0c26ea5f5212453090043"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/外.md",
+   "russianCanonicalGitRawSha256": "17cccb145b97fdf37c72e29246410b75bfae253034dcfaa303d02faa4a9b1af6",
+   "russianNormalizedLfSha256": "17cccb145b97fdf37c72e29246410b75bfae253034dcfaa303d02faa4a9b1af6",
+   "russianWorkingRawSha256": "a9b0e52f09ec4064aa05d025ac747fc3ab8ab32b86c1bdf9e9f894ffc9e4597b",
+   "sourceGitRawSha256": "d4e965bf875da60ac728a845ac9491ed49c8b4caaba37119afd7471f7999a382",
+   "sourceNormalizedLfSha256": "d4e965bf875da60ac728a845ac9491ed49c8b4caaba37119afd7471f7999a382"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/右.md",
+   "russianCanonicalGitRawSha256": "f7776d20dd5b245709114460b852b8e3fc02bb8c986c9e3b5aa13ec0b447adfc",
+   "russianNormalizedLfSha256": "f7776d20dd5b245709114460b852b8e3fc02bb8c986c9e3b5aa13ec0b447adfc",
+   "russianWorkingRawSha256": "08379d31e1ccf0afdfedcf257a3b49ee0c4b5f74f65c1fbedb9ea288a24d3996",
+   "sourceGitRawSha256": "bc35b7fbf6fbfdbb4bde66c9bb2a7cf9edcfa53e51761083166cf624bcf36ad1",
+   "sourceNormalizedLfSha256": "bc35b7fbf6fbfdbb4bde66c9bb2a7cf9edcfa53e51761083166cf624bcf36ad1"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/左.md",
+   "russianCanonicalGitRawSha256": "df83c787b01f9aa1aa3ff814254f58a1f1e03fdf7d41f482c029dc8725ed0563",
+   "russianNormalizedLfSha256": "df83c787b01f9aa1aa3ff814254f58a1f1e03fdf7d41f482c029dc8725ed0563",
+   "russianWorkingRawSha256": "a58893d65fd02d6fcad15d94b59f1ac6416b1f05fba1839d18d8c2d3d27b1b5c",
+   "sourceGitRawSha256": "1669030642ae3103c129128ad0501a5e38cd83cebfaec2469ec3d3b8db2ca51a",
+   "sourceNormalizedLfSha256": "1669030642ae3103c129128ad0501a5e38cd83cebfaec2469ec3d3b8db2ca51a"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/北.md",
+   "russianCanonicalGitRawSha256": "d9444750feee9e5611cef24f2919571568f0fb1bc2d13dd8dc47f95ae0aa0147",
+   "russianNormalizedLfSha256": "d9444750feee9e5611cef24f2919571568f0fb1bc2d13dd8dc47f95ae0aa0147",
+   "russianWorkingRawSha256": "6b72aeb596fa3cc9733787224be503a4886bf34ca3c13d05a1a2f88052580d4b",
+   "sourceGitRawSha256": "76242c65203e2a7ade3c3cca871df9217929a406bec936b99708bbf19606439c",
+   "sourceNormalizedLfSha256": "76242c65203e2a7ade3c3cca871df9217929a406bec936b99708bbf19606439c"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/南.md",
+   "russianCanonicalGitRawSha256": "d5105171502feb7936ebdf993e017f695bd989ea68a7e69de69028a544c99056",
+   "russianNormalizedLfSha256": "d5105171502feb7936ebdf993e017f695bd989ea68a7e69de69028a544c99056",
+   "russianWorkingRawSha256": "b697ce91f9ff45203b74858cf355cc987f360703ca66b3d772bb88a2c9d203ca",
+   "sourceGitRawSha256": "3088f2e512db11992310b8ea5fbfd2bbc085ce1ffd6f8a82eec9f4a1416d2168",
+   "sourceNormalizedLfSha256": "3088f2e512db11992310b8ea5fbfd2bbc085ce1ffd6f8a82eec9f4a1416d2168"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/東.md",
+   "russianCanonicalGitRawSha256": "8ee1ff25604651273018755fec01b5a2fb46c3ba81e7d85cf746a3541b024481",
+   "russianNormalizedLfSha256": "8ee1ff25604651273018755fec01b5a2fb46c3ba81e7d85cf746a3541b024481",
+   "russianWorkingRawSha256": "90861cc70432e66991b75380f124492055d7164b646b219529517987ae74c5b1",
+   "sourceGitRawSha256": "adf1e5e06e38a63b0475c49a18c055b497e5ebc0ab2597bf87cc1686bb9933f9",
+   "sourceNormalizedLfSha256": "adf1e5e06e38a63b0475c49a18c055b497e5ebc0ab2597bf87cc1686bb9933f9"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/西.md",
+   "russianCanonicalGitRawSha256": "c3fa4940804cfed453b76b7005d761f5949a2eaf66c612d59b495ae7f7aaa35d",
+   "russianNormalizedLfSha256": "c3fa4940804cfed453b76b7005d761f5949a2eaf66c612d59b495ae7f7aaa35d",
+   "russianWorkingRawSha256": "32e05e0115b2b83dc0b6a45e3c22ba8875a49b9e6aa9aecb972dadca3b2023ea",
+   "sourceGitRawSha256": "85cd76b7b8a72bfe519cbe44411016fc4b4b5d855ae4a23da2c2a83823a569a5",
+   "sourceNormalizedLfSha256": "85cd76b7b8a72bfe519cbe44411016fc4b4b5d855ae4a23da2c2a83823a569a5"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/内.md",
+   "russianCanonicalGitRawSha256": "7f772e52f1200dfca3d13c19e992b5c8344d31858a8a1b54dad5a6bd0e5fd8cc",
+   "russianNormalizedLfSha256": "7f772e52f1200dfca3d13c19e992b5c8344d31858a8a1b54dad5a6bd0e5fd8cc",
+   "russianWorkingRawSha256": "967cd4335c2eed20c85316513f96519652476a96930bce5034613e4651abd73b",
+   "sourceGitRawSha256": "8c9840f52f752e265ffc60405ca980cdfd6ef0a2365515b30a4ef7e90b9ffc3d",
+   "sourceNormalizedLfSha256": "8c9840f52f752e265ffc60405ca980cdfd6ef0a2365515b30a4ef7e90b9ffc3d"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/真ん中.md",
+   "russianCanonicalGitRawSha256": "757ea49d518ba12444f84cf4cd3b0dcc823ca774ae54e3de1dcc48e730c6e993",
+   "russianNormalizedLfSha256": "757ea49d518ba12444f84cf4cd3b0dcc823ca774ae54e3de1dcc48e730c6e993",
+   "russianWorkingRawSha256": "fc677bdeccc7fd92001dd4b2c9934c3c225e4d48b048e0aa5e153e364a3ba899",
+   "sourceGitRawSha256": "df9762ac29874a29586c4f472678c3dacb9d3a5d000b1d951454b4c666833793",
+   "sourceNormalizedLfSha256": "df9762ac29874a29586c4f472678c3dacb9d3a5d000b1d951454b4c666833793"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/ほか.md",
+   "russianCanonicalGitRawSha256": "e3d36d3ecc4d50953e0623e26ca39389e22e9c37bc11eb0b108cac3b3c546da6",
+   "russianNormalizedLfSha256": "e3d36d3ecc4d50953e0623e26ca39389e22e9c37bc11eb0b108cac3b3c546da6",
+   "russianWorkingRawSha256": "815f10e671666f2b51f4f84ad50970dacc496c360e66b969784a98245a4d5bb1",
+   "sourceGitRawSha256": "2c4d40251dc8b221e2e0ff5a120fb57fe832d707d58d02a41ccaca5360886919",
+   "sourceNormalizedLfSha256": "2c4d40251dc8b221e2e0ff5a120fb57fe832d707d58d02a41ccaca5360886919"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/他.md",
+   "russianCanonicalGitRawSha256": "78e2833478d003e5da564f2ecdd1a07176c31ab9c40386e900e520f454c354d0",
+   "russianNormalizedLfSha256": "78e2833478d003e5da564f2ecdd1a07176c31ab9c40386e900e520f454c354d0",
+   "russianWorkingRawSha256": "0977130652eacedae0a6dd446093c5e9d52c60960da037c40b8217008e223c48",
+   "sourceGitRawSha256": "4e8d1deefd0c884fe4d4bb38d810f5e1ea4e2bb6de8ca7a69eff7ec15b5d35b3",
+   "sourceNormalizedLfSha256": "4e8d1deefd0c884fe4d4bb38d810f5e1ea4e2bb6de8ca7a69eff7ec15b5d35b3"
+  },
+  {
+   "isNewInBatch": true,
+   "isPrimaryReviewUnit": true,
+   "path": "words/他人.md",
+   "russianCanonicalGitRawSha256": "e2a09153da558fec673ccd632538ff9e8362ad83efb91c16af87f6fab8839e68",
+   "russianNormalizedLfSha256": "e2a09153da558fec673ccd632538ff9e8362ad83efb91c16af87f6fab8839e68",
+   "russianWorkingRawSha256": "15981f8e1dae1f60184359f5b797da4dd669c5ade734adc8c036f55565e2b2fe",
+   "sourceGitRawSha256": "93639807661a1f040c8cf1f3d513c296c5181c3a98359d99ed62d204e26b8078",
+   "sourceNormalizedLfSha256": "93639807661a1f040c8cf1f3d513c296c5181c3a98359d99ed62d204e26b8078"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/内側.md",
+   "russianCanonicalGitRawSha256": "bf31473022481ace80ae19f0faa74df14a96fc722fa14b42abeaa2e6e1152e79",
+   "russianNormalizedLfSha256": "bf31473022481ace80ae19f0faa74df14a96fc722fa14b42abeaa2e6e1152e79",
+   "russianWorkingRawSha256": "7ccd77e33f6bafd056e9589fce81b4f4f76a4f374fa72288d14bedc30cf2299c",
+   "sourceGitRawSha256": "941a71a04ac1b79dc46a6b8298e4ff2a853206b813f8025b022869e8aeb9a17b",
+   "sourceNormalizedLfSha256": "bfdb2c3e431fa89e9ac00ad9b5227e64f2f2881a91e5ce75395d785606d73359"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/上着.md",
+   "russianCanonicalGitRawSha256": "a8729d550ef9ea90dca94e469cd8455cdc7380dd42e8fa4bd96152bc675942b2",
+   "russianNormalizedLfSha256": "a8729d550ef9ea90dca94e469cd8455cdc7380dd42e8fa4bd96152bc675942b2",
+   "russianWorkingRawSha256": "122be506be6372c9b6338dca90a1f43563e59de2178d3ce56fb7695032cc8b92",
+   "sourceGitRawSha256": "13bbcd187d34f3fc0ce4a10668f0a9cfbff58d0a6483e99b27d8abcba2dd3104",
+   "sourceNormalizedLfSha256": "13bbcd187d34f3fc0ce4a10668f0a9cfbff58d0a6483e99b27d8abcba2dd3104"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": true,
+   "path": "words/川上.md",
+   "russianCanonicalGitRawSha256": "a9be658207f49694fbbd845a9a633521ab10dcc4c1fec6842cbc2f398ff56a08",
+   "russianNormalizedLfSha256": "a9be658207f49694fbbd845a9a633521ab10dcc4c1fec6842cbc2f398ff56a08",
+   "russianWorkingRawSha256": "8e1a9b5924fa1ed42ca88b2d2f8eb2fc5d820996a66b0853d19ccc702d9f23c3",
+   "sourceGitRawSha256": "c54a96708f9e62c27bb59b0d44944cb9de07d56262d09cf553dd14754b241d9a",
+   "sourceNormalizedLfSha256": "89b33e40dbe3dbf2c58483c175732a611b1e9817707e49a393248fd58c92a082"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/上下.md",
+   "russianCanonicalGitRawSha256": "73a5853a50a57d33f9d83eca79f5fba6b558dc8b1d8d63838e00c8e5c5339527",
+   "russianNormalizedLfSha256": "73a5853a50a57d33f9d83eca79f5fba6b558dc8b1d8d63838e00c8e5c5339527",
+   "russianWorkingRawSha256": "c52e577ecf203e69ddf6c07361eac68627124774ede2d1c6accd7478c8af72f9",
+   "sourceGitRawSha256": "c5518724736ec8762e12b80caf0d10f33798c4f567525ef7de44f4746bd45f48",
+   "sourceNormalizedLfSha256": "35d636eb366eac9366358e2da8f45b8991708716a66503c66154fdc0726162ae"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/左右.md",
+   "russianCanonicalGitRawSha256": "3275b8c35874ca57e415f30a5327dce59ca229c6330593854e33cf8a7b46a183",
+   "russianNormalizedLfSha256": "3275b8c35874ca57e415f30a5327dce59ca229c6330593854e33cf8a7b46a183",
+   "russianWorkingRawSha256": "28fac709d37f9be764261293f7e3eb1d1d74b6be0ad29820bd3f17d658f266c7",
+   "sourceGitRawSha256": "df3a8f022b552b8b6bfbd9c23a2ea205495ae66d316ff5b310f0e72dd2b429fd",
+   "sourceNormalizedLfSha256": "b8398580a93dd4b53b556ea3986c6cc4ae24768972766e8286726e3352b1e43e"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/後ろ.md",
+   "russianCanonicalGitRawSha256": "84b7adc04526852b42419f586176ed1bd67a81b606f0721261437bc3d6551e0e",
+   "russianNormalizedLfSha256": "84b7adc04526852b42419f586176ed1bd67a81b606f0721261437bc3d6551e0e",
+   "russianWorkingRawSha256": "b797dfab05971c7d8cbd42e80bcc3ba44308d55b0f8b2c54a524b1e09a30086a",
+   "sourceGitRawSha256": "b854cd36a0ee6acf45e2dc765becd40e00180ecf3909cf3a7f5283d6aba7e3dc",
+   "sourceNormalizedLfSha256": "aba7a9fa23849552be4dac5130e4662e53163b53218bbc7e28a5f19ba060a4b8"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/方.md",
+   "russianCanonicalGitRawSha256": "d0cf4b2522303b71da8ddfc0d32b210fa4ea3f5e69398d4868bfa4f543009743",
+   "russianNormalizedLfSha256": "d0cf4b2522303b71da8ddfc0d32b210fa4ea3f5e69398d4868bfa4f543009743",
+   "russianWorkingRawSha256": "7869f8e7aa131742e804b1113d7b5ef72021894bbbd65bb5572dd17d043ebdfc",
+   "sourceGitRawSha256": "09a1308ebe5bd5611f740c698ac5f14723f3df79ac32569c36161ddba58c0588",
+   "sourceNormalizedLfSha256": "09a1308ebe5bd5611f740c698ac5f14723f3df79ac32569c36161ddba58c0588"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/こちら.md",
+   "russianCanonicalGitRawSha256": "cf6120914aa70c11adcd3ce13fc905cd64d7553020a29428a4e5ddf3bd097771",
+   "russianNormalizedLfSha256": "cf6120914aa70c11adcd3ce13fc905cd64d7553020a29428a4e5ddf3bd097771",
+   "russianWorkingRawSha256": "cf6120914aa70c11adcd3ce13fc905cd64d7553020a29428a4e5ddf3bd097771",
+   "sourceGitRawSha256": "fe8ffb993400e9697f5f010c504ffbd3550b0e9d2aeaa68db6ef969b307bb45b",
+   "sourceNormalizedLfSha256": "fe8ffb993400e9697f5f010c504ffbd3550b0e9d2aeaa68db6ef969b307bb45b"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/こっち.md",
+   "russianCanonicalGitRawSha256": "95fd575b17e84b91458923b073abd99589db136f3c5e657b7f829585772ad5a6",
+   "russianNormalizedLfSha256": "95fd575b17e84b91458923b073abd99589db136f3c5e657b7f829585772ad5a6",
+   "russianWorkingRawSha256": "95fd575b17e84b91458923b073abd99589db136f3c5e657b7f829585772ad5a6",
+   "sourceGitRawSha256": "8115434cdaf7833030f3218f42583c17d8baccf18e74dea5da3a6b3e87458140",
+   "sourceNormalizedLfSha256": "8115434cdaf7833030f3218f42583c17d8baccf18e74dea5da3a6b3e87458140"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/そちら.md",
+   "russianCanonicalGitRawSha256": "679764c0144a4b81d97f4df8188b07bf7e6e2c24ea6e5e55e4323a145f24271c",
+   "russianNormalizedLfSha256": "679764c0144a4b81d97f4df8188b07bf7e6e2c24ea6e5e55e4323a145f24271c",
+   "russianWorkingRawSha256": "679764c0144a4b81d97f4df8188b07bf7e6e2c24ea6e5e55e4323a145f24271c",
+   "sourceGitRawSha256": "1e5e42acd719515977adcb653f61614d41585c04dad6b7af6511dcdc3599906d",
+   "sourceNormalizedLfSha256": "1e5e42acd719515977adcb653f61614d41585c04dad6b7af6511dcdc3599906d"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/そっち.md",
+   "russianCanonicalGitRawSha256": "80771246d31813479fad9f4b05c3a0106916c0c19f8593ee5d9983dc6d5dfd0f",
+   "russianNormalizedLfSha256": "80771246d31813479fad9f4b05c3a0106916c0c19f8593ee5d9983dc6d5dfd0f",
+   "russianWorkingRawSha256": "80771246d31813479fad9f4b05c3a0106916c0c19f8593ee5d9983dc6d5dfd0f",
+   "sourceGitRawSha256": "9f7cc9b3f1fc54091e88fd37e98f167872e8ab260395982a9cda778cb0aed5e9",
+   "sourceNormalizedLfSha256": "9f7cc9b3f1fc54091e88fd37e98f167872e8ab260395982a9cda778cb0aed5e9"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/あちら.md",
+   "russianCanonicalGitRawSha256": "6cc44b9b43897d846a7444b345c2ed13bc0d694806b7470937ca41175ce99b6f",
+   "russianNormalizedLfSha256": "6cc44b9b43897d846a7444b345c2ed13bc0d694806b7470937ca41175ce99b6f",
+   "russianWorkingRawSha256": "6cc44b9b43897d846a7444b345c2ed13bc0d694806b7470937ca41175ce99b6f",
+   "sourceGitRawSha256": "aff85fb2453256e5940a98760637c173b92da4fc84dee594d8cc226eadc160f8",
+   "sourceNormalizedLfSha256": "aff85fb2453256e5940a98760637c173b92da4fc84dee594d8cc226eadc160f8"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/あっち.md",
+   "russianCanonicalGitRawSha256": "ece9fc0a9a74bc4445584fb122ecb11dd9a7342b1bf923b6230cf8178f7fa049",
+   "russianNormalizedLfSha256": "ece9fc0a9a74bc4445584fb122ecb11dd9a7342b1bf923b6230cf8178f7fa049",
+   "russianWorkingRawSha256": "ece9fc0a9a74bc4445584fb122ecb11dd9a7342b1bf923b6230cf8178f7fa049",
+   "sourceGitRawSha256": "9c002cef302c47e02dcf88d2a106389285a76d57c53d5a9dae744b38eb830e48",
+   "sourceNormalizedLfSha256": "9c002cef302c47e02dcf88d2a106389285a76d57c53d5a9dae744b38eb830e48"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/ここ.md",
+   "russianCanonicalGitRawSha256": "3cb52590ab792c88116e2c06c612b081f285f95b44a50251efa767e969ea1539",
+   "russianNormalizedLfSha256": "3cb52590ab792c88116e2c06c612b081f285f95b44a50251efa767e969ea1539",
+   "russianWorkingRawSha256": "3cb52590ab792c88116e2c06c612b081f285f95b44a50251efa767e969ea1539",
+   "sourceGitRawSha256": "9e10c8b0c45101a34420e4429c25ba4958a5afa540a1c33ca83c78e66994a6c0",
+   "sourceNormalizedLfSha256": "9e10c8b0c45101a34420e4429c25ba4958a5afa540a1c33ca83c78e66994a6c0"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/そこ.md",
+   "russianCanonicalGitRawSha256": "7ac38144113c872134e7940a5811e66036c6ef609a0f7dc987ecec8bee0813c1",
+   "russianNormalizedLfSha256": "7ac38144113c872134e7940a5811e66036c6ef609a0f7dc987ecec8bee0813c1",
+   "russianWorkingRawSha256": "7ac38144113c872134e7940a5811e66036c6ef609a0f7dc987ecec8bee0813c1",
+   "sourceGitRawSha256": "beaa6c7fe1e944b8b1160f85bc477528d842d326b4149cf727c59827b74c0286",
+   "sourceNormalizedLfSha256": "beaa6c7fe1e944b8b1160f85bc477528d842d326b4149cf727c59827b74c0286"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/あそこ.md",
+   "russianCanonicalGitRawSha256": "f0a4bbd7e969a6a9bd4a2caa02bd92c265de18fd6ef646888d9a1f8bc2530807",
+   "russianNormalizedLfSha256": "f0a4bbd7e969a6a9bd4a2caa02bd92c265de18fd6ef646888d9a1f8bc2530807",
+   "russianWorkingRawSha256": "f0a4bbd7e969a6a9bd4a2caa02bd92c265de18fd6ef646888d9a1f8bc2530807",
+   "sourceGitRawSha256": "181dacea5464d2ec0d84d0f6b36f8eb49a01ec030a3ac39f10ccacb04083cfb2",
+   "sourceNormalizedLfSha256": "181dacea5464d2ec0d84d0f6b36f8eb49a01ec030a3ac39f10ccacb04083cfb2"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/家.md",
+   "russianCanonicalGitRawSha256": "e5a82d762e580c44f865a7c30a52ca8fe8b895ba19df70a22a63fa492a67a54d",
+   "russianNormalizedLfSha256": "e5a82d762e580c44f865a7c30a52ca8fe8b895ba19df70a22a63fa492a67a54d",
+   "russianWorkingRawSha256": "2a37b33a9bb363397ebc4735b4272ac9d121aa67ce66bc132e1b29aa22e56b15",
+   "sourceGitRawSha256": "6bfb7078ab3c11b7aa1374016a38c5c6797e78964d2ef0c694a6a2b49fb0078b",
+   "sourceNormalizedLfSha256": "6bfb7078ab3c11b7aa1374016a38c5c6797e78964d2ef0c694a6a2b49fb0078b"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/家族.md",
+   "russianCanonicalGitRawSha256": "0da7f16f3723a79621d19a8c4c732cbe16381b1418a0d6905834b4985246bee4",
+   "russianNormalizedLfSha256": "0da7f16f3723a79621d19a8c4c732cbe16381b1418a0d6905834b4985246bee4",
+   "russianWorkingRawSha256": "0da7f16f3723a79621d19a8c4c732cbe16381b1418a0d6905834b4985246bee4",
+   "sourceGitRawSha256": "ae1a246a785e8cbd1bec7ae36ae2a4c2decf25a4eef0bc2840be83e9f6d24633",
+   "sourceNormalizedLfSha256": "ae1a246a785e8cbd1bec7ae36ae2a4c2decf25a4eef0bc2840be83e9f6d24633"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/会社.md",
+   "russianCanonicalGitRawSha256": "418e98896d483a1967eb38a734bcdc10ac540d9cb955a4682a367f847869863f",
+   "russianNormalizedLfSha256": "418e98896d483a1967eb38a734bcdc10ac540d9cb955a4682a367f847869863f",
+   "russianWorkingRawSha256": "a84fad83a4c3faec30d79c394f3c24c80735a9778df27bafb9191a42feafc343",
+   "sourceGitRawSha256": "3da93115f9e814c8aabc51c2b1b9c783ae13c6aced3942dfc2149a9882f9058c",
+   "sourceNormalizedLfSha256": "de37d818cef3cecfa0eae4dc82d56b28478c0612a9f9184f62285abba9ac8e68"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/組織.md",
+   "russianCanonicalGitRawSha256": "d9a983217e6cf0580b7bc3a38c7066557d6c50fc976d2f3ffc64775c3c8bf622",
+   "russianNormalizedLfSha256": "d9a983217e6cf0580b7bc3a38c7066557d6c50fc976d2f3ffc64775c3c8bf622",
+   "russianWorkingRawSha256": "21b8f40750e4dac6a3675ddefae642d59fa368d1ca9d918fbe71b147e17c7353",
+   "sourceGitRawSha256": "4ff1b9b9487b5bdfb380abda8fe4020b3132c18d50f5869b9b203b3a0356238e",
+   "sourceNormalizedLfSha256": "4ff1b9b9487b5bdfb380abda8fe4020b3132c18d50f5869b9b203b3a0356238e"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/団体.md",
+   "russianCanonicalGitRawSha256": "42e82128c35d1c16c14308c9903e25e0f83f5cbd7177c25b3bcd89652d5f9bd6",
+   "russianNormalizedLfSha256": "42e82128c35d1c16c14308c9903e25e0f83f5cbd7177c25b3bcd89652d5f9bd6",
+   "russianWorkingRawSha256": "70479fc7768c790d31fa420ac0fa67366cbf48f9863dd710ba2d41dab5ee7aa2",
+   "sourceGitRawSha256": "d10ba9fe5f61cade3318e84b0f23edb7fa9d49144b86dc0bb98f3407cee7fb93",
+   "sourceNormalizedLfSha256": "d10ba9fe5f61cade3318e84b0f23edb7fa9d49144b86dc0bb98f3407cee7fb93"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/夫.md",
+   "russianCanonicalGitRawSha256": "e34c5d9941a5af7ffe5435ddc492df7cfafb56cc14b72d1e9aaab67c4b1a5141",
+   "russianNormalizedLfSha256": "e34c5d9941a5af7ffe5435ddc492df7cfafb56cc14b72d1e9aaab67c4b1a5141",
+   "russianWorkingRawSha256": "e34c5d9941a5af7ffe5435ddc492df7cfafb56cc14b72d1e9aaab67c4b1a5141",
+   "sourceGitRawSha256": "8fe320fcb730c9b5a48156db0993648a45f49f7b17d0ac7fce368fd589f0bba0",
+   "sourceNormalizedLfSha256": "8fe320fcb730c9b5a48156db0993648a45f49f7b17d0ac7fce368fd589f0bba0"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/妻.md",
+   "russianCanonicalGitRawSha256": "819ca5326691b0254c7e2b471f4d9e2dacf2364f87a52e585670b17b5e69d4e8",
+   "russianNormalizedLfSha256": "819ca5326691b0254c7e2b471f4d9e2dacf2364f87a52e585670b17b5e69d4e8",
+   "russianWorkingRawSha256": "819ca5326691b0254c7e2b471f4d9e2dacf2364f87a52e585670b17b5e69d4e8",
+   "sourceGitRawSha256": "008ee22e211ca923ad1dfc9fa3b437a0c1073e3a543903039c4a9f3eedd3b2ca",
+   "sourceNormalizedLfSha256": "008ee22e211ca923ad1dfc9fa3b437a0c1073e3a543903039c4a9f3eedd3b2ca"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/主人.md",
+   "russianCanonicalGitRawSha256": "471290de78f2d82ee4483d12fea8204d9de2470b11817f25a374792c0cf18459",
+   "russianNormalizedLfSha256": "471290de78f2d82ee4483d12fea8204d9de2470b11817f25a374792c0cf18459",
+   "russianWorkingRawSha256": "471290de78f2d82ee4483d12fea8204d9de2470b11817f25a374792c0cf18459",
+   "sourceGitRawSha256": "b707e7142a4d9f893ae3c759c93d371155e1e5cc08409504babb3dfbdb64fe42",
+   "sourceNormalizedLfSha256": "b707e7142a4d9f893ae3c759c93d371155e1e5cc08409504babb3dfbdb64fe42"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/右手.md",
+   "russianCanonicalGitRawSha256": "f160375b2d2a7ef1cb224cc685d7d8c4f30a7e4c99c1b15058f38826ef6e75c8",
+   "russianNormalizedLfSha256": "f160375b2d2a7ef1cb224cc685d7d8c4f30a7e4c99c1b15058f38826ef6e75c8",
+   "russianWorkingRawSha256": "9bc386aab9eb0b263a1c563f6723e7b74b7c49dc2c2e85fbf58ad8c3aa410cc0",
+   "sourceGitRawSha256": "d06c0778285fb5fdbdc0d49bfdb2f8ef86b9fc603b1fe1f97bda68124f799546",
+   "sourceNormalizedLfSha256": "8d811d43d7ea7bcb9e25f72706c18f765407e0d598e4364f034e21c21acf83b6"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/左手.md",
+   "russianCanonicalGitRawSha256": "b74568bfb2557b63d83ad90d1dc75262688cc858e383403fb39a5e1dfb8090c9",
+   "russianNormalizedLfSha256": "b74568bfb2557b63d83ad90d1dc75262688cc858e383403fb39a5e1dfb8090c9",
+   "russianWorkingRawSha256": "64e2c855c8ebdd02f70b1a4ee46d4918269d41d9d605ef2c9d0caffaf6d59785",
+   "sourceGitRawSha256": "3efe8bb37ce2a443024bb45c3b920f93b7037711c43cc4072937b8686c1d227a",
+   "sourceNormalizedLfSha256": "9d5eb78a90d66448edd02c31a56b1438cc9a2d0e1774a257b50f989e91c70d53"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/高い.md",
+   "russianCanonicalGitRawSha256": "8044c61d82e8fe4891e3d058d95fc050e9d5d3b0a98645c2600c5d107e6f64e1",
+   "russianNormalizedLfSha256": "8044c61d82e8fe4891e3d058d95fc050e9d5d3b0a98645c2600c5d107e6f64e1",
+   "russianWorkingRawSha256": "b9670f2ead7b8d4c189d04f4c90628cfe0da656531596e9b3cd0e268f56793b7",
+   "sourceGitRawSha256": "bac08363d0f271f85b87ba6817c5745c09fd06a692fedc6fef6e42e1b074b25d",
+   "sourceNormalizedLfSha256": "bd7d7a62dac5dc0227125718eff05f3eb24a23bbca657d64d6fc904ac2fedc86"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/低い.md",
+   "russianCanonicalGitRawSha256": "e38cd2df5fcfd685a6f60c6e662652fee166ddd7be681acf148bef83ca917ab2",
+   "russianNormalizedLfSha256": "e38cd2df5fcfd685a6f60c6e662652fee166ddd7be681acf148bef83ca917ab2",
+   "russianWorkingRawSha256": "23fe967cefc410b37399b384bd4c3eac686001effdf456ed6db1cf875526ece4",
+   "sourceGitRawSha256": "3795bc2dd59b6ffb25a6dbe9a4d62c4f7f104c09de14d329ece20226a2647ebc",
+   "sourceNormalizedLfSha256": "3795bc2dd59b6ffb25a6dbe9a4d62c4f7f104c09de14d329ece20226a2647ebc"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/いい.md",
+   "russianCanonicalGitRawSha256": "52e181333c6139f89e3b0a94c7a76d01d8932a6daa3788a5d708e03d6a8fa15f",
+   "russianNormalizedLfSha256": "52e181333c6139f89e3b0a94c7a76d01d8932a6daa3788a5d708e03d6a8fa15f",
+   "russianWorkingRawSha256": "57af42fe39a64950871f3b861b9a5f0280fd40b5c3b6d198539e14baadc6fa11",
+   "sourceGitRawSha256": "41d8d09b0c6ef61b88501b484143c1f6ef6d975ebec2568d608e97c843f10e06",
+   "sourceNormalizedLfSha256": "41d8d09b0c6ef61b88501b484143c1f6ef6d975ebec2568d608e97c843f10e06"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/良い.md",
+   "russianCanonicalGitRawSha256": "73d73e626e49bd83aacfda0d1a9dc9cbcbc36a60acf8b881c1d71c311f67e776",
+   "russianNormalizedLfSha256": "73d73e626e49bd83aacfda0d1a9dc9cbcbc36a60acf8b881c1d71c311f67e776",
+   "russianWorkingRawSha256": "f8012da8cffddc0b85e745b3584e7103a86bd28f1ff02c2dba4e15624709273e",
+   "sourceGitRawSha256": "63829165a490be9b918f4934fcf1d68abb99d3d8554e819eac14b3a861984fb5",
+   "sourceNormalizedLfSha256": "63829165a490be9b918f4934fcf1d68abb99d3d8554e819eac14b3a861984fb5"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/結構.md",
+   "russianCanonicalGitRawSha256": "fdfb3d9782fc246a2756498f8f416aab3325c97c1128274438c1e5014c24bfb6",
+   "russianNormalizedLfSha256": "fdfb3d9782fc246a2756498f8f416aab3325c97c1128274438c1e5014c24bfb6",
+   "russianWorkingRawSha256": "c82d4cf9c52e339be455e5ecadc0ccc300644f0df8e5428a9e5acd1101727cc7",
+   "sourceGitRawSha256": "86a96680a81be14d4985e55bcf005bad2d36ac5cbb0a4dc6e98830f951d05ecb",
+   "sourceNormalizedLfSha256": "86a96680a81be14d4985e55bcf005bad2d36ac5cbb0a4dc6e98830f951d05ecb"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/易しい.md",
+   "russianCanonicalGitRawSha256": "fe09ac7797567c2b710886602e121efea4857e66647ad6fc9b833aa2b7b0027e",
+   "russianNormalizedLfSha256": "fe09ac7797567c2b710886602e121efea4857e66647ad6fc9b833aa2b7b0027e",
+   "russianWorkingRawSha256": "b33dcc3e06c80a10c8203e4c93b3f58f8d26738bbb8e9f6b70641b8a0c0fe152",
+   "sourceGitRawSha256": "9414d59b746dab8ee3cdfde31b3ee2bf75781655feef9bb2c6d1d9745252aa78",
+   "sourceNormalizedLfSha256": "9414d59b746dab8ee3cdfde31b3ee2bf75781655feef9bb2c6d1d9745252aa78"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/軽い.md",
+   "russianCanonicalGitRawSha256": "721c2c51dac7f2f4312316a63e51301511997593716a9ad43aa0985e77b9d540",
+   "russianNormalizedLfSha256": "721c2c51dac7f2f4312316a63e51301511997593716a9ad43aa0985e77b9d540",
+   "russianWorkingRawSha256": "fd3b1b7550e707b09cf84e484d7728dd45a135e2911c35a00dbcceacaee05b24",
+   "sourceGitRawSha256": "b2d36ac05a316b55fce9f4e2751175e68b4f8a2c01c26bae9bb922eac06ec385",
+   "sourceNormalizedLfSha256": "b2d36ac05a316b55fce9f4e2751175e68b4f8a2c01c26bae9bb922eac06ec385"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/重い.md",
+   "russianCanonicalGitRawSha256": "de061ea17eb1030bfebe2fe63aec0057fb3a07044cc665cd6ad889a5e16999e6",
+   "russianNormalizedLfSha256": "de061ea17eb1030bfebe2fe63aec0057fb3a07044cc665cd6ad889a5e16999e6",
+   "russianWorkingRawSha256": "71c2929c6987b83a35cce8032b2efbc9dcb85327f70aa50c9e4b7d3e9a62d220",
+   "sourceGitRawSha256": "a203240fdc54c753bf203405645d21bdd3f5228814bbfacaae320bfb81a1cc88",
+   "sourceNormalizedLfSha256": "a203240fdc54c753bf203405645d21bdd3f5228814bbfacaae320bfb81a1cc88"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/休む.md",
+   "russianCanonicalGitRawSha256": "4b92b85f89882bd3a28fd0dda51c82bab2bdc4f8a44ead2f3d7f0c665ec3b09a",
+   "russianNormalizedLfSha256": "4b92b85f89882bd3a28fd0dda51c82bab2bdc4f8a44ead2f3d7f0c665ec3b09a",
+   "russianWorkingRawSha256": "4b92b85f89882bd3a28fd0dda51c82bab2bdc4f8a44ead2f3d7f0c665ec3b09a",
+   "sourceGitRawSha256": "4d000703312ab57650ce72cddc27909d42be3867c5ffc7242a4acf589c28cd0c",
+   "sourceNormalizedLfSha256": "3b548f174f13b3890be2e52dff154747ebcbd5272c4730a9c0971713dd699d7f"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/長短.md",
+   "russianCanonicalGitRawSha256": "90486284806030870fb0e3aeda3b07d3a21b8cd6a5eeee108223c0a1ff0e964f",
+   "russianNormalizedLfSha256": "90486284806030870fb0e3aeda3b07d3a21b8cd6a5eeee108223c0a1ff0e964f",
+   "russianWorkingRawSha256": "21584ac56b59a33bf2fde72d8f7351a716dd22e95ef8c92a26a73bb364e672bf",
+   "sourceGitRawSha256": "cb987cc242a40cac58997bd41c6b53a572bf4cd838a15769f73ab90d504e86bc",
+   "sourceNormalizedLfSha256": "fc25b3c2306d783d9fd8a1d78f0118602619cc19e2d7be252938e257dd708c1a"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/土地.md",
+   "russianCanonicalGitRawSha256": "cd69d789cb882cfedd2b99934689b80a1a5f86cae0d4f0cb5579941ef3aa2167",
+   "russianNormalizedLfSha256": "cd69d789cb882cfedd2b99934689b80a1a5f86cae0d4f0cb5579941ef3aa2167",
+   "russianWorkingRawSha256": "976296c43c5e6fa910b0ec61d71076419915b72981e36a65d8f3a0007b3ed874",
+   "sourceGitRawSha256": "e98970f135a6a59cd3781034b86a022781ae3ae30db3b005b533f555314157be",
+   "sourceNormalizedLfSha256": "e98970f135a6a59cd3781034b86a022781ae3ae30db3b005b533f555314157be"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/汚い.md",
+   "russianCanonicalGitRawSha256": "16b5e690c540344ddc2d47b88017b83f8f12dfdd1d6c5541fd7690e330e85b14",
+   "russianNormalizedLfSha256": "16b5e690c540344ddc2d47b88017b83f8f12dfdd1d6c5541fd7690e330e85b14",
+   "russianWorkingRawSha256": "181450cd32f759cbe456cbcb4d92d5dfe6d165590c55730658570ac39cc73078",
+   "sourceGitRawSha256": "c1f68b114e3e38a569210c63469065221fb127180e2899e780e04d6a15d9e88d",
+   "sourceNormalizedLfSha256": "c1f68b114e3e38a569210c63469065221fb127180e2899e780e04d6a15d9e88d"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/悪い.md",
+   "russianCanonicalGitRawSha256": "5088de89bdfde3e2ab29601d735bcaf57b0e61101fca31121fd7587c73a56cc8",
+   "russianNormalizedLfSha256": "5088de89bdfde3e2ab29601d735bcaf57b0e61101fca31121fd7587c73a56cc8",
+   "russianWorkingRawSha256": "9968a0874304c2957a69e26a24f4d6d8da04ff88ecfc7afa640e962e3b56598f",
+   "sourceGitRawSha256": "470b93609e50ff39f00d59011e034ee951bbc0790d8d656922946e6d7c1875ce",
+   "sourceNormalizedLfSha256": "470b93609e50ff39f00d59011e034ee951bbc0790d8d656922946e6d7c1875ce"
+  },
+  {
+   "isNewInBatch": false,
+   "isPrimaryReviewUnit": false,
+   "path": "words/入る.md",
+   "russianCanonicalGitRawSha256": "4f9c395b093b779f2f34c8646276ea2d656d07b6872953be54417d23078c0609",
+   "russianNormalizedLfSha256": "4f9c395b093b779f2f34c8646276ea2d656d07b6872953be54417d23078c0609",
+   "russianWorkingRawSha256": "4f9c395b093b779f2f34c8646276ea2d656d07b6872953be54417d23078c0609",
+   "sourceGitRawSha256": "06a2e906792a72f80147527334d432544655a712c58dffbb53999d426565df4a",
+   "sourceNormalizedLfSha256": "06a2e906792a72f80147527334d432544655a712c58dffbb53999d426565df4a"
+  }
+ ],
+ "continueRequired": true,
+ "directGuardsAfterAdjudication": [
+  {
+   "directReason": "Preserve exact frozen-source direct semantic exclusion; provider closure really exists.",
+   "evidence": [
+    "frozen6af98cb complete source bodies and direct metadata"
+   ],
+   "field": "quiz_exclusions",
+   "from": "遠い",
+   "left": "遠い",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "遠く",
+   "russianCaptionFrom": "далёкий; далеко",
+   "russianCaptionTo": "далеко; вдали",
+   "sourceOriginal": true,
+   "to": "遠く"
+  },
+  {
+   "directReason": "Preserve exact frozen-source direct semantic exclusion; provider closure really exists.",
+   "evidence": [
+    "frozen6af98cb complete source bodies and direct metadata"
+   ],
+   "field": "quiz_exclusions",
+   "from": "中",
+   "left": "中",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "内",
+   "russianCaptionFrom": "внутри; середина",
+   "russianCaptionTo": "внутри; в пределах",
+   "sourceOriginal": true,
+   "to": "内"
+  },
+  {
+   "directReason": "Preserve exact frozen-source direct semantic exclusion; provider closure really exists.",
+   "evidence": [
+    "frozen6af98cb complete source bodies and direct metadata"
+   ],
+   "field": "quiz_exclusions",
+   "from": "中",
+   "left": "中",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "内側",
+   "russianCaptionFrom": "внутри; середина",
+   "russianCaptionTo": "внутренняя сторона; внутренняя часть",
+   "sourceOriginal": true,
+   "to": "内側"
+  },
+  {
+   "directReason": "Preserve exact frozen-source direct semantic exclusion; provider closure really exists.",
+   "evidence": [
+    "frozen6af98cb complete source bodies and direct metadata"
+   ],
+   "field": "quiz_exclusions",
+   "from": "中",
+   "left": "中",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "真ん中",
+   "russianCaptionFrom": "внутри; середина",
+   "russianCaptionTo": "самая середина; центр",
+   "sourceOriginal": true,
+   "to": "真ん中"
+  },
+  {
+   "directReason": "Preserve exact frozen-source direct semantic exclusion; provider closure really exists.",
+   "evidence": [
+    "frozen6af98cb complete source bodies and direct metadata"
+   ],
+   "field": "quiz_exclusions",
+   "from": "外",
+   "left": "外",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "ほか",
+   "russianCaptionFrom": "снаружи; вне",
+   "russianCaptionTo": "другой; остальное",
+   "sourceOriginal": true,
+   "to": "ほか"
+  },
+  {
+   "directReason": "Preserve exact frozen-source direct semantic exclusion; provider closure really exists.",
+   "evidence": [
+    "frozen6af98cb complete source bodies and direct metadata"
+   ],
+   "field": "quiz_exclusions",
+   "from": "外",
+   "left": "外",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "他",
+   "russianCaptionFrom": "снаружи; вне",
+   "russianCaptionTo": "другой; прочие",
+   "sourceOriginal": true,
+   "to": "他"
+  },
+  {
+   "directReason": "Preserve exact frozen-source direct semantic exclusion; provider closure really exists.",
+   "evidence": [
+    "frozen6af98cb complete source bodies and direct metadata"
+   ],
+   "field": "quiz_exclusions",
+   "from": "他",
+   "left": "他",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "ほか",
+   "russianCaptionFrom": "другой; прочие",
+   "russianCaptionTo": "другой; остальное",
+   "sourceOriginal": true,
+   "to": "ほか"
+  },
+  {
+   "directReason": "Preserve exact frozen-source direct semantic exclusion; provider closure really exists.",
+   "evidence": [
+    "frozen6af98cb complete source bodies and direct metadata"
+   ],
+   "field": "quiz_exclusions",
+   "from": "他",
+   "left": "他",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "他人",
+   "russianCaptionFrom": "другой; прочие",
+   "russianCaptionTo": "другой человек; посторонний",
+   "sourceOriginal": true,
+   "to": "他人"
+  },
+  {
+   "directReason": "近い's nearby sense permits поблизости; close/nearby, not just equal-looking strings.",
+   "evidence": [
+    "primary complete objects近い/近く/側/隣/辺/横; exact proposed captions"
+   ],
+   "field": "quiz_exclusions",
+   "from": "近い",
+   "left": "近い",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "近く",
+   "russianCaptionFrom": "близкий; близко",
+   "russianCaptionTo": "поблизости; окрестности",
+   "sourceOriginal": false,
+   "to": "近く"
+  },
+  {
+   "directReason": "Actual рядом/возле labels can express being near; 側 also has explicit near/close senses.",
+   "evidence": [
+    "primary complete objects近い/近く/側/隣/辺/横; exact proposed captions"
+   ],
+   "field": "quiz_exclusions",
+   "from": "近い",
+   "left": "近い",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "側",
+   "russianCaptionFrom": "близкий; близко",
+   "russianCaptionTo": "рядом; возле",
+   "sourceOriginal": false,
+   "to": "側"
+  },
+  {
+   "directReason": "隣's unqualified рядом can answer ordinary 近い; adjacency is not declared identical to every nearness.",
+   "evidence": [
+    "primary complete objects近い/近く/側/隣/辺/横; exact proposed captions"
+   ],
+   "field": "quiz_exclusions",
+   "from": "近い",
+   "left": "近い",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "隣",
+   "russianCaptionFrom": "близкий; близко",
+   "russianCaptionTo": "рядом; по соседству",
+   "sourceOriginal": false,
+   "to": "隣"
+  },
+  {
+   "directReason": "Actual nearby/vicinity senses make рядом/возле and поблизости compete directly.",
+   "evidence": [
+    "primary complete objects近い/近く/側/隣/辺/横; exact proposed captions"
+   ],
+   "field": "quiz_exclusions",
+   "from": "近く",
+   "left": "近く",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "側",
+   "russianCaptionFrom": "поблизости; окрестности",
+   "russianCaptionTo": "рядом; возле",
+   "sourceOriginal": false,
+   "to": "側"
+  },
+  {
+   "directReason": "隣's actual рядом/по соседству can answer the nearby-location sense of 近く.",
+   "evidence": [
+    "primary complete objects近い/近く/側/隣/辺/横; exact proposed captions"
+   ],
+   "field": "quiz_exclusions",
+   "from": "近く",
+   "left": "近く",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "隣",
+   "russianCaptionFrom": "поблизости; окрестности",
+   "russianCaptionTo": "рядом; по соседству",
+   "sourceOriginal": false,
+   "to": "隣"
+  },
+  {
+   "directReason": "Both allow the displayed рядом under beside/next-to senses; preserve the adjacency lesson.",
+   "evidence": [
+    "primary complete objects近い/近く/側/隣/辺/横; exact proposed captions"
+   ],
+   "field": "quiz_exclusions",
+   "from": "側",
+   "left": "側",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "隣",
+   "russianCaptionFrom": "рядом; возле",
+   "russianCaptionTo": "рядом; по соседству",
+   "sourceOriginal": false,
+   "to": "隣"
+  },
+  {
+   "directReason": "側's displayed рядом/возле can answer 横's actual beside/next-to sense, not its horizontal dimension.",
+   "evidence": [
+    "primary complete objects近い/近く/側/隣/辺/横; exact proposed captions"
+   ],
+   "field": "quiz_exclusions",
+   "from": "側",
+   "left": "側",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "横",
+   "russianCaptionFrom": "рядом; возле",
+   "russianCaptionTo": "сбоку; по горизонтали",
+   "sourceOriginal": false,
+   "to": "横"
+  },
+  {
+   "directReason": "隣's displayed рядом/по соседству can answer 横's actual beside sense.",
+   "evidence": [
+    "primary complete objects近い/近く/側/隣/辺/横; exact proposed captions"
+   ],
+   "field": "quiz_exclusions",
+   "from": "隣",
+   "left": "隣",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "横",
+   "russianCaptionFrom": "рядом; по соседству",
+   "russianCaptionTo": "сбоку; по горизонтали",
+   "sourceOriginal": false,
+   "to": "横"
+  },
+  {
+   "directReason": "近く's actual окрестности matches 辺's area/vicinity noun sense, not its mathematical edge.",
+   "evidence": [
+    "primary complete objects近い/近く/側/隣/辺/横; exact proposed captions"
+   ],
+   "field": "quiz_exclusions",
+   "from": "近く",
+   "left": "近く",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "辺",
+   "russianCaptionFrom": "поблизости; окрестности",
+   "russianCaptionTo": "окрестности; район",
+   "sourceOriginal": false,
+   "to": "辺"
+  },
+  {
+   "directReason": "辺's actual окрестности can answer 側's explicit vicinity sense; not a mathematical-side equivalence.",
+   "evidence": [
+    "primary complete objects近い/近く/側/隣/辺/横; exact proposed captions"
+   ],
+   "field": "quiz_exclusions",
+   "from": "側",
+   "left": "側",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "辺",
+   "russianCaptionFrom": "рядом; возле",
+   "russianCaptionTo": "окрестности; район",
+   "sourceOriginal": false,
+   "to": "辺"
+  },
+  {
+   "directReason": "Actual далеко/вдали caption can answer 向こう's separately explicit far-away sense; not a claim that every 向こう referent must be far.",
+   "evidence": [
+    "primary向こう complete object sense2; actualfar captions; frozen distance/viewpoint lessons"
+   ],
+   "field": "quiz_exclusions",
+   "from": "遠い",
+   "left": "遠い",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "向こう",
+   "russianCaptionFrom": "далёкий; далеко",
+   "russianCaptionTo": "там; по ту сторону",
+   "sourceOriginal": false,
+   "to": "向こう"
+  },
+  {
+   "directReason": "Actual далеко/вдали caption can answer 向こう's separately explicit far-away sense; not a claim that every 向こう referent must be far.",
+   "evidence": [
+    "primary向こう complete object sense2; actualfar captions; frozen distance/viewpoint lessons"
+   ],
+   "field": "quiz_exclusions",
+   "from": "遠く",
+   "left": "遠く",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "向こう",
+   "russianCaptionFrom": "далеко; вдали",
+   "russianCaptionTo": "там; по ту сторону",
+   "sourceOriginal": false,
+   "to": "向こう"
+  },
+  {
+   "directReason": "速い's actual быстрый can answer 早い's unrestricted fast/quick sense1; do NOT transfer early-only senses2/3 to速い.",
+   "evidence": [
+    "actually read complete primary/context lexical objects and complete frozen/old pairs"
+   ],
+   "field": "quiz_exclusions",
+   "from": "早い",
+   "left": "早い",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "速い",
+   "russianCaptionFrom": "ранний; рано",
+   "russianCaptionTo": "быстрый",
+   "sourceOriginal": false,
+   "to": "速い"
+  },
+  {
+   "directReason": "Displayed несложный/лёгкий can answer the explicit easy/simple sense4 of早い, qualified esp.早い.",
+   "evidence": [
+    "actually read complete primary/context lexical objects and complete frozen/old pairs"
+   ],
+   "field": "quiz_exclusions",
+   "from": "早い",
+   "left": "早い",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "易しい",
+   "russianCaptionFrom": "ранний; рано",
+   "russianCaptionTo": "лёгкий; несложный",
+   "sourceOriginal": false,
+   "to": "易しい"
+  },
+  {
+   "directReason": "New быстрый can legitimately express light-footed/nimble/agile movement of軽い. Evidence saysnimble/agile, NOT a fabricated literalquick gloss; the old weight-qualified caption does not make早いa pair.",
+   "evidence": [
+    "actually read complete primary/context lexical objects and complete frozen/old pairs"
+   ],
+   "field": "quiz_exclusions",
+   "from": "速い",
+   "left": "速い",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "軽い",
+   "russianCaptionFrom": "быстрый",
+   "russianCaptionTo": "лёгкий по весу",
+   "sourceOriginal": false,
+   "to": "軽い"
+  },
+  {
+   "directReason": "Actual медленный and медленно overlap in pace; unlikeゆっくり,遅いalso haslateness.",
+   "evidence": [
+    "actually read complete primary/context lexical objects and complete frozen/old pairs"
+   ],
+   "field": "quiz_exclusions",
+   "from": "遅い",
+   "left": "遅い",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "ゆっくり",
+   "russianCaptionFrom": "поздний; медленный",
+   "russianCaptionTo": "медленно; не спеша",
+   "sourceOriginal": false,
+   "to": "ゆっくり"
+  },
+  {
+   "directReason": "New медленный can answer重い's explicitslow/sluggish sense3; not an inference from physicalmass.",
+   "evidence": [
+    "actually read complete primary/context lexical objects and complete frozen/old pairs"
+   ],
+   "field": "quiz_exclusions",
+   "from": "遅い",
+   "left": "遅い",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "重い",
+   "russianCaptionFrom": "поздний; медленный",
+   "russianCaptionTo": "тяжёлый",
+   "sourceOriginal": false,
+   "to": "重い"
+  },
+  {
+   "directReason": "New медленно can answer重い's explicitslow/sluggish movement sense3; separately justified, not inherited through遅い.",
+   "evidence": [
+    "actually read complete primary/context lexical objects and complete frozen/old pairs"
+   ],
+   "field": "quiz_exclusions",
+   "from": "ゆっくり",
+   "left": "ゆっくり",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "重い",
+   "russianCaptionFrom": "медленно; не спеша",
+   "russianCaptionTo": "тяжёлый",
+   "sourceOriginal": false,
+   "to": "重い"
+  },
+  {
+   "directReason": "Existing отдыхать can answer actualゆっくりするrest/relax usage, taught in the whole source and supported by itsするPOS.",
+   "evidence": [
+    "actually read complete primary/context lexical objects and complete frozen/old pairs"
+   ],
+   "field": "quiz_exclusions",
+   "from": "ゆっくり",
+   "left": "ゆっくり",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "休む",
+   "russianCaptionFrom": "медленно; не спеша",
+   "russianCaptionTo": "отдыхать; отсутствовать",
+   "sourceOriginal": false,
+   "to": "休む"
+  },
+  {
+   "directReason": "Actual достаточно can answerゆっくり's explicit sufficiently/amply/time-to-spare sense2. This does not turn sleep-qualifiedwellinto generic adjectiveхороший.",
+   "evidence": [
+    "actually read complete primary/context lexical objects and complete frozen/old pairs"
+   ],
+   "field": "quiz_exclusions",
+   "from": "ゆっくり",
+   "left": "ゆっくり",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "結構",
+   "russianCaptionFrom": "медленно; не спеша",
+   "russianCaptionTo": "хороший; достаточно",
+   "sourceOriginal": false,
+   "to": "結構"
+  },
+  {
+   "directReason": "Actualсразуcan mean directlywithout intermediate stops in the frozenまっすぐ家に帰りますroute example. It does NOT proveまっすぐmeans immediate; preserve direct-route versus no-delay distinction explicitly in Russian.",
+   "evidence": [
+    "actually read complete primary/context lexical objects and complete frozen/old pairs"
+   ],
+   "field": "quiz_exclusions",
+   "from": "すぐに",
+   "left": "すぐに",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "まっすぐ",
+   "russianCaptionFrom": "сразу; немедленно",
+   "russianCaptionTo": "прямо; напрямик",
+   "sourceOriginal": false,
+   "to": "まっすぐ"
+  },
+  {
+   "directReason": "New по горизонтали can answer the ordinary left-right whole-axis reading of左右; do not extend to separate endpoints左/右.",
+   "evidence": [
+    "complete actual source/context lessons and correctly selected complete lexical objects"
+   ],
+   "field": "quiz_exclusions",
+   "from": "横",
+   "left": "横",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "左右",
+   "russianCaptionFrom": "сбоку; по горизонтали",
+   "russianCaptionTo": "левая и правая стороны; влияние",
+   "sourceOriginal": false,
+   "to": "左右"
+  },
+  {
+   "directReason": "New вертикаль can answer the up-and-down whole-axis reading of上下; do not extend to separate endpoints上/下.",
+   "evidence": [
+    "complete actual source/context lessons and correctly selected complete lexical objects"
+   ],
+   "field": "quiz_exclusions",
+   "from": "縦",
+   "left": "縦",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "上下",
+   "russianCaptionFrom": "вертикаль; вдоль",
+   "russianCaptionTo": "верх и низ; вверх и вниз",
+   "sourceOriginal": false,
+   "to": "上下"
+  },
+  {
+   "directReason": "Actual old длина can answer縦's explicit length/front-to-back dimension; no general size/width/height clique.",
+   "evidence": [
+    "complete actual source/context lessons and correctly selected complete lexical objects"
+   ],
+   "field": "quiz_exclusions",
+   "from": "縦",
+   "left": "縦",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "長短",
+   "russianCaptionFrom": "вертикаль; вдоль",
+   "russianCaptionTo": "длина; достоинства и недостатки",
+   "sourceOriginal": false,
+   "to": "長短"
+  },
+  {
+   "directReason": "Actual old верховье реки/выше по течению can answer expressly taught上かみ upstream; not an opposite-bank reading.",
+   "evidence": [
+    "complete actual source/context lessons and correctly selected complete lexical objects"
+   ],
+   "field": "quiz_exclusions",
+   "from": "上",
+   "left": "上",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "川上",
+   "russianCaptionFrom": "наверху; над",
+   "russianCaptionTo": "верховье реки; выше по течению",
+   "sourceOriginal": false,
+   "to": "川上"
+  },
+  {
+   "directReason": "Actual высокий can answer the expressly taught high-rank/high-grade upper reading; no transfer of expensive or bound honorarydear.",
+   "evidence": [
+    "complete actual source/context lessons and correctly selected complete lexical objects"
+   ],
+   "field": "quiz_exclusions",
+   "from": "上",
+   "left": "上",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "高い",
+   "russianCaptionFrom": "наверху; над",
+   "russianCaptionTo": "высокий; дорогой",
+   "sourceOriginal": false,
+   "to": "高い"
+  },
+  {
+   "directReason": "Actual хороший can answer expressly taught上じょう top/first-class grade; not a suffixdear or permission construction.",
+   "evidence": [
+    "complete actual source/context lessons and correctly selected complete lexical objects"
+   ],
+   "field": "quiz_exclusions",
+   "from": "上",
+   "left": "上",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "いい",
+   "russianCaptionFrom": "наверху; над",
+   "russianCaptionTo": "хороший; подходит",
+   "sourceOriginal": false,
+   "to": "いい"
+  },
+  {
+   "directReason": "Actual хороший can answer expressly taught上じょう best/first-class grade; separately direct, not inherited fromいい.",
+   "evidence": [
+    "complete actual source/context lessons and correctly selected complete lexical objects"
+   ],
+   "field": "quiz_exclusions",
+   "from": "上",
+   "left": "上",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "良い",
+   "russianCaptionFrom": "наверху; над",
+   "russianCaptionTo": "хороший",
+   "sourceOriginal": false,
+   "to": "良い"
+  },
+  {
+   "directReason": "Actual хороший can answer expressly taught上じょう excellent/top-grade quality; not the adequate/enough meaning.",
+   "evidence": [
+    "complete actual source/context lessons and correctly selected complete lexical objects"
+   ],
+   "field": "quiz_exclusions",
+   "from": "上",
+   "left": "上",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "結構",
+   "russianCaptionFrom": "наверху; над",
+   "russianCaptionTo": "хороший; достаточно",
+   "sourceOriginal": false,
+   "to": "結構"
+  },
+  {
+   "directReason": "Actual низкий can answer expressly taught下げ low-grade/inferiority; retainした/げ/しもreading boundaries.",
+   "evidence": [
+    "complete actual source/context lessons and correctly selected complete lexical objects"
+   ],
+   "field": "quiz_exclusions",
+   "from": "下",
+   "left": "下",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "低い",
+   "russianCaptionFrom": "внизу; под",
+   "russianCaptionTo": "низкий; невысокий",
+   "sourceOriginal": false,
+   "to": "低い"
+  },
+  {
+   "directReason": "Actual плохой can answer下げ low-quality/inferior grade, directly supported by悪いsense2inferior/poorquality; not lower age or lower rank automaticallybad.",
+   "evidence": [
+    "complete actual source/context lessons and correctly selected complete lexical objects"
+   ],
+   "field": "quiz_exclusions",
+   "from": "下",
+   "left": "下",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "悪い",
+   "russianCaptionFrom": "внизу; под",
+   "russianCaptionTo": "плохой; виноватый",
+   "sourceOriginal": false,
+   "to": "悪い"
+  },
+  {
+   "directReason": "Actual грязный has an obscene/coarse reading fitting下しも's separately captured dirty-joke/language sense5. Not physical dirt, not everyしたposition.",
+   "evidence": [
+    "complete actual source/context lessons and correctly selected complete lexical objects"
+   ],
+   "field": "quiz_exclusions",
+   "from": "下",
+   "left": "下",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "汚い",
+   "russianCaptionFrom": "внизу; под",
+   "russianCaptionTo": "грязный; неряшливый",
+   "sourceOriginal": false,
+   "to": "汚い"
+  },
+  {
+   "directReason": "Actual caption сюда; этот человек can express the over-there/destination or other-party/person reading of向こう. こちら is included for its displayed this-person component, not because向こうmeans here. Do not inherit links toこっち/ここor fixed compass directions.",
+   "evidence": [
+    "complete向こう object senses1-4; all actual16old source/RU pairs; precise deictic/person captions"
+   ],
+   "field": "quiz_exclusions",
+   "from": "向こう",
+   "left": "向こう",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "こちら",
+   "russianCaptionFrom": "там; по ту сторону",
+   "russianCaptionTo": "сюда; этот человек",
+   "sourceOriginal": false,
+   "to": "こちら"
+  },
+  {
+   "directReason": "Actual caption туда; ваша сторона can express the over-there/destination or other-party/person reading of向こう. こちら is included for its displayed this-person component, not because向こうmeans here. Do not inherit links toこっち/ここor fixed compass directions.",
+   "evidence": [
+    "complete向こう object senses1-4; all actual16old source/RU pairs; precise deictic/person captions"
+   ],
+   "field": "quiz_exclusions",
+   "from": "向こう",
+   "left": "向こう",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "そちら",
+   "russianCaptionFrom": "там; по ту сторону",
+   "russianCaptionTo": "туда; ваша сторона",
+   "sourceOriginal": false,
+   "to": "そちら"
+  },
+  {
+   "directReason": "Actual caption туда; ваша сторона can express the over-there/destination or other-party/person reading of向こう. こちら is included for its displayed this-person component, not because向こうmeans here. Do not inherit links toこっち/ここor fixed compass directions.",
+   "evidence": [
+    "complete向こう object senses1-4; all actual16old source/RU pairs; precise deictic/person captions"
+   ],
+   "field": "quiz_exclusions",
+   "from": "向こう",
+   "left": "向こう",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "そっち",
+   "russianCaptionFrom": "там; по ту сторону",
+   "russianCaptionTo": "туда; ваша сторона",
+   "sourceOriginal": false,
+   "to": "そっち"
+  },
+  {
+   "directReason": "Actual caption вон там; в ту сторону can express the over-there/destination or other-party/person reading of向こう. こちら is included for its displayed this-person component, not because向こうmeans here. Do not inherit links toこっち/ここor fixed compass directions.",
+   "evidence": [
+    "complete向こう object senses1-4; all actual16old source/RU pairs; precise deictic/person captions"
+   ],
+   "field": "quiz_exclusions",
+   "from": "向こう",
+   "left": "向こう",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "あちら",
+   "russianCaptionFrom": "там; по ту сторону",
+   "russianCaptionTo": "вон там; в ту сторону",
+   "sourceOriginal": false,
+   "to": "あちら"
+  },
+  {
+   "directReason": "Actual caption вон там can express the over-there/destination or other-party/person reading of向こう. こちら is included for its displayed this-person component, not because向こうmeans here. Do not inherit links toこっち/ここor fixed compass directions.",
+   "evidence": [
+    "complete向こう object senses1-4; all actual16old source/RU pairs; precise deictic/person captions"
+   ],
+   "field": "quiz_exclusions",
+   "from": "向こう",
+   "left": "向こう",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "あっち",
+   "russianCaptionFrom": "там; по ту сторону",
+   "russianCaptionTo": "вон там",
+   "sourceOriginal": false,
+   "to": "あっち"
+  },
+  {
+   "directReason": "Actual caption там; то место can express the over-there/destination or other-party/person reading of向こう. こちら is included for its displayed this-person component, not because向こうmeans here. Do not inherit links toこっち/ここor fixed compass directions.",
+   "evidence": [
+    "complete向こう object senses1-4; all actual16old source/RU pairs; precise deictic/person captions"
+   ],
+   "field": "quiz_exclusions",
+   "from": "向こう",
+   "left": "向こう",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "そこ",
+   "russianCaptionFrom": "там; по ту сторону",
+   "russianCaptionTo": "там; то место",
+   "sourceOriginal": false,
+   "to": "そこ"
+  },
+  {
+   "directReason": "Actual caption вон там can express the over-there/destination or other-party/person reading of向こう. こちら is included for its displayed this-person component, not because向こうmeans here. Do not inherit links toこっち/ここor fixed compass directions.",
+   "evidence": [
+    "complete向こう object senses1-4; all actual16old source/RU pairs; precise deictic/person captions"
+   ],
+   "field": "quiz_exclusions",
+   "from": "向こう",
+   "left": "向こう",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "あそこ",
+   "russianCaptionFrom": "там; по ту сторону",
+   "russianCaptionTo": "вон там",
+   "sourceOriginal": false,
+   "to": "あそこ"
+  },
+  {
+   "directReason": "Actual old hand caption fits the expressly captured hand sense of the new side word; the old compound also teaches the side direction. No inference to the opposite hand.",
+   "evidence": [
+    "complete primary右/左 and context右手/左手 objects and whole source/RU pairs"
+   ],
+   "field": "quiz_exclusions",
+   "from": "右",
+   "left": "右",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "右手",
+   "russianCaptionFrom": "справа; правая сторона",
+   "russianCaptionTo": "правая рука",
+   "sourceOriginal": false,
+   "to": "右手"
+  },
+  {
+   "directReason": "Actual old hand caption fits the expressly captured hand sense of the new side word; the old compound also teaches the side direction. No inference to the opposite hand.",
+   "evidence": [
+    "complete primary右/左 and context右手/左手 objects and whole source/RU pairs"
+   ],
+   "field": "quiz_exclusions",
+   "from": "左",
+   "left": "左",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "左手",
+   "russianCaptionFrom": "слева; левая сторона",
+   "russianCaptionTo": "левая рука",
+   "sourceOriginal": false,
+   "to": "左手"
+  },
+  {
+   "directReason": "Actual old внутренняя сторона/внутренняя часть fits内's interior sense. This does not create an内–真ん中clique through中.",
+   "evidence": [
+    "complete source内/内側pair; actual内object sense1"
+   ],
+   "field": "quiz_exclusions",
+   "from": "内",
+   "left": "内",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "内側",
+   "russianCaptionFrom": "внутри; в пределах",
+   "russianCaptionTo": "внутренняя сторона; внутренняя часть",
+   "sourceOriginal": false,
+   "to": "内側"
+  },
+  {
+   "directReason": "Actual old caption дом; жилище can answer内うち's exact one's home sense7, explicitly restricted to spelling内. Do not copy these personal/group meanings to中うちor confuse own spouse with someone else's honorific spouse.",
+   "evidence": [
+    "complete内object senses6-8 including restrictions; complete exact old pair/object家"
+   ],
+   "field": "quiz_exclusions",
+   "from": "内",
+   "left": "内",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "家",
+   "russianCaptionFrom": "внутри; в пределах",
+   "russianCaptionTo": "дом; жилище",
+   "sourceOriginal": false,
+   "to": "家"
+  },
+  {
+   "directReason": "Actual old caption семья can answer内うち's exact one's family sense7, explicitly restricted to spelling内. Do not copy these personal/group meanings to中うちor confuse own spouse with someone else's honorific spouse.",
+   "evidence": [
+    "complete内object senses6-8 including restrictions; complete exact old pair/object家族"
+   ],
+   "field": "quiz_exclusions",
+   "from": "内",
+   "left": "内",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "家族",
+   "russianCaptionFrom": "внутри; в пределах",
+   "russianCaptionTo": "семья",
+   "sourceOriginal": false,
+   "to": "家族"
+  },
+  {
+   "directReason": "Actual old caption компания; фирма can answer内うち's exact our company sense6, explicitly restricted to spelling内. Do not copy these personal/group meanings to中うちor confuse own spouse with someone else's honorific spouse.",
+   "evidence": [
+    "complete内object senses6-8 including restrictions; complete exact old pair/object会社"
+   ],
+   "field": "quiz_exclusions",
+   "from": "内",
+   "left": "内",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "会社",
+   "russianCaptionFrom": "внутри; в пределах",
+   "russianCaptionTo": "компания; фирма",
+   "sourceOriginal": false,
+   "to": "会社"
+  },
+  {
+   "directReason": "Actual old caption организация; структура; биологическая ткань can answer内うち's exact our organization sense6, explicitly restricted to spelling内. Do not copy these personal/group meanings to中うちor confuse own spouse with someone else's honorific spouse.",
+   "evidence": [
+    "complete内object senses6-8 including restrictions; complete exact old pair/object組織"
+   ],
+   "field": "quiz_exclusions",
+   "from": "内",
+   "left": "内",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "組織",
+   "russianCaptionFrom": "внутри; в пределах",
+   "russianCaptionTo": "организация; структура; биологическая ткань",
+   "sourceOriginal": false,
+   "to": "組織"
+  },
+  {
+   "directReason": "Actual old caption группа; организация can answer内うち's exact our organization sense6, explicitly restricted to spelling内. Do not copy these personal/group meanings to中うちor confuse own spouse with someone else's honorific spouse.",
+   "evidence": [
+    "complete内object senses6-8 including restrictions; complete exact old pair/object団体"
+   ],
+   "field": "quiz_exclusions",
+   "from": "内",
+   "left": "内",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "団体",
+   "russianCaptionFrom": "внутри; в пределах",
+   "russianCaptionTo": "группа; организация",
+   "sourceOriginal": false,
+   "to": "団体"
+  },
+  {
+   "directReason": "Actual old caption муж can answer内うち's exact my husband sense8, explicitly restricted to spelling内. Do not copy these personal/group meanings to中うちor confuse own spouse with someone else's honorific spouse.",
+   "evidence": [
+    "complete内object senses6-8 including restrictions; complete exact old pair/object夫"
+   ],
+   "field": "quiz_exclusions",
+   "from": "内",
+   "left": "内",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "夫",
+   "russianCaptionFrom": "внутри; в пределах",
+   "russianCaptionTo": "муж",
+   "sourceOriginal": false,
+   "to": "夫"
+  },
+  {
+   "directReason": "Actual old caption жена can answer内うち's exact my wife sense8, explicitly restricted to spelling内. Do not copy these personal/group meanings to中うちor confuse own spouse with someone else's honorific spouse.",
+   "evidence": [
+    "complete内object senses6-8 including restrictions; complete exact old pair/object妻"
+   ],
+   "field": "quiz_exclusions",
+   "from": "内",
+   "left": "内",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "妻",
+   "russianCaptionFrom": "внутри; в пределах",
+   "russianCaptionTo": "жена",
+   "sourceOriginal": false,
+   "to": "妻"
+  },
+  {
+   "directReason": "Actual old caption хозяин; свой муж can answer内うち's exact my husband sense8, explicitly restricted to spelling内. Do not copy these personal/group meanings to中うちor confuse own spouse with someone else's honorific spouse.",
+   "evidence": [
+    "complete内object senses6-8 including restrictions; complete exact old pair/object主人"
+   ],
+   "field": "quiz_exclusions",
+   "from": "内",
+   "left": "内",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "主人",
+   "russianCaptionFrom": "внутри; в пределах",
+   "russianCaptionTo": "хозяин; свой муж",
+   "sourceOriginal": false,
+   "to": "主人"
+  },
+  {
+   "directReason": "Actual old находиться внутри and the new внутри compete as natural Russian inside-state/locative paraphrases in an uncontextual meaning choice; exact入るsense3beinside and its already-taught resulting-state example support this, not substring matching. Noun location and intransitive verb remain grammatically different; reviewer must check this conservative safeguard rather than call the words freely interchangeable.",
+   "evidence": [
+    "complete source/Russian入るpair and actual入るobject sense3; complete new noun lessons"
+   ],
+   "field": "quiz_exclusions",
+   "from": "中",
+   "left": "中",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "入る",
+   "russianCaptionFrom": "внутри; середина",
+   "russianCaptionTo": "входить; находиться внутри",
+   "sourceOriginal": false,
+   "to": "入る"
+  },
+  {
+   "directReason": "Actual old находиться внутри and the new внутри compete as natural Russian inside-state/locative paraphrases in an uncontextual meaning choice; exact入るsense3beinside and its already-taught resulting-state example support this, not substring matching. Noun location and intransitive verb remain grammatically different; reviewer must check this conservative safeguard rather than call the words freely interchangeable.",
+   "evidence": [
+    "complete source/Russian入るpair and actual入るobject sense3; complete new noun lessons"
+   ],
+   "field": "quiz_exclusions",
+   "from": "内",
+   "left": "内",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "入る",
+   "russianCaptionFrom": "внутри; в пределах",
+   "russianCaptionTo": "входить; находиться внутри",
+   "sourceOriginal": false,
+   "to": "入る"
+  },
+  {
+   "directReason": "Actual new другой человек/посторонний fits the explicit another-person/other-party sense ofほか, also written外. Each direct pair is separately evidenced, not inherited from他.",
+   "evidence": [
+    "complete other-person lexical objects; preserved外ほかreading lesson; actual Russiancaptions"
+   ],
+   "field": "quiz_exclusions",
+   "from": "ほか",
+   "left": "ほか",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "他人",
+   "russianCaptionFrom": "другой; остальное",
+   "russianCaptionTo": "другой человек; посторонний",
+   "sourceOriginal": false,
+   "to": "他人"
+  },
+  {
+   "directReason": "Actual new другой человек/посторонний fits the explicit another-person/other-party sense ofほか, also written外. Each direct pair is separately evidenced, not inherited from他.",
+   "evidence": [
+    "complete other-person lexical objects; preserved外ほかreading lesson; actual Russiancaptions"
+   ],
+   "field": "quiz_exclusions",
+   "from": "外",
+   "left": "外",
+   "reviewStatus": "PROPOSED; independent031C2review pending",
+   "right": "他人",
+   "russianCaptionFrom": "снаружи; вне",
+   "russianCaptionTo": "другой человек; посторонний",
+   "sourceOriginal": false,
+   "to": "他人"
+  },
+  {
+   "left": "辺",
+   "reason": "Actual 土地 caption includes местность. 辺 sense1 area/vicinity/region and 土地 sense2 locality/region/place directly overlap; no transitive spatial clique.",
+   "right": "土地",
+   "senseNumbers": {
+    "土地": [
+     2
+    ],
+    "辺": [
+     1
+    ]
+   }
+  },
+  {
+   "left": "向こう",
+   "reason": "Proposed conservative guard for an individual counterpart: 向こう sense4 is the other party/the other side; actual 他人 caption includes другой человек. This is NOT a quotation claiming the 向こう capture literally says other person, nor an equivalence of every stranger with a counterpart. Independent reviewer must adjudicate actual Russian answer compatibility.",
+   "right": "他人",
+   "senseNumbers": {
+    "他人": [
+     1
+    ],
+    "向こう": [
+     4
+    ]
+   }
+  },
+  {
+   "finding": "RU031-C2-01",
+   "left": "横",
+   "reason": "Actual поблизости caption is directly compatible with 横's ordinary beside/next-to/付近 sense; not transitive via側/隣.",
+   "right": "近く"
+  },
+  {
+   "finding": "RU031-C2-02",
+   "left": "向こう",
+   "reason": "Actual другой caption can name the other individual participant in counterpart use; independent direct compatibility, not transitive through他人.",
+   "right": "ほか"
+  },
+  {
+   "finding": "RU031-C2-02",
+   "left": "向こう",
+   "reason": "Actual другой caption plus explicitly personal 他/た use directly permits the individual-counterparty answer; not a category or transitive clique.",
+   "right": "他"
+  }
+ ],
+ "directPairCount": 67,
+ "focusedRecheckCompletePairs": [
+  "words/横.md",
+  "words/近く.md",
+  "words/向こう.md",
+  "words/ほか.md",
+  "words/他.md",
+  "words/速い.md",
+  "words/易しい.md"
+ ],
+ "fullTaskComplete": false,
+ "independentCorrectedSnapshotReviewStatus": "PENDING",
+ "initialReviewedCandidate": "6714018d54ec454442f94dbbf0cb7df7708227c6",
+ "ordinaryActivationAuthorized": false,
+ "phase": "Exact three metadata-line edits applied and validated; focused SAME-reviewer independent recheck PENDING.",
+ "recordedAt": "2026-11-05T21:31:32.129159+00:00",
+ "runtimeAcceptance": false,
+ "runtimeDeltas": [
+  {
+   "afterLine": "quiz_exclusions: [左右, 近く]",
+   "beforeLine": "quiz_exclusions: [左右]",
+   "beforeNormalizedLfSha256": "2119f57796fcfb29c39ac608e9adb181ddfca0d557378b71691ac3531e6f4a03",
+   "beforeWorkingRawSha256": "c1ee0c8863293cb414a24f8aa9f7bed947fbc838445bb7232146ac64f54ec605",
+   "expectedAfterNormalizedLfSha256": "c601628cbaa0887b34ef580e171e5ee9488b7db3bc14ffd7d034965b1bace7d2",
+   "expectedAfterWorkingRawSha256": "bb23b094c7ffb7e103d2b8c1cefa7e4cdbb268e1864c8b6191feb6788571ee7a",
+   "expectedRussianMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "横"
+    ],
+    "quiz_exclusions": [
+     "左右",
+     "近く"
+    ],
+    "reading": "よこ",
+    "tags": [
+     "wago",
+     "position"
+    ],
+    "title": "сбоку; по горизонтали",
+    "type": "wago",
+    "word": "横"
+   },
+   "learnerBodyUnchanged": true,
+   "path": "words/横.md"
+  },
+  {
+   "afterLine": "quiz_exclusions: [こちら, そちら, そっち, あちら, あっち, そこ, あそこ, 他人, ほか, 他]",
+   "beforeLine": "quiz_exclusions: [こちら, そちら, そっち, あちら, あっち, そこ, あそこ, 他人]",
+   "beforeNormalizedLfSha256": "2c831fe3e4d3a2e16bfe513b49315be15d7112f610699bbd7a68817e682bc8b5",
+   "beforeWorkingRawSha256": "4408afb96abe6682cc0dd3563042abe2cc37c2908fa70d43b03e3a6c3195418a",
+   "expectedAfterNormalizedLfSha256": "cbf9e48f3df23c5d148d111da2998e11e7358d4a8d65835163dfc03c5cc018fe",
+   "expectedAfterWorkingRawSha256": "230e4235a91b1f07e7665c24cdd96ac137daab157180d2387b77ace292b833ba",
+   "expectedRussianMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "向"
+    ],
+    "quiz_exclusions": [
+     "こちら",
+     "そちら",
+     "そっち",
+     "あちら",
+     "あっち",
+     "そこ",
+     "あそこ",
+     "他人",
+     "ほか",
+     "他"
+    ],
+    "reading": "むこう",
+    "tags": [
+     "wago",
+     "noun",
+     "position"
+    ],
+    "title": "там; по ту сторону",
+    "type": "wago",
+    "word": "向こう"
+   },
+   "learnerBodyUnchanged": true,
+   "path": "words/向こう.md"
+  },
+  {
+   "afterLine": "quiz_exclusions: [軽い]",
+   "beforeLine": "quiz_exclusions: [易しい, 軽い]",
+   "beforeNormalizedLfSha256": "8161d7472515bbeb25aabeb5483036a57d10a6b8c22f17057e1c238f105c8591",
+   "beforeWorkingRawSha256": "75bf203381360618d0b848142b205d02c06c0a7aa3ede271c52ccf8946698486",
+   "expectedAfterNormalizedLfSha256": "b878dc9785c561ee8d4298cd2fa4599095517585896e7a8576ce6b4e7b633db0",
+   "expectedAfterWorkingRawSha256": "ff30fb7037532f89abb45b5431c37023ab2724478830dfeb9991d991a5c81754",
+   "expectedRussianMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "速"
+    ],
+    "quiz_exclusions": [
+     "軽い"
+    ],
+    "reading": "はやい",
+    "tags": [
+     "wago",
+     "adjective",
+     "speed"
+    ],
+    "title": "быстрый",
+    "type": "wago",
+    "word": "速い"
+   },
+   "learnerBodyUnchanged": true,
+   "path": "words/速い.md"
+  }
+ ],
+ "russianWorkingParentCommit": "4dfde45d29d27294c6add98a236b893a5868f29f",
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "withdrawnAuthorPair": [
+  "速い",
+  "易しい"
+ ]
+}
