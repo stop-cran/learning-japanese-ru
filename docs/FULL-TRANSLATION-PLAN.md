@@ -1181,3 +1181,61 @@ The concurrent app remains untouched. Device/exact media-package/C6/C7/ordinary
 activation/release gates remain separate. Continue the remaining 312 N5 words
 and every safe frozen level/family, including honest excluded listening drafts;
 the entire translation objective remains in progress.
+
+## Reviewed source milestone 030: skill, interest and evaluation
+
+The [reviewed source record](translation-batches/030-skill-interest-evaluation-reviewed-source.json)
+adds 22 complete N5 Russian word articles against unchanged frozen EN
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+All 853 accepted baseline runtime RAWs and earlier tracking rows remain unchanged.
+
+The [cumulative independent record](translation-batches/030-skill-interest-evaluation-independent-review.json)
+preserves the actual initial 54 complete EN/RU pairs/108 bodies, all 563 combined
+compact answer rows, 39 required selected lexical query objects and two additional
+corroborating objects. These are selected query objects, not all homonyms or 41
+distinct lexemes. The initial reviewer retained all 49 direct guards and returned
+C1/C3 CLEAN with one grouped C2 finding about two missing direct safeguards.
+That report is immutable.
+
+The focused reviewer freshly read three complete pairs/six bodies, three answer
+rows and three repeated complete lexical objects. The exact one-line correction
+adds only direct 大切–大きい/大きな exclusions; no learner body or accepted old file
+changes. Both are supported by the actual «важный» answer and significant/important
+uses. 大きい's complete dictionary object explicitly includes important/decisive/valuable;
+大きな's concise object does not explicitly say important, but its complete frozen
+source and Russian body teach abstract importance/значимость.
+These are direct assessments, not transitivity through 大変 or a size-category clique.
+The focused return is C1/C2/C3 CLEAN within that scope, supporting cumulative
+textual acceptance across 54 unique pair paths and 51 direct guards.
+It is not a fresh 54-pair/563-semantic-row review, 563 whole bodies or native acceptance.
+
+All source examples/readings/forms, qualifiers and technical IDs/types/tags/levels
+remain. The full 易しい–チョロい teaching and all same-question examples are retained.
+欲しい does not acquire a universal third-person ban; 結構's evidenced noun sense
+is distinguished from offer responses. The omitted 立派 subject remains unspecified;
+賑やか explains workload versus liveliness without needing English “busy.”
+Unavailable optional wrappers become plain Japanese terms without losing teaching.
+Two independently read active guidance lines address the actually observed loss
+of Japanese span/ruby text in simplified HTML; decoded complete recovery preceded
+the author's source-reading claim.
+
+Membership is **875 runtime objects**: 141 kanji/563 words/141 strokes/2 articles/
+22 counter files/one grammar set/2 scene catalogs/3 images.
+Word levels are 382 N5/50 N4/58 N3/19 N2/54 unlabelled:
+**382 of 672 frozen N5 words are adopted; 290 remain**.
+Fresh strict 8,278-entry progress: **875 reviewed-current**, **no partial**,
+**two excluded reviewed runtime-blocked drafts**, **7,401 pending**,
+**7,403 runtime paths absent**. Checkpoint authority null/Ready false;
+version `ef6742b6f5b62e67`.
+Corrected-candidate serialized checks: validator 0 errors, 124 tests OK in 31.802s;
+budget 883 files/892 entries/2,511,772 retained/2,528,454 inflated/1,259,693 ZIP bytes.
+Final checks, main integration, actual public desktop archive, signatures and
+exact-main CI have separate receipts, not Android/phone/IME/playback acceptance.
+
+No new assets/media or paid generation occurred. The five canonical word-tag
+IDs `ability`, `atmosphere`, `desire`, `preference`, `preferences` are new to this
+adopted word pool; app mappings remain UNVERIFIED, not established missing.
+The concurrent app remains untouched. Device/exact media-package/C6/C7/ordinary
+activation/release gates remain separate. Continue the remaining 290 N5 words
+and every safe frozen level/family, including honest excluded listening drafts;
+the entire translation objective remains in progress.

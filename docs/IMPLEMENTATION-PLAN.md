@@ -8,6 +8,40 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The thirtieth full-target source batch adds 22 complete N5 skill, preference,
+interest and practical-evaluation word articles.
+[Batch 030 reviewed source](translation-batches/030-skill-interest-evaluation-reviewed-source.json)
+and its [cumulative independent record](translation-batches/030-skill-interest-evaluation-independent-review.json)
+preserve the actual initial 54-pair/563-answer-row review separately from the
+fresh three-pair/three-row focused recheck. The initial reviewer read 39 required
+selected lexical query objects plus two additional objects; the focused reviewer
+read three repeated objects, not three new lexemes. All 49 original direct guards
+were retained. Initial C2 findings remain immutable; the exact correction adds
+only direct 大切–大きい/大きな guards, giving 51 cumulative safeguards.
+The corrected return is C1/C2/C3 CLEAN within its focused scope, supporting
+cumulative scoped textual acceptance across 54 unique complete pair paths.
+All 853 accepted baseline runtime RAWs and earlier tracking rows are unchanged.
+Two new active guidance lines address actual simplified-HTML loss of Japanese
+span/ruby content; both were independently read.
+
+Membership is 875 runtime objects: 141 kanji/563 words/141 strokes/2 articles/
+22 counter files/one grammar set/2 scene catalogs/3 images. Fresh strict progress:
+875 reviewed-current, no partial, two excluded reviewed runtime-blocked drafts,
+7,401 pending and 7,403 absent runtime paths. Word levels are
+382 N5/50 N4/58 N3/19 N2/54 unlabelled; 290 of 672 frozen N5 words remain.
+Version `ef6742b6f5b62e67`; checkpoint authority null/Ready false.
+Corrected-candidate serialized checks: validator 0 errors, 124 tests OK in 31.802s;
+budget 883 files/892 entries/2,511,772 retained/2,528,454 inflated/1,259,693 ZIP bytes.
+Final checks, source integration, desktop archive and exact-main CI have separate receipts.
+The five newly adopted canonical word-tag IDs `ability`, `atmosphere`, `desire`,
+`preference`, `preferences` have app mappings UNVERIFIED, not established missing;
+the concurrent app stays untouched.
+No new assets, paid generation, phone/IME/playback/new audio-package/C6/C7/
+activation/release/checkpoint authority follows. Continue every remaining safe
+frozen level and family, including honest excluded listening drafts.
+
+Earlier accepted milestones below are historical.
+
 The twenty-ninth full-target source batch adds 25 complete weather, taste and
 condition word articles: 24 N5 and the actual N3 negative-answer provider 苦しい.
 [Batch 029 reviewed source](translation-batches/029-weather-taste-condition-reviewed-source.json)
@@ -38,8 +72,6 @@ established missing; the concurrent app stays untouched.
 No new assets, paid generation, phone/IME/playback/new audio-package/C6/C7/
 activation/release/checkpoint authority follows. Continue every remaining safe
 frozen level and family, including honest excluded listening drafts.
-
-Earlier accepted milestones below are historical.
 
 The twenty-eighth full-target source batch adds 33 complete colour/shape/size and
 related word articles: 27 N5 and six actual negative-answer providers. The frozen

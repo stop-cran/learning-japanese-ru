@@ -1,0 +1,932 @@
+{
+ "activeGuidanceDelta": {
+  "actualTwoLines": [
+   "  Если вместо японских слов остались пустые 「」 или одни частицы, восстановите полный текст из HTML,",
+   "  включая содержимое span/ruby, прежде чем считать примеры прочитанными."
+  ],
+  "evidence": "Actual030desire simplifiedHTML omission and successful rawUTF8/span recovery, not speculative process.",
+  "path": ".github/instructions/content-structure.instructions.md",
+  "reviewStatus": "Actual initial reviewer C1/C3CLEAN includes both new lines",
+  "workingRawSha256": "c14ceecaf8a354e774866e0246d920b6b74ff24c5b6126e32695faf9645a472b"
+ },
+ "actualReviewScope": {
+  "all563BodiesClaimedRead": false,
+  "cumulativeSelectedQueryObjectRows": 41,
+  "cumulativeUniquePairs": 54,
+  "focusedAnswerRows": 3,
+  "focusedCompletePairs": 3,
+  "focusedRepeatedSelectedLexicalObjects": 3,
+  "initialAdditionalSelectedLexicalObjects": 2,
+  "initialAnswerRows": 563,
+  "initialCompletePairs": 54,
+  "initialRequiredSelectedLexicalQueryObjects": 39,
+  "not41DistinctLexemesOrAllHomonyms": true
+ },
+ "appHintFollowUp": {
+  "appMappingStatus": "UNVERIFIED, not establishedmissing; concurrent app untouched.",
+  "canonicalWordTagIds": [
+   "ability",
+   "atmosphere",
+   "desire",
+   "preference",
+   "preferences"
+  ]
+ },
+ "baselineCommit": "4dc81585fa8fbacbf553536e8b11c72bbe11a944",
+ "batch": "030-skill-interest-evaluation",
+ "checkpointAuthority": null,
+ "continueRequired": true,
+ "currentNewRussianClaimsUnverified": [],
+ "directGuardDecisions": [
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "上手",
+   "from": "上手",
+   "reason": "強い has an explicit skilled/good-at sense. New умелый is a legitimate answer to that sense; not a claim that physical strength is skill.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "強い"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "conservative",
+   "decision": "RETAIN",
+   "declaredOn": "上手",
+   "from": "上手",
+   "reason": "上手 explicitly includes good-at; the unqualified existing хороший can describe that favourable skill assessment. Check this one-way broad-label ambiguity, not all positive adjectives.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "いい"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "conservative",
+   "decision": "RETAIN",
+   "declaredOn": "上手",
+   "from": "上手",
+   "reason": "Same directly assessed good-at versus actual existing хороший label; no inference through the separate いい edge.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "良い"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "下手",
+   "from": "下手",
+   "reason": "Weak also explicitly means unskilled; new неумелый is a valid direct sense.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "弱い"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "下手",
+   "from": "下手",
+   "reason": "悪い sense6 explicitly means bad at doing something; неумелый overlaps that ability assessment.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "悪い"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "下手",
+   "from": "下手",
+   "reason": "不味い sense2 explicitly includes unskillful/bungling/clumsy; preserve its occasionally-as拙い qualifier, not a spelling ban.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "不味い"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "好き",
+   "from": "好き",
+   "reason": "The unqualified нравиться/любить label can also answer intensified 大好き; intensity alone does not make the baseline option unambiguously wrong.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "大好き"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "嫌",
+   "from": "嫌",
+   "reason": "Both include disliking; new не хочется and baseline-style dislike formulations can overlap contextually. Not a fixed temporary/permanent boundary.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "嫌い"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "嫌",
+   "from": "嫌",
+   "reason": "Explicit undesirable in both complete entries; new неприятный can fit that unwanted/disagreeable reading of 悪い.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "悪い"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "嫌",
+   "from": "嫌",
+   "reason": "不味い explicitly includes unpleasant and troublesome/unfavourable; the new unqualified неприятный can be a valid label.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "不味い"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "conservative",
+   "decision": "RETAIN",
+   "declaredOn": "嫌",
+   "from": "嫌",
+   "reason": "うるさい can express annoyance/troublesomeness, not merely volume. Check whether new неприятный is a defensible direct label; not every negative word is thereby excluded.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "うるさい"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "楽しい",
+   "from": "楽しい",
+   "reason": "Both explicitly include enjoyable/fun/pleasant; actual Russian весёлый/приятный can overlap the adopted entertainment sense.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "面白い"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "楽しい",
+   "from": "楽しい",
+   "reason": "Both have an explicit pleasant sense; actual new приятный is a valid answer to that old entry.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "いい"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "楽しい",
+   "from": "楽しい",
+   "reason": "Independently explicit pleasant in 良い, not transitive closure through いい.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "良い"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "楽しい",
+   "from": "楽しい",
+   "reason": "Actual existing cheerful/spirited sense and жизнерадостный label permit new весёлый, independently of illumination.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "明るい"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "conservative",
+   "decision": "RETAIN",
+   "declaredOn": "楽しい",
+   "from": "楽しい",
+   "reason": "元気 explicitly includes full-of-spirit/lively. Check actual new весёлый against that high-spirits sense, not a generic healthy=happy claim.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "元気"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "楽しい",
+   "from": "楽しい",
+   "reason": "賑やか sense2 explicitly includes merry/cheerful; new весёлый can answer it without equating every lively place with enjoyment.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "賑やか"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "つまらない",
+   "from": "つまらない",
+   "reason": "寒い explicitly includes uninteresting/lame/dull jokes; actual new скучный is a valid answer to that adopted secondary sense.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "寒い"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "conservative",
+   "decision": "RETAIN",
+   "declaredOn": "つまらない",
+   "from": "つまらない",
+   "reason": "Russian слабый has independently read poor/unsuccessful-work sense. Check one-way quality judgement for an uninteresting/worthless work; do not infer a general all-negative clique.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "弱い"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "conservative",
+   "decision": "RETAIN",
+   "declaredOn": "つまらない",
+   "from": "つまらない",
+   "reason": "Existing плохой can be a defensible broad quality label for an uninteresting/pointless work. Needs direct C2 adjudication; no claim that all bad things are boring.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "悪い"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "conservative",
+   "decision": "RETAIN",
+   "declaredOn": "つまらない",
+   "from": "つまらない",
+   "reason": "Existing неудачный can overlap the explicitly disappointing/pointless assessment of a work/result. Needs direct C2 adjudication, not English bad-token matching.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "不味い"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "困る",
+   "from": "困る",
+   "reason": "Both complete entries explicitly cover financial hardship; new быть в затруднении can answer that actual 苦しい sense.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "苦しい"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "大変",
+   "from": "大変",
+   "reason": "Bare 苦しい includes difficult/tough/hard, independently of its separately restricted suffix sense. Actual трудный/тяжёлый labels overlap.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "苦しい"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "大変",
+   "from": "大変",
+   "reason": "重い explicitly includes serious/grave/severe, directly matching new серьёзный; also real Russian тяжёлый for hard circumstances.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "重い"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "大変",
+   "from": "大変",
+   "reason": "Both explicit serious/significant assessments permit a serious/important-matter reading; do not equate every cherished thing with difficulty.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "大切"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "大変",
+   "from": "大変",
+   "reason": "大変 explicitly includes immense/enormous/great; existing большой can be a legitimate size/extent label, not admirable-quality English great.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "大きい"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "大変",
+   "from": "大変",
+   "reason": "Same independently assessed actual большой-before-noun label and immense/large-scale sense; preserve the old prenominal restriction.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "大きな"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "大切",
+   "from": "大切",
+   "reason": "Russian дорогой has both cherished and high-price readings. The displayed forms alone do not disambiguate these genuine senses.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "高い"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "大切",
+   "from": "大切",
+   "reason": "かわいい explicitly includes dear/precious; new дорогой is legitimate in that sense, not only visual cuteness.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "かわいい"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "大切",
+   "from": "大切",
+   "reason": "重い sense4 explicitly includes important position/responsibility; new важный is a legitimate direct answer.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "重い"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "立派",
+   "from": "立派",
+   "reason": "立派 explicitly includes fine/splendid and positive quality; actual existing хороший can directly describe that assessment.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "いい"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "立派",
+   "from": "立派",
+   "reason": "Independent fine/good overlap with actual хороший, not transitive positive-category closure.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "良い"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "立派",
+   "from": "立派",
+   "reason": "立派 explicitly includes handsome/elegant; existing красивый can be a legitimate appearance label.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "きれい"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "立派",
+   "from": "立派",
+   "reason": "Both complete objects explicitly include splendid/fine; new хороший can describe 立派 and both admirable-quality senses overlap.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "結構"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "conservative",
+   "decision": "RETAIN",
+   "declaredOn": "立派",
+   "from": "立派",
+   "reason": "重い sense6 includes dignified/solid; check new достойный as a direct dignified-character rendering, not English solid token matching.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "重い"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "結構",
+   "from": "結構",
+   "reason": "Both include fine/acceptable/sufficient, and actual хороший/подходит can answer the relevant response sense.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "いい"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "結構",
+   "from": "結構",
+   "reason": "Both independently include fine/good and sufficient; actual хороший is ambiguous here.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "良い"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "結構",
+   "from": "結構",
+   "reason": "Actual existing всё в порядке/нормально overlaps acceptable/all-right 結構; not a blanket claim that every refusal means acceptance.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "大丈夫"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "結構",
+   "from": "結構",
+   "reason": "結構 sense5 and 組織 sense2 explicitly mean structure/construction. Actual existing структура is a valid alternative noun sense, not the ordinary offer-response reading.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "組織"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "conservative",
+   "decision": "RETAIN",
+   "declaredOn": "結構",
+   "from": "結構",
+   "reason": "結構 adjective sense explicitly includes delightful/lovely/nice. Check actual new приятный against that sense, independently of the いい and 面白い edges.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "楽しい"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "易しい",
+   "from": "易しい",
+   "reason": "The new unqualified лёгкий is a valid answer to physical 軽い even though its own old label adds по весу; one unsafe direction suffices.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "軽い"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "暇",
+   "from": "暇",
+   "reason": "暇 explicitly includes time/time required as well as spare time. Actual old время can therefore be a valid direct label.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "時間"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "暇",
+   "from": "暇",
+   "reason": "Actual new unqualified свободный can also describe 自由 as a な-adjective. Freedom and leisure remain distinct concepts in the prose.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "自由"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "conservative",
+   "decision": "RETAIN",
+   "declaredOn": "暇",
+   "from": "暇",
+   "reason": "暇 explicitly includes time off/leave/holiday; actual old выходной/праздничный день can overlap that noun sense. Not every day off entails no obligations.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "休日"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "便利",
+   "from": "便利",
+   "reason": "Actual new полезный can answer the explicit beneficial sense of いい; not merely the observation that useful things are good.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "いい"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "便利",
+   "from": "便利",
+   "reason": "良い independently includes beneficial; actual new полезный can answer it without deriving an edge transitively.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "良い"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "うるさい",
+   "from": "うるさい",
+   "reason": "賑やか sense2 explicitly includes loud/noisy; actual new шумный is legitimate even where the scene is positive.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "賑やか"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "賑やか",
+   "from": "賑やか",
+   "reason": "Both explicitly include lively; actual new оживлённый can describe that spirited sense of 元気 without implying all healthy people are noisy.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "元気"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "賑やか",
+   "from": "賑やか",
+   "reason": "賑やか explicitly includes merry/cheerful; actual old жизнерадостный can be a valid label for that sense.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-001.json",
+   "to": "明るい"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "大切",
+   "from": "大切",
+   "reason": "Actual new captionважный is valid for大きい's explicit important/decisive/valuable sense, corroborating the frozen EN/RU significant-consequence teaching. Not transitive via大変.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-002.json",
+   "to": "大きい"
+  },
+  {
+   "boundary": "Direct answer-safety guard, not unrestricted synonymy or a category/transitive clique.",
+   "confidence": "high",
+   "decision": "RETAIN",
+   "declaredOn": "大切",
+   "from": "大切",
+   "reason": "Frozen EN explicitly teaches abstract importance, preserved asзначимость in existing RU. Newважный is valid for that prenominal sense; its grammatical restriction does not remove this direct ambiguity. Concise provider object does NOT explicitly sayimportant.",
+   "reviewSupport": "docs/translation-batches/030-skill-interest-evaluation-independent-review-002.json",
+   "to": "大きな"
+  }
+ ],
+ "facets": {
+  "C1": "CLEAN",
+  "C2": "CLEAN",
+  "C3": "CLEAN"
+ },
+ "fullTaskComplete": false,
+ "historicalReceiptsPreserved": true,
+ "limits": [
+  "Initial actual54completepairs/108bodies/563compactrows/39requiredplus2additional selectedlexicalqueryobjects/all49guards/twoguidancelines; focused actual3completepairs/6bodies/3rows/3repeatedobjects.54unique cumulativepairpaths, not a fresh54pair or563semanticrow recheck.",
+  "39required plus2additional are41selectedquery-object rows, not41distinctlexemes or all homonyms. Focused3objects repeat that evidence; do not inflate to44unique objects.",
+  "Initial C2finding remains immutable. CumulativeCLEAN follows actual one-line/two-direct-pair correction and actual focusedCLEAN, not author self-approval.",
+  "大きい object explicitly includesimportant/decisive/valuable; separate大きな object does not explicitly sayimportant. Its complete frozen body teaches abstractimportance, preserved asзначимость. Prenominal restriction retained.",
+  "All853baseline workingRAWs and21unmodified newwordRAWs remain exact. Both reviewers distinguish full-scope mechanical preservation from the focused fresh3pair reading.",
+  "WorkingRAW, canonicalGitRAW and normalizedLF are distinct. VisibleJapanese run checks are review aids, not semantic proof.",
+  "Five new canonicalword-tag app mappings remain UNVERIFIED, not establishedmissing; concurrent app untouched.",
+  "No newmedia/paidgeneration/native/device/IME/playback/new audio-package/C6/C7/defaultactivation/release/humancheckpoint authority."
+ ],
+ "newKanji": 0,
+ "newMediaAssets": [],
+ "newRuntimePaths": 22,
+ "newStrokes": 0,
+ "newWords": 22,
+ "next": "Continue remaining290N5words and every other safe frozenlevel/family; restrictedlisteningtext as honest excluded drafts. Device/media/release gates stay separate.",
+ "oldRuntimeEdits": [],
+ "omittedOptionalWrappers": [
+  {
+   "path": "words/うるさい.md",
+   "sourceLink": "静か.md"
+  },
+  {
+   "path": "words/便利.md",
+   "sourceLink": "../kanji/便.md"
+  },
+  {
+   "path": "words/便利.md",
+   "sourceLink": "../kanji/利.md"
+  },
+  {
+   "path": "words/困る.md",
+   "sourceLink": "../kanji/困.md"
+  },
+  {
+   "path": "words/困る.md",
+   "sourceLink": "難しい.md"
+  },
+  {
+   "path": "words/大切.md",
+   "sourceLink": "../kanji/切.md"
+  },
+  {
+   "path": "words/大変.md",
+   "sourceLink": "../kanji/変.md"
+  },
+  {
+   "path": "words/大好き.md",
+   "sourceLink": "../kanji/好.md"
+  },
+  {
+   "path": "words/好き.md",
+   "sourceLink": "../kanji/好.md"
+  },
+  {
+   "path": "words/忙しい.md",
+   "sourceLink": "../kanji/忙.md"
+  },
+  {
+   "path": "words/易しい.md",
+   "sourceLink": "../kanji/易.md"
+  },
+  {
+   "path": "words/易しい.md",
+   "sourceLink": "難しい.md"
+  },
+  {
+   "path": "words/易しい.md",
+   "sourceLink": "簡単.md"
+  },
+  {
+   "path": "words/易しい.md",
+   "sourceLink": "容易.md"
+  },
+  {
+   "path": "words/易しい.md",
+   "sourceLink": "優しい.md"
+  },
+  {
+   "path": "words/有名.md",
+   "sourceLink": "../kanji/有.md"
+  },
+  {
+   "path": "words/楽しい.md",
+   "sourceLink": "../kanji/楽.md"
+  },
+  {
+   "path": "words/欲しい.md",
+   "sourceLink": "../kanji/欲.md"
+  },
+  {
+   "path": "words/立派.md",
+   "sourceLink": "../kanji/立.md"
+  },
+  {
+   "path": "words/結構.md",
+   "sourceLink": "../kanji/構.md"
+  },
+  {
+   "path": "words/面白い.md",
+   "sourceLink": "../kanji/面.md"
+  }
+ ],
+ "ordinaryActivationAuthorized": false,
+ "perFileHashes": [
+  {
+   "path": "words/うるさい.md",
+   "ruGitRawSha256": "dd2978e92ea47ab71a2b586a24fb4b2614013a0e054ee03bad60408e78713d9c",
+   "ruRawSha256": "f35f2db2b39641216afc08785ab6cd32471972d089e8d0ed5125ffe5c29fed8d",
+   "ruSha256": "dd2978e92ea47ab71a2b586a24fb4b2614013a0e054ee03bad60408e78713d9c",
+   "sourceRawSha256": "1f8ee02aad9739ea4d51d6ae0cc25a5d1a3b515446216b400d534cbf72eebb75",
+   "sourceSha256": "1f8ee02aad9739ea4d51d6ae0cc25a5d1a3b515446216b400d534cbf72eebb75"
+  },
+  {
+   "path": "words/つまらない.md",
+   "ruGitRawSha256": "3e13fac3f88b6281b05f042035cce5e729529e20c00e152520b02856d4b99e34",
+   "ruRawSha256": "d2c33bc3db5d623fe4b2eea5f8b1b4bb88fc3c69eac1c850881635b8ab20bfb1",
+   "ruSha256": "3e13fac3f88b6281b05f042035cce5e729529e20c00e152520b02856d4b99e34",
+   "sourceRawSha256": "cf3d3b5385c6f5151758ed5f1dba89d1cdf6a04d0b5cd8908fc9fc1f2af05fe1",
+   "sourceSha256": "cf3d3b5385c6f5151758ed5f1dba89d1cdf6a04d0b5cd8908fc9fc1f2af05fe1"
+  },
+  {
+   "path": "words/上手.md",
+   "ruGitRawSha256": "1225295818979f6026fb73ebbbe086a0086e7fc8ee894a75a43f070355a6e1dd",
+   "ruRawSha256": "b0bb7f4e824071263ed7421c649f0567c7db3bed2fc4e85321d1144a0caad0c9",
+   "ruSha256": "1225295818979f6026fb73ebbbe086a0086e7fc8ee894a75a43f070355a6e1dd",
+   "sourceRawSha256": "42c3686b23674a99564f5aad7e45ff67fafb2a0bc1a9bd6987fe60ab645edc5a",
+   "sourceSha256": "42c3686b23674a99564f5aad7e45ff67fafb2a0bc1a9bd6987fe60ab645edc5a"
+  },
+  {
+   "path": "words/下手.md",
+   "ruGitRawSha256": "f5c65771df65081212c6b1a63ee5cf5d4ba38eaab1b52333738bffc7a2c1a518",
+   "ruRawSha256": "fc759bcc12926a4521baf3c9cee1a629982b1f498fd99db4e9e8a339e4f7473f",
+   "ruSha256": "f5c65771df65081212c6b1a63ee5cf5d4ba38eaab1b52333738bffc7a2c1a518",
+   "sourceRawSha256": "21526c4d270ffc96585794c10fc9f5f461de7386e8c4057076b309b5c7764a8b",
+   "sourceSha256": "21526c4d270ffc96585794c10fc9f5f461de7386e8c4057076b309b5c7764a8b"
+  },
+  {
+   "path": "words/便利.md",
+   "ruGitRawSha256": "a5ccddaed9e7129668d95aa17caee8596b65338ed0cf7f052f362b713fb56b6c",
+   "ruRawSha256": "21639101aa4278bc996efdc21b5aee814a905e17af262e83904186343c95f736",
+   "ruSha256": "a5ccddaed9e7129668d95aa17caee8596b65338ed0cf7f052f362b713fb56b6c",
+   "sourceRawSha256": "4026da5144adf4d4be72fd0fee8e924fb68990bfd86fdb341060146c5101222b",
+   "sourceSha256": "4026da5144adf4d4be72fd0fee8e924fb68990bfd86fdb341060146c5101222b"
+  },
+  {
+   "path": "words/困る.md",
+   "ruGitRawSha256": "1939e5e822bd0c9a6d71fb1386667c08d84977e366f1a1341261f42961302826",
+   "ruRawSha256": "0f28d3a0f7eb19fd11829be6cce8f4a2fc074e01ae964f7b825737550fb84091",
+   "ruSha256": "1939e5e822bd0c9a6d71fb1386667c08d84977e366f1a1341261f42961302826",
+   "sourceRawSha256": "48c4139917e6814b2aebf1ebd34e7cf6cb396b83bdf0240deb768ad1d60d6b83",
+   "sourceSha256": "48c4139917e6814b2aebf1ebd34e7cf6cb396b83bdf0240deb768ad1d60d6b83"
+  },
+  {
+   "path": "words/大切.md",
+   "ruGitRawSha256": "66e8224478f0bd439cb7d5d329b8401391d18ac34edb58e27b2b84ab6d371630",
+   "ruRawSha256": "85592d8cfcb19375e4501265a6d61f1bc6c0d7e9a7efe298c4fa441822ed905c",
+   "ruSha256": "66e8224478f0bd439cb7d5d329b8401391d18ac34edb58e27b2b84ab6d371630",
+   "sourceRawSha256": "aa9fd14aa7fa0193f7b1d4ac9c743f4143b9dde796e6e2375d3207d158631f5f",
+   "sourceSha256": "aa9fd14aa7fa0193f7b1d4ac9c743f4143b9dde796e6e2375d3207d158631f5f"
+  },
+  {
+   "path": "words/大変.md",
+   "ruGitRawSha256": "dde37aec211f6a7b27640217f331152d8803822313057eac774cb4fd53820e39",
+   "ruRawSha256": "09ec693f1407b9c0137f0972c18b873b5c94cf8770977e63be29999da01424d8",
+   "ruSha256": "dde37aec211f6a7b27640217f331152d8803822313057eac774cb4fd53820e39",
+   "sourceRawSha256": "7be31e038340e89c87d755ac72403007d04e212ddccef18ad88792de58846867",
+   "sourceSha256": "7be31e038340e89c87d755ac72403007d04e212ddccef18ad88792de58846867"
+  },
+  {
+   "path": "words/大好き.md",
+   "ruGitRawSha256": "91627ab17fa9ebb5db499c225fddb46942383343d6fb45917f321525053e31b4",
+   "ruRawSha256": "4b83a3c7a512772ba9d949f275717e2157bc16e99584f0ca48d54992945ac692",
+   "ruSha256": "91627ab17fa9ebb5db499c225fddb46942383343d6fb45917f321525053e31b4",
+   "sourceRawSha256": "33f7eba166ed400ff34f626aa61bb988068b094a0b5395fd808425f5b3267ad7",
+   "sourceSha256": "33f7eba166ed400ff34f626aa61bb988068b094a0b5395fd808425f5b3267ad7"
+  },
+  {
+   "path": "words/好き.md",
+   "ruGitRawSha256": "a4dddc3427f2399807e8af5bd1e450b6e7caa0a29a29a5877e0d2856aaecdb9e",
+   "ruRawSha256": "c7478b90e1f145a2a0a80d2e15b4b24c584dbaa6693e0c1568d278d016c7ced6",
+   "ruSha256": "a4dddc3427f2399807e8af5bd1e450b6e7caa0a29a29a5877e0d2856aaecdb9e",
+   "sourceRawSha256": "fa146f699c724710a1dc423fb1d90c78aa8f868647a255129b78144495800dee",
+   "sourceSha256": "fa146f699c724710a1dc423fb1d90c78aa8f868647a255129b78144495800dee"
+  },
+  {
+   "path": "words/嫌.md",
+   "ruGitRawSha256": "9e3493f933a452bac14d522392086e8b121a01980828a2e32e4b7872109d55e2",
+   "ruRawSha256": "404ee617fa7b4f9d2e6f66cd567fac5afdd564753e72c3102b6244d9787883dd",
+   "ruSha256": "9e3493f933a452bac14d522392086e8b121a01980828a2e32e4b7872109d55e2",
+   "sourceRawSha256": "1f3021c5408f37c403b27f3e43b7268d6fc6f44598287e8d5186d7a986976afa",
+   "sourceSha256": "1f3021c5408f37c403b27f3e43b7268d6fc6f44598287e8d5186d7a986976afa"
+  },
+  {
+   "path": "words/嫌い.md",
+   "ruGitRawSha256": "93b6f32001a6cf96088b7975f76976ba8ef42f31a698f8bb2bc847506dda86c8",
+   "ruRawSha256": "8d359618eda36a156c3110cddb79d8f3b8832d714331dce499d7db015998cf4a",
+   "ruSha256": "93b6f32001a6cf96088b7975f76976ba8ef42f31a698f8bb2bc847506dda86c8",
+   "sourceRawSha256": "b808c0fe59f8376ab59a21f566f24778317c3394b6a2011d7ccc96423fe869ec",
+   "sourceSha256": "b808c0fe59f8376ab59a21f566f24778317c3394b6a2011d7ccc96423fe869ec"
+  },
+  {
+   "path": "words/忙しい.md",
+   "ruGitRawSha256": "1263af7433dc3490754c3b27a265d50b6802b300130412eb4f3cd2ff9c7f37a5",
+   "ruRawSha256": "36271a5c84c6a663e1fe233eb41c35a7db90301f5d78edd4fa75214378d42041",
+   "ruSha256": "1263af7433dc3490754c3b27a265d50b6802b300130412eb4f3cd2ff9c7f37a5",
+   "sourceRawSha256": "356a3341ff1a2a1d960760780c0dae5ed40b37e569ee1987ca7b8109b229e215",
+   "sourceSha256": "356a3341ff1a2a1d960760780c0dae5ed40b37e569ee1987ca7b8109b229e215"
+  },
+  {
+   "path": "words/易しい.md",
+   "ruGitRawSha256": "fe09ac7797567c2b710886602e121efea4857e66647ad6fc9b833aa2b7b0027e",
+   "ruRawSha256": "b33dcc3e06c80a10c8203e4c93b3f58f8d26738bbb8e9f6b70641b8a0c0fe152",
+   "ruSha256": "fe09ac7797567c2b710886602e121efea4857e66647ad6fc9b833aa2b7b0027e",
+   "sourceRawSha256": "9414d59b746dab8ee3cdfde31b3ee2bf75781655feef9bb2c6d1d9745252aa78",
+   "sourceSha256": "9414d59b746dab8ee3cdfde31b3ee2bf75781655feef9bb2c6d1d9745252aa78"
+  },
+  {
+   "path": "words/暇.md",
+   "ruGitRawSha256": "c6dfe56b0f26ae8d30d0876cfb45bfa549aaed42558e83d71dadc5f9c3e131eb",
+   "ruRawSha256": "96fcd4852cc883ba60a7e57bd89ba3b6e1ac2bbe7149680e80ca88f5cca543f2",
+   "ruSha256": "c6dfe56b0f26ae8d30d0876cfb45bfa549aaed42558e83d71dadc5f9c3e131eb",
+   "sourceRawSha256": "45bbbe0329c4fcb996b019aead4ff4503f1019457a2de8f516038264a4adb9c8",
+   "sourceSha256": "45bbbe0329c4fcb996b019aead4ff4503f1019457a2de8f516038264a4adb9c8"
+  },
+  {
+   "path": "words/有名.md",
+   "ruGitRawSha256": "ed2f3eb474895b577e5626482340dfae8b551935988abe001ce9595a611efe75",
+   "ruRawSha256": "2281b275cbe2427e335c4df48df09754be5ed67818488f4a93fab7d40f676651",
+   "ruSha256": "ed2f3eb474895b577e5626482340dfae8b551935988abe001ce9595a611efe75",
+   "sourceRawSha256": "b5342567932ba90c7f4387066c4c2faf74a1f39fd0c2b4e9635e822090dc4792",
+   "sourceSha256": "b5342567932ba90c7f4387066c4c2faf74a1f39fd0c2b4e9635e822090dc4792"
+  },
+  {
+   "path": "words/楽しい.md",
+   "ruGitRawSha256": "574c78462fc140b2a042c84db0d4d6062767e0eb22e08d3787889e0cb1af57cf",
+   "ruRawSha256": "dba028ce4419e35bbd1cd22c89523190effcda11a540c36f802ccf413e19485c",
+   "ruSha256": "574c78462fc140b2a042c84db0d4d6062767e0eb22e08d3787889e0cb1af57cf",
+   "sourceRawSha256": "5e4eb5b4748dd17671bf1f6d57785dd6dbdbe762fa5387e7d05c91659bdad5c8",
+   "sourceSha256": "5e4eb5b4748dd17671bf1f6d57785dd6dbdbe762fa5387e7d05c91659bdad5c8"
+  },
+  {
+   "path": "words/欲しい.md",
+   "ruGitRawSha256": "2ebaceffd4aac9263bc8e1cc7f2a402113cd0c320a50803148953fae60d3e53b",
+   "ruRawSha256": "3bab38a6fa5d2b202a33f58bdc21af25453e75e914e169c0cdb26ddcb32c4cbe",
+   "ruSha256": "2ebaceffd4aac9263bc8e1cc7f2a402113cd0c320a50803148953fae60d3e53b",
+   "sourceRawSha256": "7931f54527207798dae72db246c8b514d970374b617830b5d81585c78d993d0c",
+   "sourceSha256": "7931f54527207798dae72db246c8b514d970374b617830b5d81585c78d993d0c"
+  },
+  {
+   "path": "words/立派.md",
+   "ruGitRawSha256": "4a17447d6fe23b6feaaf80617e71e4cad9c5bc7e15df8d8fbd02dbb9d9e679e3",
+   "ruRawSha256": "12cf39b0a97d1a9ad3de947bded37f4aa18a52e6336923adbdc8787f2f3bee2b",
+   "ruSha256": "4a17447d6fe23b6feaaf80617e71e4cad9c5bc7e15df8d8fbd02dbb9d9e679e3",
+   "sourceRawSha256": "eb706e8b71d36bced49eb203e4c6d2f67bc97fe3830712606d8ed7ab298afa0e",
+   "sourceSha256": "eb706e8b71d36bced49eb203e4c6d2f67bc97fe3830712606d8ed7ab298afa0e"
+  },
+  {
+   "path": "words/結構.md",
+   "ruGitRawSha256": "fdfb3d9782fc246a2756498f8f416aab3325c97c1128274438c1e5014c24bfb6",
+   "ruRawSha256": "c82d4cf9c52e339be455e5ecadc0ccc300644f0df8e5428a9e5acd1101727cc7",
+   "ruSha256": "fdfb3d9782fc246a2756498f8f416aab3325c97c1128274438c1e5014c24bfb6",
+   "sourceRawSha256": "86a96680a81be14d4985e55bcf005bad2d36ac5cbb0a4dc6e98830f951d05ecb",
+   "sourceSha256": "86a96680a81be14d4985e55bcf005bad2d36ac5cbb0a4dc6e98830f951d05ecb"
+  },
+  {
+   "path": "words/賑やか.md",
+   "ruGitRawSha256": "d2bab038a6c314caf64ff9ecd8cf5c20b605472db431c58577b5efa009ed305b",
+   "ruRawSha256": "2d722ff1da45211e57906c8d594fbda0b4328620533848d832b25ec209495f2b",
+   "ruSha256": "d2bab038a6c314caf64ff9ecd8cf5c20b605472db431c58577b5efa009ed305b",
+   "sourceRawSha256": "21771104f5a88263fe20f43c83c12d6219e108bd980328af05ebe6b47cdad5df",
+   "sourceSha256": "21771104f5a88263fe20f43c83c12d6219e108bd980328af05ebe6b47cdad5df"
+  },
+  {
+   "path": "words/面白い.md",
+   "ruGitRawSha256": "52ac66610f402584018e57d9ee7c948738eb1ad84671e0cd3e9e4197b9615fad",
+   "ruRawSha256": "ba3b716acbf37e0e23ca2a7c7e9324da737beb1594d316ff838bbbee6541d7e2",
+   "ruSha256": "52ac66610f402584018e57d9ee7c948738eb1ad84671e0cd3e9e4197b9615fad",
+   "sourceRawSha256": "d72b343cf92ff8b7f8e1f274031ef8efde10c56b587e6379362cfddf71c52485",
+   "sourceSha256": "d72b343cf92ff8b7f8e1f274031ef8efde10c56b587e6379362cfddf71c52485"
+  }
+ ],
+ "requiredFindingsRemaining": [],
+ "review": "docs/translation-batches/030-skill-interest-evaluation-independent-review.json",
+ "reviewedRussianSourceCommit": "591cc574f9d384cdc73ad6c229b84b4d5c875505",
+ "runtime": {
+  "N5Words": 382,
+  "allN5Kanji80PresentUnchangedFromAcceptedBaseline": true,
+  "allN5WordsOrEntireCorpusComplete": false,
+  "contentVersion": "ef6742b6f5b62e67",
+  "families": {
+   "articles": 2,
+   "counters": 22,
+   "grammar": 1,
+   "images": 3,
+   "kanji": 141,
+   "scenes": 2,
+   "strokes": 141,
+   "words": 563
+  },
+  "frozenN5Words": 672,
+  "objects": 875,
+  "remainingN5Words": 290,
+  "wordJlptCounts": {
+   "2": 19,
+   "3": 58,
+   "4": 50,
+   "5": 382,
+   "unlabelled": 54
+  }
+ },
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "stage": "Actual whole plus focused independent review supports sourceacceptance; signed main integration/publicarchive/exactmainCI have separate actual receipts.",
+ "unaffectedBaselineRawObjectsVerified": 853,
+ "validation": {
+  "actualExecution": "Four actual final commands serialized by sole author after independentlysupported tracking generated; not delegated or reviewerexecuted.",
+  "contentVersion": "ef6742b6f5b62e67",
+  "manifestGeneratedWithoutByteChange": true,
+  "runs": [
+   {
+    "command": [
+     "tools\\build_manifest.py"
+    ],
+    "completedAt": "2026-11-05T19:39:29.663239+00:00",
+    "returncode": 0,
+    "seconds": 0.20400000002700835,
+    "startedAt": "2026-11-05T19:39:29.465916+00:00",
+    "stderr": "",
+    "stdout": "manifest.json: 875 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version ef6742b6f5b62e67\n"
+   },
+   {
+    "command": [
+     "tools\\validate.py"
+    ],
+    "completedAt": "2026-11-05T19:39:31.623875+00:00",
+    "returncode": 0,
+    "seconds": 1.952999999979511,
+    "startedAt": "2026-11-05T19:39:29.663239+00:00",
+    "stderr": "",
+    "stdout": "0 error(s)\n"
+   },
+   {
+    "command": [
+     "-m",
+     "unittest",
+     "discover",
+     "-s",
+     "tools",
+     "-p",
+     "test_*.py"
+    ],
+    "completedAt": "2026-11-05T19:40:09.359607+00:00",
+    "returncode": 0,
+    "seconds": 37.73400000005495,
+    "startedAt": "2026-11-05T19:39:31.623875+00:00",
+    "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 37.405s\n\nOK\n",
+    "stdout": ""
+   },
+   {
+    "command": [
+     "tools\\check_content_budget.py"
+    ],
+    "completedAt": "2026-11-05T19:40:09.902496+00:00",
+    "returncode": 0,
+    "seconds": 0.5470000000204891,
+    "startedAt": "2026-11-05T19:40:09.359607+00:00",
+    "stderr": "",
+    "stdout": "{'files': 883, 'entries': 892, 'retainedBytes': 2511772, 'inflatedBytes': 2528454, 'localZipBytes': 1259693, 'listeningTaskMediaBytes': 0}\n"
+   }
+  ],
+  "runtimeObjects": 875
+ }
+}
