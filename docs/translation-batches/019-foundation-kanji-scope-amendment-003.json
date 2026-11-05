@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "batch": "019-foundation-kanji-component",
+  "amendment": "003-direct-vehicle-train-exclusion",
+  "stage": "Frozen before changing previous link-only wordmetadata; generated pre-fix manifest/checks are explicit WIP.",
+  "recordedAt": "2026-11-05T05:21:25.657826+00:00",
+  "pinnedBeforeCommit": "ad428e733c030aa15f1fba822887202b837b3151",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "768393327637f1ec08f5cd7d1ba4afe3be00c612",
+  "trigger": {
+    "review": "docs/translation-batches/019-foundation-kanji-old-word-volume-003-initial-review.json",
+    "findingId": "019-W003-F01"
+  },
+  "extraRuntimePathsAdded": 0,
+  "extraAffectedAcceptedRuntimePaths": [],
+  "alreadyFrozenRuntimeMetadataAmendment": [
+    "words/車.md"
+  ],
+  "affectedDeveloperPaths": [
+    ".github/instructions/content-structure.instructions.md"
+  ],
+  "frozenBeforeHashes": [
+    {
+      "path": "words/車.md",
+      "russianWorkingRawSha256": "23aa521cbb2d9c7b66f081e60e51e4e8a20e507bac5b6b449335d6a77fd9f421",
+      "russianGitRawSha256": "e3ff434337b5472b7d13016f91ab1480f18474044cadace7e745458f5b2928b7",
+      "russianLfSha256": "e3ff434337b5472b7d13016f91ab1480f18474044cadace7e745458f5b2928b7",
+      "sourceGitRawSha256": "f02d7df918707e4bfd32c9012988b49ac455d9286191cf8b205ba712303cc79a",
+      "sourceLfSha256": "9987784e426c0d967837519deb27ce454791fb8f21a10ba58e8669d2660efb3a"
+    },
+    {
+      "path": "words/電車.md",
+      "russianWorkingRawSha256": "42504a9cc88f8e9a977feb4545f1899c634657b84516f4d4b56cbe7fa1aad586",
+      "russianGitRawSha256": "37e5d51db146cc14ad906d3b4a01b32a6ba9ae092f0afd513e7ed795b77a7b45",
+      "russianLfSha256": "37e5d51db146cc14ad906d3b4a01b32a6ba9ae092f0afd513e7ed795b77a7b45",
+      "sourceGitRawSha256": "a3d97609f5a8bac4e60c8e933e04e3e64d9380b4e9525dc86b214028c6f0fcb0",
+      "sourceLfSha256": "a3d97609f5a8bac4e60c8e933e04e3e64d9380b4e9525dc86b214028c6f0fcb0"
+    }
+  ],
+  "authorActualReading": "Complete RU/frozenEN車/電車 already read; actual complete matchingJMdict-backed API objects read again, primary lexical senses only; full frozencontract150–181.",
+  "authorAdjudicationBeforeAuthoring": "Accept direct semantic overlap of broad displayedvehicle and electrictrain. Preserve Japanese senses/RU titles; add one direct pair without transitive自動車–電車 inference.",
+  "plannedLearnerMetadataChange": "On車addquiz_exclusions:[電車]; no prose/ID/level/tag/reading/answer/title changes.",
+  "plannedGuidanceChange": "Record observed broadvehicle/electrictrain answer overlap and explicit non-transitivity despite existing車–自動車.",
+  "preserve": "All135wrapper amendments,57kanji,57strokes, otherword metadata and Japanese/examples/titles/body; no newmedia/source/app changes.",
+  "requiredFocusedRecheck": [
+    "words/車.md",
+    "words/電車.md",
+    ".github/instructions/content-structure.instructions.md"
+  ],
+  "preFixCombinedValidation": "All4serialized commands genuinely passed at ad428e7body+generatedmanifest990d6f64a31ec655. This is not validation of the futureexclusion fix; rebuild/re-run finalchecks after change.",
+  "independentCorrectionApproval": "pending authoring and actual focused recheck",
+  "ordinaryActivationAuthorized": false
+}
