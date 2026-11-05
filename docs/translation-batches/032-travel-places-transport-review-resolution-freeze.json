@@ -1,0 +1,191 @@
+{
+ "actualJapaneseDictionaryEvidence": {
+  "actualUrl": "https://kotobank.jp/word/%E9%96%80-143120",
+  "actuallyReadCompleteDigitalDaijisenKadoLexicalSubsection": "かど【門】\n１\n家の外構えの出入り口。もん。「\n門\nをたたく」\n２\n門の前。また、門の辺りの庭。「\n門\nで見送る」\n３\n家。また、一族。一門。「笑う\n門\nには\n福来\nきた\nる」\n",
+  "boundary": "Whole raw HTTP bytes captured, only returned bounded lexical sections actually read; not whole webpage review.",
+  "kadoTextOffsets": [
+   154,
+   452,
+   537,
+   801,
+   901,
+   1317,
+   2379,
+   2476,
+   3060,
+   3253,
+   3433,
+   3436,
+   3503,
+   3514,
+   6734,
+   14023,
+   18363,
+   18442,
+   18462,
+   18664,
+   18781,
+   18801,
+   18810,
+   18819,
+   18867,
+   18952,
+   18968,
+   19066,
+   19090,
+   19195,
+   19232,
+   19256,
+   20570,
+   20805,
+   21280,
+   21430
+  ],
+  "rawResponseFile": "ru-032-kotobank-mon-response-001.html",
+  "rawResponseSha256": "708129838edb51814b08d8d322aeafb02ef681807329f885f3c6bf04c9f6e511",
+  "retrievedAt": "2026-11-05T22:38:03.448535+00:00",
+  "sectionBoundary": "Complete short かど lexical subsection before its synonym list; not whole webpage/other dictionaries.",
+  "senseDispositions": [
+   "sense1: entrance through the house's outer enclosure/gate; do not infer indoor room-door/panel from an English door gloss alone.",
+   "sense2: area in front of gate or garden around gate; directly relevant to current庭 captionсад; двор.",
+   "sense3: house and family/clan, with笑う門には福来たる example; no archaic qualifier is supplied in this actual modern dictionary subsection."
+  ],
+  "status": 200
+ },
+ "actualPinnedAppSourceEvidence": {
+  "actualReadRanges": {
+   "WordQuizScreen.kt": [
+    [
+     98,
+     190
+    ],
+    [
+     165,
+     226
+    ]
+   ],
+   "WordQuizViewModel.kt": [
+    [
+     200,
+     232
+    ],
+    [
+     343,
+     362
+    ]
+   ]
+  },
+  "conclusion": "Pinned5c000bd WordQuizPrompt renders bare word.word for JpToEn, with separate optional reading help, not an always-visible word.reading constraint. Frontmatter primaryもん must NOT be assumed visible before every meaning answer.",
+  "hintMappingFollowUpAtPinnedCommit": {
+   "evidence": "Actual complete localizedWordPromptTag mapping ends else -> return tag; English canonical IDs remain untranslated in RU source. App follow-up only; concurrent app untouched.",
+   "new032TagsWithoutExplicitLocalizedCase": [
+    "buildings",
+    "entertainment",
+    "shopping",
+    "swimming"
+   ],
+   "previous031TagsWithoutExplicitLocalizedCase": [
+    "comparison",
+    "distance",
+    "speed"
+   ]
+  },
+  "limits": "Read exact committed Git blobs only; no live app file read/edit, build, phone test, default/release authority or claim about concurrent dirty changes.",
+  "records": [
+   {
+    "boundary": "Pinned committed Git object only, not concurrent live working files; no app modification/build/device claim.",
+    "canonicalGitRawSha256": "530ff7e5d6da2829bc08ff57c6356162af04b0ab84598cb7c19127217f71c08c",
+    "commit": "5c000bd5596d2189ef878da572687bd01ab3bb5f",
+    "gitPath": "app/src/main/java/io/github/stopcran/kanji/ui/WordQuizScreen.kt",
+    "privateFile": "ru-032-pinned-app-WordQuizScreen-5c000bd.kt"
+   },
+   {
+    "boundary": "Pinned committed Git object only, not concurrent live working files; no app modification/build/device claim.",
+    "canonicalGitRawSha256": "4b6f3aa1c5cbf82bb2bf14e487e4c5b891034b3d9de6841681de043210735afa",
+    "commit": "5c000bd5596d2189ef878da572687bd01ab3bb5f",
+    "gitPath": "app/src/main/java/io/github/stopcran/kanji/ui/WordQuizViewModel.kt",
+    "privateFile": "ru-032-pinned-app-WordQuizViewModel-5c000bd.kt"
+   }
+  ]
+ },
+ "additionalDirectGuardProposals": [
+  {
+   "from": "門",
+   "reason": "Actual Daijisenかど sense3家 and JMdict house/family fit the current bareдом alternative; bare meaning prompt does not guarantee visible primaryもん.",
+   "to": "家"
+  },
+  {
+   "from": "門",
+   "reason": "Actual modern lexicalかど sense3一族/一門 and captured family fit the current bareсемья caption.",
+   "to": "家族"
+  },
+  {
+   "from": "門",
+   "reason": "Actualかど sense2 explicitly names庭around gate; current庭 caption includesдвор. A direct lexical/range overlap, not a transitive park/entrance/venue clique.",
+   "to": "庭"
+  }
+ ],
+ "batchId": "032-travel-places-transport",
+ "candidateCommit": "0c9fea39a8f2d273f5d3d545b38d40a5eaa7b246",
+ "checkpointAuthority": null,
+ "exactWordMetadataBefore": {
+  "jlpt": 5,
+  "kanji": [
+   "門"
+  ],
+  "quiz_exclusions": [
+   "入口",
+   "玄関",
+   "出入口",
+   "学校",
+   "家",
+   "家族",
+   "庭"
+  ],
+  "reading": "もん",
+  "tags": [
+   "noun",
+   "building"
+  ],
+  "title": "ворота",
+  "type": "kango",
+  "word": "門"
+ },
+ "initialC2RemainsUnverified": true,
+ "initialIndependentReview": "docs/translation-batches/032-travel-places-transport-independent-review-001.json",
+ "ordinaryActivationAuthorized": false,
+ "phase": "Additional actual evidence and pre-edit direct-guard proposal; independent focused adjudication PENDING",
+ "plannedLearnerBodyChanges": [],
+ "plannedRuntimeScopeChanges": [],
+ "proposedMetadataAfter": {
+  "jlpt": 5,
+  "kanji": [
+   "門"
+  ],
+  "quiz_exclusions": [
+   "入口",
+   "玄関",
+   "出入口",
+   "学校",
+   "家",
+   "家族",
+   "庭"
+  ],
+  "reading": "もん",
+  "tags": [
+   "noun",
+   "building"
+  ],
+  "title": "ворота",
+  "type": "kango",
+  "word": "門"
+ },
+ "recordedAt": "2026-11-05T22:41:19.973936+00:00",
+ "remainingFocusedQuestions": [
+  "Actually adjudicate three new direct proposals and reject/retain with evidence. No primary-reading/type/ID/level or Japanese body changes.",
+  "Resolve whether English gate;door for門/かど establishes the actual Russianдверь labels ofドア/戸 in light of Japanese definition外構えの出入り口. Do not silently approve or sweep under the carpet; these two pairs are not proposed merely as precautions.",
+  "No automatic門–公園,門–出口 or all-building clique. Preserve original20 actually supported proposals and source角→隅."
+ ],
+ "reviewStatus": "PENDING; no self-approval, accepted tracking906 unchanged",
+ "schemaVersion": 1
+}
