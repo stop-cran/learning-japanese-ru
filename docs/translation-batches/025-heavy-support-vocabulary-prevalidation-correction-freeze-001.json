@@ -1,0 +1,359 @@
+{
+ "acceptedRuntimeObjectsStill": 686,
+ "actualFirstCombinedValidationFile": "ru-025-combined-validation-001.json",
+ "actualFirstCombinedValidationRawSha256": "ebf81907dc19b77b378ef4a1ac67cb6951b66e3178081cc75d9a9f1f86b67fd1",
+ "actualFirstCombinedValidationResults": [
+  {
+   "command": [
+    "python",
+    "tools\\build_manifest.py"
+   ],
+   "elapsedSeconds": 0.43799999996554106,
+   "exitCode": 0,
+   "stderr": "",
+   "stdout": "manifest.json: 723 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version c82df0b7f4feea01\n"
+  },
+  {
+   "command": [
+    "python",
+    "tools\\validate.py"
+   ],
+   "elapsedSeconds": 2.26500000001397,
+   "exitCode": 1,
+   "stderr": "",
+   "stdout": "kanji/重.md: body must contain these ## sections once each, in order: Значение и происхождение; Чтения; Частые слова; Примечания\nwords/ちょっと.md: broken link: しばらく.md\nwords/住所.md: broken link: ../kanji/住.md\nwords/住所.md: broken link: ../kanji/所.md\nwords/名.md: broken link: ../kanji/名.md\nwords/喜び.md: broken link: ../kanji/喜.md\nwords/団体.md: broken link: ../kanji/団.md\nwords/団体.md: broken link: ../kanji/体.md\nwords/夕方.md: broken link: ../kanji/夕.md\nwords/夕方.md: broken link: ../kanji/方.md\nwords/多い.md: broken link: ../kanji/多.md\nwords/多少.md: broken link: ../kanji/多.md\nwords/多少.md: broken link: ../kanji/少.md\nwords/大小.md: broken link: ../kanji/小.md\nwords/大小.md: broken link: ../kanji/小.md\nwords/安い.md: broken link: ../kanji/安.md\nwords/安心.md: broken link: ../kanji/安.md\nwords/安心.md: broken link: ../kanji/心.md\nwords/宛名.md: broken link: ../kanji/名.md\nwords/少し.md: broken link: ../kanji/少.md\nwords/少ない.md: broken link: ../kanji/少.md\nwords/少ない.md: broken link: ../kanji/小.md\nwords/幸福.md: broken link: ../kanji/幸.md\nwords/幸福.md: broken link: ../kanji/福.md\nwords/御礼.md: broken link: ../kanji/御.md\nwords/御礼.md: broken link: ../kanji/礼.md\nwords/心.md: broken link: ../kanji/心.md\n27 error(s)\n"
+  }
+ ],
+ "affectedRuntimePathsUnchanged": 48,
+ "batch": "025-heavy-support-vocabulary",
+ "completePairCountUnchanged": 58,
+ "featureRuntimeObjectsUnreviewed": 723,
+ "fullTaskComplete": false,
+ "newRuntimePathsUnchanged": 37,
+ "preCorrectionHead": "d7b80806ef1948b0d96f1bbe0354dd1ed9d7c2ad",
+ "preservation": "Only26optional unprovided navigation wrappers lose markup, keeping exactJapanese visible labels and all prose/examples/readings; one Russian H2becomes canonicalПримечания. No placeholders/technicalmetadata/grading changes, no expanded corpus acquisition, no validator weakening.",
+ "recordedAt": "2026-11-05T12:54:23.609318+00:00",
+ "repairs": [
+  {
+   "beforeLfSha256": "bdd1dca2fce97ba40d6f9e686d234f94731165750ea391da0feafe735c56e18f",
+   "beforeWorkingRawSha256": "c8cdd94868404e4426359bae659a2bcc688d5a11dec903d02a30767eb8e4e1ef",
+   "expectedLfSha256": "7b72261e14dba7ab8690916d5d1e60ead621a6393773d0555bc9c2d256a4561e",
+   "expectedWorkingRawSha256": "961772b1b8a73c1fbf078f3b25c660f5a3343e78f873654ab4b777088d6a0ff7",
+   "path": "kanji/重.md",
+   "replacements": [
+    {
+     "after": "## Примечания",
+     "before": "## Заметки",
+     "exactOccurrences": 1
+    }
+   ]
+  },
+  {
+   "beforeLfSha256": "8292ad62e1fe5c7c71b4d0192f8dcf19f46d094fd5dfa183f232b923a1583d51",
+   "beforeWorkingRawSha256": "179925f863ce5e8788e2fdb95956bbc7df1bee74c422b622c6535acc6350e180",
+   "expectedLfSha256": "631e030d07a59001effe28b429111a3d3a11f4c1cc2c2e460dde64ffb5277b0a",
+   "expectedWorkingRawSha256": "5088f099e002c54d3cb8f43a3ea882f20b2964064e30aa321673e23b10d2c821",
+   "path": "words/ちょっと.md",
+   "replacements": [
+    {
+     "after": "しばらく",
+     "before": "[しばらく](しばらく.md)",
+     "exactOccurrences": 1,
+     "target": "しばらく.md"
+    }
+   ]
+  },
+  {
+   "beforeLfSha256": "28f911377f82ca2ab2f0441fefc342520e3001f996d2679821106e30ad38df69",
+   "beforeWorkingRawSha256": "f9b0c10c133f8a48026abdeaa2335c7f32ca329417bbc893923855bc166d3a26",
+   "expectedLfSha256": "f43dc249b446c7e14327f149fc452e4007028e0c220a11bffc446a1288fbd1b0",
+   "expectedWorkingRawSha256": "a45f47914719e4bd52f7a4e3284af0fee40092d6b6f05ce6e45d63fb9725a75f",
+   "path": "words/住所.md",
+   "replacements": [
+    {
+     "after": "住",
+     "before": "[住](../kanji/住.md)",
+     "exactOccurrences": 1,
+     "target": "../kanji/住.md"
+    },
+    {
+     "after": "所",
+     "before": "[所](../kanji/所.md)",
+     "exactOccurrences": 1,
+     "target": "../kanji/所.md"
+    }
+   ]
+  },
+  {
+   "beforeLfSha256": "9a4ac9daf8865ec71ac9c58c6f9f4aa06605a88ac84b8afce7cce235455699b5",
+   "beforeWorkingRawSha256": "e0d5adeaba64419d7b5b0b926369adfe1212853f3777f13e67f85f4a51a3d843",
+   "expectedLfSha256": "98e1491af276fd1eb1bf0c56db7c806e25d03535518439fa28af2b95727282f3",
+   "expectedWorkingRawSha256": "afad551f14a5646393611680e94c50a5ead16dc19cf4b12d51b0366039bcd783",
+   "path": "words/名.md",
+   "replacements": [
+    {
+     "after": "名",
+     "before": "[名](../kanji/名.md)",
+     "exactOccurrences": 1,
+     "target": "../kanji/名.md"
+    }
+   ]
+  },
+  {
+   "beforeLfSha256": "e3fbc305cd8f55f1a9c7abe13d91ba2b479d01ae625c1ee844f25418adc2d843",
+   "beforeWorkingRawSha256": "77d8e4f7de773acecb60dad654ed9b970473dd170e83c902de42e6733d7df89d",
+   "expectedLfSha256": "d2f1b91c1da88799158eec59f10ac0dfd31a3526493d4accbb8d073f7dc106cb",
+   "expectedWorkingRawSha256": "e1c38ffe2cb04d8f75b9da2b8d342eb86c455b803b68908ac35859b4b15832f9",
+   "path": "words/喜び.md",
+   "replacements": [
+    {
+     "after": "喜",
+     "before": "[喜](../kanji/喜.md)",
+     "exactOccurrences": 1,
+     "target": "../kanji/喜.md"
+    }
+   ]
+  },
+  {
+   "beforeLfSha256": "839be6b8663568ff15940647a7cc88b04a192445f48bdde9d6fc23a8b6815a6f",
+   "beforeWorkingRawSha256": "9b7150f1496f0b34453cb7f13c8a21a2635bfc1a7f3d1c95d372b90c744ecafc",
+   "expectedLfSha256": "42e82128c35d1c16c14308c9903e25e0f83f5cbd7177c25b3bcd89652d5f9bd6",
+   "expectedWorkingRawSha256": "70479fc7768c790d31fa420ac0fa67366cbf48f9863dd710ba2d41dab5ee7aa2",
+   "path": "words/団体.md",
+   "replacements": [
+    {
+     "after": "団",
+     "before": "[団](../kanji/団.md)",
+     "exactOccurrences": 1,
+     "target": "../kanji/団.md"
+    },
+    {
+     "after": "体",
+     "before": "[体](../kanji/体.md)",
+     "exactOccurrences": 1,
+     "target": "../kanji/体.md"
+    }
+   ]
+  },
+  {
+   "beforeLfSha256": "da6ba2a34b7e2798299ce1124b11a8df94b46539b8dbe9064221e755dee35b4c",
+   "beforeWorkingRawSha256": "a9d04375732a4e154a9d65ad75fedc6f30d28c4f6e7a0eed84e76df8d149788b",
+   "expectedLfSha256": "903ca48a3fd6a2ce4bdc752f0747a80a416978f6a8cbb7525e0f806e3a98e816",
+   "expectedWorkingRawSha256": "1791a2be3e9e0a08d8caa8c529168833d373d39e84900cb94f66e5cfcd04bac0",
+   "path": "words/夕方.md",
+   "replacements": [
+    {
+     "after": "夕",
+     "before": "[夕](../kanji/夕.md)",
+     "exactOccurrences": 1,
+     "target": "../kanji/夕.md"
+    },
+    {
+     "after": "方",
+     "before": "[方](../kanji/方.md)",
+     "exactOccurrences": 1,
+     "target": "../kanji/方.md"
+    }
+   ]
+  },
+  {
+   "beforeLfSha256": "d69b01b4bbae05b0a27f7701845e684f781935021038db7de6bd816ef8792aa0",
+   "beforeWorkingRawSha256": "a6ab81e17a59d4c35491ba639319390ba24c31b7ea487fd085afb1bf4dab27e3",
+   "expectedLfSha256": "5532104dc6d96aefdcdab8df4a0c99e717a09fffc6a81f02629a2d3beaba3c63",
+   "expectedWorkingRawSha256": "3c80fee9b560aad34bcd3cf3f9ceab3e0be39835210206fcaff38bd31d5411e0",
+   "path": "words/多い.md",
+   "replacements": [
+    {
+     "after": "多",
+     "before": "[多](../kanji/多.md)",
+     "exactOccurrences": 1,
+     "target": "../kanji/多.md"
+    }
+   ]
+  },
+  {
+   "beforeLfSha256": "646be71df985b524d71894d68fe3635a04f622936aad810a5714a4021f59546c",
+   "beforeWorkingRawSha256": "a17260e55a87b6cdcab2b7a9e07a0907f04067d94dd70deac136a22efc587003",
+   "expectedLfSha256": "dded43df529cb433504f16cf6e7e761a6494d44f27381ee0fd79351f9868a1bf",
+   "expectedWorkingRawSha256": "7667881f7d8aec23bd0c834a555109c502998f34b730ebd6bd825bf0ea576fcd",
+   "path": "words/多少.md",
+   "replacements": [
+    {
+     "after": "多",
+     "before": "[多](../kanji/多.md)",
+     "exactOccurrences": 1,
+     "target": "../kanji/多.md"
+    },
+    {
+     "after": "少",
+     "before": "[少](../kanji/少.md)",
+     "exactOccurrences": 1,
+     "target": "../kanji/少.md"
+    }
+   ]
+  },
+  {
+   "beforeLfSha256": "6d81341e9b909ddd27abc810b0f443b462117504fb0e2e67d9de37f93aea8f7a",
+   "beforeWorkingRawSha256": "6811ab353e43ffe360eeccd301784b4a4209cffc457da8673117a568ceed58f9",
+   "expectedLfSha256": "a1e2fcaf551a4943d4ddca42bcf0e76da0d6e339d4f1d149a425351a94601e1a",
+   "expectedWorkingRawSha256": "4b519fe45d0381dbe0e7d89560ddf295eb874d044dc0264088aa9ef3e92e2bf3",
+   "path": "words/大小.md",
+   "replacements": [
+    {
+     "after": "小",
+     "before": "[小](../kanji/小.md)",
+     "exactOccurrences": 2,
+     "target": "../kanji/小.md"
+    }
+   ]
+  },
+  {
+   "beforeLfSha256": "e2864e149d542cef6c4db7032b5d0c038905aa5a9ee482701a4aba847819914b",
+   "beforeWorkingRawSha256": "8f8ebbdf4c1065ddb3387b642e9da2947569bf0d7fa27b82681c83f6c14dd330",
+   "expectedLfSha256": "0a57cc8129883da72010d5010378664ae00fd3a17c7e423995c8ffb12cb16ca2",
+   "expectedWorkingRawSha256": "ee151d831f127b0c01fa9f45caccf837448308f1e209610597890151d6569e58",
+   "path": "words/安い.md",
+   "replacements": [
+    {
+     "after": "安",
+     "before": "[安](../kanji/安.md)",
+     "exactOccurrences": 1,
+     "target": "../kanji/安.md"
+    }
+   ]
+  },
+  {
+   "beforeLfSha256": "0ce74f0d23844f1a1d862040d0524234cd080e932d94c295a77e4c325afab7a7",
+   "beforeWorkingRawSha256": "4a51847e00ac368aa09dea55cbbe35f60d971698808501d5eb6ad51332460f43",
+   "expectedLfSha256": "c4c8f922897ce7796f80f5af8817bcf6ee9af836cdc7e55072c1df5848664f14",
+   "expectedWorkingRawSha256": "7018e3d8c176836285885c080006ff8c1061ac108612a7120ca855c811406e0d",
+   "path": "words/安心.md",
+   "replacements": [
+    {
+     "after": "安",
+     "before": "[安](../kanji/安.md)",
+     "exactOccurrences": 1,
+     "target": "../kanji/安.md"
+    },
+    {
+     "after": "心",
+     "before": "[心](../kanji/心.md)",
+     "exactOccurrences": 1,
+     "target": "../kanji/心.md"
+    }
+   ]
+  },
+  {
+   "beforeLfSha256": "e8f314531742135e0d6eda65ea5e210b2cb2802e0990d22f3d56a52de1fb5938",
+   "beforeWorkingRawSha256": "fa8a42b6bc611a52adfb141288c73270573e49b5ae366899665e02cf1ab68ae3",
+   "expectedLfSha256": "ef85ec03f2d59bd59153d5359763d00d63cbfbf3ff3bf07ae118cb6977ed0b67",
+   "expectedWorkingRawSha256": "9355169a3143a11c9976924e1e85d5abf28bedee33d8dd3c7b26748b845268ab",
+   "path": "words/宛名.md",
+   "replacements": [
+    {
+     "after": "名",
+     "before": "[名](../kanji/名.md)",
+     "exactOccurrences": 1,
+     "target": "../kanji/名.md"
+    }
+   ]
+  },
+  {
+   "beforeLfSha256": "4f6a52f10f4712aca013ee5694434b0c860c6b40e57ce187fd7011ddbe183630",
+   "beforeWorkingRawSha256": "9b42673bbfb47dccf0d7f18a555e5e12c3426a05275155c40e862f5b6cffd671",
+   "expectedLfSha256": "732edd4a4c208b17f30ca841366a06896540c50657da9eaa21ecaea43426880b",
+   "expectedWorkingRawSha256": "168df5beb2cfb1a178a242ccd847c8549f2d06a85a970358617932c04d9d63ad",
+   "path": "words/少し.md",
+   "replacements": [
+    {
+     "after": "少",
+     "before": "[少](../kanji/少.md)",
+     "exactOccurrences": 1,
+     "target": "../kanji/少.md"
+    }
+   ]
+  },
+  {
+   "beforeLfSha256": "face0f3b853460d4981ea5375162e8c25b72165f595b94e1dbabf509334c9110",
+   "beforeWorkingRawSha256": "300d2a36bc02d9a8da6a1597fafbfa679830f6905dabe2bb9c06ec6ded05f99b",
+   "expectedLfSha256": "8dd9f9c476865f066502e1bbcc3c34795e69441d13969d8e52f25abd38193da2",
+   "expectedWorkingRawSha256": "81c523a9a8674c4a7e6ab71587ac2454aef0db0191f70f0091580972654c4cfd",
+   "path": "words/少ない.md",
+   "replacements": [
+    {
+     "after": "少",
+     "before": "[少](../kanji/少.md)",
+     "exactOccurrences": 1,
+     "target": "../kanji/少.md"
+    },
+    {
+     "after": "小",
+     "before": "[小](../kanji/小.md)",
+     "exactOccurrences": 1,
+     "target": "../kanji/小.md"
+    }
+   ]
+  },
+  {
+   "beforeLfSha256": "0f87e6010ac68c49a5c8a9e4a4e63fbab62526f588f3257fa1f4db11a2b220ac",
+   "beforeWorkingRawSha256": "c725ae4ef8c3807d44436faaa0324690115165fd9a3e9b2e8a18d357d7614638",
+   "expectedLfSha256": "e9f912dce060dc331ba7746e0511880ed165645f4a533cec4b8526c9eac9261e",
+   "expectedWorkingRawSha256": "713c7f446b426e9dd649e70fd9040ba669936089248cf0ceaa742b48ad45e947",
+   "path": "words/幸福.md",
+   "replacements": [
+    {
+     "after": "幸",
+     "before": "[幸](../kanji/幸.md)",
+     "exactOccurrences": 1,
+     "target": "../kanji/幸.md"
+    },
+    {
+     "after": "福",
+     "before": "[福](../kanji/福.md)",
+     "exactOccurrences": 1,
+     "target": "../kanji/福.md"
+    }
+   ]
+  },
+  {
+   "beforeLfSha256": "b779795d74c16a6ef009145f8150f00ed879475c43def587c523275bc7cc952e",
+   "beforeWorkingRawSha256": "8c3efbd846dc277b1fb18d6d74ac44fa39922f600c5d1bb25a4fbad8762ee6a0",
+   "expectedLfSha256": "f2e006e83f22c5d41ea9404ed9f2663a813b6bb8b9bb91231bd42b9bd49c24cb",
+   "expectedWorkingRawSha256": "07e1ca7e3d45ddd73b80a5cf4ab0fc421279f4caf614e2d4942ed140670e3db6",
+   "path": "words/御礼.md",
+   "replacements": [
+    {
+     "after": "御",
+     "before": "[御](../kanji/御.md)",
+     "exactOccurrences": 1,
+     "target": "../kanji/御.md"
+    },
+    {
+     "after": "礼",
+     "before": "[礼](../kanji/礼.md)",
+     "exactOccurrences": 1,
+     "target": "../kanji/礼.md"
+    }
+   ]
+  },
+  {
+   "beforeLfSha256": "70f81e1f25b4e23b903c015603e706cdf87fc2711787fada9e2dcbb080fa3e02",
+   "beforeWorkingRawSha256": "c6c3178158c621ff218501cc9ec9314fa74b4471b68171c8a8fb46f081e2bc7b",
+   "expectedLfSha256": "cdd343a8b20ba014249cfbc84b53150bab9003816519127ebf3fe07b1b2d7227",
+   "expectedWorkingRawSha256": "578f23d11b45801458b8cee3258d245080e58d59b60ec357de1e4d72cc8df0d6",
+   "path": "words/心.md",
+   "replacements": [
+    {
+     "after": "心",
+     "before": "[心](../kanji/心.md)",
+     "exactOccurrences": 1,
+     "target": "../kanji/心.md"
+    }
+   ]
+  }
+ ],
+ "runtimeAcceptance": false,
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "stage": "Exact author-side validation repair freeze before editing; no scope expansion."
+}
