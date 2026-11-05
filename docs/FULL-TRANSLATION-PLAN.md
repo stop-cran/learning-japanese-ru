@@ -866,3 +866,47 @@ English. IDs remain stable; source-text acceptance does not resolve this appUI/a
 gate, and the concurrent app writer is untouched. Existing licenses/NOTICE remain.
 No native/phone/IME/playback/newmedia/packageaudio/C6/C7/ordinaryactivation/release authority.
 Continue sequential safe authoring across every remaining frozen family.
+
+Batch **024 — motion, night and space** adds complete動・夜・広・度・病,
+four complete words (今度・広い・病気・病院) and five RAW-identical licensed strokes.
+All five kanji retain frozenN4 classification; the words retain oneN4/threeN5.
+Thirteen useful wrappers across twelve old bodies restore acquired navigation without
+altering the remaining prose or earlier adaptations. All660other baseline RAW objects
+are unchanged;26affected paths have exact source/current-workingRAW/canonicalGitRAW/LF
+evidence in [accepted source](translation-batches/024-motion-night-space-reviewed-source.json).
+
+The initial generic synchronous code-review result supplied no actual reading scope;
+its available ID could not be messaged because the interface rejects sync follow-ups.
+It was not treated as acceptance. One subsequent bounded read-only evidence review
+actually read all32assigned full RU/EN pairs and 入院/時,34unique complete pairs, all
+434word/111kanji title/guard rows, seven complete XML records, four radical rows,
+all56lexical queries/61matching occurrences and five complete official historical texts.
+All three source-text facets are CLEAN, with no actionable findings or consequential
+unverified claims within that actual scope. This does not claim545whole-body reading,
+native-speaker approval, historical-pixel inspection or full-corpus acceptance.
+
+All15directed kanji edges are reviewed. Only 動:行→男 changes: car/clock 動く can have
+ordinary Russian translations «едет»/«идут», overlapping 行's existing caption.
+Four independently justified direct word pairs are 広い–大きい and
+今度–最近/近頃/このごろ; no transitive size/temporal clique is inferred.
+All original readings, Japanese examples, IDs, types, source levels and tags remain.
+病's original stem examples are retained and distinguished from final 病 in 恋病,
+with two attested readings and no invented separate み or universal spelling rule.
+Degree/time, recovery, mild-ailment usage and outpatient/admission distinctions remain
+qualified. A reusable affix-position lesson is independently reviewed in active guidance.
+
+Current membership is **686runtime objects**:111kanji/434words/111strokes/2articles/
+22counterfiles/onegrammarset/2scenecatalogs/3images. Kanji74N5/32N4/5N3 still leave six
+frozenN5 cards absent:名・子・学・小・校・高. Fresh strict8278-entry progress:
+**686reviewed-current**, **no partial**, **two reviewed runtime-blocked drafts**,
+**7,590pending**, **7,592runtimepathsabsent**. Checkpointauthoritynull/Readyfalse.
+Actual final serial checks:0errors/124tests31.403s; budget694files/703entries/
+2009904retained/2026586inflated/1005053localZIPbytes; version `dc1555f59e7dc259`.
+Initial validation receipts remain historical; public archive/exact-main CI are separate.
+
+The actual [app follow-up](translation-batches/024-motion-night-space-app-tag-followup.json)
+records raw fallback for canonical `i-adjective`, `health`, `place`; earlier023mapping
+gaps remain unresolved. IDs are retained; no concurrent app edits, device/IME/playback,
+newmedia/packageaudio/C6/C7/ordinaryactivation/release/checkpoint authority follows.
+Five stroke blobs and root notices retain real KanjiVG/Unicode licensing. Continue the
+remaining N5 support/words and every other safe family of the finite frozen target.

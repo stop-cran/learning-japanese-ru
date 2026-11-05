@@ -8,6 +8,36 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The twenty-fourth full-target source batch adds complete動・夜・広・度・病 cards,
+four full word articles and five RAW-identical licensed frozen-source strokes.
+[Batch024 accepted source](translation-batches/024-motion-night-space-reviewed-source.json)
+binds26affected runtime paths:14new objects and thirteen meaningful link wrappers across
+twelve old bodies. All660other baseline RAW objects remain unchanged. After a generic
+synchronous diff-review response supplied no reading-scope evidence and could not be
+resumed, one bounded read-only evidence review actually read32assigned complete RU/EN
+pairs plus 入院/時,34unique pairs, and all434word/111kanji title/guard rows.
+All three source-text facets are CLEAN; no findings or consequential unverified claims
+remain within this bounded reading scope. This is not545whole-body or full-corpus review.
+
+The15directed kanji edges retain fourteen source edges; only 動:行→男 changes, because
+ordinary car/clock translations can overlap 行's «идти; ехать». Four individually
+reviewed direct word guards are 広い–大きい and 今度–最近/近頃/このごろ, without
+transitive cliques. Complete source readings, examples, levels and canonical IDs remain.
+The 病 affix explanation distinguishes actual position, lexical spelling and dictionary
+notation; 恋病's two attested readings do not establish universal 病み spelling.
+Current membership686:111kanji/434words/111strokes/2articles/22counterfiles/
+onegrammarset/2scenecatalogs/3images. Fresh strict8278-entry progress:686reviewed-current,
+no partial, two reviewed runtime-blocked drafts,7,590pending and7,592runtimepathsabsent.
+Kanji74N5/32N4/5N3 still leave 名・子・学・小・校・高 absent.
+Actual final serial checks:0errors/124tests31.403s; budget694files/703entries/
+2009904retained/2026586inflated/1005053localZIPbytes; version `dc1555f59e7dc259`.
+Public desktop archive/exact-main CI follow separately. Actual app fallback for canonical
+`i-adjective`, `health`, `place` remains unresolved; earlier023tag gaps also remain.
+IDs retained and concurrent app untouched. No phone/IME/playback/media/packageaudio/
+C6/C7/activation/release/checkpoint authority follows. Continue every safe frozen family.
+
+Earlier accepted milestones below are historical.
+
 The twenty-third full-target source batch adds full会・公・力・店・持・特・社・道・駅
 cards,13complete word articles and nine RAW-identical licensed frozen-source strokes.
 [Batch023 accepted source](translation-batches/023-n5-support-foundations-reviewed-source.json)
