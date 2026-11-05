@@ -817,3 +817,52 @@ Public desktop archive and exact-main CI are separate publication evidence, not 
 Existing licenses/rootUnicode notice remain; no new canonical tag IDs. Concurrent app untouched.
 No native/phone/IME/playback/newmedia/packageaudio/C6/C7/ordinaryactivation/release authority.
 Continue all remaining safe frozen families; neither allN5 nor the full corpus is complete.
+
+## Reviewed source milestone023: N5-support foundations
+
+The [accepted source record](translation-batches/023-n5-support-foundations-reviewed-source.json)
+adds complete会・公・力・店・持・特・社・道・駅 cards,13complete word articles and nine
+RAW-identical licensed frozen-source strokes. All nine kanji retain frozenN4 classification:
+this is a mandatory-support stage for the six remainingN5 roots, not an inventedN5 relabel.
+Five prefrozen old wrappers are restored;636other baseline runtime RAW objects are untouched.
+All36affected paths have exact frozen-source/current-workingRAW/canonicalGitRAW/LF evidence.
+
+Actual independent whole review read49assigned completeRU/ENpairs and two followed pairs
+(左右/旅行),51unique complete pairs, plus all430word/106kanji title/guard rows. One actual
+cross-facet finding—力's influence sense overlaps the secondary 左右 caption—and four
+consequential frequency/register qualifiers were recorded honestly. A separate signed
+pre-edit amendment froze the direct 力–左右 exclusion and neutralizations. A fresh bounded
+reviewer read six complete pairs, all relevant full lexical objects/readings/history texts,
+and verified seven exact replacements,667unchanged runtime objects and46unchanged bodies.
+All three source-text facets are CLEAN. This combines actual51whole pairs with six focused
+pairs and exact continuity, not a second51-pair reading or57unique pairs. No original
+reviewer reuse/model attribution is invented; its synchronous report had no resumable ID.
+
+All27directed kanji edges and four source word negative edges are reviewed. The sole
+kanji-edge change is 会:社→公; retained 社→会 is assessed directionally against actual
+Russian captions. Final direct word guards are 書店–店、水道–水、道–方、力–左右.
+There is no transitive force/left/right clique; 力–元気 and 道–旅行 were not demonstrated
+requirements. The supported 力/強い voicing correction distinguishes the changed component.
+Old會/驛 histories are qualified and separate from modern mnemonics; source-selected
+reading order, phonetic metadata, types, IDs, tags and level absence remain intact.
+公立's broader contrast-with-private use and 持てる's distinct senses retain named evidence.
+Rarity/register modifiers on 会わせる、やしろ、リイ、たな are removed without claiming
+the opposite frequency or disabling grading. Optional absent wrappers retain the complete
+Japanese comparison/component teaching in plain text, not English runtime placeholders.
+
+Current membership is **672runtime objects**:106kanji/430words/106strokes/2articles/
+22counterfiles/onegrammarset/2scenecatalogs/3images. Kanji74N5/27N4/5N3 still leave six
+frozenN5 cards absent:名・子・学・小・校・高. Fresh strict8278-entry progress:
+**672reviewed-current**, **no partial**, **two reviewed runtime-blocked drafts**,
+**7,604pending**, **7,606runtimepathsabsent**. Checkpointauthoritynull/Readyfalse.
+Actual corrected serial checks:0errors/124tests33.568s; budget680files/689entries/
+1969250retained/1985932inflated/984888localZIPbytes; version `2de6f16a7092c537`.
+Public desktop archive/exact-main CI are separate publication evidence, not inferred here.
+
+An actual app-hint mapping gap is pinned in the
+[app follow-up](translation-batches/023-n5-support-foundations-app-tag-followup.json):
+canonical `institutions` (公立), `na-adjective` (特別), `work` (会議) may render raw
+English. IDs remain stable; source-text acceptance does not resolve this appUI/activation
+gate, and the concurrent app writer is untouched. Existing licenses/NOTICE remain.
+No native/phone/IME/playback/newmedia/packageaudio/C6/C7/ordinaryactivation/release authority.
+Continue sequential safe authoring across every remaining frozen family.

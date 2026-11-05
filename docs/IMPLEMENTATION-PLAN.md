@@ -8,6 +8,36 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The twenty-third full-target source batch adds full会・公・力・店・持・特・社・道・駅
+cards,13complete word articles and nine RAW-identical licensed frozen-source strokes.
+[Batch023 accepted source](translation-batches/023-n5-support-foundations-reviewed-source.json)
+binds36affected paths:31new runtime objects and five exact wrappers across five old bodies;
+all636other baseline RAW objects remain unchanged. Actual first independent review read
+49assigned completeRU/ENpairs plus 左右/旅行,51unique pairs, and all430word/106kanji
+title/guard rows. Its one cross-facet finding and four unsupported frequency/register
+qualifiers were saved before a separate signed correction freeze. A fresh focused reviewer
+read six complete pairs, confirmed the exact 力–左右 guard and four neutralizations,
+and verified667unchanged runtime objects/46unchanged pair bodies. All three source-text
+facets are CLEAN; this is not a second51-pair reading or57unique pairs.
+
+All27directed kanji edges and four retained source word negative edges are reviewed.
+The only kanji-edge change is 会:社→公. Four direct word guards are 書店–店、
+水道–水、道–方、力–左右, without transitive cliques. The 力/強い voicing-component
+correction, qualified histories and 公立/持てる distinctions retain exact evidence.
+Unsupported rarity/register modifiers are neutralized, not declared false or common.
+Current membership672:106kanji/430words/106strokes/2articles/22counterfiles/
+onegrammarset/2scenecatalogs/3images. Fresh strict8278-entry progress:672reviewed-current,
+no partial, two reviewed runtime-blocked drafts,7,604pending and7,606runtimepathsabsent.
+Kanji74N5/27N4/5N3 still leave 名・子・学・小・校・高 absent.
+Actual corrected serial checks:0errors/124tests33.568s; budget680files/689entries/
+1969250retained/1985932inflated/984888localZIPbytes; version `2de6f16a7092c537`.
+Public desktop archive/exact-main CI follow separately. Actual app fallback for canonical
+`institutions`, `na-adjective`, `work` remains unresolved; IDs retained and concurrent app
+untouched. No phone/IME/playback/media/packageaudio/C6/C7/activation/release/checkpoint
+authority follows. Continue every safe family of the finite frozen target.
+
+Earlier accepted milestones below are historical.
+
 The twenty-second full-target source batch adds full友・古・右・天・左・新・気・犬・良・銀・長
 cards,13complete word articles and11RAW-identical licensed frozen-source strokes.
 [Batch022 accepted source](translation-batches/022-foundation-contrasts-kanji-reviewed-source.json)

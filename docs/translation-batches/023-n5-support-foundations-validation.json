@@ -1,0 +1,64 @@
+{
+ "acceptance": false,
+ "allPassed": true,
+ "authoringCommit": "dc996d02a6c511638560e145ec5347cb57234d5f",
+ "checkpointAuthority": null,
+ "commands": [
+  {
+   "command": [
+    "python",
+    "tools\\build_manifest.py"
+   ],
+   "durationSeconds": 0.18,
+   "exitCode": 0,
+   "stderr": "",
+   "stdout": "manifest.json: 672 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 2de6f16a7092c537\n"
+  },
+  {
+   "command": [
+    "python",
+    "tools\\validate.py"
+   ],
+   "durationSeconds": 1.383,
+   "exitCode": 0,
+   "stderr": "",
+   "stdout": "0 error(s)\n"
+  },
+  {
+   "command": [
+    "python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tools",
+    "-p",
+    "test_*.py"
+   ],
+   "durationSeconds": 33.837,
+   "exitCode": 0,
+   "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 33.568s\n\nOK\n",
+   "stdout": ""
+  },
+  {
+   "command": [
+    "python",
+    "tools\\check_content_budget.py"
+   ],
+   "durationSeconds": 0.423,
+   "exitCode": 0,
+   "stderr": "",
+   "stdout": "{'files': 680, 'entries': 689, 'retainedBytes': 1969250, 'inflatedBytes': 1985932, 'localZipBytes': 984888, 'listeningTaskMediaBytes': 0}\n"
+  }
+ ],
+ "ordinaryActivationAuthorized": false,
+ "recordedAt": "2026-11-05T10:12:57.154956+00:00",
+ "reviewStatus": "PENDING",
+ "semanticBoundary": "Actual checks, not semantic proof; independent source-text review is separate.",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "stage": "Corrected source, independent recheck pending",
+ "tests": {
+  "count": 124,
+  "reportedDurationSeconds": 33.568
+ }
+}
