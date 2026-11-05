@@ -1,0 +1,83 @@
+{
+ "actualAdditionalSourceReading": [
+  {
+   "actualWritingExampleNormalizedBaseText": "彼の筆跡は大変まずい。なにがなんだかわからない。",
+   "rawResponseSha256": null,
+   "scope": "Actualcomplete displayedlexicalentry: allsenses1–5, examplelines and finalNotes. Unlike the JSONAPI, Notes explicitly labelまずい as gikun orjukujikun.",
+   "shortNoteQuote": "まずい: Gikun (meaning as reading) or jukujikun (special kanji reading).",
+   "sourceBoundary": "ObservedJapaneseexample is actualJishodisplayedsource, not inventedbytheauthor; not a new independentnativecertification of the corpus.",
+   "url": "https://jisho.org/word/%E4%B8%8D%E5%91%B3%E3%81%84"
+  },
+  {
+   "rawResponseSha256": null,
+   "scope": "Actually read returnedmorphology section: indeclinableneuterкарри; subsequentlexicaltext is truncated, not claimedcomplete. Use natural Это карри острое, но вкусное in the unchangedJapanesecurryexample.",
+   "url": "https://ru.wiktionary.org/wiki/%D0%BA%D0%B0%D1%80%D1%80%D0%B8"
+  },
+  {
+   "rawResponseSha256": null,
+   "scope": "Only dictionarycollectionnames returned, not theкарриentry. Not usedasgenderproof; no claim that the source has no suchentry.",
+   "url": "https://gramota.ru/poisk?query=%D0%BA%D0%B0%D1%80%D1%80%D0%B8&mode=slovari"
+  }
+ ],
+ "additionalDirectPairProposal": {
+  "authorConfidence": "moderate",
+  "declaredOn": "不味い",
+  "independentStatus": "PENDING",
+  "pair": [
+   "不味い",
+   "汚い"
+  ],
+  "reason": "Actually displayedまずいhandwritingexample describes poor unreadablewriting; actual baseline汚いcaption includesнеряшливый and its preserved字が汚くて、読めませんteaching concerns messyunreadablewriting. Moderateconservativedirectproposal, not genericbadness or a transitiveedge."
+ },
+ "batch": "029-weather-taste-condition",
+ "checkpointAuthority": null,
+ "completeOldPairCountUnchanged": 18,
+ "completePairCountUnchanged": 43,
+ "continueRequired": true,
+ "expectedMetadataOverride": {
+  "expectedRussianMetadata": {
+   "jlpt": 5,
+   "kanji": [
+    "不",
+    "味"
+   ],
+   "quiz_exclusions": [
+    "悪い",
+    "弱い",
+    "汚い"
+   ],
+   "reading": "まずい",
+   "tags": [
+    "adjective",
+    "food",
+    "evaluation"
+   ],
+   "title": "невкусный; неудачный",
+   "type": "jukujikun",
+   "word": "不味い"
+  },
+  "path": "words/不味い.md"
+ },
+ "fullTaskComplete": false,
+ "guidanceAmendment": {
+  "addedLines": 4,
+  "afterNormalizedLfSha256": "e685d571db118312b3480590f65ce8379429acbcc1ba9166891049eca8268823",
+  "afterWorkingRawSha256": "e685d571db118312b3480590f65ce8379429acbcc1ba9166891049eca8268823",
+  "beforeCanonicalGitRawSha256": "d7067a996c30a073d1b4df64e7a9f5eae4adfd28dc2a91b74ddb3836c603a0ed",
+  "exactAddedText": "- У kana-only объекта Jisho поле `japanese` может содержать только `reading`, как у いい.\n  Отсутствие `word` само по себе не опровергает запись каной; проверьте часть речи и значения полного объекта.\n  Совпадение чтения также возвращает отдельные омонимы: восемь кандидатов いい не означают восемь\n  значений прилагательного «хороший». Выбирайте подтверждённую лексему, не объединяйте всю выдачу.\n",
+  "independentReviewStatus": "PENDING",
+  "path": ".github/instructions/content-structure.instructions.md",
+  "reason": "Observedgoodいい object is kana-onlyreading with nowordkey; seven of eightreadingmatches are unrelatedhomonyms. Do not equate missingword with missingkanaform or merge readinghomonyms."
+ },
+ "independentReviewStatus": "PENDING",
+ "oldRuntimeEditsPlanned": [],
+ "ordinaryActivationAuthorized": false,
+ "previousAuthoringFreezeCommit": "d5a24375743c0a1836af3171c07c6725e7dd90b0",
+ "proposedDirectPairCountAfterAmendment": 21,
+ "protectedBaselineRuntimeRawCount": 828,
+ "runtimeAcceptance": false,
+ "runtimeAuthoringOccurred": false,
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "stage": "Additional actually read source evidence and one proposed direct safeguard pinned BEFORE any029Russian runtime body is written."
+}
