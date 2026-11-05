@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "batch": "017-places-time-reading-words",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "frozenScopeCommit": "935dae5fd109bafbf754654540007423333b1b56",
+  "state": "author-adjudication-pending-independent-review",
+  "actualAdoptedScope": {
+    "newFiles": 25,
+    "sourceFullLines": 794,
+    "russianFullLines": 913,
+    "actualOldLabelsRead": 350,
+    "actualNewLabelsRead": 25,
+    "actualCompleteBaselineRussianBodies": 9,
+    "baselineBodyLines": 335,
+    "preservedSourceDirectedEdges": 0,
+    "addedDirectRussianGuards": 2
+  },
+  "guardPairs": [
+    {
+      "left": "見物",
+      "right": "見る",
+      "reason": "Actual source/dictionary見物sense1watching/viewing and source見るbody explicitly観るsports/spectacle plusсмотреть/наблюдать overlap directly. Noun/するversusverb tags do not establish answer safety. Keep sightseeing/spectacle versus general見るteaching; no all-vision clique."
+    },
+    {
+      "left": "読書",
+      "right": "読む",
+      "reason": "Actual dictionary読書reading(books)and actual読むbody本を読む share the book-reading action. Russianчтениекниг/читатьmaybothfit; noun/する/intransitiveversusverb/transitive distinction alone is not answer safety. Retain all construction/letter/book distinctions; not inherited through見物."
+    }
+  ],
+  "actualAnswerPoolAssessment": [
+    "All375actualdisplayedmeaningsassessed,notEnglishstrings/POS/tagsalone. Direct見物–見るand読書–読むactionsourcedindependently;noall-vision/readingcommunicationclique.",
+    "Preservecountry-specific国内/外国,insidepart内側versus入るentry/result/fit/join,periodhalf前半/後半versusquantity半分/specific午後,questioncount/clock,age-specific青年versusbaresex/adultstatusanddirectionalstationexits.",
+    "雨戸isthespecificslidingprotectiveshutter,notanordinarydoor/window. Noallbuilding-object/people/time/genusclique. All416oldruntimeRAWobjects/oldtracking/progressunchanged."
+  ],
+  "sourceAdaptations": [
+    "All25complete learner bodies/four exact Russian H2; preserve source Japanese, readings, qualifiers, technical IDs/types/tags/levels and grading semantics. No new source direct negative edges exist in these25headers.",
+    "Preserve actual mixed kun/on examples何人/何時/円高/半年 with allowed technicalkango; no mechanical classification or new parser value.",
+    "何かretainsなにか/なんかand full-construction negation; never claimなんcannot precedeか. 何人retainscount versusnationalityreading and polite alternative.",
+    "北海道preserves1869, oldregional道andactualqualified加伊→海explanation with verified exact officialFAQURL. Search-generatedquotes/URLs were not evidence; officialPDFdoesnotitselfcontainreplacementparagraph.",
+    "田中/山田proper-name readings separately verified with actual Wiktionaryrevisions; source中田retained, missingpage/APIresult not invalidity. No inventedgenealogy or exactrank.",
+    "自由Englishfreecomparison becomes self-contained freedom-of-choice versus無料price contrast; mnemonic explicitly not etymology. 不自由not declared a uniform inverse.",
+    "読書intransitiveする/book-readingactivity versus読むspecifiedtext, not habitual versusone-time;執筆contrastingactivitynotlexicalantonym.",
+    "申し込むpreservesapplication-not-acceptance, transitivelexicalclassificationwithoutforcingactivityを, humble申すandproductive込むsuffixsense qualifiers.",
+    "青年youngperson/oftenyoungman, no exactage or universalmale-onlyrule;雨戸slidingexteriorstormshutter, not merelyhingedentrancedoor.",
+    "Supplementary scoped guidance: independently open exact citedsource/findactualpassage; authenticPDF/searchcitationdoesnotproveanAIreconstructedquote orURL."
+  ],
+  "actualPrevalidationProbe": "TheinitialprivateprojectionstrippedsourceMarkdownlinksbutnotRussianlinksandspuriouslyflagged本を読むinalreadyidenticallinkedtext.Bothdomainsnowstriplinkmarkupbeforecomparison;noruntimetextchangedforthisprobe.Nomanifest/validator/testshadrunyet;projectionisnotsemanticproof.",
+  "actualEvidenceBoundaries": {
+    "dictionary": "66completequeries/66entryoccurrences/96forms/106objects=92nonWikiNonPlace+2Place+12Wiki. SevenexactAPIlookupsfailedandwerenotpositiveproof. KenbutsuPlacenotcommon-nounmeaning;properHokkaidocontextlegitimate.",
+    "names": "ActualWiktionarytwoexistingcompletepages/revisionsandone中田missingobjectread;田中2350927and山田1468349.Noclaim田中/山田/中田werepositivelyreturnedbyJishowordAPI.",
+    "history": "ActualofficialFAQreplacement/regional道/1869passagesandqualifiedとされていますread;citationdirectlylinked. InitialAIsearchquotedanunseenreplacementlineinthePDF;actualPDFdidnotcontainitandwasnotusedforthatclaim. SearchURLsguessedbysearchresponse404wereexcluded.",
+    "months": "Exactcompletealreadyaccepted六か月ろっかげつcounterrowread;noassertionmissingAPI半年間/中小零細formsareimpossible.",
+    "scope": "Sourcelevels2N2/5N3/2N4/1N5/15unlabelledpreserved;sourcealternate/rareAPIreadingsnotuniversallyadopted. Whole source25bodies794linespreserved,notall-senseAPIadoption."
+  },
+  "completeTranslation": "25Russian titles/H1/100exactH2/allparagraphs/examples/qualifications/citationlabels;allsourceJapanese/sourceURLsretained. Optionalabsentnavigationflattenedwithoutdiscardingteaching. Noassets/grammarcontexts/newkanji/strokes/audio.",
+  "activeGuidanceChanges": "Twoscopedlinesrequireopeningexactcitedsource/findingactualpassage;authenticPDF/searchlinkdoesnotproveareconstructedquoteorURL. Whole review must read actualdelta.",
+  "all416BaselineRawObjectsAndOldTrackingUnchanged": true,
+  "pinnedUiFollowUp": {
+    "appCommit": "5c000bd5596d2189ef878da572687bd01ab3bb5f",
+    "path": "app/src/main/java/io/github/stopcran/kanji/ui/WordQuizScreen.kt",
+    "rawBlobSha256": "530ff7e5d6da2829bc08ff57c6356162af04b0ab84598cb7c19127217f71c08c",
+    "actualPinnedFunction": "fun localizedWordPromptTag(tag: String): String {\r\n    val resource = when (tag) {\r\n        \"adjective\" -> R.string.word_tag_adjective\r\n        \"appearance\" -> R.string.word_tag_appearance\r\n        \"body\" -> R.string.word_tag_body\r\n        \"compound\" -> R.string.word_tag_compound\r\n        \"conversation\" -> R.string.word_tag_conversation\r\n        \"daily-life\" -> R.string.word_tag_daily_life\r\n        \"drink\" -> R.string.word_tag_drink\r\n        \"expression\" -> R.string.word_tag_expression\r\n        \"feelings\" -> R.string.word_tag_feelings\r\n        \"giongo\" -> R.string.word_tag_giongo\r\n        \"giseigo\" -> R.string.word_tag_giseigo\r\n        \"gitaigo\" -> R.string.word_tag_gitaigo\r\n        \"godan\" -> R.string.word_tag_godan\r\n        \"intransitive\" -> R.string.word_tag_intransitive\r\n        \"jukujikun\" -> R.string.word_tag_jukujikun\r\n        \"light\" -> R.string.word_tag_light\r\n        \"literary\" -> R.string.word_tag_literary\r\n        \"mimetic\" -> R.string.word_tag_mimetic\r\n        \"movement\" -> R.string.word_tag_movement\r\n        \"nature\" -> R.string.word_tag_nature\r\n        \"noun\" -> R.string.word_tag_noun\r\n        \"onomatopoeia\" -> R.string.word_tag_onomatopoeia\r\n        \"people\" -> R.string.word_tag_people\r\n        \"personality\" -> R.string.word_tag_personality\r\n        \"reduplication\" -> R.string.word_tag_reduplication\r\n        \"ri-ending\" -> R.string.word_tag_ri_ending\r\n        \"size\" -> R.string.word_tag_size\r\n        \"sokuon\" -> R.string.word_tag_sokuon\r\n        \"texture\" -> R.string.word_tag_texture\r\n        \"time\" -> R.string.word_tag_time\r\n        \"verb\" -> R.string.word_tag_verb\r\n        \"voiced\" -> R.string.word_tag_voiced\r\n        else -> return tag\r\n    }\r\n    return stringResource(resource)\r\n}",
+    "unmappedCanonicalTagsByAffectedCard": {
+      "counter": [
+        "words/何人.md"
+      ],
+      "descriptions": [
+        "words/自由.md"
+      ],
+      "economy": [
+        "words/円高.md"
+      ],
+      "home": [
+        "words/雨戸.md"
+      ],
+      "number": [
+        "words/六百.md"
+      ],
+      "opposite-pair": [
+        "words/上下.md"
+      ],
+      "place": [
+        "words/国内.md",
+        "words/外国.md"
+      ],
+      "place-name": [
+        "words/北海道.md",
+        "words/東京.md"
+      ],
+      "position": [
+        "words/内側.md"
+      ],
+      "pronoun": [
+        "words/何か.md"
+      ],
+      "question": [
+        "words/何人.md",
+        "words/何時.md"
+      ],
+      "sound-change": [
+        "words/六百.md"
+      ],
+      "station": [
+        "words/南口.md",
+        "words/西口.md"
+      ],
+      "surname": [
+        "words/田中.md"
+      ],
+      "suru-verb": [
+        "words/見物.md",
+        "words/読書.md"
+      ],
+      "weather": [
+        "words/雨戸.md"
+      ]
+    },
+    "limits": "Exact immutable blob/function hash freshly verified; not current dirty app/main/phone behavior. No app modifications/builds.",
+    "unmappedOccurrences": 21
+  },
+  "reviewStatus": "pending",
+  "independentReviewer": null,
+  "limits": "Authorreasoning/checksonly,notindependent/native/app/device/media/checkpoint/releaseapproval."
+}
