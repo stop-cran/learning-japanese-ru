@@ -1,0 +1,37 @@
+{
+  "actualReadScope": "Complete WordQuizPrompt and localizedWordPromptTag body, lines145–205; source first, not inferred from missing resource names.",
+  "appGitRawSha256": "530ff7e5d6da2829bc08ff57c6356162af04b0ab84598cb7c19127217f71c08c",
+  "appModified": false,
+  "appRepository": "stop-cran/kanji-cards-android",
+  "appStartingReference": "5c000bd5596d2189ef878da572687bd01ab3bb5f",
+  "appWorkingLfSha256": "f2df755e96a04e6108ee84dcee79551089bd6caae809d82ca374ddec1e33a3d1",
+  "appWorkingRawSha256": "530ff7e5d6da2829bc08ff57c6356162af04b0ab84598cb7c19127217f71c08c",
+  "batch": "023-n5-support-foundations",
+  "disposition": "Preserve canonical frozen source IDs. Do not race the concurrent app writer. App owner must add/check localized label mappings before ordinary Russian activation/release.",
+  "finding": "The reverse large-word prompt maps non-origin tags through localizedWordPromptTag. The three new source IDs are absent from its when table and reach else -> return tag, displaying English raw IDs.",
+  "function": "localizedWordPromptTag",
+  "functionLfUtf8Sha256": "9844df1f8787ce5a1d62216bbafe3501bbfd9617d3a48dd751cd572d2878ae72",
+  "missingCanonicalTagIds": [
+    {
+      "id": "institutions",
+      "russianContentPath": "words/公立.md"
+    },
+    {
+      "id": "na-adjective",
+      "russianContentPath": "words/特別.md"
+    },
+    {
+      "id": "work",
+      "russianContentPath": "words/会議.md"
+    }
+  ],
+  "nativeTestsRun": false,
+  "observedAppHead": "0f60c8e82f82687b84fba2d8936f29d142e574a6",
+  "path": "app/src/main/java/io/github/stopcran/kanji/ui/WordQuizScreen.kt",
+  "recordedAt": "2026-11-05T09:53:16.515123+00:00",
+  "resolved": false,
+  "schemaVersion": 1,
+  "sourceIntegrationAuthority": "Independent reviewed-source translation may continue under the later owner authorization; this is not all-Russian app UI or device acceptance.",
+  "stage": "Evidenced app follow-up; no app edits or activation approval.",
+  "workingLfMatchesObservedGit": true
+}
