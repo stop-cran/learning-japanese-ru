@@ -1,0 +1,242 @@
+{
+ "batch": "020-motion-position-kanji",
+ "decisions": [
+  {
+   "claim": "The inherited wrong-answer edge 前→先 shares ordinary before/earlier meanings.",
+   "evidence": "Complete frozen 前 and current/frozen 先; complete KANJIDIC records for both; complete exact JMdict matching objects including まえ, ぜん and さき; frozen meaning-quiz contract.",
+   "id": "020-A001",
+   "path": "kanji/前.md",
+   "plannedCorrection": "Change only distractors [後,先,間] to [後,月,間]; 月 is already accepted, visually shares the lower 月 component, and its actual title is луна; месяц. Keep the substantive 前/先 comparison.",
+   "reviewStatus": "pending"
+  },
+  {
+   "claim": "The frozen small-steps/dragging-foot story is not the same account as the primary dictionary actually read.",
+   "evidence": "Complete meaningful cached KanjiPedia 後 text, attributed there to 角川新字源 改訂新版: components 彳/夂/幺, bound feet impede forward progress, then lag/after/behind.",
+   "id": "020-A002",
+   "path": "kanji/後.md",
+   "plannedCorrection": "Paraphrase that specifically attributed dictionary interpretation instead of certifying the frozen small-steps story as the commonly established history. Preserve all component glyphs and ordinary meanings; do not claim one interpretation proves ancient history universally.",
+   "reviewStatus": "pending"
+  },
+  {
+   "evidence": "Complete cached Bank of Japan FAQ actually read, including the 1872 ordinance, 金行/銀行 candidates and といわれています qualifier; complete JMdict 洋行 object.",
+   "id": "020-A003",
+   "path": "words/銀行.md",
+   "plannedAdaptation": "Retain the 1872/national-bank naming story as BOJ's reported explanation, not a proven first-ever coinage or a claim that national banks were government-owned. Preserve the unestablished silver-standard caveat, Chinese háng, the distinct pre-communist-China store sense and Western-travel sense of 洋行.",
+   "reviewStatus": "pending"
+  },
+  {
+   "evidence": "Complete frozen 来/来る, complete KANJIDIC 来 and both exact JMdict 来る objects; the source itself gives き for 来た and 来て.",
+   "id": "020-A004",
+   "paths": [
+    "kanji/来.md",
+    "words/来る.md"
+   ],
+   "plannedAdaptation": "Keep rare タイ and every frozen on/kun metadata value and grading default. The verb is 来る, not the glyph 来 itself. Label the word table as readings of the character 来, not whole-word readings; move unchanged 来た人/きたひと example from the く.る row to the き row. Preserve all irregular forms and literary きたる without adding that different whole-word reading to the くる card.",
+   "reviewStatus": "pending"
+  },
+  {
+   "id": "020-A005",
+   "limits": "Three individually proposed direct edges, not a transitive movement clique. No automatic exclusion with entering, arrival, 外出, 出発 or 旅行. Whole-batch reviewer must assess actual labels, deictic distinctions and any further defensible overlap; nothing is independently accepted yet.",
+   "path": "words/行く.md",
+   "perPairEvidence": [
+    {
+     "basis": "Current title выходить; отправляться and complete RU example translated пойду за покупками; exact dictionary departure/set-out meanings overlap 行く's departure/toward-destination sense.",
+     "with": "出かける"
+    },
+    {
+     "basis": "Complete current body explicitly teaches уходить; exact dictionary sense2 leaving on a journey/setting out overlaps 行く's to leave(for).",
+     "with": "出る"
+    },
+    {
+     "basis": "Exact full dictionary senses4/5 include leaving/departure, the latter often written 発つ; current baseline already records direct departure-related guards. This is not a claim that standing and going are synonyms.",
+     "with": "立つ"
+    }
+   ],
+   "plannedDirectExclusions": [
+    "出かける",
+    "出る",
+    "立つ"
+   ],
+   "reviewStatus": "pending"
+  },
+  {
+   "id": "020-A006",
+   "path": "words/旅行.md",
+   "plannedAdaptation": "Preserve travel/trip, every source example, business-trip and sightseeing comparisons and the possible literary/wandering/lonely shade of 旅. Do not convert a tendency into a claim that all 旅 are solitary, that only 旅 can be literary, or that business travel cannot be 旅行.",
+   "reviewStatus": "pending"
+  },
+  {
+   "evidence": "Complete matching JMdict 後ろ object actually lists both spellings with that reading; both source kun metadata values remain.",
+   "id": "020-A007",
+   "path": "kanji/後.md",
+   "plannedClarification": "Explain the source metadata's undotted うしろ with the actual alternative spelling 後/うしろ, alongside 後ろ/うしろ; do not manufacture a new reading.",
+   "reviewStatus": "pending"
+  }
+ ],
+ "independentReview": "Not yet assigned; author adjudication and captures do not constitute independent approval.",
+ "intakeCommit": "d5ae5e38fe8cf0f513e8ec3cd59ef11735e0d565",
+ "intakeLfSha256": "a883fc6f3d1471feb6d28545e8e94f2b2a75893646cbb71b4fd86d356613bd7b",
+ "primaryEvidence": {
+  "canonicalRadicalRowsActuallyRead": [
+   {
+    "completeDataRow": "2F11;KANGXI RADICAL KNIFE;So;0;ON;<compat> 5200;;;;N;;;;;",
+    "glyph": "刀",
+    "number": 18
+   },
+   {
+    "completeDataRow": "2F3B;KANGXI RADICAL STEP;So;0;ON;<compat> 5F73;;;;N;;;;;",
+    "glyph": "彳",
+    "number": 60
+   },
+   {
+    "completeDataRow": "2F4A;KANGXI RADICAL TREE;So;0;ON;<compat> 6728;;;;N;;;;;",
+    "glyph": "木",
+    "number": 75
+   },
+   {
+    "completeDataRow": "2F8F;KANGXI RADICAL WALK ENCLOSURE;So;0;ON;<compat> 884C;;;;N;;;;;",
+    "glyph": "行",
+    "number": 144
+   }
+  ],
+  "dictionaryLimits": "19 matching object occurrences across14 queries, not every unrelated result or the whole dictionaries. Ignore Wikipedia definitions and the 外出/そとで Place sense as lexical proof for がいしゅつ. The repeated さき object is not two independent authorities.",
+  "historicalPages": [
+   {
+    "actualReading": "Complete cached text actually returned/read; page images not inspected.",
+    "bytes": 14460,
+    "finalUrl": "https://www.kanjipedia.jp/kanji/0002095500",
+    "name": "kanjipedia-go",
+    "rawSha256": "ab5a3f9aeb73468fd1191469c6739c96a47bf6068b0f88362558383c5dbf6ffa",
+    "url": "https://www.kanjipedia.jp/kanji/0002095500"
+   },
+   {
+    "actualReading": "Complete cached text actually returned/read; page images not inspected.",
+    "bytes": 44213,
+    "finalUrl": "https://www.boj.or.jp/about/education/oshiete/history/j09.htm",
+    "name": "boj-bank-name",
+    "rawSha256": "bc57ce168c19bcc13f572c7c88841d00089166d010ddc96e22b0d14f06cd25be",
+    "url": "https://www.boj.or.jp/about/education/oshiete/history/j09.htm"
+   }
+  ],
+  "jmdictMatchingObjectsActuallyRead": [
+   {
+    "exactMatchingObjectsRead": 1,
+    "query": "名前",
+    "responseRawSha256": "ee5d7c16bdb2eb6a2a8f75697f570530fbfc4dd6bdf3fe09c059bb69d992fe4a",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E5%90%8D%E5%89%8D"
+   },
+   {
+    "exactMatchingObjectsRead": 1,
+    "query": "後ろ",
+    "responseRawSha256": "dd0b3060599e7b7a61779731f8c30eb577bdd841873b9a09d465bb3711313f31",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E5%BE%8C%E3%82%8D"
+   },
+   {
+    "exactMatchingObjectsRead": 1,
+    "query": "旅行",
+    "responseRawSha256": "a438f693bb227828c5a1043c27d3b740a47265f976dd6f383ea71c18acdc154a",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E6%97%85%E8%A1%8C"
+   },
+   {
+    "exactMatchingObjectsRead": 2,
+    "query": "来る",
+    "responseRawSha256": "d04265127589ce955c91a7bcda5ccd6f528b755f704f9a7f551f2cc1ee7690cc",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E6%9D%A5%E3%82%8B"
+   },
+   {
+    "exactMatchingObjectsRead": 1,
+    "query": "行く",
+    "responseRawSha256": "9b92bf08558bda151aa08a4694b3ece57bb60a350e5d6213e4ba1fd077a80597",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E8%A1%8C%E3%81%8F"
+   },
+   {
+    "exactMatchingObjectsRead": 1,
+    "query": "銀行",
+    "responseRawSha256": "db4fede0e17e7564a9a38d54dfb1b662bc643f34cd6be97b3d7a761f4ba89f28",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E9%8A%80%E8%A1%8C"
+   },
+   {
+    "exactMatchingObjectsRead": 1,
+    "query": "洋行",
+    "responseRawSha256": "d496043cfb3d571d812d3de298b91740f9d5aa694441795bea5399eda3402295",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E6%B4%8B%E8%A1%8C"
+   },
+   {
+    "exactMatchingObjectsRead": 3,
+    "query": "前",
+    "responseRawSha256": "b327e9244eb99af8f0e3466e9ddd88a76d1cb1e6bdacda12267c169e9caf203a",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E5%89%8D"
+   },
+   {
+    "exactMatchingObjectsRead": 3,
+    "query": "先",
+    "responseRawSha256": "b1cee5193aba3b7ed16f9aa74f758620f6f27d97aae47a218a80d4d2cef23cca",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E5%85%88"
+   },
+   {
+    "exactMatchingObjectsRead": 1,
+    "query": "出かける",
+    "responseRawSha256": "6f17636b79ce24d108ef994eb4c5c6c065f891743e5ac4ff8ce3e89c5b503ac0",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E5%87%BA%E3%81%8B%E3%81%91%E3%82%8B"
+   },
+   {
+    "exactMatchingObjectsRead": 1,
+    "query": "出る",
+    "responseRawSha256": "9b94e33c3d7a5269b111f4a48b6f3eb9b53cbcfe5d558046db33633eadfad01d",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E5%87%BA%E3%82%8B"
+   },
+   {
+    "exactMatchingObjectsRead": 1,
+    "query": "立つ",
+    "responseRawSha256": "09092d7c1e591706a6fca2aa8947f2fd9d8ef1a94efb20d9c4a2490d4c15ddda",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E7%AB%8B%E3%81%A4"
+   },
+   {
+    "exactMatchingObjectsRead": 1,
+    "query": "出発",
+    "responseRawSha256": "41daf087004f78f7f95c5b5bf8b36ebaba0f6c586f8bec95f0a2a6afb9e236b2",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E5%87%BA%E7%99%BA"
+   },
+   {
+    "exactMatchingObjectsRead": 1,
+    "query": "外出",
+    "responseRawSha256": "c8158627336bc3f4a69ec6775c4809ccade88a080e33efb230c15ec6eff558d3",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E5%A4%96%E5%87%BA"
+   }
+  ],
+  "kanjidic": {
+   "completeRecordsActuallyRead": [
+    {
+     "exactXmlRawSha256": "0a7719ace0b12f5f92375f8561c50a83fae33d3615aa4aa169e0bcca254ed101",
+     "literal": "前"
+    },
+    {
+     "exactXmlRawSha256": "17c108640685fd7678a6bc194d8a69dedefec1b400af55c555266162d73dbc76",
+     "literal": "後"
+    },
+    {
+     "exactXmlRawSha256": "c9b1a5c10883cce8c9766ccedee77f36078435a865f7716c689acc84f9625d02",
+     "literal": "来"
+    },
+    {
+     "exactXmlRawSha256": "b977a78fcf137a06ee599ebaf64e0facd8b66447701a16de432aedc816062b45",
+     "literal": "行"
+    },
+    {
+     "exactXmlRawSha256": "91117f48f45302312161b179978b16c47d26a30ca9cf0c54201b00367488c8b6",
+     "literal": "先"
+    },
+    {
+     "exactXmlRawSha256": "21e5b177eed630847bfa04f4530f0def4ed68922d3accdfef083a7141ef3cc33",
+     "literal": "月"
+    }
+   ],
+   "gzipRawSha256": "e26e34c9187a786bf1f0b21f87e311a9b0ed644aefe9693d10bdc7cb8643d8e0",
+   "xmlRawSha256": "01bf4cc9b3a72d7fa521a780c0e7f35c479d314d35654131b45f1f359dc69311"
+  },
+  "unicodeDataRawSha256": "2e1efc1dcb59c575eedf5ccae60f95229f706ee6d031835247d843c11d96470c"
+ },
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "stage": "Author's evidence-based decisions frozen before Russian runtime authoring; independent review pending."
+}
