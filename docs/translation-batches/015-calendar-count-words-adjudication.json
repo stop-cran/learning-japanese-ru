@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "batch": "015-calendar-count-words",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "frozenScopeCommit": "2e4371129e47bcfe2da9a2c291802eb9e999ce41",
+  "state": "author-adjudication-pending-independent-review",
+  "actualAdoptedScope": {
+    "newFiles": 37,
+    "sourceFullLines": 1134,
+    "russianFullLines": 1138,
+    "oldDisplayedMeaningsActuallyRead": 288,
+    "newDisplayedMeaningsActuallyRead": 37,
+    "sourcePreservedEdges": 0,
+    "addedDirectRussianGuards": 2
+  },
+  "guardPairs": [
+    {
+      "left": "一日",
+      "right": "日",
+      "reason": "Direct one-day/day-unit overlap with actual Russianденьlabel, including full baseline日calendar/day sense. Quantified versus bare singular Russian can name the same unit; not a claim all meanings are synonyms. Independently review actual completed labels."
+    },
+    {
+      "left": "一人",
+      "right": "人",
+      "reason": "Direct one-person versus bare Russian singularчеловекin an unqualified counting context. Quantity remains taught; no automatic exclusion of every count/person noun. Independently review actual completed labels and full bodies."
+    }
+  ],
+  "actualAnswerPoolAssessment": [
+    "All actual288baseline and37new displayed labels actually read, plus full baseline日/人bodies. Bare Russian singularдень/человекcan express one day/person in an unqualified answer; two direct new-root guards protect this actual interpretation. Quantity remains taught; independently assess these pairs, not self-approved.",
+    "Other dates/durations/counts/months/currency amounts differ in actual numerical quantity/calendar reference, not merely unique wording. No number family, all-person, all-time or transitive clique.",
+    "一日duration/whole-day versusついたちdate distinguished; 二日–十日/二十日date-duration senses preserved with exact counts. Native counts not people-counting or modern clock expressions; child-age senses preserved only where source teaches.",
+    "Homophonous五日いつかand separateindefiniteいつかdistinguished inline; latter has no adopted runtime card, no invented dependency. 三日/三つ/三百/三千and各month-versus-duration comparisons keep distinct numerical/unit meanings.",
+    "All354old runtime bytes, tracking records and generated progress remain exact prior accepted baseline; no new review evidence inserted before actual returned review."
+  ],
+  "sourceAdaptations": [
+    {
+      "path": "words/六月.md",
+      "claim": "Do not repeat source universal contraction beforek/s/t/p/h. Preserveろくがつ/ろっかい/ろっかげつ; qualify by actual counter and supply六冊ろくさつcounterexample.",
+      "evidence": "Actual Tofugu冊table and accepted Russian satsu-comic-1 full record."
+    },
+    {
+      "path": "words/八月.md",
+      "claim": "Contraction explanation is context-dependent, not a mandatory initial-letter rule. Preserveはちがつ/はっかげつ/はっぽん.",
+      "evidence": "Actual冊table八冊はちさつ/はっさつ."
+    },
+    {
+      "path": "words/五月.md",
+      "claim": "Source五月晴れMayclearweather is genuinely attested, not disproved by narrower captured JMdict rainy-season sense. Preserve May example and distinguish traditional rainy-season use if useful.",
+      "evidence": "Actual精選版日本国語大辞典definition①rain-break/②clearMay sky, both returned/read."
+    },
+    {
+      "path": "words/五日.md",
+      "claim": "Teach canonicalいつかas whole count; do not imply attestedごにちis impossible.",
+      "evidence": "Complete exact query1268570forms actually read."
+    },
+    {
+      "path": "words/二十日.md",
+      "claim": "Teach canonicalはつかwithout falsely ruling outにじゅうにち; preserve Japanese examples and current accepted counter variants.",
+      "evidence": "Complete exact query1600850forms and accepted013twenty-day/date records actually read."
+    },
+    {
+      "path": "words/一月.md",
+      "claim": "Retain十二月comparison but call it calendar contrast, not strict lexical antonym.",
+      "evidence": "Actual source compares January/December; no dictionary antonymy evidence."
+    },
+    {
+      "path": "words/三百.md",
+      "claim": "Keepさんびゃく/さんぼん/さんばいbut avoid universal voicing afterん; preserve own counterexample四百よんひゃく.",
+      "evidence": "Full source and exact numeral/dictionary forms actually read."
+    },
+    {
+      "path": "words/三千.md",
+      "claim": "Distinguishさんぜんvoicing fromはっせんcontraction; not same phonological operation or universalafterん.",
+      "evidence": "Full source and exact numeral forms actually read."
+    },
+    {
+      "path": "words/一万円.md",
+      "claim": "Replace English-dependent grouping comparison with direct Japanese万=10000 arithmetic understandable in Russian. Bound largest-note claim to current issued denominations.",
+      "evidence": "Complete source and actual official BOJ current-issued notes list."
+    },
+    {
+      "path": "words/千円.md",
+      "claim": "Preserve ordinaryせんえんand 一万円contrast; not an absolute ban on financial/formal一千円. Bound smallest-current-note claim.",
+      "evidence": "Complete source; actual exact千円entry includes一千円; official BOJ denominations."
+    },
+    {
+      "path": "words/百円.md",
+      "claim": "Teach ordinaryひゃくえんwithout claiming all alternative financial spellings impossible. Preserve most-items and plus-tax qualifiers for store type.",
+      "evidence": "Complete source and actual exact百円entry forms."
+    }
+  ],
+  "additionalActualEvidenceAfterFreeze": [
+    {
+      "url": "https://kotobank.jp/word/%E4%BA%94%E6%9C%88%E9%9B%A8-510965",
+      "actualReadScope": "Entire returned simplified page actually read, specifically精選版日本国語大辞典definition①陰暦五月頃rain/梅雨. Supports old-calendar link in五月晴れexplanation; no literary quotations/history invented."
+    },
+    {
+      "url": "https://www.edrdg.org/edrdg/licence.html",
+      "actualReadScope": "First6000returnedcharacters actually read, not claimed unseen tail; application includesENAMDICTand licence sectionCCBY-SA4.0/attribution. ExistingNOTICEexpanded to acknowledge capturedJMnedict/ENAMDICTproper-name evidence, not adopted common-noun senses."
+    }
+  ],
+  "actualManualPreReviewRefinements": "Removed unsourced financial-register example for一千円, retaining only actual captured alternative spelling; supplemented五月source link for old-calendar explanation. Private initial author snapshot intentionally historical; candidate hashes bind actual current files.",
+  "completeTranslation": "All37titles/H1/148exactRussianH2/all paragraphs/examples/qualifications/citation labels localized. 一日H1retainsbothいちにち・ついたち. AllJapaneseforms and sourceURLs retained; technical metadata unchanged except2declaredguards. Source23N5/14unlabelledpreserved.",
+  "activeGuidanceChanges": "Six directly related lines: distinguish12capturedPlaceobjects, counter-specific sound changes, canonical reading versus actually attested variants. No validator weakening or baseline learner-card edits.",
+  "baseline354RawObjectsAndAllOldTrackingUnchanged": true,
+  "pinnedUiFollowUp": {
+    "appCommit": "5c000bd5596d2189ef878da572687bd01ab3bb5f",
+    "path": "app/src/main/java/io/github/stopcran/kanji/ui/WordQuizScreen.kt",
+    "rawBlobSha256": "530ff7e5d6da2829bc08ff57c6356162af04b0ab84598cb7c19127217f71c08c",
+    "actualPinnedFunction": "fun localizedWordPromptTag(tag: String): String {\r\n    val resource = when (tag) {\r\n        \"adjective\" -> R.string.word_tag_adjective\r\n        \"appearance\" -> R.string.word_tag_appearance\r\n        \"body\" -> R.string.word_tag_body\r\n        \"compound\" -> R.string.word_tag_compound\r\n        \"conversation\" -> R.string.word_tag_conversation\r\n        \"daily-life\" -> R.string.word_tag_daily_life\r\n        \"drink\" -> R.string.word_tag_drink\r\n        \"expression\" -> R.string.word_tag_expression\r\n        \"feelings\" -> R.string.word_tag_feelings\r\n        \"giongo\" -> R.string.word_tag_giongo\r\n        \"giseigo\" -> R.string.word_tag_giseigo\r\n        \"gitaigo\" -> R.string.word_tag_gitaigo\r\n        \"godan\" -> R.string.word_tag_godan\r\n        \"intransitive\" -> R.string.word_tag_intransitive\r\n        \"jukujikun\" -> R.string.word_tag_jukujikun\r\n        \"light\" -> R.string.word_tag_light\r\n        \"literary\" -> R.string.word_tag_literary\r\n        \"mimetic\" -> R.string.word_tag_mimetic\r\n        \"movement\" -> R.string.word_tag_movement\r\n        \"nature\" -> R.string.word_tag_nature\r\n        \"noun\" -> R.string.word_tag_noun\r\n        \"onomatopoeia\" -> R.string.word_tag_onomatopoeia\r\n        \"people\" -> R.string.word_tag_people\r\n        \"personality\" -> R.string.word_tag_personality\r\n        \"reduplication\" -> R.string.word_tag_reduplication\r\n        \"ri-ending\" -> R.string.word_tag_ri_ending\r\n        \"size\" -> R.string.word_tag_size\r\n        \"sokuon\" -> R.string.word_tag_sokuon\r\n        \"texture\" -> R.string.word_tag_texture\r\n        \"time\" -> R.string.word_tag_time\r\n        \"verb\" -> R.string.word_tag_verb\r\n        \"voiced\" -> R.string.word_tag_voiced\r\n        else -> return tag\r\n    }\r\n    return stringResource(resource)\r\n}",
+    "unmappedCanonicalTagsByAffectedCard": {
+      "adverb": [
+        "words/一日.md"
+      ],
+      "counter": [
+        "words/四日.md",
+        "words/一つ.md",
+        "words/二つ.md",
+        "words/三つ.md",
+        "words/四つ.md",
+        "words/五つ.md",
+        "words/六つ.md",
+        "words/七つ.md",
+        "words/八つ.md",
+        "words/九つ.md",
+        "words/一人.md",
+        "words/二人.md"
+      ],
+      "counting": [
+        "words/十.md"
+      ],
+      "date": [
+        "words/三日.md",
+        "words/五日.md",
+        "words/六日.md",
+        "words/七日.md",
+        "words/八日.md",
+        "words/九日.md",
+        "words/十日.md"
+      ],
+      "duration": [
+        "words/五日.md"
+      ],
+      "money": [
+        "words/一万円.md",
+        "words/千円.md",
+        "words/百円.md"
+      ],
+      "month": [
+        "words/一月.md",
+        "words/三月.md",
+        "words/四月.md",
+        "words/五月.md",
+        "words/六月.md",
+        "words/七月.md",
+        "words/八月.md",
+        "words/九月.md",
+        "words/十月.md"
+      ],
+      "number": [
+        "words/八つ.md",
+        "words/一万円.md",
+        "words/三百.md",
+        "words/三千.md",
+        "words/千円.md",
+        "words/百円.md"
+      ],
+      "numeral": [
+        "words/一つ.md",
+        "words/三つ.md",
+        "words/六つ.md",
+        "words/七つ.md",
+        "words/九つ.md",
+        "words/十.md"
+      ],
+      "sound-change": [
+        "words/三百.md",
+        "words/三千.md"
+      ],
+      "special-reading": [
+        "words/四月.md",
+        "words/九月.md",
+        "words/三日.md",
+        "words/六日.md",
+        "words/七日.md",
+        "words/八日.md",
+        "words/九日.md",
+        "words/十日.md"
+      ]
+    },
+    "limits": "Exact immutable blob/function reused and its Git blob hash freshly verified; not current dirty app/main/phone behavior. Source class IDs handled separately; no app edit/build. Follow-up only, not a content-ID translation."
+  },
+  "reviewStatus": "pending",
+  "independentReviewer": null,
+  "limits": "Author reasoning/checks only, not independent linguistic/native/UI/phone/media/checkpoint approval."
+}

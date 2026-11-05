@@ -13,6 +13,10 @@
   Авторские права: James William Breen и [EDRDG](https://www.edrdg.org).
   Производные данные используются по CC BY-SA 4.0 с сохранением [условий EDRDG](https://www.edrdg.org/edrdg/licence.html).
   Точные исходные справочники и свидетельства сохраняются в [английском NOTICE](https://github.com/stop-cran/learning-japanese/blob/3196c3a273b9db8375bb79bede01ab8db5bce0d0/NOTICE.md).
+- Архивные словарные свидетельства могут содержать смешанную выдачу с именами из JMnedict/ENAMDICT
+  того же James William Breen и EDRDG, также по указанным условиям CC BY-SA 4.0.
+  Имена мест в такой выдаче не используются как доказательство нарицательного значения слова;
+  их присутствие в provenance не означает включения этих значений в учебную карточку.
 - Геометрия в `strokes/*.json` производна от [KanjiVG](https://kanjivg.tagaini.net),
   © Ulrich Apel и участники, и сохраняет [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
   Пути преобразованы исходным проектом в ломаные линии. В пилотах и последующих партиях файлы копируются без изменения байтов;
