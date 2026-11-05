@@ -8,6 +8,41 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The twenty-fifth full-target source batch adds full重 and35complete word articles,
+plus one RAW-identical licensed frozen重stroke.
+[Batch025 reviewed source](translation-batches/025-heavy-support-vocabulary-reviewed-source.json)
+binds48affected runtime paths:37new objects and13useful wrappers across11old bodies.
+All675other baseline RAW objects remain unchanged. One bounded read-only reviewer
+actually read all58complete RU/EN pairs, all469word/112kanji title/guard rows,
+88queries/114complete matching-object occurrences, both complete重/気XML records
+and the exact cited spelling, quantity, material and reading-classification evidence.
+This is not581whole-body or full-corpus/native-human acceptance.
+
+All three source facets pass, with an explicit historical qualification:
+the ENclaim thatおも.なうis archaic/dictionary-only or specifically means
+“to take seriously” remains UNVERIFIED. RU preserves the reading without that assertion.
+All19original word edges and重's three foils remain;17individually reviewed Russian
+direct pairs are added, not transitive cliques. Source IDs/levels/types/tags/readings
+and all substantive examples remain. Named気dictionary systems, quantity clauses,
+spelling-specific Notes, mental-life/material/group distinctions and actualtransitive終わる
+are qualified rather than simplified into false universal rules.
+
+Current membership723:112kanji/469words/112strokes/2articles/22counterfiles/
+onegrammarset/2scenecatalogs/3images. Fresh strict8278-entry progress:723reviewed-current,
+no partial, two reviewed runtime-blocked drafts,7,553pending and7,555runtimepathsabsent.
+Kanji74N5/33N4/5N3 still leave 名・子・学・小・校・高 absent.
+Actual serial checks:0errors/124tests29.720s; budget731files/740entries/
+2118980retained/2135662inflated/1058981localZIPbytes; version `191af32fbe5095ba`.
+The initial27author-side validation failures remain honest historical evidence;
+all exact fixes retained Japanese teaching and did not weaken validators.
+Public archive/exact-main CI follow separately. The
+[actual app follow-up](translation-batches/025-heavy-support-vocabulary-app-tag-followup.json)
+and earlier tag gaps remain unresolved; canonical IDs and the concurrent app are untouched.
+No phone/IME/playback/newmedia/packageaudio/C6/C7/activation/release/checkpoint authority
+follows. Continue the actual29-kanji support component, remainingN5 and every safe frozen family.
+
+Earlier accepted milestones below are historical.
+
 The twenty-fourth full-target source batch adds complete動・夜・広・度・病 cards,
 four full word articles and five RAW-identical licensed frozen-source strokes.
 [Batch024 accepted source](translation-batches/024-motion-night-space-reviewed-source.json)
@@ -35,8 +70,6 @@ Public desktop archive/exact-main CI follow separately. Actual app fallback for 
 `i-adjective`, `health`, `place` remains unresolved; earlier023tag gaps also remain.
 IDs retained and concurrent app untouched. No phone/IME/playback/media/packageaudio/
 C6/C7/activation/release/checkpoint authority follows. Continue every safe frozen family.
-
-Earlier accepted milestones below are historical.
 
 The twenty-third full-target source batch adds full会・公・力・店・持・特・社・道・駅
 cards,13complete word articles and nine RAW-identical licensed frozen-source strokes.

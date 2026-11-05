@@ -910,3 +910,54 @@ gaps remain unresolved. IDs are retained; no concurrent app edits, device/IME/pl
 newmedia/packageaudio/C6/C7/ordinaryactivation/release/checkpoint authority follows.
 Five stroke blobs and root notices retain real KanjiVG/Unicode licensing. Continue the
 remaining N5 support/words and every other safe family of the finite frozen target.
+
+Batch **025 — heavy-support vocabulary** adds complete重,35full word articles and
+one byte-identical licensed frozen重stroke. It preserves source levels acrossN5/N4/N3/N2,
+rather than relabelling dependency support asN5. Thirteen useful navigation wrappers
+across11old bodies retain all earlier Russian adaptations. All675other accepted runtime
+RAW objects remain unchanged;48affected paths have exact source/current-workingRAW/
+canonicalGitRAW/normalizedLF evidence in
+[reviewed source](translation-batches/025-heavy-support-vocabulary-reviewed-source.json).
+
+One bounded READ-ONLY reviewer actually read **58complete EN/RU pairs**, all
+**581displayed title/header/direct-guard rows** (112kanji/469words),88queries with
+114complete exact-matching object occurrences, full重/気XML, exactU+2FA5radical166,
+the complete110-line official気page and explicit音/訓HTMLaltlabels.
+It also read only the namedDaijisen毛糸entry26–32, actual喜びNotes320–337,
+ちょっとNotes320–383 and the complete115-line cited quantity article.
+The [actual independent report](translation-batches/025-heavy-support-vocabulary-independent-review.json)
+does not claim581full bodies, all8278objects, native-human or historical-pixel review.
+
+Japanese accuracy, adopted coverage/quiz discrimination and Russian comprehensibility
+pass with an explicit historical qualification: the source claim thatおも.なうis
+archaic/dictionary-only or specifically means “to take seriously” remains **UNVERIFIED**.
+The actual XML proves the reading, not those qualifiers. RU preserves the full reading
+list and deliberately does not assert the unsupported claim; the modern-layer mnemonic
+is not etymology. No current-candidate correction was requested.
+
+All19original directed word edges and重foils車/動/東remain. The17additional direct pairs
+were independently assessed against actual adopted meanings and the combined pool,
+not title uniqueness or graph transitivity. Source metadata/IDs/types/tags/readings and
+substantive examples are retained. Named気classification, quantity-clause constraints,
+spelling-specific rarity, mental-life/material/group meanings, promise versus booking,
+documented transitive終わるand height/price/pitch distinctions remain explicit.
+The first full author validator really found26unprovided optional wrappers plus oneH2error.
+Its immutable failure receipt is retained; all27prefrozen fixes only removed navigation
+markup or corrected the heading, preserving Japanese labels and teaching without placeholders.
+
+Current membership is **723runtime objects**:112kanji/469words/112strokes/2articles/
+22counterfiles/onegrammarset/2scenecatalogs/3images. Kanji74N5/33N4/5N3 still leave
+名・子・学・小・校・高 absent. Fresh strict8278-entry progress:
+**723reviewed-current**, **no partial**, **two reviewed runtime-blocked drafts**,
+**7,553pending**, **7,555runtimepathsabsent**. Checkpointauthoritynull/Readyfalse.
+Actual serial checks:0errors/124tests29.720s; budget731files/740entries/
+2118980retained/2135662inflated/1058981localZIPbytes; version `191af32fbe5095ba`.
+Public archive/exact-main CI are separate evidence, not phone acceptance.
+
+The [observed app-tag follow-up](translation-batches/025-heavy-support-vocabulary-app-tag-followup.json)
+and previous mapping gaps remain unresolved. Canonical IDs and the concurrent app stay
+untouched. No new image/scene/audio adoption or paid generation occurred.
+Exact frozenstroke/rootKanjiVG/Unicode notices remain intact. No device/IME/playback/
+newpackage/C6/C7/ordinaryactivation/release/checkpoint authority follows.
+Continue the actual29-kanji mandatory-support component, remainingN5words and every
+other safe level/family of the finite frozen target; this milestone is not full completion.
