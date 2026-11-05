@@ -669,3 +669,40 @@ not later/dirtyEN; earlier owner-test results remain explicitly historical.
 No new assets/grammar contexts/media or native/device/IME/C6/C7/package/activation/release/checkpoint
 authority follows. Continue the real57-new-kanji mandatory-distractor component and every
 remaining frozen family; this milestone is not completion of the full corpus or allN5.
+
+Batch **019 — foundation kanji and restored accepted-word links** completes57newkanji
+(42N5/11N4/4N3),57source-identical KanjiVG stroke files and135old-word amendments restoring
+152required links. These retain all169frozen direct kanji distractor edges and justified earlier
+Russian adaptations. The inherited月component-attribution correction is separately scoped.
+[Current accepted source record](translation-batches/019-foundation-kanji-reviewed-source.json)
+binds all250affected runtime paths to current source/Russian RAW, normalized and Git hashes.
+
+The actual review lineage consists of one whole57kanji review, three whole45word volumes,
+and bounded genuine focused rechecks for円historical-reading wording, inherited月attribution,
+分minute-table classification and the direct車–電車meaning-quiz overlap. All assigned learner
+facets are CLEAN through this composition; no fresh192body/whole-corpus review is claimed.
+The broad 車 vehicle sense and 電車 electric-train sense are preserved. Their new direct pair is
+symmetric and non-transitive; existing 車–自動車 does not imply 自動車–電車.
+All326unaffected baseline runtimeRAW objects remain unchanged;135words and月are intentionally
+updated and re-reviewed. Immutable historical receipts and earlier justified adaptations remain.
+
+Current membership is **576runtime objects**:75kanji,396words,75strokes,2articles,22counterfiles,
+onegrammarset,2scenecatalogs and3images. This does not mean all75kanji are N5.
+Fresh strict8278-entry progress has **576reviewed-current**, **no partial units**,
+**two reviewed runtime-blocked drafts**, **7,700pending** and **7,702runtimepathsabsent**.
+Checkpoint authority remains null/Readyfalse; the frozen EN target remains `6af98cb...`.
+Actual final serialized checks:0errors/124tests32.498s; final budget584files/593entries/
+1711270retained/1727952inflated/857517localZIPbytes; version `ab961b443ea10352`.
+
+The genuine prepublication license check found that `docs/**` export-ignore omitted the Unicode
+V3 license referenced by the earlier019NOTICE addition. A separately frozen packaging amendment
+copies its exact1995frozen source bytes to root `UNICODE-LICENSE.txt`, fixes only that NOTICE link,
+protects RAW identity and records the observed pitfall in active instructions. The historical
+docs license remains. Actual local single-root archive verification includes the root license,
+all576manifest hashes and57newstrokeRAWs while excluding developer directories. This adds no
+learner object or media authority. Public desktop archive/exact-main CI evidence is separate.
+
+Canonical technical IDs remain; current app rendering/native behavior is UNVERIFIED and the
+concurrent app is untouched. No phone/IME/reader/grading/playback/newmedia/packageaudio/C6/C7/
+activation/release/checkpoint authority follows. Continue the finite frozen target in safe
+sequential batches; this source milestone is not full corpus, runtime parity or allN5 completion.

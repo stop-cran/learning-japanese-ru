@@ -1,0 +1,85 @@
+{
+ "allPassed": true,
+ "authoringCommit": "29cb60e32645cb2e91f4ab83cc9364189e5eca6d",
+ "batch": "019-foundation-kanji-component",
+ "budget": {
+  "entries": 593,
+  "files": 584,
+  "inflatedBytes": 1727952,
+  "listeningTaskMediaBytes": 0,
+  "localZipBytes": 857517,
+  "retainedBytes": 1711270
+ },
+ "checkpointAuthority": null,
+ "commands": [
+  {
+   "argv": [
+    "python",
+    "tools\\build_manifest.py"
+   ],
+   "completedAt": "2026-11-05T05:39:34.717408+00:00",
+   "durationSeconds": 0.1559999999590218,
+   "returncode": 0,
+   "startedAt": "2026-11-05T05:39:34.556097+00:00",
+   "stderr": "",
+   "stdout": "manifest.json: 576 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version ab961b443ea10352\n"
+  },
+  {
+   "argv": [
+    "python",
+    "tools\\validate.py"
+   ],
+   "completedAt": "2026-11-05T05:39:36.350387+00:00",
+   "durationSeconds": 1.3429999999934807,
+   "returncode": 0,
+   "startedAt": "2026-11-05T05:39:35.000325+00:00",
+   "stderr": "",
+   "stdout": "0 error(s)\n"
+  },
+  {
+   "argv": [
+    "python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tools",
+    "-p",
+    "test_*.py"
+   ],
+   "completedAt": "2026-11-05T05:40:09.184165+00:00",
+   "durationSeconds": 32.84400000004098,
+   "returncode": 0,
+   "startedAt": "2026-11-05T05:39:36.350387+00:00",
+   "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 32.498s\n\nOK\n",
+   "stdout": ""
+  },
+  {
+   "argv": [
+    "python",
+    "tools\\check_content_budget.py"
+   ],
+   "completedAt": "2026-11-05T05:40:09.633167+00:00",
+   "durationSeconds": 0.43799999996554106,
+   "returncode": 0,
+   "startedAt": "2026-11-05T05:40:09.184165+00:00",
+   "stderr": "",
+   "stdout": "{'files': 584, 'entries': 593, 'retainedBytes': 1711270, 'inflatedBytes': 1727952, 'localZipBytes': 857517, 'listeningTaskMediaBytes': 0}\n"
+  }
+ ],
+ "execution": "Author directly waits for each subprocess to exit before launching next; fixture scratch scoped under session artifacts, no delegated/native/heavy builds.",
+ "manifestAfterRawSha256": "f8fde532bd700ccc8028d45738d08a32d089c0faa42e8bfe69c6ff8e613b3ffd",
+ "manifestBeforeRawSha256": "f8fde532bd700ccc8028d45738d08a32d089c0faa42e8bfe69c6ff8e613b3ffd",
+ "manifestProjection": {
+  "baselineComparisonValidation": "002:114new/136changedold/0removed against768baseline; unchangedruntime afterlicense-onlyrepair.",
+  "changedRuntimeHashesFromReviewedF81": [],
+  "contentVersion": "ab961b443ea10352",
+  "extraExportedNonruntimePayload": "UNICODE-LICENSE.txt",
+  "runtimeObjects": 576
+ },
+ "ordinaryActivationAuthorized": false,
+ "schemaVersion": 1,
+ "semanticReview": "Existingactual57/135reviewlineage, notnewsemantic/native/device/releaseacceptance.",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "stage": "Finalpackage after actualUnicodeV3exportrepair; all576runtime hashes unchangedfrom independentlyreviewedf81."
+}

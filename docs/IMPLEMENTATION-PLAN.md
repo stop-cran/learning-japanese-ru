@@ -8,7 +8,31 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-The eighteenth full-target source batch completes21 full human/sign/trace articles:
+The nineteenth full-target source batch completes the frozen57-kanji foundation component:
+42N5/11N4/4N3 kanji,57byte-identical licensed source strokes, and135previously accepted word
+amendments restoring152required links. One inherited月teaching claim is separately corrected.
+[Current batch019 source record](translation-batches/019-foundation-kanji-reviewed-source.json)
+composes the actual whole57kanji review and three complete45word reviews with genuine focused
+円/月/分/車–電車 corrections/rechecks—not a fresh192body or whole-corpus review.
+All assigned learner-source facets are CLEAN through that exact lineage. Valid 車 and電車
+meanings remain; their direct exclusion does not create a transitive自動車–電車pair.
+
+Current membership576:75kanji/396words/75strokes/2articles/22counterfiles/onegrammarset/
+2scenecatalogs/3images. Strict8278-entry progress:576reviewed-current, no partial,
+two reviewed runtime-blocked drafts,7,700pending and7,702runtimepathsabsent.
+All326unaffected baseline runtimeRAW objects remain unchanged;135words and月are intentionally
+updated and re-reviewed. Historical receipts remain immutable; checkpointauthoritynull/Readyfalse.
+Actual final serialized checks:0errors/124tests32.498s; final budget584files/593entries,
+1711270retained/1727952inflated/857517localZIPbytes; version `ab961b443ea10352`.
+The observed missing Unicode-license export is repaired by an exact1995byte frozen-license
+root copy, preserving the historical docs copy and broad developer-directory exclusions.
+Actual local single-root archive verification covers all576runtime hashes and57newstrokeRAWs.
+Public desktop archive/exact-main CI are recorded separately after actual publication, not
+inferred from these source/text checks. Canonical IDs remain; concurrent app untouched.
+No native/phone/IME/grading/playback/newmedia/packageaudio/C6/C7/activation/release/checkpoint
+authority follows. Continue subsequent safe batches through every remaining frozen family.
+
+The eighteenth full-target source batch completed21 full human/sign/trace articles:
 three remaining linked roots plus18 actual negative-reference dependencies,
 preserving15N3/3N2/oneN4/oneN5/oneunlabelled classifications.
 [Batch018](translation-batches/018-people-signs-traces-words-review.json) records actual whole
@@ -19,7 +43,7 @@ eight lexical senses. NamedSeisenban兆候evidence is distinguished from the fir
 All24source references and13 individually justified direct Russian guards survive;
 character/collective-human/mark/signal/expression overlaps are assessed directly, not transitively.
 Actual whole three-facet review: all scoped source/text facets CLEAN; no required correction.
-Current membership462; strict8278-entry statuses462reviewed-current, no partial, two reviewed
+At that milestone membership462; strict8278-entry statuses462reviewed-current, no partial, two reviewed
 runtime-blocked drafts and7,814pending, with7,816runtimepathsabsent.
 All441earlier tracking records/non-record sections/runtimeRAWobjects unchanged;
 checkpointauthoritynull/Readyfalse. Serialized checks:0errors/124tests49.038s;
