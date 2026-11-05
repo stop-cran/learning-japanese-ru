@@ -1,0 +1,1479 @@
+{
+  "schemaVersion": 1,
+  "batch": "019-foundation-kanji-component",
+  "recordedAt": "2026-11-05T02:57:55.141820+00:00",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "768393327637f1ec08f5cd7d1ba4afe3be00c612",
+  "preparationCommitBeforeThisReceipt": "0ff97d9190bb1f9a3efbb3320bbd077c29148c92",
+  "stage": "authoring-ready-not-reviewed",
+  "scope": {
+    "newKanji": 57,
+    "exactSourceStrokes": 57,
+    "oldWordsRequiringLinkRestoration": 135,
+    "oldWordRequiredLinks": 152,
+    "oldWordsActuallyFullyReadSoFar": [
+      "words/話す.md"
+    ],
+    "oldWordReadBoundary": "BothcompleteRU/source話すbodiesreturnedandread;other134completepairsremainmandatorybeforeediting.",
+    "newRuntimeFilesAuthoredAtFreeze": 0,
+    "sourceReadingsWordDependenciesAlreadyAdopted": 101
+  },
+  "earlierImmutableScopeReceipts": [
+    {
+      "path": "docs/translation-batches/019-foundation-kanji-intake.json",
+      "workingRawSha256": "06a04ddad67c991910fdbbd70baa7aad929aa3c579e31a074cf6972f2c48e187"
+    },
+    {
+      "path": "docs/translation-batches/019-foundation-kanji-navigation-adjudication.json",
+      "workingRawSha256": "7f35770bdaf9b8b1f1f40b77552d4ba79d87bd7ccb866cc6ba700113888a1ff8"
+    },
+    {
+      "path": "docs/translation-batches/019-foundation-kanji-author-source-reading.json",
+      "workingRawSha256": "2cc15be3449cecc1ccfd45c007164ee427d80d586d481db7e5b18c8f19d14c3a"
+    }
+  ],
+  "actualSupplementaryReading": {
+    "namedOriginPassages": 57,
+    "originReadingEvidence": [
+      {
+        "id": "一",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0000209400",
+        "entryRawSha256": "a2183ce6428d2fbfabae882b3e160578b7f42a9c68ec46324b700ebe3fc4fec5",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "七",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0002916700",
+        "entryRawSha256": "9103f580bd3d888c9122c54c87a799c0bbf2f5e983d61daa05784c6acf4ede08",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "三",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0002622000",
+        "entryRawSha256": "3ffe9b3e57c21478d85e7311a80f3f51b885fff120b839d943dd2aa3db43d78a",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "上",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0003478400",
+        "entryRawSha256": "799e6df801932ee99aef02ea59d74dc9a28b65b024780592db93381c6f4e8b13",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "下",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0000609800",
+        "entryRawSha256": "b58a43b7f295a7e8b321bfbeb94d20ae40f718bdfa68834025aea70fbcfce386",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "不",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0005996200",
+        "entryRawSha256": "17231b6471d49eb61f21c9345600d3b49447245f8a7bcde363aeb61f9f140f36",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "中",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0004721700",
+        "entryRawSha256": "26b265cf4413d33d2f6f47683197c66632146b4cf818b5666d5554f64a2b0df5",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "九",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0001360800",
+        "entryRawSha256": "a231f24f501ca33a1052ccc2460bf12f7962efd7ea6b12099111f483370216ca",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "二",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0005418000",
+        "entryRawSha256": "1b03fa142affe5b1b3fd2c1fe32e9fbb9c03bca831849f52bd504202b66c1552",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "五",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0002081300",
+        "entryRawSha256": "6f8fbb35194ef1fef857774496a95cf2cf1d2d16ffe3f4242ec1143a9396e1b1",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "今",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0002417400",
+        "entryRawSha256": "f254666c79f5cfe7d911240ad411bb142ab0237475746a8fba92a93486ae758b",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "何",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0000641500",
+        "entryRawSha256": "210587447c261ab53e7eab87f93389fc617f9963d9e7648a4d942c9186f005f6",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "先",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0004040100",
+        "entryRawSha256": "274d88993aafb74abf445760b4e478fb7dc5df9defd5d1a7db167acd8e1f55fb",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "八",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0005677700",
+        "entryRawSha256": "3ef38cbdb7c8eafc32d38d6f18603d64c16929090a0849fceed6b2abd1a72acd",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "六",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0007380200",
+        "entryRawSha256": "a77d7055a90db42ab8506cb18d48ad64156cf6370f53e64cff3b6ec34d87c4a1",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "内",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0005373100",
+        "entryRawSha256": "665a7f35b870f34c3e76c01cd52dbe88014c95119c2c8edeb438b34175af840d",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "円",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0000436000",
+        "entryRawSha256": "d45f415785e4e37a52cb5e98fa3fd8b2d1b1f857a3091d5e402c5486df18d990",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "分",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0006175200",
+        "entryRawSha256": "d7575e9893e75b81edb16e7d87b8711b5392640f9ac746a94257817410714902",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "北",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0006467400",
+        "entryRawSha256": "ac54d5eb2266d8ab0400f630b8200f7809fb9c628bb9e84449fc3f45227b2951",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "十",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0003160000",
+        "entryRawSha256": "f7fa7e29980269478246c31daae8ca640ee4dd881df089c4bd8953ad5fa4cebf",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "千",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0004026200",
+        "entryRawSha256": "85b76d5eae695b713088eea724727c91aec5a2f41fb1fdb0be2b1fbde2be4632",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "午",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0002089200",
+        "entryRawSha256": "5181bad257bca092541d133936a842a21103a4c1abd8ebccd202a43ede494386",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "半",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0005726200",
+        "entryRawSha256": "d78774f6f9cd7428bd48ea0ee689105d94a05926cd27e9a3934d529166d967b0",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "南",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0005406400",
+        "entryRawSha256": "981ade2c9796ea941091f13f1719896c5e779fc44f2e2dd0e582cb13baf3cae4",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "四",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0002715400",
+        "entryRawSha256": "953dfaae666681542d0c61f91c57a3aa886d74b0457d44b2d40dba44062856ca",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "土",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0005127900",
+        "entryRawSha256": "2d1c867ff008952aa7d4aad4d26993a630bad2c973c70c4f208a73788b6451c6",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "外",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0000841200",
+        "entryRawSha256": "2fcbc2614a2caf621fa08852000ddd42b3fe64bc44fb87951e9bf41f251a4cad",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "年",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0005481100",
+        "entryRawSha256": "81fa3ccee9ea106fb4c161c5c9f164513174fbe4ffffa14ed0d9ca654856180b",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "手",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0003028800",
+        "entryRawSha256": "f761182726044b5d72cceb8e18adfa2d0e1578436346948966cac201caf30daa",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "書",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0003288700",
+        "entryRawSha256": "2d32b4809ff1e2184f770f59d505dfbcf74c4a353ec61b8f589c5aa516b3f721",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "東",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0005164200",
+        "entryRawSha256": "f138e9ffc75cf3380b2750ee561452e6bc0616ec8a8ffc8329e16a79f920ad28",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "牛",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0001417100",
+        "entryRawSha256": "5736b5dbc5b28f4c4ab5a1263de0917fefac7a9feb30ad651b15fc44751348aa",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "生",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0003833400",
+        "entryRawSha256": "ea10d72ad4c9e1255d0a27976c40b3cdcaae2a030eddda8b64fccf12fcd18bed",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "田",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0005083100",
+        "entryRawSha256": "e8a197ba76a45a3e8c81f1349df38d3f2714ef7c2ec4f7de1163131f99d289b1",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "由",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0006825700",
+        "entryRawSha256": "d63b07b399cf7bce2add92d42ebd65a19eb0a8120eabff51af22b2d238e5aa1b",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "申",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0003582900",
+        "entryRawSha256": "fbe53b265eff246e08aa8719d14be7703ed1126b2b03adda505b1070ff27b695",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "白",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0005607600",
+        "entryRawSha256": "8ac121318b2e7ef62f2f85a82c21b4c9a99811b844a935c443512224826b5996",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "百",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0005920000",
+        "entryRawSha256": "089de73859182bfbcf19ad6f1160f1adf3fe335fece5f189e8c8bd5a344db1a3",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "目",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0006740200",
+        "entryRawSha256": "1fbddfae06ee8664be04d6256f37813ec695f0332a6483daa3a387aef88561a6",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "耳",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0002848100",
+        "entryRawSha256": "5d9ada3f4bf3dea7790c8b64473acaafd6aa416a8e3a864ecf01b2a145b627e4",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "聞",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0006190200",
+        "entryRawSha256": "184657c8246884bcf63dc4afa7767107464391b1558caf1267a6ec1fe0729f65",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "西",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0003852100",
+        "entryRawSha256": "d0c76595a4686e50cf27d115445d6d0304b983bd40edb27fe4c2a1ba440f9410",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "見",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0001896200",
+        "entryRawSha256": "e6be0a5e2de16046f3a115ca9469df839caff8e576bf36453ceb1abb7a27187b",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "話",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0007407700",
+        "entryRawSha256": "25189c383caf2623f93105ecc05a90c11eb09feaa09e6e8b10a9d192c46aff5b",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "読",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0005324000",
+        "entryRawSha256": "6d075d744c78938bc1b6004287e0778854b820fee74c255639417c684bcf6307",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "買",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0005597500",
+        "entryRawSha256": "6352a8fc0c6664527d413db3393fb692e72f7d5000a79fd404fe97aaea05e985",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "赤",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0003955600",
+        "entryRawSha256": "6d060939943d03d8d8015b35b38f1cd68d4b27debb862585d3cb22943a8941c9",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "足",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0004335700",
+        "entryRawSha256": "3c8ee96661e49a725de7d98099515b19d89dfd4b1939997e9c41d24a7fbbc943",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "車",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0002968300",
+        "entryRawSha256": "c1f72a5d35adaae2689d591e4712db7d8ae11b92519718150d05041c5dfda03f",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "金",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0001604700",
+        "entryRawSha256": "8b5c27740b7b354c48ca8be663e96c8b867369821453d2e82ca1695ca425255c",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "間",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0001083500",
+        "entryRawSha256": "c19673e8d875f061a2e73d16f6c818467af376f13a8549735e89330d35adc627",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "雨",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0000315200",
+        "entryRawSha256": "a98ef9dd02a00e86358c8c045616b63abbe69f49c26f6743a6dc78ba14295ce4",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "電",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0005093700",
+        "entryRawSha256": "fcb58fdc9609890629d755bccfaf0e88616ab07fafdf36f0c3db70b34cbb2d32",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "青",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0003865600",
+        "entryRawSha256": "1b6929ba7a1bd44ae2c3698d19804a5fe34ee969af6587c20ffcc49d8a028ebe",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "食",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0003539700",
+        "entryRawSha256": "438bb097de6f18da87a4decc4563ac3460698269ccda10dd4d62f9a735eb2676",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "飲",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0000297300",
+        "entryRawSha256": "dec190e6d43b4ac44fe41ebdda5cd918ba5ebbac31434b22160b88773c964e3d",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      },
+      {
+        "id": "黒",
+        "entryUrl": "https://www.kanjipedia.jp/kanji/0002380300",
+        "entryRawSha256": "1aa487b5c01fc35fb0a9a6b2b16968463be32362ad782f67a90ee2223dc3fb50",
+        "actualReading": "Completecapturednamed角川新字源改訂新版originpassagereturnedandread;notallwholeentriesread.",
+        "images": "Notinspected,reconstructed,oradopted."
+      }
+    ],
+    "captureAttemptsPreserved": [
+      {
+        "artifact": "ru-019-kanjipedia-capture.json",
+        "rawSha256": "4821b9784e9ff30c0f78045d77bdf967bc5163ea7b2f2037a0f9866b7273d861"
+      },
+      {
+        "artifact": "ru-019-kanjipedia-recovery.json",
+        "rawSha256": "95f3f41d8eca7066f616f5cdaa4ea4ab2ac8ea25c5e0d0ae990af29c743632df"
+      },
+      {
+        "artifact": "ru-019-kanjipedia-final-recovery.json",
+        "rawSha256": "5a0887ef5fe4aefd57085d891fa950f35eedb709acc5b00380a366f8fd9cfbd9"
+      }
+    ],
+    "searchRecovery": "Original54successes/3HTTP500andnext1success/2HTTP500preserved;documentedrightHandformrecovered中/四withoutguessedIDs.",
+    "lexicalQueries": 32,
+    "exactLexicalMatches": 29,
+    "lexicalActualReadingRangesZeroBasedEndExclusive": [
+      [
+        0,
+        8
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        24,
+        32
+      ]
+    ],
+    "lexicalCaptureRawSha256": "90cde773ad15c8c733b20e6fc8b6daf3d13861503350cbad05347827e48e1458",
+    "lexicalEntries": [
+      {
+        "word": "中",
+        "reading": "じゅう",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E4%B8%AD",
+        "responseRawSha256": "0685a23e92536d095bd8301fc48e639aae40af3d5866170b3049127adf3c4a6e"
+      },
+      {
+        "word": "古今",
+        "reading": "こきん",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E5%8F%A4%E4%BB%8A",
+        "responseRawSha256": "df536821b8feaabef4a3e8d5eb8502ae094b4d2cdb6c07d1b743049b61325f41"
+      },
+      {
+        "word": "古今",
+        "reading": "ここん",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E5%8F%A4%E4%BB%8A",
+        "responseRawSha256": "df536821b8feaabef4a3e8d5eb8502ae094b4d2cdb6c07d1b743049b61325f41"
+      },
+      {
+        "word": "三つ",
+        "reading": "みつ",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E4%B8%89%E3%81%A4",
+        "responseRawSha256": "1752e30c71153ebc7d2ed8e9d7bf779f3152556d554e4a8fbe00357c140bf360"
+      },
+      {
+        "word": "四つ",
+        "reading": "よつ",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E5%9B%9B%E3%81%A4",
+        "responseRawSha256": "6f8dd5869ed1140390163b84e639cf2506ed9fbbe9a0d3b2b701d5fb31352de8"
+      },
+      {
+        "word": "六つ",
+        "reading": "むつ",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E5%85%AD%E3%81%A4",
+        "responseRawSha256": "fde88f158c9cd337fd5ca1965538aaa2449c96e4a0073b5ed372ca5d8f3d2fb8"
+      },
+      {
+        "word": "八つ",
+        "reading": "やつ",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E5%85%AB%E3%81%A4",
+        "responseRawSha256": "334a6b4832d07f589655da0732877317a378d17aad64d012110c1d85b0876b02"
+      },
+      {
+        "word": "八重",
+        "reading": "やえ",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E5%85%AB%E9%87%8D",
+        "responseRawSha256": "a620f7452f35d385a9f2ab8aa02714abef655a07c3fecb006098c9c7c079ea57"
+      },
+      {
+        "word": "分け",
+        "reading": "わけ",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E5%88%86%E3%81%91",
+        "responseRawSha256": "eae67aa1d2b9295b4c68a5225fb5030a1aefb378c2cf1e8ddbfa026e27f86dd7"
+      },
+      {
+        "word": "円",
+        "reading": "まど",
+        "matched": false,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E5%86%86",
+        "responseRawSha256": "7eff1ec9b82e4d484dfb58141c6a549ccfebc8fce859d24168e1ea87ad6a4a9c"
+      },
+      {
+        "word": "円か",
+        "reading": "まどか",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E5%86%86%E3%81%8B",
+        "responseRawSha256": "4255714fc81e6b1cc5c47d11e4a2c07de0cdc4f4986835e3665da603c3c17120"
+      },
+      {
+        "word": "円やか",
+        "reading": "まろやか",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E5%86%86%E3%82%84%E3%81%8B",
+        "responseRawSha256": "d208764fb7ef9c3aef54d61a9988ea94e6156b14a5d8a27aef1e055d889d2e7c"
+      },
+      {
+        "word": "外",
+        "reading": "と",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E5%A4%96",
+        "responseRawSha256": "e58f3703158df94d3bc6f2bc348d09920676fe5965abe63057e2adb09f7724ba"
+      },
+      {
+        "word": "外様",
+        "reading": "とざま",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E5%A4%96%E6%A7%98",
+        "responseRawSha256": "54ad82048331de2f183ad2d4f7106250ce1828e257271c0e66a90063634af238"
+      },
+      {
+        "word": "外つ国",
+        "reading": "とつくに",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E5%A4%96%E3%81%A4%E5%9B%BD",
+        "responseRawSha256": "2d0ed5e49694abbaad1346077cb57518013f421292f6a278950dc423a95ce4fa"
+      },
+      {
+        "word": "由",
+        "reading": "よし",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E7%94%B1",
+        "responseRawSha256": "ba3e976f20e9d5ef69d77163ca39555e3d632d17968fdf071197d7776a55ca72"
+      },
+      {
+        "word": "由る",
+        "reading": "よる",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E7%94%B1%E3%82%8B",
+        "responseRawSha256": "60f9c63379602b60e91cfd7558dea3cd7439e55a17f993de9f679f4e38001b50"
+      },
+      {
+        "word": "由緒",
+        "reading": "ゆいしょ",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E7%94%B1%E7%B7%92",
+        "responseRawSha256": "a247fd9ee5b016fa5758bf097639257fa44823afc10109ffbb2e5c0e9c1890ab"
+      },
+      {
+        "word": "申",
+        "reading": "さる",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E7%94%B3",
+        "responseRawSha256": "3506a89bf11fcf9e777d3b71560ba3412f6db62fd2ff7ecf0195aa80528400a8"
+      },
+      {
+        "word": "西日本",
+        "reading": "にしにほん",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E8%A5%BF%E6%97%A5%E6%9C%AC",
+        "responseRawSha256": "a3f98da46fec45a39d7a4f0ccae7ae7c07aa3a242929d00e6b7293385b137154"
+      },
+      {
+        "word": "話",
+        "reading": "はなし",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E8%A9%B1",
+        "responseRawSha256": "512ceff9ad2b5f440382b1b49d729d3e6bec5fb09929cf488a7a58c5d8c965a5"
+      },
+      {
+        "word": "雷",
+        "reading": "かみなり",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E9%9B%B7",
+        "responseRawSha256": "b0d0d2edf6507a49cccaf0b968dca7f969203b3642e41cb14e99ea8929d388e3"
+      },
+      {
+        "word": "稲妻",
+        "reading": "いなずま",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E7%A8%B2%E5%A6%BB",
+        "responseRawSha256": "9104f69782e83219936d58fd5d758107e840534805d2d3b4aaa5aa2c64984987"
+      },
+      {
+        "word": "雨",
+        "reading": "さめ",
+        "matched": false,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E9%9B%A8",
+        "responseRawSha256": "96a9b06b0ad3b79574bedb9dd849b5a8948749277a2bb3255da568a34181f72c"
+      },
+      {
+        "word": "小雨",
+        "reading": "こさめ",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E5%B0%8F%E9%9B%A8",
+        "responseRawSha256": "457911326217461769999ca9ff4543a60fce4e3f74b5c102e874e4d0e20d6b37"
+      },
+      {
+        "word": "春雨",
+        "reading": "はるさめ",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E6%98%A5%E9%9B%A8",
+        "responseRawSha256": "92e97783304ded61daf5b79e49c210896d0350ac284e6ed8db9294bd1fee3e94"
+      },
+      {
+        "word": "間狂言",
+        "reading": "あいきょうげん",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E9%96%93%E7%8B%82%E8%A8%80",
+        "responseRawSha256": "b3e2730812076b20e0cd6e1aad315a721ff43c222c48fec0895835df73bfdcbf"
+      },
+      {
+        "word": "合間",
+        "reading": "あいま",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E5%90%88%E9%96%93",
+        "responseRawSha256": "170f5509462a6501cf288f3e5193c44d14fbe7a9f5102d1ce6bf3297389527e9"
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E4%B8%8A%E6%89%8B",
+        "responseRawSha256": "bd0d75673dd321453e4e59528e60efb9578ab89ecc320892b6fce3f861c68cb1"
+      },
+      {
+        "word": "下手",
+        "reading": "へた",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E4%B8%8B%E6%89%8B",
+        "responseRawSha256": "7950291c47c67816609485e0bcdb3cece7376815333e13333eddb91f9e32e070"
+      },
+      {
+        "word": "六冊",
+        "reading": "ろくさつ",
+        "matched": false,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E5%85%AD%E5%86%8A",
+        "responseRawSha256": "5e999f38e553dab601efb7159014f16bdd1fbf1f012e25274e02306264cbac5f"
+      },
+      {
+        "word": "生地",
+        "reading": "きじ",
+        "matched": true,
+        "url": "https://jisho.org/api/v1/search/words?keyword=%E7%94%9F%E5%9C%B0",
+        "responseRawSha256": "4c3dea2e5757c74fdb8f81b64dd39395ebc0cf8e313c1730b78c054e00865d5c"
+      }
+    ],
+    "limits": "Completeexactreturnedentriesreadincludingrestrictions/info;WikidefinitionsandPlacesnotadopted.Negativeexactqueryisnotinvalidity.",
+    "sourceJlptPolicy": {
+      "path": "docs/jlpt-levels.md",
+      "actuallyReadLines": [
+        1,
+        85
+      ],
+      "claim": "CommunitylabelsandfrozenN1limits;notwhole31KBpolicyreading."
+    },
+    "separateNamedNumberEvidence": {
+      "url": "https://kotobank.jp/word/三つ-638571",
+      "actualReading": "Renderednamed精選版日本国語大辞典みつ/みっつentriesand大辞泉みっつentryread;modernstandalonequalificationpreserved."
+    },
+    "currentAcceptedCounterEvidence": {
+      "path": "counters/satsu.json",
+      "workingRawSha256": "b7af0cd7fd8cce989b7b70a7918aa3ca0a0191b07a1d282af8d4ed3ae0a7f218",
+      "actualScope": "Completecurrent12-card/two-reversecounterJSONreturnedandread;六冊ろくさつisrealcounterexample,notunreturnedAPIentry."
+    }
+  },
+  "metadataCorrections": [
+    {
+      "id": "六",
+      "fieldChanges": {
+        "radical": [
+          "亠",
+          "八"
+        ],
+        "radicalNumber": [
+          8,
+          12
+        ]
+      },
+      "evidence": "FreshKANJIDIC2classical=12;nelson_c=8.Unicode17canonical12=八.",
+      "boundary": "亠/8isvalidinNelsonindexing;notuniversallyinvalid.TheRUfieldcontractisclassical."
+    },
+    {
+      "id": "青",
+      "fieldChanges": {
+        "radical": [
+          "青",
+          "靑"
+        ]
+      },
+      "evidence": "Unicode17canonicalKangxiradical174is靑;modernJapanese青remainsvalidandIDunchanged."
+    },
+    {
+      "id": "黒",
+      "fieldChanges": {
+        "radical": [
+          "黒",
+          "黑"
+        ]
+      },
+      "evidence": "Unicode17canonicalKangxiradical203is黑;modernJapanese黒remainsvalidandIDunchanged."
+    }
+  ],
+  "explicitTeachingAdjudications": [
+    {
+      "ids": [
+        "中"
+      ],
+      "action": "Retainfrozenジュウ;actualKanjiPediaonlistandexactJMd中じゅうsuffixentryattestit.AbsencefromfreshKANJIDICja_onisnotinvalidity."
+    },
+    {
+      "ids": [
+        "三",
+        "四",
+        "六",
+        "八"
+      ],
+      "action": "Separateungeminatedみ.つ/よ.つ/む.つ/や.つrealwhole-wordvariantsfromみっ.つ/よっ.つ/むっ.つ/やっ.つ;preserveexistingexamplesandmoderncountingforms.Do_notuse三日月alonetoexplainみ.つ."
+    },
+    {
+      "ids": [
+        "外",
+        "分",
+        "由",
+        "申",
+        "円"
+      ],
+      "action": "Addrealattestedbound/whole-wordexamplesforと-,わ.け,よし/よ.る,さる,まど/まろasactuallylisted.Sensesrestrict由るmainlytooriginate/from;noinventedstandalonemado."
+    },
+    {
+      "ids": [
+        "何",
+        "赤",
+        "青"
+      ],
+      "action": "Explainなに-/なん-,あか-,あお-asboundformswithcompleteattestedJapaneseexamples;notinventedsegmentation."
+    },
+    {
+      "ids": [
+        "今"
+      ],
+      "action": "Retain古今集examplebutremoveexclusivityclaimforこきん;actual古今entryattestsここんandこきん."
+    },
+    {
+      "ids": [
+        "西"
+      ],
+      "action": "Moveexisting西日本にしにほんexampleoutofサイrowandintokunにしcoverage;preserveotherサイexamples."
+    },
+    {
+      "ids": [
+        "話"
+      ],
+      "action": "Correctfalsejust-removeすexplanationusingfrozenwords/話す.mdandpreservedacceptedRUcorrection:話はなしcorrespondsto話しmasu-stem,notはなafterdeletingす."
+    },
+    {
+      "ids": [
+        "雨"
+      ],
+      "action": "Keepbound-さめ,小雨こさめand春雨はるさめ;donotcallitvoicingofあめ.Negativebare雨さめqueryisnotdisproof."
+    },
+    {
+      "ids": [
+        "六"
+      ],
+      "action": "Qualifysoundcontractionbyactualcounter;retainろっかい/ろっぽんexamplesandnote六冊ろくさつcounterexampleinstead_ofuniversalk/s/t/prule."
+    },
+    {
+      "ids": [
+        "食"
+      ],
+      "action": "Distinguishneutralplain食べるfromgrammaticallypolite食べます;donotcallplainformpolite."
+    },
+    {
+      "ids": [
+        "手"
+      ],
+      "action": "Retainallwhole-word上手じょうず/下手へたandうわて/したてexamples;donotderiveへ+たfromunrelatedprefixた-.Retainrole-endingcomparisonwithoutdanglingoptionaloccupationarticlelink."
+    },
+    {
+      "ids": [
+        "十"
+      ],
+      "action": "Retainvisiblecrossandqualifiedearlyformdescription;removefalseuniversalten/completecomponentsemanticsfor千/半/古.Retaintheseglyphcomparisonswhileexplainingdifferentanalyseswithactualnamedoriginpassages."
+    },
+    {
+      "ids": [
+        "飲"
+      ],
+      "action": "Distinguishwhole食fromleftcomponent飠;donotclaimstandalone食has飠onleft."
+    },
+    {
+      "ids": [
+        "電"
+      ],
+      "action": "Retain雷/稲妻examples;雷cannamebroaderthunder/lightningphenomenon,whereas稲妻namesflash;donotimposeabsolutethunder-onlyrestriction."
+    },
+    {
+      "ids": [
+        "読"
+      ],
+      "action": "Preservemodernphoneticfield売andmodernshapecomparisonbutcorrecthistoricalidentification:actualnamedoriginuses𧶠,notunqualifiedordinarysell賣.Explicitlydistinguishhistoricalsoundelementfrommodernvisibleabbreviation."
+    },
+    {
+      "ids": [
+        "不",
+        "東",
+        "白",
+        "由",
+        "申",
+        "牛"
+      ],
+      "action": "PreservefrozenclassificationIDsandqualifiedhistorical/mnemonicboundaries;newdictionarycapturedoesnotautomaticallyretagunclassifiedcardsorrecastmnemonicsascertainorigins."
+    },
+    {
+      "ids": [
+        "all57"
+      ],
+      "action": "OmitunknownPhonetic:nonefacts-lineitemwithoutclaimingthatsuchabsenceprovesnophoneticexists.PreserveallotherJapaneseexamples,readingsandgradingfieldsunlessexplicitcorrectionabove."
+    }
+  ],
+  "plannedMeaningAnswers": [
+    {
+      "id": "一",
+      "sourceTitle": "one",
+      "plannedRussianTitle": "один",
+      "preservedDistractors": [
+        "二",
+        "三",
+        "十"
+      ]
+    },
+    {
+      "id": "七",
+      "sourceTitle": "seven",
+      "plannedRussianTitle": "семь",
+      "preservedDistractors": [
+        "十",
+        "九",
+        "八"
+      ]
+    },
+    {
+      "id": "三",
+      "sourceTitle": "three",
+      "plannedRussianTitle": "три",
+      "preservedDistractors": [
+        "二",
+        "一",
+        "四"
+      ]
+    },
+    {
+      "id": "上",
+      "sourceTitle": "up, above",
+      "plannedRussianTitle": "вверх; над",
+      "preservedDistractors": [
+        "下",
+        "中",
+        "土"
+      ]
+    },
+    {
+      "id": "下",
+      "sourceTitle": "down, below",
+      "plannedRussianTitle": "вниз; под",
+      "preservedDistractors": [
+        "上",
+        "中",
+        "不"
+      ]
+    },
+    {
+      "id": "不",
+      "sourceTitle": "not, non-",
+      "plannedRussianTitle": "не; отрицание",
+      "preservedDistractors": [
+        "下",
+        "木",
+        "本"
+      ]
+    },
+    {
+      "id": "中",
+      "sourceTitle": "middle, inside",
+      "plannedRussianTitle": "середина; внутри",
+      "preservedDistractors": [
+        "口",
+        "上",
+        "申"
+      ]
+    },
+    {
+      "id": "九",
+      "sourceTitle": "nine",
+      "plannedRussianTitle": "девять",
+      "preservedDistractors": [
+        "七",
+        "八",
+        "十"
+      ]
+    },
+    {
+      "id": "二",
+      "sourceTitle": "two",
+      "plannedRussianTitle": "два",
+      "preservedDistractors": [
+        "一",
+        "三",
+        "十"
+      ]
+    },
+    {
+      "id": "五",
+      "sourceTitle": "five",
+      "plannedRussianTitle": "пять",
+      "preservedDistractors": [
+        "四",
+        "六",
+        "土"
+      ]
+    },
+    {
+      "id": "今",
+      "sourceTitle": "now",
+      "plannedRussianTitle": "сейчас",
+      "preservedDistractors": [
+        "分",
+        "何",
+        "午"
+      ]
+    },
+    {
+      "id": "何",
+      "sourceTitle": "what",
+      "plannedRussianTitle": "что",
+      "preservedDistractors": [
+        "今",
+        "年"
+      ]
+    },
+    {
+      "id": "先",
+      "sourceTitle": "previous; ahead (in time)",
+      "plannedRussianTitle": "раньше; впереди во времени",
+      "preservedDistractors": [
+        "午",
+        "外",
+        "今"
+      ]
+    },
+    {
+      "id": "八",
+      "sourceTitle": "eight",
+      "plannedRussianTitle": "восемь",
+      "preservedDistractors": [
+        "人",
+        "入",
+        "六"
+      ]
+    },
+    {
+      "id": "六",
+      "sourceTitle": "six",
+      "plannedRussianTitle": "шесть",
+      "preservedDistractors": [
+        "五",
+        "八",
+        "大"
+      ]
+    },
+    {
+      "id": "内",
+      "sourceTitle": "within, inner",
+      "plannedRussianTitle": "внутри; внутренний",
+      "preservedDistractors": [
+        "円",
+        "外",
+        "入"
+      ]
+    },
+    {
+      "id": "円",
+      "sourceTitle": "yen, circle",
+      "plannedRussianTitle": "иена; круг",
+      "preservedDistractors": [
+        "日",
+        "田",
+        "月"
+      ]
+    },
+    {
+      "id": "分",
+      "sourceTitle": "minute, part",
+      "plannedRussianTitle": "минута; часть",
+      "preservedDistractors": [
+        "今",
+        "半",
+        "木"
+      ]
+    },
+    {
+      "id": "北",
+      "sourceTitle": "north",
+      "plannedRussianTitle": "север",
+      "preservedDistractors": [
+        "南",
+        "東",
+        "西"
+      ]
+    },
+    {
+      "id": "十",
+      "sourceTitle": "ten",
+      "plannedRussianTitle": "десять",
+      "preservedDistractors": [
+        "七",
+        "千",
+        "一"
+      ]
+    },
+    {
+      "id": "千",
+      "sourceTitle": "thousand",
+      "plannedRussianTitle": "тысяча",
+      "preservedDistractors": [
+        "十",
+        "午",
+        "百"
+      ]
+    },
+    {
+      "id": "午",
+      "sourceTitle": "noon",
+      "plannedRussianTitle": "полдень",
+      "preservedDistractors": [
+        "年",
+        "千",
+        "先"
+      ]
+    },
+    {
+      "id": "半",
+      "sourceTitle": "half",
+      "plannedRussianTitle": "половина",
+      "preservedDistractors": [
+        "年",
+        "分",
+        "午"
+      ]
+    },
+    {
+      "id": "南",
+      "sourceTitle": "south",
+      "plannedRussianTitle": "юг",
+      "preservedDistractors": [
+        "北",
+        "東",
+        "西"
+      ]
+    },
+    {
+      "id": "四",
+      "sourceTitle": "four",
+      "plannedRussianTitle": "четыре",
+      "preservedDistractors": [
+        "西",
+        "五",
+        "田"
+      ]
+    },
+    {
+      "id": "土",
+      "sourceTitle": "earth, soil",
+      "plannedRussianTitle": "земля; почва",
+      "preservedDistractors": [
+        "金",
+        "上",
+        "木"
+      ]
+    },
+    {
+      "id": "外",
+      "sourceTitle": "outside",
+      "plannedRussianTitle": "снаружи",
+      "preservedDistractors": [
+        "内",
+        "分",
+        "先"
+      ]
+    },
+    {
+      "id": "年",
+      "sourceTitle": "year",
+      "plannedRussianTitle": "год",
+      "preservedDistractors": [
+        "午",
+        "半",
+        "牛"
+      ]
+    },
+    {
+      "id": "手",
+      "sourceTitle": "hand",
+      "plannedRussianTitle": "рука",
+      "preservedDistractors": [
+        "千",
+        "年",
+        "午"
+      ]
+    },
+    {
+      "id": "書",
+      "sourceTitle": "write",
+      "plannedRussianTitle": "писать",
+      "preservedDistractors": [
+        "読",
+        "話",
+        "聞"
+      ]
+    },
+    {
+      "id": "東",
+      "sourceTitle": "east",
+      "plannedRussianTitle": "восток",
+      "preservedDistractors": [
+        "西",
+        "北",
+        "車"
+      ]
+    },
+    {
+      "id": "牛",
+      "sourceTitle": "cattle, cow",
+      "plannedRussianTitle": "корова; крупный рогатый скот",
+      "preservedDistractors": [
+        "午",
+        "生",
+        "手"
+      ]
+    },
+    {
+      "id": "生",
+      "sourceTitle": "life, birth",
+      "plannedRussianTitle": "жизнь; рождение",
+      "preservedDistractors": [
+        "先",
+        "土",
+        "年"
+      ]
+    },
+    {
+      "id": "田",
+      "sourceTitle": "rice field",
+      "plannedRussianTitle": "рисовое поле",
+      "preservedDistractors": [
+        "日",
+        "口",
+        "目"
+      ]
+    },
+    {
+      "id": "由",
+      "sourceTitle": "reason; grounds",
+      "plannedRussianTitle": "причина; основание",
+      "preservedDistractors": [
+        "田",
+        "申",
+        "目"
+      ]
+    },
+    {
+      "id": "申",
+      "sourceTitle": "humbly say",
+      "plannedRussianTitle": "скромно говорить",
+      "preservedDistractors": [
+        "田",
+        "由",
+        "中"
+      ]
+    },
+    {
+      "id": "白",
+      "sourceTitle": "white",
+      "plannedRussianTitle": "белый",
+      "preservedDistractors": [
+        "日",
+        "黒",
+        "目"
+      ]
+    },
+    {
+      "id": "百",
+      "sourceTitle": "hundred",
+      "plannedRussianTitle": "сто",
+      "preservedDistractors": [
+        "白",
+        "千",
+        "日"
+      ]
+    },
+    {
+      "id": "目",
+      "sourceTitle": "eye",
+      "plannedRussianTitle": "глаз",
+      "preservedDistractors": [
+        "日",
+        "白",
+        "耳"
+      ]
+    },
+    {
+      "id": "耳",
+      "sourceTitle": "ear",
+      "plannedRussianTitle": "ухо",
+      "preservedDistractors": [
+        "目",
+        "手",
+        "足"
+      ]
+    },
+    {
+      "id": "聞",
+      "sourceTitle": "hear, ask",
+      "plannedRussianTitle": "слышать; спрашивать",
+      "preservedDistractors": [
+        "見",
+        "話",
+        "間"
+      ]
+    },
+    {
+      "id": "西",
+      "sourceTitle": "west",
+      "plannedRussianTitle": "запад",
+      "preservedDistractors": [
+        "東",
+        "南",
+        "四"
+      ]
+    },
+    {
+      "id": "見",
+      "sourceTitle": "see, look",
+      "plannedRussianTitle": "видеть; смотреть",
+      "preservedDistractors": [
+        "買",
+        "聞",
+        "目"
+      ]
+    },
+    {
+      "id": "話",
+      "sourceTitle": "talk, speak",
+      "plannedRussianTitle": "говорить; разговаривать",
+      "preservedDistractors": [
+        "読",
+        "書",
+        "聞"
+      ]
+    },
+    {
+      "id": "読",
+      "sourceTitle": "read",
+      "plannedRussianTitle": "читать",
+      "preservedDistractors": [
+        "話",
+        "書",
+        "聞"
+      ]
+    },
+    {
+      "id": "買",
+      "sourceTitle": "buy",
+      "plannedRussianTitle": "покупать",
+      "preservedDistractors": [
+        "見",
+        "食"
+      ]
+    },
+    {
+      "id": "赤",
+      "sourceTitle": "red",
+      "plannedRussianTitle": "красный",
+      "preservedDistractors": [
+        "青",
+        "白",
+        "土"
+      ]
+    },
+    {
+      "id": "足",
+      "sourceTitle": "foot, leg",
+      "plannedRussianTitle": "стопа; нога",
+      "preservedDistractors": [
+        "手",
+        "見",
+        "日"
+      ]
+    },
+    {
+      "id": "車",
+      "sourceTitle": "car, vehicle",
+      "plannedRussianTitle": "машина; транспортное средство",
+      "preservedDistractors": [
+        "電",
+        "東",
+        "中"
+      ]
+    },
+    {
+      "id": "金",
+      "sourceTitle": "gold, money",
+      "plannedRussianTitle": "золото; деньги",
+      "preservedDistractors": [
+        "土",
+        "木",
+        "火"
+      ]
+    },
+    {
+      "id": "間",
+      "sourceTitle": "interval, between",
+      "plannedRussianTitle": "промежуток; между",
+      "preservedDistractors": [
+        "時",
+        "外",
+        "内"
+      ]
+    },
+    {
+      "id": "雨",
+      "sourceTitle": "rain",
+      "plannedRussianTitle": "дождь",
+      "preservedDistractors": [
+        "電",
+        "西",
+        "山"
+      ]
+    },
+    {
+      "id": "電",
+      "sourceTitle": "electricity",
+      "plannedRussianTitle": "электричество",
+      "preservedDistractors": [
+        "雨",
+        "車",
+        "田"
+      ]
+    },
+    {
+      "id": "青",
+      "sourceTitle": "blue, green",
+      "plannedRussianTitle": "синий; зелёный",
+      "preservedDistractors": [
+        "赤",
+        "白",
+        "月"
+      ]
+    },
+    {
+      "id": "食",
+      "sourceTitle": "eat, food",
+      "plannedRussianTitle": "есть; пища",
+      "preservedDistractors": [
+        "飲",
+        "見",
+        "買"
+      ]
+    },
+    {
+      "id": "飲",
+      "sourceTitle": "drink",
+      "plannedRussianTitle": "пить",
+      "preservedDistractors": [
+        "食",
+        "見",
+        "話"
+      ]
+    },
+    {
+      "id": "黒",
+      "sourceTitle": "black",
+      "plannedRussianTitle": "чёрный",
+      "preservedDistractors": [
+        "白",
+        "赤",
+        "青"
+      ]
+    }
+  ],
+  "actualPinnedMeaningOptionEvidence": {
+    "appCommit": "5c000bd5596d2189ef878da572687bd01ab3bb5f",
+    "path": "core/src/main/kotlin/io/github/stopcran/kanji/core/quiz/QuizBuilder.kt",
+    "blobRawSha256": "abd46017c2aeee3de67865a7b1a614352bd368404ea67a80703e455d94ff37ce",
+    "actualReading": "Completeimmutablefile;QuizViewModelimports1–48andmapping101/128alsoread;dirtyappworkingcopyuntouched.",
+    "selection": "Default4options,first3distinctauthoreddistractors,thenmost-sharedtags/randomfallback;onlyexacttitlesdeduplicated,notsemanticmeaning.",
+    "authoredEdges": 169,
+    "newCardsWithTwoAuthoredOptions": [
+      "何",
+      "買"
+    ],
+    "authorDisposition": "Preserveall169edgeswithoutarbitrarycliquesorunsupportedkanjiquiz_exclusions.何/買fallbackmuststillbecheckedwithall75actualRUanswers.",
+    "sensitiveComparisons": "中/内arenotdirectauthoredwrongoptionsforeachother.分/半aredirectoptionsbutpart/halfarenotlexicalsynonyms.間/時isadirectpair:間titleisпромежуток;между,notgenericвремя.",
+    "baselineReadingBoundary": "All18actualacceptedtitles/directoptionlistsread;notall18completebaselinebodiesrereadinthistitleaudit.",
+    "reviewBoundary": "Authorpreparationonly;independentfullRussianmeaningreviewstillrequired.NoappUI/deviceacceptance."
+  },
+  "assetAdoption": {
+    "strokes": "Copy57exactfrozenGitblobsafterfreeze;verifyrawidentity;existingKanjiVGNOTICEandCCBYSA3retained.Nohandwrittengeometryorre-generation.",
+    "unicode": {
+      "dataUrl": "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt",
+      "dataRawSha256": "2e1efc1dcb59c575eedf5ccae60f95229f706ee6d031835247d843c11d96470c",
+      "licenseSource": "6af98cb717755690a9ca793e5454a96ebd7a8f9f:docs/UNICODE-LICENSE.txt",
+      "licenseActualReading": "CompleteUnicodeLicenseV3returnedandreadbeforefirstadoption.",
+      "licenseGitRawSha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96"
+    },
+    "images": "Noimageinspection/adoptionneededforthisstrokes/kanjiscope;dictionarydiagramsnotinspectedoradopted.",
+    "paidMedia": "Notrequested,generated,orauthorized."
+  },
+  "releaseBoundary": {
+    "reviewStatus": "pending",
+    "runtimeAccepted": false,
+    "checkpointAuthority": null,
+    "readyForOrdinaryActivation": false,
+    "phoneOrImeOrPlaybackTestingClaimed": false
+  }
+}

@@ -13,6 +13,11 @@
   Авторские права: James William Breen и [EDRDG](https://www.edrdg.org).
   Производные данные используются по CC BY-SA 4.0 с сохранением [условий EDRDG](https://www.edrdg.org/edrdg/licence.html).
   Точные исходные справочники и свидетельства сохраняются в [английском NOTICE](https://github.com/stop-cran/learning-japanese/blob/3196c3a273b9db8375bb79bede01ab8db5bce0d0/NOTICE.md).
+- Канонические глифы классических ключей сверяются с
+  [UnicodeData 17.0.0](https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt), © Unicode, Inc.
+  Применяется [Unicode License V3](docs/UNICODE-LICENSE.txt); полный текст лицензии сохранён
+  без изменения байтов из замороженного английского исходника. Версия и хеш данных фиксируются
+  в соответствующих записях `docs/translation-batches/`; это не доказательство этимологии.
 - Архивные словарные свидетельства могут содержать смешанную выдачу с именами из JMnedict/ENAMDICT
   того же James William Breen и EDRDG, также по указанным условиям CC BY-SA 4.0.
   Имена мест в такой выдаче не используются как доказательство нарицательного значения слова;
