@@ -1239,3 +1239,62 @@ The concurrent app remains untouched. Device/exact media-package/C6/C7/ordinary
 activation/release gates remain separate. Continue the remaining 290 N5 words
 and every safe frozen level/family, including honest excluded listening drafts;
 the entire translation objective remains in progress.
+
+## Reviewed source milestone 031: distance, speed and direction
+
+The [reviewed source record](translation-batches/031-distance-speed-direction-reviewed-source.json)
+adds 31 complete Russian word articles: 26 N5, three N4 and two N3, against
+unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The coupled existing 川上 correction changes only «Противоположная сторона реки»
+to «Противоположное по смыслу слово» for 川下, downstream rather than the opposite bank.
+The other 874 accepted runtime RAWs remain unchanged; the current 川上 tracking
+row is updated after actual full-unit rereview, without rewriting historical receipts.
+
+The [cumulative independent record](translation-batches/031-distance-speed-direction-independent-review.json)
+distinguishes the actual whole review of 32 primary EN/RU pairs, all 594 combined
+captions/readings, 63 retained complete lexical objects and 39 supporting Russian
+bodies for C2. Those supporting English bodies were not part of that whole reading.
+The initial C1/C3 CLEAN and C2 NEEDS FIX report remains immutable.
+Its two grouped findings require three direct guards: 横–近く and 向こう–ほか/他.
+
+The fresh narrower sequential reviewer read seven complete EN/RU pairs, seven
+actual labels and seven repeated lexical objects, mechanically verifying all
+594 current row bindings and unchanged titles/readings. The three metadata-line
+edits add those safeguards and withdraw the insufficiently supported author
+速い–易しい precaution: `esp. 早い` is not proof of ordinary written 速い meaning
+«несложный», nor an absolute prohibition of that spelling.
+All primary and supporting Russian learner bodies remain unchanged.
+The focused C1/C2/C3 CLEAN return supports cumulative scoped textual acceptance,
+with **67 direct guards**, not a fresh 32-primary/594-semantic-row review,
+71 full bilingual pairs, native certification or a transitive exclusion clique.
+The initial synchronous reviewer could not resume; only one narrower reviewer
+ran afterward, never simultaneously.
+
+The complete source lessons, Japanese examples/readings, reading-specific
+qualifiers and technical IDs/types/tags/levels remain. The full 上/下/中/外
+additional-reading lessons, 内's constructions, four 他人 examples and ほか's
+negative/additive distinction are preserved. Optional unavailable wrappers
+become plain teaching text, not English placeholders or truncated lessons.
+Actual correctly decoded dictionary HTML confirmed the relevant 横/向こう
+definitions when simplified extraction omitted them; generated search-URL
+prose was not substituted for the actual canonical source.
+
+Membership is **906 runtime objects**: 141 kanji/594 words/141 strokes/2 articles/
+22 counter files/one grammar set/2 scene catalogs/3 images.
+Word levels are 408 N5/53 N4/60 N3/19 N2/54 unlabelled:
+**408 of 672 frozen N5 words are adopted; 264 remain**.
+Fresh strict 8,278-entry progress: **906 reviewed-current**, **no partial**,
+**two excluded reviewed runtime-blocked drafts**, **7,370 pending**,
+**7,372 runtime paths absent**. Checkpoint authority null/Ready false;
+version `36b8a5c1bbb4b3ed`.
+Corrected-candidate serialized checks: validator 0 errors, 124 tests OK in 28.994s;
+budget 914 files/923 entries/2,597,051 retained/2,613,733 inflated/1,303,376 ZIP bytes.
+Final checks, source integration, actual public desktop archive, signatures
+and exact-main CI have separate receipts, not Android/phone/IME/playback acceptance.
+
+No new assets/media or paid generation occurred. The canonical word-tag IDs
+`comparison`, `distance`, `speed` are new to this adopted word pool;
+app mappings remain UNVERIFIED, not established missing. The concurrent app is untouched.
+Device/exact media-package/C6/C7/ordinary activation/release gates remain separate.
+Continue the remaining 264 N5 words and every safe frozen level/family, including
+honest excluded listening drafts; the entire translation objective remains in progress.

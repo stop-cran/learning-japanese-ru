@@ -8,6 +8,41 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The thirty-first full-target source batch adds 31 complete distance, speed,
+position and direction word articles: 26 N5, three N4 and two N3.
+[Batch 031 reviewed source](translation-batches/031-distance-speed-direction-reviewed-source.json)
+and its [cumulative independent record](translation-batches/031-distance-speed-direction-independent-review.json)
+preserve the actual initial 32-primary-pair/594-caption/63-object review and
+39 supporting Russian bodies for C2, separately from the fresh seven-pair/
+seven-label/seven-repeated-object recheck. Supporting English bodies were not
+all read; this is not 71 fully reviewed bilingual pairs.
+Three direct missing guards 横–近く and 向こう–ほか/他 are resolved; the author
+withdraws insufficiently supported 速い–易しい metadata without declaring an
+absolute spelling ban. The 67 remaining safeguards are direct assessments.
+Initial C2 NEEDS FIX remains historical; the focused all-CLEAN return and
+unchanged-body/title evidence support cumulative scoped textual acceptance.
+The original sync reviewer could not resume; one fresh narrower reviewer ran afterward.
+The exact one-phrase 川上/downstream correction is fully rereviewed and its
+current tracking updated; the other 874 baseline runtime RAWs remain unchanged.
+Historical receipts and unchanged tracking rows are preserved.
+
+Membership is 906 runtime objects: 141 kanji/594 words/141 strokes/2 articles/
+22 counter files/one grammar set/2 scene catalogs/3 images. Fresh strict progress:
+906 reviewed-current, no partial, two excluded reviewed runtime-blocked drafts,
+7,370 pending and 7,372 absent runtime paths. Word levels are
+408 N5/53 N4/60 N3/19 N2/54 unlabelled; 264 of 672 frozen N5 words remain.
+Version `36b8a5c1bbb4b3ed`; checkpoint authority null/Ready false.
+Corrected-candidate serialized checks: validator 0 errors, 124 tests OK in 28.994s;
+budget 914 files/923 entries/2,597,051 retained/2,613,733 inflated/1,303,376 ZIP bytes.
+Final checks, source integration, desktop archive and exact-main CI have separate receipts.
+The three new canonical word-tag IDs `comparison`, `distance`, `speed` have
+app mappings UNVERIFIED, not established missing; the concurrent app stays untouched.
+No new assets, paid generation, phone/IME/playback/new audio-package/C6/C7/
+activation/release/checkpoint authority follows. Continue every remaining safe
+frozen level and family, including honest excluded listening drafts.
+
+Earlier accepted milestones below are historical.
+
 The thirtieth full-target source batch adds 22 complete N5 skill, preference,
 interest and practical-evaluation word articles.
 [Batch 030 reviewed source](translation-batches/030-skill-interest-evaluation-reviewed-source.json)
@@ -39,8 +74,6 @@ the concurrent app stays untouched.
 No new assets, paid generation, phone/IME/playback/new audio-package/C6/C7/
 activation/release/checkpoint authority follows. Continue every remaining safe
 frozen level and family, including honest excluded listening drafts.
-
-Earlier accepted milestones below are historical.
 
 The twenty-ninth full-target source batch adds 25 complete weather, taste and
 condition word articles: 24 N5 and the actual N3 negative-answer provider 苦しい.
