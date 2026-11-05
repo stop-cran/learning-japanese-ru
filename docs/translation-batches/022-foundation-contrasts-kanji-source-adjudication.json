@@ -1,0 +1,459 @@
+{
+ "authority": "Not independent Japanese/Russian/native/device/media/release acceptance.",
+ "batch": "022-foundation-contrasts-kanji",
+ "decisions": [
+  {
+   "boundary": "Classical radicals:29又,30口,37大,48工,69斤,84气,94犬,138艮,167金,168長. Nelson alternatives do not replace them.",
+   "decision": "Preserve source technical IDs/tags/types/levels/readings.14complete KANJIDIC records and10Unicode17canonical radical rows actually read; old KANJIDICJLPT and additional dictionary readings are not automatic modernJLPT/grade changes.犬kanjiN4 and犬wordN5 stay distinct;3newwords stay unlabelled.",
+   "evidence": [
+    "Actual14completeXMLrecords",
+    "Actual10canonicalUnicode17rows",
+    "Frozen source metadata/community-level guidance"
+   ],
+   "id": "022-A001",
+   "scope": "Metadata, levels, radicals and selected readings"
+  },
+  {
+   "boundary": "No new runtime年上/古本acquisition or invented age comparison.",
+   "decision": "Move古本ふるほん out ofふる.い row intoふる-prefix row; retain the example and all source readings, including使い古すつかいふるす for-ふる.す.年上 means older than a contextually supplied comparison person, not necessarily older than me.",
+   "evidence": [
+    "Complete古本/使い古す/年上matching objects",
+    "Complete named digitalDaijisen and精選版日本国語大辞典年上 bodies"
+   ],
+   "id": "022-A002",
+   "scope": "kanji/古.md"
+  },
+  {
+   "decision": "Place verified右岸うがん underウ, notユウ. Retainユウ with actual左右さゆう. Do not positively teach the source's extraゆうがん without evidence: proposal omits that unsupported variant while retaining right-bank teaching; it does not assert universal impossibility. Qualify右手 so it teaches everydayみぎて and its kun combination without universally prohibiting other attested readings.",
+   "evidence": [
+    "ActualKanjiPedia右lists右岸ウガン",
+    "CompleteJMdict右岸forms containうがん",
+    "Complete named digitalDaijisen/精選版日本国語大辞典右岸 bodies",
+    "Complete右手objects include ordinaryみぎて and distinct馬手/右手めて; PlaceUmate is not lexical proof"
+   ],
+   "id": "022-A003",
+   "scope": "kanji/右.md reading table; words/右手.md wording",
+   "sourceVariantDisposition": "Originalゆうがん remainsUNVERIFIED, not proved false by absence; earlier author hypothesis that both variants were corroborated is withdrawn. Independent reviewer must adjudicate this explicit proposed source correction; no full variant-parity/acceptance claim now."
+  },
+  {
+   "boundary": "新潟lexical geographical sense supports its name/reading only; unrelatedWikipedia/Placeobjects are not ordinary lexical evidence.",
+   "decision": "Keep新たなあらたな withあら.た, not bareあら-prefix; preserve新手あらて in the prefix row. Explain新しい okurigana asしい, not onlyい. Preserve新妻にいづま and新潟にいがた.",
+   "evidence": [
+    "Complete新た/新手/新妻/新潟matching objects and restrictions",
+    "CompleteKanjiPedia新text"
+   ],
+   "id": "022-A004",
+   "scope": "kanji/新.md reading table and okurigana"
+  },
+  {
+   "boundary": "格好良いobject saysusuallykana; no claim that every writing/reading is equally usual.",
+   "decision": "Give actual良いよい/いい and attested suffix examples心地良いここちよい and格好良いかっこいい. Explain variant spelling/register without inventing collocations. Preserve word良いgradedよい; everydayいい andよくない/よかった/よく are taught, not silently added as new graded answers.",
+   "evidence": [
+    "Complete良XMLkunfields",
+    "Complete良いobject explicitly saysalsoいいallsenses",
+    "Complete心地良いand格好良いforms/restrictions"
+   ],
+   "id": "022-A005",
+   "scope": "kanji/良.md all4selected kun forms"
+  },
+  {
+   "boundary": "Dictionary reading presence is not frequency proof. No guessedこ/げ/ぎgrading, consensus etymology or viewed historical diagrams.",
+   "decision": "Preserve kunいき/き: actualKANJIDIC2 lists both, whileKanjiPedia presentsキ/ケas on andいきas kun. Name the dictionary-system difference rather than silently migrateき. Cite the actual角川新字源account forold氣:米semantic element with气sound, provision gifts, later气sense. Retain steam/rice as an explicitly labelled memory image, not established history.",
+   "evidence": [
+    "Complete気/氣XMLrecords",
+    "Complete actualKanjiPedia気named角川新字源text",
+    "Complete気matching lexical objects"
+   ],
+   "id": "022-A006",
+   "scope": "kanji/気.md classification/history"
+  },
+  {
+   "boundary": "Do not reclassify stable source structural tags just because dictionaries choose another category. Historical illustrations not inspected.",
+   "decision": "Retain full qualified source teaching and all selected Japanese examples, using actual named-dictionary attribution. Do not repeat友almost-only-in友達 as measured or exclusive distribution; standaloneとも exists and source literary nuance remains.長long-haired elder is actually supported; a staff is at most a labelled mnemonic, not claimed primary evidence.",
+   "evidence": [
+    "All11actualKanjiPediafullnon-scripttexts, attributed角川新字源改訂新版",
+    "Complete友/長lexical objects",
+    "Frozen complete source bodies"
+   ],
+   "id": "022-A007",
+   "scope": "友/古/右/左/新/天/犬/良/銀/長origins and usage"
+  },
+  {
+   "boundary": "Planned labels/guards are not final actual pool review. Preserve all6sourcequiz_distractor edges of天気/元気 pending whole-batch semantic review.",
+   "decision": "Propose only3direct pairs:子犬–犬,右手–手,左手–手. Genericсобакаincludes aщенок and genericрука/кистьincludes each named hand.右手–左手 are distinct, not transitively excluded. Existing子/子供teach human children/family senses, so no animal-child clique.古い(age) and中古(previous ownership) are not automatically excluded merely because often related.",
+   "evidence": [
+    "Actual22complete baselineRU/frozenENpairs",
+    "Complete13new word groups and actual手/犬objects",
+    "Unchanged404/86baseline titlepool actual whole-row reading in021; bounded022current-titleoverlap probe"
+   ],
+   "id": "022-A008",
+   "scope": "New word Russian meaning/exclusion pool"
+  },
+  {
+   "boundary": "Exactly3replacements among33source directed edges; allreplacement targets already inside scope. Different strings alone do not prove safety. Reviewer must assess actual finalRussian meanings/all33edges; no semantic clique.",
+   "decision": "Propose銀→金to食 because actual銀also hasmoney sense and金explicitly answersзолото;деньги; propose銀→白to良 because actual named銀meaning2 is a shining white colour, making genericбелый unsafe. Propose長→上to食 because actual ordinaryelder/senior/rank senses overlap, not just spatial association. Preserve substantive comparisons and actual original targets as read contexts.",
+   "evidence": [
+    "Complete namedKanjiPedia銀meanings2–3",
+    "Complete銀lexicalmoney/colourqualifiers",
+    "CompletecurrentRU/frozenEN金/白/上",
+    "Complete長and上lexicalgroups, includinghigher-rank/elder senses"
+   ],
+   "id": "022-A009",
+   "scope": "Kanji directed wrong-answer edges"
+  },
+  {
+   "boundary": "APIextraWiki/proper-name/homograph senses/readings are not imported wholesale. Weblio長短simplifiedfetch showedcopyrightfooters, not useful namedusagebody; an actualKotobankform attempt foundnoexpectedentryanchor and refused, so nopositiveusagebodycapture is claimed. Preserve qualified reviewed-source usage, not invented measuredfrequency.",
+   "decision": "Preserve full source examples/roles/meanings/qualifiers, notably中古historical sense onlyちゅうこ,左右さゆうsenses1–2,気分state rather than fixedpersonality,長短length and merits/faults,新しい魚versus新鮮な魚,良い/いいinflection. Naturally rewrite the awkward天気/元気comparison without losing the contrast.",
+   "evidence": [
+    "Actualall24complete frozen new bodies",
+    "Actual29complete matching lexical groups/45occurrences"
+   ],
+   "id": "022-A010",
+   "scope": "Whole13word Japanese content and source limits"
+  }
+ ],
+ "discoveryBoundary": "CanonicalKanjiPediaURLs derived from real exact-glyph official search-result anchors and actual matching titles, not generatedweb-searchproseIDs. Initial searchprose disagreed with its own citations and was rejected.",
+ "primaryEvidence": {
+  "completeLexicalQueriesActuallyRead": [
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "中古",
+    "responseRawSha256": "92fa7e7cfcb6aaea012d6820fc5d2629e34f970bb14b3769cf7923c87fccfb12",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E4%B8%AD%E5%8F%A4"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "元気",
+    "responseRawSha256": "dd6cfa8566ca5026a2ae21c78848f4c3b44ca8173d06d49a0e1ae4381df125ae",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E5%85%83%E6%B0%97"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "古い",
+    "responseRawSha256": "d02705cd01f758abbc3925240213a1ad37cc2d4056e78732f001f9d5c7ea616d",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E5%8F%A4%E3%81%84"
+   },
+   {
+    "matchingObjectOccurrences": 2,
+    "query": "右手",
+    "responseRawSha256": "a1ee27eb19a5fb7e73009311c72b4a85e17c7b89ab36b1028bb7a8470491ecc1",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E5%8F%B3%E6%89%8B"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "天気",
+    "responseRawSha256": "061da6cac2b405820b32dca1baa948329eaca29705b9ff7d2b4fc7739efce005",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E5%A4%A9%E6%B0%97"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "子犬",
+    "responseRawSha256": "f9ba2829e1a68f02dba5e0574fd10865cfca364a44c534f50918a2a5eabfa98b",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E5%AD%90%E7%8A%AC"
+   },
+   {
+    "matchingObjectOccurrences": 3,
+    "query": "左右",
+    "responseRawSha256": "4501e5cda26b48ad33d38b9c358e94bb13c18e4141633f89be58f8368bd1e2a4",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E5%B7%A6%E5%8F%B3"
+   },
+   {
+    "matchingObjectOccurrences": 2,
+    "query": "左手",
+    "responseRawSha256": "b1b7d72b298065298101fe6f639d45b1c8e62ab0f9a941201d3ea51651bbb996",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E5%B7%A6%E6%89%8B"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "新しい",
+    "responseRawSha256": "11eb4ab248fc1372ad5d359939db991d3f2d6eaea74c52f77aee0014bc5c69b8",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E6%96%B0%E3%81%97%E3%81%84"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "気分",
+    "responseRawSha256": "07a730326ed97317a2871a6991652813f557013936c1e43032c2e908a4419e89",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E6%B0%97%E5%88%86"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "犬",
+    "responseRawSha256": "3b3e1c22eaa717c03da4efb2d3ae66b432e66f63eb3a2667b77479740c1e06e4",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E7%8A%AC"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "良い",
+    "responseRawSha256": "27124e94e690d3339a72bdea7eb40f87c6dbb471c80df94434f7f1a00fadb3e2",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E8%89%AF%E3%81%84"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "長短",
+    "responseRawSha256": "fd88aa64f6f0357a803c40d4c7b85a852e4cce50fac6c990dda93034cbfa560a",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E9%95%B7%E7%9F%AD"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "右岸",
+    "responseRawSha256": "e4b51fbf724dba183817865af3771e6d78f0818ebf39c321959e6bf38e60dc0d",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E5%8F%B3%E5%B2%B8"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "新手",
+    "responseRawSha256": "1146d4f5fc4c10bde8134676bcefc635d942e08b6a65a41ce8627d91e2bb3b93",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E6%96%B0%E6%89%8B"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "新た",
+    "responseRawSha256": "178d863ab63308cb6590e20c8457271ccfbf056ad7d2a86ecf0c64b3e9612d56",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E6%96%B0%E3%81%9F"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "新妻",
+    "responseRawSha256": "251c8dd97463ff7bc67bd7b30387f5e84ea5ad09c0b34bd32e91e22cf9fae1de",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E6%96%B0%E5%A6%BB"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "新潟",
+    "responseRawSha256": "d000d3075ce91981619b24a2914217fdeb51c2f5b3367a9453953dbdca477c21",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E6%96%B0%E6%BD%9F"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "古本",
+    "responseRawSha256": "21ad422b362e7cac27a7b6ecd185a495c85895a2a892cb6af3ac519efa612303",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E5%8F%A4%E6%9C%AC"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "使い古す",
+    "responseRawSha256": "5bc64bd2908f7e6bc8a15c00ecdb696df93aa5b087cbd581ceeb99137b334772",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E4%BD%BF%E3%81%84%E5%8F%A4%E3%81%99"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "心地良い",
+    "responseRawSha256": "249eb8a5eb4088175c11618c3a6e394d8623caa8efe12458d38c53d22e1f749e",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E5%BF%83%E5%9C%B0%E8%89%AF%E3%81%84"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "格好良い",
+    "responseRawSha256": "0a0a72594f60a4e4fca9d46dc937130c5036d26e18f7a7f8256c1de91a12dcc3",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E6%A0%BC%E5%A5%BD%E8%89%AF%E3%81%84"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "年上",
+    "responseRawSha256": "93324f5f1bc1d1ed2a729a57fd45394dc630f655535bc922e4fdff8d24265658",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E5%B9%B4%E4%B8%8A"
+   },
+   {
+    "matchingObjectOccurrences": 4,
+    "query": "気",
+    "responseRawSha256": "24174153061104d629a4f171c47857f94f460debb0fe0d617fd60979cc937e33",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E6%B0%97"
+   },
+   {
+    "matchingObjectOccurrences": 2,
+    "query": "銀",
+    "responseRawSha256": "49c834e2992314b09c00e49739a7122c797210492d4d1d666fa6664c16ad8108",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E9%8A%80"
+   },
+   {
+    "matchingObjectOccurrences": 2,
+    "query": "友",
+    "responseRawSha256": "ff2bd26a43560a08abe388d82f80942769758ce77a89b41cddb59b7149674f0b",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E5%8F%8B"
+   },
+   {
+    "matchingObjectOccurrences": 5,
+    "query": "長",
+    "responseRawSha256": "516fa99eab453505f80fa2d040c651935979f41ea4075ce4e32b6d5aae20e356",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E9%95%B7"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "手",
+    "responseRawSha256": "582f02d2ae83a1edd2bbc4444fc9159f099c73d81ada4d9b115f1933b6b920a9",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E6%89%8B"
+   },
+   {
+    "matchingObjectOccurrences": 4,
+    "query": "上",
+    "responseRawSha256": "c925dbfd93d7f7a60174cee64e6695fa7762d8e216b9bcccc2f81c1c919b5eb4",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E4%B8%8A"
+   }
+  ],
+  "completePrimaryPagesActuallyRead": [
+   {
+    "actualReading": "Complete cached non-script text actually returned with END marker; illustrations not inspected.",
+    "query": "友",
+    "rawBytes": 8231,
+    "rawSha256": "df75889c0b88a6754420421bd9e9c1f1f56d1110a74c43d241d0aef6338e83a3",
+    "url": "https://www.kanjipedia.jp/kanji/0006843100"
+   },
+   {
+    "actualReading": "Complete cached non-script text actually returned with END marker; illustrations not inspected.",
+    "query": "古",
+    "rawBytes": 14054,
+    "rawSha256": "7ca53ffa92ab11eb6c0a64983093c42a69c3d3eb795a60c8b37fc24ea87ccd6c",
+    "url": "https://www.kanjipedia.jp/kanji/0002024400"
+   },
+   {
+    "actualReading": "Complete cached non-script text actually returned with END marker; illustrations not inspected.",
+    "query": "右",
+    "rawBytes": 12161,
+    "rawSha256": "04f2f509d91d7012a0cece671479090716a031b61b1ae16d5efb6b9b09f00c2a",
+    "url": "https://www.kanjipedia.jp/kanji/0000308000"
+   },
+   {
+    "actualReading": "Complete cached non-script text actually returned with END marker; illustrations not inspected.",
+    "query": "天",
+    "rawBytes": 21727,
+    "rawSha256": "dc6ef0d1a9fee1dc121c4a16491d42709a12905c50447a98008ac29b8659947c",
+    "url": "https://www.kanjipedia.jp/kanji/0005033300"
+   },
+   {
+    "actualReading": "Complete cached non-script text actually returned with END marker; illustrations not inspected.",
+    "query": "左",
+    "rawBytes": 8999,
+    "rawSha256": "d160b873acbbe5dc2dd4e735bffc52f26b4f1658365682b221ba82dde9115290",
+    "url": "https://www.kanjipedia.jp/kanji/0002452500"
+   },
+   {
+    "actualReading": "Complete cached non-script text actually returned with END marker; illustrations not inspected.",
+    "query": "新",
+    "rawBytes": 11902,
+    "rawSha256": "f9ca529c31a4f6b26b48c6803e21b02dd6b73feaa886638e845b473a93926bff",
+    "url": "https://www.kanjipedia.jp/kanji/0003650300"
+   },
+   {
+    "actualReading": "Complete cached non-script text actually returned with END marker; illustrations not inspected.",
+    "query": "気",
+    "rawBytes": 13739,
+    "rawSha256": "28a9cd8cc8d29c0b08763589c750b72cde825a56c1b9c3528730b12ac8ba2cd3",
+    "url": "https://www.kanjipedia.jp/kanji/0001184900"
+   },
+   {
+    "actualReading": "Complete cached non-script text actually returned with END marker; illustrations not inspected.",
+    "query": "犬",
+    "rawBytes": 8836,
+    "rawSha256": "0c34a12996cdbe39fb917b44ca2515bfd33a42eecc68686307d34fee515e9f02",
+    "url": "https://www.kanjipedia.jp/kanji/0001892600"
+   },
+   {
+    "actualReading": "Complete cached non-script text actually returned with END marker; illustrations not inspected.",
+    "query": "良",
+    "rawBytes": 8988,
+    "rawSha256": "dd3d8aa198c2586c8ac92a24146d73cde9be0294716e1980e67e8f464318aaa7",
+    "url": "https://www.kanjipedia.jp/kanji/0007155800"
+   },
+   {
+    "actualReading": "Complete cached non-script text actually returned with END marker; illustrations not inspected.",
+    "query": "銀",
+    "rawBytes": 14896,
+    "rawSha256": "9cb11cddac144eb391416427eae22d5cf4a6ea72718290fa0f5d7ecb882d41c9",
+    "url": "https://www.kanjipedia.jp/kanji/0001648300"
+   },
+   {
+    "actualReading": "Complete cached non-script text actually returned with END marker; illustrations not inspected.",
+    "query": "長",
+    "rawBytes": 13264,
+    "rawSha256": "268c871822f344a8d6bf9825734f8c30b84477a6dc1c3220667583c4f5f076d9",
+    "url": "https://www.kanjipedia.jp/kanji/0004783800"
+   },
+   {
+    "actualReading": "Complete cached non-script text actually returned with END marker; illustrations not inspected.",
+    "query": "右岸",
+    "rawBytes": 207176,
+    "rawSha256": "b54d4ce81266ba8d8d0095c882c216dcc71cf72c97ad0878693c0666ecd29a06",
+    "url": "https://kotobank.jp/word/%E5%8F%B3%E5%B2%B8-439103"
+   },
+   {
+    "actualReading": "Complete cached non-script text actually returned with END marker; illustrations not inspected.",
+    "query": "年上",
+    "rawBytes": 205996,
+    "rawSha256": "917004ce8fed19698d7c2a5ed6c08d500cbb39b15593be2e1825578e8002fc14",
+    "url": "https://kotobank.jp/word/%E5%B9%B4%E4%B8%8A-583384"
+   }
+  ],
+  "completeRadicalRowsActuallyRead": [
+   {
+    "completeUnicodeRow": "2F1C;KANGXI RADICAL AGAIN;So;0;ON;<compat> 53C8;;;;N;;;;;",
+    "number": 29
+   },
+   {
+    "completeUnicodeRow": "2F1D;KANGXI RADICAL MOUTH;So;0;ON;<compat> 53E3;;;;N;;;;;",
+    "number": 30
+   },
+   {
+    "completeUnicodeRow": "2F24;KANGXI RADICAL BIG;So;0;ON;<compat> 5927;;;;N;;;;;",
+    "number": 37
+   },
+   {
+    "completeUnicodeRow": "2F2F;KANGXI RADICAL WORK;So;0;ON;<compat> 5DE5;;;;N;;;;;",
+    "number": 48
+   },
+   {
+    "completeUnicodeRow": "2F44;KANGXI RADICAL AXE;So;0;ON;<compat> 65A4;;;;N;;;;;",
+    "number": 69
+   },
+   {
+    "completeUnicodeRow": "2F53;KANGXI RADICAL STEAM;So;0;ON;<compat> 6C14;;;;N;;;;;",
+    "number": 84
+   },
+   {
+    "completeUnicodeRow": "2F5D;KANGXI RADICAL DOG;So;0;ON;<compat> 72AC;;;;N;;;;;",
+    "number": 94
+   },
+   {
+    "completeUnicodeRow": "2F89;KANGXI RADICAL STOPPING;So;0;ON;<compat> 826E;;;;N;;;;;",
+    "number": 138
+   },
+   {
+    "completeUnicodeRow": "2FA6;KANGXI RADICAL GOLD;So;0;ON;<compat> 91D1;;;;N;;;;;",
+    "number": 167
+   },
+   {
+    "completeUnicodeRow": "2FA7;KANGXI RADICAL LONG;So;0;ON;<compat> 9577;;;;N;;;;;",
+    "number": 168
+   }
+  ],
+  "completeXmlRecordsActuallyRead": [
+   "友",
+   "古",
+   "右",
+   "天",
+   "左",
+   "新",
+   "気",
+   "犬",
+   "良",
+   "銀",
+   "長",
+   "氣",
+   "艮",
+   "上"
+  ],
+  "kanjidicGzipSha256": "e26e34c9187a786bf1f0b21f87e311a9b0ed644aefe9693d10bdc7cb8643d8e0",
+  "kanjidicXmlSha256": "01bf4cc9b3a72d7fa521a780c0e7f35c479d314d35654131b45f1f359dc69311",
+  "matchingObjectOccurrences": 45,
+  "privateCaptureRawSha256": {
+   "ru-022-additional-primary-capture.json": "6e7ff38004797e376bbe43907dd775942ac8e3532f5d2fb9ea96437fb59cce68",
+   "ru-022-historical-evidence-capture.json": "c1b01eb9c09aecac1e1f5ecd0901b3fc95d9688fe566d4d3031aec71fdf94826",
+   "ru-022-primary-evidence-capture.json": "82cfbe3d8f910d09487c325c9091de7949850ba5a30384a37e2c19f8fa4264ff"
+  },
+  "unicodeSha256": "2e1efc1dcb59c575eedf5ccae60f95229f706ee6d031835247d843c11d96470c"
+ },
+ "recordedAt": "2026-11-05T08:01:13.061551+00:00",
+ "reviewStatus": "pending",
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "stage": "Author proposals/evidence before runtime authoring; independent review pending."
+}
