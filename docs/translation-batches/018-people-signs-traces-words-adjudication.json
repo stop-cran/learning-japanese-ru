@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "batch": "018-people-signs-traces-words",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "frozenScopeCommit": "a8da810ff2258a0e1b1ad521d6d9667a2560a407",
+  "state": "author-adjudication-pending-independent-review",
+  "actualAdoptedScope": {
+    "newFiles": 21,
+    "sourceFullLines": 816,
+    "russianFullLines": 1027,
+    "actualOldLabelsRead": 375,
+    "actualNewLabelsRead": 21,
+    "actualCompleteBaselineRussianBodies": 6,
+    "baselineBodyLines": 222,
+    "preservedSourceDirectedEdges": 24,
+    "addedDirectRussianGuards": 13
+  },
+  "guardPairs": [
+    {
+      "left": "方",
+      "right": "人",
+      "reason": "Actual Russian genericчеловек/person meaning overlaps directly; respectfulかたregister alone does not make it an invalid alternative. Sourcepersondictionary/captured方andactualbaseline人bodyread."
+    },
+    {
+      "left": "人物",
+      "right": "方",
+      "reason": "Both have individual-person meanings and proposedactualчеловекlabels; neither fictional-character nor method/comparison extras remove their direct shared person sense. Not inferred through人間."
+    },
+    {
+      "left": "人類",
+      "right": "人",
+      "reason": "Actual人titleлюдиandactualsupplementary人sense2humanbeings/mankind directly overlap collectiveчеловечество. 人類is not a localpopulation or a singleindividual; no people-genus clique."
+    },
+    {
+      "left": "性格",
+      "right": "人",
+      "reason": "Actual supplementary人sense5character/personality/nature directly supports Russianхарактерansweralsoexpressedby性格. This guards a real lexical secondarysense, not everyperson/age/gendercategory."
+    },
+    {
+      "left": "性格",
+      "right": "人間",
+      "reason": "Complete actual人間querysense2characterofperson directly overlaps性格personality/character; sourcehuman-beingfocusdoesnotjustifygradingthatdictionarysenseaswrong. No frequency claim or fabricated newcollocation."
+    },
+    {
+      "left": "サイン",
+      "right": "信号",
+      "reason": "Actual source/lexicalsense2サインsign/signal/indication and信号sense1signal share proposed Russianсигнал. Signatures/sine versus trafficlight extras do not remove that overlap."
+    },
+    {
+      "left": "合図",
+      "right": "記号",
+      "reason": "Actual proposed labelsbothincludeусловныйзнак, individually supported by actual cue/sign and symbol/mark entries; communicative cue and representationalnotation distinctions stay in prose. Not inferred viaサイン."
+    },
+    {
+      "left": "印",
+      "right": "合図",
+      "reason": "Actual mark/sign and cue/sign meanings can both receive Russianзнак/условныйзнак; generic Russian label alone does not express deliberately placed mark versus communicativecue. Individual dictionary/source comparison, not inherited through記号."
+    },
+    {
+      "left": "印",
+      "right": "サイン",
+      "reason": "Actual印mark/sign andサインsign/indication meanings directly share unqualified Russianзнак in adoptedprose/labels. Retain signature/signal-versus-mark teaching and non-universal signboardwarning."
+    },
+    {
+      "left": "印",
+      "right": "現れ",
+      "reason": "Actualsource感謝のしるしtokenofgratitude and喜びの現れexpressionofjoy both support Russianзнак/проявлениечувства. This specific outward-emotion overlap is assessed directly; not allsigns/moodsare synonyms."
+    },
+    {
+      "left": "印",
+      "right": "跡",
+      "reason": "Actual entries bothincludephysicalmark/sign, with placedmark versus remainingtrace nuance; Russianметка/отметина/след overlap in the adoptedphysicalmarkteaching. Pair is not inferred via足跡 or記号."
+    },
+    {
+      "left": "点",
+      "right": "印",
+      "reason": "Fullsource点meaningdot/spot/markmustretainRussianметкаbesidesточка; actual印titleметка/знак directly overlaps this smallphysicalmarksense. Scores/aspects and symbolic tokenextras remain distinct."
+    },
+    {
+      "left": "現れ",
+      "right": "言葉",
+      "reason": "Actual baseline言葉title/bodyincludeunqualifiedвыражение/wording; actual現れsourceexpressionsofjoy also requireвыражение. This real displayedRussianoverlap is not inferred through their separate表現edges."
+    }
+  ],
+  "actualAnswerPoolAssessment": [
+    "All396actualdisplayedmeaningsassessed,notEnglishstrings/POS/tagsalone. 24originalsourceedgesand13individuallyreasonednewguardsretained;noallpeople/gender/age/genus/signclique.",
+    "Exactpersondictionarysecondarycharacterandcollectivehumanssensesread;guardthemwithoutinventingfrequency/newlearnercollocations/wholeAPIcoverage.",
+    "現れ–言葉actualsharedвыражениеindependentlyevidenced,notinferredthrough表現. Point/markandsignal/signpairsindividuallyassessed;sourceconstructionsanddistinctionsremain.",
+    "No transitiveinference記号–信号/兆候–合図/点–跡/人類–人物/方–性格;reviewmustassessactualboundaries. All441oldruntimeRAWobjects/oldtracking/progressunchanged."
+  ],
+  "sourceAdaptations": [
+    "All21completearticles/four exact RussianH2; preserve every Japaneseexample/reading/ID/type/tag/sourcelevel and all24source-directed negativeedges. Oneunlabelled兆候remainsunlabelled.",
+    "Sourcehumanity/man/character and genericpoint Englishcomparisons become independentRussian distinctions:человечествоnotчеловечность;humanwithoutmalerestriction;character/person;physicaldot/score/aspect.",
+    "人間niNgeNversusじんかんworld; 人間性human nature; mnemonicnotetymology; supplementary complete frozen間cardexplicitlysupportsケン→ゲン and was actually read, not the whole57-kanji component.",
+    "方preservesかたperson/method,ます-stemattachmentandほうcomparisonnounのversusdirectverbclause. No mechanical case analogy or change to sourcewago/type.",
+    "句読点preservesくとうてん/トウversusドク/くどくてん, Japanese。/、examples and no comma-at-every-pause rule. NavigationavailabilitynoteisnotJapaneseetymology.",
+    "足跡preservesあしあと/そくせき, humans/animals and computingvisitorssense;跡scarspellingpreference and後after/laterhomophone remain qualified.",
+    "印retainsactual印/標markand証/証しproofpreferences, kanaしるしgratitudetoken, not absolute spellingbans; all actualAPIinfo read.",
+    "サインautograph/signature/signal and separate sineentry; three morae; sine30degrees=1/2. コードthreelexicalidentities/codepolysemy/ー; no independentJLPTclaimforhomographs or API-onlystringsenseadoption.",
+    "兆候state/developmentsignnotnecessarilybad/futurecertain; exactnamedSeisenbanentryactuallyreadseparatelyfromDaijisen, not firstaggregatorblock.",
+    "署名documentに/nounをお願いします andしょnotしょう; signaturesnotnamealoneorautomaticlegalvalidity. 合図mixednative/onreadingretainswago and communicativeでcue-role.",
+    "現れnoun/form/表れvariant and interpretedmanifestationnotproof;表現transitiveをcontent/でmeans and exactgroup-representationmathsense, not everyformula.",
+    "症状singular/pluraladaptationnowexplicitRussianсимптом/симптомы; no mechanicalている/aspect or diagnostic/treatmentclaim. 縄finishedrope/cordnotplant/hempfiber; thicknesscomparisonnotuniversal.",
+    "Directlyrelateddocrepairplanned: currentformatreferenceintrostillcommandsfreshlocalEN/uncommittedC1althoughfrozen6afalreadycontainscommittedcontract; replacewithfrozen-sourceinstructionandpreservehistoricalowner-testreportas explicitlyhistorical. No tool/schema change."
+  ],
+  "actualPrevalidationProbe": "InitialprivateRAWCRLFheadingregexretainedCRandfailed;fixedLFprojectionwithoutlearnertextchanges.Noactualvalidatorhadbeenrunthen. Japanese-tokenprojectionnormalizesbothdomainsandisnota semanticproof.",
+  "actualEvidenceBoundaries": {
+    "dictionary": "55completequeryobjects/58entryoccurrences/104forms/161senseobjects=144lexical+17Wiki;nofailedlookup. Supplementarycompletebaseline人objecthas8lexicalsenses/1entry/2forms. Occurrencesnotuniquelexemes.",
+    "pseudoEvidence": "17Wikiobjectsnotlexicalevidence;actual合図/相図PhaseDiagramassociationexcluded. Rare/extraAPImeaningsnotuniversallyadopted;codeinstrumentstringsenseoutsidefrozenarticle.",
+    "namedSource": "ActualKotobankSeisenban兆候definitionreadseparatelyfromDaijisen;nohistoricalmissingglyphreconstructionorimageadoption.",
+    "scope": "Sourcelevels15N3/3N2/1N4/1N5/1unlabelledpreserved. Full21frozenbodies816lines,notall-senseAPIadoption or all57kanjibodies."
+  },
+  "completeTranslation": "21Russian titles/H1/84exactH2/allparagraphs/examples/qualifications/citationlabels;allsourceJapanese/sourceURLsretained. Missingoptionalnavigationflattenedwithoutdiscardingteaching. Noassets/grammarcontexts/newkanji/strokes/audio.",
+  "activeGuidanceChanges": "Formatreferenceintrocorrectsfrozen-sourcecontractavailabilityandhistoricalC1status:6afalreadycontainscommittedsection;noinstructiontolater/dirtyEN. Historicalowner-testreportexplicitlyhistorical;no schema/toolchange. Whole review must read actualdelta/document.",
+  "all441BaselineRawObjectsAndOldTrackingUnchanged": true,
+  "pinnedUiFollowUp": {
+    "appCommit": "5c000bd5596d2189ef878da572687bd01ab3bb5f",
+    "path": "app/src/main/java/io/github/stopcran/kanji/ui/WordQuizScreen.kt",
+    "rawBlobSha256": "530ff7e5d6da2829bc08ff57c6356162af04b0ab84598cb7c19127217f71c08c",
+    "actualPinnedFunction": "fun localizedWordPromptTag(tag: String): String {\r\n    val resource = when (tag) {\r\n        \"adjective\" -> R.string.word_tag_adjective\r\n        \"appearance\" -> R.string.word_tag_appearance\r\n        \"body\" -> R.string.word_tag_body\r\n        \"compound\" -> R.string.word_tag_compound\r\n        \"conversation\" -> R.string.word_tag_conversation\r\n        \"daily-life\" -> R.string.word_tag_daily_life\r\n        \"drink\" -> R.string.word_tag_drink\r\n        \"expression\" -> R.string.word_tag_expression\r\n        \"feelings\" -> R.string.word_tag_feelings\r\n        \"giongo\" -> R.string.word_tag_giongo\r\n        \"giseigo\" -> R.string.word_tag_giseigo\r\n        \"gitaigo\" -> R.string.word_tag_gitaigo\r\n        \"godan\" -> R.string.word_tag_godan\r\n        \"intransitive\" -> R.string.word_tag_intransitive\r\n        \"jukujikun\" -> R.string.word_tag_jukujikun\r\n        \"light\" -> R.string.word_tag_light\r\n        \"literary\" -> R.string.word_tag_literary\r\n        \"mimetic\" -> R.string.word_tag_mimetic\r\n        \"movement\" -> R.string.word_tag_movement\r\n        \"nature\" -> R.string.word_tag_nature\r\n        \"noun\" -> R.string.word_tag_noun\r\n        \"onomatopoeia\" -> R.string.word_tag_onomatopoeia\r\n        \"people\" -> R.string.word_tag_people\r\n        \"personality\" -> R.string.word_tag_personality\r\n        \"reduplication\" -> R.string.word_tag_reduplication\r\n        \"ri-ending\" -> R.string.word_tag_ri_ending\r\n        \"size\" -> R.string.word_tag_size\r\n        \"sokuon\" -> R.string.word_tag_sokuon\r\n        \"texture\" -> R.string.word_tag_texture\r\n        \"time\" -> R.string.word_tag_time\r\n        \"verb\" -> R.string.word_tag_verb\r\n        \"voiced\" -> R.string.word_tag_voiced\r\n        else -> return tag\r\n    }\r\n    return stringResource(resource)\r\n}",
+    "unmappedCanonicalTagsByAffectedCard": {
+      "change": [
+        "words/兆候.md"
+      ],
+      "communication": [
+        "words/合図.md",
+        "words/信号.md"
+      ],
+      "computing": [
+        "words/コード.md"
+      ],
+      "documents": [
+        "words/署名.md"
+      ],
+      "electricity": [
+        "words/コード.md"
+      ],
+      "health": [
+        "words/症状.md"
+      ],
+      "humanity": [
+        "words/人類.md"
+      ],
+      "language": [
+        "words/記号.md",
+        "words/表現.md"
+      ],
+      "marks": [
+        "words/点.md"
+      ],
+      "materials": [
+        "words/縄.md"
+      ],
+      "mathematics": [
+        "words/サイン.md"
+      ],
+      "music": [
+        "words/コード.md"
+      ],
+      "objects": [
+        "words/縄.md"
+      ],
+      "observation": [
+        "words/兆候.md"
+      ],
+      "signs": [
+        "words/印.md"
+      ],
+      "suffix": [
+        "words/方.md"
+      ],
+      "suru-verb": [
+        "words/サイン.md",
+        "words/署名.md",
+        "words/合図.md",
+        "words/表現.md"
+      ],
+      "symbols": [
+        "words/記号.md"
+      ],
+      "traces": [
+        "words/足跡.md",
+        "words/跡.md"
+      ],
+      "traffic": [
+        "words/信号.md"
+      ],
+      "writing": [
+        "words/句読点.md"
+      ]
+    },
+    "unmappedOccurrences": 27,
+    "limits": "Exact immutable blob/function freshly hash-verified; current dirty app/main/phone rendering UNVERIFIED. App untouched, no build."
+  },
+  "reviewStatus": "pending",
+  "independentReviewer": null,
+  "limits": "Authorreasoning/checksonly,notindependent/native/app/device/media/checkpoint/releaseapproval."
+}
