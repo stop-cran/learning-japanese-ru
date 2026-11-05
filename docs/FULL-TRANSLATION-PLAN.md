@@ -740,3 +740,39 @@ Existing licenses/root Unicode notice remain; four strokeRAWs exactly match froz
 Canonical `irregular` ID stays unchanged; current app rendering is UNVERIFIED, app untouched.
 No phone/IME/native/playback/newmedia/packageaudio/C6/C7/ordinaryactivation/release/checkpoint
 authority follows. Continue sequential safe authoring across every remaining frozen family.
+
+Batch **021 — everyday-foundation kanji and monthly/contingency words** adds complete
+万・国・語・母・父・毎・海 cards, two word articles and seven exact frozen-source KanjiVG
+stroke files. A separate immutable pre-authoring amendment adds今月to the initially17old
+bodies: the actual18old bodies restore22source-linked wrappers, not21distinct target pairs.
+All their other RAW bytes and prior justified Russian adaptations remain. The
+[accepted source record](translation-batches/021-everyday-foundations-kanji-reviewed-source.json)
+binds all34affected paths to frozen English and current Russian RAW/LF/canonicalGit hashes.
+
+One genuine independent whole-batch read-only review covers all45completeRU/ENpairs:
+27authored/amended bodies and18additional complete contexts, plus all404word/86kanji
+title/guard rows. It reports CLEAN Japanese correctness, assigned coverage/dependencies/
+quiz semantics and Russian comprehensibility; no required finding or optional polish.
+The490title rows are not490complete-body reviews. The returned report records complete
+reading ranges and recovered administrative truncations; individual execution history
+was not exposed by the synchronous invocation. Author recomputed the exact snapshot hashes.
+All21new-kanji directed edges are reviewed. The one source語→話 edge becomes語→口:
+ordinary speaking meanings overlap despite different short titles. No new word exclusion
+or transitive clique was required. Qualified每historical-form wording, explicit母rare-reading
+dictionary-classification difference and modern/historical語らうsenses preserve the evidence
+boundaries without silently migrating Japanese grading/classification metadata.
+
+Current membership is **606runtime objects**:86kanji,404words,86strokes,2articles,
+22counterfiles,onegrammarset,2scenecatalogs and3images. Actual kanji levels68N5/14N4/4N3
+leave12of the frozen80N5kanji absent. Fresh strict8278-entry progress:
+**606reviewed-current**, **no partial**, **two reviewed runtime-blocked drafts**,
+**7,670pending** and **7,672runtimepathsabsent**. All572unaffected baseline RAW objects
+remain unchanged; historical receipts are immutable, checkpointauthoritynull/Readyfalse.
+Actual final serialized checks:0errors/124tests43.963s; final budget614files/623entries/
+1795849retained/1812531inflated/898650localZIPbytes; version `74520d18c4425b1b`.
+Public desktop archive/exact-main CI remain separate publication evidence, not inferred here.
+Existing licenses/root Unicode notice remain; seven strokeRAWs exactly match frozen blobs.
+New retained canonical `set-phrase` and `simplified-form` app rendering is UNVERIFIED,
+not a proven defect; concurrent app untouched. No phone/IME/native/playback/newmedia/
+packageaudio/C6/C7/ordinaryactivation/release/checkpoint authority follows. Continue
+sequential safe authoring across every remaining frozen family, not just this milestone.

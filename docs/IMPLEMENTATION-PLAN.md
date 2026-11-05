@@ -8,6 +8,31 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The twenty-first full-target source batch adds full万・国・語・母・父・毎・海 cards,
+two complete word articles and seven RAW-identical licensed frozen-source strokes.
+The separately frozen navigation amendment covers18old bodies with22exact wrappers;
+all other old RAW bytes and572unaffected baseline runtime objects remain unchanged.
+[Batch021 accepted source](translation-batches/021-everyday-foundations-kanji-reviewed-source.json)
+binds all34affected paths and the actual independent whole45RU/EN-pair review:
+27authored/amended bodies plus18complete contexts, all404word/86kanji title/guard rows,
+three CLEAN textual facets and no required finding. The490title rows are not490body reviews.
+All21new directed kanji edges were read. One source語→話 edge becomes語→口 because
+ordinary speaking meanings overlap; no new word guard or transitive clique was required.
+每historical-form wording, named-dictionary母rare-reading classification and語らうregister
+retain their evidence boundaries; technical Japanese fields/classifications stay stable.
+
+Current membership606:86kanji/404words/86strokes/2articles/22counterfiles/onegrammarset/
+2scenecatalogs/3images. Strict8278-entry progress:606reviewed-current, no partial,
+two reviewed runtime-blocked drafts,7,670pending and7,672runtimepathsabsent.
+Kanji levels68N5/14N4/4N3 leave12frozenN5kanji absent; no invented syllabus coverage.
+Actual final serialized checks:0errors/124tests43.963s; final budget614files/623entries,
+1795849retained/1812531inflated/898650localZIPbytes; version `74520d18c4425b1b`.
+Public desktop archive/exact-main CI follow separately from source acceptance.
+New retained canonical `set-phrase` and `simplified-form` app rendering is UNVERIFIED,
+not a proven defect; concurrent app untouched. Historical receipts remain immutable.
+No native/phone/IME/playback/newmedia/packageaudio/C6/C7/activation/release/checkpoint authority.
+Continue every remaining safe frozen family; this is not full-corpus or allN5 completion.
+
 The twentieth full-target source batch adds complete motion/position cards for前・後・来・行,
 six complete words and four RAW-identical licensed frozen-source strokes; nine older bodies
 restore one source-linked wrapper each without altering their other RAW bytes.

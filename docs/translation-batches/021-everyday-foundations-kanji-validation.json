@@ -1,0 +1,85 @@
+{
+ "allPassed": true,
+ "authoringCommit": "a8ad4c8f2da6589526986db3f1feb9f436556b13",
+ "batch": "021-everyday-foundations-kanji",
+ "budget": {
+  "entries": 623,
+  "files": 614,
+  "inflatedBytes": 1812531,
+  "listeningTaskMediaBytes": 0,
+  "localZipBytes": 898650,
+  "retainedBytes": 1795849
+ },
+ "checkpointAuthority": null,
+ "commands": [
+  {
+   "argv": [
+    "python",
+    "tools\\build_manifest.py"
+   ],
+   "completedAt": "2026-11-05T07:21:58.263195+00:00",
+   "durationSeconds": 0.18799999996554106,
+   "returncode": 0,
+   "startedAt": "2026-11-05T07:21:58.081517+00:00",
+   "stderr": "",
+   "stdout": "manifest.json: 606 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 74520d18c4425b1b\n"
+  },
+  {
+   "argv": [
+    "python",
+    "tools\\validate.py"
+   ],
+   "completedAt": "2026-11-05T07:22:00.167081+00:00",
+   "durationSeconds": 1.5,
+   "returncode": 0,
+   "startedAt": "2026-11-05T07:21:58.681776+00:00",
+   "stderr": "",
+   "stdout": "0 error(s)\n"
+  },
+  {
+   "argv": [
+    "python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tools",
+    "-p",
+    "test_*.py"
+   ],
+   "completedAt": "2026-11-05T07:22:44.447358+00:00",
+   "durationSeconds": 44.26599999994505,
+   "returncode": 0,
+   "startedAt": "2026-11-05T07:22:00.169100+00:00",
+   "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 43.963s\n\nOK\n",
+   "stdout": ""
+  },
+  {
+   "argv": [
+    "python",
+    "tools\\check_content_budget.py"
+   ],
+   "completedAt": "2026-11-05T07:22:44.891178+00:00",
+   "durationSeconds": 0.4529999999795109,
+   "returncode": 0,
+   "startedAt": "2026-11-05T07:22:44.447358+00:00",
+   "stderr": "",
+   "stdout": "{'files': 614, 'entries': 623, 'retainedBytes': 1795849, 'inflatedBytes': 1812531, 'localZipBytes': 898650, 'listeningTaskMediaBytes': 0}\n"
+  }
+ ],
+ "execution": "Author waits for actual exit before launching each next command; no delegated tests/native builds.",
+ "manifest": {
+  "contentVersion": "74520d18c4425b1b",
+  "rawSha256": "367f089a3c8ef60bf1f948222c42a92a40da5933c11953e27f75a20284dd89d6",
+  "runtimeObjects": 606,
+  "unchangedFromActualReviewedSnapshot": true
+ },
+ "ordinaryActivationAuthorized": false,
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "tests": {
+  "count": 124,
+  "result": "OK",
+  "runnerSeconds": 43.963
+ }
+}
