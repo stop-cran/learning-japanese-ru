@@ -8,6 +8,34 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The twenty-seventh full-target source batch adds 14 complete N5 numeral word
+articles without changing any of the 781 baseline runtime RAW objects.
+[Batch 027 reviewed source](translation-batches/027-numeral-words-reviewed-source.json)
+and its [independent report](translation-batches/027-numeral-words-independent-review.json)
+bind the actual signed candidate, all 39 complete EN/RU pairs, all 483 combined
+word-title/metadata/guard rows and 14 complete selected lexical objects.
+One read-only reviewer returned explicit C1/C2/C3 CLEAN within this scope, with
+no required fixes; this is not 483 whole-body or whole-corpus/native acceptance.
+The nine numeral/general-count exclusions are valid conservative direct pairs;
+the ゼロ–零 pair is valid but defensively redundant where exact-title deduplication
+already applies. No unit/date/category cliques or transitive guards were added.
+
+Membership is 795 runtime objects: 141 kanji/483 words/141 strokes/2 articles/
+22 counter files/one grammar set/2 scene catalogs/3 images. Fresh strict progress:
+795 reviewed-current, no partial, two excluded reviewed runtime-blocked drafts,
+7,481 pending and 7,483 absent runtime paths. The word pool includes 309 of 672
+frozen N5 words; 363 N5 words and every other pending family remain in scope.
+Version `d449a612af670113`; checkpoint authority null/Ready false.
+Actual final serialized checks: validator 0 errors, 124 tests OK in 37.494s,
+budget 803 files/812 entries/2,294,558 retained/2,311,240 inflated/1,148,688 ZIP bytes.
+Source integration/public archive/exact-main CI are separately evidenced.
+Canonical tag `quantity` is new to the adopted word pool; its app hint remains
+UNVERIFIED, not an established missing mapping. The concurrent app was untouched.
+No new assets, paid generation, phone/IME/playback/C6/C7/activation/release
+authority follows. Continue the entire frozen corpus after this milestone.
+
+Earlier accepted milestones below are historical.
+
 The twenty-sixth full-target source batch adds29complete kanji and29RAW-identical
 licensed frozen strokes. [Batch026 reviewed source](translation-batches/026-n5-kanji-closure-reviewed-source.json)
 binds119affected paths:58new objects,60navigation-only old bodies and日's one-line

@@ -1012,3 +1012,51 @@ generation occurred. Existing app-tag gaps remain unresolved; concurrent app unt
 No phone/IME/playback/newpackage/C6/C7/ordinaryactivation/release/checkpoint authority
 follows. Continue remainingN5words and every safe frozen level/family; full task is
 still in progress, independent of the separately blocked release/device/media gates.
+
+## Reviewed source milestone 027: numeral words
+
+The [reviewed source record](translation-batches/027-numeral-words-reviewed-source.json)
+adds complete Russian articles for ゼロ、一、七、万、三、九、二、五、八、六、千、四、百、零.
+All 781 baseline runtime RAW objects remain unchanged. The source stays frozen at
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`. Exact pre-authoring headers, scope,
+source/adaptation evidence and unreviewed candidate remain immutable historical records.
+
+One [independent read-only reviewer](translation-batches/027-numeral-words-independent-review.json)
+actually read all 39 complete frozen EN/RU pairs, all 483 combined word-title/
+metadata/direct-guard rows and all 14 complete selected lexical objects. It returned
+explicit C1/C2/C3 CLEAN within that scope, with no actionable findings or required
+corrections. This does not claim 483 complete bodies, native-human certification
+or whole-corpus acceptance. The nine numeral/general-count direct exclusions are
+valid conservative safeguards, not uniquely mandatory rules; ゼロ–零 is valid
+and defensively redundant under existing exact-title deduplication. No numeric
+category, currency, person or calendar clique was invented.
+
+The original ゼロ query's zero literal spelling matches remain recorded honestly:
+the actual selected object supplies ０/〇/零 read ゼロ and a kana-use note, not a
+literal `word:ゼロ` match. 百's separate Place “Hyaku” sense is not numeral evidence.
+Frozen community N5 labels and inherited attribution IDs remain; API levels and
+the absence of API entry IDs do not authorize invented metadata corrections.
+Japanese examples, readings, type/IDs/tags, sound changes and quantities remain.
+English-dependent comparisons in 六/千 become Japanese counting explanations;
+零点五 stays Japanese while its Russian decimal gloss uses 0,5. Only the absent
+零 kanji navigation wrapper is omitted; its kanji metadata and teaching remain.
+
+Membership is **795 runtime objects**: 141 kanji/483 words/141 strokes/2 articles/
+22 counter files/one grammar set/2 scene catalogs/3 images. Word levels are
+309 N5/49 N4/54 N3/17 N2/54 unlabelled. All 80 frozen N5 kanji are present, but
+**363 of 672 frozen N5 words remain**. Fresh strict 8,278-entry progress:
+**795 reviewed-current**, **no partial**, **two excluded reviewed runtime-blocked
+drafts**, **7,481 pending**, **7,483 runtime paths absent**.
+Checkpoint authority null/Ready false; version `d449a612af670113`.
+Final serial checks: manifest regenerated without change, validator 0 errors,
+124 tests OK in 37.494s; budget 803 files/812 entries/2,294,558 retained/
+2,311,240 inflated/1,148,688 ZIP bytes. Publication/signatures/desktop archive/
+exact-main CI are separate actual receipts, not device or release acceptance.
+
+No new strokes/images/scenes/audio or paid generation occurred. The canonical
+`quantity` tag is new to the adopted word pool; its Russian app hint is UNVERIFIED,
+not an established missing mapping. The concurrent app checkout remains untouched.
+Existing device/IME/playback/exact media-package/C6/C7/ordinary activation/release
+gates remain separate. Continue remaining N5 and all safe frozen levels/families,
+including honest excluded drafts for restricted listening packages; the full task
+is still in progress.
