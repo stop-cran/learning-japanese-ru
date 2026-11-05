@@ -1,0 +1,245 @@
+{
+ "authority": "Author evidence/proposal, not independent approval or device/media/release authority.",
+ "batch": "021-everyday-foundations-kanji",
+ "decisions": [
+  {
+   "boundary": "Only語→話 becomes語→口;21edge count stays. Preserve substantive語/話 comparison and all other source technical metadata. Proposal requires independent review.",
+   "evidence": [
+    "KanjiPedia語 meaning1 かたる/話をする, named角川新字源 phonetic account",
+    "Complete語 KANJIDIC record includes speech",
+    "Complete語る JMdict object includes talk about/speak of/tell/narrate",
+    "Complete currentRU/frozenEN話 pair; actual口 title рот and complete body distinguish mouth/opening from speaking meaning."
+   ],
+   "id": "021-A001",
+   "planned": [
+    "口",
+    "読",
+    "五"
+   ],
+   "reason": "Actual語 meaning includes speaking/talking, not just language/word; actual話 title is говорить; разговаривать and full body includes telling/conversation. Merely different short titles do not make話 a reliably wrong meaning.",
+   "scope": "kanji/語.md distractors",
+   "source": [
+    "話",
+    "読",
+    "五"
+   ]
+  },
+  {
+   "boundary": "No new runtime每 card, reading, classification or modern-frequency claim.",
+   "evidence": [
+    "Complete每 KANJIDIC record, grade10/JIS213/variantU+6BCE",
+    "Named KanjiPedia毎 entry actually displays每 as旧字 and identifies educational毎 as省略形."
+   ],
+   "id": "021-A002",
+   "reason": "Do not repeat blanket source claim that每 is not used in Japanese text. Keep old-form relation and identify毎 as the modern standard form.",
+   "scope": "kanji/母.md 毎/每 note"
+  },
+  {
+   "boundary": "Same source grading/readings/母屋もや example; no claim that dictionary classifications universally agree or that all senses share all readings.",
+   "evidence": [
+    "Complete母 KANJIDIC ja_kunも field",
+    "Complete KanjiPedia母 on listボ/モ/ボウ and母屋モや example",
+    "Two full JMdict母屋 objects distinguishおもや andもや/むや forms and multiple architecture/main-building senses."
+   ],
+   "id": "021-A003",
+   "reason": "Preserve frozen kunyomiも using explicitly named KANJIDIC2 classification; KanjiPedia listsモ as on. Explain dictionary classification difference rather than silently changing grading.",
+   "scope": "kanji/母.md rare reading row"
+  },
+  {
+   "boundary": "All Japanese examples/readings stay; no invented frequency ranking. Initial simplified Weblio fetch did not expose a useful dictionary body; raw first12000characters were ad scripts, not positive proof. Actual named Kotobank bodies later read from verified raw capture.",
+   "evidence": [
+    "Complete JMdict語らう object",
+    "Actual complete named digitalDaijisen body: friendly talk sense1 plus historical senses",
+    "Actual complete named精選版日本国語大辞典 body: modern friendly talk senseII5, historical textual examples and語誌."
+   ],
+   "id": "021-A004",
+   "reason": "Retain friendly conversation and the literary association, but do not imply that the modern conversation sense exists only in literary language. Explain that the word also occurs in older literary texts.",
+   "scope": "kanji/語.md 語らう gloss/register"
+  },
+  {
+   "boundary": "Dictionary classifications can differ: father sourcepictograph remains, while named dictionary uses会意; explain an attributed hand/tool account rather than claim unanimous categorization. No bulk import of extra dictionary readings or JLPT levels. Image glyphs not inspected.",
+   "evidence": [
+    "Seven complete KanjiPedia texts, attributed to角川新字源改訂新版, source hashes below",
+    "Ten complete KANJIDIC records, six exact Unicode17radical rows"
+   ],
+   "id": "021-A005",
+   "reason": "Retain qualified frozen teaching and technical IDs, with explicit modern-shape/mnemonic/historical distinctions and actual named-dictionary attribution where useful.",
+   "scope": "all7kanji origins/rare metadata"
+  },
+  {
+   "boundary": "No English comparison needed; no new source negative edges or currently evidenced Russian direct overlap. Combined404word/86kanji titles and actual meanings require final independent review.",
+   "evidence": [
+    "Complete frozen source cards",
+    "Complete exact matching JMdict万一 and毎月 objects"
+   ],
+   "id": "021-A006",
+   "reason": "Preserve all source meanings, constructions/examples, readings and qualifiers. 万一 adds unlikely contingency framing; following conditional supplies if; numerical image is not measured probability. 毎月 sourcekango field stays while actualまいつき mixed reading andまいげつ on/on are taught.",
+   "scope": "words/万一.md and毎月.md"
+  }
+ ],
+ "primaryEvidence": {
+  "completeLexicalQueriesActuallyRead": [
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "万一",
+    "responseRawSha256": "5f1e88d9d8b60b5a21a213e0991978aab3a89cb3e924013fd112b130c652f7af",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E4%B8%87%E4%B8%80"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "毎月",
+    "responseRawSha256": "401ce131a50dac2acf4c48da477840e84d5cc4ce3d21289fad9ab36615435cdf",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E6%AF%8E%E6%9C%88"
+   },
+   {
+    "matchingObjectOccurrences": 2,
+    "query": "母屋",
+    "responseRawSha256": "008e7ea41a71aa81a15998e4bd9cd106be9b23a054527a863556b763ce89edc8",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E6%AF%8D%E5%B1%8B"
+   },
+   {
+    "matchingObjectOccurrences": 2,
+    "query": "毎",
+    "responseRawSha256": "38bdd3f520123ac1dd908ebda71ba4241b0174879c404f2bf3293cf523e5105f",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E6%AF%8E"
+   },
+   {
+    "matchingObjectOccurrences": 3,
+    "query": "母",
+    "responseRawSha256": "72fb78f38cb60c0feafd7c56cf97ae268fe8669696d6afe415ae7c8a6b242b2d",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E6%AF%8D"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "語る",
+    "responseRawSha256": "a163aa35a49e8de50b71da03e22d1144fbdb4492d8b747a287d601b9e0b3a858",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E8%AA%9E%E3%82%8B"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "語らう",
+    "responseRawSha256": "eb6338f39ab35e0eadf323c94a6d6c6d153cf22e425328c769000d1c860e461d",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E8%AA%9E%E3%82%89%E3%81%86"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "万屋",
+    "responseRawSha256": "106492a789a97e8db8259d10428bfb69fb76e0782e534189213decc579ed11a9",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E4%B8%87%E5%B1%8B"
+   },
+   {
+    "matchingObjectOccurrences": 1,
+    "query": "万能",
+    "responseRawSha256": "1e28978415c836bad53c4d9210820ac4eefe4646c0e21dc6b9081369500fc7ed",
+    "url": "https://jisho.org/api/v1/search/words?keyword=%E4%B8%87%E8%83%BD"
+   }
+  ],
+  "completePrimaryTextsActuallyRead": [
+   {
+    "actuallyRead": "Complete non-script text returned with END marker; images not inspected.",
+    "query": "万",
+    "rawBytes": 13991,
+    "rawSha256": "f1a576e9aee821218831b09226fd7cfbdca963c76d623df2f8558f61486f971b",
+    "url": "https://www.kanjipedia.jp/kanji/0006573600"
+   },
+   {
+    "actuallyRead": "Complete non-script text returned with END marker; images not inspected.",
+    "query": "国",
+    "rawBytes": 13083,
+    "rawSha256": "b8e2bdffe4c50d817973e0a352451d5ef7229976e93fd90b7755ef748d54a2bd",
+    "url": "https://www.kanjipedia.jp/kanji/0002372600"
+   },
+   {
+    "actuallyRead": "Complete non-script text returned with END marker; images not inspected.",
+    "query": "語",
+    "rawBytes": 16808,
+    "rawSha256": "5ad7fb2287373b8270a9d79767d5c6f6988ad2a7bfb1f92f3ec75b49f75fdf4a",
+    "url": "https://www.kanjipedia.jp/kanji/0002110200"
+   },
+   {
+    "actuallyRead": "Complete non-script text returned with END marker; images not inspected.",
+    "query": "母",
+    "rawBytes": 9672,
+    "rawSha256": "0319fcde833d5f86ad41a20fba87749fbd0f0173b5a238afc7f44b65fa7907fa",
+    "url": "https://www.kanjipedia.jp/kanji/0006317900"
+   },
+   {
+    "actuallyRead": "Complete non-script text returned with END marker; images not inspected.",
+    "query": "父",
+    "rawBytes": 8591,
+    "rawSha256": "91dd8de2543227d1ee4dedef547ec197ebbcc6637f34b0b4bb7e83a0c00d9fc3",
+    "url": "https://www.kanjipedia.jp/kanji/0006017800"
+   },
+   {
+    "actuallyRead": "Complete non-script text returned with END marker; images not inspected.",
+    "query": "毎",
+    "rawBytes": 8024,
+    "rawSha256": "c2877d9fdf638524ce051a17c51585a409fecbdf8df6cdd7d49d8e7ae49691f6",
+    "url": "https://www.kanjipedia.jp/kanji/0006531100"
+   },
+   {
+    "actuallyRead": "Complete non-script text returned with END marker; images not inspected.",
+    "query": "海",
+    "rawBytes": 32282,
+    "rawSha256": "52a2eb8a0b08058341f52a893c4073e476b0aa66d3a85bb2c5eee4b7e9560da7",
+    "url": "https://www.kanjipedia.jp/kanji/0000784700"
+   },
+   {
+    "actuallyRead": "Complete non-script text returned with END marker; images not inspected.",
+    "query": "語らう",
+    "rawBytes": 212553,
+    "rawSha256": "376fb8a54d801b0ce68714d7e6276e48cd6674c5a5aee2d559af8e53953f3d76",
+    "url": "https://kotobank.jp/word/%E8%AA%9E%E3%82%89%E3%81%86-463791"
+   }
+  ],
+  "completeRadicalRowsActuallyRead": [
+   {
+    "completeUnicodeRow": "2F00;KANGXI RADICAL ONE;So;0;ON;<compat> 4E00;;;;N;;;;;",
+    "number": 1
+   },
+   {
+    "completeUnicodeRow": "2F1E;KANGXI RADICAL ENCLOSURE;So;0;ON;<compat> 56D7;;;;N;;;;;",
+    "number": 31
+   },
+   {
+    "completeUnicodeRow": "2F4F;KANGXI RADICAL DO NOT;So;0;ON;<compat> 6BCB;;;;N;;;;;",
+    "number": 80
+   },
+   {
+    "completeUnicodeRow": "2F54;KANGXI RADICAL WATER;So;0;ON;<compat> 6C34;;;;N;;;;;",
+    "number": 85
+   },
+   {
+    "completeUnicodeRow": "2F57;KANGXI RADICAL FATHER;So;0;ON;<compat> 7236;;;;N;;;;;",
+    "number": 88
+   },
+   {
+    "completeUnicodeRow": "2F94;KANGXI RADICAL SPEECH;So;0;ON;<compat> 8A00;;;;N;;;;;",
+    "number": 149
+   }
+  ],
+  "completeXmlRecordsActuallyRead": [
+   "万",
+   "国",
+   "語",
+   "母",
+   "父",
+   "毎",
+   "海",
+   "每",
+   "吾",
+   "萬"
+  ],
+  "kanjidicGzipSha256": "e26e34c9187a786bf1f0b21f87e311a9b0ed644aefe9693d10bdc7cb8643d8e0",
+  "kanjidicXmlSha256": "01bf4cc9b3a72d7fa521a780c0e7f35c479d314d35654131b45f1f359dc69311",
+  "matchingObjectOccurrences": 13,
+  "nonLexicalSenseBoundary": "Wiki architecture and万能Place/rake meanings are not adopted lexical proof for unrelated readings/senses.",
+  "notWholeDictionaryOrUnrelatedQueryResults": true,
+  "unicodeSha256": "2e1efc1dcb59c575eedf5ccae60f95229f706ee6d031835247d843c11d96470c"
+ },
+ "recordedAt": "2026-11-05T07:06:30.997604+00:00",
+ "reviewStatus": "pending",
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "stage": "Author source adjudications before runtime changes; independent review pending."
+}
