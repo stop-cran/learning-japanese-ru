@@ -8,7 +8,30 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-The fifteenth full-target source batch completes37 full calendar/count word articles,
+The sixteenth full-target source batch completes25 full everyday reading-word articles:
+19roots plus six real source negative-reference dependencies, preserving24N5/oneN3.
+[Batch016](translation-batches/016-everyday-reading-words-review.json) records actual whole
+820EN/844RU-line reading,25titles/100sections/all350displayed meanings/nine complete unchanged
+Russian baseline bodies310lines. All73complete dictionary query/entry occurrences comprise
+126forms/289objects=270lexical+twoPlace+17Wiki; no unique-lexeme or blanket-adoption assertion.
+Both complete textual Tokyo-pitch sections support雨HL/飴LH, not audio/native acceptance.
+All eight source-directed edges and eight individually reviewed direct Russian guards survive;
+足–お金is explicitly narrowly conservative, with colloquial/usuお〜witness, not ordinary bare
+money usage. No transitive colour/food/bodypart/transport/movement clique is inferred.
+The actual whole three-facet review found no consequential defect; all scoped facets CLEAN.
+Hand/foot non-antonym, every-year dual readings, birth/knowledge/loan/colour/half distinctions
+remain; two directly related guidance lines document the source-label discrepancy.
+Current membership416; strict8278-entry statuses416reviewed-current, no partial, two reviewed
+runtime-blocked drafts and7,860pending, with7,862runtime paths absent. All391 earlier tracking
+records/non-record sections and runtimeRAWobjects remain unchanged; checkpointauthoritynull/Readyfalse.
+Serialized checks:0errors/124tests48.039s; budget423files432entries1294859retained/
+1308876inflated/651417localZIPbytes; version `faa2fe07d4ce9f22`.
+Eleven pinned-app unmapped IDs affect13occurrences; IDs stable, concurrent app untouched.
+All25new working texts are CRLF; normalized/Git/public domains remain distinct.
+No new assets/grammar/media or device/native/C6/C7/package/activation/release/checkpoint authority.
+Continue safe required-word support for the57-new-kanji component, then all remaining frozen families.
+
+The fifteenth full-target source batch completed37 full calendar/count word articles,
 preserving23 N5/14 unlabelled source levels. [Batch015](translation-batches/015-calendar-count-words-review.json)
 records whole1134EN/1138RU-line reading,37 titles/148 sections, all325 displayed meanings and
 full日/人 source/RU pairs. Source zero negative edges and two justified direct Russian guards
@@ -19,7 +42,7 @@ One genuine minor finding required removal of an unsupported added一千円 spel
 False historical capture attributions are explicitly withdrawn by a superseding erratum;
 immutable originals remain. An independent exact-delta/evidence recheck resolved B015-R1.
 Other36 new words/all354 earlier runtime RAW objects are unchanged; final composite facets CLEAN.
-Current membership391; strict8278-entry statuses391reviewed-current, no partial, two reviewed
+At that milestone membership391; strict8278-entry statuses391reviewed-current, no partial, two reviewed
 runtime-blocked drafts and7,885pending, with7,887runtime paths absent. All354 old tracking records/
 non-record sections unchanged; checkpoint authority null/Ready false.
 Final serialized checks:0errors/124tests32.014s; budget398files407entries1234441retained/

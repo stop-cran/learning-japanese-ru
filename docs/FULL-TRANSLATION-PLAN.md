@@ -551,7 +551,7 @@ rewriting them. An independent exact-delta/evidence recheck resolved B015-R1 at 
 other36 new words/all354 baseline RAW objects remain unchanged. This is a whole37 review plus
 a real narrow recheck, not two whole37 semantic reviews. All final composite facets are CLEAN.
 
-Current membership is **391 runtime objects**:18 kanji,325 words,18 strokes,2 articles,22 counter
+At the015 milestone membership was **391 runtime objects**:18 kanji,325 words,18 strokes,2 articles,22 counter
 files,1 grammar set,2 scene catalogs and3 images. Fresh strict8278-entry progress has
 **391 reviewed-current**, **no partial units**, **two reviewed runtime-blocked drafts** and
 **7,885 pending**; **7,887 runtime paths remain absent**. All354 prior tracking records and
@@ -566,3 +566,37 @@ grammar contexts or media were added. C6/C7/native/device/IME/media/package/acti
 checkpoint authority and frozen runtime refs remain separate. Continue the next safe required-word
 support batch for the actual57-new-kanji distractor component, then all remaining frozen families;
 mandatory distractors are not dropped to shrink the scope.
+
+Batch **016 — everyday reading-word prerequisites** completes25 full word articles:19 roots
+and six mandatory source negative-reference dependencies. Source24 N5/one N3 classifications and
+all eight directed source edges remain unchanged. Eight individually reviewed additional direct
+Russian guards protect actual car/transport, knowledge, departure/appearance and birth-appearance
+overlaps. The足–お金pair is narrowly conservative: its witness is colloquial and usually
+prefixedお, not proof that ordinary bare足means money. No transitive family clique is inferred.
+
+[Actual whole review](translation-batches/016-everyday-reading-words-review.json) records complete
+820EN/844RU-line reading,25 titles/100 sections, all350 actual displayed meanings and nine complete
+unchanged Russian baseline bodies totalling310lines. All73 complete dictionary query/entry
+occurrences were read:126forms/289objects=270lexical+twoPlace+17Wikipedia; occurrences are not
+unique lexemes or blanket sense adoption. Both complete textual Japanese Tokyo-pitch sections
+confirm雨HL/飴LH, without audio-listening claims. No consequential finding or required correction
+was established; all three scoped source/text facets are CLEAN after the actual whole review.
+
+Source手–足is correctly a body-part comparison, not a strict antonym pair. Both毎年readings,
+intransitive birth, know/understand qualifications, lending direction, half/minute and colour
+conventions remain explicit. Two related active-guidance lines document the source-label issue.
+All391 prior runtime RAW objects/tracking records and non-record sections remain unchanged.
+
+Current membership is **416 runtime objects**:18kanji,350words,18strokes,2articles,22counterfiles,
+onegrammarset,2scenecatalogs and3images. Fresh strict8278-entry progress has **416reviewed-current**,
+**no partial units**, **two reviewed runtime-blocked drafts**, **7,860pending** and **7,862runtime
+paths absent**. Checkpoint authority remains null/Readyfalse.
+Actual serialized checks:0errors/124tests48.039s; final budget423files/432entries/
+1294859retained/1308876inflated/651417localZIPbytes; version `faa2fe07d4ce9f22`.
+
+The immutable pinned app function has11 unmapped canonical IDs across13 occurrences in this batch.
+Keep canonical IDs stable and the concurrent app untouched. All25new working texts are CRLF;
+Git/public LF domains are separately verified, not falsely equated with working RAW.
+No new assets/grammar contexts/media or native/device/IME/C6/C7/package/activation/release/checkpoint
+authority follows. Continue the next safe required-word support batch, the real57-new-kanji
+mandatory-distractor component and every remaining frozen family.
