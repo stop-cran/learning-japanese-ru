@@ -1,0 +1,876 @@
+{
+ "actualCompletedReading": {
+  "actualAdditionalHtmlRequests": 5,
+  "actualCompactBaselineAnswerRows": 621,
+  "actualJishoRequests": 38,
+  "boundary": "19 full English primary units/20 unchanged full bilingual contexts/621 compact rows/41 selected candidate rows. NO new Russian body, independent033review or whole-corpus/native/device approval yet.",
+  "completeCandidateQueryObjectRows": 41,
+  "completeContextualEnglishRussianPairs": 20,
+  "completeFrozenPrimaryEnglishBodies": 19,
+  "primarySourceGitRawBytes": 30462,
+  "primarySourceLines": 723
+ },
+ "adjudication": "docs/translation-batches/033-nature-outdoor-activity-source-adjudication.json",
+ "appFollowup": {
+  "actualExactGitBlobPrivateFile": "ru-032-pinned-app-WordQuizScreen-5c000bd.kt",
+  "actualFreshMappingReadingRange": [
+   165,
+   210
+  ],
+  "disposition": "Preserve canonical source IDs; app follow-up only; no concurrent app edit/build.",
+  "exactPinnedAppCommit": "5c000bd5596d2189ef878da572687bd01ab3bb5f",
+  "newlyExposedIdsWithoutExplicitMappingAtThisPin": [
+   "activity",
+   "animals",
+   "leisure",
+   "motion"
+  ],
+  "observation": "The complete inspected localizedWordPromptTag mapping falls back toreturntag; allfour newlyexposed IDs lack explicit cases at THISpin. No claim about concurrent dirty app, all missing IDs or device behavior.",
+  "rawSha256": "530ff7e5d6da2829bc08ff57c6356162af04b0ab84598cb7c19127217f71c08c"
+ },
+ "assets": [],
+ "baselineContentVersion": "5d758becdc2891a3",
+ "baselineRuntimeChangesAuthorizedByThisFreeze": [],
+ "baselineRuntimeCount": 933,
+ "batchId": "033-nature-outdoor-activity",
+ "directGuardsToAuthorForReview": [
+  {
+   "directReason": "The actualそら lexical object and modern Daijisen noun sense2 explicitly include weather; actual current Russian天気 caption is погода.",
+   "from": "空",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "天気"
+  },
+  {
+   "directReason": "The actualそら sense4 includes mental state/mood, oftenそらもない; actual current気 caption includes настроение. Not a claim that every気 idiom allows空.",
+   "from": "空",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "気"
+  },
+  {
+   "directReason": "The same directly inspected mood sense overlaps actual настроение in気分's compound label; not a claim that空 means every physical illness.",
+   "from": "空",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "気分"
+  },
+  {
+   "directReason": "Russian actual unqualified бассейн also denotes artificial water bodies for aquatic animals/other uses; the source池 explicitly includes man-made garden ponds. Partial Russian overlap, not every pond being a swimming pool.",
+   "from": "池",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "プール"
+  },
+  {
+   "directReason": "Actual unqualifiedцвет has a separately attested collective blossom/flowering-plant-part sense, matching花's ordinary flower/blossom sense. Not Japanese花 meaning colour or automatic transfer of the Russian elite sense.",
+   "from": "花",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "色"
+  },
+  {
+   "directReason": "The complete猫 object explicitly records wheelbarrow as an abbreviation of猫車. Actual current車 caption includes the broad транспортное средство. Not Japanese猫 ordinarily meaning an automobile.",
+   "from": "猫",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "車"
+  },
+  {
+   "directReason": "Both actually inspected lexical objects have ordinary rushing/fleeing/run-off senses; actual newбежать; бегать can defensibly overlap飛ぶ in the fleeing/rushing use. Preserve literal flight and jumping teaching.",
+   "from": "飛ぶ",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "走る"
+  },
+  {
+   "directReason": "Actual baselineидти inидти; ехать fits the ordinary walking sense of歩く. Preserve walk versus general going; not every行く implies walking.",
+   "from": "歩く",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "行く"
+  },
+  {
+   "directReason": "Actual vehicle-motion走る includes a moving train; actual baselineидти; ехать is defensible for that vehicle motion. Running on foot is not simply walking.",
+   "from": "走る",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "行く"
+  },
+  {
+   "directReason": "Actual散歩 object is noun/suru/intransitive for a walk/stroll; actual newходить пешком fits that walking activity. Not every歩く is recreational or a universal noun/verb equivalence.",
+   "from": "散歩",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "歩く"
+  },
+  {
+   "directReason": "Actual吹く includes playing wind instruments; unqualified newиграть in遊ぶ's actual label is defensible for that instrument use. The Japanese verbs are not generally interchangeable.",
+   "from": "吹く",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "遊ぶ"
+  },
+  {
+   "directReason": "Actual吹く object sense7 explicitly records bursting into laughter, taggedSlang, notArchaic. Actual unchanged笑う label includesсмеяться. Keep the colloquial qualifier and primary blowing teaching distinct.",
+   "from": "吹く",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "笑う"
+  },
+  {
+   "directReason": "Ordinary Russian precipitation usesидти; actual baseline行く caption is unqualifiedидти; ехать. Not a claim that Japanese行く ordinarily describes rainfall.",
+   "from": "降る",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "行く"
+  },
+  {
+   "directReason": "Actual降る object also records luck/misfortune coming/arriving. Actual baselineприходить inприходить; приезжать is defensible for that sense, not a reading change toおりる.",
+   "from": "降る",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "来る"
+  },
+  {
+   "directReason": "Actual Russianотдыхать includes spending vacation/free time, not only physical recovery;遊ぶ's inspected recreation/idle senses overlap that actual current label. Not every rest means play.",
+   "from": "遊ぶ",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "休む"
+  },
+  {
+   "directReason": "Actual走る includes flashing/streaking lightning; actual unqualifiedсверкать inсиять; сверкать is defensible for lightning flashing. Not transitive closure of all light words.",
+   "from": "走る",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "輝く"
+  },
+  {
+   "directReason": "The same directly inspected lightning-flash use admits actual unqualifiedсверкать inмерцать; сверкать; do not claim every movement or every bright room is twinkling.",
+   "from": "走る",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "きらきら"
+  }
+ ],
+ "explicitReviewQuestions": [
+  "Independently adjudicate all17 proposed direct pairs against actual640-caption candidate pool, not just distinct strings. In particular evaluate vehicle/wheelbarrow, Russianцвет/бассейн/идти/отдыхать polysemy, source extras and lightning-caption safeguards. Reject unsupported overguards rather than approving a category clique.",
+  "Actual modern Daijisenそら noun3 is a far-off place relative to someone's home/base. Decide whether actual遠く далеко; вдали and/or遠い далёкий; далеко warrant direct guards against空. No automatic transitivity from existing遠い–遠く.",
+  "Actual走る lightning use might also admit actual光る светиться; блестеть. No走る–光る edge authored by this freeze; decide from real Russian answer semantics, not an Englishflash/shine gloss alone.",
+  "Decide whether散歩–行く is necessary beyond explicitly proposed散歩–歩く and歩く–行く. Do not infer the third pair transitively; account for the actual noun/suru identity and displayedидти caption.",
+  "Inspect possible吹く–咲く Russianцвести overlap against actual plant-bud/surface-coating senses. The actually read Russianцвести definition range lists flowering, figurative flourishing, algae and skin rash, not a cited mould/rust definition. Do not invent source evidence or approve an unsupported extra pair.",
+  "Actual吹く also has brag/talk-big sense. Decide whether actual pool話す/ぺらぺら captions create a defensible DIRECT answer overlap, rather than shared vocal activity; no such edge authored here.",
+  "Do not automatically clique animals, pets, species, food, activity categories, containers or all light words. Wikipedia enrichment andＰＥＴ phonetic fallback are NOT ordinary source-sense or N5 authorizations."
+ ],
+ "frozenSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "grammarVocabularyContexts": [],
+ "intakeCommit": "10c9ca9749f0b3d841a55d58efd7081fea566418",
+ "mandatoryNewKanjiProviders": [],
+ "newWords": [
+  {
+   "map": "files",
+   "path": "words/空.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "0a7cad8579556ca7089666e53bf49e2be12eed2c4d0a93d3f55c020eae63b3e6",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "空"
+    ],
+    "reading": "そら",
+    "tags": [
+     "wago",
+     "nature"
+    ],
+    "title": "sky",
+    "type": "wago",
+    "word": "空"
+   },
+   "sourceNormalizedLfSha256": "0a7cad8579556ca7089666e53bf49e2be12eed2c4d0a93d3f55c020eae63b3e6",
+   "sourceWorkingRawSha256": "0a7cad8579556ca7089666e53bf49e2be12eed2c4d0a93d3f55c020eae63b3e6",
+   "word": "空"
+  },
+  {
+   "map": "files",
+   "path": "words/海.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "33d9cd1a424c38a5a8c62c894d8cacc1dc910eec60c36280a2a03814c87c14b5",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "海"
+    ],
+    "reading": "うみ",
+    "tags": [
+     "noun",
+     "nature",
+     "wago"
+    ],
+    "title": "sea; ocean",
+    "type": "wago",
+    "word": "海"
+   },
+   "sourceNormalizedLfSha256": "33d9cd1a424c38a5a8c62c894d8cacc1dc910eec60c36280a2a03814c87c14b5",
+   "sourceWorkingRawSha256": "33d9cd1a424c38a5a8c62c894d8cacc1dc910eec60c36280a2a03814c87c14b5",
+   "word": "海"
+  },
+  {
+   "map": "files",
+   "path": "words/池.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "c69fe5d0e236e94edcd13a8c0c80b4cdf7a0b13f3902e22d9ad36bb64b853e3f",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "池"
+    ],
+    "reading": "いけ",
+    "tags": [
+     "wago",
+     "noun",
+     "nature"
+    ],
+    "title": "pond",
+    "type": "wago",
+    "word": "池"
+   },
+   "sourceNormalizedLfSha256": "c69fe5d0e236e94edcd13a8c0c80b4cdf7a0b13f3902e22d9ad36bb64b853e3f",
+   "sourceWorkingRawSha256": "c69fe5d0e236e94edcd13a8c0c80b4cdf7a0b13f3902e22d9ad36bb64b853e3f",
+   "word": "池"
+  },
+  {
+   "map": "files",
+   "path": "words/花.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "03459b137a2bfcca269e455c909014061281b0e7b3f4f865ef1547487a2034b4",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "花"
+    ],
+    "reading": "はな",
+    "tags": [
+     "wago",
+     "noun",
+     "nature"
+    ],
+    "title": "flower",
+    "type": "wago",
+    "word": "花"
+   },
+   "sourceNormalizedLfSha256": "a62ff1181b288831cf641662db730219ecd238fe90799a798026d6faa3334175",
+   "sourceWorkingRawSha256": "03459b137a2bfcca269e455c909014061281b0e7b3f4f865ef1547487a2034b4",
+   "word": "花"
+  },
+  {
+   "map": "files",
+   "path": "words/咲く.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "ff2e98016ed0e7e19533e70aff39dcbfbfd9e398eaa5804df97cf0bb4827c64b",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "咲"
+    ],
+    "reading": "さく",
+    "tags": [
+     "wago",
+     "verb",
+     "intransitive",
+     "nature"
+    ],
+    "title": "bloom",
+    "type": "wago",
+    "word": "咲く"
+   },
+   "sourceNormalizedLfSha256": "ff2e98016ed0e7e19533e70aff39dcbfbfd9e398eaa5804df97cf0bb4827c64b",
+   "sourceWorkingRawSha256": "ff2e98016ed0e7e19533e70aff39dcbfbfd9e398eaa5804df97cf0bb4827c64b",
+   "word": "咲く"
+  },
+  {
+   "map": "files",
+   "path": "words/動物.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "3bb4f2df455a8124135a6d34f7ed45073adae6324d5af3ba4cf0f2d1473f0475",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "動",
+     "物"
+    ],
+    "reading": "どうぶつ",
+    "tags": [
+     "noun",
+     "kango",
+     "nature"
+    ],
+    "title": "animal",
+    "type": "kango",
+    "word": "動物"
+   },
+   "sourceNormalizedLfSha256": "3bb4f2df455a8124135a6d34f7ed45073adae6324d5af3ba4cf0f2d1473f0475",
+   "sourceWorkingRawSha256": "3bb4f2df455a8124135a6d34f7ed45073adae6324d5af3ba4cf0f2d1473f0475",
+   "word": "動物"
+  },
+  {
+   "map": "files",
+   "path": "words/ペット.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "9d69c4b22e2b5192efacf3ec3693c4da41a01e91e22e5b0b4cdece6f8f00f611",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "ペット",
+    "tags": [
+     "gairaigo",
+     "noun",
+     "animal"
+    ],
+    "title": "pet",
+    "type": "gairaigo",
+    "word": "ペット"
+   },
+   "sourceNormalizedLfSha256": "9d69c4b22e2b5192efacf3ec3693c4da41a01e91e22e5b0b4cdece6f8f00f611",
+   "sourceWorkingRawSha256": "9d69c4b22e2b5192efacf3ec3693c4da41a01e91e22e5b0b4cdece6f8f00f611",
+   "word": "ペット"
+  },
+  {
+   "map": "files",
+   "path": "words/猫.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "1e26b6da12fe67b8c2c50fdf7c099fff91d4c634c8131e4a2731fa6551be8ac2",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "猫"
+    ],
+    "reading": "ねこ",
+    "tags": [
+     "wago",
+     "animals"
+    ],
+    "title": "cat",
+    "type": "wago",
+    "word": "猫"
+   },
+   "sourceNormalizedLfSha256": "1e26b6da12fe67b8c2c50fdf7c099fff91d4c634c8131e4a2731fa6551be8ac2",
+   "sourceWorkingRawSha256": "1e26b6da12fe67b8c2c50fdf7c099fff91d4c634c8131e4a2731fa6551be8ac2",
+   "word": "猫"
+  },
+  {
+   "map": "files",
+   "path": "words/鳥.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "2d6ad942efb40ca8836c607959bc16bce6a395befb4546ce3b6dae2ab9f1902e",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "鳥"
+    ],
+    "reading": "とり",
+    "tags": [
+     "wago",
+     "noun",
+     "animal"
+    ],
+    "title": "bird",
+    "type": "wago",
+    "word": "鳥"
+   },
+   "sourceNormalizedLfSha256": "2d6ad942efb40ca8836c607959bc16bce6a395befb4546ce3b6dae2ab9f1902e",
+   "sourceWorkingRawSha256": "2d6ad942efb40ca8836c607959bc16bce6a395befb4546ce3b6dae2ab9f1902e",
+   "word": "鳥"
+  },
+  {
+   "map": "files",
+   "path": "words/鳴く.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "1f7b1b0cc755ed370fea318b055ee42c331feacff143201fe35121c047af1344",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "鳴"
+    ],
+    "reading": "なく",
+    "tags": [
+     "wago",
+     "animals"
+    ],
+    "title": "make an animal call",
+    "type": "wago",
+    "word": "鳴く"
+   },
+   "sourceNormalizedLfSha256": "1f7b1b0cc755ed370fea318b055ee42c331feacff143201fe35121c047af1344",
+   "sourceWorkingRawSha256": "1f7b1b0cc755ed370fea318b055ee42c331feacff143201fe35121c047af1344",
+   "word": "鳴く"
+  },
+  {
+   "map": "files",
+   "path": "words/飛ぶ.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "a458c2509c55546b69849d20f85bf5bb6d5f36e64099b152d07824d57ddc9a75",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "飛"
+    ],
+    "reading": "とぶ",
+    "tags": [
+     "wago",
+     "movement"
+    ],
+    "title": "fly; soar",
+    "type": "wago",
+    "word": "飛ぶ"
+   },
+   "sourceNormalizedLfSha256": "a458c2509c55546b69849d20f85bf5bb6d5f36e64099b152d07824d57ddc9a75",
+   "sourceWorkingRawSha256": "a458c2509c55546b69849d20f85bf5bb6d5f36e64099b152d07824d57ddc9a75",
+   "word": "飛ぶ"
+  },
+  {
+   "map": "files",
+   "path": "words/泳ぐ.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "3fbd10fb8f106ba26b056eb8063a5957fdd8487116071a7d5535862f60d96a97",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "泳"
+    ],
+    "reading": "およぐ",
+    "tags": [
+     "wago",
+     "movement"
+    ],
+    "title": "swim",
+    "type": "wago",
+    "word": "泳ぐ"
+   },
+   "sourceNormalizedLfSha256": "3fbd10fb8f106ba26b056eb8063a5957fdd8487116071a7d5535862f60d96a97",
+   "sourceWorkingRawSha256": "3fbd10fb8f106ba26b056eb8063a5957fdd8487116071a7d5535862f60d96a97",
+   "word": "泳ぐ"
+  },
+  {
+   "map": "files",
+   "path": "words/歩く.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "cecb19b052f832ff2e5c71ddee10246c5b61f1e09724b451e14d0365166aeed4",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "歩"
+    ],
+    "reading": "あるく",
+    "tags": [
+     "wago",
+     "verb",
+     "motion"
+    ],
+    "title": "to walk",
+    "type": "wago",
+    "word": "歩く"
+   },
+   "sourceNormalizedLfSha256": "cecb19b052f832ff2e5c71ddee10246c5b61f1e09724b451e14d0365166aeed4",
+   "sourceWorkingRawSha256": "cecb19b052f832ff2e5c71ddee10246c5b61f1e09724b451e14d0365166aeed4",
+   "word": "歩く"
+  },
+  {
+   "map": "files",
+   "path": "words/走る.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "65bb47067703b585ba40c9ec25fdb15479623095327e964017a7b3498c0fd3cc",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "走"
+    ],
+    "reading": "はしる",
+    "tags": [
+     "wago",
+     "godan",
+     "intransitive"
+    ],
+    "title": "run",
+    "type": "wago",
+    "word": "走る"
+   },
+   "sourceNormalizedLfSha256": "65bb47067703b585ba40c9ec25fdb15479623095327e964017a7b3498c0fd3cc",
+   "sourceWorkingRawSha256": "65bb47067703b585ba40c9ec25fdb15479623095327e964017a7b3498c0fd3cc",
+   "word": "走る"
+  },
+  {
+   "map": "files",
+   "path": "words/散歩.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "5b6c099bed38c3ab9ba3f2e5115e1e5907a91e59b2b025f47257d117ecfb332b",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "散",
+     "歩"
+    ],
+    "reading": "さんぽ",
+    "tags": [
+     "kango",
+     "leisure",
+     "movement"
+    ],
+    "title": "a stroll",
+    "type": "kango",
+    "word": "散歩"
+   },
+   "sourceNormalizedLfSha256": "5b6c099bed38c3ab9ba3f2e5115e1e5907a91e59b2b025f47257d117ecfb332b",
+   "sourceWorkingRawSha256": "5b6c099bed38c3ab9ba3f2e5115e1e5907a91e59b2b025f47257d117ecfb332b",
+   "word": "散歩"
+  },
+  {
+   "map": "files",
+   "path": "words/吹く.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "50fd6636d7e74dcf29f5c19fd6044124481c87544c912373fe0dceaa870690a7",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "吹"
+    ],
+    "reading": "ふく",
+    "tags": [
+     "wago",
+     "verb",
+     "weather"
+    ],
+    "title": "blow",
+    "type": "wago",
+    "word": "吹く"
+   },
+   "sourceNormalizedLfSha256": "50fd6636d7e74dcf29f5c19fd6044124481c87544c912373fe0dceaa870690a7",
+   "sourceWorkingRawSha256": "50fd6636d7e74dcf29f5c19fd6044124481c87544c912373fe0dceaa870690a7",
+   "word": "吹く"
+  },
+  {
+   "map": "files",
+   "path": "words/降る.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "5cf150b15aec389553e8dd2765c5d371808161a62505b2c08045d51cecd3a8c4",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "降"
+    ],
+    "reading": "ふる",
+    "tags": [
+     "wago",
+     "verb",
+     "weather"
+    ],
+    "title": "fall as rain or snow",
+    "type": "wago",
+    "word": "降る"
+   },
+   "sourceNormalizedLfSha256": "5cf150b15aec389553e8dd2765c5d371808161a62505b2c08045d51cecd3a8c4",
+   "sourceWorkingRawSha256": "5cf150b15aec389553e8dd2765c5d371808161a62505b2c08045d51cecd3a8c4",
+   "word": "降る"
+  },
+  {
+   "map": "files",
+   "path": "words/遊ぶ.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "d92b0c9425778fa6e2a1e78b32b2fa3611f96f03872aea5dd2efee7437afc27c",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "遊"
+    ],
+    "reading": "あそぶ",
+    "tags": [
+     "wago",
+     "verb",
+     "leisure"
+    ],
+    "title": "play; enjoy oneself",
+    "type": "wago",
+    "word": "遊ぶ"
+   },
+   "sourceNormalizedLfSha256": "d92b0c9425778fa6e2a1e78b32b2fa3611f96f03872aea5dd2efee7437afc27c",
+   "sourceWorkingRawSha256": "d92b0c9425778fa6e2a1e78b32b2fa3611f96f03872aea5dd2efee7437afc27c",
+   "word": "遊ぶ"
+  },
+  {
+   "map": "files",
+   "path": "words/スポーツ.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "19eecb1950e9dcb3422737acc22c2c9e55a77105ee1292cd142f5c52b7a26bb1",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "スポーツ",
+    "tags": [
+     "noun",
+     "gairaigo",
+     "activity"
+    ],
+    "title": "sport; sports",
+    "type": "gairaigo",
+    "word": "スポーツ"
+   },
+   "sourceNormalizedLfSha256": "19eecb1950e9dcb3422737acc22c2c9e55a77105ee1292cd142f5c52b7a26bb1",
+   "sourceWorkingRawSha256": "19eecb1950e9dcb3422737acc22c2c9e55a77105ee1292cd142f5c52b7a26bb1",
+   "word": "スポーツ"
+  }
+ ],
+ "phase": "Pre-authoring semantic freeze; new Russian semantics NOT accepted",
+ "plannedN5WordsAfterAcceptance": 453,
+ "plannedRemainingFrozenN5Words": 219,
+ "plannedRuntimeAfterAcceptance": 952,
+ "plannedWordCountAfterAcceptance": 640,
+ "proposedRussianTitles": {
+  "スポーツ": "спорт",
+  "ペット": "домашний питомец",
+  "動物": "животное",
+  "吹く": "дуть",
+  "咲く": "цвести",
+  "散歩": "прогулка",
+  "歩く": "ходить пешком",
+  "池": "пруд",
+  "泳ぐ": "плавать",
+  "海": "море; океан",
+  "猫": "кошка; кот",
+  "空": "небо",
+  "花": "цветок",
+  "走る": "бежать; бегать",
+  "遊ぶ": "играть; развлекаться",
+  "降る": "идти; выпадать (об осадках)",
+  "飛ぶ": "летать; парить",
+  "鳥": "птица",
+  "鳴く": "подавать голос (о животных)"
+ },
+ "releaseBoundary": "Source authoring only; frozen6af98cb and four protected refs stay fixed. No app/ordinaryEN edit, paidgeneration/mediaapproval, device/IME/playback/C6/C7/defaultactivation/release/humancheckpoint authority.",
+ "requiredSourceNegativeEdges": [],
+ "reviewStatus": "PENDING; actual independent three-facet whole-batch reading required",
+ "russianBaselineCommit": "e0722299186752d72f7529e67b708bfcd47197f1",
+ "schemaVersion": 1,
+ "sourceLinkDispositions": [
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/空.md",
+   "label": "空",
+   "resolvedTarget": "kanji/空.md",
+   "sourceTarget": "../kanji/空.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/空.md",
+   "label": "青",
+   "resolvedTarget": "kanji/青.md",
+   "sourceTarget": "../kanji/青.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/海.md",
+   "label": "海",
+   "resolvedTarget": "kanji/海.md",
+   "sourceTarget": "../kanji/海.md"
+  },
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/海.md",
+   "label": "湖",
+   "resolvedTarget": "words/湖.md",
+   "sourceTarget": "湖.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/海.md",
+   "label": "川",
+   "resolvedTarget": "words/川.md",
+   "sourceTarget": "川.md"
+  },
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/池.md",
+   "label": "池",
+   "resolvedTarget": "kanji/池.md",
+   "sourceTarget": "../kanji/池.md"
+  },
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/花.md",
+   "label": "花",
+   "resolvedTarget": "kanji/花.md",
+   "sourceTarget": "../kanji/花.md"
+  },
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/花.md",
+   "label": "花火",
+   "resolvedTarget": "words/花火.md",
+   "sourceTarget": "花火.md"
+  },
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/咲く.md",
+   "label": "咲",
+   "resolvedTarget": "kanji/咲.md",
+   "sourceTarget": "../kanji/咲.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/動物.md",
+   "label": "動",
+   "resolvedTarget": "kanji/動.md",
+   "sourceTarget": "../kanji/動.md"
+  },
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/動物.md",
+   "label": "物",
+   "resolvedTarget": "kanji/物.md",
+   "sourceTarget": "../kanji/物.md"
+  },
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/猫.md",
+   "label": "猫",
+   "resolvedTarget": "kanji/猫.md",
+   "sourceTarget": "../kanji/猫.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/猫.md",
+   "label": "犬",
+   "resolvedTarget": "words/犬.md",
+   "sourceTarget": "犬.md"
+  },
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/鳥.md",
+   "label": "鳥",
+   "resolvedTarget": "kanji/鳥.md",
+   "sourceTarget": "../kanji/鳥.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/鳥.md",
+   "label": "魚",
+   "resolvedTarget": "words/魚.md",
+   "sourceTarget": "魚.md"
+  },
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/鳴く.md",
+   "label": "鳴",
+   "resolvedTarget": "kanji/鳴.md",
+   "sourceTarget": "../kanji/鳴.md"
+  },
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/飛ぶ.md",
+   "label": "飛",
+   "resolvedTarget": "kanji/飛.md",
+   "sourceTarget": "../kanji/飛.md"
+  },
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/泳ぐ.md",
+   "label": "泳",
+   "resolvedTarget": "kanji/泳.md",
+   "sourceTarget": "../kanji/泳.md"
+  },
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/泳ぐ.md",
+   "label": "浮く",
+   "resolvedTarget": "words/浮く.md",
+   "sourceTarget": "浮く.md"
+  },
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/歩く.md",
+   "label": "歩",
+   "resolvedTarget": "kanji/歩.md",
+   "sourceTarget": "../kanji/歩.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/歩く.md",
+   "label": "走る",
+   "resolvedTarget": "words/走る.md",
+   "sourceTarget": "走る.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/歩く.md",
+   "label": "行く",
+   "resolvedTarget": "words/行く.md",
+   "sourceTarget": "行く.md"
+  },
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/走る.md",
+   "label": "走",
+   "resolvedTarget": "kanji/走.md",
+   "sourceTarget": "../kanji/走.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/走る.md",
+   "label": "歩く",
+   "resolvedTarget": "words/歩く.md",
+   "sourceTarget": "歩く.md"
+  },
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/走る.md",
+   "label": "止まる",
+   "resolvedTarget": "words/止まる.md",
+   "sourceTarget": "止まる.md"
+  },
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/走る.md",
+   "label": "運転",
+   "resolvedTarget": "words/運転.md",
+   "sourceTarget": "運転.md"
+  },
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/散歩.md",
+   "label": "散",
+   "resolvedTarget": "kanji/散.md",
+   "sourceTarget": "../kanji/散.md"
+  },
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/散歩.md",
+   "label": "歩",
+   "resolvedTarget": "kanji/歩.md",
+   "sourceTarget": "../kanji/歩.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/散歩.md",
+   "label": "歩く",
+   "resolvedTarget": "words/歩く.md",
+   "sourceTarget": "歩く.md"
+  },
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/吹く.md",
+   "label": "吹",
+   "resolvedTarget": "kanji/吹.md",
+   "sourceTarget": "../kanji/吹.md"
+  },
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/吹く.md",
+   "label": "吸う",
+   "resolvedTarget": "words/吸う.md",
+   "sourceTarget": "吸う.md"
+  },
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/降る.md",
+   "label": "降",
+   "resolvedTarget": "kanji/降.md",
+   "sourceTarget": "../kanji/降.md"
+  },
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/降る.md",
+   "label": "落ちる",
+   "resolvedTarget": "words/落ちる.md",
+   "sourceTarget": "落ちる.md"
+  },
+  {
+   "disposition": "Retain full substantive teaching/readings as plain text; no placeholder or recursive adoption.",
+   "from": "words/遊ぶ.md",
+   "label": "遊",
+   "resolvedTarget": "kanji/遊.md",
+   "sourceTarget": "../kanji/遊.md"
+  }
+ ]
+}
