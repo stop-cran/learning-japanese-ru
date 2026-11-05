@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "batch": "015-calendar-count-words",
+  "state": "actual-returned-whole-review-unverified-one-claim",
+  "reviewer": {
+    "id": "bcdcc540-a312-42b0-9b50-241254d3b265",
+    "name": "ru-015-whole-calendar-count-review",
+    "agentType": "general-purpose",
+    "model": null,
+    "readOnly": true
+  },
+  "candidateCommit": "fd8be7c307af5db43a9f8d5f9cf3b6d30b364b2d",
+  "candidateRawSha256": "582fe9eda38c6123c567878c4738b9ee29fc708ef0fb881ef666e3fa6d5a2086",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "actualSnapshotVerification": "RU/freeze signaturesG, actual remote featureHEAD, frozenENHEAD/sourceclean; trackedRUclean except preexistinguntrackedcache. All37source/RUhashes,354baseline runtime,tracking/progress and288pooltitle/rawhashes verified.",
+  "actualReading": {
+    "completeSourceFiles": 37,
+    "completeRussianFiles": 37,
+    "sourceFullLines": 1134,
+    "russianFullLines": 1138,
+    "russianBodySections": 148,
+    "order": "Complete learner source/Russian read independently BEFORE author adjudication.",
+    "baselineCompletePairs": [
+      "words/日.md",
+      "words/人.md"
+    ],
+    "additionalBaselineFullLinesReported": {
+      "source": 77,
+      "russian": 76
+    },
+    "actualDisplayedMeanings": 325,
+    "dictionary": {
+      "completeQueries": 56,
+      "entryOccurrencesNotUnique": 57,
+      "forms": 177,
+      "senseObjects": 136,
+      "includedWiki": 4,
+      "includedPlace": 12,
+      "remainingLexical": 120
+    },
+    "guidance": "Complete requested root/scoped instructions, three actual rubrics, methodology,format,workedexamples; ownerdirection,relevant frozen word/quiz/confusable contract,NOTICE/guidance delta.",
+    "freshOriginalPages": "Complete returnedTofugu冊; both Kotobankpages named精選版definitions; BOJ currentissueddenominations; EDRDGapplication/licence/attribution withinfirst8500returnedcharacters."
+  },
+  "verdicts": {
+    "japaneseCorrectness": "UNVERIFIED narrowly for added一千円claim",
+    "adoptedCoverageDependenciesC1Consistency": "CLEAN within37textboundary",
+    "russianComprehensibility": "CLEAN within37textboundary"
+  },
+  "findings": [
+    {
+      "id": "B015-R1",
+      "severity": "minor",
+      "facet": "Japanese evidence/provenance",
+      "statusAtInitialReview": "unresolved",
+      "confidence": "high for evidence misattribution; no claim spelling impossible",
+      "locations": [
+        "words/千円.md:18",
+        "docs/translation-batches/015-calendar-count-words-adjudication.json:84,102",
+        "docs/translation-batches/015-calendar-count-words-preauthoring-adjudication.json:55",
+        "docs/translation-batches/015-calendar-count-words-scope.json:3545"
+      ],
+      "exactLearnerClaim": "Написание 一千円 тоже встречается…",
+      "defect": "Capture query35 actually contains only１０００円/千円bothせんえん, not一千円. Historical author statement actualexact千円entryincludes一千円and actualcapturedalternativespelling are false evidence attributions.",
+      "learnerConsequence": "Added spelling alternative lacks claimed inspected verification; provenance incorrectly asserts positive dictionary evidence.",
+      "actualReviewerEvidence": "Full original/candidatecaptureagree; fresh千円APIalsoagreed; separate一千円query returnednone, but this absence does not prove invalidity.",
+      "correctionRequested": "Obtain actual suitable witness or omit added clause while retaining ordinary千円/一万円contrast; explicitly correct current evidence accounting without rewriting frozen history."
+    }
+  ],
+  "otherActualConclusions": [
+    "Counter-specific corrections and actual variants preserve Japanese teaching; both五月晴れmeanings/oldcalendarlink and boundedBOJclaims supported.",
+    "All一日readings/date-duration contrasts/nativecountchild-ageandhistoricaltime/personalone-unmarriedrestrictions survive.",
+    "Two directguards一日–日/一人–人 defensible for actualbareRussiansingularlabels; no furthernecessarypairfound against325meanings; no generic/transitiveclique.",
+    "All48retainedinternal linksresolve;47absentoptional links flattened; no inventedmonthruntimeunits;23N5/14unlabelled/sourcezeroquizEdges preserved.",
+    "Sixguidancelines/fourNOTICElines appropriatelybounded; actualimmutableappblobhash verified,11unmappedtagIDs separatefollowup."
+  ],
+  "actualValidationInspection": "Readfourserializedactualvalidationlogs; didNOT rerun. Actualmanifest391/version2608d4da65db74c5matchesreceipt.",
+  "optional": "none",
+  "limits": "Actual returned structured report, not a verbatim transcript. No editing/tests/agents/builds/media/dirtycheckoutaccess. Two oversized outputs spilled automatically; neither spill accessed; originals boundedlyreread. No native/device/release/checkpoint/globalcorpus approval."
+}

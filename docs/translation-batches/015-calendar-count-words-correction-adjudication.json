@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "batch": "015-calendar-count-words",
+  "state": "author-corrected-pending-focused-recheck",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "initialCandidateCommit": "fd8be7c307af5db43a9f8d5f9cf3b6d30b364b2d",
+  "finding": {
+    "id": "B015-R1",
+    "severity": "minor",
+    "facet": "Japanese evidence/provenance",
+    "statusAtInitialReview": "unresolved",
+    "confidence": "high for evidence misattribution; no claim spelling impossible",
+    "locations": [
+      "words/千円.md:18",
+      "docs/translation-batches/015-calendar-count-words-adjudication.json:84,102",
+      "docs/translation-batches/015-calendar-count-words-preauthoring-adjudication.json:55",
+      "docs/translation-batches/015-calendar-count-words-scope.json:3545"
+    ],
+    "exactLearnerClaim": "Написание 一千円 тоже встречается…",
+    "defect": "Capture query35 actually contains only１０００円/千円bothせんえん, not一千円. Historical author statement actualexact千円entryincludes一千円and actualcapturedalternativespelling are false evidence attributions.",
+    "learnerConsequence": "Added spelling alternative lacks claimed inspected verification; provenance incorrectly asserts positive dictionary evidence.",
+    "actualReviewerEvidence": "Full original/candidatecaptureagree; fresh千円APIalsoagreed; separate一千円query returnednone, but this absence does not prove invalidity.",
+    "correctionRequested": "Obtain actual suitable witness or omit added clause while retaining ordinary千円/一万円contrast; explicitly correct current evidence accounting without rewriting frozen history."
+  },
+  "authorDisposition": "Agree; actual complete query35 personally reread and contains only１０００円/千円. Withdraw unsupported alternative-spelling assertion, not declare spelling generally invalid.",
+  "exactLearnerDelta": {
+    "path": "words/千円.md",
+    "old": "千円 せんえん. Написание 一千円 тоже встречается, но это не основная форма этой карточки.",
+    "new": "千円 せんえん, а не 一千円."
+  },
+  "historicalEvidenceErrata": [
+    {
+      "path": "docs/translation-batches/015-calendar-count-words-preauthoring-adjudication.json",
+      "lines": [
+        54,
+        55
+      ],
+      "withdrawn": "Positive one千円 spelling/register witness attributed to actualexact千円entry."
+    },
+    {
+      "path": "docs/translation-batches/015-calendar-count-words-scope.json",
+      "lines": [
+        3544,
+        3545
+      ],
+      "withdrawn": "Same positive capturedalternative assertion in plannedadaptations."
+    },
+    {
+      "path": "docs/translation-batches/015-calendar-count-words-adjudication.json",
+      "lines": [
+        83,
+        84,
+        102
+      ],
+      "withdrawn": "Exactentryincludes一千円andactualcapturedalternativespelling."
+    }
+  ],
+  "correctCurrentEvidence": {
+    "captureQueryIndex": 35,
+    "actualForms": [
+      {
+        "word": "１０００円",
+        "reading": "せんえん"
+      },
+      {
+        "word": "千円",
+        "reading": "せんえん"
+      }
+    ],
+    "assertedNewSpellingAlternative": null,
+    "boundary": "Retain frozen ordinary千円not一千円contrast and source 一万円comparison; no generalvalidityjudgmentfrommissingAPIform."
+  },
+  "historyPolicy": "All signed originalscope/preauthoring/adjudication/capture/initialcandidate remain immutablehistory; this explicit erratum supersedes false positive evidence claims for current acceptance.",
+  "regressionScope": "Onlyoneclauseinoneword changes; other36newwords/all354baselineRAW/Japanese metadata/2guards/NOTICE unchanged. Two activeguidancelines added on writing-form witnesses versus mere related capture and absence-not-invalidity.",
+  "reviewStatus": "pending-focused-independent-recheck",
+  "independentApproval": null
+}
