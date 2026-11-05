@@ -1,0 +1,189 @@
+{
+ "actualReadScope": "Actual complete WordQuizPrompt/localizedWordPromptTag lines147–205 and originTags line51; not all app UI.",
+ "appGitRawSha256": "530ff7e5d6da2829bc08ff57c6356162af04b0ab84598cb7c19127217f71c08c",
+ "appModified": false,
+ "appWorkingLfSha256": "f2df755e96a04e6108ee84dcee79551089bd6caae809d82ca374ddec1e33a3d1",
+ "appWorkingRawSha256": "530ff7e5d6da2829bc08ff57c6356162af04b0ab84598cb7c19127217f71c08c",
+ "batch": "025-heavy-support-vocabulary",
+ "disposition": "Preserve frozen canonical IDs; app-owner follow-up before ordinary activation/release. Do not modify the concurrent checkout.",
+ "finding": "These exact IDs reach else->return tag in the observed reverse large-word prompt. Origin IDs are filtered. No claim of localized ordinary app UI.",
+ "functionLfUtf8Sha256": "9844df1f8787ce5a1d62216bbafe3501bbfd9617d3a48dd751cd572d2878ae72",
+ "missingCanonicalTagIds": [
+  {
+   "id": "adverb",
+   "russianContentPaths": [
+    "words/ちょっと.md",
+    "words/少し.md"
+   ]
+  },
+  {
+   "id": "animal",
+   "russianContentPaths": [
+    "words/毛.md"
+   ]
+  },
+  {
+   "id": "biology",
+   "russianContentPaths": [
+    "words/組織.md"
+   ]
+  },
+  {
+   "id": "clothing",
+   "russianContentPaths": [
+    "words/ウール.md"
+   ]
+  },
+  {
+   "id": "communication",
+   "russianContentPaths": [
+    "words/噂.md"
+   ]
+  },
+  {
+   "id": "completion",
+   "russianContentPaths": [
+    "words/終わる.md"
+   ]
+  },
+  {
+   "id": "correspondence",
+   "russianContentPaths": [
+    "words/宛名.md"
+   ]
+  },
+  {
+   "id": "feeling",
+   "russianContentPaths": [
+    "words/心.md"
+   ]
+  },
+  {
+   "id": "groups",
+   "russianContentPaths": [
+    "words/団体.md",
+    "words/組.md",
+    "words/組織.md"
+   ]
+  },
+  {
+   "id": "home",
+   "russianContentPaths": [
+    "words/住所.md"
+   ]
+  },
+  {
+   "id": "i-adjective",
+   "russianContentPaths": [
+    "words/重い.md"
+   ]
+  },
+  {
+   "id": "identity",
+   "russianContentPaths": [
+    "words/名.md"
+   ]
+  },
+  {
+   "id": "materials",
+   "russianContentPaths": [
+    "words/ウール.md",
+    "words/毛糸.md",
+    "words/糸.md"
+   ]
+  },
+  {
+   "id": "mind",
+   "russianContentPaths": [
+    "words/精神.md"
+   ]
+  },
+  {
+   "id": "na-adjective",
+   "russianContentPaths": [
+    "words/幸福.md"
+   ]
+  },
+  {
+   "id": "opposite-pair",
+   "russianContentPaths": [
+    "words/大小.md"
+   ]
+  },
+  {
+   "id": "places",
+   "russianContentPaths": [
+    "words/神社.md"
+   ]
+  },
+  {
+   "id": "politeness",
+   "russianContentPaths": [
+    "words/御礼.md"
+   ]
+  },
+  {
+   "id": "pronoun",
+   "russianContentPaths": [
+    "words/私.md"
+   ]
+  },
+  {
+   "id": "relationships",
+   "russianContentPaths": [
+    "words/約束.md"
+   ]
+  },
+  {
+   "id": "reputation",
+   "russianContentPaths": [
+    "words/評判.md"
+   ]
+  },
+  {
+   "id": "school",
+   "russianContentPaths": [
+    "words/クラス.md"
+   ]
+  },
+  {
+   "id": "society",
+   "russianContentPaths": [
+    "words/人気.md",
+    "words/団体.md"
+   ]
+  },
+  {
+   "id": "suru-verb",
+   "russianContentPaths": [
+    "words/安心.md",
+    "words/組織.md"
+   ]
+  },
+  {
+   "id": "time-of-day",
+   "russianContentPaths": [
+    "words/夕方.md"
+   ]
+  }
+ ],
+ "nativeTestsRun": false,
+ "newCanonicalWordTagIds": [
+  "biology",
+  "completion",
+  "correspondence",
+  "feeling",
+  "groups",
+  "identity",
+  "mind",
+  "politeness",
+  "reputation",
+  "society"
+ ],
+ "observedAppHead": "0f60c8e82f82687b84fba2d8936f29d142e574a6",
+ "path": "app/src/main/java/io/github/stopcran/kanji/ui/WordQuizScreen.kt",
+ "priorBaselineGapsNotOverwritten": "Historical batch023/024 findings remain unchanged; this is the actual batch025 subset.",
+ "recordedAt": "2026-11-05T12:21:19.576510+00:00",
+ "resolved": false,
+ "schemaVersion": 1
+}

@@ -1,0 +1,397 @@
+{
+ "actualAuthorReading": {
+  "actualExtraCompletePairPaths": [
+   "words/おしゃべり.md",
+   "words/会社.md",
+   "words/会話.md",
+   "words/性格.md",
+   "words/授業.md",
+   "words/教室.md",
+   "words/晩.md",
+   "words/縄.md"
+  ],
+  "actualExtraReturnedRanges": [
+   [
+    0,
+    2
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    6,
+    8
+   ]
+  ],
+  "baselinePoolReturnedRanges": [
+   [
+    0,
+    100
+   ],
+   [
+    100,
+    200
+   ],
+   [
+    200,
+    300
+   ],
+   [
+    300,
+    400
+   ],
+   [
+    400,
+    500
+   ],
+   [
+    500,
+    545
+   ]
+  ],
+  "baselinePoolWorkingRawSha256": "d748194fc24192c59e4df7ab2c59cb8a86b3ac76c7bfd783c8b7eac7272f4823",
+  "baselineTitleGuardRowsActuallyRead": 545,
+  "boundary": "Capturing88responses is not reading all response search hits. All114exact matching complete objects were actually returned/read; other readings, Place/Wikipedia objects are not borrowed. Refused/truncated prints have no credit. No existing545full-body or native/media reading claim.",
+  "completeFreshUnicodeRadicalRows": [
+   166
+  ],
+  "completeMatchingLexicalOccurrences": 114,
+  "completeNamedDaijisenRecord": {
+   "actualLines": [
+    26,
+    32
+   ],
+   "boundary": "Named Digital Daijisen record, not the wider Wikipedia definition or whole410-line page.",
+   "capture": "ru-025-page-wool-daijisen-visible-001.txt"
+  },
+  "completeReusedXmlRecords": [
+   "重"
+  ],
+  "existingCompleteRussianFrozenEnglishPairs": 21,
+  "guidance": "Complete actual current root/scoped instructions, methodology, format reference, worked adaptations and all three rubrics read before authoring; actual cut-line/EOF recovery recorded in prior immutable source-reading receipt.",
+  "kanjiRows": 111,
+  "lexicalCaptureRawSha256": "cb24188de2899d0905c78f88162ec0d563c1dcce54a089464d0549bf2b3f4227",
+  "lexicalQueries": 88,
+  "lexicalReturnedRanges": [
+   [
+    0,
+    4
+   ],
+   [
+    4,
+    8
+   ],
+   [
+    8,
+    16
+   ],
+   [
+    16,
+    24
+   ],
+   [
+    24,
+    28
+   ],
+   [
+    28,
+    35
+   ],
+   [
+    35,
+    45
+   ],
+   [
+    45,
+    55
+   ],
+   [
+    55,
+    65
+   ],
+   [
+    65,
+    75
+   ],
+   [
+    75,
+    82
+   ],
+   [
+    82,
+    88
+   ]
+  ],
+  "newFrozenCompleteBodies": 36,
+  "newRussianBodiesRead": 0,
+  "wordRows": 434
+ },
+ "appBoundary": {
+  "appChanged": false,
+  "nativeAcceptance": false,
+  "record": "025-heavy-support-vocabulary-app-tag-followup.json"
+ },
+ "baselineCommit": "1942ce8441231b3ce6f1d344136e6b684ffd1209",
+ "batch": "025-heavy-support-vocabulary",
+ "checkpointAuthority": null,
+ "directRussianNegativeProposals": [
+  {
+   "basis": "Actual common quantity/degree senses both mean a little/slightly. Both Russian captions naturally allow немного; the time senses remain distinct but do not make that shared answer wrong.",
+   "from": "ちょっと",
+   "id": "Q01",
+   "to": "少し"
+  },
+  {
+   "basis": "少ない is small/few in amount; 少し includes a small amount/a few. Russian мало/немного overlap in ordinary quantity statements. Different Japanese adjective/adverb grammar alone does not make the displayed meaning answer reliably wrong.",
+   "from": "少ない",
+   "id": "Q02",
+   "to": "少し"
+  },
+  {
+   "basis": "Independent comparison of small amount versus a little: ordinary Russian немного can describe the small quantity expressed by 少ない. Not inferred through少し.",
+   "from": "少ない",
+   "id": "Q03",
+   "to": "ちょっと"
+  },
+  {
+   "basis": "Independent small-quantity comparison:多少sense1a little/some and少ないsmall/little. The Russian多少captionнемногоcan be a valid amount answer for少ない; retain多少's separate noun amount sense.",
+   "from": "少ない",
+   "id": "Q04",
+   "to": "多少"
+  },
+  {
+   "basis": "Full actual夜body explicitly includesвечер; new夕方includesраннийвечер. Approximate/darkness tendencies are not disjoint clock boundaries. Shared ordinary evening meaning, not a time-of-day clique.",
+   "from": "夕方",
+   "id": "T01",
+   "to": "夜"
+  },
+  {
+   "basis": "Full actual晩captionвечер;ночьand its explicit夕方comparison overlap independently withраннийвечер. Preserve narrower夕方tendency and nonabsolute boundaries.",
+   "from": "夕方",
+   "id": "T02",
+   "to": "晩"
+  },
+  {
+   "basis": "Full actual会社definesкоммерческаяорганизация; new団体captionорганизацияis broader and can be a valid company answer. Distinct lexical scope is taught, not assumed to make generic organization wrong.",
+   "from": "団体",
+   "id": "G01",
+   "to": "会社"
+  },
+  {
+   "basis": "Independent organization/company case: a company is an organization; the displayedорганизацияanswer can be correct for会社. Not inferred from団体.",
+   "from": "組織",
+   "id": "G02",
+   "to": "会社"
+  },
+  {
+   "basis": "Independent group/organization case:組's genericгруппаdoes not exclude an organized group. Preserve組set/class senses and組織structured-organization senses; not inferred from団体.",
+   "from": "組織",
+   "id": "G03",
+   "to": "組"
+  },
+  {
+   "basis": "Actualクラスsource explicitly includes instructional class; full授業captionурок;занятиеcan be correct for that sense. Preserve class-group versus teaching-session distinction.",
+   "from": "クラス",
+   "id": "C01",
+   "to": "授業"
+  },
+  {
+   "basis": "Full actual教室source/RU includes organized lessons/courses, not just the physical room. That sense overlaps the instructional class inクラスindependently, not through授業.",
+   "from": "クラス",
+   "id": "C02",
+   "to": "教室"
+  },
+  {
+   "basis": "Actual lexical噂includesgossip/common talk andおしゃべりincludesgossip/idle talk; displayedболтовняand taughtсплетниcan overlap. No inference that every conversation is rumor.",
+   "from": "噂",
+   "id": "R01",
+   "to": "おしゃべり"
+  },
+  {
+   "basis": "Independent actual評判sense2rumor/talk-of-town andおしゃべりgossip/talk; the taught public-talk sense can overlapболтовня. Not inferred through噂.",
+   "from": "評判",
+   "id": "R02",
+   "to": "おしゃべり"
+  },
+  {
+   "basis": "Actual selected気・きsense1and心・こころsense1both include spirit/mind/heart. Displayedдух/душаare overlapping ordinary mental-life answers. Do not borrow心・しんorgan/center senses or気other-reading suffixes.",
+   "from": "気",
+   "id": "M01",
+   "to": "心"
+  },
+  {
+   "basis": "Actual大小magnitude/size and多少amount overlap when describing quantity magnitude; generic Russianразмерcan be the size of an amount. Preserve physical-size versus quantity examples; no universal equation.",
+   "from": "大小",
+   "id": "S01",
+   "to": "多少"
+  },
+  {
+   "basis": "Full earlier-read長短bodyteaches physical length; genericразмерis a possible answer for that dimension. Independent from多少; retain長短's merits/demerits sense and do not exclude every dimensional adjective.",
+   "from": "大小",
+   "id": "S02",
+   "to": "長短"
+  },
+  {
+   "basis": "毛sense2wool and毛糸woollen yarn independently support generic Russianшерстьfor woollen knitting yarn. No inference that毛is invariably yarn or that all糸is wool; preserve animal covering/material versus spun-yarn explanation.",
+   "from": "毛糸",
+   "id": "F01",
+   "to": "毛"
+  }
+ ],
+ "independentAcceptance": false,
+ "intakeCommit": "3ca2cb62d7ab749da512222040c8d68c2af316bd",
+ "lexicalCapture": {
+  "actualCompleteMatchingOccurrencesRead": 114,
+  "file": "ru-025-primary-evidence-capture-001.json",
+  "queries": 88,
+  "rawSha256": "cb24188de2899d0905c78f88162ec0d563c1dcce54a089464d0549bf2b3f4227"
+ },
+ "nontransitiveBoundary": "All17proposals have their own lexical/displayed-answer basis. No graph completion. In particular no auto名–人気/名–噂, no all-time/all-size/all-material/all-mental-life clique.",
+ "originalDirectedWordEdgesPreserved": [
+  [
+   "ウール",
+   "quiz_exclusions",
+   "毛"
+  ],
+  [
+   "名",
+   "quiz_exclusions",
+   "名前"
+  ],
+  [
+   "名",
+   "quiz_exclusions",
+   "評判"
+  ],
+  [
+   "団体",
+   "quiz_exclusions",
+   "組織"
+  ],
+  [
+   "多少",
+   "quiz_exclusions",
+   "少し"
+  ],
+  [
+   "多少",
+   "quiz_exclusions",
+   "ちょっと"
+  ],
+  [
+   "宛名",
+   "quiz_exclusions",
+   "住所"
+  ],
+  [
+   "宛名",
+   "quiz_exclusions",
+   "名前"
+  ],
+  [
+   "宛名",
+   "quiz_exclusions",
+   "名"
+  ],
+  [
+   "幸福",
+   "quiz_exclusions",
+   "喜び"
+  ],
+  [
+   "毛糸",
+   "quiz_exclusions",
+   "糸"
+  ],
+  [
+   "毛糸",
+   "quiz_exclusions",
+   "ウール"
+  ],
+  [
+   "気",
+   "quiz_exclusions",
+   "気分"
+  ],
+  [
+   "精神",
+   "quiz_exclusions",
+   "心"
+  ],
+  [
+   "精神",
+   "quiz_exclusions",
+   "気"
+  ],
+  [
+   "組",
+   "quiz_exclusions",
+   "クラス"
+  ],
+  [
+   "組",
+   "quiz_exclusions",
+   "団体"
+  ],
+  [
+   "評判",
+   "quiz_exclusions",
+   "人気"
+  ],
+  [
+   "評判",
+   "quiz_exclusions",
+   "噂"
+  ]
+ ],
+ "originalKanjiDistractorEdgesPreserved": [
+  [
+   "重",
+   "車"
+  ],
+  [
+   "重",
+   "動"
+  ],
+  [
+   "重",
+   "東"
+  ]
+ ],
+ "recordedAt": "2026-11-05T12:21:19.576510+00:00",
+ "runtimeAcceptance": false,
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "sourceDecisions": [
+  {
+   "basis": "Actually read complete重XML and full radical166Unicode row; pre-2010KANJIDICJLPT3does not relabel frozen currentN4.",
+   "decision": "Keep all source readings/radical166/9strokes/N4/three foils. Preserve layered modern-shape mnemonic as mnemonic, not history.",
+   "id": "K01",
+   "scope": "kanji/重.md"
+  },
+  {
+   "basis": "XMLlistsおも.なうwithout temporal/style/verb-gloss annotation. Exact lookup misses and unavailable pages do not prove nonexistence. No invented example or claim that the reading is not archaic; source qualifier remains unverified in the historical-source discussion, not asserted as an adopted fact.",
+   "decision": "Do not certify the source's unprovedおも.なうarchaic/dictionary-only/specific-verb gloss. Keepおも.なうandおもin full metadata and explicit nonillustrated-reading note; selected table retains every other source word/example. Explain pedagogical selection separately. General importance/respect meaning is independently present in the kanji XML.",
+   "id": "K02",
+   "scope": "kanji/重.md"
+  },
+  {
+   "basis": "Actually read complete named Digital Daijisen lines26–32and full毛糸JMdictobject; wider Wikipedia block is not attributed toDaijisen.",
+   "decision": "Retain dictionary core animal-hair/wool yarn, nativeけ+いと, material-vs-yarn distinction. Replace English craft-label analogy with Russian contextual caution; do not categorically forbid synthetic yarn usage.",
+   "id": "W01",
+   "scope": "words/毛糸.md"
+  },
+  {
+   "basis": "All36complete frozen sources, all114complete matching lexical objects and21complete baseline/frozen pairs actually read; source technicalIDs/types/levels/tags stay exact.",
+   "decision": "Preserve homograph/grammar/sense qualifiers:人気にんき≠ひとけ;名なrenown;宛名addressee;御礼Sino-Japanese礼base+nativeおprefix;少しすこし≠少ないすくない;安いcalmrestricted spelling and distinct易いsuffix;終わるtransitive too;組くみ/ぐみnotgeneral voicing;心こころmental-life;精神的derivation not conjugation;組織tissuebiological;幸福/幸せno rigid duration contrast. Do not add ownership to source子供.",
+   "id": "W02",
+   "scope": "words"
+  }
+ ],
+ "stage": "Evidence-backed author proposals awaiting actual independent review"
+}
