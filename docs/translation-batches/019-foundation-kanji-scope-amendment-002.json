@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "batch": "019-foundation-kanji-component",
+  "amendment": "002-minute-table-classification",
+  "stage": "Frozen before authoring correction of an already-in-scope new kanji target.",
+  "recordedAt": "2026-11-05T04:59:04.237049+00:00",
+  "pinnedBeforeCommit": "eccc2c11c0368b5ab2698e3d308c62ccf84cfba5",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "768393327637f1ec08f5cd7d1ba4afe3be00c612",
+  "trigger": {
+    "review": "docs/translation-batches/019-foundation-kanji-old-word-volume-002-initial-review.json",
+    "findingId": "019-W002-F01"
+  },
+  "extraRuntimePathsAdded": 0,
+  "extraAffectedAcceptedRuntimePaths": [],
+  "reopenedAlreadyFrozenNewRuntimePaths": [
+    "kanji/分.md"
+  ],
+  "affectedDeveloperPaths": [
+    ".github/instructions/content-structure.instructions.md"
+  ],
+  "frozenBeforeHashes": {
+    "russianWorkingRawSha256": "e97ae3ff7acec02ced37bffc0a14545380d0db7141d50c385e1eed069fdc80eb",
+    "russianGitRawSha256": "51986b1c2f332ae240843a138e81f5426ed6ea00a627d0223cf5c91a760b0260",
+    "russianLfSha256": "51986b1c2f332ae240843a138e81f5426ed6ea00a627d0223cf5c91a760b0260",
+    "frozenEnglishGitRawSha256": "fd14c97bca8efc7c3951a9c6414c4e97fde88a11585682f5107f98fe4d0cca73",
+    "frozenEnglishLfSha256": "fd14c97bca8efc7c3951a9c6414c4e97fde88a11585682f5107f98fe4d0cca73"
+  },
+  "authorActualReading": "Complete RU and exact frozen EN分; actual table visibly assignsはちふん toぷん despite itsふん ending.",
+  "authorAdjudicationBeforeAuthoring": "Accept presentation/classification defect; preserve all source variants, Japanese facts/examples and metadata, not replace or rejectはちふん.",
+  "plannedLearnerChange": "Put8（はちふん）underふん and8（はっぷん）underぷん; preserve both variants.",
+  "plannedGuidanceChange": "When rows group reading variants by actual ending, assign each variant to its matching category; do not group both endings under one number.",
+  "preserve": "All other分 wording, technical fields, titles/answer strings, source level/tags, readings/examples/relative links; all90word bodies and56othernew kanji. No new word/stroke/media or English/app edits.",
+  "requiredFocusedRecheck": [
+    "kanji/分.md",
+    ".github/instructions/content-structure.instructions.md"
+  ],
+  "reviewLineageEffect": "Original57review/円recheck remains immutable historical evidence; current分 needs genuine focused recheck and an explicit later addendum before current57volume is called CLEAN.",
+  "independentCorrectionApproval": "pending authoring and actual focused recheck",
+  "ordinaryActivationAuthorized": false
+}
