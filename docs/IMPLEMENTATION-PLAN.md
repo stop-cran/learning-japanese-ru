@@ -8,7 +8,29 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-The fourteenth full-target source batch completes38 full calendar/time word articles:
+The fifteenth full-target source batch completes37 full calendar/count word articles,
+preserving23 N5/14 unlabelled source levels. [Batch015](translation-batches/015-calendar-count-words-review.json)
+records whole1134EN/1138RU-line reading,37 titles/148 sections, all325 displayed meanings and
+full日/人 source/RU pairs. Source zero negative edges and two justified direct Russian guards
+remain; no generic/transitive number/person/day clique or fabricated missing month units.
+All56 complete dictionary queries comprise57 entry occurrences/177forms/136sense objects,
+including12Place/4Wiki objects, leaving120lexical occurrences; no blanket sense adoption.
+One genuine minor finding required removal of an unsupported added一千円 spelling assertion.
+False historical capture attributions are explicitly withdrawn by a superseding erratum;
+immutable originals remain. An independent exact-delta/evidence recheck resolved B015-R1.
+Other36 new words/all354 earlier runtime RAW objects are unchanged; final composite facets CLEAN.
+Current membership391; strict8278-entry statuses391reviewed-current, no partial, two reviewed
+runtime-blocked drafts and7,885pending, with7,887runtime paths absent. All354 old tracking records/
+non-record sections unchanged; checkpoint authority null/Ready false.
+Final serialized checks:0errors/124tests32.014s; budget398files407entries1234441retained/
+1248458inflated/620416localZIP bytes; version `95a8d5dc2948138c`.
+Counter-specific sound changes, actual alternate readings, calendar/date/duration distinctions
+and bounded currency claims survive. Eleven pinned-app unmapped IDs affect56occurrences;
+canonical IDs remain stable and the concurrent app was not changed. No assets/grammar/media or
+native/device/activation authority follows. Continue required-word support for the actual57-new-kanji
+mandatory-distractor component, then every remaining level/source family.
+
+The fourteenth full-target source batch completed38 full calendar/time word articles:
 34 N5 roots plus four mandatory source negative-reference dependencies, preserving35 N5/two N4/
 one N3 levels. [Batch014](translation-batches/014-calendar-time-words-review.json) records actual
 whole1302EN/1271RU-line reading,38 titles/152 localized sections, all288 displayed meanings and seven
@@ -18,7 +40,7 @@ One genuine minor source-fidelity finding required夕方's comparison to include
 The exact one-clause repair and two active guidance lines were independently rechecked; the other37
 new files, all Japanese/technical data and all316 earlier runtime RAW objects are unchanged.
 Initial NEEDS FIX evidence remains historical; the final composite three source/text facets are CLEAN.
-Current membership354; strict8278-entry statuses354reviewed-current, no partial, two reviewed
+At that milestone membership354; strict8278-entry statuses354reviewed-current, no partial, two reviewed
 runtime-blocked drafts and7,922pending, with7,924runtime paths absent. All316 earlier tracking records/
 non-record sections remain unchanged; checkpoint authority null/Ready false.
 Final serialized checks:0errors/124tests32.911s; budget361files370entries1163599retained/

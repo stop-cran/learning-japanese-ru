@@ -512,8 +512,8 @@ repair; three earlier API-pseudo-definition guidance lines remain. This is a who
 a real narrow correction proof, not two whole38 semantic reviews. The initial NEEDS FIX receipt
 is preserved; all three final composite source/text facets are CLEAN.
 
-Current membership is **354 runtime objects**:18 kanji,288 words,18 strokes,2 articles,22 counter
-files,1 grammar set,2 scene catalogs and3 images. Fresh strict8278-entry progress has
+At the batch014 milestone membership was **354 runtime objects**:18 kanji,288 words,18 strokes,2 articles,22 counter
+files,1 grammar set,2 scene catalogs and3 images. That strict8278-entry progress had
 **354 reviewed-current**, **no partial units**, **two reviewed runtime-blocked drafts** and
 **7,922 pending**; **7,924 runtime paths remain absent**. All316 old tracking records/non-record
 sections remain unchanged. Checkpoint authority remains null and checkpointReady false.
@@ -526,3 +526,43 @@ to edit the concurrent app or translate technical IDs. No grammar contexts/asset
 changes were made. Source publication does not grant native/device/IME/C6/C7/media/package/
 activation/release/checkpoint authority or move any frozen runtime ref. Continue the next safe
 remaining N5 kanji/words/support batch, then every remaining level and source family against6af98cb.
+
+Batch **015 — calendar/count word prerequisites** completes37 full word articles: nine calendar
+months, eleven date/duration forms, nine native counts,十,一人/二人 and five numeral/currency
+forms. Source23 N5/14 unlabelled classifications remain unchanged. The frozen target has no
+二月/十一月/十二月 word paths; their substantive inline examples remain, with no invented files.
+Source37 have zero negative-reference edges. Two individually reviewed direct Russian guards
+protect一日–日 and一人–人 against actual bare singular labels, not a generic/transitive clique.
+
+[Actual composite review](translation-batches/015-calendar-count-words-review.json) records complete
+1134EN/1138RU-line reading,37 titles/148 sections, all325 actual displayed meanings and complete
+日/人 source/RU supporting pairs. All56 complete dictionary query objects were read:57 entry
+occurrences/177 forms/136 returned sense objects, including12 Place and4 Wikipedia objects;
+120 lexical occurrences remain. Occurrences are not asserted unique or blanket learner adoption.
+Counter-specific sound changes replace overgeneralized initial-letter rules; attested五日ごにち/
+二十日にじゅうにち are not falsely prohibited. Actual named Japanese definitions support both
+五月晴れ senses and the old-calendar link. Current BOJ denominations support bounded note claims.
+
+One genuine minor finding exposed an unsupported added一千円 spelling claim and a false positive
+attribution to the captured千円 entry. The added claim was removed; the original ordinary-use
+contrast remains, without declaring the spelling universally invalid. An explicit superseding
+erratum withdraws the false claims in historical scope/preauthoring/adjudication records without
+rewriting them. An independent exact-delta/evidence recheck resolved B015-R1 at high confidence;
+other36 new words/all354 baseline RAW objects remain unchanged. This is a whole37 review plus
+a real narrow recheck, not two whole37 semantic reviews. All final composite facets are CLEAN.
+
+Current membership is **391 runtime objects**:18 kanji,325 words,18 strokes,2 articles,22 counter
+files,1 grammar set,2 scene catalogs and3 images. Fresh strict8278-entry progress has
+**391 reviewed-current**, **no partial units**, **two reviewed runtime-blocked drafts** and
+**7,885 pending**; **7,887 runtime paths remain absent**. All354 prior tracking records and
+non-record sections remain unchanged; checkpoint authority null/Ready false.
+Actual final serialized checks:0 errors/124 tests32.014s; budget398files/407entries/
+1234441retained/1248458inflated/620416localZIP bytes; version `95a8d5dc2948138c`.
+
+The immutable pinned app function has11 unmapped canonical IDs across56 occurrences in this
+batch; preserve those IDs and leave the concurrent app untouched. Eight directly related
+guidance lines and the JMnedict/ENAMDICT provenance attribution accompany the work; no assets,
+grammar contexts or media were added. C6/C7/native/device/IME/media/package/activation/release/
+checkpoint authority and frozen runtime refs remain separate. Continue the next safe required-word
+support batch for the actual57-new-kanji distractor component, then all remaining frozen families;
+mandatory distractors are not dropped to shrink the scope.
