@@ -8,6 +8,42 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The twenty-sixth full-target source batch adds29complete kanji and29RAW-identical
+licensed frozen strokes. [Batch026 reviewed source](translation-batches/026-n5-kanji-closure-reviewed-source.json)
+binds119affected paths:58new objects,60navigation-only old bodies and日's one-line
+third-foil amendment;662other baseline RAW objects remain unchanged.
+
+The whole-batch read-only reviewer actually read all108complete EN/RU pairs, all141kanji
+answer rows,59scoped word rows,29complete XML records,15radical rows and13dictionary
+main entries. Its actual returned overall verdict is “No significant issues found in
+the reviewed changes.” It did not return separate facet grades. Actual public messages
+and completed BEGIN/END/hash markers substantiate coverage; requests alone are not proof.
+The synchronous reviewer could not receive follow-up. One subsequent narrowly scoped
+read-only adjudication read ten complete pairs and returns explicit C1/C2/C3 CLEAN only
+for the disputed claims/five foil changes/reverse校→学/日 amendment. It is not a second
+108-pair review. Both actual scopes and the reporting limit remain explicit in the
+[independent record](translation-batches/026-n5-kanji-closure-independent-review.json).
+
+Five source foils change;82other directed source edges remain. The 多/高 alternatives
+are conservative valid choices, not uniquely necessary replacements or universal
+equivalences. Historical source-only reading/register/etymology claims remain UNVERIFIED
+and are not asserted in RU. Canonical readings/IDs/tags/levels and substantive Japanese
+examples remain. Optional absent navigation is plain text, never an English placeholder.
+
+Membership781:141kanji/469words/141strokes/2articles/22counterfiles/onegrammarset/
+2scenecatalogs/3images; kanji80N5/49N4/11N3/1N2. All80frozenN5kanji are now present,
+not allN5words or all8278objects. Fresh strict progress:781reviewed-current, no partial,
+two reviewed runtime-blocked drafts,7,495pending and7,497runtimepathsabsent.
+Version `b99a20143288672b`; checkpointauthoritynull/Readyfalse.
+Actual initial serial checks:0errors/124tests27.543s;789files/798entries/2264099retained/
+2280781inflated/1131944localZIPbytes. Final checks and desktop archive/exact-main CI are
+separate actual receipts. No new images/scenes/audio, device/IME/playback/newpackage/
+C6/C7/ordinaryactivation/release/checkpoint authority follows. Existing app-tag gaps
+remain unresolved; concurrent app untouched. Continue remainingN5words and every
+safe frozen family, with frequent reviewed-source integration.
+
+Earlier accepted milestones below are historical.
+
 The twenty-fifth full-target source batch adds full重 and35complete word articles,
 plus one RAW-identical licensed frozen重stroke.
 [Batch025 reviewed source](translation-batches/025-heavy-support-vocabulary-reviewed-source.json)

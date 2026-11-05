@@ -961,3 +961,54 @@ Exact frozenstroke/rootKanjiVG/Unicode notices remain intact. No device/IME/play
 newpackage/C6/C7/ordinaryactivation/release/checkpoint authority follows.
 Continue the actual29-kanji mandatory-support component, remainingN5words and every
 other safe level/family of the finite frozen target; this milestone is not full completion.
+
+## Reviewed source milestone026: N5 kanji closure
+
+The [reviewed source record](translation-batches/026-n5-kanji-closure-reviewed-source.json)
+adds29complete kanji and29exact frozen-source licensed strokes. Sixty old bodies change
+only frozen navigation wrappers;日 adds its safe third foil目. All662other baseline
+runtime RAW objects remain unchanged.119affected paths retain exact frozen English and
+current Russian workingRAW/canonicalGitRAW/normalizedLF hashes. Historical intake,
+source proposals, freezes and unreviewed candidate remain immutable.
+
+The whole-batch independent read-only review actually read108completeEN/RUpairs:
+29new and79old/context pairs. It also read141kanji answer rows,59scoped word rows,
+29complete XML records,15radical rows and all13relevant dictionary main entries.
+The author-prepared610-row pool is not claimed as610reviewed rows or whole bodies.
+The actual final verdict is “No significant issues found in the reviewed changes.”
+Separate facet grades were not returned. Public reading statements and completed
+BEGIN/END/hash markers substantiate all108pairs; the report preserves that limitation.
+
+Because the original synchronous reviewer could not receive a focused follow-up, one
+subsequent read-only adjudication read ten complete pairs concerning the disputed
+claims/five foil changes/reverse校→学/日 amendment. It explicitly returns C1/C2/C3 CLEAN
+within that narrow scope, no actionable finding; it is not another108-pair review.
+The [independent record](translation-batches/026-n5-kanji-closure-independent-review.json)
+faithfully distinguishes the two actual scopes and their conclusions.
+
+Of87directed source edges,82remain and five are independently supported replacements.
+The 学/子/少 ambiguities arise from ordinary dictionary meanings. 多/高 replacements
+are conservative valid alternatives, not uniquely mandatory changes or claims of
+universal Russian equivalence. Retained reverse校→学 is judged against actual «учёба»,
+not mechanically reversed. No transitive clique is added.
+
+Historical claims about reading rarity/register,字-なderivation,安price etymology and
+少いhistory remain UNVERIFIED and are not asserted in current Russian teaching.
+The full source reading lists and substantive examples remain;學's hands, selected
+dictionary no-kun scope, 子fixed vocabulary, study-field labels and高めるreading row
+are qualified/corrected using actual evidence, not unseen images or English authority.
+
+Membership is781runtime objects:141kanji/469words/141strokes/2articles/22counterfiles/
+onegrammarset/2scenecatalogs/3images. Kanji80N5/49N4/11N3/1N2 includes all80frozenN5
+kanji, not everyN5word or the corpus. Fresh strict8278-entry progress:
+**781reviewed-current**, **no partial**, **two reviewed runtime-blocked drafts**,
+**7,495pending**, **7,497runtimepathsabsent**. Checkpointauthoritynull/Readyfalse;
+version `b99a20143288672b`. Actual initial serial checks:0errors/124tests27.543s;
+budget789files/798entries/2264099retained/2280781inflated/1131944localZIPbytes.
+Final checks, public desktop archive and exact-main CI are separately evidenced.
+
+Root licenses/NOTICE and all strokeRAWs remain exact. No new image/scene/audio or paid
+generation occurred. Existing app-tag gaps remain unresolved; concurrent app untouched.
+No phone/IME/playback/newpackage/C6/C7/ordinaryactivation/release/checkpoint authority
+follows. Continue remainingN5words and every safe frozen level/family; full task is
+still in progress, independent of the separately blocked release/device/media gates.
