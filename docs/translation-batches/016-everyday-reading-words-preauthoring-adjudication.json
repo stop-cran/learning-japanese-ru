@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "batch": "016-everyday-reading-words",
+  "state": "author-preauthoring-assessment-not-independent-acceptance",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineCommit": "ae94a58caa40838e670330cd19c1116a92367635",
+  "plannedSourceAdaptations": [
+    {
+      "path": "words/手.md",
+      "claim": "Relabel足comparison as related/contrasting body part, not strict lexical antonym; preserve手足and all examples.",
+      "evidence": "Actual full足source explicitly says related body part/not an antonym; complete hand/foot dictionary objects."
+    },
+    {
+      "path": "words/毎年.md",
+      "claim": "Keep sourceH1bothまいとし／まいねん, primary metadataまいとし/typekango. Explain mixedon/kunversusall-onwithout inventing a new class.",
+      "evidence": "Actual written-form/reading fields in queries4/27; both source readings preserved."
+    },
+    {
+      "path": "words/分かる.md",
+      "claim": "Replace Englishpassive-perspective dependency with self-contained Russian explanation of intransitive godan/nonpassive form. Retain分る/解るand labelled learning-image-not-etymology.",
+      "evidence": "Complete source and actual query1forms/labels/senses1–2."
+    },
+    {
+      "path": "words/生まれる.md",
+      "claim": "Translate産まれるas variant referring to being born/physical birth, not transitivegivingbirth. Preserve子供を生むversus子供が生まれる, extended ideas, birthplace noun and own-birth past.",
+      "evidence": "Actual queries6/31both list intransitive birth; query30birth/birthplace noun. Complete source teaching preserved."
+    },
+    {
+      "path": "words/貸す.md",
+      "claim": "Remove Englishrent/borrowdependency but retain lender/borrower direction,に/をroles, temporary use versus gift and who acts inペンを貸してください.",
+      "evidence": "Complete source and queries22/43/44; no particle-to-Russian-case equivalence."
+    },
+    {
+      "path": "words/緑.md",
+      "claim": "Remove Englishcolourcategorydependency; teach Japanese緑のand conventional青信号without unrestricted青/緑interchangeability.",
+      "evidence": "Actual queries17/23/51/52and complete source colour bodies."
+    },
+    {
+      "path": "words/雨.md",
+      "claim": "Preserve textual Tokyo pitch contrast rainHL/candyLH; do not call Russian stress, audio playback or native/device acceptance.",
+      "evidence": "Both complete actual Wiktionarypronunciationsections, same revision2345350, map雨section7acc1and飴section13acc0. Not supplied by JishoAPI."
+    },
+    {
+      "path": "words/足.md",
+      "claim": "Render retained一足いっそくexample as one pair of footwear, not one individual shoe; preserveあし/た/ソク/きゃくand足/脚qualifications.",
+      "evidence": "Complete supplemental exact一足いっそくquery explicitlya pair(of shoes or socks); actual foot and脚きゃくobjects."
+    },
+    {
+      "path": "words/買う.md",
+      "claim": "Keep買わないnot買あない,買えるpotentialand買う/飼うdistinction; flatten absentoptionalkaeruarticle into a fully Russian comparison label without dropping its change/replace/exchange/return teaching.",
+      "evidence": "Complete source and queries12/45/46; optional navigation is not a new article prerequisite."
+    }
+  ],
+  "provisionalDirectRussianGuards": [
+    {
+      "left": "自動車",
+      "right": "車",
+      "reason": "Actual primary automobile meaning shared by both source bodies and exact dictionary objects10/15; planned Russianавтомобильlabels. Not a generic all-transport clique."
+    },
+    {
+      "left": "知る",
+      "right": "理解",
+      "reason": "Independent direct witness: query20知るsense3 explicitly includes understand/comprehend/grasp/appreciate; query19理解and itsするusage concern understanding. Not inferred from the source's two分かるedges or asserted unrestricted interchangeability."
+    },
+    {
+      "left": "足",
+      "right": "車",
+      "reason": "Source足actually teaches transport in足がない; query14sense6 is means of transportation/(one's)ride, restricted to足. Query15車sense1 includes vehicle; planned Russian title retainsтранспортное средство. Do not infer足–自動車or a vehicle-type clique."
+    },
+    {
+      "left": "足",
+      "right": "お金",
+      "reason": "Query14sense7 explicitly lists colloquialmoney/coinwithinfo usuお〜; query0is money. Provisional lexical guard retains that qualifier and does NOT teach bare足as ordinary money or transfer the sense to脚/肢. Independent reviewer must assess the actual reading/label boundary; not inferred through車."
+    },
+    {
+      "left": "立つ",
+      "right": "出かける",
+      "reason": "Query24senses4–5 directly include leave/set off/depart; sense5oftenwritten発つ, not restricted to it. Actual baseline出かけるtitle/body includesвыходить/отправляться. Posture is still the primary taught use, not every sense made synonymous."
+    },
+    {
+      "left": "立つ",
+      "right": "出発",
+      "reason": "Independent query24sense5depart/set off matches actual baseline出発/出発するdeparture use. Oftenwritten発つqualifier retained in provenance; no inference through出かける."
+    },
+    {
+      "left": "立つ",
+      "right": "出る",
+      "reason": "Independent query24sense4leaveand7appear(of rainbow/clouds etc.) overlap actual baselineвыходить/появлятьсяlabels. Sense restrictions remain; no claim all立つ/出るconstructions substitute."
+    },
+    {
+      "left": "生まれる",
+      "right": "出る",
+      "reason": "Actual frozen source生まれるexplicitly teaches new things coming into being/new ideas arising; current出るlabel includesпоявляться. Direct Russian appearance overlap, not a transitive inference through立つ, and not a claim literal birth equals every exit."
+    }
+  ],
+  "actualPoolAssessment": [
+    "All325current actual Russian displayed labels read, with nine complete relevant baseline bodies; all25complete frozen source bodies and every complete dictionary object read.",
+    "Keep source青い–緑and both分かるknowledge edges. Additional知る–理解has its own dictionaryunderstandsense, not transitive inference.",
+    "Primary car synonym and actual transport/money secondary meanings evaluated separately. 足cashwitness is explicitly colloquial/usuお〜; not claimed ordinary unprefixed usage. Standingdeparture/appearanceandbirthappearance guards bind actual source/dictionary senses and current labels, not generic movement cliques.",
+    "Do not form a colour/bodypart/food/person/time clique. 白いand青いboth can describe a pale face, but actual planned literal colourlabels do not make blue and white unrestricted equivalents. 牛肉is beef, not a reason to exclude every meat/food label.",
+    "Word-type/tag/string differences alone do not prove safety. Rootwordreading comparisons, loan direction, physical versus figurative colour and loanwordshopping overlap remain taught; full independent actual-label assessment still required."
+  ],
+  "all391BaselineRawObjectsAndOldTrackingUnchanged": true,
+  "reviewStatus": "pending",
+  "independentReviewer": null,
+  "limits": "Freeze/preparation only; no Russian runtime texts yet, no self-approval, native/phone/media/release/checkpoint authority."
+}
