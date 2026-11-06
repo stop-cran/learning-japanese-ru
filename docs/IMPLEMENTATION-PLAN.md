@@ -8,6 +8,37 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The thirty-eighth full-target batch adds **18 complete quantity/measurement/comparison words:
+16 N5 roots and two required N4 providers, 最も/最初**.
+[Reviewed source038](translation-batches/038-quantities-measurements-reviewed-source.json)
+and [actual independent evidence](translation-batches/038-quantities-measurements-independent-review.json)
+preserve the initial 39-pair code-review reading whose 52-byte return supplied no
+linguistic facet report. It is **NOT_REPORTED, not approval**. The subsequent actual
+linguistic adjudication read all 18 new pairs and 12 support pairs, 713 compact captions,
+68 complete candidate query-object rows and six selected dictionary ranges:
+C1/C3 CLEAN, 21 direct necessities supported, three ordinary-necessity claims UNVERIFIED.
+A narrow six-pair/five-range recheck independently accepts those three dictionary-grounded
+guards **only as qualified conservative metadata** and four method lines.
+Their ordinary contemporary necessity/frequency remains UNVERIFIED, not newly taught N5 usage.
+The earlier report is not retroactively relabelled; **24 direct guards = 21 supported
+necessities + three independently accepted conservative protections**.
+
+All 1007 accepted baseline RAWs/tracking rows and all 18 full learner bodies/metadata
+remain unchanged by the documentation-only qualification.
+Membership: **1025 runtime objects /713 words**, word levels
+524 N5/56 N4/60 N3/19 N2/54 unlabelled; **148 of 672 N5 words remain**.
+Fresh strict progress: **1025 reviewed-current, two excluded reviewed runtime-blocked
+media drafts, 7,251 pending, 7,253 absent runtime paths**, no partial.
+Version `c3444eaf9a65b497`; checkpoint authority null/Ready false.
+Candidate manifest/validator/124 tests/budget passed; final checks, signed main integration,
+actual public archives and exact-main CI have separate receipts.
+No new assets or app/ordinary EN/device/media/default-activation/release approval.
+Canonical tag gaps are reported only at immutable app `5c000bd`.
+Later actual native findings can require affected-batch correction/review;
+continue every remaining safe frozen level/family without a speculative stop gate.
+
+Batch 037 and earlier milestones below are historical.
+
 The thirty-seventh full-target batch adds **16 complete N5 communication/learning words**.
 [Reviewed source037](translation-batches/037-communication-learning-reviewed-source.json)
 and [actual independent review](translation-batches/037-communication-learning-independent-review.json)

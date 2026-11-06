@@ -1607,3 +1607,69 @@ separate. Later actual findings may require affected-batch corrections/re-review
 not a speculative stop to unrelated authoring.
 Continue the 164 remaining N5 words and every other safe frozen level/family;
 the entire finite objective remains in progress.
+
+## Reviewed source milestone038: quantities, measurements and comparison
+
+[Reviewed source038](translation-batches/038-quantities-measurements-reviewed-source.json)
+and [actual independent evidence](translation-batches/038-quantities-measurements-independent-review.json)
+cover 18 complete frozen word lessons: キロ、キログラム、グラム、メートル、
+キロメートル、いくら、幾つ、たくさん、大勢、全部、みんな、皆さん、
+いろいろ、いちばん、もっと、より、最も、最初.
+The first 16 are N5 roots; the last two are N4 providers required by the actual
+source いちばん negative references, frozen before authoring.
+All source examples/readings/forms, stable metadata/classification/tags/levels,
+qualifications and attributions remain. Four adopted local links remain;
+only twelve unavailable optional wrappers were removed, without deleting teaching.
+
+The initial reviewer actually read 39 complete pairs, 713 compact captions,
+68 complete candidate objects and six ranges, but returned only 52 bytes with
+no linguistic facets/scope/rationale. Its report remains NOT_REPORTED, not acceptance;
+the synchronous reviewer could not receive the actual report-completion follow-up.
+The subsequent linguistic adjudicator actually read **all 18 new pairs plus 12 full
+support pairs**, **713 compact rows**, **68 candidate query-object rows**
+(65 lexical and three non-adopted Wikipedia-only, not 65 unique lemmas),
+all 24 proposals and six selected dictionary ranges.
+Its actual 8,806-byte report gives C1/C3 CLEAN and supports 21 direct necessities,
+but leaves three ordinary-present-day necessities UNVERIFIED.
+
+The bounded recheck actually read **six full pairs**, **five selected ranges**,
+all three evidence-qualified proposals, both complete prior reports and four new
+methodological lines. Its actual 5,062-byte report independently accepts
+大勢–力, 大勢–左右 and 最も–一 solely as **conservative, directly dictionary-grounded
+protections for bare-written prompts**. It does not establish modern frequency or
+ordinary N5-quiz necessity; those three stronger claims remain UNVERIFIED and unasserted.
+No older report is relabelled CLEAN. This is substantive independent assessment
+of a smaller adoption boundary, not a title-only or administrative status change.
+There are **24 direct guards: 21 supported necessities and three qualified conservative
+adoptions**, not a transitive clique. No current usage example is invented.
+
+All **1007 accepted baseline RAWs/tracking rows**, all 18 new full learner bodies/metadata,
+713 captions and the complete excluded C2-unverified 空 draft remain unchanged by the
+documentation-only qualification. Membership is **1025 runtime objects**:
+141 kanji, 713 words, 141 strokes, two complete articles, 22 counter files,
+one grammar set, two scene catalogs and three images.
+Words: **524 N5 /56 N4 /60 N3 /19 N2 /54 unlabelled**;
+**524 of 672 frozen N5 words adopted, 148 remain**.
+Fresh strict 8,278-entry progress: **1025 reviewed-current**, **no partial**,
+**two excluded reviewed runtime-blocked media drafts**, **7,251 pending**,
+**7,253 runtime paths absent**. Version `c3444eaf9a65b497`; checkpoint authority null/Ready false.
+Actual candidate manifest/validator/124 tests/budget passed. Final accepted-tree checks,
+signed integration, actual public archives and exact-main CI remain separate receipts.
+
+No new assets. Canonical `address`, `degree`, `measurement`, `order`, `particle`,
+`prefix`, `unit`, `usually-kana` IDs remain unchanged; unmapped fallback is observed
+only at immutable app `5c000bd`, not concurrent app/device rendering.
+The failed generic キロ dictionary URL returned HTTP404, not lexical absence evidence;
+actual captured prefix/kg/km evidence remains. EN-only 何 is still pending, not an
+invented Russian pair or runtime placeholder.
+
+Append-only historical erratum: the 037 publication receipt's `limits[3]` says
+`508/672N5words and991/8278objects`. Its object subtotal should be **1007**, as established
+by the actual 037 membership/manifest/archive evidence; the N5 subtotal 508 is unchanged.
+The immutable 037 receipt is preserved rather than rewritten.
+
+Historical native passes and specific remaining C6/C7/media/default-activation gates
+remain separate. Later actual findings may require affected-batch correction/review,
+not a speculative stop to unrelated authoring.
+Continue the 148 remaining N5 words and every other safe frozen level/family;
+the entire finite objective remains in progress.
