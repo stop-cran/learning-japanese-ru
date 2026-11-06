@@ -11,6 +11,41 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The fifty-third full-target batch adds **20 complete N4 housing/overnight/
+household-routine lessons /1068 Russian lines** against the unchanged frozen source.
+The [actual single independent report](translation-batches/053-housing-overnight-stays-and-household-routines-independent-review-001.json)
+read201 assigned complete teaching bodies plus two consequential bath bodies,
+208 assigned plus one additional complete official entry, and all980 actual
+candidate captions/readings. C1/C3 found no actionable defect in the assigned
+change scope; original **C2 CHANGES REQUIRED** and five findings are immutable.
+The [exact metadata resolution](translation-batches/053-housing-overnight-stays-and-household-routines-finding-resolution-001.json)
+withdraws Q7二階建て–ビル, Q20忘れ物–忘れる,
+Q21忘れ物–無くす and Q35塵–少し; adds direct湯–お風呂;
+and preserves **all20 complete teaching bodies**.
+**45 individually qualified safeguards** comprise44 explicitly retained
+proposals and one prescribed addition. No transitive bath/building/provider
+closure, invented minimum-floor rule, 忘れ物する or obligatoryちり host.
+Separate田舎/でんしゃ rural-house evidence retains its reading/domain limit,
+not ordinary modern N4 necessity/frequency proof.
+The original47-proposal freeze and Q48 supplement are unchanged; Q48 was
+signed before that metadata, after initial body drafts, not before all writing.
+No second review or fresh980-baseline-body rereading is invented.
+Broader whole-pool uniqueness and ordinary modern necessity/frequency remain
+**UNVERIFIED** outside the actual bounded judgment.
+
+Membership: **1292 runtime objects /980 words**,
+671 N5/171 N4/65 N3/19 N2/54 unlabelled; protected空 is the only remaining N5 word.
+Strict progress: **1292 reviewed-current, two excluded reviewed runtime-blocked
+media drafts,6984 pending,6986 absent runtime paths**, no partial.
+Version `74cedfd0a5a1228e`; checkpoint authority null/Ready false.
+All1272 baseline RAWs/tracking rows and historical evidence are preserved.
+Final serialized checks, signed integration/public archives/exact-main CI
+are recorded separately. Protected excluded033空 remains pending/C2 UNVERIFIED,
+separate from the two media drafts. No new asset/app/device/phone/IME/media/
+default-activation/release approval. Continue all safe frozen levels/families.
+
+Batch052 and earlier milestones below are historical.
+
 The fifty-second full-target batch adds **20 complete N4 household/tools/
 daily-living lessons /1080 Russian lines** against the unchanged frozen source.
 The [actual independent report](translation-batches/052-household-tools-and-daily-living-independent-review-001.json)
