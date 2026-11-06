@@ -1,0 +1,91 @@
+{
+ "actualEventsPrivateArtifact": "ru-040-focused-review-actual-events-001.json",
+ "actualEventsRawSha256": "8a788edce7f2db85f15c18855fd034c5538361dd4babb37dd670c8905e4d09dd",
+ "actualNativeContentDomain": "tool.execution_complete.result.content",
+ "actualNativeEventId": "e60aeed8-decb-4ede-83b5-060894e1d34a",
+ "actualNativeReturnText": "## Batch040 — focused correction recheck\n\n**Snapshot:** RU `dfec044cb134fc4e389ba6e27376563be830a543`, version `20947276cf78bbe5`; branch `full-ru-040-connectives-frequency-degree`. Frozen EN: `6af98cb717755690a9ca793e5454a96ebd7a8f9f`. No uncommitted material included.\n\n### Actually read\n\nUsing the pinned no-write reader, completely read:\n\n- All **7 EN/RU pairs**: まだ, よく, 多い, どうも, また, 本当, 多分—including full bodies, examples, readings, captions and metadata.\n- All **7 complete captured query objects**, both new direct-guard proposals, all four supplementary rows, the complete **9,328-byte original report**, and all four serialized author-check outputs.\n- All three reviewer rubrics; general instructions lines 150–196 and 260–275; relevant content-structure guidance; frozen word-format contract lines 126–181.\n- The exact correction diff against `89cdaf33c95599edfd59c8d8d18abd0232216bf3`.\n\nThese seven pairs are a **subset of the original 47**, not additional unique pairs. I did not freshly reread all 756 captions or the remaining full articles.\n\n### Independent focused verdicts\n\n| Facet | Decision |\n|---|---|\n| **C1 — Japanese correctness** | **CLEAN within this correction boundary** |\n| **C2 — adopted closure and Russian option bindings** | **CLEAN within this correction boundary** |\n| **C3 — Russian clarity and naturalness** | **CLEAN within the seven affected bodies and five method lines** |\n\nNo new actionable defect established.\n\n### Explicit dispositions\n\n**1. まだ explanation — R1 resolved.**  \n`words\\まだ.md:34` now describes the **current time/stage being earlier or less advanced than expected**, rather than an event occurring ahead of schedule. This correctly explains `まだ三時です` / «Ещё только три часа». The Japanese example and translation remain intact. Evidence: complete frozen/current pair and captured まだ object, sense 1. Confidence: high.\n\n**2. よく–多い — supported for bounded conservative protection; R2 resolved for this pair.**  \n`words\\よく.md:9` now directly includes 多い. The actual captions are «часто; хорошо» and «много; многочисленный». Captured 多い sense 3 records **frequent/common**, and its existing body explicitly translates `雨が多い` as «часто идут дожди» (`多い.md:18`). This supports the stated contextual ambiguity protection—not unrestricted adjective/adverb interchangeability.\n\n**3. よく–どうも — supported for bounded conservative protection; R2 resolved for this pair.**  \nThe same exclusion list directly includes どうも. Captured よく sense 3 expresses appreciative **“thank you for…”**; captured どうも sense 1 expresses abbreviated thanks, matching its actual «спасибо; очень» caption. That supplies an independent gratitude-context basis. It does **not** make every よく occurrence mean «спасибо» or establish a new neutral N5 gratitude lesson. Confidence: high in the limited lexical/contextual basis.\n\n**4. また–本当 — withdrawal correctly implemented.**  \n`words\\また.md:9` now retains only `[もう一度]`; 本当’s declaration contains no reciprocal また edge. The resolution record explicitly withdraws the proposal. また’s surprise-qualified “really” does not establish overlap with the actual 本当 caption «правда; настоящий». The proposal is **withdrawn**, not upgraded to supported; historical evidence is retained.\n\n**5. 多分 phrase — optional polish implemented satisfactorily.**  \n`words\\多分.md:21` now reads «Второй пример выражает предположение, что человек не придёт, а не уверенность в его приходе». The Russian construction is coherent and preserves the negated forecast without changing the Japanese example.\n\n**6. Five new method lines — acceptable.**  \n`.github\\copilot-instructions.md:264–268` clearly distinguish English-gloss resemblance from actual Russian-caption overlap, current stage from early event occurrence, and contextual safeguards from new basic N5 meanings. They capture the demonstrated failures without imposing blanket synonymy or frequency claims.\n\n### Preservation and limits\n\nThe correction diff preserves the original six よく guards and また–もう一度. The original source-adjudication file is unchanged between the two candidates: this correction does not silently rewrite its previously supported claims. The resulting **43 direct guards = 18 source + 25 limited-purpose** guards; this is not a fresh semantic reassessment of every earlier pair.\n\nFor **all 25 limited-purpose guards**, stronger ordinary-modern necessity/frequency claims remain **UNVERIFIED and unasserted**.\n\nThe original whole-review **C1/C2/C3 NEEDS FIX verdict remains historical fact**. This report records later resolution of its specified corrections, not retroactive whole-review CLEAN status.\n\nAuthor-recorded successful checks—including 124 tests and 37.172-second test wall time—were read, **not rerun**, and are not semantic proof. The 756-caption unchanged result is mechanical evidence only.\n\nNo writes, scratch files, tests, builds, Git changes, agents or broadcasts were performed. No full-corpus, native-speaker, device/media, default-activation, release or checkpoint approval is issued.",
+ "actualNativeReturnUtf8Bytes": 5444,
+ "actualNativeReturnUtf8Sha256": "9c5af02b75b1a146bf801e89ac2f668fa91a83a8095b59c9ee2862ea03ff4047",
+ "actualObservedSuccessfulReaderIndices": {
+  "checks": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "extra": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "objects": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "pairs": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "pool": [],
+  "prior": [
+   0
+  ],
+  "proposals": [
+   0,
+   1
+  ]
+ },
+ "batchId": "040-connectives-frequency-degree",
+ "candidateCommit": "dfec044cb134fc4e389ba6e27376563be830a543",
+ "checkpointAuthority": null,
+ "cumulativeUniqueReportedBilingualPairs": 47,
+ "facets": {
+  "C1": "CLEAN",
+  "C2": "CLEAN",
+  "C3": "CLEAN"
+ },
+ "independentlyAcceptedAdditionalPairs": [
+  [
+   "よく",
+   "多い"
+  ],
+  [
+   "よく",
+   "どうも"
+  ]
+ ],
+ "limits": [
+  "Only25completewordlessons(22N5+1N4+2N3) accepted; no wholecorpus/native/device/media/defaultactivation/release/checkpoint authority.",
+  "Actual whole47fullpairs+2EN-only/756compactcaptions/55completequeryobjects(54lexical+1pureWikipedia)/42proposals returnedNEEDS FIXallthreefacets. Original9328byte report unaltered.",
+  "Actual focused7fullpairs/7objects/2addedguards/1withdrawal/2Russianphrases/5methodlines/fulloriginalreport resolvesactualfindingsC1/C2/C3CLEAN ONLYwithinboundary. Sevenareinside47, not54newpairs.",
+  "43directguards=18source-sense+25independentlyacceptedlimitedconservative/contextual protections. Strongerordinarymodernnecessity/frequency ofeach25 UNVERIFIED/unasserted; no genericcliques/newneutralN5dialect/rareteaching.",
+  "Unsupportedまた–本当 WITHDRAWN, not upgraded. All1043acceptedbaselineRAWs/tracking/history andexcludedunverifiedsky preserved; all756actualtitles unchanged.",
+  "No newassets/scenes/strokes/mandatorykanji/grammarcontexts.27sourcelocallinks enumerated:12retained/15optionalwrappersremoved withoutJapanese substantive teaching loss.",
+  "Canonicalconcepts/conjunction/frequency/reality/sequence IDs preserved; explicitmappinggapONLYatimmutableapp5c000bd. No concurrentapp/ordinaryEN/device/mediaauthority edits/claims."
+ ],
+ "nativeTransferLimitObservation": "Within9500UTF8bytes",
+ "ordinaryActivationAuthorized": false,
+ "reviewerAgentId": "4f420897-5e3d-48c7-a31a-f39e99f94cba",
+ "reviewerName": "ru040-focused-correction-recheck",
+ "reviewerResumable": false,
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "stronger25ConservativeNecessityFrequency": "UNVERIFIED; unasserted",
+ "unsupportedProposalWithdrawn": [
+  [
+   "また",
+   "本当"
+  ]
+ ]
+}

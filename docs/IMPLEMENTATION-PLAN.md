@@ -8,6 +8,34 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The fortieth full-target batch adds **25 complete connectives/frequency/degree
+lessons: 22 N5 roots, one required N4 and two required N3 providers**.
+[Reviewed source040](translation-batches/040-connectives-frequency-degree-reviewed-source.json)
+and [actual independent evidence](translation-batches/040-connectives-frequency-degree-independent-review.json)
+preserve the whole 47-pair/two-EN-only/756-caption/55-object/42-proposal review:
+original C1/C2/C3 NEEDS FIX, not retroactively CLEAN. The focused seven-pair/
+seven-object review resolves two missing よく guards and the まだ stage/time
+explanation; また–本当 is withdrawn as unsupported. Two Russian phrases and five
+method lines are independently accepted. Cumulative unique bilingual evidence
+remains **47 pairs**, not 54. **43 direct protections =18 source-sense +25 limited
+conservative/contextual decisions**; stronger ordinary modern necessity/frequency
+of all 25 remains UNVERIFIED and unasserted.
+All 1043 accepted baseline RAWs/tracking rows and 756 actual titles are preserved.
+
+Membership: **1068 runtime objects /756 words**,
+564 N5/57 N4/62 N3/19 N2/54 unlabelled; **108 of672 N5 words remain**.
+Fresh strict progress: **1068 reviewed-current, two excluded reviewed runtime-blocked
+media drafts, 7208 pending, 7210 absent runtime paths**, no partial.
+Version `20947276cf78bbe5`; checkpoint authority null/Ready false.
+Actual candidate/corrected checks passed; final checks, signed integration,
+public archives and exact-main CI have separately recorded publication evidence.
+No new assets or app/ordinary EN/device/media/default-activation/release approval.
+Canonical concepts/conjunction/frequency/reality/sequence mapping follow-up is
+confined to immutable app `5c000bd`. Later actual native findings can require
+affected-batch correction/review; authoring of safe frozen content continues.
+
+Batch039 and earlier milestones below are historical.
+
 The thirty-ninth full-target batch adds **18 complete N5 question, address,
 request and response lessons**.
 [Reviewed source039](translation-batches/039-questions-address-responses-reviewed-source.json)

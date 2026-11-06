@@ -1,6 +1,46 @@
 # Full Russian translation: execution after the two pilots
 
-## Current source milestone: batch039 questions, address and responses
+## Current source milestone: batch040 connectives, frequency and degree
+
+Batch040 adds **25 complete word lessons: 22 N5 roots and three required
+providers (たいてい N4; 現実/実際 N3)** against the unchanged frozen
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+[Actual review](translation-batches/040-connectives-frequency-degree-independent-review.json)
+and [reviewed source](translation-batches/040-connectives-frequency-degree-reviewed-source.json)
+preserve the original whole review: **47 full EN/RU pairs, two EN-only optional
+sources, 756 actual compact captions, 55 complete query-object rows and 42 proposals**.
+One Wikipedia-only object is not lexical evidence. The original C1/C2/C3 NEEDS FIX
+verdict is retained. The focused review reads seven complete pairs and seven
+objects, both added protections, the unsupported withdrawal, two corrected
+Russian phrases, five method lines and the complete original report.
+It resolves the まだ time/stage explanation and two missing よく protections;
+the unsupported また–本当 proposal is withdrawn, not upgraded.
+All seven focused pairs are inside the original **47 unique pairs**, not 54.
+
+**43 direct protections = 18 source-sense +25 independently accepted limited
+conservative/contextual safeguards.** Stronger ordinary modern necessity/frequency
+of all 25 remains UNVERIFIED and unasserted. No neutral N5 dialect/rare meanings
+or unrestricted synonyms are added. All 1043 previously accepted runtime RAWs
+and historical tracking rows are preserved; all 756 actual titles are unchanged
+by the corrections.
+
+Membership: **1068 runtime objects /756 words**, including
+**564/672 N5 words; 108 remain**. Other word levels:
+57 N4/62 N3/19 N2/54 unlabelled. Fresh strict target accounting:
+**1068 reviewed-current, two excluded reviewed runtime-blocked media drafts,
+7208 pending of 8278; 7210 runtime paths absent**, no partial.
+Version `20947276cf78bbe5`; checkpoint authority null/Ready false.
+Actual candidate/corrected checks passed; final validation, signed integration,
+public archives and exact-main CI have separate publication evidence.
+
+No new assets or app/ordinary EN/device/media/default-activation/release approval.
+Canonical `concepts`/`conjunction`/`frequency`/`reality`/`sequence` IDs remain unchanged;
+their explicit mapping gap is observed only at immutable app `5c000bd`.
+The excluded full033 空 draft stays pending/C2 UNVERIFIED, separate from the
+two reviewed blocked media drafts. Later real native findings may require
+affected-batch corrections; continue every independent safe frozen level/family.
+
+## Prior source milestone: batch039 questions, address and responses
 
 Batch039 adds **18 complete N5 word lessons** against the unchanged frozen
 `6af98cb717755690a9ca793e5454a96ebd7a8f9f`, not a new pilot limit.
