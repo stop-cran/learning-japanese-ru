@@ -1,0 +1,102 @@
+{
+ "actualEventsPrivateArtifact": "ru-046-focused-review-actual-public-events-001.json",
+ "actualEventsRawSha256": "18dd2a6cb82aa22e87d30b90cb8fd28390a835c6ef0e985ab7417c118dacf95c",
+ "actualFinalAssistantMessageEventId": null,
+ "actualObservedSuccessfulReaderIndices": {
+  "checks": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "domain": [
+   0
+  ],
+  "guide": [
+   0
+  ],
+  "invariants": [
+   0
+  ],
+  "objects": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "pairs": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "report": [
+   0
+  ],
+  "resolution": [
+   0
+  ],
+  "rubrics": [
+   0,
+   1,
+   2
+  ]
+ },
+ "actualPublicBase64EventId": "556892b1-b86d-4fe6-b535-5813ad1e16ff",
+ "actualPublicStdoutContentDomain": "tool.execution_complete.result.content",
+ "actualPublicStdoutEventId": "78957393-6cea-4242-b5e5-c632d95d0232",
+ "actualReportedScope": {
+  "completeBodies": 18,
+  "completeLocalizedRussianRubrics": 3,
+  "completeOfficialEntries": 11,
+  "completePairs": 9,
+  "firstReviewScopeCarryforwardOnly": "16bodyidentity/1156baselineRAW/860captionidentity; notfreshsemanticreadingofremaining54pairs/113objects",
+  "secondWholeReview": false
+ },
+ "actualReturnedReportText": "# RU046 focused guard and domain recheck\n\n## Snapshot\nR: C:\\Users\\stop-\\learning-japanese-ru; branch full-ru-046-time-sequence-positions; HEAD ea55ec52b6781a8a15871b886118a67cca954b1e, tracked-clean.\nS: C:\\Users\\stop-\\.copilot\\session-state\\68a44f7f-62db-4755-8296-fd586c861a35\\files\\ru-full-scope-en-6af98cb; frozen HEAD 6af98cb717755690a9ca793e5454a96ebd7a8f9f. Both HEADs checked; no retargeting or uncommitted changes included.\nComparison: genuine whole-review snapshot 5d1cefe0e5fa3bbab78a7a2e6da00df72012e07d. Accepted baseline remains 0ba57de6f3f1fc58132e7ddb4a04323ec7a80e96. One fresh independent focused reviewer; no delegation or old-agent contact.\n\n## Actual scope\n- Complete nine EN/RU pairs, 18 bodies: 今, 先, 初め, 初めて, 向こう, 最近, 最初, いちばん, 宛名. Successful pairs[0:2],[2:4],[4:6],[6:8],[8:9].\n- Eleven complete official objects: 1342540,1342550,1293990,1165970,2646830,1387210,1586520,1005180,1288850,1293780,1277140; objects[0:4],[4:7],[7:11]. Hash-bound entity-expanded serialized XML, not raw archive slices.\n- All three complete LOCALIZED R rubrics, rubrics[0:1],[1:2],[2:3]. Full active guide, successful lines1-80,81-148,149-270,271-390; initial truncated request not counted. Relevant content-structure lines1-194, full translation-methodology and content-format-reference, FULL-TRANSLATION-PLAN lines1-43,281-384, frozen EN word/quiz contract130-174.\n- Complete actual whole report, report[0:1]: 10888 UTF-8 bytes; verified SHA256 ea946c4b09d0c4bfcdee810c295246b2f5612686c481321a4c9449d6694cbf92. Complete focused resolution/domain/guide/invariants[0:1] and checks[0:4]. Read all four removed and three added rationales, five actual method lines and all54 compact current pair rows, not all retained full rationales again.\n- Inspected helper assertions, actual original writer177-183 and its R-root definition, corrected reader rubric block and exact four-word Git diff. Independently matched original rubric receipt values at74a742c to R bytes/old Git, verified reader-fix hash, amendment002 presence at da153d4 before the four metadata edits, and historical-record/tracking preservation.\n- Machine comparisons: all1156 baseline working RAWs unchanged; all16 new canonical Git after-frontmatter bodies byte-identical to whole-reviewed bodies;12 entire working files RAW-unchanged;860 captions/readings unchanged. These comparisons are not fresh semantic review of those bodies/pool.\nUnread now: remaining54 of63 bilingual pairs and113 of124 official objects; prior private Russian entries/PDF pages not reopened. No second whole-batch or whole-corpus review.\n\n## Three-facet verdicts\nC1 Japanese correctness: CLEAN within the nine reread lessons and narrow lexical changes. Alternate さっき is a separate attested standalone entry, not primary さき redefined. No new construction/reading defect established.\nC2 adopted amendment coverage/dependencies: CLEAN within this focused scope. Three added direct protections use existing providers; four unsupported proposals are actually absent. The51 retained protections retain the FIRST report's qualified support, not a new51-pair semantic pass. Current54 extra pairs plus preserved source 後–後ろ make55 direct pairs, not a clique.\nC2 broader semantic quiz suitability and ordinary modern necessity/frequency: UNVERIFIED, not CLEAN. Dictionary evidence establishes the limited protections below, not their ordinary-use frequency or universal quiz safety.\nC3 Russian comprehensibility: CLEAN within reread lessons and changed guidance. No learner-facing caption/body changed; no new Russian defect established. Prior whole-review C1/C3 conclusions carry forward only for the16 identity-checked bodies, not as my fresh whole review.\n\n## Finding046-R1: resolved\nPreviously MAJOR/C2, words\\先.md:9 versus words\\向こう.md:4,9,16-24. New direct 先–向こう is present on 先; one-sided declaration supplies symmetric protection under the frozen contract. Complete1387210:4 and1277140:2 independently support spatial ahead/beyond. Actual 先 caption «впереди; раньше; в будущем» supplies «впереди», which can fit 向こう; «там; по ту сторону» also has the qualified spatial intersection. Accept046-RP55 as a direct conservative protection, not through ほか/他 and not equivalence of every temporal/spatial sense. Confidence HIGH; no additional baseline edit required.\n\n## Finding046-R2: resolved by withdrawal, not retrospective clearance\nAt words\\初めて.md former:9, words\\初め.md:9 and words\\先.md:9, the actual diff removes all four unaccepted pairs. Approve each removal:\n- Original50 初めて–最初: first experience/one's first in1342550:1,3 does not make ordinary bare ordinal «начало; первый» automatically test first-ever experience. Original answer-fit/necessity remains UNVERIFIED.\n- Original51 初めて–いちばん:1165970:1 independently supports ordering, not first-ever experience; «первый; самый» is not automatically «впервые». Same unresolved claim withdrawn independently, not inferred through 最初.\n- Original52 初め–初めて:2646830:1 is suffix ぞめ AFTER a verb'sます-stem. Bare 初め supplies no such host. Removing the guard is justified; this does not deny the restricted suffix sense.\n- Original54 先–宛名:1387210:7,9 versus1586520:1 does not establish that bare先 answers the entire joint «имя и адрес получателя». Address/recipient overlap cannot silently split that caption. Removal justified without denying attested address/other-party senses.\nNo evidence here establishes a newly exposed ordinary bare-prompt collision from these removals. Their former stronger claims are withdrawn, not relabeled CLEAN or proved false in every construction. Confidence HIGH in these evidence limits.\n\n## Additional guard decisions\n046-RP56 先–最近: ACCEPT ONLY as qualified conservative protection. Full1005180:1 explicitly records standalone さっき, rare kanji先, usually kana. «Недавно» in actual «недавно; в последнее время» can denote that short recent past. Unlike ぞめ, no missing verb stem is required. The written-only prompt policy does not make optional primary-reading help a mandatory disambiguator. This supports a limited lexical precaution; it does not identify all recent periods withさき. Contemporary frequency/ordinary necessity of written先/さっき remains UNVERIFIED.\n046-RP57 今–先: ACCEPT ONLY as qualified conservative protection.1288850:1 and the unchanged 今 explanation include just-happened events; Russian «сейчас» can be immediately past with a past verb, not only present/future. Full1005180:1 supplies independently attested standalone先/さっき in that short-past sense. The exact caption therefore has a defensible contextual intersection, not merely two English glosses matching. Do not equate primaryさき with present time or infer this pair transitively. Rare spelling and ordinary necessity/frequency remain explicitly UNVERIFIED.\nNeither decision converts a dictionary form into recommended N5 usage. No additional unqualified guard or reading/caption/body change is requested.\n\n## Finding046-R3: historical diagnosis withdrawn; reader bug resolved\nThe old report correctly observed failure against S, but its diagnosis of bad historical rubric hashes/unknown cause targeted the wrong object domain. Actual writer177-183 reads R; its imported environment defines R as the RU checkout. All THREE original receipt values match actual localized R working RAWs. They normalize to the unchanged74a742c/5d1cefe/current R Git blobs:\n- Accuracy: 3fbe6ef6350b7d555d389d59ca5019c97e3a0739b9bbe90a98fcee013a0ffef0 -> 3bbabb58f5d841ce3e5ee0bcfb8a257d5ad24b5960dff6846156321aa4abdf82.\n- Consistency: ac0095c12513ed590db4fff80ebec02750811b004ce7537272af566824fd1e79 -> 744b7d446e970c23920644473c2f396e342d6e44cea7147a49ad743c756dd0c0.\n- Comprehension: 25bfe759a249914f561c5e7aa3d8cc2e6e71c9ccde10302302740f28fc2a58b4 -> 054601421857b569f319c163ff0fa1e8d7b020a1b6c6199491af6b6956fef215.\nSeparately checked S working/Git RAWs f8390761...,df817ab7...,62178bbe... remain correct DIFFERENT English objects. CRLF/LF normalization cannot make English and Russian content the same object. Current private reader uses R for both working bytes and candidate Git comparison; fix hash7e65586277faf53597e5a7905128d173c7719d4c848fd7dd54970b1f0b46f52f verified.\nAppend-only explicit repository/revision/hash-domain bindings resolve the original relative-path ambiguity. The original source-adjudication, candidate, amendment001 and actual whole report are preserved. No consequential uncertainty remains about which bytes those three hashes identify. Hash agreement does not prove what the historical author personally read; today's three localized rubrics were actually read here. Confidence HIGH.\n\n## Five method-line decisions\nAll five are supported, scoped and comprehensible; ACCEPT individually:\n1. Guide85: bind same EN/RU path to repository and revision; directly addresses the observed domain confusion.\n2. Guide86: do not compare a Russian rubric RAW hash to an English blob merely by filename; correct operational consequence.\n3. Guide230: do not split the joint name-and-address caption into independent meanings; preserves actual answer wording.\n4. Guide231: address-only overlap does not establish the whole joint answer; appropriately limits inference rather than denying senses.\n5. Guide232: assess restricted suffix with its required stem;2646830 supplies the concrete restriction. It does not prohibit separately attested standalone alternate readings.\nNo scope inflation or learner-content regression established. Optional: none.\n\n## Checks, persistence and limits\nRead AUTHOR receipts only: manifest1172/version982dcba7f94b15a8; validator0errors;124tests in29.727s OK; budget1180files/1189entries/3292904inflatedBytes. I ran no validator/test/build. Candidate has860 words/659N5;842->841 lines results from one removed frontmatter line, not body abbreviation. Main tracking/progress unchanged:1156reviewed/2excluded-blocked-media/7120pending; no acceptance or integration performed.\nOriginal53-proposal freeze74a742c and amendment001082a655 remain historical, not backdated approval of later guards. No files/artifacts written, agents launched/contacted, external/paid/media services used, or app/ordinary EN working checkouts touched.\nHistorical grammar/counter/picture and five genuinely unlocked Word Type native passes remain real; no new native evidence. Immutable app5c age/experience localization-gap follow-up remains unchanged; live app unknown/untouched. No full-corpus/native-speaker/learning-effectiveness, media/package/device/IME/C6/C7/default-activation/release approval follows. Independent text authoring may continue without those remaining release gates. Parent alone adjudicates integration.",
+ "actualTaskToolCallId": "call_IW1Wd5i7IuM7Vl3EXafnfjbZ",
+ "batchId": "046-time-sequence-positions",
+ "candidateCommit": "ea55ec52b6781a8a15871b886118a67cca954b1e",
+ "facetsAsOriginallyReturned": {
+  "C1": "CLEANwithin9rereadlessons/narrowlexicalchanges",
+  "C2AdoptedAmendmentCoverageDependencies": "CLEANwithinactualfocus",
+  "C2BroaderQuizSuitabilityAndOrdinaryModernNecessityFrequency": "UNVERIFIED",
+  "C3": "CLEANwithinrereadlessons/changedguidance"
+ },
+ "findingDispositionsAsActuallyReturned": {
+  "046-R1": "resolved",
+  "046-R2": "resolvedbywithdrawal; originalstrongerclaimsnotretrospectivelyCLEAN",
+  "046-R3": "historicalbad-hashdiagnosiswithdrawn; actualreaderroot-domainbugresolved"
+ },
+ "fiveNewMethodLines": "AllindividuallyACCEPTwithinreportedboundaries",
+ "independentStdoutBase64PayloadEqualityVerified": true,
+ "limits": "Actualreturnedfocusedreviewisnotmainacceptance/integration/device/media/defaultactivation/checkpointauthority. Ownerrequestedpause; no acceptanceworkstarted.",
+ "nativeFinalMessageBytesVerified": false,
+ "networkWireByteHashVerified": false,
+ "newGuardDecisionsAsActuallyReturned": {
+  "046-RP55": "ACCEPTdirectconservative先–向こう",
+  "046-RP56": "ACCEPTONLYqualifiedconservative先–最近; ordinarynecessity/frequencyUNVERIFIED",
+  "046-RP57": "ACCEPTONLYqualifiedconservative今–先; ordinarynecessity/frequencyUNVERIFIED"
+ },
+ "phase": "Actualfocusedreportpreservedatowner-requestedpause; sourceacceptancePENDING",
+ "reportCaptureBoundary": "Actualpublicreadonlystdoutreportpayloadandindependentbase64returnverifiedidentical; reportbytesexcludemarkers/wrapper. Missingnativefinaleventnotinvented. Notnetworkwire/deviceproof.",
+ "reportPayloadUtf8Bytes": 10983,
+ "reportPayloadUtf8Sha256": "788922084f3c7cbe431a2d86ea2866018750eeb50b1c6aecc44e155cc6176385",
+ "reviewerAgentId": "5a67cc0a-8bbb-4934-9320-f801384dc26d",
+ "reviewerName": "ru046-focused-guard-domain-recheck",
+ "reviewerResumable": false,
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f"
+}

@@ -1,0 +1,124 @@
+{
+ "acceptedMainAtLastVerifiedFetch": "0ba57de6f3f1fc58132e7ddb4a04323ec7a80e96",
+ "activeBranch": "full-ru-046-time-sequence-positions",
+ "batchId": "046-time-sequence-positions",
+ "checkpointCommit": "Thiscommit; usegitrev-parseHEADorprivatepostcommitreceiptforexactID. No selfreferentialhashclaim.",
+ "completedAuthorValidation": {
+  "actualSerializedCommands": [
+   "python tools\\build_manifest.py",
+   "python tools\\validate.py",
+   "python -m unittest discover -s tools -p \"test_*.py\"",
+   "python tools\\check_content_budget.py"
+  ],
+  "candidateParent": "ea55ec52b6781a8a15871b886118a67cca954b1e",
+  "pauseDoesNotRunNewTests": true,
+  "receipts": [
+   "ru-046-qualified-validation-step-01-001.json",
+   "ru-046-qualified-validation-step-02-001.json",
+   "ru-046-qualified-validation-step-03-001.json",
+   "ru-046-qualified-validation-step-04-001.json"
+  ],
+  "results": "1172manifest/982dcba7f94b15a8;0validatorerrors;124tests29.727sOK;3292904inflatedBytes"
+ },
+ "completedReview": {
+  "bothAssignedReviewsReturned": true,
+  "bothOneShotNonresumable": true,
+  "findings": {
+   "046-R1": "resolved",
+   "046-R2": "resolvedbywithdrawal; originalstrongerclaimsnotretrospectivelyCLEAN",
+   "046-R3": "historicalbad-hashdiagnosiswithdrawn; actualreaderroot-domainbugresolved"
+  },
+  "focusedActualFacets": {
+   "C1": "CLEANwithin9rereadlessons/narrowlexicalchanges",
+   "C2AdoptedAmendmentCoverageDependencies": "CLEANwithinactualfocus",
+   "C2BroaderQuizSuitabilityAndOrdinaryModernNecessityFrequency": "UNVERIFIED",
+   "C3": "CLEANwithinrereadlessons/changedguidance"
+  },
+  "focusedReport": "docs/translation-batches/046-time-sequence-positions-independent-review-002.json",
+  "focusedReportPayloadUtf8Bytes": 10983,
+  "focusedReportPayloadUtf8Sha256": "788922084f3c7cbe431a2d86ea2866018750eeb50b1c6aecc44e155cc6176385",
+  "focusedReviewerId": "5a67cc0a-8bbb-4934-9320-f801384dc26d",
+  "newReviewNotNeededMerelyForRestart": true,
+  "wholeOriginalVerdict": "C1/C3CLEANwithinassignedscope; C2NEEDS_REVISIONpreserved",
+  "wholeReport": "docs/translation-batches/046-time-sequence-positions-independent-review-001.json",
+  "wholeReviewerId": "5b88181f-6831-4bed-b4ab-5fc1fdcbaf00"
+ },
+ "contentSnapshotHeadAtPauseRequest": "ea55ec52b6781a8a15871b886118a67cca954b1e",
+ "frozenReadOnlySourceWorktree": "C:\\Users\\stop-\\.copilot\\session-state\\68a44f7f-62db-4755-8296-fd586c861a35\\files\\ru-full-scope-en-6af98cb",
+ "frozenSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "laterContinuation": "Onlyafterexplicitresumeand046integration:12otherremainingN5safecandidatesplusseparatelyprotected空, thenremainingfinitefamilies; entire8278objectiveNOTcomplete.",
+ "mainAcceptanceNotAdvanced": {
+  "excludedReviewedBlockedMedia": 2,
+  "n5Remaining": 29,
+  "n5Words": 643,
+  "pending": 7120,
+  "reviewedCurrent": 1156,
+  "runtimeWords": 844
+ },
+ "nextSafeReadOnlyCommand": "git -C \"C:\\Users\\stop-\\learning-japanese-ru\" --no-pager status --short; git -C \"C:\\Users\\stop-\\learning-japanese-ru\" rev-parse HEAD; git -C \"C:\\Users\\stop-\\.copilot\\session-state\\68a44f7f-62db-4755-8296-fd586c861a35\\files\\ru-full-scope-en-6af98cb\" rev-parse HEAD",
+ "nextStepAfterExplicitResume": "FirstverifyHEAD/branch/sourceHEADandnormalfetchoriginmain; readthischeckpointandactualwhole/focusedreports. Thenpreparequalified046acceptance/tracking/progress/plansusingactualreportswithoutupgradingbroaderC2UNVERIFIED. RunfinalordinaryserializedchecksONLYafterresume, signacceptance, reconcile/FF/mainpush, archive/signature/fourprotectedrefs/exactmainCI/issueverification. DoNOTstart047before046safelyintegrated.",
+ "noAutonomousResume": true,
+ "ownedTemporaryServicesHelpersRunning": [],
+ "pendingSeparateGates": "ExistingC6/C7/media/packageauthority/phone/IME/defaultactivation/release/checkpointauthorityunchanged; historicalactualnativepassesremainreal.",
+ "protectedUnverifiedSky": "docs/translation-drafts/033-nature-outdoor-activity/words/空.mdunchangedexcluded; notaccepted/anothermedia-draft.",
+ "recordedAt": "2026-11-06T11:57:23.228194+00:00",
+ "relevantPrivateArtifacts": [
+  "ru-046-qualified-candidate-commit-001.json",
+  "ru-046-review-extracted-return-001.json",
+  "ru-046-focused-review-extracted-return-001.json",
+  "ru-046-focused-review-actual-public-events-001.json",
+  "ru-046-resolution-freeze-commit-001.json",
+  "ru-046-qualified-answer-pool-001.json",
+  "ru046fixcandidate.py",
+  "ru046capture.py",
+  "ru046focusread.py",
+  "ru045accept.py",
+  "ru045publish.py",
+  "publish_pilot_b.py"
+ ],
+ "relevantPrivateArtifactsRoot": "C:\\Users\\stop-\\.copilot\\session-state\\68a44f7f-62db-4755-8296-fd586c861a35\\files",
+ "resumeOnlyAfterExplicitOwnerOrParentInstruction": true,
+ "russianRepository": "C:\\Users\\stop-\\learning-japanese-ru",
+ "schemaVersion": 1,
+ "state": "PAUSED_BY_OWNER_FOR_CLI_RESTART",
+ "templateCaution": "Old045accept/publisharetemplatesONLY; neverexecutetheirhardcodedoldactions. ImportONLYowner_environment/apifrompublish_pilot_b.",
+ "unacceptedCandidate": {
+  "acceptanceIntegrationPublication": "PENDING; do notclaimmainaccepted1172",
+  "contentVersion": "982dcba7f94b15a8",
+  "n5Words": 659,
+  "newCompleteWordLessons": 16,
+  "preservedSourceDirectPairs": 1,
+  "qualifiedExtraDirectPairs": 54,
+  "runtimeObjects": 1172,
+  "russianLines": 841,
+  "scope": [
+   "あさって",
+   "ひと月",
+   "カレンダー",
+   "一昨年",
+   "二十歳",
+   "今",
+   "先",
+   "再来年",
+   "初め",
+   "初めて",
+   "前",
+   "半",
+   "始め",
+   "後",
+   "次",
+   "毎週"
+  ],
+  "words": 860
+ },
+ "uncommittedAtPauseRequest": {
+  "pauseOnlyNewDocsBeingCommitted": [
+   "docs/translation-batches/046-time-sequence-positions-independent-review-002.json",
+   "docs/translation-batches/046-time-sequence-positions-owner-requested-pause-001.json"
+  ],
+  "preExistingUntrackedToPreserve": [
+   "tools\\__pycache__\\"
+  ],
+  "tracked": []
+ }
+}
