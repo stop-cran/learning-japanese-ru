@@ -1,0 +1,747 @@
+{
+ "actualCompletedReading": {
+  "actualCompactBaselineAnswerRows": 651,
+  "actualJishoRequests": 25,
+  "actualNewAdditionalHtmlRequests": 2,
+  "boundary": "Actual14fullEnglish primary units/13fullsupporting pairs/651compactrows/34selected lexical rows/four ranges from three pages. No new Russian primary body, independent035 review, whole-corpus/native/device approval yet.",
+  "completeCandidateQueryObjectRows": 34,
+  "completeContextualEnglishRussianPairs": 13,
+  "completeFrozenPrimaryEnglishBodies": 14,
+  "lexicalReadingIndexBoundary": "All25queries/34selectedrows actually read in successful ranges0–5,5–10,10–14,14–17,17–20,20–21,21–23,23–25. The two oversized14–20/21–25 requests displayed nothing and are not readings.",
+  "primarySourceGitRawBytes": 22229,
+  "primarySourceLines": 531,
+  "selectedHtmlPages": 3,
+  "selectedHtmlReadingRanges": 4,
+  "supportReadingBoundary": "13complete unchanged bilingual pairs. An initial four-pair movement request exceeded18KB and displayed nothing; successful separate行く来る and出る出かける reads supply actual coverage."
+ },
+ "adjudication": "docs/translation-batches/035-daily-life-work-rest-source-adjudication.json",
+ "assets": [],
+ "baselineContentVersion": "8544136ac90cafb4",
+ "baselineRuntimeChangesAuthorizedByThisFreeze": [],
+ "baselineRuntimeCount": 963,
+ "batchId": "035-daily-life-work-rest",
+ "directGuardsToAuthorForReview": [
+  {
+   "directReason": "Retain the explicit source negative pair; Russian returning-home versus returning-an-object explanations do not authorize deleting frozen grading safeguards.",
+   "from": "帰る",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "返す"
+  },
+  {
+   "directReason": "Both actual captions contain вставать, and both exact-written primary verb senses include rising/getting up. This is not a guard between every waking and posture verb.",
+   "from": "起きる",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "立つ"
+  },
+  {
+   "directReason": "Actual complete休む sense3 and its accepted full body explicitly include going to bed/sleeping; actual new寝る caption is спать; ложиться спать.",
+   "from": "寝る",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "休む"
+  },
+  {
+   "directReason": "Actual仕事 is independently noun/suru/intransitive for working, so actual働く caption работать is defensible for仕事. Not inferred from mere noun/verb cognate strings.",
+   "from": "仕事",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "働く"
+  },
+  {
+   "directReason": "Actual仕事 primary sense includes occupation/employment and suru work; actual勤める caption работать у работодателя overlaps that genuine employment use, independently of働く.",
+   "from": "仕事",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "勤める"
+  },
+  {
+   "directReason": "Both primary exact-written verbs describe employment/work. Both complete sources explicitly allow the same bank worker with different particle focus; actual働く caption работать is defensible for勤める.",
+   "from": "働く",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "勤める"
+  },
+  {
+   "directReason": "Actual exact-written勤める JMdict sense2 includes serving a sentence. Actually read Russianсидеть definition183 independently means serving imprisonment, making unqualified newсидеть an unsafe foil for勤める. 精選[1]⑧ separately corroborates prison labor under its combined-spelling entry; no frequency inference or new beginner prison lesson.",
+   "from": "座る",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "勤める"
+  },
+  {
+   "directReason": "Actual休み vacation/day-off noun overlaps unchanged休日 caption выходной; праздничный день. This is independently attested, not inferred through暇.",
+   "from": "休み",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "休日"
+  },
+  {
+   "directReason": "Exact-written暇 has time-off/leave/vacation sense3, independently meeting new休み rest/day-off noun caption. Do not equate every break with being unoccupied; the full primary暇 body retains that distinction.",
+   "from": "休み",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "暇"
+  },
+  {
+   "directReason": "Actually read洗濯 noun sense2 relaxation/rejuvenation and named modernデジタル大辞泉2 admit actual new nounотдых. Independent direct noun evidence, not transitivity through prior洗濯休む.",
+   "from": "休み",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "洗濯"
+  },
+  {
+   "directReason": "Actual夏休み is summer school/work time off; actual generic休み caption includes отдых; перерыв; выходной, whose break/time-off sense directly fits summer recess. Explicitly proposed for independent evaluation, not automatic inheritance from季節 compound or other休み edges.",
+   "from": "夏休み",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "休み"
+  },
+  {
+   "directReason": "Actual full家 source/Russian body and exactいえ object independently have household/family sense. Actual new家庭 caption includesсемья; not a claim that家庭 means a physical building or literal garden.",
+   "from": "家庭",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "家"
+  },
+  {
+   "directReason": "Actual primary家庭 dictionary has family/household sense; actual unchanged家族 captionсемья directly overlaps, despite the preserved home-life versus members focus.",
+   "from": "家庭",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "家族"
+  },
+  {
+   "directReason": "Actual exact-written内うち sense7 restricts one's home/family to内 and independently admits newсемья. Not inferred transitively through家 or家族; no borrowing restrictions from other written中.",
+   "from": "家庭",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "内"
+  },
+  {
+   "directReason": "Actual一緒 noun sense3 explicitly means same/identical and accepts actual同じ captionодинаковый; тот же. The authored action pattern一緒に still need not imply identical food; do not generalize that to all一緒 uses.",
+   "from": "一緒",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "同じ"
+  }
+ ],
+ "explicitReviewQuestions": [
+  "Read all14full bilingual candidates and13full supporting pairs, all665actual compact candidate captions,34complete selected lexical rows and four selected dictionary ranges. Separately adjudicate every15direct proposal against actual meanings, spelling restrictions and both quiz directions. Projections/hash checks are not semantic review.",
+  "Preserve the frozen explicit仕事 app categorykango/mixed-reading. Its body explains on-first mixed readingシ+voiced nativeこと, not two on-readings or a historical derivation. Judge the full Russian caveat, not a speculative pureSinoJapanese etymology or silent retag.",
+  "Independently decide whether夏休み also needs any DIRECT holiday/leisure guard with actual休日 or暇 captions. Do not infer it from休み links. Likewise inspect休み versus休む/ゆっくり without erasing noun/verb/adverb distinctions or assuming shared time off always means leisure.",
+  "Check the proposed座る勤める guard from actual serving-a-sentence and Russianсидеть evidence, not merely occupying a post or associated seated work. No prison-frequency, historical spelling interchangeability or new primary prison lesson is asserted.",
+  "Check帰る against actual行く/来る/出る/出かける/立つ captions in light of guest-leaving versus home/base direction. Do not equate departure, a movement phase and returning just because they can occur in one trip. Preserve the source帰る返す guard independently.",
+  "Check all state/agency/conjugation explanations:起きていますawake;寝るbedtime not already asleep;座っていますseatedstate;godan座る/帰る;employerに versusworkplaceで;employmentている notnecessarilycurrentdesk;同じordinary-noun noな butexplanatory同じなのです.",
+  "一緒にaction doesnotrequireidenticalfood, butactualother一緒same/identical sense directly overlaps同じ. Do not infer allgroup/togetherness/time expressions synonymous. All source Japanese facts/examples/readings/attributions survive absent optional wrapper removal."
+ ],
+ "frozenSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "grammarVocabularyContexts": [],
+ "intakeCommit": "0089e31f4ce0f4b28f2ebc88c6b6f864ef3ec7c5",
+ "mandatoryNewKanjiProviders": [],
+ "newWordTagIds": [],
+ "newWords": [
+  {
+   "map": "files",
+   "path": "words/起きる.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "c99d5073458c323be65b3cecce632fa7c7ab6ae98b84f6aaaadd9f8d1fbcec01",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "起"
+    ],
+    "reading": "おきる",
+    "tags": [
+     "wago",
+     "ichidan",
+     "intransitive"
+    ],
+    "title": "get up; wake up",
+    "type": "wago",
+    "word": "起きる"
+   },
+   "sourceNormalizedLfSha256": "c99d5073458c323be65b3cecce632fa7c7ab6ae98b84f6aaaadd9f8d1fbcec01",
+   "sourceWorkingRawSha256": "c99d5073458c323be65b3cecce632fa7c7ab6ae98b84f6aaaadd9f8d1fbcec01",
+   "word": "起きる"
+  },
+  {
+   "map": "files",
+   "path": "words/寝る.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "d09a39ab071b51794a6d41a66f0dcb2113a54156dc231ac06f7629c578f2dcc8",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "寝"
+    ],
+    "reading": "ねる",
+    "tags": [
+     "wago",
+     "verb",
+     "daily-life"
+    ],
+    "title": "sleep; go to bed",
+    "type": "wago",
+    "word": "寝る"
+   },
+   "sourceNormalizedLfSha256": "d09a39ab071b51794a6d41a66f0dcb2113a54156dc231ac06f7629c578f2dcc8",
+   "sourceWorkingRawSha256": "d09a39ab071b51794a6d41a66f0dcb2113a54156dc231ac06f7629c578f2dcc8",
+   "word": "寝る"
+  },
+  {
+   "map": "files",
+   "path": "words/座る.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "d90897523f5edbf3d8ddbf93d49ec27525455b923b2f1f13d5982777d955a9d9",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "座"
+    ],
+    "reading": "すわる",
+    "tags": [
+     "wago",
+     "verb",
+     "posture"
+    ],
+    "title": "sit down",
+    "type": "wago",
+    "word": "座る"
+   },
+   "sourceNormalizedLfSha256": "d90897523f5edbf3d8ddbf93d49ec27525455b923b2f1f13d5982777d955a9d9",
+   "sourceWorkingRawSha256": "d90897523f5edbf3d8ddbf93d49ec27525455b923b2f1f13d5982777d955a9d9",
+   "word": "座る"
+  },
+  {
+   "map": "files",
+   "path": "words/仕事.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "1c1237179f32e06c1e2a41e31ad73143ae8cb7ba7e3a38de480ab4acb3766a71",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "仕",
+     "事"
+    ],
+    "reading": "しごと",
+    "tags": [
+     "kango",
+     "mixed-reading",
+     "work"
+    ],
+    "title": "work; job",
+    "type": "kango",
+    "word": "仕事"
+   },
+   "sourceNormalizedLfSha256": "1c1237179f32e06c1e2a41e31ad73143ae8cb7ba7e3a38de480ab4acb3766a71",
+   "sourceWorkingRawSha256": "1c1237179f32e06c1e2a41e31ad73143ae8cb7ba7e3a38de480ab4acb3766a71",
+   "word": "仕事"
+  },
+  {
+   "map": "files",
+   "path": "words/働く.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "40d3c4871acbe1ecb15c7f5762a3bd38736603669d5d3828db665fefec56c4f0",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "働"
+    ],
+    "reading": "はたらく",
+    "tags": [
+     "verb",
+     "intransitive",
+     "work"
+    ],
+    "title": "work",
+    "type": "wago",
+    "word": "働く"
+   },
+   "sourceNormalizedLfSha256": "40d3c4871acbe1ecb15c7f5762a3bd38736603669d5d3828db665fefec56c4f0",
+   "sourceWorkingRawSha256": "40d3c4871acbe1ecb15c7f5762a3bd38736603669d5d3828db665fefec56c4f0",
+   "word": "働く"
+  },
+  {
+   "map": "files",
+   "path": "words/勤める.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "1a1d98fe999f2fdf87d5c77a56d13a3370835c35d6e1a1e3cab8075ad96b9521",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "勤"
+    ],
+    "reading": "つとめる",
+    "tags": [
+     "wago",
+     "verb",
+     "work"
+    ],
+    "title": "work for; be employed",
+    "type": "wago",
+    "word": "勤める"
+   },
+   "sourceNormalizedLfSha256": "1a1d98fe999f2fdf87d5c77a56d13a3370835c35d6e1a1e3cab8075ad96b9521",
+   "sourceWorkingRawSha256": "1a1d98fe999f2fdf87d5c77a56d13a3370835c35d6e1a1e3cab8075ad96b9521",
+   "word": "勤める"
+  },
+  {
+   "map": "files",
+   "path": "words/休み.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "b7ed4595867d2f6f19c1628e8b36e3728b1979147ce4a3a1aff3cfb3ef8192ce",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "休"
+    ],
+    "reading": "やすみ",
+    "tags": [
+     "wago",
+     "noun",
+     "time",
+     "daily-life"
+    ],
+    "title": "rest; day off",
+    "type": "wago",
+    "word": "休み"
+   },
+   "sourceNormalizedLfSha256": "b7ed4595867d2f6f19c1628e8b36e3728b1979147ce4a3a1aff3cfb3ef8192ce",
+   "sourceWorkingRawSha256": "b7ed4595867d2f6f19c1628e8b36e3728b1979147ce4a3a1aff3cfb3ef8192ce",
+   "word": "休み"
+  },
+  {
+   "map": "files",
+   "path": "words/夏休み.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "6c79a06d4607ff30e9158530304e9ded9d0cc5a68168e99a37c574967fdcd755",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "夏",
+     "休"
+    ],
+    "reading": "なつやすみ",
+    "tags": [
+     "noun",
+     "time",
+     "education",
+     "wago"
+    ],
+    "title": "summer vacation",
+    "type": "wago",
+    "word": "夏休み"
+   },
+   "sourceNormalizedLfSha256": "6c79a06d4607ff30e9158530304e9ded9d0cc5a68168e99a37c574967fdcd755",
+   "sourceWorkingRawSha256": "6c79a06d4607ff30e9158530304e9ded9d0cc5a68168e99a37c574967fdcd755",
+   "word": "夏休み"
+  },
+  {
+   "map": "files",
+   "path": "words/住む.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "3e843fe852fb4ec4844d5dc29fb9c4d5b5b8f660efc53543aa0062bc292f5ec0",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "住"
+    ],
+    "reading": "すむ",
+    "tags": [
+     "wago",
+     "verb",
+     "home"
+    ],
+    "title": "live in a place",
+    "type": "wago",
+    "word": "住む"
+   },
+   "sourceNormalizedLfSha256": "3e843fe852fb4ec4844d5dc29fb9c4d5b5b8f660efc53543aa0062bc292f5ec0",
+   "sourceWorkingRawSha256": "3e843fe852fb4ec4844d5dc29fb9c4d5b5b8f660efc53543aa0062bc292f5ec0",
+   "word": "住む"
+  },
+  {
+   "map": "files",
+   "path": "words/家庭.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "55b4f24ed6119fc7e7098f02769046294dbc8aea07bc61a24ff109cb1c8baa41",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "家",
+     "庭"
+    ],
+    "reading": "かてい",
+    "tags": [
+     "noun",
+     "family",
+     "kango"
+    ],
+    "title": "household; home life",
+    "type": "kango",
+    "word": "家庭"
+   },
+   "sourceNormalizedLfSha256": "55b4f24ed6119fc7e7098f02769046294dbc8aea07bc61a24ff109cb1c8baa41",
+   "sourceWorkingRawSha256": "55b4f24ed6119fc7e7098f02769046294dbc8aea07bc61a24ff109cb1c8baa41",
+   "word": "家庭"
+  },
+  {
+   "map": "files",
+   "path": "words/帰る.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "157f6a4e1f65b213e90fa06134ca4188064a6a44276a720a1adc9c12fd00f2d2",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "帰"
+    ],
+    "quiz_exclusions": [
+     "返す"
+    ],
+    "reading": "かえる",
+    "tags": [
+     "wago",
+     "verb",
+     "intransitive"
+    ],
+    "title": "return home",
+    "type": "wago",
+    "word": "帰る"
+   },
+   "sourceNormalizedLfSha256": "157f6a4e1f65b213e90fa06134ca4188064a6a44276a720a1adc9c12fd00f2d2",
+   "sourceWorkingRawSha256": "157f6a4e1f65b213e90fa06134ca4188064a6a44276a720a1adc9c12fd00f2d2",
+   "word": "帰る"
+  },
+  {
+   "map": "files",
+   "path": "words/一緒.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "86ac2cac20fb2a27abcf492dce468d98689c2550885df24d7f031bf60437ae03",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "一",
+     "緒"
+    ],
+    "reading": "いっしょ",
+    "tags": [
+     "kango",
+     "relationships"
+    ],
+    "title": "together",
+    "type": "kango",
+    "word": "一緒"
+   },
+   "sourceNormalizedLfSha256": "86ac2cac20fb2a27abcf492dce468d98689c2550885df24d7f031bf60437ae03",
+   "sourceWorkingRawSha256": "86ac2cac20fb2a27abcf492dce468d98689c2550885df24d7f031bf60437ae03",
+   "word": "一緒"
+  },
+  {
+   "map": "files",
+   "path": "words/同じ.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "8162596dd5fdb9030e223dddf67262b711b8a63afa62f9426bc8cafd138fb951",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "同"
+    ],
+    "reading": "おなじ",
+    "tags": [
+     "wago",
+     "comparison"
+    ],
+    "title": "same",
+    "type": "wago",
+    "word": "同じ"
+   },
+   "sourceNormalizedLfSha256": "8162596dd5fdb9030e223dddf67262b711b8a63afa62f9426bc8cafd138fb951",
+   "sourceWorkingRawSha256": "8162596dd5fdb9030e223dddf67262b711b8a63afa62f9426bc8cafd138fb951",
+   "word": "同じ"
+  },
+  {
+   "map": "files",
+   "path": "words/返す.md",
+   "role": "required-negative-reference-provider",
+   "sourceGitRawSha256": "72a0d19351c9d4266f6cc3d03e191874494ab4e9975052d85c766251eb7e5246",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "返"
+    ],
+    "reading": "かえす",
+    "tags": [
+     "wago",
+     "objects",
+     "verb"
+    ],
+    "title": "return something",
+    "type": "wago",
+    "word": "返す"
+   },
+   "sourceNormalizedLfSha256": "72a0d19351c9d4266f6cc3d03e191874494ab4e9975052d85c766251eb7e5246",
+   "sourceWorkingRawSha256": "72a0d19351c9d4266f6cc3d03e191874494ab4e9975052d85c766251eb7e5246",
+   "word": "返す"
+  }
+ ],
+ "phase": "Pre-authoring semantic freeze; new Russian semantics NOT accepted",
+ "plannedN5WordsAfterAcceptance": 478,
+ "plannedRemainingFrozenN5Words": 194,
+ "plannedRuntimeAfterAcceptance": 977,
+ "plannedWordCountAfterAcceptance": 665,
+ "proposedRussianTitles": {
+  "一緒": "вместе",
+  "仕事": "работа",
+  "休み": "отдых; перерыв; выходной",
+  "住む": "жить; проживать",
+  "働く": "работать",
+  "勤める": "работать у работодателя",
+  "同じ": "одинаковый; тот же",
+  "夏休み": "летние каникулы; летний отпуск",
+  "家庭": "семья; домашняя жизнь",
+  "寝る": "спать; ложиться спать",
+  "帰る": "возвращаться домой",
+  "座る": "садиться; сидеть",
+  "起きる": "просыпаться; вставать",
+  "返す": "возвращать что-либо"
+ },
+ "protectedUnverifiedDrafts": [
+  {
+   "coverage": "complete authored text",
+   "draftPath": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+   "facets": {
+    "C1": "CLEAN historicalwholebody",
+    "C2": "UNVERIFIED",
+    "C3": "CLEAN historicalwholebody"
+   },
+   "openQuestions": [
+    [
+     "空",
+     "遠く"
+    ],
+    [
+     "空",
+     "遠い"
+    ]
+   ],
+   "path": "words/空.md",
+   "progressBoundary": "Not accepted; remains inside fullreportpending, separate from2reviewed-runtime-blocked media drafts. Existingprogresshelper need not mislabel it as accepted or stale reviewed content.",
+   "reviewEvidence": [
+    "docs/translation-batches/033-nature-outdoor-activity-independent-review.json",
+    "docs/translation-batches/033-nature-outdoor-activity-independent-review-001.json",
+    "docs/translation-batches/033-nature-outdoor-activity-independent-review-002.json",
+    "docs/translation-batches/033-nature-outdoor-activity-independent-review-003.json",
+    "docs/translation-batches/033-nature-outdoor-activity-source-adjudication.json",
+    "docs/translation-batches/033-nature-outdoor-activity-authoring-freeze.json",
+    "docs/translation-batches/033-nature-outdoor-activity-review-resolution-freeze.json",
+    "docs/translation-batches/033-nature-outdoor-activity-corrected-candidate.json"
+   ],
+   "reviewStatus": "unverified",
+   "ruGitRawSha256": "7c1084763f6229793b540ee6c501d9177513eb4fb23c2e27619eb16cb607a495",
+   "ruRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+   "ruSha256": "7c1084763f6229793b540ee6c501d9177513eb4fb23c2e27619eb16cb607a495",
+   "runtimeAcceptance": "blocked-by-evidenced-linguistic-uncertainty",
+   "runtimeAuthority": null,
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "0a7cad8579556ca7089666e53bf49e2be12eed2c4d0a93d3f55c020eae63b3e6",
+   "sourceSha256": "0a7cad8579556ca7089666e53bf49e2be12eed2c4d0a93d3f55c020eae63b3e6",
+   "targetObjectRemainsPending": true
+  }
+ ],
+ "releaseBoundary": "Source authoring only; same frozen6af98cb/fourprotectedrefs. No app/ordinaryEN edit, paidgeneration/mediaapproval/device/IME/playback/C6/C7/defaultactivation/release/humancheckpoint authority.",
+ "requiredSourceNegativeEdges": [
+  {
+   "field": "quiz_exclusions",
+   "from": "帰る",
+   "to": "返す"
+  }
+ ],
+ "reviewStatus": "PENDING; real independent three-facet whole-batch reading required",
+ "russianBaselineCommit": "6b6f0fe12e55278a2e3cc37fb38b2aa94821e58a",
+ "schemaVersion": 1,
+ "sourceLinkDispositions": [
+  {
+   "disposition": "Remove optional wrapper only; retain substantive teaching/readings. No placeholder or recursive adoption.",
+   "from": "words/起きる.md",
+   "label": "起",
+   "resolvedTarget": "kanji/起.md",
+   "sourceTarget": "../kanji/起.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain substantive teaching/readings. No placeholder or recursive adoption.",
+   "from": "words/寝る.md",
+   "label": "寝",
+   "resolvedTarget": "kanji/寝.md",
+   "sourceTarget": "../kanji/寝.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain substantive teaching/readings. No placeholder or recursive adoption.",
+   "from": "words/寝る.md",
+   "label": "眠る",
+   "resolvedTarget": "words/眠る.md",
+   "sourceTarget": "眠る.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/寝る.md",
+   "label": "起きる",
+   "resolvedTarget": "words/起きる.md",
+   "sourceTarget": "起きる.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain substantive teaching/readings. No placeholder or recursive adoption.",
+   "from": "words/座る.md",
+   "label": "座",
+   "resolvedTarget": "kanji/座.md",
+   "sourceTarget": "../kanji/座.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/座る.md",
+   "label": "立つ",
+   "resolvedTarget": "words/立つ.md",
+   "sourceTarget": "立つ.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain substantive teaching/readings. No placeholder or recursive adoption.",
+   "from": "words/仕事.md",
+   "label": "仕",
+   "resolvedTarget": "kanji/仕.md",
+   "sourceTarget": "../kanji/仕.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain substantive teaching/readings. No placeholder or recursive adoption.",
+   "from": "words/仕事.md",
+   "label": "事",
+   "resolvedTarget": "kanji/事.md",
+   "sourceTarget": "../kanji/事.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain substantive teaching/readings. No placeholder or recursive adoption.",
+   "from": "words/仕事.md",
+   "label": "用事",
+   "resolvedTarget": "words/用事.md",
+   "sourceTarget": "用事.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/仕事.md",
+   "label": "休日",
+   "resolvedTarget": "words/休日.md",
+   "sourceTarget": "休日.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain substantive teaching/readings. No placeholder or recursive adoption.",
+   "from": "words/働く.md",
+   "label": "働",
+   "resolvedTarget": "kanji/働.md",
+   "sourceTarget": "../kanji/働.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain substantive teaching/readings. No placeholder or recursive adoption.",
+   "from": "words/勤める.md",
+   "label": "勤",
+   "resolvedTarget": "kanji/勤.md",
+   "sourceTarget": "../kanji/勤.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/休み.md",
+   "label": "休",
+   "resolvedTarget": "kanji/休.md",
+   "sourceTarget": "../kanji/休.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/夏休み.md",
+   "label": "夏",
+   "resolvedTarget": "kanji/夏.md",
+   "sourceTarget": "../kanji/夏.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/夏休み.md",
+   "label": "休",
+   "resolvedTarget": "kanji/休.md",
+   "sourceTarget": "../kanji/休.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain substantive teaching/readings. No placeholder or recursive adoption.",
+   "from": "words/住む.md",
+   "label": "住",
+   "resolvedTarget": "kanji/住.md",
+   "sourceTarget": "../kanji/住.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain substantive teaching/readings. No placeholder or recursive adoption.",
+   "from": "words/家庭.md",
+   "label": "家",
+   "resolvedTarget": "kanji/家.md",
+   "sourceTarget": "../kanji/家.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain substantive teaching/readings. No placeholder or recursive adoption.",
+   "from": "words/家庭.md",
+   "label": "庭",
+   "resolvedTarget": "kanji/庭.md",
+   "sourceTarget": "../kanji/庭.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain substantive teaching/readings. No placeholder or recursive adoption.",
+   "from": "words/帰る.md",
+   "label": "帰",
+   "resolvedTarget": "kanji/帰.md",
+   "sourceTarget": "../kanji/帰.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/帰る.md",
+   "label": "行く",
+   "resolvedTarget": "words/行く.md",
+   "sourceTarget": "行く.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/帰る.md",
+   "label": "家",
+   "resolvedTarget": "words/家.md",
+   "sourceTarget": "家.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain substantive teaching/readings. No placeholder or recursive adoption.",
+   "from": "words/帰る.md",
+   "label": "Kaeru: change, replace, exchange, and return",
+   "resolvedTarget": "articles/kaeru-change-replace-and-return.md",
+   "sourceTarget": "../articles/kaeru-change-replace-and-return.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/一緒.md",
+   "label": "一",
+   "resolvedTarget": "kanji/一.md",
+   "sourceTarget": "../kanji/一.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain substantive teaching/readings. No placeholder or recursive adoption.",
+   "from": "words/一緒.md",
+   "label": "緒",
+   "resolvedTarget": "kanji/緒.md",
+   "sourceTarget": "../kanji/緒.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain substantive teaching/readings. No placeholder or recursive adoption.",
+   "from": "words/同じ.md",
+   "label": "同",
+   "resolvedTarget": "kanji/同.md",
+   "sourceTarget": "../kanji/同.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain substantive teaching/readings. No placeholder or recursive adoption.",
+   "from": "words/返す.md",
+   "label": "返",
+   "resolvedTarget": "kanji/返.md",
+   "sourceTarget": "../kanji/返.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/返す.md",
+   "label": "帰る",
+   "resolvedTarget": "words/帰る.md",
+   "sourceTarget": "帰る.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain substantive teaching/readings. No placeholder or recursive adoption.",
+   "from": "words/返す.md",
+   "label": "Kaeru: change, replace, exchange, and return",
+   "resolvedTarget": "articles/kaeru-change-replace-and-return.md",
+   "sourceTarget": "../articles/kaeru-change-replace-and-return.md"
+  }
+ ]
+}
