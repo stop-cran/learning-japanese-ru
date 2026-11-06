@@ -1,6 +1,47 @@
 # Full Russian translation: execution after the two pilots
 
-## Current source milestone: batch044 arts, music and media
+## Current source milestone: batch045 body, health and safety
+
+Batch045 adds **13 complete N5 word lessons** against unchanged frozen
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+[Actual review](translation-batches/045-body-health-safety-independent-review.json)
+and [reviewed source](translation-batches/045-body-health-safety-reviewed-source.json)
+record one whole read-only review of **46 complete EN/RU pairs /92 bodies,
+129 complete official entries,844 actual captions and one complete named
+Russian dictionary entry**. All648 new Russian lines were read.
+C1/C3 are CLEAN within the new lessons; C2 adopted coverage/dependencies are
+CLEAN and all **20 individually qualified direct protections** are supported.
+**Broader semantic quiz suitability remains UNVERIFIED**, not silently CLEAN.
+The unadopted 死ぬ–終わる and 頭–精神/心 hypotheses have neither established
+universal safety nor an established mandatory additional exclusion.
+Stronger modern necessity/frequency of all20 remains UNVERIFIED/unasserted.
+No transitive body, people or adjective cliques are endorsed.
+
+The actual public stdout report payload,7681 UTF-8 bytes, matches the
+independently returned base64 payload and persisted final message content.
+Report-payload, wrapper, journal-record and network-wire hash domains remain
+distinct. The three-line method clarification was independently assessed.
+Japanese medical-language examples are not diagnosis, dosage or treatment advice.
+The irregular disease spelling 風 is qualified; 風邪 keeps both metadata kanji
+without inventing a kanji/邪.md card outside the frozen target.
+
+Membership: **1156 runtime objects /844 words**, including **643/672 N5 words;
+29 remain**; other word levels:63 N4/65 N3/19 N2/54 unlabelled.
+Fresh strict accounting: **1156 reviewed-current, two excluded reviewed
+runtime-blocked media drafts,7120 pending of8278;7122 runtime paths absent**,
+no partial. Version `820f471d66840ea7`; checkpoint authority null/Ready false.
+Actual final checks, signed integration, public archives and exact-main CI
+have separate evidence. All1143 baseline RAWs/tracking rows and historical
+receipts remain unchanged.
+
+No new assets or app/ordinary EN/device/media/default-activation/release approval.
+Canonical life/occupation/safety mapping gaps are observed only at immutable
+app5c000bd; live concurrent app status remains UNVERIFIED and untouched.
+Excluded033 空 remains pending/C2 UNVERIFIED, separate from the two media drafts.
+Later genuine native findings may require affected-batch correction and review;
+continue046 and every independent safe frozen level/family.
+
+## Prior source milestone: batch044 arts, music and media
 
 Batch044 adds **16 complete N5 word lessons** against unchanged frozen
 `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.

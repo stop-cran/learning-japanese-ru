@@ -8,6 +8,37 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The forty-fifth full-target batch adds **13 complete N5 body/health/safety
+lessons** against the unchanged frozen source.
+[Reviewed source045](translation-batches/045-body-health-safety-reviewed-source.json)
+and [actual independent evidence](translation-batches/045-body-health-safety-independent-review.json)
+record one whole46-pair/92-body/129-entry/844-caption review, including all648
+new Russian lines and one complete named Russian primary entry.
+C1/C3 are CLEAN for the new lessons; C2 adopted coverage/dependencies are
+CLEAN and all20 qualified direct guards are supported. Broader semantic quiz
+suitability and stronger modern necessity/frequency remain explicitly
+UNVERIFIED, not relabelled CLEAN. Neither an obligatory extra guard nor universal
+safety is established for the unadopted 死ぬ–終わる and 頭–精神/心 hypotheses.
+No transitive body/people/adjective clique is endorsed.
+Actual7681-byte UTF-8 stdout report, independently returned base64 and final
+message content agree; these domains are not network-wire bytes.
+The three-line stdout method clarification was independently assessed.
+
+Membership: **1156 runtime objects /844 words**,
+643 N5/63 N4/65 N3/19 N2/54 unlabelled; **29 of672 N5 words remain**.
+Strict progress: **1156 reviewed-current, two excluded reviewed runtime-blocked
+media drafts,7120 pending,7122 absent runtime paths**, no partial.
+Version `820f471d66840ea7`; checkpoint authority null/Ready false.
+All1143 baseline RAWs/tracking rows and historical receipts remain unchanged.
+Actual final validation/integration/public archives/exact-main CI have separate
+evidence. No new assets or app/ordinary EN/device/media/default-activation/release
+approval. Canonical life/occupation/safety mapping gaps are bounded to immutable
+app5c000bd, live app UNVERIFIED and untouched.
+Later genuine native findings may require affected-batch correction/review;
+continue046 and every safe remaining frozen level/family.
+
+Batch044 and earlier milestones below are historical.
+
 The forty-fourth full-target batch adds **16 complete N5 arts/music/media
 lessons** against the unchanged frozen source.
 [Reviewed source044](translation-batches/044-arts-music-media-reviewed-source.json)
