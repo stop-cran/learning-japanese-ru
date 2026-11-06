@@ -11,6 +11,40 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The fifty-first full-target batch adds **21 complete N4 workplaces/roles/
+arrangements lessons /1136 Russian lines** against the unchanged frozen source.
+The [actual independent report](translation-batches/051-workplaces-roles-and-arrangements-independent-review-001.json)
+read21 primary/35 contextual complete EN/RU pairs and14 source-only comparisons,
+plus two additional pairs (**130 bodies**),126 complete official entries
+and all940 actual metadata rows.
+C1/C3 CLEAN apply within the21 lessons; original **C2 NEEDS FIX** is immutable.
+The [exact bounded repair](translation-batches/051-workplaces-roles-and-arrangements-finding-resolution-001.json)
+adopts five prescribed direct guards: 仕方–手/パーティー
+and受付–手/道/パーティー, plus泳ぎ方（およぎかた）.
+Twenty bodies are identical; all other仕方 teaching bytes are identical.
+**43 qualified safeguards** comprise38 supported original proposals
+and five prescribed additions. Optional Q32用事–約束 is deliberately
+withdrawn for lack of independent caption-fit support, not independently
+rejected or automatically disproved; its underlying fit remains UNVERIFIED.
+Medium confidence for受付–道 and all original qualifications remain binding.
+Shared exact-caption groups do not imply Japanese rank/preparation equivalence.
+No second review, automatic clique, transitive expansion or fresh full-baseline
+reading is invented. Broader caption-fit/uniqueness/ordinary modern necessity/
+frequency remain **UNVERIFIED**.
+
+Membership: **1252 runtime objects /940 words**,
+671 N5/131 N4/65 N3/19 N2/54 unlabelled; protected空 is the only remaining N5 word.
+Strict progress: **1252 reviewed-current, two excluded reviewed runtime-blocked
+media drafts,7024 pending,7026 absent runtime paths**, no partial.
+Version `a38ee7bed6b39b87`; checkpoint authority null/Ready false.
+All1231 baseline RAWs/tracking rows and historical evidence are preserved.
+Final serialized checks, signed integration/public archives/exact-main CI
+are recorded separately. Protected excluded033空 remains pending/C2 UNVERIFIED,
+separate from the two media drafts. No new asset/app/device/phone/IME/media/
+default-activation/release approval. Continue all safe frozen levels/families.
+
+Batch050 and earlier milestones below are historical.
+
 The fiftieth full-target batch adds **18 complete N4 communication/polite-speech
 lessons /950 Russian lines** against the unchanged frozen source.
 The [actual independent report](translation-batches/050-communication-and-polite-speech-independent-review-001.json)

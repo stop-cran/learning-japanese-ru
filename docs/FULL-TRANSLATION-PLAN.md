@@ -1,6 +1,44 @@
 # Full Russian translation: execution after the two pilots
 
-## Current source milestone: batch050 communication and polite speech
+## Current source milestone: batch051 workplaces, roles and arrangements
+
+Batch051 adds **21 complete N4 lessons /1136 Russian lines** against unchanged
+frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The [actual independent report](translation-batches/051-workplaces-roles-and-arrangements-independent-review-001.json)
+read21 primary and35 contextual complete EN/RU pairs plus14 source-only
+comparisons, then two additional complete pairs (**130 teaching bodies**);
+124 bound plus two additional complete official entries, and all940 actual
+candidate metadata rows. C1/C3 are CLEAN within the21 lessons.
+Original **C2 NEEDS FIX** remains immutable. The
+[exact bounded repair](translation-batches/051-workplaces-roles-and-arrangements-finding-resolution-001.json)
+adopts five prescribed direct protections: 仕方–手/パーティー
+and受付–手/道/パーティー, and the prescribed reading
+泳ぎ方（およぎかた）. Twenty bodies remain identical;
+all other仕方 teaching bytes remain identical.
+**38 originally qualified protections plus five prescribed additions**
+are adopted. Optional Q32用事–約束 is deliberately not adopted for lack
+of independent caption-fit support, not independently rejected:
+its underlying fit remains **UNVERIFIED**, not automatically disproved.
+The受付–道 protection retains medium confidence.
+Exact shared captions for課長/部長 and用意/準備/支度 follow the existing
+deduplication contract, not universal Japanese equivalence.
+No second review, transitive closure or fresh full-baseline rereading is invented.
+Broader caption-fit questions, whole-pool uniqueness and ordinary modern
+necessity/frequency remain **UNVERIFIED**.
+
+Membership: **1252 runtime objects /940 words**, including671 N5/131 N4/
+65 N3/19 N2/54 unlabelled. Only protected excluded033空 remains from N5.
+Strict accounting: **1252 reviewed-current, two excluded reviewed runtime-
+blocked media drafts,7024 pending of8278;7026 runtime paths absent**, no partial.
+Version `a38ee7bed6b39b87`; checkpoint authority null/Ready false.
+All1231 baseline RAWs/tracking rows and historical reports are preserved.
+Final checks, signed integration, actual public archives and exact-main CI
+are recorded separately. No new asset/app/device/IME/media/default/release approval.
+Source-only comparisons do not force absent providers into runtime.
+Continue every remaining safe frozen level/family; 空 stays separately
+pending/C2 UNVERIFIED, not a third media draft.
+
+## Prior source milestone: batch050 communication and polite speech
 
 Batch050 adds **18 complete N4 lessons /950 Russian lines** against unchanged
 frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
