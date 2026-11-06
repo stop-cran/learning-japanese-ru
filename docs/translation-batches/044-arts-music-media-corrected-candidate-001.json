@@ -1,0 +1,1231 @@
+{
+ "activeGuidanceChanges": [
+  {
+   "addedLineScope": [
+    291,
+    293
+   ],
+   "allOriginalMethodLinesUnchanged": true,
+   "path": ".github/copilot-instructions.md",
+   "russianCanonicalGitRawSha256": "ddef97455e2b1591bb069feb3fcb6dea4814ae03e896bd54e86dc7ef8ef80cb2",
+   "russianWorkingRawSha256": "ddef97455e2b1591bb069feb3fcb6dea4814ae03e896bd54e86dc7ef8ef80cb2"
+  }
+ ],
+ "actualSerialValidation": [
+  {
+   "command": [
+    "tools\\build_manifest.py"
+   ],
+   "completedAt": "2026-11-06T09:16:33.870777+00:00",
+   "executionBoundary": "Actualauthorserialized run; no next command beforepreviousreturn, no delegated/skippedtest.",
+   "returncode": 0,
+   "seconds": 0.2660000000614673,
+   "startedAt": "2026-11-06T09:16:33.598038+00:00",
+   "stderr": "",
+   "stdout": "manifest.json: 1143 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 2feceed6354d1b68\n"
+  },
+  {
+   "command": [
+    "tools\\validate.py"
+   ],
+   "completedAt": "2026-11-06T09:16:37.112697+00:00",
+   "executionBoundary": "Actualauthorserialized run; no next command beforepreviousreturn, no delegated/skippedtest.",
+   "returncode": 0,
+   "seconds": 3.25,
+   "startedAt": "2026-11-06T09:16:33.871789+00:00",
+   "stderr": "",
+   "stdout": "0 error(s)\n"
+  },
+  {
+   "command": [
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tools",
+    "-p",
+    "test_*.py"
+   ],
+   "completedAt": "2026-11-06T09:17:35.107954+00:00",
+   "executionBoundary": "Actualauthorserialized run; no next command beforepreviousreturn, no delegated/skippedtest.",
+   "returncode": 0,
+   "seconds": 57.98399999993853,
+   "startedAt": "2026-11-06T09:16:37.117310+00:00",
+   "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 57.556s\n\nOK\n",
+   "stdout": ""
+  },
+  {
+   "command": [
+    "tools\\check_content_budget.py"
+   ],
+   "completedAt": "2026-11-06T09:17:35.982384+00:00",
+   "executionBoundary": "Actualauthorserialized run; no next command beforepreviousreturn, no delegated/skippedtest.",
+   "returncode": 0,
+   "seconds": 0.875,
+   "startedAt": "2026-11-06T09:17:35.107954+00:00",
+   "stderr": "",
+   "stdout": "{'files': 1151, 'entries': 1160, 'retainedBytes': 3197777, 'inflatedBytes': 3215992, 'localZipBytes': 1617601, 'listeningTaskMediaBytes': 0}\n"
+  }
+ ],
+ "answerPoolPrivateFile": "ru-044-corrected-answer-pool-001.json",
+ "answerPoolPrivateRawSha256": "e249f0adc4dc448f371f40ceae4114be456b948f7cf7af5b605f2990d968fa33",
+ "baselineRuntimeObjectsUnchangedRaw": 1127,
+ "batchId": "044-arts-music-media",
+ "changedRuntimePaths": [
+  "words/映画.md",
+  "words/絵.md"
+ ],
+ "combinedRuntimeCount": 1143,
+ "combinedWordCount": 831,
+ "complete16LearnerBodiesAnd831ActualCaptionsUnchanged": true,
+ "completeFocusedOfficialEntries": [
+  {
+   "actualFullReadingAttestedAtThisFreeze": true,
+   "boundary": "Complete entity-expanded serializedXML; capture !=actualreading/modernfrequencyapproval",
+   "captureBytes": 615,
+   "captureFile": "ru-044-official-entry-1173720-001.xml",
+   "captureSha256": "a76465dec6a80d5435137224f3f05a046b1eb30a9bfe83c3ccfc5739ff19a468",
+   "citedByFrozenPrimaryOrSupportOrExplicitSideEntry": false,
+   "completeEntityExpandedSerializedXmlBody": "<?xml version='1.0' encoding='utf-8'?>\n<entry>\n<ent_seq>1173720</ent_seq>\n<k_ele>\n<keb>映画</keb>\n<ke_pri>ichi1</ke_pri>\n<ke_pri>news1</ke_pri>\n<ke_pri>nf01</ke_pri>\n</k_ele>\n<k_ele>\n<keb>映畫</keb>\n<ke_inf>search-only kanji form</ke_inf>\n</k_ele>\n<k_ele>\n<keb>映畵</keb>\n<ke_inf>search-only kanji form</ke_inf>\n</k_ele>\n<r_ele>\n<reb>えいが</reb>\n<re_pri>ichi1</re_pri>\n<re_pri>news1</re_pri>\n<re_pri>nf01</re_pri>\n</r_ele>\n<sense>\n<pos>noun (common) (futsuumeishi)</pos>\n<gloss xml:lang=\"eng\">movie</gloss>\n<gloss xml:lang=\"eng\">film</gloss>\n<gloss xml:lang=\"eng\">motion picture</gloss>\n</sense>\n</entry>\n",
+   "completeSenseBodiesReadAtCapture": false,
+   "entryId": "1173720",
+   "matchedPrimaryOrSupportingForms": [
+    "映画"
+   ],
+   "rawDomain": "Entity-expandedETserializedXML, not originalgzip/archive slice",
+   "readings": [
+    "えいが"
+   ],
+   "spellings": [
+    "映画",
+    "映畫",
+    "映畵"
+   ]
+  },
+  {
+   "actualFullReadingAttestedAtThisFreeze": true,
+   "boundary": "Complete entity-expanded serializedXML; capture !=actualreading/modernfrequencyapproval",
+   "captureBytes": 721,
+   "captureFile": "ru-044-official-entry-1202270-001.xml",
+   "captureSha256": "997f40dda15a11aad1d7bef6498e7bfb58953a813a954a4a6578dbc25fd391ca",
+   "citedByFrozenPrimaryOrSupportOrExplicitSideEntry": true,
+   "completeEntityExpandedSerializedXmlBody": "<?xml version='1.0' encoding='utf-8'?>\n<entry>\n<ent_seq>1202270</ent_seq>\n<k_ele>\n<keb>絵</keb>\n<ke_pri>news1</ke_pri>\n<ke_pri>nf02</ke_pri>\n</k_ele>\n<k_ele>\n<keb>画</keb>\n</k_ele>\n<r_ele>\n<reb>え</reb>\n<re_pri>news1</re_pri>\n<re_pri>nf02</re_pri>\n</r_ele>\n<r_ele>\n<reb>が</reb>\n<re_restr>画</re_restr>\n</r_ele>\n<sense>\n<pos>noun (common) (futsuumeishi)</pos>\n<gloss xml:lang=\"eng\">picture</gloss>\n<gloss xml:lang=\"eng\">drawing</gloss>\n<gloss xml:lang=\"eng\">painting</gloss>\n<gloss xml:lang=\"eng\">sketch</gloss>\n</sense>\n<sense>\n<pos>noun (common) (futsuumeishi)</pos>\n<gloss xml:lang=\"eng\">image (TV, film, etc.)</gloss>\n<gloss xml:lang=\"eng\">picture</gloss>\n<gloss xml:lang=\"eng\">footage</gloss>\n</sense>\n</entry>\n",
+   "completeSenseBodiesReadAtCapture": false,
+   "entryId": "1202270",
+   "matchedPrimaryOrSupportingForms": [
+    "絵"
+   ],
+   "rawDomain": "Entity-expandedETserializedXML, not originalgzip/archive slice",
+   "readings": [
+    "え",
+    "が"
+   ],
+   "spellings": [
+    "絵",
+    "画"
+   ]
+  },
+  {
+   "actualFullReadingAttestedAtThisFreeze": true,
+   "boundary": "Complete entity-expanded serializedXML; capture !=actualreading/modernfrequencyapproval",
+   "captureBytes": 258,
+   "captureFile": "ru-044-official-entry-1078750-001.xml",
+   "captureSha256": "e6650a83cb74be7f6cd8cd9c196081530351bc73329b17da60900e799d473350",
+   "citedByFrozenPrimaryOrSupportOrExplicitSideEntry": true,
+   "completeEntityExpandedSerializedXmlBody": "<?xml version='1.0' encoding='utf-8'?>\n<entry>\n<ent_seq>1078750</ent_seq>\n<r_ele>\n<reb>テープ</reb>\n<re_pri>gai1</re_pri>\n<re_pri>ichi1</re_pri>\n</r_ele>\n<sense>\n<pos>noun (common) (futsuumeishi)</pos>\n<gloss xml:lang=\"eng\">tape</gloss>\n</sense>\n</entry>\n",
+   "completeSenseBodiesReadAtCapture": false,
+   "entryId": "1078750",
+   "matchedPrimaryOrSupportingForms": [],
+   "rawDomain": "Entity-expandedETserializedXML, not originalgzip/archive slice",
+   "readings": [
+    "テープ"
+   ],
+   "spellings": []
+  },
+  {
+   "actualFullReadingAttestedAtThisFreeze": true,
+   "boundary": "Complete entity-expanded serializedXML; capture !=actualreading/modernfrequencyapproval",
+   "captureBytes": 324,
+   "captureFile": "ru-044-official-entry-1109380-001.xml",
+   "captureSha256": "e79b729763c8cd3fba3c807c7f45d38e701d437ae16a5d27504fcee18bc553d8",
+   "citedByFrozenPrimaryOrSupportOrExplicitSideEntry": true,
+   "completeEntityExpandedSerializedXmlBody": "<?xml version='1.0' encoding='utf-8'?>\n<entry>\n<ent_seq>1109380</ent_seq>\n<r_ele>\n<reb>フィルム</reb>\n<re_pri>gai1</re_pri>\n<re_pri>ichi1</re_pri>\n</r_ele>\n<r_ele>\n<reb>フイルム</reb>\n<re_pri>gai1</re_pri>\n</r_ele>\n<sense>\n<pos>noun (common) (futsuumeishi)</pos>\n<gloss xml:lang=\"eng\">film</gloss>\n</sense>\n</entry>\n",
+   "completeSenseBodiesReadAtCapture": false,
+   "entryId": "1109380",
+   "matchedPrimaryOrSupportingForms": [],
+   "rawDomain": "Entity-expandedETserializedXML, not originalgzip/archive slice",
+   "readings": [
+    "フィルム",
+    "フイルム"
+   ],
+   "spellings": []
+  },
+  {
+   "actualFullReadingAttestedAtThisFreeze": true,
+   "boundary": "Complete entity-expanded serializedXML; capture !=actualreading/modernfrequencyapproval",
+   "captureBytes": 951,
+   "captureFile": "ru-044-official-entry-1321900-001.xml",
+   "captureSha256": "45359c86d9b4df936dabccf0b3b7e72c98ebea86703d3a93317e76e58949a326",
+   "citedByFrozenPrimaryOrSupportOrExplicitSideEntry": true,
+   "completeEntityExpandedSerializedXmlBody": "<?xml version='1.0' encoding='utf-8'?>\n<entry>\n<ent_seq>1321900</ent_seq>\n<k_ele>\n<keb>写真</keb>\n<ke_pri>ichi1</ke_pri>\n<ke_pri>news1</ke_pri>\n<ke_pri>nf01</ke_pri>\n</k_ele>\n<k_ele>\n<keb>寫眞</keb>\n<ke_inf>search-only kanji form</ke_inf>\n</k_ele>\n<k_ele>\n<keb>寫真</keb>\n<ke_inf>search-only kanji form</ke_inf>\n</k_ele>\n<k_ele>\n<keb>冩眞</keb>\n<ke_inf>search-only kanji form</ke_inf>\n</k_ele>\n<r_ele>\n<reb>しゃしん</reb>\n<re_pri>ichi1</re_pri>\n<re_pri>news1</re_pri>\n<re_pri>nf01</re_pri>\n</r_ele>\n<sense>\n<pos>noun (common) (futsuumeishi)</pos>\n<gloss xml:lang=\"eng\">photograph</gloss>\n<gloss xml:lang=\"eng\">photo</gloss>\n<gloss xml:lang=\"eng\">picture</gloss>\n<gloss xml:lang=\"eng\">photography</gloss>\n</sense>\n<sense>\n<pos>noun (common) (futsuumeishi)</pos>\n<xref>活動写真</xref>\n<misc>obsolete term</misc>\n<misc>abbreviation</misc>\n<gloss xml:lang=\"eng\">moving picture</gloss>\n<gloss xml:lang=\"eng\">movie</gloss>\n</sense>\n</entry>\n",
+   "completeSenseBodiesReadAtCapture": false,
+   "entryId": "1321900",
+   "matchedPrimaryOrSupportingForms": [],
+   "rawDomain": "Entity-expandedETserializedXML, not originalgzip/archive slice",
+   "readings": [
+    "しゃしん"
+   ],
+   "spellings": [
+    "写真",
+    "寫眞",
+    "寫真",
+    "冩眞"
+   ]
+  },
+  {
+   "actualAuthorFullReadingNowAttested": true,
+   "captureBytes": 1006,
+   "captureFile": "ru-044-corrective-official-entry-1302980-001.xml",
+   "captureSha256": "32e3e7a332d77bc606cd12736a2a07dde4bf3ba133927c9280a011bd5c70888f",
+   "completeAuthorReadingAtCapture": false,
+   "completeEntityExpandedSerializedXmlBody": "<?xml version='1.0' encoding='utf-8'?>\n<entry>\n<ent_seq>1302980</ent_seq>\n<k_ele>\n<keb>山水</keb>\n<ke_pri>news2</ke_pri>\n<ke_pri>nf29</ke_pri>\n</k_ele>\n<r_ele>\n<reb>さんすい</reb>\n<re_pri>news2</re_pri>\n<re_pri>nf29</re_pri>\n</r_ele>\n<r_ele>\n<reb>やまみず</reb>\n</r_ele>\n<sense>\n<pos>noun (common) (futsuumeishi)</pos>\n<gloss xml:lang=\"eng\">mountain and water</gloss>\n<gloss xml:lang=\"eng\">landscape (containing hills and rivers)</gloss>\n</sense>\n<sense>\n<stagr>さんすい</stagr>\n<pos>noun (common) (futsuumeishi)</pos>\n<xref>山水画</xref>\n<misc>abbreviation</misc>\n<gloss xml:lang=\"eng\">landscape picture</gloss>\n</sense>\n<sense>\n<pos>noun (common) (futsuumeishi)</pos>\n<gloss xml:lang=\"eng\">mountain stream</gloss>\n<gloss xml:lang=\"eng\">water that flows down from a mountain</gloss>\n</sense>\n<sense>\n<stagr>さんすい</stagr>\n<pos>noun (common) (futsuumeishi)</pos>\n<xref>築山</xref>\n<gloss xml:lang=\"eng\">garden which contains an artificial hill and a pond</gloss>\n</sense>\n</entry>\n",
+   "entryId": "1302980",
+   "rawDomain": "Entity-expanded ETserializedXML withdeclaration, not rawgzipor reviewerstdoutbytes."
+  },
+  {
+   "actualFullReadingAttestedAtThisFreeze": true,
+   "boundary": "Complete entity-expanded serializedXML; capture !=actualreading/modernfrequencyapproval",
+   "captureBytes": 696,
+   "captureFile": "ru-044-official-entry-1100760-001.xml",
+   "captureSha256": "153c03025439402bab337e34ae0de1d70a9d2fe87a6df4c27caeefb4f9694c1c",
+   "citedByFrozenPrimaryOrSupportOrExplicitSideEntry": true,
+   "completeEntityExpandedSerializedXmlBody": "<?xml version='1.0' encoding='utf-8'?>\n<entry>\n<ent_seq>1100760</ent_seq>\n<r_ele>\n<reb>パーティー</reb>\n<re_pri>gai1</re_pri>\n<re_pri>ichi1</re_pri>\n</r_ele>\n<r_ele>\n<reb>パーティ</reb>\n<re_pri>gai1</re_pri>\n</r_ele>\n<r_ele>\n<reb>パーリー</reb>\n<re_inf>search-only kana form</re_inf>\n</r_ele>\n<sense>\n<pos>noun (common) (futsuumeishi)</pos>\n<gloss xml:lang=\"eng\">party (social gathering)</gloss>\n</sense>\n<sense>\n<pos>noun (common) (futsuumeishi)</pos>\n<gloss xml:lang=\"eng\">party (group of people participating in an activity, esp. mountain climbing)</gloss>\n</sense>\n<sense>\n<pos>noun (common) (futsuumeishi)</pos>\n<gloss xml:lang=\"eng\">(political) party</gloss>\n</sense>\n</entry>\n",
+   "completeSenseBodiesReadAtCapture": false,
+   "entryId": "1100760",
+   "matchedPrimaryOrSupportingForms": [
+    "パーティー"
+   ],
+   "rawDomain": "Entity-expandedETserializedXML, not originalgzip/archive slice",
+   "readings": [
+    "パーティー",
+    "パーティ",
+    "パーリー"
+   ],
+   "spellings": []
+  },
+  {
+   "actualFullReadingAttestedAtThisFreeze": true,
+   "boundary": "Complete entity-expanded serializedXML; capture !=actualreading/modernfrequencyapproval",
+   "captureBytes": 1619,
+   "captureFile": "ru-044-official-entry-1397450-001.xml",
+   "captureSha256": "3ce46f0c18bfa9cf4aa1b6a198f177a6167d5eb7b5df4b2c8d1bdff0d2d051bf",
+   "citedByFrozenPrimaryOrSupportOrExplicitSideEntry": true,
+   "completeEntityExpandedSerializedXmlBody": "<?xml version='1.0' encoding='utf-8'?>\n<entry>\n<ent_seq>1397450</ent_seq>\n<k_ele>\n<keb>組</keb>\n<ke_pri>news1</ke_pri>\n<ke_pri>nf06</ke_pri>\n</k_ele>\n<k_ele>\n<keb>組み</keb>\n<ke_pri>news1</ke_pri>\n<ke_pri>nf21</ke_pri>\n</k_ele>\n<r_ele>\n<reb>くみ</reb>\n<re_pri>news1</re_pri>\n<re_pri>nf06</re_pri>\n<re_pri>nf21</re_pri>\n</r_ele>\n<sense>\n<pos>noun (common) (futsuumeishi)</pos>\n<pos>noun, used as a suffix</pos>\n<s_inf>pronounced ぐみ as a suffix</s_inf>\n<gloss xml:lang=\"eng\">class (of students)</gloss>\n</sense>\n<sense>\n<pos>noun (common) (futsuumeishi)</pos>\n<pos>noun, used as a suffix</pos>\n<pos>counter</pos>\n<gloss xml:lang=\"eng\">group (of people)</gloss>\n<gloss xml:lang=\"eng\">party</gloss>\n<gloss xml:lang=\"eng\">team</gloss>\n<gloss xml:lang=\"eng\">crew</gloss>\n</sense>\n<sense>\n<pos>noun (common) (futsuumeishi)</pos>\n<pos>noun, used as a suffix</pos>\n<gloss xml:lang=\"eng\">lot</gloss>\n<gloss xml:lang=\"eng\">bunch</gloss>\n<gloss xml:lang=\"eng\">set</gloss>\n</sense>\n<sense>\n<pos>noun (common) (futsuumeishi)</pos>\n<pos>noun, used as a suffix</pos>\n<gloss xml:lang=\"eng\">crime family</gloss>\n<gloss xml:lang=\"eng\">organized-crime syndicate</gloss>\n</sense>\n<sense>\n<pos>noun (common) (futsuumeishi)</pos>\n<pos>noun, used as a suffix</pos>\n<pos>counter</pos>\n<gloss xml:lang=\"eng\">set (of items)</gloss>\n<gloss xml:lang=\"eng\">assortment</gloss>\n<gloss xml:lang=\"eng\">deck (of cards)</gloss>\n<gloss xml:lang=\"eng\">pack</gloss>\n</sense>\n<sense>\n<pos>noun (common) (futsuumeishi)</pos>\n<field>printing</field>\n<gloss xml:lang=\"eng\">typesetting</gloss>\n<gloss xml:lang=\"eng\">composition</gloss>\n</sense>\n</entry>\n",
+   "completeSenseBodiesReadAtCapture": false,
+   "entryId": "1397450",
+   "matchedPrimaryOrSupportingForms": [],
+   "rawDomain": "Entity-expandedETserializedXML, not originalgzip/archive slice",
+   "readings": [
+    "くみ"
+   ],
+   "spellings": [
+    "組",
+    "組み"
+   ]
+  }
+ ],
+ "completeFocusedPairs": [
+  {
+   "path": "words/映画.md",
+   "russianCanonicalGitRawSha256": "7dca2b1ee6d5cffb5f21a669d7443b2ce14ea8a517965df019b67b18bfe5f076",
+   "russianNormalizedLfSha256": "7dca2b1ee6d5cffb5f21a669d7443b2ce14ea8a517965df019b67b18bfe5f076",
+   "russianWorkingRawSha256": "7996f8adf69ebbd4a46a1cd7bb49f4469d4f2032afd1dc29d3afcb6f2c937a74",
+   "sourceGitRawSha256": "9185ce9a56f7e2164bea3b28d34bedbfba4f388873c759f36df33327b5fe6f29",
+   "word": "映画"
+  },
+  {
+   "path": "words/絵.md",
+   "russianCanonicalGitRawSha256": "93cecfdad5a1569bf01dcb5e7a77564b37803ef062ed9370e2c02ab80c172f7a",
+   "russianNormalizedLfSha256": "93cecfdad5a1569bf01dcb5e7a77564b37803ef062ed9370e2c02ab80c172f7a",
+   "russianWorkingRawSha256": "91960f6a93c394048312a769b2769bac4d4257166c5750c91a091607103c2038",
+   "sourceGitRawSha256": "53f26b4e18c47f35a3b926b944ad8dbc64ab14cf1d8571da688fc7931aa51fda",
+   "word": "絵"
+  },
+  {
+   "path": "words/テープ.md",
+   "russianCanonicalGitRawSha256": "4303e9d5473793004fa93fa27fa42e65c082944231e7221d75ea9df7c34da8f3",
+   "russianNormalizedLfSha256": "4303e9d5473793004fa93fa27fa42e65c082944231e7221d75ea9df7c34da8f3",
+   "russianWorkingRawSha256": "c891a13c245461d2d725cebc03aef4638d39f3e301015a38719df21810450707",
+   "sourceGitRawSha256": "de1421fb72668e02fd92118fd31c30c9f0116e38c0bdd98e9f58393c34f85760",
+   "word": "テープ"
+  },
+  {
+   "path": "words/フィルム.md",
+   "russianCanonicalGitRawSha256": "c43fd5ebe9ab600164f9bf9becc4242856c113386b93c85de03ffd70460cb0f6",
+   "russianNormalizedLfSha256": "c43fd5ebe9ab600164f9bf9becc4242856c113386b93c85de03ffd70460cb0f6",
+   "russianWorkingRawSha256": "fa0ca4a397a6b048224407076b37713e0f435d5c888b8bb71fb653a35405b552",
+   "sourceGitRawSha256": "b2086ae6272879f9d9d89f39df785d96f9402b1c09384e348338474ad2d4c7a0",
+   "word": "フィルム"
+  },
+  {
+   "path": "words/写真.md",
+   "russianCanonicalGitRawSha256": "bc90d5ed7d3f3ccb0a73abe881ee9f278cba9b0656a242816569b17d33bcb968",
+   "russianNormalizedLfSha256": "bc90d5ed7d3f3ccb0a73abe881ee9f278cba9b0656a242816569b17d33bcb968",
+   "russianWorkingRawSha256": "dd793e9be1e14d98311b71949966b986720bd2d2f160a7b02fe451a5bfae7088",
+   "sourceGitRawSha256": "2de2ea57fd3eb3564aee890b86fa299259622e132a60e6b25baae6357a676137",
+   "word": "写真"
+  },
+  {
+   "path": "words/山水.md",
+   "russianCanonicalGitRawSha256": "656e381f95cfc9829bebcc73facd577a485d3b644b5f1faf86da65b60338528a",
+   "russianNormalizedLfSha256": "656e381f95cfc9829bebcc73facd577a485d3b644b5f1faf86da65b60338528a",
+   "russianWorkingRawSha256": "b2479225dd3ad8d93a05041cb05af10455d0f59bee60a3114d4558cf74f9ff5e",
+   "sourceGitRawSha256": "d4f4b3781114e0f411c9d1240f537b135f47cedbbb54901ea206138ab8e34362",
+   "word": "山水"
+  },
+  {
+   "path": "words/パーティー.md",
+   "russianCanonicalGitRawSha256": "3522398ddea574dd1098948e285848368688bce0857ffbec72d9320189880954",
+   "russianNormalizedLfSha256": "3522398ddea574dd1098948e285848368688bce0857ffbec72d9320189880954",
+   "russianWorkingRawSha256": "2b7584166bd0ac005f60013b9d67e95a5be910543ab3aeb5bb2ff4f72b8039b3",
+   "sourceGitRawSha256": "80738dd7d8066b5b1bfb207477b8ac8d099a18b4575e5a58760376daed22c494",
+   "word": "パーティー"
+  },
+  {
+   "path": "words/組.md",
+   "russianCanonicalGitRawSha256": "cfbf6cbaa70935f78d98daa9689e7d7d0eeaad26ba7e67600d58e23a82d40cdf",
+   "russianNormalizedLfSha256": "cfbf6cbaa70935f78d98daa9689e7d7d0eeaad26ba7e67600d58e23a82d40cdf",
+   "russianWorkingRawSha256": "0cf192715b121308fd2ff565b10748fc245d562c5e1428359d40bc654db95191",
+   "sourceGitRawSha256": "7cf2d908ad33b56d96658d54205a91de69dd3f71f3f3cb5cf31bec5eb7bd9e2f",
+   "word": "組"
+  }
+ ],
+ "contentVersion": "2feceed6354d1b68",
+ "correctiveFreezeCommit": "4b17fbb0bbf1436e4d8400643010c182f9410572",
+ "freshFrozenSourceGuidanceInventory": [
+  {
+   "applyTo": null,
+   "path": ".github/agents/content-consistency-reviewer.agent.md",
+   "sourceGitRawSha256": "df817ab7bd6abbdd0182b3e5db1ec3871ed0766ebdf4d63e3aba69c0ca7d6b1f"
+  },
+  {
+   "applyTo": null,
+   "path": ".github/agents/kanji-accuracy-reviewer.agent.md",
+   "sourceGitRawSha256": "f839076113f2b3f3928676277f1a36a629f271d158e1d62eb665864944e31544"
+  },
+  {
+   "applyTo": null,
+   "path": ".github/agents/kanji-comprehension-reviewer.agent.md",
+   "sourceGitRawSha256": "62178bbedd8eb2c8008820abfac331e7902d6b30893f41d46c66cd0626be2ed3"
+  },
+  {
+   "applyTo": null,
+   "path": ".github/copilot-instructions.md",
+   "sourceGitRawSha256": "92b00a0f58db0468c91840bfdfce7d5803c201f68ecbd1364d8888f5737ed55a"
+  },
+  {
+   "applyTo": "\"kanji/**,words/**,strokes/**,articles/**,tools/**,manifest.json\"",
+   "path": ".github/instructions/content-structure.instructions.md",
+   "sourceGitRawSha256": "c96de5ab347bc2fa5f224697f8dafb5f801dbe08985da845cd2b626681b434ef"
+  },
+  {
+   "applyTo": "\"listening/**,listening-tasks/**,audio/**,task-audio/**,task-images/**,docs/listening*.md,docs/listening-task-*/**,docs/listening-n4-*/**,tools/*listening*.py\"",
+   "path": ".github/instructions/listening-authoring.instructions.md",
+   "sourceGitRawSha256": "88084df924fdf40dd382e5b4f5cda9bae4d52358beb006b0fa622c648663c210"
+  }
+ ],
+ "guidanceInventoryBoundary": "Fresh exact6af98cb enumeration ofall6activeENinstruction/agentfiles; frozen sourceunchanged, never laterEnglishmain. NarrowRussianpolysemy methodaddressesactualF1/F2/F4, no speculativeprocessgate.",
+ "limits": "OriginalwholeC2NEEDS_FIX retained; all16bodies/831captions/1127baselineRAWs preserved. No activation/media/nativeauthority.",
+ "newRuntimeUnits": [
+  {
+   "boundary": "Exactmetadata/sentence projections are aids, not semanticproof orindependentapproval.",
+   "completeBodyAfterFrontmatterSha256": "fb7ba21d62149fd833c61b0795ef34aea98341b7e6a6d74d1d4e0f4da0b4ec8a",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "completeSourceExamplesMechanicallyPresent": true,
+   "map": "files",
+   "path": "words/ギター.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "d195fe2e5870cf8e45cb0972fd2ee182b448894cb8a12f3f4261be2f8d39a500",
+   "russianNormalizedLfSha256": "d195fe2e5870cf8e45cb0972fd2ee182b448894cb8a12f3f4261be2f8d39a500",
+   "russianWorkingRawSha256": "e03c89e8265405fad7a67d03ce98c56549ac0a534c1947f5203f73529327aea6",
+   "sourceGitRawSha256": "6dcb0862b0400fc6f58d4b81c38ba749725c815fe1f939e338dba6d666968f89",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "ギター",
+    "tags": [
+     "gairaigo",
+     "noun",
+     "music"
+    ],
+    "title": "guitar",
+    "type": "gairaigo",
+    "word": "ギター"
+   },
+   "sourceNormalizedLfSha256": "6dcb0862b0400fc6f58d4b81c38ba749725c815fe1f939e338dba6d666968f89",
+   "sourceWorkingRawSha256": "6dcb0862b0400fc6f58d4b81c38ba749725c815fe1f939e338dba6d666968f89",
+   "word": "ギター"
+  },
+  {
+   "boundary": "Exactmetadata/sentence projections are aids, not semanticproof orindependentapproval.",
+   "completeBodyAfterFrontmatterSha256": "c324b6948c5881b307e76508d2a2929fbc49321d3fa055e60e46d7ae56aba860",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "completeSourceExamplesMechanicallyPresent": true,
+   "map": "files",
+   "path": "words/弾く.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "8ab15b178f09116dd0fffc612b7ed2e9fb955c63d1f08c3276c3c1ffa73cb791",
+   "russianNormalizedLfSha256": "8ab15b178f09116dd0fffc612b7ed2e9fb955c63d1f08c3276c3c1ffa73cb791",
+   "russianWorkingRawSha256": "2a3f4386899f7dd866b5271af8224a03e489e218c85c1fec7e08591f6e819604",
+   "sourceGitRawSha256": "4a115d74da17525443c46ee3760086a489065f7faf7993e9dcdc475cb201db18",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "弾"
+    ],
+    "reading": "ひく",
+    "tags": [
+     "wago",
+     "verb",
+     "music"
+    ],
+    "title": "play a string or keyboard instrument",
+    "type": "wago",
+    "word": "弾く"
+   },
+   "sourceNormalizedLfSha256": "4a115d74da17525443c46ee3760086a489065f7faf7993e9dcdc475cb201db18",
+   "sourceWorkingRawSha256": "4a115d74da17525443c46ee3760086a489065f7faf7993e9dcdc475cb201db18",
+   "word": "弾く"
+  },
+  {
+   "boundary": "Exactmetadata/sentence projections are aids, not semanticproof orindependentapproval.",
+   "completeBodyAfterFrontmatterSha256": "bb9b120aaf22d9aa595f45c2a282615e36d617a0ff99784307ea94ac41d4fa29",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "completeSourceExamplesMechanicallyPresent": true,
+   "map": "files",
+   "path": "words/音楽.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "f01ba01c8674a5f394017c39cc2484d348a2d245d39370daa20a15efd464c08a",
+   "russianNormalizedLfSha256": "f01ba01c8674a5f394017c39cc2484d348a2d245d39370daa20a15efd464c08a",
+   "russianWorkingRawSha256": "7c0ecbe486d72e64e7ac930af60ea1f7703dea13d3ce9f0197e6bbc293d6210e",
+   "sourceGitRawSha256": "7facddacdf5cd6f29bef74e3e20959a3be1c76f408de20739ac88bcef3dac5c8",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "音",
+     "楽"
+    ],
+    "reading": "おんがく",
+    "tags": [
+     "kango",
+     "noun",
+     "music"
+    ],
+    "title": "music",
+    "type": "kango",
+    "word": "音楽"
+   },
+   "sourceNormalizedLfSha256": "7facddacdf5cd6f29bef74e3e20959a3be1c76f408de20739ac88bcef3dac5c8",
+   "sourceWorkingRawSha256": "7facddacdf5cd6f29bef74e3e20959a3be1c76f408de20739ac88bcef3dac5c8",
+   "word": "音楽"
+  },
+  {
+   "boundary": "Exactmetadata/sentence projections are aids, not semanticproof orindependentapproval.",
+   "completeBodyAfterFrontmatterSha256": "6d7f552b0d50ef1d1e93d1205efe745cfeef9ac96e19e500ed97d0b0f330cbf7",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "completeSourceExamplesMechanicallyPresent": true,
+   "map": "files",
+   "path": "words/歌.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "66cd0ff44b7abbb276a559ce4699b635c8979ceccda645c33bc3ce67d55b7a6f",
+   "russianNormalizedLfSha256": "66cd0ff44b7abbb276a559ce4699b635c8979ceccda645c33bc3ce67d55b7a6f",
+   "russianWorkingRawSha256": "414648668b0f6c79cf1e147dfac184f3c6fa1c37c786a213bbcec33a588b345b",
+   "sourceGitRawSha256": "7f258f5357104598605a717e6d0eee073e1004deb8454d567fe9a2a05ae8ee7c",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "歌"
+    ],
+    "reading": "うた",
+    "tags": [
+     "wago",
+     "noun",
+     "music"
+    ],
+    "title": "song",
+    "type": "wago",
+    "word": "歌"
+   },
+   "sourceNormalizedLfSha256": "7f258f5357104598605a717e6d0eee073e1004deb8454d567fe9a2a05ae8ee7c",
+   "sourceWorkingRawSha256": "7f258f5357104598605a717e6d0eee073e1004deb8454d567fe9a2a05ae8ee7c",
+   "word": "歌"
+  },
+  {
+   "boundary": "Exactmetadata/sentence projections are aids, not semanticproof orindependentapproval.",
+   "completeBodyAfterFrontmatterSha256": "62fae67ea232d3560639b4f134c6e8c5116c2fdb5c2af36f1bc06139b24d0aa2",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "completeSourceExamplesMechanicallyPresent": true,
+   "map": "files",
+   "path": "words/歌う.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "c8ca0e7cc2acfc096d3297168e94fed1d690da74880e5a89e97bbddc0b3dd9d6",
+   "russianNormalizedLfSha256": "c8ca0e7cc2acfc096d3297168e94fed1d690da74880e5a89e97bbddc0b3dd9d6",
+   "russianWorkingRawSha256": "64a200a7e58f3f00c695e11cff6f61012a2a88e2718c2732e37ddbfe2ec338f3",
+   "sourceGitRawSha256": "f236702545003ebd55d8e5a018ec2c8270f72d1aec7eb26cde41d097e10b73d5",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "歌"
+    ],
+    "reading": "うたう",
+    "tags": [
+     "wago",
+     "verb",
+     "music"
+    ],
+    "title": "to sing",
+    "type": "wago",
+    "word": "歌う"
+   },
+   "sourceNormalizedLfSha256": "f236702545003ebd55d8e5a018ec2c8270f72d1aec7eb26cde41d097e10b73d5",
+   "sourceWorkingRawSha256": "f236702545003ebd55d8e5a018ec2c8270f72d1aec7eb26cde41d097e10b73d5",
+   "word": "歌う"
+  },
+  {
+   "boundary": "Exactmetadata/sentence projections are aids, not semanticproof orindependentapproval.",
+   "completeBodyAfterFrontmatterSha256": "a6f39e2076994bdd26feccc7bba44aa6dcb84cb78274f0fc2463b866ecade092",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "completeSourceExamplesMechanicallyPresent": true,
+   "map": "files",
+   "path": "words/映画.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "7dca2b1ee6d5cffb5f21a669d7443b2ce14ea8a517965df019b67b18bfe5f076",
+   "russianNormalizedLfSha256": "7dca2b1ee6d5cffb5f21a669d7443b2ce14ea8a517965df019b67b18bfe5f076",
+   "russianWorkingRawSha256": "7996f8adf69ebbd4a46a1cd7bb49f4469d4f2032afd1dc29d3afcb6f2c937a74",
+   "sourceGitRawSha256": "9185ce9a56f7e2164bea3b28d34bedbfba4f388873c759f36df33327b5fe6f29",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "映",
+     "画"
+    ],
+    "reading": "えいが",
+    "tags": [
+     "kango",
+     "entertainment"
+    ],
+    "title": "movie, film",
+    "type": "kango",
+    "word": "映画"
+   },
+   "sourceNormalizedLfSha256": "9185ce9a56f7e2164bea3b28d34bedbfba4f388873c759f36df33327b5fe6f29",
+   "sourceWorkingRawSha256": "9185ce9a56f7e2164bea3b28d34bedbfba4f388873c759f36df33327b5fe6f29",
+   "word": "映画"
+  },
+  {
+   "boundary": "Exactmetadata/sentence projections are aids, not semanticproof orindependentapproval.",
+   "completeBodyAfterFrontmatterSha256": "b54afeeedf367ec68b786ee24f32b97f9d1c5bda55e65d6d3136f0a73414b14f",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "completeSourceExamplesMechanicallyPresent": true,
+   "map": "files",
+   "path": "words/撮る.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "ffb0c798cbc05978b5f9c1b2b342d642c6e7bdfd156264a1f64547eecab34aa9",
+   "russianNormalizedLfSha256": "ffb0c798cbc05978b5f9c1b2b342d642c6e7bdfd156264a1f64547eecab34aa9",
+   "russianWorkingRawSha256": "945b18c7911b265fc6b3d5b0c8eb2df98373ffeb2cce58cdcea46904d128c55c",
+   "sourceGitRawSha256": "df52a0c63a217494945c4f47f3c1fd3be2738adb474975238859042fb998bb55",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "撮"
+    ],
+    "reading": "とる",
+    "tags": [
+     "wago",
+     "verb",
+     "photography"
+    ],
+    "title": "photograph, film",
+    "type": "wago",
+    "word": "撮る"
+   },
+   "sourceNormalizedLfSha256": "df52a0c63a217494945c4f47f3c1fd3be2738adb474975238859042fb998bb55",
+   "sourceWorkingRawSha256": "df52a0c63a217494945c4f47f3c1fd3be2738adb474975238859042fb998bb55",
+   "word": "撮る"
+  },
+  {
+   "boundary": "Exactmetadata/sentence projections are aids, not semanticproof orindependentapproval.",
+   "completeBodyAfterFrontmatterSha256": "10a2aa21a727760c0ea9fc06021858a88370eb22d7bb158b5b2f865d0e1aeb9e",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "completeSourceExamplesMechanicallyPresent": true,
+   "map": "files",
+   "path": "words/絵.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "93cecfdad5a1569bf01dcb5e7a77564b37803ef062ed9370e2c02ab80c172f7a",
+   "russianNormalizedLfSha256": "93cecfdad5a1569bf01dcb5e7a77564b37803ef062ed9370e2c02ab80c172f7a",
+   "russianWorkingRawSha256": "91960f6a93c394048312a769b2769bac4d4257166c5750c91a091607103c2038",
+   "sourceGitRawSha256": "53f26b4e18c47f35a3b926b944ad8dbc64ab14cf1d8571da688fc7931aa51fda",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "絵"
+    ],
+    "reading": "え",
+    "tags": [
+     "kango",
+     "art"
+    ],
+    "title": "picture; drawing",
+    "type": "kango",
+    "word": "絵"
+   },
+   "sourceNormalizedLfSha256": "53f26b4e18c47f35a3b926b944ad8dbc64ab14cf1d8571da688fc7931aa51fda",
+   "sourceWorkingRawSha256": "53f26b4e18c47f35a3b926b944ad8dbc64ab14cf1d8571da688fc7931aa51fda",
+   "word": "絵"
+  },
+  {
+   "boundary": "Exactmetadata/sentence projections are aids, not semanticproof orindependentapproval.",
+   "completeBodyAfterFrontmatterSha256": "173f91a039032ab6265648110b8ed989d57c7a8eaecb42cafdf7f2f9e924e6e7",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "completeSourceExamplesMechanicallyPresent": true,
+   "map": "files",
+   "path": "words/テープレコーダー.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "703955ecf567ad658a9207073cb83ed9778c07dae06c06715e23499025160000",
+   "russianNormalizedLfSha256": "703955ecf567ad658a9207073cb83ed9778c07dae06c06715e23499025160000",
+   "russianWorkingRawSha256": "34a5bceb773188e1e75addd7a37ba73d9451a4d8ae86de896a90803b2e1e5aa7",
+   "sourceGitRawSha256": "40334427468d1ac4d011b6e1147f9cd56faf9450fe3298847e7a822b6a7a94db",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "テープレコーダー",
+    "tags": [
+     "gairaigo",
+     "noun",
+     "technology",
+     "sound"
+    ],
+    "title": "tape recorder",
+    "type": "gairaigo",
+    "word": "テープレコーダー"
+   },
+   "sourceNormalizedLfSha256": "40334427468d1ac4d011b6e1147f9cd56faf9450fe3298847e7a822b6a7a94db",
+   "sourceWorkingRawSha256": "40334427468d1ac4d011b6e1147f9cd56faf9450fe3298847e7a822b6a7a94db",
+   "word": "テープレコーダー"
+  },
+  {
+   "boundary": "Exactmetadata/sentence projections are aids, not semanticproof orindependentapproval.",
+   "completeBodyAfterFrontmatterSha256": "e26f7b155b91f988f6406365a8fe063021bedb120530c7dc381f215d693a606f",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "completeSourceExamplesMechanicallyPresent": true,
+   "map": "files",
+   "path": "words/ラジオカセット.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "708b7a4bf872a0e8428337f12ef06fec478b67b951ad6fd4f7a380e6dc000788",
+   "russianNormalizedLfSha256": "708b7a4bf872a0e8428337f12ef06fec478b67b951ad6fd4f7a380e6dc000788",
+   "russianWorkingRawSha256": "c270ed919fab9dc4f8c29d22bdbb2a4370787a99d688d7736b2fb6487f806365",
+   "sourceGitRawSha256": "0402f99b1388eef993b5afa2e27e186ca3d19b950a55f2a5582e52e382a2faf1",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "ラジオカセット",
+    "tags": [
+     "gairaigo",
+     "noun",
+     "audio",
+     "equipment"
+    ],
+    "title": "radio-cassette player",
+    "type": "gairaigo",
+    "word": "ラジオカセット"
+   },
+   "sourceNormalizedLfSha256": "0402f99b1388eef993b5afa2e27e186ca3d19b950a55f2a5582e52e382a2faf1",
+   "sourceWorkingRawSha256": "0402f99b1388eef993b5afa2e27e186ca3d19b950a55f2a5582e52e382a2faf1",
+   "word": "ラジオカセット"
+  },
+  {
+   "boundary": "Exactmetadata/sentence projections are aids, not semanticproof orindependentapproval.",
+   "completeBodyAfterFrontmatterSha256": "1f5dda91bbfb00473914d0b9476f0dc12de763d2c05e29caf14303ebb3001841",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "completeSourceExamplesMechanicallyPresent": true,
+   "map": "files",
+   "path": "words/ラジカセ.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "37decdab4702da104e5deb9be3914e215bd3f5b268ad436d630e574a5ae887fc",
+   "russianNormalizedLfSha256": "37decdab4702da104e5deb9be3914e215bd3f5b268ad436d630e574a5ae887fc",
+   "russianWorkingRawSha256": "d13766aadee17186225a6aec34c6e20c0c241a8a82c01d9346dfe77c40eedca8",
+   "sourceGitRawSha256": "eeaf084b518925d52398d1e5aeffe2883472c2460490ddf1fec66a6859efcdd2",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "ラジカセ",
+    "tags": [
+     "noun",
+     "audio",
+     "gairaigo"
+    ],
+    "title": "radio-cassette player",
+    "type": "gairaigo",
+    "word": "ラジカセ"
+   },
+   "sourceNormalizedLfSha256": "eeaf084b518925d52398d1e5aeffe2883472c2460490ddf1fec66a6859efcdd2",
+   "sourceWorkingRawSha256": "eeaf084b518925d52398d1e5aeffe2883472c2460490ddf1fec66a6859efcdd2",
+   "word": "ラジカセ"
+  },
+  {
+   "boundary": "Exactmetadata/sentence projections are aids, not semanticproof orindependentapproval.",
+   "completeBodyAfterFrontmatterSha256": "a16d297d55de70c400896e50f1ebdb63beb2b6624e6693a697ceedce8191920b",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "completeSourceExamplesMechanicallyPresent": true,
+   "map": "files",
+   "path": "words/ニュース.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "dcf67a0a7789c08b354d3474689b6f81e3af17d13068c6756ea415a87101dec9",
+   "russianNormalizedLfSha256": "dcf67a0a7789c08b354d3474689b6f81e3af17d13068c6756ea415a87101dec9",
+   "russianWorkingRawSha256": "281175275709ab260553d027c4e407794bb0b2d8b730836e727eb23e85044489",
+   "sourceGitRawSha256": "3c54b8c0513dc5c542cb905eab905a2cceb77e1f262fb17f0b134d1f2ab6dd08",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "ニュース",
+    "tags": [
+     "noun",
+     "media",
+     "gairaigo"
+    ],
+    "title": "news",
+    "type": "gairaigo",
+    "word": "ニュース"
+   },
+   "sourceNormalizedLfSha256": "3c54b8c0513dc5c542cb905eab905a2cceb77e1f262fb17f0b134d1f2ab6dd08",
+   "sourceWorkingRawSha256": "3c54b8c0513dc5c542cb905eab905a2cceb77e1f262fb17f0b134d1f2ab6dd08",
+   "word": "ニュース"
+  },
+  {
+   "boundary": "Exactmetadata/sentence projections are aids, not semanticproof orindependentapproval.",
+   "completeBodyAfterFrontmatterSha256": "bed18e1be9aeb41869bae8ed51112e120607dd7029a4eb7b3fa8d01f39ebabb5",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "completeSourceExamplesMechanicallyPresent": true,
+   "map": "files",
+   "path": "words/コピー.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "7553c0cd37091fc878d275686ace1ad398d8ac6c26b8de52e6843f673465cf96",
+   "russianNormalizedLfSha256": "7553c0cd37091fc878d275686ace1ad398d8ac6c26b8de52e6843f673465cf96",
+   "russianWorkingRawSha256": "148ce6ecb0733e83893f55c6ed554993b6bd9b1472a8f61a6d48b21036bc856f",
+   "sourceGitRawSha256": "ea73ebf667937a5ef87c4f3ed5e8d3cc56b8978246052e2d4a096bcbd1e75c99",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "コピー",
+    "tags": [
+     "gairaigo",
+     "noun",
+     "verb",
+     "office"
+    ],
+    "title": "copy; to copy",
+    "type": "gairaigo",
+    "word": "コピー"
+   },
+   "sourceNormalizedLfSha256": "ea73ebf667937a5ef87c4f3ed5e8d3cc56b8978246052e2d4a096bcbd1e75c99",
+   "sourceWorkingRawSha256": "ea73ebf667937a5ef87c4f3ed5e8d3cc56b8978246052e2d4a096bcbd1e75c99",
+   "word": "コピー"
+  },
+  {
+   "boundary": "Exactmetadata/sentence projections are aids, not semanticproof orindependentapproval.",
+   "completeBodyAfterFrontmatterSha256": "8b0aef4a4ae046d521a7afdf7b5c91196ef4571c473761e3fb14e2484b85bee5",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "completeSourceExamplesMechanicallyPresent": true,
+   "map": "files",
+   "path": "words/ページ.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "d539d01d98471575072013bc87f29e95ba42f48c37cbc5d4058b19384e3b2dc2",
+   "russianNormalizedLfSha256": "d539d01d98471575072013bc87f29e95ba42f48c37cbc5d4058b19384e3b2dc2",
+   "russianWorkingRawSha256": "a2e9bfd52567a7957566882d540e82cb0caf76e727331cb5ae1244c8be40cb32",
+   "sourceGitRawSha256": "7aa3301169d35bb05cae4e0347ecf8143d50203b6f61f75728217d900043b1c6",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "ページ",
+    "tags": [
+     "gairaigo",
+     "noun",
+     "counter",
+     "suffix"
+    ],
+    "title": "page",
+    "type": "gairaigo",
+    "word": "ページ"
+   },
+   "sourceNormalizedLfSha256": "7aa3301169d35bb05cae4e0347ecf8143d50203b6f61f75728217d900043b1c6",
+   "sourceWorkingRawSha256": "7aa3301169d35bb05cae4e0347ecf8143d50203b6f61f75728217d900043b1c6",
+   "word": "ページ"
+  },
+  {
+   "boundary": "Exactmetadata/sentence projections are aids, not semanticproof orindependentapproval.",
+   "completeBodyAfterFrontmatterSha256": "705025c3fb6651408ec66fbb2458dfb3008fcb91caee575d96b972e192395964",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "completeSourceExamplesMechanicallyPresent": true,
+   "map": "files",
+   "path": "words/パーティー.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "3522398ddea574dd1098948e285848368688bce0857ffbec72d9320189880954",
+   "russianNormalizedLfSha256": "3522398ddea574dd1098948e285848368688bce0857ffbec72d9320189880954",
+   "russianWorkingRawSha256": "2b7584166bd0ac005f60013b9d67e95a5be910543ab3aeb5bb2ff4f72b8039b3",
+   "sourceGitRawSha256": "80738dd7d8066b5b1bfb207477b8ac8d099a18b4575e5a58760376daed22c494",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "パーティー",
+    "tags": [
+     "gairaigo",
+     "noun",
+     "celebrations"
+    ],
+    "title": "party; social gathering",
+    "type": "gairaigo",
+    "word": "パーティー"
+   },
+   "sourceNormalizedLfSha256": "80738dd7d8066b5b1bfb207477b8ac8d099a18b4575e5a58760376daed22c494",
+   "sourceWorkingRawSha256": "80738dd7d8066b5b1bfb207477b8ac8d099a18b4575e5a58760376daed22c494",
+   "word": "パーティー"
+  },
+  {
+   "boundary": "Exactmetadata/sentence projections are aids, not semanticproof orindependentapproval.",
+   "completeBodyAfterFrontmatterSha256": "40600ae06a237b876e38c5e7f5ddb183c6081ccda34a9c1ab367f7678a5d0d5c",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "completeSourceExamplesMechanicallyPresent": true,
+   "map": "files",
+   "path": "words/静か.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "d55b002f77903558181fe61274551a373ab69786b58ee8547dbaa6c302e74374",
+   "russianNormalizedLfSha256": "d55b002f77903558181fe61274551a373ab69786b58ee8547dbaa6c302e74374",
+   "russianWorkingRawSha256": "7f0f1e4b0801cf8cc2fad76db8ff5243e8a4d269a5fc5c21b9a5cb25450f0a59",
+   "sourceGitRawSha256": "1547c8fa2099615964994d77a1718f34cdb8fba58f7da6ac8cba70ab90106165",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "静"
+    ],
+    "reading": "しずか",
+    "tags": [
+     "wago",
+     "sound"
+    ],
+    "title": "quiet; silent",
+    "type": "wago",
+    "word": "静か"
+   },
+   "sourceNormalizedLfSha256": "1547c8fa2099615964994d77a1718f34cdb8fba58f7da6ac8cba70ab90106165",
+   "sourceWorkingRawSha256": "1547c8fa2099615964994d77a1718f34cdb8fba58f7da6ac8cba70ab90106165",
+   "word": "静か"
+  }
+ ],
+ "originalWholeReviewedCandidateCommit": "00eeafb0341b913690bf070bf3f58e4cbfdf1683",
+ "proposedFinalBoundaryCounts": {
+  "direct": 4,
+  "limited": 14,
+  "source": 0
+ },
+ "proposedFinalDirectPairs": [
+  {
+   "completeOfficialEntrySenseEvidence": [
+    "1419370:1",
+    "1542160:1"
+   ],
+   "left": "弾く",
+   "leftActualCaption": "играть на струнном или клавишном инструменте",
+   "ordinaryModernNecessityFrequency": "Directcaption/lexical propositionawaitingactualreview; no quantitativefrequencyclaim",
+   "proposedBoundary": "direct displayed Russian homograph",
+   "rationale": "Actualиграть;развлекаться leavesиграть unqualified; it fits instrumentperformance in Russian although Japanese遊ぶ isnot the instrumentverb. Protect actualbaremeaninganswers while retaining all Japanese activity distinctions.",
+   "right": "遊ぶ",
+   "rightActualCaption": "играть; развлекаться",
+   "status": "PROPOSED; actualindependentassessmentPENDING"
+  },
+  {
+   "completeOfficialEntrySenseEvidence": [
+    "1138900:1",
+    "1138960:1"
+   ],
+   "left": "ラジオカセット",
+   "leftActualCaption": "радиомагнитофон",
+   "ordinaryModernNecessityFrequency": "Directcaption/lexical propositionawaitingactualreview; no quantitativefrequencyclaim",
+   "proposedBoundary": "direct same-lexeme abbreviation",
+   "rationale": "Full sources and1138960 explicitly bind abbreviation to1138900; actualрадиомагнитофон/радиокассетник name the same combinedradio/cassette equipment. Differentstrings do notdisambiguate.",
+   "right": "ラジカセ",
+   "rightActualCaption": "радиокассетник",
+   "status": "PROPOSED; actualindependentassessmentPENDING"
+  },
+  {
+   "completeOfficialEntrySenseEvidence": [
+    "1078810:1",
+    "1138900:1"
+   ],
+   "left": "テープレコーダー",
+   "leftActualCaption": "ленточный магнитофон",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Recording-capable combinedunits can satisfy actualленточныймагнитофон;1078810 and1138900 directly support recorder meanings. Only this real recording-capable context: not every cassetteplayerrecords andnotall players form a clique.",
+   "right": "ラジオカセット",
+   "rightActualCaption": "радиомагнитофон",
+   "status": "PROPOSED; actualindependentassessmentPENDING"
+  },
+  {
+   "completeOfficialEntrySenseEvidence": [
+    "1078810:1",
+    "1138960:1",
+    "1138900:1"
+   ],
+   "left": "テープレコーダー",
+   "leftActualCaption": "ленточный магнитофон",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Independently the abbreviated unit's full frozenbody explicitly includes recorderfunctions, and1138960 abbreviates the recording-capable1138900lexeme. Actualленточныймагнитофон fits that qualifiedhardwarecontext; not transitive protection through anothercard.",
+   "right": "ラジカセ",
+   "rightActualCaption": "радиокассетник",
+   "status": "PROPOSED; actualindependentassessmentPENDING"
+  },
+  {
+   "completeOfficialEntrySenseEvidence": [
+    "1138900:1",
+    "1138860:1"
+   ],
+   "left": "ラジオカセット",
+   "leftActualCaption": "радиомагнитофон",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "The device's defining radioreceiver function can fit actualрадио;радиоприёмник. Protect only that explicit integratedreceivercontext, not any audioequipment/category. A cassetteplayerwithout receiver isnot therebyラジオ.",
+   "right": "ラジオ",
+   "rightActualCaption": "радио; радиоприёмник",
+   "status": "PROPOSED; actualindependentassessmentPENDING"
+  },
+  {
+   "completeOfficialEntrySenseEvidence": [
+    "1138960:1",
+    "1138860:1"
+   ],
+   "left": "ラジカセ",
+   "leftActualCaption": "радиокассетник",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Independently the abbreviated combinedunit's primary radioreceiver function can fit actualрадио;радиоприёмник. Its full source states that function; no automatic edge inferred viaラジオカセット.",
+   "right": "ラジオ",
+   "rightActualCaption": "радио; радиоприёмник",
+   "status": "PROPOSED; actualindependentassessmentPENDING"
+  },
+  {
+   "completeOfficialEntrySenseEvidence": [
+    "1169250:7",
+    "1419370:1"
+   ],
+   "left": "弾く",
+   "leftActualCaption": "играть на струнном или клавишном инструменте",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "1169250sense7 explicitly allows playing strings/keyboards and saysusuallywritten弾く;1419370 crossreferences that exactsense. Actualnew instrumentcaption canfit the broaderwritten引くprompt in that qualifiedsense, not becausebothreadひく. Primaryтянуть andordinarymusic spelling remain distinct.",
+   "right": "引く",
+   "rightActualCaption": "тянуть",
+   "status": "PROPOSED; actualindependentassessmentPENDING"
+  },
+  {
+   "completeOfficialEntrySenseEvidence": [
+    "1193180:1",
+    "2848171:1"
+   ],
+   "left": "歌",
+   "leftActualCaption": "песня",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Separate2848171—not utensil1110110—explicitly meansfolksong; actualпесня canfit that vocalfolksong context. Do not merge the meaning into the N5forklesson or equateallmusic/genres.",
+   "right": "フォーク",
+   "rightActualCaption": "вилка",
+   "status": "PROPOSED; actualindependentassessmentPENDING"
+  },
+  {
+   "completeOfficialEntrySenseEvidence": [
+    "1173720:1",
+    "1321900:2"
+   ],
+   "left": "映画",
+   "leftActualCaption": "фильм",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "1321900sense2 explicitly has movingpicture/movie but isOBSOLETE andabbreviates活動写真. Actualфильм fits that qualifiedhistorical writtenprompt; baselinebody already preserves the olderuse. No claimthat modernordinary写真meansmovie.",
+   "right": "写真",
+   "rightActualCaption": "фотография",
+   "status": "PROPOSED; actualindependentassessmentPENDING"
+  },
+  {
+   "completeOfficialEntrySenseEvidence": [
+    "1100760:2",
+    "1419270:1"
+   ],
+   "left": "パーティー",
+   "leftActualCaption": "вечеринка; праздничная встреча",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "1100760sense2 explicitly names an activitygroup, e.g.climbing; actualгруппа;организация leavesгруппа unqualified and1419270 supports a travellingcollective. Directqualifiedactivitygroup overlap, not celebration=organization.",
+   "right": "団体",
+   "rightActualCaption": "группа; организация",
+   "status": "PROPOSED; actualindependentassessmentPENDING"
+  },
+  {
+   "citationErratum": "Original1397450:1 wasclassofstudents; actualpeople-group/party/team/crew is1397450:2. Runtimeguardunchanged.",
+   "completeOfficialEntrySenseEvidence": [
+    "1100760:2",
+    "1397450:2"
+   ],
+   "left": "パーティー",
+   "leftActualCaption": "вечеринка; праздничная встреча",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Independently activityparty1100760sense2 canfit actualгруппа withinгруппа;комплект;1397450 has people-group sense. Not inferredvia団体 andnot an assertionthat every組isaparty.",
+   "right": "組",
+   "rightActualCaption": "группа; комплект",
+   "status": "PROPOSED; actualindependentassessmentPENDING"
+  },
+  {
+   "completeOfficialEntrySenseEvidence": [
+    "1381820:2",
+    "1013050:1"
+   ],
+   "left": "静か",
+   "leftActualCaption": "тихий; спокойный",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "1381820sense2 slow/unhurried canfit actualмедленно;неспеша in a manner-of-actioncontext using静かに;1013050 independently supplies the unhurriedmeaning. Do not equate quietspeech with slowspeech or teach adjective/adverb interchangeability.",
+   "right": "ゆっくり",
+   "rightActualCaption": "медленно; не спеша",
+   "status": "PROPOSED; actualindependentassessmentPENDING"
+  },
+  {
+   "completeOfficialEntrySenseEvidence": [
+    "1381820:2",
+    "1421970:1"
+   ],
+   "left": "静か",
+   "leftActualCaption": "тихий; спокойный",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Independently1381820sense2 slow/unhurried canfit actualмедленный withinпоздний;медленный,1421970sense1. Not late-time sense andnot inferredviaゆっくり; quietness isnot automatically slowness.",
+   "right": "遅い",
+   "rightActualCaption": "поздний; медленный",
+   "status": "PROPOSED; actualindependentassessmentPENDING"
+  },
+  {
+   "completeOfficialEntrySenseEvidence": [
+    "1381820:3",
+    "1153890:1"
+   ],
+   "left": "静か",
+   "leftActualCaption": "тихий; спокойный",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "1381820sense3 calm/peaceful and1153890peaceofmind support only a qualified mentalcalm intersection withactualспокойствие;облегчение. Do not equate physicalsilence with relief/safety, assume noun/adjective freeconversion, or assert whole-sense synonymy.",
+   "right": "安心",
+   "rightActualCaption": "спокойствие; облегчение",
+   "status": "PROPOSED; actualindependentassessmentPENDING"
+  },
+  {
+   "completeOfficialEntrySenseEvidence": [
+    "1173720:1"
+   ],
+   "left": "映画",
+   "leftActualCaption": "фильм",
+   "ordinaryModernNecessityFrequency": "DirectactualRussianpolysemy, not quantitativefrequencyclaim",
+   "proposedBoundary": "direct displayed Russian homograph",
+   "rationale": "Actualрисунок;картина leavesкартина unqualified; its independentlyverified Russiancolloquialfilm sense fits written映画. This isRussianpolysemy, notEnglishpicture oruniversalJapanese絵=movie.",
+   "right": "絵",
+   "rightActualCaption": "рисунок; картина",
+   "russianNamedDictionaryEvidence": {
+    "actualPublicReturnedEventId": "2420ab41-de16-44d8-af8b-6cdceee16f90",
+    "actualReturnedTextUtf8Sha256": "900fadd7b22ca8108924f12649745b63eab49605087872bcb8d45c47200621e2",
+    "hashDomain": "Actualpublicweb_fetch convertedMarkdown text, not originalHTTP/HTML bytes",
+    "primaryEntryUtf8Sha256": "b5df0da4538f5186be5b3f58fea99fc50b952bb6233f3d4cf2eef9f8a353d9f7",
+    "qualification": "разг.",
+    "sense": 2,
+    "source": "Толковый словарь Ожегова и Шведовой",
+    "url": "https://gufo.me/dict/ozhegov/картина",
+    "word": "картина"
+   },
+   "status": "Actualwholefinding adjudicatedforimplementation; correctedimplementation focusedreviewPENDING"
+  },
+  {
+   "completeOfficialEntrySenseEvidence": [
+    "1173720:1",
+    "1078750:1"
+   ],
+   "left": "映画",
+   "leftActualCaption": "фильм",
+   "ordinaryModernNecessityFrequency": "DirectactualRussianpolysemy, not quantitativefrequencyclaim",
+   "proposedBoundary": "direct displayed Russian homograph",
+   "rationale": "Actualлента;клейкаялента leavesлента unqualified; its verifiedRussianfilm-work sense fits映画. The secondalternative doesnot narrow thefirst. No Japaneseテープ=映画 ortransitivepicture/materialclique.",
+   "right": "テープ",
+   "rightActualCaption": "лента; клейкая лента",
+   "russianNamedDictionaryEvidence": {
+    "actualPublicReturnedEventId": "db80c218-605a-4937-8ec1-b69ded822a79",
+    "actualReturnedTextUtf8Sha256": "3c3cff89028bd9343e5064c7a55b2f83fe69722eab7755f13752db4366d9d801",
+    "hashDomain": "Actualpublicweb_fetch convertedMarkdown text, not originalHTTP/HTML bytes",
+    "primaryEntryUtf8Sha256": "95bf0d40339cc0e23887b71a6922a7a39858b8a62bc1962f3e8307b56eb02990",
+    "qualification": "No frequencyinferred",
+    "sense": 3,
+    "source": "Толковый словарь Ожегова и Шведовой",
+    "url": "https://gufo.me/dict/ozhegov/лента",
+    "word": "лента"
+   },
+   "status": "Actualwholefinding adjudicatedforimplementation; correctedimplementation focusedreviewPENDING"
+  },
+  {
+   "completeOfficialEntrySenseEvidence": [
+    "1202270:1",
+    "1302980:2"
+   ],
+   "left": "絵",
+   "leftActualCaption": "рисунок; картина",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED;unasserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1302980sense2 explicitlylandscapepicture, restrictedさんすい andabbreviating山水画; actualрисунок;картина fits that picturecontext. Not allnatural scenery=drawnart orqualification-freeeveryreading claim.",
+   "right": "山水",
+   "rightActualCaption": "пейзаж гор и воды",
+   "status": "Actualwholefinding adjudicatedforimplementation; correctedimplementation focusedreviewPENDING"
+  },
+  {
+   "completeOfficialEntrySenseEvidence": [
+    "1109380:1"
+   ],
+   "left": "映画",
+   "leftActualCaption": "фильм",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED;unasserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "DistinctRussianhistoricaltechnicalфильм meansphotosensitivecinematographicfilm, fitting a physicalフィルムcontext. Bothустар./спец. retained. This isdifferent evidencefromEnglishfilm alone, notmodernmovie/photo-material synonymy.",
+   "right": "フィルム",
+   "rightActualCaption": "фотоплёнка",
+   "russianNamedDictionaryEvidence": {
+    "actualPublicReturnedEventId": "6a902246-3735-4d28-b55d-29b1c5fd1226",
+    "actualReturnedTextUtf8Sha256": "ec0cb4140c1e2b388cc11fe9257f49bb7f0826f3c3bd46c556426163c1136882",
+    "hashDomain": "Actualpublicweb_fetch convertedMarkdown text, not originalHTTP/HTML bytes",
+    "primaryEntryUtf8Sha256": "753cb0b0f89e649ea42d755a7a749dacc6372f409e58ed44a357a7c954ff8e9c",
+    "qualification": "устар.;спец.;notordinarymodern",
+    "sense": 1,
+    "source": "Толковый словарь Ожегова и Шведовой",
+    "url": "https://gufo.me/dict/ozhegov/фильм",
+    "word": "фильм"
+   },
+   "status": "Actualwholefinding adjudicatedforimplementation; correctedimplementation focusedreviewPENDING"
+  }
+ ],
+ "requiredAdditionalDirectProposals": [
+  {
+   "completeOfficialEntrySenseEvidence": [
+    "1173720:1"
+   ],
+   "left": "映画",
+   "leftActualCaption": "фильм",
+   "ordinaryModernNecessityFrequency": "DirectactualRussianpolysemy, not quantitativefrequencyclaim",
+   "proposedBoundary": "direct displayed Russian homograph",
+   "rationale": "Actualрисунок;картина leavesкартина unqualified; its independentlyverified Russiancolloquialfilm sense fits written映画. This isRussianpolysemy, notEnglishpicture oruniversalJapanese絵=movie.",
+   "right": "絵",
+   "rightActualCaption": "рисунок; картина",
+   "russianNamedDictionaryEvidence": {
+    "actualPublicReturnedEventId": "2420ab41-de16-44d8-af8b-6cdceee16f90",
+    "actualReturnedTextUtf8Sha256": "900fadd7b22ca8108924f12649745b63eab49605087872bcb8d45c47200621e2",
+    "hashDomain": "Actualpublicweb_fetch convertedMarkdown text, not originalHTTP/HTML bytes",
+    "primaryEntryUtf8Sha256": "b5df0da4538f5186be5b3f58fea99fc50b952bb6233f3d4cf2eef9f8a353d9f7",
+    "qualification": "разг.",
+    "sense": 2,
+    "source": "Толковый словарь Ожегова и Шведовой",
+    "url": "https://gufo.me/dict/ozhegov/картина",
+    "word": "картина"
+   },
+   "status": "Actualwholefinding adjudicatedforimplementation; correctedimplementation focusedreviewPENDING"
+  },
+  {
+   "completeOfficialEntrySenseEvidence": [
+    "1173720:1",
+    "1078750:1"
+   ],
+   "left": "映画",
+   "leftActualCaption": "фильм",
+   "ordinaryModernNecessityFrequency": "DirectactualRussianpolysemy, not quantitativefrequencyclaim",
+   "proposedBoundary": "direct displayed Russian homograph",
+   "rationale": "Actualлента;клейкаялента leavesлента unqualified; its verifiedRussianfilm-work sense fits映画. The secondalternative doesnot narrow thefirst. No Japaneseテープ=映画 ortransitivepicture/materialclique.",
+   "right": "テープ",
+   "rightActualCaption": "лента; клейкая лента",
+   "russianNamedDictionaryEvidence": {
+    "actualPublicReturnedEventId": "db80c218-605a-4937-8ec1-b69ded822a79",
+    "actualReturnedTextUtf8Sha256": "3c3cff89028bd9343e5064c7a55b2f83fe69722eab7755f13752db4366d9d801",
+    "hashDomain": "Actualpublicweb_fetch convertedMarkdown text, not originalHTTP/HTML bytes",
+    "primaryEntryUtf8Sha256": "95bf0d40339cc0e23887b71a6922a7a39858b8a62bc1962f3e8307b56eb02990",
+    "qualification": "No frequencyinferred",
+    "sense": 3,
+    "source": "Толковый словарь Ожегова и Шведовой",
+    "url": "https://gufo.me/dict/ozhegov/лента",
+    "word": "лента"
+   },
+   "status": "Actualwholefinding adjudicatedforimplementation; correctedimplementation focusedreviewPENDING"
+  },
+  {
+   "completeOfficialEntrySenseEvidence": [
+    "1202270:1",
+    "1302980:2"
+   ],
+   "left": "絵",
+   "leftActualCaption": "рисунок; картина",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED;unasserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1302980sense2 explicitlylandscapepicture, restrictedさんすい andabbreviating山水画; actualрисунок;картина fits that picturecontext. Not allnatural scenery=drawnart orqualification-freeeveryreading claim.",
+   "right": "山水",
+   "rightActualCaption": "пейзаж гор и воды",
+   "status": "Actualwholefinding adjudicatedforimplementation; correctedimplementation focusedreviewPENDING"
+  },
+  {
+   "completeOfficialEntrySenseEvidence": [
+    "1109380:1"
+   ],
+   "left": "映画",
+   "leftActualCaption": "фильм",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED;unasserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "DistinctRussianhistoricaltechnicalфильм meansphotosensitivecinematographicfilm, fitting a physicalフィルムcontext. Bothустар./спец. retained. This isdifferent evidencefromEnglishfilm alone, notmodernmovie/photo-material synonymy.",
+   "right": "フィルム",
+   "rightActualCaption": "фотоплёнка",
+   "russianNamedDictionaryEvidence": {
+    "actualPublicReturnedEventId": "6a902246-3735-4d28-b55d-29b1c5fd1226",
+    "actualReturnedTextUtf8Sha256": "ec0cb4140c1e2b388cc11fe9257f49bb7f0826f3c3bd46c556426163c1136882",
+    "hashDomain": "Actualpublicweb_fetch convertedMarkdown text, not originalHTTP/HTML bytes",
+    "primaryEntryUtf8Sha256": "753cb0b0f89e649ea42d755a7a749dacc6372f409e58ed44a357a7c954ff8e9c",
+    "qualification": "устар.;спец.;notordinarymodern",
+    "sense": 1,
+    "source": "Толковый словарь Ожегова и Шведовой",
+    "url": "https://gufo.me/dict/ozhegov/фильм",
+    "word": "фильм"
+   },
+   "status": "Actualwholefinding adjudicatedforimplementation; correctedimplementation focusedreviewPENDING"
+  }
+ ],
+ "reviewStatus": "PENDING genuinefocusedC2/newmethod/forwarderratum review",
+ "russianDictionaryPrivateEvidenceFile": "ru-044-russian-dictionary-public-evidence-001.json",
+ "russianDictionaryPrivateEvidenceRawSha256": "ea45c137b3f57da60235cc51e052bcf0162ba13b0efe3329b55a77a66d9841a1",
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "sourceReferenceErratum": {
+  "affectedJsonFields": [
+   "proposedDirectQuizPairs",
+   "directProposals",
+   "newProposedDirectPairs"
+  ],
+  "currentCorrect": "1397450:2",
+  "forwardCurrentEvidence": "Thiserratum andproposedFinalDirectPairs supersede wrongsensecitation, not historicalreviewstatus orruntimecontent.",
+  "historicallyWrong": "1397450:1",
+  "immutableHistoricalPathsPreserved": [
+   "docs/translation-batches/044-arts-music-media-source-adjudication.json",
+   "docs/translation-batches/044-arts-music-media-authoring-freeze.json",
+   "docs/translation-batches/044-arts-music-media-candidate.json"
+  ],
+  "pair": [
+   "パーティー",
+   "組"
+  ],
+  "reason": "Fullobject differentiates classofstudents sense1 fromgroupofpeople/party/team/crew sense2."
+ }
+}
