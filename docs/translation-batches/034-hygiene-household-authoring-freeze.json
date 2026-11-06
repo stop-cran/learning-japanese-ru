@@ -1,0 +1,567 @@
+{
+ "actualCompletedReading": {
+  "actualAdditionalHtmlRequests": 8,
+  "actualCompactBaselineAnswerRows": 639,
+  "actualJishoRequests": 24,
+  "boundary": "12 full English primary units/18 unchanged full bilingual contexts/639 compact baseline rows/33 selected lexical rows/nine selected ranges from eight pages. No new Russian full body, independent034 review, whole-corpus/native/device approval yet.",
+  "completeCandidateQueryObjectRows": 33,
+  "completeContextualEnglishRussianPairs": 18,
+  "completeFrozenPrimaryEnglishBodies": 12,
+  "lexicalReadingIndexBoundary": "Primary lexical indices are20 queries/28 selected rows; actual successful final18–20 query range completes them. Two earlier out-of-bounds requests displayed nothing and are not readings. Additional4queries/5rows all actually read.",
+  "primarySourceGitRawBytes": 17589,
+  "primarySourceLines": 425,
+  "selectedHtmlReadingRanges": 9
+ },
+ "adjudication": "docs/translation-batches/034-hygiene-household-source-adjudication.json",
+ "appFollowup": {
+  "actualExactGitBlobPrivateFile": "ru-032-pinned-app-WordQuizScreen-5c000bd.kt",
+  "actualFreshMappingReadingRange": [
+   165,
+   215
+  ],
+  "disposition": "Preserve canonical source IDs; app follow-up only; no concurrent app edit/build.",
+  "exactPinnedAppCommit": "5c000bd5596d2189ef878da572687bd01ab3bb5f",
+  "newlyExposedIdsWithoutExplicitMappingAtThisPin": [
+   "facilities"
+  ],
+  "observation": "The actually inspected complete localizedWordPromptTag mapping has no explicit facilities case and falls back raw at THIS PIN ONLY. No claim about concurrent dirty current app or device rendering.",
+  "rawSha256": "530ff7e5d6da2829bc08ff57c6356162af04b0ab84598cb7c19127217f71c08c"
+ },
+ "assets": [],
+ "baselineContentVersion": "8a1515166740e2bd",
+ "baselineRuntimeChangesAuthorizedByThisFreeze": [],
+ "baselineRuntimeCount": 951,
+ "batchId": "034-hygiene-household",
+ "directGuardsToAuthorForReview": [
+  {
+   "directReason": "Retain the explicit frozen-source negative pair. Both actual proposed Russian labels are ванна; exact-string deduplication does not authorize deleting a source safeguard.",
+   "from": "お風呂",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "風呂"
+  },
+  {
+   "directReason": "The actual completeバス-1 bath-noun object, not the unrelated place-nameBath in the bus object, admits the actual new ванна caption. Preserve the unchanged accepted bus lesson and its existing guards.",
+   "from": "お風呂",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "バス"
+  },
+  {
+   "directReason": "The same independently inspected genuine bath-noun homograph directly overlaps this separate new風呂 bath/bathtub lesson and its actual planned ванна caption, not transitively viaお風呂.",
+   "from": "風呂",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "バス"
+  },
+  {
+   "directReason": "Both source meanings are ordinary toilet/restroom facilities. Actual new уборная and туалет(помещениеилиунитаз) overlap despite distinct strings; not a bathing-room equivalence.",
+   "from": "お手洗い",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "トイレ"
+  },
+  {
+   "directReason": "Actual source洗う includes washing clothes and actual planned label мыть; стирать. The primary laundry sense of洗濯 is explicitly noun/suru/transitive, so стирать is defensible for that activity. Not a general cleaning-family clique.",
+   "from": "洗う",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "洗濯"
+  },
+  {
+   "directReason": "Actual complete exact-written歯 objects separately recordよわい/し age; actual unchanged年 caption is год; возраст. The captured齢 HTML independently lists歯【よわい】. No API-commonness frequency inference, new primary reading or N5 age lesson is authorized.",
+   "from": "歯",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "年"
+  },
+  {
+   "directReason": "Named modernデジタル大辞泉 noun(suru) sense2 explicitly includes leaving daily work for refreshment/healing bodily fatigue;精選版日本国語大辞典② explicitly allowsする. This directly meets actual unchanged отдыхать in休む. Not an inference that every API noun-only sense permitsする, nor a claim that ordinary laundry means resting.",
+   "from": "洗濯",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "休む"
+  }
+ ],
+ "explicitReviewQuestions": [
+  "Independently read all12 full source/Russian pairs and compare actual651 candidate captions with the whole actual639-row baseline. Adjudicate all7 proposed DIRECT pairs, including each bath–バス edge, exact-written歯 age and modern named-source洗濯休む evidence. Do not equate distinct strings with semantic safety.",
+  "Decide洗濯–遊ぶ DIRECTLY from actual refreshment/relaxation senses versus actual играть; развлекаться caption. Do not infer the edge transitively from existing遊ぶ休む and proposed洗濯休む. No洗濯遊ぶ edge is authorized by this freeze.",
+  "Decide磨く–練習 from actual meanings and both actual captions: полировать; чиститьзубы versus практика; тренировка; упражнение. API磨く has refine/improve/hone/polish/cultivate, NOT a train gloss. Goal, instrument, practice and improvement are not automatically identical. No such edge authored here.",
+  "Inspect actual washing/laundry/cleaning/polishing family against captions мыть; стирать / стирка / уборка / полировать; чиститьзубы. Apart from explicitly supported洗う洗濯, do not automatically clique related activities or silently broaden уборка into an unqualified чистка label. Report any independently justified additional direct overlap.",
+  "Check naturalness and honest scope of туалет(помещениеилиунитаз) and мыло(моющеесредство). Actual Russian dictionaries attest outfit/camera/email senses, but the explicit intended-meaning qualifiers exclude those Russian-only homonyms without deleting any source Japanese toilet/soap teaching. No automatic clothing/camera/photo/letter guards; actual sourceトイレ object has no clothing sense, and an idiom/related long form is not automatically a bare-lemma sense.",
+  "Checkあびる/シャワー action versus noun/facility without substring matching. Actual primaryシャワー object is noun-only, not evidence for a newする verb; preserve all source spelling/receiver/を teaching. Do not infer a reciprocal noun/verb translation just because Russian contains душ."
+ ],
+ "frozenSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "grammarVocabularyContexts": [],
+ "intakeCommit": "305eddf104a1de3224b78322c443f174f4282d6b",
+ "mandatoryNewKanjiProviders": [],
+ "newWords": [
+  {
+   "map": "files",
+   "path": "words/あびる.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "6a260e5f685efdbc3cfe37537d780653ab232038d4929190b6bff209bdebf275",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "あびる",
+    "tags": [
+     "wago",
+     "verb",
+     "daily-life"
+    ],
+    "title": "to shower; to bathe in",
+    "type": "wago",
+    "word": "あびる"
+   },
+   "sourceNormalizedLfSha256": "6a260e5f685efdbc3cfe37537d780653ab232038d4929190b6bff209bdebf275",
+   "sourceWorkingRawSha256": "6a260e5f685efdbc3cfe37537d780653ab232038d4929190b6bff209bdebf275",
+   "word": "あびる"
+  },
+  {
+   "map": "files",
+   "path": "words/シャワー.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "cc7d7624a787d757ff851df536ebad30545d1f99842011342d283962f303078a",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "シャワー",
+    "tags": [
+     "noun",
+     "daily-life"
+    ],
+    "title": "shower",
+    "type": "gairaigo",
+    "word": "シャワー"
+   },
+   "sourceNormalizedLfSha256": "cc7d7624a787d757ff851df536ebad30545d1f99842011342d283962f303078a",
+   "sourceWorkingRawSha256": "cc7d7624a787d757ff851df536ebad30545d1f99842011342d283962f303078a",
+   "word": "シャワー"
+  },
+  {
+   "map": "files",
+   "path": "words/お風呂.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "f4f750c4051cd553cbbe58e46261e6dce6a3db8ef3977a020e420070286c5efd",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "風",
+     "呂"
+    ],
+    "quiz_exclusions": [
+     "風呂"
+    ],
+    "reading": "おふろ",
+    "tags": [
+     "noun",
+     "daily-life"
+    ],
+    "title": "bath",
+    "type": "wago",
+    "word": "お風呂"
+   },
+   "sourceNormalizedLfSha256": "f4f750c4051cd553cbbe58e46261e6dce6a3db8ef3977a020e420070286c5efd",
+   "sourceWorkingRawSha256": "f4f750c4051cd553cbbe58e46261e6dce6a3db8ef3977a020e420070286c5efd",
+   "word": "お風呂"
+  },
+  {
+   "map": "files",
+   "path": "words/風呂.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "75796694588a83b5e71ec242480d2b07ac240020ceabfd3e9171a1d5e714b52f",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "風",
+     "呂"
+    ],
+    "reading": "ふろ",
+    "tags": [
+     "wago",
+     "noun",
+     "home"
+    ],
+    "title": "bath; bathtub",
+    "type": "wago",
+    "word": "風呂"
+   },
+   "sourceNormalizedLfSha256": "75796694588a83b5e71ec242480d2b07ac240020ceabfd3e9171a1d5e714b52f",
+   "sourceWorkingRawSha256": "75796694588a83b5e71ec242480d2b07ac240020ceabfd3e9171a1d5e714b52f",
+   "word": "風呂"
+  },
+  {
+   "map": "files",
+   "path": "words/お手洗い.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "06c4bdb57fd6f79149276280f65e6dedf98a6f03220b8e765c481b64484bb418",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "手",
+     "洗"
+    ],
+    "reading": "おてあらい",
+    "tags": [
+     "noun",
+     "wago",
+     "facilities"
+    ],
+    "title": "restroom",
+    "type": "wago",
+    "word": "お手洗い"
+   },
+   "sourceNormalizedLfSha256": "06c4bdb57fd6f79149276280f65e6dedf98a6f03220b8e765c481b64484bb418",
+   "sourceWorkingRawSha256": "06c4bdb57fd6f79149276280f65e6dedf98a6f03220b8e765c481b64484bb418",
+   "word": "お手洗い"
+  },
+  {
+   "map": "files",
+   "path": "words/トイレ.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "0c68d1215595eea01bc8ea88f754c554d963f0d355fe91b8006a64071159757f",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "トイレ",
+    "tags": [
+     "gairaigo",
+     "noun",
+     "place",
+     "daily-life"
+    ],
+    "title": "toilet; restroom",
+    "type": "gairaigo",
+    "word": "トイレ"
+   },
+   "sourceNormalizedLfSha256": "0c68d1215595eea01bc8ea88f754c554d963f0d355fe91b8006a64071159757f",
+   "sourceWorkingRawSha256": "0c68d1215595eea01bc8ea88f754c554d963f0d355fe91b8006a64071159757f",
+   "word": "トイレ"
+  },
+  {
+   "map": "files",
+   "path": "words/せっけん.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "6a81b8e4f7977d8adfdc6982bf6141592f0086a318c291d4a705d0f781b73a81",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "せっけん",
+    "tags": [
+     "noun",
+     "daily-life"
+    ],
+    "title": "soap",
+    "type": "kango",
+    "word": "せっけん"
+   },
+   "sourceNormalizedLfSha256": "6a81b8e4f7977d8adfdc6982bf6141592f0086a318c291d4a705d0f781b73a81",
+   "sourceWorkingRawSha256": "6a81b8e4f7977d8adfdc6982bf6141592f0086a318c291d4a705d0f781b73a81",
+   "word": "せっけん"
+  },
+  {
+   "map": "files",
+   "path": "words/洗う.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "c11295c5042eeb962bcca131ea3054d02f3c9879d36052aa5307ee57429538cd",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "洗"
+    ],
+    "reading": "あらう",
+    "tags": [
+     "wago",
+     "daily-life"
+    ],
+    "title": "wash",
+    "type": "wago",
+    "word": "洗う"
+   },
+   "sourceNormalizedLfSha256": "c11295c5042eeb962bcca131ea3054d02f3c9879d36052aa5307ee57429538cd",
+   "sourceWorkingRawSha256": "c11295c5042eeb962bcca131ea3054d02f3c9879d36052aa5307ee57429538cd",
+   "word": "洗う"
+  },
+  {
+   "map": "files",
+   "path": "words/洗濯.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "01667defbdfcf7beddfe4ccba751efc0b96bfe8467b5d37a539cbaa5f62db1ff",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "洗",
+     "濯"
+    ],
+    "reading": "せんたく",
+    "tags": [
+     "kango",
+     "noun",
+     "verb",
+     "household"
+    ],
+    "title": "laundry; washing clothes",
+    "type": "kango",
+    "word": "洗濯"
+   },
+   "sourceNormalizedLfSha256": "01667defbdfcf7beddfe4ccba751efc0b96bfe8467b5d37a539cbaa5f62db1ff",
+   "sourceWorkingRawSha256": "01667defbdfcf7beddfe4ccba751efc0b96bfe8467b5d37a539cbaa5f62db1ff",
+   "word": "洗濯"
+  },
+  {
+   "map": "files",
+   "path": "words/掃除.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "0a59cb2669b04bff4eeb07b73cb74f3147fdc1a020665d2ba0f482d487748735",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "掃",
+     "除"
+    ],
+    "reading": "そうじ",
+    "tags": [
+     "kango",
+     "noun",
+     "verb",
+     "household"
+    ],
+    "title": "cleaning",
+    "type": "kango",
+    "word": "掃除"
+   },
+   "sourceNormalizedLfSha256": "0a59cb2669b04bff4eeb07b73cb74f3147fdc1a020665d2ba0f482d487748735",
+   "sourceWorkingRawSha256": "0a59cb2669b04bff4eeb07b73cb74f3147fdc1a020665d2ba0f482d487748735",
+   "word": "掃除"
+  },
+  {
+   "map": "files",
+   "path": "words/歯.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "7858c80c2b01072d04899b9abd9567ad24529445f7206e32fb0e92124f2ded31",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "歯"
+    ],
+    "reading": "は",
+    "tags": [
+     "wago",
+     "body"
+    ],
+    "title": "tooth; teeth",
+    "type": "wago",
+    "word": "歯"
+   },
+   "sourceNormalizedLfSha256": "7858c80c2b01072d04899b9abd9567ad24529445f7206e32fb0e92124f2ded31",
+   "sourceWorkingRawSha256": "7858c80c2b01072d04899b9abd9567ad24529445f7206e32fb0e92124f2ded31",
+   "word": "歯"
+  },
+  {
+   "map": "files",
+   "path": "words/磨く.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "34de15d6df2746c006f68bc302e0ac24176ea0960b6fe34852ece45789190c08",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "磨"
+    ],
+    "reading": "みがく",
+    "tags": [
+     "wago",
+     "verb",
+     "transitive",
+     "daily-life"
+    ],
+    "title": "polish; brush teeth",
+    "type": "wago",
+    "word": "磨く"
+   },
+   "sourceNormalizedLfSha256": "34de15d6df2746c006f68bc302e0ac24176ea0960b6fe34852ece45789190c08",
+   "sourceWorkingRawSha256": "34de15d6df2746c006f68bc302e0ac24176ea0960b6fe34852ece45789190c08",
+   "word": "磨く"
+  }
+ ],
+ "phase": "Pre-authoring semantic freeze; new Russian semantics NOT accepted",
+ "plannedN5WordsAfterAcceptance": 464,
+ "plannedRemainingFrozenN5Words": 208,
+ "plannedRuntimeAfterAcceptance": 963,
+ "plannedWordCountAfterAcceptance": 651,
+ "proposedRussianTitles": {
+  "あびる": "принимать душ; обливаться",
+  "お手洗い": "уборная",
+  "お風呂": "ванна",
+  "せっけん": "мыло (моющее средство)",
+  "シャワー": "душ",
+  "トイレ": "туалет (помещение или унитаз)",
+  "掃除": "уборка",
+  "歯": "зуб; зубы",
+  "洗う": "мыть; стирать",
+  "洗濯": "стирка",
+  "磨く": "полировать; чистить зубы",
+  "風呂": "ванна"
+ },
+ "protectedUnverifiedDrafts": [
+  {
+   "coverage": "complete authored text",
+   "draftPath": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+   "facets": {
+    "C1": "CLEAN historicalwholebody",
+    "C2": "UNVERIFIED",
+    "C3": "CLEAN historicalwholebody"
+   },
+   "openQuestions": [
+    [
+     "空",
+     "遠く"
+    ],
+    [
+     "空",
+     "遠い"
+    ]
+   ],
+   "path": "words/空.md",
+   "progressBoundary": "Not accepted; remains inside fullreportpending, separate from2reviewed-runtime-blocked media drafts. Existingprogresshelper need not mislabel it as accepted or stale reviewed content.",
+   "reviewEvidence": [
+    "docs/translation-batches/033-nature-outdoor-activity-independent-review.json",
+    "docs/translation-batches/033-nature-outdoor-activity-independent-review-001.json",
+    "docs/translation-batches/033-nature-outdoor-activity-independent-review-002.json",
+    "docs/translation-batches/033-nature-outdoor-activity-independent-review-003.json",
+    "docs/translation-batches/033-nature-outdoor-activity-source-adjudication.json",
+    "docs/translation-batches/033-nature-outdoor-activity-authoring-freeze.json",
+    "docs/translation-batches/033-nature-outdoor-activity-review-resolution-freeze.json",
+    "docs/translation-batches/033-nature-outdoor-activity-corrected-candidate.json"
+   ],
+   "reviewStatus": "unverified",
+   "ruGitRawSha256": "7c1084763f6229793b540ee6c501d9177513eb4fb23c2e27619eb16cb607a495",
+   "ruRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+   "ruSha256": "7c1084763f6229793b540ee6c501d9177513eb4fb23c2e27619eb16cb607a495",
+   "runtimeAcceptance": "blocked-by-evidenced-linguistic-uncertainty",
+   "runtimeAuthority": null,
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "0a7cad8579556ca7089666e53bf49e2be12eed2c4d0a93d3f55c020eae63b3e6",
+   "sourceSha256": "0a7cad8579556ca7089666e53bf49e2be12eed2c4d0a93d3f55c020eae63b3e6",
+   "targetObjectRemainsPending": true
+  }
+ ],
+ "releaseBoundary": "Source authoring only; frozen6af98cb and four protected refs stay fixed. No app/ordinaryEN edit, paidgeneration/mediaapproval, device/IME/playback/C6/C7/defaultactivation/release/humancheckpoint authority.",
+ "requiredSourceNegativeEdges": [
+  {
+   "field": "quiz_exclusions",
+   "from": "お風呂",
+   "to": "風呂"
+  }
+ ],
+ "reviewStatus": "PENDING; actual independent three-facet whole-batch reading required",
+ "russianBaselineCommit": "a48cf8d37707ceb1eded84188cd1a428b4d7ed5b",
+ "schemaVersion": 1,
+ "sourceLinkDispositions": [
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/あびる.md",
+   "label": "浴",
+   "resolvedTarget": "kanji/浴.md",
+   "sourceTarget": "../kanji/浴.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/あびる.md",
+   "label": "風呂",
+   "resolvedTarget": "words/風呂.md",
+   "sourceTarget": "風呂.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/あびる.md",
+   "label": "洗う",
+   "resolvedTarget": "words/洗う.md",
+   "sourceTarget": "洗う.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/お風呂.md",
+   "label": "風",
+   "resolvedTarget": "kanji/風.md",
+   "sourceTarget": "../kanji/風.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/お風呂.md",
+   "label": "あびる",
+   "resolvedTarget": "words/あびる.md",
+   "sourceTarget": "あびる.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/風呂.md",
+   "label": "風",
+   "resolvedTarget": "kanji/風.md",
+   "sourceTarget": "../kanji/風.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/お手洗い.md",
+   "label": "手",
+   "resolvedTarget": "kanji/手.md",
+   "sourceTarget": "../kanji/手.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/お手洗い.md",
+   "label": "洗",
+   "resolvedTarget": "kanji/洗.md",
+   "sourceTarget": "../kanji/洗.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/せっけん.md",
+   "label": "洗剤",
+   "resolvedTarget": "words/洗剤.md",
+   "sourceTarget": "洗剤.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/洗う.md",
+   "label": "洗",
+   "resolvedTarget": "kanji/洗.md",
+   "sourceTarget": "../kanji/洗.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/洗濯.md",
+   "label": "洗",
+   "resolvedTarget": "kanji/洗.md",
+   "sourceTarget": "../kanji/洗.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/洗濯.md",
+   "label": "濯",
+   "resolvedTarget": "kanji/濯.md",
+   "sourceTarget": "../kanji/濯.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/掃除.md",
+   "label": "掃",
+   "resolvedTarget": "kanji/掃.md",
+   "sourceTarget": "../kanji/掃.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/掃除.md",
+   "label": "除",
+   "resolvedTarget": "kanji/除.md",
+   "sourceTarget": "../kanji/除.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/歯.md",
+   "label": "歯",
+   "resolvedTarget": "kanji/歯.md",
+   "sourceTarget": "../kanji/歯.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/磨く.md",
+   "label": "磨",
+   "resolvedTarget": "kanji/磨.md",
+   "sourceTarget": "../kanji/磨.md"
+  }
+ ]
+}
