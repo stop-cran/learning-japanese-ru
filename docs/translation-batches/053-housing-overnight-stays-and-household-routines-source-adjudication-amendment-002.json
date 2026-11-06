@@ -1,0 +1,181 @@
+{
+ "actualAuthorAdditionalReadReceipts": {
+  "RETURNED053 objects 208 209": {
+   "actualReturnedContentUtf8Bytes": 510,
+   "actualReturnedContentUtf8Sha256": "84a85b9cfc1f3c1b337a77b0e81f6c5e040a560a47c44f5b4a8ffd25755cc264",
+   "agentId": "82d8c565-bf98-4bd7-815d-8c0b8369e79a",
+   "eventId": "a75fd610-ffbd-41f1-8ed3-573bdf222cf6",
+   "journalRecordExcludingLfSha256": "86eec90a3ad3fd8336968e10b9fdd4a64f7543542bbf995a12e906cb99ccbd32"
+  },
+  "RETURNED053 pairs 65 66": {
+   "actualReturnedContentUtf8Bytes": 3443,
+   "actualReturnedContentUtf8Sha256": "4e27fd0e08c36559193a3ee537db29e86d69c387ceba7848af35f75960a4435b",
+   "agentId": "82d8c565-bf98-4bd7-815d-8c0b8369e79a",
+   "eventId": "19bd3410-92c0-4ab5-89b4-c9567e06552f",
+   "journalRecordExcludingLfSha256": "75e5ff005c3f43937a962b2f2453e10814d3c80c26bc69d81f07f20adccc4dae"
+  }
+ },
+ "actualOriginalReport": "docs/translation-batches/053-housing-overnight-stays-and-household-routines-independent-review-001.json",
+ "actualOriginalReportUtf8Bytes": 10817,
+ "actualOriginalReportUtf8Sha256": "cd73d350057a3edfa2d87aa1d7d7ba662f23b966132c5f9ee20bc42da36b4459",
+ "actualOriginalVerdicts": {
+  "C1": {
+   "confidence": "high within read scope",
+   "judgment": "Full bilingual comparison found readings, grammar, examples and source metadata preserved. Mixed 二階建て/kango and 寝坊/wago handled without false all-kun claims; 起す index retained with 起こす explained; ごみ/ちり/じん distinguished; いなか whole-word reading preserved. English-only comparisons localized without losing Japanese distinctions.",
+   "status": "NO_ACTIONABLE_DEFECT_FOUND_IN_ASSIGNED_CHANGE_SCOPE"
+  },
+  "C2": {
+   "confidence": "high for missing bath guard and noun/verb withdrawals; medium for Q7/Q35 judgments",
+   "judgment": "Actual48 edges equal the proposals, but four lack adequate current bare-caption/POS support and one independently evidenced bath guard is missing. All1272 accepted runtime Git blobs and corresponding manifest hashes preserved; candidate has exactly20 new word objects, no new media. Eight source wrappers retained,19 optional wrappers unwrapped with facts preserved; no required source-only provider additions.",
+   "status": "CHANGES_REQUIRED"
+  },
+  "C3": {
+   "confidence": "high for textual scope; not native/outcome certification",
+   "judgment": "Complete Russian lessons read separately for naturalness and novice comprehension: explanations, particles, terminology and translated examples are coherent, not English placeholders. No requirement to teach rare guard-only senses as ordinary N4 vocabulary.",
+   "status": "NO_ACTIONABLE_DEFECT_FOUND_IN_ASSIGNED_NEW_RUSSIAN_PROSE"
+  }
+ },
+ "actualReviewScope": {
+  "actualCandidateCaptionReadingRows": 980,
+  "actualLexicalRenderedReturns": 12,
+  "assignedFullTeachingBodies": 201,
+  "assignedOfficialXMLObjects": 208,
+  "bindingChecks": "Complete EN/RU support and comparison bytes checked against final003; all980 current word raw hashes and full parsed metadata equal candidate-pool rows. Caption reading is NOT980 full-body reading.",
+  "contextualCompleteEN_RU_pairs": 65,
+  "exactAssignment": "Entire exact independent-review-prompt-001 read first; seven localized contracts fully; five batch documents selectively; all48 complete proposals.",
+  "extraConsequentialContext": {
+   "EN_words\\お風呂.md_RawSha256": "f4f750c4051cd553cbbe58e46261e6dce6a3db8ef3977a020e420070286c5efd",
+   "RU_words\\お風呂.md_RawSha256": "523913418d75454f0ca8e4642ceeb7fbeefa0bd3a7442d4f10a83188374c64a6",
+   "completeOfficialXMLObjects": 1,
+   "completeTeachingBodies": 2,
+   "entry": "2220600, read completely from the hash-verified cached JMdict archive",
+   "expandedETSerializationSha256": "e0fadf434d833c2e51aaa033c3f0b2b2d445c15a24b1d94b5482cec56b223de0"
+  },
+  "lexicalScope": "All12 actualReturnedPublicContent strings read completely and each UTF8 length/SHA verified:11 Russian returns plus1 Japanese. Complete definitions: неудобный1–3; проспать1–3; заворачивать1–7,8 blank; останавливаться1–5,6 blank; деревняI1–6,not II; дом1–7; открывать1–6. Named Digital Daijisen田舎/でんしゃ entry complete; whole pages not claimed complete.",
+  "primaryEN": 20,
+  "primaryRU": 20,
+  "remainingAssignedUnread": 0,
+  "sourceOnlyCompleteEN": 31
+ },
+ "additionalDirectPairs": [
+  {
+   "actualIndependentEvidence": "docs/translation-batches/053-housing-overnight-stays-and-household-routines-independent-review-001.json",
+   "completeOfficialEntrySenseEvidence": "1448580:2;2220600:1",
+   "independentlyPrescribedFinding": "053-R5",
+   "left": "湯",
+   "leftActualCaption": "горячая вода",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "proposalId": "Q49",
+   "rationale": "Actual independent053-R5 directly establishes湯 hot-bath sense against actualお風呂 bath caption; complete extra EN/RU pair and whole2220600 genuinely read by reviewer and now author, exact hashes/ET serialization agree. Not inference via風呂/バス, not kettle=bathtub.",
+   "right": "お風呂",
+   "rightActualCaption": "ванна"
+  }
+ ],
+ "batchId": "053-housing-overnight-stays-and-household-routines",
+ "boundary": "Original C2 CHANGES_REQUIRED/five open findings immutable. Four unsupported bare caption/POS proposals withdrawn, not claims of impossible Japanese senses/mandatory host. Exact prescribed bath guard added directly, no second review or broader frequency proof.",
+ "checkpointAuthority": null,
+ "continueRequired": true,
+ "exactMetadataRepairs": [
+  {
+   "after": "quiz_exclusions: [建物, 家, アパート]",
+   "before": "quiz_exclusions: [建物, 家, アパート, ビル]",
+   "findings": [
+    "053-R1"
+   ],
+   "path": "words/二階建て.md",
+   "preRepairWorkingRawSha256": "90ea3ca7cf9ad657ec536b8c88208768ec9a9f1ff328dc2996a4081b1691aaaf"
+  },
+  {
+   "after": "quiz_exclusions: [物]",
+   "before": "quiz_exclusions: [物, 忘れる, 無くす]",
+   "findings": [
+    "053-R2",
+    "053-R3"
+   ],
+   "path": "words/忘れ物.md",
+   "preRepairWorkingRawSha256": "9625ade988ee881091645a9d512ae356a79cc637d9c8e24ebb6ddc791e348044"
+  },
+  {
+   "after": "quiz_exclusions: [物]",
+   "before": "quiz_exclusions: [物, 少し]",
+   "findings": [
+    "053-R4"
+   ],
+   "path": "words/塵.md",
+   "preRepairWorkingRawSha256": "d2c5e52141a4a9e11ff613d9c840531476e86a1a1f9ef5947e4e652e2db90e29"
+  },
+  {
+   "after": "quiz_exclusions: [水, 風呂, お風呂]",
+   "before": "quiz_exclusions: [水, 風呂]",
+   "findings": [
+    "053-R5"
+   ],
+   "path": "words/湯.md",
+   "preRepairWorkingRawSha256": "6c4766f0a1775e6c3bcc651a9135b7fee77940d2309941ca5ac08e2f6a115ad5"
+  }
+ ],
+ "finalEvidencePrivateArtifact": "ru-053-final-evidence-bindings-004.json",
+ "finalEvidenceRawSha256": "6d84dc908c91aea3d68a339a60f759561e757f1a73ab4da04dbc42326aabf7d7",
+ "fullTaskComplete": false,
+ "ordinaryActivationAuthorized": false,
+ "original48ProposalsUnchanged": true,
+ "originalCandidateCommit": "10be8fd5acba9ece2e368e63243a0554f2b6e2d0",
+ "phase": "FROZEN after actual original review, BEFORE applying all five prescribed metadata resolutions",
+ "plannedFinalDirectPairs": 45,
+ "retainedOriginallyQualifiedPairs": 44,
+ "retainedProposalIds": [
+  "Q1",
+  "Q2",
+  "Q3",
+  "Q4",
+  "Q5",
+  "Q6",
+  "Q8",
+  "Q9",
+  "Q10",
+  "Q11",
+  "Q12",
+  "Q13",
+  "Q14",
+  "Q15",
+  "Q16",
+  "Q17",
+  "Q18",
+  "Q19",
+  "Q22",
+  "Q23",
+  "Q24",
+  "Q25",
+  "Q26",
+  "Q27",
+  "Q28",
+  "Q29",
+  "Q30",
+  "Q31",
+  "Q32",
+  "Q33",
+  "Q34",
+  "Q36",
+  "Q37",
+  "Q38",
+  "Q39",
+  "Q40",
+  "Q41",
+  "Q42",
+  "Q43",
+  "Q44",
+  "Q45",
+  "Q46",
+  "Q47",
+  "Q48"
+ ],
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "teachingBodyRepairs": [],
+ "withdrawnOriginalProposalIds": [
+  "Q7",
+  "Q20",
+  "Q21",
+  "Q35"
+ ]
+}
