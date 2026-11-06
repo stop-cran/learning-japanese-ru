@@ -1,0 +1,64 @@
+{
+ "batchId": "055-clothing-accessories-and-body",
+ "checkpointAuthority": null,
+ "continueRequired": true,
+ "correctedQ11Evidence": {
+  "corrected": "1562850:2,3;1554820:1,2",
+  "historicalSourceAdjudicationUnchanged": true,
+  "independentBasis": "Original F2 and original individually retained Q11 explicitly identify ability sense2; sense3 efficacy/effect not cited as ability.",
+  "original": "1562850:2,3;1554820:1,3",
+  "plannedCurrentEvidence": "Explicit append-only correction in resolution/current qualified Q11; do not rewrite frozen source-adjudication or original report."
+ },
+ "fullTaskComplete": false,
+ "independentFreshReview": false,
+ "newAssets": [],
+ "newDirectPair": {
+  "completeOfficialEntrySenseEvidence": "1058480:1;1246700:1",
+  "independentBasis": "Actual original F1 explicitly diagnoses this direct caption ambiguity and prescribes the pair. Not a new whole/focused review or all-footwear clique.",
+  "left": "サンダル",
+  "leftActualCaption": "сандалии",
+  "ordinaryModernNecessityFrequency": "UNVERIFIED beyond actual finding",
+  "plannedChange": "Add quiz_exclusions:[靴] ONLY to newサンダル header; runtime direct symmetry, no transitive closure.",
+  "proposalId": "Q36",
+  "providerPath": "words/靴.md",
+  "providerRussianWorkingRawSha256": "99e89dc771d133d82dd8201c7c17a99c91ae49e2dcafa57f8651d6133d28c3ce",
+  "right": "靴",
+  "rightActualCaption": "обувь"
+ },
+ "ordinaryActivationAuthorized": false,
+ "originalActualReport": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+ "originalCandidate": "5a8972c80d780d1d3f3282a79099389268a94b9a",
+ "originalFindings": [
+  {
+   "claim": "Neither header declares サンダル–靴. Actual 靴 caption обувь is a plausible correct answer to bare サンダル alongside сандалии; the new body calls sandals footwear and 靴 the broader name (lines15,34).",
+   "confidence": "high",
+   "correction": "Declare this direct pair in a header; runtime symmetry suffices. No inference through スリッパ or footwear clique.",
+   "id": "F1",
+   "line": 8,
+   "path": "R\\words\\サンダル.md",
+   "severity": "medium",
+   "source": "Complete primary and 靴 EN/RU; whole1058480:1/1246700:1; actual1020-caption pool, 靴 title line4."
+  },
+  {
+   "claim": "Q11 cites1554820:1,3 for physical/ability overlap. Whole 力 sense3 is efficacy/effect; capability/ability is sense2.",
+   "confidence": "high",
+   "correction": "Use1554820:1,2 for stated strength/ability grounds. Q11 remains independently supported; no learner 腕 prose change needed.",
+   "id": "F2",
+   "line": 2452,
+   "path": "R\\docs\\translation-batches\\055-clothing-accessories-and-body-source-adjudication.json",
+   "severity": "low",
+   "source": "Complete1562850/1554820, especially1554820 senses1–3; Q11 rationale."
+  }
+ ],
+ "originalHistoricalRecordsUnchanged": true,
+ "originalReportRawSha256": "47cb048d098f5c90cd22d260b74f718baf7cc756b8df2af2225f1e02304d556d",
+ "originalVerdicts": {
+  "C1": "CLEAN: assigned Japanese teaching/forms/readings and qualified lexical distinctions",
+  "C2": "NEEDS_REVISION: missing direct caption guard F1; evidence-reference correction F2",
+  "C3": "CLEAN: complete natural Russian learner prose, not title-only or English-dependent"
+ },
+ "reviewBoundary": "Original C2 NEEDS_REVISION preserved. Exact prescriptions to be author-implemented/verified, not relabelled a second CLEAN review.",
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "teachingBodiesChange": "NONE; exact20 reviewed RU bodies carried forward by body hashes; no new source fact/example."
+}
