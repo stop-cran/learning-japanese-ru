@@ -1,0 +1,1451 @@
+{
+ "activeGuidanceChanges": [
+  {
+   "exactDiff": "diff --git a/.github/copilot-instructions.md b/.github/copilot-instructions.md\nindex 0b8ce5c..9a52d04 100644\n--- a/.github/copilot-instructions.md\n+++ b/.github/copilot-instructions.md\n@@ -261,6 +261,11 @@ Limits: <существенные непроверенные утвержден\n   также реально засвидетельствованные ответы согласия/отказа у других частей речи; не делайте\n   из этого безусловные словарные равенства или транзитивную клику. Русское «сам» сверяйте и\n   со значением «в одиночку», сохраняя различие 自分で и 一人で в объяснениях.\n+- Английская глосса `really` сама по себе не подтверждает русские «правда; настоящий»:\n+  различайте удивлённую оценку и утверждение истинности. Не сохраняйте прямую пару без основания\n+  именно для текущих русских подписей. В объяснении «ещё только» не смешивайте раннюю текущую\n+  стадию с событием, наступившим раньше срока. Вторые значения частоты и благодарности\n+  сверяйте по каждой прямой паре и её контексту, не делая из защиты новое базовое значение N5.\n - После добавления кандзи повторно проверяйте старые статьи, где он указан в metadata: прежняя\n   optional-ссылка может стать обязательной. В партии 002 validator потребовал восстановить 休\n   в 休日; baseline-статья включена в amendment и повторное ревью, прежний receipt не переписан.\n",
+   "path": ".github/copilot-instructions.md",
+   "russianCanonicalGitRawSha256": "988a929bd14c513ea6f0f6535954362c977d4af93a6affd36b356f40f5dcc6e2",
+   "russianNormalizedLfSha256": "988a929bd14c513ea6f0f6535954362c977d4af93a6affd36b356f40f5dcc6e2",
+   "russianWorkingRawSha256": "988a929bd14c513ea6f0f6535954362c977d4af93a6affd36b356f40f5dcc6e2"
+  }
+ ],
+ "actualSerialValidation": [
+  {
+   "command": [
+    "tools\\build_manifest.py"
+   ],
+   "completedAt": "2026-11-06T05:43:31.702550+00:00",
+   "elapsedSeconds": 0.23499999998603016,
+   "executionBoundary": "Author serial execution; process returned before next command.",
+   "exitCode": 0,
+   "rawSha256": "29405fa678c0ca86486bc2adb3ea6397381ee31069f9f5f87914784e5ffed188",
+   "recordFile": "ru-040-corrected-validation-step-01-001.json",
+   "startedAt": "2026-11-06T05:43:31.479631+00:00",
+   "stderr": "",
+   "stdout": "manifest.json: 1068 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 20947276cf78bbe5\n"
+  },
+  {
+   "command": [
+    "tools\\validate.py"
+   ],
+   "completedAt": "2026-11-06T05:43:34.067212+00:00",
+   "elapsedSeconds": 2.359000000054948,
+   "executionBoundary": "Author serial execution; process returned before next command.",
+   "exitCode": 0,
+   "rawSha256": "e4086c3fed0f99f04ac7bbd37ac0a6a52e27095641693b2b23c7468f90eafb72",
+   "recordFile": "ru-040-corrected-validation-step-02-001.json",
+   "startedAt": "2026-11-06T05:43:31.710277+00:00",
+   "stderr": "",
+   "stdout": "0 error(s)\n"
+  },
+  {
+   "command": [
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tools",
+    "-p",
+    "test_*.py"
+   ],
+   "completedAt": "2026-11-06T05:44:11.249924+00:00",
+   "elapsedSeconds": 37.17200000002049,
+   "executionBoundary": "Author serial execution; process returned before next command.",
+   "exitCode": 0,
+   "rawSha256": "aa93eb70f9458b8e9fc071db70cb301e2ae17a414cc15984c2eef8a65e562edc",
+   "recordFile": "ru-040-corrected-validation-step-03-001.json",
+   "startedAt": "2026-11-06T05:43:34.077944+00:00",
+   "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 36.755s\n\nOK\n",
+   "stdout": ""
+  },
+  {
+   "command": [
+    "tools\\check_content_budget.py"
+   ],
+   "completedAt": "2026-11-06T05:44:11.965158+00:00",
+   "elapsedSeconds": 0.7029999999795109,
+   "executionBoundary": "Author serial execution; process returned before next command.",
+   "exitCode": 0,
+   "rawSha256": "3e196fa3731f5bb3025a291dbf450d11e90e08bd752afe5952df89fbd6ed3c3c",
+   "recordFile": "ru-040-corrected-validation-step-04-001.json",
+   "startedAt": "2026-11-06T05:44:11.259302+00:00",
+   "stderr": "",
+   "stdout": "{'files': 1076, 'entries': 1085, 'retainedBytes': 3004565, 'inflatedBytes': 3022780, 'localZipBytes': 1517303, 'listeningTaskMediaBytes': 0}\n"
+  }
+ ],
+ "all756ActualTitlesUnchanged": true,
+ "answerPoolPrivateFile": "ru-040-corrected-answer-pool-001.json",
+ "answerPoolPrivateRawSha256": "fb60424e4f548c5bc084bf80710c129ccb53299af57a2d8c417749d7ebac52f4",
+ "baselineRuntimeObjectsUnchangedRaw": 1043,
+ "batchId": "040-connectives-frequency-degree",
+ "changedRuntimePaths": [
+  "words/また.md",
+  "words/まだ.md",
+  "words/よく.md",
+  "words/多分.md"
+ ],
+ "checkpointAuthority": null,
+ "combinedRuntimeCount": 1068,
+ "combinedWordCount": 756,
+ "conservativeProposals": 25,
+ "contentVersion": "20947276cf78bbe5",
+ "contextualBaselinePairs": [
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/毎日.md",
+   "readingDomain": "Actually returned fresh040 full unchanged pair",
+   "russianNormalizedLfSha256": "8f5b7cc2c371f06444844c31f241ecfd2142d8205e9cf703e5b88daa2de10123",
+   "russianWorkingRawSha256": "8f5b7cc2c371f06444844c31f241ecfd2142d8205e9cf703e5b88daa2de10123",
+   "sourceGitRawSha256": "ebc4ee3a178892da285472a23e40226fe2d9688c32617707529888ea27ef6e08",
+   "sourceNormalizedLfSha256": "a7a656123a977a42b39df8a229973d44d08f0029fd303941724554670571f64a"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/少し.md",
+   "readingDomain": "Actually returned fresh040 full unchanged pair",
+   "russianNormalizedLfSha256": "4f6a52f10f4712aca013ee5694434b0c860c6b40e57ce187fd7011ddbe183630",
+   "russianWorkingRawSha256": "9b42673bbfb47dccf0d7f18a555e5e12c3426a05275155c40e862f5b6cffd671",
+   "sourceGitRawSha256": "1c31e3ae37e28c428e7212f8f3c9630040440f2dc7118ea0e24c701c2b70f623",
+   "sourceNormalizedLfSha256": "32de6e5ac7dfea91c275a59418540131ede7fedaa24c385a14005c19d8bf03fc"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/ちょっと.md",
+   "readingDomain": "Actually returned fresh040 full unchanged pair",
+   "russianNormalizedLfSha256": "631e030d07a59001effe28b429111a3d3a11f4c1cc2c2e460dde64ffb5277b0a",
+   "russianWorkingRawSha256": "5088f099e002c54d3cb8f43a3ea882f20b2964064e30aa321673e23b10d2c821",
+   "sourceGitRawSha256": "a1735e30924c84146b94cd7f27257dc5f9e609a0bcb9226efbc20adf8d249165",
+   "sourceNormalizedLfSha256": "a1735e30924c84146b94cd7f27257dc5f9e609a0bcb9226efbc20adf8d249165"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/多少.md",
+   "readingDomain": "Actually returned fresh040 full unchanged pair",
+   "russianNormalizedLfSha256": "646be71df985b524d71894d68fe3635a04f622936aad810a5714a4021f59546c",
+   "russianWorkingRawSha256": "a17260e55a87b6cdcab2b7a9e07a0907f04067d94dd70deac136a22efc587003",
+   "sourceGitRawSha256": "127d29213acf279a2765624799c5a9f3fb69d9f92ec3d913d6511daa1f8b7b24",
+   "sourceNormalizedLfSha256": "00259a1a5aa1847c1c32490c0abd367e72312c2918d2250f9ba5ba395477b5ab"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/少ない.md",
+   "readingDomain": "Actually returned fresh040 full unchanged pair",
+   "russianNormalizedLfSha256": "face0f3b853460d4981ea5375162e8c25b72165f595b94e1dbabf509334c9110",
+   "russianWorkingRawSha256": "300d2a36bc02d9a8da6a1597fafbfa679830f6905dabe2bb9c06ec6ded05f99b",
+   "sourceGitRawSha256": "1c660c33eaf98446fc1490e167f7eb80601bd93d552831a07a0759519685dedc",
+   "sourceNormalizedLfSha256": "a5eece8854dc2ddf4d876ab899b398fa905c889981fc9188c889c815af67c90d"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/跡.md",
+   "readingDomain": "Actually returned fresh040 full unchanged pair",
+   "russianNormalizedLfSha256": "437ac27aecf22a3a0e9103457eb29f99329b8f4542247faeb71c2eaa5c1a54df",
+   "russianWorkingRawSha256": "6ea8f5ae8e60d9591a4ac0108ce554d7aa2cfeae530a160ac2df7dd9940e1b8d",
+   "sourceGitRawSha256": "49593d2ea19a87702189406638de757568ca22ee74db13a0f569c39d2e8ac75b",
+   "sourceNormalizedLfSha256": "49593d2ea19a87702189406638de757568ca22ee74db13a0f569c39d2e8ac75b"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/ゆっくり.md",
+   "readingDomain": "Actually returned fresh040 full unchanged pair",
+   "russianNormalizedLfSha256": "369c0cf715d52fa6f4b213520c34d5a6f266bfd8835f3e9dcf295fd46506d80e",
+   "russianWorkingRawSha256": "00e4e887e184cf46b5e0491af9ed99d1998ed4d48fec2c5afe972b2e3672431d",
+   "sourceGitRawSha256": "f5fc33c73325a2297ef372b8598e4d51f4fc32f366121b38eb4256cef22b7523",
+   "sourceNormalizedLfSha256": "f5fc33c73325a2297ef372b8598e4d51f4fc32f366121b38eb4256cef22b7523"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/上手.md",
+   "readingDomain": "Actually returned fresh040 full unchanged pair",
+   "russianNormalizedLfSha256": "1225295818979f6026fb73ebbbe086a0086e7fc8ee894a75a43f070355a6e1dd",
+   "russianWorkingRawSha256": "b0bb7f4e824071263ed7421c649f0567c7db3bed2fc4e85321d1144a0caad0c9",
+   "sourceGitRawSha256": "42c3686b23674a99564f5aad7e45ff67fafb2a0bc1a9bd6987fe60ab645edc5a",
+   "sourceNormalizedLfSha256": "42c3686b23674a99564f5aad7e45ff67fafb2a0bc1a9bd6987fe60ab645edc5a"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/練習.md",
+   "readingDomain": "Actually returned fresh040 full unchanged pair",
+   "russianNormalizedLfSha256": "60086e1152e9f82fcbd1b13068d686c6adf9818fb083fdc157a70ca1b07e92be",
+   "russianWorkingRawSha256": "60086e1152e9f82fcbd1b13068d686c6adf9818fb083fdc157a70ca1b07e92be",
+   "sourceGitRawSha256": "e155993284b31c384e7891e119ea5f017b5ec0ceeb4d617f28b38450041470d3",
+   "sourceNormalizedLfSha256": "e155993284b31c384e7891e119ea5f017b5ec0ceeb4d617f28b38450041470d3"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/みんな.md",
+   "readingDomain": "Actually returned fresh040 full unchanged pair",
+   "russianNormalizedLfSha256": "224e62c88e331e62691d13941aa043fef37231689831dfcd839f76a8e6bcf78e",
+   "russianWorkingRawSha256": "ccb99e36971f9d40ab4e577d5a8e4e7c44e87f38ed63227177cda40ca0ef3a6c",
+   "sourceGitRawSha256": "ccd631617d6c02e0c1545349aaf4e65e628e4a704dc1acf7a14c1643a4c53cc3",
+   "sourceNormalizedLfSha256": "ccd631617d6c02e0c1545349aaf4e65e628e4a704dc1acf7a14c1643a4c53cc3"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/たくさん.md",
+   "readingDomain": "Actually returned fresh040 full unchanged pair",
+   "russianNormalizedLfSha256": "d757e8cda16e9a81540a2da98815474de6f7f09080cf857e016b7f21ad95bc94",
+   "russianWorkingRawSha256": "5600f6736c256348de4df8d909e684edbf6e98ae4a0898aa35400206af4deef9",
+   "sourceGitRawSha256": "d3d8aee554bc127317c1128f552c70a22129ee1271adba99636a61352cf9c6fe",
+   "sourceNormalizedLfSha256": "d3d8aee554bc127317c1128f552c70a22129ee1271adba99636a61352cf9c6fe"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/全部.md",
+   "readingDomain": "Actually returned fresh040 full unchanged pair",
+   "russianNormalizedLfSha256": "f50b6d97c81cbfae6db6fa9eaa064b63557c9a1a81484eddbf5ee77837b12e1d",
+   "russianWorkingRawSha256": "77617c4f3549f441e6d864935129bac7f3adfa0fa184fe60c1baf315ee6198d0",
+   "sourceGitRawSha256": "465a3a028bb7caa0cfa65882ae55f72e665ffae9162e66f0251737fc09b6464c",
+   "sourceNormalizedLfSha256": "465a3a028bb7caa0cfa65882ae55f72e665ffae9162e66f0251737fc09b6464c"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/いい.md",
+   "readingDomain": "Actually returned fresh040 full unchanged pair",
+   "russianNormalizedLfSha256": "52e181333c6139f89e3b0a94c7a76d01d8932a6daa3788a5d708e03d6a8fa15f",
+   "russianWorkingRawSha256": "57af42fe39a64950871f3b861b9a5f0280fd40b5c3b6d198539e14baadc6fa11",
+   "sourceGitRawSha256": "41d8d09b0c6ef61b88501b484143c1f6ef6d975ebec2568d608e97c843f10e06",
+   "sourceNormalizedLfSha256": "41d8d09b0c6ef61b88501b484143c1f6ef6d975ebec2568d608e97c843f10e06"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/良い.md",
+   "readingDomain": "Actually returned fresh040 full unchanged pair",
+   "russianNormalizedLfSha256": "73d73e626e49bd83aacfda0d1a9dc9cbcbc36a60acf8b881c1d71c311f67e776",
+   "russianWorkingRawSha256": "f8012da8cffddc0b85e745b3584e7103a86bd28f1ff02c2dba4e15624709273e",
+   "sourceGitRawSha256": "63829165a490be9b918f4934fcf1d68abb99d3d8554e819eac14b3a861984fb5",
+   "sourceNormalizedLfSha256": "63829165a490be9b918f4934fcf1d68abb99d3d8554e819eac14b3a861984fb5"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/どうも.md",
+   "readingDomain": "Actually returned fresh040 full unchanged pair",
+   "russianNormalizedLfSha256": "f1fe088a340bfa3380ce922841b0502bb1261d010a4a3cd4214c85d6fb49fc16",
+   "russianWorkingRawSha256": "3563754c7a2dbe25c6aa2220c735b5ecabf0d899395f62d218c36c932ae24f15",
+   "sourceGitRawSha256": "5e00b2724324d0877a01cd1448f412bba1875a098c74e9f77639eb414c963f13",
+   "sourceNormalizedLfSha256": "5e00b2724324d0877a01cd1448f412bba1875a098c74e9f77639eb414c963f13"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/大変.md",
+   "readingDomain": "Actually returned fresh040 full unchanged pair",
+   "russianNormalizedLfSha256": "dde37aec211f6a7b27640217f331152d8803822313057eac774cb4fd53820e39",
+   "russianWorkingRawSha256": "09ec693f1407b9c0137f0972c18b873b5c94cf8770977e63be29999da01424d8",
+   "sourceGitRawSha256": "7be31e038340e89c87d755ac72403007d04e212ddccef18ad88792de58846867",
+   "sourceNormalizedLfSha256": "7be31e038340e89c87d755ac72403007d04e212ddccef18ad88792de58846867"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/さあ.md",
+   "readingDomain": "Actually returned fresh040 full unchanged pair",
+   "russianNormalizedLfSha256": "a2011ae6b561e44d5cff84dc8abee73ee4cdc9baba8ee213bffa5d1db97335c9",
+   "russianWorkingRawSha256": "ae17e3c6798bae83cb312a597f751d15f3845f76f21a52742ac30360e62b98fb",
+   "sourceGitRawSha256": "632dcaa13ebd457e1abbe071611bf1f6cafde883a8f6e29169e039470b143698",
+   "sourceNormalizedLfSha256": "632dcaa13ebd457e1abbe071611bf1f6cafde883a8f6e29169e039470b143698"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/もっと.md",
+   "readingDomain": "Actually returned fresh040 full unchanged pair",
+   "russianNormalizedLfSha256": "0ea8cc4aa9ce3887f80202c46755cf0dc0c24d20e12c7ec8316e4fdd7e3a2894",
+   "russianWorkingRawSha256": "8bb31315f739186a305d7775bc896ca0cb8cc9eb7e7cd3b43e87ab0aa93debb9",
+   "sourceGitRawSha256": "91f9f188a29a6986712c070372bdf17ac60318cc9abb26173ad896eaa2e4f31b",
+   "sourceNormalizedLfSha256": "91f9f188a29a6986712c070372bdf17ac60318cc9abb26173ad896eaa2e4f31b"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/階段.md",
+   "readingDomain": "Actually returned fresh040 full unchanged pair",
+   "russianNormalizedLfSha256": "4908fa8c7fa0f67ba9b918b57dacf7d0e4ef105d505c1f22d9d1cc967bd5b169",
+   "russianWorkingRawSha256": "d705403aa3bac472a847b61b2dfa2d5279cd78c3dda039694615adca7e01d27e",
+   "sourceGitRawSha256": "5cfd176b37a93b48424010a72f8b4a7e7383859e5ed846c9a3c001b33329ec6d",
+   "sourceNormalizedLfSha256": "5cfd176b37a93b48424010a72f8b4a7e7383859e5ed846c9a3c001b33329ec6d"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/多い.md",
+   "readingDomain": "Actually returned fresh040 full unchanged pair",
+   "russianNormalizedLfSha256": "d69b01b4bbae05b0a27f7701845e684f781935021038db7de6bd816ef8792aa0",
+   "russianWorkingRawSha256": "a6ab81e17a59d4c35491ba639319390ba24c31b7ea487fd085afb1bf4dab27e3",
+   "sourceGitRawSha256": "a69be5896935c4b9a52aaaed4db3f999b8601b9717567e779454b5da38d804e3",
+   "sourceNormalizedLfSha256": "46af14bbbef4538227a38ee0af656ea1951e003c778de355f2048d95f352affb"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/結構.md",
+   "readingDomain": "Actually returned fresh040 full unchanged pair",
+   "russianNormalizedLfSha256": "fdfb3d9782fc246a2756498f8f416aab3325c97c1128274438c1e5014c24bfb6",
+   "russianWorkingRawSha256": "c82d4cf9c52e339be455e5ecadc0ccc300644f0df8e5428a9e5acd1101727cc7",
+   "sourceGitRawSha256": "86a96680a81be14d4985e55bcf005bad2d36ac5cbb0a4dc6e98830f951d05ecb",
+   "sourceNormalizedLfSha256": "86a96680a81be14d4985e55bcf005bad2d36ac5cbb0a4dc6e98830f951d05ecb"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/大丈夫.md",
+   "readingDomain": "Actually returned fresh040 full unchanged pair",
+   "russianNormalizedLfSha256": "40c8da9ae3155df4fbdd67bbf4737838a3db21be961671bf7e454c1678562f01",
+   "russianWorkingRawSha256": "248d467dcc7a60eed77612f111cdc982506a6ba3be062b1486d86919888f26ad",
+   "sourceGitRawSha256": "710eaf244e381d665d47d53f99335314b2853deab50aadad5f850aae76d9b1da",
+   "sourceNormalizedLfSha256": "710eaf244e381d665d47d53f99335314b2853deab50aadad5f850aae76d9b1da"
+  }
+ ],
+ "cumulativeUniqueRelevantPairs": 47,
+ "directProposals": 43,
+ "focusedRecheckPairs": [
+  "words/まだ.md",
+  "words/よく.md",
+  "words/多い.md",
+  "words/どうも.md",
+  "words/また.md",
+  "words/本当.md",
+  "words/多分.md"
+ ],
+ "frozenSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "newProposedDirectPairs": [
+  {
+   "left": "いつも",
+   "leftActualCaption": "всегда; обычно",
+   "ordinaryModernNecessityFrequency": "No quantitative frequency claim; direct source sense proposed",
+   "proposedBoundary": "direct ordinary source sense",
+   "rationale": "Preserve actual source exclusion; full habitual routine source explicitly permits usually. Both actual captions contain обычно, without a fixed frequency percentage.",
+   "right": "たいてい",
+   "rightActualCaption": "обычно; большинство",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "まだ",
+   "leftActualCaption": "ещё; пока не",
+   "ordinaryModernNecessityFrequency": "No quantitative frequency claim; direct source sense proposed",
+   "proposedBoundary": "direct ordinary source sense",
+   "rationale": "Preserve actual source exclusion; actual まだ sense3, restricted to まだ rather than いまだ, names more remaining. Actual old caption includes ещё.",
+   "right": "もっと",
+   "rightActualCaption": "больше; ещё",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "本当",
+   "leftActualCaption": "правда; настоящий",
+   "ordinaryModernNecessityFrequency": "No quantitative frequency claim; direct source sense proposed",
+   "proposedBoundary": "direct ordinary source sense",
+   "rationale": "Preserve actual source exclusion; both actual lexical objects independently name reality/actuality; new правда can denote what is real, not only a yes/no claim.",
+   "right": "現実",
+   "rightActualCaption": "действительность; реальность",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "現実",
+   "leftActualCaption": "действительность; реальность",
+   "ordinaryModernNecessityFrequency": "No quantitative frequency claim; direct source sense proposed",
+   "proposedBoundary": "direct ordinary source sense",
+   "rationale": "Preserve actual source exclusion; actual 実際 noun sense1 independently names reality/actual conditions. New reality caption fits that noun sense.",
+   "right": "実際",
+   "rightActualCaption": "на деле; в действительности",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "あまり",
+   "leftActualCaption": "не очень; не особенно",
+   "ordinaryModernNecessityFrequency": "No quantitative frequency claim; direct source sense proposed",
+   "proposedBoundary": "direct ordinary source sense",
+   "rationale": "Actual 余り/あまり noun sense1 includes remains of a meal/leftovers; exact old caption contains остатки. The source preserves that noun sense separately from the negative adverb.",
+   "right": "跡",
+   "rightActualCaption": "след; остатки; прежнее место",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "しかし",
+   "leftActualCaption": "однако; но",
+   "ordinaryModernNecessityFrequency": "No quantitative frequency claim; direct source sense proposed",
+   "proposedBoundary": "direct ordinary source sense",
+   "rationale": "Both actual lexical conjunctions directly introduce contrast and actual но/однако captions overlap. Preserve their register and separate particle uses.",
+   "right": "でも",
+   "rightActualCaption": "но; однако",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "そうして",
+   "leftActualCaption": "и затем; таким образом",
+   "ordinaryModernNecessityFrequency": "No quantitative frequency claim; direct source sense proposed",
+   "proposedBoundary": "direct ordinary source sense",
+   "rationale": "Both full actual sources and lexical objects independently connect statements with and/and then; actual и/и затем captions overlap.",
+   "right": "そして",
+   "rightActualCaption": "и; и затем",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "そうして",
+   "leftActualCaption": "и затем; таким образом",
+   "ordinaryModernNecessityFrequency": "No quantitative frequency claim; direct source sense proposed",
+   "proposedBoundary": "direct ordinary source sense",
+   "rationale": "Both fully read primary sources independently introduce a following stage; actual затем is appropriate for this sequence function, not unrestricted method substitution.",
+   "right": "それから",
+   "rightActualCaption": "после этого; затем",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "そして",
+   "leftActualCaption": "и; и затем",
+   "ordinaryModernNecessityFrequency": "No quantitative frequency claim; direct source sense proposed",
+   "proposedBoundary": "direct ordinary source sense",
+   "rationale": "Each independently introduces a next event; actual и затем versus после этого;затем can both answer that sequence meaning. Not inherited through そうして.",
+   "right": "それから",
+   "rightActualCaption": "после этого; затем",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "また",
+   "leftActualCaption": "снова; также",
+   "ordinaryModernNecessityFrequency": "No quantitative frequency claim; direct source sense proposed",
+   "proposedBoundary": "direct ordinary source sense",
+   "rationale": "Actual また sense1 explicitly says once more/again, independently of its additive sense. Actual ещё раз fits that repetition sense.",
+   "right": "もう一度",
+   "rightActualCaption": "ещё раз",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "もう",
+   "leftActualCaption": "уже; больше не",
+   "ordinaryModernNecessityFrequency": "No quantitative frequency claim; direct source sense proposed",
+   "proposedBoundary": "direct ordinary source sense",
+   "rationale": "Actual もう sense3 adds more and actual まだ sense3 independently says more remaining; new ещё caption can fit that amount function. Preserve already versus not-yet elsewhere.",
+   "right": "まだ",
+   "rightActualCaption": "ещё; пока не",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "もう",
+   "leftActualCaption": "уже; больше не",
+   "ordinaryModernNecessityFrequency": "No quantitative frequency claim; direct source sense proposed",
+   "proposedBoundary": "direct ordinary source sense",
+   "rationale": "Actual もう sense3 independently says more/further, matching actual old больше;ещё. Not inferred from the source まだ edge.",
+   "right": "もっと",
+   "rightActualCaption": "больше; ещё",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "もう",
+   "leftActualCaption": "уже; больше не",
+   "ordinaryModernNecessityFrequency": "No quantitative frequency claim; direct source sense proposed",
+   "proposedBoundary": "direct ordinary source sense",
+   "rationale": "Actual もう sense3 independently says again, directly matching actual new снова; keep additional amount versus time-state distinctions.",
+   "right": "また",
+   "rightActualCaption": "снова; также",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "もう",
+   "leftActualCaption": "уже; больше не",
+   "ordinaryModernNecessityFrequency": "No quantitative frequency claim; direct source sense proposed",
+   "proposedBoundary": "direct ordinary source sense",
+   "rationale": "Actual もう sense3 explicitly includes again and the full source teaches additional repetition; actual ещё раз can fit that limited function, not every already use.",
+   "right": "もう一度",
+   "rightActualCaption": "ещё раз",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "とても",
+   "leftActualCaption": "очень",
+   "ordinaryModernNecessityFrequency": "No quantitative frequency claim; direct source sense proposed",
+   "proposedBoundary": "direct ordinary source sense",
+   "rationale": "Actual old title contains очень; actual どうも intensifies an apology/thanks and とても intensifies degree. No claim that every thankful use substitutes freely.",
+   "right": "どうも",
+   "rightActualCaption": "спасибо; очень",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "とても",
+   "leftActualCaption": "очень",
+   "ordinaryModernNecessityFrequency": "No quantitative frequency claim; direct source sense proposed",
+   "proposedBoundary": "direct ordinary source sense",
+   "rationale": "Actual 大変 object sense1 and full accepted body independently say very. New очень fits despite the old difficult/serious title.",
+   "right": "大変",
+   "rightActualCaption": "трудный; серьёзный",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "実際",
+   "leftActualCaption": "на деле; в действительности",
+   "ordinaryModernNecessityFrequency": "No quantitative frequency claim; direct source sense proposed",
+   "proposedBoundary": "direct ordinary source sense",
+   "rationale": "Actual 実際 noun sense1 explicitly includes truth/fact; actual new 本当 caption contains правда. Not a transitive inference through 現実.",
+   "right": "本当",
+   "rightActualCaption": "правда; настоящий",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "実際",
+   "leftActualCaption": "на деле; в действительности",
+   "ordinaryModernNecessityFrequency": "No quantitative frequency claim; direct source sense proposed",
+   "proposedBoundary": "direct ordinary source sense",
+   "rationale": "Actual 実際 noun sense2 means practice opposed to theory; the actual old label contains unqualified практика. Preserve the difference from skill-training 練習 in prose.",
+   "right": "練習",
+   "rightActualCaption": "практика; тренировка; упражнение",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "じゃ",
+   "leftActualCaption": "ну что ж; в таком случае",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Actual じゃ transition well/then and actual さあ resolve/hesitation functions can share the coarse old ну label. Not an unconditional equivalence of urging and inference.",
+   "right": "さあ",
+   "rightActualCaption": "ну; давайте",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "じゃあ",
+   "leftActualCaption": "ну что ж; в таком случае",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Direct actual じゃあ well-then object and full さあ resolve source support a coarse ну overlap; assess this individual pair, not transitivity through じゃ.",
+   "right": "さあ",
+   "rightActualCaption": "ну; давайте",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "では",
+   "leftActualCaption": "ну что ж; в таком случае",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Direct decision/next-step functions independently permit conversational ну; keep formal connector versus interjection distinct.",
+   "right": "さあ",
+   "rightActualCaption": "ну; давайте",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "それでは",
+   "leftActualCaption": "ну что ж; в таком случае",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Actual それでは sense1 introduces a remark and actual さあ marks resolve/beginning. Protect the old broad ну label only, not every uncertainty or farewell.",
+   "right": "さあ",
+   "rightActualCaption": "ну; давайте",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "そうして",
+   "leftActualCaption": "и затем; таким образом",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Actual そうして full source explicitly permits addition and actual また senses2/4 add information; assess coarse также, not unrestricted noun coordination or repeated events.",
+   "right": "また",
+   "rightActualCaption": "снова; также",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "そして",
+   "leftActualCaption": "и; и затем",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Actual そして full source explicitly adds a same-situation fact and actual また adds another fact. Protect также only in that additive function.",
+   "right": "また",
+   "rightActualCaption": "снова; также",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "それから",
+   "leftActualCaption": "после этого; затем",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Fully read そして source explicitly records another-item use for それから; actual また adds information. Direct contextual addition proposal, not proof from English and alone; ordinary necessity remains unasserted.",
+   "right": "また",
+   "rightActualCaption": "снова; также",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "よく",
+   "leftActualCaption": "часто; хорошо",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Actual ゆっくり sense3 explicitly says well/comfortably for sleep and full source preserves good rest; actual new хорошо can fit. Do not equate every frequency and slow-pace use.",
+   "right": "ゆっくり",
+   "rightActualCaption": "медленно; не спеша",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "よく",
+   "leftActualCaption": "часто; хорошо",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Actual よく sense1 says skillfully/well and actual 上手 evaluates skill. Assess the coarse Russian хорошо performance overlap while retaining に/adjective/adverb distinctions; no unrestricted morphology claim.",
+   "right": "上手",
+   "rightActualCaption": "умелый",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "よく",
+   "leftActualCaption": "часто; хорошо",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Actual いい can evaluate something as good/all-right and standalone Russian хорошо can acknowledge that evaluation. Assess this contextual predicate/quality boundary, not a claim that よく takes adjective grammar.",
+   "right": "いい",
+   "rightActualCaption": "хороший; подходит",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "よく",
+   "leftActualCaption": "часто; хорошо",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Actual 良い/よい independently evaluates quality; actual new хорошо may be a coarse Russian predicate rendering. Retain the source's exact よ- inflection explanation; not inferred through いい.",
+   "right": "良い",
+   "rightActualCaption": "хороший",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "よく",
+   "leftActualCaption": "часто; хорошо",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Actual 結構 fine/satisfactory and adverb fairly-well senses may take coarse хорошо. Assess this precise limited evaluation boundary; not universal training/acceptance equivalence.",
+   "right": "結構",
+   "rightActualCaption": "хороший; достаточно",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "よく",
+   "leftActualCaption": "часто; хорошо",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Actual 大丈夫 all-right/okay condition and actual new хорошо can overlap in a coarse Russian state evaluation. Assess independently; frequency and guaranteed safety are not equated.",
+   "right": "大丈夫",
+   "rightActualCaption": "всё в порядке; нормально",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "だんだん",
+   "leftActualCaption": "постепенно",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Actual 段々 object sense2 independently lists stairs/staircase, matching actual old лестница. No claim that noun use is neutral everyday kana N5 or that its modern frequency was proved.",
+   "right": "階段",
+   "rightActualCaption": "лестница",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "だんだん",
+   "leftActualCaption": "постепенно",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "A separate actual exact-kana だんだん object means thank-you with explicit Izumo-dialect info. Actual old спасибо matches this qualified homograph only; not ordinary standard Japanese.",
+   "right": "どうも",
+   "rightActualCaption": "спасибо; очень",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "多分",
+   "leftActualCaption": "наверное; вероятно",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Actual 多分 noun/na-adjective sense2 lists much/many/large amount; actual old много fits. Do not turn the primary probably lesson into an assertion of modern frequency for this secondary sense.",
+   "right": "たくさん",
+   "rightActualCaption": "много; достаточно",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "多分",
+   "leftActualCaption": "наверное; вероятно",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Direct actual 多分 sense2 and actual 多い amount senses independently permit много. Not inherited through たくさん; grammar patterns remain separate.",
+   "right": "多い",
+   "rightActualCaption": "много; многочисленный",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "多分",
+   "leftActualCaption": "наверное; вероятно",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Actual 大抵 sense2 explicitly says probably, matching new наверное;вероятно. Ordinary modern necessity/frequency is not inferred from that unqualified dictionary row.",
+   "right": "たいてい",
+   "rightActualCaption": "обычно; большинство",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "もう",
+   "leftActualCaption": "уже; больше не",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Actual もう sense5 records extremely and actual new とても caption is очень; limited dictionary/context protection only, no frequency assertion.",
+   "right": "とても",
+   "rightActualCaption": "очень",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "もう",
+   "leftActualCaption": "уже; больше не",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Actual もう sense5 independently records extremely/really and actual old どうも label contains очень; not inferred through とても.",
+   "right": "どうも",
+   "rightActualCaption": "спасибо; очень",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "もう",
+   "leftActualCaption": "уже; больше не",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Actual もう sense5 records truly/really and actual 本当 title contains polysemous Russian правда. Submit this exact contextual-emphasis overlap, not an unrestricted truth-noun equivalence.",
+   "right": "本当",
+   "rightActualCaption": "правда; настоящий",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "ちょうど",
+   "leftActualCaption": "точно; в самый раз",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Actual primary source explicitly teaches suitability/just-right and actual old title includes подходит. Submit this contextual fit boundary without claiming that all merely-good things fit exactly.",
+   "right": "いい",
+   "rightActualCaption": "хороший; подходит",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "もう",
+   "leftActualCaption": "уже; больше не",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Actual もう sense4 records exasperated come-on/seriously and actual old さあ title includes broad ну. Submit only the coarse discourse-label interpretation, not interchangeable emotional force.",
+   "right": "さあ",
+   "rightActualCaption": "ну; давайте",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "よく",
+   "leftActualCaption": "часто; хорошо",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "Conservative dictionary/context protection requested by actual040whole review",
+   "rationale": "Actual多いsense3frequent/common and acceptedfull多いbody雨が多い explicitlysupport coarseчасто againstмного;frequency/amount context preserved, not unrestricted adjective/adverb equality.",
+   "right": "多い",
+   "rightActualCaption": "много; многочисленный",
+   "status": "Proposed corrective adoption; focused assessment pending"
+  },
+  {
+   "left": "よく",
+   "leftActualCaption": "часто; хорошо",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "Conservative dictionary/context protection requested by actual040whole review",
+   "rationale": "Actualよくsense3appreciation thankyoufor and actualどうもsense1thanks support coarseспасибо; not a new neutralN5gratitude lesson, not every often/welluse.",
+   "right": "どうも",
+   "rightActualCaption": "спасибо; очень",
+   "status": "Proposed corrective adoption; focused assessment pending"
+  }
+ ],
+ "newRuntimeUnits": [
+  {
+   "invariantProjectionEqual": true,
+   "map": "files",
+   "path": "words/いつも.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "3fdfc60e16e7770cd70b7a44f22d9111f989538fe892da77df3d98bff2e05fee",
+   "russianNormalizedLfSha256": "3fdfc60e16e7770cd70b7a44f22d9111f989538fe892da77df3d98bff2e05fee",
+   "russianWorkingRawSha256": "58c04c40d981a6d78bc824532fae6549a2bfa859c45e6fcfe8a3ba2959d62719",
+   "sourceGitRawSha256": "4da7bd37432f1950652bd64fe2ee78ddcaff0dea86bda805dcf93ce27b9affa6",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "quiz_exclusions": [
+     "たいてい"
+    ],
+    "reading": "いつも",
+    "tags": [
+     "wago",
+     "adverb",
+     "frequency"
+    ],
+    "title": "always; usually",
+    "type": "wago",
+    "word": "いつも"
+   },
+   "sourceNormalizedLfSha256": "4da7bd37432f1950652bd64fe2ee78ddcaff0dea86bda805dcf93ce27b9affa6",
+   "sourceWorkingRawSha256": "4da7bd37432f1950652bd64fe2ee78ddcaff0dea86bda805dcf93ce27b9affa6",
+   "word": "いつも"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/あまり.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "9ff8bb754ca2cd9e73212e011a475d14dc9816f3b0f4dca1f70acb1eb1b10f20",
+   "russianNormalizedLfSha256": "9ff8bb754ca2cd9e73212e011a475d14dc9816f3b0f4dca1f70acb1eb1b10f20",
+   "russianWorkingRawSha256": "c54e838561db74f01731e6f7420438c44ce63ff55b435add994118816fb08a92",
+   "sourceGitRawSha256": "3e9af12834ccb092bf44810ec531f2046f66ce66d68ed7faf857c3a80ab20fb8",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "あまり",
+    "tags": [
+     "wago",
+     "adverb",
+     "degree"
+    ],
+    "title": "not very; not much",
+    "type": "wago",
+    "word": "あまり"
+   },
+   "sourceNormalizedLfSha256": "3e9af12834ccb092bf44810ec531f2046f66ce66d68ed7faf857c3a80ab20fb8",
+   "sourceWorkingRawSha256": "3e9af12834ccb092bf44810ec531f2046f66ce66d68ed7faf857c3a80ab20fb8",
+   "word": "あまり"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/しかし.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "aeef0b0e2d23556f85fe870b9ac839c6cb221c0a9171c3224dc000fd4dc3f0f3",
+   "russianNormalizedLfSha256": "aeef0b0e2d23556f85fe870b9ac839c6cb221c0a9171c3224dc000fd4dc3f0f3",
+   "russianWorkingRawSha256": "78035211dc53562d12a5841326f8673f96eff42dafbfb293b76e514947275672",
+   "sourceGitRawSha256": "13406f7987cacf00a501ef7fbd11694e3662c61e8b2196859b60c36c224bacd8",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "しかし",
+    "tags": [
+     "conjunction",
+     "wago"
+    ],
+    "title": "however; but",
+    "type": "wago",
+    "word": "しかし"
+   },
+   "sourceNormalizedLfSha256": "13406f7987cacf00a501ef7fbd11694e3662c61e8b2196859b60c36c224bacd8",
+   "sourceWorkingRawSha256": "13406f7987cacf00a501ef7fbd11694e3662c61e8b2196859b60c36c224bacd8",
+   "word": "しかし"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/じゃ.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "5cdcfa69a93ffb038c8cba2ebfd0d3d369e64c6193f668bfff836fbb61f467da",
+   "russianNormalizedLfSha256": "5cdcfa69a93ffb038c8cba2ebfd0d3d369e64c6193f668bfff836fbb61f467da",
+   "russianWorkingRawSha256": "d83da5546f2443862a836f0ee85d6498fcf9648ca7acb873772996f4d6c63799",
+   "sourceGitRawSha256": "8176e031f6642499a62f188a11807568657c73d68e5febadb5792ba465685e22",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "じゃ",
+    "tags": [
+     "conjunction",
+     "conversational"
+    ],
+    "title": "well then",
+    "type": "wago",
+    "word": "じゃ"
+   },
+   "sourceNormalizedLfSha256": "8176e031f6642499a62f188a11807568657c73d68e5febadb5792ba465685e22",
+   "sourceWorkingRawSha256": "8176e031f6642499a62f188a11807568657c73d68e5febadb5792ba465685e22",
+   "word": "じゃ"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/じゃあ.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "471c48606185c904680bc55f28c716653a99c76bbd2475ecd7cb2e31dff75319",
+   "russianNormalizedLfSha256": "471c48606185c904680bc55f28c716653a99c76bbd2475ecd7cb2e31dff75319",
+   "russianWorkingRawSha256": "80e16d24c5d27d374ba0070a437cf54de34c64e305a2ad2d67df11bf8ae08556",
+   "sourceGitRawSha256": "576bcf962b965746d5158f8fa85d3cafc6f8d85c227b1f4f5c8ecda52fd8c1cf",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "じゃあ",
+    "tags": [
+     "wago",
+     "conjunction",
+     "conversation"
+    ],
+    "title": "well then",
+    "type": "wago",
+    "word": "じゃあ"
+   },
+   "sourceNormalizedLfSha256": "576bcf962b965746d5158f8fa85d3cafc6f8d85c227b1f4f5c8ecda52fd8c1cf",
+   "sourceWorkingRawSha256": "576bcf962b965746d5158f8fa85d3cafc6f8d85c227b1f4f5c8ecda52fd8c1cf",
+   "word": "じゃあ"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/そうして.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "8217213a1fc983ade56c5eec512d9a683265e09eddab2ab84b95061cfae4ee0a",
+   "russianNormalizedLfSha256": "8217213a1fc983ade56c5eec512d9a683265e09eddab2ab84b95061cfae4ee0a",
+   "russianWorkingRawSha256": "111e497913df6e0efb8704490171fa904dad4afd81199d5f2547b77d96785459",
+   "sourceGitRawSha256": "5c11893c981b7da99f9bc660c77d038b84451c14ee370c1fe8b565243ed2c6eb",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "そうして",
+    "tags": [
+     "wago",
+     "conjunction",
+     "expression"
+    ],
+    "title": "and then; in that way",
+    "type": "wago",
+    "word": "そうして"
+   },
+   "sourceNormalizedLfSha256": "5c11893c981b7da99f9bc660c77d038b84451c14ee370c1fe8b565243ed2c6eb",
+   "sourceWorkingRawSha256": "5c11893c981b7da99f9bc660c77d038b84451c14ee370c1fe8b565243ed2c6eb",
+   "word": "そうして"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/そして.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "d24ada42b6d73080d50bbb120c7399c13209a42bb54ae908388f51b3815d7475",
+   "russianNormalizedLfSha256": "d24ada42b6d73080d50bbb120c7399c13209a42bb54ae908388f51b3815d7475",
+   "russianWorkingRawSha256": "4adb9ba729519f2ad1bd6f7de82bee294f165ddd31f6985d1e64122d7ad232fc",
+   "sourceGitRawSha256": "bac4651d7a4e9ed98ae465ab83d4ffa819cfabe078739ceb6000d080160db5bf",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "そして",
+    "tags": [
+     "wago",
+     "conjunction"
+    ],
+    "title": "and then",
+    "type": "wago",
+    "word": "そして"
+   },
+   "sourceNormalizedLfSha256": "bac4651d7a4e9ed98ae465ab83d4ffa819cfabe078739ceb6000d080160db5bf",
+   "sourceWorkingRawSha256": "bac4651d7a4e9ed98ae465ab83d4ffa819cfabe078739ceb6000d080160db5bf",
+   "word": "そして"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/それから.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "7f013524bdd4b0149abbeb80ff3f0bd9418f075715c8707e625cb017da7e5765",
+   "russianNormalizedLfSha256": "7f013524bdd4b0149abbeb80ff3f0bd9418f075715c8707e625cb017da7e5765",
+   "russianWorkingRawSha256": "b7e3bdad84fbc6923feb9a61aeb7ae4899b48c13f09d61f1a23de4a79e447518",
+   "sourceGitRawSha256": "00d8e4c41ccff7109844d3e8eb449c33137b277e6a7b0b229b2b658815d3c181",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "それから",
+    "tags": [
+     "wago",
+     "expression",
+     "sequence"
+    ],
+    "title": "after that; and then",
+    "type": "wago",
+    "word": "それから"
+   },
+   "sourceNormalizedLfSha256": "00d8e4c41ccff7109844d3e8eb449c33137b277e6a7b0b229b2b658815d3c181",
+   "sourceWorkingRawSha256": "00d8e4c41ccff7109844d3e8eb449c33137b277e6a7b0b229b2b658815d3c181",
+   "word": "それから"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/それでは.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "f32c435c13a497486142ea6e66ad3d954be87d4429b293ad7bb3ab944affed26",
+   "russianNormalizedLfSha256": "f32c435c13a497486142ea6e66ad3d954be87d4429b293ad7bb3ab944affed26",
+   "russianWorkingRawSha256": "d007a143942c00ae8b5a3742fd3172dede99ed4255193ff462baa87892679799",
+   "sourceGitRawSha256": "d70df60a07aefbf61598343eac9f4c69c67c1e2da4fda560fc86914e21043bb7",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "それでは",
+    "tags": [
+     "wago",
+     "conjunction",
+     "expression"
+    ],
+    "title": "well then; in that case",
+    "type": "wago",
+    "word": "それでは"
+   },
+   "sourceNormalizedLfSha256": "d70df60a07aefbf61598343eac9f4c69c67c1e2da4fda560fc86914e21043bb7",
+   "sourceWorkingRawSha256": "d70df60a07aefbf61598343eac9f4c69c67c1e2da4fda560fc86914e21043bb7",
+   "word": "それでは"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/だんだん.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "59d10f0dcf32d361a4c9ba28dbefa9cecad6bf4bc728f42d7bacb8692d9d6ac3",
+   "russianNormalizedLfSha256": "59d10f0dcf32d361a4c9ba28dbefa9cecad6bf4bc728f42d7bacb8692d9d6ac3",
+   "russianWorkingRawSha256": "334ce62c367331ba73564cecc574c7b37b22d3349ca2ae09e42c2d3360cb4902",
+   "sourceGitRawSha256": "f4c37698a91a7faf54cf0730a77d86f061fb780bc7b4a2a4aeba0fed80fb4f18",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "だんだん",
+    "tags": [
+     "adverb",
+     "change"
+    ],
+    "title": "gradually",
+    "type": "kango",
+    "word": "だんだん"
+   },
+   "sourceNormalizedLfSha256": "f4c37698a91a7faf54cf0730a77d86f061fb780bc7b4a2a4aeba0fed80fb4f18",
+   "sourceWorkingRawSha256": "f4c37698a91a7faf54cf0730a77d86f061fb780bc7b4a2a4aeba0fed80fb4f18",
+   "word": "だんだん"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/ちょうど.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "9c8862ab8564deb98ceb7ae93c65f9b5fe6ce4168dbeafa69157c8ccb0b66277",
+   "russianNormalizedLfSha256": "9c8862ab8564deb98ceb7ae93c65f9b5fe6ce4168dbeafa69157c8ccb0b66277",
+   "russianWorkingRawSha256": "addd8ca7ac9bd5415fac2c03114cfddebc54c487b0317cbc3d13eb97f5373878",
+   "sourceGitRawSha256": "adb5dc853ff67042729257ba7c803ffb7b130a9ff7ffdc0498a8b14a810d252c",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "ちょうど",
+    "tags": [
+     "wago",
+     "adverb"
+    ],
+    "title": "exactly, just right",
+    "type": "wago",
+    "word": "ちょうど"
+   },
+   "sourceNormalizedLfSha256": "adb5dc853ff67042729257ba7c803ffb7b130a9ff7ffdc0498a8b14a810d252c",
+   "sourceWorkingRawSha256": "adb5dc853ff67042729257ba7c803ffb7b130a9ff7ffdc0498a8b14a810d252c",
+   "word": "ちょうど"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/では.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "a6db8193125848cdf654a35f310b0cfd27b6bd902234485d521a79c04d98e513",
+   "russianNormalizedLfSha256": "a6db8193125848cdf654a35f310b0cfd27b6bd902234485d521a79c04d98e513",
+   "russianWorkingRawSha256": "ce40f5000ba5942e06c497692e54973af9c0b66ef318f73297c6867bda85f7c9",
+   "sourceGitRawSha256": "052a5893a4080367c6b190e1cfeb099b184c64d8113f5388515feebf5e7c5584",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "では",
+    "tags": [
+     "conjunction",
+     "expression",
+     "wago"
+    ],
+    "title": "well then",
+    "type": "wago",
+    "word": "では"
+   },
+   "sourceNormalizedLfSha256": "052a5893a4080367c6b190e1cfeb099b184c64d8113f5388515feebf5e7c5584",
+   "sourceWorkingRawSha256": "052a5893a4080367c6b190e1cfeb099b184c64d8113f5388515feebf5e7c5584",
+   "word": "では"
+  },
+  {
+   "invariantProjectionEqual": true,
+   "map": "files",
+   "path": "words/でも.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "5dbe945860a3bf00c26a57fd501cfe00b315e4be987d195c11de8664ecc5aedd",
+   "russianNormalizedLfSha256": "5dbe945860a3bf00c26a57fd501cfe00b315e4be987d195c11de8664ecc5aedd",
+   "russianWorkingRawSha256": "7ae8a434e0c8f5129aa38914c13a07cba56d8a0c62dc771d4ea556a20ee6910b",
+   "sourceGitRawSha256": "fdebf028f8be84d9778b20a96294c10741f10a2455a381137e4730764dab9cb5",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "でも",
+    "tags": [
+     "wago",
+     "conjunction",
+     "particle"
+    ],
+    "title": "but; however",
+    "type": "wago",
+    "word": "でも"
+   },
+   "sourceNormalizedLfSha256": "fdebf028f8be84d9778b20a96294c10741f10a2455a381137e4730764dab9cb5",
+   "sourceWorkingRawSha256": "fdebf028f8be84d9778b20a96294c10741f10a2455a381137e4730764dab9cb5",
+   "word": "でも"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/とても.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "acce44869cfdfb01319b0d4936f6966be329031587bc85f05f49d28b2560e08b",
+   "russianNormalizedLfSha256": "acce44869cfdfb01319b0d4936f6966be329031587bc85f05f49d28b2560e08b",
+   "russianWorkingRawSha256": "2193d103b7d150890ca7d4a8d9b838ed84d5b3f5ae85e2083de16041c3499a89",
+   "sourceGitRawSha256": "3f3e5f0597c3f3e3cb9531f2d2e978cd0f73630a38f08d98fbe7ecc599c829b9",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "とても",
+    "tags": [
+     "wago",
+     "adverb",
+     "degree"
+    ],
+    "title": "very",
+    "type": "wago",
+    "word": "とても"
+   },
+   "sourceNormalizedLfSha256": "3f3e5f0597c3f3e3cb9531f2d2e978cd0f73630a38f08d98fbe7ecc599c829b9",
+   "sourceWorkingRawSha256": "3f3e5f0597c3f3e3cb9531f2d2e978cd0f73630a38f08d98fbe7ecc599c829b9",
+   "word": "とても"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/また.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "54ebbb53a362fdede6485dadcaa82a7d654d430a31b658709ed18d5f059577ac",
+   "russianNormalizedLfSha256": "54ebbb53a362fdede6485dadcaa82a7d654d430a31b658709ed18d5f059577ac",
+   "russianWorkingRawSha256": "e323fdb977d0a7f69f138a154172d334a8d7e7734388d9759e2bdf50128eab67",
+   "sourceGitRawSha256": "9e1e4661a7dc27c75297795ab776b14c6c2be42b7d5b44a8ca7c12236a38b983",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "また",
+    "tags": [
+     "wago",
+     "adverb",
+     "conjunction"
+    ],
+    "title": "again; in addition",
+    "type": "wago",
+    "word": "また"
+   },
+   "sourceNormalizedLfSha256": "9e1e4661a7dc27c75297795ab776b14c6c2be42b7d5b44a8ca7c12236a38b983",
+   "sourceWorkingRawSha256": "9e1e4661a7dc27c75297795ab776b14c6c2be42b7d5b44a8ca7c12236a38b983",
+   "word": "また"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/まだ.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "31d41f68ef809aeb24be2b0e5e30fbf18d51fd257b58020281b02f9a5a16fd5f",
+   "russianNormalizedLfSha256": "31d41f68ef809aeb24be2b0e5e30fbf18d51fd257b58020281b02f9a5a16fd5f",
+   "russianWorkingRawSha256": "d0b6fff49913102badf46ec0339af74e288ccbb5a91cc3f817530a62f774c9b8",
+   "sourceGitRawSha256": "c26f62455ef736dd0a3c8784a7d3eb4f6758854c2cd8adb79c1c0c6129705b8b",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "quiz_exclusions": [
+     "もっと"
+    ],
+    "reading": "まだ",
+    "tags": [
+     "adverb",
+     "time",
+     "wago"
+    ],
+    "title": "still; not yet",
+    "type": "wago",
+    "word": "まだ"
+   },
+   "sourceNormalizedLfSha256": "c26f62455ef736dd0a3c8784a7d3eb4f6758854c2cd8adb79c1c0c6129705b8b",
+   "sourceWorkingRawSha256": "c26f62455ef736dd0a3c8784a7d3eb4f6758854c2cd8adb79c1c0c6129705b8b",
+   "word": "まだ"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/もう.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "3f378f588f728534ffeb34d3263e42a4ef40843fdf99adbea8a60530bd3d8f45",
+   "russianNormalizedLfSha256": "3f378f588f728534ffeb34d3263e42a4ef40843fdf99adbea8a60530bd3d8f45",
+   "russianWorkingRawSha256": "0b5692d42771372c2234fd37f5bef1043c6b040db2bcd6f68166354938e3e7db",
+   "sourceGitRawSha256": "130940212b1990b9f960c99c44b0dbc6dd1b0462d3227b7afb466ff4c77d8c8b",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "もう",
+    "tags": [
+     "wago",
+     "adverb",
+     "time"
+    ],
+    "title": "already; no longer",
+    "type": "wago",
+    "word": "もう"
+   },
+   "sourceNormalizedLfSha256": "130940212b1990b9f960c99c44b0dbc6dd1b0462d3227b7afb466ff4c77d8c8b",
+   "sourceWorkingRawSha256": "130940212b1990b9f960c99c44b0dbc6dd1b0462d3227b7afb466ff4c77d8c8b",
+   "word": "もう"
+  },
+  {
+   "invariantProjectionEqual": true,
+   "map": "files",
+   "path": "words/もう一度.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "5b426d0328625166d9dd7936c61549ada295e3a37237e78e294afbe4194482de",
+   "russianNormalizedLfSha256": "5b426d0328625166d9dd7936c61549ada295e3a37237e78e294afbe4194482de",
+   "russianWorkingRawSha256": "67ce85c3aae410b3799f243144af3f726c5ad11e1512d272d64c33521c990ffa",
+   "sourceGitRawSha256": "10799d09382b01b15b5ccde4617cdd98104c4b36e884ec64ce19ca86a2017b95",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "一",
+     "度"
+    ],
+    "reading": "もういちど",
+    "tags": [
+     "mixed-reading",
+     "expression",
+     "adverb"
+    ],
+    "title": "once more",
+    "type": "wago",
+    "word": "もう一度"
+   },
+   "sourceNormalizedLfSha256": "10799d09382b01b15b5ccde4617cdd98104c4b36e884ec64ce19ca86a2017b95",
+   "sourceWorkingRawSha256": "10799d09382b01b15b5ccde4617cdd98104c4b36e884ec64ce19ca86a2017b95",
+   "word": "もう一度"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/よく.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "fb71618022693362cdf9776e99d8e66c601604486670db1af25f7f1956800d0c",
+   "russianNormalizedLfSha256": "fb71618022693362cdf9776e99d8e66c601604486670db1af25f7f1956800d0c",
+   "russianWorkingRawSha256": "aba2658419abc35d5b2d4ad3aab79d06ed780f895675282d84d57429a9d1f589",
+   "sourceGitRawSha256": "44b65ce4dabf1ee2038b7eaf29b74be01cbfb85f5f8b0a3b1fb15d82ab7dfc13",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "よく",
+    "tags": [
+     "wago",
+     "adverb",
+     "frequency"
+    ],
+    "title": "often; well",
+    "type": "wago",
+    "word": "よく"
+   },
+   "sourceNormalizedLfSha256": "44b65ce4dabf1ee2038b7eaf29b74be01cbfb85f5f8b0a3b1fb15d82ab7dfc13",
+   "sourceWorkingRawSha256": "44b65ce4dabf1ee2038b7eaf29b74be01cbfb85f5f8b0a3b1fb15d82ab7dfc13",
+   "word": "よく"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/多分.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "852a89f98600676e34e6d7be5e8912f9eb2d7c5c4dacd0a183176d04a5119d5b",
+   "russianNormalizedLfSha256": "852a89f98600676e34e6d7be5e8912f9eb2d7c5c4dacd0a183176d04a5119d5b",
+   "russianWorkingRawSha256": "a0d225b7f8d6f95180cd121a5a8551f9f7e7fb9f9bac0b8c47095293ecd4255f",
+   "sourceGitRawSha256": "569006e583af6d75c23a486b85ea027ae717cae014d635a03465fc5406f573be",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "多",
+     "分"
+    ],
+    "reading": "たぶん",
+    "tags": [
+     "kango",
+     "adverb"
+    ],
+    "title": "probably",
+    "type": "kango",
+    "word": "多分"
+   },
+   "sourceNormalizedLfSha256": "569006e583af6d75c23a486b85ea027ae717cae014d635a03465fc5406f573be",
+   "sourceWorkingRawSha256": "569006e583af6d75c23a486b85ea027ae717cae014d635a03465fc5406f573be",
+   "word": "多分"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/時々.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "5f67de1c24aba09c87cfac80ec092e991c2f3a2a8336d3e9fe837918aa59b484",
+   "russianNormalizedLfSha256": "5f67de1c24aba09c87cfac80ec092e991c2f3a2a8336d3e9fe837918aa59b484",
+   "russianWorkingRawSha256": "b8337e7627bf3de6e7f8530195efeeddf768bc8a95e5aa03660394de0316bfcc",
+   "sourceGitRawSha256": "07ee092f647669029da73f9abb2084a74c0e4fac81770e948c2b0ff694f576a5",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "時"
+    ],
+    "reading": "ときどき",
+    "tags": [
+     "wago",
+     "adverb",
+     "time"
+    ],
+    "title": "sometimes",
+    "type": "wago",
+    "word": "時々"
+   },
+   "sourceNormalizedLfSha256": "8841f8dd2f2b64f0ff1ed9130e49874cc0d92db7bf20f7919791b3d9b557c9d2",
+   "sourceWorkingRawSha256": "07ee092f647669029da73f9abb2084a74c0e4fac81770e948c2b0ff694f576a5",
+   "word": "時々"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/本当.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "93a9d9b259e13fabd0881f91cc80206db2ce695224f9968c05f9fb970a5753cd",
+   "russianNormalizedLfSha256": "93a9d9b259e13fabd0881f91cc80206db2ce695224f9968c05f9fb970a5753cd",
+   "russianWorkingRawSha256": "1ffe44e5744c827fd64c535f4cf411eec1be6a86fa49cf901dcbdafb94791379",
+   "sourceGitRawSha256": "bad88020d43a192dadd56aeeca5f685ea11c6c08b8cffffd62151fdd7719524a",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "本",
+     "当"
+    ],
+    "quiz_exclusions": [
+     "現実"
+    ],
+    "reading": "ほんとう",
+    "tags": [
+     "noun",
+     "kango"
+    ],
+    "title": "truth; real",
+    "type": "kango",
+    "word": "本当"
+   },
+   "sourceNormalizedLfSha256": "bad88020d43a192dadd56aeeca5f685ea11c6c08b8cffffd62151fdd7719524a",
+   "sourceWorkingRawSha256": "bad88020d43a192dadd56aeeca5f685ea11c6c08b8cffffd62151fdd7719524a",
+   "word": "本当"
+  },
+  {
+   "invariantProjectionEqual": true,
+   "map": "files",
+   "path": "words/たいてい.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "required-negative-reference-provider",
+   "russianCanonicalGitRawSha256": "40c05548d7965e6188ae9816b64091b6ae9f5417fea0644b2ac20229799a81de",
+   "russianNormalizedLfSha256": "40c05548d7965e6188ae9816b64091b6ae9f5417fea0644b2ac20229799a81de",
+   "russianWorkingRawSha256": "3ecc363f2f61748be3f28e474fe393557ba4dd731aa030f5abed7e71a0161039",
+   "sourceGitRawSha256": "157de4d2e5c5abb007253b3a531ae184be54e39b5e5364524c2086b2b19de314",
+   "sourceMetadata": {
+    "jlpt": 4,
+    "kanji": [],
+    "reading": "たいてい",
+    "tags": [
+     "kango",
+     "adverb",
+     "noun",
+     "frequency"
+    ],
+    "title": "usually; most",
+    "type": "kango",
+    "word": "たいてい"
+   },
+   "sourceNormalizedLfSha256": "157de4d2e5c5abb007253b3a531ae184be54e39b5e5364524c2086b2b19de314",
+   "sourceWorkingRawSha256": "157de4d2e5c5abb007253b3a531ae184be54e39b5e5364524c2086b2b19de314",
+   "word": "たいてい"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/現実.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "required-negative-reference-provider",
+   "russianCanonicalGitRawSha256": "b0cc7b6bf8d752a6ffb67fea42422cd7d1814657b9a142bf3358bea15462ce60",
+   "russianNormalizedLfSha256": "b0cc7b6bf8d752a6ffb67fea42422cd7d1814657b9a142bf3358bea15462ce60",
+   "russianWorkingRawSha256": "06bf33f01e82359e919c840dade2193b61884dc38a9418ccf3f3c2d57875a9ac",
+   "sourceGitRawSha256": "127eedd2080abc121afe1797641ae6fe657a375a5f0af55625bb9b83c2e118db",
+   "sourceMetadata": {
+    "jlpt": 3,
+    "kanji": [
+     "現",
+     "実"
+    ],
+    "quiz_exclusions": [
+     "実際"
+    ],
+    "reading": "げんじつ",
+    "tags": [
+     "kango",
+     "concepts"
+    ],
+    "title": "reality",
+    "type": "kango",
+    "word": "現実"
+   },
+   "sourceNormalizedLfSha256": "127eedd2080abc121afe1797641ae6fe657a375a5f0af55625bb9b83c2e118db",
+   "sourceWorkingRawSha256": "127eedd2080abc121afe1797641ae6fe657a375a5f0af55625bb9b83c2e118db",
+   "word": "現実"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/実際.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "required-negative-reference-provider",
+   "russianCanonicalGitRawSha256": "c32a6278e46b8cafa82287cde052014161e443d92053f97ffdbe9761aad6d447",
+   "russianNormalizedLfSha256": "c32a6278e46b8cafa82287cde052014161e443d92053f97ffdbe9761aad6d447",
+   "russianWorkingRawSha256": "3fa79e5bf454d391e46bc3cc99ae8a7ed3c946ae96c6e23b345deefa7e07146a",
+   "sourceGitRawSha256": "faba318aa54ccedc82eded51d15f77106ba8430def26c9c96cddf247471e4db9",
+   "sourceMetadata": {
+    "jlpt": 3,
+    "kanji": [
+     "実",
+     "際"
+    ],
+    "reading": "じっさい",
+    "tags": [
+     "kango",
+     "reality"
+    ],
+    "title": "actually; in reality",
+    "type": "kango",
+    "word": "実際"
+   },
+   "sourceNormalizedLfSha256": "faba318aa54ccedc82eded51d15f77106ba8430def26c9c96cddf247471e4db9",
+   "sourceWorkingRawSha256": "faba318aa54ccedc82eded51d15f77106ba8430def26c9c96cddf247471e4db9",
+   "word": "実際"
+  }
+ ],
+ "ordinaryActivationAuthorized": false,
+ "originalCandidateCommit": "89cdaf33c95599edfd59c8d8d18abd0232216bf3",
+ "phase": "Corrected candidate; focused assessment pending; no acceptance",
+ "reviewStatus": "PENDING; all25strongerconservative necessity/frequencyclaims UNVERIFIED/unasserted",
+ "russianCandidateParentCommit": "3496d4149dc247727a2a5e8b3b76a084a044f660",
+ "schemaVersion": 1,
+ "withdrawnUnsupportedDirectProposals": [
+  {
+   "left": "また",
+   "leftActualCaption": "снова; также",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Actual また sense6 records really with explicit surprise/shock/doubt context and actual new 本当 title contains правда. Assess the coarse Russian surprise boundary; not a new neutral N5 reading.",
+   "right": "本当",
+   "rightActualCaption": "правда; настоящий",
+   "status": "PROPOSED; actual independent assessment pending"
+  }
+ ]
+}
