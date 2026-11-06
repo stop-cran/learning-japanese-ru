@@ -1,0 +1,1098 @@
+{
+ "activeGuidanceChanges": [
+  {
+   "baselineGitRawSha256": "c372d1935d546ea5e0a187f793bc78b387bbea4deef2d960221ca8d904b24296",
+   "boundary": "Three proposed observation lines require actual whole-review reading; no previous approval carried over.",
+   "exactDiff": "diff --git a/.github/copilot-instructions.md b/.github/copilot-instructions.md\nindex 3b51002..2864f22 100644\n--- a/.github/copilot-instructions.md\n+++ b/.github/copilot-instructions.md\n@@ -249,6 +249,9 @@ Limits: <существенные непроверенные утвержден\n   текста, поэтому «писать» у 書く нельзя отвергать только из-за части речи. Общего словарного `learn`\n   недостаточно: проверяйте русский смысл и «у преподавателя»; неподтверждённое обоснование не становится CLEAN.\n   [Исходное ревью и открытые вопросы партии037](../docs/translation-batches/037-communication-learning-independent-review-001.json).\n+- В количественных вопросах сравнивайте широкую русскую подпись «сколько» с уточнённой «сколько человек»\n+  как отдельную прямую пару. Одного общего слова недостаточно: «во сколько» спрашивает о времени\n+  на часах, а не о количестве; проверяйте всю конструкцию.\n - После добавления кандзи повторно проверяйте старые статьи, где он указан в metadata: прежняя\n   optional-ссылка может стать обязательной. В партии 002 validator потребовал восстановить 休\n   в 休日; baseline-статья включена в amendment и повторное ревью, прежний receipt не переписан.\n",
+   "path": ".github/copilot-instructions.md",
+   "russianCanonicalGitRawSha256": "315f5daf2407c6ffaa0f102c675606dc2319fe91927564231fd1ebcf4ef8180d",
+   "russianNormalizedLfSha256": "315f5daf2407c6ffaa0f102c675606dc2319fe91927564231fd1ebcf4ef8180d",
+   "russianWorkingRawSha256": "315f5daf2407c6ffaa0f102c675606dc2319fe91927564231fd1ebcf4ef8180d"
+  }
+ ],
+ "actualSerialValidation": [
+  {
+   "command": [
+    "C:\\Users\\stop-\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools\\build_manifest.py"
+   ],
+   "completedAt": "2026-11-06T04:01:31.605681+00:00",
+   "cwd": "C:\\Users\\stop-\\learning-japanese-ru",
+   "elapsedSeconds": 0.203,
+   "executionBoundary": "Author executed serially; no next command before this process returned.",
+   "exitCode": 0,
+   "rawSha256": "53bfe447008b6443d65acae5ad2c5960027b7dfc31d286aa8df09cdf42421243",
+   "recordFile": "ru-038-candidate-validation-step-01-001.json",
+   "startedAt": "2026-11-06T04:01:31.402002+00:00",
+   "stderr": "",
+   "stdout": "manifest.json: 1025 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version c3444eaf9a65b497\r\n"
+  },
+  {
+   "command": [
+    "C:\\Users\\stop-\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools\\validate.py"
+   ],
+   "completedAt": "2026-11-06T04:01:33.919092+00:00",
+   "cwd": "C:\\Users\\stop-\\learning-japanese-ru",
+   "elapsedSeconds": 2.313,
+   "executionBoundary": "Author executed serially; no next command before this process returned.",
+   "exitCode": 0,
+   "rawSha256": "6d93852fd29105224facd690809d9e7a9c37c4ff12e2822e52410b14a8d9c0a7",
+   "recordFile": "ru-038-candidate-validation-step-02-001.json",
+   "startedAt": "2026-11-06T04:01:31.609380+00:00",
+   "stderr": "",
+   "stdout": "0 error(s)\r\n"
+  },
+  {
+   "command": [
+    "C:\\Users\\stop-\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tools",
+    "-p",
+    "test_*.py"
+   ],
+   "completedAt": "2026-11-06T04:02:07.491637+00:00",
+   "cwd": "C:\\Users\\stop-\\learning-japanese-ru",
+   "elapsedSeconds": 33.546,
+   "executionBoundary": "Author executed serially; no next command before this process returned.",
+   "exitCode": 0,
+   "rawSha256": "ea51073e16914e4a1e6f3b0c9cd2ed2fa1e627f5c2605663a7dd612081dd77ef",
+   "recordFile": "ru-038-candidate-validation-step-03-001.json",
+   "startedAt": "2026-11-06T04:01:33.931935+00:00",
+   "stderr": "............................................................................................................................\r\n----------------------------------------------------------------------\r\nRan 124 tests in 33.218s\r\n\r\nOK\r\n",
+   "stdout": ""
+  },
+  {
+   "command": [
+    "C:\\Users\\stop-\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools\\check_content_budget.py"
+   ],
+   "completedAt": "2026-11-06T04:02:08.257269+00:00",
+   "cwd": "C:\\Users\\stop-\\learning-japanese-ru",
+   "elapsedSeconds": 0.75,
+   "executionBoundary": "Author executed serially; no next command before this process returned.",
+   "exitCode": 0,
+   "rawSha256": "955caddb0345deb992b92e0b33f2f5ad4102c8747dc73d023b59186a65da26e0",
+   "recordFile": "ru-038-candidate-validation-step-04-001.json",
+   "startedAt": "2026-11-06T04:02:07.499050+00:00",
+   "stderr": "",
+   "stdout": "{'files': 1033, 'entries': 1042, 'retainedBytes': 2897869, 'inflatedBytes': 2916084, 'localZipBytes': 1461094, 'listeningTaskMediaBytes': 0}\r\n"
+  }
+ ],
+ "additionalFrozenEnglishOnlyBodies": [
+  {
+   "actualWholeEnglishBodyRead": true,
+   "disposition": "Future N5 context, not a nonexistent RU pair or scope addition. Exact なん prefix has how-many only followed by a counter and other quantity constructions with explicitも/か; reconsider direct caption closure when this pending word is actually adopted. No English runtime placeholder.",
+   "path": "words/何.md",
+   "russianRuntimeExists": false,
+   "sourceGitRawSha256": "4bd384148e4b9d354809ccd3f5d1461078fee4178a81713a88d88d86306cd1d8",
+   "sourceNormalizedLfSha256": "4bd384148e4b9d354809ccd3f5d1461078fee4178a81713a88d88d86306cd1d8"
+  }
+ ],
+ "answerPoolPrivateFile": "ru-038-candidate-answer-pool-001.json",
+ "answerPoolPrivateRawSha256": "757e887508e4e764102e5944dc34e297f81328a1463abd05a9157ab667dc323a",
+ "appHintFollowup": {
+  "actualExactGitBlobPrivateFile": "ru-032-pinned-app-WordQuizScreen-5c000bd.kt",
+  "actualFreshCompleteMappingReadingRange": [
+   165,
+   202
+  ],
+  "disposition": "Preserve technical source IDs. Separate mapping follow-up at immutable pin only, not current dirty app/native observation or authoring stop.",
+  "exactPinnedAppCommit": "5c000bd5596d2189ef878da572687bd01ab3bb5f",
+  "newlyExposedIdsWithoutExplicitMappingAtThisPin": [
+   "address",
+   "degree",
+   "measurement",
+   "order",
+   "particle",
+   "prefix",
+   "unit",
+   "usually-kana"
+  ],
+  "rawSha256": "530ff7e5d6da2829bc08ff57c6356162af04b0ab84598cb7c19127217f71c08c"
+ },
+ "authorAdaptations": [
+  "All18complete Russian learner units preserve source Japanese examples/readings/forms, technical IDs/types/kanji/tags/levels/qualifiers/attributions;16N5roots+2requiredN4providers.",
+  "All16source local links enumerated:4retained/12optional wrappers removed without dropping substantive teaching. No assets, mandatory new kanji/stroke providers or grammar vocabulary contexts.",
+  "Russian answer labels compared against695actual baselinecompactrows and18new titles. Twenty-four direct safeguards remain author proposals, not linguistic acceptance.",
+  "Preserve kilogram mass/everyday-weight distinction, metric ratios, prefix/context ambiguity, rare spellings/French attribution and qualified metre/device spelling, not absolute bans.",
+  "Preserve amount/price/count/age, people/things/whole set and respect, first/degree versus further increase, standard-before-より and formal-from, 最初 versus初めて; no forced particle-case equivalence or English dependence.",
+  "Canonical address/degree/measurement/order/particle/prefix/unit/usually-kana IDs retained; only immutable app5c000bd map gaps observed, no concurrent current-app assertion/edit or device test.",
+  "Protect1007accepted baselineRAWs/tracking/history and full excluded 空 C2UNVERIFIED; accepted progress remains unchanged pending actual independent review.",
+  "何 is an EN-only future context, not a nonexistent full RU pair or adopted runtime word. HTTP404キロ is preserved as failed retrieval, never lexical absence evidence."
+ ],
+ "baselineRuntimeObjectsUnchangedRaw": 1007,
+ "batchId": "038-quantities-measurements",
+ "combinedRuntimeCount": 1025,
+ "combinedWordCount": 713,
+ "combinedWordLevels": {
+  "2": 19,
+  "3": 60,
+  "4": 56,
+  "5": 524,
+  "absent": 54
+ },
+ "contentVersion": "c3444eaf9a65b497",
+ "contextualBaselinePairs": [
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "boundary": "Unchanged support pair, not rewriting its historical acceptance.",
+   "path": "words/一.md",
+   "russianNormalizedLfSha256": "06edc414f1ef6a81bdcccf154a8979180d33fd37dbb6ecef726190a099fad131",
+   "russianWorkingRawSha256": "9725b1995703fc68617ac72ff70219c5478cd9a774fd4f58e015153560f10dbf",
+   "sourceGitRawSha256": "c381a88714cff194f1cd50b5492303af690d0c670891ad3bb113f4983b0f9f03",
+   "sourceNormalizedLfSha256": "c381a88714cff194f1cd50b5492303af690d0c670891ad3bb113f4983b0f9f03"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "boundary": "Unchanged support pair, not rewriting its historical acceptance.",
+   "path": "words/千.md",
+   "russianNormalizedLfSha256": "bdbcd1fd35bc508cc1137b75c6510a7665f19349d13eb5c176f8326760409ab5",
+   "russianWorkingRawSha256": "15eb9a74172f0a82f8873cce31b28d0a48980b0a2accf05e6900c9c3bceb489e",
+   "sourceGitRawSha256": "c1cadb5004f1086546291934de33da3979db3df2ee480ad4c68de191472d84ef",
+   "sourceNormalizedLfSha256": "c1cadb5004f1086546291934de33da3979db3df2ee480ad4c68de191472d84ef"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "boundary": "Unchanged support pair, not rewriting its historical acceptance.",
+   "path": "words/多い.md",
+   "russianNormalizedLfSha256": "d69b01b4bbae05b0a27f7701845e684f781935021038db7de6bd816ef8792aa0",
+   "russianWorkingRawSha256": "a6ab81e17a59d4c35491ba639319390ba24c31b7ea487fd085afb1bf4dab27e3",
+   "sourceGitRawSha256": "a69be5896935c4b9a52aaaed4db3f999b8601b9717567e779454b5da38d804e3",
+   "sourceNormalizedLfSha256": "46af14bbbef4538227a38ee0af656ea1951e003c778de355f2048d95f352affb"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "boundary": "Unchanged support pair, not rewriting its historical acceptance.",
+   "path": "words/少し.md",
+   "russianNormalizedLfSha256": "4f6a52f10f4712aca013ee5694434b0c860c6b40e57ce187fd7011ddbe183630",
+   "russianWorkingRawSha256": "9b42673bbfb47dccf0d7f18a555e5e12c3426a05275155c40e862f5b6cffd671",
+   "sourceGitRawSha256": "1c31e3ae37e28c428e7212f8f3c9630040440f2dc7118ea0e24c701c2b70f623",
+   "sourceNormalizedLfSha256": "32de6e5ac7dfea91c275a59418540131ede7fedaa24c385a14005c19d8bf03fc"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "boundary": "Unchanged support pair, not rewriting its historical acceptance.",
+   "path": "words/多少.md",
+   "russianNormalizedLfSha256": "646be71df985b524d71894d68fe3635a04f622936aad810a5714a4021f59546c",
+   "russianWorkingRawSha256": "a17260e55a87b6cdcab2b7a9e07a0907f04067d94dd70deac136a22efc587003",
+   "sourceGitRawSha256": "127d29213acf279a2765624799c5a9f3fb69d9f92ec3d913d6511daa1f8b7b24",
+   "sourceNormalizedLfSha256": "00259a1a5aa1847c1c32490c0abd367e72312c2918d2250f9ba5ba395477b5ab"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "boundary": "Unchanged support pair, not rewriting its historical acceptance.",
+   "path": "words/結構.md",
+   "russianNormalizedLfSha256": "fdfb3d9782fc246a2756498f8f416aab3325c97c1128274438c1e5014c24bfb6",
+   "russianWorkingRawSha256": "c82d4cf9c52e339be455e5ecadc0ccc300644f0df8e5428a9e5acd1101727cc7",
+   "sourceGitRawSha256": "86a96680a81be14d4985e55bcf005bad2d36ac5cbb0a4dc6e98830f951d05ecb",
+   "sourceNormalizedLfSha256": "86a96680a81be14d4985e55bcf005bad2d36ac5cbb0a4dc6e98830f951d05ecb"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "boundary": "Unchanged support pair, not rewriting its historical acceptance.",
+   "path": "words/人.md",
+   "russianNormalizedLfSha256": "f9d01e5cf6e6399bb99a73dc91a93d194db6d77aaa044a49f14397cbd74e2938",
+   "russianWorkingRawSha256": "e8c812af266960dd66bf1e4dfa6c8633c9fcf980e7735fefa50644a117536632",
+   "sourceGitRawSha256": "d74cf630ac1e1f27368554e23742dc273f49f4a5f8959456c0061842549e0c64",
+   "sourceNormalizedLfSha256": "d74cf630ac1e1f27368554e23742dc273f49f4a5f8959456c0061842549e0c64"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "boundary": "Unchanged support pair, not rewriting its historical acceptance.",
+   "path": "words/組.md",
+   "russianNormalizedLfSha256": "cfbf6cbaa70935f78d98daa9689e7d7d0eeaad26ba7e67600d58e23a82d40cdf",
+   "russianWorkingRawSha256": "0cf192715b121308fd2ff565b10748fc245d562c5e1428359d40bc654db95191",
+   "sourceGitRawSha256": "7cf2d908ad33b56d96658d54205a91de69dd3f71f3f3cb5cf31bec5eb7bd9e2f",
+   "sourceNormalizedLfSha256": "7cf2d908ad33b56d96658d54205a91de69dd3f71f3f3cb5cf31bec5eb7bd9e2f"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "boundary": "Unchanged support pair, not rewriting its historical acceptance.",
+   "path": "words/団体.md",
+   "russianNormalizedLfSha256": "42e82128c35d1c16c14308c9903e25e0f83f5cbd7177c25b3bcd89652d5f9bd6",
+   "russianWorkingRawSha256": "70479fc7768c790d31fa420ac0fa67366cbf48f9863dd710ba2d41dab5ee7aa2",
+   "sourceGitRawSha256": "d10ba9fe5f61cade3318e84b0f23edb7fa9d49144b86dc0bb98f3407cee7fb93",
+   "sourceNormalizedLfSha256": "d10ba9fe5f61cade3318e84b0f23edb7fa9d49144b86dc0bb98f3407cee7fb93"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "boundary": "Unchanged support pair, not rewriting its historical acceptance.",
+   "path": "words/賑やか.md",
+   "russianNormalizedLfSha256": "d2bab038a6c314caf64ff9ecd8cf5c20b605472db431c58577b5efa009ed305b",
+   "russianWorkingRawSha256": "2d722ff1da45211e57906c8d594fbda0b4328620533848d832b25ec209495f2b",
+   "sourceGitRawSha256": "21771104f5a88263fe20f43c83c12d6219e108bd980328af05ebe6b47cdad5df",
+   "sourceNormalizedLfSha256": "21771104f5a88263fe20f43c83c12d6219e108bd980328af05ebe6b47cdad5df"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "boundary": "Unchanged support pair, not rewriting its historical acceptance.",
+   "path": "words/方.md",
+   "russianNormalizedLfSha256": "d0cf4b2522303b71da8ddfc0d32b210fa4ea3f5e69398d4868bfa4f543009743",
+   "russianWorkingRawSha256": "7869f8e7aa131742e804b1113d7b5ef72021894bbbd65bb5572dd17d043ebdfc",
+   "sourceGitRawSha256": "09a1308ebe5bd5611f740c698ac5f14723f3df79ac32569c36161ddba58c0588",
+   "sourceNormalizedLfSha256": "09a1308ebe5bd5611f740c698ac5f14723f3df79ac32569c36161ddba58c0588"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "boundary": "Unchanged support pair, not rewriting its historical acceptance.",
+   "path": "words/大きい.md",
+   "russianNormalizedLfSha256": "b058e63aeea843ec31d4c417831f5d4a399ed238d79b034b81ab71d842692c80",
+   "russianWorkingRawSha256": "96c7b0862aee1f4286867f5803cd61380c0f23fb3179109a69e6de6d6ef1764b",
+   "sourceGitRawSha256": "a628456b50b79493fee8007d6d9bf0a6a5089f7e1038a864428118ef6f065482",
+   "sourceNormalizedLfSha256": "a628456b50b79493fee8007d6d9bf0a6a5089f7e1038a864428118ef6f065482"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "boundary": "Unchanged support pair, not rewriting its historical acceptance.",
+   "path": "words/寒い.md",
+   "russianNormalizedLfSha256": "1d005c42b281739af759c9108bdaa9f98e94a0d2035ce5f058e0d36b40191447",
+   "russianWorkingRawSha256": "382b7d2a6f2408d1d360a9d7b0c7f6f2f1a9f0710b4d9cd297932aa1b4bb3149",
+   "sourceGitRawSha256": "d4321e5f8fe11f061795fe26e7ce02832488b9e8b7c819ed36c1f339ad517d6e",
+   "sourceNormalizedLfSha256": "d4321e5f8fe11f061795fe26e7ce02832488b9e8b7c819ed36c1f339ad517d6e"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "boundary": "Unchanged support pair, not rewriting its historical acceptance.",
+   "path": "words/軽い.md",
+   "russianNormalizedLfSha256": "721c2c51dac7f2f4312316a63e51301511997593716a9ad43aa0985e77b9d540",
+   "russianWorkingRawSha256": "fd3b1b7550e707b09cf84e484d7728dd45a135e2911c35a00dbcceacaee05b24",
+   "sourceGitRawSha256": "b2d36ac05a316b55fce9f4e2751175e68b4f8a2c01c26bae9bb922eac06ec385",
+   "sourceNormalizedLfSha256": "b2d36ac05a316b55fce9f4e2751175e68b4f8a2c01c26bae9bb922eac06ec385"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "boundary": "Unchanged support pair, not rewriting its historical acceptance.",
+   "path": "words/勉強.md",
+   "russianNormalizedLfSha256": "7cf96489fe0fca26305521205c78842ff6783681c69b333c7721e7ae5d5dd144",
+   "russianWorkingRawSha256": "7cf96489fe0fca26305521205c78842ff6783681c69b333c7721e7ae5d5dd144",
+   "sourceGitRawSha256": "6834a33656ca2acd8d1fe211fd0fc3cc59d4a5d9f3287c30e835a3a4b4e16a69",
+   "sourceNormalizedLfSha256": "6834a33656ca2acd8d1fe211fd0fc3cc59d4a5d9f3287c30e835a3a4b4e16a69"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "boundary": "Unchanged support pair, not rewriting its historical acceptance.",
+   "path": "words/一つ.md",
+   "russianNormalizedLfSha256": "c11f16efae9b32ac677132070f40576309c21e2511b16b94aba64a80f695adf4",
+   "russianWorkingRawSha256": "c11f16efae9b32ac677132070f40576309c21e2511b16b94aba64a80f695adf4",
+   "sourceGitRawSha256": "5337985e0cded96b5ac292f0846b11cbb3a42f41fb38b0492e325dd95a7d39c4",
+   "sourceNormalizedLfSha256": "5337985e0cded96b5ac292f0846b11cbb3a42f41fb38b0492e325dd95a7d39c4"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "boundary": "Unchanged support pair, not rewriting its historical acceptance.",
+   "path": "words/力.md",
+   "russianNormalizedLfSha256": "5391967b8a75ec24dd44a8d7ffb7b269637a121a121b0e5529666a3db512ea5f",
+   "russianWorkingRawSha256": "c0f1ca7d0b3302d8df919c35f5760a0666370bc3bee18209356c1ff03c458926",
+   "sourceGitRawSha256": "06c2fca01950f6c6bd3129a9676d22efa6716dbd7ab6955da5451448a1c12b2c",
+   "sourceNormalizedLfSha256": "e8825ffd4be0bbde222472e725fa7504085afdeb3e1a387f008101c0f27ff135"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "boundary": "Unchanged support pair, not rewriting its historical acceptance.",
+   "path": "words/左右.md",
+   "russianNormalizedLfSha256": "3275b8c35874ca57e415f30a5327dce59ca229c6330593854e33cf8a7b46a183",
+   "russianWorkingRawSha256": "28fac709d37f9be764261293f7e3eb1d1d74b6be0ad29820bd3f17d658f266c7",
+   "sourceGitRawSha256": "df3a8f022b552b8b6bfbd9c23a2ea205495ae66d316ff5b310f0e72dd2b429fd",
+   "sourceNormalizedLfSha256": "b8398580a93dd4b53b556ea3986c6cc4ae24768972766e8286726e3352b1e43e"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "boundary": "Unchanged complete context pair, not rewriting its historical acceptance.",
+   "path": "words/何人.md",
+   "russianNormalizedLfSha256": "0ac69e7233870f2569fae1e7ad826f8eb65691c67ee8aa6f28d886bce62e914e",
+   "russianWorkingRawSha256": "5a09266e57b1c31d2af69a9c76d0d95cf49d8b7366808ffa655805e6e24ba189",
+   "sourceGitRawSha256": "37dc8e9a9e9e86811ba29f3b877c0d189e5687667c53d33379ebbae7a9822aea",
+   "sourceNormalizedLfSha256": "937e9ff2ec034e24054f81a8991f825322a96ccdcb2910cc116d31ed1594d909"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "boundary": "Unchanged complete context pair, not rewriting its historical acceptance.",
+   "path": "words/何時.md",
+   "russianNormalizedLfSha256": "f855b207afe0c346b060245fe68cf34227ed543b059204b322c7838ddfd242f3",
+   "russianWorkingRawSha256": "90297c2014f88d3450b7bd12d28bbe248237ba943a1e74b54bbf8ee37d23ac5a",
+   "sourceGitRawSha256": "8a79d22cfbdd089dee9fbe9fe709451cf0283f3de1aaf6b01b22567fd89f75ca",
+   "sourceNormalizedLfSha256": "7a7f11947bc2b80e8b5be434b926a133ca3d6a921e50bbaaf07ea1a82e950ba4"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "boundary": "Unchanged complete context pair, not rewriting its historical acceptance.",
+   "path": "words/出発.md",
+   "russianNormalizedLfSha256": "c447d25fab7026e2b539d508adcc47b5e77becdb86827e22dd9dbde107d678a4",
+   "russianWorkingRawSha256": "c447d25fab7026e2b539d508adcc47b5e77becdb86827e22dd9dbde107d678a4",
+   "sourceGitRawSha256": "7c9a16f5238869ce2a197be727a621939a07dc476ea1cb6712d30712ffb105c1",
+   "sourceNormalizedLfSha256": "7c9a16f5238869ce2a197be727a621939a07dc476ea1cb6712d30712ffb105c1"
+  }
+ ],
+ "directProposals": 24,
+ "frozenSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "lexicalAmendmentReceipt": "docs/translation-batches/038-quantities-measurements-scope-amendment.json",
+ "lexicalEvidenceReceipt": "docs/translation-batches/038-quantities-measurements-source-adjudication.json",
+ "lexicalHttpJishoQueries": 44,
+ "lexicalSelectedCompleteCandidateObjects": 68,
+ "lexicalSelectedCompleteLexicalObjects": 65,
+ "lexicalWikipediaOnlyNotAdopted": 3,
+ "limits": "Not whole-corpus/native/media/device/defaultactivation/release/checkpoint acceptance. Continue remaining safe frozen families.",
+ "newProposedDirectPairs": [
+  {
+   "left": "キロ",
+   "leftActualCaption": "кило; килограмм; километр",
+   "rationale": "Actual complete sources and exact lexical object independently give the kilogram shortening; the Russian kilogram label fits. Keep the kilometre and prefix senses, not a kilogram-only rewrite.",
+   "right": "キログラム",
+   "rightActualCaption": "килограмм",
+   "status": "PROPOSED; independent review pending"
+  },
+  {
+   "left": "キロ",
+   "leftActualCaption": "кило; килограмм; километр",
+   "rationale": "Actual complete sources and exact lexical object independently give the kilometre shortening; the Russian kilometre label fits. Not inferred through the kilogram guard.",
+   "right": "キロメートル",
+   "rightActualCaption": "километр",
+   "status": "PROPOSED; independent review pending"
+  },
+  {
+   "left": "キロ",
+   "leftActualCaption": "кило; килограмм; километр",
+   "rationale": "Actual exact キロ prefix sense explicitly means thousand; the accepted 千 caption is тысяча. Prefix status remains explicit, not a claim that bare キロ replaces 千 in ordinary counting.",
+   "right": "千",
+   "rightActualCaption": "тысяча",
+   "status": "PROPOSED; independent review pending"
+  },
+  {
+   "left": "いくら",
+   "leftActualCaption": "сколько; сколько стоит",
+   "rationale": "Both exact primary objects/sources independently ask quantity. Actual Russian сколько overlaps even though price/amount and number/age select different constructions.",
+   "right": "幾つ",
+   "rightActualCaption": "сколько; сколько лет",
+   "status": "PROPOSED; independent review pending"
+  },
+  {
+   "left": "たくさん",
+   "leftActualCaption": "много; достаточно",
+   "rationale": "Exact objects independently give large quantity/many; actual Russian много fits. Preserve adjective versus noun/adverb syntax, not universal substitution.",
+   "right": "多い",
+   "rightActualCaption": "много; многочисленный",
+   "status": "PROPOSED; independent review pending"
+  },
+  {
+   "left": "たくさん",
+   "leftActualCaption": "много; достаточно",
+   "rationale": "Exact たくさん includes countable people; named modern Daijisen 大勢 explicitly means 多くの人. Both actual many labels can fit a people-quantity context. Not a generic amount-of-liquid sense for 大勢.",
+   "right": "大勢",
+   "rightActualCaption": "много людей",
+   "status": "PROPOSED; independent review pending"
+  },
+  {
+   "left": "たくさん",
+   "leftActualCaption": "много; достаточно",
+   "rationale": "The complete source and exact たくさん object independently have enough; the actual accepted 結構 caption includes достаточно. Refusal context and register are retained, not automatic acceptance.",
+   "right": "結構",
+   "rightActualCaption": "хороший; достаточно",
+   "status": "PROPOSED; independent review pending"
+  },
+  {
+   "left": "大勢",
+   "leftActualCaption": "много людей",
+   "rationale": "Named modern Daijisen 大勢 directly defines 多くの人 and the independently read 多い object means numerous. The broad actual много caption can fit that direct quantity sense, not inherited from たくさん.",
+   "right": "多い",
+   "rightActualCaption": "много; многочисленный",
+   "status": "PROPOSED; independent review pending"
+  },
+  {
+   "left": "大勢",
+   "leftActualCaption": "много людей",
+   "rationale": "Named modern Daijisen 大勢 directly denotes many people; the accepted generic человек;люди caption covers the human plural denotation. Submitted as a direct broad-label decision, not a claim that 人 itself asserts many.",
+   "right": "人",
+   "rightActualCaption": "человек; люди",
+   "status": "PROPOSED; independent review pending"
+  },
+  {
+   "left": "大勢",
+   "leftActualCaption": "много людей",
+   "rationale": "The full 大勢 source teaches 大勢で as a large group. The actual accepted 組 caption has группа; the actually read Russian группа sense1 includes people together without requiring an institution or a small number. Review this direct broader-group label, not a source-English crowd token alone.",
+   "right": "組",
+   "rightActualCaption": "группа; комплект",
+   "status": "PROPOSED; independent review pending"
+  },
+  {
+   "left": "大勢",
+   "leftActualCaption": "много людей",
+   "rationale": "The full 大勢 source independently teaches a large group of people and the actual accepted 団体 caption includes группа. Actual Russian группа senses1/3 and the full 団体 body establish the broader group meaning; no claim that every crowd is a formal organisation.",
+   "right": "団体",
+   "rightActualCaption": "группа; организация",
+   "status": "PROPOSED; independent review pending"
+  },
+  {
+   "left": "大勢",
+   "leftActualCaption": "много людей",
+   "rationale": "Named modern Daijisen independently records written 大勢/たいせい sense3 as 大きな権勢、強い勢力. The actually read 権勢 definition concerns holding power; actual 力 caption сила;мощь and full abstract-power body fit. Do not claim modern frequency: the dictionary example is an older literary translation.",
+   "right": "力",
+   "rightActualCaption": "сила; мощь",
+   "status": "PROPOSED; independent review pending"
+  },
+  {
+   "left": "大勢",
+   "leftActualCaption": "много людей",
+   "rationale": "Direct evidence is written 大勢/たいせい sense3 権勢/勢力, not transitivity through 力. Actually read Russian влияние sense2 is власть в обществе, возможность воздействовать на ход событий; the actual 左右 caption includes влияние. This is a conservative bare-written-prompt caption guard, not teaching 大勢 as a suru verb or asserting current frequency.",
+   "right": "左右",
+   "rightActualCaption": "левая и правая стороны; влияние",
+   "status": "PROPOSED; independent review pending"
+  },
+  {
+   "left": "全部",
+   "leftActualCaption": "всё; полностью",
+   "rationale": "Complete primary objects/sources independently cover all/everything in a contextual set; actual всё labels directly overlap. Keep people/items and syntax qualifications.",
+   "right": "みんな",
+   "rightActualCaption": "все; всё",
+   "status": "PROPOSED; independent review pending"
+  },
+  {
+   "left": "みんな",
+   "leftActualCaption": "все; всё",
+   "rationale": "Complete sources/objects independently address or refer to everyone. Actual все labels overlap in the human scope; preserve respectful みなさん and casual/emphatic みんな, not universal register substitution.",
+   "right": "皆さん",
+   "rightActualCaption": "все (уважительно, о людях)",
+   "status": "PROPOSED; independent review pending"
+  },
+  {
+   "left": "いちばん",
+   "leftActualCaption": "первый; самый",
+   "rationale": "Mandatory frozen source negative edge, also independently supported by both exact primary objects and named modern Daijisen 最も. Actual highest-degree labels overlap.",
+   "right": "最も",
+   "rightActualCaption": "наиболее; в наибольшей степени",
+   "status": "PROPOSED; independent review pending"
+  },
+  {
+   "left": "いちばん",
+   "leftActualCaption": "первый; самый",
+   "rationale": "Mandatory frozen source negative edge; both full primary sources teach first/initial uses and actual первый captions overlap. First in sequence is not automatically best.",
+   "right": "最初",
+   "rightActualCaption": "начало; первый",
+   "status": "PROPOSED; independent review pending"
+  },
+  {
+   "left": "いちばん",
+   "leftActualCaption": "первый; самый",
+   "rationale": "The actually read named modern Daijisen standalone 一/いち noun senses2/3 first/start and adverb いちばん、最も independently overlap with the actual new first/most label. Bound numeral/prefix examples alone are not the proof; no frequency assertion from the classical adverb quotation.",
+   "right": "一",
+   "rightActualCaption": "один",
+   "status": "PROPOSED; independent review pending"
+  },
+  {
+   "left": "最初",
+   "leftActualCaption": "начало; первый",
+   "rationale": "Named modern Daijisen standalone 一/いち noun senses2/3 explicitly first/beginning with 一から出直す. The actual 最初 caption начало;первый fits directly, not inferred through いちばん.",
+   "right": "一",
+   "rightActualCaption": "один",
+   "status": "PROPOSED; independent review pending"
+  },
+  {
+   "left": "最も",
+   "leftActualCaption": "наиболее; в наибольшей степени",
+   "rationale": "Named modern Daijisen standalone 一/いち explicitly has adverb 最も and noun highest/best; exact 最も highest-degree object independently confirms the overlap. Classical quotation does not establish modern frequency. Not inferred from the two いちばん edges.",
+   "right": "一",
+   "rightActualCaption": "один",
+   "status": "PROPOSED; independent review pending"
+  },
+  {
+   "left": "もっと",
+   "leftActualCaption": "больше; ещё",
+   "rationale": "Both complete primary sources and exact objects independently teach adverbial more; actual больше/более labels can fit that direct degree sense. Preserve comparative-particle standard-before-より and formal-from as separate uses.",
+   "right": "より",
+   "rightActualCaption": "чем; более",
+   "status": "PROPOSED; independent review pending"
+  },
+  {
+   "left": "いくら",
+   "leftActualCaption": "сколько; сколько стоит",
+   "rationale": "Actual new caption includes generic сколько; the exact independently read 何人/なんにん asks how many people and its actual caption is сколько человек. Broad Russian quantity caption can fit that direct question. Not a claim that Japanese price questions and human counters substitute freely.",
+   "right": "何人",
+   "rightActualCaption": "сколько человек",
+   "status": "PROPOSED; independent review pending"
+  },
+  {
+   "left": "幾つ",
+   "leftActualCaption": "сколько; сколько лет",
+   "rationale": "Actual new сколько caption is broader than the independently read human-count caption сколько человек. This direct Russian answer-label overlap is not inherited through いくら, and does not teach using いくつ for ordinary human headcount.",
+   "right": "何人",
+   "rightActualCaption": "сколько человек",
+   "status": "PROPOSED; independent review pending"
+  },
+  {
+   "left": "最初",
+   "leftActualCaption": "начало; первый",
+   "rationale": "Actual new начало caption can fit the accepted explicit начало пути. Both full sources independently concern an initial part versus the start of travel; the exact 出発 object is departure/leaving, not proof of every generic beginning. Submitted as a direct broad-caption decision, not an ordering/arrival clique.",
+   "right": "出発",
+   "rightActualCaption": "отправление; начало пути",
+   "status": "PROPOSED; independent review pending"
+  }
+ ],
+ "newRows": 18,
+ "newRuntimeUnits": [
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/キロ.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "564e38b256ecc1e9e8373f479baa3cdcfd2b3d88c321ffdd7b32b121a181b5bb",
+   "russianNormalizedLfSha256": "564e38b256ecc1e9e8373f479baa3cdcfd2b3d88c321ffdd7b32b121a181b5bb",
+   "russianWorkingRawSha256": "989f8d40b54a6ef31d7471064f5ba30d2aa5c724ea03794cb7f471fff1e8dec4",
+   "sourceGitRawSha256": "bcae76c24a570300ee6b3ae33563f8b4968c844ccd4110be13b10f33a58dcd73",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "キロ",
+    "tags": [
+     "noun",
+     "prefix",
+     "measurement",
+     "gairaigo"
+    ],
+    "title": "kilo; kilogram or kilometer",
+    "type": "gairaigo",
+    "word": "キロ"
+   },
+   "sourceNormalizedLfSha256": "bcae76c24a570300ee6b3ae33563f8b4968c844ccd4110be13b10f33a58dcd73",
+   "sourceWorkingRawSha256": "bcae76c24a570300ee6b3ae33563f8b4968c844ccd4110be13b10f33a58dcd73",
+   "word": "キロ"
+  },
+  {
+   "invariantProjectionEqual": true,
+   "map": "files",
+   "path": "words/キログラム.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "6724838bb44d7da6614b0a27715adfe6db8fdfc8f66cda5f3a122cd252171de5",
+   "russianNormalizedLfSha256": "6724838bb44d7da6614b0a27715adfe6db8fdfc8f66cda5f3a122cd252171de5",
+   "russianWorkingRawSha256": "8e1726b58394587ddfbfca4a389e00115a181f9c75462d9a48ab261d54795971",
+   "sourceGitRawSha256": "ccc903bf1be2806628f4c3a41cd118fe1683ce3d0bf7bbbb5e1b95bc59276dc5",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "キログラム",
+    "tags": [
+     "gairaigo",
+     "noun",
+     "counter",
+     "measurement"
+    ],
+    "title": "kilogram",
+    "type": "gairaigo",
+    "word": "キログラム"
+   },
+   "sourceNormalizedLfSha256": "ccc903bf1be2806628f4c3a41cd118fe1683ce3d0bf7bbbb5e1b95bc59276dc5",
+   "sourceWorkingRawSha256": "ccc903bf1be2806628f4c3a41cd118fe1683ce3d0bf7bbbb5e1b95bc59276dc5",
+   "word": "キログラム"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/グラム.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "fb3eafc712a1fc7df70027d4864b18f141949cfec2e92f5c3edcbc9778d9e7cd",
+   "russianNormalizedLfSha256": "fb3eafc712a1fc7df70027d4864b18f141949cfec2e92f5c3edcbc9778d9e7cd",
+   "russianWorkingRawSha256": "63b476169f4ae00ade531742b71eca6c92461135a9b136b76fd3d11fe7c6c158",
+   "sourceGitRawSha256": "8710ccc5d1c312afc82185a534683a6740bbc9db5651828656a1dc77f64eaf3c",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "グラム",
+    "tags": [
+     "gairaigo",
+     "noun",
+     "unit",
+     "measurement"
+    ],
+    "title": "gram",
+    "type": "gairaigo",
+    "word": "グラム"
+   },
+   "sourceNormalizedLfSha256": "8710ccc5d1c312afc82185a534683a6740bbc9db5651828656a1dc77f64eaf3c",
+   "sourceWorkingRawSha256": "8710ccc5d1c312afc82185a534683a6740bbc9db5651828656a1dc77f64eaf3c",
+   "word": "グラム"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/メートル.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "951fa04b7eb0fff3bfdfec0e6897faa340b99f9f75933c20d142ebc7502d172e",
+   "russianNormalizedLfSha256": "951fa04b7eb0fff3bfdfec0e6897faa340b99f9f75933c20d142ebc7502d172e",
+   "russianWorkingRawSha256": "939b822bfc41552c7994ded0c28650c8a09ae5e42c77579577c6452bebe2077a",
+   "sourceGitRawSha256": "3cd497b4b8fad61ced5c41a6391b36b224060e056fe2d4eb4e1ceeeab218c518",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "メートル",
+    "tags": [
+     "gairaigo",
+     "noun",
+     "unit",
+     "measurement"
+    ],
+    "title": "meter (length unit)",
+    "type": "gairaigo",
+    "word": "メートル"
+   },
+   "sourceNormalizedLfSha256": "3cd497b4b8fad61ced5c41a6391b36b224060e056fe2d4eb4e1ceeeab218c518",
+   "sourceWorkingRawSha256": "3cd497b4b8fad61ced5c41a6391b36b224060e056fe2d4eb4e1ceeeab218c518",
+   "word": "メートル"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/キロメートル.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "e03515aaae1be83647ad3e48df35df3fb310fb5a76855c3e07f4cfeedca14ec8",
+   "russianNormalizedLfSha256": "e03515aaae1be83647ad3e48df35df3fb310fb5a76855c3e07f4cfeedca14ec8",
+   "russianWorkingRawSha256": "41174093be4d1ca2324efc06bbd64f2f25f2d53bec96b42506f4cd3437a729b8",
+   "sourceGitRawSha256": "c86a6ddc503d025b97011557c736d005b9ab98d9c3ff65b11120c67f632dd2f3",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "キロメートル",
+    "tags": [
+     "noun",
+     "unit",
+     "distance"
+    ],
+    "title": "kilometer",
+    "type": "gairaigo",
+    "word": "キロメートル"
+   },
+   "sourceNormalizedLfSha256": "c86a6ddc503d025b97011557c736d005b9ab98d9c3ff65b11120c67f632dd2f3",
+   "sourceWorkingRawSha256": "c86a6ddc503d025b97011557c736d005b9ab98d9c3ff65b11120c67f632dd2f3",
+   "word": "キロメートル"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/いくら.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "cf8f405c800e0ba3d5c23cfff93c188ad57cdd5960a934e56d6dffb3dbbffa2a",
+   "russianNormalizedLfSha256": "cf8f405c800e0ba3d5c23cfff93c188ad57cdd5960a934e56d6dffb3dbbffa2a",
+   "russianWorkingRawSha256": "5b1d7b84798468eef206f5622755ec9c72e4b90c0e864de6017d10fedc67bbd8",
+   "sourceGitRawSha256": "0075dfe8b8599f17f4a579da8f09715285cf20662f6ae36595cb6c9c1a580358",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "いくら",
+    "tags": [
+     "noun",
+     "adverb",
+     "question"
+    ],
+    "title": "how much",
+    "type": "wago",
+    "word": "いくら"
+   },
+   "sourceNormalizedLfSha256": "0075dfe8b8599f17f4a579da8f09715285cf20662f6ae36595cb6c9c1a580358",
+   "sourceWorkingRawSha256": "0075dfe8b8599f17f4a579da8f09715285cf20662f6ae36595cb6c9c1a580358",
+   "word": "いくら"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/幾つ.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "5aa4d7a56458afd38539d3b05abc3095a0dbd28fff115f78608c72053f9bb1f4",
+   "russianNormalizedLfSha256": "5aa4d7a56458afd38539d3b05abc3095a0dbd28fff115f78608c72053f9bb1f4",
+   "russianWorkingRawSha256": "38cb7cf23b4eb7d1aba5233a9adc708adaaf8ad3a2ca95d6b698a3fe7fdc5675",
+   "sourceGitRawSha256": "bf3e5ea97d3145ea7fed305d249ab5cafc51dc451a7e9b4969ee624e59f79b87",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "幾"
+    ],
+    "reading": "いくつ",
+    "tags": [
+     "wago",
+     "questions",
+     "usually-kana"
+    ],
+    "title": "how many; how old",
+    "type": "wago",
+    "word": "幾つ"
+   },
+   "sourceNormalizedLfSha256": "bf3e5ea97d3145ea7fed305d249ab5cafc51dc451a7e9b4969ee624e59f79b87",
+   "sourceWorkingRawSha256": "bf3e5ea97d3145ea7fed305d249ab5cafc51dc451a7e9b4969ee624e59f79b87",
+   "word": "幾つ"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/たくさん.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "d757e8cda16e9a81540a2da98815474de6f7f09080cf857e016b7f21ad95bc94",
+   "russianNormalizedLfSha256": "d757e8cda16e9a81540a2da98815474de6f7f09080cf857e016b7f21ad95bc94",
+   "russianWorkingRawSha256": "5600f6736c256348de4df8d909e684edbf6e98ae4a0898aa35400206af4deef9",
+   "sourceGitRawSha256": "d3d8aee554bc127317c1128f552c70a22129ee1271adba99636a61352cf9c6fe",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "たくさん",
+    "tags": [
+     "kango",
+     "adverb",
+     "quantity"
+    ],
+    "title": "many; a lot",
+    "type": "kango",
+    "word": "たくさん"
+   },
+   "sourceNormalizedLfSha256": "d3d8aee554bc127317c1128f552c70a22129ee1271adba99636a61352cf9c6fe",
+   "sourceWorkingRawSha256": "d3d8aee554bc127317c1128f552c70a22129ee1271adba99636a61352cf9c6fe",
+   "word": "たくさん"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/大勢.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "ad62937e81b583ef87e0408732685a9de0ddc2f3690d6a628699247977eb580e",
+   "russianNormalizedLfSha256": "ad62937e81b583ef87e0408732685a9de0ddc2f3690d6a628699247977eb580e",
+   "russianWorkingRawSha256": "77c0e43a62392b542a36dfb9c4dc0c2992f46f3825a3f1557a7aa49020302b87",
+   "sourceGitRawSha256": "3f398105f302e04879f7d6e69fe4ceb6e78e499fc62ce56eac18524f390563d7",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "大",
+     "勢"
+    ],
+    "reading": "おおぜい",
+    "tags": [
+     "wago",
+     "noun",
+     "adverb",
+     "people"
+    ],
+    "title": "many people",
+    "type": "wago",
+    "word": "大勢"
+   },
+   "sourceNormalizedLfSha256": "3f398105f302e04879f7d6e69fe4ceb6e78e499fc62ce56eac18524f390563d7",
+   "sourceWorkingRawSha256": "3f398105f302e04879f7d6e69fe4ceb6e78e499fc62ce56eac18524f390563d7",
+   "word": "大勢"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/全部.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "f50b6d97c81cbfae6db6fa9eaa064b63557c9a1a81484eddbf5ee77837b12e1d",
+   "russianNormalizedLfSha256": "f50b6d97c81cbfae6db6fa9eaa064b63557c9a1a81484eddbf5ee77837b12e1d",
+   "russianWorkingRawSha256": "77617c4f3549f441e6d864935129bac7f3adfa0fa184fe60c1baf315ee6198d0",
+   "sourceGitRawSha256": "465a3a028bb7caa0cfa65882ae55f72e665ffae9162e66f0251737fc09b6464c",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "全",
+     "部"
+    ],
+    "reading": "ぜんぶ",
+    "tags": [
+     "kango",
+     "quantity"
+    ],
+    "title": "all; the whole",
+    "type": "kango",
+    "word": "全部"
+   },
+   "sourceNormalizedLfSha256": "465a3a028bb7caa0cfa65882ae55f72e665ffae9162e66f0251737fc09b6464c",
+   "sourceWorkingRawSha256": "465a3a028bb7caa0cfa65882ae55f72e665ffae9162e66f0251737fc09b6464c",
+   "word": "全部"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/みんな.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "224e62c88e331e62691d13941aa043fef37231689831dfcd839f76a8e6bcf78e",
+   "russianNormalizedLfSha256": "224e62c88e331e62691d13941aa043fef37231689831dfcd839f76a8e6bcf78e",
+   "russianWorkingRawSha256": "ccb99e36971f9d40ab4e577d5a8e4e7c44e87f38ed63227177cda40ca0ef3a6c",
+   "sourceGitRawSha256": "ccd631617d6c02e0c1545349aaf4e65e628e4a704dc1acf7a14c1643a4c53cc3",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "みんな",
+    "tags": [
+     "wago",
+     "pronoun",
+     "adverb",
+     "people"
+    ],
+    "title": "everyone; all",
+    "type": "wago",
+    "word": "みんな"
+   },
+   "sourceNormalizedLfSha256": "ccd631617d6c02e0c1545349aaf4e65e628e4a704dc1acf7a14c1643a4c53cc3",
+   "sourceWorkingRawSha256": "ccd631617d6c02e0c1545349aaf4e65e628e4a704dc1acf7a14c1643a4c53cc3",
+   "word": "みんな"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/皆さん.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "d6737d84bca297c77cf310e7169ac9c000ed0c120e0f7ca24adddeecacde76f4",
+   "russianNormalizedLfSha256": "d6737d84bca297c77cf310e7169ac9c000ed0c120e0f7ca24adddeecacde76f4",
+   "russianWorkingRawSha256": "258f5c82872f85534baf320c2e9d9c73221c7482d536f0bf3fab3ba87188afab",
+   "sourceGitRawSha256": "43569d6864bfa39756be547d5815570511ea41ea4b6a97c0847ccfd82e037e89",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "皆"
+    ],
+    "reading": "みなさん",
+    "tags": [
+     "wago",
+     "noun",
+     "address"
+    ],
+    "title": "everyone",
+    "type": "wago",
+    "word": "皆さん"
+   },
+   "sourceNormalizedLfSha256": "43569d6864bfa39756be547d5815570511ea41ea4b6a97c0847ccfd82e037e89",
+   "sourceWorkingRawSha256": "43569d6864bfa39756be547d5815570511ea41ea4b6a97c0847ccfd82e037e89",
+   "word": "皆さん"
+  },
+  {
+   "invariantProjectionEqual": true,
+   "map": "files",
+   "path": "words/いろいろ.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "faed0fece7ee25634bd62a876aabaf6d411a87ad159b4bee34bd4f15c087dcc6",
+   "russianNormalizedLfSha256": "faed0fece7ee25634bd62a876aabaf6d411a87ad159b4bee34bd4f15c087dcc6",
+   "russianWorkingRawSha256": "a663349549c0e475c1a68fb74ee1e143b101f1fb94040fe537c4830fd89240f5",
+   "sourceGitRawSha256": "9d27ba8c3ac75d509346a7484805ea9cd44843749365ed6a8748152c50036f0f",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "いろいろ",
+    "tags": [
+     "wago",
+     "na-adjective",
+     "adverb"
+    ],
+    "title": "various; in various ways",
+    "type": "wago",
+    "word": "いろいろ"
+   },
+   "sourceNormalizedLfSha256": "9d27ba8c3ac75d509346a7484805ea9cd44843749365ed6a8748152c50036f0f",
+   "sourceWorkingRawSha256": "9d27ba8c3ac75d509346a7484805ea9cd44843749365ed6a8748152c50036f0f",
+   "word": "いろいろ"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/いちばん.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "891c908494ff7a03e50854a089e22c860c5b16f8f12b9d17585d7b8295dbfe40",
+   "russianNormalizedLfSha256": "891c908494ff7a03e50854a089e22c860c5b16f8f12b9d17585d7b8295dbfe40",
+   "russianWorkingRawSha256": "7530ee62e7e1dda47780fb4a096c92dc7b2d320bd49fbe597402da361dd945fa",
+   "sourceGitRawSha256": "6ae04990b21329855617f2222c86f9591d3ddc7bdfb5dbe7526c39e89b051533",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "quiz_exclusions": [
+     "最も",
+     "最初"
+    ],
+    "reading": "いちばん",
+    "tags": [
+     "kango",
+     "noun",
+     "adverb",
+     "comparison"
+    ],
+    "title": "first; most",
+    "type": "kango",
+    "word": "いちばん"
+   },
+   "sourceNormalizedLfSha256": "6ae04990b21329855617f2222c86f9591d3ddc7bdfb5dbe7526c39e89b051533",
+   "sourceWorkingRawSha256": "6ae04990b21329855617f2222c86f9591d3ddc7bdfb5dbe7526c39e89b051533",
+   "word": "いちばん"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/もっと.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "0ea8cc4aa9ce3887f80202c46755cf0dc0c24d20e12c7ec8316e4fdd7e3a2894",
+   "russianNormalizedLfSha256": "0ea8cc4aa9ce3887f80202c46755cf0dc0c24d20e12c7ec8316e4fdd7e3a2894",
+   "russianWorkingRawSha256": "8bb31315f739186a305d7775bc896ca0cb8cc9eb7e7cd3b43e87ab0aa93debb9",
+   "sourceGitRawSha256": "91f9f188a29a6986712c070372bdf17ac60318cc9abb26173ad896eaa2e4f31b",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "もっと",
+    "tags": [
+     "wago",
+     "adverb",
+     "degree"
+    ],
+    "title": "more; further",
+    "type": "wago",
+    "word": "もっと"
+   },
+   "sourceNormalizedLfSha256": "91f9f188a29a6986712c070372bdf17ac60318cc9abb26173ad896eaa2e4f31b",
+   "sourceWorkingRawSha256": "91f9f188a29a6986712c070372bdf17ac60318cc9abb26173ad896eaa2e4f31b",
+   "word": "もっと"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/より.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "b06da64a4c426c05d8afeda8a52b8417cb0943cb8b59bf314d22c3a36363bd99",
+   "russianNormalizedLfSha256": "b06da64a4c426c05d8afeda8a52b8417cb0943cb8b59bf314d22c3a36363bd99",
+   "russianWorkingRawSha256": "bae006cec0e3abe9433b9e204d961b259379f7d5d6c37e9847e30c228364f362",
+   "sourceGitRawSha256": "91f6ed3167e6a2bfd1fa8b90001aca843b6f28843f8f1e144a64b45b15ec241c",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "より",
+    "tags": [
+     "wago",
+     "particle",
+     "adverb",
+     "comparison"
+    ],
+    "title": "than",
+    "type": "wago",
+    "word": "より"
+   },
+   "sourceNormalizedLfSha256": "91f6ed3167e6a2bfd1fa8b90001aca843b6f28843f8f1e144a64b45b15ec241c",
+   "sourceWorkingRawSha256": "91f6ed3167e6a2bfd1fa8b90001aca843b6f28843f8f1e144a64b45b15ec241c",
+   "word": "より"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/最も.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "required-negative-reference-provider",
+   "russianCanonicalGitRawSha256": "2187ad905cc2b8f8577dfd598d11149879953d0637f6ac9d8f12bad23c0e30a2",
+   "russianNormalizedLfSha256": "2187ad905cc2b8f8577dfd598d11149879953d0637f6ac9d8f12bad23c0e30a2",
+   "russianWorkingRawSha256": "4eb492b8f2c0c44530120303aaa90173edafb34ab471ca4a585acacd8de84baf",
+   "sourceGitRawSha256": "e822e4e2460f19aef8bd332f718b2ac1f2d677d09156993d5d0092e124fb0a8f",
+   "sourceMetadata": {
+    "jlpt": 4,
+    "kanji": [
+     "最"
+    ],
+    "reading": "もっとも",
+    "tags": [
+     "wago",
+     "adverb",
+     "degree"
+    ],
+    "title": "most; to the greatest degree",
+    "type": "wago",
+    "word": "最も"
+   },
+   "sourceNormalizedLfSha256": "e822e4e2460f19aef8bd332f718b2ac1f2d677d09156993d5d0092e124fb0a8f",
+   "sourceWorkingRawSha256": "e822e4e2460f19aef8bd332f718b2ac1f2d677d09156993d5d0092e124fb0a8f",
+   "word": "最も"
+  },
+  {
+   "invariantProjectionEqual": false,
+   "map": "files",
+   "path": "words/最初.md",
+   "projectionBoundary": "Review aid only; direct exclusions, typography and English-dependent adaptation can change projection. Actual whole semantic review remains pending.",
+   "role": "required-negative-reference-provider",
+   "russianCanonicalGitRawSha256": "4640ed2d9dd816263a1c6423fbc3afa896de78d9a1c4814e434772eacc1da34b",
+   "russianNormalizedLfSha256": "4640ed2d9dd816263a1c6423fbc3afa896de78d9a1c4814e434772eacc1da34b",
+   "russianWorkingRawSha256": "90591f82b840325d192073b196c4d2a9706c81f0e8737a4122992190223dcd1b",
+   "sourceGitRawSha256": "0cc0abdfc1c300deeb0d992e379672363e18d804d5c51ccce2ce4bf66f82b6c6",
+   "sourceMetadata": {
+    "jlpt": 4,
+    "kanji": [
+     "最",
+     "初"
+    ],
+    "reading": "さいしょ",
+    "tags": [
+     "kango",
+     "noun",
+     "adverb",
+     "order"
+    ],
+    "title": "beginning; first",
+    "type": "kango",
+    "word": "最初"
+   },
+   "sourceNormalizedLfSha256": "0cc0abdfc1c300deeb0d992e379672363e18d804d5c51ccce2ce4bf66f82b6c6",
+   "sourceWorkingRawSha256": "0cc0abdfc1c300deeb0d992e379672363e18d804d5c51ccce2ce4bf66f82b6c6",
+   "word": "最初"
+  }
+ ],
+ "phase": "Complete translated candidate awaiting actual independent whole review",
+ "protectedUnverifiedDrafts": [
+  {
+   "coverage": "complete authored text",
+   "draftPath": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+   "facets": {
+    "C1": "CLEAN historicalwholebody",
+    "C2": "UNVERIFIED",
+    "C3": "CLEAN historicalwholebody"
+   },
+   "openQuestions": [
+    [
+     "空",
+     "遠く"
+    ],
+    [
+     "空",
+     "遠い"
+    ]
+   ],
+   "path": "words/空.md",
+   "progressBoundary": "Not accepted; remains inside fullreportpending, separate from2reviewed-runtime-blocked media drafts. Existingprogresshelper need not mislabel it as accepted or stale reviewed content.",
+   "reviewEvidence": [
+    "docs/translation-batches/033-nature-outdoor-activity-independent-review.json",
+    "docs/translation-batches/033-nature-outdoor-activity-independent-review-001.json",
+    "docs/translation-batches/033-nature-outdoor-activity-independent-review-002.json",
+    "docs/translation-batches/033-nature-outdoor-activity-independent-review-003.json",
+    "docs/translation-batches/033-nature-outdoor-activity-source-adjudication.json",
+    "docs/translation-batches/033-nature-outdoor-activity-authoring-freeze.json",
+    "docs/translation-batches/033-nature-outdoor-activity-review-resolution-freeze.json",
+    "docs/translation-batches/033-nature-outdoor-activity-corrected-candidate.json"
+   ],
+   "reviewStatus": "unverified",
+   "ruGitRawSha256": "7c1084763f6229793b540ee6c501d9177513eb4fb23c2e27619eb16cb607a495",
+   "ruRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+   "ruSha256": "7c1084763f6229793b540ee6c501d9177513eb4fb23c2e27619eb16cb607a495",
+   "runtimeAcceptance": "blocked-by-evidenced-linguistic-uncertainty",
+   "runtimeAuthority": null,
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "0a7cad8579556ca7089666e53bf49e2be12eed2c4d0a93d3f55c020eae63b3e6",
+   "sourceSha256": "0a7cad8579556ca7089666e53bf49e2be12eed2c4d0a93d3f55c020eae63b3e6",
+   "targetObjectRemainsPending": true
+  }
+ ],
+ "reviewStatus": "PENDING; no accepted tracking/progress update",
+ "russianCandidateParentCommit": "70a81996ecc38546c36318a1570d7a6505c1e2ac",
+ "schemaVersion": 1,
+ "selectedDictionaryRanges": 6,
+ "wholeReviewExpectedCompletePairCount": 39
+}
