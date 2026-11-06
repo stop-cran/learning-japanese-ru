@@ -11,6 +11,35 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The forty-ninth full-target batch adds **13 complete N4 discipline/culture/
+society lessons** against the unchanged frozen source.
+The [actual independent report](translation-batches/049-disciplines-culture-and-society-independent-review-001.json)
+read13 primary/22 contextual/three additional complete EN/RU pairs and ten
+source-only comparisons (**86 bodies**),95 complete entries and all901 actual
+metadata rows. C1 CLEAN/C3 ACCEPTABLE apply within the13 complete lessons;
+original **C2 NEEDS_FIX** remains immutable. R049-N1/N2/N3 prescribe six direct
+guards: 科学–地理/数学/歴史/経済, 歴史–話 and経済–お金.
+The [exact metadata repair](translation-batches/049-disciplines-culture-and-society-finding-resolution-001.json)
+adopts them while preserving all13 teaching bodies by identity.
+**15 individually qualified safeguards** comprise nine original proposals
+and six prescribed additions. No second review, automatic subject clique or
+fresh full-baseline reading is invented. Broader caption-fit questions,
+whole-pool uniqueness and ordinary modern necessity/frequency remain
+**UNVERIFIED**; rare-sense/alternate-reading limitations stay binding.
+
+Membership: **1213 runtime objects /901 words**,
+671 N5/92 N4/65 N3/19 N2/54 unlabelled; protected空 is the only remaining N5 word.
+Strict progress: **1213 reviewed-current, two excluded reviewed runtime-blocked
+media drafts,7063 pending,7065 absent runtime paths**, no partial.
+Version `de2067e8bc992b38`; checkpoint authority null/Ready false.
+All1200 baseline RAWs/tracking rows and historical evidence are preserved.
+Final serialized checks, signed integration/public archives/exact-main CI
+have separate evidence. Protected excluded033空 remains pending/C2 UNVERIFIED,
+separate from the two media drafts. No new asset/app/device/phone/IME/media/
+default-activation/release approval. Continue all safe frozen levels/families.
+
+Batch048 and earlier milestones below are historical.
+
 The forty-eighth full-target batch adds **16 complete N4 study/reference/school
 lessons /800 Russian lines** against the unchanged frozen source.
 The [actual independent report](translation-batches/048-study-reference-and-school-independent-review-001.json)

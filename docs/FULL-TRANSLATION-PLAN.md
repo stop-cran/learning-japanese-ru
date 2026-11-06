@@ -1,6 +1,36 @@
 # Full Russian translation: execution after the two pilots
 
-## Current source milestone: batch048 study, reference and school
+## Current source milestone: batch049 disciplines, culture and society
+
+Batch049 adds **13 complete N4 lessons** against unchanged frozen EN
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The [actual independent report](translation-batches/049-disciplines-culture-and-society-independent-review-001.json)
+read13 primary,22 contextual and three additional complete EN/RU pairs plus
+ten source-only comparisons (**86 teaching bodies**),95 complete official
+entries and all901 actual candidate metadata rows. C1 is CLEAN and C3
+ACCEPTABLE within the13 lessons. Original **C2 NEEDS_FIX** stays immutable.
+The [exact metadata-only repair](translation-batches/049-disciplines-culture-and-society-finding-resolution-001.json)
+adopts the six independently prescribed direct guards: 科学–地理/数学/歴史/経済,
+歴史–話 and経済–お金. All13 complete teaching bodies are identity-preserved.
+**Nine originally qualified protections plus six prescribed additions** are
+adopted; no automatic subject clique, transitive closure or second review.
+Broader caption-fit questions, whole-pool uniqueness and ordinary modern
+necessity/frequency remain **UNVERIFIED**. Rare Russian/Japanese sense and
+alternate-reading qualifications in the original report remain binding.
+
+Membership: **1213 runtime objects /901 words**, including671 N5/92 N4/
+65 N3/19 N2/54 unlabelled. Only protected excluded033空 remains from N5.
+Strict accounting: **1213 reviewed-current, two excluded reviewed runtime-
+blocked media drafts,7063 pending of8278;7065 runtime paths absent**, no partial.
+Version `de2067e8bc992b38`; checkpoint authority null/Ready false.
+All1200 baseline RAWs/tracking rows and historical reports are preserved.
+Final checks, signed integration, actual public archives and exact-main CI
+have separate evidence. No new asset/app/device/IME/media/default/release approval.
+Source-only comparisons do not force absent providers into runtime.
+Continue every remaining safe frozen level/family; 空 stays separately
+pending/C2 UNVERIFIED, not a third media draft.
+
+## Prior source milestone: batch048 study, reference and school
 
 Batch048 adds **16 complete N4 lessons /800 Russian lines** against unchanged
 frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
