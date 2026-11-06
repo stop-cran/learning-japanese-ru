@@ -1,6 +1,45 @@
 # Full Russian translation: execution after the two pilots
 
-## Current source milestone: batch041 core actions, making and existence
+## Current source milestone: batch042 travel, movement and places
+
+Batch042 adds **18 complete word lessons: 16 N5 roots and two required N4
+providers** against unchanged frozen `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+[Actual review](translation-batches/042-travel-movement-places-independent-review.json)
+and [reviewed source](translation-batches/042-travel-movement-places-reviewed-source.json)
+preserve the genuine whole **62 complete EN/RU pairs /799 compact captions /
+123 complete official entries /51 proposals** review: C1/C3 CLEAN, C2 NEEDS FIX.
+A fresh, strictly sequential focused reviewer reads **17 complete pairs,
+18 complete entries, all799 captions, ten additions and four withdrawals**.
+Those pairs/entries are subsets of the original62/123, not79/141 unique units.
+The ten missing safeguards are resolved, four disputed proposals withdrawn,
+and six new method lines independently assessed. All18 complete learner bodies
+and titles, and1093 accepted baseline RAWs/tracking rows, remain unchanged.
+
+**57 direct protections = two source edges +17 direct taught/caption decisions
++38 limited dictionary/context safeguards.** Stronger ordinary modern
+necessity/frequency of all38 remains UNVERIFIED and unasserted.
+Possible 差す–輝く and 国–外国 overlap remains explicitly UNVERIFIED;
+no necessary additional guard was established in the actual caption boundary.
+Neither hypothesis is asserted as an approved claim or universal impossibility.
+Secondary senses, spelling restrictions and suffix requirements are not
+silently promoted into primary N5 lessons or transitive exclusion cliques.
+
+Membership: **1111 runtime objects /799 words**, including **598/672 N5 words;
+74 remain**; other word levels:63 N4/65 N3/19 N2/54 unlabelled.
+Fresh strict accounting: **1111 reviewed-current, two excluded reviewed
+runtime-blocked media drafts,7165 pending of8278;7167 runtime paths absent**,
+no partial. Version `4ee4c7df08855309`; checkpoint authority null/Ready false.
+Actual candidate/corrected checks passed; final checks, signed integration,
+public archives and exact-main CI have separate publication evidence.
+
+No new assets or app/ordinary EN/device/media/default-activation/release approval.
+Canonical `occupations` is preserved; its newly exposed mapping gap is bounded
+to immutable app `5c000bd`, with concurrent live-app status UNVERIFIED.
+Excluded033 空 remains pending/C2 UNVERIFIED, separate from the two media drafts.
+Later genuine native findings can require affected-batch correction and review;
+continue every independent safe frozen level/family.
+
+## Prior source milestone: batch041 core actions, making and existence
 
 Batch041 adds **25 complete word lessons: 18 N5 roots and seven required
 providers (four N4 and three N3)** against unchanged frozen

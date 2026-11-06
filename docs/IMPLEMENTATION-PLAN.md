@@ -8,6 +8,36 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The forty-second full-target batch adds **18 complete travel/movement/place
+lessons:16 N5 roots and two required N4 providers**.
+[Reviewed source042](translation-batches/042-travel-movement-places-reviewed-source.json)
+and [actual independent evidence](translation-batches/042-travel-movement-places-independent-review.json)
+preserve the whole62-pair/799-caption/123-complete-entry/51-proposal review:
+original C1/C3 CLEAN, C2 NEEDS FIX, not retroactively CLEAN.
+The focused17-pair/18-entry/all799-caption recheck resolves ten additions,
+accepts four withdrawals and six new method lines. These pairs/entries are
+subsets of the original62/123, not79/141 unique objects.
+All18 learner bodies/titles and1093 baseline RAWs/tracking rows are preserved.
+**57 direct protections = two source edges +17 direct taught/caption decisions
++38 limited dictionary/context decisions**; stronger modern necessity/frequency
+of all38 remains UNVERIFIED/unasserted. Residual 差す–輝く and 国–外国 hypotheses
+remain UNVERIFIED, without an established necessary extra guard in this boundary.
+
+Membership: **1111 runtime objects /799 words**,
+598 N5/63 N4/65 N3/19 N2/54 unlabelled; **74 of672 N5 words remain**.
+Strict progress: **1111 reviewed-current, two excluded reviewed runtime-blocked
+media drafts,7165 pending,7167 absent runtime paths**, no partial.
+Version `4ee4c7df08855309`; checkpoint authority null/Ready false.
+Actual candidate/corrected checks passed; final checks, signed integration,
+public archives and exact-main CI have separate publication evidence.
+No new assets or app/ordinary EN/device/media/default-activation/release approval.
+The canonical `occupations` mapping gap is observed only at immutable app
+`5c000bd`; concurrent live-app status remains UNVERIFIED.
+Later genuine native findings can require affected-batch correction/review;
+authoring of independent safe frozen content continues.
+
+Batch041 and earlier milestones below are historical.
+
 The forty-first full-target batch adds **25 complete core-action/making/existence
 lessons: 18 N5 roots, four required N4 and three required N3 providers**.
 [Reviewed source041](translation-batches/041-core-actions-making-existence-reviewed-source.json)
