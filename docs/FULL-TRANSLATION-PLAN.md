@@ -1,6 +1,33 @@
 # Full Russian translation: execution after the two pilots
 
-## Current source milestone: batch046 time, sequence and positions
+## Current source milestone: batch047 safe N5 text closure
+
+Batch047 adds **12 complete N5 lessons** against the unchanged frozen EN
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The [actual independent report](translation-batches/047-n5-safe-text-closure-independent-review-001.json)
+read all12 primary and25 contextual complete EN/RU pairs (**74 bodies**),
+87 complete official entries and all872 actual caption/metadata rows.
+C1/C3 are CLEAN within the new lessons. Original **C2 NEEDS FIX** remains
+immutable: R047-1 prescribes directあの–あれ andあの–それ protections.
+The [exact metadata-only repair](translation-batches/047-n5-safe-text-closure-finding-resolution-001.json)
+adopts those independently assessed pairs and preserves all12 teaching bodies
+by identity. It is not a second review or a fresh whole-pool body reread.
+**19 individually qualified direct protections** are adopted; broader whole-pool
+uniqueness and ordinary modern necessity/frequency remain **UNVERIFIED**.
+字引–辞書 is exact-caption-deduped, not an omitted required provider.
+
+Membership: **1184 runtime objects /872 words**, including **671/672 N5 words**.
+Only the separately protected excluded033空 remains from N5; all other safe
+frozen levels/families still require continued sequential authoring.
+Strict accounting: **1184 reviewed-current, two excluded reviewed runtime-
+blocked media drafts,7092 pending of8278;7094 runtime paths absent**, no partial.
+Version `1ba71a9ba5033842`; checkpoint authority null/Ready false.
+All1172 baseline RAWs/tracking rows and historical reports remain unchanged.
+Final checks, signed integration, actual public archives and exact-main CI
+have separate evidence. No new asset/app/device/IME/media/default/release approval.
+空 remains pending/C2 UNVERIFIED, not a third media draft.
+
+## Prior source milestone: batch046 time, sequence and positions
 
 The owner's explicit 2026-11-06 restart instruction supersedes only the
 temporary pause recorded in046; the frozen source and all evidence/release

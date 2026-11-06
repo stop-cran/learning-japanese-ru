@@ -10,6 +10,33 @@ records this revised order; earlier blocked observations below remain historical
 
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
+
+The forty-seventh full-target batch adds **12 complete safe N5 lessons**.
+The [actual independent report](translation-batches/047-n5-safe-text-closure-independent-review-001.json)
+read12 primary/25 contextual complete EN/RU pairs (**74 bodies**),
+87 complete official entries and all872 actual metadata rows.
+C1/C3 are CLEAN for the new lessons; original **C2 NEEDS FIX** stays immutable.
+R047-1 independently prescribes directあの–あれ andあの–それ;
+the [exact metadata repair](translation-batches/047-n5-safe-text-closure-finding-resolution-001.json)
+adopts them while preserving all12 complete teaching bodies by identity.
+No second review or fresh full-baseline body reread is invented.
+**19 individually qualified safeguards** are retained.
+Broader whole-pool semantic uniqueness and ordinary modern necessity/frequency
+remain **UNVERIFIED**, not global C2 CLEAN.
+
+Membership: **1184 runtime objects /872 words**,
+671 N5/63 N4/65 N3/19 N2/54 unlabelled; **one of672 N5 words remains: 空**.
+Strict progress: **1184 reviewed-current, two excluded reviewed runtime-blocked
+media drafts,7092 pending,7094 absent runtime paths**, no partial.
+Version `1ba71a9ba5033842`; checkpoint authority null/Ready false.
+All1172 baseline RAWs/tracking rows and historical evidence are preserved.
+Final serialized checks, signed integration/public archives/exact-main CI have
+separate evidence. Protected excluded033空 stays pending/C2 UNVERIFIED,
+separate from the two media drafts. No new asset/app/device/phone/IME/media/
+default-activation/release approval. Continue all safe frozen levels/families.
+
+Batch046 and earlier milestones below are historical.
+
 The forty-sixth full-target batch adds **16 complete N5 time/sequence/position
 lessons**. The [actual whole report](translation-batches/046-time-sequence-positions-independent-review-001.json)
 preserves C1/C3 CLEAN and original C2 NEEDS REVISION after62 assigned pairs
