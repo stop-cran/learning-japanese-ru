@@ -8,6 +8,40 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The thirty-sixth full-target batch adds **14 complete N5 state-change/operation words**.
+[Reviewed source 036](translation-batches/036-state-changes-operations-reviewed-source.json)
+and its [independent review](translation-batches/036-state-changes-operations-independent-review.json)
+combine one actual whole review with one narrow consequential-resolution recheck.
+The whole reviewer read 34 full EN/RU pairs, 679 compact captions, 55 complete selected
+lexical objects and four selected dictionary ranges. It retained 24 direct safeguards,
+but returned C2/C3 NEEDS_FIX and an unverified 開く–広い question—not blanket approval.
+The focused reviewer read five full pairs, two complete opening objects, two fresh
+dictionary ranges, both append-only errata and four new guidance lines.
+It resolved the dictionary-sense wording and actual-caption misquotation, established
+no additional 開く–広い guard, and independently retained two newly evidenced direct
+opening/beginning/ending safeguards: **26 direct pairs total**, not a transitive clique.
+Modern frequency of the euphemistic ending use remains unverified, not new N5 teaching.
+
+All 977 baseline runtime RAWs/tracking rows and the full excluded C2-unverified 空
+remain unchanged. Membership is **991 runtime objects** — 141 kanji/679 words/
+141 strokes/2 articles/22 counter files/one grammar set/2 scene catalogs/3 images.
+Fresh strict progress: **991 reviewed-current, two excluded reviewed runtime-blocked
+media drafts, 7,285 pending, 7,287 absent runtime paths**, no partial.
+Word levels: 492 N5/54 N4/60 N3/19 N2/54 unlabelled; **180 of 672 N5 words remain**.
+Version `c7e6d0d7021e3248`; checkpoint authority null/Ready false.
+Corrected candidate: validator 0 errors, 124 tests OK in 31.927s;
+budget 999 files/1008 entries/2,810,316 retained/2,828,531 inflated/1,415,548 ZIP bytes.
+Final checks, main integration, actual public archives and exact-main CI have separate receipts.
+The canonical `attachment` tag stays stable; raw fallback is observed only at pinned
+app `5c000bd`, not asserted for the concurrent current app or a device.
+README, old ordering and current C6 links now separate reviewed source from ordinary activation;
+historical receipts and five real native Word Type paths are preserved.
+No new assets, app/ordinary EN edits, phone/IME/playback/new audio-package/C6/C7/default
+activation/release/checkpoint authority. Later real findings may require affected-batch
+correction/re-review; continue every remaining safe frozen level/family meanwhile.
+
+Batch 035 and earlier milestones below are historical.
+
 The thirty-fifth full-target batch adds **14 complete N5 daily-life/work/rest words**.
 [Reviewed source 035](translation-batches/035-daily-life-work-rest-reviewed-source.json)
 and its [independent review](translation-batches/035-daily-life-work-rest-independent-review.json)

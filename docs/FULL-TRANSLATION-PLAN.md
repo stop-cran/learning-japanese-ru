@@ -52,8 +52,9 @@ tracking ledger and drift report must not relabel old work as newly translated.
    exact source and Russian hashes plus evidence; matching bytes do not create approval.
    A checkpoint rejects unresolved adopted objects and guidance. Prove a reproducible
    real two-snapshot report before considering optional scheduled automation.
-3. **R2 — finish or explicitly block C6 operations (RU #6).** New-cohort Word Type needs
-   its real reverse prerequisite; legacy counter suffix/full typing needs a second real
+3. **R2 — finish or explicitly block C6 operations (RU #6).** Five genuinely unlocked
+   native Word Type paths have [already passed](https://github.com/stop-cran/learning-japanese-ru/issues/6#issuecomment-6633295530);
+   additional targets still need their real reverse prerequisite. Legacy counter suffix/full typing needs a second real
    Choose day. Do not change clocks, gates or saved state. Both reviewed Russian audio
    adaptations need fresh exact-package authority before runtime publication and genuine
    playback/interruption acceptance. Prepare exact binding evidence without inventing
@@ -1509,3 +1510,55 @@ No new assets or canonical tags, app/ordinary EN edits, paid generation,
 new media-package authority, phone/IME/playback/C6/C7/default activation/release/
 human-checkpoint approval. Continue the 194 remaining N5 words and every other
 safe frozen level/family; the full finite objective remains in progress.
+
+## Reviewed source milestone036: state changes and operations
+
+[Reviewed source036](translation-batches/036-state-changes-operations-reviewed-source.json)
+and [actual independent review](translation-batches/036-state-changes-operations-independent-review.json)
+accept 14 complete frozen N5 words: 開く、開ける、閉まる、閉める、消える、消す、
+始まる、止まる、並ぶ、並べる、付ける、締める、押す、引く.
+All Japanese examples/readings/forms, technical IDs/classification/tags/levels,
+source qualifiers and substantive teaching remain. Twenty unavailable optional
+link wrappers alone were removed; seven adopted links remain.
+
+The actual whole reviewer read **34 full EN/RU pairs** (14 primary/20 supporting),
+**679 compact captions**, **55 complete selected lexical objects** and
+**four selected dictionary ranges**. It retained 24 direct proposals but returned
+C2/C3 NEEDS_FIX plus unverified 開く–広い, not clean first-pass acceptance.
+The actual narrow recheck read five full pairs, two complete opening objects,
+two fresh selected dictionary ranges, both append-only errata and four new guidance lines.
+It resolved «трёхзначной статье» to the intended three-sense wording and corrected
+both historical rationales' misquotation of actual 終わる «заканчиваться; заканчивать»
+without rewriting signed originals or the accepted baseline article.
+Fresh Japanese gap-emergence/increase and Russian static considerable-width evidence
+establish no additional 開く–広い guard. Two separately evidenced opening/beginning/ending
+proposals are independently retained: **26 direct pairs total**.
+The euphemistic ending use is a bounded conservative bare-writing safeguard;
+modern frequency remains unverified, not asserted as ordinary N5 usage.
+The focused verdict does not pretend to repeat the whole review.
+
+All **977 baseline runtime RAWs/tracking rows** and the complete excluded C2-unverified
+空 draft remain unchanged. Membership is **991 runtime objects**:
+141 kanji, 679 words, 141 strokes, two complete articles, 22 counter files,
+one grammar set, two scene catalogs and three images.
+Words: **492 N5 /54 N4 /60 N3 /19 N2 /54 unlabelled**;
+**492 of 672 frozen N5 words adopted, 180 remain**.
+Fresh strict 8,278-entry progress: **991 reviewed-current**, **no partial**,
+**two excluded reviewed runtime-blocked media drafts**, **7,285 pending**,
+**7,287 runtime paths absent**. Version `c7e6d0d7021e3248`;
+checkpoint authority null/Ready false.
+Corrected candidate: validator 0 errors, 124 tests OK in 31.927s;
+budget 999 files/1008 entries/2,810,316 retained/2,828,531 inflated/1,415,548 ZIP bytes.
+Final serialized checks, signed main integration, actual public archives and exact-main
+CI remain separately evidenced, not device acceptance.
+
+No new assets. Canonical `attachment` stays unchanged; its raw fallback is verified only
+at pinned app `5c000bd`, not asserted for the concurrent dirty current app or a device.
+Owner-requested README/old-sequence/current-C6 clarification distinguishes reviewed source
+coverage from ordinary/default activation; original receipts and the five genuinely unlocked
+native Word Type passes remain explicit. Later actual native findings can require
+affected-batch correction and independent re-review without blocking unrelated source authoring.
+No app/ordinary EN edits, paid generation, new media-package authority, phone/IME/playback/
+C6/C7/default activation/release/human-checkpoint approval.
+Continue the 180 remaining N5 words and every other safe frozen level/family;
+the full finite objective remains in progress.

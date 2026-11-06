@@ -1,0 +1,69 @@
+{
+ "actualBothAppendOnlyErrataRead": true,
+ "actualEventsPrivateArtifact": "ru-036-focused-review-actual-events-001.json",
+ "actualEventsRawSha256": "89a2832ca1b0cb23c0b85b8d8c5814a5c8b747de0a2b65ae22faf2d41330b321",
+ "actualFourLineGuidanceDiffRead": true,
+ "actualNativeContentDomain": "actual successful task result.content string",
+ "actualNativeEventId": "282833ea-09c0-4327-aa3f-6f8f2b1da552",
+ "actualNativeReturnText": "## Snapshot and scope\n\n- **Frozen EN:** `6af98cb717755690a9ca793e5454a96ebd7a8f9f`\n- **Corrected RU:** `d707e82db451d80889c7ae6b9390cc9deabe9d83`\n- Branch: `full-ru-036-state-changes-operations`; committed content only.\n\nSuccessfully read all five complete EN/RU pairs: 開く、広い、始まる、終わる、止まる; both complete opening lexical objects; captured Daijisen lines **24–60** and Russian dictionary lines **185–199**; both errata, their historical/effective fields, applicable instructions and three reviewer rubrics, the four-line guidance diff, and the previous native report.\n\n## Narrow-recheck verdicts\n\n**C1 Japanese/source fidelity: CLEAN**  \n**C2 consistency/quiz safeguards: CLEAN**  \n**C3 Russian comprehension: CLEAN**\n\nThese verdicts apply only to this recheck.\n\n### F1 — resolved\n\n`words\\止まる.md:59–60` now correctly says «в указанной статье JMdict с тремя значениями». It clearly conveys the source’s sense count without changing the teaching.\n\n### F2 — resolved\n\nThe actual caption remains **«заканчиваться; заканчивать»**. Both append-only errata identify the exact historical field, erroneous rationale and replacement. They existed in freeze `95d2d137b71bcf26e9116b7097d6cb131d3fe4fb` and match the corrected record. Preserving immutable originals while explicitly superseding their misquotation resolves this finding; changing the baseline article would not.\n\n### U1: 開く–広い — no additional guard established\n\nDaijisen **1㋓/2㋖** describes a gap emerging or increasing—not necessarily substantial breadth or spaciousness. Actual «широкий; просторный» adds that property. A widening gap can remain narrow. This is a semantic distinction, not merely a verb/adjective argument; the English “be wide/widen” gloss alone does not establish this edge.\n\n### New direct proposals\n\n- **開く–始まる: retain.** Daijisen **1㋒** explicitly supplies 物事が始まる／業務が始まる, directly supporting actual «начинаться».\n- **開く–終わる: retain as a bounded conservative safeguard.** Daijisen **3** explicitly records the **verb’s euphemistic 終わる sense** under 開く. That supports «заканчиваться» for an otherwise unqualified written prompt—not through お開き or inherited edges. The old quotation does **not** establish modern frequency or ordinary N5 usage; neither is claimed.\n\n## Limits\n\nNo remaining consequential uncertainty established within this narrow scope. Modern frequency of the euphemistic ending sense remains unverified.\n\nFinal verification passed. No writes, tests/builds/emulators, agents/workflows, external AI or old-reviewer contact occurred. I did not repeat the whole review, 679-caption reading, or native/media/release acceptance.",
+ "actualNativeReturnUtf8Bytes": 2864,
+ "actualNativeReturnUtf8Sha256": "bd1b38560f3b15d1bd7ea1c59797837b85e00357c2a66adb2dfee0c64c160fac",
+ "actualObservedSuccessfulReaderScope": {
+  "lexical": [
+   0,
+   1
+  ],
+  "pairs": [
+   "始まる",
+   "広い",
+   "止まる",
+   "終わる",
+   "開く"
+  ],
+  "sections": [
+   0,
+   1
+  ]
+ },
+ "additionalDirectProposalDecisions": {
+  "開く–始まる": "RETAIN",
+  "開く–終わる": "RETAIN bounded conservative written-prompt safeguard; modern frequency remains UNVERIFIED"
+ },
+ "batchId": "036-state-changes-operations",
+ "candidateCommit": "d707e82db451d80889c7ae6b9390cc9deabe9d83",
+ "checkpointAuthority": null,
+ "facets": {
+  "C1": "CLEAN",
+  "C2": "CLEAN",
+  "C3": "CLEAN"
+ },
+ "findingDisposition": {
+  "F1": "RESOLVED: three-sense wording corrected without Japanese teaching change.",
+  "F2": "RESOLVED: both original historical misquotations explicitly superseded by correctactualcaption errata; baselineandoriginals preserved.",
+  "U1": "RESOLVED: noadditional開く–広いguardestablished;gapemergence/increase notnecessarilyconsiderablewidth/spaciousness."
+ },
+ "journalReadBound": "Only last4194304bytes of known session journal; no full journal or OS-temp access.",
+ "limits": [
+  "Only14complete newruntime source lessons accepted, not wholecorpus/native/device/media/release/checkpoint authority.",
+  "Actualwhole34pairs=14primary+20supporting;679compactrowsNOT679fullbodies;55complete selectedobjectsNOTallresponses;4selectedrangesNOTwholepages.",
+  "Actualfocused5fullpairs/2completeobjects/2freshselectedranges/4guidancelines/botherrata resolvesF1/F2/U1 and independently retains2newdirectpairs. This is not a secondwhole review.",
+  "Original24directdecisions carry from realwhole review; only2runtimefileschanged,989otherRAWs andall679captions unchanged. InitialC2/C3NEEDS_FIX andU1UNVERIFIED are preserved honestly.",
+  "Exact native reports:whole9291UTF8bytes/focused2864UTF8bytes, actual successfulevents and bounded-journal reading recovered. No OS-temp or synthetic approval.",
+  "Modernfrequency of euphemistic開く ending sense remainsUNVERIFIED. Guard is a bounded conservative bare-writing safeguard, not newN5teaching, currentfrequency certification or unrestrictedspelling rule.",
+  "All977baselineRAWs/tracking and full excludedunverifiedsky unchanged; sky staysC2UNVERIFIED/outside036, not accepted or another reviewedblockedmedia draft.",
+  "Pinnedapp5c000bdONLY rawattachmentfallback; no concurrentapp/ordinaryEN edit, currentdevice rendering assertion or native/device/media/package/C6/C7/defaultactivation/release/checkpointauthority.",
+  "Owner-requested docs/issue clarification preserves actual priornativeC6passes and originalreceipts, not newnative testing or implied035/036independentacceptance before these actual reports."
+ ],
+ "ordinaryActivationAuthorized": false,
+ "requiredRuntimeFindingsRemaining": [],
+ "resolvedFindings": [
+  "F1",
+  "F2"
+ ],
+ "resolvedUncertainty": "U1: no additional guard established",
+ "reviewerAgentId": "ebc019c4-65d2-41e3-9055-2129011bb193",
+ "reviewerName": "ru036-focused-resolution-review",
+ "schemaVersion": 1,
+ "scopeBoundary": "Actual narrow fivefullpairs/twocompleteobjects/twoselectedranges/4guidancelines/botherrata, not a secondwhole review or679caption reading.",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f"
+}
