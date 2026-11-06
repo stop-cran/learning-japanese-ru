@@ -1,6 +1,53 @@
 # Full Russian translation: execution after the two pilots
 
-## Current source milestone: batch055 clothing, accessories and body
+## Current source milestone: batch056 health, recovery and safety
+
+Batch056 adds **20 complete N4 lessons /1157 Russian file lines** against
+the unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The [actual single independent report](translation-batches/056-health-recovery-and-safety-independent-review-001.json)
+actually read **163 complete teaching bodies**,168 whole official objects,
+all1040 candidate captions/readings/quiz rows and two stored bounded native
+returns. Two failed requests supplied no definitions. This is not1040
+complete baseline teaching bodies or whole-page native evidence.
+C1/C3 are CLEAN within assigned correctness/Russian-prose scopes.
+Original **C2 NEEDS_REVISION F1/Q17** remains immutable:
+the [exact append-only resolution](translation-batches/056-health-recovery-and-safety-amended-authoring-001.json)
+removes only the unsupported **安全–安心** exclusion, retaining大丈夫.
+Objective safety and subjective reassurance are not equated by an English
+synonym or native related-word index. All20 actually reviewed teaching bodies
+and1040 captions/readings remain identical.
+**Seventeen individually qualified direct guards retained; Q17 withdrawn**,
+none unresolved. This is the original review and its exact prescribed
+metadata resolution, not a second CLEAN review or fresh semantic rereading.
+The signed resolution freeze preceded implementation.
+
+Mixed-reading歯医者 retains frozen type:wago;具合 retains type:kango and
+its actual tags without an all-on claim. Deprecated看護婦 is a recognition
+target, not a recommended modern job title; absent看護師 files do not mean
+the Japanese word does not exist. Source-only治す remainsN2.
+Medical roles, valency, change/result states and usual health/repair spelling
+distinctions are preserved without denying independently attested overlap.
+Rare喉/こん・こう fish and Kansai直す put-away/put-back protections retain
+their restrictions; no ordinary frequency/necessity is inferred.
+The returned血 character/index material is not a standaloneち definition
+or evidence for bare Russianжар. Broader global uniqueness and ordinary
+modern necessity/frequency remain **UNVERIFIED**.
+
+Qualified membership: **1352 runtime objects /1040 words**:
+671 N5/231 N4/65 N3/19 N2/54 unlabelled.
+Strict progress: **1352 reviewed-current, two excluded reviewed blocked-media
+drafts,6924 pending of8278;6926 runtime paths absent**, no partial.
+Version `fc5bb42159c65874`; checkpoint authority null/Ready false.
+All1332 baseline RAWs/tracking rows and protected excluded033空 are preserved.
+Five source wrappers retained/26 unavailable optional wrappers unwrapped;
+no source-only provider forced into runtime.
+Signed main integration, actual public archives and exact-main CI are separate
+publication evidence, not report claims. No new asset/app/device/phone/IME/
+media/default/package/release approval.
+Continue every remaining safe frozen level/family; 空 remains separately
+pending/C2 UNVERIFIED, not a third media draft.
+
+## Prior source milestone: batch055 clothing, accessories and body
 
 Batch055 adds **20 complete N4 lessons /1035 current Russian file lines**
 against the same frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
