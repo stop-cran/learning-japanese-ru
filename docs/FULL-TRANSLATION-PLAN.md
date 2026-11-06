@@ -1,5 +1,45 @@
 # Full Russian translation: execution after the two pilots
 
+## Current source milestone: batch039 questions, address and responses
+
+Batch039 adds **18 complete N5 word lessons** against the unchanged frozen
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`, not a new pilot limit.
+[Actual review](translation-batches/039-questions-address-responses-independent-review.json)
+and [reviewed source](translation-batches/039-questions-address-responses-reviewed-source.json)
+preserve the original whole review: 39 full EN/RU pairs, 731 compact captions,
+50 complete query-object rows and 32 proposed protections, plus narrow additional
+嫌 evidence. C1/C3 were CLEAN; C2 needed seven direct protections.
+The separately recorded focused review reads all 11 affected/endpoint pairs,
+eight complete objects, seven additions, the full original report, one improved
+Russian apology and five methodological lines. All seven limited additions are
+accepted; the original C2 NEEDS FIX report is not rewritten.
+The cumulative unique bilingual evidence is 40 pairs, not 39 plus 11 new pairs.
+
+**39 direct protections = 17 ordinary-sense decisions + 22 independently accepted
+conservative/contextual safeguards.** Ordinary modern necessity/frequency of the
+22 conservative safeguards remains UNVERIFIED and unasserted. Their limited
+adoption does not add neutral N5 dialect/archaic senses or unrestricted synonyms.
+All 1025 previously accepted runtime RAWs and historical tracking rows are preserved;
+all 731 actual titles remain unchanged by the seven corrections.
+
+Membership: **1043 runtime objects /731 words**, including
+**542/672 N5 words; 130 remain**. Other word levels remain
+56 N4/60 N3/19 N2/54 unlabelled. Fresh strict target accounting:
+**1043 reviewed-current, two excluded reviewed runtime-blocked media drafts,
+7233 pending of 8278; 7235 runtime paths absent**, no partial.
+Version `cdf164e767e453ad`; checkpoint authority null/Ready false.
+Candidate and corrected-candidate manifest/validator/124 tests/budget passed;
+final checks, signed main integration, actual public archives and exact-main CI
+have their own evidence, not an implied device result.
+
+No new assets or app/ordinary EN/device/media/default-activation/release approval.
+`interjection`, `polite`, `request` remain canonical technical IDs;
+mapping fallback is observed only at immutable app `5c000bd`.
+The excluded full033 空 draft remains pending/C2 UNVERIFIED, separate from the
+two reviewed blocked media drafts. Later real native findings may require
+affected-batch corrections; continue every independent safe frozen level/family.
+Older milestones and pilot-baseline counts below are historical.
+
 ## Frozen scope and present state
 
 The owner's 2026-11-04 request is to review and execute the remaining roadmap, not

@@ -8,6 +8,34 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The thirty-ninth full-target batch adds **18 complete N5 question, address,
+request and response lessons**.
+[Reviewed source039](translation-batches/039-questions-address-responses-reviewed-source.json)
+and [actual independent evidence](translation-batches/039-questions-address-responses-independent-review.json)
+combine a whole 39-pair/731-caption/50-object review with narrow additional 嫌
+evidence and a focused 11-pair/eight-object recheck of seven real corrections.
+The original C1/C3 CLEAN, C2 NEEDS FIX report is preserved; all seven direct
+metadata additions, one natural Russian apology and five method lines are
+independently accepted. Cumulative unique bilingual evidence is 40 pairs,
+not an additional full-corpus or repeated whole review.
+**39 direct protections = 17 ordinary-sense +22 conservative/contextual decisions**;
+ordinary modern necessity/frequency of the 22 remains UNVERIFIED and unasserted.
+All 1025 accepted baseline RAWs/tracking rows and 731 actual captions are preserved.
+
+Membership: **1043 runtime objects /731 words**,
+542 N5/56 N4/60 N3/19 N2/54 unlabelled; **130 of672 N5 words remain**.
+Fresh strict progress: **1043 reviewed-current, two excluded reviewed runtime-blocked
+media drafts, 7233 pending, 7235 absent runtime paths**, no partial.
+Version `cdf164e767e453ad`; checkpoint authority null/Ready false.
+Actual candidate/corrected checks passed; final validation, integration, public
+archives and exact-main CI remain separately evidenced publication operations.
+No new assets or app/ordinary EN/device/media/default-activation/release approval.
+Canonical `interjection`/`polite`/`request` mapping follow-up is confined to
+immutable app `5c000bd`. Later actual native findings can require affected-batch
+correction/review; authoring of safe frozen content continues.
+
+Batch038 and earlier milestones below are historical.
+
 The thirty-eighth full-target batch adds **18 complete quantity/measurement/comparison words:
 16 N5 roots and two required N4 providers, 最も/最初**.
 [Reviewed source038](translation-batches/038-quantities-measurements-reviewed-source.json)

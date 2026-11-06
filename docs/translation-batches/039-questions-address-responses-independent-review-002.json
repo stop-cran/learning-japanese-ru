@@ -1,0 +1,107 @@
+{
+ "actualAdditionalDirectReading": "Actual11focusedfullpairs/8objects/7claims, entirepriorreport, directreviewcontract150–196/method251–265 and frozenwordcontract126–181;731titles mechanicallysame, not freshwholepoolreading.",
+ "actualEventsPrivateArtifact": "ru-039-focused-review-actual-events-001.json",
+ "actualEventsRawSha256": "f90254842d6aad02d6209ba499f136c0a6a09657d0316bc6932129a1f04a40fc",
+ "actualNativeContentDomain": "tool.execution_complete.result.content",
+ "actualNativeEventId": "0f687db4-b0f6-4b09-bb92-daf25a43a9a9",
+ "actualNativeReturnText": "## Snapshot\n\n- EN: `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.\n- Исправленный подписанный RU: `93fa939617ada02abcc22a3c98289fd049d3c7f6`, подпись `G`, ветка `full-ru-039-questions-address-responses`, tracked clean.\n- Исходный кандидат: `efef2f19bf43204a696be67806e47a533d0919ce`; freeze исправлений: `a9e7ab4b34762c31d45110ff00b375d761fa5005`.\n- Runtime: 1043 объекта, 731 слово, версия `cdf164e767e453ad`. Все 1025 принятых baseline RAW сохранены; tracking остаётся **1025 accepted**, без утверждения новой партии.\n\n## ActualReadingScope\n\nПолностью прочитаны **11 EN/RU-пар**, включая metadata, примеры, чтения и оговорки, в заданном порядке:\n\n何、はい、ええ、いいえ、嫌、自分、一人、いい、結構、大丈夫、どうも.\n\nТакже полностью прочитаны:\n\n- семь новых защитных предложений;\n- восемь сохранённых словарных объектов: 自分、どうも、はい、いいえ、ええ、一人、結構、嫌 — с ограничениями, пометами и provenance;\n- исходный независимый отчёт целиком;\n- действующий review contract, строки 150–196; методические строки 251–265; frozen word/quiz contract 126–181;\n- точный diff исправлений и сохранённые результаты авторской проверки: manifest, validator, 124 tests, budget — все exit 0. **Повторно не запускались.**\n\nУспешные диапазоны helper: `pairs[0:11]`, `objects[0:8]`, `proposals[0:7]`. Начальная и заключительная механические проверки совпали.\n\n## C1 / C2 / C3 — только этот focused scope\n\n- **C1 — CLEAN.** В прочитанных парах японские высказывания, чтения, конструкции и существенные оговорки сохранены. Новые исключения не превращены в учебные определения.\n- **C2 — CLEAN.** Все семь ограниченных защитных добавлений независимо приняты. Точный diff подтверждает только добавления metadata на четырёх новых карточках; прежние 32 объявления сохранены. Новых обязательных зависимостей исправления не создают. Все 731 подписи неизменны механически; семантически здесь перечитаны только подписи 11 назначенных карточек.\n- **C3 — CLEAN.** Исправленная русская фраза естественна; пять методических строк понятны и сохраняют необходимые границы.\n\n## Статус четырёх исходных findings / семи пар\n\n1. **何–はい; 何–ええ — resolved, обе приняты.**  \n   `words\\何.md:9`. Переспрос はい с восходящей интонацией допускает «Что?». У ええ словарное значение удивления имеет помету `usu. えー`, а не абсолютный запрет написания ええ. Это прямое основание защиты фактической подписи «что», не переопределение утвердительных ответов. **Уверенность высокая в ограниченном принятии.**\n\n2. **いいえ–嫌 — resolved, принята.**  \n   `words\\いいえ.md:9`. Полный объект 嫌 содержит отказ `no! / quit it! / stop!`; обычность записи каной не исключает точное написание 嫌. Русское «Нет!» сохранено в объяснении 嫌, как и отличие эмоционального отказа от вежливого いいえ. **Уверенность высокая.**\n\n3. **自分–一人 — resolved, принята.**  \n   `words\\自分.md:9`. Фактическое «сам» допускает русское прочтение действия без других; это поддерживают пример возвращения 一人で и словарное значение «в одиночку». Объяснения по-прежнему различают личное выполнение 自分で и отсутствие других 一人で. **Уверенность средне-высокая.**\n\n4. **はい–いい; はい–結構; はい–大丈夫 — resolved, каждая принята отдельно.**  \n   `words\\はい.md:9`. Основания соответственно: разрешение/согласие; принятие договорённости; приемлемость предложенного времени. В этих ответных контекстах фактическое «да» допустимо. Это не безусловные значения прилагательных, не обобщение безопасности и не транзитивный вывод. Оговорки об отказе сохранены. **Уверенность средне-высокая.**\n\n**Все семь limited adoptions приняты; нерешённых решений об их принятии нет.** Обычная современная необходимость и частотность **каждой из семи остаются UNVERIFIED и не заявляются**. Статус аналогичных сильных утверждений для прежних 15 консервативных защит также не повышается.\n\n## Фраза и методика\n\n- `words\\どうも.md:19`: «Очень прошу прощения» — **принято**. Японская реплика, чтение и усиление извинения сохранены.\n- `.github\\copilot-instructions.md:259–263`: все пять строк — **приняты**. Требуют засвидетельствованных функций, запрещают безусловные равенства и транзитивную клику, сохраняют различие 自分で/一人で.\n\n**Новых подтверждённых дефектов: None.**\n\n## Limits\n\nЭто не повторное ревью всех 18 новых карточек, 39/40 полных пар или корпуса. Исходный отчёт сохраняет собственные **C1 CLEAN / C2 NEEDS FIX / C3 CLEAN**; настоящий результат — отдельная проверка устранения его четырёх findings.\n\nИсключённый full033 空 остаётся вне runtime и C2 UNVERIFIED; два ограниченных media drafts не затронуты. Canonical IDs не изменены; app-mapping follow-up не проверялся. Native-speaker, media, activation и release acceptance не заявляются.\n\nФайлы не изменялись; тесты, сборки и эмуляторы не запускались; другие агенты и внешние контакты не использовались.",
+ "actualNativeReturnUtf8Bytes": 7687,
+ "actualNativeReturnUtf8Sha256": "4a48fa55c340fc598dedf9c70810cb05b5b61abf681a0ac3a439038b3918f453",
+ "actualObservedSuccessfulReaderIndices": {
+  "guidance": [
+   9
+  ],
+  "objects": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "pairs": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "pool": [],
+  "proposals": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ]
+ },
+ "batchId": "039-questions-address-responses",
+ "candidateCommit": "93fa939617ada02abcc22a3c98289fd049d3c7f6",
+ "checkpointAuthority": null,
+ "disposition": "Actual focusedC1/C2/C3CLEAN:all7limitedadoptions,1phraseand5methodlines accepted. OriginalwholeC2NEEDS FIX remains unchanged; no trackingacceptanceyet or newlyassertedordinarymodernnecessity.",
+ "facets": {
+  "C1": "CLEAN",
+  "C2": "CLEAN",
+  "C3": "CLEAN"
+ },
+ "independentlyAcceptedAdditionalPairs": [
+  [
+   "何",
+   "はい"
+  ],
+  [
+   "何",
+   "ええ"
+  ],
+  [
+   "いいえ",
+   "嫌"
+  ],
+  [
+   "自分",
+   "一人"
+  ],
+  [
+   "はい",
+   "いい"
+  ],
+  [
+   "はい",
+   "結構"
+  ],
+  [
+   "はい",
+   "大丈夫"
+  ]
+ ],
+ "independentlyAcceptedNewLimitedGuards": 7,
+ "journalReadBound": "Last4194304bytes of known session journal only; no full journal or OS temp.",
+ "limits": [
+  "Only18complete N5runtimewords accepted; not wholecorpus/native/device/media/defaultactivation/release/checkpoint authority.",
+  "Actual whole39pair/731compactcaption/50queryobject/32proposal review plus narrowadditional嫌pair returnedC1/C3CLEAN,C2NEEDS FIX. Original11144byte report preserved whole, including144byte reporting-limit miss; never retroactivelyCLEAN.",
+  "Actual focused11fullpairs/8completeobjects/7newclaims/fullpriorreport/1phrase/5methodlines acceptsall7correctionsC1/C2/C3CLEAN. These11are inside the40cumulativeunique relevantpairs, not50newpairs or731wholebodies.",
+  "All39directguards=17ordinarysense+22independentlyacceptedconservative/contextual protections. Ordinarymodernnecessity/frequency ofeach22 remainsUNVERIFIED/unasserted; no genericcliques or newlytaughtregional/archaicN5senses.",
+  "All1025acceptedbaselineRAWs/tracking/history and full excludedsky preserved. All731actualtitles unchanged by corrections; only4newmetadataheaders+1newRussianphrase and5methodlines changed.",
+  "No newassets/scenes/strokes/mandatorykanji/grammarcontexts. All7sourcelocallinks enumerated:2retained/5optionalwrappersremoved withoutloss ofteaching.",
+  "Canonicalinterjection/polite/request IDs unchanged; mappinggaponly atimmutableapp5c000bd. No concurrentapp/ordinaryENedit, native/phone/IME/playback/newmediaauthority orpaidgeneration."
+ ],
+ "nativeTransferLimitObservation": "Within9500UTF8bytes",
+ "ordinaryActivationAuthorized": false,
+ "ordinaryModernNecessityFrequencyOfConservativeClaims": "UNVERIFIED; unasserted, not relabelled CLEAN",
+ "prior15ModernNecessitiesNotUpgraded": true,
+ "reviewerAgentId": "cbd564ff-4be4-4b3b-9293-b23363edf0f1",
+ "reviewerName": "ru039-seven-guard-focused-recheck",
+ "reviewerResumable": false,
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f"
+}
