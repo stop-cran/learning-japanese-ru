@@ -8,6 +8,34 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The forty-first full-target batch adds **25 complete core-action/making/existence
+lessons: 18 N5 roots, four required N4 and three required N3 providers**.
+[Reviewed source041](translation-batches/041-core-actions-making-existence-reviewed-source.json)
+and [actual independent evidence](translation-batches/041-core-actions-making-existence-independent-review.json)
+preserve the whole 69-pair/781-caption/80-object/67-proposal reading:
+original C1/C3 CLEAN, C2 NEEDS FIX, not retroactively CLEAN.
+The focused four-pair/four-object recheck resolves direct いる–要る and 上げる–貸す
+guards and assesses six method lines. Cumulative unique bilingual evidence is
+**69 pairs**, not 73. All 25 learner bodies and 781 titles remain unchanged.
+**69 direct protections = nine source edges +17 direct taught/caption decisions
++43 limited conservative/contextual decisions**; stronger ordinary modern
+necessity/frequency of all 43 remains UNVERIFIED and unasserted.
+All 1068 accepted baseline RAWs/tracking rows are preserved.
+
+Membership: **1093 runtime objects /781 words**,
+582 N5/61 N4/65 N3/19 N2/54 unlabelled; **90 of672 N5 words remain**.
+Fresh strict progress: **1093 reviewed-current, two excluded reviewed runtime-blocked
+media drafts, 7183 pending, 7185 absent runtime paths**, no partial.
+Version `e05eb558300d0602`; checkpoint authority null/Ready false.
+Actual candidate/corrected checks passed; final checks, signed integration,
+public archives and exact-main CI have separate publication evidence.
+No new assets or app/ordinary EN/device/media/default-activation/release approval.
+The six canonical-tag mapping gaps are bounded to immutable app `5c000bd`.
+Later actual native findings can require affected-batch correction/review;
+authoring of safe frozen content continues.
+
+Batch040 and earlier milestones below are historical.
+
 The fortieth full-target batch adds **25 complete connectives/frequency/degree
 lessons: 22 N5 roots, one required N4 and two required N3 providers**.
 [Reviewed source040](translation-batches/040-connectives-frequency-degree-reviewed-source.json)

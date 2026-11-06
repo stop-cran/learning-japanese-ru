@@ -1,0 +1,80 @@
+{
+ "actualEventsPrivateArtifact": "ru-041-focused-review-actual-events-001.json",
+ "actualEventsRawSha256": "b6255d4cb290628bbab6b7686c47e8870798cc751eac8abb123ed29cbe9e9eb9",
+ "actualNativeContentDomain": "tool.execution_complete.result.content",
+ "actualNativeEventId": "305f6b39-41f8-4b97-bec7-ad4c4f73c0cd",
+ "actualNativeReturnText": "## Batch041 — focused correction recheck\n\n### Snapshot and actual scope\n\nCorrected candidate: **`90af6c7cfaf809bad797c13bd67589943090f4d9`**, branch `full-ru-041-core-actions-making-existence`, contentVersion **`e05eb558300d0602`**. Frozen EN: **`6af98cb717755690a9ca793e5454a96ebd7a8f9f`**. No uncommitted changes included.\n\nSuccessfully read:\n- Entire original **9643-byte native report**.\n- Four complete frozen-EN/current-RU pairs: `いる`, `要る`, `上げる`, `貸す`.\n- All four complete captured lexical objects, including restrictions and qualifiers.\n- Both corrective proposals, four supplementary rows, six active method lines and their exact diff.\n- All four serialized corrected-tree check outputs.\n- Applicable general/scoped instructions and all three reviewer rubrics.\n\nAll requested reader ranges succeeded without oversized failures. These four pairs are a **subset of the original 69**, not four additional unique pairs. No fresh whole-pool reading is claimed.\n\n### Focused facet verdicts\n\n| Pair | C1 correctness | C2 scoped coverage/guards | C3 Russian comprehension |\n|---|---|---|---|\n| `いる` | CLEAN | CLEAN | CLEAN |\n| `要る` | CLEAN | CLEAN | CLEAN |\n| `上げる` | CLEAN | CLEAN | CLEAN |\n| `貸す` | CLEAN | CLEAN | CLEAN |\n\n**CLEAN means no confirmed actionable defect within this focused boundary only.**\n\n### Correction dispositions\n\n**F1 — resolved; C2; high confidence.**  \n`words\\いる.md:9` now directly excludes `要る`. Its bare spelling and reading hint remain `いる`; the captured necessity object confirms the same reading and kana-writing tag. `words\\要る.md:27,37–41` preserves kana usage and the distinction between necessity and living presence. Ichidan `いない` and godan `要らない` remain separate. The guard addresses quiz ambiguity without merging meanings or conjugations.\n\n**F2 — resolved; C2; high confidence.**  \n`words\\上げる.md:9` now directly excludes `貸す`. Actual captions remain **«поднимать; давать»** and **«одалживать; сдавать в аренду»**. The unchanged lending lesson explicitly uses **«давать другому временно пользоваться»**, **«дайте мне ручку на время»**, and **«貸す — давать другому»** (`words\\貸す.md:15,18,32`). Its captured object additionally records colloquial hand/give usage. This supports the direct caption guard—not gift/lending equivalence or a giving clique.\n\n### Regression assessment\n\nThe six lines at `.github\\copilot-instructions.md:269–274` accurately capture both observed mechanisms and expressly prohibit semantic/conjugational merging and transitive exclusion groups. No consequential methodological regression established.\n\nOnly the two new cards’ exclusion metadata changed. Supplied mechanical evidence preserves all 25 learner bodies, all 781 titles, the 1068 baseline RAWs and all 67 original guards; no proposals were withdrawn. These preservation facts are not fresh semantic review.\n\nRead author outputs show four exit codes **0**, including **124 tests OK**. I did **not** rerun them or any validator.\n\n### Findings and limits\n\n**New actionable defects: none established. Optional polish: none.**\n\nThe original whole-review verdict remains **C1 CLEAN / C2 NEEDS FIX / C3 CLEAN**, unchanged historically. All **43 stronger ordinary-modern necessity/frequency claims remain UNVERIFIED and unasserted**. Current app mappings for `action`, `auxiliary`, `existence`, `industry`, `infrastructure`, `transfer` remain UNVERIFIED outside this recheck.\n\nAccepted baseline remains `222580541484b7ce58ed83c941ab5e96ed02f1b7`: **1068 runtime / 756 words**. This report does not activate or accept the combined **1093/781** tree.\n\nExcluded033 sky C2 UNVERIFIED, four protected references and blocked-media boundaries remain untouched. No new app/native/device, activation, package-authority, C6/C7, release, proficiency or whole-corpus approval is implied; existing partial native evidence is neither reviewed nor denied.\n\nNo edits, files, commits, pushes, tests, agents, workflows or broadcasts were performed.",
+ "actualNativeReturnUtf8Bytes": 4160,
+ "actualNativeReturnUtf8Sha256": "0b070fe369e9c5d07858e719abcc10e33bfd6aedf068c831a92d474c366e868f",
+ "actualObservedSuccessfulReaderIndices": {
+  "checks": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "extra": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "objects": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "pairs": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "pool": [],
+  "prior": [
+   0
+  ],
+  "proposals": [
+   0,
+   1
+  ]
+ },
+ "batchId": "041-core-actions-making-existence",
+ "candidateCommit": "90af6c7cfaf809bad797c13bd67589943090f4d9",
+ "checkpointAuthority": null,
+ "cumulativeUniqueReportedBilingualPairs": 69,
+ "facets": {
+  "C1": "CLEAN",
+  "C2": "CLEAN",
+  "C3": "CLEAN"
+ },
+ "independentlyAcceptedAdditionalPairs": [
+  [
+   "いる",
+   "要る"
+  ],
+  [
+   "上げる",
+   "貸す"
+  ]
+ ],
+ "limits": [
+  "Only25completewordlessons(18N5+4N4+3N3) accepted; no wholecorpus/native/device/media/defaultactivation/release/checkpoint authority.",
+  "Actual whole69fullpairs/781compactcaptions/80completequeryobjects/67proposals/fourtargetedofficialannotations returnedC1CLEAN/C2NEEDS FIX/C3CLEAN. Original9643byte report unaltered.",
+  "Actual focused4fullpairs/4objects/2addedguards/6methodlines/fulloriginalreport resolvesactualfindingsC1/C2/C3CLEAN ONLYwithinboundary. Fourareinside69, not73unique pairs.",
+  "69directguards=9sourceedges+17directtaught/caption decisions+43independentlyacceptedlimitedconservative/contextual protections. Strongerordinarymodernnecessity/frequency ofeach43 UNVERIFIED/unasserted; no genericcliques/newneutralN5rareteaching.",
+  "All1068acceptedbaselineRAWs/tracking/history andexcludedunverifiedsky preserved; all25learnerbodies and781actualtitles unchanged by corrections. No unsupported withdrawals.",
+  "No newassets/scenes/strokes/mandatorykanji/grammarcontexts.50sourcelocallinks enumerated:20retained/30optionalwrappersremoved withoutJapanese substantive teaching loss.",
+  "Canonicalaction/auxiliary/existence/industry/infrastructure/transfer IDs preserved; explicitmappinggapONLYatimmutableapp5c000bd. No concurrentapp/ordinaryEN/device/mediaauthority edits/claims."
+ ],
+ "nativeTransferLimitObservation": "Within9500UTF8bytes",
+ "ordinaryActivationAuthorized": false,
+ "reviewerAgentId": "6001364c-a226-4626-8d46-538ef6f4b686",
+ "reviewerName": "ru041-focused-correction-recheck",
+ "reviewerResumable": false,
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "stronger43ConservativeNecessityFrequency": "UNVERIFIED; unasserted",
+ "unsupportedProposalWithdrawn": []
+}

@@ -1,6 +1,45 @@
 # Full Russian translation: execution after the two pilots
 
-## Current source milestone: batch040 connectives, frequency and degree
+## Current source milestone: batch041 core actions, making and existence
+
+Batch041 adds **25 complete word lessons: 18 N5 roots and seven required
+providers (four N4 and three N3)** against unchanged frozen
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+[Actual review](translation-batches/041-core-actions-making-existence-independent-review.json)
+and [reviewed source](translation-batches/041-core-actions-making-existence-reviewed-source.json)
+preserve the whole review of **69 complete EN/RU pairs, 781 compact captions,
+80 complete query objects and 67 safeguard proposals**.
+Its C1/C3 CLEAN, C2 NEEDS FIX verdict remains historical.
+A focused four-pair/four-object recheck independently resolves the missing
+いる–要る kana-homograph and 上げる–貸す coarse «давать» protections,
+and assesses six method lines. The four pairs are inside the original
+**69 unique pairs**, not 73. All 25 learner bodies and 781 titles remain unchanged.
+
+**69 direct protections = nine preserved source edges, 17 directly assessed
+taught/caption decisions and 43 limited conservative/contextual safeguards.**
+Stronger ordinary modern necessity/frequency of all 43 remains UNVERIFIED
+and unasserted. Separate readings/homographs are not merged into primary N5 lessons.
+Four targeted official JMdict spelling/reading-element sets support rare-form
+annotations; this is not full reading of their official sense bodies.
+All 1068 previously accepted runtime RAWs and historical tracking rows are preserved.
+
+Membership: **1093 runtime objects /781 words**, including
+**582/672 N5 words; 90 remain**. Other word levels:
+61 N4/65 N3/19 N2/54 unlabelled. Fresh strict target accounting:
+**1093 reviewed-current, two excluded reviewed runtime-blocked media drafts,
+7183 pending of 8278; 7185 runtime paths absent**, no partial.
+Version `e05eb558300d0602`; checkpoint authority null/Ready false.
+Candidate and corrected checks passed; final validation, signed integration,
+public archives and exact-main CI have separate evidence.
+
+No new assets or app/ordinary EN/device/media/default-activation/release approval.
+Canonical `action`/`auxiliary`/`existence`/`industry`/`infrastructure`/`transfer`
+IDs remain unchanged; explicit mapping gaps are observed only at immutable app `5c000bd`.
+Excluded033 空 remains pending/C2 UNVERIFIED, separate from the two blocked media drafts.
+Later actual native findings can require affected-batch correction and review;
+continue every independent safe frozen level/family.
+
+## Prior source milestone: batch040 connectives, frequency and degree
 
 Batch040 adds **25 complete word lessons: 22 N5 roots and three required
 providers (たいてい N4; 現実/実際 N3)** against the unchanged frozen
