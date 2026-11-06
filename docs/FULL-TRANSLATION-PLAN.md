@@ -1,6 +1,49 @@
 # Full Russian translation: execution after the two pilots
 
-## Current source milestone: batch056 health, recovery and safety
+## Current source milestone: batch057 feelings, reactions and attitudes
+
+Batch057 adds **21 complete lessons /1211 Russian file lines** against
+the unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`:
+**20 actual N4 roots plus the required N3幸せ provider**, without relabeling.
+The [actual single independent report](translation-batches/057-feelings-reactions-and-attitudes-independent-review-001.json)
+read **138 complete teaching bodies,138 whole official objects and all1061
+actual candidate caption/reading/quiz rows**. This is not1061 baseline
+teaching bodies or newly fetched native definitions.
+No consequential C1/C3 defect was found within assigned correctness/
+Russian-prose scopes; C2 accepts the word-only dependencies and
+**all nine preserved source edges plus18 individually qualified direct
+proposals** against that actual pool. No findings or repairs were required.
+Original report bytes and successful stdout/native-final identity are preserved.
+
+The exact **びっくり word-only adaptation** omits only optional image/image_scene
+metadata; all teaching remains. Its source image is separately pending,
+not copied/generated/bound or a new blocked-media draft.
+The exactねっしん adaptation removes source-internal N3-list indirection,
+not the identity of熱心 or actual kanaID/reading/N4/type:kango/kanji[].
+Mixed気持ち retains on-first kango without an all-on claim;
+まじめ retains native/ateji treatment.
+Reaction/enjoyment, surprise/causation, tears/animal calls,
+kindness/easiness and state/change/particle distinctions remain explicit.
+Reading-only safeguards do not equate Japanese senses;
+conservative Q8/Q16/Q17/Q18 retain their exact asymmetric/POS/sense limits.
+No transitive feeling/amount/work-ethic clique or ordinary necessity claim.
+Broader uniqueness and ordinary modern necessity/frequency remain **UNVERIFIED**.
+
+Qualified membership: **1373 runtime objects /1061 words**:
+671 N5/251 N4/66 N3/19 N2/54 unlabelled.
+Strict progress: **1373 reviewed-current, two excluded reviewed blocked-media
+drafts,6903 pending of8278;6905 runtime paths absent**, no partial.
+Version `00199a7e565a0693`; checkpoint authority null/Ready false.
+All1352 baseline RAWs/tracking/history and protected excluded033空 are preserved.
+Fifteen source wrappers retained/23 unavailable optional wrappers unwrapped.
+The signed semantic freeze preceded all learner writing.
+Final serialized validation, signed integration, actual public archives and
+exact-main CI are separate publication evidence, not reviewer claims.
+No new asset/app/device/phone/IME/media/default/package/release authority.
+**The finite objective remains incomplete: continue all remaining safe
+frozen levels/families; protected空 remains separate, not media.**
+
+## Prior source milestone: batch056 health, recovery and safety
 
 Batch056 adds **20 complete N4 lessons /1157 Russian file lines** against
 the unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
