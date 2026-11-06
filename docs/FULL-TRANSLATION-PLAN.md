@@ -1410,3 +1410,56 @@ Concurrent dirty app and ordinary English checkouts remain untouched.
 No phone/JapaneseIME/playback/new audio-package/C6/C7/default activation/release/
 human-checkpoint approval follows. Continue the 220 remaining N5 words and every
 other safe frozen level/family; isolate evidenced uncertainty instead of idling the corpus.
+
+## Reviewed source milestone 034: hygiene and household
+
+[Source 034](translation-batches/034-hygiene-household-reviewed-source.json)
+adds all **12 complete N5 root lessons**: あびる, シャワー, お風呂, 風呂,
+お手洗い, トイレ, せっけん, 洗う, 洗濯, 掃除, 歯, 磨く.
+The exact frozen source remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+All 951 accepted baseline runtime RAWs and old tracking rows remain unchanged.
+The complete excluded 空 draft and its two C2-unverified questions remain intact
+inside pending, not accepted or counted as a third reviewed media draft.
+
+One [actual whole read-only review](translation-batches/034-hygiene-household-independent-review.json)
+covers 12 primary and 18 supporting complete EN/RU pairs, all 651 actual compact
+caption rows, 33 complete selected lexical query-object rows and nine selected
+dictionary ranges from eight pages. These are not 651 complete articles, all API
+response objects or whole pages. Successful reader outputs demonstrate those
+exact ranges; the complete 6,185-byte native report is available, not an unread spool.
+C1/C2/C3 are CLEAN within this bounded twelve-unit source review; no correction
+or additional reviewer was needed.
+
+Seven direct guards are retained: お風呂–風呂, お風呂–バス, 風呂–バス,
+お手洗い–トイレ, 洗う–洗濯, 歯–年, 洗濯–休む.
+The bath noun バス-1 is not the bus entry's place-name Bath.
+Exact-written 歯 age readings support the bare-writing safeguard, but their
+frequency remains unverified and no new primary N5 age reading is taught.
+The named modern/精選 dictionaries explicitly support the refreshment/する
+evidence for 洗濯–休む; this is not a blanket noun-to-する inference.
+No 洗濯–遊ぶ, 磨く–練習 or automatic cleaning-family clique is established.
+Natural Russian toilet/soap sense qualifiers exclude Russian-only outfit,
+camera and email homonyms without deleting Japanese source meanings.
+All substantive teaching behind sixteen local source links is retained:
+four available/in-batch links remain, twelve absent optional wrappers alone go.
+
+Membership is **963 runtime objects**: 141 kanji/651 words/141 strokes/2 articles/
+22 counter files/one grammar set/2 scene catalogs/3 images.
+Word levels: 464 N5/54 N4/60 N3/19 N2/54 unlabelled;
+**464 of 672 frozen N5 words adopted, 208 remain**.
+Fresh strict 8,278-entry progress: **963 reviewed-current**, **no partial**,
+**two excluded reviewed runtime-blocked media drafts**, **7,313 pending**,
+**7,315 runtime paths absent**. Version `8544136ac90cafb4`;
+checkpoint authority null/Ready false.
+Candidate checks: validator 0 errors, 124 tests OK in 29.284s;
+budget 971 files/980 entries/2,732,926 retained/2,749,608 inflated/1,376,093 ZIP bytes.
+Final serialized checks, signed main integration, actual public archive and
+exact-main CI are separately evidenced; text review is not device acceptance.
+
+No new assets, paid media or package authority. At exact app pin `5c000bd` only,
+the new canonical `facilities` tag lacks an explicit localized hint case and
+falls back raw; this is app follow-up, not a claim about concurrent current app.
+Concurrent dirty app and ordinary English checkouts remain untouched.
+No phone/JapaneseIME/playback/C6/C7/default activation/release/human-checkpoint
+approval follows. Continue the 208 remaining N5 words and every other safe
+frozen level/family; keep the full objective in progress.

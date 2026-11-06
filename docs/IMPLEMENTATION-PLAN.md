@@ -8,6 +8,33 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The thirty-fourth full-target batch adds **12 complete N5 hygiene/household words**.
+[Reviewed source 034](translation-batches/034-hygiene-household-reviewed-source.json)
+and its [independent review](translation-batches/034-hygiene-household-independent-review.json)
+bind one actual whole three-facet review: 12 primary/18 supporting full EN/RU pairs,
+651 compact captions, 33 complete selected lexical rows and nine selected ranges
+from eight pages. The complete 6,185-byte native report and successful reading
+trace are preserved; C1/C2/C3 are CLEAN within this twelve-unit source boundary.
+All seven direct guards are retained; no cleaning/category/transitive clique is added.
+The age-spelling frequency of 歯 is still unverified, not taught as primary N5.
+
+All 951 older runtime RAWs/tracking rows and the full excluded C2-unverified 空 draft
+are unchanged. Membership is **963 runtime objects** — 141 kanji/651 words/
+141 strokes/2 articles/22 counter files/one grammar set/2 scene catalogs/3 images.
+Fresh strict progress: **963 reviewed-current, two excluded reviewed runtime-blocked
+media drafts, 7,313 pending, 7,315 absent runtime paths**, no partial.
+Word levels: 464 N5/54 N4/60 N3/19 N2/54 unlabelled; **208 of 672 N5 words remain**.
+Version `8544136ac90cafb4`; checkpoint authority null/Ready false.
+Candidate checks: validator 0 errors, 124 tests OK in 29.284s;
+budget 971 files/980 entries/2,732,926 retained/2,749,608 inflated/1,376,093 ZIP bytes.
+Final checks, source integration, archive and exact-main CI have separate receipts.
+At exact old app pin `5c000bd` only, newly exposed `facilities` lacks an explicit
+localized hint mapping; retain the ID and record app follow-up, not a current-app claim.
+No new assets or phone/IME/playback/new audio-package/C6/C7/default activation/
+release/checkpoint authority. Continue every remaining safe frozen level/family.
+
+Batch 033 and earlier milestones below are historical.
+
 The thirty-third full-target batch authors 19 complete N5 nature/outdoor texts.
 [Reviewed source 033](translation-batches/033-nature-outdoor-activity-reviewed-source.json)
 adopts **18 runtime words**; the complete, unchanged
