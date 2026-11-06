@@ -198,6 +198,10 @@ at `5f460b8…`; this roundtrip is not a substantive review of the newer EN corp
 
 ### Remaining gates and restoration
 
+The following is the original bounded B3/restoration receipt. Its then-unearned Word Type
+observation is historical; the subsequent five-target observation below updates that boundary
+without rewriting the original APK/history receipt or passing the other remaining gates.
+
 - **Counter suffix / legacy whole-phrase typing:** native-deferred until the existing two-distinct-days
   Choose prerequisite is genuinely earned. One actual Choose day is recorded; do not advance the clock
   or inject state to complete the matrix.
@@ -223,6 +227,26 @@ Private DB/preferences/command evidence stays local; it is not uploaded with the
 Current status: **B0/B1/B2 complete; the observed B3 subset passes with the explicit deferred gates above;
 B4 instructions, reflection, signed branch publication and fast-forward main integration completed.**
 These new source merges do not activate ordinary Russian defaults or count the deferred native paths as passed.
+
+### Subsequent recorded C6 observation: five genuinely unlocked Word Type paths
+
+The [later C6 record](https://github.com/stop-cran/learning-japanese-ru/issues/6#issuecomment-6633295530)
+documents an already performed owned API29 run, not a new test in translation batch036.
+Exact signed APK SHA-256 `0293a7bab3e5e0ad752e15c822c610b11d9fc2c4cc5a45de27ca31bfa3125bde`
+used app `5c000bd` and the unchanged authorized integration-test `ru-pilot-b`
+`7ce81c74e72fc189185a1bebe71d775379792124`, version `24362f736bc17328`.
+Forty ordinary reverse-practice answers genuinely earned the unchanged prerequisite.
+Native Word Type then passed **5/5**: ぺらぺら / きらきら / つやつや / つるつる / ぬるぬる,
+with automatic focus, visible IME, correct feedback/Next and committed own-mode history.
+This is not all 13 words, Japanese-keyboard acceptance or physical-phone acceptance;
+the record discloses the Latin IME and input-only helper.
+
+Second distinct real CounterChoose day, exact new-RU audio-package authority and actual
+playback/interruption for both excluded drafts, phone/JapaneseIME and C7 remain unpassed.
+The earlier grammar/counter/picture observations above remain actual bounded passes.
+Later native findings may require correction and independent re-review of affected source batches.
+That possibility does not supersede the owner's authorization to continue independent source authoring,
+and none of these records activates ordinary Russian defaults.
 The controlled runtime branch stays at `7ce81c7…`; the Russian follow-up commit changes documentation only.
 The two audio families are **BLOCKED for runtime publication** pending fresh package authority;
 their complete Russian text and source reuse plan remain part of the implementation/review scope.

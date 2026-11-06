@@ -786,8 +786,11 @@ Pilot B now has accepted independent content review, 109 tool tests, final publi
 and bounded actual grammar/counter/picture integration on the owned API-29 lab. That integration
 also corrected retained-producer locale resolution in the app. The complete observation matrix,
 exact APK/package identities, restored original lab state and remaining earned-history/native
-boundaries are in [Pilot B](PILOT-B.md); counter suffix typing, new-cohort Word Type and listening
-are not silently counted green. New work is published on `ru-pilot-b` / `ru-pilot-b-integration`
+boundaries are in [Pilot B](PILOT-B.md); counter suffix typing, Word Type targets beyond the five
+actually unlocked and checked later, and listening are not silently counted green.
+The [later five-target C6 record](https://github.com/stop-cran/learning-japanese-ru/issues/6#issuecomment-6633295530)
+supersedes only the earlier unearned-Word-Type observation, not the remaining gates.
+New work is published on `ru-pilot-b` / `ru-pilot-b-integration`
 and fast-forwarded into the respective mains as source integration, not substituted into the frozen
 official `ru-pilot-a` or the controlled native runtime commit.
 C7 and broad translation remain separate. Earlier pending/failed dispositions below retain their dates.
@@ -1086,6 +1089,13 @@ harness setup corrections occurred before the only Save and are not extra interr
 
 ## Ownership and sequence
 
+The initial checkpoint sequence below is retained as historical pilot/release ordering.
+Its old requirement to finish C6/C7 before broad **source authoring** is superseded by the
+subsequent owner authorization at the top and in [FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md).
+Reviewed source batches continue against frozen EN `6af98cb…`; ordinary/default activation
+and applicable release acceptance remain gated. Actual later native findings may require
+correction and independent re-review of affected batches, not a speculative stop to unrelated authoring.
+
 | Checkpoint | Result | Work item |
 | --- | --- | --- |
 | C0 | Frozen source, scope and acceptance dossier | [RU #4](https://github.com/stop-cran/learning-japanese-ru/issues/4) |
@@ -1094,14 +1104,20 @@ harness setup corrections occurred before the only Save and are not extra interr
 | C3 | Russian app shell smoke-tested, then complete app localization and safe switching | [Android #28](https://github.com/stop-cran/kanji-cards-android/issues/28), [#127](https://github.com/stop-cran/kanji-cards-android/issues/127) |
 | C4 | Reviewed, dependency-closed kanji/word pilot A | [RU #3](https://github.com/stop-cran/learning-japanese-ru/issues/3) |
 | C5 | First real app/content integration and methodology correction gate | [RU #5](https://github.com/stop-cran/learning-japanese-ru/issues/5) |
-| C6 | Small representative pilot B for structured content/media, second correction gate | RU #3 and #5 |
-| C7 | Release acceptance, scoped checkpoint, then broader translation | RU #3, [RU #2](https://github.com/stop-cran/learning-japanese-ru/issues/2), #5 |
+| C6 | Small representative pilot B for structured content/media, second correction gate | [RU #6](https://github.com/stop-cran/learning-japanese-ru/issues/6), RU #3 and #5 |
+| C7 | Release acceptance and scoped checkpoint; no longer a prerequisite for independent source authoring | [RU #7](https://github.com/stop-cran/learning-japanese-ru/issues/7), RU #3, [RU #2](https://github.com/stop-cran/learning-japanese-ru/issues/2), #5 |
 
 C1 and C2 start in parallel, but C2's executable format instructions must agree with C1 before adoption.
 C3's string inventory can start immediately; its source transition implementation needs C1's contract.
 C4 requires adopted C1/C2 and a minimal provenance ledger, not scheduled drift automation.
 C5 requires complete C3 and reviewed C4; C6 starts only after C5 findings affecting the next batch are reconciled.
-C7 requires C6 acceptance. Broad translation and optional automated drift reports follow this learning loop.
+C7 retains its applicable C6 acceptance requirements for ordinary activation/release.
+The former broad-translation-last order is superseded for source authoring; optional automated
+drift reports are not an authoring or study prerequisite. Current partial C6 evidence includes
+[grammar/counter/picture observations](https://github.com/stop-cran/learning-japanese-ru/issues/6#issuecomment-6630812890)
+and the later [five genuinely unlocked native Word Type paths](https://github.com/stop-cran/learning-japanese-ru/issues/6#issuecomment-6633295530).
+Only the specifically recorded remaining gates are unpassed; these observations do not approve
+new audio packages, phone/JapaneseIME testing, C7 or ordinary/default activation.
 
 ## C0: freeze a bounded experiment
 
