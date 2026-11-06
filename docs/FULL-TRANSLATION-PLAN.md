@@ -1,6 +1,48 @@
 # Full Russian translation: execution after the two pilots
 
-## Current source milestone: batch043 food, tableware and objects
+## Current source milestone: batch044 arts, music and media
+
+Batch044 adds **16 complete N5 word lessons** against unchanged frozen
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+[Actual review](translation-batches/044-arts-music-media-independent-review.json)
+and [reviewed source](translation-batches/044-arts-music-media-reviewed-source.json)
+preserve the genuine whole **40 complete EN/RU pairs /59 complete official
+entries /831 actual captions** review: C1/C3 CLEAN, C2 NEEDS_FIX.
+A sequential focused **eight-pair/eight-entry/three-Russian-primary-entry**
+recheck resolves four direct safeguards and the 組 sense-reference erratum,
+and assesses three method lines. These are subsets of40/59, not48/67 unique
+pairs/entries. All16 complete bodies and831 captions remain unchanged.
+
+The current 組 citation is **1397450:2**; the
+[forward erratum](translation-batches/044-arts-music-media-corrective-source-adjudication-001.json)
+explicitly supersedes the wrong historical sense1 citation without rewriting
+signed receipts. **18 direct protections = four displayed-answer decisions
++14 limited dictionary/context safeguards**; stronger modern necessity/frequency
+of the14 remains UNVERIFIED/unasserted. Russian картина/лента polysemy and the
+obsolete/specialized physical-film sense retain their actual boundaries.
+No transitive picture, material or audio-device cliques are asserted.
+The genuine focused report returned through task and exact-ID readback is saved
+as an LF transcript; its native-public-event byte identity remains UNVERIFIED.
+Successful reader-return evidence is separately captured. A transcript hash is
+not represented as a native-return or network-wire hash.
+
+Membership: **1143 runtime objects /831 words**, including **630/672 N5 words;
+42 remain**; other word levels:63 N4/65 N3/19 N2/54 unlabelled.
+Fresh strict accounting: **1143 reviewed-current, two excluded reviewed
+runtime-blocked media drafts,7133 pending of8278;7135 runtime paths absent**,
+no partial. Version `2feceed6354d1b68`; checkpoint authority null/Ready false.
+Actual final checks, signed integration, public archives and exact-main CI
+have separate evidence. All1127 baseline RAWs/tracking rows and historical
+receipts remain unchanged.
+
+No new assets or app/ordinary EN/device/media/default-activation/release approval.
+Canonical art/audio/equipment/office/sound mapping gaps are observed only at
+immutable app5c000bd; live concurrent app status remains UNVERIFIED.
+Excluded033 空 remains pending/C2 UNVERIFIED, separate from the two media drafts.
+Later genuine native findings may require affected-batch correction and review;
+continue045 and every independent safe frozen level/family.
+
+## Prior source milestone: batch043 food, tableware and objects
 
 Batch043 adds **16 complete N5 word lessons** against unchanged frozen
 `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.

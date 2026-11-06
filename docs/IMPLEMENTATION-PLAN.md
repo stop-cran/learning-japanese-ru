@@ -8,6 +8,37 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The forty-fourth full-target batch adds **16 complete N5 arts/music/media
+lessons** against the unchanged frozen source.
+[Reviewed source044](translation-batches/044-arts-music-media-reviewed-source.json)
+and [actual independent evidence](translation-batches/044-arts-music-media-independent-review.json)
+preserve whole40-pair/59-entry/831-caption C1/C3 CLEAN, C2 NEEDS_FIX.
+A focused eight-pair/eight-entry/three-Russian-primary-entry recheck resolves
+four safeguards and the 組 citation erratum, and assesses three method lines.
+Unique pair/official-entry evidence remains40/59, not48/67.
+All16 learner bodies/831 captions and1127 baseline RAWs/tracking rows are preserved.
+The current 組 reference is1397450:2; an explicit forward erratum preserves
+immutable historical wrong citations rather than silently rewriting them.
+**18 protections = four direct displayed-answer +14 limited decisions**;
+stronger modern necessity/frequency of the14 remains UNVERIFIED/unasserted.
+The actual focused return and exact-ID readback support review; its saved LF
+transcript hash does not claim still-unverified native-public-event byte identity
+or network-wire bytes. Successful reader evidence is separately captured.
+
+Membership: **1143 runtime objects /831 words**,
+630 N5/63 N4/65 N3/19 N2/54 unlabelled; **42 of672 N5 words remain**.
+Strict progress: **1143 reviewed-current, two excluded reviewed runtime-blocked
+media drafts,7133 pending,7135 absent runtime paths**, no partial.
+Version `2feceed6354d1b68`; checkpoint authority null/Ready false.
+Actual final validation/integration/public archives/exact-main CI have separate
+evidence. No new assets or app/ordinary EN/device/media/default-activation/release
+approval. Canonical art/audio/equipment/office/sound mapping gaps are bounded
+to immutable app5c000bd, live app UNVERIFIED.
+Later genuine native findings may require affected-batch correction/review;
+continue045 and every safe remaining frozen level/family.
+
+Batch043 and earlier milestones below are historical.
+
 The forty-third full-target batch adds **16 complete N5 food/tableware/object
 lessons** against the unchanged frozen source.
 [Reviewed source043](translation-batches/043-food-tableware-objects-reviewed-source.json)

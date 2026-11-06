@@ -1,0 +1,111 @@
+{
+ "actualEventsPrivateArtifact": "ru-044-focused-review-actual-public-events-001.json",
+ "actualEventsRawSha256": "5e52a1fb6faaa395bba48fcec0b02170fd38e12e9571ab307868f43d09140c34",
+ "actualFocusedScope": {
+  "activeReviewerRubrics": 3,
+  "completeBodies": 16,
+  "completeNamedRussianPrimaryEntries": [
+   "картина",
+   "лента",
+   "фильм"
+  ],
+  "completeOfficialEntryIds": [
+   "1173720",
+   "1202270",
+   "1078750",
+   "1109380",
+   "1321900",
+   "1302980",
+   "1100760",
+   "1397450"
+  ],
+  "completePairs": 8,
+  "completePriorReports": 1,
+  "newMethodLines": 3,
+  "notFreshlyRead": "All16newlessons/all831captions; unchangedcontentmechanicallyverified, not freshlinguisticreading."
+ },
+ "actualNativeContentDomain": "Author-saved LF transcript of actual visible functions.task return, independently repeated by read_agent exact4c2402ab ID; NOT independently captured native-public-event bytes.",
+ "actualNativeEventId": null,
+ "actualObservedSuccessfulReaderIndices": {
+  "checks": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "delta": [
+   0
+  ],
+  "dispositions": [
+   0
+  ],
+  "invariants": [
+   0
+  ],
+  "method": [
+   0
+  ],
+  "objects": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "pairs": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "rubrics": [
+   0,
+   1,
+   2
+  ],
+  "russian": [
+   0,
+   1,
+   2
+  ],
+  "whole": [
+   0
+  ]
+ },
+ "actualResolvedOriginalFindings": [
+  "F1",
+  "F2",
+  "F3",
+  "F4",
+  "F5"
+ ],
+ "actualReturnedReportText": "# Batch044 focused correction review\n\n## Snapshot\n\n- **RU:** `C:\\Users\\stop-\\learning-japanese-ru`, branch `full-ru-044-arts-music-media`, commit **`c963f4486a90087d666028a24497462c16896c2d`**.\n- **Frozen EN:** `C:\\Users\\stop-\\.copilot\\session-state\\68a44f7f-62db-4755-8296-fd586c861a35\\files\\ru-full-scope-en-6af98cb`, HEAD **`6af98cb717755690a9ca793e5454a96ebd7a8f9f`**.\n- Original candidate: `00eeafb0341b913690bf070bf3f58e4cbfdf1683`.\n- Corrective freeze: `4b17fbb0bbf1436e4d8400643010c182f9410572`.\n- Baseline: `4b65fe9e77ae6095cf182e8e9107c71730eed38d`.\n\nPins and RU tracked cleanliness confirmed. Pre-existing untracked `C:\\Users\\stop-\\learning-japanese-ru\\tools\\__pycache__` remained untouched.\n\n## Actual reading\n\nSuccessfully read **8 complete EN/RU pairs—16 bodies**: 映画, 絵, テープ, フィルム, 写真, 山水, パーティー, 組.\n\nRead **8 complete official objects**: 1173720, 1202270, 1078750, 1109380, 1321900, 1302980, 1100760, 1397450.\n\nRead all **3 complete named primary Russian entries**, attributed to **Толковый словарь Ожегова и Шведовой**: картина, лента, фильм. Evidence was the captured returned convertedMarkdown, not inferred raw HTTP/HTML or unrelated aggregator entries.\n\nActual successful `RETURNED044FOCUS` ranges, zero-based/end-exclusive:\n\n- **pairs and objects, each:** `[0:1]`, `[1:2]`, `[2:3]`, `[3:4]`, `[4:5]`, `[5:6]`, `[6:7]`, `[7:8]`.\n- **russian and rubrics, each:** `[0:1]`, `[1:2]`, `[2:3]`.\n- **checks:** `[0:1]`, `[1:2]`, `[2:3]`, `[3:4]`.\n- **whole, method, dispositions, delta, invariants, each:** `[0:1]`.\n\nAlso read all 14 retained proposition contexts and the current forward erratum. No helper return failed or exceeded its cap.\n\n## F1–F5 resolution\n\n### F1 — Resolved; originally Medium, C2\n\n**Location:** `C:\\Users\\stop-\\learning-japanese-ru\\words\\映画.md:9`\n\nThe direct 映画–絵 exclusion is present. The displayed `рисунок; картина` leaves **картина** unqualified; [Ожегов–Шведова, sense 2](https://gufo.me/dict/ozhegov/картина) gives the film-work meaning, marked **разг.** Official **1173720:1** establishes 映画 as the cinematic work.\n\nThis resolves the actual Russian answer ambiguity without claiming Japanese 絵 universally means movie.\n\n### F2 — Resolved; originally Medium, C2\n\n**Location:** `C:\\Users\\stop-\\learning-japanese-ru\\words\\映画.md:9`\n\nThe independent direct 映画–テープ exclusion is present. [Ожегов–Шведова, лента sense 3](https://gufo.me/dict/ozhegov/лента) denotes a film-work. In `лента; клейкая лента`, the second alternative does not narrow the first.\n\nThe protection has its own Russian lexical basis; it is not inferred through another picture/material edge.\n\n### F3 — Resolved within its qualification; originally Medium, C2\n\n**Location:** `C:\\Users\\stop-\\learning-japanese-ru\\words\\絵.md:9`\n\nThe direct 絵–山水 exclusion is present. Complete official **1302980:2** explicitly supplies the landscape-picture sense, restricted to **さんすい**, as an abbreviation of **山水画**. That reading matches the actual 山水 article, and the picture sense fits `рисунок; картина`.\n\nThe scenery explanation remains unchanged. Ordinary-modern frequency/necessity remains **UNVERIFIED**, not an asserted general equivalence.\n\n### F4 — Resolved by explicit qualified adoption; originally Low, C2\n\n**Location:** `C:\\Users\\stop-\\learning-japanese-ru\\words\\映画.md:9`\n\nThe direct 映画–フィルム exclusion is present. [Ожегов–Шведова, фильм sense 1](https://gufo.me/dict/ozhegov/фильм) records physical photosensitive **cinematographic** film, marked **устар./спец.** The current rationale retains those boundaries.\n\nThis is distinct Russian evidence, not proof from English *film*. The photographic teaching body was not broadened. Contemporary necessity/frequency remains **UNVERIFIED**.\n\n### F5 — Resolved through an honest forward erratum; originally Low, C2 provenance\n\n**Locations:**\n\n- `C:\\Users\\stop-\\learning-japanese-ru\\docs\\translation-batches\\044-arts-music-media-corrective-source-adjudication-001.json:635–654`\n- `C:\\Users\\stop-\\learning-japanese-ru\\docs\\translation-batches\\044-arts-music-media-corrected-candidate-001.json:1211–1230`\n\nComplete **1397450** distinguishes **sense 1: student class** from **sense 2: people-group/party/team/crew**. The current パーティー–組 proposition correctly cites **1100760:2 + 1397450:2**.\n\nThe erratum explicitly supersedes the wrong current citation without rewriting historical receipts or changing the runtime guard. Git-blob comparison confirmed preservation of the three named historical receipts. Rewriting those immutable records is not necessary to resolve this provenance defect.\n\n## Regression and unchanged evidence\n\nMechanical comparison confirmed:\n\n- All **16 complete post-frontmatter bodies and their SHA256s** match the original candidate after LF normalization.\n- Both private answer-pool RAW hashes match their receipts; all **831 exact caption strings** are unchanged and match the actual current files.\n- All **1127 baseline runtime Git blobs** are unchanged: 1122 ordinary files, 3 images, 2 scene catalogs.\n- All **14 original runtime guards** remain present. Their proposition contexts are unchanged except the explicit F5 citation correction.\n- Exactly four corrective guards were added: 映画–絵, 映画–テープ, 絵–山水, 映画–フィルム.\n- Only the two identified word files changed; their changes are exclusion metadata only.\n\nThe resulting **18 propositions—4 direct and 14 conservative/qualified—do not establish transitive cliques**. Recording/receiver, musical-reading, folk-song, obsolete 写真, activity-group, slow-action and mental-calm limitations remain intact.\n\nThe three method additions at `C:\\Users\\stop-\\learning-japanese-ru\\.github\\copilot-instructions.md:291–293` preserve Russian-polysemy, historical-register and non-clique boundaries. No consequential regression was established.\n\n## Verdicts\n\nFor this **focused correction and affected regression scope**:\n\n- **C1 Japanese correctness: CLEAN.**\n- **C2 displayed-answer safety/dependencies: CLEAN.** F1–F5 are resolved as bounded above.\n- **C3 Russian comprehensibility/method qualification: CLEAN.**\n\n**No new significant in-scope findings.** Stronger ordinary-modern necessity/frequency claims for the 14 conservative guards remain **UNVERIFIED and unasserted**.\n\nThe original whole-review verdict remains historically **C1 CLEAN / C2 NEEDS_FIX / C3 CLEAN**. This report reconciles its findings at the corrected snapshot; it does not rewrite that verdict.\n\n## Validation evidence and limits\n\nRead—not rerun—the author’s serialized records: manifest **1143 runtime objects**, version **`2feceed6354d1b68`**; validator **0 errors**; **124 tests OK**; budget pass: **1151 files / 1160 entries / 3,197,777 retained bytes / 3,215,992 inflated bytes / 1,617,601 local ZIP bytes**.\n\nThe original whole reviewer’s broader reads remain historical evidence. I did not freshly reread all 16 new lessons or all 831 captions; unchanged-content comparisons are mechanical evidence, not additional linguistic reads.\n\nNo delegation, tests/builds, edits, file writes, fetch/pull, live-app inspection or device work occurred. This is focused review evidence—not whole-corpus certification, batch acceptance, tracking advancement, native/media/default activation approval or owner release approval.\n",
+ "actualTaskToolCallId": "call_HOWlsi1XUfBWf7ibM3WemGWX",
+ "candidateCommit": "c963f4486a90087d666028a24497462c16896c2d",
+ "facetsAsOriginallyReturned": {
+  "C1": "CLEAN",
+  "C2": "CLEAN",
+  "C3": "CLEAN"
+ },
+ "limits": "8focusedpairs/8officialentries subsetofwhole40/59, not48/67. OriginalwholeC2NEEDS_FIX retained; no corpus/native/media/defaultactivation/releaseapproval.",
+ "networkWireByteHashVerified": false,
+ "publicReturnedTextBytesVerified": false,
+ "reportCaptureBoundary": "Actualgenuinefocusedreport returned through task andread_agent; savedmanualLFtranscript only. Rootjournal stalledat2026-11-06T09:22:08.429Z beforefinalreport;3preflightcapturesfailed beforewrites. Nativebyteidentity/publicfinalevent UNVERIFIED, not inferredfromtranscript. Successfulreaderpublicreturns independentlycaptured.",
+ "returnedReportTextUtf8Bytes": null,
+ "returnedReportTextUtf8Sha256": null,
+ "reviewerAgentId": "4c2402ab-7b71-4b7c-8421-6d414c0aae91",
+ "reviewerName": "ru044-focused-film-correction-review",
+ "reviewerResumable": false,
+ "savedReportTextUtf8Bytes": 7603,
+ "savedReportTextUtf8Sha256": "4a848eeebf8361c5168cdf529d551c686296a70e29fbec67195b2b3d13bd9300",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "sourceReferenceErratum": "Current組1397450:2 independentlyconfirmed; signedoldwrong1397450:1receipts preservedwithforwarderratum.",
+ "strongerConservativeNecessityFrequency": "14limitedguard strongerordinarymodernnecessity/frequency UNVERIFIED/unasserted"
+}
