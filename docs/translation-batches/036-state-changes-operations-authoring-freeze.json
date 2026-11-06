@@ -1,0 +1,871 @@
+{
+ "actualCompletedReading": {
+  "actualCompactBaselineAnswerRows": 665,
+  "actualJishoRequests": 44,
+  "actualNewAdditionalHtmlRequests": 4,
+  "boundary": "Actual14primary EN units/20supporting EN-RU pairs/665compact captions/55complete selected lexical objects/four selected ranges. New Russian primary bodies and independent036review remain PENDING.",
+  "completeCandidateQueryObjectRows": 55,
+  "completeContextualEnglishRussianPairs": 20,
+  "completeFrozenPrimaryEnglishBodies": 14,
+  "lexicalReadingIndexBoundary": "Initial38queries/48rows were actually read in successful ranges0–1,1–3,3–7,7–10,10–12,12–13,13–15,15–16,16–20,20–22,22–25,25–28,28–31,31–33,33–35,35–38. Additional6queries/7rows actually read0–3and3–6. Failed oversized requests produced no reading and add no scope.",
+  "poolReadingBoundary": "665compact rows actually read in successive ranges0–50to600–665. This is not665full bodies.194remaining N5 names were displayed, not194full semantic units.",
+  "primaryReadingBoundary": "14complete exact sources read in0–4,4–8,8–11,11–14 and actually reread in those successful ranges immediately before freezing. This counts14units, not28.",
+  "primarySourceGitRawBytes": 25922,
+  "primarySourceLines": 583,
+  "selectedHtmlPages": 4,
+  "selectedHtmlReadingRanges": 4,
+  "supportReadingBoundary": "20complete unchanged bilingual pairs: original10, then座る遊ぶ/持つ晴れる/同じ起きる/砂糖書く/咲く広い. Compact captions are not complete bodies of the other645baseline words."
+ },
+ "adjudication": "docs/translation-batches/036-state-changes-operations-source-adjudication.json",
+ "assets": [],
+ "baselineContentVersion": "b4d1c08e122a2bbb",
+ "baselineRuntimeChangesAuthorizedByThisFreeze": [],
+ "baselineRuntimeCount": 977,
+ "batchId": "036-state-changes-operations",
+ "directGuardsToAuthorForReview": [
+  {
+   "directReason": "Retain both explicit frozen directed negatives as one symmetric pair; distinct primary Russian transitivity does not authorize deleting source grading safeguards. Exact開くひらく also has transitive opening.",
+   "from": "開く",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "開ける"
+  },
+  {
+   "directReason": "Retain explicit frozen negative. Exact付ける/着ける family independently has wearing/putting-on sense; actual着る caption is надевать; носить одежду. No universal interchangeable spelling rule.",
+   "from": "付ける",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "着る"
+  },
+  {
+   "directReason": "Retain explicit frozen negative. Do not erase the safeguard because the new primary attachment label differs from掛ける caption.",
+   "from": "付ける",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "掛ける"
+  },
+  {
+   "directReason": "Actual new captionстирать independently erases writing and washes clothes in Russian; actual unchanged洗う captionмыть; стирать. Actually read Russianстирать definitions155–198 separately attest both senses, not a laundry clique.",
+   "from": "消す",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "洗う"
+  },
+  {
+   "directReason": "Actual exact-written family wearing sense and named modernDaijisen着ける definition2はかまをつける independently meet actual履く lower-body clothing caption. Not inferred from着る or spelling alone.",
+   "from": "付ける",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "履く"
+  },
+  {
+   "directReason": "Both complete frozen sources explicitly fasten the seatbelt; actual new締める captionзатягивать; застёгивать is defensible for this direct fastening use of付ける/着ける. Not a generic clothing clique.",
+   "from": "付ける",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "締める"
+  },
+  {
+   "directReason": "Actual締める independently includes wearing a belt/necktie, as explicitly taught in its complete source. Unqualified accepted着る captionнадевать; носить одежду can fit that wearing sense without making the Japanese constructions interchangeable.",
+   "from": "締める",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "着る"
+  },
+  {
+   "directReason": "Actual exact-written押す lexical sense4affix gold leaf independently admits new付ける captionприкреплять; добавлять throughприкреплять. Not inferred from pressing a light switch.",
+   "from": "押す",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "付ける"
+  },
+  {
+   "directReason": "Actual exact-written並ぶ sense1stand in line directly admits unqualified actual立つ captionвставать; стоять. Preserve that並ぶ can also describe objects or seated arrangement; no claim it always requires standing.",
+   "from": "並ぶ",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "立つ"
+  },
+  {
+   "directReason": "Complete frozen並ぶ teaches queueing and explicitly contrasts generic待つwait. Actual unchanged待つ captionждать is defensible for queueing in its service-waiting use, not for every row of objects. ModernDaijisen actually read does NOT quote順番を待つ; independent review must judge the direct lexical overlap rather than invent that quotation.",
+   "from": "並ぶ",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "待つ"
+  },
+  {
+   "directReason": "Actual complete exact-written立つ object sense17 explicitly means shut a door/shoji. New閉まる captionзакрываться; быть закрытым can fit that door-closing sense independently of posture or departure.",
+   "from": "閉まる",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "立つ"
+  },
+  {
+   "directReason": "Actual complete exact-written立つ object sense15 explicitly means start/begin a season. New始まる captionначинаться is defensible independently of the閉まる–立つ pair.",
+   "from": "始まる",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "立つ"
+  },
+  {
+   "directReason": "Complete frozen止まる includes bird perching under留まるとまる; actually read modernDaijisen independently confirms perching. Actual座る captionсадиться; сидеть is a natural Russian meaning for the perched bird. Do not relabel everyとまるasとどまる.",
+   "from": "止まる",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "座る"
+  },
+  {
+   "directReason": "Actual exact-written休む sense4explicitly stops ongoing activity/suspends business; actual new止まる captionостанавливаться can fit cessation of activity independently of sleeping/leisure guards.",
+   "from": "止まる",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "休む"
+  },
+  {
+   "directReason": "Actual止まる stops continuation/operation; actual終わる captionзаканчиваться; завершаться can fit genuine cessation. Submitted for independent adjudication; do not teach that every pause is completed work.",
+   "from": "止まる",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "終わる"
+  },
+  {
+   "directReason": "Actual exact-written引く sense7plays a stringed/keyboard instrument, info usu.written弾く rather than hard written-form restriction. Actual accepted遊ぶ captionиграть; развлекаться is unsafe through unqualifiedиграть. Preserve primary pulling lesson; do not teach unrestricted orthography.",
+   "from": "引く",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "遊ぶ"
+  },
+  {
+   "directReason": "Actual exact-written開くひらく sense2bloom independently meets accepted咲く captionцвести. Complete accepted咲く body itself gives花が開く. Not inferred through opening a door.",
+   "from": "開く",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "咲く"
+  },
+  {
+   "directReason": "Actual付ける primary captionдобавлять meets accepted入れるput-in/add use. Complete unchanged砂糖 source/Russian pair actually givesコーヒーに砂糖を入れますかand sugar being added to a drink; no invented collocation.",
+   "from": "付ける",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "入れる"
+  },
+  {
+   "directReason": "Actual exact-written付ける sense4keep a diary/make an entry directly overlaps accepted書く captionписать. Complete unchanged書く independently teaches日記を書く. Not inferred from handwriting being physically attached.",
+   "from": "付ける",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "書く"
+  },
+  {
+   "directReason": "Actual exact-written並ぶ sense2equal/match and named modernDaijisen equal/rival subsection independently meet accepted同じ captionодинаковый; тот жеin the compared respect; its full body explicitly includes equality. Proposed for independent adjective/verb and caption-boundary adjudication, not an automatic synonym of every row.",
+   "from": "並ぶ",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "同じ"
+  },
+  {
+   "directReason": "Actual exact-written並べる sense3be equal/as good as independently raises the actual同じ captionодинаковый; тот же. Not inherited through並ぶ; submitted separately for independent grammatical/semantic adjudication.",
+   "from": "並べる",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "同じ"
+  },
+  {
+   "directReason": "Actual exact-written開けるひらける sense1become clear of visibility independently raises accepted晴れる captionпроясняться. Preserve separate readings and actual weather versus view meanings; independent review must judge whether the unqualified displayed Russian caption is defensible.",
+   "from": "開ける",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "晴れる"
+  },
+  {
+   "directReason": "Actual exact-written引く sense15hold a musical note independently raises actual持つ captionдержать; иметь; нестиthrough genericдержать. This is a Russian hold-note question, not Englishhold(meeting) automatically mapping toдержать; independent review must evaluate actual Russian usage.",
+   "from": "引く",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "持つ"
+  },
+  {
+   "directReason": "Actual exact-written付ける sense14produce flowers of a plant independently raises accepted咲く captionцвести. Not inherited through開く–咲く; reviewer must evaluate producing flowers versus being in bloom directly.",
+   "from": "付ける",
+   "status": "AUTHOR PROPOSAL; not independently approved",
+   "to": "咲く"
+  }
+ ],
+ "documentationHousekeeping": {
+  "actualCurrentC6Records": [
+   "https://github.com/stop-cran/learning-japanese-ru/issues/6#issuecomment-6630812890",
+   "https://github.com/stop-cran/learning-japanese-ru/issues/6#issuecomment-6633295530"
+  ],
+  "actualIssueSnapshots": [
+   {
+    "file": "ru-036-issue-5-housekeeping-baseline-001.json",
+    "rawSha256": "c78f7a50833104240c161ab02e88417996eebdcaf3c2fd5ccc2ac31b21de2e3c"
+   },
+   {
+    "file": "ru-036-issue-6-housekeeping-baseline-001.json",
+    "rawSha256": "8aee3782f3f33237b52b17623fe935ec7fe689f8f39d2d35d9f5af53092137ce"
+   }
+  ],
+  "authorizedEdits": [
+   "Clarify README reviewed source coverage versus ordinary/default activation; accurately date early PilotA observations and link actual laterC5/C6 records.",
+   "Mark initial IMPLEMENTATION-PLAN broad-authoring-last order superseded only for source authoring, retain applicableC6/C7release gates and link currentRU6partialacceptance.",
+   "Preserve PILOT-B earlier remaining-gates receipt; add explicit later five-target WordType supplement and still-unpassed secondCounterday/audioauthority/playback/phoneJapaneseIME/C7 boundaries.",
+   "Record operational correction in active instructions: no scope/multirecipientFYIbroadcasts to old agents; exact current reviewer only for actual review/followup, parent only when exactknownID."
+  ],
+  "baselineFiles": {
+   ".github/copilot-instructions.md": {
+    "workingRawSha256": "217db7848fb03de993cecbc96b45c546f1d549d0efd8a8e4029daa519bca89b1"
+   },
+   "README.md": {
+    "workingRawSha256": "f872894ad2b6c6a3158e35078edc29f4149b45d0ac6197e15da9ee2c580d1910"
+   },
+   "docs/IMPLEMENTATION-PLAN.md": {
+    "workingRawSha256": "f8a2dde721b833ab839cf3d91c488c919c9dceadfcadbd6ffac12404df33e743"
+   },
+   "docs/PILOT-B.md": {
+    "workingRawSha256": "fec49741ec76c6604d2a10329fa63034df527e00ac26abfeb0ae2df96849272e"
+   }
+  },
+  "futureCorrections": "Actual later native findings may require affected-batch correction and independent re-review; speculation does not block unrelated safe source authoring.",
+  "independentContentAcceptanceImplied": false,
+  "issue5Disposition": "Actual body contains issues/61 incidental match, NOT a RU6link. Add precise current-status/crosslinks above clearly marked historical original body; preserve original plan and dated comments.",
+  "ownerRequestedNarrowDocumentationFollowup": true
+ },
+ "explicitReviewQuestions": [
+  "Actually read all14full bilingual candidates,20supporting full pairs,679actual compact candidate captions,55complete selected lexical objects and four selected dictionary ranges. Separately decide every24DIRECT proposal from actual captions, Japanese written-form/sense restrictions and both quiz directions. Projections/hash checks are aids, not semantic review.",
+  "Adjudicate並ぶ–待つ/立つ directly without requiring every line to stand or wait: source and modernDaijisen include existing objects/seated arrangements. No invented順番を待つ quotation, transitive clothing/rest/posture clique or universal short-caption equivalence.",
+  "Independently decide each並ぶ–同じ and並べる–同じ proposal from equal/rival/as-good-as versus actualодинаковый; тот же. Distinguish grammar and sameness of a compared property from physical identity; do not inherit one edge through the other.",
+  "Independently decide開けるひらける–晴れる from actualпроясняться and visibility/weather senses; do not transfer alternate reading grammar to primaryあける. Separately assess未proposed開く–広い from gap becoming wide versus stateширокий; просторный, not Englishbe-wide alone.",
+  "Independently decide引く–持つ from actualдержать and sustained musical note, not translating Englishhold(meeting) asдержать. Check引く–遊ぶ's actualusu.written弾く note versus hard restriction. Assess any additional DIRECT引く–消える from fading versus actualисчезать; гаснуть; no such edge authored by this freeze.",
+  "Adjudicate付ける's direct wearing/seatbelt/adding/writing/flowering edges separately: no universal permission for every spelling or suffix-onlysense as bareword. Actual support砂糖 and書く supply observedadding/diary constructions; new beginner body does not invent an exhaustive secondary lesson. Produceflowers versus bloom needs its own decision.",
+  "Check未proposed始まる–起きる and締める–掛ける directly if warranted by actual captions. Beginning versus occurrence and binding versus tightening are not automatically identical. Closeddoor閉める and belttightening締める homophony alone does not justify an edge.",
+  "Verify complete source teaching: separateあく/ひらく,あける/明ける/ひらける; sourceN5scope caveat;消えるcause-neutral;きえ/ならべ/しめstems;止まる/泊まる/留まるとまるversusとどまるandfixed-in-place/eye examples; event/topic particles; agency versusneatness;push actionnot guaranteedmovement/seal application;pullother-sense qualifier.",
+  "Check natural Russian throughout every full body, example, comparison, label, title and attribution. Do not preserve an English-only analogy or equate particles with Russian cases orている with Russian aspect mechanically. Body-preserving optional wrapper removal must match all27source links.",
+  "Housekeeping is not035/036content acceptance: reviewedmaincoverage is distinct from ordinary/defaultactivation; initialC6/C7-before-bulk order is explicitly superseded for source authoring. Grammar/counter/picture and five genuinely unlocked WordType native paths actually ran; preserve bounded receipts, later corrections remain possible without a new speculative stop gate."
+ ],
+ "frozenSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "grammarVocabularyContexts": [],
+ "intakeCommit": "ba2b5fef1d66c5e851723a838a69faab8314c4d4",
+ "mandatoryNewKanjiProviders": [],
+ "newWordTagIds": [
+  "attachment"
+ ],
+ "newWords": [
+  {
+   "map": "files",
+   "path": "words/開く.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "4d67238912c67be4d546333c3528167f23ce5d352869250f053595e1333c042d",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "開"
+    ],
+    "quiz_exclusions": [
+     "開ける"
+    ],
+    "reading": "あく",
+    "tags": [
+     "wago",
+     "verb"
+    ],
+    "title": "open, become open",
+    "type": "wago",
+    "word": "開く"
+   },
+   "sourceNormalizedLfSha256": "4d67238912c67be4d546333c3528167f23ce5d352869250f053595e1333c042d",
+   "sourceWorkingRawSha256": "4d67238912c67be4d546333c3528167f23ce5d352869250f053595e1333c042d",
+   "word": "開く"
+  },
+  {
+   "map": "files",
+   "path": "words/開ける.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "a51aa6cf7e7fb73bfe03cc61cdd582e9003df26f711e75602a8a7836420d5c46",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "開"
+    ],
+    "quiz_exclusions": [
+     "開く"
+    ],
+    "reading": "あける",
+    "tags": [
+     "wago",
+     "verb",
+     "transitive"
+    ],
+    "title": "open something",
+    "type": "wago",
+    "word": "開ける"
+   },
+   "sourceNormalizedLfSha256": "a51aa6cf7e7fb73bfe03cc61cdd582e9003df26f711e75602a8a7836420d5c46",
+   "sourceWorkingRawSha256": "a51aa6cf7e7fb73bfe03cc61cdd582e9003df26f711e75602a8a7836420d5c46",
+   "word": "開ける"
+  },
+  {
+   "map": "files",
+   "path": "words/閉まる.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "011fdb550d5ee773c7ce71b588193684297f53d7b299a5394a3333efc0f6b320",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "閉"
+    ],
+    "reading": "しまる",
+    "tags": [
+     "wago",
+     "verb",
+     "intransitive"
+    ],
+    "title": "close; be shut",
+    "type": "wago",
+    "word": "閉まる"
+   },
+   "sourceNormalizedLfSha256": "011fdb550d5ee773c7ce71b588193684297f53d7b299a5394a3333efc0f6b320",
+   "sourceWorkingRawSha256": "011fdb550d5ee773c7ce71b588193684297f53d7b299a5394a3333efc0f6b320",
+   "word": "閉まる"
+  },
+  {
+   "map": "files",
+   "path": "words/閉める.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "4ecd65299b7f02916aef033adbb1cea5d5322900ec174f1690388f8cba7e3524",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "閉"
+    ],
+    "reading": "しめる",
+    "tags": [
+     "wago",
+     "verb"
+    ],
+    "title": "close something",
+    "type": "wago",
+    "word": "閉める"
+   },
+   "sourceNormalizedLfSha256": "4ecd65299b7f02916aef033adbb1cea5d5322900ec174f1690388f8cba7e3524",
+   "sourceWorkingRawSha256": "4ecd65299b7f02916aef033adbb1cea5d5322900ec174f1690388f8cba7e3524",
+   "word": "閉める"
+  },
+  {
+   "map": "files",
+   "path": "words/消える.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "8dd57106e320fc98717eb3890c60f315797872017ea4fe588e037c6a0fb5ccad",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "消"
+    ],
+    "reading": "きえる",
+    "tags": [
+     "wago",
+     "verb",
+     "ichidan",
+     "change"
+    ],
+    "title": "disappear; go out",
+    "type": "wago",
+    "word": "消える"
+   },
+   "sourceNormalizedLfSha256": "8dd57106e320fc98717eb3890c60f315797872017ea4fe588e037c6a0fb5ccad",
+   "sourceWorkingRawSha256": "8dd57106e320fc98717eb3890c60f315797872017ea4fe588e037c6a0fb5ccad",
+   "word": "消える"
+  },
+  {
+   "map": "files",
+   "path": "words/消す.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "7b8725a4693b4c9c638e286a12cb52ecd55a068134d0de8f9712883b1923eed3",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "消"
+    ],
+    "reading": "けす",
+    "tags": [
+     "wago",
+     "actions"
+    ],
+    "title": "erase",
+    "type": "wago",
+    "word": "消す"
+   },
+   "sourceNormalizedLfSha256": "7b8725a4693b4c9c638e286a12cb52ecd55a068134d0de8f9712883b1923eed3",
+   "sourceWorkingRawSha256": "7b8725a4693b4c9c638e286a12cb52ecd55a068134d0de8f9712883b1923eed3",
+   "word": "消す"
+  },
+  {
+   "map": "files",
+   "path": "words/始まる.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "55df735257071ad0b983c4266e32c4de90671415be45f340533d2c2dfc3b8092",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "始"
+    ],
+    "reading": "はじまる",
+    "tags": [
+     "wago",
+     "verb",
+     "godan",
+     "time"
+    ],
+    "title": "begin; get started",
+    "type": "wago",
+    "word": "始まる"
+   },
+   "sourceNormalizedLfSha256": "55df735257071ad0b983c4266e32c4de90671415be45f340533d2c2dfc3b8092",
+   "sourceWorkingRawSha256": "55df735257071ad0b983c4266e32c4de90671415be45f340533d2c2dfc3b8092",
+   "word": "始まる"
+  },
+  {
+   "map": "files",
+   "path": "words/止まる.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "e25be48e0fde0bdabf67b9126ccf988bbfd2c804d17d437333190d3057027503",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "止"
+    ],
+    "reading": "とまる",
+    "tags": [
+     "wago",
+     "verb",
+     "movement"
+    ],
+    "title": "to stop, come to a halt",
+    "type": "wago",
+    "word": "止まる"
+   },
+   "sourceNormalizedLfSha256": "e25be48e0fde0bdabf67b9126ccf988bbfd2c804d17d437333190d3057027503",
+   "sourceWorkingRawSha256": "e25be48e0fde0bdabf67b9126ccf988bbfd2c804d17d437333190d3057027503",
+   "word": "止まる"
+  },
+  {
+   "map": "files",
+   "path": "words/並ぶ.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "7a72528b04b5c4d385b5dabf15ed60ceb770d81f64acccbfd274c8157b0a0630",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "並"
+    ],
+    "reading": "ならぶ",
+    "tags": [
+     "wago",
+     "verb",
+     "godan"
+    ],
+    "title": "line up; stand in a row",
+    "type": "wago",
+    "word": "並ぶ"
+   },
+   "sourceNormalizedLfSha256": "7a72528b04b5c4d385b5dabf15ed60ceb770d81f64acccbfd274c8157b0a0630",
+   "sourceWorkingRawSha256": "7a72528b04b5c4d385b5dabf15ed60ceb770d81f64acccbfd274c8157b0a0630",
+   "word": "並ぶ"
+  },
+  {
+   "map": "files",
+   "path": "words/並べる.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "b87c0a954899a739ea5c95814a5c689225ecc406c65a2ab5aa41a7298a91d6fb",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "並"
+    ],
+    "reading": "ならべる",
+    "tags": [
+     "wago",
+     "verb"
+    ],
+    "title": "arrange in a line",
+    "type": "wago",
+    "word": "並べる"
+   },
+   "sourceNormalizedLfSha256": "b87c0a954899a739ea5c95814a5c689225ecc406c65a2ab5aa41a7298a91d6fb",
+   "sourceWorkingRawSha256": "b87c0a954899a739ea5c95814a5c689225ecc406c65a2ab5aa41a7298a91d6fb",
+   "word": "並べる"
+  },
+  {
+   "map": "files",
+   "path": "words/付ける.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "76ce84b8a3f76f4e224d206878c576cd1defd4ef6396893ad64488e7c4ab25b1",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "付"
+    ],
+    "quiz_exclusions": [
+     "着る",
+     "掛ける"
+    ],
+    "reading": "つける",
+    "tags": [
+     "wago",
+     "verb",
+     "attachment"
+    ],
+    "title": "attach; add",
+    "type": "wago",
+    "word": "付ける"
+   },
+   "sourceNormalizedLfSha256": "76ce84b8a3f76f4e224d206878c576cd1defd4ef6396893ad64488e7c4ab25b1",
+   "sourceWorkingRawSha256": "76ce84b8a3f76f4e224d206878c576cd1defd4ef6396893ad64488e7c4ab25b1",
+   "word": "付ける"
+  },
+  {
+   "map": "files",
+   "path": "words/締める.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "7c712fb955c2c35ef3104374be9ad3acd687cb4e446f36a6e91088d4f24ce368",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "締"
+    ],
+    "reading": "しめる",
+    "tags": [
+     "verb",
+     "wago",
+     "transitive"
+    ],
+    "title": "fasten; tighten",
+    "type": "wago",
+    "word": "締める"
+   },
+   "sourceNormalizedLfSha256": "7c712fb955c2c35ef3104374be9ad3acd687cb4e446f36a6e91088d4f24ce368",
+   "sourceWorkingRawSha256": "7c712fb955c2c35ef3104374be9ad3acd687cb4e446f36a6e91088d4f24ce368",
+   "word": "締める"
+  },
+  {
+   "map": "files",
+   "path": "words/押す.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "dec0019bdc75766bda3c2739d7c9ef9869779b651ecffee89f21c502f55432f3",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "押"
+    ],
+    "reading": "おす",
+    "tags": [
+     "wago",
+     "verb",
+     "actions"
+    ],
+    "title": "push",
+    "type": "wago",
+    "word": "押す"
+   },
+   "sourceNormalizedLfSha256": "dec0019bdc75766bda3c2739d7c9ef9869779b651ecffee89f21c502f55432f3",
+   "sourceWorkingRawSha256": "dec0019bdc75766bda3c2739d7c9ef9869779b651ecffee89f21c502f55432f3",
+   "word": "押す"
+  },
+  {
+   "map": "files",
+   "path": "words/引く.md",
+   "role": "selected-root",
+   "sourceGitRawSha256": "903ab79f95cea9ee63c596e78fd0810915d55899256fc680e1176d1bceec468b",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "引"
+    ],
+    "reading": "ひく",
+    "tags": [
+     "wago",
+     "verb",
+     "movement"
+    ],
+    "title": "pull",
+    "type": "wago",
+    "word": "引く"
+   },
+   "sourceNormalizedLfSha256": "903ab79f95cea9ee63c596e78fd0810915d55899256fc680e1176d1bceec468b",
+   "sourceWorkingRawSha256": "903ab79f95cea9ee63c596e78fd0810915d55899256fc680e1176d1bceec468b",
+   "word": "引く"
+  }
+ ],
+ "phase": "Pre-authoring semantic freeze; new Russian semantics NOT accepted",
+ "pinnedAppHintFollowup": {
+  "actualExactGitBlobPrivateFile": "ru-032-pinned-app-WordQuizScreen-5c000bd.kt",
+  "actualFreshCompleteMappingReadingRange": [
+   165,
+   202
+  ],
+  "disposition": "Preserve exact canonical attachment ID; separate app follow-up, no concurrent app edit/build or source-authoring stop gate.",
+  "exactPinnedAppCommit": "5c000bd5596d2189ef878da572687bd01ab3bb5f",
+  "newlyExposedIdsWithoutExplicitMappingAtThisPin": [
+   "attachment"
+  ],
+  "observation": "The actually reread complete localizedWordPromptTag mapping lacks explicit attachment and returns raw tag at THIS PIN ONLY. No assertion about concurrent dirty current app or native rendering.",
+  "rawSha256": "530ff7e5d6da2829bc08ff57c6356162af04b0ab84598cb7c19127217f71c08c"
+ },
+ "plannedN5WordsAfterAcceptance": 492,
+ "plannedRemainingFrozenN5Words": 180,
+ "plannedRuntimeAfterAcceptance": 991,
+ "plannedWordCountAfterAcceptance": 679,
+ "proposedRussianTitles": {
+  "並ぶ": "располагаться в ряд; становиться в очередь",
+  "並べる": "расставлять в ряд",
+  "付ける": "прикреплять; добавлять",
+  "始まる": "начинаться",
+  "引く": "тянуть",
+  "押す": "толкать; нажимать",
+  "止まる": "останавливаться",
+  "消える": "исчезать; гаснуть",
+  "消す": "стирать; выключать",
+  "締める": "затягивать; застёгивать",
+  "閉まる": "закрываться; быть закрытым",
+  "閉める": "закрывать",
+  "開く": "открываться",
+  "開ける": "открывать"
+ },
+ "protectedUnverifiedDrafts": [
+  {
+   "coverage": "complete authored text",
+   "draftPath": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+   "facets": {
+    "C1": "CLEAN historicalwholebody",
+    "C2": "UNVERIFIED",
+    "C3": "CLEAN historicalwholebody"
+   },
+   "openQuestions": [
+    [
+     "空",
+     "遠く"
+    ],
+    [
+     "空",
+     "遠い"
+    ]
+   ],
+   "path": "words/空.md",
+   "progressBoundary": "Not accepted; remains inside fullreportpending, separate from2reviewed-runtime-blocked media drafts. Existingprogresshelper need not mislabel it as accepted or stale reviewed content.",
+   "reviewEvidence": [
+    "docs/translation-batches/033-nature-outdoor-activity-independent-review.json",
+    "docs/translation-batches/033-nature-outdoor-activity-independent-review-001.json",
+    "docs/translation-batches/033-nature-outdoor-activity-independent-review-002.json",
+    "docs/translation-batches/033-nature-outdoor-activity-independent-review-003.json",
+    "docs/translation-batches/033-nature-outdoor-activity-source-adjudication.json",
+    "docs/translation-batches/033-nature-outdoor-activity-authoring-freeze.json",
+    "docs/translation-batches/033-nature-outdoor-activity-review-resolution-freeze.json",
+    "docs/translation-batches/033-nature-outdoor-activity-corrected-candidate.json"
+   ],
+   "reviewStatus": "unverified",
+   "ruGitRawSha256": "7c1084763f6229793b540ee6c501d9177513eb4fb23c2e27619eb16cb607a495",
+   "ruRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+   "ruSha256": "7c1084763f6229793b540ee6c501d9177513eb4fb23c2e27619eb16cb607a495",
+   "runtimeAcceptance": "blocked-by-evidenced-linguistic-uncertainty",
+   "runtimeAuthority": null,
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "sourceRawSha256": "0a7cad8579556ca7089666e53bf49e2be12eed2c4d0a93d3f55c020eae63b3e6",
+   "sourceSha256": "0a7cad8579556ca7089666e53bf49e2be12eed2c4d0a93d3f55c020eae63b3e6",
+   "targetObjectRemainsPending": true
+  }
+ ],
+ "releaseBoundary": "Source authoring only; same frozen6af98cb/fourprotectedrefs. No app/ordinaryEN edit, paidgeneration/mediaapproval/device/IME/playback/C6/C7/defaultactivation/release/humancheckpoint authority.",
+ "requiredSourceNegativeEdges": [
+  {
+   "field": "quiz_exclusions",
+   "from": "開く",
+   "to": "開ける"
+  },
+  {
+   "field": "quiz_exclusions",
+   "from": "開ける",
+   "to": "開く"
+  },
+  {
+   "field": "quiz_exclusions",
+   "from": "付ける",
+   "to": "着る"
+  },
+  {
+   "field": "quiz_exclusions",
+   "from": "付ける",
+   "to": "掛ける"
+  }
+ ],
+ "reviewStatus": "PENDING; real independent three-facet whole-batch reading required",
+ "russianBaselineCommit": "a202f2e95e584c8aae133f5e3aa1dd87568870d7",
+ "schemaVersion": 1,
+ "sourceLinkDispositions": [
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/開く.md",
+   "label": "開",
+   "resolvedTarget": "kanji/開.md",
+   "sourceTarget": "../kanji/開.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/開ける.md",
+   "label": "開",
+   "resolvedTarget": "kanji/開.md",
+   "sourceTarget": "../kanji/開.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/開ける.md",
+   "label": "明",
+   "resolvedTarget": "kanji/明.md",
+   "sourceTarget": "../kanji/明.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/開ける.md",
+   "label": "開く",
+   "resolvedTarget": "words/開く.md",
+   "sourceTarget": "開く.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/開ける.md",
+   "label": "閉める",
+   "resolvedTarget": "words/閉める.md",
+   "sourceTarget": "閉める.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/閉まる.md",
+   "label": "閉",
+   "resolvedTarget": "kanji/閉.md",
+   "sourceTarget": "../kanji/閉.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/閉める.md",
+   "label": "閉",
+   "resolvedTarget": "kanji/閉.md",
+   "sourceTarget": "../kanji/閉.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/閉める.md",
+   "label": "開ける",
+   "resolvedTarget": "words/開ける.md",
+   "sourceTarget": "開ける.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/消える.md",
+   "label": "消",
+   "resolvedTarget": "kanji/消.md",
+   "sourceTarget": "../kanji/消.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/消す.md",
+   "label": "消",
+   "resolvedTarget": "kanji/消.md",
+   "sourceTarget": "../kanji/消.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/始まる.md",
+   "label": "始",
+   "resolvedTarget": "kanji/始.md",
+   "sourceTarget": "../kanji/始.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/始まる.md",
+   "label": "終わる",
+   "resolvedTarget": "words/終わる.md",
+   "sourceTarget": "終わる.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/止まる.md",
+   "label": "止",
+   "resolvedTarget": "kanji/止.md",
+   "sourceTarget": "../kanji/止.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/止まる.md",
+   "label": "留",
+   "resolvedTarget": "kanji/留.md",
+   "sourceTarget": "../kanji/留.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/止まる.md",
+   "label": "留まる",
+   "resolvedTarget": "words/留まる.md",
+   "sourceTarget": "留まる.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/並ぶ.md",
+   "label": "並",
+   "resolvedTarget": "kanji/並.md",
+   "sourceTarget": "../kanji/並.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/並べる.md",
+   "label": "並",
+   "resolvedTarget": "kanji/並.md",
+   "sourceTarget": "../kanji/並.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/付ける.md",
+   "label": "付",
+   "resolvedTarget": "kanji/付.md",
+   "sourceTarget": "../kanji/付.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/付ける.md",
+   "label": "着",
+   "resolvedTarget": "kanji/着.md",
+   "sourceTarget": "../kanji/着.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/付ける.md",
+   "label": "点",
+   "resolvedTarget": "kanji/点.md",
+   "sourceTarget": "../kanji/点.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/付ける.md",
+   "label": "取る",
+   "resolvedTarget": "words/取る.md",
+   "sourceTarget": "取る.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/締める.md",
+   "label": "閉める",
+   "resolvedTarget": "words/閉める.md",
+   "sourceTarget": "閉める.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/押す.md",
+   "label": "押",
+   "resolvedTarget": "kanji/押.md",
+   "sourceTarget": "../kanji/押.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/押す.md",
+   "label": "引く",
+   "resolvedTarget": "words/引く.md",
+   "sourceTarget": "引く.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/押す.md",
+   "label": "打つ",
+   "resolvedTarget": "words/打つ.md",
+   "sourceTarget": "打つ.md"
+  },
+  {
+   "disposition": "Remove optional wrapper only; retain full Japanese teaching/readings. No placeholder or recursive provider adoption.",
+   "from": "words/引く.md",
+   "label": "引",
+   "resolvedTarget": "kanji/引.md",
+   "sourceTarget": "../kanji/引.md"
+  },
+  {
+   "disposition": "Retain adopted runtime link",
+   "from": "words/引く.md",
+   "label": "押す",
+   "resolvedTarget": "words/押す.md",
+   "sourceTarget": "押す.md"
+  }
+ ]
+}
