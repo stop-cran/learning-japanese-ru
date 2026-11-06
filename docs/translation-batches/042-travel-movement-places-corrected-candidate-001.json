@@ -1,0 +1,1600 @@
+{
+ "acceptanceLimits": "No ordinarymodernnecessity/frequency claim for38limitedprotections; no newdevice/native/media/defaultactivation/release/checkpoint approval.",
+ "activeGuidanceChanges": [
+  {
+   "addedLineScope": [
+    281,
+    286
+   ],
+   "originalWholeReviewedMethodLines275through280Unchanged": true,
+   "path": ".github/copilot-instructions.md",
+   "russianCanonicalGitRawSha256": "53a644a1975f778ddc3fbaefc408becb99499884f7124b92294ccb1ccd6a672f",
+   "russianWorkingRawSha256": "53a644a1975f778ddc3fbaefc408becb99499884f7124b92294ccb1ccd6a672f"
+  }
+ ],
+ "actualSerialValidation": [
+  {
+   "command": [
+    "C:\\Users\\stop-\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools\\build_manifest.py"
+   ],
+   "completedAt": "2026-11-06T07:31:48.369783+00:00",
+   "cwd": "C:\\Users\\stop-\\learning-japanese-ru",
+   "elapsedSeconds": 0.218,
+   "executionBoundary": "Author executed serially; no next command before this process returned.",
+   "exitCode": 0,
+   "rawSha256": "934a0e3a748e719037ea6603140e3e48ccc5068085acb83e7032b31296c9a765",
+   "recordFile": "ru-042-corrected-validation-step-01-001.json",
+   "startedAt": "2026-11-06T07:31:48.136745+00:00",
+   "stderr": "",
+   "stdout": "manifest.json: 1111 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 4ee4c7df08855309\r\n"
+  },
+  {
+   "command": [
+    "C:\\Users\\stop-\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools\\validate.py"
+   ],
+   "completedAt": "2026-11-06T07:31:50.959418+00:00",
+   "cwd": "C:\\Users\\stop-\\learning-japanese-ru",
+   "elapsedSeconds": 2.578,
+   "executionBoundary": "Author executed serially; no next command before this process returned.",
+   "exitCode": 0,
+   "rawSha256": "54e29b60d9bc51f66be0659fa65ab01f5f5246e2fe141e3a3bcafb199c5c0e3e",
+   "recordFile": "ru-042-corrected-validation-step-02-001.json",
+   "startedAt": "2026-11-06T07:31:48.379021+00:00",
+   "stderr": "",
+   "stdout": "0 error(s)\r\n"
+  },
+  {
+   "command": [
+    "C:\\Users\\stop-\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tools",
+    "-p",
+    "test_*.py"
+   ],
+   "completedAt": "2026-11-06T07:32:35.710033+00:00",
+   "cwd": "C:\\Users\\stop-\\learning-japanese-ru",
+   "elapsedSeconds": 44.734,
+   "executionBoundary": "Author executed serially; no next command before this process returned.",
+   "exitCode": 0,
+   "rawSha256": "53bc292d718a34d35b0675910a958058da916fcd7499bb71afd5ed88aaca7bdd",
+   "recordFile": "ru-042-corrected-validation-step-03-001.json",
+   "startedAt": "2026-11-06T07:31:50.974480+00:00",
+   "stderr": "............................................................................................................................\r\n----------------------------------------------------------------------\r\nRan 124 tests in 44.343s\r\n\r\nOK\r\n",
+   "stdout": ""
+  },
+  {
+   "command": [
+    "C:\\Users\\stop-\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "tools\\check_content_budget.py"
+   ],
+   "completedAt": "2026-11-06T07:32:36.426050+00:00",
+   "cwd": "C:\\Users\\stop-\\learning-japanese-ru",
+   "elapsedSeconds": 0.703,
+   "executionBoundary": "Author executed serially; no next command before this process returned.",
+   "exitCode": 0,
+   "rawSha256": "c2d17f705653889d0910f4d4032006eaa93679ac5ff4120db3a6a9fb352053fa",
+   "recordFile": "ru-042-corrected-validation-step-04-001.json",
+   "startedAt": "2026-11-06T07:32:35.727076+00:00",
+   "stderr": "",
+   "stdout": "{'files': 1119, 'entries': 1128, 'retainedBytes': 3120709, 'inflatedBytes': 3138924, 'localZipBytes': 1576646, 'listeningTaskMediaBytes': 0}\r\n"
+  }
+ ],
+ "actualWholeReviewNativeSha256": "32342c791658c4bf06869e43d32284d2573ac63f2e09e59d509ae7c061e89590",
+ "additionalBaselinePairs": [
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/輝く.md",
+   "readingDomain": "Actual returned fresh042 corrective full unchanged pair, not a runtime adoption or baseline rewrite.",
+   "russianNormalizedLfSha256": "e51506837a3d05121825583087a03cc66e1dd8a8c06f57e563367567e2ef766b",
+   "russianWorkingRawSha256": "e51506837a3d05121825583087a03cc66e1dd8a8c06f57e563367567e2ef766b",
+   "sourceGitRawSha256": "be1b8405960dea6b144ef1adab95d39c2d458ba870475613ab20db3d1291eb7a",
+   "sourceNormalizedLfSha256": "be1b8405960dea6b144ef1adab95d39c2d458ba870475613ab20db3d1291eb7a"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/付ける.md",
+   "readingDomain": "Actual returned fresh042 corrective full unchanged pair, not a runtime adoption or baseline rewrite.",
+   "russianNormalizedLfSha256": "bbb61afdc0e6a277ff510da6e4d3f97541666364c6c8e670fde766a77cc6286f",
+   "russianWorkingRawSha256": "47fadcc9849e85d0b9bc4066c6660f633fea903c7b8b583551ed045eedfeb444",
+   "sourceGitRawSha256": "76ce84b8a3f76f4e224d206878c576cd1defd4ef6396893ad64488e7c4ab25b1",
+   "sourceNormalizedLfSha256": "76ce84b8a3f76f4e224d206878c576cd1defd4ef6396893ad64488e7c4ab25b1"
+  },
+  {
+   "actualCompleteEnglishAndRussianBodiesRead": true,
+   "path": "words/立つ.md",
+   "readingDomain": "Actual returned fresh042 corrective full unchanged pair, not a runtime adoption or baseline rewrite.",
+   "russianNormalizedLfSha256": "b6e8d21f5279bae1283356ba75d85634a408140e09d68b54cd5fa5d79f9be037",
+   "russianWorkingRawSha256": "def1b327241c3e32b87cd4e97e9b68cceb055a7266c7b2d850336271d824f2f9",
+   "sourceGitRawSha256": "bac9a088a79230c66de55abca2cac99fbd1d54583b40a23fc8fc7976ab5a54b5",
+   "sourceNormalizedLfSha256": "bac9a088a79230c66de55abca2cac99fbd1d54583b40a23fc8fc7976ab5a54b5"
+  }
+ ],
+ "additionalOfficialEntryRows": [
+  {
+   "actualLaterCompleteAuthorReading": true,
+   "boundary": "All nine complete supplementary bodies actually returned/read after capture; originalcapture-time unread flags remain historical.",
+   "captureBytes": 914,
+   "captureFile": "ru-042-correction-official-entry-1224020-001.xml",
+   "captureSha256": "d67415fc6f7691a11003cb84ded44f7f3cd02a5a552cf2b0bf9867a0020777f9",
+   "completeEntityExpandedXml": "<?xml version='1.0' encoding='utf-8'?>\n<entry>\n<ent_seq>1224020</ent_seq>\n<k_ele>\n<keb>輝く</keb>\n<ke_pri>ichi1</ke_pri>\n</k_ele>\n<k_ele>\n<keb>耀く</keb>\n<ke_inf>rarely used kanji form</ke_inf>\n</k_ele>\n<k_ele>\n<keb>赫く</keb>\n<ke_inf>rarely used kanji form</ke_inf>\n</k_ele>\n<r_ele>\n<reb>かがやく</reb>\n<re_pri>ichi1</re_pri>\n</r_ele>\n<sense>\n<pos>Godan verb with 'ku' ending</pos>\n<pos>intransitive verb</pos>\n<gloss xml:lang=\"eng\">to shine</gloss>\n<gloss xml:lang=\"eng\">to sparkle</gloss>\n<gloss xml:lang=\"eng\">to twinkle</gloss>\n<gloss xml:lang=\"eng\">to glitter</gloss>\n<gloss xml:lang=\"eng\">to glisten</gloss>\n</sense>\n<sense>\n<pos>Godan verb with 'ku' ending</pos>\n<pos>intransitive verb</pos>\n<gloss xml:lang=\"eng\">to light up (with happiness, hope, etc.)</gloss>\n<gloss xml:lang=\"eng\">to beam</gloss>\n<gloss xml:lang=\"eng\">to gleam</gloss>\n<gloss xml:lang=\"eng\">to glow</gloss>\n</sense>\n</entry>\n",
+   "completeSenseBodiesReadAtCapture": false,
+   "entryId": "1224020",
+   "readings": [
+    "かがやく"
+   ],
+   "spellings": [
+    "輝く",
+    "耀く",
+    "赫く"
+   ]
+  },
+  {
+   "actualLaterCompleteAuthorReading": true,
+   "boundary": "All nine complete supplementary bodies actually returned/read after capture; originalcapture-time unread flags remain historical.",
+   "captureBytes": 616,
+   "captureFile": "ru-042-correction-official-entry-1310600-001.xml",
+   "captureSha256": "ff40b4433ee6bf99bb694e3a2f346235d3ea3c9fb1af9db700ea5398cecbb16a",
+   "completeEntityExpandedXml": "<?xml version='1.0' encoding='utf-8'?>\n<entry>\n<ent_seq>1310600</ent_seq>\n<k_ele>\n<keb>止す</keb>\n<ke_pri>ichi1</ke_pri>\n</k_ele>\n<r_ele>\n<reb>よす</reb>\n<re_pri>ichi1</re_pri>\n</r_ele>\n<sense>\n<pos>Godan verb with 'su' ending</pos>\n<pos>transitive verb</pos>\n<misc>word usually written using kana alone</misc>\n<gloss xml:lang=\"eng\">to stop (doing)</gloss>\n<gloss xml:lang=\"eng\">to cease</gloss>\n<gloss xml:lang=\"eng\">to desist</gloss>\n<gloss xml:lang=\"eng\">to drop</gloss>\n<gloss xml:lang=\"eng\">to lay off</gloss>\n<gloss xml:lang=\"eng\">to give up</gloss>\n<gloss xml:lang=\"eng\">to quit</gloss>\n</sense>\n</entry>\n",
+   "completeSenseBodiesReadAtCapture": false,
+   "entryId": "1310600",
+   "readings": [
+    "よす"
+   ],
+   "spellings": [
+    "止す"
+   ]
+  },
+  {
+   "actualLaterCompleteAuthorReading": true,
+   "boundary": "All nine complete supplementary bodies actually returned/read after capture; originalcapture-time unread flags remain historical.",
+   "captureBytes": 347,
+   "captureFile": "ru-042-correction-official-entry-1322170-001.xml",
+   "captureSha256": "a9271d4c1e923f183ceb59a5a355d1f8c0e94abb6b5db3a8843cd93ff0d3a580",
+   "completeEntityExpandedXml": "<?xml version='1.0' encoding='utf-8'?>\n<entry>\n<ent_seq>1322170</ent_seq>\n<k_ele>\n<keb>射す</keb>\n<ke_pri>ichi1</ke_pri>\n</k_ele>\n<r_ele>\n<reb>さす</reb>\n<re_pri>ichi1</re_pri>\n</r_ele>\n<sense>\n<pos>Godan verb with 'su' ending</pos>\n<pos>intransitive verb</pos>\n<xref>差す・1</xref>\n<gloss xml:lang=\"eng\">to shine</gloss>\n</sense>\n</entry>\n",
+   "completeSenseBodiesReadAtCapture": false,
+   "entryId": "1322170",
+   "readings": [
+    "さす"
+   ],
+   "spellings": [
+    "射す"
+   ]
+  },
+  {
+   "actualLaterCompleteAuthorReading": true,
+   "boundary": "All nine complete supplementary bodies actually returned/read after capture; originalcapture-time unread flags remain historical.",
+   "captureBytes": 4574,
+   "captureFile": "ru-042-correction-official-entry-1495770-001.xml",
+   "captureSha256": "6fff20e5292dd6286009a67ec71f85535b98b188f7acceb22389903054cc4768",
+   "completeEntityExpandedXml": "<?xml version='1.0' encoding='utf-8'?>\n<entry>\n<ent_seq>1495770</ent_seq>\n<k_ele>\n<keb>付ける</keb>\n<ke_pri>ichi1</ke_pri>\n</k_ele>\n<k_ele>\n<keb>着ける</keb>\n<ke_pri>ichi1</ke_pri>\n</k_ele>\n<k_ele>\n<keb>附ける</keb>\n<ke_inf>rarely used kanji form</ke_inf>\n</k_ele>\n<r_ele>\n<reb>つける</reb>\n<re_pri>ichi1</re_pri>\n</r_ele>\n<r_ele>\n<reb>ツケる</reb>\n<re_inf>search-only kana form</re_inf>\n</r_ele>\n<sense>\n<pos>Ichidan verb</pos>\n<pos>transitive verb</pos>\n<misc>word usually written using kana alone</misc>\n<gloss xml:lang=\"eng\">to attach</gloss>\n<gloss xml:lang=\"eng\">to join</gloss>\n<gloss xml:lang=\"eng\">to connect</gloss>\n<gloss xml:lang=\"eng\">to add</gloss>\n<gloss xml:lang=\"eng\">to append</gloss>\n<gloss xml:lang=\"eng\">to affix</gloss>\n<gloss xml:lang=\"eng\">to stick</gloss>\n<gloss xml:lang=\"eng\">to glue</gloss>\n<gloss xml:lang=\"eng\">to fasten</gloss>\n<gloss xml:lang=\"eng\">to sew on</gloss>\n<gloss xml:lang=\"eng\">to apply (ointment)</gloss>\n<gloss xml:lang=\"eng\">to put against</gloss>\n</sense>\n<sense>\n<pos>Ichidan verb</pos>\n<pos>transitive verb</pos>\n<misc>word usually written using kana alone</misc>\n<gloss xml:lang=\"eng\">to furnish (a house with)</gloss>\n</sense>\n<sense>\n<pos>Ichidan verb</pos>\n<pos>transitive verb</pos>\n<misc>word usually written using kana alone</misc>\n<gloss xml:lang=\"eng\">to wear</gloss>\n<gloss xml:lang=\"eng\">to put on</gloss>\n</sense>\n<sense>\n<pos>Ichidan verb</pos>\n<pos>transitive verb</pos>\n<xref>日記をつける</xref>\n<misc>word usually written using kana alone</misc>\n<gloss xml:lang=\"eng\">to keep a diary</gloss>\n<gloss xml:lang=\"eng\">to make an entry</gloss>\n</sense>\n<sense>\n<pos>Ichidan verb</pos>\n<pos>transitive verb</pos>\n<misc>word usually written using kana alone</misc>\n<gloss xml:lang=\"eng\">to appraise</gloss>\n<gloss xml:lang=\"eng\">to set (a price)</gloss>\n</sense>\n<sense>\n<pos>Ichidan verb</pos>\n<pos>transitive verb</pos>\n<misc>word usually written using kana alone</misc>\n<gloss xml:lang=\"eng\">to allot</gloss>\n<gloss xml:lang=\"eng\">to budget</gloss>\n<gloss xml:lang=\"eng\">to assign</gloss>\n</sense>\n<sense>\n<pos>Ichidan verb</pos>\n<pos>transitive verb</pos>\n<misc>word usually written using kana alone</misc>\n<gloss xml:lang=\"eng\">to bring alongside</gloss>\n</sense>\n<sense>\n<pos>Ichidan verb</pos>\n<pos>transitive verb</pos>\n<misc>word usually written using kana alone</misc>\n<gloss xml:lang=\"eng\">to place (under guard or doctor)</gloss>\n</sense>\n<sense>\n<pos>Ichidan verb</pos>\n<pos>transitive verb</pos>\n<misc>word usually written using kana alone</misc>\n<gloss xml:lang=\"eng\">to follow (someone)</gloss>\n<gloss xml:lang=\"eng\">to shadow</gloss>\n<gloss xml:lang=\"eng\">to tail</gloss>\n<gloss xml:lang=\"eng\">to stalk</gloss>\n</sense>\n<sense>\n<pos>Ichidan verb</pos>\n<pos>transitive verb</pos>\n<misc>word usually written using kana alone</misc>\n<gloss xml:lang=\"eng\">to load</gloss>\n<gloss xml:lang=\"eng\">to give (courage to)</gloss>\n</sense>\n<sense>\n<pos>Ichidan verb</pos>\n<pos>transitive verb</pos>\n<misc>word usually written using kana alone</misc>\n<gloss xml:lang=\"eng\">to keep (an eye on)</gloss>\n</sense>\n<sense>\n<pos>Ichidan verb</pos>\n<pos>transitive verb</pos>\n<misc>word usually written using kana alone</misc>\n<gloss xml:lang=\"eng\">to establish (relations or understanding)</gloss>\n</sense>\n<sense>\n<pos>Ichidan verb</pos>\n<pos>transitive verb</pos>\n<xref>点ける</xref>\n<misc>word usually written using kana alone</misc>\n<gloss xml:lang=\"eng\">to turn on (a light)</gloss>\n</sense>\n<sense>\n<pos>Ichidan verb</pos>\n<pos>transitive verb</pos>\n<misc>word usually written using kana alone</misc>\n<gloss xml:lang=\"eng\">to produce flowers (of a plant)</gloss>\n<gloss xml:lang=\"eng\">to produce fruit</gloss>\n</sense>\n<sense>\n<pos>Ichidan verb</pos>\n<pos>transitive verb</pos>\n<xref>ツケ・3</xref>\n<field>go (game)</field>\n<misc>word usually written using kana alone</misc>\n<s_inf>usu. ツケる</s_inf>\n<gloss xml:lang=\"eng\">to attach</gloss>\n<gloss xml:lang=\"eng\">to play an attachment</gloss>\n</sense>\n<sense>\n<pos>suffix</pos>\n<pos>Ichidan verb</pos>\n<xref>怒鳴りつける</xref>\n<misc>word usually written using kana alone</misc>\n<s_inf>after -masu stem of verb</s_inf>\n<gloss xml:lang=\"eng\">to do intensely</gloss>\n<gloss xml:lang=\"eng\">to do fiercely</gloss>\n<gloss xml:lang=\"eng\">to do strongly</gloss>\n</sense>\n<sense>\n<pos>suffix</pos>\n<pos>Ichidan verb</pos>\n<misc>word usually written using kana alone</misc>\n<s_inf>after -masu stem of verb</s_inf>\n<gloss xml:lang=\"eng\">to be used to (doing)</gloss>\n<gloss xml:lang=\"eng\">to be accustomed to</gloss>\n</sense>\n</entry>\n",
+   "completeSenseBodiesReadAtCapture": false,
+   "entryId": "1495770",
+   "readings": [
+    "つける",
+    "ツケる"
+   ],
+   "spellings": [
+    "付ける",
+    "着ける",
+    "附ける"
+   ]
+  },
+  {
+   "actualLaterCompleteAuthorReading": true,
+   "boundary": "All nine complete supplementary bodies actually returned/read after capture; originalcapture-time unread flags remain historical.",
+   "captureBytes": 1330,
+   "captureFile": "ru-042-correction-official-entry-1508540-001.xml",
+   "captureSha256": "9500643e32da41e112bbd7cf1b6faa6f423e9b2cbcaebc4ebdc85426301ba962",
+   "completeEntityExpandedXml": "<?xml version='1.0' encoding='utf-8'?>\n<entry>\n<ent_seq>1508540</ent_seq>\n<k_ele>\n<keb>閉ざす</keb>\n<ke_pri>news1</ke_pri>\n<ke_pri>nf14</ke_pri>\n</k_ele>\n<k_ele>\n<keb>鎖す</keb>\n<ke_inf>rarely used kanji form</ke_inf>\n</k_ele>\n<r_ele>\n<reb>とざす</reb>\n<re_pri>news1</re_pri>\n<re_pri>nf14</re_pri>\n</r_ele>\n<sense>\n<pos>Godan verb with 'su' ending</pos>\n<pos>transitive verb</pos>\n<gloss xml:lang=\"eng\">to shut</gloss>\n<gloss xml:lang=\"eng\">to close</gloss>\n<gloss xml:lang=\"eng\">to fasten</gloss>\n<gloss xml:lang=\"eng\">to lock</gloss>\n</sense>\n<sense>\n<pos>Godan verb with 'su' ending</pos>\n<pos>transitive verb</pos>\n<gloss xml:lang=\"eng\">to block (a street, entrance, etc.)</gloss>\n</sense>\n<sense>\n<pos>Godan verb with 'su' ending</pos>\n<pos>transitive verb</pos>\n<s_inf>usu. in the passive</s_inf>\n<gloss xml:lang=\"eng\">to shut in (with snow, ice, etc.)</gloss>\n<gloss xml:lang=\"eng\">to shut off</gloss>\n<gloss xml:lang=\"eng\">to cut off</gloss>\n<gloss xml:lang=\"eng\">to cover (e.g. in darkness)</gloss>\n</sense>\n<sense>\n<pos>Godan verb with 'su' ending</pos>\n<pos>transitive verb</pos>\n<s_inf>usu. in the passive</s_inf>\n<gloss xml:lang=\"eng\">to consume (with negative feelings)</gloss>\n<gloss xml:lang=\"eng\">to fill (e.g. with sadness)</gloss>\n<gloss xml:lang=\"eng\">to bury (e.g. in grief)</gloss>\n</sense>\n</entry>\n",
+   "completeSenseBodiesReadAtCapture": false,
+   "entryId": "1508540",
+   "readings": [
+    "とざす"
+   ],
+   "spellings": [
+    "閉ざす",
+    "鎖す"
+   ]
+  },
+  {
+   "actualLaterCompleteAuthorReading": true,
+   "boundary": "All nine complete supplementary bodies actually returned/read after capture; originalcapture-time unread flags remain historical.",
+   "captureBytes": 4895,
+   "captureFile": "ru-042-correction-official-entry-1597040-001.xml",
+   "captureSha256": "4a374e9944e87675ee0e5745c7232b43410a5ad33bd6bcc917ee2f94516ca19f",
+   "completeEntityExpandedXml": "<?xml version='1.0' encoding='utf-8'?>\n<entry>\n<ent_seq>1597040</ent_seq>\n<k_ele>\n<keb>立つ</keb>\n<ke_pri>ichi1</ke_pri>\n<ke_pri>news1</ke_pri>\n<ke_pri>nf21</ke_pri>\n</k_ele>\n<r_ele>\n<reb>たつ</reb>\n<re_pri>ichi1</re_pri>\n<re_pri>news1</re_pri>\n<re_pri>nf21</re_pri>\n</r_ele>\n<sense>\n<pos>Godan verb with 'tsu' ending</pos>\n<pos>intransitive verb</pos>\n<gloss xml:lang=\"eng\">to stand (up)</gloss>\n<gloss xml:lang=\"eng\">to rise</gloss>\n<gloss xml:lang=\"eng\">to get to one's feet</gloss>\n<gloss xml:lang=\"eng\">to stand on end (e.g. of hairs)</gloss>\n<gloss xml:lang=\"eng\">to stick up</gloss>\n</sense>\n<sense>\n<pos>Godan verb with 'tsu' ending</pos>\n<pos>intransitive verb</pos>\n<gloss xml:lang=\"eng\">to stand (in a position; of a person, tree, building, etc.)</gloss>\n<gloss xml:lang=\"eng\">to be situated (in, on)</gloss>\n</sense>\n<sense>\n<pos>Godan verb with 'tsu' ending</pos>\n<pos>intransitive verb</pos>\n<gloss xml:lang=\"eng\">to be (in difficulties, the lead, etc.)</gloss>\n<gloss xml:lang=\"eng\">to put oneself (in a position or situation)</gloss>\n<gloss xml:lang=\"eng\">to take up (a position, post, etc.)</gloss>\n<gloss xml:lang=\"eng\">to position oneself</gloss>\n</sense>\n<sense>\n<pos>Godan verb with 'tsu' ending</pos>\n<pos>intransitive verb</pos>\n<gloss xml:lang=\"eng\">to leave (to do something)</gloss>\n</sense>\n<sense>\n<pos>Godan verb with 'tsu' ending</pos>\n<pos>intransitive verb</pos>\n<s_inf>oft. written as 発つ</s_inf>\n<gloss xml:lang=\"eng\">to depart (on a journey, trip, etc.)</gloss>\n<gloss xml:lang=\"eng\">to leave</gloss>\n<gloss xml:lang=\"eng\">to set off</gloss>\n<gloss xml:lang=\"eng\">to start</gloss>\n</sense>\n<sense>\n<pos>Godan verb with 'tsu' ending</pos>\n<pos>intransitive verb</pos>\n<gloss xml:lang=\"eng\">to get stuck (into; of an arrow, thorn etc.)</gloss>\n<gloss xml:lang=\"eng\">to pierce</gloss>\n</sense>\n<sense>\n<pos>Godan verb with 'tsu' ending</pos>\n<pos>intransitive verb</pos>\n<gloss xml:lang=\"eng\">to develop (of a haze, waves, etc.)</gloss>\n<gloss xml:lang=\"eng\">to form (of steam, bubbles, etc.)</gloss>\n<gloss xml:lang=\"eng\">to appear (of a rainbow, clouds, etc.)</gloss>\n<gloss xml:lang=\"eng\">to rise (of smoke, waves, etc.)</gloss>\n<gloss xml:lang=\"eng\">to begin to blow (of a wind, breeze, etc.)</gloss>\n</sense>\n<sense>\n<pos>Godan verb with 'tsu' ending</pos>\n<pos>intransitive verb</pos>\n<gloss xml:lang=\"eng\">to spread (of a rumour, reputation, etc.)</gloss>\n<gloss xml:lang=\"eng\">to be become widely known</gloss>\n</sense>\n<sense>\n<pos>Godan verb with 'tsu' ending</pos>\n<pos>intransitive verb</pos>\n<gloss xml:lang=\"eng\">to stand (for election)</gloss>\n<gloss xml:lang=\"eng\">to run</gloss>\n</sense>\n<sense>\n<pos>Godan verb with 'tsu' ending</pos>\n<pos>intransitive verb</pos>\n<s_inf>also written as 起つ</s_inf>\n<gloss xml:lang=\"eng\">to take action</gloss>\n<gloss xml:lang=\"eng\">to act</gloss>\n<gloss xml:lang=\"eng\">to rise (up)</gloss>\n<gloss xml:lang=\"eng\">to rouse oneself</gloss>\n</sense>\n<sense>\n<pos>Godan verb with 'tsu' ending</pos>\n<pos>intransitive verb</pos>\n<misc>colloquial</misc>\n<s_inf>also written as 勃つ</s_inf>\n<gloss xml:lang=\"eng\">to have an erection</gloss>\n<gloss xml:lang=\"eng\">to become erect (e.g. of nipples)</gloss>\n</sense>\n<sense>\n<pos>Godan verb with 'tsu' ending</pos>\n<pos>intransitive verb</pos>\n<gloss xml:lang=\"eng\">to be established (of a policy, plan, objective, etc.)</gloss>\n<gloss xml:lang=\"eng\">to be formed</gloss>\n</sense>\n<sense>\n<pos>Godan verb with 'tsu' ending</pos>\n<pos>intransitive verb</pos>\n<gloss xml:lang=\"eng\">to be valid (of an argument, logic, etc.)</gloss>\n<gloss xml:lang=\"eng\">to hold up</gloss>\n<gloss xml:lang=\"eng\">to hold water</gloss>\n<gloss xml:lang=\"eng\">to stand up (e.g. of evidence)</gloss>\n<gloss xml:lang=\"eng\">to be logical</gloss>\n<gloss xml:lang=\"eng\">to be reasonable</gloss>\n</sense>\n<sense>\n<pos>Godan verb with 'tsu' ending</pos>\n<pos>intransitive verb</pos>\n<gloss xml:lang=\"eng\">to be sustained (of a living, business, etc.)</gloss>\n<gloss xml:lang=\"eng\">to be maintained</gloss>\n<gloss xml:lang=\"eng\">to survive</gloss>\n<gloss xml:lang=\"eng\">to be preserved (of one's reputation, honour, etc.)</gloss>\n<gloss xml:lang=\"eng\">to be saved</gloss>\n</sense>\n<sense>\n<pos>Godan verb with 'tsu' ending</pos>\n<pos>intransitive verb</pos>\n<gloss xml:lang=\"eng\">to start (of a season)</gloss>\n<gloss xml:lang=\"eng\">to begin</gloss>\n</sense>\n<sense>\n<pos>Godan verb with 'tsu' ending</pos>\n<pos>intransitive verb</pos>\n<gloss xml:lang=\"eng\">to be held (of a market)</gloss>\n</sense>\n<sense>\n<pos>Godan verb with 'tsu' ending</pos>\n<pos>intransitive verb</pos>\n<gloss xml:lang=\"eng\">to shut (of a door, shoji, etc.)</gloss>\n<gloss xml:lang=\"eng\">to be shut</gloss>\n<gloss xml:lang=\"eng\">to be closed</gloss>\n</sense>\n<sense>\n<pos>Godan verb with 'tsu' ending</pos>\n<pos>intransitive verb</pos>\n<gloss xml:lang=\"eng\">to be (the result of a division)</gloss>\n</sense>\n</entry>\n",
+   "completeSenseBodiesReadAtCapture": false,
+   "entryId": "1597040",
+   "readings": [
+    "たつ"
+   ],
+   "spellings": [
+    "立つ"
+   ]
+  },
+  {
+   "actualLaterCompleteAuthorReading": true,
+   "boundary": "All nine complete supplementary bodies actually returned/read after capture; originalcapture-time unread flags remain historical.",
+   "captureBytes": 769,
+   "captureFile": "ru-042-correction-official-entry-2089720-001.xml",
+   "captureSha256": "30fae93e5c2162b1552f0d5b91c93703539a292286965be42a843452ea57d4bc",
+   "completeEntityExpandedXml": "<?xml version='1.0' encoding='utf-8'?>\n<entry>\n<ent_seq>2089720</ent_seq>\n<k_ele>\n<keb>鍵がかかる</keb>\n</k_ele>\n<k_ele>\n<keb>鍵が掛かる</keb>\n</k_ele>\n<k_ele>\n<keb>鍵が掛る</keb>\n<ke_inf>search-only kanji form</ke_inf>\n</k_ele>\n<k_ele>\n<keb>鍵が懸かる</keb>\n<ke_inf>search-only kanji form</ke_inf>\n</k_ele>\n<k_ele>\n<keb>カギが掛かる</keb>\n<ke_inf>search-only kanji form</ke_inf>\n</k_ele>\n<k_ele>\n<keb>鍵かかる</keb>\n<ke_inf>search-only kanji form</ke_inf>\n</k_ele>\n<r_ele>\n<reb>かぎがかかる</reb>\n</r_ele>\n<sense>\n<pos>expressions (phrases, clauses, etc.)</pos>\n<pos>Godan verb with 'ru' ending</pos>\n<xref>鍵をかける</xref>\n<gloss xml:lang=\"eng\">to become locked</gloss>\n<gloss xml:lang=\"eng\">to lock</gloss>\n</sense>\n</entry>\n",
+   "completeSenseBodiesReadAtCapture": false,
+   "entryId": "2089720",
+   "readings": [
+    "かぎがかかる"
+   ],
+   "spellings": [
+    "鍵がかかる",
+    "鍵が掛かる",
+    "鍵が掛る",
+    "鍵が懸かる",
+    "カギが掛かる",
+    "鍵かかる"
+   ]
+  },
+  {
+   "actualLaterCompleteAuthorReading": true,
+   "boundary": "All nine complete supplementary bodies actually returned/read after capture; originalcapture-time unread flags remain historical.",
+   "captureBytes": 407,
+   "captureFile": "ru-042-correction-official-entry-2231100-001.xml",
+   "captureSha256": "6530b8129fac7ddfa1b52b51a9d856ca82f21d40a517a5daaa2bf4d260155297",
+   "completeEntityExpandedXml": "<?xml version='1.0' encoding='utf-8'?>\n<entry>\n<ent_seq>2231100</ent_seq>\n<k_ele>\n<keb>止す</keb>\n</k_ele>\n<r_ele>\n<reb>さす</reb>\n</r_ele>\n<sense>\n<pos>suffix</pos>\n<pos>Godan verb with 'su' ending</pos>\n<xref>差す・さす・16</xref>\n<s_inf>after the -masu stem of a verb</s_inf>\n<gloss xml:lang=\"eng\">to stop in the midst of</gloss>\n<gloss xml:lang=\"eng\">to leave undone</gloss>\n</sense>\n</entry>\n",
+   "completeSenseBodiesReadAtCapture": false,
+   "entryId": "2231100",
+   "readings": [
+    "さす"
+   ],
+   "spellings": [
+    "止す"
+   ]
+  },
+  {
+   "actualLaterCompleteAuthorReading": true,
+   "boundary": "All nine complete supplementary bodies actually returned/read after capture; originalcapture-time unread flags remain historical.",
+   "captureBytes": 427,
+   "captureFile": "ru-042-correction-official-entry-2859960-001.xml",
+   "captureSha256": "4e1c261b82fb10f56846234e552830e88badfe6be2a98e7d3c29c29ab354dfad",
+   "completeEntityExpandedXml": "<?xml version='1.0' encoding='utf-8'?>\n<entry>\n<ent_seq>2859960</ent_seq>\n<k_ele>\n<keb>鎖す</keb>\n</k_ele>\n<r_ele>\n<reb>さす</reb>\n</r_ele>\n<sense>\n<pos>noun (common) (futsuumeishi)</pos>\n<xref>差す・15</xref>\n<misc>formal or literary term</misc>\n<gloss xml:lang=\"eng\">to shut</gloss>\n<gloss xml:lang=\"eng\">to close</gloss>\n<gloss xml:lang=\"eng\">to lock</gloss>\n<gloss xml:lang=\"eng\">to fasten</gloss>\n</sense>\n</entry>\n",
+   "completeSenseBodiesReadAtCapture": false,
+   "entryId": "2859960",
+   "readings": [
+    "さす"
+   ],
+   "spellings": [
+    "鎖す"
+   ]
+  }
+ ],
+ "answerPoolPrivateFile": "ru-042-corrected-answer-pool-001.json",
+ "answerPoolPrivateRawSha256": "bd628a52231537cb1c178525bdd6beb8a7b048306d10c90c4343a82acfa9d353",
+ "baselineRuntimeObjectsUnchangedRaw": 1093,
+ "batchId": "042-travel-movement-places",
+ "changedRuntimePaths": [
+  "words/上がる.md",
+  "words/乗る.md",
+  "words/差す.md",
+  "words/掛かる.md",
+  "words/町.md",
+  "words/登る.md",
+  "words/着く.md",
+  "words/降りる.md"
+ ],
+ "combinedRuntimeCount": 1111,
+ "combinedWordCount": 799,
+ "complete18LearnerBodiesAnd799ActualCaptionsUnchanged": true,
+ "contentVersion": "4ee4c7df08855309",
+ "correctiveFreezeCommit": "a1c2fdee90def47f935cc7d394d03bbde17e9c25",
+ "frozenSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "newRuntimeUnits": [
+  {
+   "completeBodyAfterFrontmatterSha256": "e8c43629cac2392c13791cf5e618d96e1f70a48ad9302e9cba7bc71101a98728",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "map": "files",
+   "path": "words/乗る.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "f1f60d35d776de4b30cee1daa63c68e2c694b0038b7c4427d8db406803a843ce",
+   "russianNormalizedLfSha256": "f1f60d35d776de4b30cee1daa63c68e2c694b0038b7c4427d8db406803a843ce",
+   "russianWorkingRawSha256": "d309691a1cd48c88291e6280432ce57de6a258eb0cf5c115dcff79de31843120",
+   "sourceGitRawSha256": "095cda5452f5d919b26964e4ec42d499f2d29cb2264006cf968a2d05e24d2f43",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "乗"
+    ],
+    "reading": "のる",
+    "tags": [
+     "wago",
+     "verb",
+     "transport"
+    ],
+    "title": "board; ride",
+    "type": "wago",
+    "word": "乗る"
+   },
+   "sourceNormalizedLfSha256": "095cda5452f5d919b26964e4ec42d499f2d29cb2264006cf968a2d05e24d2f43",
+   "sourceWorkingRawSha256": "095cda5452f5d919b26964e4ec42d499f2d29cb2264006cf968a2d05e24d2f43",
+   "word": "乗る"
+  },
+  {
+   "completeBodyAfterFrontmatterSha256": "dcd6c3a5370ba06824e5060c38a4098b0ccddb10c1c492570a02f2c93ea4a447",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "map": "files",
+   "path": "words/降りる.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "2ca4c471fb388262fcb5d003cee13b0f3201f15c48475007fb4b54c70ce8b1d8",
+   "russianNormalizedLfSha256": "2ca4c471fb388262fcb5d003cee13b0f3201f15c48475007fb4b54c70ce8b1d8",
+   "russianWorkingRawSha256": "bea0548c6d0d225791e8a130ae44b43ab881cd826ac93a2d5936606fb506204a",
+   "sourceGitRawSha256": "940af4a825ec0df71eaa33400dc5898916c98f62ba871540b20fa832a6a301a8",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "降"
+    ],
+    "reading": "おりる",
+    "tags": [
+     "wago",
+     "verb",
+     "intransitive",
+     "transport"
+    ],
+    "title": "get off; descend",
+    "type": "wago",
+    "word": "降りる"
+   },
+   "sourceNormalizedLfSha256": "940af4a825ec0df71eaa33400dc5898916c98f62ba871540b20fa832a6a301a8",
+   "sourceWorkingRawSha256": "940af4a825ec0df71eaa33400dc5898916c98f62ba871540b20fa832a6a301a8",
+   "word": "降りる"
+  },
+  {
+   "completeBodyAfterFrontmatterSha256": "862c2f58c4ec57ad959d54bed6f7fd15b027fe0cac1af249ec00d07431082fa9",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "map": "files",
+   "path": "words/登る.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "352ab0af5f0a5eddc4bbe9cbe4438c2cd13d425374aed4d5cad7faf65ce002f7",
+   "russianNormalizedLfSha256": "352ab0af5f0a5eddc4bbe9cbe4438c2cd13d425374aed4d5cad7faf65ce002f7",
+   "russianWorkingRawSha256": "3ac2ae01af80e36874a624a71d009cd55299de622c9c08fba7c16481f69f9ec4",
+   "sourceGitRawSha256": "280c273501fa15ace3431ef1da7fe0f0c2e231c7e36294616f9aab6b61aa11f2",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "登"
+    ],
+    "quiz_exclusions": [
+     "上がる"
+    ],
+    "reading": "のぼる",
+    "tags": [
+     "wago",
+     "verb",
+     "movement"
+    ],
+    "title": "climb; go up",
+    "type": "wago",
+    "word": "登る"
+   },
+   "sourceNormalizedLfSha256": "280c273501fa15ace3431ef1da7fe0f0c2e231c7e36294616f9aab6b61aa11f2",
+   "sourceWorkingRawSha256": "280c273501fa15ace3431ef1da7fe0f0c2e231c7e36294616f9aab6b61aa11f2",
+   "word": "登る"
+  },
+  {
+   "completeBodyAfterFrontmatterSha256": "cb9dcee19842e9ed934b9c7bf3ee81407a0eee8506bbbd0bc04f26b2b6fb9c7d",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "map": "files",
+   "path": "words/着く.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "a257e6c9a08cda409acbaef81dfda1757a6e94cfff7bad0c5ae98c241bb61055",
+   "russianNormalizedLfSha256": "a257e6c9a08cda409acbaef81dfda1757a6e94cfff7bad0c5ae98c241bb61055",
+   "russianWorkingRawSha256": "e26a95aae3307cc9ebd1149d7ffa3261e789df856cc90d8b2c641405bb98d361",
+   "sourceGitRawSha256": "ab67600cf8aa7934b3edb3a704c07abdf380b2bec2fcc005d637c8efd83a7687",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "着"
+    ],
+    "reading": "つく",
+    "tags": [
+     "wago",
+     "verb",
+     "travel"
+    ],
+    "title": "arrive; reach a destination",
+    "type": "wago",
+    "word": "着く"
+   },
+   "sourceNormalizedLfSha256": "ab67600cf8aa7934b3edb3a704c07abdf380b2bec2fcc005d637c8efd83a7687",
+   "sourceWorkingRawSha256": "ab67600cf8aa7934b3edb3a704c07abdf380b2bec2fcc005d637c8efd83a7687",
+   "word": "着く"
+  },
+  {
+   "completeBodyAfterFrontmatterSha256": "02c1310f2c966a443e9a68d5e2cd58b9def8dc89e5e40d019a36754c75322ada",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "map": "files",
+   "path": "words/曲る.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "533e2f1f6449bab6e84d7703328bc0b4ac54398da8c138efb7d9aa6bd97a8251",
+   "russianNormalizedLfSha256": "533e2f1f6449bab6e84d7703328bc0b4ac54398da8c138efb7d9aa6bd97a8251",
+   "russianWorkingRawSha256": "0a24d4128907f4b494dfa6f20f6147fbc9f7aaf55f75406eea1fbf2fb4a52bca",
+   "sourceGitRawSha256": "2101b4d2450da68bc53938a5c8c42c113b165ac72ca15ccd3e73eb0fca4be2fa",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "曲"
+    ],
+    "reading": "まがる",
+    "tags": [
+     "verb",
+     "wago",
+     "intransitive"
+    ],
+    "title": "turn; bend",
+    "type": "wago",
+    "word": "曲る"
+   },
+   "sourceNormalizedLfSha256": "2101b4d2450da68bc53938a5c8c42c113b165ac72ca15ccd3e73eb0fca4be2fa",
+   "sourceWorkingRawSha256": "2101b4d2450da68bc53938a5c8c42c113b165ac72ca15ccd3e73eb0fca4be2fa",
+   "word": "曲る"
+  },
+  {
+   "completeBodyAfterFrontmatterSha256": "168685ab4e4282abd9d21b63a8db4c7f1a62bb2b67a61a9aec2f5f879065a7ea",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "map": "files",
+   "path": "words/渡る.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "ae7cdc8410055169515d232ff2507094b8ed948e4b358a8c141390990942a837",
+   "russianNormalizedLfSha256": "ae7cdc8410055169515d232ff2507094b8ed948e4b358a8c141390990942a837",
+   "russianWorkingRawSha256": "09bf91b3775d143363dceecee7989eaa3de9ea5a128526d6abdb854d862bc996",
+   "sourceGitRawSha256": "89f02fcc04b61eb64d3c1bda21ec697289437830add398610caa419f3a637fa6",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "渡"
+    ],
+    "reading": "わたる",
+    "tags": [
+     "wago",
+     "movement"
+    ],
+    "title": "cross over",
+    "type": "wago",
+    "word": "渡る"
+   },
+   "sourceNormalizedLfSha256": "89f02fcc04b61eb64d3c1bda21ec697289437830add398610caa419f3a637fa6",
+   "sourceWorkingRawSha256": "89f02fcc04b61eb64d3c1bda21ec697289437830add398610caa419f3a637fa6",
+   "word": "渡る"
+  },
+  {
+   "completeBodyAfterFrontmatterSha256": "7879178bbee7b7e4023c93605cf8db5aa5afa7b344815bb3f7f48b07ab5dd744",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "map": "files",
+   "path": "words/差す.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "528d7822874eb226394c36d0a79eb2a0bc6dcc6d9c91ed3a8c4d11d7af6df54f",
+   "russianNormalizedLfSha256": "528d7822874eb226394c36d0a79eb2a0bc6dcc6d9c91ed3a8c4d11d7af6df54f",
+   "russianWorkingRawSha256": "1a78b72ac13b85fae604605bce12d2cad34f0f6747b478f3d2e9eb42c2530000",
+   "sourceGitRawSha256": "37e8734b3d5da948eeed3f27847c1d3bc9a6c9320d9d6d925b7deb889186b39a",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "差"
+    ],
+    "reading": "さす",
+    "tags": [
+     "wago",
+     "verb"
+    ],
+    "title": "to hold up an umbrella",
+    "type": "wago",
+    "word": "差す"
+   },
+   "sourceNormalizedLfSha256": "37e8734b3d5da948eeed3f27847c1d3bc9a6c9320d9d6d925b7deb889186b39a",
+   "sourceWorkingRawSha256": "37e8734b3d5da948eeed3f27847c1d3bc9a6c9320d9d6d925b7deb889186b39a",
+   "word": "差す"
+  },
+  {
+   "completeBodyAfterFrontmatterSha256": "8c9452a7c8d504ab1e67e1bf039c0d2a5167a89e9de3309e5ec794d45bf87121",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "map": "files",
+   "path": "words/掛かる.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "649f81b8329f748b991083673b27155478e9e74266fe062f2493ad57fa4b8252",
+   "russianNormalizedLfSha256": "649f81b8329f748b991083673b27155478e9e74266fe062f2493ad57fa4b8252",
+   "russianWorkingRawSha256": "b9ca2ca55de1af2ed491ed777fa8cf02d0e3bbc734e135a8f86ea9bdc3549bb7",
+   "sourceGitRawSha256": "33f3d2b9c529ec5e8fe22efc0f1d830087f35694fc141db82de0d348486d157f",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "掛"
+    ],
+    "reading": "かかる",
+    "tags": [
+     "verb",
+     "time",
+     "money",
+     "wago"
+    ],
+    "title": "take time; cost money",
+    "type": "wago",
+    "word": "掛かる"
+   },
+   "sourceNormalizedLfSha256": "33f3d2b9c529ec5e8fe22efc0f1d830087f35694fc141db82de0d348486d157f",
+   "sourceWorkingRawSha256": "33f3d2b9c529ec5e8fe22efc0f1d830087f35694fc141db82de0d348486d157f",
+   "word": "掛かる"
+  },
+  {
+   "completeBodyAfterFrontmatterSha256": "8d4c943ff342662cc03e1f5e6d5e2a4c50425e3e88b37ac310fd508e92a0c1c7",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "map": "files",
+   "path": "words/所.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "0c26a9d006665bce85828075e277bfffb3d6496afaa5c76b65d61ba0ead57322",
+   "russianNormalizedLfSha256": "0c26a9d006665bce85828075e277bfffb3d6496afaa5c76b65d61ba0ead57322",
+   "russianWorkingRawSha256": "65258b79dfad568acfda4828717c7ae407296da87c88a4b0e67cb456af2c79c7",
+   "sourceGitRawSha256": "ad31377fa339e45461684e509812c033e7d97dafc7b40f9ee3be99a1e73cd087",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "所"
+    ],
+    "reading": "ところ",
+    "tags": [
+     "wago",
+     "noun",
+     "location"
+    ],
+    "title": "place; spot",
+    "type": "wago",
+    "word": "所"
+   },
+   "sourceNormalizedLfSha256": "ad31377fa339e45461684e509812c033e7d97dafc7b40f9ee3be99a1e73cd087",
+   "sourceWorkingRawSha256": "ad31377fa339e45461684e509812c033e7d97dafc7b40f9ee3be99a1e73cd087",
+   "word": "所"
+  },
+  {
+   "completeBodyAfterFrontmatterSha256": "cf8f86fee5aa8b4f9ebfd69f9709539c6ee65f2a9c96d37f8d02af3d6886d843",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "map": "files",
+   "path": "words/村.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "f7f1e8cb6ef34983f279149b9f4970a194ad5e3f1b93411711f61fcbb2cadda8",
+   "russianNormalizedLfSha256": "f7f1e8cb6ef34983f279149b9f4970a194ad5e3f1b93411711f61fcbb2cadda8",
+   "russianWorkingRawSha256": "0393abcfbcb5154b6d5b0969a7d02db9c02c88779891597977bae8bdf4e0d583",
+   "sourceGitRawSha256": "f0e57af3439ca79f00dfb3bbd482d198c50f2bf97ca1ee128b8515977c494b12",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "村"
+    ],
+    "reading": "むら",
+    "tags": [
+     "wago",
+     "noun",
+     "place"
+    ],
+    "title": "village",
+    "type": "wago",
+    "word": "村"
+   },
+   "sourceNormalizedLfSha256": "f0e57af3439ca79f00dfb3bbd482d198c50f2bf97ca1ee128b8515977c494b12",
+   "sourceWorkingRawSha256": "f0e57af3439ca79f00dfb3bbd482d198c50f2bf97ca1ee128b8515977c494b12",
+   "word": "村"
+  },
+  {
+   "completeBodyAfterFrontmatterSha256": "3bac8b06bce672030eb1c9b6243906a6b98b064ebadabb7e2a6fb95d96a0da57",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "map": "files",
+   "path": "words/町.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "d7329cac85d0dc62e68354680cb777955b1bec163a2213f6dc8caae26040fe79",
+   "russianNormalizedLfSha256": "d7329cac85d0dc62e68354680cb777955b1bec163a2213f6dc8caae26040fe79",
+   "russianWorkingRawSha256": "949423c178a81cb1c8dc1f41069e84ac1bc15f83a408532413dec128a45ea5c2",
+   "sourceGitRawSha256": "b550c3c9434b0808d4a0dfd498ca1187b0c892081a1bacf90d66ec1ec07e784e",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "町"
+    ],
+    "quiz_exclusions": [
+     "近所"
+    ],
+    "reading": "まち",
+    "tags": [
+     "wago",
+     "noun",
+     "places"
+    ],
+    "title": "town, neighborhood",
+    "type": "wago",
+    "word": "町"
+   },
+   "sourceNormalizedLfSha256": "b550c3c9434b0808d4a0dfd498ca1187b0c892081a1bacf90d66ec1ec07e784e",
+   "sourceWorkingRawSha256": "b550c3c9434b0808d4a0dfd498ca1187b0c892081a1bacf90d66ec1ec07e784e",
+   "word": "町"
+  },
+  {
+   "completeBodyAfterFrontmatterSha256": "4e72705dbf72fe3f4e48c11d63da6c775d28a6e96541045e8d6224f7d7dd1c07",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "map": "files",
+   "path": "words/国.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "ed558dca1ce7e0749a7c37e91a6f013af24d72156db0ae2b4190462efd619994",
+   "russianNormalizedLfSha256": "ed558dca1ce7e0749a7c37e91a6f013af24d72156db0ae2b4190462efd619994",
+   "russianWorkingRawSha256": "94549bcb7bad97204ec79bd08f1ee604645a26491fb722becbddf367781ea366",
+   "sourceGitRawSha256": "0ab11b06caca00ec09737ddd096a76c1fa2e4c22bbcf1dc36a3afdb1a3556834",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "国"
+    ],
+    "reading": "くに",
+    "tags": [
+     "wago",
+     "noun",
+     "place"
+    ],
+    "title": "country; nation",
+    "type": "wago",
+    "word": "国"
+   },
+   "sourceNormalizedLfSha256": "0ab11b06caca00ec09737ddd096a76c1fa2e4c22bbcf1dc36a3afdb1a3556834",
+   "sourceWorkingRawSha256": "0ab11b06caca00ec09737ddd096a76c1fa2e4c22bbcf1dc36a3afdb1a3556834",
+   "word": "国"
+  },
+  {
+   "completeBodyAfterFrontmatterSha256": "d840baf75d74ce8c8737e742a310cfcda189236c4be55481b8ac47cee63d92f3",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "map": "files",
+   "path": "words/外国人.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "bcf447a3ba094c6b04c5b3133faee350bc7a86bf8447125f20dec149debabbd4",
+   "russianNormalizedLfSha256": "bcf447a3ba094c6b04c5b3133faee350bc7a86bf8447125f20dec149debabbd4",
+   "russianWorkingRawSha256": "851cfc20b69dcf5d857f558a7a22523e001429365f25d9ec89c7cd6eb46ee072",
+   "sourceGitRawSha256": "ed86b08a08325ada3b84aebec9e437e5c4025c12ccd73ccc52d6a2128e4b12a6",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "外",
+     "国",
+     "人"
+    ],
+    "reading": "がいこくじん",
+    "tags": [
+     "kango",
+     "noun",
+     "people"
+    ],
+    "title": "foreign national",
+    "type": "kango",
+    "word": "外国人"
+   },
+   "sourceNormalizedLfSha256": "ed86b08a08325ada3b84aebec9e437e5c4025c12ccd73ccc52d6a2128e4b12a6",
+   "sourceWorkingRawSha256": "ed86b08a08325ada3b84aebec9e437e5c4025c12ccd73ccc52d6a2128e4b12a6",
+   "word": "外国人"
+  },
+  {
+   "completeBodyAfterFrontmatterSha256": "e5203a03681814a0b9f913246fbb058fb0524b82550110b2dc95e2c2e9b7f1be",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "map": "files",
+   "path": "words/留学生.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "8675658fa2b1c22f7e37e31a321108552916f6d218be21f613b9edb150c90f0e",
+   "russianNormalizedLfSha256": "8675658fa2b1c22f7e37e31a321108552916f6d218be21f613b9edb150c90f0e",
+   "russianWorkingRawSha256": "f22a6dabd6f776c1895840838d1e836dae948ba5013e33b3f5fe83bbf03b81b2",
+   "sourceGitRawSha256": "f252eea08f2d6f7cf90474f07fd9b7ce4121f68549103d25c8de36a4c0000a1f",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "留",
+     "学",
+     "生"
+    ],
+    "reading": "りゅうがくせい",
+    "tags": [
+     "kango",
+     "noun",
+     "education"
+    ],
+    "title": "international student",
+    "type": "kango",
+    "word": "留学生"
+   },
+   "sourceNormalizedLfSha256": "f252eea08f2d6f7cf90474f07fd9b7ce4121f68549103d25c8de36a4c0000a1f",
+   "sourceWorkingRawSha256": "f252eea08f2d6f7cf90474f07fd9b7ce4121f68549103d25c8de36a4c0000a1f",
+   "word": "留学生"
+  },
+  {
+   "completeBodyAfterFrontmatterSha256": "8fc4451a242154eab086f1935af73c205f3b4daaff910fd1d84fa5ac56eef341",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "map": "files",
+   "path": "words/警官.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "facc78f32b82747a845b6f2a97b602317846a61b16da685221085f30c3e6067f",
+   "russianNormalizedLfSha256": "facc78f32b82747a845b6f2a97b602317846a61b16da685221085f30c3e6067f",
+   "russianWorkingRawSha256": "9a0f590a3e401fa2d1168fba00c28dfee386b74e7b258b76d5846c23aee9368c",
+   "sourceGitRawSha256": "674ed033bd04ab98de477aa8cf8ab088da56507e1ca11b3e0d9553b08f5dcab4",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [
+     "警",
+     "官"
+    ],
+    "reading": "けいかん",
+    "tags": [
+     "kango",
+     "people",
+     "occupations"
+    ],
+    "title": "police officer",
+    "type": "kango",
+    "word": "警官"
+   },
+   "sourceNormalizedLfSha256": "674ed033bd04ab98de477aa8cf8ab088da56507e1ca11b3e0d9553b08f5dcab4",
+   "sourceWorkingRawSha256": "674ed033bd04ab98de477aa8cf8ab088da56507e1ca11b3e0d9553b08f5dcab4",
+   "word": "警官"
+  },
+  {
+   "completeBodyAfterFrontmatterSha256": "80ef32c9b674d9e07eae73f75bd22d7698b07e3d013e7dd3d6fd36c81d214209",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "map": "files",
+   "path": "words/おまわりさん.md",
+   "role": "selected-root",
+   "russianCanonicalGitRawSha256": "1690c9573fc42c52381029c2fd6e191f545faed7b94da9ce42c00ea66dfa98dc",
+   "russianNormalizedLfSha256": "1690c9573fc42c52381029c2fd6e191f545faed7b94da9ce42c00ea66dfa98dc",
+   "russianWorkingRawSha256": "970ecf9369f782b0e32a51b032cc468ebe5aacd8fe6c0d685f1bc25aaa2c5799",
+   "sourceGitRawSha256": "ac07890e031ca6bdccf94944406e2e116ac9a5aa95bc9f8b9112d2ab1608cf18",
+   "sourceMetadata": {
+    "jlpt": 5,
+    "kanji": [],
+    "reading": "おまわりさん",
+    "tags": [
+     "wago",
+     "noun",
+     "people"
+    ],
+    "title": "police officer (familiar)",
+    "type": "wago",
+    "word": "おまわりさん"
+   },
+   "sourceNormalizedLfSha256": "ac07890e031ca6bdccf94944406e2e116ac9a5aa95bc9f8b9112d2ab1608cf18",
+   "sourceWorkingRawSha256": "ac07890e031ca6bdccf94944406e2e116ac9a5aa95bc9f8b9112d2ab1608cf18",
+   "word": "おまわりさん"
+  },
+  {
+   "completeBodyAfterFrontmatterSha256": "bfab7eadb58a7e66a27e85e357d67156e033b451f0d6b6f1cca8dcedec084793",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "map": "files",
+   "path": "words/上がる.md",
+   "role": "required-negative-reference-provider",
+   "russianCanonicalGitRawSha256": "713400113b6ea48b5eac1affce0c4971fcfdb3281eb68760eeb4a40f9912f3ea",
+   "russianNormalizedLfSha256": "713400113b6ea48b5eac1affce0c4971fcfdb3281eb68760eeb4a40f9912f3ea",
+   "russianWorkingRawSha256": "fd2cc838fa30e10e84b5459498f36d673393d7450471738c977cdad4d484e4de",
+   "sourceGitRawSha256": "73c6f89e09caf8a6e5507e51712960a0eb102d8cd220a982f42bdb6fb69d0ca7",
+   "sourceMetadata": {
+    "jlpt": 4,
+    "kanji": [
+     "上"
+    ],
+    "reading": "あがる",
+    "tags": [
+     "wago",
+     "verb",
+     "movement"
+    ],
+    "title": "rise; go up",
+    "type": "wago",
+    "word": "上がる"
+   },
+   "sourceNormalizedLfSha256": "73c6f89e09caf8a6e5507e51712960a0eb102d8cd220a982f42bdb6fb69d0ca7",
+   "sourceWorkingRawSha256": "73c6f89e09caf8a6e5507e51712960a0eb102d8cd220a982f42bdb6fb69d0ca7",
+   "word": "上がる"
+  },
+  {
+   "completeBodyAfterFrontmatterSha256": "9c719a7d478575bfc1d6857a5f37b810bde266fccaf0282bdfebb0723a111022",
+   "completeBodyUnchangedFromOriginalWholeReviewedCandidate": true,
+   "map": "files",
+   "path": "words/近所.md",
+   "role": "required-negative-reference-provider",
+   "russianCanonicalGitRawSha256": "986e540a43baa38057650e42580d09e694e49b7f329cb8d97876be593433ef01",
+   "russianNormalizedLfSha256": "986e540a43baa38057650e42580d09e694e49b7f329cb8d97876be593433ef01",
+   "russianWorkingRawSha256": "fb836a829763935ad180f79e48b52e9933ff74881872c8437f90e0daa11ac1e2",
+   "sourceGitRawSha256": "64650f2bec43d1f011f1eb6593077c3e722825d8cf7cf73c7b7038b98cbd3f39",
+   "sourceMetadata": {
+    "jlpt": 4,
+    "kanji": [
+     "近",
+     "所"
+    ],
+    "reading": "きんじょ",
+    "tags": [
+     "kango",
+     "noun",
+     "place"
+    ],
+    "title": "neighborhood; vicinity",
+    "type": "kango",
+    "word": "近所"
+   },
+   "sourceNormalizedLfSha256": "64650f2bec43d1f011f1eb6593077c3e722825d8cf7cf73c7b7038b98cbd3f39",
+   "sourceWorkingRawSha256": "64650f2bec43d1f011f1eb6593077c3e722825d8cf7cf73c7b7038b98cbd3f39",
+   "word": "近所"
+  }
+ ],
+ "originalWholeReviewedCandidateCommit": "79660f56c70a2accf22f017ab9b617bdfa378e80",
+ "phase": "Corrected metadata implementation awaiting actual focused recheck; not C2 acceptance",
+ "proposedFinalBoundaryCounts": {
+  "direct": 17,
+  "limited": 38,
+  "source": 2
+ },
+ "proposedFinalDirectPairs": [
+  {
+   "left": "登る",
+   "leftActualCaption": "взбираться; подниматься",
+   "ordinaryModernNecessityFrequency": "Exact source grading safeguard or directly taught context; no quantitative frequency claim",
+   "proposedBoundary": "preserve exact source grading edge",
+   "rationale": "Preserve the exact directed frozen-source grading safeguard; not a new transitive clique.",
+   "right": "上がる",
+   "rightActualCaption": "подниматься; повышаться",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "町",
+   "leftActualCaption": "городок; район",
+   "ordinaryModernNecessityFrequency": "Exact source grading safeguard or directly taught context; no quantitative frequency claim",
+   "proposedBoundary": "preserve exact source grading edge",
+   "rationale": "Preserve the exact directed frozen-source grading safeguard; not a new transitive clique.",
+   "right": "近所",
+   "rightActualCaption": "окрестности; район поблизости",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "乗る",
+   "leftActualCaption": "садиться в транспорт; ехать на нём",
+   "ordinaryModernNecessityFrequency": "Exact source grading safeguard or directly taught context; no quantitative frequency claim",
+   "proposedBoundary": "direct taught/source context",
+   "rationale": "The actual vehicle-riding source can take Russianехать, present in the unchanged行く caption. Retain riding/boarding and deictic journey distinctions; not every行く is vehicle-riding.",
+   "right": "行く",
+   "rightActualCaption": "идти; ехать",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "乗る",
+   "leftActualCaption": "садиться в транспорт; ехать на нём",
+   "ordinaryModernNecessityFrequency": "Exact source grading safeguard or directly taught context; no quantitative frequency claim",
+   "proposedBoundary": "direct taught/source context",
+   "rationale": "The explicitly taught vehicle-boarding construction can take Russianсадиться, present in座る. Boarding does not imply a seated posture: one can ride standing.",
+   "right": "座る",
+   "rightActualCaption": "садиться; сидеть",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "乗る",
+   "leftActualCaption": "садиться в транспорт; ехать на нём",
+   "ordinaryModernNecessityFrequency": "Exact source grading safeguard or directly taught context; no quantitative frequency claim",
+   "proposedBoundary": "direct taught/source context",
+   "rationale": "Boarding an enclosed vehicle can take Russianвходить, present in入る. This direct interior-boarding context is not every entrance and not an inference through座る.",
+   "right": "入る",
+   "rightActualCaption": "входить; находиться внутри",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "降りる",
+   "leftActualCaption": "выходить из транспорта; спускаться",
+   "ordinaryModernNecessityFrequency": "Exact source grading safeguard or directly taught context; no quantitative frequency claim",
+   "proposedBoundary": "direct taught/source context",
+   "rationale": "The complete降りる source explicitly teaches leaving a vehicle; actual出る caption includesвыходить. Keep vehicleを/locationで and the intransitive construction.",
+   "right": "出る",
+   "rightActualCaption": "выходить; появляться",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "着く",
+   "leftActualCaption": "прибывать; добираться",
+   "ordinaryModernNecessityFrequency": "Exact source grading safeguard or directly taught context; no quantitative frequency claim",
+   "proposedBoundary": "direct taught/source context",
+   "rationale": "Actual arrival at the destination can be renderedприходить orприбывать in a coming/arrival context. Keep来る deictic orientation and着く reaching the destination distinct; no every-come equivalence.",
+   "right": "来る",
+   "rightActualCaption": "приходить; приезжать",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "警官",
+   "leftActualCaption": "полицейский",
+   "ordinaryModernNecessityFrequency": "Exact source grading safeguard or directly taught context; no quantitative frequency claim",
+   "proposedBoundary": "direct taught/source context",
+   "rationale": "Both full new sources name an individual police officer; actual captions both containполицейский. The familiar register remains explicit; neither names a building or a literal personal friend.",
+   "right": "おまわりさん",
+   "rightActualCaption": "полицейский (разговорно)",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "留学生",
+   "leftActualCaption": "студент за рубежом",
+   "ordinaryModernNecessityFrequency": "Exact source grading safeguard or directly taught context; no quantitative frequency claim",
+   "proposedBoundary": "direct taught/source context",
+   "rationale": "The full留学生 lesson defines a person studying abroad; actual学生 caption isстудент. Protect the coarse student label without removing the defining abroad condition or inventing exchange-program membership.",
+   "right": "学生",
+   "rightActualCaption": "студент",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "所",
+   "leftActualCaption": "место; участок",
+   "ordinaryModernNecessityFrequency": "Exact source grading safeguard or directly taught context; no quantitative frequency claim",
+   "proposedBoundary": "direct taught/source context",
+   "rationale": "The source explicitly retainsいいところ as a good point/aspect; actual点 caption includesаспект. Only that directly taught aspect context, not a dot or score point.",
+   "right": "点",
+   "rightActualCaption": "точка; балл; аспект",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "町",
+   "leftActualCaption": "городок; район",
+   "ordinaryModernNecessityFrequency": "Exact source grading safeguard or directly taught context; no quantitative frequency claim",
+   "proposedBoundary": "direct taught/source context",
+   "rationale": "Actual町 neighborhood/block and actual辺 area/district can take Russianрайон, present in both captions. Retain municipality versus imprecisely bounded area distinctions.",
+   "right": "辺",
+   "rightActualCaption": "окрестности; район",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "近所",
+   "leftActualCaption": "окрестности; район поблизости",
+   "ordinaryModernNecessityFrequency": "Exact source grading safeguard or directly taught context; no quantitative frequency claim",
+   "proposedBoundary": "direct taught/source context",
+   "rationale": "Both complete sources directly describe the nearby area; actual captions overlap inокрестности/поблизости. This is an independently assessed direct pair, not a spatial clique.",
+   "right": "近く",
+   "rightActualCaption": "поблизости; окрестности",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "近所",
+   "leftActualCaption": "окрестности; район поблизости",
+   "ordinaryModernNecessityFrequency": "Exact source grading safeguard or directly taught context; no quantitative frequency claim",
+   "proposedBoundary": "direct taught/source context",
+   "rationale": "Actual近所 nearby area and actual辺 area/vicinity shareокрестности/район. This direct area context is not inferred through近く.",
+   "right": "辺",
+   "rightActualCaption": "окрестности; район",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "近所",
+   "leftActualCaption": "окрестности; район поблизости",
+   "ordinaryModernNecessityFrequency": "Exact source grading safeguard or directly taught context; no quantitative frequency claim",
+   "proposedBoundary": "direct taught/source context",
+   "rationale": "The actual隣 captionрядом;пососедству can also fit the nearby-area sense of近所. Keep immediately adjacent隣 narrower; do not infer from近く–隣 or require every neighborhood person to be next door.",
+   "right": "隣",
+   "rightActualCaption": "рядом; по соседству",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "近所",
+   "leftActualCaption": "окрестности; район поблизости",
+   "ordinaryModernNecessityFrequency": "Exact source grading safeguard or directly taught context; no quantitative frequency claim",
+   "proposedBoundary": "direct taught/source context",
+   "rationale": "Full unchanged側 describes a place near an established reference, with no fixed scale; its actualрядом;возле caption can fit近所 proximity. Directly supported by the full pair and1403830sense1, not a transitive inference.",
+   "right": "側",
+   "rightActualCaption": "рядом; возле",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "差す",
+   "leftActualCaption": "держать раскрытый зонт",
+   "ordinaryModernNecessityFrequency": "Exact source grading safeguard or directly taught context; no quantitative frequency claim",
+   "proposedBoundary": "direct taught/source context",
+   "rationale": "Explicit umbrella holding in1291330sense6 can take actual持つдержать. Preserve holding an opened/raised umbrella versus merely possessing or carrying a closed one.",
+   "right": "持つ",
+   "rightActualCaption": "держать; иметь; нести",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "差す",
+   "leftActualCaption": "держать раскрытый зонт",
+   "ordinaryModernNecessityFrequency": "Exact source grading safeguard or directly taught context; no quantitative frequency claim",
+   "proposedBoundary": "direct taught/source context",
+   "rationale": "The same explicit umbrella put-up/raise sense6 can take actual上げるподнимать in that item-specific context. Not every raising action, and not generic arm extension from the separately dance-limited sense7.",
+   "right": "上げる",
+   "rightActualCaption": "поднимать; давать",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "掛かる",
+   "leftActualCaption": "занимать время; стоить",
+   "ordinaryModernNecessityFrequency": "Exact source grading safeguard or directly taught context; no quantitative frequency claim",
+   "proposedBoundary": "direct taught/source context",
+   "rationale": "The source resource requirement can take actual要るтребоваться. Preserve the resourceが/amount construction; not every need or desire is a cost.",
+   "right": "要る",
+   "rightActualCaption": "быть нужным; требоваться",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "降りる",
+   "leftActualCaption": "выходить из транспорта; спускаться",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "The complete alternate降る/くだる descending entry, distinct from canonical降る/ふる weather, can fit newспускаться. Only the bare-written homograph safeguard; never transferくだる into the N5 weather lesson.",
+   "right": "降る",
+   "rightActualCaption": "идти; выпадать (об осадках)",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "着く",
+   "leftActualCaption": "прибывать; добираться",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1422970sense2 independently records sitting at/on a place; actual座るсадиться;сидеть can fit. This is separate from arrival and not generic entering.",
+   "right": "座る",
+   "rightActualCaption": "садиться; сидеть",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "着く",
+   "leftActualCaption": "прибывать; добираться",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1607260 explicitly marks着く as a rarely-used kanji form ofはく. Actual履く caption names putting on footwear/lower-body clothes. Only a bare-written rare-form safeguard; primary着く remainsつく arrival, not canonicalはく or upper-bodyきる.",
+   "right": "履く",
+   "rightActualCaption": "надевать обувь или одежду ниже пояса",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "着く",
+   "leftActualCaption": "прибывать; добираться",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "The complete出る dictionary entry records arriving/reaching; new actualприбывать;добираться can fit that separately limited sense. Do not equate every exit or appearance with arrival.",
+   "right": "出る",
+   "rightActualCaption": "выходить; появляться",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "所",
+   "leftActualCaption": "место; участок",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1343100sense2 records address, usually kana; actual住所 caption isадрес. This is not physical location versus email-address equivalence.",
+   "right": "住所",
+   "rightActualCaption": "адрес",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "所",
+   "leftActualCaption": "место; участок",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1343100sense4 records one's house, usually kana; actual家 caption isдом;жилище. Keep this explicitly house sense, not an inference from every place being someone's home.",
+   "right": "家",
+   "rightActualCaption": "дом; жилище",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "所",
+   "leftActualCaption": "место; участок",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1343100sense3 district/area/locality can fit actual土地местность. Not the soil material or every property plot.",
+   "right": "土地",
+   "rightActualCaption": "земля; земельный участок; местность",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "所",
+   "leftActualCaption": "место; участок",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "The same explicitly recorded district/area sense can take actual辺район. Independent direct area comparison, not inferred through土地.",
+   "right": "辺",
+   "rightActualCaption": "окрестности; район",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "所",
+   "leftActualCaption": "место; участок",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "The explicitly recorded district/area sense can take actual new町район. This new-new direct pair is not a clique inference through辺 or近所.",
+   "right": "町",
+   "rightActualCaption": "городок; район",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "町",
+   "leftActualCaption": "городок; район",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1603990sense3 street/road has no街-only stagk; actual道дорога;путь can fit the road sense. Sense2 downtown/main-street is restricted to街 and is not freely transferred to町.",
+   "right": "道",
+   "rightActualCaption": "дорога; путь",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "国",
+   "leftActualCaption": "страна; государство",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1592250sense2 region can fit actual土地местность; its separately archaic sense6land can also fitземля as territory. Never equate country/territory with material soil土 or make the archaic sense primary.",
+   "right": "土地",
+   "rightActualCaption": "земля; земельный участок; местность",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "国",
+   "leftActualCaption": "страна; государство",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1592250sense2 region can take coarse new町район in the bounded area sense. Not every country a town, and not inferred through土地 or辺.",
+   "right": "町",
+   "rightActualCaption": "городок; район",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "上がる",
+   "leftActualCaption": "подниматься; повышаться",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1352290sense2 explicitly enters from outside; actual入るвходить fits. Primary upward change and entering remain distinct.",
+   "right": "入る",
+   "rightActualCaption": "входить; находиться внутри",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "上がる",
+   "leftActualCaption": "подниматься; повышаться",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1352290senses4/5 explicitly get out of water/come ashore/surface; actual出るвыходить;появляться can fit those contexts. Not opposite upward/downward cliques or generic transport disembarking.",
+   "right": "出る",
+   "rightActualCaption": "выходить; появляться",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "上がる",
+   "leftActualCaption": "подниматься; повышаться",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1352290sense19 is humblego/visit; actual行くидти can fit. Keep humble register and no unrestricted neutral N4 use.",
+   "right": "行く",
+   "rightActualCaption": "идти; ехать",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "上がる",
+   "leftActualCaption": "подниматься; повышаться",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "The same explicitly humble visiting sense can takeприходить in a visit/arrival context, present in来る. Independently about visiting, not inferred through行く or an unrestricted change of deictic orientation.",
+   "right": "来る",
+   "rightActualCaption": "приходить; приезжать",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "上がる",
+   "leftActualCaption": "подниматься; повышаться",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1352290sense20 is respectful and transitiveeat/drink; actual食べるесть fits eating. Do not describe every上がる use as intransitive, or teach this as neutral primary N4.",
+   "right": "食べる",
+   "rightActualCaption": "есть; принимать пищу",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "上がる",
+   "leftActualCaption": "подниматься; повышаться",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "The same respectfultransitive sense20 independently records drinking; actual飲むпить fits. Not inferred through食べる and not unrestricted consumption.",
+   "right": "飲む",
+   "rightActualCaption": "пить",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "上がる",
+   "leftActualCaption": "подниматься; повышаться",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1352290sense12finished/done/over can fit actual終わるзаканчиваться. Completion suffix sense24 remains separately construction-limited.",
+   "right": "終わる",
+   "rightActualCaption": "заканчиваться; заканчивать",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "上がる",
+   "leftActualCaption": "подниматься; повышаться",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1352290sense12done/finished can takeбытьготовым, present in actualできる. Correctできる entry1340450 is distinct from出切る1339500; not ability equivalence.",
+   "right": "できる",
+   "rightActualCaption": "мочь; быть готовым",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "上がる",
+   "leftActualCaption": "подниматься; повышаться",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1352290sense13 explicitly clear-up-of-weather can fit actual晴れるпроясняться. Preserve source rain-stopping example; rain stopping alone does not prove sunshine.",
+   "right": "晴れる",
+   "rightActualCaption": "проясняться",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "上がる",
+   "leftActualCaption": "подниматься; повышаться",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1352290sense14 stops-working/gives-out, and actual止まるостанавливаться directly covers operation stopping. Item/function-limited, not every rise or finish.",
+   "right": "止まる",
+   "rightActualCaption": "останавливаться",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "差す",
+   "leftActualCaption": "держать раскрытый зонт",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1291330sense2 is be-visible; actual見えるбытьвидимым;виднеться fits. Separate from holding an umbrella and from voluntary見る.",
+   "right": "見える",
+   "rightActualCaption": "быть видимым; виднеться",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "差す",
+   "leftActualCaption": "держать раскрытый зонт",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1291330sense8 explicitly insert/put-in can take actual入れるпомещатьвнутрь. Do not transfer every刺す piercing sense or free substitution into the umbrella lesson.",
+   "right": "入れる",
+   "rightActualCaption": "помещать внутрь",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "差す",
+   "leftActualCaption": "держать раскрытый зонт",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1291330sense15shut/close/lock/fasten can take actual閉めるзакрывать in the bounded locking/closing context. Not every door-closing collocation.",
+   "right": "閉める",
+   "rightActualCaption": "закрывать",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "掛かる",
+   "leftActualCaption": "занимать время; стоить",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1207590sense3 explicitly arrive; actual new着くприбывать;добираться fits. Independent direct arrival protection, not a resource-cost interpretation.",
+   "right": "着く",
+   "rightActualCaption": "прибывать; добираться",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "掛かる",
+   "leftActualCaption": "занимать время; стоить",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1207590sense3arrive can take actual来るприходить in a coming/arrival context. No universal deictic substitution or inferred clique through着く.",
+   "right": "来る",
+   "rightActualCaption": "приходить; приезжать",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "掛かる",
+   "leftActualCaption": "занимать время; стоить",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1207590sense3come-into-view can take actual出るпоявляться. Not every exit, start, or resource requirement.",
+   "right": "出る",
+   "rightActualCaption": "выходить; появляться",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "掛かる",
+   "leftActualCaption": "занимать время; стоить",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "The same explicitcome-into-view sense3 can take actual見えるвиднеться. Independently visibility, not an inferred clique through出る.",
+   "right": "見える",
+   "rightActualCaption": "быть видимым; виднеться",
+   "status": "PROPOSED; actual independent assessment pending"
+  },
+  {
+   "left": "差す",
+   "leftActualCaption": "держать раскрытый зонт",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1291330sense4 explicitly water-level rising is intransitive; actual上がるподниматься can fit. This is independent of umbrella差す–上げる and登る–上がる, not a transitive clique.",
+   "right": "上がる",
+   "rightActualCaption": "подниматься; повышаться",
+   "status": "Proposed correction; original whole review requested this direct protection, actual implementation/focused recheck PENDING"
+  },
+  {
+   "left": "差す",
+   "leftActualCaption": "держать раскрытый зонт",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "The same separately recorded intransitive water-level rising can take actual登るподниматься. Not every physicalclimb is water-rise; independent actual-caption/context protection.",
+   "right": "登る",
+   "rightActualCaption": "взбираться; подниматься",
+   "status": "Proposed correction; original whole review requested this direct protection, actual implementation/focused recheck PENDING"
+  },
+  {
+   "left": "上がる",
+   "leftActualCaption": "подниматься; повышаться",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1352320senses20/21 explicitly mark intransitive tide/market-price rising; actual上がるподниматься;повышаться can fit. Do not assume the primary transitive上げる lesson rules out those separate qualified senses.",
+   "right": "上げる",
+   "rightActualCaption": "поднимать; давать",
+   "status": "Proposed correction; original whole review requested this direct protection, actual implementation/focused recheck PENDING"
+  },
+  {
+   "left": "登る",
+   "leftActualCaption": "взбираться; подниматься",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "The same independently recorded intransitive rising can take actual登るподниматься. Not an inference through上がる or generic activeподнимать equivalence.",
+   "right": "上げる",
+   "rightActualCaption": "поднимать; давать",
+   "status": "Proposed correction; original whole review requested this direct protection, actual implementation/focused recheck PENDING"
+  },
+  {
+   "left": "上がる",
+   "leftActualCaption": "подниматься; повышаться",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1597040senses1/7 include rising to one's feet and rising smoke/waves; actual上がるподниматься can fit. Actual baseline立つ source/body unchanged, and secondary scope is not new N5 teaching.",
+   "right": "立つ",
+   "rightActualCaption": "стоять; вставать",
+   "status": "Proposed correction; original whole review requested this direct protection, actual implementation/focused recheck PENDING"
+  },
+  {
+   "left": "登る",
+   "leftActualCaption": "взбираться; подниматься",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "The same full standing/rising entry independently supports actual登るподниматься in getting-up/rising contexts. Not a transitive inference through上がる.",
+   "right": "立つ",
+   "rightActualCaption": "стоять; вставать",
+   "status": "Proposed correction; original whole review requested this direct protection, actual implementation/focused recheck PENDING"
+  },
+  {
+   "left": "差す",
+   "leftActualCaption": "держать раскрытый зонт",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1291330sense12 explicitly transitive adding liquid; actual unchanged付ける title containsдобавлять, with1495770sense1. Direct liquid-addition context, not inferred through入れる or generic attachment.",
+   "right": "付ける",
+   "rightActualCaption": "прикреплять; добавлять",
+   "status": "Proposed correction; original whole review requested this direct protection, actual implementation/focused recheck PENDING"
+  },
+  {
+   "left": "着く",
+   "leftActualCaption": "прибывать; добираться",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1465590sense1 canonicalはいる explicitly recordsarrival alongsideentry; actual new着くприбывать;добираться can fit. This uses a real dictionaryarrival sense, not inferredarrive-then-enter sequence.",
+   "right": "入る",
+   "rightActualCaption": "входить; находиться внутри",
+   "status": "Proposed correction; original whole review requested this direct protection, actual implementation/focused recheck PENDING"
+  },
+  {
+   "left": "乗る",
+   "leftActualCaption": "садиться в транспорт; ехать на нём",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1355120sense9 sticking/attachment, commonly with a manner adverb such asよく乗る, can fit actual付くприкрепляться;прилипать under1495740sense1. Explicitly manner/attachment-qualified, not a boarding inference.",
+   "right": "付く",
+   "rightActualCaption": "прикрепляться; прилипать",
+   "status": "Proposed correction; original whole review requested this direct protection, actual implementation/focused recheck PENDING"
+  },
+  {
+   "left": "降りる",
+   "leftActualCaption": "выходить из транспорта; спускаться",
+   "ordinaryModernNecessityFrequency": "No quantitative claim; displayed-caption protection",
+   "proposedBoundary": "direct taught/source context",
+   "rationale": "Actual unchanged出かける caption includes unqualifiedвыходить, valid for actual new降りるvehicle-exit caption.1589500sense2 disembarkation and1598550sense1outings remain distinct; the old full-body outing restriction is not shown in that short caption.",
+   "right": "出かける",
+   "rightActualCaption": "выходить; отправляться",
+   "status": "Proposed correction; original whole review requested this direct protection, actual implementation/focused recheck PENDING"
+  }
+ ],
+ "recordedAt": "2026-11-06T07:32:38.542263+00:00",
+ "requiredAdditionalDirectProposals": [
+  {
+   "left": "差す",
+   "leftActualCaption": "держать раскрытый зонт",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1291330sense4 explicitly water-level rising is intransitive; actual上がるподниматься can fit. This is independent of umbrella差す–上げる and登る–上がる, not a transitive clique.",
+   "right": "上がる",
+   "rightActualCaption": "подниматься; повышаться",
+   "status": "Proposed correction; original whole review requested this direct protection, actual implementation/focused recheck PENDING"
+  },
+  {
+   "left": "差す",
+   "leftActualCaption": "держать раскрытый зонт",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "The same separately recorded intransitive water-level rising can take actual登るподниматься. Not every physicalclimb is water-rise; independent actual-caption/context protection.",
+   "right": "登る",
+   "rightActualCaption": "взбираться; подниматься",
+   "status": "Proposed correction; original whole review requested this direct protection, actual implementation/focused recheck PENDING"
+  },
+  {
+   "left": "上がる",
+   "leftActualCaption": "подниматься; повышаться",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1352320senses20/21 explicitly mark intransitive tide/market-price rising; actual上がるподниматься;повышаться can fit. Do not assume the primary transitive上げる lesson rules out those separate qualified senses.",
+   "right": "上げる",
+   "rightActualCaption": "поднимать; давать",
+   "status": "Proposed correction; original whole review requested this direct protection, actual implementation/focused recheck PENDING"
+  },
+  {
+   "left": "登る",
+   "leftActualCaption": "взбираться; подниматься",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "The same independently recorded intransitive rising can take actual登るподниматься. Not an inference through上がる or generic activeподнимать equivalence.",
+   "right": "上げる",
+   "rightActualCaption": "поднимать; давать",
+   "status": "Proposed correction; original whole review requested this direct protection, actual implementation/focused recheck PENDING"
+  },
+  {
+   "left": "上がる",
+   "leftActualCaption": "подниматься; повышаться",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1597040senses1/7 include rising to one's feet and rising smoke/waves; actual上がるподниматься can fit. Actual baseline立つ source/body unchanged, and secondary scope is not new N5 teaching.",
+   "right": "立つ",
+   "rightActualCaption": "стоять; вставать",
+   "status": "Proposed correction; original whole review requested this direct protection, actual implementation/focused recheck PENDING"
+  },
+  {
+   "left": "登る",
+   "leftActualCaption": "взбираться; подниматься",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "The same full standing/rising entry independently supports actual登るподниматься in getting-up/rising contexts. Not a transitive inference through上がる.",
+   "right": "立つ",
+   "rightActualCaption": "стоять; вставать",
+   "status": "Proposed correction; original whole review requested this direct protection, actual implementation/focused recheck PENDING"
+  },
+  {
+   "left": "差す",
+   "leftActualCaption": "держать раскрытый зонт",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1291330sense12 explicitly transitive adding liquid; actual unchanged付ける title containsдобавлять, with1495770sense1. Direct liquid-addition context, not inferred through入れる or generic attachment.",
+   "right": "付ける",
+   "rightActualCaption": "прикреплять; добавлять",
+   "status": "Proposed correction; original whole review requested this direct protection, actual implementation/focused recheck PENDING"
+  },
+  {
+   "left": "着く",
+   "leftActualCaption": "прибывать; добираться",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1465590sense1 canonicalはいる explicitly recordsarrival alongsideentry; actual new着くприбывать;добираться can fit. This uses a real dictionaryarrival sense, not inferredarrive-then-enter sequence.",
+   "right": "入る",
+   "rightActualCaption": "входить; находиться внутри",
+   "status": "Proposed correction; original whole review requested this direct protection, actual implementation/focused recheck PENDING"
+  },
+  {
+   "left": "乗る",
+   "leftActualCaption": "садиться в транспорт; ехать на нём",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+   "proposedBoundary": "conservative dictionary/context protection",
+   "rationale": "Official1355120sense9 sticking/attachment, commonly with a manner adverb such asよく乗る, can fit actual付くприкрепляться;прилипать under1495740sense1. Explicitly manner/attachment-qualified, not a boarding inference.",
+   "right": "付く",
+   "rightActualCaption": "прикрепляться; прилипать",
+   "status": "Proposed correction; original whole review requested this direct protection, actual implementation/focused recheck PENDING"
+  },
+  {
+   "left": "降りる",
+   "leftActualCaption": "выходить из транспорта; спускаться",
+   "ordinaryModernNecessityFrequency": "No quantitative claim; displayed-caption protection",
+   "proposedBoundary": "direct taught/source context",
+   "rationale": "Actual unchanged出かける caption includes unqualifiedвыходить, valid for actual new降りるvehicle-exit caption.1589500sense2 disembarkation and1598550sense1outings remain distinct; the old full-body outing restriction is not shown in that short caption.",
+   "right": "出かける",
+   "rightActualCaption": "выходить; отправляться",
+   "status": "Proposed correction; original whole review requested this direct protection, actual implementation/focused recheck PENDING"
+  }
+ ],
+ "residualUnverifiedHypotheses": [
+  [
+   "差す",
+   "輝く"
+  ],
+  [
+   "国",
+   "外国"
+  ]
+ ],
+ "reviewStatus": "PENDING focused assessment; original whole C1/C3 pass remains historical, C2 not relabelled",
+ "schemaVersion": 1,
+ "withdrawnOriginalProposals": [
+  {
+   "disposition": "WITHDRAW; no claim of universal impossibility, no unsupported semantic acceptance",
+   "originalProposal": {
+    "left": "町",
+    "leftActualCaption": "городок; район",
+    "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+    "proposedBoundary": "conservative dictionary/context protection",
+    "rationale": "Official1603990sense1 neighborhood and the actual nearby-vicinity captionокрестности can overlap in a residential-area context. Submitted only as limited coarse-area protection, not a claim that every town is nearby.",
+    "right": "近く",
+    "rightActualCaption": "поблизости; окрестности",
+    "status": "PROPOSED; actual independent assessment pending"
+   },
+   "originalProposalIndex": 27,
+   "pair": [
+    "町",
+    "近く"
+   ],
+   "reason": "Residentialneighborhood versusnearbyvicinity not independently enough to establish actual whole-caption fit."
+  },
+  {
+   "disposition": "WITHDRAW; no claim of universal impossibility, no unsupported semantic acceptance",
+   "originalProposal": {
+    "left": "差す",
+    "leftActualCaption": "держать раскрытый зонт",
+    "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+    "proposedBoundary": "conservative dictionary/context protection",
+    "rationale": "Official1291330sense1shining-in and actual光るсветиться;блестеть overlap only in the bounded visible-light/shining context. Light coming through a window is not every reflective glitter or a universal collocation.",
+    "right": "光る",
+    "rightActualCaption": "светиться; блестеть",
+    "status": "PROPOSED; actual independent assessment pending"
+   },
+   "originalProposalIndex": 41,
+   "pair": [
+    "差す",
+    "光る"
+   ],
+   "reason": "Sunlightshiningin versusactualсветиться;блестеть is not proved by sharedEnglishshine."
+  },
+  {
+   "disposition": "WITHDRAW; no claim of universal impossibility, no unsupported semantic acceptance",
+   "originalProposal": {
+    "left": "差す",
+    "leftActualCaption": "держать раскрытый зонт",
+    "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+    "proposedBoundary": "conservative dictionary/context protection",
+    "rationale": "Official1291330sense16 is aます-stem suffix for stopping mid-action/leaving unfinished. Actual止まるостанавливаться can fit the bounded interruption of continuing action; do not teach standaloneumbrella差す as genericstop.",
+    "right": "止まる",
+    "rightActualCaption": "останавливаться",
+    "status": "PROPOSED; actual independent assessment pending"
+   },
+   "originalProposalIndex": 45,
+   "pair": [
+    "差す",
+    "止まる"
+   ],
+   "reason": "Aます-stem suffix for stoppingmid-action doesnot by itself prove standaloneостанавливаться."
+  },
+  {
+   "disposition": "WITHDRAW; no claim of universal impossibility, no unsupported semantic acceptance",
+   "originalProposal": {
+    "left": "掛かる",
+    "leftActualCaption": "занимать время; стоить",
+    "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+    "proposedBoundary": "conservative dictionary/context protection",
+    "rationale": "Official1207590sense10be-fastened can fit actual付くприкрепляться in the fixed/attached context. Not every hanging state adhesiveприлепание or every fastening action.",
+    "right": "付く",
+    "rightActualCaption": "прикрепляться; прилипать",
+    "status": "PROPOSED; actual independent assessment pending"
+   },
+   "originalProposalIndex": 50,
+   "pair": [
+    "掛かる",
+    "付く"
+   ],
+   "reason": "Official1207590sense10 cross-reference鍵がかかる,2089720, meansbecomelocked, not actualattachment/adhesion caption."
+  }
+ ]
+}
