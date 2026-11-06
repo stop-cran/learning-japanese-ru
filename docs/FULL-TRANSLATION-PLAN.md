@@ -1,6 +1,43 @@
 # Full Russian translation: execution after the two pilots
 
-## Current source milestone: batch042 travel, movement and places
+## Current source milestone: batch043 food, tableware and objects
+
+Batch043 adds **16 complete N5 word lessons** against unchanged frozen
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+[Actual review](translation-batches/043-food-tableware-objects-independent-review.json)
+and [reviewed source](translation-batches/043-food-tableware-objects-reviewed-source.json)
+preserve the genuine whole **40 complete EN/RU pairs /47 complete official
+entries /815 actual captions** review: C1/C3 CLEAN, C2 CHANGES REQUIRED.
+A sequential focused **two-pair/two-entry** recheck resolves the direct
+ちゃわん–カップ ambiguity and supports two new method lines. Those readings
+are subsets of40/47, not42/49. All16 bodies and815 captions are unchanged.
+
+The focused report's separate provenance finding is retained, not relabelled:
+its stale premise is adjudicated against the subsequently persisted actual
+public tool-result event. The preserved12253-byte UTF-8 report has the recorded
+SHA256; this proves public returned-text bytes, not network-wire bytes.
+[Exact provenance adjudication](translation-batches/043-food-tableware-objects-provenance-adjudication-001.json)
+records the evidence and requester correction without another linguistic review.
+**Seven direct protections = four taught/caption decisions +three limited
+dictionary/context safeguards**; stronger modern necessity/frequency of the
+three remains UNVERIFIED/unasserted. No transitive vessel or food cliques.
+
+Membership: **1127 runtime objects /815 words**, including **614/672 N5 words;
+58 remain**; other word levels:63 N4/65 N3/19 N2/54 unlabelled.
+Fresh strict accounting: **1127 reviewed-current, two excluded reviewed
+runtime-blocked media drafts,7149 pending of8278;7151 runtime paths absent**,
+no partial. Version `5bd14414dcad4e99`; checkpoint authority null/Ready false.
+Signed integration, actual public archives and exact-main CI have separate evidence.
+All1111 baseline RAWs/tracking rows and historical receipts remain unchanged.
+
+No new assets or app/ordinary EN/device/media/default-activation/release approval.
+Canonical `dining`/`object`/`utensil` mapping gaps are observed only at immutable
+app `5c000bd`; live concurrent app status remains UNVERIFIED.
+Excluded033 空 remains pending/C2 UNVERIFIED, separate from the two media drafts.
+Later genuine native findings may require affected-batch correction and review;
+continue044 and every independent safe frozen level/family.
+
+## Prior source milestone: batch042 travel, movement and places
 
 Batch042 adds **18 complete word lessons: 16 N5 roots and two required N4
 providers** against unchanged frozen `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.

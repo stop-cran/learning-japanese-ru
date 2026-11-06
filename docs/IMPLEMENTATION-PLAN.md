@@ -8,6 +8,36 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The forty-third full-target batch adds **16 complete N5 food/tableware/object
+lessons** against the unchanged frozen source.
+[Reviewed source043](translation-batches/043-food-tableware-objects-reviewed-source.json)
+and [actual independent evidence](translation-batches/043-food-tableware-objects-independent-review.json)
+preserve whole40-pair/47-entry/815-caption C1/C3 CLEAN, C2 CHANGES REQUIRED.
+The focused two-pair/two-entry recheck resolves direct ちゃわん–カップ and
+supports two method lines; unique evidence remains40/47, not42/49.
+All16 learner bodies/815 captions and1111 baseline RAWs/tracking rows are preserved.
+The focused provenance-only finding remains verbatim; its stale requester premise
+is adjudicated with the actual persisted public report event,12253 UTF-8 bytes
+and exact hash—not claimed network-wire bytes or a new linguistic review.
+[Provenance evidence](translation-batches/043-food-tableware-objects-provenance-adjudication-001.json)
+also distinguishes delayed journal persistence from the earlier failed capture.
+**Seven protections = four direct taught/caption +three limited decisions**;
+stronger modern necessity/frequency of the three remains UNVERIFIED/unasserted.
+
+Membership: **1127 runtime objects /815 words**,
+614 N5/63 N4/65 N3/19 N2/54 unlabelled; **58 of672 N5 words remain**.
+Strict progress: **1127 reviewed-current, two excluded reviewed runtime-blocked
+media drafts,7149 pending,7151 absent runtime paths**, no partial.
+Version `5bd14414dcad4e99`; checkpoint authority null/Ready false.
+Actual candidate/corrected checks passed; final validation/integration/public
+archives/exact-main CI have separate evidence. No new assets or app/ordinary
+EN/device/media/default-activation/release approval. Canonical dining/object/utensil
+mapping gaps are bounded to immutable app5c000bd, live app UNVERIFIED.
+Later genuine native findings may require affected-batch correction/review;
+continue044 and every safe remaining frozen level/family.
+
+Batch042 and earlier milestones below are historical.
+
 The forty-second full-target batch adds **18 complete travel/movement/place
 lessons:16 N5 roots and two required N4 providers**.
 [Reviewed source042](translation-batches/042-travel-movement-places-reviewed-source.json)

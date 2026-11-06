@@ -1,0 +1,33 @@
+{
+ "actualPublicEventWitness": {
+  "agentId": "e4fa7aa2-da01-412c-8f6d-ce8ee6fecdfc",
+  "contentDomain": "data.result.content UTF8 encoded text, NOT network-wire transport",
+  "equalsPreservedWholeReportText": true,
+  "id": "13696b7f-9060-4571-b0b6-090b6c91523d",
+  "privateEventCapture": "ru-043-whole-review-actual-events-001.json",
+  "privateEventCaptureRawSha256": "84209c66e597064751668883e364e2f278ac2e546624046c291861ab2d42abd1",
+  "sha256": "c500f434d3e1c937231659b316a6cb6cc4d6e196bba19452a6802fb4c87c18a0",
+  "timestamp": "2026-11-06T08:21:33.255Z",
+  "type": "tool.execution_complete",
+  "utf8Bytes": 12253
+ },
+ "adjudication": "Stale requester premise contradicted by actual subsequentlypersisted public result; no missingoriginalnativeUTF8text evidence",
+ "batchId": "043-food-tableware-objects",
+ "checkpointAuthority": null,
+ "findingPreserved": "C2CHANGESREQUIRED provenanceonly; not retrospectivelyrelabeled",
+ "findingReport": "docs/translation-batches/043-food-tableware-objects-independent-review-002.json",
+ "historicalFieldQualification": "nativeTransportByteHashVerified:true verifies statedpublicreturnedUTF8content domain ONLY; not HTTP/networkwire bytes, rawmodel internals, ornative-device testing.",
+ "manualTranscriptDomain": {
+  "differenceFromActualPublicNativeText": "Exactly oneadditionalfinalLF. Not byteidentical andnot nativehash domain.",
+  "normalizedLfBytes": 12254,
+  "normalizedLfSha256": "ceb20675489ca335a099a8590c2275ec6053f925f87d610a3baf5494970ca75d",
+  "requesterCorrection": "Focusedprompt wronglyassigned native12253bytehash to manualtranscript. ActualLFtranscript12254bytes/ceb20675489ca335a099a8590c2275ec6053f925f87d610a3baf5494970ca75d; publicnative12253bytes/c500f434d3e1c937231659b316a6cb6cc4d6e196bba19452a6802fb4c87c18a0.",
+  "workingRawSha256": "1710127d368b0561d3cba31cd5c3f0e7eb9cd998dcb607cac29e4a273c42ab69"
+ },
+ "requesterCorrection": "Focusedprompt wronglycarried earlier journalabsence forward after successfulcapture. Earlierfailedpreflight is not stateat successfulcapture.",
+ "runtimeCorrectionEvidence": "Actual focusedreport explicitlyresolves originallearnerfinding and accepts implementation/newguidance; all16bodies/815captions unchanged",
+ "schemaVersion": 1,
+ "scope": "Mechanicalwitness/hash/equality verification by author, not thirdlinguisticreview orselfapprovalof learnersemantics",
+ "status": "Provenance finding factuallyadjudicated byactualeventcounterevidence; no unsupportedwire claimadopted",
+ "unverifiedAcceptedRuntimeClaims": []
+}

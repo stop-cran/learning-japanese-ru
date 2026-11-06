@@ -1,0 +1,67 @@
+{
+ "actualEventsPrivateArtifact": "ru-043-focused-review-actual-events-001.json",
+ "actualEventsRawSha256": "6f66f9063019137fd6e39afb2b7af95724cb3a57473f3a685dd03ebb69c22d08",
+ "actualFocusedScope": {
+  "compactCaptions": 2,
+  "completeOfficialEntryIds": [
+   "1037670",
+   "1597530"
+  ],
+  "completePairs": 2,
+  "completePriorReports": 1,
+  "newMethodLines": 2
+ },
+ "actualLearnerContentDisposition": "Original missingdirectpair resolved; implementation andnewguidance CLEAN, no newlearner-contentdefect",
+ "actualNativeContentDomain": "tool.execution_complete.result.content",
+ "actualNativeEventId": "b26cbed8-400c-4583-be7f-aed749793c9a",
+ "actualObservedSuccessfulReaderIndices": {
+  "captions": [
+   0,
+   1
+  ],
+  "checks": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "delta": [
+   0
+  ],
+  "method": [
+   0
+  ],
+  "objects": [
+   0,
+   1
+  ],
+  "pairs": [
+   0,
+   1
+  ],
+  "whole": [
+   0
+  ]
+ },
+ "actualOriginalContentFindingResolved": [
+  [
+   "ちゃわん",
+   "カップ"
+  ]
+ ],
+ "actualReturnedReportText": "# Russian043 focused independent recheck\n\nSnapshot: R HEAD `ee8f0726323dd5deaac1cff1b4452e401d7d76c2`, branch `full-ru-043-food-tableware-objects`; frozen S HEAD `6af98cb717755690a9ca793e5454a96ebd7a8f9f`, both verified. Compared against `6f5058986dcc341b79e80798d894e5aeebf19054`; corrective freeze `122ba894e416040758605963b52d8d63e8012ec9` names that predecessor. No uncommitted changes included; pre-existing `tools\\__pycache__` ignored.\n\n## Actual scope\n\nOne reviewer; read active RU instructions, all three actual C1/C2/C3 rubrics, scoped structure guidance, relevant format/methodology documents and frozen exclusion contract.\n\nSuccessful bounded helper returns:\n- `pairs[0:2]`: TWO COMPLETE EN/RU pairs: `words\\ちゃわん.md` EN1–31/RU1–38; `words\\カップ.md` EN1–32/RU1–39.\n- `objects[0:2]`: TWO COMPLETE official entries **1037670,1597530**, including sense1.\n- `captions[0:2]`: actual **«миска для риса» / «чашка»**.\n- `whole[0:1]`, `method[0:1]` (lines287–290), `delta[0:1]`, `checks[0:4]`.\n\nAlso read corrective adjudication/freeze, corrected bindings/all seven proposals, committed delta paths and report-capture metadata. These two pairs/entries are subsets of the original40/47, NOT42/49 unique readings. No fresh815-caption/body review is claimed.\n\n## Verdicts\n\n- **C1 Japanese correctness: CLEAN** within the focused correction.\n- **C2 consistency: CHANGES REQUIRED — provenance record only.** The original learner-content finding is **resolved**; its implementation and new guidance are CLEAN.\n- **C3 Russian comprehensibility: CLEAN** within the two complete pairs.\n\n## Resolution\n\n`words\\ちゃわん.md:9` now declares `quiz_exclusions: [カップ]`. Under frozen `docs\\content-format.md:162–169`, one declaration protects the direct pair symmetrically; no transitive inference through コップ is needed.\n\nJMdict1597530s1 explicitly includes tea cup/teacup;1037670s1 supports cup. Russianちゃわん:16,34 retains tea-vessel use, so unqualified **«чашка»** remains defensible despite the primary rice-bowl caption. The direct protection fixes the established ambiguity without changing truthful teaching. New instruction lines289–290 accurately capture this mechanism;287–288 are unchanged. No new learner-content defect established; confidence high.\n\nThe committed delta preserves existing six guards and learner bodies/captions. Final boundary remains **4 direct +3 limited**. Previous qualifications for コップ–警官, コップ–おまわりさん and 飴–砂糖 remain: ordinary-modern necessity/frequency **UNVERIFIED**, no slang-entry merging or candy=sucrose equivalence. Those six adjudications were read, not independently re-performed here.\n\n## New finding: unsupported native-transport verification\n\n**Moderate; C2 evidence consistency; unresolved; high confidence.**\n\n`docs\\translation-batches\\043-food-tableware-objects-independent-review-001.json:933–934` asserts `nativeTransportByteHashVerified: true` and native-content capture; lines4–5 assign a native content domain/event. The corrective-source-adjudication record repeats the native-capture claim at line21.\n\nThese assertions conflict with the disclosed capture boundary: the final report was genuinely returned/read, but its final message/taskresult is absent from the root journal. The preserved text is an **author-saved UTF-8/LF transcript**, not verified original native transport bytes. Existing successful reading outputs do not establish that transport hash.\n\n**Remedy:** explicitly correct those provenance assertions/unsupported attribution, identify the transcript domain and mark native-transport verification unavailable. Preserve the actual report and its original **C2 CHANGES REQUIRED**, plus transcript SHA256 `c500f434d3e1c937231659b316a6cb6cc4d6e196bba19452a6802fb4c87c18a0`. This finding does not deny the genuine original40-pair/47-entry/815-caption review.\n\n## Receipts and limits\n\nRead existing serialized author receipts: manifest1127/version`5bd14414dcad4e99`; validator0errors;124testsOK; budget exit0. No commands were rerun. Dossier records815words/1111unchanged baseline RAWs; no fresh whole-baseline audit claimed.\n\nNo edits, file creation, tests, validators, builds, agents, messages or concurrent app/ordinary EN checkout access. No activation/media/native/phone/default-release authority or corpus-completion claim. Historical native passes are not revoked; C6/C7 do not block authorized source authoring. Optional: none. CLEAN means only no established correctable defect in the stated scope.\n<shellId: 8479 completed with exit code 0>",
+ "additionalProvenanceFinding": "Claimed unsupported native-transport verification; adjudicate against actual saved public event, not stale requester premise",
+ "candidateCommit": "ee8f0726323dd5deaac1cff1b4452e401d7d76c2",
+ "facetsAsOriginallyReturned": {
+  "C1": "CLEAN",
+  "C2": "CHANGES REQUIRED — provenance record only",
+  "C3": "CLEAN"
+ },
+ "limits": "Actual focused2pairs/2entries subsetofwhole40/47, not42/49. Actual C2provenance finding retained, not relabelled; runtimefix independentlysupported. No native/device/media/defaultactivation/release approval.",
+ "returnedReportTextUtf8Bytes": 4628,
+ "returnedReportTextUtf8Sha256": "b81cb1eb0ed06f557327a2da3f7e6ca7bb89f43c23da4c60da653478293655ef",
+ "reviewerAgentId": "c5109f04-b6db-485e-9941-7d3d59d1997c",
+ "reviewerName": "ru043-focused-teacup-recheck",
+ "reviewerResumable": false,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f"
+}
