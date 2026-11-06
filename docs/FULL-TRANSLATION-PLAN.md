@@ -1,6 +1,35 @@
 # Full Russian translation: execution after the two pilots
 
-## Current source milestone: batch047 safe N5 text closure
+## Current source milestone: batch048 study, reference and school
+
+Batch048 adds **16 complete N4 lessons /800 Russian lines** against unchanged
+frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The [actual independent report](translation-batches/048-study-reference-and-school-independent-review-001.json)
+read16 primary and28 contextual complete EN/RU pairs plus two source-only
+comparisons (**90 teaching bodies**),88 complete official entries and all888
+actual candidate metadata rows. C1/C3 are CLEAN within the new lessons.
+Original **C2 NEEDS REVISION** remains immutable: Q6教育–練習,
+Q16大学生–留学生 and Q19校長–先生 lacked direct caption evidence.
+The [exact metadata-only repair](translation-batches/048-study-reference-and-school-finding-resolution-001.json)
+withdraws those three proposals and preserves all16 teaching bodies by identity.
+**29 individually qualified direct protections** remain; broader whole-pool
+uniqueness and ordinary modern necessity/frequency stay **UNVERIFIED**.
+No second review or fresh full-baseline body reread is invented.
+辞典/辞書/字引 share exact caption `словарь`, with deduplication verified.
+
+Membership: **1200 runtime objects /888 words**, including671 N5/79 N4/
+65 N3/19 N2/54 unlabelled. Only protected excluded033空 remains from N5.
+Strict accounting: **1200 reviewed-current, two excluded reviewed runtime-
+blocked media drafts,7076 pending of8278;7078 runtime paths absent**, no partial.
+Version `070e2559a59b4564`; checkpoint authority null/Ready false.
+All1184 baseline RAWs/tracking rows and historical reports are preserved.
+Final checks, signed integration, actual public archives and exact-main CI
+have separate evidence. No new asset/app/device/IME/media/default/release approval.
+Source-only探す/音 and six exploratory disciplinary/translation roots were
+not forced into048. Continue every remaining safe frozen level/family;
+空 stays separately pending/C2 UNVERIFIED, not a third media draft.
+
+## Prior source milestone: batch047 safe N5 text closure
 
 Batch047 adds **12 complete N5 lessons** against the unchanged frozen EN
 `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.

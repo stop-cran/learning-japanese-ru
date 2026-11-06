@@ -11,6 +11,33 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The forty-eighth full-target batch adds **16 complete N4 study/reference/school
+lessons /800 Russian lines** against the unchanged frozen source.
+The [actual independent report](translation-batches/048-study-reference-and-school-independent-review-001.json)
+read16 primary/28 contextual complete EN/RU pairs and two source-only
+comparisons (**90 bodies**),88 complete entries and all888 actual metadata rows.
+C1/C3 are CLEAN within the16 lessons; original **C2 NEEDS REVISION** is immutable.
+R048-N1/N2/N3 identify unsupported教育–練習,大学生–留学生 and校長–先生.
+The [exact metadata repair](translation-batches/048-study-reference-and-school-finding-resolution-001.json)
+withdraws those three proposals; all16 teaching bodies are identity-preserved.
+**29 individually qualified safeguards** remain, not a second review or a
+fresh full-baseline reading. Broader whole-pool uniqueness and ordinary modern
+necessity/frequency remain **UNVERIFIED**. Dictionary exact-caption dedup
+is verified; source-only/exploratory comparisons create no forced providers.
+
+Membership: **1200 runtime objects /888 words**,
+671 N5/79 N4/65 N3/19 N2/54 unlabelled; protected空 is the only remaining N5 word.
+Strict progress: **1200 reviewed-current, two excluded reviewed runtime-blocked
+media drafts,7076 pending,7078 absent runtime paths**, no partial.
+Version `070e2559a59b4564`; checkpoint authority null/Ready false.
+All1184 baseline RAWs/tracking rows and historical evidence are preserved.
+Final serialized checks, signed integration/public archives/exact-main CI
+have separate evidence. Protected excluded033空 remains pending/C2 UNVERIFIED,
+separate from the two media drafts. No new asset/app/device/phone/IME/media/
+default-activation/release approval. Continue all safe frozen levels/families.
+
+Batch047 and earlier milestones below are historical.
+
 The forty-seventh full-target batch adds **12 complete safe N5 lessons**.
 The [actual independent report](translation-batches/047-n5-safe-text-closure-independent-review-001.json)
 read12 primary/25 contextual complete EN/RU pairs (**74 bodies**),
