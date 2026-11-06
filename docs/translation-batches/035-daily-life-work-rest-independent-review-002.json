@@ -1,0 +1,58 @@
+{
+ "actualEventsPrivateArtifact": "ru-035-focused-recheck-actual-events-002.json",
+ "actualEventsRawSha256": "c14d37cc3924927a0af1fedb355a33cc5d61ef78407305c0362b16c7849cef64",
+ "actualNativeContentDomain": "actual successful task result.content string",
+ "actualNativeEventId": "95789cc5-54e7-4dad-bd80-5efdc4eb1ed8",
+ "actualNativeReturnText": "## 035 F1 focused recheck\n\n**Snapshot:** signed RU HEAD `133e5042bbaa2cf6e55fd478a3c6a1a4eb11909a`, branch `full-ru-035-daily-life-work-rest`; tracked-clean. Content version `b4d1c08e122a2bbb`. Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`. No uncommitted changes included.\n\n**Actual reading:** both complete bilingual pairs, 家庭 and 門; all three complete author-recaptured lexical objects, 戸／と, 門／もん and 門／かど; all four added instruction lines and neighboring written-question rules; scoped content instructions and all three reviewer rubrics. Read the preserved earlier native report—not its underlying whole-review corpus anew.\n\n### Verdicts within this correction scope\n\n- **C1 truth/evidence: CLEAN.** The exact-written `門-2` object explicitly supplies 門（かど）, noun sense 2 “house; family,” without spelling restrictions. This directly supports the overlap with 家庭’s actual Russian caption «семья». No frequency claim or reassignment of the primary reading follows.\n- **C2 direct safeguard/closure/regressions: CLEAN.** `words\\家庭.md:9` now contains `[家, 家族, 内, 門]`. This creates the required direct symmetric pair under the documented exclusion contract; it does not depend on transitivity through 家/家族. 門 already exists in the actual pool: no new provider or recursive acquisition is needed. Existing exclusions remain intact.\n- **C3 Russian text/guidance: CLEAN.** Learner-facing captions and bodies remain unchanged. `.github\\copilot-instructions.md:214–217` accurately records the independent family-sense evidence and bare-written-question boundary without extending it into a general semantic clique.\n\n**F1: resolved; confidence HIGH.** Evidence: the complete captured objects from  \nhttps://jisho.org/api/v1/search/words?keyword=%E9%96%80%20%23words  \nThe separate 戸 object’s door sense is explicitly restricted to 戸 despite listing 門／と. It is not the family-sense evidence. This author recapture is not claimed byte-identical to the earlier reviewer’s live lookup.\n\n**New findings:** None. **Optional:** None.\n\n**Limits:** Helper verification mechanically confirmed 977 runtime RAWs and 665 compact metadata rows: only 家庭’s exclusion list changed; 976 other runtime RAWs, all captions, full bodies and source fields remain unchanged. This establishes preservation, not semantic proof. Earlier whole-review C1/C3 conclusions and the other 15 guard decisions are carryforward only. I did not freshly read all 27 pairs or 665 full bodies.\n\nNo edits, saved files, tests, builds, delegation, external AI or media generation. The parent’s reported 124-test validation is not my execution claim. Excluded sky remains protected, non-runtime and **C2 UNVERIFIED**. This recheck is neither whole-corpus acceptance nor native-speaker/device/media certification; activation, release and checkpoint authority remain separate.",
+ "actualNativeReturnUtf8Bytes": 2942,
+ "actualNativeReturnUtf8Sha256": "d93b562b1bafd78224f82f406b8b8e52fde808ef688f9c35d967f272151a92b3",
+ "actualObservedFourLineGuidanceDiff": true,
+ "actualObservedSuccessfulReaderIndices": {
+  "lexical": [
+   0,
+   1,
+   2
+  ],
+  "pairs": [
+   0,
+   1
+  ]
+ },
+ "batchId": "035-daily-life-work-rest",
+ "candidateCommit": "133e5042bbaa2cf6e55fd478a3c6a1a4eb11909a",
+ "checkpointAuthority": null,
+ "facets": {
+  "C1": "CLEAN",
+  "C2": "CLEAN",
+  "C3": "CLEAN"
+ },
+ "findingDisposition": {
+  "confidence": "HIGH",
+  "evidence": "Exact-written門かど nounhouse/family and actualсемья; not transitivity.",
+  "id": "F1",
+  "pair": [
+   "家庭",
+   "門"
+  ],
+  "status": "resolved"
+ },
+ "journalReadBound": "Only last4194304bytes; no OS-temp or fulljournal read.",
+ "lifecycle": "Whole reviewer was sync; write_agent explicitly rejected same-context followup because only background agents are messageable. One fresh narrower F1recheck, serialized after idlewhole reviewer, nofleet/workerpool.",
+ "limits": [
+  "Only14complete newruntime source lessons accepted, not wholecorpus/native/device/media/release/checkpoint authority.",
+  "Actual whole27pairs=14primary+13supporting;665compactrowsNOT665fullbodies;34selectedobjectsNOTallresponses;4selectedrangesNOTwholepages.",
+  "Actual focused2fullpairs/3selectedobjects/4guidancelines resolveF1. Other C1/C3/15guard decisions carry from unchanged whole-review bodies/captions/976otherRAWs, not a secondwhole review.",
+  "Both complete native reports and actual successful reading events recovered from bounded journal. Whole6796bytes/focused2942bytes; no OS-temp or invented approval.",
+  "Whole reviewer was sync and write_agent followup was explicitly rejected by tool; one fresh narrower consequential-fix recheck, no simultaneous reviewers/fleet/workerpool.",
+  "All963baselineRAWs/tracking and full excludedunverifiedsky unchanged. Sky stays C2UNVERIFIED/outside035; not an additional accepted or blockedmedia draft.",
+  "No canonicaltag/media addition, currentapp/ordinaryEN edit, phone/IME/playback/newmedia/package/C6/C7/defaultactivation/release/checkpoint authority."
+ ],
+ "ordinaryActivationAuthorized": false,
+ "requestedReviewerTaskName": "ru035-f1-focused-readonly-recheck",
+ "requiredRuntimeFindingsRemaining": [],
+ "reviewerAgentId": "1c996424-b55f-4f64-ac17-5f887763b03f",
+ "reviewerName": "ru035-f1-focused-readonly-recheck",
+ "schemaVersion": 1,
+ "scopeBoundary": "Only two full pairs/three exact-written selected objects/four added guidance lines. 977RAW/665compact comparison is mechanical; other whole verdicts carry unchanged, not freshwholecorpus review.",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f"
+}

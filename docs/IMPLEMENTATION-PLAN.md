@@ -8,6 +8,34 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The thirty-fifth full-target batch adds **14 complete N5 daily-life/work/rest words**.
+[Reviewed source 035](translation-batches/035-daily-life-work-rest-reviewed-source.json)
+and its [independent review](translation-batches/035-daily-life-work-rest-independent-review.json)
+combine one actual whole review with one narrow consequential-fix recheck.
+The whole reviewer read 27 full EN/RU pairs, 665 compact captions, 34 complete
+selected lexical rows and four selected dictionary ranges, retaining all 15 proposals.
+Its C2 finding requires the direct 家庭–門 safeguard: exact-written 門（かど）
+has a family sense. The focused changed-snapshot recheck resolves that one addition
+after two full pairs, three complete selected objects and four new guidance lines.
+C1/C3 and the other 15 decisions carry forward because all bodies/captions and
+976 other runtime RAWs are unchanged; this is not a second whole review.
+
+All 963 baseline runtime RAWs/tracking rows and the full excluded C2-unverified 空
+remain unchanged. Membership is **977 runtime objects** — 141 kanji/665 words/
+141 strokes/2 articles/22 counter files/one grammar set/2 scene catalogs/3 images.
+Fresh strict progress: **977 reviewed-current, two excluded reviewed runtime-blocked
+media drafts, 7,299 pending, 7,301 absent runtime paths**, no partial.
+Word levels: 478 N5/54 N4/60 N3/19 N2/54 unlabelled; **194 of 672 N5 words remain**.
+Version `b4d1c08e122a2bbb`; checkpoint authority null/Ready false.
+Corrected candidate checks: validator 0 errors, 124 tests OK in 30.265s;
+budget 985 files/994 entries/2,769,242 retained/2,785,924 inflated/1,394,984 ZIP bytes.
+Final checks, main integration, archive and exact-main CI have separate receipts.
+No new assets or canonical tags, app/ordinary EN edits, phone/IME/playback/new
+audio-package/C6/C7/default activation/release/checkpoint authority.
+Continue every remaining safe frozen level/family.
+
+Batch 034 and earlier milestones below are historical.
+
 The thirty-fourth full-target batch adds **12 complete N5 hygiene/household words**.
 [Reviewed source 034](translation-batches/034-hygiene-household-reviewed-source.json)
 and its [independent review](translation-batches/034-hygiene-household-independent-review.json)

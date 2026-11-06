@@ -1463,3 +1463,49 @@ Concurrent dirty app and ordinary English checkouts remain untouched.
 No phone/JapaneseIME/playback/C6/C7/default activation/release/human-checkpoint
 approval follows. Continue the 208 remaining N5 words and every other safe
 frozen level/family; keep the full objective in progress.
+
+## Reviewed source milestone035: daily life, work and rest
+
+[Reviewed source035](translation-batches/035-daily-life-work-rest-reviewed-source.json)
+and [actual independent review](translation-batches/035-daily-life-work-rest-independent-review.json)
+adopt fourteen complete N5 words: 起きる, 寝る, 座る, 仕事, 働く, 勤める,
+休み, 夏休み, 住む, 家庭, 帰る, 一緒, 同じ, and required provider 返す.
+All fourteen full frozen source units, Japanese examples/readings/forms, qualifiers,
+canonical types/tags and attributions are preserved. In particular 仕事 retains
+the source's explicit app-specific on-first mixed-reading category and its
+nonhistorical reading-guide caveat, not an invented pure-on etymology.
+
+The whole reviewer actually read 27 complete bilingual pairs, 665 compact answer
+rows, 34 complete selected lexical objects and four selected dictionary ranges.
+Its complete 6,796-byte native report retains all fifteen proposals and finds
+one missing direct 家庭–門 safeguard: the exact-written 門（かど） noun has
+a family sense. Signed evidence/resolution freeze precedes that correction.
+The narrow changed-snapshot recheck reads two complete pairs, three complete
+selected objects and four coupled instruction lines; its complete 2,942-byte
+native report resolves F1 with bounded C1/C2/C3 CLEAN.
+The whole reviewer was synchronous and could not receive a follow-up message;
+only one fresh, narrower reviewer was used after it became idle, not a fleet.
+Other C1/C3 and fifteen-guard decisions carry forward because all bodies/captions
+and 976 other runtime RAWs are unchanged, not because a second whole review occurred.
+All sixteen safeguards are direct; no rest/leisure/season/family/transitive clique.
+All 28 local source links are enumerated: ten retained, eighteen absent optional
+wrappers removed without losing substantive teaching or supplied readings.
+
+All 963 baseline runtime RAWs/tracking rows and the full excluded C2-unverified
+空 draft remain unchanged. Membership is **977 runtime objects**:
+141 kanji/665 words/141 strokes/2 articles/22 counter files/one grammar set/
+2 scene catalogs/3 images. Word levels: 478 N5/54 N4/60 N3/19 N2/54 unlabelled;
+**478 of 672 frozen N5 words adopted, 194 remain**.
+Fresh strict 8,278-entry progress: **977 reviewed-current**, **no partial**,
+**two excluded reviewed runtime-blocked media drafts**, **7,299 pending**,
+**7,301 runtime paths absent**. Version `b4d1c08e122a2bbb`;
+checkpoint authority null/Ready false.
+Corrected candidate checks: validator 0 errors, 124 tests OK in 30.265s;
+budget 985 files/994 entries/2,769,242 retained/2,785,924 inflated/1,394,984 ZIP bytes.
+Final serialized checks, signed main integration, actual public archive and
+exact-main CI remain separately evidenced, not device acceptance.
+
+No new assets or canonical tags, app/ordinary EN edits, paid generation,
+new media-package authority, phone/IME/playback/C6/C7/default activation/release/
+human-checkpoint approval. Continue the 194 remaining N5 words and every other
+safe frozen level/family; the full finite objective remains in progress.
