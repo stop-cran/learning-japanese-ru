@@ -1,6 +1,41 @@
 # Full Russian translation: execution after the two pilots
 
-## Current source milestone: batch045 body, health and safety
+## Current source milestone: batch046 time, sequence and positions
+
+The owner's explicit 2026-11-06 restart instruction supersedes only the
+temporary pause recorded in046; the frozen source and all evidence/release
+protections are unchanged. Batch046 adds **16 complete N5 word lessons**.
+The [actual whole review](translation-batches/046-time-sequence-positions-independent-review-001.json)
+read62 assigned complete EN/RU pairs plus向こう,124 complete official entries,
+860 actual captions and all16 new lessons. Its original C1/C3 CLEAN and
+C2 NEEDS REVISION remain immutable. The
+[actual focused review](translation-batches/046-time-sequence-positions-independent-review-002.json)
+read nine complete pairs,11 complete entries and three localized RU rubrics;
+this is not a second whole review. Body identity carries the original16-body
+assessment forward, not fresh semantic reading of the whole pool.
+
+The missing先–向こう protection is resolved. Four unsupported stronger
+proposals are withdrawn, not retrospectively CLEAN. The historical bad-rubric-
+hash diagnosis is withdrawn: original hashes were correct for RU; the reader
+selected the EN root. The actual reader-domain bug is resolved without
+rewriting originals. **One preserved source pair plus54 individually qualified
+conservative protections** are adopted. The retained51 have original qualified
+support, not a fresh51-pair pass. New先–最近 and今–先 guards retain the rare
+standalone written先/さっき qualification. **Broader semantic quiz suitability
+and ordinary modern necessity/frequency remain UNVERIFIED**, not global CLEAN.
+
+Membership: **1172 runtime objects /860 words**, including **659/672 N5 words;
+13 remain**:12 other safe candidates and the separately protected空.
+Strict accounting: **1172 reviewed-current, two excluded reviewed runtime-
+blocked media drafts,7104 pending of8278;7106 runtime paths absent**, no partial.
+Version `982dcba7f94b15a8`; checkpoint authority null/Ready false.
+All1156 baseline RAWs/tracking rows and historical receipts remain unchanged.
+Final checks, signed integration, public archives and exact-main CI have
+separate evidence. No new app/media/device/default-activation/release approval.
+Excluded033空 remains pending/C2 UNVERIFIED, not a third media draft.
+Continue047 and all independent safe frozen levels/families after046 integration.
+
+## Prior source milestone: batch045 body, health and safety
 
 Batch045 adds **13 complete N5 word lessons** against unchanged frozen
 `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.

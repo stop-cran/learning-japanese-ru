@@ -8,6 +8,36 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
+046 pause, not the frozen target or evidence/release protections.
+The forty-sixth full-target batch adds **16 complete N5 time/sequence/position
+lessons**. The [actual whole report](translation-batches/046-time-sequence-positions-independent-review-001.json)
+preserves C1/C3 CLEAN and original C2 NEEDS REVISION after62 assigned pairs
+plus向こう,124 complete official entries and860 captions.
+The [focused report](translation-batches/046-time-sequence-positions-independent-review-002.json)
+reads nine pairs/11 entries/three localized RU rubrics, not a second whole
+review. Identity carries forward16 bodies, not fresh whole-pool semantics.
+046-R1 resolves先–向こう;046-R2 resolves by withdrawing four unsupported
+proposals;046-R3 withdraws the incorrect historical-hash diagnosis and resolves
+the actual EN/RU reader-domain bug. Original receipts/reports stay immutable.
+One source pair plus54 qualified conservative guards are adopted;51 retain
+original qualified support. New先–最近 and今–先 keep rare standalone先/さっき
+limits. **Broader quiz suitability and ordinary modern necessity/frequency
+remain UNVERIFIED**, not global CLEAN.
+
+Membership: **1172 runtime objects /860 words**,
+659 N5/63 N4/65 N3/19 N2/54 unlabelled; **13 of672 N5 words remain**.
+Strict progress: **1172 reviewed-current, two excluded reviewed runtime-blocked
+media drafts,7104 pending,7106 absent runtime paths**, no partial.
+Version `982dcba7f94b15a8`; checkpoint authority null/Ready false.
+All1156 baseline RAWs/tracking rows and historical receipts remain unchanged.
+Actual final checks/integration/public archives/exact-main CI have separate
+evidence. Excluded033空 remains pending/C2 UNVERIFIED, separate from media.
+No new assets/app/device/phone/IME/media/default-activation/release approval.
+Continue047 and every safe remaining frozen level/family after046 integration.
+
+Batch045 and earlier milestones below are historical.
+
 The forty-fifth full-target batch adds **13 complete N5 body/health/safety
 lessons** against the unchanged frozen source.
 [Reviewed source045](translation-batches/045-body-health-safety-reviewed-source.json)
