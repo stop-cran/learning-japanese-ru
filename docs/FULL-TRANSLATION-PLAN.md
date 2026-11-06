@@ -1348,3 +1348,65 @@ This is a pinned-source app follow-up, not inspection or modification of concurr
 dirty app work. Keep technical IDs stable; ordinary activation/release remains gated.
 Continue the remaining 238 N5 words and every safe frozen level/family,
 including honest excluded listening drafts; the entire objective remains in progress.
+
+## Reviewed source milestone 033: nature and outdoor activity
+
+The [source record](translation-batches/033-nature-outdoor-activity-reviewed-source.json)
+authors all 19 frozen N5 root texts completely and adopts **18 runtime words**.
+All 933 accepted baseline runtime RAWs and earlier tracking records are unchanged.
+The full unchanged [空 draft](translation-drafts/033-nature-outdoor-activity/words/空.md)
+is excluded, **not C2 accepted**: its two actual remote-place caption questions
+remain UNVERIFIED. Do not invent extra guards, silently drop its teaching, move
+the frozen target or stop safe independent lanes. Its intended runtime-relative
+links are preserved losslessly, not certified as standalone draft navigation.
+
+The [cumulative evidence](translation-batches/033-nature-outdoor-activity-independent-review.json)
+distinguishes actual reading from report delivery. The whole reviewer actually read
+19 primary and 20 supporting full EN/RU pairs, all 640 compact answer rows,
+41 selected complete lexical objects and five selected dictionary sections.
+Its 21.4 KB native final report was auto-spooled to a forbidden OS-temp location
+and was **not opened**. Visible C1/C3 CLEAN and C2 NEEDS FIX labels and observed
+successful reading are retained honestly; no original full-report hash or
+unread finding details are invented.
+
+The independently returned focused report retains the original 17 direct pairs,
+supports four additions — 走る–光る, 散歩–行く, 吹く–咲く/ぺらぺら —
+and rejects an automatic 吹く–話す edge. Mould formation and empty/exaggerated talk
+have actual source evidence, not merely a bud/flower analogy or shared vocal activity.
+Dahl supplies historical attestation, not a modern-frequency claim; no Russian
+rust assertion is approved. 空–遠く/遠い remain UNVERIFIED.
+Actual complete Warodai articles do not support a search-generated purported
+remote-place quote; their silence is not proof that the Japanese sense is impossible.
+
+After the separately signed resolution freeze, only three new metadata lists change.
+All 19 original learner bodies and 639 remaining captions/readings stay unchanged.
+The exact changed-snapshot reviewer returns no significant issues after actually
+reading eight complete pairs, eight semantic rows, three repeated lexical objects
+and six selected new dictionary sections. Mechanical checks bind all 951 runtime
+RAWs/639 pool rows and the lossless excluded draft, not fresh semantic reading
+of all those objects. This supports the **18-runtime-unit boundary only**;
+the original 19-unit scope is not globally CLEAN.
+The excluded draft retains three of the original proposals; runtime has
+**18 independently supported direct pairs**, without transitive category cliques.
+Active guidance now bounds report/tool delivery without shrinking review scope.
+
+Membership is **951 runtime objects**: 141 kanji/639 words/141 strokes/2 articles/
+22 counter files/one grammar set/2 scene catalogs/3 images.
+Word levels are 452 N5/54 N4/60 N3/19 N2/54 unlabelled:
+**452 of 672 frozen N5 words are adopted; 220 remain**.
+Fresh strict 8,278-entry progress: **951 reviewed-current**, **no partial**,
+**two excluded reviewed runtime-blocked media drafts**, **7,325 pending**,
+**7,327 runtime paths absent**. The one complete C2-unverified word draft
+is separately tracked inside pending, not counted as reviewed or as a third media draft.
+Checkpoint authority null/Ready false; version `8a1515166740e2bd`.
+Corrected checks: validator 0 errors, 124 tests OK in 31.551s;
+budget 959 files/968 entries/2,704,908 retained/2,721,590 inflated/1,360,862 ZIP bytes.
+Final checks, signed integration, public archive and exact-main CI have separate receipts.
+
+No new assets or media authority occurred. At the exact inspected app `5c000bd`,
+`activity`, `animals`, `leisure`, `motion` lack explicit localized cases and fall
+through as raw tags. Preserve technical IDs; this is pinned-source follow-up only.
+Concurrent dirty app and ordinary English checkouts remain untouched.
+No phone/JapaneseIME/playback/new audio-package/C6/C7/default activation/release/
+human-checkpoint approval follows. Continue the 220 remaining N5 words and every
+other safe frozen level/family; isolate evidenced uncertainty instead of idling the corpus.

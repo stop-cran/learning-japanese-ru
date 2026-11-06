@@ -8,6 +8,45 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The thirty-third full-target batch authors 19 complete N5 nature/outdoor texts.
+[Reviewed source 033](translation-batches/033-nature-outdoor-activity-reviewed-source.json)
+adopts **18 runtime words**; the complete, unchanged
+[空 draft](translation-drafts/033-nature-outdoor-activity/words/空.md)
+stays excluded and **C2 UNVERIFIED**, not accepted or removed from the frozen target.
+Its remote-place sense does not yet establish or reject the exact Russian
+далеко/вдали/далёкий caption overlaps. It remains one of the pending paths,
+not a third reviewed runtime-blocked media draft. Safe independent authoring continues.
+
+The actual whole reviewer read 19 primary/20 supporting pairs, 640 compact captions,
+41 selected complete lexical rows and five selected sections. Its oversized full
+native report was not opened from OS temp; visible C1/C3 CLEAN and C2 NEEDS FIX
+labels and actual successful reading trace are preserved with that explicit limit.
+The fully available focused report independently retains 17 original pairs,
+requires four further direct safeguards and leaves two sky-caption claims unverified.
+The changed-snapshot recheck returns no significant issues after eight full pairs,
+eight semantic labels, three lexical rows, six new selected sections and mechanical
+951-runtime/639-row checks. This supports the **18-unit runtime boundary only**,
+not CLEAN for the excluded draft or a fresh whole-batch review.
+All 19 original learner bodies, 639 remaining captions/readings and 933 baseline
+RAWs remain unchanged through the correction. Runtime has **18 direct guards**.
+
+Membership: **951 runtime objects** — 141 kanji/639 words/141 strokes/2 articles/
+22 counter files/one grammar set/2 scene catalogs/3 images.
+Fresh strict progress: **951 reviewed-current, two excluded reviewed runtime-blocked
+media drafts, 7,325 pending, 7,327 absent runtime paths**, no partial.
+The separate complete unverified 空 draft is inside pending, not additional membership.
+Word levels: 452 N5/54 N4/60 N3/19 N2/54 unlabelled; **220 of 672 N5 words remain**.
+Version `8a1515166740e2bd`; checkpoint authority null/Ready false.
+Corrected checks: validator 0 errors, 124 tests OK in 31.551s;
+budget 959 files/968 entries/2,704,908 retained/2,721,590 inflated/1,360,862 ZIP bytes.
+Final checks, source integration, archive and exact-main CI have separate receipts.
+At pinned app `5c000bd` only, `activity`, `animals`, `leisure`, `motion` also
+lack explicit localized cases. Preserve IDs; app follow-up only, concurrent app untouched.
+No new assets, paid media, phone/IME/playback/new audio-package/C6/C7/default
+activation/release/checkpoint authority. Continue every remaining safe level/family.
+
+Batch 032 and earlier milestones below are historical.
+
 The thirty-second full-target source batch adds 27 complete travel, place and
 transport word articles: 26 N5 roots and the mandatory N4 corner provider 隅.
 [Batch 032 reviewed source](translation-batches/032-travel-places-transport-reviewed-source.json)

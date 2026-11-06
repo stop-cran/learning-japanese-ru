@@ -1,0 +1,627 @@
+{
+ "activeGuidanceDelta": "Distinct-script fallback, two-sided LF and bounded report/tool delivery preserving actual scope/findings/limits.",
+ "actualReviewScope": {
+  "all639WholeBodiesClaimedRead": false,
+  "changedRecheckCompletePairs": 8,
+  "changedRecheckLexicalRows": 3,
+  "changedRecheckNewSections": 6,
+  "changedRecheckSemanticRows": 8,
+  "cumulativeUniqueCompleteBilingualPairs": 41,
+  "focusedCompleteLexicalRows": 30,
+  "focusedCompletePairs": 29,
+  "focusedSemanticRows": 39,
+  "originalFullNativeReportNotOpened": true,
+  "wholeCompactSemanticRows": 640,
+  "wholePrimaryPairs": 19,
+  "wholeSelectedCompleteLexicalRows": 41,
+  "wholeSelectedSections": 5,
+  "wholeSupportingPairs": 20
+ },
+ "appHintFollowUp": {
+  "liveConcurrentAppUntouched": true,
+  "newUnmappedCanonicalTagIdsAtThatPin": [
+   "activity",
+   "animals",
+   "leisure",
+   "motion"
+  ],
+  "pinnedAppCommit": "5c000bd5596d2189ef878da572687bd01ab3bb5f"
+ },
+ "baselineCommit": "e0722299186752d72f7529e67b708bfcd47197f1",
+ "batchId": "033-nature-outdoor-activity",
+ "checkpointAuthority": null,
+ "completeAuthoredRootTexts": 19,
+ "completeExcludedUnverifiedDrafts": 1,
+ "continueRequired": true,
+ "directGuardDecisions": [
+  {
+   "boundary": "Direct actual-caption pair; not Japanese unrestricted synonymy or transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "池",
+   "from": "池",
+   "implementationReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-003.json",
+   "reason": "Russian actual unqualified бассейн also denotes artificial water bodies for aquatic animals/other uses; the source池 explicitly includes man-made garden ponds. Partial Russian overlap, not every pond being a swimming pool.",
+   "semanticReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-002.json",
+   "to": "プール"
+  },
+  {
+   "boundary": "Direct actual-caption pair; not Japanese unrestricted synonymy or transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "花",
+   "from": "花",
+   "implementationReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-003.json",
+   "reason": "Actual unqualifiedцвет has a separately attested collective blossom/flowering-plant-part sense, matching花's ordinary flower/blossom sense. Not Japanese花 meaning colour or automatic transfer of the Russian elite sense.",
+   "semanticReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-002.json",
+   "to": "色"
+  },
+  {
+   "boundary": "Direct actual-caption pair; not Japanese unrestricted synonymy or transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "猫",
+   "from": "猫",
+   "implementationReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-003.json",
+   "reason": "The complete猫 object explicitly records wheelbarrow as an abbreviation of猫車. Actual current車 caption includes the broad транспортное средство. Not Japanese猫 ordinarily meaning an automobile.",
+   "semanticReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-002.json",
+   "to": "車"
+  },
+  {
+   "boundary": "Direct actual-caption pair; not Japanese unrestricted synonymy or transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "飛ぶ",
+   "from": "飛ぶ",
+   "implementationReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-003.json",
+   "reason": "Both actually inspected lexical objects have ordinary rushing/fleeing/run-off senses; actual newбежать; бегать can defensibly overlap飛ぶ in the fleeing/rushing use. Preserve literal flight and jumping teaching.",
+   "semanticReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-002.json",
+   "to": "走る"
+  },
+  {
+   "boundary": "Direct actual-caption pair; not Japanese unrestricted synonymy or transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "歩く",
+   "from": "歩く",
+   "implementationReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-003.json",
+   "reason": "Actual baselineидти inидти; ехать fits the ordinary walking sense of歩く. Preserve walk versus general going; not every行く implies walking.",
+   "semanticReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-002.json",
+   "to": "行く"
+  },
+  {
+   "boundary": "Direct actual-caption pair; not Japanese unrestricted synonymy or transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "走る",
+   "from": "走る",
+   "implementationReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-003.json",
+   "reason": "Actual vehicle-motion走る includes a moving train; actual baselineидти; ехать is defensible for that vehicle motion. Running on foot is not simply walking.",
+   "semanticReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-002.json",
+   "to": "行く"
+  },
+  {
+   "boundary": "Direct actual-caption pair; not Japanese unrestricted synonymy or transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "散歩",
+   "from": "散歩",
+   "implementationReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-003.json",
+   "reason": "Actual散歩 object is noun/suru/intransitive for a walk/stroll; actual newходить пешком fits that walking activity. Not every歩く is recreational or a universal noun/verb equivalence.",
+   "semanticReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-002.json",
+   "to": "歩く"
+  },
+  {
+   "boundary": "Direct actual-caption pair; not Japanese unrestricted synonymy or transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "吹く",
+   "from": "吹く",
+   "implementationReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-003.json",
+   "reason": "Actual吹く includes playing wind instruments; unqualified newиграть in遊ぶ's actual label is defensible for that instrument use. The Japanese verbs are not generally interchangeable.",
+   "semanticReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-002.json",
+   "to": "遊ぶ"
+  },
+  {
+   "boundary": "Direct actual-caption pair; not Japanese unrestricted synonymy or transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "吹く",
+   "from": "吹く",
+   "implementationReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-003.json",
+   "reason": "Actual吹く object sense7 explicitly records bursting into laughter, taggedSlang, notArchaic. Actual unchanged笑う label includesсмеяться. Keep the colloquial qualifier and primary blowing teaching distinct.",
+   "semanticReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-002.json",
+   "to": "笑う"
+  },
+  {
+   "boundary": "Direct actual-caption pair; not Japanese unrestricted synonymy or transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "降る",
+   "from": "降る",
+   "implementationReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-003.json",
+   "reason": "Ordinary Russian precipitation usesидти; actual baseline行く caption is unqualifiedидти; ехать. Not a claim that Japanese行く ordinarily describes rainfall.",
+   "semanticReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-002.json",
+   "to": "行く"
+  },
+  {
+   "boundary": "Direct actual-caption pair; not Japanese unrestricted synonymy or transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "降る",
+   "from": "降る",
+   "implementationReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-003.json",
+   "reason": "Actual降る object also records luck/misfortune coming/arriving. Actual baselineприходить inприходить; приезжать is defensible for that sense, not a reading change toおりる.",
+   "semanticReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-002.json",
+   "to": "来る"
+  },
+  {
+   "boundary": "Direct actual-caption pair; not Japanese unrestricted synonymy or transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "遊ぶ",
+   "from": "遊ぶ",
+   "implementationReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-003.json",
+   "reason": "Actual Russianотдыхать includes spending vacation/free time, not only physical recovery;遊ぶ's inspected recreation/idle senses overlap that actual current label. Not every rest means play.",
+   "semanticReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-002.json",
+   "to": "休む"
+  },
+  {
+   "boundary": "Direct actual-caption pair; not Japanese unrestricted synonymy or transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "走る",
+   "from": "走る",
+   "implementationReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-003.json",
+   "reason": "Actual走る includes flashing/streaking lightning; actual unqualifiedсверкать inсиять; сверкать is defensible for lightning flashing. Not transitive closure of all light words.",
+   "semanticReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-002.json",
+   "to": "輝く"
+  },
+  {
+   "boundary": "Direct actual-caption pair; not Japanese unrestricted synonymy or transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "走る",
+   "from": "走る",
+   "implementationReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-003.json",
+   "reason": "The same directly inspected lightning-flash use admits actual unqualifiedсверкать inмерцать; сверкать; do not claim every movement or every bright room is twinkling.",
+   "semanticReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-002.json",
+   "to": "きらきら"
+  },
+  {
+   "boundary": "Direct actual-caption pair; not Japanese unrestricted synonymy or transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "走る",
+   "from": "走る",
+   "implementationReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-003.json",
+   "reason": "Actual lightning sense versus actualсветиться; блестеть, independently supported by Ushakovблестеть/блеснуть; not light-word closure.",
+   "semanticReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-002.json",
+   "to": "光る"
+  },
+  {
+   "boundary": "Direct actual-caption pair; not Japanese unrestricted synonymy or transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "散歩",
+   "from": "散歩",
+   "implementationReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-003.json",
+   "reason": "Actual noun/suru walking activity versus actualидти; ехать; Ozhegovидти1 directly supports foot movement, not transitivity through歩く.",
+   "semanticReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-002.json",
+   "to": "行く"
+  },
+  {
+   "boundary": "Direct actual-caption pair; not Japanese unrestricted synonymy or transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "吹く",
+   "from": "吹く",
+   "implementationReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-003.json",
+   "reason": "Actual Japanese surface-mould formation versus actually attested Russianцвести mould sense; Dahl is historical attestation, not a claim of modern frequency. No rust claim.",
+   "semanticReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-002.json",
+   "to": "咲く"
+  },
+  {
+   "boundary": "Direct actual-caption pair; not Japanese unrestricted synonymy or transitive category closure.",
+   "decision": "RETAIN",
+   "declaredOn": "吹く",
+   "from": "吹く",
+   "implementationReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-003.json",
+   "reason": "Actual made-up/exaggerated talk versus actual unqualifiedболтать, explicitly empty/nonsensical speech in Ushakov; not a generic vocal-activity clique.",
+   "semanticReviewSupport": "docs/translation-batches/033-nature-outdoor-activity-independent-review-002.json",
+   "to": "ぺらぺら"
+  }
+ ],
+ "excludedUnverifiedDraft": {
+  "coverage": "complete authored text",
+  "draftPath": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+  "facets": {
+   "C1": "CLEAN historicalwholebody",
+   "C2": "UNVERIFIED",
+   "C3": "CLEAN historicalwholebody"
+  },
+  "openQuestions": [
+   [
+    "空",
+    "遠く"
+   ],
+   [
+    "空",
+    "遠い"
+   ]
+  ],
+  "path": "words/空.md",
+  "progressBoundary": "Not accepted; remains inside fullreportpending, separate from2reviewed-runtime-blocked media drafts. Existingprogresshelper need not mislabel it as accepted or stale reviewed content.",
+  "reviewEvidence": [
+   "docs/translation-batches/033-nature-outdoor-activity-independent-review.json",
+   "docs/translation-batches/033-nature-outdoor-activity-independent-review-001.json",
+   "docs/translation-batches/033-nature-outdoor-activity-independent-review-002.json",
+   "docs/translation-batches/033-nature-outdoor-activity-independent-review-003.json",
+   "docs/translation-batches/033-nature-outdoor-activity-source-adjudication.json",
+   "docs/translation-batches/033-nature-outdoor-activity-authoring-freeze.json",
+   "docs/translation-batches/033-nature-outdoor-activity-review-resolution-freeze.json",
+   "docs/translation-batches/033-nature-outdoor-activity-corrected-candidate.json"
+  ],
+  "reviewStatus": "unverified",
+  "ruGitRawSha256": "7c1084763f6229793b540ee6c501d9177513eb4fb23c2e27619eb16cb607a495",
+  "ruRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+  "ruSha256": "7c1084763f6229793b540ee6c501d9177513eb4fb23c2e27619eb16cb607a495",
+  "runtimeAcceptance": "blocked-by-evidenced-linguistic-uncertainty",
+  "runtimeAuthority": null,
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "sourceRawSha256": "0a7cad8579556ca7089666e53bf49e2be12eed2c4d0a93d3f55c020eae63b3e6",
+  "sourceSha256": "0a7cad8579556ca7089666e53bf49e2be12eed2c4d0a93d3f55c020eae63b3e6",
+  "targetObjectRemainsPending": true
+ },
+ "facetScope": "18adopted runtime primary units only, not excluded空 or global19scope",
+ "facets": {
+  "C1": "CLEAN",
+  "C2": "CLEAN",
+  "C3": "CLEAN"
+ },
+ "fullTaskComplete": false,
+ "historicalReceiptsPreserved": true,
+ "limits": [
+  "Cumulative acceptance is ONLY18runtime words. Original19complete texts are preserved, but excluded空 remainsC2UNVERIFIED; no global19-unitCLEAN or fullcorpus/native/device/media/release approval.",
+  "Whole actual19primary+20supportingpairs/640compactrows/41selectedobjects/5sections are bound by successful-reading trace. Original full21.4KB report was NOT opened from forbidden OS-temp; visibleC1/C3CLEAN,C2NEEDS FIX labels only, no invented native reportSHA/details.",
+  "Focused explicit actual report independently retains17initialpairs, identifies4directcorrections and leaves2skyquestionsUNVERIFIED. Its complete transcription RAW hash is not falsely labelled original native transport hash.",
+  "Actual changed-snapshot no-significant-issues native return is preserved exactly. Observed8completepairs/8semanticrows/3repeatedobjects/6newsections are from successful outputs, not a narrated full report or fresh639semanticreview.",
+  "All19learnerbodies and639remaining captions/readings unchanged;951runtime/639pool/41availablepair checks are mechanical, not semantic proof.",
+  "Cumulative41unique full bilingual pairs include2supportpairs assignedC2only, not41whole3facetapprovals or639fullarticles. All18adoptedprimarybodies have actual originalwholeC1/C3coverage.",
+  "HistoricalDahlmould attestation does not establish modern frequency or a Russianrust claim. Exact dictionary sense/written-form/qualifiers matter; no PET/WikipediaSky or generic vocal/category/light clique transfer.",
+  "Unverifieddraft's original intendedruntime-relative links are preserved losslessly, not standalone docs navigation certified; no draft bytes exported.",
+  "Pinnedapp5c000bd only; no concurrentdirtyapp/ordinaryEN changes or claims aboutlatestmappings. No phone/IME/playback/newmedia/package/C6/C7/defaultactivation/release/checkpoint authority."
+ ],
+ "newKanji": 0,
+ "newMediaAssets": [],
+ "newRuntimePaths": 18,
+ "newStrokes": 0,
+ "newWords": 18,
+ "next": "Continue remaining220N5words and every safe frozenlevel/family; isolate evidencedsky uncertainty and media/devicegates, never idle unrelatedsafeauthoring.",
+ "oldRuntimeEdits": [],
+ "omittedOptionalWrappers": [
+  {
+   "path": "words/動物.md",
+   "sourceLink": "../kanji/物.md"
+  },
+  {
+   "path": "words/吹く.md",
+   "sourceLink": "../kanji/吹.md"
+  },
+  {
+   "path": "words/吹く.md",
+   "sourceLink": "吸う.md"
+  },
+  {
+   "path": "words/咲く.md",
+   "sourceLink": "../kanji/咲.md"
+  },
+  {
+   "path": "words/散歩.md",
+   "sourceLink": "../kanji/散.md"
+  },
+  {
+   "path": "words/散歩.md",
+   "sourceLink": "../kanji/歩.md"
+  },
+  {
+   "path": "words/歩く.md",
+   "sourceLink": "../kanji/歩.md"
+  },
+  {
+   "path": "words/池.md",
+   "sourceLink": "../kanji/池.md"
+  },
+  {
+   "path": "words/泳ぐ.md",
+   "sourceLink": "../kanji/泳.md"
+  },
+  {
+   "path": "words/泳ぐ.md",
+   "sourceLink": "浮く.md"
+  },
+  {
+   "path": "words/海.md",
+   "sourceLink": "湖.md"
+  },
+  {
+   "path": "words/猫.md",
+   "sourceLink": "../kanji/猫.md"
+  },
+  {
+   "path": "words/花.md",
+   "sourceLink": "../kanji/花.md"
+  },
+  {
+   "path": "words/花.md",
+   "sourceLink": "花火.md"
+  },
+  {
+   "path": "words/走る.md",
+   "sourceLink": "../kanji/走.md"
+  },
+  {
+   "path": "words/走る.md",
+   "sourceLink": "止まる.md"
+  },
+  {
+   "path": "words/走る.md",
+   "sourceLink": "運転.md"
+  },
+  {
+   "path": "words/遊ぶ.md",
+   "sourceLink": "../kanji/遊.md"
+  },
+  {
+   "path": "words/降る.md",
+   "sourceLink": "../kanji/降.md"
+  },
+  {
+   "path": "words/降る.md",
+   "sourceLink": "落ちる.md"
+  },
+  {
+   "path": "words/飛ぶ.md",
+   "sourceLink": "../kanji/飛.md"
+  },
+  {
+   "path": "words/鳥.md",
+   "sourceLink": "../kanji/鳥.md"
+  },
+  {
+   "path": "words/鳴く.md",
+   "sourceLink": "../kanji/鳴.md"
+  }
+ ],
+ "ordinaryActivationAuthorized": false,
+ "perFileHashes": [
+  {
+   "path": "words/スポーツ.md",
+   "ruGitRawSha256": "351620bba29e4fa7a19520fad20d2c6326f91b94684dc8a8e17b3197c2eb9474",
+   "ruRawSha256": "b5d4875b78edef3ef52d9a7287d7956afa08e22788904d1438215e27ea80e357",
+   "ruSha256": "351620bba29e4fa7a19520fad20d2c6326f91b94684dc8a8e17b3197c2eb9474",
+   "sourceRawSha256": "19eecb1950e9dcb3422737acc22c2c9e55a77105ee1292cd142f5c52b7a26bb1",
+   "sourceSha256": "19eecb1950e9dcb3422737acc22c2c9e55a77105ee1292cd142f5c52b7a26bb1"
+  },
+  {
+   "path": "words/ペット.md",
+   "ruGitRawSha256": "014cf05f542164f2918771dbbe66aefeed207733e071ed4efb1a902bf8de0188",
+   "ruRawSha256": "1eb155ed5ab1dbce40ddb543fa082195f22c5d92ef36d79b2c254186f37c5466",
+   "ruSha256": "014cf05f542164f2918771dbbe66aefeed207733e071ed4efb1a902bf8de0188",
+   "sourceRawSha256": "9d69c4b22e2b5192efacf3ec3693c4da41a01e91e22e5b0b4cdece6f8f00f611",
+   "sourceSha256": "9d69c4b22e2b5192efacf3ec3693c4da41a01e91e22e5b0b4cdece6f8f00f611"
+  },
+  {
+   "path": "words/動物.md",
+   "ruGitRawSha256": "dfa502e18a6547051ea790d1e1881f7b9817c807aa1b3e8288ac7637600de95b",
+   "ruRawSha256": "0d64f21129790f17067dbac561799ace898cb91c0af460cbe813bca17b334424",
+   "ruSha256": "dfa502e18a6547051ea790d1e1881f7b9817c807aa1b3e8288ac7637600de95b",
+   "sourceRawSha256": "3bb4f2df455a8124135a6d34f7ed45073adae6324d5af3ba4cf0f2d1473f0475",
+   "sourceSha256": "3bb4f2df455a8124135a6d34f7ed45073adae6324d5af3ba4cf0f2d1473f0475"
+  },
+  {
+   "path": "words/吹く.md",
+   "ruGitRawSha256": "0b193f381f4aa4c3be43637b42458624a4516b20f4f30b62aa76472205ca813e",
+   "ruRawSha256": "1d413353786f1bc22caa496a370153818e0c400bb576faec2d2203ffe423cfe7",
+   "ruSha256": "0b193f381f4aa4c3be43637b42458624a4516b20f4f30b62aa76472205ca813e",
+   "sourceRawSha256": "50fd6636d7e74dcf29f5c19fd6044124481c87544c912373fe0dceaa870690a7",
+   "sourceSha256": "50fd6636d7e74dcf29f5c19fd6044124481c87544c912373fe0dceaa870690a7"
+  },
+  {
+   "path": "words/咲く.md",
+   "ruGitRawSha256": "efbdb93c77b28b03e02697588f28c42a81f325a0422007bc33f18dea83b912eb",
+   "ruRawSha256": "4fc47a5e8841fd80e9544999c0eddf277966aae42217cf3876e49ba574d2b911",
+   "ruSha256": "efbdb93c77b28b03e02697588f28c42a81f325a0422007bc33f18dea83b912eb",
+   "sourceRawSha256": "ff2e98016ed0e7e19533e70aff39dcbfbfd9e398eaa5804df97cf0bb4827c64b",
+   "sourceSha256": "ff2e98016ed0e7e19533e70aff39dcbfbfd9e398eaa5804df97cf0bb4827c64b"
+  },
+  {
+   "path": "words/散歩.md",
+   "ruGitRawSha256": "82bd441faad841a2ce68d65898bd96467cbfbedcb55dc05cf32ebc7144e74707",
+   "ruRawSha256": "484176d0b80bb86535c8379b3c97651aac1cfd9790f1c4da9d035826bb602565",
+   "ruSha256": "82bd441faad841a2ce68d65898bd96467cbfbedcb55dc05cf32ebc7144e74707",
+   "sourceRawSha256": "5b6c099bed38c3ab9ba3f2e5115e1e5907a91e59b2b025f47257d117ecfb332b",
+   "sourceSha256": "5b6c099bed38c3ab9ba3f2e5115e1e5907a91e59b2b025f47257d117ecfb332b"
+  },
+  {
+   "path": "words/歩く.md",
+   "ruGitRawSha256": "b393e643223333f7e75cd4b7e7bb7019475ecc6a0eec4f213214ce905c288ac7",
+   "ruRawSha256": "da3bb18c1f1b025abf343eebd80f5b57dbd205743fae630a15f9a71048c87e9b",
+   "ruSha256": "b393e643223333f7e75cd4b7e7bb7019475ecc6a0eec4f213214ce905c288ac7",
+   "sourceRawSha256": "cecb19b052f832ff2e5c71ddee10246c5b61f1e09724b451e14d0365166aeed4",
+   "sourceSha256": "cecb19b052f832ff2e5c71ddee10246c5b61f1e09724b451e14d0365166aeed4"
+  },
+  {
+   "path": "words/池.md",
+   "ruGitRawSha256": "ac859f2918c1a5d06aaaf3a92b4aaf3a64b089ca6e06999331334086ac604e52",
+   "ruRawSha256": "b48ff7deda2707b6b7cb7fc5f8314e4de81a8b9ec2d930cea37f46c08506a25a",
+   "ruSha256": "ac859f2918c1a5d06aaaf3a92b4aaf3a64b089ca6e06999331334086ac604e52",
+   "sourceRawSha256": "c69fe5d0e236e94edcd13a8c0c80b4cdf7a0b13f3902e22d9ad36bb64b853e3f",
+   "sourceSha256": "c69fe5d0e236e94edcd13a8c0c80b4cdf7a0b13f3902e22d9ad36bb64b853e3f"
+  },
+  {
+   "path": "words/泳ぐ.md",
+   "ruGitRawSha256": "a4d992d04ba02051299a5a28760e2745ab5fd5a0d78b327d6969acd0e6deb435",
+   "ruRawSha256": "714e4d30f87847227ad84b89416b10c3ae73f96df0d04bfc0aed3aaa5b7c9a93",
+   "ruSha256": "a4d992d04ba02051299a5a28760e2745ab5fd5a0d78b327d6969acd0e6deb435",
+   "sourceRawSha256": "3fbd10fb8f106ba26b056eb8063a5957fdd8487116071a7d5535862f60d96a97",
+   "sourceSha256": "3fbd10fb8f106ba26b056eb8063a5957fdd8487116071a7d5535862f60d96a97"
+  },
+  {
+   "path": "words/海.md",
+   "ruGitRawSha256": "2aa143d3782886d2d54fd871178f88d3f2eb7d31020f35543c7b1cb1b5638798",
+   "ruRawSha256": "dbb77cb459c8f14334b93f46633a9f26f0e7ce1ab3914ddce57a41e495e442c1",
+   "ruSha256": "2aa143d3782886d2d54fd871178f88d3f2eb7d31020f35543c7b1cb1b5638798",
+   "sourceRawSha256": "33d9cd1a424c38a5a8c62c894d8cacc1dc910eec60c36280a2a03814c87c14b5",
+   "sourceSha256": "33d9cd1a424c38a5a8c62c894d8cacc1dc910eec60c36280a2a03814c87c14b5"
+  },
+  {
+   "path": "words/猫.md",
+   "ruGitRawSha256": "7734ab2b28fbaa94ec7b97ed4e0183ea344ad49b91838522e74065239bb1ccad",
+   "ruRawSha256": "0a934e42ec1b4cb3a47c3901f69106b0ae26dd63d26af1a34abea349de485321",
+   "ruSha256": "7734ab2b28fbaa94ec7b97ed4e0183ea344ad49b91838522e74065239bb1ccad",
+   "sourceRawSha256": "1e26b6da12fe67b8c2c50fdf7c099fff91d4c634c8131e4a2731fa6551be8ac2",
+   "sourceSha256": "1e26b6da12fe67b8c2c50fdf7c099fff91d4c634c8131e4a2731fa6551be8ac2"
+  },
+  {
+   "path": "words/花.md",
+   "ruGitRawSha256": "aee9798971921e8e46ca75b50769c3353e611606bba008538f13ce1c8bbf599d",
+   "ruRawSha256": "9ab96122eabc291cd73ffed2085aca48b3b8d5bb6c57bbd69df5d65687f4714e",
+   "ruSha256": "aee9798971921e8e46ca75b50769c3353e611606bba008538f13ce1c8bbf599d",
+   "sourceRawSha256": "03459b137a2bfcca269e455c909014061281b0e7b3f4f865ef1547487a2034b4",
+   "sourceSha256": "a62ff1181b288831cf641662db730219ecd238fe90799a798026d6faa3334175"
+  },
+  {
+   "path": "words/走る.md",
+   "ruGitRawSha256": "2f8454c9832ee0124ddd72bffcb016bacd87b7a8171c522022c0838cec773ff5",
+   "ruRawSha256": "fd66f0cf74896489d29a1bd7af650c7a99653b3259b5444052be7f75edb4ecc7",
+   "ruSha256": "2f8454c9832ee0124ddd72bffcb016bacd87b7a8171c522022c0838cec773ff5",
+   "sourceRawSha256": "65bb47067703b585ba40c9ec25fdb15479623095327e964017a7b3498c0fd3cc",
+   "sourceSha256": "65bb47067703b585ba40c9ec25fdb15479623095327e964017a7b3498c0fd3cc"
+  },
+  {
+   "path": "words/遊ぶ.md",
+   "ruGitRawSha256": "9d48a6baef74979a3f96f0f617337447849f997bf28a8ac72194d0a24f529661",
+   "ruRawSha256": "fc7d93b14ef4e2befa7136c6c2a8a048285c0697abe1cfd2ed1d221b217c97b1",
+   "ruSha256": "9d48a6baef74979a3f96f0f617337447849f997bf28a8ac72194d0a24f529661",
+   "sourceRawSha256": "d92b0c9425778fa6e2a1e78b32b2fa3611f96f03872aea5dd2efee7437afc27c",
+   "sourceSha256": "d92b0c9425778fa6e2a1e78b32b2fa3611f96f03872aea5dd2efee7437afc27c"
+  },
+  {
+   "path": "words/降る.md",
+   "ruGitRawSha256": "21421ce29204b1ad75f88d71f4e92a58c19973f235767c756dedfcbbcea20cab",
+   "ruRawSha256": "f9c5c88e7bbe9bd3182d4b18d11af66a1e832eb8487c23b576621cd379f6a173",
+   "ruSha256": "21421ce29204b1ad75f88d71f4e92a58c19973f235767c756dedfcbbcea20cab",
+   "sourceRawSha256": "5cf150b15aec389553e8dd2765c5d371808161a62505b2c08045d51cecd3a8c4",
+   "sourceSha256": "5cf150b15aec389553e8dd2765c5d371808161a62505b2c08045d51cecd3a8c4"
+  },
+  {
+   "path": "words/飛ぶ.md",
+   "ruGitRawSha256": "97092d269de2011e8c1955d18602615d351c26577d280dbd319cde6427d4b133",
+   "ruRawSha256": "51872c511e3ee0675b76d1516e2a806f70964f607bd0ea5c8cdeb0c8b4ab2d47",
+   "ruSha256": "97092d269de2011e8c1955d18602615d351c26577d280dbd319cde6427d4b133",
+   "sourceRawSha256": "a458c2509c55546b69849d20f85bf5bb6d5f36e64099b152d07824d57ddc9a75",
+   "sourceSha256": "a458c2509c55546b69849d20f85bf5bb6d5f36e64099b152d07824d57ddc9a75"
+  },
+  {
+   "path": "words/鳥.md",
+   "ruGitRawSha256": "04c8a28bfa2af4529472f1016406b264da603d9c840af8f9618e631917a5ae54",
+   "ruRawSha256": "1b9af2ddf184e2d5288690028fd481663d081c91637dec1d3ac53e2d52546405",
+   "ruSha256": "04c8a28bfa2af4529472f1016406b264da603d9c840af8f9618e631917a5ae54",
+   "sourceRawSha256": "2d6ad942efb40ca8836c607959bc16bce6a395befb4546ce3b6dae2ab9f1902e",
+   "sourceSha256": "2d6ad942efb40ca8836c607959bc16bce6a395befb4546ce3b6dae2ab9f1902e"
+  },
+  {
+   "path": "words/鳴く.md",
+   "ruGitRawSha256": "644b60e4c2608b0de1958329985e507ee42ab0b411e1098578a983ab6ec1af26",
+   "ruRawSha256": "28f9f623e5ba7637d83856a8e9669490106b75ce2ffc8c417bf7a6e159dcba74",
+   "ruSha256": "644b60e4c2608b0de1958329985e507ee42ab0b411e1098578a983ab6ec1af26",
+   "sourceRawSha256": "1f7b1b0cc755ed370fea318b055ee42c331feacff143201fe35121c047af1344",
+   "sourceSha256": "1f7b1b0cc755ed370fea318b055ee42c331feacff143201fe35121c047af1344"
+  }
+ ],
+ "phase": "18runtimeunits SOURCE TEXT accepted;1full unchanged sky draft C2UNVERIFIED/excluded; mainintegration/archive/CI have separate actual receipts",
+ "requiredRuntimeFindingsRemaining": [],
+ "review": "docs/translation-batches/033-nature-outdoor-activity-independent-review.json",
+ "reviewedRussianSourceCommit": "61b6188acf775805221e0ab53e58bac83b4141c3",
+ "runtime": {
+  "N5Words": 452,
+  "allN5WordsOrEntireCorpusComplete": false,
+  "contentVersion": "8a1515166740e2bd",
+  "families": {
+   "articles": 2,
+   "counters": 22,
+   "grammar": 1,
+   "images": 3,
+   "kanji": 141,
+   "scenes": 2,
+   "strokes": 141,
+   "words": 639
+  },
+  "frozenN5Words": 672,
+  "objects": 951,
+  "remainingN5Words": 220,
+  "wordJlptCounts": {
+   "2": 19,
+   "3": 60,
+   "4": 54,
+   "5": 452,
+   "unlabelled": 54
+  }
+ },
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "unaffectedBaselineRawObjectsVerified": 933,
+ "unresolvedExcludedClaims": [
+  [
+   "空",
+   "遠く"
+  ],
+  [
+   "空",
+   "遠い"
+  ]
+ ],
+ "unverifiedAcceptedRuntimeClaims": [],
+ "validation": {
+  "actualExecution": "Four actual author-serialized finalcommands after reviewed tracking/fresh strictreport generation; no delegatedtests.",
+  "contentVersion": "8a1515166740e2bd",
+  "manifestGeneratedWithoutByteChange": true,
+  "runs": [
+   {
+    "command": [
+     "tools\\build_manifest.py"
+    ],
+    "completedAt": "2026-11-06T00:20:31.578949+00:00",
+    "returncode": 0,
+    "seconds": 0.2190000000409782,
+    "startedAt": "2026-11-06T00:20:31.369300+00:00",
+    "stderr": "",
+    "stdout": "manifest.json: 951 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 8a1515166740e2bd\n"
+   },
+   {
+    "command": [
+     "tools\\validate.py"
+    ],
+    "completedAt": "2026-11-06T00:20:33.930917+00:00",
+    "returncode": 0,
+    "seconds": 2.344000000040978,
+    "startedAt": "2026-11-06T00:20:31.578949+00:00",
+    "stderr": "",
+    "stdout": "0 error(s)\n"
+   },
+   {
+    "command": [
+     "-m",
+     "unittest",
+     "discover",
+     "-s",
+     "tools",
+     "-p",
+     "test_*.py"
+    ],
+    "completedAt": "2026-11-06T00:21:08.284816+00:00",
+    "returncode": 0,
+    "seconds": 34.35899999993853,
+    "startedAt": "2026-11-06T00:20:33.930917+00:00",
+    "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 34.012s\n\nOK\n",
+    "stdout": ""
+   },
+   {
+    "command": [
+     "tools\\check_content_budget.py"
+    ],
+    "completedAt": "2026-11-06T00:21:08.888660+00:00",
+    "returncode": 0,
+    "seconds": 0.5940000000409782,
+    "startedAt": "2026-11-06T00:21:08.284816+00:00",
+    "stderr": "",
+    "stdout": "{'files': 959, 'entries': 968, 'retainedBytes': 2704908, 'inflatedBytes': 2721590, 'localZipBytes': 1360862, 'listeningTaskMediaBytes': 0}\n"
+   }
+  ],
+  "runtimeObjects": 951
+ }
+}
