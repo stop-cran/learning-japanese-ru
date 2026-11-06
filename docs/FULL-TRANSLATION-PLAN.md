@@ -1,6 +1,47 @@
 # Full Russian translation: execution after the two pilots
 
-## Current source milestone: batch054 meals, cooking and flavours
+## Current source milestone: batch055 clothing, accessories and body
+
+Batch055 adds **20 complete N4 lessons /1035 current Russian file lines**
+against the same frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The [actual single independent report](translation-batches/055-clothing-accessories-and-body-independent-review-001.json)
+read **168 complete teaching bodies**,224 whole official objects,
+all1020 candidate captions/readings and six stored bounded lexical returns.
+C1/C3 are CLEAN in their assigned correctness/Russian-prose scopes.
+The original **C2 NEEDS_REVISION** and both findings remain immutable.
+The [exact append-only resolution](translation-batches/055-clothing-accessories-and-body-amended-authoring-001.json)
+implements F1's independently prescribed directサンダル–靴 protection
+and F2's Q11 ability-sense reference correction to1554820:2.
+**All20 reviewed teaching bodies and1020 captions/readings are unchanged**;
+one header line was added. The36 qualified direct protections comprise
+35 individually retained proposals and the original review's one prescribed
+addition, not a second CLEAN review or transitive footwear/person/clothing clique.
+The resolution freeze preceded its metadata implementation.
+Historical pre-writing references, original author receipts and report are preserved.
+
+木綿's selected material reading is separate from restrictedきわた tree
+and oldゆう/thread identities; explicitもめん thread evidence is not arbitrary
+compound stripping. 格好 nominal appearance is distinct from independently
+attested suitability. 首's primary neck lesson does not deny head or other
+separately attested identities. Archaicこのかみ and classical美しい affection/
+praise evidence do not establish ordinary modern necessity or frequency.
+These broader questions and global uniqueness remain **UNVERIFIED**.
+
+Qualified membership: **1332 runtime objects /1020 words**:
+671 N5/211 N4/65 N3/19 N2/54 unlabelled.
+Strict progress: **1332 reviewed-current, two excluded reviewed blocked-media
+drafts,6944 pending of8278;6946 runtime paths absent**, no partial.
+Version `d2bb4ec8e78636e8`; checkpoint authority null/Ready false.
+All1312 baseline RAWs/tracking rows and protected excluded033空 are preserved.
+Ten source wrappers retained/16 unavailable optional wrappers unwrapped;
+no source-only provider forced into runtime.
+Signed main integration, actual public archives and exact-main CI are separate
+publication evidence, not report claims. No new asset/app/device/phone/IME/
+media/default/package/release approval.
+Continue every remaining safe frozen level/family; 空 remains separately
+pending/C2 UNVERIFIED, not a third media draft.
+
+## Prior source milestone: batch054 meals, cooking and flavours
 
 Batch054 adds **20 complete N4 lessons /1024 Russian lines** against unchanged
 frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.

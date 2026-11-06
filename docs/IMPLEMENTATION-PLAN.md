@@ -11,6 +11,44 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The fifty-fifth full-target batch adds **20 complete N4 clothing/accessory/body
+lessons /1035 current Russian file lines** against the unchanged frozen source.
+The [actual single independent report](translation-batches/055-clothing-accessories-and-body-independent-review-001.json)
+read168 complete teaching bodies,224 whole official objects, all1020 candidate
+captions/readings and six stored bounded lexical returns.
+C1/C3 are CLEAN within assigned correctness/Russian-prose scope.
+Original **C2 NEEDS_REVISION** and both findings are immutable:
+the [exact append-only resolution](translation-batches/055-clothing-accessories-and-body-amended-authoring-001.json)
+implements original F1's directサンダル–靴 prescription and F2's Q11
+ability-reference correction to1554820:2.
+All20 reviewed teaching bodies and1020 captions/readings are identical;
+only one header line was added.
+The36 qualified safeguards comprise35 independently retained proposals plus
+one independently prescribed addition, not a new whole/focused CLEAN review.
+The exact resolution freeze preceded its metadata implementation.
+No transitive footwear/person/clothing closure, English-gloss-only equivalence,
+compound host stripping or invented historical origin is adopted.
+Ordinary modern necessity/frequency and broader global uniqueness remain
+**UNVERIFIED**, including archaic首/このかみ and classical美しい evidence.
+木綿 material/tree/thread identities and格好 noun/adjective scopes stay distinct;
+首's neck lesson does not falsely deny the independently recorded head sense.
+
+Qualified source membership: **1332 runtime objects /1020 words**,
+671 N5/211 N4/65 N3/19 N2/54 unlabelled.
+Strict progress: **1332 reviewed-current, two excluded reviewed blocked-media
+drafts,6944 pending,6946 absent runtime paths**, no partial.
+Version `d2bb4ec8e78636e8`; checkpoint authority null/Ready false.
+All1312 baseline RAWs/tracking rows and historical evidence are preserved.
+Ten source wrappers retained/16 unavailable optional wrappers unwrapped;
+no source-only provider forced into runtime.
+Final serialized checks, signed main integration, actual public archives
+and exact-main CI are separate publication evidence, not semantic report claims.
+Protected excluded033空 remains the only N5 pending/C2 UNVERIFIED word,
+not media. No new asset/app/device/phone/IME/media/package/default/release approval.
+Continue the entire remaining safe frozen scope.
+
+Batch054 and earlier milestones below are historical.
+
 The fifty-fourth full-target batch adds **20 complete N4 meals/cooking/flavour
 lessons /1024 Russian lines** against the unchanged frozen source.
 The [actual single independent report](translation-batches/054-meals-cooking-and-flavours-independent-review-001.json)

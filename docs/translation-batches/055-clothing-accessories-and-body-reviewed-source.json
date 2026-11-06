@@ -1,0 +1,981 @@
+{
+ "actualReview": "docs/translation-batches/055-clothing-accessories-and-body-independent-review.json",
+ "actualScope": {
+  "actualReturnedPayloadUtf8Bytes": 38246,
+  "actualStoredPublicReturns": 6,
+  "batchRecords": "Complete intake/adjudication/freeze/authoring via bounded fields; intake remains historical unread-at-intake.",
+  "breakdown": {
+   "contextualPairs": 55,
+   "newRU": 20,
+   "primaryEN": 20,
+   "sourceOnlyEN": 18
+  },
+  "candidateCaptionReadingRows": 1020,
+  "remainder": 0,
+  "successfulReadRanges": {
+   "candidatePool": "0:170,170:340,340:510,510:680,680:850,850:1020",
+   "comparisons": "0:6,6:13,13:18",
+   "lexical": "individual complete payloads0–5; actual lengths/hashes verified",
+   "newRU": "0:3,3:6,6:9,9:12,12:15,15:18,18:20",
+   "objects": "0:18,18:30,30:44,44:55,55:64,64:77,77:91,91:107,107:118,118:132,132:150,150:172,172:191,191:196,196:205,205:216,216:224",
+   "pairs": "0:2,2:3,3:6,6:9,9:11,11:14,14:17,17:20,20:23,23:26,26:29,29:32,32:35,35:38,38:41,41:44,44:47,47:50,50:52,52:53,53:55",
+   "primary": "0:4,4:8,8:12,12:16,16:20"
+  },
+  "teachingBodies": 168,
+  "wholeOfficialObjects": 224
+ },
+ "all1020CaptionReadingsIdentical": true,
+ "all20TeachingBodiesIdenticalToActuallyReviewedCandidate": true,
+ "appHintMappingStatus": "UNVERIFIED; live/shared app not accessed",
+ "baselineCommit": "40e3a22707f34c723b8a556aa24ff22bd6defd9b",
+ "baselineRuntimeRawsAndTrackingRowsPreserved": 1312,
+ "batchId": "055-clothing-accessories-and-body",
+ "checkpointAuthority": null,
+ "completeRussianFileLines": 1035,
+ "continueRequired": true,
+ "directGuardDecisions": [
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q1",
+    "1066680:1/1472740:1: деловой костюм is a suit; direct clothing overlap, not card suits."
+   ],
+   "completeOfficialEntrySenseEvidence": "1066680:1;1472740:1",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "スーツ",
+   "leftActualCaption": "костюм",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q1",
+   "rationale": "Actual suit/business-suit realization directly fits currentкостюм. Preserve broader gender/design scope ofスーツ; no settled borrowing origin for contextual背広 inferred.",
+   "right": "背広",
+   "rightActualCaption": "деловой костюм"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q2",
+    "1500940:1 explicitly suit; одежда can answer スーツ. Not a garment clique."
+   ],
+   "completeOfficialEntrySenseEvidence": "1066680:1;1500940:1",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "スーツ",
+   "leftActualCaption": "костюм",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q2",
+   "rationale": "Whole1500940:1 explicitly records suit, not merely a generic all-clothing taxonomy. Actual suit realization fits currentодежда; not every item of clothing a matching suit.",
+   "right": "服",
+   "rightActualCaption": "одежда"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q3",
+    "1061520:1 explicitly undershirt; нательная рубашка overlaps 下着, not every outer shirt."
+   ],
+   "completeOfficialEntrySenseEvidence": "1185930;1061520:1",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "下着",
+   "leftActualCaption": "нижнее бельё",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q3",
+   "rationale": "Whole1061520:1 explicitly licenses shirt as undergarment/undershirt. Actual underlayer fits newнижнее бельё; not every modern outer shirt underwear.",
+   "right": "シャツ",
+   "rightActualCaption": "рубашка; нательная рубашка"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q4",
+    "1423240:2 independently clothes: одежда fits that sense; not all clothes normally called kimono."
+   ],
+   "completeOfficialEntrySenseEvidence": "1423240:2;1500940:1",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "着物",
+   "leftActualCaption": "кимоно",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q4",
+   "rationale": "Independently recorded broader clothes sense2 directly fits currentодежда. Preserve useful modern primary kimono sense, not every garment normally called着物 today.",
+   "right": "服",
+   "rightActualCaption": "одежда"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q5",
+    "1096770/1208910 carrying bags: сумка plausibly answers ハンドバッグ, not кошелёк."
+   ],
+   "completeOfficialEntrySenseEvidence": "1096770;1208910:1",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "ハンドバッグ",
+   "leftActualCaption": "сумочка",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q5",
+   "rationale": "Personal handbag is the actual portable carrying-bag realization of currentсумка. Not every bag a handbag or財布 coin purse identical to the surrounding bag.",
+   "right": "鞄",
+   "rightActualCaption": "сумка; портфель"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q6",
+    "1486360/1591900 shared beauty and actual красивый captions; not all cleanliness."
+   ],
+   "completeOfficialEntrySenseEvidence": "1486360;1591900",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "美しい",
+   "leftActualCaption": "красивый",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q6",
+   "rationale": "Actual beauty overlap directly meets currentкрасивый. Named Daijisen usage explicitly compares them; preserve i-/na-adjective distinction and separate cleanliness, not simply not dirty.",
+   "right": "きれい",
+   "rightActualCaption": "красивый; чистый"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q7",
+    "Named Daijisenうつくしい2 explicitly affection/かわいい, with classical quotations: милый fits there, not ordinary modern identity."
+   ],
+   "completeOfficialEntrySenseEvidence": "1486360;1577200",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "美しい",
+   "leftActualCaption": "красивый",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q7",
+   "rationale": "Whole objects record beautiful/lovely/pretty realizations. Named Daijisenうつくしい2 explicitlyかわいい with classical quotations. Qualified affection/pretty overlap only; ordinary modern equivalence/necessity UNVERIFIED.",
+   "right": "かわいい",
+   "rightActualCaption": "милый; очаровательный"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q8",
+    "Namedうつくしい3 explicitlyりっぱ/見事, classical praise;1551790:1,2 supports impressive/worthy evaluation, not every virtue or modern synonymy."
+   ],
+   "completeOfficialEntrySenseEvidence": "1486360;1551790:1,2",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "美しい",
+   "leftActualCaption": "красивый",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q8",
+   "rationale": "Actual named Daijisenうつくしい3 explicitlyりっぱ/見事 with a classical quotation; whole1551790 supplies splendid/impressive/worthy. Secondary written美しい/うるわしい sections also discussりっぱ. Qualified praise, not every moral achievement visually beautiful; ordinary necessity UNVERIFIED.",
+   "right": "立派",
+   "rightActualCaption": "впечатляющий; достойный"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q9",
+    "2147990:1 bodily back matches 背中, independently of height/せい and location 後ろ."
+   ],
+   "completeOfficialEntrySenseEvidence": "1472800;2147990:1",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "背中",
+   "leftActualCaption": "спина",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q9",
+   "rationale": "Actual bodily back meets independently recorded背/せ back and currentспина. Not height or a general behind-location; separate背/せい stature identity not substituted.",
+   "right": "背",
+   "rightActualCaption": "рост человека"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q10",
+    "1327190:1 explicitly hand/arm; actual рука overlaps1562850:1, not merely adjacent anatomy."
+   ],
+   "completeOfficialEntrySenseEvidence": "1562850:1;1327190:1",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "腕",
+   "leftActualCaption": "рука (от плеча до кисти)",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q10",
+   "rationale": "Whole1327190:1 explicitly hand/arm directly overlaps anatomical arm. Russianрука caption ambiguity also explicit; preserve hand versus shoulder-to-hand arm focus, not exclusive Russian nouns.",
+   "right": "手",
+   "rightActualCaption": "рука; кисть"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q11",
+    "1562850:3 strength/1554820:1; ability is1562850:2/1554820:2, NOT 力 sense3. Retain with F2 correction."
+   ],
+   "completeOfficialEntrySenseEvidence": "1562850:2,3;1554820:1,2",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "exactCorrectionAuthority": "Actual original F2 and retained Q11 ground; append-only correction",
+   "historicalOriginalEntrySenseReference": "1562850:2,3;1554820:1,3",
+   "left": "腕",
+   "leftActualCaption": "рука (от плеча до кисти)",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q11",
+   "rationale": "Whole1562850:3 explicitly strength and sense2 ability directly meet currentсила in physical/ability realizations. Not arm location itself every force or inference through手.",
+   "right": "力",
+   "rightActualCaption": "сила; мощь"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q12",
+    "1562850:2/1225130:2 skill: actual умение fits 腕, not technology an anatomical arm."
+   ],
+   "completeOfficialEntrySenseEvidence": "1562850:2;1225130:2",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "腕",
+   "leftActualCaption": "рука (от плеча до кисти)",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q12",
+   "rationale": "Actual independently recorded skill/ability versus technique/skill directly fits currentмастерство. Qualified competence, not technology hardware itself an arm.",
+   "right": "技術",
+   "rightActualCaption": "техника; технология; умение"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q13",
+    "1357210:2/1259210:1 directly display/show: показывать fits display, not all showing decoration."
+   ],
+   "completeOfficialEntrySenseEvidence": "1357210:2;1259210:1",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "飾る",
+   "leftActualCaption": "украшать; выставлять напоказ",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q13",
+   "rationale": "Actual exhibit/display directly overlaps show/display. Preserve display-for-viewing realization, not every act of showing or looking a decoration.",
+   "right": "見せる",
+   "rightActualCaption": "показывать"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q14",
+    "Full primary explicitly placing for display,1357210:2/1421850:1. Ставить is plausible when arranging displayed objects; not all placing, lying or static display."
+   ],
+   "completeOfficialEntrySenseEvidence": "1357210:2;1421850:1",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "飾る",
+   "leftActualCaption": "украшать; выставлять напоказ",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q14",
+   "rationale": "Full primary explicitly put something on display, allowing actual putting/placing realization. Generic/specific placement suitability independently PENDING; not all putting decoration or every display requiring a fresh motion.",
+   "right": "置く",
+   "rightActualCaption": "класть; ставить"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q15",
+    "1477950:1/1533820:1 head hair directly fits actual волосы; not all fur/wool 髪."
+   ],
+   "completeOfficialEntrySenseEvidence": "1477950:1;1533820:1",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "髪",
+   "leftActualCaption": "волосы на голове",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q15",
+   "rationale": "Actual head hair fits currentволосы. Qualification is head hair, not animal fur or wool itself髪; no all-body-part clique.",
+   "right": "毛",
+   "rightActualCaption": "волосы; шерсть"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q16",
+    "1601810:1,2/1533820:1,2 facial hair/whiskers meet волосы; not all шерсть a beard."
+   ],
+   "completeOfficialEntrySenseEvidence": "1601810:1,2;1533820:1,2",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "髭",
+   "leftActualCaption": "борода; усы",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q16",
+   "rationale": "Actual facial hair/animal whiskers fit broader currentволосы in the hair realization. Not scalp hair synonymous with beard or every kind of wool facial hair.",
+   "right": "毛",
+   "rightActualCaption": "волосы; шерсть"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q17",
+    "1582310:2 explicitly head hair matches 髪; no inference through 毛 or head location."
+   ],
+   "completeOfficialEntrySenseEvidence": "1477950:1;1582310:2",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "髪",
+   "leftActualCaption": "волосы на голове",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q17",
+   "rationale": "Whole1582310:2 independently and explicitly records hair on one's head. Direct lexical evidence, not deriving head-hair equivalence transitively through毛 or from the anatomical location alone.",
+   "right": "頭",
+   "rightActualCaption": "голова"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q18",
+    "1409160 standalone nounてい appearance matches1590480:1,2; not suffix stripping or all bodies appearance."
+   ],
+   "completeOfficialEntrySenseEvidence": "1590480:1,2;1409160:1",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "格好",
+   "leftActualCaption": "внешний вид; форма",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q18",
+   "rationale": "Standalone体/てい is a noun for appearance/air/condition/state/form. Direct appearance identity, not a suffix stripped from its host or claiming every body means clothing.",
+   "right": "体",
+   "rightActualCaption": "тело"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q19",
+    "1590480:4 independent suitability and named Daijisen adjective block support подходит; not stripping いい from 格好いい."
+   ],
+   "completeOfficialEntrySenseEvidence": "1590480:4;2820690",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "格好",
+   "leftActualCaption": "внешний вид; форма",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q19",
+   "rationale": "Independently licensed suitable/fit/reasonable adjective sense4 meets currentподходит/good evaluation; named Daijisen adjective block confirms. Not deriving good appearance from格好いい while strippingいい, or saying nominal appearance is automatically good.",
+   "right": "いい",
+   "rightActualCaption": "хороший; подходит"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q20",
+    "Independent suitability/appropriate valuation can fit хороший contextually; not nominal appearance intrinsically good or a positive-adjective clique."
+   ],
+   "completeOfficialEntrySenseEvidence": "1590480:4;1605820",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "格好",
+   "leftActualCaption": "внешний вид; форма",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q20",
+   "rationale": "Independently licensed suitable/fit/reasonable evaluation meets currentхороший in a suitability realization. Separate direct evidence, not a transitive positive-adjective clique or nominal appearance necessarily beautiful.",
+   "right": "良い",
+   "rightActualCaption": "хороший"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q21",
+    "1534870:2 tree is ONLYきわた, matching 木 in bare spelling prompts; never もめん means tree. Frozen kango preserved."
+   ],
+   "completeOfficialEntrySenseEvidence": "1534870:2;1534520:1",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "木綿",
+   "leftActualCaption": "хлопок (материал)",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q21",
+   "rationale": "Restricted木綿/きわた red silk-cotton tree sense directly meets currentдерево. Not assigning the tree meaning toもめん or cotton cloth being timber.",
+   "right": "木",
+   "rightActualCaption": "дерево; древесина"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q22",
+    "Named Daijisenもめん2 explicitly abbreviates木綿糸; separateゆう bark-fibre thread/archaic2261050 support thread, not arbitrary compound stripping or cotton-frequency claims."
+   ],
+   "completeOfficialEntrySenseEvidence": "1534870:1;2261050;1311450:1",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "木綿",
+   "leftActualCaption": "хлопок (материал)",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q22",
+   "rationale": "Actually read named Daijisenもめん2 explicitly abbreviates木綿糸; separateゆう describes bark fibres made into糸 and whole2261050 has archaic string. Direct standalone thread reading, not arbitrary compound host stripping, cotton necessarily silk, or ordinary modern frequency proven.",
+   "right": "糸",
+   "rightActualCaption": "нить; пряжа"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q23",
+    "1592270:2 independently head;2791510こうべ/2791500 doll-head add restricted identities, not universal neck/head interchangeability."
+   ],
+   "completeOfficialEntrySenseEvidence": "1592270:2;2791510;2791500;1582310:1",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "首",
+   "leftActualCaption": "шея",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q23",
+   "rationale": "首/くび independently has head sense2; separateこうべ and doll-headかしら also explicitly use首. Head overlap is independently attested, not neck always head or all readings modern/default.",
+   "right": "頭",
+   "rightActualCaption": "голова"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q24",
+    "2712010:2 archaicこのかみ older brother/1249900:1; no respectfulお兄さん identity."
+   ],
+   "completeOfficialEntrySenseEvidence": "2712010:2;1249900:1",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "首",
+   "leftActualCaption": "шея",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q24",
+   "rationale": "Archaic standalone首/このかみ explicitly older brother, directly matching currentстарший брат. Archaic qualification retained; no modern necessity/frequency asserted or respectfulお兄さん register invented.",
+   "right": "兄",
+   "rightActualCaption": "старший брат"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q25",
+    "2712010:2 archaic older sister/1307630; no respectfulお姉さん identity."
+   ],
+   "completeOfficialEntrySenseEvidence": "2712010:2;1307630",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "首",
+   "leftActualCaption": "шея",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q25",
+   "rationale": "Archaic standalone首/このかみ explicitly older sister, directly matching currentстаршая сестра. Not a generic relative or inherited respectfulお姉さん identity.",
+   "right": "姉",
+   "rightActualCaption": "старшая сестра"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q26",
+    "2712010:1 archaic eldest son/1404390:1 сын by relationship, without guessing minor age."
+   ],
+   "completeOfficialEntrySenseEvidence": "2712010:1;1404390:1",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "首",
+   "leftActualCaption": "шея",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q26",
+   "rationale": "Archaic standalone首/このかみ eldest son fits actual currentсын in the son-relationship realization. Not all sons eldest or an inference about minor age.",
+   "right": "息子",
+   "rightActualCaption": "сын"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q27",
+    "2712010:3,5 archaic older person/skilled craftsman support person-noun человек, not anatomical neck or adjective умелый."
+   ],
+   "completeOfficialEntrySenseEvidence": "2712010:3,5;1580640:1,6",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "首",
+   "leftActualCaption": "шея",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q27",
+   "rationale": "Archaic standalone older person/skilled craftsman is an actual person; provider independently records person and competent person. Qualified person realization, not anatomical neck every human or a gender/age assumption.",
+   "right": "人",
+   "rightActualCaption": "человек; люди"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q28",
+    "Those explicit person realizations meet1366770:1 individual человек, notじんかん/world or collective mankind."
+   ],
+   "completeOfficialEntrySenseEvidence": "2712010:3,5;1366770:1",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "首",
+   "leftActualCaption": "шея",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q28",
+   "rationale": "Archaic standalone older person/skilled craftsman directly fits currentчеловек as an individual human. Not the worldじんかん, all humanity collectively a neck, or a transitive people clique.",
+   "right": "人間",
+   "rightActualCaption": "человек"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q29",
+    "Those individuals meet1369070:1/person and3/able person; not automatically fiction or personality."
+   ],
+   "completeOfficialEntrySenseEvidence": "2712010:3,5;1369070:1,3",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "首",
+   "leftActualCaption": "шея",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q29",
+   "rationale": "Archaic older person/skilled craftsman meets independently recorded individual person/able person. Not fictional character or personal character automatically a head, and ordinary necessity UNVERIFIED.",
+   "right": "人物",
+   "rightActualCaption": "человек; персонаж; характер"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q30",
+    "2251080:2 chief/head can realize actual household-master/in-charge хозяин in1579780:1/2427550:1. No archaic tag on2251080:2; no husband/property identity or automatic company/school titles."
+   ],
+   "completeOfficialEntrySenseEvidence": "2251080:2;2712010:4;1579780:1;2427550:1",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "首",
+   "leftActualCaption": "шея",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q30",
+   "rationale": "Actual首/つかさ chief/head and separately archaic clan/region-head meet household-head/master realization in actual complete主人 provider. Broader/narrower leadership suitability PENDING; not marital husband or every boss/owner.2251080 has NO archaic tag; do not invent one.",
+   "right": "主人",
+   "rightActualCaption": "хозяин; свой муж"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q31",
+    "2712010:1 eldest son/1307770:2 offspring support ребёнок relationally, not by an invented age restriction."
+   ],
+   "completeOfficialEntrySenseEvidence": "2712010:1;1307770:2",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "首",
+   "leftActualCaption": "шея",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q31",
+   "rationale": "Archaic eldest-son relationship directly meets independently recorded one's child/offspring, not requiring a minor. Not age-based boy or an all-family clique.",
+   "right": "子",
+   "rightActualCaption": "ребёнок"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q32",
+    "Complete 子供 EN/RU explicitly one's offspring at any age: directly fits archaic eldest-son realization, not merely minors."
+   ],
+   "completeOfficialEntrySenseEvidence": "2712010:1;1307850",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "首",
+   "leftActualCaption": "шея",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q32",
+   "rationale": "Actual complete frozen/current子供 body explicitly permits one's offspring irrespective of age. Archaic eldest-son relationship can fit that captionребёнок; qualification is relationship, not every child eldest or an age assumption.",
+   "right": "子供",
+   "rightActualCaption": "ребёнок"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q33",
+    "1015220 personal jewelry/1310050 finger ornament/full bodies: украшения valid broadly for 指輪, not equipment accessories or every object jewelry."
+   ],
+   "completeOfficialEntrySenseEvidence": "1015220;1310050:1",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "アクセサリー",
+   "leftActualCaption": "аксессуары; украшения",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q33",
+   "rationale": "Actual personal adornment/jewelry realization includes the actual finger ornament, meeting newукрашения. Qualified jewelry only, not equipment accessories rings or all physical objects an adornment; generic/specific caption suitability PENDING.",
+   "right": "指輪",
+   "rightActualCaption": "кольцо на палец"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q34",
+    "Full primary explicitly broaderかばん; shape-neutral portable-bag provider permits сумка for a travel carrying-bag/case realization. Conservative, not портфель/every rigid case or English case alone."
+   ],
+   "completeOfficialEntrySenseEvidence": "1066690:1;1208910:1",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "スーツケース",
+   "leftActualCaption": "чемодан",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q34",
+   "rationale": "Full primary explicitly identifiesかばん as broader bag/case, and actual canonical鞄 body allows portable bags without fixed material/shape. Qualified travel carrying-case realization; Russianсумка versusчемодан suitability PENDING, not Englishcase or all containers equivalent.",
+   "right": "鞄",
+   "rightActualCaption": "сумка; портфель"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "actualIndependentGround": [
+    "Q35",
+    "Complete suitcase/check-in and 荷物 bodies support suitcase-as-багаж itself; not contents necessarily suitcase, all belongings a case or abstract burden."
+   ],
+   "completeOfficialEntrySenseEvidence": "1066690:1;1195430:1",
+   "decision": "ADOPT individually qualified conservative direct protection",
+   "left": "スーツケース",
+   "leftActualCaption": "чемодан",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED; unasserted",
+   "originalProposedStatus": "PROPOSED; actual caption/POS/sense independent judgment PENDING",
+   "proposalId": "Q35",
+   "rationale": "An actual suitcase presented/checked as baggage can fit currentбагаж. Container-as-baggage realization PENDING, not contents necessarily suitcase, all belongings a case, abstract burden, or an all-container clique.",
+   "right": "荷物",
+   "rightActualCaption": "багаж"
+  },
+  {
+   "actualIndependentEvidence": "docs/translation-batches/055-clothing-accessories-and-body-independent-review-001.json",
+   "completeOfficialEntrySenseEvidence": "1058480:1;1246700:1",
+   "decision": "ADOPT actual original independent F1 direct prescription",
+   "implementationEvidence": "docs/translation-batches/055-clothing-accessories-and-body-amended-authoring-001.json",
+   "independentBasis": "Actual original F1 explicitly diagnoses this direct caption ambiguity and prescribes the pair. Not a new whole/focused review or all-footwear clique.",
+   "left": "サンダル",
+   "leftActualCaption": "сандалии",
+   "ordinaryModernNecessityFrequency": "UNVERIFIED beyond actual finding",
+   "plannedChange": "Add quiz_exclusions:[靴] ONLY to newサンダル header; runtime direct symmetry, no transitive closure.",
+   "proposalId": "Q36",
+   "providerPath": "words/靴.md",
+   "providerRussianWorkingRawSha256": "99e89dc771d133d82dd8201c7c17a99c91ae49e2dcafa57f8651d6133d28c3ce",
+   "right": "靴",
+   "rightActualCaption": "обувь"
+  }
+ ],
+ "exactAppendOnlyEvidenceCorrections": [
+  "F2 / Q11 / 力 ability sense2"
+ ],
+ "exactAuthorImplementedFindings": [
+  {
+   "authorDisposition": "Implemented original exact direct pair prescription; header readback/parser/validator verified",
+   "bodyUnchanged": true,
+   "currentWorkingRawSha256": "36511a5f7acf46686217d4321236139f280c0e25f811aae0f801d980d16841ca",
+   "id": "F1",
+   "path": "words/サンダル.md"
+  },
+  {
+   "authorDisposition": "Append-only current evidence correction; original prewriting reference retained historically",
+   "correctedCompleteOfficialEntrySenseEvidence": "1562850:2,3;1554820:1,2",
+   "id": "F2",
+   "proposalId": "Q11"
+  }
+ ],
+ "exactIndependentlyPrescribedTeachingRepairs": [],
+ "exactMetadataRepairs": [
+  "F1 / Q36 / サンダル–靴"
+ ],
+ "facets": {
+  "C1": "Original CLEAN within assigned correctness scope; all20 actually reviewed teaching bodies identical",
+  "C2AdoptedCoverageDependencies": "35 individually retained qualified guards plus actual original F1 directサンダル–靴 prescription; F2 explicitly corrects ability reference to1554820:2. Exact original prescriptions author-implemented/parser/body-hash verified; no further semantic amendment.",
+  "C2BroaderWholePoolUniquenessAndOrdinaryModernNecessityFrequency": "UNVERIFIED; no new whole/focused review or fresh1020-caption/baseline-body rereading claimed",
+  "C2OriginalVerdict": "NEEDS_REVISION; actual original F1/F2 preserved, not replaced with CLEAN",
+  "C3": "Original CLEAN within assigned Russian-prose scope; all20 teaching bodies identical, not native/outcome certification"
+ },
+ "fullTaskComplete": false,
+ "metadataChange": "One addedサンダル exclusion header line only",
+ "newAssets": [],
+ "newRuntimePaths": 20,
+ "newWords": 20,
+ "next": "056+ all safe frozen levels/families; protected空 separate.",
+ "oldRuntimeEdits": [],
+ "ordinaryActivationAuthorized": false,
+ "originalActuallyReviewedFileLines": 1034,
+ "originalActuallyReviewedRussianSourceCommit": "5a8972c80d780d1d3f3282a79099389268a94b9a",
+ "originalFindings": [
+  {
+   "claim": "Neither header declares サンダル–靴. Actual 靴 caption обувь is a plausible correct answer to bare サンダル alongside сандалии; the new body calls sandals footwear and 靴 the broader name (lines15,34).",
+   "confidence": "high",
+   "correction": "Declare this direct pair in a header; runtime symmetry suffices. No inference through スリッパ or footwear clique.",
+   "id": "F1",
+   "line": 8,
+   "path": "R\\words\\サンダル.md",
+   "severity": "medium",
+   "source": "Complete primary and 靴 EN/RU; whole1058480:1/1246700:1; actual1020-caption pool, 靴 title line4."
+  },
+  {
+   "claim": "Q11 cites1554820:1,3 for physical/ability overlap. Whole 力 sense3 is efficacy/effect; capability/ability is sense2.",
+   "confidence": "high",
+   "correction": "Use1554820:1,2 for stated strength/ability grounds. Q11 remains independently supported; no learner 腕 prose change needed.",
+   "id": "F2",
+   "line": 2452,
+   "path": "R\\docs\\translation-batches\\055-clothing-accessories-and-body-source-adjudication.json",
+   "severity": "low",
+   "source": "Complete1562850/1554820, especially1554820 senses1–3; Q11 rationale."
+  }
+ ],
+ "perFileHashes": [
+  {
+   "currentFileLines": 50,
+   "path": "words/アクセサリー.md",
+   "ruGitRawSha256": "2852d1353f034346a611692a9cf15e465355d97639d7da522872973775ae4c07",
+   "ruRawSha256": "2852d1353f034346a611692a9cf15e465355d97639d7da522872973775ae4c07",
+   "ruSha256": "2852d1353f034346a611692a9cf15e465355d97639d7da522872973775ae4c07",
+   "sourceRawSha256": "14f2d126dbbd50162696cd5d846ada5f3da8f3443901802f0eefe0cd32bb7966",
+   "sourceSha256": "14f2d126dbbd50162696cd5d846ada5f3da8f3443901802f0eefe0cd32bb7966"
+  },
+  {
+   "currentFileLines": 50,
+   "path": "words/サンダル.md",
+   "ruGitRawSha256": "36511a5f7acf46686217d4321236139f280c0e25f811aae0f801d980d16841ca",
+   "ruRawSha256": "36511a5f7acf46686217d4321236139f280c0e25f811aae0f801d980d16841ca",
+   "ruSha256": "36511a5f7acf46686217d4321236139f280c0e25f811aae0f801d980d16841ca",
+   "sourceRawSha256": "dd526483f8cfdd41792981ff4b3c987ac3846aa20b5b473dbbc09387aea5f9f2",
+   "sourceSha256": "dd526483f8cfdd41792981ff4b3c987ac3846aa20b5b473dbbc09387aea5f9f2"
+  },
+  {
+   "currentFileLines": 52,
+   "path": "words/スーツ.md",
+   "ruGitRawSha256": "ced67409a45e51c594e3c2c554bb269f9cfac3893c1f4a9dd0b80a79d5f9d4c4",
+   "ruRawSha256": "ced67409a45e51c594e3c2c554bb269f9cfac3893c1f4a9dd0b80a79d5f9d4c4",
+   "ruSha256": "ced67409a45e51c594e3c2c554bb269f9cfac3893c1f4a9dd0b80a79d5f9d4c4",
+   "sourceRawSha256": "83e2afd33328be5c4fc6a5efc06e3afad7a55a01748043a00785051b552c4853",
+   "sourceSha256": "83e2afd33328be5c4fc6a5efc06e3afad7a55a01748043a00785051b552c4853"
+  },
+  {
+   "currentFileLines": 49,
+   "path": "words/スーツケース.md",
+   "ruGitRawSha256": "f8437deb2d1e152ceb2da777ffdddf697983caa657be993216e69b6ee973e096",
+   "ruRawSha256": "f8437deb2d1e152ceb2da777ffdddf697983caa657be993216e69b6ee973e096",
+   "ruSha256": "f8437deb2d1e152ceb2da777ffdddf697983caa657be993216e69b6ee973e096",
+   "sourceRawSha256": "9b165995b70f85654e576329a6c23601b3f1b1ed760a4e9eeaa6156e825a3515",
+   "sourceSha256": "9b165995b70f85654e576329a6c23601b3f1b1ed760a4e9eeaa6156e825a3515"
+  },
+  {
+   "currentFileLines": 52,
+   "path": "words/ハンドバッグ.md",
+   "ruGitRawSha256": "f6467a609a2db1f28d0f16f34cc92cafb2fd04c3b94b3addac632c8d3b034fbb",
+   "ruRawSha256": "f6467a609a2db1f28d0f16f34cc92cafb2fd04c3b94b3addac632c8d3b034fbb",
+   "ruSha256": "f6467a609a2db1f28d0f16f34cc92cafb2fd04c3b94b3addac632c8d3b034fbb",
+   "sourceRawSha256": "9538a4a116262dadd28b1ff3a75f834ee57c124c8a9b5ccc799c5eef10a81329",
+   "sourceSha256": "9538a4a116262dadd28b1ff3a75f834ee57c124c8a9b5ccc799c5eef10a81329"
+  },
+  {
+   "currentFileLines": 49,
+   "path": "words/下着.md",
+   "ruGitRawSha256": "ddc07ee09adaaa52fbbd4f511369d1dd97413c18a957c4d9d9e6539546810104",
+   "ruRawSha256": "ddc07ee09adaaa52fbbd4f511369d1dd97413c18a957c4d9d9e6539546810104",
+   "ruSha256": "ddc07ee09adaaa52fbbd4f511369d1dd97413c18a957c4d9d9e6539546810104",
+   "sourceRawSha256": "f5c8ca7ab68b5cf4cab1a34e36d8be9dc53e563d3018dd81bfe8d030aba9f380",
+   "sourceSha256": "f5c8ca7ab68b5cf4cab1a34e36d8be9dc53e563d3018dd81bfe8d030aba9f380"
+  },
+  {
+   "currentFileLines": 49,
+   "path": "words/手袋.md",
+   "ruGitRawSha256": "d47146d6fb10cd502344ff423ca5e0d49be57c3fca56f3a16e0ba72bdd308409",
+   "ruRawSha256": "d47146d6fb10cd502344ff423ca5e0d49be57c3fca56f3a16e0ba72bdd308409",
+   "ruSha256": "d47146d6fb10cd502344ff423ca5e0d49be57c3fca56f3a16e0ba72bdd308409",
+   "sourceRawSha256": "ad7b367dbdd70f10c4f07f9c91d027f42c73d2c53416605be422d46caaf2fee1",
+   "sourceSha256": "ad7b367dbdd70f10c4f07f9c91d027f42c73d2c53416605be422d46caaf2fee1"
+  },
+  {
+   "currentFileLines": 51,
+   "path": "words/指.md",
+   "ruGitRawSha256": "7c3541276d0c686d4398c2420e86ccab405006fa60a5cf48fd2c70c6d3612f55",
+   "ruRawSha256": "7c3541276d0c686d4398c2420e86ccab405006fa60a5cf48fd2c70c6d3612f55",
+   "ruSha256": "7c3541276d0c686d4398c2420e86ccab405006fa60a5cf48fd2c70c6d3612f55",
+   "sourceRawSha256": "45580c83a2b7a555cf9ee7b7e7254f1f2a0913861136afa686de7201adef79f3",
+   "sourceSha256": "45580c83a2b7a555cf9ee7b7e7254f1f2a0913861136afa686de7201adef79f3"
+  },
+  {
+   "currentFileLines": 46,
+   "path": "words/指輪.md",
+   "ruGitRawSha256": "5fc530df92df5394a9028fa828b4d724f62344b37009b35b47f1a5d54a375d5b",
+   "ruRawSha256": "5fc530df92df5394a9028fa828b4d724f62344b37009b35b47f1a5d54a375d5b",
+   "ruSha256": "5fc530df92df5394a9028fa828b4d724f62344b37009b35b47f1a5d54a375d5b",
+   "sourceRawSha256": "1ccfba9a1c40cb6138eb6efa577d9ee78ddd34292221ac1cbe9b5bcd6a84b3cd",
+   "sourceSha256": "1ccfba9a1c40cb6138eb6efa577d9ee78ddd34292221ac1cbe9b5bcd6a84b3cd"
+  },
+  {
+   "currentFileLines": 52,
+   "path": "words/木綿.md",
+   "ruGitRawSha256": "b8cf1c372097c99b63f284bd5e7b764a883e37722ade1db06f505a53e683b890",
+   "ruRawSha256": "b8cf1c372097c99b63f284bd5e7b764a883e37722ade1db06f505a53e683b890",
+   "ruSha256": "b8cf1c372097c99b63f284bd5e7b764a883e37722ade1db06f505a53e683b890",
+   "sourceRawSha256": "6166a320b720e6546e195e4a1135f867afdf05c0737686205a74cac2fc5219d6",
+   "sourceSha256": "6166a320b720e6546e195e4a1135f867afdf05c0737686205a74cac2fc5219d6"
+  },
+  {
+   "currentFileLines": 54,
+   "path": "words/格好.md",
+   "ruGitRawSha256": "c68630e49e46fe3b1fb105c9ac586dad6fa415ea7fd5c011357e7c3b728012c7",
+   "ruRawSha256": "c68630e49e46fe3b1fb105c9ac586dad6fa415ea7fd5c011357e7c3b728012c7",
+   "ruSha256": "c68630e49e46fe3b1fb105c9ac586dad6fa415ea7fd5c011357e7c3b728012c7",
+   "sourceRawSha256": "931d4430a9962cbd553eb71c867eb8a2324e2a058ce6a86c9e8af318dc105137",
+   "sourceSha256": "931d4430a9962cbd553eb71c867eb8a2324e2a058ce6a86c9e8af318dc105137"
+  },
+  {
+   "currentFileLines": 50,
+   "path": "words/着物.md",
+   "ruGitRawSha256": "e86ab1e7600cf8af5d1c70347132595ec9d2ce8b9abf204ee3f9aad9e431522d",
+   "ruRawSha256": "e86ab1e7600cf8af5d1c70347132595ec9d2ce8b9abf204ee3f9aad9e431522d",
+   "ruSha256": "e86ab1e7600cf8af5d1c70347132595ec9d2ce8b9abf204ee3f9aad9e431522d",
+   "sourceRawSha256": "deac750ed53bfe3b0368c61a9ff9beda74a57e038c97c67f14113bb606c06878",
+   "sourceSha256": "deac750ed53bfe3b0368c61a9ff9beda74a57e038c97c67f14113bb606c06878"
+  },
+  {
+   "currentFileLines": 49,
+   "path": "words/絹.md",
+   "ruGitRawSha256": "60c81dc06c0b73ed417f2874f9be3362d4f13e23708210f9f0a7a3da8807f6d2",
+   "ruRawSha256": "60c81dc06c0b73ed417f2874f9be3362d4f13e23708210f9f0a7a3da8807f6d2",
+   "ruSha256": "60c81dc06c0b73ed417f2874f9be3362d4f13e23708210f9f0a7a3da8807f6d2",
+   "sourceRawSha256": "5541528bedb43be382437fa280db7f1d7980018397cc3b43f5a30fab6042bc8a",
+   "sourceSha256": "5541528bedb43be382437fa280db7f1d7980018397cc3b43f5a30fab6042bc8a"
+  },
+  {
+   "currentFileLines": 58,
+   "path": "words/美しい.md",
+   "ruGitRawSha256": "fc0c6c77786a45e32ba5c1a6710b54951bffc9a52f2a4ba50ee404f24cb77a6f",
+   "ruRawSha256": "fc0c6c77786a45e32ba5c1a6710b54951bffc9a52f2a4ba50ee404f24cb77a6f",
+   "ruSha256": "fc0c6c77786a45e32ba5c1a6710b54951bffc9a52f2a4ba50ee404f24cb77a6f",
+   "sourceRawSha256": "a2d8beb50e370434fbf23d03ac98892333be4c0db13425a7570a6b8b403c4748",
+   "sourceSha256": "a2d8beb50e370434fbf23d03ac98892333be4c0db13425a7570a6b8b403c4748"
+  },
+  {
+   "currentFileLines": 53,
+   "path": "words/背中.md",
+   "ruGitRawSha256": "5f2135c2527d84637e9c1ecbca334eda1115948b673e4475161f0b234e001679",
+   "ruRawSha256": "5f2135c2527d84637e9c1ecbca334eda1115948b673e4475161f0b234e001679",
+   "ruSha256": "5f2135c2527d84637e9c1ecbca334eda1115948b673e4475161f0b234e001679",
+   "sourceRawSha256": "7d8255741162bc5fd4e5876ebdafa814caabb1fa05721b38b1533d26826f3b6b",
+   "sourceSha256": "7d8255741162bc5fd4e5876ebdafa814caabb1fa05721b38b1533d26826f3b6b"
+  },
+  {
+   "currentFileLines": 53,
+   "path": "words/腕.md",
+   "ruGitRawSha256": "18fef7e03316cc9d26c9563588a23a128e7c257c02da99c3520921d9184513fb",
+   "ruRawSha256": "18fef7e03316cc9d26c9563588a23a128e7c257c02da99c3520921d9184513fb",
+   "ruSha256": "18fef7e03316cc9d26c9563588a23a128e7c257c02da99c3520921d9184513fb",
+   "sourceRawSha256": "ed2723706a31163c23fd0eb3b6dddb7b2833c1fadaf23ec17ea939a1ebeb5aff",
+   "sourceSha256": "ed2723706a31163c23fd0eb3b6dddb7b2833c1fadaf23ec17ea939a1ebeb5aff"
+  },
+  {
+   "currentFileLines": 54,
+   "path": "words/飾る.md",
+   "ruGitRawSha256": "bbb83bd1fbb47c95ed31805b3d46309d9fba2785e97993d599be2cedf35be0e8",
+   "ruRawSha256": "bbb83bd1fbb47c95ed31805b3d46309d9fba2785e97993d599be2cedf35be0e8",
+   "ruSha256": "bbb83bd1fbb47c95ed31805b3d46309d9fba2785e97993d599be2cedf35be0e8",
+   "sourceRawSha256": "14b5a7a2b2a7fde0aef520a2695c3cf675b9295700f9582f11085a6e930bd79e",
+   "sourceSha256": "14b5a7a2b2a7fde0aef520a2695c3cf675b9295700f9582f11085a6e930bd79e"
+  },
+  {
+   "currentFileLines": 56,
+   "path": "words/首.md",
+   "ruGitRawSha256": "eeaab53bbf1a6146f7a1e7c487afb5e8473bfdccfe6c0dc136e36dbddce64b12",
+   "ruRawSha256": "eeaab53bbf1a6146f7a1e7c487afb5e8473bfdccfe6c0dc136e36dbddce64b12",
+   "ruSha256": "eeaab53bbf1a6146f7a1e7c487afb5e8473bfdccfe6c0dc136e36dbddce64b12",
+   "sourceRawSha256": "ae0e379d74f5eaa566a50fedb3fdb62334f80e3203f924af026af0c7ad800291",
+   "sourceSha256": "ae0e379d74f5eaa566a50fedb3fdb62334f80e3203f924af026af0c7ad800291"
+  },
+  {
+   "currentFileLines": 56,
+   "path": "words/髪.md",
+   "ruGitRawSha256": "cb0d33cc027716e0e840c8fd39fea7fd59120b459e37950bb49e2c73cbaaa239",
+   "ruRawSha256": "cb0d33cc027716e0e840c8fd39fea7fd59120b459e37950bb49e2c73cbaaa239",
+   "ruSha256": "cb0d33cc027716e0e840c8fd39fea7fd59120b459e37950bb49e2c73cbaaa239",
+   "sourceRawSha256": "1ae3f7777f2a203a13cc3bcaa5112a82e2c2598f2f953e4260107d4d10f1103b",
+   "sourceSha256": "1ae3f7777f2a203a13cc3bcaa5112a82e2c2598f2f953e4260107d4d10f1103b"
+  },
+  {
+   "currentFileLines": 52,
+   "path": "words/髭.md",
+   "ruGitRawSha256": "105f7dc88ca50289f31346b74e13a683b5dbccbe0b9758be39668e6c0fc1abae",
+   "ruRawSha256": "105f7dc88ca50289f31346b74e13a683b5dbccbe0b9758be39668e6c0fc1abae",
+   "ruSha256": "105f7dc88ca50289f31346b74e13a683b5dbccbe0b9758be39668e6c0fc1abae",
+   "sourceRawSha256": "3122b54792be27bbaca39383ef38c55f3e5b0562a253a4f3cf73f159923cc9e7",
+   "sourceSha256": "3122b54792be27bbaca39383ef38c55f3e5b0562a253a4f3cf73f159923cc9e7"
+  }
+ ],
+ "progressStatuses": {
+  "draft-reviewed-runtime-blocked": 2,
+  "pending": 6944,
+  "reviewed-current": 1332
+ },
+ "protectedUnverifiedDrafts": [
+  {
+   "draftPath": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+   "runtimePath": "words/空.md",
+   "status": "Excluded pending/C2 UNVERIFIED; not a media draft",
+   "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268"
+  }
+ ],
+ "remainingUnimplementedOriginalFindings": [],
+ "reviewedRussianSourceCommit": "96698419ef7dc9fbb38189848ae4a1dc13c8c62a",
+ "runtime": {
+  "N5Words": 671,
+  "contentVersion": "d2bb4ec8e78636e8",
+  "frozenN5Words": 672,
+  "objects": 1332,
+  "remainingN5Words": 1,
+  "wordJlptCounts": {
+   "2": 19,
+   "3": 65,
+   "4": 211,
+   "5": 671,
+   "unlabelled": 54
+  },
+  "words": 1020
+ },
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "validation": {
+  "runs": [
+   {
+    "command": [
+     "tools\\build_manifest.py"
+    ],
+    "completedAt": "2026-11-06T21:27:45.987017+00:00",
+    "returncode": 0,
+    "seconds": 0.2029999999795109,
+    "startedAt": "2026-11-06T21:27:45.788055+00:00",
+    "stderr": "",
+    "stdout": "manifest.json: 1332 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version d2bb4ec8e78636e8\n"
+   },
+   {
+    "command": [
+     "tools\\validate.py"
+    ],
+    "completedAt": "2026-11-06T21:27:48.448858+00:00",
+    "returncode": 0,
+    "seconds": 2.452999999979511,
+    "startedAt": "2026-11-06T21:27:45.987017+00:00",
+    "stderr": "",
+    "stdout": "0 error(s)\n"
+   },
+   {
+    "command": [
+     "-m",
+     "unittest",
+     "discover",
+     "-s",
+     "tools",
+     "-p",
+     "test_*.py"
+    ],
+    "completedAt": "2026-11-06T21:28:12.796928+00:00",
+    "returncode": 0,
+    "seconds": 24.359000000054948,
+    "startedAt": "2026-11-06T21:27:48.448858+00:00",
+    "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 24.087s\n\nOK\n",
+    "stdout": ""
+   },
+   {
+    "command": [
+     "tools\\check_content_budget.py"
+    ],
+    "completedAt": "2026-11-06T21:28:13.606027+00:00",
+    "returncode": 0,
+    "seconds": 0.7970000000204891,
+    "startedAt": "2026-11-06T21:28:12.796928+00:00",
+    "stderr": "",
+    "stdout": "{'files': 1340, 'entries': 1349, 'retainedBytes': 3675622, 'inflatedBytes': 3693837, 'localZipBytes': 1869223, 'listeningTaskMediaBytes': 0}\n"
+   }
+  ]
+ },
+ "withdrawnOriginalProposalIds": []
+}
