@@ -11,6 +11,42 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The fifty-fourth full-target batch adds **20 complete N4 meals/cooking/flavour
+lessons /1024 Russian lines** against the unchanged frozen source.
+The [actual single independent report](translation-batches/054-meals-cooking-and-flavours-independent-review-001.json)
+actually read179 complete teaching bodies,196 whole official objects,
+all1000 candidate captions/readings and nine stored bounded public returns.
+C1/C3 are CLEAN in the assigned correctness/Russian-prose scope.
+C2 is CLEAN for assigned dependencies and **35 individually retained conservative
+direct guards**; no findings, withdrawals or unresolved guard IDs.
+All20 reviewed bodies and metadata remain identical.
+The genuine signed pre-writing freeze preceded all learner writing.
+No second review, invented repair or fresh1000-baseline-body rereading is claimed.
+Ordinary modern necessity/frequency and broader global uniqueness remain
+**UNVERIFIED**, including rare米/metre and qualified grain/serving/proficiency/
+heating/psychological caption interpretations.
+Actual甘い/うまい spelling and separate味 adjective/み noun-counter/suffix
+domains are not guessed from English or character glosses.
+Payment senses retain their exact qualifications;焼ける potential modality
+is not dropped. Generated examples/failed fetches are not lexical evidence,
+and phonetic spelling does not prove historical origin.
+
+Qualified source membership: **1312 runtime objects /1000 words**,
+671 N5/191 N4/65 N3/19 N2/54 unlabelled; protected空 is the only remaining N5 word.
+Strict progress: **1312 reviewed-current, two excluded reviewed runtime-blocked
+media drafts,6964 pending,6966 absent runtime paths**, no partial.
+Version `45b56afd82c797ad`; checkpoint authority null/Ready false.
+All1292 baseline RAWs/tracking rows and historical evidence are preserved.
+Nine source navigation wrappers retained/14 unavailable optional wrappers
+unwrapped; no source-only provider forced into runtime.
+Signed main integration/public archives/exact-main CI are separate actual
+publication evidence, not linguistic-report claims.
+Protected excluded033空 remains pending/C2 UNVERIFIED, separate from the
+two media drafts. No new asset/app/device/phone/IME/media/default/release
+approval. Continue the entire remaining safe frozen scope.
+
+Batch053 and earlier milestones below are historical.
+
 The fifty-third full-target batch adds **20 complete N4 housing/overnight/
 household-routine lessons /1068 Russian lines** against the unchanged frozen source.
 The [actual single independent report](translation-batches/053-housing-overnight-stays-and-household-routines-independent-review-001.json)

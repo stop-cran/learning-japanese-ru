@@ -1,6 +1,48 @@
 # Full Russian translation: execution after the two pilots
 
-## Current source milestone: batch053 housing and overnight routines
+## Current source milestone: batch054 meals, cooking and flavours
+
+Batch054 adds **20 complete N4 lessons /1024 Russian lines** against unchanged
+frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The [actual single independent report](translation-batches/054-meals-cooking-and-flavours-independent-review-001.json)
+actually read **179 complete teaching bodies**:20 primary complete EN/RU
+pairs,60 contextual complete EN/RU pairs and19 source-only EN comparisons;
+196 whole official objects, all1000 actual candidate captions/readings
+and nine stored bounded public returns.
+C1/C3 are CLEAN within the assigned correctness/Russian-prose scope.
+C2 is CLEAN for the assigned dependencies and **all35 individually retained
+conservative direct guards**; there are no findings, withdrawals or unresolved
+guard IDs. This is not a second review, invented repair or fresh1000-baseline-body
+rereading. Ordinary modern necessity/frequency and broader global uniqueness
+remain **UNVERIFIED**.
+
+The actual source evidence preserves 一杯 state/serving distinctions,
+上手い i-adjective and exact甘い/うまい spelling identity,
+separate 味 adjective/み noun-counter/suffix domains,
+specialized payment senses and 焼ける independent/potential forms.
+米/metre retains its rare-spelling limit; grain/prepared-rice,
+generic/specific captions and psychological苦い protections remain qualified,
+not universal Japanese equivalences or a transitive food/negative-state clique.
+The generated Weblio味な examples and failed焼ける fetch are not lexical proof.
+No phonetic spelling is promoted into historical-origin proof.
+The genuine signed pre-writing freeze preceded all20 complete learner writes;
+the reviewed teaching bodies and metadata are unchanged.
+
+Qualified source membership: **1312 runtime objects /1000 words**,
+including671 N5/191 N4/65 N3/19 N2/54 unlabelled.
+Strict accounting: **1312 reviewed-current, two excluded reviewed runtime-
+blocked media drafts,6964 pending of8278;6966 runtime paths absent**, no partial.
+Version `45b56afd82c797ad`; checkpoint authority null/Ready false.
+All1292 baseline RAWs/tracking rows and historical reports are preserved.
+Nine source navigation wrappers are retained;14 unavailable optional wrappers
+are unwrapped without losing Japanese facts or forcing absent providers.
+Signed main integration, actual public archives and exact-main CI are separate
+publication evidence, not established by this linguistic report.
+No new assets/app/device/phone/IME/media/default/release approval.
+Continue every remaining safe frozen level/family; protected excluded033空
+remains the only N5 pending/C2 UNVERIFIED word, not a third media draft.
+
+## Prior source milestone: batch053 housing and overnight routines
 
 Batch053 adds **20 complete N4 lessons /1068 Russian lines** against unchanged
 frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
