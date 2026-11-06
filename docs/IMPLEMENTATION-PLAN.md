@@ -11,6 +11,40 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The fifty-second full-target batch adds **20 complete N4 household/tools/
+daily-living lessons /1080 Russian lines** against the unchanged frozen source.
+The [actual independent report](translation-batches/052-household-tools-and-daily-living-independent-review-001.json)
+read20 primary/50 contextual complete EN/RU pairs and30 source-only comparisons,
+plus the complete guitar pair (**172 bodies**),173 complete official entries
+and all960 actual candidate captions/readings.
+C1/C3 PASS apply within the20 lessons; original **C2 CHANGES REQUIRED** is immutable.
+The [exact metadata repair](translation-batches/052-household-tools-and-daily-living-finding-resolution-001.json)
+adopts 引き出し–荷物 and道具–ギター while preserving **all20 complete bodies**.
+**31 individually qualified safeguards** comprise29 supported original proposals
+and the two prescribed additions. Actual full named Russian «багаж» evidence,
+not earlier literal-only/other-dictionary summaries, supports the knowledge-stock fit.
+The guitar guard is direct «инструмент» caption protection, not a family clique.
+大事–大丈夫 retains its Tochigi-dialect-only limit; ordinary N4 necessity/
+frequency UNVERIFIED. Shared大事/大切 captions do not equate Japanese senses.
+ガラス's card-reading warning permits separateグラス material usage.
+The signed pre-bedding amendment preserves蒲団 rarity, not unsupported age.
+No second review, transitive expansion or fresh940-baseline-body rereading is invented.
+Broader whole-pool uniqueness, 暖房–ストーブ fit and ordinary modern necessity/
+frequency remain **UNVERIFIED**; earlier historical limits are not cleared.
+
+Membership: **1272 runtime objects /960 words**,
+671 N5/151 N4/65 N3/19 N2/54 unlabelled; protected空 is the only remaining N5 word.
+Strict progress: **1272 reviewed-current, two excluded reviewed runtime-blocked
+media drafts,7004 pending,7006 absent runtime paths**, no partial.
+Version `57fedd851a2005e0`; checkpoint authority null/Ready false.
+All1252 baseline RAWs/tracking rows and historical evidence are preserved.
+Final serialized checks, signed integration/public archives/exact-main CI
+are recorded separately. Protected excluded033空 remains pending/C2 UNVERIFIED,
+separate from the two media drafts. No new asset/app/device/phone/IME/media/
+default-activation/release approval. Continue all safe frozen levels/families.
+
+Batch051 and earlier milestones below are historical.
+
 The fifty-first full-target batch adds **21 complete N4 workplaces/roles/
 arrangements lessons /1136 Russian lines** against the unchanged frozen source.
 The [actual independent report](translation-batches/051-workplaces-roles-and-arrangements-independent-review-001.json)
