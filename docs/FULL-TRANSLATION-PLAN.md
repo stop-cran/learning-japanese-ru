@@ -1562,3 +1562,48 @@ No app/ordinary EN edits, paid generation, new media-package authority, phone/IM
 C6/C7/default activation/release/human-checkpoint approval.
 Continue the 180 remaining N5 words and every other safe frozen level/family;
 the full finite objective remains in progress.
+
+## Reviewed source milestone037: communication, learning and writing
+
+[Reviewed source037](translation-batches/037-communication-learning-reviewed-source.json)
+and [actual independent review](translation-batches/037-communication-learning-independent-review.json)
+accept 16 complete frozen N5 words: 言う、話、声、呼ぶ、答える、質問、問題、意味、
+教える、習う、覚える、忘れる、頼む、作文、文章、テスト.
+All Japanese teaching/examples/readings/forms, stable metadata IDs/levels/tags,
+qualifications and attributions remain. Seventeen adopted local links remain;
+only 24 unavailable optional wrappers were removed, without deleting teaching.
+
+The actual whole reviewer read **35 complete EN/RU pairs**, **695 compact captions**,
+**61 complete selected lexical objects** and **four selected dictionary ranges**.
+It returned C1/C3 CLEAN, C2 NEEDS_FIX, the missing direct 作文–書く guard and two
+UNVERIFIED learning-guard rationales. The full 12,386-byte native report and successful
+reading trace are preserved, including its disclosed requested transfer-limit miss.
+The actual focused reviewer read **five complete pairs**, **five fresh selected ranges**,
+the complete original report, proposals and three observation-bound guidance lines/one link.
+It independently resolves the writing guard, retains 覚える–勉強 with new actual
+Japanese/Russian acquisition-sense evidence, and approves withdrawing unestablished
+覚える–習う. It considered the rehearsal sense, not a blanket never-overlap claim.
+The Russian acquisition definition has no usage example; none is invented as attested.
+Other 22 original direct decisions carry on unchanged content: **24 guards total**.
+The focused verdict does not pretend to repeat the whole review.
+
+All **991 accepted baseline RAWs/tracking rows**, all 16 full learner bodies/695 captions
+and the complete excluded C2-unverified 空 draft remain unchanged by the correction.
+Membership is **1007 runtime objects**: 141 kanji, 695 words, 141 strokes,
+two complete articles, 22 counter files, one grammar set, two scene catalogs and three images.
+Words: **508 N5 /54 N4 /60 N3 /19 N2 /54 unlabelled**;
+**508 of 672 frozen N5 words adopted, 164 remain**.
+Fresh strict 8,278-entry progress: **1007 reviewed-current**, **no partial**,
+**two excluded reviewed runtime-blocked media drafts**, **7,269 pending**,
+**7,271 runtime paths absent**. Version `78b9999fcefcb597`; checkpoint authority null/Ready false.
+Actual corrected checks: validator 0 errors, 124 tests OK in 30.812s and budget passed.
+Final serialized checks, signed integration, actual archives and exact-main CI
+remain separate publication evidence, not native/device acceptance.
+
+No new assets. Canonical `memory`, `requests`, `study` IDs remain unchanged;
+raw fallback is observed only at pinned app `5c000bd`, not concurrent app/device rendering.
+Historical native passes and outstanding C6/C7/media/default-activation gates remain
+separate. Later actual findings may require affected-batch corrections/re-review,
+not a speculative stop to unrelated authoring.
+Continue the 164 remaining N5 words and every other safe frozen level/family;
+the entire finite objective remains in progress.

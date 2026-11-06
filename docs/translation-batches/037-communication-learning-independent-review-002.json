@@ -1,0 +1,67 @@
+{
+ "actualEventsPrivateArtifact": "ru-037-focused-review-actual-events-001.json",
+ "actualEventsRawSha256": "9d032160dea6d365eb8b258f69434e5245dc5a665d966b74a065146b5554a770",
+ "actualGuidanceDiffRead": true,
+ "actualNativeContentDomain": "tool.execution_complete",
+ "actualNativeEventId": "b36dbe44-fd68-4bd6-b8d4-a5d7f6e7be16",
+ "actualNativeReturnText": "## Snapshot and boundary\n\n- **R:** `7f19188ce2c008a00719a1aec0cb806af83864ea` — signature verified; tracked tree clean.\n- **Frozen S:** `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.\n- Historical whole-review candidate: `b6a1699c815a1f8b2ecb612bd10dc2455fe59d39`.\n\nThis was one independent, read-only **focused source review**, not another whole review.\n\n## Actually read and checked\n\nI read:\n- The complete 12,386-byte historical report, correction proposals, and complete guidance delta.\n- All five complete frozen EN/current RU pairs: **作文, 書く, 覚える, 勉強, 習う**, including metadata, examples, qualifications and attribution.\n- All five capture-bound dictionary ranges: 作文 **24–37**, 習う **24–36**, 覚える **24–43**, Russian изучать **155–188**, учиться **155–173**—not whole pages.\n- Active RU instructions, all three actual reviewer rubrics, and applicable structure/methodology/format sections.\n\nHelper verification succeeded for all **1007 runtime hashes**, **1005 other unchanged RAWs**, **991 accepted RAWs**, **695 unchanged captions**, **16 unchanged full learner bodies**, and the excluded 空 boundary. These are fingerprint checks, not linguistic judgments.\n\n## Independent adjudication\n\n### F1 / RU037-01 — **resolved**\n`words\\作文.md:9`; `words\\書く.md:5,15–16`.\n\nThe added direct **作文–書く** exclusion addresses the actual ambiguity. Modern **デジタル大辞泉**, 作文:28, explicitly gives `文章を書くこと。また、その文章`, under `［名］(スル)`. The unchanged 書く caption is **«писать»**, and its body includes composing texts. Part-of-speech difference does not make that competing answer safely wrong. No baseline edit is needed. **Confidence: high.**\n\n### U1 / 覚える–勉強 — **resolved for retaining the direct safeguard**\n`words\\覚える.md:9`; `words\\勉強.md:4,15,36`.\n\nThe new evidence establishes a defensible intersection with actual **«учёба; изучение»**, rather than merely repeating English *learn*:\n\n- Daijisen 覚える:29 defines acquisition through learning/experience and attests **技術を覚える**.\n- Russian изучать:166 explicitly includes **«овладевать… осваивать… приобретая необходимые умения, навыки»**; :178 lists **изучение**.\n\nThus «изучение» need not denote only effort preceding acquisition. This supports a direct caption safeguard without equating every study activity with achieved mastery; the learner body preserves that distinction.\n\n**The Russian sense has no usage example.** I treat it as definitional evidence, not an attested Russian collocation. **Confidence: moderate.**\n\n### U2 / 覚える–習う — **withdrawn; removal is sound**\n`words\\覚える.md:9`; `words\\習う.md:4,16–21,46–50`.\n\nI considered—not dismissed—the modern rehearsal sense: 習う:28 describes repeatedly practising previously taught material, including practising dance steps alone. That establishes rehearsal, not automatically **«запоминать; помнить»**. Conversely, 覚える does not encode the provider qualification **«у преподавателя»**.\n\nNeither direction establishes the actual competing caption as an acceptable answer. Removing this unproved safeguard is justified; this is **not** a claim that the Japanese words never overlap. **Confidence: moderate.**\n\n## Focused verdicts\n\n- **C1 Japanese correctness/preserved teaching: CLEAN**\n- **C2 direct ambiguity/dependencies: CLEAN**\n- **C3 novice Russian/no English prerequisite: CLEAN**\n\nNo remaining actionable defect or consequential unresolved claim was established **within this narrow recheck**. The three prose lines/one link of guidance accurately record the observed issue and historical evidence gap, without imposing a speculative stop.\n\nThe other **22 decisions** and wider historical C1/C3 conclusions remain historical review evidence on unchanged content—not my fresh rereview. Net **24 direct guards**, without transitive expansion.\n\nNo writes, agents, communications, tests, builds, emulators, packages or Git changes; no ordinary EN/app checkout accessed. 空 remains pending/non-runtime. This grants no whole-corpus, native/device/media, default-activation, release or checkpoint acceptance.",
+ "actualNativeReturnUtf8Bytes": 4364,
+ "actualNativeReturnUtf8Sha256": "393d5ad788462aa45849c23ee375a87819e5e524ed99883062736700046289f2",
+ "actualObservedSuccessfulReaderScope": {
+  "modes": [
+   "guidance",
+   "initial",
+   "pair",
+   "proposals",
+   "section",
+   "verify"
+  ],
+  "pairs": [
+   "作文",
+   "勉強",
+   "書く",
+   "習う",
+   "覚える"
+  ],
+  "sections": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ "batchId": "037-communication-learning",
+ "candidateCommit": "7f19188ce2c008a00719a1aec0cb806af83864ea",
+ "checkpointAuthority": null,
+ "facets": {
+  "C1": "CLEAN",
+  "C2": "CLEAN",
+  "C3": "CLEAN"
+ },
+ "journalReadBound": "Last4194304bytes of known session journal only; no full journal or OS-temp access.",
+ "limits": [
+  "Only16newruntime complete source lessons accepted; not wholecorpus/native/device/media/defaultactivation/release/checkpoint authority.",
+  "Actualwhole35fullpairs=16primary+19support;695compactcaptionsNOT695fullbodies;61selectedcompleteobjects/4selectedrangesNOTwholepages. Whole extra RU書く/modern4sections disclosed.",
+  "Actualfocused5fullpairs/5freshselectedranges/completeinitialreport/proposals/3guidancelines+1link resolvesF1/U1/U2; not a secondwhole review. Cumulative uniquefullENRUpairs36, not40.",
+  "Original22directdecisions carry on unchangedRAWs; focusretains覚える–勉強 with new actual Japanese/Russian acquisition definition, adds作文–書く, withdraws unestablished覚える–習う. Not a never-overlap or transitive-clique claim.",
+  "Russian acquisition sense has no usageexample; definitional evidence only, not a fictional attested collocation. Moderateconfidence directguard judgment disclosed.",
+  "Complete actualnative reports12386/4364UTF8bytes and actualsuccessfulreadingtraces preserved. Whole report exceededrequested11000bytes; no truncation or hidden missingsemanticreading claimed.",
+  "991acceptedbaselineRAWs/tracking/all16learnerbodies/695captions and full excludedsky preserved. ExistingskyC2UNVERIFIED/outside037/not another blockedmedia draft.",
+  "Canonicalmemory/requests/study IDs stable; rawfallback observedONLYatimmutableapp5c000bd. No concurrent app/ordinaryEN edits, newassets/paidgeneration/native/phone/IME/playback/newmediaauthority."
+ ],
+ "ordinaryActivationAuthorized": false,
+ "requiredRuntimeFindingsRemaining": [],
+ "resolvedFindings": [
+  "F1/RU037-01"
+ ],
+ "resolvedUncertainties": {
+  "U1覚える–勉強": "RETAIN direct safeguard; fresh actual Japanese/Russian acquisition sense evidence; moderate confidence/no Russian usage example.",
+  "U2覚える–習う": "WITHDRAW unestablished safeguard; rehearsal considered, not automatically memorizing; provider qualification not encoded in覚える; moderate confidence/not never-overlap claim."
+ },
+ "reviewerAgentId": "2a348a5d-366d-4cb2-950e-e12307b76406",
+ "reviewerName": "ru037-focused-recheck",
+ "schemaVersion": 1,
+ "scopeBoundary": "Only5fullpairs/5selectedranges/guidancediff/proposals/completeinitialreport; whole22otherdecisions carry on unchangedRAWs, not a secondwhole review or corpus/native/device/media/release acceptance.",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f"
+}

@@ -8,6 +8,35 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+The thirty-seventh full-target batch adds **16 complete N5 communication/learning words**.
+[Reviewed source037](translation-batches/037-communication-learning-reviewed-source.json)
+and [actual independent review](translation-batches/037-communication-learning-independent-review.json)
+combine a whole review of 35 complete EN/RU pairs, 695 compact captions,
+61 complete selected lexical objects and four selected dictionary ranges with a
+focused recheck of five complete pairs, five fresh selected ranges and three guidance
+lines/one link. The initial C2 NEEDS_FIX and both unverified guard rationales are preserved.
+The recheck resolves the added 作文–書く guard, retains 覚える–勉強 using exact new
+Japanese/Russian acquisition-sense evidence, and withdraws unestablished 覚える–習う:
+**24 direct guards**, not a transitive clique. The Russian dictionary sense has no
+usage example; no invented collocation is claimed as attested.
+
+All 991 accepted baseline RAWs/tracking rows, all 16 learner bodies/695 captions
+and the full excluded C2-unverified 空 remain unchanged by the metadata correction.
+Membership: **1007 runtime objects**, including 695 words;
+word levels 508 N5/54 N4/60 N3/19 N2/54 unlabelled; **164 of 672 N5 words remain**.
+Fresh strict progress: **1007 reviewed-current, two excluded reviewed runtime-blocked
+media drafts, 7,269 pending, 7,271 absent runtime paths**, no partial.
+Version `78b9999fcefcb597`; checkpoint authority null/Ready false.
+Corrected candidate: validator 0 errors, 124 tests OK in 30.812s and budget passed;
+final checks, signed main integration, actual public archives and exact-main CI have
+separate receipts. Canonical `memory`, `requests`, `study` IDs stay stable;
+raw fallback is observed only at pinned app `5c000bd`, not a current-app/device claim.
+No new assets or app/ordinary EN/device/media/default-activation/release approval.
+Later real native findings can require affected-batch correction/re-review;
+continue every remaining safe frozen level/family without a speculative stop gate.
+
+Batch 036 and earlier milestones below are historical.
+
 The thirty-sixth full-target batch adds **14 complete N5 state-change/operation words**.
 [Reviewed source 036](translation-batches/036-state-changes-operations-reviewed-source.json)
 and its [independent review](translation-batches/036-state-changes-operations-independent-review.json)
