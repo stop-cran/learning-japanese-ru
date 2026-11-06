@@ -11,6 +11,38 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The fiftieth full-target batch adds **18 complete N4 communication/polite-speech
+lessons /950 Russian lines** against the unchanged frozen source.
+The [actual independent report](translation-batches/050-communication-and-polite-speech-independent-review-001.json)
+read18 primary/34 contextual complete EN/RU pairs and18 source-only comparisons
+(**122 bodies**),120 complete entries and all919 actual metadata rows.
+C1/C3 CLEAN apply within the18 complete lessons; original **C2 NEEDS FIX**
+remains immutable. F1/F2/F3 prescribe seven direct guards:
+伝える–知らせる, 申し上げる–表現/伝える/知らせる/教える,
+and相談–会議/話す. The
+[exact metadata repair](translation-batches/050-communication-and-polite-speech-finding-resolution-001.json)
+adopts them while preserving all18 teaching bodies by identity.
+**44 individually qualified safeguards** comprise37 original proposals
+and seven prescribed additions. No second review, automatic register clique,
+transitive expansion or fresh full-baseline reading is invented.
+POS/suru/register/rare-sense/alternate-reading/intonation limits remain binding;
+the会議 addition retains medium confidence.
+Broader caption-fit questions, whole-pool uniqueness and ordinary modern
+necessity/frequency remain **UNVERIFIED**.
+
+Membership: **1231 runtime objects /919 words**,
+671 N5/110 N4/65 N3/19 N2/54 unlabelled; protected空 is the only remaining N5 word.
+Strict progress: **1231 reviewed-current, two excluded reviewed runtime-blocked
+media drafts,7045 pending,7047 absent runtime paths**, no partial.
+Version `f382ac4c68b299c5`; checkpoint authority null/Ready false.
+All1213 baseline RAWs/tracking rows and historical evidence are preserved.
+Final serialized checks, signed integration/public archives/exact-main CI
+have separate evidence. Protected excluded033空 remains pending/C2 UNVERIFIED,
+separate from the two media drafts. No new asset/app/device/phone/IME/media/
+default-activation/release approval. Continue all safe frozen levels/families.
+
+Batch049 and earlier milestones below are historical.
+
 The forty-ninth full-target batch adds **13 complete N4 discipline/culture/
 society lessons** against the unchanged frozen source.
 The [actual independent report](translation-batches/049-disciplines-culture-and-society-independent-review-001.json)

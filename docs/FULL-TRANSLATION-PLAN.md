@@ -1,6 +1,38 @@
 # Full Russian translation: execution after the two pilots
 
-## Current source milestone: batch049 disciplines, culture and society
+## Current source milestone: batch050 communication and polite speech
+
+Batch050 adds **18 complete N4 lessons /950 Russian lines** against unchanged
+frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The [actual independent report](translation-batches/050-communication-and-polite-speech-independent-review-001.json)
+read18 primary and34 contextual complete EN/RU pairs plus18 source-only
+comparisons (**122 teaching bodies**),120 complete official entries and all919
+actual candidate metadata rows. C1/C3 are CLEAN within the18 lessons.
+Original **C2 NEEDS FIX** remains immutable. The
+[exact metadata-only repair](translation-batches/050-communication-and-polite-speech-finding-resolution-001.json)
+adopts seven independently prescribed direct guards: 伝える–知らせる,
+申し上げる–表現/伝える/知らせる/教える and相談–会議/話す.
+All18 complete teaching bodies are identity-preserved.
+**37 originally qualified protections plus seven prescribed additions** are
+adopted, not a second review or fresh full-baseline body rereading.
+POS/suru, register, rare standalone readings/senses and incredulous-question
+limits remain binding; the会議 addition retains medium confidence.
+Broader caption-fit questions, whole-pool uniqueness and ordinary modern
+necessity/frequency remain **UNVERIFIED**. No transitive or register clique.
+
+Membership: **1231 runtime objects /919 words**, including671 N5/110 N4/
+65 N3/19 N2/54 unlabelled. Only protected excluded033空 remains from N5.
+Strict accounting: **1231 reviewed-current, two excluded reviewed runtime-
+blocked media drafts,7045 pending of8278;7047 runtime paths absent**, no partial.
+Version `f382ac4c68b299c5`; checkpoint authority null/Ready false.
+All1213 baseline RAWs/tracking rows and historical reports are preserved.
+Final checks, signed integration, actual public archives and exact-main CI
+have separate evidence. No new asset/app/device/IME/media/default/release approval.
+Source-only comparisons do not force absent providers into runtime.
+Continue every remaining safe frozen level/family; 空 stays separately
+pending/C2 UNVERIFIED, not a third media draft.
+
+## Prior source milestone: batch049 disciplines, culture and society
 
 Batch049 adds **13 complete N4 lessons** against unchanged frozen EN
 `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
