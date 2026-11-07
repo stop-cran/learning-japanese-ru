@@ -1,6 +1,64 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch076 remaining N4 states and formal nouns
+## Current qualified source milestone: batch077 study, writing and inquiry kanji
+
+Batch077 adds **22 complete Russian kanji lessons /1279 file lines:
+21 actual N4 and the unchanged source-N2 dependency短**,plus **22 RAW-identical
+frozen Japanese KanjiVG assets**. Existing53 word bodies receive only56
+navigation wrappers;their Japanese,examples,metadata and quiz arrays persist.
+The frozen EN target remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The original intake,premutation adjudication/freeze and append-only
+four-body Japanese-fragment restoration remain immutable.
+
+The [actual whole review](translation-batches/077-study-writing-and-inquiry-kanji-independent-review-001.json)
+read **250 whole teaching bodies**:22 primary EN/RU pairs,99 current context
+EN/RU pairs and eight EN-only comparisons;**295 whole official source units**:
+64 genuine RAW KANJIDIC records,17 Unicode key rows,185 whole ordered JMdict
+objects,22 KanjiPedia main-entry/five lexical projections and two actual
+whole Kotobank simplified returns. It also read **163 current typed kanji
+metadata rows,66 individual explicit source directions,15 adjudications,
+53 exact navigation diffs and three complete correct RU-root rubrics**.
+The150 actual public tool returns are preserved;only entire successful
+payloads receive reading credit. Rows/projections are not whole lessons/pixels.
+Its **9717-byte detailed report is actual successful reviewer stdout**.
+The actual native/task final is a different52-byte generic summary;
+**stdout/native byte identity is not claimed or reconstructed**.
+Two failed report-size print attempts receive no evidence credit.
+
+**C1/C3: no confirmed consequential Japanese/content or Russian-comprehension
+defect within assigned scope. C2: qualified dependency/explicit-direction
+pass only,not blanket CLEAN.** All66 directions receive `RETAIN_CORE`;
+eight have additional narrowed qualifications and58 retain only their
+current-core contrasts. These are not universal semantic exclusions,
+independent D/Q labels,new kanji exclusion fields or reverse/transitive edges.
+**Ordinary fallback quiz safety,modern necessity/frequency and global future
+uniqueness remain UNVERIFIED.** Non-explicit空/天,図/計,試/験,言/話/語
+and文/字 overlaps are not cleared by differing titles.
+図え and験あかし are adequate **limited character-reading references only**;
+modern standalone lexical examples remain UNVERIFIED,not invented or
+certified as productive training. Existing word guards carry only their
+prior support/identity/limitations,not1478 fresh word-pool judgments.
+
+The [qualified source record](translation-batches/077-study-writing-and-inquiry-kanji-reviewed-source.json)
+preserves1737 unchanged baseline runtime RAWs/tracking rows and documents
+the53 navigation-only updates separately. Stroke byte identity,embedded
+provenance and root licenses are not new rendered/native animation approval.
+Qualified source checkpoint: **1834 runtime objects /1478 words /
+163 kanji /163 strokes**. Words remain671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/**70 N4**/11 N3/2 N2,so **96 actual frozen N4 kanji remain**.
+Strict progress: **1834 reviewed-current,two excluded reviewed blocked-media
+drafts,6442 pending of8278;6444 runtime paths absent**,no partial.
+Version `757e4bc2daf819c8`;checkpoint authority null/Ready false.
+These become accepted-main counts only after normal signed integration;
+fresh final serialized checks,actual public archives/signatures/four
+protected refs and exact-main CI are separate publication evidence.
+Protected033 **word**空 stays excluded/runtime-absent/C2 UNVERIFIED,
+not media;new **kanji**空 does not resolve its caption blocker.
+No app/device/phone/IME/media/default/package/release authority.
+Continue078+ and ALL remaining safe frozen levels/families;
+neither this batch nor N4 word closure completes the finite target.
+
+## Previous qualified source milestone: batch076 remaining N4 states and formal nouns
 
 Batch076 adds **20 complete Russian lessons /1031 file lines,all actual N4**,
 against unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.

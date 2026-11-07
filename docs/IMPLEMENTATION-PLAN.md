@@ -11,6 +11,57 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The seventy-seventh full-target batch adds **22 complete Russian kanji lessons/
+1279 file lines,21 actual N4 plus unchanged source-N2短**,and22 RAW-identical
+frozen Japanese KanjiVG assets. Existing53 word bodies receive only56
+navigation wrappers;Japanese/examples/metadata/quiz arrays remain unchanged.
+The frozen EN target remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`;
+signed intake,adjudication/freeze and fragment-restoration amendment persist.
+The [actual whole review](translation-batches/077-study-writing-and-inquiry-kanji-independent-review-001.json)
+read **250 whole teaching bodies/295 whole official source units/
+163 current typed kanji rows/66 individual explicit directions/15 adjudications/
+53 exact navigation diffs/three whole correct RU-root rubrics**.
+Teaching bodies comprise22 primary EN/RU pairs,99 current context EN/RU pairs
+and eight EN-only comparisons. Source units comprise64 genuine RAW KANJIDIC
+records,17 Unicode key rows,185 whole ordered JMdict objects,22 KanjiPedia
+main/five lexical projections and two complete captured Kotobank returns.
+All150 actual public tool returns are bound;only entire successful payloads
+receive reading credit. Rows are not whole lessons and projections are not pixels.
+The **9717-byte detailed report is actual successful reviewer stdout**;
+the actual native/task final is a different52-byte generic summary.
+**No stdout/native byte identity is invented**,and two failed report-size
+print attempts receive no evidence credit.
+
+**C1/C3: no confirmed consequential defect within assigned scope.
+C2: qualified dependency/explicit-direction pass only,not blanket CLEAN.**
+All66 directions retain only current-core scope;eight receive additional
+narrow qualifications,58 retain core contrasts,none establish universal
+semantic disjointness. No independent D/Q reclassification,new kanji
+exclusion fields or reverse/transitive directions are invented.
+**Ordinary fallback quiz safety,modern necessity/frequency and global future
+uniqueness remain UNVERIFIED**,including known non-explicit空/天,図/計,
+試/験,言/話/語 and文/字 overlaps.
+図え/験あかし are adequate limited character-reading references,
+not verified modern standalone lexical practice;no examples are fabricated.
+Existing word guards retain prior identity/support/limitations,
+not1478 fresh word-pool/guard judgments.
+
+Qualified source checkpoint: **1834 runtime objects/1478 words/
+163 kanji/163 strokes**. Words remain671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/**70 N4**/11 N3/2 N2,leaving **96 actual frozen N4 kanji**.
+Strict progress: **1834 reviewed-current,two excluded reviewed blocked-media
+drafts,6442 pending of8278;6444 runtime paths absent**,no partial.
+Version `757e4bc2daf819c8`;checkpoint authority null/Ready false.
+The1737 other baseline RAWs/tracking rows persist;53 navigation updates
+are recorded separately. Stroke byte identity/root licenses are not
+rendered/native animation approval. These become accepted-main counts
+only after normal signed integration;fresh final serialized checks,
+actual public archives/signatures/four protected refs/exact-main CI remain
+separate publication evidence. Protected033 **word**空 remains excluded,
+runtime-absent/C2 UNVERIFIED,not media;new **kanji**空 does not resolve it.
+No app/device/phone/IME/media/default/package/release authority.
+Continue078+ and ALL remaining safe frozen levels/families,not task completion.
+
 The seventy-sixth full-target batch adds **20 complete Russian lessons/
 1031 file lines,all actual N4**,against unchanged frozen EN.
 The [actual whole review](translation-batches/076-remaining-n4-states-and-formal-nouns-independent-review-001.json)
