@@ -1,6 +1,55 @@
 # Full Russian translation: execution after the two pilots
 
-## Current source milestone: batch058 memory, intentions and certainty
+## Current source milestone: batch059 social actions and gatherings
+
+Batch059 adds **22 complete lessons /1221 Russian file lines** against
+the unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`:
+**20 actual N4 roots and the required N3スピーチ/演説**, without relabeling.
+The [actual original whole review](translation-batches/059-social-actions-and-gatherings-independent-review-001.json)
+read **191 assigned complete teaching bodies plus two additional質問 bodies,
+189 whole official objects and all1103 candidate caption/reading/quiz rows**.
+Its original C1 **NO_CONFIRMED_TEACHING_DEFECT; Q49 UNVERIFIED**,
+C2 **CHANGES_REQUIRED** and C3 **CLEAN_WITHIN_READ_PROSE_SCOPE** remain immutable.
+The [actual focused review](translation-batches/059-social-actions-and-gatherings-focused-review-001.json)
+independently accepts F1's direct **Q52尋ねる–質問** protection and resolves
+F2 by **withdrawing unverified Q49勝つ–取る**, not by claiming that取る
+never means winning. Its fresh scope is **eight complete teaching bodies,
+four existing entire objects and all1103 current caption/reading/quiz rows**.
+Limited C1/C2/C3 CLEAN is not a second whole review.
+
+The53 current directed fields comprise the original52 individually qualified
+retain judgments and newQ52; Q49 is absent, its historical proposal unchanged.
+All22 lesson bodies and all1103 captions/readings retain their exact identities.
+Dated謝る/心配 components, nominal congratulations, reading-onlyたずねる,
+conditionalご案内 knowledge and separate sumo/cards取る comparisons retain
+their qualifications. No transitive speech/noise/media/competition clique
+or English-only win/acquisition equivalence is inferred.
+The one bounded native return contains the complete first DigitalDaijisen
+案内 entry and separateあない, but only part of the second dictionary entry:
+it is not whole-page or frequency evidence.
+**Ordinary modern necessity/frequency and broader uniqueness remain UNVERIFIED.**
+
+Apology, wishes, awareness/consent, restraint, caution/reprimand, asking/visiting,
+guidance, giving/receiving care, celebration/sympathy, broadcasting, competition,
+winning/losing and gathering agency remain fully taught.
+試合 preserves its actual wago/ateji classification.
+Nine available source wrappers remain;26 unavailable optional destinations
+are unwrapped without removing their visible Japanese facts/readings.
+
+Qualified membership: **1415 runtime objects /1103 words**:
+671 N5/291 N4/68 N3/19 N2/54 unlabelled.
+Strict progress: **1415 reviewed-current, two excluded reviewed blocked-media
+drafts,6861 pending of8278;6863 runtime paths absent**, no partial.
+Version `674da6962ef93ad7`; checkpoint authority null/Ready false.
+All1393 baseline RAWs/tracking/history and protected excluded033空 are preserved.
+Signed semantic and exact resolution freezes preceded their respective changes.
+Final serialized validation, signed integration, actual public archives and
+exact-main CI remain separate publication evidence, not reviewer claims.
+No asset/app/device/phone/IME/media/default/package/release authority.
+**Continue every remaining safe frozen level/family; full task is not complete.
+Protected空 remains separate, UNVERIFIED and not media.**
+
+## Prior source milestone: batch058 memory, intentions and certainty
 
 Batch058 adds **20 complete N4 lessons /1011 Russian file lines** against
 the unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.

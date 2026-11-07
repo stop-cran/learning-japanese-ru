@@ -11,6 +11,50 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The fifty-ninth full-target batch adds **22 complete social-action/gathering
+lessons /1221 Russian file lines** against the unchanged frozen EN:
+**20 actual N4 roots plus required N3スピーチ/演説**, without relabeling.
+The [actual original whole review](translation-batches/059-social-actions-and-gatherings-independent-review-001.json)
+read191 assigned complete teaching bodies plus two additional質問 bodies,
+189 whole official objects and all1103 actual caption/reading/quiz rows.
+Its original C1 **NO_CONFIRMED_TEACHING_DEFECT; Q49 UNVERIFIED**,
+C2 **CHANGES_REQUIRED**, C3 **CLEAN_WITHIN_READ_PROSE_SCOPE** remain immutable.
+The [actual focused review](translation-batches/059-social-actions-and-gatherings-focused-review-001.json)
+accepts exact F1 **Q52尋ねる–質問** and resolves F2 by removing unverified
+**Q49勝つ–取る**. Withdrawal is not proof that取る never means winning.
+Its fresh scope is eight complete teaching bodies,four existing entire objects
+and1103 full current caption/reading/quiz rows, not a second whole review.
+Limited C1/C2/C3 CLEAN resolves the assigned findings;
+the original52 individually qualified judgments and22 body hashes carry forward.
+Current53 directed fields equal those52 plusQ52; Q49's historical record remains.
+Ordinary modern necessity/frequency/global uniqueness stay **UNVERIFIED**.
+
+Apology, wishes, awareness/consent, restraint, caution/reprimand, asking/visiting,
+guidance, care agency, celebration/sympathy, broadcasting, competition,
+winning/losing and gathering agency remain fully taught.
+Dated謝る/心配, nominal congratulations, reading-onlyたずねる, conditional
+ご案内 knowledge and separate sumo/cards取る qualifications remain explicit.
+試合 stays wago/ateji; no English-only win/acquisition or transitive clique.
+One stored bounded native return supplies the complete first DigitalDaijisen
+案内 entry/separateあない and only part of the second entry, not frequency.
+Nine available source wrappers retained/26 unavailable optional wrappers unwrapped.
+All22 bodies and1103 captions/readings are unchanged after exact metadata remedies.
+
+Qualified source membership: **1415 runtime objects /1103 words**,
+671 N5/291 N4/68 N3/19 N2/54 unlabelled.
+Strict progress: **1415 reviewed-current, two excluded reviewed blocked-media
+drafts,6861 pending of8278;6863 absent runtime paths**, no partial.
+Version `674da6962ef93ad7`; checkpoint authority null/Ready false.
+All1393 baseline RAWs/tracking/history and protected excluded033空 preserved.
+Original and focused actual stdout/native-final payloads remain immutable.
+Signed semantic/resolution freezes preceded their respective changes.
+Final serialized checks, signed main integration, actual public archives and
+exact-main CI are separate publication evidence, not reviewer claims.
+No asset/app/device/phone/IME/media/package/default/release approval.
+**Continue the entire remaining safe frozen scope; full task not complete.**
+
+Batch058 and earlier milestones below are historical.
+
 The fifty-eighth full-target batch adds **20 complete N4 memory/intention/
 certainty lessons /1011 Russian file lines** against the unchanged frozen EN.
 The [actual original whole review](translation-batches/058-memory-intentions-and-certainty-independent-review-001.json)
