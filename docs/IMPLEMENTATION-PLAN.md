@@ -11,6 +11,59 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The seventy-fifth full-target batch adds **20 complete Russian lessons/
+1164 file lines,all actual N4**,without reclassification,against unchanged
+frozen EN. The [actual original whole review](translation-batches/075-public-life-commerce-and-services-independent-review-001.json)
+read **271 whole teaching bodies/299 whole official ordered projections/
+1458 fresh current caption-reading-type-tags-level-quiz rows/three whole
+correct RU-root rubrics**:20 primary EN/RU pairs,81 contextual pairs and69
+EN-only comparisons. No articles/external pages were read.
+Its **10933-byte stdout/native identity** and original verdicts remain
+immutable: **C1 PASS within assigned teaching scope,C2 NOT CLEAN with
+F1/F2,C3 requiring Russian agreement correction**.
+
+Following a signed pre-mutation amendment,the
+[actual focused review](translation-batches/075-public-life-commerce-and-services-independent-review-002.json)
+read **11 whole teaching bodies/five whole official objects/five specific
+corrected rows/three whole correct RU-root rubrics**,the original report,
+bounded amendment and exact two-file diff.
+Its **7808-byte stdout/native identity** resolves F1 with new Q038
+失敗–落す under the conservative lexical policy:school/course failure
+or contest loss only,canonical runtime落す/おとす,new owner only,
+transitive participant/causal roles preserved. No unrestricted failure,
+physical-dropping,general-exam or modern-necessity proof follows.
+F2/Q030失敗–違う is resolved by withdrawing an unsupported author proposal,
+not a source edge or proof of direct equivalence.
+輸入's «нужен сказуемый»→«нужно сказуемое» fixes Russian neuter agreement,
+not Japanese import direction. 消しゴム–ゴム has no CURRENT pair solely
+becauseゴム is absent;standalone eraser abbreviation is attested and
+material/item difference is not a universal negative.
+
+**37 current protections =36 original individual S judgments carrying only
+original qualified scope/current identity plus newly supported Q038.**
+Original author3D/34K labels are not independent D/K classifications.
+No36 fresh judgments,second whole review or1458 fresh focused rows are
+claimed. The author freshly read all1458 corrected rows/two affected
+whole RU lessons;18 other new lessons retain original whole-reading and
+identity evidence. **Broader ordinary modern quiz suitability,necessity/
+frequency and global future uniqueness remain UNVERIFIED for every pair,
+including author-labelled D/Q038;not blanket C2 CLEAN/PASS.**
+No new blocking C1/C3 issue was found within actual corrective scope.
+All1750 accepted baseline RAWs/tracking/history remain unchanged.
+
+Qualified source checkpoint: **1770 runtime objects /1458 words**,
+671 N5/616 N4/97 N3/19 N2/55 unlabelled; **20 N4 remain**.
+Strict progress: **1770 reviewed-current,two excluded reviewed blocked-media
+drafts,6506 pending of8278;6508 runtime paths absent**,no partial.
+Version `b54d436ba00b8218`;checkpoint authority null/Ready false.
+These become accepted-main counts only after normal signed integration.
+Fresh final serialized checks,actual public archives/signatures/four
+protected refs/exact-main CI remain separate publication evidence.
+Protected033空 remains the only pending N5 word,excluded/C2 UNVERIFIED,
+not media. No assets/native/device/phone/IME/media/default/package/release
+authority. Continue076+ and ALL remaining safe frozen levels/families;
+not task completion. Earlier milestones retain their original scope.
+
 The seventy-fourth full-target batch adds **25 complete Russian lessons/
 1475 file lines:20 actual N4 and five actual N3**,without reclassification,
 against unchanged frozen EN.

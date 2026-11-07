@@ -1,6 +1,68 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch074 actions, search and handling
+## Current qualified source milestone: batch075 public life, commerce and services
+
+Batch075 adds **20 complete Russian lessons /1164 file lines,all actual N4**,
+without reclassification,against unchanged frozen EN
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The [actual original whole review](translation-batches/075-public-life-commerce-and-services-independent-review-001.json)
+read **271 whole teaching bodies**:20 primary EN/RU pairs,81 contextual
+EN/RU pairs and69 EN-only comparisons;**299 whole official ordered
+projections,1458 fresh current caption/reading/type/tags/level/quiz rows
+and three whole correct RU-root rubrics**. No articles or external pages
+were read. Its **10933-byte stdout/native identity** remains immutable.
+Rows are not whole lessons. **C1 passed within assigned teaching scope;
+C2 was NOT CLEAN;C3 required a Russian agreement correction.**
+
+A signed pre-mutation amendment preserves those findings. The
+[actual focused review](translation-batches/075-public-life-commerce-and-services-independent-review-002.json)
+read **11 whole teaching bodies,five whole official objects,five specific
+corrected pool rows and three whole correct RU-root rubrics**,the original
+report,exact two-file diff and bounded amendment.
+Its **7808-byte stdout/native identity** resolves:
+
+- F1/new Q038 **失敗–落す**,from the new owner only,as qualified conservative
+  lexical protection for school/course failure or contest loss. Canonical
+  runtime provider is落す/おとす,not invented落とす. Transitive participant
+  and causal roles remain distinct;no unrestricted failure,physical-dropping,
+  general-exam or modern-necessity proof follows.
+- F2/Q030 **失敗–違う**,by withdrawal of an unsupported author proposal,
+  not a source edge or proof of direct equivalence.
+- 輸入 **«нужен сказуемый»→«нужно сказуемое»**,a Russian neuter-agreement
+  repair,not a Japanese import-direction correction.
+- **消しゴム–ゴム**,by qualifying no CURRENT pair solely by the absentゴム
+  provider. Standalone eraser abbreviation is attested;material/item
+  difference is not a universal negative. No absent provider is approved.
+
+The **37 current direct protections** comprise **36 original individual S
+judgments carrying only original qualified scope/current identity,plus
+one newly supported Q038**. Original author3D/34K labels are **not independent
+D/K classifications**. The focus is not36 fresh judgments,a second whole
+review or1458 fresh focused rows. The author actually reread all1458
+corrected rows and both affected whole RU lessons;the other18 new lessons
+carry original whole-reading/current-identity evidence.
+**Broader ordinary modern quiz suitability,necessity/frequency and global
+future uniqueness remain UNVERIFIED for every current pair,including
+author-labelled D and Q038;not blanket C2 CLEAN/PASS.**
+C1/C3 have no new blocking issue within the actual corrective scope;
+original findings and their resolution history are preserved.
+
+The [qualified source record](translation-batches/075-public-life-commerce-and-services-reviewed-source.json)
+preserves all1750 accepted baseline runtime RAWs/tracking rows/history.
+Qualified source checkpoint: **1770 runtime objects /1458 words**,
+671 N5/616 N4/97 N3/19 N2/55 unlabelled; **20 N4 remain**.
+Strict progress: **1770 reviewed-current,two excluded reviewed blocked-media
+drafts,6506 pending of8278;6508 runtime paths absent**,no partial.
+Version `b54d436ba00b8218`;checkpoint authority null/Ready false.
+These become accepted-main counts only after normal signed integration;
+fresh final serialized checks,actual public archives/signatures/four
+protected refs and exact-main CI are separate publication evidence.
+Protected033空 remains the only pending N5 word,excluded/C2 UNVERIFIED,
+not media. No assets/native/device/phone/IME/media/default/package/release
+authority. Continue076+ and ALL remaining safe frozen levels/families;
+the entire finite objective is not complete.
+
+## Previous qualified source milestone: batch074 actions, search and handling
 
 Batch074 adds **25 complete Russian lessons /1475 file lines**:
 **20 actual N4 and five actual N3**,without reclassification,against frozen EN

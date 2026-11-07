@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "batchId": "075-public-life-commerce-and-services",
+  "reviewedCandidateCommit": "f32d87e190038e1241b7c1f5b08fd1e9612d31d3",
+  "contentVersion": "b54d436ba00b8218",
+  "runs": [
+    {
+      "command": [
+        "tools\\build_manifest.py"
+      ],
+      "startedAt": "2026-11-07T20:21:48.180103+00:00",
+      "completedAt": "2026-11-07T20:21:48.456208+00:00",
+      "seconds": 0.2809999999590218,
+      "returncode": 0,
+      "stdout": "manifest.json: 1770 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version b54d436ba00b8218\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "tools\\validate.py"
+      ],
+      "startedAt": "2026-11-07T20:21:48.462965+00:00",
+      "completedAt": "2026-11-07T20:21:52.075377+00:00",
+      "seconds": 3.6089999999385327,
+      "returncode": 0,
+      "stdout": "0 error(s)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools",
+        "-p",
+        "test_*.py"
+      ],
+      "startedAt": "2026-11-07T20:21:52.080767+00:00",
+      "completedAt": "2026-11-07T20:22:23.085745+00:00",
+      "seconds": 31.0,
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 30.736s\n\nOK\n",
+      "environmentBoundary": "OperationlocalALL3TMPDIR/TMP/TEMP exactownedNTFSfixtures;exactemptyworkspacecleanedbeforebudget;noglobal/test/trustchanges."
+    },
+    {
+      "command": [
+        "tools\\check_content_budget.py"
+      ],
+      "startedAt": "2026-11-07T20:22:23.098507+00:00",
+      "completedAt": "2026-11-07T20:22:24.114344+00:00",
+      "seconds": 1.0150000001303852,
+      "returncode": 0,
+      "stdout": "{'files': 1778, 'entries': 1787, 'retainedBytes': 4828535, 'inflatedBytes': 4846750, 'localZipBytes': 2471739, 'listeningTaskMediaBytes': 0}\n",
+      "stderr": ""
+    }
+  ],
+  "boundary": "Fresh SERIALmanifest/validator/124tests/budget AFTER plans/tracking/progress/qualifiedreview/reviewedsourcechanges;generatedreceiptfollowscommands,runtime/manifestunchanged.",
+  "checkpointAuthority": null,
+  "fullTaskComplete": false,
+  "continueRequired": true
+}
