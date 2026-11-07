@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "batchId": "062-changes-breaking-and-continuation",
+  "recordedAt": "2026-11-07T04:34:08.326985+00:00",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "originalCandidateCommit": "344ca1f27e2bb374eb6b62b95091d1d6faba1eac",
+  "actualOriginalReport": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+  "actualOriginalReportRawSha256": "5732f951241ff7efda5e1fe093838a2db127c037f7ab2b0804c0309fc0777702",
+  "actualOriginalReportPayloadSha256": "0840930663038b51f695683a9e2ad426a9b3aea89694579ae47ce7c8f6b35d9c",
+  "originalFindings": [
+    {
+      "id": "062-R1",
+      "severity": "medium",
+      "disposition": "OPEN; directly adjudicate/protect before scoped C2 approval",
+      "affectedPaths": [
+        "words\\止める.md",
+        "words\\切る.md"
+      ],
+      "evidence": "Pool780 止める has broad прекращать cue; neither its guards nor pool405 切る guards protect this pair. Whole 切る provider teaches ending connections/switching off; whole 止める root stopping operation/processes/switching off. Captured1310670.1 stop/turn off and1384830.3/4 turn off/terminate independently support collision, not every stopping context.",
+      "correction": "Add qualified direct 止める–切る protection or disambiguate cue; NOT inference through 消す/終わる. Broader frequency/necessity UNVERIFIED."
+    }
+  ],
+  "originalConclusions": {
+    "C1": {
+      "verdict": "PASS",
+      "scope": "Japanese accuracy/fidelity of25 complete roots against whole assigned source/provider/context and314 entries; no actionable reading/POS/example/sense error found."
+    },
+    "C2": {
+      "verdict": "REVISE",
+      "scope": "25 new lessons' consistency/dependencies/direct quiz ambiguity against1174 actual rows: R1 needs correction. Not a demand for invented global uniqueness."
+    },
+    "C3": {
+      "verdict": "PASS",
+      "scope": "25 Russian roots: comprehensible, self-contained, Japanese teaching preserved; no English placeholders or compulsory untranslated articles."
+    }
+  },
+  "exactProposedCorrection": {
+    "proposalId": "Q65",
+    "left": "止める",
+    "right": "切る",
+    "leftActualCaption": "останавливать; прекращать",
+    "rightActualCaption": "резать",
+    "completeOfficialEntrySenseEvidence": {
+      "1310670": [
+        1
+      ],
+      "1384830": [
+        3,
+        4
+      ]
+    },
+    "individuallyQualifiedRationale": "Direct actual stopping-operation/switching-off or terminating a connection/process collision under the uncontextualizedпрекращать cue. Whole1310670.1 independently recordsstop/turnoff; whole1384830.3/4 independently recordturnoff/terminate/hangup/disconnect. Object/frame constraints retained; not every stoppedactivity is cut, not physicalcutting everyprocess, not inference through existing消す/終わる guards.",
+    "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+    "independentExactCaptionJapanesePOSReadingJudgment": "PENDING exact focused062-R1 review"
+  },
+  "correctionScope": "Add ONLY切る to止めるquiz_exclusions; all25teachingbodies1327lines/titles/readings/examples/classifications and1461baseline runtimeRAWs unchanged. Generate manifest; bind actualamended1174-row pool. No additional runtime provider.",
+  "original64QualifiedRetains": "Carry actual original whole-review judgments by unchanged caption/body/guard identity, not65freshsemantic rereads.",
+  "actualAuthorEvidence": "Original273complete preparatorybodies/314wholeofficialobjects unchanged; after actualR1, fullEN/RU切るpair and fullEN/RU止めるpair actuallyreread. All2wholeofficialentries alreadyactuallyread and reread under bound062objectqualifications; no newcaptures/providers. Original reviewer additionallyreread provider22/root5 forR1.",
+  "all25TeachingBodyLfSha256": {
+    "words/変える.md": "d7deda63236ceadf1617df575215a86a9ceaa15ac83bf0e4b52ae939304e9a72",
+    "words/変わる.md": "9d11f20b9d20ab2c0a762167b8ffaf5ea0ae4e8339b749602064333789d3bf08",
+    "words/動く.md": "90a5dea3c9306deae87a2e1550ed3fc3c5a96092c673eb111e24e79013c75ffa",
+    "words/回る.md": "e2c295d88cbde7faa9e96a4e5be96432a18cfa7f372b52058f9e63a7aa39c5b8",
+    "words/止む.md": "418ff21f44250e1b14964493bf4dffa95b5869ba952a7c177bc4dda74cba99c6",
+    "words/止める.md": "a6fc7a692944d9640072ea7b27b7c7ac0d243f30354a69c5cb2e1aa118edfff1",
+    "words/始める.md": "efc937afdd28cbae41904c8d90fe2691ed9dff74b867d0862de2cba5828f6d03",
+    "words/続く.md": "c0e035d68772e63c4c766391dfe3537ce04033832ce775d3d5978ffef4c7c63f",
+    "words/続ける.md": "70bf7d644be7b902f9e0e995e76494eb70dc36d371708f374e4a78ebaea43b82",
+    "words/終わり.md": "5c5dae69e8485f46ae3344c52d12f9c07cc000cfa555f1aac52f9cf29906d00a",
+    "words/壊す.md": "3b45d388a9aa5e07cf65d68940f9ddd87554e3f8e76697a99054e12b08a9ac09",
+    "words/壊れる.md": "273a9fcac1df02b0226d77cce09707f97242448e48e4deb0baf83df6358fed24",
+    "words/割れる.md": "a5c799ee588597bf641a65e48e0a797302795c52cfb110488460ab829884830f",
+    "words/折る.md": "799e3d255147a8a6684f1df3cf9d5807492f60beb68d86e499732dd84b052423",
+    "words/折れる.md": "0ccc9e9b8ec9bfe6ee9760c9aff576d9d1c42dca038df05e8eda19fbd7fbf090",
+    "words/落す.md": "0d502795ee1796e7ceb9da2c42330d54e6b0b76e4cd1974e22c96028bdff7879",
+    "words/落ちる.md": "578a9a9782f1ad0de392c64f4d368745bc6b895e8026ced60f38d05dcf8d5d3c",
+    "words/増える.md": "523ffbb2c4c7922c9ac396df0e39b208f38710cb917e4f8644d813ef3e1df21a",
+    "words/残る.md": "403ec3d8be87ac234d6366094597a759b61adf55a99d187eff52aa52fff7c292",
+    "words/無くなる.md": "d9484d2c22b31c1589e773047aef181615718a1a49e96bc459710ae2e1d667bd",
+    "words/取り替える.md": "d0623715ee6481485cde9823865b35e6fd1557e68706d695a23d17fc70bf53c8",
+    "words/慣れる.md": "b4b7d12de5775210d0fa70412efbed2738c917a62ba3b01935900baa1f545650",
+    "words/変更.md": "9e722ff596af34c45d41c8a3cdfe7355dc262808d61a74169a2a896ae3f09de0",
+    "words/変化.md": "b87bc5083e2c152605a992cc7b4c6bba62508cb80afbb4a2429fdf59b9a1ec13",
+    "words/最後.md": "d319fa87caad462187ee5b706424ed8f982c8b53eeab5c9fce9453efb335dbb7"
+  },
+  "finalEvidencePrivateArtifact": "ru-062-final-evidence-bindings-002.json",
+  "finalEvidencePrivateArtifactSha256": "0425c1dc6ff16fa14845bb714191c5143972f2877188a52cf2c07ef28cf7a420",
+  "originalReportUnchanged": true,
+  "originalFreezeAndAuthoringRecordsUnchanged": true,
+  "independentResolution": "PENDING;062-R1 OPEN until genuine focused review",
+  "acceptedMainUnchanged": "18e23875354db40abab1efed2fc36b8c3c47143b",
+  "acceptedRuntimeObjects": 1461,
+  "protectedUnverifiedDrafts": [
+    {
+      "draftPath": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+      "runtimePath": "words/空.md",
+      "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+      "status": "Excluded pending/C2 UNVERIFIED; not media"
+    }
+  ],
+  "ordinaryActivationAuthorized": false,
+  "fullTaskComplete": false,
+  "continueRequired": true
+}
