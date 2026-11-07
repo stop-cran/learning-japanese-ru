@@ -1,0 +1,1007 @@
+{
+  "schemaVersion": 1,
+  "batchId": "068-people-address-and-social-roles",
+  "originalCandidate": "9863b70a5778ffa78fff97b465030f8aa0c97b43",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineCommit": "46cd8be016301fc19589eaa0f462752703a86d67",
+  "originalWholeReport": "docs/translation-batches/068-people-address-and-social-roles-independent-review-001.json",
+  "originalReportSha256": "8659ba8784fb066d4fba8120f6ebc54e5681bb726d0e39db1d26496aefcd1cc7",
+  "originalActualReviewerId": "cdf977b2-feef-4369-bf77-abb03cea2585",
+  "originalReviewerState": "Completed one-shot; not running/recontacted.",
+  "originalWholeScope": {
+    "wholeBodiesIncludingFollowup": 198,
+    "wholeOfficialObjects": 262,
+    "freshCandidateRows": 1297,
+    "allAssignedWindowsReturnedCompleteExit0": true,
+    "limitations": "84/84 assigned windows complete, exit0. Two initial oversized instruction reads were incomplete; all lines subsequently returned in bounded reads. Counts are unique assigned bodies/objects; confirmation rereads add no scope. Pool rows are metadata, not whole lessons. Projection omissions are receipt arrays/pool/rubric bindings checked by meta."
+  },
+  "originalActualVerdicts": {
+    "C1": {
+      "verdict": "CLEAN_BOUNDED",
+      "scope": "20 complete new RU lessons against frozen EN; assigned Japanese examples, readings, meanings and actual N4 classifications; assigned contextual/source-only evidence."
+    },
+    "C2": {
+      "verdict": "NEEDS_FIX",
+      "scope": "Bounded sources/dependencies/navigation and actual-pool lexical protection: 98 proposals individually supported with qualifications, but five direct spelling/caption overlaps unguarded; F1."
+    },
+    "C3": {
+      "verdict": "CLEAN_BOUNDED",
+      "scope": "20 complete authored RU lessons and 73 complete contextual RU bodies: natural, comprehensible Russian; no English prerequisite introduced."
+    }
+  },
+  "originalFinding": {
+    "id": "F1",
+    "severity": "Medium",
+    "facet": "C2",
+    "issue": "Five direct bare-spelling/caption overlaps remain unguarded",
+    "files": [
+      "C:\\Users\\stop-\\learning-japanese-ru\\words\\お嬢さん.md:9",
+      "C:\\Users\\stop-\\learning-japanese-ru\\words\\君.md:9",
+      "C:\\Users\\stop-\\learning-japanese-ru\\words\\彼.md:9"
+    ],
+    "problem": "Neither endpoint excludes these five pairs in the actual pool: お嬢さん–女; 君–兄; 彼–あそこ; 彼–そこ; 彼–向こう. Bounded conservative protection therefore leaves attested alternative answer captions eligible. This is lexical protection incompleteness, not an ordinary modern frequency claim.",
+    "evidence": "女じょ 1344940.1 explicitly has standalone noun daughter as well as suffix use; the new caption contains дочь. 兄けい 2200990.1 is a familiar male-address pronoun in letters, matching ты (фамильярное обращение) for a male friend/equal, not its superior-address use or separate Mr suffix. Rare written 彼あれ 1000580.4 means that place (over there), matching actual captions あそこ вон там, そこ там; то место, 向こう там; по ту сторону. Direct place evidence: 1000320.1 distant place; 1006670.2 just-mentioned place; 1277140.2/3 distant there. Full entries and all 1297 actual rows checked; no transitive/class-only inference.",
+    "suggestedFix": "Add exactly these five qualified direct protections on the three new owners and bind evidence in a new amendment, without rewriting historical receipts. Preserve 女じょ noun, 兄けい male-friend letter context, rare 彼あれ place/deictic limits; do not change primary readings, add source-only providers or claim modern necessity."
+  },
+  "original98GuardJudgments": {
+    "source": [],
+    "proposals": [
+      [
+        "Q01",
+        "あかちゃん–赤ん坊",
+        "D",
+        "D"
+      ],
+      [
+        "Q02",
+        "お金持ち–金持ち",
+        "D",
+        "D"
+      ],
+      [
+        "Q03",
+        "僕–私",
+        "Q",
+        "I"
+      ],
+      [
+        "Q04",
+        "お嬢さん–娘",
+        "Q",
+        "N"
+      ],
+      [
+        "Q05",
+        "お嬢さん–女の子",
+        "Q",
+        "N"
+      ],
+      [
+        "Q06",
+        "お嬢さん–お姉さん",
+        "Q",
+        "N"
+      ],
+      [
+        "Q07",
+        "お嬢さん–子",
+        "Q",
+        "N"
+      ],
+      [
+        "Q08",
+        "お宅–家",
+        "Q",
+        "H"
+      ],
+      [
+        "Q09",
+        "お宅–家族",
+        "Q",
+        "H"
+      ],
+      [
+        "Q10",
+        "お宅–家庭",
+        "Q",
+        "H"
+      ],
+      [
+        "Q11",
+        "お宅–家内",
+        "Q",
+        "H"
+      ],
+      [
+        "Q12",
+        "お宅–内",
+        "Q",
+        "H"
+      ],
+      [
+        "Q13",
+        "お宅–会社",
+        "Q",
+        "O"
+      ],
+      [
+        "Q14",
+        "お宅–組織",
+        "Q",
+        "O"
+      ],
+      [
+        "Q15",
+        "お宅–団体",
+        "Q",
+        "O"
+      ],
+      [
+        "Q16",
+        "お宅–御主人",
+        "Q",
+        "S"
+      ],
+      [
+        "Q17",
+        "お宅–夫",
+        "Q",
+        "S"
+      ],
+      [
+        "Q18",
+        "お宅–主人",
+        "Q",
+        "S"
+      ],
+      [
+        "Q19",
+        "お宅–お父さん",
+        "Q",
+        "S"
+      ],
+      [
+        "Q20",
+        "お宅–君",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q21",
+        "お宅–僕",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q22",
+        "お宅–あなた",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q23",
+        "お宅–そちら",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q24",
+        "お宅–そっち",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q25",
+        "お宅–自分",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q26",
+        "お宅–私",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q27",
+        "お宅–そこ",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q28",
+        "お宅–それ",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q29",
+        "お宅–子",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q30",
+        "僕–自分",
+        "Q",
+        "I"
+      ],
+      [
+        "Q31",
+        "僕–こちら",
+        "Q",
+        "I"
+      ],
+      [
+        "Q32",
+        "僕–こっち",
+        "Q",
+        "I"
+      ],
+      [
+        "Q33",
+        "僕–内",
+        "Q",
+        "I"
+      ],
+      [
+        "Q34",
+        "僕–人",
+        "Q",
+        "I"
+      ],
+      [
+        "Q35",
+        "僕–あれ",
+        "Q",
+        "I"
+      ],
+      [
+        "Q36",
+        "僕–これ",
+        "Q",
+        "I"
+      ],
+      [
+        "Q37",
+        "僕–あなた",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q38",
+        "僕–そちら",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q39",
+        "僕–そっち",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q40",
+        "僕–そこ",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q41",
+        "僕–それ",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q42",
+        "僕–子",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q43",
+        "僕–君",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q44",
+        "君–あなた",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q45",
+        "君–そちら",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q46",
+        "君–そっち",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q47",
+        "君–自分",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q48",
+        "君–私",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q49",
+        "君–そこ",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q50",
+        "君–それ",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q51",
+        "君–子",
+        "Q",
+        "Y"
+      ],
+      [
+        "Q52",
+        "君–彼",
+        "Q",
+        "A"
+      ],
+      [
+        "Q53",
+        "君–彼女",
+        "Q",
+        "A"
+      ],
+      [
+        "Q54",
+        "君–主人",
+        "Q",
+        "A"
+      ],
+      [
+        "Q55",
+        "彼–あれ",
+        "Q",
+        "P"
+      ],
+      [
+        "Q56",
+        "彼–こちら",
+        "Q",
+        "P"
+      ],
+      [
+        "Q57",
+        "彼–そちら",
+        "Q",
+        "P"
+      ],
+      [
+        "Q58",
+        "彼–そっち",
+        "Q",
+        "P"
+      ],
+      [
+        "Q59",
+        "彼–あちら",
+        "Q",
+        "P"
+      ],
+      [
+        "Q60",
+        "彼–あっち",
+        "Q",
+        "P"
+      ],
+      [
+        "Q61",
+        "彼–これ",
+        "Q",
+        "P"
+      ],
+      [
+        "Q62",
+        "彼–それ",
+        "Q",
+        "P"
+      ],
+      [
+        "Q63",
+        "彼女–あれ",
+        "Q",
+        "P"
+      ],
+      [
+        "Q64",
+        "彼女–こちら",
+        "Q",
+        "P"
+      ],
+      [
+        "Q65",
+        "彼女–そちら",
+        "Q",
+        "P"
+      ],
+      [
+        "Q66",
+        "彼女–そっち",
+        "Q",
+        "P"
+      ],
+      [
+        "Q67",
+        "彼女–あちら",
+        "Q",
+        "P"
+      ],
+      [
+        "Q68",
+        "彼女–あっち",
+        "Q",
+        "P"
+      ],
+      [
+        "Q69",
+        "彼女–これ",
+        "Q",
+        "P"
+      ],
+      [
+        "Q70",
+        "彼女–それ",
+        "Q",
+        "P"
+      ],
+      [
+        "Q71",
+        "彼–男",
+        "Q",
+        "L"
+      ],
+      [
+        "Q72",
+        "彼女–女",
+        "Q",
+        "L"
+      ],
+      [
+        "Q73",
+        "彼–お父さん",
+        "Q",
+        "P"
+      ],
+      [
+        "Q74",
+        "彼女–お母さん",
+        "Q",
+        "P"
+      ],
+      [
+        "Q75",
+        "彼–あの",
+        "Q",
+        "W"
+      ],
+      [
+        "Q76",
+        "彼–その",
+        "Q",
+        "W"
+      ],
+      [
+        "Q77",
+        "彼ら–あれ",
+        "Q",
+        "W"
+      ],
+      [
+        "Q78",
+        "彼ら–これ",
+        "Q",
+        "W"
+      ],
+      [
+        "Q79",
+        "彼ら–それ",
+        "Q",
+        "W"
+      ],
+      [
+        "Q80",
+        "御主人–夫",
+        "Q",
+        "S"
+      ],
+      [
+        "Q81",
+        "御主人–主人",
+        "Q",
+        "S"
+      ],
+      [
+        "Q82",
+        "御主人–お父さん",
+        "Q",
+        "S"
+      ],
+      [
+        "Q83",
+        "御主人–内",
+        "Q",
+        "S"
+      ],
+      [
+        "Q84",
+        "家内–妻",
+        "Q",
+        "S"
+      ],
+      [
+        "Q85",
+        "家内–奥さん",
+        "Q",
+        "S"
+      ],
+      [
+        "Q86",
+        "家内–お母さん",
+        "Q",
+        "S"
+      ],
+      [
+        "Q87",
+        "家内–内",
+        "Q",
+        "S"
+      ],
+      [
+        "Q88",
+        "家内–家",
+        "Q",
+        "H"
+      ],
+      [
+        "Q89",
+        "家内–家族",
+        "Q",
+        "H"
+      ],
+      [
+        "Q90",
+        "家内–家庭",
+        "Q",
+        "H"
+      ],
+      [
+        "Q91",
+        "先輩–先生",
+        "Q",
+        "E"
+      ],
+      [
+        "Q92",
+        "先輩–兄",
+        "Q",
+        "E"
+      ],
+      [
+        "Q93",
+        "先輩–首",
+        "Q",
+        "E"
+      ],
+      [
+        "Q94",
+        "すり–泥棒",
+        "Q",
+        "T"
+      ],
+      [
+        "Q95",
+        "警察–警官",
+        "Q",
+        "C"
+      ],
+      [
+        "Q96",
+        "警察–おまわりさん",
+        "Q",
+        "C"
+      ],
+      [
+        "Q97",
+        "警察–コップ",
+        "Q",
+        "C"
+      ],
+      [
+        "Q98",
+        "警察–交番",
+        "Q",
+        "C"
+      ]
+    ]
+  },
+  "original98RetentionBoundary": "Only original actual scope/identity(2D/96Q), NOT98fresh focused judgments, not a second whole review or fresh corrected1297-row semantic certification.",
+  "exactAdditionalDirectPairs": [
+    {
+      "proposalId": "Q99",
+      "pair": [
+        "お嬢さん",
+        "女"
+      ],
+      "directSources": [
+        "1002170.1",
+        "1344940.1"
+      ],
+      "reason": "Direct daughter caption;女じょ sense1 explicitly permits standalone noun as well as suffix. Not merely female-class membership, not ordinaryおんな=daughter, not suffix lifting.",
+      "metadataOwner": "words/お嬢さん.md",
+      "actualCaptionLeft": "дочь; девушка (уважительно)",
+      "actualCaptionRight": "женщина; женский пол",
+      "authorDisposition": "ADOPT_BOUNDED_F1_RECOMMENDATION;CORRECTED_SNAPSHOT_REVIEW_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitabilityGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q100",
+      "pair": [
+        "君",
+        "兄"
+      ],
+      "directSources": [
+        "1247250.1",
+        "2200990.1"
+      ],
+      "reason": "Direct familiar you to male friend/equal in letters under standaloneけい pronoun, not superior-address generalization or separate Mr suffix; primaryあに/きみ unchanged.",
+      "metadataOwner": "words/君.md",
+      "actualCaptionLeft": "ты (фамильярное обращение)",
+      "actualCaptionRight": "старший брат",
+      "authorDisposition": "ADOPT_BOUNDED_F1_RECOMMENDATION;CORRECTED_SNAPSHOT_REVIEW_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitabilityGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q101",
+      "pair": [
+        "彼",
+        "あそこ"
+      ],
+      "directSources": [
+        "1000580.4",
+        "1000320.1"
+      ],
+      "reason": "Rare written彼あれ usually kana, independently explicit distant-place reference matches actual вон там caption. Not ordinaryかれ person/place equivalence.",
+      "metadataOwner": "words/彼.md",
+      "actualCaptionLeft": "он",
+      "actualCaptionRight": "вон там",
+      "authorDisposition": "ADOPT_BOUNDED_F1_RECOMMENDATION;CORRECTED_SNAPSHOT_REVIEW_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitabilityGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q102",
+      "pair": [
+        "彼",
+        "そこ"
+      ],
+      "directSources": [
+        "1000580.4",
+        "1006670.2"
+      ],
+      "reason": "Rare written彼あれ explicit that-place versus already-mentionedそこ place sense2; anaphoric/deictic compatibility only, NOT universal listener-near=both-distant equivalence.",
+      "metadataOwner": "words/彼.md",
+      "actualCaptionLeft": "он",
+      "actualCaptionRight": "там; то место",
+      "authorDisposition": "ADOPT_BOUNDED_F1_RECOMMENDATION;CORRECTED_SNAPSHOT_REVIEW_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitabilityGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q103",
+      "pair": [
+        "彼",
+        "向こう"
+      ],
+      "directSources": [
+        "1000580.4",
+        "1277140.2",
+        "1277140.3"
+      ],
+      "reason": "Rare written彼あれ explicit place over there matches distant there senses of向こう. Not all opposite sides/destinations or ordinaryかれ; no protected空 adjudication.",
+      "metadataOwner": "words/彼.md",
+      "actualCaptionLeft": "он",
+      "actualCaptionRight": "там; по ту сторону",
+      "authorDisposition": "ADOPT_BOUNDED_F1_RECOMMENDATION;CORRECTED_SNAPSHOT_REVIEW_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitabilityGlobalFutureUniqueness": "UNVERIFIED"
+    }
+  ],
+  "exactNewOwnerPaths": [
+    "words/お嬢さん.md",
+    "words/君.md",
+    "words/彼.md"
+  ],
+  "boundContextualWholePairs": [
+    {
+      "word": "女",
+      "path": "words/女.md",
+      "sourceRawSha256": "e771a2fa452fec0aca3bd7ca1bf57562ce7d7eb2dee0d866fafdcf79c5bf88f7",
+      "captureIsReading": false,
+      "russianWorkingRawSha256": "e8f088591d061b68cddaa4e2be4cd2063e025b02f48fb504e77c81b5e094dc2c"
+    },
+    {
+      "word": "兄",
+      "path": "words/兄.md",
+      "sourceRawSha256": "3896307b083759fad9af80c12b152562747834ad1e6eef34d2d78a971d080bdb",
+      "captureIsReading": false,
+      "russianWorkingRawSha256": "fd05d2e5271366ae98b877e8d1ce8cb1e27c069299b320f7fa2be1221f146852"
+    },
+    {
+      "word": "あそこ",
+      "path": "words/あそこ.md",
+      "sourceRawSha256": "181dacea5464d2ec0d84d0f6b36f8eb49a01ec030a3ac39f10ccacb04083cfb2",
+      "russianWorkingRawSha256": "f0a4bbd7e969a6a9bd4a2caa02bd92c265de18fd6ef646888d9a1f8bc2530807",
+      "captureIsReading": false
+    },
+    {
+      "word": "そこ",
+      "path": "words/そこ.md",
+      "sourceRawSha256": "beaa6c7fe1e944b8b1160f85bc477528d842d326b4149cf727c59827b74c0286",
+      "russianWorkingRawSha256": "7ac38144113c872134e7940a5811e66036c6ef609a0f7dc987ecec8bee0813c1",
+      "captureIsReading": false
+    },
+    {
+      "word": "向こう",
+      "path": "words/向こう.md",
+      "sourceRawSha256": "167a404860ec3bfdbcc4a744c7d0bd8c5040d792b4f7053f767dd375cfa3faa2",
+      "russianWorkingRawSha256": "230e4235a91b1f07e7665c24cdd96ac137daab157180d2387b77ace292b833ba",
+      "captureIsReading": false
+    }
+  ],
+  "boundWholeOfficialEntries": [
+    {
+      "entryId": "1344940",
+      "spellings": [
+        "女"
+      ],
+      "readings": [
+        "じょ"
+      ],
+      "captureFile": "ru-068-official-entry-1344940-001.xml",
+      "captureBytes": 789,
+      "captureSha256": "6cfb9d88bc5de8e69b697226a26145ff5d83fc996e73ebf6956d4f147b2c9b33",
+      "captureIsReading": false
+    },
+    {
+      "entryId": "2200990",
+      "spellings": [
+        "兄"
+      ],
+      "readings": [
+        "けい"
+      ],
+      "captureFile": "ru-068-official-entry-2200990-001.xml",
+      "captureBytes": 918,
+      "captureSha256": "d2a94be07d42e59ae3d90ec05d75ba640591bdd34bfd6b2ff74550d4cf805166",
+      "captureIsReading": false
+    },
+    {
+      "entryId": "1000580",
+      "spellings": [
+        "彼",
+        "彼れ"
+      ],
+      "readings": [
+        "あれ",
+        "アレ"
+      ],
+      "captureFile": "ru-068-official-entry-1000580-001.xml",
+      "captureBytes": 1777,
+      "captureSha256": "d0228acbd26c5131a31832619ca6b64e4e753152a47606c2f10a69e13c7fe1c6",
+      "captureIsReading": false
+    },
+    {
+      "entryId": "1000320",
+      "spellings": [
+        "彼処",
+        "彼所"
+      ],
+      "readings": [
+        "あそこ",
+        "あすこ",
+        "かしこ",
+        "アソコ",
+        "あしこ"
+      ],
+      "captureFile": "ru-068-official-entry-1000320-001.xml",
+      "captureBytes": 1635,
+      "captureSha256": "0e0c790f247418c33a6e73e01fb81327a56433db2df97b4b472ad10ce54a47e1",
+      "captureIsReading": false
+    },
+    {
+      "entryId": "1006670",
+      "spellings": [
+        "其処",
+        "其所"
+      ],
+      "readings": [
+        "そこ"
+      ],
+      "captureFile": "ru-068-official-entry-1006670-001.xml",
+      "captureBytes": 1014,
+      "captureSha256": "45fec5f82e5a2bb7ec6e1f0a560c347ef4f35117e7f2a71f0b6b4bbedfc2cdf5",
+      "captureIsReading": false
+    },
+    {
+      "entryId": "1277140",
+      "spellings": [
+        "向こう",
+        "向う"
+      ],
+      "readings": [
+        "むこう"
+      ],
+      "captureFile": "ru-068-official-entry-1277140-001.xml",
+      "captureBytes": 1363,
+      "captureSha256": "9363ec52c8978fabdca895a87b3ef6923ffa7dac0da3b1a1ce7512aa05165787",
+      "captureIsReading": false
+    }
+  ],
+  "actualAuthorFollowupEvidence": {
+    "actualFreshWholeOfficialObjects": 6,
+    "actualFreshWholeProviderBilingualPairs": 5,
+    "actualPublicReturns": [
+      {
+        "eventId": "20b45520-fd3a-4298-af9b-d73ebafe869c",
+        "coverage": "F1all6wholeobjects",
+        "actualPublicReturnBytes": 6196,
+        "actualPublicReturnSha256": "2e56c6b80b9e2d7dff97f6a13b69d7729d22db2c3a5ce71d8758c9e9a4716d22"
+      },
+      {
+        "eventId": "dcbd1c34-7a62-4605-bf4b-f89478cca46e",
+        "coverage": "pairs72 73",
+        "actualPublicReturnBytes": 4260,
+        "actualPublicReturnSha256": "9f1c6c664e1a9e372ba1de4c595010041d9c251a93693c9ed107e61c139fa4e4"
+      },
+      {
+        "eventId": "a5f0f930-47d2-452a-bdf6-d74373015fa4",
+        "coverage": "pairs4 5",
+        "actualPublicReturnBytes": 3920,
+        "actualPublicReturnSha256": "6359a237f33f8ae554d104493665d35ba2a7e7ea8f479edaecb5d3e542689d63"
+      },
+      {
+        "eventId": "44084a81-53aa-47ad-8e9f-4c4bd0ef2fd3",
+        "coverage": "pairs34 35",
+        "actualPublicReturnBytes": 4123,
+        "actualPublicReturnSha256": "b0c7efc9b2ccf7b51ec4ede5bf22f8359c420ea1738fb5f41503074f36a02f56"
+      },
+      {
+        "eventId": "d4d97a42-2617-4730-9632-62e7729e49ff",
+        "coverage": "pairs60 62",
+        "actualPublicReturnBytes": 7324,
+        "actualPublicReturnSha256": "653fdb0db100794ed0214bba3c8f6e7f81f3753a4813ba57639d5d95c8d37a60"
+      }
+    ],
+    "boundary": "Exact F1 author followup reads only; not a new independent review or whole-pool rereading."
+  },
+  "all20OriginalBodies": [
+    {
+      "path": "words/あかちゃん.md",
+      "originalCandidateWorkingRawSha256": "ffca7b21544e7cc6c8368aa575d111f55490b39f2b14880f252d79bab779fae4",
+      "originalCandidateBodyRawSha256": "368322bb9737eedeb9cf3c3afcbbd0b3a36bb75a692a6e8e88f5ba14a164f6cd"
+    },
+    {
+      "path": "words/赤ん坊.md",
+      "originalCandidateWorkingRawSha256": "4aae7ea438feca6b10131b6ef9e0815c02c989627ea72a445bb3b6688a46b0c0",
+      "originalCandidateBodyRawSha256": "35e73ed66e5c7512099bd7edc143f319550410d22f5d602f822225e5a7381d16"
+    },
+    {
+      "path": "words/お嬢さん.md",
+      "originalCandidateWorkingRawSha256": "c8d9cfe49105da802c7ca285506dde03d2c7ce955ad5de1269dfb32135c37a18",
+      "originalCandidateBodyRawSha256": "c841c3b15fdc1a120e74046cdad59a1f08592b6ed87fd04ceb661ad39d34922b"
+    },
+    {
+      "path": "words/お宅.md",
+      "originalCandidateWorkingRawSha256": "072f98360402619f1eacfdfbecd6cc1f4c0b50a5576969b882af93911c80b366",
+      "originalCandidateBodyRawSha256": "3f5c9e7c7401572dc6fe16d43d867d0fcf1cd8bbeff6b25a48b8749ddbb63cf2"
+    },
+    {
+      "path": "words/お金持ち.md",
+      "originalCandidateWorkingRawSha256": "fa90b296a353d4efdd361189350a7f8786d4524abddb08d1f16d22301b6a2171",
+      "originalCandidateBodyRawSha256": "62b446b7cc4888560b247c8bb1e310252c7d0014f563246028a72f5c6308c38d"
+    },
+    {
+      "path": "words/金持ち.md",
+      "originalCandidateWorkingRawSha256": "cdd3ebb1553209a07e141e2dcde87a5f0919eebe333ea3fbdef43c156add93fd",
+      "originalCandidateBodyRawSha256": "cb92f30dd13564dc2e689b7f9db1c22d55e8f4aed756142aa53094964b3cc024"
+    },
+    {
+      "path": "words/僕.md",
+      "originalCandidateWorkingRawSha256": "b1d71da8083a5d5bc179dc29812a9186e01e80f7ce09ee2f3dd044a1a95760ad",
+      "originalCandidateBodyRawSha256": "ef8a207d051dae35b8ce745b3d2c0c13ba7b668ad08de40b80ede012d16431da"
+    },
+    {
+      "path": "words/君.md",
+      "originalCandidateWorkingRawSha256": "19af56cfbe7348474369ea1f598ae2077b3fd93403414767b79006519de00dd1",
+      "originalCandidateBodyRawSha256": "ed3a35344a066149df8c221082ae2c1287aca510045ad046ccaa50cc94404f5f"
+    },
+    {
+      "path": "words/彼.md",
+      "originalCandidateWorkingRawSha256": "fe5fec3b2e97377693e3e36bd79cc35cbd9a568de93a21268ae4ecb42a8afa5c",
+      "originalCandidateBodyRawSha256": "b913a28156f835cd438242fed2acb43dc9d23146dc7c5b92c846c7353000f348"
+    },
+    {
+      "path": "words/彼ら.md",
+      "originalCandidateWorkingRawSha256": "1cd707401ef89cf09b100ab3e4a823ee9edb9d23e24d6260a92e749867a307ec",
+      "originalCandidateBodyRawSha256": "968e21f0b84f7acecd3bd48821700337afa6f7d023777d47d9d1d180929dfd35"
+    },
+    {
+      "path": "words/彼女.md",
+      "originalCandidateWorkingRawSha256": "f48248b2c83c817b9c27b7b9defd165864409784f6bd739e8b7ce8904bf28796",
+      "originalCandidateBodyRawSha256": "49aee3b97438ce2abf55665d0b56b727ef4719775504eb19d4c179c5455727a9"
+    },
+    {
+      "path": "words/御主人.md",
+      "originalCandidateWorkingRawSha256": "c79ce38a83be2666078ffa8513d90919e8ac9701522e3fa5dc54204d9e716877",
+      "originalCandidateBodyRawSha256": "03e9ec667eb503f108df46798b7d4688105ccd48b7a33665a9cf62fbb9722461"
+    },
+    {
+      "path": "words/家内.md",
+      "originalCandidateWorkingRawSha256": "055ff9f9d820269ad77cc17eb69ed74013d0d10fff643e740d4ab8039c905938",
+      "originalCandidateBodyRawSha256": "f458a8c5a74a21c46eb71cb84c855ebf0b926f75430d2639902ab06ef9409668"
+    },
+    {
+      "path": "words/客.md",
+      "originalCandidateWorkingRawSha256": "eb7b914a30efeff5e3da57a1c8cdd93952184e924a62abb17d77daeed3ef1f5d",
+      "originalCandidateBodyRawSha256": "6619e2cb6ef542e973a80a41df470f5da2d30870aed5c46ace838ed5809513eb"
+    },
+    {
+      "path": "words/先輩.md",
+      "originalCandidateWorkingRawSha256": "7535d4a2a4311e33f927ceec246ff0c6f61fb0b89fd1d90a922a5e6371117d28",
+      "originalCandidateBodyRawSha256": "ee629e368f98e74ccfa15e86bea35fa14fdb1ba6fb93aba2e6e5e0d2a9bf11ba"
+    },
+    {
+      "path": "words/くん.md",
+      "originalCandidateWorkingRawSha256": "f355a52ce59f363352d5e4b2a95a733fa159621f537592986109aef9550045b0",
+      "originalCandidateBodyRawSha256": "b9994aa2b8ae88fc81ed9b72c371f111ffdaf71d30a05c03d0538989abf38874"
+    },
+    {
+      "path": "words/ちゃん.md",
+      "originalCandidateWorkingRawSha256": "8b42483e299c715eead079106532f54a02a13b7d04203502caffed72c104d00d",
+      "originalCandidateBodyRawSha256": "ff29d4322d2c745ae2fb609350ba8e2969c14818ed70571a1a328197ecaeea29"
+    },
+    {
+      "path": "words/すり.md",
+      "originalCandidateWorkingRawSha256": "10a27421308929a23f59b2cfd74e426fe770aaac38e1de43971e16430bc3d2fb",
+      "originalCandidateBodyRawSha256": "fb6980ab97ed3f9bd47af5cedf82f929bf240e2822e872080f0717b13279187c"
+    },
+    {
+      "path": "words/泥棒.md",
+      "originalCandidateWorkingRawSha256": "da686dd884fba9a2c01804a0eab065661e6174cdee8e54787a79d2078d1c2a58",
+      "originalCandidateBodyRawSha256": "08a88209ac13e0f3051d93bd0b5f29259090df34dd92f16327c240b97f524039"
+    },
+    {
+      "path": "words/警察.md",
+      "originalCandidateWorkingRawSha256": "95f1b565a97dce78a9b417084d0e5c5abd67c7b7140bc9664b0f8f10e394b2ea",
+      "originalCandidateBodyRawSha256": "97f4932a9dacc1adb2083513cd0e36a6761fa4d46e68c9ddc56c0a83a171b58f"
+    }
+  ],
+  "amendmentContract": "Add precisely Q99–Q103 to3new metadataowners, no body/title/reading/level/baseline/provider/media edits. Preserve original reports/intake/freezes/001pool/receipts. Generate manifest; SERIALvalidate/124tests/budget. Bind002actualpool, explicitly1294row identity+3changedrows; actual3correctedwholeRUreads before signed correctedcandidate. Then one NEW read-only focused reviewer of F1/16wholebodies/6wholeobjects/8affectedrows/3RUrootrubrics/exactdiff and body/pool identity; NOT another whole review.",
+  "independentCorrectedSnapshotStatus": "PENDING",
+  "sourceAcceptance": false,
+  "totalProspectivePairs": 103,
+  "sourceNegativeDeclarations": 0,
+  "runtimeMutationApplied": false,
+  "releaseBoundary": "Sourceauthoringonly; noassets/native/device/phone/IME/media/package/default/releaseapproval.",
+  "fullTaskComplete": false,
+  "continueRequired": true
+}
