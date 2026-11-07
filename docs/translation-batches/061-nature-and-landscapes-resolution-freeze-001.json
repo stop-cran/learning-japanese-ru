@@ -1,0 +1,824 @@
+{
+  "schemaVersion": 1,
+  "batchId": "061-nature-and-landscapes",
+  "recordedAt": "2026-11-07T03:25:48.195290+00:00",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "originalCandidateCommit": "cb16e3935bdea5e6e6596f6d8f6e3f94b63add79",
+  "actualOriginalReport": "docs/translation-batches/061-nature-and-landscapes-independent-review-001.json",
+  "actualOriginalReportRawSha256": "0e72c7836d14ce75492ba1cde305b56048a518fee1ff207a4ad3c8a0d69b968c",
+  "actualOriginalReportPayloadSha256": "2c7ff67e551fa377af00c600ef44b42d409a4b64cca290ca7ce95e7a08f07380",
+  "originalFindings": [
+    {
+      "id": "061-R1",
+      "severity": "medium",
+      "facet": "C2",
+      "path": "words\\世界.md",
+      "lines": [
+        9
+      ],
+      "evidence": "Whole JMdict1373860 sense3 explicitly records world-renowned/world-famous as a noun takingの. Actual有名 caption is известный; знаменитый; its complete RU body confirms the fame meaning. Neither current exclusion field protects this direct alternate-sense overlap:世界 lists only社会/人間,and有名 has none. This is not the invalid inference from星 celebrity noun to有名 adjective.",
+      "requiredCorrection": "Adjudicate and protect the direct世界-有名 pair in the same conservative bare-written-question scope as the other secondary senses,or record source-backed inapplicability. Qualify theの-modifying construction;do not claim世界 is aな-adjective or establish everyday necessity/frequency. No additional provider lesson is required.",
+      "confidence": "High for recorded lexical overlap;ordinary modern quiz necessity/frequency remains UNVERIFIED",
+      "status": "unresolved"
+    }
+  ],
+  "originalConclusions": {
+    "C1": {
+      "verdict": "CLEAN",
+      "scope": "No confirmed Japanese defect in22 complete translated lessons and their assigned contextual/source evidence. Native history supports qualified kango/special-reading treatment of景色, not productiveけ or unrestricted historical気色 senses."
+    },
+    "C2": {
+      "verdict": "NEEDS_REVISION",
+      "scope": "Assigned cohort/dependencies and all1149 actual captions examined. All32 existing qualified lexical protections supported individually; omitted世界-有名 secondary-sense protection needs explicit disposition (061-R1). No global approval of reused content.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for all32",
+      "globalUniqueness": "UNVERIFIED"
+    },
+    "C3": {
+      "verdict": "CLEAN",
+      "scope": "All22 complete Russian titles/bodies are understandable,natural and substantively complete against frozen EN; Japanese rules survive removal of English-dependent comparisons. Reused bodies were contextual evidence,not newly globally approved."
+    }
+  },
+  "exactProposedCorrection": {
+    "proposalId": "Q33",
+    "left": "世界",
+    "right": "有名",
+    "leftActualCaption": "мир",
+    "rightActualCaption": "известный; знаменитый",
+    "completeOfficialEntrySenseEvidence": "1373860.3;1541620.1",
+    "individuallyQualifiedRationale": "Whole1373860.3 explicitly records world-renowned/world-famous with POS noun takingの; whole1541620.1 independently records famous/well-known na-adjective. Meets actualизвестный;знаменитый cue conservatively when bare 世界 hides its modifying construction. NOT world=celebrityperson, not 星-有名 transitivity, not世界 aな-adjective or allworlds famous.",
+    "ordinaryModernNecessityFrequency": "UNVERIFIED; not asserted",
+    "independentExactCaptionJapanesePOSReadingJudgment": "PENDING exact focused061-R1 review"
+  },
+  "correctionScope": "Add ONLY有名 to世界quiz_exclusions; all22teachingbodies, titles, readings, examples, classifications and1439baseline runtimeRAWs unchanged. Generate manifest; bind actualamended1149-row pool. No additional runtime provider.",
+  "original32QualifiedRetains": "Carry original actual whole-review judgments by unchanged caption/body/guard identity, not33fresh semantic re-read.",
+  "actualAdditionalAuthorReadings": {
+    "completeENRU有名Pair": 1,
+    "completeNewOfficial有名Object": "1541620",
+    "whole世界1373860Reread": true,
+    "actualTotalPreparatorySourceContextBodiesBeforeThisMetadataAmendment": 208,
+    "wholeOfficialObjectCoverage": 272,
+    "successfulPublicReadingReceipts": [
+      {
+        "eventId": "29659538-2502-41b0-a68d-f4677c631d68",
+        "actualPublicReturnSha256": "8656d6c9e7ed32900be4fcc4495fe398ee0e700a36146c71333328b81e4a62be",
+        "actualPublicReturnBytes": 7428,
+        "actualReturnedWindows": [
+          [
+            "primary",
+            "17",
+            "22"
+          ]
+        ]
+      },
+      {
+        "eventId": "96b6ad71-a609-4a27-af77-f5d8bfe88abd",
+        "actualPublicReturnSha256": "b32c7da74e1da1cb63ce81b65afe7225c7400223b1cfc7e73abec7d50890227c",
+        "actualPublicReturnBytes": 13437,
+        "actualReturnedWindows": [
+          [
+            "primary",
+            "8",
+            "17"
+          ]
+        ]
+      },
+      {
+        "eventId": "fb27a266-2706-420c-a2da-24cb2fd91b11",
+        "actualPublicReturnSha256": "8adea36ef91ec24b3bfffc734cb50685c0ac3f0545dc7494eed23aed00242239",
+        "actualPublicReturnBytes": 12969,
+        "actualReturnedWindows": [
+          [
+            "primary",
+            "0",
+            "8"
+          ]
+        ]
+      },
+      {
+        "eventId": "be310e06-ffec-4575-a8ca-2ab6fe967085",
+        "actualPublicReturnSha256": "be39b56af74b25f78bdfb3dac769ed71e90c69100c6adea0552892c3aebee993",
+        "actualPublicReturnBytes": 11382,
+        "actualReturnedWindows": []
+      },
+      {
+        "eventId": "8a60d147-2e27-4926-a202-63546e11e15a",
+        "actualPublicReturnSha256": "25a61ea532a270164ef81ea7dfcfd8a535e8760f2ce4577aa05534fbd3d825a6",
+        "actualPublicReturnBytes": 2846,
+        "actualReturnedWindows": []
+      },
+      {
+        "eventId": "fdf32323-6475-48bc-a133-476055abc68b",
+        "actualPublicReturnSha256": "5f177eed4cfe903396d86ab5effe250498bc38dae6981b8a7de840dccd80ed59",
+        "actualPublicReturnBytes": 12350,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "3",
+            "6"
+          ]
+        ]
+      },
+      {
+        "eventId": "23f36b31-3c3c-4633-890e-1681c1617371",
+        "actualPublicReturnSha256": "5d23afc626e8753c26d4740806630cb59ce7980011036f17fb1b448bad5a33b5",
+        "actualPublicReturnBytes": 12678,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "6",
+            "9"
+          ]
+        ]
+      },
+      {
+        "eventId": "b1f11eb4-3b59-4ff9-a37e-d6ea3dffb1c3",
+        "actualPublicReturnSha256": "2a4eb96dc923530580cbc1b7523f8ac991832784d0b25d1a35381e5ae201412a",
+        "actualPublicReturnBytes": 10992,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "0",
+            "3"
+          ]
+        ]
+      },
+      {
+        "eventId": "a92cdf36-1a3b-4ecc-8be7-28e867612b42",
+        "actualPublicReturnSha256": "a0ab29ccd81ccde799406a6e8816dda794f1e6eb37c5a006d8e779a70d9ba996",
+        "actualPublicReturnBytes": 13260,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "9",
+            "12"
+          ]
+        ]
+      },
+      {
+        "eventId": "a242229b-50fd-44ca-8234-167deaa979d5",
+        "actualPublicReturnSha256": "b32ee0472484c434c31c0e09160ebd4acd95037754d7c1563c403ac89e2522c2",
+        "actualPublicReturnBytes": 13600,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "15",
+            "18"
+          ]
+        ]
+      },
+      {
+        "eventId": "b4a0e06e-6749-4cc4-830d-f0f891456877",
+        "actualPublicReturnSha256": "1b71a4f6374efeecc80fceb742a74df79abce4cabbdd970cad91748313cf361a",
+        "actualPublicReturnBytes": 11606,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "12",
+            "15"
+          ]
+        ]
+      },
+      {
+        "eventId": "a8539d4d-5177-4f65-bb03-70f1ef5ab70d",
+        "actualPublicReturnSha256": "234da1b9b8015810f4296e23da6a6cc99b92cf420e8ffd0c8d46145553afbbc6",
+        "actualPublicReturnBytes": 11698,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "18",
+            "21"
+          ]
+        ]
+      },
+      {
+        "eventId": "1bd733ac-2347-4a09-8638-5846aafa602c",
+        "actualPublicReturnSha256": "1142ee82d3d06d75fca5d1d29d0a38927f4c913fd64f1f3c86ab34ee49ba5bc9",
+        "actualPublicReturnBytes": 13534,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "25",
+            "28"
+          ]
+        ]
+      },
+      {
+        "eventId": "16541de1-ac9a-4021-8cd3-30ded42e48c9",
+        "actualPublicReturnSha256": "ec6bca32ab07733176769a9010ecb1d539dac27031726c419cd3aa3dd0190bd5",
+        "actualPublicReturnBytes": 13495,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "21",
+            "25"
+          ]
+        ]
+      },
+      {
+        "eventId": "5681bbd7-3761-4a52-ba59-af8028559a21",
+        "actualPublicReturnSha256": "ba99dce55db32f1a75da4a2ea390357feda1670bd0adb8838ff40576e01d84f5",
+        "actualPublicReturnBytes": 10613,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "34",
+            "36"
+          ]
+        ]
+      },
+      {
+        "eventId": "d43a37c2-5ee1-4d04-bda6-a31ebafa5919",
+        "actualPublicReturnSha256": "95b38bd61a1b2029c102b6fe5d886a07190ac24493063ba69a4d9ba76ad87d9e",
+        "actualPublicReturnBytes": 11686,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "31",
+            "34"
+          ]
+        ]
+      },
+      {
+        "eventId": "bc66eae6-e179-4183-ba36-367d81281fe4",
+        "actualPublicReturnSha256": "c9f7108638bb831605b089c9e0df22198643248a565b75b6b25ad6cc8501a3d1",
+        "actualPublicReturnBytes": 11596,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "28",
+            "31"
+          ]
+        ]
+      },
+      {
+        "eventId": "5afaed54-179b-4937-9b90-4304b77917c3",
+        "actualPublicReturnSha256": "1b507e8c761c8556e2d7de4ff522c27918ae9c1ce04f71f30d6bd75ec8252a52",
+        "actualPublicReturnBytes": 13126,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "36",
+            "39"
+          ]
+        ]
+      },
+      {
+        "eventId": "638c8975-3f86-4636-b2d4-283113221c0c",
+        "actualPublicReturnSha256": "1f98ff6f8c9c1c11e66f77d3c49e4492a1e3860b985806bb69d3aeb0f48b8ec8",
+        "actualPublicReturnBytes": 13470,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "39",
+            "42"
+          ]
+        ]
+      },
+      {
+        "eventId": "9dae022f-1d47-4ca2-8aad-666291ea87ac",
+        "actualPublicReturnSha256": "9ebd0ca007c6a92c4bd577ecaa8a148c6c4b6c5c7aecc8518627b9fe66907724",
+        "actualPublicReturnBytes": 11597,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "42",
+            "45"
+          ]
+        ]
+      },
+      {
+        "eventId": "5bfa015d-9201-49c7-8887-d375efc7620c",
+        "actualPublicReturnSha256": "764a52ab46668115b22e7059523d1e7dd872c21bfeea1e35afc4f7523fb853b1",
+        "actualPublicReturnBytes": 10948,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "45",
+            "48"
+          ]
+        ]
+      },
+      {
+        "eventId": "08dbd1e9-ee4b-49ef-81aa-a93a1079987a",
+        "actualPublicReturnSha256": "bfdf50de42e34a5dde634134136bad00c7ef19890a9862e7be049ac10148d4a3",
+        "actualPublicReturnBytes": 11733,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "48",
+            "51"
+          ]
+        ]
+      },
+      {
+        "eventId": "e681ff8b-81ae-4e00-991b-bd87e3aaad2a",
+        "actualPublicReturnSha256": "cf9931addd6e1ab3b021bb914ae2cfbf7fc2ba3f36cd0c60d66e9657fdc493c6",
+        "actualPublicReturnBytes": 13337,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "51",
+            "54"
+          ]
+        ]
+      },
+      {
+        "eventId": "19df67fb-5b15-4f4c-966a-145035c82036",
+        "actualPublicReturnSha256": "dd176379947cec4e1f43a3bee81ffcaa9aa53f3e661db7f05e38786185202ede",
+        "actualPublicReturnBytes": 12873,
+        "actualReturnedWindows": [
+          [
+            "comparisons",
+            "13",
+            "20"
+          ]
+        ]
+      },
+      {
+        "eventId": "d9a71f56-4e58-464a-9848-5c6aacbc2522",
+        "actualPublicReturnSha256": "d2874d712c7ec51b893e393393543ee7f028c3ce53c4a21da42a49875d909d91",
+        "actualPublicReturnBytes": 11757,
+        "actualReturnedWindows": [
+          [
+            "comparisons",
+            "6",
+            "13"
+          ]
+        ]
+      },
+      {
+        "eventId": "e93d9ab2-1975-416a-9611-0fc27f593230",
+        "actualPublicReturnSha256": "a1a941b8a302415f6eb20191eae2ce5d4522e2c109a38a8042180d4bdfc8cb0f",
+        "actualPublicReturnBytes": 11584,
+        "actualReturnedWindows": [
+          [
+            "comparisons",
+            "0",
+            "6"
+          ]
+        ]
+      },
+      {
+        "eventId": "014cd031-4b8b-43aa-bb85-bbfdffca5ea5",
+        "actualPublicReturnSha256": "5b2e894ca1ce56cb7648591e14a5128da306c6c6927f8720d96c12f1124a6a80",
+        "actualPublicReturnBytes": 12938,
+        "actualReturnedWindows": [
+          [
+            "comparisons",
+            "20",
+            "27"
+          ]
+        ]
+      },
+      {
+        "eventId": "d69f0544-d306-4c24-af7d-a4af15ac5dd8",
+        "actualPublicReturnSha256": "7982cba7c97b10ba09cfe882f4aa1f7e7b8e94231bb5064f4cf2f8469e59b0b6",
+        "actualPublicReturnBytes": 12697,
+        "actualReturnedWindows": [
+          [
+            "comparisons",
+            "27",
+            "34"
+          ]
+        ]
+      },
+      {
+        "eventId": "45d44e5d-790d-4ad5-af9a-c64bd6d55131",
+        "actualPublicReturnSha256": "d11160e7dfedbb79f41788b86b76098868833735f263842c1e09a1a481dbc74d",
+        "actualPublicReturnBytes": 13088,
+        "actualReturnedWindows": [
+          [
+            "comparisons",
+            "34",
+            "41"
+          ]
+        ]
+      },
+      {
+        "eventId": "d9bb0ac8-816d-4d1e-9fda-50d6b2174466",
+        "actualPublicReturnSha256": "3039005d5cb7c3cf6ff6edc5924be3b97e1f7b1c16b29ae9ae49907f908478c1",
+        "actualPublicReturnBytes": 1948,
+        "actualReturnedWindows": [
+          [
+            "comparisons",
+            "41",
+            "42"
+          ]
+        ]
+      },
+      {
+        "eventId": "809e7228-1359-4e81-8dc0-d38681b6911a",
+        "actualPublicReturnSha256": "1a1c44375591ca837a8ff8670a17db517aa1541b6fd60a111021d6c50ed09c16",
+        "actualPublicReturnBytes": 12443,
+        "actualReturnedWindows": [
+          [
+            "objects",
+            "11",
+            "26"
+          ]
+        ]
+      },
+      {
+        "eventId": "c9db20a6-a2f4-44ba-8a36-7fb70672f874",
+        "actualPublicReturnSha256": "dc49dd0d65823d7ccf219db02bfa249a2e8f415f967c0ddc7f763ca40f839047",
+        "actualPublicReturnBytes": 12352,
+        "actualReturnedWindows": [
+          [
+            "objects",
+            "0",
+            "11"
+          ]
+        ]
+      },
+      {
+        "eventId": "0c90be0c-ece7-4ebd-bcc7-5a23a0ed6412",
+        "actualPublicReturnSha256": "ba12f569c0d3fc0153598398dee7cbaffb098f0d21ad5c1c9c816f7344bb00c3",
+        "actualPublicReturnBytes": 12583,
+        "actualReturnedWindows": [
+          [
+            "objects",
+            "26",
+            "39"
+          ]
+        ]
+      },
+      {
+        "eventId": "29e25678-6738-4a23-9a07-2369f8aa6454",
+        "actualPublicReturnSha256": "46b5917cd3fd812c74f572d76ef1e88c1bfdf5ab91e032ad3b7c8aebb86d95e7",
+        "actualPublicReturnBytes": 10846,
+        "actualReturnedWindows": [
+          [
+            "objects",
+            "52",
+            "68"
+          ]
+        ]
+      },
+      {
+        "eventId": "0333e2e2-ade7-4f28-8767-95f31421c479",
+        "actualPublicReturnSha256": "efbfae9c94cb79e16aaabad4833ddf5094c2941ca68ce8d592ab3f61f6ffc963",
+        "actualPublicReturnBytes": 12850,
+        "actualReturnedWindows": [
+          [
+            "objects",
+            "39",
+            "52"
+          ]
+        ]
+      },
+      {
+        "eventId": "599a2fe2-f404-4e19-a845-9a86801cae97",
+        "actualPublicReturnSha256": "fa1c0560dade83df8a70c848a187ad8b240de54181488531f577e9a04e416ac2",
+        "actualPublicReturnBytes": 12566,
+        "actualReturnedWindows": [
+          [
+            "objects",
+            "89",
+            "94"
+          ]
+        ]
+      },
+      {
+        "eventId": "4a047511-b77f-4d93-bf1a-57f1f17fbbd3",
+        "actualPublicReturnSha256": "5bd850a87901c5d95daafaacf43051f76387f8611ea616aaed8531685a8a0db3",
+        "actualPublicReturnBytes": 10840,
+        "actualReturnedWindows": [
+          [
+            "objects",
+            "81",
+            "89"
+          ]
+        ]
+      },
+      {
+        "eventId": "f172d414-6cfb-4be2-9355-827493e42880",
+        "actualPublicReturnSha256": "8126f7b4124a3ceca3eb5ab7f03da98cd19b01568fc1afc797d91d3d4b412de1",
+        "actualPublicReturnBytes": 10899,
+        "actualReturnedWindows": [
+          [
+            "objects",
+            "68",
+            "81"
+          ]
+        ]
+      },
+      {
+        "eventId": "a18f873d-493b-429f-aa78-312de1b94040",
+        "actualPublicReturnSha256": "ffed9f7cdedeebd55e8a2ba84bdbb111682ce9beb49495b15de40d7bfb0994e0",
+        "actualPublicReturnBytes": 12501,
+        "actualReturnedWindows": [
+          [
+            "objects",
+            "107",
+            "124"
+          ]
+        ]
+      },
+      {
+        "eventId": "fa0f4790-486e-453f-9d3c-1f99debf3108",
+        "actualPublicReturnSha256": "ab9230dd99ec082916b9a59764718b1a6acac99927a108d457bd793e02f30022",
+        "actualPublicReturnBytes": 12385,
+        "actualReturnedWindows": [
+          [
+            "objects",
+            "124",
+            "138"
+          ]
+        ]
+      },
+      {
+        "eventId": "f89cc033-d309-461b-8c19-0bf3fff72a32",
+        "actualPublicReturnSha256": "4ad72f3ae1309b29f3082ff8de1c9cb0df8abe1e80fa81187fc648bd16eee62b",
+        "actualPublicReturnBytes": 12764,
+        "actualReturnedWindows": [
+          [
+            "objects",
+            "94",
+            "107"
+          ]
+        ]
+      },
+      {
+        "eventId": "c53562d3-a2ff-4ad7-b643-86ef9e4ee97d",
+        "actualPublicReturnSha256": "682ba62e82ab8a0a4c80420d80bdcc857dcdf64653d356933179b251103ca683",
+        "actualPublicReturnBytes": 12355,
+        "actualReturnedWindows": [
+          [
+            "objects",
+            "138",
+            "148"
+          ]
+        ]
+      },
+      {
+        "eventId": "428a178f-fbef-4925-89ec-1f83a2a37d82",
+        "actualPublicReturnSha256": "31b2eed60f1f2a9116dec2239c059ffb8b15df75908ccbafddb8996b40704150",
+        "actualPublicReturnBytes": 12610,
+        "actualReturnedWindows": [
+          [
+            "objects",
+            "148",
+            "162"
+          ]
+        ]
+      },
+      {
+        "eventId": "d409cb4d-7e52-43d3-8956-b8ff6105f06a",
+        "actualPublicReturnSha256": "f5d9b5b68a87c1e8fa7efeaccae5a2cdad7234fff9abdffd43e932c3e2418531",
+        "actualPublicReturnBytes": 12043,
+        "actualReturnedWindows": [
+          [
+            "objects",
+            "162",
+            "176"
+          ]
+        ]
+      },
+      {
+        "eventId": "bcfb779c-b5d0-4883-b271-e149a36a7498",
+        "actualPublicReturnSha256": "12dc9bf0790dbb525795307ca411acacfaefa37ad37b2c7f6b0141b403179e58",
+        "actualPublicReturnBytes": 12353,
+        "actualReturnedWindows": [
+          [
+            "objects",
+            "176",
+            "192"
+          ]
+        ]
+      },
+      {
+        "eventId": "7a5b5b4d-157e-47a0-9902-e5cb125c8375",
+        "actualPublicReturnSha256": "7788a967d538e4312ad16ee6bcdd8ec7cac8ae8cb59c50631fbcbca90841fd34",
+        "actualPublicReturnBytes": 11903,
+        "actualReturnedWindows": [
+          [
+            "objects",
+            "212",
+            "234"
+          ]
+        ]
+      },
+      {
+        "eventId": "8d6fcb74-b4aa-444d-b11f-41c22371d1fc",
+        "actualPublicReturnSha256": "3ed024644a0a8bdbc55023d953bfeae3b871e39b2102e2bb5444e562b79ed136",
+        "actualPublicReturnBytes": 11601,
+        "actualReturnedWindows": [
+          [
+            "objects",
+            "192",
+            "212"
+          ]
+        ]
+      },
+      {
+        "eventId": "0580afab-cddb-4107-a57f-5f64d73aeb51",
+        "actualPublicReturnSha256": "11186ffc71d4f003e939ddfd1bec5b360079bdbfc54859a06a8d4bd24d2d7d18",
+        "actualPublicReturnBytes": 839,
+        "actualReturnedWindows": [
+          [
+            "objects",
+            "234",
+            "235"
+          ]
+        ]
+      },
+      {
+        "eventId": "5f04886e-2efa-4bea-92f5-aaaab1a4aa39",
+        "actualPublicReturnSha256": "7164b4587ca4721d46bdb74ae7676ddc695c503ccde6d07784a7ae50c6c336fe",
+        "actualPublicReturnBytes": 12915,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "56",
+            "59"
+          ]
+        ]
+      },
+      {
+        "eventId": "9846d64b-1818-44ff-a057-2d223984d3a7",
+        "actualPublicReturnSha256": "16012da6c5f1342e57a7a209ff466b490708aabedd0714a6a514a0b60c700e0d",
+        "actualPublicReturnBytes": 13255,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "59",
+            "62"
+          ]
+        ]
+      },
+      {
+        "eventId": "7b43be11-59f7-4c49-994f-6928bd4466eb",
+        "actualPublicReturnSha256": "e95d0a201fd319c289b80cc3e745aaca047cb52f52729026ba59788884d69e5c",
+        "actualPublicReturnBytes": 9944,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "54",
+            "56"
+          ]
+        ]
+      },
+      {
+        "eventId": "8e17ee9c-5483-4b35-9d02-8aef58a12c43",
+        "actualPublicReturnSha256": "755a5dcfc566e548ee1d2d11ec66e73634080a9bc1ca1902dfb826e577398853",
+        "actualPublicReturnBytes": 9507,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "68",
+            "70"
+          ]
+        ]
+      },
+      {
+        "eventId": "b619d3ca-f551-48ff-8783-c5571c957f7c",
+        "actualPublicReturnSha256": "4cd865f1803a28c57837bec19ef1d80504faec6ed52ca4dfbbde6268b0d3391b",
+        "actualPublicReturnBytes": 12050,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "62",
+            "65"
+          ]
+        ]
+      },
+      {
+        "eventId": "f180fa5a-de71-401f-a53f-01a6931b565f",
+        "actualPublicReturnSha256": "5d87f8d468ea1aa99d416010bd6c00249d2e3f02b16a2bc99a491231a59739d7",
+        "actualPublicReturnBytes": 5716,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "70",
+            "71"
+          ]
+        ]
+      },
+      {
+        "eventId": "84884ab9-22f5-49d5-83bd-73238ca915a6",
+        "actualPublicReturnSha256": "244f0bcdff13562016954bcb8b4cbba8b05746edf7b91ca1e4eed137e5eee171",
+        "actualPublicReturnBytes": 12880,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "65",
+            "68"
+          ]
+        ]
+      },
+      {
+        "eventId": "db08d7c4-5a68-4e69-989d-a1af2ed3d78f",
+        "actualPublicReturnSha256": "5112c5e22519e661f36fed6f98bc6f1ae632e99c0873cc03fc838ddfc2e1bb89",
+        "actualPublicReturnBytes": 13284,
+        "actualReturnedWindows": [
+          [
+            "objects",
+            "247",
+            "258"
+          ]
+        ]
+      },
+      {
+        "eventId": "bd62ddcc-de8d-4646-b7cb-36bf0b37f14d",
+        "actualPublicReturnSha256": "b83809cb4360aa3ed5e201ec933b4b48d9e3a0d1b99961e406a17a791d6b5f46",
+        "actualPublicReturnBytes": 13101,
+        "actualReturnedWindows": [
+          [
+            "objects",
+            "258",
+            "271"
+          ]
+        ]
+      },
+      {
+        "eventId": "fead1357-2477-4605-9cad-d89ea7754230",
+        "actualPublicReturnSha256": "217fe0f0b1b274bf6efc4ef344a7d26d3be071d8ae0c11eb91feba45fba4801c",
+        "actualPublicReturnBytes": 12760,
+        "actualReturnedWindows": [
+          [
+            "objects",
+            "235",
+            "247"
+          ]
+        ]
+      },
+      {
+        "eventId": "f6426aaf-3136-43b1-a222-77254718bf2c",
+        "actualPublicReturnSha256": "6ac6ff3e18aa6f5268574ba36d657719e737a2d3dceb86d33f2ead9c30b22075",
+        "actualPublicReturnBytes": 7428,
+        "actualReturnedWindows": [
+          [
+            "primary",
+            "17",
+            "22"
+          ]
+        ]
+      },
+      {
+        "eventId": "8014dfb9-d7f2-4b2b-9152-2c686d4a08f8",
+        "actualPublicReturnSha256": "bb8266783ddaf5777da9908f7d38cb59d3b9c918a3726093dbccca14b484d14a",
+        "actualPublicReturnBytes": 12969,
+        "actualReturnedWindows": [
+          [
+            "primary",
+            "0",
+            "8"
+          ]
+        ]
+      },
+      {
+        "eventId": "76c757ed-08b4-406c-884a-a9d2fb07f4f2",
+        "actualPublicReturnSha256": "ff2d6c9775abaa4ccdc84c5daa863ee934984bb0fe35ae0712bbe5c6ed35b458",
+        "actualPublicReturnBytes": 13437,
+        "actualReturnedWindows": [
+          [
+            "primary",
+            "8",
+            "17"
+          ]
+        ]
+      },
+      {
+        "eventId": "c7d2efcc-6465-4824-9eae-6d0f16d9ad4d",
+        "actualPublicReturnSha256": "e2f149b4d08f5b88ec1b9dc089c56b94b8bf6b6d10517bfc02c120c3ade94ab0",
+        "actualPublicReturnBytes": 4384,
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "71",
+            "72"
+          ],
+          [
+            "objects",
+            "271",
+            "272"
+          ]
+        ]
+      },
+      {
+        "eventId": "2f7a156e-4fd6-40bf-968e-1027b132ff99",
+        "actualPublicReturnSha256": "19a51512f7cd14cab705b864337b934be211d2dd82fb95e38821c356648b3d0b",
+        "actualPublicReturnBytes": 1123,
+        "actualReturnedWindows": [
+          [
+            "objects",
+            "99",
+            "100"
+          ]
+        ]
+      }
+    ],
+    "boundary": "Append-only post-original-review context, not a rewrite of206original prewriting bodies/271objects or an independent resolution."
+  },
+  "worldLearnerBodyLfSha256": "c919decdb260e36b0f9ac5d621ce434b436fa283876c14f512cd7c9b411d8c27",
+  "finalEvidencePrivateArtifact": "ru-061-final-evidence-bindings-002.json",
+  "finalEvidencePrivateArtifactSha256": "3117ad3b15548688c41b473fd2fa1d104a526019740605d9c15184dda3667c47",
+  "originalReportUnchanged": true,
+  "originalFreezeAndAuthoringRecordsUnchanged": true,
+  "independentResolution": "PENDING;061-R1 remains unresolved until genuine focused review",
+  "acceptedMainUnchanged": "218d7a54922cfd1342ecd959c6e5c639cf2e6629",
+  "acceptedRuntimeObjects": 1439,
+  "ordinaryActivationAuthorized": false,
+  "fullTaskComplete": false,
+  "continueRequired": true
+}
