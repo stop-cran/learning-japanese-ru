@@ -1,6 +1,67 @@
 # Full Russian translation: execution after the two pilots
 
-## Current source milestone: batch062 changes, breaking and continuation
+## Current source milestone: batch063 giving, receiving and honorifics
+
+Batch063 adds **20 complete actual N4 lessons /1146 Russian file lines**
+against unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The [actual original whole review](translation-batches/063-giving-receiving-and-honorifics-independent-review-001.json)
+read **199 complete teaching bodies,219 whole official projections,
+1194 actual caption/reading/quiz rows and three current RU-root rubrics**.
+The199 bodies comprise20 EN/RU primary pairs,64 EN/RU provider pairs,
+30 source-only EN lessons and the whole1707-line EN formal-nouns article.
+Rows are not1194 whole lessons; article reading is not linked-webpage reading.
+Actual **C1/C2/C3 CHANGES_REQUIRED**, all coupled to F1's missing direct
+あげる–やる guard, remain immutable. No separate Japanese/prose defect
+was confirmed;90 original active proposals were individually retained only
+as qualified lexical/frame protection.
+
+The [actual bounded focused review](translation-batches/063-giving-receiving-and-honorifics-independent-review-002.json)
+freshly read **eight complete teaching bodies, four whole official entries,
+four current caption/metadata rows and three current RU-root rubrics**,
+the complete original report and exact signed resolution freeze.
+It resolves F1 across its three coupled facets through direct **Q94あげる–やる**,
+supported by standalone1012980.4/1352320.5 and both whole bilingual teachings.
+The existingやる–上げる guard cannot protect the distinct new IDあげる.
+It independently adopts **Q95ご存じ–承知** only for nominal awareness:
+whole1593570.1/1349480.1 and complete EN/RU承知 establish that exact gap,
+not agreement, forgiving, generic comprehension or ordinaryご存じする.
+The original gap was UNVERIFIED, not a confirmed missing-guard finding.
+
+Original90 judgments carry unchanged identities, not92 fresh judgments.
+All20 learner bodies/1146 lines and1194 captions/readings/levels/types/tags
+are unchanged;1192 other whole-file/metadata identities are checked.
+Two changed negative-field rows and their two providers were actually
+returned separately, **not1194 freshly reread amended rows or a second
+whole199/201-body review**. Original10925-byte and focused10845-byte actual
+stdout/native report identities are preserved.
+Effective C1/C2/C3 CLEAN applies only within the documented scopes.
+**All92 ordinary modern necessity/frequency, broader ordinary quiz
+suitability and global future uniqueness remain UNVERIFIED.**
+Four otherやる interactions remain NEED_UNVERIFIED and unadopted,
+neither confirmed safe nor confirmed missing guards.
+
+Five source guards plus92 qualified additions remain direct protections,
+not transitive cliques or full-caption synonym claims.
+Original Q82/Q85/Q88 author withdrawals remain historical, not reviewer
+resolutions: a shared gift occasion does not establish either actual full
+travel/visitor-gift versus congratulations/gratitude/sympathy caption.
+Optional unavailable navigation is unwrapped while supported teaching
+remains self-contained; no forced provider or asset.
+All1486 baseline RAWs/tracking/history and protected excluded033空 are preserved.
+Signed original/amended freezes preceded their respective runtime changes.
+
+Qualified membership: **1506 runtime objects /1194 words**:
+671 N5/380 N4/70 N3/19 N2/54 unlabelled; **256 N4 remain**.
+Strict progress: **1506 reviewed-current, two excluded reviewed blocked-media
+drafts,6770 pending of8278;6772 runtime paths absent**, no partial.
+Version `8165025f1f993ccb`; checkpoint authority null/Ready false.
+Final serialized validation, signed integration, actual public archives and
+exact-main CI remain separate publication evidence, not reviewer claims.
+No new assets/app/device/phone/IME/media/default/package/release authority.
+**Continue064+ and every remaining safe frozen level/family; full task is
+not complete. Protected空 remains separate, UNVERIFIED and not media.**
+
+## Prior source milestone: batch062 changes, breaking and continuation
 
 Batch062 adds **25 complete lessons /1327 Russian file lines** against
 the unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`:

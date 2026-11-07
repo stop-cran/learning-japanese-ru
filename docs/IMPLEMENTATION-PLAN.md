@@ -11,6 +11,56 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The sixty-third full-target batch adds **20 complete actual N4 giving/
+receiving/honorific lessons /1146 Russian file lines** against unchanged
+frozen EN. The [actual original whole review](translation-batches/063-giving-receiving-and-honorifics-independent-review-001.json)
+read199 complete teaching bodies/219 whole official projections/1194 actual
+caption-reading-quiz rows/three current RU-root rubrics. The199 bodies
+comprise20 EN/RU root pairs,64 EN/RU provider pairs,30 source-only EN lessons
+and the whole1707-line EN formal-nouns article, not1194 whole lessons.
+Actual **C1/C2/C3 CHANGES_REQUIRED all coupled to F1** and90 individually
+qualified original retains remain immutable; no separate Japanese/prose
+defect was confirmed.
+
+The [actual focused review](translation-batches/063-giving-receiving-and-honorifics-independent-review-002.json)
+freshly read eight whole bodies/four whole official entries/four current
+metadata-caption rows/three RU-root rubrics, the full original report and
+signed exact freeze. Q94あげる–やる resolves F1 across its three coupled
+facets; distinctIDあげる is not protected through上げる.
+Q95ご存じ–承知 independently resolves only the exact nominal-awareness
+gap under1593570.1/1349480.1 and full bilingual teaching, not agreement,
+forgiving, generic comprehension or ordinaryご存じする.
+The original knowledge gap was UNVERIFIED, not a confirmed finding.
+
+Original90 qualified judgments carry identity, not92 fresh judgments.
+All20 learner bodies/1146 lines and1194 captions/readings/levels/types/tags
+remain unchanged;1192 other whole-file/metadata identities are checked.
+Only two header guard arrays changed, with four affected/provider rows
+actually returned, **not1194 freshly reread amended rows or a second
+whole199/201-body review**. Original10925-byte/focused10845-byte actual
+stdout/native identities persist. Effective C1/C2/C3 CLEAN is restricted
+to documented assigned scopes; **all92 ordinary modern necessity/frequency,
+broader quiz suitability and global future uniqueness remain UNVERIFIED**.
+Four otherやる interactions stay NEED_UNVERIFIED and unadopted,
+not confirmed safe or missing guards. Q82/Q85/Q88 remain pre-review author
+withdrawals, not reviewer resolutions; no gift-occasion clique.
+Five source guards plus92 qualified additions are direct protections,
+not transitive or unrestricted synonym equivalence.
+
+Qualified membership: **1506 runtime objects /1194 words**:
+671 N5/380 N4/70 N3/19 N2/54 unlabelled; **256 N4 remain**.
+Strict progress: **1506 reviewed-current, two excluded reviewed blocked-media
+drafts,6770 pending of8278;6772 absent runtime paths**, no partial.
+Version `8165025f1f993ccb`; checkpoint authority null/Ready false.
+All1486 baseline RAWs/tracking/history and protected excluded033空 remain.
+Signed freezes preceded their respective changes.
+Final serialized checks, signed main integration, actual public archives and
+exact-main CI are separate publication proofs, not reviewer claims.
+No asset/app/device/phone/IME/media/package/default/release approval.
+**Continue064+ and the entire safe remaining frozen scope; full task not complete.**
+
+Batch062 and earlier milestones below are historical.
+
 The sixty-second full-target batch adds **25 complete changes/breaking/
 continuation lessons /1327 Russian file lines** against unchanged frozen EN:
 **23 actual N4 and two actual N3 words**, with no level relabeling.
