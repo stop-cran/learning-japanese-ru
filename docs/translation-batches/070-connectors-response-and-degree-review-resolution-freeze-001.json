@@ -1,0 +1,1010 @@
+{
+  "schemaVersion": 1,
+  "batchId": "070-connectors-response-and-degree",
+  "originalCandidate": "cb623561be26e60ebc33e15e502fd7111eacdfb9",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineCommit": "82717d51a2963d1091693e3c3f4c11333e22edac",
+  "originalWholeReport": "docs/translation-batches/070-connectors-response-and-degree-independent-review-001.json",
+  "originalReportSha256": "6e0513f513d8f6f83fa9a8b038da2d4fe39424323786da4056d38fd0a624196d",
+  "originalActualReviewerId": "698a1376-9280-4bac-aefa-44ca2da11f18",
+  "originalReviewerState": "Completed one-shot;notrunning/recontacted.",
+  "originalWholeScope": {
+    "wholeBodies": 225,
+    "wholeOfficialObjects": 400,
+    "freshCandidateRows": 1337,
+    "assignedWindows": 101,
+    "successfulWindows": 101,
+    "allAssignedWindowsReturnedCompleteExit0": true,
+    "instructions": [
+      [
+        ".github\\copilot-instructions.md",
+        394
+      ],
+      [
+        ".github\\instructions\\content-structure.instructions.md",
+        253
+      ],
+      [
+        "docs\\translation-methodology.md",
+        169
+      ],
+      [
+        "docs\\content-format-reference.md",
+        107
+      ]
+    ],
+    "records": "Both complete semantic projections; hash/receipt omissions meta-verified."
+  },
+  "originalActualVerdicts": {
+    "C1": {
+      "verdict": "CLEAN",
+      "scope": "20 whole translations vs frozen EN; Japanese invariants kept.",
+      "limits": "Project N4, not official syllabus/native certification."
+    },
+    "C2": {
+      "verdict": "NEEDS_FIX",
+      "scope": "New-root pool/dependencies; F01/F02.",
+      "limits": "Modern necessity/frequency, broader suitability, global/future uniqueness UNVERIFIED;033空 excluded/UNVERIFIED."
+    },
+    "C3": {
+      "verdict": "CLEAN",
+      "scope": "20 whole RU lessons: natural, complete, useful without English.",
+      "limits": "Text only, not native/device approval."
+    }
+  },
+  "originalFindings": [
+    {
+      "id": "070-F01",
+      "path": "words\\こう.md:9; words\\そうして.md:9",
+      "claim": "Missing こう–そうして guard.",
+      "evidence": "Shared caption таким образом; manner in both bodies/1004310.1/1612860.1; pair absent.",
+      "consequence": "Two valid answers.",
+      "boundedFix": "Add one-owner direct symmetric guard, not a clique."
+    },
+    {
+      "id": "070-F02",
+      "path": "words\\全然.md:9; adjudication Q68/Q69",
+      "claim": "Q68 rejected; Q69 unverified.",
+      "evidence": "1202150.2 is object totality;1012480.5 interjection lacks Russian degree-cue proof.",
+      "consequence": "Unsupported guard approval.",
+      "boundedFix": "Withdraw Q68; hold/withdraw Q69 for context proof; retain senses."
+    }
+  ],
+  "original74IndividualJudgments": {
+    "key": "D direct;Q lexical/cue ONLY;U insufficient;R reject. Whole bodies+JMdict;no transitivity.",
+    "source": [
+      [
+        "それに–また",
+        "D",
+        "1007040.1/1524930.4: both bodies add a relevant point."
+      ],
+      [
+        "できるだけ–なるべく",
+        "D",
+        "1340460.1/1375620.1: feasible effort, not guaranteed maximum."
+      ],
+      [
+        "ぜひ–必ず",
+        "D",
+        "Actual обязательно/непременно cues; request versus prediction retained."
+      ]
+    ],
+    "proposals": [
+      [
+        "Q01",
+        "あ–ああ",
+        "Q",
+        "2394370.1/1565440.1: recognition, not manner."
+      ],
+      [
+        "Q02",
+        "あ–さあ",
+        "Q",
+        "1005110.4: arrival/start reaction overlaps あ, not all urging."
+      ],
+      [
+        "Q03",
+        "あ–何",
+        "Q",
+        "1577100.7/2394370.2: attention, not question что."
+      ],
+      [
+        "Q04",
+        "ああ–こう",
+        "D",
+        "Both manner так; distant versus speaker demonstration."
+      ],
+      [
+        "Q05",
+        "ああ–そう",
+        "D",
+        "Both manner так; distant versus listener viewpoint."
+      ],
+      [
+        "Q06",
+        "こう–そう",
+        "D",
+        "Both manner так; viewpoints differ, not physical direction."
+      ],
+      [
+        "Q07",
+        "ああ–はい",
+        "Q",
+        "1565440.2,5: separate affirmation overlaps polite はい."
+      ],
+      [
+        "Q08",
+        "ああ–ええ",
+        "Q",
+        "1565440.2,5/1001140.1: affirmation, not pause/adjective."
+      ],
+      [
+        "Q09",
+        "ああ–うん",
+        "Q",
+        "1565440.2,5/1001090.1: affirmative response, not manner."
+      ],
+      [
+        "Q10",
+        "ああ–なるほど",
+        "Q",
+        "1565440.5/1375820.1: acknowledgment, not promise."
+      ],
+      [
+        "Q11",
+        "こう–あの",
+        "Q",
+        "1004310.3/1000430.1: bare pauses, not demonstration."
+      ],
+      [
+        "Q12",
+        "こう–その",
+        "Q",
+        "1004310.3/1006830.3: bare hesitation, not determiner."
+      ],
+      [
+        "Q13",
+        "こう–ええ",
+        "Q",
+        "1001140.2/1004310.3: pause; usually えー, not affirmative ええ."
+      ],
+      [
+        "Q14",
+        "こう–さあ",
+        "Q",
+        "1004310.3/1005110.3: hesitation, not urging."
+      ],
+      [
+        "Q15",
+        "うん–はい",
+        "D",
+        "Both да; informal/polite distinction kept."
+      ],
+      [
+        "Q16",
+        "うん–ええ",
+        "D",
+        "Both affirmative да; register differs."
+      ],
+      [
+        "Q17",
+        "うん–そう",
+        "D",
+        "Agreement responses, not appearance auxiliary."
+      ],
+      [
+        "Q18",
+        "うん–なるほど",
+        "D",
+        "Both bodies teach listening acknowledgment, not commitment."
+      ],
+      [
+        "Q19",
+        "うん–あの",
+        "Q",
+        "1001090.2/1000430.1: hesitation, not ordinary yes."
+      ],
+      [
+        "Q20",
+        "うん–その",
+        "Q",
+        "1001090.2/1006830.3: hesitation, not prenominal тот."
+      ],
+      [
+        "Q21",
+        "うん–さあ",
+        "Q",
+        "1001090.2/1005110.3: uncertainty/pause."
+      ],
+      [
+        "Q22",
+        "うん–こう",
+        "Q",
+        "1001090.2/1004310.3: pauses, not demonstrated manner."
+      ],
+      [
+        "Q23",
+        "そう–本当",
+        "D",
+        "Question そう？/本当？; not positive very."
+      ],
+      [
+        "Q24",
+        "そう–なるほど",
+        "D",
+        "Body そうですか acknowledges news; not full agreement."
+      ],
+      [
+        "Q25",
+        "けれど–けれども",
+        "D",
+        "2853889.1: both complete forms express но/хотя."
+      ],
+      [
+        "Q26",
+        "けれど–でも",
+        "D",
+        "Both bodies teach contrast но; attachment differs."
+      ],
+      [
+        "Q27",
+        "けれど–しかし",
+        "D",
+        "Contrast но/однако; syntax differs."
+      ],
+      [
+        "Q28",
+        "けれども–でも",
+        "D",
+        "Contrast но; connector/attached distinction kept."
+      ],
+      [
+        "Q29",
+        "けれども–しかし",
+        "D",
+        "Both bodies teach но/однако; syntax kept."
+      ],
+      [
+        "Q30",
+        "すると–それで",
+        "D",
+        "1006280/1007000: observed consequence/next event."
+      ],
+      [
+        "Q31",
+        "すると–だから",
+        "D",
+        "Inference/consequence, not arbitrary past тогда."
+      ],
+      [
+        "Q32",
+        "すると–それから",
+        "D",
+        "Both bodies narrate next event, not guaranteed cause."
+      ],
+      [
+        "Q33",
+        "すると–そして",
+        "D",
+        "Narrative next event, not every additive use."
+      ],
+      [
+        "Q34",
+        "すると–そうして",
+        "D",
+        "そうして provider teaches sequence."
+      ],
+      [
+        "Q35",
+        "すると–それでは",
+        "Q",
+        "1006280.2/1406050.3: situational inference, not farewell."
+      ],
+      [
+        "Q36",
+        "すると–では",
+        "Q",
+        "1008450.1: inference connector overlaps すると, not particle."
+      ],
+      [
+        "Q37",
+        "すると–じゃ",
+        "Q",
+        "1005900.1: contracted then-connector, not copula."
+      ],
+      [
+        "Q38",
+        "すると–じゃあ",
+        "Q",
+        "1005900.1: situational then, not arbitrary past."
+      ],
+      [
+        "Q39",
+        "それで–だから",
+        "D",
+        "Both поэтому and causal examples."
+      ],
+      [
+        "Q40",
+        "それで–それから",
+        "D",
+        "затем/после этого continuation; cause not required."
+      ],
+      [
+        "Q41",
+        "それで–そして",
+        "D",
+        "затем/и затем; causal distinction kept."
+      ],
+      [
+        "Q42",
+        "それで–そうして",
+        "D",
+        "затем/и затем; bodies support continuation."
+      ],
+      [
+        "Q43",
+        "だから–それでは",
+        "Q",
+        "1406050.3: consequence versus situational decision."
+      ],
+      [
+        "Q44",
+        "だから–では",
+        "Q",
+        "1008450.1: causal so versus situational then."
+      ],
+      [
+        "Q45",
+        "だから–じゃ",
+        "Q",
+        "1005900.1: inference/transition, not copula."
+      ],
+      [
+        "Q46",
+        "だから–じゃあ",
+        "Q",
+        "1005900.1: consequence/transition, not full identity."
+      ],
+      [
+        "Q47",
+        "それに–そして",
+        "D",
+        "Both bodies add statements, not noun lists."
+      ],
+      [
+        "Q48",
+        "それに–そうして",
+        "D",
+        "そうして body includes addition."
+      ],
+      [
+        "Q49",
+        "または–また",
+        "Q",
+        "1524930.5: bare また or, not ordinary again."
+      ],
+      [
+        "Q50",
+        "それほど–そんなに",
+        "D",
+        "настолько; referenced degree, not zero."
+      ],
+      [
+        "Q51",
+        "それほど–そう",
+        "D",
+        "negative degree そう難しくありません, not positive very."
+      ],
+      [
+        "Q52",
+        "それほど–あまり",
+        "Q",
+        "1584930.2: negative not-that-much/not-very overlap only."
+      ],
+      [
+        "Q53",
+        "そんなに–そう",
+        "D",
+        "Body negative degree, not unrestricted positive very."
+      ],
+      [
+        "Q54",
+        "そんなに–あまり",
+        "Q",
+        "1584930.2: negative degree overlap, not total denial."
+      ],
+      [
+        "Q55",
+        "ぜひ–どうぞ",
+        "Q",
+        "1189130.1,2: eager request versus courtesy/permission."
+      ],
+      [
+        "Q56",
+        "ちっとも–全然",
+        "D",
+        "совсем не; negative predicate required here."
+      ],
+      [
+        "Q57",
+        "ちっとも–決して",
+        "D",
+        "Strong qualitative negation, not only temporal never."
+      ],
+      [
+        "Q58",
+        "ちっとも–とても",
+        "Q",
+        "1008630.2: negative reinforcement, not affirmative very."
+      ],
+      [
+        "Q59",
+        "ちっとも–何",
+        "Q",
+        "1577100.5: bare negative なに, not question."
+      ],
+      [
+        "Q60",
+        "全然–決して",
+        "D",
+        "Strong negation, not free affirmative use."
+      ],
+      [
+        "Q61",
+        "全然–とても",
+        "Q",
+        "1395620.1,3/1008630.1,2: negative/colloquial degree only."
+      ],
+      [
+        "Q62",
+        "全然–何",
+        "Q",
+        "1577100.5: bare negative adverb, not что."
+      ],
+      [
+        "Q63",
+        "全然–大変",
+        "Q",
+        "1415000.1: separate degree, not difficult adjective."
+      ],
+      [
+        "Q64",
+        "全然–どうも",
+        "Q",
+        "1009000.2,3: degree emphasis, not thanks/greeting."
+      ],
+      [
+        "Q65",
+        "全然–結構",
+        "Q",
+        "1254760.4: degree, not refusal/architecture."
+      ],
+      [
+        "Q66",
+        "全然–最も",
+        "Q",
+        "1293700.1: extreme-degree cue, not all superlatives."
+      ],
+      [
+        "Q67",
+        "全然–全部",
+        "Q",
+        "1395620.2/1396130.1: completeness/полностью cue, not free substitution."
+      ],
+      [
+        "Q68",
+        "全然–みんな",
+        "R",
+        "1202150.2 totals things; 全然 does not mean всё. No degree-cue proof."
+      ],
+      [
+        "Q69",
+        "全然–もう",
+        "U",
+        "1012480.5 is interjection; no Japanese context proves совершенно cue."
+      ],
+      [
+        "Q70",
+        "決して–とても",
+        "Q",
+        "1008630.2: negative reinforcement, not affirmative very."
+      ],
+      [
+        "Q71",
+        "決して–何",
+        "Q",
+        "1577100.5: bare negative なに, not question."
+      ]
+    ]
+  },
+  "exactWithdrawnAdditionalProposals": [
+    {
+      "proposalId": "Q68",
+      "pair": [
+        "全然",
+        "みんな"
+      ],
+      "metadataOwner": "words/全然.md",
+      "actualCaptionLeft": "совсем не; совершенно",
+      "actualCaptionRight": "все; всё",
+      "originalProposal": {
+        "proposalId": "Q68",
+        "pair": [
+          "全然",
+          "みんな"
+        ],
+        "leftActualProposedCaption": "совсем не; совершенно",
+        "rightActualBoundCaption": "все; всё",
+        "metadataOwner": "words/全然.md",
+        "directSources": [
+          "1395620.1",
+          "1395620.2",
+          "1395620.3",
+          "1202150.2"
+        ],
+        "reason": "Conservative directly bounded negative/completeness/colloquialpositive-degree cue: actualthing-totality sense,not people-only皆さん or mereclassmembership. No suffix/phrasecomponentlifting, blanket syntactic substitution or ordinarymodernfrequency/necessity claim.",
+        "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+        "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+      },
+      "actualOriginalIndependentJudgment": [
+        "Q68",
+        "全然–みんな",
+        "R",
+        "1202150.2 totals things; 全然 does not mean всё. No degree-cue proof."
+      ],
+      "disposition": "WITHDRAW_UNAPPROVED_ADDITIONAL_GUARD",
+      "reason": "OriginalR: objecttotality ofみんな not degree/совершенно overlap with全然; preserve entire attestedsenses,notgeneralallwordtheorem."
+    },
+    {
+      "proposalId": "Q69",
+      "pair": [
+        "全然",
+        "もう"
+      ],
+      "metadataOwner": "words/全然.md",
+      "actualCaptionLeft": "совсем не; совершенно",
+      "actualCaptionRight": "уже; больше не",
+      "originalProposal": {
+        "proposalId": "Q69",
+        "pair": [
+          "全然",
+          "もう"
+        ],
+        "leftActualProposedCaption": "совсем не; совершенно",
+        "rightActualBoundCaption": "уже; больше не",
+        "metadataOwner": "words/全然.md",
+        "directSources": [
+          "1395620.1",
+          "1395620.2",
+          "1395620.3",
+          "1012480.5"
+        ],
+        "reason": "Conservative directly bounded negative/completeness/colloquialpositive-degree cue: separate emphaticreally/extremely interjection,not ordinaryalready/soon. No suffix/phrasecomponentlifting, blanket syntactic substitution or ordinarymodernfrequency/necessity claim.",
+        "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+        "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+      },
+      "actualOriginalIndependentJudgment": [
+        "Q69",
+        "全然–もう",
+        "U",
+        "1012480.5 is interjection; no Japanese context proves совершенно cue."
+      ],
+      "disposition": "WITHDRAW_UNAPPROVED_ADDITIONAL_GUARD",
+      "reason": "OriginalU: separateもう interjectionattested but no actualJapanesecontext proves Russianсовершенно degreecue. Withdrawal notproof of nonoverlap/frequency."
+    }
+  ],
+  "exactNewDirectAmendments": [
+    {
+      "proposalId": "RP72",
+      "pair": [
+        "こう",
+        "そうして"
+      ],
+      "metadataOwner": "words/こう.md",
+      "actualCaptionLeft": "вот так; таким образом",
+      "actualCaptionRight": "и затем; таким образом",
+      "directSources": [
+        "1004310.1",
+        "1612860.1"
+      ],
+      "reason": "Original070-F01: actual shared Russianтакимобразом and whole-word manner in both bodies; retain conjunction/manner syntax and temporal distinctions.",
+      "actualOriginalIndependentQuestionJudgment": [
+        "こう–そうして",
+        "D",
+        "Missing; shared caption and 1004310.1/1612860.1: F01."
+      ],
+      "disposition": "ADOPT_EXACT_ORIGINAL_REVIEWED_DIRECT_OR_QUALIFIED_AMENDMENT;APPLIEDSNAPSHOT_FOCUS_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitabilityGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "RP73",
+      "pair": [
+        "そう",
+        "そうして"
+      ],
+      "metadataOwner": "words/そう.md",
+      "actualCaptionLeft": "так; верно; правда?",
+      "actualCaptionRight": "и затем; таким образом",
+      "directSources": [
+        "2137720.1",
+        "1612860.1"
+      ],
+      "reason": "Original independent additionalquestionQ: whole-word referred manner/bareтак cue only; not every conversationalagreement=temporalcontinuation.",
+      "actualOriginalIndependentQuestionJudgment": [
+        "そう–そうして",
+        "Q",
+        "2137720.1/1612860.1: whole-word referred manner; bare так only; unguarded."
+      ],
+      "disposition": "ADOPT_EXACT_ORIGINAL_REVIEWED_DIRECT_OR_QUALIFIED_AMENDMENT;APPLIEDSNAPSHOT_FOCUS_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitabilityGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "RP74",
+      "pair": [
+        "ああ",
+        "そうして"
+      ],
+      "metadataOwner": "words/ああ.md",
+      "actualCaptionLeft": "так; вон так",
+      "actualCaptionRight": "и затем; таким образом",
+      "directSources": [
+        "2085080.1",
+        "1612860.1"
+      ],
+      "reason": "Original independent additionalquestionQ: distant manner/recalledmethod,bareтак cue only; not spatialplace or all observed next-events.",
+      "actualOriginalIndependentQuestionJudgment": [
+        "ああ–そうして",
+        "Q",
+        "2085080.1/1612860.1: distant manner/recalled method; bare так only; unguarded."
+      ],
+      "disposition": "ADOPT_EXACT_ORIGINAL_REVIEWED_DIRECT_OR_QUALIFIED_AMENDMENT;APPLIEDSNAPSHOT_FOCUS_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitabilityGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "RP75",
+      "pair": [
+        "こう",
+        "それほど"
+      ],
+      "metadataOwner": "words/こう.md",
+      "actualCaptionLeft": "вот так; таким образом",
+      "actualCaptionRight": "настолько; в такой степени",
+      "directSources": [
+        "1004310.2",
+        "1007060.1"
+      ],
+      "reason": "Original independent additionalquestionQ: independent standaloneこう degree versus reference-dependentそれほど degree/настолько; viewpoints retained,notfamilyinference.",
+      "actualOriginalIndependentQuestionJudgment": [
+        "こう–それほど",
+        "Q",
+        "1004310.2/1007060.1: standalone degree/настолько; viewpoints retained; unguarded."
+      ],
+      "disposition": "ADOPT_EXACT_ORIGINAL_REVIEWED_DIRECT_OR_QUALIFIED_AMENDMENT;APPLIEDSNAPSHOT_FOCUS_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitabilityGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "RP76",
+      "pair": [
+        "こう",
+        "そんなに"
+      ],
+      "metadataOwner": "words/こう.md",
+      "actualCaptionLeft": "вот так; таким образом",
+      "actualCaptionRight": "так сильно; настолько",
+      "directSources": [
+        "1004310.2",
+        "2008740.1"
+      ],
+      "reason": "Original independent additionalquestionQ: standalone degreeこう/そんなに, qualifiedнастолько cue only; no universalpositiveornegativeconstructionidentity.",
+      "actualOriginalIndependentQuestionJudgment": [
+        "こう–そんなに",
+        "Q",
+        "1004310.2/2008740.1: standalone degree/настолько, not family inference; unguarded."
+      ],
+      "disposition": "ADOPT_EXACT_ORIGINAL_REVIEWED_DIRECT_OR_QUALIFIED_AMENDMENT;APPLIEDSNAPSHOT_FOCUS_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitabilityGlobalFutureUniqueness": "UNVERIFIED"
+    }
+  ],
+  "exactChangedOwnerPaths": [
+    "words/ああ.md",
+    "words/こう.md",
+    "words/そう.md",
+    "words/全然.md"
+  ],
+  "retained72DirectGuards": "3sourceD+31additionalD+38additionalQ;ONLYoriginalscope/byteidentity.NOT72freshfocusedjudgments/notsecondwhole225bodyreview/not1337freshcorrectedrows.",
+  "originalAdditionalQuestions": [
+    [
+      "こう–そうして",
+      "D",
+      "Missing; shared caption and 1004310.1/1612860.1: F01."
+    ],
+    [
+      "そう–そうして",
+      "Q",
+      "2137720.1/1612860.1: whole-word referred manner; bare так only; unguarded."
+    ],
+    [
+      "ああ–そうして",
+      "Q",
+      "2085080.1/1612860.1: distant manner/recalled method; bare так only; unguarded."
+    ],
+    [
+      "こう–それほど",
+      "Q",
+      "1004310.2/1007060.1: standalone degree/настолько; viewpoints retained; unguarded."
+    ],
+    [
+      "こう–そんなに",
+      "Q",
+      "1004310.2/2008740.1: standalone degree/настолько, not family inference; unguarded."
+    ],
+    [
+      "こう–そして",
+      "U",
+      "1006730's thus gloss alone does not prove manner-cue overlap."
+    ],
+    [
+      "それに–それから",
+      "U",
+      "1006980/body show sequence, not direct addition proof."
+    ],
+    [
+      "ぜひ–きっと",
+      "U",
+      "Wish/request versus forecast; certainly insufficient."
+    ],
+    [
+      "ぜひ–もちろん",
+      "U",
+      "Eager request versus expected response; no direct cue proof."
+    ],
+    [
+      "全然–いい/良い",
+      "R",
+      "Whole 全然いいよ does not make the adjective a degree adverb."
+    ]
+  ],
+  "additionalQuestionDisposition": "AdoptONLY5actualD/Qwhole-wordquestionjudgments underthisfreeze, including070-F01;remainingU/Runchanged. No modernnecessity/frequency/globaluniqueness claim.",
+  "exactFocusedWords": [
+    "ああ",
+    "こう",
+    "そう",
+    "全然",
+    "そうして",
+    "それほど",
+    "そんなに",
+    "みんな",
+    "もう"
+  ],
+  "exactFocusedWholeObjectBindings": [
+    {
+      "entryId": "2085080",
+      "entityExpandedETBytes": 411,
+      "entityExpandedETSha256": "3f3961feb578d27653f0e7da8edf7a3d415593c74191cce34ec8d3704dfadcb1"
+    },
+    {
+      "entryId": "1004310",
+      "entityExpandedETBytes": 1119,
+      "entityExpandedETSha256": "d42f0bbb7a285a65f72d177b67123bae7233db1b69e105820d2922a019db3524"
+    },
+    {
+      "entryId": "2137720",
+      "entityExpandedETBytes": 1163,
+      "entityExpandedETSha256": "4c18d9440c4247b84ba758a4fa9f88185637002533d6f0567a8ad7e9d301f3c1"
+    },
+    {
+      "entryId": "1395620",
+      "entityExpandedETBytes": 1072,
+      "entityExpandedETSha256": "fafcce3789230946cd45532f57092786faa74dce5911971cc7a05f238a90fa22"
+    },
+    {
+      "entryId": "1612860",
+      "entityExpandedETBytes": 428,
+      "entityExpandedETSha256": "663193c16da3c9b9c794edf8dfde3204c20bb3c0cc712e0bf09a6168e8509cbf"
+    },
+    {
+      "entryId": "1007060",
+      "entityExpandedETBytes": 553,
+      "entityExpandedETSha256": "ccf392bfe0e9b92e16102c9a2d65d77609d8d89801db75f3bbc1c2b4d2b38908"
+    },
+    {
+      "entryId": "2008740",
+      "entityExpandedETBytes": 303,
+      "entityExpandedETSha256": "37f253fdb2ffa0ffe545941e45d62b8b10d0951bc4c40f8f663ce71b2a31ea92"
+    },
+    {
+      "entryId": "1202150",
+      "entityExpandedETBytes": 962,
+      "entityExpandedETSha256": "6bfd52d285326fb7a968755eaea3e3045a06ec8ba1c409c97a69b1b32460ad09"
+    },
+    {
+      "entryId": "1012480",
+      "entityExpandedETBytes": 1551,
+      "entityExpandedETSha256": "7ff4c3312a424677d31acc5358680d00d43b5f33de9b46b33219f0568a6f2a2e"
+    }
+  ],
+  "actualAuthorFollowupEvidence": {
+    "actualFreshWholeBilingualPairs": 9,
+    "actualFreshWholeBodies": 18,
+    "actualFreshWholeOfficialObjects": 9,
+    "actualPublicReturns": [
+      {
+        "eventId": "2dba8859-0c49-4c70-9414-fb188343be53",
+        "actualPublicReturnBytes": 7942,
+        "actualPublicReturnSha256": "c318762c405bd33755b3344436671a3997d07774df2b6917088d49108794fd73",
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "0",
+            "2"
+          ]
+        ]
+      },
+      {
+        "eventId": "cef17045-2c32-491a-ac85-259237868352",
+        "actualPublicReturnBytes": 6081,
+        "actualPublicReturnSha256": "04952e5213020b49ade736af817a19dc60e6aa8b64653b9346d1e40fc9a0afb9",
+        "actualReturnedWindows": [
+          [
+            "objects",
+            "0",
+            "9"
+          ]
+        ]
+      },
+      {
+        "eventId": "f5e35055-d9f5-4800-ba28-6bb036467eaa",
+        "actualPublicReturnBytes": 8883,
+        "actualPublicReturnSha256": "23ce339a87a44da6c449ec37b6514f7eaed79cf759b2bb999dd6f4b905b12702",
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "7",
+            "9"
+          ]
+        ]
+      },
+      {
+        "eventId": "2375744c-88d3-4402-8340-7a8ba13d5f11",
+        "actualPublicReturnBytes": 12092,
+        "actualPublicReturnSha256": "e86ea4f20ec898a0eb6731e08d7ef5f06ca3634f9f85031aa0df7a56f7a105b3",
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "4",
+            "7"
+          ]
+        ]
+      },
+      {
+        "eventId": "d75b417b-38be-4f90-a884-32b2afdc9270",
+        "actualPublicReturnBytes": 9437,
+        "actualPublicReturnSha256": "192f8c30dd11f7800d394c005b061b82463dceea942dbad3152126def72ecb5d",
+        "actualReturnedWindows": [
+          [
+            "pairs",
+            "2",
+            "4"
+          ]
+        ]
+      }
+    ],
+    "boundary": "Exact authorfollowupreads only;notindependentreview/anotherwholepoolread."
+  },
+  "all20OriginalBodies": [
+    {
+      "path": "words/あ.md",
+      "originalWorkingRawSha256": "bae1596e84001bbb606b5a5b45afa5bd0a4b2b462100394ac97879f8664ecaf2",
+      "originalBodyRawSha256": "fde9a922518c7d4a645e8718d784828714a1cf32f89f9cdd977dee5f6676a390"
+    },
+    {
+      "path": "words/ああ.md",
+      "originalWorkingRawSha256": "f18b589203b5764e35e10b46f7e2fa0101394728da7809fc83f224f1084deba6",
+      "originalBodyRawSha256": "7d43d99b7e2d170a3dce37d22fc22e5a973707491d7e598b204e3ce20d41cfe1"
+    },
+    {
+      "path": "words/うん.md",
+      "originalWorkingRawSha256": "9768b135aabb8095f190ca6a272c8e2ecb8d629db3aa4e76e5870d44bf7977e8",
+      "originalBodyRawSha256": "069aaca76d1b97c203764026be3ab22d76cf3538e0bc9a71fcc6df721f1f700a"
+    },
+    {
+      "path": "words/けれど.md",
+      "originalWorkingRawSha256": "6eacc0cfeff42805328927a6934f83bfc3809ef99028808705b9407d747c8e8a",
+      "originalBodyRawSha256": "078e03bb82437437d599ea1894be54954f2664c1ba251a34964f783a16b9e48a"
+    },
+    {
+      "path": "words/けれども.md",
+      "originalWorkingRawSha256": "a2c9149eba0131f4607cf0e1bbdaae730553422b5c4d4284ece8099ba234bf8d",
+      "originalBodyRawSha256": "b29ddac3e51f1603b55b892816bd037d5e9b9c93a946ae305881246c50c15cd9"
+    },
+    {
+      "path": "words/こう.md",
+      "originalWorkingRawSha256": "f43e1dbe1de0528bdef7aef3a0ed40739bcceeaeac18c5b541ac24c20b8169d2",
+      "originalBodyRawSha256": "22f4af53ea7f05ef9c97a9b67d7d346da7e6dd94425ed0847034876106bcfc61"
+    },
+    {
+      "path": "words/そう.md",
+      "originalWorkingRawSha256": "c8a10c1c1cb5d7e8ce761f78ae939448a2e47557994dd036555ad60d5822df07",
+      "originalBodyRawSha256": "80ce79b4d5ca25f6c87457abb81b6ea132a38a877b166f992345736f68dd4990"
+    },
+    {
+      "path": "words/すると.md",
+      "originalWorkingRawSha256": "e25d88fe667e3ec6850ca96af65532924c8a3498aef01b24deab7693b74e47d7",
+      "originalBodyRawSha256": "ecfcc41cea9621bbef9b5a59cd233f67a9d6e9169cec35767b42f9554d71e41e"
+    },
+    {
+      "path": "words/それで.md",
+      "originalWorkingRawSha256": "2edeff1ba0eb4627a464fcac18444e43620dd5e518562c3a1a57d312a42cbf17",
+      "originalBodyRawSha256": "757986bc9e2cb1ca2f2a4059808cf44cf11bff14aa695e193b723a01657889d9"
+    },
+    {
+      "path": "words/それに.md",
+      "originalWorkingRawSha256": "cb9dab7b6d0314dbf86673628dcbe46ea4ddf6876bea77d013457608d5e1a3c7",
+      "originalBodyRawSha256": "7fcc09981b88ce01704e4d70bcbfaf44c927369a1d20fcda4463773a2d20573f"
+    },
+    {
+      "path": "words/だから.md",
+      "originalWorkingRawSha256": "78c73bb7154c014d419e75879844d0f625a7edeb2545b33bcb6bbe60c0867272",
+      "originalBodyRawSha256": "62659ca295de732d6c27e27667eeebf43da2acb193a0488bb366c7b56f9e0a56"
+    },
+    {
+      "path": "words/または.md",
+      "originalWorkingRawSha256": "de1e6f9acaba539973896a6d6cf4c87aa85a74125d489e6a12dbc5a240f1fbaf",
+      "originalBodyRawSha256": "4cc08d13cf499e9e6b00680186d35b94a7231d203ceffa4fcb5155f5f82ae69d"
+    },
+    {
+      "path": "words/それほど.md",
+      "originalWorkingRawSha256": "d1cf886ddd92aa8c6942427d88774b8f437b0b5fdf429b0b8d51d488dbd9cdc6",
+      "originalBodyRawSha256": "707f5ad8dba10fe411bcbdd88e98bb3651b0ec982586e763d72262c175dd66c2"
+    },
+    {
+      "path": "words/そんなに.md",
+      "originalWorkingRawSha256": "16449b8a1c3bf6ffb08f16cc93754798963038499533ad8d2aad5997e5055def",
+      "originalBodyRawSha256": "46a93cb413ccf5c6435ff79f95ebe8381998a5e45cf075de26e5c962cc0f51ab"
+    },
+    {
+      "path": "words/できるだけ.md",
+      "originalWorkingRawSha256": "e0655a9f22ca83f00b4fd3195c4d4fe67c7a6eae70d85191e9f3fd1b42f3e1da",
+      "originalBodyRawSha256": "935dc3d9b9b33a9bbc5d012a2958af14e93c49d6bf921c6a4e6cebfcccce89af"
+    },
+    {
+      "path": "words/なるべく.md",
+      "originalWorkingRawSha256": "c3fa0419873c02ce5df4f2799340ab0bafbe12e577bdcdcdcb9ad21dc6a89b59",
+      "originalBodyRawSha256": "557dade999a79c9d88e75b39ad516039c043a97d8d12f152227927ab027376f5"
+    },
+    {
+      "path": "words/ぜひ.md",
+      "originalWorkingRawSha256": "3d1ae2bb42bc8ecfb7da4456f0f0c7422755a45de8b3ca906d457e2890196d77",
+      "originalBodyRawSha256": "fff35b44626b8c38f55e21ef7916aa51db4571998c0e8c801c13135c5879c0d1"
+    },
+    {
+      "path": "words/ちっとも.md",
+      "originalWorkingRawSha256": "05fb6c53ce4912e466702a4917ba28db85cbb41e6424bf94f827f249b7c5c825",
+      "originalBodyRawSha256": "5f8fac879c54efb5fc69466e92bd7c3961ebac77f1d8870d3ff1b4b9ef3cf375"
+    },
+    {
+      "path": "words/全然.md",
+      "originalWorkingRawSha256": "cfb0314ce5fdb48baf4c350265e626a05d3cb8c0445d82fe50a7fb8bcb2cc3a5",
+      "originalBodyRawSha256": "2e3dce7cfa812bc543a57fc49f51106871cde3411edd3a02e1d259b875e87818"
+    },
+    {
+      "path": "words/決して.md",
+      "originalWorkingRawSha256": "450d67ca60d603224c6198ec717dab83b06f5edb8383051b1b8bc9ff4f52eb83",
+      "originalBodyRawSha256": "b8c7376ff9f32a5cc581ee8ce1e4a289668900245f4de44ce5af5c291377b67b"
+    }
+  ],
+  "amendmentContract": "RemoveEXACTQ68/Q69 from全然;addEXACTRP72こう–そうして D andRP73そう–そうして/RP74ああ–そうして/RP75こう–それほど/RP76こう–そんなに qualifiedQ. Only4newmetadataowners;originalsourceguards/title/reading/level/type/tag/example/body/baseline/providerRAWunchanged. Preserveoriginalreports/freezes/pool001/receipts. Generate manifest;SERIALvalidate/124NTFSfixturetests/budget. Bind002pool:1333exactrowidentity/4metadatachanges;fresh4wholeRU/9affectedrows. OneNEWboundedread-only 18wholebodies/9objects/9rows/3RUrootrubrics/exactdiff/identity/amendment/originalreport review. No secondwhole/fresh72retainedjudgments/blanketC2CLEAN prescribed.",
+  "ordinaryModernNecessityFrequencyBroaderQuizSuitabilityGlobalFutureUniqueness": "UNVERIFIED",
+  "independentCorrectedSnapshotStatus": "PENDING",
+  "sourceAcceptance": false,
+  "originalDirectPairs": 74,
+  "withdrawnProposals": 2,
+  "newAmendmentPairs": 5,
+  "prospectiveRetainedDirectPairs": 77,
+  "all3OriginalSourceGuardsRetained": true,
+  "runtimeMutationApplied": false,
+  "releaseBoundary": "Sourceauthoringonly;noassets/native/device/phone/IME/media/package/default/releaseapproval.",
+  "fullTaskComplete": false,
+  "continueRequired": true
+}
