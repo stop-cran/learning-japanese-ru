@@ -1,0 +1,4530 @@
+{
+  "schemaVersion": 1,
+  "batchId": "074-actions-search-and-handling",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineCommit": "938820dea743c2d4376898b638acc56fc78fbe12",
+  "intakeCommit": "42a310f65cbd04d77e07f25a00ffdc25d8953203",
+  "exactEvidenceBinding": {
+    "privateFile": "ru-074-evidence-bindings-005.json",
+    "sha256": "8caa7ffb7aa7eab3a210d0aff77da8d618f00977e1a1007526f2b6ef26c81db9",
+    "completeOfficialObjects": 417,
+    "completeContextualPairs": 130,
+    "sourceOnlyWordBodies": 70,
+    "sourceOnlyArticles": 1,
+    "domain": "Entity-expanded ETserialization,NOToriginalarchiveRAWslices."
+  },
+  "immutableHistoricalBindings": [
+    {
+      "privateFile": "ru-074-evidence-bindings-001.json",
+      "sha256": "8966493af8cad5ff96bec27625a007210eeb394ac57334b2b633b7318e39b0e6"
+    },
+    {
+      "privateFile": "ru-074-evidence-bindings-002.json",
+      "sha256": "56e24f2e36054c601770f642b9cc184a5b28eaf602f4a151d8417ea4655b9243"
+    },
+    {
+      "privateFile": "ru-074-evidence-bindings-003.json",
+      "sha256": "edcd6aa8b81b2f0cd7fdb0c3030e129a68436d65cbad243b007d5df5823caa04"
+    },
+    {
+      "privateFile": "ru-074-evidence-bindings-004.json",
+      "sha256": "f4cd4394712d15ca1530230cc2879262d61dd8f9ad56d213eb2ca5fd35f7a09f"
+    }
+  ],
+  "actualPreparatoryReading": {
+    "privateReceipt": "ru-074-author-actual-preparation-reading-partial-009.json",
+    "receiptSha256": "d627f4ffeaf9759430f164eb2ceaf55e088b578f953dec6b59fb0e4892e4c2ee",
+    "uniqueWholeTeachingBodies": 356,
+    "wholeFrozenENPrimaries": 25,
+    "wholeBilingualSupportPairs": 130,
+    "wholeENOnlyComparisonBodies": 70,
+    "wholeENOnlyArticleBodies": 1,
+    "wholeOfficialObjects": 417,
+    "freshBaselineCaptionReadingQuizRows": 1413,
+    "wholeCurrentRURootRubrics": 3,
+    "namedWholeExternalEntry": 1,
+    "allRequiredPreparationReadingComplete": true,
+    "boundary": "Actual entire returned/read bound items; fresh caption rows are NOT whole lessons. Nine immutable incremental preparation receipts preserve actual scope/history. No25newRU bodies exist yet; prospective whole teaching review would be381bodies."
+  },
+  "receiptParserBoundary": {
+    "privateFailureReceipt": "ru-074-preparation-receipt-parser-failure-and-fix-001.json",
+    "sha256": "c59bb7fed7eaa9829cf7b4dc3b1356f94a96839aa5fc9646dd1c45bc71eef375",
+    "disposition": "Failed first006attempt wrote no006; exact-marker admission fixed before whole-bound-payload checks. Historical005and earlier not rewritten. Successful006/007/008 reflect expanded bindings."
+  },
+  "actualAdditionalExternalEntryAlreadyRead": {
+    "observedAt": "2026-11-07T18:18:56.836120+00:00",
+    "sourceUrl": "https://www.weblio.jp/content/%E8%A6%8B%E4%BB%98%E3%81%91%E3%82%8B",
+    "actualPublicEventId": "80b82426-b5bd-46fd-babe-a01bbddb5e21",
+    "actualPublicPayloadFile": "ru-074-weblio-mitsukeru-actual-public-fetch-001.txt",
+    "actualPublicPayloadBytes": 19813,
+    "actualPublicPayloadSha256": "3b5f1c9fef4a5b14238bfc22c7c8302a03374f33ca9cb30fb0674a7c7dc0333f",
+    "actualAssignedSourceRead": "Entire Digital Daijisen entry見付ける,headword/reading/POS and senses1/2/example actuallyreturned/read;NOTwholeWeblioURLpage;unrelatedautomaticallygeneratedexamples NOTlexicalevidence.",
+    "quote": "いつも―・けている景色",
+    "sourceQuotationBoundary": "Sourceheadwordabbreviation;frozenEN expandedいつも見つけている景色 retained,notnewJapaneseexample.",
+    "limits": "The19813byteactualreturnedpayloadincludes16kcharacterpagecutafterentireassignedDaijisenentry;latefootertruncated. Dictionaryattestation,NOTmodernordinaryfrequency/necessity/nativeorquizapproval. PrivatecachedreturnNOTrepublished wholesale;onlybriefexamplequote/ownparaphrase/sourceURLmayenterevidence."
+  },
+  "newWords": [
+    {
+      "word": "写す",
+      "path": "words/写す.md",
+      "metadata": {
+        "word": "写す",
+        "reading": "うつす",
+        "title": "copy; photograph",
+        "jlpt": 4,
+        "type": "wago",
+        "kanji": [
+          "写"
+        ],
+        "tags": [
+          "wago",
+          "verb"
+        ]
+      },
+      "sourceGitRawSha256": "2f1a4195ae593e0ad914f1e4105fe8de1b9facabb9402f8d57465340dc54a943",
+      "sourceLfSha256": "2f1a4195ae593e0ad914f1e4105fe8de1b9facabb9402f8d57465340dc54a943"
+    },
+    {
+      "word": "塗る",
+      "path": "words/塗る.md",
+      "metadata": {
+        "word": "塗る",
+        "reading": "ぬる",
+        "title": "to apply; paint a surface",
+        "jlpt": 4,
+        "type": "wago",
+        "kanji": [
+          "塗"
+        ],
+        "tags": [
+          "wago",
+          "verb",
+          "surface"
+        ]
+      },
+      "sourceGitRawSha256": "c7b272f7739d8727e8869de5fb63701062abc00a62243664e8fbd137f1a5dad5",
+      "sourceLfSha256": "c7b272f7739d8727e8869de5fb63701062abc00a62243664e8fbd137f1a5dad5"
+    },
+    {
+      "word": "打つ",
+      "path": "words/打つ.md",
+      "metadata": {
+        "word": "打つ",
+        "reading": "うつ",
+        "title": "hit; strike",
+        "jlpt": 4,
+        "type": "wago",
+        "kanji": [
+          "打"
+        ],
+        "tags": [
+          "wago",
+          "verb",
+          "actions"
+        ]
+      },
+      "sourceGitRawSha256": "b323e8aa0a267e8ad5d29d6f4913e345ecba640f082cceaff964edac66d245d6",
+      "sourceLfSha256": "b323e8aa0a267e8ad5d29d6f4913e345ecba640f082cceaff964edac66d245d6"
+    },
+    {
+      "word": "投げる",
+      "path": "words/投げる.md",
+      "metadata": {
+        "word": "投げる",
+        "reading": "なげる",
+        "jlpt": 4,
+        "title": "throw",
+        "type": "wago",
+        "kanji": [
+          "投"
+        ],
+        "tags": [
+          "wago",
+          "verb",
+          "actions"
+        ]
+      },
+      "sourceGitRawSha256": "5cae49e7d26804cd93763f96a6f047a638c73d1c5ba487c695141854c85c8d21",
+      "sourceLfSha256": "5cae49e7d26804cd93763f96a6f047a638c73d1c5ba487c695141854c85c8d21"
+    },
+    {
+      "word": "拾う",
+      "path": "words/拾う.md",
+      "metadata": {
+        "word": "拾う",
+        "reading": "ひろう",
+        "title": "pick up; gather",
+        "jlpt": 4,
+        "type": "wago",
+        "kanji": [
+          "拾"
+        ],
+        "tags": [
+          "wago",
+          "verb",
+          "godan",
+          "action"
+        ]
+      },
+      "sourceGitRawSha256": "5988effaeb09cb4d3fe9398c49a7ad6e5580c7bf3be4f0301e03b818854c368f",
+      "sourceLfSha256": "5988effaeb09cb4d3fe9398c49a7ad6e5580c7bf3be4f0301e03b818854c368f"
+    },
+    {
+      "word": "捕まえる",
+      "path": "words/捕まえる.md",
+      "metadata": {
+        "word": "捕まえる",
+        "reading": "つかまえる",
+        "jlpt": 4,
+        "title": "catch; capture",
+        "type": "wago",
+        "kanji": [
+          "捕"
+        ],
+        "tags": [
+          "wago",
+          "verb",
+          "actions"
+        ]
+      },
+      "sourceGitRawSha256": "67900cd16ca745e92e4d40f23455f064d81eaf971050c4db3861b51ae0811f96",
+      "sourceLfSha256": "67900cd16ca745e92e4d40f23455f064d81eaf971050c4db3861b51ae0811f96"
+    },
+    {
+      "word": "探す",
+      "path": "words/探す.md",
+      "metadata": {
+        "word": "探す",
+        "reading": "さがす",
+        "title": "look for",
+        "jlpt": 4,
+        "type": "wago",
+        "kanji": [
+          "探"
+        ],
+        "tags": [
+          "wago",
+          "verb",
+          "actions"
+        ]
+      },
+      "sourceGitRawSha256": "ada1c3222824e572d3db0f1f6f69d514ce19c4bf83c2a70287221da964bc8562",
+      "sourceLfSha256": "ada1c3222824e572d3db0f1f6f69d514ce19c4bf83c2a70287221da964bc8562"
+    },
+    {
+      "word": "見つかる",
+      "path": "words/見つかる.md",
+      "metadata": {
+        "word": "見つかる",
+        "reading": "みつかる",
+        "title": "be found; turn up",
+        "jlpt": 4,
+        "type": "wago",
+        "kanji": [
+          "見"
+        ],
+        "tags": [
+          "wago",
+          "verb"
+        ],
+        "quiz_exclusions": [
+          "発見",
+          "知る",
+          "分かる",
+          "気付く",
+          "出る",
+          "現れる"
+        ]
+      },
+      "sourceGitRawSha256": "fd3e57404534b270239eb817d02fc2502b0a53f9de5de865327fab4eeb8b372b",
+      "sourceLfSha256": "fd3e57404534b270239eb817d02fc2502b0a53f9de5de865327fab4eeb8b372b"
+    },
+    {
+      "word": "見つける",
+      "path": "words/見つける.md",
+      "metadata": {
+        "word": "見つける",
+        "reading": "みつける",
+        "title": "find; discover",
+        "jlpt": 4,
+        "type": "wago",
+        "kanji": [
+          "見"
+        ],
+        "tags": [
+          "wago",
+          "verb",
+          "ichidan"
+        ],
+        "quiz_exclusions": [
+          "見つかる",
+          "発見",
+          "知る",
+          "分かる",
+          "気付く",
+          "拾う",
+          "出会う",
+          "見る",
+          "ごらんになる",
+          "拝見",
+          "慣れる",
+          "親しい"
+        ]
+      },
+      "sourceGitRawSha256": "8a7d973cb00eefdcf8eaf38b29e0f7c326f04a5ed5202b6ef11d246bdd2cb3ab",
+      "sourceLfSha256": "8a7d973cb00eefdcf8eaf38b29e0f7c326f04a5ed5202b6ef11d246bdd2cb3ab"
+    },
+    {
+      "word": "盗む",
+      "path": "words/盗む.md",
+      "metadata": {
+        "word": "盗む",
+        "reading": "ぬすむ",
+        "title": "steal",
+        "jlpt": 4,
+        "type": "wago",
+        "kanji": [
+          "盗"
+        ],
+        "tags": [
+          "wago",
+          "verb"
+        ]
+      },
+      "sourceGitRawSha256": "1ab5fc7f0c4d44ee5576b197afcab9784333b37cf9a9469287eb988b3474f7ff",
+      "sourceLfSha256": "1ab5fc7f0c4d44ee5576b197afcab9784333b37cf9a9469287eb988b3474f7ff"
+    },
+    {
+      "word": "植える",
+      "path": "words/植える.md",
+      "metadata": {
+        "word": "植える",
+        "reading": "うえる",
+        "title": "plant",
+        "jlpt": 4,
+        "type": "wago",
+        "kanji": [
+          "植"
+        ],
+        "tags": [
+          "wago",
+          "verb",
+          "ichidan",
+          "gardening"
+        ]
+      },
+      "sourceGitRawSha256": "aff5e06b808faa0e1b898f38d1b385a06e3a5bef8a33ee0d3d7e2136f330b06d",
+      "sourceLfSha256": "aff5e06b808faa0e1b898f38d1b385a06e3a5bef8a33ee0d3d7e2136f330b06d"
+    },
+    {
+      "word": "育てる",
+      "path": "words/育てる.md",
+      "metadata": {
+        "word": "育てる",
+        "reading": "そだてる",
+        "title": "raise or nurture",
+        "jlpt": 4,
+        "type": "wago",
+        "kanji": [
+          "育"
+        ],
+        "tags": [
+          "verb",
+          "transitive",
+          "growth"
+        ]
+      },
+      "sourceGitRawSha256": "ad35277eb3d07c5520df49cabc53a98da7a7551f2962d2fd0a3e72e147085923",
+      "sourceLfSha256": "ad35277eb3d07c5520df49cabc53a98da7a7551f2962d2fd0a3e72e147085923"
+    },
+    {
+      "word": "立てる",
+      "path": "words/立てる.md",
+      "metadata": {
+        "word": "立てる",
+        "reading": "たてる",
+        "title": "stand something upright",
+        "jlpt": 4,
+        "type": "wago",
+        "kanji": [
+          "立"
+        ],
+        "tags": [
+          "wago",
+          "verb",
+          "ichidan",
+          "position"
+        ]
+      },
+      "sourceGitRawSha256": "b1eab90276fe745623a31befccdb16ace1ee0ecd04d56be5c483b6c15fa20786",
+      "sourceLfSha256": "b1eab90276fe745623a31befccdb16ace1ee0ecd04d56be5c483b6c15fa20786"
+    },
+    {
+      "word": "噛む",
+      "path": "words/噛む.md",
+      "metadata": {
+        "word": "噛む",
+        "reading": "かむ",
+        "title": "bite; chew",
+        "jlpt": 4,
+        "type": "wago",
+        "kanji": [
+          "噛"
+        ],
+        "tags": [
+          "verb",
+          "wago",
+          "transitive"
+        ]
+      },
+      "sourceGitRawSha256": "c0692ab7145d841554a9410bc3525f767eb8f866deb75e1cbbf31eba15d930a4",
+      "sourceLfSha256": "c0692ab7145d841554a9410bc3525f767eb8f866deb75e1cbbf31eba15d930a4"
+    },
+    {
+      "word": "踏む",
+      "path": "words/踏む.md",
+      "metadata": {
+        "word": "踏む",
+        "reading": "ふむ",
+        "title": "step on; tread on",
+        "jlpt": 4,
+        "type": "wago",
+        "kanji": [
+          "踏"
+        ],
+        "tags": [
+          "wago",
+          "verb",
+          "movement"
+        ]
+      },
+      "sourceGitRawSha256": "3d66aced4974a56e5435bfbc5b7ce56522d5b12821c6559f572bcc8895acad0c",
+      "sourceLfSha256": "3d66aced4974a56e5435bfbc5b7ce56522d5b12821c6559f572bcc8895acad0c"
+    },
+    {
+      "word": "足す",
+      "path": "words/足す.md",
+      "metadata": {
+        "word": "足す",
+        "reading": "たす",
+        "title": "to add",
+        "jlpt": 4,
+        "type": "wago",
+        "kanji": [
+          "足"
+        ],
+        "tags": [
+          "wago",
+          "verb",
+          "transitive",
+          "quantity"
+        ]
+      },
+      "sourceGitRawSha256": "c0ae724a0ffdbc516f2efb9c7b24121f63edff24327b2ab2024e0cf470798dca",
+      "sourceLfSha256": "c0ae724a0ffdbc516f2efb9c7b24121f63edff24327b2ab2024e0cf470798dca"
+    },
+    {
+      "word": "選ぶ",
+      "path": "words/選ぶ.md",
+      "metadata": {
+        "word": "選ぶ",
+        "reading": "えらぶ",
+        "jlpt": 4,
+        "title": "choose",
+        "type": "wago",
+        "kanji": [
+          "選"
+        ],
+        "tags": [
+          "wago",
+          "verb",
+          "decisions"
+        ]
+      },
+      "sourceGitRawSha256": "213309581f14ccffe3b254374c38bb88f7455499ad5b264eaa24c6d038caeafd",
+      "sourceLfSha256": "213309581f14ccffe3b254374c38bb88f7455499ad5b264eaa24c6d038caeafd"
+    },
+    {
+      "word": "間違える",
+      "path": "words/間違える.md",
+      "metadata": {
+        "word": "間違える",
+        "reading": "まちがえる",
+        "title": "to get wrong",
+        "jlpt": 4,
+        "type": "wago",
+        "kanji": [
+          "間",
+          "違"
+        ],
+        "tags": [
+          "wago",
+          "verb",
+          "error"
+        ]
+      },
+      "sourceGitRawSha256": "4b78630f1f09ddecd6635620895ce227f8a33179773de487bfc7820ca5f4ec3d",
+      "sourceLfSha256": "4b78630f1f09ddecd6635620895ce227f8a33179773de487bfc7820ca5f4ec3d"
+    },
+    {
+      "word": "行う",
+      "path": "words/行う.md",
+      "metadata": {
+        "word": "行う",
+        "reading": "おこなう",
+        "title": "carry out; conduct",
+        "jlpt": 4,
+        "type": "wago",
+        "kanji": [
+          "行"
+        ],
+        "tags": [
+          "wago",
+          "verb",
+          "transitive"
+        ]
+      },
+      "sourceGitRawSha256": "884a86285ac819040e67d8f08e6405fe730984c5ab58335c414f150a2a63c58d",
+      "sourceLfSha256": "884a86285ac819040e67d8f08e6405fe730984c5ab58335c414f150a2a63c58d"
+    },
+    {
+      "word": "利用",
+      "path": "words/利用.md",
+      "metadata": {
+        "word": "利用",
+        "reading": "りよう",
+        "title": "use of a service or resource",
+        "jlpt": 4,
+        "type": "kango",
+        "kanji": [
+          "利",
+          "用"
+        ],
+        "tags": [
+          "kango",
+          "noun",
+          "verb",
+          "services"
+        ]
+      },
+      "sourceGitRawSha256": "d6a804d724128d00573900ba1cea54a7b526533992cbba968f9ed654e28dcf26",
+      "sourceLfSha256": "d6a804d724128d00573900ba1cea54a7b526533992cbba968f9ed654e28dcf26"
+    },
+    {
+      "word": "発見",
+      "path": "words/発見.md",
+      "metadata": {
+        "word": "発見",
+        "reading": "はっけん",
+        "title": "discovery; detection",
+        "jlpt": 3,
+        "type": "kango",
+        "kanji": [
+          "発",
+          "見"
+        ],
+        "tags": [
+          "kango",
+          "discovery",
+          "suru-verb"
+        ]
+      },
+      "sourceGitRawSha256": "cc642a9f00ea420b93a8d0f073a22abf588441d81d57bf257caa7362adf5f440",
+      "sourceLfSha256": "cc642a9f00ea420b93a8d0f073a22abf588441d81d57bf257caa7362adf5f440"
+    },
+    {
+      "word": "気付く",
+      "path": "words/気付く.md",
+      "metadata": {
+        "word": "気付く",
+        "reading": "きづく",
+        "title": "notice; become aware",
+        "jlpt": 3,
+        "type": "kango",
+        "kanji": [
+          "気",
+          "付"
+        ],
+        "tags": [
+          "verb",
+          "intransitive",
+          "awareness",
+          "mixed-reading"
+        ]
+      },
+      "sourceGitRawSha256": "c5014cb5f7e0ba429b2bd94b30c0083b5d280a6671788c7c36f8cb57b8a27661",
+      "sourceLfSha256": "c5014cb5f7e0ba429b2bd94b30c0083b5d280a6671788c7c36f8cb57b8a27661"
+    },
+    {
+      "word": "現れる",
+      "path": "words/現れる.md",
+      "metadata": {
+        "word": "現れる",
+        "reading": "あらわれる",
+        "title": "appear; become apparent",
+        "jlpt": 3,
+        "type": "wago",
+        "kanji": [
+          "現"
+        ],
+        "tags": [
+          "verb",
+          "appearance",
+          "wago"
+        ],
+        "quiz_exclusions": [
+          "出る"
+        ]
+      },
+      "sourceGitRawSha256": "e85d27ef16aed4492122690ffb96f90fddb5c346d75c0d85d8186359a3fba3cc",
+      "sourceLfSha256": "e85d27ef16aed4492122690ffb96f90fddb5c346d75c0d85d8186359a3fba3cc"
+    },
+    {
+      "word": "出会う",
+      "path": "words/出会う.md",
+      "metadata": {
+        "word": "出会う",
+        "reading": "であう",
+        "title": "encounter; come across",
+        "jlpt": 3,
+        "type": "wago",
+        "kanji": [
+          "出",
+          "会"
+        ],
+        "tags": [
+          "godan-verb",
+          "intransitive",
+          "encounters"
+        ],
+        "quiz_exclusions": [
+          "会う"
+        ]
+      },
+      "sourceGitRawSha256": "ffe9a5cbb1fa75dce989cc40d2b685b625a225415a5bbdcc8a586dc97eb5fcdb",
+      "sourceLfSha256": "ffe9a5cbb1fa75dce989cc40d2b685b625a225415a5bbdcc8a586dc97eb5fcdb"
+    },
+    {
+      "word": "親しい",
+      "path": "words/親しい.md",
+      "metadata": {
+        "word": "親しい",
+        "reading": "したしい",
+        "title": "close; familiar",
+        "jlpt": 3,
+        "type": "wago",
+        "kanji": [
+          "親"
+        ],
+        "tags": [
+          "wago",
+          "i-adjective",
+          "relationships"
+        ],
+        "quiz_exclusions": [
+          "近い"
+        ]
+      },
+      "sourceGitRawSha256": "3920117d834a4b01febdd133c5863be8533cd750648639d6b71d3e55f7ef97b7",
+      "sourceLfSha256": "3920117d834a4b01febdd133c5863be8533cd750648639d6b71d3e55f7ef97b7"
+    }
+  ],
+  "proposedRussianTitles": {
+    "写す": "копировать; фотографировать",
+    "塗る": "наносить; красить поверхность",
+    "打つ": "бить; ударять",
+    "投げる": "бросать; кидать",
+    "拾う": "подбирать; собирать",
+    "捕まえる": "ловить; захватывать",
+    "探す": "искать",
+    "見つかる": "найтись; обнаружиться",
+    "見つける": "находить; обнаруживать",
+    "盗む": "красть; воровать",
+    "植える": "сажать растения",
+    "育てる": "растить; воспитывать",
+    "立てる": "ставить вертикально; поднимать",
+    "噛む": "кусать; жевать",
+    "踏む": "наступать; ступать",
+    "足す": "прибавлять; добавлять",
+    "選ぶ": "выбирать",
+    "間違える": "делать ошибку; путать",
+    "行う": "выполнять; проводить",
+    "利用": "использование; пользоваться",
+    "発見": "открытие; обнаружение",
+    "気付く": "замечать; осознавать",
+    "現れる": "появляться; проявляться",
+    "出会う": "случайно встречать; сталкиваться",
+    "親しい": "близкий; хорошо знакомый"
+  },
+  "requiredSourceNegativeEdges": [
+    {
+      "left": "見つかる",
+      "right": "発見",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/発見.md",
+      "actualRuntimeProvider": false,
+      "providerInSelectedNewScope": true
+    },
+    {
+      "left": "見つかる",
+      "right": "知る",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/知る.md",
+      "actualRuntimeProvider": true,
+      "providerInSelectedNewScope": false
+    },
+    {
+      "left": "見つかる",
+      "right": "分かる",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/分かる.md",
+      "actualRuntimeProvider": true,
+      "providerInSelectedNewScope": false
+    },
+    {
+      "left": "見つかる",
+      "right": "気付く",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/気付く.md",
+      "actualRuntimeProvider": false,
+      "providerInSelectedNewScope": true
+    },
+    {
+      "left": "見つかる",
+      "right": "出る",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/出る.md",
+      "actualRuntimeProvider": true,
+      "providerInSelectedNewScope": false
+    },
+    {
+      "left": "見つかる",
+      "right": "現れる",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/現れる.md",
+      "actualRuntimeProvider": false,
+      "providerInSelectedNewScope": true
+    },
+    {
+      "left": "見つける",
+      "right": "見つかる",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/見つかる.md",
+      "actualRuntimeProvider": false,
+      "providerInSelectedNewScope": true
+    },
+    {
+      "left": "見つける",
+      "right": "発見",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/発見.md",
+      "actualRuntimeProvider": false,
+      "providerInSelectedNewScope": true
+    },
+    {
+      "left": "見つける",
+      "right": "知る",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/知る.md",
+      "actualRuntimeProvider": true,
+      "providerInSelectedNewScope": false
+    },
+    {
+      "left": "見つける",
+      "right": "分かる",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/分かる.md",
+      "actualRuntimeProvider": true,
+      "providerInSelectedNewScope": false
+    },
+    {
+      "left": "見つける",
+      "right": "気付く",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/気付く.md",
+      "actualRuntimeProvider": false,
+      "providerInSelectedNewScope": true
+    },
+    {
+      "left": "見つける",
+      "right": "拾う",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/拾う.md",
+      "actualRuntimeProvider": false,
+      "providerInSelectedNewScope": true
+    },
+    {
+      "left": "見つける",
+      "right": "出会う",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/出会う.md",
+      "actualRuntimeProvider": false,
+      "providerInSelectedNewScope": true
+    },
+    {
+      "left": "見つける",
+      "right": "見る",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/見る.md",
+      "actualRuntimeProvider": true,
+      "providerInSelectedNewScope": false
+    },
+    {
+      "left": "見つける",
+      "right": "ごらんになる",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/ごらんになる.md",
+      "actualRuntimeProvider": true,
+      "providerInSelectedNewScope": false
+    },
+    {
+      "left": "見つける",
+      "right": "拝見",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/拝見.md",
+      "actualRuntimeProvider": true,
+      "providerInSelectedNewScope": false
+    },
+    {
+      "left": "見つける",
+      "right": "慣れる",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/慣れる.md",
+      "actualRuntimeProvider": true,
+      "providerInSelectedNewScope": false
+    },
+    {
+      "left": "見つける",
+      "right": "親しい",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/親しい.md",
+      "actualRuntimeProvider": false,
+      "providerInSelectedNewScope": true
+    },
+    {
+      "left": "現れる",
+      "right": "出る",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/出る.md",
+      "actualRuntimeProvider": true,
+      "providerInSelectedNewScope": false
+    },
+    {
+      "left": "出会う",
+      "right": "会う",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/会う.md",
+      "actualRuntimeProvider": true,
+      "providerInSelectedNewScope": false
+    },
+    {
+      "left": "親しい",
+      "right": "近い",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/近い.md",
+      "actualRuntimeProvider": true,
+      "providerInSelectedNewScope": false
+    }
+  ],
+  "preservedSourceGuardProposals": [
+    {
+      "originalDeclaration": {
+        "left": "見つかる",
+        "right": "発見",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/発見.md",
+        "actualRuntimeProvider": false,
+        "providerInSelectedNewScope": true
+      },
+      "pair": [
+        "見つかる",
+        "発見"
+      ],
+      "metadataOwner": "words/見つかる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "найтись; обнаружиться",
+      "rightActualBoundCaption": "открытие; обнаружение",
+      "directWholeEntryIds": [
+        "1604550",
+        "1477310"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Discovery/finding result versus discovery noun/する; discoverer and found object are not interchangeable subjects.",
+      "disposition": "AUTHOR_PRESERVED_SOURCE_PROPOSAL_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "見つかる",
+        "right": "知る",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/知る.md",
+        "actualRuntimeProvider": true,
+        "providerInSelectedNewScope": false
+      },
+      "pair": [
+        "見つかる",
+        "知る"
+      ],
+      "metadataOwner": "words/見つかる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "найтись; обнаружиться",
+      "rightActualBoundCaption": "знать; узнавать",
+      "directWholeEntryIds": [
+        "1604550",
+        "1420470"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Information becoming discovered/known versus knowing/learning; result/agent distinction retained.",
+      "disposition": "AUTHOR_PRESERVED_SOURCE_PROPOSAL_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "見つかる",
+        "right": "分かる",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/分かる.md",
+        "actualRuntimeProvider": true,
+        "providerInSelectedNewScope": false
+      },
+      "pair": [
+        "見つかる",
+        "分かる"
+      ],
+      "metadataOwner": "words/見つかる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "найтись; обнаружиться",
+      "rightActualBoundCaption": "понимать",
+      "directWholeEntryIds": [
+        "1604550",
+        "1606560"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Information being found out/becoming clear; not every understanding a physical finding.",
+      "disposition": "AUTHOR_PRESERVED_SOURCE_PROPOSAL_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "見つかる",
+        "right": "気付く",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/気付く.md",
+        "actualRuntimeProvider": false,
+        "providerInSelectedNewScope": true
+      },
+      "pair": [
+        "見つかる",
+        "気付く"
+      ],
+      "metadataOwner": "words/見つかる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "найтись; обнаружиться",
+      "rightActualBoundCaption": "замечать; осознавать",
+      "directWholeEntryIds": [
+        "1604550",
+        "1591330"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "A discovery result versus an observer noticing it; no argument-role equivalence.",
+      "disposition": "AUTHOR_PRESERVED_SOURCE_PROPOSAL_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "見つかる",
+        "right": "出る",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/出る.md",
+        "actualRuntimeProvider": true,
+        "providerInSelectedNewScope": false
+      },
+      "pair": [
+        "見つかる",
+        "出る"
+      ],
+      "metadataOwner": "words/見つかる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "найтись; обнаружиться",
+      "rightActualBoundCaption": "выходить; появляться",
+      "directWholeEntryIds": [
+        "1604550",
+        "1338240"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "A missing object turning up versus coming out/appearing; not every exit a discovery.",
+      "disposition": "AUTHOR_PRESERVED_SOURCE_PROPOSAL_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "見つかる",
+        "right": "現れる",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/現れる.md",
+        "actualRuntimeProvider": false,
+        "providerInSelectedNewScope": true
+      },
+      "pair": [
+        "見つかる",
+        "現れる"
+      ],
+      "metadataOwner": "words/見つかる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "найтись; обнаружиться",
+      "rightActualBoundCaption": "появляться; проявляться",
+      "directWholeEntryIds": [
+        "1604550",
+        "1263510"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "A discovery result versus becoming visible/apparent; not every manifestation something previously lost.",
+      "disposition": "AUTHOR_PRESERVED_SOURCE_PROPOSAL_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "見つける",
+        "right": "見つかる",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/見つかる.md",
+        "actualRuntimeProvider": false,
+        "providerInSelectedNewScope": true
+      },
+      "pair": [
+        "見つける",
+        "見つかる"
+      ],
+      "metadataOwner": "words/見つける.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "находить; обнаруживать",
+      "rightActualBoundCaption": "найтись; обнаружиться",
+      "directWholeEntryIds": [
+        "1604570",
+        "1604550"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Finding something versus its being found; transitive/intransitive argument roles remain distinct.",
+      "disposition": "AUTHOR_PRESERVED_SOURCE_PROPOSAL_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "見つける",
+        "right": "発見",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/発見.md",
+        "actualRuntimeProvider": false,
+        "providerInSelectedNewScope": true
+      },
+      "pair": [
+        "見つける",
+        "発見"
+      ],
+      "metadataOwner": "words/見つける.md",
+      "authorProposedQualifiedCategory": "D",
+      "leftActualProposedCaption": "находить; обнаруживать",
+      "rightActualBoundCaption": "открытие; обнаружение",
+      "directWholeEntryIds": [
+        "1604570",
+        "1477310"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual finding/discovering versus discovery noun/する; grammatical category remains distinct.",
+      "disposition": "AUTHOR_PRESERVED_SOURCE_PROPOSAL_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "見つける",
+        "right": "知る",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/知る.md",
+        "actualRuntimeProvider": true,
+        "providerInSelectedNewScope": false
+      },
+      "pair": [
+        "見つける",
+        "知る"
+      ],
+      "metadataOwner": "words/見つける.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "находить; обнаруживать",
+      "rightActualBoundCaption": "знать; узнавать",
+      "directWholeEntryIds": [
+        "1604570",
+        "1420470"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Discover/find out versus learn/come to know information; not all knowing a visual search.",
+      "disposition": "AUTHOR_PRESERVED_SOURCE_PROPOSAL_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "見つける",
+        "right": "分かる",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/分かる.md",
+        "actualRuntimeProvider": true,
+        "providerInSelectedNewScope": false
+      },
+      "pair": [
+        "見つける",
+        "分かる"
+      ],
+      "metadataOwner": "words/見つける.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "находить; обнаруживать",
+      "rightActualBoundCaption": "понимать",
+      "directWholeEntryIds": [
+        "1604570",
+        "1606560"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Find out/discover versus realize/understand information; not all comprehension locating an item.",
+      "disposition": "AUTHOR_PRESERVED_SOURCE_PROPOSAL_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "見つける",
+        "right": "気付く",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/気付く.md",
+        "actualRuntimeProvider": false,
+        "providerInSelectedNewScope": true
+      },
+      "pair": [
+        "見つける",
+        "気付く"
+      ],
+      "metadataOwner": "words/見つける.md",
+      "authorProposedQualifiedCategory": "D",
+      "leftActualProposedCaption": "находить; обнаруживать",
+      "rightActualBoundCaption": "замечать; осознавать",
+      "directWholeEntryIds": [
+        "1604570",
+        "1591330"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Spotting/finding versus noticing/becoming aware; not every awareness visual or search-driven.",
+      "disposition": "AUTHOR_PRESERVED_SOURCE_PROPOSAL_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "見つける",
+        "right": "拾う",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/拾う.md",
+        "actualRuntimeProvider": false,
+        "providerInSelectedNewScope": true
+      },
+      "pair": [
+        "見つける",
+        "拾う"
+      ],
+      "metadataOwner": "words/見つける.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "находить; обнаруживать",
+      "rightActualBoundCaption": "подбирать; собирать",
+      "directWholeEntryIds": [
+        "1604570",
+        "1332570"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "拾う explicitly includes finding AND picking up a dropped object; not mere finding always picking up.",
+      "disposition": "AUTHOR_PRESERVED_SOURCE_PROPOSAL_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "見つける",
+        "right": "出会う",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/出会う.md",
+        "actualRuntimeProvider": false,
+        "providerInSelectedNewScope": true
+      },
+      "pair": [
+        "見つける",
+        "出会う"
+      ],
+      "metadataOwner": "words/見つける.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "находить; обнаруживать",
+      "rightActualBoundCaption": "случайно встречать; сталкиваться",
+      "directWholeEntryIds": [
+        "1604570",
+        "1598530"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual come-across/discovery versus chance encounter; object and person argument patterns remain.",
+      "disposition": "AUTHOR_PRESERVED_SOURCE_PROPOSAL_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "見つける",
+        "right": "見る",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/見る.md",
+        "actualRuntimeProvider": true,
+        "providerInSelectedNewScope": false
+      },
+      "pair": [
+        "見つける",
+        "見る"
+      ],
+      "metadataOwner": "words/見つける.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "находить; обнаруживать",
+      "rightActualBoundCaption": "видеть; смотреть",
+      "directWholeEntryIds": [
+        "1604570",
+        "1259290"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Spotting/visual familiarity versus seeing; neither all looking a discovery nor all familiarity a single sight.",
+      "disposition": "AUTHOR_PRESERVED_SOURCE_PROPOSAL_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "見つける",
+        "right": "ごらんになる",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/ごらんになる.md",
+        "actualRuntimeProvider": true,
+        "providerInSelectedNewScope": false
+      },
+      "pair": [
+        "見つける",
+        "ごらんになる"
+      ],
+      "metadataOwner": "words/見つける.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "находить; обнаруживать",
+      "rightActualBoundCaption": "видеть; смотреть (уважительно)",
+      "directWholeEntryIds": [
+        "1604570",
+        "2217040"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual visual seeing versus respectful seeing caption; no claim that plain finding supplies honorific grammar.",
+      "disposition": "AUTHOR_PRESERVED_SOURCE_PROPOSAL_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "見つける",
+        "right": "拝見",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/拝見.md",
+        "actualRuntimeProvider": true,
+        "providerInSelectedNewScope": false
+      },
+      "pair": [
+        "見つける",
+        "拝見"
+      ],
+      "metadataOwner": "words/見つける.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "находить; обнаруживать",
+      "rightActualBoundCaption": "просмотр (скромная форма)",
+      "directWholeEntryIds": [
+        "1604570",
+        "1472270"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual visual seeing versus humble looking noun/する; no grammatical/register interchangeability.",
+      "disposition": "AUTHOR_PRESERVED_SOURCE_PROPOSAL_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "見つける",
+        "right": "慣れる",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/慣れる.md",
+        "actualRuntimeProvider": true,
+        "providerInSelectedNewScope": false
+      },
+      "pair": [
+        "見つける",
+        "慣れる"
+      ],
+      "metadataOwner": "words/見つける.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "находить; обнаруживать",
+      "rightActualBoundCaption": "привыкать",
+      "directWholeEntryIds": [
+        "1604570",
+        "1212670"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Attested visual familiarity versus becoming accustomed; ordinary frequency/necessity UNVERIFIED.",
+      "disposition": "AUTHOR_PRESERVED_SOURCE_PROPOSAL_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "見つける",
+        "right": "親しい",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/親しい.md",
+        "actualRuntimeProvider": false,
+        "providerInSelectedNewScope": true
+      },
+      "pair": [
+        "見つける",
+        "親しい"
+      ],
+      "metadataOwner": "words/見つける.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "находить; обнаруживать",
+      "rightActualBoundCaption": "близкий; хорошо знакомый",
+      "directWholeEntryIds": [
+        "1604570",
+        "1365050"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Attested familiarity with something repeatedly seen versus 親しい familiar/well-known sense; not always intimacy.",
+      "disposition": "AUTHOR_PRESERVED_SOURCE_PROPOSAL_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "現れる",
+        "right": "出る",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/出る.md",
+        "actualRuntimeProvider": true,
+        "providerInSelectedNewScope": false
+      },
+      "pair": [
+        "現れる",
+        "出る"
+      ],
+      "metadataOwner": "words/現れる.md",
+      "authorProposedQualifiedCategory": "D",
+      "leftActualProposedCaption": "появляться; проявляться",
+      "rightActualBoundCaption": "выходить; появляться",
+      "directWholeEntryIds": [
+        "1263510",
+        "1338240"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual appear/come out/emerge senses; not all exits or printed publications identical.",
+      "disposition": "AUTHOR_PRESERVED_SOURCE_PROPOSAL_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "出会う",
+        "right": "会う",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/会う.md",
+        "actualRuntimeProvider": true,
+        "providerInSelectedNewScope": false
+      },
+      "pair": [
+        "出会う",
+        "会う"
+      ],
+      "metadataOwner": "words/出会う.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "случайно встречать; сталкиваться",
+      "rightActualBoundCaption": "встречаться с человеком",
+      "directWholeEntryIds": [
+        "1598530",
+        "1198180"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Chance personal encounter versus meeting a person; chance and reception are not automatic.",
+      "disposition": "AUTHOR_PRESERVED_SOURCE_PROPOSAL_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "親しい",
+        "right": "近い",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/近い.md",
+        "actualRuntimeProvider": true,
+        "providerInSelectedNewScope": false
+      },
+      "pair": [
+        "親しい",
+        "近い"
+      ],
+      "metadataOwner": "words/親しい.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "близкий; хорошо знакомый",
+      "rightActualBoundCaption": "близкий; близко",
+      "directWholeEntryIds": [
+        "1365050",
+        "1242130"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual emotional/relational closeness versus close/near; not all spatial proximity intimacy.",
+      "disposition": "AUTHOR_PRESERVED_SOURCE_PROPOSAL_INDEPENDENTLY_PENDING"
+    }
+  ],
+  "proposedAdditionalDirectPairs": [
+    {
+      "proposalId": "Q001",
+      "pair": [
+        "写す",
+        "コピー"
+      ],
+      "metadataOwner": "words/写す.md",
+      "authorProposedQualifiedCategory": "D",
+      "leftActualProposedCaption": "копировать; фотографировать",
+      "rightActualBoundCaption": "копия; копировать",
+      "directWholeEntryIds": [
+        "1588320",
+        "1050590"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual copying/transcribing versus copy noun/する; not all copying photographic.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q002",
+      "pair": [
+        "写す",
+        "書く"
+      ],
+      "metadataOwner": "words/写す.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "копировать; фотографировать",
+      "rightActualBoundCaption": "писать",
+      "directWholeEntryIds": [
+        "1588320",
+        "1343950"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Transcribing written material entails writing; not all writing reproduction of a source.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q003",
+      "pair": [
+        "写す",
+        "撮る"
+      ],
+      "metadataOwner": "words/写す.md",
+      "authorProposedQualifiedCategory": "D",
+      "leftActualProposedCaption": "копировать; фотографировать",
+      "rightActualBoundCaption": "фотографировать; снимать на камеру",
+      "directWholeEntryIds": [
+        "1588320",
+        "1298790"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual photograph/film sense of 写す, not a reflected image inferred from English.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q004",
+      "pair": [
+        "写す",
+        "起す"
+      ],
+      "metadataOwner": "words/写す.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "копировать; фотографировать",
+      "rightActualBoundCaption": "будить",
+      "directWholeEntryIds": [
+        "1588320",
+        "1223660"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Whole 起こす/起す independently includes transcription; not waking a person equated with copying.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q005",
+      "pair": [
+        "写す",
+        "表現"
+      ],
+      "metadataOwner": "words/写す.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "копировать; фотографировать",
+      "rightActualBoundCaption": "выражение; представление",
+      "directWholeEntryIds": [
+        "1588320",
+        "1489510"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Depict/portray/express versus expression/representation noun/する; not every expression a photograph.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q006",
+      "pair": [
+        "写す",
+        "盗む"
+      ],
+      "metadataOwner": "words/写す.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "копировать; фотографировать",
+      "rightActualBoundCaption": "красть; воровать",
+      "directWholeEntryIds": [
+        "1588320",
+        "1448440"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Copying/imitating versus the explicitly attested plagiarism/technique-taking sense; not all copying theft.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q007",
+      "pair": [
+        "塗る",
+        "付ける"
+      ],
+      "metadataOwner": "words/塗る.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "наносить; красить поверхность",
+      "rightActualBoundCaption": "прикреплять; добавлять",
+      "directWholeEntryIds": [
+        "1444270",
+        "1495770"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Applying a coating/cream versus attaching/applying; not every addition painting a surface.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q008",
+      "pair": [
+        "塗る",
+        "貼る"
+      ],
+      "metadataOwner": "words/塗る.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "наносить; красить поверхность",
+      "rightActualBoundCaption": "приклеивать; наклеивать",
+      "directWholeEntryIds": [
+        "1444270",
+        "1427900"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "塗る explicitly includes putting up wallpaper; 貼る affixes a surface covering, not every adhesive painted.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q009",
+      "pair": [
+        "打つ",
+        "投げる"
+      ],
+      "metadataOwner": "words/打つ.md",
+      "authorProposedQualifiedCategory": "D",
+      "leftActualProposedCaption": "бить; ударять",
+      "rightActualBoundCaption": "бросать; кидать",
+      "directWholeEntryIds": [
+        "1408810",
+        "1447000"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Whole うつ independently includes throw/cast; do not extend every うつ sense to ぶつ.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q010",
+      "pair": [
+        "打つ",
+        "押す"
+      ],
+      "metadataOwner": "words/打つ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бить; ударять",
+      "rightActualBoundCaption": "толкать; нажимать",
+      "directWholeEntryIds": [
+        "1408810",
+        "1180470"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Typing/striking a key versus pressing that key; no equation of all pressing and hitting.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q011",
+      "pair": [
+        "打つ",
+        "書く"
+      ],
+      "metadataOwner": "words/打つ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бить; ударять",
+      "rightActualBoundCaption": "писать",
+      "directWholeEntryIds": [
+        "1408810",
+        "1343950"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual typing/writing-in/marking senses; not all handwriting striking a person.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q012",
+      "pair": [
+        "打つ",
+        "入れる"
+      ],
+      "metadataOwner": "words/打つ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бить; ударять",
+      "rightActualBoundCaption": "помещать внутрь",
+      "directWholeEntryIds": [
+        "1408810",
+        "1465610"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Driving/injecting something into a target; not every insertion a blow or injection.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q013",
+      "pair": [
+        "打つ",
+        "付ける"
+      ],
+      "metadataOwner": "words/打つ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бить; ударять",
+      "rightActualBoundCaption": "прикреплять; добавлять",
+      "directWholeEntryIds": [
+        "1408810",
+        "1495770"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual marking/writing-in versus putting/applying a mark; not every attachment striking.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q014",
+      "pair": [
+        "打つ",
+        "作る"
+      ],
+      "metadataOwner": "words/打つ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бить; ударять",
+      "rightActualBoundCaption": "делать; готовить",
+      "directWholeEntryIds": [
+        "1408810",
+        "1597890"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual noodle-making sense of うつ versus making food; not generic preparation or all cooking.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q015",
+      "pair": [
+        "打つ",
+        "遊ぶ"
+      ],
+      "metadataOwner": "words/打つ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бить; ударять",
+      "rightActualBoundCaption": "играть; развлекаться",
+      "directWholeEntryIds": [
+        "1408810",
+        "1542160"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual playing/gambling sense of うつ; not all leisure or ぶつ automatically gambling.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q016",
+      "pair": [
+        "打つ",
+        "する"
+      ],
+      "metadataOwner": "words/打つ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бить; ударять",
+      "rightActualBoundCaption": "делать; выполнять",
+      "directWholeEntryIds": [
+        "1408810",
+        "1157170"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual do/carry out/perform sense of うつ; not all doing physically hitting.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q017",
+      "pair": [
+        "打つ",
+        "やる"
+      ],
+      "metadataOwner": "words/打つ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бить; ударять",
+      "rightActualBoundCaption": "делать; выполнять (разговорно)",
+      "directWholeEntryIds": [
+        "1408810",
+        "1012980"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual doing/playing/performance sense versus colloquial doing; not all やる homophones.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q018",
+      "pair": [
+        "打つ",
+        "行う"
+      ],
+      "metadataOwner": "words/打つ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бить; ударять",
+      "rightActualBoundCaption": "выполнять; проводить",
+      "directWholeEntryIds": [
+        "1408810",
+        "1589060"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual carrying-out/performance sense; not derived from all physical blows.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q019",
+      "pair": [
+        "打つ",
+        "なさる"
+      ],
+      "metadataOwner": "words/打つ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бить; ударять",
+      "rightActualBoundCaption": "делать (уважительно)",
+      "directWholeEntryIds": [
+        "1408810",
+        "1157090"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual doing/performance versus respectful doing; lexical protection only, not register substitution.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q020",
+      "pair": [
+        "打つ",
+        "致す"
+      ],
+      "metadataOwner": "words/打つ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бить; ударять",
+      "rightActualBoundCaption": "делать (скромно)",
+      "directWholeEntryIds": [
+        "1408810",
+        "1421900"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual doing/performance versus humble doing; no automatic humble grammar on うつ.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q021",
+      "pair": [
+        "打つ",
+        "送る"
+      ],
+      "metadataOwner": "words/打つ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бить; ударять",
+      "rightActualBoundCaption": "отправлять; провожать",
+      "directWholeEntryIds": [
+        "1408810",
+        "1402730"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual typing/sending/transmitting a message; not all parcels struck.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q022",
+      "pair": [
+        "打つ",
+        "伝える"
+      ],
+      "metadataOwner": "words/打つ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бить; ударять",
+      "rightActualBoundCaption": "передавать; сообщать",
+      "directWholeEntryIds": [
+        "1408810",
+        "1441870"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual sending/transmitting information; not every report a physical strike.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q023",
+      "pair": [
+        "打つ",
+        "注射"
+      ],
+      "metadataOwner": "words/打つ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бить; ударять",
+      "rightActualBoundCaption": "укол; инъекция",
+      "directWholeEntryIds": [
+        "1408810",
+        "1426590"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual injection sense versus injection noun/する; not plant inoculation inferred from topic.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q024",
+      "pair": [
+        "打つ",
+        "払う"
+      ],
+      "metadataOwner": "words/打つ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бить; ударять",
+      "rightActualBoundCaption": "платить",
+      "directWholeEntryIds": [
+        "1408810",
+        "1501620"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual paying a deposit, not every ordinary payment a blow.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q025",
+      "pair": [
+        "打つ",
+        "訪ねる"
+      ],
+      "metadataOwner": "words/打つ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бить; ударять",
+      "rightActualBoundCaption": "навещать; посещать",
+      "directWholeEntryIds": [
+        "1408810",
+        "1518070"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual pilgrimage-visit sense; not all personal calls or dictionary 尋ねる searching.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q026",
+      "pair": [
+        "打つ",
+        "鳴る"
+      ],
+      "metadataOwner": "words/打つ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бить; ударять",
+      "rightActualBoundCaption": "звенеть; звучать",
+      "directWholeEntryIds": [
+        "1408810",
+        "1532910"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Striking a clock/instrument to sound versus sounding/ringing; cause/result valency retained.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q027",
+      "pair": [
+        "打つ",
+        "立てる"
+      ],
+      "metadataOwner": "words/打つ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бить; ударять",
+      "rightActualBoundCaption": "ставить вертикально; поднимать",
+      "directWholeEntryIds": [
+        "1408810",
+        "1551530"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Driving a stake/peg versus erecting/thrusting in an upright object; not building a house.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q028",
+      "pair": [
+        "投げる",
+        "捨てる"
+      ],
+      "metadataOwner": "words/投げる.md",
+      "authorProposedQualifiedCategory": "D",
+      "leftActualProposedCaption": "бросать; кидать",
+      "rightActualBoundCaption": "выбрасывать; отказываться",
+      "directWholeEntryIds": [
+        "1447000",
+        "1322320"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual abandon/throw-away sense; not every thrown ball discarded.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q029",
+      "pair": [
+        "投げる",
+        "止める"
+      ],
+      "metadataOwner": "words/投げる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бросать; кидать",
+      "rightActualBoundCaption": "останавливать; прекращать",
+      "directWholeEntryIds": [
+        "1447000",
+        "1310670",
+        "1310680"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Abandon/quit an undertaking versus stopping; the separate standalone やめる identity is explicit.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q030",
+      "pair": [
+        "投げる",
+        "負ける"
+      ],
+      "metadataOwner": "words/投げる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бросать; кидать",
+      "rightActualBoundCaption": "проигрывать; уступать",
+      "directWholeEntryIds": [
+        "1447000",
+        "1497980"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Abandon/give up versus yield/surrender; not every thrown object a competitive defeat.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q031",
+      "pair": [
+        "拾う",
+        "取る"
+      ],
+      "metadataOwner": "words/拾う.md",
+      "authorProposedQualifiedCategory": "D",
+      "leftActualProposedCaption": "подбирать; собирать",
+      "rightActualBoundCaption": "брать; подбирать",
+      "directWholeEntryIds": [
+        "1332570",
+        "1326980"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual picking up/taking/gathering an item; not every taking off a garment.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q032",
+      "pair": [
+        "拾う",
+        "集める"
+      ],
+      "metadataOwner": "words/拾う.md",
+      "authorProposedQualifiedCategory": "D",
+      "leftActualProposedCaption": "подбирать; собирать",
+      "rightActualBoundCaption": "собирать; коллекционировать",
+      "directWholeEntryIds": [
+        "1332570",
+        "1333560"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual gathering/collecting; not every assembly of people picking up lost items.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q033",
+      "pair": [
+        "拾う",
+        "選ぶ"
+      ],
+      "metadataOwner": "words/拾う.md",
+      "authorProposedQualifiedCategory": "D",
+      "leftActualProposedCaption": "подбирать; собирать",
+      "rightActualBoundCaption": "выбирать",
+      "directWholeEntryIds": [
+        "1332570",
+        "1588730"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Whole 拾う independently includes select/choose; not just a picked-up object.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q034",
+      "pair": [
+        "拾う",
+        "勝つ"
+      ],
+      "metadataOwner": "words/拾う.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "подбирать; собирать",
+      "rightActualBoundCaption": "побеждать",
+      "directWholeEntryIds": [
+        "1332570",
+        "1346150"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Unexpectedly gaining a victory; not every collecting an item a win, nor hitting English beat.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q035",
+      "pair": [
+        "拾う",
+        "もらう"
+      ],
+      "metadataOwner": "words/拾う.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "подбирать; собирать",
+      "rightActualBoundCaption": "получать",
+      "directWholeEntryIds": [
+        "1332570",
+        "1535910"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Unexpected acquisition/opportunity versus receiving/obtaining; no universal donor requirement inferred.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q036",
+      "pair": [
+        "拾う",
+        "受ける"
+      ],
+      "metadataOwner": "words/拾う.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "подбирать; собирать",
+      "rightActualBoundCaption": "получать; подвергаться",
+      "directWholeEntryIds": [
+        "1332570",
+        "1329590"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual receiving a signal/sound and returning a shot; not all examinations or passive suffering.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q037",
+      "pair": [
+        "拾う",
+        "歩く"
+      ],
+      "metadataOwner": "words/拾う.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "подбирать; собирать",
+      "rightActualBoundCaption": "ходить пешком",
+      "directWholeEntryIds": [
+        "1332570",
+        "1514320"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent go-on-foot/walk sense of 拾う; not derived from bending to pick up.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q038",
+      "pair": [
+        "拾う",
+        "呼ぶ"
+      ],
+      "metadataOwner": "words/拾う.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "подбирать; собирать",
+      "rightActualBoundCaption": "звать; вызывать",
+      "directWholeEntryIds": [
+        "1332570",
+        "1266440"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual hailing a taxi versus calling/summoning; not every loud call a pickup.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q039",
+      "pair": [
+        "拾う",
+        "捕まえる"
+      ],
+      "metadataOwner": "words/拾う.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "подбирать; собирать",
+      "rightActualBoundCaption": "ловить; захватывать",
+      "directWholeEntryIds": [
+        "1332570",
+        "1597780"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual taxi hailing/stopping senses of both; not ball catching inferred from English catch.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q040",
+      "pair": [
+        "拾う",
+        "連れる"
+      ],
+      "metadataOwner": "words/拾う.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "подбирать; собирать",
+      "rightActualBoundCaption": "брать кого-либо с собой",
+      "directWholeEntryIds": [
+        "1332570",
+        "1559290"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual picking up a person by car versus taking someone along; method and companion roles not universal.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q041",
+      "pair": [
+        "拾う",
+        "迎える"
+      ],
+      "metadataOwner": "words/拾う.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "подбирать; собирать",
+      "rightActualBoundCaption": "встречать; приветствовать",
+      "directWholeEntryIds": [
+        "1332570",
+        "1253190"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual person pickup versus going out to receive someone; no necessary car or prior invitation.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q042",
+      "pair": [
+        "拾う",
+        "返す"
+      ],
+      "metadataOwner": "words/拾う.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "подбирать; собирать",
+      "rightActualBoundCaption": "возвращать что-либо",
+      "directWholeEntryIds": [
+        "1332570",
+        "1512130"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit return of a difficult sporting shot; not all repayment or returning possessions.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q043",
+      "pair": [
+        "拾う",
+        "発見"
+      ],
+      "metadataOwner": "words/拾う.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "подбирать; собирать",
+      "rightActualBoundCaption": "открытие; обнаружение",
+      "directWholeEntryIds": [
+        "1332570",
+        "1477310"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Finding AND picking up a dropped object versus finding/discovery; not every discovery physical pickup.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q044",
+      "pair": [
+        "捕まえる",
+        "持つ"
+      ],
+      "metadataOwner": "words/捕まえる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ловить; захватывать",
+      "rightActualBoundCaption": "держать; иметь; нести",
+      "directWholeEntryIds": [
+        "1597780",
+        "1315720"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual grab/clutch/hold-on-to sense versus holding; not every possession an arrest.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q045",
+      "pair": [
+        "捕まえる",
+        "取る"
+      ],
+      "metadataOwner": "words/捕まえる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ловить; захватывать",
+      "rightActualBoundCaption": "брать; подбирать",
+      "directWholeEntryIds": [
+        "1597780",
+        "1326980"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual grasp/seize/capture versus taking; not every taking an arrest.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q046",
+      "pair": [
+        "捕まえる",
+        "止める"
+      ],
+      "metadataOwner": "words/捕まえる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ловить; захватывать",
+      "rightActualBoundCaption": "останавливать; прекращать",
+      "directWholeEntryIds": [
+        "1597780",
+        "1310670"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual stop/detain a person or taxi; not all stopping catching.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q047",
+      "pair": [
+        "捕まえる",
+        "呼ぶ"
+      ],
+      "metadataOwner": "words/捕まえる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ловить; захватывать",
+      "rightActualBoundCaption": "звать; вызывать",
+      "directWholeEntryIds": [
+        "1597780",
+        "1266440"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual taxi/waiter hailing; not every calling someone's name capturing them.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q048",
+      "pair": [
+        "捕まえる",
+        "釣る"
+      ],
+      "metadataOwner": "words/捕まえる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ловить; захватывать",
+      "rightActualBoundCaption": "ловить рыбу; удить",
+      "directWholeEntryIds": [
+        "1597780",
+        "1434120"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Catching a fish by angling versus general capture; hook/method qualifier retained.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q049",
+      "pair": [
+        "探す",
+        "尋ねる"
+      ],
+      "metadataOwner": "words/探す.md",
+      "authorProposedQualifiedCategory": "D",
+      "leftActualProposedCaption": "искать",
+      "rightActualBoundCaption": "спрашивать; расспрашивать",
+      "directWholeEntryIds": [
+        "1593670",
+        "1369940"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Whole 尋ねる explicitly has search/look-for/investigate sense, not inherited through 訪ねる homophony.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q050",
+      "pair": [
+        "探す",
+        "調べる"
+      ],
+      "metadataOwner": "words/探す.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "искать",
+      "rightActualBoundCaption": "исследовать; проверять",
+      "directWholeEntryIds": [
+        "1593670",
+        "1429060"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual searching through/looking into something versus investigating; not every measurement searching for an item.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q051",
+      "pair": [
+        "探す",
+        "引く"
+      ],
+      "metadataOwner": "words/探す.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "искать",
+      "rightActualBoundCaption": "тянуть",
+      "directWholeEntryIds": [
+        "1593670",
+        "1169250"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent dictionary/reference lookup sense of 引く versus seeking an entry; not literal pulling.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q052",
+      "pair": [
+        "見つける",
+        "ご存じ"
+      ],
+      "metadataOwner": "words/見つける.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "находить; обнаруживать",
+      "rightActualBoundCaption": "знать; быть знакомым (уважительно)",
+      "directWholeEntryIds": [
+        "1604570",
+        "1593570"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Attested visual familiarity versus knowledge/acquaintance; no intimacy or ご存じする construction inferred.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q053",
+      "pair": [
+        "盗む",
+        "取る"
+      ],
+      "metadataOwner": "words/盗む.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "красть; воровать",
+      "rightActualBoundCaption": "брать; подбирать",
+      "directWholeEntryIds": [
+        "1448440",
+        "1326980"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Taking without permission versus taking; not all taking theft.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q054",
+      "pair": [
+        "盗む",
+        "泥棒"
+      ],
+      "metadataOwner": "words/盗む.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "красть; воровать",
+      "rightActualBoundCaption": "вор",
+      "directWholeEntryIds": [
+        "1448440",
+        "1599340"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Whole 泥棒 independently has theft action noun/する; the thief actor alone is NOT the justification.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q055",
+      "pair": [
+        "盗む",
+        "コピー"
+      ],
+      "metadataOwner": "words/盗む.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "красть; воровать",
+      "rightActualBoundCaption": "копия; копировать",
+      "directWholeEntryIds": [
+        "1448440",
+        "1050590"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit plagiarism/technique-taking versus copying; not all copies stolen.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q056",
+      "pair": [
+        "盗む",
+        "習う"
+      ],
+      "metadataOwner": "words/盗む.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "красть; воровать",
+      "rightActualBoundCaption": "учиться у преподавателя",
+      "directWholeEntryIds": [
+        "1448440",
+        "1333070"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual watch-and-learn/acquire-technique sense versus learning a skill; not every instruction theft.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q057",
+      "pair": [
+        "盗む",
+        "覚える"
+      ],
+      "metadataOwner": "words/盗む.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "красть; воровать",
+      "rightActualBoundCaption": "запоминать; помнить",
+      "directWholeEntryIds": [
+        "1448440",
+        "1206050"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual learning/acquiring a technique versus learning/acquiring a skill; not all remembering theft.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q058",
+      "pair": [
+        "植える",
+        "育てる"
+      ],
+      "metadataOwner": "words/植える.md",
+      "authorProposedQualifiedCategory": "D",
+      "leftActualProposedCaption": "сажать растения",
+      "rightActualBoundCaption": "растить; воспитывать",
+      "directWholeEntryIds": [
+        "1357250",
+        "1160570"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual planting/growing/raising plants, independently present in both whole entries; not raising a child planting.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q059",
+      "pair": [
+        "植える",
+        "作る"
+      ],
+      "metadataOwner": "words/植える.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "сажать растения",
+      "rightActualBoundCaption": "делать; готовить",
+      "directWholeEntryIds": [
+        "1357250",
+        "1597890"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual growing/raising crops versus growing/producing; not all manufacturing planting.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q060",
+      "pair": [
+        "植える",
+        "立てる"
+      ],
+      "metadataOwner": "words/植える.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "сажать растения",
+      "rightActualBoundCaption": "ставить вертикально; поднимать",
+      "directWholeEntryIds": [
+        "1357250",
+        "1551530"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual planting/setting in position versus upright planting/erecting; not all plant growth erecting a house.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q061",
+      "pair": [
+        "植える",
+        "入れる"
+      ],
+      "metadataOwner": "words/植える.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "сажать растения",
+      "rightActualBoundCaption": "помещать внутрь",
+      "directWholeEntryIds": [
+        "1357250",
+        "1465610"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual insertion/transplant/implant sense versus putting in; not all containment planting.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q062",
+      "pair": [
+        "植える",
+        "教える"
+      ],
+      "metadataOwner": "words/植える.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "сажать растения",
+      "rightActualBoundCaption": "обучать; сообщать",
+      "directWholeEntryIds": [
+        "1357250",
+        "1236900"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit instil/inculcate ideas/values versus teaching; not all reporting facts implanting.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q063",
+      "pair": [
+        "植える",
+        "教育"
+      ],
+      "metadataOwner": "words/植える.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "сажать растения",
+      "rightActualBoundCaption": "образование; обучение",
+      "directWholeEntryIds": [
+        "1357250",
+        "1236950"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit inculcating ideas/values versus education noun/する; not all education literal planting.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q064",
+      "pair": [
+        "育てる",
+        "教える"
+      ],
+      "metadataOwner": "words/育てる.md",
+      "authorProposedQualifiedCategory": "D",
+      "leftActualProposedCaption": "растить; воспитывать",
+      "rightActualBoundCaption": "обучать; сообщать",
+      "directWholeEntryIds": [
+        "1160570",
+        "1236900"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual train/teach/educate sense of 育てる; not all upbringing a single explanation.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q065",
+      "pair": [
+        "育てる",
+        "教育"
+      ],
+      "metadataOwner": "words/育てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "растить; воспитывать",
+      "rightActualBoundCaption": "образование; обучение",
+      "directWholeEntryIds": [
+        "1160570",
+        "1236950"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual education/training versus education noun/する; child-raising and institutional education not coextensive.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q066",
+      "pair": [
+        "育てる",
+        "作る"
+      ],
+      "metadataOwner": "words/育てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "растить; воспитывать",
+      "rightActualBoundCaption": "делать; готовить",
+      "directWholeEntryIds": [
+        "1160570",
+        "1597890"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual growing/nurturing plants versus producing/growing crops; not all creation upbringing.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q067",
+      "pair": [
+        "育てる",
+        "世話"
+      ],
+      "metadataOwner": "words/育てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "растить; воспитывать",
+      "rightActualBoundCaption": "забота; помощь",
+      "directWholeEntryIds": [
+        "1160570",
+        "1374300"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Nurturing/rearing versus care/help noun/する; not every favor sustained upbringing.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q068",
+      "pair": [
+        "立てる",
+        "立つ"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "стоять; вставать",
+      "directWholeEntryIds": [
+        "1551530",
+        "1597040"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Putting upright versus standing/rising; transitive cause and intransitive state remain different.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q069",
+      "pair": [
+        "立てる",
+        "上げる"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "поднимать; давать",
+      "directWholeEntryIds": [
+        "1551530",
+        "1352320"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual raising/erecting an object; not every height increase setting something vertical.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q070",
+      "pair": [
+        "立てる",
+        "起す"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "D",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "будить",
+      "directWholeEntryIds": [
+        "1551530",
+        "1223660"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Whole 起こす/起す independently includes raising/setting upright, not just waking.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q071",
+      "pair": [
+        "立てる",
+        "置く"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "класть; ставить",
+      "directWholeEntryIds": [
+        "1551530",
+        "1421850"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual placing an object upright versus placing/setting; no vertical orientation in every 置く.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q072",
+      "pair": [
+        "立てる",
+        "入れる"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "помещать внутрь",
+      "directWholeEntryIds": [
+        "1551530",
+        "1465610"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual thrusting into a hole/position versus putting in; not all insertion erecting.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q073",
+      "pair": [
+        "立てる",
+        "作る"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "делать; готовить",
+      "directWholeEntryIds": [
+        "1551530",
+        "1597890"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual making/formulating a plan, founding or preparation sense; not every manufactured object upright.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q074",
+      "pair": [
+        "立てる",
+        "計画"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "план; планирование",
+      "directWholeEntryIds": [
+        "1551530",
+        "1252090"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit formulating plans/goals versus plan noun/する; not inferred from a kanji component.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q075",
+      "pair": [
+        "立てる",
+        "決める"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "решать; определять",
+      "directWholeEntryIds": [
+        "1551530",
+        "1254180"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Setting/formulating a goal or plan versus determining it; not every decision erecting.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q076",
+      "pair": [
+        "立てる",
+        "沸かす"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "кипятить; нагревать жидкость",
+      "directWholeEntryIds": [
+        "1551530",
+        "1501660"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit heating water/preparing a bath; not all generic getting-ready or boiling every liquid.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q077",
+      "pair": [
+        "立てる",
+        "開く"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "открываться",
+      "directWholeEntryIds": [
+        "1551530",
+        "1586270"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit opening/establishing a market or store; not all books or public meetings erecting.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q078",
+      "pair": [
+        "立てる",
+        "開ける"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "открывать",
+      "directWholeEntryIds": [
+        "1551530",
+        "1202450"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit opening/establishing a shop; not all mechanical door opening the same action.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q079",
+      "pair": [
+        "立てる",
+        "閉める"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "закрывать",
+      "directWholeEntryIds": [
+        "1551530",
+        "1508590"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit closing a sliding door, occasionally 閉てる spelling; ordinary necessity/frequency UNVERIFIED.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q080",
+      "pair": [
+        "立てる",
+        "送る"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "отправлять; провожать",
+      "directWholeEntryIds": [
+        "1551530",
+        "1402730"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit sending a messenger; not every parcel dispatch an upright placement.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q081",
+      "pair": [
+        "立てる",
+        "言う"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "говорить; сказать",
+      "directWholeEntryIds": [
+        "1551530",
+        "1587040"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit uttering a vow; not all speech or fixed emotion expressions lifted.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q082",
+      "pair": [
+        "立てる",
+        "祈る"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "молиться; желать хорошего исхода",
+      "directWholeEntryIds": [
+        "1551530",
+        "1222770"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit making a wish/prayer; not all raising or a phrase component converted into prayer.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q083",
+      "pair": [
+        "立てる",
+        "建設"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "строительство; создание",
+      "directWholeEntryIds": [
+        "1551530",
+        "1257420"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual establishing/founding versus establishment/creation noun/する; NOT general 建てる house-building.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q084",
+      "pair": [
+        "立てる",
+        "生活"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "повседневная жизнь; быт",
+      "directWholeEntryIds": [
+        "1551530",
+        "1378860"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit making/earning one's living versus livelihood/living; not all daily routines upright.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q085",
+      "pair": [
+        "立てる",
+        "騒ぐ"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "шуметь; волноваться",
+      "directWholeEntryIds": [
+        "1551530",
+        "1403040"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit producing noise versus making noise; not all commotion a structure erected.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q086",
+      "pair": [
+        "立てる",
+        "鳴る"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "звенеть; звучать",
+      "directWholeEntryIds": [
+        "1551530",
+        "1532910"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit producing sound versus sounding; transitive cause/result patterns remain.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q087",
+      "pair": [
+        "立てる",
+        "行う"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "выполнять; проводить",
+      "directWholeEntryIds": [
+        "1551530",
+        "1589060"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit performing a rite/ritual versus carrying out/conducting; not every ordinary action upright.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q088",
+      "pair": [
+        "立てる",
+        "する"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "делать; выполнять",
+      "directWholeEntryIds": [
+        "1551530",
+        "1157170"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual ritual/performance or making a plan; not all generic doing equivalent.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q089",
+      "pair": [
+        "立てる",
+        "やる"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "делать; выполнять (разговорно)",
+      "directWholeEntryIds": [
+        "1551530",
+        "1012980"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual ritual/performance versus colloquial doing; not other やる homographs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q090",
+      "pair": [
+        "立てる",
+        "なさる"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "делать (уважительно)",
+      "directWholeEntryIds": [
+        "1551530",
+        "1157090"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual ritual/performance versus respectful doing; lexical protection, not honorific grammar equivalence.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q091",
+      "pair": [
+        "立てる",
+        "致す"
+      ],
+      "metadataOwner": "words/立てる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "ставить вертикально; поднимать",
+      "rightActualBoundCaption": "делать (скромно)",
+      "directWholeEntryIds": [
+        "1551530",
+        "1421900"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual ritual/performance versus humble doing; lexical protection, not grammatical interchangeability.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q092",
+      "pair": [
+        "噛む",
+        "合う"
+      ],
+      "metadataOwner": "words/噛む.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "кусать; жевать",
+      "rightActualBoundCaption": "подходить; совпадать",
+      "directWholeEntryIds": [
+        "1209240",
+        "1284430"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit gear/zipper engagement/fit versus fitting together; not chewing equated with generic matching.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q093",
+      "pair": [
+        "踏む",
+        "押す"
+      ],
+      "metadataOwner": "words/踏む.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "наступать; ступать",
+      "rightActualBoundCaption": "толкать; нажимать",
+      "directWholeEntryIds": [
+        "1450270",
+        "1180470"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual treading/pressing with a foot versus pressing; foot/method restriction retained.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q094",
+      "pair": [
+        "踏む",
+        "立つ"
+      ],
+      "metadataOwner": "words/踏む.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "наступать; ступать",
+      "rightActualBoundCaption": "стоять; вставать",
+      "directWholeEntryIds": [
+        "1450270",
+        "1597040"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual setting foot/standing on a place; state/action and argument patterns not identical.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q095",
+      "pair": [
+        "踏む",
+        "訪ねる"
+      ],
+      "metadataOwner": "words/踏む.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "наступать; ступать",
+      "rightActualBoundCaption": "навещать; посещать",
+      "directWholeEntryIds": [
+        "1450270",
+        "1518070"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit setting foot in/visiting a place; not all visits to people treading on them.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q096",
+      "pair": [
+        "踏む",
+        "経験"
+      ],
+      "metadataOwner": "words/踏む.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "наступать; ступать",
+      "rightActualBoundCaption": "опыт",
+      "directWholeEntryIds": [
+        "1450270",
+        "1251270"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit undergoing/experiencing versus experience noun/する; no compound-character lifting.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q097",
+      "pair": [
+        "踏む",
+        "受ける"
+      ],
+      "metadataOwner": "words/踏む.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "наступать; ступать",
+      "rightActualBoundCaption": "получать; подвергаться",
+      "directWholeEntryIds": [
+        "1450270",
+        "1329590"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit undergoing experience versus undergoing/receiving; not all examinations or acceptance identical.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q098",
+      "pair": [
+        "踏む",
+        "思う"
+      ],
+      "metadataOwner": "words/踏む.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "наступать; ступать",
+      "rightActualBoundCaption": "думать; полагать; чувствовать",
+      "directWholeEntryIds": [
+        "1450270",
+        "1589350"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit estimating/guessing/judging versus thinking a proposition; not all thoughts treading.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q099",
+      "pair": [
+        "踏む",
+        "考える"
+      ],
+      "metadataOwner": "words/踏む.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "наступать; ступать",
+      "rightActualBoundCaption": "думать; обдумывать",
+      "directWholeEntryIds": [
+        "1450270",
+        "1281020"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit estimating/judging versus considering; not every deliberation a foot movement.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q100",
+      "pair": [
+        "踏む",
+        "見る"
+      ],
+      "metadataOwner": "words/踏む.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "наступать; ступать",
+      "rightActualBoundCaption": "видеть; смотреть",
+      "directWholeEntryIds": [
+        "1450270",
+        "1259290"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Both whole entries independently include experiencing/meeting with circumstances; NOT auxiliary ～てみる.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q101",
+      "pair": [
+        "踏む",
+        "終わる"
+      ],
+      "metadataOwner": "words/踏む.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "наступать; ступать",
+      "rightActualBoundCaption": "заканчиваться; заканчивать",
+      "directWholeEntryIds": [
+        "1450270",
+        "1589600"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit completing/going through formalities versus finishing; not a suffix completion lifted.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q102",
+      "pair": [
+        "踏む",
+        "行う"
+      ],
+      "metadataOwner": "words/踏む.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "наступать; ступать",
+      "rightActualBoundCaption": "выполнять; проводить",
+      "directWholeEntryIds": [
+        "1450270",
+        "1589060"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit going through formalities/procedures versus carrying out; not every task a literal step.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q103",
+      "pair": [
+        "足す",
+        "付ける"
+      ],
+      "metadataOwner": "words/足す.md",
+      "authorProposedQualifiedCategory": "D",
+      "leftActualProposedCaption": "прибавлять; добавлять",
+      "rightActualBoundCaption": "прикреплять; добавлять",
+      "directWholeEntryIds": [
+        "1404700",
+        "1495770"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual adding/topping up versus adding; not all attaching arithmetic.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q104",
+      "pair": [
+        "足す",
+        "入れる"
+      ],
+      "metadataOwner": "words/足す.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "прибавлять; добавлять",
+      "rightActualBoundCaption": "помещать внутрь",
+      "directWholeEntryIds": [
+        "1404700",
+        "1465610"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual topping up/adding an ingredient versus putting in; not all containment addition.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q105",
+      "pair": [
+        "足す",
+        "上げる"
+      ],
+      "metadataOwner": "words/足す.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "прибавлять; добавлять",
+      "rightActualBoundCaption": "поднимать; давать",
+      "directWholeEntryIds": [
+        "1404700",
+        "1352320"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual quantity addition/raising an amount; not every movement up arithmetic.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q106",
+      "pair": [
+        "足す",
+        "増える"
+      ],
+      "metadataOwner": "words/足す.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "прибавлять; добавлять",
+      "rightActualBoundCaption": "увеличиваться",
+      "directWholeEntryIds": [
+        "1404700",
+        "1602440"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Addition versus an amount increasing; transitive operation and intransitive result remain different.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q107",
+      "pair": [
+        "足す",
+        "締める"
+      ],
+      "metadataOwner": "words/足す.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "прибавлять; добавлять",
+      "rightActualBoundCaption": "затягивать; застёгивать",
+      "directWholeEntryIds": [
+        "1404700",
+        "1436570"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Whole 締める independently includes numeric totaling/summing; not belts, 別閉める or all tightening.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q108",
+      "pair": [
+        "選ぶ",
+        "取る"
+      ],
+      "metadataOwner": "words/選ぶ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "выбирать",
+      "rightActualBoundCaption": "брать; подбирать",
+      "directWholeEntryIds": [
+        "1588730",
+        "1326980"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Choosing/picking out versus taking/selecting an option; not every removal a choice.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q109",
+      "pair": [
+        "選ぶ",
+        "決める"
+      ],
+      "metadataOwner": "words/選ぶ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "выбирать",
+      "rightActualBoundCaption": "решать; определять",
+      "directWholeEntryIds": [
+        "1588730",
+        "1254180"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Choosing versus deciding on an option; not every determination a selection from alternatives.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q110",
+      "pair": [
+        "間違える",
+        "違う"
+      ],
+      "metadataOwner": "words/間違える.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "делать ошибку; путать",
+      "rightActualBoundCaption": "отличаться; быть неверным",
+      "directWholeEntryIds": [
+        "1215330",
+        "1158880"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Making an error versus being mistaken/wrong; event/state valency differs, not merely being different.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q111",
+      "pair": [
+        "行う",
+        "する"
+      ],
+      "metadataOwner": "words/行う.md",
+      "authorProposedQualifiedCategory": "D",
+      "leftActualProposedCaption": "выполнять; проводить",
+      "rightActualBoundCaption": "делать; выполнять",
+      "directWholeEntryIds": [
+        "1589060",
+        "1157170"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual doing/performing/carrying out; style and collocations remain.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q112",
+      "pair": [
+        "行う",
+        "やる"
+      ],
+      "metadataOwner": "words/行う.md",
+      "authorProposedQualifiedCategory": "D",
+      "leftActualProposedCaption": "выполнять; проводить",
+      "rightActualBoundCaption": "делать; выполнять (разговорно)",
+      "directWholeEntryIds": [
+        "1589060",
+        "1012980"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual doing/carrying out versus colloquial doing; not every やる homograph.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q113",
+      "pair": [
+        "行う",
+        "なさる"
+      ],
+      "metadataOwner": "words/行う.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "выполнять; проводить",
+      "rightActualBoundCaption": "делать (уважительно)",
+      "directWholeEntryIds": [
+        "1589060",
+        "1157090"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual performing versus respectful doing; register not interchangeable.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q114",
+      "pair": [
+        "行う",
+        "致す"
+      ],
+      "metadataOwner": "words/行う.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "выполнять; проводить",
+      "rightActualBoundCaption": "делать (скромно)",
+      "directWholeEntryIds": [
+        "1589060",
+        "1421900"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual performing versus humble doing; no transfer of humble construction to 行う.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q115",
+      "pair": [
+        "行う",
+        "開く"
+      ],
+      "metadataOwner": "words/行う.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "выполнять; проводить",
+      "rightActualBoundCaption": "открываться",
+      "directWholeEntryIds": [
+        "1589060",
+        "1586270"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual conducting/holding an event; not every opening a box conducting a ceremony.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q116",
+      "pair": [
+        "行う",
+        "運ぶ"
+      ],
+      "metadataOwner": "words/行う.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "выполнять; проводить",
+      "rightActualBoundCaption": "нести; перевозить",
+      "directWholeEntryIds": [
+        "1589060",
+        "1172660"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Whole 運ぶ independently includes carrying out/proceeding with/arranging; not physical transport alone.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q117",
+      "pair": [
+        "利用",
+        "使う"
+      ],
+      "metadataOwner": "words/利用.md",
+      "authorProposedQualifiedCategory": "D",
+      "leftActualProposedCaption": "использование; пользоваться",
+      "rightActualBoundCaption": "использовать; тратить",
+      "directWholeEntryIds": [
+        "1549660",
+        "1305990"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual use/utilization of a resource; no claim that useful automatically means utilized.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q118",
+      "pair": [
+        "発見",
+        "気付く"
+      ],
+      "metadataOwner": "words/発見.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "открытие; обнаружение",
+      "rightActualBoundCaption": "замечать; осознавать",
+      "directWholeEntryIds": [
+        "1477310",
+        "1591330"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Discovery/detection versus noticing/becoming aware; noun/する and intransitive grammar differ.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q119",
+      "pair": [
+        "発見",
+        "知る"
+      ],
+      "metadataOwner": "words/発見.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "открытие; обнаружение",
+      "rightActualBoundCaption": "знать; узнавать",
+      "directWholeEntryIds": [
+        "1477310",
+        "1420470"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Discovering/learning a fact; not all standing knowledge a new discovery.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q120",
+      "pair": [
+        "発見",
+        "分かる"
+      ],
+      "metadataOwner": "words/発見.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "открытие; обнаружение",
+      "rightActualBoundCaption": "понимать",
+      "directWholeEntryIds": [
+        "1477310",
+        "1606560"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Finding out/discovering information versus realizing/understanding; not every comprehension discovery.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q121",
+      "pair": [
+        "発見",
+        "出会う"
+      ],
+      "metadataOwner": "words/発見.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "открытие; обнаружение",
+      "rightActualBoundCaption": "случайно встречать; сталкиваться",
+      "directWholeEntryIds": [
+        "1477310",
+        "1598530"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual finding/coming across something; not every personal encounter a scientific discovery.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q122",
+      "pair": [
+        "気付く",
+        "知る"
+      ],
+      "metadataOwner": "words/気付く.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "замечать; осознавать",
+      "rightActualBoundCaption": "знать; узнавать",
+      "directWholeEntryIds": [
+        "1591330",
+        "1420470"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Becoming aware/realizing versus coming to know; not every enduring knowledge a new notice.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q123",
+      "pair": [
+        "気付く",
+        "分かる"
+      ],
+      "metadataOwner": "words/気付く.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "замечать; осознавать",
+      "rightActualBoundCaption": "понимать",
+      "directWholeEntryIds": [
+        "1591330",
+        "1606560"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual noticing/realizing versus realizing/understanding; no claim that all noticing comprehension.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q124",
+      "pair": [
+        "気付く",
+        "理解"
+      ],
+      "metadataOwner": "words/気付く.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "замечать; осознавать",
+      "rightActualBoundCaption": "понимание",
+      "directWholeEntryIds": [
+        "1591330",
+        "1549910"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual realizing versus understanding noun/する; not all sensory noticing conceptual understanding.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q125",
+      "pair": [
+        "気付く",
+        "承知"
+      ],
+      "metadataOwner": "words/気付く.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "замечать; осознавать",
+      "rightActualBoundCaption": "осведомлённость; согласие",
+      "directWholeEntryIds": [
+        "1591330",
+        "1349480"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Becoming aware versus knowledge/awareness; not agreement, permission or forgiving inferred.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q126",
+      "pair": [
+        "気付く",
+        "ご存じ"
+      ],
+      "metadataOwner": "words/気付く.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "замечать; осознавать",
+      "rightActualBoundCaption": "знать; быть знакомым (уважительно)",
+      "directWholeEntryIds": [
+        "1591330",
+        "1593570"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Awareness/knowledge lexical overlap; state/event and honorific noun construction remain distinct.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q127",
+      "pair": [
+        "気付く",
+        "見る"
+      ],
+      "metadataOwner": "words/気付く.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "замечать; осознавать",
+      "rightActualBoundCaption": "видеть; смотреть",
+      "directWholeEntryIds": [
+        "1591330",
+        "1259290"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Visual noticing an error/object can be seeing it; not every noticing visual or mere looking.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q128",
+      "pair": [
+        "気付く",
+        "ごらんになる"
+      ],
+      "metadataOwner": "words/気付く.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "замечать; осознавать",
+      "rightActualBoundCaption": "видеть; смотреть (уважительно)",
+      "directWholeEntryIds": [
+        "1591330",
+        "2217040"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Visual noticing versus respectful seeing caption; no universal register equivalence.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q129",
+      "pair": [
+        "気付く",
+        "拝見"
+      ],
+      "metadataOwner": "words/気付く.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "замечать; осознавать",
+      "rightActualBoundCaption": "просмотр (скромная форма)",
+      "directWholeEntryIds": [
+        "1591330",
+        "1472270"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Visual noticing versus humble looking noun/する; not a humble inflection of 気付く.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q130",
+      "pair": [
+        "気付く",
+        "見える"
+      ],
+      "metadataOwner": "words/気付く.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "замечать; осознавать",
+      "rightActualBoundCaption": "быть видимым; виднеться",
+      "directWholeEntryIds": [
+        "1591330",
+        "1259140"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Visual perception/notice versus being visible; observer/visible-object roles remain distinct.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q131",
+      "pair": [
+        "気付く",
+        "起きる"
+      ],
+      "metadataOwner": "words/気付く.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "замечать; осознавать",
+      "rightActualBoundCaption": "просыпаться; вставать",
+      "directWholeEntryIds": [
+        "1591330",
+        "1223640"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Standalone recovery-of-consciousness sense versus waking/being awake; not all ordinary noticing awakening.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q132",
+      "pair": [
+        "現れる",
+        "見える"
+      ],
+      "metadataOwner": "words/現れる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "появляться; проявляться",
+      "rightActualBoundCaption": "быть видимым; виднеться",
+      "directWholeEntryIds": [
+        "1263510",
+        "1259140"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Becoming visible/apparent versus being visible; appearance event and visual state not identical.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q133",
+      "pair": [
+        "現れる",
+        "現れ"
+      ],
+      "metadataOwner": "words/現れる.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "появляться; проявляться",
+      "rightActualBoundCaption": "проявление; выражение",
+      "directWholeEntryIds": [
+        "1263510",
+        "1610550"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual manifestation/appearance versus its independent noun; not an invented ます-stem noun.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q134",
+      "pair": [
+        "出会う",
+        "迎える"
+      ],
+      "metadataOwner": "words/出会う.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "случайно встречать; сталкиваться",
+      "rightActualBoundCaption": "встречать; приветствовать",
+      "directWholeEntryIds": [
+        "1598530",
+        "1253190"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual Russian встречать collision in personal meeting/receiving context; chance encounter not always welcome.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q135",
+      "pair": [
+        "出会う",
+        "合う"
+      ],
+      "metadataOwner": "words/出会う.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "случайно встречать; сталкиваться",
+      "rightActualBoundCaption": "подходить; совпадать",
+      "directWholeEntryIds": [
+        "1598530",
+        "1284430"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit meeting of rivers/highways versus coming together/meeting; not 合う substituted for every personal 会う.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q136",
+      "pair": [
+        "出会う",
+        "見る"
+      ],
+      "metadataOwner": "words/出会う.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "случайно встречать; сталкиваться",
+      "rightActualBoundCaption": "видеть; смотреть",
+      "directWholeEntryIds": [
+        "1598530",
+        "1259290"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual encountering circumstances versus standalone experiencing/meeting with fortune; NOT auxiliary ～てみる.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q137",
+      "pair": [
+        "親しい",
+        "慣れる"
+      ],
+      "metadataOwner": "words/親しい.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "близкий; хорошо знакомый",
+      "rightActualBoundCaption": "привыкать",
+      "directWholeEntryIds": [
+        "1365050",
+        "1212670"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual familiar/well-known versus becoming familiar/accustomed; not all habit emotional intimacy.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q138",
+      "pair": [
+        "親しい",
+        "知る"
+      ],
+      "metadataOwner": "words/親しい.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "близкий; хорошо знакомый",
+      "rightActualBoundCaption": "знать; узнавать",
+      "directWholeEntryIds": [
+        "1365050",
+        "1420470"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual familiar/well-known versus knowing; not every known person emotionally close.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q139",
+      "pair": [
+        "親しい",
+        "ご存じ"
+      ],
+      "metadataOwner": "words/親しい.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "близкий; хорошо знакомый",
+      "rightActualBoundCaption": "знать; быть знакомым (уважительно)",
+      "directWholeEntryIds": [
+        "1365050",
+        "1593570"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual familiarity versus knowledge/acquaintance; acquaintance alone does not entail intimacy.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q140",
+      "pair": [
+        "打つ",
+        "スピーチ"
+      ],
+      "metadataOwner": "words/打つ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бить; ударять",
+      "rightActualBoundCaption": "выступление перед слушателями",
+      "directWholeEntryIds": [
+        "1408810",
+        "1072260",
+        "1408815"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Separate ぶつ entry explicitly includes making a speech/address; not every うつ sense transferred to ぶつ.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q141",
+      "pair": [
+        "打つ",
+        "演説"
+      ],
+      "metadataOwner": "words/打つ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бить; ударять",
+      "rightActualBoundCaption": "публичная речь; выступление",
+      "directWholeEntryIds": [
+        "1408810",
+        "1176960",
+        "1408815"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Separate ぶつ entry explicitly includes making a speech/address; not every うつ sense transferred to ぶつ.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q142",
+      "pair": [
+        "打つ",
+        "言う"
+      ],
+      "metadataOwner": "words/打つ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бить; ударять",
+      "rightActualBoundCaption": "говорить; сказать",
+      "directWholeEntryIds": [
+        "1408810",
+        "1587040",
+        "1408815"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Separate ぶつ entry explicitly includes making a speech/address; not every うつ sense transferred to ぶつ.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q143",
+      "pair": [
+        "打つ",
+        "話す"
+      ],
+      "metadataOwner": "words/打つ.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "бить; ударять",
+      "rightActualBoundCaption": "говорить; разговаривать",
+      "directWholeEntryIds": [
+        "1408810",
+        "1562350",
+        "1408815"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Separate ぶつ entry explicitly includes making a speech/address; not every うつ sense transferred to ぶつ.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q144",
+      "pair": [
+        "親しい",
+        "親"
+      ],
+      "metadataOwner": "words/親しい.md",
+      "authorProposedQualifiedCategory": "K",
+      "leftActualProposedCaption": "близкий; хорошо знакомый",
+      "rightActualBoundCaption": "родитель; родители",
+      "directWholeEntryIds": [
+        "1365050",
+        "1365040",
+        "2256340"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Separate standalone 親/しん noun explicitly means intimacy/closeness/friendliness; NOT parent おや or pro- prefix.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    }
+  ],
+  "proposedWithdrawnSourceGuardDeclarations": [],
+  "meaningfulRejectedComparisons": [
+    {
+      "comparison": "盗む–すり",
+      "disposition": "NO_PAIR",
+      "reason": "すり is a pickpocket actor noun, not the action steal; contrast with independently attested 泥棒 theft action."
+    },
+    {
+      "comparison": "親しい–親/おや or 親戚/友達",
+      "disposition": "NO_ACTOR_CLASS_PAIR",
+      "reason": "Parent/relative/friend membership does not itself mean intimacy; adopted 親 judgment ONLY standalone しん intimacy."
+    },
+    {
+      "comparison": "噛む–食べる",
+      "disposition": "NO_PAIR",
+      "reason": "Chewing/biting is not automatically ingestion; no independent Japanese eat sense claimed."
+    },
+    {
+      "comparison": "植える–注射",
+      "disposition": "NO_PAIR",
+      "reason": "Plant inoculation/infection is not necessarily a needle injection; do not merge techniques from English inoculate."
+    },
+    {
+      "comparison": "打つ/立てる–準備/支度/用意",
+      "disposition": "NO_GENERIC_PREPARATION_PAIR",
+      "reason": "Noodle-making, bath heating and tea preparation are exact lexical senses; generic getting-ready is not automatically the same predicate."
+    },
+    {
+      "comparison": "立てる–建てる",
+      "disposition": "NO_HOUSE_BUILDING_EQUIVALENCE",
+      "reason": "Upright placement/founding is not general house construction inferred from English erect; 建設 proposal ONLY establishment/creation."
+    },
+    {
+      "comparison": "打つ–勝つ",
+      "disposition": "NO_PAIR",
+      "reason": "English beat for victory does not make Japanese 勝つ physical hitting; distinct from 拾う unexpected victory."
+    },
+    {
+      "comparison": "打つ/立てる–貼る",
+      "disposition": "NO_SLAP_OR_TENT_PAIR",
+      "reason": "Do not spread all 張る meanings freely to preferred 貼る spelling or lift 頬を張る; 塗る–貼る proposal ONLY wallpaper attachment."
+    },
+    {
+      "comparison": "足す–利用/する/用事",
+      "disposition": "NO_PHRASE_LIFT",
+      "reason": "用を足す cross-reference does not make bare 足す generic using, doing or sufficiency."
+    },
+    {
+      "comparison": "立てる restricted senses",
+      "disposition": "NO_COMPONENT_OR_SUFFIX_LIFT",
+      "reason": "No guards from 顔を立てる, 聞き耳, 腹を立てる, reputation compounds or vigorous-doing suffix."
+    },
+    {
+      "comparison": "写す–習う;盗む–見る",
+      "disposition": "NO_COMPONENT_LIFT",
+      "reason": "Imitating is not every learning event; watch-and-learn technique sense is not bare looking detached from learning."
+    },
+    {
+      "comparison": "間違える–謝る",
+      "disposition": "NO_HOMOPHONE_LIFT",
+      "reason": "誤る error does not transfer to apology 謝る merely through あやまる."
+    },
+    {
+      "comparison": "source-only/unavailable comparisons",
+      "disposition": "NO_RUNTIME_GUARDS",
+      "reason": "No new providers merely from optional navigation; future global uniqueness remains UNVERIFIED."
+    }
+  ],
+  "originalSourceDeclarations": 21,
+  "retainedSourceDeclarations": 21,
+  "additionalAuthorProposals": 144,
+  "totalAuthorProposedPairs": 165,
+  "authorProposedCategoryCounts": {
+    "K": 147,
+    "D": 18
+  },
+  "optionalLinkDispositions": [
+    {
+      "path": "words/写す.md",
+      "label": "写",
+      "sourceTarget": "../kanji/写.md",
+      "resolvedTarget": "kanji/写.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/写す.md",
+      "label": "書く",
+      "sourceTarget": "書く.md",
+      "resolvedTarget": "words/書く.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/写す.md",
+      "label": "写る",
+      "sourceTarget": "写る.md",
+      "resolvedTarget": "words/写る.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/写す.md",
+      "label": "映す",
+      "sourceTarget": "映す.md",
+      "resolvedTarget": "words/映す.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/塗る.md",
+      "label": "塗",
+      "sourceTarget": "../kanji/塗.md",
+      "resolvedTarget": "kanji/塗.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/打つ.md",
+      "label": "打",
+      "sourceTarget": "../kanji/打.md",
+      "resolvedTarget": "kanji/打.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/打つ.md",
+      "label": "叩く",
+      "sourceTarget": "叩く.md",
+      "resolvedTarget": "words/叩く.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/打つ.md",
+      "label": "押す",
+      "sourceTarget": "押す.md",
+      "resolvedTarget": "words/押す.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/打つ.md",
+      "label": "投げる",
+      "sourceTarget": "投げる.md",
+      "resolvedTarget": "words/投げる.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/投げる.md",
+      "label": "投",
+      "sourceTarget": "../kanji/投.md",
+      "resolvedTarget": "kanji/投.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/投げる.md",
+      "label": "打つ",
+      "sourceTarget": "打つ.md",
+      "resolvedTarget": "words/打つ.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/拾う.md",
+      "label": "拾",
+      "sourceTarget": "../kanji/拾.md",
+      "resolvedTarget": "kanji/拾.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/拾う.md",
+      "label": "落とす",
+      "sourceTarget": "落す.md",
+      "resolvedTarget": "words/落す.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/捕まえる.md",
+      "label": "捕",
+      "sourceTarget": "../kanji/捕.md",
+      "resolvedTarget": "kanji/捕.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/探す.md",
+      "label": "探",
+      "sourceTarget": "../kanji/探.md",
+      "resolvedTarget": "kanji/探.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/探す.md",
+      "label": "調べる",
+      "sourceTarget": "調べる.md",
+      "resolvedTarget": "words/調べる.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/見つかる.md",
+      "label": "付",
+      "sourceTarget": "../kanji/付.md",
+      "resolvedTarget": "kanji/付.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/見つかる.md",
+      "label": "見",
+      "sourceTarget": "../kanji/見.md",
+      "resolvedTarget": "kanji/見.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/見つける.md",
+      "label": "見",
+      "sourceTarget": "../kanji/見.md",
+      "resolvedTarget": "kanji/見.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/見つける.md",
+      "label": "付",
+      "sourceTarget": "../kanji/付.md",
+      "resolvedTarget": "kanji/付.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/盗む.md",
+      "label": "盗",
+      "sourceTarget": "../kanji/盗.md",
+      "resolvedTarget": "kanji/盗.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/盗む.md",
+      "label": "取る",
+      "sourceTarget": "取る.md",
+      "resolvedTarget": "words/取る.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/盗む.md",
+      "label": "借りる",
+      "sourceTarget": "借りる.md",
+      "resolvedTarget": "words/借りる.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/植える.md",
+      "label": "植",
+      "sourceTarget": "../kanji/植.md",
+      "resolvedTarget": "kanji/植.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/育てる.md",
+      "label": "育",
+      "sourceTarget": "../kanji/育.md",
+      "resolvedTarget": "kanji/育.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/立てる.md",
+      "label": "立",
+      "sourceTarget": "../kanji/立.md",
+      "resolvedTarget": "kanji/立.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/噛む.md",
+      "label": "かじる",
+      "sourceTarget": "かじる.md",
+      "resolvedTarget": "words/かじる.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/噛む.md",
+      "label": "飲む",
+      "sourceTarget": "飲む.md",
+      "resolvedTarget": "words/飲む.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/足す.md",
+      "label": "足",
+      "sourceTarget": "../kanji/足.md",
+      "resolvedTarget": "kanji/足.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/足す.md",
+      "label": "足りる",
+      "sourceTarget": "足りる.md",
+      "resolvedTarget": "words/足りる.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/選ぶ.md",
+      "label": "選",
+      "sourceTarget": "../kanji/選.md",
+      "resolvedTarget": "kanji/選.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/選ぶ.md",
+      "label": "遊ぶ",
+      "sourceTarget": "遊ぶ.md",
+      "resolvedTarget": "words/遊ぶ.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/選ぶ.md",
+      "label": "決める",
+      "sourceTarget": "決める.md",
+      "resolvedTarget": "words/決める.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/間違える.md",
+      "label": "間",
+      "sourceTarget": "../kanji/間.md",
+      "resolvedTarget": "kanji/間.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/間違える.md",
+      "label": "違",
+      "sourceTarget": "../kanji/違.md",
+      "resolvedTarget": "kanji/違.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/間違える.md",
+      "label": "違う",
+      "sourceTarget": "違う.md",
+      "resolvedTarget": "words/違う.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/行う.md",
+      "label": "行",
+      "sourceTarget": "../kanji/行.md",
+      "resolvedTarget": "kanji/行.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/利用.md",
+      "label": "利",
+      "sourceTarget": "../kanji/利.md",
+      "resolvedTarget": "kanji/利.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/利用.md",
+      "label": "用",
+      "sourceTarget": "../kanji/用.md",
+      "resolvedTarget": "kanji/用.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/発見.md",
+      "label": "発",
+      "sourceTarget": "../kanji/発.md",
+      "resolvedTarget": "kanji/発.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/発見.md",
+      "label": "見",
+      "sourceTarget": "../kanji/見.md",
+      "resolvedTarget": "kanji/見.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/発見.md",
+      "label": "見つける",
+      "sourceTarget": "見つける.md",
+      "resolvedTarget": "words/見つける.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/発見.md",
+      "label": "発明",
+      "sourceTarget": "発明.md",
+      "resolvedTarget": "words/発明.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/気付く.md",
+      "label": "こと attachment guide",
+      "sourceTarget": "../articles/koto-wake-and-formal-nouns.md",
+      "resolvedTarget": "articles/koto-wake-and-formal-nouns.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/気付く.md",
+      "label": "気",
+      "sourceTarget": "../kanji/気.md",
+      "resolvedTarget": "kanji/気.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/気付く.md",
+      "label": "付",
+      "sourceTarget": "../kanji/付.md",
+      "resolvedTarget": "kanji/付.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/気付く.md",
+      "label": "知る",
+      "sourceTarget": "知る.md",
+      "resolvedTarget": "words/知る.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/気付く.md",
+      "label": "分かる",
+      "sourceTarget": "分かる.md",
+      "resolvedTarget": "words/分かる.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/現れる.md",
+      "label": "現",
+      "sourceTarget": "../kanji/現.md",
+      "resolvedTarget": "kanji/現.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/現れる.md",
+      "label": "出る",
+      "sourceTarget": "出る.md",
+      "resolvedTarget": "words/出る.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/現れる.md",
+      "label": "表す",
+      "sourceTarget": "表す.md",
+      "resolvedTarget": "words/表す.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/出会う.md",
+      "label": "出",
+      "sourceTarget": "../kanji/出.md",
+      "resolvedTarget": "kanji/出.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/出会う.md",
+      "label": "会",
+      "sourceTarget": "../kanji/会.md",
+      "resolvedTarget": "kanji/会.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/出会う.md",
+      "label": "会う",
+      "sourceTarget": "会う.md",
+      "resolvedTarget": "words/会う.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    },
+    {
+      "path": "words/出会う.md",
+      "label": "出会い",
+      "sourceTarget": "出会い.md",
+      "resolvedTarget": "words/出会い.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/親しい.md",
+      "label": "親",
+      "sourceTarget": "../kanji/親.md",
+      "resolvedTarget": "kanji/親.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/親しい.md",
+      "label": "親友",
+      "sourceTarget": "親友.md",
+      "resolvedTarget": "words/親友.md",
+      "runtimeProvider": false,
+      "disposition": "Unwrap unavailable optional navigation only;preserve Japanese facts/readings."
+    },
+    {
+      "path": "words/親しい.md",
+      "label": "近い",
+      "sourceTarget": "近い.md",
+      "resolvedTarget": "words/近い.md",
+      "runtimeProvider": true,
+      "disposition": "Retain"
+    }
+  ],
+  "correctRURootRubricBindings": {
+    ".github/agents/kanji-accuracy-reviewer.agent.md": {
+      "repository": "stop-cran/learning-japanese-ru",
+      "commit": "938820dea743c2d4376898b638acc56fc78fbe12",
+      "russianWorkingRawSha256": "3fbe6ef6350b7d555d389d59ca5019c97e3a0739b9bbe90a98fcee013a0ffef0",
+      "russianGitRawSha256": "3bbabb58f5d841ce3e5ee0bcfb8a257d5ad24b5960dff6846156321aa4abdf82",
+      "boundary": "Correct RU domain; these are not EN-repository hashes."
+    },
+    ".github/agents/content-consistency-reviewer.agent.md": {
+      "repository": "stop-cran/learning-japanese-ru",
+      "commit": "938820dea743c2d4376898b638acc56fc78fbe12",
+      "russianWorkingRawSha256": "ac0095c12513ed590db4fff80ebec02750811b004ce7537272af566824fd1e79",
+      "russianGitRawSha256": "744b7d446e970c23920644473c2f396e342d6e44cea7147a49ad743c756dd0c0",
+      "boundary": "Correct RU domain; these are not EN-repository hashes."
+    },
+    ".github/agents/kanji-comprehension-reviewer.agent.md": {
+      "repository": "stop-cran/learning-japanese-ru",
+      "commit": "938820dea743c2d4376898b638acc56fc78fbe12",
+      "russianWorkingRawSha256": "25bfe759a249914f561c5e7aa3d8cc2e6e71c9ccde10302302740f28fc2a58b4",
+      "russianGitRawSha256": "054601421857b569f319c163ff0fa1e8d7b020a1b6c6199491af6b6956fef215",
+      "boundary": "Correct RU domain; these are not EN-repository hashes."
+    }
+  },
+  "protectedUnverifiedDrafts": [
+    {
+      "draftPath": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+      "runtimePath": "words/空.md",
+      "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+      "status": "Excluded pending/C2 UNVERIFIED;not media"
+    }
+  ],
+  "immutableBodyInvariants": [
+    "25COMPLETE natural Russian lessons; all source Japanese examples/readings/forms/chunks retained.",
+    "No baseline runtime edits; actual20N4+5N3 classifications/types/tags/IDs preserved, including mixed-reading 気付く.",
+    "打つ うつ/ぶつ forms and separate sense domains preserved; all うつ senses NOT copied into ぶつ.",
+    "見つかる caption describes a finding result, not misleading Russian spatial находиться.",
+    "見つける visual familiarity/景色 attestation retained; no modern frequency/ordinary necessity assertion.",
+    "こと attachment: plain verb/i-adjective direct; affirmative nonpast na-adjective な orである; noun predicateである, not unchangedだ; past/negative endings retained.",
+    "Available original navigation retained; only unavailable optional wrappers unwrapped with exact disposition.",
+    "Source-only comparisons and actual whole context article do not create runtime/provider approval.",
+    "All direct/qualified classes are AUTHOR proposals, not independent review verdicts or blanket C2 CLEAN."
+  ],
+  "independentC1": "PENDING",
+  "independentC2": "PENDING",
+  "independentC3": "PENDING",
+  "ordinaryModernNecessityFrequencyBroaderQuizSuitabilityGlobalFutureUniqueness": "UNVERIFIED",
+  "releaseBoundary": "SourceauthoringONLY;noassets/native/device/phone/IME/media/package/default/releaseapproval.",
+  "checkpointReady": false,
+  "checkpointAuthority": null,
+  "ordinaryActivationAuthorized": false,
+  "sourceAcceptance": false,
+  "fullTaskComplete": false,
+  "continueRequired": true
+}
