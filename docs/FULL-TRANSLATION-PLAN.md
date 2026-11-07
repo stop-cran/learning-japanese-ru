@@ -1,6 +1,69 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch070 connectors, response and degree
+## Current qualified source milestone: batch071 degree, extent, sufficiency and assessment
+
+Batch071 adds **30 complete Russian lessons /1700 file lines**:
+**20 actual N4 and ten actual N3** recursive explicit providers, without
+reclassification, against frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The [actual original whole review](translation-batches/071-degree-extent-sufficiency-and-assessment-independent-review-001.json)
+read **263 whole teaching bodies**:30 primary EN/RU pairs,83 contextual
+EN/RU pairs,36 EN-only word comparisons and one EN-only article.
+It also read **389 whole official ordered projections,1367 original fresh
+caption/reading/quiz rows and three whole current RU-root rubrics**.
+The9351-byte stdout/native identity and actual **C1 PASS,C2 REVISE071-F01,
+C3 REVISE071-F02 minor presentation** remain immutable.
+
+The original **166 individually judged guards** comprise26 source
+declarations:12 direct/14 qualified-conservative;140 additional proposals:
+39 direct/101 qualified-conservative. Their **51D/115K** judgments
+support bounded lexical protection,not unrestricted interchangeability
+or ordinary necessity/frequency.
+A signed pre-mutation amendment adds only **RP141 ずいぶん–実に**
+on the new ずいぶん owner and the verified **足す（たす）** reading
+in the new 足りる body. 足す remains unlinked,EN-only and absent
+from runtime;it is not a new provider.
+
+The [actual focused review](translation-batches/071-degree-extent-sufficiency-and-assessment-independent-review-focused-002.json)
+resolves **only071-F01/F02** after reading **seven whole bodies**:
+EN/RU pairs forずいぶん,実に,足りる and the EN-only足す body;
+**four whole official objects,three fresh affected rows,three whole
+RU-root rubrics**,the original report,exact amendment,applied record
+and learner/manifest diff. Its8165-byte stdout/native identity is
+preserved. **C1 PASS,C2 PASS for the exact amendment/direct lexical
+subscope,C3 PASS** apply only to that bounded scope,not blanket C2.
+RP141 receives a fresh **D** judgment;expectation/surprise versus
+evaluation restrictions remain,without asserting universal equivalence.
+
+The **167 current pairs:52D/115K** include166 retained judgments
+carrying **only original scope/identity**,not166 fresh focused judgments.
+Exactly **29/30 bodies,28/30 whole new RAW files and1365/1367 pool rows**
+are unchanged. One quiz-metadata change affectsずいぶん;one RAW-only
+reading change affects足りる. The three fresh affected rows also
+include unchanged実に;足す has no runtime row.
+This is not a second263-body review or1367 freshly reread corrected rows.
+Additionalずいぶん–悪い andなかなか/かなり–ちょっと questions
+remain unadopted/unverified,not required corrections.
+**Broader C2 ordinary quiz suitability,modern necessity/frequency and
+global future uniqueness remain UNVERIFIED.**
+
+The [qualified source record](translation-batches/071-degree-extent-sufficiency-and-assessment-reviewed-source.json)
+preserves degree/expectation/evaluation,negative polarity,sufficiency/
+intransitivity,timing,inclusive bounds,set exclusion,ratios/multipliers/
+approximation and formal-noun attachment. All1649 accepted baseline
+runtime RAWs/tracking rows and historical evidence persist.
+Qualified source membership: **1679 runtime objects /1367 words**:
+671 N5/536 N4/87 N3/19 N2/54 unlabelled; **100 N4 remain**.
+Strict progress: **1679 reviewed-current,two excluded reviewed blocked-media
+drafts,6597 pending of8278;6599 runtime paths absent**,no partial.
+Version `2bc3b24fd9aba5a3`;checkpoint authority null/Ready false.
+Final serialized checks,signed integration,actual public archives/
+signatures/four protected refs and exact-main CI are separate publication
+evidence. Protected033空 stays excluded/C2 UNVERIFIED,not media.
+No assets/native/device/phone/IME/media/default/package/release authority.
+Continue072+ and ALL remaining safe frozen levels/families;the entire
+finite objective is not complete.
+
+## Previous qualified source milestone: batch070 connectors, response and degree
 
 Batch070 adds **20 complete actual N4 lessons /1114 Russian file lines**
 against unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.

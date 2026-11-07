@@ -11,6 +11,53 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The seventy-first full-target batch adds **30 complete Russian lessons/
+1700 file lines:20 actual N4 and ten actual N3** recursive explicit
+providers,without reclassification,against unchanged frozen EN.
+The [actual original whole review](translation-batches/071-degree-extent-sufficiency-and-assessment-independent-review-001.json)
+read **263 whole teaching bodies/389 whole official ordered projections/
+1367 original fresh caption-reading-quiz rows/three whole RU-root rubrics**:
+30 primary EN/RU pairs,83 contextual pairs,36 EN-only words and one
+EN-only article. Its9351-byte stdout/native identity and actual
+**C1 PASS,C2 REVISE071-F01,C3 REVISE071-F02 minor** remain immutable.
+Original166 individual judgments:26 source12D/14K plus140 additional
+39D/101K = **51D/115K**,only bounded lexical protection.
+
+A signed pre-mutation amendment adds exactly **RP141 ずいぶん–実に**
+and verified **足す（たす）** in two new owners.
+The [actual focused review](translation-batches/071-degree-extent-sufficiency-and-assessment-independent-review-focused-002.json)
+resolves onlyF01/F02: **seven whole bodies** (three EN/RU pairs and
+EN-only足す),**four whole objects,three fresh affected rows,three whole
+RU-root rubrics**,the original report,amendment,applied record and exact
+diff. Its8165-byte stdout/native identity is preserved.
+**C1 PASS,C2 PASS only for the exact amendment/direct lexical subscope,
+C3 PASS** are bounded,not a second whole review or blanket C2.
+RP141 is independently **D** with expectation/surprise/evaluation
+restrictions,not universal interchangeability or an ordinary-frequency claim.
+足す stays unlinked,EN-only and absent from runtime,not a new provider.
+
+The **167 direct pairs:52D/115K** include166 retained judgments carrying
+**only original scope/identity**,not166 fresh focused judgments.
+Exactly29/30 bodies,28/30 new whole RAW files and1365/1367 rows are
+unchanged;one quiz-metadata change onずいぶん and one RAW-only reading
+change on足りる. The third fresh affected row is unchanged実に;
+足す has no runtime row. This is not1367 freshly reread corrected rows.
+Additionalずいぶん–悪い andなかなか/かなり–ちょっと questions
+remain unadopted/unverified,not required corrections.
+**Broader C2 ordinary quiz suitability,modern necessity/frequency and
+global future uniqueness remain UNVERIFIED.**
+All1649 accepted baseline runtime RAWs/tracking/history persist.
+Qualified source membership: **1679 runtime objects /1367 words**,
+671 N5/536 N4/87 N3/19 N2/54 unlabelled; **100 N4 remain**.
+Strict progress: **1679 reviewed-current,two excluded reviewed blocked-media
+drafts,6597 pending of8278;6599 runtime paths absent**,no partial.
+Version `2bc3b24fd9aba5a3`;checkpoint authority null/Ready false.
+Final serialized checks,signed integration,actual public archives/
+signatures/four protected refs/exact-main CI remain separate evidence.
+Protected033空 stays excluded/C2 UNVERIFIED,not media.
+No assets/native/device/phone/IME/media/default/package/release authority.
+Continue072+ and ALL remaining safe frozen levels/families,not task completion.
+
 The seventieth full-target batch adds **20 complete actual N4 connector/
 response/degree lessons /1114 Russian file lines** against unchanged frozen EN.
 The [actual original whole review](translation-batches/070-connectors-response-and-degree-independent-review-001.json)
