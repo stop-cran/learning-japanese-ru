@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "batchId": "065-writing-media-and-electronic-devices",
+  "originalWholeReviewCommit": "7e2a92671a9f9f7f8c0de03f48a5dd1f143f3339",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineCommit": "b4defa4f68645765be2f9ebeab87cbcd30610a9d",
+  "actualOriginalReviewer": "c0622a60-0936-4138-ba51-fa7cc2298f4a",
+  "actualOriginalReportSha256": "9dd001fd911e73a46f840e9b8df70a006af8d8ddd94af8d65bb34b2f35e4d2a0",
+  "actualOriginalVerdicts": {
+    "C1": "CLEAN",
+    "C2": "NEEDS_FIX F01",
+    "C3": "CLEAN"
+  },
+  "exactChange": {
+    "path": "words/字.md",
+    "field": "quiz_exclusions",
+    "proposalId": "Q31",
+    "pair": [
+      "字",
+      "場所"
+    ],
+    "oldValue": [
+      "テキスト",
+      "文章",
+      "漢字",
+      "印",
+      "記号",
+      "所",
+      "土地",
+      "辺",
+      "町",
+      "名",
+      "名前"
+    ],
+    "newValue": [
+      "テキスト",
+      "文章",
+      "漢字",
+      "印",
+      "記号",
+      "所",
+      "土地",
+      "辺",
+      "町",
+      "名",
+      "名前",
+      "場所"
+    ],
+    "oldWorkingRawSha256": "3257cd45a03b127cbeae334843063bfc51726e638b5b5e6b1a1e82e467115de7",
+    "providerPath": "words/場所.md",
+    "providerWorkingRawSha256": "da775b8eca8c23b45804380f1c993da6ae8a1a561506ca0f1d27bc4a0aed58fe",
+    "actualCaptions": [
+      "письменный знак; почерк",
+      "место; местоположение"
+    ],
+    "directSources": [
+      "1315120.1",
+      "2112720.3",
+      "1355850.1"
+    ],
+    "reason": "Exact場所 место; местоположение can describe a bare字あざ/あざな geographic village-section referent. Conservative direct caption compatibility only, not all places equivalence or transitive inheritance through所/土地.",
+    "ordinaryModernNecessityFrequencyBroaderQuizSuitabilityGlobalFutureUniqueness": "UNVERIFIED"
+  },
+  "additionalEvidence": {
+    "privateFile": "ru-065-evidence-bindings-004.json",
+    "sha256": "bf0b507695d08e5a11e3fc5780dac9014a43e85ec5cff729512b5634e13f1736",
+    "completeContextualPairs": 47,
+    "wholeOfficialObjects": 210,
+    "original003PrefixesByteIdentity": true
+  },
+  "original30AdditionalGuards": "Actual original individual judgments carry original scope/identity, not30fresh semantic judgments.",
+  "originalTwoSourceGuards": "Actual original scoped judgments retained.",
+  "allowedMutation": "ONLY append場所 to字 quiz_exclusions; generatedmanifest. All22wholeRU teaching bodies/captions/readings/levels/types/tags/Japanese examples invariant; all1532baselineRAWs invariant. Historical original reports/freezes/receipts immutable; no assets/code/default/release.",
+  "focusedReviewScope": "4whole EN/RU bodies字+場所;4whole officialobjects1315130/1315120/2112720/1355850;2fresh currentfullmetadatarows;3whole RU-rootrubrics;actualoriginalreport, resolutionfreeze/exactdiff/completeidentityproof. NOTsecondwhole/1242freshupdatedrows.",
+  "runtimeMutationApplied": false,
+  "independentFocusedReview": "PENDING",
+  "fullTaskComplete": false,
+  "continueRequired": true
+}
