@@ -1,6 +1,60 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch064 places, institutions and geography
+## Current qualified source milestone: batch065 writing, media and electronic devices
+
+Batch065 adds **22 complete actual N4 lessons /1121 Russian file lines**
+against unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The [actual original whole review](translation-batches/065-writing-media-and-electronic-devices-independent-review-001.json)
+read **180 assigned whole teaching bodies plus two additional whole 場所
+bodies:182 total,209 whole official ordered projections,1242 actual
+caption/reading/quiz rows and three current RU-root rubrics**.
+The assigned bodies comprise22 EN/RU primary pairs,46 EN/RU provider pairs
+and44 source-only EN lessons; no article was assigned.
+Rows are not1242 whole lessons. Original **C1/C3 CLEAN, C2 NEEDS_FIX F01**
+remain immutable. Thirty additional guards received individual judgments:
+two direct identical-variant protections and28 qualified lexical/caption
+protections; two original source PC guards were also assessed explicitly.
+
+The [actual bounded focused review](translation-batches/065-writing-media-and-electronic-devices-independent-review-002.json)
+freshly read **four whole teaching bodies,four whole official objects,
+two current full-metadata rows and three whole RU-root rubrics**,
+the complete original report, signed pre-mutation resolution freeze,
+identity proof and exact diff. It resolves **F01/Q31字–場所** only at the
+qualified direct lexical/actual-caption level: separately attested bare
+字/あざ and 字/あざな village-section senses can fit the actual 場所 cue
+«место; местоположение». This does not teach a geographic meaning of じ,
+equate all places, or derive protection transitively through 所/土地.
+
+All22 Russian teaching-body bytes/1242 captions-readings-levels-types-tags
+and1532 accepted baseline RAWs remain identical; only 字's exclusion header
+appends 場所. Original30 individual judgments and two source guards carry
+only their original scopes/identity, **not31 fresh judgments,a second whole
+182-body review or1242 freshly reviewed corrected rows**.
+Actual10969-byte original and9730-byte focused stdout/native report
+identities persist. **C2 remains qualified direct protection only; all31
+additional guards' ordinary modern necessity/frequency,broader ordinary
+quiz suitability and global future uniqueness remain UNVERIFIED.**
+Two source guards plus31 additional protections are33 direct pairs,not cliques.
+
+The owner's explicit migration-complete/resume instruction supersedes only
+the [temporary storage pause](translation-batches/065-writing-media-and-electronic-devices-owner-requested-storage-pause-001.json).
+Historical evidence,review verdicts and the frozen target remain unchanged;
+relocation is not semantic approval. No new review was required for relocation.
+
+Qualified source membership: **1554 runtime objects /1242 words**:
+671 N5/424 N4/74 N3/19 N2/54 unlabelled; **212 N4 remain**.
+Strict progress: **1554 reviewed-current,two excluded reviewed blocked-media
+drafts,6722 pending of8278;6724 runtime paths absent**,no partial.
+Version `35e05ae7058fb767`; checkpoint authority null/Ready false.
+Final serialized validation,signed main integration,actual public archives/
+signatures/four protected references and exact-main CI are separate
+publication evidence,not reviewer claims.
+Protected033空 remains excluded pending/C2 UNVERIFIED,not media.
+No assets/native/device/phone/IME/media/default/package/release authority.
+Continue066+ and ALL remaining safe frozen levels/families; the full finite
+objective is not complete.
+
+## Previous qualified source milestone: batch064 places, institutions and geography
 
 Batch064 adds **26 complete lessons /1487 Russian file lines**:
 22 actual N4 words and four required actual N3 providers, without relabelling,

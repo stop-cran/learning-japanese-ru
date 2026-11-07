@@ -11,6 +11,46 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The sixty-fifth full-target batch adds **22 complete actual N4 writing/
+media/electronic-device lessons /1121 Russian file lines** against unchanged
+frozen EN. The [actual original whole review](translation-batches/065-writing-media-and-electronic-devices-independent-review-001.json)
+read180 assigned whole bodies plus two additional whole 場所 bodies:
+**182 whole teaching bodies/209 whole official projections/1242 actual
+caption-reading-quiz rows/three current RU-root rubrics**.
+Original **C1/C3 CLEAN,C2 NEEDS_FIX F01** and30 individual additional-guard
+judgments(two identical-variant direct/28 qualified),plus two assessed
+source PC guards,remain immutable.
+
+The [actual focused review](translation-batches/065-writing-media-and-electronic-devices-independent-review-002.json)
+freshly read four whole bodies/four whole official objects/two current
+full-metadata rows/three whole RU-root rubrics,the full original report,
+signed pre-mutation freeze,identity proof and exact diff.
+It resolves **F01/Q31字–場所** only as qualified direct lexical/actual-caption
+protection: bareあざ/あざな village-section meanings can fit actual
+«место; местоположение»,not a geographic meaning of bareじ,all-place
+equivalence or transitive protection through所/土地.
+All22 RU teaching-body bytes/1242 captions-readings-levels-types-tags and1532
+accepted baseline RAWs are unchanged; only 字's exclusion header appends場所.
+Original30+2 judgments carry only originalscope/identity,**not31 fresh
+judgments,a second whole182-body review or1242 fresh corrected rows**.
+Original10969-byte/focused9730-byte stdout/native identities persist.
+**C2 qualified direct protection only;all31 additional ordinary modern
+necessity/frequency,broader ordinary quiz suitability and global future
+uniqueness stay UNVERIFIED.** There are33 direct pairs,not cliques.
+
+Owner migration-complete/resume explicitly supersedes only the temporary
+storage pause;historical evidence/target/verdicts remain unchanged.
+Qualified source membership: **1554 runtime objects /1242 words**:
+671 N5/424 N4/74 N3/19 N2/54 unlabelled; **212 N4 remain**.
+Strict progress: **1554 reviewed-current,two excluded reviewed blocked-media
+drafts,6722 pending of8278;6724 runtime paths absent**,no partial.
+Version `35e05ae7058fb767`;checkpoint authority null/Ready false.
+Final serialized checks,signed integration,actual public archives/signatures/
+four protected refs/exact-main CI remain separate publication evidence.
+Protected033空 stays excluded/C2 UNVERIFIED,not media.
+No assets/native/device/phone/IME/media/default/package/release authority;
+continue066+ and ALL remaining safe frozen levels/families,not task completion.
+
 The sixty-fourth full-target batch adds **26 complete places/institutions/
 geography lessons /1487 Russian file lines**:22 actual N4 plus four required
 actual N3 providers, without relabelling. The frozen EN target is unchanged.
