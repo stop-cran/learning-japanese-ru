@@ -1,6 +1,58 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch067 shapes, properties and comparison
+## Current qualified source milestone: batch068 people, address and social roles
+
+Batch068 adds **20 complete actual N4 lessons /1023 Russian file lines**
+against unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The [actual original whole review](translation-batches/068-people-address-and-social-roles-independent-review-001.json)
+read **198 whole teaching bodies**:20 primary EN/RU pairs,73 contextual
+EN/RU pairs and12 frozen-only bodies, plus **262 whole official ordered
+projections,1297 original candidate caption/reading/quiz rows and three
+whole current RU-root rubrics**. All84 assigned windows returned completely.
+The10880-byte stdout/native report identity and original **C1/C3
+CLEAN_BOUNDED,C2 NEEDS_FIX F1** remain immutable.
+
+F1 identified five missing qualified direct protections:
+お嬢さん–女,君–兄 and 彼–あそこ/そこ/向こう.
+The pre-mutation amendment preserves its exact evidence and restrictions.
+The [actual focused review](translation-batches/068-people-address-and-social-roles-independent-review-focused-002.json)
+resolves **only F1**, after reading **16 whole teaching bodies/six whole
+official objects/eight affected rows/three whole RU-root rubrics**, the
+exact diff, amendment and original report; all12 assigned windows returned.
+Its9743-byte stdout/native identity is preserved. Its separate
+**C1/C2/C3 CLEAN_BOUNDED** verdicts apply only to that focused scope.
+
+The original98 individual judgments (**two direct/96 qualified**) retain
+their original scope, not98 fresh focused judgments. Five new individual
+qualified judgments bring the total to **103 direct pairs:two direct/101
+qualified**, without transitive closure. All20 learner bodies have exact
+RAW identity across the metadata-only correction. Of1297 pool rows,1294
+are identical; the focused eight include three changed owners and five
+unchanged providers. This is **not1297 freshly reread corrected rows** or
+a second whole review. **Broader C2 ordinary quiz suitability, modern
+necessity/frequency and global future uniqueness remain UNVERIFIED.**
+
+The [qualified source record](translation-batches/068-people-address-and-social-roles-reviewed-source.json)
+retains standalone 女じょ daughter and written-letter 兄けい you,
+not suffix-only inferences or generic human-class equivalence.
+Rare written 彼あれ place protections preserve their deictic/anaphoric
+limits; the taught primary reading remains かれ. Own/other spouse roles,
+name suffixes and seniority are not flattened into gender or age rules.
+All1589 baseline runtime RAWs/tracking rows and historical evidence persist.
+
+Qualified source membership: **1609 runtime objects /1297 words**:
+671 N5/476 N4/77 N3/19 N2/54 unlabelled; **160 N4 remain**.
+Strict progress: **1609 reviewed-current,two excluded reviewed blocked-media
+drafts,6667 pending of8278;6669 runtime paths absent**,no partial.
+Version `b4cbcf44148ebcc6`;checkpoint authority null/Ready false.
+Final serialized validation,signed integration,actual public archives/
+signatures/four protected refs and exact-main CI are separate publication
+evidence,not reviewer claims. Protected033空 stays excluded/C2 UNVERIFIED,
+not media. No assets/native/device/phone/IME/media/default/package/release
+authority. Continue069+ and ALL remaining safe frozen levels/families;
+the full finite objective is not complete.
+
+## Previous qualified source milestone: batch067 shapes, properties and comparison
 
 Batch067 adds **19 complete lessons /993 Russian file lines**:
 16 actual N4 primaries and three source-required actual N3 providers

@@ -11,6 +11,49 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The sixty-eighth full-target batch adds **20 complete actual N4 people/
+address/social-role lessons /1023 Russian file lines** against unchanged
+frozen EN. The [actual original whole review](translation-batches/068-people-address-and-social-roles-independent-review-001.json)
+read **198 whole teaching bodies/262 whole official ordered projections/
+1297 original candidate caption-reading-quiz rows/three whole RU-root
+rubrics**:20 primary EN/RU pairs,73 contextual EN/RU pairs and12
+frozen-only bodies. All84 assigned windows returned completely.
+The10880-byte stdout/native report and original **C1/C3 CLEAN_BOUNDED,
+C2 NEEDS_FIX F1** are immutable.
+
+F1's five missing direct protections were frozen before metadata changes:
+お嬢さん–女,君–兄 and 彼–あそこ/そこ/向こう.
+The [actual focused review](translation-batches/068-people-address-and-social-roles-independent-review-focused-002.json)
+resolves **only F1**:16 whole teaching bodies/six whole official objects/
+eight affected rows/three whole RU-root rubrics/exact diff/amendment/
+original report,all12 assigned windows complete;9743-byte stdout/native
+identity preserved. Its **C1/C2/C3 CLEAN_BOUNDED** verdicts are focused,
+not a second whole review or blanket C2 CLEAN.
+
+Original98 individual judgments(two direct/96 qualified) retain only
+original scope/identity. Five new individual qualified judgments yield
+**103 direct pairs:two direct/101 qualified**,not transitive closure.
+All20 learner bodies are RAW-identical across the correction;1294 of1297
+pool rows are identical. The eight fresh focused rows include three
+changed owners and five unchanged providers; the other1289 are retained
+by identity,not fresh semantic reading. **Broader C2 ordinary quiz
+suitability,modern necessity/frequency and global future uniqueness
+remain UNVERIFIED.** Standalone 女じょ daughter,letter-address 兄けい you
+and rare written 彼あれ place retain exact reading/role/deictic limits,
+without changing primary readings or claiming suffix/class equivalence.
+
+All1589 baseline runtime RAWs/tracking rows and historical evidence persist.
+Qualified source membership: **1609 runtime objects /1297 words**,
+671 N5/476 N4/77 N3/19 N2/54 unlabelled; **160 N4 remain**.
+Strict progress: **1609 reviewed-current,two excluded reviewed blocked-media
+drafts,6667 pending of8278;6669 runtime paths absent**,no partial.
+Version `b4cbcf44148ebcc6`;checkpoint authority null/Ready false.
+Final serialized checks,signed integration,actual public archives/signatures/
+four protected refs/exact-main CI remain separate publication evidence.
+Protected033空 stays excluded/C2 UNVERIFIED,not media.
+No assets/native/device/phone/IME/media/default/package/release authority;
+continue069+ and ALL remaining safe frozen levels/families,not task completion.
+
 The sixty-seventh full-target batch adds **19 complete shapes/properties/
 comparison lessons /993 Russian file lines**:16 actual N4 plus three
 source-required actual N3 providers 型/式/種類, without relabelling.
