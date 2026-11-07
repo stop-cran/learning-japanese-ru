@@ -1,6 +1,54 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch073 movement, direction and transfer
+## Current qualified source milestone: batch074 actions, search and handling
+
+Batch074 adds **25 complete Russian lessons /1475 file lines**:
+**20 actual N4 and five actual N3**,without reclassification,against frozen EN
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The [actual whole review](translation-batches/074-actions-search-and-handling-independent-review-001.json)
+read **381 whole teaching bodies**:25 primary EN/RU pairs,130 contextual
+EN/RU pairs,70 EN-only comparisons and one complete1708-line EN article.
+It also read **417 whole official ordered projections,1438 fresh current
+candidate caption/reading/quiz rows,three whole current RU-root rubrics
+and the whole named Digital Daijisen 見付ける entry**.
+The **10828-byte stdout/native identity** is preserved. Rows are not whole
+lessons;the named entry is not the whole Weblio page or modern-frequency
+proof;the article does not imply fresh reading of every linked source/PDF.
+
+**C1/C3: no blocking correction found in the25 translated primaries within
+assigned whole evidence**,not universal correctness or native certification.
+**C2:165 individually bounded protections,18D/147K**:
+21 retained source declarations,3D/18K,and144 additional proposals,
+15D/129K. Unsupported/withdrawn:none. No additional missing direct pair
+was confirmed within the1438-row pool and actually read evidence.
+Standalone alternate readings,secondary senses,agent/result,transitivity,
+register and domain limits remain explicit;D/K is not unrestricted
+substitution. **Broader ordinary modern quiz suitability,necessity/frequency
+and global future uniqueness remain UNVERIFIED for all165,including D;
+not blanket C2 CLEAN/PASS.**
+No substantive correction finding,amendment,focused report or second whole
+review is invented for acceptance.
+
+The [qualified source record](translation-batches/074-actions-search-and-handling-reviewed-source.json)
+preserves full actions/search/handling teaching and all1725 accepted
+baseline runtime RAWs/tracking rows/history. 打つ keepsうつ/ぶつ forms
+and sense domains distinct;気付く retains actualN3/kango/mixed reading
+and the completeこと attachment rule;見つかる expresses finding result,
+not static location;見つける's visual familiarity is attested,not proved frequent.
+Qualified source checkpoint: **1750 runtime objects /1438 words**,
+671 N5/596 N4/97 N3/19 N2/55 unlabelled; **40 N4 remain**.
+Strict progress: **1750 reviewed-current,two excluded reviewed blocked-media
+drafts,6526 pending of8278;6528 runtime paths absent**,no partial.
+Version `113a0f93170b0594`;checkpoint authority null/Ready false.
+These become accepted-main counts only after normal signed integration;
+fresh final serialized checks,actual public archives/signatures/four
+protected refs and exact-main CI are separate publication evidence.
+Protected033空 remains the only pending N5 word,excluded/C2 UNVERIFIED,
+not media. No assets/native/device/phone/IME/media/default/package/release
+authority. Continue075+ and ALL remaining safe frozen levels/families;
+the entire finite objective is not complete.
+
+## Previous qualified source milestone: batch073 movement, direction and transfer
 
 Batch073 adds **26 complete Russian lessons /1493 file lines**:
 **20 actual N4,five actual N3 and one unlabelled顔**.

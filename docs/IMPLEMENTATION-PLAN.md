@@ -11,6 +11,45 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The seventy-fourth full-target batch adds **25 complete Russian lessons/
+1475 file lines:20 actual N4 and five actual N3**,without reclassification,
+against unchanged frozen EN.
+The [actual whole review](translation-batches/074-actions-search-and-handling-independent-review-001.json)
+read **381 whole teaching bodies/417 whole official ordered projections/
+1438 fresh current caption-reading-quiz rows/three whole RU-root rubrics/
+one whole named Digital Daijisen entry**:25 primary EN/RU pairs,
+130 contextual pairs,70 EN-only words and one complete1708-line EN article.
+Its **10828-byte stdout/native identity** is preserved. Rows are not whole
+lessons;the named entry is not the whole Weblio page or frequency proof;
+the contextual article is not fresh reading of all linked sources/PDFs.
+**C1/C3 find no blocking correction in25 translated primaries within
+assigned evidence**,not universal/native certification.
+**C2 supports165 individual qualified protections,18D/147K**:
+21 source3D/18K plus144 additional15D/129K;unsupported/withdrawn:none.
+No additional missing direct pair was confirmed in the1438-row current
+pool and actual evidence. Standalone alternate readings,secondary senses,
+participant roles,transitivity,register and domains remain qualified.
+**Broader ordinary modern quiz suitability,necessity/frequency and
+global future uniqueness remain UNVERIFIED for all165,including D;
+not blanket C2 CLEAN/PASS or unrestricted substitution.**
+No substantive correction finding/amendment/focused report/second whole
+is invented. All1725 accepted baseline RAWs/tracking/history persist.
+打つうつ/ぶつ forms/senses,気付く actualN3/kango/mixed reading and full
+こと attachment,見つかる finding-result and attested 見つける visual
+familiarity remain distinct;attestation is not modern-frequency evidence.
+Qualified source checkpoint: **1750 runtime objects /1438 words**,
+671 N5/596 N4/97 N3/19 N2/55 unlabelled; **40 N4 remain**.
+Strict progress: **1750 reviewed-current,two excluded reviewed blocked-media
+drafts,6526 pending of8278;6528 runtime paths absent**,no partial.
+Version `113a0f93170b0594`;checkpoint authority null/Ready false.
+These become accepted-main counts only after normal signed integration.
+Fresh final serialized checks,actual public archives/signatures/four
+protected refs/exact-main CI remain separate publication evidence.
+Protected033空 remains the only pending N5 word,excluded/C2 UNVERIFIED,
+not media. No assets/native/device/phone/IME/media/default/package/release
+authority. Continue075+ and ALL remaining safe frozen levels/families,
+not task completion. Earlier milestones below retain their original scope.
+
 The seventy-third full-target batch adds **26 complete Russian lessons/
 1493 file lines:20 actual N4,five actual N3 and one unlabelled顔**,
 without reclassification or adding absent `jlpt`,against unchanged frozen EN.
