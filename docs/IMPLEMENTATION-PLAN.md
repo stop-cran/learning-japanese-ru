@@ -11,6 +11,57 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The sixty-first full-target batch adds **22 complete actualN4 nature/landscape
+lessons /1134 Russian file lines** against unchanged frozen EN.
+The [actual original whole review](translation-batches/061-nature-and-landscapes-independent-review-001.json)
+read228 assigned complete teaching bodies,271 entire official objects,
+all1149 actual caption/reading/quiz rows, two complete saved native dictionary
+payloads, three current RU-root rubrics and one additional fullRU有名 lesson.
+The228 assigned bodies are22 EN/RU root pairs,71 EN/RU provider pairs and42
+source-only EN lessons, not1149 baseline bodies.
+Original C1/C3 **CLEAN**, C2 **NEEDS_REVISION** and all32 individually
+qualified retain judgments remain immutable.
+
+The [actual focused review](translation-batches/061-nature-and-landscapes-independent-review-002.json)
+resolves exact061-R1 through directQ33世界–有名 protection.
+Its fresh scope is four complete teaching bodies,two whole official objects,
+1149 actual amended rows,three currentRU rubrics and the full original report,
+with mechanical identity checks. World-famous世界 is a **の-modifying noun**
+under1373860.3, not aな-adjective;有名1541620.1 is aな-adjective.
+Conservative symmetric suppression is not bidirectional lexical equivalence.
+Original32 judgments/all22 bodies carry unchanged identities,
+**not a second whole review or33 freshly reread semantic judgments**.
+Effective C2 CLEAN covers only assigned text/dependencies and individually
+qualified lexical protections; original historical C2 remains NEEDS_REVISION.
+**All33 ordinary modern necessity/frequency and global uniqueness UNVERIFIED.**
+Original10666-byte and focused9344-byte actual stdout/native identities persist.
+
+Actual景色 reading history retains kango/special-reading treatment without
+productiveけ for景 or unrestricted historical気色 sense transfer.
+Appearance/state/ceramic colour, alternate人間じんかん, mountain-forest山,
+figurative林, glyph/dot/sumo星, specific花見 viewing, secondary光 and
+Internet草 comparisons preserve their source/POS/reading/register limits.
+No transitive category clique, paper-counter-to-leaf noun inference
+or plant-branch-to-bank-branch substitution.
+All22 complete bodies/Japanese examples/actualN4 classifications remain.
+Nine original wrappers retained/26 unavailable destinations unwrapped;
+no new provider or asset. All1439 baseline RAWs/tracking/history preserved.
+
+Qualified membership: **1461 runtime objects /1149 words**:
+671 N5/337 N4/68 N3/19 N2/54 unlabelled;299 N4 remain.
+Strict progress: **1461 reviewed-current, two excluded reviewed blocked-media
+drafts,6815 pending of8278;6817 absent runtime paths**, no partial.
+Version `97896ffd55fe07c2`; checkpoint authority null/Ready false.
+Signed original/resolution freezes preceded their respective changes;
+original findings and exact focused resolution remain separate evidence.
+Final serialized checks, signed main integration, actual public archives and
+exact-main CI are separate publication proofs, not reviewer claims.
+Protected excluded033空 remains C2UNVERIFIED and not media.
+No asset/app/device/phone/IME/media/package/default/release approval.
+**Continue062+ and the entire safe remaining frozen scope; full task not complete.**
+
+Batch060 and earlier milestones below are historical.
+
 The sixtieth full-target batch adds **24 complete N4 transport/journey
 lessons /1428 Russian file lines** against the unchanged frozen EN.
 The [actual single independent report](translation-batches/060-transport-and-journeys-independent-review-001.json)

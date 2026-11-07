@@ -1,6 +1,58 @@
 # Full Russian translation: execution after the two pilots
 
-## Current source milestone: batch060 transport and journeys
+## Current source milestone: batch061 nature and landscapes
+
+Batch061 adds **22 complete actual N4 lessons /1134 Russian file lines**
+against the same frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The [actual original whole review](translation-batches/061-nature-and-landscapes-independent-review-001.json)
+read **228 assigned complete teaching bodies,271 whole official objects,
+all1149 actual candidate caption/reading/quiz rows, two complete saved native
+dictionary payloads and three current RU-root rubrics**, plus one additional
+complete RU有名 lesson. The228 assigned bodies comprise22 EN/RU roots,
+71 EN/RU provider pairs and42 source-only EN lessons; rows are not1149 bodies.
+Its original C1/C3 **CLEAN** and C2 **NEEDS_REVISION** remain immutable.
+
+The [actual bounded focused review](translation-batches/061-nature-and-landscapes-independent-review-002.json)
+resolves **061-R1** with direct **Q33世界–有名** protection.
+It freshly read **four complete teaching bodies, two whole official objects,
+all1149 amended caption/reading/quiz rows and three current RU rubrics**,
+plus the complete original report and mechanical identity proof.
+World-famous世界 takes **の** in1373860.3;有名 is a **な-adjective**
+in1541620.1. Conservative symmetric question protection does not make
+the reverse caption「мир」a translation of有名 or turn世界 into aな-adjective.
+Original32 qualified judgments and all22 bodies carry their unchanged
+identities; this is **not a second whole review or33 fresh semantic judgments**.
+Effective C2 CLEAN is only for assigned text/dependencies and qualified
+lexical/caption protection, not global ordinary-modern quiz suitability.
+**Ordinary modern necessity/frequency for all33 and global uniqueness
+remain UNVERIFIED.** Both actual stdout/native-report byte identities remain.
+
+Actual native景色 reading history supports the frozenkango/special-reading
+classification, not productiveけ for景 or unrestricted transfer of historical
+気色 feelings/manifestations. The rare appearance/state/ceramic-colour guards
+retain their exact bounds. Independent alternate人間じんかん, mountain-forest山,
+figurative林, dot/glyph/sumo星, specific花見 viewing, secondary光 and Internet草
+protections are not transitive cliques or new everyday-frequency claims.
+Cloud versus weather, destructive-fire incident versus flame, forest and
+lake naming without fixed numerical thresholds, plant leaf/branch versus
+paper counters/business branches remain fully taught in Russian.
+
+Nine available original wrappers retained/26 unavailable optional destinations
+unwrapped without removing Japanese facts/readings; no forced provider or asset.
+All1439 baseline RAWs/tracking/history and protected excluded033空 are preserved.
+Signed original and resolution freezes preceded their respective changes.
+Qualified membership: **1461 runtime objects /1149 words**:
+671 N5/337 N4/68 N3/19 N2/54 unlabelled;299 N4 remain.
+Strict progress: **1461 reviewed-current, two excluded reviewed blocked-media
+drafts,6815 pending of8278;6817 runtime paths absent**, no partial.
+Version `97896ffd55fe07c2`; checkpoint authority null/Ready false.
+Final serialized validation, signed integration, actual public archives and
+exact-main CI remain separate publication evidence, not reviewer claims.
+No new assets/app/device/phone/IME/media/default/package/release authority.
+**Continue062+ and every remaining safe frozen level/family; full task is
+not complete. Protected空 remains separate, UNVERIFIED and not media.**
+
+## Prior source milestone: batch060 transport and journeys
 
 Batch060 adds **24 complete N4 lessons /1428 Russian file lines** against
 the unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
