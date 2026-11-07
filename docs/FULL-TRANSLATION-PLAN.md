@@ -1,6 +1,55 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch066 leisure, sports, toys and sounds
+## Current qualified source milestone: batch067 shapes, properties and comparison
+
+Batch067 adds **19 complete lessons /993 Russian file lines**:
+16 actual N4 primaries and three source-required actual N3 providers
+型/式/種類, without relabelling or changing frozen EN
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The [actual independent review](translation-batches/067-shapes-properties-and-comparison-independent-review-001.json)
+read **224 whole teaching bodies**:19 primary EN/RU pairs,85 contextual
+EN/RU pairs and16 frozen-only bodies, plus **233 whole official ordered
+projections,1277 actual candidate caption/reading/quiz rows and three
+whole current RU-root rubrics**. All94 assigned windows and both semantic
+record projections returned completely. The10960-byte actual stdout/native
+report identity is preserved.
+
+The actual separate **C1/C2/C3 verdicts are CLEAN_BOUNDED**, not unqualified
+global approval. No consequential defect was reported within the evidence
+read. **Broader C2 ordinary quiz suitability, modern necessity/frequency
+and global future uniqueness remain UNVERIFIED.**
+All111 direct pairs received individual judgments:
+nine preserved source guards (**7 direct/2 qualified**) and102 additional
+proposals (**10 direct/92 qualified**), with their exact reasons,
+Japanese senses, alternate standalone readings and restrictions retained.
+Qualified conservative lexical/cue protection is not a primary-caption
+duplicate, universal synonymy, a transitive clique or necessity proof.
+
+The [qualified source record](translation-batches/067-shapes-properties-and-comparison-reviewed-source.json)
+keeps predicted certainty restricted to 固い/堅い; physical コード is
+2855837, not the music entry. 深い's distant-field guards are baseball-only,
+not geographic synonymy or resolution of the protected 空 question.
+Separate 形/体 readings, 表's information-table reading and ordinary
+裏 lining/inside senses remain distinct. No English line/thread/rope or
+softness-alone/wet-and-soft shortcut was adopted.
+All1570 accepted baseline runtime RAWs and tracking rows are unchanged.
+This is one whole independent review, not1277 whole lessons or recertification
+of the entire frozen corpus.
+
+Qualified source membership: **1589 runtime objects /1277 words**:
+671 N5/456 N4/77 N3/19 N2/54 unlabelled; **180 N4 remain**.
+Strict progress: **1589 reviewed-current,two excluded reviewed blocked-media
+drafts,6687 pending of8278;6689 runtime paths absent**,no partial.
+Version `f82172af12d5695b`;checkpoint authority null/Ready false.
+Final serialized validation,signed integration,actual public archives/
+signatures/four protected references and exact-main CI are separate
+publication evidence,not reviewer claims.
+Protected033空 remains excluded pending/C2 UNVERIFIED,not media.
+No assets/native/device/phone/IME/media/default/package/release authority.
+Continue068+ and ALL remaining safe frozen levels/families; the full finite
+objective is not complete.
+
+## Previous qualified source milestone: batch066 leisure, sports, toys and sounds
 
 Batch066 adds **16 complete actual N4 lessons /866 Russian file lines**
 against unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.

@@ -11,6 +11,44 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The sixty-seventh full-target batch adds **19 complete shapes/properties/
+comparison lessons /993 Russian file lines**:16 actual N4 plus three
+source-required actual N3 providers 型/式/種類, without relabelling.
+The [actual independent review](translation-batches/067-shapes-properties-and-comparison-independent-review-001.json)
+read **224 whole teaching bodies/233 whole official ordered projections/
+1277 actual candidate caption-reading-quiz rows/three whole RU-root
+rubrics**:19 primary EN/RU pairs,85 contextual EN/RU pairs and16
+frozen-only bodies. All94 assigned windows and both semantic record
+projections returned completely; the actual10960-byte stdout/native
+report identity persists.
+
+Actual **C1/C2/C3 CLEAN_BOUNDED** verdicts remain qualified to that
+evidence. No consequential defect was reported.
+**Broader C2 ordinary quiz suitability,modern necessity/frequency and
+global future uniqueness remain UNVERIFIED**, not relabelled CLEAN.
+All111 pairs were individually assessed:nine preserved source guards
+(7 direct/2 qualified) and102 additional proposals(10 direct/92 qualified).
+Each same-ID reason/reading/sense/domain restriction persists, not
+universal synonymy, transitive guards or ordinary necessity proof.
+Predicted certainty excludes 硬い; physical コード uses2855837;
+深い's far-from-home-plate guards remain baseball-only.
+These do not resolve protected033空 or create geographic synonymy.
+Separate 形/体/表 readings and ordinary 裏 lining/inside senses are kept.
+No English line/thread/rope or wet-and-soft shortcut was adopted.
+This is one whole review, not1277 whole-lesson/global recertification.
+
+All1570 baseline runtime RAWs/tracking rows and historical evidence are
+preserved. Qualified source membership: **1589 runtime objects /1277
+words**,671 N5/456 N4/77 N3/19 N2/54 unlabelled; **180 N4 remain**.
+Strict progress: **1589 reviewed-current,two excluded reviewed blocked-media
+drafts,6687 pending of8278;6689 runtime paths absent**,no partial.
+Version `f82172af12d5695b`;checkpoint authority null/Ready false.
+Final serialized checks,signed integration,actual public archives/signatures/
+four protected refs/exact-main CI remain separate publication evidence.
+Protected033空 stays excluded/C2 UNVERIFIED,not media.
+No assets/native/device/phone/IME/media/default/package/release authority;
+continue068+ and ALL remaining safe frozen levels/families,not task completion.
+
 The sixty-sixth full-target batch adds **16 complete actual N4 leisure/
 sports/toys/sound lessons /866 Russian file lines** against unchanged
 frozen EN. The [actual independent review](translation-batches/066-leisure-sports-toys-and-sounds-independent-review-001.json)
