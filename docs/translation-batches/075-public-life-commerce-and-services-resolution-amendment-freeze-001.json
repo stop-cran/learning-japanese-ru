@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "batchId": "075-public-life-commerce-and-services",
+  "originalCandidateCommit": "05bfc4e4cff09db1c71f3db49f9dfb351857734c",
+  "frozenSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineCommit": "4ed4ddfacb448220a105fbb6747ddd765588e087",
+  "actualOriginalReportSha256": "4d1852cdd3d16e8695485e0e8bd5dfd50100ae210bfa6842e624875a46b640b1",
+  "actualOriginalReportUtf8Bytes": 10933,
+  "actualOriginalReviewerId": "3ea5d711-8576-47d4-91d5-834da089d133",
+  "originalReviewState": "Completed one-shot idle/notactuallyrunning;no recontact.",
+  "originalVerdicts": {
+    "C1": "PASS within assigned source-teaching scope;no substantive Japanese defect found",
+    "C2": "NOT CLEAN;lexical closure incomplete/Q030insufficiently supported;broaderC2UNVERIFIED",
+    "C3": "NEEDS CORRECTION:Russian neuter agreement輸入"
+  },
+  "originalReportImmutable": true,
+  "originalFreezeImmutable": true,
+  "plannedRepairs": [
+    {
+      "actualFindingId": "F1",
+      "disposition": "ADOPT_BOUNDED_NEW_Q038",
+      "proposal": {
+        "proposalId": "Q038",
+        "pair": [
+          "失敗",
+          "落す"
+        ],
+        "metadataOwner": "words/失敗.md",
+        "authorProposedQualifiedCategory": "K",
+        "directWholeEntryIds": [
+          "1320140",
+          "1589260"
+        ],
+        "individuallyBoundedJapaneseSenseClaim": "失敗mistake/unsuccessfulattempt versus落す/おとすindependentlyrecorded school/course/examfailure or losingcontest domain;preservetransitive roles/causation,notphysicaldropping/notunrestrictedallfailure.Actualruntimeprovider落す;noinvented落とす/noinferencefrom落ちる/滑る.",
+        "disposition": "AUTHOR_AMENDMENT_PROPOSAL_FOCUSED_REVIEW_PENDING",
+        "ordinaryModernNecessityFrequencyBroaderQuizSuitabilityGlobalFutureUniqueness": "UNVERIFIED"
+      },
+      "providerExistingAccepted": true,
+      "baselineProviderEdits": false
+    },
+    {
+      "actualFindingId": "F2",
+      "proposalId": "Q030",
+      "pair": [
+        "失敗",
+        "違う"
+      ],
+      "disposition": "WITHDRAW_UNSUPPORTED_AUTHOR_PROPOSAL_NOT_SOURCE_EDGE",
+      "reason": "Wrong/incorrectstate alone notdirectequivalence to failedattempt;no stronger claim/inference through間違える."
+    },
+    {
+      "authorAggregationId": "075-C3-AGREEMENT",
+      "actualFindingId": null,
+      "disposition": "ADOPT_RUSSIAN_NEUTER_AGREEMENT",
+      "path": "words/輸入.md",
+      "before": "нужен сказуемый",
+      "after": "нужно сказуемое",
+      "japaneseCorrection": false
+    },
+    {
+      "comparison": "消しゴム–ゴム",
+      "disposition": "QUALIFY_NO_CURRENT_PAIR_PROVIDER_ABSENT",
+      "reason": "Standalone eraser abbreviation independently attested in ENbody/JMdict1054570sense2.ゴムabsentfromCURRENT1458pool;material/itemdifferencenot universal negative. No absentproviderapproval/addedruntimeword."
+    }
+  ],
+  "retainedOriginalPairs": [
+    "Q001",
+    "Q002",
+    "Q003",
+    "Q004",
+    "Q005",
+    "Q006",
+    "Q007",
+    "Q008",
+    "Q009",
+    "Q010",
+    "Q011",
+    "Q012",
+    "Q013",
+    "Q014",
+    "Q015",
+    "Q016",
+    "Q017",
+    "Q018",
+    "Q019",
+    "Q020",
+    "Q021",
+    "Q022",
+    "Q023",
+    "Q024",
+    "Q025",
+    "Q026",
+    "Q027",
+    "Q028",
+    "Q029",
+    "Q031",
+    "Q032",
+    "Q033",
+    "Q034",
+    "Q035",
+    "Q036",
+    "Q037"
+  ],
+  "original36RetainedPairReviewBoundary": "36actualoriginalindividualS judgments carryONLYoriginal271body299object1458row qualifiedscope/currentidentity,NOTfresh36semanticreread/secondwhole/ordinarynecessityproof.NoindependentD/Kreclassification.",
+  "amendedExpectedDeclarations": 37,
+  "amendedExpectedSources": 0,
+  "amendedExpectedAuthorLabels": {
+    "D": 3,
+    "K": 34
+  },
+  "actualAuthorExtensionReading": {
+    "privateBinding": "ru-075-evidence-bindings-003.json",
+    "privateBindingSha256": "021b3723eab80f34b5c580e84f55c1f430775ed61a94d45d28dcdb7c1afaf7c9",
+    "newWholeProviderPairs": 1,
+    "combinedPreparatoryTeachingBodies": 253,
+    "officialObjects": 299,
+    "actualWholePayloadMatchedReturns": [
+      {
+        "eventId": "f5fb80ab-79a4-4b8b-9cbe-c40e17029b20",
+        "actualPublicReturnSha256": "ff8a72f287440aa574d255d1e818e0a47e41414efad8be046f34f7483c32c50f",
+        "actualPublicReturnUtf8Bytes": 3724,
+        "entireBoundPayloadMatched": true
+      }
+    ],
+    "actualFreshFocusedWholeObjects": 5,
+    "actualFocusedObjectReturns": [
+      {
+        "eventId": "a045c060-dba6-4e13-9a3e-cbfe498d76d9",
+        "actualPublicReturnSha256": "3903036387bab956882c9db182ff7746833b3fa505bbcc5f88c3ce26f3a2a489",
+        "actualPublicReturnUtf8Bytes": 5331,
+        "entireBoundPayloadMatched": true,
+        "actualWholeObjectIndices": [
+          5,
+          16,
+          88,
+          106,
+          226
+        ]
+      }
+    ],
+    "priorWholeBodyCount": 251,
+    "priorBaselineRows": 1438,
+    "boundary": "TwoadditionalWHOLEEN/RU落すbodiesactuallyreturned/read;fivewholeofficialobjectsactuallyreread;prior251/299/1438/3rubricsONLYoriginalscope/currentidentity,notfreshall."
+  },
+  "expectedLearnerMutationPaths": [
+    "words/失敗.md",
+    "words/輸入.md"
+  ],
+  "preMutationSnapshotUnchanged": true,
+  "correctedCandidate": "NOT_YET_CREATED",
+  "focusedReview": "PENDING_BOUNDED_FINDINGS_ONLY_NOT_SECOND_WHOLE",
+  "ordinaryModernNecessityFrequencyBroaderQuizSuitabilityGlobalFutureUniqueness": "UNVERIFIED",
+  "sourceAcceptance": false,
+  "checkpointReady": false,
+  "checkpointAuthority": null,
+  "fullTaskComplete": false,
+  "continueRequired": true
+}
