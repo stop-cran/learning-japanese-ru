@@ -11,6 +11,38 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The sixty-sixth full-target batch adds **16 complete actual N4 leisure/
+sports/toys/sound lessons /866 Russian file lines** against unchanged
+frozen EN. The [actual independent review](translation-batches/066-leisure-sports-toys-and-sounds-independent-review-001.json)
+read **113 whole teaching bodies/129 whole official projections/1258
+actual candidate caption-reading-quiz rows/three whole RU-root rubrics**:
+16 primary EN/RU pairs,33 contextual EN/RU pairs and15 frozen-only bodies.
+All52 assigned windows returned completely; the actual10870-byte
+stdout/native report identity is preserved.
+
+**C1/C3 CLEAN; C2 UNVERIFIED**, with no confirmed repairable omission
+within the evidence read. All29 direct proposals were independently
+assessed individually:eight direct lexical/current-caption protections
+and21 qualified conservative protections. Each actual reason/restriction
+persists. No universal synonymy, transitive clique, bare unrestricted 音
+fame sense or festival/calendar-holiday identity was adopted.
+**Ordinary modern necessity/frequency, broader ordinary quiz suitability
+and future global uniqueness remain UNVERIFIED.**
+This is not blanket C2 CLEAN,1258 whole-lesson recertification,
+or runtime/native/device/default/release approval.
+
+All1554 baseline runtime RAWs/tracking rows and historical evidence are
+preserved. Qualified source membership: **1570 runtime objects /1258
+words**,671 N5/440 N4/74 N3/19 N2/54 unlabelled; **196 N4 remain**.
+Strict progress: **1570 reviewed-current,two excluded reviewed blocked-media
+drafts,6706 pending of8278;6708 runtime paths absent**,no partial.
+Version `54c5285050e9254c`;checkpoint authority null/Ready false.
+Final serialized checks,signed integration,actual public archives/signatures/
+four protected refs/exact-main CI remain separate publication evidence.
+Protected033空 stays excluded/C2 UNVERIFIED,not media.
+No assets/native/device/phone/IME/media/default/package/release authority;
+continue067+ and ALL remaining safe frozen levels/families,not task completion.
+
 The sixty-fifth full-target batch adds **22 complete actual N4 writing/
 media/electronic-device lessons /1121 Russian file lines** against unchanged
 frozen EN. The [actual original whole review](translation-batches/065-writing-media-and-electronic-devices-independent-review-001.json)

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "batchId": "066-leisure-sports-toys-and-sounds",
+  "reviewedCandidateCommit": "cf1f8b966181c1866cdcbb9de7164102ea2e94c6",
+  "contentVersion": "54c5285050e9254c",
+  "runs": [
+    {
+      "command": [
+        "tools\\build_manifest.py"
+      ],
+      "startedAt": "2026-11-07T11:50:02.586936+00:00",
+      "completedAt": "2026-11-07T11:50:02.840492+00:00",
+      "seconds": 0.25,
+      "returncode": 0,
+      "stdout": "manifest.json: 1570 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 54c5285050e9254c\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "tools\\validate.py"
+      ],
+      "startedAt": "2026-11-07T11:50:02.851394+00:00",
+      "completedAt": "2026-11-07T11:50:05.917848+00:00",
+      "seconds": 3.062000000034459,
+      "returncode": 0,
+      "stdout": "0 error(s)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools",
+        "-p",
+        "test_*.py"
+      ],
+      "startedAt": "2026-11-07T11:50:05.927431+00:00",
+      "completedAt": "2026-11-07T11:50:35.650858+00:00",
+      "seconds": 29.718999999924563,
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 29.470s\n\nOK\n",
+      "environmentBoundary": "Only operation-local TMPDIR/TMP/TEMP use exact owned NTFS fixture workspace; exact empty workspace removed after existing test cleanup and before budget. No test/globalenvironment/auth/trust changes."
+    },
+    {
+      "command": [
+        "tools\\check_content_budget.py"
+      ],
+      "startedAt": "2026-11-07T11:50:35.663367+00:00",
+      "completedAt": "2026-11-07T11:50:36.532516+00:00",
+      "seconds": 0.875,
+      "returncode": 0,
+      "stdout": "{'files': 1578, 'entries': 1587, 'retainedBytes': 4300013, 'inflatedBytes': 4318228, 'localZipBytes': 2194154, 'listeningTaskMediaBytes': 0}\n",
+      "stderr": ""
+    }
+  ],
+  "boundary": "Fresh SERIALmanifest/validator/124tests/budget AFTER plans/tracking/progress/qualifiedreview/reviewedsource changes. This generated result receipt necessarily follows its commands; manifest/1570runtime RAWs unchanged.",
+  "checkpointAuthority": null,
+  "fullTaskComplete": false,
+  "continueRequired": true
+}

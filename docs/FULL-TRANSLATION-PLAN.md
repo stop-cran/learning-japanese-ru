@@ -1,6 +1,48 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch065 writing, media and electronic devices
+## Current qualified source milestone: batch066 leisure, sports, toys and sounds
+
+Batch066 adds **16 complete actual N4 lessons /866 Russian file lines**
+against unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The [actual independent review](translation-batches/066-leisure-sports-toys-and-sounds-independent-review-001.json)
+read **113 whole teaching bodies**:16 primary EN/RU pairs,33 contextual
+EN/RU pairs and15 frozen-only bodies, plus **129 whole official ordered
+projections,1258 actual candidate caption/reading/quiz rows and three
+whole current RU-root rubrics**. All52 assigned reading windows returned
+completely. The10870-byte stdout/native report identity is preserved.
+
+**C1/C3 CLEAN; C2 remains UNVERIFIED**, not relabelled CLEAN.
+No confirmed repairable omission was reported within the evidence read.
+All29 direct proposals received individual independent dispositions:
+**eight direct lexical/current-caption protections and21 qualified
+conservative protections**, with each reason and restriction retained.
+These support only the recorded lexical/category/referent protection,
+not universal synonymy or ordinary quiz necessity.
+Modern necessity/frequency, broader ordinary quiz suitability and future
+global uniqueness remain **UNVERIFIED**. This is one whole review,
+not a review of1258 whole lessons or the entire frozen corpus.
+
+The [qualified source record](translation-batches/066-leisure-sports-toys-and-sounds-reviewed-source.json)
+preserves the separate noun/verb/method distinctions, sound production
+versus audibility, separate 音 readings, and the restricted dictionary
+senses behind conservative guards. No transitive clique, bare unrestricted
+音 fame claim or festival/calendar-holiday identity was adopted.
+All1554 previously accepted runtime RAWs and tracking rows are unchanged.
+
+Qualified source membership: **1570 runtime objects /1258 words**:
+671 N5/440 N4/74 N3/19 N2/54 unlabelled; **196 N4 remain**.
+Strict progress: **1570 reviewed-current,two excluded reviewed blocked-media
+drafts,6706 pending of8278;6708 runtime paths absent**,no partial.
+Version `54c5285050e9254c`; checkpoint authority null/Ready false.
+Final serialized validation,signed integration,actual public archives/
+signatures/four protected references and exact-main CI are separate
+publication evidence,not reviewer claims.
+Protected033空 remains excluded pending/C2 UNVERIFIED,not media.
+No assets/native/device/phone/IME/media/default/package/release authority.
+Continue067+ and ALL remaining safe frozen levels/families; the full finite
+objective is not complete.
+
+## Previous qualified source milestone: batch065 writing, media and electronic devices
 
 Batch065 adds **22 complete actual N4 lessons /1121 Russian file lines**
 against unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
