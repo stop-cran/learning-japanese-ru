@@ -11,6 +11,61 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The seventy-eighth full-target batch adds **16 complete Russian kanji lessons/
+778 file lines,all actual frozen N4**,and16 RAW-identical Japanese KanjiVG
+assets. Existing54 complete word bodies receive55 exact navigation wrappers;
+Japanese/readings/examples/metadata/quiz arrays/original word links persist.
+The牛肉 change preserves `[肉](肉.md)` and wraps only its adjacent existing
+Russian meaning as `«[мясо](../kanji/肉.md)»`;the malformed private proposal
+was rejected before learner mutation. Frozen EN remains
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`;signed intake/freeze persist.
+
+The [actual whole review](translation-batches/078-home-places-and-everyday-things-kanji-independent-review-001.json)
+read **221 complete teaching bodies**:16 primary EN/RU pairs,91 current
+context EN/RU pairs,seven EN-only comparisons. Its official source scope is
+**331 whole units plus two exact postal heading sections**,not333 whole
+webpages:53 KANJIDIC records,13 Unicode key rows,234 whole ordered JMdict
+entries,16 primary KanjiPedia and15 supplementary semantic projections.
+It read179 current typed kanji rows,48 original directions,12 adjudications,
+54 exact navigation diffs,four complete guidance files and three correct
+RU-root rubrics. Entire successful payloads/complete oversized line unions
+are bound,not markers alone. Neither postal listing was whole-read;
+179 metadata rows are not179 whole lessons or1478 fresh word-pool judgments.
+The **10843-byte detailed report is actual reviewer stdout**,
+SHA256 `cdbb41d50df13341845070321cda3ccc9a36c2aa8662cb3b390a0d9cd5bad29d`;
+native/task final is a different52-byte generic summary.
+No byte identity or second review is fabricated.
+
+**C1/C3: no consequential defect found within assigned scope.
+C2: qualified core-contrast/dependency pass,NOT whole C2 CLEAN.**
+All48 directions retain only stated lexical-core scope;N025死→切 covers
+death versus cutting,not every ending sense,andN028/N029物→本/車 do not
+make books/vehicles universally wrong answers for a generic thing.
+The other45 are still qualified,not universal disjointness.
+No D/Q reclassification,new exclusion fields or reverse/transitive edges.
+**Broader fallback quiz suitability,modern necessity/frequency and global
+future uniqueness remain UNVERIFIED**,including元/本,家/内,台/私,
+画/図/計,generic/specific objects and ending-related overlaps.
+Rare/historical references do not establish ordinary productive practice;
+frozen花の京 has no fresh phrase-specific attestation. Prior word guards
+retain only their original identity/support/limitations.
+
+Qualified source checkpoint: **1866 runtime objects/1478 words/
+179 kanji/179 strokes**. Words remain671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/**86 N4**/11 N3/2 N2,leaving **80 actual frozen N4 kanji**.
+Strict progress: **1866 reviewed-current,two excluded reviewed blocked-media
+drafts,6410 pending of8278;6412 runtime paths absent**,no partial.
+Version `b29f4d5e03b8582f`;checkpoint authority null/Ready false.
+The1780 other baseline RAWs/tracking rows persist;54 navigation updates
+are separate. These become accepted-main counts only after signed normal
+integration;fresh final serialized checks,actual archives/signatures/four
+protected refs/exact-main CI are separate publication evidence.
+Stroke/root-license identity is not pixel/native/media approval.
+Protected033 **word**空 remains excluded/runtime-absent/C2 UNVERIFIED,
+not media;accepted077 **kanji**空 does not resolve it.
+No app/device/phone/IME/media/default/package/release authority.
+Continue079+ and ALL remaining safe frozen levels/families,not task completion.
+
 The seventy-seventh full-target batch adds **22 complete Russian kanji lessons/
 1279 file lines,21 actual N4 plus unchanged source-N2短**,and22 RAW-identical
 frozen Japanese KanjiVG assets. Existing53 word bodies receive only56

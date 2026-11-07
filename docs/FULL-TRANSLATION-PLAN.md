@@ -1,6 +1,69 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch077 study, writing and inquiry kanji
+## Current qualified source milestone: batch078 home, places and everyday things kanji
+
+Batch078 adds **16 complete Russian kanji lessons /778 file lines,all actual
+frozen N4**,plus **16 RAW-identical Japanese KanjiVG assets**.
+Existing54 complete word bodies receive55 navigation-only wrappers.
+Their Japanese,readings,examples,metadata,quiz arrays and original word links
+remain unchanged. In牛肉,the original `[肉](肉.md)` stays intact and the
+adjacent existing Russian meaning becomes `«[мясо](../kanji/肉.md)»`;
+an earlier private malformed proposal was caught before learner mutation.
+The frozen EN target remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The original intake and signed premutation adjudication/freeze remain immutable.
+
+The [actual whole review](translation-batches/078-home-places-and-everyday-things-kanji-independent-review-001.json)
+read **221 complete teaching bodies**:16 primary EN/RU pairs,91 current
+context EN/RU pairs and seven EN-only comparisons. Official evidence is
+**331 whole source units plus two exact JapanPost heading sections**,
+not333 whole webpages:53 whole KANJIDIC records,13 Unicode key rows,
+234 whole ordered JMdict entries,16 primary KanjiPedia projections and15
+supplementary semantic projections. Neither postal listing was whole-read.
+It also read **179 current typed kanji metadata rows,48 original directed
+contrasts,12 adjudications,54 exact navigation diffs,four complete guidance
+files and three complete correct RU-root rubrics**. Entire successful
+returned payloads and complete oversized line unions are bound;rows are
+not whole lessons or1478 fresh word-pool judgments.
+The **10843-byte detailed report is actual successful reviewer stdout**,
+SHA256 `cdbb41d50df13341845070321cda3ccc9a36c2aa8662cb3b390a0d9cd5bad29d`.
+The actual native/task final is a different52-byte generic summary;
+no stdout/native identity or second review is invented.
+
+**C1/C3: no consequential defect found within assigned source-backed scope.
+C2: qualified core-contrast/dependency pass,NOT whole C2 CLEAN.**
+All48 original directions retain only qualified lexical-core scope.
+N025死→切 covers death versus cutting,not all ending senses;
+N028/N029物→本/車 distinguish category names,not universally wrong answers:
+books and vehicles can be objects. The other45 retain their stated core
+contrasts,not universal disjointness. No D/Q reclassification,new exclusion
+fields or reverse/transitive directions are invented.
+**Ordinary fallback quiz suitability,modern necessity/frequency and global
+future uniqueness remain UNVERIFIED**,including元/本,家/内,台/私,
+画/図/計,generic物/specific objects,and ending-related死/切/終 overlaps.
+Rare/historical character attestations do not establish ordinary productive
+practice. Frozen花の京 remains retained without fresh phrase-specific
+attestation. Existing word guards carry only prior identity/support/limits.
+
+The [qualified source record](translation-batches/078-home-places-and-everyday-things-kanji-reviewed-source.json)
+preserves1780 other baseline runtime RAWs/tracking rows and records the54
+navigation-only updates separately. Qualified source checkpoint:
+**1866 runtime objects/1478 words/179 kanji/179 strokes**.
+Words remain671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/**86 N4**/11 N3/2 N2,leaving **80 actual frozen N4 kanji**.
+Strict progress: **1866 reviewed-current,two excluded reviewed blocked-media
+drafts,6410 pending of8278;6412 runtime paths absent**,no partial.
+Version `b29f4d5e03b8582f`;checkpoint authority null/Ready false.
+These become accepted-main counts only after normal signed integration;
+fresh final serialized checks,actual public archives/signatures/four
+protected refs/exact-main CI remain separate publication evidence.
+Stroke byte identity and root licenses are not pixel/native/media approval.
+Protected033 **word**空 remains excluded/runtime-absent/C2 UNVERIFIED,
+not media;accepted077 **kanji**空 does not resolve its caption blocker.
+No app/device/phone/IME/media/default/package/release authority.
+Continue079+ and ALL remaining safe frozen levels/families;
+neither this batch nor N4 word closure completes the finite target.
+
+## Previous qualified source milestone: batch077 study, writing and inquiry kanji
 
 Batch077 adds **22 complete Russian kanji lessons /1279 file lines:
 21 actual N4 and the unchanged source-N2 dependency短**,plus **22 RAW-identical
