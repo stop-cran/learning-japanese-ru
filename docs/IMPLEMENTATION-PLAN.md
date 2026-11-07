@@ -11,6 +11,48 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The sixty-fourth full-target batch adds **26 complete places/institutions/
+geography lessons /1487 Russian file lines**:22 actual N4 plus four required
+actual N3 providers, without relabelling. The frozen EN target is unchanged.
+The [actual original whole review](translation-batches/064-places-institutions-and-geography-independent-review-001.json)
+read172 whole teaching bodies/169 whole official projections/1220 current
+caption-reading-quiz rows/three current RU-root rubrics:26 EN/RU primary
+pairs,52 EN/RU providers and16 source-only EN lessons, no article.
+Actual **C1/C2/C3 NEEDS_FIX all coupledF1** and24 individually qualified
+original retains remain immutable; no separate Japanese/prose defect.
+
+The [actual focused review](translation-batches/064-places-institutions-and-geography-independent-review-002.json)
+freshly read four whole bodies/three whole official objects/two current
+full-metadata rows/three RU-root rubrics, the full original report, signed
+freeze, exact diff and identity proof. It resolves **F1/Q25市民–人口**:
+actual «население» can denote collective inhabitants, not only the headcount
+explained inside 人口. This is directional caption polysemy, not numerical
+equality, generic person inclusion or transitive protection.
+
+All26 teaching-body bytes and1220 captions-readings-levels-types-tags remain
+identical; only one header negative field changes. Original24 qualified
+judgments/five source guards carry original scopes, not25 fresh judgments,
+a second172-body review or1220 freshly reviewed corrected rows.
+Original10931-byte/focused10009-byte stdout/native identities persist.
+The original rubric hashes were correct; focused independent measurement
+clarifies header-plus-file payload sizes versus working/Git RAW sizes,
+without rewriting history or claiming another semantic review.
+Focused CLEAN is limited to the exact correction; **broader C2 ordinary
+quiz suitability and all25 ordinary modern necessity/frequency/global future
+uniqueness stay UNVERIFIED**. Five source guards plus25 qualified additions
+are30 direct protections, not cliques.
+
+Qualified source membership: **1532 runtime objects /1220 words**:
+671 N5/402 N4/74 N3/19 N2/54 unlabelled; **234 N4 remain**.
+Strict progress: **1532 reviewed-current, two excluded reviewed blocked-media
+drafts,6744 pending of8278;6746 runtime paths absent**, no partial.
+Version `600e5cd458536a7c`; checkpoint authority null/Ready false.
+All1506 baseline RAWs/tracking/history and excluded033空 are preserved.
+Serialized final checks, signed main integration, actual public archives/
+signatures/four protected refs and exact-main CI remain separate publication
+evidence. No assets/native/device/phone/IME/media/default/package/release
+authority; continue065+ and ALL remaining safe frozen levels/families.
+
 The sixty-third full-target batch adds **20 complete actual N4 giving/
 receiving/honorific lessons /1146 Russian file lines** against unchanged
 frozen EN. The [actual original whole review](translation-batches/063-giving-receiving-and-honorifics-independent-review-001.json)
