@@ -1,0 +1,3887 @@
+{
+  "schemaVersion": 1,
+  "batchId": "073-movement-direction-and-transfer",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineCommit": "d0e2385ab9e51a38b29653fa1a955631d2bcca75",
+  "intakeCommit": "ac4e6e224ae61171d94a78da284e3b8253a9edf5",
+  "exactEvidenceBinding": {
+    "privateFile": "ru-073-evidence-bindings-003.json",
+    "sha256": "529b875f6861a0a456f68d23efaf151b0ee42b009ce1bb5c64174c746ad2f340",
+    "completeOfficialObjects": 383,
+    "completeContextualPairs": 91,
+    "sourceOnlyWordBodies": 81,
+    "sourceOnlyArticles": 2,
+    "domain": "Entity-expanded ETserialization/whole ordered fields, not archive RAW slices."
+  },
+  "immutableHistoricalBindings": [
+    {
+      "privateFile": "ru-073-evidence-bindings-001.json",
+      "sha256": "da2efab468641476fc7ebcde99df6c42d4ca88600cffe15a82fefb2cbbe98fa4"
+    },
+    {
+      "privateFile": "ru-073-evidence-bindings-002.json",
+      "sha256": "6c39eba1d91e1734fadf35a96b226480e5a99e525afde93dd69437bd8022cc96"
+    }
+  ],
+  "actualPreparatoryReading": {
+    "uniqueWholeTeachingBodies": 291,
+    "counts": {
+      "primary": 26,
+      "pairs": 91,
+      "comparisons": 81,
+      "objects": 383,
+      "pool": 1387,
+      "rubric": 3
+    },
+    "completeWholeArticles": 2,
+    "actualSuccessfulPublicReturns": [
+      {
+        "eventId": "4447b03b-a802-4118-be98-501dfb4285b2",
+        "actualPublicReturnBytes": 11675,
+        "actualPublicReturnSha256": "8636d79dfeaedb257a2cd662d1dbfd2c910e9ce4b7ecea8ebfaab3f9857768b0",
+        "returnedWindows": [
+          [
+            "primary",
+            "20",
+            "26"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "7b1948df-f270-44c9-b6ef-26ad26803bdc",
+        "actualPublicReturnBytes": 11757,
+        "actualPublicReturnSha256": "b294af164a8e61e1a2c99752818034848ab0a7818c1a9b7054c3fdfa8f8a9806",
+        "returnedWindows": [
+          [
+            "primary",
+            "7",
+            "14"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "9a0f6f49-4870-4d8f-a8a2-fb1952fe3ce8",
+        "actualPublicReturnBytes": 12401,
+        "actualPublicReturnSha256": "6fb4af67f2f2e3073faf5b647b5ce81ae69d383fad11b084130e596a640b4f39",
+        "returnedWindows": [
+          [
+            "primary",
+            "0",
+            "7"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "eef577b7-5102-4cc6-93cc-1f1b3896c056",
+        "actualPublicReturnBytes": 10781,
+        "actualPublicReturnSha256": "33612c042d4bb588db568cdc3c7684761512c3722c8d6967daaa2ed15011cd05",
+        "returnedWindows": [
+          [
+            "primary",
+            "14",
+            "20"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "edcb14c1-0349-41b9-8aae-0ac456440b9d",
+        "actualPublicReturnBytes": 8483,
+        "actualPublicReturnSha256": "fdd8454d8ff7df5d783cf2b42e1ae79122468f174efcac571cb90a088d2713ba",
+        "returnedWindows": [
+          [
+            "pairs",
+            "6",
+            "8"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "dfafa68d-7cd2-4a9c-ad29-46084b13fecc",
+        "actualPublicReturnBytes": 8628,
+        "actualPublicReturnSha256": "7c427eefa124760b400641193ed36d2573db1dfe907077947355776e3603bdba",
+        "returnedWindows": [
+          [
+            "pairs",
+            "4",
+            "6"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "b25c69df-9228-4ad5-af0c-772c274fc51b",
+        "actualPublicReturnBytes": 10140,
+        "actualPublicReturnSha256": "46bceacabf3912d0288544de5bb9544444c8d7e4ec0eced636cc491313ff96bf",
+        "returnedWindows": [
+          [
+            "pairs",
+            "2",
+            "4"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "b2724e47-8c46-414a-910b-872d6d54b1bb",
+        "actualPublicReturnBytes": 8162,
+        "actualPublicReturnSha256": "ac577c81976b0c844de53abd47b51b67661f285aad68dfb76725574ab195bc24",
+        "returnedWindows": [
+          [
+            "pairs",
+            "10",
+            "12"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "8dc6a280-7f28-4c64-acb3-23d5bae8a619",
+        "actualPublicReturnBytes": 10391,
+        "actualPublicReturnSha256": "13f76b8a19c9bf3d8d796b8d4b9b69cf9165fffc024d96cca1d2d9381eb6eb91",
+        "returnedWindows": [
+          [
+            "pairs",
+            "8",
+            "10"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "d1ed8ca0-e1fc-47b4-a6ba-bb78159dc7fb",
+        "actualPublicReturnBytes": 7941,
+        "actualPublicReturnSha256": "68d50da11c3c99a4d1e8c84ee8d01f0e60aa618453367d86c9fd24af14f03cd5",
+        "returnedWindows": [
+          [
+            "pairs",
+            "0",
+            "2"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "58fe4f02-d04f-4330-b1c0-882a0b71aea4",
+        "actualPublicReturnBytes": 10296,
+        "actualPublicReturnSha256": "a380e57606f2c118599ba2956ce093d1697b8a80c5a4302a8b8f97ebd6b119e2",
+        "returnedWindows": [
+          [
+            "pairs",
+            "20",
+            "22"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "5af1be7f-85f4-4b8f-ad55-375b9f11c295",
+        "actualPublicReturnBytes": 10238,
+        "actualPublicReturnSha256": "72233d7da372e524b0e899dd17e4a6dafd26596d773b2629c9ff2dfe048e5769",
+        "returnedWindows": [
+          [
+            "pairs",
+            "15",
+            "17"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "06d7dadd-7b0e-451a-be56-5ea67a2c3663",
+        "actualPublicReturnBytes": 7225,
+        "actualPublicReturnSha256": "1a49fa1d24302a8913f330f10ed158cfd86d29d09100ed67ae4fb04e4d6b4c68",
+        "returnedWindows": [
+          [
+            "pairs",
+            "14",
+            "15"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "c1f861df-651e-4537-b890-ce1adccbd4bc",
+        "actualPublicReturnBytes": 9636,
+        "actualPublicReturnSha256": "acb29c297aea79fd9fafc2452c0360d4f8b98fc5a5e7edc81137862b798358eb",
+        "returnedWindows": [
+          [
+            "pairs",
+            "12",
+            "14"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "7073f750-d36b-4e88-a8d1-ea13910bd7af",
+        "actualPublicReturnBytes": 9766,
+        "actualPublicReturnSha256": "7c922b37f430d2dd36720dd4cc9616312664d145dd0f60a57063522bf818021b",
+        "returnedWindows": [
+          [
+            "pairs",
+            "22",
+            "24"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "eba9a157-0301-4f68-81be-c0c3743d70c6",
+        "actualPublicReturnBytes": 11754,
+        "actualPublicReturnSha256": "04d933903b326e122d90193e46be0fcee51f7f45cc31f119feaf2aef431af606",
+        "returnedWindows": [
+          [
+            "pairs",
+            "17",
+            "20"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "a3f81d31-511d-42ee-bbac-61a3b4850728",
+        "actualPublicReturnBytes": 10727,
+        "actualPublicReturnSha256": "7651d28bf3ba233755bf03fc50501a7894b3121757328370808ddadf1baebf62",
+        "returnedWindows": [
+          [
+            "pairs",
+            "34",
+            "37"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "93e31b27-b7c8-49ba-bb51-26b147b521ec",
+        "actualPublicReturnBytes": 12098,
+        "actualPublicReturnSha256": "20b69cca81feb0da6ae2bc41af33f0556dc536bb85278d39151a4612b507fac4",
+        "returnedWindows": [
+          [
+            "pairs",
+            "29",
+            "32"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "607622b1-2d62-42f8-8b4d-33d6044c3ddf",
+        "actualPublicReturnBytes": 9305,
+        "actualPublicReturnSha256": "8b6c0873b76827a7ad37b620d09fd165fc68dc72c12ab3bc253ce72db2233a67",
+        "returnedWindows": [
+          [
+            "pairs",
+            "27",
+            "29"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "f04ce1d8-b169-4fcc-b0e6-5b537bc4dcb8",
+        "actualPublicReturnBytes": 11333,
+        "actualPublicReturnSha256": "076614636313987adfa8f2920e50f02cb12995687717359282ae061015bb042b",
+        "returnedWindows": [
+          [
+            "pairs",
+            "32",
+            "34"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "e577554f-b57d-43a7-831f-6ad082be3270",
+        "actualPublicReturnBytes": 12164,
+        "actualPublicReturnSha256": "e64ef58c08d920dabb1a011ed500a9b984e0e62cfdc64c6d571864f07d521ca8",
+        "returnedWindows": [
+          [
+            "pairs",
+            "24",
+            "27"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "1cc2e596-597e-4f66-900b-54013953e325",
+        "actualPublicReturnBytes": 8062,
+        "actualPublicReturnSha256": "f975d04fcd5ed93be8d7e907ec54a2976587ff5870992986e0afb2386e684943",
+        "returnedWindows": [
+          [
+            "pairs",
+            "37",
+            "39"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "30601f36-0345-480e-be43-f213166d0054",
+        "actualPublicReturnBytes": 10371,
+        "actualPublicReturnSha256": "1c9b6c8d4f8f196469a75d0cc58824afea5972af81b4637b0fb57cc03a3cf355",
+        "returnedWindows": [
+          [
+            "pairs",
+            "39",
+            "41"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "ff7424e4-1adb-4138-bdb4-aefcbd34f2e5",
+        "actualPublicReturnBytes": 9637,
+        "actualPublicReturnSha256": "cb81de42af7eab6c8fb296f608d6bfa1fbd4fd256d8e3e4beb9257108b322ad0",
+        "returnedWindows": [
+          [
+            "pairs",
+            "46",
+            "48"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "09de9e8b-1976-4dc3-99bb-d733ca2ea726",
+        "actualPublicReturnBytes": 12125,
+        "actualPublicReturnSha256": "af7cf01931ecac9542607776bf717d9fd07d80bb8cfadb749efcbfa4cc64c5f7",
+        "returnedWindows": [
+          [
+            "pairs",
+            "41",
+            "44"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "3f6ce66d-e035-46fc-9e28-6a31ac39b7dd",
+        "actualPublicReturnBytes": 8152,
+        "actualPublicReturnSha256": "7bb232f8d9e3b9ba1845bdd2197fd24d989239d800a0bb80fc63dc29c60ca6a1",
+        "returnedWindows": [
+          [
+            "pairs",
+            "44",
+            "46"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "5738e3fa-85f9-40b7-abe4-c70a2e574b6f",
+        "actualPublicReturnBytes": 10990,
+        "actualPublicReturnSha256": "6b7bd9585ba288be20a369dedc2c4bf924dc9d752ad94998b742e3b86c6d146a",
+        "returnedWindows": [
+          [
+            "pairs",
+            "48",
+            "50"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "dd3c4287-39a3-4206-85b5-5747d59a23a9",
+        "actualPublicReturnBytes": 10998,
+        "actualPublicReturnSha256": "da3a91e2558664f7292fa68f48508d5adc3a4ffb935c02d3e96770e0181ae237",
+        "returnedWindows": [
+          [
+            "pairs",
+            "50",
+            "53"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "30fc8e42-1703-4cdf-98a3-ebd693090542",
+        "actualPublicReturnBytes": 9394,
+        "actualPublicReturnSha256": "8274a2f1d7330b604e94ffe281c698bd1dc656e27c6018d67e4b28aa6bd26331",
+        "returnedWindows": [
+          [
+            "pairs",
+            "57",
+            "59"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "8c9b16f1-f30c-47e6-a2b6-f242e2568630",
+        "actualPublicReturnBytes": 8820,
+        "actualPublicReturnSha256": "3b9dfe9109f6bbc490764ea542eb4a1a22f8fd9f5d610b6af6965ee045fd94be",
+        "returnedWindows": [
+          [
+            "pairs",
+            "59",
+            "61"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "66f065ed-c014-4225-9b5e-d18360f5fa7e",
+        "actualPublicReturnBytes": 8552,
+        "actualPublicReturnSha256": "6339515386d57418dc663a96590d97cac20f56fb0d0a10cb7274d2510fb96dde",
+        "returnedWindows": [
+          [
+            "pairs",
+            "61",
+            "63"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "4d10497f-8a46-4058-8842-f4cc6f2cb189",
+        "actualPublicReturnBytes": 9650,
+        "actualPublicReturnSha256": "306b3929a65afe711a7ef10072664b3fc893459ff5fd7a70c97df7a6f423150c",
+        "returnedWindows": [
+          [
+            "pairs",
+            "65",
+            "67"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "91863163-1b88-4b1e-8b8c-070711259f13",
+        "actualPublicReturnBytes": 9187,
+        "actualPublicReturnSha256": "eb5cd90935b2913a22bde315ea0c07f4c1e30af79eb502ca5423ab67cb570903",
+        "returnedWindows": [
+          [
+            "pairs",
+            "63",
+            "65"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "9692d8dd-1f8c-441e-b76b-7d0864639375",
+        "actualPublicReturnBytes": 9873,
+        "actualPublicReturnSha256": "7d5b7ad73ef03cf723d3279d18e8ee47a5a0a0f14e342cb937ad6e23429105a8",
+        "returnedWindows": [
+          [
+            "pairs",
+            "53",
+            "55"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "061d35cd-b312-4343-a915-6e8898f6fe17",
+        "actualPublicReturnBytes": 8635,
+        "actualPublicReturnSha256": "d54669ff507f70af4ef41c71e6e36d59113a256a9bfbd568a75dac8078417fa8",
+        "returnedWindows": [
+          [
+            "pairs",
+            "55",
+            "57"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "ae514805-d48d-40c4-838c-8b817690e98e",
+        "actualPublicReturnBytes": 7229,
+        "actualPublicReturnSha256": "cb36666d24ab462bbe49bc4ce32233f1bbd81219ebc2f83b51a86da8a16dbbb8",
+        "returnedWindows": [],
+        "actualWholeRubricIndices": [
+          "1"
+        ],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "bd673b98-7ae6-4bd0-b932-69f74b05c85e",
+        "actualPublicReturnBytes": 5331,
+        "actualPublicReturnSha256": "562b00478f4d0462da694135b18f80bf63109e26b06f456af1a1e073ddfc03e4",
+        "returnedWindows": [],
+        "actualWholeRubricIndices": [
+          "0"
+        ],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "b2153b40-06ec-4a67-a41b-401b9343b2ea",
+        "actualPublicReturnBytes": 5940,
+        "actualPublicReturnSha256": "7f5e2baf32a88af40c526822de8331c4101489fdea37acd8ecc469111628acc4",
+        "returnedWindows": [],
+        "actualWholeRubricIndices": [
+          "2"
+        ],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "87230e9f-df35-4f4f-874b-a9b5cfd0ceb2",
+        "actualPublicReturnBytes": 11757,
+        "actualPublicReturnSha256": "f92ede95c142c3a7491eef900878eb3552eba50885b844a1c3ad1242772addc3",
+        "returnedWindows": [
+          [
+            "comparisons",
+            "11",
+            "17"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "b5f95d22-c14a-44fe-b090-8171491982f2",
+        "actualPublicReturnBytes": 12471,
+        "actualPublicReturnSha256": "bf82fdb403c1029a2abeaf663d4e30f7ee70e1cf031d72a7be07a475ca0a7f44",
+        "returnedWindows": [
+          [
+            "comparisons",
+            "0",
+            "6"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "17c9a0e4-8c33-4927-a694-14de747131dd",
+        "actualPublicReturnBytes": 11474,
+        "actualPublicReturnSha256": "6bbdfe99a0403ca400165cdbc3b70f0d4ce4d0d7c83377580a04f9a7858fd613",
+        "returnedWindows": [
+          [
+            "comparisons",
+            "6",
+            "11"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "7f4f88d9-a742-486d-a341-a67420452e88",
+        "actualPublicReturnBytes": 11264,
+        "actualPublicReturnSha256": "b1983cb01690b2b569044701fa24082ef6ccb7aa61bbb7695c5d3e4dd2ada95e",
+        "returnedWindows": [
+          [
+            "comparisons",
+            "17",
+            "22"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "8f1be7e4-c15d-48e0-87b8-092da47fd9b9",
+        "actualPublicReturnBytes": 11599,
+        "actualPublicReturnSha256": "25bbbfaff5b4a3d621b4d8ac73acf8cc1b5ed3bad638e8dcae55750cf0003c62",
+        "returnedWindows": [
+          [
+            "comparisons",
+            "39",
+            "45"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "dece0690-a035-4be0-971e-c7633ca07f24",
+        "actualPublicReturnBytes": 12188,
+        "actualPublicReturnSha256": "c8c7e5070a5c6a8f30f4f302e40b5a18e8493e04eb5d00f46d40c7e59eacdc81",
+        "returnedWindows": [
+          [
+            "comparisons",
+            "22",
+            "28"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "0c6f4081-7725-46c4-a5ab-585a40dd03d3",
+        "actualPublicReturnBytes": 11777,
+        "actualPublicReturnSha256": "9298137475a9cd3eaa43ae600b2257026ec350570b89cdad5ac33932240692cc",
+        "returnedWindows": [
+          [
+            "comparisons",
+            "45",
+            "51"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "7308a82d-83ae-4ea2-9609-879c2bd238cb",
+        "actualPublicReturnBytes": 11233,
+        "actualPublicReturnSha256": "bc5c015b565ac41c5a32afbd0042ec91e3b08b0ca5868d5e368df18c1653de36",
+        "returnedWindows": [
+          [
+            "comparisons",
+            "28",
+            "33"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "3416782a-f304-4282-9c4f-e819b0ab431f",
+        "actualPublicReturnBytes": 12518,
+        "actualPublicReturnSha256": "e8ebe7430a82ae24128f9e58d105741e2e4c2ce82d5ec48e9fac8f23e4397ff0",
+        "returnedWindows": [
+          [
+            "comparisons",
+            "33",
+            "39"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "56c7deed-0776-4e67-9851-1f7231963481",
+        "actualPublicReturnBytes": 9331,
+        "actualPublicReturnSha256": "4e017018a31a354e7beea3629f240269e4b7df445e70da7c56df16bc22ee4df7",
+        "returnedWindows": [
+          [
+            "comparisons",
+            "76",
+            "81"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "0ffd41c1-8e9a-493d-922a-d7376c36f896",
+        "actualPublicReturnBytes": 11628,
+        "actualPublicReturnSha256": "e9ef1fc77e630dc3fe15964a8955103ee398413d406a834a39ad49b9da5eb3ba",
+        "returnedWindows": [
+          [
+            "comparisons",
+            "64",
+            "70"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "ab1ba6b5-68ca-46d1-ae6b-0bab2944bc91",
+        "actualPublicReturnBytes": 11825,
+        "actualPublicReturnSha256": "7a5b8c8f8f4647ad110aa9bd1c41d882b26abcf5266ad9e8932926a93ebf147e",
+        "returnedWindows": [
+          [
+            "comparisons",
+            "58",
+            "64"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "3050c030-e5f5-48c3-b8f8-dd825d9b897f",
+        "actualPublicReturnBytes": 11724,
+        "actualPublicReturnSha256": "33910ceb215f7925a4fca384996579b313177bfbab8a0aff4c2c8d581316b5d6",
+        "returnedWindows": [
+          [
+            "comparisons",
+            "70",
+            "76"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "e1d67c9f-b923-4809-a329-adbdba3d7f2a",
+        "actualPublicReturnBytes": 12261,
+        "actualPublicReturnSha256": "8fa19b18048cc1f6c186f60aed7d93dc49823a67acdcbc8e0a62f38f047ebafa",
+        "returnedWindows": [
+          [
+            "comparisons",
+            "51",
+            "58"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "ce4b0536-188a-475f-a7e0-a5d6e208d4ba",
+        "actualPublicReturnBytes": 11848,
+        "actualPublicReturnSha256": "d646312c56b88525ab28ea88353b2bc1092707238c4ddd5692254af4b7362f9e",
+        "returnedWindows": [],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": [
+          [
+            "0",
+            "0",
+            "182",
+            "201"
+          ]
+        ]
+      },
+      {
+        "eventId": "e5fa4981-ede4-47f8-8b3c-341dff8771aa",
+        "actualPublicReturnBytes": 11778,
+        "actualPublicReturnSha256": "d4327ec7fd6e92753921ca738d6a039c913991b7715329bab4cc7093a6436137",
+        "returnedWindows": [],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": [
+          [
+            "1",
+            "0",
+            "189",
+            "417"
+          ]
+        ]
+      },
+      {
+        "eventId": "3d1816a8-425d-471a-b680-e3f04fe75cf5",
+        "actualPublicReturnBytes": 4893,
+        "actualPublicReturnSha256": "feb875000ef4876c6cbdde5d2651e0625c3ba58a6797c3594ce5c0b66712cb29",
+        "returnedWindows": [],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": [
+          [
+            "1",
+            "373",
+            "417",
+            "417"
+          ]
+        ]
+      },
+      {
+        "eventId": "e8796c33-77e0-43f0-af7f-6fba9fbaa710",
+        "actualPublicReturnBytes": 2376,
+        "actualPublicReturnSha256": "d11d81557e66637987bb9fe23fd9fb21850cd7603377d57ed3f6badd0d563e99",
+        "returnedWindows": [],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": [
+          [
+            "0",
+            "182",
+            "201",
+            "201"
+          ]
+        ]
+      },
+      {
+        "eventId": "2c6e6203-4437-4ba8-9c53-312adf5e0a7f",
+        "actualPublicReturnBytes": 11770,
+        "actualPublicReturnSha256": "9647741ae40b791e372633edf4a7b77ed2ab45946dfb280b90f8e0f36a92e706",
+        "returnedWindows": [],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": [
+          [
+            "1",
+            "189",
+            "373",
+            "417"
+          ]
+        ]
+      },
+      {
+        "eventId": "17536362-8d85-42f3-8338-95affd1456be",
+        "actualPublicReturnBytes": 12459,
+        "actualPublicReturnSha256": "9daaaa89ec82682739c266573d75f5b8892c145752448f70fbcfb0e6c625b242",
+        "returnedWindows": [
+          [
+            "objects",
+            "15",
+            "25"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "3b3c70be-a315-4ed4-b04f-fdbd35e4223c",
+        "actualPublicReturnBytes": 11264,
+        "actualPublicReturnSha256": "6260ff5bab81d108c19fbf40054b82f463863e46cfd5a4d62d9d2a911f2960d4",
+        "returnedWindows": [
+          [
+            "objects",
+            "25",
+            "33"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "9ed83cf6-9e20-4303-84c7-10fac385de44",
+        "actualPublicReturnBytes": 12208,
+        "actualPublicReturnSha256": "0404ed6a38221ec32c02ad8171a17aa8a667745816aaa08f05384a55e1f42e81",
+        "returnedWindows": [
+          [
+            "objects",
+            "33",
+            "41"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "fb21248f-f04d-41f1-8dbb-0c4112c60911",
+        "actualPublicReturnBytes": 12254,
+        "actualPublicReturnSha256": "2d3badede3493110906f0a57a141781f8681f9826dfaa6e4c15663110a3e9eb1",
+        "returnedWindows": [
+          [
+            "objects",
+            "59",
+            "75"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "5ec4261e-e770-4a52-a1df-67f41a448336",
+        "actualPublicReturnBytes": 12148,
+        "actualPublicReturnSha256": "e74ab53379f9d512f9da74cb4087e3af3e47569e2cdcff17c9568390e4d1f03b",
+        "returnedWindows": [
+          [
+            "objects",
+            "0",
+            "15"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "b2678e33-5028-4973-8bf8-ae54fb0ec3b7",
+        "actualPublicReturnBytes": 12501,
+        "actualPublicReturnSha256": "c4c77198dc727e66870b3c20c817dc7be3c308fca31362681f651c80197ea24b",
+        "returnedWindows": [
+          [
+            "objects",
+            "41",
+            "59"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "4807afbd-b940-416f-b5a6-57f4caa82729",
+        "actualPublicReturnBytes": 10131,
+        "actualPublicReturnSha256": "58e7027f27d88f006fd894ef217b586c3fdc7d3317a77748c84fdca5d0acb78c",
+        "returnedWindows": [
+          [
+            "objects",
+            "91",
+            "99"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "71d6ea0b-e927-4099-84b4-c8acea80b1a7",
+        "actualPublicReturnBytes": 8598,
+        "actualPublicReturnSha256": "a3849245eff0b28e60618db0a2ee95336c5cf2e2ba1ad881d7fa42439ccbca68",
+        "returnedWindows": [
+          [
+            "objects",
+            "99",
+            "104"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "7b502fab-8923-4ed3-9c91-a88d4a81d70c",
+        "actualPublicReturnBytes": 11420,
+        "actualPublicReturnSha256": "e81dcd14b2773048cc60b7a5d1e1d4787ae1311c83a5e015c34d3a3b337a34f8",
+        "returnedWindows": [
+          [
+            "objects",
+            "75",
+            "91"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "5233b576-5f53-4227-8878-bb93e976a630",
+        "actualPublicReturnBytes": 11935,
+        "actualPublicReturnSha256": "b16aab524540175ba6c5d32d783723b4b2d00075ddd4f4533dc231c117a0cf29",
+        "returnedWindows": [
+          [
+            "objects",
+            "104",
+            "114"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "fe4b26ca-81e3-4d6c-88e8-b6a087b8183a",
+        "actualPublicReturnBytes": 12250,
+        "actualPublicReturnSha256": "f91d9ac5d7ed88ebc5cfbdbe757ce33c99ec00e9f0fb524e3a6de9490bf94661",
+        "returnedWindows": [
+          [
+            "objects",
+            "114",
+            "130"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "3a048cc4-97b2-44fb-9feb-0892380af35f",
+        "actualPublicReturnBytes": 12045,
+        "actualPublicReturnSha256": "dfb39c91a53b06b99d319f48e73695903a054e5adde90bfa6ffbe627c1c2dfbb",
+        "returnedWindows": [
+          [
+            "objects",
+            "130",
+            "145"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "4025d695-4dbb-496e-bdbc-5e025282248e",
+        "actualPublicReturnBytes": 12403,
+        "actualPublicReturnSha256": "fc0986a6551a8a8fc2cb18a0f636810d670a379cdc0af902e2926c58ff275f3a",
+        "returnedWindows": [
+          [
+            "objects",
+            "145",
+            "153"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "20a81970-b083-4b26-9028-8b7de13d9e0b",
+        "actualPublicReturnBytes": 12168,
+        "actualPublicReturnSha256": "495a72c8e303f89a13267c7b34440930376e0198f39da669d93929af74b54df2",
+        "returnedWindows": [
+          [
+            "objects",
+            "153",
+            "170"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "2f2a0452-9a7a-456e-bfa2-0789ee2e75f2",
+        "actualPublicReturnBytes": 12150,
+        "actualPublicReturnSha256": "085cba78a14f7856c85330422ff475541745d409628d9b5c4ad7f5fac1077504",
+        "returnedWindows": [
+          [
+            "objects",
+            "201",
+            "221"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "03ae2a1d-0bbf-4030-88cd-3a16506fadb3",
+        "actualPublicReturnBytes": 11899,
+        "actualPublicReturnSha256": "db84effb24563863ad7f38784f4af7a20d02cba2605922a0343236e2694ee5d3",
+        "returnedWindows": [
+          [
+            "objects",
+            "170",
+            "185"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "e94688f4-1138-4ab9-82db-840f269a4ac1",
+        "actualPublicReturnBytes": 11877,
+        "actualPublicReturnSha256": "e3a284a06d9352c682b538a8d9437e99b709e2f82975aba5683ee90c638506d6",
+        "returnedWindows": [
+          [
+            "objects",
+            "185",
+            "201"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "e6c7fcfb-88eb-433d-9b6b-b4f8a2776f79",
+        "actualPublicReturnBytes": 11142,
+        "actualPublicReturnSha256": "36e6a01b4e435d620c9d2a452d975a9f6b87fe2d9bf4e31e73e8bde3a29f94d9",
+        "returnedWindows": [
+          [
+            "objects",
+            "244",
+            "256"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "2bfc49d0-67fd-46e2-b01b-51660a267c4e",
+        "actualPublicReturnBytes": 12364,
+        "actualPublicReturnSha256": "7f016ae4f3464d71d847d7a125f0454453400646f2e920a47bd143a2baff49c2",
+        "returnedWindows": [
+          [
+            "objects",
+            "279",
+            "294"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "7627b878-ebbe-4918-ac57-11e32e48f7c3",
+        "actualPublicReturnBytes": 10340,
+        "actualPublicReturnSha256": "3142de45f338ced773d16e3ac554783bd18a9740012027064d3ba5032796b55c",
+        "returnedWindows": [
+          [
+            "objects",
+            "234",
+            "244"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "5a265811-bcf0-48d2-9278-e747a94e8cf3",
+        "actualPublicReturnBytes": 12122,
+        "actualPublicReturnSha256": "4be4d780282d7af86a85d3dd3b3ef7fe044d8c9eb9e334838c0d50e9b0184d77",
+        "returnedWindows": [
+          [
+            "objects",
+            "221",
+            "234"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "49ccf26a-e66d-4d23-9b9c-71c098b7b808",
+        "actualPublicReturnBytes": 12247,
+        "actualPublicReturnSha256": "ee4709b5d78aae8a04b2598cb5df0d8150c210c05b3761957e67d9014a077077",
+        "returnedWindows": [
+          [
+            "objects",
+            "256",
+            "266"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "4c5e1ffd-1049-46bc-aa39-485b1e5163c7",
+        "actualPublicReturnBytes": 11999,
+        "actualPublicReturnSha256": "29185226ccd9b6e24951070d550eb8b82ffdaa5420c2aa4d2b80bc9ddcc5963c",
+        "returnedWindows": [
+          [
+            "objects",
+            "266",
+            "279"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "7628bad8-d32c-4a1a-8051-235d00ded610",
+        "actualPublicReturnBytes": 12229,
+        "actualPublicReturnSha256": "5e8dc978c9114f203924b515754d0a12276531e0bee3c675d5ee2e51e862bafc",
+        "returnedWindows": [
+          [
+            "pool",
+            "0",
+            "75"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "b6478652-f207-41b7-aaf3-16ced45b27a2",
+        "actualPublicReturnBytes": 6281,
+        "actualPublicReturnSha256": "8d947a4c795cab61de37f187c669cd56b4739fef84a2ec232ce1d9ce076b55b6",
+        "returnedWindows": [
+          [
+            "objects",
+            "319",
+            "334"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "f224c66c-224d-4c7f-b028-668c1198fb9f",
+        "actualPublicReturnBytes": 12191,
+        "actualPublicReturnSha256": "fe006dfa46dd413a90a7343f8c943911a72b165307666a0e49c76340912cd2df",
+        "returnedWindows": [
+          [
+            "pool",
+            "75",
+            "152"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "b9aabc43-5ff9-4f3f-bcf0-2f0802c851d2",
+        "actualPublicReturnBytes": 12158,
+        "actualPublicReturnSha256": "b648c6ad1d433c64ee4131f90e5e2b855c6c3e7a78ffb465013a904ab99615f8",
+        "returnedWindows": [
+          [
+            "pool",
+            "152",
+            "239"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "00857939-5ad1-4157-8ba1-be25b9641fa6",
+        "actualPublicReturnBytes": 12214,
+        "actualPublicReturnSha256": "dae4e03ef3b12b1f8616ba4f174eda38c3e2f7f8f7eed03a1e3d8cef0c1aa814",
+        "returnedWindows": [
+          [
+            "objects",
+            "294",
+            "319"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "31a20a49-f530-4d94-9541-3af41640ec77",
+        "actualPublicReturnBytes": 12218,
+        "actualPublicReturnSha256": "f52e80b3c9fbfa7f3bfa4c5ff979374481bd077a8c142dc95f2eb5106eb6d134",
+        "returnedWindows": [
+          [
+            "pool",
+            "595",
+            "684"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "914afdf0-511a-44df-b040-5c5b97a39ee1",
+        "actualPublicReturnBytes": 12198,
+        "actualPublicReturnSha256": "d3ea2cdcad9b247a7efeacf6aaa104ebd65954b38a24fbb6cdee7ad7018a475a",
+        "returnedWindows": [
+          [
+            "pool",
+            "239",
+            "326"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "86269b8b-9fbc-4989-b85f-e9fdbc2ad323",
+        "actualPublicReturnBytes": 12280,
+        "actualPublicReturnSha256": "a0295af1668abb1dad483d2af1a6ae04a2fa62498400437115d534aa97049cb3",
+        "returnedWindows": [
+          [
+            "pool",
+            "326",
+            "413"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "7cced9d1-655c-4f04-8bd1-b19a9585423f",
+        "actualPublicReturnBytes": 12268,
+        "actualPublicReturnSha256": "9ba8e4d7ff5b867b0dbea656521891167f7484c9f216c8877f9c88a0c81434eb",
+        "returnedWindows": [
+          [
+            "pool",
+            "506",
+            "595"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "ffdb6f2d-c108-4429-a32a-65602e47eed0",
+        "actualPublicReturnBytes": 12205,
+        "actualPublicReturnSha256": "167e12543729481d12450806a1db469d86f6430e07b684314c7d17ddcc8cf4c2",
+        "returnedWindows": [
+          [
+            "pool",
+            "413",
+            "506"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "157e0f4c-6f38-49f9-aed7-9200118b42d6",
+        "actualPublicReturnBytes": 12194,
+        "actualPublicReturnSha256": "22f33d33c64f108b3bb5aec9c89eff7f224f4065d9e50706dd92fd660fa6f8bd",
+        "returnedWindows": [
+          [
+            "pool",
+            "684",
+            "775"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "6acb38b1-3efc-4dd4-be04-e56b78fd7d2d",
+        "actualPublicReturnBytes": 12189,
+        "actualPublicReturnSha256": "422f0f8208e68db3426d36f988c00f634a56aff24d21e0c61e4b07ab48dadd5c",
+        "returnedWindows": [
+          [
+            "pool",
+            "1049",
+            "1136"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "f27e3b73-ddbd-4306-a52c-4c42fd65cb64",
+        "actualPublicReturnBytes": 12223,
+        "actualPublicReturnSha256": "bb07d9599aaf37fcb2ee56f9a7070548dcb2b445dae38ee6805622d77aeef696",
+        "returnedWindows": [
+          [
+            "pool",
+            "867",
+            "959"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "edf045a9-d79d-4d98-8d24-8e457cd2095c",
+        "actualPublicReturnBytes": 12289,
+        "actualPublicReturnSha256": "2a08ead0bd285599bef3bfdf51c1c845116118e4552ca393e241f2499e68af5e",
+        "returnedWindows": [
+          [
+            "pool",
+            "775",
+            "867"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "ccaad622-814f-49a3-a553-fa26b1232887",
+        "actualPublicReturnBytes": 12171,
+        "actualPublicReturnSha256": "b2c23ee976915b9e6903a3670a7db1ef897876a64f6d3ef317778590a1d0d288",
+        "returnedWindows": [
+          [
+            "pool",
+            "959",
+            "1049"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "e3c36993-e00b-4235-8239-dd9dca544ba0",
+        "actualPublicReturnBytes": 4543,
+        "actualPublicReturnSha256": "6261f992f64f67de9ecd9b00e4620c86ade51d9eb85da1ce4c3db21d07257432",
+        "returnedWindows": [
+          [
+            "pool",
+            "1366",
+            "1387"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "1b365159-a954-4f94-97a0-6b53d32d186f",
+        "actualPublicReturnBytes": 12201,
+        "actualPublicReturnSha256": "bb08a519476271123777c89e00bb095b76d4723ed76db89f8b4dc1e1bead93f9",
+        "returnedWindows": [
+          [
+            "pool",
+            "1136",
+            "1226"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "9f6ae0c4-a9f0-4b33-b6f7-041b31bf4be2",
+        "actualPublicReturnBytes": 12210,
+        "actualPublicReturnSha256": "93078d0aa184d0eb8f14ba3de9221697a8d739df1961d0b15bf4d8ac2b24bbef",
+        "returnedWindows": [
+          [
+            "pool",
+            "1300",
+            "1366"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "e22f2b2e-1cb3-4239-975c-a32b06432798",
+        "actualPublicReturnBytes": 12339,
+        "actualPublicReturnSha256": "e540c923d8291e276e5ce77d93315f488961f60b37d113c6e98a7d1de75851bf",
+        "returnedWindows": [
+          [
+            "pool",
+            "1226",
+            "1300"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "c9a091f8-4495-4612-8c11-280f193c8604",
+        "actualPublicReturnBytes": 10781,
+        "actualPublicReturnSha256": "00ae4bc74a6a2a4e54ab44d48bc8388dbed3f837ca170c9d9f443926ded61168",
+        "returnedWindows": [
+          [
+            "primary",
+            "14",
+            "20"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "b9ea5bad-721e-432c-8807-5a06f7f44de3",
+        "actualPublicReturnBytes": 11675,
+        "actualPublicReturnSha256": "40ac8fe7e77e6f893627e474173a018c2b6f1c2748546b21d043ccc8afdf4abb",
+        "returnedWindows": [
+          [
+            "primary",
+            "20",
+            "26"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "85f536bc-9e1a-48e9-90b5-530db24a5bde",
+        "actualPublicReturnBytes": 12401,
+        "actualPublicReturnSha256": "35b84e288872ff9bfdcada62552af0fffe2e4d3cb0bf4dcc0773a290a6748758",
+        "returnedWindows": [
+          [
+            "primary",
+            "0",
+            "7"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "ed74cb3f-c9f2-4a49-987d-1576ca893ede",
+        "actualPublicReturnBytes": 11757,
+        "actualPublicReturnSha256": "15a4766bcf8bb448b7c61d14e3e4483fcf077b0e107578dbb402425fe60a0af3",
+        "returnedWindows": [
+          [
+            "primary",
+            "7",
+            "14"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "15b46679-58ec-43e6-a75d-109424e6df5d",
+        "actualPublicReturnBytes": 9404,
+        "actualPublicReturnSha256": "e50911ecd23bbb9cb7faaf8070fee3f990e5d61016fa8dd9fe92ea73eb70a17d",
+        "returnedWindows": [
+          [
+            "pairs",
+            "70",
+            "72"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "0a996ac5-090d-4734-9af1-f50ec75ef76a",
+        "actualPublicReturnBytes": 11156,
+        "actualPublicReturnSha256": "88d3365cf821515a9a938db47f7ae89fd515af16d269d291d9f8932b00ee2b61",
+        "returnedWindows": [
+          [
+            "pairs",
+            "67",
+            "70"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "7528a64d-b41a-4f35-9847-30af17a4d0d0",
+        "actualPublicReturnBytes": 8974,
+        "actualPublicReturnSha256": "2400f9b918b8992cb9d900d91ffdb480b61d3faea1e9de4339c4df4b2c5d8e73",
+        "returnedWindows": [
+          [
+            "pairs",
+            "75",
+            "77"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "163a3744-c4fd-42f0-b3f3-88271cd74b67",
+        "actualPublicReturnBytes": 9206,
+        "actualPublicReturnSha256": "7cba6e9a9dd8a75fee47350eb9a6e0fa797e348266043ed8b53ea9d28fb4b6f7",
+        "returnedWindows": [
+          [
+            "pairs",
+            "77",
+            "79"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "25f59a58-1cb0-4486-9039-65a57b0e9707",
+        "actualPublicReturnBytes": 11456,
+        "actualPublicReturnSha256": "a965fc8211d6c34f60a5b04a78ca859ad166c44c256e5a10fdae6cae3a4aca41",
+        "returnedWindows": [
+          [
+            "pairs",
+            "72",
+            "75"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "87e7628e-d02c-44c9-ad5f-a6ae3c2a55d5",
+        "actualPublicReturnBytes": 4137,
+        "actualPublicReturnSha256": "9abfa93b7c50b30f29bb0e264793a8b20118d51f435a5f8638a5bdd4b6c4e597",
+        "returnedWindows": [
+          [
+            "objects",
+            "351",
+            "361"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "56b0dc3a-393f-4f7d-a215-232ecce6e0a6",
+        "actualPublicReturnBytes": 12275,
+        "actualPublicReturnSha256": "e1c410369d9bd569bb7ef530bfb18d6f35baf47d1bf768fd262d0979ec2c291b",
+        "returnedWindows": [
+          [
+            "objects",
+            "334",
+            "351"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "50bfd700-42ba-479c-b565-d8be7d0a0980",
+        "actualPublicReturnBytes": 7595,
+        "actualPublicReturnSha256": "a71f5900321f4a20e1aacd1b0a643c6e879b8d41c53417b78e318bbd2c0488b1",
+        "returnedWindows": [
+          [
+            "pairs",
+            "83",
+            "85"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "5a7984b3-f128-438b-b717-82b4971aa083",
+        "actualPublicReturnBytes": 9317,
+        "actualPublicReturnSha256": "3c53f8be0d645af6f37ee995fc63796a7d7d555042fae9ccff5cec865ba9f1c1",
+        "returnedWindows": [
+          [
+            "pairs",
+            "81",
+            "83"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "90031934-e6cc-4c24-8837-beba2360e964",
+        "actualPublicReturnBytes": 9334,
+        "actualPublicReturnSha256": "116820af5212a0fb9b7954c4f3a5fc7397e091195944e2508afa79b8940eda72",
+        "returnedWindows": [
+          [
+            "pairs",
+            "79",
+            "81"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "f73451ba-3773-4073-868b-f25b0fa439d4",
+        "actualPublicReturnBytes": 12017,
+        "actualPublicReturnSha256": "9daa51901789675bdb9150f4f6cfa330430970d9dd54acd7b79d11d9ccbe2637",
+        "returnedWindows": [
+          [
+            "objects",
+            "361",
+            "373"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "d697c82d-0a43-4929-b5e1-233dc69eb168",
+        "actualPublicReturnBytes": 9497,
+        "actualPublicReturnSha256": "d23768d27d2e868ae80ed9cbdd8891d47550cacd3c849e72dcac4493502ef6ff",
+        "returnedWindows": [
+          [
+            "pairs",
+            "85",
+            "87"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "619170f6-9318-4364-8797-ced9268d6b6e",
+        "actualPublicReturnBytes": 8817,
+        "actualPublicReturnSha256": "ba921420a6a34ac151239ffcda5753700833944a2564e68b68c391569d895720",
+        "returnedWindows": [
+          [
+            "pairs",
+            "89",
+            "91"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "9e821504-4fbd-44cf-949a-d2fd04828938",
+        "actualPublicReturnBytes": 7930,
+        "actualPublicReturnSha256": "56e12dc6c9c97e7c5cd5a837b700197ffefab7d2aba4f61db8ddd0f1a0b08e90",
+        "returnedWindows": [
+          [
+            "pairs",
+            "87",
+            "89"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      },
+      {
+        "eventId": "04ceb51f-5ec0-49e8-9e46-2f4bade1789c",
+        "actualPublicReturnBytes": 7139,
+        "actualPublicReturnSha256": "dab170f5029e36f95377028f0b0704c9cfec60eb174d8bb28a4381f801817df2",
+        "returnedWindows": [
+          [
+            "objects",
+            "373",
+            "383"
+          ]
+        ],
+        "actualWholeRubricIndices": [],
+        "actualArticleLineWindows": []
+      }
+    ],
+    "privateFullReceipt": "ru-073-author-actual-final-preparation-reading-complete-001.json",
+    "privateFullReceiptSha256": "84069eed9535f433fcb2083878df4f98bf96b5119f85594c21990830a065aed5",
+    "boundary": "ActualsuccessfulpublicreturnedCURRENTboundtext identity,notmarker-only orcapture.Poolcaption/reading/quizprojections NOTwholelessons. HistoricalintakeUNREADflagsremainimmutable;thisappend-onlyreceipt describesonlyactualsuccessfulreading.Noindependentapproval/semanticfreeze/learnerwriting. Anyfuturebindingextensionrequiresnewactualreadreceipts,notretroactivecoverage."
+  },
+  "baselinePool": {
+    "privateFile": "ru-073-baseline-answer-pool-001.json",
+    "sha256": "1b2b3c72ccaeb97fce381fb4c1f09f6597f78f30836879c81b5224235d09f6c7",
+    "actualFreshRows": 1387,
+    "wholePoolLessonsRead": false
+  },
+  "currentRURootRubrics": {
+    ".github/agents/kanji-accuracy-reviewer.agent.md": {
+      "repository": "stop-cran/learning-japanese-ru",
+      "revision": "d0e2385ab9e51a38b29653fa1a955631d2bcca75",
+      "workingRawBytes": 4924,
+      "workingRawSha256": "3fbe6ef6350b7d555d389d59ca5019c97e3a0739b9bbe90a98fcee013a0ffef0",
+      "gitRawBytes": 4881,
+      "gitRawSha256": "3bbabb58f5d841ce3e5ee0bcfb8a257d5ad24b5960dff6846156321aa4abdf82",
+      "actualWholeRubricRead": true,
+      "byteBoundary": "Correct RU root FILE domain, not EN/header+payload."
+    },
+    ".github/agents/content-consistency-reviewer.agent.md": {
+      "repository": "stop-cran/learning-japanese-ru",
+      "revision": "d0e2385ab9e51a38b29653fa1a955631d2bcca75",
+      "workingRawBytes": 6817,
+      "workingRawSha256": "ac0095c12513ed590db4fff80ebec02750811b004ce7537272af566824fd1e79",
+      "gitRawBytes": 6763,
+      "gitRawSha256": "744b7d446e970c23920644473c2f396e342d6e44cea7147a49ad743c756dd0c0",
+      "actualWholeRubricRead": true,
+      "byteBoundary": "Correct RU root FILE domain, not EN/header+payload."
+    },
+    ".github/agents/kanji-comprehension-reviewer.agent.md": {
+      "repository": "stop-cran/learning-japanese-ru",
+      "revision": "d0e2385ab9e51a38b29653fa1a955631d2bcca75",
+      "workingRawBytes": 5528,
+      "workingRawSha256": "25bfe759a249914f561c5e7aa3d8cc2e6e71c9ccde10302302740f28fc2a58b4",
+      "gitRawBytes": 5484,
+      "gitRawSha256": "054601421857b569f319c163ff0fa1e8d7b020a1b6c6199491af6b6956fef215",
+      "actualWholeRubricRead": true,
+      "byteBoundary": "Correct RU root FILE domain, not EN/header+payload."
+    }
+  },
+  "actualExternalPageReading": [],
+  "externalBoundary": "Source URLs/footers were read within whole frozen lessons. No073 external webpage was fetched/read; no citation or URL-existence laundering into network reading. 引き出す eliciting/withdrawal claims rely on actually read whole JMdict1601660, not unchecked Daijisen sense numbers.",
+  "originalSourceGuardDeclarations": 15,
+  "preservedSourceGuardDeclarations": 14,
+  "proposedWithdrawnSourceGuardDeclarations": [
+    {
+      "originalDeclaration": {
+        "left": "向かう",
+        "right": "顔",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/顔.md",
+        "actualRuntimeProvider": false,
+        "providerInSelectedNewScope": true
+      },
+      "disposition": "AUTHOR_PROPOSED_WITHDRAWAL_INDEPENDENTLY_PENDING",
+      "directWholeEntryIds": [
+        "1604800",
+        "1217730",
+        "2221310",
+        "2868628"
+      ],
+      "reason": "Whole 向かう has intransitive facing/heading-towards senses, not a face noun. Whole 顔 かお has seven noun senses, not a facing verb; dated かんばせ is also a noun. Colloquial がお is a suffix after a noun/verb stem, not a standalone face verb. English verb/noun face homography supplies no Japanese lexical/caption overlap. Both full bilingual primary lessons and all four whole objects must receive actual independent candidate judgment.",
+      "invariant": "Frozen EN and original intake/history unchanged. 顔 remains one of26 selected lessons with its actual absent jlpt. No independent approval yet."
+    }
+  ],
+  "preservedSourceNegativeDeclarations": [
+    {
+      "originalDeclaration": {
+        "left": "向かう",
+        "right": "向ける",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/向ける.md",
+        "actualRuntimeProvider": false,
+        "providerInSelectedNewScope": true
+      },
+      "pair": [
+        "向かう",
+        "向ける"
+      ],
+      "leftActualProposedCaption": "быть обращённым; направляться",
+      "rightActualBoundCaption": "поворачивать; направлять",
+      "metadataOwner": "words/向かう.md",
+      "directWholeEntryIds": [
+        "1604800",
+        "1277100"
+      ],
+      "reason": "Individual whole Japanese identities and actual teaching bodies read; facing/direction, lower/unload, taking out/withdrawal or standalone withdrawal noun as applicable. Shared senses do not make all constructions or spellings interchangeable. Not adopted merely because present in EN.",
+      "disposition": "PRESERVED_SOURCE_DECLARATION_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "向かう",
+        "right": "進む",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/進む.md",
+        "actualRuntimeProvider": false,
+        "providerInSelectedNewScope": true
+      },
+      "pair": [
+        "向かう",
+        "進む"
+      ],
+      "leftActualProposedCaption": "быть обращённым; направляться",
+      "rightActualBoundCaption": "двигаться вперёд; продвигаться",
+      "metadataOwner": "words/向かう.md",
+      "directWholeEntryIds": [
+        "1604800",
+        "1365980"
+      ],
+      "reason": "Individual whole Japanese identities and actual teaching bodies read; facing/direction, lower/unload, taking out/withdrawal or standalone withdrawal noun as applicable. Shared senses do not make all constructions or spellings interchangeable. Not adopted merely because present in EN.",
+      "disposition": "PRESERVED_SOURCE_DECLARATION_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "向かう",
+        "right": "行く",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/行く.md",
+        "actualRuntimeProvider": true,
+        "providerInSelectedNewScope": false
+      },
+      "pair": [
+        "向かう",
+        "行く"
+      ],
+      "leftActualProposedCaption": "быть обращённым; направляться",
+      "rightActualBoundCaption": "идти; ехать",
+      "metadataOwner": "words/向かう.md",
+      "directWholeEntryIds": [
+        "1604800",
+        "1578850"
+      ],
+      "reason": "Individual whole Japanese identities and actual teaching bodies read; facing/direction, lower/unload, taking out/withdrawal or standalone withdrawal noun as applicable. Shared senses do not make all constructions or spellings interchangeable. Not adopted merely because present in EN.",
+      "disposition": "PRESERVED_SOURCE_DECLARATION_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "引き出す",
+        "right": "下ろす",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/下ろす.md",
+        "actualRuntimeProvider": false,
+        "providerInSelectedNewScope": true
+      },
+      "pair": [
+        "引き出す",
+        "下ろす"
+      ],
+      "leftActualProposedCaption": "снимать деньги; вытаскивать",
+      "rightActualBoundCaption": "опускать; снимать",
+      "metadataOwner": "words/引き出す.md",
+      "directWholeEntryIds": [
+        "1601660",
+        "1589580"
+      ],
+      "reason": "Individual whole Japanese identities and actual teaching bodies read; facing/direction, lower/unload, taking out/withdrawal or standalone withdrawal noun as applicable. Shared senses do not make all constructions or spellings interchangeable. Not adopted merely because present in EN.",
+      "disposition": "PRESERVED_SOURCE_DECLARATION_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "引き出す",
+        "right": "降ろす",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/降ろす.md",
+        "actualRuntimeProvider": false,
+        "providerInSelectedNewScope": true
+      },
+      "pair": [
+        "引き出す",
+        "降ろす"
+      ],
+      "leftActualProposedCaption": "снимать деньги; вытаскивать",
+      "rightActualBoundCaption": "опускать; выгружать; высаживать",
+      "metadataOwner": "words/引き出す.md",
+      "directWholeEntryIds": [
+        "1601660",
+        "1589580"
+      ],
+      "reason": "Individual whole Japanese identities and actual teaching bodies read; facing/direction, lower/unload, taking out/withdrawal or standalone withdrawal noun as applicable. Shared senses do not make all constructions or spellings interchangeable. Not adopted merely because present in EN.",
+      "disposition": "PRESERVED_SOURCE_DECLARATION_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "引き出す",
+        "right": "出す",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/出す.md",
+        "actualRuntimeProvider": true,
+        "providerInSelectedNewScope": false
+      },
+      "pair": [
+        "引き出す",
+        "出す"
+      ],
+      "leftActualProposedCaption": "снимать деньги; вытаскивать",
+      "rightActualBoundCaption": "вынимать; выносить",
+      "metadataOwner": "words/引き出す.md",
+      "directWholeEntryIds": [
+        "1601660",
+        "1338180"
+      ],
+      "reason": "Individual whole Japanese identities and actual teaching bodies read; facing/direction, lower/unload, taking out/withdrawal or standalone withdrawal noun as applicable. Shared senses do not make all constructions or spellings interchangeable. Not adopted merely because present in EN.",
+      "disposition": "PRESERVED_SOURCE_DECLARATION_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "引き出す",
+        "right": "引き出し",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/引き出し.md",
+        "actualRuntimeProvider": true,
+        "providerInSelectedNewScope": false
+      },
+      "pair": [
+        "引き出す",
+        "引き出し"
+      ],
+      "leftActualProposedCaption": "снимать деньги; вытаскивать",
+      "rightActualBoundCaption": "выдвижной ящик; снятие денег",
+      "metadataOwner": "words/引き出す.md",
+      "directWholeEntryIds": [
+        "1601660",
+        "1601650"
+      ],
+      "reason": "Individual whole Japanese identities and actual teaching bodies read; facing/direction, lower/unload, taking out/withdrawal or standalone withdrawal noun as applicable. Shared senses do not make all constructions or spellings interchangeable. Not adopted merely because present in EN.",
+      "disposition": "PRESERVED_SOURCE_DECLARATION_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "向ける",
+        "right": "向く",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/向く.md",
+        "actualRuntimeProvider": false,
+        "providerInSelectedNewScope": true
+      },
+      "pair": [
+        "向ける",
+        "向く"
+      ],
+      "leftActualProposedCaption": "поворачивать; направлять",
+      "rightActualBoundCaption": "поворачиваться; быть обращённым",
+      "metadataOwner": "words/向ける.md",
+      "directWholeEntryIds": [
+        "1277100",
+        "1277080"
+      ],
+      "reason": "Individual whole Japanese identities and actual teaching bodies read; facing/direction, lower/unload, taking out/withdrawal or standalone withdrawal noun as applicable. Shared senses do not make all constructions or spellings interchangeable. Not adopted merely because present in EN.",
+      "disposition": "PRESERVED_SOURCE_DECLARATION_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "下ろす",
+        "right": "降ろす",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/降ろす.md",
+        "actualRuntimeProvider": false,
+        "providerInSelectedNewScope": true
+      },
+      "pair": [
+        "下ろす",
+        "降ろす"
+      ],
+      "leftActualProposedCaption": "опускать; снимать",
+      "rightActualBoundCaption": "опускать; выгружать; высаживать",
+      "metadataOwner": "words/下ろす.md",
+      "directWholeEntryIds": [
+        "1589580"
+      ],
+      "reason": "Individual whole Japanese identities and actual teaching bodies read; facing/direction, lower/unload, taking out/withdrawal or standalone withdrawal noun as applicable. Shared senses do not make all constructions or spellings interchangeable. Not adopted merely because present in EN.",
+      "disposition": "PRESERVED_SOURCE_DECLARATION_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "下ろす",
+        "right": "下げる",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/下げる.md",
+        "actualRuntimeProvider": false,
+        "providerInSelectedNewScope": true
+      },
+      "pair": [
+        "下ろす",
+        "下げる"
+      ],
+      "leftActualProposedCaption": "опускать; снимать",
+      "rightActualBoundCaption": "опускать; снижать; вешать",
+      "metadataOwner": "words/下ろす.md",
+      "directWholeEntryIds": [
+        "1589580",
+        "1184170"
+      ],
+      "reason": "Individual whole Japanese identities and actual teaching bodies read; facing/direction, lower/unload, taking out/withdrawal or standalone withdrawal noun as applicable. Shared senses do not make all constructions or spellings interchangeable. Not adopted merely because present in EN.",
+      "disposition": "PRESERVED_SOURCE_DECLARATION_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "降ろす",
+        "right": "下げる",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/下げる.md",
+        "actualRuntimeProvider": false,
+        "providerInSelectedNewScope": true
+      },
+      "pair": [
+        "降ろす",
+        "下げる"
+      ],
+      "leftActualProposedCaption": "опускать; выгружать; высаживать",
+      "rightActualBoundCaption": "опускать; снижать; вешать",
+      "metadataOwner": "words/降ろす.md",
+      "directWholeEntryIds": [
+        "1589580",
+        "1184170"
+      ],
+      "reason": "Individual whole Japanese identities and actual teaching bodies read; facing/direction, lower/unload, taking out/withdrawal or standalone withdrawal noun as applicable. Shared senses do not make all constructions or spellings interchangeable. Not adopted merely because present in EN.",
+      "disposition": "PRESERVED_SOURCE_DECLARATION_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "向く",
+        "right": "向かう",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/向かう.md",
+        "actualRuntimeProvider": false,
+        "providerInSelectedNewScope": true
+      },
+      "pair": [
+        "向く",
+        "向かう"
+      ],
+      "leftActualProposedCaption": "поворачиваться; быть обращённым",
+      "rightActualBoundCaption": "быть обращённым; направляться",
+      "metadataOwner": "words/向く.md",
+      "directWholeEntryIds": [
+        "1277080",
+        "1604800"
+      ],
+      "reason": "Individual whole Japanese identities and actual teaching bodies read; facing/direction, lower/unload, taking out/withdrawal or standalone withdrawal noun as applicable. Shared senses do not make all constructions or spellings interchangeable. Not adopted merely because present in EN.",
+      "disposition": "PRESERVED_SOURCE_DECLARATION_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "向く",
+        "right": "対する",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/対する.md",
+        "actualRuntimeProvider": false,
+        "providerInSelectedNewScope": true
+      },
+      "pair": [
+        "向く",
+        "対する"
+      ],
+      "leftActualProposedCaption": "поворачиваться; быть обращённым",
+      "rightActualBoundCaption": "быть обращённым к; относиться к",
+      "metadataOwner": "words/向く.md",
+      "directWholeEntryIds": [
+        "1277080",
+        "1610160"
+      ],
+      "reason": "Individual whole Japanese identities and actual teaching bodies read; facing/direction, lower/unload, taking out/withdrawal or standalone withdrawal noun as applicable. Shared senses do not make all constructions or spellings interchangeable. Not adopted merely because present in EN.",
+      "disposition": "PRESERVED_SOURCE_DECLARATION_INDEPENDENTLY_PENDING"
+    },
+    {
+      "originalDeclaration": {
+        "left": "対する",
+        "right": "向かう",
+        "sourceField": "quiz_exclusions",
+        "provider": "words/向かう.md",
+        "actualRuntimeProvider": false,
+        "providerInSelectedNewScope": true
+      },
+      "pair": [
+        "対する",
+        "向かう"
+      ],
+      "leftActualProposedCaption": "быть обращённым к; относиться к",
+      "rightActualBoundCaption": "быть обращённым; направляться",
+      "metadataOwner": "words/対する.md",
+      "directWholeEntryIds": [
+        "1610160",
+        "1604800"
+      ],
+      "reason": "Individual whole Japanese identities and actual teaching bodies read; facing/direction, lower/unload, taking out/withdrawal or standalone withdrawal noun as applicable. Shared senses do not make all constructions or spellings interchangeable. Not adopted merely because present in EN.",
+      "disposition": "PRESERVED_SOURCE_DECLARATION_INDEPENDENTLY_PENDING"
+    }
+  ],
+  "additionalDirectGuardProposals": [
+    {
+      "proposalId": "Q001",
+      "pair": [
+        "下がる",
+        "下りる"
+      ],
+      "metadataOwner": "words/下がる.md",
+      "leftActualProposedCaption": "опускаться; снижаться",
+      "rightActualBoundCaption": "спускаться; выходить из транспорта",
+      "directWholeEntryIds": [
+        "1184160",
+        "1589500"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent descending/getting-lower senses; not all stepping back disembarking.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q002",
+      "pair": [
+        "下がる",
+        "降りる"
+      ],
+      "metadataOwner": "words/下がる.md",
+      "leftActualProposedCaption": "опускаться; снижаться",
+      "rightActualBoundCaption": "выходить из транспорта; спускаться",
+      "directWholeEntryIds": [
+        "1184160",
+        "1589500"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent descent in the shared おりる entry, not every bus exit.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q003",
+      "pair": [
+        "下がる",
+        "落ちる"
+      ],
+      "metadataOwner": "words/下がる.md",
+      "leftActualProposedCaption": "опускаться; снижаться",
+      "rightActualBoundCaption": "падать",
+      "directWholeEntryIds": [
+        "1184160",
+        "1548550"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent fall/drop/get-lower senses; no claim that every fall is controlled descent.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q004",
+      "pair": [
+        "下がる",
+        "掛かる"
+      ],
+      "metadataOwner": "words/下がる.md",
+      "leftActualProposedCaption": "опускаться; снижаться",
+      "rightActualBoundCaption": "занимать время; стоить",
+      "directWholeEntryIds": [
+        "1184160",
+        "1207590"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent hanging state of 下がる; not phone calls or cost inferred from topic.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q005",
+      "pair": [
+        "下げる",
+        "掛ける"
+      ],
+      "metadataOwner": "words/下げる.md",
+      "leftActualProposedCaption": "опускать; снижать; вешать",
+      "rightActualBoundCaption": "вешать; звонить по телефону",
+      "directWholeEntryIds": [
+        "1184170",
+        "1207610"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Hang/suspend an object; not all uses of either polysemous verb equivalent.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q006",
+      "pair": [
+        "下げる",
+        "片付ける"
+      ],
+      "metadataOwner": "words/下げる.md",
+      "leftActualProposedCaption": "опускать; снижать; вешать",
+      "rightActualBoundCaption": "наводить порядок; убирать на место",
+      "directWholeEntryIds": [
+        "1184170",
+        "1511790"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Clear dishes/table or remove food; not every lowering a tidying action.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q007",
+      "pair": [
+        "下げる",
+        "切る"
+      ],
+      "metadataOwner": "words/下げる.md",
+      "leftActualProposedCaption": "опускать; снижать; вешать",
+      "rightActualBoundCaption": "резать",
+      "directWholeEntryIds": [
+        "1184170",
+        "1384830"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent reduction/discount sense of 切る, not suffix completion or cutting paper.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q008",
+      "pair": [
+        "下りる",
+        "降りる"
+      ],
+      "metadataOwner": "words/下りる.md",
+      "leftActualProposedCaption": "спускаться; выходить из транспорта",
+      "rightActualBoundCaption": "выходить из транспорта; спускаться",
+      "directWholeEntryIds": [
+        "1589500"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Same whole おりる dictionary identity; spelling preferences do not prohibit overlap.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q009",
+      "pair": [
+        "下りる",
+        "出る"
+      ],
+      "metadataOwner": "words/下りる.md",
+      "leftActualProposedCaption": "спускаться; выходить из транспорта",
+      "rightActualBoundCaption": "выходить; появляться",
+      "directWholeEntryIds": [
+        "1589500",
+        "1338240"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Getting off/leaving a vehicle; not unrestricted replacement of all exits by descent.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q010",
+      "pair": [
+        "下りる",
+        "落ちる"
+      ],
+      "metadataOwner": "words/下りる.md",
+      "leftActualProposedCaption": "спускаться; выходить из транспорта",
+      "rightActualBoundCaption": "падать",
+      "directWholeEntryIds": [
+        "1589500",
+        "1548550"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent downward movement; falling versus deliberate descent remains distinct.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q011",
+      "pair": [
+        "進む",
+        "行く"
+      ],
+      "metadataOwner": "words/進む.md",
+      "leftActualProposedCaption": "двигаться вперёд; продвигаться",
+      "rightActualBoundCaption": "идти; ехать",
+      "directWholeEntryIds": [
+        "1365980",
+        "1578850"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Move/go forward; not every going university entry or improvement.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q012",
+      "pair": [
+        "進む",
+        "動く"
+      ],
+      "metadataOwner": "words/進む.md",
+      "leftActualProposedCaption": "двигаться вперёд; продвигаться",
+      "rightActualBoundCaption": "двигаться; работать",
+      "directWholeEntryIds": [
+        "1365980",
+        "1451210"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent spatial movement; not automatically equipment operation or every movement forward.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q013",
+      "pair": [
+        "進む",
+        "続く"
+      ],
+      "metadataOwner": "words/進む.md",
+      "leftActualProposedCaption": "двигаться вперёд; продвигаться",
+      "rightActualBoundCaption": "продолжаться; длиться",
+      "directWholeEntryIds": [
+        "1365980",
+        "1405790"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent 進む continuation/progress sense; not a suffix or all duration equivalent.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q014",
+      "pair": [
+        "進む",
+        "速い"
+      ],
+      "metadataOwner": "words/進む.md",
+      "leftActualProposedCaption": "двигаться вперёд; продвигаться",
+      "rightActualBoundCaption": "быстрый",
+      "directWholeEntryIds": [
+        "1365980",
+        "1404975"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independently fast/gaining clock sense, not deriving speed from any progress.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q015",
+      "pair": [
+        "移る",
+        "引っ越す"
+      ],
+      "metadataOwner": "words/移る.md",
+      "leftActualProposedCaption": "переходить; переезжать",
+      "rightActualBoundCaption": "переезжать (менять жильё)",
+      "directWholeEntryIds": [
+        "1158210",
+        "1169340"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual relocation of a home/premises; not every change of state house-moving.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q016",
+      "pair": [
+        "移る",
+        "動く"
+      ],
+      "metadataOwner": "words/移る.md",
+      "leftActualProposedCaption": "переходить; переезжать",
+      "rightActualBoundCaption": "двигаться; работать",
+      "directWholeEntryIds": [
+        "1158210",
+        "1451210"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent movement/change of place; not every moving part a relocation.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q017",
+      "pair": [
+        "移る",
+        "変わる"
+      ],
+      "metadataOwner": "words/移る.md",
+      "leftActualProposedCaption": "переходить; переезжать",
+      "rightActualBoundCaption": "меняться",
+      "directWholeEntryIds": [
+        "1158210",
+        "1510790"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent change of state/affiliation; not conflating with copying 映る/写る.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q018",
+      "pair": [
+        "移る",
+        "変化"
+      ],
+      "metadataOwner": "words/移る.md",
+      "leftActualProposedCaption": "переходить; переезжать",
+      "rightActualBoundCaption": "изменение; превращение",
+      "directWholeEntryIds": [
+        "1158210",
+        "1510890"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent state-change verb versus change noun/する; grammar not unrestricted substitution.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q019",
+      "pair": [
+        "移る",
+        "過ぎる"
+      ],
+      "metadataOwner": "words/移る.md",
+      "leftActualProposedCaption": "переходить; переезжать",
+      "rightActualBoundCaption": "проходить; миновать",
+      "directWholeEntryIds": [
+        "1158210",
+        "1195970"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Separate standalone time-elapsing sense of 移る, not deriving it from all transfers.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q020",
+      "pair": [
+        "移る",
+        "行く"
+      ],
+      "metadataOwner": "words/移る.md",
+      "leftActualProposedCaption": "переходить; переезжать",
+      "rightActualBoundCaption": "идти; ехать",
+      "directWholeEntryIds": [
+        "1158210",
+        "1578850"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Bounded physical going to another place, not every generic go a transfer of employment.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q021",
+      "pair": [
+        "戻る",
+        "帰る"
+      ],
+      "metadataOwner": "words/戻る.md",
+      "leftActualProposedCaption": "возвращаться",
+      "rightActualBoundCaption": "возвращаться домой",
+      "directWholeEntryIds": [
+        "1535880",
+        "1221270"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual returning to a previous place/base; not every return home and not transitive put back.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q022",
+      "pair": [
+        "戻る",
+        "帰り"
+      ],
+      "metadataOwner": "words/戻る.md",
+      "leftActualProposedCaption": "возвращаться",
+      "rightActualBoundCaption": "обратный путь; возвращение",
+      "directWholeEntryIds": [
+        "1535880",
+        "1221250"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Standalone noun return/coming back, not lifting a ます-stem alone or every road.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q023",
+      "pair": [
+        "寄る",
+        "訪ねる"
+      ],
+      "metadataOwner": "words/寄る.md",
+      "leftActualProposedCaption": "приближаться; заходить по пути",
+      "rightActualBoundCaption": "навещать; посещать",
+      "directWholeEntryIds": [
+        "1219680",
+        "1518070"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Short visit/stop by; deliberate visit need not be along the way.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q024",
+      "pair": [
+        "寄る",
+        "会う"
+      ],
+      "metadataOwner": "words/寄る.md",
+      "leftActualProposedCaption": "приближаться; заходить по пути",
+      "rightActualBoundCaption": "встречаться с человеком",
+      "directWholeEntryIds": [
+        "1219680",
+        "1198180"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent gathering/meeting sense, not all approach a meeting of people.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q025",
+      "pair": [
+        "寄る",
+        "集まる"
+      ],
+      "metadataOwner": "words/寄る.md",
+      "leftActualProposedCaption": "приближаться; заходить по пути",
+      "rightActualBoundCaption": "собираться вместе",
+      "directWholeEntryIds": [
+        "1219680",
+        "1333550"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent 寄る gathering sense, not graph inheritance from 会う.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q026",
+      "pair": [
+        "届ける",
+        "送る"
+      ],
+      "metadataOwner": "words/届ける.md",
+      "leftActualProposedCaption": "доставлять; уведомлять",
+      "rightActualBoundCaption": "отправлять; провожать",
+      "directWholeEntryIds": [
+        "1457210",
+        "1402730"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Delivery/forwarding/sending; sending does not always certify completed delivery.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q027",
+      "pair": [
+        "届ける",
+        "運ぶ"
+      ],
+      "metadataOwner": "words/届ける.md",
+      "leftActualProposedCaption": "доставлять; уведомлять",
+      "rightActualBoundCaption": "нести; перевозить",
+      "directWholeEntryIds": [
+        "1457210",
+        "1172660"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Bounded physical delivering/transporting to a destination, not all logistics identical.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q028",
+      "pair": [
+        "届ける",
+        "渡す"
+      ],
+      "metadataOwner": "words/届ける.md",
+      "leftActualProposedCaption": "доставлять; уведомлять",
+      "rightActualBoundCaption": "передавать; вручать",
+      "directWholeEntryIds": [
+        "1457210",
+        "1444610"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Bounded delivering/handing over an item; not every crossing or handing a formal report.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q029",
+      "pair": [
+        "届ける",
+        "伝える"
+      ],
+      "metadataOwner": "words/届ける.md",
+      "leftActualProposedCaption": "доставлять; уведомлять",
+      "rightActualBoundCaption": "передавать; сообщать",
+      "directWholeEntryIds": [
+        "1457210",
+        "1441870"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual reporting/submitting information, not unrestricted every transmission to an authority.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q030",
+      "pair": [
+        "届ける",
+        "知らせる"
+      ],
+      "metadataOwner": "words/届ける.md",
+      "leftActualProposedCaption": "доставлять; уведомлять",
+      "rightActualBoundCaption": "сообщать; уведомлять",
+      "directWholeEntryIds": [
+        "1457210",
+        "1420410"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual notification/reporting; formality and authority context remain.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q031",
+      "pair": [
+        "送る",
+        "連れる"
+      ],
+      "metadataOwner": "words/送る.md",
+      "leftActualProposedCaption": "отправлять; провожать",
+      "rightActualBoundCaption": "брать кого-либо с собой",
+      "directWholeEntryIds": [
+        "1402730",
+        "1559290"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Escorting/taking a person along, not claiming every dispatch requires accompaniment.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q032",
+      "pair": [
+        "送る",
+        "案内"
+      ],
+      "metadataOwner": "words/送る.md",
+      "leftActualProposedCaption": "отправлять; провожать",
+      "rightActualBoundCaption": "сопровождение; информация",
+      "directWholeEntryIds": [
+        "1402730",
+        "1154860"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Whole guide/escort use, not all directions/information or invitations.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q033",
+      "pair": [
+        "送る",
+        "運ぶ"
+      ],
+      "metadataOwner": "words/送る.md",
+      "leftActualProposedCaption": "отправлять; провожать",
+      "rightActualBoundCaption": "нести; перевозить",
+      "directWholeEntryIds": [
+        "1402730",
+        "1172660"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Physical sending/taking/transporting, not every manner of carrying.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q034",
+      "pair": [
+        "送る",
+        "伝える"
+      ],
+      "metadataOwner": "words/送る.md",
+      "leftActualProposedCaption": "отправлять; провожать",
+      "rightActualBoundCaption": "передавать; сообщать",
+      "directWholeEntryIds": [
+        "1402730",
+        "1441870"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual transmission of information; sending an object not always reporting information.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q035",
+      "pair": [
+        "送る",
+        "渡す"
+      ],
+      "metadataOwner": "words/送る.md",
+      "leftActualProposedCaption": "отправлять; провожать",
+      "rightActualBoundCaption": "передавать; вручать",
+      "directWholeEntryIds": [
+        "1402730",
+        "1444610"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent passing on/along, not deriving from common travel topic.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q036",
+      "pair": [
+        "迎える",
+        "会う"
+      ],
+      "metadataOwner": "words/迎える.md",
+      "leftActualProposedCaption": "встречать; приветствовать",
+      "rightActualBoundCaption": "встречаться с человеком",
+      "directWholeEntryIds": [
+        "1253190",
+        "1198180"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Go out to meet/receive someone; not every chance meeting a welcome.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q037",
+      "pair": [
+        "迎える",
+        "受ける"
+      ],
+      "metadataOwner": "words/迎える.md",
+      "leftActualProposedCaption": "встречать; приветствовать",
+      "rightActualBoundCaption": "получать; подвергаться",
+      "directWholeEntryIds": [
+        "1253190",
+        "1329590"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Bounded receiving/accepting someone, not all examinations or passive suffering.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q038",
+      "pair": [
+        "迎える",
+        "呼ぶ"
+      ],
+      "metadataOwner": "words/迎える.md",
+      "leftActualProposedCaption": "встречать; приветствовать",
+      "rightActualBoundCaption": "звать; вызывать",
+      "directWholeEntryIds": [
+        "1253190",
+        "1266440"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent summons/invitation sense, not reception automatically calling aloud.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q039",
+      "pair": [
+        "迎える",
+        "招待"
+      ],
+      "metadataOwner": "words/迎える.md",
+      "leftActualProposedCaption": "встречать; приветствовать",
+      "rightActualBoundCaption": "приглашение",
+      "directWholeEntryIds": [
+        "1253190",
+        "1349610"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent inviting/receiving guests; not all reaching a life stage an invitation.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q040",
+      "pair": [
+        "連れる",
+        "案内"
+      ],
+      "metadataOwner": "words/連れる.md",
+      "leftActualProposedCaption": "брать кого-либо с собой",
+      "rightActualBoundCaption": "сопровождение; информация",
+      "directWholeEntryIds": [
+        "1559290",
+        "1154860"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual accompanying/leading someone; not generic leadership of a company or race.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q041",
+      "pair": [
+        "逃げる",
+        "出る"
+      ],
+      "metadataOwner": "words/逃げる.md",
+      "leftActualProposedCaption": "убегать; спасаться",
+      "rightActualBoundCaption": "выходить; появляться",
+      "directWholeEntryIds": [
+        "1450330",
+        "1338240"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Bounded escape/leaking out, not all ordinary exits an escape or wrongdoing.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q042",
+      "pair": [
+        "逃げる",
+        "下がる"
+      ],
+      "metadataOwner": "words/逃げる.md",
+      "leftActualProposedCaption": "убегать; спасаться",
+      "rightActualBoundCaption": "опускаться; снижаться",
+      "directWholeEntryIds": [
+        "1450330",
+        "1184160"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independently backing away/withdrawing; not all becoming lower fleeing.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q043",
+      "pair": [
+        "遅れる",
+        "遅い"
+      ],
+      "metadataOwner": "words/遅れる.md",
+      "leftActualProposedCaption": "опаздывать; задерживаться",
+      "rightActualBoundCaption": "поздний; медленный",
+      "directWholeEntryIds": [
+        "1589040",
+        "1421970"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual lateness/slowness including clock context; verb/adjective grammar remains different.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q044",
+      "pair": [
+        "過ぎる",
+        "通る"
+      ],
+      "metadataOwner": "words/過ぎる.md",
+      "leftActualProposedCaption": "проходить; миновать",
+      "rightActualBoundCaption": "проходить; проезжать",
+      "directWholeEntryIds": [
+        "1195970",
+        "1433030"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual passing a reference point/route; not every travel already beyond the destination.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q045",
+      "pair": [
+        "過ぎる",
+        "終わる"
+      ],
+      "metadataOwner": "words/過ぎる.md",
+      "leftActualProposedCaption": "проходить; миновать",
+      "rightActualBoundCaption": "заканчиваться; заканчивать",
+      "directWholeEntryIds": [
+        "1195970",
+        "1589600"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent expired/over/ended sense, not a suffix-derived completion claim.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q046",
+      "pair": [
+        "空く",
+        "開く"
+      ],
+      "metadataOwner": "words/空く.md",
+      "leftActualProposedCaption": "освобождаться; становиться менее людным",
+      "rightActualBoundCaption": "открываться",
+      "directWholeEntryIds": [
+        "1586270"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Shared あく entry; esp. spelling preferences are not absolute sense restrictions.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q047",
+      "pair": [
+        "空く",
+        "暇"
+      ],
+      "metadataOwner": "words/空く.md",
+      "leftActualProposedCaption": "освобождаться; становиться менее людным",
+      "rightActualBoundCaption": "свободное время; свободный",
+      "directWholeEntryIds": [
+        "1586270",
+        "1577280"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent available/free time/resource; not equation of vacancy and political freedom.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q048",
+      "pair": [
+        "空く",
+        "終わる"
+      ],
+      "metadataOwner": "words/空く.md",
+      "leftActualProposedCaption": "освобождаться; становиться менее людным",
+      "rightActualBoundCaption": "заканчиваться; заканчивать",
+      "directWholeEntryIds": [
+        "1586270",
+        "1589600"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent come-to-end sense with esp. 明く spelling preference; necessity/frequency unverified.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q049",
+      "pair": [
+        "込む",
+        "複雑"
+      ],
+      "metadataOwner": "words/込む.md",
+      "leftActualProposedCaption": "быть переполненным",
+      "rightActualBoundCaption": "сложный; запутанный",
+      "directWholeEntryIds": [
+        "1593410",
+        "1501350"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit standalone intransitive intricate/complex sense, not suffix 入り込む lifting.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q050",
+      "pair": [
+        "引き出す",
+        "引く"
+      ],
+      "metadataOwner": "words/引き出す.md",
+      "leftActualProposedCaption": "снимать деньги; вытаскивать",
+      "rightActualBoundCaption": "тянуть",
+      "directWholeEntryIds": [
+        "1601660",
+        "1169250"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual pulling/drawing out; not assuming every pulling movement extracts an object.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q051",
+      "pair": [
+        "引き出す",
+        "取る"
+      ],
+      "metadataOwner": "words/引き出す.md",
+      "leftActualProposedCaption": "снимать деньги; вытаскивать",
+      "rightActualBoundCaption": "брать; подбирать",
+      "directWholeEntryIds": [
+        "1601660",
+        "1326980"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual take/remove/obtain senses, not unrestricted replacement of taking by withdrawal.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q052",
+      "pair": [
+        "引き出す",
+        "呼ぶ"
+      ],
+      "metadataOwner": "words/引き出す.md",
+      "leftActualProposedCaption": "снимать деньги; вытаскивать",
+      "rightActualBoundCaption": "звать; вызывать",
+      "directWholeEntryIds": [
+        "1601660",
+        "1266440"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent summons/bringing-to-court sense, not inference from bank withdrawal.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q053",
+      "pair": [
+        "引き出す",
+        "連れる"
+      ],
+      "metadataOwner": "words/引き出す.md",
+      "leftActualProposedCaption": "снимать деньги; вытаскивать",
+      "rightActualBoundCaption": "брать кого-либо с собой",
+      "directWholeEntryIds": [
+        "1601660",
+        "1559290"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent leading/bringing someone out; not every companion eliciting information.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q054",
+      "pair": [
+        "揺れる",
+        "動く"
+      ],
+      "metadataOwner": "words/揺れる.md",
+      "leftActualProposedCaption": "качаться; трястись",
+      "rightActualBoundCaption": "двигаться; работать",
+      "directWholeEntryIds": [
+        "1545710",
+        "1451210"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Bounded physical moving/shaking, not every motion unstable or every machine working.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q055",
+      "pair": [
+        "滑る",
+        "つるつる"
+      ],
+      "metadataOwner": "words/滑る.md",
+      "leftActualProposedCaption": "скользить; поскальзываться",
+      "rightActualBoundCaption": "гладкий и скользкий",
+      "directWholeEntryIds": [
+        "1208640",
+        "1008220"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent slippery-state sense and whole slippery mimetic, not copying a compound part.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q056",
+      "pair": [
+        "滑る",
+        "落ちる"
+      ],
+      "metadataOwner": "words/滑る.md",
+      "leftActualProposedCaption": "скользить; поскальзываться",
+      "rightActualBoundCaption": "падать",
+      "directWholeEntryIds": [
+        "1208640",
+        "1548550"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independently failing an examination/losing a position, not all slips a physical fall.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q057",
+      "pair": [
+        "滑る",
+        "下がる"
+      ],
+      "metadataOwner": "words/滑る.md",
+      "leftActualProposedCaption": "скользить; поскальзываться",
+      "rightActualBoundCaption": "опускаться; снижаться",
+      "directWholeEntryIds": [
+        "1208640",
+        "1184160"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent loss/demotion/downgrade senses, not all sliding a price decrease.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q058",
+      "pair": [
+        "向ける",
+        "送る"
+      ],
+      "metadataOwner": "words/向ける.md",
+      "leftActualProposedCaption": "поворачивать; направлять",
+      "rightActualBoundCaption": "отправлять; провожать",
+      "directWholeEntryIds": [
+        "1277100",
+        "1402730"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent dispatch/send sense of 向ける, not deriving it from facing a person.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q059",
+      "pair": [
+        "向ける",
+        "届ける"
+      ],
+      "metadataOwner": "words/向ける.md",
+      "leftActualProposedCaption": "поворачивать; направлять",
+      "rightActualBoundCaption": "доставлять; уведомлять",
+      "directWholeEntryIds": [
+        "1277100",
+        "1457210"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Bounded dispatch/forward/send; not automatically proving arrival or formal notification.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q060",
+      "pair": [
+        "向ける",
+        "進む"
+      ],
+      "metadataOwner": "words/向ける.md",
+      "leftActualProposedCaption": "поворачивать; направлять",
+      "rightActualBoundCaption": "двигаться вперёд; продвигаться",
+      "directWholeEntryIds": [
+        "1277100",
+        "1365980"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent head/go-towards sense of 向ける; not inherited transitively from 向かう.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q061",
+      "pair": [
+        "向ける",
+        "行く"
+      ],
+      "metadataOwner": "words/向ける.md",
+      "leftActualProposedCaption": "поворачивать; направлять",
+      "rightActualBoundCaption": "идти; ехать",
+      "directWholeEntryIds": [
+        "1277100",
+        "1578850"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent head/go-towards sense; transitive argument patterns remain taught.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q062",
+      "pair": [
+        "向ける",
+        "対する"
+      ],
+      "metadataOwner": "words/向ける.md",
+      "leftActualProposedCaption": "поворачивать; направлять",
+      "rightActualBoundCaption": "быть обращённым к; относиться к",
+      "directWholeEntryIds": [
+        "1277100",
+        "1610160"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual directed/facing orientation; object versus target constructions not interchangeable.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q063",
+      "pair": [
+        "顔",
+        "笑顔"
+      ],
+      "metadataOwner": "words/顔.md",
+      "leftActualProposedCaption": "лицо; черты лица",
+      "rightActualBoundCaption": "улыбающееся лицо; улыбка",
+      "directWholeEntryIds": [
+        "1217730",
+        "1351400"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Bounded facial expression/smiling face, not claiming every face smiling or generic English face.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q064",
+      "pair": [
+        "顔",
+        "格好"
+      ],
+      "metadataOwner": "words/顔.md",
+      "leftActualProposedCaption": "лицо; черты лица",
+      "rightActualBoundCaption": "внешний вид; форма",
+      "directWholeEntryIds": [
+        "1217730",
+        "1590480"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Bounded facial looks/appearance, not every object shape a face.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q065",
+      "pair": [
+        "顔",
+        "人"
+      ],
+      "metadataOwner": "words/顔.md",
+      "leftActualProposedCaption": "лицо; черты лица",
+      "rightActualBoundCaption": "человек; люди",
+      "directWholeEntryIds": [
+        "1217730",
+        "1580640"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit representative/members noun senses versus independently person; not body-part lifting.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q066",
+      "pair": [
+        "顔",
+        "人間"
+      ],
+      "metadataOwner": "words/顔.md",
+      "leftActualProposedCaption": "лицо; черты лица",
+      "rightActualBoundCaption": "человек",
+      "directWholeEntryIds": [
+        "1217730",
+        "1366770"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Bounded representative/member as an individual person, not face universally means humanity.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q067",
+      "pair": [
+        "顔",
+        "人物"
+      ],
+      "metadataOwner": "words/顔.md",
+      "leftActualProposedCaption": "лицо; черты лица",
+      "rightActualBoundCaption": "человек; персонаж; характер",
+      "directWholeEntryIds": [
+        "1217730",
+        "1369070"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit representative/face of an organization versus a personage, not all fictional characters.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q068",
+      "pair": [
+        "顔",
+        "方"
+      ],
+      "metadataOwner": "words/顔.md",
+      "leftActualProposedCaption": "лицо; черты лица",
+      "rightActualBoundCaption": "человек (вежливо); способ; сторона сравнения",
+      "directWholeEntryIds": [
+        "1217730",
+        "1516925"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Bounded representative/member versus respectful person, not method/comparison side or suffix がた.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q069",
+      "pair": [
+        "顔",
+        "力"
+      ],
+      "metadataOwner": "words/顔.md",
+      "leftActualProposedCaption": "лицо; черты лица",
+      "rightActualBoundCaption": "сила; мощь",
+      "directWholeEntryIds": [
+        "1217730",
+        "1554820"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit standalone influence/clout versus independent influence, not muscular force or a face part.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q070",
+      "pair": [
+        "顔",
+        "左右"
+      ],
+      "metadataOwner": "words/顔.md",
+      "leftActualProposedCaption": "лицо; черты лица",
+      "rightActualBoundCaption": "левая и правая стороны; влияние",
+      "directWholeEntryIds": [
+        "1217730",
+        "1290810"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent noun influence/control, not deriving a facial meaning from left/right.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q071",
+      "pair": [
+        "顔",
+        "評判"
+      ],
+      "metadataOwner": "words/顔.md",
+      "leftActualProposedCaption": "лицо; черты лица",
+      "rightActualBoundCaption": "репутация; отзывы",
+      "directWholeEntryIds": [
+        "1217730",
+        "1490070"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent notoriety/honor versus reputation/notoriety; not all reviews facial expressions.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q072",
+      "pair": [
+        "顔",
+        "名"
+      ],
+      "metadataOwner": "words/顔.md",
+      "leftActualProposedCaption": "лицо; черты лица",
+      "rightActualBoundCaption": "имя; слава",
+      "directWholeEntryIds": [
+        "1217730",
+        "1531330"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent honor/notoriety versus fame/reputation, not proper names or suffix/counter めい.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q073",
+      "pair": [
+        "顔",
+        "みんな"
+      ],
+      "metadataOwner": "words/顔.md",
+      "leftActualProposedCaption": "лицо; черты лица",
+      "rightActualBoundCaption": "все; всё",
+      "directWholeEntryIds": [
+        "1217730",
+        "1202150"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit members/attendees/everyone-involved sense; not all objects or universal humanity.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q074",
+      "pair": [
+        "顔",
+        "皆さん"
+      ],
+      "metadataOwner": "words/顔.md",
+      "leftActualProposedCaption": "лицо; черты лица",
+      "rightActualBoundCaption": "все (уважительно, о людях)",
+      "directWholeEntryIds": [
+        "1217730",
+        "1202170"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Explicit attendees/members versus respectful relevant-group people, not all uses a vocative.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q075",
+      "pair": [
+        "下ろす",
+        "片付ける"
+      ],
+      "metadataOwner": "words/下ろす.md",
+      "leftActualProposedCaption": "опускать; снимать",
+      "rightActualBoundCaption": "наводить порядок; убирать на место",
+      "directWholeEntryIds": [
+        "1589580",
+        "1511790"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent table/altar clearing sense, not every lower height a tidying action.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q076",
+      "pair": [
+        "下ろす",
+        "出す"
+      ],
+      "metadataOwner": "words/下ろす.md",
+      "leftActualProposedCaption": "опускать; снимать",
+      "rightActualBoundCaption": "вынимать; выносить",
+      "directWholeEntryIds": [
+        "1589580",
+        "1338180"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Actual taking out/withdrawal, not every output or giving an example.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q077",
+      "pair": [
+        "下ろす",
+        "取る"
+      ],
+      "metadataOwner": "words/下ろす.md",
+      "leftActualProposedCaption": "опускать; снимать",
+      "rightActualBoundCaption": "брать; подбирать",
+      "directWholeEntryIds": [
+        "1589580",
+        "1326980"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Bounded taking down/removing; not every obtaining a lowering.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q078",
+      "pair": [
+        "下ろす",
+        "切る"
+      ],
+      "metadataOwner": "words/下ろす.md",
+      "leftActualProposedCaption": "опускать; снимать",
+      "rightActualBoundCaption": "резать",
+      "directWholeEntryIds": [
+        "1589580",
+        "1384830"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent cutting off/filleting/pruning and removal from a post, not suffix completion.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q079",
+      "pair": [
+        "下ろす",
+        "呼ぶ"
+      ],
+      "metadataOwner": "words/下ろす.md",
+      "leftActualProposedCaption": "опускать; снимать",
+      "rightActualBoundCaption": "звать; вызывать",
+      "directWholeEntryIds": [
+        "1589580",
+        "1266440"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent spirit-invoking/calling-down sense, not all ordinary summons lowering someone.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q080",
+      "pair": [
+        "降ろす",
+        "片付ける"
+      ],
+      "metadataOwner": "words/降ろす.md",
+      "leftActualProposedCaption": "опускать; выгружать; высаживать",
+      "rightActualBoundCaption": "наводить порядок; убирать на место",
+      "directWholeEntryIds": [
+        "1589580",
+        "1511790"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Same whole おろす entry's independent table clearing; ordinary spelling preference retained.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q081",
+      "pair": [
+        "降ろす",
+        "出す"
+      ],
+      "metadataOwner": "words/降ろす.md",
+      "leftActualProposedCaption": "опускать; выгружать; высаживать",
+      "rightActualBoundCaption": "вынимать; выносить",
+      "directWholeEntryIds": [
+        "1589580",
+        "1338180"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Shared entry's actual taking out/withdrawal, not deriving all pairs from 下ろす.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q082",
+      "pair": [
+        "降ろす",
+        "取る"
+      ],
+      "metadataOwner": "words/降ろす.md",
+      "leftActualProposedCaption": "опускать; выгружать; высаживать",
+      "rightActualBoundCaption": "брать; подбирать",
+      "directWholeEntryIds": [
+        "1589580",
+        "1326980"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Own lower/take-down/remove sense; not transitive closure through another おろす spelling.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q083",
+      "pair": [
+        "降ろす",
+        "切る"
+      ],
+      "metadataOwner": "words/降ろす.md",
+      "leftActualProposedCaption": "опускать; выгружать; высаживать",
+      "rightActualBoundCaption": "резать",
+      "directWholeEntryIds": [
+        "1589580",
+        "1384830"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Own shared entry's cutting/removing senses; no universal cut/unload equivalence.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q084",
+      "pair": [
+        "降ろす",
+        "呼ぶ"
+      ],
+      "metadataOwner": "words/降ろす.md",
+      "leftActualProposedCaption": "опускать; выгружать; высаживать",
+      "rightActualBoundCaption": "звать; вызывать",
+      "directWholeEntryIds": [
+        "1589580",
+        "1266440"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Own shared entry's invoking sense; rare/ordinary necessity and spelling use unverified.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q085",
+      "pair": [
+        "向く",
+        "合う"
+      ],
+      "metadataOwner": "words/向く.md",
+      "leftActualProposedCaption": "поворачиваться; быть обращённым",
+      "rightActualBoundCaption": "подходить; совпадать",
+      "directWholeEntryIds": [
+        "1277080",
+        "1284430"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent suitability/fitness senses, not every physical orientation a match.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q086",
+      "pair": [
+        "向く",
+        "適当"
+      ],
+      "metadataOwner": "words/向く.md",
+      "leftActualProposedCaption": "поворачиваться; быть обращённым",
+      "rightActualBoundCaption": "подходящий; небрежный",
+      "directWholeEntryIds": [
+        "1277080",
+        "1437450"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent suitability/fitness, not careless/haphazard sense or every direction.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q087",
+      "pair": [
+        "向く",
+        "格好"
+      ],
+      "metadataOwner": "words/向く.md",
+      "leftActualProposedCaption": "поворачиваться; быть обращённым",
+      "rightActualBoundCaption": "внешний вид; форма",
+      "directWholeEntryIds": [
+        "1277080",
+        "1590480"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent suitability/fit sense, not general facial shape or appearance.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q088",
+      "pair": [
+        "向く",
+        "いい"
+      ],
+      "metadataOwner": "words/向く.md",
+      "leftActualProposedCaption": "поворачиваться; быть обращённым",
+      "rightActualBoundCaption": "хороший; подходит",
+      "directWholeEntryIds": [
+        "1277080",
+        "2820690"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Bounded independently suitable/agreeable sense, not all positive goodness or permissions.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q089",
+      "pair": [
+        "向く",
+        "良い"
+      ],
+      "metadataOwner": "words/向く.md",
+      "leftActualProposedCaption": "поворачиваться; быть обращённым",
+      "rightActualBoundCaption": "хороший",
+      "directWholeEntryIds": [
+        "1277080",
+        "1605820"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Bounded independently favorable/suitable quality, not suffix easy-to or universal goodness.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q090",
+      "pair": [
+        "向く",
+        "結構"
+      ],
+      "metadataOwner": "words/向く.md",
+      "leftActualProposedCaption": "поворачиваться; быть обращённым",
+      "rightActualBoundCaption": "хороший; достаточно",
+      "directWholeEntryIds": [
+        "1277080",
+        "1254760"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Bounded suitability/satisfactory acceptance; not all refusal/degree/structure senses.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q091",
+      "pair": [
+        "向く",
+        "進む"
+      ],
+      "metadataOwner": "words/向く.md",
+      "leftActualProposedCaption": "поворачиваться; быть обращённым",
+      "rightActualBoundCaption": "двигаться вперёд; продвигаться",
+      "directWholeEntryIds": [
+        "1277080",
+        "1365980"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent actual go-towards sense of 向く, not transitivity through 向かう.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q092",
+      "pair": [
+        "向く",
+        "行く"
+      ],
+      "metadataOwner": "words/向く.md",
+      "leftActualProposedCaption": "поворачиваться; быть обращённым",
+      "rightActualBoundCaption": "идти; ехать",
+      "directWholeEntryIds": [
+        "1277080",
+        "1578850"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent actual go-towards sense, not movement inferred merely from static facing.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q093",
+      "pair": [
+        "対する",
+        "反対"
+      ],
+      "metadataOwner": "words/対する.md",
+      "leftActualProposedCaption": "быть обращённым к; относиться к",
+      "rightActualBoundCaption": "возражение; противоположность",
+      "directWholeEntryIds": [
+        "1610160",
+        "1480670"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent opposition/contrast/confrontation, not hostility in every に対する.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q094",
+      "pair": [
+        "対する",
+        "比べる"
+      ],
+      "metadataOwner": "words/対する.md",
+      "leftActualProposedCaption": "быть обращённым к; относиться к",
+      "rightActualBoundCaption": "сравнивать",
+      "directWholeEntryIds": [
+        "1610160",
+        "1483540"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent comparison/contrast sense; not every directed response a comparison.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q095",
+      "pair": [
+        "対する",
+        "迎える"
+      ],
+      "metadataOwner": "words/対する.md",
+      "leftActualProposedCaption": "быть обращённым к; относиться к",
+      "rightActualBoundCaption": "встречать; приветствовать",
+      "directWholeEntryIds": [
+        "1610160",
+        "1253190"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent receiving a client, not all future-directed action a greeting.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q096",
+      "pair": [
+        "対する",
+        "受ける"
+      ],
+      "metadataOwner": "words/対する.md",
+      "leftActualProposedCaption": "быть обращённым к; относиться к",
+      "rightActualBoundCaption": "получать; подвергаться",
+      "directWholeEntryIds": [
+        "1610160",
+        "1329590"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Independent receiving a client versus receiving/acceptance; unrelated senses remain distinct.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q097",
+      "pair": [
+        "滑る",
+        "ぬるぬる"
+      ],
+      "metadataOwner": "words/滑る.md",
+      "leftActualProposedCaption": "скользить; поскальзываться",
+      "rightActualBoundCaption": "слизкий и скользкий",
+      "directWholeEntryIds": [
+        "1208640",
+        "1009870",
+        "2016150"
+      ],
+      "individuallyBoundedJapaneseSenseClaim": "Separate attested standalone ぬめる written 滑る (rare kanji) means slimy/slippery; not deriving it from a phrase or the ordinary すべる reading. Modern frequency/necessity UNVERIFIED.",
+      "citationBoundary": "Each cited WHOLE official entry was read, including all senses, readings/restrictions. IDs cite whole entries, not invented numbered senses. No automatic derived-form, English-gloss, transitive or clique pairs.",
+      "disposition": "AUTHOR_PROPOSAL_INDEPENDENTLY_PENDING",
+      "ordinaryModernNecessityFrequencyBroaderQuizSuitability": "UNVERIFIED"
+    }
+  ],
+  "exactAdditionalProposals": 97,
+  "proposedUniqueDirectPairs": 111,
+  "releaseBoundary": "SourceauthoringONLY;noassets/native/device/phone/IME/media/package/default/releaseapproval.",
+  "fullTaskComplete": false,
+  "continueRequired": true,
+  "primaryTitles": {
+    "下がる": "опускаться; снижаться",
+    "下げる": "опускать; снижать; вешать",
+    "下りる": "спускаться; выходить из транспорта",
+    "向かう": "быть обращённым; направляться",
+    "進む": "двигаться вперёд; продвигаться",
+    "移る": "переходить; переезжать",
+    "戻る": "возвращаться",
+    "寄る": "приближаться; заходить по пути",
+    "届ける": "доставлять; уведомлять",
+    "送る": "отправлять; провожать",
+    "迎える": "встречать; приветствовать",
+    "連れる": "брать кого-либо с собой",
+    "逃げる": "убегать; спасаться",
+    "遅れる": "опаздывать; задерживаться",
+    "過ぎる": "проходить; миновать",
+    "空く": "освобождаться; становиться менее людным",
+    "込む": "быть переполненным",
+    "引き出す": "снимать деньги; вытаскивать",
+    "揺れる": "качаться; трястись",
+    "滑る": "скользить; поскальзываться",
+    "向ける": "поворачивать; направлять",
+    "顔": "лицо; черты лица",
+    "下ろす": "опускать; снимать",
+    "降ろす": "опускать; выгружать; высаживать",
+    "向く": "поворачиваться; быть обращённым",
+    "対する": "быть обращённым к; относиться к"
+  },
+  "lexicalBoundaries": [
+    "26 complete natural Russian lessons;20actual N4+5actual N3+1unlabelled 顔. Preserve all Japanese readings/examples/invariants/classification/absence.",
+    "下がる position/price/temperature lowering and retreat; 下るさがる irregular okurigana versus separate くだる. 下げる transitive hanging/lowering/backing/ table-clearing; not the source's English object-verb comparison dependency.",
+    "下りる/降りる same おりる entry and ichidan; spelling preferences not absolute barriers. を in disembarking marks vehicle left, not a manipulated object.",
+    "向かう facing versus travelling toward a goal, not already arriving; 向うむかう versus 向こうむこう identities distinct. Source face noun guard explicitly proposed withdrawn with whole-object evidence and pending independent judgment.",
+    "進む intransitive movement/progress, not automatic improvement; 移る change of place/affiliation/state, not manner of movement or copying. No lifting appetite/phrase or suffix into unrestricted standalone equivalence.",
+    "戻る intransitive return/turn-back versus 戻す putting something back; 帰る can overlap for home return. Russian valency teaches the rule without relying on the single ambiguous English word return.",
+    "寄る approach versus short visit and separately attested gathering; no automatic all-motion topic guards. 届ける delivery/formal report versus 届く arrival.",
+    "送る dispatch versus accompanying; recipient に, travel limit まで; means of travel unspecified. 迎える receiver role with を versus 会う with に.",
+    "連れる taking a person/animal along, 行く/来る direction; not leading a company or winning a race. 逃げる getting away need not imply wrongdoing or running on foot.",
+    "遅れる lateness/lag/slow clock, not deliberately delaying an object; 過ぎる passing/elapsed time versus excessive suffix constructions; を route not object.",
+    "空く metadata あく and separately taught すく preserved; availability versus reduced crowds/hunger, 開く spelling preference. This is NOT protected033空.",
+    "込む independent crowding usually 混む versus independently intricate sense; suffix inward/completion/thoroughness/stay senses do not justify whole-word 入る/入れる/十分/しっかり guards.",
+    "引き出す physical drawing out, bank withdrawal and eliciting; source 引出す search-only spelling; all source examples preserved. Actual N4 classification retained when covering N2 source row; no universal retreat/application withdrawal.",
+    "揺れる physical sway and figurative wavering; ichidan stem 揺れ, strength not fixed. 滑るすべる godan despite an e-vowel before る, not a literal kana える ending; slipping not necessarily falling, route を. Separate rare writtenぬめる attested, modern necessity/frequency UNVERIFIED.",
+    "向ける transitive direction and separate dispatch; 向く physical orientation may take を without forced single valency, separate suitability; neither facing verb is the noun 顔. 対する special する class and に対して/ に対する; not hostility in every relationship or response.",
+    "顔 body part/appearance versus 頭 whole head and 表面 general surface; 笑顔えがお full reading. Datedかんばせ noun and がお suffix are not face verbs. Additional person/influence/member safeguards are individually bounded standalone-sense proposals, not universal ordinary quiz equivalences.",
+    "下ろす/降ろす sharedおろす entry, godan, not くだす from irregular 下す. Money withdrawal not spelling-restricted; unloading esp.降ろす, not a ban on other shared senses. Every proposed extra pair has own whole-entry basis.",
+    "All1699 accepted baseline runtime RAWs remain immutable. Retain every available original navigation link; unwrap only unavailable optional wrappers, record it.",
+    "Actual candidate26whole RU bodies and1413fresh caption/reading/quizrows must be read before one actual read-only C1/C2/C3 whole review. Prospective scope317whole teachingbodies/383objects/1413rows/3RUrootrubrics if unchanged, NOT yet read as a candidate or independently reviewed.",
+    "Qualified lexical protection does NOT certify ordinary modern quiz suitability/ necessity/frequency/global future uniqueness; those remain UNVERIFIED."
+  ],
+  "notAdoptedWithoutExactEvidence": [
+    "向かう–顔: explicit unsupported English verb/noun homography correction pending actual independent snapshot judgment; historical EN/intake immutable, scope still26.",
+    "顔–表 and 顔–頭 not automatic English face/surface or body-part/whole equivalence.",
+    "滑る–すべすべ: whole smooth/tactile word does not independently mean slimy/slippery merely because spelling/phonetics resemble 滑る; no transitive inheritance from its separate existing つるつる guard.",
+    "込む–入る/入れる/十分/しっかり: suffix senses do not make standalone 込む those words.",
+    "向かう–向こう: shared alternate spelling 向う does not make the assigned different full headwords and captions lexical equivalents.",
+    "No generic all-movement/all-direction/all-goodness/all-person/all-smoothness clique. No provider admitted just because a source-only comparison/article was read.",
+    "No suffixがた/がお/りょく/にん/じん or phrase component lifted into independent noun/ verb equivalence. Counter/readings are bound to their actual entries.",
+    "Protected033空 remains excluded pending C2 UNVERIFIED/not media. Other safe source authoring continues; no native/device/phone/IME/media/package/default/release approval."
+  ],
+  "independentReview": "PENDING; authorship/preparation not independent approval."
+}
