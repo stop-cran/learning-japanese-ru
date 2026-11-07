@@ -1,6 +1,75 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch071 degree, extent, sufficiency and assessment
+## Current qualified source milestone: batch072 qualities, evaluation and manner
+
+Batch072 adds **20 complete actual N4 Russian lessons /1053 file lines**,
+without reclassification, against frozen EN
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The [actual original whole review](translation-batches/072-qualities-evaluation-and-manner-independent-review-001.json)
+read **297 whole teaching bodies**:20 primary EN/RU pairs,98 contextual
+EN/RU pairs,55 EN-only word comparisons,four EN-only articles and two
+extra RU-only bodies,多い and事故.
+It also read **355 whole official ordered projections,1387 original fresh
+caption/reading/quiz rows,three whole current RU-root rubrics and three
+historical public external payloads**.
+Its10819-byte stdout/native identity and actual C1 wording,
+**“No consequential new lesson-level factual error established”**,
+and C3 wording,**“No consequential new Russian-language defect established”**,
+remain scoped to that reading. **C2 originally had two unresolved
+consequential medium findings,072-F01/F02;it was not CLEAN.**
+
+Original122 individually judged guards comprise five source **D** and
+117 additional proposals:89D/28K,totalling **94D/28K**.
+These are bounded direct or qualified-conservative lexical protections,
+not ordinary necessity/frequency or unrestricted interchangeability.
+A signed pre-mutation amendment adds four direct pairs on new owners:
+**RP118 おかしい–違う** and **RP119 凄い–多い** address F01/F02;
+**RP120 しっかり–結構** and **RP121 変–事故** adopt two original
+K-level questions,not additional consequential findings.
+
+The [actual focused review](translation-batches/072-qualities-evaluation-and-manner-independent-review-focused-002.json)
+resolves **only the exact missing-direct-protection findings072-F01/F02**.
+It read **16 whole bodies/eight EN/RU pairs,eight whole official objects,
+eight fresh affected rows,three whole RU-root rubrics and923 instruction
+lines**,plus the complete original report,amendment,applied record and
+exact learner/manifest diff. Its9613-byte stdout/native identity is preserved.
+It independently judges **RP118/119 D** and **RP120/121 K**.
+C1/C3 establish no consequential new error or correction-induced regression
+within that focus,not a new whole-batch certification.
+The K pairs retain their explicit construction/part-of-speech qualifications;
+dictionary inclusion does not establish ordinary modern applicability.
+
+The **126 current pairs:96D/30K** include122 retained judgments carrying
+**only original scope/identity**,not122 fresh focused judgments.
+Exactly **20/20 bodies,16/20 whole new RAW files and1383/1387 pool rows**
+are unchanged. Only four new-owner quiz-exclusion lists changed;
+no baseline provider,body,caption,Japanese identity or classification changed.
+This is not a second297-body review or1387 freshly reread corrected rows.
+There is no automaticどんどん–すっと speed pair,positive/degree/manner
+clique or withdrawn070 guard revival. なかなか1599420.4 remains Nの,
+not unrestricted な-adjective grammar.
+**Broader C2 ordinary quiz suitability,modern necessity/frequency and
+global future uniqueness remain UNVERIFIED,not blanket CLEAN/PASS.**
+
+The [qualified source record](translation-batches/072-qualities-evaluation-and-manner-reviewed-source.json)
+preserves evaluation/permission,correctness,simplicity/complexity,
+appropriateness,strangeness/amusement,rare positive珍しい,firmness,
+clarity,progression/movement,sleepiness,flourishing,smell and praise.
+All1679 accepted baseline runtime RAWs/tracking rows and historical
+evidence persist. Qualified source checkpoint: **1699 runtime objects /
+1387 words**,671 N5/556 N4/87 N3/19 N2/54 unlabelled; **80 N4 remain**.
+Strict progress: **1699 reviewed-current,two excluded reviewed blocked-media
+drafts,6577 pending of8278;6579 runtime paths absent**,no partial.
+Version `2aab0f69daec0c92`;checkpoint authority null/Ready false.
+These are accepted-main counts only after normal signed integration;
+fresh final serialized checks,actual public archives/signatures/four
+protected refs and exact-main CI are separate publication evidence.
+Protected033空 stays excluded/C2 UNVERIFIED,not media.
+No assets/native/device/phone/IME/media/default/package/release authority.
+Continue073+ and ALL remaining safe frozen levels/families;the entire
+finite objective is not complete.
+
+## Previous qualified source milestone: batch071 degree, extent, sufficiency and assessment
 
 Batch071 adds **30 complete Russian lessons /1700 file lines**:
 **20 actual N4 and ten actual N3** recursive explicit providers, without

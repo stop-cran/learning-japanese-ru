@@ -11,6 +11,61 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The seventy-second full-target batch adds **20 complete actual N4
+Russian lessons /1053 file lines**,without reclassification,against
+the unchanged frozen EN target.
+The [actual original whole review](translation-batches/072-qualities-evaluation-and-manner-independent-review-001.json)
+read **297 whole teaching bodies/355 whole official ordered projections/
+1387 original fresh caption-reading-quiz rows/three whole RU-root rubrics/
+three historical public external payloads**:20 primary EN/RU pairs,
+98 contextual pairs,55 EN-only words,four EN-only articles and two
+extra RU-only bodies,多い/事故.
+Its10819-byte stdout/native identity and actual C1/C3 wording,
+**“No consequential new lesson-level factual error established” /
+“No consequential new Russian-language defect established”**,remain
+bounded by the original scope. **C2 originally had unresolved consequential
+medium072-F01/F02,not CLEAN.**
+Original122 individual judgments:five sourceD plus117 additional89D/28K
+= **94D/28K**,only bounded lexical protection.
+
+A signed pre-mutation amendment adds **RP118 おかしい–違う /
+RP119 凄い–多い** for the exact findings,and **RP120 しっかり–結構 /
+RP121 変–事故** for two original K-level questions,not new findings.
+The [actual focused review](translation-batches/072-qualities-evaluation-and-manner-independent-review-focused-002.json)
+resolves only the exact F01/F02 missing-direct-protection findings:
+**16 whole bodies/eight EN/RU pairs,eight whole objects,eight fresh
+affected rows,three whole RU-root rubrics,923 instruction lines**,
+the complete original report,amendment,applied record and exact diff.
+Its9613-byte stdout/native identity is preserved.
+New independent judgments are **RP118/119 D,RP120/121 K**.
+C1/C3 establish no consequential new error or correction-induced
+regression within that focus,not a new whole-batch certification.
+RP120/121 retain explicit qualified-conservative lexical limitations;
+their ordinary modern applicability/necessity/frequency is UNVERIFIED.
+
+The **126 current pairs:96D/30K** include122 retained judgments carrying
+**only original scope/identity**,not122 fresh focused judgments.
+All20 new teaching-body RAWs,16 new whole-file RAWs and1383/1387 rows
+are unchanged. Only four new-owner quiz-exclusion lists changed;
+no baseline-provider/body/caption/Japanese/classification mutation.
+This is not a second297-body review or1387 fresh corrected rows.
+No automaticどんどん–すっと speed pair,positive/degree/manner clique
+or withdrawn070 guard revival;なかなか1599420.4 is Nの,not unrestrictedな.
+**Broader C2 ordinary quiz suitability,modern necessity/frequency and
+global future uniqueness remain UNVERIFIED,not blanket CLEAN/PASS.**
+All1679 accepted baseline runtime RAWs/tracking/history persist.
+Qualified source checkpoint: **1699 runtime objects /1387 words**,
+671 N5/556 N4/87 N3/19 N2/54 unlabelled; **80 N4 remain**.
+Strict progress: **1699 reviewed-current,two excluded reviewed blocked-media
+drafts,6577 pending of8278;6579 runtime paths absent**,no partial.
+Version `2aab0f69daec0c92`;checkpoint authority null/Ready false.
+These become accepted-main counts only after normal signed integration.
+Final serialized checks,actual public archives/signatures/four protected
+refs/exact-main CI remain separate publication evidence.
+Protected033空 stays excluded/C2 UNVERIFIED,not media.
+No assets/native/device/phone/IME/media/default/package/release authority.
+Continue073+ and ALL remaining safe frozen levels/families,not task completion.
+
 The seventy-first full-target batch adds **30 complete Russian lessons/
 1700 file lines:20 actual N4 and ten actual N3** recursive explicit
 providers,without reclassification,against unchanged frozen EN.
