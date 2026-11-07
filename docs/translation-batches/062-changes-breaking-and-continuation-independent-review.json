@@ -1,0 +1,2184 @@
+{
+  "schemaVersion": 1,
+  "batchId": "062-changes-breaking-and-continuation",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianCommit": "c1a1ae0c31e4996fea72407427096c14fd8876ac",
+  "actualOriginalReport": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+  "actualFocusedReport": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-002.json",
+  "actualOriginalScope": {
+    "completeUniqueTeachingBodies": 298,
+    "rootENRUpairs": 25,
+    "providerENRUpairs": 92,
+    "sourceOnlyENlessons": 62,
+    "sourceOnlyENarticles": 2,
+    "completeOfficialEntryProjections": 314,
+    "actualCandidatePoolRows": 1174,
+    "completeProposals": 64,
+    "completeAuthorDecisions": 18,
+    "currentRUrubrics": 3,
+    "instructionsLines": [
+      394,
+      253
+    ],
+    "completeHalfOpenIndexCoverage": {
+      "roots": [
+        0,
+        25
+      ],
+      "providers": [
+        0,
+        92
+      ],
+      "sourceOnlyLessons": [
+        0,
+        62
+      ],
+      "objects": [
+        0,
+        314
+      ],
+      "proposals": [
+        0,
+        64
+      ],
+      "decisions": [
+        0,
+        18
+      ],
+      "rubrics": [
+        0,
+        3
+      ]
+    },
+    "poolEndpoints": [
+      0,
+      119,
+      255,
+      380,
+      519,
+      648,
+      783,
+      919,
+      1053,
+      1174
+    ],
+    "articleLineEndpoints": [
+      [
+        0,
+        188,
+        200
+      ],
+      [
+        0,
+        199,
+        392,
+        416
+      ]
+    ],
+    "boundary": "All assigned bodies/objects/rows actually read through complete bounded returns. Pool rows NOT1174 whole baseline lessons. Failed/truncated returns excluded. Provider22/root5 reread for R1, not extra unique bodies."
+  },
+  "actualFocusedScope": {
+    "actualFreshReads": {
+      "wholeTeachingBodies": 4,
+      "bodies": "Complete EN/RU words\\止める.md and words\\切る.md",
+      "wholeOfficialEntries": 2,
+      "entries": [
+        "1310670",
+        "1384830"
+      ],
+      "actualPoolRows": 2,
+      "rowIndices": [
+        405,
+        780
+      ],
+      "completeCurrentRURubrics": 3,
+      "completeQ65": 1,
+      "wordManifestDiff": 1,
+      "executedIdentityAssertionReturn": 1,
+      "completeOriginalReportPayload": 1,
+      "completeResolutionFreeze": 1,
+      "completeAmendedAuthoring": 1,
+      "completeApplicableInstructions": 2
+    },
+    "boundary": "One focused review, not another whole review. Complete evidence returns read, including all26切る senses. Original actualReturnedReportText independently verified/read:10924 UTF8 bytes. No fresh25/298 bodies,1174 rows or314 entries. Earlier oversized report display excluded; this public protocol binds final JSON only."
+  },
+  "originalConclusions": {
+    "C1": {
+      "verdict": "PASS",
+      "scope": "Japanese accuracy/fidelity of25 complete roots against whole assigned source/provider/context and314 entries; no actionable reading/POS/example/sense error found."
+    },
+    "C2": {
+      "verdict": "REVISE",
+      "scope": "25 new lessons' consistency/dependencies/direct quiz ambiguity against1174 actual rows: R1 needs correction. Not a demand for invented global uniqueness."
+    },
+    "C3": {
+      "verdict": "PASS",
+      "scope": "25 Russian roots: comprehensible, self-contained, Japanese teaching preserved; no English placeholders or compulsory untranslated articles."
+    }
+  },
+  "originalFindings": [
+    {
+      "id": "062-R1",
+      "severity": "medium",
+      "disposition": "OPEN; directly adjudicate/protect before scoped C2 approval",
+      "affectedPaths": [
+        "words\\止める.md",
+        "words\\切る.md"
+      ],
+      "evidence": "Pool780 止める has broad прекращать cue; neither its guards nor pool405 切る guards protect this pair. Whole 切る provider teaches ending connections/switching off; whole 止める root stopping operation/processes/switching off. Captured1310670.1 stop/turn off and1384830.3/4 turn off/terminate independently support collision, not every stopping context.",
+      "correction": "Add qualified direct 止める–切る protection or disambiguate cue; NOT inference through 消す/終わる. Broader frequency/necessity UNVERIFIED."
+    }
+  ],
+  "actualFocusedFindingDisposition": {
+    "originalSeverity": "medium",
+    "originalDisposition": "OPEN",
+    "disposition": "resolved",
+    "paths": [
+      "words\\止める.md:9",
+      "words\\切る.md"
+    ],
+    "evidence": "Actual pool780止める/とめる/останавливать; прекращать versus405切る/きる/резать. Whole切る teaches ending connections/switching off; whole止める teaches stopping operation/processes/switching off. Whole1310670.1:stop/turn off;1384830.3:turn off;1384830.4:terminate/hang up/disconnect.",
+    "resolution": "Q65 adds the missing direct protection without baseline or teaching-text changes. Historical report remains REVISE.",
+    "confidence": "high within qualified lexical scope"
+  },
+  "facets": {
+    "C1": {
+      "originalVerdict": "PASS",
+      "effectiveVerdict": "PASS",
+      "scope": "Original assigned25-body Japanese accuracy/fidelity carried by identity; fresh focused-pair/Q65 evidence only, not a new whole review."
+    },
+    "C2": {
+      "originalVerdict": "REVISE",
+      "effectiveVerdict": "PASS",
+      "scope": "062-R1 resolved; unchanged original consistency/dependency evidence carried,64 qualified retains preserved,Q65 independently retained. Qualified direct lexical-protection scope ONLY, not global CLEAN or ordinary-quiz certification.",
+      "qualifiedAcceptanceBoundary": "Assigned text/dependencies/65individually qualified additional direct protections and eight preserved source declarations ONLY:original64 by actualwhole review/identitycarry plus freshly focusedQ65. NOT ordinarymodernquizsuitability/necessity/frequency, globalfutureuniqueness or runtime/package approval."
+    },
+    "C3": {
+      "originalVerdict": "PASS",
+      "effectiveVerdict": "PASS",
+      "scope": "Original assigned25-body Russian comprehensibility carried by identity; no learner-facing text changed; only two RU bodies freshly read."
+    }
+  },
+  "directPairs": [
+    {
+      "proposalId": "Q1",
+      "left": "変える",
+      "right": "する",
+      "leftActualProposedCaption": "изменять; менять",
+      "rightActualCaption": "делать; выполнять",
+      "completeOfficialEntrySenseEvidence": {
+        "1510650": [
+          1
+        ],
+        "1157170": [
+          2,
+          12
+        ]
+      },
+      "individuallyQualifiedRationale": "Changing something into a resulting state; the actualする resultative frame matters, not every action.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q1",
+        "変える–する",
+        "retain",
+        "Resultative AをBにする only."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q2",
+      "left": "変える",
+      "right": "取り替える",
+      "leftActualProposedCaption": "изменять; менять",
+      "rightActualCaption": "заменять; обменивать",
+      "completeOfficialEntrySenseEvidence": {
+        "1510650": [
+          1
+        ],
+        "1326830": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Conservative Russianменять cue for changing versus replacement/exchange; not every change of a plan replacing a physical item.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q2",
+        "変える–取り替える",
+        "retain",
+        "менять replacement/exchange, not all alteration."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q3",
+      "left": "変える",
+      "right": "直す",
+      "leftActualProposedCaption": "изменять; менять",
+      "rightActualCaption": "чинить; исправлять",
+      "completeOfficialEntrySenseEvidence": {
+        "1510650": [
+          1,
+          2
+        ],
+        "1599390": [
+          1,
+          2
+        ]
+      },
+      "individuallyQualifiedRationale": "Changing/revising versus correcting/revising; improvement is not inherent in every変える.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q3",
+        "変える–直す",
+        "retain",
+        "Revision/conversion, not guaranteed improvement."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q4",
+      "left": "変わる",
+      "right": "なる",
+      "leftActualProposedCaption": "меняться",
+      "rightActualCaption": "становиться",
+      "completeOfficialEntrySenseEvidence": {
+        "1510790": [
+          1
+        ],
+        "1375610": [
+          1,
+          5
+        ]
+      },
+      "individuallyQualifiedRationale": "Becoming different/change of state, not all existence or every resultativeなる construction.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q4",
+        "変わる–なる",
+        "retain",
+        "Become different; result frames retained."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q5",
+      "left": "変わる",
+      "right": "違う",
+      "leftActualProposedCaption": "меняться",
+      "rightActualCaption": "отличаться; быть неверным",
+      "completeOfficialEntrySenseEvidence": {
+        "1510790": [
+          1,
+          3
+        ],
+        "1158880": [
+          1
+        ],
+        "2109290": [
+          3
+        ]
+      },
+      "individuallyQualifiedRationale": "Change/difference, including standaloneたがう change sense; unusual変わった needs its own form.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q5",
+        "変わる–違う",
+        "retain",
+        "変わった difference; separate たがう change, not ちがう onset."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q6",
+      "left": "変わる",
+      "right": "動く",
+      "leftActualProposedCaption": "меняться",
+      "rightActualCaption": "двигаться; работать",
+      "completeOfficialEntrySenseEvidence": {
+        "1510790": [
+          1
+        ],
+        "1451210": [
+          5
+        ]
+      },
+      "individuallyQualifiedRationale": "Actual standalone動く change/fluctuation, not a claim that every physical movement is a change-of-state synonym.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q6",
+        "変わる–動く",
+        "retain",
+        "Fluctuation/change, not all motion."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q7",
+      "left": "動く",
+      "right": "働く",
+      "leftActualProposedCaption": "двигаться; работать",
+      "rightActualCaption": "работать",
+      "completeOfficialEntrySenseEvidence": {
+        "1451210": [
+          2
+        ],
+        "1451150": [
+          2
+        ]
+      },
+      "individuallyQualifiedRationale": "Functioning/operating, especially a mechanism, not equivalence to being employed.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q7",
+        "動く–働く",
+        "retain",
+        "Machine functioning, not employment."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q8",
+      "left": "動く",
+      "right": "運転",
+      "leftActualProposedCaption": "двигаться; работать",
+      "rightActualCaption": "вождение; работа механизма",
+      "completeOfficialEntrySenseEvidence": {
+        "1451210": [
+          2
+        ],
+        "1172830": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Machine functioning/operation with the attestedする roles; not every driving event or transitive machine operation.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q8",
+        "動く–運転",
+        "retain",
+        "Mechanism operation; noun/する roles."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q9",
+      "left": "動く",
+      "right": "走る",
+      "leftActualProposedCaption": "двигаться; работать",
+      "rightActualCaption": "бежать; бегать",
+      "completeOfficialEntrySenseEvidence": {
+        "1451210": [
+          1
+        ],
+        "1402540": [
+          2
+        ]
+      },
+      "individuallyQualifiedRationale": "Attested movement/travel of a vehicle, not an inferred clique of all walking/running/travel words.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q9",
+        "動く–走る",
+        "retain",
+        "Vehicle movement, no movement clique."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q10",
+      "left": "動く",
+      "right": "行く",
+      "leftActualProposedCaption": "двигаться; работать",
+      "rightActualCaption": "идти; ехать",
+      "completeOfficialEntrySenseEvidence": {
+        "1451210": [
+          1
+        ],
+        "1578850": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Standalone movement/proceeding; do not transfer auxiliary ongoing-action meanings to a bare headword.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q10",
+        "動く–行く",
+        "retain",
+        "Standalone movement, not auxiliary."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q11",
+      "left": "回る",
+      "right": "動く",
+      "leftActualProposedCaption": "вращаться; обходить",
+      "rightActualCaption": "двигаться; работать",
+      "completeOfficialEntrySenseEvidence": {
+        "1604300": [
+          7
+        ],
+        "1451210": [
+          2
+        ]
+      },
+      "individuallyQualifiedRationale": "Standalone machine/functioning overlap, not every moving object necessarily rotating.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q11",
+        "回る–動く",
+        "retain",
+        "Functioning, not every rotation."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q12",
+      "left": "回る",
+      "right": "働く",
+      "leftActualProposedCaption": "вращаться; обходить",
+      "rightActualCaption": "работать",
+      "completeOfficialEntrySenseEvidence": {
+        "1604300": [
+          7
+        ],
+        "1451150": [
+          2
+        ]
+      },
+      "individuallyQualifiedRationale": "Function/work well, not employment or every worker doing a round.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q12",
+        "回る–働く",
+        "retain",
+        "Function/work well, not employment."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q13",
+      "left": "回る",
+      "right": "運転",
+      "leftActualProposedCaption": "вращаться; обходить",
+      "rightActualCaption": "вождение; работа механизма",
+      "completeOfficialEntrySenseEvidence": {
+        "1604300": [
+          7
+        ],
+        "1172830": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Working/functioning of a mechanism, withする grammatical limits; not arbitrary driving or all operation senses.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q13",
+        "回る–運転",
+        "retain",
+        "Mechanism functioning; する frames."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q14",
+      "left": "回る",
+      "right": "通る",
+      "leftActualProposedCaption": "вращаться; обходить",
+      "rightActualCaption": "проходить; проезжать",
+      "completeOfficialEntrySenseEvidence": {
+        "1604300": [
+          4
+        ],
+        "1433030": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Going via a place/passing through a route; no requirement that either route is a closed circle.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q14",
+        "回る–通る",
+        "retain",
+        "Via/route, no required closed circle."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q15",
+      "left": "回る",
+      "right": "曲る",
+      "leftActualProposedCaption": "вращаться; обходить",
+      "rightActualCaption": "поворачивать; изгибаться",
+      "completeOfficialEntrySenseEvidence": {
+        "1604300": [
+          1
+        ],
+        "1239730": [
+          2
+        ]
+      },
+      "individuallyQualifiedRationale": "Conservative uncontextualized turning cue only; rotation and changing a travel direction are not generally interchangeable.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q15",
+        "回る–曲る",
+        "retain",
+        "Turn cue; rotation not generally direction change."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q16",
+      "left": "止む",
+      "right": "止まる",
+      "leftActualProposedCaption": "прекращаться; стихать",
+      "rightActualCaption": "останавливаться",
+      "completeOfficialEntrySenseEvidence": {
+        "1310640": [
+          1
+        ],
+        "1310620": [
+          2
+        ],
+        "2657250": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Cessation; alternate standaloneやまる is marked colloquial/rare, not relabelled as ordinaryとまる weather usage.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q16",
+        "止む–止まる",
+        "retain",
+        "Cessation; やまる rare/colloquial, not とまる weather."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q17",
+      "left": "止む",
+      "right": "終わる",
+      "leftActualProposedCaption": "прекращаться; стихать",
+      "rightActualCaption": "заканчиваться; заканчивать",
+      "completeOfficialEntrySenseEvidence": {
+        "1310640": [
+          1
+        ],
+        "1589600": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Something ceasing/ending, not proof that rain naturally uses every completion construction.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q17",
+        "止む–終わる",
+        "retain",
+        "Cease/be over, not all completion."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q18",
+      "left": "止む",
+      "right": "上がる",
+      "leftActualProposedCaption": "прекращаться; стихать",
+      "rightActualCaption": "подниматься; повышаться",
+      "completeOfficialEntrySenseEvidence": {
+        "1310640": [
+          1
+        ],
+        "1352290": [
+          13
+        ]
+      },
+      "individuallyQualifiedRationale": "Specifically rain stopping; not a transfer of upward movement to cessation.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q18",
+        "止む–上がる",
+        "retain",
+        "Rain stopping, not rising."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q19",
+      "left": "止む",
+      "right": "死ぬ",
+      "leftActualProposedCaption": "прекращаться; стихать",
+      "rightActualCaption": "умирать",
+      "completeOfficialEntrySenseEvidence": {
+        "1310640": [
+          1
+        ],
+        "1310730": [
+          3
+        ]
+      },
+      "individuallyQualifiedRationale": "Actual inanimate stop/die-out sense of死ぬ; not a claim that precipitation dies biologically.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q19",
+        "止む–死ぬ",
+        "retain",
+        "Inanimate cessation3, not biological death."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q20",
+      "left": "止む",
+      "right": "落ちる",
+      "leftActualProposedCaption": "прекращаться; стихать",
+      "rightActualCaption": "падать",
+      "completeOfficialEntrySenseEvidence": {
+        "1310640": [
+          1
+        ],
+        "1548550": [
+          3
+        ]
+      },
+      "individuallyQualifiedRationale": "Conservative Russianстихать cue: wind abating in落ちる3 versus ceasing in止む; weakening is not always complete cessation.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q20",
+        "止む–落ちる",
+        "retain",
+        "Wind abating/стихать versus ceasing."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q21",
+      "left": "止める",
+      "right": "消す",
+      "leftActualProposedCaption": "останавливать; прекращать",
+      "rightActualCaption": "стирать; выключать",
+      "completeOfficialEntrySenseEvidence": {
+        "1310670": [
+          1
+        ],
+        "1350110": [
+          2
+        ]
+      },
+      "individuallyQualifiedRationale": "Stopping/switching off a machine or power; not every erasure or every stopped activity.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q21",
+        "止める–消す",
+        "retain",
+        "Switching off, not all erasure."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q22",
+      "left": "止める",
+      "right": "終わる",
+      "leftActualProposedCaption": "останавливать; прекращать",
+      "rightActualCaption": "заканчиваться; заканчивать",
+      "completeOfficialEntrySenseEvidence": {
+        "1310680": [
+          1
+        ],
+        "1589600": [
+          2
+        ]
+      },
+      "individuallyQualifiedRationale": "Transitive cessation/finishing of an activity;やめる abandonment is not always completion.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q22",
+        "止める–終わる",
+        "retain",
+        "Transitive cessation; quitting need not complete."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q23",
+      "left": "止める",
+      "right": "締める",
+      "leftActualProposedCaption": "останавливать; прекращать",
+      "rightActualCaption": "затягивать; застёгивать",
+      "completeOfficialEntrySenseEvidence": {
+        "1310670": [
+          6
+        ],
+        "1436570": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Fastening/securing;留める is preferred for theとめる fastening sense, not an exclusive spelling.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q23",
+        "止める–締める",
+        "retain",
+        "Fastening; 留める preference not exclusion."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q24",
+      "left": "止める",
+      "right": "付ける",
+      "leftActualProposedCaption": "останавливать; прекращать",
+      "rightActualCaption": "прикреплять; добавлять",
+      "completeOfficialEntrySenseEvidence": {
+        "1310670": [
+          6
+        ],
+        "1495770": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Fastening/attaching with exact object/tool frames, not a claim that fastening means switching off.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q24",
+        "止める–付ける",
+        "retain",
+        "Fastening/attaching; object/tool frames."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q25",
+      "left": "止める",
+      "right": "覚える",
+      "leftActualProposedCaption": "останавливать; прекращать",
+      "rightActualCaption": "запоминать; помнить",
+      "completeOfficialEntrySenseEvidence": {
+        "1310670": [
+          5
+        ],
+        "1598820": [
+          5
+        ],
+        "1206050": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Remembering/retaining in mind with the attested frame and separateとどめる reading; not all primaryとめる stopping.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q25",
+        "止める–覚える",
+        "retain",
+        "Bear in mind; separate とどめる memory sense."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q26",
+      "left": "始める",
+      "right": "開く",
+      "leftActualProposedCaption": "начинать",
+      "rightActualCaption": "открываться",
+      "completeOfficialEntrySenseEvidence": {
+        "1307550": [
+          1,
+          2
+        ],
+        "1202440": [
+          5,
+          6
+        ]
+      },
+      "individuallyQualifiedRationale": "Starting/establishing a business or opening a meeting in theひらく reading; not every holding=open=start or primaryあく physical opening.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q26",
+        "始める–開く",
+        "retain",
+        "ひらく business/meeting start, not all あく."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q27",
+      "left": "始める",
+      "right": "開ける",
+      "leftActualProposedCaption": "начинать",
+      "rightActualCaption": "открывать",
+      "completeOfficialEntrySenseEvidence": {
+        "1307550": [
+          1,
+          2
+        ],
+        "1202450": [
+          2
+        ]
+      },
+      "individuallyQualifiedRationale": "Starting business at a shop; not every opening of a door or separateひらける becoming developed.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q27",
+        "始める–開ける",
+        "retain",
+        "Business opening, not doors/ひらける generally."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q28",
+      "left": "始める",
+      "right": "切る",
+      "leftActualProposedCaption": "начинать",
+      "rightActualCaption": "резать",
+      "completeOfficialEntrySenseEvidence": {
+        "1307550": [
+          1
+        ],
+        "1384830": [
+          7
+        ]
+      },
+      "individuallyQualifiedRationale": "Actual standalone opening/starting sense of切る; not auxiliary completion or universal cutting=start.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q28",
+        "始める–切る",
+        "retain",
+        "Standalone start7, not suffix completion."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q29",
+      "left": "始める",
+      "right": "起す",
+      "leftActualProposedCaption": "начинать",
+      "rightActualCaption": "будить",
+      "completeOfficialEntrySenseEvidence": {
+        "1307550": [
+          1,
+          2
+        ],
+        "1223660": [
+          4
+        ]
+      },
+      "individuallyQualifiedRationale": "Starting/establishing an undertaking; not all waking/raising meanings of起こす.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q29",
+        "始める–起す",
+        "retain",
+        "Launch/establish, not waking."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q30",
+      "left": "続く",
+      "right": "持つ",
+      "leftActualProposedCaption": "продолжаться; длиться",
+      "rightActualCaption": "держать; иметь; нести",
+      "completeOfficialEntrySenseEvidence": {
+        "1405790": [
+          1,
+          6
+        ],
+        "1315720": [
+          4
+        ]
+      },
+      "individuallyQualifiedRationale": "Conservative lasting/durability cue only; actual source tags持つ4 transitive, so no claimed grammatical interchangeability with intransitive続く or general holding=continuing.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q30",
+        "続く–持つ",
+        "retain",
+        "Duration; 持つ4 tagged transitive, not grammar equivalence."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q31",
+      "left": "終わり",
+      "right": "後",
+      "leftActualProposedCaption": "конец; окончание",
+      "rightActualCaption": "после; позже",
+      "completeOfficialEntrySenseEvidence": {
+        "1589590": [
+          1
+        ],
+        "1358760": [
+          3
+        ]
+      },
+      "individuallyQualifiedRationale": "Actual standalone後しり end/last-place sense; primaryあと/うしろ metadata remains unchanged.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q31",
+        "終わり–後",
+        "retain",
+        "Standalone しり end/last place, not あと."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q32",
+      "left": "終わり",
+      "right": "先",
+      "leftActualProposedCaption": "конец; окончание",
+      "rightActualCaption": "впереди; раньше; в будущем",
+      "completeOfficialEntrySenseEvidence": {
+        "1589590": [
+          1
+        ],
+        "1387210": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Conservative bare Russianконец cue and independently attested tip/end sense; not every temporal conclusion is a tip.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q32",
+        "終わり–先",
+        "retain",
+        "конец tip/end, not every conclusion a tip."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q33",
+      "left": "壊す",
+      "right": "折る",
+      "leftActualProposedCaption": "ломать; повреждать",
+      "rightActualCaption": "складывать; ломать",
+      "completeOfficialEntrySenseEvidence": {
+        "1199890": [
+          1
+        ],
+        "1385910": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Physical breaking by snapping/bending, not every fold destroying paper or every failure snapping an object.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q33",
+        "壊す–折る",
+        "retain",
+        "Break/snap, not harmless folding."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q34",
+      "left": "壊れる",
+      "right": "割れる",
+      "leftActualProposedCaption": "ломаться; выходить из строя",
+      "rightActualCaption": "разбиваться; раскалываться",
+      "completeOfficialEntrySenseEvidence": {
+        "1199900": [
+          1
+        ],
+        "1208020": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Physical breaking/cracking/shattering; generic壊れる does not imply fragments.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q34",
+        "壊れる–割れる",
+        "retain",
+        "Break/crack/shatter, not all breakage equivalent."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q35",
+      "left": "壊れる",
+      "right": "折れる",
+      "leftActualProposedCaption": "ломаться; выходить из строя",
+      "rightActualCaption": "ломаться; сгибаться",
+      "completeOfficialEntrySenseEvidence": {
+        "1199900": [
+          1
+        ],
+        "1385920": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Physical snapping/breaking, independently evidenced rather than inferred through割れる.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q35",
+        "壊れる–折れる",
+        "retain",
+        "Snap/break directly, independent of Q34."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q36",
+      "left": "壊れる",
+      "right": "倒れる",
+      "leftActualProposedCaption": "ломаться; выходить из строя",
+      "rightActualCaption": "падать; рушиться",
+      "completeOfficialEntrySenseEvidence": {
+        "1199900": [
+          1
+        ],
+        "1445790": [
+          2
+        ]
+      },
+      "individuallyQualifiedRationale": "Actual collapse/being destroyed; mere toppling need not damage a thing or imply machine failure.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q36",
+        "壊れる–倒れる",
+        "retain",
+        "Destructive collapse, not undamaged toppling."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q37",
+      "left": "壊れる",
+      "right": "止まる",
+      "leftActualProposedCaption": "ломаться; выходить из строя",
+      "rightActualCaption": "останавливаться",
+      "completeOfficialEntrySenseEvidence": {
+        "1199900": [
+          2
+        ],
+        "1310620": [
+          2
+        ]
+      },
+      "individuallyQualifiedRationale": "Machine stopping/ceasing to function;停止 does not by itself prove breakage.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q37",
+        "壊れる–止まる",
+        "retain",
+        "Machine ceases functioning; stoppage not proof of damage."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q38",
+      "left": "壊れる",
+      "right": "上がる",
+      "leftActualProposedCaption": "ломаться; выходить из строя",
+      "rightActualCaption": "подниматься; повышаться",
+      "completeOfficialEntrySenseEvidence": {
+        "1199900": [
+          2
+        ],
+        "1352290": [
+          14
+        ]
+      },
+      "individuallyQualifiedRationale": "Attested ceasing-to-work sense of上がる; not ordinary upward movement or every work-shift finishing.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q38",
+        "壊れる–上がる",
+        "retain",
+        "Working failure14, not rising."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q39",
+      "left": "壊れる",
+      "right": "落ちる",
+      "leftActualProposedCaption": "ломаться; выходить из строя",
+      "rightActualCaption": "падать",
+      "completeOfficialEntrySenseEvidence": {
+        "1199900": [
+          1,
+          2
+        ],
+        "1548550": [
+          1,
+          23
+        ]
+      },
+      "individuallyQualifiedRationale": "Independently attested collapse or computer/server ceasing to work; a software crash does not prove physically broken hardware.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q39",
+        "壊れる–落ちる",
+        "retain",
+        "Collapse/computing crash, not necessarily hardware damage."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q40",
+      "left": "折る",
+      "right": "終わる",
+      "leftActualProposedCaption": "складывать; ломать",
+      "rightActualCaption": "заканчиваться; заканчивать",
+      "completeOfficialEntrySenseEvidence": {
+        "1385910": [
+          4
+        ],
+        "1589600": [
+          2
+        ]
+      },
+      "individuallyQualifiedRationale": "Attested interrupting/ending, with phrase/object restrictions; do not call paper folding completion.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q40",
+        "折る–終わる",
+        "retain",
+        "Interrupt/end with phrase/object limits, not folding completion."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q41",
+      "left": "折れる",
+      "right": "曲る",
+      "leftActualProposedCaption": "ломаться; сгибаться",
+      "rightActualCaption": "поворачивать; изгибаться",
+      "completeOfficialEntrySenseEvidence": {
+        "1385920": [
+          4
+        ],
+        "1239730": [
+          2
+        ]
+      },
+      "individuallyQualifiedRationale": "Turning a corner/changing direction, not evidence that every curve is a fracture.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q41",
+        "折れる–曲る",
+        "retain",
+        "Turn corner; bending need not fracture."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q42",
+      "left": "折れる",
+      "right": "負ける",
+      "leftActualProposedCaption": "ломаться; сгибаться",
+      "rightActualCaption": "проигрывать; уступать",
+      "completeOfficialEntrySenseEvidence": {
+        "1385920": [
+          3
+        ],
+        "1497980": [
+          2
+        ]
+      },
+      "individuallyQualifiedRationale": "Yielding/giving in figuratively, not an assertion that every defeat physically bends a thing.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q42",
+        "折れる–負ける",
+        "retain",
+        "Figurative yielding, not every loss snapping."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q43",
+      "left": "落す",
+      "right": "無くす",
+      "leftActualProposedCaption": "ронять",
+      "rightActualCaption": "терять; устранять",
+      "completeOfficialEntrySenseEvidence": {
+        "1589260": [
+          1,
+          2
+        ],
+        "1529530": [
+          1,
+          2
+        ]
+      },
+      "individuallyQualifiedRationale": "Losing/removing with the attested written落す alias; not all losses occur by falling.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q43",
+        "落す–無くす",
+        "retain",
+        "Lose/remove; 落す=落とす, not every loss falling."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q44",
+      "left": "落す",
+      "right": "消す",
+      "leftActualProposedCaption": "ронять",
+      "rightActualCaption": "стирать; выключать",
+      "completeOfficialEntrySenseEvidence": {
+        "1589260": [
+          2
+        ],
+        "1350110": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Removing/erasing a mark or stain; not every drop switches a machine off.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q44",
+        "落す–消す",
+        "retain",
+        "Remove/erase marks, not all dropping."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q45",
+      "left": "落す",
+      "right": "負ける",
+      "leftActualProposedCaption": "ронять",
+      "rightActualCaption": "проигрывать; уступать",
+      "completeOfficialEntrySenseEvidence": {
+        "1589260": [
+          3
+        ],
+        "1497980": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Actual match/contest losing sense, with distinct transitivity and argument frames; not a generic drop=defeat rule.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q45",
+        "落す–負ける",
+        "retain",
+        "Match loss, distinct transitivity frames."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q46",
+      "left": "落ちる",
+      "right": "倒れる",
+      "leftActualProposedCaption": "падать",
+      "rightActualCaption": "падать; рушиться",
+      "completeOfficialEntrySenseEvidence": {
+        "1548550": [
+          1
+        ],
+        "1445790": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Physical falling/toppling; independently evidenced, not transitive through壊れる.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q46",
+        "落ちる–倒れる",
+        "retain",
+        "Fall/collapse/topple directly, not via 壊れる."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q47",
+      "left": "落ちる",
+      "right": "降りる",
+      "leftActualProposedCaption": "падать",
+      "rightActualCaption": "выходить из транспорта; спускаться",
+      "completeOfficialEntrySenseEvidence": {
+        "1548550": [
+          1,
+          2
+        ],
+        "1589500": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Downward movement; controlled descending and falling are not universally interchangeable.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q47",
+        "落ちる–降りる",
+        "retain",
+        "Downward movement; controlled descent not necessarily falling."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q48",
+      "left": "落ちる",
+      "right": "降る",
+      "leftActualProposedCaption": "падать",
+      "rightActualCaption": "идти; выпадать (об осадках)",
+      "completeOfficialEntrySenseEvidence": {
+        "1548550": [
+          1
+        ],
+        "1282790": [
+          1
+        ],
+        "1184450": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Falling cue with precipitationふる and separate standaloneくだる descending; primaryふる metadata unchanged.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q48",
+        "落ちる–降る",
+        "retain",
+        "Precipitation ふる/separate くだる descent, not all falling."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q49",
+      "left": "落ちる",
+      "right": "消える",
+      "leftActualProposedCaption": "падать",
+      "rightActualCaption": "исчезать; гаснуть",
+      "completeOfficialEntrySenseEvidence": {
+        "1548550": [
+          5,
+          6
+        ],
+        "1350040": [
+          1,
+          5
+        ]
+      },
+      "individuallyQualifiedRationale": "Loss/removal or fading/disappearing in exact stain/colour/weight contexts, not all fall=vanish or logout=extinguish.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q49",
+        "落ちる–消える",
+        "retain",
+        "Applicable marks/colour/fat removal/fading, not universal vanishing."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q50",
+      "left": "落ちる",
+      "right": "無くなる",
+      "leftActualProposedCaption": "падать",
+      "rightActualCaption": "пропадать; заканчиваться",
+      "completeOfficialEntrySenseEvidence": {
+        "1548550": [
+          7
+        ],
+        "1529550": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Being missing/omitted, not a transitive inference through消える.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q50",
+        "落ちる–無くなる",
+        "retain",
+        "Omitted/missing versus lost, not via 消える."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q51",
+      "left": "落ちる",
+      "right": "負ける",
+      "leftActualProposedCaption": "падать",
+      "rightActualCaption": "проигрывать; уступать",
+      "completeOfficialEntrySenseEvidence": {
+        "1548550": [
+          4,
+          8,
+          14,
+          19
+        ],
+        "1497980": [
+          1,
+          2,
+          3
+        ]
+      },
+      "individuallyQualifiedRationale": "Failing/losing/yielding in bounded contest/surrender contexts, not every fall or every examination using負ける.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q51",
+        "落ちる–負ける",
+        "retain",
+        "Contest/inferiority/yielding, not every failed exam 負ける."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q52",
+      "left": "落ちる",
+      "right": "痩せる",
+      "leftActualProposedCaption": "падать",
+      "rightActualCaption": "худеть; терять вес",
+      "completeOfficialEntrySenseEvidence": {
+        "1548550": [
+          6
+        ],
+        "1605510": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Specifically reduction of body weight/fat, not all physical falling.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q52",
+        "落ちる–痩せる",
+        "retain",
+        "Excess-fat/weight loss, not every descent."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q53",
+      "left": "落ちる",
+      "right": "死ぬ",
+      "leftActualProposedCaption": "падать",
+      "rightActualCaption": "умирать",
+      "completeOfficialEntrySenseEvidence": {
+        "1548550": [
+          26
+        ],
+        "1310730": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Attested animal-death sense; not all people dying called落ちる or every fall fatal.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q53",
+        "落ちる–死ぬ",
+        "retain",
+        "落ちる26 animal death, not general human death/fatal fall."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q54",
+      "left": "落ちる",
+      "right": "出る",
+      "leftActualProposedCaption": "падать",
+      "rightActualCaption": "выходить; появляться",
+      "completeOfficialEntrySenseEvidence": {
+        "1548550": [
+          17,
+          24
+        ],
+        "1338240": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Leaving a location and separately slang logging out, with register/frame limits; not a claim that leaving generally means falling.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q54",
+        "落ちる–出る",
+        "retain",
+        "Leave location/flee; logout24 separately slang."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q55",
+      "left": "増える",
+      "right": "上がる",
+      "leftActualProposedCaption": "увеличиваться",
+      "rightActualCaption": "подниматься; повышаться",
+      "completeOfficialEntrySenseEvidence": {
+        "1602440": [
+          1
+        ],
+        "1352290": [
+          6
+        ]
+      },
+      "individuallyQualifiedRationale": "Actual increasing quantity/value cue, not all numerical increases being spatial ascent.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q55",
+        "増える–上がる",
+        "retain",
+        "Quantity/value increase, not all spatial rise."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q56",
+      "left": "増える",
+      "right": "上げる",
+      "leftActualProposedCaption": "увеличиваться",
+      "rightActualCaption": "поднимать; давать",
+      "completeOfficialEntrySenseEvidence": {
+        "1602440": [
+          1
+        ],
+        "1352320": [
+          21
+        ]
+      },
+      "individuallyQualifiedRationale": "Actual intransitive market-price increase sense of上げる, not its usual transitive raising frame.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q56",
+        "増える–上げる",
+        "retain",
+        "1352320.21 intransitive FINANCE, not primary transitive/free frames."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q57",
+      "left": "増える",
+      "right": "付く",
+      "leftActualProposedCaption": "увеличиваться",
+      "rightActualCaption": "прикрепляться; прилипать",
+      "completeOfficialEntrySenseEvidence": {
+        "1602440": [
+          1
+        ],
+        "1495740": [
+          4
+        ]
+      },
+      "individuallyQualifiedRationale": "Standalone strength increasing; not suffix-onlyづく or a general attachment/increase equivalence.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q57",
+        "増える–付く",
+        "retain",
+        "Standalone strength increase4, not suffix-only づく states."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q58",
+      "left": "残る",
+      "right": "いる",
+      "leftActualProposedCaption": "оставаться",
+      "rightActualCaption": "находиться; быть (о людях и животных)",
+      "completeOfficialEntrySenseEvidence": {
+        "1304510": [
+          1
+        ],
+        "1577980": [
+          2
+        ]
+      },
+      "individuallyQualifiedRationale": "Staying/remaining of a person in a place, not every existence cue or auxiliary progressiveいる.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q58",
+        "残る–いる",
+        "retain",
+        "Standalone animate staying, not progressive auxiliary."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q59",
+      "left": "残る",
+      "right": "止まる",
+      "leftActualProposedCaption": "оставаться",
+      "rightActualCaption": "останавливаться",
+      "completeOfficialEntrySenseEvidence": {
+        "1304510": [
+          1
+        ],
+        "2657130": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Separate standaloneとどまる stay/remain sense, usually kana; primaryとまる stop metadata unchanged.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q59",
+        "残る–止まる",
+        "retain",
+        "Separate とどまる stay/remain, usually kana; とまる unchanged."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q60",
+      "left": "残る",
+      "right": "付く",
+      "leftActualProposedCaption": "оставаться",
+      "rightActualCaption": "прикрепляться; прилипать",
+      "completeOfficialEntrySenseEvidence": {
+        "1304510": [
+          1
+        ],
+        "1495740": [
+          2
+        ]
+      },
+      "individuallyQualifiedRationale": "Specifically remaining imprinted as a stain/mark; not every attached thing being leftover food.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q60",
+        "残る–付く",
+        "retain",
+        "Imprints/stains remaining, not all attachment leftover."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q61",
+      "left": "無くなる",
+      "right": "消える",
+      "leftActualProposedCaption": "пропадать; заканчиваться",
+      "rightActualCaption": "исчезать; гаснуть",
+      "completeOfficialEntrySenseEvidence": {
+        "1529550": [
+          1,
+          3
+        ],
+        "1350040": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Disappearing/no longer present, not亡くなる polite human death or all light-switching contexts.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q61",
+        "無くなる–消える",
+        "retain",
+        "Disappearance, not respectful 亡くなる/all lights."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q62",
+      "left": "無くなる",
+      "right": "終わる",
+      "leftActualProposedCaption": "пропадать; заканчиваться",
+      "rightActualCaption": "заканчиваться; заканчивать",
+      "completeOfficialEntrySenseEvidence": {
+        "1529550": [
+          2
+        ],
+        "1589600": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Conservative Russianзаканчиваться cue for depletion versus an activity ending; do not assert砂糖が終わる is a natural substitute.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q62",
+        "無くなる–終わる",
+        "retain",
+        "заканчиваться depletion/activity; not natural 砂糖が終わる."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q63",
+      "left": "最後",
+      "right": "後",
+      "leftActualProposedCaption": "конец; последний",
+      "rightActualCaption": "после; позже",
+      "completeOfficialEntrySenseEvidence": {
+        "1293810": [
+          1
+        ],
+        "1358760": [
+          3
+        ]
+      },
+      "individuallyQualifiedRationale": "Final end/last place via standaloneしり reading, not an English last=previous rule.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q63",
+        "最後–後",
+        "retain",
+        "Standalone しり end/last place, not blanket last/previous."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q64",
+      "left": "最後",
+      "right": "先",
+      "leftActualProposedCaption": "конец; последний",
+      "rightActualCaption": "впереди; раньше; в будущем",
+      "completeOfficialEntrySenseEvidence": {
+        "1293810": [
+          1
+        ],
+        "1387210": [
+          1
+        ]
+      },
+      "individuallyQualifiedRationale": "Conservative bareконец cue versus actual tip/end sense; not an assertion that last in a sequence equals ahead/earlier.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED for this pair;not asserted",
+      "originalIndependentPendingJudgment": "PENDING; not adopted approval",
+      "decision": "ADOPT individually qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-001.json",
+      "actualIndependentGround": [
+        "Q64",
+        "最後–先",
+        "retain",
+        "конец tip/end; 最後 latest retained, not last=ahead."
+      ],
+      "amendedSnapshotCarry": "Actual original whole-review judgment carried by unchanged captions/readings/bodies/originalguard identities,not fresh semantic reread.",
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "Q65",
+      "left": "止める",
+      "right": "切る",
+      "leftActualCaption": "останавливать; прекращать",
+      "rightActualCaption": "резать",
+      "completeOfficialEntrySenseEvidence": {
+        "1310670": [
+          1
+        ],
+        "1384830": [
+          3,
+          4
+        ]
+      },
+      "individuallyQualifiedRationale": "Direct actual stopping-operation/switching-off or terminating a connection/process collision under the uncontextualizedпрекращать cue. Whole1310670.1 independently recordsstop/turnoff; whole1384830.3/4 independently recordturnoff/terminate/hangup/disconnect. Object/frame constraints retained; not every stoppedactivity is cut, not physicalcutting everyprocess, not inference through existing消す/終わる guards.",
+      "ordinaryModernNecessityFrequency": "UNVERIFIED",
+      "originalIndependentPendingJudgment": "PENDING exact focused062-R1 review",
+      "decision": "ADOPT focused independently qualified direct lexical/caption protection",
+      "actualIndependentEvidence": "docs/translation-batches/062-changes-breaking-and-continuation-independent-review-002.json",
+      "actualIndependentGround": {
+        "decision": "retain",
+        "pair": [
+          "止める",
+          "切る"
+        ],
+        "actualCaptions": [
+          "останавливать; прекращать",
+          "резать"
+        ],
+        "individualRationale": "For bare切る, the other actual caption can describe terminating a connection/operation, despite切る's short title резать. Direct stopping/turning-off evidence justifies conservative protection. Reverse резать is not established for止める: symmetric protection does not assert two-way lexical equivalence. とめる is transitive ichidan;きる transitive godan; readings/conjugations stay distinct.",
+        "limitations": "Object/frame limits retained; not every stopped activity is cutting or every process compatible with切る. Not inferred through消す/終わる; no suffix24-26 extrapolation or new synonym lesson. One declaration records the direct symmetric exclusion contract; app enforcement not tested."
+      },
+      "broaderOrdinaryQuizSuitability": "UNVERIFIED",
+      "globalFutureUniqueness": "UNVERIFIED"
+    }
+  ],
+  "preservedSourceDirectGuards": [
+    {
+      "left": "変える",
+      "right": "変更",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/変更.md",
+      "actualRuntimeProvider": false
+    },
+    {
+      "left": "変える",
+      "right": "変化",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/変化.md",
+      "actualRuntimeProvider": false
+    },
+    {
+      "left": "変わる",
+      "right": "変える",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/変える.md",
+      "actualRuntimeProvider": false
+    },
+    {
+      "left": "終わり",
+      "right": "最後",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/最後.md",
+      "actualRuntimeProvider": false
+    },
+    {
+      "left": "終わり",
+      "right": "終わる",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/終わる.md",
+      "actualRuntimeProvider": true
+    },
+    {
+      "left": "変更",
+      "right": "変化",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/変化.md",
+      "actualRuntimeProvider": false
+    },
+    {
+      "left": "変更",
+      "right": "変える",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/変える.md",
+      "actualRuntimeProvider": false
+    },
+    {
+      "left": "変化",
+      "right": "変わる",
+      "sourceField": "quiz_exclusions",
+      "provider": "words/変わる.md",
+      "actualRuntimeProvider": false
+    }
+  ],
+  "exactAuthorImplementedFindings": [
+    {
+      "id": "062-R1",
+      "field": "words/止める.md:quiz_exclusions",
+      "delta": "Append切るonly; no baseline切る/bodychange.",
+      "focusedDecision": "resolved",
+      "originalStatusPreserved": "Actual originalC2REVISE/OPEN062-R1 remains immutable."
+    }
+  ],
+  "remainingUnimplementedOriginalFindings": [],
+  "originalReportUnchanged": true,
+  "originalAuthoringAndFreezesUnchanged": true,
+  "reviewShape": "One originalwhole review plus one exactfocusedR1 review; no secondwhole review.",
+  "completeAdoptedPrimaryPairsCovered": 25,
+  "teachingBodiesUnchanged": true,
+  "all1174CaptionsReadingsUnchanged": true,
+  "additionalDirectPairs": 65,
+  "preservedDirectedSourceDeclarations": 8,
+  "uniqueDirectPairs": 72,
+  "totalDirectedDeclarations": 73,
+  "authorPoolBoundary": "Original1174actualcandidate rows genuinely read with9publicreceipts; amendedtitles/readings/original64fields carryidentity plus oneexplicitdelta. Focusedreviewer freshly read2affectedamendedrows,NOT1174fresh002rows; neither author nor reviewer claims1174fresh002semanticreading.",
+  "qualifiedLimits": "Original298assignedbodies/314wholeofficialprojections/1174actualrows/3RU rubrics, including2wholeENarticles;focused4freshbodies/2wholeentries/2affectedrows/3RUrubrics/fulloriginalreport/identityproof. C1/C3carry unchanged25body evidence;C2onlyscopedqualifiedprotectionafterexactR1resolution. Original64 retains NOT65freshjudgments; originalC2REVISE immutable. ALL65ordinarymodernnecessity/frequency/broaderquizsuitability/globalfutureuniquenessUNVERIFIED. Direct止める–切るswitch-off/termination,not everyprocesscutting/not inferredthrough消す/終わる/suffixes. No device/media/default/package/release acceptance.",
+  "protectedUnverifiedDrafts": [
+    {
+      "draftPath": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+      "runtimePath": "words/空.md",
+      "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+      "status": "Excluded pending/C2 UNVERIFIED; not media"
+    }
+  ],
+  "checkpointAuthority": null,
+  "ordinaryActivationAuthorized": false,
+  "fullTaskComplete": false,
+  "continueRequired": true
+}

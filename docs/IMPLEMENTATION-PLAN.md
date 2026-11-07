@@ -11,6 +11,58 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The sixty-second full-target batch adds **25 complete changes/breaking/
+continuation lessons /1327 Russian file lines** against unchanged frozen EN:
+**23 actual N4 and two actual N3 words**, with no level relabeling.
+The [actual original whole review](translation-batches/062-changes-breaking-and-continuation-independent-review-001.json)
+read298 complete assigned teaching bodies,314 whole official objects,
+all1174 actual caption/reading/quiz rows and three current RU-root rubrics.
+The298 bodies are25 EN/RU root pairs,92 EN/RU provider pairs,62 source-only
+EN lessons and two whole EN contextual articles, not1174 baseline bodies.
+Actual **C1 PASS / C2 REVISE / C3 PASS** and64 individually qualified
+retain judgments remain immutable.
+
+The [actual focused review](translation-batches/062-changes-breaking-and-continuation-independent-review-002.json)
+resolves exact062-R1 through directQ65止める–切る protection.
+Its fresh scope is four complete teaching bodies,two whole official entries,
+**two affected actual rows**,three currentRU rubrics and the full original
+report/proposal/diff, with executed identity assertions.
+Whole1310670.1/1384830.3/4 directly support switching off/termination;
+not every stopped activity is cutting and not inference through消す/終わる.
+Symmetric exclusion is not bidirectional lexical equivalence.
+Original64 judgments/all25 bodies/all1174 captions-readings carry unchanged
+identities, **not a second whole review,65 fresh semantic judgments or1174
+freshly reread amended rows**.
+Effective facets PASS only within their documented source scopes;
+C2 is assigned text/dependencies/qualified lexical protection, not global
+ordinary-quiz certification. **All65 ordinary modern necessity/frequency,
+broader quiz suitability and global future uniqueness remain UNVERIFIED.**
+Original10924-byte/focused8435-byte actual stdout/native identities persist.
+
+Eight source guard declarations/seven unordered pairs plus65 additions:
+72 unique direct pairs/73 declarations, without transitive cliques.
+All25 complete bodies/Japanese examples/actual classifications remain.
+Eleven original wrappers retained/30 unavailable destinations unwrapped;
+supported self-contained explanations replace optional article navigation.
+Transitivity is not intention; suffix-only uses do not freely transfer to
+bare verbs; actual transitive終わる/latest最後 remain.
+No new provider or asset; all1461 baseline RAWs/tracking/history preserved.
+
+Qualified membership: **1486 runtime objects /1174 words**:
+671 N5/360 N4/70 N3/19 N2/54 unlabelled; **276 N4 remain**.
+Strict progress: **1486 reviewed-current, two excluded reviewed blocked-media
+drafts,6790 pending of8278;6792 absent runtime paths**, no partial.
+Version `a6c0541b79431b29`; checkpoint authority null/Ready false.
+Signed original/resolution freezes preceded their respective changes;
+original findings and exact focused resolution remain separate evidence.
+Final serialized checks, signed main integration, actual public archives and
+exact-main CI are separate publication proofs, not reviewer claims.
+Protected excluded033空 remains C2UNVERIFIED and not media.
+No asset/app/device/phone/IME/media/package/default/release approval.
+**Continue063+ and the entire safe remaining frozen scope; full task not complete.**
+
+Batch061 and earlier milestones below are historical.
+
 The sixty-first full-target batch adds **22 complete actualN4 nature/landscape
 lessons /1134 Russian file lines** against unchanged frozen EN.
 The [actual original whole review](translation-batches/061-nature-and-landscapes-independent-review-001.json)

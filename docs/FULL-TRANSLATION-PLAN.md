@@ -1,6 +1,62 @@
 # Full Russian translation: execution after the two pilots
 
-## Current source milestone: batch061 nature and landscapes
+## Current source milestone: batch062 changes, breaking and continuation
+
+Batch062 adds **25 complete lessons /1327 Russian file lines** against
+the unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`:
+**23 actual N4 and two actual N3 words**, with classifications preserved.
+The [actual original whole review](translation-batches/062-changes-breaking-and-continuation-independent-review-001.json)
+read **298 complete assigned teaching bodies,314 whole official objects,
+all1174 actual candidate caption/reading/quiz rows and three current RU-root
+rubrics**. The298 bodies comprise25 EN/RU root pairs,92 EN/RU provider
+pairs,62 source-only EN lessons and two whole EN contextual articles;
+rows are not1174 baseline teaching bodies.
+Its actual **C1 PASS / C2 REVISE / C3 PASS** and64 individually qualified
+retain judgments remain immutable.
+
+The [actual bounded focused review](translation-batches/062-changes-breaking-and-continuation-independent-review-002.json)
+resolves **062-R1** with direct **Q65止める–切る** protection.
+It freshly read **four complete teaching bodies, two whole official entries,
+two affected actual pool rows and three current RU rubrics**, plus the
+complete original report, proposal, exact diff and executed identity proof.
+The protection concerns stopping operation/switching off or terminating a
+connection/process under the actual broad «прекращать» cue:
+1310670.1 and1384830.3/4 directly support it.
+It is not inferred through消す/終わる, not every stopping action is cutting,
+and symmetric exclusion is not bidirectional lexical equivalence.
+
+Original64 judgments, all25 learner bodies and all1174 captions/readings
+carry verified unchanged identities; **not a second whole review,
+65 fresh semantic judgments or1174 freshly reread amended rows**.
+The effective facets PASS only in their documented scopes;
+C2 covers assigned text/dependencies and qualified direct lexical protection,
+**not global ordinary-modern quiz certification**.
+**All65 ordinary modern necessity/frequency, broader ordinary quiz
+suitability and global future uniqueness remain UNVERIFIED.**
+Both actual stdout/native-report byte identities are preserved.
+
+Eight original directed source guards/seven unordered pairs are preserved,
+plus65 qualified additional pairs:72 unique direct pairs/73 declarations.
+Eleven available original wrappers retained/30 unavailable destinations
+unwrapped; supported self-contained explanations replace optional article
+navigation without removing Japanese facts/readings or forcing providers.
+Transitivity is not intention; suffix meanings do not freely transfer to
+bare verbs; actual transitive終わる and latest/most-recent最後 remain taught.
+All1461 baseline RAWs/tracking/history and protected excluded033空 are preserved.
+Signed original and resolution freezes preceded their respective changes.
+
+Qualified membership: **1486 runtime objects /1174 words**:
+671 N5/360 N4/70 N3/19 N2/54 unlabelled; **276 N4 remain**.
+Strict progress: **1486 reviewed-current, two excluded reviewed blocked-media
+drafts,6790 pending of8278;6792 runtime paths absent**, no partial.
+Version `a6c0541b79431b29`; checkpoint authority null/Ready false.
+Final serialized validation, signed integration, actual public archives and
+exact-main CI remain separate publication evidence, not reviewer claims.
+No new assets/app/device/phone/IME/media/default/package/release authority.
+**Continue063+ and every remaining safe frozen level/family; full task is
+not complete. Protected空 remains separate, UNVERIFIED and not media.**
+
+## Prior source milestone: batch061 nature and landscapes
 
 Batch061 adds **22 complete actual N4 lessons /1134 Russian file lines**
 against the same frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
