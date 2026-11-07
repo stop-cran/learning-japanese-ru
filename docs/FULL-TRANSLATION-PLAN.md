@@ -1,6 +1,71 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch069 time intervals and sequencing
+## Current qualified source milestone: batch070 connectors, response and degree
+
+Batch070 adds **20 complete actual N4 lessons /1114 Russian file lines**
+against unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The [actual original whole review](translation-batches/070-connectors-response-and-degree-independent-review-001.json)
+read **225 whole teaching bodies**:20 primary EN/RU pairs,74 contextual
+EN/RU pairs and37 frozen-only bodies, plus **400 whole official ordered
+projections,1337 original fresh caption/reading/quiz rows and three
+whole current RU-root rubrics**. All101 assigned windows returned.
+The10979-byte stdout/native identity and actual **C1/C3 CLEAN,
+C2 NEEDS_FIX**,including070-F01/F02,remain immutable.
+
+The original74 individual judgments were three source direct guards
+and71 additional proposals:31 direct/38 qualified/one rejected/one
+unverified. A signed pre-mutation amendment withdraws exactly
+**Q68 全然–みんな (R)** and **Q69 全然–もう (U)**:
+object totality is not degree;an independently attested extreme-emphasis
+もう interjection does not establish the needed actual Japanese cue.
+Withdrawal is not a categorical never-overlap or frequency claim.
+All three source guards remain:それに–また,できるだけ–なるべく,
+ぜひ–必ず.
+
+The [actual focused review](translation-batches/070-connectors-response-and-degree-independent-review-focused-002.json)
+resolves **only070-F01/F02 in the corrected focus**, after reading
+**18 whole teaching bodies,nine whole official objects,nine affected
+rows and three whole RU-root rubrics**,the exact diff,amendment and
+original report. All13 assigned windows returned;the10374-byte
+stdout/native identity is preserved. Its separate **C1/C2/C3 CLEAN**
+verdicts apply **only to that bounded scope**,not blanket C2 approval.
+It individually supports **RP72 こう–そうして (D)** and
+**RP73 そう–そうして,RP74 ああ–そうして,RP75 こう–それほど,
+RP76 こう–そんなに (Q)**,with manner,degree,deictic and construction
+restrictions retained. These are whole-word sense/cue protections,
+not transitive closure or phrase-component lifting.
+
+The **77 current individual direct pairs:35 direct/42 qualified**
+include **72 retained judgments** carrying **only original scope and
+identity**,not72 fresh focused judgments. All20 learner bodies remain
+RAW-identical;1333 of1337 rows are identical. The nine fresh affected
+rows include four changed owners and five unchanged providers;the
+other1328 are outside fresh focus,retained by identity. This is not a
+second225-body review or1337 freshly reread corrected rows.
+Four additional こう–そして/それに–それから/ぜひ–きっと/
+ぜひ–もちろん questions remain unverified;全然–いい/良い remains
+rejected as phrase-component lifting. **Broader C2 ordinary quiz
+suitability,modern necessity/frequency and global future uniqueness
+remain UNVERIFIED.**
+
+The [qualified source record](translation-batches/070-connectors-response-and-degree-reviewed-source.json)
+preserves manner/degree,agreement/hesitation,contrast/consequence/addition/
+choice,feasible effort/eager request/strong negation distinctions.
+全然's colloquial affirmative example is not categorically rejected.
+All1629 baseline runtime RAWs/tracking rows and historical evidence persist.
+Qualified source membership: **1649 runtime objects /1337 words**:
+671 N5/516 N4/77 N3/19 N2/54 unlabelled; **120 N4 remain**.
+Strict progress: **1649 reviewed-current,two excluded reviewed blocked-media
+drafts,6627 pending of8278;6629 runtime paths absent**,no partial.
+Version `26fc062e779f8e9e`;checkpoint authority null/Ready false.
+Final serialized checks,signed integration,actual public archives/
+signatures/four protected refs and exact-main CI are separate publication
+evidence. Protected033空 stays excluded/C2 UNVERIFIED,not media.
+No assets/native/device/phone/IME/media/default/package/release authority.
+Continue071+ and ALL remaining safe frozen levels/families;the entire
+finite objective is not complete.
+
+## Previous qualified source milestone: batch069 time intervals and sequencing
 
 Batch069 adds **20 complete actual N4 lessons /1044 Russian file lines**
 against unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
