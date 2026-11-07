@@ -11,6 +11,47 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The fifty-eighth full-target batch adds **20 complete N4 memory/intention/
+certainty lessons /1011 Russian file lines** against the unchanged frozen EN.
+The [actual original whole review](translation-batches/058-memory-intentions-and-certainty-independent-review-001.json)
+read126 complete teaching bodies,174 whole official objects and all1081
+actual caption/reading/quiz rows, plus two stored bounded native returns.
+Original **C1/C3 CLEAN and C2 NEEDS_REVISION remain immutable**.
+The [actual focused review](translation-batches/058-memory-intentions-and-certainty-focused-review-001.json)
+independently accepts the exact F1訳–説明 repair and BOTH F2 direct
+やはり–また /やっぱり–また repairs.
+Its fresh scope is10 whole teaching bodies,six entire objects and1081current
+captions/readings; all20 body hashes carry forward unchanged.
+The28 qualified direct guards retain four source fields and21 originally
+supported proposals, plus three focused repairs. No second whole CLEAN
+report, transitive closure or fresh25-pair semantic rereading is claimed.
+Alternate/reading-only, archaic, consumption and tentative-memory limits
+remain; ordinary modern necessity/frequency/global uniqueness stay **UNVERIFIED**.
+
+Memory, intention/schedule, expectation/obligation, hypotheticalたら/ば,
+grounds/explanation and decision valency remain fully taught.
+The prewritingもし correction and later directもし–万一 source freeze
+remain distinct historical phases; no after-review body repair.
+Later parent source175 includes one additional説明-footer object;
+the original actual174-object scope is not enlarged retroactively.
+Nine wrappers retained/23 unavailable optional wrappers unwrapped;
+unavailable article promises replaced by factual prose, not adopted providers.
+
+Qualified source membership: **1393 runtime objects /1081 words**,
+671 N5/271 N4/66 N3/19 N2/54 unlabelled.
+Strict progress: **1393 reviewed-current, two excluded reviewed blocked-media
+drafts,6883 pending of8278;6885 absent runtime paths**, no partial.
+Version `8378ce96cf6756b8`; checkpoint authority null/Ready false.
+All1373 baseline RAWs/tracking/history and protected excluded033空 preserved.
+The original and focused stdout/native-final payloads are immutable.
+Signed semantic/resolution freezes preceded their respective changes.
+Final serialized checks, signed main integration, actual public archives and
+exact-main CI are separate publication evidence, not reviewer claims.
+No asset/app/device/phone/IME/media/package/default/release approval.
+**Continue the entire remaining safe frozen scope; full task not complete.**
+
+Batch057 and earlier milestones below are historical.
+
 The fifty-seventh full-target batch adds **21 complete feelings/reactions/
 attitudes lessons /1211 Russian file lines**:
 **20 actual N4 roots plus required N3幸せ**, with original levels unchanged.

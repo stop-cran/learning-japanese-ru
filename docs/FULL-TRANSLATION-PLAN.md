@@ -1,6 +1,56 @@
 # Full Russian translation: execution after the two pilots
 
-## Current source milestone: batch057 feelings, reactions and attitudes
+## Current source milestone: batch058 memory, intentions and certainty
+
+Batch058 adds **20 complete N4 lessons /1011 Russian file lines** against
+the unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The [actual original whole review](translation-batches/058-memory-intentions-and-certainty-independent-review-001.json)
+read **126 complete teaching bodies,174 whole official objects and all1081
+candidate caption/reading/quiz rows**, plus two stored bounded native returns.
+Its **C1/C3 CLEAN and C2 NEEDS_REVISION remain immutable**.
+The [actual focused review](translation-batches/058-memory-intentions-and-certainty-focused-review-001.json)
+resolves F1 with direct **訳–説明**, and F2 with BOTH independent
+**やはり–また andやっぱり–また** guards.
+It freshly read **10 complete teaching bodies,six entire objects and all1081
+current captions/readings**, not the whole original scope again.
+All20 teaching-body hashes and all1081 captions/readings are unchanged.
+This is one whole review plus one exact focused resolution, not a second
+whole CLEAN report or a metadata rewrite of the original verdict.
+
+The28 qualified direct protections comprise four original source fields,
+21 individually supported proposals carried from the original review,
+and three independently accepted focused repairs.
+Alternate/reading-only 訳/やく, bare本/もと cause, archaic instantaneousきっと,
+lexical決める consumption and tentative-memory確か retain their exact limits.
+No transitivity through variants,予定,場合,食べる or absentもしも is inferred.
+The two bounded native definitions support only their examined prediction/
+resolve question; related indexes and one failed request establish no frequency.
+**Ordinary modern necessity/frequency and broader uniqueness remain UNVERIFIED.**
+
+Remembering versus retaining, intention versus schedule, expectation versus
+obligation, hypotheticalたら/ば, explanation/grounds and transitive/intransitive
+decision distinctions remain explicit. The prewritingもし correction withdraws
+an older planning overstatement, not a post-review body change.
+Actual primary identities/readings/levels/types/tags/kanji remain unchanged.
+The later parent binding has175 objects because説明's1199080 footer was also
+read; it does not retroactively enlarge the original174-object review.
+Nine source wrappers retained/23 unavailable optional wrappers unwrapped;
+unavailable formal-noun/conditional article promises became factual prose.
+
+Qualified membership: **1393 runtime objects /1081 words**:
+671 N5/271 N4/66 N3/19 N2/54 unlabelled.
+Strict progress: **1393 reviewed-current, two excluded reviewed blocked-media
+drafts,6883 pending of8278;6885 runtime paths absent**, no partial.
+Version `8378ce96cf6756b8`; checkpoint authority null/Ready false.
+All1373 baseline RAWs/tracking/history and protected excluded033空 are preserved.
+Signed semantic and exact resolution freezes preceded their respective changes.
+Final serialized validation, signed integration, actual public archives and
+exact-main CI remain separate publication evidence, not reviewer claims.
+No asset/app/device/phone/IME/media/default/package/release authority.
+**Continue every remaining safe frozen level/family; full task is not complete.
+Protected空 remains separate, UNVERIFIED and not media.**
+
+## Prior source milestone: batch057 feelings, reactions and attitudes
 
 Batch057 adds **21 complete lessons /1211 Russian file lines** against
 the unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`:
