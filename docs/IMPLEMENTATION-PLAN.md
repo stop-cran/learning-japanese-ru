@@ -11,6 +11,64 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The seventy-third full-target batch adds **26 complete Russian lessons/
+1493 file lines:20 actual N4,five actual N3 and one unlabelled顔**,
+without reclassification or adding absent `jlpt`,against unchanged frozen EN.
+The [actual original whole review](translation-batches/073-movement-direction-and-transfer-independent-review-001.json)
+read **317 whole teaching bodies/383 whole official ordered projections/
+1413 original fresh caption-reading-quiz rows/three whole RU-root rubrics/
+923 instruction lines**:26 primary EN/RU pairs,91 contextual pairs,
+81 EN-only words and two whole EN-only articles. No external page was
+fetched/read. Its **10861-byte stdout/native identity** and bounded
+C1/C3 findings remain immutable: no confirmed required factual correction
+or consequential Russian-language defect in26 new lessons against assigned
+evidence. **C2 originally had F1–F7 unresolved,not CLEAN**:
+one P2 gap and six P3 qualified safeguard questions,not proven universal
+modern necessity.
+Original111 individual judgments are **68D/43K**:
+14 retained source12D/2K plus97 additional56D/41K.
+The source向かう–顔 withdrawal is independently supported only for
+the original candidate/scope and unchanged identity;frozen EN/intake15
+declarations remain immutable,14 retained. Three顔 objects/body were
+not newly read in the later focus.
+
+A signed pre-mutation amendment adds **24 protections RP098–RP121
+on17 new owners**,with16 unchanged accepted providers.
+The [actual focused review](translation-batches/073-movement-direction-and-transfer-independent-review-focused-002.json)
+resolves only the exact F1–F7 questions as bounded lexical protection:
+**66 whole bodies/33 EN/RU pairs,32 whole objects,33 fresh corrected
+affected rows,three whole RU-root rubrics,923 instruction lines**,
+the complete original report,three complete records and exact329-line diff.
+Its **10994-byte stdout/native identity** is preserved;24 fresh judgments
+are **12D/12K**. C1/C3 find no confirmed new substantive factual or
+consequential Russian regression within focus,not a new whole certification.
+The four whole provider pairs 一杯/落す/押す/もらう are newly included
+in append-only binding004/focus,not original317-body bilingual reading.
+
+The **135 current pairs:80D/55K** retain111 judgments carrying
+**only original scope/identity**,not111 or135 fresh focused judgments.
+All26 new teaching-body byte tails,9 whole new RAW files and1396/1413
+rows are unchanged. Only24 inline exclusions on17 new-owner lists changed;
+no baseline/provider/body/caption/Japanese/classification mutation.
+This is not a second317-body/383-object review or1413 fresh corrected rows.
+Banking verb/noun,secondary-sense,orientation/participant,illness and fax
+limitations persist;D/K is not unrestricted substitution.
+**Broader C2 ordinary quiz suitability,modern necessity/frequency and
+global future uniqueness remain UNVERIFIED,not blanket CLEAN/PASS.**
+All1699 accepted baseline runtime RAWs/tracking/history persist.
+Qualified source checkpoint: **1725 runtime objects /1413 words**,
+671 N5/576 N4/92 N3/19 N2/55 unlabelled; **60 N4 remain**.
+Strict progress: **1725 reviewed-current,two excluded reviewed blocked-media
+drafts,6551 pending of8278;6553 runtime paths absent**,no partial.
+Version `d57de202b04c40d6`;checkpoint authority null/Ready false.
+These become accepted-main counts only after normal signed integration.
+Fresh final serialized checks,actual public archives/signatures/four
+protected refs/exact-main CI remain separate publication evidence.
+Protected033空 remains the only pending N5 word,excluded/C2 UNVERIFIED,
+not media. No assets/native/device/phone/IME/media/default/package/release
+authority. Continue074+ and ALL remaining safe frozen levels/families,
+not task completion.
+
 The seventy-second full-target batch adds **20 complete actual N4
 Russian lessons /1053 file lines**,without reclassification,against
 the unchanged frozen EN target.

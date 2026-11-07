@@ -1,6 +1,79 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch072 qualities, evaluation and manner
+## Current qualified source milestone: batch073 movement, direction and transfer
+
+Batch073 adds **26 complete Russian lessons /1493 file lines**:
+**20 actual N4,five actual N3 and one unlabelled顔**.
+Classifications and absent `jlpt` remain unchanged against frozen EN
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The [actual original whole review](translation-batches/073-movement-direction-and-transfer-independent-review-001.json)
+read **317 whole teaching bodies**:26 primary EN/RU pairs,91 contextual
+EN/RU pairs,81 EN-only comparison words and two whole EN-only articles.
+It also read **383 whole official ordered projections,1413 original fresh
+caption/reading/quiz rows,three whole current RU-root rubrics and923
+instruction lines**. No external webpage was fetched or read.
+Its **10861-byte stdout/native identity** and bounded C1/C3 findings
+remain immutable: no confirmed required factual correction or consequential
+Russian-language defect in the26 new lessons against assigned evidence.
+**C2 originally had F1–F7 unresolved,not CLEAN**:
+F1 was a P2 safety gap;F2–F7 were P3 qualified safeguard questions,
+not proof that all were mandatory ordinary modern exclusions.
+
+The original **111 individual judgments:68D/43K** comprise14 retained
+source declarations,12D/2K,and97 additional proposals,56D/41K.
+The original whole reviewer independently supports withdrawal of the
+source向かう–顔 exclusion for that candidate: the facing verb is not
+the noun顔,dated nounかんばせ or suffixがお. Frozen EN,intake and all
+15 original declarations remain immutable;14 are retained in the candidate.
+This support carries only its original qualified scope/identity;
+the three顔 objects/body were not newly read in the later focus.
+
+A signed pre-mutation amendment adopts **24 exact direct protections,
+RP098–RP121,on17 new owners**,with16 unchanged accepted providers.
+The [actual focused review](translation-batches/073-movement-direction-and-transfer-independent-review-focused-002.json)
+resolves **only the exact F1–F7 missing-protection questions as bounded
+lexical protection**. It read **66 whole bodies/33 EN/RU pairs,32 whole
+official objects,33 fresh corrected affected rows,three whole RU-root
+rubrics and923 instruction lines**,the complete original report,three
+complete amendment/applied/candidate records and the exact329-line diff.
+Its **10994-byte stdout/native identity** is preserved.
+The24 fresh individual judgments are **12D/12K**. C1/C3 find no confirmed
+new substantive factual or consequential Russian regression within that
+focus,not a new whole-batch certification.
+Four provider pairs,一杯/落す/押す/もらう,were added to append-only
+binding004 and actually read whole in this focus;they were not four
+whole bilingual pairs in the original317-body scope.
+
+The **135 current pairs:80D/55K** retain111 judgments carrying
+**only original scope/identity**,not111 or135 fresh focused judgments.
+Exactly **26/26 teaching-body byte tails,9/26 whole new RAW files and
+1396/1413 pool rows** are unchanged. Only24 inline exclusions on17
+new-owner lists changed;no baseline-provider,teaching-body,caption,
+Japanese identity,classification or runtime-provider mutation.
+This is not a second317-body/383-object review or1413 fresh corrected rows.
+Banking verb/noun,secondary senses,orientation/controlled direction,
+notification/invitation,flight,schedule,illness viewpoints and fax-specific
+limitations persist;D/K is not unrestricted interchangeability.
+**Broader C2 ordinary quiz suitability,modern necessity/frequency and
+global future uniqueness remain UNVERIFIED,not blanket CLEAN/PASS.**
+
+The [qualified source record](translation-batches/073-movement-direction-and-transfer-reviewed-source.json)
+preserves full movement/direction/transfer teaching and all1699 accepted
+baseline runtime RAWs/tracking rows/history. Qualified source checkpoint:
+**1725 runtime objects /1413 words**,671 N5/576 N4/92 N3/19 N2/
+55 unlabelled; **60 N4 remain**.
+Strict progress: **1725 reviewed-current,two excluded reviewed blocked-media
+drafts,6551 pending of8278;6553 runtime paths absent**,no partial.
+Version `d57de202b04c40d6`;checkpoint authority null/Ready false.
+These are accepted-main counts only after normal signed integration;
+fresh final serialized checks,actual public archives/signatures/four
+protected refs and exact-main CI are separate publication evidence.
+Protected033空 remains the only pending N5 word,excluded/C2 UNVERIFIED,
+not media. No assets/native/device/phone/IME/media/default/package/release
+authority. Continue074+ and ALL remaining safe frozen levels/families;
+the entire finite objective is not complete.
+
+## Previous qualified source milestone: batch072 qualities, evaluation and manner
 
 Batch072 adds **20 complete actual N4 Russian lessons /1053 file lines**,
 without reclassification, against frozen EN
