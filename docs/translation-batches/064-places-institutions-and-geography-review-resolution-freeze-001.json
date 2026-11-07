@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "batchId": "064-places-institutions-and-geography",
+  "originalWholeReviewCommit": "37b2c3318ca337ce21cf59b48c7111a8f9ca528b",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineCommit": "83a14d0ad6efca664bc57edf8b7345cb4ee20a81",
+  "actualOriginalReviewer": "d5769cbb-c0d6-4ec6-a3f7-96a6194ca7eb",
+  "actualOriginalReportSha256": "11b5832c71f718f16e982a63f1b55b7079ad4384ac7dfdc0d94a6c51bad33444",
+  "actualOriginalC1C2C3": "NEEDS_FIX, all coupled to F1; original immutable",
+  "exactChange": {
+    "path": "words/市民.md",
+    "oldWorkingRawSha256": "74d2a41274367f9bef7f0fefbf6b5ea8d006eb4de2d59c817a40d1d3fc82edff",
+    "field": "quiz_exclusions",
+    "oldAbsent": true,
+    "newValue": [
+      "人口"
+    ],
+    "proposalId": "Q25",
+    "pair": [
+      "市民",
+      "人口"
+    ],
+    "providerPath": "words/人口.md",
+    "providerWorkingRawSha256": "3c9709a0df33ed21aef58c46613d393a6115c4183e32d6237794cff560a502a0",
+    "actualCurrentCaptions": [
+      "гражданин; горожанин",
+      "население"
+    ],
+    "directWholeSources": [
+      "1308690.1-2",
+      "1367300.1",
+      "1334210"
+    ],
+    "reason": "Exact Russianнаселение can denote collective inhabitants, whereas statistical count explanation is absent from quiz caption. Not citizens equalling a number/genericperson inclusion.",
+    "qualification": "Conservative directional exact-caption protection; ordinarymodernnecessity/frequency/broaderquizsuitability/globalfutureuniqueness UNVERIFIED; focused confirmation PENDING."
+  },
+  "original24QualifiedProposals": "Retain by actual whole report, no new fresh24 judgments implied.",
+  "originalFiveSourceGuards": "Retain independently assessed direct declarations.",
+  "allowedMutation": "ONLY one new guard declaration in市民; generatedmanifest. All26Russian teaching bodies/captions/readings/levels/types/tags/Japanese examples invariant; all1506baselineRAWs invariant. Original intake/freeze/adjudication/review/receipts immutable. No assets/code/default/release.",
+  "readerByteSizeClarification": [
+    {
+      "facet": "C1",
+      "path": ".github/agents/kanji-accuracy-reviewer.agent.md",
+      "reportLabel": "whole working bytes",
+      "historicalReportedValue": 5006,
+      "actualWorkingRawBytes": 4924,
+      "actualReaderHeaderPlusWholeWorkingPayloadBytes": 5006,
+      "actualWorkingRawSha256": "3fbe6ef6350b7d555d389d59ca5019c97e3a0739b9bbe90a98fcee013a0ffef0",
+      "actualGitRawSha256": "3bbabb58f5d841ce3e5ee0bcfb8a257d5ad24b5960dff6846156321aa4abdf82",
+      "disposition": "Original hash domains are correct. Reader's ambiguous wholeBytes size includes its presentation header. Original report value/label preserved, clarification pending focused review."
+    },
+    {
+      "facet": "C2",
+      "path": ".github/agents/content-consistency-reviewer.agent.md",
+      "reportLabel": "whole working bytes",
+      "historicalReportedValue": 6904,
+      "actualWorkingRawBytes": 6817,
+      "actualReaderHeaderPlusWholeWorkingPayloadBytes": 6904,
+      "actualWorkingRawSha256": "ac0095c12513ed590db4fff80ebec02750811b004ce7537272af566824fd1e79",
+      "actualGitRawSha256": "744b7d446e970c23920644473c2f396e342d6e44cea7147a49ad743c756dd0c0",
+      "disposition": "Original hash domains are correct. Reader's ambiguous wholeBytes size includes its presentation header. Original report value/label preserved, clarification pending focused review."
+    },
+    {
+      "facet": "C3",
+      "path": ".github/agents/kanji-comprehension-reviewer.agent.md",
+      "reportLabel": "whole working bytes",
+      "historicalReportedValue": 5615,
+      "actualWorkingRawBytes": 5528,
+      "actualReaderHeaderPlusWholeWorkingPayloadBytes": 5615,
+      "actualWorkingRawSha256": "25bfe759a249914f561c5e7aa3d8cc2e6e71c9ccde10302302740f28fc2a58b4",
+      "actualGitRawSha256": "054601421857b569f319c163ff0fa1e8d7b020a1b6c6199491af6b6956fef215",
+      "disposition": "Original hash domains are correct. Reader's ambiguous wholeBytes size includes its presentation header. Original report value/label preserved, clarification pending focused review."
+    }
+  ],
+  "focusedReviewScope": "4whole EN/RU bodies市民+人口,3whole official objects1308690/1367300/1334210,2fresh currentrows,3fresh RU-rootrubrics and corrected domain sizes, original report/freeze/exactdiff/complete byteidentity proof. No secondwhole/1220freshupdatedrow claim.",
+  "runtimeMutationApplied": false,
+  "independentFocusedReview": "PENDING",
+  "fullTaskComplete": false,
+  "continueRequired": true
+}
