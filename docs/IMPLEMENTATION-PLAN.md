@@ -11,6 +11,55 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The sixty-ninth full-target batch adds **20 complete actual N4 time-interval/
+sequencing lessons /1044 Russian file lines** against unchanged frozen EN.
+The [actual original whole review](translation-batches/069-time-intervals-and-sequencing-independent-review-001.json)
+read **244 whole teaching bodies/233 whole official ordered projections/
+1317 original fresh caption-reading-quiz rows/three whole RU-root rubrics**:
+20 primary EN/RU pairs,93 contextual EN/RU pairs,10 frozen-only bodies and
+four extra question-provider EN/RU pairs. All92 assigned windows returned.
+The10947-byte stdout/native identity and actual **C1/C3 CLEAN,
+C2 UNVERIFIED**,with no confirmed findings,are immutable.
+
+The original83 individual judgments are one source direct guard plus82
+additional proposals:20 direct/57 qualified/five unverified.
+A pre-mutation amendment withdraws exactly five unapproved extras:
+Q14 これから–今度,Q32 そろそろ–今度,Q33 そろそろ–近く,
+Q34 そろそろ–近い,Q53 まず–たいてい. Insufficient evidence is
+not proof that the pairs are unrelated;source 間–部屋 remains.
+The [actual focused review](translation-batches/069-time-intervals-and-sequencing-independent-review-focused-002.json)
+supports only those withdrawals/identity: **20 whole bodies** (18 assigned
+plus additional whole EN/RU もうすぐ),**nine whole objects/nine affected
+rows/three whole RU-root rubrics**,exact diff,amendment and original report.
+All13 assigned windows and the extra complete pair returned;10963-byte
+stdout/native identity persists. Its **C1/C3 CLEAN_BOUNDED,C2 UNVERIFIED**
+remain separate;only withdrawal/identity subscope is **CLEAN_BOUNDED**.
+No confirmed consequential missing direct guard or source-acceptance
+blocker was established within the evidence read. Additional
+これから–向こう/もうすぐ–早い/そろそろ–早い remain unverified,
+not new approved guards or categorical non-overlap claims.
+
+The **78 retained direct pairs:21 direct/57 qualified** carry only
+original judgments/scope and identity,not78 fresh focused judgments.
+All20 learner bodies remain RAW-identical;1314 of1317 rows are identical.
+The nine fresh focused rows include three changed owners/six unchanged
+providers;other1308 are retained by identity. This is not a second whole
+review or1317 freshly reread corrected rows. **Broader C2 ordinary quiz
+suitability,modern necessity/frequency and global future uniqueness
+remain UNVERIFIED.** 一度's temporary sense is ひとたび-only;
+calendar periods,manner/imminence and あいだ/ま are not flattened.
+All1609 baseline runtime RAWs/tracking rows and historical evidence persist.
+Qualified source membership: **1629 runtime objects /1317 words**,
+671 N5/496 N4/77 N3/19 N2/54 unlabelled; **140 N4 remain**.
+Strict progress: **1629 reviewed-current,two excluded reviewed blocked-media
+drafts,6647 pending of8278;6649 runtime paths absent**,no partial.
+Version `7380f7d1b0604a2a`;checkpoint authority null/Ready false.
+Final serialized checks,signed integration,actual public archives/
+signatures/four protected refs/exact-main CI remain separate evidence.
+Protected033空 stays excluded/C2 UNVERIFIED,not media.
+No assets/native/device/phone/IME/media/default/package/release authority.
+Continue070+ and ALL remaining safe frozen levels/families,not task completion.
+
 The sixty-eighth full-target batch adds **20 complete actual N4 people/
 address/social-role lessons /1023 Russian file lines** against unchanged
 frozen EN. The [actual original whole review](translation-batches/068-people-address-and-social-roles-independent-review-001.json)

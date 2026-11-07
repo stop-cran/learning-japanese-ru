@@ -1,6 +1,67 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch068 people, address and social roles
+## Current qualified source milestone: batch069 time intervals and sequencing
+
+Batch069 adds **20 complete actual N4 lessons /1044 Russian file lines**
+against unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The [actual original whole review](translation-batches/069-time-intervals-and-sequencing-independent-review-001.json)
+read **244 whole teaching bodies**:20 primary EN/RU pairs,93 contextual
+EN/RU pairs,10 frozen-only bodies and four additional question-provider
+EN/RU pairs. It also read **233 whole official ordered projections,1317
+original fresh candidate caption/reading/quiz rows and three whole
+current RU-root rubrics**;all92 assigned windows returned completely.
+The10947-byte stdout/native report identity and separate **C1/C3 CLEAN,
+C2 UNVERIFIED**,with no confirmed findings,remain immutable.
+
+Of83 original individual judgments,one source guard was direct and82
+additional proposals received20 direct/57 qualified/five unverified
+judgments. A pre-mutation amendment withdraws exactly the five unapproved
+extras:Q14 これから–今度,Q32 そろそろ–今度,Q33 そろそろ–近く,
+Q34 そろそろ–近い and Q53 まず–たいてい. Withdrawal records
+insufficient standalone/current-caption evidence,not proved unrelatedness.
+The source 間–部屋 guard is preserved.
+
+The [actual focused review](translation-batches/069-time-intervals-and-sequencing-independent-review-focused-002.json)
+independently supports only those withdrawals and exact identity:
+**18 assigned whole bodies plus the additional whole EN/RU もうすぐ
+pair =20 whole bodies,nine whole official objects,nine affected rows,
+three whole RU-root rubrics**,the exact diff,amendment and original report.
+All13 assigned windows and the additional complete pair returned.
+Its10963-byte stdout/native identity is preserved. Its separate
+**C1/C3 CLEAN_BOUNDED,C2 UNVERIFIED** are not blanket approval;
+only the withdrawal/identity subscope is **CLEAN_BOUNDED**.
+No confirmed consequential missing direct guard or source-acceptance
+blocker was established within the inspected evidence. The three
+additional これから–向こう/もうすぐ–早い/そろそろ–早い
+questions remain unverified,not newly approved guards.
+
+The **78 retained direct pairs:21 direct/57 qualified** retain only
+their original judgments/scope and exact identity,not78 fresh focused
+judgments. All20 learner bodies are RAW-identical;1314 of1317 pool rows
+are identical. The nine fresh focused rows include three changed owners
+and six unchanged providers;the other1308 are retained by identity.
+This is not a second244-body review or1317 freshly read corrected rows.
+**Broader C2 ordinary quiz suitability,modern necessity/frequency and
+global future uniqueness remain UNVERIFIED.**
+
+The [qualified source record](translation-batches/069-time-intervals-and-sequencing-reviewed-source.json)
+preserves event/period,imminence/manner,sequence/probability,calendar-period/
+duration and あいだ/ま distinctions. The temporary 一度 sense is
+restricted to ひとたび,not transferred to taught いちど.
+All1609 baseline runtime RAWs/tracking rows and historical evidence persist.
+Qualified source membership: **1629 runtime objects /1317 words**:
+671 N5/496 N4/77 N3/19 N2/54 unlabelled; **140 N4 remain**.
+Strict progress: **1629 reviewed-current,two excluded reviewed blocked-media
+drafts,6647 pending of8278;6649 runtime paths absent**,no partial.
+Version `7380f7d1b0604a2a`;checkpoint authority null/Ready false.
+Final serialized checks,signed integration,actual public archives/
+signatures/four protected refs and exact-main CI are separate publication
+evidence. Protected033空 stays excluded/C2 UNVERIFIED,not media.
+No assets/native/device/phone/IME/media/default/package/release authority.
+Continue070+ and ALL remaining safe frozen levels/families;the entire
+finite objective is not complete.
+
+## Previous qualified source milestone: batch068 people, address and social roles
 
 Batch068 adds **20 complete actual N4 lessons /1023 Russian file lines**
 against unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
