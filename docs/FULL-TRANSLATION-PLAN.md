@@ -1,6 +1,62 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch075 public life, commerce and services
+## Current qualified source milestone: batch076 remaining N4 states and formal nouns
+
+Batch076 adds **20 complete Russian lessons /1031 file lines,all actual N4**,
+against unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+Japanese IDs,readings,examples,classification and the original皆–皆さん
+guard remain intact;available original navigation is retained,while only
+unavailable optional wrappers are unwrapped.
+The [actual whole review](translation-batches/076-remaining-n4-states-and-formal-nouns-independent-review-001.json)
+read **366 whole teaching bodies**:20 primary EN/RU pairs,140 contextual
+EN/RU pairs,45 EN-only comparisons and one complete1708-line EN article.
+It also read **403 whole official ordered projections,1478 fresh CURRENT
+candidate caption/reading/type/tags/actual-level/quiz rows and three whole
+correct RU-root rubrics**. No external pages were fetched/read.
+The **10356-byte actual report** has identical successful stdout/native
+payloads;167 actual public tool events and entire returned payloads are
+bound separately. Pool rows are not whole lessons or observed quiz runs.
+
+**C1/C3: no consequential Japanese/content or Russian-comprehension defect
+established in the20 new lessons within assigned evidence.**
+**C2:70 individually qualified S judgments**,including the original source
+guard and69 additional direct protections. The author's5D/65Q proposals
+are not independent D/Q classifications. **Q004皆–全然 adopts only the
+reviewer's narrower complete-extent scope in negative-evaluation contexts,
+not “not at all” or positive “very”;the stronger author affirmative-only
+selection claim is withdrawn**,not the runtime guard.
+
+The [append-only resolution](translation-batches/076-remaining-n4-states-and-formal-nouns-review-resolution-amendment-001.json)
+preserves C2-1:Q061眠る–寝る wrongly cited1529330(眠い).
+The correct1360010(寝る) whole object/provider was already actually read
+and independently supported in the original review. Only the bound
+reference is corrected by append;the valid guard,all learner bodies and
+the signed original freeze/report remain unchanged.
+This is **not another whole/focused review or70 fresh judgments**.
+All70 carry only their actual original qualified scope/current identity.
+**Broader ordinary modern quiz suitability,necessity/frequency and global
+future uniqueness remain UNVERIFIED for every pair;not blanket C2 CLEAN.**
+Alternate kana identities,reading restrictions,register,animacy,participant
+roles and secondary-sense limits remain explicit;no transitive pair closure.
+
+The [qualified source record](translation-batches/076-remaining-n4-states-and-formal-nouns-reviewed-source.json)
+preserves all1770 baseline runtime RAWs/tracking rows/history.
+Qualified source checkpoint: **1790 runtime objects /1478 words**,
+671 N5/**636 N4**/97 N3/19 N2/55 unlabelled.
+**All636 actual frozen N4 words now have complete reviewed source;
+this is not completion of the full target or ordinary RU activation.**
+Strict progress: **1790 reviewed-current,two excluded reviewed blocked-media
+drafts,6486 pending of8278;6488 runtime paths absent**,no partial.
+Version `051fad4e7c9dcf2b`;checkpoint authority null/Ready false.
+These become accepted-main counts only after normal signed integration;
+fresh final serialized checks,actual public archives/signatures/four
+protected refs and exact-main CI are separate publication evidence.
+Protected033空 remains the only pending N5 word,excluded/C2 UNVERIFIED,
+not media. No assets/native/device/phone/IME/media/default/package/release
+authority. Continue077+ and ALL remaining safe frozen levels/families;
+the entire finite objective is not complete.
+
+## Previous qualified source milestone: batch075 public life, commerce and services
 
 Batch075 adds **20 complete Russian lessons /1164 file lines,all actual N4**,
 without reclassification,against unchanged frozen EN
