@@ -1,6 +1,58 @@
 # Full Russian translation: execution after the two pilots
 
-## Current source milestone: batch059 social actions and gatherings
+## Current source milestone: batch060 transport and journeys
+
+Batch060 adds **24 complete N4 lessons /1428 Russian file lines** against
+the unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The [actual single independent report](translation-batches/060-transport-and-journeys-independent-review-001.json)
+read **262 complete assigned teaching bodies,251 whole official objects,
+all1127 actual candidate caption/reading/quiz rows and both complete
+stored operator-page payloads**. The262 bodies comprise24 EN/RU primary
+pairs,80 EN/RU provider pairs,53 source-only EN lessons and the whole
+206-line contextual occupation article, not1127 baseline lessons.
+C1/C3 are CLEAN in their assigned correctness/Russian-prose scopes.
+C2 is CLEAN **only for assigned text, dependencies and qualified
+lexical/caption protections**, not blanket corpus suitability.
+All36 direct proposals are individually retained; no findings or repairs.
+**Ordinary modern necessity/frequency for all36 and global uniqueness
+remain UNVERIFIED.** Original stdout/native-final report bytes are preserved.
+
+Archaic通る/知る, dated汽車/電車, selected-caption普通/大丈夫,
+progression運ぶ/行く, noun急/危険 and spelling-qualified船 protections
+retain their exact limitations. Neither physical running alone nor an
+English-only “run” comparison justifies the independently examined走る
+pairs. No transitive transport, vehicle, container or circumstance clique.
+The unavailable運転手 article promise becomes supported self-contained
+role/reading facts. ガソリン withdraws the unsupported gas-frequency
+negative:1040060.6 genuinely records unlabelled gasoline, without a new
+frequency claim. 特急 preserves genuine1454750 operator notes and two
+specifically read operator examples, not all-operator tariffs or future
+speed/fare guarantees. The author's premature denial of those dictionary
+notes was explicitly withdrawn append-only before semantic freeze/writing;
+the original private adjudication remains unchanged.
+
+Routeを remains intransitive; recurrent attendance differs from a single
+visit or hospitalization. Transfer particles, recognized普通な,急ぐ's
+ぐ→いで,steam/dated train senses,港 readings,船 combining forms and
+indoor/outdoor parking distinctions remain fully taught.
+Eight available original wrappers retained/31 unavailable optional
+destinations unwrapped without deleting Japanese facts/readings.
+All24 actual N4 classifications and Japanese metadata/forms/examples remain.
+
+Qualified membership: **1439 runtime objects /1127 words**:
+671 N5/315 N4/68 N3/19 N2/54 unlabelled;321 N4 remain.
+Strict progress: **1439 reviewed-current, two excluded reviewed blocked-media
+drafts,6837 pending of8278;6839 runtime paths absent**, no partial.
+Version `d57b831a620f33e3`; checkpoint authority null/Ready false.
+All1415 baseline RAWs/tracking/history and protected excluded033空 are preserved.
+The signed semantic freeze preceded learner writing.
+Final serialized validation, signed integration, actual public archives and
+exact-main CI are separate publication evidence, not reviewer claims.
+No new assets/app/device/phone/IME/media/default/package/release authority.
+**Continue every remaining safe frozen level/family; full task is not complete.
+Protected空 remains separate, UNVERIFIED and not media.**
+
+## Prior source milestone: batch059 social actions and gatherings
 
 Batch059 adds **22 complete lessons /1221 Russian file lines** against
 the unchanged frozen EN `6af98cb717755690a9ca793e5454a96ebd7a8f9f`:
