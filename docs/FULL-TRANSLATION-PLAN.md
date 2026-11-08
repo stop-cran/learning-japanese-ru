@@ -1,6 +1,76 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch085 final frozen N4 kanji
+## Current qualified source milestone: batch086 giving, preparation and interaction kanji
+
+Batch086 adds **six complete Russian frozen N3 lessons,与/予/争/両/互/交,
+369 file lines**,and six RAW-identical Japanese KanjiVG assets.
+Eleven existing word bodies receive11 **navigation-only wrappers**;
+no new word or existing-word semantic amendment is introduced.
+Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+Original signed intake,premutation freeze,proposals and candidate remain immutable.
+
+The [actual whole review](translation-batches/086-giving-preparation-and-interaction-kanji-independent-review-001.json)
+read **65 whole teaching bodies**:six primary EN/RU pairs,24 current context
+EN/RU pairs and five whole EN-only comparisons,35 EN/30 RU.
+All11 changed word bodies are included,not extra bodies.
+The whole201-line English kaeru article is a comparison,not a RU runtime provider.
+It read **181 whole official source-TEXT units**:19 KANJIDIC records,
+four Unicode keyrows,152 ordered JMdict objects and six visible KanjiPedia entries;
+one whole provider header is additional.
+Zero dictionary-glyph pixel views are claimed;historical glyphs stay UNINSPECTED.
+It read267 current whole typed metadata rows,18 historical directions/17 active,
+one explicit M001,six separate lesson rulings/six clarifications,11 exact NAV
+diffs/11 wrappers,six outside observations,four whole current guidance files
+and three correct CURRENT RU-root rubrics.
+**72 actual successful reader commands/windows** are bound by whole returned
+payloads/complete line unions,not markers alone.
+267 metadata rows are not267 whole lessons or1478 freshly judged word guards.
+
+One actual whole review delivered one successful **9945-byte stdout/native final**,
+SHA256 `1446cb87e29862de94d1205d09860df7deb259f5451f29720f48d6e6ff6147fa`.
+Original public payload is unchanged;no path projection is needed.
+Two earlier report-size assertions failed **before any report emission**;
+not earlier delivered reports or semantic reviews,and no reading credit.
+The one-shot reviewer is completed,not actually running.
+
+Actual verdicts are **C1 CLEAN within assigned SOURCE authoring;
+C2 assigned SOURCE dependency/NAV coverage CLEAN,quiz conclusions QUALIFIED;
+C3 CLEAN within30 whole Russian bodies**,not native certification.
+All six lesson rulings and all six dictionary clarifications are supported boundedly.
+No significant current source-text fix was requested.
+The reviewer independently supports **086-M001 only**:
+`予.distractors [子,手,与]`→`[子,手]`,withdrawing historical N006予→与.
+Actual whole KanjiPedia予(B)②「あたえる。あずかる」「類 与」
+and与①「あたえる」show why offered与«давать; предоставлять»
+cannot be universally wrong across attested予 senses.
+Retained N003与→予 is independently Q against actual offered«заранее»;
+no reciprocal/replacement/transitive deletion or fallback exclusion follows.
+All18 historical directions remain in immutable evidence;
+**17 active directions have qualified introductory-core Q judgments only**.
+Broader ordinary/all-sense/reading-mode/fallback safety,modern necessity-frequency
+and global current/future uniqueness remain **UNVERIFIED**,not blanket C2 CLEAN.
+Six outside observations are not new guards.
+Prior word-guard scope/identity and082姉→妹's unrestricted U remain unchanged.
+
+The [qualified source record](translation-batches/086-giving-preparation-and-interaction-kanji-reviewed-source.json)
+preserves2019 other baseline RAWs/tracking rows.
+Qualified source checkpoint: **2042 runtime objects/1478 words/
+267 kanji/267 strokes**. Words671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/**166 N4**/19 N3/2 N2.
+All166 frozen N4 kanji remain included;**348 of367 frozen N3 kanji remain**.
+Strict progress: **2042 reviewed-current,two excluded reviewed blocked-media
+drafts,6234 pending of8278;6236 runtime paths absent**,no partial.
+Version `7a11fb6dc2ec2efd`;checkpoint authority null/Ready false.
+Counts become accepted-main only after signed normal integration;fresh final
+serialized checks,actual public archives/signatures/four protected refs/exact-main CI
+and owner issue verification have separate receipts.
+Protected033 **word**空 stays excluded/runtime-absent/C2 UNVERIFIED,not media;
+accepted077 **kanji**空 does not resolve its caption blocker.
+No app/device/phone/IME/media/default/package/release authority.
+Continue087+ and **ALL remaining safe frozen levels/families**;
+this is not completion of the finite8278-object objective.
+
+## Previous qualified source milestone: batch085 final frozen N4 kanji
 
 Batch085 adds **six complete Russian N4 lessons,別/勉/真/答/親/題,
 385 file lines**,and six RAW-identical Japanese KanjiVG assets.
