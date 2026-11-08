@@ -1,0 +1,1718 @@
+{
+  "schemaVersion": 1,
+  "batchId": "096-number-direction-harmony-and-commerce-kanji",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "reviewedCandidate": "5fea5a3d9c6a2d3d35bc2ddf0b4a1c8c8f08fb66",
+  "baselineCommit": "fc9d9ff002e1fe0208195a47ce4ed77f69d517c3",
+  "premutationFreeze": "9052aaa9f3a39f9abf80248c896a81f793297f85",
+  "postInitialMutationFormatOnlyAmendmentCommit": "70ab07e0d0088aedec36e1870b53155068b79345",
+  "exactFormatOnlyAmendmentWorkingRawSha256": "afa9a539a975174b0a805b425fac17a227931433f1088cb7e1c5156a66b23dc4",
+  "actualWholeReview": "docs/translation-batches/096-number-direction-harmony-and-commerce-kanji-independent-review-001.json",
+  "actualWholeIndependentReviews": 1,
+  "actualOriginalReportBytes": 10799,
+  "actualOriginalReportSha256": "75d29c9267c9488cab0457025bfc3f69dc42005805cb14440bc9f88e9859c491",
+  "publicReportIsOriginalActualPayload": true,
+  "publicReportIsPathOnlyProjection": false,
+  "exactPublicWholeReviewRawSha256": "5a210f515b600d09f2d4cdf5ee89510cc1f9ca0c7d10618638e186ea0ca20170",
+  "exactPrivateExtractionArtifact": "ru-096-review-extracted-return-001.json",
+  "exactPrivateExtractionRawSha256": "b4d9df581216fc0b11ec00210ea4e44673fc06c2703cc7c64ee5cd353a73f6d3",
+  "actualWholeScope": {
+    "reviewerAgentId": "28c8aed6-4351-4f4d-89ac-aa23d8537b29",
+    "actualSuccessfulReaderToolReturnCount": 65,
+    "actualSuccessfulReaderWindowCount": 65,
+    "actualSuccessfulReaderModeWindowCounts": {
+      "pairs": 9,
+      "primary": 2,
+      "comparisons": 1,
+      "metadata": 5,
+      "radicals": 1,
+      "header": 1,
+      "kanjipedia": 1,
+      "objects": 5,
+      "proposals": 2,
+      "overlaps": 1,
+      "adjudications": 1,
+      "clarifications": 1,
+      "navigation": 2,
+      "pool": 9,
+      "format": 7,
+      "rubrics": 3,
+      "guidance": 14
+    },
+    "actualPowershellCommandExecutions": 73,
+    "actualSuccessfulTerminalPowershellCommands": 69,
+    "actualReaderPowershellShells": 68,
+    "actualSuccessfulReaderPowershellShells": 68,
+    "actualHelperPythonInvocations": 68,
+    "actualHelperCommandReceipts": [
+      {
+        "commandStartEventId": "96473f59-42b7-4ba4-9b40-e2b001e34713",
+        "toolCallId": "call_psm0TsDnEXY3rF09GaA763LW",
+        "action": "gate",
+        "exactArguments": "gate",
+        "commandUtf8Sha256": "834e9aacc3f7dc43cb6916cca474665229926d176830a23e6c05e3195c7067be",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "513e504c-425e-4bc0-9154-d69d1cf90eab",
+        "toolCallId": "call_dyFjfzYnJDiaeauoWQmXSAsM",
+        "action": "ranges",
+        "exactArguments": "ranges",
+        "commandUtf8Sha256": "99a994b156fae74560d516c81e20c2ceb381e45b05f91c3de270911ee6a6859b",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "2436d6fe-47e5-4ddd-8717-8ed1c85df73d",
+        "toolCallId": "call_a6HmFZ3DMw7vk0yl9VgzkGHC",
+        "action": "read",
+        "exactArguments": "read pairs 0 2",
+        "commandUtf8Sha256": "02ded1a482e8e198d9b23b02c4928ba711c71efdeefb47e8bf7669e73a360d5a",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "452dfa54-61ee-41c8-9165-9f631d9f9b7b",
+        "toolCallId": "call_CMC7EVoqOwX2r7LHZ5DsGWeZ",
+        "action": "read",
+        "exactArguments": "read pairs 2 4",
+        "commandUtf8Sha256": "219fb2c569bc19a30a9bcd941dd2b90a525dffc8d785e9f470a860ed8dd2782e",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "8b63e577-11d5-4429-8dc0-aaab4e3583c1",
+        "toolCallId": "call_u88CrtwQII0irWbmgtiaQ2Vr",
+        "action": "read",
+        "exactArguments": "read primary 2 4",
+        "commandUtf8Sha256": "ec5041407172a3d305c247c082d2a1338dca88ebcba1a6467b1576998ce9f399",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "f5384415-d614-4b27-a2c1-718119a7e875",
+        "toolCallId": "call_3QxqiLtK1uC5mY1n6FLlIGnb",
+        "action": "read",
+        "exactArguments": "read primary 0 2",
+        "commandUtf8Sha256": "54f53e04d8ce26d66373f221eb69cbdb90ffd263b3ea171c7df4dd17397923e9",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "654ad7ac-2b36-4512-8c1c-257c3ead0c05",
+        "toolCallId": "call_bCB1hiy8IuklZueOw7981GmY",
+        "action": "read",
+        "exactArguments": "read pairs 4 6",
+        "commandUtf8Sha256": "6fe95354f0f9c304b86d6e4378c4a57118bc7223550540f32bbea5baf9be5971",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "ee907d6e-e62e-4ce5-bb28-1ea81289d865",
+        "toolCallId": "call_hVH0UwXQh5f378PQ7biu7goc",
+        "action": "read",
+        "exactArguments": "read pairs 8 10",
+        "commandUtf8Sha256": "ac03936027d95f87ef796c54e8b75241708e399fd18164fcc4ef3e2d548ea95e",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "45b62137-074c-400f-873e-5f9b09a6ecb1",
+        "toolCallId": "call_YQkRJKocEqDVxkl8Oyx6KDHC",
+        "action": "read",
+        "exactArguments": "read pairs 10 12",
+        "commandUtf8Sha256": "1e73f8d45ed1a55ea07339d2a0936b8b1746e0cb32f0d5acf4628ca6e22aafc2",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "2b05811a-1ecb-43c3-abb2-3316dda32fc6",
+        "toolCallId": "call_getli4iIRtDmGyQWnsA0oSFQ",
+        "action": "read",
+        "exactArguments": "read pairs 6 8",
+        "commandUtf8Sha256": "3ea1d5ac6ae11f725bc7fa51c24f2be61bc892e7c3769a3dfd1cad61459333c7",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "6aa01521-dd2e-4e77-ab9c-17032e0f8139",
+        "toolCallId": "call_PKZJ0J0YAW2FWwEnsyOaPcgr",
+        "action": "read",
+        "exactArguments": "read pairs 14 16",
+        "commandUtf8Sha256": "7293c3c7112a7133c813ac9ae1d1597b6572571a080749bb51f5862a23005489",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "2d6f02ac-6df6-498f-8cd2-76e101452ffc",
+        "toolCallId": "call_b1NjmF9msGjtAPRshEZ4MdTl",
+        "action": "read",
+        "exactArguments": "read comparisons 0 2",
+        "commandUtf8Sha256": "40a0d9de1f49600015ecad17af8dd39e713b796af9576dc572be0dcc50af708a",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "113c39b9-40ae-4da6-ad7f-2e903d31421d",
+        "toolCallId": "call_Y4aL4YhvvzlwajmF93Xdno2z",
+        "action": "read",
+        "exactArguments": "read pairs 12 14",
+        "commandUtf8Sha256": "2698a6b4e6788f957226a8badd31a5fb296dd2142898cfd0985330e881b591f9",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "775fb230-0267-4c97-8310-450ba357ae4e",
+        "toolCallId": "call_XVsP81nraGqpLYJ8uGNY9iZH",
+        "action": "read",
+        "exactArguments": "read pairs 16 18",
+        "commandUtf8Sha256": "bf5f97c73eb60040b2f507ba0abd58dca89fa27e10bd794bc5879de5694d7a40",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "373388dd-a859-4540-bc5e-8c2dc8bd1270",
+        "toolCallId": "call_tmX2h45w4cY0eX0ppFFEQoR8",
+        "action": "read",
+        "exactArguments": "read metadata 0 5",
+        "commandUtf8Sha256": "49750b7743b85aadbef0fae0c130611cb561c45b1898797229ca6cd7bfe4e33b",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "930c62f2-b910-4778-9727-5d0e64198999",
+        "toolCallId": "call_HxF90YnkGu7OEQwwDPdkbj7l",
+        "action": "read",
+        "exactArguments": "read metadata 9 13",
+        "commandUtf8Sha256": "de9224ee5f7c0ae3110df226846421247bc30858a0b190d90340e5b4812a8964",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "139f9e33-7715-4eb7-b3b2-61b529bd4936",
+        "toolCallId": "call_jKJV2qBqowBgv10Bv5JRRxJB",
+        "action": "read",
+        "exactArguments": "read metadata 13 19",
+        "commandUtf8Sha256": "842525e6ca5b61c69a95f06fe6f7a4d0cf80e630f47ee82eb6d633cf148bf661",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "fb80327e-0417-4d8f-899a-6e02db7cd14b",
+        "toolCallId": "call_mcQV4IpFMdJegc3OEqBWOYUN",
+        "action": "read",
+        "exactArguments": "read metadata 5 9",
+        "commandUtf8Sha256": "3ac4d19d8edc24f78231d227a88b4de57227a0dc61e1c35043e4ae85fdee061c",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "f22de825-4421-4bee-a1c7-07620079cbf8",
+        "toolCallId": "call_HypdsTIo8Sg3EanoMzPF4yGS",
+        "action": "read",
+        "exactArguments": "read radicals 0 1",
+        "commandUtf8Sha256": "dc93aae19c844722794a795e78c57d9fc96a8abe8a511aa9f31c0d5288c8a3fe",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "2e28ceac-6a8e-4a76-a65b-c618fe62c814",
+        "toolCallId": "call_G1VqmFcdpaJhrTER8mJGR77Q",
+        "action": "read",
+        "exactArguments": "read metadata 19 20",
+        "commandUtf8Sha256": "079c45e510e08e57f7af5065c5d146ae7f627e08863b2575aeedd1ee04e8ab90",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "b3377a6f-9617-4734-80e8-4eb9ca0822b9",
+        "toolCallId": "call_0zYpJPYQVWh6omFsKandma66",
+        "action": "read",
+        "exactArguments": "read header 0 1",
+        "commandUtf8Sha256": "4d0960430e75b0f40a2f253bfbaa73c1f2891f2c1e86edf39b19e7c230362282",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "aac9b45d-c6df-4fd2-a22e-e14822e482e9",
+        "toolCallId": "call_z7WReWgv7s4vCCddpIuwIJsG",
+        "action": "read",
+        "exactArguments": "read kanjipedia 0 4",
+        "commandUtf8Sha256": "db50411f71af6c694f285ee3b7d5ff04ea8373636bad8cf706a74d5949210270",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "b6f3c955-8e0e-416e-8781-da1ba99099e3",
+        "toolCallId": "call_vR4ZdhXPAQkrVrF20bzR1qCo",
+        "action": "read",
+        "exactArguments": "read objects 43 66",
+        "commandUtf8Sha256": "b9dc7dea7ac33975655b09feb990bdebfd74a879f9da763c689f2b1178a60147",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "11619ec3-cdba-49ef-a12a-c6da32c2f4ce",
+        "toolCallId": "call_syAIsQUqRtCZOiZ92rSNkSzZ",
+        "action": "read",
+        "exactArguments": "read objects 0 18",
+        "commandUtf8Sha256": "bca15052c29dc7b6a54c58e56ae46f7507e8f7842759d9f9ec2f1e36f00dd2e0",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "8df16f6e-d4f8-4ea4-913a-fb772b36dd31",
+        "toolCallId": "call_dEbfhEjdDBJLdp3NFggPMfbV",
+        "action": "read",
+        "exactArguments": "read objects 18 43",
+        "commandUtf8Sha256": "32c7a2f37eb64d8fd25b1bcbe67d60e39c3494625184384a3a14e9a6f5ae2d87",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "f02ffd12-813d-41c2-8187-e63e40fd8f81",
+        "toolCallId": "call_Pjanltr2XvIhehgWjUC7Nxmq",
+        "action": "read",
+        "exactArguments": "read proposals 10 12",
+        "commandUtf8Sha256": "5a7085c97f748ea2e06951117dde4316cdcd7057c6c13f9612e1515da26bf79d",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "f1e3c64d-9b97-43ef-bff8-59ab88e20086",
+        "toolCallId": "call_8TLC5tMwARebdBC0pwFA6KOQ",
+        "action": "read",
+        "exactArguments": "read objects 92 113",
+        "commandUtf8Sha256": "4e316910d874a017ff5c96c3a01bcec34b5a49d50c3c7e8350f4499c77a2aa38",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "77f11191-f2ef-4ca1-a933-96f3d0e28228",
+        "toolCallId": "call_ZfHFyMi08LUvDzh5mY1DMhho",
+        "action": "read",
+        "exactArguments": "read objects 66 92",
+        "commandUtf8Sha256": "e912d921ae87af89f450a93a9407293c0981bc8c3ac18dc57ac490802cf60dba",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "0d978b8b-7e64-456e-85e9-861463293d6b",
+        "toolCallId": "call_XAEhGdwZOM2nQEmGFb20DX4v",
+        "action": "read",
+        "exactArguments": "read proposals 0 10",
+        "commandUtf8Sha256": "643df146d5b7685b2b6419e7280924edb92bcb2646cf134d50fc69854df85087",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "52c97263-a2e7-4575-a4ce-bcb843bb5508",
+        "toolCallId": "call_DWxmKA0qaCHK1IrUyV4QBszj",
+        "action": "read",
+        "exactArguments": "read overlaps 0 4",
+        "commandUtf8Sha256": "fdfe5d5f5bf93f848805eca3b5b4a1be52c6985e5917b130fa22e760eb93803e",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "bdbd36d1-ccaa-4c6b-9d4d-65891dbfdd74",
+        "toolCallId": "call_a2NFoX9VIZHh1rbL2FZJJjnn",
+        "action": "read",
+        "exactArguments": "read adjudications 0 4",
+        "commandUtf8Sha256": "81e46ed77e614bbf00bc797f4f8d55156b0f414b431021f389008d64d98f3294",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "614285d9-570d-413d-8792-49c2b272fb13",
+        "toolCallId": "call_jlY3P3ie5m1adJ7RqPFH6XRG",
+        "action": "read",
+        "exactArguments": "read clarifications 0 4",
+        "commandUtf8Sha256": "8843b8350753bee7c614edee6dc2eb3e35917e2842630eb1f821e311a36b02fe",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "fe4cd208-2cc2-48a0-a880-faa00f49e5cb",
+        "toolCallId": "call_C37J7gjPyX4HgoVJ0C8F6LCV",
+        "action": "read",
+        "exactArguments": "read navigation 6 7",
+        "commandUtf8Sha256": "d71c4b3311abc04fa624c43a7c3a560962f4b5d9f78a4a3dceebd3bab4c99629",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "11022856-de1c-4701-94c8-dce22bc93a7a",
+        "toolCallId": "call_0eNkVTQbEP9Rpe5GyS6h3huP",
+        "action": "read",
+        "exactArguments": "read navigation 0 6",
+        "commandUtf8Sha256": "03502034f885f54af21f84c853dc8405977c5996891f5eb35f1ced5fc46d1af3",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "f55cdb60-5789-4248-971c-1abee8bda8e3",
+        "toolCallId": "call_FczSTqPEi8dPqYNkbeufYuP5",
+        "action": "read",
+        "exactArguments": "read pool 74 111",
+        "commandUtf8Sha256": "5e754021e92584d58f4aab857071b35a21f216b4c70c0540615bc3b757c67bac",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "43614c85-b5d0-48d2-911e-369354dde356",
+        "toolCallId": "call_10wr2YYMPNHQySz68ZPDwFwu",
+        "action": "read",
+        "exactArguments": "read pool 37 74",
+        "commandUtf8Sha256": "22d7f498ba53a67b3db21412c3e0faca74e14fe064e3f2ef9120333cc74b52d1",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "8d2b5f30-81aa-4278-93fe-b216e8661358",
+        "toolCallId": "call_9Pm1Y5iwYVOe21tSuCnIbapO",
+        "action": "read",
+        "exactArguments": "read pool 0 37",
+        "commandUtf8Sha256": "0d6581d2163abcbe692204daee3ed854d0cf3480a2743409d27dce371cab1cae",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "65b8acd4-f0fc-4046-98ce-af88588a5490",
+        "toolCallId": "call_nke8RHZPBoFMJlxXVAmhbacA",
+        "action": "read",
+        "exactArguments": "read pool 187 225",
+        "commandUtf8Sha256": "a91124cc56be7b5d268f8a43e50a2c270a587284d669cac22a29cd557955355d",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "e75f1283-5639-4149-b13e-35391e619f72",
+        "toolCallId": "call_IaQ1y1zEqjkWEV95UnCGv43m",
+        "action": "read",
+        "exactArguments": "read pool 111 149",
+        "commandUtf8Sha256": "597f89205ca9308efc16ae074cbbb76b919e46aac3a1d8a041afc4cf600f9297",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "dda212ae-4a81-41db-a5b9-f227326c5b69",
+        "toolCallId": "call_ECE47Fjf4Lu14RsvQqeclLKU",
+        "action": "read",
+        "exactArguments": "read pool 149 187",
+        "commandUtf8Sha256": "a6ebad16d08e185a43f438835725f1372a3d11c08b064d89bd34befa5c4a8912",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "9f27151c-84ca-4ad4-8595-f9ce03093897",
+        "toolCallId": "call_SgV3hy0UHpN8SpxUAYzeyjYk",
+        "action": "read",
+        "exactArguments": "read pool 262 299",
+        "commandUtf8Sha256": "94752acf19901f3d8fcb10d3e4761cf1f4f53c107b09c7eef69df9667084c84b",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "49f74ca5-a274-47bc-8e2e-8196ca26f838",
+        "toolCallId": "call_bXfpbZkHl5zOPwPQzKZZEzuD",
+        "action": "read",
+        "exactArguments": "read pool 299 331",
+        "commandUtf8Sha256": "80f73e9c115d4123aad4651f40c8fc1dab09194e86caa13ec1c6979c7182d12b",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "bb2dca4c-7ca2-4f2b-b9ec-aa886fe73134",
+        "toolCallId": "call_FH86WhjYjV5Xanh9kJxXE7ma",
+        "action": "read",
+        "exactArguments": "read pool 225 262",
+        "commandUtf8Sha256": "f9934adc59ccec225e47d2b860dd76e9975bc0a25499334951a590f2ebbe3121",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "db404d69-0710-46d7-a0f3-87713be5a856",
+        "toolCallId": "call_LWq6AOiRndx5x6BitDYE8u9w",
+        "action": "read",
+        "exactArguments": "read format 1 3",
+        "commandUtf8Sha256": "efb261a47d577f42cdac2ed5106d29673c0e43716faa9f4222f4331053ab20eb",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "b1ad77b3-5b31-4cb6-b9fd-8c892ffe60b4",
+        "toolCallId": "call_WGcIsYA8raa8OYQPwbzl9ol0",
+        "action": "read",
+        "exactArguments": "read format 0 1",
+        "commandUtf8Sha256": "dacc60303bebc069e956c2aba69ded898a0f540d5401050f4c99928c17591449",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "4466a059-f13c-4205-b702-af3b8abed746",
+        "toolCallId": "call_sKJ158Hqko99CQPUTv9F6GCR",
+        "action": "read",
+        "exactArguments": "read format 3 5",
+        "commandUtf8Sha256": "17a3091aa9a9d5053743a4818bfd883af9e2e42941d2e05085105e06c0d211ab",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "515dc8da-86d8-460b-9564-2f78214b3dae",
+        "toolCallId": "call_tEd0s91NMPFrdukw9mmAra0a",
+        "action": "read",
+        "exactArguments": "read format 5 7",
+        "commandUtf8Sha256": "44ce21fb34da8b5889905e5547ed10e91b3865702777bc9f38c095a9de920ddc",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "681e94d3-414c-4044-b775-2cad1d4d08b5",
+        "toolCallId": "call_bfwmeehsLzukrXxPRRIGX70e",
+        "action": "read",
+        "exactArguments": "read format 7 9",
+        "commandUtf8Sha256": "5b027af89c8df53d8d4bedafd891446701e7eea581cf2fe4242cd6eaa2c05e95",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "ed1ad020-ac66-4ca5-bea3-eff7bb6d4436",
+        "toolCallId": "call_saKVSU3NG86eCtIYjN2NY9G3",
+        "action": "read",
+        "exactArguments": "read format 9 12",
+        "commandUtf8Sha256": "1d3b8718fe3282f49ad94740342a9911917a450ff17a64f360707048892a5506",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "09d956fb-2f7b-4c87-a8c1-88c39fdea86a",
+        "toolCallId": "call_bzrsmWIC0wDnh9Mh2G84KuXG",
+        "action": "read",
+        "exactArguments": "read format 12 13",
+        "commandUtf8Sha256": "cedb245ae7b31ce87a1a3477c6653ed790f5c56b3f80be6f6b11598f824b05e7",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "2c31e5b8-92f2-4774-b99b-6cd7a7712d40",
+        "toolCallId": "call_lBfjRCmgOeZB3g3zlbX2E3bM",
+        "action": "lines",
+        "exactArguments": "lines rubrics 2 0 45",
+        "commandUtf8Sha256": "ed1102d95493f176052d21eba321dd1a8df6817f8638e1af0411353ca97e74f5",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "fe0434ab-72ec-4975-b745-7c2f21c2dd9f",
+        "toolCallId": "call_cupgfxORsOmKeP1S4VklN84X",
+        "action": "lines",
+        "exactArguments": "lines guidance 0 0 91",
+        "commandUtf8Sha256": "37d243f0618f8eaf5860edf89ecfc29c016db298cd9346cffbd41ac0de7f71e2",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "c832eb57-518f-4e1a-b6fc-38fce647693d",
+        "toolCallId": "call_Dxd3P8UX19NkYwbDmKrEYWGn",
+        "action": "lines",
+        "exactArguments": "lines rubrics 1 0 55",
+        "commandUtf8Sha256": "0e0cf0c43e018f89c18c3d3b21dd658f281b2e78c3b5dcabc0cd61208882e9ac",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "659d1334-72ea-48a1-a891-70dd9680e87d",
+        "toolCallId": "call_7PAUkS8G3OyzbcHFbbhD0CCp",
+        "action": "lines",
+        "exactArguments": "lines rubrics 0 0 44",
+        "commandUtf8Sha256": "6bfd8a1a31463361a79fff49426fad0d436d8d32116d00920b14190044c9fa2c",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "ff06de82-0524-4ade-81f3-61f465d7c51b",
+        "toolCallId": "call_cjiRY5ruMA84W8iHdue4HCpJ",
+        "action": "lines",
+        "exactArguments": "lines guidance 0 262 335",
+        "commandUtf8Sha256": "f2af388d8b8e0a8a84f3943f9c02389c9c51bf93479bce93e5228000695f97ec",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "ee92886e-7517-441d-b94a-5adb7bb87088",
+        "toolCallId": "call_IXtgObHwmzIK3fX3mrK6BSqg",
+        "action": "lines",
+        "exactArguments": "lines guidance 0 335 395",
+        "commandUtf8Sha256": "30555488e5010b3066a9b2974a859ebc18be66bd2bf0b0a1cf54745a4dc8c9f3",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "843b5660-3c89-4667-b115-f3c4043dceaa",
+        "toolCallId": "call_3Eo7SGe3Y8c6u1Z0o2Qoea8B",
+        "action": "lines",
+        "exactArguments": "lines guidance 0 184 262",
+        "commandUtf8Sha256": "a784179ec52d464d82a87a73df5efdf1caa61eb987d04b9e5c5b8cbf5d1b2799",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "a187e895-4e09-4b9b-9d56-438ac7f8d254",
+        "toolCallId": "call_XZJ1lViWOkRLZpa7iXoTJD28",
+        "action": "lines",
+        "exactArguments": "lines guidance 0 91 184",
+        "commandUtf8Sha256": "98a5749f83f9671b172a59a98624b32524fac10d9ccac0e9cf4f86e7759363a5",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "1cac9a83-c629-463a-8f9e-107495d087df",
+        "toolCallId": "call_VQSLz92zhgFaMGmNYVwd2BNk",
+        "action": "lines",
+        "exactArguments": "lines guidance 1 84 165",
+        "commandUtf8Sha256": "b1490652d49412743c1a3db5db0fc79c19eaa53b120f812ee591bd3a6b2b4ce3",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "f6cf3c84-5d03-4d4c-956e-9569a2b8bfee",
+        "toolCallId": "call_Qpmk0v7LeGuKVyaQ2LMBT4Sp",
+        "action": "lines",
+        "exactArguments": "lines guidance 1 255 264",
+        "commandUtf8Sha256": "fce70d893aec53f66df1ed6e31769a9bae45ba4234654a8d706c4ee8bd6f368b",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "bea95052-ed81-481a-af0b-5e101c9d8e16",
+        "toolCallId": "call_wovCgxEi96W0c3V4hkPbtpYe",
+        "action": "lines",
+        "exactArguments": "lines guidance 1 0 84",
+        "commandUtf8Sha256": "0bf3c47b42eae1096c15230ded0b0b3575983ed99e2e4a6cdfe48197845d71bc",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "aff428ee-f98e-4478-b7ba-c0a1aef8650e",
+        "toolCallId": "call_yS1iubStkViU6MBubuMoXMMd",
+        "action": "lines",
+        "exactArguments": "lines guidance 1 165 255",
+        "commandUtf8Sha256": "37ad51b9bfb7728133b0afeca99bab6b6b8c3bc29c4bc2413ced0f2841535419",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "adf5e09a-9168-46b2-bc8e-bc6f38aa868f",
+        "toolCallId": "call_FEMJlZUpsgVgxHs1iayCIGIg",
+        "action": "lines",
+        "exactArguments": "lines guidance 3 0 80",
+        "commandUtf8Sha256": "6222b5845a95c699f160960a4f9a49c168493ec13626d464c54710abc27e0156",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "aad03393-5522-4446-bd8f-1b980217ad2a",
+        "toolCallId": "call_MjpiGA3NWGD4JGGYEYh6Okll",
+        "action": "lines",
+        "exactArguments": "lines guidance 2 0 88",
+        "commandUtf8Sha256": "91e2259f4b6a38c24b3bfad01f0e9c73010399cb4add08afa36b61b2de57ffcb",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "f65b50a6-fe78-4d95-8df1-d379ec796b31",
+        "toolCallId": "call_rGjYpJu5FxO5e4lySdPJdgK9",
+        "action": "lines",
+        "exactArguments": "lines guidance 3 80 108",
+        "commandUtf8Sha256": "895014b6b29c07e5ae6d0b90ed506e41cb529e6eeeb0ece90abeb4e819e61f34",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "4439e000-172c-465e-a133-0b553e39ce5b",
+        "toolCallId": "call_OuEX5dn631pm5iBTdbHEaOtL",
+        "action": "lines",
+        "exactArguments": "lines guidance 2 178 216",
+        "commandUtf8Sha256": "fe967aa15caf5a989073a489f84a2c1be823d626c430a965ea42b189435b0560",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "3037a779-6302-4eac-9948-2afa1e47d964",
+        "toolCallId": "call_lK1x5cMBiK0TUmVvlToRXsA3",
+        "action": "lines",
+        "exactArguments": "lines guidance 2 88 178",
+        "commandUtf8Sha256": "56e0f9ba40d74a7cf0737d17ed2a80a39f993628e5bbc181cb6b75306e07ec4f",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": false
+      },
+      {
+        "commandStartEventId": "087ecc0d-8916-4a93-9f72-a166e4ba02d4",
+        "toolCallId": "call_WJTJ0cByuSTmRu5EfZFWTfx7",
+        "action": "gate",
+        "exactArguments": "gate",
+        "commandUtf8Sha256": "834e9aacc3f7dc43cb6916cca474665229926d176830a23e6c05e3195c7067be",
+        "ownDistinctNativeShell": true,
+        "terminalViaContinuation": true
+      }
+    ],
+    "actualStdoutOnlyReportPreparationAndEmissionCommands": [
+      {
+        "eventId": "0727b62a-8191-44a5-8b3c-ba331e7d477d",
+        "commandStartEventId": "e4a59db0-54b4-49f6-9a36-8237748fd119",
+        "commandUtf8Sha256": "3348643912a688b6fb173e8b7fc6f1b3ee74efce954ac55eebbcef406ff1dff6",
+        "actualSuccessfulReturn": false,
+        "scriptUtf8Sha256": "2f0696211970dc992810feffb096ee9456e790456f3ede0babc9875676e0c513",
+        "auditedStdoutOnlyPythonCalls": [
+          "len",
+          "report.encode",
+          "report.endswith",
+          "sys.stdout.reconfigure",
+          "sys.stdout.write"
+        ],
+        "actualLiteralUtf8Bytes": 14165,
+        "actualLiteralUtf8Sha256": "f350c3775d5e6085d5c918481b11b6934f7a1f8d9990f69356ecb7c42762f6e0",
+        "quotedHelperNameIsDataNotExecutedInvocation": true
+      },
+      {
+        "eventId": "e053aa32-2dfd-4ba2-884c-31666918d5a8",
+        "commandStartEventId": "c4df1f35-8752-4aa2-9cf3-fc3af9c90178",
+        "commandUtf8Sha256": "263eac83255344a6e713c155626d219c29cf0603283da29d8b5301807c48f93b",
+        "actualSuccessfulReturn": false,
+        "scriptUtf8Sha256": "af2dd90f492422bb533015c68e590f0aa7d7c63671d72cfd462dff033d7c0db1",
+        "auditedStdoutOnlyPythonCalls": [
+          "len",
+          "report.encode",
+          "report.endswith",
+          "sys.stdout.reconfigure",
+          "sys.stdout.write"
+        ],
+        "actualLiteralUtf8Bytes": 12115,
+        "actualLiteralUtf8Sha256": "b53a19dc1359c5c760a3019308e9a60ac209218924a7d4adfc6de89a4b164c72",
+        "quotedHelperNameIsDataNotExecutedInvocation": true
+      },
+      {
+        "eventId": "049e9b76-58be-4b6b-aa7d-fb5afd814f83",
+        "commandStartEventId": "cd9220dd-3d38-464b-9c62-c52cb52f3de5",
+        "commandUtf8Sha256": "30a44432d088f0821d0f4a9f99e9fc80c0573075138c2f0847026bbde0df3f6e",
+        "actualSuccessfulReturn": false,
+        "scriptUtf8Sha256": "437d5ec3937b47913d83f99ec0f1a8d76d50fdbcf52ab2e2f56771d24c761b21",
+        "auditedStdoutOnlyPythonCalls": [
+          "len",
+          "report.encode",
+          "report.endswith",
+          "sys.stdout.reconfigure",
+          "sys.stdout.write"
+        ],
+        "actualLiteralUtf8Bytes": 11342,
+        "actualLiteralUtf8Sha256": "9b99ead0b0eb7788d5577a72537a51437c7396148326d873550aef74e6cdbc1f",
+        "quotedHelperNameIsDataNotExecutedInvocation": true
+      },
+      {
+        "eventId": "81fdf40c-13b6-4f7e-b7b9-5ff0a631807e",
+        "commandStartEventId": "66e1ef90-f719-4e20-94ee-57166ac746da",
+        "commandUtf8Sha256": "52db38c0d59cef2e8e705c851c8495e1289d0c8c131cffcf9573f4935bc5da7b",
+        "actualSuccessfulReturn": false,
+        "scriptUtf8Sha256": "8b95085d9d9be0276ca7af718b31bc70accfc284508bcd9f8c1c1a81e17b2456",
+        "auditedStdoutOnlyPythonCalls": [
+          "len",
+          "report.encode",
+          "report.endswith",
+          "sys.stdout.reconfigure",
+          "sys.stdout.write"
+        ],
+        "actualLiteralUtf8Bytes": 11011,
+        "actualLiteralUtf8Sha256": "ca88aadf5732a255b075eefba8581ca970971f147a9f631eac123091f14096d0",
+        "quotedHelperNameIsDataNotExecutedInvocation": true
+      },
+      {
+        "eventId": "0886b930-3db2-41c2-a4ea-4023938e5429",
+        "commandStartEventId": "6b46a881-ea81-4a76-b91b-8c8f1edc7470",
+        "commandUtf8Sha256": "f95a54b475b9a5ea3b775273b26a07d3131369cdfc437baa170c52a80ee20b97",
+        "actualSuccessfulReturn": true,
+        "scriptUtf8Sha256": "f611afb919de57e35cb3c98b6f960a3ee9a44504729a8458a5c9b919a567ad54",
+        "auditedStdoutOnlyPythonCalls": [
+          "len",
+          "report.encode",
+          "report.endswith",
+          "sys.stdout.reconfigure",
+          "sys.stdout.write"
+        ],
+        "actualLiteralUtf8Bytes": 10799,
+        "actualLiteralUtf8Sha256": "75d29c9267c9488cab0457025bfc3f69dc42005805cb14440bc9f88e9859c491",
+        "quotedHelperNameIsDataNotExecutedInvocation": true
+      }
+    ],
+    "actualReportSizeAssertionFailures": 4,
+    "actualSuccessfulStdoutOnlySizeMeasurements": 0,
+    "actualSuccessfulStdoutReportEmissions": 1,
+    "actualToolReturnCount": 74,
+    "actualFailedTerminalCommands": 4,
+    "actualFailedReadingCommands": 0,
+    "actualFailedReportSizeAssertionReceipts": [
+      {
+        "eventId": "0727b62a-8191-44a5-8b3c-ba331e7d477d",
+        "agentId": "28c8aed6-4351-4f4d-89ac-aa23d8537b29",
+        "toolCallId": "call_H0JdiwFMxXlYJorO8lgzQx2D",
+        "toolName": "powershell",
+        "commandStartEventId": "e4a59db0-54b4-49f6-9a36-8237748fd119",
+        "actualPublicContentUtf8Bytes": 132,
+        "actualPublicContentUtf8Sha256": "4a3418482f75a1e2811244bcd287b44cce63330ebce9ffad36f15c6a33554ca2",
+        "journalRecordExcludingLfSha256": "f263f8ae09a77f06b597ebfe9afc1b3609851841ed14d7f6a8eac0a0721288d3",
+        "actualExitCodes": [
+          "1"
+        ],
+        "actualSuccessfulReturnedOutput": false,
+        "truncatedNotCredited": false,
+        "awaitingNotCredited": false,
+        "actualPublicContent": "Traceback (most recent call last):\n  File \"<stdin>\", line 66, in <module>\nAssertionError\n<shellId: 20503 completed with exit code 1>",
+        "actualRejectedReportUtf8Bytes": 14165,
+        "actualRejectedReportUtf8Sha256": "f350c3775d5e6085d5c918481b11b6934f7a1f8d9990f69356ecb7c42762f6e0",
+        "classification": "REVIEWER_DELIVERY_ONLY_SIZE_ASSERTION_BEFORE_REPORT_OUTPUT_NOT_READING_FAILURE"
+      },
+      {
+        "eventId": "e053aa32-2dfd-4ba2-884c-31666918d5a8",
+        "agentId": "28c8aed6-4351-4f4d-89ac-aa23d8537b29",
+        "toolCallId": "call_PtXjgEpp8yevyD80Imryk5Ld",
+        "toolName": "powershell",
+        "commandStartEventId": "c4df1f35-8752-4aa2-9cf3-fc3af9c90178",
+        "actualPublicContentUtf8Bytes": 139,
+        "actualPublicContentUtf8Sha256": "e2316efee3c769531237c81cb288d66fd9d8836f5e271369d2029a7e10412bb9",
+        "journalRecordExcludingLfSha256": "a73315d4bc54c5a4a8b496e72b6ed5697a4250790499e82449275fe4e189384b",
+        "actualExitCodes": [
+          "1"
+        ],
+        "actualSuccessfulReturnedOutput": false,
+        "truncatedNotCredited": false,
+        "awaitingNotCredited": false,
+        "actualPublicContent": "Traceback (most recent call last):\n  File \"<stdin>\", line 60, in <module>\nAssertionError: 12115\n<shellId: 20504 completed with exit code 1>",
+        "actualRejectedReportUtf8Bytes": 12115,
+        "actualRejectedReportUtf8Sha256": "b53a19dc1359c5c760a3019308e9a60ac209218924a7d4adfc6de89a4b164c72",
+        "classification": "REVIEWER_DELIVERY_ONLY_SIZE_ASSERTION_BEFORE_REPORT_OUTPUT_NOT_READING_FAILURE"
+      },
+      {
+        "eventId": "049e9b76-58be-4b6b-aa7d-fb5afd814f83",
+        "agentId": "28c8aed6-4351-4f4d-89ac-aa23d8537b29",
+        "toolCallId": "call_OcLhsM4wtMCMNh2koEVLsLQA",
+        "toolName": "powershell",
+        "commandStartEventId": "cd9220dd-3d38-464b-9c62-c52cb52f3de5",
+        "actualPublicContentUtf8Bytes": 139,
+        "actualPublicContentUtf8Sha256": "73ea1d8a7ad72b86a99c77ced5f1c4e9c41fae16961828af1ed5518e8fd99639",
+        "journalRecordExcludingLfSha256": "dd4e74f4838b14bfb0ad84304b4ca83abdc899b152625e971900107bf3581459",
+        "actualExitCodes": [
+          "1"
+        ],
+        "actualSuccessfulReturnedOutput": false,
+        "truncatedNotCredited": false,
+        "awaitingNotCredited": false,
+        "actualPublicContent": "Traceback (most recent call last):\n  File \"<stdin>\", line 60, in <module>\nAssertionError: 11342\n<shellId: 20505 completed with exit code 1>",
+        "actualRejectedReportUtf8Bytes": 11342,
+        "actualRejectedReportUtf8Sha256": "9b99ead0b0eb7788d5577a72537a51437c7396148326d873550aef74e6cdbc1f",
+        "classification": "REVIEWER_DELIVERY_ONLY_SIZE_ASSERTION_BEFORE_REPORT_OUTPUT_NOT_READING_FAILURE"
+      },
+      {
+        "eventId": "81fdf40c-13b6-4f7e-b7b9-5ff0a631807e",
+        "agentId": "28c8aed6-4351-4f4d-89ac-aa23d8537b29",
+        "toolCallId": "call_moH3axXAYd3q4DsSL7ojpYSq",
+        "toolName": "powershell",
+        "commandStartEventId": "66e1ef90-f719-4e20-94ee-57166ac746da",
+        "actualPublicContentUtf8Bytes": 139,
+        "actualPublicContentUtf8Sha256": "76ef2df7e560d0fdd10cbcbb07d67a0fd996cbef8731eaa606007c23371b76a1",
+        "journalRecordExcludingLfSha256": "e22cdc1877b2bf5f179b29029fe43ebb878ee4fbb20e09e5c2763af3e6bd629a",
+        "actualExitCodes": [
+          "1"
+        ],
+        "actualSuccessfulReturnedOutput": false,
+        "truncatedNotCredited": false,
+        "awaitingNotCredited": false,
+        "actualPublicContent": "Traceback (most recent call last):\n  File \"<stdin>\", line 60, in <module>\nAssertionError: 11011\n<shellId: 20506 completed with exit code 1>",
+        "actualRejectedReportUtf8Bytes": 11011,
+        "actualRejectedReportUtf8Sha256": "ca88aadf5732a255b075eefba8581ca970971f147a9f631eac123091f14096d0",
+        "classification": "REVIEWER_DELIVERY_ONLY_SIZE_ASSERTION_BEFORE_REPORT_OUTPUT_NOT_READING_FAILURE"
+      }
+    ],
+    "actualTruncatedToolReturnCount": 0,
+    "actualNonterminalToolReturnsNotCredited": 1,
+    "actualAwaitingTerminalContinuationReceipts": [
+      {
+        "eventId": "a2d81513-e735-423f-b163-3830bd6681b5",
+        "agentId": "28c8aed6-4351-4f4d-89ac-aa23d8537b29",
+        "toolCallId": "call_WJTJ0cByuSTmRu5EfZFWTfx7",
+        "toolName": "powershell",
+        "commandStartEventId": "087ecc0d-8916-4a93-9f72-a166e4ba02d4",
+        "actualPublicContentUtf8Bytes": 197,
+        "actualPublicContentUtf8Sha256": "ef8e4d90a76d05a67088a0458b2c616704210739c883e6399680cf0bab348dc7",
+        "journalRecordExcludingLfSha256": "0d153d50d2d67e179025df8abfad0984df4e6ac57d1228a221db3aadf54e08ff",
+        "actualExitCodes": [],
+        "actualSuccessfulReturnedOutput": false,
+        "truncatedNotCredited": false,
+        "awaitingNotCredited": true,
+        "actualPublicContent": "<command with shellId: 20502 is still running after 30 seconds. The command is still running but hasn't produced output yet. Use read_powershell to continue waiting, or stop_powershell to stop it.>",
+        "terminalContinuationEventId": "0626f72f-a5c9-4d33-a795-ae58f1fb4488",
+        "notCreditedUntilActualTerminalReturn": true
+      }
+    ],
+    "actualUnchangedSnapshotGateEventIds": [
+      "455b44ff-cba3-4340-aeb1-ac9a6fe4fe89",
+      "0626f72f-a5c9-4d33-a795-ae58f1fb4488"
+    ],
+    "actualInitialFinalGatePayloadByteIdentity": true,
+    "actualWholeTeachingBodies": 46,
+    "actualWholeRussianBodies": 22,
+    "actualWholeEnglishBodies": 24,
+    "actualWholeOfficialSourceTextUnits": 138,
+    "actualAdditionalWholeProviderHeaders": 1,
+    "actualSuccessfulDictionaryImageViews": [],
+    "actualCurrentTypedKanjiMetadataRows": 331,
+    "actualWholeOriginalDirectionProposals": 12,
+    "retainedCurrentMetadataDirections": 12,
+    "actualWholeSourceAdjudications": 4,
+    "actualAdditionalDictionaryClarificationUnits": 4,
+    "actualExactWordPatchDiffs": 7,
+    "navigationOnlyWordPatches": 7,
+    "standaloneGlyphWrappers": 7,
+    "actualOutsideEdgeObservationUnits": 4,
+    "actualWholeFormatAmendmentRecordParts": 13,
+    "actualWholePostInitialMutationFormatAmendments": 1,
+    "actualWholePostInitialMutationEolDomainAmendments": 0,
+    "actualCorrectRURootRubrics": 3,
+    "allRequiredReadingComplete": true,
+    "reportExecutionCountQualification": "65assignedwindows+2gates+ranges=68helperinvocations/68distinctsuccessfulnativehelpershells.Finalgateinitiallyawaited30s;oneactualread_powershell(delay30)retrievedcompleteexit0,notasecondgateinvocation.5stdout-onlyliteralreportscripts=4sizefailures14165/12115/11342/11011+ONEsuccessful10799byteemission.73nativePowershellcommands/69successfulterminalcommands;74toolreturnsincludeONEuncreditednonterminalreturn+ONEterminalcontinuation.Firstrejectedsize14165mechanicallymeasuredfromactualimmutableliteral;nativeoriginalreportlistsmeasuredattempts2/3/4ONLYandisNOTrewritten.",
+    "boundary": "ENTIREactualpayloadcomparison/completelineunions,notmarkersalone;consoleCRLFnormalizationONLY.65completeassignedwindows,0readerfailures/truncations;onegatewaitfullyrecovered.4deliveryfailuresNOTreadingfailures."
+  },
+  "actualImmutableFacets": {
+    "C1": "SUPPORTEDwithinassignedintroductory/source-coreteaching;NOTliteralCLEAN",
+    "C2": "SUPPORTEDboundedcoverage/dependencies;ALL12ordinarynegative/all-sense/reading/fallbacksafetyU;NOTbroadCLEAN",
+    "C3": "SUPPORTEDwithin22wholeCURRENTRUbodies;NOTliteralCLEAN/nativecertification"
+  },
+  "actualVerbatimFacets": {
+    "C1": "C1 Japanese correctness: SUPPORTED introductory/source-core scope; no consequential correctable defect established. Modern5/6/8/11 strokes, classical口30, frozen readings/tags/communityN3 preserved. Historical providerJLPT2 does not replace communityN3. Modern mnemonics disclaim etymology.",
+    "C2": "C2 adopted coverage/dependencies: SUPPORTED bounded scope/restored links/unchanged guards/unwrapped absent optional links. Ordinary negative/all-sense/reading/fallback safety UNVERIFIED; retention/titles/structural passes do not clear it. No331-whole-lesson/1478-fresh-guard audit.",
+    "C3": "C3 Russian clarity/naturalness: SUPPORTED assigned texts. Number/quantity, orientation/travel, harmony/Japanese-style and shop/merchandise are intelligible; translations preserve Japanese relationships. No consequential Russian defect established; not native/phone/learning-effectiveness certification."
+  },
+  "actualFindings": [],
+  "preservedQualification": {
+    "facet": "C2",
+    "reviewerSpecifiedSeverity": null,
+    "actualVerbatimQualification": "C2 adopted coverage/dependencies: SUPPORTED bounded scope/restored links/unchanged guards/unwrapped absent optional links. Ordinary negative/all-sense/reading/fallback safety UNVERIFIED; retention/titles/structural passes do not clear it. No331-whole-lesson/1478-fresh-guard audit.",
+    "all12OrdinarySafetyUnverified": true
+  },
+  "unresolvedConsequentialAssignedTextDefects": [],
+  "authorMechanicsSeparateFromReviewerReading": {
+    "immutablePrivateArtifacts": {
+      "ru-096-author-mechanical-capture-failure-001.json": "b16dd6e8c2c91cdb97e5fdcba5dda7e994b06c98dce0c2c440a7acfffd304949",
+      "ru-096-author-mechanical-preparation-receipts-001.json": "15caa89b2ce5e1f7ddba5c63487a0ba583a0332999bc7ed37d7392b417d42dce",
+      "ru-096-candidate-validation-failure-001.json": "cc16cb8f57db50cfb6bd78b5af3b34382ccbb69103aa8d2a1e83bbcb2b6617bf",
+      "ru-096-author-review-probe-classification-erratum-001.json": "5755b5972eee06c43022c9bd4f11d0498e41ebeb90a24eeca373bf1bfea38176",
+      "ru-096-author-review-capture-failure-001.json": "d0d4a4c6b4a050be4d103c0d56aedf5c012fd697788acee5e0c490e26ec9c712"
+    },
+    "boundary": "Originalauthorpreparationmechanics/actualinitial4schemaerrorspreserved.ONEsuccessfuldiagnosticmislabelledaquotedhelpernameasgate;explicitstrictprefix/ASTcorrectionBEFOREpubliccapturepreserved;thatdiagnosticwasnotfailedcommand.ONEactualauthor-onlycaptureparserfailurepreserved:originalregexomittedN008explicitFOR_MEANING;correctedparserpreservesexactactualqualification,NOreport/source/reviewmutation/newreview/readingfailure."
+  },
+  "exactOriginalIndependentSourceDirectionDispositions": [
+    {
+      "proposalId": "096-N001",
+      "direction": [
+        "号",
+        "台"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualVerbatimDirectionDisposition": "N001号→台 S-intro:1284220 designation/issue/alias/size versus1412560 support/machine counter/range,2036120うてな. Both follow numerals; identification/counting contrast is not global numerical disjointness.",
+      "actualIndependentScopeSpecifier": null,
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;canonicalQisexplicitAUTHORschemamappingNOTreportrewriting/ordinarynegativeclearance.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "096-N002",
+      "direction": [
+        "号",
+        "写"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualVerbatimDirectionDisposition": "N002号→写 S-intro:1284220/1284250 designation/calling versus1588320/1321820 copying/depiction/photography.",
+      "actualIndependentScopeSpecifier": null,
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;canonicalQisexplicitAUTHORschemamappingNOTreportrewriting/ordinarynegativeclearance.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "096-N003",
+      "direction": [
+        "号",
+        "古"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualVerbatimDirectionDisposition": "N003号→古 S-intro:number/name/calling versus1265040/1265060/1265070 antiquity/used items/old things; not decided by box position alone.",
+      "actualIndependentScopeSpecifier": null,
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;canonicalQisexplicitAUTHORschemamappingNOTreportrewriting/ordinarynegativeclearance.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "096-N004",
+      "direction": [
+        "向",
+        "同"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualVerbatimDirectionDisposition": "N004向→同 S-intro:1277080/1604800/1277140 orientation/heading versus1451730/1451750 same/likewise. Broader senses limit title-only conclusions.",
+      "actualIndependentScopeSpecifier": null,
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;canonicalQisexplicitAUTHORschemamappingNOTreportrewriting/ordinarynegativeclearance.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "096-N005",
+      "direction": [
+        "向",
+        "問"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualVerbatimDirectionDisposition": "N005向→問 S-intro:facing/heading versus1535930/1536000 question/ask/blame/regard/doubt,1634040 question counter.",
+      "actualIndependentScopeSpecifier": null,
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;canonicalQisexplicitAUTHORschemamappingNOTreportrewriting/ordinarynegativeclearance.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "096-N006",
+      "direction": [
+        "向",
+        "何"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualVerbatimDirectionDisposition": "N006向→何 S-intro:facing/heading versus1577100 interrogative/placeholder/interjection,2846738 counter-prefix. Generic reference proves no exhaustive disjointness.",
+      "actualIndependentScopeSpecifier": null,
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;canonicalQisexplicitAUTHORschemamappingNOTreportrewriting/ordinarynegativeclearance.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "096-N007",
+      "direction": [
+        "和",
+        "私"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualVerbatimDirectionDisposition": "N007和→私 S-intro:1561920 harmony/Japanese-style/sum versus1311110/2842390/2728300 first-person/private affairs/partiality; not universal opposites.",
+      "actualIndependentScopeSpecifier": null,
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;canonicalQisexplicitAUTHORschemamappingNOTreportrewriting/ordinarynegativeclearance.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "096-N008",
+      "direction": [
+        "和",
+        "秋"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualVerbatimDirectionDisposition": "N008和→秋 S-intro for meaning:harmony/Japanese-style versus1332650 autumn/1315840 important time. BOTH KANJIDIC records attest NANORIあい, refuting unrestricted reading uniqueness; not word synonymy/runtime nanori approval.",
+      "actualIndependentScopeSpecifier": "for meaning",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;canonicalQisexplicitAUTHORschemamappingNOTreportrewriting/ordinarynegativeclearance.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "096-N009",
+      "direction": [
+        "和",
+        "味"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualVerbatimDirectionDisposition": "N009和→味 S-intro:harmony/Japanese-style versus1526960 taste/charm/experience,2258680/2258670 distinctみ identities. 和える1574260 dressing is not味わう1527010 tasting; culinary affinity gives no global clearance.",
+      "actualIndependentScopeSpecifier": null,
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;canonicalQisexplicitAUTHORschemamappingNOTreportrewriting/ordinarynegativeclearance.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "096-N010",
+      "direction": [
+        "商",
+        "高"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualVerbatimDirectionDisposition": "N010商→高 S-intro:commerce versus height/price and stated shape comparison. 商1346570 includes quotient;高1633260たか/だか means amount/quantity. Numerical affinity neither proves synonymy nor disappears with different titles. Ordinary/all-sense/reading/fallback clearance withheld.",
+      "actualIndependentScopeSpecifier": null,
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;canonicalQisexplicitAUTHORschemamappingNOTreportrewriting/ordinarynegativeclearance.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "096-N011",
+      "direction": [
+        "商",
+        "南"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualVerbatimDirectionDisposition": "N011商→南 S-intro:1346740/1346590 commerce/selling versus1459870 south; captured tile/poetic/suffix/music/dynasty senses give no unrestricted clearance.",
+      "actualIndependentScopeSpecifier": null,
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;canonicalQisexplicitAUTHORschemamappingNOTreportrewriting/ordinarynegativeclearance.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "096-N012",
+      "direction": [
+        "商",
+        "同"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualVerbatimDirectionDisposition": "N012商→同 S-intro:1346570/1346740 business versus1451730/1451750 same/likewise/equal. Independently assessed商→同, not向→同 or historical声→告; no exhaustive disjointness inferred.",
+      "actualIndependentScopeSpecifier": null,
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;canonicalQisexplicitAUTHORschemamappingNOTreportrewriting/ordinarynegativeclearance.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    }
+  ],
+  "explicitCanonicalSourceCoreDispositionMapping": {
+    "S-intro": "Q_QUALIFIED_INTRODUCTORY_ONLY"
+  },
+  "exactIndependentSourceLessonAdjudications": {
+    "096-L001": {
+      "actualDisposition": "supported-bounded",
+      "actualVerbatimIndependentDisposition": "L001号 supported-bounded:modern5/口30/readings corroborated; designation/calling coexist. Older號13 is not another modern号 stroke count.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "096-L002": {
+      "actualDisposition": "supported-bounded",
+      "actualVerbatimIndependentDisposition": "L002向 supported-bounded:6/口30/all11 frozen kun forms retained; turning need not involve travel. Additionalキョウ/さきに does not require frozen metadata replacement.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "096-L003": {
+      "actualDisposition": "supported-bounded",
+      "actualVerbatimIndependentDisposition": "L003和 supported-bounded:8/口30/frozen3on+5kun retained;和食 Japanese cuisine;和やかな会話 usesな; mnemonic not derivation.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "096-L004": {
+      "actualDisposition": "supported-bounded",
+      "actualVerbatimIndependentDisposition": "L004商 supported-bounded:11/口30/ショウ/あきな.う retained;商店 enterprise versus商品 goods preserved; quotient disclosed; shop image invented mnemonic.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    }
+  },
+  "exactIndependentSourceCorrectionAndClarificationDispositions": {
+    "096-A001": {
+      "actualDisposition": "supported",
+      "actualVerbatimIndependentDisposition": "A001 supported:1284220 noun号 is not verb\"shout\";1284250 loud crying;1482290/1443940 identify rather than count. KanjiPedia attests号ぶ despite exact-form miss; no frequency inference.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "096-A002": {
+      "actualDisposition": "supported",
+      "actualVerbatimIndependentDisposition": "A002 supported:1277080向く has orientation AND suitability/transitive AND intransitive uses;1277100向ける transitive ichidan,1604800向かう godan-u. 向う spellsむかう or nounむこう1277140; latter's final vowel long, not verb ending.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "096-A003": {
+      "actualDisposition": "supported",
+      "actualVerbatimIndependentDisposition": "A003 supported:1561940和やかなごやか na-adjective differs from1009570 rareにこやか spelling;1508070平和へいわ from2749750 mahjong.1562130和食/1561920sum separate. Sharedあい nanori gives no guard equivalence.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "096-A004": {
+      "actualDisposition": "supported",
+      "actualVerbatimIndependentDisposition": "A004 supported:1347180商店/1347310商品/1346590商う distinguish enterprise/goods/selling;1346570商 also quotient/music/dynasty. Current高 distractors安/長/本 retained, not frozenEN安/長/大 overwrite.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    }
+  },
+  "originalSourceDirections": 12,
+  "retainedRuntimeMetadataDirections": 12,
+  "metadataRetentionIsNotGuardApproval": true,
+  "actualQualifiedCoreContrastDirections": 12,
+  "actualReviewerDirectionDispositionCounts": {
+    "S-intro": 12
+  },
+  "exactWithheldSourceCoreDirections": [],
+  "ordinaryActiveNegativeSafetyApprovedDirections": 0,
+  "ordinaryActiveNegativeSafetyUnverifiedDirections": 12,
+  "exactIndependentNavigationDispositions": [
+    {
+      "id": "NAV1",
+      "path": "words/信号.md",
+      "actualDisposition": "accepted AS NAV-ONLY",
+      "actualVerbatimIndependentDisposition": "1 words\\信号.md:standalone号 wrapped; prior信 link intact."
+    },
+    {
+      "id": "NAV2",
+      "path": "words/向かう.md",
+      "actualDisposition": "accepted AS NAV-ONLY",
+      "actualVerbatimIndependentDisposition": "2 words\\向かう.md:standalone向 wrapped;向う identity explanation intact."
+    },
+    {
+      "id": "NAV3",
+      "path": "words/向く.md",
+      "actualDisposition": "accepted AS NAV-ONLY",
+      "actualVerbatimIndependentDisposition": "3 words\\向く.md:standalone向 wrapped; suitability qualification/guards intact."
+    },
+    {
+      "id": "NAV4",
+      "path": "words/向ける.md",
+      "actualDisposition": "accepted AS NAV-ONLY",
+      "actualVerbatimIndependentDisposition": "4 words\\向ける.md:standalone向 wrapped; transitive model/guards intact."
+    },
+    {
+      "id": "NAV5",
+      "path": "words/向こう.md",
+      "actualDisposition": "accepted AS NAV-ONLY",
+      "actualVerbatimIndependentDisposition": "5 words\\向こう.md:standalone向 wrapped; noun/long-vowel explanation intact."
+    },
+    {
+      "id": "NAV6",
+      "path": "words/番号.md",
+      "actualDisposition": "accepted AS NAV-ONLY",
+      "actualVerbatimIndependentDisposition": "6 words\\番号.md:standalone号 wrapped;番/quantity comparison unchanged."
+    },
+    {
+      "id": "NAV7",
+      "path": "words/記号.md",
+      "actualDisposition": "accepted AS NAV-ONLY",
+      "actualVerbatimIndependentDisposition": "7 words\\記号.md:standalone号 wrapped;記/old印/コード links/guards unchanged."
+    }
+  ],
+  "exactIndependentOutsideLimitDispositions": "Outside LIMIT dispositions:all4 supported ONLY as limits, not new/global pairs. O001:name/sign/calling/ゴウ limit number-only uniqueness. O002:direction/attention/コウ/broader向 senses limit facing-only claims. O003:calm/style/ワ/カ/sum/other和 identities/shared和秋あい limit uniqueness. O004:commerce/ショウ/quotient/music/dynasty limit commerce-only claims. Typed flags are not whole-sense verdicts on outside providers. Current kanji lacks記/数/平/禾/合/対/進; words/components do not supply them. Exact-form misses写/号ぶ/向/禾 prove no absence/register/frequency.",
+  "sourceDirectedMetadataCorrections": [],
+  "actualLessonDispositionCounts": {
+    "supported-bounded": 4
+  },
+  "actualClarificationDispositionCounts": {
+    "supported": 4
+  },
+  "prior082N007UnrestrictedUNotUpgraded": true,
+  "prior091N023ActiveNegativeUNotUpgraded": true,
+  "prior093All27OrdinaryActiveNegativeUNotUpgraded": true,
+  "prior094RespiratoryOverlapUAndAll9OrdinaryUNotUpgraded": true,
+  "prior095VoiceAnnouncementUAndAll12OrdinaryUNotUpgraded": true,
+  "universalSemanticDisjointnessDirections": 0,
+  "inventedReverseOrTransitiveDirections": 0,
+  "secondWholeReview": false,
+  "qualifiedBoundary": "ONE actual FIRST whole independent096 review;original10799-byte stdout/native-final SHA256 75d29c9267c9488cab0457025bfc3f69dc42005805cb14440bc9f88e9859c491 EXACT including final LF,published verbatim;NO projection/second review.65 complete assigned windows=48 whole-unit+17 line returns.46 distinct teaching bodies=24EN/22CURRENT_RU:4primary pairs+18current context pairs+2EN-only comparisons.138 WHOLE official TEXT=20KANJIDIC/1Unicode/113orderedJMdict/4visibleKanjiPedia;ONEwholeheader additional,ZEROglyphpixels.331CURRENTtypedmetadata rows NOT331wholelessons/1478freshwordguards.12directions/4L4A/7exactNAV/4outsideLIMITS/whole13partformatamendment/4wholeguidance/3correctRU-rootrubrics.68helper invocations/distinct native shells;finalgate initially awaited30s,oneactual read_powershell(delay30)retrievedcompleteexit0.Opening/closing gate payloads equal;0failedreadings/truncations.73nativePowershellcommands/74toolreturns/69successfulterminalcommands;FOURdelivery-onlysizefailures14165/12115/11342/11011 andONEsuccessful10799-byteemission;ONEuncreditednonterminalgate return/ONEterminalcontinuation,notextra gate invocation.Firstrejectedsize14165measuredfromactualimmutableliteral;originalreportlistsattempts2/3/4sizesONLY,notrewritten.ActualC1SUPPORTEDintroductory/source-core/C2SUPPORTEDboundedcoverage-dependencies/C3SUPPORTED22wholeRU,NOTliteralCLEAN/ordinaryquizapproval.All12 actual S-intro individual comparisons ONLY;N008explicitlyFOR_MEANING.CanonicalQ is explicit AUTHORschema mapping,NOTreportrewriting/negativeclearance.ALL12ordinaryactive-negative/all-sense/reading/fallback safety U;retention/titles/structuralpassesNOTapproval.No necessary current teaching/NAV/formatfix.All4Lsupported-bounded/4Asupported/7NAVaccepted AS NAV-ONLY;4outsideLIMITSnotnewguards.和AND秋wholeKANJIDIC share NANORIあい,notstandalonewordsynonymy/runtime readingapproval.商しょうquotient vs高たか/だかamount:numeric-domainaffinityNOTclaimedsynonymy,NOTresolvedbytitles.向くorientationANDsuitability;向うむかうverb-or-むこうnoun.和やか1561940なごやかNOT1009570にこやかrarekanjispelling.ModernmnemonicsNOTetymology;historicalproviderJLPTNOTfrozencommunityN3;exact-formmissesNOTabsence/register/frequencyproof.Currentkanji lacks記/数/平/禾/合/対/進;words/componentsNOTproviders.7standalone-glyphNAVwrappers preserveALLvisibleprose/Japanese/metadata/oldlinks/oldguardarrays;originalqualifiedguard support/scope/identityONLY.Originalinitial4RU RAWs matchedpremutation001;actualinitialmanifest2170/47a864f666bbaf1ePASSED,validator4schemaerrors;tests/budgetNOTRUNthen.Explicit70abPOST-initial-mutationformatamendment correctedEXACT8H2labelsONLY;allotherteaching/Japanese/metadata/NAV/strokesunchanged.Original9052freeze/proposals001/boundhelpers/initialauthoring001/failedchecks001IMMUTABLE.CURRENT4RU matchamended002,NOToriginal001 RAWs;notretroactivepremutation/EOL/semanticreview.Freshcorrected002checksPASS;CURRENT4RU/7wholechangedwords/331typedreadin13authorreturns,NONEborrowedbyreviewer.Authorpreparationmechanics/initialformatfailureandONEactualcaptureparserfailurepreserved:regexomittedN008FOR_MEANING;correctedwithoutreportmutation.Successfuldiagnosticquoted-helpermisclassificationexplicitlycorrectedBEFOREpubliccapture;notfailedcommand/reviewerreadingfailure/newreview.Broaderordinarymodernnecessity-frequency/globalcurrent-futureuniquenessUNVERIFIED.Prior082姉-to-妹U/091割-to-利U/093all27ordinaryU/094呼-blowU+all9ordinaryU/095声-to-告U+all12ordinaryUUNCHANGED;096N012商-to-同NOT095N012声-to-告.2155otherbaselineRAWs/trackingrowsunchanged;4newexactfrozenstrokeRAWs/rootlicensesretained,notgeometry/nativeanimationapproval.2170reviewed-current/2excludedreviewedblocked-media/6106pendingof8278;6108runtimepathsabsent;1478words/331kanji+331strokes/83N3kanji284remaining;all166N4included.Checkpointauthoritynull/Readyfalse.Protected033WORD空excludedC2U/runtime-absent/NOTmedia;accepted077KANJI空doesNOTresolveit.NOdevice/phone/JapaneseIME/media/default/package/release/ordinaryactivation/fullfinitecompletionauthority.Continue097+ALLremaining safe frozenfamilies.",
+  "baselineUnchangedRuntimeRaws": 2155,
+  "protectedSkyBoundary": {
+    "path": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+    "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+    "status": "excluded C2UNVERIFIED;notmedia",
+    "runtimeWordRemainsAbsent": true,
+    "priorKanjiSkyBoundary": "Accepted077kanji空doesNOTresolveprotectedwordcaptionblocker/ordinaryquiz/media/defaultactivation."
+  },
+  "checkpointAuthority": null,
+  "ordinaryActivationAuthorized": false,
+  "fullTaskComplete": false,
+  "continueRequired": true,
+  "perFileHashes": [
+    {
+      "path": "kanji/号.md",
+      "sourceRawSha256": "b0c22b17addc25dff8d4b1a1fceec356d64b72800162cec4228e0c7cb2dba529",
+      "sourceSha256": "b0c22b17addc25dff8d4b1a1fceec356d64b72800162cec4228e0c7cb2dba529",
+      "ruRawSha256": "b2ad89e3fd00b810b8bc94300950e624224f81defb65fd21a1787f3b3ccd56bf",
+      "ruSha256": "b2ad89e3fd00b810b8bc94300950e624224f81defb65fd21a1787f3b3ccd56bf",
+      "ruGitRawSha256": "b2ad89e3fd00b810b8bc94300950e624224f81defb65fd21a1787f3b3ccd56bf"
+    },
+    {
+      "path": "kanji/向.md",
+      "sourceRawSha256": "e39b688df122de304fe6e59c241cb44ceb599c31d710222780e83d8f80816f14",
+      "sourceSha256": "e39b688df122de304fe6e59c241cb44ceb599c31d710222780e83d8f80816f14",
+      "ruRawSha256": "d0553ca31c3fb4c9adf2cb1b0eadd88723b8977d171cb6a36e46ad81967fa9dd",
+      "ruSha256": "d0553ca31c3fb4c9adf2cb1b0eadd88723b8977d171cb6a36e46ad81967fa9dd",
+      "ruGitRawSha256": "d0553ca31c3fb4c9adf2cb1b0eadd88723b8977d171cb6a36e46ad81967fa9dd"
+    },
+    {
+      "path": "kanji/和.md",
+      "sourceRawSha256": "e8952dbf74ce8df9caf82f785210455dbf55204d68e0cc3d9d6681f64bcb7581",
+      "sourceSha256": "e8952dbf74ce8df9caf82f785210455dbf55204d68e0cc3d9d6681f64bcb7581",
+      "ruRawSha256": "ca3adc2351fcee805ac9429b1c94580214da42e73e3c88107b12e3650b04f63c",
+      "ruSha256": "ca3adc2351fcee805ac9429b1c94580214da42e73e3c88107b12e3650b04f63c",
+      "ruGitRawSha256": "ca3adc2351fcee805ac9429b1c94580214da42e73e3c88107b12e3650b04f63c"
+    },
+    {
+      "path": "kanji/商.md",
+      "sourceRawSha256": "b8b17afe222aeba0842e8dc9ed7ed001a4c9a6c0b6e17f0197d241a5a7988872",
+      "sourceSha256": "b8b17afe222aeba0842e8dc9ed7ed001a4c9a6c0b6e17f0197d241a5a7988872",
+      "ruRawSha256": "79c54858ad9b85d25b71ad62cec793ca7464409aa61cd0e35ba8ef938abc0b35",
+      "ruSha256": "79c54858ad9b85d25b71ad62cec793ca7464409aa61cd0e35ba8ef938abc0b35",
+      "ruGitRawSha256": "79c54858ad9b85d25b71ad62cec793ca7464409aa61cd0e35ba8ef938abc0b35"
+    },
+    {
+      "path": "strokes/号.json",
+      "sourceRawSha256": "e25b5fa1e9f1dccbe50b6163c8b27450fcd3d79e2bf82048407b67cf8d6ebc82",
+      "sourceSha256": "e25b5fa1e9f1dccbe50b6163c8b27450fcd3d79e2bf82048407b67cf8d6ebc82",
+      "ruRawSha256": "e25b5fa1e9f1dccbe50b6163c8b27450fcd3d79e2bf82048407b67cf8d6ebc82",
+      "ruSha256": "e25b5fa1e9f1dccbe50b6163c8b27450fcd3d79e2bf82048407b67cf8d6ebc82",
+      "ruGitRawSha256": "e25b5fa1e9f1dccbe50b6163c8b27450fcd3d79e2bf82048407b67cf8d6ebc82"
+    },
+    {
+      "path": "strokes/向.json",
+      "sourceRawSha256": "f4cc3ff7c19109971d4cc04443ec0f3c91b0a23197de42764ce8bc325094c0f4",
+      "sourceSha256": "f4cc3ff7c19109971d4cc04443ec0f3c91b0a23197de42764ce8bc325094c0f4",
+      "ruRawSha256": "f4cc3ff7c19109971d4cc04443ec0f3c91b0a23197de42764ce8bc325094c0f4",
+      "ruSha256": "f4cc3ff7c19109971d4cc04443ec0f3c91b0a23197de42764ce8bc325094c0f4",
+      "ruGitRawSha256": "f4cc3ff7c19109971d4cc04443ec0f3c91b0a23197de42764ce8bc325094c0f4"
+    },
+    {
+      "path": "strokes/和.json",
+      "sourceRawSha256": "e18efa9bfd3e64f334ef4ade23fce67442154388033cab5c37576f463dcef0d5",
+      "sourceSha256": "e18efa9bfd3e64f334ef4ade23fce67442154388033cab5c37576f463dcef0d5",
+      "ruRawSha256": "e18efa9bfd3e64f334ef4ade23fce67442154388033cab5c37576f463dcef0d5",
+      "ruSha256": "e18efa9bfd3e64f334ef4ade23fce67442154388033cab5c37576f463dcef0d5",
+      "ruGitRawSha256": "e18efa9bfd3e64f334ef4ade23fce67442154388033cab5c37576f463dcef0d5"
+    },
+    {
+      "path": "strokes/商.json",
+      "sourceRawSha256": "51d75316901516349e6e5fde4f37bd03e31474d82b50f3e31298a40aa6ce5c33",
+      "sourceSha256": "51d75316901516349e6e5fde4f37bd03e31474d82b50f3e31298a40aa6ce5c33",
+      "ruRawSha256": "51d75316901516349e6e5fde4f37bd03e31474d82b50f3e31298a40aa6ce5c33",
+      "ruSha256": "51d75316901516349e6e5fde4f37bd03e31474d82b50f3e31298a40aa6ce5c33",
+      "ruGitRawSha256": "51d75316901516349e6e5fde4f37bd03e31474d82b50f3e31298a40aa6ce5c33"
+    },
+    {
+      "path": "words/信号.md",
+      "sourceRawSha256": "c604140ce9ebc0514cb5ccecca1bf1a639dc0a4462ef97bd294b217a431f4c52",
+      "sourceSha256": "c604140ce9ebc0514cb5ccecca1bf1a639dc0a4462ef97bd294b217a431f4c52",
+      "ruRawSha256": "7584de9d7c8d44f47c3513c8a21065b33945a4148679afe75f56bdfe1eea1f71",
+      "ruSha256": "5d5aca51c4a37f443464eb6db228ef439a1c874768dd7e6f4936a0e8aa8c5bd9",
+      "ruGitRawSha256": "5d5aca51c4a37f443464eb6db228ef439a1c874768dd7e6f4936a0e8aa8c5bd9"
+    },
+    {
+      "path": "words/向かう.md",
+      "sourceRawSha256": "cb35c587dcb8d5cf8fc46b164e993c7c5e2bc7b08c7e1e56e8f51b90ebeddae1",
+      "sourceSha256": "cb35c587dcb8d5cf8fc46b164e993c7c5e2bc7b08c7e1e56e8f51b90ebeddae1",
+      "ruRawSha256": "9724589f99662476b6478fd11457fa3821aac99786460259d6798b45cb3ec0af",
+      "ruSha256": "9724589f99662476b6478fd11457fa3821aac99786460259d6798b45cb3ec0af",
+      "ruGitRawSha256": "9724589f99662476b6478fd11457fa3821aac99786460259d6798b45cb3ec0af"
+    },
+    {
+      "path": "words/向く.md",
+      "sourceRawSha256": "4fec0505e6b76f00aada67becc5274c29eb27f324d1ebdfb924d82cfa549f13c",
+      "sourceSha256": "4fec0505e6b76f00aada67becc5274c29eb27f324d1ebdfb924d82cfa549f13c",
+      "ruRawSha256": "78b5f711bf229f733f948cb1e7a51da007a7b6e088f9e674feeb03ca591e571c",
+      "ruSha256": "78b5f711bf229f733f948cb1e7a51da007a7b6e088f9e674feeb03ca591e571c",
+      "ruGitRawSha256": "78b5f711bf229f733f948cb1e7a51da007a7b6e088f9e674feeb03ca591e571c"
+    },
+    {
+      "path": "words/向ける.md",
+      "sourceRawSha256": "01109560c089a0c370fdb26c3184f56271233359eeffb8222b1d1010178c2465",
+      "sourceSha256": "01109560c089a0c370fdb26c3184f56271233359eeffb8222b1d1010178c2465",
+      "ruRawSha256": "918d023a2c44b0f992091a55ecb8f6fb96eef5a50e654e9471d0696ee35aab48",
+      "ruSha256": "918d023a2c44b0f992091a55ecb8f6fb96eef5a50e654e9471d0696ee35aab48",
+      "ruGitRawSha256": "918d023a2c44b0f992091a55ecb8f6fb96eef5a50e654e9471d0696ee35aab48"
+    },
+    {
+      "path": "words/向こう.md",
+      "sourceRawSha256": "167a404860ec3bfdbcc4a744c7d0bd8c5040d792b4f7053f767dd375cfa3faa2",
+      "sourceSha256": "167a404860ec3bfdbcc4a744c7d0bd8c5040d792b4f7053f767dd375cfa3faa2",
+      "ruRawSha256": "09060cdc8f0242ece2d15bc3cb49b08a251f774e8b0bd01eae1b85437ab4183e",
+      "ruSha256": "1d498e5add6c13e95310476718f27a439428521f0231830f3797bcc2a4b30c58",
+      "ruGitRawSha256": "1d498e5add6c13e95310476718f27a439428521f0231830f3797bcc2a4b30c58"
+    },
+    {
+      "path": "words/番号.md",
+      "sourceRawSha256": "567a88d323f1caf3c35ead9d06e7fba63d4c5685bb1671a514ff4e320ea88204",
+      "sourceSha256": "567a88d323f1caf3c35ead9d06e7fba63d4c5685bb1671a514ff4e320ea88204",
+      "ruRawSha256": "205b49d5de0e42de960e93184458aec286f1d546dd98a3dd6922049ad194ba15",
+      "ruSha256": "205b49d5de0e42de960e93184458aec286f1d546dd98a3dd6922049ad194ba15",
+      "ruGitRawSha256": "205b49d5de0e42de960e93184458aec286f1d546dd98a3dd6922049ad194ba15"
+    },
+    {
+      "path": "words/記号.md",
+      "sourceRawSha256": "964592199e4649f1c5d8f2ad14c9f2397868c0d4348f4faecd0e4d889f07aae9",
+      "sourceSha256": "964592199e4649f1c5d8f2ad14c9f2397868c0d4348f4faecd0e4d889f07aae9",
+      "ruRawSha256": "6192b10dc4513c419901b8478fc3fed3c18150a5f9c0e1e4b78297f575131823",
+      "ruSha256": "b11f717219c86891fabca628b3fe7cb742666a9dd4aa25c87b65fb66706428e7",
+      "ruGitRawSha256": "b11f717219c86891fabca628b3fe7cb742666a9dd4aa25c87b65fb66706428e7"
+    }
+  ],
+  "completeRussianKanjiLessonLines": 289,
+  "actualNewKanjiLevels": {
+    "3": 4
+  },
+  "baselineRuntimeRawsAndTrackingRowsPreserved": 2155,
+  "exactNavigationOnlyUpdatedBaselineWords": 7,
+  "exactSemanticPlusNavigationUpdatedBaselineWords": 0,
+  "exactExistingWordSemanticAmendments": [],
+  "exactNavigationWrappers": 7,
+  "standaloneGlyphWrappers": 7,
+  "allExistingWordVisibleProseAndJapaneseUnchanged": true,
+  "oldWordMetadataAndQuizArraysUnchanged": 1478,
+  "newRuntimePaths": 8,
+  "newWords": 0,
+  "newKanji": 4,
+  "rawIdenticalStrokeAssets": 4,
+  "oldRuntimeEdits": [
+    "words/信号.md",
+    "words/向かう.md",
+    "words/向く.md",
+    "words/向ける.md",
+    "words/向こう.md",
+    "words/番号.md",
+    "words/記号.md"
+  ],
+  "runtime": {
+    "objects": 2170,
+    "words": 1478,
+    "kanji": 331,
+    "strokes": 331,
+    "contentVersion": "4db327de9b972839",
+    "wordJlptCounts": {
+      "4": 636,
+      "5": 671,
+      "3": 97,
+      "unlabelled": 55,
+      "2": 19
+    },
+    "kanjiJlptCounts": {
+      "5": 80,
+      "4": 166,
+      "3": 83,
+      "2": 2
+    },
+    "N4Kanji": 166,
+    "remainingN4Kanji": 0,
+    "N3Kanji": 83,
+    "remainingN3Kanji": 284,
+    "exactRemainingN3Kanji": [
+      "合",
+      "君",
+      "命",
+      "回",
+      "因",
+      "困",
+      "園",
+      "在",
+      "報",
+      "増",
+      "変",
+      "夢",
+      "太",
+      "夫",
+      "失",
+      "好",
+      "妻",
+      "娘",
+      "婚",
+      "婦",
+      "存",
+      "宅",
+      "守",
+      "完",
+      "官",
+      "定",
+      "実",
+      "客",
+      "害",
+      "容",
+      "宿",
+      "寄",
+      "富",
+      "寒",
+      "寝",
+      "察",
+      "対",
+      "局",
+      "居",
+      "差",
+      "市",
+      "師",
+      "席",
+      "常",
+      "平",
+      "幸",
+      "幾",
+      "座",
+      "庭",
+      "式",
+      "引",
+      "当",
+      "形",
+      "役",
+      "彼",
+      "徒",
+      "得",
+      "御",
+      "必",
+      "忘",
+      "忙",
+      "念",
+      "怒",
+      "怖",
+      "性",
+      "恐",
+      "恥",
+      "息",
+      "悲",
+      "情",
+      "想",
+      "愛",
+      "感",
+      "慣",
+      "成",
+      "戦",
+      "戻",
+      "所",
+      "才",
+      "打",
+      "払",
+      "投",
+      "折",
+      "抜",
+      "抱",
+      "押",
+      "招",
+      "指",
+      "捕",
+      "掛",
+      "探",
+      "支",
+      "放",
+      "政",
+      "敗",
+      "散",
+      "数",
+      "断",
+      "易",
+      "昔",
+      "昨",
+      "晩",
+      "景",
+      "晴",
+      "暗",
+      "暮",
+      "曲",
+      "更",
+      "最",
+      "望",
+      "期",
+      "未",
+      "末",
+      "束",
+      "杯",
+      "果",
+      "格",
+      "構",
+      "様",
+      "権",
+      "横",
+      "機",
+      "欠",
+      "次",
+      "欲",
+      "歯",
+      "歳",
+      "残",
+      "段",
+      "殺",
+      "民",
+      "求",
+      "決",
+      "治",
+      "法",
+      "泳",
+      "洗",
+      "活",
+      "流",
+      "浮",
+      "消",
+      "深",
+      "済",
+      "渡",
+      "港",
+      "満",
+      "演",
+      "点",
+      "然",
+      "煙",
+      "熱",
+      "犯",
+      "状",
+      "猫",
+      "王",
+      "現",
+      "球",
+      "産",
+      "留",
+      "番",
+      "疑",
+      "疲",
+      "痛",
+      "登",
+      "皆",
+      "盗",
+      "直",
+      "相",
+      "眠",
+      "石",
+      "破",
+      "確",
+      "示",
+      "科",
+      "程",
+      "種",
+      "積",
+      "突",
+      "窓",
+      "笑",
+      "等",
+      "箱",
+      "米",
+      "精",
+      "経",
+      "給",
+      "絵",
+      "絶",
+      "続",
+      "緒",
+      "罪",
+      "置",
+      "美",
+      "老",
+      "職",
+      "育",
+      "背",
+      "能",
+      "腹",
+      "舞",
+      "船",
+      "若",
+      "苦",
+      "草",
+      "落",
+      "葉",
+      "薬",
+      "術",
+      "表",
+      "要",
+      "規",
+      "覚",
+      "観",
+      "解",
+      "記",
+      "訪",
+      "許",
+      "認",
+      "誤",
+      "説",
+      "調",
+      "談",
+      "論",
+      "識",
+      "警",
+      "議",
+      "負",
+      "財",
+      "貧",
+      "責",
+      "費",
+      "資",
+      "賛",
+      "越",
+      "路",
+      "辞",
+      "込",
+      "迎",
+      "返",
+      "迷",
+      "追",
+      "退",
+      "逃",
+      "途",
+      "速",
+      "連",
+      "進",
+      "遅",
+      "遊",
+      "過",
+      "違",
+      "遠",
+      "適",
+      "選",
+      "部",
+      "都",
+      "配",
+      "酒",
+      "閉",
+      "関",
+      "降",
+      "限",
+      "除",
+      "険",
+      "陽",
+      "際",
+      "雑",
+      "難",
+      "雪",
+      "静",
+      "非",
+      "面",
+      "靴",
+      "頂",
+      "頭",
+      "頼",
+      "顔",
+      "願",
+      "類",
+      "飛",
+      "首",
+      "馬",
+      "髪",
+      "鳴"
+    ],
+    "N5Words": 671,
+    "remainingN5Words": 1,
+    "N4Words": 636,
+    "remainingN4Words": 0
+  },
+  "progressStatuses": {
+    "reviewed-current": 2170,
+    "draft-reviewed-runtime-blocked": 2,
+    "pending": 6106
+  },
+  "finalValidationReceipt": "docs/translation-batches/096-number-direction-harmony-and-commerce-kanji-final-validation-001.json",
+  "appHintMappingStatus": "UNVERIFIED;live/sharedappnotaccessed",
+  "next": "097+ALLremaining safe frozenlevels/families;protected033WORD空separate."
+}

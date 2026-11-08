@@ -11,7 +11,78 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current qualified source milestone: batch095
+## Current qualified source milestone: batch096
+
+Four complete Russian frozen N3 lessons,**号/向/和/商,289 file lines**,
+four RAW-identical KanjiVG assets and seven whole current word bodies/seven
+**NAV-only standalone-glyph wrappers**:信号→号,向かう→向,向く→向,向ける→向,
+向こう→向,番号→号,記号→号. All visible prose,Japanese metadata,quiz arrays,
+old links and frozen levels unchanged;no new guard or removed direction.
+
+The [actual FIRST whole review](translation-batches/096-number-direction-harmony-and-commerce-kanji-independent-review-001.json)
+read46 whole teaching bodies,**24 EN/22 CURRENT RU**:four primary pairs,
+18 current context pairs,two EN-only comparisons,including all seven changed words.
+It read138 whole official TEXT units:20 KANJIDIC/one Unicode/113 JMdict/four
+KanjiPedia,plus one whole header;331 CURRENT typed rows,12 directions,four L/
+four A,seven NAV diffs,four outside LIMITS,the complete format amendment in13
+logical units,four whole guidance files and three correct RU rubrics.
+**65 complete windows**;zero glyph pixels,not331 whole lessons/1478 fresh guards.
+
+Original **10799-byte stdout/native-final report**,SHA256
+`75d29c9267c9488cab0457025bfc3f69dc42005805cb14440bc9f88e9859c491`,
+published verbatim with final LF;no projection or second review.
+73 native commands/74 returns/69 terminal successes;68 helper invocations in
+distinct native shells. One closing-gate30s wait recovered by one actual
+`read_powershell(delay30)`/complete exit0;gate payloads match. All65 reading
+windows complete;zero failed readings/truncations.
+Four delivery-size assertions14165/12115/11342/11011 before one successful
+10799-byte emission. First size is measured from the actual immutable literal;
+the original report lists attempts2/3/4,not rewritten by the capture audit.
+Author preparation mechanics/initial format failure,one N008-qualification
+capture-regex failure and a successful diagnostic classification erratum are
+preserved separately,not reviewer reading failures or additional reviews.
+
+Actual **C1 SUPPORTED introductory/source-core/C2 SUPPORTED bounded coverage/
+dependencies/C3 SUPPORTED22 whole RU**,not literal CLEAN/ordinary quiz approval.
+No current consequential correctable teaching/NAV/format defect established.
+**All12 actual S-intro comparisons ONLY;N008和→秋 explicitly “for meaning”**.
+Canonical Q is an explicit author mapping,not original report rewriting.
+**ALL12 ordinary active-negative/all-sense/reading/fallback safety U**;
+retained metadata/titles/parser passes do not approve guards.
+All4L supported-bounded/4A supported/7NAV accepted AS NAV-ONLY;4 outside LIMITS
+are not guards/global pairs. 和/秋 shared nanoriあい does not approve runtime
+readings or word synonymy. 商quotient/高amount numerical affinity is not claimed
+synonymy or resolved by titles. Mnemonics,source community levels,exact-form
+misses and broader modern necessity-frequency/global uniqueness stay bounded.
+Current kanji lacks記/数/平/禾/合/対/進;words/components are not providers.
+
+The [format-only amendment](translation-batches/096-number-direction-harmony-and-commerce-kanji-post-initial-mutation-format-only-amendment-001.json)
+is explicitly **POST initial mutation**,not retroactive premutation/EOL/semantic review.
+Initial manifest2170/`47a864f666bbaf1e` passed;validator failed four schema errors,
+tests/budget NOT run. Signed70ab corrects exactly eight H2 labels to canonical
+`Частые слова`/`Примечания`;all other teaching/Japanese/metadata/NAV/strokes unchanged.
+Original9052 freeze/proposals001/bound helpers/initial authoring001/failed checks001
+immutable. CURRENT four RU bodies match002,not original001 RAWs;no EOL amendment.
+Fresh002 checks pass;CURRENT4RU/7wholechangedwords/331typed read in13 author returns,
+not reviewer credits.
+
+Qualified source checkpoint: **2170 runtime/1478 words/331 kanji/331 strokes**;
+words671 N5/636 N4/97 N3/19 N2/55 unlabelled unchanged;
+kanji80 N5/166 N4/**83 N3**/2 N2;all166 N4 included,**284 N3 remain**.
+Strict statuses2170 reviewed-current/two excluded reviewed blocked-media drafts/
+6106 pending of8278;6108 runtime paths absent,no partial.
+Version `4db327de9b972839`;checkpoint null/Ready false.
+2155 other baseline RAWs/tracking rows preserved;all1478 word metadata/quiz arrays
+unchanged. Accepted-main counts require signed normal integration;fresh final
+checks/public archives/signatures/four protected refs/exact-main CI/owner issue
+verification are separate receipts. Runtime2170 is not2178 exported bodies.
+Prior082/091/093/094/095 qualifications remain unchanged;broader ordinary modern
+necessity-frequency/global uniqueness UNVERIFIED.
+Protected033 WORD空 excluded-C2U/runtime-absent/not media;KANJI空 does not resolve it.
+No device/media/default/package/release approval;continue097+ **ALL remaining
+safe frozen families**,not full-task completion.
+
+## Previous qualified source milestone: batch095
 
 Four complete Russian frozen N3 lessons,**否/告/喜/声,319 file lines**,
 four RAW-identical KanjiVG assets and three current word bodies/three
