@@ -1,0 +1,4327 @@
+{
+  "schemaVersion": 1,
+  "batch": "085-separation-effort-truth-answers-parents-and-topics-kanji",
+  "recordedAt": "2026-11-08T06:17:08.286502+00:00",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineSnapshot": "04ab33565b7a19f59aa954eaa2294b08c850f109",
+  "originalSignedIntakeCommit": "2cd5c2078354958ac5ded3b6e155c0db11a245fa",
+  "originalIntake": "docs/translation-batches/085-separation-effort-truth-answers-parents-and-topics-kanji-intake.json",
+  "originalIntakeRawSha256": "a78644c8f6d0bb767e5f5d0b4f995b2a393fb0b137b3038e33b94a17140eca07",
+  "exactBoundPrivateArtifacts": {
+    "ru-085-author-primary-reading-complete-001.json": "2ced20d087b7cecf58ee6c54129789eb2a96d0443eee8326f0e7657b6172768f",
+    "ru-085-author-preparation-reading-complete-001.json": "e00a00af374341a448e4d82df9a8f0b2fec93a0d7a960514c403c7a5c33245f9",
+    "ru-085-author-supplemental-reading-complete-001.json": "8a76863a8075b0685d7ec29ddbdebb2e7c777b1f679b36735a21e53aebefa20e",
+    "ru-085-evidence-bindings-001.json": "1cd33d33f5496439e5f238d074f81b4be85330645450a67f4810b1379b3612cb",
+    "ru-085-metadata-primary-capture-001.json": "bd6284769908b881828b0a0bc104aa8cedfcaf363cf60b11399db234a09abf8a",
+    "ru-085-kanjipedia-capture-001.json": "bef4ee458e68164f176f05c2684835d2e68b36ca007bff3fb678b291f52c0f63",
+    "ru-085-supplemental-lexical-capture-001.json": "5bdea7fb59fce5c3c643d86430268913be2b7592088b15b0e5fdea19e2205e01",
+    "ru-085-source-bound-proposals-001.json": "14da042ed74459a4e063794868b217a15341ad53cfd9aa061e15a7c998241c1c",
+    "ru-085-prospective-typed-kanji-pool-001.json": "762d49f3586a4c6f044af9ad0079fbf27c7009f13a61f7634266fb0a851fc334",
+    "ru-085-prospective-actual-read-receipts-complete-001.json": "58d06779bdd484b1c429080c7cc499fcbbc74af0af19e748529e9753f2cbb56c",
+    "ru085.py": "08a4e3376bc0cb25d4dceaa1f39eadc92038952d3d6533acd7335fe2a3991b33",
+    "ru085prepare.py": "43ea3ac30d11a44cd440a1d8e3c21e6661f512905d3596284bf874875be34e52",
+    "ru085kanjipedia.py": "2006970e7b8331e200156af6c224ecc76fb468218092b76b45720458b3189d8c",
+    "ru085readreceipts.py": "5496a5bf16b0ede7ee9de6ad1b5b88b429f5f9291e6b9fa354705bc9693d99dc",
+    "ru085supplement.py": "bb76656452c7e24802775da9c6b28a2a65b461da7840c4348d63865f426c7d07",
+    "ru085draft.py": "3f0d7215eb6113b900c9e45497510b9c35023da60d30e8e000f5090287a265a1",
+    "ru085freeze.py": "0f86a9fbf5bc488c91c643a2bf6aadc4ff675b7d60c2997981cd160099f02b93",
+    "ru085adjudicate.py": "cfb9940de71740e308d2e969459f675bad1f552678ade3576c660dac9ca6113c",
+    "ru083draft.py": "d1da41863b5eb5c132b872c0832043812c10b35bb5a4cf60be9e726944331863",
+    "ru076write.py": "eb86e33f6cad81f2411b850a000787d3b554eb93591edfb260d7af3365abc5b9",
+    "ru-085-author-source-adjudications-001.json": "d98516c41cb26447eae536bd07d4a3ea07d93cfb16c8dabbe4a440e0ae7dd6eb"
+  },
+  "actualAuthorWholeFrozenPrimaryReading": {
+    "batch": "085-separation-effort-truth-answers-parents-and-topics-kanji",
+    "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "russianBaselineSnapshot": "04ab33565b7a19f59aa954eaa2294b08c850f109",
+    "actualWholeFrozenPrimaryBodies": 6,
+    "actualSuccessfulIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "pendingIndices": [],
+    "complete": true,
+    "actualPublicReturns": [
+      {
+        "eventId": "285cc2c3-d2d9-43b4-9f38-48dfb48924e0",
+        "actualPublicReturnBytes": 9991,
+        "actualPublicReturnSha256": "f34558a821bfc4d16e9c4d7628a9829da412654d48fbc09a8ef12865472e8469",
+        "journalRecordExcludingLfSha256": "d6c501023ccf55b210f4b83b952e1b204b42bbf29d971e7c236f381885c9443e",
+        "entireBoundPayloadCompared": true,
+        "windows": [
+          [
+            "0",
+            "6"
+          ]
+        ]
+      }
+    ],
+    "boundary": "EntireactualsuccessfulfrozenENprimarypayloadscompared,notmarkersalone;NOTRUauthoring/independentreview/sourceacceptance."
+  },
+  "actualAuthorWholePreparationReading": {
+    "schemaVersion": 1,
+    "batch": "085-separation-effort-truth-answers-parents-and-topics-kanji",
+    "authorAgentId": "82d8c565-bf98-4bd7-815d-8c0b8369e79a",
+    "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "russianBaselineSnapshot": "04ab33565b7a19f59aa954eaa2294b08c850f109",
+    "sourceEvidenceBindingRawSha256": "1cd33d33f5496439e5f238d074f81b4be85330645450a67f4810b1379b3612cb",
+    "metadataPrimaryCaptureRawSha256": "bd6284769908b881828b0a0bc104aa8cedfcaf363cf60b11399db234a09abf8a",
+    "kanjipediaCaptureRawSha256": "bef4ee458e68164f176f05c2684835d2e68b36ca007bff3fb678b291f52c0f63",
+    "actualSuccessfulCoverage": {
+      "primary": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pair": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "comparison": [],
+      "metadata": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "radical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "object": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181
+      ],
+      "kanjipedia": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "actualSuccessfulLineCoverage": {},
+    "pendingIndices": {
+      "primary": [],
+      "pair": [],
+      "comparison": [],
+      "metadata": [],
+      "radical": [],
+      "object": [],
+      "kanjipedia": []
+    },
+    "actualWholeTeachingBodies": 84,
+    "actualWholeOfficialSourceTextUnits": 229,
+    "actualAdditionalWholeProviderHeaders": 1,
+    "actualSuccessfulReaderCommands": 44,
+    "actualSuccessfulReturnEvents": 44,
+    "actualHeaderPublicReturns": [
+      {
+        "eventId": "d061b04b-7714-4a2b-8a22-354689999473",
+        "toolCallId": "call_JvHMUIu48mSq9RDmalslUDGp",
+        "actualPublicReturnBytes": 2157,
+        "actualPublicReturnSha256": "330ef0359aa732ce1113eec130d21842db052b219a835382ec36e89cc347a457",
+        "journalRecordExcludingLfSha256": "12113100a545282cd13c1896a4a75db64f9bb2969cc1280f75a06481f8a5c061",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      }
+    ],
+    "actualSuccessfulPublicReturns": [
+      {
+        "eventId": "285cc2c3-d2d9-43b4-9f38-48dfb48924e0",
+        "toolCallId": "call_vXVdHGCpjAetXBW6QMSFNnKZ",
+        "actualPublicReturnBytes": 9991,
+        "actualPublicReturnSha256": "f34558a821bfc4d16e9c4d7628a9829da412654d48fbc09a8ef12865472e8469",
+        "journalRecordExcludingLfSha256": "d6c501023ccf55b210f4b83b952e1b204b42bbf29d971e7c236f381885c9443e",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "primary",
+            "0",
+            "6"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "d061b04b-7714-4a2b-8a22-354689999473",
+        "toolCallId": "call_JvHMUIu48mSq9RDmalslUDGp",
+        "actualPublicReturnBytes": 2157,
+        "actualPublicReturnSha256": "330ef0359aa732ce1113eec130d21842db052b219a835382ec36e89cc347a457",
+        "journalRecordExcludingLfSha256": "12113100a545282cd13c1896a4a75db64f9bb2969cc1280f75a06481f8a5c061",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "c85b691f-a569-4a0e-b21b-b01274c838d1",
+        "toolCallId": "call_gWViB8I7fVlWZS7Fn1dUMk6l",
+        "actualPublicReturnBytes": 721,
+        "actualPublicReturnSha256": "584825b7f8ed638128eba0d67006b64b79f1af430caa50482ce16434f64bf46a",
+        "journalRecordExcludingLfSha256": "63a0a2ff0574d0a288532409bff6ce53b4cc77d9e6acc7f495e4f1a9999fd03e",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "radical",
+            "0",
+            "6"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "651c1203-08ca-46fa-93a6-d0d66f0fd7f3",
+        "toolCallId": "call_CL18PV5e7rzNfOrsATbnsA8G",
+        "actualPublicReturnBytes": 5927,
+        "actualPublicReturnSha256": "e1a19796a07857ada32c35a0a9d0669572d5021e3e176ab5612b88c14fb7bf33",
+        "journalRecordExcludingLfSha256": "285539ab9c5c43fe1f66f641b0ac4fd313d2d5e30dbb8c364e7c46d1caf7ed99",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "kanjipedia",
+            "4",
+            "6"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "839c39dd-084d-4ac4-8617-dfddb51f6b2f",
+        "toolCallId": "call_25hZbo4JV4xdZfN8ylE53BMN",
+        "actualPublicReturnBytes": 9785,
+        "actualPublicReturnSha256": "8f4a016f9dd805a305e2d3958b1e13750631095b2b8804e3a880a54dcada4628",
+        "journalRecordExcludingLfSha256": "f080148f7eb324a109b587cb5d49d2b5efc9b731a2330e8e7c80afa79b9fa3d8",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "kanjipedia",
+            "0",
+            "4"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "0e854370-ff3c-4f80-966f-47fe50da9208",
+        "toolCallId": "call_iS8eA2S4Ivzvnsh8dX0mRfQB",
+        "actualPublicReturnBytes": 12535,
+        "actualPublicReturnSha256": "8d270643a6aa76f9d2bacafe2d77e887f541b477b8077a18bcf37e99b1c8dde2",
+        "journalRecordExcludingLfSha256": "257f84e2100a3fba5f69e29ab9ffcf1e6b1f74a66e1565310d29c3a1ffaa198a",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "metadata",
+            "0",
+            "4"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "3dac7918-bac8-4200-be26-7ee62262589c",
+        "toolCallId": "call_pfi14nkOXVnG10z1mCvrbYlk",
+        "actualPublicReturnBytes": 11515,
+        "actualPublicReturnSha256": "afeb96146fc5144f126fc809e148f41698dd85babe85df8bc3a5dc987b4695bc",
+        "journalRecordExcludingLfSha256": "d23351de7b0d15b9d8be6e8a97efcae744f8edfe1fe673cba1b8b76416ef124f",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "metadata",
+            "4",
+            "8"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "ba48e71e-fd93-41b6-b157-d8cce1dded4f",
+        "toolCallId": "call_lFt4r30Dwr27DVirBLXV6T6w",
+        "actualPublicReturnBytes": 10951,
+        "actualPublicReturnSha256": "418629fd3c59fadad970c66bc8908379054511184a5da87e553d992f87ce6dac",
+        "journalRecordExcludingLfSha256": "7182f81df0cac81f7b8b3df8b5fe8f09e1f3b6862d4360a274e919559e996dd2",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "metadata",
+            "8",
+            "12"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "58c81be0-7108-4ae4-b7a5-701e3a6d7aa3",
+        "toolCallId": "call_IoRnhf0LBjfJR1anVzZ7wApH",
+        "actualPublicReturnBytes": 10273,
+        "actualPublicReturnSha256": "153510bf9d61643ae4b4e822cab8e0093fab0ba06647681667e4699d13b7d9e6",
+        "journalRecordExcludingLfSha256": "eb9f1eafe5a57d5e47152665e1eb438a1468c977dd59a50e0f0a722470312031",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "metadata",
+            "16",
+            "20"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "1a1a7a43-b12f-4bce-93da-445343e533e3",
+        "toolCallId": "call_FGlYKhTAVqnVSigd1S2CWSFQ",
+        "actualPublicReturnBytes": 11342,
+        "actualPublicReturnSha256": "870917d6e01bf9f9c13aebdb561d615c13b979116e1534936a38c57133f9a26b",
+        "journalRecordExcludingLfSha256": "e424f216ad7a61c871a240a7554825178390d73d24279eced883a6256589d756",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "metadata",
+            "12",
+            "16"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "3e98a77d-b48e-49d2-8e10-eab37618e10d",
+        "toolCallId": "call_rxvQ1tTWr28fPElfBV6zyXyP",
+        "actualPublicReturnBytes": 11341,
+        "actualPublicReturnSha256": "37e807d1178a6134ebd561695a70a39a39260948ded04b6373bf4a22421ae6fa",
+        "journalRecordExcludingLfSha256": "b5bde6d9c25f2f24e3ac8389642f74da3cf0529e487d1c0f076199868226708c",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "metadata",
+            "20",
+            "24"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "9d3a7e73-5c61-425a-b9fb-db2592bd1b2c",
+        "toolCallId": "call_PCJRMHizwnY4x6vSfU5ceUOn",
+        "actualPublicReturnBytes": 11753,
+        "actualPublicReturnSha256": "3a3c6d35aecb18abc91c2bce8dc1a01089140ca94b2dcc73d744624f54c12102",
+        "journalRecordExcludingLfSha256": "e08da4ae0f29753d2359fd321f990434fef576910a76be2aed131c1be7c8c142",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "metadata",
+            "29",
+            "33"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "23e2951b-060d-4d24-a724-854b29bac852",
+        "toolCallId": "call_rvEk8LMg8kcBmKJhIhhga97z",
+        "actualPublicReturnBytes": 4034,
+        "actualPublicReturnSha256": "2fc54c14af7990c529ce6a3dff326789e68590c110fd42940ff85440b17d6945",
+        "journalRecordExcludingLfSha256": "318eb1f6b92919519e15935b3f88129a11e36b198de7d5f235319bea99016296",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "metadata",
+            "33",
+            "35"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "74a6f705-66d2-4117-b757-03bddd7d4506",
+        "toolCallId": "call_IX0Wg8r5fQjHcRXskM3NlGnu",
+        "actualPublicReturnBytes": 12105,
+        "actualPublicReturnSha256": "a7b3f44846fec505c6ce6cd1c2974395cbd4a5570558ab8177f0133beae2dd0e",
+        "journalRecordExcludingLfSha256": "a66c3686bbaf8ae8339f5928b665424eb0966673a296b39c5ebb9afc5347ddb6",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "metadata",
+            "24",
+            "29"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "fdca25fc-d218-4106-8960-9987f2355cb8",
+        "toolCallId": "call_cam7U1p8TnnZTpceFEtLDZAU",
+        "actualPublicReturnBytes": 11830,
+        "actualPublicReturnSha256": "df28182810be5df01b2bb12466de451afedbe0ec2627cbc7237e3004c715759b",
+        "journalRecordExcludingLfSha256": "e17d41aa8235e7454edf63caf38a5fc50df49933fc1970147f816f41849b96ee",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "object",
+            "0",
+            "24"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "23d4e705-1a7c-4c9b-b4e6-1c787e79f06d",
+        "toolCallId": "call_VG0ohBYF5qJvLlrdYQ50bzgp",
+        "actualPublicReturnBytes": 12334,
+        "actualPublicReturnSha256": "dbccf91f4041a84111d7520e93d7b68622f59e21b2858a519d84f78def9b6596",
+        "journalRecordExcludingLfSha256": "761168529e4d0e7cb27f0877a49c5bf6cfa4c738510ded23a5ae58cc862e6704",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "object",
+            "24",
+            "44"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "890ff271-3954-4572-9e44-36d4cfc5a82a",
+        "toolCallId": "call_G5VPqk9RQwqa1kv1iffmgiul",
+        "actualPublicReturnBytes": 11962,
+        "actualPublicReturnSha256": "4fe1aa393b6386c19dd9fe98ee4a3e9038cf6f08299b892d71687292f7e42540",
+        "journalRecordExcludingLfSha256": "b3864346e9ba0fe305a70db12f40a37756557ace0f5c3d7fffe6545f9c404972",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "object",
+            "44",
+            "69"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "0f40fa42-779f-4579-a8eb-b5d4847fe9de",
+        "toolCallId": "call_EvGZsWEKAqJhSPnqoehV1f64",
+        "actualPublicReturnBytes": 11693,
+        "actualPublicReturnSha256": "c7500493ab6c7cde41add00cf62da15c6c9a88dc6bb47c0906189c36446ca485",
+        "journalRecordExcludingLfSha256": "b36214b0ab844cab2204974699b35627f037bb91e4bbada8a89d2ddac28686d1",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "object",
+            "69",
+            "89"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "38afe86f-9b60-4741-91ee-e620badaf763",
+        "toolCallId": "call_t8sizl8UtGvWgZqpSOJERBz3",
+        "actualPublicReturnBytes": 12357,
+        "actualPublicReturnSha256": "2540222b30bd93bc3c6a29c25d0fac11a70080de5bd31d5e93540100ff5472b5",
+        "journalRecordExcludingLfSha256": "4d67f50feecdb43b7a561208678410c55cb0f3fa7c23c1c75b0084127acfbdf2",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "object",
+            "89",
+            "110"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "48e8dbab-88eb-49b0-979c-05860f717b6c",
+        "toolCallId": "call_ekKNAgrDOIJpUjCb49WmqFs7",
+        "actualPublicReturnBytes": 12385,
+        "actualPublicReturnSha256": "59cd62d4115afca5066dbd1201f4d4fe6d737c9226e2ea0c17832f89dab7fd4f",
+        "journalRecordExcludingLfSha256": "84d91807ae135d8490ae0c1fc03192c86dffbdea4d99f66e60767f03027f6639",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "object",
+            "110",
+            "131"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "de440090-29aa-496d-8d03-c8287efda5b6",
+        "toolCallId": "call_5xoZQiiVj5iYN7mTOR2KLBrc",
+        "actualPublicReturnBytes": 11461,
+        "actualPublicReturnSha256": "0798a01fef1d3261acd03c2d616c77966b929d6c0cc61ee7bb2260a2796b908b",
+        "journalRecordExcludingLfSha256": "74577a00f166b412cb2a69ece90999d545083edd5a446d8e441feb7be32836fc",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "object",
+            "153",
+            "182"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "8afb74c0-7182-4839-8281-f0b0688f2b7d",
+        "toolCallId": "call_HOWk7lwvTavPnZMMiHXSQdJR",
+        "actualPublicReturnBytes": 12344,
+        "actualPublicReturnSha256": "11ce5c46cee4e63fb92db49eecacf1d5ba12c54a7c736ea228aed4199e14f263",
+        "journalRecordExcludingLfSha256": "f293c915b52fd529e311afb2a3c25ab6091db0fbeb6375340553c41ab8138ee8",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "object",
+            "131",
+            "153"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "e929677f-1505-4e74-b000-a2263824b7aa",
+        "toolCallId": "call_Tgq9LTQg6DBRpYEKothPoOco",
+        "actualPublicReturnBytes": 6510,
+        "actualPublicReturnSha256": "c76acd516bf4ba491253c190a6ed403b93c9b256ab2e35e0be1f875819548900",
+        "journalRecordExcludingLfSha256": "3c9e10ec38ba80be3c9d2c620b236226e31d570752c0f3d252e3cd8d9d13f369",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "pair",
+            "2",
+            "3"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "91268a49-dbb0-417c-b664-5f7d45ba6616",
+        "toolCallId": "call_SIxgPGtV5WIEu5gjLWBA7DJd",
+        "actualPublicReturnBytes": 7277,
+        "actualPublicReturnSha256": "9fbcf37aa6c3b919b4a332f5045ed38f20d3bff18f3a36760e899621ae1c811c",
+        "journalRecordExcludingLfSha256": "1ac30ccafdfee5e2c1b6ad420591b9e4aacd5cde5b37ce4175f0d68adce9718a",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "pair",
+            "1",
+            "2"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "09fec359-4cbd-4b04-9e46-326033d3c857",
+        "toolCallId": "call_AVYaEZWIk8EF9gdgjMTlD7TX",
+        "actualPublicReturnBytes": 5767,
+        "actualPublicReturnSha256": "31a5aec643d31b5f27da744a2e9cd99b877063f87ac585d9585ceddd1eb06358",
+        "journalRecordExcludingLfSha256": "bc8446d18ce0bea566cc7926d7f63cb6c801552f8605d8300b13e535649ee851",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "pair",
+            "0",
+            "1"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "9520d1a7-7a11-439f-818e-657c61b7cdbc",
+        "toolCallId": "call_eY1xrQ6NFCGgjByQes0DQ04E",
+        "actualPublicReturnBytes": 6543,
+        "actualPublicReturnSha256": "9284b126cccde2f9b94de7454af8bf25ef780cc5da3b055ff7a2519d8dd68474",
+        "journalRecordExcludingLfSha256": "a48ad8dcf96088c7d0b0834cff3d88684561b65df6a8a5e29adcb03ca735e6dd",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "pair",
+            "4",
+            "5"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "0ca0dbb6-b3aa-4cd9-a1eb-b8e4ea46685d",
+        "toolCallId": "call_MY1ur846JHf4Tnhb5eXQtHAH",
+        "actualPublicReturnBytes": 6206,
+        "actualPublicReturnSha256": "7e6e085a6d1b2b473b46ca79cfa9999205b91084868e24546c68ccfd921914d6",
+        "journalRecordExcludingLfSha256": "8210b75681b6f5236bf7cd27b65eb0f84a347628235c4fc56565bb88c8f75334",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "pair",
+            "3",
+            "4"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "60e65f5c-1b44-45c4-90e2-9c5e6a3a17e9",
+        "toolCallId": "call_aXlQqs7ClfFkDRrlXezHpro9",
+        "actualPublicReturnBytes": 10780,
+        "actualPublicReturnSha256": "91beb56bf333f37b40583cb956bca55c9be75531f9012dd4c67e8325bdf3b84e",
+        "journalRecordExcludingLfSha256": "4f16702ae80bc3db11dc47091aad703918052b00250bb60c55a026870cc324a6",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "pair",
+            "5",
+            "7"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "f288c355-97d5-4133-9cc3-675fe829fa8d",
+        "toolCallId": "call_sIkJyW4zA5i5cbZQ6qnBLDaL",
+        "actualPublicReturnBytes": 5907,
+        "actualPublicReturnSha256": "4ba8bc1fa6cbdfad03279fdcd030d4bff4ca485f863eddd17feb00d3f308638a",
+        "journalRecordExcludingLfSha256": "63330040a8f51c4e333e6d2d28deebd49dd0d2eb7026e6ce900d0b44fa3345aa",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "pair",
+            "11",
+            "12"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "6fe27525-2776-43f6-a3d8-8160a01a83c1",
+        "toolCallId": "call_juCG0zGjSSYvWOxu2fO2sr1M",
+        "actualPublicReturnBytes": 11944,
+        "actualPublicReturnSha256": "fa9b92c25b4d63ef960eab93b504d988d1ce2aa0bdd730736ecfffa866ace3f3",
+        "journalRecordExcludingLfSha256": "495ea4ac24517487d415050e59116eb5962a75b0fe66e1419997aa00918527d0",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "pair",
+            "9",
+            "11"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "c8b1442e-d917-4f3c-bc99-e2c9adc8b77a",
+        "toolCallId": "call_ueVPx5Rw1MiLbCEWr1W2hmaK",
+        "actualPublicReturnBytes": 8653,
+        "actualPublicReturnSha256": "a72200af1ebe3ae5fb565c8573b9afa8aac07ea0d1e548e1b8cd1e0a72d1a408",
+        "journalRecordExcludingLfSha256": "e6611ab7d76b7ba4cb3b7684116f981a287de984e9fecb0b9f0eaf7c65600f42",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "pair",
+            "7",
+            "9"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "4ae6bfa0-6acf-4a7c-81d1-6b8ccb3aa11b",
+        "toolCallId": "call_wYvb2tJUaeYqoOsdwHCayQgW",
+        "actualPublicReturnBytes": 10359,
+        "actualPublicReturnSha256": "f595b0764ff5648952682f018cbbd097584dec5a12fbea2996d9a95ee457a47b",
+        "journalRecordExcludingLfSha256": "94caf8672b86427511d02620bd835bc3228e6cc219e4093a81583fb2ad04016e",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "pair",
+            "16",
+            "18"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "1f9b12c4-06e9-4e63-9054-ac56e223d6f3",
+        "toolCallId": "call_Nr9V6C2DRDDG2On2oMVxAUho",
+        "actualPublicReturnBytes": 8248,
+        "actualPublicReturnSha256": "8fbfc918faf65c62c5d2155d974db75db1bed52612dbb64161bc19b84d3a7931",
+        "journalRecordExcludingLfSha256": "b381efce477a8ab3ade34cca1ab2cd8c0fe718538fbea56b64ab2f5962fcb9af",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "pair",
+            "14",
+            "16"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "9e7f1bbf-d70f-4ea5-8d08-fe6cc50ac699",
+        "toolCallId": "call_ZQ6j1zp2S3n7CE1zMtgY6NNT",
+        "actualPublicReturnBytes": 12367,
+        "actualPublicReturnSha256": "e0da46fa4ebabf51e3b294ccad25a5306e22a7c9a68c7d72d4e37ebfe25e3c62",
+        "journalRecordExcludingLfSha256": "159960e8439f4476b7675c4d54dfd1c828db265153ac4f5c22fe2a256e835816",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "pair",
+            "12",
+            "14"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "73969be2-373e-4d47-a589-0e99b9b5d2c7",
+        "toolCallId": "call_cCv4alEuWq2ij8gNYjmGlc1e",
+        "actualPublicReturnBytes": 11310,
+        "actualPublicReturnSha256": "33133bcbe792ca3a51188a5d7df081770146ed00a5a8ae88c29e77f5289d9d4d",
+        "journalRecordExcludingLfSha256": "9f1ee00a581ef4c6eccd9e5bacb2b038c015df76eff5a545c1bd9897f532c341",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "pair",
+            "18",
+            "20"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "9832161a-aac6-463b-a493-6ad73df53780",
+        "toolCallId": "call_rcxHVR8ffFV0vEka3I0NWEVK",
+        "actualPublicReturnBytes": 10063,
+        "actualPublicReturnSha256": "af0eb0844bc77d936db80d7777ceed6672efcc1d316d39e1a61e5701771d1928",
+        "journalRecordExcludingLfSha256": "fd0599fb72059402e0b25cbdeb0e64770a522d097a41d701795ad56879125040",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "pair",
+            "20",
+            "22"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "b27bca34-a414-40c9-bd0e-4a34b2b3d28f",
+        "toolCallId": "call_ZBL4CDQyMldpC6KxcTqWZ8A4",
+        "actualPublicReturnBytes": 10906,
+        "actualPublicReturnSha256": "6599731e05629b5b5ad29437b43ee138409a3052afde50b95ca392c040067f18",
+        "journalRecordExcludingLfSha256": "c325062be5aa1e62b13f7d5886c9f4b5a8fa615251f26be7c80b39dc1c886844",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "pair",
+            "22",
+            "24"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "823fce6e-f1b5-4670-8957-6d7ce87c5fdc",
+        "toolCallId": "call_RBkfUzny65QM6Cx3fjlXxvJG",
+        "actualPublicReturnBytes": 8389,
+        "actualPublicReturnSha256": "64447c0ef6aa92684769f3b8612967fbc82c3e68ab69600824835b73c4a09875",
+        "journalRecordExcludingLfSha256": "9f6ef84790b4fbb115615d3ae41becb074901255363ea9346c6fddb6a3589c75",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "pair",
+            "27",
+            "29"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "34a7e3e5-a76b-442c-9418-478cc62efcd6",
+        "toolCallId": "call_ZPX5Q27CR6rKEDRpJsdzUAsU",
+        "actualPublicReturnBytes": 9503,
+        "actualPublicReturnSha256": "b4b374aa870187994f4b0bec440ac7965ed32b52be3fd17fa843f64c6af2c3b3",
+        "journalRecordExcludingLfSha256": "8462cdc63743419c0e9c5d4ba4ec82a555b9f4322c39e3c485b1905a24c02eca",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "pair",
+            "29",
+            "31"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "09898a23-cdf8-4ddf-84ef-ab090a83f29d",
+        "toolCallId": "call_XQYOOwP9lYHFV7lPNnwaxC8I",
+        "actualPublicReturnBytes": 12062,
+        "actualPublicReturnSha256": "7bb55d0a9e985d56afd5a074f70c4d2a440809722e2ddcbbbb72bb548abb366a",
+        "journalRecordExcludingLfSha256": "c335fe40d9ce4e29b6cf4963b65defd858340ac8b00273e4bb98bb1d95672aec",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "pair",
+            "24",
+            "27"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "a87c8113-5e7e-4e76-bd33-e1768d807dfa",
+        "toolCallId": "call_EfneILxyH86AzpRRKAdLRqCh",
+        "actualPublicReturnBytes": 8676,
+        "actualPublicReturnSha256": "5238ee054a8b4586a8c8d6f2c347a59d1712bda2b95f9be6264e9f95ffe735d3",
+        "journalRecordExcludingLfSha256": "d628155e203da3f344196a98b7cf0ce17bc60fdd4843fee32d219809e6928d94",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "pair",
+            "36",
+            "38"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "eb3256bd-8ab0-422a-b1cf-8fa965f52bff",
+        "toolCallId": "call_49eOHAuNQrxeUxQI4SXk5uuY",
+        "actualPublicReturnBytes": 4724,
+        "actualPublicReturnSha256": "5c3fca91287553e8ee047fbd5e51cd35b9ed2a2dd039a4c05805081d4441026e",
+        "journalRecordExcludingLfSha256": "9f8c9f713d3e809989c369f1e56637a22740490b03c6f3327bc96487660a7c25",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "pair",
+            "38",
+            "39"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "e681c485-f6af-4dc2-ae17-cd5edfadbbfb",
+        "toolCallId": "call_FcO6LOsQ2KNwIB60fIUphC2P",
+        "actualPublicReturnBytes": 8949,
+        "actualPublicReturnSha256": "ce33556171aeacad43fa914d19008cfdaf3b7222fa737154d4e6768b876647cf",
+        "journalRecordExcludingLfSha256": "0950233f9bf6d5d05578d7a526eca1cf0553d5a59588a2fb9a86959b8c373a18",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "pair",
+            "34",
+            "36"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      },
+      {
+        "eventId": "084a5025-b6a3-4b9d-bd2e-e9bcb4bbae05",
+        "toolCallId": "call_pJnj2byBCYTaMRwWxN3RvvAq",
+        "actualPublicReturnBytes": 11793,
+        "actualPublicReturnSha256": "d71d2b52289e8f3ef58d4c7e3e79c53db1f91e7dcf563ed72a29a5c391956fa6",
+        "journalRecordExcludingLfSha256": "07540f7ccdf8f7af102d7cd622e9395acadb6026c9cbfd79636ac941f254e9e9",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "pair",
+            "31",
+            "34"
+          ]
+        ],
+        "lineWindows": [],
+        "actualSuccessfulReaderCommands": 1
+      }
+    ],
+    "dictionaryGlyphPixelViews": 0,
+    "allRequiredPreparatoryReadingComplete": true,
+    "boundary": "Entire successful bound payloads and complete oversized line unions compared, not markers/capture counts/snippets alone. Complete preparation: 84 teaching bodies = 6 frozen EN primaries + 39 complete baseline EN/RU pairs; 229 official TEXT units = 35 whole KANJIDIC records + 6 Unicode rows + 182 whole ordered JMdict objects + 6 whole visible KanjiPedia entries; one whole provider header counted separately; zero dictionary-glyph pixel views. Multiple successful reader windows in one event remain separate commands, not separate events. Components are not runtime providers. No prospective 261-row metadata reading, Russian authoring, independent review, ordinary-quiz suitability, media approval, activation or source acceptance implied.",
+    "sourceAccepted": false,
+    "ordinaryActivationAuthorized": false,
+    "fullTaskComplete": false,
+    "continueRequired": true
+  },
+  "actualAuthorWholeSupplementalLexicalReading": {
+    "batch": "085-separation-effort-truth-answers-parents-and-topics-kanji",
+    "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "russianBaselineSnapshot": "04ab33565b7a19f59aa954eaa2294b08c850f109",
+    "authorAgentId": "82d8c565-bf98-4bd7-815d-8c0b8369e79a",
+    "supplementalCaptureArtifact": "ru-085-supplemental-lexical-capture-001.json",
+    "supplementalCaptureRawSha256": "5bdea7fb59fce5c3c643d86430268913be2b7592088b15b0e5fdea19e2205e01",
+    "actualWholeOfficialSupplementalTextUnits": 3,
+    "actualSuccessfulReaderCommands": 1,
+    "actualSuccessfulPublicReturns": [
+      {
+        "eventId": "06205e50-ef09-4d1d-ac0d-1d2e1399e811",
+        "toolCallId": "call_jbNyCb4R53CSKlRXxPE44OjW",
+        "actualPublicReturnBytes": 8623,
+        "actualPublicReturnSha256": "3a6845c7a0e38c935458f3e1b11e7df87a57ae9b3397b2d5ba2c60913a898522",
+        "journalRecordExcludingLfSha256": "932f3e44071ff1ba30f5a8358d9be7adaa43858e055a8018fb1609f4c79c54b6",
+        "entireBoundSuccessfulPayloadCompared": true,
+        "wholeWindows": [
+          [
+            "0",
+            "3"
+          ]
+        ]
+      }
+    ],
+    "actualSuccessfulIndices": [
+      0,
+      1,
+      2
+    ],
+    "allRequiredSupplementalReadingComplete": true,
+    "dictionaryGlyphPixelViews": 0,
+    "boundary": "Three additional complete lexical TEXT entries, separate from immutable 229-unit preparation receipt; no new teaching-body/pixel/frequency/review/acceptance claim."
+  },
+  "actualProspective261TypedRowsAnd15ExactPatchesReading": {
+    "schemaVersion": 1,
+    "batch": "085-separation-effort-truth-answers-parents-and-topics-kanji",
+    "recordedAt": "2026-11-08T06:14:59.756208+00:00",
+    "authorAgentId": "82d8c565-bf98-4bd7-815d-8c0b8369e79a",
+    "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "russianBaselineSnapshot": "04ab33565b7a19f59aa954eaa2294b08c850f109",
+    "poolBindingRawSha256": "762d49f3586a4c6f044af9ad0079fbf27c7009f13a61f7634266fb0a851fc334",
+    "proposalsBindingRawSha256": "14da042ed74459a4e063794868b217a15341ad53cfd9aa061e15a7c998241c1c",
+    "actualSuccessfulPublicWholeReturns": [
+      {
+        "eventId": "3788aa07-1d15-4df7-8d64-f124a8e38b9d",
+        "actualPublicReturnSha256": "a1e70e1a7aa14f1c02b8e190964e9cd095b9bd6fb03d65889e25baaa3e429154",
+        "actualPublicReturnBytes": 12211,
+        "actualReturnedWindows": [
+          [
+            "pool",
+            "0",
+            "27"
+          ]
+        ],
+        "journalRecordExcludingLfSha256": "a5860944e9c246319dbdb7871fc62a474c9bed6dd0b75198614e5757ec174a94",
+        "entireReturnedPayloadCompared": true
+      },
+      {
+        "eventId": "806b9826-49ee-4eb9-863a-3bbdc3e3fb52",
+        "actualPublicReturnSha256": "991795f40142a70278c917edc2d6d4cdf9c5052578fb4711204a0800af2b92e6",
+        "actualPublicReturnBytes": 12266,
+        "actualReturnedWindows": [
+          [
+            "pool",
+            "27",
+            "54"
+          ]
+        ],
+        "journalRecordExcludingLfSha256": "6fe4a7f9b521cbef7193fc8c3dab61a55c5b68c3a145aec5716bda8585dc9e29",
+        "entireReturnedPayloadCompared": true
+      },
+      {
+        "eventId": "686848e9-eade-4f2c-b81e-15b6e50577e3",
+        "actualPublicReturnSha256": "e43b2f7b775011399139eeeb8f0fadab39a818ac084cdfc194923400859cf0c5",
+        "actualPublicReturnBytes": 12550,
+        "actualReturnedWindows": [
+          [
+            "pool",
+            "54",
+            "83"
+          ]
+        ],
+        "journalRecordExcludingLfSha256": "c839aa22db4ef1ef97e1fc2084dd637930c5ac5ef7dfc02d04fcca2b97466861",
+        "entireReturnedPayloadCompared": true
+      },
+      {
+        "eventId": "5c557cb1-803e-484c-8fbc-98fb68c490b5",
+        "actualPublicReturnSha256": "b2fdecc5db992d29b9ee12564f495fea1577da184fda57942bc414b9ed59ffd8",
+        "actualPublicReturnBytes": 12168,
+        "actualReturnedWindows": [
+          [
+            "pool",
+            "111",
+            "138"
+          ]
+        ],
+        "journalRecordExcludingLfSha256": "dee1f06a74872ef2c6cac9605ad549f2f5147e5779fe7d84030b9224ac86b755",
+        "entireReturnedPayloadCompared": true
+      },
+      {
+        "eventId": "774e52eb-d0c5-4c79-b233-ab310641ac70",
+        "actualPublicReturnSha256": "4a3e9094c7d989c4ce416985509f031625251801a80b9258d6be50d73d786f32",
+        "actualPublicReturnBytes": 12463,
+        "actualReturnedWindows": [
+          [
+            "pool",
+            "83",
+            "111"
+          ]
+        ],
+        "journalRecordExcludingLfSha256": "9370b121c105f878d6e7e6759262b02410a344929f1a03eb9587dad834c7d8b0",
+        "entireReturnedPayloadCompared": true
+      },
+      {
+        "eventId": "88ddc785-cd03-449a-b5a0-8445a4e63503",
+        "actualPublicReturnSha256": "3c598e6c697ac832acf80d1dc2d65e5924ae6515b9d926166f26ac6f473d5d64",
+        "actualPublicReturnBytes": 12244,
+        "actualReturnedWindows": [
+          [
+            "pool",
+            "138",
+            "165"
+          ]
+        ],
+        "journalRecordExcludingLfSha256": "479dfe698326ec92d90dbb4df6b0d59fe96ee888e10ac753b692171999b59054",
+        "entireReturnedPayloadCompared": true
+      },
+      {
+        "eventId": "181bcc54-2496-43da-b0f8-488110f1f9bf",
+        "actualPublicReturnSha256": "ca26e5b214a37a34ad6b3a9066c1e7291d6c52af5feb347a101b8be77cc3cf14",
+        "actualPublicReturnBytes": 12532,
+        "actualReturnedWindows": [
+          [
+            "pool",
+            "219",
+            "246"
+          ]
+        ],
+        "journalRecordExcludingLfSha256": "30ac33c816e2000edacbd6ab53b040a1c8a605811d6afdf00d7aab283eac5bc2",
+        "entireReturnedPayloadCompared": true
+      },
+      {
+        "eventId": "16a33626-53b5-44b5-8b2f-5a31306db55b",
+        "actualPublicReturnSha256": "60a68611a8e09fdd5f41e67bb58bc85a09ab9d97442d198e972ecf7b35e4538b",
+        "actualPublicReturnBytes": 12304,
+        "actualReturnedWindows": [
+          [
+            "pool",
+            "165",
+            "192"
+          ]
+        ],
+        "journalRecordExcludingLfSha256": "730d50497c6fa46a1cad91999455028e51361b961cb15a8fcb145e29a74c85c1",
+        "entireReturnedPayloadCompared": true
+      },
+      {
+        "eventId": "c87aa74a-350c-4436-8345-cc6d28db9736",
+        "actualPublicReturnSha256": "871be65cae3c192f1015f15e50984f1178a703aadd4b9897efc1d34c00c6e597",
+        "actualPublicReturnBytes": 12172,
+        "actualReturnedWindows": [
+          [
+            "pool",
+            "192",
+            "219"
+          ]
+        ],
+        "journalRecordExcludingLfSha256": "828fbdf0205f4a0465745844429e4ff66a89e7ed83a2ae36f38737eba1930511",
+        "entireReturnedPayloadCompared": true
+      },
+      {
+        "eventId": "599cc85f-71c8-42c9-86b6-35ce590eeb14",
+        "actualPublicReturnSha256": "80c4f5b55f981cd52c8c365b435bdda22e085f269e4a714df58b72aa65d19cf1",
+        "actualPublicReturnBytes": 6746,
+        "actualReturnedWindows": [
+          [
+            "pool",
+            "246",
+            "261"
+          ]
+        ],
+        "journalRecordExcludingLfSha256": "ee3c0d98b00e389c85649a604d1886da3e2c1fa9bdd1481d80fba152a0699900",
+        "entireReturnedPayloadCompared": true
+      },
+      {
+        "eventId": "34804ac0-0167-4e0e-bcde-729d051589e2",
+        "actualPublicReturnSha256": "a7df389ea5a6ce2be9de83a34957fafd208b2cdd4b9a079356eeef1e60700c62",
+        "actualPublicReturnBytes": 11404,
+        "actualReturnedWindows": [
+          [
+            "navigation",
+            "0",
+            "15"
+          ]
+        ],
+        "journalRecordExcludingLfSha256": "5625eb77d655de4a1bc70fcb438c0e0136efd41724048282f8aa03cc81dc6a04",
+        "entireReturnedPayloadCompared": true
+      }
+    ],
+    "actualWholeSuccessfulReadIndices": {
+      "pool": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260
+      ],
+      "navigation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    "actualWholeSuccessfulReadCounts": {
+      "pool": 261,
+      "navigation": 15
+    },
+    "allProspectivePoolAndWordPatchEditsActuallyRead": true,
+    "scope": "Entire261 typed answer-metadata units and15 whole exact NAV-only patch-edit units/15wrappers; NOT261 whole lessons; NOT15 whole after-Russian bodies. 39baseline bilingual contexts bound by immutable085 preparation receipt, plus three separately bound supplemental lexical entries. All18original directions remain in scope; no direction altered or independently judged.",
+    "ordinaryFallbackQuizSuitabilityNecessityFrequencyGlobalFutureUniqueness": "UNVERIFIED",
+    "independentReviewOccurred": false,
+    "learnerFilesMutated": false,
+    "sourceAccepted": false
+  },
+  "currentCombinedPreparation": {
+    "wholeTeachingBodies": 84,
+    "completeBilingualContextPairs": 39,
+    "englishOnlyComparisonBodies": 0,
+    "wholeKanjidicRecords": 35,
+    "wholeUnicodeRows": 6,
+    "combinedWholeJmdictObjects": 182,
+    "wholeKanjipediaTextUnits": 9,
+    "originalPreparationWholeOfficialTextUnits": 229,
+    "additionalSupplementalWholeTextUnits": 3,
+    "wholeOfficialSourceTextUnits": 232,
+    "additionalWholeProviderHeaders": 1,
+    "dictionaryGlyphPixelViews": 0,
+    "futureWholeAssignedReviewTeachingBodies": 90
+  },
+  "actualSourceAdjudications": [
+    {
+      "id": "085-L001",
+      "subjects": [
+        "kanji/別.md"
+      ],
+      "authorDisposition": "SOURCE_BOUND_AUTHOR_PROPOSAL;INDEPENDENT_REVIEW_PENDING",
+      "actuallyReadEvidence": [
+        "Whole frozen EN/private RU; wholeKANJIDIC別/Unicode18/KanjiPedia別; whole1503000/1606590/1606600/1509430 and all39 contextual EN/RU pairs."
+      ],
+      "exactBoundedRuling": "Retain ベツ/わか.れる/わ.ける, seven strokes, 刀18, frozenN4 and all three directions. 別ける is attested as a rarely-used kanji spelling of わける; that spelling flag is not a word-frequency claim. Personal-parting 別れる versus 分かれる division is an introductory contrast, not universal disjointness. Modern 口/力/刂 mnemonic is not etymology.",
+      "scope": "AUTHOR_SOURCE_ADJUDICATION_PROPOSAL;NOT_INDEPENDENT_REVIEW"
+    },
+    {
+      "id": "085-L002",
+      "subjects": [
+        "kanji/勉.md"
+      ],
+      "authorDisposition": "SOURCE_BOUND_AUTHOR_PROPOSAL;INDEPENDENT_REVIEW_PENDING",
+      "actuallyReadEvidence": [
+        "Whole frozen EN/private RU; wholeKANJIDIC勉/免/Unicode19/KanjiPedia勉; whole1240820/1240825/2872052/1241060/1512670/2080160 and all effort/force/study contexts."
+      ],
+      "exactBoundedRuling": "Retain ベン/つと.める, ten strokes, 力19, frozenN4/all three directions. Whole1240820 flags 勉める and 力める as rarely-used written forms of 努める; 勤める/務める are separately bound entries, not erased. Remove unsupported most-useful beginner superlative. 力 effort sense is not automatically the offered strength/power meaning of forward 勉→力. Ordinary necessity/frequency and all-sense safety UNVERIFIED.",
+      "scope": "AUTHOR_SOURCE_ADJUDICATION_PROPOSAL;NOT_INDEPENDENT_REVIEW"
+    },
+    {
+      "id": "085-L003",
+      "subjects": [
+        "kanji/真.md"
+      ],
+      "authorDisposition": "SOURCE_BOUND_AUTHOR_PROPOSAL;INDEPENDENT_REVIEW_PENDING",
+      "actuallyReadEvidence": [
+        "Whole frozen EN/private RU; wholeKANJIDIC真/Unicode109/KanjiPedia真; whole1363180/1381160/1580555/1853530/2868540 plus two whole supplemental lexical entries 真ま and 真まこと and all photo/truth/centre contexts."
+      ],
+      "exactBoundedRuling": "Retain シン/ま/ま-/まこと, ten strokes, 目109, frozenN4/all three directions. Cover nounま separately from prefixま-; actual 真に受ける is まにうける. まことの is not an error inferred from the distinct しんの entry: whole lexical真まこと actually gives ―の道. Preserve まことに/まことの and explain separate しんに/しんの. No blanket formal-register/frequency claim or inspected historical-glyph picture.",
+      "scope": "AUTHOR_SOURCE_ADJUDICATION_PROPOSAL;NOT_INDEPENDENT_REVIEW"
+    },
+    {
+      "id": "085-L004",
+      "subjects": [
+        "kanji/答.md"
+      ],
+      "authorDisposition": "SOURCE_BOUND_AUTHOR_PROPOSAL;INDEPENDENT_REVIEW_PENDING",
+      "actuallyReadEvidence": [
+        "Whole frozen EN/private RU; wholeKANJIDIC答/合/竹/Unicode118/KanjiPedia答; whole1449530/1449540/1199160/1199680 and all answer/write/meeting contexts."
+      ],
+      "exactBoundedRuling": "Retain トウ/こた.える/こた.え, twelve strokes, 竹118, frozenN4/all three directions. Keep 質問に答える recipient/question role and 答えを書く object role; answer is not limited to written response. 解答/回答 introductory distinction is not an all-context ban. 竹/合/口 fitting-answer story is explicitly a modern mnemonic, not etymology or a 会 component.",
+      "scope": "AUTHOR_SOURCE_ADJUDICATION_PROPOSAL;NOT_INDEPENDENT_REVIEW"
+    },
+    {
+      "id": "085-L005",
+      "subjects": [
+        "kanji/親.md"
+      ],
+      "authorDisposition": "SOURCE_BOUND_AUTHOR_PROPOSAL;INDEPENDENT_REVIEW_PENDING",
+      "actuallyReadEvidence": [
+        "Whole frozen EN/private RU; wholeKANJIDIC親/Unicode147/KanjiPedia親; whole1365040/1365050/1365070/1365170/1365250; whole supplemental親しむ and all parental/closeness/kindness bilingual contexts."
+      ],
+      "exactBoundedRuling": "Retain シン/おや/おや-/した.しい/した.しむ, sixteen strokes, 見147, frozenN4/all directions. Whole1365040 parent sense does not attach to its alternative祖 because of stagk restrictions. Cover おや- in 親子 and distinguish Godan親しむ from adjective親しい. Retain frozen 本に親しむ: supplemental② supports general things through ongoing contact but actually quotes 土に親しむ, not 本に親しむ. Familiarity is not necessarily kinship or helpfulness; parental/closeness versus geographical近 is only an introductory contrast.",
+      "scope": "AUTHOR_SOURCE_ADJUDICATION_PROPOSAL;NOT_INDEPENDENT_REVIEW"
+    },
+    {
+      "id": "085-L006",
+      "subjects": [
+        "kanji/題.md"
+      ],
+      "authorDisposition": "SOURCE_BOUND_AUTHOR_PROPOSAL;INDEPENDENT_REVIEW_PENDING",
+      "actuallyReadEvidence": [
+        "Whole frozen EN/private RU; wholeKANJIDIC題/頁/Unicode181/KanjiPedia題; whole1415470/1415490/1536010/1562400 and all question/quality/parent/week contexts."
+      ],
+      "exactBoundedRuling": "Retain ダイ and exact emptykun array, eighteen strokes, 頁181, frozenN4/all directions. KanjiPedia additionally attests 音テイ; do not falsely attribute that to KANJIDIC or silently alter selected source inventory. Historical forehead meaning does not prove a selected kunひたい. Topic/title/exam question is not universally trouble. Evaluating and 質す questions do not settle forward offered качество/сущность or the reverse direction.",
+      "scope": "AUTHOR_SOURCE_ADJUDICATION_PROPOSAL;NOT_INDEPENDENT_REVIEW"
+    }
+  ],
+  "sourceDirectedNegativeEdges": [
+    {
+      "id": "085-N001",
+      "source": "別",
+      "distractor": "男",
+      "sourcePath": "kanji/別.md",
+      "distractorPath": "kanji/男.md",
+      "actualProposedSourceAnswerTitle": "отдельный; другой",
+      "actualCurrentDistractorAnswerTitle": "мужчина; мужской пол",
+      "sourceMetadataActuallyRead": {
+        "kanji": "別",
+        "title": "отдельный; другой",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-4",
+          "structure-unclassified"
+        ],
+        "strokes": 7,
+        "radical": "刀",
+        "radicalNumber": 18,
+        "onyomi": [
+          "ベツ"
+        ],
+        "kunyomi": [
+          "わか.れる",
+          "わ.ける"
+        ],
+        "distractors": [
+          "男",
+          "勉",
+          "帰"
+        ]
+      },
+      "distractorMetadataActuallyRead": {
+        "kanji": "男",
+        "title": "мужчина; мужской пол",
+        "jlpt": 5,
+        "tags": [
+          "jlpt-n5",
+          "grade-1",
+          "compound",
+          "starter"
+        ],
+        "strokes": 7,
+        "radical": "田",
+        "radicalNumber": 102,
+        "onyomi": [
+          "ダン",
+          "ナン"
+        ],
+        "kunyomi": [
+          "おとこ",
+          "お"
+        ],
+        "distractors": [
+          "女",
+          "人"
+        ]
+      },
+      "sourceOfficialWholeRecordRawSha256": "c722105152684bcc50586089ce7b1fce312e86723cbc3adfe4fa4c6360475030",
+      "distractorOfficialWholeRecordRawSha256": "8268a17c37891307cf7163a24d3e66a95c42b308819ac8c04b10fc8904ec722b",
+      "sourceProposedWholeRussianBodyRawSha256": "b5a87e15094906a55d22b7d47a5174ec9eb48cf7aac86d0811e4d88be4c39df7",
+      "distractorWholeBodyBinding": {
+        "currentCompleteBilingualContext": {
+          "path": "kanji/男.md",
+          "sourceGitRawSha256": "30b7bef0a314d081b4bd640887eee07933bbb71f4b7d739b5ddaef7eb0703edc",
+          "russianWorkingRawSha256": "8e56883ba92bf079f08c0e36f8d6819e544daa8e2a71a2f42490d2ed58bab82d",
+          "russianGitRawSha256": "8e56883ba92bf079f08c0e36f8d6819e544daa8e2a71a2f42490d2ed58bab82d",
+          "captureIsReading": false
+        },
+        "freshWholeBodyReading": true
+      },
+      "additionalWholeLexicalObjectsActuallyRead": {
+        "1419990": "b258ec2203630db6e1e534017d559d158f947ea060a5e4dbcd301ff943b64661",
+        "1503000": "a08278bdd2aca5dc23e614343ba98bd4ac1981b75b247d52d0ca00acc2758521",
+        "1509430": "668cf17f4cf5de8bc63a125adeba380394a6450fdea2938aa899a67e8977ac3a",
+        "1606590": "6ebfe43015d3944281b720782c1495abef1831db97e3c9a90d6e9ae596e4ffcb",
+        "1606600": "a3fc4588685c72d61e873117e2f7a7c0d5a477b82da86279b205ec69835e6e90",
+        "2259830": "d0102c1b8676ae5dbee2a6b2d07bf6278d0797ce17a1a502af05f3852dd5545e",
+        "2742850": "c23e1e8f151fa711707c1c987e884c71f3e0129460fc25635fa506213cec1d47",
+        "2742870": "32cc27d75ef38c3e812d26b9d4c0d73dacd9daddb8bc85562c1783cbfb308d12",
+        "2742890": "97c95bc3e2f34919d0efe03dd44d7db6e050a54b11c92af02a42021fc04aa444",
+        "2843485": "ef159725a079958b17f8ac54a673f8f4353b1350016ab9905ad1e1c54953a2ce"
+      },
+      "proposedActive": true,
+      "authorVerdict": "AUTHOR_PROVISIONAL_QUALIFIED_INTRODUCTORY_CORE_CONTRAST_ONLY",
+      "actualIndividualCoreContrastAndBoundary": "Separate/other versus man/male introductory cores. Complete 別れる personal-parting and 男 body remain bound; separation involving a man is a situation, not the offered male meaning. 別ける's division sense is retained. No all-sense or ordinary fallback clearance.",
+      "entireProspectiveTypedPoolRowsActuallyRead": 261,
+      "independentlyReviewed": false,
+      "ordinaryNegativePairSafetyApproved": false,
+      "rarityFrequencyNecessityApproval": false,
+      "universalAllSensesSeparationApproved": false,
+      "noReverseTransitiveCliqueInference": true
+    },
+    {
+      "id": "085-N002",
+      "source": "別",
+      "distractor": "勉",
+      "sourcePath": "kanji/別.md",
+      "distractorPath": "kanji/勉.md",
+      "actualProposedSourceAnswerTitle": "отдельный; другой",
+      "actualCurrentDistractorAnswerTitle": "стараться; прилагать усилия",
+      "sourceMetadataActuallyRead": {
+        "kanji": "別",
+        "title": "отдельный; другой",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-4",
+          "structure-unclassified"
+        ],
+        "strokes": 7,
+        "radical": "刀",
+        "radicalNumber": 18,
+        "onyomi": [
+          "ベツ"
+        ],
+        "kunyomi": [
+          "わか.れる",
+          "わ.ける"
+        ],
+        "distractors": [
+          "男",
+          "勉",
+          "帰"
+        ]
+      },
+      "distractorMetadataActuallyRead": {
+        "kanji": "勉",
+        "title": "стараться; прилагать усилия",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-3",
+          "structure-unclassified"
+        ],
+        "strokes": 10,
+        "radical": "力",
+        "radicalNumber": 19,
+        "onyomi": [
+          "ベン"
+        ],
+        "kunyomi": [
+          "つと.める"
+        ],
+        "distractors": [
+          "力",
+          "動",
+          "色"
+        ]
+      },
+      "sourceOfficialWholeRecordRawSha256": "c722105152684bcc50586089ce7b1fce312e86723cbc3adfe4fa4c6360475030",
+      "distractorOfficialWholeRecordRawSha256": "a4b0356fda38310c8a45cd94aaed05c4f3426c039e5ea58a341ff25663ed4ccc",
+      "sourceProposedWholeRussianBodyRawSha256": "b5a87e15094906a55d22b7d47a5174ec9eb48cf7aac86d0811e4d88be4c39df7",
+      "distractorWholeBodyBinding": {
+        "proposedRussianWorkingRawSha256": "b02cc3fb235b0c2778b2dfb4cf64f71f33657d26bab02e532903c61f462a1479",
+        "bodyNotYetRuntime": true
+      },
+      "additionalWholeLexicalObjectsActuallyRead": {
+        "1240820": "9c9e4fc5d59e62d87d2467323b142e7f6422728e4d4e3556369862aeb120ee31",
+        "1241060": "b74afc94c6f3a04d24bb42289413a6fd0d53cdd4cdf2f2317165e81fb10cf632",
+        "1503000": "a08278bdd2aca5dc23e614343ba98bd4ac1981b75b247d52d0ca00acc2758521",
+        "1509430": "668cf17f4cf5de8bc63a125adeba380394a6450fdea2938aa899a67e8977ac3a",
+        "1512670": "8827518da58a21742423fbc50111698a77148f71a752b7c59e636772f4ca99de",
+        "1606590": "6ebfe43015d3944281b720782c1495abef1831db97e3c9a90d6e9ae596e4ffcb",
+        "1606600": "a3fc4588685c72d61e873117e2f7a7c0d5a477b82da86279b205ec69835e6e90",
+        "2080160": "a978ca613d934758c5188597636e8c42ba2d8903999cca969c78771e887d8603",
+        "2259830": "d0102c1b8676ae5dbee2a6b2d07bf6278d0797ce17a1a502af05f3852dd5545e"
+      },
+      "proposedActive": true,
+      "authorVerdict": "AUTHOR_PROVISIONAL_QUALIFIED_INTRODUCTORY_CORE_CONTRAST_ONLY",
+      "actualIndividualCoreContrastAndBoundary": "Separate/other versus striving/making an effort introductory cores, considered in this actual forward direction. Whole 別 and proposed 勉 cover alternate source kun readings rather than being reduced to their titles. Separate effort is not lexical equivalence; no reverse or universal inference.",
+      "entireProspectiveTypedPoolRowsActuallyRead": 261,
+      "independentlyReviewed": false,
+      "ordinaryNegativePairSafetyApproved": false,
+      "rarityFrequencyNecessityApproval": false,
+      "universalAllSensesSeparationApproved": false,
+      "noReverseTransitiveCliqueInference": true
+    },
+    {
+      "id": "085-N003",
+      "source": "別",
+      "distractor": "帰",
+      "sourcePath": "kanji/別.md",
+      "distractorPath": "kanji/帰.md",
+      "actualProposedSourceAnswerTitle": "отдельный; другой",
+      "actualCurrentDistractorAnswerTitle": "возвращаться домой",
+      "sourceMetadataActuallyRead": {
+        "kanji": "別",
+        "title": "отдельный; другой",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-4",
+          "structure-unclassified"
+        ],
+        "strokes": 7,
+        "radical": "刀",
+        "radicalNumber": 18,
+        "onyomi": [
+          "ベツ"
+        ],
+        "kunyomi": [
+          "わか.れる",
+          "わ.ける"
+        ],
+        "distractors": [
+          "男",
+          "勉",
+          "帰"
+        ]
+      },
+      "distractorMetadataActuallyRead": {
+        "kanji": "帰",
+        "title": "возвращаться домой",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-2",
+          "structure-unclassified"
+        ],
+        "strokes": 10,
+        "radical": "巾",
+        "radicalNumber": 50,
+        "onyomi": [
+          "キ"
+        ],
+        "kunyomi": [
+          "かえ.る",
+          "かえ.す",
+          "おく.る",
+          "とつ.ぐ"
+        ],
+        "distractors": [
+          "書",
+          "建",
+          "用"
+        ]
+      },
+      "sourceOfficialWholeRecordRawSha256": "c722105152684bcc50586089ce7b1fce312e86723cbc3adfe4fa4c6360475030",
+      "distractorOfficialWholeRecordRawSha256": "0199fcb77ff59cfa145acbfeac5799d22f91f792632cb2ff7e81a1fc76c14331",
+      "sourceProposedWholeRussianBodyRawSha256": "b5a87e15094906a55d22b7d47a5174ec9eb48cf7aac86d0811e4d88be4c39df7",
+      "distractorWholeBodyBinding": {
+        "currentCompleteBilingualContext": {
+          "path": "kanji/帰.md",
+          "sourceGitRawSha256": "16264c08bfb222025779897b591b69f8dd9b724a73c4bfc80b7efc4e9d4c90ea",
+          "russianWorkingRawSha256": "c8d910a8181143156f8b42514fc86d887d6df700f2d8988b4e3d239fe0514b2e",
+          "russianGitRawSha256": "c8d910a8181143156f8b42514fc86d887d6df700f2d8988b4e3d239fe0514b2e",
+          "captureIsReading": false
+        },
+        "freshWholeBodyReading": true
+      },
+      "additionalWholeLexicalObjectsActuallyRead": {
+        "1503000": "a08278bdd2aca5dc23e614343ba98bd4ac1981b75b247d52d0ca00acc2758521",
+        "1509430": "668cf17f4cf5de8bc63a125adeba380394a6450fdea2938aa899a67e8977ac3a",
+        "1606590": "6ebfe43015d3944281b720782c1495abef1831db97e3c9a90d6e9ae596e4ffcb",
+        "1606600": "a3fc4588685c72d61e873117e2f7a7c0d5a477b82da86279b205ec69835e6e90",
+        "2259830": "d0102c1b8676ae5dbee2a6b2d07bf6278d0797ce17a1a502af05f3852dd5545e"
+      },
+      "proposedActive": true,
+      "authorVerdict": "AUTHOR_PROVISIONAL_QUALIFIED_INTRODUCTORY_CORE_CONTRAST_ONLY",
+      "actualIndividualCoreContrastAndBoundary": "Separate/other/parting versus returning-home introductory cores. Personal parting can precede returning home, but is not the return itself. Whole 帰 also retains おくる/とつぐ coverage; that does not make all its senses universally separate from 別. No frequency or ordinary-suitability conclusion.",
+      "entireProspectiveTypedPoolRowsActuallyRead": 261,
+      "independentlyReviewed": false,
+      "ordinaryNegativePairSafetyApproved": false,
+      "rarityFrequencyNecessityApproval": false,
+      "universalAllSensesSeparationApproved": false,
+      "noReverseTransitiveCliqueInference": true
+    },
+    {
+      "id": "085-N004",
+      "source": "勉",
+      "distractor": "力",
+      "sourcePath": "kanji/勉.md",
+      "distractorPath": "kanji/力.md",
+      "actualProposedSourceAnswerTitle": "стараться; прилагать усилия",
+      "actualCurrentDistractorAnswerTitle": "сила; мощь",
+      "sourceMetadataActuallyRead": {
+        "kanji": "勉",
+        "title": "стараться; прилагать усилия",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-3",
+          "structure-unclassified"
+        ],
+        "strokes": 10,
+        "radical": "力",
+        "radicalNumber": 19,
+        "onyomi": [
+          "ベン"
+        ],
+        "kunyomi": [
+          "つと.める"
+        ],
+        "distractors": [
+          "力",
+          "動",
+          "色"
+        ]
+      },
+      "distractorMetadataActuallyRead": {
+        "kanji": "力",
+        "title": "сила; мощь",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-1",
+          "pictograph",
+          "starter"
+        ],
+        "strokes": 2,
+        "radical": "力",
+        "radicalNumber": 19,
+        "onyomi": [
+          "リョク",
+          "リキ",
+          "リイ"
+        ],
+        "kunyomi": [
+          "ちから"
+        ],
+        "distractors": [
+          "九",
+          "万",
+          "男"
+        ]
+      },
+      "sourceOfficialWholeRecordRawSha256": "a4b0356fda38310c8a45cd94aaed05c4f3426c039e5ea58a341ff25663ed4ccc",
+      "distractorOfficialWholeRecordRawSha256": "525882c7237edd6f21f7e68001046064f7c8e621366769a3c9a55321bb50ff44",
+      "sourceProposedWholeRussianBodyRawSha256": "b02cc3fb235b0c2778b2dfb4cf64f71f33657d26bab02e532903c61f462a1479",
+      "distractorWholeBodyBinding": {
+        "currentCompleteBilingualContext": {
+          "path": "kanji/力.md",
+          "sourceGitRawSha256": "32dc6e78c58721edbcdaf2abc44c8695c55580ea525bd22e37a918990943065b",
+          "russianWorkingRawSha256": "8e7cbfe4e2c8bdf8eefaf40c5db7617198277a6c54b3ab6be7d5a6c1cd4978cb",
+          "russianGitRawSha256": "15170c2a7e70887193e4065082e93fb483c9a4a362f65708a18d2705b96ebe26",
+          "captureIsReading": false
+        },
+        "freshWholeBodyReading": true
+      },
+      "additionalWholeLexicalObjectsActuallyRead": {
+        "1240820": "9c9e4fc5d59e62d87d2467323b142e7f6422728e4d4e3556369862aeb120ee31",
+        "1241060": "b74afc94c6f3a04d24bb42289413a6fd0d53cdd4cdf2f2317165e81fb10cf632",
+        "1512670": "8827518da58a21742423fbc50111698a77148f71a752b7c59e636772f4ca99de",
+        "1554820": "0cbe2baa0754248bec9f414e48148e0c406932fe2d9515a346ba8b3888ef928a",
+        "1554830": "7e4e0bab98d6c694cae693ac17c463f4e9d201e0583bf8a514d989cec3d255b8",
+        "1554840": "7c0be214c22ee1b247ab4471e3a820002c60de23bafc68510858ca12facd0912",
+        "2080160": "a978ca613d934758c5188597636e8c42ba2d8903999cca969c78771e887d8603"
+      },
+      "proposedActive": true,
+      "authorVerdict": "AUTHOR_PROVISIONAL_QUALIFIED_INTRODUCTORY_CORE_CONTRAST_ONLY",
+      "actualIndividualCoreContrastAndBoundary": "Actual forward 勉→力 with offered сила; мощь. Striving/making an effort is contrasted with power/strength introductory cores ONLY. Whole 力 also has an effort sense, and whole1240820 admits rare 力める/勉める spellings; these do NOT alone establish that presented 勉 means offered сила/мощь. They forbid universal/reverse/all-sense/fallback safety claims. This exact bounded question requires its own independent disposition.",
+      "entireProspectiveTypedPoolRowsActuallyRead": 261,
+      "independentlyReviewed": false,
+      "ordinaryNegativePairSafetyApproved": false,
+      "rarityFrequencyNecessityApproval": false,
+      "universalAllSensesSeparationApproved": false,
+      "noReverseTransitiveCliqueInference": true
+    },
+    {
+      "id": "085-N005",
+      "source": "勉",
+      "distractor": "動",
+      "sourcePath": "kanji/勉.md",
+      "distractorPath": "kanji/動.md",
+      "actualProposedSourceAnswerTitle": "стараться; прилагать усилия",
+      "actualCurrentDistractorAnswerTitle": "двигаться; движение",
+      "sourceMetadataActuallyRead": {
+        "kanji": "勉",
+        "title": "стараться; прилагать усилия",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-3",
+          "structure-unclassified"
+        ],
+        "strokes": 10,
+        "radical": "力",
+        "radicalNumber": 19,
+        "onyomi": [
+          "ベン"
+        ],
+        "kunyomi": [
+          "つと.める"
+        ],
+        "distractors": [
+          "力",
+          "動",
+          "色"
+        ]
+      },
+      "distractorMetadataActuallyRead": {
+        "kanji": "動",
+        "title": "двигаться; движение",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-3",
+          "phonetic-compound",
+          "starter"
+        ],
+        "strokes": 11,
+        "radical": "力",
+        "radicalNumber": 19,
+        "phonetic": "重",
+        "onyomi": [
+          "ドウ"
+        ],
+        "kunyomi": [
+          "うご.く",
+          "うご.かす"
+        ],
+        "distractors": [
+          "男",
+          "出",
+          "力"
+        ]
+      },
+      "sourceOfficialWholeRecordRawSha256": "a4b0356fda38310c8a45cd94aaed05c4f3426c039e5ea58a341ff25663ed4ccc",
+      "distractorOfficialWholeRecordRawSha256": "21e314d0000bf931f5a43802633d57cecb70fa3009af1e7ebe47f0b8ae9190bc",
+      "sourceProposedWholeRussianBodyRawSha256": "b02cc3fb235b0c2778b2dfb4cf64f71f33657d26bab02e532903c61f462a1479",
+      "distractorWholeBodyBinding": {
+        "currentCompleteBilingualContext": {
+          "path": "kanji/動.md",
+          "sourceGitRawSha256": "2832e8bca02f03b8c066489af5736c891720034d9f12afdea1f1524c229310ce",
+          "russianWorkingRawSha256": "cffe5850c512b24007dcb6d987617df53258c67f0eaad8d2d907a6afb2e94b72",
+          "russianGitRawSha256": "65b63833e43f95efcb156c5dcdd7a3d220442d888c0d5df3d0934d36623b1a73",
+          "captureIsReading": false
+        },
+        "freshWholeBodyReading": true
+      },
+      "additionalWholeLexicalObjectsActuallyRead": {
+        "1240820": "9c9e4fc5d59e62d87d2467323b142e7f6422728e4d4e3556369862aeb120ee31",
+        "1241060": "b74afc94c6f3a04d24bb42289413a6fd0d53cdd4cdf2f2317165e81fb10cf632",
+        "1451160": "23758d997f11cb7e91fd2f711f5c73601a300ea9990f0451a3c95d7d99d275f7",
+        "1512670": "8827518da58a21742423fbc50111698a77148f71a752b7c59e636772f4ca99de",
+        "2080160": "a978ca613d934758c5188597636e8c42ba2d8903999cca969c78771e887d8603"
+      },
+      "proposedActive": true,
+      "authorVerdict": "AUTHOR_PROVISIONAL_QUALIFIED_INTRODUCTORY_CORE_CONTRAST_ONLY",
+      "actualIndividualCoreContrastAndBoundary": "Striving/making an effort versus moving/movement introductory cores. Effort can involve movement, but that shared action context is not itself the offered movement meaning. Whole 動 moves/causes-movement and whole 勉める evidence remain visible; not a universal negative judgment.",
+      "entireProspectiveTypedPoolRowsActuallyRead": 261,
+      "independentlyReviewed": false,
+      "ordinaryNegativePairSafetyApproved": false,
+      "rarityFrequencyNecessityApproval": false,
+      "universalAllSensesSeparationApproved": false,
+      "noReverseTransitiveCliqueInference": true
+    },
+    {
+      "id": "085-N006",
+      "source": "勉",
+      "distractor": "色",
+      "sourcePath": "kanji/勉.md",
+      "distractorPath": "kanji/色.md",
+      "actualProposedSourceAnswerTitle": "стараться; прилагать усилия",
+      "actualCurrentDistractorAnswerTitle": "цвет",
+      "sourceMetadataActuallyRead": {
+        "kanji": "勉",
+        "title": "стараться; прилагать усилия",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-3",
+          "structure-unclassified"
+        ],
+        "strokes": 10,
+        "radical": "力",
+        "radicalNumber": 19,
+        "onyomi": [
+          "ベン"
+        ],
+        "kunyomi": [
+          "つと.める"
+        ],
+        "distractors": [
+          "力",
+          "動",
+          "色"
+        ]
+      },
+      "distractorMetadataActuallyRead": {
+        "kanji": "色",
+        "title": "цвет",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-2",
+          "structure-unclassified"
+        ],
+        "strokes": 6,
+        "radical": "色",
+        "radicalNumber": 139,
+        "onyomi": [
+          "ショク",
+          "シキ"
+        ],
+        "kunyomi": [
+          "いろ"
+        ],
+        "distractors": [
+          "白",
+          "急",
+          "魚"
+        ]
+      },
+      "sourceOfficialWholeRecordRawSha256": "a4b0356fda38310c8a45cd94aaed05c4f3426c039e5ea58a341ff25663ed4ccc",
+      "distractorOfficialWholeRecordRawSha256": "ad6495c5fd384fad68aed1e6cea964aff25e09f198730929a23b13503990c04a",
+      "sourceProposedWholeRussianBodyRawSha256": "b02cc3fb235b0c2778b2dfb4cf64f71f33657d26bab02e532903c61f462a1479",
+      "distractorWholeBodyBinding": {
+        "currentCompleteBilingualContext": {
+          "path": "kanji/色.md",
+          "sourceGitRawSha256": "55588dd7fe61d3e60066822e35ed888eca48acd01a899a23415df8c58a29f1b9",
+          "russianWorkingRawSha256": "7bd285711b79a9263242b205f6e45e64cd4c7a76a0151b2bc367f43200a57b8a",
+          "russianGitRawSha256": "7bd285711b79a9263242b205f6e45e64cd4c7a76a0151b2bc367f43200a57b8a",
+          "captureIsReading": false
+        },
+        "freshWholeBodyReading": true
+      },
+      "additionalWholeLexicalObjectsActuallyRead": {
+        "1240820": "9c9e4fc5d59e62d87d2467323b142e7f6422728e4d4e3556369862aeb120ee31",
+        "1241060": "b74afc94c6f3a04d24bb42289413a6fd0d53cdd4cdf2f2317165e81fb10cf632",
+        "1357600": "5558957f28c04e4f42e38cc1d5006065c41e292d67d7e8c247227dd7610a5229",
+        "1512670": "8827518da58a21742423fbc50111698a77148f71a752b7c59e636772f4ca99de",
+        "2080160": "a978ca613d934758c5188597636e8c42ba2d8903999cca969c78771e887d8603",
+        "2097830": "39ba7242230fdb22bd166892aee0fac3eaf1702617296335b01f9a2f0e72d5d1",
+        "2270420": "c7bcce468f5ef21de3cf2a54847cde0b650e5c6b60a46f87e4f8be24fb96b59b"
+      },
+      "proposedActive": true,
+      "authorVerdict": "AUTHOR_PROVISIONAL_QUALIFIED_INTRODUCTORY_CORE_CONTRAST_ONLY",
+      "actualIndividualCoreContrastAndBoundary": "Striving/making an effort versus colour introductory cores. Complete 色 preserves its wider uses, not just a one-word colour gloss. Shape/免/力 mnemonic is not evidence that meanings cannot overlap in any context; no ordinary necessity-frequency claim.",
+      "entireProspectiveTypedPoolRowsActuallyRead": 261,
+      "independentlyReviewed": false,
+      "ordinaryNegativePairSafetyApproved": false,
+      "rarityFrequencyNecessityApproval": false,
+      "universalAllSensesSeparationApproved": false,
+      "noReverseTransitiveCliqueInference": true
+    },
+    {
+      "id": "085-N007",
+      "source": "真",
+      "distractor": "目",
+      "sourcePath": "kanji/真.md",
+      "distractorPath": "kanji/目.md",
+      "actualProposedSourceAnswerTitle": "истинный; подлинный",
+      "actualCurrentDistractorAnswerTitle": "глаз",
+      "sourceMetadataActuallyRead": {
+        "kanji": "真",
+        "title": "истинный; подлинный",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-3",
+          "structure-unclassified"
+        ],
+        "strokes": 10,
+        "radical": "目",
+        "radicalNumber": 109,
+        "onyomi": [
+          "シン"
+        ],
+        "kunyomi": [
+          "ま",
+          "ま-",
+          "まこと"
+        ],
+        "distractors": [
+          "目",
+          "百",
+          "員"
+        ]
+      },
+      "distractorMetadataActuallyRead": {
+        "kanji": "目",
+        "title": "глаз",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-1",
+          "pictograph",
+          "starter"
+        ],
+        "strokes": 5,
+        "radical": "目",
+        "radicalNumber": 109,
+        "onyomi": [
+          "モク",
+          "ボク"
+        ],
+        "kunyomi": [
+          "め",
+          "-め",
+          "ま-"
+        ],
+        "distractors": [
+          "日",
+          "白",
+          "耳"
+        ]
+      },
+      "sourceOfficialWholeRecordRawSha256": "8c42685c7bb5d234a77efcc1289bb064726dc734afa0d0e5594e37783dd90a0e",
+      "distractorOfficialWholeRecordRawSha256": "afdab50647215565323dacc45de09b78394cab7e85b0328592f2c5746fd4f17f",
+      "sourceProposedWholeRussianBodyRawSha256": "7b8a44d9ab4c79faf3f60ad2f3da91352e37f12be8baa091e5f86a7ff3501ec5",
+      "distractorWholeBodyBinding": {
+        "currentCompleteBilingualContext": {
+          "path": "kanji/目.md",
+          "sourceGitRawSha256": "3442dd0b921888f003db8fc3426ce92b1139a07c71d2c76f3bcb8115dea8a5c1",
+          "russianWorkingRawSha256": "02b59a7654303687cefb2fcd0b736aea4a85fd3ab3f4505733496bb8f89e321b",
+          "russianGitRawSha256": "f6336a053ec1f7dbace7c62c8346a10901d13b62356497ec959f32339be237a9",
+          "captureIsReading": false
+        },
+        "freshWholeBodyReading": true
+      },
+      "additionalWholeLexicalObjectsActuallyRead": {
+        "1363170": "ec89b49ebc459af97030d15a8508ce37acddb8f055cb0af1b518565a4dac325c",
+        "1363180": "e473cd293368d65f0dcfd21f4934a0e70b2f3eda39dadf313f167df786230a71",
+        "1381160": "3f39273ebe78860fae956a036b10f489c7d215e91f33530256c24c1183d3d276",
+        "1580555": "0212c71e6303fa0e9d98e03b36624c4999fde12d95122d31ca9a084a9fe96362",
+        "1604890": "3d4143e483d327820027457bb25cb630b069faa114bd77e74abc8b2ba3dbd4a3",
+        "1853530": "60d59ab40cc122846fcd9e0d3baddf0006a6f87ed1d8c1763c3fb6bb8c9a2455",
+        "2021500": "43202319305a8cc41911a5e3a19e5ff754f805dc1bdbd85d68a4123ffe3f8477",
+        "2751070": "744b18b2c04d4fbf3903203b6e0e27d66fdb15f7d0a0342c1b8d94c693a5fc63",
+        "2868540": "bf0063e0a6fc84ed6a6486cd47d9c28b5244a5a3241df63333f5ca57ce8929c1"
+      },
+      "proposedActive": true,
+      "authorVerdict": "AUTHOR_PROVISIONAL_QUALIFIED_INTRODUCTORY_CORE_CONTRAST_ONLY",
+      "actualIndividualCoreContrastAndBoundary": "True/genuine versus eye introductory cores. Radical目109 and actual whole 目 metadata/body are retained; a written component does not transfer the standalone eye meaning to every compound glyph. No historical-glyph pixel inspection or all-sense separation is claimed.",
+      "entireProspectiveTypedPoolRowsActuallyRead": 261,
+      "independentlyReviewed": false,
+      "ordinaryNegativePairSafetyApproved": false,
+      "rarityFrequencyNecessityApproval": false,
+      "universalAllSensesSeparationApproved": false,
+      "noReverseTransitiveCliqueInference": true
+    },
+    {
+      "id": "085-N008",
+      "source": "真",
+      "distractor": "百",
+      "sourcePath": "kanji/真.md",
+      "distractorPath": "kanji/百.md",
+      "actualProposedSourceAnswerTitle": "истинный; подлинный",
+      "actualCurrentDistractorAnswerTitle": "сто",
+      "sourceMetadataActuallyRead": {
+        "kanji": "真",
+        "title": "истинный; подлинный",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-3",
+          "structure-unclassified"
+        ],
+        "strokes": 10,
+        "radical": "目",
+        "radicalNumber": 109,
+        "onyomi": [
+          "シン"
+        ],
+        "kunyomi": [
+          "ま",
+          "ま-",
+          "まこと"
+        ],
+        "distractors": [
+          "目",
+          "百",
+          "員"
+        ]
+      },
+      "distractorMetadataActuallyRead": {
+        "kanji": "百",
+        "title": "сто",
+        "jlpt": 5,
+        "tags": [
+          "jlpt-n5",
+          "grade-1",
+          "compound",
+          "number",
+          "starter"
+        ],
+        "strokes": 6,
+        "radical": "白",
+        "radicalNumber": 106,
+        "phonetic": "白",
+        "onyomi": [
+          "ヒャク",
+          "ビャク"
+        ],
+        "kunyomi": [
+          "もも"
+        ],
+        "distractors": [
+          "白",
+          "千",
+          "日"
+        ]
+      },
+      "sourceOfficialWholeRecordRawSha256": "8c42685c7bb5d234a77efcc1289bb064726dc734afa0d0e5594e37783dd90a0e",
+      "distractorOfficialWholeRecordRawSha256": "7d48c3f81bc3cf875f9c24aaae93807686595602938f7b6249efddb3bcf5c837",
+      "sourceProposedWholeRussianBodyRawSha256": "7b8a44d9ab4c79faf3f60ad2f3da91352e37f12be8baa091e5f86a7ff3501ec5",
+      "distractorWholeBodyBinding": {
+        "currentCompleteBilingualContext": {
+          "path": "kanji/百.md",
+          "sourceGitRawSha256": "fd24302fd35dc11d39547368bca7d5a94bbbf9390d57bccbd52271178d8be853",
+          "russianWorkingRawSha256": "7715be92caa71872bedb8722d8d3ff7daa9aacda4951470ce06a77c5434e0460",
+          "russianGitRawSha256": "33a6386656b3b7ec9fde90423680f953330f6763cea9b23e5d4538b6088ce518",
+          "captureIsReading": false
+        },
+        "freshWholeBodyReading": true
+      },
+      "additionalWholeLexicalObjectsActuallyRead": {
+        "1363170": "ec89b49ebc459af97030d15a8508ce37acddb8f055cb0af1b518565a4dac325c",
+        "1363180": "e473cd293368d65f0dcfd21f4934a0e70b2f3eda39dadf313f167df786230a71",
+        "1381160": "3f39273ebe78860fae956a036b10f489c7d215e91f33530256c24c1183d3d276",
+        "1488000": "e898955556ac426a012d373a9af76927117d651a3a02744b3eb6c076dfd6404e",
+        "1580555": "0212c71e6303fa0e9d98e03b36624c4999fde12d95122d31ca9a084a9fe96362",
+        "1853530": "60d59ab40cc122846fcd9e0d3baddf0006a6f87ed1d8c1763c3fb6bb8c9a2455",
+        "2751070": "744b18b2c04d4fbf3903203b6e0e27d66fdb15f7d0a0342c1b8d94c693a5fc63",
+        "2850990": "718e75927f3c4498c274b75c257864ca6d5df0d441eafcdaa238547f0be27e37",
+        "2868540": "bf0063e0a6fc84ed6a6486cd47d9c28b5244a5a3241df63333f5ca57ce8929c1"
+      },
+      "proposedActive": true,
+      "authorVerdict": "AUTHOR_PROVISIONAL_QUALIFIED_INTRODUCTORY_CORE_CONTRAST_ONLY",
+      "actualIndividualCoreContrastAndBoundary": "True/genuine versus one hundred introductory cores. Whole 真ま intensifier/noun and まこと/しん lexical entries remain visible. Exact word intensification does not turn the 真 sign into the offered number; no universal or fallback clearance.",
+      "entireProspectiveTypedPoolRowsActuallyRead": 261,
+      "independentlyReviewed": false,
+      "ordinaryNegativePairSafetyApproved": false,
+      "rarityFrequencyNecessityApproval": false,
+      "universalAllSensesSeparationApproved": false,
+      "noReverseTransitiveCliqueInference": true
+    },
+    {
+      "id": "085-N009",
+      "source": "真",
+      "distractor": "員",
+      "sourcePath": "kanji/真.md",
+      "distractorPath": "kanji/員.md",
+      "actualProposedSourceAnswerTitle": "истинный; подлинный",
+      "actualCurrentDistractorAnswerTitle": "член группы; сотрудник",
+      "sourceMetadataActuallyRead": {
+        "kanji": "真",
+        "title": "истинный; подлинный",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-3",
+          "structure-unclassified"
+        ],
+        "strokes": 10,
+        "radical": "目",
+        "radicalNumber": 109,
+        "onyomi": [
+          "シン"
+        ],
+        "kunyomi": [
+          "ま",
+          "ま-",
+          "まこと"
+        ],
+        "distractors": [
+          "目",
+          "百",
+          "員"
+        ]
+      },
+      "distractorMetadataActuallyRead": {
+        "kanji": "員",
+        "title": "член группы; сотрудник",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-3",
+          "structure-unclassified"
+        ],
+        "strokes": 10,
+        "radical": "口",
+        "radicalNumber": 30,
+        "onyomi": [
+          "イン"
+        ],
+        "kunyomi": [],
+        "distractors": [
+          "買",
+          "品",
+          "質"
+        ]
+      },
+      "sourceOfficialWholeRecordRawSha256": "8c42685c7bb5d234a77efcc1289bb064726dc734afa0d0e5594e37783dd90a0e",
+      "distractorOfficialWholeRecordRawSha256": "253f151bea39d6cb5bb83d83fe539b764add4b7c62c57760dd56d6121667a889",
+      "sourceProposedWholeRussianBodyRawSha256": "7b8a44d9ab4c79faf3f60ad2f3da91352e37f12be8baa091e5f86a7ff3501ec5",
+      "distractorWholeBodyBinding": {
+        "currentCompleteBilingualContext": {
+          "path": "kanji/員.md",
+          "sourceGitRawSha256": "533258a1febadcefcebb8d762e13aefd2311b07150986e8e79083a5febcb1614",
+          "russianWorkingRawSha256": "b693f325270f070320b2185b344be374e753d52efc64b9068424516ed02e9c85",
+          "russianGitRawSha256": "b693f325270f070320b2185b344be374e753d52efc64b9068424516ed02e9c85",
+          "captureIsReading": false
+        },
+        "freshWholeBodyReading": true
+      },
+      "additionalWholeLexicalObjectsActuallyRead": {
+        "1168610": "2eb6df979337ad084b7439745f84facaacca96847d08f3f3809fd879089cf1f4",
+        "1363170": "ec89b49ebc459af97030d15a8508ce37acddb8f055cb0af1b518565a4dac325c",
+        "1363180": "e473cd293368d65f0dcfd21f4934a0e70b2f3eda39dadf313f167df786230a71",
+        "1381160": "3f39273ebe78860fae956a036b10f489c7d215e91f33530256c24c1183d3d276",
+        "1580555": "0212c71e6303fa0e9d98e03b36624c4999fde12d95122d31ca9a084a9fe96362",
+        "1853530": "60d59ab40cc122846fcd9e0d3baddf0006a6f87ed1d8c1763c3fb6bb8c9a2455",
+        "2751070": "744b18b2c04d4fbf3903203b6e0e27d66fdb15f7d0a0342c1b8d94c693a5fc63",
+        "2868540": "bf0063e0a6fc84ed6a6486cd47d9c28b5244a5a3241df63333f5ca57ce8929c1"
+      },
+      "proposedActive": true,
+      "authorVerdict": "AUTHOR_PROVISIONAL_QUALIFIED_INTRODUCTORY_CORE_CONTRAST_ONLY",
+      "actualIndividualCoreContrastAndBoundary": "True/genuine versus group member/staff introductory cores. Complete 員 source/current body and genuine-person contexts are considered without treating association as equivalent meaning. Whole 真 alternative readings remain covered; no frequency or global semantic uniqueness judgment.",
+      "entireProspectiveTypedPoolRowsActuallyRead": 261,
+      "independentlyReviewed": false,
+      "ordinaryNegativePairSafetyApproved": false,
+      "rarityFrequencyNecessityApproval": false,
+      "universalAllSensesSeparationApproved": false,
+      "noReverseTransitiveCliqueInference": true
+    },
+    {
+      "id": "085-N010",
+      "source": "答",
+      "distractor": "会",
+      "sourcePath": "kanji/答.md",
+      "distractorPath": "kanji/会.md",
+      "actualProposedSourceAnswerTitle": "ответ; отвечать",
+      "actualCurrentDistractorAnswerTitle": "встречаться; встреча",
+      "sourceMetadataActuallyRead": {
+        "kanji": "答",
+        "title": "ответ; отвечать",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-2",
+          "structure-unclassified"
+        ],
+        "strokes": 12,
+        "radical": "竹",
+        "radicalNumber": 118,
+        "onyomi": [
+          "トウ"
+        ],
+        "kunyomi": [
+          "こた.える",
+          "こた.え"
+        ],
+        "distractors": [
+          "会",
+          "茶",
+          "書"
+        ]
+      },
+      "distractorMetadataActuallyRead": {
+        "kanji": "会",
+        "title": "встречаться; встреча",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-2",
+          "compound",
+          "starter"
+        ],
+        "strokes": 6,
+        "radical": "人",
+        "radicalNumber": 9,
+        "onyomi": [
+          "カイ",
+          "エ"
+        ],
+        "kunyomi": [
+          "あ.う",
+          "あ.わせる",
+          "あつ.まる"
+        ],
+        "distractors": [
+          "今",
+          "公",
+          "金"
+        ]
+      },
+      "sourceOfficialWholeRecordRawSha256": "df782282e1edb2315ae1ca0e1c6c2347ad0c5452e62c5a5e2ef6f4f06c8b9b67",
+      "distractorOfficialWholeRecordRawSha256": "36cfbaacaee96d879e6aa04b11c81d221b9470ae9f002cddc6c97754c989bbd0",
+      "sourceProposedWholeRussianBodyRawSha256": "1879d9dce3562b27de4b974e790bb0bffa86b19480a46497d6f93717a18c4016",
+      "distractorWholeBodyBinding": {
+        "currentCompleteBilingualContext": {
+          "path": "kanji/会.md",
+          "sourceGitRawSha256": "3f32a1b95403f5a1474bf14577c1f6d40379d54caa51617fa368424a1427b947",
+          "russianWorkingRawSha256": "ffb19522d604f14195ac47f6b582b94430b792dd2730c979b36602d151920457",
+          "russianGitRawSha256": "897dc47b3fefa8bdf5277c6c0c2300301fee38a3f26eb68a7077d9bbf92ec4a4",
+          "captureIsReading": false
+        },
+        "freshWholeBodyReading": true
+      },
+      "additionalWholeLexicalObjectsActuallyRead": {
+        "1198160": "9dadec34c049cb487425840b7fd44068dfcb2979f6d0d43c373a5012b68fd862",
+        "1198170": "fdbd6ec90f072450ac6d1fb7a04cdafb2604d46901ae3b484d4edffa49757148",
+        "1199160": "d6329ff66b085619bcf80bf5182def1a8ca1bbba0669924b115deca15b6e61f6",
+        "1199680": "fbfb6b0bafc534b5dc8915905ec8294d715d35985fb9a8958fba3b1796656f8e",
+        "1449530": "b0e6803741307b2f2623dee4ee81d026c16b0388cccf694b5d1874ec62e077ba",
+        "1449540": "2e122e38568a63619f36ec604630bfb08aa90e3b60cc1450d49c5e13209c2e81"
+      },
+      "proposedActive": true,
+      "authorVerdict": "AUTHOR_PROVISIONAL_QUALIFIED_INTRODUCTORY_CORE_CONTRAST_ONLY",
+      "actualIndividualCoreContrastAndBoundary": "Answer/respond versus meet/meeting introductory cores. The mnemonic 合/口 story is explicitly modern, and 合 is not the offered 会 glyph. Whole 会 gathering/合わせる extensions remain visible; correspondence between answers and a question is not proof of universal disjointness. No automatic reverse judgment.",
+      "entireProspectiveTypedPoolRowsActuallyRead": 261,
+      "independentlyReviewed": false,
+      "ordinaryNegativePairSafetyApproved": false,
+      "rarityFrequencyNecessityApproval": false,
+      "universalAllSensesSeparationApproved": false,
+      "noReverseTransitiveCliqueInference": true
+    },
+    {
+      "id": "085-N011",
+      "source": "答",
+      "distractor": "茶",
+      "sourcePath": "kanji/答.md",
+      "distractorPath": "kanji/茶.md",
+      "actualProposedSourceAnswerTitle": "ответ; отвечать",
+      "actualCurrentDistractorAnswerTitle": "чай",
+      "sourceMetadataActuallyRead": {
+        "kanji": "答",
+        "title": "ответ; отвечать",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-2",
+          "structure-unclassified"
+        ],
+        "strokes": 12,
+        "radical": "竹",
+        "radicalNumber": 118,
+        "onyomi": [
+          "トウ"
+        ],
+        "kunyomi": [
+          "こた.える",
+          "こた.え"
+        ],
+        "distractors": [
+          "会",
+          "茶",
+          "書"
+        ]
+      },
+      "distractorMetadataActuallyRead": {
+        "kanji": "茶",
+        "title": "чай",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-2",
+          "structure-unclassified"
+        ],
+        "strokes": 9,
+        "radical": "艸",
+        "radicalNumber": 140,
+        "onyomi": [
+          "チャ",
+          "サ"
+        ],
+        "kunyomi": [],
+        "distractors": [
+          "英",
+          "花",
+          "楽"
+        ]
+      },
+      "sourceOfficialWholeRecordRawSha256": "df782282e1edb2315ae1ca0e1c6c2347ad0c5452e62c5a5e2ef6f4f06c8b9b67",
+      "distractorOfficialWholeRecordRawSha256": "8c31b1e72623f73c2f4d42f6b039e11b4faeb94dc76f7b7c765e3416a65dde53",
+      "sourceProposedWholeRussianBodyRawSha256": "1879d9dce3562b27de4b974e790bb0bffa86b19480a46497d6f93717a18c4016",
+      "distractorWholeBodyBinding": {
+        "currentCompleteBilingualContext": {
+          "path": "kanji/茶.md",
+          "sourceGitRawSha256": "1afe7a75fb305524f21db59a0090c15ba0cfa7c399aa7c1997690d9c5f702fd1",
+          "russianWorkingRawSha256": "79870cbd3adeba78245bff40d0fdf1a7a35b054aa21cdcb702d5d3dba63b8cdf",
+          "russianGitRawSha256": "79870cbd3adeba78245bff40d0fdf1a7a35b054aa21cdcb702d5d3dba63b8cdf",
+          "captureIsReading": false
+        },
+        "freshWholeBodyReading": true
+      },
+      "additionalWholeLexicalObjectsActuallyRead": {
+        "1199160": "d6329ff66b085619bcf80bf5182def1a8ca1bbba0669924b115deca15b6e61f6",
+        "1199680": "fbfb6b0bafc534b5dc8915905ec8294d715d35985fb9a8958fba3b1796656f8e",
+        "1422570": "25e267e6dd3ec856e5e6c81311e49904a3cde500e178e9b91dd9c808cbba5324",
+        "1449530": "b0e6803741307b2f2623dee4ee81d026c16b0388cccf694b5d1874ec62e077ba",
+        "1449540": "2e122e38568a63619f36ec604630bfb08aa90e3b60cc1450d49c5e13209c2e81"
+      },
+      "proposedActive": true,
+      "authorVerdict": "AUTHOR_PROVISIONAL_QUALIFIED_INTRODUCTORY_CORE_CONTRAST_ONLY",
+      "actualIndividualCoreContrastAndBoundary": "Answer/respond versus tea introductory cores. Whole 答え alternative spellings and 茶 whole body remain bound. The shared bamboo/plant-like appearance is a visual comparison, not semantic or historical proof; broader ordinary-negative suitability remains unverified.",
+      "entireProspectiveTypedPoolRowsActuallyRead": 261,
+      "independentlyReviewed": false,
+      "ordinaryNegativePairSafetyApproved": false,
+      "rarityFrequencyNecessityApproval": false,
+      "universalAllSensesSeparationApproved": false,
+      "noReverseTransitiveCliqueInference": true
+    },
+    {
+      "id": "085-N012",
+      "source": "答",
+      "distractor": "書",
+      "sourcePath": "kanji/答.md",
+      "distractorPath": "kanji/書.md",
+      "actualProposedSourceAnswerTitle": "ответ; отвечать",
+      "actualCurrentDistractorAnswerTitle": "писать",
+      "sourceMetadataActuallyRead": {
+        "kanji": "答",
+        "title": "ответ; отвечать",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-2",
+          "structure-unclassified"
+        ],
+        "strokes": 12,
+        "radical": "竹",
+        "radicalNumber": 118,
+        "onyomi": [
+          "トウ"
+        ],
+        "kunyomi": [
+          "こた.える",
+          "こた.え"
+        ],
+        "distractors": [
+          "会",
+          "茶",
+          "書"
+        ]
+      },
+      "distractorMetadataActuallyRead": {
+        "kanji": "書",
+        "title": "писать",
+        "jlpt": 5,
+        "tags": [
+          "jlpt-n5",
+          "grade-2",
+          "compound",
+          "starter"
+        ],
+        "strokes": 10,
+        "radical": "曰",
+        "radicalNumber": 73,
+        "onyomi": [
+          "ショ"
+        ],
+        "kunyomi": [
+          "か.く",
+          "-が.き"
+        ],
+        "distractors": [
+          "読",
+          "話",
+          "聞"
+        ]
+      },
+      "sourceOfficialWholeRecordRawSha256": "df782282e1edb2315ae1ca0e1c6c2347ad0c5452e62c5a5e2ef6f4f06c8b9b67",
+      "distractorOfficialWholeRecordRawSha256": "1d0d5d0bbf9f8ea871aeb8aa0a9d46cd47f88de0301f5c7a65f2a9c2e2d3367e",
+      "sourceProposedWholeRussianBodyRawSha256": "1879d9dce3562b27de4b974e790bb0bffa86b19480a46497d6f93717a18c4016",
+      "distractorWholeBodyBinding": {
+        "currentCompleteBilingualContext": {
+          "path": "kanji/書.md",
+          "sourceGitRawSha256": "31de1c1149e5b1f2e776c2729eb2d7f1442fc67b488f6110877a34c1ad072d33",
+          "russianWorkingRawSha256": "f7e2f264523fe86c1226365dc1c8b105f95f3fe640a790746551ba36cc259fef",
+          "russianGitRawSha256": "9af0e5839570ea837c4722483eb105d43ff67b797716f6c47e4d09bec629e55c",
+          "captureIsReading": false
+        },
+        "freshWholeBodyReading": true
+      },
+      "additionalWholeLexicalObjectsActuallyRead": {
+        "1199160": "d6329ff66b085619bcf80bf5182def1a8ca1bbba0669924b115deca15b6e61f6",
+        "1199680": "fbfb6b0bafc534b5dc8915905ec8294d715d35985fb9a8958fba3b1796656f8e",
+        "1449530": "b0e6803741307b2f2623dee4ee81d026c16b0388cccf694b5d1874ec62e077ba",
+        "1449540": "2e122e38568a63619f36ec604630bfb08aa90e3b60cc1450d49c5e13209c2e81",
+        "1505080": "266c534aa0c8b5b8a6f16fa760f0899bfb29ce4d7795527597191d44630bb295",
+        "2037940": "bc7d22f43d75b79d96c2ba5d70fc1446daff5649dd1343b6521842ded8e5ed91"
+      },
+      "proposedActive": true,
+      "authorVerdict": "AUTHOR_PROVISIONAL_QUALIFIED_INTRODUCTORY_CORE_CONTRAST_ONLY",
+      "actualIndividualCoreContrastAndBoundary": "Answer/respond versus write introductory cores. Source 答えを書く/質問に答える and whole 書 keep response content distinct from writing as an action: an answer can be written, but 答 does not thereby mean offered писать. Not a universal claim that responding and writing never overlap.",
+      "entireProspectiveTypedPoolRowsActuallyRead": 261,
+      "independentlyReviewed": false,
+      "ordinaryNegativePairSafetyApproved": false,
+      "rarityFrequencyNecessityApproval": false,
+      "universalAllSensesSeparationApproved": false,
+      "noReverseTransitiveCliqueInference": true
+    },
+    {
+      "id": "085-N013",
+      "source": "親",
+      "distractor": "新",
+      "sourcePath": "kanji/親.md",
+      "distractorPath": "kanji/新.md",
+      "actualProposedSourceAnswerTitle": "родитель; близкий",
+      "actualCurrentDistractorAnswerTitle": "новый",
+      "sourceMetadataActuallyRead": {
+        "kanji": "親",
+        "title": "родитель; близкий",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-2",
+          "structure-unclassified"
+        ],
+        "strokes": 16,
+        "radical": "見",
+        "radicalNumber": 147,
+        "onyomi": [
+          "シン"
+        ],
+        "kunyomi": [
+          "おや",
+          "おや-",
+          "した.しい",
+          "した.しむ"
+        ],
+        "distractors": [
+          "新",
+          "見",
+          "題"
+        ]
+      },
+      "distractorMetadataActuallyRead": {
+        "kanji": "新",
+        "title": "новый",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-2",
+          "compound",
+          "starter"
+        ],
+        "strokes": 13,
+        "radical": "斤",
+        "radicalNumber": 69,
+        "onyomi": [
+          "シン"
+        ],
+        "kunyomi": [
+          "あたら.しい",
+          "あら.た",
+          "あら-",
+          "にい-"
+        ],
+        "distractors": [
+          "古",
+          "木",
+          "長"
+        ]
+      },
+      "sourceOfficialWholeRecordRawSha256": "c8f71c5b056c98a63af74927e59d4814044a6d353ac8da44858b5e40f4d7742c",
+      "distractorOfficialWholeRecordRawSha256": "bb7c5aee79e49f22c8f62a139f12d65ac974bcf70be75d2d69dfb292f86ec6bb",
+      "sourceProposedWholeRussianBodyRawSha256": "53841d9714a7b8dd2d9d71b0b49d76d78df4f9f8f850116e71783948d47864b7",
+      "distractorWholeBodyBinding": {
+        "currentCompleteBilingualContext": {
+          "path": "kanji/新.md",
+          "sourceGitRawSha256": "a835cd6b67fae93cc4bfcc6cae188ae6e5a3d311ecaea802f83c366f7225a641",
+          "russianWorkingRawSha256": "d71ad4133faa691a2fa3e539e9bd9d4a2ece02153c617d4748bb6c528c1dd6ec",
+          "russianGitRawSha256": "65af5cd09a263b8bec2f216f9265232dc0f561d27d02831c0ae5296e2b1aa72f",
+          "captureIsReading": false
+        },
+        "freshWholeBodyReading": true
+      },
+      "additionalWholeLexicalObjectsActuallyRead": {
+        "1361480": "722d6ac453885756f19a86758ff1455587e6bce65abc42eac430ed4320364b69",
+        "1365040": "b36122a87513990552b8c1e15fe46fadd7f0960ffbfe614319e84e5e81a9da5b",
+        "1365050": "cc3f951a365c62b83af81e0a026f0a1fc197287a3c567aebb50f7c6c6ffa7054",
+        "1365070": "a7c91e2552125743dd88072fe2c4c496453057630f8c8dddffd1848b515763d3",
+        "1365170": "b71c2711468a485c582d6859bd6bfbf61ffb4ad0a7096102a9ff185004fa3ad9",
+        "1365250": "d4f33071f870aa8e9f323511035b9722db21205df3d221917b3a05ede4e297c5",
+        "2256340": "1c4d140706b80ad8ac5f406ab6e4fde7eb672926b821a943dc6435f08dad5b14",
+        "2260200": "f3e7225cbeac0e7bb84436bbea829cc4cb22dc0e450a5dcdccfb2bd4546de192"
+      },
+      "proposedActive": true,
+      "authorVerdict": "AUTHOR_PROVISIONAL_QUALIFIED_INTRODUCTORY_CORE_CONTRAST_ONLY",
+      "actualIndividualCoreContrastAndBoundary": "Parent/interpersonal closeness versus new introductory cores. Whole 親/親しい/親しむ and 新 preserve their actual readings, examples and extensions; shared シン and visual resemblance do not equate the offered meaning. Not blanket all-sense or ordinary quiz approval.",
+      "entireProspectiveTypedPoolRowsActuallyRead": 261,
+      "independentlyReviewed": false,
+      "ordinaryNegativePairSafetyApproved": false,
+      "rarityFrequencyNecessityApproval": false,
+      "universalAllSensesSeparationApproved": false,
+      "noReverseTransitiveCliqueInference": true
+    },
+    {
+      "id": "085-N014",
+      "source": "親",
+      "distractor": "見",
+      "sourcePath": "kanji/親.md",
+      "distractorPath": "kanji/見.md",
+      "actualProposedSourceAnswerTitle": "родитель; близкий",
+      "actualCurrentDistractorAnswerTitle": "видеть; смотреть",
+      "sourceMetadataActuallyRead": {
+        "kanji": "親",
+        "title": "родитель; близкий",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-2",
+          "structure-unclassified"
+        ],
+        "strokes": 16,
+        "radical": "見",
+        "radicalNumber": 147,
+        "onyomi": [
+          "シン"
+        ],
+        "kunyomi": [
+          "おや",
+          "おや-",
+          "した.しい",
+          "した.しむ"
+        ],
+        "distractors": [
+          "新",
+          "見",
+          "題"
+        ]
+      },
+      "distractorMetadataActuallyRead": {
+        "kanji": "見",
+        "title": "видеть; смотреть",
+        "jlpt": 5,
+        "tags": [
+          "jlpt-n5",
+          "grade-1",
+          "compound",
+          "starter"
+        ],
+        "strokes": 7,
+        "radical": "見",
+        "radicalNumber": 147,
+        "onyomi": [
+          "ケン"
+        ],
+        "kunyomi": [
+          "み.る",
+          "み.える",
+          "み.せる"
+        ],
+        "distractors": [
+          "買",
+          "聞",
+          "目"
+        ]
+      },
+      "sourceOfficialWholeRecordRawSha256": "c8f71c5b056c98a63af74927e59d4814044a6d353ac8da44858b5e40f4d7742c",
+      "distractorOfficialWholeRecordRawSha256": "39ef78b0d2c23858118f4e478b1680192f88addfb1c36c66d69f15be89968549",
+      "sourceProposedWholeRussianBodyRawSha256": "53841d9714a7b8dd2d9d71b0b49d76d78df4f9f8f850116e71783948d47864b7",
+      "distractorWholeBodyBinding": {
+        "currentCompleteBilingualContext": {
+          "path": "kanji/見.md",
+          "sourceGitRawSha256": "2abd61e1d746dae2778999a3f4392af873da967d333e43c6b7b2c5bf2c80866a",
+          "russianWorkingRawSha256": "1738fbde947e0fdd2b34a19e1b45929938387c9eb300e21fb1865d94c645fe0f",
+          "russianGitRawSha256": "6a57ab631c15b4d6bb135a064bc49db8d91b76ec0c0c879b42a966a22fa00f58",
+          "captureIsReading": false
+        },
+        "freshWholeBodyReading": true
+      },
+      "additionalWholeLexicalObjectsActuallyRead": {
+        "1365040": "b36122a87513990552b8c1e15fe46fadd7f0960ffbfe614319e84e5e81a9da5b",
+        "1365050": "cc3f951a365c62b83af81e0a026f0a1fc197287a3c567aebb50f7c6c6ffa7054",
+        "1365070": "a7c91e2552125743dd88072fe2c4c496453057630f8c8dddffd1848b515763d3",
+        "1365170": "b71c2711468a485c582d6859bd6bfbf61ffb4ad0a7096102a9ff185004fa3ad9",
+        "1365250": "d4f33071f870aa8e9f323511035b9722db21205df3d221917b3a05ede4e297c5",
+        "2256270": "397b5a03b82f60dff6d2025221c55929736bb0ce8e3b1e74c92204004f213d5d",
+        "2256280": "e32bffcbc7c97e0984cc5b4103711ca81e8bec34540dcdfd4f1453bcf537d173",
+        "2256340": "1c4d140706b80ad8ac5f406ab6e4fde7eb672926b821a943dc6435f08dad5b14"
+      },
+      "proposedActive": true,
+      "authorVerdict": "AUTHOR_PROVISIONAL_QUALIFIED_INTRODUCTORY_CORE_CONTRAST_ONLY",
+      "actualIndividualCoreContrastAndBoundary": "Parent/interpersonal closeness versus see/look introductory cores. Classical見147 is a component/index, not proof that 親 has the offered standalone see meaning. Whole 見 and supplemental 親しむ things/familiarization sense remain available; historical pictures were not inspected.",
+      "entireProspectiveTypedPoolRowsActuallyRead": 261,
+      "independentlyReviewed": false,
+      "ordinaryNegativePairSafetyApproved": false,
+      "rarityFrequencyNecessityApproval": false,
+      "universalAllSensesSeparationApproved": false,
+      "noReverseTransitiveCliqueInference": true
+    },
+    {
+      "id": "085-N015",
+      "source": "親",
+      "distractor": "題",
+      "sourcePath": "kanji/親.md",
+      "distractorPath": "kanji/題.md",
+      "actualProposedSourceAnswerTitle": "родитель; близкий",
+      "actualCurrentDistractorAnswerTitle": "тема; вопрос",
+      "sourceMetadataActuallyRead": {
+        "kanji": "親",
+        "title": "родитель; близкий",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-2",
+          "structure-unclassified"
+        ],
+        "strokes": 16,
+        "radical": "見",
+        "radicalNumber": 147,
+        "onyomi": [
+          "シン"
+        ],
+        "kunyomi": [
+          "おや",
+          "おや-",
+          "した.しい",
+          "した.しむ"
+        ],
+        "distractors": [
+          "新",
+          "見",
+          "題"
+        ]
+      },
+      "distractorMetadataActuallyRead": {
+        "kanji": "題",
+        "title": "тема; вопрос",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-3",
+          "structure-unclassified"
+        ],
+        "strokes": 18,
+        "radical": "頁",
+        "radicalNumber": 181,
+        "onyomi": [
+          "ダイ"
+        ],
+        "kunyomi": [],
+        "distractors": [
+          "質",
+          "親",
+          "週"
+        ]
+      },
+      "sourceOfficialWholeRecordRawSha256": "c8f71c5b056c98a63af74927e59d4814044a6d353ac8da44858b5e40f4d7742c",
+      "distractorOfficialWholeRecordRawSha256": "971d3b7c889554deda57041083bb4a9828e6b6f74a2a3c64c4171a85904b339f",
+      "sourceProposedWholeRussianBodyRawSha256": "53841d9714a7b8dd2d9d71b0b49d76d78df4f9f8f850116e71783948d47864b7",
+      "distractorWholeBodyBinding": {
+        "proposedRussianWorkingRawSha256": "25766c5b625a36e41a3db82ee1f5adc58b6e8c366fc1a0c4fc665f59c082df77",
+        "bodyNotYetRuntime": true
+      },
+      "additionalWholeLexicalObjectsActuallyRead": {
+        "1365040": "b36122a87513990552b8c1e15fe46fadd7f0960ffbfe614319e84e5e81a9da5b",
+        "1365050": "cc3f951a365c62b83af81e0a026f0a1fc197287a3c567aebb50f7c6c6ffa7054",
+        "1365070": "a7c91e2552125743dd88072fe2c4c496453057630f8c8dddffd1848b515763d3",
+        "1365170": "b71c2711468a485c582d6859bd6bfbf61ffb4ad0a7096102a9ff185004fa3ad9",
+        "1365250": "d4f33071f870aa8e9f323511035b9722db21205df3d221917b3a05ede4e297c5",
+        "1415470": "f00a403966f9b06e5629a63408232d17b518ada7814e5438cb3efed09cf01573",
+        "1415490": "692d73a020353e4a6f6619dfe1cce159f9a7b5f7852fb2c8050c85e86150bf94",
+        "1536010": "f6e4db11b6fe30d57252d6f0a7193f2f9f88cb0c99e34509ea010d18cafda30c",
+        "1562400": "450efb45b8b235593aca7c08e1a451b657c2f15d1d122034d6701eb65d20efbe",
+        "2256340": "1c4d140706b80ad8ac5f406ab6e4fde7eb672926b821a943dc6435f08dad5b14"
+      },
+      "proposedActive": true,
+      "authorVerdict": "AUTHOR_PROVISIONAL_QUALIFIED_INTRODUCTORY_CORE_CONTRAST_ONLY",
+      "actualIndividualCoreContrastAndBoundary": "Parent/interpersonal closeness versus topic/question introductory cores, separately considered in this forward direction. A topic about parents is a shared situation, not a parent sense of 題 or topic sense of 親. Whole 題 title/evaluation/test-question senses remain visible, not erased by its short title.",
+      "entireProspectiveTypedPoolRowsActuallyRead": 261,
+      "independentlyReviewed": false,
+      "ordinaryNegativePairSafetyApproved": false,
+      "rarityFrequencyNecessityApproval": false,
+      "universalAllSensesSeparationApproved": false,
+      "noReverseTransitiveCliqueInference": true
+    },
+    {
+      "id": "085-N016",
+      "source": "題",
+      "distractor": "質",
+      "sourcePath": "kanji/題.md",
+      "distractorPath": "kanji/質.md",
+      "actualProposedSourceAnswerTitle": "тема; вопрос",
+      "actualCurrentDistractorAnswerTitle": "качество; сущность",
+      "sourceMetadataActuallyRead": {
+        "kanji": "題",
+        "title": "тема; вопрос",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-3",
+          "structure-unclassified"
+        ],
+        "strokes": 18,
+        "radical": "頁",
+        "radicalNumber": 181,
+        "onyomi": [
+          "ダイ"
+        ],
+        "kunyomi": [],
+        "distractors": [
+          "質",
+          "親",
+          "週"
+        ]
+      },
+      "distractorMetadataActuallyRead": {
+        "kanji": "質",
+        "title": "качество; сущность",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-5",
+          "structure-unclassified"
+        ],
+        "strokes": 15,
+        "radical": "貝",
+        "radicalNumber": 154,
+        "onyomi": [
+          "シツ",
+          "シチ",
+          "チ"
+        ],
+        "kunyomi": [
+          "たち",
+          "ただ.す",
+          "もと",
+          "わりふ"
+        ],
+        "distractors": [
+          "貸",
+          "買",
+          "員"
+        ]
+      },
+      "sourceOfficialWholeRecordRawSha256": "971d3b7c889554deda57041083bb4a9828e6b6f74a2a3c64c4171a85904b339f",
+      "distractorOfficialWholeRecordRawSha256": "a9ef2712a105a987123cca402f8ac7b70145b5174f12065c2621c6d95d76f4ec",
+      "sourceProposedWholeRussianBodyRawSha256": "25766c5b625a36e41a3db82ee1f5adc58b6e8c366fc1a0c4fc665f59c082df77",
+      "distractorWholeBodyBinding": {
+        "currentCompleteBilingualContext": {
+          "path": "kanji/質.md",
+          "sourceGitRawSha256": "c4ec9a9e9899b8ab7b5ada00f90996ef59a601e44cbd5146d066343eab30e7ec",
+          "russianWorkingRawSha256": "f3917fafe52de65c3106367ef50978371cc81afc7619d58b7a96b7e4487b347b",
+          "russianGitRawSha256": "f3917fafe52de65c3106367ef50978371cc81afc7619d58b7a96b7e4487b347b",
+          "captureIsReading": false
+        },
+        "freshWholeBodyReading": true
+      },
+      "additionalWholeLexicalObjectsActuallyRead": {
+        "1320640": "f610d370c82cbce7fda5904adda4d05dbf63166472c3015f58ae8263ed080301",
+        "1320650": "afa74ccfffb0008f844e2b5ffacc976ffe76d21e900804807d4eefad9f99eeec",
+        "1415470": "f00a403966f9b06e5629a63408232d17b518ada7814e5438cb3efed09cf01573",
+        "1415490": "692d73a020353e4a6f6619dfe1cce159f9a7b5f7852fb2c8050c85e86150bf94",
+        "1536010": "f6e4db11b6fe30d57252d6f0a7193f2f9f88cb0c99e34509ea010d18cafda30c",
+        "1562400": "450efb45b8b235593aca7c08e1a451b657c2f15d1d122034d6701eb65d20efbe",
+        "2672260": "a60fc691e15c6f009583de6ff4a2c76b5e81fc77aba8988c941b18f5c84fb46c"
+      },
+      "proposedActive": true,
+      "authorVerdict": "AUTHOR_PROVISIONAL_QUALIFIED_INTRODUCTORY_CORE_CONTRAST_ONLY",
+      "actualIndividualCoreContrastAndBoundary": "Actual forward 題→質 with offered качество; сущность. Topic/question/title is contrasted with quality/essence introductory cores ONLY. Whole 質す question sense and 題's evaluating sense do NOT by themselves prove that presented 題 means offered качество/сущность or settle the reverse direction. Both wider senses remain visible; this exact question requires independent disposition, not blanket all-sense/fallback clearance.",
+      "entireProspectiveTypedPoolRowsActuallyRead": 261,
+      "independentlyReviewed": false,
+      "ordinaryNegativePairSafetyApproved": false,
+      "rarityFrequencyNecessityApproval": false,
+      "universalAllSensesSeparationApproved": false,
+      "noReverseTransitiveCliqueInference": true
+    },
+    {
+      "id": "085-N017",
+      "source": "題",
+      "distractor": "親",
+      "sourcePath": "kanji/題.md",
+      "distractorPath": "kanji/親.md",
+      "actualProposedSourceAnswerTitle": "тема; вопрос",
+      "actualCurrentDistractorAnswerTitle": "родитель; близкий",
+      "sourceMetadataActuallyRead": {
+        "kanji": "題",
+        "title": "тема; вопрос",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-3",
+          "structure-unclassified"
+        ],
+        "strokes": 18,
+        "radical": "頁",
+        "radicalNumber": 181,
+        "onyomi": [
+          "ダイ"
+        ],
+        "kunyomi": [],
+        "distractors": [
+          "質",
+          "親",
+          "週"
+        ]
+      },
+      "distractorMetadataActuallyRead": {
+        "kanji": "親",
+        "title": "родитель; близкий",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-2",
+          "structure-unclassified"
+        ],
+        "strokes": 16,
+        "radical": "見",
+        "radicalNumber": 147,
+        "onyomi": [
+          "シン"
+        ],
+        "kunyomi": [
+          "おや",
+          "おや-",
+          "した.しい",
+          "した.しむ"
+        ],
+        "distractors": [
+          "新",
+          "見",
+          "題"
+        ]
+      },
+      "sourceOfficialWholeRecordRawSha256": "971d3b7c889554deda57041083bb4a9828e6b6f74a2a3c64c4171a85904b339f",
+      "distractorOfficialWholeRecordRawSha256": "c8f71c5b056c98a63af74927e59d4814044a6d353ac8da44858b5e40f4d7742c",
+      "sourceProposedWholeRussianBodyRawSha256": "25766c5b625a36e41a3db82ee1f5adc58b6e8c366fc1a0c4fc665f59c082df77",
+      "distractorWholeBodyBinding": {
+        "proposedRussianWorkingRawSha256": "53841d9714a7b8dd2d9d71b0b49d76d78df4f9f8f850116e71783948d47864b7",
+        "bodyNotYetRuntime": true
+      },
+      "additionalWholeLexicalObjectsActuallyRead": {
+        "1365040": "b36122a87513990552b8c1e15fe46fadd7f0960ffbfe614319e84e5e81a9da5b",
+        "1365050": "cc3f951a365c62b83af81e0a026f0a1fc197287a3c567aebb50f7c6c6ffa7054",
+        "1365070": "a7c91e2552125743dd88072fe2c4c496453057630f8c8dddffd1848b515763d3",
+        "1365170": "b71c2711468a485c582d6859bd6bfbf61ffb4ad0a7096102a9ff185004fa3ad9",
+        "1365250": "d4f33071f870aa8e9f323511035b9722db21205df3d221917b3a05ede4e297c5",
+        "1415470": "f00a403966f9b06e5629a63408232d17b518ada7814e5438cb3efed09cf01573",
+        "1415490": "692d73a020353e4a6f6619dfe1cce159f9a7b5f7852fb2c8050c85e86150bf94",
+        "1536010": "f6e4db11b6fe30d57252d6f0a7193f2f9f88cb0c99e34509ea010d18cafda30c",
+        "1562400": "450efb45b8b235593aca7c08e1a451b657c2f15d1d122034d6701eb65d20efbe",
+        "2256340": "1c4d140706b80ad8ac5f406ab6e4fde7eb672926b821a943dc6435f08dad5b14"
+      },
+      "proposedActive": true,
+      "authorVerdict": "AUTHOR_PROVISIONAL_QUALIFIED_INTRODUCTORY_CORE_CONTRAST_ONLY",
+      "actualIndividualCoreContrastAndBoundary": "Topic/question/title versus parent/interpersonal closeness introductory cores, individually considered rather than inherited from 親→題. Whole 親おや/したしい/したしむ and lexical restrictions remain bound. A family-related topic is not interchangeable meaning; no reverse/transitive or universal inference.",
+      "entireProspectiveTypedPoolRowsActuallyRead": 261,
+      "independentlyReviewed": false,
+      "ordinaryNegativePairSafetyApproved": false,
+      "rarityFrequencyNecessityApproval": false,
+      "universalAllSensesSeparationApproved": false,
+      "noReverseTransitiveCliqueInference": true
+    },
+    {
+      "id": "085-N018",
+      "source": "題",
+      "distractor": "週",
+      "sourcePath": "kanji/題.md",
+      "distractorPath": "kanji/週.md",
+      "actualProposedSourceAnswerTitle": "тема; вопрос",
+      "actualCurrentDistractorAnswerTitle": "неделя",
+      "sourceMetadataActuallyRead": {
+        "kanji": "題",
+        "title": "тема; вопрос",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-3",
+          "structure-unclassified"
+        ],
+        "strokes": 18,
+        "radical": "頁",
+        "radicalNumber": 181,
+        "onyomi": [
+          "ダイ"
+        ],
+        "kunyomi": [],
+        "distractors": [
+          "質",
+          "親",
+          "週"
+        ]
+      },
+      "distractorMetadataActuallyRead": {
+        "kanji": "週",
+        "title": "неделя",
+        "jlpt": 4,
+        "tags": [
+          "jlpt-n4",
+          "grade-2",
+          "structure-unclassified"
+        ],
+        "strokes": 11,
+        "radical": "辵",
+        "radicalNumber": 162,
+        "onyomi": [
+          "シュウ"
+        ],
+        "kunyomi": [],
+        "distractors": [
+          "運",
+          "通",
+          "道"
+        ]
+      },
+      "sourceOfficialWholeRecordRawSha256": "971d3b7c889554deda57041083bb4a9828e6b6f74a2a3c64c4171a85904b339f",
+      "distractorOfficialWholeRecordRawSha256": "05239d11209706a8cac4106b9875f67edfaa80e9bf4209ea10c54b74637e2c81",
+      "sourceProposedWholeRussianBodyRawSha256": "25766c5b625a36e41a3db82ee1f5adc58b6e8c366fc1a0c4fc665f59c082df77",
+      "distractorWholeBodyBinding": {
+        "currentCompleteBilingualContext": {
+          "path": "kanji/週.md",
+          "sourceGitRawSha256": "6ed7691247d856f16ead99263d5c260267dd295ea8a0616376e7352f48435a79",
+          "russianWorkingRawSha256": "6e21249ac2767960b496ecaf856ad88399e62a1552b21f15009c8796d52e69b3",
+          "russianGitRawSha256": "6e21249ac2767960b496ecaf856ad88399e62a1552b21f15009c8796d52e69b3",
+          "captureIsReading": false
+        },
+        "freshWholeBodyReading": true
+      },
+      "additionalWholeLexicalObjectsActuallyRead": {
+        "1333450": "8fe83011042be18b049f5e5b01101942dc169398679c7ac27290532ce634aed3",
+        "1415470": "f00a403966f9b06e5629a63408232d17b518ada7814e5438cb3efed09cf01573",
+        "1415490": "692d73a020353e4a6f6619dfe1cce159f9a7b5f7852fb2c8050c85e86150bf94",
+        "1536010": "f6e4db11b6fe30d57252d6f0a7193f2f9f88cb0c99e34509ea010d18cafda30c",
+        "1562400": "450efb45b8b235593aca7c08e1a451b657c2f15d1d122034d6701eb65d20efbe"
+      },
+      "proposedActive": true,
+      "authorVerdict": "AUTHOR_PROVISIONAL_QUALIFIED_INTRODUCTORY_CORE_CONTRAST_ONLY",
+      "actualIndividualCoreContrastAndBoundary": "Topic/question/title versus calendar week introductory cores. A weekly question can be scheduled, but the topic or test-question counter does not become the offered week meaning. Whole 週 body/readings remain intact; no modern frequency, necessity or global uniqueness conclusion.",
+      "entireProspectiveTypedPoolRowsActuallyRead": 261,
+      "independentlyReviewed": false,
+      "ordinaryNegativePairSafetyApproved": false,
+      "rarityFrequencyNecessityApproval": false,
+      "universalAllSensesSeparationApproved": false,
+      "noReverseTransitiveCliqueInference": true
+    }
+  ],
+  "sourceDirectedMetadataCorrectionsProposed": [],
+  "addedDictionaryClarifications": [
+    {
+      "id": "085-A001",
+      "subject": "別",
+      "exactScope": "Cover preserved わ.ける as 別ける with actual rarely-used spelling flag. 分かれる/別れる introductory contrast is not a universal all-sense separation.",
+      "evidence": "Whole1503000/1606590/1606600/1509430 and whole KanjiPedia別.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "085-A002",
+      "subject": "勉",
+      "exactScope": "Cover preserved つと.める via 勉める/努める and its exact rarely-used spelling flag; remove unsupported beginner usefulness superlative. No modern necessity or ordinary-frequency conclusion.",
+      "evidence": "Whole1240820/1241060/1512670/2080160 and whole KanjiPedia勉.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "085-A003",
+      "subject": "真",
+      "exactScope": "Cover preserved bareま and boundま- separately; retain まこと/まことに/まことの, separately acknowledge しんに/しんの. Full lexical真まこと gives ―の道; no wrong-reading finding from absence in a different JMdict object, no unsupported universal formal-register or frequency judgment.",
+      "evidence": "Whole1363180/1381160/1580555/1853530/2868540 and whole supplemental KanjiPedia真ま/真まこと lexical entries.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "085-A004",
+      "subject": "親",
+      "exactScope": "Cover おや- with 親子; retain source 本に親しむ and non-person familiarization. Supplemental親しむ lexical sense② supports general things through ongoing contact; its actual example is 土に親しむ, NOT a claimed direct quotation of 本に親しむ. 親しい/親切 contrast does not equate closeness with kinship or helpfulness.",
+      "evidence": "Whole1365040/1365050/1365070/1365170/1365250 and complete frozen親; whole supplementalKanjiPedia親しむ.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "085-A005",
+      "subject": "題",
+      "exactScope": "Source empty kun array is retained as selected inventory, not inferred from a historical meaning; acknowledge actual extra KanjiPedia音テイ without inserting it into frozen metadata. Topic/question/title is not universal trouble.",
+      "evidence": "WholeKANJIDIC題/1415470/1415490/1536010/1562400 and whole KanjiPedia題.",
+      "independentDisposition": "PENDING"
+    }
+  ],
+  "historicalOriginalDirectionsInReviewScope": 18,
+  "prospectiveActiveDirections": 18,
+  "authorProvisionalQualifiedIntroductoryCoreDirections": 18,
+  "authorProposedConservativeDirectionRemovals": 0,
+  "exactProposedRemovedDirections": [],
+  "allIndependentDispositionsPending": true,
+  "noAutomaticReverseCorrection": true,
+  "newlyInventedDirectedNegativeEdges": 0,
+  "negativeEdgesRemovedToShrinkSixRootScope": 0,
+  "currentPoolObservedOverlapFlagsNotNewGlobalPairJudgments": [
+    {
+      "source": "別",
+      "observedCurrentPoolProviders": [
+        "分",
+        "切",
+        "去"
+      ],
+      "exactScope": "Actual whole 別ける/分ける and parting/division contexts are nonexclusive; typed cutting/leaving observations do not create new guards.",
+      "noNewDirectedEdges": true,
+      "noFreshWholeProviderReadingClaim": true,
+      "notAnExhaustiveGlobalPairMatrix": true,
+      "independentDisposition": "PENDING;NO_GLOBAL_ORDINARY_QUIZ_UNIQUENESS_APPROVAL"
+    },
+    {
+      "source": "勉",
+      "observedCurrentPoolProviders": [
+        "力",
+        "強",
+        "学",
+        "習",
+        "研",
+        "究"
+      ],
+      "exactScope": "Actual effort/force/study domains; 力める/勉める spellings do not automatically settle the offered сила/мощь forward answer or reciprocal safety. Outside typed providers are not fresh whole lesson reviews.",
+      "noNewDirectedEdges": true,
+      "noFreshWholeProviderReadingClaim": true,
+      "notAnExhaustiveGlobalPairMatrix": true,
+      "independentDisposition": "PENDING;NO_GLOBAL_ORDINARY_QUIZ_UNIQUENESS_APPROVAL"
+    },
+    {
+      "source": "真",
+      "observedCurrentPoolProviders": [
+        "正",
+        "本",
+        "白"
+      ],
+      "exactScope": "Actual truth/genuine/correctness/original/intensification domains are not universally separate; typed observations are not new direct guards or a fresh complete provider-body review.",
+      "noNewDirectedEdges": true,
+      "noFreshWholeProviderReadingClaim": true,
+      "notAnExhaustiveGlobalPairMatrix": true,
+      "independentDisposition": "PENDING;NO_GLOBAL_ORDINARY_QUIZ_UNIQUENESS_APPROVAL"
+    },
+    {
+      "source": "答",
+      "observedCurrentPoolProviders": [
+        "書",
+        "言",
+        "話",
+        "会"
+      ],
+      "exactScope": "Response/writing/speaking/correspondence contexts remain visible; actual offered-title forward comparisons are not global disjointness.",
+      "noNewDirectedEdges": true,
+      "noFreshWholeProviderReadingClaim": true,
+      "notAnExhaustiveGlobalPairMatrix": true,
+      "independentDisposition": "PENDING;NO_GLOBAL_ORDINARY_QUIZ_UNIQUENESS_APPROVAL"
+    },
+    {
+      "source": "親",
+      "observedCurrentPoolProviders": [
+        "近",
+        "父",
+        "母",
+        "友",
+        "族",
+        "子"
+      ],
+      "exactScope": "Actual interpersonal/familial proximity and current近 title близкий can overlap. Whole assigned words preserve restrictions; other typed provider observations are not an exhaustive direct-pair matrix.",
+      "noNewDirectedEdges": true,
+      "noFreshWholeProviderReadingClaim": true,
+      "notAnExhaustiveGlobalPairMatrix": true,
+      "independentDisposition": "PENDING;NO_GLOBAL_ORDINARY_QUIZ_UNIQUENESS_APPROVAL"
+    },
+    {
+      "source": "題",
+      "observedCurrentPoolProviders": [
+        "問",
+        "質",
+        "名",
+        "事",
+        "意",
+        "文"
+      ],
+      "exactScope": "Actual question/title/subject/evaluation domains are nonexclusive. Whole 質す does not settle the offered качество/сущность forward answer; other typed providers are not fresh whole-body review.",
+      "noNewDirectedEdges": true,
+      "noFreshWholeProviderReadingClaim": true,
+      "notAnExhaustiveGlobalPairMatrix": true,
+      "independentDisposition": "PENDING;NO_GLOBAL_ORDINARY_QUIZ_UNIQUENESS_APPROVAL"
+    }
+  ],
+  "originalNavigationOnlyIntakePlanRetained": true,
+  "baselineSemanticScopeAmendments": [],
+  "navigationOnlyExistingWords": 15,
+  "navigationPlusSemanticAmendmentWords": 0,
+  "navigationWrappers": 15,
+  "existingWordPatches": 15,
+  "exactNewLessonProposals": [
+    {
+      "id": "別",
+      "path": "kanji/別.md",
+      "expectedRussianTitle": "отдельный; другой",
+      "sourceGitRawSha256": "f7762a244a4609f68c1fc77071c42aa7fc8accf7506360e66179ba6637ca25e1",
+      "expectedWorkingRawSha256": "b5a87e15094906a55d22b7d47a5174ec9eb48cf7aac86d0811e4d88be4c39df7",
+      "expectedLfSha256": "b5a87e15094906a55d22b7d47a5174ec9eb48cf7aac86d0811e4d88be4c39df7"
+    },
+    {
+      "id": "勉",
+      "path": "kanji/勉.md",
+      "expectedRussianTitle": "стараться; прилагать усилия",
+      "sourceGitRawSha256": "2c6fe70f14b754c6bc87eaf5052ec76cc272fb81d9e33820b41e3f38751d7c20",
+      "expectedWorkingRawSha256": "b02cc3fb235b0c2778b2dfb4cf64f71f33657d26bab02e532903c61f462a1479",
+      "expectedLfSha256": "b02cc3fb235b0c2778b2dfb4cf64f71f33657d26bab02e532903c61f462a1479"
+    },
+    {
+      "id": "真",
+      "path": "kanji/真.md",
+      "expectedRussianTitle": "истинный; подлинный",
+      "sourceGitRawSha256": "c5b5d2b5c976f2d00a7f63fc476abf57985741fa6d092253d1376cb9c806feb3",
+      "expectedWorkingRawSha256": "7b8a44d9ab4c79faf3f60ad2f3da91352e37f12be8baa091e5f86a7ff3501ec5",
+      "expectedLfSha256": "7b8a44d9ab4c79faf3f60ad2f3da91352e37f12be8baa091e5f86a7ff3501ec5"
+    },
+    {
+      "id": "答",
+      "path": "kanji/答.md",
+      "expectedRussianTitle": "ответ; отвечать",
+      "sourceGitRawSha256": "6cb975c1c90265487a4d9e97be847aa2baf4a56c7824ec6dd3a3fdf3146908eb",
+      "expectedWorkingRawSha256": "1879d9dce3562b27de4b974e790bb0bffa86b19480a46497d6f93717a18c4016",
+      "expectedLfSha256": "1879d9dce3562b27de4b974e790bb0bffa86b19480a46497d6f93717a18c4016"
+    },
+    {
+      "id": "親",
+      "path": "kanji/親.md",
+      "expectedRussianTitle": "родитель; близкий",
+      "sourceGitRawSha256": "779311c7c1ca35fd0a4f92bf791d070a8e07a20d657821a17890677fd324c5a3",
+      "expectedWorkingRawSha256": "53841d9714a7b8dd2d9d71b0b49d76d78df4f9f8f850116e71783948d47864b7",
+      "expectedLfSha256": "53841d9714a7b8dd2d9d71b0b49d76d78df4f9f8f850116e71783948d47864b7"
+    },
+    {
+      "id": "題",
+      "path": "kanji/題.md",
+      "expectedRussianTitle": "тема; вопрос",
+      "sourceGitRawSha256": "8e4c1cee7253cc5e9385394c1c7784afde970977fb684d9f6ea825a3a7df597e",
+      "expectedWorkingRawSha256": "25766c5b625a36e41a3db82ee1f5adc58b6e8c366fc1a0c4fc665f59c082df77",
+      "expectedLfSha256": "25766c5b625a36e41a3db82ee1f5adc58b6e8c366fc1a0c4fc665f59c082df77"
+    }
+  ],
+  "exactExistingWordProposals": [
+    {
+      "path": "words/両親.md",
+      "beforeWorkingRawSha256": "2a9ca0857dbfb65bd2004f9b99a9c0dbffd6352a0dd4ffb74b0171b9faee34bc",
+      "expectedAfterWorkingRawSha256": "4af6ea932fe3e981ac095de3623ac23c79d7abce71f5b21a3158a6adea5e2567",
+      "expectedAfterLfSha256": "4af6ea932fe3e981ac095de3623ac23c79d7abce71f5b21a3158a6adea5e2567",
+      "exactEdits": [
+        {
+          "kanji": "親",
+          "section": "Как сочетаются кандзи",
+          "linkLabel": "親",
+          "beforeLine": "両 — «оба» — и 親 — «родитель» — соединяются онными чтениями: りょう + しん. Это не то же чтение, что у самостоятельного исконного существительного 親（おや）.",
+          "afterLine": "両 — «оба» — и [親](../kanji/親.md) — «родитель» — соединяются онными чтениями: りょう + しん. Это не то же чтение, что у самостоятельного исконного существительного 親（おや）.",
+          "exactOnlyWrapperChange": "Wrap this existing standalone explanatory Japanese glyph only.",
+          "existingMarkdownSpansProtected": true
+        }
+      ],
+      "exactSemanticSectionEdits": [],
+      "navigationOnly": true,
+      "noMetadataReadingOrOriginalExampleSentenceChanges": true
+    },
+    {
+      "path": "words/写真.md",
+      "beforeWorkingRawSha256": "0472313e087627ee581c2534010a63455f56cacf392d45630ce84f54bbf2926a",
+      "expectedAfterWorkingRawSha256": "0263fa9414405f5053f961c3c6618fa1e67a1af3523845a41c0c12babd8acbe5",
+      "expectedAfterLfSha256": "b4f5ea7232f3c3b219764787682a65ad14f67b5d565c80c3d27b2acfe33ac396",
+      "exactEdits": [
+        {
+          "kanji": "真",
+          "section": "Как сочетаются кандзи",
+          "linkLabel": "真",
+          "beforeLine": "[写](../kanji/写.md) связан с копированием или изображением, а 真 — с действительностью или истиной.\r",
+          "afterLine": "[写](../kanji/写.md) связан с копированием или изображением, а [真](../kanji/真.md) — с действительностью или истиной.\r",
+          "exactOnlyWrapperChange": "Wrap this existing standalone explanatory Japanese glyph only.",
+          "existingMarkdownSpansProtected": true
+        }
+      ],
+      "exactSemanticSectionEdits": [],
+      "navigationOnly": true,
+      "noMetadataReadingOrOriginalExampleSentenceChanges": true
+    },
+    {
+      "path": "words/別.md",
+      "beforeWorkingRawSha256": "30ae9162ecd4f062c54eface5f1ede9187821623b305a116698285a656b389d8",
+      "expectedAfterWorkingRawSha256": "6d11a2ca7c253d26a6debde98f00f0d527b24e94cd1cdf3581c4465ff2070429",
+      "expectedAfterLfSha256": "6d11a2ca7c253d26a6debde98f00f0d527b24e94cd1cdf3581c4465ff2070429",
+      "exactEdits": [
+        {
+          "kanji": "別",
+          "section": "Как сочетаются кандзи",
+          "linkLabel": "別",
+          "beforeLine": "Один 別 использует онное чтение べつ",
+          "afterLine": "Один [別](../kanji/別.md) использует онное чтение べつ",
+          "exactOnlyWrapperChange": "Wrap this existing standalone explanatory Japanese glyph only.",
+          "existingMarkdownSpansProtected": true
+        }
+      ],
+      "exactSemanticSectionEdits": [],
+      "navigationOnly": true,
+      "noMetadataReadingOrOriginalExampleSentenceChanges": true
+    },
+    {
+      "path": "words/別れる.md",
+      "beforeWorkingRawSha256": "b5c3ecf48b05f47bc18d54fb1aedbbd5a363d8a15d854f71242bf894cec39235",
+      "expectedAfterWorkingRawSha256": "9a7e75fa2f89fe9446645009dc686b5c37f2420048348def85ea89c21072c24e",
+      "expectedAfterLfSha256": "9a7e75fa2f89fe9446645009dc686b5c37f2420048348def85ea89c21072c24e",
+      "exactEdits": [
+        {
+          "kanji": "別",
+          "section": "Как сочетаются кандзи",
+          "linkLabel": "別",
+          "beforeLine": "別 связан с разделением и передаёт わか;",
+          "afterLine": "[別](../kanji/別.md) связан с разделением и передаёт わか;",
+          "exactOnlyWrapperChange": "Wrap this existing standalone explanatory Japanese glyph only.",
+          "existingMarkdownSpansProtected": true
+        }
+      ],
+      "exactSemanticSectionEdits": [],
+      "navigationOnly": true,
+      "noMetadataReadingOrOriginalExampleSentenceChanges": true
+    },
+    {
+      "path": "words/勉強.md",
+      "beforeWorkingRawSha256": "1860b052caa40ed637fa36c9154bebbc1e4d77c3873ed43d0ea2eafdbb9f3cff",
+      "expectedAfterWorkingRawSha256": "2022a6fbd9792228eee5337ca87c1e4961faa562b29dbad26409c38550f8b0fb",
+      "expectedAfterLfSha256": "2022a6fbd9792228eee5337ca87c1e4961faa562b29dbad26409c38550f8b0fb",
+      "exactEdits": [
+        {
+          "kanji": "勉",
+          "section": "Как сочетаются кандзи",
+          "linkLabel": "勉",
+          "beforeLine": "勉 ベン связан с усилием, а [強](../kanji/強.md) キョウ — с силой.",
+          "afterLine": "[勉](../kanji/勉.md) ベン связан с усилием, а [強](../kanji/強.md) キョウ — с силой.",
+          "exactOnlyWrapperChange": "Wrap this existing standalone explanatory Japanese glyph only.",
+          "existingMarkdownSpansProtected": true
+        }
+      ],
+      "exactSemanticSectionEdits": [],
+      "navigationOnly": true,
+      "noMetadataReadingOrOriginalExampleSentenceChanges": true
+    },
+    {
+      "path": "words/問題.md",
+      "beforeWorkingRawSha256": "93b5b3ce8a0f7eb8c18645e5bd3fd8d7a64a20e563b175e13999737c9f5de6d4",
+      "expectedAfterWorkingRawSha256": "69a7c53d926ec77d0fce783d9ace1f2f5dc5673fe6c00f0cae68dede16f54b6a",
+      "expectedAfterLfSha256": "3bb0013184dda64708fabda135d6245a551f165103943f245d58dbab49a42ee0",
+      "exactEdits": [
+        {
+          "kanji": "題",
+          "section": "Как сочетаются кандзи",
+          "linkLabel": "題",
+          "beforeLine": "[問](../kanji/問.md) связан с вопросом, а 題 — с темой или заданием:\r",
+          "afterLine": "[問](../kanji/問.md) связан с вопросом, а [題](../kanji/題.md) — с темой или заданием:\r",
+          "exactOnlyWrapperChange": "Wrap this existing standalone explanatory Japanese glyph only.",
+          "existingMarkdownSpansProtected": true
+        }
+      ],
+      "exactSemanticSectionEdits": [],
+      "navigationOnly": true,
+      "noMetadataReadingOrOriginalExampleSentenceChanges": true
+    },
+    {
+      "path": "words/宿題.md",
+      "beforeWorkingRawSha256": "e2ce25377a71e790081e0616a9f19f094feeec3d4819e08fdff0a2db7de5f6a2",
+      "expectedAfterWorkingRawSha256": "30681a5e2082edd0d5bbad42777408805c093e47a0265e70874214fc1236df01",
+      "expectedAfterLfSha256": "30681a5e2082edd0d5bbad42777408805c093e47a0265e70874214fc1236df01",
+      "exactEdits": [
+        {
+          "kanji": "題",
+          "section": "Как сочетаются кандзи",
+          "linkLabel": "題",
+          "beforeLine": "宿 связан с ночлегом, жильём; 題 — с темой или вопросом.",
+          "afterLine": "宿 связан с ночлегом, жильём; [題](../kanji/題.md) — с темой или вопросом.",
+          "exactOnlyWrapperChange": "Wrap this existing standalone explanatory Japanese glyph only.",
+          "existingMarkdownSpansProtected": true
+        }
+      ],
+      "exactSemanticSectionEdits": [],
+      "navigationOnly": true,
+      "noMetadataReadingOrOriginalExampleSentenceChanges": true
+    },
+    {
+      "path": "words/特別.md",
+      "beforeWorkingRawSha256": "2784399844f1b5811ba2f7ce91d7fe5841f512360aae23ba1a58d220af231a0e",
+      "expectedAfterWorkingRawSha256": "0e369f36c702df030455c5e5fc4843ea7710cb87b984b3b63114660907aa7c67",
+      "expectedAfterLfSha256": "6708a3813f4490e1af27a539b80e7650fac90d039ac850caa6b63199a0be629e",
+      "exactEdits": [
+        {
+          "kanji": "別",
+          "section": "Как сочетаются кандзи",
+          "linkLabel": "別",
+          "beforeLine": "[特](../kanji/特.md) передаёт «особый», а 別 — «отдельный; иной». Смыслы вместе выделяют нечто, отличающееся от обычного.\r",
+          "afterLine": "[特](../kanji/特.md) передаёт «особый», а [別](../kanji/別.md) — «отдельный; иной». Смыслы вместе выделяют нечто, отличающееся от обычного.\r",
+          "exactOnlyWrapperChange": "Wrap this existing standalone explanatory Japanese glyph only.",
+          "existingMarkdownSpansProtected": true
+        }
+      ],
+      "exactSemanticSectionEdits": [],
+      "navigationOnly": true,
+      "noMetadataReadingOrOriginalExampleSentenceChanges": true
+    },
+    {
+      "path": "words/真ん中.md",
+      "beforeWorkingRawSha256": "fc677bdeccc7fd92001dd4b2c9934c3c225e4d48b048e0aa5e153e364a3ba899",
+      "expectedAfterWorkingRawSha256": "9c17753783a44d89ace1b362b49baca03ec8c3b67609bcda099d52eeab1d2329",
+      "expectedAfterLfSha256": "64c0ee33ccf21406bc7be9e0c1ba88f6be19d8bd9ed898ac6d2c90220dd3a894",
+      "exactEdits": [
+        {
+          "kanji": "真",
+          "section": "Как сочетаются кандзи",
+          "linkLabel": "真",
+          "beforeLine": "真 с чтением ま усиливает [中](../kanji/中.md),\r",
+          "afterLine": "[真](../kanji/真.md) с чтением ま усиливает [中](../kanji/中.md),\r",
+          "exactOnlyWrapperChange": "Wrap this existing standalone explanatory Japanese glyph only.",
+          "existingMarkdownSpansProtected": true
+        }
+      ],
+      "exactSemanticSectionEdits": [],
+      "navigationOnly": true,
+      "noMetadataReadingOrOriginalExampleSentenceChanges": true
+    },
+    {
+      "path": "words/答.md",
+      "beforeWorkingRawSha256": "e062f463c270ffa650040159f8b9db4eed48cfc863d15306b8643e4dad95fc54",
+      "expectedAfterWorkingRawSha256": "98bef0c9ad78ae460f4c0a91dde90a35f0e2eaac4bc696ed3f8a28f7d3f2251a",
+      "expectedAfterLfSha256": "98bef0c9ad78ae460f4c0a91dde90a35f0e2eaac4bc696ed3f8a28f7d3f2251a",
+      "exactEdits": [
+        {
+          "kanji": "答",
+          "section": "Как сочетаются кандзи",
+          "linkLabel": "答",
+          "beforeLine": "答 записывает исконное слово こたえ.",
+          "afterLine": "[答](../kanji/答.md) записывает исконное слово こたえ.",
+          "exactOnlyWrapperChange": "Wrap this existing standalone explanatory Japanese glyph only.",
+          "existingMarkdownSpansProtected": true
+        }
+      ],
+      "exactSemanticSectionEdits": [],
+      "navigationOnly": true,
+      "noMetadataReadingOrOriginalExampleSentenceChanges": true
+    },
+    {
+      "path": "words/答える.md",
+      "beforeWorkingRawSha256": "aa311943df862d3bf975322ff826ef2ac3060279ed7864f8f67d6f594b2f923e",
+      "expectedAfterWorkingRawSha256": "1bcdee4ca70a817830be0de606cdfc225deba3ee43142193406f9cee74ed698b",
+      "expectedAfterLfSha256": "664ddaea2ca3636018d0a07d121e7e2637666c744cca68bd4b00a7137a5f575c",
+      "exactEdits": [
+        {
+          "kanji": "答",
+          "section": "Как сочетаются кандзи",
+          "linkLabel": "答",
+          "beforeLine": "Это один исконный глагол. 答 передаёт こた, а える — окуригана.\r",
+          "afterLine": "Это один исконный глагол. [答](../kanji/答.md) передаёт こた, а える — окуригана.\r",
+          "exactOnlyWrapperChange": "Wrap this existing standalone explanatory Japanese glyph only.",
+          "existingMarkdownSpansProtected": true
+        }
+      ],
+      "exactSemanticSectionEdits": [],
+      "navigationOnly": true,
+      "noMetadataReadingOrOriginalExampleSentenceChanges": true
+    },
+    {
+      "path": "words/親.md",
+      "beforeWorkingRawSha256": "4ff1eaa5f8800c2a2cc8f8552c1dd89a5d4bc3a4ac7224ed30b03fcf9352c12e",
+      "expectedAfterWorkingRawSha256": "8cd707ac4e87a9a92ac218ba122e83a61610073096bb0bdff472b11100568e87",
+      "expectedAfterLfSha256": "8cd707ac4e87a9a92ac218ba122e83a61610073096bb0bdff472b11100568e87",
+      "exactEdits": [
+        {
+          "kanji": "親",
+          "section": "Как сочетаются кандзи",
+          "linkLabel": "親",
+          "beforeLine": "Это исконное существительное, записанное одним кандзи: 親 читается おや, без окуриганы. Это не чтение シン в сочетаниях вроде [両親](両親.md)（りょうしん）— «оба родителя».",
+          "afterLine": "Это исконное существительное, записанное одним кандзи: [親](../kanji/親.md) читается おや, без окуриганы. Это не чтение シン в сочетаниях вроде [両親](両親.md)（りょうしん）— «оба родителя».",
+          "exactOnlyWrapperChange": "Wrap this existing standalone explanatory Japanese glyph only.",
+          "existingMarkdownSpansProtected": true
+        }
+      ],
+      "exactSemanticSectionEdits": [],
+      "navigationOnly": true,
+      "noMetadataReadingOrOriginalExampleSentenceChanges": true
+    },
+    {
+      "path": "words/親しい.md",
+      "beforeWorkingRawSha256": "9f0307b4184ce116246ed0b81cfef32cdb5da08bdb92cd60c93f76e349579340",
+      "expectedAfterWorkingRawSha256": "c059417cc93fc2a4dd7224b1cda76ba42ff9547ee43518be393f96fb720b28b6",
+      "expectedAfterLfSha256": "c059417cc93fc2a4dd7224b1cda76ba42ff9547ee43518be393f96fb720b28b6",
+      "exactEdits": [
+        {
+          "kanji": "親",
+          "section": "Как сочетаются кандзи",
+          "linkLabel": "親",
+          "beforeLine": "親 здесь передаёт близость",
+          "afterLine": "[親](../kanji/親.md) здесь передаёт близость",
+          "exactOnlyWrapperChange": "Wrap this existing standalone explanatory Japanese glyph only.",
+          "existingMarkdownSpansProtected": true
+        }
+      ],
+      "exactSemanticSectionEdits": [],
+      "navigationOnly": true,
+      "noMetadataReadingOrOriginalExampleSentenceChanges": true
+    },
+    {
+      "path": "words/親切.md",
+      "beforeWorkingRawSha256": "a1a79f97ee975e49286cc68a0418d61d56614222e1cab665779a4454bfa7969d",
+      "expectedAfterWorkingRawSha256": "92e20990fcd93a1796dda498044ae95285155678222a5f844b658b7dfe46ac0a",
+      "expectedAfterLfSha256": "92e20990fcd93a1796dda498044ae95285155678222a5f844b658b7dfe46ac0a",
+      "exactEdits": [
+        {
+          "kanji": "親",
+          "section": "Как сочетаются кандзи",
+          "linkLabel": "親",
+          "beforeLine": "親 вызывает ассоциацию с близостью,",
+          "afterLine": "[親](../kanji/親.md) вызывает ассоциацию с близостью,",
+          "exactOnlyWrapperChange": "Wrap this existing standalone explanatory Japanese glyph only.",
+          "existingMarkdownSpansProtected": true
+        }
+      ],
+      "exactSemanticSectionEdits": [],
+      "navigationOnly": true,
+      "noMetadataReadingOrOriginalExampleSentenceChanges": true
+    },
+    {
+      "path": "words/親戚.md",
+      "beforeWorkingRawSha256": "25b9af220b6c5f35d8ea19247bcfc342df486106c892d28ea60b8c8e4dbf7199",
+      "expectedAfterWorkingRawSha256": "92b24f261c4e34b656e5d78caa054d08a10aac422bfc87c54bf84583aff3422c",
+      "expectedAfterLfSha256": "92b24f261c4e34b656e5d78caa054d08a10aac422bfc87c54bf84583aff3422c",
+      "exactEdits": [
+        {
+          "kanji": "親",
+          "section": "Как сочетаются кандзи",
+          "linkLabel": "親",
+          "beforeLine": "親 передаёт семейную связь или близость. 戚 тоже связан с родством или родственниками. Два близких значения усиливают смысл семейной связи. Онные чтения — シン + セキ.",
+          "afterLine": "[親](../kanji/親.md) передаёт семейную связь или близость. 戚 тоже связан с родством или родственниками. Два близких значения усиливают смысл семейной связи. Онные чтения — シン + セキ.",
+          "exactOnlyWrapperChange": "Wrap this existing standalone explanatory Japanese glyph only.",
+          "existingMarkdownSpansProtected": true
+        }
+      ],
+      "exactSemanticSectionEdits": [],
+      "navigationOnly": true,
+      "noMetadataReadingOrOriginalExampleSentenceChanges": true
+    }
+  ],
+  "preFreezeJapaneseAndNavigationAudit": [
+    {
+      "id": "別",
+      "sourceJapaneseRunsChecked": 19,
+      "sourceJapaneseRunsMissing": [],
+      "allSourceBodyJapaneseRunsPreservedIgnoringWhitespacePunctuation": true,
+      "originalIdReadingsLevelStrokesRadicalTagsPreserved": true,
+      "proposedDirectedMetadataAmendment": null,
+      "requiredAvailableOriginalNavigation": [
+        "kanji/分.md",
+        "kanji/切.md",
+        "words/別れる.md",
+        "words/特別.md"
+      ],
+      "actualNavigation": [
+        "kanji/分.md",
+        "kanji/切.md",
+        "words/別.md",
+        "words/別れる.md",
+        "words/特別.md"
+      ],
+      "auditIsNotTeachingCorrectnessOrIndependentReview": true
+    },
+    {
+      "id": "勉",
+      "sourceJapaneseRunsChecked": 12,
+      "sourceJapaneseRunsMissing": [],
+      "allSourceBodyJapaneseRunsPreservedIgnoringWhitespacePunctuation": true,
+      "originalIdReadingsLevelStrokesRadicalTagsPreserved": true,
+      "proposedDirectedMetadataAmendment": null,
+      "requiredAvailableOriginalNavigation": [
+        "kanji/力.md",
+        "kanji/動.md",
+        "kanji/学.md",
+        "words/勉強.md"
+      ],
+      "actualNavigation": [
+        "kanji/力.md",
+        "kanji/動.md",
+        "kanji/学.md",
+        "words/勉強.md"
+      ],
+      "auditIsNotTeachingCorrectnessOrIndependentReview": true
+    },
+    {
+      "id": "真",
+      "sourceJapaneseRunsChecked": 18,
+      "sourceJapaneseRunsMissing": [],
+      "allSourceBodyJapaneseRunsPreservedIgnoringWhitespacePunctuation": true,
+      "originalIdReadingsLevelStrokesRadicalTagsPreserved": true,
+      "proposedDirectedMetadataAmendment": null,
+      "requiredAvailableOriginalNavigation": [
+        "kanji/十.md",
+        "kanji/百.md",
+        "kanji/目.md",
+        "words/写真.md"
+      ],
+      "actualNavigation": [
+        "kanji/十.md",
+        "kanji/百.md",
+        "kanji/目.md",
+        "words/写真.md"
+      ],
+      "auditIsNotTeachingCorrectnessOrIndependentReview": true
+    },
+    {
+      "id": "答",
+      "sourceJapaneseRunsChecked": 23,
+      "sourceJapaneseRunsMissing": [],
+      "allSourceBodyJapaneseRunsPreservedIgnoringWhitespacePunctuation": true,
+      "originalIdReadingsLevelStrokesRadicalTagsPreserved": true,
+      "proposedDirectedMetadataAmendment": null,
+      "requiredAvailableOriginalNavigation": [
+        "kanji/会.md",
+        "kanji/口.md",
+        "kanji/茶.md",
+        "words/答える.md"
+      ],
+      "actualNavigation": [
+        "kanji/会.md",
+        "kanji/口.md",
+        "kanji/茶.md",
+        "words/答える.md"
+      ],
+      "auditIsNotTeachingCorrectnessOrIndependentReview": true
+    },
+    {
+      "id": "親",
+      "sourceJapaneseRunsChecked": 18,
+      "sourceJapaneseRunsMissing": [],
+      "allSourceBodyJapaneseRunsPreservedIgnoringWhitespacePunctuation": true,
+      "originalIdReadingsLevelStrokesRadicalTagsPreserved": true,
+      "proposedDirectedMetadataAmendment": null,
+      "requiredAvailableOriginalNavigation": [
+        "kanji/新.md",
+        "kanji/木.md",
+        "kanji/立.md",
+        "kanji/見.md",
+        "words/親.md"
+      ],
+      "actualNavigation": [
+        "kanji/新.md",
+        "kanji/木.md",
+        "kanji/立.md",
+        "kanji/見.md",
+        "words/両親.md",
+        "words/親.md",
+        "words/親しい.md",
+        "words/親切.md"
+      ],
+      "auditIsNotTeachingCorrectnessOrIndependentReview": true
+    },
+    {
+      "id": "題",
+      "sourceJapaneseRunsChecked": 14,
+      "sourceJapaneseRunsMissing": [],
+      "allSourceBodyJapaneseRunsPreservedIgnoringWhitespacePunctuation": true,
+      "originalIdReadingsLevelStrokesRadicalTagsPreserved": true,
+      "proposedDirectedMetadataAmendment": null,
+      "requiredAvailableOriginalNavigation": [
+        "kanji/問.md",
+        "kanji/日.md",
+        "kanji/質.md",
+        "words/問題.md"
+      ],
+      "actualNavigation": [
+        "kanji/問.md",
+        "kanji/日.md",
+        "kanji/質.md",
+        "words/問題.md",
+        "words/宿題.md"
+      ],
+      "auditIsNotTeachingCorrectnessOrIndependentReview": true
+    }
+  ],
+  "allExistingBaselineWordMarkdownLinksPreserved": true,
+  "JapaneseAuditScope": "Every original Japanese body fragment in6new lessons; whole front matter except RU title. Source IDs/readings/levels/strokes/radicals/tags/all18directed arrays unchanged. All15word patches strictly NAV-only/15wrappers; visible text/metadata/readings/examples/old links unchanged. No independent review yet.",
+  "newJapaneseStrokeAssets": [
+    {
+      "path": "strokes/別.json",
+      "sourceGitRawSha256": "fe736147b534314a4c3ad84b1f44cfb7aa8c5f604419144fc0692293b66205fe",
+      "bytes": 1787
+    },
+    {
+      "path": "strokes/勉.json",
+      "sourceGitRawSha256": "d7f212dba601f80ea0310e900b05090e831652d619f0b77b0c21899852ce4f2d",
+      "bytes": 2464
+    },
+    {
+      "path": "strokes/真.json",
+      "sourceGitRawSha256": "a1281bb1eb690f31abc5118b87fa6fd0b18a35ac63eb0c5d16871f93f6081282",
+      "bytes": 2471
+    },
+    {
+      "path": "strokes/答.json",
+      "sourceGitRawSha256": "607ccc5158557779ceac661c61e506bcb139be6cdb34329cb240e421af0201c2",
+      "bytes": 2925
+    },
+    {
+      "path": "strokes/親.json",
+      "sourceGitRawSha256": "d35b3d0db4a2e7da521ff65204acb07af53f2c463ed8044c325212d96fe68495",
+      "bytes": 3826
+    },
+    {
+      "path": "strokes/題.json",
+      "sourceGitRawSha256": "6c2f1811bb54f796673af0be0297f933f14a64c9826660c949991cd11220a5b4",
+      "bytes": 4278
+    }
+  ],
+  "classification": {
+    "newN4": 6,
+    "sourceClassificationPreserved": true
+  },
+  "originalNavigation": [
+    {
+      "path": "kanji/別.md",
+      "label": "特別",
+      "sourceTarget": "../words/特別.md",
+      "resolvedTarget": "words/特別.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/別.md",
+      "label": "別れる",
+      "sourceTarget": "../words/別れる.md",
+      "resolvedTarget": "words/別れる.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/別.md",
+      "label": "別れる",
+      "sourceTarget": "../words/別れる.md",
+      "resolvedTarget": "words/別れる.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/別.md",
+      "label": "特別",
+      "sourceTarget": "../words/特別.md",
+      "resolvedTarget": "words/特別.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/別.md",
+      "label": "分",
+      "sourceTarget": "分.md",
+      "resolvedTarget": "kanji/分.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/別.md",
+      "label": "切",
+      "sourceTarget": "切.md",
+      "resolvedTarget": "kanji/切.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/勉.md",
+      "label": "力",
+      "sourceTarget": "力.md",
+      "resolvedTarget": "kanji/力.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/勉.md",
+      "label": "勉強",
+      "sourceTarget": "../words/勉強.md",
+      "resolvedTarget": "words/勉強.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/勉.md",
+      "label": "勉強",
+      "sourceTarget": "../words/勉強.md",
+      "resolvedTarget": "words/勉強.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/勉.md",
+      "label": "学",
+      "sourceTarget": "学.md",
+      "resolvedTarget": "kanji/学.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/勉.md",
+      "label": "動",
+      "sourceTarget": "動.md",
+      "resolvedTarget": "kanji/動.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/真.md",
+      "label": "目",
+      "sourceTarget": "目.md",
+      "resolvedTarget": "kanji/目.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/真.md",
+      "label": "十",
+      "sourceTarget": "十.md",
+      "resolvedTarget": "kanji/十.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/真.md",
+      "label": "写真",
+      "sourceTarget": "../words/写真.md",
+      "resolvedTarget": "words/写真.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/真.md",
+      "label": "写真",
+      "sourceTarget": "../words/写真.md",
+      "resolvedTarget": "words/写真.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/真.md",
+      "label": "目",
+      "sourceTarget": "目.md",
+      "resolvedTarget": "kanji/目.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/真.md",
+      "label": "百",
+      "sourceTarget": "百.md",
+      "resolvedTarget": "kanji/百.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/答.md",
+      "label": "答える",
+      "sourceTarget": "../words/答える.md",
+      "resolvedTarget": "words/答える.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/答.md",
+      "label": "mouth",
+      "sourceTarget": "口.md",
+      "resolvedTarget": "kanji/口.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/答.md",
+      "label": "答える",
+      "sourceTarget": "../words/答える.md",
+      "resolvedTarget": "words/答える.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/答.md",
+      "label": "答える",
+      "sourceTarget": "../words/答える.md",
+      "resolvedTarget": "words/答える.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/答.md",
+      "label": "会",
+      "sourceTarget": "会.md",
+      "resolvedTarget": "kanji/会.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/答.md",
+      "label": "茶",
+      "sourceTarget": "茶.md",
+      "resolvedTarget": "kanji/茶.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/親.md",
+      "label": "親",
+      "sourceTarget": "../words/親.md",
+      "resolvedTarget": "words/親.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/親.md",
+      "label": "立",
+      "sourceTarget": "立.md",
+      "resolvedTarget": "kanji/立.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/親.md",
+      "label": "木",
+      "sourceTarget": "木.md",
+      "resolvedTarget": "kanji/木.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/親.md",
+      "label": "見",
+      "sourceTarget": "見.md",
+      "resolvedTarget": "kanji/見.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/親.md",
+      "label": "親",
+      "sourceTarget": "../words/親.md",
+      "resolvedTarget": "words/親.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/親.md",
+      "label": "親",
+      "sourceTarget": "../words/親.md",
+      "resolvedTarget": "words/親.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/親.md",
+      "label": "新",
+      "sourceTarget": "新.md",
+      "resolvedTarget": "kanji/新.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/題.md",
+      "label": "日",
+      "sourceTarget": "日.md",
+      "resolvedTarget": "kanji/日.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/題.md",
+      "label": "問題",
+      "sourceTarget": "../words/問題.md",
+      "resolvedTarget": "words/問題.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/題.md",
+      "label": "問題",
+      "sourceTarget": "../words/問題.md",
+      "resolvedTarget": "words/問題.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/題.md",
+      "label": "問",
+      "sourceTarget": "問.md",
+      "resolvedTarget": "kanji/問.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    },
+    {
+      "path": "kanji/題.md",
+      "label": "質",
+      "sourceTarget": "質.md",
+      "resolvedTarget": "kanji/質.md",
+      "runtimeProvider": true,
+      "disposition": "Retain exact available navigation"
+    }
+  ],
+  "protectedSkyBoundary": {
+    "path": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+    "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+    "status": "excluded C2UNVERIFIED;notmedia",
+    "runtimeWordRemainsAbsent": true,
+    "priorKanjiSkyBoundary": "Existingaccepted077kanji空doesNOTapproveprotectedworddraft/distant-placecaptions/ordinaryfallbackquizsafety/media/defaultactivation."
+  },
+  "baselineRuntimeRawsUnchangedBeforeFreeze": 2018,
+  "rootLicensesNoticeRetained": true,
+  "stage": "AUTHOR_BOUND_SOURCE_ADJUDICATION_AND_PREMUTATION_SEMANTIC_FREEZE",
+  "directEdgeVerdicts": "18author-provisional qualified INTRODUCTORY-CORE contrasts after individual source/target/body/lexical/whole261typed-pool consideration. No direction changed. All independent dispositions PENDING; not18unrestricted safe negatives, not universal disjointness, not broad C2CLEAN or ordinary fallback approval.",
+  "broaderOrdinaryQuizSuitabilityModernNecessityFrequencyGlobalFutureUniqueness": "UNVERIFIED",
+  "learnerMutationOccurred": false,
+  "independentReviewOccurred": false,
+  "sourceAccepted": false,
+  "currentAcceptedObjects": 2018,
+  "prospectiveCandidateObjects": 2030,
+  "currentAcceptedKanji": 255,
+  "prospectiveKanji": 261,
+  "acceptedWordsUnchanged": 1478,
+  "currentAcceptedN4Kanji": 160,
+  "prospectiveN4Kanji": 166,
+  "prospectiveRemainingN4Kanji": 0,
+  "checkpointAuthority": null,
+  "ordinaryActivationAuthorized": false,
+  "fullTaskComplete": false,
+  "continueRequired": true,
+  "next": "Apply only6exact Russian lesson proposals/6sourceRAW strokes/15exact NAV-only word patches; serialized candidate checks; actually read6new RU+15whole changed RU+261CURRENT typed rows; signed candidate/ONE actual read-only reviewer; require actual bounded dispositions for all18original directions and6lesson rulings; resolve genuine findings; qualified tracking/fresh FINAL serialized checks/normal publication; then086+ALL remaining frozen8278scope. Completing frozenN4kanji does not complete the entire objective or authorize ordinary RU activation."
+}
