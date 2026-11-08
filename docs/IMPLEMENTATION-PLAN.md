@@ -11,7 +11,66 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current qualified source milestone: batch091
+## Current qualified source milestone: batch092
+
+Seven complete Russian frozen N3 lessons,**加/助/努/労/務/勝/勤,468 file lines**,
+seven RAW-identical KanjiVG assets and four current word bodies/four **NAV-only
+wrappers around existing standalone explanatory glyphs**:
+事務所→務,公務員→務,勝つ→勝,勤める→勤. No compound/stem split,visible semantic
+amendment,new word,source metadata correction or removed direction.
+Frozen EN,intake,premutation freeze,proposals,candidate and actual report stay unchanged.
+
+The [actual whole review](translation-batches/092-addition-help-effort-labor-duties-victory-and-diligence-kanji-independent-review-001.json)
+read49 whole teaching bodies,**27 EN/22 RU**:seven primary pairs,15 CURRENT
+context pairs and five EN-only comparisons,including all four changed words.
+It read148 official TEXT units:17 KANJIDIC/one Unicode/123 JMdict/seven KanjiPedia,
+plus one whole header;311 CURRENT typed metadata rows,all21 original/active directions,
+seven L rulings/seven A clarifications,four exact NAV diffs,seven outside observations,
+four whole guidance files and three correct CURRENT RU rubrics.
+66 successful reading commands/tool returns/windows bind actual whole payloads
+and line unions;75 terminal commands include72 successful and **three failed
+report-size assertions before emission**,not failed readings.
+No assigned-reading failure,truncation or nonterminal return;zero glyph pixels.
+311 typed rows are not whole lessons or1478 fresh word guards.
+
+The **10732-byte original stdout/native-final report**,SHA256
+`537de58ae7aea58e157638724332546ce38b836a509b53f124bfb4597d5b62e6`,
+is published verbatim,final LF included;no projection or second whole review.
+Actual **C1 source CLEAN/C2 bounded SOURCE coverage COMPLETE,introductory
+contrasts QUALIFIED,evidence consistency NEEDS FIX F1/C3 Russian CLEAN**
+remain scoped. The [separate ID erratum](translation-batches/092-addition-help-effort-labor-duties-victory-and-diligence-kanji-source-evidence-id-erratum-001.json)
+adopts the actual reviewer's exact mapping/remedy after author reading of all five
+whole bound objects:1539080勝れる/優れる;1603910勝る/優る;1171010右 better-of-two;
+1609560勝ち victory;2593990勝 victory/scenic spot/win counter,not右.
+The historical freeze/helper/report and original NEEDS FIX verdict remain immutable.
+This is not a learner defect,new independent verdict,learner edit or guard.
+
+All **21 directions are introductory-core Q only**. L002/A002 are qualified:
+助すけ «helper» is one sense,not exhaustive;1344370 also has colloquial «woman».
+Other six L/A rulings and all four NAV changes are supported.
+労 care/nursing overlaps help;動く operate/work constrains勤→動;右/服/野 retain
+their additional attested senses. Seven outside observations are limitations,
+not new guards. Prior091割→利 active-negative U and082姉→妹 unrestricted U persist.
+No reverse/transitive inference,frequency or etymology claim.
+Ordinary/all-sense/fallback suitability,modern necessity-frequency/global future
+uniqueness stay **UNVERIFIED**. One completed/idle reviewer,not running;
+the exact original-reviewer-requested ID correction is not a second review.
+
+Qualified source checkpoint: **2130 runtime objects/1478 words/311 kanji/311 strokes**;
+words671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/166 N4/**63 N3**/2 N2;all166 frozen N4 included,**304 N3 remain**.
+Strict statuses2130 reviewed-current/two excluded reviewed blocked-media drafts/
+6146 pending of8278;6148 runtime paths absent,no partial.
+Version `8577ac7d183281ca`;checkpoint authority null/Ready false.
+2112 other baseline runtime RAWs/tracking rows persist;all four word patches are NAV-only.
+These become accepted-main counts only after signed normal integration.
+Fresh final serialized checks/public archives/signatures/four protected refs/
+exact-main CI/owner issue verification have separate receipts.
+Protected033 WORD空 remains excluded/C2 UNVERIFIED/runtime-absent/not media;
+accepted077 KANJI空 does not resolve it. No device/media/default/package/release approval.
+Continue093+ and **ALL remaining safe frozen families**,not task completion.
+
+## Previous qualified source milestone: batch091
 
 Eight complete Russian frozen N3 lessons,**列/初/判/利/到/制/刻/割,584 file lines**,
 eight RAW-identical KanjiVG assets and eight current word bodies/eight **NAV-only

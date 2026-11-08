@@ -1,6 +1,74 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch091 rows, beginnings, judgment, benefit, arrival, regulation, carving and division
+## Current qualified source milestone: batch092 addition, help, effort, labor, duties, victory and diligence
+
+Batch092 adds **seven complete Russian frozen N3 lessons,加/助/努/労/務/勝/勤,
+468 file lines**,and seven RAW-identical Japanese KanjiVG assets.
+Four existing word bodies receive four **NAV-only wrappers** around existing
+standalone explanatory glyphs:事務所→務,公務員→務,勝つ→勝,勤める→勤.
+No compound/stem split,visible semantic amendment,new word,source metadata
+correction or removed direction. Frozen EN remains
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+Original intake,premutation freeze,proposals,candidate and report remain immutable.
+
+The [actual whole review](translation-batches/092-addition-help-effort-labor-duties-victory-and-diligence-kanji-independent-review-001.json)
+read **49 whole teaching bodies,27 EN/22 RU**:seven primary pairs,15 CURRENT
+context pairs and five EN-only comparisons,including all four changed words.
+It read **148 whole official TEXT units**:17 KANJIDIC records,one Unicode row,
+123 ordered JMdict objects and seven visible KanjiPedia entries;one whole header
+is additional. It also read311 CURRENT typed metadata rows,all21 original/active
+directions,seven L rulings/seven A clarifications,four exact NAV diffs,seven
+outside observations,four whole guidance files and three correct CURRENT RU rubrics.
+**66 successful reading commands/tool returns/windows;75 terminal commands,
+72 successful plus three failed report-size assertions before payload emission**.
+No failed assigned reading,truncated or nonterminal return. Actual whole payloads
+and guidance/rubric line unions are bound,not markers alone.
+Zero glyph-pixel views;TEXT/ALT is not pixel or full-HTML inspection.
+311 metadata rows are not311 whole lessons or1478 fresh word-guard judgments.
+
+The one actual **10732-byte stdout/native-final report**,SHA256
+`537de58ae7aea58e157638724332546ce38b836a509b53f124bfb4597d5b62e6`,
+is published verbatim,including its final LF;**no projection or second review**.
+Actual facets are **C1 CLEAN within assigned Japanese/source teaching;
+C2 bounded SOURCE coverage COMPLETE,introductory contrasts QUALIFIED,evidence
+consistency NEEDS FIX F1;C3 CLEAN within22 RU bodies**. The original C2 verdict
+is preserved,not relabelled blanket CLEAN. F1 is an evidence-ID attribution error,
+not a learner-text defect. The [separate ID erratum](translation-batches/092-addition-help-effort-labor-duties-victory-and-diligence-kanji-source-evidence-id-erratum-001.json)
+adopts the actual reviewer's explicit five-object mapping and requested remedy:
+**1539080勝れる/優れる;1603910勝る/優る;1171010右 including better-of-two;
+1609560勝ち victory;2593990勝 victory/scenic spot/win counter,not右**.
+The author actually reread all five whole bound objects;no historical freeze,
+helper or report rewriting,new independent verdict,learner edit or new guard.
+
+All **21 directions are Q only for introductory-core comparisons**,not unrestricted
+ordinary/all-sense/reading-mode/fallback negatives. Six L/A rulings are supported;
+**L002/A002 are qualified**:助すけ «helper» is one attested sense,not exhaustive;
+whole1344370 also has colloquial «woman». No透ける transfer. All four NAV patches
+are supported. 労 care/nursing overlaps help;動く operation/work constrains勤→動;
+右 also means above-mentioned/better-of-two;服 retains medicine/submission/archaic
+mourning and野や private/non-governmental. Seven outside observations are
+limitations,not new guards. Prior091割→利's active-negative U and082姉→妹's
+unrestricted U remain unchanged. No reverse/transitive inference,frequency or
+etymology claim. Ordinary/all-sense/fallback suitability,modern necessity-frequency
+and global current/future uniqueness remain **UNVERIFIED**. One completed/idle
+reviewer,not running;no additional review is invented for the exact ID correction.
+
+The [qualified source record](translation-batches/092-addition-help-effort-labor-duties-victory-and-diligence-kanji-reviewed-source.json)
+preserves2112 other baseline runtime RAWs/tracking rows.
+Qualified source checkpoint: **2130 runtime objects/1478 words/311 kanji/311 strokes**.
+Words671 N5/636 N4/97 N3/19 N2/55 unlabelled;kanji80 N5/166 N4/**63 N3**/2 N2.
+All166 frozen N4 kanji remain included;**304 of367 frozen N3 kanji remain**.
+Strict progress: **2130 reviewed-current/two excluded reviewed blocked-media drafts/
+6146 pending of8278;6148 runtime paths absent**,no partial.
+Version `8577ac7d183281ca`;checkpoint authority null/Ready false.
+Accepted-main membership requires signed normal integration;fresh final serialized
+checks/public archives/signatures/four protected refs/exact-main CI/owner issue
+verification remain separately evidenced. Protected033 **word**空 stays excluded/
+runtime-absent/C2 UNVERIFIED,not media;accepted077 **kanji**空 does not resolve it.
+No app/device/phone/IME/media/default/package/release authority.
+Continue093+ and **ALL remaining safe frozen levels/families**,not finite completion.
+
+## Previous qualified source milestone: batch091 rows, beginnings, judgment, benefit, arrival, regulation, carving and division
 
 Batch091 adds **eight complete Russian frozen N3 lessons,列/初/判/利/到/制/刻/割,
 584 file lines**,and eight RAW-identical Japanese KanjiVG assets.
