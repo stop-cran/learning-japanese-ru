@@ -1,6 +1,60 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch102 marriage, woman, existence and opposition kanji
+## Current qualified source milestone: batch103 residence, protect, complete and real kanji
+
+Batch103 adds **four complete Russian frozen N3 lessons, 宅/守/完/実, 217 file lines**,
+and four RAW-identical Japanese KanjiVG assets. Five whole current word bodies receive
+**NAV-only standalone-glyph wrappers** (お宅→宅, 実に→実, 実際→実, 現実→実, 留守→守); no whole-label
+wrapper and no navigation amendment. All visible prose, Japanese metadata, quiz arrays, old links
+and frozen levels of those words remain unchanged. Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The [actual whole independent review](translation-batches/103-residence-protect-complete-and-real-kanji-independent-review-001.json) (one reviewer) of
+candidate `95b1839836a0264d670a53610c97903d2c4e2de4` read **37 whole teaching bodies, 20 EN/17
+CURRENT RU** (four primary pairs, 13 context pairs and three EN-only comparison bodies), **84 whole
+official TEXT units** (14 KANJIDIC2, one radical-evidence unit, 65 JMdict, four KanjiPedia) plus
+one provider header, all 358 CURRENT typed rows, twelve original directions, four L/four A rulings,
+four dictionary clarifications, four outside LIMITS, five exact NAV diffs, the whole guidance files and
+three RU rubrics — **54 complete windows**, identical opening/closing gates, zero glyph pixels and zero
+web pages. The first stdout delivery failed its own terminal-LF assertion (a delivery failure, not a
+reading failure); the second succeeded. The original **5053-byte stdout report**, SHA256
+`0cfb31c85450e1e3df5b67c1548bac6f7c5f9a2a7c60dadc130bedd71f6d271d`, equal to the reviewer's
+5052-byte native final plus one terminal LF, is published verbatim.
+
+Actual verdicts: **C1 CLEAN**; **C2 NEEDS FIX** — all five edits are navigation-only with correct
+targets, but direction **103-N010 実→完 is REJECTED** (finding **103-F001**): 完 «завершённый;
+полный» can fit 実's official みち.る/content-full sense, so a learner could be marked wrong for a
+defensible answer; **C3 CLEAN**. The other eleven directions are **S-intro** (introductory/source-core
+only, canonical author mapping Q); all eleven ordinary uses stay **U** (metadata retention is not
+guard approval). All four L and all four A rulings SUPPORTED-bounded; all five NAV changes NAV-ONLY;
+outside LIMITS (宅 vs 家/住, 守 vs 助, 完 vs 終, 実 vs 真/本) are observations, not new guards. The
+reviewer's optional 守 wording polish was explicitly "not required" and was not adopted.
+
+A signed [pre-mutation distractor-amendment freeze](translation-batches/103-residence-protect-complete-and-real-kanji-review-finding-distractor-amendment-freeze-001.json)
+`668c25ec91d723fd3c99d95f70447b4f200a2e0d` authorized exactly one change: removing 完 from the
+distractors of kanji/実.md (now 春, 失), keeping the prose shape comparison with 完 and adding no
+new direction. The [corrected candidate](translation-batches/103-residence-protect-complete-and-real-kanji-corrected-candidate-001.json)
+`e1f385b741a86b1093c0666f31fe937b9e1e9d00` changes only that line plus the manifest. One
+[focused independent review](translation-batches/103-residence-protect-complete-and-real-kanji-independent-review-focused-001.json) read the EN, original RU and
+corrected RU 実 bodies, whole JMdict 1320800/1320810/1211490/1211510 entries, KANJIDIC2 実/完/春/失,
+KanjiPedia 実/完, the current typed rows, the exact amendment and continuity, and the guidance/rubric
+windows (24 complete windows, 27 successful commands, zero failures/web pages); its 2329-byte
+report, SHA256 `bb75e23a449e5476e77d1eaf605e20ccbe84f3a3bbac89230baf449bd8e7ad06`, rules **F001
+RESOLVED** with C1/C2/C3 CLEAN within that bounded scope and no new findings (its transcription of
+the freeze hash drops one digit; the exact commit is recorded above). It is not a second whole
+review; the original verdicts stay immutable and the batch is not upgraded to whole CLEAN.
+
+The [qualified source record](translation-batches/103-residence-protect-complete-and-real-kanji-reviewed-source.json) preserves 2211 other baseline
+runtime RAWs/tracking rows and all 1478 word metadata/quiz arrays. Qualified source checkpoint:
+**2224 runtime/1478 words/358 kanji/358 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled
+unchanged; kanji 80 N5/166 N4/**110 N3**/2 N2; **257 N3 remain**. Strict progress: **2224
+reviewed-current/two excluded reviewed blocked-media drafts/6052 pending of 8278; 6054 runtime
+paths absent**. Version `1412246181bad4e4`; checkpoint authority null/Ready false. Prior 082–102
+U qualifications remain unchanged; the existing unlinked 完 mention in RU 院.md and the RU 留守
+wording outside this batch remain open observations. Protected 033 WORD空 stays
+excluded/runtime-absent/not media. No device/media/default/package/release authority. Continue 104+
+and **ALL remaining safe frozen levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch102 marriage, woman, existence and opposition kanji
 
 Batch102 adds **four complete Russian frozen N3 lessons, 婚/婦/存/対, 224 file lines**,
 and four RAW-identical Japanese KanjiVG assets. Six whole current word bodies receive
