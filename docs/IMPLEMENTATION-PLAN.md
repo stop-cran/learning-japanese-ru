@@ -11,7 +11,71 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-The eighty-second full-target batch adds **four complete Russian N4 kanji
+The eighty-third full-target batch adds **seven complete Russian N4 kanji
+lessons,教/有/着/考/者/飯/館,411 file lines**,and seven RAW-identical KanjiVG assets.
+Twenty-two existing word bodies receive22 **navigation-only wrappers**;
+no new word or existing-word semantic amendment.
+Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`;
+signed intake,premutation freeze,proposals and original reports remain immutable.
+
+The [actual whole review](translation-batches/083-teaching-existence-clothing-and-meals-kanji-independent-review-001.json)
+read **96 whole teaching bodies**,188 whole official source-TEXT units,
+one whole provider header,247 current typed kanji rows,21 historical
+directions,seven lesson rulings,22 exact NAV diffs/22 wrappers,eight outside
+observations,one source correction,three clarifications,four guidance files
+and three correct CURRENT RU-root rubrics.
+The whole207-line occupation-endings article is included.
+Zero dictionary-glyph pixel views are claimed;historical inline glyphs,
+including教's phonetic glyph,stay UNINSPECTED.
+Metadata rows are not247 whole lessons or1478 fresh word judgments.
+
+One actual whole review produced an earlier10946-byte stdout,SHA256
+`93e84c504c1ef8f90d1679ce12ef9157dcb1589c056f6d80c00b91914c3d73b5`,
+with an incorrect85-command count,and an actual corrected
+**10803-byte stdout/native final**,SHA256
+`604b54d8dfc247f2a7700c26c91cefe2370e49b2c5f592a92a25eaefe902892c`.
+The latter records **82 actual successful reader commands/windows** and compact
+wording. Both original deliveries persist;this is not a second semantic review.
+
+The [premutation source freeze](translation-batches/083-teaching-existence-clothing-and-meals-kanji-source-adjudication-and-semantic-freeze-001.json)
+proposes only083-S001:
+`考.distractors [者,教,古]`→`[教,古]`.
+Actual current死んだ父/先考 and whole JMdict2414430/1387630 support
+the independently supported conservative one-way removal of N010考→者;
+this is not merely historical elder derivation.
+All seven mandatory roots/21 historical directions persist;
+**20 active Q judgments are qualified introductory-core contrasts,
+one rejected historical R is already removed**.
+No automatic reverse correction or fallback exclusion follows.
+着→目's actual Go-count/ordinal extensions limit C2.
+The reviewer also supports the three explicit dictionary clarifications.
+
+**C1: CLEAN within new source-text teaching/preservation,not fresh certification
+of all inherited historical claims. C2: source coverage/NAV wrappers CLEAN
+and20 bounded core contrasts;broader ordinary/all-sense C2 UNVERIFIED,
+not whole C2 CLEAN. C3: CLEAN within assigned Russian text.**
+No significant current source-text defect was found.
+Ordinary quiz/fallback suitability,modern necessity/frequency and global
+current/future uniqueness remain UNVERIFIED.
+Eight overlap observations are not new guards;prior word-guard scope/identity
+and prior082姉→妹's unrestricted U remain unchanged.
+
+Qualified source checkpoint: **2002 runtime objects/1478 words/
+247 kanji/247 strokes**. Words671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/**152 N4**/13 N3/2 N2,**14 actual frozen N4 kanji remain**.
+Strict progress: **2002 reviewed-current,two excluded reviewed blocked-media
+drafts,6274 pending of8278;6276 runtime paths absent**,no partial.
+Version `944b6247fc33d54c`;checkpoint authority null/Ready false.
+1966 other baseline RAWs/tracking rows persist;22 word patches are NAV-only.
+These become accepted-main counts only after signed normal integration;
+fresh final checks,public archives/signatures/four protected refs/exact-main CI
+remain separate publication evidence,not native/pixel/media approval.
+Protected033 **word**空 stays excluded/runtime-absent/C2 UNVERIFIED,not media;
+accepted077 **kanji**空 does not resolve it.
+No app/device/phone/IME/media/default/package/release authority.
+Continue084+ and ALL remaining safe frozen levels/families,not task completion.
+
+The previous eighty-second full-target batch adds **four complete Russian N4 kanji
 lessons,味/妹/姉/始,287 file lines**,and four RAW-identical KanjiVG assets.
 Thirteen existing word bodies receive14 **navigation-only wrappers**;
 no new word or existing-word semantic amendment.

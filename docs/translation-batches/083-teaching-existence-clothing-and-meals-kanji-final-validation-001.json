@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "batchId": "083-teaching-existence-clothing-and-meals-kanji",
+  "reviewedCandidateCommit": "4a5bf60743b53bd8b59164a1455d80b5230bc6ce",
+  "contentVersion": "944b6247fc33d54c",
+  "runs": [
+    {
+      "command": [
+        "tools\\build_manifest.py"
+      ],
+      "startedAt": "2026-11-08T05:10:12.280853+00:00",
+      "completedAt": "2026-11-08T05:10:12.577343+00:00",
+      "seconds": 0.29600000008940697,
+      "returncode": 0,
+      "stdout": "manifest.json: 2002 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 944b6247fc33d54c\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "tools\\validate.py"
+      ],
+      "startedAt": "2026-11-08T05:10:12.595171+00:00",
+      "completedAt": "2026-11-08T05:10:16.283600+00:00",
+      "seconds": 3.6880000000819564,
+      "returncode": 0,
+      "stdout": "0 error(s)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools",
+        "-p",
+        "test_*.py"
+      ],
+      "startedAt": "2026-11-08T05:10:16.303209+00:00",
+      "completedAt": "2026-11-08T05:10:44.400506+00:00",
+      "seconds": 28.094000000040978,
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 27.863s\n\nOK\n",
+      "environmentBoundary": "All3operationlocalTMPDIR/TMP/TEMP exactownedNTFSfixtures;exactemptyworkspacecleanedbeforebudget;noglobal/test/trustchanges."
+    },
+    {
+      "command": [
+        "tools\\check_content_budget.py"
+      ],
+      "startedAt": "2026-11-08T05:10:44.415972+00:00",
+      "completedAt": "2026-11-08T05:10:45.375815+00:00",
+      "seconds": 0.9530000002123415,
+      "returncode": 0,
+      "stdout": "{'files': 2010, 'entries': 2019, 'retainedBytes': 5484715, 'inflatedBytes': 5502930, 'localZipBytes': 2790416, 'listeningTaskMediaBytes': 0}\n",
+      "stderr": ""
+    }
+  ],
+  "boundary": "FreshSERIALmanifest/validator/124tests/budgetAFTERplans/methodology/tracking/progress/actualONEwholeTWOdeliveryreview/qualification/disposition/reviewedsourcechanges;generatedreceiptfollowscommands,runtime/manifestunchanged.",
+  "checkpointAuthority": null,
+  "fullTaskComplete": false,
+  "continueRequired": true
+}

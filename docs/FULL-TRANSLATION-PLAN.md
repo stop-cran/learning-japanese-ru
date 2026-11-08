@@ -1,6 +1,81 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch082 taste, family and beginnings kanji
+## Current qualified source milestone: batch083 teaching, existence, clothing and meals kanji
+
+Batch083 adds **seven complete Russian N4 lessons,教/有/着/考/者/飯/館,
+411 file lines**,and seven RAW-identical Japanese KanjiVG assets.
+Twenty-two existing word bodies receive22 **navigation-only wrappers**;
+no new word or existing-word semantic amendment is introduced.
+Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The original intake,premutation adjudication/freeze,proposals and reports persist.
+
+The [actual whole review](translation-batches/083-teaching-existence-clothing-and-meals-kanji-independent-review-001.json)
+read **96 whole teaching bodies**:seven primary EN/RU pairs,39 current
+context EN/RU pairs and four whole EN-only comparisons,including the entire
+207-line occupation-endings article.
+Its **188 whole official source-TEXT units** are28 KANJIDIC records,
+five Unicode rows,135 original plus13 additional whole ordered JMdict
+objects and seven whole visible KanjiPedia texts;one whole provider header
+is separate. **Zero dictionary-glyph pixel views**:historical inline glyphs,
+including教's phonetic glyph,remain UNINSPECTED.
+The review read247 current typed kanji rows,all21 historical directions,
+seven lesson rulings,22 exact NAV diffs/22 wrappers,eight outside observations,
+one explicit source correction,three clarifications,four guidance files and
+three correct CURRENT RU-root rubrics.
+Entire successful returned payloads and complete line unions are bound;
+247 metadata rows are not247 whole lessons or1478 fresh word judgments.
+
+There was **one actual whole review,not two**. Its earlier10946-byte stdout,
+SHA256 `93e84c504c1ef8f90d1679ce12ef9157dcb1589c056f6d80c00b91914c3d73b5`,
+incorrectly counted85 reader commands.
+The actual corrected **10803-byte stdout/native final**,SHA256
+`604b54d8dfc247f2a7700c26c91cefe2370e49b2c5f592a92a25eaefe902892c`,
+records the actual **82 successful reader commands/windows** and compact
+wording. Both original deliveries remain immutable;this is not another
+semantic review or additional reading.
+
+The signed [premutation source freeze](translation-batches/083-teaching-existence-clothing-and-meals-kanji-source-adjudication-and-semantic-freeze-001.json)
+proposes only083-S001:
+`考.distractors [者,教,古]`→`[教,古]`.
+Current KanjiPedia 考 meaning③死んだ父/先考 and whole JMdict2414430/1387630
+support conservative one-way removal of original N010考→者,not merely an
+elder-origin story. The actual reviewer supports that correction.
+All seven mandatory roots and21 historical directions remain;
+**20 active directions have qualified introductory-core Q judgments;
+one rejected historical R is already removed**.
+No replacement,reverse or transitive edge follows;者→考 was judged separately.
+着→目's actual Go-count/ordinal extensions prevent all-senses separation.
+The reviewer also supports retainedジャク/spelling-preference/lexical-causative
+clarifications,the nonuniversal者/物 contrast and actual poetical館たて coverage.
+
+**C1: CLEAN within new source-text teaching/preservation;reused context
+reading does not freshly certify every inherited historical claim.
+C2: assigned source coverage/NAV wrappers CLEAN and20 bounded core contrasts,
+not whole ordinary-quiz C2 CLEAN. C3: CLEAN within assigned Russian text.**
+Broader ordinary/all-sense quiz suitability,fallback safety,modern necessity/
+frequency and global current/future uniqueness remain UNVERIFIED.
+No significant current source-text defect was found.
+Eight overlap observations are not new exclusions;prior word guards retain
+their original scope/identity. Prior082姉→妹 remains its unrestricted U.
+
+The [qualified source record](translation-batches/083-teaching-existence-clothing-and-meals-kanji-reviewed-source.json)
+preserves1966 other baseline RAWs/tracking rows.
+Qualified source checkpoint: **2002 runtime objects/1478 words/
+247 kanji/247 strokes**. Words remain671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/**152 N4**/13 N3/2 N2,leaving **14 actual frozen N4 kanji**.
+Strict progress: **2002 reviewed-current,two excluded reviewed blocked-media
+drafts,6274 pending of8278;6276 runtime paths absent**,no partial.
+Version `944b6247fc33d54c`;checkpoint authority null/Ready false.
+Counts become accepted-main only after signed normal integration;
+fresh final serialized checks,actual public archives/signatures/four protected
+refs/exact-main CI remain separate publication evidence,not pixel/native/media approval.
+Protected033 **word**空 stays excluded/runtime-absent/C2 UNVERIFIED,not media;
+accepted077 **kanji**空 does not resolve its caption blocker.
+No app/device/phone/IME/media/default/package/release authority.
+Continue084+ and ALL remaining safe frozen levels/families;
+neither this batch nor N4 closure completes the finite target.
+
+## Previous qualified source milestone: batch082 taste, family and beginnings kanji
 
 Batch082 adds **four complete Russian lessons,味/妹/姉/始,287 file lines,
 all actual frozen N4**,and four RAW-identical Japanese KanjiVG assets.
