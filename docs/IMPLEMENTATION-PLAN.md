@@ -11,7 +11,63 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current qualified source milestone: batch100
+## Current qualified source milestone: batch101
+
+Batch101 adds **four complete Russian frozen N3 lessons, 夢/好/妻/娘, 222 file lines**,
+and four RAW-identical Japanese KanjiVG assets. Six whole current word bodies receive
+**NAV-only wrappers**: five standalone-glyph wrappers (夢→夢, 好き→好, 妻→妻, 娘→娘, 格好→好)
+and one whole-label wrapper, 好き in words/大好き.md → kanji/好.md, authorized by the signed
+[pre-mutation whole-label navigation amendment](translation-batches/101-dream-like-wife-and-daughter-kanji-pre-mutation-whole-label-navigation-amendment-001.json).
+All visible prose, Japanese metadata, quiz arrays, old links and frozen levels remain unchanged;
+no new guard or removed direction. Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The [actual whole independent review](translation-batches/101-dream-like-wife-and-daughter-kanji-independent-review-001.json) (one reviewer) of
+candidate `b9d1be9f20d5d50c909b891ddeae9f03e74c3a81` read **44 whole teaching bodies, 22 EN/22
+CURRENT RU** (four primary pairs and 18 context pairs), **100 whole official TEXT units** (19
+KANJIDIC2, two radical-evidence units, 75 JMdict, four KanjiPedia) plus one provider header, all 350
+CURRENT typed rows, twelve original directions, four L/four A rulings, four outside LIMITS,
+six exact NAV diffs, four whole guidance files and three RU rubrics — **57 complete windows**,
+identical opening/closing gates, zero glyph pixels, zero web pages; it did not read the optional
+夫.md/良.md. One report emission failed (exit 1) only because the literal lacked its terminal LF;
+the next emission succeeded. The original **5466-byte stdout report**, SHA256
+`632dad84d074a3666e61ca257b0f1249ecd4af3cb314e3f8523ec7800f66d4de`, is published verbatim.
+
+Actual verdicts: **C1 CLEAN**; **C2 UNVERIFIED** — all six edits are navigation-only with
+correct targets and the 好き whole-label wrapper matches the amendment, but ordinary
+active-negative quiz safety is not established for any direction; **C3 NEEDS FIX** with one
+finding, **101-F001**: kanji/妻.md said 夫妻 is «несколько официальное», suggesting official
+status rather than JMdict 1496520's "somewhat formal" register. Ten directions are **S-intro**
+(introductory/source-core only, canonical author mapping Q); **N002 夢→夜 and N004 好→妹 are U**
+(withheld, retained in frozen source metadata as ordinary negatives, not guard approval); all
+twelve ordinary uses are **U**. All four L rulings SUPPORTED and four A clarifications
+SOURCE-SUPPORTED, BOUNDED; all six NAV changes NAV-ONLY; outside LIMITS (evening/night,
+favorable/good, spouse/female, child/female/component) are observations, not new guards.
+
+A signed [pre-mutation register-amendment freeze](translation-batches/101-dream-like-wife-and-daughter-kanji-review-finding-register-amendment-freeze-001.json)
+authorized exactly one word, официальное→формальное, in that line of kanji/妻.md **and in the
+identical author-written line of kanji/夫.md, accepted in batch100** (same JMdict entry, same
+defect). This is a disclosed cross-batch correction of accepted text; historical batch100
+records are not rewritten. The [corrected candidate](translation-batches/101-dream-like-wife-and-daughter-kanji-corrected-candidate-001.json)
+`b00ac8be8e4fb98be5d202cb7daf0f9ccefb7405` changes only those two lines plus the manifest. One
+[focused independent review](translation-batches/101-dream-like-wife-and-daughter-kanji-independent-review-focused-001.json) read the six
+EN/original/corrected 妻/夫 bodies, the whole JMdict 1496520 entry, the exact amendment diffs,
+continuity and all guidance/rubric windows (22 complete windows, 25 successful commands, zero
+failures/web pages); its 1963-byte report, SHA256
+`a91756930e09b7ecdc70bd37806f8c990510a84e4f15e39de42582b6025669b0`, rules **F001 RESOLVED** in
+both files with C1/C2/C3 CLEAN within that bounded scope and no new findings. It is not a second
+whole review; the original verdicts stay immutable and the batch is not upgraded to whole CLEAN.
+
+The [qualified source record](translation-batches/101-dream-like-wife-and-daughter-kanji-reviewed-source.json) preserves 2193 other baseline
+runtime RAWs/tracking rows and all 1478 word metadata/quiz arrays. Qualified source checkpoint:
+**2208 runtime/1478 words/350 kanji/350 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled
+unchanged; kanji 80 N5/166 N4/**102 N3**/2 N2; **265 N3 remain**. Strict progress: **2208
+reviewed-current/two excluded reviewed blocked-media drafts/6068 pending of 8278; 6070 runtime
+paths absent**. Version `036029d3a8e204ca`; checkpoint authority null/Ready false. Prior 082–100
+U qualifications remain unchanged. Protected 033 WORD空 stays excluded/runtime-absent/not media.
+No device/media/default/package/release authority. Continue 102+ and **ALL remaining safe
+frozen levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch100
 
 Batch100 adds **four complete Russian frozen N3 lessons, 変/太/夫/失, 242 file lines**,
 and four RAW-identical Japanese KanjiVG assets. Thirteen whole current word bodies receive
