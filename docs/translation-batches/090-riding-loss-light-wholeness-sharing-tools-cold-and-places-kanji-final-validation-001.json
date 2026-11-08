@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "batchId": "090-riding-loss-light-wholeness-sharing-tools-cold-and-places-kanji",
+  "reviewedCandidateCommit": "02f4f91b27267187be3effdceecfec26a337ce93",
+  "contentVersion": "eff88314bda21342",
+  "runs": [
+    {
+      "command": [
+        "tools\\build_manifest.py"
+      ],
+      "startedAt": "2026-11-08T10:42:42.882876+00:00",
+      "completedAt": "2026-11-08T10:42:43.266740+00:00",
+      "seconds": 0.39000000013038516,
+      "returncode": 0,
+      "stdout": "manifest.json: 2100 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version eff88314bda21342\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "tools\\validate.py"
+      ],
+      "startedAt": "2026-11-08T10:42:43.282968+00:00",
+      "completedAt": "2026-11-08T10:42:48.071537+00:00",
+      "seconds": 4.7810000001918525,
+      "returncode": 0,
+      "stdout": "0 error(s)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools",
+        "-p",
+        "test_*.py"
+      ],
+      "startedAt": "2026-11-08T10:42:48.087911+00:00",
+      "completedAt": "2026-11-08T10:43:26.482357+00:00",
+      "seconds": 38.39100000006147,
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 38.052s\n\nOK\n",
+      "environmentBoundary": "All3operationlocalTMPDIR/TMP/TEMP exactownedNTFSfixtures;exactemptyworkspacecleanedbeforebudget;noglobal/test/trustchanges."
+    },
+    {
+      "command": [
+        "tools\\check_content_budget.py"
+      ],
+      "startedAt": "2026-11-08T10:43:26.500513+00:00",
+      "completedAt": "2026-11-08T10:43:27.675572+00:00",
+      "seconds": 1.1880000000819564,
+      "returncode": 0,
+      "stdout": "{'files': 2108, 'entries': 2117, 'retainedBytes': 5788107, 'inflatedBytes': 5806322, 'localZipBytes': 2935967, 'listeningTaskMediaBytes': 0}\n",
+      "stderr": ""
+    }
+  ],
+  "boundary": "FreshSERIALmanifest/validator/124tests/budgetAFTERplans/tracking/progress/actualONEwholeONEsuccessfuldeliveryreview/qualification/disposition/reviewedsourcechanges;generatedreceiptfollowscommands,runtime/manifestunchanged.",
+  "checkpointAuthority": null,
+  "fullTaskComplete": false,
+  "continueRequired": true
+}

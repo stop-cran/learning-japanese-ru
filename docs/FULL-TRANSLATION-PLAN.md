@@ -1,6 +1,74 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch089 surplus, convenience, connection, trust, preparation, work and kindness
+## Current qualified source milestone: batch090 riding, loss, light, wholeness, sharing, tools, cold and places
+
+Batch090 adds **eight complete Russian frozen N3 lessons,乗/亡/光/全/共/具/冷/処,
+639 file lines**,and eight RAW-identical Japanese KanjiVG assets.
+Fifteen existing word bodies receive15 **NAV-only wrappers**:14 existing standalone
+glyphs plus **one whole existing explanatory ます-stem乗り** in乗り換える.
+The exact whole-label adaptation was frozen before mutation;it splits no compound
+or Markdown and changes no visible prose,metadata,example or old link.
+No new word,word semantic amendment,source metadata correction or removed direction.
+Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+Original intake,premutation freeze,proposals,candidate and actual report stay immutable.
+
+The [actual whole review](translation-batches/090-riding-loss-light-wholeness-sharing-tools-cold-and-places-kanji-independent-review-001.json)
+read **89 whole teaching bodies,46 EN/43 RU**:eight primary pairs,35 CURRENT
+context pairs and three EN-only comparisons,including all15 changed current words.
+It read **315 whole official TEXT units**:27 KANJIDIC records,seven Unicode rows,
+273 ordered JMdict objects and eight visible KanjiPedia entries;one whole header
+is additional. It also read296 CURRENT typed metadata rows,24 original/active
+directions,eight L rulings/eight A clarifications,15 exact NAV diffs,eight outside
+observations,four whole guidance files and three correct CURRENT RU rubrics.
+**91 successful reading commands/tool returns/windows** bind entire payloads and
+guidance/rubric line unions;zero failed,truncated or nonterminal reading returns.
+Of96 terminal commands,94 succeeded;two report-size assertions at11853/11255 bytes
+failed **before printing report payloads**,not reading failures,findings or reviews.
+Zero glyph-pixel views;TEXT/ALT reading is not whole HTML or pixel inspection.
+296 metadata rows are not296 whole lessons or1478 fresh word-guard judgments.
+
+The one actual **10451-byte stdout/native-final report**,SHA256
+`201208577346bfe00548d15673c35f80a88badd174463e596bc6df2f449619d1`,
+remains private/immutable. Its **10346-byte path-only public projection**,SHA256
+`5d4719570f8ce01493fc60c6f40ad8790699b288a73ca9f27c66db2f786213f6`,
+replaces machine roots only;original/projection bytes and hashes are distinct.
+Projection is not a second review,new semantic verdict or approval.
+Actual facets are **C1 CLEAN within assigned source-content scope;
+C2 QUALIFIED bounded dependencies/NAV and introductory-core dispositions;
+C3 CLEAN within actually read Russian teaching scope**.
+No significant scoped source/Russian fix was requested;all eight L/A rulings and
+clarifications are accepted boundedly,not ordinary-use certification.
+One completed/idle reviewer,not running;no focused or second whole review.
+
+All24 Qs mean **qualified forward introductory-core contrasts ONLY**.
+090-N013共→具 and090-N017具→共 were independently considered as separate direct
+questions;actual具する accompaniment/possession prevents blanket exclusion.
+具/備える alternate spellings,全/共 collectivity and処/外 place/removal also
+forbid universal semantic disjointness. No reciprocal/transitive inference.
+All readings remain,including処 **ショ**,notショウ;処る is attested by KanjiPedia
+despite a JMdict exact-form miss. Exact-form misses prove no absence or frequency.
+Modern-shape mnemonics are not etymology;old dictionary JLPT tags are not source
+community levels. Eight outside observations are limitations,not new guards.
+Ordinary/all-sense/reading-mode/fallback suitability,modern necessity-frequency
+and global current/future uniqueness remain **UNVERIFIED**.
+Existing word guards and082姉→妹's original unrestricted U are not upgraded.
+
+The [qualified source record](translation-batches/090-riding-loss-light-wholeness-sharing-tools-cold-and-places-kanji-reviewed-source.json)
+preserves2069 other baseline runtime RAWs/tracking rows.
+Qualified source checkpoint: **2100 runtime objects/1478 words/296 kanji/296 strokes**.
+Words671 N5/636 N4/97 N3/19 N2/55 unlabelled;kanji80 N5/166 N4/**48 N3**/2 N2.
+All166 frozen N4 kanji remain included;**319 of367 frozen N3 kanji remain**.
+Strict progress: **2100 reviewed-current/two excluded reviewed blocked-media drafts/
+6176 pending of8278;6178 runtime paths absent**,no partial.
+Version `eff88314bda21342`;checkpoint authority null/Ready false.
+Accepted-main membership requires signed normal integration;fresh final serialized
+checks/public archives/signatures/four protected refs/exact-main CI/owner issue
+verification remain separately evidenced. Protected033 **word**空 stays excluded/
+runtime-absent/C2 UNVERIFIED,not media;accepted077 **kanji**空 does not resolve it.
+No app/device/phone/IME/media/default/package/release authority.
+Continue091+ and **ALL remaining safe frozen levels/families**,not finite completion.
+
+## Previous qualified source milestone: batch089 surplus, convenience, connection, trust, preparation, work and kindness
 
 Batch089 adds **seven complete Russian frozen N3 lessons,余/便/係/信/備/働/優,
 513 file lines**,and seven RAW-identical Japanese KanjiVG assets.

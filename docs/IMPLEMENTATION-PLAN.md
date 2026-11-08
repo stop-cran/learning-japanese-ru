@@ -11,7 +11,65 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current qualified source milestone: batch089
+## Current qualified source milestone: batch090
+
+Eight complete Russian frozen N3 lessons,**乗/亡/光/全/共/具/冷/処,639 file lines**,
+eight RAW-identical KanjiVG assets and15 current word bodies/15 NAV-only wrappers:
+**14 standalone glyphs plus one whole existing explanatory ます-stem乗り** in
+乗り換える. That exact whole-label adaptation was frozen before mutation;no
+compound/Markdown splitting,visible prose change,semantic amendment,new word,
+source metadata correction or removed direction. Frozen EN,intake,freeze,
+proposals,candidate and actual report remain unchanged.
+
+The [actual whole review](translation-batches/090-riding-loss-light-wholeness-sharing-tools-cold-and-places-kanji-independent-review-001.json)
+read89 whole teaching bodies,**46 EN/43 RU**:eight primary pairs,35 CURRENT
+context pairs and three EN-only comparisons,including all15 current changed words.
+It read315 official TEXT units:27 KANJIDIC/seven Unicode/273 JMdict/eight KanjiPedia,
+plus one whole header;296 CURRENT typed metadata rows,24 original/active directions,
+eight L rulings/eight A clarifications,15 exact NAV diffs,eight outside observations,
+four whole guidance files and three correct CURRENT RU rubrics.
+91 successful reading commands/tool returns/windows bind actual whole payloads
+and line unions;zero failed,truncated or nonterminal reads.
+96 terminal commands comprise94 successes and two report-size assertion failures
+at11853/11255 bytes **before report stdout**,not reading failures or findings.
+Zero glyph pixels;296 typed rows are not whole lessons or1478 fresh word guards.
+
+The **10451-byte original stdout/native-final report**,SHA256
+`201208577346bfe00548d15673c35f80a88badd174463e596bc6df2f449619d1`,
+stays private/immutable. Its **10346-byte path-only public projection**,SHA256
+`5d4719570f8ce01493fc60c6f40ad8790699b288a73ca9f27c66db2f786213f6`,
+replaces machine roots only;these are distinct domains,not a second review.
+Actual **C1 source CLEAN/C2 bounded dependencies-NAV and introductory contrasts
+QUALIFIED/C3 Russian CLEAN** remain scoped;no significant consequential scoped fix
+was requested. All eight L/A rulings/clarifications are accepted boundedly.
+One completed/idle reviewer,not running;no focused or second whole review.
+
+All24 Qs are **forward introductory-core contrasts ONLY**.
+090-N013共→具 and090-N017具→共 are separate independent direct judgments,not
+reciprocal inference;具する accompaniment/possession prevents blanket exclusion.
+具/備える,全/共 collectivity and処/外 place/removal also limit exclusion.
+All readings/classifications remain;処 is **ショ**,notショウ,and処る is independently
+attested despite a JMdict exact-form miss. Mnemonics are not etymology;
+exact-form misses are not absence/register/frequency proof.
+Eight outside observations are limitations,not guards. Ordinary/all-sense/
+reading-mode/fallback suitability,modern necessity-frequency/global current-future
+uniqueness stay **UNVERIFIED**. Prior word guards and082姉→妹's unrestricted U persist.
+
+Qualified source checkpoint: **2100 runtime objects/1478 words/296 kanji/296 strokes**;
+words671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/166 N4/**48 N3**/2 N2;all166 frozen N4 included,**319 N3 remain**.
+Strict statuses2100 reviewed-current/two excluded reviewed blocked-media drafts/
+6176 pending of8278;6178 runtime paths absent,no partial.
+Version `eff88314bda21342`;checkpoint authority null/Ready false.
+2069 other baseline runtime RAWs/tracking rows persist;all15 word patches are NAV-only.
+These become accepted-main counts only after signed normal integration.
+Fresh final serialized checks/public archives/signatures/four protected refs/
+exact-main CI/owner issue verification have separate receipts.
+Protected033 WORD空 remains excluded/C2 UNVERIFIED/runtime-absent/not media;
+accepted077 KANJI空 does not resolve it. No device/media/default/package/release approval.
+Continue091+ and **ALL remaining safe frozen families**,not task completion.
+
+## Previous qualified source milestone: batch089
 
 Seven complete Russian frozen N3 lessons,**余/便/係/信/備/働/優,513 file lines**,
 seven RAW-identical KanjiVG assets and nine existing word bodies/nine NAV-only
