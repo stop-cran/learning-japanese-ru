@@ -1,6 +1,80 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch092 addition, help, effort, labor, duties, victory and diligence
+## Current qualified source milestone: batch093 transformation, simplicity, danger, origin, participation and hand-radical kanji
+
+Batch093 adds **nine complete Russian frozen N3 lessons,化/単/危/原/参/反/収/取/受,
+557 file lines**,and nine RAW-identical Japanese KanjiVG assets.
+Twelve existing word bodies receive twelve **NAV-only wrappers** around existing
+standalone explanatory glyphs:危ない→危,危険→危,原因→原,参る→参,反対→反,
+取り替える→取,取る→取,受ける→受,受付→受,変化→化,文化→化,簡単→単.
+No compound/stem split,visible semantic amendment,new word,Japanese source metadata
+correction or removed direction. Frozen EN remains
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+Historical originals remain immutable. A private001 bibliography attribution to
+2457950（夏げ）was corrected to2451270（取り/取とり）in002 **before** the signed
+semantic freeze,runtime mutation,candidate or review;no incorrect citation reached them.
+
+The [actual whole review](translation-batches/093-transformation-simplicity-danger-origin-participation-and-hand-radical-kanji-independent-review-001.json)
+read **96 whole teaching bodies,51 EN/45 RU**:nine primary pairs,36 CURRENT
+context pairs and six EN-only comparisons,including all twelve changed words.
+It read **260 whole official TEXT units**:32 KANJIDIC records,six Unicode rows,
+213 ordered JMdict objects and nine visible KanjiPedia entries;one whole header
+is additional. It also read320 CURRENT typed metadata rows,all27 retained directions,
+nine L rulings/nine A clarifications,twelve exact NAV diffs,nine outside observations,
+the private citation-correction summary,four whole guidance files and three correct RU rubrics.
+**94 successful reading windows;100 successful commands/101 tool returns**:
+97 helper commands plus two stdout-only size measurements and one report emission.
+One initial **nonterminal final-gate wait** received no terminal/reading credit;
+one same-shell continuation returned the complete exit0 gate.
+Initial/final gate payloads are byte-identical;no reviewer command or assigned reading failed.
+Actual full payloads and line unions are bound,not markers alone.
+Zero glyph-pixel views;320 typed rows are not320 whole lessons or1478 fresh word guards.
+
+The one actual **10826-byte stdout/native-final report**,SHA256
+`dcdf8435a591670a19a287f4b31da9211e3f24a8497887c480edc1103be2be10`,
+is published verbatim,including its final LF;**no projection or second review**.
+Actual facets are **C1 CLEAN within assigned Japanese/source teaching;
+C2 QUALIFIED source consistency/dependencies/citations/introductory contrasts ONLY;
+C3 CLEAN within45 RU bodies**. No assigned-text fix was requested.
+An author-only capture parser initially assumed a space after L/A colons;it now
+accepts the original no-space payload without modifying it.
+That failure and a separate author receipt-probe syntax failure are preserved,
+not counted as reviewer failures or hidden by a fresh report.
+
+All27 original metadata directions remain,**not27 approved negatives**.
+**23 are introductory/source-core Q;N005単→早,N008危→急,N022取→聞,N025受→学
+remain U**. Ordinary active-negative safety is **U for ALL27**,not merely these four.
+単simple/早いeasy-simple and危danger/急crisis-danger actually overlap;
+取るaccept/adopt versus聞くpleas/arguments needs Japanese object/context judgment;
+受ける's actual lesson-taking context overlaps学ぶ,without inventing a lesson gloss in1329590.
+L001/L004–L007 and A001/A003/A005–A007 are supported;the other four L/four A
+rulings are qualified. All twelve NAV changes are supported.
+化/花 share bothカandケ,not a reading-mode guard;原 retains geography;
+反るそる/かえる stay distinct;反/収 returning and収/別 settling intersections persist;
+収/納 spelling restrictions and exam participation/success remain explicit.
+Nine outside observations are limitations,not new guards/global pairs.
+Prior091割→利 active-negative U and082姉→妹 unrestricted U remain unchanged.
+No reverse/transitive inference,frequency or etymology claim.
+Broader ordinary suitability,necessity-frequency and global current/future uniqueness
+remain **UNVERIFIED**. One completed one-shot reviewer is idle,not running.
+
+The [qualified source record](translation-batches/093-transformation-simplicity-danger-origin-participation-and-hand-radical-kanji-reviewed-source.json)
+preserves2118 other baseline runtime RAWs/tracking rows.
+Qualified source checkpoint: **2148 runtime objects/1478 words/320 kanji/320 strokes**.
+Words671 N5/636 N4/97 N3/19 N2/55 unlabelled;kanji80 N5/166 N4/**72 N3**/2 N2.
+All166 frozen N4 kanji remain included;**295 of367 frozen N3 kanji remain**.
+Strict progress: **2148 reviewed-current/two excluded reviewed blocked-media drafts/
+6128 pending of8278;6130 runtime paths absent**,no partial.
+Version `5f24829dba357164`;checkpoint authority null/Ready false.
+These become accepted-main counts only after signed normal integration;fresh final
+serialized checks/public archives/signatures/four protected refs/exact-main CI/
+owner issue verification have separate receipts.
+Protected033 **word**空 stays excluded/runtime-absent/C2 UNVERIFIED,not media;
+accepted077 **kanji**空 does not resolve it.
+No app/device/phone/IME/media/default/package/release authority.
+Continue094+ and **ALL remaining safe frozen levels/families**,not finite completion.
+
+## Previous qualified source milestone: batch092 addition, help, effort, labor, duties, victory and diligence
 
 Batch092 adds **seven complete Russian frozen N3 lessons,加/助/努/労/務/勝/勤,
 468 file lines**,and seven RAW-identical Japanese KanjiVG assets.
