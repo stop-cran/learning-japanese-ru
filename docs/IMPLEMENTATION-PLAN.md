@@ -11,6 +11,67 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+## Current qualified source milestone: batch088
+
+Seven complete Russian frozen N3 kanji lessons,**倒/候/値/偶/偉/側/例,
+497 corrected file lines**,seven RAW-identical KanjiVG assets and seven existing
+word bodies/seven NAV-only wrappers. No new word,word semantic amendment,
+source metadata correction or removed direction. Frozen EN remains unchanged.
+Original493-line proposals,intake,freezes,candidates and actual reports are immutable.
+
+The [actual whole review](translation-batches/088-examples-falling-weather-values-chance-and-sides-kanji-independent-review-001.json)
+read56 whole teaching bodies,**33 EN/23 RU**:seven primary pairs,16 current context
+pairs and10 EN-only comparisons,including all seven changed word bodies.
+It read251 official TEXT units:22 KANJIDIC/one Unicode/221 JMdict/seven KanjiPedia,
+plus one whole header;281 CURRENT whole metadata rows,21 historical/active directions,
+seven L rulings/seven A additions,seven exact NAV diffs/wrappers,seven outside
+observations,four whole guidance files and three correct CURRENT RU rubrics.
+64 successful reader tool returns/72 windows bind whole actual payloads/line unions.
+Two truncated bundles were not credited and were reread completely.
+Zero glyph pixels;281 metadata rows are not whole lessons or1478 fresh word guards.
+
+Original **C1 NEEDS FIX F1/C2 textual dependency-NAV PASS with21 qualified core Qs/
+C3 QUALIFIED** remain unchanged. Two successful stdout deliveries are historical:
+earlier10582 bytes with three bell path escapes/warning;reviewer-corrected10681 bytes,
+SHA256 `a494aa0cada1a9a3a4028ea0ae9c50224d90ffa72a02e013b2e20c52652f4285`,
+exactly match native final. This is one whole review,not two or failed pre-emission reports.
+F1 concerns missing formal/literary labels for standalone あたい price/worth.
+The exact four-line usage correction was frozen and signed before runtime mutation.
+
+The [actual focused review](translation-batches/088-examples-falling-weather-values-chance-and-sides-kanji-independent-review-focused-002.json),
+8755 bytes,SHA256 `9f35cb7311cb038f061dd0e2e4abbe46e84b02663b927ae535529c18809feed0`,
+resolves **F1 only**,without blanket-formal mathematics/computing.
+It read five whole teaching bodies,2 EN/3 RU,and eight official TEXT units,
+six JMdict/one KANJIDIC/one KanjiPedia;25 credited windows,zero pixels.
+One oversized guidance return received no credit;both windows were reread fully.
+Bounded C1/C3 usage-gap resolution and C2 amendment continuity resolve the
+F1-dependent L003/A003 qualification,not original report verdicts/whole-batch CLEAN.
+Both one-shot reviewers are completed,not actually running.
+
+All21 original Qs keep **original qualified forward introductory-core scope only**.
+Five 値 endpoint hashes change without semantic expansion/qualifier weakening;
+the focus is not five/21 fresh pair judgments or281 fresh semantic rows.
+倒→側,候→使,偶→値 and側→内/右/左 retain actual overlap limits.
+Seven outside observations are not guards. Ordinary/all-sense/read-mode/fallback
+safety,modern necessity-frequency/global future uniqueness remain UNVERIFIED.
+Prior word-guard support/scope/identity and082姉→妹's unrestricted U are unchanged.
+
+Qualified source checkpoint: **2070 runtime objects/1478 words/281 kanji/281 strokes**;
+words671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/166 N4/**33 N3**/2 N2;all166 frozen N4 included,**334 N3 remain**.
+Strict statuses2070 reviewed-current/two excluded reviewed blocked-media drafts/
+6206 pending of8278;6208 runtime paths absent,no partial.
+Version `c3357a2913cdfd26`;checkpoint authority null/Ready false.
+2049 other baseline runtime RAWs/tracking rows persist;all seven word patches are NAV-only.
+These become accepted-main counts only after signed normal integration.
+Fresh final serialized checks/public archives/signatures/four protected refs/
+exact-main CI/owner issue verification have separate receipts.
+Protected033 WORD空 remains excluded/C2 UNVERIFIED/runtime-absent/not media;
+accepted077 KANJI空 does not resolve it. No device/media/default/package/release approval.
+Continue089+ and **ALL remaining safe frozen families**,not task completion.
+
+## Previous qualified source milestone: batch087
+
 The eighty-seventh full-target batch adds **seven complete Russian frozen N3 kanji
 lessons,他/付/件/任/伝/似/位,473 file lines**,and seven RAW-identical KanjiVG assets.
 Ten existing word bodies receive10 **navigation-only wrappers**;
