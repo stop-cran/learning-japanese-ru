@@ -1,6 +1,52 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch097 fitting, address and life kanji
+## Current qualified source milestone: batch098 turns, cause, trouble and garden kanji
+
+Batch098 adds **four complete Russian frozen N3 lessons, 回/因/困/園, 226 file lines**,
+and four RAW-identical Japanese KanjiVG assets. Five whole current word bodies receive
+**NAV-only standalone-glyph wrappers** (公園→園, 動物園→園, 原因→因, 回る→回, 困る→困),
+planned in the signed intake; no navigation amendment was needed. All visible prose,
+Japanese metadata, quiz arrays, old links and frozen levels remain unchanged; no new guard
+or removed direction. The optional 公演 link in kanji/園.md stays unwrapped because
+words/公演.md is EN-only. Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The [actual whole independent review](translation-batches/098-turns-cause-trouble-and-garden-kanji-independent-review-001.json) (one reviewer) read **23 whole
+teaching bodies, 12 EN/11 CURRENT RU**: four primary pairs, seven current context pairs and
+one EN-only comparison (words/公演.md), including all five changed words; **70 whole official
+TEXT units** (nine KANJIDIC, one Unicode, 56 JMdict, four visible KanjiPedia) plus one
+provider header; all 338 CURRENT typed rows, twelve original directions, four L/four A
+rulings, four outside LIMITS, five exact NAV diffs, four whole guidance files and three RU
+rubrics — **48 complete windows**, 51 successful terminal commands, zero failures/
+truncations/waits, identical opening/closing gates, zero glyph pixels, zero web pages. The
+original **5824-byte stdout report**, SHA256
+`ffa466864fc28c41d6f34425b2c0aaf8531d0f073e82d2fa3f558efcb30759db`, is published verbatim
+with its final LF; the child/task native final is the identical 5823-byte text without the
+terminal LF. No projection or second review.
+
+Actual verdicts: **C1 CLEAN** (four new lessons within bounded official evidence),
+**C2 UNVERIFIED** — all five edits precisely NAV-only and links resolve, but ordinary
+active-negative quiz safety is not established for any direction — and **C3 CLEAN**
+(Russian comprehension of new lessons and wrapper readability; not native certification).
+Findings: none confirmed. All **twelve directions are S-intro** (introductory/source-core
+comparison only, canonical author mapping Q) with **ordinary U** stated by the reviewer;
+metadata retention is not guard approval. All four L rulings and four A clarifications
+SUPPORTED within bounded scope; all five NAV changes NAV-ONLY. Outside LIMITS record overlap
+concerns, not guards: 回 vs current 度 on «раз» (inherited from EN), 因 vs current 由 on
+«причина» (introduced by Russian titles), trouble/adversity/poverty and garden/place/facility
+adjacency. One optional polish suggestion (briefly gloss «онное/кунное чтение» at first use)
+was not applied in 098.
+
+The [qualified source record](translation-batches/098-turns-cause-trouble-and-garden-kanji-reviewed-source.json) preserves 2171 other baseline runtime RAWs/tracking
+rows and all 1478 word metadata/quiz arrays. Qualified source checkpoint: **2184 runtime/
+1478 words/338 kanji/338 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled unchanged;
+kanji 80 N5/166 N4/**90 N3**/2 N2; **277 N3 remain**. Strict progress: **2184 reviewed-current/
+two excluded reviewed blocked-media drafts/6092 pending of 8278; 6094 runtime paths absent**.
+Version `01b440869053b33c`; checkpoint authority null/Ready false. Prior 082–097 U
+qualifications remain unchanged. Protected 033 WORD空 stays excluded/runtime-absent/not media.
+No device/media/default/package/release authority. Continue 099+ and **ALL remaining safe
+frozen levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch097 fitting, address and life kanji
 
 Batch097 adds **three complete Russian frozen N3 lessons, 合/君/命, 204 file lines**,
 and three RAW-identical Japanese KanjiVG assets. Ten whole current word bodies receive
