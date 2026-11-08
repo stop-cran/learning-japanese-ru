@@ -1,6 +1,81 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch083 teaching, existence, clothing and meals kanji
+## Current qualified source milestone: batch084 world, use, water and places kanji
+
+Batch084 adds **eight complete Russian N4 lessons,世/以/使/場/早/注/洋/漢,
+509 file lines**,and eight RAW-identical Japanese KanjiVG assets.
+Twenty-three existing word bodies receive23 **navigation-only wrappers**;
+no new word,word semantic amendment or source-directed metadata correction.
+Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+The original intake,premutation adjudication/freeze,proposals and report persist.
+
+The [actual whole review](translation-batches/084-world-use-water-and-places-kanji-independent-review-001.json)
+read **108 whole teaching bodies**:eight primary EN/RU pairs and46 current
+context EN/RU pairs,54 RU/54 EN. The23 changed word bodies are included,
+not23 additional bodies.
+Its **223 whole official source-TEXT units** are34 KANJIDIC records,
+five Unicode rows,176 whole ordered JMdict objects and eight whole visible
+KanjiPedia texts;one whole provider header is separate.
+**Zero dictionary-glyph pixel views**:historical inline glyphs stay UNINSPECTED.
+The review read255 current typed kanji rows,all24 original directions,
+eight lesson rulings,23 exact NAV diffs/23 wrappers,eight outside observations,
+seven clarifications,four guidance files and three correct CURRENT RU-root rubrics.
+Entire successful returned payloads and complete guidance line unions are bound;
+255 metadata rows are not255 whole lessons or1478 fresh word judgments.
+
+There was **one actual whole review and one successful report delivery**:
+**10967-byte stdout/native final**,SHA256
+`30743e9d0b85a227764908faa63346e285fee322726bd49d83330f2856da5f92`,
+including its terminal LF,records **89 actual successful reader commands/windows**.
+Two earlier size assertions failed before emitting any report;they are not
+earlier delivered reports or semantic reviews and credit no reading.
+Original bytes remain private and immutable.
+The public **10894-byte path-only projection**,SHA256
+`6afb1d6b81432196ba5a22226d30e957811aefe688c4167196beb0f412cd5518`,
+replaces only machine roots;its bytes/hash are not the original return.
+
+All eight mandatory roots and24 original directed arrays persist.
+**All24 actual independent Q dispositions are qualified introductory-core
+contrasts only**,not unrestricted negatives.
+使→事 was independently judged in its actual forward question:
+the offered current事 title is «дело; событие»,selected kunこと;
+additional provider readingsつかう/つかえる and historical史/吏/事 forms
+do not alone establish a forward defect or all-sense safety.
+The seven dictionary clarifications are supported:以もって/numerical limits;
+independent使える;場チョウ/both工場 readings/provider dates;
+早サッ/all six kun/spelling preferences;注つぐ/qualified注す spellings;
+洋 and漢 selected empty kun arrays are not global absence.
+No automatic reverse correction,new guard clique or transitive exclusion follows.
+
+**C1: qualified CLEAN within new source teaching/preservation,not fresh
+certification of every inherited historical claim.
+C2: assigned source coverage/dependencies/NAV qualified CLEAN and24 bounded
+core contrasts,not whole ordinary-quiz C2 CLEAN.
+C3: qualified CLEAN within54 whole Russian bodies,not native certification.**
+Broader ordinary/all-sense/fallback suitability,modern necessity/frequency
+and global current/future uniqueness remain UNVERIFIED.
+No consequential correction was established within assigned facets.
+Eight overlap observations are not new guards;速/所 are not current typed
+kanji providers. Prior word-guard scope/identity and082姉→妹's unrestricted U persist.
+
+The [qualified source record](translation-batches/084-world-use-water-and-places-kanji-reviewed-source.json)
+preserves1979 other baseline RAWs/tracking rows.
+Qualified source checkpoint: **2018 runtime objects/1478 words/
+255 kanji/255 strokes**. Words remain671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/**160 N4**/13 N3/2 N2,leaving **six frozen N4 kanji:別/勉/真/答/親/題**.
+Strict progress: **2018 reviewed-current,two excluded reviewed blocked-media
+drafts,6258 pending of8278;6260 runtime paths absent**,no partial.
+Version `c8dce7e6734759dd`;checkpoint authority null/Ready false.
+Counts become accepted-main only after signed normal integration;
+fresh final serialized checks,actual public archives/signatures/four protected
+refs/exact-main CI remain separate publication evidence,not pixel/native/media approval.
+Protected033 **word**空 stays excluded/runtime-absent/C2 UNVERIFIED,not media;
+accepted077 **kanji**空 does not resolve its caption blocker.
+No app/device/phone/IME/media/default/package/release authority.
+Continue085+ and ALL remaining safe frozen levels/families;
+neither this batch nor N4 closure completes the finite target.
+
+## Previous qualified source milestone: batch083 teaching, existence, clothing and meals kanji
 
 Batch083 adds **seven complete Russian N4 lessons,教/有/着/考/者/飯/館,
 411 file lines**,and seven RAW-identical Japanese KanjiVG assets.

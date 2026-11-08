@@ -11,7 +11,67 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-The eighty-third full-target batch adds **seven complete Russian N4 kanji
+The eighty-fourth full-target batch adds **eight complete Russian N4 kanji
+lessons,世/以/使/場/早/注/洋/漢,509 file lines**,and eight RAW-identical KanjiVG assets.
+Twenty-three existing word bodies receive23 **navigation-only wrappers**;
+no new word,word semantic amendment or source-directed metadata correction.
+Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`;
+signed intake,premutation freeze,proposals and original report remain immutable.
+
+The [actual whole review](translation-batches/084-world-use-water-and-places-kanji-independent-review-001.json)
+read **108 whole teaching bodies**,54 RU/54 EN:8 primary and46 current
+context EN/RU pairs. All23 changed word bodies are included,not extra bodies.
+It read223 whole official source-TEXT units
+(34 KANJIDIC/5 Unicode/176 ordered JMdict/8 visible KanjiPedia),
+one whole provider header,255 current typed kanji rows,24 original directions,
+eight lesson rulings,23 exact NAV diffs/23 wrappers,eight outside observations,
+seven clarifications,four guidance files and three correct CURRENT RU-root rubrics.
+Zero dictionary-glyph pixel views are claimed;historical inline glyphs stay
+UNINSPECTED. Metadata rows are not255 whole lessons or1478 fresh word judgments.
+
+One actual whole review produced one successful **10967-byte stdout/native final**,
+SHA256 `30743e9d0b85a227764908faa63346e285fee322726bd49d83330f2856da5f92`,
+including its terminal LF and **89 actual successful reader commands/windows**.
+Two earlier size assertions failed before report emission;not earlier reports,
+not more semantic reviews,and no reading credit.
+Original bytes stay private/immutable;the public **10894-byte path-only projection**,
+SHA256 `6afb1d6b81432196ba5a22226d30e957811aefe688c4167196beb0f412cd5518`,
+replaces machine roots only and has a distinct byte/hash domain.
+
+All eight roots/all24 original arrays persist with **24 independently qualified
+introductory-core Q contrasts**,not unrestricted ordinary-quiz negatives.
+使→事 was judged forward using the actual offered «дело; событие»/selectedこと;
+extraつかう/つかえる and historical史/吏/事 forms alone do not prove a defect.
+All seven dictionary clarifications are supported,including explicit selected
+inventory boundaries for洋/漢's empty kun arrays and nonabsolute spelling
+preferences for早/注. No reverse/transitive correction or guard clique follows.
+
+**C1: qualified CLEAN within new teaching/preservation,not fresh certification
+of all inherited historical claims. C2: assigned source/dependencies/NAV
+qualified CLEAN and24 bounded core contrasts;broader ordinary/all-sense/fallback
+C2 UNVERIFIED,not whole C2 CLEAN. C3: qualified CLEAN within54 whole RU bodies,
+not native certification.**
+No consequential correction was established within assigned facets.
+Modern necessity/frequency and global current/future uniqueness remain UNVERIFIED.
+Eight overlap observations are not new guards;速/所 are not typed kanji providers.
+Prior word-guard scope/identity and082姉→妹's unrestricted U remain unchanged.
+
+Qualified source checkpoint: **2018 runtime objects/1478 words/
+255 kanji/255 strokes**. Words671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/**160 N4**/13 N3/2 N2,**six frozen N4 remain:別/勉/真/答/親/題**.
+Strict progress: **2018 reviewed-current,two excluded reviewed blocked-media
+drafts,6258 pending of8278;6260 runtime paths absent**,no partial.
+Version `c8dce7e6734759dd`;checkpoint authority null/Ready false.
+1979 other baseline RAWs/tracking rows persist;23 word patches are NAV-only.
+These become accepted-main counts only after signed normal integration;
+fresh final checks,public archives/signatures/four protected refs/exact-main CI
+remain separate publication evidence,not native/pixel/media approval.
+Protected033 **word**空 stays excluded/runtime-absent/C2 UNVERIFIED,not media;
+accepted077 **kanji**空 does not resolve it.
+No app/device/phone/IME/media/default/package/release authority.
+Continue085+ and ALL remaining safe frozen levels/families,not task completion.
+
+The previous eighty-third full-target batch adds **seven complete Russian N4 kanji
 lessons,教/有/着/考/者/飯/館,411 file lines**,and seven RAW-identical KanjiVG assets.
 Twenty-two existing word bodies receive22 **navigation-only wrappers**;
 no new word or existing-word semantic amendment.
