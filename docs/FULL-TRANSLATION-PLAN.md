@@ -1,6 +1,49 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch096 number, direction, harmony and commerce kanji
+## Current qualified source milestone: batch097 fitting, address and life kanji
+
+Batch097 adds **three complete Russian frozen N3 lessons, 合/君/命, 204 file lines**,
+and three RAW-identical Japanese KanjiVG assets. Ten whole current word bodies receive
+**NAV-only wrappers**: nine standalone-glyph wrappers (一生懸命→命, 具合→合, 割合→合,
+合う→合, 合図→合, 君→君, 場合→合, 試合→合, 都合→合) and one whole-word label wrapper,
+間に合う's existing label `合う` → `../kanji/合.md`, authorized before mutation by the
+[signed whole-label navigation amendment](translation-batches/097-fitting-address-and-life-kanji-pre-mutation-whole-label-navigation-amendment-001.json). All visible prose, Japanese metadata,
+quiz arrays, old links and frozen levels remain unchanged; no new guard or removed direction.
+Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The [actual whole independent review](translation-batches/097-fitting-address-and-life-kanji-independent-review-001.json) (one reviewer, replacement writer after
+the original author session was lost) read **47 whole teaching bodies, 24 EN/23 CURRENT RU**:
+three primary pairs, 20 current context pairs and one EN-only comparison (words/命.md), including
+all ten changed words; **85 whole official TEXT units** (15 KANJIDIC, one Unicode, 66 JMdict,
+three visible KanjiPedia) plus one provider header; all 334 CURRENT typed rows, nine
+original directions, three L/three A rulings, three outside LIMITS, the amendment, ten exact
+NAV diffs, four whole guidance files and three RU rubrics — **57 complete windows**, 60
+successful terminal commands, zero failures/truncations/waits, identical opening/closing
+gates, zero glyph pixels, zero web pages. The original **9432-byte stdout/native-final
+report**, SHA256 `ca4acd2bb193d4f20bd0bbca0a32eebc26b5fd555ff573b1940cf4a46f738f34`, is published verbatim with its final LF; no projection or second review.
+
+Actual verdicts: **C1 CLEAN** (three new lessons within bounded official evidence),
+**C2 CLEAN for bounded scope/navigation but UNVERIFIED for ordinary active-negative quiz
+safety**, **C3 CLEAN** (Russian comprehension of new lessons and wrapper readability).
+Findings: none confirmed. All **nine directions are S-intro** (introductory/source-core
+comparison only, canonical author mapping Q) with **ordinary U** stated by the reviewer;
+metadata retention is not guard approval. All three L rulings and three A clarifications
+SUPPORTED within bounded scope; all ten NAV changes CLEAN as NAV-only. Outside LIMITS record
+real unresolved overlap concerns, not guards: 合's meeting sense vs current 会, 君's
+master/ruler senses vs current 主, 命 vs current 生 «жизнь». One optional polish suggestion
+(full readings for two short phrases in kanji/合.md notes) was not applied in 097.
+
+The [qualified source record](translation-batches/097-fitting-address-and-life-kanji-reviewed-source.json) preserves 2160 other baseline runtime RAWs/tracking
+rows and all 1478 word metadata/quiz arrays. Qualified source checkpoint: **2176 runtime/
+1478 words/334 kanji/334 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled unchanged;
+kanji 80 N5/166 N4/**86 N3**/2 N2; **281 N3 remain**. Strict progress: **2176 reviewed-current/
+two excluded reviewed blocked-media drafts/6100 pending of 8278; 6102 runtime paths absent**.
+Version `d6d621873d0b1741`; checkpoint authority null/Ready false. Prior 082–096 U
+qualifications remain unchanged. Protected 033 WORD空 stays excluded/runtime-absent/not media.
+No device/media/default/package/release authority. Continue 098+ and **ALL remaining safe
+frozen levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch096 number, direction, harmony and commerce kanji
 
 Batch096 adds **four complete Russian frozen N3 lessons,号/向/和/商,
 289 file lines**,and four RAW-identical Japanese KanjiVG assets.
