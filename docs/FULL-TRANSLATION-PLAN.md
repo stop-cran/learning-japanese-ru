@@ -1,6 +1,45 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch103 residence, protect, complete and real kanji
+## Current qualified source milestone: batch104 guest, harm, lodging and contents kanji
+
+Batch104 adds **four complete Russian frozen N3 lessons, 客/害/宿/容, 221 file lines**,
+and four RAW-identical Japanese KanjiVG assets. Three whole current word bodies receive
+**NAV-only standalone-glyph wrappers** (下宿→宿, 客→客, 宿題→宿), planned in the signed intake; no
+whole-label wrapper and no navigation amendment. All visible prose, Japanese metadata, quiz arrays,
+old links and frozen levels of those words remain unchanged. Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The [actual whole independent review](translation-batches/104-guest-harm-lodging-and-contents-kanji-independent-review-001.json) (one reviewer) of
+candidate `82669fd69433962ff3b9c7070da8d2222e2667c9` read **28 whole teaching bodies, 15 EN/13
+CURRENT RU** (four primary pairs, nine context pairs and two EN-only comparison bodies), **70 whole
+official TEXT units** (14 KANJIDIC2, one radical-evidence unit, 51 JMdict, four KanjiPedia) plus
+one provider header, all 362 CURRENT typed rows, twelve original directions, four L/four A rulings,
+four outside LIMITS, three exact NAV diffs, the whole guidance files and three RU rubrics —
+**51 complete windows**, 54 successful commands, zero failures, identical opening/closing gates, zero
+glyph pixels and zero web pages. The original **6051-byte stdout report**, SHA256
+`f33af8c4b9eb7c7dd686861107308fae0c3d9982bee281b66f141e7641348377`, equal to the reviewer's
+6050-byte native final plus one terminal LF, is published verbatim.
+
+Actual verdicts: **C1 CLEAN**, **C2 CLEAN**, **C3 CLEAN**; findings none. C2 explicitly does not
+certify UI fallback selection or all possible quiz compositions. All twelve directions are **S-intro**
+(introductory/source-core only, canonical author mapping Q); all twelve ordinary uses stay **U**
+(metadata retention is not guard approval). All four L rulings SUPPORTED within the introductory source,
+all four A rulings source-supported and bounded; all three NAV changes NAV-ONLY; outside LIMITS
+(客 vs 旅/店, 害 vs 悪, 宿 vs 家/宅 and 館/旅, 容 vs 内/中) are observations, not new guards. The
+reviewer's optional wording note (прилагательное типа な) was not adopted: な-прилагательное is the
+established term across the current Russian corpus.
+
+The [qualified source record](translation-batches/104-guest-harm-lodging-and-contents-kanji-reviewed-source.json) preserves 2221 other baseline
+runtime RAWs/tracking rows and all 1478 word metadata/quiz arrays. Qualified source checkpoint:
+**2232 runtime/1478 words/362 kanji/362 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled
+unchanged; kanji 80 N5/166 N4/**114 N3**/2 N2; **253 N3 remain**. Strict progress: **2232
+reviewed-current/two excluded reviewed blocked-media drafts/6044 pending of 8278; 6046 runtime
+paths absent**. Version `172b6f6cb7374ac0`; checkpoint authority null/Ready false. Prior 082–103
+U qualifications remain unchanged; the existing unlinked 完 mention in RU 院.md and the RU 留守
+wording outside this batch remain open observations. Protected 033 WORD空 stays
+excluded/runtime-absent/not media. No device/media/default/package/release authority. Continue 105+
+and **ALL remaining safe frozen levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch103 residence, protect, complete and real kanji
 
 Batch103 adds **four complete Russian frozen N3 lessons, 宅/守/完/実, 217 file lines**,
 and four RAW-identical Japanese KanjiVG assets. Five whole current word bodies receive
