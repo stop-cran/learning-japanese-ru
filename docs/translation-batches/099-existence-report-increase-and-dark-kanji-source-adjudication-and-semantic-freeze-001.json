@@ -1,0 +1,1895 @@
+{
+  "schemaVersion": 1,
+  "batch": "099-existence-report-increase-and-dark-kanji",
+  "recordedAt": "2026-11-08T19:45:24.506786+00:00",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineSnapshot": "dfc400f1eecbac81119815aeccfdd0485c715c57",
+  "exactProposalsRawSha256": "4146e90067471fa3600555893f93a5fa3e4d902be4f9ad6677719dea2ef3b2ff",
+  "exactProspectivePoolRawSha256": "0509ebee5d6ba2afe06969e36795225250431e4da2622ea369041c566202be4c",
+  "exactActualProspectiveReadingCompleteRawSha256": "ea915c939adbeed2622a1eb5903afcc8d74aa51adc35dda1d27a062811e09077",
+  "actualSourceAdjudications": [
+    {
+      "id": "099-L001",
+      "kanji": "在",
+      "authorDisposition": "SUPPORTED_WITHIN_INTRODUCTORY_SOURCE",
+      "reason": "WholefrozenEN/official6strokes/土32/ザイ/あ.るretained;1296400有る/在るkana-ordinaryadvicekept;1406150存在/1263650現在/1492460不在kept;unavailableoptionalWORD存在linkunwrappedwithoutnewwordapproval;modern-formmnemonicNOThistory;communitylevelNOTproviderinventoryreplacement."
+    },
+    {
+      "id": "099-L002",
+      "kanji": "報",
+      "authorDisposition": "SUPPORTED_WITHIN_INTRODUCTORY_SOURCE",
+      "reason": "WholefrozenEN/official12strokes/土32/ホウ/むく.いるretained;1515620information/newsandreward/retributiondisclosed;1515670報告/1356370情報/1543630予報/1438770天気予報/1443760電報kept;報告linkunwrappedasunavailableWORD;noticeboardmnemonicNOThistory(KanjiPedia会意形声幸+𠬝readbutnotclaimed)."
+    },
+    {
+      "id": "099-L003",
+      "kanji": "増",
+      "authorDisposition": "SUPPORTED_WITHIN_INTRODUCTORY_SOURCE",
+      "reason": "WholefrozenEN/official14strokes/土32/ゾウ+4kunretained;2038270ぞうincrease/1602440ふえる/1602880ふやす/1403160増加kept;1263120減るcontrastkept;曽-layermnemonicNOThistory(KanjiPedia形声土+曾readbutnotclaimed)."
+    },
+    {
+      "id": "099-L004",
+      "kanji": "暗",
+      "authorDisposition": "SUPPORTED_WITHIN_INTRODUCTORY_SOURCE",
+      "reason": "WholefrozenEN/official13strokes/日72/アン+3kunretained;1154330暗い/1586910暗記/1532350明るい/1287420黒いkept;日+音mnemonicexplicitlyNOTetymology/phoneticanalysis;JMdict-onlycitationasEN."
+    }
+  ],
+  "sourceDirectedNegativeEdges": [
+    {
+      "id": "099-N001",
+      "source": "在",
+      "distractor": "左",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "在2260090ざいpresence/situated-in/resident-inand1296400ある(有る/在る)tobe/exist/belocatedvs左1290800ひだりleft/left-handand2261470さ:individualintroductoryshape-and-sensecomparisonONLY;similarupper-leftstrokeshapesareshapecontrastNOTdisjointnessproof;being-located-on-the-leftcontextsnotexcluded;ordinaryall-sense/reading/fallbacksafetyU.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "099-N002",
+      "source": "在",
+      "distractor": "右",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "在2260090/1296400exist/belocatedvs右1171010みぎright/right-hand/above-mentioned:individualintroductoryshape-and-sensecomparisonONLY;similarupperstrokeshapesNOTguardapproval;locationandrelative-directioncontextsnotexcluded;notinferredfrom在-to-左edge;ordinarysafetyU.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "099-N003",
+      "source": "在",
+      "distractor": "土",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "在2260090ざいcountryside/presenceand1296400ある'belocated'vs土1445270つちearth/soil/ground/landand2248580どSaturday/land:individualintroductorycomparisonONLY;土isthe在radical/visiblecomponent(KANJIDIC32),soshapeaffinityEXPLICIT;countryside/land/groundcontextaffinityexplicit,NOTall-sensedisjointness;ordinarysafetyU.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "099-N004",
+      "source": "報",
+      "distractor": "持",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "報1515620ほうinformation/news/reportandreward/retribution,1515670報告vs持2842989じdraw/tie(typed持'hold;have'):individualintroductoryshapecomparisonONLY;noall-sensedisjointnessestablished;ordinaryall-sense/reading/fallbacksafetyU.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "099-N005",
+      "source": "報",
+      "distractor": "場",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "報1515620news/reportvs場1355790ばplace/scene/occasionand2652950じょうplace/grounds:individualintroductorycomparisonONLY;both土-sidedleftelements,soshapeaffinityexplicit;news-from-a-place/scenecontextsnotexcluded;ordinarysafetyU.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "099-N006",
+      "source": "報",
+      "distractor": "服",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "報1515620news/report/rewardvs服1500940ふくclothes/dosecounterand2245830ぶくmourning:individualintroductorycomparisonONLY;visuallysimilarright-sideelementisshapeaffinityEXPLICIT(noetymologicalclaim);ordinaryall-sensesafetyU.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "099-N007",
+      "source": "増",
+      "distractor": "場",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "増2038270ぞうincreaseand1602440ふえる/1602880ふやすvs場1355790ばplaceand2652950じょう:individualintroductorycomparisonONLY;shared土-leftelementshapeaffinityEXPLICIT;increasing-at-a-placecontextsnotexcluded;ordinarysafetyU.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "099-N008",
+      "source": "増",
+      "distractor": "地",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "増2038270/1602440increasevs地1420730ちearth/ground/placeand2423320じground/region/texture:individualintroductorycomparisonONLY;shared土-leftelementshapeaffinityEXPLICIT;notinferredfrom増-to-場edge;ordinaryall-sensesafetyU.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "099-N009",
+      "source": "増",
+      "distractor": "暗",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "増2038270/1602440/1403160increasevs暗2845752あんdarknessand1154330くらいdark/gloomy:individualintroductorycomparisonONLY;bothcontain日-likeelements,shapecontrastonly;growing-darkercontextsnotexcluded;NOreverse暗-to-増edgeexistsorisinferred;ordinarysafetyU.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "099-N010",
+      "source": "暗",
+      "distractor": "音",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "暗2845752darknessand1154330くらいdark/gloomy/depressed/unfamiliarvs音1576900おとsound/note/fameand2859161おん/2859162ね:individualintroductorycomparisonONLY;音isavisiblecomponentof暗,soshapeaffinityEXPLICIT;the日+音lessonmnemonicisNOTetymology;ordinarysafetyU.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "099-N011",
+      "source": "暗",
+      "distractor": "意",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "暗2845752/1154330dark/depressedmoodvs意2081180いfeelings/thoughts/meaning:individualintroductorycomparisonONLY;bothcontain音-shapedelements,shapeaffinityEXPLICIT;1154330depressed/darkmoodsensegivesfeelings-domainaffinity,NOTall-sensedisjointness;ordinarysafetyU.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "099-N012",
+      "source": "暗",
+      "distractor": "映",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "暗2845752darknessand1154330dark/dull-colourvs映(typed'reflect;showimage';noboundJMdictobject):individualintroductorycomparisonONLY;both日-leftshapes,shapeaffinityEXPLICIT;light/imagedomaincontexts(projectingindarkness)notexcluded;ordinaryall-sensesafetyU.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    }
+  ],
+  "addedDictionaryClarifications": [
+    {
+      "id": "099-A001",
+      "kanji": "在",
+      "authorDisposition": "SOURCE_SUPPORTED_BOUNDED_CLARIFICATION",
+      "reason": "Whole1296400ある(有る/在る)tobe/exist/belocated/have,ordinarilykana;1577980いるanimatecontrastnotpromotedbeyondsource;2150170あり;2260090ざいcountryside/presence/resident-inprefix;1492460不在absencenote."
+    },
+    {
+      "id": "099-A002",
+      "kanji": "報",
+      "authorDisposition": "SOURCE_SUPPORTED_BOUNDED_CLARIFICATION",
+      "reason": "Whole1515620ほうinformation/news/report|reward/retribution;むく.いるkeptinmetadataonly;1278510広告/1285990告げるandcommunicationwordscontrastonly,notsynonymyproof;noetymology/frequencyclaim."
+    },
+    {
+      "id": "099-A003",
+      "kanji": "増",
+      "authorDisposition": "SOURCE_SUPPORTED_BOUNDED_CLARIFICATION",
+      "reason": "Whole1602440ふえるintransitiveand1602880ふやすtransitivedistinguished;殖える/殖やすalternatespellingsNOTexported;1403160増加;1263120減るcontrastcontext-specific,notantonymproof."
+    },
+    {
+      "id": "099-A004",
+      "kanji": "暗",
+      "authorDisposition": "SOURCE_SUPPORTED_BOUNDED_CLARIFICATION",
+      "reason": "Whole1154330くらいdark/gloomy|depressed|dull-colour|ill-boding|unlikely|unfamiliar;lessondisclosesmoodsenseonlyasbounded;1586910暗記memorizationnot'darkwriting';1532350明るい/1287420黒いcontrastsnotantonym/synonymproof."
+    }
+  ],
+  "currentPoolObservedOverlapFlagsNotNewGlobalPairJudgments": [
+    {
+      "id": "099-O001",
+      "kanji": "在",
+      "disposition": "LIMIT_NOT_NEW_GUARD",
+      "observedCurrentTypedGlyphs": [
+        "有",
+        "住"
+      ],
+      "observation": "Typedexistence/residencedomainsflaglimits:frozenEN有'have,exist'vs在'exist;belocated'overlap'exist'isINHERITEDfromEN;RU有«иметь;существовать»vs在«существовать;находиться»keptequallyfaithfulanddisambiguatedbysecondglosses;1296400有る/在るsharedreadingexplicit;有isNOTa在distractornor在a有distractor;notnewguard."
+    },
+    {
+      "id": "099-O002",
+      "kanji": "報",
+      "disposition": "LIMIT_NOT_NEW_GUARD",
+      "observedCurrentTypedGlyphs": [
+        "告",
+        "伝",
+        "知"
+      ],
+      "observation": "Typedcommunicationdomainsflaglimits:frozenEN報'report;news'vs告'announce;inform'and伝'transmit;convey'sharenoEnglishword;RU報«сообщение;известие»vs告«сообщать;объявлять»and伝«передавать;сообщать»sharetheсообщ-root,aRUSSIAN-INTRODUCEDnoun/verboverlapdisambiguatedbypartofspeechandsecondglosses;none報distractors;notnewguard."
+    },
+    {
+      "id": "099-O003",
+      "kanji": "増",
+      "disposition": "LIMIT_NOT_NEW_GUARD",
+      "observedCurrentTypedGlyphs": [
+        "加",
+        "多",
+        "重"
+      ],
+      "observation": "Typedadd/many/heavydomainsflaglimits(増える-加わる/多い/重なるadjacency);RU«увеличиваться»vs«добавлять»/«много»/«наложенныйслоями»distinct;notnewguard."
+    },
+    {
+      "id": "099-O004",
+      "kanji": "暗",
+      "disposition": "LIMIT_NOT_NEW_GUARD",
+      "observedCurrentTypedGlyphs": [
+        "黒",
+        "明",
+        "夜"
+      ],
+      "observation": "Typedblack/bright/nightdomainsflaglimits;1287420黒い/1532350明るいcontrastsandnight-darknessadjacency;明isNOTan暗distractor;RU«тёмный»vs«чёрный»/«светлый;ясный»/«ночь»distinct;notnewguard/globalpairjudgment."
+    }
+  ],
+  "originalSourceDirectedMetadataCorrections": [],
+  "authorProvisionalCounts": {
+    "Q": 12
+  },
+  "independentlyReviewed": false,
+  "all12OrdinaryActiveNegativeSafety": "UNVERIFIED",
+  "premutationNavigationAmendmentRequired": false,
+  "navigationExceptionScope": "FourintakeplannedSTANDALONEglyphwrappersonly;nowhole-wordlabels;存在/報告optionallinksunwrappedasunavailableWORDs.",
+  "currentAcceptedExistDistractorsPreserved": [
+    "月",
+    "右",
+    "青"
+  ],
+  "boundary": "AUTHORindividualadjudicationsONLY;independentall12dispositionsPENDING;12provisionalINTRODUCTORYcomparison-onlyQNOT12active-negativeapprovals;ALL12ordinary/all-sense/readings/fallbacksafetyU.土-component(在/場/地/増)/音-component(暗/意)/日-shape/mood-feelingsaffinitiesEXPLICIT,notglobalguardsclearedbylocalizedtitles/disclosure/typedidentity.有/在'exist'overlapINHERITEDfromfrozenEN;報/告/伝сообщ-rootoverlapRUSSIAN-INTRODUCED,part-of-speech/second-glossdisambiguated;nosuchpairisadistractoredge.NOSourcecorrection/metadatawithdrawal/newguard.Broadernecessity/frequency/current-futureuniquenessU;prior098all12ordinaryU/097all9ordinaryU/096meaning-onlyN008/all12ordinaryU/095N012/all12ordinaryU/094呼-blow/all9ordinaryU/093all27ordinaryU/091割-to-利/082姉-to-妹Uunchanged.",
+  "runtimeAcceptance": false,
+  "fullTaskComplete": false,
+  "continueRequired": true,
+  "stage": "PREMUTATION_AUTHOR_SEMANTIC_FREEZE;INDEPENDENT_REVIEW_AND_RUNTIME_ACCEPTANCE_PENDING",
+  "originalIntakeUnchangedRawSha256": "4c20f24cf886cd1afdb1e456dfcd9fb7d56efc2d31f2a05851f88f18186fd4d1",
+  "intakeCommit": "47cb7b762416566a06f1ad61f85a7ca8e99cc0f7",
+  "explicitPremutationNavigationAmendment": null,
+  "fourStandaloneGlyphWrappersPlannedInSignedIntake": true,
+  "actualCompletePreparationReading": {
+    "schemaVersion": 1,
+    "batch": "099-existence-report-increase-and-dark-kanji",
+    "recordedAt": "2026-11-08T19:36:31.912444+00:00",
+    "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "russianBaselineSnapshot": "dfc400f1eecbac81119815aeccfdd0485c715c57",
+    "exactEvidenceBindingRawSha256": "bb2fb73114680900210c743e838ac1033320d63a93a4dd54e9aa8f40b81fb39f",
+    "exactMetadataPrimaryCaptureRawSha256": "392c1120decf0cec89b9d61866556fd00a7e3667991d909cc8b6d619fbf6bf4f",
+    "exactKanjipediaCaptureRawSha256": "45a4ffd071ec9f95cdf87e280158e7377e56e9977b171ef68d736d0447a840e6",
+    "actualWholePrimaryEnglishReading": {
+      "batch": "099-existence-report-increase-and-dark-kanji",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "russianBaselineSnapshot": "dfc400f1eecbac81119815aeccfdd0485c715c57",
+      "actualWholeFrozenPrimaryBodies": 4,
+      "actualSuccessfulIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "pendingIndices": [],
+      "complete": true,
+      "actualPublicReturns": [
+        {
+          "eventId": "72c40156-ac3b-49ad-8eb9-ca8487f33815",
+          "actualPublicReturnBytes": 7074,
+          "actualPublicReturnSha256": "03a49482a30f44fd6159631879deb7fab43f42ddd99f0f61a614d0456f16d585",
+          "journalRecordExcludingLfSha256": "8d10613066976004b8de0fdaef0da9678b58b4a82c7bbae55c0d2fdc33210cdc",
+          "entireBoundPayloadCompared": true,
+          "windows": [
+            [
+              "0",
+              "4"
+            ]
+          ]
+        }
+      ],
+      "boundary": "EntireactualsuccessfulfrozenENprimarypayloadscompared,notmarkersalone;NOTRUauthoring/independentreview/sourceacceptance."
+    },
+    "complete": true,
+    "actualSuccessfulPreparationToolReturns": 21,
+    "actualSuccessfulReaderWindowReturns": 21,
+    "actualDistinctReaderToolReturns": 20,
+    "nonCreditedPartialWindows": [],
+    "actualSuccessfulPublicReturns": [
+      {
+        "eventId": "6c9474f9-df79-498e-9e71-03da7634a801",
+        "actualSuccessfulPublicReturnUtf8Bytes": 962,
+        "actualSuccessfulPublicReturnSha256": "ab90b4d8839eb18221e49351ab63536c184bfa146d880d9158551aaef3184f5b",
+        "journalRecordExcludingLfSha256": "d842bf362618512a0f80a75759dd64defaf7e2263b93d4f32b1169692d96e277",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [],
+        "actualWholeProviderHeaderRead": true
+      },
+      {
+        "eventId": "f49cb6b9-0824-4979-a473-ae5764b21dbe",
+        "actualSuccessfulPublicReturnUtf8Bytes": 9081,
+        "actualSuccessfulPublicReturnSha256": "76381c5fb81510db3198160c41491f23a0659a7da755136d667244268f1d72e5",
+        "journalRecordExcludingLfSha256": "67d561cc53ab4e72b9e81c03f1cb4d0aea5cfd087a8f27e9626fccf07e53e241",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "kanjipedia",
+            "start": 0,
+            "end": 4
+          }
+        ]
+      },
+      {
+        "eventId": "21db8698-c054-47a8-8841-57bef528b989",
+        "actualSuccessfulPublicReturnUtf8Bytes": 4332,
+        "actualSuccessfulPublicReturnSha256": "686e7a14c85a9a179ade70ed9d0719cab60ab716cf132a9f7c69410f21718bd1",
+        "journalRecordExcludingLfSha256": "3fa3dc195fbfae354e80fd5b3d8abbd13b994e72a7f719796479b70bfbc98ab6",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "comparison",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      },
+      {
+        "eventId": "d09fc86b-a56a-42c5-8d61-037fb3c8fa87",
+        "actualSuccessfulPublicReturnUtf8Bytes": 10757,
+        "actualSuccessfulPublicReturnSha256": "6f0679d38cdc7477edd937bb14c22af29a9580380099be7d6eb5ae1b8e4b52b0",
+        "journalRecordExcludingLfSha256": "904d19773d5b01bd670b010f06494373a30ca5209a152c029b81394f8e3d5240",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "pair",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      },
+      {
+        "eventId": "fc1b0557-101f-4584-819a-d722edc64d7b",
+        "actualSuccessfulPublicReturnUtf8Bytes": 11030,
+        "actualSuccessfulPublicReturnSha256": "b8a9e4338fff323e2b011374913ccc5de46f85a2c578ecaee398af0096895baa",
+        "journalRecordExcludingLfSha256": "b64fbe875137a4b924ed4aad05e86aaa20a86b4ac5553467848639f9e93f0c07",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "pair",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      },
+      {
+        "eventId": "d855b43a-c7d3-4f0a-bdee-2706d713fedd",
+        "actualSuccessfulPublicReturnUtf8Bytes": 10557,
+        "actualSuccessfulPublicReturnSha256": "0e4df2f8811d8c650fba1e62e814005a84172ace729fba4e3697e0c503cfcca0",
+        "journalRecordExcludingLfSha256": "ad15a8aa38d4815b983266f97b0dffe748acb669ee35563d090b299bf44e6e98",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "pair",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      },
+      {
+        "eventId": "8f52b44a-06f3-412d-b5eb-1b09774ecb8e",
+        "actualSuccessfulPublicReturnUtf8Bytes": 10265,
+        "actualSuccessfulPublicReturnSha256": "cecbc050809a98fc8637828db68978c36972fd1e5eab0e9f1ee4e105455b8032",
+        "journalRecordExcludingLfSha256": "2ceee533f1ddc3146c844ff276d4780001f1fc10048ebff9c05ccb2f2dbfefc5",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "pair",
+            "start": 6,
+            "end": 8
+          }
+        ]
+      },
+      {
+        "eventId": "f587485e-12bf-4622-aade-f5b3c32678a3",
+        "actualSuccessfulPublicReturnUtf8Bytes": 9166,
+        "actualSuccessfulPublicReturnSha256": "981b459cac437a5d74f5e52f3a5503c3342204c232d02ca2b3db7db326b28346",
+        "journalRecordExcludingLfSha256": "1015786d5207d5581ef87b12631e5f60dae9354fa648e4fa198ee980fa9cbb06",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "pair",
+            "start": 10,
+            "end": 12
+          }
+        ]
+      },
+      {
+        "eventId": "6da8fe59-a4eb-4160-aa37-ce358617ffae",
+        "actualSuccessfulPublicReturnUtf8Bytes": 10229,
+        "actualSuccessfulPublicReturnSha256": "8e1516b66935ab2b274f5bdec61e190575a1c2e8332d0f4721be51a4171a3073",
+        "journalRecordExcludingLfSha256": "754351087785c704f36b25b7cf7354963bab09187861f9df36b5f0c5ad1a9a24",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "pair",
+            "start": 8,
+            "end": 10
+          }
+        ]
+      },
+      {
+        "eventId": "f0db6eca-a5cb-4de9-b8f0-afd4a3a45e0d",
+        "actualSuccessfulPublicReturnUtf8Bytes": 4009,
+        "actualSuccessfulPublicReturnSha256": "59c6bbd3989a1f5c4cd8a6a8278e25b01b7d3de551bd0f2d6b148b97371259c4",
+        "journalRecordExcludingLfSha256": "8585ec0b4f61cfa0d109a7d73c4b04f2ed726d18c91f66297598321c3d3f1fc4",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "pair",
+            "start": 16,
+            "end": 17
+          }
+        ]
+      },
+      {
+        "eventId": "917808b5-cc87-41c3-8e0e-271b5934c709",
+        "actualSuccessfulPublicReturnUtf8Bytes": 9410,
+        "actualSuccessfulPublicReturnSha256": "d8ef1c30de9f879188f5b40ffbac380ee44ba2542381cd0e6ed5324fe6624c9c",
+        "journalRecordExcludingLfSha256": "c434165ddc1f9c08160ec999d5be052663e1aaa217187ba9c7f3f7002d582a2f",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "pair",
+            "start": 14,
+            "end": 16
+          }
+        ]
+      },
+      {
+        "eventId": "818b5eb0-18e1-4611-abea-fb71deef4471",
+        "actualSuccessfulPublicReturnUtf8Bytes": 8922,
+        "actualSuccessfulPublicReturnSha256": "61f9fc7301296ba29a717ae1f5e22e054e7bcdfde3c6dfe1478cad2e8bff5e89",
+        "journalRecordExcludingLfSha256": "1a80a4558a5d2f34f20414a429aa6228769382f6cb3e68e05d18d7bfa62bfd85",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "pair",
+            "start": 12,
+            "end": 14
+          }
+        ]
+      },
+      {
+        "eventId": "2b8692b0-67fd-46d8-9bc3-72c88502ed29",
+        "actualSuccessfulPublicReturnUtf8Bytes": 10306,
+        "actualSuccessfulPublicReturnSha256": "7c7419b495ad7dec7791204f6f63da6c5eed324368fbadc701672fa54348b659",
+        "journalRecordExcludingLfSha256": "7cfa545414b7f15015731421bcc29ee076bc57b1afe2d3ac80fb2d16c5f0415a",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "metadata",
+            "start": 0,
+            "end": 4
+          }
+        ]
+      },
+      {
+        "eventId": "c64c35f3-0221-46a1-be3f-76c66d58da31",
+        "actualSuccessfulPublicReturnUtf8Bytes": 10464,
+        "actualSuccessfulPublicReturnSha256": "47ad2f420d6ffcef8b1ed11d82a81acd2123785f7e385e2d205699055ac603f8",
+        "journalRecordExcludingLfSha256": "9b1683674afadf966aa3107a47f112a54db72f47eeb48cfe129dba86eb03b455",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "metadata",
+            "start": 4,
+            "end": 8
+          }
+        ]
+      },
+      {
+        "eventId": "e41d862d-1dcf-4913-bf89-45642620aa64",
+        "actualSuccessfulPublicReturnUtf8Bytes": 10183,
+        "actualSuccessfulPublicReturnSha256": "3d01a3a9fd689549d8ffb638f4a95aad83bf2d5803a723c5979975bc994e2f92",
+        "journalRecordExcludingLfSha256": "2398cbcbbfc0f67b0f18c8df0e95fea04b9f6c9a9b2cf3a67037189384e22a38",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "metadata",
+            "start": 8,
+            "end": 12
+          }
+        ]
+      },
+      {
+        "eventId": "7338d313-471f-4efd-b9fe-dc61b5b0d7e5",
+        "actualSuccessfulPublicReturnUtf8Bytes": 10772,
+        "actualSuccessfulPublicReturnSha256": "e266bc4e1030f593570cc55a5cf66b98a854d27f0c922672dccf4c568219da1e",
+        "journalRecordExcludingLfSha256": "f3afdd1f973d61868a24b3300f1a0542b496e73bcc05032b9ba6037b4bb960f8",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "metadata",
+            "start": 16,
+            "end": 20
+          }
+        ]
+      },
+      {
+        "eventId": "ca9b3dd8-6b28-4960-b345-77e53dbf7fd6",
+        "actualSuccessfulPublicReturnUtf8Bytes": 11196,
+        "actualSuccessfulPublicReturnSha256": "b0be350d2e5bec95c09750aaa4ebc579ab91e34635d957620ba740647abf03fd",
+        "journalRecordExcludingLfSha256": "1afcd38795bde993ca4e22b14ebb837e3220636ced7d1f8da3217974d4293288",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "metadata",
+            "start": 12,
+            "end": 16
+          }
+        ]
+      },
+      {
+        "eventId": "5610ebf6-2fc0-47d5-b546-f1058a9a3914",
+        "actualSuccessfulPublicReturnUtf8Bytes": 2720,
+        "actualSuccessfulPublicReturnSha256": "2786ebf56587acd4262d609d90ff93013c8a4b49cc728cb1255f8faa407ffdc1",
+        "journalRecordExcludingLfSha256": "66a58abe688dec3dd599183a0b320cdef3a3d6241a8697f82785c569ba4946c7",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "metadata",
+            "start": 20,
+            "end": 21
+          },
+          {
+            "mode": "radical",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      },
+      {
+        "eventId": "308338cb-4e9e-4195-9546-e890c3a3eb41",
+        "actualSuccessfulPublicReturnUtf8Bytes": 11745,
+        "actualSuccessfulPublicReturnSha256": "c396d6eaa0e1bdd8699d6a914e2ea8789338ee381fb2581915a6ea04441694ee",
+        "journalRecordExcludingLfSha256": "b40a7f7588517bcba63712df8f528770a75764412fc96ce023840ed6e443eebe",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "object",
+            "start": 0,
+            "end": 17
+          }
+        ]
+      },
+      {
+        "eventId": "1d4dcc2f-760e-488b-8e77-f8be544ab1cb",
+        "actualSuccessfulPublicReturnUtf8Bytes": 12434,
+        "actualSuccessfulPublicReturnSha256": "5819324e2b741b8a3a8cc4974bb5456b85238b3b6bea128ae60b271460fc5058",
+        "journalRecordExcludingLfSha256": "739a4da1ae5187612fbd16cce5dee8aedeb97f9c9333d1fbbf0b60b8ab4cb3f8",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "object",
+            "start": 17,
+            "end": 38
+          }
+        ]
+      },
+      {
+        "eventId": "f8797437-3565-4a42-b750-9f6dd50af898",
+        "actualSuccessfulPublicReturnUtf8Bytes": 10331,
+        "actualSuccessfulPublicReturnSha256": "df214bd1194b7b3467c94b9ee859dd556b7524975e48ac557573302f9ccf3a32",
+        "journalRecordExcludingLfSha256": "988cac4677e675dd2bf1fead9dd79e5888ce007a8adc1bbc71e06f4fc0faf48f",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "object",
+            "start": 38,
+            "end": 62
+          }
+        ]
+      }
+    ],
+    "actualWholeTeachingBodies": 40,
+    "actualWholeEnglishBodies": 23,
+    "actualWholeRussianBodies": 17,
+    "actualWholeOfficialSourceTextUnits": 89,
+    "actualAdditionalWholeProviderHeaders": 1,
+    "actualDictionaryGlyphPixelViews": 0,
+    "actualCoverage": {
+      "pair": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "comparison": [
+        0,
+        1
+      ],
+      "metadata": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "radical": [
+        0,
+        1
+      ],
+      "object": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "kanjipedia": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "actualWholeProviderHeaderToolEventIds": [
+      "6c9474f9-df79-498e-9e71-03da7634a801"
+    ],
+    "actualSuccessfulWholeCounts": {
+      "pair": 17,
+      "comparison": 2,
+      "metadata": 21,
+      "radical": 2,
+      "object": 62,
+      "kanjipedia": 4
+    },
+    "frozenSourceCommunityLevelsNotProviderHistoricalJlpt": true,
+    "boundary": "Actualentiresuccessfulpayloadcomparisons,notmarkersalone;4wholeENprimary+17wholeEN/RUpairs+2wholeEN-only=40bodies,23EN17RU;21KANJIDIC+2Unicode+62completeorderedJMdict+4wholevisibleKanjiPedia=89TEXT;oneWHOLEheaderADDITIONAL;ZEROglyphpixels/fullHTML/nativeapproval.21successfulREADERwindowsin20actualreaderTOOLreturns+oneSEPARATEwhole-header/rangesreturn;ZEROuncreditedpartialwindows;earlierprimaryreadingreturnseparate;NOT342typedpoolreading/newRUauthoring/independentreview/semanticfreeze/runtimeacceptance.WholebaselinepairreaderisvalidBEFOREfourNAVmutations;futurecandidaterequiresCURRENTwholepairbindings,notreusingbaselineRAWs.",
+    "independentReviewOccurred": false,
+    "runtimeAcceptance": false,
+    "fullTaskComplete": false,
+    "continueRequired": true
+  },
+  "actualCompleteProspectiveReading": {
+    "schemaVersion": 1,
+    "batch": "099-existence-report-increase-and-dark-kanji",
+    "complete": true,
+    "recordedAt": "2026-11-08T19:45:11.798036+00:00",
+    "exactProposalsRawSha256": "4146e90067471fa3600555893f93a5fa3e4d902be4f9ad6677719dea2ef3b2ff",
+    "exactProspectivePoolRawSha256": "0509ebee5d6ba2afe06969e36795225250431e4da2622ea369041c566202be4c",
+    "actualSuccessfulPublicReturns": [
+      {
+        "eventId": "8aba6113-488e-471c-861f-c18579687103",
+        "actualSuccessfulPublicReturnUtf8Bytes": 10457,
+        "actualSuccessfulPublicReturnSha256": "955bc7f9cb482682e822fdd508c2716b166c3bf09ca128d48a41ea92a16546fa",
+        "journalRecordExcludingLfSha256": "261b32fb95aae291cc20fc63dcad0ea15b5e9f87e15e03089b67962030907e30",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "ru",
+            "0",
+            "4"
+          ]
+        ]
+      },
+      {
+        "eventId": "eac8f06a-1118-4ce5-81ce-e9b89acfb3d1",
+        "actualSuccessfulPublicReturnUtf8Bytes": 4651,
+        "actualSuccessfulPublicReturnSha256": "f5e3a6cdfe5ffbad5d7a484b9876366068143981d73f8747a2fa363abc9ac3bc",
+        "journalRecordExcludingLfSha256": "74658d00a172958fed7a3b408f25a0b9c8c157a395efd32f0b44d4f392f3959f",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "nav",
+            "0",
+            "4"
+          ]
+        ]
+      },
+      {
+        "eventId": "06647c33-276f-4e58-a90f-44932ff062e2",
+        "actualSuccessfulPublicReturnUtf8Bytes": 12161,
+        "actualSuccessfulPublicReturnSha256": "1466f06f6316479e950146797aae7458e01043e68b9dcabe6894f3dda99a1cda",
+        "journalRecordExcludingLfSha256": "fad4d5840c4d3b09d8baa1b62c3900430c2eda2160775f3750d15a6ce6d37234",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "pool",
+            "0",
+            "36"
+          ]
+        ]
+      },
+      {
+        "eventId": "397ad303-c53c-40c4-8c97-3b9dc45575da",
+        "actualSuccessfulPublicReturnUtf8Bytes": 12185,
+        "actualSuccessfulPublicReturnSha256": "189c8fb93fbfbaf8460f2fa4d756514b9ee491515c39b1b9657b84fcc7c4db2a",
+        "journalRecordExcludingLfSha256": "f0d6b1f6b34b08d216194fb9ce2792f837697c5e77135dfbf2e0abc8293ecaf5",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "pool",
+            "36",
+            "72"
+          ]
+        ]
+      },
+      {
+        "eventId": "92456937-0832-4eef-bc85-3e7dbd129888",
+        "actualSuccessfulPublicReturnUtf8Bytes": 12153,
+        "actualSuccessfulPublicReturnSha256": "a72613b8cb082861555ac00c57306221199f9d0c38d776583a65e3937d615e33",
+        "journalRecordExcludingLfSha256": "c2bffe8748058309843b64c15a51b83d7f6ea6e1f161c8f8d9a7a5807f7d5817",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "pool",
+            "72",
+            "108"
+          ]
+        ]
+      },
+      {
+        "eventId": "fe5f7e56-583d-43d6-a57d-36bbfeddb02a",
+        "actualSuccessfulPublicReturnUtf8Bytes": 12157,
+        "actualSuccessfulPublicReturnSha256": "e36a40280fd17dd1a9fb901b9196c056d03ca494acf66516bd9f6c94497980ce",
+        "journalRecordExcludingLfSha256": "9e130c172c6ae2e8ec81f4492790c5fb9c6e4c58592caf692452e2855ac060f9",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "pool",
+            "108",
+            "144"
+          ]
+        ]
+      },
+      {
+        "eventId": "fd0abdf0-1f34-43cb-8ecc-f40c1e75b847",
+        "actualSuccessfulPublicReturnUtf8Bytes": 12416,
+        "actualSuccessfulPublicReturnSha256": "7eefb23e087ef02d8d95c38d1e6498c8276ad2c5ff3dc8f414ef8aa983d95ead",
+        "journalRecordExcludingLfSha256": "c99d29886e8af8ff53786388c81a192022c9742fb4b9ff13baca857a7ab45cb6",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "pool",
+            "144",
+            "183"
+          ]
+        ]
+      },
+      {
+        "eventId": "fac4f598-0c8f-4db8-8012-fd0fd43e1619",
+        "actualSuccessfulPublicReturnUtf8Bytes": 12352,
+        "actualSuccessfulPublicReturnSha256": "ce6d43c0ee0c1745333e596646212d8f264aef13d2846cb0aa1f8fbf8ee93cd2",
+        "journalRecordExcludingLfSha256": "c404ac2c81d39531c248233a6b87a380cc70dcc9234b932e6ca3a582732d216c",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "pool",
+            "183",
+            "220"
+          ]
+        ]
+      },
+      {
+        "eventId": "37c84b34-9d7f-4bbe-9d29-7e7ffcdb6bb9",
+        "actualSuccessfulPublicReturnUtf8Bytes": 12353,
+        "actualSuccessfulPublicReturnSha256": "107e7f6347baa10f0d27323f4111a2f58d85cd64bc730bf662c2ae1d238d2989",
+        "journalRecordExcludingLfSha256": "0bf24fdb6ca07ccdaaf5c0eefc8863973dd23acf44461d9354ad74a0015222b6",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "pool",
+            "220",
+            "257"
+          ]
+        ]
+      },
+      {
+        "eventId": "4c7aeac3-0902-4bbb-be3a-196b8731b58e",
+        "actualSuccessfulPublicReturnUtf8Bytes": 12254,
+        "actualSuccessfulPublicReturnSha256": "06a6dd9efd53337cdee66022f3e5bdf09b52960e7f57d6c0fbf90841e85acc5e",
+        "journalRecordExcludingLfSha256": "e68e0e5fba33d00e99d3b969324a81bc7ef223491a9f6bd4721ed25a89b2bd6d",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "pool",
+            "257",
+            "294"
+          ]
+        ]
+      },
+      {
+        "eventId": "240cfc43-6ad3-426b-8224-7c51511cd55c",
+        "actualSuccessfulPublicReturnUtf8Bytes": 12300,
+        "actualSuccessfulPublicReturnSha256": "96b8d92eecd5a6ca19da72da8e60edd9607b42ec8c0c74680474859132b27d54",
+        "journalRecordExcludingLfSha256": "4a10a6b6a8007cb064933f33bac75a13e7581197e674b8211db78f4346824ea4",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "pool",
+            "294",
+            "330"
+          ]
+        ]
+      },
+      {
+        "eventId": "a4adbc56-b4d5-4c61-9e31-7ffb13294a11",
+        "actualSuccessfulPublicReturnUtf8Bytes": 3969,
+        "actualSuccessfulPublicReturnSha256": "2bb3e299df4217e2a59e39b4a6c3cb86a6c03b196e030cd5f1b2e8231a610ddf",
+        "journalRecordExcludingLfSha256": "51b63a68f3d175fff2e7b91c1e4aead128e14c349aa99154dd6f1f4bea824ce9",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "pool",
+            "330",
+            "342"
+          ]
+        ]
+      }
+    ],
+    "actualSuccessfulReadingToolReturns": 12,
+    "actualSuccessfulReaderWindows": 12,
+    "actualWholeProposedRussianLessons": 4,
+    "actualWholeExactNavigationPatches": 4,
+    "actualWholeTypedProspectiveMetadataRows": 342,
+    "actualCoverage": {
+      "ru": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "nav": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "pool": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341
+      ]
+    },
+    "boundary": "Entireactualsuccessfulpayloadscompared,notmarkersalone;4WHOLEprivateRUproposals/4WHOLEexactstandalone-glyphNAVpatches/342WHOLEtypedunits;12readerwindowsin12actualtoolreturns.NOT342wholelessons/CURRENTruntimepool/fresh1478wordguards/independentreview/semanticfreeze/acceptance.",
+    "runtimeAcceptance": false
+  },
+  "actualAuthorAdjudicationInspection": [
+    {
+      "eventId": "8cd989e4-1ece-436f-a2e3-77634b720bf8",
+      "actualSuccessfulPublicReturnUtf8Bytes": 12577,
+      "actualSuccessfulPublicReturnSha256": "11e332c8112fb085e38017656a1040edbe7a8e630c7910465fc68655f8f4c0ef",
+      "journalRecordExcludingLfSha256": "e36d1a25325c8d9909e5353e3fede1558f35686350d432b7c8be8364ce907d24",
+      "entireBoundAuthorAdjudicationPayloadCompared": true
+    }
+  ],
+  "completeBoundProposals": {
+    "schemaVersion": 1,
+    "batch": "099-existence-report-increase-and-dark-kanji",
+    "recordedAt": "2026-11-08T19:38:34.059243+00:00",
+    "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "russianBaselineSnapshot": "dfc400f1eecbac81119815aeccfdd0485c715c57",
+    "newKanjiLessons": [
+      {
+        "id": "在",
+        "path": "kanji/在.md",
+        "metadata": {
+          "kanji": "在",
+          "title": "существовать; находиться",
+          "jlpt": 3,
+          "tags": [
+            "jlpt-n3",
+            "grade-5",
+            "structure-unclassified"
+          ],
+          "strokes": 6,
+          "radical": "土",
+          "radicalNumber": 32,
+          "onyomi": [
+            "ザイ"
+          ],
+          "kunyomi": [
+            "あ.る"
+          ],
+          "distractors": [
+            "左",
+            "右",
+            "土"
+          ]
+        },
+        "completeRussianPayloadUtf8": "---\nkanji: 在\ntitle: существовать; находиться\njlpt: 3\ntags: [jlpt-n3, grade-5, structure-unclassified]\nstrokes: 6\nradical: 土\nradicalNumber: 32\nonyomi: [ザイ]\nkunyomi: [あ.る]\ndistractors: [左, 右, 土]\n---\n\n# 在 — существовать; находиться\n\n**Черты:** 6 · **Ключ (радикал):** 土 (№ 32) · **JLPT:** N3 (список сообщества)\n\n## Значение и происхождение\n\n在 связан с существованием или пребыванием где-либо.\n存在 そんざい называет само существование; 不在 ふざい означает отсутствие.\n現在 げんざい переносит внимание на время: «настоящее время; сейчас».\n\n**Мнемоника по современной форме:** представьте, что что-то находится\nна 土 в правом нижнем углу, под верхними чертами.\nЭто подсказка о расположении, а не объяснение древней формы знака.\n\n## Чтения\n\n| Чтение | Тип | Примеры |\n| --- | --- | --- |\n| ザイ | онное | 存在 そんざい — существование; 現在 げんざい — сейчас |\n\nИсточник также фиксирует кунное чтение あ.る.\nНе считайте эти метаданные указанием писать кандзи\nвместо обычного ある каной в каждом предложении.\n\n## Частые слова\n\n- 存在 そんざい — существование; наличие.\n- 現在 げんざい — настоящее время; сейчас.\n- 不在 ふざい — отсутствие.\n\n## Примечания\n\nОтличайте [左](左.md), где внизу 工, от 在, где внизу 土\nи есть дополнительная вертикальная черта слева.\n不在 означает, что человека нет на месте, о котором идёт речь;\nэто не значит, что такого человека не существует.\nУ [有](有.md) значения, связанные с существованием, частично совпадают:\nэто смысловое сравнение, а не противоположность.\n\nИсточники: [KANJIDIC2](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project);\n[JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатьи 1406150, 1263650, 1492460 и 1296400.\n",
+        "proposedWorkingRawSha256": "d370ebca8fe3bd64547d82cbed5d7b2817efc2777964dfd0a3540809e7e941eb",
+        "proposedLfSha256": "d370ebca8fe3bd64547d82cbed5d7b2817efc2777964dfd0a3540809e7e941eb",
+        "frozenSourceGitRawSha256": "5f2e17f8010e1c820bcf3a840a564648c814e362fd00656f26e7b3a69691e1b2",
+        "wholePayloadLines": 55,
+        "actualGitTextEolAttributes": [
+          "kanji/在.md",
+          "text",
+          "set",
+          "kanji/在.md",
+          "eol",
+          "lf"
+        ],
+        "proposedNewMarkdownWorkingEol": "LF;actualrepositoryeol=lfverifiedbeforeproposal",
+        "allFourCanonicalRussianH2ExactlyVerifiedBeforeProposal": true,
+        "allJapaneseMetadataExceptRussianTitlePreserved": true,
+        "privateProposalNotRuntimeMutation": true
+      },
+      {
+        "id": "報",
+        "path": "kanji/報.md",
+        "metadata": {
+          "kanji": "報",
+          "title": "сообщение; известие",
+          "jlpt": 3,
+          "tags": [
+            "jlpt-n3",
+            "grade-5",
+            "structure-unclassified"
+          ],
+          "strokes": 12,
+          "radical": "土",
+          "radicalNumber": 32,
+          "onyomi": [
+            "ホウ"
+          ],
+          "kunyomi": [
+            "むく.いる"
+          ],
+          "distractors": [
+            "持",
+            "場",
+            "服"
+          ]
+        },
+        "completeRussianPayloadUtf8": "---\nkanji: 報\ntitle: сообщение; известие\njlpt: 3\ntags: [jlpt-n3, grade-5, structure-unclassified]\nstrokes: 12\nradical: 土\nradicalNumber: 32\nonyomi: [ホウ]\nkunyomi: [むく.いる]\ndistractors: [持, 場, 服]\n---\n\n# 報 — сообщение; известие\n\n**Черты:** 12 · **Ключ (радикал):** 土 (№ 32) · **JLPT:** N3 (список сообщества)\n\n## Значение и происхождение\n\n報 встречается в словах о передаче сведений:\n報告 ほうこく — доклад, отчёт; 情報 じょうほう — информация;\n予報 よほう — прогноз.\nKANJIDIC2 фиксирует также значения «вознаграждение» и «воздаяние»;\nслова в этом уроке сосредоточены на сообщении сведений.\n\n**Мнемоника по современной форме:** представьте высокий блок слева,\nпохожий на 幸, как доску объявлений,\nа черты справа — как человека, который приносит донесение.\nЭто сцена для запоминания, а не историческое происхождение знака.\n\n## Чтения\n\n| Чтение | Тип | Примеры |\n| --- | --- | --- |\n| ホウ | онное | 報告 ほうこく — доклад; 情報 じょうほう — информация |\n\nКунное чтение むく.いる сохранено в метаданных;\nв этих сочетаниях оно не используется.\n\n## Частые слова\n\n- 報告 ほうこく — доклад; отчёт.\n- 情報 じょうほう — информация; сведения.\n- 予報 よほう — прогноз.\n\n## Примечания\n\nКлюч для поиска — 土 в верхней части левой половины,\nа не отдельный 土, стоящий рядом с остальным знаком.\nС [服](服.md) полезно сравнить изогнутые черты справа,\nхотя левые половины у этих знаков совсем разные.\nИ 報, и [告](告.md) связаны с сообщением сведений,\nкак в 報告 (ほうこく), «доклад; отчёт».\n\nИсточники: [KANJIDIC2](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project);\n[JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатьи 1515670, 1356370 и 1543630.\n",
+        "proposedWorkingRawSha256": "ae430c0609003ed14fc4118d861099b27064e69bdd67f84991fbb6b2cc868acc",
+        "proposedLfSha256": "ae430c0609003ed14fc4118d861099b27064e69bdd67f84991fbb6b2cc868acc",
+        "frozenSourceGitRawSha256": "7f63d533242b59108bb3ff3b5ca8828caa5492e6cb8a86ff31567f5ecfc58451",
+        "wholePayloadLines": 57,
+        "actualGitTextEolAttributes": [
+          "kanji/報.md",
+          "text",
+          "set",
+          "kanji/報.md",
+          "eol",
+          "lf"
+        ],
+        "proposedNewMarkdownWorkingEol": "LF;actualrepositoryeol=lfverifiedbeforeproposal",
+        "allFourCanonicalRussianH2ExactlyVerifiedBeforeProposal": true,
+        "allJapaneseMetadataExceptRussianTitlePreserved": true,
+        "privateProposalNotRuntimeMutation": true
+      },
+      {
+        "id": "増",
+        "path": "kanji/増.md",
+        "metadata": {
+          "kanji": "増",
+          "title": "увеличиваться",
+          "jlpt": 3,
+          "tags": [
+            "jlpt-n3",
+            "grade-5",
+            "structure-unclassified"
+          ],
+          "strokes": 14,
+          "radical": "土",
+          "radicalNumber": 32,
+          "onyomi": [
+            "ゾウ"
+          ],
+          "kunyomi": [
+            "ま.す",
+            "ま.し",
+            "ふ.える",
+            "ふ.やす"
+          ],
+          "distractors": [
+            "場",
+            "地",
+            "暗"
+          ]
+        },
+        "completeRussianPayloadUtf8": "---\nkanji: 増\ntitle: увеличиваться\njlpt: 3\ntags: [jlpt-n3, grade-5, structure-unclassified]\nstrokes: 14\nradical: 土\nradicalNumber: 32\nonyomi: [ゾウ]\nkunyomi: [ま.す, ま.し, ふ.える, ふ.やす]\ndistractors: [場, 地, 暗]\n---\n\n# 増 — увеличиваться\n\n**Черты:** 14 · **Ключ (радикал):** 土 (№ 32) · **JLPT:** N3 (список сообщества)\n\n## Значение и происхождение\n\n増 — увеличение числа или количества.\n[増える](../words/増える.md) ふえる описывает само увеличение;\n増やす ふやす — действие, когда количество делают больше.\n人数が増える (にんずうがふえる) — «число людей увеличивается».\n\n**Мнемоника по современной форме:** представьте, что к многоярусному 曽\nсправа, рядом с 土, добавляется ещё один слой.\nЭто образ для запоминания идеи увеличения, а не этимология.\n\n## Чтения\n\n| Чтение | Тип | Примеры |\n| --- | --- | --- |\n| ふ.える | кунное | [増える](../words/増える.md) ふえる — увеличиваться |\n| ふ.やす | кунное | 増やす ふやす — увеличивать что-либо |\n| ゾウ | онное | 増加 ぞうか — увеличение; рост |\n\n## Частые слова\n\n- [増える](../words/増える.md) ふえる — увеличиваться в числе или количестве.\n- 増やす ふやす — добавлять; увеличивать что-либо.\n- 増加 ぞうか — увеличение; рост.\n\n## Примечания\n\nУ [場](場.md) и [地](地.md) та же левая часть 土.\nУ [暗](暗.md) левая часть другая, но справа тоже высокая многоярусная структура.\nДля обратного направления изменения используйте 減る へる, «уменьшаться».\nДополнительные чтения ま.す и ま.し из источника сохранены в метаданных;\nв том же написанном слове они не заменяют ふえる.\n\nИсточники: [KANJIDIC2](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project);\n[JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатьи 1602440, 1602880, 1403160 и 1263120.\n",
+        "proposedWorkingRawSha256": "a4d19dbdd46fcb78731bf2ccbb7e89eaffcb4d0649d15d81b98a95229c144c1e",
+        "proposedLfSha256": "a4d19dbdd46fcb78731bf2ccbb7e89eaffcb4d0649d15d81b98a95229c144c1e",
+        "frozenSourceGitRawSha256": "23e4bda80a84d69f4786a425e7bb8334dc7f4e6a84dbe525659467c8e9e3a08c",
+        "wholePayloadLines": 53,
+        "actualGitTextEolAttributes": [
+          "kanji/増.md",
+          "text",
+          "set",
+          "kanji/増.md",
+          "eol",
+          "lf"
+        ],
+        "proposedNewMarkdownWorkingEol": "LF;actualrepositoryeol=lfverifiedbeforeproposal",
+        "allFourCanonicalRussianH2ExactlyVerifiedBeforeProposal": true,
+        "allJapaneseMetadataExceptRussianTitlePreserved": true,
+        "privateProposalNotRuntimeMutation": true
+      },
+      {
+        "id": "暗",
+        "path": "kanji/暗.md",
+        "metadata": {
+          "kanji": "暗",
+          "title": "тёмный",
+          "jlpt": 3,
+          "tags": [
+            "jlpt-n3",
+            "grade-3",
+            "structure-unclassified"
+          ],
+          "strokes": 13,
+          "radical": "日",
+          "radicalNumber": 72,
+          "onyomi": [
+            "アン"
+          ],
+          "kunyomi": [
+            "くら.い",
+            "くら.む",
+            "くれ.る"
+          ],
+          "distractors": [
+            "音",
+            "意",
+            "映"
+          ]
+        },
+        "completeRussianPayloadUtf8": "---\nkanji: 暗\ntitle: тёмный\njlpt: 3\ntags: [jlpt-n3, grade-3, structure-unclassified]\nstrokes: 13\nradical: 日\nradicalNumber: 72\nonyomi: [アン]\nkunyomi: [くら.い, くら.む, くれ.る]\ndistractors: [音, 意, 映]\n---\n\n# 暗 — тёмный\n\n**Черты:** 13 · **Ключ (радикал):** 日 (№ 72) · **JLPT:** N3 (список сообщества)\n\n## Значение и происхождение\n\nНачните с темноты или недостатка света:\n[暗い](../words/暗い.md) くらい описывает тускло освещённую комнату\nили тёмную дорогу.\nУ сложного слова может быть своё значение:\n暗記 あんき означает заучивание наизусть, а не «тёмную запись».\n\n**Мнемоника по современной форме:** заметьте 日 слева и 音 справа;\nпредставьте, что при слабом свете приходится полагаться на звуки.\nЭто придуманная подсказка для памяти,\nа не этимология и не проверенный фонетический анализ.\n\n## Чтения\n\n| Чтение | Тип | Примеры |\n| --- | --- | --- |\n| くら.い | кунное | [暗い](../words/暗い.md) くらい — тёмный; слабо освещённый |\n| アン | онное | 暗記 あんき — заучивание наизусть |\n\n## Частые слова\n\n- [暗い](../words/暗い.md) くらい — тёмный; мрачный.\n- 暗記 あんき — заучивание наизусть.\n\n## Примечания\n\n[音](音.md) — это правая часть знака сама по себе;\nв [意](意.md) под этой фигурой стоит 心.\nУ [映](映.md) слева тоже 日, но справа не 音.\nДля буквального освещения полезная противоположность —\n[明るい](../words/明るい.md) あかるい, «светлый».\nТемнота и чёрный цвет — разные свойства.\n\nСловарь: [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатьи 1154330, 1586910 и 1532350.\n",
+        "proposedWorkingRawSha256": "c92366644cb17c264b5994abaa28828c449c604923a195294db42a9fbb65bd95",
+        "proposedLfSha256": "c92366644cb17c264b5994abaa28828c449c604923a195294db42a9fbb65bd95",
+        "frozenSourceGitRawSha256": "6e2c67257e92d661278901a924a393dd80445d5da5152cc9fcd598a159e152e7",
+        "wholePayloadLines": 53,
+        "actualGitTextEolAttributes": [
+          "kanji/暗.md",
+          "text",
+          "set",
+          "kanji/暗.md",
+          "eol",
+          "lf"
+        ],
+        "proposedNewMarkdownWorkingEol": "LF;actualrepositoryeol=lfverifiedbeforeproposal",
+        "allFourCanonicalRussianH2ExactlyVerifiedBeforeProposal": true,
+        "allJapaneseMetadataExceptRussianTitlePreserved": true,
+        "privateProposalNotRuntimeMutation": true
+      }
+    ],
+    "existingWordNavigation": [
+      {
+        "path": "words/増える.md",
+        "metadata": {
+          "word": "増える",
+          "reading": "ふえる",
+          "jlpt": 4,
+          "title": "увеличиваться",
+          "type": "wago",
+          "kanji": [
+            "増"
+          ],
+          "tags": [
+            "wago",
+            "verb",
+            "quantity"
+          ],
+          "quiz_exclusions": [
+            "上がる",
+            "上げる",
+            "付く"
+          ]
+        },
+        "beforeWorkingRawSha256": "e0990c6da9721632787897991431c4427be4e2dbb75fc78e32e155cb965a5e13",
+        "beforeGitRawSha256": "e0990c6da9721632787897991431c4427be4e2dbb75fc78e32e155cb965a5e13",
+        "afterWorkingRawSha256": "4b1363b32fb8f29bc974c27d26616ce475181bb15bc41d8aa8ca70ca7a8f9be7",
+        "completeProposedRussianPayloadUtf8": "---\nword: 増える\nreading: ふえる\njlpt: 4\ntitle: увеличиваться\ntype: wago\nkanji: [増]\ntags: [wago, verb, quantity]\nquiz_exclusions: [上がる, 上げる, 付く]\n---\n\n# 増える（ふえる）— увеличиваться\n\n## Значение\n\n増える означает увеличиваться в числе или количестве.\nЭто непереходный глагол:\nто, чего становится больше, выступает подлежащим,\nа не объектом, который кто-то добавляет.\n\n- この町では人口が増えています。（このまちではじんこうがふえています。）— Население этого города растёт.\n- 仕事が増えました。（しごとがふえました。）— Работы стало больше.\n\nЭто глагол итидан:\nдля 増えます（ふえます）или 増えて（ふえて）убирается конечное る.\nТермин «итидан» здесь обозначает тип спряжения,\nа не отдельное значение.\n\n## Как сочетаются кандзи\n\n[増](../kanji/増.md) передаёт увеличение.\nСледующее за ним える входит в написание исконного глагола\nи участвует в его спряжении.\nВ записи чтения ふ.える точка ставится перед этой каной.\nОнное чтение ゾウ встречается в 増加（ぞうか）, «увеличение».\n\n## Синонимы и антонимы\n\n増やす（ふやす）означает увеличивать что-либо:\n仕事を増やす（しごとをふやす）— «увеличивать объём работы».\nСравните с 仕事が増える, «работы становится больше».\n減る（へる）, «уменьшаться», противопоставляется по направлению изменения.\n\n## Оттенки значения\n\n増える сообщает об увеличении количества,\nне называя того, кто его вызвал.\nРечь не о том, что один предмет стал толще или выше.\nВ JMdict также есть написание 殖える（ふえる）,\nособенно для роста населения или капитала;\nздесь для общего значения увеличения используется 増える.\nЭто предпочтение в употреблении, а не жёсткий запрет на другие контексты.\n\nСловарь: [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатьи 1602440（増える）, 1602880（増やす）,\n1263120（減る）и 1403160（増加）.\n",
+        "navigationOnly": true,
+        "exactSemanticSectionEdits": [],
+        "exactEdits": [
+          {
+            "kanji": "増",
+            "section": "Как сочетаются кандзи",
+            "linkLabel": "増",
+            "beforeLine": "増 передаёт увеличение.",
+            "afterLine": "[増](../kanji/増.md) передаёт увеличение.",
+            "exactCharacterOffsetWithinLine": 0,
+            "exactOnlyWrapperChange": "Wrap existing standalone glyph only, including inline prose.",
+            "existingMarkdownSpansProtected": true
+          }
+        ],
+        "wholeWordLabelIntentionallyNotSplit": false,
+        "visibleProseJapaneseMetadataQuizArraysAndOldLinksUnchanged": true
+      },
+      {
+        "path": "words/天気予報.md",
+        "metadata": {
+          "word": "天気予報",
+          "reading": "てんきよほう",
+          "title": "прогноз погоды",
+          "jlpt": 4,
+          "type": "kango",
+          "kanji": [
+            "天",
+            "気",
+            "予",
+            "報"
+          ],
+          "tags": [
+            "kango",
+            "noun",
+            "weather"
+          ]
+        },
+        "beforeWorkingRawSha256": "98348677161eb688decdae4a1a1f96f07477e372d9c38d56c9ac6f7e00d29f2d",
+        "beforeGitRawSha256": "98348677161eb688decdae4a1a1f96f07477e372d9c38d56c9ac6f7e00d29f2d",
+        "afterWorkingRawSha256": "e8355cc4bdaec6d9ad072f5da1e797a2646e77f7b9859637cd4963db550c8851",
+        "completeProposedRussianPayloadUtf8": "---\nword: 天気予報\nreading: てんきよほう\ntitle: прогноз погоды\njlpt: 4\ntype: kango\nkanji: [天, 気, 予, 報]\ntags: [kango, noun, weather]\n---\n\n# 天気予報（てんきよほう）— прогноз погоды\n\n## Значение\n\n天気予報 — прогноз погоды:\nпо телевизору, в приложении\nили из другого источника.\n\n- 出かける前に天気予報を見ます。（でかけるまえにてんきよほうをみます。）— Перед выходом я проверяю прогноз погоды.\n\n明日の天気予報（あしたのてんきよほう）—\n«прогноз погоды на завтра»:\nобычно прогноз того,\nкакая погода ожидается завтра.\nの связывает указание дня с прогнозом.\n\n## Как сочетаются кандзи\n\n[天](../kanji/天.md) и [気](../kanji/気.md)\nобразуют 天気（てんき）— «погода».\n[予](../kanji/予.md), «заранее», и [報](../kanji/報.md), «сообщение»,\nобразуют 予報（よほう）— «прогноз».\n\nВсе четыре кандзи используют онные чтения.\nВ целом слово означает\nзаранее сообщаемый прогноз погоды,\nа не описание уже наступивших условий.\n\n## Синонимы и антонимы\n\n天気 — сама погода.\n予報 шире, чем «прогноз погоды»,\nхотя контекст нередко подразумевает именно погоду.\nニュース — новости:\nони могут включать прогноз,\nно не ограничиваются им.\n\n## Оттенки значения\n\nПрогноз сообщает ожидаемые условия,\nа не гарантирует, что они наступят.\n\n天気予報を見る означает\nпосмотреть, проверить прогноз.\nГлагол 見る не ограничивает\nисточник информации телевизором:\nпрогноз можно прочитать и на экране телефона.\n\nСловарь: [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатья 1438770, значение 1.\n",
+        "navigationOnly": true,
+        "exactSemanticSectionEdits": [],
+        "exactEdits": [
+          {
+            "kanji": "報",
+            "section": "Как сочетаются кандзи",
+            "linkLabel": "報",
+            "beforeLine": "[予](../kanji/予.md), «заранее», и 報, «сообщение»,",
+            "afterLine": "[予](../kanji/予.md), «заранее», и [報](../kanji/報.md), «сообщение»,",
+            "exactCharacterOffsetWithinLine": 33,
+            "exactOnlyWrapperChange": "Wrap existing standalone glyph only, including inline prose.",
+            "existingMarkdownSpansProtected": true
+          }
+        ],
+        "wholeWordLabelIntentionallyNotSplit": false,
+        "visibleProseJapaneseMetadataQuizArraysAndOldLinksUnchanged": true
+      },
+      {
+        "path": "words/暗い.md",
+        "metadata": {
+          "word": "暗い",
+          "reading": "くらい",
+          "jlpt": 5,
+          "title": "тёмный; слабо освещённый",
+          "type": "wago",
+          "kanji": [
+            "暗"
+          ],
+          "tags": [
+            "wago",
+            "adjective",
+            "light"
+          ],
+          "quiz_exclusions": [
+            "黒い"
+          ]
+        },
+        "beforeWorkingRawSha256": "bf6ce8e5963e1b7a9278aef61415b5b638a24f1086a27e8949e4ff9d6f326fa1",
+        "beforeGitRawSha256": "a1c2ce5144a404ac76db15adf5fb5760115d993c78bf5ec7f268e9e95b299447",
+        "afterWorkingRawSha256": "c7ac54c81b887e2993777c1e083481515ef39300aa6b9506434cb7da644adcea",
+        "completeProposedRussianPayloadUtf8": "---\r\nword: 暗い\r\nreading: くらい\r\njlpt: 5\r\ntitle: тёмный; слабо освещённый\r\ntype: wago\r\nkanji: [暗]\r\ntags: [wago, adjective, light]\r\nquiz_exclusions: [黒い]\r\n---\r\n\r\n# 暗い（くらい）— тёмный; слабо освещённый\r\n\r\n## Значение\r\n\r\n暗い описывает темноту или плохое освещение.\r\n暗い部屋（くらいへや）— тёмная комната:\r\nсвета в ней может быть мало, даже если стены не чёрные.\r\nЭто い-прилагательное, которое ставится прямо перед существительным.\r\n\r\n- この部屋は暗いです。（このへやはくらいです。）— Эта комната тёмная.\r\n- 暗くなったので、電気をつけました。（くらくなったので、でんきをつけました。）— Стало темно, поэтому я включил свет.\r\n\r\n## Как сочетаются кандзи\r\n\r\nЕдинственный кандзи [暗](../kanji/暗.md) передаёт значение темноты;\r\nい — окончание прилагательного.\r\nИсконное японское чтение — くらい.\r\nВ 暗くなる（くらくなる）, «темнеть»,\r\nい меняется на く перед なる.\r\n\r\n## Синонимы и антонимы\r\n\r\n[明るい](明るい.md)（あかるい）, «светлый; хорошо освещённый»,\r\n— прямая противоположность по освещению.\r\n[黒い](黒い.md)（くろい）называет чёрную или тёмную окраску:\r\nэто другое свойство.\r\nВ комнате может быть чёрная мебель,\r\nно сама комната всё равно будет 明るい, если в ней много света.\r\n\r\n## Оттенки значения\r\n\r\nВ приведённых примерах 暗い характеризует количество света;\r\nне подставляйте его вместо любого русского «чёрный».\r\nФормы 暗くない（くらくない）, «не тёмный»,\r\nи 暗かった（くらかった）, «был тёмным»,\r\nобразуются по обычному правилу для い-прилагательных.\r\n\r\nПримеры выше посвящены буквальному освещению.\r\nУ 暗い есть и эмоциональное значение «мрачный»:\r\n暗い気持ち（くらいきもち）— «мрачное настроение».\r\nЗдесь речь уже об эмоциональном состоянии,\r\nа не об уровне освещения или чёрной окраске.\r\n\r\nСловарь: [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\r\nстатьи 1154330（暗い, значения 1–2）, 1532350（明るい）и 1287420（黒い）.\r\n",
+        "navigationOnly": true,
+        "exactSemanticSectionEdits": [],
+        "exactEdits": [
+          {
+            "kanji": "暗",
+            "section": "Как сочетаются кандзи",
+            "linkLabel": "暗",
+            "beforeLine": "Единственный кандзи 暗 передаёт значение темноты;\r",
+            "afterLine": "Единственный кандзи [暗](../kanji/暗.md) передаёт значение темноты;\r",
+            "exactCharacterOffsetWithinLine": 20,
+            "exactOnlyWrapperChange": "Wrap existing standalone glyph only, including inline prose.",
+            "existingMarkdownSpansProtected": true
+          }
+        ],
+        "wholeWordLabelIntentionallyNotSplit": false,
+        "visibleProseJapaneseMetadataQuizArraysAndOldLinksUnchanged": true
+      },
+      {
+        "path": "words/電報.md",
+        "metadata": {
+          "word": "電報",
+          "reading": "でんぽう",
+          "title": "телеграмма",
+          "jlpt": 4,
+          "type": "kango",
+          "kanji": [
+            "電",
+            "報"
+          ],
+          "tags": [
+            "kango",
+            "noun",
+            "communication"
+          ]
+        },
+        "beforeWorkingRawSha256": "0fd528f83480ab6c6799eb87644cb28d65c342a3a2eb300edc7ce7977385183c",
+        "beforeGitRawSha256": "0fd528f83480ab6c6799eb87644cb28d65c342a3a2eb300edc7ce7977385183c",
+        "afterWorkingRawSha256": "7d77e1a218834009e64ac03d132a8b9aaeaef044cdfafc9bef7a79820dd6fa3f",
+        "completeProposedRussianPayloadUtf8": "---\nword: 電報\nreading: でんぽう\ntitle: телеграмма\njlpt: 4\ntype: kango\nkanji: [電, 報]\ntags: [kango, noun, communication]\n---\n\n# 電報（でんぽう） — телеграмма\n\n## Значение\n\n電報 — телеграмма: сообщение, отправленное через телеграфную службу.\nЭто не обычное название электронного письма или сообщения на мобильном телефоне.\n\n- 祖父から電報が届きました。\n  （そふからでんぽうがとどきました。）—\n  От дедушки пришла телеграмма.\n- 結婚のお祝いに電報を送りました。\n  （けっこんのおいわいにでんぽうをおくりました。）—\n  Я отправил поздравительную телеграмму к свадьбе.\n\n«Отправить телеграмму» — 電報を送る（でんぽうをおくる）,\nа её приход обозначает 電報が届く（でんぽうがとどく）.\n\n## Как сочетаются кандзи\n\n[電](../kanji/電.md) связан с электричеством,\nа [報](../kanji/報.md) — с сообщением сведений.\nЧтение сочетания — デン + ポウ:\nホウ у 報 превращается в ポウ в этом установившемся слове.\n\n## Синонимы и антонимы\n\n手紙（てがみ）— письмо.\nメール обычно называет электронную почту,\nа 電話（でんわ）— телефонный звонок.\nЭто разные способы связи, не точные синонимы.\n\n## Оттенки значения\n\n電報 встречается в рассказах о прежних способах связи\nи в церемониальных ситуациях, например при поздравлениях.\nНе заменяйте им любое короткое электронное сообщение\nтолько потому, что компоненты связаны с электричеством и передачей сведений.\n\nСловарь: [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатья 1443760.\n",
+        "navigationOnly": true,
+        "exactSemanticSectionEdits": [],
+        "exactEdits": [
+          {
+            "kanji": "報",
+            "section": "Как сочетаются кандзи",
+            "linkLabel": "報",
+            "beforeLine": "а 報 — с сообщением сведений.",
+            "afterLine": "а [報](../kanji/報.md) — с сообщением сведений.",
+            "exactCharacterOffsetWithinLine": 2,
+            "exactOnlyWrapperChange": "Wrap existing standalone glyph only, including inline prose.",
+            "existingMarkdownSpansProtected": true
+          }
+        ],
+        "wholeWordLabelIntentionallyNotSplit": false,
+        "visibleProseJapaneseMetadataQuizArraysAndOldLinksUnchanged": true
+      }
+    ],
+    "sourceDirectedMetadataCorrectionsProposed": [],
+    "originalSourceDirectionsRetained": 12,
+    "exactIndividualCitationIdFormReadingChecks": [
+      {
+        "lesson": "在",
+        "entryId": "1406150",
+        "exactForm": "存在",
+        "exactReading": "そんざい",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "在",
+        "entryId": "1263650",
+        "exactForm": "現在",
+        "exactReading": "げんざい",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "在",
+        "entryId": "1492460",
+        "exactForm": "不在",
+        "exactReading": "ふざい",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "在",
+        "entryId": "1296400",
+        "exactForm": "在る",
+        "exactReading": "ある",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "報",
+        "entryId": "1515670",
+        "exactForm": "報告",
+        "exactReading": "ほうこく",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "報",
+        "entryId": "1356370",
+        "exactForm": "情報",
+        "exactReading": "じょうほう",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "報",
+        "entryId": "1543630",
+        "exactForm": "予報",
+        "exactReading": "よほう",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "増",
+        "entryId": "1602440",
+        "exactForm": "増える",
+        "exactReading": "ふえる",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "増",
+        "entryId": "1602880",
+        "exactForm": "増やす",
+        "exactReading": "ふやす",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "増",
+        "entryId": "1403160",
+        "exactForm": "増加",
+        "exactReading": "ぞうか",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "増",
+        "entryId": "1263120",
+        "exactForm": "減る",
+        "exactReading": "へる",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "暗",
+        "entryId": "1154330",
+        "exactForm": "暗い",
+        "exactReading": "くらい",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "暗",
+        "entryId": "1586910",
+        "exactForm": "暗記",
+        "exactReading": "あんき",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "暗",
+        "entryId": "1532350",
+        "exactForm": "明るい",
+        "exactReading": "あかるい",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      }
+    ],
+    "actualCitationChecks": 14,
+    "citationCheckBoundary": "MechanicalexactwholeobjectID/form/readingidentity,NOTnewhumanreading/semanticapproval/frequency/registerproof.",
+    "sourcePreparationCompleteArtifact": "ru-099-author-preparation-reading-complete-001.json",
+    "sourcePreparationCompleteRawSha256": "5b60e72fdd6e35b131b13989ba25ca02a03e02e2345137eb6bf279130b40ff5d",
+    "exactEvidenceBindingRawSha256": "bb2fb73114680900210c743e838ac1033320d63a93a4dd54e9aa8f40b81fb39f",
+    "explicitPremutationNavigationAmendment": null,
+    "plannedStandaloneGlyphWrappers": 4,
+    "plannedWholeWordLabelWrappers": 0,
+    "allJapaneseExamplesAndInvariantsPreserved": true,
+    "reviewerDisposition": "PENDING;NOmandatoryCLEANorfabricatednegativeapproval.",
+    "ordinaryActiveNegativeSafety": "UNVERIFIEDforall12historicaldirections;actualwhole在existence/location/absence,報report/information/rewardsenses,増increasesenses,暗dark/memorizationsensesrequireboundedconsideration;prospectivemetadataidentityisNOTnegativeclearance.",
+    "prior099All12OrdinarySafetyUnverifiedUnchanged": true,
+    "prior097All9OrdinarySafetyUnverifiedUnchanged": true,
+    "prior096All12OrdinarySafetyAndMeaningOnlyN008UnverifiedUnchanged": true,
+    "protectedSkyBoundary": {
+      "path": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+      "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+      "status": "excluded C2UNVERIFIED;notmedia",
+      "runtimeWordRemainsAbsent": true,
+      "priorKanjiSkyBoundary": "Accepted077kanji空doesNOTresolveprotectedwordcaptionblocker/ordinaryquiz/media/defaultactivation."
+    },
+    "learnerMutationOccurred": false,
+    "independentReviewOccurred": false,
+    "runtimeAcceptance": false,
+    "fullTaskComplete": false,
+    "continueRequired": true
+  },
+  "prospectiveTypedPoolArtifact": "ru-099-prospective-typed-kanji-pool-001.json",
+  "exactAuthorRulingsArtifact": "ru-099-author-source-adjudications-001.json",
+  "exactAuthorRulingsRawSha256": "cd80555107028747a3fb1d4a0c13891d41b269a942ab99113b4533ae59a21af3",
+  "completeOfficialTextCounts": {
+    "KANJIDIC": 21,
+    "Unicode": 2,
+    "JMdict": 62,
+    "KanjiPedia": 4
+  },
+  "completeAdditionalOfficialProviderHeader": 1,
+  "actualDictionaryGlyphPixelViews": 0,
+  "wholeBilingualContextPaths": [
+    "kanji/右.md",
+    "kanji/告.md",
+    "kanji/土.md",
+    "kanji/地.md",
+    "kanji/場.md",
+    "kanji/左.md",
+    "kanji/意.md",
+    "kanji/持.md",
+    "kanji/映.md",
+    "kanji/有.md",
+    "kanji/服.md",
+    "kanji/音.md",
+    "words/増える.md",
+    "words/天気予報.md",
+    "words/明るい.md",
+    "words/暗い.md",
+    "words/電報.md"
+  ],
+  "wholeEnglishOnlyComparisons": [
+    {
+      "path": "words/報告.md",
+      "sourceGitRawSha256": "5a0cc8d679bd7fc9f33c62b5dc0a392d00cb5bcc69bad207f24aab4a982993ff",
+      "captureIsReading": false,
+      "runtimeProvider": false
+    },
+    {
+      "path": "words/存在.md",
+      "sourceGitRawSha256": "f0334d5cc517f3aafd1ee85596620671f96c3e0fa3085787f4cb6fd992779c29",
+      "captureIsReading": false,
+      "runtimeProvider": false
+    }
+  ],
+  "exactEvidenceBindingRawSha256": "bb2fb73114680900210c743e838ac1033320d63a93a4dd54e9aa8f40b81fb39f",
+  "boundAuthorHelpers": {
+    "ru099.py": "4ffba1f8e8f59c1312a56807c794540afe3bd2dd9a4b9ea8e650475824434a31",
+    "ru099prepare.py": "994f92e521b3cdcad147212ab16c7be7ed5ba6b6125c081dd6c32bdbb005be1e",
+    "ru099kanjipedia.py": "5b97259acc2f2637f41c2d1d056df241587bd5e65b7a2479fa9243ef47ff7774",
+    "ru099lessons.py": "c059ac2e5a15c038e015d7092fd3566bd24298373bbea4c6595d60dbe5d51bee",
+    "ru099draft.py": "bcfe9bcef2eee410993c878f83e3a94d21c59ea4dd4c874abfc285e2e73a725a",
+    "ru099readreceipts.py": "d92d985e99668e6fdd31d1a12d1ce3360e0b5a1450da36a5ad1ba43f986a511d",
+    "ru099freeze.py": "d26bbdb67e365af5ad6b2d8b336de2845738e3ae4bd015c5d876c25813c7760c"
+  },
+  "protectedSkyBoundary": {
+    "path": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+    "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+    "status": "excluded C2UNVERIFIED;notmedia",
+    "runtimeWordRemainsAbsent": true,
+    "priorKanjiSkyBoundary": "Accepted077kanji空doesNOTresolveprotectedwordcaptionblocker/ordinaryquiz/media/defaultactivation."
+  },
+  "acceptedMainRuntimeObjectsRemain": 2184,
+  "prospectiveRuntimeObjects": 2192,
+  "learnerMutationOccurred": false,
+  "independentReviewOccurred": false,
+  "sourceAccepted": false,
+  "ordinaryActivationAuthorized": false,
+  "checkpointAuthority": null
+}
