@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "batch": "103-residence-protect-complete-and-real-kanji",
+  "recordedAt": "2026-11-08T23:13:41.811791+00:00",
+  "originalCandidateCommit": "95b1839836a0264d670a53610c97903d2c4e2de4",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineSnapshot": "3b5c1f7618419ab0ae95b1c0be8e02d942c6e371",
+  "originalActualReportSha256": "0cfb31c85450e1e3df5b67c1548bac6f7c5f9a2a7c60dadc130bedd71f6d271d",
+  "actualWholeIndependentReviews": 1,
+  "actualSuccessfulStdoutReportDeliveries": 1,
+  "actualFailedReportDeliveries": 1,
+  "originalReviewer": "c7b4655f-c21e-4bde-8376-94e3bc14604c",
+  "originalReviewerCompletedNotRunning": true,
+  "exactOriginalReportPath": "docs/translation-batches/103-residence-protect-complete-and-real-kanji-independent-review-001.json",
+  "exactOriginalPublicReportRawSha256": "d36e574df43a26a2d4df8a482e4020ef996a0427df73cec5998f816fa51e2749",
+  "historicalOriginalReportImmutable": true,
+  "finding": "103-F001",
+  "adoptedOptionalPolish": [],
+  "optionalPolishDisposition": "NOT_ADOPTED:reviewersaid守るsentenceunderstandable,polishnotrequired;nounreviewedwordingchange.",
+  "findingDisposition": "SUPPORTED;EXACT_BOUNDED_AMENDMENT_PROPOSED;FOCUSED_REVIEW_PENDING",
+  "preservedOriginalFacets": {
+    "C1": "C1 CLEAN: Readings, counts, radical numbers, JLPT community labels, examples and bounded meaning/mnemonic claims in the four lessons align with reviewed frozen source and official evidence. No confirmed Japanese-fact defect.",
+    "C2": "C2 NEEDS FIX: All five diffs are navigation-only and link the existing target; four lesson adjudications and four bounded dictionary clarifications are supported. N010 is unsafe as a negative (finding below). Actual rendered quiz option/fallback behavior was not directly observed.",
+    "C3": "C3 CLEAN: Russian is comprehensible and generally natural; wrappers preserve readability. No confirmed correctable defect."
+  },
+  "exactChangedPaths": [
+    "kanji/実.md"
+  ],
+  "exactPathChanges": [
+    {
+      "path": "kanji/実.md",
+      "exactBeforeWorkingRawSha256": "0f65d8d98e44fb567ae747cb3c040644af69d87d164656f62f705266ce54d3f9",
+      "exactBeforeGitRawSha256": "0f65d8d98e44fb567ae747cb3c040644af69d87d164656f62f705266ce54d3f9",
+      "exactAfterWorkingRawSha256": "70fa261422527972cb8c812206323f49d769d1fdbec20f5fd12ce0c4ccb9f9db"
+    }
+  ],
+  "exactBeforeText": "distractors: [完, 春, 失]\n",
+  "exactAfterText": "distractors: [春, 失]\n",
+  "sourceEvidence": "Reviewer103-F001(C2,high)REJECTedN010実→完:完 title«завершённый; полный»canfit実'sKANJIDIC2みち.る(befull)andJMdict1320810/1320800'content'sense(KanjiPediaみちる/内容がそなわる),so a defensible answer may be marked wrong.Fix=REMOVE完from実distractors(no new unreviewed direction introduced);remaining[春,失]=2distinct existing cards(validator minimum2;many accepted cards use 2).Prose shape comparison with[完](完.md)retained as teaching, not quiz guard.",
+  "frozenSourceDeviation": "Frozen EN 6af98cb kanji/実.md distractors[完,春,失];RU removes 完 by sourced reviewed correction;Japanese title/readings/tags/level/strokes unchanged.",
+  "exactSourceProjectionMatches": [
+    {
+      "index": 18,
+      "wholeProjectionRawSha256": "62b1d11237f3a7d630325a55b72de8bb7e466e8a0d0e6c2b1ad34d8706cfcd46"
+    },
+    {
+      "index": 19,
+      "wholeProjectionRawSha256": "ad3ed38c7dcd205935c94bca8055f083da31858ec6a923d0c5e96b455dcd4a51"
+    }
+  ],
+  "exactOriginalPoolRawSha256": "c54a6ca3ec44ad824655c725794012179defd0c1aec27bb8068038c12a82bbab",
+  "exactOriginalEvidenceBindingRawSha256": "b67914029c73245c12ec963e1274a118da17aafd7ca9730494d953f30c063944",
+  "scope": "ONE_FRONT_MATTER_LINE_IN_kanji/実.md_ONLY(distractors remove 完);noJapanese/example/reading/title/prose/NAV/provider/stroke/levelchange;nonewdirection;nohistoricalrecordrewrite.",
+  "proposedNewQualifiedPairJudgments": 0,
+  "removedDirections": [
+    "103-N010"
+  ],
+  "originalDirectionDispositionCounts": {
+    "S-intro": 11,
+    "REJECT": 1
+  },
+  "activeDirectionsAfterFix": 11,
+  "originalQBoundary": "Actual11S-intro(canonicalQ)carryONLYactualoriginalscope;実endpointrowidentitywillchange,notfreshsemanticjudgments.Removalcannotupgradeordinary/all-sense/readmode/fallbacksafety;fallbackselectionremainsUNVERIFIED.",
+  "sourceAccepted": false,
+  "acceptedMainObjectsRemain": 2216,
+  "candidateObjectsRemain": 2224,
+  "protectedSkyBoundary": {
+    "path": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+    "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+    "status": "excluded C2UNVERIFIED;notmedia",
+    "runtimeWordRemainsAbsent": true,
+    "priorKanjiSkyBoundary": "Accepted077kanji空doesNOTresolveprotectedwordcaptionblocker/ordinaryquiz/media/defaultactivation."
+  },
+  "ordinaryActivationAuthorized": false,
+  "fullTaskComplete": false,
+  "continueRequired": true
+}
