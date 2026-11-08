@@ -11,7 +11,60 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current qualified source milestone: batch090
+## Current qualified source milestone: batch091
+
+Eight complete Russian frozen N3 lessons,**列/初/判/利/到/制/刻/割,584 file lines**,
+eight RAW-identical KanjiVG assets and eight current word bodies/eight **NAV-only
+wrappers around existing standalone explanatory glyphs**. No compound/stem split,
+visible semantic amendment,new word,source metadata correction or removed direction.
+Frozen EN,intake,premutation freeze,proposals,candidate and actual report remain unchanged.
+
+The [actual whole review](translation-batches/091-rows-beginnings-judgment-benefit-arrival-regulation-carving-and-division-kanji-independent-review-001.json)
+read55 whole teaching bodies,**31 EN/24 RU**:eight primary pairs,16 CURRENT
+context pairs and seven EN-only comparisons,including all eight changed words.
+It read224 official TEXT units:15 KANJIDIC/one Unicode/200 JMdict/eight KanjiPedia,
+plus one whole header;304 CURRENT typed metadata rows,all24 original/active directions,
+eight L rulings/eight A clarifications,eight exact NAV diffs,eight outside observations,
+four whole guidance files and three correct CURRENT RU rubrics.
+73 successful reading commands/tool returns/windows bind actual whole payloads
+and line unions;80 successful terminal commands,zero failed,truncated or nonterminal.
+Zero glyph pixels;304 typed rows are not whole lessons or1478 fresh word guards.
+
+The **10976-byte original stdout/native-final report**,SHA256
+`ed2d2e11d5032c906131b34057baecaa6bd8e27e6a45bea21d574b78be70c000`,
+is published verbatim,final LF included;no projection or second whole review.
+Actual **C1 source CLEAN/C2 bounded SOURCE dependencies/suitability QUALIFIED/
+C3 Russian CLEAN** remain scoped. L003/A003 are **supported with qualification**:
+paper/book-size判 isはん/ばん,notバン-only;the actual learner body already correctly
+states this. Seven other L/A rulings and all eight NAV changes are supported.
+One completed/idle reviewer,not running;no learner-prose fix requested.
+
+**23 introductory semantic Qs plus091-N023割→利 U for active-negative suitability**:
+whole JMdict1606800 sense3 attests割り profit/gain,intersecting利1549460.
+This is actual lexical counterevidence. Historical metadata retention is **not
+guard approval or activation authority**;descriptive source teaching is separate.
+091-N007判→半 sharesハン,not a reading-mode guard. 到/着/達,初/始,
+刻/時/秋とき and利く/聞く tasting prevent universal separation.
+Eight outside observations are limitations,not new guards. Modern-shape mnemonics
+are not etymology;exact-form misses are not absence/register/frequency proof.
+Ordinary/all-sense/fallback suitability,modern necessity-frequency/global future
+uniqueness stay **UNVERIFIED**. Prior082姉→妹's original unrestricted U is unchanged.
+
+Qualified source checkpoint: **2116 runtime objects/1478 words/304 kanji/304 strokes**;
+words671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/166 N4/**56 N3**/2 N2;all166 frozen N4 included,**311 N3 remain**.
+Strict statuses2116 reviewed-current/two excluded reviewed blocked-media drafts/
+6160 pending of8278;6162 runtime paths absent,no partial.
+Version `945eac2c7dfe171f`;checkpoint authority null/Ready false.
+2092 other baseline runtime RAWs/tracking rows persist;all eight word patches are NAV-only.
+These become accepted-main counts only after signed normal integration.
+Fresh final serialized checks/public archives/signatures/four protected refs/
+exact-main CI/owner issue verification have separate receipts.
+Protected033 WORD空 remains excluded/C2 UNVERIFIED/runtime-absent/not media;
+accepted077 KANJI空 does not resolve it. No device/media/default/package/release approval.
+Continue092+ and **ALL remaining safe frozen families**,not task completion.
+
+## Previous qualified source milestone: batch090
 
 Eight complete Russian frozen N3 lessons,**乗/亡/光/全/共/具/冷/処,639 file lines**,
 eight RAW-identical KanjiVG assets and15 current word bodies/15 NAV-only wrappers:

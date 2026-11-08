@@ -1,6 +1,69 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch090 riding, loss, light, wholeness, sharing, tools, cold and places
+## Current qualified source milestone: batch091 rows, beginnings, judgment, benefit, arrival, regulation, carving and division
+
+Batch091 adds **eight complete Russian frozen N3 lessons,列/初/判/利/到/制/刻/割,
+584 file lines**,and eight RAW-identical Japanese KanjiVG assets.
+Eight existing word bodies receive eight **NAV-only wrappers**,each around one
+existing standalone explanatory glyph. No compound/stem split,visible semantic
+amendment,new word,source metadata correction or removed direction.
+Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+Original intake,premutation freeze,proposals,candidate and report remain immutable.
+
+The [actual whole review](translation-batches/091-rows-beginnings-judgment-benefit-arrival-regulation-carving-and-division-kanji-independent-review-001.json)
+read **55 whole teaching bodies,31 EN/24 RU**:eight primary pairs,16 CURRENT
+context pairs and seven EN-only comparisons,including all eight changed words.
+It read **224 whole official TEXT units**:15 KANJIDIC records,one Unicode row,
+200 ordered JMdict objects and eight visible KanjiPedia entries;one whole header
+is additional. It also read304 CURRENT typed metadata rows,all24 original/active
+directions,eight L rulings/eight A clarifications,eight exact NAV diffs,eight
+outside observations,four whole guidance files and three correct CURRENT RU rubrics.
+**73 successful reading commands/tool returns/windows;80 successful terminal
+commands;zero failed,truncated or nonterminal returns** bind actual whole payloads
+and line unions. Zero glyph-pixel views;TEXT/ALT is not pixel or full-HTML inspection.
+304 metadata rows are not304 whole lessons or1478 fresh word-guard judgments.
+
+The one actual **10976-byte stdout/native-final report**,SHA256
+`ed2d2e11d5032c906131b34057baecaa6bd8e27e6a45bea21d574b78be70c000`,
+is published verbatim,including its final LF;**no projection or second review**.
+Actual facets are **C1 CLEAN within assigned Japanese/source teaching;
+C2 QUALIFIED bounded SOURCE dependencies/suitability;C3 CLEAN within24 RU bodies**.
+Seven L/A rulings are supported and **L003/A003 supported with qualification**:
+paper/book-size判 allows bothはん/ばん,notバン-only. The learner body already says
+this correctly;the author adopts the qualification without rewriting the freeze.
+All eight NAV-only changes are supported. One completed/idle reviewer,not running.
+
+**23 directions have introductory semantic Q only;091-N023割→利 has actual U
+for active-negative suitability**,not a24th Q. Whole JMdict1606800 sense3 gives
+割り profit/gain,overlapping利 advantage/benefit/profit/interest in1549460.
+This is genuine lexical counterevidence,not merely an association.
+The historical source array stays unchanged;**its retention is not guard approval
+or activation authority**. Descriptive division/share-versus-benefit teaching can
+be accepted as source text without clearing that negative answer.
+091-N007判→半 sharesハン and is **not a reading-mode guard**.
+到/着/達,初/始,刻/時/秋とき and利く/聞く tasting also constrain wider claims.
+Eight outside observations are limitations,not new guards. No reverse/transitive
+inference;old dictionary JLPT tags are not source community levels;modern-shape
+mnemonics are not etymology;exact-form misses are not absence/frequency proof.
+Ordinary/all-sense/fallback suitability,modern necessity-frequency/global future
+uniqueness remain **UNVERIFIED**. Prior082姉→妹's original unrestricted U persists.
+
+The [qualified source record](translation-batches/091-rows-beginnings-judgment-benefit-arrival-regulation-carving-and-division-kanji-reviewed-source.json)
+preserves2092 other baseline runtime RAWs/tracking rows.
+Qualified source checkpoint: **2116 runtime objects/1478 words/304 kanji/304 strokes**.
+Words671 N5/636 N4/97 N3/19 N2/55 unlabelled;kanji80 N5/166 N4/**56 N3**/2 N2.
+All166 frozen N4 kanji remain included;**311 of367 frozen N3 kanji remain**.
+Strict progress: **2116 reviewed-current/two excluded reviewed blocked-media drafts/
+6160 pending of8278;6162 runtime paths absent**,no partial.
+Version `945eac2c7dfe171f`;checkpoint authority null/Ready false.
+Accepted-main membership requires signed normal integration;fresh final serialized
+checks/public archives/signatures/four protected refs/exact-main CI/owner issue
+verification remain separately evidenced. Protected033 **word**空 stays excluded/
+runtime-absent/C2 UNVERIFIED,not media;accepted077 **kanji**空 does not resolve it.
+No app/device/phone/IME/media/default/package/release authority.
+Continue092+ and **ALL remaining safe frozen levels/families**,not finite completion.
+
+## Previous qualified source milestone: batch090 riding, loss, light, wholeness, sharing, tools, cold and places
 
 Batch090 adds **eight complete Russian frozen N3 lessons,乗/亡/光/全/共/具/冷/処,
 639 file lines**,and eight RAW-identical Japanese KanjiVG assets.
