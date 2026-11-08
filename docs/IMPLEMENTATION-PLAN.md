@@ -11,7 +11,70 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-The eighty-sixth full-target batch adds **six complete Russian frozen N3 kanji
+The eighty-seventh full-target batch adds **seven complete Russian frozen N3 kanji
+lessons,他/付/件/任/伝/似/位,473 file lines**,and seven RAW-identical KanjiVG assets.
+Ten existing word bodies receive10 **navigation-only wrappers**;
+no new word,word semantic amendment or source-directed metadata correction.
+Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`;
+signed intake,premutation freeze,proposals and candidate remain immutable.
+
+The [actual whole review](translation-batches/087-otherness-attachment-duties-and-position-kanji-independent-review-001.json)
+read **56 whole teaching bodies**,30 EN/26 RU:seven primary EN/RU pairs,
+19 current context pairs and four whole EN-only comparisons.
+All10 changed word bodies are included,not additional bodies.
+It read185 whole official TEXT units:16 KANJIDIC,one Unicode,161 ordered
+JMdict and seven visible KanjiPedia entries;one whole provider header is additional.
+Zero glyph pixel views;historical inline glyphs stay UNINSPECTED.
+It read274 current whole typed metadata rows,21 historical/active directions,
+seven lesson rulings/seven separate clarifications,10 exact NAV diffs/10 wrappers,
+seven outside observations,four whole guidance files and three correct CURRENT RU rubrics.
+70 actual successful reader commands/windows bind entire payloads/complete
+line unions,not markers alone;metadata rows are not274 whole lessons or1478 fresh guards.
+
+One actual whole review produced one successful **10792-byte stdout/native final**,
+SHA256 `af4deffc7c9b21193220e3e5d6e78db073cdb45821bedacab35817bc5fab0dd2`.
+Original public bytes are unchanged,no path projection needed.
+Two earlier size assertions failed before report emission,not earlier delivered
+reports/semantic reviews,and credit no reading.
+The final gate's initial nonterminal return is not success;its actual successful
+`read_powershell` completion is separately bound:76 tool returns,
+75 terminal commands/73 successful,two size failures.
+The one-shot reviewer is completed,not actually running.
+The original report prints only the scope-binding SHA256,not separate serialized
+pool/evidence hashes. Author extraction separately binds those artifacts and
+actual gates/all274 returned rows,without fabricating verbatim reviewer hash claims.
+
+Actual **C1 CLEAN within assigned SOURCE teaching;C2 dependency/NAV/source-invariant
+coverage CLEAN,quiz conclusions QUALIFIED;C3 CLEAN within26 whole RU bodies**,
+not native certification. Seven lesson rulings/seven clarifications are accepted boundedly;
+no significant current source-text fix,M001 or source withdrawal is established.
+All21 historical directions remain active,with qualified **Q forward introductory-core ONLY**.
+件くだん's bovine yokai1255930/3 limits件→牛;任 work/task prevents blanket任→件.
+付's giving/entrusting/appearance and位's actual location/位する1640530 remain,
+not all-sense/social-only clearance.
+Broader ordinary/all-sense/reading-mode/fallback suitability,modern necessity-frequency
+and global current/future uniqueness stay UNVERIFIED,not whole C2 CLEAN.
+Seven outside observations are not guards;prior word-guard scope/identity and
+082姉→妹's unrestricted U remain unchanged.
+手伝う is not newly split:the wrapper surrounds standalone explanatory伝 elsewhere.
+
+Qualified source checkpoint: **2056 runtime objects/1478 words/274 kanji/274 strokes**.
+Words671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/**166 N4**/26 N3/2 N2;all166 frozen N4 included,
+**341 of367 frozen N3 kanji remain**.
+Strict progress: **2056 reviewed-current,two excluded reviewed blocked-media
+drafts,6220 pending of8278;6222 runtime paths absent**,no partial.
+Version `b4655aee17d7316d`;checkpoint authority null/Ready false.
+2032 other baseline RAWs/tracking rows persist;10 word patches are NAV-only.
+These become accepted-main counts only after signed normal integration;
+fresh final serialized checks/public archives/signatures/four protected refs/
+exact-main CI/owner issue verification have separate receipts.
+Protected033 **word**空 stays excluded/runtime-absent/C2 UNVERIFIED,not media;
+accepted077 **kanji**空 does not resolve it.
+No app/device/phone/IME/media/default/package/release authority.
+Continue088+ and **ALL remaining safe frozen levels/families**,not task completion.
+
+The previous eighty-sixth full-target batch adds **six complete Russian frozen N3 kanji
 lessons,与/予/争/両/互/交,369 file lines**,and six RAW-identical KanjiVG assets.
 Eleven existing word bodies receive11 **navigation-only wrappers**;
 no new word or existing-word semantic amendment is introduced.
