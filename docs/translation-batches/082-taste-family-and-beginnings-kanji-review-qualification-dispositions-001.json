@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "batchId": "082-taste-family-and-beginnings-kanji",
+  "candidateCommit": "629b8436f229c8be05095adac742fc028620f95c",
+  "originalCandidateCommit": "e933fa9909223dc32b79b3dc7f53cec13c059d45",
+  "sourceAmendmentFreeze": "c2d1c7d41304aea33ed3dec37ca82f4bd994b2af",
+  "originalWholeReport": "docs/translation-batches/082-taste-family-and-beginnings-kanji-independent-review-001.json",
+  "originalActualReportBytes": 10827,
+  "originalActualReportSha256": "5b9f6aaf8c8cb93e33ec15ff03784fe9765a534e0b0424c225a56b8e82513ffd",
+  "originalPublicProjectionIsNotRawReport": true,
+  "actualFocusedReport": "docs/translation-batches/082-taste-family-and-beginnings-kanji-independent-review-002.json",
+  "actualFocusedReportBytes": 10132,
+  "actualFocusedReportSha256": "2ae374b7c73e3dd3e8d9bf5d9debc1024b4d6d87f71ba60bdd27ecaf3a317bd4",
+  "originalActualFindings": [
+    {
+      "id": "F082-01",
+      "path": "kanji/妹.md",
+      "line": 11,
+      "severity": "Medium",
+      "actualVerbatimFinding": "F082-01 — Unqualified 妹→姉 foil conflicts with the preserved sister sense\n**File:** RU_ROOT\\kanji\\妹.md:11\n**Severity:** Medium\n**Problem:** 姉 supplies “старшая сестра” as a supposedly wrong answer to bare 妹. The text correctly limits modern いもうと, but the quiz metadata does not impose that reading. The retained archaic 妹（いも）sense “one's sister” has no younger restriction, so the unrestricted negative is not established.\n**Evidence:** Complete JMdict 2752050 sense 2, marked archaic; complete 1524590 and 1307630; the lesson itself at lines 60–65; frozen glyph→title quiz contract. This is not a claim that the archaic reading is common or that modern いもうと means older sister. Confidence: high in the attested conflict/absence of a reading restriction; modern necessity/frequency UNVERIFIED.\n**Suggested fix:** Replace this directed foil with an independently checked disjoint candidate, or actually constrain the question to the intended modern reading/context. Keep the family comparison, historical caveat and sourced readings; do not erase dictionary evidence or infer a reciprocal correction automatically. Unresolved in this candidate.\n",
+      "authorStructuringOnlyNotAnotherReviewerReport": true
+    }
+  ],
+  "exactActualIndependentAfterChangeDispositions": [
+    {
+      "id": "F082-01",
+      "proposalId": "082-N004",
+      "itemId": "妹",
+      "field": "distractors",
+      "line": 11,
+      "status": "resolved",
+      "originalDisposition": "R",
+      "before": [
+        "姉",
+        "味",
+        "始"
+      ],
+      "after": [
+        "味",
+        "始"
+      ],
+      "reason": "Whole JMdict 2752050 sense 2 attests archaic 妹いも as one's sister without a younger restriction. The glyph-to-title question does not constrain modern いもうと. Thus 姉's title старшая сестра was not established as unconditionally wrong for bare 妹. The exact authorized active negative was removed, without asserting modern frequency or necessity.",
+      "verification": "Actual diff matches frozen proposal. All prose, readings, levels, Japanese examples, modern family comparison and historical caveat remain unchanged. Two distinct existing distractors remain; no new structural defect established.",
+      "beforeWorkingRawAndGitRawSha256": "c264b25d73edcb56c2d00d79c2d7dfeac452c23055160fd88bcfb14e35e12d1c",
+      "afterWorkingRawSha256": "9d54b3e234a510ee43a45b92f6c5df03118792d4ae08d62b62fcd445afab5935",
+      "resolutionBoundary": "Removal from curated metadata only; not proof that fallback can never offer 姉."
+    }
+  ],
+  "exactSingleSourceChange": {
+    "path": "kanji/妹.md",
+    "findingId": "F082-01",
+    "beforeWorkingRawSha256": "c264b25d73edcb56c2d00d79c2d7dfeac452c23055160fd88bcfb14e35e12d1c",
+    "beforeGitRawSha256": "c264b25d73edcb56c2d00d79c2d7dfeac452c23055160fd88bcfb14e35e12d1c",
+    "frozenSourceGitRawSha256": "79f443c6db4a44760840f44c56fa35e817117185e3765db77e7e98d2b59eeb0f",
+    "beforeWorkingRawUtf8": "---\nkanji: 妹\ntitle: младшая сестра\njlpt: 4\ntags: [jlpt-n4, grade-2, structure-unclassified]\nstrokes: 8\nradical: 女\nradicalNumber: 38\nonyomi: [マイ]\nkunyomi: [いもうと]\ndistractors: [姉, 味, 始]\n---\n\n# 妹 — младшая сестра\n\n**Черты:** 8 · **Ключ (радикал):** 女 (№ 38) · **JLPT:** N4 (список сообщества)\n\n## Значение и происхождение\n\n妹 в слове [妹](../words/妹.md)（いもうと）— младшая сестра.\nВозраст относительный: она младше другого брата или сестры,\nно не обязательно ребёнок.\n\n**Мнемоника современной формы:** найдите [女](女.md) слева и 未 справа.\nСвяжите эту форму с семейным словом いもうと.\nЭто приём запоминания, не историческое объяснение\nи не правило, по которому любой знак с 女 называет родственницу.\n\n## Чтения\n\n| Чтение | Тип | Примеры и пояснения |\n| --- | --- | --- |\n| マイ | онное | 姉妹（しまい）— сёстры |\n| いもうと | кунное | [妹](../words/妹.md)（いもうと）— младшая сестра |\n\nВ 姉妹 чтение второго знака — マイ.\nСлово しまい нужно учить целиком:\nоно не читается как последовательность отдельных семейных слов.\n\n## Частые слова\n\n- [妹](../words/妹.md)（いもうと）— младшая сестра.\n- 妹さん（いもうとさん）— вежливое упоминание чужой младшей сестры.\n- 姉妹（しまい）— сёстры, рассматриваемые вместе.\n\n## Примечания\n\n[姉](姉.md) в слове あね — старшая сестра;\n妹 в слове いもうと — младшая.\nЭто различие возраста относительно другого брата или сестры,\nне общего возраста женщины.\n[弟](弟.md)（おとうと）— младший брат.\n\nВ разговоре с людьми вне семьи собственную младшую сестру\nобычно называют 妹, чужую — 妹さん.\nСуффикс さん не меняет возрастного отношения.\nПривычки прямого обращения внутри семьи могут различаться.\n\nУ знака есть и другие словарные употребления.\nОтдельное 妹（いも）в JMdict помечено как устаревшее:\nтак называли любимую женщину, а в другом значении — свою сестру\nбез уточнения «младшая» в словарном определении.\nЭто не то же самое слово, что изучаемое здесь いもうと.\nПоэтому краткое учебное значение не следует переносить\nна любое встретившееся написание 妹 без учёта чтения и контекста.\n\nЧтения и значения: [漢字ペディア](https://www.kanjipedia.jp/kanji/0006532300),\n[KANJIDIC2 и JMdict](https://www.edrdg.org/),\nстатьи JMdict 1524590, 1524600, 1579490 и 2752050.\nДанные EDRDG: Джеймс Уильям Брин и EDRDG\n([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).\n",
+    "expectedAfterWorkingRawUtf8": "---\nkanji: 妹\ntitle: младшая сестра\njlpt: 4\ntags: [jlpt-n4, grade-2, structure-unclassified]\nstrokes: 8\nradical: 女\nradicalNumber: 38\nonyomi: [マイ]\nkunyomi: [いもうと]\ndistractors: [味, 始]\n---\n\n# 妹 — младшая сестра\n\n**Черты:** 8 · **Ключ (радикал):** 女 (№ 38) · **JLPT:** N4 (список сообщества)\n\n## Значение и происхождение\n\n妹 в слове [妹](../words/妹.md)（いもうと）— младшая сестра.\nВозраст относительный: она младше другого брата или сестры,\nно не обязательно ребёнок.\n\n**Мнемоника современной формы:** найдите [女](女.md) слева и 未 справа.\nСвяжите эту форму с семейным словом いもうと.\nЭто приём запоминания, не историческое объяснение\nи не правило, по которому любой знак с 女 называет родственницу.\n\n## Чтения\n\n| Чтение | Тип | Примеры и пояснения |\n| --- | --- | --- |\n| マイ | онное | 姉妹（しまい）— сёстры |\n| いもうと | кунное | [妹](../words/妹.md)（いもうと）— младшая сестра |\n\nВ 姉妹 чтение второго знака — マイ.\nСлово しまい нужно учить целиком:\nоно не читается как последовательность отдельных семейных слов.\n\n## Частые слова\n\n- [妹](../words/妹.md)（いもうと）— младшая сестра.\n- 妹さん（いもうとさん）— вежливое упоминание чужой младшей сестры.\n- 姉妹（しまい）— сёстры, рассматриваемые вместе.\n\n## Примечания\n\n[姉](姉.md) в слове あね — старшая сестра;\n妹 в слове いもうと — младшая.\nЭто различие возраста относительно другого брата или сестры,\nне общего возраста женщины.\n[弟](弟.md)（おとうと）— младший брат.\n\nВ разговоре с людьми вне семьи собственную младшую сестру\nобычно называют 妹, чужую — 妹さん.\nСуффикс さん не меняет возрастного отношения.\nПривычки прямого обращения внутри семьи могут различаться.\n\nУ знака есть и другие словарные употребления.\nОтдельное 妹（いも）в JMdict помечено как устаревшее:\nтак называли любимую женщину, а в другом значении — свою сестру\nбез уточнения «младшая» в словарном определении.\nЭто не то же самое слово, что изучаемое здесь いもうと.\nПоэтому краткое учебное значение не следует переносить\nна любое встретившееся написание 妹 без учёта чтения и контекста.\n\nЧтения и значения: [漢字ペディア](https://www.kanjipedia.jp/kanji/0006532300),\n[KANJIDIC2 и JMdict](https://www.edrdg.org/),\nстатьи JMdict 1524590, 1524600, 1579490 и 2752050.\nДанные EDRDG: Джеймс Уильям Брин и EDRDG\n([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).\n",
+    "expectedAfterWorkingRawSha256": "9d54b3e234a510ee43a45b92f6c5df03118792d4ae08d62b62fcd445afab5935",
+    "exactDiff": "--- e933fa9909223dc32b79b3dc7f53cec13c059d45:kanji/妹.md\n+++ PROPOSED_SOURCE_CORRECTION:kanji/妹.md\n@@ -8,7 +8,7 @@\n radicalNumber: 38\n onyomi: [マイ]\n kunyomi: [いもうと]\n-distractors: [姉, 味, 始]\n+distractors: [味, 始]\n ---\n \n # 妹 — младшая сестра\n"
+  },
+  "originalHistoricalDirections": 12,
+  "correctedActiveRuntimeDirections": 11,
+  "retainedOriginalQDirections": 10,
+  "retainedOriginalUDirections": 1,
+  "rejectedRemovedDirection": "082-N004妹→姉",
+  "retainedN007Disposition": "ActualUunrestricted;moderncorecontrastsupported;NOTQ;noreciprocaldefectproved/automaticallyinferred.",
+  "all4ClosurePreserved": true,
+  "inventedReplacementReverseTransitiveCliqueDirections": 0,
+  "originalWholeReportAndHistoryRemainImmutable": true,
+  "anotherWholeReviewOccurred": false,
+  "fresh11DirectionJudgments": false,
+  "remainingBlockingIssuesWithinAssignedEvidence": [],
+  "broaderOrdinaryQuizSuitabilityNecessityFrequencyGlobalFutureUniqueness": "UNVERIFIED",
+  "checkpointAuthority": null,
+  "sourceAcceptanceOrIntegration": false,
+  "fullTaskComplete": false,
+  "exactOriginalIndependentSourceDirectionDispositions": [
+    {
+      "proposalId": "082-N001",
+      "direction": [
+        "味",
+        "妹"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N001 味→妹 — Q. “вкус” versus “младшая сестра”: KanjiPedia 味 and JMdict 1526960/1524590 support the concrete distinction. Shared 未 is graphic, not semantic identity; 2752050's other 妹 senses remain acknowledged.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N002",
+      "direction": [
+        "味",
+        "話"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N002 味→話 — Q. “вкус” versus “говорить; разговаривать”: full 味/話 lessons and official records distinguish tasting/appeal from speaking/conversation. Figurative 味 is retained; no historical inference from modern 舌-like shape.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N003",
+      "direction": [
+        "味",
+        "本"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N003 味→本 — Q. “вкус” versus “книга; исток”: complete 味/本 bodies and records distinguish taste/appeal from book/root/origin. A book's appeal does not make “книга; исток” a demonstrated meaning of 味.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N004",
+      "direction": [
+        "妹",
+        "姉"
+      ],
+      "actualIndependentDisposition": "R",
+      "actualVerbatimDirectionDisposition": "082-N004 妹→姉 — R. “младшая сестра” versus “старшая сестра”: 2752050 explicitly leaves sister age unrestricted for いも; short modern titles cannot clear the bare glyph. Required correction: F082-01.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N005",
+      "direction": [
+        "妹",
+        "味"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N005 妹→味 — Q. “младшая сестра” versus “вкус”: 1524590/2752050 give family/person senses, not taste. Independently supported in this direction; not inferred from N001.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N006",
+      "direction": [
+        "妹",
+        "始"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N006 妹→始 — Q. “младшая сестра” versus “начало; начинать”: 1524590/2752050 and 1307500/1307550 support the modern family/beginning distinction. 始's historical elder-woman account does not demonstrate a current beginning sense of 妹 or universal separation.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N007",
+      "direction": [
+        "姉",
+        "妹"
+      ],
+      "actualIndependentDisposition": "U",
+      "actualVerbatimDirectionDisposition": "082-N007 姉→妹 — U for unrestricted clearance; modern core contrast supported. KanjiPedia 姉, 1307630 and 2252800 attest older-sister/honorific uses, not younger sister. Importantly, 2752050 concerns the OTHER glyph: it does not itself make the displayed foil title “младшая сестра” correct for 姉 in the documented glyph→title direction. No reciprocal defect proved; do not delete this edge just by reversing N004. Additional usage/all-sense clearance remains unestablished.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N008",
+      "direction": [
+        "姉",
+        "始"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N008 姉→始 — Q. “старшая сестра” versus “начало; начинать”: 姉's read lexical senses do not establish beginning. 始's 長上の女/originally 姒 is in なりたち, not a current Japanese lexical older-sister attestation; history does not prove either overlap or universal disjointness.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N009",
+      "direction": [
+        "姉",
+        "帰"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N009 姉→帰 — Q. “старшая сестра” versus “возвращаться домой”: complete 姉/帰 contexts and official records distinguish the relationship from returning. 帰's additional gift/marriage readings are preserved, not silently excluded; no broad usage certification.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N010",
+      "direction": [
+        "始",
+        "姉"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N010 始→姉 — Q. “начало; начинать” versus “старшая сестра”: 1307500/1307550 and KanjiPedia's current 始 meaning list support beginning. The historical elder-woman passage alone does not establish that 姉's title is a current lexical answer for 始. Historical/all-sense clearance withheld.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N011",
+      "direction": [
+        "始",
+        "台"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N011 始→台 — Q. “начало; начинать” versus “подставка; счётное слово для техники”: full 始/台 bodies and records support this core distinction. Modern 台-shaped component is not the whole character's meaning or identification of an unviewed historical phonetic glyph; 台's additional readings remain preserved.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N012",
+      "direction": [
+        "始",
+        "妹"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N012 始→妹 — Q. “начало; начинать” versus “младшая сестра”: current 始 senses and 1524590 support different cores. Neither historical 長上の女 nor archaic 妹いも proves a current younger-sister sense of 始; not inferred from N006.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    }
+  ],
+  "focusedActualIdentityCarryforward": {
+    "originalDispositionCounts": {
+      "Q": 10,
+      "R": 1,
+      "U": 1
+    },
+    "retainedQ": [
+      [
+        "082-N001",
+        "味",
+        "妹"
+      ],
+      [
+        "082-N002",
+        "味",
+        "話"
+      ],
+      [
+        "082-N003",
+        "味",
+        "本"
+      ],
+      [
+        "082-N005",
+        "妹",
+        "味"
+      ],
+      [
+        "082-N006",
+        "妹",
+        "始"
+      ],
+      [
+        "082-N008",
+        "姉",
+        "始"
+      ],
+      [
+        "082-N009",
+        "姉",
+        "帰"
+      ],
+      [
+        "082-N010",
+        "始",
+        "姉"
+      ],
+      [
+        "082-N011",
+        "始",
+        "台"
+      ],
+      [
+        "082-N012",
+        "始",
+        "妹"
+      ]
+    ],
+    "retainedQScope": "ONLY original qualified introductory-core contrasts, carried by identity and this metadata-only correction; NOT ten fresh judgments, unrestricted ordinary/all-sense clearance or frequency/necessity proof.",
+    "retainedU": {
+      "id": "082-N007",
+      "direction": [
+        "姉",
+        "妹"
+      ],
+      "disposition": "U for unrestricted clearance; original modern core contrast supported",
+      "reason": "2752050 concerns the OTHER glyph and does not prove that младшая сестра is correct for bare 姉. No reciprocal defect proved; U is not Q and N004 is not automatically reversed."
+    },
+    "originalDirectionsPreservedAsHistory": 12,
+    "currentActiveDirections": 11,
+    "replacementReverseTransitiveCliqueEdgesAdded": 0,
+    "closureRetained": [
+      "味",
+      "妹",
+      "姉",
+      "始"
+    ],
+    "wordGuards": 1478,
+    "wordGuardScope": "history/identity only; NOT 1478 fresh semantic judgments",
+    "navigationOnlyWordPatches": 13,
+    "navigationWrappers": 14,
+    "navigationScope": "original NAV-only disposition retained; unchanged by this fix; no fresh whole patch review or semantic amendment",
+    "originalC1C3": "CLEAN only within original whole001's 26 RU bodies; taste/beginning lessons not freshly reread here"
+  },
+  "disposition": "ADOPT_ORIGINAL10Q_QUALIFIEDCORECONTRASTS_AND_N007U_UNRESTRICTED_WITH_MODERNCORE;REJECT_N004_ONLY;ADOPT_ACTUAL_FOCUSED_SINGLE_FIX_ONLY;NOT11Q/WHOLE_C2_CLEAN.",
+  "authorAggregationNotNewIndependentReport": true
+}

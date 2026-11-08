@@ -1,6 +1,84 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch081 light, nature and daily-life kanji
+## Current qualified source milestone: batch082 taste, family and beginnings kanji
+
+Batch082 adds **four complete Russian lessons,味/妹/姉/始,287 file lines,
+all actual frozen N4**,and four RAW-identical Japanese KanjiVG assets.
+Thirteen existing word bodies receive14 **navigation-only wrappers**;
+no new word or existing-word semantic amendment is introduced.
+Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+Original intake,premutation adjudication/freeze,proposals and reports persist.
+
+The [actual whole review](translation-batches/082-taste-family-and-beginnings-kanji-independent-review-001.json)
+read **53 whole teaching bodies**:four primary EN/RU pairs,22 current
+context EN/RU pairs and one whole EN-only comparison.
+Its **76 whole official source-TEXT units** are14 KANJIDIC records,two Unicode
+rows,56 whole ordered JMdict objects and four whole visible KanjiPedia texts;
+one whole provider header is separate. **Zero dictionary-glyph pixel views**:
+the missing始 historical inline glyph remains UNINSPECTED.
+The review read240 current typed kanji rows,all12 individual directions,
+four adjudications,13 exact NAV diffs/14 wrappers,five outside observations,
+four guidance files and three correct CURRENT RU-root rubrics.
+Entire successful returned payloads are bound,not markers alone.
+240 metadata rows are not240 whole lessons or1478 fresh word judgments.
+The actual **10827-byte stdout/final report**,SHA256
+`5b9f6aaf8c8cb93e33ec15ff03784fe9765a534e0b0424c225a56b8e82513ffd`,
+has C1/C3 CLEAN within its assigned scope and C2 F082-01 NEEDS FIX.
+Its private original bytes remain immutable;the tracked report's explicitly
+labelled **path-only public projection has a different hash/length domain**.
+
+**F082-01:** whole JMdict2752050 attests archaic妹（いも）as one's sister
+without a younger restriction. A bare-glyph question is not constrained to
+modernいもうと. The signed
+[source amendment](translation-batches/082-taste-family-and-beginnings-kanji-single-source-correction-freeze-001.json)
+removes only invalid active082-N004妹→姉:
+`妹.distractors [姉,味,始]`→`[味,始]`.
+All four closure members,all12 historical directions,lesson prose,
+readings,levels,Japanese examples and caveats remain.
+No replacement,reverse,transitive or clique edge is invented.
+**Original judgments remain10 Q +one rejected R +one U,not11 Q.**
+N007姉→妹 remains U for unrestricted clearance,with its modern core contrast
+supported;the dictionary evidence concerns the other glyph and does not
+prove a reciprocal defect. Never reverse N004 automatically.
+
+The [actual focused review](translation-batches/082-taste-family-and-beginnings-kanji-independent-review-002.json),
+**10132 bytes**,SHA256
+`2ae374b7c73e3dd3e8d9bf5d9debc1024b4d6d87f71ba60bdd27ecaf3a317bd4`,
+resolves only the exact F082-01 correction.
+It read five whole teaching bodies,seven whole official TEXT units,
+one header,two current/two prior typed rows and the exact amendment/diff.
+Its240-row identity audit is not240 fresh semantic judgments or a second
+whole53-body review. Ten retained Q judgments carry only their original
+qualified introductory-core scope;N007's U is not converted into Q.
+**C1/C3: no remaining confirmed defect within the combined assigned scopes.
+C2: exact bounded correction CLEAN;broader C2 UNVERIFIED,not whole C2 CLEAN.**
+Ordinary modern quiz suitability,necessity/frequency,fallback safety and
+global future uniqueness remain UNVERIFIED. Removing a curated foil does
+not prove fallback can never offer it. Five outside observations are not
+new exclusions;prior word guards retain earlier scope/identity only.
+姉's attestedはは remains in metadata without invented ordinary usage,
+register,frequency or a mother-reading example. 始's historicalなりたち
+is not automatically a modern older-sister meaning.
+
+The [qualified source record](translation-batches/082-taste-family-and-beginnings-kanji-reviewed-source.json)
+preserves1967 other baseline RAWs/tracking rows.
+Qualified source checkpoint: **1988 runtime objects/1478 words/
+240 kanji/240 strokes**. Words remain671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/**145 N4**/13 N3/2 N2,leaving **21 actual frozen N4 kanji**.
+Strict progress: **1988 reviewed-current,two excluded reviewed blocked-media
+drafts,6288 pending of8278;6290 runtime paths absent**,no partial.
+Version `730ea51721ee7090`;checkpoint authority null/Ready false.
+Counts become accepted-main only after signed normal integration;
+fresh final serialized checks,actual public archives/signatures/four protected
+refs/exact-main CI remain separate publication evidence.
+Stroke/root-license identity is not pixel/native/media approval.
+Protected033 **word**空 stays excluded/runtime-absent/C2 UNVERIFIED,not media;
+accepted077 **kanji**空 does not resolve its caption blocker.
+No app/device/phone/IME/media/default/package/release authority.
+Continue083+ and ALL remaining safe frozen levels/families;
+neither this batch nor N4 closure completes the finite target.
+
+## Previous qualified source milestone: batch081 light, nature and daily-life kanji
 
 Batch081 adds **17 complete Russian kanji lessons /1083 file lines,
 all actual frozen N4**,and17 RAW-identical Japanese KanjiVG assets.

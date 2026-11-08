@@ -1,0 +1,491 @@
+{
+  "schemaVersion": 1,
+  "batchId": "082-taste-family-and-beginnings-kanji",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "reviewedCandidate": "629b8436f229c8be05095adac742fc028620f95c",
+  "originalWholeCandidate": "e933fa9909223dc32b79b3dc7f53cec13c059d45",
+  "actualWholeReview": "docs/translation-batches/082-taste-family-and-beginnings-kanji-independent-review-001.json",
+  "actualWholeReportBytes": 10827,
+  "actualWholeReportSha256": "5b9f6aaf8c8cb93e33ec15ff03784fe9765a534e0b0424c225a56b8e82513ffd",
+  "actualWholeReportDomain": "Originalactualsuccessfulstdout/nativefinalTEXTprivateimmutable;trackedpath-onlypublicprojectionexplicitdifferentSHA/lengthdomain.",
+  "actualFocusedReview": "docs/translation-batches/082-taste-family-and-beginnings-kanji-independent-review-002.json",
+  "actualFocusedReportBytes": 10132,
+  "actualFocusedReportSha256": "2ae374b7c73e3dd3e8d9bf5d9debc1024b4d6d87f71ba60bdd27ecaf3a317bd4",
+  "actualFocusedReportDomain": "Actualsuccessfulstdout/nativefinalJSONbyte-identical.",
+  "actualOriginalWholeScope": {
+    "wholeTeachingBodies": 53,
+    "wholeOfficialSourceTextUnits": 76,
+    "wholeProviderHeaders": 1,
+    "actualDictionaryGlyphPixelViews": 0,
+    "currentTypedKanjiMetadataRows": 240,
+    "wholeCorrectCurrentRURootRubrics": 3,
+    "directedProposals": 12,
+    "sourceAdjudications": 4,
+    "exactWordDiffs": 13,
+    "navigationWrappers": 14,
+    "outsideObservations": 5,
+    "snapshotChecks": 2
+  },
+  "actualFocusedScope": {
+    "wholeTeachingBodies": 5,
+    "wholeOfficialSourceTextUnits": 7,
+    "wholeProviderHeaders": 1,
+    "actualDictionaryGlyphPixelViews": 0,
+    "currentTypedMetadataRows": 2,
+    "priorTypedMetadataRows": 2,
+    "poolIdentityAuditNotFreshSemanticJudgments": 240,
+    "snapshotChecks": 2
+  },
+  "originalImmutableFacets": {
+    "C1": "CLEAN within26completeRU/source-alignedteachingassertions",
+    "C2": "NEEDS_FIX F082-01;broaderordinary/all-sensequizsuitabilityUNVERIFIED",
+    "C3": "CLEAN within26completeRUteachingbodies;notnativecertification"
+  },
+  "actualFocusedFacets": {
+    "C1": {
+      "verdict": "CLEAN",
+      "scope": "Exact removal-only source correction and factual non-regression in the whole reread sister bodies; no newly confirmed Japanese teaching defect. Not fresh clearance of all original 26 RU bodies or every usage claim."
+    },
+    "C2": {
+      "verdict": "UNVERIFIED",
+      "exactCorrectionVerdict": "CLEAN",
+      "scope": "Authorized N004 removal, retained closure, directed history and byte/typed identity carryforward are consistent; no correction-introduced defect confirmed. Broader quiz suitability, N007 unrestricted clearance and fallback safety remain UNVERIFIED; no whole-C2 CLEAN."
+    },
+    "C3": {
+      "verdict": "CLEAN",
+      "scope": "Whole current RU sister bodies reread; correction changes no Russian teaching prose and introduces no confirmed comprehension defect. Original 26-body C3 CLEAN remains historical only; no native-speaker or effectiveness certification."
+    }
+  },
+  "actualOriginalFindings": [
+    {
+      "id": "F082-01",
+      "path": "kanji/妹.md",
+      "line": 11,
+      "severity": "Medium",
+      "actualVerbatimFinding": "F082-01 — Unqualified 妹→姉 foil conflicts with the preserved sister sense\n**File:** RU_ROOT\\kanji\\妹.md:11\n**Severity:** Medium\n**Problem:** 姉 supplies “старшая сестра” as a supposedly wrong answer to bare 妹. The text correctly limits modern いもうと, but the quiz metadata does not impose that reading. The retained archaic 妹（いも）sense “one's sister” has no younger restriction, so the unrestricted negative is not established.\n**Evidence:** Complete JMdict 2752050 sense 2, marked archaic; complete 1524590 and 1307630; the lesson itself at lines 60–65; frozen glyph→title quiz contract. This is not a claim that the archaic reading is common or that modern いもうと means older sister. Confidence: high in the attested conflict/absence of a reading restriction; modern necessity/frequency UNVERIFIED.\n**Suggested fix:** Replace this directed foil with an independently checked disjoint candidate, or actually constrain the question to the intended modern reading/context. Keep the family comparison, historical caveat and sourced readings; do not erase dictionary evidence or infer a reciprocal correction automatically. Unresolved in this candidate.\n",
+      "authorStructuringOnlyNotAnotherReviewerReport": true
+    }
+  ],
+  "actualFocusedFindingDispositions": [
+    {
+      "id": "F082-01",
+      "proposalId": "082-N004",
+      "itemId": "妹",
+      "field": "distractors",
+      "line": 11,
+      "status": "resolved",
+      "originalDisposition": "R",
+      "before": [
+        "姉",
+        "味",
+        "始"
+      ],
+      "after": [
+        "味",
+        "始"
+      ],
+      "reason": "Whole JMdict 2752050 sense 2 attests archaic 妹いも as one's sister without a younger restriction. The glyph-to-title question does not constrain modern いもうと. Thus 姉's title старшая сестра was not established as unconditionally wrong for bare 妹. The exact authorized active negative was removed, without asserting modern frequency or necessity.",
+      "verification": "Actual diff matches frozen proposal. All prose, readings, levels, Japanese examples, modern family comparison and historical caveat remain unchanged. Two distinct existing distractors remain; no new structural defect established.",
+      "beforeWorkingRawAndGitRawSha256": "c264b25d73edcb56c2d00d79c2d7dfeac452c23055160fd88bcfb14e35e12d1c",
+      "afterWorkingRawSha256": "9d54b3e234a510ee43a45b92f6c5df03118792d4ae08d62b62fcd445afab5935",
+      "resolutionBoundary": "Removal from curated metadata only; not proof that fallback can never offer 姉."
+    }
+  ],
+  "qualificationDisposition": "docs/translation-batches/082-taste-family-and-beginnings-kanji-review-qualification-dispositions-001.json",
+  "sourceAmendmentResolution": "docs/translation-batches/082-taste-family-and-beginnings-kanji-source-amendment-resolution-001.json",
+  "remainingBlockingIssuesWithinAssignedEvidence": [],
+  "exactOriginalIndependentSourceDirectionDispositions": [
+    {
+      "proposalId": "082-N001",
+      "direction": [
+        "味",
+        "妹"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N001 味→妹 — Q. “вкус” versus “младшая сестра”: KanjiPedia 味 and JMdict 1526960/1524590 support the concrete distinction. Shared 未 is graphic, not semantic identity; 2752050's other 妹 senses remain acknowledged.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N002",
+      "direction": [
+        "味",
+        "話"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N002 味→話 — Q. “вкус” versus “говорить; разговаривать”: full 味/話 lessons and official records distinguish tasting/appeal from speaking/conversation. Figurative 味 is retained; no historical inference from modern 舌-like shape.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N003",
+      "direction": [
+        "味",
+        "本"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N003 味→本 — Q. “вкус” versus “книга; исток”: complete 味/本 bodies and records distinguish taste/appeal from book/root/origin. A book's appeal does not make “книга; исток” a demonstrated meaning of 味.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N004",
+      "direction": [
+        "妹",
+        "姉"
+      ],
+      "actualIndependentDisposition": "R",
+      "actualVerbatimDirectionDisposition": "082-N004 妹→姉 — R. “младшая сестра” versus “старшая сестра”: 2752050 explicitly leaves sister age unrestricted for いも; short modern titles cannot clear the bare glyph. Required correction: F082-01.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N005",
+      "direction": [
+        "妹",
+        "味"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N005 妹→味 — Q. “младшая сестра” versus “вкус”: 1524590/2752050 give family/person senses, not taste. Independently supported in this direction; not inferred from N001.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N006",
+      "direction": [
+        "妹",
+        "始"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N006 妹→始 — Q. “младшая сестра” versus “начало; начинать”: 1524590/2752050 and 1307500/1307550 support the modern family/beginning distinction. 始's historical elder-woman account does not demonstrate a current beginning sense of 妹 or universal separation.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N007",
+      "direction": [
+        "姉",
+        "妹"
+      ],
+      "actualIndependentDisposition": "U",
+      "actualVerbatimDirectionDisposition": "082-N007 姉→妹 — U for unrestricted clearance; modern core contrast supported. KanjiPedia 姉, 1307630 and 2252800 attest older-sister/honorific uses, not younger sister. Importantly, 2752050 concerns the OTHER glyph: it does not itself make the displayed foil title “младшая сестра” correct for 姉 in the documented glyph→title direction. No reciprocal defect proved; do not delete this edge just by reversing N004. Additional usage/all-sense clearance remains unestablished.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N008",
+      "direction": [
+        "姉",
+        "始"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N008 姉→始 — Q. “старшая сестра” versus “начало; начинать”: 姉's read lexical senses do not establish beginning. 始's 長上の女/originally 姒 is in なりたち, not a current Japanese lexical older-sister attestation; history does not prove either overlap or universal disjointness.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N009",
+      "direction": [
+        "姉",
+        "帰"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N009 姉→帰 — Q. “старшая сестра” versus “возвращаться домой”: complete 姉/帰 contexts and official records distinguish the relationship from returning. 帰's additional gift/marriage readings are preserved, not silently excluded; no broad usage certification.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N010",
+      "direction": [
+        "始",
+        "姉"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N010 始→姉 — Q. “начало; начинать” versus “старшая сестра”: 1307500/1307550 and KanjiPedia's current 始 meaning list support beginning. The historical elder-woman passage alone does not establish that 姉's title is a current lexical answer for 始. Historical/all-sense clearance withheld.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N011",
+      "direction": [
+        "始",
+        "台"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N011 始→台 — Q. “начало; начинать” versus “подставка; счётное слово для техники”: full 始/台 bodies and records support this core distinction. Modern 台-shaped component is not the whole character's meaning or identification of an unviewed historical phonetic glyph; 台's additional readings remain preserved.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N012",
+      "direction": [
+        "始",
+        "妹"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N012 始→妹 — Q. “начало; начинать” versus “младшая сестра”: current 始 senses and 1524590 support different cores. Neither historical 長上の女 nor archaic 妹いも proves a current younger-sister sense of 始; not inferred from N006.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    }
+  ],
+  "originalHistoricalDirections": 12,
+  "correctedActiveRuntimeDirections": 11,
+  "retainedOriginalQDirections": 10,
+  "retainedOriginalUDirections": 1,
+  "rejectedRemovedDirection": "082-N004妹→姉",
+  "retainedN007UnrestrictedDisposition": "U_NOT_Q",
+  "universalSemanticDisjointnessDirections": 0,
+  "inventedReverseOrTransitiveDirections": 0,
+  "freshRetained11SemanticJudgmentsAfterOriginalWholeReview": 0,
+  "secondWholeReview": false,
+  "boundedFocusedReview": true,
+  "qualifiedBoundary": "ONEactual10827byteSHA5b9f6aaf8c8cb93e33ec15ff03784fe9765a534e0b0424c225a56b8e82513ffd whole001stdout/nativefinalbyte-identicalTEXTreport:53wholeteachingbodies=4primaryEN/RUpairs+22CURRENTcontextEN/RUpairs+1wholeEN-onlycomparison;76officialTEXT=14wholeKANJIDIC/2Unicode/56wholeorderedJMdict/4wholevisibleKanjiPediaentryTEXT;onewholeproviderheaderseparate;ZERO082dictionaryglyphpixelviews;missing始historicalinlineglyphUNINSPECTED.240CURRENTtypedmetadata/12individualdirections/4adjudications/13NAV-onlydiffs14wrappers/5outsideobservations/4guidance/3correctCURRENT_RU-rootrubrics.OriginalC1C3CLEANwithinscope/C2NEEDS_FIX_F082-01reportimmutable.Originalprivateactualpayloadretained;trackedPATH-ONLYPUBLICPROJECTIONhasexplicitDIFFERENTSHA/lengthdomain,notrewrittenoriginal.SIGNEDpremutationsourceamendmentremovesONLYinvalidactive082-N004妹-to-姉unqualifiednegative:妹distractors[姉,味,始]to[味,始].WholeJMdict2752050archaic妹いもone'ssisterhasNOyoungerrestriction;bareglyphnotreading-constrained;nofrequency/rarityrepair.All12history/all4closure/prose/readings/levels/Japaneseexamples/caveatskept;noreplacement/reverse/transitive/cliqueedges.Original10Q+1R+1UremainNOT11Q:10Qcarryonlyoriginalqualifiedintroductory-corecontrastscope;N007姉-to-妹remainsUforunrestrictedclearancewithmoderncoresupported,NOreciprocaldefectproved;notconvertedtoQ.ONEactual10132byteSHA2ae374b7c73e3dd3e8d9bf5d9debc1024b4d6d87f71ba60bdd27ecaf3a317bd4 focused002stdout/nativefinalbyte-identicalJSONreportresolvesONLYF082-01:5wholebodies/7officialTEXT/header/2current+2priortypedrows;240machineidentityauditNOT240freshsemanticjudgments/second53-bodywhole-review.C1C3nocurrentconfirmeddefectwithincombinedassignedscopes;C2exactboundedcorrectionCLEAN,broaderC2UNVERIFIED;NOTWHOLE_C2_CLEAN.Broaderordinaryquiz/fallbacksafety/modernnecessity-frequency/globalfutureuniquenessUNVERIFIED;curatedfoilremovalNOTfallbackproof.FiveoutsideobservationsNOTnewexclusions;priorwordguardsretainoldscope/identity,NOT1478freshwordjudgments.13wordbodies14wrappersNAV-only;NOwordsemanticamendments;Japanese/examples/readings/wordmetadata/quizarrays/oldlinkspreserved.姉ははattestedmetadata,ordinaryusage/register/frequencyUNVERIFIED;noinventedmotherexample.始historicalなりたちNOTautomaticallymodernlexicalsistermeaning;unviewedglyphnotidentified.1967otherbaselineRAWs/trackingrowsunchanged;4strokeassetsRAW-identical/rootlicensesretained,NOTpixel/nativeanimation/mediaapproval.Protectedexcluded033WORD空separateC2UNVERIFIED/runtimeabsent,NOTmedia;accepted077KANJI空doesNOTresolveit.Noapp/device/phone/IME/media/default/package/release/full8278completionauthority.",
+  "baselineUnchangedRuntimeRaws": 1967,
+  "protectedSkyBoundary": {
+    "path": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+    "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+    "status": "excluded C2UNVERIFIED;notmedia",
+    "runtimeWordRemainsAbsent": true,
+    "priorKanjiSkyBoundary": "Existingaccepted077kanji空doesNOTapproveprotectedworddraft/distant-placecaptions/ordinaryfallbackquizsafety/media/defaultactivation."
+  },
+  "checkpointAuthority": null,
+  "ordinaryActivationAuthorized": false,
+  "fullTaskComplete": false,
+  "continueRequired": true,
+  "baselineCommit": "9df268775864234935d48946f4a49befa8c80ca7",
+  "perFileHashes": [
+    {
+      "path": "kanji/味.md",
+      "sourceRawSha256": "b071d06da7988df78315c695544ce9d951312485659fe5c0e84d49f80bb6757d",
+      "sourceSha256": "b071d06da7988df78315c695544ce9d951312485659fe5c0e84d49f80bb6757d",
+      "ruRawSha256": "83f588e6cbe6f13775993d04e172f7f12fa9dabbddbc8043473bf9e7dd00a2ec",
+      "ruSha256": "83f588e6cbe6f13775993d04e172f7f12fa9dabbddbc8043473bf9e7dd00a2ec",
+      "ruGitRawSha256": "83f588e6cbe6f13775993d04e172f7f12fa9dabbddbc8043473bf9e7dd00a2ec"
+    },
+    {
+      "path": "kanji/妹.md",
+      "sourceRawSha256": "79f443c6db4a44760840f44c56fa35e817117185e3765db77e7e98d2b59eeb0f",
+      "sourceSha256": "79f443c6db4a44760840f44c56fa35e817117185e3765db77e7e98d2b59eeb0f",
+      "ruRawSha256": "9d54b3e234a510ee43a45b92f6c5df03118792d4ae08d62b62fcd445afab5935",
+      "ruSha256": "9d54b3e234a510ee43a45b92f6c5df03118792d4ae08d62b62fcd445afab5935",
+      "ruGitRawSha256": "9d54b3e234a510ee43a45b92f6c5df03118792d4ae08d62b62fcd445afab5935"
+    },
+    {
+      "path": "kanji/姉.md",
+      "sourceRawSha256": "7ed24b9fac2055b2d9f9521355d059841ce5aae9500d0fa484d8aaf5766a7a53",
+      "sourceSha256": "7ed24b9fac2055b2d9f9521355d059841ce5aae9500d0fa484d8aaf5766a7a53",
+      "ruRawSha256": "e64394be9d67a27f1db6235c4cce53f8e37d258761d4737ee8f39b5eb7b9a14a",
+      "ruSha256": "e64394be9d67a27f1db6235c4cce53f8e37d258761d4737ee8f39b5eb7b9a14a",
+      "ruGitRawSha256": "e64394be9d67a27f1db6235c4cce53f8e37d258761d4737ee8f39b5eb7b9a14a"
+    },
+    {
+      "path": "kanji/始.md",
+      "sourceRawSha256": "b2c29cda9b41567972b3cb0a3089ee0cd540411d489d37c32ecc243d89d945de",
+      "sourceSha256": "b2c29cda9b41567972b3cb0a3089ee0cd540411d489d37c32ecc243d89d945de",
+      "ruRawSha256": "43d92920c1e812d85efb841124b2ec1606c66325d483cf3f8153c91e74efd879",
+      "ruSha256": "43d92920c1e812d85efb841124b2ec1606c66325d483cf3f8153c91e74efd879",
+      "ruGitRawSha256": "43d92920c1e812d85efb841124b2ec1606c66325d483cf3f8153c91e74efd879"
+    },
+    {
+      "path": "strokes/味.json",
+      "sourceRawSha256": "68009699fe4309c00ce84f0982d4f9e1a4a86f482fbd5f4df8ee1ada43da1fc6",
+      "sourceSha256": "68009699fe4309c00ce84f0982d4f9e1a4a86f482fbd5f4df8ee1ada43da1fc6",
+      "ruRawSha256": "68009699fe4309c00ce84f0982d4f9e1a4a86f482fbd5f4df8ee1ada43da1fc6",
+      "ruSha256": "68009699fe4309c00ce84f0982d4f9e1a4a86f482fbd5f4df8ee1ada43da1fc6",
+      "ruGitRawSha256": "68009699fe4309c00ce84f0982d4f9e1a4a86f482fbd5f4df8ee1ada43da1fc6"
+    },
+    {
+      "path": "strokes/妹.json",
+      "sourceRawSha256": "aedbe4a0f530f592631aaad4a39d0a1983fc028da696530d8a92d3f830aff74e",
+      "sourceSha256": "aedbe4a0f530f592631aaad4a39d0a1983fc028da696530d8a92d3f830aff74e",
+      "ruRawSha256": "aedbe4a0f530f592631aaad4a39d0a1983fc028da696530d8a92d3f830aff74e",
+      "ruSha256": "aedbe4a0f530f592631aaad4a39d0a1983fc028da696530d8a92d3f830aff74e",
+      "ruGitRawSha256": "aedbe4a0f530f592631aaad4a39d0a1983fc028da696530d8a92d3f830aff74e"
+    },
+    {
+      "path": "strokes/姉.json",
+      "sourceRawSha256": "b2f01b96b49710f661e74e959b82da81e9ae9b9928a3f561a849be29d2a0b355",
+      "sourceSha256": "b2f01b96b49710f661e74e959b82da81e9ae9b9928a3f561a849be29d2a0b355",
+      "ruRawSha256": "b2f01b96b49710f661e74e959b82da81e9ae9b9928a3f561a849be29d2a0b355",
+      "ruSha256": "b2f01b96b49710f661e74e959b82da81e9ae9b9928a3f561a849be29d2a0b355",
+      "ruGitRawSha256": "b2f01b96b49710f661e74e959b82da81e9ae9b9928a3f561a849be29d2a0b355"
+    },
+    {
+      "path": "strokes/始.json",
+      "sourceRawSha256": "09133de189bcd308a20f2dd0758cee1c325735bafb890081dc80513ac7ef711e",
+      "sourceSha256": "09133de189bcd308a20f2dd0758cee1c325735bafb890081dc80513ac7ef711e",
+      "ruRawSha256": "09133de189bcd308a20f2dd0758cee1c325735bafb890081dc80513ac7ef711e",
+      "ruSha256": "09133de189bcd308a20f2dd0758cee1c325735bafb890081dc80513ac7ef711e",
+      "ruGitRawSha256": "09133de189bcd308a20f2dd0758cee1c325735bafb890081dc80513ac7ef711e"
+    },
+    {
+      "path": "words/お姉さん.md",
+      "sourceRawSha256": "cb3667bf1361bd2820e258ec751cfffd7755aba318921300250c637b445f26d4",
+      "sourceSha256": "cb3667bf1361bd2820e258ec751cfffd7755aba318921300250c637b445f26d4",
+      "ruRawSha256": "010688a43f285b3b9f36975484f62ae87edef9e98c50029a9824e9b8ad37a099",
+      "ruSha256": "010688a43f285b3b9f36975484f62ae87edef9e98c50029a9824e9b8ad37a099",
+      "ruGitRawSha256": "010688a43f285b3b9f36975484f62ae87edef9e98c50029a9824e9b8ad37a099"
+    },
+    {
+      "path": "words/不味い.md",
+      "sourceRawSha256": "c7449146e41f02afcefb4e6feb2018ca59fee845d7fedeefa9c159ef5e9e1103",
+      "sourceSha256": "c7449146e41f02afcefb4e6feb2018ca59fee845d7fedeefa9c159ef5e9e1103",
+      "ruRawSha256": "9a662c541f6aad027addddeb47ad34d41e58535d2f6a9216121d1570a8b1d418",
+      "ruSha256": "0162a128cd484267124f1b69a2c4d2a4d8a9d0d61b0a2a030cb72d0a0e1501d4",
+      "ruGitRawSha256": "0162a128cd484267124f1b69a2c4d2a4d8a9d0d61b0a2a030cb72d0a0e1501d4"
+    },
+    {
+      "path": "words/味.md",
+      "sourceRawSha256": "b3538101dda37890ee61ba1bcfcf83a9f3fbdd5528b2aae09ea5d04d2a8ee8c1",
+      "sourceSha256": "b3538101dda37890ee61ba1bcfcf83a9f3fbdd5528b2aae09ea5d04d2a8ee8c1",
+      "ruRawSha256": "7ec1f0035de707bd249f8e472a1d49e22995ab3907c0d02f546a0352cd5aa759",
+      "ruSha256": "7ec1f0035de707bd249f8e472a1d49e22995ab3907c0d02f546a0352cd5aa759",
+      "ruGitRawSha256": "7ec1f0035de707bd249f8e472a1d49e22995ab3907c0d02f546a0352cd5aa759"
+    },
+    {
+      "path": "words/味噌.md",
+      "sourceRawSha256": "4903d98876a78b27b2d623b0760438ba715b05bf16a398886d01aff34c48967c",
+      "sourceSha256": "4903d98876a78b27b2d623b0760438ba715b05bf16a398886d01aff34c48967c",
+      "ruRawSha256": "a7f3d81f9e46c58644e4f1b32af1a9b8992bfeaf8c97854042f761e5b93afbfe",
+      "ruSha256": "a7f3d81f9e46c58644e4f1b32af1a9b8992bfeaf8c97854042f761e5b93afbfe",
+      "ruGitRawSha256": "a7f3d81f9e46c58644e4f1b32af1a9b8992bfeaf8c97854042f761e5b93afbfe"
+    },
+    {
+      "path": "words/妹.md",
+      "sourceRawSha256": "b7a86c3b4ae99796d58afbd4e0131c0cdf76ec61d0e885e08b2a095beaad1e2a",
+      "sourceSha256": "b7a86c3b4ae99796d58afbd4e0131c0cdf76ec61d0e885e08b2a095beaad1e2a",
+      "ruRawSha256": "29a40759b48b41020d46b75dad77ff919d9e76f656101c6d2eba1349dc09b09c",
+      "ruSha256": "29a40759b48b41020d46b75dad77ff919d9e76f656101c6d2eba1349dc09b09c",
+      "ruGitRawSha256": "29a40759b48b41020d46b75dad77ff919d9e76f656101c6d2eba1349dc09b09c"
+    },
+    {
+      "path": "words/姉.md",
+      "sourceRawSha256": "e1cece8ebe37c52e2d02bae690f64f43a96c6fc31745b3b2489cc5c261ec2aec",
+      "sourceSha256": "e1cece8ebe37c52e2d02bae690f64f43a96c6fc31745b3b2489cc5c261ec2aec",
+      "ruRawSha256": "62446484d393e782892c9b009c1fc7be1cb082b8d747db7dac0da67b6f006e81",
+      "ruSha256": "62446484d393e782892c9b009c1fc7be1cb082b8d747db7dac0da67b6f006e81",
+      "ruGitRawSha256": "62446484d393e782892c9b009c1fc7be1cb082b8d747db7dac0da67b6f006e81"
+    },
+    {
+      "path": "words/姉妹.md",
+      "sourceRawSha256": "49427db4f37f8a230aecd824271422d4c4955ff1970d86fd652399424a46c5a1",
+      "sourceSha256": "49427db4f37f8a230aecd824271422d4c4955ff1970d86fd652399424a46c5a1",
+      "ruRawSha256": "84def8cba287298fd335c5539bdc8e3c22e44e3f793af68018898a47ebc69e00",
+      "ruSha256": "84def8cba287298fd335c5539bdc8e3c22e44e3f793af68018898a47ebc69e00",
+      "ruGitRawSha256": "84def8cba287298fd335c5539bdc8e3c22e44e3f793af68018898a47ebc69e00"
+    },
+    {
+      "path": "words/始まる.md",
+      "sourceRawSha256": "55df735257071ad0b983c4266e32c4de90671415be45f340533d2c2dfc3b8092",
+      "sourceSha256": "55df735257071ad0b983c4266e32c4de90671415be45f340533d2c2dfc3b8092",
+      "ruRawSha256": "5c810068d92627642e9607026664e230bde009480b828c5338185d9a71bef36c",
+      "ruSha256": "aa7ff322f7414b4ec9a022b3edd92fcbb7aa9ee28fbbd26e4f40d7933dd32c26",
+      "ruGitRawSha256": "aa7ff322f7414b4ec9a022b3edd92fcbb7aa9ee28fbbd26e4f40d7933dd32c26"
+    },
+    {
+      "path": "words/始め.md",
+      "sourceRawSha256": "804a6a67b3acb39c99da5c20d20d883df6b4ce51cf1ed5d81f6b35a11fd98bef",
+      "sourceSha256": "804a6a67b3acb39c99da5c20d20d883df6b4ce51cf1ed5d81f6b35a11fd98bef",
+      "ruRawSha256": "c2b038440d85ddd1a2ae8dd71a80136ea5e8cb8ecff0dc775284fac315e981be",
+      "ruSha256": "d2d652249d29b563f6eef416c70e91dbf770890d8203a966ad0cd8ef2a4a99bb",
+      "ruGitRawSha256": "d2d652249d29b563f6eef416c70e91dbf770890d8203a966ad0cd8ef2a4a99bb"
+    },
+    {
+      "path": "words/始める.md",
+      "sourceRawSha256": "5c90d306ce487b04b38ed3b0a4181763a62eba5122b4e47724ca18da77bc8920",
+      "sourceSha256": "5c90d306ce487b04b38ed3b0a4181763a62eba5122b4e47724ca18da77bc8920",
+      "ruRawSha256": "36e758b31eeacc820f30f8c6a446e08ac7f409ea8901380ab4ac5a6d40f7c7d2",
+      "ruSha256": "36e758b31eeacc820f30f8c6a446e08ac7f409ea8901380ab4ac5a6d40f7c7d2",
+      "ruGitRawSha256": "36e758b31eeacc820f30f8c6a446e08ac7f409ea8901380ab4ac5a6d40f7c7d2"
+    },
+    {
+      "path": "words/意味.md",
+      "sourceRawSha256": "e6608666dff47f2ea2e246be6ff0ed9451f6a87f43276db7d8bea3a211bad9e6",
+      "sourceSha256": "e6608666dff47f2ea2e246be6ff0ed9451f6a87f43276db7d8bea3a211bad9e6",
+      "ruRawSha256": "ce678431c68923956c4fd68fce32c2eac4bd4940c1ed964b6e57eee226a025d7",
+      "ruSha256": "2e411079469e4dcb1e6747b8b6c2e4f3cacb2aeb971428448051e578167abd31",
+      "ruGitRawSha256": "2e411079469e4dcb1e6747b8b6c2e4f3cacb2aeb971428448051e578167abd31"
+    },
+    {
+      "path": "words/興味.md",
+      "sourceRawSha256": "f5bad6180881287f153b7332fcbf9acf9613875c6fcecdac485d8a1be665fd1b",
+      "sourceSha256": "f5bad6180881287f153b7332fcbf9acf9613875c6fcecdac485d8a1be665fd1b",
+      "ruRawSha256": "1b15a2e2724d41c14835d89bfafd4c9dfcdf0cb1cd765876c73b2df89ae4c07b",
+      "ruSha256": "1b15a2e2724d41c14835d89bfafd4c9dfcdf0cb1cd765876c73b2df89ae4c07b",
+      "ruGitRawSha256": "1b15a2e2724d41c14835d89bfafd4c9dfcdf0cb1cd765876c73b2df89ae4c07b"
+    },
+    {
+      "path": "words/趣味.md",
+      "sourceRawSha256": "72dde639d7154eeb2ad7f8deb06b63a95af55e9fd4d4e4ccc0da6ae6d706fc24",
+      "sourceSha256": "72dde639d7154eeb2ad7f8deb06b63a95af55e9fd4d4e4ccc0da6ae6d706fc24",
+      "ruRawSha256": "647e905b588e47d8919f1d93a55edb849299155a5f43244fbca11792158ca9e6",
+      "ruSha256": "647e905b588e47d8919f1d93a55edb849299155a5f43244fbca11792158ca9e6",
+      "ruGitRawSha256": "647e905b588e47d8919f1d93a55edb849299155a5f43244fbca11792158ca9e6"
+    }
+  ],
+  "completeRussianKanjiLessonLines": 287,
+  "actualNewKanjiLevels": {
+    "4": 4
+  },
+  "baselineRuntimeRawsAndTrackingRowsPreserved": 1967,
+  "exactNavigationOnlyUpdatedBaselineWords": 13,
+  "exactSemanticPlusNavigationUpdatedBaselineWords": 0,
+  "exactExistingWordSemanticAmendments": [],
+  "exactNavigationWrappers": 14,
+  "allExistingWordVisibleProseAndJapaneseUnchanged": true,
+  "oldWordMetadataAndQuizArraysUnchanged": 1478,
+  "explicitNewKanjiSourceCorrection": "妹distractors[姉,味,始]to[味,始]only",
+  "newRuntimePaths": 8,
+  "newWords": 0,
+  "newKanji": 4,
+  "rawIdenticalStrokeAssets": 4,
+  "oldRuntimeEdits": [
+    "words/お姉さん.md",
+    "words/不味い.md",
+    "words/味.md",
+    "words/味噌.md",
+    "words/妹.md",
+    "words/姉.md",
+    "words/姉妹.md",
+    "words/始まる.md",
+    "words/始め.md",
+    "words/始める.md",
+    "words/意味.md",
+    "words/興味.md",
+    "words/趣味.md"
+  ],
+  "runtime": {
+    "objects": 1988,
+    "words": 1478,
+    "kanji": 240,
+    "strokes": 240,
+    "contentVersion": "730ea51721ee7090",
+    "wordJlptCounts": {
+      "4": 636,
+      "5": 671,
+      "3": 97,
+      "unlabelled": 55,
+      "2": 19
+    },
+    "kanjiJlptCounts": {
+      "5": 80,
+      "4": 145,
+      "3": 13,
+      "2": 2
+    },
+    "N4Kanji": 145,
+    "remainingN4Kanji": 21,
+    "N5Words": 671,
+    "remainingN5Words": 1,
+    "N4Words": 636,
+    "remainingN4Words": 0
+  },
+  "progressStatuses": {
+    "reviewed-current": 1988,
+    "draft-reviewed-runtime-blocked": 2,
+    "pending": 6288
+  },
+  "finalValidationReceipt": "docs/translation-batches/082-taste-family-and-beginnings-kanji-final-validation-001.json",
+  "appHintMappingStatus": "UNVERIFIED;live/sharedappnotaccessed",
+  "next": "083+ALLremaining safe frozenlevels/families;protected033word空separate."
+}

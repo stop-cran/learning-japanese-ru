@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "batchId": "082-taste-family-and-beginnings-kanji",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "reviewedCandidate": "629b8436f229c8be05095adac742fc028620f95c",
+  "originalWholeCandidate": "e933fa9909223dc32b79b3dc7f53cec13c059d45",
+  "actualWholeReview": "docs/translation-batches/082-taste-family-and-beginnings-kanji-independent-review-001.json",
+  "actualWholeReportBytes": 10827,
+  "actualWholeReportSha256": "5b9f6aaf8c8cb93e33ec15ff03784fe9765a534e0b0424c225a56b8e82513ffd",
+  "actualWholeReportDomain": "Originalactualsuccessfulstdout/nativefinalTEXTprivateimmutable;trackedpath-onlypublicprojectionexplicitdifferentSHA/lengthdomain.",
+  "actualFocusedReview": "docs/translation-batches/082-taste-family-and-beginnings-kanji-independent-review-002.json",
+  "actualFocusedReportBytes": 10132,
+  "actualFocusedReportSha256": "2ae374b7c73e3dd3e8d9bf5d9debc1024b4d6d87f71ba60bdd27ecaf3a317bd4",
+  "actualFocusedReportDomain": "Actualsuccessfulstdout/nativefinalJSONbyte-identical.",
+  "actualOriginalWholeScope": {
+    "wholeTeachingBodies": 53,
+    "wholeOfficialSourceTextUnits": 76,
+    "wholeProviderHeaders": 1,
+    "actualDictionaryGlyphPixelViews": 0,
+    "currentTypedKanjiMetadataRows": 240,
+    "wholeCorrectCurrentRURootRubrics": 3,
+    "directedProposals": 12,
+    "sourceAdjudications": 4,
+    "exactWordDiffs": 13,
+    "navigationWrappers": 14,
+    "outsideObservations": 5,
+    "snapshotChecks": 2
+  },
+  "actualFocusedScope": {
+    "wholeTeachingBodies": 5,
+    "wholeOfficialSourceTextUnits": 7,
+    "wholeProviderHeaders": 1,
+    "actualDictionaryGlyphPixelViews": 0,
+    "currentTypedMetadataRows": 2,
+    "priorTypedMetadataRows": 2,
+    "poolIdentityAuditNotFreshSemanticJudgments": 240,
+    "snapshotChecks": 2
+  },
+  "originalImmutableFacets": {
+    "C1": "CLEAN within26completeRU/source-alignedteachingassertions",
+    "C2": "NEEDS_FIX F082-01;broaderordinary/all-sensequizsuitabilityUNVERIFIED",
+    "C3": "CLEAN within26completeRUteachingbodies;notnativecertification"
+  },
+  "actualFocusedFacets": {
+    "C1": {
+      "verdict": "CLEAN",
+      "scope": "Exact removal-only source correction and factual non-regression in the whole reread sister bodies; no newly confirmed Japanese teaching defect. Not fresh clearance of all original 26 RU bodies or every usage claim."
+    },
+    "C2": {
+      "verdict": "UNVERIFIED",
+      "exactCorrectionVerdict": "CLEAN",
+      "scope": "Authorized N004 removal, retained closure, directed history and byte/typed identity carryforward are consistent; no correction-introduced defect confirmed. Broader quiz suitability, N007 unrestricted clearance and fallback safety remain UNVERIFIED; no whole-C2 CLEAN."
+    },
+    "C3": {
+      "verdict": "CLEAN",
+      "scope": "Whole current RU sister bodies reread; correction changes no Russian teaching prose and introduces no confirmed comprehension defect. Original 26-body C3 CLEAN remains historical only; no native-speaker or effectiveness certification."
+    }
+  },
+  "actualOriginalFindings": [
+    {
+      "id": "F082-01",
+      "path": "kanji/妹.md",
+      "line": 11,
+      "severity": "Medium",
+      "actualVerbatimFinding": "F082-01 — Unqualified 妹→姉 foil conflicts with the preserved sister sense\n**File:** RU_ROOT\\kanji\\妹.md:11\n**Severity:** Medium\n**Problem:** 姉 supplies “старшая сестра” as a supposedly wrong answer to bare 妹. The text correctly limits modern いもうと, but the quiz metadata does not impose that reading. The retained archaic 妹（いも）sense “one's sister” has no younger restriction, so the unrestricted negative is not established.\n**Evidence:** Complete JMdict 2752050 sense 2, marked archaic; complete 1524590 and 1307630; the lesson itself at lines 60–65; frozen glyph→title quiz contract. This is not a claim that the archaic reading is common or that modern いもうと means older sister. Confidence: high in the attested conflict/absence of a reading restriction; modern necessity/frequency UNVERIFIED.\n**Suggested fix:** Replace this directed foil with an independently checked disjoint candidate, or actually constrain the question to the intended modern reading/context. Keep the family comparison, historical caveat and sourced readings; do not erase dictionary evidence or infer a reciprocal correction automatically. Unresolved in this candidate.\n",
+      "authorStructuringOnlyNotAnotherReviewerReport": true
+    }
+  ],
+  "actualFocusedFindingDispositions": [
+    {
+      "id": "F082-01",
+      "proposalId": "082-N004",
+      "itemId": "妹",
+      "field": "distractors",
+      "line": 11,
+      "status": "resolved",
+      "originalDisposition": "R",
+      "before": [
+        "姉",
+        "味",
+        "始"
+      ],
+      "after": [
+        "味",
+        "始"
+      ],
+      "reason": "Whole JMdict 2752050 sense 2 attests archaic 妹いも as one's sister without a younger restriction. The glyph-to-title question does not constrain modern いもうと. Thus 姉's title старшая сестра was not established as unconditionally wrong for bare 妹. The exact authorized active negative was removed, without asserting modern frequency or necessity.",
+      "verification": "Actual diff matches frozen proposal. All prose, readings, levels, Japanese examples, modern family comparison and historical caveat remain unchanged. Two distinct existing distractors remain; no new structural defect established.",
+      "beforeWorkingRawAndGitRawSha256": "c264b25d73edcb56c2d00d79c2d7dfeac452c23055160fd88bcfb14e35e12d1c",
+      "afterWorkingRawSha256": "9d54b3e234a510ee43a45b92f6c5df03118792d4ae08d62b62fcd445afab5935",
+      "resolutionBoundary": "Removal from curated metadata only; not proof that fallback can never offer 姉."
+    }
+  ],
+  "qualificationDisposition": "docs/translation-batches/082-taste-family-and-beginnings-kanji-review-qualification-dispositions-001.json",
+  "sourceAmendmentResolution": "docs/translation-batches/082-taste-family-and-beginnings-kanji-source-amendment-resolution-001.json",
+  "remainingBlockingIssuesWithinAssignedEvidence": [],
+  "exactOriginalIndependentSourceDirectionDispositions": [
+    {
+      "proposalId": "082-N001",
+      "direction": [
+        "味",
+        "妹"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N001 味→妹 — Q. “вкус” versus “младшая сестра”: KanjiPedia 味 and JMdict 1526960/1524590 support the concrete distinction. Shared 未 is graphic, not semantic identity; 2752050's other 妹 senses remain acknowledged.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N002",
+      "direction": [
+        "味",
+        "話"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N002 味→話 — Q. “вкус” versus “говорить; разговаривать”: full 味/話 lessons and official records distinguish tasting/appeal from speaking/conversation. Figurative 味 is retained; no historical inference from modern 舌-like shape.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N003",
+      "direction": [
+        "味",
+        "本"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N003 味→本 — Q. “вкус” versus “книга; исток”: complete 味/本 bodies and records distinguish taste/appeal from book/root/origin. A book's appeal does not make “книга; исток” a demonstrated meaning of 味.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N004",
+      "direction": [
+        "妹",
+        "姉"
+      ],
+      "actualIndependentDisposition": "R",
+      "actualVerbatimDirectionDisposition": "082-N004 妹→姉 — R. “младшая сестра” versus “старшая сестра”: 2752050 explicitly leaves sister age unrestricted for いも; short modern titles cannot clear the bare glyph. Required correction: F082-01.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N005",
+      "direction": [
+        "妹",
+        "味"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N005 妹→味 — Q. “младшая сестра” versus “вкус”: 1524590/2752050 give family/person senses, not taste. Independently supported in this direction; not inferred from N001.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N006",
+      "direction": [
+        "妹",
+        "始"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N006 妹→始 — Q. “младшая сестра” versus “начало; начинать”: 1524590/2752050 and 1307500/1307550 support the modern family/beginning distinction. 始's historical elder-woman account does not demonstrate a current beginning sense of 妹 or universal separation.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N007",
+      "direction": [
+        "姉",
+        "妹"
+      ],
+      "actualIndependentDisposition": "U",
+      "actualVerbatimDirectionDisposition": "082-N007 姉→妹 — U for unrestricted clearance; modern core contrast supported. KanjiPedia 姉, 1307630 and 2252800 attest older-sister/honorific uses, not younger sister. Importantly, 2752050 concerns the OTHER glyph: it does not itself make the displayed foil title “младшая сестра” correct for 姉 in the documented glyph→title direction. No reciprocal defect proved; do not delete this edge just by reversing N004. Additional usage/all-sense clearance remains unestablished.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N008",
+      "direction": [
+        "姉",
+        "始"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N008 姉→始 — Q. “старшая сестра” versus “начало; начинать”: 姉's read lexical senses do not establish beginning. 始's 長上の女/originally 姒 is in なりたち, not a current Japanese lexical older-sister attestation; history does not prove either overlap or universal disjointness.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N009",
+      "direction": [
+        "姉",
+        "帰"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N009 姉→帰 — Q. “старшая сестра” versus “возвращаться домой”: complete 姉/帰 contexts and official records distinguish the relationship from returning. 帰's additional gift/marriage readings are preserved, not silently excluded; no broad usage certification.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N010",
+      "direction": [
+        "始",
+        "姉"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N010 始→姉 — Q. “начало; начинать” versus “старшая сестра”: 1307500/1307550 and KanjiPedia's current 始 meaning list support beginning. The historical elder-woman passage alone does not establish that 姉's title is a current lexical answer for 始. Historical/all-sense clearance withheld.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N011",
+      "direction": [
+        "始",
+        "台"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N011 始→台 — Q. “начало; начинать” versus “подставка; счётное слово для техники”: full 始/台 bodies and records support this core distinction. Modern 台-shaped component is not the whole character's meaning or identification of an unviewed historical phonetic glyph; 台's additional readings remain preserved.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "082-N012",
+      "direction": [
+        "始",
+        "妹"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimDirectionDisposition": "082-N012 始→妹 — Q. “начало; начинать” versus “младшая сестра”: current 始 senses and 1524590 support different cores. Neither historical 長上の女 nor archaic 妹いも proves a current younger-sister sense of 始; not inferred from N006.",
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    }
+  ],
+  "originalHistoricalDirections": 12,
+  "correctedActiveRuntimeDirections": 11,
+  "retainedOriginalQDirections": 10,
+  "retainedOriginalUDirections": 1,
+  "rejectedRemovedDirection": "082-N004妹→姉",
+  "retainedN007UnrestrictedDisposition": "U_NOT_Q",
+  "universalSemanticDisjointnessDirections": 0,
+  "inventedReverseOrTransitiveDirections": 0,
+  "freshRetained11SemanticJudgmentsAfterOriginalWholeReview": 0,
+  "secondWholeReview": false,
+  "boundedFocusedReview": true,
+  "qualifiedBoundary": "ONEactual10827byteSHA5b9f6aaf8c8cb93e33ec15ff03784fe9765a534e0b0424c225a56b8e82513ffd whole001stdout/nativefinalbyte-identicalTEXTreport:53wholeteachingbodies=4primaryEN/RUpairs+22CURRENTcontextEN/RUpairs+1wholeEN-onlycomparison;76officialTEXT=14wholeKANJIDIC/2Unicode/56wholeorderedJMdict/4wholevisibleKanjiPediaentryTEXT;onewholeproviderheaderseparate;ZERO082dictionaryglyphpixelviews;missing始historicalinlineglyphUNINSPECTED.240CURRENTtypedmetadata/12individualdirections/4adjudications/13NAV-onlydiffs14wrappers/5outsideobservations/4guidance/3correctCURRENT_RU-rootrubrics.OriginalC1C3CLEANwithinscope/C2NEEDS_FIX_F082-01reportimmutable.Originalprivateactualpayloadretained;trackedPATH-ONLYPUBLICPROJECTIONhasexplicitDIFFERENTSHA/lengthdomain,notrewrittenoriginal.SIGNEDpremutationsourceamendmentremovesONLYinvalidactive082-N004妹-to-姉unqualifiednegative:妹distractors[姉,味,始]to[味,始].WholeJMdict2752050archaic妹いもone'ssisterhasNOyoungerrestriction;bareglyphnotreading-constrained;nofrequency/rarityrepair.All12history/all4closure/prose/readings/levels/Japaneseexamples/caveatskept;noreplacement/reverse/transitive/cliqueedges.Original10Q+1R+1UremainNOT11Q:10Qcarryonlyoriginalqualifiedintroductory-corecontrastscope;N007姉-to-妹remainsUforunrestrictedclearancewithmoderncoresupported,NOreciprocaldefectproved;notconvertedtoQ.ONEactual10132byteSHA2ae374b7c73e3dd3e8d9bf5d9debc1024b4d6d87f71ba60bdd27ecaf3a317bd4 focused002stdout/nativefinalbyte-identicalJSONreportresolvesONLYF082-01:5wholebodies/7officialTEXT/header/2current+2priortypedrows;240machineidentityauditNOT240freshsemanticjudgments/second53-bodywhole-review.C1C3nocurrentconfirmeddefectwithincombinedassignedscopes;C2exactboundedcorrectionCLEAN,broaderC2UNVERIFIED;NOTWHOLE_C2_CLEAN.Broaderordinaryquiz/fallbacksafety/modernnecessity-frequency/globalfutureuniquenessUNVERIFIED;curatedfoilremovalNOTfallbackproof.FiveoutsideobservationsNOTnewexclusions;priorwordguardsretainoldscope/identity,NOT1478freshwordjudgments.13wordbodies14wrappersNAV-only;NOwordsemanticamendments;Japanese/examples/readings/wordmetadata/quizarrays/oldlinkspreserved.姉ははattestedmetadata,ordinaryusage/register/frequencyUNVERIFIED;noinventedmotherexample.始historicalなりたちNOTautomaticallymodernlexicalsistermeaning;unviewedglyphnotidentified.1967otherbaselineRAWs/trackingrowsunchanged;4strokeassetsRAW-identical/rootlicensesretained,NOTpixel/nativeanimation/mediaapproval.Protectedexcluded033WORD空separateC2UNVERIFIED/runtimeabsent,NOTmedia;accepted077KANJI空doesNOTresolveit.Noapp/device/phone/IME/media/default/package/release/full8278completionauthority.",
+  "baselineUnchangedRuntimeRaws": 1967,
+  "protectedSkyBoundary": {
+    "path": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+    "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+    "status": "excluded C2UNVERIFIED;notmedia",
+    "runtimeWordRemainsAbsent": true,
+    "priorKanjiSkyBoundary": "Existingaccepted077kanji空doesNOTapproveprotectedworddraft/distant-placecaptions/ordinaryfallbackquizsafety/media/defaultactivation."
+  },
+  "checkpointAuthority": null,
+  "ordinaryActivationAuthorized": false,
+  "fullTaskComplete": false,
+  "continueRequired": true,
+  "reviewShape": "Authorqualifiedaggregationofactualwhole001plusboundedfocused002;NOTnewreport/secondwhole/blanketC2CLEAN/ordinaryquizapproval."
+}

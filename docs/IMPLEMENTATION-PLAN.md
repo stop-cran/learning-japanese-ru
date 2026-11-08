@@ -11,7 +11,68 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-The eighty-first full-target batch adds **17 complete Russian kanji lessons/
+The eighty-second full-target batch adds **four complete Russian N4 kanji
+lessons,味/妹/姉/始,287 file lines**,and four RAW-identical KanjiVG assets.
+Thirteen existing word bodies receive14 **navigation-only wrappers**;
+no new word or existing-word semantic amendment.
+Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`;
+signed intake,freeze,proposals and original reports remain immutable.
+
+The [actual whole review](translation-batches/082-taste-family-and-beginnings-kanji-independent-review-001.json)
+read **53 whole teaching bodies**,76 whole official source-TEXT units,
+one whole provider header,240 current typed kanji rows,12 individual
+directions,four adjudications,13 exact NAV diffs/14 wrappers,five outside
+observations,four guidance files and three correct CURRENT RU-root rubrics.
+Zero dictionary-glyph pixel views are claimed;the missing始 historical
+inline glyph stays UNINSPECTED. Metadata rows are not whole lessons.
+The actual **10827-byte stdout/final report**,SHA256
+`5b9f6aaf8c8cb93e33ec15ff03784fe9765a534e0b0424c225a56b8e82513ffd`,
+records C1/C3 CLEAN within scope and F082-01/C2 NEEDS FIX.
+Its exact private original remains immutable;the tracked path-only public
+projection is explicitly a different hash/length domain.
+
+The signed [single source amendment](translation-batches/082-taste-family-and-beginnings-kanji-single-source-correction-freeze-001.json)
+removes only invalid082-N004妹→姉:
+`妹.distractors [姉,味,始]`→`[味,始]`.
+Whole JMdict2752050's archaic妹いも means one's sister without a younger
+restriction;the bare-glyph prompt does not constrain modernいもうと.
+All12 historical directions and four closure members persist;
+no replacement/reverse/transitive edge or lesson-prose change.
+**Original dispositions stay10 Q +one R +one U,not11 Q.**
+N007姉→妹 remains U for unrestricted clearance,with its modern core contrast
+supported;no reciprocal defect was proved or automatically inferred.
+
+The [actual focused review](translation-batches/082-taste-family-and-beginnings-kanji-independent-review-002.json),
+**10132 bytes**,SHA256
+`2ae374b7c73e3dd3e8d9bf5d9debc1024b4d6d87f71ba60bdd27ecaf3a317bd4`,
+resolves only F082-01 after five whole teaching bodies,seven official TEXT
+units,one header,two current/two prior typed rows and exact amendment/diff.
+Its240-row identity audit is not fresh240-row semantics or another whole
+53-body review. Ten Q judgments carry only original qualified core-contrast
+scope;N007's U is not Q. **C1/C3: no remaining confirmed defect within
+combined assigned scopes. C2: bounded correction CLEAN;broader C2 UNVERIFIED,
+not whole C2 CLEAN.** Ordinary quiz suitability,modern necessity/frequency,
+fallback safety and global future uniqueness remain UNVERIFIED.
+No1478 fresh word-guard approvals or new exclusions follow.
+姉はは remains attested metadata,not invented ordinary mother-reading usage;
+始's historicalなりたち is not automatically modern lexical sister meaning.
+
+Qualified source checkpoint: **1988 runtime objects/1478 words/
+240 kanji/240 strokes**. Words671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/**145 N4**/13 N3/2 N2,**21 actual frozen N4 kanji remain**.
+Strict progress: **1988 reviewed-current,two excluded reviewed blocked-media
+drafts,6288 pending of8278;6290 runtime paths absent**,no partial.
+Version `730ea51721ee7090`;checkpoint authority null/Ready false.
+1967 other baseline RAWs/tracking rows persist;13 word patches are NAV-only.
+These become accepted-main counts only after signed normal integration;
+fresh final checks,public archives/signatures/four protected refs/exact-main CI
+remain separate publication evidence,not native/pixel/media approval.
+Protected033 **word**空 stays excluded/runtime-absent/C2 UNVERIFIED,not media;
+accepted077 **kanji**空 does not resolve it.
+No app/device/phone/IME/media/default/package/release authority.
+Continue083+ and ALL remaining safe frozen levels/families,not task completion.
+
+The previous eighty-first full-target batch adds **17 complete Russian kanji lessons/
 1083 file lines,all actual frozen N4**,and17 RAW-identical KanjiVG assets.
 Existing53 word bodies receive54 **navigation-only wrappers**;
 no new word or existing-word semantic amendment.
