@@ -1,6 +1,81 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch093 transformation, simplicity, danger, origin, participation and hand-radical kanji
+## Current qualified source milestone: batch094 absorption, breathing and blowing kanji
+
+Batch094 adds **three complete Russian frozen N3 lessons,吸/吹/呼,
+206 file lines**,and three RAW-identical Japanese KanjiVG assets.
+Three existing word bodies receive three **NAV-only standalone-glyph wrappers**:
+吸う→吸,吹く→吹,呼ぶ→呼. No visible prose,Japanese metadata,quiz array,
+old link or frozen community level changes;no new guard or removed direction.
+Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The [actual whole review and explicitly path-redacted public projection](translation-batches/094-absorption-breathing-and-blowing-kanji-independent-review-001.json)
+cover **18 whole teaching bodies,10 EN/8 RU**:three primary pairs,five CURRENT
+context pairs and two EN-only comparisons,including all three changed words.
+It read **92 whole official TEXT units**:seven KANJIDIC records,one Unicode row,
+81 ordered JMdict objects and three visible KanjiPedia entries;one whole provider
+header is additional. All323 CURRENT typed metadata rows,nine directions,
+three L rulings/three A clarifications,three exact NAV diffs,three outside LIMITS,
+the whole EOL amendment,four whole guidance files and three correct RU rubrics
+were read in **54 complete successful windows**. Zero glyph pixels;
+323 typed rows are not323 whole lessons or1478 fresh word-guard judgments.
+
+The original **10985-byte stdout/native-final report**,SHA256
+`bdb29b4f8b1c8d1f044fa3cc542d6392c64de35124783a80271b96f617da73f6`,
+is immutable privately,including its final LF. Its public projection replaces
+only one absolute checkout root;separate projection bytes/hash are recorded.
+It is **not the original byte payload or a second review**.
+There were59 terminal tool returns:57 successes and two reviewer delivery-only
+size assertions at12722/11684 bytes,not failed readings. There were56 successful
+reader shells and57 helper invocations:opening gate;ranges shared one semicolon-
+chained shell,so its one exit0 footer is not two individually observed exit codes.
+Complete opening/closing gate payloads are byte-identical;no unread assigned
+window,truncation or nonterminal wait. Seven author-only preparation/capture/
+diagnostic failures remain separately preserved,not reviewer reading failures.
+
+Actual facets are **C1 source CLEAN/C2 coverage and dependencies supported,
+introductory suitability QUALIFIED ONLY/C3 Russian CLEAN**.
+No necessary learner-text correction was established. The medium C2 qualification
+is retained: **N006吹→呼 and N008呼→吹 remain U** because whole KanjiPedia
+吹① and呼③ explicitly share息をはく,corroborated by JMdict1370760/1266460.
+Calling-first titles and correct disclosure do not resolve this overlap.
+The other **seven directions are introductory/source-core Q ONLY**.
+Ordinary active-negative safety is **U for ALL9**;metadata retention is not approval.
+L001/L002 and all three A rulings/NAV changes are supported;L003 is qualified.
+呼気 does not make呼ぶ mean «выдыхать»;呼吸 is whole breathing.
+Wind/instrument transitivity and吹いて,吸って/呼んで,phone-action overlap,
+exact味 records and noun/prefix restrictions remain explicit.
+Three outside observations are limitations,not new guards/global pairs.
+Prior082姉→妹 U,091割→利 U and093's27 ordinary active-negative U remain unchanged.
+Broader ordinary suitability,modern necessity-frequency/global future uniqueness
+remain **UNVERIFIED**. One completed one-shot reviewer is idle,not running.
+
+The [post-initial-mutation EOL amendment](translation-batches/094-absorption-breathing-and-blowing-kanji-post-initial-mutation-eol-domain-amendment-001.json)
+preserves the original001 CRLF predictions and the real author-only RAW probe failure.
+Actual three new files already used LF as Git `eol=lf` requires;three NAV working
+CRLF payloads were unchanged. Only the predictive RAW domain changed in002,
+**after initial patches,before candidate checks/review**,not before mutation or
+as semantic re-review. Original eleven prospective returns are not fresh002 reads:
+323 printed typed/three NAV payloads have exact identity;three RU proposals only
+console-LF-normalized identity. Later CURRENT three RU/three changed word bodies/
+323 typed rows were genuinely freshly read in eleven separate author returns.
+
+The [qualified source record](translation-batches/094-absorption-breathing-and-blowing-kanji-reviewed-source.json)
+preserves2145 other baseline runtime RAWs/tracking rows.
+Qualified source checkpoint: **2154 runtime objects/1478 words/323 kanji/323 strokes**.
+Words671 N5/636 N4/97 N3/19 N2/55 unlabelled;kanji80 N5/166 N4/**75 N3**/2 N2.
+All166 frozen N4 kanji remain included;**292 of367 frozen N3 kanji remain**.
+Strict progress: **2154 reviewed-current/two excluded reviewed blocked-media drafts/
+6122 pending of8278;6124 runtime paths absent**,no partial.
+Version `012875a68bf96891`;checkpoint authority null/Ready false.
+These become accepted-main counts only after signed normal integration;fresh final
+serialized checks/public archives/signatures/four protected refs/exact-main CI/
+owner issue verification have separate receipts.
+Protected033 WORD空 stays excluded/runtime-absent/C2 UNVERIFIED,not media;
+accepted077 KANJI空 does not resolve it. No device/media/default/package/release authority.
+Continue095+ and **ALL remaining safe frozen levels/families**,not finite completion.
+
+## Previous qualified source milestone: batch093 transformation, simplicity, danger, origin, participation and hand-radical kanji
 
 Batch093 adds **nine complete Russian frozen N3 lessons,化/単/危/原/参/反/収/取/受,
 557 file lines**,and nine RAW-identical Japanese KanjiVG assets.

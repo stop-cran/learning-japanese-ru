@@ -11,7 +11,74 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current qualified source milestone: batch093
+## Current qualified source milestone: batch094
+
+Three complete Russian frozen N3 lessons,**吸/吹/呼,206 file lines**,
+three RAW-identical KanjiVG assets and three current word bodies/three
+**NAV-only standalone-glyph wrappers**:吸う→吸,吹く→吹,呼ぶ→呼.
+No visible prose,Japanese metadata,quiz array,old link or frozen level change;
+no new guard or removed direction. Frozen EN remains unchanged.
+
+The [actual whole review/path-only public projection](translation-batches/094-absorption-breathing-and-blowing-kanji-independent-review-001.json)
+cover18 whole teaching bodies,**10 EN/8 RU**:three primary pairs,five CURRENT
+context pairs,two EN-only comparisons,including all three changed words.
+It read92 whole official TEXT units:seven KANJIDIC/one Unicode/81 JMdict/three
+KanjiPedia,plus one whole header;323 CURRENT typed rows,nine directions,
+three L/three A,three NAV diffs/three outside LIMITS,the whole EOL amendment,
+four whole guidance files and three correct RU rubrics.
+**54 complete successful reading windows**;zero glyph pixels.
+323 metadata rows are not whole lessons or1478 fresh word-guard judgments.
+
+The original **10985-byte stdout/native-final report**,SHA256
+`bdb29b4f8b1c8d1f044fa3cc542d6392c64de35124783a80271b96f617da73f6`,
+is privately immutable,final LF included. Publicly only one absolute checkout
+root is replaced,with separate projection bytes/hash,not original-payload identity
+or a second review.59 terminal returns:57 successes/two reviewer delivery-size
+assertions12722/11684,not failed readings.56 successful reader shells contained
+57 helper invocations:opening gate;ranges shared one semicolon-chained shell,
+not two individually observed exit codes. Gate payloads are byte-identical.
+No unread window,truncation or nonterminal wait;seven author-only mechanical
+failures remain preserved separately from reviewer evidence.
+
+Actual **C1 source CLEAN/C2 bounded coverage-dependencies supported,
+introductory suitability QUALIFIED ONLY/C3 Russian CLEAN**.
+No necessary learner-text fix;the medium C2 negative-clearance qualification stays.
+**Seven introductory/source-core Q;N006吹→呼 and N008呼→吹 U**:
+whole KanjiPedia吹①/呼③ share exhalation,confirmed by JMdict1370760/1266460.
+Calling-first titles/disclosure do not erase it. **ALL9 ordinary active-negative
+safety U**;metadata retention is not guard approval.
+L001/L002/all three A/NAV supported;L003 qualified.
+Three outside LIMITS are not new guards/global pairs.
+Prior082姉→妹 U,091割→利 U and093's27 ordinary active-negative U remain unchanged.
+Broader ordinary suitability,necessity-frequency/global future uniqueness UNVERIFIED.
+One completed/idle one-shot reviewer,not running.
+
+The [explicit EOL amendment](translation-batches/094-absorption-breathing-and-blowing-kanji-post-initial-mutation-eol-domain-amendment-001.json)
+is **POST initial runtime mutation**,before candidate checks/review.
+Original001 CRLF predictions,original read receipts/signed semantic freeze and
+the failed author-only RAW probe remain immutable. Three actual new LF files
+already followed `eol=lf`;three NAV working CRLF bytes unchanged.
+002 changes predictive RAW domains only,not learner semantics or history.
+Original eleven prospective returns are not fresh002 reads;only printed typed/
+NAV exact identity and RU console-LF-normalized identity carry forward.
+Actual CURRENT three new RU/three changed words/323 typed rows were later freshly
+read in eleven author returns. Reviewer reading borrows none of those credits.
+
+Qualified source checkpoint: **2154 runtime/1478 words/323 kanji/323 strokes**;
+words671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/166 N4/**75 N3**/2 N2;all166 frozen N4 included,**292 N3 remain**.
+Strict statuses2154 reviewed-current/two excluded reviewed blocked-media drafts/
+6122 pending of8278;6124 runtime paths absent,no partial.
+Version `012875a68bf96891`;checkpoint null/Ready false.
+2145 other baseline RAWs/tracking rows preserved;all1478 word metadata/quiz arrays unchanged.
+Accepted-main counts require signed normal integration;fresh final serialized
+checks/public archives/signatures/four protected refs/exact-main CI/owner issue
+verification have separate receipts.
+Protected033 WORD空 stays excluded/C2 U/runtime-absent/not media;KANJI空 does not resolve it.
+No device/media/default/package/release approval;continue095+ and **ALL remaining
+safe frozen families**,not full-task completion.
+
+## Previous qualified source milestone: batch093
 
 Nine complete Russian frozen N3 lessons,**化/単/危/原/参/反/収/取/受,557 file lines**,
 nine RAW-identical KanjiVG assets and twelve current word bodies/twelve **NAV-only
