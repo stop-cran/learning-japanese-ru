@@ -11,7 +11,59 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current qualified source milestone: batch099
+## Current qualified source milestone: batch100
+
+Batch100 adds **four complete Russian frozen N3 lessons, 変/太/夫/失, 242 file lines**,
+and four RAW-identical Japanese KanjiVG assets. Thirteen whole current word bodies receive
+**NAV-only standalone-glyph wrappers** (丈夫→夫, 変→変, 変える→変, 変わる→変, 変化→変, 変更→変,
+大丈夫→夫, 大変→変, 太い→太, 太る→太, 太陽→太, 夫→夫, 失敗→失), planned in the signed intake;
+no navigation amendment was needed. All visible prose, Japanese metadata, quiz arrays, old links
+and frozen levels remain unchanged; no new guard or removed direction. Optional links to
+articles/kaeru-change-replace-and-return.md, articles/ayashii-and-related-words.md, kanji/妻.md
+and words/夫婦.md stay unwrapped because those files are EN-only. The signed semantic freeze
+recorded a prospective count of 2196 runtime objects in arithmetic error (actual 2192+4+4=2200);
+the erratum is disclosed in the candidate record, not rewritten, and has no semantic effect.
+Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The [actual whole independent review](translation-batches/100-change-thick-husband-and-loss-kanji-independent-review-001.json) (one reviewer) read **56 whole
+teaching bodies, 30 EN/26 CURRENT RU**: four primary pairs, 22 current context pairs and
+four EN-only comparisons (the two articles, kanji/妻.md, words/夫婦.md), including all thirteen
+changed words; **89 whole official TEXT units** (15 KANJIDIC, two Unicode, 68 JMdict, four
+visible KanjiPedia) plus one provider header; all 346 CURRENT typed rows, twelve original
+directions, four L/four A rulings, four outside LIMITS, thirteen exact NAV diffs, four whole
+guidance files and three RU rubrics — **63 complete windows** (the two long comparisons by
+complete line unions), 66 successful terminal commands, zero failures/truncations/waits,
+identical opening/closing gates, zero glyph pixels, zero web pages. The original **6278-byte
+stdout report**, SHA256 `36ab037cdd776352c6238f889b5158d7abcdba7f296ed50b11304315e131ea24`,
+is published verbatim with its final LF; the child/task native final is the identical
+6277-byte text without the terminal LF. Its Scope line says "5 EN-only comparisons"; the bound
+units are four, read in five windows (wording note, report not rewritten). No projection or
+second review.
+
+Actual verdicts: **C1 CLEAN** (four new lessons within bounded official evidence),
+**C2 UNVERIFIED** — all thirteen edits are glyph-only wrappers to the matching new cards, with
+unchanged prose/metadata, but ordinary active-negative quiz safety is not established for any
+direction — and **C3 CLEAN** (Russian comprehension of new lessons and wrapper readability; not
+native certification). Findings: none; optional: none. All **twelve directions are S-intro**
+(introductory/source-core comparison only, canonical author mapping Q) with ordinary safety
+**U**; metadata retention is not guard approval. All four L rulings SUPPORTED-intro and four A
+clarifications SUPPORTED-bounded; all thirteen NAV changes NAV-ONLY. Outside LIMITS record
+adjacency concerns, not guards: 化/変 shared «изменение» (disambiguated by the second gloss),
+大/太 size domain, 主/男/大 near 夫, 死/失 and 礼/失礼. The existing RU kanji/天.md describes
+夫's top stroke differently from the new 夫 lesson; this outside observation remains open,
+unresolved and not adjudicated in batch100.
+
+The [qualified source record](translation-batches/100-change-thick-husband-and-loss-kanji-reviewed-source.json) preserves 2179 other baseline runtime RAWs/tracking
+rows and all 1478 word metadata/quiz arrays. Qualified source checkpoint: **2200 runtime/
+1478 words/346 kanji/346 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled unchanged;
+kanji 80 N5/166 N4/**98 N3**/2 N2; **269 N3 remain**. Strict progress: **2200 reviewed-current/
+two excluded reviewed blocked-media drafts/6076 pending of 8278; 6078 runtime paths absent**.
+Version `0311e367192bec83`; checkpoint authority null/Ready false. Prior 082–099 U
+qualifications remain unchanged. Protected 033 WORD空 stays excluded/runtime-absent/not media.
+No device/media/default/package/release authority. Continue 101+ and **ALL remaining safe
+frozen levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch099
 
 Batch099 adds **four complete Russian frozen N3 lessons, 在/報/増/暗, 218 file lines**,
 and four RAW-identical Japanese KanjiVG assets. Four whole current word bodies receive
