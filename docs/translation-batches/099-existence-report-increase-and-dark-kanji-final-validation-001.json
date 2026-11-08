@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "batchId": "099-existence-report-increase-and-dark-kanji",
+  "reviewedCandidateCommit": "9b717d5faaf462f006366b56927cb02e93fb3cc2",
+  "contentVersion": "22dd52644a6a5394",
+  "runs": [
+    {
+      "command": [
+        "tools\\build_manifest.py"
+      ],
+      "startedAt": "2026-11-08T20:04:18.634799+00:00",
+      "completedAt": "2026-11-08T20:04:19.198657+00:00",
+      "seconds": 0.5619999999180436,
+      "returncode": 0,
+      "stdout": "manifest.json: 2192 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 22dd52644a6a5394\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "tools\\validate.py"
+      ],
+      "startedAt": "2026-11-08T20:04:19.231454+00:00",
+      "completedAt": "2026-11-08T20:04:27.834793+00:00",
+      "seconds": 8.593999999808148,
+      "returncode": 0,
+      "stdout": "0 error(s)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools",
+        "-p",
+        "test_*.py"
+      ],
+      "startedAt": "2026-11-08T20:04:27.859885+00:00",
+      "completedAt": "2026-11-08T20:05:22.272907+00:00",
+      "seconds": 54.406999999890104,
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 53.888s\n\nOK\n",
+      "environmentBoundary": "ExactownedNTFSfixtureTMPDIR/TMP/TEMP;emptyworkspaceremovedbeforebudget;noexistingcache/trust/globalchanges."
+    },
+    {
+      "command": [
+        "tools\\check_content_budget.py"
+      ],
+      "startedAt": "2026-11-08T20:05:22.321318+00:00",
+      "completedAt": "2026-11-08T20:05:24.081749+00:00",
+      "seconds": 1.7649999998975545,
+      "returncode": 0,
+      "stdout": "{'files': 2200, 'entries': 2209, 'retainedBytes': 6061442, 'inflatedBytes': 6079657, 'localZipBytes': 3067119, 'listeningTaskMediaBytes': 0}\n",
+      "stderr": ""
+    }
+  ],
+  "boundary": "FRESH_SERIALmanifest/validator/124tests/budgetAFTERplans/tracking/progress/actualONE6419byteoriginalreview/12S-intro/ALL12ordinaryU;runtime/manifestunchanged.Generatedreceiptfollowscommands;NOactivationapproval.",
+  "checkpointAuthority": null,
+  "fullTaskComplete": false,
+  "continueRequired": true
+}

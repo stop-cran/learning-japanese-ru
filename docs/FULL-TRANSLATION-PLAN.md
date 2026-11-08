@@ -1,6 +1,56 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch098 turns, cause, trouble and garden kanji
+## Current qualified source milestone: batch099 existence, report, increase and dark kanji
+
+Batch099 adds **four complete Russian frozen N3 lessons, 在/報/増/暗, 218 file lines**,
+and four RAW-identical Japanese KanjiVG assets. Four whole current word bodies receive
+**NAV-only standalone-glyph wrappers** (増える→増, 天気予報→報, 暗い→暗, 電報→報),
+planned in the signed intake; no navigation amendment was needed. All visible prose, Japanese metadata, quiz arrays, old links
+and frozen levels remain unchanged; no new guard or removed direction. The optional 存在 and
+報告 links stay unwrapped because words/存在.md and words/報告.md are EN-only. A frozen
+proposal key mislabelled "prior099" (meaning prior098) is disclosed in the candidate record,
+not rewritten. Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The [actual whole independent review](translation-batches/099-existence-report-increase-and-dark-kanji-independent-review-001.json) (one reviewer) read **44 whole
+teaching bodies, 23 EN/21 CURRENT RU**: four primary pairs, 17 current context pairs and
+two EN-only comparisons (words/報告.md, words/存在.md), including all four changed words;
+**89 whole official TEXT units** (21 KANJIDIC, two Unicode, 62 JMdict, four visible
+KanjiPedia) plus one provider header; all 342 CURRENT typed rows, twelve original directions,
+four L/four A rulings, four outside LIMITS, four exact NAV diffs, four whole guidance files and
+three RU rubrics — **57 complete windows**, 60 successful terminal commands, zero failures/
+truncations/waits, identical opening/closing gates, zero glyph pixels, zero web pages. The
+original **6419-byte stdout report**, SHA256
+`73b5975e595210095c2bbc70653870d01ba6c71c07a83b11ea693fbbd10f7394`, is published verbatim
+with its final LF; the child/task native final is the identical 6418-byte text without the
+terminal LF. No projection or second review.
+
+Actual verdicts: **C1 CLEAN** (four new lessons within bounded official evidence),
+**C2 UNVERIFIED** — all four edits are standalone link wrappers to valid targets, but ordinary
+active-negative quiz safety is not established for any direction, and the reviewer left
+words/暗い.md whole-file raw parity unverified because the helper compared different hash
+domains — and **C3 CLEAN** (Russian comprehension of new lessons and wrapper readability; not
+native certification). Findings: none confirmed; optional: none. The writer's post-review
+mechanical reconciliation (recorded in the review artifact, not reviewer approval) shows the
+暗い working copy is exactly the CRLF projection of the LF Git blobs before and after, whose
+56 lines differ only by the one wrapper. All **twelve directions are S-intro**
+(introductory/source-core comparison only, canonical author mapping Q) with **ordinary U**
+stated by the reviewer; metadata retention is not guard approval. All four L rulings and four
+A clarifications SUPPORTED within bounded scope; all four NAV changes NAV-ONLY. Outside LIMITS
+record overlap concerns, not guards: 有/在 «существовать» (inherited from EN), 報/告/伝
+«сообщ-» root (introduced by Russian titles), increase/add/many/layer and dark/colour/light/
+night adjacency.
+
+The [qualified source record](translation-batches/099-existence-report-increase-and-dark-kanji-reviewed-source.json) preserves 2180 other baseline runtime RAWs/tracking
+rows and all 1478 word metadata/quiz arrays. Qualified source checkpoint: **2192 runtime/
+1478 words/342 kanji/342 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled unchanged;
+kanji 80 N5/166 N4/**94 N3**/2 N2; **273 N3 remain**. Strict progress: **2192 reviewed-current/
+two excluded reviewed blocked-media drafts/6084 pending of 8278; 6086 runtime paths absent**.
+Version `22dd52644a6a5394`; checkpoint authority null/Ready false. Prior 082–098 U
+qualifications remain unchanged. Protected 033 WORD空 stays excluded/runtime-absent/not media.
+No device/media/default/package/release authority. Continue 100+ and **ALL remaining safe
+frozen levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch098 turns, cause, trouble and garden kanji
 
 Batch098 adds **four complete Russian frozen N3 lessons, 回/因/困/園, 226 file lines**,
 and four RAW-identical Japanese KanjiVG assets. Five whole current word bodies receive
