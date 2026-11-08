@@ -1,6 +1,72 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch078 home, places and everyday things kanji
+## Current qualified source milestone: batch079 people, work and feelings kanji
+
+Batch079 adds **23 complete Russian kanji lessons /1480 file lines:
+22 actual frozen N4 plus unchanged source-N3供**,and23 RAW-identical
+Japanese KanjiVG assets. Existing55 word bodies receive56 navigation wrappers:
+**53 navigation-only and two explicit semantic amendments,子供 and旅行**.
+The signed premutation amendment withdraws unsupported stronger spelling-policy/
+preference/frequency claims and theこども家庭庁 narrative illustration from子供;
+旅行 withdraws unsupported long/lonely/poetic/literary rankings consistently
+with旅. These claims are not disproved. Original lexical metadata,readings,
+grammatical Japanese example sentences and existing links persist;
+not every Japanese narrative fragment is unchanged.
+Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+Original intake,premutation adjudication/freeze and actual review remain immutable.
+
+The [actual whole review](translation-batches/079-people-work-and-feelings-kanji-independent-review-001.json)
+read **226 complete teaching bodies**:23 primary EN/RU pairs,85 current
+context EN/RU pairs,eight EN-only comparisons and two whole historical RU
+word bodies,子供/旅行. Official evidence is **351 whole units**:
+52 KANJIDIC records,nine Unicode rows,267 whole ordered JMdict entries and23
+whole visible KanjiPedia entry/actual-alt-label projections,not whole HTML
+or pixel inspection. It read202 current typed kanji rows,all69 individual
+directed proposals,14 adjudications,55 exact patches,four guidance files and
+three correct RU-root rubrics. Entire successful returned payloads and
+complete oversized line unions are bound,not markers alone.
+202 metadata rows are not202 whole lessons or1478 fresh word judgments.
+The **10984-byte detailed report is actual successful reviewer stdout**,
+SHA256 `23b72d223836aa6e4ea029cf925374201c694ec2b0b8e286047f169e7d3a47b3`;
+native/task final is a different52-byte generic summary.
+No native/stdout identity or second whole review is invented.
+
+**C1/C3: no significant issue established within assigned source-backed scope.
+C2: assigned dependencies,amendments and qualified core contrasts established,
+NOT whole C2 CLEAN.** All69 original directions retain only stated lexical-core
+scope,not universal disjointness. N005仕→土 retains service versus soil;
+the author's erroneous «visible土component» wording is explicitly not adopted:
+both complete EN/RU lessons already identify士 correctly.
+The [append-only disposition](translation-batches/079-people-work-and-feelings-kanji-review-qualification-dispositions-001.json)
+corrects that historical rationale without learner-byte changes.
+借/貸 opposite roles,色/白 category/subtype,旅/行/道 travel and貸/質 pawn-domain
+connections remain qualified. Outside69 flags for主/長,質す/問う,質/本/元もと,
+方/人/手/道,心/気/思/意,族/組 and品/物/質 are not new runtime exclusions.
+**Broader ordinary quiz/fallback suitability,modern necessity/frequency and
+global future uniqueness remain UNVERIFIED.** Rare/historical attestations
+do not establish ordinary productive practice;old guards retain only prior
+identity/support/limitations,not1478 fresh semantic judgments.
+
+The [qualified source record](translation-batches/079-people-work-and-feelings-kanji-reviewed-source.json)
+preserves1811 other baseline runtime RAWs/tracking rows and distinguishes
+53 navigation-only from two semantic updates. Qualified source checkpoint:
+**1912 runtime objects/1478 words/202 kanji/202 strokes**.
+Words remain671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/**108 N4**/12 N3/2 N2,leaving **58 actual frozen N4 kanji**.
+Strict progress: **1912 reviewed-current,two excluded reviewed blocked-media
+drafts,6364 pending of8278;6366 runtime paths absent**,no partial.
+Version `ae145971f3403a2b`;checkpoint authority null/Ready false.
+These become accepted-main counts only after signed normal integration;
+fresh final serialized checks,actual public archives/signatures/four
+protected refs/exact-main CI are separate publication evidence.
+Stroke/root-license identity is not pixel/native/media approval.
+Protected033 **word**空 remains excluded/runtime-absent/C2 UNVERIFIED,
+not media;accepted077 **kanji**空 does not resolve its caption blocker.
+No app/device/phone/IME/media/default/package/release authority.
+Continue080+ and ALL remaining safe frozen levels/families;
+neither this batch nor N4 word closure completes the finite target.
+
+## Previous qualified source milestone: batch078 home, places and everyday things kanji
 
 Batch078 adds **16 complete Russian kanji lessons /778 file lines,all actual
 frozen N4**,plus **16 RAW-identical Japanese KanjiVG assets**.

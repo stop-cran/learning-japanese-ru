@@ -11,6 +11,64 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The seventy-ninth full-target batch adds **23 complete Russian kanji lessons/
+1480 file lines:22 actual N4 plus unchanged source-N3供**,and23 RAW-identical
+Japanese KanjiVG assets. Existing55 words receive56 navigation wrappers:
+**53 navigation-only plus two explicit semantic amendments,子供 and旅行**.
+Signed premutation authority withdraws unsupported stronger spelling-policy/
+preference/frequency claims andこども家庭庁 narrative illustration in子供,
+and unsupported long/lonely/poetic/literary rankings in旅行 consistently with旅.
+Those claims are not disproved. Original lexical metadata,readings,grammatical
+Japanese example sentences and existing links persist;not every Japanese
+narrative fragment is unchanged. Frozen EN remains
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`;historical intake/freeze persist.
+
+The [actual whole review](translation-batches/079-people-work-and-feelings-kanji-independent-review-001.json)
+read **226 complete teaching bodies**:23 primary EN/RU pairs,85 current
+context EN/RU pairs,eight EN-only comparisons,two whole historical RU
+子供/旅行 bodies. It read **351 whole official units**:52 KANJIDIC records,
+nine Unicode rows,267 whole ordered JMdict entries and23 whole visible
+KanjiPedia entry/actual-alt-label projections,not whole HTML/pixels.
+It read202 current typed kanji rows,69 individual directed proposals,
+14 adjudications,55 exact patches,four guidance files and three correct
+RU-root rubrics. Entire successful payloads/complete oversized line unions
+are bound,not markers alone;202 metadata rows are not202 whole lessons
+or1478 fresh word-pool judgments. The **10984-byte detailed report is
+actual reviewer stdout**,SHA256
+`23b72d223836aa6e4ea029cf925374201c694ec2b0b8e286047f169e7d3a47b3`;
+native/task final is a different52-byte generic summary.
+No byte identity or second review is fabricated.
+
+**C1/C3: no significant issue established within assigned scope.
+C2: assigned dependencies,amendments and qualified core contrasts established,
+NOT whole C2 CLEAN.** All69 directions retain only stated lexical-core scope.
+For N005仕→土,the author «visible土component» wording is not adopted;
+the whole EN/RU lessons already correctly identify士.
+Its [append-only disposition](translation-batches/079-people-work-and-feelings-kanji-review-qualification-dispositions-001.json)
+changes no learner bytes. 借/貸 roles,色/白 category/subtype,旅/行/道 travel
+and貸/質 pawn-domain connections remain qualified,not universally disjoint.
+Outside69 overlap flags are not new pair judgments/runtime exclusions.
+**Broader ordinary quiz/fallback suitability,modern necessity/frequency and
+global future uniqueness remain UNVERIFIED.** Rare/historical attestations
+are not ordinary productive-practice approval;old guards retain prior
+identity/support/limits,not1478 fresh semantic judgments.
+
+Qualified source checkpoint: **1912 runtime objects/1478 words/
+202 kanji/202 strokes**. Words remain671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/**108 N4**/12 N3/2 N2,leaving **58 actual frozen N4 kanji**.
+Strict progress: **1912 reviewed-current,two excluded reviewed blocked-media
+drafts,6364 pending of8278;6366 runtime paths absent**,no partial.
+Version `ae145971f3403a2b`;checkpoint authority null/Ready false.
+1811 other baseline RAWs/tracking rows persist;53 NAV-only and two semantic
+updates are separate. Counts become accepted-main only after signed normal
+integration;fresh final checks,actual archives/signatures/four protected
+refs/exact-main CI are separate publication evidence.
+Stroke/root-license identity is not pixel/native/media approval.
+Protected033 **word**空 stays excluded/runtime-absent/C2 UNVERIFIED,not media;
+accepted077 **kanji**空 does not resolve it.
+No app/device/phone/IME/media/default/package/release authority.
+Continue080+ and ALL remaining safe frozen levels/families,not task completion.
+
 The seventy-eighth full-target batch adds **16 complete Russian kanji lessons/
 778 file lines,all actual frozen N4**,and16 RAW-identical Japanese KanjiVG
 assets. Existing54 complete word bodies receive55 exact navigation wrappers;
