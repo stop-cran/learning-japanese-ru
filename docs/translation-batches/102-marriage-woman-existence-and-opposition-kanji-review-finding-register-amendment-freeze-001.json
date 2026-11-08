@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "batch": "102-marriage-woman-existence-and-opposition-kanji",
+  "recordedAt": "2026-11-08T22:24:14.550898+00:00",
+  "originalCandidateCommit": "c199d4ca7073a14c6d8a286ba5e0c6410f30f7ae",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineSnapshot": "cef2c36a32956c819614f6923a743f2fd75d7164",
+  "originalActualReportSha256": "8a52d52d8576b1407fc2439069641dae84a1e79a561d91bb748c864f48a85b76",
+  "actualWholeIndependentReviews": 1,
+  "actualSuccessfulStdoutReportDeliveries": 1,
+  "actualFailedReportDeliveries": 0,
+  "originalReviewer": "b7413490-60f0-41a8-98b0-9e8cfd390d28",
+  "originalReviewerCompletedNotRunning": true,
+  "exactOriginalReportPath": "docs/translation-batches/102-marriage-woman-existence-and-opposition-kanji-independent-review-001.json",
+  "exactOriginalPublicReportRawSha256": "4c7f0cfa5913f131cde98e8183dbd64e0f8ae407bf34e2bc9c63e0c416fdde8c",
+  "historicalOriginalReportImmutable": true,
+  "finding": "102-F001",
+  "adoptedOptionalPolish": [
+    "婦lesson«одинизчленовсупружескойпары»(reviewerOptional)"
+  ],
+  "findingDisposition": "SUPPORTED;EXACT_BOUNDED_AMENDMENT_PROPOSED;FOCUSED_REVIEW_PENDING",
+  "preservedOriginalFacets": {
+    "C1": "C1 CLEAN: Within the four new lessons, readings, okurigana metadata, stroke counts, classical keys/numbers, compound readings and meanings agree with the bound evidence. Community N3 levels and source tags are preserved, not inferred from historical KANJIDIC JLPT numbers. Mnemonics are expressly non-etymological; no unsupported historical, frequency or necessity claim was established in the lesson prose. Selective tables do not purport to teach all retained kun readings.",
+    "C2": "C2 UNVERIFIED for unrestricted active-negative quiz safety; CLEAN for the inspected dependency/navigation changes: all new lesson links resolve within the bound candidate set; missing optional word pages remain plain Japanese with readings. The 12 directed comparisons are individually supported at introductory/source-core level, not as unrestricted quiz guards. Known pool overlaps below remain material fallback risks. Neither author metadata retention nor mechanical passes closes those risks.",
+    "C3": "C3 NEEDS FIX (minor): Russian explanations are otherwise understandable without English; Japanese examples retain readings and nav wrappers preserve visible prose. The register warning in 婦 uses an unexplained calque; see F001."
+  },
+  "exactChangedPaths": [
+    "kanji/婦.md"
+  ],
+  "exactPathChanges": [
+    {
+      "path": "kanji/婦.md",
+      "exactBeforeWorkingRawSha256": "423c12d9fdc8c560f52443dc931195eed5c74d743fabf45503593f39b94edee9",
+      "exactBeforeGitRawSha256": "423c12d9fdc8c560f52443dc931195eed5c74d743fabf45503593f39b94edee9",
+      "exactAfterWorkingRawSha256": "7a943100dfea4fdec4755c307b462928994ae894f16004b3c26e914d60bc31d9"
+    }
+  ],
+  "exactBeforeText": "  как устаревшее и потенциально чувствительное.\nВ 夫婦 (ふうふ) это жена как одна из двух сторон супружеской пары.\n",
+  "exactAfterText": "  как устаревшее и требующее осторожности из-за возможной оскорбительности.\nВ 夫婦 (ふうふ) это жена как один из членов супружеской пары.\n",
+  "sourceEvidence": "Actually read whole JMdict1496670(婦人) misc sensitive/dated term;reviewer102-F001(C3)found«потенциально чувствительное» an unexplained calque.Replacement mirrors existing accepted words/婦人.md wording«требующее осторожности из-за возможной оскорбительности»,still attributed to the cited dictionary(no blanketoffensiveness claim).Reviewer Optional polish adopted: «одна из двух сторон»->«один из членов» супружеской пары(夫婦 1583640).",
+  "authorFreezeRecordCorrection": "102-A002 frozen author wording '2857591 めおと couple (literary)' is UNSUPPORTED:actual returned JMdict misc is 'dated term'.Frozen record immutable/not rewritten;correction recorded here;めおと was never taught in lessons.",
+  "exactSourceProjectionMatches": [
+    {
+      "index": 35,
+      "wholeProjectionRawSha256": "c552d77d6bc938d5a5a2116b130eda51ab3282115067e8af01a8d53204740f3d"
+    }
+  ],
+  "exactOriginalPoolRawSha256": "31ab4817eef04b3add67f2bf4fd445173ba3da7473bce950bf419516782f7050",
+  "exactOriginalEvidenceBindingRawSha256": "b988159a75529637f08ae0a2e0016794c8e95d1701c3201f72239f0bcd8125e0",
+  "scope": "TWO_RU_LINES_IN_kanji/婦.md_ONLY;noJapanese/example/reading/title/metadata/direction/NAV/provider/stroke/levelchange;nohistoricalrecordrewrite.",
+  "proposedNewQualifiedPairJudgments": 0,
+  "originalDirectionDispositionCounts": {
+    "S-intro": 12
+  },
+  "originalQBoundary": "Actual12S-intro(canonicalQ)carryONLYactualoriginalscope;婦endpointrowidentitywillchange,notfreshsemanticjudgments.Registercorrectioncannotupgradeordinary/all-sense/readmode/fallbacksafety.",
+  "sourceAccepted": false,
+  "acceptedMainObjectsRemain": 2208,
+  "candidateObjectsRemain": 2216,
+  "protectedSkyBoundary": {
+    "path": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+    "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+    "status": "excluded C2UNVERIFIED;notmedia",
+    "runtimeWordRemainsAbsent": true,
+    "priorKanjiSkyBoundary": "Accepted077kanji空doesNOTresolveprotectedwordcaptionblocker/ordinaryquiz/media/defaultactivation."
+  },
+  "ordinaryActivationAuthorized": false,
+  "fullTaskComplete": false,
+  "continueRequired": true
+}
