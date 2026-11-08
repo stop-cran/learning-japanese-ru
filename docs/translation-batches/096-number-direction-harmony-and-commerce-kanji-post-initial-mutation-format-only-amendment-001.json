@@ -1,0 +1,810 @@
+{
+  "schemaVersion": 1,
+  "batch": "096-number-direction-harmony-and-commerce-kanji",
+  "recordedAt": "2026-11-08T15:08:51.848623+00:00",
+  "stage": "POST_INITIAL_RUNTIME_MUTATION_FORMAT_ONLY_AMENDMENT;BEFORE_CORRECTIVE_PATCH",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineSnapshot": "fc9d9ff002e1fe0208195a47ce4ed77f69d517c3",
+  "originalSignedSemanticFreezeCommit": "9052aaa9f3a39f9abf80248c896a81f793297f85",
+  "originalSignedSemanticFreezeWorkingRawSha256": "c187bc5fa61205b4bd790cb17e10c699701ef03b4ff32f966141c5d033c49d54",
+  "originalProposalWorkingRawSha256": "fd174d19ad263a22dfc2b232cf94a33aa4172bd4feb0cebd34473775eadbabc4",
+  "originalAuthoringReceiptRawSha256": "23cd910869781d4b5ec48370c54b18536eeefbab2237d23304e4975e3edebfc6",
+  "originalCandidateHelperRawSha256": "410ffb18847913886537017dffd5ec57f2e0361e74d01958def3148aaf29baab",
+  "actualInitialValidationFailureReceiptRawSha256": "cc16cb8f57db50cfb6bd78b5af3b34382ccbb69103aa8d2a1e83bbcb2b6617bf",
+  "initialManifestValidationStepRawSha256": "a69b26f7299b35c2b8af73e9734bca1cdf5be0c517bdfb77b6e112482cfb17fe",
+  "initialValidatorValidationStepRawSha256": "5e91d641570be5957fe310860cfc94c870a595d6af5e3bb74e0826bcccec0796",
+  "actualInitialManifestRuntimeObjects": 2170,
+  "actualInitialManifestContentVersion": "47a864f666bbaf1e",
+  "actualInitialValidatorExitCode": 1,
+  "actualInitialValidatorErrors": 4,
+  "actualInitialValidatorStdout": "kanji/号.md: body must contain these ## sections once each, in order: Значение и происхождение; Чтения; Частые слова; Примечания\nkanji/向.md: body must contain these ## sections once each, in order: Значение и происхождение; Чтения; Частые слова; Примечания\nkanji/和.md: body must contain these ## sections once each, in order: Значение и происхождение; Чтения; Частые слова; Примечания\nkanji/商.md: body must contain these ## sections once each, in order: Значение и происхождение; Чтения; Частые слова; Примечания\n4 error(s)\n",
+  "actualInitialTestsAndBudgetWereNotRun": true,
+  "diagnosis": "AUTHORformatbugdespiteexistingexplicitRUinstructions:fournewlessonsusedsynonymousbutnoncanonicalthird/fourthH2labels.ValidatoriscorrectandUNCHANGED;notJapanese/source/reviewerdefectoroptionalpolish.",
+  "canonicalHeadings": [
+    "## Значение и происхождение",
+    "## Чтения",
+    "## Частые слова",
+    "## Примечания"
+  ],
+  "exactFourLessonEightHeadingPatches": [
+    {
+      "path": "kanji/号.md",
+      "beforeWorkingRawSha256": "cdc2c5f16cd37a7a4f05f43f40cf4e9ff3fee5d662bea536766b6ef1e90d6d3a",
+      "afterWorkingRawSha256": "b2ad89e3fd00b810b8bc94300950e624224f81defb65fd21a1787f3b3ccd56bf",
+      "exactUnifiedDiff": "--- kanji/号.md (initial001)\n+++ kanji/号.md (format002)\n@@ -43,13 +43,13 @@\n | --- | --- | --- |\n | ゴウ | он | [番号](../words/番号.md) ばんごう — номер; [信号](../words/信号.md) しんごう — сигнал |\n \n-## Слова для знакомства\n+## Частые слова\n \n - [番号](../words/番号.md) ばんごう — номер; последовательность цифр для обозначения объекта\n - [信号](../words/信号.md) しんごう — сигнал; светофор\n - 電話番号 でんわばんごう — номер телефона\n \n-## На что обратить внимание\n+## Примечания\n \n Номер в 番号 обозначает объект и не обязательно сообщает количество.\n Например, номер телефона служит для связи с определённым абонентом,\n",
+      "exactHeadingEdits": [
+        {
+          "before": "## Слова для знакомства",
+          "after": "## Частые слова"
+        },
+        {
+          "before": "## На что обратить внимание",
+          "after": "## Примечания"
+        }
+      ],
+      "allOtherBytesJapaneseMetadataAndTeachingUnchanged": true
+    },
+    {
+      "path": "kanji/向.md",
+      "beforeWorkingRawSha256": "05eae93256b1eec7b814285417ffcbfc86beafd64a185fee3331461246559b99",
+      "afterWorkingRawSha256": "d0553ca31c3fb4c9adf2cb1b0eadd88723b8977d171cb6a36e46ad81967fa9dd",
+      "exactUnifiedDiff": "--- kanji/向.md (initial001)\n+++ kanji/向.md (format002)\n@@ -50,14 +50,14 @@\n | む.かう | кун | [向かう](../words/向かう.md) むかう — направиться |\n | コウ | он | 方向 ほうこう — направление |\n \n-## Слова для знакомства\n+## Частые слова\n \n - [向く](../words/向く.md) むく — быть обращённым; повернуться в какую-либо сторону\n - [向ける](../words/向ける.md) むける — направить; повернуть что-либо\n - [向かう](../words/向かう.md) むかう — направиться куда-либо\n - 方向 ほうこう — направление; ориентация\n \n-## На что обратить внимание\n+## Примечания\n \n 右を向く（みぎをむく）означает «повернуться направо».\n Само по себе это выражение не означает движение вправо:\n",
+      "exactHeadingEdits": [
+        {
+          "before": "## Слова для знакомства",
+          "after": "## Частые слова"
+        },
+        {
+          "before": "## На что обратить внимание",
+          "after": "## Примечания"
+        }
+      ],
+      "allOtherBytesJapaneseMetadataAndTeachingUnchanged": true
+    },
+    {
+      "path": "kanji/和.md",
+      "beforeWorkingRawSha256": "048309f6ada8860f6d95d6465a4f49c83728817394288c1cab8a04b55b6d2277",
+      "afterWorkingRawSha256": "ca3adc2351fcee805ac9429b1c94580214da42e73e3c88107b12e3650b04f63c",
+      "exactUnifiedDiff": "--- kanji/和.md (initial001)\n+++ kanji/和.md (format002)\n@@ -42,13 +42,13 @@\n | ワ | он | 平和 へいわ — мир; 和食 わしょく — японская еда |\n | なご.やか | кун | 和やか なごやか — доброжелательный; спокойный |\n \n-## Слова для знакомства\n+## Частые слова\n \n - 平和 へいわ — мир; согласие; гармония\n - 和食 わしょく — японская еда; японская кухня\n - 和やか なごやか — доброжелательный; спокойный; дружелюбный\n \n-## На что обратить внимание\n+## Примечания\n \n Словарный ключ — правый элемент 口,\n хотя слева заметен 禾.\n",
+      "exactHeadingEdits": [
+        {
+          "before": "## Слова для знакомства",
+          "after": "## Частые слова"
+        },
+        {
+          "before": "## На что обратить внимание",
+          "after": "## Примечания"
+        }
+      ],
+      "allOtherBytesJapaneseMetadataAndTeachingUnchanged": true
+    },
+    {
+      "path": "kanji/商.md",
+      "beforeWorkingRawSha256": "e43bb9406a26e3298b201b81c55dc8e18c592ed753485a8902b507cf193ca4ea",
+      "afterWorkingRawSha256": "79c54858ad9b85d25b71ad62cec793ca7464409aa61cd0e35ba8ef938abc0b35",
+      "exactUnifiedDiff": "--- kanji/商.md (initial001)\n+++ kanji/商.md (format002)\n@@ -42,12 +42,12 @@\n Оно встречается в 商う（あきなう）— «торговать; продавать».\n Вводная таблица сосредоточена на сочетаниях с ショウ.\n \n-## Слова для знакомства\n+## Частые слова\n \n - 商店 しょうてん — магазин; торговое предприятие\n - 商品 しょうひん — товары для продажи\n \n-## На что обратить внимание\n+## Примечания\n \n Сравните с [高](高.md):\n у обоих знаков есть верхние черты и обрамлённая нижняя часть,\n",
+      "exactHeadingEdits": [
+        {
+          "before": "## Слова для знакомства",
+          "after": "## Частые слова"
+        },
+        {
+          "before": "## На что обратить внимание",
+          "after": "## Примечания"
+        }
+      ],
+      "allOtherBytesJapaneseMetadataAndTeachingUnchanged": true
+    }
+  ],
+  "completeBoundAmendedProposals": {
+    "schemaVersion": 1,
+    "batch": "096-number-direction-harmony-and-commerce-kanji",
+    "recordedAt": "2026-11-08T15:08:51.818198+00:00",
+    "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "russianBaselineSnapshot": "fc9d9ff002e1fe0208195a47ce4ed77f69d517c3",
+    "newKanjiLessons": [
+      {
+        "id": "号",
+        "path": "kanji/号.md",
+        "metadata": {
+          "kanji": "号",
+          "title": "номер; обозначение; крик",
+          "jlpt": 3,
+          "tags": [
+            "jlpt-n3",
+            "grade-3",
+            "structure-unclassified"
+          ],
+          "strokes": 5,
+          "radical": "口",
+          "radicalNumber": 30,
+          "onyomi": [
+            "ゴウ"
+          ],
+          "kunyomi": [
+            "さけ.ぶ",
+            "よびな"
+          ],
+          "distractors": [
+            "台",
+            "写",
+            "古"
+          ]
+        },
+        "completeRussianPayloadUtf8": "---\nkanji: 号\ntitle: номер; обозначение; крик\njlpt: 3\ntags: [jlpt-n3, grade-3, structure-unclassified]\nstrokes: 5\nradical: 口\nradicalNumber: 30\nonyomi: [ゴウ]\nkunyomi: [さけ.ぶ, よびな]\ndistractors: [台, 写, 古]\n---\n\n# 号 — номер; обозначение; крик\n\n**Черты:** 5 · **Ключ (радикал):** 口 (№ 30) · **JLPT:** N3 (список сообщества)\n\n## Значение и происхождение\n\n号 связан с номером, именем или обозначением. У знака есть и значение\n«кричать, громко подавать голос».\n[番号](../words/番号.md)（ばんごう）— удобный исходный пример:\nэто номер, по которому можно определить объект.\n\n[信号](../words/信号.md)（しんごう）значит «сигнал»\nи также может обозначать светофор.\nВ [記号](../words/記号.md)（きごう）речь идёт об условном знаке или символе.\nЗначение, связанное с громким голосом, видно, например,\nв 号泣（ごうきゅう）— «громко плакать; рыдать».\nЭто не означает, что существительное 号（ごう）само по себе является глаголом «кричать».\n\n**Мнемоника современной формы:** можно представить, что верхняя\nкоробочка 口 выкрикивает номер над изогнутой нижней чертой.\nЭто зрительная история для запоминания, а не объяснение происхождения знака.\n\n## Чтения\n\nВводная таблица сосредоточена на сочетаниях с ゴウ.\nКунные чтения さけ.ぶ и よびな сохранены в метаданных;\nих наличие не меняет чтение слова 番号.\n\n| Чтение | Тип | Примеры слов |\n| --- | --- | --- |\n| ゴウ | он | [番号](../words/番号.md) ばんごう — номер; [信号](../words/信号.md) しんごう — сигнал |\n\n## Частые слова\n\n- [番号](../words/番号.md) ばんごう — номер; последовательность цифр для обозначения объекта\n- [信号](../words/信号.md) しんごう — сигнал; светофор\n- 電話番号 でんわばんごう — номер телефона\n\n## Примечания\n\nНомер в 番号 обозначает объект и не обязательно сообщает количество.\nНапример, номер телефона служит для связи с определённым абонентом,\nа не для подсчёта телефонов.\n\nВ [台](台.md) элемент 口 находится снизу, а в 号 — сверху.\nУ [古](古.md) коробочка тоже расположена под другим элементом.\nЭто сравнение формы, а не утверждение об одинаковом значении знаков.\n\nВ словарях у 号 также указано старое написание 號.\nЧисло черт в этой карточке относится к современному 号.\nСловарная статья 号（ごう）включает, в частности, номер выпуска,\nобозначение размера и имя или псевдоним;\nне сводите все употребления к подсчёту количества.\n\nИсточники: [KANJIDIC2](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project);\n[JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатьи 1482290, 1359240, 1443940, 1223210, 1284220 и 1284250;\n[漢字ペディア](https://www.kanjipedia.jp/kanji/0002339700).\n",
+        "proposedWorkingRawSha256": "b2ad89e3fd00b810b8bc94300950e624224f81defb65fd21a1787f3b3ccd56bf",
+        "proposedLfSha256": "b2ad89e3fd00b810b8bc94300950e624224f81defb65fd21a1787f3b3ccd56bf",
+        "frozenSourceGitRawSha256": "b0c22b17addc25dff8d4b1a1fceec356d64b72800162cec4228e0c7cb2dba529",
+        "wholePayloadLines": 71,
+        "actualGitTextEolAttributes": [
+          "kanji/号.md",
+          "text",
+          "set",
+          "kanji/号.md",
+          "eol",
+          "lf"
+        ],
+        "proposedNewMarkdownWorkingEol": "LF;actualrepositoryeol=lfverifiedbeforeproposal",
+        "allJapaneseMetadataExceptRussianTitlePreserved": true,
+        "privateProposalNotRuntimeMutation": true
+      },
+      {
+        "id": "向",
+        "path": "kanji/向.md",
+        "metadata": {
+          "kanji": "向",
+          "title": "быть обращённым; направляться",
+          "jlpt": 3,
+          "tags": [
+            "jlpt-n3",
+            "grade-3",
+            "structure-unclassified"
+          ],
+          "strokes": 6,
+          "radical": "口",
+          "radicalNumber": 30,
+          "onyomi": [
+            "コウ"
+          ],
+          "kunyomi": [
+            "む.く",
+            "む.い",
+            "-む.き",
+            "む.ける",
+            "-む.け",
+            "む.かう",
+            "む.かい",
+            "む.こう",
+            "む.こう-",
+            "むこ",
+            "むか.い"
+          ],
+          "distractors": [
+            "同",
+            "問",
+            "何"
+          ]
+        },
+        "completeRussianPayloadUtf8": "---\nkanji: 向\ntitle: быть обращённым; направляться\njlpt: 3\ntags: [jlpt-n3, grade-3, structure-unclassified]\nstrokes: 6\nradical: 口\nradicalNumber: 30\nonyomi: [コウ]\nkunyomi: [む.く, む.い, -む.き, む.ける, -む.け, む.かう, む.かい, む.こう, む.こう-, むこ, むか.い]\ndistractors: [同, 問, 何]\n---\n\n# 向 — быть обращённым; направляться\n\n**Черты:** 6 · **Ключ (радикал):** 口 (№ 30) · **JLPT:** N3 (список сообщества)\n\n## Значение и происхождение\n\n向 связан с направлением: в какую сторону что-либо обращено\nили куда кто-либо направляется.\n[向く](../words/向く.md)（むく）описывает поворот или положение лицом\nв определённую сторону, а [向かう](../words/向かう.md)（むかう）\nможет обозначать движение к цели.\n\nДля этих вводных значений удобно различать:\n\n- [向く](../words/向く.md) — повернуться или быть обращённым в какую-либо сторону;\n- [向ける](../words/向ける.md) — направить или повернуть что-либо;\n- [向かう](../words/向かう.md) — направиться куда-либо.\n\nЭто не полный перечень значений глаголов.\nНапример, 向く также может означать «подходить; годиться».\nВыбирайте смысл по целому слову и его окружению,\nа не только по общему кандзи.\n\n**Мнемоника современной формы:** можно представить, что через\nвнутреннее окошко 口 смотрят в определённую сторону.\nТакую ассоциацию подсказывает современное начертание;\nона не объясняет историческое происхождение знака.\n\n## Чтения\n\nТаблица показывает несколько чтений в конкретных словах.\nОстальные чтения из исходного списка сохранены в метаданных без сокращения.\n\n| Чтение | Тип | Примеры слов |\n| --- | --- | --- |\n| む.く | кун | [向く](../words/向く.md) むく — повернуться; быть обращённым |\n| む.かう | кун | [向かう](../words/向かう.md) むかう — направиться |\n| コウ | он | 方向 ほうこう — направление |\n\n## Частые слова\n\n- [向く](../words/向く.md) むく — быть обращённым; повернуться в какую-либо сторону\n- [向ける](../words/向ける.md) むける — направить; повернуть что-либо\n- [向かう](../words/向かう.md) むかう — направиться куда-либо\n- 方向 ほうこう — направление; ориентация\n\n## Примечания\n\n右を向く（みぎをむく）означает «повернуться направо».\nСамо по себе это выражение не означает движение вправо:\nможно повернуть голову, не меняя места.\n\nВ [向こう](../words/向こう.md)（むこう）— «там; по ту сторону» —\nпоследний гласный долгий. Это существительное, а не форма глагола 向かう.\nЗапись 向う встречается и у глагола むかう, и у существительного むこう:\nодного написания недостаточно, чтобы выбрать чтение.\n\nСравните с [同](同.md):\nу 向 над внешней рамкой есть короткая наклонная черта,\nа у 同 внутри рамки расположена горизонтальная черта.\nЭто подсказка для различения формы.\n\nИсточники: [KANJIDIC2](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project);\n[JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатьи 1277080, 1277100, 1604800, 1516990 и 1277140;\n[漢字ペディア](https://www.kanjipedia.jp/kanji/0002159800).\n",
+        "proposedWorkingRawSha256": "d0553ca31c3fb4c9adf2cb1b0eadd88723b8977d171cb6a36e46ad81967fa9dd",
+        "proposedLfSha256": "d0553ca31c3fb4c9adf2cb1b0eadd88723b8977d171cb6a36e46ad81967fa9dd",
+        "frozenSourceGitRawSha256": "e39b688df122de304fe6e59c241cb44ceb599c31d710222780e83d8f80816f14",
+        "wholePayloadLines": 79,
+        "actualGitTextEolAttributes": [
+          "kanji/向.md",
+          "text",
+          "set",
+          "kanji/向.md",
+          "eol",
+          "lf"
+        ],
+        "proposedNewMarkdownWorkingEol": "LF;actualrepositoryeol=lfverifiedbeforeproposal",
+        "allJapaneseMetadataExceptRussianTitlePreserved": true,
+        "privateProposalNotRuntimeMutation": true
+      },
+      {
+        "id": "和",
+        "path": "kanji/和.md",
+        "metadata": {
+          "kanji": "和",
+          "title": "гармония; японский стиль",
+          "jlpt": 3,
+          "tags": [
+            "jlpt-n3",
+            "grade-3",
+            "structure-unclassified"
+          ],
+          "strokes": 8,
+          "radical": "口",
+          "radicalNumber": 30,
+          "onyomi": [
+            "ワ",
+            "オ",
+            "カ"
+          ],
+          "kunyomi": [
+            "やわ.らぐ",
+            "やわ.らげる",
+            "なご.む",
+            "なご.やか",
+            "あ.える"
+          ],
+          "distractors": [
+            "私",
+            "秋",
+            "味"
+          ]
+        },
+        "completeRussianPayloadUtf8": "---\nkanji: 和\ntitle: гармония; японский стиль\njlpt: 3\ntags: [jlpt-n3, grade-3, structure-unclassified]\nstrokes: 8\nradical: 口\nradicalNumber: 30\nonyomi: [ワ, オ, カ]\nkunyomi: [やわ.らぐ, やわ.らげる, なご.む, なご.やか, あ.える]\ndistractors: [私, 秋, 味]\n---\n\n# 和 — гармония; японский стиль\n\n**Черты:** 8 · **Ключ (радикал):** 口 (№ 30) · **JLPT:** N3 (список сообщества)\n\n## Значение и происхождение\n\n和 может выражать гармонию, согласие или мир:\nнапример, 平和（へいわ）— «мир; согласие».\nЗдесь «мир» связан с отсутствием вражды, а не со значением «весь мир».\n\nДругое употребление — указание на Японию или японский стиль.\nВ 和食（わしょく）речь идёт о японской еде, японской кухне.\nЭто не «мирная еда»:\nзначение «японский» нельзя механически заменять значением «гармоничный».\n\n**Мнемоника современной формы:** можно представить, что левый\nэлемент 禾 и правый 口 удобно расположились рядом — в гармонии.\nЭто зрительная ассоциация, а не объяснение образования кандзи.\n\n## Чтения\n\nВводная таблица выделяет ワ и なご.やか.\nДругие чтения исходной карточки сохранены в метаданных.\nЭта таблица — выборка, а не все словарные чтения знака;\nона не позволяет произвольно выбирать чтение слова.\n\n| Чтение | Тип | Примеры слов |\n| --- | --- | --- |\n| ワ | он | 平和 へいわ — мир; 和食 わしょく — японская еда |\n| なご.やか | кун | 和やか なごやか — доброжелательный; спокойный |\n\n## Частые слова\n\n- 平和 へいわ — мир; согласие; гармония\n- 和食 わしょく — японская еда; японская кухня\n- 和やか なごやか — доброжелательный; спокойный; дружелюбный\n\n## Примечания\n\nСловарный ключ — правый элемент 口,\nхотя слева заметен 禾.\nУ [私](私.md) и [秋](秋.md) слева тоже находится 禾:\nразличайте правые части этих знаков.\nУ [味](味.md), напротив, 口 находится слева.\n\n和やか — な-прилагательное:\nперед существительным требуется な.\n和やかな会話（なごやかなかいわ）—\n«беседа в дружелюбной атмосфере».\n\nЕсть и другие значения, которые не охватывает подсказка «гармония».\nНапример, в математике 和（わ）означает «сумма».\nНужное значение определяется словом и контекстом;\nоно не выводится только из мнемоники.\n\nИсточники: [KANJIDIC2](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project);\n[JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатьи 1508070, 1562130, 1561940 и 1561920;\n[漢字ペディア](https://www.kanjipedia.jp/kanji/0007398500).\n",
+        "proposedWorkingRawSha256": "ca3adc2351fcee805ac9429b1c94580214da42e73e3c88107b12e3650b04f63c",
+        "proposedLfSha256": "ca3adc2351fcee805ac9429b1c94580214da42e73e3c88107b12e3650b04f63c",
+        "frozenSourceGitRawSha256": "e8952dbf74ce8df9caf82f785210455dbf55204d68e0cc3d9d6681f64bcb7581",
+        "wholePayloadLines": 72,
+        "actualGitTextEolAttributes": [
+          "kanji/和.md",
+          "text",
+          "set",
+          "kanji/和.md",
+          "eol",
+          "lf"
+        ],
+        "proposedNewMarkdownWorkingEol": "LF;actualrepositoryeol=lfverifiedbeforeproposal",
+        "allJapaneseMetadataExceptRussianTitlePreserved": true,
+        "privateProposalNotRuntimeMutation": true
+      },
+      {
+        "id": "商",
+        "path": "kanji/商.md",
+        "metadata": {
+          "kanji": "商",
+          "title": "торговля",
+          "jlpt": 3,
+          "tags": [
+            "jlpt-n3",
+            "grade-3",
+            "structure-unclassified"
+          ],
+          "strokes": 11,
+          "radical": "口",
+          "radicalNumber": 30,
+          "onyomi": [
+            "ショウ"
+          ],
+          "kunyomi": [
+            "あきな.う"
+          ],
+          "distractors": [
+            "高",
+            "南",
+            "同"
+          ]
+        },
+        "completeRussianPayloadUtf8": "---\nkanji: 商\ntitle: торговля\njlpt: 3\ntags: [jlpt-n3, grade-3, structure-unclassified]\nstrokes: 11\nradical: 口\nradicalNumber: 30\nonyomi: [ショウ]\nkunyomi: [あきな.う]\ndistractors: [高, 南, 同]\n---\n\n# 商 — торговля\n\n**Черты:** 11 · **Ключ (радикал):** 口 (№ 30) · **JLPT:** N3 (список сообщества)\n\n## Значение и происхождение\n\n商 связан с торговлей и продажей.\n商店（しょうてん）— магазин, торговое предприятие;\n商品（しょうひん）— товары, которые продают.\nКандзи помогает связать торговое дело и его товары,\nно сам по себе не является универсальной заменой слову «магазин».\n\nВ этих примерах 商店 называет торговое предприятие,\nа 商品 — то, что продаётся.\nНе считайте, что каждое слово с 商 обязательно обозначает помещение магазина.\n\n**Мнемоника современной формы:** можно представить магазин под верхними\nчертами, а над маленьким нижним 口 — выставленные товары.\nЭто придуманная зрительная подсказка,\nа не историческое объяснение начертания.\n\n## Чтения\n\n| Чтение | Тип | Примеры слов |\n| --- | --- | --- |\n| ショウ | он | 商店 しょうてん — магазин; 商品 しょうひん — товары |\n\nКунное чтение あきな.う сохранено в метаданных.\nОно встречается в 商う（あきなう）— «торговать; продавать».\nВводная таблица сосредоточена на сочетаниях с ショウ.\n\n## Частые слова\n\n- 商店 しょうてん — магазин; торговое предприятие\n- 商品 しょうひん — товары для продажи\n\n## Примечания\n\nСравните с [高](高.md):\nу обоих знаков есть верхние черты и обрамлённая нижняя часть,\nно внутренние черты различаются.\n[南](南.md) и [同](同.md) здесь тоже полезны для сравнения формы;\nэто не означает, что они обозначают торговлю.\n\nЗначения 商 не ограничиваются торговлей.\nНапример, в математике 商（しょう）— «частное», результат деления.\nПоэтому один кандзи или его чтение ショウ\nне гарантирует, что в тексте говорится о магазине или продаже.\nСмотрите на целое слово и контекст.\n\nИсточники: [KANJIDIC2](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project);\n[JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатьи 1347180, 1347310, 1346570 и 1346590;\n[漢字ペディア](https://www.kanjipedia.jp/kanji/0003391000).\n",
+        "proposedWorkingRawSha256": "79c54858ad9b85d25b71ad62cec793ca7464409aa61cd0e35ba8ef938abc0b35",
+        "proposedLfSha256": "79c54858ad9b85d25b71ad62cec793ca7464409aa61cd0e35ba8ef938abc0b35",
+        "frozenSourceGitRawSha256": "b8b17afe222aeba0842e8dc9ed7ed001a4c9a6c0b6e17f0197d241a5a7988872",
+        "wholePayloadLines": 67,
+        "actualGitTextEolAttributes": [
+          "kanji/商.md",
+          "text",
+          "set",
+          "kanji/商.md",
+          "eol",
+          "lf"
+        ],
+        "proposedNewMarkdownWorkingEol": "LF;actualrepositoryeol=lfverifiedbeforeproposal",
+        "allJapaneseMetadataExceptRussianTitlePreserved": true,
+        "privateProposalNotRuntimeMutation": true
+      }
+    ],
+    "existingWordNavigation": [
+      {
+        "path": "words/信号.md",
+        "metadata": {
+          "word": "信号",
+          "reading": "しんごう",
+          "title": "сигнал; светофор",
+          "jlpt": 3,
+          "type": "kango",
+          "kanji": [
+            "信",
+            "号"
+          ],
+          "tags": [
+            "kango",
+            "noun",
+            "traffic",
+            "communication"
+          ]
+        },
+        "beforeWorkingRawSha256": "29c9bff2eb23837ebeaecc572ffce65be5583acafd4b311055df7f078f197434",
+        "beforeGitRawSha256": "746cd6691a94d705172bc82c1b544532b4391b69b9421d42266d26e85aef564a",
+        "afterWorkingRawSha256": "7584de9d7c8d44f47c3513c8a21065b33945a4148679afe75f56bdfe1eea1f71",
+        "completeProposedRussianPayloadUtf8": "---\r\nword: 信号\r\nreading: しんごう\r\ntitle: сигнал; светофор\r\njlpt: 3\r\ntype: kango\r\nkanji: [信, 号]\r\ntags: [kango, noun, traffic, communication]\r\n---\r\n\r\n# 信号（しんごう）— сигнал; светофор\r\n\r\n## Значение\r\n\r\n信号 — передающий информацию сигнал, а также светофор или его сигнал.\r\nПолезные сочетания с этим существительным:\r\n信号を送る（しんごうをおくる）— «передавать сигнал»;\r\n信号が変わる（しんごうがかわる）— «сигнал светофора меняется».\r\n\r\n- 赤信号で車が止まりました。\r\n  （あかしんごうでくるまがとまりました。）— Машина остановилась на красный сигнал светофора.\r\n- この装置は光で信号を送ります。\r\n  （このそうちはひかりでしんごうをおくります。）— Это устройство передаёт сигналы с помощью света.\r\n\r\nВо втором примере で указывает на средство передачи информации.\r\nСигнал не обязательно является дорожным знаком или цветной лампой.\r\n\r\n## Как сочетаются кандзи\r\n\r\n[信](../kanji/信.md) связан с сообщением или связью, [号](../kanji/号.md) — со знаком или обозначением.\r\nВместе они дают образ знака, передающего информацию.\r\nЧтение — シン + ゴウ.\r\n\r\n## Синонимы и антонимы\r\n\r\n[合図](合図.md)（あいず）— сигнал, часто для согласования действий.\r\nЗначения пересекаются, но электронный сигнал естественно назвать 信号.\r\n標識（ひょうしき）— знак или указатель, например дорожный.\r\n\r\n## Оттенки значения\r\n\r\nПри объяснении дороги 次の信号（つぎのしんごう）может означать «следующий светофор».\r\nВ описании электроники то же существительное может относиться к информации, передаваемой по проводу.\r\nВыбирайте перевод по контексту: «светофор» — не единственное значение.\r\nОбщего антонима нет.\r\n\r\nСловарь: [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\r\nстатья 1359240, значения 1–2.\r\n",
+        "navigationOnly": true,
+        "exactSemanticSectionEdits": [],
+        "exactEdits": [
+          {
+            "kanji": "号",
+            "section": "Как сочетаются кандзи",
+            "linkLabel": "号",
+            "beforeLine": "[信](../kanji/信.md) связан с сообщением или связью, 号 — со знаком или обозначением.\r",
+            "afterLine": "[信](../kanji/信.md) связан с сообщением или связью, [号](../kanji/号.md) — со знаком или обозначением.\r",
+            "exactCharacterOffsetWithinLine": 51,
+            "exactOnlyWrapperChange": "Wrap existing standalone glyph only, including inline prose.",
+            "existingMarkdownSpansProtected": true
+          }
+        ],
+        "visibleProseJapaneseMetadataQuizArraysAndOldLinksUnchanged": true
+      },
+      {
+        "path": "words/向かう.md",
+        "metadata": {
+          "word": "向かう",
+          "reading": "むかう",
+          "title": "быть обращённым; направляться",
+          "jlpt": 4,
+          "type": "wago",
+          "kanji": [
+            "向"
+          ],
+          "tags": [
+            "verb",
+            "wago",
+            "intransitive"
+          ],
+          "quiz_exclusions": [
+            "向ける",
+            "進む",
+            "行く",
+            "受ける"
+          ]
+        },
+        "beforeWorkingRawSha256": "4f381b47950d8d0e6825eab1802b4ecabb40dee6177ee66b8bc78d64529e1c91",
+        "beforeGitRawSha256": "4f381b47950d8d0e6825eab1802b4ecabb40dee6177ee66b8bc78d64529e1c91",
+        "afterWorkingRawSha256": "9724589f99662476b6478fd11457fa3821aac99786460259d6798b45cb3ec0af",
+        "completeProposedRussianPayloadUtf8": "---\nword: 向かう\nreading: むかう\ntitle: быть обращённым; направляться\njlpt: 4\ntype: wago\nkanji: [向]\ntags: [verb, wago, intransitive]\nquiz_exclusions: [向ける, 進む, 行く, 受ける]\n---\n\n# 向かう（むかう） — быть обращённым; направляться\n\n## Значение\n\n向かう — быть обращённым к чему-либо\nили двигаться в направлении места назначения.\nПо окружающему действию понятно,\nостаётся ли человек на месте или куда-либо направляется.\n\n- 窓に向かって座りました。（まどにむかってすわりました。）— Я сел лицом к окну.\n- 今、駅に向かっています。（いま、えきにむかっています。）— Сейчас я направляюсь к станции.\n\nЦель или направление обычно отмечается に либо へ.\nЭто непереходный глагол годан:\n向かいます（むかいます）, 向かわない（むかわない）,\n向かって（むかって）, 向かった（むかった）.\n\n## Как сочетаются кандзи\n\n向う — словарный вариант записи того же глагола むかう.\nВ другом контексте 向う может передавать\n[向こう](向こう.md)（むこう）— «там; по ту сторону»,\nто есть другое слово.\nОдного написания недостаточно, чтобы определить чтение.\n\n[向](../kanji/向.md) связан с обращённостью или направлением\nи здесь передаёт む.\nЗаписанное каной かう завершает исконный глагол.\nФорма на て образуется по модели う → って,\nа не по модели итидан.\n\n## Синонимы и антонимы\n\n行く（いく）, «идти; ехать», шире:\nсамо по себе оно не выделяет направленность к цели.\n向ける（むける）— переходный глагол,\nкогда кто-либо поворачивает или направляет что-либо к цели.\n\n## Оттенки значения\n\nДвижение к месту ещё не означает прибытия.\n駅に向かっています сообщает, что человек находится в пути к станции;\n駅に着きました（えきにつきました）—\nчто он уже добрался до неё.\n向かう — глагол обращённости или движения,\nа не существительное 顔 со значением части тела «лицо».\n\nСловарь: [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатья 1604800, значения 1–2.\n",
+        "navigationOnly": true,
+        "exactSemanticSectionEdits": [],
+        "exactEdits": [
+          {
+            "kanji": "向",
+            "section": "Как сочетаются кандзи",
+            "linkLabel": "向",
+            "beforeLine": "向 связан с обращённостью или направлением",
+            "afterLine": "[向](../kanji/向.md) связан с обращённостью или направлением",
+            "exactCharacterOffsetWithinLine": 0,
+            "exactOnlyWrapperChange": "Wrap existing standalone glyph only, including inline prose.",
+            "existingMarkdownSpansProtected": true
+          }
+        ],
+        "visibleProseJapaneseMetadataQuizArraysAndOldLinksUnchanged": true
+      },
+      {
+        "path": "words/向く.md",
+        "metadata": {
+          "word": "向く",
+          "reading": "むく",
+          "title": "поворачиваться; быть обращённым",
+          "jlpt": 3,
+          "type": "wago",
+          "kanji": [
+            "向"
+          ],
+          "tags": [
+            "wago",
+            "verb",
+            "direction"
+          ],
+          "quiz_exclusions": [
+            "向かう",
+            "対する",
+            "合う",
+            "適当",
+            "格好",
+            "いい",
+            "良い",
+            "結構",
+            "進む",
+            "行く",
+            "受ける"
+          ]
+        },
+        "beforeWorkingRawSha256": "3ec5c07816a3e899c939f0f66b3e7cf5c36bd48401c09996fe2c8025c0cabe15",
+        "beforeGitRawSha256": "3ec5c07816a3e899c939f0f66b3e7cf5c36bd48401c09996fe2c8025c0cabe15",
+        "afterWorkingRawSha256": "78b5f711bf229f733f948cb1e7a51da007a7b6e088f9e674feeb03ca591e571c",
+        "completeProposedRussianPayloadUtf8": "---\nword: 向く\nreading: むく\ntitle: поворачиваться; быть обращённым\njlpt: 3\ntype: wago\nkanji: [向]\ntags: [wago, verb, direction]\nquiz_exclusions: [向かう, 対する, 合う, 適当, 格好, いい, 良い, 結構, 進む, 行く, 受ける]\n---\n\n# 向く（むく） — поворачиваться; быть обращённым\n\n## Значение\n\n向く описывает поворот или обращённость в некоторую сторону.\nНаправление может отмечаться を:\n右を向く（みぎをむく）—\nповернуться направо.\n\n- 少し右を向いてください。（すこしみぎをむいてください。）— Повернитесь, пожалуйста, немного вправо.\n\nСлово описывает и сохраняющуюся ориентацию:\n\n- この窓は南を向いています。（このまどはみなみをむいています。）— Это окно выходит на юг.\n\nЗапоминайте формы 向きます（むきます）,\n向いた（むいた）, 向いて（むいて）.\nЭто годан:\nотрицательная форма — 向かない（むかない）,\nа не форма по модели итидан.\n\n## Как сочетаются кандзи\n\n[向](../kanji/向.md) связан с направлением,\nа く завершает исконный глагол.\nТот же кандзи входит в 向ける（むける）,\nно это родственный глагол,\nа не изменённая форма 向く.\n\n## Синонимы и антонимы\n\n[向ける](向ける.md) явно описывает направление чего-либо:\n顔を右に向ける（かおをみぎにむける）—\nповернуть лицо направо.\nСравните лицо как объект и правую сторону как направление\nс конструкцией 右を向く.\n\n[向かう](向かう.md)（むかう）может означать\nдвигаться к месту назначения.\nОдин только поворот лицом куда-либо\nне означает, что туда отправились.\n\n## Оттенки значения\n\nСловарь допускает у 向く переходные и непереходные употребления.\nЗапоминайте конкретные японские модели,\nа не подгоняйте все случаи под один тип русского дополнения.\nЕщё одно значение — подходить для чего-либо.\nВ этой статье основное внимание уделено физическому направлению,\nа не пригодности.\n\nСловарь: [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатьи 1277080（向く, особенно значения 1–2）,\n1277100（向ける）, 1604800（向かう）.\n",
+        "navigationOnly": true,
+        "exactSemanticSectionEdits": [],
+        "exactEdits": [
+          {
+            "kanji": "向",
+            "section": "Как сочетаются кандзи",
+            "linkLabel": "向",
+            "beforeLine": "向 связан с направлением,",
+            "afterLine": "[向](../kanji/向.md) связан с направлением,",
+            "exactCharacterOffsetWithinLine": 0,
+            "exactOnlyWrapperChange": "Wrap existing standalone glyph only, including inline prose.",
+            "existingMarkdownSpansProtected": true
+          }
+        ],
+        "visibleProseJapaneseMetadataQuizArraysAndOldLinksUnchanged": true
+      },
+      {
+        "path": "words/向ける.md",
+        "metadata": {
+          "word": "向ける",
+          "reading": "むける",
+          "title": "поворачивать; направлять",
+          "jlpt": 3,
+          "type": "wago",
+          "kanji": [
+            "向"
+          ],
+          "tags": [
+            "wago",
+            "transitive-verb",
+            "direction"
+          ],
+          "quiz_exclusions": [
+            "向く",
+            "送る",
+            "届ける",
+            "進む",
+            "行く",
+            "対する",
+            "出す",
+            "受ける"
+          ]
+        },
+        "beforeWorkingRawSha256": "6a30006048964afeee3bd82584d32c07aeed249aa5bfcad8bc485ae33956af75",
+        "beforeGitRawSha256": "6a30006048964afeee3bd82584d32c07aeed249aa5bfcad8bc485ae33956af75",
+        "afterWorkingRawSha256": "918d023a2c44b0f992091a55ecb8f6fb96eef5a50e654e9471d0696ee35aab48",
+        "completeProposedRussianPayloadUtf8": "---\nword: 向ける\nreading: むける\ntitle: поворачивать; направлять\njlpt: 3\ntype: wago\nkanji: [向]\ntags: [wago, transitive-verb, direction]\nquiz_exclusions: [向く, 送る, 届ける, 進む, 行く, 対する, 出す, 受ける]\n---\n\n# 向ける（むける） — поворачивать; направлять\n\n## Значение\n\n向ける — переходный глагол итидан:\nповорачивать, направлять или нацеливать что-либо.\nПолезная модель:\n**предмет を + цель に向ける**.\n\n- カメラを山に向けました。（カメラをやまにむけました。）— Я направил фотоаппарат на гору.\n- 彼女は窓の方に顔を向けました。（かのじょはまどのほうにかおをむけました。）— Она повернула лицо к окну.\n\nОбъект — то, чьё направление меняется,\nа не место назначения.\nПолезные формы: 向けます, 向けて, 向けない.\n\n## Как сочетаются кандзи\n\n[向](../kanji/向.md) связан с обращённостью или направлением.\nЗдесь знак передаёт む,\nа ける завершает исконный глагол.\nРодственное слово —\n[向く](向く.md)（むく）, «поворачиваться; быть обращённым».\n\n## Синонимы и антонимы\n\nСравните 顔を向ける — «повернуть лицо» —\nи 顔がこちらを向いている\n（かおがこちらをむいている）— «лицо обращено сюда».\nВ первом случае лицо явно оформлено как объект.\nそらす, «отвести; отвернуть»,\nпротивопоставляется направлению взгляда к чему-либо.\n\n## Оттенки значения\n\nНаправление бывает переносным:\n問題に注意を向ける（もんだいにちゅういをむける）—\nобратить внимание на проблему.\nВ этом выражении никакой физический предмет не вращается.\nСледите за объектом с を и целью с に,\nа не переводите 向ける неопределённым «повернуть»\nбез указания того, что и куда направляют.\n\nСловарь: [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатья 1277100, значение 1.\n",
+        "navigationOnly": true,
+        "exactSemanticSectionEdits": [],
+        "exactEdits": [
+          {
+            "kanji": "向",
+            "section": "Как сочетаются кандзи",
+            "linkLabel": "向",
+            "beforeLine": "向 связан с обращённостью или направлением.",
+            "afterLine": "[向](../kanji/向.md) связан с обращённостью или направлением.",
+            "exactCharacterOffsetWithinLine": 0,
+            "exactOnlyWrapperChange": "Wrap existing standalone glyph only, including inline prose.",
+            "existingMarkdownSpansProtected": true
+          }
+        ],
+        "visibleProseJapaneseMetadataQuizArraysAndOldLinksUnchanged": true
+      },
+      {
+        "path": "words/向こう.md",
+        "metadata": {
+          "word": "向こう",
+          "reading": "むこう",
+          "title": "там; по ту сторону",
+          "jlpt": 5,
+          "type": "wago",
+          "kanji": [
+            "向"
+          ],
+          "tags": [
+            "wago",
+            "noun",
+            "position"
+          ],
+          "quiz_exclusions": [
+            "こちら",
+            "そちら",
+            "そっち",
+            "あちら",
+            "あっち",
+            "そこ",
+            "あそこ",
+            "他人",
+            "ほか",
+            "他"
+          ]
+        },
+        "beforeWorkingRawSha256": "230e4235a91b1f07e7665c24cdd96ac137daab157180d2387b77ace292b833ba",
+        "beforeGitRawSha256": "cbf9e48f3df23c5d148d111da2998e11e7358d4a8d65835163dfc03c5cc018fe",
+        "afterWorkingRawSha256": "09060cdc8f0242ece2d15bc3cb49b08a251f774e8b0bd01eae1b85437ab4183e",
+        "completeProposedRussianPayloadUtf8": "---\r\nword: 向こう\r\nreading: むこう\r\ntitle: там; по ту сторону\r\njlpt: 5\r\ntype: wago\r\nkanji: [向]\r\ntags: [wago, noun, position]\r\nquiz_exclusions: [こちら, そちら, そっち, あちら, あっち, そこ, あそこ, 他人, ほか, 他]\r\n---\r\n\r\n# 向こう（むこう）— там; по ту сторону\r\n\r\n## Значение\r\n\r\n向こう называет дальнюю или противоположную сторону либо место «там».\r\nЭто существительное места.\r\n\r\n- 川の向こうに学校があります。（かわのむこうにがっこうがあります。）— По ту сторону реки находится школа.\r\n- 向こうで少し待ちましょう。（むこうですこしまちましょう。）— Давайте немного подождём там.\r\n\r\nВ модели «существительное + の向こう» именно существительное перед の向こう\r\nназывает ориентир между говорящим и дальней стороной.\r\nНапример, в 川の向こう этот ориентир — река.\r\nに отмечает местонахождение, а で — место действия.\r\n\r\n## Как сочетаются кандзи\r\n\r\n[向](../kanji/向.md) связан с обращённостью в какую-либо сторону или направлением.\r\nВ 向こう он записывает む, за которым следует こう.\r\nПоследний гласный долгий; это существительное, а не глагол с окончанием う.\r\n\r\n## Синонимы и антонимы\r\n\r\n[あそこ](あそこ.md) тоже означает «вон там»,\r\nно необязательно выделяет дальнюю сторону.\r\n[こちら](こちら.md), «эта сторона»,\r\nи 手前（てまえ）, «ближняя сторона», удобны для пространственного противопоставления.\r\n\r\n## Оттенки значения\r\n\r\n向こう зависит от точки зрения говорящего.\r\nТак можно назвать место по другую сторону реки, за зданием\r\nили в дальней части комнаты — в подходящей ситуации.\r\nСлово не задаёт фиксированного направления по сторонам света.\r\n\r\nСловарь: [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project), статья 1277140, значения 1–2.\r\n",
+        "navigationOnly": true,
+        "exactSemanticSectionEdits": [],
+        "exactEdits": [
+          {
+            "kanji": "向",
+            "section": "Как сочетаются кандзи",
+            "linkLabel": "向",
+            "beforeLine": "向 связан с обращённостью в какую-либо сторону или направлением.\r",
+            "afterLine": "[向](../kanji/向.md) связан с обращённостью в какую-либо сторону или направлением.\r",
+            "exactCharacterOffsetWithinLine": 0,
+            "exactOnlyWrapperChange": "Wrap existing standalone glyph only, including inline prose.",
+            "existingMarkdownSpansProtected": true
+          }
+        ],
+        "visibleProseJapaneseMetadataQuizArraysAndOldLinksUnchanged": true
+      },
+      {
+        "path": "words/番号.md",
+        "metadata": {
+          "word": "番号",
+          "reading": "ばんごう",
+          "jlpt": 5,
+          "title": "номер (для обозначения)",
+          "type": "kango",
+          "kanji": [
+            "番",
+            "号"
+          ],
+          "tags": [
+            "kango",
+            "numbers"
+          ]
+        },
+        "beforeWorkingRawSha256": "5b03ecb5dd29479008e8be1a7f26626b9ad154911ff1dd1d1f9ac0ace87ea1fe",
+        "beforeGitRawSha256": "5b03ecb5dd29479008e8be1a7f26626b9ad154911ff1dd1d1f9ac0ace87ea1fe",
+        "afterWorkingRawSha256": "205b49d5de0e42de960e93184458aec286f1d546dd98a3dd6922049ad194ba15",
+        "completeProposedRussianPayloadUtf8": "---\nword: 番号\nreading: ばんごう\njlpt: 5\ntitle: номер (для обозначения)\ntype: kango\nkanji: [番, 号]\ntags: [kango, numbers]\n---\n\n# 番号（ばんごう）— номер (для обозначения)\n\n## Значение\n\n番号 — **номер или последовательность цифр для обозначения чего-либо**:\nнапример, комнаты, телефонного подключения или места в очереди.\n\n- 部屋の番号を教えてください。（へやのばんごうをおしえてください。）— Скажите, пожалуйста, номер комнаты.\n\nの указывает, к чему относится номер:\n部屋の番号 — «номер комнаты».\n電話番号（でんわばんごう）— составное слово «номер телефона».\n\n## Как сочетаются кандзи\n\n番 передаёт нумерацию или порядок,\nа [号](../kanji/号.md) — номер или обозначение.\nВместе они помогают определить объект по номеру.\nОнные чтения — バン + ゴウ;\nконечный звук «о» в ばんごう долгий.\n\n## Синонимы и антонимы\n\n数（かず）, «число; количество», отвечает на вопрос о количестве.\n部屋の数（へやのかず）— сколько комнат,\nа 部屋の番号 — о какой пронумерованной комнате идёт речь.\nРазличайте количество предметов и номер отдельного предмета:\nпо-японски это не одно и то же.\n\n## Оттенки значения\n\nНомер может содержать несколько цифр и при этом ничего не подсчитывать.\nНомер телефона обозначает подключение,\nа не количество телефонов.\nТак же и номер комнаты 305 сам по себе не означает,\nчто в здании есть 305 комнат.\nДля такого обозначения нет полезного единственного антонима.\n\nСловарь: [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатьи 1482290（番号）, 1443940（電話番号）и 1580820（数）.\n",
+        "navigationOnly": true,
+        "exactSemanticSectionEdits": [],
+        "exactEdits": [
+          {
+            "kanji": "号",
+            "section": "Как сочетаются кандзи",
+            "linkLabel": "号",
+            "beforeLine": "а 号 — номер или обозначение.",
+            "afterLine": "а [号](../kanji/号.md) — номер или обозначение.",
+            "exactCharacterOffsetWithinLine": 2,
+            "exactOnlyWrapperChange": "Wrap existing standalone glyph only, including inline prose.",
+            "existingMarkdownSpansProtected": true
+          }
+        ],
+        "visibleProseJapaneseMetadataQuizArraysAndOldLinksUnchanged": true
+      },
+      {
+        "path": "words/記号.md",
+        "metadata": {
+          "word": "記号",
+          "reading": "きごう",
+          "title": "символ; условный знак",
+          "jlpt": 2,
+          "type": "kango",
+          "kanji": [
+            "記",
+            "号"
+          ],
+          "tags": [
+            "kango",
+            "language",
+            "symbols"
+          ],
+          "quiz_exclusions": [
+            "印",
+            "サイン",
+            "兆候",
+            "コード"
+          ]
+        },
+        "beforeWorkingRawSha256": "44f4e3b47408dacccfedad546f6a2fa20ca54b88e779ad16172079b88ec8342a",
+        "beforeGitRawSha256": "614aa722b5f2cb8f8865ea0675f1f9572965941d31a9be3b79f8dfec8d8c1c7a",
+        "afterWorkingRawSha256": "6192b10dc4513c419901b8478fc3fed3c18150a5f9c0e1e4b78297f575131823",
+        "completeProposedRussianPayloadUtf8": "---\r\nword: 記号\r\nreading: きごう\r\ntitle: символ; условный знак\r\njlpt: 2\r\ntype: kango\r\nkanji: [記, 号]\r\ntags: [kango, language, symbols]\r\nquiz_exclusions: [印, サイン, 兆候, コード]\r\n---\r\n\r\n# 記号（きごう）— символ; условный знак\r\n\r\n## Значение\r\n\r\n記号 — существительное со значением знака, символа или метки, обозначающей что-либо.\r\nЗначение конкретного символа зависит от системы или контекста его использования.\r\n\r\n- 地図の記号の意味を調べました。\r\n  （ちずのきごうのいみをしらべました。）— Я выяснил значения условных знаков на карте.\r\n- 正しい答えの記号を選んでください。\r\n  （ただしいこたえのきごうをえらんでください。）— Выберите, пожалуйста, обозначение правильного ответа.\r\n\r\n## Как сочетаются кандзи\r\n\r\n記 связан с записью или обозначением, а [号](../kanji/号.md) — со знаком или наименованием.\r\nВместе они дают образ знака, представляющего что-либо.\r\nОнные чтения — キ + ゴウ.\r\n\r\n## Синонимы и антонимы\r\n\r\n[印](印.md)（しるし）тоже означает метку или знак.\r\n[コード](コード.md) может обозначать код или систему кодирования,\r\nно не всякий код — один 記号: например, программа может содержать множество символов.\r\n記号 не приобретает другие значения コード — электрический шнур или музыкальный аккорд.\r\n\r\n## Оттенки значения\r\n\r\nВ контексте обозначений и условной записи возможен перевод «код».\r\nЭто не разрешение повсюду заменять コード словом 記号.\r\nОдин 記号 может быть отдельным знаком; система правил, по которым знаки понимают, — другой вопрос.\r\n\r\nСловарь: [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\r\nстатья 1223210, значение 1.\r\n",
+        "navigationOnly": true,
+        "exactSemanticSectionEdits": [],
+        "exactEdits": [
+          {
+            "kanji": "号",
+            "section": "Как сочетаются кандзи",
+            "linkLabel": "号",
+            "beforeLine": "記 связан с записью или обозначением, а 号 — со знаком или наименованием.\r",
+            "afterLine": "記 связан с записью или обозначением, а [号](../kanji/号.md) — со знаком или наименованием.\r",
+            "exactCharacterOffsetWithinLine": 39,
+            "exactOnlyWrapperChange": "Wrap existing standalone glyph only, including inline prose.",
+            "existingMarkdownSpansProtected": true
+          }
+        ],
+        "visibleProseJapaneseMetadataQuizArraysAndOldLinksUnchanged": true
+      }
+    ],
+    "sourceDirectedMetadataCorrectionsProposed": [],
+    "originalSourceDirectionsRetained": 12,
+    "exactIndividualCitationIdFormReadingChecks": [
+      {
+        "lesson": "号",
+        "entryId": "1482290",
+        "exactForm": "番号",
+        "exactReading": "ばんごう",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "号",
+        "entryId": "1359240",
+        "exactForm": "信号",
+        "exactReading": "しんごう",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "号",
+        "entryId": "1443940",
+        "exactForm": "電話番号",
+        "exactReading": "でんわばんごう",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "号",
+        "entryId": "1223210",
+        "exactForm": "記号",
+        "exactReading": "きごう",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "号",
+        "entryId": "1284220",
+        "exactForm": "号",
+        "exactReading": "ごう",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "号",
+        "entryId": "1284250",
+        "exactForm": "号泣",
+        "exactReading": "ごうきゅう",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "向",
+        "entryId": "1277080",
+        "exactForm": "向く",
+        "exactReading": "むく",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "向",
+        "entryId": "1277100",
+        "exactForm": "向ける",
+        "exactReading": "むける",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "向",
+        "entryId": "1604800",
+        "exactForm": "向かう",
+        "exactReading": "むかう",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "向",
+        "entryId": "1516990",
+        "exactForm": "方向",
+        "exactReading": "ほうこう",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "向",
+        "entryId": "1277140",
+        "exactForm": "向こう",
+        "exactReading": "むこう",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "和",
+        "entryId": "1508070",
+        "exactForm": "平和",
+        "exactReading": "へいわ",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "和",
+        "entryId": "1562130",
+        "exactForm": "和食",
+        "exactReading": "わしょく",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "和",
+        "entryId": "1561940",
+        "exactForm": "和やか",
+        "exactReading": "なごやか",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "和",
+        "entryId": "1561920",
+        "exactForm": "和",
+        "exactReading": "わ",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "商",
+        "entryId": "1347180",
+        "exactForm": "商店",
+        "exactReading": "しょうてん",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "商",
+        "entryId": "1347310",
+        "exactForm": "商品",
+        "exactReading": "しょうひん",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "商",
+        "entryId": "1346570",
+        "exactForm": "商",
+        "exactReading": "しょう",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "商",
+        "entryId": "1346590",
+        "exactForm": "商う",
+        "exactReading": "あきなう",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      }
+    ],
+    "actualCitationChecks": 19,
+    "citationCheckBoundary": "MechanicalexactwholeobjectID/form/readingidentity,NOTnewhumanreading/semanticapproval/frequency/registerproof.",
+    "sourcePreparationCompleteArtifact": "ru-096-author-preparation-reading-complete-001.json",
+    "sourcePreparationCompleteRawSha256": "3f4ebd9dd13931a1134c48fa3d80be7dad20db34dcb801ef442bac67ed7e0945",
+    "exactEvidenceBindingRawSha256": "e4a7109e3adee84e5182cf2418b5826987e51633788c95cfffe93e60985b7581",
+    "allJapaneseExamplesAndInvariantsPreserved": true,
+    "reviewerDisposition": "PENDING;NOmandatoryCLEANorfabricatednegativeapproval.",
+    "ordinaryActiveNegativeSafety": "UNVERIFIEDforall12historicaldirections;whole商quotient/high-as-amountrecordsrequireindividualboundedconsideration;prospectivemetadataidentityisNOTnegativeclearance.",
+    "prior095All12OrdinaryActiveNegativeSafetyUnverifiedUnchanged": true,
+    "prior095N012VoiceAnnouncementUnverifiedUnchanged": true,
+    "protectedSkyBoundary": {
+      "path": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+      "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+      "status": "excluded C2UNVERIFIED;notmedia",
+      "runtimeWordRemainsAbsent": true,
+      "priorKanjiSkyBoundary": "Accepted077kanji空doesNOTresolveprotectedwordcaptionblocker/ordinaryquiz/media/defaultactivation."
+    },
+    "learnerMutationOccurred": true,
+    "independentReviewOccurred": false,
+    "runtimeAcceptance": false,
+    "fullTaskComplete": false,
+    "continueRequired": true,
+    "formatAmendmentStage": "POST_INITIAL_RUNTIME_MUTATION;BEFORE_CORRECTIVE_HEADING_PATCH",
+    "originalImmutableProposalArtifact": "ru-096-source-bound-proposals-001.json",
+    "originalImmutableProposalRawSha256": "fd174d19ad263a22dfc2b232cf94a33aa4172bd4feb0cebd34473775eadbabc4",
+    "originalSignedSemanticFreezeCommit": "9052aaa9f3a39f9abf80248c896a81f793297f85",
+    "formatOnlyCorrectionNotSemanticReReview": true
+  },
+  "amendedProposalWorkingRawSha256": "d10c0872ef11081c571bca082a39bec8e6f2a64edebd68803757223cc7cdc096",
+  "correctiveHelperRawSha256": "2f0c71b7b5c6e4d52e158c3d882739fbfd6e67560dd41e35f6f1ee2794f96acd",
+  "unchanged": "ALLotherteachingbytes/Japanese/examples/metadata/levels/12directions/7NAV-onlypayloads/4exactstrokes/2155otherbaselineRAWs.Originalfreeze/proposals001/readreceipts/helpers/initialauthoring001/failedvalidation001remainimmutable.Historicalprospective4bodyRAWsarenotfinalcorrectedbodyRAWs.FreshCURRENTwholebodyreadingandfirstindependentreviewofactualcorrectedcandidateSTILLREQUIRED.",
+  "semanticAuthorAdjudicationsUnchanged": true,
+  "authorIntroductoryOnlyQ": 12,
+  "all12OrdinaryActiveNegativeSafety": "UNVERIFIED;metadataretentionNOTguardapproval",
+  "prior095VoiceAnnouncementUAndAll12OrdinaryUUnchanged": true,
+  "notRetroactivePremutationFreeze": true,
+  "notEolDomainAmendment": true,
+  "independentReviewOccurred": false,
+  "acceptedMainRuntimeObjectsRemain": 2162,
+  "runtimeAcceptance": false,
+  "ordinaryActivationAuthorized": false,
+  "fullTaskComplete": false,
+  "continueRequired": true
+}
