@@ -11,7 +11,67 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current qualified source milestone: batch101
+## Current qualified source milestone: batch102
+
+Batch102 adds **four complete Russian frozen N3 lessons, 婚/婦/存/対, 224 file lines**,
+and four RAW-identical Japanese KanjiVG assets. Six whole current word bodies receive
+**NAV-only wrappers**: five standalone-glyph wrappers (反対→対, 婦人→婦, 対する→対, 看護婦→婦,
+結婚→婚) and one whole-label wrapper, 存じ in words/ご存じ.md → kanji/存.md, authorized by the signed
+[pre-mutation whole-label navigation amendment](translation-batches/102-marriage-woman-existence-and-opposition-kanji-pre-mutation-whole-label-navigation-amendment-001.json).
+All visible prose, Japanese metadata, quiz arrays, old links and frozen levels remain unchanged;
+no new guard or removed direction. Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The [actual whole independent review](translation-batches/102-marriage-woman-existence-and-opposition-kanji-independent-review-001.json) (one reviewer) of
+candidate `c199d4ca7073a14c6d8a286ba5e0c6410f30f7ae` read **48 whole teaching bodies, 25 EN/23
+CURRENT RU** (four primary pairs, 19 context pairs and two EN comparison bodies), **102 whole
+official TEXT units** (22 KANJIDIC2, three radical-evidence units, 73 JMdict, four KanjiPedia) plus
+one provider header, all 354 CURRENT typed rows, twelve original directions, four L/four A rulings,
+four dictionary clarifications, four outside LIMITS, six exact NAV diffs, the whole guidance files and
+three RU rubrics — **59 complete windows**, identical opening/closing gates, zero glyph pixels, zero
+web pages, 62 successful commands and zero failures. The original **10286-byte stdout report**,
+SHA256 `8a52d52d8576b1407fc2439069641dae84a1e79a561d91bb748c864f48a85b76`, byte-identical to the
+reviewer's native final, is published verbatim.
+
+Actual verdicts: **C1 CLEAN**; **C2 UNVERIFIED** — all six edits are navigation-only with
+correct targets and the 存じ whole-label wrapper matches the amendment, but ordinary
+active-negative quiz safety is not established for any direction; **C3 NEEDS FIX** with one
+minor finding, **102-F001**: kanji/婦.md called 婦人 «потенциально чувствительное», an unexplained
+calque that does not tell a learner whether offensiveness or emotional sensitivity is meant. All
+twelve directions are **S-intro** (introductory/source-core only, canonical author mapping Q), none
+withheld; all twelve ordinary uses are **U** (metadata retention is not guard approval). All four
+L rulings SUPPORTED-intro; A001/A003/A004 SUPPORTED-bounded and **A002 PARTLY SUPPORTED**: the
+author capture called JMdict 2857591 «literary», but its actual marker is «dated term» (sense not
+taught). All six NAV changes NAV-ONLY; outside LIMITS (婚 vs 帰/妻/夫, 婦 vs 女/妻, 存 vs 在/有/知,
+対 vs 反/向) are observations, not new guards.
+
+A signed [pre-mutation register-amendment freeze](translation-batches/102-marriage-woman-existence-and-opposition-kanji-review-finding-register-amendment-freeze-001.json)
+authorized exactly two lines of kanji/婦.md: «требующее осторожности из-за возможной
+оскорбительности» for the 婦人 warning, and the reviewer's optional polish «один из членов
+супружеской пары» in the 夫婦 explanation. The A002 characterization is corrected in that freeze and
+this acceptance record only; the frozen author record is not rewritten. The
+[corrected candidate](translation-batches/102-marriage-woman-existence-and-opposition-kanji-corrected-candidate-001.json) `db62612f84b8b8e9b0e4667d184ef71a3f6abc84`
+changes only those two lines plus the manifest. One
+[focused independent review](translation-batches/102-marriage-woman-existence-and-opposition-kanji-independent-review-focused-001.json) read the EN, original RU and
+corrected RU 婦 bodies, whole JMdict 1496670/1583640/2857591 entries, the exact amendment and
+continuity, and the guidance/rubric windows (21 complete windows, 24 successful commands, zero
+failures/web pages); its 2027-byte report, SHA256
+`5bfcc7c4884ad2f0e27b73a35d55a9a91f635d6b0ccb7cd9e687c90be2623b0d`, rules **F001 RESOLVED**, the
+polish incorporated and the A002 correction accurate, with C1/C2/C3 CLEAN within that bounded scope
+and no new findings. It is not a second whole review; the original verdicts stay immutable and the
+batch is not upgraded to whole CLEAN.
+
+The [qualified source record](translation-batches/102-marriage-woman-existence-and-opposition-kanji-reviewed-source.json) preserves 2202 other baseline
+runtime RAWs/tracking rows and all 1478 word metadata/quiz arrays. Qualified source checkpoint:
+**2216 runtime/1478 words/354 kanji/354 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled
+unchanged; kanji 80 N5/166 N4/**106 N3**/2 N2; **261 N3 remain**. Strict progress: **2216
+reviewed-current/two excluded reviewed blocked-media drafts/6060 pending of 8278; 6062 runtime
+paths absent**. Version `f0bef69f37056089`; checkpoint authority null/Ready false. Prior 082–101
+U qualifications remain unchanged; the existing RU 天/夫 stroke wording and RU 時 metadata
+differences outside this batch remain open observations. Protected 033 WORD空 stays
+excluded/runtime-absent/not media. No device/media/default/package/release authority. Continue 103+
+and **ALL remaining safe frozen levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch101
 
 Batch101 adds **four complete Russian frozen N3 lessons, 夢/好/妻/娘, 222 file lines**,
 and four RAW-identical Japanese KanjiVG assets. Six whole current word bodies receive
