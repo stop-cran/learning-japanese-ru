@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "batch": "101-dream-like-wife-and-daughter-kanji",
+  "recordedAt": "2026-11-08T21:31:37.510357+00:00",
+  "originalCandidateCommit": "b9d1be9f20d5d50c909b891ddeae9f03e74c3a81",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineSnapshot": "15994ed64e55a5eae014816a6adf61299fe2422e",
+  "originalActualReportSha256": "632dad84d074a3666e61ca257b0f1249ecd4af3cb314e3f8523ec7800f66d4de",
+  "actualWholeIndependentReviews": 1,
+  "actualSuccessfulStdoutReportDeliveries": 1,
+  "actualFailedReportDeliveries": 1,
+  "originalReviewer": "0fef7228-f754-4b64-b9f1-fc65c2aa19d3",
+  "originalReviewerCompletedNotRunning": true,
+  "exactOriginalReportPath": "docs/translation-batches/101-dream-like-wife-and-daughter-kanji-independent-review-001.json",
+  "exactOriginalPublicReportRawSha256": "7ed71a6258055f8b28c538943500ad2ec54719a1daf04e415b54025dce68d9b9",
+  "historicalOriginalReportImmutable": true,
+  "finding": "101-F001",
+  "findingDisposition": "SUPPORTED;EXACT_BOUNDED_AMENDMENT_PROPOSED;FOCUSED_REVIEW_PENDING",
+  "preservedOriginalFacets": {
+    "C1": "C1 CLEAN: Readings, counts, canonical radicals, senses, examples and clearly labelled modern-shape mnemonics are supported in this bounded scope; no confirmed Japanese-fact defect.",
+    "C2": "C2 UNVERIFIED: All 6 edits are navigation-only with correct relative targets; the complete 好き label wrapper matches the pre-mutation amendment; existing visible text/metadata and CRLF are preserved. New lesson links target existing files. All 12 edges are supported only as introductory/source-core comparisons; ordinary active-negative quiz safety is not established, so no metadata retention is quiz approval.",
+    "C3": "C3 NEEDS FIX: Wife lesson's “несколько официальное” mistranslates “somewhat formal”; see F001."
+  },
+  "exactChangedPaths": [
+    "kanji/妻.md",
+    "kanji/夫.md"
+  ],
+  "exactPathChanges": [
+    {
+      "path": "kanji/妻.md",
+      "exactBeforeWorkingRawSha256": "408348515393e28992ce2b9313cc0ec6c2f34aed98fc107a5719659760585fd3",
+      "exactBeforeGitRawSha256": "408348515393e28992ce2b9313cc0ec6c2f34aed98fc107a5719659760585fd3",
+      "exactAfterWorkingRawSha256": "6aeab28e208bf808ce77802587b4f7e965772125cf4f3010effbcf3324a246ab"
+    },
+    {
+      "path": "kanji/夫.md",
+      "exactBeforeWorkingRawSha256": "3192165e71a7374bb0a13cc94b49cd129b0fcfa8676fb573683a98199ec02718",
+      "exactBeforeGitRawSha256": "3192165e71a7374bb0a13cc94b49cd129b0fcfa8676fb573683a98199ec02718",
+      "exactAfterWorkingRawSha256": "c4a21fcd2abec66ff2d93a62d4a2a79fd514a14998c1a0744254645fde713a48"
+    }
+  ],
+  "exactBeforeText": "  слово несколько официальное и не употребляется о собственной семье.\n",
+  "exactAfterText": "  слово несколько формальное и не употребляется о собственной семье.\n",
+  "sourceEvidence": "Actually read whole JMdict1496520(夫妻) s_inf 'somewhat formal; not used for one's own family':register=formal,NOTofficial-status.Reviewer101-F001(C3)identified«официальное»inkanji/妻.md.Identical author-written line exists in ACCEPTED batch100 kanji/夫.md(same夫妻entry/samedefect);author extends the SAME exact one-word correction there, disclosed as a cross-batch correction of accepted text;batch100 historical acceptance/report NOT rewritten;focused review must cover both lines.",
+  "exactSourceProjectionMatches": [
+    {
+      "index": 33,
+      "wholeProjectionRawSha256": "f3664bbfa3758bd5d808307c571d145f1cd02aa041686fb463904106c5d7684a"
+    }
+  ],
+  "exactOriginalPoolRawSha256": "3db8828c1f759d07cf1639fe60bafa495531dc0f92dbd60a80c8af40a0a51403",
+  "exactOriginalEvidenceBindingRawSha256": "3e762448b33c38a089a213cb7948ae2ed7fda6cd81b05fa17430cf7090ccce1c",
+  "scope": "TWO_IDENTICAL_RU_LINES_ONE_WORD_ONLY(официальное→формальное);noJapanese/example/reading/title/metadata/direction/NAV/provider/stroke/levelchange;nohistoricalrecordrewrite.",
+  "proposedNewQualifiedPairJudgments": 0,
+  "originalDirectionDispositionCounts": {
+    "S-intro": 10,
+    "U": 2
+  },
+  "originalQBoundary": "Actual10S-intro(canonicalQ)+2U(N002/N004withheld)carryONLYactualoriginalscope;妻/夫endpointrowidentitieswillchange,notfreshsemanticjudgments.Registercorrectioncannotupgradeordinary/all-sense/readmode/fallbacksafety.",
+  "sourceAccepted": false,
+  "acceptedMainObjectsRemain": 2200,
+  "candidateObjectsRemain": 2208,
+  "protectedSkyBoundary": {
+    "path": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+    "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+    "status": "excluded C2UNVERIFIED;notmedia",
+    "runtimeWordRemainsAbsent": true,
+    "priorKanjiSkyBoundary": "Accepted077kanji空doesNOTresolveprotectedwordcaptionblocker/ordinaryquiz/media/defaultactivation."
+  },
+  "ordinaryActivationAuthorized": false,
+  "fullTaskComplete": false,
+  "continueRequired": true
+}
