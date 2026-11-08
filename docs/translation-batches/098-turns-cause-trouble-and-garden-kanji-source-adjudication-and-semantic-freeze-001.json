@@ -1,0 +1,1802 @@
+{
+  "schemaVersion": 1,
+  "batch": "098-turns-cause-trouble-and-garden-kanji",
+  "recordedAt": "2026-11-08T19:04:35.171884+00:00",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineSnapshot": "7531f4c2f2abd1932a90bebdd34a741161986bca",
+  "exactProposalsRawSha256": "b77549b4d931975f5d3db8383f1a6670f73400031b45ad0e7fb78c2e528f2772",
+  "exactProspectivePoolRawSha256": "037fe8cec46cb3633e048526217a340e115ecbfd83cb5e9ec4900fa7469e6e31",
+  "exactActualProspectiveReadingCompleteRawSha256": "9caaa7e67b03a1360b5a7c3d824526e60b42378fd7c01113626b8b6366249774",
+  "actualSourceAdjudications": [
+    {
+      "id": "098-L001",
+      "kanji": "回",
+      "authorDisposition": "SUPPORTED_WITHIN_INTRODUCTORY_SOURCE",
+      "reason": "WholefrozenEN/official6strokes/囗31/カイエ+9kunretained;turnandtimes/counter(1199330)andまわる/まわすcontrastpreserved;modernnested-boxmnemonicNOThistory(KanjiPediawhirlpoolpictographnotclaimedasEN);communityN3NOTproviderinventoryreplacement."
+    },
+    {
+      "id": "098-L002",
+      "kanji": "因",
+      "authorDisposition": "SUPPORTED_WITHIN_INTRODUCTORY_SOURCE",
+      "reason": "WholefrozenEN/official6strokes/囗31/イン/よる/ちなむretained;1168640cause/factorand1261190原因/1546670要因kept;1550140理由reason-contrastkeptunlinkedasEN;modern口+大mnemonicNOThistory."
+    },
+    {
+      "id": "098-L003",
+      "kanji": "困",
+      "authorDisposition": "SUPPORTED_WITHIN_INTRODUCTORY_SOURCE",
+      "reason": "WholefrozenEN/official7strokes/囗31/コン/こまるretained;1289590troubled/inconvenienced/hard-upsensegroupsdisclosedinRUnote;1289620困難/1289630困惑/1490830貧困kept;tree-in-boxmnemonicNOThistory."
+    },
+    {
+      "id": "098-L004",
+      "kanji": "園",
+      "authorDisposition": "SUPPORTED_WITHIN_INTRODUCTORY_SOURCE",
+      "reason": "WholefrozenEN/official13strokes/囗31/エン/そのretained;1273270公園/1451490動物園/1545260幼稚園/1436140庭園kept;unavailableoptionalWORD公演(1273280homophone)linkunwrappedwithoutnewwordapproval;動物園/理由plainasEN;enclosed-gardenimageNOThistory."
+    }
+  ],
+  "sourceDirectedNegativeEdges": [
+    {
+      "id": "098-N001",
+      "source": "回",
+      "distractor": "因",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "回1199330counter/time/round/episodeand1604300まわるturn/goaround/visitvs因1168640いんcause/factor:individualintroductoryshape-and-sensecomparisonONLY;shared囗enclosureNOTdisjointnessproof;1199510回数andcausalcount-contextsnotexcluded;ordinaryall-sense/reading/fallbacksafetyU.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "098-N002",
+      "source": "回",
+      "distractor": "困",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "回1604300turn/goaround/1199330timevs困1289590troubled/inconvenienced/hard-up:individualintroductorycomparisonONLY;1199720回復recoveryfromdifficultycontextsshowassociation,notdisjointnessorneverco-occurrence.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "098-N003",
+      "source": "回",
+      "distractor": "国",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "回1199330/1604300vs国1592250country/region/home/nationalgovernment:individualintroductorycomparisonONLY;shared囗andtravel-around-regionscontext(1604300tour)NOTglobalclearance;国accepteddistractorsunchanged.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "098-N004",
+      "source": "因",
+      "distractor": "回",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "因1168640cause/factorplusrarespelling1541760よしreason/causeand1922790よすがsomething-to-rely-onvs回1199330time/counterand1604300turn:individualintroductorycomparisonONLY;notinferredfromreverse回-to-因edge.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "098-N005",
+      "source": "因",
+      "distractor": "困",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "因1168640cause/factorvs困1289590troubled:individualintroductorycomparisonONLY;1168680因果unfortunate/ill-fatedsenseshowsadversityaffinity,soNOTall-sensedisjointness;ordinarysafetyU.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "098-N006",
+      "source": "因",
+      "distractor": "国",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "因1168640cause/factorvs国1592250country/state/region:individualintroductorycomparisonONLY;shared囗shapecontrastnotguardapproval.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "098-N007",
+      "source": "困",
+      "distractor": "因",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "困1289590troubled/inconvenienced/hard-upand1289620困難vs因1168640cause/factor:individualintroductorycomparisonONLY;troubleoftenhasacause(1261190原因)soassociationisexplicitlimit,notdisjointnessproof.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "098-N008",
+      "source": "困",
+      "distractor": "回",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "困1289590troubledvs回1199330time/counter/1604300turn:individualintroductorycomparisonONLY;notderivedfrom困-to-因ortransitivity;ordinarysafetyU.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "098-N009",
+      "source": "困",
+      "distractor": "国",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "困1289590troubled/1490830貧困povertyvs国1592250country/nationalgovernment:individualintroductorycomparisonONLY;nationalpovertycontextsNOTexcluded.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "098-N010",
+      "source": "園",
+      "distractor": "国",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "園1176240そのgarden/park/place/world/environmentand2854424えんgarden/park/kindergartenvs国1592250country/region/home:individualintroductorycomparisonONLY;bothdenotebounded-place/domainsenses(その'world'vs国'region'),soaspatial-domainaffinityisexplicitlimit,NOTall-sensedisjointness.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "098-N011",
+      "source": "園",
+      "distractor": "困",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "園1176240/2854424garden/park/kindergartenvs困1289590troubled:individualintroductorycomparisonONLY;shared囗shapecontrastNOTguardapproval.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "098-N012",
+      "source": "園",
+      "distractor": "回",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "園1176240/2854424garden/parkvs回1199330time/1604300turn/goaround/visit:individualintroductorycomparisonONLY;going-round-a-park/1542170遊園地ride-rotationcontextsnotexcluded;ordinaryall-sensesafetyU.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    }
+  ],
+  "addedDictionaryClarifications": [
+    {
+      "id": "098-A001",
+      "kanji": "回",
+      "authorDisposition": "SOURCE_SUPPORTED_BOUNDED_CLARIFICATION",
+      "reason": "Whole1604300まわるgodan-intransitiveturn/goaround/visit/via;1199350まわすtransitive;1342050めぐるalternatereadingof回るNOTexported;1605260もとおるand2255060みるarchaic/rare,notpromotedbeyondfrozenmetadata;1199330かいcounter/time/round/episode;1161310一回/1524670毎回/1289070今回."
+    },
+    {
+      "id": "098-A002",
+      "kanji": "因",
+      "authorDisposition": "SOURCE_SUPPORTED_BOUNDED_CLARIFICATION",
+      "reason": "Whole1168640いんcause/factor/Buddhisthetu;1541760よしand1922790よすがand1260670もとlist因onlyasrarealternatespelling,notordinarywritingadvice;1168680因果causality/karma/unfortunate;noetymology/frequencyclaim."
+    },
+    {
+      "id": "098-A003",
+      "kanji": "困",
+      "authorDisposition": "SOURCE_SUPPORTED_BOUNDED_CLARIFICATION",
+      "reason": "Whole1289590godan-intransitive:troubled/havedifficulty|bothered/inconvenienced|badlyoff/hard-up;1289550困らせるcausativetransitive;1460850難しい/1157000易しいcontrastsremaincontext-specific,notantonymproof."
+    },
+    {
+      "id": "098-A004",
+      "kanji": "園",
+      "authorDisposition": "SOURCE_SUPPORTED_BOUNDED_CLARIFICATION",
+      "reason": "Whole1176240そのgarden/orchard/park/place/world;2854424えんgarden/park/kindergarten(abbr.)as-suffix;1206570学園/1577330花園/1176260園芸/1542170遊園地;1273280公演/1352670上演/1607520演奏homophonecontrastonly."
+    }
+  ],
+  "currentPoolObservedOverlapFlagsNotNewGlobalPairJudgments": [
+    {
+      "id": "098-O001",
+      "kanji": "回",
+      "disposition": "LIMIT_NOT_NEW_GUARD",
+      "observedCurrentTypedGlyphs": [
+        "度",
+        "転",
+        "運",
+        "週",
+        "通"
+      ],
+      "observation": "Typed'times'/rotation/goingrounddomainsflaglimits:frozenEN度'degree,numberoftimes'vs回'revolve;times'overlapisINHERITEDfromEN,RU度«градус;степень;числораз»vs回«вращаться;раз»keptequallyfaithful;度isNOTa回distractor;notnewguard/globalpairjudgment."
+    },
+    {
+      "id": "098-O002",
+      "kanji": "因",
+      "disposition": "LIMIT_NOT_NEW_GUARD",
+      "observedCurrentTypedGlyphs": [
+        "由",
+        "原",
+        "元",
+        "理"
+      ],
+      "observation": "Typedcause/reasondomainsflaglimits:frozenEN由'reason;grounds'vs因'cause;factor'sharenoEnglishword;sharedRU«причина»inaccepted由«причина;основание»andnew因«причина;фактор»isRUSSIAN-INTRODUCEDtitleoverlap(1541760よしreason/causeshowssenseadjacency),disambiguatedbysecondglosses;由notan因distractornor因a由distractor;notnewguard.1541760よし(由/因/縁)spellingoverlapexplicit."
+    },
+    {
+      "id": "098-O003",
+      "kanji": "困",
+      "disposition": "LIMIT_NOT_NEW_GUARD",
+      "observedCurrentTypedGlyphs": [
+        "危",
+        "悪",
+        "病"
+      ],
+      "observation": "Typeddanger/bad/illnessdomainsflaglimits;WORD1289620困難/1490830貧困showsenseadjacency(難/貧notcurrenttypedkanji);notnewnegativematrix/globalpairjudgment."
+    },
+    {
+      "id": "098-O004",
+      "kanji": "園",
+      "disposition": "LIMIT_NOT_NEW_GUARD",
+      "observedCurrentTypedGlyphs": [
+        "公",
+        "場",
+        "地",
+        "院",
+        "館",
+        "校",
+        "学",
+        "花"
+      ],
+      "observation": "Typedgarden/facility/placedomainsflaglimits;WORD1436130庭garden/yard(notcurrenttypedkanji)and1278590広場plazaoverlapそのgarden/place;2854424kindergartenvsfacilityglyphs;notnewguard."
+    }
+  ],
+  "originalSourceDirectedMetadataCorrections": [],
+  "authorProvisionalCounts": {
+    "Q": 12
+  },
+  "independentlyReviewed": false,
+  "all12OrdinaryActiveNegativeSafety": "UNVERIFIED",
+  "premutationNavigationAmendmentRequired": false,
+  "navigationExceptionScope": "FiveintakeplannedSTANDALONEglyphwrappersonly;nowhole-wordlabels;公演optionallinkunwrappedasunavailableWORD;動物園/理由unlinkedasEN.",
+  "currentAcceptedCountryDistractorsPreserved": [
+    "田",
+    "四",
+    "外"
+  ],
+  "boundary": "AUTHORindividualadjudicationsONLY;independentall12dispositionsPENDING;12provisionalINTRODUCTORYcomparison-onlyQNOT12active-negativeapprovals;ALL12ordinary/all-sense/readings/fallbacksafetyU.因果adversity/園-国place-domain/回-困recoveryaffinitiesEXPLICIT,notglobalguardsclearedbylocalizedtitles/disclosure/typedidentity.度/回'times'overlapINHERITEDfromfrozenEN;由/因«причина»overlapRUSSIAN-INTRODUCED,second-glossdisambiguated;neitherpairisadistractoredge.NOSourcecorrection/metadatawithdrawal/newguard.Broadernecessity/frequency/current-futureuniquenessU;prior097all9ordinaryU/096meaning-onlyN008/all12ordinaryU/095N012/all12ordinaryU/094呼-blow/all9ordinaryU/093all27ordinaryU/091割-to-利/082姉-to-妹Uunchanged.",
+  "runtimeAcceptance": false,
+  "fullTaskComplete": false,
+  "continueRequired": true,
+  "stage": "PREMUTATION_AUTHOR_SEMANTIC_FREEZE;INDEPENDENT_REVIEW_AND_RUNTIME_ACCEPTANCE_PENDING",
+  "originalIntakeUnchangedRawSha256": "5c8dec87e9a33ad8bea79ec8782b0cd9c1c35be216622971e195d9449025d9b3",
+  "intakeCommit": "cd57ad55dc29f60c41aa9b1504fd12b14e578954",
+  "explicitPremutationNavigationAmendment": null,
+  "fiveStandaloneGlyphWrappersPlannedInSignedIntake": true,
+  "actualCompletePreparationReading": {
+    "schemaVersion": 1,
+    "batch": "098-turns-cause-trouble-and-garden-kanji",
+    "recordedAt": "2026-11-08T18:54:25.864300+00:00",
+    "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "russianBaselineSnapshot": "7531f4c2f2abd1932a90bebdd34a741161986bca",
+    "exactEvidenceBindingRawSha256": "af8e41a750db8f1d90469ddce528d704ab98004a59f158c58e37ae318d085172",
+    "exactMetadataPrimaryCaptureRawSha256": "269c31a3ee24545d40a5fc1f13c48ef5821af41824ba7043dcd47ab29dce9ee1",
+    "exactKanjipediaCaptureRawSha256": "60db7749b964ab7706333628212774c03ada5c5cf6f3bffe298b80223dc82e44",
+    "actualWholePrimaryEnglishReading": {
+      "batch": "098-turns-cause-trouble-and-garden-kanji",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "russianBaselineSnapshot": "7531f4c2f2abd1932a90bebdd34a741161986bca",
+      "actualWholeFrozenPrimaryBodies": 4,
+      "actualSuccessfulIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "pendingIndices": [],
+      "complete": true,
+      "actualPublicReturns": [
+        {
+          "eventId": "29e74406-2bd1-4c86-96c1-958e956413f7",
+          "actualPublicReturnBytes": 7258,
+          "actualPublicReturnSha256": "15d9280875ddb79da37f4f34ed0bf878505c6af2dc136bb43306226627c8aaaa",
+          "journalRecordExcludingLfSha256": "db904fcfb2038d49409a63c3fc1eef97546ed654b9c051cb5687b74a3b5bce19",
+          "entireBoundPayloadCompared": true,
+          "windows": [
+            [
+              "0",
+              "4"
+            ]
+          ]
+        }
+      ],
+      "boundary": "EntireactualsuccessfulfrozenENprimarypayloadscompared,notmarkersalone;NOTRUauthoring/independentreview/sourceacceptance."
+    },
+    "complete": true,
+    "actualSuccessfulPreparationToolReturns": 12,
+    "actualSuccessfulReaderWindowReturns": 12,
+    "actualDistinctReaderToolReturns": 11,
+    "nonCreditedPartialWindows": [
+      {
+        "eventId": "0d27a012-ade8-469c-83cd-83a95ff0093a",
+        "mode": "metadata",
+        "start": 5,
+        "end": 9,
+        "indicesNotWholeInReturn": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "credited": false,
+        "reason": "Ownfilteredpipeline(Select-String)omittedlines;NOTwholereading;rereadseparately."
+      }
+    ],
+    "actualSuccessfulPublicReturns": [
+      {
+        "eventId": "0cbe5652-307f-497c-8f7d-97b02f5623c2",
+        "actualSuccessfulPublicReturnUtf8Bytes": 8234,
+        "actualSuccessfulPublicReturnSha256": "17967c38e621639400c39f539108f6e42dde7565609d473769b5563630959a34",
+        "journalRecordExcludingLfSha256": "d08495799795b9c54edcbbdc08c2965122dd714b1196d543e78c5f924381c5f2",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "kanjipedia",
+            "start": 0,
+            "end": 4
+          }
+        ]
+      },
+      {
+        "eventId": "e24590dd-a1cb-4b91-9727-74e769d59b3e",
+        "actualSuccessfulPublicReturnUtf8Bytes": 10121,
+        "actualSuccessfulPublicReturnSha256": "29cb7419e1c5e156ff3436bab3d36d9bf6ed5653ebb227f60ee03d55ebab392a",
+        "journalRecordExcludingLfSha256": "cbf048d58f358d2077f88f4b5adf669046afff036a38ac575e7afc97eb4159f9",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "pair",
+            "start": 0,
+            "end": 2
+          }
+        ]
+      },
+      {
+        "eventId": "00cdfa8e-040c-4f51-8401-2ad51d6fa73f",
+        "actualSuccessfulPublicReturnUtf8Bytes": 7977,
+        "actualSuccessfulPublicReturnSha256": "4566400580facccc9c34183e4b2054230fd4891fa213131746db053e25fb0aaa",
+        "journalRecordExcludingLfSha256": "4f16644425365db8fc19874efd4a04ca8250a3cdaa77afaa18726b0429f9e0b4",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "pair",
+            "start": 2,
+            "end": 4
+          }
+        ]
+      },
+      {
+        "eventId": "6d6f7c41-c46e-41f2-b4dd-7d08d8f3bbbd",
+        "actualSuccessfulPublicReturnUtf8Bytes": 11332,
+        "actualSuccessfulPublicReturnSha256": "08e3f20396fd5e22779041ae2a391e21ad115d2b0123caa7e6f8fb9be320e366",
+        "journalRecordExcludingLfSha256": "1cd6b3e0f413a1c6737f6d0cd2307b1e91772eac447e4b5d3c598e5314156625",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "pair",
+            "start": 4,
+            "end": 6
+          }
+        ]
+      },
+      {
+        "eventId": "14d18389-5ed5-4e40-baae-4ad33c9e6f33",
+        "actualSuccessfulPublicReturnUtf8Bytes": 6684,
+        "actualSuccessfulPublicReturnSha256": "d39539a28256c20b907ca814e6de8dab7e2f65f4eaecaeaa0a0fd061c82cc955",
+        "journalRecordExcludingLfSha256": "566da08b4f3b16d0ba71fe6f8f69a4be0d5e48a4a50cc6ec181df94ce4500966",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "pair",
+            "start": 6,
+            "end": 7
+          },
+          {
+            "mode": "comparison",
+            "start": 0,
+            "end": 1
+          }
+        ]
+      },
+      {
+        "eventId": "e0117aa2-42b1-4f1f-ad75-b635067e48e4",
+        "actualSuccessfulPublicReturnUtf8Bytes": 12495,
+        "actualSuccessfulPublicReturnSha256": "a96dd304af4f10f651e33a09e6f4bc3ea28a2f7387388c0ec4d5edcd89e4833e",
+        "journalRecordExcludingLfSha256": "2e85b06f966c1d402765938d6252f13912a5d588256d755940a54eb77c29abb0",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "metadata",
+            "start": 0,
+            "end": 5
+          }
+        ]
+      },
+      {
+        "eventId": "0d27a012-ade8-469c-83cd-83a95ff0093a",
+        "actualSuccessfulPublicReturnUtf8Bytes": 5313,
+        "actualSuccessfulPublicReturnSha256": "663a7f1678f738fabe0c7015ed433a53ebabe663f9e397292af3e3bb1eacc7b5",
+        "journalRecordExcludingLfSha256": "8498ba09ee6020248f1cbd0fe0dadb297b85049e89a1f49b1ccd7a8262758562",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "radical",
+            "start": 0,
+            "end": 1
+          }
+        ]
+      },
+      {
+        "eventId": "f1c39f81-a9ba-4e48-9ec3-e13dc643392d",
+        "actualSuccessfulPublicReturnUtf8Bytes": 9037,
+        "actualSuccessfulPublicReturnSha256": "3b46e17e9c765cfb28bcee8d1be0865ff83b58a503b6b4f24a412cd348ff7f94",
+        "journalRecordExcludingLfSha256": "c1f7b62779ee23e382aa9116ccad5c4f3b15a4fca03b1646fe629232affaa191",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "metadata",
+            "start": 5,
+            "end": 9
+          }
+        ]
+      },
+      {
+        "eventId": "3c66b743-ea64-458e-b5d2-d6e0cbd9feae",
+        "actualSuccessfulPublicReturnUtf8Bytes": 11541,
+        "actualSuccessfulPublicReturnSha256": "dbd974e487c577a368fc1e9af4b59e7f8cdf9f007561a0007e2eea62fc680557",
+        "journalRecordExcludingLfSha256": "c6cfcc12850e2d597dd8bdb75649171101e4494e798dc64026247b1ea1ae83ff",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "object",
+            "start": 0,
+            "end": 16
+          }
+        ]
+      },
+      {
+        "eventId": "eac17bd7-01fc-466d-9268-e15ef404d437",
+        "actualSuccessfulPublicReturnUtf8Bytes": 12114,
+        "actualSuccessfulPublicReturnSha256": "59a6acd9e2f141e97c4aa1089383c6b7f175a833671ce2a6eee5101c301b3e0b",
+        "journalRecordExcludingLfSha256": "7eb5480d5cf52531546dbbb4e51e96bcf32dd9881b113d6f1363c7eb60f4ea30",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "object",
+            "start": 16,
+            "end": 36
+          }
+        ]
+      },
+      {
+        "eventId": "6b3e464e-dc4d-478b-b45c-5df3f0ca769b",
+        "actualSuccessfulPublicReturnUtf8Bytes": 11440,
+        "actualSuccessfulPublicReturnSha256": "d87e7f43879d524b7486aab1b54db8f8490afe79874f9077574ace162c941676",
+        "journalRecordExcludingLfSha256": "5a049f24a248af8dbc725dac65636e439a7ce4df1cbf7bfcb016cf13e4c1a295",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "object",
+            "start": 36,
+            "end": 56
+          }
+        ]
+      },
+      {
+        "eventId": "9db2c4c2-f831-4067-b741-2ae8b2f18b8a",
+        "actualSuccessfulPublicReturnUtf8Bytes": 693,
+        "actualSuccessfulPublicReturnSha256": "b81d61a89e3e2f3416ac81af8b5cd33749c3a75726ff13dfda0cd2d93760b8e4",
+        "journalRecordExcludingLfSha256": "6e5b52891e59de9630530f6536aabb310031d5ef1b96e1bd1cfb7d1a3c668bb7",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [],
+        "actualWholeProviderHeaderRead": true
+      }
+    ],
+    "actualWholeTeachingBodies": 19,
+    "actualWholeEnglishBodies": 12,
+    "actualWholeRussianBodies": 7,
+    "actualWholeOfficialSourceTextUnits": 70,
+    "actualAdditionalWholeProviderHeaders": 1,
+    "actualDictionaryGlyphPixelViews": 0,
+    "actualCoverage": {
+      "pair": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "comparison": [
+        0
+      ],
+      "metadata": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "radical": [
+        0
+      ],
+      "object": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "kanjipedia": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "actualWholeProviderHeaderToolEventIds": [
+      "9db2c4c2-f831-4067-b741-2ae8b2f18b8a"
+    ],
+    "actualSuccessfulWholeCounts": {
+      "pair": 7,
+      "comparison": 1,
+      "metadata": 9,
+      "radical": 1,
+      "object": 56,
+      "kanjipedia": 4
+    },
+    "frozenSourceCommunityLevelsNotProviderHistoricalJlpt": true,
+    "boundary": "Actualentiresuccessfulpayloadcomparisons,notmarkersalone;4wholeENprimary+7wholeEN/RUpairs+1wholeEN-only=19bodies,12EN7RU;9KANJIDIC+1Unicode+56completeorderedJMdict+4wholevisibleKanjiPedia=70TEXT;oneWHOLEheaderADDITIONAL;ZEROglyphpixels/fullHTML/nativeapproval.12successfulREADERwindowsin11actualreaderTOOLreturns+oneSEPARATEwhole-header/rangesreturn;ONEownfilteredmetadata5-9windowNOTcredited,rereadwholeseparately;earlierprimaryreadingreturnseparate;NOT338typedpoolreading/newRUauthoring/independentreview/semanticfreeze/runtimeacceptance.WholebaselinepairreaderisvalidBEFOREfiveNAVmutations;futurecandidaterequiresCURRENTwholepairbindings,notreusingbaselineRAWs.",
+    "independentReviewOccurred": false,
+    "runtimeAcceptance": false,
+    "fullTaskComplete": false,
+    "continueRequired": true
+  },
+  "actualCompleteProspectiveReading": {
+    "schemaVersion": 1,
+    "batch": "098-turns-cause-trouble-and-garden-kanji",
+    "complete": true,
+    "recordedAt": "2026-11-08T19:03:19.348073+00:00",
+    "exactProposalsRawSha256": "b77549b4d931975f5d3db8383f1a6670f73400031b45ad0e7fb78c2e528f2772",
+    "exactProspectivePoolRawSha256": "037fe8cec46cb3633e048526217a340e115ecbfd83cb5e9ec4900fa7469e6e31",
+    "actualSuccessfulPublicReturns": [
+      {
+        "eventId": "5833d0e7-7b29-436d-9b16-7b78cb5568c0",
+        "actualSuccessfulPublicReturnUtf8Bytes": 11557,
+        "actualSuccessfulPublicReturnSha256": "652d60b5be4bc3fd27adf5f6334bccfe722fcbb4a77fd7cda17944e69a52032b",
+        "journalRecordExcludingLfSha256": "d7569fec77798e005290cf39678d0a424d8fd35e4d883084aeb9547d9b662912",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "ru",
+            "0",
+            "4"
+          ]
+        ]
+      },
+      {
+        "eventId": "156b6530-fc9a-4a09-821f-c6a79611f66f",
+        "actualSuccessfulPublicReturnUtf8Bytes": 6243,
+        "actualSuccessfulPublicReturnSha256": "8a9956d2a24e58d31aacad744cfe97d33c74c72d522913bf226d81d36e55b39b",
+        "journalRecordExcludingLfSha256": "96cbe7cf8c0a2c63f28ab563267fb5399a405391f7274022d9113eed00494755",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "nav",
+            "0",
+            "5"
+          ]
+        ]
+      },
+      {
+        "eventId": "c2f6cab6-463e-4820-96e8-8d79e870a90a",
+        "actualSuccessfulPublicReturnUtf8Bytes": 12161,
+        "actualSuccessfulPublicReturnSha256": "f0d50220663c287a1ac6ce342b64e74505739c6511c640b7e27eba91b8347245",
+        "journalRecordExcludingLfSha256": "d94fdfb7ee8826899f901e473c2f9b4372b759c621066b270990100881f0acbc",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "pool",
+            "0",
+            "36"
+          ]
+        ]
+      },
+      {
+        "eventId": "a3926732-fcb7-4a09-8401-e1794fe9e064",
+        "actualSuccessfulPublicReturnUtf8Bytes": 12185,
+        "actualSuccessfulPublicReturnSha256": "64f181e289305ecf951f81a672fdf5de54eac7ce42fb3821327ddf8dbc536ae0",
+        "journalRecordExcludingLfSha256": "d7c986e1f57bc43762cc2ea9221418e21d95ba197c2cfb6548a26f10424a9d1f",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "pool",
+            "36",
+            "72"
+          ]
+        ]
+      },
+      {
+        "eventId": "b26cb23c-d080-4d2b-a356-aff7da19f48f",
+        "actualSuccessfulPublicReturnUtf8Bytes": 12153,
+        "actualSuccessfulPublicReturnSha256": "705ba94149aa19d39c09628740ee85d56fe26552e6b2ea86a517312966a5f965",
+        "journalRecordExcludingLfSha256": "b75b4286491a48578b9410880c1002cc3e68942ce7900bca5592940537be2aed",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "pool",
+            "72",
+            "108"
+          ]
+        ]
+      },
+      {
+        "eventId": "f15e9e9e-e641-456e-a76a-b1810f88f906",
+        "actualSuccessfulPublicReturnUtf8Bytes": 12157,
+        "actualSuccessfulPublicReturnSha256": "af40eabe38262151184bb92e454b15f83816c3ad238c898a0800a4aadece4f5a",
+        "journalRecordExcludingLfSha256": "8d8fc7abf468860c170cb9f0f4500880e8fab098e7ad040ec815f3bd0a93b938",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "pool",
+            "108",
+            "144"
+          ]
+        ]
+      },
+      {
+        "eventId": "ed547bfb-1030-4349-8b12-49236312c555",
+        "actualSuccessfulPublicReturnUtf8Bytes": 12433,
+        "actualSuccessfulPublicReturnSha256": "d5750655d7c39246c490a2be583c10f739beb079ee9a18bc456a76bbbcafd337",
+        "journalRecordExcludingLfSha256": "e71a2a796c4149f92d42a1a08f17194d3bd610d42a22f205fcd617c477863e8f",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "pool",
+            "144",
+            "183"
+          ]
+        ]
+      },
+      {
+        "eventId": "ee4627c5-311d-4dc9-887e-a6d6c511177e",
+        "actualSuccessfulPublicReturnUtf8Bytes": 12337,
+        "actualSuccessfulPublicReturnSha256": "b51b219257be581252c12eeb6d587ae87b0e98f5b2bcfaa4f8b4194a14fc65a1",
+        "journalRecordExcludingLfSha256": "8b208c5df1ae3e7786c4ed1e72316b4f56367e5cec87a5a0943a3bc788f29506",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "pool",
+            "183",
+            "220"
+          ]
+        ]
+      },
+      {
+        "eventId": "a6e5663c-0e4f-4170-bfb6-ee13d9503d95",
+        "actualSuccessfulPublicReturnUtf8Bytes": 12349,
+        "actualSuccessfulPublicReturnSha256": "91265cf289e71396278823cfdb1a2fa540140526644625ce910d51bbf8dd2a13",
+        "journalRecordExcludingLfSha256": "56162b4bfa512f585c9a76d6aa913fe0baa31e0332e1c8c629e14ef5cab16c6a",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "pool",
+            "220",
+            "257"
+          ]
+        ]
+      },
+      {
+        "eventId": "65f6b767-1024-4c49-b893-6209a0eb1d36",
+        "actualSuccessfulPublicReturnUtf8Bytes": 12305,
+        "actualSuccessfulPublicReturnSha256": "c1ee38cefebdce3556e96346131b7622eea5083a138e2f5ae3e0e64fddbe02be",
+        "journalRecordExcludingLfSha256": "524edc34261788964109ae5eac6d61d1ebb647ee85b5bf9400ccc31f2a0e8b69",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "pool",
+            "257",
+            "294"
+          ]
+        ]
+      },
+      {
+        "eventId": "1e152944-62b3-4a23-9805-8007712515d5",
+        "actualSuccessfulPublicReturnUtf8Bytes": 12230,
+        "actualSuccessfulPublicReturnSha256": "651bcc5029949f75916079961fc63ffeda9f6184600fc65b3d6350e77ae74580",
+        "journalRecordExcludingLfSha256": "af0cde971d1bfb6d7232bf4a1d818c42c4b79beef49b7d7279a06c4bf4834c75",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "pool",
+            "294",
+            "330"
+          ]
+        ]
+      },
+      {
+        "eventId": "4bb0d030-2327-4d26-ad01-e7dbb0760cc1",
+        "actualSuccessfulPublicReturnUtf8Bytes": 2672,
+        "actualSuccessfulPublicReturnSha256": "13d2d347ff6f184608fc91d7e0541e30d6cdd61c538ce33e7bbd833b1cd297d7",
+        "journalRecordExcludingLfSha256": "021f161b12bad58f2a20b8f85b0c5dad696ad76feb61041f9feda2e986106df1",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          [
+            "pool",
+            "330",
+            "338"
+          ]
+        ]
+      }
+    ],
+    "actualSuccessfulReadingToolReturns": 12,
+    "actualSuccessfulReaderWindows": 12,
+    "actualWholeProposedRussianLessons": 4,
+    "actualWholeExactNavigationPatches": 5,
+    "actualWholeTypedProspectiveMetadataRows": 338,
+    "actualCoverage": {
+      "ru": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "nav": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "pool": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337
+      ]
+    },
+    "boundary": "Entireactualsuccessfulpayloadscompared,notmarkersalone;4WHOLEprivateRUproposals/5WHOLEexactstandalone-glyphNAVpatches/338WHOLEtypedunits;12readerwindowsin12actualtoolreturns.NOT338wholelessons/CURRENTruntimepool/fresh1478wordguards/independentreview/semanticfreeze/acceptance.",
+    "runtimeAcceptance": false
+  },
+  "actualAuthorAdjudicationInspection": [
+    {
+      "eventId": "48c6d999-dd70-4cd7-8e82-c5c5b4c9b6e0",
+      "actualSuccessfulPublicReturnUtf8Bytes": 11675,
+      "actualSuccessfulPublicReturnSha256": "b22fb3fc9fad0cf5086ac24476f2c49c416d3659036617fd4bcc6c3cf4043084",
+      "journalRecordExcludingLfSha256": "e53985e78ee38479837c39f93e317b5f100600e11b151f77811d5036d990cdb7",
+      "entireBoundAuthorAdjudicationPayloadCompared": true
+    }
+  ],
+  "completeBoundProposals": {
+    "schemaVersion": 1,
+    "batch": "098-turns-cause-trouble-and-garden-kanji",
+    "recordedAt": "2026-11-08T18:57:57.543917+00:00",
+    "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "russianBaselineSnapshot": "7531f4c2f2abd1932a90bebdd34a741161986bca",
+    "newKanjiLessons": [
+      {
+        "id": "回",
+        "path": "kanji/回.md",
+        "metadata": {
+          "kanji": "回",
+          "title": "вращаться; раз",
+          "jlpt": 3,
+          "tags": [
+            "jlpt-n3",
+            "grade-2",
+            "structure-unclassified"
+          ],
+          "strokes": 6,
+          "radical": "囗",
+          "radicalNumber": 31,
+          "onyomi": [
+            "カイ",
+            "エ"
+          ],
+          "kunyomi": [
+            "まわ.る",
+            "-まわ.る",
+            "-まわ.り",
+            "まわ.す",
+            "-まわ.す",
+            "まわ.し-",
+            "-まわ.し",
+            "もとお.る",
+            "か.える"
+          ],
+          "distractors": [
+            "因",
+            "困",
+            "国"
+          ]
+        },
+        "completeRussianPayloadUtf8": "---\nkanji: 回\ntitle: вращаться; раз\njlpt: 3\ntags: [jlpt-n3, grade-2, structure-unclassified]\nstrokes: 6\nradical: 囗\nradicalNumber: 31\nonyomi: [カイ, エ]\nkunyomi: [まわ.る, -まわ.る, -まわ.り, まわ.す, -まわ.す, まわ.し-, -まわ.し, もとお.る, か.える]\ndistractors: [因, 困, 国]\n---\n\n# 回 — вращаться; раз\n\n**Черты:** 6 · **Ключ (радикал):** 囗 (№ 31) · **JLPT:** N3 (список сообщества)\n\n## Значение и происхождение\n\n回 связывает вращение и движение по кругу с повторяющимися случаями.\n[回る](../words/回る.md) まわる описывает то, что само вращается;\n回す まわす — действие, когда что-либо вращают или поворачивают.\nКак счётный суффикс 回 считает разы: 一回 いっかい — «один раз».\n\n**Мнемоника по современной форме:** мысленно обведите маршрут\nвокруг внутреннего квадрата.\nЭто подсказка по нынешнему очертанию, а не утверждение о происхождении знака.\n\n## Чтения\n\n| Чтение | Тип | Примеры |\n| --- | --- | --- |\n| まわ.る | кунное | [回る](../words/回る.md) まわる — вращаться; двигаться по кругу |\n| まわ.す | кунное | 回す まわす — вращать; поворачивать что-либо |\n| カイ | онное | 回転 かいてん — вращение; 一回 いっかい — один раз |\n\nТаблица выбирает примеры, а не перечисляет все чтения.\nДополнительные чтения и формы с дефисом из словаря сохранены в метаданных.\n\n## Частые слова\n\n- [回る](../words/回る.md) まわる — вращаться; обходить.\n- 回す まわす — вращать; крутить что-либо.\n- 回転 かいてん — вращение.\n- 一回 いっかい — один раз.\n\n## Примечания\n\nВнешняя рамка 囗 — ключ-ограда, а не меньший ключ «рот» 口.\nУ [因](因.md), [困](困.md) и [国](国.md) та же рамка, но внутри другие элементы.\nУдвоенную согласную っ в いっかい запоминайте как часть слова 一回.\n\n回る — непереходный глагол: вращается или движется сам предмет.\n回す — переходный: кто-то вращает что-либо или передаёт по кругу.\nУ 回る есть и другие словарные значения, например «обходить несколько мест»\nили «заходить куда-либо по пути»; вводный урок не сводит их к одному переводу.\n\nИсточники: [KANJIDIC2](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project);\n[JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатьи 1604300, 1199350, 1199640 и 1161310.\n",
+        "proposedWorkingRawSha256": "7346f7e3fa6992593a04242087e7b688b6ae076d6577c49f85157b7f27e97a8e",
+        "proposedLfSha256": "7346f7e3fa6992593a04242087e7b688b6ae076d6577c49f85157b7f27e97a8e",
+        "frozenSourceGitRawSha256": "33020552ef219618a96cc6ef7d3077dd6bf71c9da6e1dde611da04ac631cfb01",
+        "wholePayloadLines": 60,
+        "actualGitTextEolAttributes": [
+          "kanji/回.md",
+          "text",
+          "set",
+          "kanji/回.md",
+          "eol",
+          "lf"
+        ],
+        "proposedNewMarkdownWorkingEol": "LF;actualrepositoryeol=lfverifiedbeforeproposal",
+        "allFourCanonicalRussianH2ExactlyVerifiedBeforeProposal": true,
+        "allJapaneseMetadataExceptRussianTitlePreserved": true,
+        "privateProposalNotRuntimeMutation": true
+      },
+      {
+        "id": "因",
+        "path": "kanji/因.md",
+        "metadata": {
+          "kanji": "因",
+          "title": "причина; фактор",
+          "jlpt": 3,
+          "tags": [
+            "jlpt-n3",
+            "grade-5",
+            "structure-unclassified"
+          ],
+          "strokes": 6,
+          "radical": "囗",
+          "radicalNumber": 31,
+          "onyomi": [
+            "イン"
+          ],
+          "kunyomi": [
+            "よ.る",
+            "ちな.む"
+          ],
+          "distractors": [
+            "回",
+            "困",
+            "国"
+          ]
+        },
+        "completeRussianPayloadUtf8": "---\nkanji: 因\ntitle: причина; фактор\njlpt: 3\ntags: [jlpt-n3, grade-5, structure-unclassified]\nstrokes: 6\nradical: 囗\nradicalNumber: 31\nonyomi: [イン]\nkunyomi: [よ.る, ちな.む]\ndistractors: [回, 困, 国]\n---\n\n# 因 — причина; фактор\n\n**Черты:** 6 · **Ключ (радикал):** 囗 (№ 31) · **JLPT:** N3 (список сообщества)\n\n## Значение и происхождение\n\n因 связан с тем, что вызывает какое-либо событие или от чего оно зависит.\nСначала запомните его в [原因](../words/原因.md) げんいん, «причина»,\nи в 要因 よういん, «главная причина; основной фактор».\nЭти слова называют то, что стоит за результатом, а не сам результат.\n\n**Мнемоника по современной форме:** представьте 大 внутри рамки\nкак «большой фактор», стоящий за проблемой.\nЭто придуманный образ для запоминания, а не этимология.\n\n## Чтения\n\n| Чтение | Тип | Примеры |\n| --- | --- | --- |\n| イン | онное | [原因](../words/原因.md) げんいん — причина; 要因 よういん — основной фактор |\n\nКунные чтения よ.る и ちな.む сохранены в метаданных;\nпримеры здесь сосредоточены на сочетаниях с онным чтением.\n\n## Частые слова\n\n- [原因](../words/原因.md) げんいん — причина; источник.\n- 要因 よういん — главная причина; основной фактор.\n\n## Примечания\n\nСнаружи — ключ-ограда 囗, а не 口.\nВ [困](困.md) внутри 木, а не 大; в [回](回.md) внутри ещё один квадрат.\n\n理由 りゆう — «причина; основание; мотив» — полезно сравнить с 原因.\nПо-русски оба слова нередко передают словом «причина».\nНо 原因 называет то, что вызвало событие, а словарь даёт 理由\nтакже значения «основание», «предлог» и «мотив».\nОбъяснение поступка и причина события не всегда отвечают на один и тот же вопрос.\n\nИсточники: [KANJIDIC2](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project);\n[JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатьи 1261190, 1546670 и 1550140.\n",
+        "proposedWorkingRawSha256": "f13dd51b5275cb964d68ee7f1e1429500f597932ae8231d8991fe060bcc8c447",
+        "proposedLfSha256": "f13dd51b5275cb964d68ee7f1e1429500f597932ae8231d8991fe060bcc8c447",
+        "frozenSourceGitRawSha256": "bb07376a591444ece7e57e54e0068afb96a3980b0ec51fe9b2ca3cdb952ba722",
+        "wholePayloadLines": 56,
+        "actualGitTextEolAttributes": [
+          "kanji/因.md",
+          "text",
+          "set",
+          "kanji/因.md",
+          "eol",
+          "lf"
+        ],
+        "proposedNewMarkdownWorkingEol": "LF;actualrepositoryeol=lfverifiedbeforeproposal",
+        "allFourCanonicalRussianH2ExactlyVerifiedBeforeProposal": true,
+        "allJapaneseMetadataExceptRussianTitlePreserved": true,
+        "privateProposalNotRuntimeMutation": true
+      },
+      {
+        "id": "困",
+        "path": "kanji/困.md",
+        "metadata": {
+          "kanji": "困",
+          "title": "быть в затруднении",
+          "jlpt": 3,
+          "tags": [
+            "jlpt-n3",
+            "grade-6",
+            "structure-unclassified"
+          ],
+          "strokes": 7,
+          "radical": "囗",
+          "radicalNumber": 31,
+          "onyomi": [
+            "コン"
+          ],
+          "kunyomi": [
+            "こま.る"
+          ],
+          "distractors": [
+            "因",
+            "回",
+            "国"
+          ]
+        },
+        "completeRussianPayloadUtf8": "---\nkanji: 困\ntitle: быть в затруднении\njlpt: 3\ntags: [jlpt-n3, grade-6, structure-unclassified]\nstrokes: 7\nradical: 囗\nradicalNumber: 31\nonyomi: [コン]\nkunyomi: [こま.る]\ndistractors: [因, 回, 国]\n---\n\n# 困 — быть в затруднении\n\n**Черты:** 7 · **Ключ (радикал):** 囗 (№ 31) · **JLPT:** N3 (список сообщества)\n\n## Значение и происхождение\n\n困 передаёт трудное положение: человек в затруднении,\nзашёл в тупик или не знает, как быть.\n[困る](../words/困る.md) こまる описывает затруднение самого человека;\n困難 こんなん называет трудность или тяготы в более общем смысле.\n\n**Мнемоника по современной форме:** представьте 木, которое растёт\nвнутри рамки, и ему негде разрастись.\nСтиснутое дерево — подсказка для памяти о безвыходном положении,\nа не утверждение об истории знака.\n\n## Чтения\n\n| Чтение | Тип | Примеры |\n| --- | --- | --- |\n| こま.る | кунное | [困る](../words/困る.md) こまる — быть в затруднении; не знать, как быть |\n| コン | онное | 困難 こんなん — трудность; тяготы |\n\n## Частые слова\n\n- [困る](../words/困る.md) こまる — быть в затруднении.\n- 困難 こんなん — трудность; трудный.\n- 困らせる こまらせる — ставить кого-либо в затруднительное положение; доставлять неудобство.\n\n## Примечания\n\nКлюч-ограда 囗 окружает 木. В [因](因.md) внутри рамки 大.\n\nРазличайте направление действия: 困る — самому оказаться в затруднении;\n困らせる — поставить в такое положение другого человека.\nУ 困る есть и значения «испытывать неудобство» и «испытывать нужду»:\nперевод «быть в затруднении» не исчерпывает всех употреблений.\n[難しい](../words/難しい.md) むずかしい может описывать трудную задачу,\nне сообщая, что конкретный человек сейчас в затруднении.\n\nИсточники: [KANJIDIC2](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project);\n[JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатьи 1289590, 1289620, 1289550 и 1460850.\n",
+        "proposedWorkingRawSha256": "8bf4a009cb82b4232e7761349c9fd8a54c8e604c81d3306acfc1932fd9a7623c",
+        "proposedLfSha256": "8bf4a009cb82b4232e7761349c9fd8a54c8e604c81d3306acfc1932fd9a7623c",
+        "frozenSourceGitRawSha256": "5e23a11ea4a52bfea1d7e9dbb0dcde01d16951ecceb5134842b6f8bc183baa03",
+        "wholePayloadLines": 56,
+        "actualGitTextEolAttributes": [
+          "kanji/困.md",
+          "text",
+          "set",
+          "kanji/困.md",
+          "eol",
+          "lf"
+        ],
+        "proposedNewMarkdownWorkingEol": "LF;actualrepositoryeol=lfverifiedbeforeproposal",
+        "allFourCanonicalRussianH2ExactlyVerifiedBeforeProposal": true,
+        "allJapaneseMetadataExceptRussianTitlePreserved": true,
+        "privateProposalNotRuntimeMutation": true
+      },
+      {
+        "id": "園",
+        "path": "kanji/園.md",
+        "metadata": {
+          "kanji": "園",
+          "title": "парк; сад",
+          "jlpt": 3,
+          "tags": [
+            "jlpt-n3",
+            "grade-2",
+            "structure-unclassified"
+          ],
+          "strokes": 13,
+          "radical": "囗",
+          "radicalNumber": 31,
+          "onyomi": [
+            "エン"
+          ],
+          "kunyomi": [
+            "その"
+          ],
+          "distractors": [
+            "国",
+            "困",
+            "回"
+          ]
+        },
+        "completeRussianPayloadUtf8": "---\nkanji: 園\ntitle: парк; сад\njlpt: 3\ntags: [jlpt-n3, grade-2, structure-unclassified]\nstrokes: 13\nradical: 囗\nradicalNumber: 31\nonyomi: [エン]\nkunyomi: [その]\ndistractors: [国, 困, 回]\n---\n\n# 園 — парк; сад\n\n**Черты:** 13 · **Ключ (радикал):** 囗 (№ 31) · **JLPT:** N3 (список сообщества)\n\n## Значение и происхождение\n\n園 встречается в словах о парках и садах.\nВ [公園](../words/公園.md) こうえん это общественный парк,\nа в 動物園 どうぶつえん — зоопарк.\nПервая часть сложного слова показывает, о каком месте идёт речь.\n\n**Мнемоника по современной форме:** представьте внешнюю рамку\nкак ограду парка вокруг сложной фигуры 袁 внутри.\nЭто зрительная подсказка, а не доказательство того,\nчто знак возник как план парка.\n\n## Чтения\n\n| Чтение | Тип | Примеры |\n| --- | --- | --- |\n| エン | онное | [公園](../words/公園.md) こうえん — парк; 庭園 ていえん — сад |\n\nВ метаданных сохранено и кунное чтение その.\nВ приведённых здесь сочетаниях используется エン.\n\n## Частые слова\n\n- [公園](../words/公園.md) こうえん — общественный парк.\n- 庭園 ていえん — сад.\n- 動物園 どうぶつえん — зоопарк.\n\n## Примечания\n\nКлюч — охватывающая рамка 囗, а не похожая на 口 часть внутри.\nСравните [国](国.md), [困](困.md) и [回](回.md):\nпо одной внешней рамке знак не опознать.\n公演 тоже читается こうえん, но означает публичное выступление, а не парк.\n\nИсточники: [KANJIDIC2](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project);\n[JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатьи 1273270, 1436140, 1451490 и 1273280.\n",
+        "proposedWorkingRawSha256": "5b4443100fe5a98fb6098eac3b793f03a1c67ae210f897900480138221d91632",
+        "proposedLfSha256": "5b4443100fe5a98fb6098eac3b793f03a1c67ae210f897900480138221d91632",
+        "frozenSourceGitRawSha256": "054668b74a7270c8b6acfa77eb0a1608d947220ec6fc190a8d9e3782b61481d3",
+        "wholePayloadLines": 54,
+        "actualGitTextEolAttributes": [
+          "kanji/園.md",
+          "text",
+          "set",
+          "kanji/園.md",
+          "eol",
+          "lf"
+        ],
+        "proposedNewMarkdownWorkingEol": "LF;actualrepositoryeol=lfverifiedbeforeproposal",
+        "allFourCanonicalRussianH2ExactlyVerifiedBeforeProposal": true,
+        "allJapaneseMetadataExceptRussianTitlePreserved": true,
+        "privateProposalNotRuntimeMutation": true
+      }
+    ],
+    "existingWordNavigation": [
+      {
+        "path": "words/公園.md",
+        "metadata": {
+          "word": "公園",
+          "reading": "こうえん",
+          "jlpt": 5,
+          "title": "общественный парк",
+          "type": "kango",
+          "kanji": [
+            "公",
+            "園"
+          ],
+          "tags": [
+            "kango",
+            "places"
+          ],
+          "quiz_exclusions": [
+            "庭"
+          ]
+        },
+        "beforeWorkingRawSha256": "3262e03c7788d00ed3ae68350ce03392243134e09a6dac5ca4a86aedc0f08903",
+        "beforeGitRawSha256": "2c033d1dbd5293ec2b2ed7ba2a5722a7eaf257a429c37d51be4ab0acf42368d2",
+        "afterWorkingRawSha256": "4e2edfe4d3a805f66c95c61610f9858d8d550831549f57a1d1bd97c5f6d4b163",
+        "completeProposedRussianPayloadUtf8": "---\r\nword: 公園\r\nreading: こうえん\r\njlpt: 5\r\ntitle: общественный парк\r\ntype: kango\r\nkanji: [公, 園]\r\ntags: [kango, places]\r\nquiz_exclusions: [庭]\r\n---\r\n\r\n# 公園（こうえん）— общественный парк\r\n\r\n## Значение\r\n\r\n公園 — общественный парк: место для отдыха на открытом воздухе, прогулок или игр. Слово не уточняет размер парка и то, какие объекты в нём находятся.\r\n\r\n- 日曜日に公園で友達と遊びました。 (にちようびにこうえんでともだちとあそびました。) — В воскресенье я играл с друзьями в парке.\r\n- 公園に行きましょう。 (こうえんにいきましょう。) — Давайте пойдём в парк.\r\n\r\nで обозначает место занятия в парке, а に — пункт назначения с 行く.\r\n\r\n## Как сочетаются кандзи\r\n\r\n[公](../kanji/公.md) — «общественный» — уточняет [園](../kanji/園.md), «парк; сад». Получается общественный парк, а не любой частный сад.\r\n\r\nОба чтения онные: コウ + エン. Сохраняйте долготу こう, отличая её от краткого こ.\r\n\r\n## Синонимы и антонимы\r\n\r\n[庭](庭.md)（にわ）— сад или двор, например возле дома. 広場（ひろば）— площадь, открытая площадка или пространство; такая площадка может быть частью парка, но слова не равнозначны. 庭園（ていえん）тоже обозначает сад, но само по себе не уточняет, открыт ли он для всех. Общего антонима у 公園 нет.\r\n\r\n## Оттенки значения\r\n\r\n公演 тоже читается こうえん, но означает публичное выступление. Второй кандзи различает место и событие.\r\n\r\nJMdict отмечает 公苑（こうえん）как написание, иногда встречающееся в названиях парков. Сохраняйте собственное название конкретного парка, а не исправляйте его по образцу заглавного слова этой карточки.\r\n\r\nСловарь: [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project), записи 1273270（公園）, 1436130（庭）, 1278590（広場）, 1436140（庭園）и 1273280（公演）.\r\n",
+        "navigationOnly": true,
+        "exactSemanticSectionEdits": [],
+        "exactEdits": [
+          {
+            "kanji": "園",
+            "section": "Как сочетаются кандзи",
+            "linkLabel": "園",
+            "beforeLine": "[公](../kanji/公.md) — «общественный» — уточняет 園, «парк; сад». Получается общественный парк, а не любой частный сад.\r",
+            "afterLine": "[公](../kanji/公.md) — «общественный» — уточняет [園](../kanji/園.md), «парк; сад». Получается общественный парк, а не любой частный сад.\r",
+            "exactCharacterOffsetWithinLine": 47,
+            "exactOnlyWrapperChange": "Wrap existing standalone glyph only, including inline prose.",
+            "existingMarkdownSpansProtected": true
+          }
+        ],
+        "wholeWordLabelIntentionallyNotSplit": false,
+        "visibleProseJapaneseMetadataQuizArraysAndOldLinksUnchanged": true
+      },
+      {
+        "path": "words/動物園.md",
+        "metadata": {
+          "word": "動物園",
+          "reading": "どうぶつえん",
+          "title": "зоопарк",
+          "jlpt": 4,
+          "type": "kango",
+          "kanji": [
+            "動",
+            "物",
+            "園"
+          ],
+          "tags": [
+            "kango",
+            "noun",
+            "places",
+            "animals"
+          ]
+        },
+        "beforeWorkingRawSha256": "af68961d82a078f4fffe8c13598947f2bd3a3b08a4c72c72a55853772a7690a9",
+        "beforeGitRawSha256": "af68961d82a078f4fffe8c13598947f2bd3a3b08a4c72c72a55853772a7690a9",
+        "afterWorkingRawSha256": "0d4f25c9a8ff8cdf142bfadfb0002dd4143da0218b4b3c5148023b24d7fb2a32",
+        "completeProposedRussianPayloadUtf8": "---\nword: 動物園\nreading: どうぶつえん\ntitle: зоопарк\njlpt: 4\ntype: kango\nkanji: [動, 物, 園]\ntags: [kango, noun, places, animals]\n---\n\n# 動物園（どうぶつえん） — зоопарк\n\n## Значение\n\n動物園 — зоопарк:\nместо, где содержат животных\nи посетители могут их увидеть.\n\n日曜日に子供と動物園へ行きました。\n（にちようびにこどもとどうぶつえんへいきました。）—\nВ воскресенье я сходил с ребёнком в зоопарк.\n\nへ отмечает место назначения.\nА в 動物園で写真を撮る（どうぶつえんでしゃしんをとる）,\n«фотографировать в зоопарке»,\nдля места действия используется で.\n\n## Как сочетаются кандзи\n\n[動](../kanji/動.md) и [物](../kanji/物.md)\nобразуют 動物（どうぶつ）, «животное».\n[園](../kanji/園.md) с чтением エン\nдобавляет парк или огороженную территорию.\nВсё сочетание использует онные чтения.\nСохраняйте долгий гласный в どう.\n\n## Синонимы и антонимы\n\n水族館（すいぞくかん）— океанариум, публичный аквариум,\nа 植物園（しょくぶつえん）— ботанический сад.\nЭто связанные места для посещения,\nа не синонимы.\n\n## Оттенки значения\n\n動物 называет животное,\nа 動物園 — учреждение или место.\nЕсли в парке просто встретились животные,\nот этого он не становится 動物園.\n\nСловарь: [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатья 1451490, значение 1.\n",
+        "navigationOnly": true,
+        "exactSemanticSectionEdits": [],
+        "exactEdits": [
+          {
+            "kanji": "園",
+            "section": "Как сочетаются кандзи",
+            "linkLabel": "園",
+            "beforeLine": "園 с чтением エン",
+            "afterLine": "[園](../kanji/園.md) с чтением エン",
+            "exactCharacterOffsetWithinLine": 0,
+            "exactOnlyWrapperChange": "Wrap existing standalone glyph only, including inline prose.",
+            "existingMarkdownSpansProtected": true
+          }
+        ],
+        "wholeWordLabelIntentionallyNotSplit": false,
+        "visibleProseJapaneseMetadataQuizArraysAndOldLinksUnchanged": true
+      },
+      {
+        "path": "words/原因.md",
+        "metadata": {
+          "word": "原因",
+          "reading": "げんいん",
+          "title": "причина",
+          "jlpt": 4,
+          "type": "kango",
+          "kanji": [
+            "原",
+            "因"
+          ],
+          "tags": [
+            "kango",
+            "explanation"
+          ],
+          "quiz_exclusions": [
+            "理由",
+            "本"
+          ]
+        },
+        "beforeWorkingRawSha256": "f3b7852ab42535d918b511c4d55f482c9b622cb25a0d24549c3b3a3cca7c95c4",
+        "beforeGitRawSha256": "f3b7852ab42535d918b511c4d55f482c9b622cb25a0d24549c3b3a3cca7c95c4",
+        "afterWorkingRawSha256": "7a57d348e102b53e9670ed33d3b81c59e0d19fe93e3081e67e2e9fcc0e495d84",
+        "completeProposedRussianPayloadUtf8": "---\nword: 原因\nreading: げんいん\ntitle: причина\njlpt: 4\ntype: kango\nkanji: [原, 因]\ntags: [kango, explanation]\nquiz_exclusions: [理由, 本]\n---\n\n# 原因（げんいん）— причина\n\n## Значение\n\n原因 — причина, источник события или состояния:\nто, что привело к нему.\nСобытие, причину которого называют, присоединяют через の:\n事故の原因（じこのげんいん）— «причина аварии».\n\n- 事故の原因を調べています。（じこのげんいんをしらべています。）— Мы выясняем причину аварии.\n\nВ примере расследование ещё не устанавливает, в чём именно причина.\n原因 можно назвать и то, что пока неизвестно.\n\n## Как сочетаются кандзи\n\n[原](../kanji/原.md) связан с исходным источником,\nа [因](../kanji/因.md) — с причиной или причинным фактором.\nВместе эти значения направляют от результата к тому, что его породило.\nОнные чтения — ゲン + イン:\nв げんいん сохраняйте ん перед い.\n\n## Синонимы и антонимы\n\n理由（りゆう）, «причина; основание», может объяснять решение\nили обосновывать его.\n原因 прямее спрашивает о том, что вызвало событие или состояние.\nЗначения могут пересекаться:\nэто не правило, которое делит все объяснения на две жёсткие категории.\n\n結果（けっか）, «результат», — другая сторона причинно-следственной связи,\nа не просто синоним с противоположной эмоциональной окраской.\n\n## Оттенки значения\n\n原因 касается причинности, не обязательно вины.\nПричиной может быть погода, состояние механизма или действие.\nСамо слово не указывает ответственного человека\nи не доказывает правильность предложенного объяснения.\n\nСловарь: [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатьи 1261190（原因）, 1550140（理由）и 1254690（結果）.\n",
+        "navigationOnly": true,
+        "exactSemanticSectionEdits": [],
+        "exactEdits": [
+          {
+            "kanji": "因",
+            "section": "Как сочетаются кандзи",
+            "linkLabel": "因",
+            "beforeLine": "а 因 — с причиной или причинным фактором.",
+            "afterLine": "а [因](../kanji/因.md) — с причиной или причинным фактором.",
+            "exactCharacterOffsetWithinLine": 2,
+            "exactOnlyWrapperChange": "Wrap existing standalone glyph only, including inline prose.",
+            "existingMarkdownSpansProtected": true
+          }
+        ],
+        "wholeWordLabelIntentionallyNotSplit": false,
+        "visibleProseJapaneseMetadataQuizArraysAndOldLinksUnchanged": true
+      },
+      {
+        "path": "words/回る.md",
+        "metadata": {
+          "word": "回る",
+          "reading": "まわる",
+          "jlpt": 4,
+          "title": "вращаться; обходить",
+          "type": "wago",
+          "kanji": [
+            "回"
+          ],
+          "tags": [
+            "wago",
+            "verb",
+            "movement"
+          ],
+          "quiz_exclusions": [
+            "動く",
+            "働く",
+            "運転",
+            "通る",
+            "曲る"
+          ]
+        },
+        "beforeWorkingRawSha256": "b8fc72b8658dd1975c5cedcc4289cf11c43e377b6371e9f6a33c4076e01da615",
+        "beforeGitRawSha256": "b8fc72b8658dd1975c5cedcc4289cf11c43e377b6371e9f6a33c4076e01da615",
+        "afterWorkingRawSha256": "f01f3f2c4755b2350420d152f7cfb58d91754367c25dd6c0ac8e768225040dc5",
+        "completeProposedRussianPayloadUtf8": "---\nword: 回る\nreading: まわる\njlpt: 4\ntitle: вращаться; обходить\ntype: wago\nkanji: [回]\ntags: [wago, verb, movement]\nquiz_exclusions: [動く, 働く, 運転, 通る, 曲る]\n---\n\n# 回る（まわる）— вращаться; обходить\n\n## Значение\n\n回る описывает вращение: что-либо вертится или поворачивается.\nВ этом значении глагол непереходный:\nвращающийся предмет выступает подлежащим,\nа не объектом, который кто-то крутит.\n\n- こまが回っています。（こまがまわっています。）— Волчок крутится.\n- 車のタイヤがゆっくり回っています。（くるまのタイヤがゆっくりまわっています。）— Колёса машины медленно вращаются.\n\nВежливая форма — 回ります（まわります）, форма на て — 回って（まわって）.\nХотя словарная форма заканчивается на る, формы まわます у этого глагола нет.\n\n回る также обозначает движение вокруг чего-либо или обход нескольких мест.\nВ таких употреблениях を может отмечать маршрут или посещаемые места,\nа не предмет, который вращают.\n\n- 地球は太陽の周りを回っています。（ちきゅうはたいようのまわりをまわっています。）— Земля вращается вокруг Солнца.\n- 午後、町の店を回りました。（ごご、まちのみせをまわりました。）— После обеда я обошёл магазины в городе.\n\n## Как сочетаются кандзи\n\n[回](../kanji/回.md) передаёт вращение или движение по кругу, а る — изменяемое окончание глагола.\nЭто исконное слово с чтением まわる.\nОнное чтение カイ встречается, например, в 回転（かいてん）, «вращение».\n\n## Синонимы и антонимы\n\n回す（まわす）— переходная пара: кто-то крутит предмет.\n手でこまを回しました。（てでこまをまわしました。）— Я раскрутил волчок рукой.\nСравните こまが回る и こまを回す:\nが отмечает то, что вращается, а を — то, что кто-то крутит.\n[止まる](止まる.md)（とまる）, «останавливаться»,\nпротивопоставляется продолжающемуся вращению в такой физической ситуации.\n\n## Оттенки значения\n\nРазличие между 回る и 回す определяется грамматическими ролями,\nа не одним русским переводом.\nНепереходный глагол не означает отсутствия внешней силы:\nвращение может вызывать мотор или рука.\nОн лишь представляет вращающийся предмет как подлежащее.\n\nСловарь: [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатьи 1604300（回る, значения 1–3: вращение, движение вокруг и обход мест）,\n1199350（回す）, 1199640（回転）и 1310620（止まる）.\n",
+        "navigationOnly": true,
+        "exactSemanticSectionEdits": [],
+        "exactEdits": [
+          {
+            "kanji": "回",
+            "section": "Как сочетаются кандзи",
+            "linkLabel": "回",
+            "beforeLine": "回 передаёт вращение или движение по кругу, а る — изменяемое окончание глагола.",
+            "afterLine": "[回](../kanji/回.md) передаёт вращение или движение по кругу, а る — изменяемое окончание глагола.",
+            "exactCharacterOffsetWithinLine": 0,
+            "exactOnlyWrapperChange": "Wrap existing standalone glyph only, including inline prose.",
+            "existingMarkdownSpansProtected": true
+          }
+        ],
+        "wholeWordLabelIntentionallyNotSplit": false,
+        "visibleProseJapaneseMetadataQuizArraysAndOldLinksUnchanged": true
+      },
+      {
+        "path": "words/困る.md",
+        "metadata": {
+          "word": "困る",
+          "reading": "こまる",
+          "title": "быть в затруднении",
+          "jlpt": 5,
+          "type": "wago",
+          "kanji": [
+            "困"
+          ],
+          "tags": [
+            "wago",
+            "verb",
+            "feelings"
+          ],
+          "quiz_exclusions": [
+            "苦しい"
+          ]
+        },
+        "beforeWorkingRawSha256": "0f28d3a0f7eb19fd11829be6cce8f4a2fc074e01ae964f7b825737550fb84091",
+        "beforeGitRawSha256": "1939e5e822bd0c9a6d71fb1386667c08d84977e366f1a1341261f42961302826",
+        "afterWorkingRawSha256": "a162d58fe110f5c61c7d3ea82ff24ffb8ba310468d2395d15bbd5471e65ea128",
+        "completeProposedRussianPayloadUtf8": "---\r\nword: 困る\r\nreading: こまる\r\ntitle: быть в затруднении\r\njlpt: 5\r\ntype: wago\r\nkanji: [困]\r\ntags: [wago, verb, feelings]\r\nquiz_exclusions: [苦しい]\r\n---\r\n\r\n# 困る（こまる）— быть в затруднении\r\n\r\n## Значение\r\n\r\n困る означает «быть в затруднении; не знать, как быть»:\r\nчеловеку трудно справиться с ситуацией.\r\nЭто непереходный глагол;\r\nподлежащее — тот, кто испытывает затруднение.\r\n\r\n- 財布をなくして困っています。（さいふをなくしてこまっています。）— Потеря кошелька поставила меня в трудное положение.\r\n- 道が分からなくて困りました。（みちがわからなくてこまりました。）— Я не знал дороги и растерялся.\r\n\r\nВежливая форма — 困ります（こまります）,\r\nа て-форма — 困って（こまって）.\r\nВ первом примере 財布を относится к なくす, «терять», а не к 困る.\r\n\r\n## Как сочетаются кандзи\r\n\r\n[困](../kanji/困.md) передаёт значение затруднения и читается こま в 困る;\r\nる записывается каной.\r\nЭто исконно японский глагол.\r\nОнное чтение コン встречается в 困難（こんなん）, «трудность; затруднение».\r\n\r\n## Синонимы и антонимы\r\n\r\n難しい（むずかしい）описывает что-либо трудное: задачу, дело или ситуацию.\r\n困る описывает человека, которого затронула трудность.\r\n困らせる（こまらせる）означает «поставить кого-либо в затруднение;\r\nпричинить неудобство»:\r\nэто смена точки зрения, а не синоним.\r\nЕдиного противоположного слова для всех видов затруднений нет.\r\n\r\n## Оттенки значения\r\n\r\n困る полезно и тогда, когда говорящий не может назвать конкретную эмоцию.\r\nЕсли не удаётся найти дорогу или вернуть кошелёк,\r\nчеловек может быть в состоянии 困っている,\r\nне испытывая при этом обязательно гнева или стыда.\r\nПередавайте практическую ситуацию,\r\nа не сводите слово к одной эмоции, например смущению.\r\n\r\nСловарь: [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\r\nстатьи 1289590（困る）, 1460850（難しい）,\r\n1289550（困らせる）и 1289620（困難）.\r\n",
+        "navigationOnly": true,
+        "exactSemanticSectionEdits": [],
+        "exactEdits": [
+          {
+            "kanji": "困",
+            "section": "Как сочетаются кандзи",
+            "linkLabel": "困",
+            "beforeLine": "困 передаёт значение затруднения и читается こま в 困る;\r",
+            "afterLine": "[困](../kanji/困.md) передаёт значение затруднения и читается こま в 困る;\r",
+            "exactCharacterOffsetWithinLine": 0,
+            "exactOnlyWrapperChange": "Wrap existing standalone glyph only, including inline prose.",
+            "existingMarkdownSpansProtected": true
+          }
+        ],
+        "wholeWordLabelIntentionallyNotSplit": false,
+        "visibleProseJapaneseMetadataQuizArraysAndOldLinksUnchanged": true
+      }
+    ],
+    "sourceDirectedMetadataCorrectionsProposed": [],
+    "originalSourceDirectionsRetained": 12,
+    "exactIndividualCitationIdFormReadingChecks": [
+      {
+        "lesson": "回",
+        "entryId": "1604300",
+        "exactForm": "回る",
+        "exactReading": "まわる",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "回",
+        "entryId": "1199350",
+        "exactForm": "回す",
+        "exactReading": "まわす",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "回",
+        "entryId": "1199640",
+        "exactForm": "回転",
+        "exactReading": "かいてん",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "回",
+        "entryId": "1161310",
+        "exactForm": "一回",
+        "exactReading": "いっかい",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "因",
+        "entryId": "1261190",
+        "exactForm": "原因",
+        "exactReading": "げんいん",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "因",
+        "entryId": "1546670",
+        "exactForm": "要因",
+        "exactReading": "よういん",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "因",
+        "entryId": "1550140",
+        "exactForm": "理由",
+        "exactReading": "りゆう",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "困",
+        "entryId": "1289590",
+        "exactForm": "困る",
+        "exactReading": "こまる",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "困",
+        "entryId": "1289620",
+        "exactForm": "困難",
+        "exactReading": "こんなん",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "困",
+        "entryId": "1289550",
+        "exactForm": "困らせる",
+        "exactReading": "こまらせる",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "困",
+        "entryId": "1460850",
+        "exactForm": "難しい",
+        "exactReading": "むずかしい",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "園",
+        "entryId": "1273270",
+        "exactForm": "公園",
+        "exactReading": "こうえん",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "園",
+        "entryId": "1436140",
+        "exactForm": "庭園",
+        "exactReading": "ていえん",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "園",
+        "entryId": "1451490",
+        "exactForm": "動物園",
+        "exactReading": "どうぶつえん",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "園",
+        "entryId": "1273280",
+        "exactForm": "公演",
+        "exactReading": "こうえん",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      }
+    ],
+    "actualCitationChecks": 15,
+    "citationCheckBoundary": "MechanicalexactwholeobjectID/form/readingidentity,NOTnewhumanreading/semanticapproval/frequency/registerproof.",
+    "sourcePreparationCompleteArtifact": "ru-098-author-preparation-reading-complete-001.json",
+    "sourcePreparationCompleteRawSha256": "eb6b71e42e41da0b3cc068992735030e7504a18a894c543c62c9748e871547f5",
+    "exactEvidenceBindingRawSha256": "af8e41a750db8f1d90469ddce528d704ab98004a59f158c58e37ae318d085172",
+    "explicitPremutationNavigationAmendment": null,
+    "plannedStandaloneGlyphWrappers": 5,
+    "plannedWholeWordLabelWrappers": 0,
+    "allJapaneseExamplesAndInvariantsPreserved": true,
+    "reviewerDisposition": "PENDING;NOmandatoryCLEANorfabricatednegativeapproval.",
+    "ordinaryActiveNegativeSafety": "UNVERIFIEDforall12historicaldirections;actualwhole回counter/turnsenses,因cause-versus-理由,困trouble/hardship,園garden/park/kindergartensensesrequireboundedconsideration;prospectivemetadataidentityisNOTnegativeclearance.",
+    "prior097All9OrdinarySafetyUnverifiedUnchanged": true,
+    "prior096All12OrdinarySafetyAndMeaningOnlyN008UnverifiedUnchanged": true,
+    "protectedSkyBoundary": {
+      "path": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+      "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+      "status": "excluded C2UNVERIFIED;notmedia",
+      "runtimeWordRemainsAbsent": true,
+      "priorKanjiSkyBoundary": "Accepted077kanji空doesNOTresolveprotectedwordcaptionblocker/ordinaryquiz/media/defaultactivation."
+    },
+    "learnerMutationOccurred": false,
+    "independentReviewOccurred": false,
+    "runtimeAcceptance": false,
+    "fullTaskComplete": false,
+    "continueRequired": true
+  },
+  "prospectiveTypedPoolArtifact": "ru-098-prospective-typed-kanji-pool-001.json",
+  "exactAuthorRulingsArtifact": "ru-098-author-source-adjudications-001.json",
+  "exactAuthorRulingsRawSha256": "9e294055add2c76cb50319c8ca84615173b34bb63f03d7af09b4fc4def110eaf",
+  "completeOfficialTextCounts": {
+    "KANJIDIC": 9,
+    "Unicode": 1,
+    "JMdict": 56,
+    "KanjiPedia": 4
+  },
+  "completeAdditionalOfficialProviderHeader": 1,
+  "actualDictionaryGlyphPixelViews": 0,
+  "wholeBilingualContextPaths": [
+    "kanji/国.md",
+    "words/公園.md",
+    "words/動物園.md",
+    "words/原因.md",
+    "words/回る.md",
+    "words/困る.md",
+    "words/難しい.md"
+  ],
+  "wholeEnglishOnlyComparisons": [
+    {
+      "path": "words/公演.md",
+      "sourceGitRawSha256": "eee11f6a0c7c1be28c02083132b0dbc45388e95dd07a377484bd214eb2452c53",
+      "captureIsReading": false,
+      "runtimeProvider": false
+    }
+  ],
+  "exactEvidenceBindingRawSha256": "af8e41a750db8f1d90469ddce528d704ab98004a59f158c58e37ae318d085172",
+  "boundAuthorHelpers": {
+    "ru098.py": "dd6793241621d2dce4ffbaa84823c8a508f42009ed375d1c2b07ad35dc8c63a5",
+    "ru098prepare.py": "63ee0d2eb7e46e30442c9edd1a0020f855d72e61ed99c27f0d63ea0bdfe15c11",
+    "ru098kanjipedia.py": "b22f19c58c69d485798b7447fcd70b8915b273aa857f44c5cfaf3df781fcae86",
+    "ru098lessons.py": "8796b2cb2670cbf8f43c3b9c9ba36cba9e22c3369d56100ad337557d216821ce",
+    "ru098draft.py": "02d239d08cdef116493b3f8298a844fc23b463a66c84e082365d5c602ca4d19d",
+    "ru098readreceipts.py": "9d5be254b0a7924e5e3b0d7f4b4ef17fa81a748be3e0b24f8eac4880a493f136",
+    "ru098freeze.py": "c5848c7ff3866144226d36df84cf2c7bd1db7765c63dfc19b39b40494c2f77d4"
+  },
+  "protectedSkyBoundary": {
+    "path": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+    "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+    "status": "excluded C2UNVERIFIED;notmedia",
+    "runtimeWordRemainsAbsent": true,
+    "priorKanjiSkyBoundary": "Accepted077kanji空doesNOTresolveprotectedwordcaptionblocker/ordinaryquiz/media/defaultactivation."
+  },
+  "acceptedMainRuntimeObjectsRemain": 2176,
+  "prospectiveRuntimeObjects": 2184,
+  "learnerMutationOccurred": false,
+  "independentReviewOccurred": false,
+  "sourceAccepted": false,
+  "ordinaryActivationAuthorized": false,
+  "checkpointAuthority": null
+}
