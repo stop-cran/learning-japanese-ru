@@ -11,6 +11,61 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
+The eightieth full-target batch adds **17 complete Russian kanji lessons/
+1089 file lines:16 actual N4 plus unchanged source-N3達**,and17 RAW-identical
+Japanese KanjiVG assets. Existing51 words receive51 **navigation-only wrappers**,
+with no semantic amendment:50 standalone glyph wrappers and the existing
+Russian meaning «продавать» in売り場. Japanese text,readings,examples,
+metadata,quiz arrays,visible prose and original links persist.
+Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`;
+original signed intake,premutation freeze and report persist.
+
+The [actual whole review](translation-batches/080-movement-routes-and-transitions-kanji-independent-review-001.json)
+read **199 complete teaching bodies**:17 primary EN/RU pairs,81 current
+context EN/RU pairs and three whole EN-only comparisons.
+Its **266 whole source-TEXT units** are46 KANJIDIC records,nine Unicode
+radical rows,193 whole ordered JMdict objects,17 whole visible KanjiPedia
+entry/alt-label projections and the entire selected平凡社「普及版 字通」発
+section including credit,visible[72,103)of146.
+This is not whole Kotobank HTML/page/pixels.
+The review read219 current typed kanji rows,all51 individual directions,
+15 adjudications,51 exact patches,eight outside-edge observations,
+four guidance files and three correct CURRENT RU-root rubrics.
+Entire successful payloads/complete oversized line unions are bound;
+219 metadata rows are not219 whole lessons or1478 fresh word-pool judgments.
+The **10722-byte detailed report is actual reviewer stdout**,SHA256
+`44fb95605bea67fa0b34220542595857adf807b1f4aed41e90c0752e4f8e892f`;
+native/task final is a different52-byte generic summary.
+Three actual unchanged-snapshot gates and four noncredited in-memory
+report-length attempts persist;no reading gap or second review is invented.
+
+**C1/C3: no consequential defect established within assigned scope.
+C2: qualified dependencies and individual lexical-core contrasts only,
+NOT whole C2 CLEAN.** All51 directions retain their individual qualified scope,
+not universal disjointness. Eight outside observations,including運/福 «удача»,
+are limitations,not new exclusions/global pair approvals.
+**Broader ordinary quiz/fallback suitability,modern necessity/frequency and
+future global uniqueness remain UNVERIFIED.** Rare/character attestation and
+the selected字通 section do not establish ordinary productive spelling,
+frequency,dictionary-only status or universal replacement.
+Old word guards retain prior identity/support/limits,not1478 fresh judgments;
+no semantic repair or learner correction occurred.
+
+Qualified source checkpoint: **1946 runtime objects/1478 words/
+219 kanji/219 strokes**. Words remain671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/**124 N4**/13 N3/2 N2,leaving **42 actual frozen N4 kanji**.
+Strict progress: **1946 reviewed-current,two excluded reviewed blocked-media
+drafts,6330 pending of8278;6332 runtime paths absent**,no partial.
+Version `abf49588ec0b0583`;checkpoint authority null/Ready false.
+1861 other baseline RAWs/tracking rows persist;51 word patches are NAV-only.
+Counts become accepted-main only after signed normal integration;
+fresh final checks,actual archives/signatures/four protected refs/exact-main CI
+are separate publication evidence. Stroke/root-license identity is not native,
+pixel or media approval. Protected033 **word**空 stays excluded/runtime-absent/
+C2 UNVERIFIED,not media;accepted077 **kanji**空 does not resolve it.
+No app/device/phone/IME/media/default/package/release authority.
+Continue081+ and ALL remaining safe frozen levels/families,not task completion.
+
 The seventy-ninth full-target batch adds **23 complete Russian kanji lessons/
 1480 file lines:22 actual N4 plus unchanged source-N3供**,and23 RAW-identical
 Japanese KanjiVG assets. Existing55 words receive56 navigation wrappers:

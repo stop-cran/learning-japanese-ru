@@ -1,6 +1,70 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch079 people, work and feelings kanji
+## Current qualified source milestone: batch080 movement, routes and transitions kanji
+
+Batch080 adds **17 complete Russian kanji lessons /1089 file lines:
+16 actual frozen N4 plus unchanged source-N3達**,and17 RAW-identical
+Japanese KanjiVG assets. Existing51 word bodies receive51
+**navigation-only wrappers**,with no semantic amendments.
+Fifty wrappers use existing standalone glyphs;売り場 wraps the existing
+Russian meaning `«[продавать](../kanji/売.md)»` without splitting the compound.
+Japanese text,readings,examples,metadata,quiz arrays,visible prose and
+old links remain unchanged. Frozen EN remains
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+Signed intake,premutation adjudication/freeze and original report are immutable.
+
+The [actual whole review](translation-batches/080-movement-routes-and-transitions-kanji-independent-review-001.json)
+read **199 complete teaching bodies**:17 primary EN/RU pairs,81 current
+context EN/RU pairs and three whole EN-only comparisons.
+Official evidence is **266 whole source-TEXT units**:46 KANJIDIC records,
+nine Unicode radical rows,193 ordered whole JMdict objects,17 whole visible
+KanjiPedia entry/alt-label projections and the entire selected
+平凡社「普及版 字通」発 section,including source credit.
+That section is visible lines[72,103)of146,not the whole Kotobank page,
+raw HTML or pixels. The review also read219 current typed kanji rows,
+all51 individual directed proposals,15 adjudications,51 exact navigation
+patches,eight outside-edge observations,four guidance files and three
+correct CURRENT RU-root rubrics. Entire successful payloads and complete
+oversized line unions are bound,not markers alone.
+219 metadata rows are not219 whole lessons or1478 fresh word judgments.
+The **10722-byte detailed report is actual successful reviewer stdout**,
+SHA256 `44fb95605bea67fa0b34220542595857adf807b1f4aed41e90c0752e4f8e892f`;
+native/task final is a different52-byte generic summary.
+All three actual unchanged-snapshot gates and four noncredited in-memory
+report-length attempts are preserved;no reading gaps or second review are invented.
+
+**C1/C3: no consequential defect established within assigned source-backed scope.
+C2: qualified dependencies and individual lexical-core contrasts only,
+NOT whole C2 CLEAN.** All51 directions have individual qualified dispositions,
+not universal semantic disjointness. Eight outside-edge observations include
+the actual運/福 title overlap «удача»,construction,cessation,ascertaining,
+emission and passage domains;they are not new exclusions or global pair judgments.
+**Broader ordinary quiz/fallback suitability,modern necessity/frequency and
+future global uniqueness remain UNVERIFIED.** Character/rare-reading attestation
+does not establish ordinary productive spelling or frequency.
+The selected字通 section does not establish dictionary-only status or universal
+modern replacement. Existing word guards retain prior identity/support/limits,
+not1478 fresh semantic approvals. No learner correction or semantic repair is claimed.
+
+The [qualified source record](translation-batches/080-movement-routes-and-transitions-kanji-reviewed-source.json)
+preserves1861 other baseline runtime RAWs/tracking rows.
+Qualified source checkpoint: **1946 runtime objects/1478 words/
+219 kanji/219 strokes**. Words remain671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/**124 N4**/13 N3/2 N2,leaving **42 actual frozen N4 kanji**.
+Strict progress: **1946 reviewed-current,two excluded reviewed blocked-media
+drafts,6330 pending of8278;6332 runtime paths absent**,no partial.
+Version `abf49588ec0b0583`;checkpoint authority null/Ready false.
+These become accepted-main counts only after signed normal integration;
+fresh final serialized checks,actual public archives/signatures/four protected
+refs/exact-main CI are separate publication evidence.
+Stroke/root-license identity is not pixel/native/media approval.
+Protected033 **word**空 remains excluded/runtime-absent/C2 UNVERIFIED,
+not media;accepted077 **kanji**空 does not resolve its caption blocker.
+No app/device/phone/IME/media/default/package/release authority.
+Continue081+ and ALL remaining safe frozen levels/families;
+neither this batch nor N4 word closure completes the finite target.
+
+## Previous qualified source milestone: batch079 people, work and feelings kanji
 
 Batch079 adds **23 complete Russian kanji lessons /1480 file lines:
 22 actual frozen N4 plus unchanged source-N3供**,and23 RAW-identical
