@@ -1,6 +1,82 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch094 absorption, breathing and blowing kanji
+## Current qualified source milestone: batch095 negation, announcement, voice and rejoicing kanji
+
+Batch095 adds **four complete Russian frozen N3 lessons,否/告/喜/声,
+319 file lines**,and four RAW-identical Japanese KanjiVG assets.
+Three existing word bodies receive three **NAV-only standalone-glyph wrappers**:
+喜び→喜,喜ぶ→喜,声→声. Visible prose,Japanese metadata,quiz arrays,
+old links and frozen community levels remain unchanged;no new guard or removed direction.
+Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The [actual whole review](translation-batches/095-negation-announcement-voice-and-rejoicing-kanji-independent-review-001.json)
+read **31 whole teaching bodies,17 EN/14 RU**:four primary pairs,ten CURRENT
+context pairs and three EN-only comparisons,including all three changed words.
+It read **99 whole official TEXT units**:15 KANJIDIC records,two Unicode rows,
+78 ordered JMdict objects and four visible KanjiPedia entries;one whole provider
+header is additional. All327 CURRENT typed metadata rows,12 original directions,
+four L rulings/four A clarifications,three exact NAV diffs,four outside LIMITS,
+four whole guidance files and three correct RU rubrics were read in
+**51 complete successful windows**. Zero glyph pixels;327 typed rows are not
+327 whole lessons or1478 fresh word-guard judgments.
+
+The original **10776-byte stdout/native-final report**,SHA256
+`9640c96d1a064310c7e225d512f2099f57234f5176a04e0dc3ef316cfe865044`,
+is published verbatim,including its final LF: **no projection or second review**.
+There were58 terminal tool returns:56 successes and two reviewer delivery-only
+size assertions at12197/11307 bytes,not failed readings. All54 helper invocations
+had distinct successful reader shells;one successful size-only measurement and
+one exact report emission are separate mechanics. Complete opening/closing gate
+payloads match;no unread window,truncation or nonterminal wait.
+One author-only capture-prefix audit failure remains separately preserved.
+Its premature alias-root diagnosis was explicitly withdrawn by actual evidence:
+the stdout-only report scripts had empty prefixes,not filesystem operations.
+The corrected audit accepts that form under the unchanged strict AST audit;
+no reviewer/source/report mutation or second review resulted.
+
+Actual verdicts are **C1 SUPPORT within assigned source teaching/C2 qualified
+SUPPORT for bounded source authoring,dependencies and introductory comparisons/
+C3 SUPPORT within14 whole CURRENT RU bodies**. These are not literal CLEAN
+verdicts or ordinary quiz approval. No necessary learner-text fix was established;
+the reviewer supplied no severity for the retained C2 negative-clearance qualification.
+**Eleven directions have actual SQ**,qualified introductory/source-core support
+only;the explicit canonical Q mapping does not rewrite the original report.
+**N012声→告 remains U**:whole KanjiPedia声②言う/述べる and
+告①つげる/知らせる/語る intersect,corroborated by JMdict1380440/1380540/1285990.
+A voice-only title/disclosure does not resolve it.
+Ordinary active-negative safety is **U for ALL12**;metadata retention is not approval.
+L001–L003 and all four A rulings/three NAV changes are supported;L004 is qualified.
+Four outside LIMITS are not new guards/global pairs.
+否いな/いや/ひ,告げる's signalling sense,喜ぶ/喜ばす grammar,
+声色こわいろ versusせいしょく and声明せいめい versusしょうみょう remain bounded.
+Modern mnemonics are not etymology;exact-form misses are not frequency/absence proofs.
+Prior082姉→妹 U,091割→利 U,093's27 ordinary U and094's呼/吹 overlap/
+all nine ordinary U remain unchanged. Broader ordinary suitability,modern
+necessity-frequency/global current-future uniqueness remain **UNVERIFIED**.
+One completed one-shot reviewer is idle,not running.
+
+All four new Markdown LF attributes were checked **before** RAW proposal binding;
+all seven actual teaching RAW payloads equal those pre-mutation proposals.
+No postmutation EOL amendment was required or invented. CURRENT four new RU bodies,
+three changed whole words and327 typed rows were freshly read in12 author returns;
+reviewer reading borrows none of those credits. Historical originals are immutable.
+
+The [qualified source record](translation-batches/095-negation-announcement-voice-and-rejoicing-kanji-reviewed-source.json)
+preserves2151 other baseline runtime RAWs/tracking rows.
+Qualified source checkpoint: **2162 runtime objects/1478 words/327 kanji/327 strokes**.
+Words671 N5/636 N4/97 N3/19 N2/55 unlabelled;kanji80 N5/166 N4/**79 N3**/2 N2.
+All166 frozen N4 kanji remain included;**288 of367 frozen N3 kanji remain**.
+Strict progress: **2162 reviewed-current/two excluded reviewed blocked-media drafts/
+6114 pending of8278;6116 runtime paths absent**,no partial.
+Version `c2909e83de70da8b`;checkpoint authority null/Ready false.
+These become accepted-main counts only after signed normal integration;fresh final
+serialized checks/public archives/signatures/four protected refs/exact-main CI/
+owner issue verification have separate receipts.
+Protected033 WORD空 stays excluded/runtime-absent/C2 UNVERIFIED,not media;
+accepted077 KANJI空 does not resolve it. No device/media/default/package/release authority.
+Continue096+ and **ALL remaining safe frozen levels/families**,not finite completion.
+
+## Previous qualified source milestone: batch094 absorption, breathing and blowing kanji
 
 Batch094 adds **three complete Russian frozen N3 lessons,吸/吹/呼,
 206 file lines**,and three RAW-identical Japanese KanjiVG assets.

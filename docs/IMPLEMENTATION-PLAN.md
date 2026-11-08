@@ -11,7 +11,69 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current qualified source milestone: batch094
+## Current qualified source milestone: batch095
+
+Four complete Russian frozen N3 lessons,**否/告/喜/声,319 file lines**,
+four RAW-identical KanjiVG assets and three current word bodies/three
+**NAV-only standalone-glyph wrappers**:喜び→喜,喜ぶ→喜,声→声.
+Visible prose,Japanese metadata,quiz arrays,old links and frozen levels unchanged;
+no new guard or removed direction. Frozen EN remains unchanged.
+
+The [actual whole review](translation-batches/095-negation-announcement-voice-and-rejoicing-kanji-independent-review-001.json)
+read31 whole teaching bodies,**17 EN/14 RU**:four primary pairs,ten CURRENT
+context pairs,three EN-only comparisons,including all three changed words.
+It read99 whole official TEXT units:15 KANJIDIC/two Unicode/78 JMdict/four
+KanjiPedia,plus one whole header;327 CURRENT typed rows,12 directions,
+four L/four A,three NAV diffs/four outside LIMITS,four whole guidance files
+and three correct RU rubrics. **51 complete successful reading windows**;
+zero glyph pixels,not327 whole lessons or1478 fresh word-guard judgments.
+
+The original **10776-byte stdout/native-final report**,SHA256
+`9640c96d1a064310c7e225d512f2099f57234f5176a04e0dc3ef316cfe865044`,
+is published verbatim,final LF included;no projection or second review.
+58 terminal returns:56 successes/two reviewer delivery-size assertions12197/11307,
+not failed readings.54 helper invocations had distinct successful reader shells;
+one successful size-only measurement/one exact emission are separate.
+Gate payloads match;no unread window,truncation or nonterminal wait.
+One author-only capture-prefix failure and explicit correction of its premature
+alias-root diagnosis are preserved separately:actual report-only scripts had
+empty prefixes,no filesystem access. Strict AST stdout-only audit retained;
+no source/report/reviewer mutation or new review.
+
+Actual **C1 SUPPORT within assigned source teaching/C2 qualified SUPPORT for
+bounded authoring-dependencies-introductory comparisons/C3 SUPPORT within14
+CURRENT RU bodies**,not literal CLEAN verdicts or ordinary quiz clearance.
+No necessary learner-text fix;no reviewer-specified severity is invented.
+**Eleven actual SQ introductory/source-core directions;N012声→告 U**:
+whole KanjiPedia声②/告① share an utterance domain,corroborated by
+JMdict1380440/1380540/1285990. A voice-only title/disclosure does not resolve it.
+Canonical Q is an explicit author schema mapping,not report rewriting.
+**ALL12 ordinary active-negative safety U**;metadata retention is not approval.
+L001–L003/all four A/three NAV supported;L004 qualified.
+Four outside LIMITS are not new guards/global pairs.
+Prior082/091 U,093's27 ordinary U and094呼/吹 overlap/all nine ordinary U unchanged.
+Broader ordinary suitability,necessity-frequency/global future uniqueness UNVERIFIED.
+One completed/idle one-shot reviewer,not running.
+
+Four new Markdown LF attributes checked BEFORE RAW proposal binding;all seven
+actual teaching RAWs match those pre-mutation proposals,no EOL amendment invented.
+CURRENT four new RU/three changed whole words/327 typed rows were freshly read
+in12 author returns;reviewer reading borrows none of those credits.
+Qualified source checkpoint: **2162 runtime/1478 words/327 kanji/327 strokes**;
+words671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/166 N4/**79 N3**/2 N2;all166 frozen N4 included,**288 N3 remain**.
+Strict statuses2162 reviewed-current/two excluded reviewed blocked-media drafts/
+6114 pending of8278;6116 runtime paths absent,no partial.
+Version `c2909e83de70da8b`;checkpoint null/Ready false.
+2151 other baseline RAWs/tracking rows preserved;all1478 word metadata/quiz arrays unchanged.
+Accepted-main counts require signed normal integration;fresh final serialized
+checks/public archives/signatures/four protected refs/exact-main CI/owner issue
+verification have separate receipts.
+Protected033 WORD空 stays excluded/C2 U/runtime-absent/not media;KANJI空 does not resolve it.
+No device/media/default/package/release approval;continue096+ and **ALL remaining
+safe frozen families**,not full-task completion.
+
+## Previous qualified source milestone: batch094
 
 Three complete Russian frozen N3 lessons,**吸/吹/呼,206 file lines**,
 three RAW-identical KanjiVG assets and three current word bodies/three
