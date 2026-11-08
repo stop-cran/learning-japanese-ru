@@ -1,0 +1,2185 @@
+{
+  "schemaVersion": 1,
+  "batchId": "081-light-nature-and-daily-life-kanji",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "reviewedCandidate": "83be463fbd3bdd8a0839ec1c1054efae78b8ac68",
+  "originalWholeCandidate": "372a4884490e9facd9d1891765e2a524d96e3a5f",
+  "actualWholeReview": "docs/translation-batches/081-light-nature-and-daily-life-kanji-independent-review-001.json",
+  "actualWholeReportBytes": 10889,
+  "actualWholeReportSha256": "93209116b8637757799463a0bbf560e9bfb0f4ee27dab31b2f1c8852f0f5fa08",
+  "actualFocusedReview": "docs/translation-batches/081-light-nature-and-daily-life-kanji-independent-review-002.json",
+  "actualFocusedReportBytes": 8712,
+  "actualFocusedReportSha256": "2fba3db032c7e4153563a8c9e77483e05976bed07088cab44cbb74bf7358c730",
+  "detailedReportDomain": "Actualsuccessfulreviewerstdout/finalJSON;bothreportsbyte-identicalchannels.",
+  "stdoutNativeFinalByteIdentity": true,
+  "actualOriginalWholeScope": {
+    "wholeTeachingBodies": 215,
+    "wholeOfficialSourceTextUnits": 306,
+    "wholeProviderHeaders": 1,
+    "actualDictionaryPngViews": 1,
+    "currentTypedKanjiMetadataRows": 236,
+    "wholeCorrectRURootRubrics": 3,
+    "wholeDirectedSourceProposals": 51,
+    "sourceAdjudications": 18,
+    "exactWordDiffs": 53,
+    "navigationWrappers": 54,
+    "outsideObservations": 11,
+    "unchangedSnapshotGates": 3
+  },
+  "actualFocusedScope": {
+    "wholeTeachingBodies": 8,
+    "wholeOfficialSourceTextUnits": 9,
+    "wholeProviderHeaders": 1,
+    "currentTypedMetadataRows": 2,
+    "priorTypedMetadataRows": 2,
+    "currentPoolIdentityAuditNotFreshSemanticJudgments": 236,
+    "unchangedSnapshotGates": 3
+  },
+  "originalImmutableFacets": {
+    "C1": {
+      "status": "No confirmed factual defect in assigned current prose; bounded source support only; individual assessments below"
+    },
+    "C2": {
+      "status": "NOT CLEAN: F081-01; broader ordinary quiz suitability UNVERIFIED",
+      "assessment": "50 qualified core contrasts Q, not50 safe bare-prompt judgments; N038 safety rejected. Entire236 typed pool and alternate senses/readings considered. Existing guards are not1478 fresh judgments."
+    },
+    "C3": {
+      "status": "One low-severity unclear antecedent F081-02; no other confirmed Russian defect"
+    }
+  },
+  "actualFocusedFacets": {
+    "C1": {
+      "status": "No confirmed Japanese factual regression in the focused after-bodies",
+      "boundary": "Bounded reading and cited source support, not renewed whole-batch correctness certification. Nativeひ→び remains correct; 月曜日 is not three on readings."
+    },
+    "C2": {
+      "status": "F081-01 resolved; broader suitability remains UNVERIFIED, NOT wholesale CLEAN",
+      "boundary": "All17 closure retained; only invalid active 英→花 removed,51 historical directions preserved and50 active. Remaining50 Q carry only original introductory-core contrast scope, not50 freshly reread judgments or safe bare-prompt guarantees."
+    },
+    "C3": {
+      "status": "F081-02 resolved; no further confirmed Russian clarity defect in focused scope",
+      "boundary": "Not native-speaker certification or evidence of learning effectiveness."
+    }
+  },
+  "actualOriginalFindings": [
+    {
+      "id": "F081-01",
+      "class": "C2",
+      "severity": "medium",
+      "confidence": "high",
+      "location": "kanji\\英.md:11; 081-N038 英→花",
+      "evidence": "Active distractors=[茶,花,映]. Whole KanjiPedia英 https://www.kanjipedia.jp/kanji/0000384700 gives はなぶさ・はな and①はなぶさ。はな。 Whole JMdict1975410 gives 花房/英 はなぶさ, calyx/corolla; かぼう restricted to花房. JMdict alone is not whole-flower synonym proof; KanjiPedia explicitly supplies flower. RU prose acknowledges overlap; author status was unresolved, not approved.",
+      "impact": "цветок cannot be unequivocally wrong for bare英; title difference/unsupported rarity cannot clear it.",
+      "boundedFix": "Reject active safe-negative N038. Request only distractors:[茶,花,映]→[茶,映] through approved source correction. Keep N038 in51-item history and all17 closure. No invented replacement/reverse edge or reading/JLPT/title amendment; no scope shrinkage."
+    },
+    {
+      "id": "F081-02",
+      "class": "C3",
+      "severity": "low",
+      "confidence": "high",
+      "location": "kanji\\曜.md:35-38, specifically37",
+      "evidence": "After two-kanji ようび, 'Не называйте всё сочетание тремя онными чтениями' has ambiguous antecedent: three components fit table example月曜日, not immediately preceding曜日. Nativeび explanation is correct; not a Japanese classification error.",
+      "boundedFix": "Replace only line37 with 'Не считайте 月曜日 сочетанием трёх онных чтений'; retain line38 and correctひ→び explanation."
+    }
+  ],
+  "actualFocusedFindingDispositions": [
+    {
+      "id": "F081-01",
+      "class": "C2",
+      "originalSeverity": "medium",
+      "status": "resolved",
+      "confidence": "high",
+      "location": "kanji\\英.md:11;081-N038",
+      "exactChange": "distractors: [茶, 花, 映] -> distractors: [茶, 映]",
+      "evidence": "Whole KanjiPedia英 https://www.kanjipedia.jp/kanji/0000384700 explicitly gives はなぶさ・はな and①はなぶさ。はな。; bare英 can mean flower, so цветок cannot be unequivocally wrong. Whole JMdict1975410 attests 花房/英 はなぶさ, calyx/corolla; かぼう is restricted to花房. That botanical record alone is NOT whole-flower synonym proof.",
+      "verification": "Independent Git-byte comparison proves this sole replacement in英; complete unchanged after-body read. Two distinct distractors remain. No title/rarity rescue, new guard, replacement/reverse/transitive/clique edge or ordinary-necessity inference."
+    },
+    {
+      "id": "F081-02",
+      "class": "C3",
+      "originalSeverity": "low",
+      "status": "resolved",
+      "confidence": "high",
+      "location": "kanji\\曜.md:37",
+      "before": "Не называйте всё сочетание тремя онными чтениями",
+      "after": "Не считайте 月曜日 сочетанием трёх онных чтений",
+      "verification": "Independent Git-byte comparison proves only this replacement; whole after-body read. Line38 and correct nativeひ→び explanation retained. Explicit月曜日 already occurs in the unchanged table; authorized clarification, not altered Japanese example/reading and not a newly discovered classification defect."
+    },
+    {
+      "id": "original-report-pool-hash-domain",
+      "class": "provenance",
+      "status": "independently confirmed label correction; original report immutable",
+      "originalIncorrectField": "snapshot.typedPoolRawSha256",
+      "incorrectCandidateLabelActuallyProspectiveRawSha256": "7457bcad047f4ce7b43afc5801a7b167f631c81af42951f1c8b80e8c2ce57bf2",
+      "actualDomain": "ru-081-prospective-typed-kanji-pool-001.json, NOT original signed candidate pool001",
+      "verification": "Independently read live old-reviewer journal: all8 successful bound pool returns contained ENTIRE reconstructed expected original-candidate metadata payloads for0..235 exactly once, console CRLF normalization only; rejected truncation/errors/still-running. Original41bda scope explicitly binds602983 candidate pool. All236 original row LF identities matched git show372a488:path; all236 corrected working raw identities matched pool002. All3 original candidate gates and complete actual report stdout independently confirmed. This is identity/provenance audit, NOT236 fresh semantic judgments."
+    }
+  ],
+  "qualificationDisposition": "docs/translation-batches/081-light-nature-and-daily-life-kanji-review-qualification-dispositions-001.json",
+  "sourceAmendmentResolution": "docs/translation-batches/081-light-nature-and-daily-life-kanji-source-amendment-resolution-001.json",
+  "remainingBlockingIssuesWithinAssignedEvidence": [],
+  "exactOriginalIndependentSourceDirectionDispositions": [
+    {
+      "proposalId": "081-N001",
+      "direction": [
+        "地",
+        "社"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "land/institution",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N002",
+      "direction": [
+        "地",
+        "仕"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "place/service",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N003",
+      "direction": [
+        "地",
+        "理"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "land/principle; 地理 whole",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N004",
+      "direction": [
+        "弟",
+        "強"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "kinship/quality",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N005",
+      "direction": [
+        "弟",
+        "男"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "age relation/male category overlap",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N006",
+      "direction": [
+        "弟",
+        "南"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "kinship/direction",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N007",
+      "direction": [
+        "強",
+        "弟"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "strength/kinship",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N008",
+      "direction": [
+        "強",
+        "理"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "force/principle",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N009",
+      "direction": [
+        "強",
+        "転"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "strength/motion",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N010",
+      "direction": [
+        "明",
+        "映"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "clarity/imaging; brightness overlap",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N011",
+      "direction": [
+        "明",
+        "服"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "clarity/clothing",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N012",
+      "direction": [
+        "明",
+        "用"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "clarity/use",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N013",
+      "direction": [
+        "映",
+        "英"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "imaging/language-excellence; エイ shared",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N014",
+      "direction": [
+        "映",
+        "時"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "imaging/time",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N015",
+      "direction": [
+        "映",
+        "曜"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "imaging/weekday; shine retained",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N016",
+      "direction": [
+        "曜",
+        "時"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "weekday/time category overlap",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N017",
+      "direction": [
+        "曜",
+        "習"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "weekday/practice",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N018",
+      "direction": [
+        "曜",
+        "明"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "weekday/clarity; shine overlap",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N019",
+      "direction": [
+        "服",
+        "月"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "clothing/moon; key not origin",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N020",
+      "direction": [
+        "服",
+        "朝"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "clothing/morning",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N021",
+      "direction": [
+        "服",
+        "紙"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "garment/paper",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N022",
+      "direction": [
+        "朝",
+        "明"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "morning/clarity; dawn overlap",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N023",
+      "direction": [
+        "朝",
+        "服"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "morning/clothing",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N024",
+      "direction": [
+        "朝",
+        "転"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "time/motion",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N025",
+      "direction": [
+        "業",
+        "楽"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "work/enjoyment; musical work possible",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N026",
+      "direction": [
+        "業",
+        "木"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "work/wood",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N027",
+      "direction": [
+        "業",
+        "集"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "work/gathering overlap",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N028",
+      "direction": [
+        "楽",
+        "業"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "ease-music/work; not opposites",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N029",
+      "direction": [
+        "楽",
+        "学"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "music-pleasure/study; ガク shared",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N030",
+      "direction": [
+        "楽",
+        "東"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "music-pleasure/east",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N031",
+      "direction": [
+        "理",
+        "野"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "principle/landscape",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N032",
+      "direction": [
+        "理",
+        "重"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "logic/weight",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N033",
+      "direction": [
+        "理",
+        "地"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "principle/land; 地理 whole",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N034",
+      "direction": [
+        "花",
+        "北"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "flower/north",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N035",
+      "direction": [
+        "花",
+        "古"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "flower/age",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N036",
+      "direction": [
+        "花",
+        "水"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "flower/water",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N037",
+      "direction": [
+        "英",
+        "茶"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "language-excellence/tea; botany retained",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N038",
+      "direction": [
+        "英",
+        "花"
+      ],
+      "actualIndependentDisposition": "R",
+      "actualVerbatimReason": "explicit はな flower sense",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N039",
+      "direction": [
+        "英",
+        "映"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "language-excellence/imaging",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N040",
+      "direction": [
+        "茶",
+        "英"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "tea/language-excellence; botany retained",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N041",
+      "direction": [
+        "茶",
+        "花"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "tea/flower; plant context retained",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N042",
+      "direction": [
+        "茶",
+        "楽"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "tea/pleasure",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N043",
+      "direction": [
+        "転",
+        "車"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "motion/vehicle",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N044",
+      "direction": [
+        "転",
+        "運"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "rotation/transport overlap",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N045",
+      "direction": [
+        "転",
+        "朝"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "motion/morning",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N046",
+      "direction": [
+        "野",
+        "理"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "landscape/principle",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N047",
+      "direction": [
+        "野",
+        "重"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "landscape/weight",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N048",
+      "direction": [
+        "野",
+        "動"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "landscape/movement",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N049",
+      "direction": [
+        "集",
+        "鳥"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "gathering/bird; 隹≠鳥",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N050",
+      "direction": [
+        "集",
+        "木"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "gathering/tree",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "081-N051",
+      "direction": [
+        "集",
+        "業"
+      ],
+      "actualIndependentDisposition": "Q",
+      "actualVerbatimReason": "gathering/work overlap",
+      "actualSharedVerbatimDispositionAndLimits": {
+        "columns": [
+          "id",
+          "source→distractor",
+          "disposition",
+          "reason"
+        ],
+        "Q": "Independently retain represented introductory-core contrast only. NOT universal disjointness, ordinary bare-prompt safety, necessity/frequency, fallback/global/future uniqueness. Shared senses/categories remain limitations.",
+        "R": "Safe-negative rejected: F081-01. All51 original directions retained as history; no reverse/transitive/clique invention."
+      },
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    }
+  ],
+  "originalHistoricalDirections": 51,
+  "retainedQualifiedCoreContrastDirections": 50,
+  "rejectedRemovedDirection": "081-N038英→花",
+  "correctedActiveRuntimeDirections": 50,
+  "universalSemanticDisjointnessDirections": 0,
+  "inventedReverseOrTransitiveDirections": 0,
+  "actualOriginalSourceAdjudicationAssessments": [
+    [
+      "081-A001",
+      "S",
+      "地kun[] not denial ofつち; 土 overlap"
+    ],
+    [
+      "081-A002",
+      "S",
+      "弟3on; relative age; 兄弟 includes sisters"
+    ],
+    [
+      "081-A003",
+      "S",
+      "強 coercion/こわい/強力 sense-bound"
+    ],
+    [
+      "081-A004",
+      "S",
+      "明 conditioned spellings; no invented register"
+    ],
+    [
+      "081-A005",
+      "S",
+      "映 transitivity/ばえる; 写 overlap"
+    ],
+    [
+      "081-A006",
+      "S",
+      "曜 seven days/nativeび; F081-02 clarity"
+    ],
+    [
+      "081-A007",
+      "S",
+      "服kun[]/月74; 舟 account attributed"
+    ],
+    [
+      "081-A008",
+      "S",
+      "朝 not all midnight-noon; 今朝 whole"
+    ],
+    [
+      "081-A009",
+      "S",
+      "業 standaloneぎょう; no frequency inference"
+    ],
+    [
+      "081-A010",
+      "S",
+      "愛楽あいぎょう; 三楽 reading-only; 楽む search-onlyたのしむ"
+    ],
+    [
+      "081-A011",
+      "S",
+      "理ことわり vs断り; 玉96; 由 overlap"
+    ],
+    [
+      "081-A012",
+      "S",
+      "Personally viewed化; クワ vsカ; けびょう separate"
+    ],
+    [
+      "081-A013",
+      "M",
+      "英 botanical support; N038 safe-negative rejected"
+    ],
+    [
+      "081-A014",
+      "S",
+      "茶チャ/サ; 茶色 mixed; no school universal"
+    ],
+    [
+      "081-A015",
+      "S",
+      "転 roles/spelling restrictions; no frequency inference"
+    ],
+    [
+      "081-A016",
+      "S",
+      "野ショ not ordinary-use proof; cultivated vegetables"
+    ],
+    [
+      "081-A017",
+      "S",
+      "集 transitivity/formal集う; 隹172; attributed origin"
+    ],
+    [
+      "081-A018",
+      "S",
+      "由 whole pair+48th record read; N3; no new object or rewritten old receipt"
+    ]
+  ],
+  "originalOutsideEdgeObservations": [
+    [
+      "O001",
+      "地/土/野/田",
+      "L",
+      "land/soil/fields overlap; 地つち"
+    ],
+    [
+      "O002",
+      "業/仕/作/事/工",
+      "L",
+      "work/action overlap"
+    ],
+    [
+      "O003",
+      "強/力",
+      "L",
+      "strength quality/noun"
+    ],
+    [
+      "O004",
+      "明/白/開/空",
+      "L",
+      "brightness; conditionedあく/あける"
+    ],
+    [
+      "O005",
+      "映/写/画/見",
+      "L",
+      "images/seeing; not all lessons read"
+    ],
+    [
+      "O006",
+      "曜/日/週/時",
+      "L",
+      "temporal categories"
+    ],
+    [
+      "O007",
+      "楽/安/休",
+      "L",
+      "ease/calm/rest"
+    ],
+    [
+      "O008",
+      "理/由",
+      "L",
+      "reason/ground; whole由 read"
+    ],
+    [
+      "O009",
+      "英/花/茶",
+      "L",
+      "flower overlap; N038=R"
+    ],
+    [
+      "O010",
+      "転/運/動",
+      "L",
+      "motion overlap; N044=Q"
+    ],
+    [
+      "O011",
+      "集/会/組",
+      "L",
+      "gathering/groups; 会あつまる"
+    ]
+  ],
+  "focusedReviewGuidanceRevision": "83be463fbd3bdd8a0839ec1c1054efae78b8ac68",
+  "originalReviewGuidanceRevision": "372a4884490e9facd9d1891765e2a524d96e3a5f",
+  "freshRetained50SemanticJudgmentsAfterOriginalWholeReview": 0,
+  "secondWholeReview": false,
+  "boundedFocusedReview": true,
+  "originalIntakeFreezeWholeReportImmutable": true,
+  "qualifiedBoundary": "ONEactual10889byteSHA93209116b8637757799463a0bbf560e9bfb0f4ee27dab31b2f1c8852f0f5fa08 whole001stdout/finalbyte-identicalreport:215wholeteachingbodies=17primaryEN/RUpairs+88CURRENTcontextEN/RUpairs+5EN-onlybodies;306officialTEXT=48wholeKANJIDICincludingappend-only由/10Unicode/231orderedwholeJMdict/17wholevisibleKanjiPediaentryTEXT;onewholeproviderheaderandoneactuallyviewed化PNGseparate.OtherglyphpixelsUNINSPECTED;TEXTnotwholeHTML/pixels.236CURRENTtypedmetadata/51individualdirections/18adjudications/53NAV-onlydiffs54wrappers/11outsideobservations/4guidance/3correctCURRENT_RU-rootrubrics.OriginalCHANGES_REQUESTED/C2F081-01/C3F081-02reportimmutable.ExplicitSIGNEDpremutationsourceamendmentremovesONLYinvalidactive英-to-花safe-negative:英distractors[茶,花,映]to[茶,映].ActualKanjiPediaはなsupportsflower;JMdict1975410calyx/corollaALONEnotwhole-flowersynonymproof.All51history/all17closurekept;50qualifiedcorecontrastdirectionsretained;noreplacement/reverse/transitive/cliqueedges.曜clarifies月曜日antecedent;correctnativeひ-to-び/example/readingspreserved.ONEactual8712byteSHA2fba3db032c7e4153563a8c9e77483e05976bed07088cab44cbb74bf7358c730 focused002stdout/finalbyte-identicalreportresolvesONLYexactF081-01/F081-02andoriginalprospective-poolhashlabel:8wholebodies/9officialTEXT/header/2current+2priortypedrows;236identityauditNOT236freshsemanticjudgments/secondwhole215review.Originalreportwrong7457prospectivehashretained;actualoriginalcandidate602983andcorrected2d2cpoolindependentlyconfirmedwithall8originalsuccessful236wholecurrentpayloadreturns/Gitidentities.50QcarryONLYoriginalwhole001qualifiedintroductory-corecontrastscope/identity,not50freshjudgments;NOTuniversaldisjointness/ordinarybare-promptguarantees/WHOLE_C2_CLEAN.Broaderordinaryquiz/fallbacksuitability/modernnecessity-frequency/globalfutureuniquenessUNVERIFIED.11outsideobservationsNOTnewexclusions/globalpairproofs;priorwordguardsretainoldscope/identity,NOT1478freshwordjudgments.53wordbodies54wrappersNAV-only;NOwordsemanticamendments;Japanese/examples/readings/wordmetadata/quizarrays/oldlinkspreserved.1893otherbaselineRAWs/trackingrowsunchanged;17strokeassetsRAW-identical/rootlicensesretained,NOTpixel/nativeanimation/mediaapproval.Protectedexcluded033WORD空separateC2UNVERIFIED/runtimeabsent,NOTmedia;accepted077KANJI空doesNOTresolveit.Noapp/device/phone/IME/media/default/package/release/full8278completionauthority.",
+  "baselineUnchangedRuntimeRaws": 1893,
+  "protectedSkyBoundary": {
+    "path": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+    "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+    "status": "excluded C2UNVERIFIED;notmedia",
+    "runtimeWordRemainsAbsent": true,
+    "priorKanjiSkyBoundary": "Existingaccepted077kanji空doesNOTapproveprotectedworddraft/distant-placecaptions/ordinaryfallbackquizsafety/media/defaultactivation."
+  },
+  "checkpointAuthority": null,
+  "ordinaryActivationAuthorized": false,
+  "fullTaskComplete": false,
+  "continueRequired": true,
+  "baselineCommit": "6a94b0de27348d0e2604e0be2efcf5305fab7f6b",
+  "perFileHashes": [
+    {
+      "path": "kanji/地.md",
+      "sourceRawSha256": "37bcbf0d924cc70464bda141f22926914abb087223babf6f7105a504f575a29a",
+      "sourceSha256": "37bcbf0d924cc70464bda141f22926914abb087223babf6f7105a504f575a29a",
+      "ruRawSha256": "3aa55e7b80285b954b716852f4e83624d54e58e0d727c027b38b8434d2e9039a",
+      "ruSha256": "3aa55e7b80285b954b716852f4e83624d54e58e0d727c027b38b8434d2e9039a",
+      "ruGitRawSha256": "3aa55e7b80285b954b716852f4e83624d54e58e0d727c027b38b8434d2e9039a"
+    },
+    {
+      "path": "kanji/弟.md",
+      "sourceRawSha256": "3a3fdcfdb0eca5da98d9e34229b57549fc2db18ebc2bba79e04212450895037b",
+      "sourceSha256": "3a3fdcfdb0eca5da98d9e34229b57549fc2db18ebc2bba79e04212450895037b",
+      "ruRawSha256": "3693b6029e19bc82b24e21d2002781c1f5ca77b804db7f20210ba894890f561b",
+      "ruSha256": "3693b6029e19bc82b24e21d2002781c1f5ca77b804db7f20210ba894890f561b",
+      "ruGitRawSha256": "3693b6029e19bc82b24e21d2002781c1f5ca77b804db7f20210ba894890f561b"
+    },
+    {
+      "path": "kanji/強.md",
+      "sourceRawSha256": "5bf365eeeb8220e9d50291429e16f14225e577bb67fd46355aabd189aa2e1d47",
+      "sourceSha256": "5bf365eeeb8220e9d50291429e16f14225e577bb67fd46355aabd189aa2e1d47",
+      "ruRawSha256": "caa1a20f6f14c3956aa9c339e16a783b1c6e172bed9abb0195c548c03d8c133e",
+      "ruSha256": "caa1a20f6f14c3956aa9c339e16a783b1c6e172bed9abb0195c548c03d8c133e",
+      "ruGitRawSha256": "caa1a20f6f14c3956aa9c339e16a783b1c6e172bed9abb0195c548c03d8c133e"
+    },
+    {
+      "path": "kanji/明.md",
+      "sourceRawSha256": "9cc76050fbeca0470184ff01971727a8ef33fde4c91c971ccce197051861b395",
+      "sourceSha256": "9cc76050fbeca0470184ff01971727a8ef33fde4c91c971ccce197051861b395",
+      "ruRawSha256": "9222ee8600460e3f1178eac5673ac8dfa156add273df746c3a942da2d7466546",
+      "ruSha256": "9222ee8600460e3f1178eac5673ac8dfa156add273df746c3a942da2d7466546",
+      "ruGitRawSha256": "9222ee8600460e3f1178eac5673ac8dfa156add273df746c3a942da2d7466546"
+    },
+    {
+      "path": "kanji/映.md",
+      "sourceRawSha256": "358a523b27dce3c71d92265d29e1eea58806281af509ab04428d09eee81519e5",
+      "sourceSha256": "358a523b27dce3c71d92265d29e1eea58806281af509ab04428d09eee81519e5",
+      "ruRawSha256": "0b002e395ae917d461c24d2a16bb5309119896d30fb55d685c5340f626ae1569",
+      "ruSha256": "0b002e395ae917d461c24d2a16bb5309119896d30fb55d685c5340f626ae1569",
+      "ruGitRawSha256": "0b002e395ae917d461c24d2a16bb5309119896d30fb55d685c5340f626ae1569"
+    },
+    {
+      "path": "kanji/曜.md",
+      "sourceRawSha256": "54aa7c971a67be53c412cb39fbc43762525aaf83ec0b0dad071228b6b67a4d61",
+      "sourceSha256": "54aa7c971a67be53c412cb39fbc43762525aaf83ec0b0dad071228b6b67a4d61",
+      "ruRawSha256": "fd3a4499d1b63b8c2c6fa84df829c52e02fc904aa5f4c6649026b5dec2eacd83",
+      "ruSha256": "fd3a4499d1b63b8c2c6fa84df829c52e02fc904aa5f4c6649026b5dec2eacd83",
+      "ruGitRawSha256": "fd3a4499d1b63b8c2c6fa84df829c52e02fc904aa5f4c6649026b5dec2eacd83"
+    },
+    {
+      "path": "kanji/服.md",
+      "sourceRawSha256": "cfe178aba068bda5964767526070e478dfb9cb263f1fcfa5c4706ec63ec58721",
+      "sourceSha256": "cfe178aba068bda5964767526070e478dfb9cb263f1fcfa5c4706ec63ec58721",
+      "ruRawSha256": "5b7e700e6b66e0401af75bdca97815e93751912279fb0c97325877163c9be7c9",
+      "ruSha256": "5b7e700e6b66e0401af75bdca97815e93751912279fb0c97325877163c9be7c9",
+      "ruGitRawSha256": "5b7e700e6b66e0401af75bdca97815e93751912279fb0c97325877163c9be7c9"
+    },
+    {
+      "path": "kanji/朝.md",
+      "sourceRawSha256": "a91aaf2999042406243886bd9c85043f09d10871ffbff5f438787316f3b49dec",
+      "sourceSha256": "a91aaf2999042406243886bd9c85043f09d10871ffbff5f438787316f3b49dec",
+      "ruRawSha256": "74a643ac2c920854c9150c7eb5f350d26a8b081ace21e4e0da5c51c70da222d1",
+      "ruSha256": "74a643ac2c920854c9150c7eb5f350d26a8b081ace21e4e0da5c51c70da222d1",
+      "ruGitRawSha256": "74a643ac2c920854c9150c7eb5f350d26a8b081ace21e4e0da5c51c70da222d1"
+    },
+    {
+      "path": "kanji/業.md",
+      "sourceRawSha256": "393eafca5ff0266acc5522b819441b9bab8f5f3eb0ec502509f73cbf1474a5eb",
+      "sourceSha256": "393eafca5ff0266acc5522b819441b9bab8f5f3eb0ec502509f73cbf1474a5eb",
+      "ruRawSha256": "6a239905001ea8c50c83ce60b543ef17f5e98534d3e494b42e69b16e8fe3a3cf",
+      "ruSha256": "6a239905001ea8c50c83ce60b543ef17f5e98534d3e494b42e69b16e8fe3a3cf",
+      "ruGitRawSha256": "6a239905001ea8c50c83ce60b543ef17f5e98534d3e494b42e69b16e8fe3a3cf"
+    },
+    {
+      "path": "kanji/楽.md",
+      "sourceRawSha256": "a2044cb484a5794c0a434e821ffc691beb8cebe791a505355a88c6ae09b54b46",
+      "sourceSha256": "a2044cb484a5794c0a434e821ffc691beb8cebe791a505355a88c6ae09b54b46",
+      "ruRawSha256": "99bd88dd4f11568c46802b76168144a2458f4522e628c9af9093ef48f8483b70",
+      "ruSha256": "99bd88dd4f11568c46802b76168144a2458f4522e628c9af9093ef48f8483b70",
+      "ruGitRawSha256": "99bd88dd4f11568c46802b76168144a2458f4522e628c9af9093ef48f8483b70"
+    },
+    {
+      "path": "kanji/理.md",
+      "sourceRawSha256": "a6f7fc93abb0069b27bbe11f948500b0ceb7be941a853b6e29838df72b8ec200",
+      "sourceSha256": "a6f7fc93abb0069b27bbe11f948500b0ceb7be941a853b6e29838df72b8ec200",
+      "ruRawSha256": "d8e53e9f9f1bd19d826171aaed4317da46c1926d00ad9a72d4b2fc49e964e541",
+      "ruSha256": "d8e53e9f9f1bd19d826171aaed4317da46c1926d00ad9a72d4b2fc49e964e541",
+      "ruGitRawSha256": "d8e53e9f9f1bd19d826171aaed4317da46c1926d00ad9a72d4b2fc49e964e541"
+    },
+    {
+      "path": "kanji/花.md",
+      "sourceRawSha256": "de2f783e47c7f5a96c368a43d4fd1bcae866256e8252294109a21b5a5f5e7e8d",
+      "sourceSha256": "de2f783e47c7f5a96c368a43d4fd1bcae866256e8252294109a21b5a5f5e7e8d",
+      "ruRawSha256": "776522dab4d163dc833ed51d3d5dcd9a0a26c419ed423a00f7e748b59313afec",
+      "ruSha256": "776522dab4d163dc833ed51d3d5dcd9a0a26c419ed423a00f7e748b59313afec",
+      "ruGitRawSha256": "776522dab4d163dc833ed51d3d5dcd9a0a26c419ed423a00f7e748b59313afec"
+    },
+    {
+      "path": "kanji/英.md",
+      "sourceRawSha256": "2f6dba09f1014e8000f71f8234a600fe241db88ddb9d6b6dcd391103d95ceb60",
+      "sourceSha256": "2f6dba09f1014e8000f71f8234a600fe241db88ddb9d6b6dcd391103d95ceb60",
+      "ruRawSha256": "e41e36173d2982f7cbd34bd3a4aea08553d060cd4385cb3e1c84c3b9631c45a5",
+      "ruSha256": "e41e36173d2982f7cbd34bd3a4aea08553d060cd4385cb3e1c84c3b9631c45a5",
+      "ruGitRawSha256": "e41e36173d2982f7cbd34bd3a4aea08553d060cd4385cb3e1c84c3b9631c45a5"
+    },
+    {
+      "path": "kanji/茶.md",
+      "sourceRawSha256": "1afe7a75fb305524f21db59a0090c15ba0cfa7c399aa7c1997690d9c5f702fd1",
+      "sourceSha256": "1afe7a75fb305524f21db59a0090c15ba0cfa7c399aa7c1997690d9c5f702fd1",
+      "ruRawSha256": "79870cbd3adeba78245bff40d0fdf1a7a35b054aa21cdcb702d5d3dba63b8cdf",
+      "ruSha256": "79870cbd3adeba78245bff40d0fdf1a7a35b054aa21cdcb702d5d3dba63b8cdf",
+      "ruGitRawSha256": "79870cbd3adeba78245bff40d0fdf1a7a35b054aa21cdcb702d5d3dba63b8cdf"
+    },
+    {
+      "path": "kanji/転.md",
+      "sourceRawSha256": "4c1330f581df1567c64f9c4da7316a5fbac90cc758a06e8d1c6bb5750cc3d51d",
+      "sourceSha256": "4c1330f581df1567c64f9c4da7316a5fbac90cc758a06e8d1c6bb5750cc3d51d",
+      "ruRawSha256": "06029edae3b08221a237d052a7e7a809875276ae89a4aa24eda22bf7685e6459",
+      "ruSha256": "06029edae3b08221a237d052a7e7a809875276ae89a4aa24eda22bf7685e6459",
+      "ruGitRawSha256": "06029edae3b08221a237d052a7e7a809875276ae89a4aa24eda22bf7685e6459"
+    },
+    {
+      "path": "kanji/野.md",
+      "sourceRawSha256": "ac44d4039ca2cf7984f85dc6b4118cc4f7a5d1d19366af43b0d18aa7fd34d605",
+      "sourceSha256": "ac44d4039ca2cf7984f85dc6b4118cc4f7a5d1d19366af43b0d18aa7fd34d605",
+      "ruRawSha256": "eca3a86b1efb7ade9ace9015305d4f39dce7266074ba04034e38c185bdadfd78",
+      "ruSha256": "eca3a86b1efb7ade9ace9015305d4f39dce7266074ba04034e38c185bdadfd78",
+      "ruGitRawSha256": "eca3a86b1efb7ade9ace9015305d4f39dce7266074ba04034e38c185bdadfd78"
+    },
+    {
+      "path": "kanji/集.md",
+      "sourceRawSha256": "bd4ac8f3e669b5a2b36e655edd9d6deeada3d21c56c9eb67ca463966a23d5497",
+      "sourceSha256": "bd4ac8f3e669b5a2b36e655edd9d6deeada3d21c56c9eb67ca463966a23d5497",
+      "ruRawSha256": "31b83141a7fe16cf9da9c009d2a645a6b733079c4282efe1cc4ea6b28d784f6a",
+      "ruSha256": "31b83141a7fe16cf9da9c009d2a645a6b733079c4282efe1cc4ea6b28d784f6a",
+      "ruGitRawSha256": "31b83141a7fe16cf9da9c009d2a645a6b733079c4282efe1cc4ea6b28d784f6a"
+    },
+    {
+      "path": "strokes/地.json",
+      "sourceRawSha256": "a2f74c038b6c27edd9d940d52ef40ebe869f9b121774919d589a7cc4d2108f37",
+      "sourceSha256": "a2f74c038b6c27edd9d940d52ef40ebe869f9b121774919d589a7cc4d2108f37",
+      "ruRawSha256": "a2f74c038b6c27edd9d940d52ef40ebe869f9b121774919d589a7cc4d2108f37",
+      "ruSha256": "a2f74c038b6c27edd9d940d52ef40ebe869f9b121774919d589a7cc4d2108f37",
+      "ruGitRawSha256": "a2f74c038b6c27edd9d940d52ef40ebe869f9b121774919d589a7cc4d2108f37"
+    },
+    {
+      "path": "strokes/弟.json",
+      "sourceRawSha256": "c61071433f6615df84e731d740b763121ee74f72927ef5dacd303e34ea673ceb",
+      "sourceSha256": "c61071433f6615df84e731d740b763121ee74f72927ef5dacd303e34ea673ceb",
+      "ruRawSha256": "c61071433f6615df84e731d740b763121ee74f72927ef5dacd303e34ea673ceb",
+      "ruSha256": "c61071433f6615df84e731d740b763121ee74f72927ef5dacd303e34ea673ceb",
+      "ruGitRawSha256": "c61071433f6615df84e731d740b763121ee74f72927ef5dacd303e34ea673ceb"
+    },
+    {
+      "path": "strokes/強.json",
+      "sourceRawSha256": "9a8dae9c0bd9c4048a03a387f9ba821425258da0f83f031e2fabf2a7087fc13d",
+      "sourceSha256": "9a8dae9c0bd9c4048a03a387f9ba821425258da0f83f031e2fabf2a7087fc13d",
+      "ruRawSha256": "9a8dae9c0bd9c4048a03a387f9ba821425258da0f83f031e2fabf2a7087fc13d",
+      "ruSha256": "9a8dae9c0bd9c4048a03a387f9ba821425258da0f83f031e2fabf2a7087fc13d",
+      "ruGitRawSha256": "9a8dae9c0bd9c4048a03a387f9ba821425258da0f83f031e2fabf2a7087fc13d"
+    },
+    {
+      "path": "strokes/明.json",
+      "sourceRawSha256": "981219691954dca6776c2fb01a35dd8676c9597075d80f590d0b2076fc3cdbaf",
+      "sourceSha256": "981219691954dca6776c2fb01a35dd8676c9597075d80f590d0b2076fc3cdbaf",
+      "ruRawSha256": "981219691954dca6776c2fb01a35dd8676c9597075d80f590d0b2076fc3cdbaf",
+      "ruSha256": "981219691954dca6776c2fb01a35dd8676c9597075d80f590d0b2076fc3cdbaf",
+      "ruGitRawSha256": "981219691954dca6776c2fb01a35dd8676c9597075d80f590d0b2076fc3cdbaf"
+    },
+    {
+      "path": "strokes/映.json",
+      "sourceRawSha256": "4bcd370cf0cf9e5fd5a24c3a59952f5daf043a6a653d04b87c826a9313f3bc09",
+      "sourceSha256": "4bcd370cf0cf9e5fd5a24c3a59952f5daf043a6a653d04b87c826a9313f3bc09",
+      "ruRawSha256": "4bcd370cf0cf9e5fd5a24c3a59952f5daf043a6a653d04b87c826a9313f3bc09",
+      "ruSha256": "4bcd370cf0cf9e5fd5a24c3a59952f5daf043a6a653d04b87c826a9313f3bc09",
+      "ruGitRawSha256": "4bcd370cf0cf9e5fd5a24c3a59952f5daf043a6a653d04b87c826a9313f3bc09"
+    },
+    {
+      "path": "strokes/曜.json",
+      "sourceRawSha256": "046643d0e8d2f05bea813b3d55cf7e46bd0d192948987246cf82dcaac7de0070",
+      "sourceSha256": "046643d0e8d2f05bea813b3d55cf7e46bd0d192948987246cf82dcaac7de0070",
+      "ruRawSha256": "046643d0e8d2f05bea813b3d55cf7e46bd0d192948987246cf82dcaac7de0070",
+      "ruSha256": "046643d0e8d2f05bea813b3d55cf7e46bd0d192948987246cf82dcaac7de0070",
+      "ruGitRawSha256": "046643d0e8d2f05bea813b3d55cf7e46bd0d192948987246cf82dcaac7de0070"
+    },
+    {
+      "path": "strokes/服.json",
+      "sourceRawSha256": "75e639d6443dba3661fc1c30707f039cf84f179db9398bcf9f23481f1d3e5619",
+      "sourceSha256": "75e639d6443dba3661fc1c30707f039cf84f179db9398bcf9f23481f1d3e5619",
+      "ruRawSha256": "75e639d6443dba3661fc1c30707f039cf84f179db9398bcf9f23481f1d3e5619",
+      "ruSha256": "75e639d6443dba3661fc1c30707f039cf84f179db9398bcf9f23481f1d3e5619",
+      "ruGitRawSha256": "75e639d6443dba3661fc1c30707f039cf84f179db9398bcf9f23481f1d3e5619"
+    },
+    {
+      "path": "strokes/朝.json",
+      "sourceRawSha256": "7291ad06a8567f92bfe483a0d4441cb31fcf3397a0998ef62560fdf2849a491f",
+      "sourceSha256": "7291ad06a8567f92bfe483a0d4441cb31fcf3397a0998ef62560fdf2849a491f",
+      "ruRawSha256": "7291ad06a8567f92bfe483a0d4441cb31fcf3397a0998ef62560fdf2849a491f",
+      "ruSha256": "7291ad06a8567f92bfe483a0d4441cb31fcf3397a0998ef62560fdf2849a491f",
+      "ruGitRawSha256": "7291ad06a8567f92bfe483a0d4441cb31fcf3397a0998ef62560fdf2849a491f"
+    },
+    {
+      "path": "strokes/業.json",
+      "sourceRawSha256": "49cbb473dcacb0dffc588ec58c36908208704a2494376d3120d1bc398c13c955",
+      "sourceSha256": "49cbb473dcacb0dffc588ec58c36908208704a2494376d3120d1bc398c13c955",
+      "ruRawSha256": "49cbb473dcacb0dffc588ec58c36908208704a2494376d3120d1bc398c13c955",
+      "ruSha256": "49cbb473dcacb0dffc588ec58c36908208704a2494376d3120d1bc398c13c955",
+      "ruGitRawSha256": "49cbb473dcacb0dffc588ec58c36908208704a2494376d3120d1bc398c13c955"
+    },
+    {
+      "path": "strokes/楽.json",
+      "sourceRawSha256": "8f323d166674f43a4f52f1cbf446caea5c62d2ee88040a2af2278746ad1be787",
+      "sourceSha256": "8f323d166674f43a4f52f1cbf446caea5c62d2ee88040a2af2278746ad1be787",
+      "ruRawSha256": "8f323d166674f43a4f52f1cbf446caea5c62d2ee88040a2af2278746ad1be787",
+      "ruSha256": "8f323d166674f43a4f52f1cbf446caea5c62d2ee88040a2af2278746ad1be787",
+      "ruGitRawSha256": "8f323d166674f43a4f52f1cbf446caea5c62d2ee88040a2af2278746ad1be787"
+    },
+    {
+      "path": "strokes/理.json",
+      "sourceRawSha256": "1c2793e7e8834296770dfabac8f583ff1550f3c1f024c0557f2c344f59c33f31",
+      "sourceSha256": "1c2793e7e8834296770dfabac8f583ff1550f3c1f024c0557f2c344f59c33f31",
+      "ruRawSha256": "1c2793e7e8834296770dfabac8f583ff1550f3c1f024c0557f2c344f59c33f31",
+      "ruSha256": "1c2793e7e8834296770dfabac8f583ff1550f3c1f024c0557f2c344f59c33f31",
+      "ruGitRawSha256": "1c2793e7e8834296770dfabac8f583ff1550f3c1f024c0557f2c344f59c33f31"
+    },
+    {
+      "path": "strokes/花.json",
+      "sourceRawSha256": "6e90a462daae03f18430509ceb16bbae731da62d43eeb6c395155fb55120acb6",
+      "sourceSha256": "4bf1995308c196140b1c6e4373f86c6c2f43b48f4770be5600e053020a565e74",
+      "ruRawSha256": "6e90a462daae03f18430509ceb16bbae731da62d43eeb6c395155fb55120acb6",
+      "ruSha256": "4bf1995308c196140b1c6e4373f86c6c2f43b48f4770be5600e053020a565e74",
+      "ruGitRawSha256": "6e90a462daae03f18430509ceb16bbae731da62d43eeb6c395155fb55120acb6"
+    },
+    {
+      "path": "strokes/英.json",
+      "sourceRawSha256": "573400630bf2b87394d42bad809c5e3af29482b08b948d2fa6d441caf9a70db5",
+      "sourceSha256": "573400630bf2b87394d42bad809c5e3af29482b08b948d2fa6d441caf9a70db5",
+      "ruRawSha256": "573400630bf2b87394d42bad809c5e3af29482b08b948d2fa6d441caf9a70db5",
+      "ruSha256": "573400630bf2b87394d42bad809c5e3af29482b08b948d2fa6d441caf9a70db5",
+      "ruGitRawSha256": "573400630bf2b87394d42bad809c5e3af29482b08b948d2fa6d441caf9a70db5"
+    },
+    {
+      "path": "strokes/茶.json",
+      "sourceRawSha256": "edcc6c5524dd99af61208117281864959d5545c84a98c92f22d26adb13ddd2d5",
+      "sourceSha256": "edcc6c5524dd99af61208117281864959d5545c84a98c92f22d26adb13ddd2d5",
+      "ruRawSha256": "edcc6c5524dd99af61208117281864959d5545c84a98c92f22d26adb13ddd2d5",
+      "ruSha256": "edcc6c5524dd99af61208117281864959d5545c84a98c92f22d26adb13ddd2d5",
+      "ruGitRawSha256": "edcc6c5524dd99af61208117281864959d5545c84a98c92f22d26adb13ddd2d5"
+    },
+    {
+      "path": "strokes/転.json",
+      "sourceRawSha256": "0b861ecb942ed5ccf3fe739790260c22e45946dc4bd73b4459285cd48fd6d4cb",
+      "sourceSha256": "0b861ecb942ed5ccf3fe739790260c22e45946dc4bd73b4459285cd48fd6d4cb",
+      "ruRawSha256": "0b861ecb942ed5ccf3fe739790260c22e45946dc4bd73b4459285cd48fd6d4cb",
+      "ruSha256": "0b861ecb942ed5ccf3fe739790260c22e45946dc4bd73b4459285cd48fd6d4cb",
+      "ruGitRawSha256": "0b861ecb942ed5ccf3fe739790260c22e45946dc4bd73b4459285cd48fd6d4cb"
+    },
+    {
+      "path": "strokes/野.json",
+      "sourceRawSha256": "967783d3e5089124a0fda14f8c998423ea96303c0d018f8da87f20da812e5d91",
+      "sourceSha256": "967783d3e5089124a0fda14f8c998423ea96303c0d018f8da87f20da812e5d91",
+      "ruRawSha256": "967783d3e5089124a0fda14f8c998423ea96303c0d018f8da87f20da812e5d91",
+      "ruSha256": "967783d3e5089124a0fda14f8c998423ea96303c0d018f8da87f20da812e5d91",
+      "ruGitRawSha256": "967783d3e5089124a0fda14f8c998423ea96303c0d018f8da87f20da812e5d91"
+    },
+    {
+      "path": "strokes/集.json",
+      "sourceRawSha256": "e514cfd324f3b66ba851377e0dd04a26430b1053b00a60ace1bf2de8dd916d20",
+      "sourceSha256": "e514cfd324f3b66ba851377e0dd04a26430b1053b00a60ace1bf2de8dd916d20",
+      "ruRawSha256": "e514cfd324f3b66ba851377e0dd04a26430b1053b00a60ace1bf2de8dd916d20",
+      "ruSha256": "e514cfd324f3b66ba851377e0dd04a26430b1053b00a60ace1bf2de8dd916d20",
+      "ruGitRawSha256": "e514cfd324f3b66ba851377e0dd04a26430b1053b00a60ace1bf2de8dd916d20"
+    },
+    {
+      "path": "words/お茶.md",
+      "sourceRawSha256": "7521805165e292f95f1057201e4ab215e6e33891ae96a8eb4d310848e9cd51a4",
+      "sourceSha256": "7521805165e292f95f1057201e4ab215e6e33891ae96a8eb4d310848e9cd51a4",
+      "ruRawSha256": "1b0133504c7b075701373da68df5c00c33969586021ebdd5c2de133917b0bb52",
+      "ruSha256": "3ea2637226d805d51ca985ba12e7f3020157ed4c8d7376bf512850411732f450",
+      "ruGitRawSha256": "3ea2637226d805d51ca985ba12e7f3020157ed4c8d7376bf512850411732f450"
+    },
+    {
+      "path": "words/今朝.md",
+      "sourceRawSha256": "c00eb33fe3bd0c1180ba546a460223932269898296b04144069822c65f5447df",
+      "sourceSha256": "c00eb33fe3bd0c1180ba546a460223932269898296b04144069822c65f5447df",
+      "ruRawSha256": "d0d2630b6deac966c23f3a46cb43c6b42fd59e950d60e610c39837942e19804f",
+      "ruSha256": "d0d2630b6deac966c23f3a46cb43c6b42fd59e950d60e610c39837942e19804f",
+      "ruGitRawSha256": "d0d2630b6deac966c23f3a46cb43c6b42fd59e950d60e610c39837942e19804f"
+    },
+    {
+      "path": "words/兄弟.md",
+      "sourceRawSha256": "2861e545633aba45524f9ea871ee182ca7c7e3052e5f600b035c44f46f33b701",
+      "sourceSha256": "2861e545633aba45524f9ea871ee182ca7c7e3052e5f600b035c44f46f33b701",
+      "ruRawSha256": "6b8807258af4fcd0d50f75134074d3f777de14edf6b430033514ada82cc42138",
+      "ruSha256": "6b8807258af4fcd0d50f75134074d3f777de14edf6b430033514ada82cc42138",
+      "ruGitRawSha256": "6b8807258af4fcd0d50f75134074d3f777de14edf6b430033514ada82cc42138"
+    },
+    {
+      "path": "words/勉強.md",
+      "sourceRawSha256": "6834a33656ca2acd8d1fe211fd0fc3cc59d4a5d9f3287c30e835a3a4b4e16a69",
+      "sourceSha256": "6834a33656ca2acd8d1fe211fd0fc3cc59d4a5d9f3287c30e835a3a4b4e16a69",
+      "ruRawSha256": "1860b052caa40ed637fa36c9154bebbc1e4d77c3873ed43d0ea2eafdbb9f3cff",
+      "ruSha256": "1860b052caa40ed637fa36c9154bebbc1e4d77c3873ed43d0ea2eafdbb9f3cff",
+      "ruGitRawSha256": "1860b052caa40ed637fa36c9154bebbc1e4d77c3873ed43d0ea2eafdbb9f3cff"
+    },
+    {
+      "path": "words/卒業.md",
+      "sourceRawSha256": "61ef14968c27ab0acfded0dcba0ca6d6ca3380e2433cad61986692ae62d77311",
+      "sourceSha256": "61ef14968c27ab0acfded0dcba0ca6d6ca3380e2433cad61986692ae62d77311",
+      "ruRawSha256": "8c09e7ec39149d318321ff2825aab530fdddc96db638fa35bc85fbe0f518d7df",
+      "ruSha256": "8c09e7ec39149d318321ff2825aab530fdddc96db638fa35bc85fbe0f518d7df",
+      "ruGitRawSha256": "8c09e7ec39149d318321ff2825aab530fdddc96db638fa35bc85fbe0f518d7df"
+    },
+    {
+      "path": "words/喫茶店.md",
+      "sourceRawSha256": "c17d948dde9b52b41086df6afd318bdcce44d2807e98526024f188fd8a70628e",
+      "sourceSha256": "c17d948dde9b52b41086df6afd318bdcce44d2807e98526024f188fd8a70628e",
+      "ruRawSha256": "f32c2af46d08bf0fb5aa052516a707caba331d0d7fc8ead512a2fbfda79d6657",
+      "ruSha256": "baa4ec28a1cccb883170a05681a0a84edc14057289c86652877c6ffbb061b642",
+      "ruGitRawSha256": "baa4ec28a1cccb883170a05681a0a84edc14057289c86652877c6ffbb061b642"
+    },
+    {
+      "path": "words/土地.md",
+      "sourceRawSha256": "e98970f135a6a59cd3781034b86a022781ae3ae30db3b005b533f555314157be",
+      "sourceSha256": "e98970f135a6a59cd3781034b86a022781ae3ae30db3b005b533f555314157be",
+      "ruRawSha256": "d258ff5737be0418e920e39156e4f0d6f29aaf1df02bb88d9a90b7e96437ffd9",
+      "ruSha256": "2f00a4522d8128f30c8a24eeb199ede95589f9e6e09551cb3476fd9da868501c",
+      "ruGitRawSha256": "2f00a4522d8128f30c8a24eeb199ede95589f9e6e09551cb3476fd9da868501c"
+    },
+    {
+      "path": "words/土曜日.md",
+      "sourceRawSha256": "430560e4a19beec1d1f17e73b8024945b93bb5eb7b9669d70edbb56ef78e21ad",
+      "sourceSha256": "430560e4a19beec1d1f17e73b8024945b93bb5eb7b9669d70edbb56ef78e21ad",
+      "ruRawSha256": "55b32d905e88ef0067f695a5486e74a078b32ed3cc9b336ea39d67fef7b4df68",
+      "ruSha256": "55b32d905e88ef0067f695a5486e74a078b32ed3cc9b336ea39d67fef7b4df68",
+      "ruGitRawSha256": "55b32d905e88ef0067f695a5486e74a078b32ed3cc9b336ea39d67fef7b4df68"
+    },
+    {
+      "path": "words/地下鉄.md",
+      "sourceRawSha256": "e449f41c59e2bed226688d38b1670d875c063d00e576c60a341ae5dee6b17287",
+      "sourceSha256": "e449f41c59e2bed226688d38b1670d875c063d00e576c60a341ae5dee6b17287",
+      "ruRawSha256": "5b8981750531a1933bf742eb942b1e3ae8f16c5d653f550eb8ccd85e81daca88",
+      "ruSha256": "ddc85e6c7079ffa15434ab21f03df1b1416cf2afa6ab98b707a53894b7313b5b",
+      "ruGitRawSha256": "ddc85e6c7079ffa15434ab21f03df1b1416cf2afa6ab98b707a53894b7313b5b"
+    },
+    {
+      "path": "words/地図.md",
+      "sourceRawSha256": "84d0699a3f0be16bf2df11d1fcc6bbe739df39c8fc0a0e61a35921116a567b36",
+      "sourceSha256": "84d0699a3f0be16bf2df11d1fcc6bbe739df39c8fc0a0e61a35921116a567b36",
+      "ruRawSha256": "f87ae0f13f98020dcf6343efc3eb10d203648bf5f5064c234d87ceba398c75af",
+      "ruSha256": "eef914a836dfbd72ebad7a155c68be41cc5fceda864669db8ece07aa89f2c3a9",
+      "ruGitRawSha256": "eef914a836dfbd72ebad7a155c68be41cc5fceda864669db8ece07aa89f2c3a9"
+    },
+    {
+      "path": "words/地理.md",
+      "sourceRawSha256": "a32fac3c5249dd8bca8e536fbab854a368d65cf297f8bb8b4ef3170937fb2ce8",
+      "sourceSha256": "a32fac3c5249dd8bca8e536fbab854a368d65cf297f8bb8b4ef3170937fb2ce8",
+      "ruRawSha256": "c2c5c5490d2e251e806db099215fff13dee0632a3e8a5749462e2d0847c94486",
+      "ruSha256": "c2c5c5490d2e251e806db099215fff13dee0632a3e8a5749462e2d0847c94486",
+      "ruGitRawSha256": "c2c5c5490d2e251e806db099215fff13dee0632a3e8a5749462e2d0847c94486"
+    },
+    {
+      "path": "words/地震.md",
+      "sourceRawSha256": "35fb2bb833c12ea6b177422ed6549a9c9812890ddb91b8b8308cf7f7a1551657",
+      "sourceSha256": "35fb2bb833c12ea6b177422ed6549a9c9812890ddb91b8b8308cf7f7a1551657",
+      "ruRawSha256": "fbefcc7ed123d2ce231b9dfe8e4195e87b141908d72abfff7b11dd9b94070766",
+      "ruSha256": "fbefcc7ed123d2ce231b9dfe8e4195e87b141908d72abfff7b11dd9b94070766",
+      "ruGitRawSha256": "fbefcc7ed123d2ce231b9dfe8e4195e87b141908d72abfff7b11dd9b94070766"
+    },
+    {
+      "path": "words/工業.md",
+      "sourceRawSha256": "9e1331a08520e5202fec44f5be5bca562662b2db80c83ba0a0f55926b4f46c3f",
+      "sourceSha256": "9e1331a08520e5202fec44f5be5bca562662b2db80c83ba0a0f55926b4f46c3f",
+      "ruRawSha256": "8d096969f9786985a3578b5ab1ee6f99ba2a0e1f7eb1c17445ded8f3d2cf7eaf",
+      "ruSha256": "5dd96be91d82d6c8e3fc1e82247db3cd57707fe2f122577a8a3c292fb3cc582d",
+      "ruGitRawSha256": "5dd96be91d82d6c8e3fc1e82247db3cd57707fe2f122577a8a3c292fb3cc582d"
+    },
+    {
+      "path": "words/弟.md",
+      "sourceRawSha256": "61985ddc841962562f42a050aaa8533da69ddd4708794d251a3b272ce8661b9f",
+      "sourceSha256": "61985ddc841962562f42a050aaa8533da69ddd4708794d251a3b272ce8661b9f",
+      "ruRawSha256": "89318c66539ca8afe883ae7e97911088702991e3713e5cba4c653e2a18b88aa7",
+      "ruSha256": "89318c66539ca8afe883ae7e97911088702991e3713e5cba4c653e2a18b88aa7",
+      "ruGitRawSha256": "89318c66539ca8afe883ae7e97911088702991e3713e5cba4c653e2a18b88aa7"
+    },
+    {
+      "path": "words/強い.md",
+      "sourceRawSha256": "937db1bbc6bdcb55494fc50ec8f56b4cec595fd04e56067fdc155c54ee6baf17",
+      "sourceSha256": "937db1bbc6bdcb55494fc50ec8f56b4cec595fd04e56067fdc155c54ee6baf17",
+      "ruRawSha256": "fba6c02569183a0c41b5207dabb902a54eb32082c105289951ac1e0683438e57",
+      "ruSha256": "c00ef749b076a13b646f2c46cf106491357b5697e6f2da62be1d031386634b0d",
+      "ruGitRawSha256": "c00ef749b076a13b646f2c46cf106491357b5697e6f2da62be1d031386634b0d"
+    },
+    {
+      "path": "words/授業.md",
+      "sourceRawSha256": "4dd16f459108a5c0152a7428baa2bf1eaf6e36da3debbee3e1f60640561e1ee5",
+      "sourceSha256": "4dd16f459108a5c0152a7428baa2bf1eaf6e36da3debbee3e1f60640561e1ee5",
+      "ruRawSha256": "864aaeb71d5a4049fee651a83fd0195ecb836e0b0d84cc0684d63781b1fd319e",
+      "ruSha256": "864aaeb71d5a4049fee651a83fd0195ecb836e0b0d84cc0684d63781b1fd319e",
+      "ruGitRawSha256": "864aaeb71d5a4049fee651a83fd0195ecb836e0b0d84cc0684d63781b1fd319e"
+    },
+    {
+      "path": "words/料理.md",
+      "sourceRawSha256": "5e7f0df4e9ce74198f5f5fdfa96853e813d5c3b9a459b613b6d41597e4471fc4",
+      "sourceSha256": "5e7f0df4e9ce74198f5f5fdfa96853e813d5c3b9a459b613b6d41597e4471fc4",
+      "ruRawSha256": "77c6dcdcc07e12db73c72cda38446957e8174003cba6a755c6acaa4e57783d6d",
+      "ruSha256": "cc4d0f8d8a6b09f9ec985d8361d972ad28624dc1faccc96612d9f003bf8d3e91",
+      "ruGitRawSha256": "cc4d0f8d8a6b09f9ec985d8361d972ad28624dc1faccc96612d9f003bf8d3e91"
+    },
+    {
+      "path": "words/日曜日.md",
+      "sourceRawSha256": "c84370e2137b2b1fcdb19c2beab4773a835f78402d9251e13d8a8accf496fa0e",
+      "sourceSha256": "c84370e2137b2b1fcdb19c2beab4773a835f78402d9251e13d8a8accf496fa0e",
+      "ruRawSha256": "9d75d93df5424f5e75f2fbfc75af5ae9a60ed54cda2cd084558de53ce4c4d444",
+      "ruSha256": "9d75d93df5424f5e75f2fbfc75af5ae9a60ed54cda2cd084558de53ce4c4d444",
+      "ruGitRawSha256": "9d75d93df5424f5e75f2fbfc75af5ae9a60ed54cda2cd084558de53ce4c4d444"
+    },
+    {
+      "path": "words/明るい.md",
+      "sourceRawSha256": "9f203e97dbc0393643ac88a3fa6718ae3766fb15050cfbe36cef3c1ea77b3ae7",
+      "sourceSha256": "9f203e97dbc0393643ac88a3fa6718ae3766fb15050cfbe36cef3c1ea77b3ae7",
+      "ruRawSha256": "de3493992cc21901d8f9e489e2b7d130fb3dc45b8b16ab5f9b7fbf4334e9d87c",
+      "ruSha256": "f4f0b720e8dea04e58b792e1de36f27c938612d2833cc1995deeee98cdc3a600",
+      "ruGitRawSha256": "f4f0b720e8dea04e58b792e1de36f27c938612d2833cc1995deeee98cdc3a600"
+    },
+    {
+      "path": "words/明日.md",
+      "sourceRawSha256": "47108c3909aa0d93fb1ed168f9e42ee8b336d7571af58baafcbea37d8b390eba",
+      "sourceSha256": "47108c3909aa0d93fb1ed168f9e42ee8b336d7571af58baafcbea37d8b390eba",
+      "ruRawSha256": "80c39f31e3d0bc2a2205eaeadd1df7858f0e30796deaf97e8facfd39b1c0a3c3",
+      "ruSha256": "80c39f31e3d0bc2a2205eaeadd1df7858f0e30796deaf97e8facfd39b1c0a3c3",
+      "ruGitRawSha256": "80c39f31e3d0bc2a2205eaeadd1df7858f0e30796deaf97e8facfd39b1c0a3c3"
+    },
+    {
+      "path": "words/映画.md",
+      "sourceRawSha256": "9185ce9a56f7e2164bea3b28d34bedbfba4f388873c759f36df33327b5fe6f29",
+      "sourceSha256": "9185ce9a56f7e2164bea3b28d34bedbfba4f388873c759f36df33327b5fe6f29",
+      "ruRawSha256": "ba0c845a87bebad9f92d552c05d5f71020f6d569ae5adf8a314813d15bd52d0f",
+      "ruSha256": "f3a9881b1f0e6571809c0e78358a5118e0b25a43ddce5a7eadb8371cc7282648",
+      "ruGitRawSha256": "f3a9881b1f0e6571809c0e78358a5118e0b25a43ddce5a7eadb8371cc7282648"
+    },
+    {
+      "path": "words/映画館.md",
+      "sourceRawSha256": "1332803f5562abaa195078ab540510e5087f776dd5e2c82ae809477a9bcc45f0",
+      "sourceSha256": "1332803f5562abaa195078ab540510e5087f776dd5e2c82ae809477a9bcc45f0",
+      "ruRawSha256": "df6568e7fb94969161d6f34158d0fb6a390bddde23bcde82068b6cc0d4883de9",
+      "ruSha256": "384d495f25bc5adae35cd52725ebd1bdd5a6f5c218c2fd27e5faa7e40342c5c4",
+      "ruGitRawSha256": "384d495f25bc5adae35cd52725ebd1bdd5a6f5c218c2fd27e5faa7e40342c5c4"
+    },
+    {
+      "path": "words/月曜日.md",
+      "sourceRawSha256": "d2d9ca2d2cd17231ecf60b6e261b0722b0764a20e183049ba97c39c13aa3cd27",
+      "sourceSha256": "d2d9ca2d2cd17231ecf60b6e261b0722b0764a20e183049ba97c39c13aa3cd27",
+      "ruRawSha256": "056939181456c702c6add827174511ccab5d46956a390e86873481e8b7a7c8e9",
+      "ruSha256": "056939181456c702c6add827174511ccab5d46956a390e86873481e8b7a7c8e9",
+      "ruGitRawSha256": "056939181456c702c6add827174511ccab5d46956a390e86873481e8b7a7c8e9"
+    },
+    {
+      "path": "words/服.md",
+      "sourceRawSha256": "dd38814264c1cb0d5865a8171de640f09907b1d4b2c8d4f1c5355fb5f21bcf67",
+      "sourceSha256": "dd38814264c1cb0d5865a8171de640f09907b1d4b2c8d4f1c5355fb5f21bcf67",
+      "ruRawSha256": "b9e111705b5518d6ce179241e79c042c2b0f52e79ac4b15af21e3ac6e023b65d",
+      "ruSha256": "b9a5acdabc491882797fea05c2819dccba49edfffcd279503fd5d53a93645a42",
+      "ruGitRawSha256": "b9a5acdabc491882797fea05c2819dccba49edfffcd279503fd5d53a93645a42"
+    },
+    {
+      "path": "words/朝.md",
+      "sourceRawSha256": "1f415175d8d6dc3cea9b1d92656853d1ab7d1d65b7c3e56259d6ceaf06ec459f",
+      "sourceSha256": "1f415175d8d6dc3cea9b1d92656853d1ab7d1d65b7c3e56259d6ceaf06ec459f",
+      "ruRawSha256": "6e878b29d2c35a0cb5286d42951d1eb04d8332bfe2e8e6fe8959890407b6ec37",
+      "ruSha256": "6e878b29d2c35a0cb5286d42951d1eb04d8332bfe2e8e6fe8959890407b6ec37",
+      "ruGitRawSha256": "6e878b29d2c35a0cb5286d42951d1eb04d8332bfe2e8e6fe8959890407b6ec37"
+    },
+    {
+      "path": "words/朝ごはん.md",
+      "sourceRawSha256": "fc6e087b277f62f174ebebef0ae544f27be289d6bf115fab55d315e73e479635",
+      "sourceSha256": "fc6e087b277f62f174ebebef0ae544f27be289d6bf115fab55d315e73e479635",
+      "ruRawSha256": "a2d38af8eb856968224693009ee0ffb6eaf3085d58ed6f969f635c881a82482f",
+      "ruSha256": "092841195e98c32f9537ce6b15299560a5214fea9d4ab820259a90abd4055d43",
+      "ruGitRawSha256": "092841195e98c32f9537ce6b15299560a5214fea9d4ab820259a90abd4055d43"
+    },
+    {
+      "path": "words/木曜日.md",
+      "sourceRawSha256": "67e75c61a7f731429b77d85297acb1f285b7c0267e2b6162c5086fdbb411dfa6",
+      "sourceSha256": "67e75c61a7f731429b77d85297acb1f285b7c0267e2b6162c5086fdbb411dfa6",
+      "ruRawSha256": "c09b45b6fede25af65815db8e6a9a64f5aae16ea58dd022f0c8871ad45048f8a",
+      "ruSha256": "c09b45b6fede25af65815db8e6a9a64f5aae16ea58dd022f0c8871ad45048f8a",
+      "ruGitRawSha256": "c09b45b6fede25af65815db8e6a9a64f5aae16ea58dd022f0c8871ad45048f8a"
+    },
+    {
+      "path": "words/楽しい.md",
+      "sourceRawSha256": "5e4eb5b4748dd17671bf1f6d57785dd6dbdbe762fa5387e7d05c91659bdad5c8",
+      "sourceSha256": "5e4eb5b4748dd17671bf1f6d57785dd6dbdbe762fa5387e7d05c91659bdad5c8",
+      "ruRawSha256": "455ab505702bb81dce292b619ab74a51a481e3a158a429cc1aa7139525052627",
+      "ruSha256": "9528a9792ae2fd4a2f74e6170cc585ba1c8018a8ad91940b0ce8cc9abad9b673",
+      "ruGitRawSha256": "9528a9792ae2fd4a2f74e6170cc585ba1c8018a8ad91940b0ce8cc9abad9b673"
+    },
+    {
+      "path": "words/楽しみ.md",
+      "sourceRawSha256": "98a00a02ba276c5932c1aeb4d511cda5f0e8818396b49defab7f071476e30c44",
+      "sourceSha256": "98a00a02ba276c5932c1aeb4d511cda5f0e8818396b49defab7f071476e30c44",
+      "ruRawSha256": "6517bf04dcb7ae4a785ad95f834ff48051e16f883ebd319ecc336564ad13a7ba",
+      "ruSha256": "6517bf04dcb7ae4a785ad95f834ff48051e16f883ebd319ecc336564ad13a7ba",
+      "ruGitRawSha256": "6517bf04dcb7ae4a785ad95f834ff48051e16f883ebd319ecc336564ad13a7ba"
+    },
+    {
+      "path": "words/楽しむ.md",
+      "sourceRawSha256": "2ef256f9adfd86efba2e463a28e130eec345309cabfbad8da92211cda705a93a",
+      "sourceSha256": "2ef256f9adfd86efba2e463a28e130eec345309cabfbad8da92211cda705a93a",
+      "ruRawSha256": "816eb18af2c2f6bf0bd414a7ac9ae406df64c1559dd5cd3230dd480e56949d28",
+      "ruSha256": "816eb18af2c2f6bf0bd414a7ac9ae406df64c1559dd5cd3230dd480e56949d28",
+      "ruGitRawSha256": "816eb18af2c2f6bf0bd414a7ac9ae406df64c1559dd5cd3230dd480e56949d28"
+    },
+    {
+      "path": "words/毎朝.md",
+      "sourceRawSha256": "4570661d412ae6637c481fc0d886d869b63c214f192f4109661a08e71cf03478",
+      "sourceSha256": "4570661d412ae6637c481fc0d886d869b63c214f192f4109661a08e71cf03478",
+      "ruRawSha256": "6089a881bcec018197f0e065b12b9fe36263885daf20c42d3d8071fa6439c677",
+      "ruSha256": "6089a881bcec018197f0e065b12b9fe36263885daf20c42d3d8071fa6439c677",
+      "ruGitRawSha256": "6089a881bcec018197f0e065b12b9fe36263885daf20c42d3d8071fa6439c677"
+    },
+    {
+      "path": "words/水曜日.md",
+      "sourceRawSha256": "705787a028acc0b84803ba68e3e27bcb1d767915c36b1ac742f1586eb745098f",
+      "sourceSha256": "705787a028acc0b84803ba68e3e27bcb1d767915c36b1ac742f1586eb745098f",
+      "ruRawSha256": "a9aff131c9039f48bc14009241a8f8f03433c0ea74e677a024bda79ad5627192",
+      "ruSha256": "a9aff131c9039f48bc14009241a8f8f03433c0ea74e677a024bda79ad5627192",
+      "ruGitRawSha256": "a9aff131c9039f48bc14009241a8f8f03433c0ea74e677a024bda79ad5627192"
+    },
+    {
+      "path": "words/洋服.md",
+      "sourceRawSha256": "67389a81070672b2c04df52feea665c405128afc718cd7ce03b5c1b69eb564e5",
+      "sourceSha256": "67389a81070672b2c04df52feea665c405128afc718cd7ce03b5c1b69eb564e5",
+      "ruRawSha256": "6119f8a009ee1a6e0b15a7fc5939fa8ff385c6fd1b993e59a4848d0caf03cdf6",
+      "ruSha256": "6071876f419bf7f9651464c36a7eb03884722292f866d4af3439c0fa97c506fb",
+      "ruGitRawSha256": "6071876f419bf7f9651464c36a7eb03884722292f866d4af3439c0fa97c506fb"
+    },
+    {
+      "path": "words/火曜日.md",
+      "sourceRawSha256": "8f4fe7ce17c55c9869d20b367783556c2f3a659e7b0c1268bd72516a040f3697",
+      "sourceSha256": "8f4fe7ce17c55c9869d20b367783556c2f3a659e7b0c1268bd72516a040f3697",
+      "ruRawSha256": "5eb5074588cb8fbfc30514a0ba16ce393d784fcc4838f034d63c63063016363a",
+      "ruSha256": "5eb5074588cb8fbfc30514a0ba16ce393d784fcc4838f034d63c63063016363a",
+      "ruGitRawSha256": "5eb5074588cb8fbfc30514a0ba16ce393d784fcc4838f034d63c63063016363a"
+    },
+    {
+      "path": "words/無理.md",
+      "sourceRawSha256": "6f2b3d4bcb1939aa26b5389f16e904073b1136aad127a57c2a3fc11dcae1f6db",
+      "sourceSha256": "6f2b3d4bcb1939aa26b5389f16e904073b1136aad127a57c2a3fc11dcae1f6db",
+      "ruRawSha256": "1ebb038f5ad6c4cb1feeb64649632d585881c20cb38685f1de442118f8c7b3a1",
+      "ruSha256": "1ebb038f5ad6c4cb1feeb64649632d585881c20cb38685f1de442118f8c7b3a1",
+      "ruGitRawSha256": "1ebb038f5ad6c4cb1feeb64649632d585881c20cb38685f1de442118f8c7b3a1"
+    },
+    {
+      "path": "words/理由.md",
+      "sourceRawSha256": "2a291d002e450df96a21f59b5597c6d2bc2f2ea6d579f3c54778dc91af5147a9",
+      "sourceSha256": "2a291d002e450df96a21f59b5597c6d2bc2f2ea6d579f3c54778dc91af5147a9",
+      "ruRawSha256": "701e59c3e7e765fe18750cadaa6bd2386c6649aaec952b4ab0aeb7f471676d8d",
+      "ruSha256": "701e59c3e7e765fe18750cadaa6bd2386c6649aaec952b4ab0aeb7f471676d8d",
+      "ruGitRawSha256": "701e59c3e7e765fe18750cadaa6bd2386c6649aaec952b4ab0aeb7f471676d8d"
+    },
+    {
+      "path": "words/理解.md",
+      "sourceRawSha256": "5d6fd893596e7c1461ef5ab66a30ca9b85e90950b076beaef26a17bf3d6773bb",
+      "sourceSha256": "5d6fd893596e7c1461ef5ab66a30ca9b85e90950b076beaef26a17bf3d6773bb",
+      "ruRawSha256": "3b0106db0010b04511ac16e84dfa16195ceab895b773a68bd45a7bbcf07acbea",
+      "ruSha256": "bb1bc9365a06d74211270efdc56222005f2cbcdefb78b2ef8fab4962dd789ee0",
+      "ruGitRawSha256": "bb1bc9365a06d74211270efdc56222005f2cbcdefb78b2ef8fab4962dd789ee0"
+    },
+    {
+      "path": "words/産業.md",
+      "sourceRawSha256": "7f42a285a9f90d4a8968efefea4bd5547d11f77cc30039240c06163ed5d3f2c9",
+      "sourceSha256": "7f42a285a9f90d4a8968efefea4bd5547d11f77cc30039240c06163ed5d3f2c9",
+      "ruRawSha256": "b61a06928e8994da58688b280f494dde14cb2ff85b0f7fe4b07f4fe145482cc3",
+      "ruSha256": "b61a06928e8994da58688b280f494dde14cb2ff85b0f7fe4b07f4fe145482cc3",
+      "ruGitRawSha256": "b61a06928e8994da58688b280f494dde14cb2ff85b0f7fe4b07f4fe145482cc3"
+    },
+    {
+      "path": "words/紅茶.md",
+      "sourceRawSha256": "2157e7249177473f454351dfba26bc30f9a1f91927cc94504f91b4c18e2c3442",
+      "sourceSha256": "2157e7249177473f454351dfba26bc30f9a1f91927cc94504f91b4c18e2c3442",
+      "ruRawSha256": "f2fe1b64d2ddd3459b1d586202dbcbd44b734c05d6cb43a76818d817d948ff58",
+      "ruSha256": "f22dd25d3ed9a29904c45fbb4185807f9b8b285898e9ca4c9e9f9c0a3317bf9d",
+      "ruGitRawSha256": "f22dd25d3ed9a29904c45fbb4185807f9b8b285898e9ca4c9e9f9c0a3317bf9d"
+    },
+    {
+      "path": "words/自転車.md",
+      "sourceRawSha256": "b48cad048576990cf40e4597968818c34ac9e0cef5e9e58533e3351671ac5fda",
+      "sourceSha256": "b48cad048576990cf40e4597968818c34ac9e0cef5e9e58533e3351671ac5fda",
+      "ruRawSha256": "51835a736397efdb35ae9c857707afbeb7fb6989c1b408f45f1827b473809521",
+      "ruSha256": "363aed12e15a6d6e15fbfeffeae9bb66fb0235ba88f8fc6993655b6e3a5d9e7f",
+      "ruGitRawSha256": "363aed12e15a6d6e15fbfeffeae9bb66fb0235ba88f8fc6993655b6e3a5d9e7f"
+    },
+    {
+      "path": "words/花.md",
+      "sourceRawSha256": "03459b137a2bfcca269e455c909014061281b0e7b3f4f865ef1547487a2034b4",
+      "sourceSha256": "a62ff1181b288831cf641662db730219ecd238fe90799a798026d6faa3334175",
+      "ruRawSha256": "22888af9f44d10459e3e332e14dcbdc4b2c638dee5c62331273ff351929e42ce",
+      "ruSha256": "19ac9b1acbd145bf2c824edc27361e6516c7a590b9ebfaa5e2d3d819717c8663",
+      "ruGitRawSha256": "19ac9b1acbd145bf2c824edc27361e6516c7a590b9ebfaa5e2d3d819717c8663"
+    },
+    {
+      "path": "words/花瓶.md",
+      "sourceRawSha256": "6133d8bed32fa43261fa63ca0fcbadea9ade0f3c7a5ef111cf7e4fb309bec43d",
+      "sourceSha256": "6133d8bed32fa43261fa63ca0fcbadea9ade0f3c7a5ef111cf7e4fb309bec43d",
+      "ruRawSha256": "2dd837bea5c7cdf8d7b2a8966f67abb2d39e2328d57547dbe146588830c39729",
+      "ruSha256": "177bf547f3aef45a6c5909b735e50da858a1154bbacddce2990dff3a291d2f18",
+      "ruGitRawSha256": "177bf547f3aef45a6c5909b735e50da858a1154bbacddce2990dff3a291d2f18"
+    },
+    {
+      "path": "words/花見.md",
+      "sourceRawSha256": "24ab936aab00d1c796314f1776c931c18de94d44b76d9194dd444ac45ee7fa1b",
+      "sourceSha256": "24ab936aab00d1c796314f1776c931c18de94d44b76d9194dd444ac45ee7fa1b",
+      "ruRawSha256": "fc0af0306326aec7ed56cb42ac5708800e9e006a4e77b4c864ecd3af10f19b81",
+      "ruSha256": "fc0af0306326aec7ed56cb42ac5708800e9e006a4e77b4c864ecd3af10f19b81",
+      "ruGitRawSha256": "fc0af0306326aec7ed56cb42ac5708800e9e006a4e77b4c864ecd3af10f19b81"
+    },
+    {
+      "path": "words/英語.md",
+      "sourceRawSha256": "715ff3d4fc3b33968b57d88a645fd8a5c6f1f6e9a7c0a94cadd77749a3d0d8b0",
+      "sourceSha256": "715ff3d4fc3b33968b57d88a645fd8a5c6f1f6e9a7c0a94cadd77749a3d0d8b0",
+      "ruRawSha256": "86b00bec23c423507facbcdd1506d96b09de0f4df06a4a9133e07534eadc3509",
+      "ruSha256": "86b00bec23c423507facbcdd1506d96b09de0f4df06a4a9133e07534eadc3509",
+      "ruGitRawSha256": "86b00bec23c423507facbcdd1506d96b09de0f4df06a4a9133e07534eadc3509"
+    },
+    {
+      "path": "words/茶色.md",
+      "sourceRawSha256": "cbd5dc3d8404d08f60b4eff164bd7ac735a01a223743fddae5489e4cb497ac5b",
+      "sourceSha256": "cbd5dc3d8404d08f60b4eff164bd7ac735a01a223743fddae5489e4cb497ac5b",
+      "ruRawSha256": "4253330d23f0433524a0df5e3ecfef0d37de2e4672fa72a5f75e9f7050c15bb1",
+      "ruSha256": "7ef1b58b002df8cc4f826e52698e43ac6b2f0b2b1b7648f41c2bc1de92b171ad",
+      "ruGitRawSha256": "7ef1b58b002df8cc4f826e52698e43ac6b2f0b2b1b7648f41c2bc1de92b171ad"
+    },
+    {
+      "path": "words/説明.md",
+      "sourceRawSha256": "39d131448d966fc35b57326f44f0c6b7b63dede19a1ee44ca99c1fa0c9683fe5",
+      "sourceSha256": "39d131448d966fc35b57326f44f0c6b7b63dede19a1ee44ca99c1fa0c9683fe5",
+      "ruRawSha256": "b935a41b8080db44394d7b4e47b8d97bb5bcbb6d3592c091da718d79ced0200d",
+      "ruSha256": "b935a41b8080db44394d7b4e47b8d97bb5bcbb6d3592c091da718d79ced0200d",
+      "ruGitRawSha256": "b935a41b8080db44394d7b4e47b8d97bb5bcbb6d3592c091da718d79ced0200d"
+    },
+    {
+      "path": "words/運転.md",
+      "sourceRawSha256": "49436d1d718e68c9a499e8f2b0ef1f8e788d74af1b1968990d2183d4fc31a930",
+      "sourceSha256": "49436d1d718e68c9a499e8f2b0ef1f8e788d74af1b1968990d2183d4fc31a930",
+      "ruRawSha256": "62f52599ff59ecfa25aa8b7c99398ee59204c3bbdc98e9623de3f059bdeb97c8",
+      "ruSha256": "62f52599ff59ecfa25aa8b7c99398ee59204c3bbdc98e9623de3f059bdeb97c8",
+      "ruGitRawSha256": "62f52599ff59ecfa25aa8b7c99398ee59204c3bbdc98e9623de3f059bdeb97c8"
+    },
+    {
+      "path": "words/運転手.md",
+      "sourceRawSha256": "7961a9dd34722470f4b4c37d59f56385c0636d4acf66dc9208b16b0b593653c7",
+      "sourceSha256": "7961a9dd34722470f4b4c37d59f56385c0636d4acf66dc9208b16b0b593653c7",
+      "ruRawSha256": "63f46f3da5366d1fbc34683ad26aaf9b3b5ca278038ac7ffdde213e7581d6d5d",
+      "ruSha256": "63f46f3da5366d1fbc34683ad26aaf9b3b5ca278038ac7ffdde213e7581d6d5d",
+      "ruGitRawSha256": "63f46f3da5366d1fbc34683ad26aaf9b3b5ca278038ac7ffdde213e7581d6d5d"
+    },
+    {
+      "path": "words/野菜.md",
+      "sourceRawSha256": "beddd2da96c36fd9ed62a19adea0fdc9dea742c7045556f32d6735beb76b56a0",
+      "sourceSha256": "beddd2da96c36fd9ed62a19adea0fdc9dea742c7045556f32d6735beb76b56a0",
+      "ruRawSha256": "1229b3b2fe8774f4f5dcc8ab34aead571726e771cfd72469fb9f5b8ae5c24a58",
+      "ruSha256": "4a5646e5f43991883db13a232a49f8daeba5a8cc4c31cad0dbbd0053ad801a76",
+      "ruGitRawSha256": "4a5646e5f43991883db13a232a49f8daeba5a8cc4c31cad0dbbd0053ad801a76"
+    },
+    {
+      "path": "words/金曜日.md",
+      "sourceRawSha256": "5f43f453833ed43d01f16575abf646498518c2a7507d8bc6ba996edd6ef828e4",
+      "sourceSha256": "5f43f453833ed43d01f16575abf646498518c2a7507d8bc6ba996edd6ef828e4",
+      "ruRawSha256": "cd67879d3a7a1310ce6458de18ce4bee45dc5343d07557c2519a8e3d56417eca",
+      "ruSha256": "cd67879d3a7a1310ce6458de18ce4bee45dc5343d07557c2519a8e3d56417eca",
+      "ruGitRawSha256": "cd67879d3a7a1310ce6458de18ce4bee45dc5343d07557c2519a8e3d56417eca"
+    },
+    {
+      "path": "words/集まる.md",
+      "sourceRawSha256": "d46c03355b67dac7d99e25d23b55e0c613919d1d39f85cd15a92c2e3ef3e4ba2",
+      "sourceSha256": "d46c03355b67dac7d99e25d23b55e0c613919d1d39f85cd15a92c2e3ef3e4ba2",
+      "ruRawSha256": "54c5807db3208c4afaee7764a2a5b275619949d45cea6f2a936f0987d3695a21",
+      "ruSha256": "54c5807db3208c4afaee7764a2a5b275619949d45cea6f2a936f0987d3695a21",
+      "ruGitRawSha256": "54c5807db3208c4afaee7764a2a5b275619949d45cea6f2a936f0987d3695a21"
+    },
+    {
+      "path": "words/集める.md",
+      "sourceRawSha256": "5c94511a0e6096be314a636210b583f2fc58631accb7c6b9df174157b75c0d3c",
+      "sourceSha256": "5c94511a0e6096be314a636210b583f2fc58631accb7c6b9df174157b75c0d3c",
+      "ruRawSha256": "121a940ca4ae2d7b9a167ef195d659cfe84e10caac2a5fea51c988940df904dd",
+      "ruSha256": "121a940ca4ae2d7b9a167ef195d659cfe84e10caac2a5fea51c988940df904dd",
+      "ruGitRawSha256": "121a940ca4ae2d7b9a167ef195d659cfe84e10caac2a5fea51c988940df904dd"
+    },
+    {
+      "path": "words/音楽.md",
+      "sourceRawSha256": "7facddacdf5cd6f29bef74e3e20959a3be1c76f408de20739ac88bcef3dac5c8",
+      "sourceSha256": "7facddacdf5cd6f29bef74e3e20959a3be1c76f408de20739ac88bcef3dac5c8",
+      "ruRawSha256": "74d7372b86700f0471d8022219b80a75cd600a15b6c37fb73379275dd528a9fa",
+      "ruSha256": "2f46ec8dbe454329ad8707eb4682634c92b1b48a0f3c354d5ba4014a832f4c93",
+      "ruGitRawSha256": "2f46ec8dbe454329ad8707eb4682634c92b1b48a0f3c354d5ba4014a832f4c93"
+    }
+  ],
+  "completeRussianKanjiLessonLines": 1083,
+  "actualNewKanjiLevels": {
+    "4": 17
+  },
+  "baselineRuntimeRawsAndTrackingRowsPreserved": 1893,
+  "exactNavigationOnlyUpdatedBaselineWords": 53,
+  "exactSemanticPlusNavigationUpdatedBaselineWords": 0,
+  "exactExistingWordSemanticAmendments": [],
+  "exactNavigationWrappers": 54,
+  "allExistingWordVisibleProseAndJapaneseUnchanged": true,
+  "oldWordMetadataAndQuizArraysUnchanged": 1478,
+  "explicitNewKanjiSourceCorrection": "英distractors[茶,花,映]to[茶,映]only",
+  "explicitNewKanjiClarityCorrection": "曜antecedentexplicit月曜日;correctひ-to-びunchanged",
+  "noFresh1478WordPoolReview": true,
+  "newRuntimePaths": 34,
+  "newWords": 0,
+  "newKanji": 17,
+  "rawIdenticalStrokeAssets": 17,
+  "oldRuntimeEdits": [
+    "words/お茶.md",
+    "words/今朝.md",
+    "words/兄弟.md",
+    "words/勉強.md",
+    "words/卒業.md",
+    "words/喫茶店.md",
+    "words/土地.md",
+    "words/土曜日.md",
+    "words/地下鉄.md",
+    "words/地図.md",
+    "words/地理.md",
+    "words/地震.md",
+    "words/工業.md",
+    "words/弟.md",
+    "words/強い.md",
+    "words/授業.md",
+    "words/料理.md",
+    "words/日曜日.md",
+    "words/明るい.md",
+    "words/明日.md",
+    "words/映画.md",
+    "words/映画館.md",
+    "words/月曜日.md",
+    "words/服.md",
+    "words/朝.md",
+    "words/朝ごはん.md",
+    "words/木曜日.md",
+    "words/楽しい.md",
+    "words/楽しみ.md",
+    "words/楽しむ.md",
+    "words/毎朝.md",
+    "words/水曜日.md",
+    "words/洋服.md",
+    "words/火曜日.md",
+    "words/無理.md",
+    "words/理由.md",
+    "words/理解.md",
+    "words/産業.md",
+    "words/紅茶.md",
+    "words/自転車.md",
+    "words/花.md",
+    "words/花瓶.md",
+    "words/花見.md",
+    "words/英語.md",
+    "words/茶色.md",
+    "words/説明.md",
+    "words/運転.md",
+    "words/運転手.md",
+    "words/野菜.md",
+    "words/金曜日.md",
+    "words/集まる.md",
+    "words/集める.md",
+    "words/音楽.md"
+  ],
+  "runtime": {
+    "objects": 1980,
+    "words": 1478,
+    "kanji": 236,
+    "strokes": 236,
+    "contentVersion": "b1d5197e8fc7fe07",
+    "wordJlptCounts": {
+      "4": 636,
+      "5": 671,
+      "3": 97,
+      "unlabelled": 55,
+      "2": 19
+    },
+    "kanjiJlptCounts": {
+      "5": 80,
+      "4": 141,
+      "3": 13,
+      "2": 2
+    },
+    "N4Kanji": 141,
+    "remainingN4Kanji": 25,
+    "N5Words": 671,
+    "remainingN5Words": 1,
+    "N4Words": 636,
+    "remainingN4Words": 0
+  },
+  "progressStatuses": {
+    "reviewed-current": 1980,
+    "draft-reviewed-runtime-blocked": 2,
+    "pending": 6296
+  },
+  "finalValidationReceipt": "docs/translation-batches/081-light-nature-and-daily-life-kanji-final-validation-001.json",
+  "appHintMappingStatus": "UNVERIFIED;live/sharedappnotaccessed",
+  "next": "082+ALLremaining safe frozenlevels/families;protected033word空separate."
+}

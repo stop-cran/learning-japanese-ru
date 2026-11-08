@@ -1,6 +1,81 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch080 movement, routes and transitions kanji
+## Current qualified source milestone: batch081 light, nature and daily-life kanji
+
+Batch081 adds **17 complete Russian kanji lessons /1083 file lines,
+all actual frozen N4**,and17 RAW-identical Japanese KanjiVG assets.
+Existing53 word bodies receive54 **navigation-only wrappers**;
+no existing-word semantic amendment or new word is introduced.
+Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+Original signed intake,adjudication/freeze,proposals,candidate and reports persist.
+
+The [actual whole review](translation-batches/081-light-nature-and-daily-life-kanji-independent-review-001.json)
+read **215 whole teaching bodies**:17 primary EN/RU pairs,88 current
+context EN/RU pairs and five whole EN-only comparisons.
+Its **306 official source-TEXT units** are48 whole KANJIDIC records,
+including append-only由,ten Unicode rows,231 whole ordered JMdict objects
+and17 whole visible KanjiPedia entry-TEXT projections.
+One whole provider header and one actual flower-phonetic PNG view are separate.
+Only that PNG was visually inspected;other glyph pixels remain UNINSPECTED.
+The review read236 current typed kanji rows,all51 original directed proposals,
+18 adjudications,53 exact navigation diffs/54 wrappers,11 outside observations,
+four guidance files and three correct CURRENT RU-root rubrics.
+Entire successful returned payloads are bound,not markers alone.
+236 metadata rows are not236 whole lessons or1478 fresh word judgments.
+The actual **10889-byte stdout/final report**,SHA256
+`93209116b8637757799463a0bbf560e9bfb0f4ee27dab31b2f1c8852f0f5fa08`,
+requested two bounded changes;its original verdict is not rewritten.
+
+**F081-01,C2:** attested flower meaning makes花 unsafe as an unequivocally
+wrong answer to bare英. The explicit signed
+[source amendment](translation-batches/081-light-nature-and-daily-life-kanji-source-correction-and-clarity-freeze-001.json)
+changes only英.distractors `[茶,花,映]` to `[茶,映]`.
+All17 closure and all51 historical directions remain;invalid N038 is rejected,
+not silently erased from history. No replacement/reverse/transitive edge is invented.
+**F081-02,C3:** 曜 now names月曜日 explicitly in the three-reading warning,
+preserving the examples and correct nativeひ→び explanation.
+The [actual focused review](translation-batches/081-light-nature-and-daily-life-kanji-independent-review-002.json),
+**8712 bytes**,SHA256
+`2fba3db032c7e4153563a8c9e77483e05976bed07088cab44cbb74bf7358c730`,
+resolves these exact changes after reading eight whole teaching bodies,
+nine whole official TEXT units,one header and two current/two prior typed rows.
+Its236-row provenance/identity audit is not236 fresh semantic judgments
+or another whole215-body review.
+
+The first report accidentally labels the prospective pool hash as candidate.
+The focused review independently confirms actual original candidate pool
+`6029833da5f7ea19629fca7341ef3c1c246d332b22faf775cfad2922edb5fc56`,
+corrected pool `2d2c0113ef36f86f33e61e4fd2bbe361360297c864a7137fa52b8c9ccfa227fb`,
+and the original236 complete successful current-payload returns.
+Original report bytes and limitations remain immutable.
+**C1/C3: no remaining confirmed defect within the combined assigned scopes.
+C2: exact bounded correction resolved;NOT whole C2 CLEAN.**
+Fifty active directions carry only their original qualified introductory-core
+contrast judgments,not50 fresh judgments or universal disjointness.
+**Broader ordinary quiz/fallback suitability,modern necessity/frequency and
+future global uniqueness remain UNVERIFIED.**
+Eleven outside observations are limitations,not new exclusions.
+Existing word guards retain earlier identity/support/limits,not1478 fresh approvals.
+
+The [qualified source record](translation-batches/081-light-nature-and-daily-life-kanji-reviewed-source.json)
+preserves1893 other baseline runtime RAWs/tracking rows.
+Qualified source checkpoint: **1980 runtime objects/1478 words/
+236 kanji/236 strokes**. Words remain671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/**141 N4**/13 N3/2 N2,leaving **25 actual frozen N4 kanji**.
+Strict progress: **1980 reviewed-current,two excluded reviewed blocked-media
+drafts,6296 pending of8278;6298 runtime paths absent**,no partial.
+Version `b1d5197e8fc7fe07`;checkpoint authority null/Ready false.
+Counts become accepted-main only after signed normal integration;
+fresh final serialized checks,actual public archives/signatures/four protected
+refs/exact-main CI remain separate publication evidence.
+Stroke/root-license identity is not pixel/native/media approval.
+Protected033 **word**空 remains excluded/runtime-absent/C2 UNVERIFIED,
+not media;accepted077 **kanji**空 does not resolve its caption blocker.
+No app/device/phone/IME/media/default/package/release authority.
+Continue082+ and ALL remaining safe frozen levels/families;
+neither this batch nor N4 closure completes the finite target.
+
+## Previous qualified source milestone: batch080 movement, routes and transitions kanji
 
 Batch080 adds **17 complete Russian kanji lessons /1089 file lines:
 16 actual frozen N4 plus unchanged source-N3達**,and17 RAW-identical

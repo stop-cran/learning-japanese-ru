@@ -11,7 +11,58 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-The eightieth full-target batch adds **17 complete Russian kanji lessons/
+The eighty-first full-target batch adds **17 complete Russian kanji lessons/
+1083 file lines,all actual frozen N4**,and17 RAW-identical KanjiVG assets.
+Existing53 word bodies receive54 **navigation-only wrappers**;
+no new word or existing-word semantic amendment.
+Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+Original signed intake,freeze,proposals,candidate and report remain immutable.
+
+The [actual whole review](translation-batches/081-light-nature-and-daily-life-kanji-independent-review-001.json)
+read **215 whole teaching bodies**,306 whole official source-TEXT units,
+one whole provider header,one actual PNG,236 current typed kanji rows,
+all51 directions,18 adjudications,53 exact NAV diffs/54 wrappers,
+11 outside observations,four guidance files and three correct CURRENT RU-root rubrics.
+The **10889-byte actual stdout/final report**,SHA256
+`93209116b8637757799463a0bbf560e9bfb0f4ee27dab31b2f1c8852f0f5fa08`,
+requested F081-01/C2 and F081-02/C3;do not rewrite that historical verdict.
+The signed explicit source amendment removes only invalid active英→花
+from英.distractors,`[茶,花,映]`→`[茶,映]`,preserving all17 closure and51 history.
+曜 explicitly names月曜日 in the three-reading warning;correct nativeひ→び persists.
+
+The [actual focused review](translation-batches/081-light-nature-and-daily-life-kanji-independent-review-002.json),
+**8712 bytes**,SHA256
+`2fba3db032c7e4153563a8c9e77483e05976bed07088cab44cbb74bf7358c730`,
+resolves only the two exact changes and the first report's wrong prospective-pool
+hash label. It read eight whole teaching bodies,nine whole official TEXT units,
+one header and two current/two prior typed rows.
+The236-row audit independently confirms actual original602983... candidate
+payloads and corrected2d2c... pool identities,not236 fresh semantic judgments.
+Original10889-byte report remains immutable.
+No second whole215-body review or1478 fresh word approval is claimed.
+The50 retained Q directions carry only original qualified core-contrast scope;
+N038 remains rejected history,with no invented replacement/reverse/transitive edge.
+**C1/C3: no remaining confirmed defect within combined assigned scopes.
+C2: bounded correction resolved,NOT whole C2 CLEAN. Broader ordinary quiz/
+fallback suitability,modern necessity/frequency and global future uniqueness UNVERIFIED.**
+Other glyph pixels remain UNINSPECTED;prior word-guard scope/identity persists.
+
+Qualified source checkpoint: **1980 runtime objects/1478 words/
+236 kanji/236 strokes**. Words671 N5/636 N4/97 N3/19 N2/55 unlabelled;
+kanji80 N5/**141 N4**/13 N3/2 N2,**25 actual frozen N4 kanji remain**.
+Strict progress: **1980 reviewed-current,two excluded reviewed blocked-media
+drafts,6296 pending of8278;6298 runtime paths absent**,no partial.
+Version `b1d5197e8fc7fe07`;checkpoint authority null/Ready false.
+1893 other baseline RAWs/tracking rows persist;53 word patches are NAV-only.
+These become accepted-main counts only after signed normal integration;
+fresh final checks,public archives/signatures/four protected refs/exact-main CI
+are separate publication evidence,not native/pixel/media approval.
+Protected033 **word**空 stays excluded/runtime-absent/C2 UNVERIFIED,not media;
+accepted077 **kanji**空 does not resolve it.
+No app/device/phone/IME/media/default/package/release authority.
+Continue082+ and ALL remaining safe frozen levels/families,not task completion.
+
+The previous eightieth full-target batch adds **17 complete Russian kanji lessons/
 1089 file lines:16 actual N4 plus unchanged source-N3達**,and17 RAW-identical
 Japanese KanjiVG assets. Existing51 words receive51 **navigation-only wrappers**,
 with no semantic amendment:50 standalone glyph wrappers and the existing
