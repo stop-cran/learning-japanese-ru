@@ -11,7 +11,50 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current qualified source milestone: batch115
+## Current qualified source milestone: batch116
+
+Batch116 adds **four complete Russian frozen N3 lessons, 必/怒/愛/慣, 279 file lines**,
+and four RAW-identical Japanese KanjiVG assets. Five whole current word bodies receive one
+**NAV-only standalone-glyph wrapper** each (必ず→必; 必要→必; 怒る→怒; 慣れる→慣; 習慣→慣), planned in
+the signed intake; no whole-label wrapper and no navigation amendment. All visible prose, Japanese
+metadata, quiz arrays, old links, LF line endings and frozen levels of those words remain unchanged.
+Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The [actual whole independent review](translation-batches/116-necessity-anger-love-and-habit-kanji-independent-review-001.json) (one reviewer) of
+candidate `76f9e08f0ae41e721c72a488462698bfcb310a74` read **47 whole teaching bodies, 24 EN/23
+CURRENT RU** (four primary pairs, 16 context pairs including the five NAV words, three linked-only
+existing pairs 多分/習う/習, and one EN-only comparison body words/愛), **65 whole official TEXT
+units** (19 KANJIDIC2, one radical-evidence unit, 41 JMdict, four KanjiPedia) plus one provider
+header, all 407 CURRENT typed rows, 12 original directions, four L/four A rulings, four outside
+LIMITS, five exact NAV diffs, four guidance files and three RU rubrics — **57 complete windows**, 60
+successful commands, zero failures, identical opening/closing gates, zero glyph pixels and zero web
+pages. The original **4605-byte stdout report**, SHA256 `67e793d889496bb9511ff189c245cce63ead1d2bcbddec913f16b62a27b84ae3`
+(the reviewer's native final plus one terminal LF), is published verbatim. Actual verdicts: **C1
+CLEAN**, **C2 CLEAN** (bounded; five NAV-only wrappers and links verified), **C3 CLEAN**; findings
+none; optional none.
+
+All 12 directions are **S-intro** (introductory/source-core only, canonical author mapping Q); the
+reviewer additionally found each bounded-safe as a negative against the current directed Russian
+titles only (N005 怒→安: «спокойный» is a contrast, not an anger synonym). All 12 ordinary all-mode
+uses stay **U** (metadata retention is not guard approval). All four L and four A rulings are
+SUPPORTED; all five NAV changes are NAV-ONLY; outside LIMITS (必 vs 用/定 and 心-shape kanji; 怒 vs
+思/悪/好 and ド; 愛 vs 好/受/親/意/間; 慣 vs 習/常 and the カン homophones) are observations, not new
+guards and not cleared for future options.
+
+The [qualified source record](translation-batches/116-necessity-anger-love-and-habit-kanji-reviewed-source.json) preserves 2309 other baseline
+runtime RAWs/tracking rows and all 1478 word metadata/quiz arrays. Qualified source checkpoint:
+**2322 runtime/1478 words/407 kanji/407 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled
+unchanged; kanji 80 N5/166 N4/**159 N3**/2 N2; **208 N3 remain**. Strict progress: **2322
+reviewed-current/two excluded reviewed blocked-media drafts/5954 pending of 8278; 5956 runtime
+paths absent**. Version `b7c806b406302b76`; checkpoint authority null/Ready false. Prior 082–115
+U qualifications remain unchanged; the existing unlinked 完 mention in RU 院.md, the RU 留守
+wording, the existing RU 怒る «официальный или литературный» wording for いかる (the new 怒 lesson
+says «книжное или литературное») and the RU 少.md distractor 名 (frozen EN 小) are outside this
+batch and remain open observations. Protected 033 WORD空 stays excluded/runtime-absent/not media.
+No device/media/default/package/release authority. Continue 117+ and **ALL remaining safe frozen
+levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch115
 
 Batch115 adds **five complete Russian frozen N3 lessons, 政/敗/数/散/期, 358 file lines**,
 and five RAW-identical Japanese KanjiVG assets. Four whole current word bodies receive one
