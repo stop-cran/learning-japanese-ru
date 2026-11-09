@@ -11,7 +11,57 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current qualified source milestone: batch105
+## Current qualified source milestone: batch106
+
+Batch106 adds **three complete Russian frozen N3 lessons, 寒/寝/察, 161 file lines**,
+and three RAW-identical Japanese KanjiVG assets. Four whole current word bodies receive
+**NAV-only standalone-glyph wrappers** (寒い→寒, 寝る→寝, 寝坊→寝, 警察→察; 寒い and 寝る keep their CRLF
+line endings), planned in the signed intake; no whole-label wrapper and no navigation amendment. All visible
+prose, Japanese metadata, quiz arrays, old links and frozen levels of those words remain unchanged. Frozen EN
+remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The [actual whole independent review](translation-batches/106-cold-sleep-and-inspect-kanji-independent-review-001.json) (one reviewer) of
+original candidate `fae77012825f8e1768c75803052476e7784e7247` read **25 whole teaching bodies, 13 EN/12
+CURRENT RU** (three primary pairs, nine context pairs and one EN-only comparison body), **47 whole
+official TEXT units** (7 KANJIDIC2, one radical-evidence unit, 36 JMdict, three KanjiPedia) plus
+one provider header, all 369 CURRENT typed rows, nine original directions, three L/three A rulings,
+three outside LIMITS, four exact NAV diffs, four guidance files and three RU rubrics —
+**47 complete windows**, 50 successful commands, zero failures, identical opening/closing gates, zero
+glyph pixels and zero web pages. The original **4535-byte stdout report**, SHA256
+`e3133ed7689332b8216564335c1f417f32f42bb67dc99990c8581cb661ea45c7`, equal to the reviewer's 4534-byte native
+final plus one terminal LF, is published verbatim. Actual verdicts: **C1 CLEAN**, **C2 CLEAN** (bounded
+content review; four NAV-only wrappers; runtime fallback not exercised), **C3 NEEDS FIX** — finding
+**106-F001**: the 寝 lesson note «[眠る] (ねむる) сосредоточено на самом сне» was an awkward, grammatically
+mismatched Russian clause.
+
+A signed [pre-mutation wording freeze](translation-batches/106-cold-sleep-and-inspect-kanji-review-finding-wording-amendment-freeze-001.json)
+(`f897efa2ae2ee2ecf1ee79f1274fec000c5f1650`) authorised exactly one line in kanji/寝.md; the
+[corrected candidate](translation-batches/106-cold-sleep-and-inspect-kanji-corrected-candidate-001.json) `dc08c1aaea097d07ac905048bc703507e4c24c51`
+now reads «В слове [眠る] (ねむる) акцент на самом сне, а у 寝る есть ещё значение «лежать; ложиться»». The
+reviewer's replacement gloss «лечь; отправиться спать» was deliberately not adopted (the existing gloss
+follows the frozen EN lying-down sense and JMdict 1360010). One later
+[focused review](translation-batches/106-cold-sleep-and-inspect-kanji-independent-review-focused-001.json) (one different reviewer, never
+concurrent; 21 windows, 24 commands, zero failures; 3325-byte report) found **106-F001 RESOLVED**,
+bounded C1/C2/C3 CLEAN, the kept gloss acceptable, and no new findings. It is not a second whole review;
+the original verdicts stay immutable and the batch is not retrospectively whole-CLEAN.
+
+All nine directions are **S-intro** (introductory/source-core only, canonical author mapping Q); all
+nine ordinary uses stay **U** (metadata retention is not guard approval). All three L and three A
+rulings are SUPPORTED and bounded; all four NAV changes NAV-ONLY; outside LIMITS (寒 vs 冷/冬, 寝 vs
+夢/休/起/夜, 察 vs 見/知/思/考/判) are observations, not new guards.
+
+The [qualified source record](translation-batches/106-cold-sleep-and-inspect-kanji-reviewed-source.json) preserves 2236 other baseline
+runtime RAWs/tracking rows and all 1478 word metadata/quiz arrays. Qualified source checkpoint:
+**2246 runtime/1478 words/369 kanji/369 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled
+unchanged; kanji 80 N5/166 N4/**121 N3**/2 N2; **246 N3 remain**. Strict progress: **2246
+reviewed-current/two excluded reviewed blocked-media drafts/6030 pending of 8278; 6032 runtime
+paths absent**. Version `a994f0996c3cf112`; checkpoint authority null/Ready false. Prior 082–105
+U qualifications remain unchanged; the existing unlinked 完 mention in RU 院.md and the RU 留守
+wording outside this batch remain open observations. Protected 033 WORD空 stays
+excluded/runtime-absent/not media. No device/media/default/package/release authority. Continue 107+
+and **ALL remaining safe frozen levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch105
 
 Batch105 adds **four complete Russian frozen N3 lessons, 官/富/定/寄, 222 file lines**,
 and four RAW-identical Japanese KanjiVG assets. Three whole current word bodies receive
