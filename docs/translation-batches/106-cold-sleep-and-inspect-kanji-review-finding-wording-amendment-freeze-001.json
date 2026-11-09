@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "batch": "106-cold-sleep-and-inspect-kanji",
+  "recordedAt": "2026-11-09T00:57:15.672245+00:00",
+  "originalCandidateCommit": "fae77012825f8e1768c75803052476e7784e7247",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineSnapshot": "27c4dc6d043994699cc839d6a4e20034fe8c29f2",
+  "originalActualReportSha256": "e3133ed7689332b8216564335c1f417f32f42bb67dc99990c8581cb661ea45c7",
+  "actualWholeIndependentReviews": 1,
+  "actualSuccessfulStdoutReportDeliveries": 1,
+  "actualFailedReportDeliveries": 0,
+  "originalReviewer": "e5a68d35-812d-40c1-993a-f7c125067006",
+  "originalReviewerCompletedNotRunning": true,
+  "exactOriginalReportPath": "docs/translation-batches/106-cold-sleep-and-inspect-kanji-independent-review-001.json",
+  "exactOriginalPublicReportRawSha256": "8f254d11b1c778c6e6d92eaecf73d21ecdbf346781a11b807d5f83fbbabcced2",
+  "historicalOriginalReportImmutable": true,
+  "finding": "106-F001",
+  "adoptedOptionalPolish": [],
+  "optionalPolishDisposition": "NOT_APPLICABLE:reviewerreturnedOptional:none.",
+  "findingDisposition": "SUPPORTED;EXACT_BOUNDED_AMENDMENT_PROPOSED;FOCUSED_REVIEW_PENDING",
+  "preservedOriginalFacets": {
+    "C1": "C1 CLEAN within scope: readings, counts, radical, meanings, examples, word forms and bounded visual mnemonics match frozen source and read official evidence. JLPT N3 is the frozen community classification, not a KANJIDIC2 claim.",
+    "C2": "C2 CLEAN within scope: all 4 edits are standalone navigation wrappers only; links resolve to existing files, missing Russian word pages remain plain text, stroke hashes match, and all 9 directed negatives are supported as introductory comparisons and distinct from active answer meanings in the actual pool. No reverse/transitive inference.",
+    "C3": "C3 NEEDS FIX: Russian is clear overall, but one confirmed awkward construction in the new 寝 lesson (finding below). Navigation wrappers preserve readability."
+  },
+  "exactChangedPaths": [
+    "kanji/寝.md"
+  ],
+  "exactPathChanges": [
+    {
+      "path": "kanji/寝.md",
+      "exactBeforeWorkingRawSha256": "289d30e92ac22a644e2fef02003ae98430bdc12392d953347d883be557eeae2d",
+      "exactBeforeGitRawSha256": "289d30e92ac22a644e2fef02003ae98430bdc12392d953347d883be557eeae2d",
+      "exactAfterWorkingRawSha256": "cf0db4b6b4388a0e2b14e4f27a5a1ad81a71ea691ed24f824f38d298cd0a0132"
+    }
+  ],
+  "exactBeforeText": "[眠る](../words/眠る.md) (ねむる) сосредоточено на самом сне,\n",
+  "exactAfterText": "В слове [眠る](../words/眠る.md) (ねむる) акцент на самом сне,\n",
+  "sourceEvidence": "Reviewer106-F001(C3,medium,highconfidence):«[眠る](..)(ねむる)сосредоточеносамомсне»isawkward/grammaticallymismatched(neuterpredicatewithJapaneseverbassubject).Reportcites寝.md:46;actualsentencestartsline47(line46blankafterheading).Fix=restructureONLYthesubjectclause:«В слове [眠る](..) (ねむる) акцент на самом сне,»;continuation«а у 寝る есть ещё значение «лежать; ложиться»»UNCHANGED(faithfultofrozenEN'lying-downsense'andJMdict1360010).",
+  "reviewerProposedWordingDisposition": "PARTIALLY_ADOPTED:reviewer'sstructure«акцент…насамомсне»adopted;reviewer'sreplacementgloss«лечь;отправитьсяспать»NOTadopted(wouldchangeasourcedsenseclauseandintroduceunreviewedmeaningwording);existinggloss kept.",
+  "exactSourceProjectionMatches": [
+    {
+      "index": 15,
+      "wholeProjectionRawSha256": "72fa4b139e41c5b6daa6c7a4ee6a8d14fa75d6e89b5ba3a33fd70bd2766368c9"
+    },
+    {
+      "index": 22,
+      "wholeProjectionRawSha256": "8fb96ef09fa4d3f6a511112f42ad92adc7a3aa2e3950c11d588fcc3488535256"
+    }
+  ],
+  "exactOriginalPoolRawSha256": "1b8155991739035392f4bb4df514e2ebefca515f905396c4ac726bd2dcfc3104",
+  "exactOriginalEvidenceBindingRawSha256": "d04cbe9ea67e2a8d09ac0beef63b419e51dd2fdef72d59fc0b77b70e44cdffd4",
+  "scope": "ONE_RU_LINE_IN_kanji/寝.md_ONLY(Примечанияsentencesubjectclause);noJapanese/example/reading/title/metadata/direction/NAV/provider/stroke/levelchange;nohistoricalrecordrewrite.",
+  "proposedNewQualifiedPairJudgments": 0,
+  "originalDirectionDispositionCounts": {
+    "S-intro": 9
+  },
+  "originalQBoundary": "Actual9S-intro(canonicalQ)carryONLYactualoriginalscope;寝endpointrowidentitywillchange,notfreshsemanticjudgments.Wordingcorrectioncannotupgradeordinary/all-sense/readmode/fallbacksafety.",
+  "sourceAccepted": false,
+  "acceptedMainObjectsRemain": 2240,
+  "candidateObjectsRemain": 2246,
+  "protectedSkyBoundary": {
+    "path": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+    "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+    "status": "excluded C2UNVERIFIED;notmedia",
+    "runtimeWordRemainsAbsent": true,
+    "priorKanjiSkyBoundary": "Accepted077kanji空doesNOTresolveprotectedwordcaptionblocker/ordinaryquiz/media/defaultactivation."
+  },
+  "ordinaryActivationAuthorized": false,
+  "fullTaskComplete": false,
+  "continueRequired": true
+}
