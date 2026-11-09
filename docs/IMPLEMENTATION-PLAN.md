@@ -11,7 +11,57 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current qualified source milestone: batch123
+## Current qualified source milestone: batch124
+
+Batch124 adds **five complete Russian frozen N3 lessons, 果/格/欠/次/欲, 353 file lines**, and five
+RAW-identical Japanese KanjiVG assets. Six existing word bodies receive one NAV-only standalone-glyph
+wrapper each (性格, 果物, 格好, 次, 欲しい, 欲張り), planned in the signed intake; no navigation amendment.
+Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+Original candidate `306f04b82f6aae104a1204424c814a9d5fdfc4db` received **one completed whole independent
+review**. It read 58 whole teaching bodies (30 EN/28 CURRENT RU: five primary pairs, 15 context pairs,
+eight linked-only pairs, plus two EN-only comparisons), 86 whole official TEXT units plus one header, all
+444 typed rows, 15 proposals, five L/five A rulings, five outside LIMITS and all six navigation diffs in
+61 complete windows with identical opening/closing gates, zero failures and zero web pages.
+
+- [Whole review](translation-batches/124-result-status-lack-next-and-desire-kanji-independent-review-001.json) (6409-byte report, SHA256
+  `3205aeccea3bb44e193b81899ba6b97c8c5383807d72726bb4b38307b7b9fae6`): **C1 CLEAN, C2 CLEAN** (reviewer verdict; canonical ordinary active-negative status
+  remains U), **C3 NEEDS FIX** — finding **124-F001** (C3, medium, high confidence): the §Чтения labels
+  «онное/кунное» were specialist terminology left unexplained for a novice.
+
+A signed [pre-mutation freeze](translation-batches/124-result-status-lack-next-and-desire-kanji-review-finding-reading-type-gloss-amendment-freeze-001.json)
+(`0058fcf08d53efc732cf67d86403b71022f4e208`) authorised inserting exactly one short paragraph after «## Чтения» in each of the
+five lessons: «Онное чтение (онъёми) — японское чтение знака, которое восходит к китайскому
+произношению; кунное чтение (кунъёми) — японское слово, закреплённое за знаком как его перевод.» (格,
+which has no kun reading, receives only the on sentence). The wording is bound to actual captures of
+the Britannica (ブリタニカ国際大百科事典 小項目事典, via kotobank) entries for 音読み and 訓読み. The
+[corrected candidate](translation-batches/124-result-status-lack-next-and-desire-kanji-corrected-candidate-001.json) `bd97267cdf463bb20d741990cf025fbd5475020c` changes only those
+five lesson files (typed metadata identical for all 444 rows; the six NAV wrappers unchanged). One later
+[focused review](translation-batches/124-result-status-lack-next-and-desire-kanji-independent-review-focused-001.json) (one different reviewer, never concurrent;
+25 windows, 28 commands, zero failures; 2574-byte report, SHA256 `74219eed706b834c6690e8898df01ffa66a20e547a9c9ff05d7a778b04fc7d99`) found **124-F001
+RESOLVED**, bounded C1/C2/C3 CLEAN, the 格 variant and the author-record erratum accurate, and no new
+findings. It is not a second whole review; the original verdicts stay immutable and the batch is not
+retrospectively whole-CLEAN. The 417 earlier accepted lessons that use the same labels without a gloss
+are deliberately **not** changed here; this is visible future polish, not a claim that the corpus was swept.
+
+All 15 directions are qualified introductory/source-core comparisons only (S-intro; canonical author
+mapping Q); no direction is rejected as a reading negative; all 15 ordinary uses stay **U** (metadata
+retention is not guard approval). All five L rulings are SUPPORTED and all five A clarifications are
+SUPPORTED-BOUNDED. Outside LIMITS (実; 合/性/客/画/質; 失/席/出; 二; 望/食/好) are observations, not new
+guards.
+
+The [qualified source record](translation-batches/124-result-status-lack-next-and-desire-kanji-reviewed-source.json) preserves 2380 baseline runtime RAWs/tracking rows
+and all 1478 word metadata/quiz arrays. Qualified source checkpoint: **2396 runtime/1478 words/444
+kanji/444 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled unchanged; kanji 80 N5/166 N4/**196
+N3**/2 N2; **171 N3 remain**. Strict progress: **2396 reviewed-current/two excluded reviewed
+blocked-media drafts/5880 pending of 8278**. Version `d1e3c1469573b505`; checkpoint authority
+null/Ready false. Prior 082–123 U qualifications remain unchanged; the earlier open observations (RU 昨日
+without a 昔 link, RU 時 distractors differing from EN, RU 高 distractor 本, RU
+怖/青/耳/愛/強/院/留守/怒る/少) are outside this batch and remain open. Protected 033 WORD空 stays
+excluded/runtime-absent/not media. No device/media/default/package/release authority. Continue 125+ and
+**ALL remaining safe frozen levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch123
 
 Batch123 adds **five complete Russian frozen N3 lessons, 横/構/様/権/機, 325 file lines**, and five
 RAW-identical Japanese KanjiVG assets. Four existing word bodies receive one NAV-only standalone-glyph
