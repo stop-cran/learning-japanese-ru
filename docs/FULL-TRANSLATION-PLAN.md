@@ -1,6 +1,52 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch117 breath, shame, thought and sorrow kanji
+## Current qualified source milestone: batch118 forget, busy, wish, fear and nature kanji
+
+Batch118 adds **five complete Russian frozen N3 lessons, 忘/忙/念/怖/性, 306 file lines**,
+and five RAW-identical Japanese KanjiVG assets. Eight whole current word bodies receive one
+**NAV-only standalone-glyph wrapper** each (女性→性; 忘れる→忘; 忘れ物→忘; 忙しい→忙; 怖い→怖;
+性格→性; 残念→念; 男性→性), planned in the signed intake; no whole-label wrapper and no navigation
+amendment. All visible prose, Japanese metadata, quiz arrays, old links, line endings and frozen
+levels of those words remain unchanged. Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The [actual whole independent review](translation-batches/118-forget-busy-wish-fear-and-nature-kanji-independent-review-001.json) (one reviewer) of
+candidate `b0a47569d86cf1abdd20410d7d89e6e31f6fb21d` read **65 whole teaching bodies, 33 EN/32
+CURRENT RU** (five primary pairs, 16 context pairs including the eight NAV words, 11 linked-only
+existing pairs 女/男/物/暇/女の人/女の子/覚える/気分/悲しい/男の人/男, and the EN-only comparison
+body 恐), **86 whole official TEXT units** (17 KANJIDIC2, one radical-evidence unit, 63 JMdict, five
+KanjiPedia) plus one provider header, all 416 CURRENT typed rows, 15 original directions, five
+L/five A rulings, five outside LIMITS, eight exact NAV diffs, four guidance files and three RU
+rubrics — **65 complete windows**, 69 successful commands including two stdout emissions (the first
+a superseded format variant differing only in the 15 N-line prefixes, with identical dispositions;
+the second equal to the native final), zero failed commands, identical opening/closing gates, zero
+glyph pixels and zero web pages. The canonical **8128-byte stdout report**, SHA256
+`25edf72eb048eec50dd1690f4be313e3a9aef41188e9c416d7812b2ec8284379` (the reviewer's native final plus one terminal LF), is published verbatim.
+Actual verdicts: **C1 CLEAN**, **C2 UNVERIFIED** (all eight NAV-only wrappers and new links verified
+and no shared answer found against current titles, but ordinary active quiz safety is not confirmed
+without the actual prompt/render; no defect), **C3 CLEAN**; findings none. The optional note offers
+stylistic title alternatives (忙 «занятость», 怖 «страшный; бояться», 性 «природа; пол») and states
+they are not defects; no change.
+
+All 15 directions are **S-intro** (introductory/source-core only, canonical author mapping Q). All
+15 ordinary all-mode uses stay **U** (metadata retention is not guard approval). All five L and five
+A rulings are supported; all eight NAV changes are NAV-ONLY; outside LIMITS (忘/忙 and 亡/ボウ, 失;
+急 and 夢 ボウ; 念 vs 今/思/想/意; 怖 vs 強 こわ.い and 声; 性 vs 生 セイ・ショウ, 性質 and 男/女) are
+observations, not new guards and not cleared for future options.
+
+The [qualified source record](translation-batches/118-forget-busy-wish-fear-and-nature-kanji-reviewed-source.json) preserves 2322 other baseline
+runtime RAWs/tracking rows and all 1478 word metadata/quiz arrays. Qualified source checkpoint:
+**2340 runtime/1478 words/416 kanji/416 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled
+unchanged; kanji 80 N5/166 N4/**168 N3**/2 N2; **199 N3 remain**. Strict progress: **2340
+reviewed-current/two excluded reviewed blocked-media drafts/5936 pending of 8278; 5938 runtime
+paths absent**. Version `00404f2955d875b4`; checkpoint authority null/Ready false. Prior 082–117
+U qualifications remain unchanged; the existing unlinked 恥 mention in RU 耳.md, the RU 愛 metadata
+kun かな.しい, the RU 強 metadata kun こわ.い, the existing unlinked 完 mention in RU 院.md, the RU
+留守 wording, the existing RU 怒る «официальный или литературный» wording for いかる and the RU 少.md
+distractor 名 (frozen EN 小) are outside this batch and remain open observations. Protected 033
+WORD空 stays excluded/runtime-absent/not media. No device/media/default/package/release authority.
+Continue 119+ and **ALL remaining safe frozen levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch117 breath, shame, thought and sorrow kanji
 
 Batch117 adds **four complete Russian frozen N3 lessons, 息/恥/想/悲, 255 file lines**,
 and four RAW-identical Japanese KanjiVG assets. Three whole current word bodies receive one
