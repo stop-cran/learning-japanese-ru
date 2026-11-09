@@ -11,7 +11,50 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current qualified source milestone: batch111
+## Current qualified source milestone: batch112
+
+Batch112 adds **five complete Russian frozen N3 lessons, 役/彼/徒/得/御, 291 file lines**,
+and five RAW-identical Japanese KanjiVG assets. Nine whole current word bodies receive one
+**NAV-only standalone-glyph wrapper** each (役に立つ→役; 彼/彼ら/彼女→彼; 御主人/御礼/昼御飯/晩御飯→御;
+生徒→徒; 御礼/昼御飯/晩御飯 keep their CRLF line endings), planned in the signed intake; no whole-label
+wrapper and no navigation amendment. All visible prose, Japanese metadata, quiz arrays, old links and
+frozen levels of those words remain unchanged. Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The [actual whole independent review](translation-batches/112-role-he-pupil-gain-and-honorific-kanji-independent-review-001.json) (one reviewer) of
+candidate `c0c741edfef9683315ccfc0389bb17ecd7202c40` read **44 whole teaching bodies, 23 EN/21
+CURRENT RU** (five primary pairs, 16 context pairs and two EN-only word comparisons: 役, 得意),
+**81 whole official TEXT units** (16 KANJIDIC2, one radical-evidence unit, 59 JMdict, five KanjiPedia)
+plus one provider header, all 390 CURRENT typed rows, 15 original directions, five L/five A rulings,
+five outside LIMITS, nine exact NAV diffs, four guidance files and three RU rubrics — **58 complete
+windows**, 61 successful commands, identical opening/closing gates, zero glyph pixels and zero web pages.
+**One command failed** (a mistyped `Set-Location` directory, exit 2, no helper output, not credited);
+the reviewer reran that exact window (pool 336–373) successfully. The original **6724-byte stdout
+report**, SHA256 `1f77ae0ae95d9caf7ecf5fb2cbef0b74b8f696dc6daec63f1f1e05bd47de8a20`, equal to the
+reviewer's 6723-byte native final plus one terminal LF, is published verbatim. Actual verdicts:
+**C1 CLEAN**, **C2 UNVERIFIED** (nine NAV-only wrappers and links verified; ordinary active-negative/runtime
+guard safety not established), **C3 CLEAN**; findings none. The reviewer's optional wording polish
+(«передвижение пешком» for 徒, «уважительный/вежливый префикс» for 御) is explicitly not a defect and is
+recorded, not applied.
+
+All 15 directions are **S-intro** (introductory/source-core only, canonical author mapping Q); all 15
+ordinary uses stay **U** (metadata retention is not guard approval); N012 得→特 (トク) and N015 御→後 (ご)
+are noted reading contacts. All five L and all five A rulings are SUPPORTED; all nine NAV changes are
+NAV-ONLY; outside LIMITS (役 vs 務; 彼 people/third-person neighbours; 徒 vs 歩 (strong overlap); 得 vs
+受/利/取/読/失; 御 vs 小 reading, 飯/礼/主 partners, 制) are observations, not new guards and not cleared
+for future options.
+
+The [qualified source record](translation-batches/112-role-he-pupil-gain-and-honorific-kanji-reviewed-source.json) preserves 2269 other baseline
+runtime RAWs/tracking rows and all 1478 word metadata/quiz arrays. Qualified source checkpoint:
+**2288 runtime/1478 words/390 kanji/390 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled
+unchanged; kanji 80 N5/166 N4/**142 N3**/2 N2; **225 N3 remain**. Strict progress: **2288
+reviewed-current/two excluded reviewed blocked-media drafts/5988 pending of 8278; 5990 runtime
+paths absent**. Version `5580c593a1f5bf7b`; checkpoint authority null/Ready false. Prior 082–111
+U qualifications remain unchanged; the existing unlinked 完 mention in RU 院.md and the RU 留守
+wording outside this batch remain open observations. Protected 033 WORD空 stays
+excluded/runtime-absent/not media. No device/media/default/package/release authority. Continue 113+
+and **ALL remaining safe frozen levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch111
 
 Batch111 adds **four complete Russian frozen N3 lessons, 式/引/当/形, 241 file lines**,
 and four RAW-identical Japanese KanjiVG assets. Twelve whole current word bodies receive one
