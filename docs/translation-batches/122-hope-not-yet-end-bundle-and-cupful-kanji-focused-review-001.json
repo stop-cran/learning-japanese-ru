@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "batchId": "122-hope-not-yet-end-bundle-and-cupful-kanji",
+  "kind": "focused independent review of review-finding adjudication",
+  "reviewHead": "130ab499bab484bd89dcf2eb676b4f3ce09b1731",
+  "candidateCommit": "7876a7f79c68bce4ded86203e020ea4da6760736",
+  "reviewerAgentId": "12ea8c3c-3372-411f-9ccf-6acc247ee009",
+  "reviewerStatus": "Completed one-shot;NOTrunning",
+  "concurrentReviewers": 0,
+  "actualReviewerCompletionReceipt": {
+    "eventId": "174a75e3-1263-470a-bf39-47f58adac36d",
+    "journalRecordExcludingLfSha256": "a1abda11e943a906e49a9f33053bf8819627589c113bb869f3fee8f08d1d9917"
+  },
+  "actualReturnedReportText": "batch122focus\nSnapshot: Candidate 7876a7f; focused gates matched before and after; adjudication commit 130ab49; runtime unchanged.\nScope: units 0-6 read completely (adjudication, whole review, kanji/望.md, kanji/未.md, kanji/末.md, tree facts, validator link-check code); no failures.\nF001 NOT_REPRODUCED: kanji/望.md lines 21, 42, 52, 54, and 58 contain 望む/願望/願う as plain text, not Markdown links. The only relative links are 服.md and 朝.md at line 59 plus 青.md at line 60, and tree facts confirm words/望む.md and words/願う.md are absent; no claimed dangling link exists.\nF002 NOT_REPRODUCED: kanji/未.md lines 21, 44, and 52 contain 未来 as plain text, not a Markdown link. The relative links at lines 57-59 target 末.md, 本.md, and 木.md; words/未来.md is absent, but there is no link to it.\nF003 NOT_REPRODUCED: kanji/末.md lines 21, 44, 55, 56, and 57 contain 週末/年末/月末 as plain text, not Markdown links. The relative links at lines 62-63 target 未.md, 本.md, and 木.md; words/週末.md is absent, but there is no link to it.\nRecord accuracy: ACCURATE: the adjudication's claimed candidate bytes, plain-text occurrences, absent word pages, existing relative targets, and no-runtime-mutation status agree with the independently read lesson bytes and tree facts.\nNew findings: none.\nLimits: This was a focused check of units 0-6 only; no whole-batch re-judgment, external pages, edits, or validators were performed.\n",
+  "actualReturnedReportUtf8Bytes": 1469,
+  "actualReturnedReportSha256": "ab771895c6eec2da87ec67dba55744b76057156ce8e271e46c1bdde5d336196c",
+  "nativeFinalEqualsReportModuloTerminalWhitespace": true,
+  "nativeFinalEventId": "9322f99c-ff4c-47bf-aa53-9b8ca6c75dcd",
+  "taskReturnEventId": "f8acfba5-a0e9-45cf-b246-78ee10226962",
+  "actualToolReceipts": [
+    {
+      "eventId": "75fcd0a5-c0f1-4520-a80e-bd22abc87bf4",
+      "commandStartEventId": "db00eff3-0607-4d9f-bddf-a28e5da1ba0b",
+      "commandUtf8Sha256": "212ee0dd2021027a8fbd9d6537b3bd5ea1cf3fb84a9d59edca7c1e8f5ad4236a",
+      "actualPublicContentUtf8Bytes": 259,
+      "actualPublicContentUtf8Sha256": "6bae8b487f772ca375ec009fa4a89726ddaded3c0c6bcb57223a47bb4bcf7401",
+      "journalRecordExcludingLfSha256": "af4b4fbd695243b0ee8b16ecf792d2b94fbe52273799a3f2363e8277d3cab9d3",
+      "actualExitCodes": [
+        "0"
+      ]
+    },
+    {
+      "eventId": "acd002fd-65d7-42c3-b516-b8c9f265ce68",
+      "commandStartEventId": "82d254ec-f87b-4539-a191-381491739069",
+      "commandUtf8Sha256": "ee97012f3c91ef8deb64903aef2fb32b008803258eeb216ec373e487abd87ba6",
+      "actualPublicContentUtf8Bytes": 13125,
+      "actualPublicContentUtf8Sha256": "573d839685d6fa5dfbac81d1efd4a3d9d26808c8e55c1a492457f9dc1030ffbe",
+      "journalRecordExcludingLfSha256": "3cf1c7475e0864ce9d4687610e752635345340e8f7e9bf624a50132a4c0c0ea9",
+      "actualExitCodes": [
+        "0"
+      ]
+    },
+    {
+      "eventId": "08910ff0-82cf-4898-ab8b-d872965aca8b",
+      "commandStartEventId": "a9924bf7-bb52-4e47-a463-e2fa5bd1c0ce",
+      "commandUtf8Sha256": "3b2ce48bf0856bd56fef347c7642d8087273c5b6d33501e3002301ab95c513fa",
+      "actualPublicContentUtf8Bytes": 12674,
+      "actualPublicContentUtf8Sha256": "9bb6d4c7b006f0e7b8c47be5c922c247f0878397932ca4149ccf76b4022e5bbc",
+      "journalRecordExcludingLfSha256": "0f00a3e7667f80022dd3b4c9825dfc9612a7d6ddfe588e67edcfe9c942605a4f",
+      "actualExitCodes": [
+        "0"
+      ]
+    },
+    {
+      "eventId": "771a060a-bf44-4636-8fab-2ee31b1d73f7",
+      "commandStartEventId": "e976324f-11bc-413a-9573-6129c2416898",
+      "commandUtf8Sha256": "0f585455ccdc667741cfc859fbaed7d89069dd93d321dc33c56b72752044cba2",
+      "actualPublicContentUtf8Bytes": 3136,
+      "actualPublicContentUtf8Sha256": "556bb58136ed3c05e4e230653015003acbcb73f8e31e93ecbe8a3569a4b5680c",
+      "journalRecordExcludingLfSha256": "d9405e92574ad3c9e8559511e4b9ff459ad019104c6941d9bb3b09c6587c5273",
+      "actualExitCodes": [
+        "0"
+      ]
+    },
+    {
+      "eventId": "0fc3ebb4-c46c-49e9-9235-cb4993648a71",
+      "commandStartEventId": "c4329ebb-b3ed-4db7-9826-08db07dc37e6",
+      "commandUtf8Sha256": "212ee0dd2021027a8fbd9d6537b3bd5ea1cf3fb84a9d59edca7c1e8f5ad4236a",
+      "actualPublicContentUtf8Bytes": 259,
+      "actualPublicContentUtf8Sha256": "dd070d5926eeab11fe01df0214757dff8be57699270946ad866365b925840ed5",
+      "journalRecordExcludingLfSha256": "e5e8264be9ad944e0d3a21a3a1e16de60569bf9d4227b2ec5c6952d56d5ba10d",
+      "actualExitCodes": [
+        "0"
+      ]
+    },
+    {
+      "eventId": "52e23833-aef2-4685-ba4d-fe216a89ca1c",
+      "commandStartEventId": "16e768e4-7080-4ddf-82f2-f0b7e8e76422",
+      "commandUtf8Sha256": "e92769d9084310106cb45695344fd2c60b60db55da13aee46909803990344b09",
+      "actualPublicContentUtf8Bytes": 1511,
+      "actualPublicContentUtf8Sha256": "888ec6263b1b6778c0ed895a421475389f7c1ebdda304f6083927c09711534c1",
+      "journalRecordExcludingLfSha256": "a8470a901a38552bc4bb050871dacf2b5b3251dfdfc59f81a7cfad8a5359e4e2",
+      "actualExitCodes": [
+        "0"
+      ],
+      "reportAudit": {
+        "scriptUtf8Sha256": "e9e5d4bfcdaa5af6bf541b5bf320bdacc4246b9fbd81cae4960791ffc1dff035",
+        "auditedStdoutOnlyPythonCalls": [
+          "len",
+          "report.encode",
+          "report.endswith",
+          "sys.stdout.reconfigure",
+          "sys.stdout.write"
+        ],
+        "actualLiteralUtf8Bytes": 1469,
+        "actualLiteralUtf8Sha256": "ab771895c6eec2da87ec67dba55744b76057156ce8e271e46c1bdde5d336196c"
+      }
+    }
+  ],
+  "actualReadWindows": [
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      5,
+      7
+    ]
+  ],
+  "actualUnitsRead": 7,
+  "unitDigest": "d340e978860997e27593931d2c176bb1c074ceb3557a03a1c6e791af958f9657",
+  "actualIdenticalGates": true,
+  "recordAccuracy": "ACCURATE",
+  "findingDispositions": {
+    "122-R-F001": "NOT_REPRODUCED_NO_RUNTIME_MUTATION",
+    "122-R-F002": "NOT_REPRODUCED_NO_RUNTIME_MUTATION",
+    "122-R-F003": "NOT_REPRODUCED_NO_RUNTIME_MUTATION"
+  },
+  "newFindings": [],
+  "limits": "focused check of 7 units only (adjudication, whole report, 3 whole RU lessons, tree facts, validator link code); no whole-batch re-judgment",
+  "sourceAccepted": false,
+  "ordinaryActivationAuthorized": false,
+  "fullTaskComplete": false,
+  "actualImmutablePrivateReportArtifact": "ru-122-focused-review-actual-stdout-payload-001.txt"
+}

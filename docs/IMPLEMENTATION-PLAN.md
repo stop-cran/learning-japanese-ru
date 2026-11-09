@@ -11,7 +11,51 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current qualified source milestone: batch121
+## Current qualified source milestone: batch122
+
+Batch122 adds **five complete Russian frozen N3 lessons, 望/未/末/束/杯, 325 file lines**, and five
+RAW-identical Japanese KanjiVG assets. Two existing word bodies receive one NAV-only standalone-glyph
+wrapper each (一杯, 約束), planned in the signed intake; no navigation amendment. Frozen EN remains
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+Candidate `7876a7f79c68bce4ded86203e020ea4da6760736` received **one completed whole independent review**.
+It read 42 whole teaching bodies (23 EN/19 CURRENT RU: five primary pairs, 12 context pairs, two
+linked-only pairs, plus EN-only comparisons 望む, 未来, 週末, 願う), 82 whole official TEXT units plus one
+header, all 434 typed rows, 15 proposals, five L/five A rulings, five outside LIMITS and both navigation
+diffs in 57 complete windows with identical opening/closing gates and zero failures.
+
+- [Review A](translation-batches/122-hope-not-yet-end-bundle-and-cupful-kanji-independent-review-001.json) (5491-byte report, SHA256
+  `d84e5813c547a1c13983ecd377b9666841560c9c066fd8eef25d8393ebbbc251`): **C1 CLEAN, C2 FINDING, C3 FINDING**; findings 122-R-F001..F003
+  claimed that kanji/望.md (望む, 願う), kanji/未.md (未来) and kanji/末.md (週末) link to absent Russian
+  word pages.
+
+The signed [writer adjudication](translation-batches/122-hope-not-yet-end-bundle-and-cupful-kanji-review-finding-adjudication-001.json) byte-checked the candidate and
+did **not reproduce** F001–F003: those words occur only as plain text, no Markdown link mentions them, and
+every relative link target in the three lessons exists (the validator's link check also passes). One
+later [focused review](translation-batches/122-hope-not-yet-end-bundle-and-cupful-kanji-focused-review-001.json) (one different reviewer;
+1469-byte report) found **F001–F003 NOT_REPRODUCED**, the adjudication
+record accurate and no new findings. No runtime file changed. Original verdicts stay immutable; the batch
+is not retrospectively whole-CLEAN.
+
+All 15 directions are qualified introductory/source-core comparisons only (S-intro; canonical author
+mapping Q); no reading-negative rejections; all 15 ordinary uses stay **U** (metadata retention is not
+guard approval). All five L rulings are SUPPORTED and all five A clarifications SUPPORTED-BOUNDED. Outside
+LIMITS (望 vs 亡/忙/忘/夢; 未 vs 味/妹/定/来; 末 vs 終 title overlap «конец»/始; 束 vs 約/側/息/足/数; 杯 vs
+否/敗/買/一) are observations, not new guards. 希望, 願望, 望む, 願う, 未来, 未定, 週末, 月末, 年末, 束ねる and
+乾杯 stay plain text (no runtime word).
+
+The [qualified source record](translation-batches/122-hope-not-yet-end-bundle-and-cupful-kanji-reviewed-source.json) preserves 2364 baseline runtime RAWs/tracking rows
+and all 1478 word metadata/quiz arrays. Qualified source checkpoint: **2376 runtime/1478 words/434
+kanji/434 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled unchanged; kanji 80 N5/166 N4/**186
+N3**/2 N2; **181 N3 remain**. Strict progress: **2376 reviewed-current/two excluded reviewed
+blocked-media drafts/5900 pending of 8278**. Checkpoint authority null/Ready false. Prior 082–121 U
+qualifications remain unchanged; the earlier open observations (RU 昨日 without a 昔 link, RU 時
+distractors differing from EN, RU 高 distractor 本, RU 怖/青/耳/愛/強/院/留守/怒る/少) are outside this batch
+and remain open. Protected 033 WORD空 stays excluded/runtime-absent/not media. No
+device/media/default/package/release authority. Continue 123+ and **ALL remaining safe frozen
+levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch121
 
 Batch121 adds **five complete Russian frozen N3 lessons, 易/暮/曲/更/最, 321 file lines**, and five
 RAW-identical Japanese KanjiVG assets. Nine existing word bodies receive one NAV-only standalone-glyph
