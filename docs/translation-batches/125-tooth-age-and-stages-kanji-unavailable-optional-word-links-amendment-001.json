@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "batch": "125-tooth-age-and-stages-kanji",
+  "recordedAt": "2026-11-09T21:06:48.295790+00:00",
+  "stage": "PRE-MUTATION NAVIGATION AMENDMENT",
+  "branch": "full-ru-125-tooth-age-and-stages-kanji",
+  "baselineHeadBeforeAmendment": "4e4406d250cde046f096216fa06d22e0e73c1f67",
+  "frozenEnglishSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineSnapshot": "4300d5cbbfa9d579084d3d70f6446976807ade74",
+  "amendsFreezeArtifact": "125-tooth-age-and-stages-kanji-source-adjudication-and-semantic-freeze-001.json",
+  "amendsFreezeRawSha256": "d6b7bafd927ddb9f845f53c7b757f19dd45cf428b30eedadd4102c6f0ca14e6c",
+  "trigger": {
+    "candidateStructuralCheck": "python -X utf8 -B tools\\validate.py",
+    "actualExitCode": 1,
+    "actualStdout": "kanji/歳.md: broken link: ../words/五歳.md\nkanji/歳.md: broken link: ../words/何歳.md\nkanji/歳.md: broken link: ../words/歳.md\nkanji/歳.md: broken link: ../words/何歳.md\nkanji/歳.md: broken link: ../words/歳.md\nkanji/歳.md: broken link: ../words/五歳.md\nkanji/歳.md: broken link: ../words/何歳.md\nkanji/段.md: broken link: ../words/段階.md\nkanji/段.md: broken link: ../words/段階.md\nkanji/段.md: broken link: ../words/段階.md\nkanji/殺.md: broken link: ../words/殺す.md\nkanji/殺.md: broken link: ../words/殺す.md\nkanji/殺.md: broken link: ../words/殺人.md\nkanji/殺.md: broken link: ../words/殺す.md\n14 error(s)\n",
+    "actualStdoutSha256": "4d7357c8bd80c2f30b469a9af35a8a9db5ef7d882ec405b76e1ddfd7c4742a5d",
+    "completedSeriallyAfterCandidateManifestGeneration": true
+  },
+  "reason": "The validator found lesson links to optional RU word cards absent from the accepted runtime baseline. Keep the Japanese words/readings and the Russian explanatory prose; unwrap only Markdown links whose exact target path is absent, rather than adding unplanned runtime objects.",
+  "exactWrapperOnlyEdits": [
+    {
+      "path": "kanji/歳.md",
+      "beforeWorkingRawSha256": "bab7f9e38f455818aeb688cd5edd8a95ad3f7250e315d434944bbff68b56bfd4",
+      "plannedAfterWorkingRawSha256": "13fa3c29270a481192e0706f60e87fe90b8afb7902aaabfad498bf0115f432e5",
+      "exactWrapperOnlyEdits": [
+        {
+          "exactUnavailableTarget": "words/歳.md",
+          "exactMarkdownToken": "[歳](../words/歳.md)",
+          "wholeTokenOccurrences": 2,
+          "retainedLearnerFacingJapaneseText": "歳"
+        },
+        {
+          "exactUnavailableTarget": "words/五歳.md",
+          "exactMarkdownToken": "[五歳](../words/五歳.md)",
+          "wholeTokenOccurrences": 2,
+          "retainedLearnerFacingJapaneseText": "五歳"
+        },
+        {
+          "exactUnavailableTarget": "words/何歳.md",
+          "exactMarkdownToken": "[何歳](../words/何歳.md)",
+          "wholeTokenOccurrences": 3,
+          "retainedLearnerFacingJapaneseText": "何歳"
+        }
+      ],
+      "allOtherBytesRemainInOriginalOrder": true,
+      "plannedPageUtf8Bytes": 4240
+    },
+    {
+      "path": "kanji/段.md",
+      "beforeWorkingRawSha256": "58850a80dd5efc244f62fb4bb367c8d53c5680880dfde0cd03e4ed4c136e334f",
+      "plannedAfterWorkingRawSha256": "5435734efbee57fbdb277a9478d07dc32fc4a2b12734639a91b9e317b6815906",
+      "exactWrapperOnlyEdits": [
+        {
+          "exactUnavailableTarget": "words/段階.md",
+          "exactMarkdownToken": "[段階](../words/段階.md)",
+          "wholeTokenOccurrences": 3,
+          "retainedLearnerFacingJapaneseText": "段階"
+        }
+      ],
+      "allOtherBytesRemainInOriginalOrder": true,
+      "plannedPageUtf8Bytes": 4243
+    },
+    {
+      "path": "kanji/殺.md",
+      "beforeWorkingRawSha256": "a5590a1e5b6f95a459d025651172ca15ce87e4064126a7b08e6d46d960050794",
+      "plannedAfterWorkingRawSha256": "dec6a7551bea2938c36ccc360ed11a10a62ed3bfd5987c7ce015979e9afd1547",
+      "exactWrapperOnlyEdits": [
+        {
+          "exactUnavailableTarget": "words/殺す.md",
+          "exactMarkdownToken": "[殺す](../words/殺す.md)",
+          "wholeTokenOccurrences": 3,
+          "retainedLearnerFacingJapaneseText": "殺す"
+        },
+        {
+          "exactUnavailableTarget": "words/殺人.md",
+          "exactMarkdownToken": "[殺人](../words/殺人.md)",
+          "wholeTokenOccurrences": 1,
+          "retainedLearnerFacingJapaneseText": "殺人"
+        }
+      ],
+      "allOtherBytesRemainInOriginalOrder": true,
+      "plannedPageUtf8Bytes": 3640
+    }
+  ],
+  "totalLinksUnwrapped": 14,
+  "affectedRuntimePaths": [
+    "kanji/歳.md",
+    "kanji/段.md",
+    "kanji/殺.md"
+  ],
+  "noNewObjects": true,
+  "noJapaneseCharacterOrReadingOrProseChanges": true,
+  "noMetadataOrQuizOrStrokeChanges": true,
+  "otherAvailableLinksPreserved": [
+    "words/歯.md",
+    "words/階段.md",
+    "words/値段.md"
+  ],
+  "plannedAfterHashesComputedBeforeFurtherMutation": true,
+  "independentReviewOccurred": false,
+  "runtimeAcceptance": false,
+  "fullTaskComplete": false,
+  "continueRequired": true
+}
