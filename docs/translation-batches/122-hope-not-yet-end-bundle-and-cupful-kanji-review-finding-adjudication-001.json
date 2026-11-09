@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "batchId": "122-hope-not-yet-end-bundle-and-cupful-kanji",
+  "candidateCommit": "7876a7f79c68bce4ded86203e020ea4da6760736",
+  "frozenSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineCommit": "bfdd5ea68648cb140b89d28b764d474a7c3e9dd2",
+  "kind": "review-finding writer adjudication (no runtime mutation)",
+  "status": "PENDING_FOCUSED_INDEPENDENT_REVIEW",
+  "review": {
+    "reviewer": "b8444e75-aae9-433a-8bdb-e449aebb9276",
+    "artifact": "122-hope-not-yet-end-bundle-and-cupful-kanji-independent-review-001.json",
+    "facets": "C1 CLEAN; C2 FINDING (F001-F003); C3 FINDING (same F001-F003)",
+    "otherDispositions": "15 S-intro, 5 L SUPPORTED, 5 A SUPPORTED-BOUNDED, 2 NAV-ONLY, 5 LIMIT_NOT_NEW_GUARD"
+  },
+  "candidateRecordedUnwrappedUnavailableOptionalLinks": [
+    "望む/希望/願う/願望 in kanji/望.md",
+    "未来/未定 in kanji/未.md",
+    "週末/月末/年末 in kanji/末.md",
+    "束ねる in kanji/束.md",
+    "乾杯 in kanji/杯.md"
+  ],
+  "validatorBoundary": "tools/validate.py check_links reports broken relative links as errors; the candidate validated with 0 errors. This is mechanical corroboration only, not semantic approval.",
+  "findings": [
+    {
+      "findingId": "122-R-F001",
+      "path": "kanji/望.md",
+      "claimedLinkedWords": [
+        "望む",
+        "願う"
+      ],
+      "actualVerbatimReviewerFinding": "F001 — kanji/望.md, link occurrences in the lesson meaning/examples sections: 望む and 願う are rendered as Markdown links although those Russian word pages are absent from the runtime. Consequence: learners encounter dead navigation. Fix: keep the Japanese words as plain text, or link only if the corresponding Russian runtime files are added under the accepted scope. Evidence: assigned runtime inventory and complete lesson read. Confidence: high.",
+      "exactCandidateRawSha256": "cc02e372343fb7d1f692c234a5f37750eb5ac3747fdd21e57d09ffb02180d647",
+      "actualAllMarkdownLinksInFile": [
+        {
+          "line": 24,
+          "label": "漢字ペディア",
+          "target": "https://www.kanjipedia.jp/kanji/0006440900"
+        },
+        {
+          "line": 59,
+          "label": "服",
+          "target": "服.md"
+        },
+        {
+          "line": 59,
+          "label": "朝",
+          "target": "朝.md"
+        },
+        {
+          "line": 60,
+          "label": "青",
+          "target": "青.md"
+        },
+        {
+          "line": 63,
+          "label": "KANJIDIC2",
+          "target": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "line": 64,
+          "label": "JMdict",
+          "target": "https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project"
+        }
+      ],
+      "actualLinksMentioningClaimedWords": [],
+      "actualPlainTextOccurrenceLines": {
+        "望む": [
+          21,
+          42,
+          52,
+          58
+        ],
+        "願う": [
+          58
+        ]
+      },
+      "actualRussianWordPageExistsAtCandidate": {
+        "望む": false,
+        "願う": false
+      },
+      "allRelativeLinkTargetsExistAtCandidate": true,
+      "writerDisposition": "NOT_REPRODUCED_NO_RUNTIME_MUTATION",
+      "reason": "Thecandidatebytescontainnolinktothesewords;theyareplaintext(asintendedandrecordedinthesignedcandidate'sunwrappedUnavailableOptionalLinks)."
+    },
+    {
+      "findingId": "122-R-F002",
+      "path": "kanji/未.md",
+      "claimedLinkedWords": [
+        "未来"
+      ],
+      "actualVerbatimReviewerFinding": "F002 — kanji/未.md, 未来 link in the lesson meaning/examples section: the Russian 未来 page is absent, so the link is dangling. Consequence and fix as F001. Confidence: high.",
+      "exactCandidateRawSha256": "26d598831a282083cb493cb5ff16d85454a5fa891b3dddd02279542781a64f89",
+      "actualAllMarkdownLinksInFile": [
+        {
+          "line": 25,
+          "label": "漢字ペディア",
+          "target": "https://www.kanjipedia.jp/kanji/0006595900"
+        },
+        {
+          "line": 57,
+          "label": "末",
+          "target": "末.md"
+        },
+        {
+          "line": 58,
+          "label": "本",
+          "target": "本.md"
+        },
+        {
+          "line": 59,
+          "label": "木",
+          "target": "木.md"
+        },
+        {
+          "line": 62,
+          "label": "KANJIDIC2",
+          "target": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "line": 63,
+          "label": "JMdict",
+          "target": "https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project"
+        }
+      ],
+      "actualLinksMentioningClaimedWords": [],
+      "actualPlainTextOccurrenceLines": {
+        "未来": [
+          21,
+          30,
+          44,
+          52
+        ]
+      },
+      "actualRussianWordPageExistsAtCandidate": {
+        "未来": false
+      },
+      "allRelativeLinkTargetsExistAtCandidate": true,
+      "writerDisposition": "NOT_REPRODUCED_NO_RUNTIME_MUTATION",
+      "reason": "Thecandidatebytescontainnolinktothesewords;theyareplaintext(asintendedandrecordedinthesignedcandidate'sunwrappedUnavailableOptionalLinks)."
+    },
+    {
+      "findingId": "122-R-F003",
+      "path": "kanji/末.md",
+      "claimedLinkedWords": [
+        "週末"
+      ],
+      "actualVerbatimReviewerFinding": "F003 — kanji/末.md, 週末 link in the lesson meaning/examples section: the Russian 週末 page is absent, so the link is dangling. Consequence and fix as F001. Confidence: high.",
+      "exactCandidateRawSha256": "bfb8388228d14674b98c639a598cb2ab3162f3ca86e8aef59c173928b9f3cbfa",
+      "actualAllMarkdownLinksInFile": [
+        {
+          "line": 24,
+          "label": "漢字ペディア",
+          "target": "https://www.kanjipedia.jp/kanji/0006556900"
+        },
+        {
+          "line": 62,
+          "label": "未",
+          "target": "未.md"
+        },
+        {
+          "line": 63,
+          "label": "本",
+          "target": "本.md"
+        },
+        {
+          "line": 63,
+          "label": "木",
+          "target": "木.md"
+        },
+        {
+          "line": 66,
+          "label": "KANJIDIC2",
+          "target": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "line": 67,
+          "label": "JMdict",
+          "target": "https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project"
+        }
+      ],
+      "actualLinksMentioningClaimedWords": [],
+      "actualPlainTextOccurrenceLines": {
+        "週末": [
+          21,
+          44,
+          55
+        ]
+      },
+      "actualRussianWordPageExistsAtCandidate": {
+        "週末": false
+      },
+      "allRelativeLinkTargetsExistAtCandidate": true,
+      "writerDisposition": "NOT_REPRODUCED_NO_RUNTIME_MUTATION",
+      "reason": "Thecandidatebytescontainnolinktothesewords;theyareplaintext(asintendedandrecordedinthesignedcandidate'sunwrappedUnavailableOptionalLinks)."
+    }
+  ],
+  "runtimeMutation": false,
+  "semanticAmendment": false,
+  "retrospectiveCleanClaimed": false,
+  "sourceAccepted": false,
+  "fullTaskComplete": false
+}
