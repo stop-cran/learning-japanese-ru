@@ -1,6 +1,54 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch104 guest, harm, lodging and contents kanji
+## Current qualified source milestone: batch105 official, wealth, decide and approach kanji
+
+Batch105 adds **four complete Russian frozen N3 lessons, 官/富/定/寄, 222 file lines**,
+and four RAW-identical Japanese KanjiVG assets. Three whole current word bodies receive
+**NAV-only standalone-glyph wrappers** (予定→定, 寄る→寄, 警官→官; 警官 keeps its CRLF line endings),
+planned in the signed intake; no whole-label wrapper and no navigation amendment. All visible prose,
+Japanese metadata, quiz arrays, old links and frozen levels of those words remain unchanged. Frozen EN
+remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The [actual whole independent review](translation-batches/105-official-wealth-decide-and-approach-kanji-independent-review-001.json) (one reviewer) of
+candidate `033cba3aa08fe18287a5312d5e684f0be9abf6ac` read **36 whole teaching bodies, 19 EN/17
+CURRENT RU** (four primary pairs, thirteen context pairs and two EN-only comparison bodies), **84 whole
+official TEXT units** (18 KANJIDIC2, one radical-evidence unit, 61 JMdict, four KanjiPedia) plus
+one provider header, all 366 CURRENT typed rows, twelve original directions, four L/four A rulings,
+four outside LIMITS, three exact NAV diffs, three guidance files and three RU rubrics —
+**52 complete windows**, 55 successful commands, zero failures, identical opening/closing gates, zero
+glyph pixels and zero web pages. It **never ran the two assigned windows of
+docs/content-format-reference.md**, although its Scope line claims all guidance ranges; that claim
+is recorded as inaccurate and the review is not treated as complete for that file. The original
+**4910-byte stdout report**, SHA256 `b61242a94acdb293fc6febfc98f78fcc9f4950ded5c2aff17ea07a37c5544daa`, equal to the reviewer's
+4909-byte native final plus one terminal LF, is published verbatim.
+
+A separate, later [focused supplementary review](translation-batches/105-official-wealth-decide-and-approach-kanji-supplementary-review-001.json)
+(one different reviewer, never concurrent) read the whole 108-line content-format reference and the four
+complete EN/RU primary pairs: **F1 CLEAN** (format-reference compliance), findings none. Its two
+snapshot gates failed because the writer's own untracked first-review record tripped the helper's
+untracked-path check; the reviewer reported the snapshot as UNVERIFIED, the writer's diagnostic gate
+passed with only that file held aside, and the writer's capture verified every credited window
+against the bound candidate text.
+
+Actual verdicts: **C1 CLEAN**, **C2 CLEAN** (bounded content review; runtime fallback was not
+exercised), **C3 CLEAN**; findings none; optional none. All twelve directions are **S-intro**
+(introductory/source-core only, canonical author mapping Q); all twelve ordinary uses stay **U**
+(metadata retention is not guard approval). All four L rulings and all four A rulings are SUPPORTED
+and bounded; all three NAV changes NAV-ONLY; outside LIMITS (官 vs 公/員/者, 富 vs 福/多/金,
+定 vs 立 shared title token and 予, 寄 vs 近/通/送/付) are observations, not new guards.
+
+The [qualified source record](translation-batches/105-official-wealth-decide-and-approach-kanji-reviewed-source.json) preserves 2229 other baseline
+runtime RAWs/tracking rows and all 1478 word metadata/quiz arrays. Qualified source checkpoint:
+**2240 runtime/1478 words/366 kanji/366 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled
+unchanged; kanji 80 N5/166 N4/**118 N3**/2 N2; **249 N3 remain**. Strict progress: **2240
+reviewed-current/two excluded reviewed blocked-media drafts/6036 pending of 8278; 6038 runtime
+paths absent**. Version `d5851d6a5b302efe`; checkpoint authority null/Ready false. Prior 082–104
+U qualifications remain unchanged; the existing unlinked 完 mention in RU 院.md and the RU 留守
+wording outside this batch remain open observations. Protected 033 WORD空 stays
+excluded/runtime-absent/not media. No device/media/default/package/release authority. Continue 106+
+and **ALL remaining safe frozen levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch104 guest, harm, lodging and contents kanji
 
 Batch104 adds **four complete Russian frozen N3 lessons, 客/害/宿/容, 221 file lines**,
 and four RAW-identical Japanese KanjiVG assets. Three whole current word bodies receive
