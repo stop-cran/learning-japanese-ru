@@ -1,0 +1,435 @@
+{
+  "schemaVersion": 1,
+  "batchId": "114-talent-support-release-and-cut-kanji",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "reviewedCandidate": "e1d097359f260a694f80214387f5be58a74bd566",
+  "baselineCommit": "6b0f65393a10e7840c6d141c6d6569e70b13b2c7",
+  "premutationFreeze": "c6b0335d3a510921144912a55967891f9bcc40ac",
+  "preMutationNavigationAmendment": null,
+  "twoStandaloneGlyphWrappersPlannedInSignedIntake": true,
+  "actualWholeReview": "docs/translation-batches/114-talent-support-release-and-cut-kanji-independent-review-001.json",
+  "actualWholeIndependentReviews": 1,
+  "actualOriginalReportBytes": 5868,
+  "actualOriginalReportSha256": "4b0bbad34a9e4b07071c659c2c3ed830f1925880d150b9bbe54fc35d89ba1c9b",
+  "publicReportIsOriginalActualPayload": true,
+  "publicReportIsPathOnlyProjection": false,
+  "exactPublicWholeReviewRawSha256": "f4dc660719cefeab0fe6e5fe54b237a8b4625db2cb701e8232d45e6357c9317e",
+  "exactPrivateExtractionArtifact": "ru-114-review-extracted-return-001.json",
+  "exactPrivateExtractionRawSha256": "e30c07c83b5336825b8569a46d1d51206c5f9aac1ac11fdef291b607d783950a",
+  "actualWholeScope": {
+    "reviewerAgentId": "4c418a68-7b5a-4b8b-8e91-33cb2131b42a",
+    "actualSuccessfulReaderToolReturnCount": 58,
+    "actualSuccessfulReaderWindowCount": 58,
+    "actualSuccessfulReaderModeWindowCounts": {
+      "guidance": 14,
+      "rubrics": 3,
+      "pairs": 8,
+      "primary": 2,
+      "comparisons": 1,
+      "linked": 2,
+      "objects": 3,
+      "metadata": 5,
+      "kanjipedia": 1,
+      "header": 1,
+      "radicals": 1,
+      "pool": 11,
+      "overlaps": 1,
+      "proposals": 2,
+      "clarifications": 1,
+      "adjudications": 1,
+      "navigation": 1
+    },
+    "actualPowershellCommandExecutions": 61,
+    "actualSuccessfulTerminalPowershellCommands": 61,
+    "actualHelperPythonInvocations": 60,
+    "actualStdoutOnlyReportEmissionCommands": [
+      {
+        "eventId": "282a0396-2dc9-4a06-a3f6-b6d98c7ec25f",
+        "commandStartEventId": "552b4b5e-439a-4c8a-be64-d3e8f49c4612",
+        "commandUtf8Sha256": "636381983d34ee46d4a0c759776b809be703f2f3725489b2455c37e5c47ebbec",
+        "actualSuccessfulReturn": true,
+        "scriptUtf8Sha256": "5b4dbfa272ac4bfe1c00aff2734c9b4e170eb75fc2380fafe5922a21c2696b2b",
+        "auditedStdoutOnlyPythonCalls": [
+          "len",
+          "report.encode",
+          "report.endswith",
+          "sys.stdout.reconfigure",
+          "sys.stdout.write"
+        ],
+        "actualLiteralUtf8Bytes": 5868,
+        "actualLiteralUtf8Sha256": "4b0bbad34a9e4b07071c659c2c3ed830f1925880d150b9bbe54fc35d89ba1c9b"
+      }
+    ],
+    "actualFailedReportDeliveryCommands": [],
+    "actualReportSizeAssertionFailures": 0,
+    "actualReportTerminalLfAssertionFailures": 0,
+    "actualSuccessfulStdoutReportEmissions": 1,
+    "actualToolReturnCount": 61,
+    "actualFailedCommands": 0,
+    "actualFailedReaderOrHelperCommands": 0,
+    "actualTruncatedToolReturnCount": 0,
+    "actualNonterminalToolReturnsNotCredited": 0,
+    "actualWebFetchPages": 0,
+    "actualUnchangedSnapshotGateEventIds": [
+      "d4008a07-6fd4-4d22-abde-a9299ff19c59",
+      "6346dbcf-74c8-4e13-91ac-54e67cd47c84"
+    ],
+    "actualInitialFinalGatePayloadByteIdentity": true,
+    "actualWholeTeachingBodies": 52,
+    "actualWholeRussianBodies": 24,
+    "actualWholeEnglishBodies": 28,
+    "actualWholeEnglishOnlyComparisonBodies": 4,
+    "actualWholeLinkedOnlyExistingPairs": 5,
+    "actualWholeOfficialSourceTextUnits": 89,
+    "actualAdditionalWholeProviderHeaders": 1,
+    "actualSuccessfulDictionaryImageViews": [],
+    "actualCurrentTypedKanjiMetadataRows": 398,
+    "actualWholeOriginalDirectionProposals": 12,
+    "retainedCurrentMetadataDirections": 12,
+    "actualWholeSourceAdjudications": 4,
+    "actualAdditionalDictionaryClarificationUnits": 4,
+    "actualExactWordPatchDiffs": 2,
+    "navigationOnlyWordPatches": 2,
+    "standaloneGlyphWrappers": 2,
+    "wholeWordLabelWrappers": 0,
+    "actualOutsideEdgeObservationUnits": 4,
+    "actualWholePreMutationNavigationAmendments": 0,
+    "preMutationNavigationAmendmentRequired": false,
+    "actualOptionalLinkedLessonReads": [],
+    "actualWebFetchPagesNote": "Reviewer reported no web pages consulted; KanjiPedia evidence read only via bound helper window kanjipedia 0 4.",
+    "actualCorrectRURootRubrics": 3,
+    "allRequiredReadingComplete": true,
+    "boundary": "ENTIREactualpayloadcomparison/completelineunions,notmarkersalone;consoleCRLFnormalizationONLY.58completeassignedwindows(41read+17lines)+2identicalgates+1successfulstdoutemission=61successfulterminalcommands;0failedcommands/deliveries;0reader/helperfailures/truncations/waits/webpages."
+  },
+  "actualImmutableFacets": {
+    "C1": "CLEANwithinboundedfournewlessons/officialevidence",
+    "C2": "CLEANwithinbounded2nav-onlyglyphwrappers/links/12directionsINTRODUCTORY-only;ordinaryactive-negative/fallbacksafetyNOTapproved=UNVERIFIED",
+    "C3": "CLEANwithinboundedreview;NOTnativecertification"
+  },
+  "actualVerbatimFacets": {
+    "C1": "C1 CLEAN: Readings, strokes, classical keys/numbers, examples, word senses, mnemonic labelling and attributed origin claims in 才/支/放/断 agree with the frozen source and bound official evidence. The age counter is correctly qualified as primarily 歳, with 才 an accepted alternative; 支払う is treated as ateji; 放 senses and the 断る/断つ/判断 qualifications are bounded accurately.",
+    "C2": "C2 CLEAN: Both existing-file edits are exact single-glyph link wrappers only; all targets are relative and exist. New lesson links resolve only to current RU pages; absent Russian comparison words remain plain Japanese text. All 12 directed options are separately safe against the displayed current titles for introductory/source-core comparison only; see N dispositions. No reverse or transitive guard is inferred. Author L/A records are supported within their stated bounds; outside observations remain limits, not new guards.",
+    "C3": "C3 CLEAN: The four lessons and navigation wrappers are clear, readable Russian for the stated scope; no confirmed correctable naturalness or comprehension defect found. Titles are serviceable concise glosses, with their additional nuances explained in the bodies."
+  },
+  "actualFindings": [],
+  "actualVerbatimFindings": "Findings: none",
+  "actualVerbatimOptional": "Optional: none.",
+  "optionalPolishWriterDisposition": "NONE_REPORTED",
+  "unresolvedConsequentialAssignedTextDefects": [],
+  "exactOriginalIndependentSourceDirectionDispositions": [
+    {
+      "proposalId": "114-N001",
+      "direction": [
+        "才",
+        "手"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N001才→手 S-intro: «талант; способности» vs «рука»; JMdict's hand/worker/help/means senses do not make 手 a talent answer. Shared 手 radical is explicitly distinguished.",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY(reviewerC2:'safeagainstthedisplayedcurrenttitlesforintroductory/source-corecomparisononly');ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "114-N002",
+      "direction": [
+        "才",
+        "木"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N002才→木 S-intro: tree/wood does not answer talent/ability; the contrasting strokes are accurately described.",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY(reviewerC2:'safeagainstthedisplayedcurrenttitlesforintroductory/source-corecomparisononly');ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "114-N003",
+      "direction": [
+        "才",
+        "千"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N003才→千 S-intro: thousand has no talent/ability sense; the crossing/hook distinction is accurate.",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY(reviewerC2:'safeagainstthedisplayedcurrenttitlesforintroductory/source-corecomparisononly');ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "114-N004",
+      "direction": [
+        "支",
+        "友"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N004支→友 S-intro: «поддержка; ответвление» vs «друг»; a friend may help, but that relationship is not the kanji gloss. Shared 又-like lower strokes are explicitly a shape comparison.",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY(reviewerC2:'safeagainstthedisplayedcurrenttitlesforintroductory/source-corecomparisononly');ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "114-N005",
+      "direction": [
+        "支",
+        "父"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N005支→父 S-intro: «отец» is not support/branch; the lower-shape comparison and differing tops are accurate.",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY(reviewerC2:'safeagainstthedisplayedcurrenttitlesforintroductory/source-corecomparisononly');ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "114-N006",
+      "direction": [
+        "支",
+        "文"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N006支→文 S-intro: «предложение; письменный текст» is not support/branch; the shared crossing appearance is not semantic.",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY(reviewerC2:'safeagainstthedisplayedcurrenttitlesforintroductory/source-corecomparisononly');ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "114-N007",
+      "direction": [
+        "放",
+        "方"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N007放→方 S-intro: direction/way/person is not release/emit; 方 is a real component and has a ホウ reading contact, both disclosed, not a shared meaning.",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY(reviewerC2:'safeagainstthedisplayedcurrenttitlesforintroductory/source-corecomparisononly');ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "114-N008",
+      "direction": [
+        "放",
+        "旅"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N008放→旅 S-intro: journey/travel is not release/emit; shared 方 component is clearly distinguished from 放's 攵.",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY(reviewerC2:'safeagainstthedisplayedcurrenttitlesforintroductory/source-corecomparisononly');ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "114-N009",
+      "direction": [
+        "放",
+        "教"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N009放→教 S-intro: teach/instruct is not release/emit; shared 攵 radical does not imply shared meaning.",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY(reviewerC2:'safeagainstthedisplayedcurrenttitlesforintroductory/source-corecomparisononly');ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "114-N010",
+      "direction": [
+        "断",
+        "新"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N010断→新 S-intro: new/fresh is not sever/refuse/decide; shared 斤 is accurately identified.",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY(reviewerC2:'safeagainstthedisplayedcurrenttitlesforintroductory/source-corecomparisononly');ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "114-N011",
+      "direction": [
+        "断",
+        "料"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N011断→料 S-intro: materials/fee is not sever/refuse/decide; shared 米 and differing right part are accurately noted.",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY(reviewerC2:'safeagainstthedisplayedcurrenttitlesforintroductory/source-corecomparisononly');ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "114-N012",
+      "direction": [
+        "断",
+        "近"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N012断→近 S-intro: near/close is not sever/refuse/decide; shared 斤 within distinct whole shapes is accurately described.",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY(reviewerC2:'safeagainstthedisplayedcurrenttitlesforintroductory/source-corecomparisononly');ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    }
+  ],
+  "explicitCanonicalSourceCoreDispositionMapping": {
+    "S-intro": "Q_QUALIFIED_INTRODUCTORY_ONLY",
+    "U": "U_WITHHELD"
+  },
+  "exactIndependentSourceLessonAdjudications": {
+    "114-L001": {
+      "actualDisposition": "SUPPORTED",
+      "actualVerbatimIndependentDisposition": "L001才 SUPPORTED: source facts, readings, meanings and attributed KanjiPedia account are accurately bounded; age and 才能/天才 distinctions are supported.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "114-L002": {
+      "actualDisposition": "SUPPORTED",
+      "actualVerbatimIndependentDisposition": "L002支 SUPPORTED: source facts and branching/support senses are supported; 支払う/支度 treatment and linked pages are accurate.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "114-L003": {
+      "actualDisposition": "SUPPORTED",
+      "actualVerbatimIndependentDisposition": "L003放 SUPPORTED: source facts, attributed 形声 explanation, release/emission senses and contrasts with 話す/離れる are supported.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "114-L004": {
+      "actualDisposition": "SUPPORTED",
+      "actualVerbatimIndependentDisposition": "L004断 SUPPORTED: source facts and attributed old-form account are supported; refusal, cutting and judgment are distinguished.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    }
+  },
+  "exactIndependentSourceCorrectionAndClarificationDispositions": {
+    "114-A001": {
+      "actualDisposition": "SOURCE-BOUNDED",
+      "actualVerbatimIndependentDisposition": "A001 SOURCE-BOUNDED: 才/歳 counter and talent-vs-genius explanation are supported without frequency claims.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "114-A002": {
+      "actualDisposition": "SOURCE-BOUNDED",
+      "actualVerbatimIndependentDisposition": "A002 SOURCE-BOUNDED: 支払う ateji and kana-usual つかえる distinctions are supported.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "114-A003": {
+      "actualDisposition": "SOURCE-BOUNDED",
+      "actualVerbatimIndependentDisposition": "A003 SOURCE-BOUNDED: 放つ senses, はなす homophone, 放れる/離れる distinction and out-of-table こく note are supported.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "114-A004": {
+      "actualDisposition": "SOURCE-BOUNDED",
+      "actualVerbatimIndependentDisposition": "A004 SOURCE-BOUNDED: 断る secondary senses, 断つ/絶つ spelling and judgment distinction are supported.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    }
+  },
+  "originalSourceDirections": 12,
+  "retainedRuntimeMetadataDirections": 12,
+  "metadataRetentionIsNotGuardApproval": true,
+  "actualQualifiedCoreContrastDirections": 12,
+  "actualReviewerDirectionDispositionCounts": {
+    "S-intro": 12
+  },
+  "actualReviewerOrdinaryDispositionCounts": {
+    "U": 12
+  },
+  "exactWithheldSourceCoreDirections": [],
+  "ordinaryActiveNegativeSafetyApprovedDirections": 0,
+  "ordinaryActiveNegativeSafetyUnverifiedDirections": 12,
+  "reviewerContactNote": "N004支→友(friendmayhelp,notkanjigloss)andN007放→方(ホウreadingcontact,disclosed)reviewer-noted;ordinaryruntimesafetyU.",
+  "exactIndependentNavigationDispositions": [
+    {
+      "id": "NAV01",
+      "path": "words/支度.md",
+      "actualDisposition": "NAV-ONLY",
+      "actualVerbatimIndependentDisposition": "NAV01 words/支度.md: NAV-ONLY; exact wrapper [支](../kanji/支.md), target exists; all other visible prose and metadata unchanged."
+    },
+    {
+      "id": "NAV02",
+      "path": "words/放送.md",
+      "actualDisposition": "NAV-ONLY",
+      "actualVerbatimIndependentDisposition": "NAV02 words/放送.md: NAV-ONLY; exact wrapper [放](../kanji/放.md), target exists; all other visible prose and metadata unchanged."
+    }
+  ],
+  "exactIndependentOutsideLimitDispositions": "Outside LIMIT dispositions: O001 LIMIT-ONLY; age/year and 力 ability/readings are flagged, not added as guards. O002 LIMIT-ONLY; 仕 forms/readings, 助 support, 度 partner and 止 reading are flagged. O003 LIMIT-ONLY; 発 release/はなつ, 話 homophone, 送 partner and 報 reading are flagged. O004 LIMIT-ONLY; 切/否 overlap, 判 partner, 定 reading and 立/発 homophones are flagged. None is a distractor in these directions; no new exclusion inferred.",
+  "outsideOverlapConcernsRecordedNotResolved": [
+    "才/年 age-counter (歳) contact; 力 ability neighbour",
+    "支/仕 JMdict forms 仕度/仕払う (strong); 助 support neighbour",
+    "放/発 はな.つ and «выпуск» (strong); 放/話 はな.す homophone (strong)",
+    "断/切 cut and 断/否 refuse overlaps (strong); 断/定 さだ.める (strong); 立/発 た.つ homophones"
+  ],
+  "sourceDirectedMetadataCorrections": [],
+  "prior082To113QualificationsNotUpgraded": true,
+  "freezeProspectiveRuntimeCountMiscount": {
+    "signedFreezeStated": 2300,
+    "actualCandidateAndAccepted": 2304,
+    "recordedIn": "docs/translation-batches/114-talent-support-release-and-cut-kanji-candidate.json",
+    "freezeNotRewritten": true
+  },
+  "universalSemanticDisjointnessDirections": 0,
+  "inventedReverseOrTransitiveDirections": 0,
+  "secondWholeReview": false,
+  "qualifiedBoundary": "ONE actual whole independent114 review by ONE reviewer;original5868-byte stdout report SHA256 4b0bbad34a9e4b07071c659c2c3ed830f1925880d150b9bbe54fc35d89ba1c9b EXACT=5867-byte native final+ONE terminal LF,published verbatim;NO projection/second review.58 complete assigned windows(41read+17lines);61 successful terminal commands;0 failures/truncations/waits/web pages;identical opening/closing gates.52 teaching bodies=28EN/24CURRENT_RU:4primary pairs+15current context pairs(incl.2NAV words)+5linked-only existing pairs(家族,払う,鳥,度,送)+4EN-only comparisons(判断,才能,支払う,放れる).89 WHOLE official TEXT=21KANJIDIC/4Unicode key rows/60JMdict/4visibleKanjiPedia;ONE header additional;ZERO glyph pixels.398 CURRENT typed metadata rows NOT398 whole lessons/1478 fresh word guards.Actual C1 CLEAN/C2 CLEAN(content-level;2 NAV-only glyph wrappers and links verified;12 directions introductory/source-core ONLY)/C3 CLEAN.Findings none;Optional none.All12 actual S-intro introductory/source-core ONLY;canonical Q author mapping;ALL12 ordinary U explicitly(C2 CLEAN does NOT upgrade);N004支→友/N007放→方(ホウ)reviewer-noted contacts;metadata retention NOT guard approval.4L SUPPORTED/4A SOURCE-BOUNDED;2NAV NAV-ONLY standalone glyph wrappers(支度,放送) planned in signed intake;NO amendment.Outside LIMITS record adjacency 才/歳年 age,力;支/仕 forms,助;放/発(strong),話 homophone;断/切否(strong),定,判,立/発,NOT guards;signed freeze prospective runtime 2300 author miscount,actual2304 recorded in candidate record;existing RU院.md unlinked完 mention and RU留守 wording outside batch OPEN/unresolved. Prior082-113 U unchanged;broader ordinary modern necessity-frequency/global uniqueness UNVERIFIED. 2304reviewed-current/2excluded reviewed blocked-media/5972pending of8278;1478words/398kanji/398strokes;150N3 kanji 217 remaining;2294 other baseline RAWs/tracking unchanged.Checkpoint null/Ready false;protected033WORD空 excluded/not media. NO device/media/default/package/release/ordinary activation/full finite completion authority. Continue115+ALL remaining safe frozen families.",
+  "baselineUnchangedRuntimeRaws": 2294,
+  "writerAgentId": "775d2404-124d-4d7e-9060-8bb6a6192303",
+  "authorAgentId": "775d2404-124d-4d7e-9060-8bb6a6192303",
+  "protectedSkyBoundary": {
+    "path": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+    "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+    "status": "excluded C2UNVERIFIED;notmedia",
+    "runtimeWordRemainsAbsent": true,
+    "priorKanjiSkyBoundary": "Accepted077kanji空doesNOTresolveprotectedwordcaptionblocker/ordinaryquiz/media/defaultactivation."
+  },
+  "checkpointAuthority": null,
+  "ordinaryActivationAuthorized": false,
+  "fullTaskComplete": false,
+  "continueRequired": true,
+  "reviewShape": "WriterqualifiedaggregationofONEactualwhole001/ONEsuccessfuldelivery;NOTnewreport/secondwhole/ordinaryquizapproval."
+}

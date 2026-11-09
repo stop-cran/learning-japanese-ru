@@ -1,6 +1,50 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch113 become, war, return and place kanji
+## Current qualified source milestone: batch114 talent, support, release and cut kanji
+
+Batch114 adds **four complete Russian frozen N3 lessons, 才/支/放/断, 283 file lines**,
+and four RAW-identical Japanese KanjiVG assets. Two whole current word bodies receive one
+**NAV-only standalone-glyph wrapper** each (支度→支; 放送→放), planned in the signed intake; no
+whole-label wrapper and no navigation amendment. All visible prose, Japanese metadata, quiz arrays,
+old links, line endings and frozen levels of those words remain unchanged. Frozen EN remains
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`. The signed semantic freeze `c6b0335` stated 2300
+prospective runtime objects; the actual count is 2304 (the four lessons and four strokes were
+omitted from that arithmetic). This bookkeeping erratum is recorded in the candidate record; the
+freeze is not rewritten.
+
+The [actual whole independent review](translation-batches/114-talent-support-release-and-cut-kanji-independent-review-001.json) (one reviewer) of
+candidate `e1d097359f260a694f80214387f5be58a74bd566` read **52 whole teaching bodies, 28 EN/24
+CURRENT RU** (four primary pairs, 15 context pairs, five linked-only existing pairs and four EN-only
+word comparisons: 判断, 才能, 支払う, 放れる), **89 whole official TEXT units** (21 KANJIDIC2, four
+Unicode key rows, 60 JMdict, four KanjiPedia) plus one provider header, all 398 CURRENT typed rows,
+12 original directions, four L/four A rulings, four outside LIMITS, two exact NAV diffs, four guidance
+files and three RU rubrics — **58 complete windows**, 61 successful commands, no failures, identical
+opening/closing gates, zero glyph pixels and zero web pages. The original **5868-byte
+stdout report**, SHA256 `4b0bbad34a9e4b07071c659c2c3ed830f1925880d150b9bbe54fc35d89ba1c9b`, equal to the reviewer's 5867-byte
+native final plus one terminal LF, is published verbatim. Actual verdicts: **C1 CLEAN**, **C2 CLEAN**
+(content-level: NAV wrappers, links and the 12 directions for introductory/source-core comparison
+only), **C3 CLEAN**; findings none; optional none.
+
+All 12 directions are **S-intro** (introductory/source-core only, canonical author mapping Q); all 12
+ordinary uses stay **U** (metadata retention is not guard approval; C2 CLEAN does not upgrade them).
+N004 支→友 (a friend may help) and N007 放→方 (ホウ reading contact) are noted by the reviewer. All four
+L rulings are SUPPORTED and all four A clarifications SOURCE-BOUNDED; both NAV changes are NAV-ONLY;
+outside LIMITS (才 vs 歳/年 age and 力 ability; 支 vs 仕 forms and 助; 放 vs 発 and the 話 homophone;
+断 vs 切/否/定/判 and 立/発 homophones) are observations, not new guards and not cleared for future
+options.
+
+The [qualified source record](translation-batches/114-talent-support-release-and-cut-kanji-reviewed-source.json) preserves 2294 other baseline
+runtime RAWs/tracking rows and all 1478 word metadata/quiz arrays. Qualified source checkpoint:
+**2304 runtime/1478 words/398 kanji/398 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled
+unchanged; kanji 80 N5/166 N4/**150 N3**/2 N2; **217 N3 remain**. Strict progress: **2304
+reviewed-current/two excluded reviewed blocked-media drafts/5972 pending of 8278; 5974 runtime
+paths absent**. Version `6f11296688f71eb7`; checkpoint authority null/Ready false. Prior 082–113
+U qualifications remain unchanged; the existing unlinked 完 mention in RU 院.md and the RU 留守
+wording outside this batch remain open observations. Protected 033 WORD空 stays
+excluded/runtime-absent/not media. No device/media/default/package/release authority. Continue 115+
+and **ALL remaining safe frozen levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch113 become, war, return and place kanji
 
 Batch113 adds **four complete Russian frozen N3 lessons, 成/戦/戻/所, 270 file lines**,
 and four RAW-identical Japanese KanjiVG assets. Eight whole current word bodies receive one
