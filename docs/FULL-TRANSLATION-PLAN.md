@@ -1,6 +1,57 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch110 market, teacher, seat and usual kanji
+## Current qualified source milestone: batch111 ceremony, pull, hit and shape kanji
+
+Batch111 adds **four complete Russian frozen N3 lessons, 式/引/当/形, 241 file lines**,
+and four RAW-identical Japanese KanjiVG assets. Twelve whole current word bodies receive one
+**NAV-only standalone-glyph wrapper** each (式→式; 字引, 引き出し, 引き出す, 引く, 引っ越す→引; お弁当, 本当,
+相当, 適当→当; 人形, 形→形), planned in the signed intake; no whole-label wrapper and no navigation amendment.
+All visible prose, Japanese metadata, quiz arrays, old links and frozen levels of those words remain
+unchanged. Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The [actual whole independent review](translation-batches/111-ceremony-pull-hit-and-shape-kanji-independent-review-001.json) (one reviewer) of
+original candidate `9a8b6927678fc31002c17a133ec00fa8a338cb54` read **60 whole teaching bodies, 31 EN/29
+CURRENT RU** (four primary pairs, 25 context pairs including the twelve NAV words, and two EN-only
+comparison bodies: 当たる, 形式), **83 whole official TEXT units** (23 KANJIDIC2, four radical-evidence
+units, 52 JMdict, four KanjiPedia) plus one provider header, all 385 CURRENT typed rows, 12 original
+directions, four L/four A rulings, four outside LIMITS, 12 exact NAV diffs, four guidance files and three
+RU rubrics — **63 complete windows**, 66 successful commands, zero failures, identical opening/closing
+gates, zero glyph pixels and zero web pages. The original **5914-byte stdout report**, SHA256
+`26af0c0751ca8c33118b029f845a5d60139c2f21afd0e72d3031e606cee76c06`, equal to the reviewer's 5913-byte
+native final plus one terminal LF, is published verbatim. Actual verdicts: **C1 CLEAN**, **C2 UNVERIFIED**
+(all 12 NAV diffs and links verified; ordinary active-negative/fallback quiz safety not established),
+**C3 NEEDS FIX** — finding **111-F001**: the sense list «формулу или установленную форму, способ» in
+«Значение и происхождение» of the 式 lesson was ambiguous.
+
+A signed [pre-mutation wording freeze](translation-batches/111-ceremony-pull-hit-and-shape-kanji-review-finding-list-wording-amendment-freeze-001.json)
+(`5b286f176f08274df8ffae6bd156b5f85eb76e25`) authorised exactly that one line; the
+[corrected candidate](translation-batches/111-ceremony-pull-hit-and-shape-kanji-corrected-candidate-001.json) `38b94207f9b7b950a32dd2dd1515e85c370d2c2c`
+now reads «式 может обозначать церемонию, формулу, а также установленную форму или способ.» (the reviewer's
+wording, adopted verbatim). One later [focused review](translation-batches/111-ceremony-pull-hit-and-shape-kanji-independent-review-focused-001.json) (one
+different reviewer, never concurrent; 21 windows, 24 commands, zero failures; 1706-byte report) found
+**111-F001 RESOLVED**, bounded C1/C2/C3 CLEAN, the wording accurate, and no new findings. It is not a
+second whole review; the original verdicts (including C2 UNVERIFIED) stay immutable and the batch is not
+retrospectively whole-CLEAN.
+
+Ten directions are **S-intro** (introductory/source-core only, canonical author mapping Q); **N006 引→写
+and N012 形→新 are U** (withheld, retained only as frozen source metadata); all 12 ordinary uses stay
+**U** (metadata retention is not guard approval). All four L rulings are SUPPORTED within introductory
+scope and all four A rulings SUPPORTED_BOUNDED; all 12 NAV changes are NAV-ONLY; outside LIMITS (式 vs
+形/方/会; 引 vs 取/出/持; 当 vs 正/本当/真 and the 中 reading; 形 vs 体 «форма») are observations, not new
+guards and not cleared for future options.
+
+The [qualified source record](translation-batches/111-ceremony-pull-hit-and-shape-kanji-reviewed-source.json) preserves 2258 other baseline
+runtime RAWs/tracking rows and all 1478 word metadata/quiz arrays. Qualified source checkpoint:
+**2278 runtime/1478 words/385 kanji/385 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled
+unchanged; kanji 80 N5/166 N4/**137 N3**/2 N2; **230 N3 remain**. Strict progress: **2278
+reviewed-current/two excluded reviewed blocked-media drafts/5998 pending of 8278; 6000 runtime
+paths absent**. Version `7e0ae657bf39c8a5`; checkpoint authority null/Ready false. Prior 082–110
+U qualifications remain unchanged; the existing unlinked 完 mention in RU 院.md and the RU 留守
+wording outside this batch remain open observations. Protected 033 WORD空 stays
+excluded/runtime-absent/not media. No device/media/default/package/release authority. Continue 112+
+and **ALL remaining safe frozen levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch110 market, teacher, seat and usual kanji
 
 Batch110 adds **four complete Russian frozen N3 lessons, 市/師/席/常, 242 file lines**,
 and four RAW-identical Japanese KanjiVG assets. Six whole current word bodies receive one
