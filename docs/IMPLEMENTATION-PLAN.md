@@ -11,7 +11,46 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current qualified source milestone: batch106
+## Current qualified source milestone: batch107
+
+Batch107 adds **two complete Russian frozen N3 lessons, 局/居, 117 file lines**,
+and two RAW-identical Japanese KanjiVG assets. One whole current word body receives a
+**NAV-only standalone-glyph wrapper** (郵便局→局; its CRLF line endings are kept), planned in the signed
+intake; no whole-label wrapper and no navigation amendment. All visible prose, Japanese metadata, quiz
+arrays, old links and frozen levels of that word remain unchanged. Frozen EN remains
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The [actual whole independent review](translation-batches/107-bureau-and-reside-kanji-independent-review-001.json) (one reviewer) of
+candidate `5cb99596bc51a01516173816ea8385fb6b89c9e9` read **20 whole teaching bodies, 11 EN/9
+CURRENT RU** (two primary pairs, five context pairs, two linked existing-word pairs いる/今 and two
+EN-only comparison bodies 居間/薬局), **32 whole official TEXT units** (8 KANJIDIC2, one
+radical-evidence unit, 21 JMdict, two KanjiPedia) plus one provider header, all 371 CURRENT typed rows,
+six original directions, two L/two A rulings, two outside LIMITS, one exact NAV diff, four guidance files
+and three RU rubrics — **44 complete windows**, 47 successful commands, zero failures, identical
+opening/closing gates, zero glyph pixels and zero web pages. The original **3464-byte stdout report**,
+SHA256 `365abcee9fd9fbb78dbedf4af0c81d2ae1dd5a74aef1ae7d144012a61a645061`, equal to the reviewer's
+3463-byte native final plus one terminal LF, is published verbatim. Actual verdicts: **C1 CLEAN**,
+**C2 CLEAN** (bounded; explicitly not a runtime quiz/fallback test), **C3 CLEAN**; findings none;
+optional none.
+
+All six directions are **S-intro** (introductory/source-core only, canonical author mapping Q); all
+six ordinary uses stay **U** (metadata retention is not guard approval). Both L rulings are
+SUPPORTED_WITHIN_INTRODUCTORY_SOURCE and both A rulings SOURCE_SUPPORTED_BOUNDED_CLARIFICATION; the NAV
+change is NAV-ONLY; outside LIMITS (局 vs 院/官/社/館/店; 居 vs 住/在/有/存/宅/家 and the 居間–今 homophone)
+are observations, not new guards and not cleared for future options.
+
+The [qualified source record](translation-batches/107-bureau-and-reside-kanji-reviewed-source.json) preserves 2245 other baseline
+runtime RAWs/tracking rows and all 1478 word metadata/quiz arrays. Qualified source checkpoint:
+**2250 runtime/1478 words/371 kanji/371 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled
+unchanged; kanji 80 N5/166 N4/**123 N3**/2 N2; **244 N3 remain**. Strict progress: **2250
+reviewed-current/two excluded reviewed blocked-media drafts/6026 pending of 8278; 6028 runtime
+paths absent**. Version `64c89d457b371b9a`; checkpoint authority null/Ready false. Prior 082–106
+U qualifications remain unchanged; the existing unlinked 完 mention in RU 院.md and the RU 留守
+wording outside this batch remain open observations. Protected 033 WORD空 stays
+excluded/runtime-absent/not media. No device/media/default/package/release authority. Continue 108+
+and **ALL remaining safe frozen levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch106
 
 Batch106 adds **three complete Russian frozen N3 lessons, 寒/寝/察, 161 file lines**,
 and three RAW-identical Japanese KanjiVG assets. Four whole current word bodies receive
