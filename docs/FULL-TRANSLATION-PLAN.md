@@ -1,6 +1,41 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch120 past, scenery, evening and clear-sky kanji
+## Current qualified source milestone: batch121 ease, dusk, melody, renewal and utmost kanji
+
+Batch121 adds **five complete Russian frozen N3 lessons, 易/暮/曲/更/最, 321 file lines**, and five
+RAW-identical Japanese KanjiVG assets. Nine existing word bodies receive one NAV-only standalone-glyph
+wrapper each (変更, 易しい, 暮れる, 曲る, 最も, 最初, 最後, 最近, 貿易), planned in the signed intake; no
+navigation amendment. Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+Candidate `fcc1fe25c7189264814ac2a96f0079da84593fbe` received **one completed whole independent review**.
+It read 77 whole teaching bodies (40 EN/37 CURRENT RU: five primary pairs, 24 context pairs, eight
+linked-only pairs, plus EN-only comparisons 安易, 暮らす, 曲), 105 whole official TEXT units plus one
+header, all 429 typed rows, 15 proposals, five L/five A rulings, five outside LIMITS and all nine
+navigation diffs in 70 complete windows with identical opening/closing gates and zero failures.
+
+- [Review A](translation-batches/121-ease-dusk-melody-renewal-and-utmost-kanji-independent-review-001.json) (5796-byte report, SHA256
+  `580eb5c4a3c81a7fd090de41e3f3d954d9d249ae2cda0a3f6cc36463cfcb22ea`): **C1 CLEAN, C2 UNVERIFIED, C3 CLEAN**; findings none; optional none.
+  C2 stays UNVERIFIED only because ordinary active-negative quiz safety was not established; no defect.
+
+All 15 directions are qualified introductory/source-core comparisons only (S-intro; canonical author
+mapping Q); no reading-negative rejections; all 15 ordinary uses stay **U** (metadata retention is not
+guard approval). All five L rulings are SUPPORTED and all five A clarifications SUPPORTED-BOUNDED. Outside
+LIMITS (易 vs 楽 «лёгкость»; 暮 vs 暗/晩/夕/夜; 曲 vs 局/music words; 更 vs 化/変/new/夜 words; 最 vs
+妻/才/切/初/後/近/取) are observations, not new guards. 安易, 容易, 暮らす, 暮らし, 暮れ, 曲, 曲がる, 曲げる,
+更に and 夜更かし stay plain text (no runtime word).
+
+The [qualified source record](translation-batches/121-ease-dusk-melody-renewal-and-utmost-kanji-reviewed-source.json) preserves 2347 baseline runtime RAWs/tracking rows
+and all 1478 word metadata/quiz arrays. Qualified source checkpoint: **2366 runtime/1478 words/429
+kanji/429 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled unchanged; kanji 80 N5/166 N4/**181
+N3**/2 N2; **186 N3 remain**. Strict progress: **2366 reviewed-current/two excluded reviewed
+blocked-media drafts/5910 pending of 8278**. Checkpoint authority null/Ready false. Prior 082–120 U
+qualifications remain unchanged; the earlier open observations (RU 昨日 without a 昔 link, RU 時
+distractors differing from EN, RU 高 distractor 本, RU 怖/青/耳/愛/強/院/留守/怒る/少) are outside this batch
+and remain open. Protected 033 WORD空 stays excluded/runtime-absent/not media. No
+device/media/default/package/release authority. Continue 122+ and **ALL remaining safe frozen
+levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch120 past, scenery, evening and clear-sky kanji
 
 Batch120 adds **five complete Russian frozen N3 lessons, 昔/景/昨/晩/晴, 310 file lines**, and five
 RAW-identical Japanese KanjiVG assets. Twelve existing word bodies receive one NAV-only standalone-glyph
