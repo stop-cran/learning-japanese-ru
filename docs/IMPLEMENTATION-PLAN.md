@@ -11,7 +11,48 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current qualified source milestone: batch109
+## Current qualified source milestone: batch110
+
+Batch110 adds **four complete Russian frozen N3 lessons, 市/師/席/常, 242 file lines**,
+and four RAW-identical Japanese KanjiVG assets. Six whole current word bodies receive one
+**NAV-only standalone-glyph wrapper** each (市/市場/市民→市, 出席/席→席, 非常に→常; all six LF-only),
+planned in the signed intake; no whole-label wrapper and no navigation amendment. All visible prose,
+Japanese metadata, quiz arrays, old links and frozen levels of those words remain unchanged. Frozen EN
+remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`. The signed semantic freeze stated a prospective
+runtime count of 2266 by author miscount; the actual candidate count 2270 (2262 + four lessons + four
+stroke files) is recorded in the candidate record, and the freeze is not rewritten.
+
+The [actual whole independent review](translation-batches/110-market-teacher-seat-and-usual-kanji-independent-review-001.json) (one reviewer) of
+candidate `1cf02f67cd180038532ab18e1c2c0e742a3f6ca8` read **36 whole teaching bodies, 20 EN/16
+CURRENT RU** (four primary pairs, 12 context pairs and four EN-only comparison bodies: the
+occupation-and-role-endings article, 教師, 欠席, 非常口), **61 whole official TEXT units** (13 KANJIDIC2,
+one radical-evidence unit, 43 JMdict, four KanjiPedia) plus one provider header, all 381 CURRENT typed
+rows, 12 original directions, four L/four A rulings, four outside LIMITS, six exact NAV diffs, four
+guidance files and three RU rubrics — **53 complete windows**, 56 successful commands, zero failures,
+identical opening/closing gates, zero glyph pixels and zero web pages. The original **5190-byte stdout
+report**, SHA256 `25b8eee9a548eaf085d89d1f6383ec804faad96ac950fe54638eb9a49f1f3f18`, equal to the
+reviewer's 5189-byte native final plus one terminal LF, is published verbatim. Actual verdicts: **C1
+CLEAN**, **C2 CLEAN** (the reviewer states this is content-level review, not runtime quiz acceptance;
+NAV diffs and links verified), **C3 CLEAN**; findings none; optional none.
+
+All 12 directions are **S-intro** (introductory/source-core only, canonical author mapping Q); all 12
+ordinary uses stay **U** (metadata retention is not guard approval; C2 CLEAN does not upgrade them).
+All four L and all four A rulings are SUPPORTED; all six NAV changes are NAV-ONLY; outside LIMITS
+(市 vs 町/場; 師 vs 先/者/教; 席 vs 座 (strong title overlap)/場/出; 常 vs 毎/日) are observations, not new
+guards and not cleared for future options.
+
+The [qualified source record](translation-batches/110-market-teacher-seat-and-usual-kanji-reviewed-source.json) preserves 2256 other baseline
+runtime RAWs/tracking rows and all 1478 word metadata/quiz arrays. Qualified source checkpoint:
+**2270 runtime/1478 words/381 kanji/381 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled
+unchanged; kanji 80 N5/166 N4/**133 N3**/2 N2; **234 N3 remain**. Strict progress: **2270
+reviewed-current/two excluded reviewed blocked-media drafts/6006 pending of 8278; 6008 runtime
+paths absent**. Version `c97f5998cc1e84fd`; checkpoint authority null/Ready false. Prior 082–109
+U qualifications remain unchanged; the existing unlinked 完 mention in RU 院.md and the RU 留守
+wording outside this batch remain open observations. Protected 033 WORD空 stays
+excluded/runtime-absent/not media. No device/media/default/package/release authority. Continue 111+
+and **ALL remaining safe frozen levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch109
 
 Batch109 adds **two complete Russian frozen N3 lessons, 座/庭, 116 file lines**,
 and two RAW-identical Japanese KanjiVG assets. Three whole current word bodies receive one
