@@ -1,6 +1,56 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch119 fear, emotion and feeling kanji
+## Current qualified source milestone: batch120 past, scenery, evening and clear-sky kanji
+
+Batch120 adds **five complete Russian frozen N3 lessons, 昔/景/昨/晩/晴, 310 file lines**, and five
+RAW-identical Japanese KanjiVG assets. Twelve existing word bodies receive one NAV-only standalone-glyph
+wrapper each (一昨年, 一昨日, 今晩, 昔, 昨夜, 昨日, 晩, 晩御飯, 景色, 晴れ, 晴れる, 毎晩), planned in the
+signed intake; no navigation amendment. Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+Candidate `274f263c4c8ca42d2fc4f6dc3efcd3eb6fb5fd37` received **two sequential completed whole
+independent reviews** (never concurrent). Each read 88 whole teaching bodies (44 EN/44 CURRENT RU: five
+primary pairs, 25 context pairs, 14 linked-only pairs), 81 whole official TEXT units plus one header,
+all 424 typed rows, 15 proposals, five L/five A rulings, five outside LIMITS and all 12 navigation diffs
+in 69 complete windows with identical opening/closing gates and zero failures. The writer first misread
+review A's unrelated short native final as a no-op and launched review B; a private erratum supersedes
+that wrong record, and B is not used to outvote A.
+
+- [Review A](translation-batches/120-past-scenery-evening-and-clear-sky-kanji-independent-review-001.json) (6472-byte report, SHA256
+  `1b4dff570ecacba4bdd12d3de6ffe85539bdb58136a9a5c2f6c2c9876718d765`): **C1 CLEAN, C2 NEEDS FIX, C3 CLEAN**; findings 120-F001..F004:
+  昔→借 (シャク), 景→京 (ケイ), 昨→作 (サク), 晴→青 (セイ) share an on'yomi, unsafe as unqualified reading
+  negatives; N009 昨→時 ordinary **U**.
+- [Review B](translation-batches/120-past-scenery-evening-and-clear-sky-kanji-independent-review-002.json) (6072-byte report, SHA256
+  `355b036da3b715c5a7bc2fe474178e213629b9a657ccc724c9cfc62f447da71c`): **C1 CLEAN, C2 UNVERIFIED, C3 CLEAN**; no findings; the same four
+  directions are introductory shape comparisons only, not reading negatives.
+
+The signed [writer adjudication](translation-batches/120-past-scenery-evening-and-clear-sky-kanji-review-finding-adjudication-001.json) resolved F001–F004 **without
+runtime mutation**: the four lines are identical to frozen EN; the app's committed reading-quiz code
+(kanji-cards-android `10d98d0`, `KanjiReadings.kt` `excludedKeys`) removes every target on/kun reading
+and its voicing/long-vowel/small-っ variants from wrong options, and the meaning mode uses distinct
+Russian titles. One later [focused review](translation-batches/120-past-scenery-evening-and-clear-sky-kanji-focused-review-001.json) (one different reviewer;
+2366-byte report) found **F001–F004 RESOLVED**, C1/C2 CLEAN, C3 N/A, the
+adjudication record accurate and no new findings; it verified committed source only, not a device or
+other app versions. Original verdicts stay immutable; the batch is not retrospectively whole-CLEAN.
+
+Review A classified ten directions S-intro, N009 昨→時 U and the four shared-reading directions as accurate
+introductory shape comparisons that are **REJECTED as reading negatives** (review B: all 15 S-intro, the same
+four not reading negatives); all 15 stay retained introductory/source-core comparisons (canonical author mapping
+Q) and all 15 ordinary uses stay **U** (metadata retention is not guard approval). All five L and five A rulings are SUPPORTED. Outside LIMITS
+(昔 vs 去年/今/古; 景 vs 景色/色; 昨 vs 昨日/昨年/今/去; 晩 vs 夕/夜/今晩/毎晩/早; 晴 vs 晴天/天気/青) are
+observations, not new guards. 昔話, 風景/夜景, 昨年 and 晴天 stay plain text (no runtime word).
+
+The [qualified source record](translation-batches/120-past-scenery-evening-and-clear-sky-kanji-reviewed-source.json) preserves 2334 baseline runtime RAWs/tracking rows
+and all 1478 word metadata/quiz arrays. Qualified source checkpoint: **2356 runtime/1478 words/424
+kanji/424 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled unchanged; kanji 80 N5/166 N4/**176
+N3**/2 N2; **191 N3 remain**. Strict progress: **2356 reviewed-current/two excluded reviewed
+blocked-media drafts/5920 pending of 8278**. Checkpoint authority null/Ready false. Prior 082–119 U
+qualifications remain unchanged; the existing RU 昨日 without a 昔 link, RU 時 distractors differing from
+EN, the RU 高 distractor 本 and the earlier open observations (RU 怖/青/耳/愛/強/院/留守/怒る/少) are
+outside this batch and remain open. Protected 033 WORD空 stays excluded/runtime-absent/not media. No
+device/media/default/package/release authority. Continue 121+ and **ALL remaining safe frozen
+levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch119 fear, emotion and feeling kanji
 
 Batch119 adds **three complete Russian frozen N3 lessons, 恐/情/感, 194 file lines**, and three
 RAW-identical Japanese KanjiVG assets. No existing word body changes (zero navigation wrappers, no

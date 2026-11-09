@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "batchId": "120-past-scenery-evening-and-clear-sky-kanji",
+  "kind": "focused independent review of review-finding adjudication",
+  "reviewHead": "9028072a3eb92442ef65d504e13b87e88f0ba29f",
+  "candidateCommit": "274f263c4c8ca42d2fc4f6dc3efcd3eb6fb5fd37",
+  "androidCommit": "10d98d0db61dcde621463460e6a1e59941b4042b",
+  "reviewerAgentId": "ecda34e1-b1ca-4ede-996a-45300f5907cb",
+  "reviewerStatus": "Completed one-shot;NOTrunning",
+  "concurrentReviewers": 0,
+  "actualReviewerCompletionReceipt": {
+    "eventId": "9bf291fa-a096-4209-b32e-e86ad0526f4a",
+    "journalRecordExcludingLfSha256": "237c58deef4929cc5d84dabb8e5ad78cec8db96f96d64fd2c58b9670976145d0"
+  },
+  "actualReturnedReportText": "batch120focus\nSnapshot: HEAD 9028072a3eb92442ef65d504e13b87e88f0ba29f; candidate 274f263c4c8ca42d2fc4f6dc3efcd3eb6fb5fd37; Android 10d98d0db61dcde621463460e6a1e59941b4042b. Both gates were identical.\nScope: Units 0–17 read completely; all requested commands exited 0 with complete output. No failures or truncation.\nC1 CLEAN: All four on'yomi overlaps are supported by the RU and frozen EN metadata: 昔/借 シャク, 景/京 ケイ, 昨/作 サク, 晴/青 セイ.\nC2 CLEAN: In reading quiz On and Kun modes, source excludes keys for every target on+kun reading and their voicing/long-vowel/small-tsu mutations; add() rejects excluded keys. Thus the shared reading cannot be a wrong option, and no other target reading can be one either. In meaning mode the displayed Russian titles differ and exact-title deduplication prevents duplicate answers; these four pairs are not semantically equivalent. This resolves the findings for cited Android source, without approving these edges as reading negatives.\nC3 N/A: No learner-visible issue found in the four lessons' shape-comparison explanations; they do not present these pairs as reading negatives.\nF001昔→借 RESOLVED: シャク is excluded as a wrong option in reading quizzes; meaning titles “давние времена” and “брать взаймы; арендовать” differ.\nF002景→京 RESOLVED: ケイ is excluded; titles “вид; пейзаж” and “столица” differ.\nF003昨→作 RESOLVED: サク is excluded; titles “вчерашний; прошлый” and “делать; создавать” differ.\nF004晴→青 RESOLVED: セイ is excluded; titles “ясная погода” and “синий; зелёный” differ.\nRecord accuracy: ACCURATE: The four distractor lines are line 11 and match the frozen EN source; code paths, commit, cited line behaviors, and Russian titles match the read units. The disclosure accurately says the reviews were sequential, not concurrent, and that neither reviewer inspected quiz behavior. “origin/main” and raw hashes were not independently authenticated beyond this supplied snapshot.\nFindings: none.\nLimits: Verified cited committed source only; did not test a device, APK/runtime build, other app versions, or material beyond units 0–17. The source-level finding does not guarantee behavior in other versions.\n",
+  "actualReturnedReportUtf8Bytes": 2366,
+  "actualReturnedReportSha256": "fefd85f5f295fca69c97741b9975cf0beee86712c5f2d2200f8c64e0f81cb4a9",
+  "nativeFinalEqualsReportModuloTerminalWhitespace": true,
+  "nativeFinalEventId": "fb8c2dec-8b32-4375-9c98-0f80c96187ab",
+  "taskReturnEventId": "55c08f5b-ff83-4f39-965d-b68677e0d7f3",
+  "actualToolReceipts": [
+    {
+      "eventId": "47fc9dad-f597-4a92-9de4-6b10aca61045",
+      "commandStartEventId": "a2642fe9-4fee-455c-982a-defdcac0725e",
+      "commandUtf8Sha256": "85d93e9bcf5461747c704bf72b4964e3190a75f25b0e77e8513a10a3e3468008",
+      "actualPublicContentUtf8Bytes": 309,
+      "actualPublicContentUtf8Sha256": "f9bcfad646a5d0c455d7d5a15bce38fcd10d7ee02d50a89732c4a5ac7b13ec29",
+      "journalRecordExcludingLfSha256": "434f54d70c6f6b4cfed9e8d11c1710035d22946e51cef2006171be473ce47da4",
+      "actualExitCodes": [
+        "0"
+      ]
+    },
+    {
+      "eventId": "4fd40bd4-2272-463a-ad6b-8e7eb70837f4",
+      "commandStartEventId": "aae50337-f6c1-4b4a-8917-40d044e794df",
+      "commandUtf8Sha256": "c01f9ecee98cfe68d9a4d97e583ed8d8858bcd4e08db12bd6eaeb35880fb7ddb",
+      "actualPublicContentUtf8Bytes": 19999,
+      "actualPublicContentUtf8Sha256": "5b4aa4868d0de7e5130917a8acfa0cbfaa5028b7483b450f334dee8ac4fd1f51",
+      "journalRecordExcludingLfSha256": "e6aa8ea794b116d53770fd04e63bba0647988aec923f63e7e89e2b763e66b4bd",
+      "actualExitCodes": [
+        "0"
+      ]
+    },
+    {
+      "eventId": "ddf36d22-58b2-430e-b501-8a00111a3f8c",
+      "commandStartEventId": "ed9f41ee-e101-4091-811a-db9dd11cfd7b",
+      "commandUtf8Sha256": "95b9a89f94ce742b8205da91d17b28051ccc72a4daed6439657e1fe24891a0ec",
+      "actualPublicContentUtf8Bytes": 14360,
+      "actualPublicContentUtf8Sha256": "2891b30a61b1b584a9f0ab9e981847a2dde4a8392d706677f5661273ceda8e67",
+      "journalRecordExcludingLfSha256": "3df8c4acaa78518d1620da3133749af16642947a86fe8733dff02d3327a7b9dc",
+      "actualExitCodes": [
+        "0"
+      ]
+    },
+    {
+      "eventId": "c486dde6-6abe-4852-8219-2e5215449207",
+      "commandStartEventId": "0d1eedbe-d716-4bfe-a802-6c5f73d336b3",
+      "commandUtf8Sha256": "fd7b1f4946bdcdbd34dfb24dc862be7df1dcf21b54c1827ffe019cab95910488",
+      "actualPublicContentUtf8Bytes": 2582,
+      "actualPublicContentUtf8Sha256": "cce0e70f1e68e57f31dddc661227a0e3bcec85ba56e68f70781af27a6b411ee9",
+      "journalRecordExcludingLfSha256": "f987a9bb2e1da8080360b744818879be607c10860f7c6e6a69ba46d3e1697021",
+      "actualExitCodes": [
+        "0"
+      ]
+    },
+    {
+      "eventId": "de03a452-95ca-42af-af62-29ecb160e177",
+      "commandStartEventId": "663c031e-3302-493e-8738-992a5d5785a1",
+      "commandUtf8Sha256": "9bd93ca1c4d42e19d499ea494edd228cb206b14391b97fb423e5bd0468c80f1e",
+      "actualPublicContentUtf8Bytes": 10357,
+      "actualPublicContentUtf8Sha256": "f73e6853070590da0b6a7845d85762dd524756100bbeca56719eed12ed031a65",
+      "journalRecordExcludingLfSha256": "244871125b7fcf9c0871ee5c987eda4826a1370ee9d4dca62ff046665303e5eb",
+      "actualExitCodes": [
+        "0"
+      ]
+    },
+    {
+      "eventId": "81dd74fd-6ac4-4411-b97a-a816ed81c619",
+      "commandStartEventId": "d5199f2f-217c-40eb-a952-7ae8e9bc3080",
+      "commandUtf8Sha256": "85d93e9bcf5461747c704bf72b4964e3190a75f25b0e77e8513a10a3e3468008",
+      "actualPublicContentUtf8Bytes": 309,
+      "actualPublicContentUtf8Sha256": "068648d83e9561694c10cdc9d1251b71a70111c6a7060d7bf3575337116ac14b",
+      "journalRecordExcludingLfSha256": "fe1452f2b2d41073877e1f578624b5ac7685c9bdf4a69fd2f9de1dd089a5a8b4",
+      "actualExitCodes": [
+        "0"
+      ]
+    },
+    {
+      "eventId": "9f4c2bb7-5648-4e29-a6ba-0d03c5afaa15",
+      "commandStartEventId": "d33d98c9-959e-4dd4-a41c-b9f99b09c502",
+      "commandUtf8Sha256": "41d5b7f8a9313024be48fd4bb3b52977a4c453660f4506dab5dbec9bd55112a7",
+      "actualPublicContentUtf8Bytes": 2408,
+      "actualPublicContentUtf8Sha256": "e9d784d52ad263c998abc68a7b34750ca4fe2e86be88196bacb6459034e5de25",
+      "journalRecordExcludingLfSha256": "2038ad25d0cc5845eb9dc5ef92e5179290aaa292e8e07e89fac87060cbd89786",
+      "actualExitCodes": [
+        "0"
+      ],
+      "reportAudit": {
+        "scriptUtf8Sha256": "3f2c251d6f0861bf74c42c77a2198ab06079650a665a5f267da87fefbf89f269",
+        "auditedStdoutOnlyPythonCalls": [
+          "len",
+          "report.encode",
+          "report.endswith",
+          "sys.stdout.reconfigure",
+          "sys.stdout.write"
+        ],
+        "actualLiteralUtf8Bytes": 2366,
+        "actualLiteralUtf8Sha256": "fefd85f5f295fca69c97741b9975cf0beee86712c5f2d2200f8c64e0f81cb4a9"
+      }
+    }
+  ],
+  "actualReadWindows": [
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      7,
+      15
+    ],
+    [
+      15,
+      18
+    ]
+  ],
+  "actualUnitsRead": 18,
+  "unitDigest": "2f4dd589a27d821521f232a04aeffb4b780e1f5c01e24fd58fdbf7cb62f76fa9",
+  "actualIdenticalGates": true,
+  "actualFacets": {
+    "C1": "CLEAN",
+    "C2": "CLEAN (resolves F001-F004 for cited Android source; not reading-negative approval)",
+    "C3": "N/A"
+  },
+  "findingDispositions": {
+    "120-F001": "RESOLVED_WITHOUT_MUTATION",
+    "120-F002": "RESOLVED_WITHOUT_MUTATION",
+    "120-F003": "RESOLVED_WITHOUT_MUTATION",
+    "120-F004": "RESOLVED_WITHOUT_MUTATION"
+  },
+  "newFindings": [],
+  "limits": "committed source at 10d98d0 only; no device/APK/other-version verification",
+  "sourceAccepted": false,
+  "ordinaryActivationAuthorized": false,
+  "fullTaskComplete": false,
+  "actualImmutablePrivateReportArtifact": "ru-120-focused-review-actual-stdout-payload-001.txt"
+}
