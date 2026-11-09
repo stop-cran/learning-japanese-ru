@@ -1,0 +1,1549 @@
+{
+  "schemaVersion": 1,
+  "batch": "109-seat-and-garden-kanji",
+  "recordedAt": "2026-11-09T02:29:02.190044+00:00",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineSnapshot": "114ecdae2bb5a4081eee0258f4c5d48cf89a3458",
+  "exactProposalsRawSha256": "df7094358de24f5dee9f36fa1fdc971558aaae9556981441816b4569eb8b9fef",
+  "exactProspectivePoolRawSha256": "f6796928996f78b1eb8cc33bf91994e47a37e9d79c3ebd8b26653b54135b5a8e",
+  "exactActualProspectiveReadingCompleteRawSha256": "69c1b8044e9f9d83f10aafec5982179117dfd2162d4cb12d20b714dd71ace16a",
+  "actualSourceAdjudications": [
+    {
+      "id": "109-L001",
+      "kanji": "座",
+      "authorDisposition": "SUPPORTED_WITHIN_INTRODUCTORY_SOURCE",
+      "reason": "WholefrozenEN'sit;seating'/official10strokes/广53/ザ/すわ.るretained;RUtitle«сидеть;местодлясидения»;1291800すわるsit,1291880ざせきseatwith'esp.inpublicplacesorplaceswithassignedseating'glossadded,1157070椅子,1597040立つcontrastkept;KanjiPedia角川新字源改訂新版会意形声广+坐(サ,ザ)'sit'→placewhereoneisseatedinahousetaughtwithattribution;1291800坐る'rarelyusedkanjiform'disclosed;1291770ざseat/place/position/gatheringnotedwithoutteachingthosesenses;two人-over-土mnemonicexplicitlyNOThistory;座席/椅子/座notRUruntime→plaintext;座る/立つlinked(existing)."
+    },
+    {
+      "id": "109-L002",
+      "kanji": "庭",
+      "authorDisposition": "SUPPORTED_WITHIN_INTRODUCTORY_SOURCE",
+      "reason": "WholefrozenEN'garden;yard'/official10strokes/广53/テイ/にわretained;RUtitle«сад;двор»;1436130にわgarden/yard/courtyard,1192280かていhome/household/family,1436140ていえんgarden/park,1273270こうえんpublicparkkept;KanjiPedia角川新字源改訂新版会意形声广+テイcomponent(courtyardinpalace)→palace/imperialcourt;meanings庭/中庭,家(as家庭),placeofgovernmentaffairstaughtwithattribution;廷-pathmnemonicexplicitlyNOThistoryorphoneticanalysis;家庭linkedinRU(existingruntimeword);庭園notRUruntime→plaintext;'house+garden'literalreadingwarningkeptinRussian."
+    }
+  ],
+  "sourceDirectedNegativeEdges": [
+    {
+      "id": "109-N001",
+      "source": "座",
+      "distractor": "庭",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "座1291800すわるsit/kneel,1291880ざせきseat(esp.publicplaces),1291770ざseat/placevs庭1436130にわgarden/yard/courtyard,1192280かていhome/household:individualintroductoryshapecomparisonONLY;sharedouter广enclosureEXPLICITandCENTRAL;innerparts(two人-likeover土vs廷-shape)differ;庭isNEWinthisbatchandreciprocaledge庭→座recordedSEPARATELY,noinferencefromreciprocity;nomeaningoverlapclaimed;ordinaryall-sense/reading/fallbacksafetyU.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "109-N002",
+      "source": "座",
+      "distractor": "広",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "座1291800すわるsit,1291880ざせきseatvs広(formsWithoutExactJmdictEntry:noJMdictsensecited;acceptedtyped広«широкий;просторный»):individualintroductoryshapecomparisonONLY;sharedouter广EXPLICITandCENTRAL;広innerムvs座inner人人土differ;広isaccepted;nomeaningoverlapclaimed;ordinaryall-sense/reading/fallbacksafetyU.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "109-N003",
+      "source": "座",
+      "distractor": "店",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "座1291800すわるsit,1291880ざせきseatvs店1582120みせstore/shop,1582125てんstore(suffix),2409230たなmerchant'shome:individualintroductoryshapecomparisonONLY;sharedouter广EXPLICITandCENTRAL;店inner占vs座inner人人土differ;places-for-peopledomainNOTclaimedasoverlap;店isaccepted;nomeaningoverlapclaimed;ordinaryall-sense/reading/fallbacksafetyU.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "109-N004",
+      "source": "庭",
+      "distractor": "座",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "庭1436130にわgarden/yard/courtyard,1192280かていhome/householdvs座1291800すわるsit,1291770ざseat/place:individualintroductoryshapecomparisonONLY;sharedouter广EXPLICITandCENTRAL;innerparts(廷-shapevs人人土)differ;座isNEWinthisbatch;separateoriginaledgefrom座→庭,noreverse/transitiveinference;座«место»vs庭«двор»bothplaceslikenouns,titlesdisjointbutplacedomainFLAGGED;nomeaningoverlapclaimed;ordinaryall-sense/reading/fallbacksafetyU.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "109-N005",
+      "source": "庭",
+      "distractor": "度",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "庭1436130にわgarden,1192280かていhomevs度1445160どdegree/times,1445150たびtime/occasion,2252690ど(prefix):individualintroductoryshapecomparisonONLY;sharedouter广EXPLICITandCENTRAL;度inner廿+又vs庭廷-shapediffer;度isaccepted;nomeaningoverlapclaimed;ordinaryall-sense/reading/fallbacksafetyU.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    },
+    {
+      "id": "109-N006",
+      "source": "庭",
+      "distractor": "店",
+      "authorProvisionalIntroductoryDisposition": "Q",
+      "individualAuthorReason": "庭1436130にわgarden/yard,1192280かていhomevs店1582120みせstore/shop,1582125てんstore,2409230たなmerchant'shome:individualintroductoryshapecomparisonONLY;sharedouter广EXPLICITandCENTRAL;店inner占vs庭廷-shapediffer;2409230merchant'shomeandhouseholdsenseof家庭flaggedasdistanthome-domaincontactNOToverlapclaim;店isaccepted;nomeaningoverlapclaimed;ordinaryall-sense/reading/fallbacksafetyU.",
+      "independentDisposition": "PENDING",
+      "retainedInProspectiveMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafety": "UNVERIFIED",
+      "unrestrictedSemanticDisjointnessEstablished": false,
+      "noReverseOrTransitiveInference": true
+    }
+  ],
+  "addedDictionaryClarifications": [
+    {
+      "id": "109-A001",
+      "kanji": "座",
+      "authorDisposition": "SOURCE_SUPPORTED_BOUNDED_CLARIFICATION",
+      "reason": "1291770座(ざ)othersenses(pedestal/guild/constellation/theatresuffix)notenumerated;lessonsaysonlyplace/position/gatheringandtolearnwithwords;1291800kneel/searchonlyforms座わる/坐わるnottaught;nofrequencyclaim."
+    },
+    {
+      "id": "109-A002",
+      "kanji": "庭",
+      "authorDisposition": "SOURCE_SUPPORTED_BOUNDED_CLARIFICATION",
+      "reason": "1436130field(ofaction)/areasensenottaught;1278590広場and1273280公演(homophoneof公園)capturedcontextnottaught;1436140庭園glossgarden/parkkept«сад;парк»;nofrequencyclaim."
+    }
+  ],
+  "currentPoolObservedOverlapFlagsNotNewGlobalPairJudgments": [
+    {
+      "id": "109-O001",
+      "kanji": "座",
+      "disposition": "LIMIT_NOT_NEW_GUARD",
+      "observedCurrentTypedGlyphs": [
+        "場",
+        "居",
+        "立"
+      ],
+      "observation": "TypedtitlepartoverlapFLAGGEDEXPLICIT:座«сидеть;местодлясидения»and場«место;площадка»sharepart«место»(wholetitlesdiffer);posturedomain居«присутствовать;обитать»and立«стоять;устанавливать»(立つcontrastinlesson)flagged;席notincurrenttypedpool→listedonlyifpresent;noneis座distractorand座isnotdistractorofany;fallbackU;notnewguard."
+    },
+    {
+      "id": "109-O002",
+      "kanji": "庭",
+      "disposition": "LIMIT_NOT_NEW_GUARD",
+      "observedCurrentTypedGlyphs": [
+        "園",
+        "家",
+        "公"
+      ],
+      "observation": "TypedtitlepartoverlapFLAGGEDEXPLICITandSTRONG:庭«сад;двор»and園«парк;сад»sharepart«сад»(wholetitlesdiffer;庭園containsboth);家«дом;жилище»co-occursin家庭flagged;公«общественный;официальный»flaggedonlyfor公園comparisoninnotes;noneis庭distractorand庭isnotdistractorofany;fallbackU;notnewguard."
+    }
+  ],
+  "originalSourceDirectedMetadataCorrections": [],
+  "authorProvisionalCounts": {
+    "Q": 6
+  },
+  "independentlyReviewed": false,
+  "all6OrdinaryActiveNegativeSafety": "UNVERIFIED",
+  "premutationNavigationAmendmentRequired": false,
+  "navigationExceptionScope": "ThreeintakeplannedSTANDALONEglyphwrappers(家庭/座る/庭)only;nowhole-wordlabels;座/座席/椅子/庭園/EN-onlyarticlesremainplaintext;existing座る/立つ/庭/家庭/公園linkedinnewlessonsonly.",
+  "currentTitleOverlapNeighboursPreserved": {
+    "場": {
+      "title": "место; площадка",
+      "distractors": [
+        "土",
+        "借",
+        "帰"
+      ]
+    },
+    "居": {
+      "title": "присутствовать; обитать",
+      "distractors": [
+        "局",
+        "古",
+        "右"
+      ]
+    },
+    "立": {
+      "title": "стоять; устанавливать",
+      "distractors": [
+        "音",
+        "土",
+        "生"
+      ]
+    },
+    "園": {
+      "title": "парк; сад",
+      "distractors": [
+        "国",
+        "困",
+        "回"
+      ]
+    },
+    "家": {
+      "title": "дом; жилище",
+      "distractors": [
+        "室",
+        "安",
+        "字"
+      ]
+    },
+    "公": {
+      "title": "общественный; официальный",
+      "distractors": [
+        "八",
+        "六",
+        "分"
+      ]
+    }
+  },
+  "boundary": "AUTHORindividualadjudicationsONLY;independentall6dispositionsPENDING;6provisionalINTRODUCTORYcomparison-onlyQNOT6active-negativeapprovals;ALL6ordinary/all-sense/readings/fallbacksafetyU.Sharedouter广affinityEXPLICITandCENTRALforall6;innerpartsdiffer;both座and庭NEW;座→庭and庭→座reciprocalbutSEPARATEoriginaledges,noreverse/transitiveinference;店isdistractorofboth,separateedges.座/場«место»and庭/園«сад»titlepartoverlapsFLAGGED;posture(居/立),home(家),public(公)domainsFLAGGED;notchanged.NOSourcecorrection/metadatawithdrawal/newguard.Broadernecessity/frequency/current-futureuniquenessU;prior108all12ordinaryU/107all6ordinaryU/106all9ordinaryU/105all12ordinaryU/104all12ordinaryU/103all12ordinaryU(N010reviewedREJECTfixed)/102/101/100/099/098all12ordinaryU/097all9ordinaryU/096meaning-onlyN008/all12ordinaryU/095N012/all12ordinaryU/094呼-blow/all9ordinaryU/093all27ordinaryU/091割-to-利/082姉-to-妹Uunchanged.",
+  "runtimeAcceptance": false,
+  "fullTaskComplete": false,
+  "continueRequired": true,
+  "stage": "PREMUTATION_AUTHOR_SEMANTIC_FREEZE;INDEPENDENT_REVIEW_AND_RUNTIME_ACCEPTANCE_PENDING",
+  "originalIntakeUnchangedRawSha256": "2eae1aa1c3a9e4a6e43fd254ec4bb593542bd5bcccb221347b19a98ba5f9ce2c",
+  "intakeCommit": "ef5fd5084cd10bf759f25c1985243c1f978fe12d",
+  "explicitPremutationNavigationAmendment": null,
+  "threeStandaloneGlyphWrappersPlannedInSignedIntake": true,
+  "actualCompletePreparationReading": {
+    "schemaVersion": 1,
+    "batch": "109-seat-and-garden-kanji",
+    "recordedAt": "2026-11-09T02:22:32.349452+00:00",
+    "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "russianBaselineSnapshot": "114ecdae2bb5a4081eee0258f4c5d48cf89a3458",
+    "exactEvidenceBindingRawSha256": "f90c1ee7fffc83becc5ffd3c80c62c14a24ed0089bde4e339a2eeecac9bdbf34",
+    "exactMetadataPrimaryCaptureRawSha256": "c6365266f5063ce8fdd9299595644cf089e280fc8a1efd1c78a8f7043a8f413f",
+    "exactKanjipediaCaptureRawSha256": "aae0efdb1028e3f12b421441543814f36377bcfb1ba8d07aac3ac2329c96a7d1",
+    "actualWholePrimaryEnglishReading": {
+      "batch": "109-seat-and-garden-kanji",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "russianBaselineSnapshot": "114ecdae2bb5a4081eee0258f4c5d48cf89a3458",
+      "actualWholeFrozenPrimaryBodies": 2,
+      "actualSuccessfulIndices": [
+        0,
+        1
+      ],
+      "pendingIndices": [],
+      "complete": true,
+      "actualPublicReturns": [
+        {
+          "eventId": "c3de8ace-4685-4cb2-a9fd-904fec4923b1",
+          "actualPublicReturnBytes": 3544,
+          "actualPublicReturnSha256": "c001a1638ad37d362c3fced2c2e8da09e2e0e7382bd17dc87c52cfb6b41d1511",
+          "journalRecordExcludingLfSha256": "b7ee30b21c1ae06e66e9ad469c48b56d2687fa72f60ac4b0ab82cdb1c4782641",
+          "entireBoundPayloadCompared": true,
+          "windows": [
+            [
+              "0",
+              "2"
+            ]
+          ]
+        }
+      ],
+      "boundary": "EntireactualsuccessfulfrozenENprimarypayloadscompared,notmarkersalone;NOTRUauthoring/independentreview/sourceacceptance."
+    },
+    "complete": true,
+    "actualSuccessfulPreparationToolReturns": 9,
+    "actualSuccessfulReaderWindowReturns": 9,
+    "actualDistinctReaderToolReturns": 8,
+    "actualSuccessfulLineWindows": 0,
+    "actualLineWindowReturns": 0,
+    "nonCreditedPartialWindows": [],
+    "nonCreditedFailedReturns": [],
+    "actualSuccessfulPublicReturns": [
+      {
+        "eventId": "51edff94-e419-4e56-80ad-f5b2499a1a4d",
+        "actualSuccessfulPublicReturnUtf8Bytes": 654,
+        "actualSuccessfulPublicReturnSha256": "7a66144d97a016f79ea8534de68ceaf56df3ee3182ff5d847f41fc38f90769e2",
+        "journalRecordExcludingLfSha256": "ecda12f9577ae46807c02f5c12e1d63b8f7327eaad401838dede2adad34bad54",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [],
+        "actualLineWindows": [],
+        "actualWholeProviderHeaderRead": true
+      },
+      {
+        "eventId": "cf3c966b-6a37-41de-87a4-005051e67136",
+        "actualSuccessfulPublicReturnUtf8Bytes": 10735,
+        "actualSuccessfulPublicReturnSha256": "76264f188ff336961c4133c63ce955cb385cbf6f7296cff9d1ad29cf0ab93c12",
+        "journalRecordExcludingLfSha256": "72414fd9f700e72a49253c3bcbd4adc55eb8184a007da933b2df83eb6d95a3f4",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "pair",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "actualLineWindows": []
+      },
+      {
+        "eventId": "03afc5a2-4b62-4266-bfbe-b636289dd98a",
+        "actualSuccessfulPublicReturnUtf8Bytes": 9759,
+        "actualSuccessfulPublicReturnSha256": "fbdf4b6fc951d4cfb940262c1270e71e603df8d7837cbffb2a77754311aa0a3e",
+        "journalRecordExcludingLfSha256": "f29c595e8a4bc8abb14511e040a2f43d4b802b987db428151989c893365beb3a",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "pair",
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "actualLineWindows": []
+      },
+      {
+        "eventId": "1741fadd-4693-4195-a4b3-d8ac2fe393f1",
+        "actualSuccessfulPublicReturnUtf8Bytes": 8438,
+        "actualSuccessfulPublicReturnSha256": "5054d9ee4eb43e321f2b4fcee64a95b5f813104022b31f1ac9f5d62980e4106f",
+        "journalRecordExcludingLfSha256": "18e83b0f1235e4dd9a833d3e7aa7c4776f24881d047efe16c3dc33dfd42513d8",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "pair",
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "actualLineWindows": []
+      },
+      {
+        "eventId": "69220b30-b994-436e-9639-0991039cd189",
+        "actualSuccessfulPublicReturnUtf8Bytes": 9292,
+        "actualSuccessfulPublicReturnSha256": "e0613953b747d70f5332327d1fa45ed89e2a840cd30cd7265c715c5bb0efd727",
+        "journalRecordExcludingLfSha256": "ed2cb59efa7792fc8403b362008f0b02622c656cc61306897448bf9c2fe33648",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "pair",
+            "start": 6,
+            "end": 8
+          }
+        ],
+        "actualLineWindows": []
+      },
+      {
+        "eventId": "611a55be-b7e8-4550-b8aa-5c20ae674d45",
+        "actualSuccessfulPublicReturnUtf8Bytes": 11828,
+        "actualSuccessfulPublicReturnSha256": "21873f83b36a4d0402cc162f5e329b289e57ef6bc2d231e0ab802e4035b6f77a",
+        "journalRecordExcludingLfSha256": "507f4b9be02077f58225f75f06248d5236717985c0134914490e0c995f14b0ed",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "metadata",
+            "start": 0,
+            "end": 5
+          }
+        ],
+        "actualLineWindows": []
+      },
+      {
+        "eventId": "130674a4-b0c4-4fd5-9ef9-2e92ed780fcf",
+        "actualSuccessfulPublicReturnUtf8Bytes": 10490,
+        "actualSuccessfulPublicReturnSha256": "5306fa33f3ebee4a24fff47db1d0e79d5269519e0f15b9c120fdd124d868b24a",
+        "journalRecordExcludingLfSha256": "8a425d08359ed7df957256b24596e26a09ba9d193300a8d2e83d2462e2bf5507",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "metadata",
+            "start": 5,
+            "end": 9
+          },
+          {
+            "mode": "radical",
+            "start": 0,
+            "end": 1
+          }
+        ],
+        "actualLineWindows": []
+      },
+      {
+        "eventId": "91e5179e-8d3d-4569-b7f6-4de87ce5d725",
+        "actualSuccessfulPublicReturnUtf8Bytes": 11273,
+        "actualSuccessfulPublicReturnSha256": "4385a5536651f86f9874fc21fa6b5d9b9f1076ec05177d46e699c1d8cc71fce2",
+        "journalRecordExcludingLfSha256": "8d91ed8fcad93543afee47b090e359395c269bc295d756e3417d981089d5bff1",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "object",
+            "start": 0,
+            "end": 17
+          }
+        ],
+        "actualLineWindows": []
+      },
+      {
+        "eventId": "13ab298c-0284-43ce-8462-46df9db777b4",
+        "actualSuccessfulPublicReturnUtf8Bytes": 4410,
+        "actualSuccessfulPublicReturnSha256": "34e2bfa3f613291e95d80e1be6fb1fed639a523b54dd92952d041053b1e90e6a",
+        "journalRecordExcludingLfSha256": "986095b7a89d2b3f77c1ae52ab8611b6f21c1dffb49937682dc03259849d5007",
+        "entireBoundPayloadCompared": true,
+        "actualWindows": [
+          {
+            "mode": "kanjipedia",
+            "start": 0,
+            "end": 2
+          }
+        ],
+        "actualLineWindows": []
+      }
+    ],
+    "actualWholeTeachingBodies": 18,
+    "actualWholeEnglishBodies": 10,
+    "actualWholeRussianBodies": 8,
+    "actualWholeOfficialSourceTextUnits": 29,
+    "actualAdditionalWholeProviderHeaders": 1,
+    "actualDictionaryGlyphPixelViews": 0,
+    "actualCoverage": {
+      "pair": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "comparison": [],
+      "metadata": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "radical": [
+        0
+      ],
+      "object": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "kanjipedia": [
+        0,
+        1
+      ]
+    },
+    "actualLineCoverage": {},
+    "actualWholeProviderHeaderToolEventIds": [
+      "51edff94-e419-4e56-80ad-f5b2499a1a4d"
+    ],
+    "actualSuccessfulWholeCounts": {
+      "pair": 8,
+      "comparison": 0,
+      "metadata": 9,
+      "radical": 1,
+      "object": 17,
+      "kanjipedia": 2
+    },
+    "frozenSourceCommunityLevelsNotProviderHistoricalJlpt": true,
+    "boundary": "Actualentiresuccessfulpayloadcomparisons,notmarkersalone;2wholeENprimary+8wholeEN/RUpairs+0EN-only=18bodies,10EN8RU;9KANJIDIC+1Unicode+17completeorderedJMdict+2wholevisibleKanjiPedia=29TEXT;oneWHOLEheaderADDITIONALinrangesreturn;ZEROglyphpixels/fullHTML/nativeapproval.9successfulREADERwindowsin8actualreaderTOOLreturns(sharedreturnslistedbyactualWindows)+oneSEPARATEwhole-header/rangesreturn;zeropartial/zerofailedreaderreturns;earlierprimaryreadingreturnseparate;NOT377typedpoolreading/newRUauthoring/independentreview/semanticfreeze/runtimeacceptance.WholebaselinepairreaderisvalidBEFORE3NAVmutations;futurecandidaterequiresCURRENTwholepairbindings,notreusingbaselineRAWs.",
+    "independentReviewOccurred": false,
+    "runtimeAcceptance": false,
+    "fullTaskComplete": false,
+    "continueRequired": true
+  },
+  "actualCompleteProspectiveReading": {
+    "schemaVersion": 1,
+    "batch": "109-seat-and-garden-kanji",
+    "complete": true,
+    "recordedAt": "2026-11-09T02:28:56.073330+00:00",
+    "exactProposalsRawSha256": "df7094358de24f5dee9f36fa1fdc971558aaae9556981441816b4569eb8b9fef",
+    "exactProspectivePoolRawSha256": "f6796928996f78b1eb8cc33bf91994e47a37e9d79c3ebd8b26653b54135b5a8e",
+    "actualSuccessfulPublicReturns": [
+      {
+        "eventId": "5771c14a-c4b6-4771-b496-bbc07c8d1a9e",
+        "actualPublicReturnUtf8Bytes": 10291,
+        "actualPublicReturnSha256": "3ae8e55d35c7a93960749f97ef67d41a3b98fc7b633938713f31e4d53ba7d213",
+        "journalRecordExcludingLfSha256": "c383c656f9764289e38d0d42814256da8444074c6b25cc392337282dc8198aaa",
+        "actualWindows": [
+          [
+            "ru",
+            "0",
+            "2"
+          ],
+          [
+            "nav",
+            "0",
+            "3"
+          ]
+        ],
+        "entireBoundPayloadCompared": true
+      },
+      {
+        "eventId": "456af730-ca18-4726-8ab2-327eca051c54",
+        "actualPublicReturnUtf8Bytes": 12221,
+        "actualPublicReturnSha256": "3d4b5a7faae24f11cb33d0a0b0ddd14f85af96cc68892d0a8cd3f1de650b183a",
+        "journalRecordExcludingLfSha256": "27cf6f03c0d1a261ea7380be92e8cafc8a6b0c8754a0b36a2601f3271c10260b",
+        "actualWindows": [
+          [
+            "pool",
+            "0",
+            "36"
+          ]
+        ],
+        "entireBoundPayloadCompared": true
+      },
+      {
+        "eventId": "3928fda0-4498-4fe3-afa8-5c6abd5e469e",
+        "actualPublicReturnUtf8Bytes": 12263,
+        "actualPublicReturnSha256": "51d14932d01d6ebb9d2b7f02bd49748beed1ca9209a5ebd824860c539b40679d",
+        "journalRecordExcludingLfSha256": "0ba60f9d44f799ed50893931d8ebf19f4a6c9115664af789f6e884a8c8079a03",
+        "actualWindows": [
+          [
+            "pool",
+            "182",
+            "219"
+          ]
+        ],
+        "entireBoundPayloadCompared": true
+      },
+      {
+        "eventId": "77932080-66b6-4e4d-8d77-795213b0e9b1",
+        "actualPublicReturnUtf8Bytes": 12185,
+        "actualPublicReturnSha256": "77e9e8535051b706047898238f8b8db376746385a1c86751ea32a858e4ed0115",
+        "journalRecordExcludingLfSha256": "c5058af430483f0a08cc71d5d257d9c26f5c6666716c74504f4416fe79a1e285",
+        "actualWindows": [
+          [
+            "pool",
+            "36",
+            "72"
+          ]
+        ],
+        "entireBoundPayloadCompared": true
+      },
+      {
+        "eventId": "c5a82b0a-ced1-4676-9e6c-c81c2adb035e",
+        "actualPublicReturnUtf8Bytes": 12163,
+        "actualPublicReturnSha256": "8ce438c79476b35ee1c135a549b622c5f685144a6387d42c4599b582b99fd8ea",
+        "journalRecordExcludingLfSha256": "8b1dc367e47e49e2c3eccaf280f17a726b948dbd82cba4fd3a112f29099ea7e3",
+        "actualWindows": [
+          [
+            "pool",
+            "144",
+            "182"
+          ]
+        ],
+        "entireBoundPayloadCompared": true
+      },
+      {
+        "eventId": "ddb1692b-5efe-45d0-bf45-debb7317eb2e",
+        "actualPublicReturnUtf8Bytes": 12153,
+        "actualPublicReturnSha256": "cd42ce8cda90d6eef270ae35ce98bf356f7be06e6e01463f17222b4e21b74c4f",
+        "journalRecordExcludingLfSha256": "14d926cff353d8b597e3bd24a4e6a7f8253856bfacb8547538deb14a42043af5",
+        "actualWindows": [
+          [
+            "pool",
+            "72",
+            "108"
+          ]
+        ],
+        "entireBoundPayloadCompared": true
+      },
+      {
+        "eventId": "75acc16c-eee9-48bc-83e7-242630d305cc",
+        "actualPublicReturnUtf8Bytes": 12157,
+        "actualPublicReturnSha256": "705b5f2380e35e8bc8c551a16bb4ac237756b91f9296678bbe2b8d522c404615",
+        "journalRecordExcludingLfSha256": "0559d9181f5ae63821ba31bbedd01ad434fb16f053882d24d9e05db2b8af36cc",
+        "actualWindows": [
+          [
+            "pool",
+            "108",
+            "144"
+          ]
+        ],
+        "entireBoundPayloadCompared": true
+      },
+      {
+        "eventId": "dd6155b5-3ffc-47c4-a25f-dc7b134e450b",
+        "actualPublicReturnUtf8Bytes": 3673,
+        "actualPublicReturnSha256": "42e17cb27911b84b61d0d4a19f93d5b58b5eed84548b30b775c0e9b92e977be5",
+        "journalRecordExcludingLfSha256": "37478e4476a417da0ee2d8481ad27986bfed5fcaeb5b7b6c4d326785d73fe742",
+        "actualWindows": [
+          [
+            "pool",
+            "366",
+            "377"
+          ]
+        ],
+        "entireBoundPayloadCompared": true
+      },
+      {
+        "eventId": "ffa1e1d8-1c83-4ac8-8766-c05be4ed1ed9",
+        "actualPublicReturnUtf8Bytes": 12303,
+        "actualPublicReturnSha256": "29d0c690d8f43c157dc4c8ba61db5014ce4bbb90b29dcfe3e4b2dd13c8e0dcd4",
+        "journalRecordExcludingLfSha256": "80ef7acd266e3a9f73ad33f6bd89f359bc4eadc823addf757e7a848d37385b40",
+        "actualWindows": [
+          [
+            "pool",
+            "293",
+            "330"
+          ]
+        ],
+        "entireBoundPayloadCompared": true
+      },
+      {
+        "eventId": "8efc71c7-8cb9-44d0-b0f7-9c1d2885de64",
+        "actualPublicReturnUtf8Bytes": 12293,
+        "actualPublicReturnSha256": "d6a610c7b9341f8254d578115e35aa8886a41ab77176a5ea07c87fcc0c1e938b",
+        "journalRecordExcludingLfSha256": "e26072cc23bfe3e1b807f1d675e0b0b0bd4cd4f566eff792c41367649d8a5123",
+        "actualWindows": [
+          [
+            "pool",
+            "219",
+            "256"
+          ]
+        ],
+        "entireBoundPayloadCompared": true
+      },
+      {
+        "eventId": "34d2f8a3-7202-4692-a3c6-d0db7ba85f73",
+        "actualPublicReturnUtf8Bytes": 12240,
+        "actualPublicReturnSha256": "ed3e01e9b306a17327d5186ececdfcefee717803b813d37688c21271ac4622eb",
+        "journalRecordExcludingLfSha256": "4c0c65c1f6ebe332e06c369d9db91bb41198f48e4c3fc1df3b7ffda0f4dafd50",
+        "actualWindows": [
+          [
+            "pool",
+            "330",
+            "366"
+          ]
+        ],
+        "entireBoundPayloadCompared": true
+      },
+      {
+        "eventId": "31aa46e7-22e4-4848-9c07-4416bc8904d8",
+        "actualPublicReturnUtf8Bytes": 12369,
+        "actualPublicReturnSha256": "492d08ee0c5c44c59c2203b3d12b33b48e872fbe0906dbeef5ce54f115afad39",
+        "journalRecordExcludingLfSha256": "539c98d2b19ec0eebb3f60bd0351bcffc2b9bca3af008d756ecf9018b3e7caff",
+        "actualWindows": [
+          [
+            "pool",
+            "256",
+            "293"
+          ]
+        ],
+        "entireBoundPayloadCompared": true
+      }
+    ],
+    "actualSuccessfulReadingToolReturns": 12,
+    "actualSuccessfulReaderWindows": 13,
+    "nonCreditedStaleOrFailedReturns": [
+      {
+        "eventId": "97573c4c-b991-44fd-bd17-9d1c3dd95c7a",
+        "actualPublicReturnUtf8Bytes": 24262,
+        "actualPublicReturnSha256": "9d23e70f14adc0752df93e9d212be6f5aaeb1cc734bf159d63473b214a127817",
+        "journalRecordExcludingLfSha256": "023c1bedd36443d54a0ab9e9dd595f27dd20d3da956a878206315eea56a0204c",
+        "actualWindows": [
+          [
+            "pool",
+            "0",
+            "36"
+          ],
+          [
+            "pool",
+            "36",
+            "72"
+          ]
+        ],
+        "notCreditedReasons": [
+          "notSuccessful"
+        ]
+      },
+      {
+        "eventId": "a7a002d5-dae3-4043-ba98-22016b0d2508",
+        "actualPublicReturnUtf8Bytes": 24372,
+        "actualPublicReturnSha256": "7cca8e0926b4ff7389565c83697b8914a6ea55652e65cc5e11b1b2f6c041e67f",
+        "journalRecordExcludingLfSha256": "de80e0e75b53e6099e10108a0cb4c21db43c504e39f961df2fa446cfea867d22",
+        "actualWindows": [
+          [
+            "pool",
+            "72",
+            "108"
+          ],
+          [
+            "pool",
+            "108",
+            "144"
+          ]
+        ],
+        "notCreditedReasons": [
+          "notSuccessful"
+        ]
+      },
+      {
+        "eventId": "d73a39b5-9139-47e5-97d4-77d7077b4975",
+        "actualPublicReturnUtf8Bytes": 24494,
+        "actualPublicReturnSha256": "e5b9bfe66d6381bc12cd03cd2749c07e5ca9e5645b36fb00accb20bc0fe901aa",
+        "journalRecordExcludingLfSha256": "cfe4675b4a3124cd697523f87db6344c189d1e80aee2cfc16124b0fe30d5b5ac",
+        "actualWindows": [
+          [
+            "pool",
+            "144",
+            "182"
+          ],
+          [
+            "pool",
+            "182",
+            "219"
+          ]
+        ],
+        "notCreditedReasons": [
+          "notSuccessful"
+        ]
+      },
+      {
+        "eventId": "dd7f3859-1d14-462a-90ca-33aee7b8363f",
+        "actualPublicReturnUtf8Bytes": 24728,
+        "actualPublicReturnSha256": "1a056bf43781726cc9b2dd4a1633b853dcc55c0ca0027268082b0b7ec4679704",
+        "journalRecordExcludingLfSha256": "8b370cf2ba364f7532e1c6e026b4fa25b7fe6147a4d026fb4e603645197b805e",
+        "actualWindows": [
+          [
+            "pool",
+            "219",
+            "256"
+          ],
+          [
+            "pool",
+            "256",
+            "293"
+          ]
+        ],
+        "notCreditedReasons": [
+          "notSuccessful"
+        ]
+      },
+      {
+        "eventId": "4867b862-3b86-4d7f-838b-693562c75fd4",
+        "actualPublicReturnUtf8Bytes": 28261,
+        "actualPublicReturnSha256": "ec36263aafa5b015a4392f3e4a08495f2de30471b7868800521ad460fdb57a0f",
+        "journalRecordExcludingLfSha256": "b5e10891950de58d54e965903f4f87ca3d24e9326c414e5dd0020ba8b7922249",
+        "actualWindows": [
+          [
+            "pool",
+            "293",
+            "330"
+          ],
+          [
+            "pool",
+            "330",
+            "366"
+          ],
+          [
+            "pool",
+            "366",
+            "377"
+          ]
+        ],
+        "notCreditedReasons": [
+          "notSuccessful"
+        ]
+      }
+    ],
+    "actualWholeProposedRussianLessons": 2,
+    "actualWholeExactNavigationPatches": 3,
+    "actualWholeTypedProspectiveMetadataRows": 377,
+    "actualCoverage": {
+      "ru": [
+        0,
+        1
+      ],
+      "nav": [
+        0,
+        1,
+        2
+      ],
+      "pool": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        375,
+        376
+      ]
+    },
+    "boundary": "Entireactualsuccessfulpayloadscomparedagainstthe CURRENT bound proposals/pool,notmarkersalone;2WHOLEprivateRUproposals/3WHOLEexactstandalone-glyphNAVpatches/377WHOLEtypedunits;13creditedreaderwindowsin12actualtoolreturns(earlierroundswhosewholepayloadstillmatchesarecredited);5stale/failedreturnsNOTcredited,listedwithreasons;proposalsunchangedsincecapture.NOT377wholelessons/CURRENTruntimepool/fresh1478wordguards/independentreview/semanticfreeze/acceptance.",
+    "runtimeAcceptance": false
+  },
+  "actualAuthorAdjudicationInspection": [
+    {
+      "eventId": "a4adbafc-7036-45f1-81c4-71710699fd5c",
+      "actualSuccessfulPublicReturnUtf8Bytes": 8106,
+      "actualSuccessfulPublicReturnSha256": "b7c0a735e46b54ab6e4d5acddcc28e1cd38143cbf25357a25806ab8c58ee3cda",
+      "journalRecordExcludingLfSha256": "b492648c13cc8ef7a883fc8675070dc9ef2a942da6cb30332fab274441de162a",
+      "entireBoundAuthorAdjudicationPayloadCompared": true
+    }
+  ],
+  "completeBoundProposals": {
+    "schemaVersion": 1,
+    "batch": "109-seat-and-garden-kanji",
+    "recordedAt": "2026-11-09T02:24:03.398887+00:00",
+    "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "russianBaselineSnapshot": "114ecdae2bb5a4081eee0258f4c5d48cf89a3458",
+    "newKanjiLessons": [
+      {
+        "id": "座",
+        "path": "kanji/座.md",
+        "metadata": {
+          "kanji": "座",
+          "title": "сидеть; место для сидения",
+          "jlpt": 3,
+          "tags": [
+            "jlpt-n3",
+            "grade-6",
+            "structure-unclassified"
+          ],
+          "strokes": 10,
+          "radical": "广",
+          "radicalNumber": 53,
+          "onyomi": [
+            "ザ"
+          ],
+          "kunyomi": [
+            "すわ.る"
+          ],
+          "distractors": [
+            "庭",
+            "広",
+            "店"
+          ]
+        },
+        "completeRussianPayloadUtf8": "---\nkanji: 座\ntitle: сидеть; место для сидения\njlpt: 3\ntags: [jlpt-n3, grade-6, structure-unclassified]\nstrokes: 10\nradical: 广\nradicalNumber: 53\nonyomi: [ザ]\nkunyomi: [すわ.る]\ndistractors: [庭, 広, 店]\n---\n\n# 座 — сидеть; место для сидения\n\n**Черты:** 10 · **Ключ (радикал):** 广 (№ 53) · **JLPT:** N3 (список сообщества)\n\n## Значение и происхождение\n\n座 относится к словам о сидении и местах для сидения.\n[座る](../words/座る.md) (すわる) — садиться или сидеть;\n座席 (ざせき) — сиденье, место для сидения.\nСесть можно и на стул, и на пол, поэтому само 座る не указывает на мебель.\n\n«角川新字源 改訂新版» в [漢字ペディア](https://www.kanjipedia.jp/kanji/0002483300)\nописывает 座 как знак 会意形声: 广 соединён с 坐 (サ, ザ) — «сидеть»,\nи вместе они передают место в доме, где сидит человек.\nВ современном письме обычно пишут 座: написание 坐る словарь отмечает у 座る как редкое.\n\n**Мнемоника по современной форме:** найдите внутри 广 две фигуры, похожие на 人, над 土 —\nсловно два человека заняли места под навесом.\nЭто зрительный образ для запоминания, а не замена исторического объяснения выше.\n\n## Чтения\n\n| Чтение | Тип | Примеры |\n| --- | --- | --- |\n| すわ.る | кунное | [座る](../words/座る.md) (すわる) — садиться; сидеть |\n| ザ | онное | 座席 (ざせき) — сиденье; место для сидения |\n\n## Частые слова\n\n- [座る](../words/座る.md) (すわる) — садиться; сидеть.\n- 座席 (ざせき) — сиденье; место — особенно в общественных местах или там, где места распределены заранее.\n\n## Примечания\n\nВ 椅子に座る (いすにすわる) — «сесть на стул» — に отмечает место, куда садится человек.\n[立つ](../words/立つ.md) (たつ) — «вставать; стоять» — полезное противопоставление по действию.\nОтдельное слово 座 (ざ) в словаре означает также место, положение или собрание;\nздесь эти значения не разбираются, учите их вместе с конкретными словами.\n\nПо форме отличайте внутреннюю часть 座 от [庭](庭.md), [広](広.md) и [店](店.md):\nу всех четырёх снаружи 广.\n\nИсточники: [KANJIDIC2](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project);\n[JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатьи 1291800, 1291880, 1157070, 1597040 и 1291770.\n",
+        "proposedWorkingRawSha256": "d1f8c483c3ff416b8ac40dbea2249624238df04a4deab1eb2c5795f314a65bf0",
+        "proposedLfSha256": "d1f8c483c3ff416b8ac40dbea2249624238df04a4deab1eb2c5795f314a65bf0",
+        "frozenSourceGitRawSha256": "c97d1b0dfaa93d81195de64b166876a25927a6e308eb8e4d639d8d71babec489",
+        "wholePayloadLines": 58,
+        "actualGitTextEolAttributes": [
+          "kanji/座.md",
+          "text",
+          "set",
+          "kanji/座.md",
+          "eol",
+          "lf"
+        ],
+        "proposedNewMarkdownWorkingEol": "LF;actualrepositoryeol=lfverifiedbeforeproposal",
+        "allFourCanonicalRussianH2ExactlyVerifiedBeforeProposal": true,
+        "allJapaneseMetadataExceptRussianTitlePreserved": true,
+        "privateProposalNotRuntimeMutation": true
+      },
+      {
+        "id": "庭",
+        "path": "kanji/庭.md",
+        "metadata": {
+          "kanji": "庭",
+          "title": "сад; двор",
+          "jlpt": 3,
+          "tags": [
+            "jlpt-n3",
+            "grade-3",
+            "structure-unclassified"
+          ],
+          "strokes": 10,
+          "radical": "广",
+          "radicalNumber": 53,
+          "onyomi": [
+            "テイ"
+          ],
+          "kunyomi": [
+            "にわ"
+          ],
+          "distractors": [
+            "座",
+            "度",
+            "店"
+          ]
+        },
+        "completeRussianPayloadUtf8": "---\nkanji: 庭\ntitle: сад; двор\njlpt: 3\ntags: [jlpt-n3, grade-3, structure-unclassified]\nstrokes: 10\nradical: 广\nradicalNumber: 53\nonyomi: [テイ]\nkunyomi: [にわ]\ndistractors: [座, 度, 店]\n---\n\n# 庭 — сад; двор\n\n**Черты:** 10 · **Ключ (радикал):** 广 (№ 53) · **JLPT:** N3 (список сообщества)\n\n## Значение и происхождение\n\n庭 обозначает сад, двор или внутренний двор.\nСлово [庭](../words/庭.md) (にわ) не обязательно подразумевает клумбы:\nэто может быть и открытое пространство возле здания.\nВ [家庭](../words/家庭.md) (かてい) значение — дом или домашнее хозяйство, а не конкретный участок земли.\n\n«角川新字源 改訂新版» в [漢字ペディア](https://www.kanjipedia.jp/kanji/0004959700)\nописывает 庭 как знак 会意形声: 广 соединён с компонентом с чтением テイ,\nкоторый обозначал внутренний двор во дворце; знак передавал значение «дворец, императорский двор».\nТам же среди значений названы сад и внутренний двор, дом (как в 家庭)\nи место, где ведут государственные дела.\n\n**Мнемоника по современной форме:** представьте извилистую садовую дорожку в форме 廷 под навесом 广.\nДорожка — зрительная ассоциация с размашистыми чертами, а не исторический или звуковой анализ.\n\n## Чтения\n\n| Чтение | Тип | Примеры |\n| --- | --- | --- |\n| にわ | кунное | [庭](../words/庭.md) (にわ) — сад; двор |\n| テイ | онное | [家庭](../words/家庭.md) (かてい) — семья; домашнее хозяйство; 庭園 (ていえん) — сад |\n\n## Частые слова\n\n- [庭](../words/庭.md) (にわ) — сад; двор; внутренний двор.\n- [家庭](../words/家庭.md) (かてい) — дом; домашнее хозяйство; семья.\n- 庭園 (ていえん) — сад; парк.\n\n## Примечания\n\n[公園](../words/公園.md) (こうえん) — общественный парк; это слово не заменяет любое упоминание чьего-то 庭.\nУ [座](座.md), [度](度.md) и [店](店.md) тот же внешний элемент 广,\nпоэтому узнавайте 庭 по нижней размашистой части.\nУчите 家庭 как целое слово, а не переводите его буквально как «дом + сад».\n\nИсточники: [KANJIDIC2](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project);\n[JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\nстатьи 1436130, 1192280, 1436140 и 1273270.\n",
+        "proposedWorkingRawSha256": "256c9f59470b2f78df469d2617a79f7b0ac72d400fa8ec766e94d8bd98dd126d",
+        "proposedLfSha256": "256c9f59470b2f78df469d2617a79f7b0ac72d400fa8ec766e94d8bd98dd126d",
+        "frozenSourceGitRawSha256": "0ebe878a06000e12638749c85b36b49cb428d40abacb94edc568be639a1a2c4c",
+        "wholePayloadLines": 56,
+        "actualGitTextEolAttributes": [
+          "kanji/庭.md",
+          "text",
+          "set",
+          "kanji/庭.md",
+          "eol",
+          "lf"
+        ],
+        "proposedNewMarkdownWorkingEol": "LF;actualrepositoryeol=lfverifiedbeforeproposal",
+        "allFourCanonicalRussianH2ExactlyVerifiedBeforeProposal": true,
+        "allJapaneseMetadataExceptRussianTitlePreserved": true,
+        "privateProposalNotRuntimeMutation": true
+      }
+    ],
+    "existingWordNavigation": [
+      {
+        "path": "words/家庭.md",
+        "metadata": {
+          "word": "家庭",
+          "reading": "かてい",
+          "title": "семья; домашняя жизнь",
+          "jlpt": 5,
+          "type": "kango",
+          "kanji": [
+            "家",
+            "庭"
+          ],
+          "tags": [
+            "noun",
+            "family",
+            "kango"
+          ],
+          "quiz_exclusions": [
+            "家",
+            "家族",
+            "内",
+            "門"
+          ]
+        },
+        "beforeWorkingRawSha256": "7d493fed61d8c3b0975a44de237160db3f4911f646ebcba389ae6ec23dc41667",
+        "beforeGitRawSha256": "4bde282cfa0efb38804922c07dd86daf2d0b8d4826c9d7a7569c6a97351b8646",
+        "afterWorkingRawSha256": "e3ee583350cdfb4c717bfe4d36f26a1c569fcddfb6036be47f7a7ee225aee503",
+        "completeProposedRussianPayloadUtf8": "---\r\nword: 家庭\r\nreading: かてい\r\ntitle: семья; домашняя жизнь\r\njlpt: 5\r\ntype: kango\r\nkanji: [家, 庭]\r\ntags: [noun, family, kango]\r\nquiz_exclusions: [家, 家族, 内, 門]\r\n---\r\n\r\n# 家庭（かてい）— семья; домашняя жизнь\r\n\r\n## Значение\r\n\r\n家庭 — дом или домашнее хозяйство как среда семейной жизни.\r\nЧасто речь о том, как люди живут вместе, а не только о здании.\r\n\r\n- 家庭で日本語を話します。（かていでにほんごをはなします。）— Дома мы говорим по-японски.\r\n- 家庭の事情で休みました。（かていのじじょうでやすみました。）— Я отсутствовал по семейным обстоятельствам.\r\n\r\n## Как сочетаются кандзи\r\n\r\n[家](../kanji/家.md), «дом; семья», соединяется с [庭](../kanji/庭.md), «сад; двор».\r\nОнные чтения образуют かてい.\r\nСовременное слово означает домашнее хозяйство или семью,\r\nа не именно сад при доме.\r\n\r\n## Синонимы и антонимы\r\n\r\n[家族](家族.md)（かぞく）называет членов семьи как группу.\r\n[家](家.md)（いえ）может означать дом или жилище.\r\n世帯（せたい）— домашнее хозяйство как единица,\r\nнапример при административном подсчёте.\r\n\r\n## Оттенки значения\r\n\r\n家庭 полезно в сочетаниях вроде 家庭料理（かていりょうり）,\r\n«домашняя кухня», и при обсуждении домашней жизни.\r\nВ обычной фразе «Я иду домой» оно, как правило, не служит обозначением места назначения:\r\nестественное выражение — 家に帰る（いえにかえる）.\r\n\r\nСловарь: [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\r\nзапись 1192280, значение 1.\r\n",
+        "navigationOnly": true,
+        "exactSemanticSectionEdits": [],
+        "exactEdits": [
+          {
+            "kanji": "庭",
+            "section": "Как сочетаются кандзи",
+            "linkLabel": "庭",
+            "beforeLine": "[家](../kanji/家.md), «дом; семья», соединяется с 庭, «сад; двор».\r",
+            "afterLine": "[家](../kanji/家.md), «дом; семья», соединяется с [庭](../kanji/庭.md), «сад; двор».\r",
+            "exactCharacterOffsetWithinLine": 48,
+            "exactOnlyWrapperChange": "Wrap existing standalone glyph only, including inline prose.",
+            "existingMarkdownSpansProtected": true
+          }
+        ],
+        "wholeWordLabelIntentionallyNotSplit": false,
+        "visibleProseJapaneseMetadataQuizArraysAndOldLinksUnchanged": true
+      },
+      {
+        "path": "words/座る.md",
+        "metadata": {
+          "word": "座る",
+          "reading": "すわる",
+          "jlpt": 5,
+          "title": "садиться; сидеть",
+          "type": "wago",
+          "kanji": [
+            "座"
+          ],
+          "tags": [
+            "wago",
+            "verb",
+            "posture"
+          ],
+          "quiz_exclusions": [
+            "勤める"
+          ]
+        },
+        "beforeWorkingRawSha256": "004fcff42be8fc5edb528f7a75b0016e55c8191ee18faf0df74e63bd56c004b4",
+        "beforeGitRawSha256": "c0d8a6e0b0c9c8994c360dce8dc3517341b53d94e3f1c442910289b1f2fe70c0",
+        "afterWorkingRawSha256": "b0d990eb6e19a7baabb987a2f00584fb908221c6d781de7aab13173f50a5b12d",
+        "completeProposedRussianPayloadUtf8": "---\r\nword: 座る\r\nreading: すわる\r\njlpt: 5\r\ntitle: садиться; сидеть\r\ntype: wago\r\nkanji: [座]\r\ntags: [wago, verb, posture]\r\nquiz_exclusions: [勤める]\r\n---\r\n\r\n# 座る（すわる）— садиться; сидеть\r\n\r\n## Значение\r\n\r\n座る — садиться, находиться в положении сидя, в том числе сидеть на полу.\r\nГлагол непереходный: человек садится сам, а に может отмечать место, куда он садится.\r\n\r\n- ここに座ってください。（ここにすわってください。）— Пожалуйста, садитесь здесь.\r\n- 子供が床に座っています。（こどもがゆかにすわっています。）— Ребёнок сидит на полу.\r\n\r\nВо втором примере 座っています описывает положение сидя,\r\nа не повторяющиеся движения, когда человек садится.\r\n\r\n## Как сочетаются кандзи\r\n\r\n[座](../kanji/座.md) читается すわ, после него каной записывается る.\r\nЭто исконный глагол с кунным чтением.\r\nХотя он заканчивается на る, он относится к годан:\r\nпоследний звук основы меняется в формах 座ります（すわります）,\r\n座らない（すわらない）, 座って（すわって）.\r\nВежливая форма — **не** すわます.\r\n\r\n## Синонимы и антонимы\r\n\r\n[立つ](立つ.md)（たつ）, «вставать; стоять», — прямое противопоставление по положению тела.\r\n座席（ざせき）, «сиденье; место для сидения», — связанное существительное, не ещё один глагол «сидеть».\r\n椅子（いす）— стул; 座る может описывать сидение и без стула.\r\n\r\n## Оттенки значения\r\n\r\nГоворите 椅子に座る（いすにすわる）, «сидеть на стуле»,\r\nа не делайте стул дополнением глагола 座る с を.\r\nГлагол описывает действие человека или принятое им положение тела.\r\nПример с полом показывает, почему сводить значение только к занятию стула было бы слишком узко.\r\n\r\nСловарь: [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project),\r\nзапись 1291800, значение 1; сопоставляемые записи 1597040, 1291880 и 1157070.\r\n",
+        "navigationOnly": true,
+        "exactSemanticSectionEdits": [],
+        "exactEdits": [
+          {
+            "kanji": "座",
+            "section": "Как сочетаются кандзи",
+            "linkLabel": "座",
+            "beforeLine": "座 читается すわ, после него каной записывается る.\r",
+            "afterLine": "[座](../kanji/座.md) читается すわ, после него каной записывается る.\r",
+            "exactCharacterOffsetWithinLine": 0,
+            "exactOnlyWrapperChange": "Wrap existing standalone glyph only, including inline prose.",
+            "existingMarkdownSpansProtected": true
+          }
+        ],
+        "wholeWordLabelIntentionallyNotSplit": false,
+        "visibleProseJapaneseMetadataQuizArraysAndOldLinksUnchanged": true
+      },
+      {
+        "path": "words/庭.md",
+        "metadata": {
+          "word": "庭",
+          "reading": "にわ",
+          "title": "сад; двор",
+          "jlpt": 5,
+          "type": "wago",
+          "kanji": [
+            "庭"
+          ],
+          "tags": [
+            "wago",
+            "home",
+            "places"
+          ]
+        },
+        "beforeWorkingRawSha256": "e4c678d8086340c8f6ecb59730be5b470c61cb8b481a9a0c59650bb4e4336219",
+        "beforeGitRawSha256": "1ecf4e639b2d3ab413e876e907b3d89ad951da696692268d329fe7a2ed89d519",
+        "afterWorkingRawSha256": "5d41fcd56b1973df163bc4f261ff5556f4f1492c722a0717f2e7ff5c1910eb72",
+        "completeProposedRussianPayloadUtf8": "---\r\nword: 庭\r\nreading: にわ\r\ntitle: сад; двор\r\njlpt: 5\r\ntype: wago\r\nkanji: [庭]\r\ntags: [wago, home, places]\r\n---\r\n\r\n# 庭 (にわ) — сад; двор\r\n\r\n## Значение\r\n\r\n庭 — сад, двор или внутренний двор, например открытое пространство возле дома.\r\nНе обязательно представлять сад, полный цветов: по ситуации точнее может оказаться «двор».\r\n\r\n- 子供たちが庭で遊んでいます。 (こどもたちがにわであそんでいます。) — Дети играют во дворе.\r\n- 庭に花を植えました。 (にわにはなをうえました。) — Я посадил цветы в саду.\r\n\r\nВ первом примере で отмечает место игры, во втором に — место, где посажены цветы.\r\n\r\n## Как сочетаются кандзи\r\n\r\nИсконно японское существительное にわ записывается одним кандзи [庭](../kanji/庭.md).\r\nЗдесь нет нескольких знаков, значения которых нужно складывать, и нет сочетания онных чтений.\r\nУ того же кандзи есть онное чтение テイ в других словах, но это не меняет чтение данного слова.\r\n\r\n## Синонимы и антонимы\r\n\r\n庭園 (ていえん) тоже означает сад или парк.\r\n公園 (こうえん) — именно общественный парк, поэтому оно не заменяет любое упоминание 庭 при доме.\r\nСлова различают виды открытых пространств, а не образуют пару противоположностей.\r\n\r\n## Оттенки значения\r\n\r\nВыбор русского «сад», «двор» или «внутренний двор» зависит от устройства места.\r\nНе добавляйте цветы или определённый стиль озеленения только потому, что употреблено 庭.\r\nРазличайте и 家庭 (かてい), «дом; домашнее хозяйство»: это целое сложное слово, а не другое название двора.\r\n\r\nСловарь: [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project), запись 1436130, значение 1;\r\nзаписи для сопоставления: 1436140, 1273270, 1192280.\r\n",
+        "navigationOnly": true,
+        "exactSemanticSectionEdits": [],
+        "exactEdits": [
+          {
+            "kanji": "庭",
+            "section": "Как сочетаются кандзи",
+            "linkLabel": "庭",
+            "beforeLine": "Исконно японское существительное にわ записывается одним кандзи 庭.\r",
+            "afterLine": "Исконно японское существительное にわ записывается одним кандзи [庭](../kanji/庭.md).\r",
+            "exactCharacterOffsetWithinLine": 62,
+            "exactOnlyWrapperChange": "Wrap existing standalone glyph only, including inline prose.",
+            "existingMarkdownSpansProtected": true
+          }
+        ],
+        "wholeWordLabelIntentionallyNotSplit": false,
+        "visibleProseJapaneseMetadataQuizArraysAndOldLinksUnchanged": true
+      }
+    ],
+    "sourceDirectedMetadataCorrectionsProposed": [],
+    "originalSourceDirectionsRetained": 6,
+    "exactIndividualCitationIdFormReadingChecks": [
+      {
+        "lesson": "座",
+        "entryId": "1291800",
+        "exactForm": "座る",
+        "exactReading": "すわる",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "座",
+        "entryId": "1291880",
+        "exactForm": "座席",
+        "exactReading": "ざせき",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "座",
+        "entryId": "1157070",
+        "exactForm": "椅子",
+        "exactReading": "いす",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "座",
+        "entryId": "1597040",
+        "exactForm": "立つ",
+        "exactReading": "たつ",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "座",
+        "entryId": "1291770",
+        "exactForm": "座",
+        "exactReading": "ざ",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "庭",
+        "entryId": "1436130",
+        "exactForm": "庭",
+        "exactReading": "にわ",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "庭",
+        "entryId": "1192280",
+        "exactForm": "家庭",
+        "exactReading": "かてい",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "庭",
+        "entryId": "1436140",
+        "exactForm": "庭園",
+        "exactReading": "ていえん",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      },
+      {
+        "lesson": "庭",
+        "entryId": "1273270",
+        "exactForm": "公園",
+        "exactReading": "こうえん",
+        "wholeBoundObjectIdentityMechanicallyVerified": true,
+        "captureNotNewSemanticReading": true
+      }
+    ],
+    "actualCitationChecks": 9,
+    "citationCheckBoundary": "MechanicalexactwholeobjectID/form/readingidentity,NOTnewhumanreading/semanticapproval/frequency/registerproof.",
+    "sourcePreparationCompleteArtifact": "ru-109-author-preparation-reading-complete-001.json",
+    "sourcePreparationCompleteRawSha256": "9134b516c0e9d7cfc60faf8ce0075fc1bfa62456f8805fa6a2d19c48f2e392de",
+    "exactEvidenceBindingRawSha256": "f90c1ee7fffc83becc5ffd3c80c62c14a24ed0089bde4e339a2eeecac9bdbf34",
+    "explicitPremutationNavigationAmendment": null,
+    "plannedStandaloneGlyphWrappers": 3,
+    "plannedWholeWordLabelWrappers": 0,
+    "allJapaneseExamplesAndInvariantsPreserved": true,
+    "reviewerDisposition": "PENDING;NOmandatoryCLEANorfabricatednegativeapproval.",
+    "ordinaryActiveNegativeSafety": "UNVERIFIEDforall6historicaldirections;actualwhole座sit/seat/cushion/gathering/position/constellation-theatresuffix,庭garden/yard/courtyard/home/court-palace/field-of-action sensesrequireboundedconsideration;prospectivemetadataidentityisNOTnegativeclearance.",
+    "prior108All12OrdinarySafetyUnverifiedUnchanged": true,
+    "prior107All6OrdinarySafetyUnverifiedUnchanged": true,
+    "prior106All9OrdinarySafetyUnverifiedUnchanged": true,
+    "prior105All12OrdinarySafetyUnverifiedUnchanged": true,
+    "prior104All12OrdinarySafetyUnverifiedUnchanged": true,
+    "prior103All12OrdinarySafetyUnverifiedUnchangedExceptReviewedN010RejectFixed": true,
+    "prior102All12OrdinarySafetyUnverifiedUnchanged": true,
+    "prior101All12OrdinarySafetyUnverifiedUnchanged": true,
+    "prior100All12OrdinarySafetyUnverifiedUnchanged": true,
+    "prior099All12OrdinarySafetyUnverifiedUnchanged": true,
+    "prior097All9OrdinarySafetyUnverifiedUnchanged": true,
+    "prior096All12OrdinarySafetyAndMeaningOnlyN008UnverifiedUnchanged": true,
+    "protectedSkyBoundary": {
+      "path": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+      "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+      "status": "excluded C2UNVERIFIED;notmedia",
+      "runtimeWordRemainsAbsent": true,
+      "priorKanjiSkyBoundary": "Accepted077kanji空doesNOTresolveprotectedwordcaptionblocker/ordinaryquiz/media/defaultactivation."
+    },
+    "learnerMutationOccurred": false,
+    "independentReviewOccurred": false,
+    "runtimeAcceptance": false,
+    "fullTaskComplete": false,
+    "continueRequired": true
+  },
+  "prospectiveTypedPoolArtifact": "ru-109-prospective-typed-kanji-pool-001.json",
+  "exactAuthorRulingsArtifact": "ru-109-author-source-adjudications-001.json",
+  "exactAuthorRulingsRawSha256": "706bf0a0be948203d811c490d5ff522f9730da883a7e6f9e6209cf890b24e7f6",
+  "completeOfficialTextCounts": {
+    "KANJIDIC": 9,
+    "Unicode": 1,
+    "JMdict": 17,
+    "KanjiPedia": 2
+  },
+  "completeAdditionalOfficialProviderHeader": 1,
+  "actualDictionaryGlyphPixelViews": 0,
+  "wholeBilingualContextPaths": [
+    "kanji/広.md",
+    "kanji/店.md",
+    "kanji/度.md",
+    "words/公園.md",
+    "words/家庭.md",
+    "words/座る.md",
+    "words/庭.md",
+    "words/立つ.md"
+  ],
+  "wholeEnglishOnlyComparisons": [],
+  "exactEvidenceBindingRawSha256": "f90c1ee7fffc83becc5ffd3c80c62c14a24ed0089bde4e339a2eeecac9bdbf34",
+  "boundAuthorHelpers": {
+    "ru109.py": "e0838d64ff92226877ca03c83a26de12ae28213be81e6670626f135b45933ef8",
+    "ru109prepare.py": "e8f71faf448a83effdf4e9e16e320220b79f85f5edc97df0f3c7aa6cedb06267",
+    "ru109kanjipedia.py": "002a10b5909612e0e7720f9ba780cfc066dbbe9bba2d1dead9fa49acf6bdda81",
+    "ru109lessons.py": "ba87ab6d044dd4f08232496eea3d93ddce7d481841499c2267d1958995bdf7ab",
+    "ru109draft.py": "b10c14bf5f2b83cccc614652f3db984adcc73a0255ba561778c9044b7b7491c8",
+    "ru109readreceipts.py": "343c919518cb9c1fd9f2d4f49fa5b923c8f8b397d5f7a23bc86f9725732a4226",
+    "ru109freeze.py": "c88d5f34d3227e7f4fe008a4547a6be2a85839caccc67035de90fe15a259716e"
+  },
+  "protectedSkyBoundary": {
+    "path": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+    "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+    "status": "excluded C2UNVERIFIED;notmedia",
+    "runtimeWordRemainsAbsent": true,
+    "priorKanjiSkyBoundary": "Accepted077kanji空doesNOTresolveprotectedwordcaptionblocker/ordinaryquiz/media/defaultactivation."
+  },
+  "acceptedMainRuntimeObjectsRemain": 2258,
+  "prospectiveRuntimeObjects": 2262,
+  "learnerMutationOccurred": false,
+  "independentReviewOccurred": false,
+  "sourceAccepted": false,
+  "ordinaryActivationAuthorized": false,
+  "checkpointAuthority": null
+}
