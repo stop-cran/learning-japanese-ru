@@ -1,6 +1,60 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch118 forget, busy, wish, fear and nature kanji
+## Current qualified source milestone: batch119 fear, emotion and feeling kanji
+
+Batch119 adds **three complete Russian frozen N3 lessons, 恐/情/感, 194 file lines**, and three
+RAW-identical Japanese KanjiVG assets. No existing word body changes (zero navigation wrappers, no
+navigation amendment). Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The [actual whole independent review](translation-batches/119-fear-emotion-and-feeling-kanji-independent-review-001.json) (one reviewer) of
+original candidate `2211457052dd721178b9b70a2e0f9cbe8833908e` read **32 whole teaching bodies, 17 EN/15
+CURRENT RU** (three primary pairs, 11 context pairs 工/心/必/忘/忙/念/怖/思/性/息/青, the linked-only
+existing pair words/怖い, and two EN-only comparison bodies words/恐れる and 感情), **72 whole official
+TEXT units** (15 KANJIDIC2, one radical-evidence unit, 53 JMdict, three KanjiPedia) plus one provider
+header, all 419 CURRENT typed rows, nine original directions, three L/three A rulings, three outside
+LIMITS, four guidance files and three RU rubrics — **53 complete windows**, 56 successful commands,
+zero failures, identical opening/closing gates, zero glyph pixels and zero web pages. The original
+**8605-byte stdout report**, SHA256 `18f15b9586eba1f56d9f4c45b426acc7750d4320a1130a853d08d27f9c845bfc`, byte-identical to the
+reviewer's native final, is published verbatim. Actual verdicts: **C1 NEEDS FIX**, **C2 UNVERIFIED**
+for ordinary active-negative quiz deployment (CLEAN for the bounded dependency and introductory
+comparison scope), **C3 CLEAN** — finding **119-F001** (moderate, C1): the 感 lesson presented the
+sense «заражаться, заболевать» itself as an abbreviation of 感冒, while KanjiPedia meaning ② lists
+染まる。かかる separately from the abbreviation use 「感冒」の略.
+
+A signed [pre-mutation wording freeze](translation-batches/119-fear-emotion-and-feeling-kanji-review-finding-illness-sense-amendment-freeze-001.json)
+(`9387855ce81ff58d18adce37f712ee46906acd50`) authorised replacing exactly that line with a separated sense (感染) and
+abbreviation (感冒 «простуда», e.g. 流感) statement, with an author-record erratum; the
+[corrected candidate](translation-batches/119-fear-emotion-and-feeling-kanji-corrected-candidate-001.json) `edb0e3227123a0a39d9d4e778ce016ec7f34c2b1` changes only
+kanji/感.md (typed metadata identical for all 419 rows). One later
+[focused review](translation-batches/119-fear-emotion-and-feeling-kanji-independent-review-focused-001.json) (one different reviewer, never concurrent;
+21 windows, 24 commands, zero failures; 2234-byte report) found **119-F001 RESOLVED**, bounded
+C1/C2/C3 CLEAN, the erratum accurate, and no new findings. It is not a second whole review; the original
+verdicts stay immutable and the batch is not retrospectively whole-CLEAN. The reviewer's optional notes
+(an alternative 恐 title, an explicit 情/感 overlap note, readings for illustration compounds) are
+explicitly not defects, recorded and not applied.
+
+All nine directions are **S-intro** (introductory/source-core only, canonical author mapping Q); N004
+情→青 and N005 情→性 are **REJECTED as セイ reading-negatives** (shape comparison only); all nine
+ordinary uses stay **U** (metadata retention is not guard approval). L001 恐 and L002 情 are
+supported; L003 感 was partial (now resolved by F001); all three A rulings are SUPPORTED. Outside
+LIMITS (恐 vs 怖/忙/強/心; 情 vs 感/愛/事/思/心; 感 vs 情/想/思/心 and the partial 成 contact) are
+observations, not new guards and not cleared for future options.
+
+The [qualified source record](translation-batches/119-fear-emotion-and-feeling-kanji-reviewed-source.json) preserves 2340 baseline runtime
+RAWs/tracking rows and all 1478 word metadata/quiz arrays. Qualified source checkpoint:
+**2346 runtime/1478 words/419 kanji/419 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled
+unchanged; kanji 80 N5/166 N4/**171 N3**/2 N2; **196 N3 remain**. Strict progress: **2346
+reviewed-current/two excluded reviewed blocked-media drafts/5930 pending of 8278; 5932 runtime
+paths absent**. Version `661906a3eef21dda`; checkpoint authority null/Ready false. Prior
+082–118 U qualifications remain unchanged; the existing unlinked 恐 mention in RU 怖.md, the unlinked
+青白い in RU 青.md, the RU 耳.md unlinked 恥 mention, the RU 愛 metadata kun かな.しい, the RU 強
+metadata kun こわ.い, the existing unlinked 完 mention in RU 院.md, the RU 留守 wording, the existing
+RU 怒る «официальный или литературный» wording for いかる and the RU 少.md distractor 名 (frozen EN 小)
+are outside this batch and remain open observations. Protected 033 WORD空 stays
+excluded/runtime-absent/not media. No device/media/default/package/release authority. Continue 120+
+and **ALL remaining safe frozen levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch118 forget, busy, wish, fear and nature kanji
 
 Batch118 adds **five complete Russian frozen N3 lessons, 忘/忙/念/怖/性, 306 file lines**,
 and five RAW-identical Japanese KanjiVG assets. Eight whole current word bodies receive one
