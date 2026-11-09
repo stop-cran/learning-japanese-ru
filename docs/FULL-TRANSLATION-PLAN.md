@@ -1,6 +1,46 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch122 hope, not-yet, end, bundle and cupful kanji
+## Current qualified source milestone: batch123 horizontal, build, manner, authority and mechanism kanji
+
+Batch123 adds **five complete Russian frozen N3 lessons, 横/構/様/権/機, 325 file lines**, and five
+RAW-identical Japanese KanjiVG assets. Four existing word bodies receive one NAV-only standalone-glyph
+wrapper each (横, 機会, 結構, 飛行機), planned in the signed intake; no navigation amendment. Frozen EN
+remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+Candidate `088cb5d7f1f56340ed64deb84815eaa238c22910` received **one completed whole independent review**.
+It read 43 whole teaching bodies (23 EN/20 CURRENT RU: five primary pairs, 10 context pairs, five
+linked-only pairs, plus EN-only comparisons 構成, 様子, 権利), 72 whole official TEXT units plus one
+header, all 439 typed rows, 15 proposals, five L/five A rulings, five outside LIMITS and all four
+navigation diffs in 57 complete windows with identical opening/closing gates and zero reader failures
+(one oversize report delivery attempt failed before printing anything and is not credited).
+
+- [Review A](translation-batches/123-horizontal-build-manner-authority-and-mechanism-kanji-independent-review-001.json) (10777-byte report, SHA256
+  `d8acd8adb3891b0d211276abdd69161756790534934fae46d58c4cdd34e2235b`): **C1 CLEAN, C2 UNVERIFIED** (unrestricted active-negative/fallback
+  safety; dependencies and navigation CLEAN), **C3 CLEAN**; no confirmed findings. Optional polish
+  (a shorter shared explanation of 形声 in 横/様/権) is recorded, not applied.
+
+All 15 directions are qualified introductory/source-core comparisons only (S-intro; canonical author
+mapping Q). Five shared-reading directions are **rejected as reading negatives** and retained only as
+introductory shape comparisons: 横→校 and 構→横 (KanjiPedia [外] コウ of 横), 構→校 (コウ), 様→洋 (ヨウ)
+and 機→杯 (archaic 杯 はた). All 15 ordinary uses stay **U** (metadata retention is not guard approval).
+All five L rulings and all five A clarifications are SUPPORTED. Outside LIMITS (書/断/広; 工/成/考;
+容/用/曜/子; 力/利/人/件/建/験; 幾/会/行/期/気) are observations, not new guards. 横書き, 横断, 構成, 構造,
+構える, 構う, 構え, 様子, 模様, 権利, 権力, 人権 and 機械 stay plain text (no runtime word). Known author
+erratum: the signed candidate commit message says 2386 accepted-main objects remain; the correct value is
+2376 (as in the candidate JSON); the message is not rewritten.
+
+The [qualified source record](translation-batches/123-horizontal-build-manner-authority-and-mechanism-kanji-reviewed-source.json) preserves 2372 baseline runtime RAWs/tracking rows
+and all 1478 word metadata/quiz arrays. Qualified source checkpoint: **2386 runtime/1478 words/439
+kanji/439 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled unchanged; kanji 80 N5/166 N4/**191
+N3**/2 N2; **176 N3 remain**. Strict progress: **2386 reviewed-current/two excluded reviewed
+blocked-media drafts/5890 pending of 8278**. Checkpoint authority null/Ready false. Prior 082–122 U
+qualifications remain unchanged; the earlier open observations (RU 昨日 without a 昔 link, RU 時
+distractors differing from EN, RU 高 distractor 本, RU 怖/青/耳/愛/強/院/留守/怒る/少) are outside this batch
+and remain open. Protected 033 WORD空 stays excluded/runtime-absent/not media. No
+device/media/default/package/release authority. Continue 124+ and **ALL remaining safe frozen
+levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch122 hope, not-yet, end, bundle and cupful kanji
 
 Batch122 adds **five complete Russian frozen N3 lessons, 望/未/末/束/杯, 325 file lines**, and five
 RAW-identical Japanese KanjiVG assets. Two existing word bodies receive one NAV-only standalone-glyph
