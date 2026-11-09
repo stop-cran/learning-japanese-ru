@@ -11,7 +11,53 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current qualified source milestone: batch116
+## Current qualified source milestone: batch117
+
+Batch117 adds **four complete Russian frozen N3 lessons, 息/恥/想/悲, 255 file lines**,
+and four RAW-identical Japanese KanjiVG assets. Three whole current word bodies receive one
+**NAV-only standalone-glyph wrapper** each (恥ずかしい→恥; 息子→息; 悲しい→悲), planned in the signed
+intake; no whole-label wrapper and no navigation amendment. All visible prose, Japanese metadata,
+quiz arrays, old links, LF line endings and frozen levels of those words remain unchanged. Frozen
+EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The [actual whole independent review](translation-batches/117-breath-shame-thought-and-sorrow-kanji-independent-review-001.json) (one reviewer) of
+candidate `26cf950d982dcd6c4a3cad7a95c6de8c43992641` read **42 whole teaching bodies, 23 EN/19
+CURRENT RU** (four primary pairs, 11 context pairs including the three NAV words, four linked-only
+existing pairs 子/娘/子供/残念, and four EN-only comparison bodies 相/非/予想/息), **72 whole
+official TEXT units** (17 KANJIDIC2, one radical-evidence unit, 50 JMdict, four KanjiPedia) plus
+one provider header, all 411 CURRENT typed rows, 12 original directions, four L/four A rulings,
+four outside LIMITS, three exact NAV diffs, four guidance files and three RU rubrics — **55
+complete windows**, 58 successful commands plus one failed stdout delivery (terminal-LF assertion,
+no report printed, not credited), zero reader failures, identical opening/closing gates, zero glyph
+pixels and zero web pages. The original **5629-byte stdout report**, SHA256
+`b43b6e7c40bdda175189d15a00ef9e5b8ee1a0f85b0eb6d548beaa531c7e246a` (the reviewer's native final plus one terminal LF), is published verbatim.
+Actual verdicts: **C1 CLEAN**, **C2 CLEAN** (three NAV-only wrappers and links verified), **C3
+CLEAN**; findings none; the optional note says no correction is warranted for omitting the
+literary 息 そく «сын» sense.
+
+All 12 directions are **S-intro** (introductory/source-core only, canonical author mapping Q); the
+reviewer additionally found each bounded-safe as a negative against the current directed Russian
+titles only (N012 悲→怒: related emotions, but «печаль» and «гнев; сердиться» are not
+interchangeable answers). All 12 ordinary all-mode uses stay **U** (metadata retention is not guard
+approval). All four L and four A rulings are SUPPORTED; all three NAV changes are NAV-ONLY; outside
+LIMITS (息 vs 休 and breathing kanji 吸/呼/吹; 恥 vs 取 and チ homophones; 想 vs 思/考/意 and ソウ
+homophones; 悲 vs 喜/愛/悪 and ヒ homophones) are observations, not new guards and not cleared for
+future options.
+
+The [qualified source record](translation-batches/117-breath-shame-thought-and-sorrow-kanji-reviewed-source.json) preserves 2319 other baseline
+runtime RAWs/tracking rows and all 1478 word metadata/quiz arrays. Qualified source checkpoint:
+**2330 runtime/1478 words/411 kanji/411 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled
+unchanged; kanji 80 N5/166 N4/**163 N3**/2 N2; **204 N3 remain**. Strict progress: **2330
+reviewed-current/two excluded reviewed blocked-media drafts/5946 pending of 8278; 5948 runtime
+paths absent**. Version `61339f58dd6b72be`; checkpoint authority null/Ready false. Prior 082–116
+U qualifications remain unchanged; the existing unlinked 恥 mention in RU 耳.md, the RU 愛 metadata
+kun かな.しい, the existing unlinked 完 mention in RU 院.md, the RU 留守 wording, the existing RU 怒る
+«официальный или литературный» wording for いかる and the RU 少.md distractor 名 (frozen EN 小) are
+outside this batch and remain open observations. Protected 033 WORD空 stays
+excluded/runtime-absent/not media. No device/media/default/package/release authority. Continue
+118+ and **ALL remaining safe frozen levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch116
 
 Batch116 adds **four complete Russian frozen N3 lessons, 必/怒/愛/慣, 279 file lines**,
 and four RAW-identical Japanese KanjiVG assets. Five whole current word bodies receive one

@@ -1,0 +1,488 @@
+{
+  "schemaVersion": 1,
+  "batchId": "117-breath-shame-thought-and-sorrow-kanji",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "reviewedCandidate": "26cf950d982dcd6c4a3cad7a95c6de8c43992641",
+  "baselineCommit": "9eefaf5e9665bf33d9c6c7d62f98243d07ce2971",
+  "premutationFreeze": "6b01e0e58a6ac61954aacf2a6542ccac926125a1",
+  "preMutationNavigationAmendment": null,
+  "threeStandaloneGlyphWrappersPlannedInSignedIntake": true,
+  "actualWholeReview": "docs/translation-batches/117-breath-shame-thought-and-sorrow-kanji-independent-review-001.json",
+  "actualWholeIndependentReviews": 1,
+  "actualOriginalReportBytes": 5629,
+  "actualOriginalReportSha256": "b43b6e7c40bdda175189d15a00ef9e5b8ee1a0f85b0eb6d548beaa531c7e246a",
+  "publicReportIsOriginalActualPayload": true,
+  "publicReportIsPathOnlyProjection": false,
+  "exactPublicWholeReviewRawSha256": "e5600841e6281ccea10cbde8efcfd24c9276de077fae29ad85c4eb3832819693",
+  "exactPrivateExtractionArtifact": "ru-117-review-extracted-return-001.json",
+  "exactPrivateExtractionRawSha256": "358b845b95ca7cf48a5645b59b8c33f30714fbd287cd5149a3be5c41f92d0469",
+  "actualWholeScope": {
+    "reviewerAgentId": "a7c9826f-315b-45c2-888f-ee3098fc46bc",
+    "actualSuccessfulReaderToolReturnCount": 55,
+    "actualSuccessfulReaderWindowCount": 55,
+    "actualSuccessfulReaderModeWindowCounts": {
+      "guidance": 14,
+      "rubrics": 3,
+      "primary": 2,
+      "pairs": 6,
+      "linked": 2,
+      "comparisons": 1,
+      "metadata": 4,
+      "header": 1,
+      "objects": 2,
+      "radicals": 1,
+      "kanjipedia": 1,
+      "pool": 12,
+      "overlaps": 1,
+      "proposals": 2,
+      "adjudications": 1,
+      "clarifications": 1,
+      "navigation": 1
+    },
+    "actualPowershellCommandExecutions": 59,
+    "actualSuccessfulTerminalPowershellCommands": 58,
+    "actualHelperPythonInvocations": 57,
+    "actualStdoutOnlyReportEmissionCommands": [
+      {
+        "eventId": "621cb125-8312-4965-9e05-0a0886cd552b",
+        "commandStartEventId": "5ad0ed2f-0699-4697-b63b-d5544209e140",
+        "commandUtf8Sha256": "facb063fa16916770b70088acc3d3a05838593870600f7b8c7537d61afa47698",
+        "actualSuccessfulReturn": false,
+        "actualFailureCause": "terminal-LF assertion (literal lacked final LF; size within 11000); reviewer added LF and retried",
+        "actualPublicContent": "Traceback (most recent call last):\n  File \"<stdin>\", line 36, in <module>\nAssertionError\n<shellId: 5562 completed with exit code 1>",
+        "scriptUtf8Sha256": "74ba4e374a875b1b5f8521a24813f25622315825a06ed0a7c7384ac78b1fbb1b",
+        "auditedStdoutOnlyPythonCalls": [
+          "len",
+          "report.encode",
+          "report.endswith",
+          "sys.stdout.reconfigure",
+          "sys.stdout.write"
+        ],
+        "actualLiteralUtf8Bytes": 5628,
+        "actualLiteralUtf8Sha256": "e8ced83ae4ab7519ba28f204bbf89d7750e1c6e88fea540ce8d01ad91de21940"
+      },
+      {
+        "eventId": "2a68376e-7594-4ce9-b444-51cac68ca157",
+        "commandStartEventId": "2cad497c-7182-4620-9b04-690a496c924d",
+        "commandUtf8Sha256": "9d9a3f05bad9fb393064f5c9371ff5fc278c603391e92ca74e27cd6d748aa3b5",
+        "actualSuccessfulReturn": true,
+        "scriptUtf8Sha256": "de51eb50f0318db5ae77c8d6c6712550304cf7f36643942bb752b335d31ee9ba",
+        "auditedStdoutOnlyPythonCalls": [
+          "len",
+          "report.encode",
+          "report.endswith",
+          "sys.stdout.reconfigure",
+          "sys.stdout.write"
+        ],
+        "actualLiteralUtf8Bytes": 5629,
+        "actualLiteralUtf8Sha256": "b43b6e7c40bdda175189d15a00ef9e5b8ee1a0f85b0eb6d548beaa531c7e246a"
+      }
+    ],
+    "actualFailedReportDeliveryCommands": [
+      {
+        "eventId": "621cb125-8312-4965-9e05-0a0886cd552b",
+        "commandStartEventId": "5ad0ed2f-0699-4697-b63b-d5544209e140",
+        "commandUtf8Sha256": "facb063fa16916770b70088acc3d3a05838593870600f7b8c7537d61afa47698",
+        "actualSuccessfulReturn": false,
+        "actualFailureCause": "terminal-LF assertion (literal lacked final LF; size within 11000); reviewer added LF and retried",
+        "actualPublicContent": "Traceback (most recent call last):\n  File \"<stdin>\", line 36, in <module>\nAssertionError\n<shellId: 5562 completed with exit code 1>",
+        "scriptUtf8Sha256": "74ba4e374a875b1b5f8521a24813f25622315825a06ed0a7c7384ac78b1fbb1b",
+        "auditedStdoutOnlyPythonCalls": [
+          "len",
+          "report.encode",
+          "report.endswith",
+          "sys.stdout.reconfigure",
+          "sys.stdout.write"
+        ],
+        "actualLiteralUtf8Bytes": 5628,
+        "actualLiteralUtf8Sha256": "e8ced83ae4ab7519ba28f204bbf89d7750e1c6e88fea540ce8d01ad91de21940"
+      }
+    ],
+    "actualReportSizeAssertionFailures": 0,
+    "actualReportTerminalLfAssertionFailures": 1,
+    "actualSuccessfulStdoutReportEmissions": 1,
+    "actualToolReturnCount": 59,
+    "actualFailedCommands": 1,
+    "actualFailedReaderOrHelperCommands": 0,
+    "actualTruncatedToolReturnCount": 0,
+    "actualNonterminalToolReturnsNotCredited": 0,
+    "actualWebFetchPages": 0,
+    "actualUnchangedSnapshotGateEventIds": [
+      "84fb7640-fbe4-44bc-b0f5-0375df6e67b7",
+      "d7e5cda3-bb98-41cb-8a96-4166521d9f67"
+    ],
+    "actualInitialFinalGatePayloadByteIdentity": true,
+    "actualWholeTeachingBodies": 42,
+    "actualWholeRussianBodies": 19,
+    "actualWholeEnglishBodies": 23,
+    "actualWholeEnglishOnlyComparisonBodies": 4,
+    "actualWholeLinkedOnlyExistingPairs": 4,
+    "actualWholeOfficialSourceTextUnits": 72,
+    "actualAdditionalWholeProviderHeaders": 1,
+    "actualSuccessfulDictionaryImageViews": [],
+    "actualCurrentTypedKanjiMetadataRows": 411,
+    "actualWholeOriginalDirectionProposals": 12,
+    "retainedCurrentMetadataDirections": 12,
+    "actualWholeSourceAdjudications": 4,
+    "actualAdditionalDictionaryClarificationUnits": 4,
+    "actualExactWordPatchDiffs": 3,
+    "navigationOnlyWordPatches": 3,
+    "standaloneGlyphWrappers": 3,
+    "wholeWordLabelWrappers": 0,
+    "actualOutsideEdgeObservationUnits": 4,
+    "actualWholePreMutationNavigationAmendments": 0,
+    "preMutationNavigationAmendmentRequired": false,
+    "actualOptionalLinkedLessonReads": [],
+    "actualWebFetchPagesNote": "Reviewer reported no web pages consulted; KanjiPedia evidence read only via bound helper window kanjipedia 0 4 (reviewer: No public dictionary web pages fetched).",
+    "actualCorrectRURootRubrics": 3,
+    "allRequiredReadingComplete": true,
+    "boundary": "ENTIREactualpayloadcomparison/completelineunions,notmarkersalone;consoleCRLFnormalizationONLY.55completeassignedwindows(38read+17lines)+2identicalgates+1successfulstdoutemission=58successfulterminalcommands;+1failedstdoutdelivery(terminal-LFassert,exit1,noreportprinted,notcredited);0reader/helperfailures/truncations/waits/webpages."
+  },
+  "actualImmutableFacets": {
+    "C1": "CLEANwithinboundedfournewlessons/officialevidence",
+    "C2": "CLEANwithinbounded3nav-onlyglyphwrappers/links/12directionsINTRODUCTORY+boundedcurrent-title-negativeONLY;ordinaryall-modeactive-negative/fallbacksafetyNOTapproved=UNVERIFIED",
+    "C3": "CLEANwithinboundedreview;NOTnativecertification"
+  },
+  "actualVerbatimFacets": {
+    "C1": "C1 CLEAN: Readings, strokes (息10, 恥10, 想13, 悲12), 心/61 key, selected compounds and examples agree with frozen source and official records. Attributed KanjiPedia component/origin accounts and modern mnemonics are correctly distinguished. No confirmed Japanese-fact defect.",
+    "C2": "C2 CLEAN: New lesson links resolve to existing pages; absent Russian word articles remain plain text. All three navigation changes are only standalone glyph wrappers with correct relative targets. Independently checked each directed quiz pair against current titles and sourced senses below; no target sense matches the foil title. No reverse/transitive inference.",
+    "C3": "C3 CLEAN: Four lessons and navigation contexts are comprehensible Russian; Japanese forms remain clear. No confirmed correctable language defect."
+  },
+  "actualFindings": [],
+  "actualVerbatimFindings": "Findings: none",
+  "actualVerbatimOptional": "Optional: No correction warranted for omitting 息 そく «сын»: JMdict marks it formal/literary, while the lesson correctly explains 息子 as むすこ and preserves ソク metadata.",
+  "optionalPolishWriterDisposition": "NO_CHANGE_REVIEWER_NOTE_NO_CORRECTION_WARRANTED",
+  "unresolvedConsequentialAssignedTextDefects": [],
+  "exactOriginalIndependentSourceDirectionDispositions": [
+    {
+      "proposalId": "117-N001",
+      "direction": [
+        "息",
+        "自"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualIndependentBoundedMeaningNegative": "SUPPORTED_BOUNDED_AGAINST_CURRENT_TITLES",
+      "actualVerbatimDirectionDisposition": "N001息→自 S-intro + S-negative: 息’s top 自 is an explicit shape comparison; breath/rest/son senses do not mean self (typed 自: «сам; себя»).",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;reviewer'S-negative'=boundedmeaning-negativeagainstactualCURRENTdirectedRUtitlesONLY,notall-mode/all-sense;ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "117-N002",
+      "direction": [
+        "息",
+        "思"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualIndependentBoundedMeaningNegative": "SUPPORTED_BOUNDED_AGAINST_CURRENT_TITLES",
+      "actualVerbatimDirectionDisposition": "N002息→思 S-intro + S-negative: Shared 心 and contrasting 自/田 are accurately taught; 息’s sourced senses do not mean «думать; чувствовать».",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;reviewer'S-negative'=boundedmeaning-negativeagainstactualCURRENTdirectedRUtitlesONLY,notall-mode/all-sense;ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "117-N003",
+      "direction": [
+        "息",
+        "怒"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualIndependentBoundedMeaningNegative": "SUPPORTED_BOUNDED_AGAINST_CURRENT_TITLES",
+      "actualVerbatimDirectionDisposition": "N003息→怒 S-intro + S-negative: Shared 心, different upper forms are accurately distinguished; breath/rest/son does not match «гнев; сердиться».",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;reviewer'S-negative'=boundedmeaning-negativeagainstactualCURRENTdirectedRUtitlesONLY,notall-mode/all-sense;ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "117-N004",
+      "direction": [
+        "恥",
+        "聞"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualIndependentBoundedMeaningNegative": "SUPPORTED_BOUNDED_AGAINST_CURRENT_TITLES",
+      "actualVerbatimDirectionDisposition": "N004恥→聞 S-intro + S-negative: Shared 耳 is explicit and contrasted with 心; shame does not match «слышать; спрашивать».",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;reviewer'S-negative'=boundedmeaning-negativeagainstactualCURRENTdirectedRUtitlesONLY,notall-mode/all-sense;ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "117-N005",
+      "direction": [
+        "恥",
+        "耳"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualIndependentBoundedMeaningNegative": "SUPPORTED_BOUNDED_AGAINST_CURRENT_TITLES",
+      "actualVerbatimDirectionDisposition": "N005恥→耳 S-intro + S-negative: Ear is accurately labelled as the sound element, not 恥’s meaning; shame does not match «ухо».",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;reviewer'S-negative'=boundedmeaning-negativeagainstactualCURRENTdirectedRUtitlesONLY,notall-mode/all-sense;ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "117-N006",
+      "direction": [
+        "恥",
+        "息"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualIndependentBoundedMeaningNegative": "SUPPORTED_BOUNDED_AGAINST_CURRENT_TITLES",
+      "actualVerbatimDirectionDisposition": "N006恥→息 S-intro + S-negative: Lesson accurately marks only partial shared outlines; shame does not match «дыхание».",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;reviewer'S-negative'=boundedmeaning-negativeagainstactualCURRENTdirectedRUtitlesONLY,notall-mode/all-sense;ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "117-N007",
+      "direction": [
+        "想",
+        "親"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualIndependentBoundedMeaningNegative": "SUPPORTED_BOUNDED_AGAINST_CURRENT_TITLES",
+      "actualVerbatimDirectionDisposition": "N007想→親 S-intro + S-negative: Partial 木/目-like outline comparison is qualified; thought/conception does not match «родитель; близкий».",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;reviewer'S-negative'=boundedmeaning-negativeagainstactualCURRENTdirectedRUtitlesONLY,notall-mode/all-sense;ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "117-N008",
+      "direction": [
+        "想",
+        "集"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualIndependentBoundedMeaningNegative": "SUPPORTED_BOUNDED_AGAINST_CURRENT_TITLES",
+      "actualVerbatimDirectionDisposition": "N008想→集 S-intro + S-negative: 木-at-base/top-side visual comparison is accurate; thought/conception does not match «собирать; собираться».",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;reviewer'S-negative'=boundedmeaning-negativeagainstactualCURRENTdirectedRUtitlesONLY,notall-mode/all-sense;ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "117-N009",
+      "direction": [
+        "想",
+        "息"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualIndependentBoundedMeaningNegative": "SUPPORTED_BOUNDED_AGAINST_CURRENT_TITLES",
+      "actualVerbatimDirectionDisposition": "N009想→息 S-intro + S-negative: Shared 心 and different 自/相 tops are explicit; thought/conception does not match «дыхание».",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;reviewer'S-negative'=boundedmeaning-negativeagainstactualCURRENTdirectedRUtitlesONLY,notall-mode/all-sense;ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "117-N010",
+      "direction": [
+        "悲",
+        "想"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualIndependentBoundedMeaningNegative": "SUPPORTED_BOUNDED_AGAINST_CURRENT_TITLES",
+      "actualVerbatimDirectionDisposition": "N010悲→想 S-intro + S-negative: Shared 心 and distinct 非/相 tops are explicit; grief/compassion does not match «мысль; замысел».",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;reviewer'S-negative'=boundedmeaning-negativeagainstactualCURRENTdirectedRUtitlesONLY,notall-mode/all-sense;ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "117-N011",
+      "direction": [
+        "悲",
+        "息"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualIndependentBoundedMeaningNegative": "SUPPORTED_BOUNDED_AGAINST_CURRENT_TITLES",
+      "actualVerbatimDirectionDisposition": "N011悲→息 S-intro + S-negative: Shared 心 and different 非/自 tops are explicit; sadness/grief does not match «дыхание».",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;reviewer'S-negative'=boundedmeaning-negativeagainstactualCURRENTdirectedRUtitlesONLY,notall-mode/all-sense;ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "117-N012",
+      "direction": [
+        "悲",
+        "怒"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualIndependentBoundedMeaningNegative": "SUPPORTED_BOUNDED_AGAINST_CURRENT_TITLES",
+      "actualVerbatimDirectionDisposition": "N012悲→怒 S-intro + S-negative: Distinct 非/女+又 tops are explicit; grief/compassion and anger are related emotions but not interchangeable answers («печаль» vs «гнев; сердиться»).",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;reviewer'S-negative'=boundedmeaning-negativeagainstactualCURRENTdirectedRUtitlesONLY,notall-mode/all-sense;ordinaryactive-negative/fallbacksafetyNOTapprovedbyreviewer→U;canonicalQisAUTHORschemamappingNOTreportrewriting.",
+      "retainedInCandidateMetadata": true,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    }
+  ],
+  "explicitCanonicalSourceCoreDispositionMapping": {
+    "S-intro": "Q_QUALIFIED_INTRODUCTORY_ONLY",
+    "U": "U_WITHHELD"
+  },
+  "exactIndependentSourceLessonAdjudications": {
+    "117-L001": {
+      "actualDisposition": "SUPPORTED",
+      "actualVerbatimIndependentDisposition": "L001 息 SUPPORTED: readings/facts, rest compounds, whole-word 息子 reading and distinction of literary そく sense are sound; omission of that rare reading is not misleading.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "117-L002": {
+      "actualDisposition": "SUPPORTED",
+      "actualVerbatimIndependentDisposition": "L002 恥 SUPPORTED: shame/embarrassment, ずかしい spelling, 恥じる/恥じらう and source-supported sound-component account are accurate.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "117-L003": {
+      "actualDisposition": "SUPPORTED",
+      "actualVerbatimIndependentDisposition": "L003 想 SUPPORTED: readings, word meanings/する, ソ [高], おもう [外], and mnemonic/source distinction are supported.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "117-L004": {
+      "actualDisposition": "SUPPORTED",
+      "actualVerbatimIndependentDisposition": "L004 悲 SUPPORTED: readings, い-adjective vs godan verb, 悲劇 and compassion/喜 senses are accurately bounded.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    }
+  },
+  "exactIndependentSourceCorrectionAndClarificationDispositions": {
+    "117-A001": {
+      "actualDisposition": "SOURCE-SUPPORTED",
+      "actualVerbatimIndependentDisposition": "A001 SOURCE-SUPPORTED: 息をする/吸う/吐く, 息子 むすこ as whole word, and 休息する are supported; no frequency claim.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "117-A002": {
+      "actualDisposition": "SOURCE-SUPPORTED",
+      "actualVerbatimIndependentDisposition": "A002 SOURCE-SUPPORTED: 恥ずかしい’s bounded awkwardness gloss, 恥/はじ, okurigana, 恥じる and 恥じらう are supported.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "117-A003": {
+      "actualDisposition": "SOURCE-SUPPORTED",
+      "actualVerbatimIndependentDisposition": "A003 SOURCE-SUPPORTED: 予想/想像 with する, 感想, and qualified 思/想 learning advice are supported.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "117-A004": {
+      "actualDisposition": "SOURCE-SUPPORTED",
+      "actualVerbatimIndependentDisposition": "A004 SOURCE-SUPPORTED: 悲しい adjective, 悲しむ godan verb, and 悲劇 are supported.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    }
+  },
+  "originalSourceDirections": 12,
+  "retainedRuntimeMetadataDirections": 12,
+  "metadataRetentionIsNotGuardApproval": true,
+  "actualQualifiedCoreContrastDirections": 12,
+  "actualReviewerDirectionDispositionCounts": {
+    "S-intro": 12
+  },
+  "actualReviewerOrdinaryDispositionCounts": {
+    "U": 12
+  },
+  "exactWithheldSourceCoreDirections": [],
+  "ordinaryActiveNegativeSafetyApprovedDirections": 0,
+  "ordinaryActiveNegativeSafetyUnverifiedDirections": 12,
+  "reviewerContactNote": "N012悲→怒reviewer:relatedemotionsbutnotinterchangeableanswers;N006恥→息partialoutlinesonly;ordinaryall-moderuntimesafetyU.",
+  "exactIndependentNavigationDispositions": [
+    {
+      "id": "NAV01",
+      "path": "words/恥ずかしい.md",
+      "actualDisposition": "NAV-ONLY",
+      "actualVerbatimIndependentDisposition": "NAV01 words/恥ずかしい.md: NAV-ONLY; wrapper links to ../kanji/恥.md; visible prose/metadata unchanged."
+    },
+    {
+      "id": "NAV02",
+      "path": "words/息子.md",
+      "actualDisposition": "NAV-ONLY",
+      "actualVerbatimIndependentDisposition": "NAV02 words/息子.md: NAV-ONLY; wrapper links to ../kanji/息.md; pre-existing 子 link and whole-word むすこ explanation preserved."
+    },
+    {
+      "id": "NAV03",
+      "path": "words/悲しい.md",
+      "actualDisposition": "NAV-ONLY",
+      "actualVerbatimIndependentDisposition": "NAV03 words/悲しい.md: NAV-ONLY; wrapper links to ../kanji/悲.md; visible prose/metadata unchanged."
+    }
+  ],
+  "exactIndependentOutsideLimitDispositions": "Outside LIMIT dispositions: O001 LIMIT-NOT-NEW-GUARD; rest/breathing/son neighbours flagged, none a direct distractor. O002 LIMIT-NOT-NEW-GUARD; 取/チ contacts flagged, no direct pair. O003 LIMIT-NOT-NEW-GUARD; thought/ソウ neighbours flagged, no direct pair. O004 LIMIT-NOT-NEW-GUARD; emotion/ヒ contacts flagged, no direct pair.",
+  "outsideOverlapConcernsRecordedNotResolved": [
+    "息/休 休息 rest (strong); 吸/呼/吹 breathing (strong); 子 息子 partner",
+    "恥/取 耳 on the left (strong); 知/地/質 チ",
+    "想/思 おも.う + bottom 心 (strong; 想す search-only form of 思す); 考 (strong); 意; 送/早 ソウ",
+    "悲/喜 antonym; 愛 かな.しい metadata + rare 愛しい form (strong); 悪 bottom 心; 否/彼 ヒ"
+  ],
+  "sourceDirectedMetadataCorrections": [],
+  "prior082To116QualificationsNotUpgraded": true,
+  "authorNoticedOutsideScopeNotBatchDefects": [
+    "existing RU kanji/耳.md mentions 恥 without a link (pre-existing)",
+    "RU kanji/愛.md metadata keeps kun かな.しい (pre-existing)"
+  ],
+  "universalSemanticDisjointnessDirections": 0,
+  "inventedReverseOrTransitiveDirections": 0,
+  "secondWholeReview": false,
+  "qualifiedBoundary": "ONE actual whole independent117 review by ONE reviewer;original5629-byte stdout report SHA256 b43b6e7c40bdda175189d15a00ef9e5b8ee1a0f85b0eb6d548beaa531c7e246a EXACT=5628-byte native final+ONE terminal LF,published verbatim;NO projection/second review.55 complete assigned windows(38read+17lines);58 successful terminal commands+1 failed stdout delivery(terminal-LF assert,no report printed,not credited);0 reader failures/truncations/waits/web pages;identical opening/closing gates.42 teaching bodies=23EN/19CURRENT_RU:4primary pairs+11current context pairs(incl.3NAV words)+4linked-only existing pairs(子,娘,子供,残念)+4EN-only comparisons(相,非,予想,息).72 WHOLE official TEXT=17KANJIDIC/1Unicode key row/50JMdict/4visibleKanjiPedia;ONE header additional;ZERO glyph pixels.411 CURRENT typed metadata rows NOT411 whole lessons/1478 fresh word guards.Actual C1 CLEAN/C2 CLEAN(3 NAV-only glyph wrappers and links verified;12 directions introductory/source-core+bounded current-title negative ONLY)/C3 CLEAN.Findings none;Optional note:no correction warranted for omitting literary 息そく«сын»;no change.All12 actual S-intro introductory/source-core ONLY;canonical Q author mapping;ALL12 ordinary U explicitly(C2 CLEAN does NOT upgrade);N012悲→怒 reviewer-noted related-but-not-interchangeable emotions;metadata retention NOT guard approval.4L SUPPORTED/4A SOURCE-SUPPORTED;3NAV NAV-ONLY standalone glyph wrappers(恥ずかしい,息子,悲しい) planned in signed intake;NO amendment.Outside LIMITS record adjacency 息/休(strong)吸呼吹(strong)子;恥/取(strong),知地質チ;想/思(strong)考(strong)意,送早ソウ;悲/喜,愛(strong),悪,否彼ヒ,NOT guards;existing RU耳.md unlinked恥 mention,RU愛 metadata かな.しい,RU院.md unlinked完 mention,RU留守 wording,RU怒る いかる register wording and RU少.md distractor名(EN小) outside batch OPEN/unresolved. Prior082-116 U unchanged;broader ordinary modern necessity-frequency/global uniqueness UNVERIFIED. 2330reviewed-current/2excluded reviewed blocked-media/5946pending of8278;1478words/411kanji/411strokes;163N3 kanji 204 remaining;2319 other baseline RAWs/tracking unchanged.Checkpoint null/Ready false;protected033WORD空 excluded/not media. NO device/media/default/package/release/ordinary activation/full finite completion authority. Continue118+ALL remaining safe frozen families.",
+  "baselineUnchangedRuntimeRaws": 2319,
+  "writerAgentId": "775d2404-124d-4d7e-9060-8bb6a6192303",
+  "authorAgentId": "775d2404-124d-4d7e-9060-8bb6a6192303",
+  "protectedSkyBoundary": {
+    "path": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+    "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+    "status": "excluded C2UNVERIFIED;notmedia",
+    "runtimeWordRemainsAbsent": true,
+    "priorKanjiSkyBoundary": "Accepted077kanji空doesNOTresolveprotectedwordcaptionblocker/ordinaryquiz/media/defaultactivation."
+  },
+  "checkpointAuthority": null,
+  "ordinaryActivationAuthorized": false,
+  "fullTaskComplete": false,
+  "continueRequired": true,
+  "reviewShape": "WriterqualifiedaggregationofONEactualwhole001/ONEsuccessfuldelivery;NOTnewreport/secondwhole/ordinaryquizapproval."
+}
