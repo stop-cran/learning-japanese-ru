@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "batch": "109-seat-and-garden-kanji",
+  "recordedAt": "2026-11-09T02:42:38.181869+00:00",
+  "originalCandidateCommit": "a38f1c4c531ae9f73757091f6e143dc778ba851e",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineSnapshot": "114ecdae2bb5a4081eee0258f4c5d48cf89a3458",
+  "originalActualReportSha256": "af92edca08ef2493236ef04a468fd9c87a1e430271932cf782dd9f699f7a670d",
+  "actualWholeIndependentReviews": 1,
+  "actualSuccessfulStdoutReportDeliveries": 1,
+  "actualFailedReportDeliveries": 0,
+  "originalReviewer": "8f2da184-3bc1-4b66-a665-50dfe97de9c0",
+  "originalReviewerCompletedNotRunning": true,
+  "exactOriginalReportPath": "docs/translation-batches/109-seat-and-garden-kanji-independent-review-001.json",
+  "exactOriginalPublicReportRawSha256": "da320f08c16a49683d43331e5a8fd5ce939084c926e49fecb1cbf35d53295ee0",
+  "historicalOriginalReportImmutable": true,
+  "finding": "109-F001",
+  "adoptedOptionalPolish": [],
+  "optionalPolishDisposition": "NOT_APPLICABLE:reviewerreturnedOptional:none.",
+  "findingDisposition": "SUPPORTED;EXACT_BOUNDED_AMENDMENT_PROPOSED;FOCUSED_REVIEW_PENDING",
+  "preservedOriginalFacets": {
+    "C1": "C1 CLEAN: Both lessons retain frozen readings, ten strokes, canonical radical 广/53 and source N3 community classification; KANJIDIC2 old-JLPT 2 is not a contradiction. Readings/examples, word senses, 坐る rare-form disclosure, seat/furniture and 椅子に座る notes, and attributed historical analyses/mnemonics are supported by the bound KANJIDIC2/JMdict/KanjiPedia evidence.",
+    "C2": "C2 UNVERIFIED: All requested relative links target existing cards; absent 座席 and 庭園 pages are correctly plain text. The 3 existing-word edits are wrapper-only and preserve visible prose, metadata, old links, and CRLF. Six comparisons are supported as introductory shape contrasts, but none receives ordinary active-negative quiz approval here.",
+    "C3": "C3 NEEDS FIX: Russian lessons are otherwise clear and natural; see the technical-term finding below. Navigation wrappers do not impair readability."
+  },
+  "exactChangedPaths": [
+    "kanji/座.md",
+    "kanji/庭.md"
+  ],
+  "exactPathChanges": [
+    {
+      "path": "kanji/座.md",
+      "exactBeforeWorkingRawSha256": "d1f8c483c3ff416b8ac40dbea2249624238df04a4deab1eb2c5795f314a65bf0",
+      "exactBeforeGitRawSha256": "d1f8c483c3ff416b8ac40dbea2249624238df04a4deab1eb2c5795f314a65bf0",
+      "exactAfterWorkingRawSha256": "0c13ba496b1deafb9593649a0993d9e3f9387951940a7b901ae9cd61084c0e7c"
+    },
+    {
+      "path": "kanji/庭.md",
+      "exactBeforeWorkingRawSha256": "256c9f59470b2f78df469d2617a79f7b0ac72d400fa8ec766e94d8bd98dd126d",
+      "exactBeforeGitRawSha256": "256c9f59470b2f78df469d2617a79f7b0ac72d400fa8ec766e94d8bd98dd126d",
+      "exactAfterWorkingRawSha256": "54d7b7d6ba2af56b6a3968755feeff535c1ff0319015234c5c0d327b4422d58d"
+    }
+  ],
+  "exactBeforeText": "описывает 座 как знак 会意形声: 广 соединён с 坐 (サ, ザ) — «сидеть»,\nописывает 庭 как знак 会意形声: 广 соединён с компонентом с чтением テイ,\n",
+  "exactAfterText": "описывает 座 как знак 会意形声 — части соединены по смыслу, и одна из них указывает ещё и на звучание.\nЗдесь 广 соединён с 坐 (サ, ザ) — «сидеть»,\nописывает 庭 как знак 会意形声 — части соединены по смыслу, и одна из них указывает ещё и на звучание.\nЗдесь 广 соединён с компонентом с чтением テイ,\n",
+  "sourceEvidence": "Reviewer109-F001(C3,moderate,mediumconfidence):learner-facinglabel会意形声unglossedin座/庭«Значениеипроисхождение».Precedent:居«фонетико-смысловойзнак(形声)»,平«пиктограмму(象形)».Fix=keepattributedJapaneselabel,addRussiangloss«частисоединеныпосмыслу,иоднаизнихуказываетещёиназвучание»(会意=meaningcombination,形声=onecomponentgivessound;boundKanjiPediatextsnameサ/ザfor坐andテイcomponent);componentclauseunchangedafter«Здесь».",
+  "reviewerProposedWordingDisposition": "ADOPTED_IN_SUBSTANCE:reviewer'sexample«знак,вкоторомсочетаютсясмысловаяизвуковаячасти»notverbatim;authorwordingstatesthatpartsarejoinedbymeaningandoneALSOindicatessound(会意+形声),avoidingimplyingpure形声.",
+  "exactKanjiPediaProjectionMatches": [
+    {
+      "index": 0,
+      "wholeProjectionRawSha256": "eb3c9acca97aa114c342dcea2a8930cca6545d780e6371e9dc68b5ef36da6fc4"
+    },
+    {
+      "index": 1,
+      "wholeProjectionRawSha256": "55681765716126d532b219307e6fbe650898055f3d079f2173d4389c3ec7f116"
+    }
+  ],
+  "exactOriginalPoolRawSha256": "bbf01668aff3009b4013a9506b1d2b43a2ad6b85d56cfd2b1bd6d154012eadd0",
+  "exactOriginalEvidenceBindingRawSha256": "39bcab06e8cfca73ac3cef73c9da6c227f061cf7ede72a150c90cedee8bfed8c",
+  "scope": "ONE_RU_LINE_EACH_IN_kanji/座.md_AND_kanji/庭.md(Значениеипроисхождение)->TWOlineseach;noJapanese/example/reading/title/metadata/direction/NAV/provider/stroke/levelchange;nohistoricalrecordrewrite.",
+  "proposedNewQualifiedPairJudgments": 0,
+  "originalDirectionDispositionCounts": {
+    "S-intro": 6
+  },
+  "originalQBoundary": "Actual6S-intro(canonicalQ)carryONLYactualoriginalscope;座/庭endpointrowidentitieswillchange,notfreshsemanticjudgments.Wordingcorrectioncannotupgradeordinary/all-sense/readmode/fallbacksafety.",
+  "sourceAccepted": false,
+  "acceptedMainObjectsRemain": 2258,
+  "candidateObjectsRemain": 2262,
+  "protectedSkyBoundary": {
+    "path": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+    "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+    "status": "excluded C2UNVERIFIED;notmedia",
+    "runtimeWordRemainsAbsent": true,
+    "priorKanjiSkyBoundary": "Accepted077kanji空doesNOTresolveprotectedwordcaptionblocker/ordinaryquiz/media/defaultactivation."
+  },
+  "ordinaryActivationAuthorized": false,
+  "fullTaskComplete": false,
+  "continueRequired": true
+}
