@@ -1,6 +1,59 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch114 talent, support, release and cut kanji
+## Current qualified source milestone: batch115 politics, defeat, number, scatter and period kanji
+
+Batch115 adds **five complete Russian frozen N3 lessons, 政/敗/数/散/期, 358 file lines**,
+and five RAW-identical Japanese KanjiVG assets. Four whole current word bodies receive one
+**NAV-only standalone-glyph wrapper** each (失敗→敗; 政治→政; 散歩→散; 数学→数), planned in the
+signed intake; no whole-label wrapper and no navigation amendment. All visible prose, Japanese
+metadata, quiz arrays, old links, line endings and frozen levels of those words remain unchanged.
+Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The [actual whole independent review](translation-batches/115-politics-defeat-number-scatter-and-period-kanji-independent-review-001.json) (one reviewer) of
+original candidate `0a7f8e29da9314a477368484eeec5ce990b806ef` read **46 whole teaching bodies, 24 EN/22
+CURRENT RU** (five primary pairs, 13 context pairs including the four NAV words, four linked-only
+existing pairs 失/学/歩/歩く, and two EN-only comparison bodies: words/数 and 期間), **82 whole official
+TEXT units** (20 KANJIDIC2, two radical-evidence units, 55 JMdict, five KanjiPedia) plus one provider
+header, all 403 CURRENT typed rows, 15 original directions, five L/five A rulings, five outside LIMITS,
+four exact NAV diffs, four guidance files and three RU rubrics — **58 complete windows**, 61 successful
+commands, identical opening/closing gates, zero glyph pixels and zero web pages. One earlier stdout
+delivery attempt failed its own size assertion before printing anything and is recorded, not credited.
+The original **10796-byte stdout report**, SHA256 `61660ded5a5168d8852accab2b70e288b9a4d0d616f19c64a754855abb59abef`, byte-identical
+to the reviewer's native final, is published verbatim. Actual verdicts: **C1 CLEAN**, **C2 NEEDS FIX**
+(unrestricted quiz safety UNVERIFIED; all four NAV diffs and links verified), **C3 CLEAN** — finding
+**115-F001** (low): the 数 lesson left 数学 unlinked in the スウ reading row and the common-words list
+although words/数学.md exists, and the author lesson record L003 wrongly claimed it was linked.
+
+A signed [pre-mutation link freeze](translation-batches/115-politics-defeat-number-scatter-and-period-kanji-review-finding-word-link-amendment-freeze-001.json)
+(`d7478e5a3f446b2ea19ca468bbb433171342ee6f`) authorised exactly two `[数学](../words/数学.md)` wrappers
+and recorded the L003 author-record erratum; the [corrected candidate](translation-batches/115-politics-defeat-number-scatter-and-period-kanji-corrected-candidate-001.json)
+`b24d52d013aa100a75e564d33a716a2fa97c0bee` changes only those two lines (typed metadata identical for
+all 403 rows). One later [focused review](translation-batches/115-politics-defeat-number-scatter-and-period-kanji-independent-review-focused-001.json) (one different
+reviewer, never concurrent; 22 windows, 25 commands, zero failures; 2090-byte report) found **115-F001
+RESOLVED**, bounded C1/C2/C3 CLEAN, the L003 erratum accurate, and no new findings. It is not a second
+whole review; the original verdicts stay immutable and the batch is not retrospectively whole-CLEAN.
+The reviewer's optional density/ちらしずし gloss note is polish, recorded and not applied.
+
+All 15 directions are **S-intro** (introductory/source-core only, canonical author mapping Q); N001
+政→正 is **REJECTED as a reading-negative** (both read セイ/ショウ; shape comparison only); all 15
+ordinary uses stay **U** (metadata retention is not guard approval). The 数 L ruling was partial
+(now resolved by F001); the other four L and all five A rulings are SUPPORTED; all four NAV changes
+are NAV-ONLY; outside LIMITS (政 vs 制 plus 局/御 fallback scrutiny; 敗 vs 勝/失 and weak 売; 数 vs 計;
+散 vs 集, 歩 and the サン homophones; 期 vs 時/間) are observations, not new guards and not cleared
+for future options.
+
+The [qualified source record](translation-batches/115-politics-defeat-number-scatter-and-period-kanji-reviewed-source.json) preserves 2300 other baseline
+runtime RAWs/tracking rows and all 1478 word metadata/quiz arrays. Qualified source checkpoint:
+**2314 runtime/1478 words/403 kanji/403 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled
+unchanged; kanji 80 N5/166 N4/**155 N3**/2 N2; **212 N3 remain**. Strict progress: **2314
+reviewed-current/two excluded reviewed blocked-media drafts/5962 pending of 8278; 5964 runtime
+paths absent**. Version `2d936b9edafe0e5e`; checkpoint authority null/Ready false. Prior 082–114
+U qualifications remain unchanged; the existing unlinked 完 mention in RU 院.md and the RU 留守
+wording outside this batch remain open observations. Protected 033 WORD空 stays
+excluded/runtime-absent/not media. No device/media/default/package/release authority. Continue 116+
+and **ALL remaining safe frozen levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch114 talent, support, release and cut kanji
 
 Batch114 adds **four complete Russian frozen N3 lessons, 才/支/放/断, 283 file lines**,
 and four RAW-identical Japanese KanjiVG assets. Two whole current word bodies receive one
