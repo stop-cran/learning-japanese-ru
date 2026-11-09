@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "batch": "111-ceremony-pull-hit-and-shape-kanji",
+  "recordedAt": "2026-11-09T04:12:40.162875+00:00",
+  "originalCandidateCommit": "9a8b6927678fc31002c17a133ec00fa8a338cb54",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineSnapshot": "6f783e8dcd7f76683ec671704d3bfca75712b383",
+  "originalActualReportSha256": "26af0c0751ca8c33118b029f845a5d60139c2f21afd0e72d3031e606cee76c06",
+  "actualWholeIndependentReviews": 1,
+  "actualSuccessfulStdoutReportDeliveries": 1,
+  "actualFailedReportDeliveries": 0,
+  "originalReviewer": "27efa74f-015b-40d8-a8d6-698aa29fdd9e",
+  "originalReviewerCompletedNotRunning": true,
+  "exactOriginalReportPath": "docs/translation-batches/111-ceremony-pull-hit-and-shape-kanji-independent-review-001.json",
+  "exactOriginalPublicReportRawSha256": "a0a11a8f86bd82c9cc0ba17ff6ffecfe79c4e4e4b22f7e407e7f1fa71385b244",
+  "historicalOriginalReportImmutable": true,
+  "finding": "111-F001",
+  "adoptedOptionalPolish": [],
+  "optionalPolishDisposition": "NOT_APPLICABLE:reviewerreturnedOptional:none.",
+  "findingDisposition": "SUPPORTED;EXACT_BOUNDED_AMENDMENT_PROPOSED;FOCUSED_REVIEW_PENDING",
+  "preservedOriginalFacets": {
+    "C1": "C1 CLEAN: The four lessons preserve readings, counts, keys, examples and source distinctions; KANJIDIC2, JMdict and cited KanjiPedia evidence support the claims. Mnemonics are labeled as such. No confirmed Japanese-fact defect.",
+    "C2": "C2 UNVERIFIED: All 12 nav diffs are only standalone-glyph wrappers to the correct existing ../kanji targets; prose, metadata, Japanese and line-ending context are preserved. New lesson links resolve to existing files; absent RU word pages stay plain text. No direct title collision found for the proposed foils, but active-negative/fallback safety is not established by metadata alone. No transitive guards inferred.",
+    "C3": "C3 NEEDS FIX: Russian is otherwise clear and the nav wrappers do not impair reading; one sentence in 式 has a malformed/ambiguous list (Finding F1)."
+  },
+  "exactChangedPaths": [
+    "kanji/式.md"
+  ],
+  "exactPathChanges": [
+    {
+      "path": "kanji/式.md",
+      "exactBeforeWorkingRawSha256": "88064787a81090ac76dd4f490faae260535e641922d364bde4850bdc5a4e2cb6",
+      "exactBeforeGitRawSha256": "88064787a81090ac76dd4f490faae260535e641922d364bde4850bdc5a4e2cb6",
+      "exactAfterWorkingRawSha256": "f51a2fbe8c6c13ec08befc103243f576500e8904cbbec5ae976606be234b581d"
+    }
+  ],
+  "exactBeforeText": "式 может обозначать церемонию, формулу или установленную форму, способ.\n",
+  "exactAfterText": "式 может обозначать церемонию, формулу, а также установленную форму или способ.\n",
+  "sourceEvidence": "Reviewer111-F001(C3,low,highconfidence):kanji/式.md«Значениеипроисхождение»opening«церемонию,формулуилиустановленнуюформу,способ»isanambiguouslist(commawithoutconjunction;feminineустановленнуюcannotclearlygovernmasculineспособ).FrozenEN«aceremony,aformula,oranestablishedformormethod»=threeitems,thelastbeing«form or method».",
+  "reviewerProposedWordingDisposition": "ADOPTED_VERBATIM:«…,формулу,атакжеустановленнуюформуилиспособ»;senseinventoryunchanged(ceremony/formula/establishedform-or-method).",
+  "exactFrozenEnglishSourceLine": "式 can name a ceremony, a formula, or an established form or method.\n",
+  "exactFrozenEnglishLessonRawSha256": "6a4234f4b58a0d2c2f4dc6c07e5017bc6b52e6dcd27d1b68f6b28f2708eb3cfd",
+  "exactOriginalPoolRawSha256": "484151c45e2c843e7b48a81a238eeb5ac8d7cf0c7f2ce42316d6d9475c1937d9",
+  "exactOriginalEvidenceBindingRawSha256": "be51c32a9d63cebdfdd416115698abca8fdbb59c62454a9cbc4a6a3ccf7eb6a0",
+  "scope": "ONE_RU_LINE_IN_kanji/式.md(Значениеипроисхождение,line20);noJapanese/example/reading/title/metadata/direction/NAV/provider/stroke/levelchange;nohistoricalrecordrewrite.",
+  "proposedNewQualifiedPairJudgments": 0,
+  "originalDirectionDispositionCounts": {
+    "S-intro": 10,
+    "U": 2
+  },
+  "originalQBoundary": "Actual10S-intro(canonicalQ)carryONLYactualoriginalscope;N006/N012Uwithheldretained;式endpointrowidentitywillchange,notfreshsemanticjudgments.Wordingcorrectioncannotupgradeordinary/all-sense/readmode/fallbacksafety.",
+  "sourceAccepted": false,
+  "acceptedMainObjectsRemain": 2270,
+  "candidateObjectsRemain": 2278,
+  "protectedSkyBoundary": {
+    "path": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+    "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+    "status": "excluded C2UNVERIFIED;notmedia",
+    "runtimeWordRemainsAbsent": true,
+    "priorKanjiSkyBoundary": "Accepted077kanji空doesNOTresolveprotectedwordcaptionblocker/ordinaryquiz/media/defaultactivation."
+  },
+  "ordinaryActivationAuthorized": false,
+  "fullTaskComplete": false,
+  "continueRequired": true
+}
