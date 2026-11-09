@@ -1,6 +1,57 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch108 difference, peace, fortune and how-many kanji
+## Current qualified source milestone: batch109 seat and garden kanji
+
+Batch109 adds **two complete Russian frozen N3 lessons, 座/庭, 116 file lines**,
+and two RAW-identical Japanese KanjiVG assets. Three whole current word bodies receive one
+**NAV-only standalone-glyph wrapper** each (座る→座, 庭→庭, 家庭→庭; CRLF line endings kept), planned in the
+signed intake; no whole-label wrapper and no navigation amendment. All visible prose, Japanese metadata,
+quiz arrays, old links and frozen levels of those words remain unchanged. Frozen EN remains
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The [actual whole independent review](translation-batches/109-seat-and-garden-kanji-independent-review-001.json) (one reviewer) of
+original candidate `a38f1c4c531ae9f73757091f6e143dc778ba851e` read **20 whole teaching bodies, 10 EN/10
+CURRENT RU** (two primary pairs and eight context pairs, including the three NAV words), **29 whole
+official TEXT units** (9 KANJIDIC2, one radical-evidence unit, 17 JMdict, two KanjiPedia) plus one
+provider header, all 377 CURRENT typed rows, six original directions, two L/two A rulings, two outside
+LIMITS, three exact NAV diffs, four guidance files and three RU rubrics — **44 complete windows**, 47
+successful commands, zero failures, identical opening/closing gates, zero glyph pixels and zero web
+pages. The original **4623-byte stdout report**, SHA256
+`af92edca08ef2493236ef04a468fd9c87a1e430271932cf782dd9f699f7a670d`, equal to the reviewer's 4622-byte native
+final plus one terminal LF, is published verbatim. Actual verdicts: **C1 CLEAN**, **C2 UNVERIFIED** (NAV
+diffs and links verified; ordinary active-negative quiz safety not checked), **C3 NEEDS FIX** — finding
+**109-F001**: the Japanese classification label 会意形声 in «Значение и происхождение» of the 座 and 庭
+lessons was not glossed in Russian.
+
+A signed [pre-mutation term-gloss freeze](translation-batches/109-seat-and-garden-kanji-review-finding-term-gloss-amendment-freeze-001.json)
+(`5a01830e8d0ddf43ea8529d477e5d4af544742a1`) authorised exactly one line in each lesson; the
+[corrected candidate](translation-batches/109-seat-and-garden-kanji-corrected-candidate-001.json) `3c78c3f6fd5fe93e0ce4d03e0a43b2dd0756283c`
+now reads «знак 会意形声 — части соединены по смыслу, и одна из них указывает ещё и на звучание», followed by
+a «Здесь …» sentence with the unchanged component explanation. The reviewer's example gloss was adopted in
+substance, not verbatim. One later [focused review](translation-batches/109-seat-and-garden-kanji-independent-review-focused-001.json) (one different
+reviewer, never concurrent; 22 windows, 25 commands, zero failures; 2523-byte report) found **109-F001
+RESOLVED**, bounded C1/C2/C3 CLEAN, the gloss accurate, and no new findings. It is not a second whole
+review; the original verdicts (including C2 UNVERIFIED) stay immutable and the batch is not
+retrospectively whole-CLEAN.
+
+All six directions are **S-intro** (introductory/source-core only, canonical author mapping Q); all six
+ordinary uses stay **U** (metadata retention is not guard approval). Both L rulings are
+SUPPORTED_WITHIN_INTRODUCTORY_SOURCE and both A rulings SOURCE_SUPPORTED_BOUNDED_CLARIFICATION; all three
+NAV changes are NAV-ONLY; outside LIMITS (座 vs 場 «место»/居/立/席; 庭 vs 園 «сад»/家/公) are observations,
+not new guards and not cleared for future options.
+
+The [qualified source record](translation-batches/109-seat-and-garden-kanji-reviewed-source.json) preserves 2255 other baseline
+runtime RAWs/tracking rows and all 1478 word metadata/quiz arrays. Qualified source checkpoint:
+**2262 runtime/1478 words/377 kanji/377 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled
+unchanged; kanji 80 N5/166 N4/**129 N3**/2 N2; **238 N3 remain**. Strict progress: **2262
+reviewed-current/two excluded reviewed blocked-media drafts/6014 pending of 8278; 6016 runtime
+paths absent**. Version `55ad396f14ddcd39`; checkpoint authority null/Ready false. Prior 082–108
+U qualifications remain unchanged; the existing unlinked 完 mention in RU 院.md and the RU 留守
+wording outside this batch remain open observations. Protected 033 WORD空 stays
+excluded/runtime-absent/not media. No device/media/default/package/release authority. Continue 110+
+and **ALL remaining safe frozen levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch108 difference, peace, fortune and how-many kanji
 
 Batch108 adds **four complete Russian frozen N3 lessons, 差/平/幸/幾, 230 file lines**,
 and four RAW-identical Japanese KanjiVG assets. Six whole current word bodies receive one
