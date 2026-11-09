@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "batchId": "120-past-scenery-evening-and-clear-sky-kanji",
+  "candidateCommit": "274f263c4c8ca42d2fc4f6dc3efcd3eb6fb5fd37",
+  "frozenSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineCommit": "1a43613bf3d40b05f267d0b055c9555d436ea332",
+  "kind": "review-finding writer adjudication (no runtime mutation)",
+  "status": "PENDING_FOCUSED_INDEPENDENT_REVIEW",
+  "reviews": {
+    "A": {
+      "reviewer": "efe63128-68dd-486f-a3ab-3e25eb6e23e6",
+      "artifact": "120-past-scenery-evening-and-clear-sky-kanji-independent-review-001.json",
+      "facets": "C1 CLEAN; C2 NEEDS FIX (F001-F004); C3 CLEAN"
+    },
+    "B": {
+      "reviewer": "7c9c503b-968d-4dc5-a58e-7ef53a8f491e",
+      "artifact": "120-past-scenery-evening-and-clear-sky-kanji-independent-review-002.json",
+      "facets": "C1 CLEAN (bounded); C2 UNVERIFIED; C3 CLEAN (bounded); no findings"
+    },
+    "disclosure": "Two sequential (not concurrent) completed whole reviews. The writer misread A's unrelated short native final as a no-op and launched B; a private erratum supersedes the wrong no-op record. B is not used to outvote A."
+  },
+  "bothReviewersAgree": "N001/N004/N007/N013 share an on'yomi with the target and are unsuitable AS reading negatives; both reviewers stated they did not inspect app quiz behaviour.",
+  "appEvidence": {
+    "repository": "stop-cran/kanji-cards-android",
+    "commit": "10d98d0db61dcde621463460e6a1e59941b4042b",
+    "kind": "committed source code at origin/main; NOT device evidence",
+    "readingQuiz": {
+      "path": "core/src/main/kotlin/io/github/stopcran/kanji/core/reading/KanjiReadings.kt",
+      "rawSha256": "0632fcbb014d8644fcf1ab8fe0bd7b22d89df70a4b6e3c4d0838b129f76e4d74",
+      "lines": "80-88 excludedKeys over target.on+target.kun plus voicing/long-vowel/small-tsu mutations; 100 add() rejects excluded keys; 110 target.distractors contribute one random usable reading each through add()"
+    },
+    "meaningQuiz": {
+      "path": "core/src/main/kotlin/io/github/stopcran/kanji/core/quiz/QuizBuilder.kt",
+      "rawSha256": "c3208d21958b053becfbb90fef78877f2ad67caf87b97924ee4f633c0e4c91ee",
+      "note": "meaning options are card titles, deduplicated by exact title; distractors are tried first"
+    }
+  },
+  "contentFormatRule": "Frozen EN docs/content-format.md 'Curated reading questions': all full readings remain protected against wrong-answer use for that kanji.",
+  "findings": [
+    {
+      "findingId": "120-F001",
+      "direction": "昔→借",
+      "path": "kanji/昔.md",
+      "exactCurrentLine": "distractors: [借, 春, 景]",
+      "frozenEnglishSourceLineIdentical": true,
+      "sharedOnyomi": "シャク",
+      "russianTitles": {
+        "昔": "давние времена",
+        "借": "брать взаймы; арендовать"
+      },
+      "writerDisposition": "RESOLVED_WITHOUT_MUTATION_READING_NEGATIVE_REJECT_RECORDED",
+      "retainedAs": "frozen-source introductory shape comparison (qualified Q); ordinary active-negative safety U; NOT a reading-negative guard",
+      "meaningQuizEffect": "distinct Russian titles; no title-equivalence asserted by either reviewer",
+      "readingQuizEffect": "シャク is in the target's full readings, so excludedKeys(target) removes it; the distractor card can contribute only a non-colliding reading or nothing"
+    },
+    {
+      "findingId": "120-F002",
+      "direction": "景→京",
+      "path": "kanji/景.md",
+      "exactCurrentLine": "distractors: [京, 高, 暗]",
+      "frozenEnglishSourceLineIdentical": true,
+      "sharedOnyomi": "ケイ",
+      "russianTitles": {
+        "景": "вид; пейзаж",
+        "京": "столица"
+      },
+      "writerDisposition": "RESOLVED_WITHOUT_MUTATION_READING_NEGATIVE_REJECT_RECORDED",
+      "retainedAs": "frozen-source introductory shape comparison (qualified Q); ordinary active-negative safety U; NOT a reading-negative guard",
+      "meaningQuizEffect": "distinct Russian titles; no title-equivalence asserted by either reviewer",
+      "readingQuizEffect": "ケイ is in the target's full readings, so excludedKeys(target) removes it; the distractor card can contribute only a non-colliding reading or nothing"
+    },
+    {
+      "findingId": "120-F003",
+      "direction": "昨→作",
+      "path": "kanji/昨.md",
+      "exactCurrentLine": "distractors: [作, 晴, 時]",
+      "frozenEnglishSourceLineIdentical": true,
+      "sharedOnyomi": "サク",
+      "russianTitles": {
+        "昨": "вчерашний; прошлый",
+        "作": "делать; создавать"
+      },
+      "writerDisposition": "RESOLVED_WITHOUT_MUTATION_READING_NEGATIVE_REJECT_RECORDED",
+      "retainedAs": "frozen-source introductory shape comparison (qualified Q); ordinary active-negative safety U; NOT a reading-negative guard",
+      "meaningQuizEffect": "distinct Russian titles; no title-equivalence asserted by either reviewer",
+      "readingQuizEffect": "サク is in the target's full readings, so excludedKeys(target) removes it; the distractor card can contribute only a non-colliding reading or nothing"
+    },
+    {
+      "findingId": "120-F004",
+      "direction": "晴→青",
+      "path": "kanji/晴.md",
+      "exactCurrentLine": "distractors: [青, 時, 晩]",
+      "frozenEnglishSourceLineIdentical": true,
+      "sharedOnyomi": "セイ",
+      "russianTitles": {
+        "晴": "ясная погода",
+        "青": "синий; зелёный"
+      },
+      "writerDisposition": "RESOLVED_WITHOUT_MUTATION_READING_NEGATIVE_REJECT_RECORDED",
+      "retainedAs": "frozen-source introductory shape comparison (qualified Q); ordinary active-negative safety U; NOT a reading-negative guard",
+      "meaningQuizEffect": "distinct Russian titles; no title-equivalence asserted by either reviewer",
+      "readingQuizEffect": "セイ is in the target's full readings, so excludedKeys(target) removes it; the distractor card can contribute only a non-colliding reading or nothing"
+    }
+  ],
+  "rationale": "A's findings correctly identify that the four pairs share a reading. The current app code cannot show the shared reading as a wrong option for the target, and the meaning mode uses distinct titles, so the frozen source distractor lines produce no wrong-answer defect in either mode. Removing them would leave two curated distractors below the three-choice authoring guidance and diverge from frozen source metadata without a sourced correction. The reading-negative REJECT is recorded explicitly; the directions stay qualified introductory comparisons with ordinary safety U, as in batch 119 (情→青/性). Future app changes that stop protecting full readings would reopen this.",
+  "runtimeMutation": false,
+  "metadataRetentionIsNotGuardApproval": true,
+  "ordinaryActivationAuthorized": false,
+  "fullTaskComplete": false
+}
