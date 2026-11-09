@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "batchId": "108-difference-peace-fortune-and-how-many-kanji",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "reviewedCandidate": "42ba5e85bc1b35c47b21a43f377ff35079e069c4",
+  "baselineCommit": "d7d1f7487010158ca8e22df1f05e3ed4a3b8e336",
+  "premutationFreeze": "5424b0c8162f18313f5c3a274bf68d516c323f2d",
+  "preMutationNavigationAmendment": null,
+  "sixStandaloneGlyphWrappersPlannedInSignedIntake": true,
+  "actualWholeReview": "docs/translation-batches/108-difference-peace-fortune-and-how-many-kanji-independent-review-001.json",
+  "actualWholeIndependentReviews": 1,
+  "actualOriginalReportBytes": 7101,
+  "actualOriginalReportSha256": "0f4d7d14afd930e561b4debfa9d79b81a89055528b92a9f409820f4495a81ee0",
+  "publicReportIsOriginalActualPayload": true,
+  "publicReportIsPathOnlyProjection": false,
+  "exactPublicWholeReviewRawSha256": "33f7edf1129a7d36b8b497bfc2caddf61d87844571a87d2fe0be18343fefcdc2",
+  "exactPrivateExtractionArtifact": "ru-108-review-extracted-return-001.json",
+  "exactPrivateExtractionRawSha256": "7ea3d7a8c4d89ad804db1fa562188c2c61826c39ceea9db2b8f06667b4c31eae",
+  "actualWholeScope": {
+    "reviewerAgentId": "cba5946d-2dd5-4355-8674-be5fdc4ee51d",
+    "actualSuccessfulReaderToolReturnCount": 57,
+    "actualSuccessfulReaderWindowCount": 57,
+    "actualSuccessfulReaderModeWindowCounts": {
+      "guidance": 14,
+      "rubrics": 3,
+      "pairs": 9,
+      "primary": 2,
+      "comparisons": 1,
+      "metadata": 5,
+      "objects": 3,
+      "header": 1,
+      "radicals": 1,
+      "kanjipedia": 1,
+      "pool": 11,
+      "proposals": 2,
+      "overlaps": 1,
+      "adjudications": 1,
+      "clarifications": 1,
+      "navigation": 1
+    },
+    "actualPowershellCommandExecutions": 61,
+    "actualSuccessfulTerminalPowershellCommands": 60,
+    "actualHelperPythonInvocations": 59,
+    "actualStdoutOnlyReportEmissionCommands": [
+      {
+        "eventId": "8aab8303-5e5a-4619-ad5f-0a0273cae05b",
+        "commandStartEventId": "b44cda25-7089-45b8-80bf-6c05e46c2dbb",
+        "commandUtf8Sha256": "719e558861865aee388cc84e4cb4cad70105ff5503cd1c087fade47f7dd95bbb",
+        "actualSuccessfulReturn": false,
+        "actualFailureCause": "report-size assertion (literal>11000 UTF-8 bytes); reviewer shortened and retried",
+        "actualPublicContent": "Traceback (most recent call last):\n  File \"<stdin>\", line 40, in <module>\nAssertionError\n<shellId: 3538 completed with exit code 1>",
+        "scriptUtf8Sha256": "610dd76494b8c4c1b02ffee1f467eeda581d26e7629249fd5ee35cd609be2ba3",
+        "auditedStdoutOnlyPythonCalls": [
+          "len",
+          "report.encode",
+          "report.endswith",
+          "sys.stdout.reconfigure",
+          "sys.stdout.write"
+        ],
+        "actualLiteralUtf8Bytes": 11151,
+        "actualLiteralUtf8Sha256": "378bb5e483717c10ecf04abefa3ca10227b0cfcee339d57f719808b44d7902c0"
+      },
+      {
+        "eventId": "67686ea9-6943-41b5-84c3-3b525106e34b",
+        "commandStartEventId": "811f9daa-2d54-4723-9833-b7afc7bd1e13",
+        "commandUtf8Sha256": "7343e35e4ebfe1a07769190a329d1773c556e7294aa344e8f1874eaba47ec60f",
+        "actualSuccessfulReturn": true,
+        "scriptUtf8Sha256": "ba917c3e2d88cca19908291530a020ecc1629258e1603c65f313253021144608",
+        "auditedStdoutOnlyPythonCalls": [
+          "len",
+          "report.encode",
+          "report.endswith",
+          "sys.stdout.reconfigure",
+          "sys.stdout.write"
+        ],
+        "actualLiteralUtf8Bytes": 7101,
+        "actualLiteralUtf8Sha256": "0f4d7d14afd930e561b4debfa9d79b81a89055528b92a9f409820f4495a81ee0"
+      }
+    ],
+    "actualFailedReportDeliveryCommands": [
+      {
+        "eventId": "8aab8303-5e5a-4619-ad5f-0a0273cae05b",
+        "commandStartEventId": "b44cda25-7089-45b8-80bf-6c05e46c2dbb",
+        "commandUtf8Sha256": "719e558861865aee388cc84e4cb4cad70105ff5503cd1c087fade47f7dd95bbb",
+        "actualSuccessfulReturn": false,
+        "actualFailureCause": "report-size assertion (literal>11000 UTF-8 bytes); reviewer shortened and retried",
+        "actualPublicContent": "Traceback (most recent call last):\n  File \"<stdin>\", line 40, in <module>\nAssertionError\n<shellId: 3538 completed with exit code 1>",
+        "scriptUtf8Sha256": "610dd76494b8c4c1b02ffee1f467eeda581d26e7629249fd5ee35cd609be2ba3",
+        "auditedStdoutOnlyPythonCalls": [
+          "len",
+          "report.encode",
+          "report.endswith",
+          "sys.stdout.reconfigure",
+          "sys.stdout.write"
+        ],
+        "actualLiteralUtf8Bytes": 11151,
+        "actualLiteralUtf8Sha256": "378bb5e483717c10ecf04abefa3ca10227b0cfcee339d57f719808b44d7902c0"
+      }
+    ],
+    "actualReportSizeAssertionFailures": 1,
+    "actualReportTerminalLfAssertionFailures": 0,
+    "actualSuccessfulStdoutReportEmissions": 1,
+    "actualToolReturnCount": 61,
+    "actualFailedCommands": 1,
+    "actualFailedReaderOrHelperCommands": 0,
+    "actualTruncatedToolReturnCount": 0,
+    "actualNonterminalToolReturnsNotCredited": 0,
+    "actualWebFetchPages": 0,
+    "actualUnchangedSnapshotGateEventIds": [
+      "96eac211-990d-4d59-bbf0-2fe4a0380c10",
+      "164ea249-0136-49da-9306-3b296df3d1ee"
+    ],
+    "actualInitialFinalGatePayloadByteIdentity": true,
+    "actualWholeTeachingBodies": 45,
+    "actualWholeRussianBodies": 21,
+    "actualWholeEnglishBodies": 24,
+    "actualWholeEnglishOnlyComparisonBodies": 3,
+    "actualWholeOfficialSourceTextUnits": 85,
+    "actualAdditionalWholeProviderHeaders": 1,
+    "actualSuccessfulDictionaryImageViews": [],
+    "actualCurrentTypedKanjiMetadataRows": 375,
+    "actualWholeOriginalDirectionProposals": 12,
+    "retainedCurrentMetadataDirections": 12,
+    "actualWholeSourceAdjudications": 4,
+    "actualAdditionalDictionaryClarificationUnits": 4,
+    "actualExactWordPatchDiffs": 6,
+    "navigationOnlyWordPatches": 6,
+    "standaloneGlyphWrappers": 6,
+    "wholeWordLabelWrappers": 0,
+    "actualOutsideEdgeObservationUnits": 4,
+    "actualWholePreMutationNavigationAmendments": 0,
+    "preMutationNavigationAmendmentRequired": false,
+    "actualOptionalLinkedLessonReads": [],
+    "actualWebFetchPagesNote": "Reviewer reported no external pages consulted; KanjiPedia evidence read only via bound helper window kanjipedia 0 4.",
+    "actualCorrectRURootRubrics": 3,
+    "allRequiredReadingComplete": true,
+    "boundary": "ENTIREactualpayloadcomparison/completelineunions,notmarkersalone;consoleCRLFnormalizationONLY.57completeassignedwindows(40read+17lines)+2identicalgates+1successfulstdoutemission=60successfulterminalcommands;1failedstdoutdelivery(sizeassertion11151>11000,exit1,notreport)thensuccessfulshortenedretry;0reader/helperfailures/truncations/waits/webpages."
+  },
+  "actualImmutableFacets": {
+    "C1": "CLEANwithinboundedfournewlessons/officialevidence",
+    "C2": "UNVERIFIED(reviewer'sfacetverdict):6nav-onlyglyphwrappers/linksverified;12S-intro;ordinaryactive-negative/runtimefallbacksafetyUNVERIFIED;nofinding",
+    "C3": "CLEAN;NOTnativecertification"
+  },
+  "actualVerbatimFacets": {
+    "C1": "C1 CLEAN: Чтения, черты, ключи и японские смыслы/примеры уроков подтверждены прочитанными источниками. Историческая трактовка 平 и кана из 幾 атрибутированы; shape-мнемоники не выданы за этимологию. Исправимых дефектов не найдено.",
+    "C2": "C2 UNVERIFIED: 6 nav-diff — только обёртки отдельных знаков с верными целями; ссылки новых уроков ведут в существующие файлы. Все 12 направлений отдельно сверены с pool и источниками; обычная активная quiz-отрицательность/резервное поведение не проверена. S-intro ниже = только поддержанное сравнение формы, не одобрение активного отрицательного варианта.",
+    "C3": "C3 CLEAN: Русский понятен без английского; примеры/чтения связаны, usually-kana для 幾つ／幾ら／幾つか раскрыто; nav-обёртки не повредили читаемость. Не native-speaker/learning-effectiveness certification."
+  },
+  "actualFindings": [],
+  "actualVerbatimFindings": "Findings: none confirmed within bounded read; C2 quiz safety остаётся UNVERIFIED, не CLEAN.",
+  "actualVerbatimOptional": "Optional: none.",
+  "optionalPolishWriterDisposition": "NOT_APPLICABLE:reviewerreturnedOptional:none.",
+  "unresolvedConsequentialAssignedTextDefects": [],
+  "exactOriginalIndependentSourceDirectionDispositions": [
+    {
+      "proposalId": "108-N001",
+      "direction": [
+        "差",
+        "着"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N001差→着 S-intro; ordinary U: верх формы похож; «разница» против «одежда/прибытие».",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;ordinarynegativeremainsUNVERIFIED(reviewerdidnotapproveordinary/fallback);canonicalQisAUTHORschemamappingNOTreportrewriting.REJECT=reviewer-judgedunsafenegative.",
+      "retainedInCandidateMetadata": true,
+      "rejectedRequiresFixBeforeAcceptance": false,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "108-N002",
+      "direction": [
+        "差",
+        "洋"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N002差→洋 S-intro; ordinary U: 羊-подобная форма; «разница» против «океан/западный стиль».",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;ordinarynegativeremainsUNVERIFIED(reviewerdidnotapproveordinary/fallback);canonicalQisAUTHORschemamappingNOTreportrewriting.REJECT=reviewer-judgedunsafenegative.",
+      "retainedInCandidateMetadata": true,
+      "rejectedRequiresFixBeforeAcceptance": false,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "108-N003",
+      "direction": [
+        "差",
+        "左"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N003差→左 S-intro; ordinary U: общий 工 и разные верхи; важна реальная коллизия чтения サ/左（さ）.",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;ordinarynegativeremainsUNVERIFIED(reviewerdidnotapproveordinary/fallback);canonicalQisAUTHORschemamappingNOTreportrewriting.REJECT=reviewer-judgedunsafenegative.",
+      "retainedInCandidateMetadata": true,
+      "rejectedRequiresFixBeforeAcceptance": false,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "108-N004",
+      "direction": [
+        "平",
+        "半"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N004平→半 S-intro; ordinary U: пересекающиеся черты, различается положение коротких штрихов; значения разные.",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;ordinarynegativeremainsUNVERIFIED(reviewerdidnotapproveordinary/fallback);canonicalQisAUTHORschemamappingNOTreportrewriting.REJECT=reviewer-judgedunsafenegative.",
+      "retainedInCandidateMetadata": true,
+      "rejectedRequiresFixBeforeAcceptance": false,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "108-N005",
+      "direction": [
+        "平",
+        "午"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N005平→午 S-intro; ordinary U: пересечения штрихов визуально полезны; значения разные.",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;ordinarynegativeremainsUNVERIFIED(reviewerdidnotapproveordinary/fallback);canonicalQisAUTHORschemamappingNOTreportrewriting.REJECT=reviewer-judgedunsafenegative.",
+      "retainedInCandidateMetadata": true,
+      "rejectedRequiresFixBeforeAcceptance": false,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "108-N006",
+      "direction": [
+        "平",
+        "年"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N006平→年 S-intro; ordinary U: сопоставимые горизонтали/вертикаль, детали различены; значения разные.",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;ordinarynegativeremainsUNVERIFIED(reviewerdidnotapproveordinary/fallback);canonicalQisAUTHORschemamappingNOTreportrewriting.REJECT=reviewer-judgedunsafenegative.",
+      "retainedInCandidateMetadata": true,
+      "rejectedRequiresFixBeforeAcceptance": false,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "108-N007",
+      "direction": [
+        "幸",
+        "年"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N007幸→年 S-intro; ordinary U: вертикаль/горизонтали сравнимы, 土-подобный верх 幸 отличён; значения разные.",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;ordinarynegativeremainsUNVERIFIED(reviewerdidnotapproveordinary/fallback);canonicalQisAUTHORschemamappingNOTreportrewriting.REJECT=reviewer-judgedunsafenegative.",
+      "retainedInCandidateMetadata": true,
+      "rejectedRequiresFixBeforeAcceptance": false,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "108-N008",
+      "direction": [
+        "幸",
+        "立"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N008幸→立 S-intro; ordinary U: урок называет сходство приблизительным; meanings разные.",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;ordinarynegativeremainsUNVERIFIED(reviewerdidnotapproveordinary/fallback);canonicalQisAUTHORschemamappingNOTreportrewriting.REJECT=reviewer-judgedunsafenegative.",
+      "retainedInCandidateMetadata": true,
+      "rejectedRequiresFixBeforeAcceptance": false,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "108-N009",
+      "direction": [
+        "幸",
+        "土"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N009幸→土 S-intro; ordinary U: 土-подобный верх, урок верно уточняет, что 土 — часть контура; meanings разные.",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;ordinarynegativeremainsUNVERIFIED(reviewerdidnotapproveordinary/fallback);canonicalQisAUTHORschemamappingNOTreportrewriting.REJECT=reviewer-judgedunsafenegative.",
+      "retainedInCandidateMetadata": true,
+      "rejectedRequiresFixBeforeAcceptance": false,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "108-N010",
+      "direction": [
+        "幾",
+        "紙"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N010幾→紙 S-intro; ordinary U: петлеобразные штрихи, парные 幺 отличены от 糸; meanings разные.",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;ordinarynegativeremainsUNVERIFIED(reviewerdidnotapproveordinary/fallback);canonicalQisAUTHORschemamappingNOTreportrewriting.REJECT=reviewer-judgedunsafenegative.",
+      "retainedInCandidateMetadata": true,
+      "rejectedRequiresFixBeforeAcceptance": false,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "108-N011",
+      "direction": [
+        "幾",
+        "後"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N011幾→後 S-intro; ordinary U: лишь сходные мелкие формы; 後 также имеет 彳/нижнюю часть; meanings разные.",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;ordinarynegativeremainsUNVERIFIED(reviewerdidnotapproveordinary/fallback);canonicalQisAUTHORschemamappingNOTreportrewriting.REJECT=reviewer-judgedunsafenegative.",
+      "retainedInCandidateMetadata": true,
+      "rejectedRequiresFixBeforeAcceptance": false,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    },
+    {
+      "proposalId": "108-N012",
+      "direction": [
+        "幾",
+        "強"
+      ],
+      "actualIndependentDisposition": "S-intro",
+      "actualIndependentOrdinaryDisposition": "U",
+      "actualVerbatimDirectionDisposition": "N012幾→強 S-intro; ordinary U: слабое сходство, 弓 у 強 отличён от парных 幺; meanings разные.",
+      "canonicalQualifiedCoreContrastDisposition": "Q",
+      "actualDispositionDefinition": "ActualS-intro=supportedINTRODUCTORY/source-corecomparisonONLY;ordinarynegativeremainsUNVERIFIED(reviewerdidnotapproveordinary/fallback);canonicalQisAUTHORschemamappingNOTreportrewriting.REJECT=reviewer-judgedunsafenegative.",
+      "retainedInCandidateMetadata": true,
+      "rejectedRequiresFixBeforeAcceptance": false,
+      "metadataRetentionIsNotGuardApproval": true,
+      "ordinaryActiveNegativeSafetyApproved": false,
+      "universalSemanticDisjointnessEstablished": false,
+      "ordinaryModernQuizNecessityFrequencyBroaderFallbackSafetyGlobalFutureUniqueness": "UNVERIFIED"
+    }
+  ],
+  "explicitCanonicalSourceCoreDispositionMapping": {
+    "S-intro": "Q_QUALIFIED_INTRODUCTORY_ONLY"
+  },
+  "exactIndependentSourceLessonAdjudications": {
+    "108-L001": {
+      "actualDisposition": "SUPPORTED",
+      "actualVerbatimIndependentDisposition": "L001差 SUPPORTED: 差す отделён от «разницы»; значения, ссылки/плоские упоминания и мнемоника согласованы.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "108-L002": {
+      "actualDisposition": "SUPPORTED",
+      "actualVerbatimIndependentDisposition": "L002平 SUPPORTED: значения 平ら／平和／平等 верны; мир уточнён как отсутствие войны; KanjiPedia трактовка атрибутирована.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "108-L003": {
+      "actualDisposition": "SUPPORTED",
+      "actualVerbatimIndependentDisposition": "L003幸 SUPPORTED: значения счастья/удачи подтверждены; вторичное «смерть родственника» у 不幸 раскрыто; 土-образ — мнемоника.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "108-L004": {
+      "actualDisposition": "SUPPORTED",
+      "actualVerbatimIndependentDisposition": "L004幾 SUPPORTED: широкое «сколько» подходит; возраст/цена и usually-kana раскрыты; происхождение キ／き атрибутировано.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    }
+  },
+  "exactIndependentSourceCorrectionAndClarificationDispositions": {
+    "108-A001": {
+      "actualDisposition": "SOURCE-SUPPORTED/BOUNDED",
+      "actualVerbatimIndependentDisposition": "A001 SOURCE-SUPPORTED/BOUNDED: многозначность 差す (вкл. танец) подтверждена JMdict; без заявления частотности.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "108-A002": {
+      "actualDisposition": "SOURCE-SUPPORTED/BOUNDED",
+      "actualVerbatimIndependentDisposition": "A002 SOURCE-SUPPORTED/BOUNDED: альтернативные чтения/контексты 平 (вкл. ピンフ, だいら) ограничены; без частотности.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "108-A003": {
+      "actualDisposition": "SOURCE-SUPPORTED/BOUNDED",
+      "actualVerbatimIndependentDisposition": "A003 SOURCE-SUPPORTED/BOUNDED: дополнительные чтения 幸 остаются в metadata; 嬉しい не перенесено; без частотности.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    },
+    "108-A004": {
+      "actualDisposition": "SOURCE-SUPPORTED/BOUNDED",
+      "actualVerbatimIndependentDisposition": "A004 SOURCE-SUPPORTED/BOUNDED: キ／いく- и 何歳 отмечены как неразвёрнутые; kana-only предупреждения полны.",
+      "scope": "BoundedsourceteachingONLY;notordinary/fallback/activation."
+    }
+  },
+  "originalSourceDirections": 12,
+  "retainedRuntimeMetadataDirections": 12,
+  "metadataRetentionIsNotGuardApproval": true,
+  "actualQualifiedCoreContrastDirections": 12,
+  "actualReviewerDirectionDispositionCounts": {
+    "S-intro": 12
+  },
+  "actualReviewerOrdinaryDispositionCounts": {
+    "U": 12
+  },
+  "exactWithheldSourceCoreDirections": [],
+  "ordinaryActiveNegativeSafetyApprovedDirections": 0,
+  "ordinaryActiveNegativeSafetyUnverifiedDirections": 12,
+  "exactIndependentNavigationDispositions": [
+    {
+      "id": "NAV01",
+      "path": "words/交差点.md",
+      "actualDisposition": "NAV-ONLY",
+      "actualVerbatimIndependentDisposition": "NAV01 words/交差点.md: NAV-ONLY; только 差→../kanji/差.md; CRLF сохранён."
+    },
+    {
+      "id": "NAV02",
+      "path": "words/差し上げる.md",
+      "actualDisposition": "NAV-ONLY",
+      "actualVerbatimIndependentDisposition": "NAV02 words/差し上げる.md: NAV-ONLY; только 差→../kanji/差.md."
+    },
+    {
+      "id": "NAV03",
+      "path": "words/差す.md",
+      "actualDisposition": "NAV-ONLY",
+      "actualVerbatimIndependentDisposition": "NAV03 words/差す.md: NAV-ONLY; только 差→../kanji/差.md; смысл «разницы» не изменён."
+    },
+    {
+      "id": "NAV04",
+      "path": "words/幸せ.md",
+      "actualDisposition": "NAV-ONLY",
+      "actualVerbatimIndependentDisposition": "NAV04 words/幸せ.md: NAV-ONLY; только 幸→../kanji/幸.md; LF сохранён."
+    },
+    {
+      "id": "NAV05",
+      "path": "words/幸福.md",
+      "actualDisposition": "NAV-ONLY",
+      "actualVerbatimIndependentDisposition": "NAV05 words/幸福.md: NAV-ONLY; только 幸→../kanji/幸.md; прежний 福-link сохранён."
+    },
+    {
+      "id": "NAV06",
+      "path": "words/幾つ.md",
+      "actualDisposition": "NAV-ONLY",
+      "actualVerbatimIndependentDisposition": "NAV06 words/幾つ.md: NAV-ONLY; только 幾→../kanji/幾.md; CRLF сохранён."
+    }
+  ],
+  "exactIndependentOutsideLimitDispositions": "Outside LIMIT dispositions: O001 SUPPORTED/LIMIT: 差/間 делят «промежуток»; прочие — смежные домены. O002 SUPPORTED/LIMIT: 平/和 и 平/安 близки; 世 «мир»=world, не peace; 公 — через 公平. O003 SUPPORTED/LIMIT: удача у 幸/福/運; 喜／楽／好/不 — смежны, не авто-пары. O004 SUPPORTED/LIMIT: 幾つ/何歳 пересекаются по возрасту, но title 何 «что» не равно «сколько лет». Ни один O не является direct distractor edge; новых guards не предлагаю.",
+  "outsideOverlapConcernsRecordedNotResolved": [
+    "差 vs 間 shared title part «промежуток»; 別/他/変/交 adjacent",
+    "平 vs 和/安; Russian мир homonym with 世; 公 via 公平",
+    "幸 vs 福/運 shared «удача» (strong); 喜/楽/好/不 adjacent",
+    "幾 vs 何 (幾つ/何歳 age overlap); 多/少 quantity domain",
+    "差→左 reviewer notes real サ reading collision (ordinary U)"
+  ],
+  "sourceDirectedMetadataCorrections": [],
+  "prior082To107QualificationsNotUpgraded": true,
+  "reviewerSnapshotTranscriptionNote": "Reviewer'sSnapshotlinecopiedthecandidatehashwithitsfinalhexdigit'4'omitted(39hex);bothactualgatepayloadsverifyfull42ba5e85bc1b35c47b21a43f377ff35079e069c4.Recordedverbatim,notrewritten.",
+  "universalSemanticDisjointnessDirections": 0,
+  "inventedReverseOrTransitiveDirections": 0,
+  "secondWholeReview": false,
+  "qualifiedBoundary": "ONE actual whole independent108 review by ONE reviewer;original7101-byte stdout report SHA256 0f4d7d14afd930e561b4debfa9d79b81a89055528b92a9f409820f4495a81ee0 EXACT including final LF,published verbatim;child/task native final identical7100-byte text without terminal LF;NO projection/second review.57 complete assigned windows;61 commands=60 successful+1 failed stdout delivery(size assertion 11151>11000,exit1,not report) then successful shortened retry;0 reader failures/truncations/waits/web pages;identical opening/closing gates.45 teaching bodies=24EN/21CURRENT_RU:4primary pairs+17current context pairs+3EN-only comparisons.85 WHOLE official TEXT=19KANJIDIC/3radical/59JMdict/4visibleKanjiPedia;ONE header additional;ZERO glyph pixels.375 CURRENT typed metadata rows NOT375 whole lessons/1478 fresh word guards.Actual C1 CLEAN/C2 UNVERIFIED(6 NAV-only glyph wrappers and links verified;ordinary active-negative quiz/fallback NOT checked)/C3 CLEAN.Findings none confirmed;Optional none.Reviewer Snapshot line omits final candidate hex digit;gates verified full hash.All12 actual S-intro introductory/source-core ONLY;canonical Q author mapping;ALL12 ordinary U explicitly;metadata retention NOT guard approval;差-左 shared サ reading noted.4L SUPPORTED/4A SOURCE-SUPPORTED/BOUNDED;6NAV NAV-ONLY standalone glyph wrappers planned in signed intake;NO amendment.Outside LIMITS record adjacency 差/間別他変交,平/和安世公(мир homonym),幸/福運喜楽好不,幾/何多少,NOT guards;existing RU院.md unlinked完 mention and RU留守 wording outside batch OPEN/unresolved. Prior082-107 U unchanged;broader ordinary modern necessity-frequency/global uniqueness UNVERIFIED. 2258reviewed-current/2excluded reviewed blocked-media/6018pending of8278;1478words/375kanji/375strokes;127N3 kanji 240 remaining;2244 other baseline RAWs/tracking unchanged.Checkpoint null/Ready false;protected033WORD空 excluded/not media. NO device/media/default/package/release/ordinary activation/full finite completion authority. Continue109+ALL remaining safe frozen families.",
+  "baselineUnchangedRuntimeRaws": 2244,
+  "writerAgentId": "775d2404-124d-4d7e-9060-8bb6a6192303",
+  "authorAgentId": "775d2404-124d-4d7e-9060-8bb6a6192303",
+  "protectedSkyBoundary": {
+    "path": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+    "workingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+    "status": "excluded C2UNVERIFIED;notmedia",
+    "runtimeWordRemainsAbsent": true,
+    "priorKanjiSkyBoundary": "Accepted077kanji空doesNOTresolveprotectedwordcaptionblocker/ordinaryquiz/media/defaultactivation."
+  },
+  "checkpointAuthority": null,
+  "ordinaryActivationAuthorized": false,
+  "fullTaskComplete": false,
+  "continueRequired": true,
+  "reviewShape": "WriterqualifiedaggregationofONEactualwhole001/ONEsuccessfuldelivery;NOTnewreport/secondwhole/ordinaryquizapproval."
+}

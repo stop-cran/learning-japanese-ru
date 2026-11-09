@@ -11,7 +11,49 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current qualified source milestone: batch107
+## Current qualified source milestone: batch108
+
+Batch108 adds **four complete Russian frozen N3 lessons, 差/平/幸/幾, 230 file lines**,
+and four RAW-identical Japanese KanjiVG assets. Six whole current word bodies receive one
+**NAV-only standalone-glyph wrapper** each (交差点/差し上げる/差す→差, 幸せ/幸福→幸, 幾つ→幾; CRLF kept in
+交差点/差す/幸福/幾つ, LF-only kept in 差し上げる/幸せ), planned in the signed intake; no whole-label wrapper
+and no navigation amendment. All visible prose, Japanese metadata, quiz arrays, old links and frozen
+levels of those words remain unchanged. Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The [actual whole independent review](translation-batches/108-difference-peace-fortune-and-how-many-kanji-independent-review-001.json) (one reviewer) of
+candidate `42ba5e85bc1b35c47b21a43f377ff35079e069c4` read **45 whole teaching bodies, 24 EN/21
+CURRENT RU** (four primary pairs, 17 context pairs and three EN-only comparison bodies 差/平和/平等),
+**85 whole official TEXT units** (19 KANJIDIC2, three radical-evidence units, 59 JMdict, four
+KanjiPedia) plus one provider header, all 375 CURRENT typed rows, 12 original directions, four L/four A
+rulings, four outside LIMITS, six exact NAV diffs, four guidance files and three RU rubrics — **57
+complete windows**, 61 commands: 60 successful plus one stdout delivery attempt that failed its own
+11000-byte size assertion (11151 bytes, exit 1, not a report) before a successful shortened retry;
+identical opening/closing gates, zero glyph pixels and zero web pages. The original **7101-byte stdout
+report**, SHA256 `0f4d7d14afd930e561b4debfa9d79b81a89055528b92a9f409820f4495a81ee0`, equal to the
+reviewer's 7100-byte native final plus one terminal LF, is published verbatim (its Snapshot line drops
+the last hex digit of the candidate hash; both gates verified the full hash). Actual verdicts: **C1
+CLEAN**, **C2 UNVERIFIED** (NAV diffs and links verified; ordinary active-negative quiz/fallback
+behaviour not checked), **C3 CLEAN**; findings none confirmed; optional none.
+
+All 12 directions are **S-intro** (introductory/source-core only, canonical author mapping Q); all 12
+ordinary uses stay **U** (metadata retention is not guard approval); the reviewer notes the real サ
+reading overlap for 差→左. All four L rulings are SUPPORTED and all four A rulings
+SOURCE-SUPPORTED/BOUNDED; all six NAV changes are NAV-ONLY; outside LIMITS (差 vs 間 «промежуток»/別/他/
+変/交; 平 vs 和/安/世 with the Russian «мир» homonym/公; 幸 vs 福/運 «удача»/喜/楽/好/不; 幾 vs 何/多/少) are
+observations, not new guards and not cleared for future options.
+
+The [qualified source record](translation-batches/108-difference-peace-fortune-and-how-many-kanji-reviewed-source.json) preserves 2244 other baseline
+runtime RAWs/tracking rows and all 1478 word metadata/quiz arrays. Qualified source checkpoint:
+**2258 runtime/1478 words/375 kanji/375 strokes**; words 671 N5/636 N4/97 N3/19 N2/55 unlabelled
+unchanged; kanji 80 N5/166 N4/**127 N3**/2 N2; **240 N3 remain**. Strict progress: **2258
+reviewed-current/two excluded reviewed blocked-media drafts/6018 pending of 8278; 6020 runtime
+paths absent**. Version `2dff1832b3fa8bda`; checkpoint authority null/Ready false. Prior 082–107
+U qualifications remain unchanged; the existing unlinked 完 mention in RU 院.md and the RU 留守
+wording outside this batch remain open observations. Protected 033 WORD空 stays
+excluded/runtime-absent/not media. No device/media/default/package/release authority. Continue 109+
+and **ALL remaining safe frozen levels/families**, not finite completion.
+
+## Previous qualified source milestone: batch107
 
 Batch107 adds **two complete Russian frozen N3 lessons, 局/居, 117 file lines**,
 and two RAW-identical Japanese KanjiVG assets. One whole current word body receives a
