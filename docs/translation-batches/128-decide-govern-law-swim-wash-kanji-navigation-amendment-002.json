@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "batch": "128-decide-govern-law-swim-wash-kanji",
+  "recordedAt": "2026-11-10T09:04:50+01:00",
+  "stage": "PRE-MUTATION NAVIGATION AMENDMENT; NO CHANGES TO THESE PATHS YET",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "64c4f2144ae8c42ea813050470adc9d40137a629",
+  "candidateBranch": "full-ru-128-decide-water-wash-kanji",
+  "priorFreeze": "docs/translation-batches/128-decide-govern-law-swim-wash-kanji-source-adjudication-and-semantic-freeze-001.json",
+  "priorNavigationAmendment": "docs/translation-batches/128-decide-govern-law-swim-wash-kanji-pre-mutation-navigation-amendment-001.json",
+  "trigger": {
+    "command": "python -X utf8 -B tools/validate.py",
+    "candidateManifestVersion": "54b1bf70565af71c",
+    "exitCode": 1,
+    "finding": "The validator reported nine existing reviewed-current word pages whose kanji metadata now has an available lesson but whose explanatory text lacks the required navigation link. The returned output contained only these nine missing-link findings.",
+    "outputDomain": "The command result was returned by the execution tool; no raw stdout artifact or stdout-byte hash is claimed."
+  },
+  "additionalNavigationOnlyPages": [
+    {
+      "path": "words/お手洗い.md",
+      "statusAtBaseline": "reviewed-current",
+      "location": "## Как сочетаются кандзи",
+      "oldVisibleText": "洗 даёт あら в 洗い, «мытьё».",
+      "newVisibleText": "[洗](../kanji/洗.md) даёт あら в 洗い, «мытьё»."
+    },
+    {
+      "path": "words/文法.md",
+      "statusAtBaseline": "reviewed-current",
+      "location": "## Как сочетаются кандзи",
+      "oldVisibleText": "а 法 — правило или способ.",
+      "newVisibleText": "а [法](../kanji/法.md) — правило или способ."
+    },
+    {
+      "path": "words/水泳.md",
+      "statusAtBaseline": "reviewed-current",
+      "location": "## Как сочетаются кандзи",
+      "oldVisibleText": "и 泳, «плавать»,",
+      "newVisibleText": "и [泳](../kanji/泳.md), «плавать»,"
+    },
+    {
+      "path": "words/決して.md",
+      "statusAtBaseline": "reviewed-current",
+      "location": "## Как сочетаются кандзи",
+      "oldVisibleText": "決 даёт ассоциацию",
+      "newVisibleText": "[決](../kanji/決.md) даёт ассоциацию"
+    },
+    {
+      "path": "words/決まる.md",
+      "statusAtBaseline": "reviewed-current",
+      "location": "## Как сочетаются кандзи",
+      "oldVisibleText": "決 связан с определением или решением.",
+      "newVisibleText": "[決](../kanji/決.md) связан с определением или решением."
+    },
+    {
+      "path": "words/治る.md",
+      "statusAtBaseline": "reviewed-current",
+      "location": "## Как сочетаются кандзи",
+      "oldVisibleText": "治 связано с исцелением.",
+      "newVisibleText": "[治](../kanji/治.md) связано с исцелением."
+    },
+    {
+      "path": "words/法律.md",
+      "statusAtBaseline": "reviewed-current",
+      "location": "## Как сочетаются кандзи",
+      "oldVisibleText": "И 法, и 律 связаны с правилами, законами.",
+      "newVisibleText": "И [法](../kanji/法.md), и 律 связаны с правилами, законами."
+    },
+    {
+      "path": "words/泳ぎ方.md",
+      "statusAtBaseline": "reviewed-current",
+      "location": "## Как сочетаются кандзи",
+      "oldVisibleText": "泳 взято из 泳ぐ（およぐ）, «плавать».",
+      "newVisibleText": "[泳](../kanji/泳.md) взято из 泳ぐ（およぐ）, «плавать»."
+    },
+    {
+      "path": "words/洗濯.md",
+      "statusAtBaseline": "reviewed-current",
+      "location": "## Как сочетаются кандзи",
+      "oldVisibleText": "洗, «мыть», и 濯, «полоскать; мыть», соединяются как せん + たく.",
+      "newVisibleText": "[洗](../kanji/洗.md), «мыть», и 濯, «полоскать; мыть», соединяются как せん + たく."
+    }
+  ],
+  "scopeBoundary": {
+    "newNavigationPages": 9,
+    "additionalSemanticChanges": [],
+    "newWordPages": [],
+    "changesAreOnlyRelativeLinks": true,
+    "totalNavigationOnlyPagesIncludingAmendment001": 14,
+    "totalExpectedAffectedRuntimePaths": 28,
+    "totalNewRuntimeObjects": 14,
+    "allPriorMutationScopeRemainsUnchanged": true
+  },
+  "authorizationBoundary": "This amendment authorizes only the nine exact relative-link wrappers above before those nine paths are mutated. It does not authorize revisions to any Russian or Japanese meaning, metadata, examples, grading, quiz behavior, or word content."
+}
