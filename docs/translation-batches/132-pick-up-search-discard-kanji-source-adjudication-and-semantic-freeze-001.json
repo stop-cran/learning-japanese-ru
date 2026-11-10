@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "batchId": "132-pick-up-search-discard-kanji",
+  "freezeState": "signed before learner-content mutation",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "f6f67d33ce2f155acb3e4fb0aae92a3b7a1e6bca",
+  "frozenLessons": ["拾", "捜", "捨"],
+  "metadataDecisions": [
+    {
+      "kanji": "拾",
+      "sourceMetadata": {
+        "title": "pick up; gather",
+        "jlpt": 2,
+        "tags": ["jlpt-n2", "grade-3", "structure-unclassified"],
+        "strokes": 9,
+        "radical": "手",
+        "radicalNumber": 64,
+        "onyomi": ["シュウ", "ジュウ"],
+        "kunyomi": ["ひろ.う"],
+        "distractors": ["捨", "指", "押"]
+      },
+      "kanjidic2": {
+        "strokes": 9,
+        "classicalRadicalNumber": 64,
+        "on": ["シュウ", "ジュウ"],
+        "kun": ["ひろ.う"],
+        "legacyJlptValue": 2
+      }
+    },
+    {
+      "kanji": "捜",
+      "sourceMetadata": {
+        "title": "search; look for",
+        "jlpt": 2,
+        "tags": ["jlpt-n2", "grade-8", "structure-unclassified"],
+        "strokes": 10,
+        "radical": "手",
+        "radicalNumber": 64,
+        "onyomi": ["ソウ", "シュ", "シュウ"],
+        "kunyomi": ["さが.す"],
+        "distractors": ["押", "捨", "招"]
+      },
+      "kanjidic2": {
+        "strokes": 10,
+        "classicalRadicalNumber": 64,
+        "on": ["ソウ", "シュ", "シュウ"],
+        "kun": ["さが.す"],
+        "legacyJlptValue": 2
+      }
+    },
+    {
+      "kanji": "捨",
+      "sourceMetadata": {
+        "title": "discard; abandon",
+        "jlpt": 2,
+        "tags": ["jlpt-n2", "grade-6", "structure-unclassified"],
+        "strokes": 11,
+        "radical": "手",
+        "radicalNumber": 64,
+        "onyomi": ["シャ"],
+        "kunyomi": ["す.てる"],
+        "distractors": ["拾", "持", "招"]
+      },
+      "kanjidic2": {
+        "strokes": 11,
+        "classicalRadicalNumber": 64,
+        "on": ["シャ"],
+        "kun": ["す.てる"],
+        "legacyJlptValue": 2
+      }
+    }
+  ],
+  "evidence": {
+    "kanjidic2Capture": {
+      "privateArtifact": "ru-132-kanjidic2-primary-capture-001.json",
+      "rawSha256": "affa2c8436bffddcc4832fa1146e4742bdd6e83490e884be17dd38e2a928b7c5",
+      "archiveSha256": "e26e34c9187a786bf1f0b21f87e311a9b0ed644aefe9693d10bdc7cb8643d8e0",
+      "recordsRead": ["拾", "捜", "捨"],
+      "interpretation": "The captured records agree with source strokes, classical radical numbers and the frozen on/kun lists; their legacy JLPT value is 2. Retain the source community jlpt: 2 field without inferring broader level policy."
+    },
+    "jmdictCapture": {
+      "privateArtifact": "ru-132-jmdict-primary-capture-001.json",
+      "rawSha256": "ef382fdbd72b5700d8d597059acac769d050a593007722b5eff06d59100eb20e",
+      "archiveSha256": "5af39046e9579fd5e14d07a048fccce422b8df0d940ba8c086439e5a7617eab6",
+      "entriesRead": [
+        "拾う/ひろう 1332570",
+        "拾得/しゅうとく 1332580",
+        "十/じゅう, legal-document 拾 1579840",
+        "捜査/そうさ 1399660",
+        "捜索/そうさく 1399690",
+        "探す・捜す/さがす 1593670",
+        "捨てる/すてる 1322320",
+        "取捨/しゅしゃ 1327040",
+        "取捨選択/しゅしゃせんたく 1327050",
+        "四捨五入/ししゃごにゅう 1307250",
+        "投げる/なげる 1447000"
+      ],
+      "complete捜ReadingSearch": {
+        "completeEntriesWith捜InWrittenForm": 74,
+        "entriesWithReadingsシュOrシュウ": 0,
+        "interpretation": "A full archive search found no lexical example with written 捜 and reading シュ or シュウ. Keep those KANJIDIC2 readings explicitly qualified as character-dictionary readings, not ordinary word-writing recommendations."
+      },
+      "interpretation": "The full matched entries and their forms, readings, senses, and restrictions were inspected. JMdict supports the scoped examples and the qualified 探す/捜す tendency; it does not establish frequency, unrestricted naturalness, learner-safe quiz negatives, or all possible word dependencies."
+    },
+    "strokeAssets": {
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "reuseByteIdentically": true,
+      "glyphPixelsVisuallyInspected": false
+    }
+  },
+  "scopeAndInvariants": {
+    "translateTheCompleteFrozenLearnerFacingBodies": true,
+    "preserveJapaneseExamplesReadingsFormsAndPunctuation": true,
+    "preserveSourceJlptTagsStrokesRadicalsReadingsAndDistractors": true,
+    "keepStructureUnclassifiedMetadata": true,
+    "mnemonicsMustRemainExplicitlyNonEtymological": true,
+    "doNotInferFrequencyOrUniqueness": true,
+    "doNotAddWordPages": true,
+    "doNotChangeQuizOrGradingMetadata": true,
+    "doNotAddQuizGuards": true,
+    "reuseStrokeFilesByteIdentically": true,
+    "optionalLinksToUnavailableRussianWordPagesMustBeRemovedWithoutRemovingVisibleJapanese": true
+  },
+  "openQuestions": [
+    "All 9 ordinary direct distractor directions remain UNVERIFIED until independent review; no grading guard is accepted by this freeze.",
+    "No native-speaker certification, glyph-pixel inspection, app, device, release, media-package or ordinary-activation approval is authorized here."
+  ]
+}
