@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "batchId": "129-floating-depth-and-settlement-kanji",
+  "recordedAt": "2026-11-10T10:52:39+01:00",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "bd941bc6d71b1f21cc675efa4f2332cb524a4b4e",
+  "candidateCommit": "5399dc2c36d550e45ea5991aa32590e9a17fb88d",
+  "candidateTree": "d1bb6ab29d5abac3c24321addbb85c5f11478e5c",
+  "independentReview": "docs/translation-batches/129-floating-depth-and-settlement-kanji-independent-review-001.json",
+  "reportOriginalSha256": "36223748b7d27c0d1f61713ced220bacf7295749ced32e1bcfbf7fb9655f5863",
+  "sourceAcceptance": "Qualified for source content/progress only, within the scoped dispositions below; does not approve quiz grading, runtime activation, app/device use, release, or full completion.",
+  "qualifiedVerdicts": {
+    "C1": "CLEAN within the four complete Russian lessons, their frozen Japanese examples/readings and the cited KANJIDIC2/JMdict facts actually reviewed; no supported Japanese-content finding. The frozen community N3 classification was retained as editorial classification, not represented as an official syllabus.",
+    "C2": "UNVERIFIED overall for ordinary negative/fallback quiz safety. The exact candidate scope and six NAV-only edits match the amendments; no grading guard is approved. All 12 direct directions remain UNVERIFIED.",
+    "C3": "CLEAN within the four complete Russian lessons and six authorized NAV-only word-page changes; not native-speaker or learning-outcome certification."
+  },
+  "supportedFindings": [],
+  "findingDispositions": [],
+  "ordinaryQuizNegativeEdges": {
+    "status": "UNVERIFIED",
+    "directions": [
+      "浮→学",
+      "浮→字",
+      "浮→深",
+      "消→青",
+      "消→泳",
+      "消→深",
+      "深→泳",
+      "深→浮",
+      "深→洗",
+      "済→深",
+      "済→洗",
+      "済→活"
+    ],
+    "metadataPreservationIsNotApproval": true,
+    "runtimeAcceptedAnswerPathAndSenseConstraintsReviewed": false,
+    "guardsAdded": []
+  },
+  "reviewScope": {
+    "newLessons": 4,
+    "strokeFiles": 4,
+    "navigationOnlyPages": 6,
+    "allCandidateBodiesRead": true,
+    "allSixWordPagesRead": true,
+    "allFourKanjiMetadataRecordsRead": true,
+    "completeJmdictEntriesRead": 15,
+    "additionalCompleteJmdictEntriesRead": 2,
+    "allApplicableGuidanceAndRubricsRead": true,
+    "exactCandidateCommitEstablishedAfterReview": false,
+    "postReviewRawDifference": "Line-ending-only restoration of words/消える.md and words/消す.md; final bytes equal frozen baseline plus the single authorized wrapper. The reviewer report remains immutable."
+  },
+  "limitations": [
+    "No runtime/app answer-operation or sense-constraint review; no ordinary-negative approval.",
+    "No app/device/native-speaker/frequency/corpus/handwriting-rendering review; no full-corpus approval.",
+    "The reviewer did not run manifest generation, validator, tests, or content-budget checks; these are recorded separately.",
+    "The reviewer noted tools/__pycache__ as outside batch scope; contents were not inspected.",
+    "The source captures contain complete serialized XML records, not raw archive fragments."
+  ],
+  "runtimeAcceptance": false,
+  "publicationIntegrated": false,
+  "fullTranslationComplete": false
+}

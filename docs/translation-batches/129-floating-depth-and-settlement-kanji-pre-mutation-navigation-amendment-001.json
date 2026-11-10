@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "batch": "129-floating-depth-and-settlement-kanji",
+  "recordedAt": "2026-11-10T10:19:14+01:00",
+  "stage": "PRE-MUTATION NAVIGATION AMENDMENT; NO RUNTIME CHANGES YET",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "bd941bc6d71b1f21cc675efa4f2332cb524a4b4e",
+  "candidateBranch": "full-ru-129-floating-depth-and-settlement-kanji",
+  "sourceFreeze": "docs/translation-batches/129-floating-depth-and-settlement-kanji-source-adjudication-and-semantic-freeze-001.json",
+  "reason": "The frozen English lessons have optional relative links to pending or absent Russian word pages. These examples remain useful as plain Japanese text, and this batch does not expand into those independent word translations. Six existing reviewed-current Russian word pages have a newly available kanji lesson and need only the exact navigation wrappers below.",
+  "unavailableSourceWordLinks": [
+    {
+      "lesson": "kanji/浮.md",
+      "target": "words/浮く.md",
+      "occurrences": 3,
+      "disposition": "Remove each Markdown link wrapper and retain the visible Japanese spelling."
+    },
+    {
+      "lesson": "kanji/浮.md",
+      "target": "words/浮かぶ.md",
+      "occurrences": 3,
+      "disposition": "Remove each Markdown link wrapper and retain the visible Japanese spelling."
+    },
+    {
+      "lesson": "kanji/浮.md",
+      "target": "words/浮かべる.md",
+      "occurrences": 2,
+      "disposition": "Remove each Markdown link wrapper and retain the visible Japanese spelling."
+    }
+  ],
+  "navigationOnlyPages": [
+    {
+      "path": "words/消える.md",
+      "baselineStatus": "reviewed-current",
+      "oldVisibleText": "消 связано с исчезновением или угасанием.",
+      "newVisibleText": "[消](../kanji/消.md) связано с исчезновением или угасанием."
+    },
+    {
+      "path": "words/消しゴム.md",
+      "baselineStatus": "reviewed-current",
+      "oldVisibleText": "消し происходит от",
+      "newVisibleText": "[消](../kanji/消.md)し происходит от"
+    },
+    {
+      "path": "words/消す.md",
+      "baselineStatus": "reviewed-current",
+      "oldVisibleText": "消 передаёт тушение или устранение чего-либо.",
+      "newVisibleText": "[消](../kanji/消.md) передаёт тушение или устранение чего-либо."
+    },
+    {
+      "path": "words/深い.md",
+      "baselineStatus": "reviewed-current",
+      "oldVisibleText": "深 передаёт значение глубины,",
+      "newVisibleText": "[深](../kanji/深.md) передаёт значение глубины,"
+    },
+    {
+      "path": "words/済む.md",
+      "baselineStatus": "reviewed-current",
+      "oldVisibleText": "済 связан с завершением, улаживанием и передаёт す.",
+      "newVisibleText": "[済](../kanji/済.md) связан с завершением, улаживанием и передаёт す."
+    },
+    {
+      "path": "words/経済.md",
+      "baselineStatus": "reviewed-current",
+      "oldVisibleText": "а среди значений 済 — урегулирование, доведение до завершения.",
+      "newVisibleText": "а среди значений [済](../kanji/済.md) — урегулирование, доведение до завершения."
+    }
+  ],
+  "exactUnavailableWrapperCount": 8,
+  "newWordPages": [],
+  "otherSemanticChanges": [],
+  "authorizationBoundary": "This amendment authorizes only the listed optional link-wrapper removals and six exact navigation-only wrappers. It does not authorize Japanese fact, reading, title, grading, quiz behavior, or word-content changes."
+}

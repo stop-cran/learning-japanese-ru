@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "batch": "129-floating-depth-and-settlement-kanji",
+  "recordedAt": "2026-11-10T10:19:14+01:00",
+  "stage": "DEPENDENCY-CLOSED INTAKE; PRE-MUTATION FREEZE RECORDED",
+  "candidateBranch": "full-ru-129-floating-depth-and-settlement-kanji",
+  "russianBaselineSnapshot": "bd941bc6d71b1f21cc675efa4f2332cb524a4b4e",
+  "frozenEnglishSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineProgress": {
+    "path": "docs/translation-progress.json",
+    "rawSha256": "e8da28297e821e30d74281c23c4ee2806a223a8cde93b623e132931643705afd",
+    "trackingRawSha256": "1f58024a76947bad799388177af06167a12b87b94d154cddad0d5ccce8183650",
+    "russianContentVersion": "67eb914ece3e362f",
+    "reviewedCurrent": 2448,
+    "reviewedRuntimeBlockedDrafts": 2,
+    "pending": 5828,
+    "frozenInventory": 8278,
+    "acceptedWords": 1478,
+    "acceptedKanji": 470,
+    "acceptedStrokes": 470,
+    "checkpointAuthority": null,
+    "ready": false
+  },
+  "selection": {
+    "firstPendingFrozenN3RootsSelected": ["浮", "消", "深", "済"],
+    "selectionBoundary": "Selected the first four pending roots in the frozen N3 list for a bounded independent batch; this is not N3 or finite completion.",
+    "closedNewKanji": ["浮", "消", "深", "済"],
+    "closureRule": "Include direct source distractor providers that are pending; do not infer transitive quiz exclusions.",
+    "closureSize": 4,
+    "allProvidersAcceptedOrIncluded": true,
+    "notAllN3OrFiniteCompletion": true,
+    "allFrozenFamiliesContinue": true
+  },
+  "newKanji": [
+    {
+      "kanji": "浮",
+      "sourceGitRawSha256": "1039bc8fd01ab08e76f2e00707fcd940b851670aad9b68c8e79a17ec48e3ec09",
+      "sourceGitBlob": "59c23fa403c15150680ba0c5ae8c6a8e7e7be164",
+      "strokeSourceGitRawSha256": "544df10a0d2024aa99b1d1c9481d00cb118ce59dd461f15b59fbc17f985417c8",
+      "strokeSourceGitBlob": "e27cc58fc2b69950c634aee75df973447a79aafd",
+      "baselineStatus": "pending",
+      "metadata": {
+        "kanji": "浮",
+        "title": "float",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-8", "structure-unclassified"],
+        "strokes": 10,
+        "radical": "水",
+        "radicalNumber": 85,
+        "onyomi": ["フ"],
+        "kunyomi": ["う.く", "う.かれる", "う.かぶ", "う.かべる"],
+        "distractors": ["学", "字", "深"]
+      }
+    },
+    {
+      "kanji": "消",
+      "sourceGitRawSha256": "71c957771ace6fa820f0477350bafc5cb8307e4aab67760920cac203a17cf55e",
+      "sourceGitBlob": "98637cc3ae0121ad244df1de17eac8ba5eedff9c",
+      "strokeSourceGitRawSha256": "a19c63608b260b6796d329384383940693afb8f6b7530d7c80c6ff3069936031",
+      "strokeSourceGitBlob": "43bb1ca0e1e726cfa125b6e70145c6205989b796",
+      "baselineStatus": "pending",
+      "metadata": {
+        "kanji": "消",
+        "title": "extinguish; erase",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-3", "structure-unclassified"],
+        "strokes": 10,
+        "radical": "水",
+        "radicalNumber": 85,
+        "onyomi": ["ショウ"],
+        "kunyomi": ["き.える", "け.す"],
+        "distractors": ["青", "泳", "深"]
+      }
+    },
+    {
+      "kanji": "深",
+      "sourceGitRawSha256": "6d89c36ecd8f99bc1f4643a88f5c2798edf06c3d6a54e9f9af0ad7b9be4b54ea",
+      "sourceGitBlob": "71ecfc002ad9bc1e3be8e04db3947d6990690da6",
+      "strokeSourceGitRawSha256": "af9788e727fef44402f211f22f1b3e2d69907b8567e702f074b57d06239599e8",
+      "strokeSourceGitBlob": "3384460f2ad7be63af58f9b4e297314c28836baf",
+      "baselineStatus": "pending",
+      "metadata": {
+        "kanji": "深",
+        "title": "deep",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-3", "structure-unclassified"],
+        "strokes": 11,
+        "radical": "水",
+        "radicalNumber": 85,
+        "onyomi": ["シン"],
+        "kunyomi": ["ふか.い", "-ぶか.い", "ふか.まる", "ふか.める", "み-"],
+        "distractors": ["泳", "浮", "洗"]
+      }
+    },
+    {
+      "kanji": "済",
+      "sourceGitRawSha256": "c65b4c51f0f77c6117c3c8b689bc3e21551c9b7ba11d30feb3ddc3876384f9cb",
+      "sourceGitBlob": "e978ce8f4c6dfba1aa3841d2360b13aabba7aedd",
+      "strokeSourceGitRawSha256": "1ab7850eb28935f701ab244fc4c879d0a5aed6466c8ef8be73f50590b535f75f",
+      "strokeSourceGitBlob": "defd635648201c46b944d4af13c35d5f54dbaee8",
+      "baselineStatus": "pending",
+      "metadata": {
+        "kanji": "済",
+        "title": "settle; finish",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-6", "structure-unclassified"],
+        "strokes": 11,
+        "radical": "水",
+        "radicalNumber": 85,
+        "onyomi": ["サイ", "セイ"],
+        "kunyomi": ["す.む", "-ず.み", "-ずみ", "す.まない", "す.ます", "-す.ます", "すく.う", "な.す", "わたし", "わた.る"],
+        "distractors": ["深", "洗", "活"]
+      }
+    }
+  ],
+  "directProviders": {
+    "浮": {"学": "reviewed-current", "字": "reviewed-current", "深": "included"},
+    "消": {"青": "reviewed-current", "泳": "reviewed-current", "深": "included"},
+    "深": {"泳": "reviewed-current", "浮": "included", "洗": "reviewed-current"},
+    "済": {"深": "included", "洗": "reviewed-current", "活": "reviewed-current"}
+  },
+  "availableSourceWordLinksToPreserve": [
+    {"lesson": "kanji/消.md", "target": "words/消す.md", "sourceOccurrences": 3},
+    {"lesson": "kanji/深.md", "target": "words/深い.md", "sourceOccurrences": 3},
+    {"lesson": "kanji/済.md", "target": "words/経済.md", "sourceOccurrences": 3}
+  ],
+  "unavailableOptionalSourceWordLinks": [
+    {"lesson": "kanji/浮.md", "target": "words/浮く.md", "occurrences": 3, "baselineStatus": "pending"},
+    {"lesson": "kanji/浮.md", "target": "words/浮かぶ.md", "occurrences": 3, "baselineStatus": "pending"},
+    {"lesson": "kanji/浮.md", "target": "words/浮かべる.md", "occurrences": 2, "baselineStatus": "pending"}
+  ],
+  "navigationOnlyWordPages": [
+    "words/消える.md",
+    "words/消しゴム.md",
+    "words/消す.md",
+    "words/深い.md",
+    "words/済む.md",
+    "words/経済.md"
+  ],
+  "newWordPages": [],
+  "privatePrimaryEvidence": {
+    "kanjidic2": {
+      "artifact": "ru-129-metadata-primary-capture-001.json",
+      "sha256": "6026551eab8723d7fb9a42d1f846af77651392f3de3a329c6096440e947c4752",
+      "archiveSha256": "e26e34c9187a786bf1f0b21f87e311a9b0ed644aefe9693d10bdc7cb8643d8e0",
+      "databaseVersion": "2026-308"
+    },
+    "jmdict": {
+      "artifact": "ru-129-jmdict-primary-capture-001.json",
+      "sha256": "5dda763757143e449d4eb06bf716b3113c406f0e7218430032cacbf4f34ab2f9",
+      "archiveSha256": "5af39046e9579fd5e14d07a048fccce422b8df0d940ba8c086439e5a7617eab6",
+      "entryIds": ["1497420", "1497430", "1497360", "1431670", "1350110", "1350040", "1350160", "1362640", "1362660", "1362680", "1362710", "1390800", "1295070", "1295030", "1251320"]
+    },
+    "communityJlptN3": {
+      "artifact": "ru-127-frozen-n3-source-snapshot-001.json",
+      "sha256": "4ffdacad14efcdee13e504a36f5705bc2226ea763bf46a00369c1bf6040b28e8",
+      "url": "https://kanjiapi.dev/v1/kanji/jlpt-3",
+      "scope": "A community list used only as a frozen ordering/classification input; it is not an official JLPT syllabus."
+    },
+    "unicodeRadicalRows": {
+      "sourceVersion": "17.0.0",
+      "archiveSha256": "2e1efc1dcb59c575eedf5ccae60f95229f706ee6d031835247d843c11d96470c",
+      "row": {"number": 85, "glyph": "水", "codepoint": "2F54"},
+      "priorReviewedRecord": "docs/translation-batches/127-capture-hanging-search-population-kanji-source-adjudication-and-semantic-freeze-001.json"
+    },
+    "strokes": {
+      "project": "KanjiVG",
+      "revision": "70a0b7ae0c18ceb5cb358274b029cce0234a43bc",
+      "operation": "Copy exact bytes from the frozen English source commit; do not edit or regenerate these four stroke JSON files."
+    }
+  },
+  "sourceInventory": {
+    "frozenEnglishCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "runtimeInventory": 8278,
+    "targetChangedDuringBatch": false
+  }
+}
