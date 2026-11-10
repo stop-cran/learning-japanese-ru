@@ -132,6 +132,34 @@ remains preserved. Continue every remaining safe batch; no runtime, device,
 media, release, ordinary-activation, checkpoint, or full-translation approval
 is implied.
 
+## Batch139: qualified source acceptance recorded, publication pending
+
+Batch139 adds complete Russian lessons and byte-identical frozen-source stroke
+assets for 緒/罪/置/美/老/職, with four preauthorized NAV-only wrappers on
+existing word pages. Nine optional wrappers to unavailable word targets were
+omitted while preserving visible Japanese labels and all learner-facing text.
+No new word pages, quiz data, or grading behavior changed.
+
+The signed pre-mutation freeze is `3176366a836108f05398dc752c2fc037d0eb0ac4`.
+Independent review 001 found bounded C1 CLEAN, C2 UNVERIFIED overall (all 18
+ordinary negative/fallback directions remained UNVERIFIED), and a C3
+novice-clarity finding about unexplained on/kun terminology. A signed
+pre-mutation terminology amendment
+`96d3484e8311bb793f5a5793a827bbdf2a93e05b` authorized only that clarification;
+focused follow-up review 002 marked the finding resolved without widening C1/C2
+scope. The signed runtime candidate is
+`020b8fc924b33c3b132665060e80bc6b453ee86d`; content version
+`87be278411d3648a`.
+
+The [qualified source record](translation-batches/139-thread-crime-place-beauty-age-work-kanji-reviewed-source.json),
+[review receipt](translation-batches/139-thread-crime-place-beauty-age-work-kanji-independent-review-receipt-001.json),
+and [final validation](translation-batches/139-thread-crime-place-beauty-age-work-kanji-final-validation-001.json)
+record **2,566 reviewed-current / 2 excluded reviewed runtime-blocked / 5,710
+pending of 8,278**, with 1,478 words / 529 kanji / 529 strokes. This is
+qualified source progress only; publication verification, exact-main CI,
+public-archive checks, protected-ref checks, and issue-progress update remain
+pending for this batch.
+
 ## Previous published source milestone: batch134 smoke, cat, birth, stay and turn kanji
 
 Batch134 was integrated through
