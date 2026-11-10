@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "batchId": "130-crossing-harbor-fullness-performance-kanji",
+  "recordedAt": "2026-11-10T11:44:19+01:00",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "6a1bb488ecfc1926f6fb2e57962b1fee40174fc2",
+  "candidateCommit": "e539cf3c51bfe5fb38621e36fc172effa2f37003",
+  "candidateTree": "17b25b2c947a64275101444391d6253a6454acdc",
+  "independentReview": "docs/translation-batches/130-crossing-harbor-fullness-performance-kanji-independent-review-001.json",
+  "reviewReportSha256": "7240a0428a63250d32d89cec04d38b7da46598a5b0f006e0b5941430b5fd1c80",
+  "sourceAcceptance": "Qualified for source content/progress only, within the scoped dispositions below; does not approve quiz grading, runtime activation, app/device use, release, or full completion.",
+  "qualifiedVerdicts": {
+    "C1": "UNVERIFIED. The read-only review found no supported Japanese-content defect. A supplemental complete JMdict capture confirms the kana-only standalone entry バス (1098390) means “bus”; it still does not attest the complete sentence バスは満員です, so naturalness remains unverified. Frozen Japanese facts/examples remain unchanged.",
+    "C2": "UNVERIFIED overall for ordinary negative/fallback quiz safety. Candidate paths and exact authorized navigation changes match the freeze/amendments; all 12 direct directions remain UNVERIFIED. No grading guard is approved.",
+    "C3": "UNVERIFIED. The text-only pass found no supported novice-blocking defect; this is not native-speaker or learning-outcome certification."
+  },
+  "supportedFindings": [],
+  "findingDispositions": [],
+  "sourceEvidenceFollowUp": {
+    "privateArtifact": "ru-130-jmdict-bus-entry-supplement-001.json",
+    "rawSha256": "fabd91113093943565abb1146e30a2a060679d5492178b7d278902aee000b7ff",
+    "exactEntry": "1098390",
+    "disposition": "Supplement only; immutable reviewer report is not rewritten or retroactively upgraded. The remaining whole-sentence naturalness question stays UNVERIFIED."
+  },
+  "ordinaryQuizNegativeEdges": {
+    "status": "UNVERIFIED",
+    "directions": [
+      "渡→度",
+      "渡→法",
+      "渡→港",
+      "港→満",
+      "港→洗",
+      "港→演",
+      "満→海",
+      "満→港",
+      "満→深",
+      "演→漢",
+      "演→港",
+      "演→満"
+    ],
+    "metadataPreservationIsNotApproval": true,
+    "runtimeAcceptedAnswerPathAndSenseConstraintsReviewed": false,
+    "guardsAdded": []
+  },
+  "reviewScope": {
+    "completeRussianLessonsRead": 4,
+    "frozenEnglishCounterpartsRead": 4,
+    "strokeFilesByteCompared": 4,
+    "completeNavigationWordPagesRead": 5,
+    "existingDirectProviderCardsRead": [
+      "度",
+      "法",
+      "洗",
+      "海",
+      "深",
+      "漢"
+    ],
+    "kanjidic2RecordsRead": 4,
+    "completeJmdictRecordsRead": 18,
+    "applicableGuidanceAndRubricsRead": true,
+    "allCandidateBodiesRead": true,
+    "candidateRuntimeScopeMatchesAmendments": true,
+    "notReviewedByOriginalReviewer": [
+      "other plan updates in the base-to-candidate diff",
+      "batch-129 publication-verification record"
+    ]
+  },
+  "limitations": [
+    "No app/runtime answer operation or sense-constraint review; no ordinary-negative approval.",
+    "No app/device/native-speaker/frequency/corpus/handwriting-rendering review; no full-corpus approval.",
+    "Reviewer did not run validator/tests/content budget; those checks are captured separately.",
+    "Supplemental JMdict word entry does not establish naturalness of the full bus sentence.",
+    "Original reviewer did not examine other plan updates or the batch-129 publication record; writer inspected the actual candidate-base diff and those documents separately."
+  ],
+  "runtimeAcceptance": false,
+  "publicationIntegrated": false,
+  "fullTranslationComplete": false
+}
