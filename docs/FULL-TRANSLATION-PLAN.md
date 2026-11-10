@@ -1,6 +1,29 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch127 capture and search kanji
+## Current published source milestone: batch128 decide, govern, law, swim and wash kanji
+
+Batch128 added seven complete Russian kanji lessons (決/治/法/泳/洗/活/流),
+seven byte-identical frozen-source stroke assets, and only the 14 preauthorized
+navigation links on existing word pages. The qualified review found no supported
+Japanese-content or Russian-comprehension issue within scope. C1 and C3 are CLEAN
+only within their recorded boundaries; C2 remains UNVERIFIED for all 21 ordinary
+negative quiz directions, with no grading guard approved.
+
+The [qualified source record](translation-batches/128-decide-govern-law-swim-wash-kanji-reviewed-source.json)
+records **2,448 reviewed-current / 2 excluded reviewed runtime-blocked drafts /
+5,828 pending of 8,278**, with 1,478 words / 470 kanji / 470 strokes. Content
+version is `67eb914ece3e362f`; checkpoint authority remains null and `Ready` false.
+The [publication verification](translation-batches/128-decide-govern-law-swim-wash-kanji-publication-verification-001.json)
+records owner-signed branch commits, PR #12 integration at main
+`bd941bc6d71b1f21cc675efa4f2332cb524a4b4e`, exact-main CI, actual public ZIP and
+tar.gz byte comparisons (including all required licenses/notices), four unchanged
+protected refs, and the issue #3 progress comment. The GitHub-generated merge
+commit is separately recorded with its verified `web-flow` platform identity.
+This is qualified source-content acceptance only; it is not runtime, device,
+release, ordinary-activation, or full-translation approval. Continue batch129 and
+every remaining safe frozen family.
+
+## Previous published source milestone: batch127 capture and search kanji
 
 Batch127 adds five complete Russian frozen-community N3 lessons, 捕/掛/探/民/求, and five
 byte-identical frozen KanjiVG stroke files. Five existing word pages receive only planned
@@ -6255,8 +6278,8 @@ lessons and the authorized navigation changes; C2 remains UNVERIFIED for all
 activation, device or release approval is implied. `checkpointAuthority` remains
 null, `checkpointReady` remains false, and full translation is not complete.
 
-At this writing the candidate is pushed on its short-lived branch but has not
-been integrated or published on `main`. Complete signed normal PR integration,
-exact-main CI, public archive and protected-ref verification before starting
-batch 129. Then continue through every remaining safe frozen family; do not
-treat the candidate milestone or a convenient batch boundary as completion.
+Batch128 is now integrated and verified as recorded above. Batch129 begins from
+the exact published main baseline; its pre-mutation freeze selects the first four
+remaining frozen N3 roots, 浮/消/深/済, and their direct provider closure. This is
+not N3 completion: continue through every remaining safe frozen family and do not
+treat a candidate milestone or a convenient batch boundary as completion.

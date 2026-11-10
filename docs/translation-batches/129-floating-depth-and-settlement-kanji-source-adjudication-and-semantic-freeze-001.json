@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "batch": "129-floating-depth-and-settlement-kanji",
+  "recordedAt": "2026-11-10T10:19:14+01:00",
+  "stage": "PRE-MUTATION SOURCE AND SEMANTIC FREEZE; AUTHORING NOT STARTED",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineSnapshot": "bd941bc6d71b1f21cc675efa4f2332cb524a4b4e",
+  "intake": "docs/translation-batches/129-floating-depth-and-settlement-kanji-intake.json",
+  "navigationAmendment": "docs/translation-batches/129-floating-depth-and-settlement-kanji-pre-mutation-navigation-amendment-001.json",
+  "frozenMutationScope": {
+    "newLessons": ["kanji/浮.md", "kanji/消.md", "kanji/深.md", "kanji/済.md"],
+    "byteIdenticalStrokeCopies": ["strokes/浮.json", "strokes/消.json", "strokes/深.json", "strokes/済.json"],
+    "navigationOnlyWordPages": ["words/消える.md", "words/消しゴム.md", "words/消す.md", "words/深い.md", "words/済む.md", "words/経済.md"],
+    "optionalUnavailableLessonLinkWrappersRemoved": {
+      "amendment": "docs/translation-batches/129-floating-depth-and-settlement-kanji-pre-mutation-navigation-amendment-001.json",
+      "exactOccurrenceCount": 8
+    },
+    "expectedNewRuntimePathCount": 8,
+    "expectedAffectedRuntimePathCount": 14,
+    "newWordPages": [],
+    "otherRuntimeChanges": []
+  },
+  "semanticInvariants": {
+    "sourceKanjiIdsReadingsStrokesRadicalsJlptTagsAndDistractorArrays": "Preserve exact frozen-source values; do not revise Japanese facts or grading metadata within this translation batch.",
+    "sourceExamples": "Preserve the Japanese examples, readings, word forms, roles, and stated meanings. Russian translations must not add unsupported outcomes, frequency, register, causality, or certainty.",
+    "jlpt": "Retain the frozen community N3 classification as an editorial classification; do not call it an official JLPT syllabus.",
+    "mnemonics": "Translate the modern-shape mnemonics as invented visual memory aids, not historical derivations, etymology, or phonetic analysis.",
+    "readingTypeGloss": "After ## Чтения, use the previously accepted concise explanation once in each new lesson: «Онное чтение (онъёми) — японское чтение знака, которое восходит к китайскому произношению; кунное чтение (кунъёми) — японское слово, закреплённое за знаком как его перевод.» This is the established learner-clarity adaptation, not a new kanji metadata or historical claim.",
+    "floating": "Distinguish holding at the surface/rising to the surface from 泳, which concerns swimming; preserve the separate word senses of floating, surfacing, and coming to mind without making them interchangeable.",
+    "disappearingAndExtinguishing": "Preserve the transitive/intransitive distinction between 消す and 消える, including the を/が roles; do not add a cause to the intransitive form.",
+    "depth": "Keep the lesson's core physical meaning of depth distinct from generic size; preserve the useful, bounded contrast with 浅い.",
+    "settlement": "Distinguish intransitive completion/settlement with 済む from transitive finishing with 済ます; teach 経済 as a lexicalized word, not a literal composition of kanji glosses.",
+    "unavailableWordTargets": "Remove only the eight optional Markdown-link wrappers listed in the pre-mutation amendment; retain their visible Japanese words. Do not create word pages in this batch.",
+    "existingWordPages": "Apply only the six exact NAV wrappers authorized in the pre-mutation amendment; no Japanese text, Russian word meaning, examples, metadata, or quiz behavior may change.",
+    "quiz": "Preserve the frozen direct distractor arrays. All twelve source-directed ordinary negative/fallback directions remain UNVERIFIED; no guard or runtime grading approval is authorized."
+  },
+  "sourceAdjudications": {
+    "kanjidic2": {
+      "sourceUrl": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz",
+      "archiveSha256": "e26e34c9187a786bf1f0b21f87e311a9b0ed644aefe9693d10bdc7cb8643d8e0",
+      "databaseVersion": "2026-308",
+      "captureArtifact": "ru-129-metadata-primary-capture-001.json",
+      "captureSha256": "6026551eab8723d7fb9a42d1f846af77651392f3de3a329c6096440e947c4752",
+      "selectedFields": "Exact Japanese on/kun reading lists and dot/hyphen divisions, primary stroke counts, school-grade metadata, and classical radical numbers for all four IDs. The legacy JLPT field is not modern-level evidence."
+    },
+    "radical": {
+      "number": 85,
+      "glyph": "水",
+      "evidence": "The exact KANJIDIC2 records use classical radical number 85. The prior reviewed Unicode 17 source capture maps U+2F54 to 水.",
+      "unicode17Evidence": "docs/translation-batches/127-capture-hanging-search-population-kanji-source-adjudication-and-semantic-freeze-001.json",
+      "unicode17SourceVersion": "17.0.0",
+      "unicode17SourceSha256": "2e1efc1dcb59c575eedf5ccae60f95229f706ee6d031835247d843c11d96470c"
+    },
+    "communityJlptN3": {
+      "sourceSnapshot": "ru-127-frozen-n3-source-snapshot-001.json",
+      "sourceSha256": "4ffdacad14efcdee13e504a36f5705bc2226ea763bf46a00369c1bf6040b28e8",
+      "scope": "The community list orders remaining N3 candidates; it is not an official JLPT syllabus."
+    },
+    "jmdict": {
+      "sourceUrl": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+      "archiveSha256": "5af39046e9579fd5e14d07a048fccce422b8df0d940ba8c086439e5a7617eab6",
+      "captureArtifact": "ru-129-jmdict-primary-capture-001.json",
+      "captureSha256": "5dda763757143e449d4eb06bf716b3113c406f0e7218430032cacbf4f34ab2f9",
+      "entryIds": ["1497420", "1497430", "1497360", "1431670", "1350110", "1350040", "1350160", "1362640", "1362660", "1362680", "1362710", "1390800", "1295070", "1295030", "1251320"],
+      "useBoundary": "Read exact spelling/reading forms and cited senses for lesson examples; dictionary inclusion does not establish frequency, N3 membership, or the naturalness of an unlisted example."
+    },
+    "strokes": {
+      "project": "KanjiVG",
+      "revision": "70a0b7ae0c18ceb5cb358274b029cce0234a43bc",
+      "requiredOperation": "Copy exact bytes from the frozen English source commit; do not regenerate or manually alter the four stroke JSON files."
+    }
+  },
+  "quizDisposition": {
+    "sourceDirectedNegativeEdges": [
+      "浮→学", "浮→字", "浮→深",
+      "消→青", "消→泳", "消→深",
+      "深→泳", "深→浮", "深→洗",
+      "済→深", "済→洗", "済→活"
+    ],
+    "canonicalStatus": "UNVERIFIED for every ordinary active-negative/fallback use unless later independent review resolves a specific direction with evidence.",
+    "readingNegativeRejections": [],
+    "approvedNewGuards": [],
+    "metadataPreservationIsNotApproval": true
+  },
+  "runtimeMutationOccurred": false
+}
