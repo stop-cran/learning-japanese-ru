@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "batchId": "134-smoke-cat-birth-stay-turn-kanji",
+  "status": "candidate scope frozen before learner-content mutation",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "4b02253e38a0cad270b36c8f363cbc7699fdb21d",
+  "selection": {
+    "sourceSnapshot": "docs/n3-source-snapshot.json",
+    "sourceSnapshotGitBlob": "b18b0a72779488538324a0b48c82e2684ea89d71",
+    "sourceSnapshotRawSha256": "4ffdacad14efcdee13e504a36f5705bc2226ea763bf46a00369c1bf6040b28e8",
+    "rule": "first five pending kanji in the frozen jlptN3.additions order",
+    "firstPendingAtFreeze": [
+      "煙",
+      "猫",
+      "産",
+      "留",
+      "番",
+      "疑",
+      "登",
+      "皆",
+      "盗",
+      "直"
+    ],
+    "selectedKanji": [
+      "煙",
+      "猫",
+      "産",
+      "留",
+      "番"
+    ]
+  },
+  "currentAcceptedProgress": {
+    "countsByStatus": {
+      "pending": 5780,
+      "reviewed-current": 2496,
+      "draft-reviewed-runtime-blocked": 2
+    },
+    "total": 8278,
+    "progressVersion": "9889ff4126ffc763",
+    "checkpointAuthority": null,
+    "checkpointReady": false
+  },
+  "scope": {
+    "kanjiLessons": [
+      "煙",
+      "猫",
+      "産",
+      "留",
+      "番"
+    ],
+    "strokeAssets": "reuse exact frozen source bytes for all five selected characters",
+    "wordPages": 0,
+    "navigationAmendment": "134-smoke-cat-birth-stay-turn-kanji-pre-mutation-navigation-amendment-001.json",
+    "navigationWrapperCount": 14,
+    "directDistractorEdgeCount": 15
+  },
+  "sourceEvidence": {
+    "kanjidic2PrivateArtifact": {
+      "filename": "ru-134-kanjidic2-primary-capture-001.json",
+      "bytes": 15055,
+      "rawSha256": "79fb2dc838c5d0826346363742f55142c3d41a9559fb39eb5fd389551d967ce6",
+      "sourceArchiveSha256": "e26e34c9187a786bf1f0b21f87e311a9b0ed644aefe9693d10bdc7cb8643d8e0",
+      "recordsRead": [
+        "煙",
+        "猫",
+        "産",
+        "留",
+        "番"
+      ]
+    },
+    "jmdictPrivateArtifact": {
+      "filename": "ru-134-jmdict-primary-capture-001.json",
+      "bytes": 13010,
+      "rawSha256": "6d47a2de1f563d15a19701b53110beb87011336154b14fa792f60d11974895e1",
+      "sourceArchiveSha256": "5af39046e9579fd5e14d07a048fccce422b8df0d940ba8c086439e5a7617eab6",
+      "entriesRead": [
+        "1151020",
+        "1165970",
+        "1177180",
+        "1241490",
+        "1310670",
+        "1339010",
+        "1378990",
+        "1449220",
+        "1467640",
+        "1482290",
+        "1552740",
+        "1552760",
+        "1588410",
+        "1593380",
+        "2022640"
+      ]
+    },
+    "allCaptureHashesUseTheirOwnRawByteDomain": true
+  },
+  "nonGoals": [
+    "No word pages are added.",
+    "No learner-facing prose outside the five complete kanji lessons is authorized to change.",
+    "No JLPT, reading, stroke, radical, level, title, distractor, quiz, answer, or grading metadata changes are authorized.",
+    "No quiz safety or grading approval is implied.",
+    "No stroke-pixel, media, native-speaker, app, device, release, or ordinary-activation approval is implied."
+  ]
+}
