@@ -1,6 +1,6 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch129 floating, depth and settlement kanji
+## Current published source milestone: batch129 floating, depth and settlement kanji
 
 Batch129 adds four complete Russian frozen-community N3 lessons (浮/消/深/済),
 four byte-identical frozen-source stroke assets, and six authorized NAV-only
@@ -15,11 +15,15 @@ The [qualified source record](translation-batches/129-floating-depth-and-settlem
 records **2,456 reviewed-current / 2 excluded reviewed runtime-blocked drafts /
 5,820 pending of 8,278**, with 1,478 words / 474 kanji / 474 strokes. Content
 version is `c428c2168b28da5c`; checkpoint authority remains null and `Ready`
-false. This candidate is not yet integrated or published; normal signed PR,
-exact-main CI, public archive, protected-ref and issue-progress verification
-remain. It is source-content qualification only, not runtime, device, release,
+false. PR [#13](https://github.com/stop-cran/learning-japanese-ru/pull/13)
+integrated at main `6a1bb488ecfc1926f6fb2e57962b1fee40174fc2`. Exact-main CI
+passed; the actual public ZIP and tar.gz exports matched the exact Git archive
+path-by-path and byte-for-byte, all required notices/licenses were present, all
+four protected refs were unchanged, and issue #3 progress was updated. See the
+[publication verification](translation-batches/129-floating-depth-and-settlement-kanji-publication-verification-001.json).
+This is source-content qualification only, not runtime, device, release,
 ordinary-activation or full-translation approval. Continue batch130 and every
-remaining safe frozen family after publication.
+remaining safe frozen family.
 
 ## Previous published source milestone: batch128 decide, govern, law, swim and wash kanji
 
