@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "batchId": "132-pick-up-search-discard-kanji",
+  "status": "pre-mutation-freeze",
+  "sourceRepository": "stop-cran/learning-japanese",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineRepository": "stop-cran/learning-japanese-ru",
+  "baselineCommit": "f6f67d33ce2f155acb3e4fb0aae92a3b7a1e6bca",
+  "baselineContentVersion": "d8a791473ae509d9",
+  "baselineProgress": {
+    "frozenInventory": 8278,
+    "reviewedCurrent": 2484,
+    "excludedReviewedRuntimeBlocked": 2,
+    "pending": 5792,
+    "acceptedWords": 1478,
+    "acceptedKanji": 488,
+    "acceptedStrokes": 488,
+    "checkpointAuthority": null,
+    "checkpointReady": false
+  },
+  "theme": "picking up, searching, and discarding",
+  "sourceAdjudication": "docs/translation-batches/132-pick-up-search-discard-kanji-source-adjudication-and-semantic-freeze-001.json",
+  "navigationAmendment": "docs/translation-batches/132-pick-up-search-discard-kanji-pre-mutation-navigation-amendment-001.json",
+  "newLessons": [
+    {
+      "kanji": "拾",
+      "sourcePath": "kanji/拾.md",
+      "sourceGitBlob": "3ed1f9fb694fdae8a5a335824346f1b36d5f2f71",
+      "sourceRawSha256": "94798475b593116960bc101351175bf75c4f6c9abeab37fa2df2565409e2541c",
+      "strokePath": "strokes/拾.json",
+      "strokeGitBlob": "9618d732e14c5ef5340aca7c74d4a5602b8e08e5",
+      "strokeRawSha256": "7c814813fecd619cb260b8005e0d60f4a9f6ca799a1c9ab3009ee3886f806464"
+    },
+    {
+      "kanji": "捜",
+      "sourcePath": "kanji/捜.md",
+      "sourceGitBlob": "52c685bde51b24d09f627dcc60fde2c7705504bc",
+      "sourceRawSha256": "002d4bd29995d7d6c3df42c79df3fb0d0cd9c5d9678d26d881bc9c29f3542832",
+      "strokePath": "strokes/捜.json",
+      "strokeGitBlob": "5c148912c6e37e718ddb6f9144bcad20dd6b7b2f",
+      "strokeRawSha256": "b43211af6b55d8af8276b37522793fb0c6707678a793fe4b0b261e82414c498c"
+    },
+    {
+      "kanji": "捨",
+      "sourcePath": "kanji/捨.md",
+      "sourceGitBlob": "0fce563f5e2241571e90f942e9208e77511ce3c0",
+      "sourceRawSha256": "1ad23784445a47fc736a7308a85c76dce795de592c37ce91bba62e43afc99afa",
+      "strokePath": "strokes/捨.json",
+      "strokeGitBlob": "9c137e6787f4d8a9a7ecafe9a28f1128d6cdce1a",
+      "strokeRawSha256": "4da0885adbb2683f675739568544d0f838c3b0661854bf47021d7a6d4a309870"
+    }
+  ],
+  "plannedRuntimeScope": {
+    "newKanjiLessons": 3,
+    "newByteIdenticalStrokeAssets": 3,
+    "navigationOnlyWordPages": [
+      "words/拾う.md",
+      "words/探す.md",
+      "words/捨てる.md",
+      "words/塵.md",
+      "words/投げる.md",
+      "words/落す.md"
+    ],
+    "newWordPages": 0,
+    "quizOrGradingChanges": 0,
+    "otherRuntimePaths": 0
+  },
+  "directQuizDependencies": [
+    ["拾", "捨"],
+    ["拾", "指"],
+    ["拾", "押"],
+    ["捜", "押"],
+    ["捜", "捨"],
+    ["捜", "招"],
+    ["捨", "拾"],
+    ["捨", "持"],
+    ["捨", "招"]
+  ],
+  "quizDisposition": {
+    "allDirectDirections": "UNVERIFIED",
+    "metadataRetentionIsNotGradingApproval": true,
+    "acceptedAnswerPathAndSenseConstraintsReviewed": false,
+    "guardsAdded": []
+  },
+  "sourceCaptures": {
+    "kanjidic2": {
+      "privateArtifact": "ru-132-kanjidic2-primary-capture-001.json",
+      "rawSha256": "affa2c8436bffddcc4832fa1146e4742bdd6e83490e884be17dd38e2a928b7c5",
+      "sourceArchive": "ru-019-kanjidic2.xml.gz",
+      "sourceArchiveSha256": "e26e34c9187a786bf1f0b21f87e311a9b0ed644aefe9693d10bdc7cb8643d8e0"
+    },
+    "jmdict": {
+      "privateArtifact": "ru-132-jmdict-primary-capture-001.json",
+      "rawSha256": "ef382fdbd72b5700d8d597059acac769d050a593007722b5eff06d59100eb20e",
+      "sourceArchive": "ru-041-official-JMdict-e-001.gz",
+      "sourceArchiveSha256": "5af39046e9579fd5e14d07a048fccce422b8df0d940ba8c086439e5a7617eab6"
+    }
+  },
+  "authorityLimits": {
+    "runtimeActivation": false,
+    "mediaOrPackageApproval": false,
+    "deviceOrReleaseApproval": false,
+    "fullTranslationCompletion": false
+  }
+}

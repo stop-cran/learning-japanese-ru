@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "batchId": "132-pick-up-search-discard-kanji",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "candidateCommit": "1619774212fecce63acf398f5591e114c597acc4",
+  "candidateTree": "ecf21e1b4e1a6fa734a7651aa569a68d6d56cb91",
+  "contentVersion": "d152c624bd2043cd",
+  "execution": {
+    "order": "Serial after candidate, tracking and progress updates.",
+    "environment": "Python UTF-8 output enabled; bytecode writing disabled with -B. No runtime source, media, or device authority is implied."
+  },
+  "commands": [
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools/build_manifest.py"
+      ],
+      "exitCode": 0,
+      "stdout": "manifest.json: 2490 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version d152c624bd2043cd\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools/validate.py"
+      ],
+      "exitCode": 0,
+      "stdout": "0 error(s)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools",
+        "-p",
+        "test_*.py"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 34.040s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools/check_content_budget.py"
+      ],
+      "exitCode": 0,
+      "stdout": "{'files': 2498, 'entries': 2507, 'retainedBytes': 6919711, 'inflatedBytes': 6937926, 'localZipBytes': 3485186, 'listeningTaskMediaBytes': 0}\n",
+      "stderr": ""
+    }
+  ],
+  "manifest": {
+    "rawBytes": 222679,
+    "rawSha256": "d5bd7c9496f3bd3b8a15ccef9811fedbb1b5fb7ed36b7949e4c2085e76eeed59",
+    "contentVersion": "d152c624bd2043cd"
+  },
+  "contentBudget": {
+    "files": 2498,
+    "entries": 2507,
+    "retainedBytes": 6919711,
+    "inflatedBytes": 6937926,
+    "localZipBytes": 3485186,
+    "listeningTaskMediaBytes": 0
+  },
+  "privateConsoleReceipt": {
+    "artifact": "ru-132-final-validation-console-001.json",
+    "rawSha256": "a9658c88beaa081f43ff35786e73efe289f07f68328a4987839125b34483ca03"
+  },
+  "qualification": "These checks validate repository structure, tests and packaging budget only; they do not resolve any of the nine ordinary quiz directions or expand the independent review C1/C2/C3 scope."
+}

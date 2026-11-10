@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "132-pick-up-search-discard-kanji",
+  "reviewer": {
+    "mode": "independent-read-only",
+    "executionId": null,
+    "executionIdUnavailable": true,
+    "separateRawStdoutAvailable": false
+  },
+  "snapshot": {
+    "candidateCommit": "1619774212fecce63acf398f5591e114c597acc4",
+    "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f"
+  },
+  "report": {
+    "path": "docs/translation-batches/132-pick-up-search-discard-kanji-independent-review-001.md",
+    "utf8Bytes": 7293,
+    "rawSha256": "b7f7e0f8b949089e13cd91060ef1cef762ff80ae4a65f13431a815b4e11d5b8a",
+    "captureDomain": "Raw UTF-8 bytes of the saved working-tree Markdown report at capture; Git blob identity is recorded separately below. No separate reviewer stdout stream was available.",
+    "gitBlobSha": "1f792ff10ededb9b35adb3cb4b5afb89b71e3e7a",
+    "gitBlobUtf8Bytes": 7190
+  },
+  "qualifiedVerdicts": {
+    "C1": "ACCEPTABLE WITH EVIDENCE LIMITS. No concrete factual error was established in the reviewed scope. KANJIDIC2 entries for 拾/捜/捨 were read; JMdict findings were limited to the captured batch entries and targeted matches, not a line-by-line display of the full 24-KB capture.",
+    "C2": {
+      "scopeNavigationDependencies": "CONSISTENT WITH THE SIGNED SCOPE. Three lessons, three stroke assets, and five NAV-only word-page changes were checked; the correction removing words/投げる.md from scope was confirmed.",
+      "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all nine direct directions; no grading approval."
+    },
+    "C3": "NO CONFIRMED NOVICE-CLARITY DEFECT IN THE READ SCOPE. This is not native-speaker certification or a learning-outcome claim."
+  },
+  "supportedFindings": [],
+  "unresolved": {
+    "ordinaryQuizDirections": [
+      "拾→捨",
+      "拾→指",
+      "拾→押",
+      "捜→押",
+      "捜→捨",
+      "捜→招",
+      "捨→拾",
+      "捨→持",
+      "捨→招"
+    ],
+    "otherLimits": [
+      "Quiz execution, accepted-answer paths, complete candidate pools, sense constraints and fallback behavior were not established.",
+      "JMdict was not line-by-line reread as the entire displayed capture; conclusions remain limited to reported targeted entries and search-result summary.",
+      "No native-speaker certification, glyph-pixel inspection, app/device/release acceptance, media approval or ordinary-activation approval."
+    ],
+    "gradingGuardAdded": false,
+    "metadataRetentionIsNotGradingApproval": true
+  },
+  "exactReadCoverage": {
+    "candidateLessons": [
+      "kanji/拾.md",
+      "kanji/捜.md",
+      "kanji/捨.md"
+    ],
+    "frozenSourceLessons": [
+      "kanji/拾.md",
+      "kanji/捜.md",
+      "kanji/捨.md"
+    ],
+    "changedWordPagesReadInFull": [
+      "words/拾う.md",
+      "words/探す.md",
+      "words/捨てる.md",
+      "words/塵.md",
+      "words/落す.md"
+    ],
+    "scopeCorrectionCheck": [
+      "words/投げる.md",
+      "docs/translation-batches/132-pick-up-search-discard-kanji-navigation-scope-correction-001.json"
+    ],
+    "guidance": [
+      ".github/copilot-instructions.md",
+      ".github/instructions/content-structure.instructions.md",
+      ".github/agents/kanji-accuracy-reviewer.agent.md",
+      ".github/agents/kanji-comprehension-reviewer.agent.md",
+      ".github/agents/content-consistency-reviewer.agent.md",
+      "docs/content-format-reference.md",
+      "applicable translation-methodology rules"
+    ],
+    "primaryCaptures": [
+      "ru-132-kanjidic2-primary-capture-001.json",
+      "ru-132-jmdict-primary-capture-001.json"
+    ],
+    "strokeAssetsComparedToFrozenSource": [
+      "strokes/拾.json",
+      "strokes/捜.json",
+      "strokes/捨.json"
+    ],
+    "directDistractorDirections": 9
+  },
+  "authority": {
+    "qualifiedSourceProgressOnly": true,
+    "runtimeAcceptance": false,
+    "quizGradingApproval": false,
+    "appDeviceMediaReleaseApproval": false,
+    "ordinaryActivationApproval": false,
+    "fullTranslationCompletion": false
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "batchId": "132-pick-up-search-discard-kanji",
+  "status": "frozen before candidate runtime mutation",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "f6f67d33ce2f155acb3e4fb0aae92a3b7a1e6bca",
+  "scope": "Navigation markup only in existing word pages. Visible Japanese and Russian wording, metadata, examples, quiz arrays, IDs, levels and reading data are invariant.",
+  "wordPageWrappers": [
+    {
+      "path": "words/拾う.md",
+      "baselineGitBlob": "09728b7a415522ec100ea1826405f2044797ac34",
+      "baselineRawSha256": "9c695ca57133439d0615e695c3763fd6c2d0e39da1635fad9d69449627bf0069",
+      "replaceExactlyOnce": {
+        "old": "拾 передаёт исконное чтение ひろ,",
+        "new": "[拾](../kanji/拾.md) передаёт исконное чтение ひろ,"
+      }
+    },
+    {
+      "path": "words/探す.md",
+      "baselineGitBlob": "d3ae562c418955e5891e07f492d571df4c79b7f6",
+      "baselineRawSha256": "16a0844de7a931a9fab86116d68c1171d91d54465ea9d6001b61031d8f43d136",
+      "replaceExactlyOnce": {
+        "old": "а 捜す（さがす）— с потерянным.",
+        "new": "а [捜](../kanji/捜.md)す（さがす）— с потерянным."
+      }
+    },
+    {
+      "path": "words/捨てる.md",
+      "baselineGitBlob": "ba6842ad2342da15b53fb5a91fe44d9029929da8",
+      "baselineRawSha256": "5315c70d0a3f169251848bb0662cff643276dabfe9fa1d452bd63856c5bd7430",
+      "replaceExactlyOnce": {
+        "old": "捨 передаёт идею отбрасывания",
+        "new": "[捨](../kanji/捨.md) передаёт идею отбрасывания"
+      }
+    },
+    {
+      "path": "words/塵.md",
+      "baselineGitBlob": "de84d4102189aeafe116be0c53abc77d6ccc4675",
+      "baselineRawSha256": "110723e0b09249404e2ed508f2f4f821176842a87b4da5e94d242e11e0792867",
+      "replaceExactlyOnce": {
+        "old": "ごみはここに捨てないでください。",
+        "new": "ごみはここに[捨](../kanji/捨.md)てないでください。"
+      }
+    },
+    {
+      "path": "words/投げる.md",
+      "baselineGitBlob": "f599e823f608b0103f3cf8fc848fb434b9fc50ea",
+      "baselineRawSha256": "b297ff878e88f06832c3ae9244bf97cce88f3b214c2106236f6035f2486f948f",
+      "replaceExactlyOnce": {
+        "old": "а не 捨てる.",
+        "new": "а не [捨](../kanji/捨.md)てる."
+      }
+    },
+    {
+      "path": "words/落す.md",
+      "baselineGitBlob": "5bff3d2f8146ee41b2b0d65bf925b38f580f25b3",
+      "baselineRawSha256": "47169e12f589600f0e8fd926cf3c94b7720f35fc56a182811ead3e6d549474ad",
+      "replaceExactlyOnce": {
+        "old": "拾う, «подбирать», описывает возможное последующее действие,",
+        "new": "[拾](../kanji/拾.md)う, «подбирать», описывает возможное последующее действие,"
+      }
+    }
+  ],
+  "optionalSourceLinkWrappersRemovedBecauseRussianTargetsAreAbsent": [
+    {
+      "lessonPath": "kanji/捜.md",
+      "target": "words/捜す.md",
+      "sourceOccurrences": 2,
+      "candidateTreatment": "Keep 捜す and its reading visible as plain Japanese; do not link to an absent Russian article or create a new word page."
+    },
+    {
+      "lessonPath": "kanji/捨.md",
+      "target": "words/四捨五入.md",
+      "sourceOccurrences": 2,
+      "candidateTreatment": "Keep 四捨五入 and its reading visible as plain Japanese; do not link to the pending Russian page or create a new word page."
+    }
+  ],
+  "retainedLinks": [
+    {
+      "lessonPath": "kanji/拾.md",
+      "link": "[拾う](../words/拾う.md)",
+      "reason": "The target is present and reviewed-current in the RU baseline."
+    },
+    {
+      "lessonPath": "kanji/捜.md",
+      "link": "[探す](../words/探す.md)",
+      "reason": "The target is present and reviewed-current; the lesson preserves the dictionary's qualified spelling tendency."
+    },
+    {
+      "lessonPath": "kanji/捨.md",
+      "link": "[捨てる](../words/捨てる.md)",
+      "reason": "The target is present and reviewed-current in the RU baseline."
+    },
+    {
+      "lessonPath": "kanji/捨.md",
+      "link": "[投](投.md)",
+      "reason": "The target kanji card is present in the RU baseline."
+    }
+  ],
+  "limits": {
+    "newWordPages": 0,
+    "newQuizGuards": 0,
+    "newGradingRules": 0,
+    "proseChangesAuthorizedByThisAmendment": false,
+    "unlistedNavigationEditsAuthorized": false
+  }
+}

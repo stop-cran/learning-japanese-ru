@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "batchId": "132-pick-up-search-discard-kanji",
+  "status": "signed correction before proceeding with remaining navigation mutations",
+  "supersedes": {
+    "artifact": "docs/translation-batches/132-pick-up-search-discard-kanji-pre-mutation-navigation-amendment-001.json",
+    "scope": "Only the proposed words/投げる.md wrapper is superseded; every other frozen operation remains unchanged."
+  },
+  "baselineCommit": "f6f67d33ce2f155acb3e4fb0aae92a3b7a1e6bca",
+  "finding": "The baseline words/投げる.md has no learner-facing occurrence of 捨 in prose. Its only occurrence is the quiz_exclusions metadata value, which is not a navigation surface and must not be changed.",
+  "action": "Remove words/投げる.md from the authorized NAV-only pages. No edit to that file was applied.",
+  "effectiveNavigationOnlyWordPages": [
+    "words/拾う.md",
+    "words/探す.md",
+    "words/捨てる.md",
+    "words/塵.md",
+    "words/落す.md"
+  ],
+  "invariants": {
+    "visibleJapaneseAndRussianUnchanged": true,
+    "metadataAndQuizArraysUnchanged": true,
+    "noProseEditsAuthorized": true,
+    "noOtherUnlistedNavigationEditsAuthorized": true
+  }
+}
