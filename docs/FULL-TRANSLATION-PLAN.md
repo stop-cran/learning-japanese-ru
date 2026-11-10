@@ -6389,7 +6389,7 @@ remaining frozen N3 roots, 浮/消/深/済, and their direct provider closure. T
 not N3 completion: continue through every remaining safe frozen family and do not
 treat a candidate milestone or a convenient batch boundary as completion.
 
-## Current continuation after batch 133 candidate
+## Current continuation after batch 133
 
 Batch 133's qualified source candidate is `a003aac9d3c0659d5d5d72ec1a220e43567e3d5c`,
 based on published baseline `dcb272dec45c8a64ba951d7fff56209ae1945660`, with source
@@ -6407,6 +6407,16 @@ runtime-blocked media drafts**, and **5,780 pending** of 8,278 frozen runtime
 entries: 494 kanji, 494 strokes and 1,478 words. Content version is
 `9889ff4126ffc763`; fresh candidate manifest, validator, 124 tests and content
 budget checks passed. `checkpointAuthority` remains null and `checkpointReady`
-false. Candidate integration, public archives, protected refs and exact-main CI
-remain separate publication verification; this is not full translation
-completion. Continue with batch 134 and all remaining safe frozen families.
+false.
+
+Batch 133 is integrated via PR #19 at merge commit
+`e87fcd4b5f68a4babe069549e87b7fe5c9e0c61a`. The exact-main
+`Validate Russian content` push run completed successfully. Actual public commit
+and main ZIP and tar.gz exports each match all 2,504 local Git-archive file
+bodies; all 2,496 runtime manifest hashes and 494 frozen stroke RAWs were
+verified, and root license/notice files are present. All four protected refs
+remain unchanged. Details and distinct archive hash domains are recorded in
+`docs/translation-batches/133-king-presence-ball-kanji-publication-verification-001.json`.
+No grading, runtime activation, device, media, release, or ordinary-activation
+approval is implied. The finite translation remains in progress; continue with
+batch 134 and all remaining safe frozen families.

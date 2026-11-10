@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "batchId": "133-king-presence-ball-kanji",
+  "recordedAt": "2026-11-10",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "publishedBaseline": "dcb272dec45c8a64ba951d7fff56209ae1945660",
+  "contentCandidateCommit": "a003aac9d3c0659d5d5d72ec1a220e43567e3d5c",
+  "sourceAcceptanceCommit": "bd48af884ff25396c89251d6d685db38e8f74ea6",
+  "sourceAcceptanceTree": "919a162e48180040eea34a32cc1ea713172b0301",
+  "publishedCommit": "e87fcd4b5f68a4babe069549e87b7fe5c9e0c61a",
+  "publishedTree": "919a162e48180040eea34a32cc1ea713172b0301",
+  "publicationIntegrated": true,
+  "publication": {
+    "repository": "stop-cran/learning-japanese-ru",
+    "branch": "main",
+    "sourceBranch": "full-ru-133-king-presence-ball-kanji",
+    "pullRequest": 19,
+    "pullRequestUrl": "https://github.com/stop-cran/learning-japanese-ru/pull/19",
+    "mergeMethod": "GitHub merge commit",
+    "mergedAt": "2026-11-10T13:34:03Z",
+    "mergeCommit": "e87fcd4b5f68a4babe069549e87b7fe5c9e0c61a",
+    "mergeTreeMatchesSourceAcceptanceTree": true
+  },
+  "signatures": {
+    "ownerSignedCommits": [
+      {
+        "commit": "a003aac9d3c0659d5d5d72ec1a220e43567e3d5c",
+        "localSignature": "G",
+        "githubVerified": true,
+        "githubReason": "valid",
+        "githubAuthor": "stop-cran",
+        "githubCommitter": "stop-cran"
+      },
+      {
+        "commit": "bd48af884ff25396c89251d6d685db38e8f74ea6",
+        "localSignature": "G",
+        "githubVerified": true,
+        "githubReason": "valid",
+        "githubAuthor": "stop-cran",
+        "githubCommitter": "stop-cran"
+      }
+    ],
+    "mergeCommit": {
+      "commit": "e87fcd4b5f68a4babe069549e87b7fe5c9e0c61a",
+      "githubVerified": true,
+      "githubReason": "valid",
+      "githubAuthor": "stop-cran",
+      "githubCommitter": "web-flow",
+      "method": "GitHub-generated merge commit; not an owner-authored commit."
+    }
+  },
+  "exactMainCi": {
+    "workflowName": "Validate Russian content",
+    "runId": 42825698138,
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "headCommit": "e87fcd4b5f68a4babe069549e87b7fe5c9e0c61a",
+    "url": "https://github.com/stop-cran/learning-japanese-ru/actions/runs/42825698138"
+  },
+  "archiveVerification": {
+    "privateReceipt": {
+      "artifact": "ru-133-public-archives-001.json",
+      "rawBytes": 2453,
+      "rawSha256": "075f67d4c64a368cea280fbe5fa90c8f9b571c57bcde328eac587c3be14e73cd"
+    },
+    "gitArchiveExportFileCount": 2504,
+    "gitArchiveZipBytes": 3529719,
+    "gitArchiveZipSha256": "7c0d3031bb60ef3be84ee583a36ce36b359aba0f32cc463e45c24d4c9f33bba4",
+    "zip": {
+      "verified": true,
+      "root": "stop-cran-learning-japanese-ru-e87fcd4/",
+      "fileCount": 2504,
+      "allPathsAndBytesMatchGitArchive": true,
+      "requiredLicenseAndNoticePaths": [
+        "LICENSE",
+        "NOTICE.md",
+        "UNICODE-LICENSE.txt"
+      ]
+    },
+    "tar.gz": {
+      "verified": true,
+      "root": "stop-cran-learning-japanese-ru-e87fcd4/",
+      "fileCount": 2504,
+      "allPathsAndBytesMatchGitArchive": true,
+      "requiredLicenseAndNoticePaths": [
+        "LICENSE",
+        "NOTICE.md",
+        "UNICODE-LICENSE.txt"
+      ]
+    },
+    "commitZipRawBytes": 3670447,
+    "commitZipRawSha256": "b6946fc46d78b519be4d7681dc4e1e94768f049b762a5e8e701c38b47f542153",
+    "mainZipRawBytes": 3670447,
+    "mainZipRawSha256": "b6946fc46d78b519be4d7681dc4e1e94768f049b762a5e8e701c38b47f542153",
+    "commitTarGzRawBytes": 1940080,
+    "commitTarGzRawSha256": "cdbb080da44712aae43726ffcbcf24e4a7a4e89864c4fe756b2ecec994513846",
+    "mainTarGzRawBytes": 1940080,
+    "mainTarGzRawSha256": "cdbb080da44712aae43726ffcbcf24e4a7a4e89864c4fe756b2ecec994513846",
+    "runtimeObjects": 2496,
+    "frozenRawStrokeFiles": 494,
+    "allRuntimeManifestHashesVerified": true,
+    "rawArchiveHashDomain": "Raw bytes of actual public GitHub API archive downloads, distinct from local git-archive compression bytes. Comparison checks every exported path and file byte and honors export-ignore."
+  },
+  "protectedRefsUnchanged": [
+    {
+      "repository": "stop-cran/learning-japanese-ru",
+      "ref": "refs/heads/ru-pilot-a",
+      "commit": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+      "unchanged": true
+    },
+    {
+      "repository": "stop-cran/learning-japanese-ru",
+      "ref": "refs/heads/ru-pilot-b",
+      "commit": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+      "unchanged": true
+    },
+    {
+      "repository": "stop-cran/learning-japanese-ru-integration-test",
+      "ref": "refs/heads/main",
+      "commit": "28b39c15b0d17dbe784e49016076009f75d5ba38",
+      "unchanged": true
+    },
+    {
+      "repository": "stop-cran/learning-japanese-ru-integration-test",
+      "ref": "refs/heads/ru-pilot-b",
+      "commit": "7ce81c74e72fc189185a1bebe71d775379792124",
+      "unchanged": true
+    }
+  ],
+  "ownerIssueProgressComment": {
+    "issueNumber": 3,
+    "url": "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6768784834",
+    "author": "stop-cran",
+    "scope": "Verified batch-133 source publication, progress counts, qualified review boundaries, exact-main CI, public archives and unchanged protected refs."
+  },
+  "qualifiedSourceProgress": {
+    "frozenInventory": 8278,
+    "reviewedCurrent": 2496,
+    "excludedReviewedRuntimeBlocked": 2,
+    "pending": 5780,
+    "acceptedWords": 1478,
+    "acceptedKanji": 494,
+    "acceptedStrokes": 494,
+    "checkpointAuthority": null,
+    "checkpointReady": false
+  },
+  "qualifiedVerdicts": {
+    "C1": "No concrete factual error established in the reviewed scope, with evidence limits; original reviewer report coverage was not fully retained.",
+    "C2": "Scope/navigation is consistent with the signed scope; all nine ordinary negative/fallback directions remain UNVERIFIED.",
+    "C3": "The initial novice-clarity finding was resolved by a focused follow-up on the terminology correction only; not native-speaker certification."
+  },
+  "sourceAcceptance": "Qualified source content/progress only. No grading, runtime, device, media, release, or ordinary-activation approval.",
+  "ordinaryQuizNegativeEdges": {
+    "status": "UNVERIFIED",
+    "directions": [
+      "王→土",
+      "王→工",
+      "王→生",
+      "現→親",
+      "現→見",
+      "現→球",
+      "球→理",
+      "球→現",
+      "球→王"
+    ],
+    "guardsAdded": [],
+    "metadataRetentionIsNotApproval": true
+  },
+  "fullTranslationComplete": false,
+  "continueRequired": "Continue batch 134 and every remaining safe family in the finite frozen inventory; do not claim completion.",
+  "progressSnapshot": {
+    "path": "docs/translation-progress.json",
+    "rawBytes": 5326506,
+    "rawSha256": "117d5bb14e53e8f6dac4065b8545a70453b18c38dfe4df4bde5948788f50da09",
+    "freshRegenerationMatches": true,
+    "statuses": {
+      "reviewed-current": 2496,
+      "draft-reviewed-runtime-blocked": 2,
+      "pending": 5780
+    },
+    "checkpointReady": false
+  }
+}
