@@ -11,7 +11,31 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current published source milestone: batch129 floating, depth and settlement kanji
+## Current published source milestone: batch130 crossing, harbor, fullness and performance kanji
+
+Batch130 adds four complete Russian N3 kanji lessons (渡/港/満/演), four
+byte-identical frozen-source stroke assets, and five preauthorized NAV-only
+word-page updates. Seven unavailable-link wrappers were removed while Japanese
+text was preserved; no word pages or quiz/runtime behavior were added.
+
+The bounded report found no supported findings, but C1/C2/C3 remain UNVERIFIED.
+All 12 ordinary negative/fallback quiz directions remain UNVERIFIED; the
+supplemental バス entry does not establish full-sentence naturalness. This is
+qualified source progress only, with no grading, runtime, native-speaker,
+device, release or ordinary-activation approval.
+
+The [qualified source record](translation-batches/130-crossing-harbor-fullness-performance-kanji-reviewed-source.json)
+records 2,464 reviewed-current / 2 excluded reviewed runtime-blocked drafts /
+5,812 pending of 8,278; 1,478 words / 478 kanji / 478 strokes. Version
+`fadd97d55a215c4d`; checkpoint authority remains null and `Ready` false. PR
+[#14](https://github.com/stop-cran/learning-japanese-ru/pull/14) merged at main
+`08813d0e412a71346ac2d3f2370f90e36dae4038`. Exact-main CI passed; public ZIP
+and tar.gz exports matched the exact Git archive bytes, required licenses/notices
+were present, all four protected refs remained unchanged, and issue #3 progress
+was updated. See the [publication verification](translation-batches/130-crossing-harbor-fullness-performance-kanji-publication-verification-001.json).
+Continue batch131 and every remaining safe frozen family.
+
+## Previous published source milestone: batch129 floating, depth and settlement kanji
 
 Batch129 adds four complete Russian frozen-community N3 lessons, 浮/消/深/済,
 and four byte-identical frozen KanjiVG stroke files. Six existing word pages
