@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "batchId": "126-hand-actions-kanji",
+  "recordedAt": "2026-11-10T07:19:40.684349+01:00",
+  "supersedesCandidateRecordSnapshot": "docs/translation-batches/126-hand-actions-kanji-candidate-001.json",
+  "supersededCandidateRecordSha256": "1bdbeb29b6a0e4f951e38943b471de10b9e16a59da2b3efd854e1fcba8aee152",
+  "reviewedContentCommit": "4f7e9a6a56ca76649f6ce1584196db3053deeea6",
+  "manifestCorrectionCommit": "de42024bced28ffdec67fa8d15d039d1f81e6101",
+  "manifestCorrectionTree": "0da1ab3e8455528ae7f98569a70ca20e6eca1b46",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "3543dceb9e5785dd0d5cdebdbc8ee066c97711f8",
+  "correctionReason": "The candidate manifest had been built before the final Russian wording in kanji/払.md. This follow-up regenerates only the derived manifest after the complete lesson content was committed and reviewed; no learner-facing source text or metadata changed in this correction.",
+  "manifestDiff": {
+    "oldContentVersion": "34a6c23816c83841",
+    "newContentVersion": "7f2c2993ee3d74c2",
+    "changedManifestFileHash": {
+      "path": "kanji/払.md",
+      "old": "85a79549cb174957fa254ff6a07fd66f092abe7cd1fc0161f2dcdd08a8b03f56",
+      "new": "924c0dfad625db729ff9f9a9bf96d276261680f612604633e86b4d59d3c69673"
+    },
+    "allOtherFileHashesUnchanged": true,
+    "exactRuntimeDiffPath": "manifest.json"
+  },
+  "reviewBoundary": "The independent whole-candidate C1/C2/C3 review remains bound to the exact lesson/navigation content commit. The regenerated manifest was verified by fresh manifest build, validator, tests, and budget checks; this generated-file-only correction does not upgrade quiz safety or runtime authority.",
+  "finalValidationArtifact": "docs/translation-batches/126-hand-actions-kanji-final-validation-001.json",
+  "runtimeContentChangedByCorrection": false,
+  "runtimeAcceptance": false,
+  "fullTranslationComplete": false
+}

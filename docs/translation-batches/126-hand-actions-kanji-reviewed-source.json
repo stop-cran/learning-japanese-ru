@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "batchId": "126-hand-actions-kanji",
+  "recordedAt": "2026-11-10T07:19:57.032285+01:00",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "reviewedContentCommit": "4f7e9a6a56ca76649f6ce1584196db3053deeea6",
+  "finalManifestCommit": "de42024bced28ffdec67fa8d15d039d1f81e6101",
+  "finalCandidateTree": "0da1ab3e8455528ae7f98569a70ca20e6eca1b46",
+  "baselineCommit": "3543dceb9e5785dd0d5cdebdbc8ee066c97711f8",
+  "contentVersion": "7f2c2993ee3d74c2",
+  "artifacts": {
+    "sourceFreeze": {
+      "path": "docs/translation-batches/126-hand-actions-kanji-source-adjudication-and-semantic-freeze-001.json",
+      "rawSha256": "1b076cba6ad0412b5729d329cc0a958e23d181ec1ea24ca894099afbb7517ddd"
+    },
+    "navigationAmendment": {
+      "path": "docs/translation-batches/126-hand-actions-kanji-pre-mutation-navigation-amendment-001.json",
+      "rawSha256": "6cb139b1595b812116cedd6be3fced724d593a4824fbb10d6fc745d325e05557"
+    },
+    "candidateRecord": {
+      "path": "docs/translation-batches/126-hand-actions-kanji-candidate-001.json",
+      "rawSha256": "1bdbeb29b6a0e4f951e38943b471de10b9e16a59da2b3efd854e1fcba8aee152"
+    },
+    "qualifiedReview": {
+      "path": "docs/translation-batches/126-hand-actions-kanji-review-qualification-dispositions-001.json",
+      "rawSha256": "2b29f0d2ffd384f2aa91fdc3a73583f0627e722eee80e190ba24f1288981f43c"
+    },
+    "manifestCorrection": {
+      "path": "docs/translation-batches/126-hand-actions-kanji-manifest-regeneration-001.json",
+      "rawSha256": "c88dd90869beb586e750e2bb7e3c1f88ce59b2fbb4bcdbce0434130e98ae0d42"
+    },
+    "finalValidation": {
+      "path": "docs/translation-batches/126-hand-actions-kanji-final-validation-001.json",
+      "rawSha256": "af5b68ca489b64122927ca9932de622cf0609e9c214f1580e066934685dce4f9"
+    }
+  },
+  "scope": {
+    "newLessons": [
+      "打",
+      "払",
+      "投",
+      "折",
+      "抜",
+      "抱",
+      "押",
+      "招",
+      "指"
+    ],
+    "newStrokeAssets": 9,
+    "navigationOnlyPaths": [
+      "words/打つ.md",
+      "words/払う.md",
+      "words/投げる.md",
+      "words/折る.md",
+      "words/折れる.md",
+      "words/押し入れ.md",
+      "words/押す.md",
+      "words/招待.md",
+      "words/指.md",
+      "words/指輪.md"
+    ],
+    "newRuntimeObjects": 18,
+    "affectedRuntimePaths": 28,
+    "optionalUnavailableSourceLinkWrappersRemoved": 12,
+    "newWordPages": 0,
+    "newProviderKanji": 0
+  },
+  "qualifiedVerdicts": {
+    "C1": "CLEAN within the independently reviewed source/lesson boundary; no supported Japanese-fact defect found.",
+    "C2": "CLEAN for exact partial scope, links, direct dependency closure and metadata preservation. All 27 ordinary active-negative quiz directions and runtime grading guards remain UNVERIFIED.",
+    "C3": "CLEAN within nine complete Russian lessons and ten navigation diffs; no native-speaker or learning-outcome claim."
+  },
+  "directedQuizDisposition": {
+    "sourceDirectedEdges": 27,
+    "ordinaryActiveNegative": "UNVERIFIED for every direction; no grading guard approval."
+  },
+  "baselineSourceCheckpoint": {
+    "reviewedCurrent": 2406,
+    "excludedReviewedRuntimeBlocked": 2,
+    "pending": 5870,
+    "frozenInventory": 8278,
+    "checkpointReady": false,
+    "checkpointAuthority": null
+  },
+  "correctionBoundary": "The first candidate record captures the initial code candidate and version 34a6c23816c83841. A manifest-only regeneration after the reviewed lesson text was finalized produced final version 7f2c2993ee3d74c2; see the linked correction record. The learner-facing content remains the independently reviewed content commit.",
+  "runtimeAcceptance": false,
+  "publicationIntegrated": false,
+  "fullTranslationComplete": false,
+  "continueRequired": "Integrate the qualified partial source batch through normal signed publication, then continue all remaining frozen scope."
+}

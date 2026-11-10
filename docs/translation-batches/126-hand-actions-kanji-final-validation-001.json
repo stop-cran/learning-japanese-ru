@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "batch": "126-hand-actions-kanji",
+  "commitAtValidation": "de42024bced28ffdec67fa8d15d039d1f81e6101",
+  "treeAtValidation": "0da1ab3e8455528ae7f98569a70ca20e6eca1b46",
+  "candidateContentVersion": "7f2c2993ee3d74c2",
+  "runs": [
+    {
+      "command": [
+        "python",
+        "tools/build_manifest.py"
+      ],
+      "startedAt": "2026-11-10T06:18:33.638263+00:00",
+      "completedAt": "2026-11-10T06:18:34.542355+00:00",
+      "seconds": 0.906,
+      "returncode": 0,
+      "stdout": "manifest.json: 2424 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 7f2c2993ee3d74c2\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "tools/validate.py"
+      ],
+      "startedAt": "2026-11-10T06:18:34.542355+00:00",
+      "completedAt": "2026-11-10T06:18:41.997012+00:00",
+      "seconds": 7.453,
+      "returncode": 0,
+      "stdout": "0 error(s)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools",
+        "-p",
+        "test_*.py"
+      ],
+      "startedAt": "2026-11-10T06:18:41.997012+00:00",
+      "completedAt": "2026-11-10T06:19:14.096175+00:00",
+      "seconds": 32.094,
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 31.785s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python",
+        "tools/check_content_budget.py"
+      ],
+      "startedAt": "2026-11-10T06:19:14.096175+00:00",
+      "completedAt": "2026-11-10T06:19:15.580251+00:00",
+      "seconds": 1.484,
+      "returncode": 0,
+      "stdout": "{'files': 2432, 'entries': 2441, 'retainedBytes': 6741383, 'inflatedBytes': 6759598, 'localZipBytes': 3399045, 'listeningTaskMediaBytes': 0}\n",
+      "stderr": ""
+    }
+  ],
+  "environmentBoundary": "Four commands ran serially on the exact candidate commit using a fresh child Python-confirmed, exact-owned NTFS temporary fixture under the project; the empty fixture was removed. Existing tools/__pycache__ was preserved. No cache, Git trust, or global settings changed.",
+  "tempRootProbe": {
+    "returncode": 0,
+    "matches": true
+  },
+  "cleanup": "removed-exact-empty-fixture",
+  "allFourFreshSerialChecksPassed": true,
+  "runtimeAcceptance": false,
+  "publicationIntegrated": false,
+  "fullTranslationComplete": false
+}
