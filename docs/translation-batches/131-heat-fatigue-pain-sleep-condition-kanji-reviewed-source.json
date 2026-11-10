@@ -1,4 +1,25 @@
 {
+  "archiveVerification": {
+    "allPathsAndBytesMatchGitArchive": true,
+    "commit": "5c2ac0f4a541136caeba3cbd3154fc3aba0ccc65",
+    "fileCount": 2492,
+    "formats": [
+      "zip",
+      "tar.gz"
+    ],
+    "privateReceipt": {
+      "archivePathSetSha256": "c6e17680177acd48701037650362329d584521a7924c2a656cc6138d74ed0be1",
+      "artifact": "ru-131-public-archives-001.json",
+      "gitArchiveTarBytes": 8806400,
+      "gitArchiveTarSha256": "339d2b288828921b3219ee90270b559239e99bcbf3cb6e6e5abbf0a7fb8346a8",
+      "rawSha256": "3fd2ddcb3adfba64847a4de8028d24016549be21a9078a0a2c51acfa17b557f1"
+    },
+    "requiredLicenseAndNoticePaths": [
+      "LICENSE",
+      "NOTICE.md",
+      "UNICODE-LICENSE.txt"
+    ]
+  },
   "artifacts": {
     "docs/translation-batches/131-heat-fatigue-pain-sleep-condition-kanji-candidate-001.json": {
       "bytes": 4019,
@@ -23,6 +44,10 @@
     "docs/translation-batches/131-heat-fatigue-pain-sleep-condition-kanji-pre-mutation-navigation-amendment-001.json": {
       "bytes": 3910,
       "rawSha256": "42929219d6e7a45817521c7bfe0c1ba164ae592a1916dfd869f42fb4ec6d7d7a"
+    },
+    "docs/translation-batches/131-heat-fatigue-pain-sleep-condition-kanji-publication-verification-001.json": {
+      "bytes": 9197,
+      "rawSha256": "9a9aecb0a67658210b788a7170ede497bc1ea96cc6bab3e6ba409c8d39888b0b"
     },
     "docs/translation-batches/131-heat-fatigue-pain-sleep-condition-kanji-review-qualification-dispositions-001.json": {
       "bytes": 1903,
@@ -63,7 +88,15 @@
   "candidateCommit": "38613291c47b70d434ef23c8ff1cf2c81a9ab0a0",
   "candidateTree": "696465b9a036ca07069bdc085d5dc6bbd5338058",
   "contentVersion": "d8a791473ae509d9",
-  "continueRequired": "Integrate batch131 by normal signed PR; verify exact-main CI, actual public archives, signatures and protected refs; update issue #3 from verified counts, then continue batch132 and every remaining safe frozen family.",
+  "continueRequired": "Continue batch132 and every remaining safe frozen source family; do not claim finite completion.",
+  "exactMainCi": {
+    "conclusion": "success",
+    "headCommit": "5c2ac0f4a541136caeba3cbd3154fc3aba0ccc65",
+    "runId": 42812271809,
+    "status": "completed",
+    "url": "https://github.com/stop-cran/learning-japanese-ru/actions/runs/42812271809",
+    "workflowName": "Validate Russian content"
+  },
   "finalValidationConsole": {
     "privateArtifact": "ru-131-final-validation-console-002.json",
     "rawSha256": "a68f2a24320028cc13537d0c28a8ab15eef95f43a68fcbc7f50ebf6e93ba4cea"
@@ -107,6 +140,11 @@
     "runtimeAcceptedAnswerPathAndSenseConstraintsReviewed": false,
     "status": "UNVERIFIED"
   },
+  "ownerIssueProgressComment": {
+    "issueNumber": 3,
+    "messageScope": "Verified batch-131 publication, exact current progress, qualified review boundaries, and incomplete full translation.",
+    "url": "https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6766815341"
+  },
   "preMutationFreezeCommits": [
     "0027e42cb23f99092b63b1d3b8cdbfaca89f26e8",
     "0f9c2144ed51b61157032529271211255cee8c8d",
@@ -116,7 +154,44 @@
     "privateArtifact": "ru-131-progress-baseline-001.json",
     "rawSha256": "3cbcf724daae0f2dcb3ad567eda08b3c968da4befd1f2df82804a5af3a57ceca"
   },
-  "publicationIntegrated": false,
+  "protectedRefsUnchanged": [
+    {
+      "commit": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+      "ref": "refs/heads/ru-pilot-a",
+      "repository": "stop-cran/learning-japanese-ru",
+      "unchanged": true
+    },
+    {
+      "commit": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+      "ref": "refs/heads/ru-pilot-b",
+      "repository": "stop-cran/learning-japanese-ru",
+      "unchanged": true
+    },
+    {
+      "commit": "28b39c15b0d17dbe784e49016076009f75d5ba38",
+      "ref": "refs/heads/main",
+      "repository": "stop-cran/learning-japanese-ru-integration-test",
+      "unchanged": true
+    },
+    {
+      "commit": "7ce81c74e72fc189185a1bebe71d775379792124",
+      "ref": "refs/heads/ru-pilot-b",
+      "repository": "stop-cran/learning-japanese-ru-integration-test",
+      "unchanged": true
+    }
+  ],
+  "publication": {
+    "branch": "main",
+    "mergeMethod": "GitHub merge commit",
+    "mergedAt": "2026-11-10T12:01:41Z",
+    "pullRequest": 15,
+    "pullRequestUrl": "https://github.com/stop-cran/learning-japanese-ru/pull/15",
+    "sourceBranch": "full-ru-131-heat-fatigue-pain-sleep-condition-kanji"
+  },
+  "publicationIntegrated": true,
+  "publicationVerification": "docs/translation-batches/131-heat-fatigue-pain-sleep-condition-kanji-publication-verification-001.json",
+  "publishedCommit": "5c2ac0f4a541136caeba3cbd3154fc3aba0ccc65",
+  "publishedTree": "885f16fc6ef22bb56981214eefb2a50f045ee391",
   "qualifiedSourceCheckpoint": {
     "acceptedArticles": 2,
     "acceptedCounters": 22,
@@ -154,7 +229,7 @@
     "C2": "UNVERIFIED overall for ordinary negative/fallback quiz safety; all 30 direct directions remain UNVERIFIED.",
     "C3": "UNVERIFIED overall; no specific comprehension defect was substantiated in the complete lesson bodies read; not native-speaker certification."
   },
-  "recordedAt": "2026-11-10T12:58:29.621558+01:00",
+  "recordedAt": "2026-11-10T13:05:49.783964+01:00",
   "runtimeAcceptance": false,
   "schemaVersion": 1,
   "scope": {
