@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "batchId": "132-pick-up-search-discard-kanji",
+  "status": "reviewed-candidate",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "publishedBaseline": "f6f67d33ce2f155acb3e4fb0aae92a3b7a1e6bca",
+  "freezeCommits": [
+    "4c64f8a86635c9b06035d31d5295248f15d42f6d",
+    "2f2b449d6215b3ff8c34287e989b2ae1db9a1d62"
+  ],
+  "candidateCommit": "1619774212fecce63acf398f5591e114c597acc4",
+  "candidateTree": "ecf21e1b4e1a6fa734a7651aa569a68d6d56cb91",
+  "contentVersion": "d152c624bd2043cd",
+  "scope": {
+    "newLessons": ["拾", "捜", "捨"],
+    "newStrokeAssets": 3,
+    "navigationOnlyPaths": [
+      "words/拾う.md",
+      "words/探す.md",
+      "words/捨てる.md",
+      "words/塵.md",
+      "words/落す.md"
+    ],
+    "newWordPages": 0,
+    "quizOrGradingChanges": 0,
+    "otherAuthoredRuntimePaths": 0,
+    "generatedManifest": "manifest.json"
+  },
+  "navigationScopeCorrection": {
+    "record": "docs/translation-batches/132-pick-up-search-discard-kanji-navigation-scope-correction-001.json",
+    "removedUnappliedOperation": "words/投げる.md",
+    "reason": "The baseline has no learner-facing occurrence of 捨 in prose; the metadata exclusion is not a navigation surface."
+  },
+  "optionalUnavailableWordPages": {
+    "status": "visible Japanese retained without dangling Russian links",
+    "paths": [
+      "words/捜す.md",
+      "words/四捨五入.md"
+    ],
+    "newPagesAdded": false
+  },
+  "independentReview": {
+    "report": "docs/translation-batches/132-pick-up-search-discard-kanji-independent-review-001.md",
+    "record": "docs/translation-batches/132-pick-up-search-discard-kanji-independent-review-001.json",
+    "C1": "ACCEPTABLE WITH EVIDENCE LIMITS; no concrete factual error established in reviewed scope; KANJIDIC2 records were read, while JMdict conclusions remain limited to reported targeted entries and matches.",
+    "C2": "Scope/navigation/dependencies CONSISTENT WITH THE SIGNED SCOPE; ordinary quiz negative/fallback safety remains UNVERIFIED for all nine directions.",
+    "C3": "NO CONFIRMED NOVICE-CLARITY DEFECT IN THE READ SCOPE; not native-speaker certification.",
+    "supportedFindings": []
+  },
+  "primaryEvidence": {
+    "kanjidic2": {
+      "privateArtifact": "ru-132-kanjidic2-primary-capture-001.json",
+      "rawSha256": "affa2c8436bffddcc4832fa1146e4742bdd6e83490e884be17dd38e2a928b7c5",
+      "completeRecordsRead": ["拾", "捜", "捨"]
+    },
+    "jmdict": {
+      "privateArtifact": "ru-132-jmdict-primary-capture-001.json",
+      "rawSha256": "ef382fdbd72b5700d8d597059acac769d050a593007722b5eff06d59100eb20e",
+      "capturedEntryCount": 11,
+      "completeEntriesReadByReviewer": "Targeted entries and search-result summary only; see independent-review record for exact limits."
+    },
+    "strokes": {
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "candidateAssets": ["strokes/拾.json", "strokes/捜.json", "strokes/捨.json"],
+      "writerVerifiedGitBlobIdentity": true,
+      "glyphPixelsVisuallyInspected": false
+    }
+  },
+  "quizSafety": {
+    "allDirectDirections": "UNVERIFIED",
+    "ordinaryNegativeEdges": [
+      "拾→捨", "拾→指", "拾→押",
+      "捜→押", "捜→捨", "捜→招",
+      "捨→拾", "捨→持", "捨→招"
+    ],
+    "metadataRetentionIsNotGradingApproval": true,
+    "acceptedAnswerPathAndSenseConstraintsReviewed": false,
+    "guardsAdded": []
+  },
+  "authorityLimits": {
+    "qualifiedSourceProgressOnly": true,
+    "runtimeAcceptance": false,
+    "runtimeActivation": false,
+    "mediaOrPackageApproval": false,
+    "deviceOrReleaseApproval": false,
+    "ordinaryActivationApproval": false,
+    "fullTranslationCompletion": false
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "batchId": "132-pick-up-search-discard-kanji",
+  "recordedAt": "2026-11-10T13:33:40.705225+01:00",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "publishedBaseline": "f6f67d33ce2f155acb3e4fb0aae92a3b7a1e6bca",
+  "candidateCommit": "1619774212fecce63acf398f5591e114c597acc4",
+  "candidateTree": "ecf21e1b4e1a6fa734a7651aa569a68d6d56cb91",
+  "contentVersion": "d152c624bd2043cd",
+  "preMutationFreezeCommits": [
+    "4c64f8a86635c9b06035d31d5295248f15d42f6d",
+    "2f2b449d6215b3ff8c34287e989b2ae1db9a1d62"
+  ],
+  "scope": {
+    "newLessons": [
+      "拾",
+      "捜",
+      "捨"
+    ],
+    "newStrokeAssets": [
+      "拾",
+      "捜",
+      "捨"
+    ],
+    "navigationOnlyPaths": [
+      "words/拾う.md",
+      "words/探す.md",
+      "words/捨てる.md",
+      "words/塵.md",
+      "words/落す.md"
+    ],
+    "newWordPages": 0,
+    "quizOrGradingChanges": 0,
+    "otherAuthoredRuntimePaths": 0
+  },
+  "optionalUnavailableWordPages": {
+    "paths": [
+      "words/捜す.md",
+      "words/四捨五入.md"
+    ],
+    "disposition": "Visible Japanese retained without dangling Russian links; no pages added."
+  },
+  "qualifiedVerdicts": {
+    "C1": "ACCEPTABLE WITH EVIDENCE LIMITS; no concrete factual error established in the reviewed scope. KANJIDIC2 records for 拾/捜/捨 were read; JMdict conclusions remain limited to targeted batch entries and reported search matches, not line-by-line review of the full capture.",
+    "C2": {
+      "scopeNavigationDependencies": "CONSISTENT WITH THE SIGNED SCOPE; three lessons, three stroke assets, and five NAV-only word changes checked.",
+      "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all nine direct directions; no grading approval."
+    },
+    "C3": "NO CONFIRMED NOVICE-CLARITY DEFECT IN THE READ SCOPE; not native-speaker certification or a learning-outcome claim."
+  },
+  "supportedFindings": [],
+  "independentReview": {
+    "report": "docs/translation-batches/132-pick-up-search-discard-kanji-independent-review-001.md",
+    "reportUtf8Bytes": 7293,
+    "reportRawSha256": "b7f7e0f8b949089e13cd91060ef1cef762ff80ae4a65f13431a815b4e11d5b8a",
+    "reportHashDomain": "Raw UTF-8 bytes of the saved working-tree Markdown report at capture; Git blob identity is separate, not a stdout digest.",
+    "record": "docs/translation-batches/132-pick-up-search-discard-kanji-independent-review-001.json",
+    "recordUtf8Bytes": 4030,
+    "recordRawSha256": "bbcdea828993530b1ad3f6d5756e486d30f1522c4969567307aff42358b470a9",
+    "executionId": null,
+    "separateRawStdoutAvailable": false,
+    "reportGitBlobSha": "1f792ff10ededb9b35adb3cb4b5afb89b71e3e7a",
+    "reportGitBlobUtf8Bytes": 7190,
+    "recordGitBlobSha": "64f17e2e8e1faa0f0cc3652608e8add4bf503185",
+    "recordGitBlobUtf8Bytes": 4030
+  },
+  "primaryEvidence": {
+    "kanjidic2": {
+      "privateArtifact": "ru-132-kanjidic2-primary-capture-001.json",
+      "rawSha256": "affa2c8436bffddcc4832fa1146e4742bdd6e83490e884be17dd38e2a928b7c5",
+      "completeRecords": [
+        "拾",
+        "捜",
+        "捨"
+      ]
+    },
+    "jmdict": {
+      "privateArtifact": "ru-132-jmdict-primary-capture-001.json",
+      "rawBytes": 24528,
+      "rawSha256": "ef382fdbd72b5700d8d597059acac769d050a593007722b5eff06d59100eb20e",
+      "capturedEntryCount": 11,
+      "reviewLimit": "Targeted entries and search-result summary only; no full line-by-line review."
+    },
+    "strokes": {
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "candidateAssets": [
+        "strokes/拾.json",
+        "strokes/捜.json",
+        "strokes/捨.json"
+      ],
+      "writerVerifiedGitBlobIdentity": true,
+      "visualGlyphInspection": false
+    }
+  },
+  "ordinaryQuizNegativeEdges": {
+    "status": "UNVERIFIED",
+    "directions": [
+      "拾→捨",
+      "拾→指",
+      "拾→押",
+      "捜→押",
+      "捜→捨",
+      "捜→招",
+      "捨→拾",
+      "捨→持",
+      "捨→招"
+    ],
+    "acceptedAnswerPathAndSenseConstraintsReviewed": false,
+    "guardsAdded": [],
+    "metadataRetentionIsNotGradingApproval": true
+  },
+  "sourceInventory": {
+    "before": {
+      "privateArtifact": "ru-full-before-inventory.json",
+      "commit": "5f460b85b391404e7da01be0a0cded78243b7538",
+      "contentVersion": "0c1a107f0be0f6b8",
+      "objectCount": 8272,
+      "rawSha256": "883b52e05586793b4243d48f8cf39edb87518723dc4a3ee1a92b2b6410a8d2f3"
+    },
+    "after": {
+      "privateArtifact": "ru-full-after-inventory.json",
+      "commit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "contentVersion": "3f68693b2b5631e2",
+      "objectCount": 8278,
+      "rawSha256": "8ed1e5bdfb715a7772bcced3d1dc4b313e92844b00c32b18446d9a7563a4d8e7"
+    }
+  },
+  "trackingAndProgress": {
+    "publishedBaseline": "f6f67d33ce2f155acb3e4fb0aae92a3b7a1e6bca",
+    "trackingBaselineRecords": 2484,
+    "trackingBaselineBytes": 7876405,
+    "trackingBaselineRawSha256": "2af5ba23ff569e9d738f2d2f6dd2cf2f4f797289c70cd946cdd3b4925b83c1fb",
+    "trackingCurrentRecords": 2490,
+    "trackingCurrentBytes": 7887669,
+    "trackingCurrentRawSha256": "d4a894bce147e77f5cb497e7c7127c4e745b440a66384be0b120379abcb53552",
+    "progressReport": "docs/translation-progress.json",
+    "progressBytes": 5318896,
+    "progressRawSha256": "c31cdb5e11b32d2517d7016f6f27ad7f366ff2c3afbadd463799396b68a51c2d",
+    "frozenInventory": 8278,
+    "reviewedCurrent": 2490,
+    "excludedReviewedRuntimeBlocked": 2,
+    "pending": 5786,
+    "checkpointAuthority": null,
+    "checkpointReady": false
+  },
+  "finalValidation": {
+    "record": "docs/translation-batches/132-pick-up-search-discard-kanji-final-validation-002.json",
+    "privateConsoleReceipt": "ru-132-final-validation-console-002.json",
+    "rawBytes": 1761,
+    "rawSha256": "bb111789b19a1a0c94dec3f803dfd5051176e66c34c11c2f5e6ad011c7a7fe20",
+    "manifestContentVersion": "d152c624bd2043cd",
+    "allPassed": true,
+    "commands": [
+      {
+        "command": [
+          "python",
+          "-X",
+          "utf8",
+          "-B",
+          "tools/build_manifest.py"
+        ],
+        "exitCode": 0,
+        "stdout": "manifest.json: 2490 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version d152c624bd2043cd\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "python",
+          "-X",
+          "utf8",
+          "-B",
+          "tools/validate.py"
+        ],
+        "exitCode": 0,
+        "stdout": "0 error(s)\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "python",
+          "-X",
+          "utf8",
+          "-B",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tools",
+          "-p",
+          "test_*.py"
+        ],
+        "exitCode": 0,
+        "stdout": "",
+        "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 32.591s\n\nOK\n"
+      },
+      {
+        "command": [
+          "python",
+          "-X",
+          "utf8",
+          "-B",
+          "tools/check_content_budget.py"
+        ],
+        "exitCode": 0,
+        "stdout": "{'files': 2498, 'entries': 2507, 'retainedBytes': 6919711, 'inflatedBytes': 6937926, 'localZipBytes': 3485186, 'listeningTaskMediaBytes': 0}\n",
+        "stderr": ""
+      }
+    ]
+  },
+  "sourceAcceptance": "Qualified for source content/progress only, with the C1 evidence boundary, all nine C2 quiz directions UNVERIFIED, and C3 non-certification limitation above. No grading/runtime/activation/device/media/release approval.",
+  "authority": {
+    "qualifiedSourceProgressOnly": true,
+    "runtimeAcceptance": false,
+    "quizGradingApproval": false,
+    "appDeviceMediaReleaseApproval": false,
+    "ordinaryActivationApproval": false,
+    "fullTranslationCompletion": false
+  }
+}
