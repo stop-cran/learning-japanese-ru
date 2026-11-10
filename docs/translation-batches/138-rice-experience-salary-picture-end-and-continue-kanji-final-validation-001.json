@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "batchId": "138-rice-experience-salary-picture-end-and-continue-kanji",
+  "recordedAt": "2026-11-10T19:30:28+00:00",
+  "candidateCommit": "688ff2f7b6d4c2f1de341ceead78a2690922eb6a",
+  "candidateTree": "97011ffd035d5ccc510a30859d8490a2296d66b5",
+  "contentVersion": "3fdd9e27d77b03c9",
+  "execution": {
+    "order": "Serial after independent review, exact tracking/progress reconciliation, qualified source acceptance, and plan updates.",
+    "status": "Completed successfully; each recorded command exited 0 in the recorded order.",
+    "environment": "Windows checkout; Python UTF-8 output enabled and bytecode generation disabled; no regression tests skipped.",
+    "validationScope": "Runtime content matches the signed candidate commit exactly. Tracked changes relative to the candidate are documentation-only. The review report, receipt, qualified source record, final validation, plan update, and batch137 publication reconciliation are documentation evidence."
+  },
+  "commands": [
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools\\build_manifest.py"
+      ],
+      "exitCode": 0,
+      "stdout": "manifest.json: 2554 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 3fdd9e27d77b03c9\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools\\validate.py"
+      ],
+      "exitCode": 0,
+      "stdout": "0 error(s)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools",
+        "-p",
+        "test_*.py"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 29.132s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools\\check_content_budget.py"
+      ],
+      "exitCode": 0,
+      "stdout": "{'files': 2562, 'entries': 2571, 'retainedBytes': 7097830, 'inflatedBytes': 7116045, 'localZipBytes': 3571550, 'listeningTaskMediaBytes': 0}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "contentBudget": {
+    "files": 2562,
+    "entries": 2571,
+    "retainedBytes": 7097830,
+    "inflatedBytes": 7116045,
+    "localZipBytes": 3571550,
+    "listeningTaskMediaBytes": 0
+  },
+  "allPassed": true,
+  "qualification": "Structural/content tests passed; the independent review qualifications and all 18 UNVERIFIED quiz directions remain unchanged. No native-speaker, grading, runtime/device/media/release, ordinary activation, checkpoint, or full-translation approval.",
+  "artifacts": [
+    {
+      "path": "manifest.json",
+      "utf8Bytes": 228311,
+      "rawSha256": "dc54a89b1a272ed321172e5a7e67f3d269e90c11d68acfb4c611420ed954b0a3"
+    },
+    {
+      "path": "docs/translation-tracking.json",
+      "utf8Bytes": 8057879,
+      "rawSha256": "6f55408db1870b4677383ce87a48f7d256e331196b7e141eba6f835040f181b0"
+    },
+    {
+      "path": "docs/translation-progress.json",
+      "utf8Bytes": 5418414,
+      "rawSha256": "da5848dd58b18be8d6483c6aa9d919bfe36a0d5d4c07c5aab75edb4d1566ed55"
+    },
+    {
+      "path": "docs/translation-batches/138-rice-experience-salary-picture-end-and-continue-kanji-reviewed-source.json",
+      "utf8Bytes": 11477,
+      "rawSha256": "62c4ee51320f765d108b78bc4dc213d97575f8638d4ee3c6345ad9b90672db08"
+    }
+  ],
+  "reportedRuntimeDiffPaths": [],
+  "reportedDocumentationDiffPaths": [
+    "docs/FULL-TRANSLATION-PLAN.md",
+    "docs/IMPLEMENTATION-PLAN.md",
+    "docs/translation-progress.json",
+    "docs/translation-tracking.json"
+  ],
+  "publishedBaseline": "4d961b89035f65cc45c4fc797bb703d8ee1f3c5e",
+  "sourceAcceptance": "Qualified source-only record created; publication remains pending."
+}

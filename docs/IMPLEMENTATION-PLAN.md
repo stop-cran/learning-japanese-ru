@@ -31,7 +31,7 @@ unchanged, and issue #3 progress was updated. See the [publication verification]
 This remains qualified source progress only—no grading, runtime, device, media,
 release, ordinary-activation, checkpoint, or full-translation approval.
 
-## Latest published source milestone: batch136 mutual certainty, show, department, extent and kind
+## Previous published source milestone: batch136 mutual certainty, show, department, extent and kind
 
 The next six pending kanji in the frozen N3 source order, 相/確/示/科/程/種,
 are complete Russian lesson candidates with six byte-identical frozen stroke
@@ -64,7 +64,7 @@ All 18 ordinary negative/fallback directions remain **UNVERIFIED**. This is
 qualified source progress only, not grading, runtime, device, media, release,
 ordinary-activation, checkpoint, or full-translation approval.
 
-## Batch137: reviewed, qualified candidate; publication pending
+## Previous published source milestone: batch137 accumulation, sudden, window, laughter, equality, box and refinement
 
 Batch137 covers the first six pending frozen N3 kanji 積/突/窓/笑/等/箱
 (positions 255–260) plus direct distractor dependency 精 (position 262); 米 at
@@ -73,18 +73,42 @@ Batch137 covers the first six pending frozen N3 kanji 積/突/窓/笑/等/箱
 001 and 002 authorize, respectively, four and five exact NAV-only word-page
 wrappers plus eight optional unavailable-link wrapper removals.
 
-The candidate commit `fe9b22de0a65bed95387e87674861ac80f5078fa` contains seven
-complete Russian lessons, seven byte-identical frozen-source stroke files and
-nine exact navigation-only word-page changes; no new word pages or quiz/
-grading changes. The independent review found no supported C1 or C3 issue in
-its bounded scope; C1/C3 are CLEAN only within that scope, while C2 remains
+The owner-signed candidate `fe9b22de0a65bed95387e87674861ac80f5078fa` contains
+seven complete Russian lessons, seven byte-identical frozen-source stroke files
+and nine exact navigation-only word-page changes; no new word pages or
+quiz/grading changes. The independent review found no supported C1 or C3 issue
+in its bounded scope; C1/C3 are CLEAN only within that scope, while C2 remains
 UNVERIFIED for all 21 ordinary negative/fallback directions. Candidate content
-version is `885c9d2367c2c322`; progress is 2,542 reviewed-current / 2 excluded
-reviewed runtime-blocked / 5,734 pending of 8,278. Publication, exact-main CI,
-archive and protected-ref verification are pending. This does not authorize
-grading, runtime activation, device/media/release work, or completion. Preserve
-the excluded `docs/translation-drafts/033-nature-outdoor-activity/words/空.md`
-and continue the frozen scope.
+version is `885c9d2367c2c322`.
+
+Batch137 was published through [PR #23](https://github.com/stop-cran/learning-japanese-ru/pull/23)
+at main `4d961b89035f65cc45c4fc797bb703d8ee1f3c5e`. The owner-signed
+acceptance commit `cf23544fdd8e83ce5ad5ef647044dad019f0fb6f` matches the
+published tree; exact-main CI passed, public ZIP/tar.gz exports matched the
+Git archive path-by-path, all four protected pilot/integration refs remained
+unchanged, and issue #3 progress was updated. See the [publication verification](translation-batches/137-accumulation-sudden-window-laughter-equality-box-refinement-kanji-publication-verification-001.json).
+Progress is 2,542 reviewed-current / 2 excluded reviewed runtime-blocked /
+5,734 pending of 8,278. All 21 quiz directions remain UNVERIFIED; this does not
+authorize grading, runtime activation, device/media/release work, or
+completion.
+
+## Batch138: qualified source candidate; publication pending
+
+Batch138 adds complete Russian lessons and byte-identical frozen-source stroke
+assets for 米/経/給/絵/絶/続, plus six exact NAV-only changes on existing word
+pages. No learner-facing word text, quiz data, or grading behavior changed.
+Its signed pre-mutation freeze is `7bc7f54548d67b2dc3ccffdf5e4187987addf60d`;
+the signed runtime candidate is
+`688ff2f7b6d4c2f1de341ceead78a2690922eb6a`, content version
+`3fdd9e27d77b03c9`. The bounded review records C1/C2 UNVERIFIED overall and
+C3 CLEAN only within the six reviewed lessons. All 18 ordinary
+negative/fallback directions remain UNVERIFIED. Qualified progress is
+2,554 reviewed-current / 2 excluded reviewed runtime-blocked / 5,722 pending
+of 8,278, with 1,478 words / 523 kanji / 523 strokes. Publication is pending;
+this is not grading, runtime, device, media, release, activation, checkpoint,
+or completion approval. Preserve the excluded
+`docs/translation-drafts/033-nature-outdoor-activity/words/空.md` and continue
+the frozen scope.
 
 ## Previous published source milestone: batch134 smoke, cat, birth, stay and turn kanji
 
