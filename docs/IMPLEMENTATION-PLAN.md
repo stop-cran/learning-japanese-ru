@@ -64,20 +64,27 @@ All 18 ordinary negative/fallback directions remain **UNVERIFIED**. This is
 qualified source progress only, not grading, runtime, device, media, release,
 ordinary-activation, checkpoint, or full-translation approval.
 
-## Batch137: pre-mutation freeze committed
+## Batch137: reviewed, qualified candidate; publication pending
 
-The next six pending kanji are 積/突/窓/笑/等/箱 (frozen N3 positions 255–260).
-Direct dependency closure adds 精 at position 262; 米 at 261 remains pending and
-is not required by this closure. The signed intake, semantic freeze and
-navigation amendment are included before runtime edits:
-[intake](translation-batches/137-accumulation-sudden-window-laughter-equality-box-refinement-kanji-intake.json),
-[freeze](translation-batches/137-accumulation-sudden-window-laughter-equality-box-refinement-kanji-source-adjudication-and-semantic-freeze-001.json),
-[navigation amendment](translation-batches/137-accumulation-sudden-window-laughter-equality-box-refinement-kanji-pre-mutation-navigation-amendment-001.json).
-No batch137 learner-facing content is authored or accepted yet. All 21 direct
-ordinary negative/fallback directions remain **UNVERIFIED**; no grading
-approval is implied. Continue the finite frozen scope without changing the
-excluded `docs/translation-drafts/033-nature-outdoor-activity/words/空.md`
-draft, media/device/release gates, or ordinary activation.
+Batch137 covers the first six pending frozen N3 kanji 積/突/窓/笑/等/箱
+(positions 255–260) plus direct distractor dependency 精 (position 262); 米 at
+261 remains pending. The pre-mutation freeze is signed commit
+`b79554c58aa172efd04bda95f0adac65887c76e2`. Signed navigation amendments
+001 and 002 authorize, respectively, four and five exact NAV-only word-page
+wrappers plus eight optional unavailable-link wrapper removals.
+
+The candidate commit `fe9b22de0a65bed95387e87674861ac80f5078fa` contains seven
+complete Russian lessons, seven byte-identical frozen-source stroke files and
+nine exact navigation-only word-page changes; no new word pages or quiz/
+grading changes. The independent review found no supported C1 or C3 issue in
+its bounded scope; C1/C3 are CLEAN only within that scope, while C2 remains
+UNVERIFIED for all 21 ordinary negative/fallback directions. Candidate content
+version is `885c9d2367c2c322`; progress is 2,542 reviewed-current / 2 excluded
+reviewed runtime-blocked / 5,734 pending of 8,278. Publication, exact-main CI,
+archive and protected-ref verification are pending. This does not authorize
+grading, runtime activation, device/media/release work, or completion. Preserve
+the excluded `docs/translation-drafts/033-nature-outdoor-activity/words/空.md`
+and continue the frozen scope.
 
 ## Previous published source milestone: batch134 smoke, cat, birth, stay and turn kanji
 

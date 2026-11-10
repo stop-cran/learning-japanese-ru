@@ -64,27 +64,39 @@ All 18 ordinary negative/fallback directions remain **UNVERIFIED**. No grading,
 runtime, device, media, release, ordinary-activation, checkpoint, or completion
 approval is implied.
 
-## Next frozen source batch: batch137 accumulation, suddenness, window, laughter, equality, box and refinement
+## Batch137: reviewed, qualified candidate; publication pending
 
 From published main `a9ba83522d20b23fd6d76bd5300b37b9a2fc9494`, the first six
 pending kanji in the frozen N3 order are 積/突/窓/笑/等/箱 (positions 255–260).
 The direct dependency closure adds 精 (position 262) because it is a direct
-distractor of 積. 米 (position 261) remains pending and is not required by this
-closure. The seven-character pre-mutation packet records all 21 direct
-directions, primary-source captures, exact source/stroke hashes, current
-dependency statuses and four authorized word-page NAV wrappers.
+distractor of 積; 米 (position 261) remains pending. The signed freeze is
+`b79554c58aa172efd04bda95f0adac65887c76e2`. Amendment 001 authorized four
+NAV-only word-page wrappers and eight optional-link wrapper removals.
+After the candidate validator exposed five more existing word articles whose
+newly available kanji cards needed navigation, amendment 002 froze those exact
+five NAV-only wrappers before their mutation; it was signed and pushed as
+`8a17c8101c103a70cbdded2027aa8d12f9bf493e`.
 
-The [batch137 intake](translation-batches/137-accumulation-sudden-window-laughter-equality-box-refinement-kanji-intake.json),
-[semantic freeze](translation-batches/137-accumulation-sudden-window-laughter-equality-box-refinement-kanji-source-adjudication-and-semantic-freeze-001.json),
-and [navigation amendment](translation-batches/137-accumulation-sudden-window-laughter-equality-box-refinement-kanji-pre-mutation-navigation-amendment-001.json)
-are committed in the current signed source-only change before any runtime edit.
-Batch137 is not authored, reviewed or accepted yet. All 21 ordinary
-negative/fallback directions remain **UNVERIFIED**; no grading approval is
-implied. Continue only within the frozen source, preserve complete Russian
-teaching content and Japanese facts, and continue the remaining finite scope.
-No checkpoint, media, device, release or ordinary-activation approval is
-implied. Preserve the excluded
-`docs/translation-drafts/033-nature-outdoor-activity/words/空.md` draft.
+The seven complete Russian lessons and byte-identical frozen-source stroke
+assets are in signed candidate commit
+`fe9b22de0a65bed95387e87674861ac80f5078fa`, content version
+`885c9d2367c2c322`. Nine existing word pages contain only the authorized
+navigation wrappers; no word pages, quiz arrays, or grading behavior were
+added or changed. The [independent review](translation-batches/137-accumulation-sudden-window-laughter-equality-box-refinement-kanji-independent-review-001.md)
+and [receipt](translation-batches/137-accumulation-sudden-window-laughter-equality-box-refinement-kanji-independent-review-receipt-001.json)
+record C1 CLEAN and C3 CLEAN only within the reviewed evidence/scope; C2 remains
+UNVERIFIED overall. All 21 ordinary negative/fallback directions remain
+**UNVERIFIED**; no grading approval is implied.
+
+The regenerated progress record shows **2,542 reviewed-current / 2 excluded
+reviewed runtime-blocked / 5,734 pending of 8,278**, with 1,478 words / 517
+kanji / 517 strokes; checkpoint authority remains null and `Ready` false.
+Candidate acceptance is qualified source-content progress only; branch
+integration, exact-main CI, public archives and protected-reference verification
+remain pending. No runtime, device, media, release, ordinary-activation,
+checkpoint, or full-translation approval is implied. Preserve the excluded
+`docs/translation-drafts/033-nature-outdoor-activity/words/空.md` draft and
+continue every remaining safe batch after publication.
 
 ## Previous published source milestone: batch134 smoke, cat, birth, stay and turn kanji
 
