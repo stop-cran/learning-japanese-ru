@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "batchId": "125-tooth-age-and-stages-kanji",
+  "candidateCommit": "31d94ca5cefc1865cd9968b81489cfdbaf5aa86f",
+  "frozenSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineCommit": "4300d5cbbfa9d579084d3d70f6446976807ade74",
+  "reviewerRuns": [
+    {
+      "role": "Independent whole-candidate C1/C2/C3 review",
+      "status": "Completed; sequential and read-only",
+      "actualReturnedReportTextArtifact": "private session artifact ru-125-review-content-tool-return-001.txt",
+      "actualReturnedReportTextUtf8Bytes": 8404,
+      "actualReturnedReportTextSha256": "5428dd9d73159f0c2350904842cfa2fc0271bad2374ba1786d9246764a7f7497",
+      "reportHashDomain": "UTF-8 bytes of the tool-returned report text; not a shell stdout or issue-comment hash",
+      "actualReadScope": [
+        "All five complete candidate lessons and corresponding frozen EN lessons",
+        "All seven exact word-navigation diffs",
+        "All five candidate stroke JSON structures",
+        "All five current KanjiPedia entries",
+        "Candidate manifest additions/changes, 15 directed metadata labels, and the signed 14-wrapper amendment",
+        "Applicable .github instructions and all three kanji/content review agent rubrics; translation methodology and content-format reference"
+      ],
+      "reportedVerdictsBeforeSourceFollowup": {
+        "C1": "Qualified; source payloads for exact KANJIDIC2/JMdict claims not located by this reviewer",
+        "C2": "Scope consistent; all 15 ordinary active-negative directions UNVERIFIED; reviewer incorrectly believed frozen source had no stroke blobs",
+        "C3": "Qualified pass; no material Russian comprehension defect identified"
+      },
+      "reportedFindings": "None confirmed; initial proposed disposition was HOLD pending exact-source follow-up."
+    },
+    {
+      "role": "Focused captured-source verification",
+      "status": "Completed; sequential and read-only",
+      "actualReturnedReportTextArtifact": "private session artifact ru-125-review-source-tool-return-001.txt",
+      "actualReturnedReportTextUtf8Bytes": 2170,
+      "actualReturnedReportTextSha256": "5f6f5154e51194d68dca306150d669a71ed196e72f73c22a33219493baa2117f",
+      "reportHashDomain": "UTF-8 bytes of the tool-returned report text; not a shell stdout or issue-comment hash",
+      "actualReadScope": [
+        "All 18 captured KANJIDIC2 records checked against raw gzip payload",
+        "Three captured UnicodeData radical rows",
+        "All 50 unique captured JMdict objects checked against raw gzip payload, plus 22 lesson citation form/reading pairs"
+      ],
+      "disposition": "Resolved the first review's scoped KANJIDIC2, radical, JMdict reading, meaning, usage, and spelling-restriction uncertainty. Did not judge KanjiPedia history or quiz guards."
+    }
+  ],
+  "authorEvidenceCorrections": [
+    {
+      "issue": "The whole-candidate report said the frozen EN commit had no corresponding stroke geometry blobs.",
+      "verification": "Directly compared each candidate Git blob against the exact frozen EN Git blob at the same path. All five are byte-identical; lengths and raw SHA-256 match: 歯 2921/5c2aa2232bd9731c98f111f69c8d94cde19ccb442a57519912aacd11e88d522a; 歳 3141/5ed7222fbf41ebfb84cd6139909e1596ae6753b7db5726df296e00b09840074d; 残 2461/8b7e46926589ea5caa9f24fa0b0690720db99ab216eee8d56752208e0f9dac39; 段 2237/00c613853e9ea6587aa77fe26dd5ab3ced6a75194e79db40d0b9e4a042b17c26; 殺 2470/24bba2fb813b54468f0c06584be39fcfbda541b97a0ccddacaabb60041ae0e04.",
+      "result": "Resolved by exact frozen-source Git blob comparison; no visual/device acceptance is implied."
+    },
+    {
+      "issue": "The source follow-up noted KANJIDIC2 did not substantiate the lesson's N3 community-list label.",
+      "verification": "The frozen source's docs/n3-source-snapshot.json (Git blob b18b0a72779488538324a0b48c82e2684ea89d71) lists all five characters 歯/歳/残/段/殺 in the jlptN3 community snapshot. KANJIDIC2's older JLPT field is not used as the community-list source.",
+      "result": "Resolved for the N3 community-list membership claim."
+    },
+    {
+      "issue": "A prior pool summary described indices 330–335 as new.",
+      "verification": "The candidate-bound 449-row pool contains exactly five new rows at zero-based indices 330, 331, 333, 334, and 335; index 332 is not new.",
+      "result": "Corrected; no pool row or quiz direction is thereby approved."
+    }
+  ],
+  "qualifiedVerdicts": {
+    "C1": "CLEAN within the reviewed scope: all 18 bound KANJIDIC2 records, three radical rows, 50 JMdict objects/22 cited form-reading pairs, current KanjiPedia entries, frozen N3 membership, and exact frozen-source stroke blobs were checked. No supported Japanese-fact defect found.",
+    "C2": "UNVERIFIED for ordinary active-negative quiz safety: all 15 directed directions remain U. Structural scope, existing-target navigation, and the authorized 14 optional-wrapper removals match their frozen bounds. No app/device/runtime review or approval.",
+    "C3": "CLEAN within the five complete new lessons and seven navigation diffs: no material Russian comprehensibility defect found. No native-speaker or learning-outcome claim."
+  },
+  "directedQuizDisposition": {
+    "scope": "15 directions in the candidate freeze",
+    "ordinaryActiveNegative": "UNVERIFIED for every direction; do not treat stored metadata as a grading guard or approval.",
+    "sourceIntroductoryDisposition": "Retain the pre-mutation qualification only; this review did not upgrade any direction."
+  },
+  "findings": [],
+  "limits": [
+    "No learner-app screen, browser, device, visual stroke animation, or native-speaker review.",
+    "No global or earlier-corpus review; prior partial reports are not promoted to full review.",
+    "KanjiPedia history was checked against the five current entries, not independently re-hashed against each frozen HTML capture.",
+    "Ordinary quiz-answer safety remains explicitly UNVERIFIED."
+  ],
+  "qualifiedDisposition": "SOURCE CONTENT REVIEW COMPLETE FOR BATCH 125 WITH THE ABOVE UNVERIFIED QUIZ LIMITS; ELIGIBLE FOR QUALIFIED SOURCE ACCEPTANCE. This is not app/device/runtime acceptance, ordinary quiz-guard approval, or finite-translation completion.",
+  "authorId": "775d2404-124d-4d7e-9060-8bb6a6192303",
+  "reviewerAgentIds": "Not exposed in the coordinator's task-tool returns; deliberately not inferred."
+}

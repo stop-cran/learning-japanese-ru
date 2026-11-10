@@ -1,6 +1,30 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source milestone: batch124 result, status, lack, next and desire kanji
+## Current qualified source milestone: batch125 tooth, age and stages kanji
+
+Batch125 adds five complete Russian frozen N3 lessons, 歯/歳/残/段/殺, and five frozen-source
+byte-identical KanjiVG stroke files. Seven existing word pages receive only planned standalone-glyph
+navigation links; a signed pre-mutation amendment authorizes exactly 14 wrappers around optional,
+unavailable lesson links. Frozen EN remains `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The [qualified review disposition](translation-batches/125-tooth-age-and-stages-kanji-review-qualification-dispositions-001.json)
+records a whole-candidate C1/C2/C3 review and sequential source follow-up: all five lessons, five
+frozen EN lessons, seven navigation diffs, five KanjiPedia entries, 18 KANJIDIC2 records, three
+radical rows, and 50 JMdict objects/22 cited form-reading pairs were read. Five new pool rows are
+indices 330, 331, 333, 334, 335; index 332 is not new. No supported content finding remains.
+C1 and C3 are CLEAN within the recorded scope. All 15 ordinary active-negative directions remain
+**UNVERIFIED**; source-introductory mapping is not quiz-guard approval. No visual/device/runtime
+acceptance is claimed.
+
+The [qualified source record](translation-batches/125-tooth-age-and-stages-kanji-reviewed-source.json)
+preserves the prior 2396 accepted runtime entries and all 1478 word metadata/quiz arrays. Current
+source checkpoint: **2406 reviewed-current / 2 excluded reviewed blocked-media drafts / 5870 pending
+of 8278**; 1478 words/449 kanji/449 strokes; kanji 80 N5/166 N4/**201 N3**/2 N2, with **166 N3
+remaining**. Version `afe1154b96b55364`; checkpoint authority remains null and `Ready` false. The
+protected 033 `空` draft remains excluded, not runtime and not a media issue. This is not finite
+completion: continue batch126 and all remaining safe frozen families.
+
+## Previous qualified source milestone: batch124 result, status, lack, next and desire kanji
 
 Batch124 adds **five complete Russian frozen N3 lessons, 果/格/欠/次/欲, 353 file lines**, and five
 RAW-identical Japanese KanjiVG assets. Six existing word bodies receive one NAV-only standalone-glyph
