@@ -1,6 +1,6 @@
 # Full Russian translation: execution after the two pilots
 
-## Current qualified source candidate: batch135 doubt, climb, everyone, steal and straight kanji
+## Latest published source milestone: batch135 doubt, climb, everyone, steal and straight kanji
 
 Batch135 adds complete Russian lessons and byte-identical frozen-source stroke
 assets for 疑/登/皆/盗/直, plus six preauthorized NAV-only wrappers on existing
@@ -8,31 +8,47 @@ word pages. No word teaching content, quiz arrays, or grading behavior changed.
 
 The bounded review’s C2-01 source-comparison omission was resolved by restoring
 only the two authorized frozen-source visual-comparison paragraphs. C1 remains
-**UNVERIFIED** for the 疑う/疑問 nuance identified in the report; no error was
-confirmed. C2 navigation/scope is consistent, but all 15 ordinary
-negative/fallback directions remain **UNVERIFIED**. C3 is CLEAN only within the
-five lessons’ reviewed novice-clarity scope, not native-speaker certification.
+**UNVERIFIED** for the 疑う/疑問 nuance about possible person or assertion targets
+and a question not necessarily already spoken; the captured lexical evidence
+does not establish those distinctions, and no error was confirmed. C2 scope and
+navigation are consistent, but all 15 ordinary negative/fallback directions
+remain **UNVERIFIED**. C3 is CLEAN only within the five lessons’ reviewed
+novice-clarity scope, not native-speaker certification.
 
-The [qualified source record](translation-batches/135-doubt-climb-everyone-steal-repair-kanji-reviewed-source.json)
-and [final validation](translation-batches/135-doubt-climb-everyone-steal-repair-kanji-final-validation-001.json)
+The [qualified source record](translation-batches/135-doubt-climb-everyone-steal-repair-kanji-reviewed-source.json),
+[final validation](translation-batches/135-doubt-climb-everyone-steal-repair-kanji-final-validation-001.json),
+and [publication verification](translation-batches/135-doubt-climb-everyone-steal-repair-kanji-publication-verification-001.json)
 record **2,516 reviewed-current / 2 excluded reviewed runtime-blocked / 5,760
 pending of 8,278**, with 1,478 words / 504 kanji / 504 strokes. Content version
-is `0400f33e92a4959d`; checkpoint authority remains null and `Ready` false.
-Candidate commit `17a522134056f4483db3eb7691a2ba64c4acd522` is signed on
-`full-ru-135-suspect-climb-everyone-steal-straight-kanji`; integration and
-publication verification are pending. This is qualified source-content
-progress only, not grading, runtime, device, media, release,
-ordinary-activation, checkpoint, or full-translation approval. Continue batch136
-and every remaining safe frozen family.
+is `0400f33e92a4959d`; checkpoint authority remains null and `Ready` false. PR
+[#21](https://github.com/stop-cran/learning-japanese-ru/pull/21) merged at main
+`2c5afc95fc9cea2740f574b0d53b0603ce8d338b`; exact-main CI passed, public ZIP and
+tar.gz exports matched the exact Git archive path-by-path and byte-for-byte, all
+four protected refs remained unchanged, and issue #3 progress was updated.
+This is qualified source-content progress only, not grading, runtime, device,
+media, release, ordinary-activation, checkpoint, or full-translation approval.
 
-## Latest verified main baseline: batch134 smoke, cat, birth, stay and turn kanji
+## Next pre-mutation batch: batch136 mutual certainty, show, department, extent and kind
+
+The next six pending kanji in the frozen N3 source order are 相/確/示/科/程/種.
+The [batch136 intake](translation-batches/136-mutual-certainty-show-department-extent-kind-kanji-intake.json),
+[source adjudication and semantic freeze](translation-batches/136-mutual-certainty-show-department-extent-kind-kanji-source-adjudication-and-semantic-freeze-001.json),
+and [pre-mutation navigation amendment](translation-batches/136-mutual-certainty-show-department-extent-kind-kanji-pre-mutation-navigation-amendment-001.json)
+record the dependency closure, exact source captures, five word-page wrappers,
+and optional unavailable-reference omissions. The freeze is signed before any
+learner-content mutation; no runtime candidate has been authored yet. All 18
+ordinary negative/fallback directions remain **UNVERIFIED**. Continue authoring,
+review, acceptance and normal publication for batch136 and every remaining safe
+frozen family.
+
+## Previous published source milestone: batch134 smoke, cat, birth, stay and turn kanji
 
 Batch134 was integrated through
 [PR #20](https://github.com/stop-cran/learning-japanese-ru/pull/20) at main
 `8f1e1900f5d5165391fb229dcaa5bee2a5ddec9c`; the exact-main `validate` check
 completed successfully. A detailed public-archive/protected-ref verification
 record was not found during batch135 reconciliation and is not claimed here.
-Batch135 is based on this main commit. This baseline does not imply
+Batch135 followed this milestone. This baseline does not imply
 runtime/device/release approval or completion of the frozen translation.
 
 ## Previous published source milestone: batch131 heat, fatigue, pain, sleep and condition kanji

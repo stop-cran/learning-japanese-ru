@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "batchId": "136-mutual-certainty-show-department-extent-kind-kanji",
+  "recordedAt": "2026-11-10T15:40:42+00:00",
+  "status": "pre-mutation navigation amendment; included with the signed freeze before any runtime edit",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "2c5afc95fc9cea2740f574b0d53b0603ce8d338b",
+  "scope": "Authorize only five existing-word-page wrappers, removal of six Markdown wrappers to unavailable optional word pages, and omission of one optional article-only cross-reference. Preserve every other visible word-page byte and all substantive learner-facing Japanese/Russian lesson content.",
+  "wordPageWrappers": [
+    {
+      "path": "words/相当.md",
+      "baselineGitBlob": "01122401d2ae1c69e1cb887e423f6e85fb31a661",
+      "baselineRawSha256": "c9b121ec9c1802d1533e1b61010df78b66da4d2121f52da4472afb35ec6a9dad",
+      "baselineBytes": 3181,
+      "replaceExactlyOnce": {
+        "old": "У 相当 несколько конструкций.",
+        "new": "У [相](../kanji/相.md)当 несколько конструкций."
+      },
+      "preserveVisibleTextAndAllOtherBytes": true,
+      "navigationOnly": true
+    },
+    {
+      "path": "words/相談.md",
+      "baselineGitBlob": "67fb945ddb84e5f80117d09d85b4d45957b0e307",
+      "baselineRawSha256": "f1e04f7a56dfe9f41d34dda540a0e34b1a97cd4b6647bae7b2dd4456a3bcdf15",
+      "baselineBytes": 2902,
+      "replaceExactlyOnce": {
+        "old": "相談 — обсуждение какого-либо дела, обращение за советом.",
+        "new": "[相](../kanji/相.md)談 — обсуждение какого-либо дела, обращение за советом."
+      },
+      "preserveVisibleTextAndAllOtherBytes": true,
+      "navigationOnly": true
+    },
+    {
+      "path": "words/確か.md",
+      "baselineGitBlob": "a203c5b461859792b32619e4b7ca54254fd2ecb2",
+      "baselineRawSha256": "1eed33f2637412a6ec84cf6977624d334eaf8d1968340c98a2cda4d883ad5989",
+      "baselineBytes": 2894,
+      "replaceExactlyOnce": {
+        "old": "確か описывает то, что достоверно или надёжно:",
+        "new": "[確](../kanji/確.md)か описывает то, что достоверно или надёжно:"
+      },
+      "preserveVisibleTextAndAllOtherBytes": true,
+      "navigationOnly": true
+    },
+    {
+      "path": "words/科学.md",
+      "baselineGitBlob": "0185680e0edba3eb351bdcde7b1a7f526d105d3c",
+      "baselineRawSha256": "fea2e7b9999f5a9cf353ae8e6e626465d22ee901b7d7ab3a70dc018e9fd9bbcf",
+      "baselineBytes": 2836,
+      "replaceExactlyOnce": {
+        "old": "科学 — **наука**, область познания,",
+        "new": "[科](../kanji/科.md)学 — **наука**, область познания,"
+      },
+      "preserveVisibleTextAndAllOtherBytes": true,
+      "navigationOnly": true
+    },
+    {
+      "path": "words/種類.md",
+      "baselineGitBlob": "042601e468051db524d9b4f79f61a33a5db82edf",
+      "baselineRawSha256": "8449d97812a14e3fbba6479dcf74f419f43ed9914c72934c3de9001bfafc90a5",
+      "baselineBytes": 2871,
+      "replaceExactlyOnce": {
+        "old": "種類 объединяет предметы по видам.",
+        "new": "[種](../kanji/種.md)類 объединяет предметы по видам."
+      },
+      "preserveVisibleTextAndAllOtherBytes": true,
+      "navigationOnly": true
+    }
+  ],
+  "unavailableOptionalWordLinks": [
+    {
+      "lessonPath": "kanji/示.md",
+      "sourceLessonGitBlob": "6169178357ce9b6e264af8142b40030b45809f47",
+      "targetPath": "words/示す.md",
+      "targetAbsentAtBaseline": true,
+      "sourceLinkOccurrences": 3,
+      "operation": "In the translated lesson only, strip the Markdown link wrapper from each link whose label is 示す and target is ../words/示す.md; retain the exact visible Japanese label, reading, surrounding Russian text, and examples."
+    },
+    {
+      "lessonPath": "kanji/程.md",
+      "sourceLessonGitBlob": "d2491331db65fb9d2eb38fa26b55f30be02c2f92",
+      "targetPath": "words/程度.md",
+      "targetAbsentAtBaseline": true,
+      "sourceLinkOccurrences": 3,
+      "operation": "In the translated lesson only, strip the Markdown link wrapper from each link whose label is 程度 and target is ../words/程度.md; retain the exact visible Japanese label, reading, surrounding Russian text, and examples."
+    }
+  ],
+  "unavailableOptionalArticleReference": {
+    "lessonPath": "kanji/程.md",
+    "sourceLessonGitBlob": "d2491331db65fb9d2eb38fa26b55f30be02c2f92",
+    "targetPath": "articles/koto-wake-and-formal-nouns.md",
+    "targetAbsentAtBaseline": true,
+    "sourceLinkOccurrences": 1,
+    "operation": "Omit only the final optional sentence whose sole purpose is pointing to this unavailable article; do not replace it with invented explanation. Preserve all prior substantive text and examples."
+  },
+  "limits": {
+    "wordPageWrapperCount": 5,
+    "wordPageVisibleTextChanges": false,
+    "wordPageMetadataOrQuizChanges": false,
+    "optionalWordLinkWrapperRemovals": 6,
+    "optionalArticleReferenceSentenceOmissions": 1,
+    "newWordPages": false,
+    "newArticlePages": false,
+    "otherWordPageChangesAuthorized": false,
+    "quizOrGradingChanges": false,
+    "otherRuntimeChangesAuthorized": false
+  }
+}

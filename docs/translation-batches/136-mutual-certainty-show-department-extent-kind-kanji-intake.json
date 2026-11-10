@@ -1,0 +1,1519 @@
+{
+  "schemaVersion": 1,
+  "batchId": "136-mutual-certainty-show-department-extent-kind-kanji",
+  "recordedAt": "2026-11-10T15:40:42+00:00",
+  "status": "candidate scope frozen before learner-content mutation",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "2c5afc95fc9cea2740f574b0d53b0603ce8d338b",
+  "selection": {
+    "sourceSnapshot": "docs/n3-source-snapshot.json",
+    "sourceSnapshotGitBlob": "b18b0a72779488538324a0b48c82e2684ea89d71",
+    "sourceSnapshotRawSha256": "4ffdacad14efcdee13e504a36f5705bc2226ea763bf46a00369c1bf6040b28e8",
+    "communityListRetrieved": "2026-10-09",
+    "dictionarySnapshotDate": "2026-10-08",
+    "frozenCommunityListCount": 367,
+    "rule": "Select the first six pending kanji in the immutable frozen jlptN3.characters order after accepted batch 135, with direct dependency closure.",
+    "firstPendingAtFreeze": [
+      "相",
+      "確",
+      "示",
+      "科",
+      "程",
+      "種"
+    ],
+    "selectedKanji": [
+      "相",
+      "確",
+      "示",
+      "科",
+      "程",
+      "種"
+    ],
+    "sourceOrderPositions": [
+      {
+        "kanji": "相",
+        "sourceOrderPosition": 242,
+        "zeroBasedIndex": 241,
+        "status": "pending"
+      },
+      {
+        "kanji": "確",
+        "sourceOrderPosition": 246,
+        "zeroBasedIndex": 245,
+        "status": "pending"
+      },
+      {
+        "kanji": "示",
+        "sourceOrderPosition": 247,
+        "zeroBasedIndex": 246,
+        "status": "pending"
+      },
+      {
+        "kanji": "科",
+        "sourceOrderPosition": 252,
+        "zeroBasedIndex": 251,
+        "status": "pending"
+      },
+      {
+        "kanji": "程",
+        "sourceOrderPosition": 253,
+        "zeroBasedIndex": 252,
+        "status": "pending"
+      },
+      {
+        "kanji": "種",
+        "sourceOrderPosition": 254,
+        "zeroBasedIndex": 253,
+        "status": "pending"
+      }
+    ],
+    "followingPendingAfterSelection": [
+      "積",
+      "突",
+      "窓",
+      "笑",
+      "等",
+      "箱"
+    ],
+    "orderingBasis": "Batch 135 is accepted on main. The published per-entry progress marks these six as the next six pending kanji. Direct quiz dependency 程→種 is included within the same six-item closure."
+  },
+  "currentAcceptedProgress": {
+    "countsByStatus": {
+      "reviewed-current": 2516,
+      "draft-reviewed-runtime-blocked": 2,
+      "pending": 5760
+    },
+    "total": 8278,
+    "adoptedEntries": 2516,
+    "progressVersion": "0400f33e92a4959d",
+    "checkpointAuthority": null,
+    "checkpointReady": false
+  },
+  "scope": {
+    "kanjiLessons": [
+      "kanji/相.md",
+      "kanji/確.md",
+      "kanji/示.md",
+      "kanji/科.md",
+      "kanji/程.md",
+      "kanji/種.md"
+    ],
+    "strokeAssets": [
+      "strokes/相.json",
+      "strokes/確.json",
+      "strokes/示.json",
+      "strokes/科.json",
+      "strokes/程.json",
+      "strokes/種.json"
+    ],
+    "existingWordPages": [
+      "words/相当.md",
+      "words/相談.md",
+      "words/確か.md",
+      "words/科学.md",
+      "words/種類.md"
+    ],
+    "preMutationNavigationAmendment": "docs/translation-batches/136-mutual-certainty-show-department-extent-kind-kanji-pre-mutation-navigation-amendment-001.json",
+    "wordPageWrapperCount": 5,
+    "optionalUnavailableWordLinkCounts": {
+      "kanji/示.md": 3,
+      "kanji/程.md": 3
+    },
+    "optionalUnavailableArticleReferenceCount": 1,
+    "directDistractorEdgeCount": 18,
+    "newWordPages": 0,
+    "newArticlePages": 0,
+    "newQuizOrGradingChanges": 0,
+    "otherAuthoredRuntimePaths": 0
+  },
+  "sourceEvidence": {
+    "frozenSourceLessonsAndStrokes": [
+      {
+        "kanji": "相",
+        "lessonPath": "kanji/相.md",
+        "lessonGitBlob": "667deac59438c549cab8c20e114883219d11ef9b",
+        "lessonRawSha256": "6922b21d19f3fe33db3d8049d49ab05b2e11f72acda8d6b7019f7c78669c5ab2",
+        "lessonBytes": 1921,
+        "lessonLines": 50,
+        "strokePath": "strokes/相.json",
+        "strokeGitBlob": "57cb1c15b2c9f01e0694d20f8ebfc832bd6d147c",
+        "strokeRawSha256": "3ec451679796dece97ffc60eee2b3df475616b65c3f551a4aea6684ed0057b84",
+        "strokeBytes": 2238
+      },
+      {
+        "kanji": "確",
+        "lessonPath": "kanji/確.md",
+        "lessonGitBlob": "e633291d3bfc3b20b297609230e344feb09fc226",
+        "lessonRawSha256": "d0f9872d5a2d29c08bdf874bfef4a2de9e19cddc127667eaad3d0a5aa7ab7cba",
+        "lessonBytes": 1868,
+        "lessonLines": 50,
+        "strokePath": "strokes/確.json",
+        "strokeGitBlob": "d6e86b00b05b851b6714cadb9e85f37dd0223207",
+        "strokeRawSha256": "6d99b6fb623bd9f263216e1af1fc9489e47d3ebe1f59fa586b0fef0df8eb2c80",
+        "strokeBytes": 3599
+      },
+      {
+        "kanji": "示",
+        "lessonPath": "kanji/示.md",
+        "lessonGitBlob": "6169178357ce9b6e264af8142b40030b45809f47",
+        "lessonRawSha256": "fe9b057dacd168601591699d65828b31f67010c32dab0ff1c5a9fceb816c1ab0",
+        "lessonBytes": 1690,
+        "lessonLines": 49,
+        "strokePath": "strokes/示.json",
+        "strokeGitBlob": "54d17154598b34e1b6f6bed3d139c7ba7765c92e",
+        "strokeRawSha256": "ab8c29ff453ed89e6f4ef09d3312214c20c2131a28a047b0e997461be0185ca6",
+        "strokeBytes": 1334
+      },
+      {
+        "kanji": "科",
+        "lessonPath": "kanji/科.md",
+        "lessonGitBlob": "58c74145ec7d6514f3b1317a294c571cc49932ca",
+        "lessonRawSha256": "3411cccf4658a9e899e4fee0ab5e1326f02e36717f28cd6a3b7c59c9c34f8fc2",
+        "lessonBytes": 1663,
+        "lessonLines": 48,
+        "strokePath": "strokes/科.json",
+        "strokeGitBlob": "b92090d03ee2f220e34492b79488e55dabbfd3eb",
+        "strokeRawSha256": "82db27c13e2ff63211d68aa2c22a58c2146f1fd7ab949a555c6cb898aae411c6",
+        "strokeBytes": 2234
+      },
+      {
+        "kanji": "程",
+        "lessonPath": "kanji/程.md",
+        "lessonGitBlob": "d2491331db65fb9d2eb38fa26b55f30be02c2f92",
+        "lessonRawSha256": "7773b277be68716abb5a8000223f0cffa16628bef7887d5a90830a1a1975f203",
+        "lessonBytes": 1722,
+        "lessonLines": 47,
+        "strokePath": "strokes/程.json",
+        "strokeGitBlob": "36d732b24658dbb656b25b782ec111477b9bf4bb",
+        "strokeRawSha256": "a1c9360949f468bd41b7f9bd119525facfb3fe238fc3337184f5214092543736",
+        "strokeBytes": 2921
+      },
+      {
+        "kanji": "種",
+        "lessonPath": "kanji/種.md",
+        "lessonGitBlob": "ba3047d06e967dc523c6084c3331f6dbd1e4ed44",
+        "lessonRawSha256": "5b22d96a64a2b99c5897c5e2762d9dbc926fe64b526dcbe4731c082c692d03ef",
+        "lessonBytes": 1554,
+        "lessonLines": 47,
+        "strokePath": "strokes/種.json",
+        "strokeGitBlob": "a10f708a4e4df53963c17a8c6a64b058dcdaf29b",
+        "strokeRawSha256": "7ffafa8ec7a8bb9e260aaf4700951bf36fd8d14954da10ed7879a6b1691b5710",
+        "strokeBytes": 3373
+      }
+    ],
+    "kanjidic2PrivateArtifact": {
+      "artifact": "ru-136-kanjidic2-primary-capture-001.json",
+      "rawBytes": 20316,
+      "rawSha256": "5286614b97304f03faf8a1550cbe02b694b434c6545bb1c4268034769432dee9",
+      "sourceArchive": {
+        "filename": "ru-136-official-KANJIDIC2-001.xml.gz",
+        "compressedBytes": 1488572,
+        "compressedSha256": "624edb951655f2195d98c43702d534099fac9fcade6011d5af9e2ae1ef719dcf",
+        "xmlBytes": 15641823,
+        "xmlSha256": "6f73fe5dd91deb9d95a2903105af633e2d574c8ace86176786555fc9d60e237d",
+        "frozenSourceSnapshotCompressedSha256": "5fc25740c21180e0c2983d3ed546a8009d7891d9dceb4714cd36dd528be2bb58",
+        "frozenSourceSnapshotXmlSha256": "dd7139095c6ba909fea54154f242e5ced9ce0eb55e53a2388017f3a57b0fd4c9",
+        "exactFrozenSnapshotMatch": false
+      },
+      "sourceUrl": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz",
+      "retrievedAt": "2026-11-10T15:30:52+00:00",
+      "databaseVersion": "2026-314",
+      "records": {
+        "科": {
+          "rawFragmentSha256": "370840f277e2291b9a19a857fea7a0c45dbd07946fe8182d45c040803a1115c4",
+          "classicalRadicals": [
+            "115"
+          ],
+          "grade": [
+            "2"
+          ],
+          "strokeCounts": [
+            "9"
+          ],
+          "frequencyRanks": [
+            "531"
+          ],
+          "legacyJlptValues": [
+            "2"
+          ],
+          "onyomi": [
+            "カ"
+          ],
+          "kunyomi": [],
+          "englishMeanings": [
+            "department",
+            "course",
+            "section"
+          ]
+        },
+        "確": {
+          "rawFragmentSha256": "f88de806d6db88dd29bba6e599a2ee04613dd291b803c01333eb23a78a908a21",
+          "classicalRadicals": [
+            "112"
+          ],
+          "grade": [
+            "5"
+          ],
+          "strokeCounts": [
+            "15"
+          ],
+          "frequencyRanks": [
+            "252"
+          ],
+          "legacyJlptValues": [
+            "2"
+          ],
+          "onyomi": [
+            "カク",
+            "コウ"
+          ],
+          "kunyomi": [
+            "たし.か",
+            "たし.かめる"
+          ],
+          "englishMeanings": [
+            "assurance",
+            "firm",
+            "tight",
+            "hard",
+            "solid",
+            "confirm",
+            "clear",
+            "evident"
+          ]
+        },
+        "示": {
+          "rawFragmentSha256": "ab1e01765b74915d2c781a60bea15adab7bd9e05a06c56864cea64b7d8b84705",
+          "classicalRadicals": [
+            "113"
+          ],
+          "grade": [
+            "5"
+          ],
+          "strokeCounts": [
+            "5"
+          ],
+          "frequencyRanks": [
+            "237"
+          ],
+          "legacyJlptValues": [
+            "2"
+          ],
+          "onyomi": [
+            "ジ",
+            "シ"
+          ],
+          "kunyomi": [
+            "しめ.す"
+          ],
+          "englishMeanings": [
+            "show",
+            "indicate",
+            "point out",
+            "express",
+            "display"
+          ]
+        },
+        "種": {
+          "rawFragmentSha256": "011a45d929d49916f6db35b66213b9e0d79fd1e4c3eb9fc52423f70d6e209c88",
+          "classicalRadicals": [
+            "115"
+          ],
+          "grade": [
+            "4"
+          ],
+          "strokeCounts": [
+            "14"
+          ],
+          "frequencyRanks": [
+            "461"
+          ],
+          "legacyJlptValues": [
+            "2"
+          ],
+          "onyomi": [
+            "シュ"
+          ],
+          "kunyomi": [
+            "たね",
+            "-ぐさ"
+          ],
+          "englishMeanings": [
+            "species",
+            "kind",
+            "class",
+            "variety",
+            "seed"
+          ]
+        },
+        "相": {
+          "rawFragmentSha256": "67ac3ead1e4d3ae0e25b889d2d7309b03b6192a515c8d8fcdc4b94ae55366a2b",
+          "classicalRadicals": [
+            "109"
+          ],
+          "grade": [
+            "3"
+          ],
+          "strokeCounts": [
+            "9"
+          ],
+          "frequencyRanks": [
+            "45"
+          ],
+          "legacyJlptValues": [
+            "2"
+          ],
+          "onyomi": [
+            "ソウ",
+            "ショウ"
+          ],
+          "kunyomi": [
+            "あい-"
+          ],
+          "englishMeanings": [
+            "inter-",
+            "mutual",
+            "together",
+            "each other",
+            "minister of state",
+            "councillor",
+            "aspect",
+            "phase",
+            "physiognomy"
+          ]
+        },
+        "程": {
+          "rawFragmentSha256": "fcc8c9ad6a3482807c0b0f8ccd7c0f846e644b98a736c6d76c59e11186f99027",
+          "classicalRadicals": [
+            "115"
+          ],
+          "grade": [
+            "5"
+          ],
+          "strokeCounts": [
+            "12"
+          ],
+          "frequencyRanks": [
+            "514"
+          ],
+          "legacyJlptValues": [
+            "2"
+          ],
+          "onyomi": [
+            "テイ"
+          ],
+          "kunyomi": [
+            "ほど",
+            "-ほど"
+          ],
+          "englishMeanings": [
+            "extent",
+            "degree",
+            "law",
+            "formula",
+            "distance",
+            "limits",
+            "amount"
+          ]
+        }
+      }
+    },
+    "jmdictPrivateArtifact": {
+      "artifact": "ru-136-jmdict-primary-capture-001.json",
+      "rawBytes": 32901,
+      "rawSha256": "e8797e800cc6d728151229d569ea5abd6a0a43780046ee5b776f6440a4358341",
+      "sourceArchive": {
+        "filename": "ru-136-official-JMdict-e-001.gz",
+        "compressedBytes": 10595231,
+        "compressedSha256": "8e511b59c1efb57d7dc90f58f386058035ca662cb4a23d5693b5e185190c5ede",
+        "xmlBytes": 63223614,
+        "xmlSha256": "66c91fb0cb91f4e3a4df3370bad79b5f0378d9e1eddc4b13efe6820de23e0612",
+        "frozenSourceSnapshotCompressedSha256": "3d5fc0a0f768df4d044744732348f09a47db97a6286c2de1d565e5766212a1ea",
+        "frozenSourceSnapshotXmlSha256": "2de8f1a662c8ce69d3fa05f86d1dda224fabf21c2d45d07daa9e8da150189e0d",
+        "exactFrozenSnapshotMatch": false
+      },
+      "sourceUrl": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+      "retrievedAt": "2026-11-10T15:31:40+00:00",
+      "entriesByKanji": {
+        "相": [
+          "1401210",
+          "1401000",
+          "1329300"
+        ],
+        "確": [
+          "1596930",
+          "1205780",
+          "1205900"
+        ],
+        "示": [
+          "1317110",
+          "1309800",
+          "1489610"
+        ],
+        "科": [
+          "1192700",
+          "1549900",
+          "1206590",
+          "1186760"
+        ],
+        "程": [
+          "1436540",
+          "1436510",
+          "1464300"
+        ],
+        "種": [
+          "1328820",
+          "1328890"
+        ]
+      },
+      "entries": {
+        "1401210": {
+          "entryId": "1401210",
+          "rawFragmentSha256": "2b171f3d07d210ed3f01aa3cc13f7500722e67e6bbf5bb95714b15a5262b6b24",
+          "writtenForms": [
+            {
+              "written": "相談",
+              "info": []
+            }
+          ],
+          "readings": [
+            {
+              "reading": "そうだん",
+              "restrictions": [],
+              "info": []
+            }
+          ],
+          "senses": [
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)",
+                "noun or participle which takes the aux. verb suru",
+                "transitive verb"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "consultation",
+                "discussion",
+                "discussing",
+                "asking (someone) for advice"
+              ]
+            }
+          ]
+        },
+        "1401000": {
+          "entryId": "1401000",
+          "rawFragmentSha256": "0e1c979142d011f82e1281462410f75b736126a720abb4c7faf4523411e011d5",
+          "writtenForms": [
+            {
+              "written": "相手",
+              "info": []
+            }
+          ],
+          "readings": [
+            {
+              "reading": "あいて",
+              "restrictions": [],
+              "info": []
+            }
+          ],
+          "senses": [
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "companion",
+                "partner",
+                "company"
+              ]
+            },
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "other party",
+                "addressee",
+                "counterparty"
+              ]
+            },
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "opponent (sports, etc.)"
+              ]
+            }
+          ]
+        },
+        "1329300": {
+          "entryId": "1329300",
+          "rawFragmentSha256": "67a6e3656a38d873a4b818108a512af8c69d5009cb7fcc4e8a5f7d9ff1889f05",
+          "writtenForms": [
+            {
+              "written": "首相",
+              "info": []
+            }
+          ],
+          "readings": [
+            {
+              "reading": "しゅしょう",
+              "restrictions": [],
+              "info": []
+            }
+          ],
+          "senses": [
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "prime minister",
+                "chancellor (Germany, Austria, etc.)",
+                "premier"
+              ]
+            }
+          ]
+        },
+        "1596930": {
+          "entryId": "1596930",
+          "rawFragmentSha256": "2fda16fe22048032cdd628464ddf648bc1cea5d633b00a11ea12f3eef5cb4f59",
+          "writtenForms": [
+            {
+              "written": "確か",
+              "info": []
+            },
+            {
+              "written": "確",
+              "info": [
+                "irregular okurigana usage"
+              ]
+            },
+            {
+              "written": "慥か",
+              "info": [
+                "rarely used kanji form"
+              ]
+            }
+          ],
+          "readings": [
+            {
+              "reading": "たしか",
+              "restrictions": [],
+              "info": []
+            }
+          ],
+          "senses": [
+            {
+              "pos": [
+                "adjectival nouns or quasi-adjectives (keiyodoshi)"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "sure",
+                "certain",
+                "positive",
+                "definite"
+              ]
+            },
+            {
+              "pos": [
+                "adjectival nouns or quasi-adjectives (keiyodoshi)"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "reliable",
+                "trustworthy",
+                "safe",
+                "sound",
+                "firm",
+                "accurate",
+                "correct",
+                "exact"
+              ]
+            },
+            {
+              "pos": [
+                "adverb (fukushi)"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "If I'm not mistaken",
+                "If I remember correctly",
+                "If I remember rightly"
+              ]
+            }
+          ]
+        },
+        "1205780": {
+          "entryId": "1205780",
+          "rawFragmentSha256": "9892717d07d002785c442b2bf17a544ccdc99c56dc66c82d61ba8fb3a02568bd",
+          "writtenForms": [
+            {
+              "written": "確かめる",
+              "info": []
+            },
+            {
+              "written": "慥かめる",
+              "info": [
+                "rarely used kanji form"
+              ]
+            }
+          ],
+          "readings": [
+            {
+              "reading": "たしかめる",
+              "restrictions": [],
+              "info": []
+            }
+          ],
+          "senses": [
+            {
+              "pos": [
+                "Ichidan verb",
+                "transitive verb"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "to make sure",
+                "to check",
+                "to ascertain",
+                "to confirm",
+                "to verify"
+              ]
+            }
+          ]
+        },
+        "1205900": {
+          "entryId": "1205900",
+          "rawFragmentSha256": "f3dbf69dd54ea074bbb9bcb08686c4fe7951063799613ee223884cf4257c0625",
+          "writtenForms": [
+            {
+              "written": "確認",
+              "info": []
+            }
+          ],
+          "readings": [
+            {
+              "reading": "かくにん",
+              "restrictions": [],
+              "info": []
+            }
+          ],
+          "senses": [
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)",
+                "noun or participle which takes the aux. verb suru",
+                "transitive verb"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "confirmation",
+                "verification",
+                "validation",
+                "review",
+                "check",
+                "affirmation",
+                "identification"
+              ]
+            }
+          ]
+        },
+        "1317110": {
+          "entryId": "1317110",
+          "rawFragmentSha256": "826e1be91287b3bbe1b2e9ddffe851232d3c2c835c5806d198dc75b9fef6cb06",
+          "writtenForms": [
+            {
+              "written": "示す",
+              "info": []
+            }
+          ],
+          "readings": [
+            {
+              "reading": "しめす",
+              "restrictions": [],
+              "info": []
+            }
+          ],
+          "senses": [
+            {
+              "pos": [
+                "Godan verb with 'su' ending",
+                "transitive verb"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "to (take out and) show",
+                "to demonstrate",
+                "to tell",
+                "to exemplify",
+                "to make apparent"
+              ]
+            },
+            {
+              "pos": [
+                "Godan verb with 'su' ending",
+                "transitive verb"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "to point out (finger, clock hand, needle, etc.)"
+              ]
+            },
+            {
+              "pos": [
+                "Godan verb with 'su' ending",
+                "transitive verb"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "to indicate",
+                "to show",
+                "to represent",
+                "to signify",
+                "to display"
+              ]
+            }
+          ]
+        },
+        "1309800": {
+          "entryId": "1309800",
+          "rawFragmentSha256": "50caf69483baae58cd001b0d222bbd9c61372c43149986f39b6f37e9830d5885",
+          "writtenForms": [
+            {
+              "written": "指示",
+              "info": []
+            }
+          ],
+          "readings": [
+            {
+              "reading": "しじ",
+              "restrictions": [],
+              "info": []
+            },
+            {
+              "reading": "しし",
+              "restrictions": [],
+              "info": []
+            }
+          ],
+          "senses": [
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)",
+                "noun or participle which takes the aux. verb suru",
+                "transitive verb"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "indication",
+                "denotation",
+                "designation"
+              ]
+            },
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)",
+                "noun or participle which takes the aux. verb suru",
+                "transitive verb"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "instructions",
+                "directions"
+              ]
+            }
+          ]
+        },
+        "1489610": {
+          "entryId": "1489610",
+          "rawFragmentSha256": "b9b830f36a4caf14da016990458bc46669f52739aa58c27e51e7235b4a61c627",
+          "writtenForms": [
+            {
+              "written": "表示",
+              "info": []
+            },
+            {
+              "written": "標示",
+              "info": [
+                "rarely used kanji form"
+              ]
+            }
+          ],
+          "readings": [
+            {
+              "reading": "ひょうじ",
+              "restrictions": [],
+              "info": []
+            }
+          ],
+          "senses": [
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)",
+                "noun or participle which takes the aux. verb suru",
+                "transitive verb"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "indication",
+                "expression",
+                "showing",
+                "manifestation",
+                "demonstration"
+              ]
+            },
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)",
+                "noun or participle which takes the aux. verb suru",
+                "transitive verb"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "display",
+                "displaying"
+              ]
+            },
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)",
+                "noun or participle which takes the aux. verb suru",
+                "transitive verb"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "representation"
+              ]
+            },
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)",
+                "noun or participle which takes the aux. verb suru",
+                "transitive verb"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "(copyright) attribution"
+              ]
+            }
+          ]
+        },
+        "1192700": {
+          "entryId": "1192700",
+          "rawFragmentSha256": "ad99138cc238897b55edc6508de52473df4577c3b8ecbe553495c6999271b096",
+          "writtenForms": [
+            {
+              "written": "科学",
+              "info": []
+            },
+            {
+              "written": "科學",
+              "info": [
+                "search-only kanji form"
+              ]
+            }
+          ],
+          "readings": [
+            {
+              "reading": "かがく",
+              "restrictions": [],
+              "info": []
+            }
+          ],
+          "senses": [
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "science"
+              ]
+            },
+            {
+              "pos": [
+                "noun or participle which takes the aux. verb suru",
+                "transitive verb"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "to think about scientifically",
+                "to think in terms of science"
+              ]
+            }
+          ]
+        },
+        "1549900": {
+          "entryId": "1549900",
+          "rawFragmentSha256": "b986445333f571627c1d28debe53cf7a43f77610965091a081e7fbfbb644962f",
+          "writtenForms": [
+            {
+              "written": "理科",
+              "info": []
+            }
+          ],
+          "readings": [
+            {
+              "reading": "りか",
+              "restrictions": [],
+              "info": []
+            }
+          ],
+          "senses": [
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "science (natural sciences and related fields, incl. mathematics, engineering, medicine, etc.)"
+              ]
+            },
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "faculties of science, engineering, medicine, etc. (at a university)"
+              ]
+            },
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "science (as a school subject)"
+              ]
+            }
+          ]
+        },
+        "1206590": {
+          "entryId": "1206590",
+          "rawFragmentSha256": "59068aa1a229bc062addc9eabc7465071d06237740cff0de3326473c59d5f06b",
+          "writtenForms": [
+            {
+              "written": "学科",
+              "info": []
+            }
+          ],
+          "readings": [
+            {
+              "reading": "がっか",
+              "restrictions": [],
+              "info": []
+            }
+          ],
+          "senses": [
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "subject (of study)",
+                "course of study"
+              ]
+            },
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "department (of a university)"
+              ]
+            }
+          ]
+        },
+        "1186760": {
+          "entryId": "1186760",
+          "rawFragmentSha256": "06e86cb90492877c8223363aefb380487664937cd58b2a6996a04ead63432260",
+          "writtenForms": [
+            {
+              "written": "化学",
+              "info": []
+            },
+            {
+              "written": "化學",
+              "info": [
+                "search-only kanji form"
+              ]
+            }
+          ],
+          "readings": [
+            {
+              "reading": "かがく",
+              "restrictions": [],
+              "info": []
+            },
+            {
+              "reading": "ばけがく",
+              "restrictions": [],
+              "info": []
+            }
+          ],
+          "senses": [
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [],
+              "notes": [
+                "ばけがく spoken to avoid confusion with 科学"
+              ],
+              "glosses": [
+                "chemistry"
+              ]
+            }
+          ]
+        },
+        "1436540": {
+          "entryId": "1436540",
+          "rawFragmentSha256": "64c7763fc9221bf143e17948c90d503002aaa2eb653a3a0e716fd9e94baa0446",
+          "writtenForms": [
+            {
+              "written": "程度",
+              "info": []
+            }
+          ],
+          "readings": [
+            {
+              "reading": "ていど",
+              "restrictions": [],
+              "info": []
+            }
+          ],
+          "senses": [
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)",
+                "adverb (fukushi)",
+                "noun, used as a suffix"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "degree",
+                "amount",
+                "grade",
+                "standard",
+                "of the order of (following a number)",
+                "about",
+                "approximately"
+              ]
+            }
+          ]
+        },
+        "1436510": {
+          "entryId": "1436510",
+          "rawFragmentSha256": "c00c2454fc0c0a310be89c6461f32c0fbf3184ab317d0515a38092f165092681",
+          "writtenForms": [
+            {
+              "written": "程",
+              "info": []
+            }
+          ],
+          "readings": [
+            {
+              "reading": "ほど",
+              "restrictions": [],
+              "info": []
+            }
+          ],
+          "senses": [
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)",
+                "adverb (fukushi)"
+              ],
+              "misc": [
+                "word usually written using kana alone"
+              ],
+              "notes": [],
+              "glosses": [
+                "extent",
+                "degree",
+                "measure"
+              ]
+            },
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [
+                "word usually written using kana alone"
+              ],
+              "notes": [],
+              "glosses": [
+                "limit",
+                "bounds"
+              ]
+            },
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [
+                "word usually written using kana alone"
+              ],
+              "notes": [],
+              "glosses": [
+                "(span of) time"
+              ]
+            },
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [
+                "word usually written using kana alone"
+              ],
+              "notes": [],
+              "glosses": [
+                "(a) distance"
+              ]
+            },
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [
+                "word usually written using kana alone"
+              ],
+              "notes": [
+                "as 〜のほど"
+              ],
+              "glosses": [
+                "the state of",
+                "the status of",
+                "the condition of"
+              ]
+            },
+            {
+              "pos": [
+                "particle"
+              ],
+              "misc": [
+                "word usually written using kana alone"
+              ],
+              "notes": [],
+              "glosses": [
+                "about",
+                "around",
+                "approximately",
+                "or so"
+              ]
+            },
+            {
+              "pos": [
+                "particle"
+              ],
+              "misc": [
+                "word usually written using kana alone"
+              ],
+              "notes": [],
+              "glosses": [
+                "as much as ...",
+                "to the extent of ...",
+                "like ..."
+              ]
+            },
+            {
+              "pos": [
+                "particle"
+              ],
+              "misc": [
+                "word usually written using kana alone"
+              ],
+              "notes": [
+                "oft. as 〜ば...ほど"
+              ],
+              "glosses": [
+                "the more ... the more ..."
+              ]
+            }
+          ]
+        },
+        "1464300": {
+          "entryId": "1464300",
+          "rawFragmentSha256": "7fd02d7127bba6e14d3bf4fffe76728cca53eeae13055bb79d1f6437b1884b6e",
+          "writtenForms": [
+            {
+              "written": "日程",
+              "info": []
+            }
+          ],
+          "readings": [
+            {
+              "reading": "にってい",
+              "restrictions": [],
+              "info": []
+            }
+          ],
+          "senses": [
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "schedule",
+                "program",
+                "programme",
+                "agenda"
+              ]
+            }
+          ]
+        },
+        "1328820": {
+          "entryId": "1328820",
+          "rawFragmentSha256": "2e0e52fa68afd280340f65c9b97981302768a44e4d64ac6a39d5125b74b9465a",
+          "writtenForms": [
+            {
+              "written": "種",
+              "info": []
+            }
+          ],
+          "readings": [
+            {
+              "reading": "たね",
+              "restrictions": [],
+              "info": []
+            },
+            {
+              "reading": "タネ",
+              "restrictions": [],
+              "info": [
+                "search-only kana form"
+              ]
+            }
+          ],
+          "senses": [
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "seed (e.g. of a plant)",
+                "pip",
+                "kernel",
+                "stone (e.g. of a peach)"
+              ]
+            },
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "progeny",
+                "offspring",
+                "issue",
+                "breed"
+              ]
+            },
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "paternal blood",
+                "lineage"
+              ]
+            },
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "sperm",
+                "semen",
+                "seed"
+              ]
+            },
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "cause",
+                "source",
+                "seed",
+                "origin"
+              ]
+            },
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "material (e.g. for an article)",
+                "matter (e.g. of a story)",
+                "subject (of discussion)",
+                "theme",
+                "(news) copy",
+                "source (of a story)"
+              ]
+            },
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "ingredient",
+                "main ingredient (of a piece of sushi)",
+                "leaven"
+              ]
+            },
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "mechanism (of a magic trick, etc.)",
+                "secret",
+                "trickery"
+              ]
+            },
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [
+                "word usually written using kana alone"
+              ],
+              "notes": [
+                "oft. as タネ"
+              ],
+              "glosses": [
+                "10-point card",
+                "tane",
+                "animal card"
+              ]
+            }
+          ]
+        },
+        "1328890": {
+          "entryId": "1328890",
+          "rawFragmentSha256": "c077e598c3330e26767e46071f5f3c8c713283c48d52a3ff0009eda805d038ab",
+          "writtenForms": [
+            {
+              "written": "種類",
+              "info": []
+            }
+          ],
+          "readings": [
+            {
+              "reading": "しゅるい",
+              "restrictions": [],
+              "info": []
+            }
+          ],
+          "senses": [
+            {
+              "pos": [
+                "noun (common) (futsuumeishi)"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "variety",
+                "kind",
+                "type",
+                "category"
+              ]
+            },
+            {
+              "pos": [
+                "counter"
+              ],
+              "misc": [],
+              "notes": [],
+              "glosses": [
+                "counter for kinds, species, etc."
+              ]
+            }
+          ]
+        }
+      },
+      "interpretationBoundary": "Exact forms, readings, restrictions, and sense glosses do not prove frequency, sentence naturalness, or quiz safety."
+    },
+    "allCaptureHashesUseTheirOwnRawByteDomain": true,
+    "liveOfficialSourcesDifferFromFrozenSourceSnapshot": {
+      "KANJIDIC2": {
+        "currentCompressedSha256": "624edb951655f2195d98c43702d534099fac9fcade6011d5af9e2ae1ef719dcf",
+        "currentXmlSha256": "6f73fe5dd91deb9d95a2903105af633e2d574c8ace86176786555fc9d60e237d",
+        "frozenSnapshotCompressedSha256": "5fc25740c21180e0c2983d3ed546a8009d7891d9dceb4714cd36dd528be2bb58",
+        "frozenSnapshotXmlSha256": "dd7139095c6ba909fea54154f242e5ced9ce0eb55e53a2388017f3a57b0fd4c9",
+        "exactFrozenSnapshotMatch": false
+      },
+      "JMdict": {
+        "currentCompressedSha256": "8e511b59c1efb57d7dc90f58f386058035ca662cb4a23d5693b5e185190c5ede",
+        "currentXmlSha256": "66c91fb0cb91f4e3a4df3370bad79b5f0378d9e1eddc4b13efe6820de23e0612",
+        "frozenSnapshotCompressedSha256": "3d5fc0a0f768df4d044744732348f09a47db97a6286c2de1d565e5766212a1ea",
+        "frozenSnapshotXmlSha256": "2de8f1a662c8ce69d3fa05f86d1dda224fabf21c2d45d07daa9e8da150189e0d",
+        "exactFrozenSnapshotMatch": false
+      }
+    },
+    "sourceDataDecision": "Use the frozen EN snapshot for N3 classification and exact lesson metadata; current official captures are separately identified and only support the exact captured fields. Never describe these current downloads as identical to the frozen source archive."
+  },
+  "nonGoals": [
+    "No quiz, grading, quiz-exclusion, answer-pool, typed-pool, or answer-key changes are authorized.",
+    "All 18 direct ordinary negative/fallback directions remain UNVERIFIED; metadata retention is not grading or runtime approval.",
+    "No learner-facing prose outside the six complete kanji lessons is authorized to change, except the exact optional unavailable-reference omissions in the signed navigation amendment.",
+    "Existing word pages permit only the five exact NAV wrappers below; all visible Japanese text, Russian teaching content, Japanese examples, metadata, quiz arrays, IDs, tags, level, and line endings remain unchanged.",
+    "Stroke assets are copied byte-identically from the frozen source and are not edited.",
+    "No new word or article pages, app/device/media/release, ordinary activation, or full-translation completion approval."
+  ]
+}
