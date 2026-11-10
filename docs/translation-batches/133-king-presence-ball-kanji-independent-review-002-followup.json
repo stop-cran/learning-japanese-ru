@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "batchId": "133-king-presence-ball-kanji",
+  "reviewer": {
+    "mode": "independent-read-only-focused-followup",
+    "executionId": null,
+    "executionIdUnavailable": true,
+    "standaloneRawOutputAvailable": false
+  },
+  "snapshot": {
+    "candidateCommit": "a003aac9d3c0659d5d5d72ec1a220e43567e3d5c",
+    "candidateTree": "13721a1906024bb1b1af155495a3532f00b83fb0",
+    "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f"
+  },
+  "report": {
+    "path": "docs/translation-batches/133-king-presence-ball-kanji-independent-review-002-followup.md",
+    "captureDomain": "The received focused reviewer response was preserved as a Markdown report projection; no separate raw stdout stream or execution ID was available.",
+    "utf8Bytes": 1223,
+    "rawSha256": "94b7ec7f953890fba0556fdb82dc8628336d0d6e98f3339ed1330df4abd596a9",
+    "gitBlobSha": "57a7b748ea9d83908e1b976180ce22731a4e51e6",
+    "gitBlobUtf8Bytes": 1211
+  },
+  "qualifiedVerdicts": {
+    "C3": "RESOLVED: the explanations distinguish the reading types from kanji meanings; no new material issue within this narrow scope.",
+    "manifest": "The normalized SHA-256 hashes for all three corrected lessons match the refreshed manifest.",
+    "scope": "Only the terminology correction and manifest consistency were reviewed; no original-batch, quiz-safety, or grading review."
+  },
+  "exactReadCoverage": {
+    "files": [
+      {
+        "path": "kanji/王.md",
+        "lines": "1-46",
+        "relevantLine": 28
+      },
+      {
+        "path": "kanji/現.md",
+        "lines": "1-48",
+        "relevantLine": 27
+      },
+      {
+        "path": "kanji/球.md",
+        "lines": "1-47",
+        "relevantLine": 26
+      },
+      {
+        "path": "manifest.json",
+        "lines": "1-6, 414-422",
+        "relevantLines": "417-419"
+      },
+      {
+        "path": "tools/build_manifest.py",
+        "lines": "1-80",
+        "purpose": "Verify newline-normalized hashing method."
+      }
+    ]
+  },
+  "supportedFindings": [],
+  "unresolved": {
+    "ordinaryQuizDirections": [
+      "王→土",
+      "王→工",
+      "王→生",
+      "現→親",
+      "現→見",
+      "現→球",
+      "球→理",
+      "球→現",
+      "球→王"
+    ],
+    "status": "UNVERIFIED",
+    "gradingGuardAdded": false
+  },
+  "authority": {
+    "terminologyCorrectionOnly": true,
+    "qualifiedSourceProgressOnly": true,
+    "quizGradingApproval": false,
+    "nativeSpeakerCertification": false,
+    "appDeviceMediaReleaseApproval": false,
+    "ordinaryActivationApproval": false,
+    "fullTranslationCompletion": false
+  }
+}

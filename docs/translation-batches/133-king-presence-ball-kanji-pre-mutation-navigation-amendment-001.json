@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "batchId": "133-king-presence-ball-kanji",
+  "amendment": "pre-mutation-navigation-001",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "dcb272dec45c8a64ba951d7fff56209ae1945660",
+  "status": "frozen-before-learner-content-mutation",
+  "searchCoverage": {
+    "queryCharacters": ["王", "現", "球"],
+    "matchedWordPages": 28,
+    "matches": 77,
+    "navigationOnlyWordPages": 5,
+    "decision": "Only the five pages below contain a standalone kanji mention in a kanji explanation or a direct standalone-form discussion. Other matches are compound words, existing word links, quiz metadata, or examples; they remain unchanged."
+  },
+  "navigationOnlyWordPages": [
+    {
+      "path": "words/丸い.md",
+      "baselineGitBlob": "e56f7342e7690c1bb15a52a8ee09dee71001d39a",
+      "baselineRawSha256": "7d941d128eb48227c548971c260144922be986bbe0f178976bec92210f57d8d2",
+      "anchorText": "球",
+      "target": "../kanji/球.md",
+      "placement": "In the existing sentence identifying 球（きゅう） as a noun for a sphere/ball."
+    },
+    {
+      "path": "words/現実.md",
+      "baselineGitBlob": "6114605c0866f9042784bd75be0bc99f7cf9c842",
+      "baselineRawSha256": "d87430e67d4bc5ac2c5f87d45559444e2d1aba10f2ccc9e33f770df76901b1b9",
+      "anchorText": "現",
+      "target": "../kanji/現.md",
+      "placement": "In the existing kanji-combination explanation, preserving the adjacent link to 実."
+    },
+    {
+      "path": "words/現れ.md",
+      "baselineGitBlob": "ad29978eb997a6ce3e0f62510bca38c7a2771c96",
+      "baselineRawSha256": "4eba4ea512646c06cb02fd1e9c1f7e117c2a75c90495a8bea4bc54f93d19f8f8",
+      "anchorText": "現",
+      "target": "../kanji/現.md",
+      "placement": "In the existing kanji-combination explanation, not in every occurrence of the whole word 現れ."
+    },
+    {
+      "path": "words/現れる.md",
+      "baselineGitBlob": "27717427ef23d2e2f72f14a0e35a90c3edfd3458",
+      "baselineRawSha256": "7e7abc1f5afe220857bd6737f75de6f324bca6d371be35a1f66fe242c9539c3b",
+      "anchorText": "現",
+      "target": "../kanji/現.md",
+      "placement": "In the existing kanji-combination explanation, not in examples or inflected forms."
+    },
+    {
+      "path": "words/表現.md",
+      "baselineGitBlob": "47cd3fab545fa085589933451b4cc1536e740ddd",
+      "baselineRawSha256": "116e4c09ebbe514d24859b4b498cdf3c76b6469abfd5b42ba7fb9cab2279bb37",
+      "anchorText": "現",
+      "target": "../kanji/現.md",
+      "placement": "In the existing kanji-combination explanation, preserving the separate 表 text."
+    }
+  ],
+  "newLessonLinkDisposition": {
+    "kanji/王.md": {
+      "availableRussianWordTargets": [],
+      "unavailableTargets": ["../words/王.md"],
+      "action": "Remove only the unavailable link wrapper and retain 王, its reading and explanation as visible Japanese text."
+    },
+    "kanji/現.md": {
+      "availableRussianWordTargets": ["../words/現実.md", "../words/現れる.md"],
+      "unavailableTargets": ["../words/現在.md"],
+      "action": "Retain the existing 現実 link and add one useful link to the current 現れる lesson at its first explanatory occurrence. Keep 現在 unlinked."
+    },
+    "kanji/球.md": {
+      "availableRussianWordTargets": [],
+      "unavailableTargets": ["../words/地球.md"],
+      "action": "Remove only the unavailable 地球 link wrapper and retain 地球, 野球 and 球体 visibly in Japanese; do not add word pages."
+    },
+    "shared": {
+      "newWordPages": 0,
+      "otherRuntimeChanges": 0,
+      "directQuizOrGradingChanges": 0,
+      "note": "Internal kanji links to reviewed-current targets or other lessons in this frozen batch are allowed as scoped navigation."
+    }
+  },
+  "authority": {
+    "navigationOnly": true,
+    "wordTeachingContentChanges": false,
+    "quizOrGradingApproval": false,
+    "runtimeActivation": false
+  }
+}

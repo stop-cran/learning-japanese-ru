@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "batchId": "133-king-presence-ball-kanji",
+  "recordedAt": "2026-11-10",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "publishedBaseline": "dcb272dec45c8a64ba951d7fff56209ae1945660",
+  "preMutationFreezeCommit": "cd86b7a9761a0b558e9ba237797c8a640bf11498",
+  "candidateCommit": "a003aac9d3c0659d5d5d72ec1a220e43567e3d5c",
+  "candidateTree": "13721a1906024bb1b1af155495a3532f00b83fb0",
+  "contentVersion": "9889ff4126ffc763",
+  "finalValidation": "docs/translation-batches/133-king-presence-ball-kanji-final-validation-001.json",
+  "scope": {
+    "newLessons": [
+      "王",
+      "現",
+      "球"
+    ],
+    "newByteIdenticalStrokeAssets": [
+      "王",
+      "現",
+      "球"
+    ],
+    "navigationOnlyPaths": [
+      "words/丸い.md",
+      "words/現実.md",
+      "words/現れ.md",
+      "words/現れる.md",
+      "words/表現.md"
+    ],
+    "newWordPages": 0,
+    "quizOrGradingChanges": 0,
+    "otherAuthoredRuntimePaths": 0
+  },
+  "qualifiedVerdicts": {
+    "C1": "No concrete factual error established in the reviewed scope, with evidence limits. The original reviewer output and exact line-by-line coverage were not retained; do not extend the verdict beyond the recorded scope.",
+    "C2": {
+      "scopeNavigationDependencies": "Consistent with the pre-mutation scope; five word-page changes are NAV-only.",
+      "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all nine direct directions; no grading approval."
+    },
+    "C3": "The original NEEDS FIX novice-clarity finding about on'yomi/kun'yomi is resolved by the focused follow-up on the three explanations only. This is not native-speaker certification."
+  },
+  "supportedFindings": [
+    {
+      "finding": "Explain on'yomi and kun'yomi for novice readers.",
+      "initialReview": "NEEDS FIX",
+      "resolution": "Concise terminology explanations added to 王, 現 and 球.",
+      "correctionCommit": "a003aac9d3c0659d5d5d72ec1a220e43567e3d5c",
+      "followupReview": "docs/translation-batches/133-king-presence-ball-kanji-independent-review-002-followup.json",
+      "followupDisposition": "Resolved in that narrow scope."
+    }
+  ],
+  "primaryEvidence": {
+    "kanjidic2": {
+      "privateArtifact": "ru-133-kanjidic2-primary-capture-001.json",
+      "rawSha256": "388a021a63aee7dcf066a22bd21ea41e498ada00d555bd0a8cf767b7318da6d6",
+      "records": [
+        "王",
+        "現",
+        "球"
+      ]
+    },
+    "jmdict": {
+      "privateArtifact": "ru-133-jmdict-primary-capture-001.json",
+      "rawSha256": "17194e66fd83369179ffa11eacae285bb7d2875b5a5bff10c7a1fddc5b5e96d7",
+      "interpretationBoundary": "Captured full entries and forms support the bounded explanations; they do not prove frequency, universal word formation, quiz-safe negatives or every possible dependency."
+    },
+    "strokes": {
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "candidateAssetsComparedByGitBlob": true,
+      "byteIdentical": true,
+      "glyphPixelInspection": false
+    }
+  },
+  "ordinaryQuizNegativeEdges": {
+    "status": "UNVERIFIED",
+    "directions": [
+      "王→土",
+      "王→工",
+      "王→生",
+      "現→親",
+      "現→見",
+      "現→球",
+      "球→理",
+      "球→現",
+      "球→王"
+    ],
+    "acceptedAnswerPathAndSenseConstraintsReviewed": false,
+    "guardsAdded": [],
+    "metadataRetentionIsNotGradingApproval": true
+  },
+  "trackingAndProgress": {
+    "frozenInventory": 8278,
+    "reviewedCurrent": 2496,
+    "excludedReviewedRuntimeBlocked": 2,
+    "pending": 5780,
+    "acceptedKanji": 494,
+    "acceptedStrokes": 494,
+    "acceptedWords": 1478,
+    "checkpointAuthority": null,
+    "checkpointReady": false,
+    "progressRecord": "docs/translation-progress.json",
+    "trackingRecord": "docs/translation-tracking.json",
+    "artifacts": [
+      {
+        "path": "docs/translation-tracking.json",
+        "utf8Bytes": 7900876,
+        "rawSha256": "98b2518f19aace0f3162174ee7da99438ceef0e9fb30d340213955e8b915f722"
+      },
+      {
+        "path": "docs/translation-progress.json",
+        "utf8Bytes": 5326506,
+        "rawSha256": "627721c3862e82039fc7901f33f169620bb49306473baa134c4043ba63101516"
+      }
+    ]
+  },
+  "sourceAcceptance": "Qualified for source content/progress only, with the C1 evidence boundary, C2 quiz status and C3 follow-up scope above. No grading/runtime/activation/device/media/release approval.",
+  "authority": {
+    "qualifiedSourceProgressOnly": true,
+    "runtimeAcceptance": false,
+    "quizGradingApproval": false,
+    "appDeviceMediaReleaseApproval": false,
+    "ordinaryActivationApproval": false,
+    "fullTranslationCompletion": false
+  },
+  "reviewReports": [
+    {
+      "record": "docs/translation-batches/133-king-presence-ball-kanji-independent-review-001.json",
+      "report": "docs/translation-batches/133-king-presence-ball-kanji-independent-review-001.md",
+      "utf8Bytes": 1729,
+      "rawSha256": "393f8f01bec6990c5512d3b81597cbf79b76bdc61552023f7610e82b65b14664",
+      "gitBlobSha": "f8e52db99fe79e7ce7f51fbcdd5ff7392ede9f71",
+      "gitBlobUtf8Bytes": 1710
+    },
+    {
+      "record": "docs/translation-batches/133-king-presence-ball-kanji-independent-review-002-followup.json",
+      "report": "docs/translation-batches/133-king-presence-ball-kanji-independent-review-002-followup.md",
+      "utf8Bytes": 1223,
+      "rawSha256": "94b7ec7f953890fba0556fdb82dc8628336d0d6e98f3339ed1330df4abd596a9",
+      "gitBlobSha": "57a7b748ea9d83908e1b976180ce22731a4e51e6",
+      "gitBlobUtf8Bytes": 1211
+    }
+  ]
+}
