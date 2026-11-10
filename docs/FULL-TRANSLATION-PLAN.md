@@ -160,6 +160,14 @@ qualified source progress only; publication verification, exact-main CI,
 public-archive checks, protected-ref checks, and issue-progress update remain
 pending for this batch.
 
+Publication completed via [PR #25](https://github.com/stop-cran/learning-japanese-ru/pull/25):
+owner-signed acceptance `57866956ae4f2266d34044aa35a32931accc7268` merged at
+main `106f6e54360898bc71bc8a73f4f30aa5c26702f1`; exact-main CI run
+[#42896225664](https://github.com/stop-cran/learning-japanese-ru/actions/runs/42896225664)
+passed. Actual public ZIP/tar.gz exports matched exact `git archive`
+path-by-path and byte-for-byte, all four protected refs remained unchanged, and
+issue #3 progress was updated. See the [publication verification](translation-batches/139-thread-crime-place-beauty-age-work-kanji-publication-verification-001.json).
+
 ## Previous published source milestone: batch134 smoke, cat, birth, stay and turn kanji
 
 Batch134 was integrated through
