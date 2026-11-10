@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "batch": "130-crossing-harbor-fullness-performance-kanji",
+  "recordedAt": "2026-11-10T11:21:58+01:00",
+  "stage": "PRE-MUTATION NAVIGATION AMENDMENT; NO RUNTIME CHANGES YET",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "6a1bb488ecfc1926f6fb2e57962b1fee40174fc2",
+  "candidateBranch": "full-ru-130-crossing-harbor-fullness-performance-kanji",
+  "sourceFreeze": "docs/translation-batches/130-crossing-harbor-fullness-performance-kanji-source-adjudication-and-semantic-freeze-001.json",
+  "reason": "The frozen English lessons contain optional relative links to Russian word or kanji pages that are pending in the exact baseline. Preserve their Japanese visible text without expanding this batch into those independent translations. Existing reviewed-current word/kanji targets are retained. No existing word page requires a navigation-only edit.",
+  "unavailableSourceWordLinks": [
+    {
+      "lesson": "kanji/満.md",
+      "target": "words/満足.md",
+      "occurrences": 3,
+      "baselineStatus": "pending",
+      "disposition": "Remove exactly these optional link wrappers and retain the visible Japanese spelling and reading."
+    },
+    {
+      "lesson": "kanji/演.md",
+      "target": "words/公演.md",
+      "occurrences": 3,
+      "baselineStatus": "pending",
+      "disposition": "Remove exactly these optional link wrappers and retain the visible Japanese spelling and reading."
+    }
+  ],
+  "unavailableSourceKanjiLinks": [
+    {
+      "lesson": "kanji/演.md",
+      "target": "kanji/寅.md",
+      "occurrences": 1,
+      "baselineStatus": "pending",
+      "disposition": "Remove exactly this optional link wrapper and retain 寅 as ordinary visible text; do not add a kanji lesson."
+    }
+  ],
+  "preservedSourceWordLinks": [
+    {
+      "lesson": "kanji/渡.md",
+      "target": "words/渡る.md",
+      "occurrences": 3
+    },
+    {
+      "lesson": "kanji/港.md",
+      "target": "words/港.md",
+      "occurrences": 3
+    }
+  ],
+  "preservedSourceKanjiLinks": [
+    {
+      "lesson": "kanji/渡.md",
+      "target": "kanji/度.md",
+      "occurrences": 1
+    },
+    {
+      "lesson": "kanji/港.md",
+      "target": "kanji/海.md",
+      "occurrences": 1
+    },
+    {
+      "lesson": "kanji/港.md",
+      "target": "kanji/満.md",
+      "occurrences": 1
+    },
+    {
+      "lesson": "kanji/満.md",
+      "target": "kanji/海.md",
+      "occurrences": 1
+    },
+    {
+      "lesson": "kanji/満.md",
+      "target": "kanji/港.md",
+      "occurrences": 1
+    },
+    {
+      "lesson": "kanji/満.md",
+      "target": "kanji/深.md",
+      "occurrences": 1
+    },
+    {
+      "lesson": "kanji/演.md",
+      "target": "kanji/漢.md",
+      "occurrences": 1
+    }
+  ],
+  "navigationOnlyPages": [],
+  "exactUnavailableWrapperCount": 7,
+  "newWordPages": [],
+  "otherSemanticChanges": [],
+  "authorizationBoundary": "This amendment authorizes only the listed seven optional Markdown-link wrapper removals on the four newly authored lessons. It authorizes no Japanese fact, reading, title, grading, quiz behavior, word-content, or existing-word navigation changes."
+}

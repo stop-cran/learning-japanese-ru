@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "batchId": "130-crossing-harbor-fullness-performance-kanji",
+  "recordedAt": "2026-11-10T11:46:55.0202353+01:00",
+  "candidateCommit": "e539cf3c51bfe5fb38621e36fc172effa2f37003",
+  "candidateTree": "17b25b2c947a64275101444391d6253a6454acdc",
+  "contentVersion": "fadd97d55a215c4d",
+  "commands": [
+    {
+      "command": "python -X utf8 -B tools\\build_manifest.py",
+      "exitCode": 0,
+      "consoleOutput": "manifest.json: 2464 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version fadd97d55a215c4d"
+    },
+    {
+      "command": "python -X utf8 -B tools\\validate.py",
+      "exitCode": 0,
+      "consoleOutput": "0 error(s)"
+    },
+    {
+      "command": "python -X utf8 -B -m unittest discover -s tools -p test_*.py",
+      "exitCode": 0,
+      "consoleOutput": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 32.696s\n\nOK"
+    },
+    {
+      "command": "python -X utf8 -B tools\\check_content_budget.py",
+      "exitCode": 0,
+      "consoleOutput": "{'files': 2472, 'entries': 2481, 'retainedBytes': 6850477, 'inflatedBytes': 6868692, 'localZipBytes': 3451228, 'listeningTaskMediaBytes': 0}"
+    }
+  ],
+  "executionOrder": "Serial and completed after candidate tracking and translation-progress were updated. Manifest remained byte-identical across generation. All four commands exited 0; archive budget ran after manifest generation.",
+  "environment": {
+    "TMPDIR": "C:\\Users\\stop-\\learning-japanese-ru\\.ru-130-final-ntfs-fixture-003",
+    "TMP": "C:\\Users\\stop-\\learning-japanese-ru\\.ru-130-final-ntfs-fixture-003",
+    "TEMP": "C:\\Users\\stop-\\learning-japanese-ru\\.ru-130-final-ntfs-fixture-003",
+    "fixtureRemoved": true,
+    "noGlobalGitAuthOrTrustChanges": true
+  },
+  "outputDomain": "Combined stdout/stderr captured through PowerShell redirection from each serial command; no byte-exact raw stdout file is claimed.",
+  "tests": {
+    "passed": 124,
+    "failed": 0,
+    "durationSeconds": 32.696
+  },
+  "archiveBudget": {
+    "files": 2472,
+    "entries": 2481,
+    "retainedBytes": 6850477,
+    "inflatedBytes": 6868692,
+    "localZipBytes": 3451228,
+    "listeningTaskMediaBytes": 0
+  },
+  "evidenceAtValidation": {
+    "manifestBeforeSha256": "17f86bb757d7a4385859f431ed70bf9954cf0c9f91e16c4f1d1684d729701685",
+    "manifestAfterSha256": "17f86bb757d7a4385859f431ed70bf9954cf0c9f91e16c4f1d1684d729701685",
+    "trackingSha256": "f1bcb4d9027d80f4a38ea26b65bf3af43f87adcce9212339b7556c25c2d3779f",
+    "translationProgressSha256": "3cbcf724daae0f2dcb3ad567eda08b3c968da4befd1f2df82804a5af3a57ceca"
+  },
+  "historicalPreflightFailure": {
+    "document": "docs/translation-batches/130-crossing-harbor-fullness-performance-kanji-pre-mutation-navigation-amendment-002.json",
+    "status": "preserved",
+    "exitCode": 1,
+    "cause": "Validator required the five new lesson navigation links on existing words pages; exact pre-mutation amendment 002 was signed before those wrappers were applied. This failed preflight is not represented as a successful check."
+  },
+  "privateReceipt": {
+    "artifact": "ru-130-final-validation-console-003.json",
+    "rawSha256": "2b516e06f0be5fc525d85f318fe34569c9693594d53c18fc60a01f269e74de07"
+  },
+  "validationNotEquivalentTo": "Semantic review, runtime/app acceptance, device/native approval, or publication integration."
+}

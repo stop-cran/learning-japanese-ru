@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "batch": "130-crossing-harbor-fullness-performance-kanji",
+  "recordedAt": "2026-11-10T11:27:02+01:00",
+  "stage": "ADDITIVE PRE-MUTATION NAVIGATION AMENDMENT; LISTED WORD PAGES NOT YET EDITED",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "6a1bb488ecfc1926f6fb2e57962b1fee40174fc2",
+  "candidateBranch": "full-ru-130-crossing-harbor-fullness-performance-kanji",
+  "amends": "docs/translation-batches/130-crossing-harbor-fullness-performance-kanji-source-adjudication-and-semantic-freeze-001.json",
+  "relatedInitialAmendment": "docs/translation-batches/130-crossing-harbor-fullness-performance-kanji-pre-mutation-navigation-amendment-001.json",
+  "reason": "The first candidate validator run, after adding four new kanji lessons and four source-identical strokes, exited 1 with five required missing-kanji-link errors for the exact word pages below. These are existing reviewed-current articles, each directly contains the newly taught kanji, and the accepted validator requires a navigation link. This amendment additively authorizes only the five exact wrappers below before those word pages are edited; it does not change Japanese/Russian prose or quiz data. The original freeze and first amendment remain immutable.",
+  "validatorEvidence": {
+    "command": "python -X utf8 -B tools\\validate.py",
+    "exitCode": 1,
+    "output": [
+      "words/渡す.md: kanji '渡' has a card but the article does not link to it (add [渡](../kanji/渡.md))",
+      "words/渡る.md: kanji '渡' has a card but the article does not link to it (add [渡](../kanji/渡.md))",
+      "words/港.md: kanji '港' has a card but the article does not link to it (add [港](../kanji/港.md))",
+      "words/演説.md: kanji '演' has a card but the article does not link to it (add [演](../kanji/演.md))",
+      "words/空港.md: kanji '港' has a card but the article does not link to it (add [港](../kanji/港.md))"
+    ],
+    "interpretation": "C1 structural link validation only; not a Japanese-semantics or Russian-comprehension verdict."
+  },
+  "navigationOnlyPages": [
+    {
+      "path": "words/渡す.md",
+      "baselineStatus": "reviewed-current",
+      "baselineRuRawSha256": "0f784489fea0e8d82b204d62461fca83429df125f71114a603b4e8a9e29eea80",
+      "oldVisibleText": "渡 связан с переходом на другую сторону или передачей; す — окуригана.",
+      "newVisibleText": "[渡](../kanji/渡.md) связан с переходом на другую сторону или передачей; す — окуригана.",
+      "operation": "Insert exactly one relative kanji-card link wrapper around the existing glyph; preserve all other bytes, learner-facing words, examples, metadata, and quiz behavior."
+    },
+    {
+      "path": "words/渡る.md",
+      "baselineStatus": "reviewed-current",
+      "baselineRuRawSha256": "09bf91b3775d143363dceecee7989eaa3de9ea5a128526d6abdb854d862bc996",
+      "oldVisibleText": "渡 передаёт переход на другую сторону; далее следует る.",
+      "newVisibleText": "[渡](../kanji/渡.md) передаёт переход на другую сторону; далее следует る.",
+      "operation": "Insert exactly one relative kanji-card link wrapper around the existing glyph; preserve all other bytes, learner-facing words, examples, metadata, and quiz behavior."
+    },
+    {
+      "path": "words/港.md",
+      "baselineStatus": "reviewed-current",
+      "baselineRuRawSha256": "8f4aa7945cd9c750780b0e0742dd793f7f591cde72d25423087dac70225a89ae",
+      "oldVisibleText": "Один знак 港 записывает исконное существительное みなと.",
+      "newVisibleText": "Один знак [港](../kanji/港.md) записывает исконное существительное みなと.",
+      "operation": "Insert exactly one relative kanji-card link wrapper around the existing glyph; preserve all other bytes, learner-facing words, examples, metadata, and quiz behavior."
+    },
+    {
+      "path": "words/演説.md",
+      "baselineStatus": "reviewed-current",
+      "baselineRuRawSha256": "26a8db094467f8896975733883ad6a731e2b4c461e5c3be2fe41b2c94c01bc83",
+      "oldVisibleText": "演 связан с представлением или исполнением,",
+      "newVisibleText": "[演](../kanji/演.md) связан с представлением или исполнением,",
+      "operation": "Insert exactly one relative kanji-card link wrapper around the existing glyph; preserve all other bytes, learner-facing words, examples, metadata, and quiz behavior."
+    },
+    {
+      "path": "words/空港.md",
+      "baselineStatus": "reviewed-current",
+      "baselineRuRawSha256": "057f60bbe70018985fc77f04f8b34bfd4c053d5fa6b935e2aa992a428a1c792a",
+      "oldVisibleText": "а 港 — с портом, гаванью.",
+      "newVisibleText": "а [港](../kanji/港.md) — с портом, гаванью.",
+      "operation": "Insert exactly one relative kanji-card link wrapper around the existing glyph; preserve all other bytes, learner-facing words, examples, metadata, and quiz behavior."
+    }
+  ],
+  "exactWrapperCount": 5,
+  "newWordPages": [],
+  "otherSemanticChanges": [],
+  "authorizationBoundary": "This amendment authorizes exactly one glyph-link wrapper per listed existing word page. Preserve every other byte and all semantic/metadata/quiz content. No other existing word pages or runtime behavior are authorized."
+}

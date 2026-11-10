@@ -1,0 +1,343 @@
+{
+  "schemaVersion": 1,
+  "batch": "130-crossing-harbor-fullness-performance-kanji",
+  "recordedAt": "2026-11-10T11:21:58+01:00",
+  "stage": "DEPENDENCY-CLOSED INTAKE; PRE-MUTATION FREEZE RECORDED",
+  "candidateBranch": "full-ru-130-crossing-harbor-fullness-performance-kanji",
+  "russianBaselineSnapshot": "6a1bb488ecfc1926f6fb2e57962b1fee40174fc2",
+  "frozenEnglishSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineProgress": {
+    "path": "docs/translation-progress.json",
+    "rawSha256": "502ca9fa34cf431b69b38fc429e6c8ff6401013b54523121b5dcf5e22bcf2663",
+    "trackingRawSha256": "b16dd238b1e2fc0103b9a3d79bfbb413b36937b4c6efb0c57bc557f8c4752049",
+    "russianContentVersion": "c428c2168b28da5c",
+    "reviewedCurrent": 2456,
+    "reviewedRuntimeBlockedDrafts": 2,
+    "pending": 5820,
+    "frozenInventory": 8278,
+    "acceptedWords": 1478,
+    "acceptedKanji": 474,
+    "acceptedStrokes": 474,
+    "checkpointAuthority": null,
+    "ready": false
+  },
+  "selection": {
+    "firstPendingFrozenN3RootsSelected": [
+      "渡",
+      "港",
+      "満",
+      "演"
+    ],
+    "selectionBoundary": "Selected the first four pending roots in the frozen community N3 ordering. This is a bounded source batch, not N3 or finite completion.",
+    "closedNewKanji": [
+      "渡",
+      "港",
+      "満",
+      "演"
+    ],
+    "closureRule": "Include direct source distractor providers that are pending; do not infer transitive quiz exclusions.",
+    "closureSize": 4,
+    "allProvidersAcceptedOrIncluded": true,
+    "notAllN3OrFiniteCompletion": true,
+    "allFrozenFamiliesContinue": true
+  },
+  "newKanji": [
+    {
+      "kanji": "渡",
+      "sourceGitRawSha256": "7200ea5376778f11d8c346219f523551ddf23fb09fd51a8cbe95229710c5657f",
+      "sourceGitBlob": "9151ac607bc8846b926310fe189c5e8c3d61f0a1",
+      "strokeSourceGitRawSha256": "01fe6822d8b29f7058abdc61ebfda138bec9ac1a3e6407a33c2484c883f95715",
+      "strokeSourceGitBlob": "c8be998932fb5fd64fe2d2d774524149d488eb92",
+      "baselineStatus": "pending",
+      "metadata": {
+        "kanji": "渡",
+        "title": "cross over",
+        "jlpt": 3,
+        "tags": [
+          "jlpt-n3",
+          "grade-8",
+          "structure-unclassified"
+        ],
+        "strokes": 12,
+        "radical": "水",
+        "radicalNumber": 85,
+        "onyomi": [
+          "ト"
+        ],
+        "kunyomi": [
+          "わた.る",
+          "-わた.る",
+          "わた.す"
+        ],
+        "distractors": [
+          "度",
+          "法",
+          "港"
+        ]
+      }
+    },
+    {
+      "kanji": "港",
+      "sourceGitRawSha256": "a3689e870f076c834475e4a14dc490acda08906c60f0bbd7207009da27d0fb84",
+      "sourceGitBlob": "a2406f3ca1b303454627937ab00fbeed47c2d140",
+      "strokeSourceGitRawSha256": "b75f81bc129aad1785cf9c0332c910709feb41bead5a254011df047d06e9bd9d",
+      "strokeSourceGitBlob": "b0ea1dc1a754b7293e1d89676072c9dafadd6c6f",
+      "baselineStatus": "pending",
+      "metadata": {
+        "kanji": "港",
+        "title": "harbor",
+        "jlpt": 3,
+        "tags": [
+          "jlpt-n3",
+          "grade-3",
+          "structure-unclassified"
+        ],
+        "strokes": 12,
+        "radical": "水",
+        "radicalNumber": 85,
+        "onyomi": [
+          "コウ"
+        ],
+        "kunyomi": [
+          "みなと"
+        ],
+        "distractors": [
+          "満",
+          "洗",
+          "演"
+        ]
+      }
+    },
+    {
+      "kanji": "満",
+      "sourceGitRawSha256": "b95ed1b48edc33f3ef61e9d7d953b76575e7b8eb7cf943cd931afee2ea61814c",
+      "sourceGitBlob": "2a766c09279608cc8f74aa9a9e8bf5b1c65a1a6a",
+      "strokeSourceGitRawSha256": "a1a328d86776eebfda2350683af25cac8d3e062c245e297bf18736fed849d84b",
+      "strokeSourceGitBlob": "7270c885e376fdafc96cb4797d78e1a52e0d4647",
+      "baselineStatus": "pending",
+      "metadata": {
+        "kanji": "満",
+        "title": "full; satisfy",
+        "jlpt": 3,
+        "tags": [
+          "jlpt-n3",
+          "grade-4",
+          "structure-unclassified"
+        ],
+        "strokes": 12,
+        "radical": "水",
+        "radicalNumber": 85,
+        "onyomi": [
+          "マン",
+          "バン"
+        ],
+        "kunyomi": [
+          "み.ちる",
+          "み.つ",
+          "み.たす"
+        ],
+        "distractors": [
+          "海",
+          "港",
+          "深"
+        ]
+      }
+    },
+    {
+      "kanji": "演",
+      "sourceGitRawSha256": "c2a8d89c4d697120fc87b98fc05416e854477137d3242803fbe27cfc168331bc",
+      "sourceGitBlob": "05ffa29714c376f876fa6f98ca1e736059baf445",
+      "strokeSourceGitRawSha256": "e0fcb013e2510838a0a01ebae31cb8aa6a3c410e3deebfae9d45f735f45d11a9",
+      "strokeSourceGitBlob": "f8a99578bb89a210293737b354e14b25355f3276",
+      "baselineStatus": "pending",
+      "metadata": {
+        "kanji": "演",
+        "title": "perform; stage",
+        "jlpt": 3,
+        "tags": [
+          "jlpt-n3",
+          "grade-5",
+          "structure-unclassified"
+        ],
+        "strokes": 14,
+        "radical": "水",
+        "radicalNumber": 85,
+        "onyomi": [
+          "エン"
+        ],
+        "kunyomi": [],
+        "distractors": [
+          "漢",
+          "港",
+          "満"
+        ]
+      }
+    }
+  ],
+  "directProviders": {
+    "渡": {
+      "度": "reviewed-current",
+      "法": "reviewed-current",
+      "港": "included"
+    },
+    "港": {
+      "満": "included",
+      "洗": "reviewed-current",
+      "演": "included"
+    },
+    "満": {
+      "海": "reviewed-current",
+      "港": "included",
+      "深": "reviewed-current"
+    },
+    "演": {
+      "漢": "reviewed-current",
+      "港": "included",
+      "満": "included"
+    }
+  },
+  "availableSourceWordLinksToPreserve": [
+    {
+      "lesson": "kanji/渡.md",
+      "target": "words/渡る.md",
+      "sourceOccurrences": 3,
+      "baselineStatus": "reviewed-current"
+    },
+    {
+      "lesson": "kanji/港.md",
+      "target": "words/港.md",
+      "sourceOccurrences": 3,
+      "baselineStatus": "reviewed-current"
+    }
+  ],
+  "unavailableOptionalSourceWordLinks": [
+    {
+      "lesson": "kanji/満.md",
+      "target": "words/満足.md",
+      "occurrences": 3,
+      "baselineStatus": "pending"
+    },
+    {
+      "lesson": "kanji/演.md",
+      "target": "words/公演.md",
+      "occurrences": 3,
+      "baselineStatus": "pending"
+    }
+  ],
+  "unavailableOptionalSourceKanjiLinks": [
+    {
+      "lesson": "kanji/演.md",
+      "target": "kanji/寅.md",
+      "occurrences": 1,
+      "baselineStatus": "pending"
+    }
+  ],
+  "availableSourceKanjiLinksToPreserve": [
+    {
+      "lesson": "kanji/渡.md",
+      "target": "kanji/度.md",
+      "occurrences": 1,
+      "baselineStatus": "reviewed-current"
+    },
+    {
+      "lesson": "kanji/港.md",
+      "target": "kanji/海.md",
+      "occurrences": 1,
+      "baselineStatus": "reviewed-current"
+    },
+    {
+      "lesson": "kanji/港.md",
+      "target": "kanji/満.md",
+      "occurrences": 1,
+      "baselineStatus": "included"
+    },
+    {
+      "lesson": "kanji/満.md",
+      "target": "kanji/海.md",
+      "occurrences": 1,
+      "baselineStatus": "reviewed-current"
+    },
+    {
+      "lesson": "kanji/満.md",
+      "target": "kanji/港.md",
+      "occurrences": 1,
+      "baselineStatus": "included"
+    },
+    {
+      "lesson": "kanji/満.md",
+      "target": "kanji/深.md",
+      "occurrences": 1,
+      "baselineStatus": "reviewed-current"
+    },
+    {
+      "lesson": "kanji/演.md",
+      "target": "kanji/漢.md",
+      "occurrences": 1,
+      "baselineStatus": "reviewed-current"
+    }
+  ],
+  "navigationOnlyWordPages": [],
+  "newWordPages": [],
+  "privatePrimaryEvidence": {
+    "kanjidic2": {
+      "artifact": "ru-130-metadata-primary-capture-001.json",
+      "sha256": "1705465e1728e0aa867481e58b3607eaba81eb76f5d7a6c179a916a9601bd60c",
+      "archiveSha256": "e26e34c9187a786bf1f0b21f87e311a9b0ed644aefe9693d10bdc7cb8643d8e0",
+      "decompressedXmlSha256": "01bf4cc9b3a72d7fa521a780c0e7f35c479d314d35654131b45f1f359dc69311",
+      "databaseVersion": "2026-308"
+    },
+    "jmdict": {
+      "artifact": "ru-130-jmdict-primary-capture-001.json",
+      "sha256": "21b37a92947365a015a02780bac0927c4e83c5a61bdca43c85a32c2adf3c99c7",
+      "archiveSha256": "5af39046e9579fd5e14d07a048fccce422b8df0d940ba8c086439e5a7617eab6",
+      "decompressedXmlSha256": "d3b3e51a2173b1b4482aa98333ebb53f038cf5a3b7ff266a6c43abcfc79dafe3",
+      "entryIds": [
+        "1176780",
+        "1245570",
+        "1273280",
+        "1279990",
+        "1307500",
+        "1352670",
+        "1422970",
+        "1444610",
+        "1444680",
+        "1454080",
+        "1494970",
+        "1522150",
+        "1526720",
+        "1526860",
+        "1602800",
+        "1604540",
+        "1607520",
+        "2845363"
+      ]
+    },
+    "communityJlptN3": {
+      "artifact": "ru-127-frozen-n3-source-snapshot-001.json",
+      "sha256": "4ffdacad14efcdee13e504a36f5705bc2226ea763bf46a00369c1bf6040b28e8",
+      "url": "https://kanjiapi.dev/v1/kanji/jlpt-3",
+      "orderedSetCount": 367,
+      "scope": "Frozen community ordering/classification only; not an official JLPT syllabus."
+    },
+    "unicodeRadicalRows": {
+      "sourceVersion": "17.0.0",
+      "archiveSha256": "2e1efc1dcb59c575eedf5ccae60f95229f706ee6d031835247d843c11d96470c",
+      "row": {
+        "number": 85,
+        "glyph": "水",
+        "codepoint": "2F54"
+      },
+      "priorReviewedRecord": "docs/translation-batches/127-capture-hanging-search-population-kanji-source-adjudication-and-semantic-freeze-001.json"
+    },
+    "strokes": {
+      "project": "KanjiVG",
+      "revision": "70a0b7ae0c18ceb5cb358274b029cce0234a43bc",
+      "operation": "Copy the exact four source JSON byte streams from frozen EN commit; do not regenerate or manually alter them."
+    }
+  },
+  "sourceInventory": {
+    "frozenEnglishCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "runtimeInventory": 8278,
+    "targetChangedDuringBatch": false
+  }
+}

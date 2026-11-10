@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "batchId": "130-crossing-harbor-fullness-performance-kanji",
+  "recordedAt": "2026-11-10T11:35:58+01:00",
+  "reviewTool": "functions.task; independent read-only code-review agent",
+  "captureDomain": "The tool returned the final report body; no separate raw stdout stream or agent execution ID was exposed. The public projection preserves the returned report text.",
+  "sourceSnapshot": {
+    "ruBranch": "full-ru-130-crossing-harbor-fullness-performance-kanji",
+    "ruBase": "6a1bb488ecfc1926f6fb2e57962b1fee40174fc2",
+    "ruParent": "6648ea9ce6f0b9521479ae7793810beea471eeab",
+    "frozenEnglishCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "reviewedCandidateState": "Exact pushed candidate commit; the broader base-to-candidate diff also contains documentation changes outside the reviewer scope."
+  },
+  "report": {
+    "publicProjectionPath": "docs/translation-batches/130-crossing-harbor-fullness-performance-kanji-independent-review-001.md",
+    "publicProjectionUtf8Bytes": 2465,
+    "publicProjectionSha256": "7240a0428a63250d32d89cec04d38b7da46598a5b0f006e0b5941430b5fd1c80",
+    "redactions": [],
+    "reportLimitBytes": 11000,
+    "withinLimit": true,
+    "gitBlobProjection": {
+      "gitBlobObjectId": "76c280110cfcd313cc6766a230fa9ff4b2487da4",
+      "gitBlobRawSha256": "1849b08bb33c4c5633ff9ab9da5031c2c0f61d0076905657380da47b2c46ae7c",
+      "gitBlobUtf8Bytes": 2443,
+      "eol": "LF; Git text normalization from CRLF worktree bytes"
+    }
+  },
+  "candidateCommit": "e539cf3c51bfe5fb38621e36fc172effa2f37003",
+  "candidateTree": "17b25b2c947a64275101444391d6253a6454acdc",
+  "contentVersion": "fadd97d55a215c4d",
+  "reviewedScope": {
+    "newLessons": [
+      "渡",
+      "港",
+      "満",
+      "演"
+    ],
+    "completeRussianLessonsRead": 4,
+    "frozenEnglishCounterpartsRead": 4,
+    "strokeFilesByteCompared": 4,
+    "navigationOnlyPages": [
+      "words/渡す.md",
+      "words/渡る.md",
+      "words/港.md",
+      "words/演説.md",
+      "words/空港.md"
+    ],
+    "completeWordPagesRead": 5,
+    "existingDirectProviderCardsRead": [
+      "度",
+      "法",
+      "洗",
+      "海",
+      "深",
+      "漢"
+    ],
+    "kanjidic2RecordsRead": 4,
+    "completeJmdictRecordsRead": 18,
+    "guidanceFilesRead": [
+      ".github/copilot-instructions.md",
+      ".github/instructions/content-structure.instructions.md",
+      ".github/agents/kanji-accuracy-reviewer.agent.md",
+      ".github/agents/kanji-comprehension-reviewer.agent.md",
+      ".github/agents/content-consistency-reviewer.agent.md",
+      "docs/content-format-reference.md",
+      "docs/translation-methodology.md"
+    ],
+    "batchScopeDocumentsRead": [
+      "docs/translation-batches/130-crossing-harbor-fullness-performance-kanji-intake.json",
+      "docs/translation-batches/130-crossing-harbor-fullness-performance-kanji-source-adjudication-and-semantic-freeze-001.json",
+      "docs/translation-batches/130-crossing-harbor-fullness-performance-kanji-pre-mutation-navigation-amendment-001.json",
+      "docs/translation-batches/130-crossing-harbor-fullness-performance-kanji-pre-mutation-navigation-amendment-002.json"
+    ],
+    "all12DirectDistractorDirectionsRead": true,
+    "candidateRuntimeScopeMatchesAmendments": true
+  },
+  "verdicts": {
+    "C1": "UNVERIFIED; no supported Japanese-content defect found. Captures support checked readings, strokes, grades, radical and cited lexical forms/senses; standalone バス absent from capture, so that example naturalness is not independently established.",
+    "C2": "UNVERIFIED; exact runtime scope and amendments match, all four stroke files byte-match frozen source. All 12 ordinary negative/fallback directions remain UNVERIFIED; no app/runtime operation or sense-guard review.",
+    "C3": "UNVERIFIED; no supported novice-blocking defect in the text-only pass; not a native-speaker assessment."
+  },
+  "supportedFindings": [],
+  "unverifiedEdges": [
+    "渡→度",
+    "渡→法",
+    "渡→港",
+    "港→満",
+    "港→洗",
+    "港→演",
+    "満→海",
+    "満→港",
+    "満→深",
+    "演→漢",
+    "演→港",
+    "演→満"
+  ],
+  "limitations": [
+    "No validator or tests were run by reviewer; recorded separately.",
+    "No app/runtime operation, frequency, device, visual/handwriting, or release acceptance.",
+    "No native-speaker or learning-outcome certification.",
+    "The reviewer did not review the other plan updates or batch-129 record in the broader base-to-candidate diff."
+  ],
+  "runtimeAcceptance": false,
+  "publicationIntegrated": false,
+  "fullTranslationComplete": false
+}
