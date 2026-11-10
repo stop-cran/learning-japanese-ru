@@ -11,7 +11,7 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current qualified source candidate: batch131 heat, fatigue, pain, sleep and condition kanji
+## Current published source milestone: batch131 heat, fatigue, pain, sleep and condition kanji
 
 Batch131 adds ten complete Russian lessons (熱/疲/痛/眠/状/点/然/破/犯/石),
 ten byte-identical frozen-source stroke assets, and thirteen NAV-only word-page
@@ -29,11 +29,15 @@ ordinary-activation approval.
 The [qualified source record](translation-batches/131-heat-fatigue-pain-sleep-condition-kanji-reviewed-source.json)
 records 2,484 reviewed-current / 2 excluded reviewed runtime-blocked drafts /
 5,792 pending of 8,278; 1,478 words / 488 kanji / 488 strokes. Version
-`d8a791473ae509d9`; checkpoint authority remains null and `Ready` false. The
-signed candidate is `38613291c47b70d434ef23c8ff1cf2c81a9ab0a0`; normal PR
-integration, exact-main CI, archive and protected-ref verification remain
-pending. Continue batch132 and every remaining safe frozen family after
-publication; this is not finite completion.
+`d8a791473ae509d9`; checkpoint authority remains null and `Ready` false.
+[PR #15](https://github.com/stop-cran/learning-japanese-ru/pull/15) merged at
+main `5c2ac0f4a541136caeba3cbd3154fc3aba0ccc65`. Exact-main CI passed; actual
+ZIP and tar.gz exports (2,492 files each) matched the exact Git archive bytes,
+all four protected refs remained unchanged, and issue #3 progress was updated.
+See the [publication verification](translation-batches/131-heat-fatigue-pain-sleep-condition-kanji-publication-verification-001.json).
+No runtime, grading, device, media, release, or ordinary-activation approval is
+claimed. Continue batch132 and every remaining safe frozen family; this is not
+finite completion.
 
 ## Previous published source milestone: batch130 crossing, harbor, fullness and performance kanji
 
@@ -57,7 +61,7 @@ records 2,464 reviewed-current / 2 excluded reviewed runtime-blocked drafts /
 and tar.gz exports matched the exact Git archive bytes, required licenses/notices
 were present, all four protected refs remained unchanged, and issue #3 progress
 was updated. See the [publication verification](translation-batches/130-crossing-harbor-fullness-performance-kanji-publication-verification-001.json).
-Batch131 supersedes this as the current qualified candidate; see above.
+Batch131 supersedes this as the current published source milestone; see above.
 
 ## Previous published source milestone: batch129 floating, depth and settlement kanji
 
