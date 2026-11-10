@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "batchId": "125-tooth-age-and-stages-kanji",
+  "observedAt": "2026-11-10T05:29:24Z",
+  "main": "4a380718a0611e268aff3366356fe631563fe65b",
+  "contentVersion": "afe1154b96b55364",
+  "signature": {
+    "commit": "4a380718a0611e268aff3366356fe631563fe65b",
+    "localSignature": "G",
+    "githubVerified": true,
+    "githubReason": "valid"
+  },
+  "protectedRefs": [
+    {
+      "repository": "stop-cran/learning-japanese-ru",
+      "branch": "ru-pilot-a",
+      "commit": "544dd15f6a07e53042bdb488b9d7a04da9685313"
+    },
+    {
+      "repository": "stop-cran/learning-japanese-ru",
+      "branch": "ru-pilot-b",
+      "commit": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f"
+    },
+    {
+      "repository": "stop-cran/learning-japanese-ru-integration-test",
+      "branch": "main",
+      "commit": "28b39c15b0d17dbe784e49016076009f75d5ba38"
+    },
+    {
+      "repository": "stop-cran/learning-japanese-ru-integration-test",
+      "branch": "ru-pilot-b",
+      "commit": "7ce81c74e72fc189185a1bebe71d775379792124"
+    }
+  ],
+  "archives": {
+    "commit": {
+      "url": "https://codeload.github.com/stop-cran/learning-japanese-ru/legacy.zip/4a380718a0611e268aff3366356fe631563fe65b",
+      "archiveSha256": "d8f8350e2b8438c3d58b7226a0c59d36eb4b5029f3d1f027ca2fc65f39e62b5f",
+      "archiveBytes": 3547225,
+      "fileBodies": 2414,
+      "runtimeObjects": 2406,
+      "batchRawIdenticalStrokeFiles": 5,
+      "exactLocalExportEquality": true,
+      "allRuntimeManifestHashesValid": true,
+      "rootLicensesPresent": true
+    },
+    "main": {
+      "url": "https://codeload.github.com/stop-cran/learning-japanese-ru/legacy.zip/main",
+      "archiveSha256": "d8f8350e2b8438c3d58b7226a0c59d36eb4b5029f3d1f027ca2fc65f39e62b5f",
+      "archiveBytes": 3547225,
+      "fileBodies": 2414,
+      "runtimeObjects": 2406,
+      "batchRawIdenticalStrokeFiles": 5,
+      "exactLocalExportEquality": true,
+      "allRuntimeManifestHashesValid": true,
+      "rootLicensesPresent": true
+    }
+  },
+  "boundary": "Actual official public Codeload bytes and GitHub signature verification; not quiz-guard, app, device, media, or release approval.",
+  "ci": [
+    {
+      "id": 42761965257,
+      "name": "Validate Russian content",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/stop-cran/learning-japanese-ru/actions/runs/42761965257",
+      "headSha": "4a380718a0611e268aff3366356fe631563fe65b"
+    }
+  ],
+  "ciVerifiedAt": "2026-11-10T05:29:24Z",
+  "qualifiedReview": "docs/translation-batches/125-tooth-age-and-stages-kanji-review-qualification-dispositions-001.json",
+  "reviewBoundary": "One actual whole-candidate C1/C2/C3 review (8404 UTF-8 bytes; SHA256 5428dd9d73159f0c2350904842cfa2fc0271bad2374ba1786d9246764a7f7497) read all five complete new lessons and frozen EN counterparts, seven word-navigation diffs, five stroke assets, five current KanjiPedia entries, candidate manifest, 15 directions, signed 14-wrapper amendment, guidance, and rubrics. Its source-data gaps and incorrect initial stroke-source statement were not promoted. A sequential source follow-up (2170 UTF-8 bytes; SHA256 5f6f5154e51194d68dca306150d669a71ed196e72f73c22a33219493baa2117f) checked all 18 captured KANJIDIC2 records, three radical rows, 50 JMdict objects, and 22 cited form/reading pairs against raw payloads. Direct source-blob checks confirmed the five batch stroke assets. Qualified C1 CLEAN and C3 CLEAN are limited to the reviewed scope; all 15 ordinary active-negative directions remain C2 UNVERIFIED. No app/device, grading-guard, native-speaker, or learning-outcome approval.",
+  "actualWholeReview": "private session artifact ru-125-review-content-tool-return-001.txt",
+  "actualFocusedReview": "private session artifact ru-125-review-source-tool-return-001.txt",
+  "qualificationDisposition": "docs/translation-batches/125-tooth-age-and-stages-kanji-review-qualification-dispositions-001.json",
+  "freshSerialValidation": {
+    "observedAt": "2026-11-10T05:29:24Z",
+    "commands": [
+      {
+        "command": "python -X utf8 -B tools\\build_manifest.py",
+        "exitCode": 0,
+        "stdout": "manifest.json: 2406 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version afe1154b96b55364"
+      },
+      {
+        "command": "python -X utf8 -B tools\\validate.py",
+        "exitCode": 0,
+        "stdout": "0 error(s)"
+      },
+      {
+        "command": "python -X utf8 -B -m unittest discover -s tools -p test_*.py",
+        "exitCode": 0,
+        "tests": 124,
+        "result": "OK"
+      },
+      {
+        "command": "python -X utf8 -B tools\\check_content_budget.py",
+        "exitCode": 0,
+        "stdout": "{'files': 2414, 'entries': 2423, 'retainedBytes': 6695418, 'inflatedBytes': 6713633, 'localZipBytes': 3375860, 'listeningTaskMediaBytes': 0}"
+      }
+    ],
+    "allSerial": true,
+    "exactNtfsFixture": "C:\\Users\\stop-\\learning-japanese-ru\\.test-tmp-ru125-final",
+    "fixtureRemovedIfEmpty": true
+  },
+  "receiptBoundary": "Records batch125 acceptance-publication evidence only; full frozen translation remains incomplete and additional batches are required."
+}
