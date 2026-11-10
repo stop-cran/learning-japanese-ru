@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "batch": "126-hand-actions-kanji",
+  "recordedAt": "2026-11-10T05:50:49.414502+00:00",
+  "stage": "DEPENDENCY-CLOSED INTAKE; AUTHORING AND INDEPENDENT REVIEW PENDING",
+  "branch": "full-ru-126-hand-actions-kanji",
+  "russianBaselineSnapshot": "3543dceb9e5785dd0d5cdebdbc8ee066c97711f8",
+  "frozenEnglishSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "selection": {
+    "firstPendingFrozenN3Roots": ["打", "払", "投", "折", "抜"],
+    "closedNewKanji": ["打", "払", "投", "折", "抜", "抱", "押", "招", "指"],
+    "closureRule": "Close only the frozen source's direct distractor providers; do not infer transitive quiz exclusions.",
+    "closureSize": 9,
+    "allProvidersAcceptedOrIncluded": true,
+    "notAllN3OrFiniteCompletion": true,
+    "allFrozenFamiliesContinue": true
+  },
+  "newKanji": [
+    {
+      "kanji": "打",
+      "sourceGitRawSha256": "b88dc58659b8ec4c826c673b61f480122ecadf2103194c9d262f1445bdeab8fc",
+      "strokeSourceGitRawSha256": "81befd500e668cb49c0d32997001110dd04396aba9241293bf269e6cdc116d9e",
+      "metadata": {
+        "kanji": "打",
+        "title": "strike",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-3", "structure-unclassified"],
+        "strokes": 5,
+        "radical": "手",
+        "radicalNumber": 64,
+        "onyomi": ["ダ", "ダース"],
+        "kunyomi": ["う.つ", "う.ち-", "ぶ.つ"],
+        "distractors": ["払", "折", "持"]
+      }
+    },
+    {
+      "kanji": "払",
+      "sourceGitRawSha256": "bdb5e39c9b22370d78065a43378cfbe9373c6932d8f19b616d028dd8c155422c",
+      "strokeSourceGitRawSha256": "20439fb4d62e1ee5917ae68e63b0cbab1147041ffdef65891361093b1100bd00",
+      "metadata": {
+        "kanji": "払",
+        "title": "pay",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-8", "structure-unclassified"],
+        "strokes": 5,
+        "radical": "手",
+        "radicalNumber": 64,
+        "onyomi": ["フツ", "ヒツ", "ホツ"],
+        "kunyomi": ["はら.う", "-はら.い", "-ばら.い"],
+        "distractors": ["私", "打", "抱"]
+      }
+    },
+    {
+      "kanji": "投",
+      "sourceGitRawSha256": "3717ab83c7d373a0ff94f213ac7fdba106ababb9ca9589b663195ff626f954ef",
+      "strokeSourceGitRawSha256": "df2580dc0c8587f737cc290ba245446a4b70a205fd91e5e772df110c3ec2e5e2",
+      "metadata": {
+        "kanji": "投",
+        "title": "throw",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-3", "structure-unclassified"],
+        "strokes": 7,
+        "radical": "手",
+        "radicalNumber": 64,
+        "onyomi": ["トウ"],
+        "kunyomi": ["な.げる", "-な.げ"],
+        "distractors": ["抜", "折", "抱"]
+      }
+    },
+    {
+      "kanji": "折",
+      "sourceGitRawSha256": "2d20c4e3221eb88f171e9ee6ed4d1ae44378ee978fb40bd3ffa55ef42bf1dafb",
+      "strokeSourceGitRawSha256": "4b113efbb530d14a67bade03e3b8ddff5bffad059770178a1cc485b800c515f9",
+      "metadata": {
+        "kanji": "折",
+        "title": "fold",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-4", "structure-unclassified"],
+        "strokes": 7,
+        "radical": "手",
+        "radicalNumber": 64,
+        "onyomi": ["セツ", "シャク"],
+        "kunyomi": ["お.る", "おり", "お.り", "-お.り", "お.れる"],
+        "distractors": ["新", "所", "投"]
+      }
+    },
+    {
+      "kanji": "抜",
+      "sourceGitRawSha256": "6dbb6e45d54efa9446ff9d6626f25a6f24967d7a2ce8883f27978d6c7061f983",
+      "strokeSourceGitRawSha256": "92c7b9459ef554cefa2f827a360b1f16f333adb3b5b138ca8608528f4b580d8a",
+      "metadata": {
+        "kanji": "抜",
+        "title": "extract",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-8", "structure-unclassified"],
+        "strokes": 7,
+        "radical": "手",
+        "radicalNumber": 64,
+        "onyomi": ["バツ", "ハツ", "ハイ"],
+        "kunyomi": ["ぬ.く", "-ぬ.く", "ぬ.き", "ぬ.ける", "ぬ.かす", "ぬ.かる"],
+        "distractors": ["投", "押", "抱"]
+      }
+    },
+    {
+      "kanji": "抱",
+      "sourceGitRawSha256": "316ef7517cef1375f4e1fcdda561006ae829633291536e39284aa4a66f092b4e",
+      "strokeSourceGitRawSha256": "0fbec3eb09c5bb8161a7671ccfb4386cebc2e00cf6e99f310ffd97549e6c6068",
+      "metadata": {
+        "kanji": "抱",
+        "title": "embrace",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-8", "structure-unclassified"],
+        "strokes": 8,
+        "radical": "手",
+        "radicalNumber": 64,
+        "onyomi": ["ホウ"],
+        "kunyomi": ["だ.く", "いだ.く", "かか.える"],
+        "distractors": ["招", "折", "払"]
+      }
+    },
+    {
+      "kanji": "押",
+      "sourceGitRawSha256": "fa80205b54b3f178289f8cc28640bf758e2fba5e4af91b865c2298f68d66096f",
+      "strokeSourceGitRawSha256": "7f789400bd4aa0c7e81460bd48b54add535e82e8f61d07a01861a45286d13dd5",
+      "metadata": {
+        "kanji": "押",
+        "title": "push",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-8", "structure-unclassified"],
+        "strokes": 8,
+        "radical": "手",
+        "radicalNumber": 64,
+        "onyomi": ["オウ"],
+        "kunyomi": ["お.す", "お.し-", "お.っ-", "お.さえる", "おさ.える"],
+        "distractors": ["田", "指", "招"]
+      }
+    },
+    {
+      "kanji": "招",
+      "sourceGitRawSha256": "160dce0f0c55df2e52acee7fcfecc992c75e6ac5e999dbfd01db48e16ea3a2b3",
+      "strokeSourceGitRawSha256": "eb4ad47176a422372e48cd0f5acc440fe90d3e8ff551124dc622ddab60594b5a",
+      "metadata": {
+        "kanji": "招",
+        "title": "invite",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-5", "structure-unclassified"],
+        "strokes": 8,
+        "radical": "手",
+        "radicalNumber": 64,
+        "onyomi": ["ショウ"],
+        "kunyomi": ["まね.く"],
+        "distractors": ["切", "抱", "押"]
+      }
+    },
+    {
+      "kanji": "指",
+      "sourceGitRawSha256": "1de0626a89b4838aaea0ef5fe8f0c372a8b6a63ca01bc3078d1c32c8c10b2a21",
+      "strokeSourceGitRawSha256": "be91dbabbf2e78e4ba199a8cd6e564592b11a1648e57a30c6e301db3b04efac7",
+      "metadata": {
+        "kanji": "指",
+        "title": "finger",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-3", "structure-unclassified"],
+        "strokes": 9,
+        "radical": "手",
+        "radicalNumber": 64,
+        "onyomi": ["シ"],
+        "kunyomi": ["ゆび", "さ.す", "-さ.し"],
+        "distractors": ["持", "押", "折"]
+      }
+    }
+  ],
+  "sourceDirectedNegativeEdges": [
+    "打→払", "打→折", "打→持",
+    "払→私", "払→打", "払→抱",
+    "投→抜", "投→折", "投→抱",
+    "折→新", "折→所", "折→投",
+    "抜→投", "抜→押", "抜→抱",
+    "抱→招", "抱→折", "抱→払",
+    "押→田", "押→指", "押→招",
+    "招→切", "招→抱", "招→押",
+    "指→持", "指→押", "指→折"
+  ],
+  "navigation": {
+    "baselineWordPages": [
+      ["words/打つ.md", "打"],
+      ["words/払う.md", "払"],
+      ["words/投げる.md", "投"],
+      ["words/折る.md", "折"],
+      ["words/折れる.md", "折"],
+      ["words/押し入れ.md", "押"],
+      ["words/押す.md", "押"],
+      ["words/招待.md", "招"],
+      ["words/指.md", "指"],
+      ["words/指輪.md", "指"]
+    ],
+    "optionalUnavailableSourceAnchors": [
+      {"lesson": "kanji/払.md", "target": "words/支払う.md", "visibleLabel": "支払う", "occurrences": 3},
+      {"lesson": "kanji/抜.md", "target": "words/抜く.md", "visibleLabel": "抜く", "occurrences": 3},
+      {"lesson": "kanji/抱.md", "target": "words/抱く.md", "visibleLabel": "抱く", "occurrences": 3},
+      {"lesson": "kanji/招.md", "target": "words/招く.md", "visibleLabel": "招く", "occurrences": 3}
+    ],
+    "unavailableAnchorOccurrences": 12,
+    "unavailableUniqueWordTargets": 4,
+    "requiredTreatment": "Do not add missing word pages or expand the frozen dependency closure. Keep each visible Japanese form and its reading as plain text in RU; omit only the unavailable Markdown link wrapper under the pre-mutation amendment."
+  },
+  "baselineCounts": {
+    "reviewedCurrent": 2406,
+    "excludedReviewedRuntimeBlocked": 2,
+    "pending": 5870,
+    "total": 8278,
+    "acceptedKanji": 449,
+    "acceptedWords": 1478
+  },
+  "privateEvidenceArtifacts": {
+    "intakeArtifact": {
+      "name": "126-hand-actions-kanji-intake-private-001.json",
+      "sha256": "b0db99523112afbee0342f48a857f020840206e908318d0fac1135dffca4593a"
+    },
+    "metadataCapture": {
+      "name": "ru-126-metadata-primary-capture-001.json",
+      "sha256": "13b48465fb7cc3628a993def78f36a1804db5539051e8cecc04d9df90745dd73"
+    },
+    "jmdictCapture": {
+      "name": "ru-126-jmdict-primary-capture-001.json",
+      "sha256": "e87ac35f16aba60cdb774fbacdc942610f4bef55210784de643e3b7ae093ab82"
+    },
+    "kanjipediaCapture": {
+      "name": "ru-126-kanjipedia-capture-001.json",
+      "sha256": "142cffb005bb184bb3978797891ea62417ad844510914dea8b1fade32e638a73"
+    }
+  },
+  "quizSafety": "UNVERIFIED for all 27 original directed edges. Preserving source metadata is not evidence that these are safe ordinary active-negative quiz exclusions or runtime grading guards.",
+  "runtimeMutationOccurred": false,
+  "independentReviewOccurred": false,
+  "fullTranslationComplete": false
+}

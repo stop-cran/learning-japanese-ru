@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "batch": "126-hand-actions-kanji",
+  "recordedAt": "2026-11-10T05:50:49.414502+00:00",
+  "stage": "PRE-MUTATION SOURCE ADJUDICATION AND SEMANTIC FREEZE",
+  "branch": "full-ru-126-hand-actions-kanji",
+  "russianBaselineSnapshot": "3543dceb9e5785dd0d5cdebdbc8ee066c97711f8",
+  "frozenEnglishSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "intakeArtifact": "126-hand-actions-kanji-intake.json",
+  "scope": {
+    "newKanji": ["打", "払", "投", "折", "抜", "抱", "押", "招", "指"],
+    "newStrokeAssets": 9,
+    "navigationPaths": [
+      "words/打つ.md", "words/払う.md", "words/投げる.md", "words/折る.md",
+      "words/折れる.md", "words/押し入れ.md", "words/押す.md", "words/招待.md",
+      "words/指.md", "words/指輪.md"
+    ],
+    "totalRuntimeObjects": 18,
+    "totalAffectedRuntimePaths": 28,
+    "unavailableOptionalSourceLinksToUnwrap": 12,
+    "notAllN3OrFiniteCompletion": true,
+    "allFrozen8278FamiliesContinue": true
+  },
+  "sourceEvidence": {
+    "privateMetadataCapture": {
+      "artifact": "ru-126-metadata-primary-capture-001.json",
+      "rawSha256": "13b48465fb7cc3628a993def78f36a1804db5539051e8cecc04d9df90745dd73",
+      "kanjidic2": {
+        "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz",
+        "archive": "ru-019-kanjidic2.xml.gz",
+        "archiveSha256": "e26e34c9187a786bf1f0b21f87e311a9b0ed644aefe9693d10bdc7cb8643d8e0",
+        "decompressedXmlSha256": "01bf4cc9b3a72d7fa521a780c0e7f35c479d314d35654131b45f1f359dc69311",
+        "databaseVersion": "2026-308",
+        "creationDate": "2026-11-04",
+        "wholeRecordsActuallyRead": 9,
+        "fieldBoundary": "Japanese on/kun readings, stroke counts, and classical radical number are metadata evidence only; the old KANJIDIC2 JLPT field is not the frozen community N3 classification."
+      },
+      "unicodeData": {
+        "url": "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt",
+        "artifact": "ru-019-UnicodeData-17.txt",
+        "rawSha256": "2e1efc1dcb59c575eedf5ccae60f95229f706ee6d031835247d843c11d96470c",
+        "radicalNumber": 64,
+        "fullRow": "2F3F;KANGXI RADICAL HAND;So;0;ON;<compat> 624B;;;;N;;;;;",
+        "rowSha256": "050501aaf0bae4694e51653328b5090288c658586daf23aae8794f13327f77a2",
+        "canonicalGlyph": "手"
+      },
+      "frozenN3Snapshot": {
+        "path": "docs/n3-source-snapshot.json",
+        "frozenGitRawSha256": "4ffdacad14efcdee13e504a36f5705bc2226ea763bf46a00369c1bf6040b28e8",
+        "communityListUrl": "https://kanjiapi.dev/v1/kanji/jlpt-3",
+        "retrieved": "2026-10-09",
+        "allNineCharactersListed": true,
+        "notAnOfficialFullSyllabus": true
+      }
+    },
+    "privateJmdictCapture": {
+      "artifact": "ru-126-jmdict-primary-capture-001.json",
+      "rawSha256": "e87ac35f16aba60cdb774fbacdc942610f4bef55210784de643e3b7ae093ab82",
+      "provider": "JMdict",
+      "url": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+      "archive": "ru-041-official-JMdict-e-001.gz",
+      "archiveSha256": "5af39046e9579fd5e14d07a048fccce422b8df0d940ba8c086439e5a7617eab6",
+      "wholeExpandedEntriesActuallyRead": 27,
+      "wholeEntriesCitedByFrozenLessons": 24,
+      "citedEntryIds": [
+        "1169250", "1180470", "1288640", "1309650", "1309670", "1309800",
+        "1310300", "1315720", "1349590", "1349610", "1385910", "1385920",
+        "1408810", "1408870", "1447000", "1447320", "1478190", "1478200",
+        "1501620", "1516310", "1584090", "1589080", "1589450", "2844997"
+      ],
+      "exactEntryBoundary": "Captured whole expanded JMdict entry objects and exact spelling/reading forms; inspect sense/form restrictions before applying a claim. This does not establish frequency, naturalness of every sentence, or quiz safety."
+    },
+    "privateKanjipediaCapture": {
+      "artifact": "ru-126-kanjipedia-capture-001.json",
+      "rawSha256": "142cffb005bb184bb3978797891ea62417ad844510914dea8b1fade32e638a73",
+      "actualSearchFormReadFromHomepage": true,
+      "allNineEntryUrlsExtractedFromActualSearchHtml": true,
+      "allNineWholeEntryBodiesActuallyRead": true,
+      "urls": {
+        "打": "https://www.kanjipedia.jp/kanji/0004407200",
+        "払": "https://www.kanjipedia.jp/kanji/0006136600",
+        "投": "https://www.kanjipedia.jp/kanji/0005156500",
+        "折": "https://www.kanjipedia.jp/kanji/0003987900",
+        "抜": "https://www.kanjipedia.jp/kanji/0005698600",
+        "抱": "https://www.kanjipedia.jp/kanji/0006351800",
+        "押": "https://www.kanjipedia.jp/kanji/0000515400",
+        "招": "https://www.kanjipedia.jp/kanji/0003359500",
+        "指": "https://www.kanjipedia.jp/kanji/0002768800"
+      },
+      "attributionBoundary": "KanjiPedia's displayed historical accounts attribute their explanations to 角川新字源 改訂新版. Captured dictionary prose was read; dictionary glyph pixels were not inspected."
+    }
+  },
+  "adjudications": [
+    {
+      "kanji": "打",
+      "preservedMeaning": "Hit or strike; object and phrase determine the verb sense.",
+      "verifiedReadingsAndExamples": "KANJIDIC2 supports ダ, ダース, う.つ, う.ち-, ぶ.つ; JMdict 1408810 verifies 打つ（うつ）, and 1408870 verifies 打撃（だげき）.",
+      "historyBoundary": "KanjiPedia describes 手 plus the sound element 丁（テイ→タ）. The modern-shape mnemonic must remain explicitly mnemonic, not etymology."
+    },
+    {
+      "kanji": "払",
+      "preservedMeaning": "払う can mean to pay or brush/clear away; 支払う is an evidenced compound but its optional word page is absent.",
+      "verifiedReadingsAndExamples": "KANJIDIC2 supports フツ/ヒツ/ホツ and はら.う/ -はら.い/-ばら.い; JMdict 1501620 verifies 払う（はらう）, and 1310300 verifies 支払う（しはらう） and marks 支 as ateji.",
+      "historyBoundary": "KanjiPedia describes the old form 拂 as 手 plus the sound element 弗; the current form is its simplified form. Do not infer the old analysis from the modern ム shape."
+    },
+    {
+      "kanji": "投",
+      "preservedMeaning": "Throwing is the primary lesson focus; 投票（とうひょう） supplies a separate evidenced word example.",
+      "verifiedReadingsAndExamples": "KANJIDIC2 supports トウ and な.げる/-な.げ; JMdict 1447000 verifies 投げる and 1447320 verifies 投票.",
+      "historyBoundary": "KanjiPedia describes 手 plus 殳（シュ→トウ）. Remove English-only comparison while retaining the Japanese example."
+    },
+    {
+      "kanji": "折",
+      "preservedMeaning": "The verb 折る covers folding and breaking by bending; the transitive/intransitive distinction in 折る/折れる is retained.",
+      "verifiedReadingsAndExamples": "KANJIDIC2 supports セツ/シャク and the complete listed kun readings; JMdict 1385910, 1385920, 1589450, and 1288640 verify 折る, 折れる, 折り紙, and 骨折.",
+      "historyBoundary": "KanjiPedia's cited dictionary account describes 斤 plus a cut-wood form and explicitly notes the hand-form as a transmitted error. Do not claim that modern 扌 is the historical component."
+    },
+    {
+      "kanji": "抜",
+      "preservedMeaning": "抜く takes an object out; 抜ける describes something coming out or being missing. Omission is another evidenced use.",
+      "verifiedReadingsAndExamples": "KANJIDIC2 supports バツ/ハツ/ハイ and the complete listed kun readings; JMdict 1478190 verifies 抜く and 1478200 verifies 抜ける.",
+      "historyBoundary": "KanjiPedia describes the old form 拔 as 手 plus the sound element 犮（ハツ） and the current form as simplified. Preserve the modern-shape mnemonic as a mnemonic only."
+    },
+    {
+      "kanji": "抱",
+      "preservedMeaning": "だく/いだく/かかえる are distinct readings and word usages; do not transfer the mental-state senses of いだく to every だく phrase.",
+      "verifiedReadingsAndExamples": "KANJIDIC2 supports ホウ and the three kun entries; JMdict 2844997 verifies 抱く（だく）, 1584090 抱く（いだく）, and 1516310 抱える（かかえる）. The だく entry also includes a sexual sense; do not omit that boundary when describing the word broadly.",
+      "historyBoundary": "KanjiPedia describes 手 plus the sound element 包（ハウ→ホウ）. The modern reach-around image remains a mnemonic, not proof of construction."
+    },
+    {
+      "kanji": "押",
+      "preservedMeaning": "押す includes pushing and applying pressure; 押さえる can mean holding down or steady without movement.",
+      "verifiedReadingsAndExamples": "KANJIDIC2 supports オウ and the complete kun list; JMdict 1180470 verifies 押す, 1589080 押さえる, and 1169250 引く.",
+      "historyBoundary": "KanjiPedia describes 手 plus the sound element 甲（カフ→アフ）. The visual note that the central stroke of the right side extends below distinguishes 甲 from 田."
+    },
+    {
+      "kanji": "招",
+      "preservedMeaning": "招く may invite or beckon; 招待 is an invitation and a noun usable with する.",
+      "verifiedReadingsAndExamples": "KANJIDIC2 supports ショウ/まね.く; JMdict 1349590 verifies 招く and 1349610 verifies 招待 and its noun/する senses.",
+      "historyBoundary": "KanjiPedia describes 手 plus 召（テウ→セウ）. The current gesture image remains a mnemonic."
+    },
+    {
+      "kanji": "指",
+      "preservedMeaning": "指 as ゆび names fingers/toes; 指す as さす means point or indicate. These are separate words and readings.",
+      "verifiedReadingsAndExamples": "KANJIDIC2 supports シ, ゆび, さ.す, -さ.し; JMdict 1309650 verifies finger/toe, 1309670 指す, and 1309800 指示.",
+      "historyBoundary": "KanjiPedia describes 手 plus the sound element 旨（シ）. The pointing-finger image is a mnemonic only."
+    }
+  ],
+  "invariants": {
+    "preserveAllFrozenJapaneseMetadataExceptRussianTitle": true,
+    "preserveAll27DirectedDistractorValuesAndOrder": true,
+    "preserveAllJapaneseExamplesAndSourceReadings": true,
+    "preserveAllNineFrozenStrokeBlobsByteForByte": true,
+    "jlptClassification": "Use the frozen community N3 snapshot for level membership; KANJIDIC2's legacy jlpt=2 does not supersede it.",
+    "radical": "Retain classical radical 64, canonical glyph 手; do not substitute positional 扌.",
+    "ordinaryActiveNegativeQuizSafety": "UNVERIFIED for all 27 directions. Retaining source metadata does not establish a safe grading guard."
+  },
+  "authorizedWork": {
+    "nineCompleteRussianKanjiLessons": true,
+    "nineFrozenSourceIdenticalStrokeAssets": true,
+    "tenExactStandaloneGlyphNavigationWrappers": true,
+    "twelveOptionalMissingWordLinkWrappersRemovedWithVisibleJapanesePreserved": true,
+    "noMissingWordPagesOrNewDependencyProviders": true,
+    "noRuntimeOrAppBehaviorChanges": true
+  },
+  "evidenceReadBoundary": {
+    "wholeFrozenEnglishPrimaryLessons": 9,
+    "wholeKanjiPediaEntries": 9,
+    "wholeKANJIDIC2Records": 9,
+    "wholeJMdictEntries": 27,
+    "wholeUnicodeRadicalRows": 1,
+    "frozenN3Memberships": 9,
+    "independentReviewOccurred": false,
+    "sourceCaptureDoesNotEqualIndependentApproval": true
+  },
+  "runtimeMutationOccurred": false,
+  "acceptance": "PENDING; this source freeze is not an independent review or runtime acceptance.",
+  "fullTranslationComplete": false
+}

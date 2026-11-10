@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "batch": "126-hand-actions-kanji",
+  "recordedAt": "2026-11-10T05:50:49.414502+00:00",
+  "stage": "PRE-MUTATION EXACT NAVIGATION AMENDMENT",
+  "branch": "full-ru-126-hand-actions-kanji",
+  "russianBaselineSnapshot": "3543dceb9e5785dd0d5cdebdbc8ee066c97711f8",
+  "frozenEnglishSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "sourceFreezeArtifact": "126-hand-actions-kanji-source-adjudication-and-semantic-freeze-001.json",
+  "scope": {
+    "purpose": "Bind exact navigation-only changes before editing runtime content.",
+    "baselineWordPages": 10,
+    "standaloneGlyphWrappers": 10,
+    "wholeWordLabelWrappers": 0,
+    "optionalUnavailableSourceLinkWrappersToRemove": 12,
+    "learnerContentSemanticsAuthorizedToChange": false
+  },
+  "exactExistingWordEdits": [
+    {
+      "path": "words/打つ.md",
+      "glyph": "打",
+      "section": "Как сочетаются кандзи",
+      "beforeLine": "打 передаёт идею удара;",
+      "afterLine": "[打](../kanji/打.md) передаёт идею удара;"
+    },
+    {
+      "path": "words/払う.md",
+      "glyph": "払",
+      "section": "Как сочетаются кандзи",
+      "beforeLine": "払 передаёт はら,",
+      "afterLine": "[払](../kanji/払.md) передаёт はら,"
+    },
+    {
+      "path": "words/投げる.md",
+      "glyph": "投",
+      "section": "Как сочетаются кандзи",
+      "beforeLine": "投 передаёт идею броска.",
+      "afterLine": "[投](../kanji/投.md) передаёт идею броска."
+    },
+    {
+      "path": "words/折る.md",
+      "glyph": "折",
+      "section": "Как сочетаются кандзи",
+      "beforeLine": "折 охватывает и складывание, и переламывание.",
+      "afterLine": "[折](../kanji/折.md) охватывает и складывание, и переламывание."
+    },
+    {
+      "path": "words/折れる.md",
+      "glyph": "折",
+      "section": "Как сочетаются кандзи",
+      "beforeLine": "折 передаёт сгибание или перелом,",
+      "afterLine": "[折](../kanji/折.md) передаёт сгибание или перелом,"
+    },
+    {
+      "path": "words/押し入れ.md",
+      "glyph": "押",
+      "section": "Как сочетаются кандзи",
+      "beforeLine": "押 связано с толканием,",
+      "afterLine": "[押](../kanji/押.md) связано с толканием,"
+    },
+    {
+      "path": "words/押す.md",
+      "glyph": "押",
+      "section": "Как сочетаются кандзи",
+      "beforeLine": "押 передаёт толкание или давление.",
+      "afterLine": "[押](../kanji/押.md) передаёт толкание или давление."
+    },
+    {
+      "path": "words/招待.md",
+      "glyph": "招",
+      "section": "Как сочетаются кандзи",
+      "beforeLine": "招 связан с приглашением, подзыванием,",
+      "afterLine": "[招](../kanji/招.md) связан с приглашением, подзыванием,"
+    },
+    {
+      "path": "words/指.md",
+      "glyph": "指",
+      "section": "Как сочетаются кандзи",
+      "beforeLine": "Это исконное существительное 指,",
+      "afterLine": "Это исконное существительное [指](../kanji/指.md),"
+    },
+    {
+      "path": "words/指輪.md",
+      "glyph": "指",
+      "section": "Как сочетаются кандзи",
+      "beforeLine": "指, ゆび, означает палец,",
+      "afterLine": "[指](../kanji/指.md), ゆび, означает палец,"
+    }
+  ],
+  "exactOptionalSourceLinkTreatments": [
+    {
+      "lesson": "kanji/払.md",
+      "exactSourceAnchor": "[支払う](../words/支払う.md)",
+      "occurrences": 3,
+      "authorizedCandidateTreatment": "Keep 支払う and its reading as Japanese learner-facing text; do not create a link to the absent page."
+    },
+    {
+      "lesson": "kanji/抜.md",
+      "exactSourceAnchor": "[抜く](../words/抜く.md)",
+      "occurrences": 3,
+      "authorizedCandidateTreatment": "Keep 抜く and its reading as Japanese learner-facing text; do not create a link to the absent page."
+    },
+    {
+      "lesson": "kanji/抱.md",
+      "exactSourceAnchor": "[抱く](../words/抱く.md)",
+      "occurrences": 3,
+      "authorizedCandidateTreatment": "Keep 抱く and its reading as Japanese learner-facing text; do not create a link to the absent page."
+    },
+    {
+      "lesson": "kanji/招.md",
+      "exactSourceAnchor": "[招く](../words/招く.md)",
+      "occurrences": 3,
+      "authorizedCandidateTreatment": "Keep 招く and its reading as Japanese learner-facing text; do not create a link to the absent page."
+    }
+  ],
+  "prohibitions": [
+    "Do not add words/支払う.md, words/抜く.md, words/抱く.md, or words/招く.md.",
+    "Do not add kanji/支.md or expand the source dependency closure.",
+    "Do not change any Japanese form, reading, example, paragraph meaning, front matter, title, or quiz metadata through this amendment.",
+    "Do not wrap compound labels or text already inside another Markdown link, URL, image, code span, or heading."
+  ],
+  "expectedAffectedRuntimePaths": [
+    "kanji/打.md", "kanji/払.md", "kanji/投.md", "kanji/折.md", "kanji/抜.md",
+    "kanji/抱.md", "kanji/押.md", "kanji/招.md", "kanji/指.md",
+    "strokes/打.json", "strokes/払.json", "strokes/投.json", "strokes/折.json",
+    "strokes/抜.json", "strokes/抱.json", "strokes/押.json", "strokes/招.json",
+    "strokes/指.json", "words/打つ.md", "words/払う.md", "words/投げる.md",
+    "words/折る.md", "words/折れる.md", "words/押し入れ.md", "words/押す.md",
+    "words/招待.md", "words/指.md", "words/指輪.md"
+  ],
+  "mutationOccurred": false,
+  "independentReviewOccurred": false,
+  "acceptance": "PENDING; amendment authorization is not semantic review."
+}
