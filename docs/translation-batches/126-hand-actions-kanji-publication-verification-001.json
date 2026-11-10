@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "batchId": "126-hand-actions-kanji",
+  "recordedAt": "2026-11-10T06:30:59Z",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "publishedCommit": "1468224621c9c2092a11536d98e56ff734b883dc",
+  "publishedTree": "f82e76aaeaade04e10e69c2f4dc9a3473520b00a",
+  "publication": {
+    "repository": "stop-cran/learning-japanese-ru",
+    "branch": "main",
+    "pullRequest": 8,
+    "pullRequestUrl": "https://github.com/stop-cran/learning-japanese-ru/pull/8",
+    "mergedAt": "2026-11-10T06:22:44Z",
+    "mergeCommit": "1468224621c9c2092a11536d98e56ff734b883dc"
+  },
+  "signatureVerification": {
+    "signingKeyFingerprint": "D4C9A275A218AF747B787AFA9D94B9D311BD26A7",
+    "localGitVerifyCommit": "valid for all five commits",
+    "githubApiVerification": "valid for all five commits",
+    "commits": [
+      "4d9ff04d78666244149988ece903e0caf45643e2",
+      "4f7e9a6a56ca76649f6ce1584196db3053deeea6",
+      "8c264ef3cc708d5a447d83f874ca9fdf277da47b",
+      "de42024bced28ffdec67fa8d15d039d1f81e6101",
+      "1468224621c9c2092a11536d98e56ff734b883dc"
+    ]
+  },
+  "exactMainCi": {
+    "runId": 42768102957,
+    "url": "https://github.com/stop-cran/learning-japanese-ru/actions/runs/42768102957",
+    "headCommit": "1468224621c9c2092a11536d98e56ff734b883dc",
+    "conclusion": "success",
+    "createdAt": "2026-11-10T06:22:45Z",
+    "completedAt": "2026-11-10T06:23:13Z"
+  },
+  "publicArchives": [
+    {
+      "format": "zip",
+      "url": "https://codeload.github.com/stop-cran/learning-japanese-ru/zip/1468224621c9c2092a11536d98e56ff734b883dc",
+      "httpStatus": 200,
+      "contentType": "application/zip",
+      "bytes": 3683928,
+      "compressedArchiveSha256": "7a136970f9821f33a3383cbab93ddf0671ae465fd64f38ee368e8b24982ae558",
+      "singleRoot": "learning-japanese-ru-1468224621c9c2092a11536d98e56ff734b883dc",
+      "exportedFileCount": 2432,
+      "allExportedPathsAndBytesMatchGitArchive": true
+    },
+    {
+      "format": "tar.gz",
+      "url": "https://codeload.github.com/stop-cran/learning-japanese-ru/tar.gz/1468224621c9c2092a11536d98e56ff734b883dc",
+      "httpStatus": 200,
+      "contentType": "application/x-gzip",
+      "bytes": 1891889,
+      "compressedArchiveSha256": "0fbe356ae49acc696befab524e8a02a973fba30a978d26c67bd5aba6aa66f8c5",
+      "singleRoot": "learning-japanese-ru-1468224621c9c2092a11536d98e56ff734b883dc",
+      "exportedFileCount": 2432,
+      "allExportedPathsAndBytesMatchGitArchive": true
+    }
+  ],
+  "protectedRefs": [
+    {
+      "repository": "stop-cran/learning-japanese-ru",
+      "ref": "refs/heads/ru-pilot-a",
+      "commit": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+      "unchanged": true
+    },
+    {
+      "repository": "stop-cran/learning-japanese-ru",
+      "ref": "refs/heads/ru-pilot-b",
+      "commit": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+      "unchanged": true
+    },
+    {
+      "repository": "stop-cran/learning-japanese-ru-integration-test",
+      "ref": "refs/heads/main",
+      "commit": "28b39c15b0d17dbe784e49016076009f75d5ba38",
+      "unchanged": true
+    },
+    {
+      "repository": "stop-cran/learning-japanese-ru-integration-test",
+      "ref": "refs/heads/ru-pilot-b",
+      "commit": "7ce81c74e72fc189185a1bebe71d775379792124",
+      "unchanged": true
+    }
+  ],
+  "bookkeepingValidation": {
+    "recordedAt": "2026-11-10T06:34:06Z",
+    "commands": [
+      "python tools\\build_manifest.py",
+      "python tools\\validate.py",
+      "python -m unittest discover -s tools -p \"test_*.py\"",
+      "python tools\\check_content_budget.py"
+    ],
+    "manifestContentVersion": "7f2c2993ee3d74c2",
+    "validationErrors": 0,
+    "unitTests": {
+      "passed": 124,
+      "seconds": 29.948
+    },
+    "contentBudget": {
+      "files": 2432,
+      "entries": 2441,
+      "retainedBytes": 6741383,
+      "inflatedBytes": 6759598,
+      "localZipBytes": 3399045,
+      "listeningTaskMediaBytes": 0
+    },
+    "temporaryFixture": "Fresh NTFS fixture resolved identically by a child Python process and removed after it was empty."
+  },
+  "qualification": {
+    "C1": "CLEAN only within the independently reviewed Japanese-source/lesson boundary; no supported Japanese-fact defect found.",
+    "C2": "CLEAN only for the authorized partial scope, links, direct dependency closure and metadata preservation.",
+    "C3": "CLEAN only within nine complete Russian lessons and ten navigation diffs; not native-speaker or learning-outcome certification.",
+    "ordinaryActiveNegativeQuizSafety": "UNVERIFIED for all 27 retained directed edges; no runtime grading-guard approval."
+  },
+  "disposition": {
+    "runtimeOrReleaseAcceptance": "not claimed",
+    "fullTranslationComplete": false,
+    "continueRequired": true
+  }
+}
