@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "batchId": "135-doubt-climb-everyone-steal-repair-kanji",
+  "candidateCommit": "17a522134056f4483db3eb7691a2ba64c4acd522",
+  "candidateTree": "8202dbc31a71e09d854f803fd185bd30ae9121f3",
+  "contentVersion": "0400f33e92a4959d",
+  "execution": {
+    "order": "Serial after semantic review, restoration follow-up, and tracking/progress reconciliation.",
+    "status": "Completed successfully; each recorded command exited 0 in the recorded order.",
+    "environment": "Python UTF-8 output enabled; bytecode writing disabled with -B. The unit suite used an owned NTFS fixture for TMPDIR/TMP/TEMP and removed it after confirming that it was empty.",
+    "validationScope": "Runtime content remained the exact signed candidate commit; the only additional tracked working-tree changes were translation tracking/progress documentation, not runtime manifest inputs."
+  },
+  "commands": [
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools/build_manifest.py"
+      ],
+      "exitCode": 0,
+      "stdout": "manifest.json: 2516 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 0400f33e92a4959d\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools/validate.py"
+      ],
+      "exitCode": 0,
+      "stdout": "0 error(s)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools",
+        "-p",
+        "test_*.py"
+      ],
+      "exitCode": 0,
+      "stdout": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 37.665s\n\nOK\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools/check_content_budget.py"
+      ],
+      "exitCode": 0,
+      "stdout": "{'files': 2524, 'entries': 2533, 'retainedBytes': 6987706, 'inflatedBytes': 7005921, 'localZipBytes': 3518856, 'listeningTaskMediaBytes': 0}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "contentBudget": {
+    "files": 2524,
+    "entries": 2533,
+    "retainedBytes": 6987706,
+    "inflatedBytes": 7005921,
+    "localZipBytes": 3518856,
+    "listeningTaskMediaBytes": 0
+  },
+  "allPassed": true,
+  "qualification": "These checks validate structure, tests, and packaging budget only; all 15 ordinary quiz directions remain UNVERIFIED. No grading, runtime, activation, device, media, or release approval is implied.",
+  "artifacts": [
+    {
+      "path": "manifest.json",
+      "utf8Bytes": 224967,
+      "rawSha256": "20e056b1977e1edc1593d717e979286bf84c203b16faa5e18bb011ddef61e003"
+    },
+    {
+      "path": "docs/translation-tracking.json",
+      "utf8Bytes": 7952626,
+      "rawSha256": "99d3b30a1377ce9917e70f9b92991b56213ad0000f44834cb9e38562dc9f2776"
+    },
+    {
+      "path": "docs/translation-progress.json",
+      "utf8Bytes": 5355296,
+      "rawSha256": "8cafe9c85ec591673d054b50cb25a14ef0c77739bf14960a0967c4164fb12da4"
+    }
+  ]
+}

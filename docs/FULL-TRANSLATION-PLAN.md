@@ -1,32 +1,39 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch132 pick-up, search and discard kanji
+## Current qualified source candidate: batch135 doubt, climb, everyone, steal and straight kanji
 
-Batch132 adds complete Russian lessons for 拾/捜/捨, three byte-identical frozen-source
-stroke assets, and five authorized NAV-only word-page links. No word teaching
-content, quiz arrays, or grading behavior changed.
+Batch135 adds complete Russian lessons and byte-identical frozen-source stroke
+assets for 疑/登/皆/盗/直, plus six preauthorized NAV-only wrappers on existing
+word pages. No word teaching content, quiz arrays, or grading behavior changed.
 
-The bounded independent review found no supported consequential finding. C1 is
-acceptable with evidence limits: KANJIDIC2 records were read, while JMdict
-conclusions are limited to targeted entries and search matches. C2 scope and
-navigation are consistent, but all nine ordinary negative/fallback directions
-remain **UNVERIFIED**; metadata retention is not grading approval. C3 found no
-confirmed novice-clarity defect in the read scope, not native-speaker
-certification.
+The bounded review’s C2-01 source-comparison omission was resolved by restoring
+only the two authorized frozen-source visual-comparison paragraphs. C1 remains
+**UNVERIFIED** for the 疑う/疑問 nuance identified in the report; no error was
+confirmed. C2 navigation/scope is consistent, but all 15 ordinary
+negative/fallback directions remain **UNVERIFIED**. C3 is CLEAN only within the
+five lessons’ reviewed novice-clarity scope, not native-speaker certification.
 
-The [qualified source record](translation-batches/132-pick-up-search-discard-kanji-reviewed-source.json)
-and [publication verification](translation-batches/132-pick-up-search-discard-kanji-publication-verification-001.json)
-record **2,490 reviewed-current / 2 excluded reviewed runtime-blocked / 5,786
-pending of 8,278**, with 1,478 words / 491 kanji / 491 strokes. Content version
-is `d152c624bd2043cd`; checkpoint authority remains null and `Ready` false. PR
-[#17](https://github.com/stop-cran/learning-japanese-ru/pull/17) integrated at
-main `dbe35d744296279dd50aa702b6eaf24164164283`. Exact-main CI passed; actual
-public ZIP and tar.gz exports (2,498 files each) match the exact `git archive`
-export, including required licenses/notices. All four protected refs remained
-unchanged and issue #3 progress was updated. This is source-content qualification
-only, not grading, runtime, device, media, release, ordinary-activation, or
-full-translation approval. Continue batch133 and every remaining safe frozen
-family.
+The [qualified source record](translation-batches/135-doubt-climb-everyone-steal-repair-kanji-reviewed-source.json)
+and [final validation](translation-batches/135-doubt-climb-everyone-steal-repair-kanji-final-validation-001.json)
+record **2,516 reviewed-current / 2 excluded reviewed runtime-blocked / 5,760
+pending of 8,278**, with 1,478 words / 504 kanji / 504 strokes. Content version
+is `0400f33e92a4959d`; checkpoint authority remains null and `Ready` false.
+Candidate commit `17a522134056f4483db3eb7691a2ba64c4acd522` is signed on
+`full-ru-135-suspect-climb-everyone-steal-straight-kanji`; integration and
+publication verification are pending. This is qualified source-content
+progress only, not grading, runtime, device, media, release,
+ordinary-activation, checkpoint, or full-translation approval. Continue batch136
+and every remaining safe frozen family.
+
+## Latest verified main baseline: batch134 smoke, cat, birth, stay and turn kanji
+
+Batch134 was integrated through
+[PR #20](https://github.com/stop-cran/learning-japanese-ru/pull/20) at main
+`8f1e1900f5d5165391fb229dcaa5bee2a5ddec9c`; the exact-main `validate` check
+completed successfully. A detailed public-archive/protected-ref verification
+record was not found during batch135 reconciliation and is not claimed here.
+Batch135 is based on this main commit. This baseline does not imply
+runtime/device/release approval or completion of the frozen translation.
 
 ## Previous published source milestone: batch131 heat, fatigue, pain, sleep and condition kanji
 

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "batchId": "135-doubt-climb-everyone-steal-repair-kanji",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "initialReview": {
+    "artifact": "docs/translation-batches/135-doubt-climb-everyone-steal-repair-kanji-independent-review-001.md",
+    "rawSha256": "4f0d9ac5bbec704ab89efe46d1cde00d72c48f1e9ad23a2f5a0027c98d717e7b",
+    "bytes": 7424,
+    "candidateManifestVersionAtReview": "ec4f8a70191bec7e",
+    "candidateLessonGitBlobAtReview": "63549e0bdbf79662c139de87a2a54e1c3694b4cc",
+    "preservedUnchanged": true
+  },
+  "findingDispositions": [
+    {
+      "findingId": "C2-01",
+      "status": "resolved",
+      "scope": "Restore only two omitted visual-comparison paragraphs in kanji/疑.md, with links to existing cards.",
+      "preMutationAmendment": "docs/translation-batches/135-doubt-climb-everyone-steal-repair-kanji-content-restoration-amendment-001.json",
+      "amendmentRawSha256": "fc9d1b3fb29af5fe7932eb590898e814fba9358f61d4d3326783d2139669d834",
+      "restoredCandidateRawSha256": "13d9d435a6610b64893290edced976fc16775aeab9bf1a7d6ce9b006b91aa5be",
+      "restoredCandidateGitBlob": "d55ca8a4c7dcfecbc00b19d4e012b71701f92608",
+      "followUpReport": "docs/translation-batches/135-doubt-climb-everyone-steal-repair-kanji-independent-review-follow-up-001.md",
+      "followUpReportRawSha256": "5e5d74ea735001b180bb1c48bbfd5bfd77e8b3f07c3c6f6c610386c6e630d099",
+      "followUpReportBytes": 1021,
+      "scopeOfFollowUp": "Independently compared frozen source lines 44-45 with restored RU lines 44-45 and confirmed target-card existence. It did not rereview the rest of the batch."
+    }
+  ],
+  "unchangedQualifications": {
+    "C1": "UNVERIFIED overall: the specific person/object scope of 疑う and non-spoken nuance of 疑問 lack direct examples in the read JMdict capture; no error was confirmed.",
+    "C2": "All 15 ordinary direct distractor directions remain UNVERIFIED; metadata retention, title comparisons, validator and source structure do not establish quiz/fallback safety.",
+    "C3": "CLEAN only within the initial review's actual Russian-comprehension scope; no native-speaker or learning-effectiveness claim.",
+    "historicalReviewVerdictsRewritten": false
+  },
+  "postRestorationStructuralCheck": {
+    "manifestVersion": "0400f33e92a4959d",
+    "validatorCommand": "python -X utf8 -B tools\\validate.py",
+    "validatorExitCode": 0,
+    "validatorOutput": "0 error(s)"
+  }
+}

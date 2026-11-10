@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "batchId": "135-doubt-climb-everyone-steal-repair-kanji",
+  "status": "signed amendment frozen before candidate runtime mutation",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "8f1e1900f5d5165391fb229dcaa5bee2a5ddec9c",
+  "candidateFreezeCommit": "fbc40f5f9a2ca6f92f2a0334a8223e013e4fb717",
+  "currentCandidateHead": "2b7cf191c7342d4d8898fea88db520fae53a3d67",
+  "amends": [
+    "docs/translation-batches/135-doubt-climb-everyone-steal-repair-kanji-source-adjudication-and-semantic-freeze-001.json",
+    "docs/translation-batches/135-doubt-climb-everyone-steal-repair-kanji-pre-mutation-navigation-amendment-001.json"
+  ],
+  "reviewFinding": {
+    "report": "Independent read-only review of batch 135 candidate, 2026-11-10",
+    "findingId": "C2-01",
+    "disposition": "restore two source comparisons omitted from the Russian candidate; retain the original review report unchanged"
+  },
+  "scope": "Restore only the two complete visual-comparison paragraphs from frozen EN kanji/疑.md, translated into Russian with the same links to the existing reviewed-current kanji cards. These are descriptions of modern visible forms, not claims about historical etymology.",
+  "preMutationCandidate": {
+    "path": "kanji/疑.md",
+    "candidateGitBlobId": "63549e0bdbf79662c139de87a2a54e1c3694b4cc",
+    "candidateRawSha256": "1c5bcbb8f1675669883ce99a88fba0d26701fdea546db446193239157641cca8",
+    "insertionMarker": "信じる（しんじる）— «верить; доверять»: эти слова выражают противоположное отношение к утверждению.",
+    "requiredSourceParagraphs": [
+      "[知](知.md) and [短](短.md) also contain 矢, but not 疑's upper-left addition.",
+      "[起](起.md) is only a looser outline comparison; its long lower sweep belongs to a different structure."
+    ]
+  },
+  "frozenSourceEvidence": {
+    "repository": "stop-cran/learning-japanese",
+    "commit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "path": "kanji/疑.md",
+    "gitBlobId": "6d81bfe7bbda8da2a02f8d2df68199187e56dfa8",
+    "rawSha256": "366faad32774f59afb6b7b1978774336f2ce44df2a5f794db4000130ff9e626d",
+    "existingRussianTargets": [
+      {"path": "kanji/知.md", "baselineStatus": "reviewed-current"},
+      {"path": "kanji/短.md", "baselineStatus": "reviewed-current"},
+      {"path": "kanji/起.md", "baselineStatus": "reviewed-current"}
+    ]
+  },
+  "exactTranslationToAppend": [
+    "[知](知.md) и [短](短.md) тоже содержат 矢, но у 疑 сверху слева есть дополнительный элемент.",
+    "[起](起.md) можно сравнить лишь по общему контуру: его длинный нижний штрих относится к другой структуре."
+  ],
+  "limits": {
+    "otherLessonChangesAuthorized": false,
+    "wordOrArticleChangesAuthorized": false,
+    "newPagesAuthorized": false,
+    "metadataOrQuizChangesAuthorized": false,
+    "gradingChangesAuthorized": false,
+    "optionalAbsentArticleReferenceRemainsOmitted": true,
+    "otherBoundariesFromOriginalFreezeAndAmendmentsRemain": true
+  }
+}

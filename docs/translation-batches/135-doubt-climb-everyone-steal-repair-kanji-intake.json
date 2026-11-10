@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "batchId": "135-doubt-climb-everyone-steal-repair-kanji",
+  "status": "candidate scope frozen before learner-content mutation",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "8f1e1900f5d5165391fb229dcaa5bee2a5ddec9c",
+  "selection": {
+    "sourceOrderAuthority": {
+      "path": "docs/translation-batches/134-smoke-cat-birth-stay-turn-kanji-source-adjudication-and-semantic-freeze-001.json",
+      "commit": "8f1e1900f5d5165391fb229dcaa5bee2a5ddec9c",
+      "gitBlob": "f2ef33cebc7d0c0fcc574d3b3f8b2c528afc4b95",
+      "rawSha256": "a66cc3e35e3108a34db6d7bef03566d74bbd6adc5daa8bcdbe1f3a34aeec8da1",
+      "listField": "sourceN3Order.firstPendingAtFreeze",
+      "previousSelected": ["煙", "猫", "産", "留", "番"],
+      "nextPendingOrder": ["疑", "登", "皆", "盗", "直"]
+    },
+    "rule": "Select the next five pending kanji in the frozen jlptN3.additions order after accepted batch 134.",
+    "firstPendingAtFreeze": ["疑", "登", "皆", "盗", "直"],
+    "selectedKanji": ["疑", "登", "皆", "盗", "直"],
+    "orderingBasis": "The prior signed batch-134 freeze records the ten-item source order beginning 煙/猫/産/留/番/疑/登/皆/盗/直. Batch 134 is now accepted on baseline main; the next five are 疑/登/皆/盗/直."
+  },
+  "currentAcceptedProgress": {
+    "countsByStatus": {
+      "reviewed-current": 2506,
+      "draft-reviewed-runtime-blocked": 2,
+      "pending": 5770
+    },
+    "total": 8278,
+    "progressVersion": "f522e673bf62e03a",
+    "checkpointAuthority": null,
+    "checkpointReady": false
+  },
+  "scope": {
+    "kanjiLessons": ["kanji/疑.md", "kanji/登.md", "kanji/皆.md", "kanji/盗.md", "kanji/直.md"],
+    "strokeAssets": ["strokes/疑.json", "strokes/登.json", "strokes/皆.json", "strokes/盗.json", "strokes/直.json"],
+    "wordPages": [],
+    "navigationAmendment": "docs/translation-batches/135-doubt-climb-everyone-steal-repair-kanji-pre-mutation-navigation-amendment-001.json",
+    "navigationWrapperCount": 0,
+    "directDistractorEdgeCount": 15
+  },
+  "sourceEvidence": {
+    "kanjidic2PrivateArtifact": {
+      "artifact": "ru-135-kanjidic2-primary-capture-001.json",
+      "rawSha256": "180dffba530750f725a3194b39d28995423384b81078885848377756e1568d84",
+      "sourceArchiveSha256": "e26e34c9187a786bf1f0b21f87e311a9b0ed644aefe9693d10bdc7cb8643d8e0",
+      "records": ["疑", "登", "皆", "盗", "直"]
+    },
+    "jmdictPrivateArtifact": {
+      "artifact": "ru-135-jmdict-primary-capture-001.json",
+      "rawSha256": "01c729ff39923007ed4228387111507268c3b6feb35892029aadf8cf3e0046a7",
+      "sourceArchiveSha256": "5af39046e9579fd5e14d07a048fccce422b8df0d940ba8c086439e5a7617eab6",
+      "entryIds": ["1225510", "1225630", "1359040", "1352570", "1444780", "1444800", "1202150", "1202170", "1448440", "1448500", "1599390", "2846390", "1431110", "1377590"]
+    },
+    "allCaptureHashesUseTheirOwnRawByteDomain": true
+  },
+  "nonGoals": [
+    "No word pages are added or changed.",
+    "No quiz, grading, quiz-exclusion, or answer-pool changes are authorized.",
+    "No learner-facing prose outside the five complete kanji lessons is authorized to change.",
+    "Stroke assets are copied byte-identically from the frozen source and are not edited.",
+    "This source batch grants no runtime, app/device, media, release, or ordinary-activation approval."
+  ]
+}

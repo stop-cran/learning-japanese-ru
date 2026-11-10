@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "batchId": "135-doubt-climb-everyone-steal-repair-kanji",
+  "status": "frozen before candidate runtime mutation",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "8f1e1900f5d5165391fb229dcaa5bee2a5ddec9c",
+  "scope": "No existing word page will change. In the five new kanji lessons, remove only Markdown wrappers whose Russian targets are absent; retain visible Japanese words/readings and their Russian explanations. Do not add a word or article page.",
+  "wordPageWrappers": [],
+  "optionalSourceLinkWrappersRemovedBecauseRussianTargetsAreAbsent": [
+    {
+      "lessonPath": "kanji/疑.md",
+      "target": "words/疑う.md",
+      "sourceOccurrences": 3,
+      "candidateTreatment": "Remove link wrappers only; preserve 疑う, うたがう and the complete Russian sentence. Do not create a word page."
+    },
+    {
+      "lessonPath": "kanji/疑.md",
+      "target": "words/信じる.md",
+      "sourceOccurrences": 1,
+      "candidateTreatment": "Remove link wrappers only; preserve 信じる, しんじる and the complete Russian comparison. Do not create a word page."
+    },
+    {
+      "lessonPath": "kanji/疑.md",
+      "target": "articles/ayashii-and-related-words.md",
+      "sourceOccurrences": 1,
+      "candidateTreatment": "Omit only the optional sentence pointing to this absent Russian article; do not retain a misleading or dangling article reference, translate the article, or change any other lesson prose."
+    }
+  ],
+  "retainedLinks": [
+    {"lessonPath": "kanji/疑.md", "target": "kanji/知.md", "baselineStatus": "reviewed-current"},
+    {"lessonPath": "kanji/疑.md", "target": "kanji/短.md", "baselineStatus": "reviewed-current"},
+    {"lessonPath": "kanji/疑.md", "target": "kanji/起.md", "baselineStatus": "reviewed-current"},
+    {"lessonPath": "kanji/登.md", "target": "words/登る.md", "baselineStatus": "reviewed-current"},
+    {"lessonPath": "kanji/登.md", "target": "kanji/発.md", "baselineStatus": "reviewed-current"},
+    {"lessonPath": "kanji/登.md", "target": "kanji/短.md", "baselineStatus": "reviewed-current"},
+    {"lessonPath": "kanji/登.md", "target": "kanji/足.md", "baselineStatus": "reviewed-current"},
+    {"lessonPath": "kanji/皆.md", "target": "words/皆.md", "baselineStatus": "reviewed-current"},
+    {"lessonPath": "kanji/皆.md", "target": "kanji/白.md", "baselineStatus": "reviewed-current"},
+    {"lessonPath": "kanji/皆.md", "target": "kanji/習.md", "baselineStatus": "reviewed-current"},
+    {"lessonPath": "kanji/皆.md", "target": "kanji/百.md", "baselineStatus": "reviewed-current"},
+    {"lessonPath": "kanji/盗.md", "target": "words/盗む.md", "baselineStatus": "reviewed-current"},
+    {"lessonPath": "kanji/盗.md", "target": "kanji/留.md", "baselineStatus": "reviewed-current"},
+    {"lessonPath": "kanji/盗.md", "target": "kanji/番.md", "baselineStatus": "reviewed-current"},
+    {"lessonPath": "kanji/盗.md", "target": "kanji/買.md", "baselineStatus": "reviewed-current"},
+    {"lessonPath": "kanji/直.md", "target": "words/直す.md", "baselineStatus": "reviewed-current"},
+    {"lessonPath": "kanji/直.md", "target": "kanji/目.md", "baselineStatus": "reviewed-current"},
+    {"lessonPath": "kanji/直.md", "target": "kanji/百.md", "baselineStatus": "reviewed-current"},
+    {"lessonPath": "kanji/直.md", "target": "kanji/耳.md", "baselineStatus": "reviewed-current"}
+  ],
+  "limits": {
+    "newWordPages": false,
+    "newArticlePages": false,
+    "proseChangesOutsideFiveLessonsAuthorized": false,
+    "quizOrGradingChangesAuthorized": false,
+    "unlistedNavigationEditsAuthorized": false
+  }
+}
