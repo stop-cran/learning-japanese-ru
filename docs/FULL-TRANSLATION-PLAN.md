@@ -6389,7 +6389,7 @@ remaining frozen N3 roots, 浮/消/深/済, and their direct provider closure. T
 not N3 completion: continue through every remaining safe frozen family and do not
 treat a candidate milestone or a convenient batch boundary as completion.
 
-## Current continuation after batch 133
+## Previous continuation after batch 133
 
 Batch 133's qualified source candidate is `a003aac9d3c0659d5d5d72ec1a220e43567e3d5c`,
 based on published baseline `dcb272dec45c8a64ba951d7fff56209ae1945660`, with source
@@ -6420,3 +6420,27 @@ remain unchanged. Details and distinct archive hash domains are recorded in
 No grading, runtime activation, device, media, release, or ordinary-activation
 approval is implied. The finite translation remains in progress; continue with
 batch 134 and all remaining safe frozen families.
+
+## Current continuation after batch 134 candidate review
+
+Batch134 selects the next five frozen N3 kanji in source order: 煙, 猫, 産,
+留 and 番. Its signed pre-mutation freeze is `01c7952e6b53f858a8f4e362b73c4a05952a5f06`;
+the complete candidate is `f0926bed8a77f0bd6582e4853b0b1a44beca0192` on
+`full-ru-134-smoke-cat-birth-stay-turn-kanji`. The frozen EN source remains
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+
+The candidate contains five complete Russian lessons, five byte-identical
+frozen strokes, and 14 preauthorized navigation-only word-page changes. The
+independent review found no confirmed correction: C1 and C3 are CLEAN within
+their exact read scope; C2 scope/navigation is consistent, while all 15
+ordinary negative/fallback directions remain **UNVERIFIED**. No grading,
+runtime, media, device, release or ordinary-activation approval is implied.
+Fresh serial checks passed: manifest `f522e673bf62e03a`, validator 0 errors,
+124 unit tests, and budget 2,514 files / 2,523 entries.
+
+Candidate progress is 2,506 reviewed-current, 2 runtime-blocked drafts and
+5,770 pending of 8,278. `checkpointAuthority` remains null and
+`checkpointReady` false. The candidate is pushed but integration, exact-main
+CI and public archive verification are pending. After completing those steps,
+continue with batch135 and every remaining safe frozen family; this is not
+finite completion.

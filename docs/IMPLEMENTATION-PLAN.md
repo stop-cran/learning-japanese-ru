@@ -8,7 +8,34 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch132 pick-up, search and discard kanji
+## Current published source milestone: batch133 king, presence and ball kanji
+
+Batch133 is integrated at main `e87fcd4b5f68a4babe069549e87b7fe5c9e0c61a`
+through [PR #19](https://github.com/stop-cran/learning-japanese-ru/pull/19).
+Exact-main `Validate Russian content` passed. Its qualified source record reports
+2,496 reviewed-current / 2 runtime-blocked drafts / 5,780 pending of 8,278;
+`checkpointAuthority` remains null and `checkpointReady` false. The bounded
+review preserved all nine ordinary negative/fallback directions as
+**UNVERIFIED**. See the [batch 133 continuation record](FULL-TRANSLATION-PLAN.md#previous-continuation-after-batch-133)
+and [publication verification](translation-batches/133-king-presence-ball-kanji-publication-verification-001.json).
+
+## Qualified source candidate: batch134 smoke, cat, birth, stay and turn kanji
+
+Batch134 is a signed, owner-authored candidate on
+`full-ru-134-smoke-cat-birth-stay-turn-kanji` at
+`f0926bed8a77f0bd6582e4853b0b1a44beca0192`; it has not yet been integrated.
+It adds complete lessons and byte-identical frozen strokes for 煙/猫/産/留/番
+and 14 preauthorized navigation-only wrappers. Independent review found no
+confirmed content correction: C1/C3 are CLEAN only within the reviewed scope;
+C2 quiz safety remains UNVERIFIED for all 15 direct directions. Fresh serial
+validation passed (124 tests; budget 2,514 files / 2,523 entries). Candidate
+progress is 2,506 reviewed-current / 2 runtime-blocked / 5,770 pending of 8,278;
+checkpoint authority remains null and Ready remains false. See the
+[qualified source record](translation-batches/134-smoke-cat-birth-stay-turn-kanji-reviewed-source.json).
+Integration and publication verification remain pending; after them, continue
+batch135 and every remaining safe frozen family.
+
+## Previous published source milestone: batch132 pick-up, search and discard kanji
 
 Batch132 adds complete Russian lessons for 拾/捜/捨, three byte-identical frozen-source
 stroke assets, and five preauthorized NAV-only word-page links. No word teaching

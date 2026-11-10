@@ -1,0 +1,78 @@
+{
+ "schemaVersion": 1,
+ "batchId": "134-smoke-cat-birth-stay-turn-kanji",
+ "candidateCommit": "f0926bed8a77f0bd6582e4853b0b1a44beca0192",
+ "candidateTree": "2f8a7a3461d587a06f7b73888762618589756fb1",
+ "contentVersion": "f522e673bf62e03a",
+ "execution": {
+  "order": "Serial after the candidate, review, tracking and progress reconciliation.",
+  "status": "Completed successfully; each command exited 0 in the recorded order.",
+  "environment": "Python UTF-8 output enabled; bytecode writing disabled with -B. No runtime, media, device or release authority is implied.",
+  "validationScope": "Runtime content remained the exact candidate commit; the additional working-tree changes were review, tracking, progress and plan documentation. Those docs are not runtime manifest inputs."
+ },
+ "commands": [
+  {
+   "command": ["python", "-X", "utf8", "-B", "tools/build_manifest.py"],
+   "exitCode": 0,
+   "stdout": "manifest.json: 2506 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version f522e673bf62e03a\n",
+   "stderr": ""
+  },
+  {
+   "command": ["python", "-X", "utf8", "-B", "tools/validate.py"],
+   "exitCode": 0,
+   "stdout": "0 error(s)\n",
+   "stderr": ""
+  },
+  {
+   "command": ["python", "-X", "utf8", "-B", "-m", "unittest", "discover", "-s", "tools", "-p", "test_*.py"],
+   "exitCode": 0,
+   "stdout": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 37.376s\n\nOK\n",
+   "stderr": ""
+  },
+  {
+   "command": ["python", "-X", "utf8", "-B", "tools/check_content_budget.py"],
+   "exitCode": 0,
+   "stdout": "{'files': 2514, 'entries': 2523, 'retainedBytes': 6960070, 'inflatedBytes': 6978285, 'localZipBytes': 3505662, 'listeningTaskMediaBytes': 0}\n",
+   "stderr": ""
+  },
+  {
+   "command": ["git", "diff", "--check"],
+   "exitCode": 0,
+   "stdout": "",
+   "stderr": ""
+  },
+  {
+   "command": ["git", "diff", "--cached", "--check"],
+   "exitCode": 0,
+   "stdout": "",
+   "stderr": ""
+  }
+ ],
+ "contentBudget": {
+  "files": 2514,
+  "entries": 2523,
+  "retainedBytes": 6960070,
+  "inflatedBytes": 6978285,
+  "localZipBytes": 3505662,
+  "listeningTaskMediaBytes": 0
+ },
+ "allPassed": true,
+ "qualification": "These checks validate structure, tests and packaging budget only; all 15 ordinary quiz directions remain UNVERIFIED, and no grading, runtime, activation, device, media or release approval is implied.",
+ "artifacts": [
+  {
+   "path": "manifest.json",
+   "utf8Bytes": 224087,
+   "rawSha256": "1eff87b5c7a95efd43e1a5670c9cb742c099fd4728975de4a6377f2e39548d27"
+  },
+  {
+   "path": "docs/translation-tracking.json",
+   "utf8Bytes": 7929298,
+   "rawSha256": "d52d3d3951301e0d606b7d9eff687dfc93681f81c985ddbe71bc31fbaa50703b"
+  },
+  {
+   "path": "docs/translation-progress.json",
+   "utf8Bytes": 5344588,
+   "rawSha256": "d2bbd980c6b418ae6fed066a1b37f02607f72a1692669db864a90b2fee60ad87"
+  }
+ ]
+}

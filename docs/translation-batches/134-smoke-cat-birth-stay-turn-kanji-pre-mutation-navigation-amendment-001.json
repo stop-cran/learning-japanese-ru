@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "batchId": "134-smoke-cat-birth-stay-turn-kanji",
+  "status": "frozen before candidate runtime mutation",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "4b02253e38a0cad270b36c8f363cbc7699fdb21d",
+  "scope": "Navigation markup only in existing word pages. Visible Japanese and Russian wording, metadata, examples, quiz arrays, IDs, levels and reading data are invariant.",
+  "wordPageWrappers": [
+    {
+      "path": "words/たばこ.md",
+      "baselineGitBlob": "516c8ea96ac8b2042d742462e9b32e74ec1a92ce",
+      "baselineGitRawSha256": "7f9948871c09cc5adcb0938a5455f2827649a96afaab5c333e1cce86fe05f29f",
+      "baselineWorkingTreeRawSha256": "a3ccdd6ad46f864956f50791f8b371b1c9d10ec85935f2d35e9cf572ff03729a",
+      "replaceExactlyOnce": {
+        "old": "煙草",
+        "new": "[煙](../kanji/煙.md)草"
+      }
+    },
+    {
+      "path": "words/猫.md",
+      "baselineGitBlob": "f6ee7daae6c3ec0313b335487bc4c5f2172df248",
+      "baselineGitRawSha256": "7734ab2b28fbaa94ec7b97ed4e0183ea344ad49b91838522e74065239bb1ccad",
+      "baselineWorkingTreeRawSha256": "0a934e42ec1b4cb3a47c3901f69106b0ae26dd63d26af1a34abea349de485321",
+      "replaceExactlyOnce": {
+        "old": "Один знак 猫 записывает исконное слово ねこ.",
+        "new": "Один знак [猫](../kanji/猫.md) записывает исконное слово ねこ."
+      }
+    },
+    {
+      "path": "words/お土産.md",
+      "baselineGitBlob": "659d77ade5c20b5ead067ed012bf3538a1e25352",
+      "baselineGitRawSha256": "47d4f957e75fa8182c50fbba4f22d1749eb91dc0f75c7ca0c7835353faba2704",
+      "baselineWorkingTreeRawSha256": "47d4f957e75fa8182c50fbba4f22d1749eb91dc0f75c7ca0c7835353faba2704",
+      "replaceExactlyOnce": {
+        "old": "а 産 — с её продуктами.",
+        "new": "а [産](../kanji/産.md) — с её продуктами."
+      }
+    },
+    {
+      "path": "words/生産.md",
+      "baselineGitBlob": "d43224bbe79c002026d121941c72a30dc3b1b319",
+      "baselineGitRawSha256": "58cc62cd9331293c056228601a894f0c5b8ce50fc6e1bc3da2e4047c8f573885",
+      "baselineWorkingTreeRawSha256": "d1048dfec2f5fd9222904af2a1463bedd7ef6b7bc44d7afff70fb3e7d40b536b",
+      "replaceExactlyOnce": {
+        "old": "а 産 — с производством, получением продукции.",
+        "new": "а [産](../kanji/産.md) — с производством, получением продукции."
+      }
+    },
+    {
+      "path": "words/産業.md",
+      "baselineGitBlob": "59b7d95165f63df5b2169072c4bd6f09e992d1c5",
+      "baselineGitRawSha256": "b61a06928e8994da58688b280f494dde14cb2ff85b0f7fe4b07f4fe145482cc3",
+      "baselineWorkingTreeRawSha256": "b61a06928e8994da58688b280f494dde14cb2ff85b0f7fe4b07f4fe145482cc3",
+      "replaceExactlyOnce": {
+        "old": "産 связан с производством,",
+        "new": "[産](../kanji/産.md) связан с производством,"
+      }
+    },
+    {
+      "path": "words/生まれる.md",
+      "baselineGitBlob": "d2339d8684201080c3da40db5aea5088a5540e75",
+      "baselineGitRawSha256": "187c0f252c9ed2cde455d825af05fee46ebf635fa48cd0c42910a59ba53b1362",
+      "baselineWorkingTreeRawSha256": "42021d73e09e22f63b8244bc7782c142078e493c4db055fabbad20f9c953fd7b",
+      "replaceExactlyOnce": {
+        "old": "産まれる",
+        "new": "[産](../kanji/産.md)まれる"
+      }
+    },
+    {
+      "path": "words/留学生.md",
+      "baselineGitBlob": "6b68f6eef9b3f85401b16c597987609e85e70772",
+      "baselineGitRawSha256": "8675658fa2b1c22f7e37e31a321108552916f6d218be21f613b9edb150c90f0e",
+      "baselineWorkingTreeRawSha256": "f22a6dabd6f776c1895840838d1e836dae948ba5013e33b3f5fe83bbf03b81b2",
+      "replaceExactlyOnce": {
+        "old": "留 связан с пребыванием,",
+        "new": "[留](../kanji/留.md) связан с пребыванием,"
+      }
+    },
+    {
+      "path": "words/留守.md",
+      "baselineGitBlob": "dc64bf3183c1da2ccffe5e6663b084397d330684",
+      "baselineGitRawSha256": "e266c42c762fb0a2602f97adf0260994ee4ceece1af845f03b232bc64849ff88",
+      "baselineWorkingTreeRawSha256": "e266c42c762fb0a2602f97adf0260994ee4ceece1af845f03b232bc64849ff88",
+      "replaceExactlyOnce": {
+        "old": "留 связан с пребыванием, оставанием на месте,",
+        "new": "[留](../kanji/留.md) связан с пребыванием, оставанием на месте,"
+      }
+    },
+    {
+      "path": "words/止まる.md",
+      "baselineGitBlob": "5a18b6c0f8f402522145a566acc3ec9ca877cdf6",
+      "baselineGitRawSha256": "687bb8ccafb18ed6a3090d3b5318ee9234b6b8c900008c8c180894746aad7b38",
+      "baselineWorkingTreeRawSha256": "e0aac76bac33e5bcab9c842c533616f5e30c540b524a676693be5d8091640cf2",
+      "replaceExactlyOnce": {
+        "old": "со знаком 留",
+        "new": "со знаком [留](../kanji/留.md)"
+      }
+    },
+    {
+      "path": "words/止める.md",
+      "baselineGitBlob": "069b9c291621523f56e1d8652ef8f20ffb81f9b6",
+      "baselineGitRawSha256": "8f28d0e565447524d4179792fb19568b8eb761879d6b374b08d4dfd13b726332",
+      "baselineWorkingTreeRawSha256": "8f28d0e565447524d4179792fb19568b8eb761879d6b374b08d4dfd13b726332",
+      "replaceExactlyOnce": {
+        "old": "для закрепления и задержания — 留める.",
+        "new": "для закрепления и задержания — [留](../kanji/留.md)める."
+      }
+    },
+    {
+      "path": "words/いちばん.md",
+      "baselineGitBlob": "efde93d87e27dba9265a3eaa310207c3fdc54657",
+      "baselineGitRawSha256": "891c908494ff7a03e50854a089e22c860c5b16f8f12b9d17585d7b8295dbfe40",
+      "baselineWorkingTreeRawSha256": "7530ee62e7e1dda47780fb4a096c92dc7b2d320bd49fbe597402da361dd945fa",
+      "replaceExactlyOnce": {
+        "old": "а 番 — «номер; порядок».",
+        "new": "а [番](../kanji/番.md) — «номер; порядок»."
+      }
+    },
+    {
+      "path": "words/番号.md",
+      "baselineGitBlob": "b76390e7b9eed8460d4276cd17ab8affd84dc71e",
+      "baselineGitRawSha256": "205b49d5de0e42de960e93184458aec286f1d546dd98a3dd6922049ad194ba15",
+      "baselineWorkingTreeRawSha256": "205b49d5de0e42de960e93184458aec286f1d546dd98a3dd6922049ad194ba15",
+      "replaceExactlyOnce": {
+        "old": "番 передаёт нумерацию или порядок,",
+        "new": "[番](../kanji/番.md) передаёт нумерацию или порядок,"
+      }
+    },
+    {
+      "path": "words/番組.md",
+      "baselineGitBlob": "70eaac09e0371aacb198805522e60aebd2940cbe",
+      "baselineGitRawSha256": "54e52f21536663cdebec35a9976bed128433a7d37b3bbd45f37d2a5ddcfa1444",
+      "baselineWorkingTreeRawSha256": "54e52f21536663cdebec35a9976bed128433a7d37b3bbd45f37d2a5ddcfa1444",
+      "replaceExactlyOnce": {
+        "old": "番 связан с порядком или очередью,",
+        "new": "[番](../kanji/番.md) связан с порядком или очередью,"
+      }
+    },
+    {
+      "path": "words/交番.md",
+      "baselineGitBlob": "0a04685ea0a35e3b64b407a83a5b1e3b5d07f3c4",
+      "baselineGitRawSha256": "a7385ad95d51fd48253dc31b54fff35197b79cf11cc9f7bda2164e88202355ba",
+      "baselineWorkingTreeRawSha256": "321fd36451d3aab97de0eb6b450b01d4798030793e27cfe14507415f647243a0",
+      "replaceExactlyOnce": {
+        "old": "а 番 — с очередью или дежурством:",
+        "new": "а [番](../kanji/番.md) — с очередью или дежурством:"
+      }
+    }
+  ],
+  "optionalSourceLinkWrappersRemovedBecauseRussianTargetsAreAbsent": [
+    {
+      "lessonPath": "kanji/煙.md",
+      "target": "words/煙.md",
+      "sourceOccurrences": 3,
+      "candidateTreatment": "Remove link wrappers only; preserve 煙 and readings as learner-facing Japanese. Do not create a word page."
+    },
+    {
+      "lessonPath": "kanji/留.md",
+      "target": "words/留学.md",
+      "sourceOccurrences": 3,
+      "candidateTreatment": "Remove link wrappers only; preserve 留学 and readings as learner-facing Japanese. Do not create a word page."
+    }
+  ],
+  "retainedLinks": [
+    {
+      "lessonPath": "kanji/猫.md",
+      "target": "words/猫.md",
+      "candidateTreatment": "Retain existing link"
+    },
+    {
+      "lessonPath": "kanji/産.md",
+      "target": "words/生産.md",
+      "candidateTreatment": "Retain existing link"
+    },
+    {
+      "lessonPath": "kanji/番.md",
+      "target": "words/番号.md",
+      "candidateTreatment": "Retain existing link"
+    }
+  ],
+  "limits": {
+    "newWordPages": 0,
+    "newQuizGuards": 0,
+    "newGradingRules": 0,
+    "proseChangesAuthorizedByThisAmendment": false,
+    "unlistedNavigationEditsAuthorized": false
+  }
+}

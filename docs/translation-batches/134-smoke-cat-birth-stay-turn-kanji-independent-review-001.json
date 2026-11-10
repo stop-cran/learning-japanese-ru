@@ -1,0 +1,134 @@
+{
+ "schemaVersion": 1,
+ "batchId": "134-smoke-cat-birth-stay-turn-kanji",
+ "snapshot": {
+  "repository": "stop-cran/learning-japanese-ru",
+  "branch": "full-ru-134-smoke-cat-birth-stay-turn-kanji",
+  "candidateCommit": "f0926bed8a77f0bd6582e4853b0b1a44beca0192",
+  "candidateTree": "2f8a7a3461d587a06f7b73888762618589756fb1"
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "reviewMode": "independent read-only",
+ "reviewer": {
+  "agentType": "code-review",
+  "executionId": null,
+  "executionIdUnavailable": true,
+  "noEdits": true,
+  "reportOutput": "The task result was captured in the paired Markdown report; a separate raw stdout artifact was not exposed."
+ },
+ "readCoverage": {
+  "repositoryGuidance": [
+   ".github/copilot-instructions.md",
+   ".github/instructions/content-structure.instructions.md",
+   ".github/agents/kanji-accuracy-reviewer.agent.md",
+   ".github/agents/kanji-comprehension-reviewer.agent.md",
+   ".github/agents/content-consistency-reviewer.agent.md",
+   "docs/content-format-reference.md",
+   "docs/translation-methodology.md"
+  ],
+  "russianLessons": [
+   "kanji/煙.md",
+   "kanji/猫.md",
+   "kanji/産.md",
+   "kanji/留.md",
+   "kanji/番.md"
+  ],
+  "frozenEnglishLessons": [
+   "kanji/煙.md",
+   "kanji/猫.md",
+   "kanji/産.md",
+   "kanji/留.md",
+   "kanji/番.md"
+  ],
+  "strokesByteCompared": [
+   "strokes/煙.json",
+   "strokes/猫.json",
+   "strokes/産.json",
+   "strokes/留.json",
+   "strokes/番.json"
+  ],
+  "navigationOnlyPagesChecked": 14,
+  "batchRecords": [
+   "docs/translation-batches/134-smoke-cat-birth-stay-turn-kanji-intake.json",
+   "docs/translation-batches/134-smoke-cat-birth-stay-turn-kanji-source-adjudication-and-semantic-freeze-001.json",
+   "docs/translation-batches/134-smoke-cat-birth-stay-turn-kanji-pre-mutation-navigation-amendment-001.json"
+  ],
+  "actualPrimaryCapturesRead": {
+   "kanjidic2": {
+    "artifact": "ru-134-kanjidic2-primary-capture-001.json",
+    "rawSha256": "79fb2dc838c5d0826346363742f55142c3d41a9559fb39eb5fd389551d967ce6",
+    "records": [
+     "煙",
+     "猫",
+     "産",
+     "留",
+     "番"
+    ]
+   },
+   "jmdict": {
+    "artifact": "ru-134-jmdict-primary-capture-001.json",
+    "rawSha256": "6d47a2de1f563d15a19701b53110beb87011336154b14fa792f60d11974895e1",
+    "entryIds": [
+     "1177180",
+     "1241490",
+     "1467640",
+     "1593380",
+     "1151020",
+     "1378990",
+     "1339010",
+     "1588410",
+     "1552740",
+     "1552760",
+     "1310670",
+     "1482290",
+     "1165970",
+     "1449220",
+     "2022640"
+    ]
+   },
+   "rawCaptureHashesAreNotGitBlobIds": true
+  }
+ },
+ "verdicts": {
+  "C1": {
+   "status": "CLEAN",
+   "boundary": "No confirmed factual error within the five lessons and evidence read; not external or native-speaker certification."
+  },
+  "C2": {
+   "scopeNavigationDependencies": "Consistent with the frozen scope; 14 word-page changes are authorized navigation wrappers only.",
+   "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED",
+   "directions": [
+    "煙→秋",
+    "煙→西",
+    "煙→熱",
+    "猫→犬",
+    "猫→理",
+    "猫→番",
+    "産→立",
+    "産→音",
+    "産→重",
+    "留→男",
+    "留→番",
+    "留→魚",
+    "番→留",
+    "番→男",
+    "番→田"
+   ],
+   "metadataRetentionIsNotGradingApproval": true
+  },
+  "C3": {
+   "status": "CLEAN",
+   "boundary": "No confirmed novice-clarity defect within the five lessons; not native-speaker certification."
+  }
+ },
+ "findings": [],
+ "scopeLimits": [
+  "All 15 ordinary direct distractor directions remain UNVERIFIED.",
+  "Glyph-pixel inspection was not performed.",
+  "Native-speaker, app/device, media, release, and ordinary-runtime-activation approvals were not performed or authorized.",
+  "The review confirms only the exact candidate snapshot and listed evidence."
+ ],
+ "noConfirmedCorrection": true,
+ "structuralValidationIsNotSemanticApproval": true,
+ "report": "docs/translation-batches/134-smoke-cat-birth-stay-turn-kanji-independent-review-001.md"
+}

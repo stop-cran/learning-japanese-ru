@@ -1,0 +1,177 @@
+{
+ "schemaVersion": 1,
+ "batchId": "134-smoke-cat-birth-stay-turn-kanji",
+ "recordedAt": "2026-11-10",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "4b02253e38a0cad270b36c8f363cbc7699fdb21d",
+ "preMutationFreezeCommit": "01c7952e6b53f858a8f4e362b73c4a05952a5f06",
+ "candidateCommit": "f0926bed8a77f0bd6582e4853b0b1a44beca0192",
+ "candidateTree": "2f8a7a3461d587a06f7b73888762618589756fb1",
+ "contentVersion": "f522e673bf62e03a",
+ "finalValidation": "docs/translation-batches/134-smoke-cat-birth-stay-turn-kanji-final-validation-001.json",
+ "scope": {
+  "newLessons": [
+   "煙",
+   "猫",
+   "産",
+   "留",
+   "番"
+  ],
+  "newByteIdenticalStrokeAssets": [
+   "煙",
+   "猫",
+   "産",
+   "留",
+   "番"
+  ],
+  "navigationOnlyPaths": [
+   "words/たばこ.md",
+   "words/猫.md",
+   "words/お土産.md",
+   "words/生産.md",
+   "words/産業.md",
+   "words/生まれる.md",
+   "words/留学生.md",
+   "words/留守.md",
+   "words/止まる.md",
+   "words/止める.md",
+   "words/いちばん.md",
+   "words/番号.md",
+   "words/番組.md",
+   "words/交番.md"
+  ],
+  "newWordPages": 0,
+  "quizOrGradingChanges": 0,
+  "otherAuthoredRuntimePaths": 0
+ },
+ "qualifiedVerdicts": {
+  "C1": "CLEAN within the five lessons and actual captured evidence read; no external or native-speaker certification.",
+  "C2": {
+   "scopeAndNavigation": "Consistent with the signed scope; the 14 changes are navigation-only.",
+   "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 15 direct directions; no grading approval."
+  },
+  "C3": "CLEAN within the five lessons for novice clarity; not native-speaker certification."
+ },
+ "primaryEvidence": {
+  "kanjidic2": {
+   "privateArtifact": "ru-134-kanjidic2-primary-capture-001.json",
+   "rawSha256": "79fb2dc838c5d0826346363742f55142c3d41a9559fb39eb5fd389551d967ce6",
+   "recordsRead": [
+    "煙",
+    "猫",
+    "産",
+    "留",
+    "番"
+   ],
+   "legacyJlptValuesRemainSeparateFromFrozenCommunityClassification": true
+  },
+  "jmdict": {
+   "privateArtifact": "ru-134-jmdict-primary-capture-001.json",
+   "rawSha256": "6d47a2de1f563d15a19701b53110beb87011336154b14fa792f60d11974895e1",
+   "entryIdsRead": [
+    "1177180",
+    "1241490",
+    "1467640",
+    "1593380",
+    "1151020",
+    "1378990",
+    "1339010",
+    "1588410",
+    "1552740",
+    "1552760",
+    "1310670",
+    "1482290",
+    "1165970",
+    "1449220",
+    "2022640"
+   ],
+   "interpretationBoundary": "Exact forms, readings, senses and restrictions were read; they do not prove frequency, quiz safety, every reading or universal naturalness."
+  },
+  "strokes": {
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "byteIdentical": true,
+   "glyphPixelInspection": false
+  }
+ },
+ "ordinaryQuizNegativeEdges": {
+  "status": "UNVERIFIED",
+  "directions": [
+   "煙→秋",
+   "煙→西",
+   "煙→熱",
+   "猫→犬",
+   "猫→理",
+   "猫→番",
+   "産→立",
+   "産→音",
+   "産→重",
+   "留→男",
+   "留→番",
+   "留→魚",
+   "番→留",
+   "番→男",
+   "番→田"
+  ],
+  "guardsAdded": [],
+  "metadataRetentionIsNotGradingApproval": true
+ },
+ "trackingAndProgress": {
+  "frozenInventory": 8278,
+  "reviewedCurrent": 2506,
+  "excludedReviewedRuntimeBlocked": 2,
+  "pending": 5770,
+  "acceptedKanji": 499,
+  "acceptedStrokes": 499,
+  "acceptedWords": 1478,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "progressRecord": "docs/translation-progress.json",
+  "trackingRecord": "docs/translation-tracking.json",
+  "contentVersion": "f522e673bf62e03a",
+  "artifacts": [
+   {
+    "path": "docs/translation-tracking.json",
+    "utf8Bytes": 7929298,
+    "rawSha256": "d52d3d3951301e0d606b7d9eff687dfc93681f81c985ddbe71bc31fbaa50703b"
+   },
+   {
+    "path": "docs/translation-progress.json",
+    "utf8Bytes": 5344588,
+    "rawSha256": "d2bbd980c6b418ae6fed066a1b37f02607f72a1692669db864a90b2fee60ad87"
+   },
+   {
+    "path": "manifest.json",
+    "utf8Bytes": 224087,
+    "rawSha256": "1eff87b5c7a95efd43e1a5670c9cb742c099fd4728975de4a6377f2e39548d27"
+   }
+  ],
+  "progressStatuses": {
+   "reviewed-current": 2506,
+   "draft-reviewed-runtime-blocked": 2,
+   "pending": 5770
+  }
+ },
+ "sourceAcceptance": "Qualified source-content/progress only, with the C1/C2/C3 boundaries above. No grading, runtime, activation, device, media, release or ordinary-activation approval.",
+ "authority": {
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false,
+  "quizGradingApproval": false,
+  "appDeviceMediaReleaseApproval": false,
+  "ordinaryActivationApproval": false,
+  "fullTranslationCompletion": false
+ },
+ "reviewReports": {
+  "report": "docs/translation-batches/134-smoke-cat-birth-stay-turn-kanji-independent-review-001.md",
+  "record": "docs/translation-batches/134-smoke-cat-birth-stay-turn-kanji-independent-review-001.json",
+  "qualificationDispositions": "docs/translation-batches/134-smoke-cat-birth-stay-turn-kanji-review-qualification-dispositions-001.json",
+  "reportUtf8Bytes": 2761,
+  "reportRawSha256": "96c13296ea9318f4157bac639a76e168d98e5c1bbe506b7288a609d69e4c4dc5",
+  "recordUtf8Bytes": 4149,
+  "recordRawSha256": "dc4c4ef0b66067c75b0c11eb4137b937e4484190dd8b5f14bf6cefc9f1327653",
+  "qualificationDispositionsUtf8Bytes": 994,
+  "qualificationDispositionsRawSha256": "2206eb8135f73a6ca564e06872011fef3e8dcf44976155eb7eeba71a37e55a34",
+  "finalValidation": "docs/translation-batches/134-smoke-cat-birth-stay-turn-kanji-final-validation-001.json",
+  "finalValidationUtf8Bytes": 3105,
+  "finalValidationRawSha256": "c5464710379bfed2417d05e2ab40cd73a01dc83257e1b070fc1c793133d6e132"
+ }
+}
