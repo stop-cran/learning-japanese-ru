@@ -8,10 +8,38 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+## Current published source milestone: batch132 pick-up, search and discard kanji
+
+Batch132 adds complete Russian lessons for 拾/捜/捨, three byte-identical frozen-source
+stroke assets, and five preauthorized NAV-only word-page links. No word teaching
+content, quiz arrays, or grading behavior changed.
+
+The bounded independent review found no supported consequential finding. C1 is
+acceptable with evidence limits: KANJIDIC2 records were read, while JMdict
+conclusions are limited to targeted entries and search matches. C2 scope and
+navigation are consistent, but all nine ordinary negative/fallback directions
+remain **UNVERIFIED**; metadata retention is not grading approval. C3 found no
+confirmed novice-clarity defect in the read scope, not native-speaker
+certification.
+
+The [qualified source record](translation-batches/132-pick-up-search-discard-kanji-reviewed-source.json)
+and [publication verification](translation-batches/132-pick-up-search-discard-kanji-publication-verification-001.json)
+record 2,490 reviewed-current / 2 excluded reviewed runtime-blocked / 5,786
+pending of 8,278; 1,478 words / 491 kanji / 491 strokes. Version
+`d152c624bd2043cd`; checkpoint authority remains null and `Ready` false.
+[PR #17](https://github.com/stop-cran/learning-japanese-ru/pull/17) merged at
+main `dbe35d744296279dd50aa702b6eaf24164164283`. Exact-main CI passed; actual
+ZIP and tar.gz exports (2,498 files each) match the exact `git archive` export,
+including required license/notice files, and all four protected pilot/integration
+refs remain unchanged. [Issue #3 progress](https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6767692668)
+was updated. No grading, runtime, device, media, release, or ordinary-activation
+approval is implied. Continue batch133 and every remaining safe frozen family;
+this is not finite completion.
+
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current published source milestone: batch131 heat, fatigue, pain, sleep and condition kanji
+## Previous published source milestone: batch131 heat, fatigue, pain, sleep and condition kanji
 
 Batch131 adds ten complete Russian lessons (熱/疲/痛/眠/状/点/然/破/犯/石),
 ten byte-identical frozen-source stroke assets, and thirteen NAV-only word-page
@@ -36,8 +64,8 @@ ZIP and tar.gz exports (2,492 files each) matched the exact Git archive bytes,
 all four protected refs remained unchanged, and issue #3 progress was updated.
 See the [publication verification](translation-batches/131-heat-fatigue-pain-sleep-condition-kanji-publication-verification-001.json).
 No runtime, grading, device, media, release, or ordinary-activation approval is
-claimed. Continue batch132 and every remaining safe frozen family; this is not
-finite completion.
+claimed. Batch132 supersedes this as the current published source milestone;
+see above.
 
 ## Previous published source milestone: batch130 crossing, harbor, fullness and performance kanji
 
