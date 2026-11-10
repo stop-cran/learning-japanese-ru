@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "batch": "128-decide-govern-law-swim-wash-kanji",
+  "recordedAt": "2026-11-10T08:59:42+01:00",
+  "stage": "PRE-MUTATION SOURCE AND SEMANTIC FREEZE; AUTHORING NOT STARTED",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineSnapshot": "64c4f2144ae8c42ea813050470adc9d40137a629",
+  "intake": "docs/translation-batches/128-decide-govern-law-swim-wash-kanji-intake.json",
+  "navigationAmendment": "docs/translation-batches/128-decide-govern-law-swim-wash-kanji-pre-mutation-navigation-amendment-001.json",
+  "frozenMutationScope": {
+    "newLessons": ["kanji/決.md", "kanji/治.md", "kanji/法.md", "kanji/泳.md", "kanji/洗.md", "kanji/活.md", "kanji/流.md"],
+    "byteIdenticalStrokeCopies": ["strokes/決.json", "strokes/治.json", "strokes/法.json", "strokes/泳.json", "strokes/洗.json", "strokes/活.json", "strokes/流.json"],
+    "navigationOnlyWordPages": ["words/決める.md", "words/政治.md", "words/泳ぐ.md", "words/洗う.md", "words/生活.md"],
+    "optionalUnavailableLinkWrappersRemoved": {
+      "amendment": "docs/translation-batches/128-decide-govern-law-swim-wash-kanji-pre-mutation-navigation-amendment-001.json",
+      "exactOccurrenceCount": 9
+    },
+    "expectedNewRuntimePathCount": 14,
+    "expectedAffectedRuntimePathCount": 19,
+    "newWordPages": [],
+    "otherRuntimeChanges": []
+  },
+  "semanticInvariants": {
+    "sourceKanjiIdsReadingsStrokesRadicalsJlptTagsAndDistractorArrays": "Preserve exact frozen-source values; do not revise Japanese facts or grading metadata within this translation batch.",
+    "sourceExamples": "Preserve the Japanese examples, readings, word forms, roles, and stated meanings from the frozen source. Russian translations must not add unsupported outcomes, frequency, register, causality, or certainty.",
+    "jlpt": "Retain the frozen community N3 classification as an editorial classification; do not call it an official JLPT syllabus.",
+    "mnemonics": "Translate the modern-shape mnemonics as invented memory aids, not historical etymology or phonetic analysis.",
+    "readingTypeGloss": "After ## Чтения, use the previously accepted concise explanation once in each new lesson: «Онное чтение (онъёми) — японское чтение знака, которое восходит к китайскому произношению; кунное чтение (кунъёми) — японское слово, закреплённое за знаком как его перевод.» This is the established learner-clarity adaptation, not a new kanji metadata or historical claim.",
+    "decide": "Keep 決める as the deciding/settling action and distinguish 決まる as the resulting state; do not collapse their particle roles.",
+    "governAndHeal": "Preserve 治's governing/settling and healing areas; distinguish intransitive 治る from transitive 治す and do not read politics as medical treatment.",
+    "lawAndMethod": "Keep legal rules and methods as related but distinct uses; a method is not itself a legal requirement. Preserve 文法 as ぶんぽう.",
+    "swimming": "Keep swimming as movement through water, not merely floating; preserve the location with で and the listed 泳いで form.",
+    "washing": "Keep washing/rinsing distinct from cleaning in general; preserve を for the washed object and the distinction from 掃除.",
+    "livingAndActivity": "Use 活's life/activity cue only where supported by compounds such as 生活 and 活動; do not translate 活 as «lively» in every compound.",
+    "flow": "Distinguish 流れる from 流す and preserve the が/を contrast; do not expand the word into unsupported broad meanings.",
+    "unavailableWordTargets": "Remove only the nine explicitly listed optional Markdown-link wrappers to unavailable Russian word pages; retain their visible Japanese words as plain text."
+  },
+  "sourceAdjudications": {
+    "kanjidic2": {
+      "sourceUrl": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz",
+      "archiveSha256": "e26e34c9187a786bf1f0b21f87e311a9b0ed644aefe9693d10bdc7cb8643d8e0",
+      "databaseVersion": "2026-308",
+      "captureArtifact": "ru-128-metadata-primary-capture-001.json",
+      "captureSha256": "5daf51c14d3a8724678560d568d8acb4027ae4f9dbc4c7bde708a9cbcc79cef7",
+      "selectedFields": "Exact Japanese on/kun reading lists and dot/hyphen divisions, primary stroke counts, school-grade metadata, and classical radical numbers for all seven IDs. The legacy JLPT field is not treated as a modern level."
+    },
+    "radical": {
+      "number": 85,
+      "glyph": "水",
+      "evidence": "The exact KANJIDIC2 records use classical radical number 85. The prior reviewed Unicode 17 source capture maps the corresponding radical glyph U+2F54 to 水.",
+      "unicode17Evidence": "docs/translation-batches/127-capture-hanging-search-population-kanji-source-adjudication-and-semantic-freeze-001.json",
+      "unicode17SourceVersion": "17.0.0",
+      "unicode17SourceSha256": "2e1efc1dcb59c575eedf5ccae60f95229f706ee6d031835247d843c11d96470c"
+    },
+    "communityJlptN3": {
+      "sourceSnapshot": "ru-127-frozen-n3-source-snapshot-001.json",
+      "scope": "The list orders this batch's remaining community N3 items; it is not an official JLPT syllabus."
+    },
+    "jmdict": {
+      "sourceUrl": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+      "archiveSha256": "5af39046e9579fd5e14d07a048fccce422b8df0d940ba8c086439e5a7617eab6",
+      "captureArtifact": "ru-128-jmdict-primary-capture-001.json",
+      "captureSha256": "1fa471ebaf72fa9eaeeb9404b3243d41af960027822be3b044e30b30eefb8fd2",
+      "entryIds": ["1254180", "1591420", "1254380", "1375970", "1316830", "1599400", "2856318", "1517090", "1517480", "1505600", "1174340", "1371320", "1497420", "1390930", "1390980", "1399790", "1378860", "1208360", "1552140", "1552120", "1272580"],
+      "useBoundary": "Read exact spelling/reading forms and senses for lesson examples; dictionary inclusion does not establish frequency, N3 membership, or the naturalness of an unlisted example."
+    },
+    "strokes": {
+      "project": "KanjiVG",
+      "revision": "70a0b7ae0c18ceb5cb358274b029cce0234a43bc",
+      "requiredOperation": "Copy exact bytes from the frozen English source commit; do not regenerate or manually alter the seven stroke JSON files."
+    }
+  },
+  "quizDisposition": {
+    "sourceDirectedNegativeEdges": [
+      "決→注", "決→洋", "決→漢",
+      "治→始", "治→台", "治→活",
+      "法→去", "法→洗", "法→泳",
+      "泳→流", "泳→治", "泳→洗",
+      "洗→先", "洗→活", "洗→法",
+      "活→話", "活→海", "活→流",
+      "流→泳", "流→活", "流→法"
+    ],
+    "canonicalStatus": "UNVERIFIED for every ordinary active-negative/fallback use unless a later independent review resolves a specific direction with evidence.",
+    "readingNegativeRejections": [],
+    "approvedNewGuards": [],
+    "metadataPreservationIsNotApproval": true
+  },
+  "runtimeMutationOccurred": false
+}

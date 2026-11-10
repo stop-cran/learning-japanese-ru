@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "batchId": "128-decide-govern-law-swim-wash-kanji",
+  "recordedAt": "2026-11-10T09:58:00+01:00",
+  "candidateCommit": "c21b01f4e1d2c1247d89ae4d5951ab00bf9b5c0a",
+  "candidateTree": "da049761b5dc201bf15e046f8d6cc5ea77f6f27f",
+  "contentVersion": "67eb914ece3e362f",
+  "reviewedWorktreeRawDigest": "b2b8b24f88be4d8884002ddd29b18baceceb1fe368785249261a3d9e7e5ef996",
+  "committedGitBlobRawDigest": "08f81564f5fd95bca15169c483d5e9263255ef81154af6e1c77452e1bf0a4207",
+  "commands": [
+    {
+      "command": "python -X utf8 -B tools/build_manifest.py",
+      "exitCode": 0,
+      "stdout": "manifest.json: 2448 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 67eb914ece3e362f"
+    },
+    {
+      "command": "python -X utf8 -B tools/validate.py",
+      "exitCode": 0,
+      "stdout": "0 error(s)"
+    },
+    {
+      "command": "python -X utf8 -B -m unittest discover -s tools -p \"test_*.py\"",
+      "exitCode": 0,
+      "stdout": "Ran 124 tests in 50.488s\nOK"
+    },
+    {
+      "command": "python -X utf8 -B tools/check_content_budget.py",
+      "exitCode": 0,
+      "stdout": "{'files': 2456, 'entries': 2465, 'retainedBytes': 6804394, 'inflatedBytes': 6822609, 'localZipBytes': 3429782, 'listeningTaskMediaBytes': 0}"
+    }
+  ],
+  "executionOrder": "Serial post-commit and after the final tracking/progress changes; each command completed successfully before the next started.",
+  "environment": "TMPDIR, TMP and TEMP pointed only to an owned unique NTFS fixture under the RU checkout for the process; the exact empty directory was removed after tests. No global Git/auth/trust config changed.",
+  "outputDomain": "Actual final serial console output and exit codes returned by the execution tool; no separate raw stdout file or stdout-byte hash is claimed.",
+  "tests": {
+    "passed": 124,
+    "failed": 0,
+    "durationSeconds": 50.488
+  },
+  "archiveBudget": {
+    "files": 2456,
+    "entries": 2465,
+    "retainedBytes": 6804394,
+    "inflatedBytes": 6822609,
+    "localZipBytes": 3429782,
+    "listeningTaskMediaBytes": 0
+  },
+  "validationNotEquivalentTo": "Semantic review, runtime/app acceptance, device/native approval, or publication integration.",
+  "completedAfterTrackingAndProgress": true
+}
