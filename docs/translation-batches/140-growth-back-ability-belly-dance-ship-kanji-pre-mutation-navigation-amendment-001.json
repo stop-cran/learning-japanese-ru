@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "batchId": "140-growth-back-ability-belly-dance-ship-kanji",
+  "recordedAt": "2026-11-10T20:42:03+00:00",
+  "status": "pre-mutation navigation amendment; signed before runtime authoring",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "37a0a09087a0d45196f437c40ce6d311619eec93",
+  "scope": "Authorize only two exact NAV wrappers on existing RU word pages and remove wrappers to absent optional word targets in new lessons. Preserve all visible Japanese and Russian text, metadata, quiz fields and every other byte.",
+  "wordPageWrappers": [
+    {
+      "path": "words/背中.md",
+      "baselineGitBlob": "d3a0b6c75ecf98bace32ee3bdf6138835128799e",
+      "baselineBlobRawSha256": "5f2135c2527d84637e9c1ecbca334eda1115948b673e4475161f0b234e001679",
+      "baselineBlobBytes": 2388,
+      "currentWorktreeRawSha256": "5f2135c2527d84637e9c1ecbca334eda1115948b673e4475161f0b234e001679",
+      "currentWorktreeBytes": 2388,
+      "replaceExactlyOnce": {
+        "old": "背, читаемое せ, вносит значение спины,",
+        "new": "[背](../kanji/背.md), читаемое せ, вносит значение спины,"
+      },
+      "targetKanji": "背",
+      "visibleTextAndEveryOtherByteMustRemainIdentical": true,
+      "navigationOnly": true
+    },
+    {
+      "path": "words/船.md",
+      "baselineGitBlob": "643f37676ce99804e1e412b739450166f73ae944",
+      "baselineBlobRawSha256": "1117fb5bf9e66967749c1280435961e16150a6dcbf258cb216dad95b68ca53e5",
+      "baselineBlobBytes": 2963,
+      "currentWorktreeRawSha256": "1117fb5bf9e66967749c1280435961e16150a6dcbf258cb216dad95b68ca53e5",
+      "currentWorktreeBytes": 2963,
+      "replaceExactlyOnce": {
+        "old": "Один знак 船 записывает исконное существительное ふね.",
+        "new": "Один знак [船](../kanji/船.md) записывает исконное существительное ふね."
+      },
+      "targetKanji": "船",
+      "visibleTextAndEveryOtherByteMustRemainIdentical": true,
+      "navigationOnly": true
+    }
+  ],
+  "unavailableOptionalWordLinks": [
+    {
+      "lessonPath": "kanji/育.md",
+      "sourceLessonGitBlob": "710eab939f8d2b29682bb3925baf837ddf8af961",
+      "sourceLessonRawSha256": "03ce4970711218e0ee790e70e1cbb8fcc0fbfd7013863b78361427fdb22cfba5",
+      "targetPath": "words/育つ.md",
+      "targetAbsentAtBaseline": true,
+      "sourceLinkOccurrences": 2,
+      "operation": "In the Russian lesson only, strip the Markdown wrapper from each link whose label is 育つ and target is ../words/育つ.md; preserve the Japanese label, readings, examples and all Russian teaching text."
+    },
+    {
+      "lessonPath": "kanji/能.md",
+      "sourceLessonGitBlob": "9625a432c7144f9a4770bb433291e58eab9f70af",
+      "sourceLessonRawSha256": "1a95503a5e274780e2175015f7f8dd85db19de9dd251744037da1bdaf71b9f75",
+      "targetPath": "words/才能.md",
+      "targetAbsentAtBaseline": true,
+      "sourceLinkOccurrences": 1,
+      "operation": "In the Russian lesson only, strip the Markdown wrapper from each link whose label is 才能 and target is ../words/才能.md; preserve the Japanese label, readings, examples and all Russian teaching text."
+    },
+    {
+      "lessonPath": "kanji/腹.md",
+      "sourceLessonGitBlob": "9f5740200d4aa9f0316d9fd3e3c7c3b0ebb9c58e",
+      "sourceLessonRawSha256": "bf4eee989d26d1efe3b60420d120b0a239badea5747ad1fcd8ef34c4a8a7c159",
+      "targetPath": "words/腹.md",
+      "targetAbsentAtBaseline": true,
+      "sourceLinkOccurrences": 2,
+      "operation": "In the Russian lesson only, strip the Markdown wrapper from each link whose label is 腹 and target is ../words/腹.md; preserve the Japanese label, readings, examples and all Russian teaching text."
+    },
+    {
+      "lessonPath": "kanji/舞.md",
+      "sourceLessonGitBlob": "af6393bbb35d33b5885af12e532b1469bf1a2147",
+      "sourceLessonRawSha256": "35a77154f234e5347e7cbc44b394f272cc20876f2c632da8f7c7f155621c4c37",
+      "targetPath": "words/舞台.md",
+      "targetAbsentAtBaseline": true,
+      "sourceLinkOccurrences": 2,
+      "operation": "In the Russian lesson only, strip the Markdown wrapper from each link whose label is 舞台 and target is ../words/舞台.md; preserve the Japanese label, readings, examples and all Russian teaching text."
+    }
+  ],
+  "limits": {
+    "wordPageWrapperCount": 2,
+    "wordPageVisibleTextChanges": 2,
+    "wordPageMetadataOrQuizChanges": 0,
+    "optionalWordLinkWrapperRemovals": 7,
+    "articleReferenceOmissions": 0,
+    "newWordPages": 0,
+    "otherWordPageChangesAuthorized": false,
+    "quizOrGradingChanges": false,
+    "otherRuntimeChangesAuthorized": false
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "batchId": "140-growth-back-ability-belly-dance-ship-kanji",
+  "recordedAt": "2026-11-10T20:42:03+00:00",
+  "status": "pre-mutation intake for sequential frozen-source batch authoring",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "publishedBaseline": "37a0a09087a0d45196f437c40ce6d311619eec93",
+  "selection": {
+    "communityN3Positions": [
+      277,
+      278,
+      279,
+      280,
+      281,
+      282
+    ],
+    "kanji": [
+      "育",
+      "背",
+      "能",
+      "腹",
+      "舞",
+      "船"
+    ],
+    "justification": "First six pending characters in frozen N3 order after published batch139 acceptance."
+  },
+  "directDistractorEdges": [
+    "育→背",
+    "育→青",
+    "育→有",
+    "背→育",
+    "背→北",
+    "背→青",
+    "能→育",
+    "能→背",
+    "能→北",
+    "腹→服",
+    "腹→朝",
+    "腹→背",
+    "舞→年",
+    "舞→毎",
+    "舞→足",
+    "船→服",
+    "船→朝",
+    "船→台"
+  ],
+  "dependencyClosure": {
+    "newInBatch": [
+      "育",
+      "背",
+      "能",
+      "腹",
+      "舞",
+      "船"
+    ],
+    "alreadyReviewed": [
+      "青",
+      "有",
+      "北",
+      "服",
+      "朝",
+      "年",
+      "毎",
+      "足",
+      "台"
+    ],
+    "pendingDirectDependenciesOutsideSelection": []
+  },
+  "sourceLessons": [
+    {
+      "position": 277,
+      "kanji": "育",
+      "path": "kanji/育.md",
+      "sourceGitBlob": "710eab939f8d2b29682bb3925baf837ddf8af961",
+      "sourceRawSha256": "03ce4970711218e0ee790e70e1cbb8fcc0fbfd7013863b78361427fdb22cfba5",
+      "sourceBytes": 1643
+    },
+    {
+      "position": 278,
+      "kanji": "背",
+      "path": "kanji/背.md",
+      "sourceGitBlob": "153901ded9ca3d86f54f40abea6097e84d244720",
+      "sourceRawSha256": "4e786d703444e434abbb32b30bfccbd3f2b5c3136f4cd90138b7024abe26d524",
+      "sourceBytes": 1471
+    },
+    {
+      "position": 279,
+      "kanji": "能",
+      "path": "kanji/能.md",
+      "sourceGitBlob": "9625a432c7144f9a4770bb433291e58eab9f70af",
+      "sourceRawSha256": "1a95503a5e274780e2175015f7f8dd85db19de9dd251744037da1bdaf71b9f75",
+      "sourceBytes": 1532
+    },
+    {
+      "position": 280,
+      "kanji": "腹",
+      "path": "kanji/腹.md",
+      "sourceGitBlob": "9f5740200d4aa9f0316d9fd3e3c7c3b0ebb9c58e",
+      "sourceRawSha256": "bf4eee989d26d1efe3b60420d120b0a239badea5747ad1fcd8ef34c4a8a7c159",
+      "sourceBytes": 1476
+    },
+    {
+      "position": 281,
+      "kanji": "舞",
+      "path": "kanji/舞.md",
+      "sourceGitBlob": "af6393bbb35d33b5885af12e532b1469bf1a2147",
+      "sourceRawSha256": "35a77154f234e5347e7cbc44b394f272cc20876f2c632da8f7c7f155621c4c37",
+      "sourceBytes": 1459
+    },
+    {
+      "position": 282,
+      "kanji": "船",
+      "path": "kanji/船.md",
+      "sourceGitBlob": "5d6b6d4cea79a0d5ee6fbffe266c4cd6e24477c7",
+      "sourceRawSha256": "13cf39cb6727c0a61bba124dd5afd3c11ad922e80b6497eb236b682895b0e07d",
+      "sourceBytes": 1378
+    }
+  ],
+  "wordPageAvailability": {
+    "existing": [
+      "words/背中.md",
+      "words/船.md"
+    ],
+    "absentOptional": [
+      "words/育つ.md",
+      "words/才能.md",
+      "words/腹.md",
+      "words/舞台.md"
+    ]
+  },
+  "progressSnapshot": {
+    "reviewedCurrent": 2566,
+    "excludedReviewedRuntimeBlocked": 2,
+    "pending": 5710,
+    "total": 8278,
+    "contentVersion": "87be278411d3648a"
+  },
+  "limits": {
+    "quizOrGradingChanges": false,
+    "runtimeDeviceMediaReleaseApproval": false,
+    "ordinaryActivationApproval": false,
+    "fullTranslationComplete": false
+  }
+}
