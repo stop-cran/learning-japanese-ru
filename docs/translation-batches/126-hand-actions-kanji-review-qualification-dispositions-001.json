@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "batchId": "126-hand-actions-kanji",
+  "recordedAt": "2026-11-10T07:11:34.266226+01:00",
+  "reviewedCandidate": "4f7e9a6a56ca76649f6ce1584196db3053deeea6",
+  "candidateTree": "b1575b6cae401774eac74c0f04b4d47773d11d64",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "3543dceb9e5785dd0d5cdebdbc8ee066c97711f8",
+  "reviewer": {
+    "agentType": "code-review",
+    "identity": "not exposed by task return; not inferred",
+    "mode": "independent, read-only"
+  },
+  "actualReturnedReportTextArtifact": "private session artifact ru-126-review-whole-candidate-tool-return-001.txt",
+  "actualReturnedReportTextUtf8Bytes": 5504,
+  "actualReturnedReportTextSha256": "252dd5c244c3e690e3fa3e5b8362d2e865618b3c635efe91be1b6f71e75db341",
+  "reportHashDomain": "Exact UTF-8 bytes of the tool-returned review report; not shell stdout or a GitHub comment.",
+  "reviewerInvocationHistory": [
+    {
+      "status": "stopped before content inspection",
+      "artifact": "private session artifact ru-126-review-preinspection-stop-tool-return-001.txt",
+      "reason": "The first reviewer treated explicitly pre-existing tools/__pycache__ files as a snapshot mismatch. Tracked tree state was independently confirmed clean at the candidate; cache was preserved."
+    },
+    {
+      "status": "completed; one whole-candidate review",
+      "artifact": "private session artifact ru-126-review-whole-candidate-tool-return-001.txt",
+      "coverage": "Actual full candidate review and bound source evidence listed below."
+    }
+  ],
+  "actualReadScope": {
+    "russianCompleteLessons": [
+      "打",
+      "払",
+      "投",
+      "折",
+      "抜",
+      "抱",
+      "押",
+      "招",
+      "指"
+    ],
+    "frozenEnglishCompleteGitBlobs": [
+      "打",
+      "払",
+      "投",
+      "折",
+      "抜",
+      "抱",
+      "押",
+      "招",
+      "指"
+    ],
+    "navigationDiffs": [
+      "words/打つ.md",
+      "words/払う.md",
+      "words/投げる.md",
+      "words/折る.md",
+      "words/折れる.md",
+      "words/押し入れ.md",
+      "words/押す.md",
+      "words/招待.md",
+      "words/指.md",
+      "words/指輪.md"
+    ],
+    "sourceEvidence": {
+      "KANJIDIC2WholeRecords": [
+        "打",
+        "払",
+        "投",
+        "折",
+        "抜",
+        "抱",
+        "押",
+        "招",
+        "指"
+      ],
+      "UnicodeDataRows": [
+        "2F3F KANGXI RADICAL HAND canonical glyph 手"
+      ],
+      "frozenCommunityN3Memberships": [
+        "打",
+        "払",
+        "投",
+        "折",
+        "抜",
+        "抱",
+        "押",
+        "招",
+        "指"
+      ],
+      "JMdictWholeExpandedRecords": 27,
+      "JMdictEntryIds": [
+        "1169250",
+        "1180470",
+        "1288640",
+        "1309650",
+        "1309670",
+        "1309800",
+        "1310300",
+        "1315720",
+        "1349590",
+        "1349610",
+        "1385910",
+        "1385920",
+        "1408810",
+        "1408815",
+        "1408870",
+        "1447000",
+        "1447320",
+        "1478190",
+        "1478200",
+        "1501620",
+        "1516310",
+        "1584090",
+        "1589080",
+        "1589450",
+        "2423450",
+        "2844997",
+        "2844998"
+      ],
+      "KanjiPediaCompleteVisibleEntries": {
+        "打": "0004407200",
+        "払": "0006136600",
+        "投": "0005156500",
+        "折": "0003987900",
+        "抜": "0005698600",
+        "抱": "0006351800",
+        "押": "0000515400",
+        "招": "0003359500",
+        "指": "0002768800"
+      },
+      "KanjiPediaHTTPReceipts": 9,
+      "allNineStrokeBlobsByteCompared": true
+    },
+    "guidance": [
+      ".github/copilot-instructions.md",
+      ".github/instructions/content-structure.instructions.md",
+      ".github/agents/kanji-accuracy-reviewer.agent.md",
+      ".github/agents/content-consistency-reviewer.agent.md",
+      ".github/agents/kanji-comprehension-reviewer.agent.md",
+      "docs/translation-methodology.md",
+      "docs/content-format-reference.md"
+    ],
+    "markdownLinksChecked": 63,
+    "unavailableOptionalLinkTargets": [
+      "words/支払う.md",
+      "words/抜く.md",
+      "words/抱く.md",
+      "words/招く.md"
+    ],
+    "optionalSourceWrappersRemoved": 12
+  },
+  "qualifiedVerdicts": {
+    "C1": "CLEAN within the checked boundary: candidate readings, strokes, radical metadata, all nine frozen community N3 memberships, and relevant JMdict forms/readings/senses/restrictions agree with inspected source records. All nine whole visible KanjiPedia entry texts were checked; historical claims and modern-shape mnemonics are qualified. KANJIDIC2 legacy JLPT=2 was not substituted. No supported Japanese-fact defect found.",
+    "C2": "CLEAN for the authorized partial scope: 9 new lessons, 9 exact source stroke blobs, 10 navigation-only word changes, 12 unavailable optional wrappers removed with Japanese labels/readings retained, no new word/provider pages or quiz/runtime behavior changes. All 27 source-directed edges and order are retained; six pre-existing endpoints and nine in-batch endpoints match the captured pool. Ordinary active-negative quiz safety/runtime grading guards remain UNVERIFIED.",
+    "C3": "CLEAN within the nine complete Russian lessons and ten navigation diffs: no confirmed comprehension defect found. Not native-speaker or learning-outcome certification."
+  },
+  "directedQuizDisposition": {
+    "scope": 27,
+    "edges": [
+      "打→払",
+      "打→折",
+      "打→持",
+      "払→私",
+      "払→打",
+      "払→抱",
+      "投→抜",
+      "投→折",
+      "投→抱",
+      "折→新",
+      "折→所",
+      "折→投",
+      "抜→投",
+      "抜→押",
+      "抜→抱",
+      "抱→招",
+      "抱→折",
+      "抱→払",
+      "押→田",
+      "押→指",
+      "押→招",
+      "招→切",
+      "招→抱",
+      "招→押",
+      "指→持",
+      "指→押",
+      "指→折"
+    ],
+    "ordinaryActiveNegative": "UNVERIFIED for every direction. Stored source metadata does not prove a safe grading guard or runtime answer operation.",
+    "sourceIntroductoryDisposition": "Retain the pre-mutation qualification only; this review upgrades no direction."
+  },
+  "findings": [],
+  "limits": [
+    "Reviewer did not run validator or tests; prior author checks are not a semantic review.",
+    "No app/device operation or native-speaker review.",
+    "KanjiPedia raw HTML and glyph pixels not visually inspected; complete captured visible text and receipts were read.",
+    "Frozen English working checkout was dirty; source lesson text was read from exact frozen Git blobs.",
+    "No unrelated-corpus or full-translation review."
+  ],
+  "runtimeAcceptance": false,
+  "publicationIntegrated": false,
+  "fullTranslationComplete": false
+}
