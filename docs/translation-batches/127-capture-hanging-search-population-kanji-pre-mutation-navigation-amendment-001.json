@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "batch": "127-capture-hanging-search-population-kanji",
+  "recordedAt": "2026-11-10T08:04:36.087052+01:00",
+  "stage": "PRE-MUTATION AMENDMENT; SOURCE LINK TREATMENT FROZEN",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineSnapshot": "db368c9a0acd3dee80695d29e88d1c58c8a6797a",
+  "intake": "docs/translation-batches/127-capture-hanging-search-population-kanji-intake.json",
+  "exactSourceLesson": {
+    "path": "kanji/求.md",
+    "rawSha256": "6220c012e964d5870488a311e8f6185e250be137dcdb66011747f9c630222252",
+    "gitBlobSha1": "60092958296a5f48bf9911081946c5ce439a985d"
+  },
+  "missingOptionalTarget": {
+    "path": "words/求める.md",
+    "existsInRussianBaseline": false,
+    "requiredByDependencyClosure": false
+  },
+  "exactAuthorizedOccurrences": [
+    {
+      "before": "[求める](../words/求める.md) (もとめる)",
+      "after": "求める (もとめる)"
+    },
+    {
+      "before": "[求める](../words/求める.md) もとめる — request; seek",
+      "after": "求める もとめる — request; seek"
+    },
+    {
+      "before": "- [求める](../words/求める.md) もとめる — request; seek",
+      "after": "- 求める もとめる — request; seek"
+    }
+  ],
+  "occurrences": 3,
+  "authorizedChange": "Remove only the three Markdown link wrappers targeting the unavailable optional word page. Preserve every visible Japanese form, reading, surrounding sentence, table entry, and list item.",
+  "prohibitedChanges": [
+    "Do not create words/求める.md.",
+    "Do not remove the Japanese form 求める or its reading もとめる.",
+    "Do not alter any other source link, metadata, distractor, example, or lesson prose through this amendment."
+  ],
+  "runtimeMutationOccurred": false,
+  "independentReviewOccurred": false
+}
