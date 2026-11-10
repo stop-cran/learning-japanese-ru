@@ -64,7 +64,7 @@ All 18 ordinary negative/fallback directions remain **UNVERIFIED**. No grading,
 runtime, device, media, release, ordinary-activation, checkpoint, or completion
 approval is implied.
 
-## Batch137: reviewed, qualified candidate; publication pending
+## Batch137: published qualified source milestone
 
 From published main `a9ba83522d20b23fd6d76bd5300b37b9a2fc9494`, the first six
 pending kanji in the frozen N3 order are 積/突/窓/笑/等/箱 (positions 255–260).
@@ -88,15 +88,43 @@ record C1 CLEAN and C3 CLEAN only within the reviewed evidence/scope; C2 remains
 UNVERIFIED overall. All 21 ordinary negative/fallback directions remain
 **UNVERIFIED**; no grading approval is implied.
 
-The regenerated progress record shows **2,542 reviewed-current / 2 excluded
-reviewed runtime-blocked / 5,734 pending of 8,278**, with 1,478 words / 517
-kanji / 517 strokes; checkpoint authority remains null and `Ready` false.
-Candidate acceptance is qualified source-content progress only; branch
-integration, exact-main CI, public archives and protected-reference verification
-remain pending. No runtime, device, media, release, ordinary-activation,
-checkpoint, or full-translation approval is implied. Preserve the excluded
-`docs/translation-drafts/033-nature-outdoor-activity/words/空.md` draft and
-continue every remaining safe batch after publication.
+Batch137 was integrated through [PR #23](https://github.com/stop-cran/learning-japanese-ru/pull/23)
+at main `4d961b89035f65cc45c4fc797bb703d8ee1f3c5e`. The owner-signed
+acceptance commit `cf23544fdd8e83ce5ad5ef647044dad019f0fb6f` has the same tree
+as published main. Exact-main `validate` run
+[#42878097114](https://github.com/stop-cran/learning-japanese-ru/actions/runs/42878097114)
+passed. The actual public commit/main ZIP and tar.gz exports matched the exact
+Git archive path-by-path and byte-for-byte; all four protected pilot/integration
+refs remained unchanged, and [issue #3 progress](https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6776152214)
+was updated. See the [publication verification](translation-batches/137-accumulation-sudden-window-laughter-equality-box-refinement-kanji-publication-verification-001.json).
+
+The published record shows **2,542 reviewed-current / 2 excluded reviewed
+runtime-blocked / 5,734 pending of 8,278**, with 1,478 words / 517 kanji / 517
+strokes; checkpoint authority remains null and `Ready` false. This is qualified
+source-content progress only, not grading, runtime, device, media, release,
+ordinary-activation, checkpoint, or full-translation approval.
+
+## Batch138: qualified source candidate; publication pending
+
+Batch138 adds complete Russian lessons and byte-identical frozen-source stroke
+assets for 米/経/給/絵/絶/続, with six preauthorized NAV-only wrappers on
+existing word pages. No word teaching text, quiz data, or grading behavior
+changed. The signed pre-mutation freeze is
+`7bc7f54548d67b2dc3ccffdf5e4187987addf60d`; the signed runtime candidate is
+`688ff2f7b6d4c2f1de341ceead78a2690922eb6a`, content version
+`3fdd9e27d77b03c9`. The bounded review records C1 and C2 **UNVERIFIED** overall
+and C3 CLEAN only within the six reviewed lessons. All 18 ordinary
+negative/fallback directions remain **UNVERIFIED**; no grading approval is
+implied.
+
+Qualified progress is **2,554 reviewed-current / 2 excluded reviewed
+runtime-blocked / 5,722 pending of 8,278**, with 1,478 words / 523 kanji / 523
+strokes. Candidate acceptance is qualified source-content progress only;
+publication and exact-main CI are pending. The excluded
+`docs/translation-drafts/033-nature-outdoor-activity/words/空.md` remains
+preserved. Continue every remaining safe batch; no runtime, device, media,
+release, ordinary-activation, checkpoint, or full-translation approval is
+implied.
 
 ## Previous published source milestone: batch134 smoke, cat, birth, stay and turn kanji
 

@@ -1,0 +1,572 @@
+{
+  "schemaVersion": 1,
+  "batchId": "138-rice-experience-salary-picture-end-and-continue-kanji",
+  "recordedAt": "2026-11-10T19:01:35+00:00",
+  "status": "pre-mutation intake; learner-facing runtime content has not been edited",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "4d961b89035f65cc45c4fc797bb703d8ee1f3c5e",
+  "selection": {
+    "sourceSnapshotPath": "docs/n3-source-snapshot.json",
+    "sourceSnapshotRepository": "stop-cran/learning-japanese at the frozen source commit",
+    "sourceSnapshotGitBlob": "b18b0a72779488538324a0b48c82e2684ea89d71",
+    "sourceSnapshotRawSha256": "4ffdacad14efcdee13e504a36f5705bc2226ea763bf46a00369c1bf6040b28e8",
+    "communityListRetrieved": "2026-10-09",
+    "dictionarySnapshotDate": "2026-10-08",
+    "frozenCommunityListCount": 367,
+    "rule": "Take the first six pending kanji in the immutable frozen jlptN3.characters order after accepted batch 137, then add only pending direct dependency targets.",
+    "selectedKanji": [
+      "米",
+      "経",
+      "給",
+      "絵",
+      "絶",
+      "続"
+    ],
+    "sourceOrderPositions": [
+      {
+        "kanji": "米",
+        "oneBasedPosition": 261,
+        "zeroBasedIndex": 260,
+        "baselineStatus": "pending"
+      },
+      {
+        "kanji": "経",
+        "oneBasedPosition": 265,
+        "zeroBasedIndex": 264,
+        "baselineStatus": "pending"
+      },
+      {
+        "kanji": "給",
+        "oneBasedPosition": 266,
+        "zeroBasedIndex": 265,
+        "baselineStatus": "pending"
+      },
+      {
+        "kanji": "絵",
+        "oneBasedPosition": 267,
+        "zeroBasedIndex": 266,
+        "baselineStatus": "pending"
+      },
+      {
+        "kanji": "絶",
+        "oneBasedPosition": 268,
+        "zeroBasedIndex": 267,
+        "baselineStatus": "pending"
+      },
+      {
+        "kanji": "続",
+        "oneBasedPosition": 269,
+        "zeroBasedIndex": 268,
+        "baselineStatus": "pending"
+      }
+    ],
+    "dependencyClosure": {
+      "directDirections": [
+        "米→来",
+        "米→木",
+        "米→金",
+        "経→組",
+        "経→紙",
+        "経→約",
+        "給→絵",
+        "給→紙",
+        "給→終",
+        "絵→給",
+        "絵→紙",
+        "絵→終",
+        "絶→絵",
+        "絶→紙",
+        "絶→給",
+        "続→読",
+        "続→売",
+        "続→終"
+      ],
+      "selectedPendingTargets": [
+        "米",
+        "経",
+        "給",
+        "絵",
+        "絶",
+        "続"
+      ],
+      "additionalPendingTargetAddedByClosure": [],
+      "reviewedCurrentDirectTargets": [
+        "売",
+        "木",
+        "来",
+        "約",
+        "紙",
+        "終",
+        "組",
+        "読",
+        "金"
+      ],
+      "directTargetProgress": [
+        {
+          "source": "米",
+          "target": "来",
+          "acceptedProgressStatus": "reviewed-current"
+        },
+        {
+          "source": "米",
+          "target": "木",
+          "acceptedProgressStatus": "reviewed-current"
+        },
+        {
+          "source": "米",
+          "target": "金",
+          "acceptedProgressStatus": "reviewed-current"
+        },
+        {
+          "source": "経",
+          "target": "組",
+          "acceptedProgressStatus": "reviewed-current"
+        },
+        {
+          "source": "経",
+          "target": "紙",
+          "acceptedProgressStatus": "reviewed-current"
+        },
+        {
+          "source": "経",
+          "target": "約",
+          "acceptedProgressStatus": "reviewed-current"
+        },
+        {
+          "source": "給",
+          "target": "絵",
+          "acceptedProgressStatus": "pending"
+        },
+        {
+          "source": "給",
+          "target": "紙",
+          "acceptedProgressStatus": "reviewed-current"
+        },
+        {
+          "source": "給",
+          "target": "終",
+          "acceptedProgressStatus": "reviewed-current"
+        },
+        {
+          "source": "絵",
+          "target": "給",
+          "acceptedProgressStatus": "pending"
+        },
+        {
+          "source": "絵",
+          "target": "紙",
+          "acceptedProgressStatus": "reviewed-current"
+        },
+        {
+          "source": "絵",
+          "target": "終",
+          "acceptedProgressStatus": "reviewed-current"
+        },
+        {
+          "source": "絶",
+          "target": "絵",
+          "acceptedProgressStatus": "pending"
+        },
+        {
+          "source": "絶",
+          "target": "紙",
+          "acceptedProgressStatus": "reviewed-current"
+        },
+        {
+          "source": "絶",
+          "target": "給",
+          "acceptedProgressStatus": "pending"
+        },
+        {
+          "source": "続",
+          "target": "読",
+          "acceptedProgressStatus": "reviewed-current"
+        },
+        {
+          "source": "続",
+          "target": "売",
+          "acceptedProgressStatus": "reviewed-current"
+        },
+        {
+          "source": "続",
+          "target": "終",
+          "acceptedProgressStatus": "reviewed-current"
+        }
+      ],
+      "closureRule": "Direct lesson dependencies only; no transitive quiz exclusions or grading conclusions are inferred."
+    }
+  },
+  "currentAcceptedProgress": {
+    "baselineProgressRecord": "docs/translation-progress.json",
+    "baselineTrackingRecord": "docs/translation-tracking.json",
+    "baselineProgressRawSha256": "100cd9eec7d290fdfa51483fead85bdd260e9e23b178c53649acfa5d6328a813",
+    "baselineTrackingRawSha256": "843b01f6b074f981e2f525e4fdbcebec3e3f9f65569e7e1518620567a759a123",
+    "reviewedCurrent": 2542,
+    "excludedReviewedRuntimeBlocked": 2,
+    "pending": 5734,
+    "total": 8278,
+    "words": 1478,
+    "kanji": 517,
+    "strokes": 517,
+    "contentVersion": "885c9d2367c2c322",
+    "checkpointAuthority": null,
+    "checkpointReady": false
+  },
+  "scope": {
+    "newKanjiLessons": [
+      "kanji/米.md",
+      "kanji/経.md",
+      "kanji/給.md",
+      "kanji/絵.md",
+      "kanji/絶.md",
+      "kanji/続.md"
+    ],
+    "byteIdenticalFrozenStrokeAssets": [
+      "strokes/米.json",
+      "strokes/経.json",
+      "strokes/給.json",
+      "strokes/絵.json",
+      "strokes/絶.json",
+      "strokes/続.json"
+    ],
+    "preauthorizedNavigationOnlyPaths": [
+      "words/米.md",
+      "words/経済.md",
+      "words/経験.md",
+      "words/絵.md",
+      "words/続く.md",
+      "words/続ける.md"
+    ],
+    "unavailableOptionalWordTargets": [
+      "words/給料.md",
+      "words/絶対.md"
+    ],
+    "wordPagesAdded": 0,
+    "quizOrGradingChanges": 0,
+    "otherRuntimePathsAuthorized": 0
+  },
+  "sourceEvidence": {
+    "lessonAndStrokeHashesAreBoundToTheFrozenCommit": true,
+    "frozenSourceLessons": [
+      {
+        "kanji": "米",
+        "sourceOrderPosition": 261,
+        "baselineStatus": "pending",
+        "lessonPath": "kanji/米.md",
+        "lessonGitBlob": "04f72bcdc5ddbc6d7d5ecdf9fd8c4ba0b23058d9",
+        "lessonRawSha256": "1b8de7a9743c1cedb9f1e601acc5b477cd2a735a46a33b0fb6af26fe1a853265",
+        "lessonBytes": 1764,
+        "lessonWorkingCopyRawSha256": "1b8de7a9743c1cedb9f1e601acc5b477cd2a735a46a33b0fb6af26fe1a853265",
+        "lessonWorkingCopyByteIdenticalToGitBlob": true,
+        "strokePath": "strokes/米.json",
+        "strokeGitBlob": "e760b45e001b369431366ba1f2dae013af35012e",
+        "strokeRawSha256": "68858d43da9c5dafe8bd0fa995fa108ebadb01d0175a9922c4895f7fbbd30b40",
+        "strokeBytes": 1559,
+        "strokeWorkingCopyRawSha256": "68858d43da9c5dafe8bd0fa995fa108ebadb01d0175a9922c4895f7fbbd30b40",
+        "strokeWorkingCopyByteIdenticalToGitBlob": true,
+        "radicalSymbol": "米",
+        "radicalNumber": 119,
+        "strokes": 6,
+        "onyomi": [
+          "ベイ",
+          "マイ",
+          "メエトル"
+        ],
+        "kunyomi": [
+          "こめ",
+          "よね"
+        ],
+        "distractors": [
+          "来",
+          "木",
+          "金"
+        ]
+      },
+      {
+        "kanji": "経",
+        "sourceOrderPosition": 265,
+        "baselineStatus": "pending",
+        "lessonPath": "kanji/経.md",
+        "lessonGitBlob": "de1b596c6e656c362e6da8bf1592d4dd256c2687",
+        "lessonRawSha256": "814bdeab45e4646fa637edc3ae39c5d664fe0d2879cb89e2c9ec4bdc65cf39db",
+        "lessonBytes": 2017,
+        "lessonWorkingCopyRawSha256": "814bdeab45e4646fa637edc3ae39c5d664fe0d2879cb89e2c9ec4bdc65cf39db",
+        "lessonWorkingCopyByteIdenticalToGitBlob": true,
+        "strokePath": "strokes/経.json",
+        "strokeGitBlob": "6c428cb90dbc4a0e4d858f61199bd489c1360df5",
+        "strokeRawSha256": "850b384c4f001c487a6138667c56a0f596528e3862a4077b1c90e1ab4d6019d6",
+        "strokeBytes": 2688,
+        "strokeWorkingCopyRawSha256": "850b384c4f001c487a6138667c56a0f596528e3862a4077b1c90e1ab4d6019d6",
+        "strokeWorkingCopyByteIdenticalToGitBlob": true,
+        "radicalSymbol": "糸",
+        "radicalNumber": 120,
+        "strokes": 11,
+        "onyomi": [
+          "ケイ",
+          "キョウ",
+          "キン"
+        ],
+        "kunyomi": [
+          "へ.る",
+          "た.つ",
+          "たていと",
+          "はか.る",
+          "のり"
+        ],
+        "distractors": [
+          "組",
+          "紙",
+          "約"
+        ]
+      },
+      {
+        "kanji": "給",
+        "sourceOrderPosition": 266,
+        "baselineStatus": "pending",
+        "lessonPath": "kanji/給.md",
+        "lessonGitBlob": "6e163627737a9b1c745aa82ca0c0fc69788853bc",
+        "lessonRawSha256": "7a6b550a31bfe17fa24cbadbcd4757981daa3a26a44ae80582aecf98b84099c1",
+        "lessonBytes": 1511,
+        "lessonWorkingCopyRawSha256": "7a6b550a31bfe17fa24cbadbcd4757981daa3a26a44ae80582aecf98b84099c1",
+        "lessonWorkingCopyByteIdenticalToGitBlob": true,
+        "strokePath": "strokes/給.json",
+        "strokeGitBlob": "09be6a4ca9bb85888e7bc31e42f951a4e83a16f0",
+        "strokeRawSha256": "61ce3dcbda1178ec24cab9abb51928d55632ca64d0861dd6d9687401c22e8655",
+        "strokeBytes": 2915,
+        "strokeWorkingCopyRawSha256": "61ce3dcbda1178ec24cab9abb51928d55632ca64d0861dd6d9687401c22e8655",
+        "strokeWorkingCopyByteIdenticalToGitBlob": true,
+        "radicalSymbol": "糸",
+        "radicalNumber": 120,
+        "strokes": 12,
+        "onyomi": [
+          "キュウ"
+        ],
+        "kunyomi": [
+          "たま.う",
+          "たも.う",
+          "-たま.え"
+        ],
+        "distractors": [
+          "絵",
+          "紙",
+          "終"
+        ]
+      },
+      {
+        "kanji": "絵",
+        "sourceOrderPosition": 267,
+        "baselineStatus": "pending",
+        "lessonPath": "kanji/絵.md",
+        "lessonGitBlob": "fe7737821a2c6689708be7e7e101b868dc79b9ac",
+        "lessonRawSha256": "02a6d13289907c8383b176c0dce3efdf349e65f9097d454c3b95b0e52ebca5b2",
+        "lessonBytes": 1386,
+        "lessonWorkingCopyRawSha256": "02a6d13289907c8383b176c0dce3efdf349e65f9097d454c3b95b0e52ebca5b2",
+        "lessonWorkingCopyByteIdenticalToGitBlob": true,
+        "strokePath": "strokes/絵.json",
+        "strokeGitBlob": "218f3d0fb507e0add58de24a059cfb4bf2620844",
+        "strokeRawSha256": "52c1f72bb2fe619cb9a8457d1b1fde427396170f3dd019eaab35ff0dbe7064f2",
+        "strokeBytes": 2913,
+        "strokeWorkingCopyRawSha256": "52c1f72bb2fe619cb9a8457d1b1fde427396170f3dd019eaab35ff0dbe7064f2",
+        "strokeWorkingCopyByteIdenticalToGitBlob": true,
+        "radicalSymbol": "糸",
+        "radicalNumber": 120,
+        "strokes": 12,
+        "onyomi": [
+          "カイ",
+          "エ"
+        ],
+        "kunyomi": [
+          ""
+        ],
+        "distractors": [
+          "給",
+          "紙",
+          "終"
+        ]
+      },
+      {
+        "kanji": "絶",
+        "sourceOrderPosition": 268,
+        "baselineStatus": "pending",
+        "lessonPath": "kanji/絶.md",
+        "lessonGitBlob": "22ff9aed7913884b5f07046939bd97d73dc41a0b",
+        "lessonRawSha256": "9cededeca81e2a1e5cfabd4f312a676cef38dc76761f3d03e099e1d2c0d13d28",
+        "lessonBytes": 1448,
+        "lessonWorkingCopyRawSha256": "9cededeca81e2a1e5cfabd4f312a676cef38dc76761f3d03e099e1d2c0d13d28",
+        "lessonWorkingCopyByteIdenticalToGitBlob": true,
+        "strokePath": "strokes/絶.json",
+        "strokeGitBlob": "8b1e740f43d7be56d4d1a2e3a09d7adfbf1aa0ef",
+        "strokeRawSha256": "d7158d90db77c0e3da9b0ff9a3d47d18113a1c705c8d4c0c74bd8c1196dd769f",
+        "strokeBytes": 2916,
+        "strokeWorkingCopyRawSha256": "d7158d90db77c0e3da9b0ff9a3d47d18113a1c705c8d4c0c74bd8c1196dd769f",
+        "strokeWorkingCopyByteIdenticalToGitBlob": true,
+        "radicalSymbol": "糸",
+        "radicalNumber": 120,
+        "strokes": 12,
+        "onyomi": [
+          "ゼツ"
+        ],
+        "kunyomi": [
+          "た.える",
+          "た.やす",
+          "た.つ"
+        ],
+        "distractors": [
+          "絵",
+          "紙",
+          "給"
+        ]
+      },
+      {
+        "kanji": "続",
+        "sourceOrderPosition": 269,
+        "baselineStatus": "pending",
+        "lessonPath": "kanji/続.md",
+        "lessonGitBlob": "6408d47de316182ac00fa3ab392dc36796dd856d",
+        "lessonRawSha256": "d6a4ec6945a7d5710893bc0e2c9ec3bde3a066c5849610a05e848e437bb82499",
+        "lessonBytes": 1678,
+        "lessonWorkingCopyRawSha256": "d6a4ec6945a7d5710893bc0e2c9ec3bde3a066c5849610a05e848e437bb82499",
+        "lessonWorkingCopyByteIdenticalToGitBlob": true,
+        "strokePath": "strokes/続.json",
+        "strokeGitBlob": "89594dec0828640c42ce184f6d5a7375430ad5bf",
+        "strokeRawSha256": "3cf286b3f1e6edb0ed3c79d5e836d861948cc768921ed72b59f58fae718977d4",
+        "strokeBytes": 3141,
+        "strokeWorkingCopyRawSha256": "3cf286b3f1e6edb0ed3c79d5e836d861948cc768921ed72b59f58fae718977d4",
+        "strokeWorkingCopyByteIdenticalToGitBlob": true,
+        "radicalSymbol": "糸",
+        "radicalNumber": 120,
+        "strokes": 13,
+        "onyomi": [
+          "ゾク",
+          "ショク",
+          "コウ",
+          "キョウ"
+        ],
+        "kunyomi": [
+          "つづ.く",
+          "つづ.ける",
+          "つぐ.ない"
+        ],
+        "distractors": [
+          "読",
+          "売",
+          "終"
+        ]
+      }
+    ],
+    "officialKanjidic2Capture": {
+      "privateArtifact": "ru-138-kanjidic2-primary-capture-001.json",
+      "rawBytes": 24327,
+      "rawSha256": "29f8654e30ccf18efaa774d440009acd9da617af31d3334f60cded6d96eb4c2a",
+      "sourceUrl": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz",
+      "retrievedAt": "2026-11-10T15:30:52+00:00",
+      "databaseVersion": "2026-314",
+      "recordsRead": [
+        "米",
+        "経",
+        "給",
+        "絵",
+        "絶",
+        "続"
+      ],
+      "archiveSha256": "624edb951655f2195d98c43702d534099fac9fcade6011d5af9e2ae1ef719dcf",
+      "frozenSnapshotArchiveSha256": "5fc25740c21180e0c2983d3ed546a8009d7891d9dceb4714cd36dd528be2bb58",
+      "exactFrozenSnapshotMatch": false
+    },
+    "officialJmdictCapture": {
+      "privateArtifact": "ru-138-jmdict-primary-capture-001.json",
+      "rawBytes": 38879,
+      "rawSha256": "1c89cd9020e2bae03d93972d6f81114cdc2abef83cd1ff20ea61b4fb01404d9a",
+      "sourceUrl": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+      "retrievedAt": "2026-11-10T15:31:40+00:00",
+      "recordsRead": [
+        "1132570",
+        "1202270",
+        "1202300",
+        "1202380",
+        "1230250",
+        "1230360",
+        "1251110",
+        "1251270",
+        "1251320",
+        "1255560",
+        "1270590",
+        "1321900",
+        "1386710",
+        "1386840",
+        "1405790",
+        "1405800",
+        "1475370",
+        "1508750",
+        "1508900",
+        "1559610",
+        "1597030",
+        "2150610",
+        "2518450",
+        "2848538"
+      ],
+      "archiveSha256": "8e511b59c1efb57d7dc90f58f386058035ca662cb4a23d5693b5e185190c5ede",
+      "frozenSnapshotArchiveSha256": "3d5fc0a0f768df4d044744732348f09a47db97a6286c2de1d565e5766212a1ea",
+      "exactFrozenSnapshotMatch": false,
+      "interpretationBoundary": "Forms, readings, senses, restrictions, and notes are recorded as source evidence; they do not prove frequency, quiz safety, every reading, or universal naturalness."
+    },
+    "frozenN3WordSourceIndexRows": [
+      {
+        "word": "米",
+        "reading": "こめ",
+        "article_status": "new",
+        "matching_jmdict_entry_ids": "1508750",
+        "selected_teaching_senses": "1508750:1",
+        "primary_for_kanji": "米"
+      },
+      {
+        "word": "経済",
+        "reading": "けいざい",
+        "article_status": "new",
+        "matching_jmdict_entry_ids": "1251320",
+        "selected_teaching_senses": "1251320:1",
+        "primary_for_kanji": "済経"
+      },
+      {
+        "word": "給料",
+        "reading": "きゅうりょう",
+        "article_status": "new",
+        "matching_jmdict_entry_ids": "1230360",
+        "selected_teaching_senses": "1230360:1",
+        "primary_for_kanji": "給"
+      },
+      {
+        "word": "絵",
+        "reading": "え",
+        "article_status": "new",
+        "matching_jmdict_entry_ids": "1202270",
+        "selected_teaching_senses": "1202270:1",
+        "primary_for_kanji": "絵"
+      },
+      {
+        "word": "絶対",
+        "reading": "ぜったい",
+        "article_status": "new",
+        "matching_jmdict_entry_ids": "1386840",
+        "selected_teaching_senses": "1386840:1",
+        "primary_for_kanji": "絶"
+      },
+      {
+        "word": "続ける",
+        "reading": "つづける",
+        "article_status": "new",
+        "matching_jmdict_entry_ids": "1405800",
+        "selected_teaching_senses": "1405800:1",
+        "primary_for_kanji": "続"
+      }
+    ]
+  },
+  "nonGoals": {
+    "quizNegativeFallbackSafety": "UNVERIFIED for all 18 direct directions; no quiz/grading changes or approval.",
+    "sourceCaptureIdentity": "Current official KANJIDIC2/JMdict captures differ from the frozen source snapshot archives; records are not presented as byte-identical frozen-snapshot captures.",
+    "fullTranslationComplete": false,
+    "runtimeDeviceMediaReleaseOrActivationApproval": false,
+    "checkpointAuthority": null,
+    "checkpointReady": false
+  }
+}
