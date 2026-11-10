@@ -28,18 +28,28 @@ four protected refs remained unchanged, and issue #3 progress was updated.
 This is qualified source-content progress only, not grading, runtime, device,
 media, release, ordinary-activation, checkpoint, or full-translation approval.
 
-## Next pre-mutation batch: batch136 mutual certainty, show, department, extent and kind
+## Current qualified source candidate: batch136 mutual certainty, show, department, extent and kind
 
-The next six pending kanji in the frozen N3 source order are 相/確/示/科/程/種.
+The next six pending kanji in the frozen N3 source order, 相/確/示/科/程/種,
+have been authored as complete Russian lessons with six byte-identical frozen
+stroke assets. Five existing word pages received only the preauthorized NAV
+wrappers; optional links to six absent word-card targets and one absent article
+cross-reference were omitted while their substantive teaching content was
+preserved.
+
 The [batch136 intake](translation-batches/136-mutual-certainty-show-department-extent-kind-kanji-intake.json),
 [source adjudication and semantic freeze](translation-batches/136-mutual-certainty-show-department-extent-kind-kanji-source-adjudication-and-semantic-freeze-001.json),
 and [pre-mutation navigation amendment](translation-batches/136-mutual-certainty-show-department-extent-kind-kanji-pre-mutation-navigation-amendment-001.json)
-record the dependency closure, exact source captures, five word-page wrappers,
-and optional unavailable-reference omissions. The freeze is signed before any
-learner-content mutation; no runtime candidate has been authored yet. All 18
-ordinary negative/fallback directions remain **UNVERIFIED**. Continue authoring,
-review, acceptance and normal publication for batch136 and every remaining safe
-frozen family.
+were committed and pushed before learner-content mutation in signed commit
+`8aa5f8d5a98d10af7992a6a5517ae186f26aa85a`. The candidate manifest version is
+`eb19ed1b55ef40a2`; structural validation passed. Independent review and source
+acceptance are pending. Published progress therefore remains at **2,516
+reviewed-current / 2 excluded reviewed runtime-blocked / 5,760 pending of
+8,278**, with 1,478 words / 504 kanji / 504 strokes. All 18 ordinary
+negative/fallback directions remain **UNVERIFIED**. No grading, runtime,
+device, media, release, ordinary-activation, checkpoint, or completion approval
+is implied. Continue review, qualified acceptance, normal publication, and every
+remaining safe frozen family.
 
 ## Previous published source milestone: batch134 smoke, cat, birth, stay and turn kanji
 
