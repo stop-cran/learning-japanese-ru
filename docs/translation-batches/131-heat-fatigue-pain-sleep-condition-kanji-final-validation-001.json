@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "batchId": "131-heat-fatigue-pain-sleep-condition-kanji",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "candidateCommit": "38613291c47b70d434ef23c8ff1cf2c81a9ab0a0",
+  "candidateTree": "696465b9a036ca07069bdc085d5dc6bbd5338058",
+  "contentVersion": "d8a791473ae509d9",
+  "execution": {
+    "order": "Serial, after candidate, tracking, progress and implementation-plan updates; rerun after compact tracking-format reconciliation.",
+    "environment": "Python UTF-8 output enabled; bytecode writing disabled with -B. No runtime source, media, or device authority is implied."
+  },
+  "commands": [
+    {
+      "name": "manifest",
+      "command": "python -B tools/build_manifest.py",
+      "exitCode": 0,
+      "stdout": "manifest.json: 2484 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version d8a791473ae509d9",
+      "stderrBytes": 0
+    },
+    {
+      "name": "validator",
+      "command": "python -B tools/validate.py",
+      "exitCode": 0,
+      "stdout": "0 error(s)",
+      "stderrBytes": 0
+    },
+    {
+      "name": "unit-tests",
+      "command": "python -B -m unittest discover -s tools -p test_*.py",
+      "exitCode": 0,
+      "result": "124 tests passed",
+      "duration": "32.555s",
+      "stderrBytes": 230
+    },
+    {
+      "name": "content-budget",
+      "command": "python -B tools/check_content_budget.py",
+      "exitCode": 0,
+      "result": {
+        "files": 2492,
+        "entries": 2501,
+        "retainedBytes": 6901595,
+        "inflatedBytes": 6919810,
+        "localZipBytes": 3476682,
+        "listeningTaskMediaBytes": 0
+      }
+    }
+  ],
+  "privateConsoleReceipt": {
+    "artifact": "ru-131-final-validation-console-002.json",
+    "rawSha256": "a68f2a24320028cc13537d0c28a8ab15eef95f43a68fcbc7f50ebf6e93ba4cea",
+    "details": {
+      "manifestStdout": {"bytes": 150, "sha256": "c11a4c718a5a237eab25c617f8b1c5926f9019b975783f8876a37eb6fddc7b9f"},
+      "validatorStdout": {"bytes": 12, "sha256": "c87d0897e6616b01474906213df2ff35e9e0eeb5e6e86eaa0367145b271abcc5"},
+      "testsStderr": {"bytes": 230, "sha256": "2e324a35ff93379c72e9ccc99a0185ba886d5d4cce64589a6da2d4e8e0c2d8ac"},
+      "budgetStdout": {"bytes": 142, "sha256": "d0cb362d8298195f1b520e656fa106fa6ad94f32750f118b3232aec0e136a252"}
+    }
+  },
+  "qualification": "These checks validate repository structure, tests and packaging budget only; they do not resolve any of the 30 ordinary quiz directions or expand the independent review's C1/C2/C3 scope."
+}

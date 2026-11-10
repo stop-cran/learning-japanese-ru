@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "batchId": "131-heat-fatigue-pain-sleep-condition-kanji",
+  "reviewer": {
+    "mode": "independent-read-only",
+    "executionId": null,
+    "executionIdUnavailable": true,
+    "separateRawStdoutAvailable": false
+  },
+  "snapshot": {
+    "preCandidateCommit": "043bc0c704cc92e19d65426f84e27e454e788ccd",
+    "candidateCommit": "38613291c47b70d434ef23c8ff1cf2c81a9ab0a0",
+    "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "runtimeTree": "696465b9a036ca07069bdc085d5dc6bbd5338058"
+  },
+  "report": {
+    "path": "docs/translation-batches/131-heat-fatigue-pain-sleep-condition-kanji-independent-review-001.md",
+    "utf8Bytes": 5740,
+    "rawSha256": "6138fb48bba1dddaf955013b9b72392dc7b8b092399a4ac3aff1ccbb2e773916",
+    "captureDomain": "The independent-review tool returned the final report body; no separate raw stdout stream or agent execution ID was exposed. This public projection preserves the returned report text."
+  },
+  "qualifiedVerdicts": {
+    "C1": "UNVERIFIED overall. Frozen Japanese metadata and examples were checked for source fidelity. Primary capture confirms five KANJIDIC2 records and 15 JMdict entries; confirmation is partial for the other five characters and claims outside the supplied capture. No Japanese-content defect was substantiated.",
+    "C2": "UNVERIFIED overall for ordinary negative/fallback quiz safety. Scope, changed links, target existence and direct distractor ID existence were checked; all 30 direct directions remain UNVERIFIED. No grading guard is approved.",
+    "C3": "UNVERIFIED. No specific comprehension defect was substantiated in the full lesson bodies read. This is not native-speaker certification or a learning-outcome claim."
+  },
+  "supportedFindings": [],
+  "unresolved": {
+    "ordinaryQuizDirections": [
+      "熱→点", "熱→黒", "熱→然",
+      "疲→痛", "疲→病", "疲→破",
+      "痛→通", "痛→用", "痛→同",
+      "眠→目", "眠→銀", "眠→服",
+      "状→犬", "状→大", "状→犯",
+      "点→店", "点→黒", "点→熱",
+      "然→熱", "然→点", "然→犬",
+      "破→疲", "破→研", "破→石",
+      "犯→犬", "犯→状", "犯→兄",
+      "石→右", "石→口", "石→古"
+    ],
+    "otherLimits": [
+      "Five kanji lacked a record in the supplied KANJIDIC2 capture.",
+      "JMdict capture does not cover cited claims for 熱, 疲, 痛, 眠 or 状.",
+      "Five source-linked RU word pages are absent; their visible Japanese terms remain unlinked."
+    ],
+    "gradingGuardAdded": false,
+    "metadataRetentionIsNotGradingApproval": true,
+    "appDeviceMediaReleaseReview": false
+  },
+  "exactReadCoverage": {
+    "completeRussianLessons": [
+      "kanji/熱.md", "kanji/疲.md", "kanji/痛.md", "kanji/眠.md", "kanji/状.md",
+      "kanji/点.md", "kanji/然.md", "kanji/破.md", "kanji/犯.md", "kanji/石.md"
+    ],
+    "completeFrozenSourceLessons": [
+      "kanji/熱.md", "kanji/疲.md", "kanji/痛.md", "kanji/眠.md", "kanji/状.md",
+      "kanji/点.md", "kanji/然.md", "kanji/破.md", "kanji/犯.md", "kanji/石.md"
+    ],
+    "wordPagesChangedHunksAndContext": [
+      "words/交差点.md", "words/全然.md", "words/句読点.md", "words/点.md", "words/然る.md",
+      "words/熱.md", "words/熱い.md", "words/疲れる.md", "words/症状.md", "words/痛い.md",
+      "words/眠い.md", "words/眠る.md", "words/石.md"
+    ],
+    "primaryCaptures": [
+      "ru-131-dependency-kanjidic2-capture-001.json",
+      "ru-131-dependency-jmdict-capture-001.json"
+    ],
+    "additionalReadAreas": [
+      "All specified reviewer instructions and source/evidence, content-structure, translation-methodology and content-format guidance."
+    ],
+    "capturedFacts": {
+      "exampleSentencesCompared": 11,
+      "kanjidic2CompleteRecordsRead": 5,
+      "jmdictCompleteEntriesRead": 15,
+      "strokeAssetsComparedByFrozenGitBlob": 10,
+      "relativeMarkdownLinksResolved": 46,
+      "directDistractorIdsExist": 30
+    }
+  },
+  "authority": {
+    "sourceProgressOnly": true,
+    "runtimeAcceptance": false,
+    "fullTranslationCompletion": false
+  }
+}
