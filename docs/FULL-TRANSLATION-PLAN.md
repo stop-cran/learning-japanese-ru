@@ -1,6 +1,6 @@
 # Full Russian translation: execution after the two pilots
 
-## Latest published source milestone: batch135 doubt, climb, everyone, steal and straight kanji
+## Previous published source milestone: batch135 doubt, climb, everyone, steal and straight kanji
 
 Batch135 adds complete Russian lessons and byte-identical frozen-source stroke
 assets for 疑/登/皆/盗/直, plus six preauthorized NAV-only wrappers on existing
@@ -28,7 +28,7 @@ four protected refs remained unchanged, and issue #3 progress was updated.
 This is qualified source-content progress only, not grading, runtime, device,
 media, release, ordinary-activation, checkpoint, or full-translation approval.
 
-## Qualified source acceptance awaiting publication: batch136 mutual certainty, show, department, extent and kind
+## Latest published source milestone: batch136 mutual certainty, show, department, extent and kind
 
 The next six pending kanji in the frozen N3 source order, 相/確/示/科/程/種,
 have been authored as complete Russian lessons with six byte-identical frozen
@@ -53,11 +53,38 @@ record](translation-batches/136-mutual-certainty-show-department-extent-kind-kan
 and [final validation](translation-batches/136-mutual-certainty-show-department-extent-kind-kanji-final-validation-001.json)
 record 2,528 reviewed-current / 2 excluded reviewed runtime-blocked / 5,748
 pending of 8,278, with 1,478 words / 510 kanji / 510 strokes; content version
-is `c7cdeb30962724ec`. Publication and integration are still pending, so main
-remains at batch 135. All 18 ordinary negative/fallback directions remain
-**UNVERIFIED**. No grading, runtime, device, media, release, ordinary-activation,
-checkpoint, or completion approval is implied. Continue normal publication and
-every remaining safe frozen family.
+is `c7cdeb30962724ec`. PR [#22](https://github.com/stop-cran/learning-japanese-ru/pull/22)
+merged at main `a9ba83522d20b23fd6d76bd5300b37b9a2fc9494`; exact-main CI run
+[#42869365222](https://github.com/stop-cran/learning-japanese-ru/actions/runs/42869365222)
+passed. Public commit/main ZIP and tar.gz exports matched the exact Git archive
+path-by-path and byte-for-byte, all four protected pilot/integration refs
+remained unchanged, and [issue #3 progress](https://github.com/stop-cran/learning-japanese-ru/issues/3#issuecomment-6774953297)
+was updated. See the [publication verification](translation-batches/136-mutual-certainty-show-department-extent-kind-kanji-publication-verification-001.json).
+All 18 ordinary negative/fallback directions remain **UNVERIFIED**. No grading,
+runtime, device, media, release, ordinary-activation, checkpoint, or completion
+approval is implied.
+
+## Next frozen source batch: batch137 accumulation, suddenness, window, laughter, equality, box and refinement
+
+From published main `a9ba83522d20b23fd6d76bd5300b37b9a2fc9494`, the first six
+pending kanji in the frozen N3 order are 積/突/窓/笑/等/箱 (positions 255–260).
+The direct dependency closure adds 精 (position 262) because it is a direct
+distractor of 積. 米 (position 261) remains pending and is not required by this
+closure. The seven-character pre-mutation packet records all 21 direct
+directions, primary-source captures, exact source/stroke hashes, current
+dependency statuses and four authorized word-page NAV wrappers.
+
+The [batch137 intake](translation-batches/137-accumulation-sudden-window-laughter-equality-box-refinement-kanji-intake.json),
+[semantic freeze](translation-batches/137-accumulation-sudden-window-laughter-equality-box-refinement-kanji-source-adjudication-and-semantic-freeze-001.json),
+and [navigation amendment](translation-batches/137-accumulation-sudden-window-laughter-equality-box-refinement-kanji-pre-mutation-navigation-amendment-001.json)
+are committed in the current signed source-only change before any runtime edit.
+Batch137 is not authored, reviewed or accepted yet. All 21 ordinary
+negative/fallback directions remain **UNVERIFIED**; no grading approval is
+implied. Continue only within the frozen source, preserve complete Russian
+teaching content and Japanese facts, and continue the remaining finite scope.
+No checkpoint, media, device, release or ordinary-activation approval is
+implied. Preserve the excluded
+`docs/translation-drafts/033-nature-outdoor-activity/words/空.md` draft.
 
 ## Previous published source milestone: batch134 smoke, cat, birth, stay and turn kanji
 

@@ -1,0 +1,352 @@
+{
+  "schemaVersion": 1,
+  "batchId": "137-accumulation-sudden-window-laughter-equality-box-refinement-kanji",
+  "recordedAt": "2026-11-10T18:06:47+00:00",
+  "status": "pre-mutation intake; learner-facing runtime content has not been edited",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "a9ba83522d20b23fd6d76bd5300b37b9a2fc9494",
+  "selection": {
+    "sourceSnapshotPath": "docs/n3-source-snapshot.json",
+    "sourceSnapshotRepository": "stop-cran/learning-japanese at frozen source commit",
+    "sourceSnapshotGitBlob": "b18b0a72779488538324a0b48c82e2684ea89d71",
+    "sourceSnapshotRawSha256": "4ffdacad14efcdee13e504a36f5705bc2226ea763bf46a00369c1bf6040b28e8",
+    "communityListRetrieved": "2026-10-09",
+    "dictionarySnapshotDate": "2026-10-08",
+    "frozenCommunityListCount": 367,
+    "rule": "Take the first six pending kanji in the immutable frozen jlptN3.characters order after accepted batch 136, then add only pending direct dependency targets.",
+    "firstSixPending": [
+      "積",
+      "突",
+      "窓",
+      "笑",
+      "等",
+      "箱"
+    ],
+    "sourceOrderPositions": [
+      {
+        "kanji": "積",
+        "oneBasedPosition": 255,
+        "zeroBasedIndex": 254,
+        "baselineStatus": "pending"
+      },
+      {
+        "kanji": "突",
+        "oneBasedPosition": 256,
+        "zeroBasedIndex": 255,
+        "baselineStatus": "pending"
+      },
+      {
+        "kanji": "窓",
+        "oneBasedPosition": 257,
+        "zeroBasedIndex": 256,
+        "baselineStatus": "pending"
+      },
+      {
+        "kanji": "笑",
+        "oneBasedPosition": 258,
+        "zeroBasedIndex": 257,
+        "baselineStatus": "pending"
+      },
+      {
+        "kanji": "等",
+        "oneBasedPosition": 259,
+        "zeroBasedIndex": 258,
+        "baselineStatus": "pending"
+      },
+      {
+        "kanji": "箱",
+        "oneBasedPosition": 260,
+        "zeroBasedIndex": 259,
+        "baselineStatus": "pending"
+      },
+      {
+        "kanji": "米",
+        "oneBasedPosition": 261,
+        "zeroBasedIndex": 260,
+        "baselineStatus": "pending",
+        "selectionNote": "Outside the first-six selection and not required by the selected direct dependency closure."
+      },
+      {
+        "kanji": "精",
+        "oneBasedPosition": 262,
+        "zeroBasedIndex": 261,
+        "baselineStatus": "pending",
+        "selectionNote": "Included only because 積 lists 精 as a direct distractor."
+      }
+    ],
+    "selectedKanji": [
+      "積",
+      "突",
+      "窓",
+      "笑",
+      "等",
+      "箱",
+      "精"
+    ],
+    "dependencyClosure": {
+      "directDirections": [
+        "積→種",
+        "積→精",
+        "積→秋",
+        "突→究",
+        "突→空",
+        "突→窓",
+        "窓→突",
+        "窓→究",
+        "窓→空",
+        "笑→等",
+        "笑→箱",
+        "笑→答",
+        "等→待",
+        "等→笑",
+        "等→箱",
+        "箱→笑",
+        "箱→等",
+        "箱→答",
+        "精→料",
+        "精→青",
+        "精→積"
+      ],
+      "firstSixSelectedPendingTargets": [
+        "窓",
+        "突",
+        "等",
+        "箱",
+        "笑"
+      ],
+      "additionalPendingTargetAddedByClosure": [
+        "精"
+      ],
+      "reviewedCurrentDirectTargets": [
+        "種",
+        "秋",
+        "究",
+        "空",
+        "答",
+        "待",
+        "料",
+        "青"
+      ],
+      "closureRule": "Direct lesson dependencies only; no transitive quiz exclusions or grading conclusions are inferred."
+    }
+  },
+  "currentAcceptedProgress": {
+    "baselineProgressRecord": "docs/translation-progress.json",
+    "baselineTrackingRecord": "docs/translation-tracking.json",
+    "reviewedCurrent": 2528,
+    "excludedReviewedRuntimeBlocked": 2,
+    "pending": 5748,
+    "total": 8278,
+    "words": 1478,
+    "kanji": 510,
+    "strokes": 510,
+    "contentVersion": "c7cdeb30962724ec",
+    "checkpointAuthority": null,
+    "checkpointReady": false
+  },
+  "scope": {
+    "newKanjiLessons": [
+      "kanji/積.md",
+      "kanji/突.md",
+      "kanji/窓.md",
+      "kanji/笑.md",
+      "kanji/等.md",
+      "kanji/箱.md",
+      "kanji/精.md"
+    ],
+    "byteIdenticalFrozenStrokeAssets": [
+      "strokes/積.json",
+      "strokes/突.json",
+      "strokes/窓.json",
+      "strokes/笑.json",
+      "strokes/等.json",
+      "strokes/箱.json",
+      "strokes/精.json"
+    ],
+    "preauthorizedNavigationOnlyPaths": [
+      "words/窓.md",
+      "words/笑う.md",
+      "words/箱.md",
+      "words/精神.md"
+    ],
+    "unavailableOptionalWordTargets": [
+      "words/積む.md",
+      "words/突然.md",
+      "words/平等.md"
+    ],
+    "wordPagesAdded": 0,
+    "quizOrGradingChanges": 0,
+    "otherRuntimePathsAuthorized": 0
+  },
+  "sourceEvidence": {
+    "lessonAndStrokeHashesAreBoundToTheFrozenCommit": true,
+    "officialKanjidic2Capture": {
+      "privateArtifact": "ru-137-kanjidic2-primary-capture-001.json",
+      "rawBytes": 22819,
+      "rawSha256": "f30aeb9aaaf1ea88990a28fd85f3403c430ad901eb3676f0dcf0e37969baf39e",
+      "sourceUrl": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz",
+      "retrievedAt": "2026-11-10T15:30:52+00:00",
+      "databaseVersion": "2026-314",
+      "recordsRead": [
+        "積",
+        "突",
+        "窓",
+        "笑",
+        "等",
+        "箱",
+        "精"
+      ],
+      "archiveSha256": "624edb951655f2195d98c43702d534099fac9fcade6011d5af9e2ae1ef719dcf",
+      "frozenSnapshotArchiveSha256": "5fc25740c21180e0c2983d3ed546a8009d7891d9dceb4714cd36dd528be2bb58",
+      "exactFrozenSnapshotMatch": false
+    },
+    "officialJmdictCapture": {
+      "privateArtifact": "ru-137-jmdict-primary-capture-001.json",
+      "rawBytes": 19496,
+      "rawSha256": "1a37079be1a56d5bfd51d5996fb568661ff2034cbcc6f82003dd718836b54b39",
+      "sourceUrl": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+      "retrievedAt": "2026-11-10T15:31:40+00:00",
+      "entryIdsRead": [
+        "1165220",
+        "1202450",
+        "1351360",
+        "1351400",
+        "1351560",
+        "1379950",
+        "1380180",
+        "1380210",
+        "1382970",
+        "1382990",
+        "1401400",
+        "1401420",
+        "1449330",
+        "1456890",
+        "1457040",
+        "1475850",
+        "1483090",
+        "1507670",
+        "1508590",
+        "1523140",
+        "1533500",
+        "1582300",
+        "1585650"
+      ],
+      "archiveSha256": "8e511b59c1efb57d7dc90f58f386058035ca662cb4a23d5693b5e185190c5ede",
+      "frozenSnapshotArchiveSha256": "3d5fc0a0f768df4d044744732348f09a47db97a6286c2de1d565e5766212a1ea",
+      "exactFrozenSnapshotMatch": false,
+      "interpretationBoundary": "Captured forms, readings, senses, and restrictions are evidence for the cited entries only; they do not prove frequency, quiz safety, every reading, or universal naturalness."
+    },
+    "frozenSourceLessons": [
+      {
+        "kanji": "積",
+        "lessonBlob": "7e6bf35ad91c33eb55c5313681494d20d03a23ee",
+        "lessonRawSha256": "37517acf9b09da916570398156ad640cb718759202474fd65ec88daa6f3b80f0",
+        "lessonBytes": 1709,
+        "strokeBlob": "e5d878563e0aaef47150645637ef39ead373653f",
+        "strokeRawSha256": "7e6d062f53976552ad56617e70b4d0762fd15249dd7e7a8c147a1ac0f24865f2",
+        "strokeBytes": 3825
+      },
+      {
+        "kanji": "突",
+        "lessonBlob": "a874caa85ff3346ce344e103bc4eece8707344cd",
+        "lessonRawSha256": "697c9c111237347f33b2b2305d1accb788e6a68a71f225dc2913db065c050e32",
+        "lessonBytes": 1672,
+        "strokeBlob": "0ac8bbbbfb8a379dda65572e7db1558109880315",
+        "strokeRawSha256": "1b23b87890088f6956cb4e4d231d9ec8b97e4daf313d2db02e8df70a06a00167",
+        "strokeBytes": 2016
+      },
+      {
+        "kanji": "窓",
+        "lessonBlob": "759449ecfad8660270d87c0092cb554279051e67",
+        "lessonRawSha256": "841d04ec7a1c1c2eec07db47015b6c3672022de5ae26fc9eefd42150eb80a885",
+        "lessonBytes": 1662,
+        "strokeBlob": "3d6816760e852b564bab4793bd280101d160ab03",
+        "strokeRawSha256": "b902cabe8d44b505622110ac44fbdda7ddcae1b771c173891a797ead5a983261",
+        "strokeBytes": 2695
+      },
+      {
+        "kanji": "笑",
+        "lessonBlob": "a53784cdaec48a0e3ef3fd878f30e663af41d970",
+        "lessonRawSha256": "fe93371be76639c519bd38f37ae1c9e97b617cd648eb5208661f66840e4339c6",
+        "lessonBytes": 1728,
+        "strokeBlob": "cde305b1dc3cc9989b9729ce0261989ceb1bb2d5",
+        "strokeRawSha256": "9ccea70657249471f0db972f809b70a5d0dcd2a4061405d23c7770e9521a99c9",
+        "strokeBytes": 2471
+      },
+      {
+        "kanji": "等",
+        "lessonBlob": "1cb76832c22566f7cc7d6b3d5f8dedfd78c6f793",
+        "lessonRawSha256": "de157e4883d154c53502d135fa350597d60f1725addf3f6971ba04ea510be782",
+        "lessonBytes": 1924,
+        "strokeBlob": "f3b1229e5b4e493eef342ccf7043d973bfca35a2",
+        "strokeRawSha256": "d1c04ccb9739a292b742b6e091522a896305b44fdd57f40b243cdac393ab19e2",
+        "strokeBytes": 2924
+      },
+      {
+        "kanji": "箱",
+        "lessonBlob": "d3c9be3d2f9dede2df008b96268116ee417b8c71",
+        "lessonRawSha256": "0613480a249c4d9d63841151061985ea312633ccfb168741103debc489ce80c3",
+        "lessonBytes": 1535,
+        "strokeBlob": "89ff63ae32296157aa71c867d414fa429bd8238b",
+        "strokeRawSha256": "9f52652fffa077ac70d6df80879a281ace2f0c5f604072c4de67fa55d33eabb6",
+        "strokeBytes": 3605
+      },
+      {
+        "kanji": "精",
+        "lessonBlob": "0e7e4839d5e8451af47820b8ec7500820382fdd8",
+        "lessonRawSha256": "0672002f19bafdc1aaf665e0e3cee2b0db11f9d71e242e24aec3781e8d01b43b",
+        "lessonBytes": 1858,
+        "strokeBlob": "a052bb6e580366ea78daad31b06dcad897bfb1d0",
+        "strokeRawSha256": "036d3dd1d5712ddb8f7bda23c619e0113907ff8a9974b70ece0f83b43fb34eca",
+        "strokeBytes": 3373
+      }
+    ],
+    "wordEntryGroups": {
+      "積": [
+        "1382970",
+        "1382990",
+        "1533500"
+      ],
+      "突": [
+        "1457040",
+        "1456890",
+        "1351560"
+      ],
+      "窓": [
+        "1401400",
+        "1401420",
+        "1202450",
+        "1508590"
+      ],
+      "笑": [
+        "1351360",
+        "1351400",
+        "1475850"
+      ],
+      "等": [
+        "1507670",
+        "1449330",
+        "1165220",
+        "1582300",
+        "1483090"
+      ],
+      "箱": [
+        "1585650",
+        "1523140"
+      ],
+      "精": [
+        "1379950",
+        "1380180",
+        "1380210"
+      ]
+    }
+  },
+  "nonGoals": {
+    "quizNegativeFallbackSafety": "UNVERIFIED for all 21 direct directions; no quiz/grading changes or approval.",
+    "sourceCaptureIdentity": "Current official KANJIDIC2/JMdict captures differ from the frozen source snapshot archives; records are not presented as byte-identical frozen-snapshot captures.",
+    "fullTranslationComplete": false,
+    "runtimeDeviceMediaReleaseOrActivationApproval": false,
+    "checkpointAuthority": null,
+    "checkpointReady": false
+  }
+}
