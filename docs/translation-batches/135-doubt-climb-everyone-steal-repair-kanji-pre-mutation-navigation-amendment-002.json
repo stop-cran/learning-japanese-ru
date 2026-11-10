@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "batchId": "135-doubt-climb-everyone-steal-repair-kanji",
+  "status": "signed amendment frozen before applying these six word-page wrappers",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "8f1e1900f5d5165391fb229dcaa5bee2a5ddec9c",
+  "candidateFreezeCommit": "fbc40f5f9a2ca6f92f2a0334a8223e013e4fb717",
+  "amends": "docs/translation-batches/135-doubt-climb-everyone-steal-repair-kanji-pre-mutation-navigation-amendment-001.json",
+  "supersedesOnly": "The initial amendment's no-existing-word-page-change limit is superseded only for the six exact NAV-only wrappers below; all other source, text, quiz, grading, asset, release, and scope boundaries remain unchanged.",
+  "triggerEvidence": {
+    "command": "python -X utf8 -B tools\\validate.py",
+    "exitCode": 1,
+    "reportedMissingKanjiNavigation": [
+      "登 in words/登る.md",
+      "皆 in words/皆.md",
+      "皆 in words/皆さん.md",
+      "盗 in words/盗む.md",
+      "直 in words/直す.md",
+      "直 in words/直る.md"
+    ],
+    "meaning": "The six existing word cards already declare these kanji in metadata. Once the corresponding kanji cards are added, the accepted RU validator requires an article navigation link. The amendment authorizes wrappers only, not text or metadata edits."
+  },
+  "scope": "In each existing word page, replace exactly one learner-visible Japanese kanji occurrence with a relative link to its newly selected kanji card. Preserve every visible character, reading, Russian string, example, ID, metadata field, quiz array, level, tag, and line ending.",
+  "wordPageWrappers": [
+    {
+      "path": "words/登る.md",
+      "baselineGitBlob": "2f6ee20d66528077a5cc5e1178d751f719585e98",
+      "baselineGitRawSha256": "352ab0af5f0a5eddc4bbe9cbe4438c2cd13d425374aed4d5cad7faf65ce002f7",
+      "baselineWorkingTreeRawSha256": "3ac2ae01af80e36874a624a71d009cd55299de622c9c08fba7c16481f69f9ec4",
+      "replaceExactlyOnce": {
+        "old": "登る — взбираться или подниматься.",
+        "new": "[登](../kanji/登.md)る — взбираться или подниматься."
+      }
+    },
+    {
+      "path": "words/皆.md",
+      "baselineGitBlob": "3fcf0fdf230abdb48f6e380c6a39eba0aea10d4a",
+      "baselineGitRawSha256": "95166676d87a6360ce0f5382aa81902245db6bccb55af3509b35b8036245c039",
+      "baselineWorkingTreeRawSha256": "95166676d87a6360ce0f5382aa81902245db6bccb55af3509b35b8036245c039",
+      "replaceExactlyOnce": {
+        "old": "皆 — все, весь состав группы, о которой идёт речь.",
+        "new": "[皆](../kanji/皆.md) — все, весь состав группы, о которой идёт речь."
+      }
+    },
+    {
+      "path": "words/皆さん.md",
+      "baselineGitBlob": "f40962dcc78e5b3aa8a21360b677f6caa86a826b",
+      "baselineGitRawSha256": "d6737d84bca297c77cf310e7169ac9c000ed0c120e0f7ca24adddeecacde76f4",
+      "baselineWorkingTreeRawSha256": "258f5c82872f85534baf320c2e9d9c73221c7482d536f0bf3fab3ba87188afab",
+      "replaceExactlyOnce": {
+        "old": "皆 читается здесь みな и означает «все».",
+        "new": "[皆](../kanji/皆.md) читается здесь みな и означает «все»."
+      }
+    },
+    {
+      "path": "words/盗む.md",
+      "baselineGitBlob": "a82a6ff2730bac0e1579ca5cbfbbe257f3ccfa84",
+      "baselineGitRawSha256": "8d65ba12cd0bc412c68409ba4c989f957c3faa591a215c3e6a67714017a56021",
+      "baselineWorkingTreeRawSha256": "8d65ba12cd0bc412c68409ba4c989f957c3faa591a215c3e6a67714017a56021",
+      "replaceExactlyOnce": {
+        "old": "盗む — красть, воровать.",
+        "new": "[盗](../kanji/盗.md)む — красть, воровать."
+      }
+    },
+    {
+      "path": "words/直す.md",
+      "baselineGitBlob": "54ef85b04209855588804c1c63848d58f1992ae5",
+      "baselineGitRawSha256": "5bbe47fbe1d8c80227612ad26f04314ee538604669f7b5c46fa7d796284d90f2",
+      "baselineWorkingTreeRawSha256": "5bbe47fbe1d8c80227612ad26f04314ee538604669f7b5c46fa7d796284d90f2",
+      "replaceExactlyOnce": {
+        "old": "直す — чинить, приводить в порядок,",
+        "new": "[直](../kanji/直.md)す — чинить, приводить в порядок,"
+      }
+    },
+    {
+      "path": "words/直る.md",
+      "baselineGitBlob": "bdb4c37374bc3661ef5b8d104c6557497a763065",
+      "baselineGitRawSha256": "ae270331e7b81061ce000fdf0aa6053405fc47845bca714d6047455ce760e2d2",
+      "baselineWorkingTreeRawSha256": "ae270331e7b81061ce000fdf0aa6053405fc47845bca714d6047455ce760e2d2",
+      "replaceExactlyOnce": {
+        "old": "直る описывает переход к исправному,",
+        "new": "[直](../kanji/直.md)る описывает переход к исправному,"
+      }
+    }
+  ],
+  "limits": {
+    "wrapperCount": 6,
+    "newWordPages": false,
+    "newArticlePages": false,
+    "visibleTextChanges": false,
+    "metadataOrQuizChanges": false,
+    "otherWordPageChangesAuthorized": false
+  }
+}
