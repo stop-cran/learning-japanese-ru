@@ -1,6 +1,27 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch128 decide, govern, law, swim and wash kanji
+## Current qualified source milestone: batch129 floating, depth and settlement kanji
+
+Batch129 adds four complete Russian frozen-community N3 lessons (浮/消/深/済),
+four byte-identical frozen-source stroke assets, and six authorized NAV-only
+wrappers on existing word pages. Eight optional wrappers to unavailable word
+pages were removed while their Japanese text was retained; no word pages were
+added. The independent review found no supported Japanese-content or Russian-
+comprehension issue within its stated scope. C1 and C3 are CLEAN only within
+those recorded boundaries. C2 remains UNVERIFIED for all 12 ordinary
+negative/fallback quiz directions, with no grading guard approved.
+
+The [qualified source record](translation-batches/129-floating-depth-and-settlement-kanji-reviewed-source.json)
+records **2,456 reviewed-current / 2 excluded reviewed runtime-blocked drafts /
+5,820 pending of 8,278**, with 1,478 words / 474 kanji / 474 strokes. Content
+version is `c428c2168b28da5c`; checkpoint authority remains null and `Ready`
+false. This candidate is not yet integrated or published; normal signed PR,
+exact-main CI, public archive, protected-ref and issue-progress verification
+remain. It is source-content qualification only, not runtime, device, release,
+ordinary-activation or full-translation approval. Continue batch130 and every
+remaining safe frozen family after publication.
+
+## Previous published source milestone: batch128 decide, govern, law, swim and wash kanji
 
 Batch128 added seven complete Russian kanji lessons (決/治/法/泳/洗/活/流),
 seven byte-identical frozen-source stroke assets, and only the 14 preauthorized
@@ -20,8 +41,8 @@ tar.gz byte comparisons (including all required licenses/notices), four unchange
 protected refs, and the issue #3 progress comment. The GitHub-generated merge
 commit is separately recorded with its verified `web-flow` platform identity.
 This is qualified source-content acceptance only; it is not runtime, device,
-release, ordinary-activation, or full-translation approval. Continue batch129 and
-every remaining safe frozen family.
+release, ordinary-activation, or full-translation approval. Batch129 follows
+this checkpoint; continue every remaining safe frozen family.
 
 ## Previous published source milestone: batch127 capture and search kanji
 

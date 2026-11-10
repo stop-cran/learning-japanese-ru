@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "batchId": "129-floating-depth-and-settlement-kanji",
+  "recordedAt": "2026-11-10T10:52:39+01:00",
+  "reviewTool": "functions.task; independent read-only whole-candidate reviewer",
+  "captureDomain": "The reviewer tool returned its final report text; no distinct raw stdout stream was exposed.",
+  "sourceSnapshot": {
+    "ruBranch": "full-ru-129-floating-depth-and-settlement-kanji",
+    "ruBase": "bd941bc6d71b1f21cc675efa4f2332cb524a4b4e",
+    "ruParent": "5a76cdd40a1c3cb3b257ded87ec94522e7fbb0e1",
+    "frozenEnglishCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "reviewedCandidateState": "Dirty worktree based on the frozen pre-mutation commit; later candidate commit includes only the separately recorded CRLF-to-LF restoration for two authorized NAV-only pages."
+  },
+  "report": {
+    "privateOriginalName": "ru-129-independent-review-001-private.md",
+    "privateOriginalUtf8Bytes": 3421,
+    "privateOriginalSha256": "36223748b7d27c0d1f61713ced220bacf7295749ced32e1bcfbf7fb9655f5863",
+    "publicProjectionPath": "docs/translation-batches/129-floating-depth-and-settlement-kanji-independent-review-001.md",
+    "publicProjectionUtf8Bytes": 3543,
+    "publicProjectionSha256": "aad5c1d493dd59b2b9892f24c68e62c1b854a2d24e1c4aa5d8eb0f10311b17b6",
+    "redactions": [
+      "RU worktree root -> <RU_WORKTREE>",
+      "frozen EN worktree root -> <FROZEN_EN_WORKTREE>",
+      "private artifact root -> <PRIVATE_ARTIFACT_ROOT>"
+    ],
+    "reportLimitBytes": 11000,
+    "withinLimit": true
+  },
+  "candidateCommit": "5399dc2c36d550e45ea5991aa32590e9a17fb88d",
+  "candidateTree": "d1bb6ab29d5abac3c24321addbb85c5f11478e5c",
+  "contentVersion": "c428c2168b28da5c",
+  "reviewedScope": {
+    "newLessons": [
+      "浮",
+      "消",
+      "深",
+      "済"
+    ],
+    "strokeFiles": 4,
+    "navigationOnlyPages": [
+      "words/消える.md",
+      "words/消しゴム.md",
+      "words/消す.md",
+      "words/深い.md",
+      "words/済む.md",
+      "words/経済.md"
+    ],
+    "completeRussianLessonsRead": 4,
+    "frozenEnglishCounterpartsRead": 4,
+    "completeWordPagesRead": 6,
+    "kanjidic2RecordsRead": 4,
+    "selectedCompleteJmdictRecordsRead": 15,
+    "additionalCompleteJmdictRecordsRead": 2,
+    "officialSourceEntries": [
+      "1350080",
+      "1251380"
+    ],
+    "guidanceFilesRead": [
+      ".github/copilot-instructions.md",
+      ".github/instructions/content-structure.instructions.md",
+      ".github/agents/kanji-accuracy-reviewer.agent.md",
+      ".github/agents/kanji-comprehension-reviewer.agent.md",
+      ".github/agents/content-consistency-reviewer.agent.md",
+      "docs/translation-methodology.md",
+      "docs/content-format-reference.md"
+    ],
+    "batchScopeDocumentsRead": [
+      "docs/translation-batches/129-floating-depth-and-settlement-kanji-intake.json",
+      "docs/translation-batches/129-floating-depth-and-settlement-kanji-source-adjudication-and-semantic-freeze-001.json",
+      "docs/translation-batches/129-floating-depth-and-settlement-kanji-pre-mutation-navigation-amendment-001.json"
+    ]
+  },
+  "verdicts": {
+    "C1": "CLEAN within the read scope; no supported consequential Japanese-content finding.",
+    "C2": "UNVERIFIED overall. Declared mutation scope, navigation, dependencies and preservation are bounded; ordinary negative/fallback quiz safety is not approved.",
+    "C3": "CLEAN within the four Russian lessons and six word pages read; not native-speaker, device, app or learning-outcome certification."
+  },
+  "supportedFindings": [],
+  "unverifiedEdges": [
+    "浮→学",
+    "浮→字",
+    "浮→深",
+    "消→青",
+    "消→泳",
+    "消→深",
+    "深→泳",
+    "深→浮",
+    "深→洗",
+    "済→深",
+    "済→洗",
+    "済→活"
+  ],
+  "limitations": [
+    "No runtime/app answer-operation or sense-constraint review; no ordinary-negative approval.",
+    "No app/device/native-speaker/frequency/corpus/handwriting-rendering review; no full-corpus approval.",
+    "The reviewer did not run manifest generation, validator, tests, or content-budget checks; these are recorded separately.",
+    "The reviewer noted tools/__pycache__ as outside batch scope; contents were not inspected.",
+    "The source captures contain complete serialized XML records, not raw archive fragments."
+  ],
+  "postReviewCorrection": {
+    "receipt": "ru-129-nav-eol-preservation-001.json",
+    "rawSha256": "d92f5c30259574f8c9c2219038b201df78e9515b266edf33ae48a1e93afb1add",
+    "paths": [
+      "words/消える.md",
+      "words/消す.md"
+    ],
+    "semanticTextChanged": false,
+    "publicAndPrivateReportsPreservedUnchanged": true
+  }
+}

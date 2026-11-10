@@ -11,7 +11,26 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current published source milestone: batch128 decide, govern, law, swim and wash kanji
+## Current qualified source milestone: batch129 floating, depth and settlement kanji
+
+Batch129 adds four complete Russian frozen-community N3 lessons, 浮/消/深/済,
+and four byte-identical frozen KanjiVG stroke files. Six existing word pages
+receive only the preauthorized NAV wrappers; eight optional wrappers to
+unavailable word pages were removed while preserving their Japanese text.
+No word page was added. C1 and C3 are CLEAN only within the qualified review's
+scope. C2 remains UNVERIFIED for all 12 ordinary negative/fallback quiz
+directions, with no grading guard or runtime grading approval.
+
+The [qualified source record](translation-batches/129-floating-depth-and-settlement-kanji-reviewed-source.json)
+records 2,456 reviewed-current / 2 excluded reviewed runtime-blocked drafts /
+5,820 pending of 8,278; 1,478 words / 474 kanji / 474 strokes. Version
+`c428c2168b28da5c`; checkpoint authority remains null and `Ready` false. The
+candidate is not yet integrated or published. Normal signed PR, exact-main CI,
+archive, protected-ref and issue-progress verification remain. No runtime,
+device, release or ordinary-activation approval is claimed. Continue batch130
+and every remaining safe frozen family after publication.
+
+## Previous published source milestone: batch128 decide, govern, law, swim and wash kanji
 
 Batch128 adds seven complete Russian frozen-community N3 lessons, 決/治/法/泳/洗/活/流,
 and seven byte-identical frozen KanjiVG stroke files. Fourteen existing word pages receive
@@ -26,8 +45,8 @@ remains null and `Ready` false. PR [#12](https://github.com/stop-cran/learning-j
 integrated at main `bd941bc6d71b1f21cc675efa4f2332cb524a4b4e`. Exact-main CI passed; actual public
 ZIP/tar.gz exports matched Git archive bytes, required notices/licenses were present, and all four
 protected refs were unchanged. See the [publication verification](translation-batches/128-decide-govern-law-swim-wash-kanji-publication-verification-001.json).
-No runtime, device, release, or ordinary-activation approval is claimed. Continue batch129 and every
-remaining safe frozen family.
+No runtime, device, release, or ordinary-activation approval is claimed. Batch129
+follows this checkpoint; continue every remaining safe frozen family.
 
 ## Previous published source milestone: batch127 capture and search kanji
 

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "batchId": "129-floating-depth-and-settlement-kanji",
+  "recordedAt": "2026-11-10T10:58:28.6816937+01:00",
+  "candidateCommit": "5399dc2c36d550e45ea5991aa32590e9a17fb88d",
+  "candidateTree": "d1bb6ab29d5abac3c24321addbb85c5f11478e5c",
+  "contentVersion": "c428c2168b28da5c",
+  "commands": [
+    {
+      "command": "python -X utf8 -B tools\\build_manifest.py",
+      "exitCode": 0,
+      "stdout": "manifest.json: 2456 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version c428c2168b28da5c"
+    },
+    {
+      "command": "python -X utf8 -B tools\\validate.py",
+      "exitCode": 0,
+      "stdout": "0 error(s)"
+    },
+    {
+      "command": "python -X utf8 -B -m unittest discover -s tools -p test_*.py",
+      "exitCode": 0,
+      "stdout": "............................................................................................................................\r\n----------------------------------------------------------------------\r\nRan 124 tests in 49.299s\r\n\r\nOK"
+    },
+    {
+      "command": "python -X utf8 -B tools\\check_content_budget.py",
+      "exitCode": 0,
+      "stdout": "{'files': 2464, 'entries': 2473, 'retainedBytes': 6826885, 'inflatedBytes': 6845100, 'localZipBytes': 3440345, 'listeningTaskMediaBytes': 0}"
+    }
+  ],
+  "executionOrder": "Serial and completed after candidate tracking and translation-progress were updated; each command completed successfully before the next started. Subsequent edits were documentation/evidence only; runtime files, manifest bytes, tracking rows and progress data were unchanged.",
+  "environment": {
+    "TMPDIR": "owned unique NTFS fixture under the RU checkout",
+    "TMP": "same owned NTFS fixture",
+    "TEMP": "same owned NTFS fixture",
+    "fixtureRemoved": true,
+    "noGlobalGitAuthOrTrustChanges": true
+  },
+  "outputDomain": "Actual final console output captured from the PowerShell command process; no separate raw stdout file is claimed.",
+  "tests": {
+    "passed": 124,
+    "failed": 0,
+    "durationSeconds": 49.299
+  },
+  "archiveBudget": {
+    "files": 2464,
+    "entries": 2473,
+    "retainedBytes": 6826885,
+    "inflatedBytes": 6845100,
+    "localZipBytes": 3440345,
+    "listeningTaskMediaBytes": 0
+  },
+  "evidenceAtValidation": {
+    "manifestSha256": "1b2cdef79f8ea0549be6adb2d714ba72f7cfc9bd95ab19c408d5a326db25863e",
+    "trackingSha256": "b16dd238b1e2fc0103b9a3d79bfbb413b36937b4c6efb0c57bc557f8c4752049",
+    "translationProgressSha256": "502ca9fa34cf431b69b38fc429e6c8ff6401013b54523121b5dcf5e22bcf2663"
+  },
+  "validationNotEquivalentTo": "Semantic review, runtime/app acceptance, device/native approval, or publication integration.",
+  "completedAfterTrackingAndProgress": true
+}
