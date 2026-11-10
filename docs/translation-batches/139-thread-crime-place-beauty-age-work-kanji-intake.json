@@ -1,0 +1,765 @@
+{
+  "schemaVersion": 1,
+  "batchId": "139-thread-crime-place-beauty-age-work-kanji",
+  "recordedAt": "2026-11-10T19:51:42+00:00",
+  "status": "pre-mutation intake; learner-facing runtime content has not been edited",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "e1184136fc186e5f224f1f780dfd890875f4e15c",
+  "selection": {
+    "sourceSnapshot": {
+      "path": "docs/n3-source-snapshot.json",
+      "sourceGitBlob": "b18b0a72779488538324a0b48c82e2684ea89d71",
+      "rawBytes": 5879,
+      "rawSha256": "4ffdacad14efcdee13e504a36f5705bc2226ea763bf46a00369c1bf6040b28e8",
+      "frozenN3Count": 367,
+      "communityListRetrieved": "2026-10-09",
+      "dictionarySnapshotDate": "2026-10-08",
+      "frozenN3CharacterListSha256": "90aca621147e29ba525c81dc5b57cf3373115007c95e9fdb97febd9a56394412"
+    },
+    "rule": "Select the first six pending characters in frozen N3 order after accepted batch 138 position 269; add only pending direct distractor targets. Position 275 was already reviewed-current and is skipped. Dependencies are direct only, never transitively closed.",
+    "selectedKanji": [
+      "緒",
+      "罪",
+      "置",
+      "美",
+      "老",
+      "職"
+    ],
+    "sourceOrderPositions": [
+      {
+        "kanji": "緒",
+        "oneBasedPosition": 270,
+        "zeroBasedIndex": 269,
+        "baselineStatus": "pending"
+      },
+      {
+        "kanji": "罪",
+        "oneBasedPosition": 271,
+        "zeroBasedIndex": 270,
+        "baselineStatus": "pending"
+      },
+      {
+        "kanji": "置",
+        "oneBasedPosition": 272,
+        "zeroBasedIndex": 271,
+        "baselineStatus": "pending"
+      },
+      {
+        "kanji": "美",
+        "oneBasedPosition": 273,
+        "zeroBasedIndex": 272,
+        "baselineStatus": "pending"
+      },
+      {
+        "kanji": "老",
+        "oneBasedPosition": 274,
+        "zeroBasedIndex": 273,
+        "baselineStatus": "pending"
+      },
+      {
+        "kanji": "職",
+        "oneBasedPosition": 276,
+        "zeroBasedIndex": 275,
+        "baselineStatus": "pending"
+      }
+    ],
+    "dependencyClosure": {
+      "directDirections": [
+        {
+          "source": "緒",
+          "target": "給",
+          "direction": "緒→給",
+          "baselineStatus": "reviewed-current"
+        },
+        {
+          "source": "緒",
+          "target": "紙",
+          "direction": "緒→紙",
+          "baselineStatus": "reviewed-current"
+        },
+        {
+          "source": "緒",
+          "target": "者",
+          "direction": "緒→者",
+          "baselineStatus": "reviewed-current"
+        },
+        {
+          "source": "罪",
+          "target": "置",
+          "direction": "罪→置",
+          "baselineStatus": "pending"
+        },
+        {
+          "source": "罪",
+          "target": "買",
+          "direction": "罪→買",
+          "baselineStatus": "reviewed-current"
+        },
+        {
+          "source": "罪",
+          "target": "四",
+          "direction": "罪→四",
+          "baselineStatus": "reviewed-current"
+        },
+        {
+          "source": "置",
+          "target": "罪",
+          "direction": "置→罪",
+          "baselineStatus": "pending"
+        },
+        {
+          "source": "置",
+          "target": "買",
+          "direction": "置→買",
+          "baselineStatus": "reviewed-current"
+        },
+        {
+          "source": "置",
+          "target": "目",
+          "direction": "置→目",
+          "baselineStatus": "reviewed-current"
+        },
+        {
+          "source": "美",
+          "target": "着",
+          "direction": "美→着",
+          "baselineStatus": "reviewed-current"
+        },
+        {
+          "source": "美",
+          "target": "大",
+          "direction": "美→大",
+          "baselineStatus": "reviewed-current"
+        },
+        {
+          "source": "美",
+          "target": "春",
+          "direction": "美→春",
+          "baselineStatus": "reviewed-current"
+        },
+        {
+          "source": "老",
+          "target": "考",
+          "direction": "老→考",
+          "baselineStatus": "reviewed-current"
+        },
+        {
+          "source": "老",
+          "target": "者",
+          "direction": "老→者",
+          "baselineStatus": "reviewed-current"
+        },
+        {
+          "source": "老",
+          "target": "北",
+          "direction": "老→北",
+          "baselineStatus": "reviewed-current"
+        },
+        {
+          "source": "職",
+          "target": "耳",
+          "direction": "職→耳",
+          "baselineStatus": "reviewed-current"
+        },
+        {
+          "source": "職",
+          "target": "聞",
+          "direction": "職→聞",
+          "baselineStatus": "reviewed-current"
+        },
+        {
+          "source": "職",
+          "target": "音",
+          "direction": "職→音",
+          "baselineStatus": "reviewed-current"
+        }
+      ],
+      "selectedPendingTargets": [
+        "緒",
+        "罪",
+        "置",
+        "美",
+        "老",
+        "職"
+      ],
+      "additionalPendingTargetAddedByClosure": [],
+      "reviewedCurrentDirectTargets": [
+        "北",
+        "四",
+        "大",
+        "春",
+        "目",
+        "着",
+        "紙",
+        "給",
+        "考",
+        "者",
+        "耳",
+        "聞",
+        "買",
+        "音"
+      ],
+      "closureRule": "No transitive quiz exclusions or grading conclusions are inferred."
+    }
+  },
+  "currentAcceptedProgress": {
+    "progressRecord": "docs/translation-progress.json",
+    "trackingRecord": "docs/translation-tracking.json",
+    "progressGitBlob": "31a8cbf41deac0b2f25e295701384015aa739efd",
+    "progressRawSha256": "da5848dd58b18be8d6483c6aa9d919bfe36a0d5d4c07c5aab75edb4d1566ed55",
+    "trackingGitBlob": "238cdb519033a238876dd120478f980567c602c1",
+    "trackingRawSha256": "6f55408db1870b4677383ce87a48f7d256e331196b7e141eba6f835040f181b0",
+    "reviewedCurrent": 2554,
+    "excludedReviewedRuntimeBlocked": 2,
+    "pending": 5722,
+    "total": 8278,
+    "words": 1478,
+    "kanji": 523,
+    "strokes": 523,
+    "contentVersion": "3fdd9e27d77b03c9",
+    "checkpointAuthority": null,
+    "checkpointReady": false
+  },
+  "scope": {
+    "newKanjiLessons": [
+      "kanji/緒.md",
+      "kanji/罪.md",
+      "kanji/置.md",
+      "kanji/美.md",
+      "kanji/老.md",
+      "kanji/職.md"
+    ],
+    "byteIdenticalFrozenStrokeAssets": [
+      "strokes/緒.json",
+      "strokes/罪.json",
+      "strokes/置.json",
+      "strokes/美.json",
+      "strokes/老.json",
+      "strokes/職.json"
+    ],
+    "preauthorizedNavigationOnlyPaths": [
+      "words/一緒.md",
+      "words/置く.md",
+      "words/美しい.md",
+      "words/美術館.md"
+    ],
+    "unavailableOptionalWordTargets": [
+      "words/罪.md",
+      "words/老人.md",
+      "words/職業.md"
+    ],
+    "newWordPages": 0,
+    "quizOrGradingChanges": 0,
+    "otherRuntimePathsAuthorized": 0
+  },
+  "frozenSourceEvidence": {
+    "lessonsAndStrokes": [
+      {
+        "kanji": "緒",
+        "oneBasedN3OrderPosition": 270,
+        "baselineStatus": "pending",
+        "lesson": {
+          "path": "kanji/緒.md",
+          "gitBlob": "c3b706e2a47bd175c2cbd2e72743b50f80172c74",
+          "rawBytes": 1426,
+          "rawSha256": "5c145576601c3a6fddc6ef16827ba18d1c3bf209c7aace07880b5178402c9806"
+        },
+        "stroke": {
+          "path": "strokes/緒.json",
+          "gitBlob": "9f318bcb9c912109884cb926c8113a25fc804d92",
+          "rawBytes": 3369,
+          "rawSha256": "d24c9e65d7f48accc273d1d131f4ee5143b2abd3669ab8c2c092c83e44e3c23f"
+        },
+        "sourceMetadata": {
+          "jlpt": 3,
+          "tags": [
+            "jlpt-n3",
+            "grade-8",
+            "structure-unclassified"
+          ],
+          "strokes": 14,
+          "radical": "糸",
+          "radicalNumber": 120,
+          "onyomi": [
+            "ショ",
+            "チョ"
+          ],
+          "kunyomi": [
+            "お",
+            "いとぐち"
+          ],
+          "distractors": [
+            "給",
+            "紙",
+            "者"
+          ]
+        }
+      },
+      {
+        "kanji": "罪",
+        "oneBasedN3OrderPosition": 271,
+        "baselineStatus": "pending",
+        "lesson": {
+          "path": "kanji/罪.md",
+          "gitBlob": "cde97a699002c6071469c2f67b8c76eef878da97",
+          "rawBytes": 1411,
+          "rawSha256": "bd11fadac8e7eb6871b43e2d50ff7913ef8ce38ef86ce450d73a0d2dbd45c69f"
+        },
+        "stroke": {
+          "path": "strokes/罪.json",
+          "gitBlob": "efdecff066d094f17c4eb1ee4cd86793c6a4b84f",
+          "rawBytes": 3149,
+          "rawSha256": "8f3995fe8e3889e2cfff3349bac5b1bd7c48309058d70d1b41e2fc2b58f228dc"
+        },
+        "sourceMetadata": {
+          "jlpt": 3,
+          "tags": [
+            "jlpt-n3",
+            "grade-5",
+            "structure-unclassified"
+          ],
+          "strokes": 13,
+          "radical": "网",
+          "radicalNumber": 122,
+          "onyomi": [
+            "ザイ"
+          ],
+          "kunyomi": [
+            "つみ"
+          ],
+          "distractors": [
+            "置",
+            "買",
+            "四"
+          ]
+        }
+      },
+      {
+        "kanji": "置",
+        "oneBasedN3OrderPosition": 272,
+        "baselineStatus": "pending",
+        "lesson": {
+          "path": "kanji/置.md",
+          "gitBlob": "0f4eb8d9f9e2fc989476243e8f0e51cc8c81731b",
+          "rawBytes": 1334,
+          "rawSha256": "747a6fc87175c8947b746cec375dc0f3c5cd3bbe21d7a68e74624d16bb687c1f"
+        },
+        "stroke": {
+          "path": "strokes/置.json",
+          "gitBlob": "60050f9a307b481fd191c2b65a22618693437f33",
+          "rawBytes": 3148,
+          "rawSha256": "bdfeaa90954d1348b98ec1102e53f658be7fb71e694807aa09faf741f05721c7"
+        },
+        "sourceMetadata": {
+          "jlpt": 3,
+          "tags": [
+            "jlpt-n3",
+            "grade-4",
+            "structure-unclassified"
+          ],
+          "strokes": 13,
+          "radical": "网",
+          "radicalNumber": 122,
+          "onyomi": [
+            "チ"
+          ],
+          "kunyomi": [
+            "お.く",
+            "-お.き"
+          ],
+          "distractors": [
+            "罪",
+            "買",
+            "目"
+          ]
+        }
+      },
+      {
+        "kanji": "美",
+        "oneBasedN3OrderPosition": 273,
+        "baselineStatus": "pending",
+        "lesson": {
+          "path": "kanji/美.md",
+          "gitBlob": "83a70665e37180f0e7782c155b10943003016108",
+          "rawBytes": 1501,
+          "rawSha256": "4303daf6c64236599dca5654e610242bd501229c5f6679a45f4ca24ef9c732e1"
+        },
+        "stroke": {
+          "path": "strokes/美.json",
+          "gitBlob": "9373b820d9b8a7ee655289a494b081acd8039d50",
+          "rawBytes": 2236,
+          "rawSha256": "0b12583aba5ec39f5fe488476305aa6ac289fdc7da3713aa721b9810d55171dd"
+        },
+        "sourceMetadata": {
+          "jlpt": 3,
+          "tags": [
+            "jlpt-n3",
+            "grade-3",
+            "structure-unclassified"
+          ],
+          "strokes": 9,
+          "radical": "羊",
+          "radicalNumber": 123,
+          "onyomi": [
+            "ビ",
+            "ミ"
+          ],
+          "kunyomi": [
+            "うつく.しい"
+          ],
+          "distractors": [
+            "着",
+            "大",
+            "春"
+          ]
+        }
+      },
+      {
+        "kanji": "老",
+        "oneBasedN3OrderPosition": 274,
+        "baselineStatus": "pending",
+        "lesson": {
+          "path": "kanji/老.md",
+          "gitBlob": "f463f6757a1928eb7a194e66a17aaddab5f12f0a",
+          "rawBytes": 1385,
+          "rawSha256": "672ac2360cd63a00976b9ce5f9ec16ec2008781fe5b3a9402ef76765df54528f"
+        },
+        "stroke": {
+          "path": "strokes/老.json",
+          "gitBlob": "2bfbfaeb46811439fb973e341e472648d6d7eba0",
+          "rawBytes": 1560,
+          "rawSha256": "8c571456bd92171ca845785e82690d413b8eea203ff4e033fd65a5d98bf81117"
+        },
+        "sourceMetadata": {
+          "jlpt": 3,
+          "tags": [
+            "jlpt-n3",
+            "grade-4",
+            "structure-unclassified"
+          ],
+          "strokes": 6,
+          "radical": "老",
+          "radicalNumber": 125,
+          "onyomi": [
+            "ロウ"
+          ],
+          "kunyomi": [
+            "お.いる",
+            "ふ.ける"
+          ],
+          "distractors": [
+            "考",
+            "者",
+            "北"
+          ]
+        }
+      },
+      {
+        "kanji": "職",
+        "oneBasedN3OrderPosition": 276,
+        "baselineStatus": "pending",
+        "lesson": {
+          "path": "kanji/職.md",
+          "gitBlob": "0219c0dfd24b52570514e552291db779d414779f",
+          "rawBytes": 1431,
+          "rawSha256": "32f678c8b09d64943d08458898b82285318c25cd503c7e0e54a3bf87dcecf8c3"
+        },
+        "stroke": {
+          "path": "strokes/職.json",
+          "gitBlob": "5394574677f0bcc2e35e9ba79d1b8ebd7cc16a9e",
+          "rawBytes": 4275,
+          "rawSha256": "b5be84ce30a182e8c0359776018d8b9e024f221fb9a1b652691cf74b82b995f9"
+        },
+        "sourceMetadata": {
+          "jlpt": 3,
+          "tags": [
+            "jlpt-n3",
+            "grade-5",
+            "structure-unclassified"
+          ],
+          "strokes": 18,
+          "radical": "耳",
+          "radicalNumber": 128,
+          "onyomi": [
+            "ショク",
+            "ソク"
+          ],
+          "kunyomi": [
+            ""
+          ],
+          "distractors": [
+            "耳",
+            "聞",
+            "音"
+          ]
+        }
+      }
+    ],
+    "wordSourceIndex": {
+      "path": "docs/n3-word-sources.tsv",
+      "gitBlob": "1576fa391962dfef36c8b8f29fc885213c2e9468",
+      "rawBytes": 14191,
+      "rawSha256": "121da8b5b2f7a98f3da5a9140a64526579a8d952fd36e729e1bccec64eb47364",
+      "sha256InSnapshot": "121da8b5b2f7a98f3da5a9140a64526579a8d952fd36e729e1bccec64eb47364",
+      "selectedIndexRows": [
+        {
+          "word": "一緒",
+          "reading": "いっしょ",
+          "article_status": "new",
+          "matching_jmdict_entry_ids": "1163400",
+          "selected_teaching_senses": "1163400:1",
+          "primary_for_kanji": "緒"
+        },
+        {
+          "word": "罪",
+          "reading": "つみ",
+          "article_status": "new",
+          "matching_jmdict_entry_ids": "1296680",
+          "selected_teaching_senses": "1296680:1",
+          "primary_for_kanji": "罪"
+        },
+        {
+          "word": "置く",
+          "reading": "おく",
+          "article_status": "new",
+          "matching_jmdict_entry_ids": "1421850",
+          "selected_teaching_senses": "1421850:1",
+          "primary_for_kanji": "置"
+        },
+        {
+          "word": "美しい",
+          "reading": "うつくしい",
+          "article_status": "new",
+          "matching_jmdict_entry_ids": "1486360",
+          "selected_teaching_senses": "1486360:1",
+          "primary_for_kanji": "美"
+        },
+        {
+          "word": "老人",
+          "reading": "ろうじん",
+          "article_status": "new",
+          "matching_jmdict_entry_ids": "1561090",
+          "selected_teaching_senses": "1561090:1",
+          "primary_for_kanji": "老"
+        },
+        {
+          "word": "職業",
+          "reading": "しょくぎょう",
+          "article_status": "new",
+          "matching_jmdict_entry_ids": "1357510",
+          "selected_teaching_senses": "1357510:1",
+          "primary_for_kanji": "職"
+        },
+        {
+          "word": "若い",
+          "reading": "わかい",
+          "article_status": "new",
+          "matching_jmdict_entry_ids": "1324300",
+          "selected_teaching_senses": "1324300:1",
+          "primary_for_kanji": "若"
+        }
+      ]
+    },
+    "officialKanjidic2Capture": {
+      "privateArtifact": "ru-139-kanjidic2-primary-capture-001.json",
+      "rawBytes": 21753,
+      "rawSha256": "b42445715e61e3ba2bf9196906963b997a2a710a4cf7428846cdcb5605ca21c8",
+      "recordsRead": [
+        "緒",
+        "罪",
+        "置",
+        "美",
+        "老",
+        "職"
+      ],
+      "archiveSha256": "624edb951655f2195d98c43702d534099fac9fcade6011d5af9e2ae1ef719dcf",
+      "xmlSha256": "6f73fe5dd91deb9d95a2903105af633e2d574c8ace86176786555fc9d60e237d",
+      "frozenArchiveSha256": "5fc25740c21180e0c2983d3ed546a8009d7891d9dceb4714cd36dd528be2bb58",
+      "exactFrozenSnapshotMatch": false
+    },
+    "officialJmdictCapture": {
+      "privateArtifact": "ru-139-jmdict-primary-capture-001.json",
+      "rawBytes": 39380,
+      "rawSha256": "e79ac7fb11b6db92dc119a021d0b8717dc95b2d2802f017b6f5c027f892ed4e0",
+      "recordsRead": [
+        "1163400",
+        "1215320",
+        "1265070",
+        "1296680",
+        "1324300",
+        "1331670",
+        "1357490",
+        "1357510",
+        "1357540",
+        "1421850",
+        "1481590",
+        "1486360",
+        "1486440",
+        "1529980",
+        "1541350",
+        "1560990",
+        "1561090",
+        "1587310"
+      ],
+      "queries": [
+        {
+          "written": "一緒",
+          "reading": "いっしょ",
+          "entryIds": [
+            "1163400"
+          ]
+        },
+        {
+          "written": "位置",
+          "reading": "いち",
+          "entryIds": [
+            "1587310"
+          ]
+        },
+        {
+          "written": "古い",
+          "reading": "ふるい",
+          "entryIds": [
+            "1265070"
+          ]
+        },
+        {
+          "written": "就職",
+          "reading": "しゅうしょく",
+          "entryIds": [
+            "1331670"
+          ]
+        },
+        {
+          "written": "有罪",
+          "reading": "ゆうざい",
+          "entryIds": [
+            "1541350"
+          ]
+        },
+        {
+          "written": "無罪",
+          "reading": "むざい",
+          "entryIds": [
+            "1529980"
+          ]
+        },
+        {
+          "written": "犯罪",
+          "reading": "はんざい",
+          "entryIds": [
+            "1481590"
+          ]
+        },
+        {
+          "written": "罪",
+          "reading": "つみ",
+          "entryIds": [
+            "1296680"
+          ]
+        },
+        {
+          "written": "置く",
+          "reading": "おく",
+          "entryIds": [
+            "1421850"
+          ]
+        },
+        {
+          "written": "美しい",
+          "reading": "うつくしい",
+          "entryIds": [
+            "1486360"
+          ]
+        },
+        {
+          "written": "美術",
+          "reading": "びじゅつ",
+          "entryIds": [
+            "1486440"
+          ]
+        },
+        {
+          "written": "老いる",
+          "reading": "おいる",
+          "entryIds": [
+            "1560990"
+          ]
+        },
+        {
+          "written": "老人",
+          "reading": "ろうじん",
+          "entryIds": [
+            "1561090"
+          ]
+        },
+        {
+          "written": "職員",
+          "reading": "しょくいん",
+          "entryIds": [
+            "1357490"
+          ]
+        },
+        {
+          "written": "職場",
+          "reading": "しょくば",
+          "entryIds": [
+            "1357540"
+          ]
+        },
+        {
+          "written": "職業",
+          "reading": "しょくぎょう",
+          "entryIds": [
+            "1357510"
+          ]
+        },
+        {
+          "written": "若い",
+          "reading": "わかい",
+          "entryIds": [
+            "1324300"
+          ]
+        },
+        {
+          "written": "間違い",
+          "reading": "まちがい",
+          "entryIds": [
+            "1215320"
+          ]
+        }
+      ],
+      "archiveSha256": "8e511b59c1efb57d7dc90f58f386058035ca662cb4a23d5693b5e185190c5ede",
+      "xmlSha256": "66c91fb0cb91f4e3a4df3370bad79b5f0378d9e1eddc4b13efe6820de23e0612",
+      "frozenArchiveSha256": "3d5fc0a0f768df4d044744732348f09a47db97a6286c2de1d565e5766212a1ea",
+      "exactFrozenSnapshotMatch": false,
+      "interpretationBoundary": "Forms, readings, senses, restrictions, and notes are recorded as source evidence; they do not prove frequency, quiz safety, every reading, or universal naturalness."
+    }
+  },
+  "unavailableTargets": {
+    "lessonLinksToMissingRUWordPages": {
+      "words/罪.md": {
+        "sourceLesson": "kanji/罪.md",
+        "sourceLinkOccurrences": 3
+      },
+      "words/老人.md": {
+        "sourceLesson": "kanji/老.md",
+        "sourceLinkOccurrences": 3
+      },
+      "words/職業.md": {
+        "sourceLesson": "kanji/職.md",
+        "sourceLinkOccurrences": 3
+      }
+    },
+    "operation": "Remove Markdown wrappers only in the new Russian lessons; preserve all Japanese labels, readings, examples, and Russian explanation."
+  },
+  "nonGoals": {
+    "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 18 direct directions; no quiz/grading changes or approval.",
+    "sourceCaptureIdentity": "Current official archives previously captured on 2026-11-10; byte identities differ from the frozen source archive and are not represented as frozen-capture matches.",
+    "frequencyOrUniversalNaturalness": "Not established by these dictionary records.",
+    "fullTranslationComplete": false,
+    "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false,
+    "checkpointAuthority": null,
+    "checkpointReady": false
+  }
+}

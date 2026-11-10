@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "batchId": "139-thread-crime-place-beauty-age-work-kanji",
+  "recordedAt": "2026-11-10T20:27:35+00:00",
+  "candidateCommit": "020b8fc924b33c3b132665060e80bc6b453ee86d",
+  "candidateTree": "4612ed37be1958f76125325b676c7df4032ccf74",
+  "contentVersion": "87be278411d3648a",
+  "execution": {
+    "order": "Serial after signed terminology amendment and focused follow-up review, on the candidate runtime tree.",
+    "status": "Completed successfully; each recorded command exited 0 in the recorded order.",
+    "environment": "Windows checkout; Python UTF-8 output enabled and bytecode generation disabled; no test skips.",
+    "validationScope": "Runtime content matches signed candidate commit exactly; tracking/progress reconciliation and review records are documentation evidence."
+  },
+  "commands": [
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools\\build_manifest.py"
+      ],
+      "exitCode": 0,
+      "stdout": "manifest.json: 2566 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 87be278411d3648a\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools\\validate.py"
+      ],
+      "exitCode": 0,
+      "stdout": "0 error(s)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools",
+        "-p",
+        "test_*.py"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 55.649s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools\\check_content_budget.py"
+      ],
+      "exitCode": 0,
+      "stdout": "{'files': 2574, 'entries': 2583, 'retainedBytes': 7133055, 'inflatedBytes': 7151270, 'localZipBytes': 3588246, 'listeningTaskMediaBytes': 0}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "contentBudget": {
+    "files": 2574,
+    "entries": 2583,
+    "retainedBytes": 7133055,
+    "inflatedBytes": 7151270,
+    "localZipBytes": 3588246,
+    "listeningTaskMediaBytes": 0
+  },
+  "allPassed": true,
+  "qualification": "Structural/content checks passed. Independent review qualifications remain bounded: C1 CLEAN in reviewed scope; C2 UNVERIFIED overall with all 18 direct quiz directions UNVERIFIED; C3 resolved via focused follow-up only. No grading/runtime/device/media/release/activation/checkpoint/full-translation approval.",
+  "artifacts": [
+    {
+      "path": "manifest.json",
+      "utf8Bytes": 229367,
+      "rawSha256": "e847ccad1a568aff15de6a8c7c849541ab31f07c3f5fe1793d375135aacb8e9f"
+    },
+    {
+      "path": "docs/translation-tracking.json",
+      "utf8Bytes": 7829638,
+      "rawSha256": "f5487804f5a4fc8f6c74483deb3f6e61553ec4a82b0850d79483e104158338c2"
+    },
+    {
+      "path": "docs/translation-progress.json",
+      "utf8Bytes": 5430127,
+      "rawSha256": "7a1af60aec9e801b8beb7673d55b2652be32c6143bd9c10e9003fe6b7c0a74b4"
+    },
+    {
+      "path": "docs/translation-batches/139-thread-crime-place-beauty-age-work-kanji-reviewed-source.json",
+      "utf8Bytes": 10940,
+      "rawSha256": "c5ab48e4b10012325cad86b106706a9a473c46b5d9fd66b877f1a70cf24d7911"
+    }
+  ],
+  "reportedRuntimeDiffPaths": [],
+  "reportedDocumentationDiffPaths": [
+    "docs/FULL-TRANSLATION-PLAN.md",
+    "docs/IMPLEMENTATION-PLAN.md",
+    "docs/translation-tracking.json",
+    "docs/translation-progress.json"
+  ],
+  "publishedBaseline": "e1184136fc186e5f224f1f780dfd890875f4e15c",
+  "sourceAcceptance": "Qualified source-only record created; publication remains pending."
+}

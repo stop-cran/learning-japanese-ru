@@ -92,23 +92,59 @@ Progress is 2,542 reviewed-current / 2 excluded reviewed runtime-blocked /
 authorize grading, runtime activation, device/media/release work, or
 completion.
 
-## Batch138: qualified source candidate; publication pending
+## Batch138: published qualified source acceptance
 
 Batch138 adds complete Russian lessons and byte-identical frozen-source stroke
 assets for 米/経/給/絵/絶/続, plus six exact NAV-only changes on existing word
 pages. No learner-facing word text, quiz data, or grading behavior changed.
 Its signed pre-mutation freeze is `7bc7f54548d67b2dc3ccffdf5e4187987addf60d`;
-the signed runtime candidate is
-`688ff2f7b6d4c2f1de341ceead78a2690922eb6a`, content version
-`3fdd9e27d77b03c9`. The bounded review records C1/C2 UNVERIFIED overall and
-C3 CLEAN only within the six reviewed lessons. All 18 ordinary
-negative/fallback directions remain UNVERIFIED. Qualified progress is
+the signed runtime candidate is `688ff2f7b6d4c2f1de341ceead78a2690922eb6a`,
+content version `3fdd9e27d77b03c9`. The bounded review records C1/C2
+UNVERIFIED overall and C3 CLEAN only within the six reviewed lessons. All 18
+ordinary negative/fallback directions remain UNVERIFIED. Qualified progress is
 2,554 reviewed-current / 2 excluded reviewed runtime-blocked / 5,722 pending
-of 8,278, with 1,478 words / 523 kanji / 523 strokes. Publication is pending;
-this is not grading, runtime, device, media, release, activation, checkpoint,
-or completion approval. Preserve the excluded
+of 8,278, with 1,478 words / 523 kanji / 523 strokes.
+
+Owner-signed acceptance `506f04560b009d936240a906b523e0235079faa2` was
+published through [PR #24](https://github.com/stop-cran/learning-japanese-ru/pull/24)
+at main `e1184136fc186e5f224f1f780dfd890875f4e15c`; exact-main CI run
+[#42886500479](https://github.com/stop-cran/learning-japanese-ru/actions/runs/42886500479)
+passed. Actual public commit/main archives matched the exact Git archive
+path-by-path and byte-for-byte; all four protected pilot/integration refs
+remained unchanged, and issue #3 progress was updated. See the [publication
+verification](translation-batches/138-rice-experience-salary-picture-end-and-continue-kanji-publication-verification-001.json).
+This is not grading, runtime, device, media, release, ordinary-activation,
+checkpoint, or completion approval. Preserve the excluded
 `docs/translation-drafts/033-nature-outdoor-activity/words/空.md` and continue
 the frozen scope.
+
+## Batch139: qualified source acceptance recorded, publication pending
+
+Batch139 adds complete Russian lessons and byte-identical frozen-source stroke
+assets for 緒/罪/置/美/老/職, with four preauthorized NAV-only wrappers on
+existing word pages. Nine optional wrappers to unavailable word targets were
+omitted while preserving visible Japanese labels and all learner-facing text.
+No new word pages, quiz data, or grading behavior changed.
+
+The signed pre-mutation freeze is `3176366a836108f05398dc752c2fc037d0eb0ac4`.
+Independent review 001 found bounded C1 CLEAN, C2 UNVERIFIED overall (all 18
+ordinary negative/fallback directions remained UNVERIFIED), and a C3
+novice-clarity finding about unexplained on/kun terminology. A signed
+pre-mutation terminology amendment
+`96d3484e8311bb793f5a5793a827bbdf2a93e05b` authorized only that clarification;
+focused follow-up review 002 marked the finding resolved without widening C1/C2
+scope. The signed runtime candidate is
+`020b8fc924b33c3b132665060e80bc6b453ee86d`; content version
+`87be278411d3648a`.
+
+The [qualified source record](translation-batches/139-thread-crime-place-beauty-age-work-kanji-reviewed-source.json),
+[review receipt](translation-batches/139-thread-crime-place-beauty-age-work-kanji-independent-review-receipt-001.json),
+and [final validation](translation-batches/139-thread-crime-place-beauty-age-work-kanji-final-validation-001.json)
+record **2,566 reviewed-current / 2 excluded reviewed runtime-blocked / 5,710
+pending of 8,278**, with 1,478 words / 529 kanji / 529 strokes. This is
+qualified source progress only; publication verification, exact-main CI,
+public-archive checks, protected-ref checks, and issue-progress update remain
+pending for this batch.
 
 ## Previous published source milestone: batch134 smoke, cat, birth, stay and turn kanji
 

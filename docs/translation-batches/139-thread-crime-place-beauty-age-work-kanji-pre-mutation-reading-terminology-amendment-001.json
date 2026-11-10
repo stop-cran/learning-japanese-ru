@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "batchId": "139-thread-crime-place-beauty-age-work-kanji",
+  "recordedAt": "2026-11-10T21:13:28+01:00",
+  "status": "pre-mutation explanatory amendment; signed before runtime text changes",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "e1184136fc186e5f224f1f780dfd890875f4e15c",
+  "originalSemanticFreeze": "docs/translation-batches/139-thread-crime-place-beauty-age-work-kanji-source-adjudication-and-semantic-freeze-001.json",
+  "reviewEvidence": "docs/translation-batches/139-thread-crime-place-beauty-age-work-kanji-independent-review-001.md",
+  "reviewFinding": {
+    "facet": "C3 Russian comprehensibility",
+    "verdict": "NEEDS FIX",
+    "issue": "The beginner-facing labels он/кун and онъёми/кунъёми were used without explaining their distinction.",
+    "reviewerSuggestedResolution": "Add a short Russian explanation of reading categories in the lessons or link to an accessible explanation."
+  },
+  "resolutionBasis": {
+    "precedent": "Batch 133 independent review found the same bounded novice-clarity issue; its focused follow-up approved the explanation reproduced here in kanji/現.md and kanji/球.md.",
+    "precedentFollowup": "docs/translation-batches/133-king-presence-ball-kanji-independent-review-002-followup.md",
+    "precedentTextRead": "Онъёми — японское чтение, исторически восходящее к китайскому произношению; кунъёми — чтение, связанное с исконным японским словом. Это типы чтений, а не значения кандзи.",
+    "boundary": "Only reading-category terminology is clarified; no reading, meaning, example, metadata, quiz behavior, or grading decision changes."
+  },
+  "candidateBeforeAmendment": {
+    "branch": "full-ru-139-thread-crime-place-beauty-age-work-kanji",
+    "freezeCommit": "3176366a836108f05398dc752c2fc037d0eb0ac4",
+    "manifestVersionBeforeAmendment": "4791b37cff64635f",
+    "lessonRawBindings": [
+      {
+        "path": "kanji/緒.md",
+        "rawSha256BeforeAmendment": "4e4e02ea1c75e7c3eb942ba650d427b008228345d75141d5334e60d23f5dfb92",
+        "gitBlobObjectBeforeAmendment": "9d852575079da6b614a1babaed3216c4de506d24"
+      },
+      {
+        "path": "kanji/罪.md",
+        "rawSha256BeforeAmendment": "3cc3e28c0d538d6abcb62242ffad965f5805aee042d05097813685009a16ea50",
+        "gitBlobObjectBeforeAmendment": "ad158d8945b4e2c786117312c9ad3dd2359ac3df"
+      },
+      {
+        "path": "kanji/置.md",
+        "rawSha256BeforeAmendment": "a47ee7cb0e92675923b65404f9ad43b105167314da5aad1489de84ab57f48c16",
+        "gitBlobObjectBeforeAmendment": "5f964b2454e7d0142eb02b554eef05e762996bed"
+      },
+      {
+        "path": "kanji/美.md",
+        "rawSha256BeforeAmendment": "277a6f27bdc468c5adbda65c031cf17b2b192bef2cb74e27be70dcbeca3fc72e",
+        "gitBlobObjectBeforeAmendment": "34185af2efbec59fc367ad56373cd04fdcd9d102"
+      },
+      {
+        "path": "kanji/老.md",
+        "rawSha256BeforeAmendment": "052bbae15504a4472243d430ec8c00238f8c6a1384f8af7d92ba69164eb9a072",
+        "gitBlobObjectBeforeAmendment": "145846bef673151752afd6a1b984dc24e3aa2114"
+      },
+      {
+        "path": "kanji/職.md",
+        "rawSha256BeforeAmendment": "f671570911bbcbb41642f0a2fb0b5455bbbb1c73f087da1ee0d693e30fb646b5",
+        "gitBlobObjectBeforeAmendment": "d792435f2f0982971be43123f781471ca8b31e1f"
+      }
+    ]
+  },
+  "authorizedRuntimeChange": {
+    "paths": [
+      "kanji/緒.md",
+      "kanji/罪.md",
+      "kanji/置.md",
+      "kanji/美.md",
+      "kanji/老.md",
+      "kanji/職.md"
+    ],
+    "insertionPoint": "Immediately after the exact heading \"## Чтения\" and before its readings table.",
+    "fiveOnAndKunLessons": [
+      "緒",
+      "罪",
+      "置",
+      "美",
+      "老"
+    ],
+    "exactParagraph": "Онъёми — японское чтение, исторически восходящее к китайскому произношению; кунъёми — чтение, связанное с исконным японским словом. Это типы чтений, а не значения кандзи.",
+    "oneOnOnlyLesson": "職",
+    "exactOnOnlyParagraph": "Онъёми — японское чтение, исторически восходящее к китайскому произношению.",
+    "allOtherBytesMustRemainUnchanged": true
+  },
+  "unchangedQualifications": {
+    "C1": "Use the existing bounded review finding; no broader certification.",
+    "C2": "All 18 direct negative/fallback quiz directions remain UNVERIFIED; no grading edits authorized.",
+    "C3": "This amendment authorizes only the described terminology clarification; the whole-batch review must assess the resulting candidate.",
+    "strokeAssets": "No changes authorized; preserve exact frozen bytes."
+  },
+  "authorization": {
+    "preMutationAmendmentBeforeEdit": true,
+    "translationWithinExactAmendment": true,
+    "furtherSemanticChangesRequireAnotherPreMutationAmendment": true,
+    "quizOrGradingChanges": false,
+    "otherWordPageChanges": false,
+    "deviceMediaReleaseOrActivationApproval": false
+  }
+}

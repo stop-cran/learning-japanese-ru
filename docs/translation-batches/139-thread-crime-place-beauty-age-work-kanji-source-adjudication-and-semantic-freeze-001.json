@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "batchId": "139-thread-crime-place-beauty-age-work-kanji",
+  "recordedAt": "2026-11-10T19:52:26+00:00",
+  "status": "pre-mutation semantic freeze; authoring is authorized only within this scope",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "publishedBaseline": "e1184136fc186e5f224f1f780dfd890875f4e15c",
+  "selectionRecord": "docs/translation-batches/139-thread-crime-place-beauty-age-work-kanji-intake.json",
+  "navigationAmendment": "docs/translation-batches/139-thread-crime-place-beauty-age-work-kanji-pre-mutation-navigation-amendment-001.json",
+  "sourceRead": {
+    "frozenEnglishLessonsRead": [
+      "kanji/緒.md",
+      "kanji/罪.md",
+      "kanji/置.md",
+      "kanji/美.md",
+      "kanji/老.md",
+      "kanji/職.md"
+    ],
+    "wholeLessonsAndEveryLearnerFacingSectionBoundToFrozenGitBlobAndRawSha256InIntake": true,
+    "primaryEvidence": "Exact six KANJIDIC2 character records and 18 exact JMdict spelling/reading entries in the private batch139 captures were extracted from previously captured official archive bytes and read. Captured archive hashes differ from frozen source archive hashes; no identity claim.",
+    "communityJlptBasis": "N3 membership/order is from the frozen source community list; KANJIDIC2 legacy JLPT fields are not substituted for community N3 classification."
+  },
+  "frozenJapaneseInvariants": {
+    "lessonIdsAndPaths": "Use exactly the six one-character IDs and kanji/ paths from frozen source.",
+    "metadata": "Preserve each source jlpt, N3/grade/structure-unclassified tags, radical symbol and classical radical number, stroke count, every onyomi/kunyomi entry, and all directed distractor IDs exactly. Do not infer missing classification, phonetic role, or historical etymology.",
+    "strokes": "Copy each strokes/<character>.json raw byte-for-byte from frozen source commit; do not regenerate, normalize, or edit geometry.",
+    "examplesAndClaims": "Preserve Japanese examples, spellings, readings, particles, event roles and full source teaching scope. Correct Russian prose may adapt English-only comparisons but may not silently change a Japanese claim.",
+    "mnemonics": "Translate as modern visual mnemonics, not historical derivations.",
+    "links": "Keep all links to existing or in-batch kanji lessons. Apply only the four word-page wrappers and nine optional missing-word wrapper removals in the signed amendment.",
+    "quiz": "Do not change distractor arrays, quiz exclusions, pools, answer semantics or grading."
+  },
+  "perKanjiScope": [
+    {
+      "kanji": "緒",
+      "preserve": "Cord/strap and beginning senses; explain 一緒 as a whole meaning together, not a literal one-cord translation; ショ in 一緒, いっしょ with small っ, and standalone kun お. Keep the modern-shape mnemonic explicitly non-historical; do not infer もの from resemblance to 者; compare 給/紙 as the source does."
+    },
+    {
+      "kanji": "罪",
+      "preserve": "Wrongdoing, crime, or sin with legal/moral/religious judgment determined by context; preserve 罪 つみ and cited 犯罪/有罪/無罪 examples; do not equate every mistake with 罪. Preserve 网 as 罒 radical (not 目), modern-shape mnemonic only, and the 置/買/四 comparisons."
+    },
+    {
+      "kanji": "置",
+      "preserve": "Putting something in a position or leaving it there; preserve 置く おく, the object marked を and destination に, and on チ in 位置 いち. Preserve 网 as 罒 and comparisons to 罪/買/目; no historical construction claim."
+    },
+    {
+      "kanji": "美",
+      "preserve": "Beauty across pleasing visual, auditory, or otherwise appreciated qualities; preserve 美しい うつくしい and 美術 びじゅつ; describe radical 羊 as the horned top portion above 大, not a full-height neighbor. Keep mnemonic modern/nonhistorical and comparisons 着/大/春."
+    },
+    {
+      "kanji": "老",
+      "preserve": "Aging/old age especially in people; preserve 老人 ろうじん and 老いる おいる; do not apply automatically to old objects/buildings. Compare 古い ふるい for things and 若い わかい for youth. Preserve source shape mnemonic and comparisons 考/者/北."
+    },
+    {
+      "kanji": "職",
+      "preserve": "Employment, occupation, or a post held; preserve 職業 しょくぎょう, 就職 しゅうしょく and 職場 しょくば; do not generalize to every task. Preserve source metadata ソク while noting examples use ショク; radical 耳; no kunyomi; modern shape mnemonic only and comparisons 耳/聞/音."
+    }
+  ],
+  "sourceAdjudications": {
+    "kanjidic2": "Private capture records exact current KANJIDIC2 readings, grades, stroke counts and classical radicals. The frozen metadata remains authoritative for this translation; live legacy JLPT values do not establish community N3.",
+    "jmdict": "Exact full forms/readings/senses for listed examples are bound in the private capture. Source-entry presence does not establish frequency, naturalness, or answer exclusivity.",
+    "n3Classification": "Frozen 367-character community list establishes positions 270, 271, 272, 273, 274, and 276; position 275 is already reviewed-current.",
+    "unavailableOptionalWords": "words/罪.md, words/老人.md, and words/職業.md are absent in the RU baseline; preserve their visible Japanese words/readings and full Russian instruction while removing only authorized link wrappers."
+  },
+  "candidateBoundary": {
+    "newLessons": 6,
+    "newFrozenStrokeAssets": 6,
+    "navigationOnlyWordPages": 4,
+    "newWordPages": 0,
+    "optionalUnavailableWordLinkWrapperRemovals": 9,
+    "articleReferenceOmissions": 0,
+    "otherRuntimeChanges": 0,
+    "quizOrGradingChanges": 0,
+    "unverifiedDirectNegativeFallbackDirections": 18
+  },
+  "unresolved": {
+    "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 18 direct directions; no grading approval.",
+    "nativeSpeakerNaturalness": "Not independently certified.",
+    "frequencyAndUniversalNaturalness": "Not established by cited dictionary entries.",
+    "checkpointAuthority": null,
+    "checkpointReady": false,
+    "fullTranslationComplete": false
+  },
+  "authorization": {
+    "translationWithinRecordedScope": true,
+    "onlyNavigationChangesInAmendmentMayTouchExistingWordPages": true,
+    "anyFurtherSemanticChangeRequiresSeparatePreMutationAmendment": true,
+    "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false
+  }
+}

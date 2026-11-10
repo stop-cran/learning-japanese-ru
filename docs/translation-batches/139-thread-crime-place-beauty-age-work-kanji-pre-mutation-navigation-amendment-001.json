@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "batchId": "139-thread-crime-place-beauty-age-work-kanji",
+  "recordedAt": "2026-11-10T19:52:26+00:00",
+  "status": "pre-mutation navigation amendment; included with signed freeze before runtime authoring",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "e1184136fc186e5f224f1f780dfd890875f4e15c",
+  "scope": "Authorize only four exact NAV wrappers on existing RU word pages and remove nine Markdown wrappers to unavailable optional word targets. Preserve all visible Japanese and Russian text, metadata, quiz fields and every other byte; preserve each working-copy newline convention so Git text normalization produces only the exact authorized wrapper change.",
+  "wordPageWrappers": [
+    {
+      "path": "words/一緒.md",
+      "baselineGitBlob": "2f2187d214602d413100ea0b02bac26e16d9e3cc",
+      "baselineBlobRawSha256": "173f42499a6ab5066a6f8c56c5c889b741ecf8fb4f46ac929f99153b6bbb7561",
+      "baselineBlobBytes": 2466,
+      "currentWorktreeRawSha256": "79ec656ce0906056af7647a7baca0da65ed77b92c7747089e7d17aba40e15add",
+      "currentWorktreeBytes": 2516,
+      "workingCopyEqualsBaselineAfterGitTextNormalization": true,
+      "replaceExactlyOnce": {
+        "old": "а у 緒 есть значения шнура и начала.",
+        "new": "а у [緒](../kanji/緒.md) есть значения шнура и начала."
+      },
+      "targetKanji": "緒",
+      "frozenEnglishEvidence": {
+        "path": "words/一緒.md",
+        "gitBlob": "175ba8ff1f75c8e6c69aec4a3b5f38f3a082f119",
+        "rawSha256": "86ac2cac20fb2a27abcf492dce468d98689c2550885df24d7f031bf60437ae03",
+        "textSnippet": "Exact corresponding source passage links this component to ../kanji/緒.md."
+      },
+      "visibleTextAndEveryOtherByteMustRemainIdentical": true,
+      "navigationOnly": true
+    },
+    {
+      "path": "words/置く.md",
+      "baselineGitBlob": "cb5c93010020af3802519e27fb492a997abdc0b7",
+      "baselineBlobRawSha256": "52fce2a0c74a411b77357fbcb02d115f50a212ab5e490f1c85025db75819f6f2",
+      "baselineBlobBytes": 2646,
+      "currentWorktreeRawSha256": "390dcb275d9dbcaf51be07bf85cb2c3a8bf731d641dc499d75d08e24feddd657",
+      "currentWorktreeBytes": 2697,
+      "workingCopyEqualsBaselineAfterGitTextNormalization": true,
+      "replaceExactlyOnce": {
+        "old": "置 передаёт размещение, а записанное каной く завершает глагол.",
+        "new": "[置](../kanji/置.md) передаёт размещение, а записанное каной く завершает глагол."
+      },
+      "targetKanji": "置",
+      "frozenEnglishEvidence": {
+        "path": "words/置く.md",
+        "gitBlob": "4b4286845f39f4494e4cd357a313f0b9d9c9a6be",
+        "rawSha256": "75224b4a3a9e4695347fd0a9cd04ba15618b1158e91d763e478d46e914926703",
+        "textSnippet": "Exact corresponding source passage links this component to ../kanji/置.md."
+      },
+      "visibleTextAndEveryOtherByteMustRemainIdentical": true,
+      "navigationOnly": true
+    },
+    {
+      "path": "words/美しい.md",
+      "baselineGitBlob": "2507e56748374ee87ee1513ae064a354cfbd5deb",
+      "baselineBlobRawSha256": "fc0c6c77786a45e32ba5c1a6710b54951bffc9a52f2a4ba50ee404f24cb77a6f",
+      "baselineBlobBytes": 2747,
+      "currentWorktreeRawSha256": "fc0c6c77786a45e32ba5c1a6710b54951bffc9a52f2a4ba50ee404f24cb77a6f",
+      "currentWorktreeBytes": 2747,
+      "workingCopyEqualsBaselineAfterGitTextNormalization": true,
+      "replaceExactlyOnce": {
+        "old": "美 вносит значение красоты.",
+        "new": "[美](../kanji/美.md) вносит значение красоты."
+      },
+      "targetKanji": "美",
+      "frozenEnglishEvidence": {
+        "path": "words/美しい.md",
+        "gitBlob": "6de480004ec6423132ff74dfa9592bbdd5f8abe3",
+        "rawSha256": "a2d8beb50e370434fbf23d03ac98892333be4c0db13425a7570a6b8b403c4748",
+        "textSnippet": "Exact corresponding source passage links this component to ../kanji/美.md."
+      },
+      "visibleTextAndEveryOtherByteMustRemainIdentical": true,
+      "navigationOnly": true
+    },
+    {
+      "path": "words/美術館.md",
+      "baselineGitBlob": "559faaa044cd0d05a075049bcbb9cfc077016f15",
+      "baselineBlobRawSha256": "ad7531e05d7e26e1bc0bd3987ce33ff88d73229c7e9cba88ff9e7c2bccfa8ea7",
+      "baselineBlobBytes": 2489,
+      "currentWorktreeRawSha256": "ad7531e05d7e26e1bc0bd3987ce33ff88d73229c7e9cba88ff9e7c2bccfa8ea7",
+      "currentWorktreeBytes": 2489,
+      "workingCopyEqualsBaselineAfterGitTextNormalization": true,
+      "replaceExactlyOnce": {
+        "old": "美, «красота»,",
+        "new": "[美](../kanji/美.md), «красота»,"
+      },
+      "targetKanji": "美",
+      "frozenEnglishEvidence": {
+        "path": "words/美術館.md",
+        "gitBlob": "66a8c6cefd0ab2809238a6ec2a55b4e06247cd08",
+        "rawSha256": "3af53abd7b696ab11719192775d5996c6c9ec066189817979d606995bf5a0fa8",
+        "textSnippet": "Exact corresponding source passage links this component to ../kanji/美.md."
+      },
+      "visibleTextAndEveryOtherByteMustRemainIdentical": true,
+      "navigationOnly": true
+    }
+  ],
+  "unavailableOptionalWordLinks": [
+    {
+      "lessonPath": "kanji/罪.md",
+      "sourceLessonGitBlob": "cde97a699002c6071469c2f67b8c76eef878da97",
+      "sourceLessonRawSha256": "bd11fadac8e7eb6871b43e2d50ff7913ef8ce38ef86ce450d73a0d2dbd45c69f",
+      "targetPath": "words/罪.md",
+      "targetAbsentAtBaseline": true,
+      "sourceLinkOccurrences": 3,
+      "operation": "In the Russian lesson only, strip the Markdown wrapper from each link whose label is 罪 and target is ../words/罪.md; preserve the Japanese label, reading, examples and all Russian teaching text."
+    },
+    {
+      "lessonPath": "kanji/老.md",
+      "sourceLessonGitBlob": "f463f6757a1928eb7a194e66a17aaddab5f12f0a",
+      "sourceLessonRawSha256": "672ac2360cd63a00976b9ce5f9ec16ec2008781fe5b3a9402ef76765df54528f",
+      "targetPath": "words/老人.md",
+      "targetAbsentAtBaseline": true,
+      "sourceLinkOccurrences": 3,
+      "operation": "In the Russian lesson only, strip the Markdown wrapper from each link whose label is 老人 and target is ../words/老人.md; preserve the Japanese label, reading, examples and all Russian teaching text."
+    },
+    {
+      "lessonPath": "kanji/職.md",
+      "sourceLessonGitBlob": "0219c0dfd24b52570514e552291db779d414779f",
+      "sourceLessonRawSha256": "32f678c8b09d64943d08458898b82285318c25cd503c7e0e54a3bf87dcecf8c3",
+      "targetPath": "words/職業.md",
+      "targetAbsentAtBaseline": true,
+      "sourceLinkOccurrences": 3,
+      "operation": "In the Russian lesson only, strip the Markdown wrapper from each link whose label is 職業 and target is ../words/職業.md; preserve the Japanese label, reading, examples and all Russian teaching text."
+    }
+  ],
+  "limits": {
+    "wordPageWrapperCount": 4,
+    "wordPageVisibleTextChanges": false,
+    "wordPageMetadataOrQuizChanges": false,
+    "optionalWordLinkWrapperRemovals": 9,
+    "articleReferenceOmissions": 0,
+    "newWordPages": false,
+    "otherWordPageChangesAuthorized": false,
+    "quizOrGradingChanges": false,
+    "otherRuntimeChangesAuthorized": false
+  }
+}
