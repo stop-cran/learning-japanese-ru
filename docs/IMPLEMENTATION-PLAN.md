@@ -31,7 +31,7 @@ unchanged, and issue #3 progress was updated. See the [publication verification]
 This remains qualified source progress only—no grading, runtime, device, media,
 release, ordinary-activation, checkpoint, or full-translation approval.
 
-## Current qualified source candidate: batch136 mutual certainty, show, department, extent and kind
+## Qualified source acceptance awaiting publication: batch136 mutual certainty, show, department, extent and kind
 
 The next six pending kanji in the frozen N3 source order, 相/確/示/科/程/種,
 are complete Russian lesson candidates with six byte-identical frozen stroke
@@ -44,13 +44,22 @@ The [intake](translation-batches/136-mutual-certainty-show-department-extent-kin
 and [navigation amendment](translation-batches/136-mutual-certainty-show-department-extent-kind-kanji-pre-mutation-navigation-amendment-001.json)
 were signed and pushed before runtime authoring in commit
 `8aa5f8d5a98d10af7992a6a5517ae186f26aa85a`. Candidate content version is
-`eb19ed1b55ef40a2`; structural validation passed, but independent review and
-acceptance are pending. Published counts remain 2,516 reviewed-current / 2
-runtime-blocked / 5,760 pending of 8,278; 1,478 words / 504 kanji / 504
-strokes. All 18 ordinary negative/fallback directions remain **UNVERIFIED**.
-No grading, runtime, device, media, release, ordinary-activation, checkpoint, or
-full-translation approval is implied. Continue review and normal publication,
-then every remaining safe frozen family.
+`c7cdeb30962724ec`. The original independent review found C1 CLEAN within its
+bounded evidence, C2 UNVERIFIED overall (including all 18 ordinary quiz
+directions), and a novice-clarity C3-01 finding. A signed pre-mutation
+terminology amendment (`85abf691e98b46f2320cfcf0fcb7382e1772e183`) authorized
+one short explanation in each lesson; a focused C3-only follow-up found that
+finding addressed, qualified. The amended runtime candidate is signed and
+pushed as `b9eaf3c544ad7d232bf6c6be23ca62748262cd7a`. The [qualified source
+record](translation-batches/136-mutual-certainty-show-department-extent-kind-kanji-reviewed-source.json)
+and [final validation](translation-batches/136-mutual-certainty-show-department-extent-kind-kanji-final-validation-001.json)
+record 2,528 reviewed-current / 2 runtime-blocked / 5,748 pending of 8,278,
+with 1,478 words / 510 kanji / 510 strokes; content version is
+`c7cdeb30962724ec`. Publication and integration are still pending, so main
+remains at batch 135. All 18 ordinary negative/fallback directions remain
+**UNVERIFIED**. No grading, runtime, device, media, release, ordinary-activation,
+checkpoint, or full-translation approval is implied. Continue normal publication
+and every remaining safe frozen family.
 
 ## Previous published source milestone: batch134 smoke, cat, birth, stay and turn kanji
 
