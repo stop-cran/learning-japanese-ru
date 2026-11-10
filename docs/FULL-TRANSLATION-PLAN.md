@@ -6388,3 +6388,25 @@ the exact published main baseline; its pre-mutation freeze selects the first fou
 remaining frozen N3 roots, 浮/消/深/済, and their direct provider closure. This is
 not N3 completion: continue through every remaining safe frozen family and do not
 treat a candidate milestone or a convenient batch boundary as completion.
+
+## Current continuation after batch 133 candidate
+
+Batch 133's qualified source candidate is `a003aac9d3c0659d5d5d72ec1a220e43567e3d5c`,
+based on published baseline `dcb272dec45c8a64ba951d7fff56209ae1945660`, with source
+still frozen at `6af98cb717755690a9ca793e5454a96ebd7a8f9f`. It adds complete lessons
+and byte-identical frozen strokes for 王, 現 and 球, plus only the five
+preauthorized NAV-only word-page changes. The initial reviewer identified an
+unexplained on’yomi/kun’yomi terminology issue; a focused, read-only follow-up
+confirmed that the three concise explanations resolve that finding. The original
+review’s C1 evidence boundary remains; C2 remains UNVERIFIED for all nine direct
+ordinary quiz directions. Neither review grants grading, runtime, device, media,
+release or ordinary-activation approval.
+
+The candidate progress snapshot is **2,496 reviewed-current**, **2 reviewed but
+runtime-blocked media drafts**, and **5,780 pending** of 8,278 frozen runtime
+entries: 494 kanji, 494 strokes and 1,478 words. Content version is
+`9889ff4126ffc763`; fresh candidate manifest, validator, 124 tests and content
+budget checks passed. `checkpointAuthority` remains null and `checkpointReady`
+false. Candidate integration, public archives, protected refs and exact-main CI
+remain separate publication verification; this is not full translation
+completion. Continue with batch 134 and all remaining safe frozen families.

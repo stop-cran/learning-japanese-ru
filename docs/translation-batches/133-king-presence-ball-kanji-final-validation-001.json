@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "batchId": "133-king-presence-ball-kanji",
+  "candidateCommit": "a003aac9d3c0659d5d5d72ec1a220e43567e3d5c",
+  "candidateTree": "13721a1906024bb1b1af155495a3532f00b83fb0",
+  "contentVersion": "9889ff4126ffc763",
+  "execution": {
+    "order": "Serial after the candidate, review records, tracking, and progress reconciliation.",
+    "environment": "Python UTF-8 output enabled; bytecode writing disabled with -B. No runtime source, media, device, or release authority is implied."
+  },
+  "commands": [
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools/build_manifest.py"
+      ],
+      "exitCode": 0,
+      "stdout": "manifest.json: 2496 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 9889ff4126ffc763\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools/validate.py"
+      ],
+      "exitCode": 0,
+      "stdout": "0 error(s)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools",
+        "-p",
+        "test_*.py"
+      ],
+      "exitCode": 0,
+      "stdout": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 35.066s\n\nOK\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools/check_content_budget.py"
+      ],
+      "exitCode": 0,
+      "stdout": "{'files': 2504, 'entries': 2513, 'retainedBytes': 6935607, 'inflatedBytes': 6953822, 'localZipBytes': 3493016, 'listeningTaskMediaBytes': 0}\n",
+      "stderr": ""
+    }
+  ],
+  "contentBudget": {
+    "files": 2504,
+    "entries": 2513,
+    "retainedBytes": 6935607,
+    "inflatedBytes": 6953822,
+    "localZipBytes": 3493016,
+    "listeningTaskMediaBytes": 0
+  },
+  "allPassed": true,
+  "qualification": "These checks validate repository structure, tests and packaging budget only; all nine ordinary quiz directions remain UNVERIFIED, and no runtime, grading, activation, device, media, or release approval is implied.",
+  "artifacts": [
+    {
+      "path": "manifest.json",
+      "utf8Bytes": 223207,
+      "rawSha256": "ee8680e696b2db3023cb05e78b62c0feb6feaeb286c20dfa7f6a61d6ea62fc45"
+    },
+    {
+      "path": "docs/translation-tracking.json",
+      "utf8Bytes": 7900876,
+      "rawSha256": "98b2518f19aace0f3162174ee7da99438ceef0e9fb30d340213955e8b915f722"
+    },
+    {
+      "path": "docs/translation-progress.json",
+      "utf8Bytes": 5326506,
+      "rawSha256": "627721c3862e82039fc7901f33f169620bb49306473baa134c4043ba63101516"
+    }
+  ]
+}

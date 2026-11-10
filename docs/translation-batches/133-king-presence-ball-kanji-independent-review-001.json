@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "batchId": "133-king-presence-ball-kanji",
+  "reviewer": {
+    "mode": "independent-read-only",
+    "executionId": null,
+    "executionIdUnavailable": true,
+    "standaloneRawOutputAvailable": false
+  },
+  "snapshot": {
+    "candidateCommit": "6dc3b68557d4b198a5a6c1e9c49441951d7f17e6",
+    "candidateTree": "1ff97d801cd86f58ec8d2bf9dbb4dbf91b2e321a",
+    "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f"
+  },
+  "report": {
+    "path": "docs/translation-batches/133-king-presence-ball-kanji-independent-review-001.md",
+    "captureDomain": "Public-safe projection of the actual review outcome preserved in the prior session summary; not verbatim raw reviewer output. Original execution ID and standalone output were unavailable.",
+    "utf8Bytes": 1729,
+    "rawSha256": "393f8f01bec6990c5512d3b81597cbf79b76bdc61552023f7610e82b65b14664",
+    "gitBlobSha": "f8e52db99fe79e7ce7f51fbcdd5ff7392ede9f71",
+    "gitBlobUtf8Bytes": 1710
+  },
+  "qualifiedVerdicts": {
+    "C1": "No concrete factual error established in the reviewed scope; evidence limits apply and this is not native-speaker certification.",
+    "C2": {
+      "scopeNavigationDependencies": "Consistent with the signed scope: three lessons, three reused stroke assets, and five NAV-only word changes; no quiz/grading changes.",
+      "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all nine direct directions; no grading approval."
+    },
+    "C3": "NEEDS FIX: on'yomi and kun'yomi were used without explaining their distinction to novice readers."
+  },
+  "supportedFindings": [
+    {
+      "facet": "C3",
+      "finding": "Explain on'yomi and kun'yomi for novice readers.",
+      "status": "resolved-by-focused-correction",
+      "correctionCommit": "a003aac9d3c0659d5d5d72ec1a220e43567e3d5c",
+      "followupReport": "docs/translation-batches/133-king-presence-ball-kanji-independent-review-002-followup.md"
+    }
+  ],
+  "unresolved": {
+    "ordinaryQuizDirections": [
+      "王→土",
+      "王→工",
+      "王→生",
+      "現→親",
+      "現→見",
+      "現→球",
+      "球→理",
+      "球→現",
+      "球→王"
+    ],
+    "gradingGuardAdded": false,
+    "metadataRetentionIsNotGradingApproval": true,
+    "otherLimits": [
+      "The original report's exact line-by-line coverage and raw output were not retained in the current record.",
+      "No native-speaker certification, glyph-pixel inspection, app/device/release acceptance, media approval, or ordinary-activation approval."
+    ]
+  },
+  "authority": {
+    "qualifiedSourceProgressOnly": true,
+    "runtimeAcceptance": false,
+    "quizGradingApproval": false,
+    "appDeviceMediaReleaseApproval": false,
+    "ordinaryActivationApproval": false,
+    "fullTranslationCompletion": false
+  }
+}
