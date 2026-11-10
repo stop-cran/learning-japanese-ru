@@ -6236,3 +6236,27 @@ remain separate. Later actual findings may require affected-batch correction/rev
 not a speculative stop to unrelated authoring.
 Continue the 148 remaining N5 words and every other safe frozen level/family;
 the entire finite objective remains in progress.
+
+## Current continuation status after batch 128
+
+The qualified batch-128 source candidate adds complete Russian lessons and exact
+frozen stroke assets for 決, 治, 法, 泳, 洗, 活 and 流, plus only the 14
+preauthorized navigation links on existing word pages. Its signed candidate
+commit is `c21b01f4e1d2c1247d89ae4d5951ab00bf9b5c0a`; source remains frozen at
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`. Candidate and qualified review
+receipts are in `docs/translation-batches/128-decide-govern-law-swim-wash-kanji-*`.
+
+The current branch progress is **2,448 reviewed-current**, **2 reviewed but
+runtime-blocked media drafts**, and **5,828 pending** of 8,278 frozen runtime
+entries. It includes 470 kanji, 470 stroke files and 1,478 words. This is a
+qualified source-content checkpoint only: C1/C3 are bounded to the seven
+lessons and the authorized navigation changes; C2 remains UNVERIFIED for all
+21 ordinary active-negative quiz directions. No grading guard, runtime
+activation, device or release approval is implied. `checkpointAuthority` remains
+null, `checkpointReady` remains false, and full translation is not complete.
+
+At this writing the candidate is pushed on its short-lived branch but has not
+been integrated or published on `main`. Complete signed normal PR integration,
+exact-main CI, public archive and protected-ref verification before starting
+batch 129. Then continue through every remaining safe frozen family; do not
+treat the candidate milestone or a convenient batch boundary as completion.
