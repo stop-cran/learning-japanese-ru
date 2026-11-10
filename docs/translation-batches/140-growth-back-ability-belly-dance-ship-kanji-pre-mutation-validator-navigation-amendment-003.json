@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "batchId": "140-growth-back-ability-belly-dance-ship-kanji",
+  "recordedAt": "2026-11-10T22:10:00+00:00",
+  "status": "pre-mutation validator-driven navigation amendment before candidate acceptance",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "37a0a09087a0d45196f437c40ce6d311619eec93",
+  "amends": [
+    "docs/translation-batches/140-growth-back-ability-belly-dance-ship-kanji-pre-mutation-navigation-amendment-001.json",
+    "docs/translation-batches/140-growth-back-ability-belly-dance-ship-kanji-pre-mutation-evidence-and-navigation-amendment-002.json"
+  ],
+  "trigger": {
+    "validatorCommand": "python -X utf8 tools\\validate.py",
+    "result": "5 errors: newly available kanji cards require missing wrappers in existing word articles"
+  },
+  "authorizedNavigationOnlyWrappers": [
+    {
+      "path": "words/教育.md",
+      "replaceExactlyOnce": {
+        "old": "а 育 — с воспитанием или развитием.",
+        "new": "а [育](../kanji/育.md) — с воспитанием или развитием."
+      }
+    },
+    {
+      "path": "words/育てる.md",
+      "replaceExactlyOnce": {
+        "old": "育 передаёт идею роста и заботы.",
+        "new": "[育](../kanji/育.md) передаёт идею роста и заботы."
+      }
+    },
+    {
+      "path": "words/背.md",
+      "replaceExactlyOnce": {
+        "old": "背 называет рост человека в выражениях вроде",
+        "new": "[背](../kanji/背.md) называет рост человека в выражениях вроде"
+      }
+    },
+    {
+      "path": "words/背広.md",
+      "replaceExactlyOnce": {
+        "old": "背 означает спину, а [広](../kanji/広.md) — «широкий».",
+        "new": "[背](../kanji/背.md) означает спину, а [広](../kanji/広.md) — «широкий»."
+      }
+    },
+    {
+      "path": "words/お見舞い.md",
+      "replaceExactlyOnce": {
+        "old": "[見](../kanji/見.md) и 舞",
+        "new": "[見](../kanji/見.md) и [舞](../kanji/舞.md)"
+      }
+    }
+  ],
+  "limits": {
+    "navigationOnly": true,
+    "visibleMeaningTextChange": false,
+    "metadataOrQuizChanges": false,
+    "otherRuntimeChangesAuthorized": false
+  }
+}

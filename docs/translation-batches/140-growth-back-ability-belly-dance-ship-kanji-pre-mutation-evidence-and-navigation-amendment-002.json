@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "batchId": "140-growth-back-ability-belly-dance-ship-kanji",
+  "recordedAt": "2026-11-10T21:40:00+00:00",
+  "status": "pre-mutation amendment to fix source evidence bindings and optional-link counts before runtime edits",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "37a0a09087a0d45196f437c40ce6d311619eec93",
+  "amends": [
+    "docs/translation-batches/140-growth-back-ability-belly-dance-ship-kanji-source-adjudication-and-semantic-freeze-001.json",
+    "docs/translation-batches/140-growth-back-ability-belly-dance-ship-kanji-pre-mutation-navigation-amendment-001.json"
+  ],
+  "reason": "The original pre-mutation records used placeholder primary-evidence paths and undercounted four absent optional-wrapper occurrences.",
+  "sourceEvidenceRebinding": {
+    "kanjidic2Capture": "D:\\CopilotSessionStates\\68a44f7f-62db-4755-8296-fd586c861a35\\files\\ru-140-kanjidic2-primary-capture-001.json",
+    "jmdictCapture": "D:\\CopilotSessionStates\\68a44f7f-62db-4755-8296-fd586c861a35\\files\\ru-140-jmdict-primary-capture-001.json",
+    "captureScope": "Exact six KANJIDIC2 character records and exact JMdict entries used by all listed teaching examples/comparisons for 育/背/能/腹/舞/船 were extracted from official archive bytes and read before authoring.",
+    "hashDomainNote": "Capture record hashes are raw source-fragment SHA-256; they are not Git blob object IDs."
+  },
+  "correctedUnavailableOptionalWordLinkCounts": [
+    {
+      "lessonPath": "kanji/育.md",
+      "targetPath": "../words/育つ.md",
+      "sourceLinkOccurrences": 3
+    },
+    {
+      "lessonPath": "kanji/能.md",
+      "targetPath": "../words/才能.md",
+      "sourceLinkOccurrences": 3
+    },
+    {
+      "lessonPath": "kanji/腹.md",
+      "targetPath": "../words/腹.md",
+      "sourceLinkOccurrences": 3
+    },
+    {
+      "lessonPath": "kanji/舞.md",
+      "targetPath": "../words/舞台.md",
+      "sourceLinkOccurrences": 3
+    }
+  ],
+  "amendedRuntimeBoundary": {
+    "authorizedWordPageWrappers": 2,
+    "optionalUnavailableWordLinkWrapperRemovals": 12,
+    "otherWordPageChangesAuthorized": false,
+    "quizOrGradingChanges": false,
+    "otherRuntimeChangesAuthorized": false
+  },
+  "unchangedQualifiers": {
+    "c1": "No semantic approval is implied by this amendment.",
+    "c2": "All 18 direct negative/fallback directions remain UNVERIFIED.",
+    "c3": "Russian comprehensibility remains to be judged by independent review after candidate creation."
+  }
+}

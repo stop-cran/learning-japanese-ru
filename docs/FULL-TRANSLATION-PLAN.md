@@ -2,6 +2,25 @@
 
 ## Previous published source milestone: batch135 doubt, climb, everyone, steal and straight kanji
 
+## Batch140: qualified source acceptance recorded, publication pending
+
+Batch140 adds complete Russian lessons and byte-identical frozen stroke assets
+for 育/背/能/腹/舞/船. Scope also includes seven exact NAV-only wrappers on
+existing word pages, including five validator-driven wrappers frozen in signed
+amendment 003. Optional wrappers to unavailable word pages were removed in 12
+exact occurrences while preserving visible Japanese labels and learner text.
+
+The signed pre-mutation freeze is `9eaef26e0541d7d626c88a8cc9e9f8a0d6938b74`;
+signed runtime candidate is `5b38a2929c8684f1518f4e8deee8f30f9f7fc572`,
+content version `84b0a2e1289d2257`. Independent review 001 reported C1/C2 clean
+within reviewed scope and one C3 wording issue; signed amendment 004 fixed it,
+and focused follow-up 002 marked the C3 issue resolved. C2 ordinary
+negative/fallback safety remains **UNVERIFIED** for all 18 direct directions.
+
+Qualified progress is now **2,578 reviewed-current / 2 excluded reviewed
+runtime-blocked / 5,698 pending of 8,278**, with 1,478 words / 535 kanji / 535
+strokes. Checkpoint authority remains null and `Ready` false.
+
 Batch135 adds complete Russian lessons and byte-identical frozen-source stroke
 assets for 疑/登/皆/盗/直, plus six preauthorized NAV-only wrappers on existing
 word pages. No word teaching content, quiz arrays, or grading behavior changed.
