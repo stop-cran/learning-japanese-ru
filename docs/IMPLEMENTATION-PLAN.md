@@ -11,7 +11,7 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current qualified source candidate: batch127 capture and search kanji
+## Current published source milestone: batch127 capture and search kanji
 
 Batch127 adds five complete Russian frozen-community N3 lessons, 捕/掛/探/民/求, and five
 byte-identical frozen KanjiVG stroke files. Five existing word pages receive only planned
@@ -36,9 +36,15 @@ strokes. Batch126 added nine of each and was integrated at `1468224621c9c2092a11
 The [qualified source record](translation-batches/127-capture-hanging-search-population-kanji-reviewed-source.json)
 records 2,434 reviewed-current / 2 excluded reviewed blocked-media drafts / 5,842 pending of
 8,278; 1,478 words / 463 kanji / 463 strokes. Version `7034d4c5959242d3`; checkpoint authority
-remains null and `Ready` false. The candidate is `8a029bc1097e32d68c12f4c5ac4503982a0f3896`;
-normal signed integration/publication is still pending. No runtime, device, release, or ordinary
-activation approval is claimed. Continue batch128 and every remaining safe frozen family.
+remains null and `Ready` false. PR [#10](https://github.com/stop-cran/learning-japanese-ru/pull/10)
+published the qualified source at main commit `aecc058a0c3c254f9fe91da532ab8eba5ccc2eec`.
+Exact-main CI passed; the actual public ZIP and tar.gz exports were byte-compared with Git archive,
+including LICENSE, NOTICE.md, and UNICODE-LICENSE.txt. The three owner-authored branch commits
+verify under the full owner key and `stop-cran` author/committer identity. GitHub's verified merge
+commit records `web-flow` as platform committer; it is not represented as an owner-key commit.
+See the [publication verification](translation-batches/127-capture-hanging-search-population-kanji-publication-verification-001.json).
+No runtime, device, release, or ordinary activation approval is claimed. Continue batch128 and
+every remaining safe frozen family.
 
 ## Previous qualified source milestone: batch125 tooth, age and stages kanji
 
