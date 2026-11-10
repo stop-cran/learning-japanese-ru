@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "batchId": "138-rice-experience-salary-picture-end-and-continue-kanji",
+  "recordedAt": "2026-11-10T19:01:35+00:00",
+  "status": "pre-mutation navigation amendment; included with the signed freeze before runtime authoring",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "4d961b89035f65cc45c4fc797bb703d8ee1f3c5e",
+  "scope": "Authorize only six exact NAV wrappers on existing word pages and removal of six Markdown wrappers to unavailable optional word targets. Preserve all visible Japanese and Russian text, metadata, quiz fields and every other byte.",
+  "wordPageWrappers": [
+    {
+      "path": "words/米.md",
+      "baselineGitBlob": "38d54091895fc3c08e72a610796ef3bac39b8442",
+      "baselineBlobRawSha256": "4f305560dc4050a34dd39c95fc6d025559736b725db4103323abb2f535fb2b63",
+      "baselineRawSha256": "4f305560dc4050a34dd39c95fc6d025559736b725db4103323abb2f535fb2b63",
+      "baselineBytes": 2761,
+      "workingCopyEqualsGitBlob": true,
+      "replaceExactlyOnce": {
+        "old": "Один знак 米 в этом исконном существительном читается こめ.",
+        "new": "Один знак [米](../kanji/米.md) в этом исконном существительном читается こめ."
+      },
+      "frozenEnglishEvidence": {
+        "path": "words/米.md",
+        "gitBlob": "3e4fae48a77d0ca784da0465e25072c10f2e2c36",
+        "text": "The single character [米](../kanji/米.md) is read こめ in this native noun."
+      },
+      "preserveVisibleTextAndAllOtherBytes": true,
+      "navigationOnly": true
+    },
+    {
+      "path": "words/経済.md",
+      "baselineGitBlob": "fe8c679bc98c38eaf3a227e253c51e8fd6a85995",
+      "baselineBlobRawSha256": "ae93e71a920cd6531cdac9778fd009879fbc010d22aa267bee6f32b007557b0c",
+      "baselineRawSha256": "ae93e71a920cd6531cdac9778fd009879fbc010d22aa267bee6f32b007557b0c",
+      "baselineBytes": 3518,
+      "workingCopyEqualsGitBlob": true,
+      "replaceExactlyOnce": {
+        "old": "Среди значений 経 — прохождение,",
+        "new": "Среди значений [経](../kanji/経.md) — прохождение,"
+      },
+      "frozenEnglishEvidence": {
+        "path": "words/経済.md",
+        "gitBlob": "ea9228cd3a9c7f8426e1e0c7cddf2df1712ad772",
+        "text": "[経](../kanji/経.md) has meanings including passing through, while [済](../kanji/済.md) includes"
+      },
+      "preserveVisibleTextAndAllOtherBytes": true,
+      "navigationOnly": true
+    },
+    {
+      "path": "words/経験.md",
+      "baselineGitBlob": "41939422cf905e09fa087b73e60692d1f988c190",
+      "baselineBlobRawSha256": "19508e9dfad56861831095df316521fae04ce96e3a0425832829ad15c12dd79a",
+      "baselineRawSha256": "19508e9dfad56861831095df316521fae04ce96e3a0425832829ad15c12dd79a",
+      "baselineBytes": 2460,
+      "workingCopyEqualsGitBlob": true,
+      "replaceExactlyOnce": {
+        "old": "経 связан с прохождением через что-либо,",
+        "new": "[経](../kanji/経.md) связан с прохождением через что-либо,"
+      },
+      "frozenEnglishEvidence": {
+        "path": "words/経験.md",
+        "gitBlob": "de9ff7fef7019212b23442a9b2aa01f8601df9e2",
+        "text": "[経](../kanji/経.md) contributes passing through; [験](../kanji/験.md) relates to"
+      },
+      "preserveVisibleTextAndAllOtherBytes": true,
+      "navigationOnly": true
+    },
+    {
+      "path": "words/絵.md",
+      "baselineGitBlob": "5f907ea2dbffc593972ca01f82b5ebfac678b7b1",
+      "baselineBlobRawSha256": "93cecfdad5a1569bf01dcb5e7a77564b37803ef062ed9370e2c02ab80c172f7a",
+      "baselineRawSha256": "91960f6a93c394048312a769b2769bac4d4257166c5750c91a091607103c2038",
+      "baselineBytes": 2583,
+      "workingCopyEqualsGitBlob": false,
+      "replaceExactlyOnce": {
+        "old": "один знак, 絵, который передаёт всё значение рисунка или картины.",
+        "new": "один знак, [絵](../kanji/絵.md), который передаёт всё значение рисунка или картины."
+      },
+      "frozenEnglishEvidence": {
+        "path": "words/絵.md",
+        "gitBlob": "a03f6cc41cf499e1005b7dff4b38a19a2be472c4",
+        "text": "There is just one character: [絵](../kanji/絵.md), carrying the whole picture meaning."
+      },
+      "preserveVisibleTextAndAllOtherBytes": true,
+      "navigationOnly": true
+    },
+    {
+      "path": "words/続く.md",
+      "baselineGitBlob": "9647d90645cee9ead1c136eb2872d7715a45c219",
+      "baselineBlobRawSha256": "57fb581a762cc19b314d01626e7500aeb5d5d6273e9714b13612470ec789260d",
+      "baselineRawSha256": "57fb581a762cc19b314d01626e7500aeb5d5d6273e9714b13612470ec789260d",
+      "baselineBytes": 2252,
+      "workingCopyEqualsGitBlob": true,
+      "replaceExactlyOnce": {
+        "old": "続 передаёт つづ, после него записывается окуригана く.",
+        "new": "[続](../kanji/続.md) передаёт つづ, после него записывается окуригана く."
+      },
+      "frozenEnglishEvidence": {
+        "path": "words/続く.md",
+        "gitBlob": "a6a785d542b6ce8098a8b5c6f88cb255cbbb4c7e",
+        "text": "[続](../kanji/続.md) supplies つづ, followed by okurigana く. This is a godan verb: 続きます (つづきます), 続いて (つづいて), 続かない (つづかない). Keep the spelling づ in the reading."
+      },
+      "preserveVisibleTextAndAllOtherBytes": true,
+      "navigationOnly": true
+    },
+    {
+      "path": "words/続ける.md",
+      "baselineGitBlob": "fb78e7c8f141a31544329356d9ee4c6925e254fa",
+      "baselineBlobRawSha256": "40ca27460b92c8b70f1d2510c07d76aa076cfe9d0cfb304b8816a56761a18d84",
+      "baselineRawSha256": "40ca27460b92c8b70f1d2510c07d76aa076cfe9d0cfb304b8816a56761a18d84",
+      "baselineBytes": 3157,
+      "workingCopyEqualsGitBlob": true,
+      "replaceExactlyOnce": {
+        "old": "続 передаёт идею продолжения, а ける — записанная каной часть глагола.",
+        "new": "[続](../kanji/続.md) передаёт идею продолжения, а ける — записанная каной часть глагола."
+      },
+      "frozenEnglishEvidence": {
+        "path": "words/続ける.md",
+        "gitBlob": "afb9405fdc88ca909bc0148ef91f7be4ceef0368",
+        "text": "[続](../kanji/続.md) supplies the continuation meaning; ける is the written kana ending in"
+      },
+      "preserveVisibleTextAndAllOtherBytes": true,
+      "navigationOnly": true
+    }
+  ],
+  "unavailableOptionalWordLinks": [
+    {
+      "lessonPath": "kanji/給.md",
+      "sourceLessonGitBlob": "6e163627737a9b1c745aa82ca0c0fc69788853bc",
+      "sourceLessonRawSha256": "7a6b550a31bfe17fa24cbadbcd4757981daa3a26a44ae80582aecf98b84099c1",
+      "targetPath": "words/給料.md",
+      "targetAbsentAtBaseline": true,
+      "sourceLinkOccurrences": 3,
+      "operation": "In the Russian lesson only, strip the Markdown wrapper from each link whose label is 給料 and target is ../words/給料.md; preserve the Japanese label, reading, examples and all Russian teaching text."
+    },
+    {
+      "lessonPath": "kanji/絶.md",
+      "sourceLessonGitBlob": "22ff9aed7913884b5f07046939bd97d73dc41a0b",
+      "sourceLessonRawSha256": "9cededeca81e2a1e5cfabd4f312a676cef38dc76761f3d03e099e1d2c0d13d28",
+      "targetPath": "words/絶対.md",
+      "targetAbsentAtBaseline": true,
+      "sourceLinkOccurrences": 3,
+      "operation": "In the Russian lesson only, strip the Markdown wrapper from each link whose label is 絶対 and target is ../words/絶対.md; preserve the Japanese label, reading, examples and all Russian teaching text."
+    }
+  ],
+  "limits": {
+    "wordPageWrapperCount": 6,
+    "wordPageVisibleTextChanges": false,
+    "wordPageMetadataOrQuizChanges": false,
+    "optionalWordLinkWrapperRemovals": 6,
+    "articleReferenceSentenceOmissions": 0,
+    "newWordPages": false,
+    "otherWordPageChangesAuthorized": false,
+    "quizOrGradingChanges": false,
+    "otherRuntimeChangesAuthorized": false
+  }
+}
