@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "batchId": "127-capture-hanging-search-population-kanji",
+  "recordedAt": "2026-11-10T08:33:23+01:00",
+  "purpose": "Reconcile stale acceptedKanji/acceptedStrokes counts in the immutable pre-mutation batch-127 intake without rewriting it.",
+  "historicalIntake": {
+    "path": "docs/translation-batches/127-capture-hanging-search-population-kanji-intake.json",
+    "rawSha256": "5fb8ca70d9ae44d52d376e2f4e6a42769eb7a1e195fea3132c1fcc9396001d98",
+    "recordedAcceptedKanji": 449,
+    "recordedAcceptedStrokes": 449,
+    "recordedReviewedCurrent": 2424
+  },
+  "causeEstablishedByRepositoryHistory": "The 449/449 counts were carried forward from batch126 pre-publication baseline; batch126 adds nine accepted kanji lessons and nine stroke files. The batch126 qualified review/source record and publication verification establish the nine additions. The batch127 baseline manifest and current translation-tracking independently contain 458/458.",
+  "evidence": {
+    "batch126QualifiedSource": "docs/translation-batches/126-hand-actions-kanji-reviewed-source.json",
+    "batch126Publication": "docs/translation-batches/126-hand-actions-kanji-publication-verification-001.json",
+    "batch127BaselineCommit": "db368c9a0acd3dee80695d29e88d1c58c8a6797a",
+    "baselineManifestContentVersion": "7f2c2993ee3d74c2",
+    "baselineTranslationTrackingSha256": "82e7981cb3c3a410910ece222a83479e43ecd934dacbf4ff4cd688a76591fbbe",
+    "baselineManifestSha256": "a614dc283dd6ece37259045cac1c9b25dc2b095747a585d1531eab3e99e03179"
+  },
+  "correctedBaselineCounts": {
+    "reviewedCurrent": 2424,
+    "excludedReviewedRuntimeBlocked": 2,
+    "pending": 5852,
+    "frozenInventory": 8278,
+    "acceptedKanji": 458,
+    "acceptedStrokes": 458,
+    "acceptedWords": 1478,
+    "acceptedArticles": 2,
+    "acceptedCounters": 22,
+    "acceptedGrammar": 1,
+    "acceptedImages": 3,
+    "acceptedScenes": 2
+  },
+  "correctionBoundary": "The original intake and signed semantic freeze remain immutable. This correction supersedes only their incorrect 449 accepted-kanji/stroke count fields for baseline accounting; it does not change scope, source semantics, or runtime content.",
+  "candidateBaselineProgressUsed": true,
+  "runtimeAcceptance": false,
+  "fullTranslationComplete": false
+}

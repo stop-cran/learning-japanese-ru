@@ -3,7 +3,7 @@
   "baselineCommit": "5f460b85b391404e7da01be0a0cded78243b7538",
   "targetCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
   "runtimeEntries": 8278,
-  "adoptedEntries": 2424,
+  "adoptedEntries": 2434,
   "families": {
     "articles": 57,
     "audio": 36,
@@ -22,53 +22,53 @@
   },
   "statuses": {
     "draft-reviewed-runtime-blocked": 2,
-    "pending": 5852,
-    "reviewed-current": 2424
+    "pending": 5842,
+    "reviewed-current": 2434
   },
   "sourceChanges": [
     {
-      "path": "kanji/丑.md",
-      "change": "added"
+      "change": "added",
+      "path": "kanji/丑.md"
     },
     {
-      "path": "kanji/寅.md",
       "change": "modified",
-      "invariantProjectionChanged": true
+      "invariantProjectionChanged": true,
+      "path": "kanji/寅.md"
     },
     {
-      "path": "kanji/辰.md",
-      "change": "added"
+      "change": "added",
+      "path": "kanji/辰.md"
     },
     {
-      "path": "kanji/農.md",
       "change": "modified",
-      "invariantProjectionChanged": true
+      "invariantProjectionChanged": true,
+      "path": "kanji/農.md"
     },
     {
-      "path": "kanji/震.md",
       "change": "modified",
-      "invariantProjectionChanged": true
+      "invariantProjectionChanged": true,
+      "path": "kanji/震.md"
     },
     {
-      "path": "strokes/丑.json",
-      "change": "added"
+      "change": "added",
+      "path": "strokes/丑.json"
     },
     {
-      "path": "strokes/辰.json",
-      "change": "added"
+      "change": "added",
+      "path": "strokes/辰.json"
     },
     {
-      "path": "words/丑.md",
-      "change": "added"
+      "change": "added",
+      "path": "words/丑.md"
     },
     {
-      "path": "words/寅.md",
       "change": "modified",
-      "invariantProjectionChanged": true
+      "invariantProjectionChanged": true,
+      "path": "words/寅.md"
     },
     {
-      "path": "words/辰.md",
-      "change": "added"
+      "change": "added",
+      "path": "words/辰.md"
     }
   ],
   "guidanceChanges": [],
@@ -13789,13 +13789,22 @@
     },
     {
       "path": "kanji/捕.md",
-      "status": "pending",
-      "adopted": false,
+      "status": "reviewed-current",
+      "adopted": true,
       "sourceSha256": "5d8e7ef1a7683d460fd1b5bfbb9dd386815a13617212c9f366f2700c1e9e2c6e",
-      "ruSha256": null,
+      "ruSha256": "b79fb4f6fedd7575606014ccb183031e36753260d9957724142dd1e772b14895",
       "sourceRawSha256": "5d8e7ef1a7683d460fd1b5bfbb9dd386815a13617212c9f366f2700c1e9e2c6e",
-      "ruRawSha256": null,
-      "reviewEvidence": null
+      "ruRawSha256": "b02f70718558b2f7e2a7553c0898934a9ff4e80fdbb029351b93d6fae645d695",
+      "reviewEvidence": [
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-intake.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-source-adjudication-and-semantic-freeze-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-pre-mutation-navigation-amendment-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-candidate-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-review-qualification-dispositions-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-final-validation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-baseline-count-reconciliation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-reviewed-source.json"
+      ]
     },
     {
       "path": "kanji/捜.md",
@@ -13839,13 +13848,22 @@
     },
     {
       "path": "kanji/掛.md",
-      "status": "pending",
-      "adopted": false,
+      "status": "reviewed-current",
+      "adopted": true,
       "sourceSha256": "fd4f5122f2e9eb02a1d8369be53de76791012b70117107e157d2449c66e84d95",
-      "ruSha256": null,
+      "ruSha256": "21bc9907daa1d8fd262cc9b65c4b43572ee8d14e1fb5ee3eb316b6f5788b4e68",
       "sourceRawSha256": "fd4f5122f2e9eb02a1d8369be53de76791012b70117107e157d2449c66e84d95",
-      "ruRawSha256": null,
-      "reviewEvidence": null
+      "ruRawSha256": "0fe13082884ed4178630a90ee0c6702f4c7be5c217b1912eff41dc4749ce9b17",
+      "reviewEvidence": [
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-intake.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-source-adjudication-and-semantic-freeze-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-pre-mutation-navigation-amendment-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-candidate-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-review-qualification-dispositions-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-final-validation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-baseline-count-reconciliation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-reviewed-source.json"
+      ]
     },
     {
       "path": "kanji/採.md",
@@ -13859,13 +13877,22 @@
     },
     {
       "path": "kanji/探.md",
-      "status": "pending",
-      "adopted": false,
+      "status": "reviewed-current",
+      "adopted": true,
       "sourceSha256": "151fb69433adb5427f08c5f424142f4be99a83e489c7739108d225756cc59888",
-      "ruSha256": null,
+      "ruSha256": "936cf7dc86ddb062a4919cdfb48d07ca9547bab608f33721b2b8672b4ed1f082",
       "sourceRawSha256": "151fb69433adb5427f08c5f424142f4be99a83e489c7739108d225756cc59888",
-      "ruRawSha256": null,
-      "reviewEvidence": null
+      "ruRawSha256": "22f93aec8ef55381bdfed0f001aa37c87f559657a8f2e44c89a27558d0e74472",
+      "reviewEvidence": [
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-intake.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-source-adjudication-and-semantic-freeze-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-pre-mutation-navigation-amendment-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-candidate-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-review-qualification-dispositions-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-final-validation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-baseline-count-reconciliation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-reviewed-source.json"
+      ]
     },
     {
       "path": "kanji/接.md",
@@ -15860,13 +15887,22 @@
     },
     {
       "path": "kanji/民.md",
-      "status": "pending",
-      "adopted": false,
+      "status": "reviewed-current",
+      "adopted": true,
       "sourceSha256": "4acfad3b962681ec5e38f4a4f201ad0ea2e436e0c990a781bd0ed644852dd6c9",
-      "ruSha256": null,
+      "ruSha256": "acffda47d0f80d0f87504b10a62a92483873df9825a0f0192fd46ca7be7236d4",
       "sourceRawSha256": "4acfad3b962681ec5e38f4a4f201ad0ea2e436e0c990a781bd0ed644852dd6c9",
-      "ruRawSha256": null,
-      "reviewEvidence": null
+      "ruRawSha256": "fdd569362bfecc9bcc7f7b123dea78fb3135f599037f9e1d2196d53fc984de09",
+      "reviewEvidence": [
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-intake.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-source-adjudication-and-semantic-freeze-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-pre-mutation-navigation-amendment-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-candidate-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-review-qualification-dispositions-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-final-validation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-baseline-count-reconciliation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-reviewed-source.json"
+      ]
     },
     {
       "path": "kanji/気.md",
@@ -15938,13 +15974,22 @@
     },
     {
       "path": "kanji/求.md",
-      "status": "pending",
-      "adopted": false,
+      "status": "reviewed-current",
+      "adopted": true,
       "sourceSha256": "6220c012e964d5870488a311e8f6185e250be137dcdb66011747f9c630222252",
-      "ruSha256": null,
+      "ruSha256": "12ac62c13d070b8e4f85d590fd695b25e2e1c06ebc2d5d6acd5b1220c82ca9ce",
       "sourceRawSha256": "6220c012e964d5870488a311e8f6185e250be137dcdb66011747f9c630222252",
-      "ruRawSha256": null,
-      "reviewEvidence": null
+      "ruRawSha256": "150c06463c7aad4ff8a525ee266a10ec956c4656698cfb196369499c3cbf1299",
+      "reviewEvidence": [
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-intake.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-source-adjudication-and-semantic-freeze-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-pre-mutation-navigation-amendment-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-candidate-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-review-qualification-dispositions-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-final-validation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-baseline-count-reconciliation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-reviewed-source.json"
+      ]
     },
     {
       "path": "kanji/汗.md",
@@ -30808,13 +30853,21 @@
     },
     {
       "path": "strokes/捕.json",
-      "status": "pending",
-      "adopted": false,
+      "status": "reviewed-current",
+      "adopted": true,
       "sourceSha256": "4a95bf1715fa5e1bfa34608515f9246914d8334a5da10cdf6cb7550df555c1ec",
-      "ruSha256": null,
+      "ruSha256": "4a95bf1715fa5e1bfa34608515f9246914d8334a5da10cdf6cb7550df555c1ec",
       "sourceRawSha256": "4a95bf1715fa5e1bfa34608515f9246914d8334a5da10cdf6cb7550df555c1ec",
-      "ruRawSha256": null,
-      "reviewEvidence": null
+      "ruRawSha256": "4a95bf1715fa5e1bfa34608515f9246914d8334a5da10cdf6cb7550df555c1ec",
+      "reviewEvidence": [
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-intake.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-source-adjudication-and-semantic-freeze-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-candidate-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-review-qualification-dispositions-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-final-validation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-baseline-count-reconciliation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-reviewed-source.json"
+      ]
     },
     {
       "path": "strokes/捜.json",
@@ -30858,13 +30911,21 @@
     },
     {
       "path": "strokes/掛.json",
-      "status": "pending",
-      "adopted": false,
+      "status": "reviewed-current",
+      "adopted": true,
       "sourceSha256": "8888445297783abf24526ef2bada693130036d71720446511ca4b82c51fc85c8",
-      "ruSha256": null,
+      "ruSha256": "8888445297783abf24526ef2bada693130036d71720446511ca4b82c51fc85c8",
       "sourceRawSha256": "8888445297783abf24526ef2bada693130036d71720446511ca4b82c51fc85c8",
-      "ruRawSha256": null,
-      "reviewEvidence": null
+      "ruRawSha256": "8888445297783abf24526ef2bada693130036d71720446511ca4b82c51fc85c8",
+      "reviewEvidence": [
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-intake.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-source-adjudication-and-semantic-freeze-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-candidate-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-review-qualification-dispositions-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-final-validation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-baseline-count-reconciliation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-reviewed-source.json"
+      ]
     },
     {
       "path": "strokes/採.json",
@@ -30878,13 +30939,21 @@
     },
     {
       "path": "strokes/探.json",
-      "status": "pending",
-      "adopted": false,
+      "status": "reviewed-current",
+      "adopted": true,
       "sourceSha256": "c864974cc7f3ea8ea18596c0887f20d68921ea280e8c86a7fa2f34b03f6e72ee",
-      "ruSha256": null,
+      "ruSha256": "c864974cc7f3ea8ea18596c0887f20d68921ea280e8c86a7fa2f34b03f6e72ee",
       "sourceRawSha256": "c864974cc7f3ea8ea18596c0887f20d68921ea280e8c86a7fa2f34b03f6e72ee",
-      "ruRawSha256": null,
-      "reviewEvidence": null
+      "ruRawSha256": "c864974cc7f3ea8ea18596c0887f20d68921ea280e8c86a7fa2f34b03f6e72ee",
+      "reviewEvidence": [
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-intake.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-source-adjudication-and-semantic-freeze-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-candidate-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-review-qualification-dispositions-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-final-validation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-baseline-count-reconciliation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-reviewed-source.json"
+      ]
     },
     {
       "path": "strokes/接.json",
@@ -32873,13 +32942,21 @@
     },
     {
       "path": "strokes/民.json",
-      "status": "pending",
-      "adopted": false,
+      "status": "reviewed-current",
+      "adopted": true,
       "sourceSha256": "7013721334c2f9650891ed594ec54bb03e3d83b9b7abc0604a5168c1efaebaf0",
-      "ruSha256": null,
+      "ruSha256": "7013721334c2f9650891ed594ec54bb03e3d83b9b7abc0604a5168c1efaebaf0",
       "sourceRawSha256": "7013721334c2f9650891ed594ec54bb03e3d83b9b7abc0604a5168c1efaebaf0",
-      "ruRawSha256": null,
-      "reviewEvidence": null
+      "ruRawSha256": "7013721334c2f9650891ed594ec54bb03e3d83b9b7abc0604a5168c1efaebaf0",
+      "reviewEvidence": [
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-intake.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-source-adjudication-and-semantic-freeze-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-candidate-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-review-qualification-dispositions-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-final-validation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-baseline-count-reconciliation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-reviewed-source.json"
+      ]
     },
     {
       "path": "strokes/気.json",
@@ -32935,13 +33012,21 @@
     },
     {
       "path": "strokes/求.json",
-      "status": "pending",
-      "adopted": false,
+      "status": "reviewed-current",
+      "adopted": true,
       "sourceSha256": "3d7ff11747a0eb640b92a2d6377c5284c4a4f8b01054782c3d652814e56f5fce",
-      "ruSha256": null,
+      "ruSha256": "3d7ff11747a0eb640b92a2d6377c5284c4a4f8b01054782c3d652814e56f5fce",
       "sourceRawSha256": "3d7ff11747a0eb640b92a2d6377c5284c4a4f8b01054782c3d652814e56f5fce",
-      "ruRawSha256": null,
-      "reviewEvidence": null
+      "ruRawSha256": "3d7ff11747a0eb640b92a2d6377c5284c4a4f8b01054782c3d652814e56f5fce",
+      "reviewEvidence": [
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-intake.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-source-adjudication-and-semantic-freeze-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-candidate-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-review-qualification-dispositions-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-final-validation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-baseline-count-reconciliation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-reviewed-source.json"
+      ]
     },
     {
       "path": "strokes/汗.json",
@@ -72647,9 +72732,9 @@
       "status": "reviewed-current",
       "adopted": true,
       "sourceSha256": "66c63d7d5363d35c43927647fa630747cab751a5e379b2426fba90dd2ea9d8a1",
-      "ruSha256": "8027950639edce0a6c4518444f70d0457c5ee939384cca79b8bce26536ff2627",
+      "ruSha256": "b9a26774bd9f4c3e3a5ca7bbf6880d73aee1adb0f2e8487e7349b03f076539b4",
       "sourceRawSha256": "66c63d7d5363d35c43927647fa630747cab751a5e379b2426fba90dd2ea9d8a1",
-      "ruRawSha256": "8027950639edce0a6c4518444f70d0457c5ee939384cca79b8bce26536ff2627",
+      "ruRawSha256": "b9a26774bd9f4c3e3a5ca7bbf6880d73aee1adb0f2e8487e7349b03f076539b4",
       "reviewEvidence": [
         "docs/translation-batches/064-places-institutions-and-geography-independent-review.json",
         "docs/translation-batches/064-places-institutions-and-geography-independent-review-001.json",
@@ -72666,7 +72751,14 @@
         "docs/translation-batches/110-market-teacher-seat-and-usual-kanji-independent-review-001.json",
         "docs/translation-batches/110-market-teacher-seat-and-usual-kanji-review-qualification-dispositions-001.json",
         "docs/translation-batches/110-market-teacher-seat-and-usual-kanji-independent-review.json",
-        "docs/translation-batches/110-market-teacher-seat-and-usual-kanji-reviewed-source.json"
+        "docs/translation-batches/110-market-teacher-seat-and-usual-kanji-reviewed-source.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-candidate-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-review-qualification-dispositions-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-final-validation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-baseline-count-reconciliation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-reviewed-source.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-pre-mutation-navigation-amendment-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-source-adjudication-and-semantic-freeze-001.json"
       ]
     },
     {
@@ -77627,15 +77719,22 @@
       "status": "reviewed-current",
       "adopted": true,
       "sourceSha256": "67900cd16ca745e92e4d40f23455f064d81eaf971050c4db3861b51ae0811f96",
-      "ruSha256": "4c196cf6452b8d5465718a7ea65c26670844166ee3d3aa83b41e5711a4c0ca5e",
+      "ruSha256": "b166cdff33b67e7a536017b07d69154bc3eb15f655aa46d2ff0aa4579ccbe296",
       "sourceRawSha256": "67900cd16ca745e92e4d40f23455f064d81eaf971050c4db3861b51ae0811f96",
-      "ruRawSha256": "4c196cf6452b8d5465718a7ea65c26670844166ee3d3aa83b41e5711a4c0ca5e",
+      "ruRawSha256": "b166cdff33b67e7a536017b07d69154bc3eb15f655aa46d2ff0aa4579ccbe296",
       "reviewEvidence": [
         "docs/translation-batches/074-actions-search-and-handling-independent-review.json",
         "docs/translation-batches/074-actions-search-and-handling-independent-review-001.json",
         "docs/translation-batches/074-actions-search-and-handling-authoring-freeze.json",
         "docs/translation-batches/074-actions-search-and-handling-authoring.json",
-        "docs/translation-batches/074-actions-search-and-handling-reviewed-source.json"
+        "docs/translation-batches/074-actions-search-and-handling-reviewed-source.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-candidate-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-review-qualification-dispositions-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-final-validation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-baseline-count-reconciliation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-reviewed-source.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-pre-mutation-navigation-amendment-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-source-adjudication-and-semantic-freeze-001.json"
       ]
     },
     {
@@ -77782,9 +77881,9 @@
       "status": "reviewed-current",
       "adopted": true,
       "sourceSha256": "33f3d2b9c529ec5e8fe22efc0f1d830087f35694fc141db82de0d348486d157f",
-      "ruSha256": "649f81b8329f748b991083673b27155478e9e74266fe062f2493ad57fa4b8252",
+      "ruSha256": "2c0090d6d9d513bbd5ff37ad686c4fca8938a4ef9f48ec64febb324d7e604ded",
       "sourceRawSha256": "33f3d2b9c529ec5e8fe22efc0f1d830087f35694fc141db82de0d348486d157f",
-      "ruRawSha256": "b9ca2ca55de1af2ed491ed777fa8cf02d0e3bbc734e135a8f86ea9bdc3549bb7",
+      "ruRawSha256": "e46eec585eb4468b162116d4cf7459948914850dc92247710d0c595204dcc65f",
       "reviewEvidence": [
         "docs/translation-batches/042-travel-movement-places-independent-review.json",
         "docs/translation-batches/042-travel-movement-places-independent-review-001.json",
@@ -77794,7 +77893,14 @@
         "docs/translation-batches/042-travel-movement-places-candidate.json",
         "docs/translation-batches/042-travel-movement-places-corrective-source-adjudication-001.json",
         "docs/translation-batches/042-travel-movement-places-corrective-authoring-freeze-001.json",
-        "docs/translation-batches/042-travel-movement-places-corrected-candidate-001.json"
+        "docs/translation-batches/042-travel-movement-places-corrected-candidate-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-candidate-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-review-qualification-dispositions-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-final-validation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-baseline-count-reconciliation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-reviewed-source.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-pre-mutation-navigation-amendment-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-source-adjudication-and-semantic-freeze-001.json"
       ]
     },
     {
@@ -77802,14 +77908,21 @@
       "status": "reviewed-current",
       "adopted": true,
       "sourceSha256": "0579051df9c14e09ac11b893a9d5e6c78a6ba48c0d7d54bc851933aacc993dd5",
-      "ruSha256": "c96ad15bd01d5bfe13d993ae51d53a39b70395d3f46763ab757689d6e0ab4a8f",
+      "ruSha256": "0d3410a8a7a713a5d4cf7a77a76ea31a372358b4d327177dc2b40bc062aa6594",
       "sourceRawSha256": "0579051df9c14e09ac11b893a9d5e6c78a6ba48c0d7d54bc851933aacc993dd5",
-      "ruRawSha256": "e4c7ad1588e6390618eaa2fead38031925d8364433e434c25d86985d7e427d1d",
+      "ruRawSha256": "68eec3234c1e2585cff8b16c47e0940d69708e58c948c74dc291b956c209a7a4",
       "reviewEvidence": [
         "docs/translation-batches/009-clothing-accessories-review.json",
         "docs/translation-batches/009-clothing-accessories-initial-review.json",
         "docs/translation-batches/009-clothing-accessories-corrections.json",
-        "docs/translation-batches/009-clothing-accessories-adjudication-clarification.json"
+        "docs/translation-batches/009-clothing-accessories-adjudication-clarification.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-candidate-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-review-qualification-dispositions-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-final-validation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-baseline-count-reconciliation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-reviewed-source.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-pre-mutation-navigation-amendment-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-source-adjudication-and-semantic-freeze-001.json"
       ]
     },
     {
@@ -77857,15 +77970,22 @@
       "status": "reviewed-current",
       "adopted": true,
       "sourceSha256": "ada1c3222824e572d3db0f1f6f69d514ce19c4bf83c2a70287221da964bc8562",
-      "ruSha256": "0947471e4c1d2ed11f8babdaeaaa6ebf48f5fd516efead109c0ad60b8b793765",
+      "ruSha256": "16a0844de7a931a9fab86116d68c1171d91d54465ea9d6001b61031d8f43d136",
       "sourceRawSha256": "ada1c3222824e572d3db0f1f6f69d514ce19c4bf83c2a70287221da964bc8562",
-      "ruRawSha256": "0947471e4c1d2ed11f8babdaeaaa6ebf48f5fd516efead109c0ad60b8b793765",
+      "ruRawSha256": "16a0844de7a931a9fab86116d68c1171d91d54465ea9d6001b61031d8f43d136",
       "reviewEvidence": [
         "docs/translation-batches/074-actions-search-and-handling-independent-review.json",
         "docs/translation-batches/074-actions-search-and-handling-independent-review-001.json",
         "docs/translation-batches/074-actions-search-and-handling-authoring-freeze.json",
         "docs/translation-batches/074-actions-search-and-handling-authoring.json",
-        "docs/translation-batches/074-actions-search-and-handling-reviewed-source.json"
+        "docs/translation-batches/074-actions-search-and-handling-reviewed-source.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-candidate-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-review-qualification-dispositions-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-final-validation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-baseline-count-reconciliation-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-reviewed-source.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-pre-mutation-navigation-amendment-001.json",
+        "docs/translation-batches/127-capture-hanging-search-population-kanji-source-adjudication-and-semantic-freeze-001.json"
       ]
     },
     {
@@ -107701,5 +107821,5 @@
       ]
     }
   ],
-  "russianContentVersion": "7f2c2993ee3d74c2"
+  "russianContentVersion": "7034d4c5959242d3"
 }

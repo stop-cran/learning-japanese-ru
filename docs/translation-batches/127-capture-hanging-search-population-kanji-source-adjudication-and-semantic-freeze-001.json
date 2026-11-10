@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "batch": "127-capture-hanging-search-population-kanji",
+  "recordedAt": "2026-11-10T08:04:36.087052+01:00",
+  "stage": "PRE-MUTATION SOURCE AND SEMANTIC FREEZE; AUTHORING NOT STARTED",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineSnapshot": "db368c9a0acd3dee80695d29e88d1c58c8a6797a",
+  "intake": "docs/translation-batches/127-capture-hanging-search-population-kanji-intake.json",
+  "navigationAmendment": "docs/translation-batches/127-capture-hanging-search-population-kanji-pre-mutation-navigation-amendment-001.json",
+  "frozenMutationScope": {
+    "newLessons": ["kanji/捕.md", "kanji/掛.md", "kanji/探.md", "kanji/民.md", "kanji/求.md"],
+    "byteIdenticalStrokeCopies": ["strokes/捕.json", "strokes/掛.json", "strokes/探.json", "strokes/民.json", "strokes/求.json"],
+    "navigationOnlyWordPages": [
+      "words/捕まえる.md",
+      "words/掛かる.md",
+      "words/掛ける.md",
+      "words/探す.md",
+      "words/市民.md"
+    ],
+    "optionalUnavailableLinkWrappersRemoved": {
+      "path": "kanji/求.md",
+      "count": 3,
+      "amendment": "docs/translation-batches/127-capture-hanging-search-population-kanji-pre-mutation-navigation-amendment-001.json"
+    },
+    "expectedRuntimePathCount": 15,
+    "newWordPages": [],
+    "otherRuntimeChanges": []
+  },
+  "semanticInvariants": {
+    "sourceKanjiIdsReadingsStrokesRadicalsJlptTagsAndDistractorArrays": "Preserve exact frozen-source values; do not revise Japanese facts or grading metadata within this translation batch.",
+    "sourceExamples": "Preserve the Japanese examples, readings, word forms, roles, and stated meanings from the frozen source. Russian translations must not add facts, success outcomes, register, frequency, or certainty.",
+    "jlpt": "Retain the frozen community N3 classification as an editorial classification; do not call it an official JLPT syllabus.",
+    "mnemonics": "Translate as invented modern-shape memory aids, not historical etymology or phonetic analysis.",
+    "掛KanaPreference": "Retain the bounded JMdict note that the cited 掛ける/掛かる entries are usually written in kana; do not generalize to every sense or form.",
+    "探捜Distinction": "Retain the JMdict-supported spelling tendency for desired versus lost objects as a tendency, not an absolute division.",
+    "民Scope": "Describe 民 as people/population/community; do not collapse it into 人 as an interchangeable label for any individual.",
+    "求Scope": "Preserve seek/request distinction and the bounded note that 求人 is recruiting/job vacancy, not a person seeking work.",
+    "readingTypeGloss": "After ## Чтения, add the previously source-bound and accepted concise explanation: «Онное чтение (онъёми) — японское чтение знака, которое восходит к китайскому произношению; кунное чтение (кунъёми) — японское слово, закреплённое за знаком как его перевод.» This is a learner-clarity adaptation, not a new kanji metadata or historical claim."
+  },
+  "readingTypeGlossEvidence": {
+    "priorAcceptedFinding": "124-F001",
+    "priorFreeze": "docs/translation-batches/124-result-status-lack-next-and-desire-kanji-review-finding-reading-type-gloss-amendment-freeze-001.json",
+    "onSource": {
+      "url": "https://kotobank.jp/word/%E9%9F%B3%E8%AA%AD%E3%81%BF-42044",
+      "source": "コトバンク / ブリタニカ国際大百科事典 小項目事典",
+      "exactBoundPhrase": "その漢字に結びついた中国語の発音を取入れたもの",
+      "capturedHtmlSha256": "b6d24b92ea674e40d6806acae8d278a4a9df836de85a8be863f1cc938b765889"
+    },
+    "kunSource": {
+      "url": "https://kotobank.jp/word/%E8%A8%93%E8%AA%AD%E3%81%BF-58493",
+      "source": "コトバンク / ブリタニカ国際大百科事典 小項目事典",
+      "exactBoundPhrase": "個々の漢字にその翻訳としてつけられた日本語をさす",
+      "capturedHtmlSha256": "00fe82bacbffa2ecd1ebe756b4cdbd5ac0657c65bb43d7cfdb8c5901cda75349"
+    },
+    "scope": "Apply the established gloss once in each new lesson only; no retrospective changes to accepted lessons."
+  },
+  "sourceAdjudications": {
+    "kanjidic2": {
+      "archiveSha256": "e26e34c9187a786bf1f0b21f87e311a9b0ed644aefe9693d10bdc7cb8643d8e0",
+      "databaseVersion": "2026-308",
+      "selectedFields": "Exact Japanese on/kun reading lists and dot/hyphen divisions, primary stroke counts, school-grade metadata, and classical radical numbers for all five roots."
+    },
+    "unicodeRadicalRows": {
+      "sourceVersion": "17.0.0",
+      "archiveSha256": "2e1efc1dcb59c575eedf5ccae60f95229f706ee6d031835247d843c11d96470c",
+      "rows": {
+        "64": {"glyph": "手", "codepoint": "2F3F"},
+        "83": {"glyph": "氏", "codepoint": "2F52"},
+        "85": {"glyph": "水", "codepoint": "2F54"}
+      }
+    },
+    "kanjipedia": {
+      "entries": {
+        "捕": {"id": "0006303900", "url": "https://www.kanjipedia.jp/kanji/0006303900"},
+        "掛": {"id": "0000940800", "url": "https://www.kanjipedia.jp/kanji/0000940800"},
+        "探": {"id": "0004600800", "url": "https://www.kanjipedia.jp/kanji/0004600800"},
+        "民": {"id": "0006629300", "url": "https://www.kanjipedia.jp/kanji/0006629300"},
+        "求": {"id": "0001381400", "url": "https://www.kanjipedia.jp/kanji/0001381400"}
+      },
+      "captureSha256": "7d2372ca4eaa9652f0f37871c948f2d595be61b8a30957ed3b0b0da3eb384636",
+      "useBoundary": "Read exact entry text for bounded meanings, readings, stroke/radical display and cited compounds; do not turn its historical origin statements into RU claims unless separately adjudicated."
+    },
+    "jmdict": {
+      "archiveSha256": "5af39046e9579fd5e14d07a048fccce422b8df0d940ba8c086439e5a7617eab6",
+      "captureSha256": "99e0dad89c90c4938780718c33af59de446d3475b80eeeab0814744cc4bc922f",
+      "citedEntryIds": [
+        "1597780", "1514110",
+        "1207610", "1207590", "2170420",
+        "1593670", "1418260", "1604570",
+        "1308690", "1287070", "1334210",
+        "1229350", "1546680", "1229500"
+      ],
+      "useBoundary": "Use exact spelling/reading forms and applicable senses, restrictions, usual-kana notes, and limited spelling tendencies; dictionary inclusion or priority does not establish frequency, N3 membership, or naturalness of any unlisted example."
+    },
+    "strokes": {
+      "project": "KanjiVG",
+      "revision": "70a0b7ae0c18ceb5cb358274b029cce0234a43bc",
+      "requiredOperation": "Copy exact bytes from the frozen English source commit; do not regenerate or manually alter the five stroke JSON files."
+    }
+  },
+  "quizDisposition": {
+    "sourceDirectedNegativeEdges": [
+      "捕→指", "捕→掛", "捕→折",
+      "掛→指", "掛→折", "掛→押",
+      "探→持", "探→抱", "探→指",
+      "民→母", "民→長", "民→目",
+      "求→水", "求→来", "求→犬"
+    ],
+    "canonicalStatus": "UNVERIFIED for every ordinary active-negative/fallback use.",
+    "readingNegativeRejections": [],
+    "approvedNewGuards": [],
+    "metadataPreservationIsNotApproval": true
+  },
+  "privateEvidenceArtifacts": {
+    "metadataCapture": {"name": "ru-127-metadata-primary-capture-001.json", "sha256": "562a8ac1a19e59102989656a0fc5dc6bfa4c3bdbd20d32031c13ce38179e348b"},
+    "jmdictCapture": {"name": "ru-127-jmdict-primary-capture-001.json", "sha256": "99e0dad89c90c4938780718c33af59de446d3475b80eeeab0814744cc4bc922f"},
+    "kanjipediaCapture": {"name": "ru-127-kanjipedia-capture-001.json", "sha256": "7d2372ca4eaa9652f0f37871c948f2d595be61b8a30957ed3b0b0da3eb384636"},
+    "frozenCommunityN3Snapshot": {"name": "ru-127-frozen-n3-source-snapshot-001.json", "sha256": "4ffdacad14efcdee13e504a36f5705bc2226ea763bf46a00369c1bf6040b28e8"}
+  },
+  "runtimeMutationOccurred": false,
+  "independentReviewOccurred": false,
+  "sourceAccepted": false,
+  "fullTranslationComplete": false,
+  "continueRequired": true
+}

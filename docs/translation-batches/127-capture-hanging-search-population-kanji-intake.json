@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "batch": "127-capture-hanging-search-population-kanji",
+  "recordedAt": "2026-11-10T08:04:36.087052+01:00",
+  "stage": "DEPENDENCY-CLOSED INTAKE; PRE-MUTATION FREEZE RECORDED",
+  "branch": "full-ru-127-capture-search-population-kanji",
+  "russianBaselineSnapshot": "db368c9a0acd3dee80695d29e88d1c58c8a6797a",
+  "frozenEnglishSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "selection": {
+    "firstPendingFrozenN3Roots": ["捕", "掛", "探", "民", "求"],
+    "closedNewKanji": ["捕", "掛", "探", "民", "求"],
+    "closureRule": "Close only the frozen source's direct distractor providers; do not infer transitive quiz exclusions.",
+    "closureSize": 5,
+    "allProvidersAcceptedOrIncluded": true,
+    "notAllN3OrFiniteCompletion": true,
+    "allFrozenFamiliesContinue": true
+  },
+  "newKanji": [
+    {
+      "kanji": "捕",
+      "sourceGitRawSha256": "5d8e7ef1a7683d460fd1b5bfbb9dd386815a13617212c9f366f2700c1e9e2c6e",
+      "strokeSourceGitRawSha256": "4a95bf1715fa5e1bfa34608515f9246914d8334a5da10cdf6cb7550df555c1ec",
+      "strokeSourceGitBlobSha1": "51471f0ab0d595e0c16169a7917c14a97a8da0ac",
+      "metadata": {
+        "kanji": "捕",
+        "title": "capture",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-8", "structure-unclassified"],
+        "strokes": 10,
+        "radical": "手",
+        "radicalNumber": 64,
+        "onyomi": ["ホ"],
+        "kunyomi": ["と.らえる", "と.らわれる", "と.る", "とら.える", "とら.われる", "つか.まえる", "つか.まる"],
+        "distractors": ["指", "掛", "折"]
+      }
+    },
+    {
+      "kanji": "掛",
+      "sourceGitRawSha256": "fd4f5122f2e9eb02a1d8369be53de76791012b70117107e157d2449c66e84d95",
+      "strokeSourceGitRawSha256": "8888445297783abf24526ef2bada693130036d71720446511ca4b82c51fc85c8",
+      "strokeSourceGitBlobSha1": "1ac387def708d897e52e14a450ece2cc61e6305d",
+      "metadata": {
+        "kanji": "掛",
+        "title": "hang",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-8", "structure-unclassified"],
+        "strokes": 11,
+        "radical": "手",
+        "radicalNumber": 64,
+        "onyomi": ["カイ", "ケイ"],
+        "kunyomi": ["か.ける", "-か.ける", "か.け", "-か.け", "-が.け", "か.かる", "-か.かる", "-が.かる", "か.かり", "-が.かり", "かかり", "-がかり"],
+        "distractors": ["指", "折", "押"]
+      }
+    },
+    {
+      "kanji": "探",
+      "sourceGitRawSha256": "151fb69433adb5427f08c5f424142f4be99a83e489c7739108d225756cc59888",
+      "strokeSourceGitRawSha256": "c864974cc7f3ea8ea18596c0887f20d68921ea280e8c86a7fa2f34b03f6e72ee",
+      "strokeSourceGitBlobSha1": "2690e999e43f3e9b60f9ed438527470bcfeeb9c5",
+      "metadata": {
+        "kanji": "探",
+        "title": "search",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-6", "structure-unclassified"],
+        "strokes": 11,
+        "radical": "手",
+        "radicalNumber": 64,
+        "onyomi": ["タン"],
+        "kunyomi": ["さぐ.る", "さが.す"],
+        "distractors": ["持", "抱", "指"]
+      }
+    },
+    {
+      "kanji": "民",
+      "sourceGitRawSha256": "4acfad3b962681ec5e38f4a4f201ad0ea2e436e0c990a781bd0ed644852dd6c9",
+      "strokeSourceGitRawSha256": "7013721334c2f9650891ed594ec54bb03e3d83b9b7abc0604a5168c1efaebaf0",
+      "strokeSourceGitBlobSha1": "2410fe7a5fe999dd8c0d459d61d1f97934d6c7ee",
+      "metadata": {
+        "kanji": "民",
+        "title": "populace",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-4", "structure-unclassified"],
+        "strokes": 5,
+        "radical": "氏",
+        "radicalNumber": 83,
+        "onyomi": ["ミン"],
+        "kunyomi": ["たみ"],
+        "distractors": ["母", "長", "目"]
+      }
+    },
+    {
+      "kanji": "求",
+      "sourceGitRawSha256": "6220c012e964d5870488a311e8f6185e250be137dcdb66011747f9c630222252",
+      "strokeSourceGitRawSha256": "3d7ff11747a0eb640b92a2d6377c5284c4a4f8b01054782c3d652814e56f5fce",
+      "strokeSourceGitBlobSha1": "667145a8d9409d9c5bf263cbb692d9b0721912c5",
+      "metadata": {
+        "kanji": "求",
+        "title": "seek; request",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-4", "structure-unclassified"],
+        "strokes": 7,
+        "radical": "水",
+        "radicalNumber": 85,
+        "onyomi": ["キュウ", "グ"],
+        "kunyomi": ["もと.める"],
+        "distractors": ["水", "来", "犬"]
+      }
+    }
+  ],
+  "sourceDirectedNegativeEdges": [
+    "捕→指", "捕→掛", "捕→折",
+    "掛→指", "掛→折", "掛→押",
+    "探→持", "探→抱", "探→指",
+    "民→母", "民→長", "民→目",
+    "求→水", "求→来", "求→犬"
+  ],
+  "providerStatus": [
+    {"edge": "捕→指", "providerPath": "kanji/指.md", "status": "accepted baseline"},
+    {"edge": "捕→掛", "providerPath": "kanji/掛.md", "status": "included in this batch"},
+    {"edge": "捕→折", "providerPath": "kanji/折.md", "status": "accepted baseline"},
+    {"edge": "掛→指", "providerPath": "kanji/指.md", "status": "accepted baseline"},
+    {"edge": "掛→折", "providerPath": "kanji/折.md", "status": "accepted baseline"},
+    {"edge": "掛→押", "providerPath": "kanji/押.md", "status": "accepted baseline"},
+    {"edge": "探→持", "providerPath": "kanji/持.md", "status": "accepted baseline"},
+    {"edge": "探→抱", "providerPath": "kanji/抱.md", "status": "accepted baseline"},
+    {"edge": "探→指", "providerPath": "kanji/指.md", "status": "accepted baseline"},
+    {"edge": "民→母", "providerPath": "kanji/母.md", "status": "accepted baseline"},
+    {"edge": "民→長", "providerPath": "kanji/長.md", "status": "accepted baseline"},
+    {"edge": "民→目", "providerPath": "kanji/目.md", "status": "accepted baseline"},
+    {"edge": "求→水", "providerPath": "kanji/水.md", "status": "accepted baseline"},
+    {"edge": "求→来", "providerPath": "kanji/来.md", "status": "accepted baseline"},
+    {"edge": "求→犬", "providerPath": "kanji/犬.md", "status": "accepted baseline"}
+  ],
+  "navigation": {
+    "baselineWordPages": [
+      ["words/捕まえる.md", "捕"],
+      ["words/掛かる.md", "掛"],
+      ["words/掛ける.md", "掛"],
+      ["words/探す.md", "探"],
+      ["words/市民.md", "民"]
+    ],
+    "baselineWordPageHashes": {
+      "words/捕まえる.md": {
+        "rawSha256": "4c196cf6452b8d5465718a7ea65c26670844166ee3d3aa83b41e5711a4c0ca5e",
+        "gitBlobSha1": "7ecfb7e7cbe65c279bc9d134478f7090423823d8"
+      },
+      "words/掛かる.md": {
+        "rawSha256": "b9ca2ca55de1af2ed491ed777fa8cf02d0e3bbc734e135a8f86ea9bdc3549bb7",
+        "gitBlobSha1": "2fd283d70608613642234162979a82bd7966c3f1"
+      },
+      "words/掛ける.md": {
+        "rawSha256": "e4c7ad1588e6390618eaa2fead38031925d8364433e434c25d86985d7e427d1d",
+        "gitBlobSha1": "3e554cd0bedb6cf5032473a3603416822925d074"
+      },
+      "words/探す.md": {
+        "rawSha256": "0947471e4c1d2ed11f8babdaeaaa6ebf48f5fd516efead109c0ad60b8b793765",
+        "gitBlobSha1": "186825b18675223fe48369543dd0970be361fffb"
+      },
+      "words/市民.md": {
+        "rawSha256": "8027950639edce0a6c4518444f70d0457c5ee939384cca79b8bce26536ff2627",
+        "gitBlobSha1": "531c59dcde7efc4e12ccd71498546a93d47d945a"
+      }
+    },
+    "plannedNavOnlyChanges": 5,
+    "optionalUnavailableSourceAnchors": [
+      {
+        "lesson": "kanji/求.md",
+        "target": "words/求める.md",
+        "visibleLabel": "求める",
+        "reading": "もとめる",
+        "occurrences": 3,
+        "baselineLessonRawSha256": "6220c012e964d5870488a311e8f6185e250be137dcdb66011747f9c630222252"
+      }
+    ],
+    "unavailableAnchorOccurrences": 3,
+    "unavailableUniqueWordTargets": 1,
+    "requiredTreatment": "Do not add the missing word page or expand the frozen dependency closure. Keep each visible Japanese form and its reading as plain text in RU; omit only the unavailable Markdown link wrapper under the separately recorded pre-mutation amendment."
+  },
+  "baselineCounts": {
+    "reviewedCurrent": 2424,
+    "excludedReviewedRuntimeBlocked": 2,
+    "pending": 5852,
+    "total": 8278,
+    "acceptedKanji": 449,
+    "acceptedWords": 1478,
+    "acceptedStrokes": 449
+  },
+  "privateEvidenceArtifacts": {
+    "metadataCapture": {
+      "name": "ru-127-metadata-primary-capture-001.json",
+      "sha256": "562a8ac1a19e59102989656a0fc5dc6bfa4c3bdbd20d32031c13ce38179e348b"
+    },
+    "jmdictCapture": {
+      "name": "ru-127-jmdict-primary-capture-001.json",
+      "sha256": "99e0dad89c90c4938780718c33af59de446d3475b80eeeab0814744cc4bc922f"
+    },
+    "kanjipediaCapture": {
+      "name": "ru-127-kanjipedia-capture-001.json",
+      "sha256": "7d2372ca4eaa9652f0f37871c948f2d595be61b8a30957ed3b0b0da3eb384636"
+    },
+    "frozenCommunityN3Snapshot": {
+      "name": "ru-127-frozen-n3-source-snapshot-001.json",
+      "sha256": "4ffdacad14efcdee13e504a36f5705bc2226ea763bf46a00369c1bf6040b28e8"
+    }
+  },
+  "sourceFactsAndLimits": {
+    "kanjidic2ArchiveSha256": "e26e34c9187a786bf1f0b21f87e311a9b0ed644aefe9693d10bdc7cb8643d8e0",
+    "kanjidic2DatabaseVersion": "2026-308",
+    "unicodeDataVersion": "17.0.0",
+    "jmdictArchiveSha256": "5af39046e9579fd5e14d07a048fccce422b8df0d940ba8c086439e5a7617eab6",
+    "kanjivgRevision": "70a0b7ae0c18ceb5cb358274b029cce0234a43bc",
+    "jlptSource": "Frozen community N3 list; not an official JLPT syllabus.",
+    "historicalClaims": "Do not convert modern-shape mnemonics, visual resemblance, KANJIDIC2 readings, or radical indexing into etymology or phonetic analysis.",
+    "jmdictEntryIdsUsed": [
+      "1597780", "1514110",
+      "1207610", "1207590", "2170420",
+      "1593670", "1418260", "1604570",
+      "1308690", "1287070", "1334210",
+      "1229350", "1546680", "1229500"
+    ]
+  },
+  "quizSafety": "UNVERIFIED for all 15 original directed edges. Preserving source metadata, a shape comparison, or a source-introductory mapping is not evidence that these are safe ordinary active-negative quiz exclusions or runtime grading guards.",
+  "runtimeMutationOccurred": false,
+  "independentReviewOccurred": false,
+  "fullTranslationComplete": false
+}

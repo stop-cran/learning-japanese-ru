@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "batchId": "127-capture-hanging-search-population-kanji",
+  "recordedAt": "2026-11-10T08:33:23+01:00",
+  "reviewedCandidate": "8a029bc1097e32d68c12f4c5ac4503982a0f3896",
+  "candidateTree": "5ebb68eb89ffdec2458ce7d7649aff22616c5ba3",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "db368c9a0acd3dee80695d29e88d1c58c8a6797a",
+  "reviewer": {
+    "agentType": "code-review",
+    "identity": "not exposed by task return; not inferred",
+    "mode": "independent, read-only"
+  },
+  "actualReturnedReportTextArtifact": "private session artifact ru-127-review-whole-candidate-tool-return-001.txt",
+  "actualReturnedReportTextUtf8Bytes": 3355,
+  "actualReturnedReportTextSha256": "62e368fca365b16667007ef38e7b9546c9bc9f7e14d7437a0ccc453ff885ad25",
+  "reportHashDomain": "Exact UTF-8 bytes of the tool-returned review report; not shell stdout or a GitHub comment.",
+  "actualReadScope": {
+    "russianCompleteLessons": [
+      "捕",
+      "掛",
+      "探",
+      "民",
+      "求"
+    ],
+    "frozenEnglishCompleteGitBlobs": [
+      "捕",
+      "掛",
+      "探",
+      "民",
+      "求"
+    ],
+    "navigationDiffs": [
+      "words/捕まえる.md",
+      "words/掛かる.md",
+      "words/掛ける.md",
+      "words/探す.md",
+      "words/市民.md"
+    ],
+    "providerKanjiFullRUAndEN": [
+      "指",
+      "折",
+      "押",
+      "持",
+      "抱",
+      "母",
+      "長",
+      "目",
+      "水",
+      "来",
+      "犬"
+    ],
+    "sourceEvidence": {
+      "KANJIDIC2": "Requested selected fields and radical rows read; reviewer confirms matching metadata.",
+      "communityN3": "All five frozen community list memberships read; explicitly not official JLPT syllabus.",
+      "JMdict": "Cited forms/senses/restrictions/usual-kana and spelling-tendency evidence read as described in report.",
+      "KanjiPedia": "Five complete visible captured text entries read; glyph images not pixel-inspected.",
+      "typedKanjiPool": {
+        "artifact": "private ru-127-current-typed-kanji-pool-post-author-001.json",
+        "count": 463,
+        "sha256": "d165f5414282b4f06101e2011aecef2c8d1d0fe0e88d8fe527508f725d28b092"
+      },
+      "strokes": "All five candidate blobs compared byte-for-byte to frozen source Git blobs."
+    },
+    "guidance": [
+      ".github/copilot-instructions.md",
+      ".github/instructions/content-structure.instructions.md",
+      "docs/content-format-reference.md",
+      "docs/translation-methodology.md",
+      ".github/agents/kanji-accuracy-reviewer.agent.md",
+      ".github/agents/kanji-comprehension-reviewer.agent.md",
+      ".github/agents/content-consistency-reviewer.agent.md"
+    ],
+    "actualDirectedEdges": [
+      "捕→指",
+      "捕→掛",
+      "捕→折",
+      "掛→指",
+      "掛→折",
+      "掛→押",
+      "探→持",
+      "探→抱",
+      "探→指",
+      "民→母",
+      "民→長",
+      "民→目",
+      "求→水",
+      "求→来",
+      "求→犬"
+    ],
+    "limitations": [
+      "No validator or tests run by reviewer.",
+      "KanjiPedia glyph images not pixel-inspected.",
+      "No app/device operation, native-speaker review, or unrelated-corpus review."
+    ]
+  },
+  "qualifiedVerdicts": {
+    "C1": "CLEAN within five lesson metadata, cited Japanese readings/senses/examples, and five word-page change boundary; no supported fact defect.",
+    "C2": "UNVERIFIED overall for ordinary active-negative/fallback quiz safety; exact mutation scope and navigation/dependency preservation are bounded and clean. All 15 directed edges remain UNVERIFIED for ordinary active-negative/fallback use; no guard/runtime approval.",
+    "C3": "CLEAN within five complete Russian lessons and five navigation-only changes; not native-speaker or learning-outcome certification."
+  },
+  "directedQuizDisposition": {
+    "sourceDirectedEdges": 15,
+    "ordinaryActiveNegative": "UNVERIFIED for every direction; no grading guard approval.",
+    "metadataPreservationIsNotApproval": true,
+    "transitiveExclusionsInferred": false
+  },
+  "findings": [],
+  "limitations": [
+    "No validator or tests were run by reviewer; author checks are separate.",
+    "KanjiPedia glyph images were not pixel-inspected.",
+    "No blanket corpus, runtime, device, release, or native-speaker approval."
+  ],
+  "runtimeAcceptance": false,
+  "publicationIntegrated": false,
+  "fullTranslationComplete": false,
+  "followupAccountingResolution": "The historical intake count discrepancy is resolved by docs/translation-batches/127-capture-hanging-search-population-kanji-baseline-count-reconciliation-001.json; reviewer report remains immutable and correctly records that the evidence was unavailable at review time."
+}
