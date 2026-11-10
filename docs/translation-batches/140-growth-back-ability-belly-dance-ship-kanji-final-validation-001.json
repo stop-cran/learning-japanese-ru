@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "batchId": "140-growth-back-ability-belly-dance-ship-kanji",
+  "recordedAt": "2026-11-10T21:01:41+00:00",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "candidateCommit": "5b38a29aab94b83e19d75d30e2ead7979b5dc638",
+  "manifestVersion": "84b0a2e1289d2257",
+  "serialValidation": [
+    {
+      "command": "python tools\\build_manifest.py",
+      "exitCode": 0,
+      "stdout": "manifest.json: 2578 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 84b0a2e1289d2257\n",
+      "stderr": ""
+    },
+    {
+      "command": "python -X utf8 tools\\validate.py",
+      "exitCode": 0,
+      "stdout": "0 error(s)\n",
+      "stderr": ""
+    },
+    {
+      "command": "python -X utf8 -m unittest discover -s tools -p test_*.py",
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 75.328s\n\nOK\n"
+    },
+    {
+      "command": "python -X utf8 tools\\check_content_budget.py",
+      "exitCode": 0,
+      "stdout": "{'files': 2586, 'entries': 2595, 'retainedBytes': 7165404, 'inflatedBytes': 7183619, 'localZipBytes': 3604076, 'listeningTaskMediaBytes': 0}\n",
+      "stderr": ""
+    }
+  ],
+  "progressStatuses": {
+    "draft-reviewed-runtime-blocked": 2,
+    "pending": 5698,
+    "reviewed-current": 2578
+  },
+  "trackingArtifacts": [
+    {
+      "path": "manifest.json",
+      "utf8Bytes": 230423,
+      "rawSha256": "28ff4aa45de449a37ec55d9a6dce7cf8dcfcdb7e106fdee23aadae688d085ee7"
+    },
+    {
+      "path": "docs/translation-tracking.json",
+      "utf8Bytes": 8184708,
+      "rawSha256": "6c1ef85b843add0d98b0daed5afff9f76d2de245cf0fb5c0d54aa7ff1590d88e"
+    },
+    {
+      "path": "docs/translation-progress.json",
+      "utf8Bytes": 5896682,
+      "rawSha256": "835b16b027dca4809105ac48796a38d37c7ae82c9253264932f73d83dc0ac2e5"
+    }
+  ]
+}

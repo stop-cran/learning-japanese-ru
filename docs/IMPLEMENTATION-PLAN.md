@@ -10,6 +10,23 @@ records this revised order; earlier blocked observations below remain historical
 
 ## Previous published source milestone: batch135 doubt, climb, everyone, steal and straight kanji
 
+## Batch140: qualified source acceptance recorded, publication pending
+
+Batch140 completed six new lessons (育/背/能/腹/舞/船), six byte-identical
+frozen strokes, and seven exact NAV-only wrappers on existing words. Amendment
+002 corrected source-evidence bindings and optional-link counts; amendment 003
+authorized five validator-required wrappers; amendment 004 fixed one bounded C3
+wording issue in `kanji/舞.md` before acceptance.
+
+Candidate commit is `5b38a2929c8684f1518f4e8deee8f30f9f7fc572` with content
+version `84b0a2e1289d2257`. Serial checks passed: manifest build, validator,
+124 tests, and content budget. C1/C3 are qualified to reviewed scope only; C2
+ordinary negative/fallback safety remains **UNVERIFIED** for all 18 direct
+directions.
+
+Progress after adoption: **2,578 reviewed-current / 2 runtime-blocked / 5,698
+pending of 8,278**, with 1,478 words / 535 kanji / 535 strokes.
+
 Batch135 adds complete lessons and byte-identical frozen-source stroke assets
 for 疑/登/皆/盗/直, plus six preauthorized NAV-only wrappers. The bounded review’s
 C2-01 omission was resolved by restoring only the two source-comparison
