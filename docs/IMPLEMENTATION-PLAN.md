@@ -92,21 +92,29 @@ Progress is 2,542 reviewed-current / 2 excluded reviewed runtime-blocked /
 authorize grading, runtime activation, device/media/release work, or
 completion.
 
-## Batch138: qualified source candidate; publication pending
+## Batch138: published qualified source acceptance
 
 Batch138 adds complete Russian lessons and byte-identical frozen-source stroke
 assets for 米/経/給/絵/絶/続, plus six exact NAV-only changes on existing word
 pages. No learner-facing word text, quiz data, or grading behavior changed.
 Its signed pre-mutation freeze is `7bc7f54548d67b2dc3ccffdf5e4187987addf60d`;
-the signed runtime candidate is
-`688ff2f7b6d4c2f1de341ceead78a2690922eb6a`, content version
-`3fdd9e27d77b03c9`. The bounded review records C1/C2 UNVERIFIED overall and
-C3 CLEAN only within the six reviewed lessons. All 18 ordinary
-negative/fallback directions remain UNVERIFIED. Qualified progress is
+the signed runtime candidate is `688ff2f7b6d4c2f1de341ceead78a2690922eb6a`,
+content version `3fdd9e27d77b03c9`. The bounded review records C1/C2
+UNVERIFIED overall and C3 CLEAN only within the six reviewed lessons. All 18
+ordinary negative/fallback directions remain UNVERIFIED. Qualified progress is
 2,554 reviewed-current / 2 excluded reviewed runtime-blocked / 5,722 pending
-of 8,278, with 1,478 words / 523 kanji / 523 strokes. Publication is pending;
-this is not grading, runtime, device, media, release, activation, checkpoint,
-or completion approval. Preserve the excluded
+of 8,278, with 1,478 words / 523 kanji / 523 strokes.
+
+Owner-signed acceptance `506f04560b009d936240a906b523e0235079faa2` was
+published through [PR #24](https://github.com/stop-cran/learning-japanese-ru/pull/24)
+at main `e1184136fc186e5f224f1f780dfd890875f4e15c`; exact-main CI run
+[#42886500479](https://github.com/stop-cran/learning-japanese-ru/actions/runs/42886500479)
+passed. Actual public commit/main archives matched the exact Git archive
+path-by-path and byte-for-byte; all four protected pilot/integration refs
+remained unchanged, and issue #3 progress was updated. See the [publication
+verification](translation-batches/138-rice-experience-salary-picture-end-and-continue-kanji-publication-verification-001.json).
+This is not grading, runtime, device, media, release, ordinary-activation,
+checkpoint, or completion approval. Preserve the excluded
 `docs/translation-drafts/033-nature-outdoor-activity/words/空.md` and continue
 the frozen scope.
 

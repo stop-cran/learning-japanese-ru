@@ -104,7 +104,7 @@ strokes; checkpoint authority remains null and `Ready` false. This is qualified
 source-content progress only, not grading, runtime, device, media, release,
 ordinary-activation, checkpoint, or full-translation approval.
 
-## Batch138: qualified source candidate; publication pending
+## Batch138: published qualified source acceptance
 
 Batch138 adds complete Russian lessons and byte-identical frozen-source stroke
 assets for 米/経/給/絵/絶/続, with six preauthorized NAV-only wrappers on
@@ -119,12 +119,18 @@ implied.
 
 Qualified progress is **2,554 reviewed-current / 2 excluded reviewed
 runtime-blocked / 5,722 pending of 8,278**, with 1,478 words / 523 kanji / 523
-strokes. Candidate acceptance is qualified source-content progress only;
-publication and exact-main CI are pending. The excluded
-`docs/translation-drafts/033-nature-outdoor-activity/words/空.md` remains
-preserved. Continue every remaining safe batch; no runtime, device, media,
-release, ordinary-activation, checkpoint, or full-translation approval is
-implied.
+strokes. Owner-signed acceptance `506f04560b009d936240a906b523e0235079faa2`
+was published through [PR #24](https://github.com/stop-cran/learning-japanese-ru/pull/24)
+at main `e1184136fc186e5f224f1f780dfd890875f4e15c`; exact-main CI run
+[#42886500479](https://github.com/stop-cran/learning-japanese-ru/actions/runs/42886500479)
+passed. Actual public commit/main ZIP and tar.gz exports matched the exact Git
+archive path-by-path and byte-for-byte, all four protected pilot/integration
+refs remained unchanged, and issue #3 progress was updated. See the [publication
+verification](translation-batches/138-rice-experience-salary-picture-end-and-continue-kanji-publication-verification-001.json).
+The excluded `docs/translation-drafts/033-nature-outdoor-activity/words/空.md`
+remains preserved. Continue every remaining safe batch; no runtime, device,
+media, release, ordinary-activation, checkpoint, or full-translation approval
+is implied.
 
 ## Previous published source milestone: batch134 smoke, cat, birth, stay and turn kanji
 
