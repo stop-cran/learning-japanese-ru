@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "batch": "128-decide-govern-law-swim-wash-kanji",
+  "recordedAt": "2026-11-10T08:59:42+01:00",
+  "stage": "PRE-MUTATION NAVIGATION AMENDMENT",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "64c4f2144ae8c42ea813050470adc9d40137a629",
+  "intake": "docs/translation-batches/128-decide-govern-law-swim-wash-kanji-intake.json",
+  "sourceFreeze": "docs/translation-batches/128-decide-govern-law-swim-wash-kanji-source-adjudication-and-semantic-freeze-001.json",
+  "reason": "The frozen English lessons contain optional relative links to Russian word pages that remain pending. The example text is still useful without those links. Do not expand this kanji batch into those independent word translations.",
+  "unavailableSourceWordLinks": [
+    {
+      "lesson": "kanji/治.md",
+      "target": "words/治める.md",
+      "occurrences": 2,
+      "disposition": "Remove each Markdown link wrapper and retain the visible Japanese spelling."
+    },
+    {
+      "lesson": "kanji/法.md",
+      "target": "words/方法.md",
+      "occurrences": 3,
+      "disposition": "Remove each Markdown link wrapper and retain the visible Japanese spelling."
+    },
+    {
+      "lesson": "kanji/泳.md",
+      "target": "words/浮く.md",
+      "occurrences": 1,
+      "disposition": "Remove the Markdown link wrapper and retain the visible Japanese spelling."
+    },
+    {
+      "lesson": "kanji/流.md",
+      "target": "words/流れる.md",
+      "occurrences": 3,
+      "disposition": "Remove each Markdown link wrapper and retain the visible Japanese spelling."
+    }
+  ],
+  "retainedExistingWordPages": [
+    {
+      "path": "words/決める.md",
+      "navigationOnlyChange": "Wrap one existing visible 決 with the relative link ../kanji/決.md."
+    },
+    {
+      "path": "words/政治.md",
+      "navigationOnlyChange": "Wrap one existing visible 治 with the relative link ../kanji/治.md."
+    },
+    {
+      "path": "words/泳ぐ.md",
+      "navigationOnlyChange": "Wrap one existing visible 泳 with the relative link ../kanji/泳.md."
+    },
+    {
+      "path": "words/洗う.md",
+      "navigationOnlyChange": "Wrap one existing visible 洗 with the relative link ../kanji/洗.md."
+    },
+    {
+      "path": "words/生活.md",
+      "navigationOnlyChange": "Wrap one existing visible 活 with the relative link ../kanji/活.md."
+    }
+  ],
+  "exactUnavailableWrapperCount": 9,
+  "newWordPages": [],
+  "otherSemanticChanges": [],
+  "authorizationBoundary": "This amendment authorizes only the listed optional navigation removals and additions before content mutation. It does not authorize Japanese fact, reading, title, grading, quiz behavior, or word-content changes."
+}

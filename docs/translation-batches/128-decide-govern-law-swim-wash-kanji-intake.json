@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "batch": "128-decide-govern-law-swim-wash-kanji",
+  "recordedAt": "2026-11-10T08:59:42+01:00",
+  "stage": "DEPENDENCY-CLOSED INTAKE; PRE-MUTATION FREEZE RECORDED",
+  "branch": "full-ru-128-decide-water-wash-kanji",
+  "russianBaselineSnapshot": "64c4f2144ae8c42ea813050470adc9d40137a629",
+  "frozenEnglishSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineProgress": {
+    "path": "docs/translation-progress.json",
+    "rawSha256": "7694292ee2139a1c48617c641e5a37a8cec69a788a7bdc1d3808e8dfd2704651",
+    "russianContentVersion": "7034d4c5959242d3",
+    "reviewedCurrent": 2434,
+    "reviewedRuntimeBlockedDrafts": 2,
+    "pending": 5842,
+    "frozenInventory": 8278,
+    "acceptedWords": 1478,
+    "acceptedKanji": 463,
+    "acceptedStrokes": 463,
+    "checkpointAuthority": null,
+    "ready": false
+  },
+  "selection": {
+    "firstPendingFrozenN3Roots": ["決", "治", "法", "泳", "洗"],
+    "closedNewKanji": ["決", "治", "法", "泳", "洗", "活", "流"],
+    "closureRule": "Close only the frozen source's direct distractor providers; do not infer transitive quiz exclusions.",
+    "closureSize": 7,
+    "additionalDirectProviders": ["活", "流"],
+    "allProvidersAcceptedOrIncluded": true,
+    "notAllN3OrFiniteCompletion": true,
+    "allFrozenFamiliesContinue": true
+  },
+  "newKanji": [
+    {
+      "kanji": "決",
+      "sourceGitRawSha256": "fb4de4346ae1029dd66eb5dc466482a0c1197bd5d953532d6656f09db4479dbe",
+      "sourceGitBlob": "5f4535754ded235c3b7d4b2acee62aef3ca6980a",
+      "strokeSourceGitRawSha256": "f3908096ad191c51b629b9880d94bf45215ed1a871df1e1afc5d034e2c2d948e",
+      "strokeSourceGitBlob": "e32d1643302f198657ec979068b303df8be5e883",
+      "metadata": {
+        "kanji": "決",
+        "title": "decide",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-3", "structure-unclassified"],
+        "strokes": 7,
+        "radical": "水",
+        "radicalNumber": 85,
+        "onyomi": ["ケツ"],
+        "kunyomi": ["き.める", "-ぎ.め", "き.まる", "さ.く"],
+        "distractors": ["注", "洋", "漢"]
+      }
+    },
+    {
+      "kanji": "治",
+      "sourceGitRawSha256": "cd899dfb83a6d8be66fa6ebe1a85d9c299e53d7ac4016062ebb0452898d85f61",
+      "sourceGitBlob": "0c3c5bc71d8844f9b4cb0c65464242aba6d4a577",
+      "strokeSourceGitRawSha256": "ee2e280ea17c38e54b6b04d3613c7a018780822be83c7c3ab101524dbd68ad9e",
+      "strokeSourceGitBlob": "d84626df3a6390eadc25714c1ab2ee5df33ec02d",
+      "metadata": {
+        "kanji": "治",
+        "title": "govern; heal",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-4", "structure-unclassified"],
+        "strokes": 8,
+        "radical": "水",
+        "radicalNumber": 85,
+        "onyomi": ["ジ", "チ"],
+        "kunyomi": ["おさ.める", "おさ.まる", "なお.る", "なお.す"],
+        "distractors": ["始", "台", "活"]
+      }
+    },
+    {
+      "kanji": "法",
+      "sourceGitRawSha256": "ebddfec089db038c64495f6f1b48b8410e1c12384a28aa42eb00ddd3524d315b",
+      "sourceGitBlob": "7af217decd6bbe009df57ae931107ad1ce009a7b",
+      "strokeSourceGitRawSha256": "f32a4df29c9c5596155fb1fe733a799506c968a7dd1910fece33747c73fe656f",
+      "strokeSourceGitBlob": "27c195d16788db2d5f3abbd525a188fce3790f8a",
+      "metadata": {
+        "kanji": "法",
+        "title": "law; method",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-4", "structure-unclassified"],
+        "strokes": 8,
+        "radical": "水",
+        "radicalNumber": 85,
+        "onyomi": ["ホウ", "ハッ", "ホッ", "フラン"],
+        "kunyomi": ["のり"],
+        "distractors": ["去", "洗", "泳"]
+      }
+    },
+    {
+      "kanji": "泳",
+      "sourceGitRawSha256": "f437d9ccf7394cd542a940608962f484d849394feabc3a32e32b8947f466a691",
+      "sourceGitBlob": "e35ad09229aa11ffaf3b9bd00d88244f04020c66",
+      "strokeSourceGitRawSha256": "f0c6c50b520c094d14827bbc91e8b6f48bef0d6dbeed346c36c7d7ec1c1b648f",
+      "strokeSourceGitBlob": "6fe1d01d3a103d29949d8f85d58779bfd9cea4d5",
+      "metadata": {
+        "kanji": "泳",
+        "title": "swim",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-3", "structure-unclassified"],
+        "strokes": 8,
+        "radical": "水",
+        "radicalNumber": 85,
+        "onyomi": ["エイ"],
+        "kunyomi": ["およ.ぐ"],
+        "distractors": ["流", "治", "洗"]
+      }
+    },
+    {
+      "kanji": "洗",
+      "sourceGitRawSha256": "01d4ed152f862606cd31da96641bca5baf5886641c77544cfe6fb7c735c04988",
+      "sourceGitBlob": "adc08856a95210849115f295038048eb5c7e756f",
+      "strokeSourceGitRawSha256": "89c1fb9f51e2f926801a4494e489f94e21bd0d4a75d0fbed41f2840c0604ca0a",
+      "strokeSourceGitBlob": "e3078c5f5cece8a638904e8f3122ff3e58b9466b",
+      "metadata": {
+        "kanji": "洗",
+        "title": "wash",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-6", "structure-unclassified"],
+        "strokes": 9,
+        "radical": "水",
+        "radicalNumber": 85,
+        "onyomi": ["セン"],
+        "kunyomi": ["あら.う"],
+        "distractors": ["先", "活", "法"]
+      }
+    },
+    {
+      "kanji": "活",
+      "sourceGitRawSha256": "d70a982567cb21c272132fe7c8828f5d9e890c353dbf6c89d64cc50be5418fda",
+      "sourceGitBlob": "435a5965ec08ba63f30eda83dd54dc8b1d3bcffc",
+      "strokeSourceGitRawSha256": "495351ff25f173a6a1430f7a3ee0e22737abcd790a41d69ca334a72aabbe3e65",
+      "strokeSourceGitBlob": "d84718e485d1c3119fec93696c09252ac3777fe3",
+      "metadata": {
+        "kanji": "活",
+        "title": "lively",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-2", "structure-unclassified"],
+        "strokes": 9,
+        "radical": "水",
+        "radicalNumber": 85,
+        "onyomi": ["カツ"],
+        "kunyomi": ["い.きる", "い.かす", "い.ける"],
+        "distractors": ["話", "海", "流"]
+      }
+    },
+    {
+      "kanji": "流",
+      "sourceGitRawSha256": "2eab0b1f9998956aeb4270ceb9c0f4aace84a2dc5c8d24c0c4b2d479f153581f",
+      "sourceGitBlob": "4eca639c7239506eb74057c3c7c8b9cd2b3ed4ed",
+      "strokeSourceGitRawSha256": "4fa99fc80af8112b9e3406d84df480968bc3cbb8db078a89061af9e525933ae2",
+      "strokeSourceGitBlob": "1ed2d63e4376e6e19c41588d985b09ddcaae867d",
+      "metadata": {
+        "kanji": "流",
+        "title": "flow",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-3", "structure-unclassified"],
+        "strokes": 10,
+        "radical": "水",
+        "radicalNumber": 85,
+        "onyomi": ["リュウ", "ル"],
+        "kunyomi": ["なが.れる", "なが.れ", "なが.す", "-なが.す"],
+        "distractors": ["泳", "活", "法"]
+      }
+    }
+  ],
+  "existingRequiredProviders": ["注", "洋", "漢", "始", "台", "去", "先", "話", "海"],
+  "allDirectDistractorProvidersPresent": true,
+  "navigationOnlyWordPages": [
+    "words/決める.md",
+    "words/政治.md",
+    "words/泳ぐ.md",
+    "words/洗う.md",
+    "words/生活.md"
+  ],
+  "unavailableOptionalWordTargets": {
+    "治める": "pending word target; source wrappers will be removed only under the pre-mutation amendment",
+    "方法": "pending word target; source wrappers will be removed only under the pre-mutation amendment",
+    "浮く": "pending word target; source wrappers will be removed only under the pre-mutation amendment",
+    "流れる": "pending word target; source wrappers will be removed only under the pre-mutation amendment"
+  },
+  "privatePrimaryEvidence": {
+    "kanjidic2": {
+      "artifact": "ru-128-metadata-primary-capture-001.json",
+      "sha256": "5daf51c14d3a8724678560d568d8acb4027ae4f9dbc4c7bde708a9cbcc79cef7",
+      "archiveSha256": "e26e34c9187a786bf1f0b21f87e311a9b0ed644aefe9693d10bdc7cb8643d8e0",
+      "databaseVersion": "2026-308"
+    },
+    "jmdict": {
+      "artifact": "ru-128-jmdict-primary-capture-001.json",
+      "sha256": "1fa471ebaf72fa9eaeeb9404b3243d41af960027822be3b044e30b30eefb8fd2",
+      "archiveSha256": "5af39046e9579fd5e14d07a048fccce422b8df0d940ba8c086439e5a7617eab6",
+      "entryIds": ["1254180", "1591420", "1254380", "1375970", "1316830", "1599400", "2856318", "1517090", "1517480", "1505600", "1174340", "1371320", "1497420", "1390930", "1390980", "1399790", "1378860", "1208360", "1552140", "1552120", "1272580"]
+    },
+    "n3List": {
+      "artifact": "ru-127-frozen-n3-source-snapshot-001.json",
+      "scope": "A community list, not an official JLPT syllabus; used only to order remaining N3 candidates."
+    }
+  },
+  "runtimeMutationOccurred": false
+}
