@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "batchId": "133-king-presence-ball-kanji",
+  "freezeState": "pre-mutation-freeze",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "dcb272dec45c8a64ba951d7fff56209ae1945660",
+  "baselineContentVersion": "d152c624bd2043cd",
+  "frozenLessons": ["王", "現", "球"],
+  "metadataDecisions": [
+    {
+      "kanji": "王",
+      "sourceMetadata": {
+        "title": "king",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-1", "structure-unclassified"],
+        "strokes": 4,
+        "radical": "玉",
+        "radicalNumber": 96,
+        "onyomi": ["オウ", "-ノウ"],
+        "kunyomi": [],
+        "distractors": ["土", "工", "生"]
+      },
+      "kanjidic2": {
+        "strokes": 4,
+        "classicalRadicalNumber": 96,
+        "on": ["オウ", "-ノウ"],
+        "kun": [],
+        "legacyJlptValue": 2
+      },
+      "wordEvidence": [
+        "王/おう 1629200: king, ruler, sovereign, monarch; further senses include tycoon/magnate/champion/master and a shogi abbreviation.",
+        "王様/おうさま 1181700: king; entry marks the honorific sense.",
+        "王国/おうこく 1181480: kingdom, monarchy."
+      ],
+      "decision": "Use a concise Russian learner label for the ruler sense; do not imply that it exhausts every JMdict sense of 王. Distinguish the ruler from 王国 as the realm. Retain the source reading list and metadata, but teach オウ only as the source lesson does; do not infer a productive standalone use for -ノウ."
+    },
+    {
+      "kanji": "現",
+      "sourceMetadata": {
+        "title": "actual; present",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-5", "structure-unclassified"],
+        "strokes": 11,
+        "radical": "玉",
+        "radicalNumber": 96,
+        "onyomi": ["ゲン"],
+        "kunyomi": ["あらわ.れる", "あらわ.す", "うつつ", "うつ.つ"],
+        "distractors": ["親", "見", "球"]
+      },
+      "kanjidic2": {
+        "strokes": 11,
+        "classicalRadicalNumber": 96,
+        "on": ["ゲン"],
+        "kun": ["あらわ.れる", "あらわ.す", "うつつ", "うつ.つ"],
+        "legacyJlptValue": 2
+      },
+      "wordEvidence": [
+        "現実/げんじつ 1263710: reality, actuality, hard fact.",
+        "現在/げんざい 1263650: the present, present time, now; additional senses include as-of usage, present tense and existence.",
+        "現れる/あらわれる 1263510: appear, come in sight, become visible; a second sense covers emotions being expressed and trends/effects becoming apparent."
+      ],
+      "decision": "Explain the source's actuality/presence/apparency range without making these interchangeable translations in every context. Teach the source-selected ゲン and あらわ.れる examples only; preserve all source readings in metadata without claiming the table exhausts them. The left-side 王 shape is a positional form of the canonical 玉 radical, not a separate historical-origin claim."
+    },
+    {
+      "kanji": "球",
+      "sourceMetadata": {
+        "title": "ball; sphere",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-3", "structure-unclassified"],
+        "strokes": 11,
+        "radical": "玉",
+        "radicalNumber": 96,
+        "onyomi": ["キュウ"],
+        "kunyomi": ["たま"],
+        "distractors": ["理", "現", "王"]
+      },
+      "kanjidic2": {
+        "strokes": 11,
+        "classicalRadicalNumber": 96,
+        "on": ["キュウ"],
+        "kun": ["たま"],
+        "legacyJlptValue": 2
+      },
+      "wordEvidence": [
+        "地球/ちきゅう 1420970: Earth, the globe.",
+        "野球/やきゅう 1537300: baseball.",
+        "球体/きゅうたい 1230000: sphere/globe/orb, with a mathematical ball sense.",
+        "たま 1240530 has several spellings and many senses; 球 is specifically recorded for a sports ball/pitch sense, while other senses have spelling restrictions."
+      ],
+      "decision": "Use the source's ball/sphere range and distinguish the established word 野球 from a literal character-by-character gloss. Keep the たま explanation within the supported ball/sports-ball scope; do not transfer the shared 玉-entry senses to 球 without the entry's spelling restrictions."
+    }
+  ],
+  "jlptAdjudication": {
+    "sourceCommunitySet": "docs/n3-source-snapshot.json at the frozen source commit includes 王, 現 and 球 in the named N3 character set.",
+    "sourcePolicy": "docs/jlpt-levels.md says jlpt is a community study label, not an official individual-item assignment; legacy KANJIDIC2 JLPT values are not modern N-numbers.",
+    "decision": "Preserve source jlpt: 3 and tags. If shown to learners, qualify N3 as the community list. Do not convert the KANJIDIC2 legacy value 2 into a current N-level or claim an official syllabus."
+  },
+  "evidence": {
+    "kanjidic2Capture": {
+      "privateArtifact": "ru-133-kanjidic2-primary-capture-001.json",
+      "rawSha256": "388a021a63aee7dcf066a22bd21ea41e498ada00d555bd0a8cf767b7318da6d6",
+      "archiveSha256": "e26e34c9187a786bf1f0b21f87e311a9b0ed644aefe9693d10bdc7cb8643d8e0",
+      "recordsRead": ["王", "現", "球"],
+      "captureContainsExactSourceRecordBytes": true
+    },
+    "jmdictCapture": {
+      "privateArtifact": "ru-133-jmdict-primary-capture-001.json",
+      "rawSha256": "17194e66fd83369179ffa11eacae285bb7d2875b5a5bff10c7a1fddc5b5e96d7",
+      "archiveSha256": "5af39046e9579fd5e14d07a048fccce422b8df0d940ba8c086439e5a7617eab6",
+      "entriesRead": [
+        "王/おう 1629200",
+        "王様/おうさま 1181700",
+        "王国/おうこく 1181480",
+        "現実/げんじつ 1263710",
+        "現在/げんざい 1263650",
+        "現れる/あらわれる 1263510",
+        "たま 1240530",
+        "地球/ちきゅう 1420970",
+        "野球/やきゅう 1537300",
+        "球体/きゅうたい 1230000"
+      ],
+      "interpretation": "The captured full entries and their forms, readings, senses and spelling restrictions were read. They support the bounded lexical explanations above; they do not establish example-sentence frequency, universal word formation, quiz-safe negatives or every possible dependency."
+    },
+    "communityJlptN3Snapshot": {
+      "sourcePath": "docs/n3-source-snapshot.json",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "sourceGitBlob": "b18b0a72779488538324a0b48c82e2684ea89d71",
+      "sourceRawSha256": "4ffdacad14efcdee13e504a36f5705bc2226ea763bf46a00369c1bf6040b28e8",
+      "membersRead": ["王", "現", "球"]
+    },
+    "strokes": {
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "reuseByteIdentically": true,
+      "glyphPixelsVisuallyInspected": false
+    }
+  },
+  "scopeAndInvariants": {
+    "translateTheCompleteFrozenLearnerFacingBodies": true,
+    "preserveJapaneseExamplesReadingsFormsAndPunctuation": true,
+    "preserveSourceJlptTagsStrokesRadicalsReadingsAndDistractors": true,
+    "keepStructureUnclassifiedMetadata": true,
+    "mnemonicsMustRemainExplicitlyNonEtymological": true,
+    "doNotInferFrequencyOrUniqueness": true,
+    "doNotAddWordPages": true,
+    "doNotChangeQuizOrGradingMetadata": true,
+    "doNotAddQuizGuards": true,
+    "reuseStrokeFilesByteIdentically": true,
+    "applyOnlyTheFiveNavigationChanges": true,
+    "optionalLinksToUnavailableRussianWordPagesMustBeRemovedWithoutRemovingVisibleJapanese": true
+  },
+  "directQuizEdges": {
+    "status": "UNVERIFIED",
+    "directions": [
+      "王→土",
+      "王→工",
+      "王→生",
+      "現→親",
+      "現→見",
+      "現→球",
+      "球→理",
+      "球→現",
+      "球→王"
+    ],
+    "acceptedAnswerPathAndSenseConstraintsReviewed": false,
+    "guardsAdded": [],
+    "metadataRetentionIsNotGradingApproval": true
+  },
+  "openQuestions": [
+    "All nine direct negative/fallback answer directions remain UNVERIFIED until separately reviewed; this freeze does not approve quiz grading.",
+    "No native-speaker certification, glyph-pixel inspection, app, device, release, media/package or ordinary-activation approval is authorized here."
+  ]
+}

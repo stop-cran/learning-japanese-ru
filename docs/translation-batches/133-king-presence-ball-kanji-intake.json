@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "batchId": "133-king-presence-ball-kanji",
+  "status": "pre-mutation-freeze",
+  "sourceRepository": "stop-cran/learning-japanese",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineRepository": "stop-cran/learning-japanese-ru",
+  "baselineCommit": "dcb272dec45c8a64ba951d7fff56209ae1945660",
+  "baselineContentVersion": "d152c624bd2043cd",
+  "baselineProgress": {
+    "frozenInventory": 8278,
+    "reviewedCurrent": 2490,
+    "excludedReviewedRuntimeBlocked": 2,
+    "pending": 5786,
+    "acceptedWords": 1478,
+    "acceptedKanji": 491,
+    "acceptedStrokes": 491,
+    "checkpointAuthority": null,
+    "checkpointReady": false
+  },
+  "theme": "king, presence and ball kanji",
+  "sourceAdjudication": "docs/translation-batches/133-king-presence-ball-kanji-source-adjudication-and-semantic-freeze-001.json",
+  "navigationAmendment": "docs/translation-batches/133-king-presence-ball-kanji-pre-mutation-navigation-amendment-001.json",
+  "newLessons": [
+    {
+      "kanji": "王",
+      "sourcePath": "kanji/王.md",
+      "sourceGitBlob": "43d66841c32d5b03da928354d42f9a9a1947d938",
+      "sourceRawSha256": "fa928e98a31d39148f4272d6eb90c24490f937b3a58773c3c51aa62ae64794b0",
+      "strokePath": "strokes/王.json",
+      "strokeGitBlob": "695a54f5829011639e1ac2c960b426bbbc351d4b",
+      "strokeRawSha256": "7d647fe3a0cd971e268dcd81b064418c856b32134993f267ab81f4512bc0b587",
+      "sourceMetadata": {
+        "title": "king",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-1", "structure-unclassified"],
+        "strokes": 4,
+        "radical": "玉",
+        "radicalNumber": 96,
+        "onyomi": ["オウ", "-ノウ"],
+        "kunyomi": [],
+        "distractors": ["土", "工", "生"]
+      }
+    },
+    {
+      "kanji": "現",
+      "sourcePath": "kanji/現.md",
+      "sourceGitBlob": "9ded19e8ff2d28edb5e38cdfe8c5e4313a28cfd0",
+      "sourceRawSha256": "e3fb99afdb7aff3dea9ca4d2079b50371ff7c325ba2b7e2dc714b28c8806c5ba",
+      "strokePath": "strokes/現.json",
+      "strokeGitBlob": "0817c95bd84c2161f31014aef15749f6223280d5",
+      "strokeRawSha256": "3a12d52f2358ad96d8b7633914a38115d58261a7de7a3edbe71945c772c8afb8",
+      "sourceMetadata": {
+        "title": "actual; present",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-5", "structure-unclassified"],
+        "strokes": 11,
+        "radical": "玉",
+        "radicalNumber": 96,
+        "onyomi": ["ゲン"],
+        "kunyomi": ["あらわ.れる", "あらわ.す", "うつつ", "うつ.つ"],
+        "distractors": ["親", "見", "球"]
+      }
+    },
+    {
+      "kanji": "球",
+      "sourcePath": "kanji/球.md",
+      "sourceGitBlob": "bb3b1c620c608e976c3b7363dbdca33b7e152d99",
+      "sourceRawSha256": "260c192445c0385d31726f52aaf0d14f42b0b64be5866bbd791fa8f58f8aceee",
+      "strokePath": "strokes/球.json",
+      "strokeGitBlob": "8c2d2c538adaebf1fdedf405b8b7077ca5627fad",
+      "strokeRawSha256": "37605942e04a3b78fe507200d6ad32c7402e747b2ae4bb2406909849fa5df57d",
+      "sourceMetadata": {
+        "title": "ball; sphere",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-3", "structure-unclassified"],
+        "strokes": 11,
+        "radical": "玉",
+        "radicalNumber": 96,
+        "onyomi": ["キュウ"],
+        "kunyomi": ["たま"],
+        "distractors": ["理", "現", "王"]
+      }
+    }
+  ],
+  "plannedRuntimeScope": {
+    "newKanjiLessons": 3,
+    "newByteIdenticalStrokeAssets": 3,
+    "navigationOnlyWordPages": [
+      "words/丸い.md",
+      "words/現実.md",
+      "words/現れ.md",
+      "words/現れる.md",
+      "words/表現.md"
+    ],
+    "newWordPages": 0,
+    "quizOrGradingChanges": 0,
+    "otherRuntimePaths": 0
+  },
+  "directQuizDependencies": [
+    ["王", "土"],
+    ["王", "工"],
+    ["王", "生"],
+    ["現", "親"],
+    ["現", "見"],
+    ["現", "球"],
+    ["球", "理"],
+    ["球", "現"],
+    ["球", "王"]
+  ],
+  "dependencyClosure": {
+    "candidateTargets": ["王", "現", "球"],
+    "alreadyReviewedCurrentTargets": ["土", "工", "生", "親", "見", "理"],
+    "allDirectTargetsPresentOrInCandidate": true
+  },
+  "quizDisposition": {
+    "allDirectDirections": "UNVERIFIED",
+    "metadataRetentionIsNotGradingApproval": true,
+    "acceptedAnswerPathAndSenseConstraintsReviewed": false,
+    "guardsAdded": []
+  },
+  "sourceCaptures": {
+    "kanjidic2": {
+      "privateArtifact": "ru-133-kanjidic2-primary-capture-001.json",
+      "rawSha256": "388a021a63aee7dcf066a22bd21ea41e498ada00d555bd0a8cf767b7318da6d6",
+      "sourceArchive": "ru-019-kanjidic2.xml.gz",
+      "sourceArchiveSha256": "e26e34c9187a786bf1f0b21f87e311a9b0ed644aefe9693d10bdc7cb8643d8e0"
+    },
+    "jmdict": {
+      "privateArtifact": "ru-133-jmdict-primary-capture-001.json",
+      "rawSha256": "17194e66fd83369179ffa11eacae285bb7d2875b5a5bff10c7a1fddc5b5e96d7",
+      "sourceArchive": "ru-041-official-JMdict-e-001.gz",
+      "sourceArchiveSha256": "5af39046e9579fd5e14d07a048fccce422b8df0d940ba8c086439e5a7617eab6"
+    },
+    "communityJlptN3": {
+      "sourcePath": "docs/n3-source-snapshot.json",
+      "sourceGitBlob": "b18b0a72779488538324a0b48c82e2684ea89d71",
+      "sourceRawSha256": "4ffdacad14efcdee13e504a36f5705bc2226ea763bf46a00369c1bf6040b28e8",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f"
+    },
+    "jlptPolicy": {
+      "sourcePath": "docs/jlpt-levels.md",
+      "sourceGitBlob": "46a866e3f10a6fba9cf47955709467fdf23d5127",
+      "sourceRawSha256": "0d4433a5cfdcaefd531b098e76c26e92040a9f28afdfd411639d475d5dde94d5",
+      "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f"
+    }
+  },
+  "authorityLimits": {
+    "runtimeActivation": false,
+    "mediaOrPackageApproval": false,
+    "deviceOrReleaseApproval": false,
+    "fullTranslationCompletion": false
+  }
+}

@@ -1,6 +1,57 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch130 crossing, harbor, fullness and performance kanji
+## Current published source milestone: batch132 pick-up, search and discard kanji
+
+Batch132 adds complete Russian lessons for 拾/捜/捨, three byte-identical frozen-source
+stroke assets, and five authorized NAV-only word-page links. No word teaching
+content, quiz arrays, or grading behavior changed.
+
+The bounded independent review found no supported consequential finding. C1 is
+acceptable with evidence limits: KANJIDIC2 records were read, while JMdict
+conclusions are limited to targeted entries and search matches. C2 scope and
+navigation are consistent, but all nine ordinary negative/fallback directions
+remain **UNVERIFIED**; metadata retention is not grading approval. C3 found no
+confirmed novice-clarity defect in the read scope, not native-speaker
+certification.
+
+The [qualified source record](translation-batches/132-pick-up-search-discard-kanji-reviewed-source.json)
+and [publication verification](translation-batches/132-pick-up-search-discard-kanji-publication-verification-001.json)
+record **2,490 reviewed-current / 2 excluded reviewed runtime-blocked / 5,786
+pending of 8,278**, with 1,478 words / 491 kanji / 491 strokes. Content version
+is `d152c624bd2043cd`; checkpoint authority remains null and `Ready` false. PR
+[#17](https://github.com/stop-cran/learning-japanese-ru/pull/17) integrated at
+main `dbe35d744296279dd50aa702b6eaf24164164283`. Exact-main CI passed; actual
+public ZIP and tar.gz exports (2,498 files each) match the exact `git archive`
+export, including required licenses/notices. All four protected refs remained
+unchanged and issue #3 progress was updated. This is source-content qualification
+only, not grading, runtime, device, media, release, ordinary-activation, or
+full-translation approval. Continue batch133 and every remaining safe frozen
+family.
+
+## Previous published source milestone: batch131 heat, fatigue, pain, sleep and condition kanji
+
+Batch131 adds ten complete Russian lessons (熱/疲/痛/眠/状/点/然/破/犯/石),
+ten byte-identical frozen-source stroke assets, and thirteen NAV-only word-page
+updates. No word page or quiz/grading behavior was added; five unavailable RU
+word pages retain their visible Japanese terms without dangling links.
+
+The bounded review found no supported findings. C1 is UNVERIFIED overall
+despite verified source fidelity and partial primary-capture confirmation; C2
+remains UNVERIFIED for all 30 ordinary negative/fallback directions; C3 is
+UNVERIFIED and is not native-speaker certification.
+
+The [qualified source record](translation-batches/131-heat-fatigue-pain-sleep-condition-kanji-reviewed-source.json)
+records **2,484 reviewed-current / 2 excluded reviewed runtime-blocked / 5,792
+pending of 8,278**, with 1,478 words / 488 kanji / 488 strokes. Version
+`d8a791473ae509d9`; checkpoint authority remains null and `Ready` false. PR
+[#15](https://github.com/stop-cran/learning-japanese-ru/pull/15) integrated at
+main `5c2ac0f4a541136caeba3cbd3154fc3aba0ccc65`. Exact-main CI and actual public
+ZIP/tar.gz exports passed, all four protected refs were unchanged, and issue #3
+progress was updated. See the [publication verification](translation-batches/131-heat-fatigue-pain-sleep-condition-kanji-publication-verification-001.json).
+This was qualified source progress only. Batch132 supersedes it as the current
+published milestone; see above.
+
+## Previous published source milestone: batch130 crossing, harbor, fullness and performance kanji
 
 Batch130 adds four complete Russian frozen-community N3 lessons (渡/港/満/演),
 four byte-identical frozen-source stroke assets, and five authorized NAV-only
@@ -25,8 +76,9 @@ path-by-path and byte-for-byte, all required notices/licenses were present, all
 four protected refs were unchanged, and issue #3 progress was updated. See the
 [publication verification](translation-batches/130-crossing-harbor-fullness-performance-kanji-publication-verification-001.json).
 This is source-content qualification only, not runtime, device, release,
-ordinary-activation or full-translation approval. Continue batch131 and every
-remaining safe frozen family.
+ordinary-activation or full-translation approval. Batch131 and batch132
+subsequently completed; continue batch133 and every remaining safe frozen
+family.
 
 ## Previous published source milestone: batch129 floating, depth and settlement kanji
 
