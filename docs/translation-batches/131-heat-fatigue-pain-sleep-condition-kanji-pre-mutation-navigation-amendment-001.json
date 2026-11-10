@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "batchId": "131-heat-fatigue-pain-sleep-condition-kanji",
+  "status": "frozen before candidate content mutation",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "08813d0e412a71346ac2d3f2370f90e36dae4038",
+  "scope": "Navigation markup only. Visible Japanese and Russian wording, metadata, examples, quiz arrays, IDs, levels and reading data are invariant.",
+  "wordPageWrappers": [
+    {
+      "path": "words/熱い.md",
+      "baselineGitBlob": "ec630cf2ff9e0e986087e8674a32ab1166058f9a",
+      "baselineRawSha256": "2c483c3aab0d5c263acf9e80ddbe9bd8f0547a0c07760e6d204e56a7f845a68f",
+      "replaceExactlyOnce": {
+        "old": "熱 передаёт значение жара,",
+        "new": "[熱](../kanji/熱.md) передаёт значение жара,"
+      }
+    },
+    {
+      "path": "words/疲れる.md",
+      "baselineGitBlob": "c07e1c2b264c7e368958d5a26b12d9dc7308117c",
+      "baselineRawSha256": "67abb91f2cc5fef2ce444515db2843ed014cc311572ee8a48735937441059968",
+      "replaceExactlyOnce": {
+        "old": "疲 передаёт つか-, а れる пишется каной.",
+        "new": "[疲](../kanji/疲.md) передаёт つか-, а れる пишется каной."
+      }
+    },
+    {
+      "path": "words/痛い.md",
+      "baselineGitBlob": "0d81ed8eb7dfc15ed243a93180e4008464d7d072",
+      "baselineRawSha256": "01ccc280e98978fec4fd9b15048ac19ba748985c711806eacc675ea257ea2655",
+      "replaceExactlyOnce": {
+        "old": "痛 передаёт いた-, а конечное い отмечает прилагательное.",
+        "new": "[痛](../kanji/痛.md) передаёт いた-, а конечное い отмечает прилагательное."
+      }
+    },
+    {
+      "path": "words/眠る.md",
+      "baselineGitBlob": "42e96c46d61354965e204862a99947554901822d",
+      "baselineRawSha256": "3bbb4de2fbf6563e12ec239d37bc2f72a4e5db079e567f2ec0a756efedc6ef83",
+      "replaceExactlyOnce": {
+        "old": "眠 в 眠る читается ねむ;",
+        "new": "[眠](../kanji/眠.md) в 眠る читается ねむ;"
+      }
+    }
+  ],
+  "optionalSourceLinkWrappersRemovedBecauseRussianTargetsAreAbsent": [
+    {
+      "lessonPath": "kanji/熱.md",
+      "target": "kanji/点.md",
+      "replaceExactlyOnce": {
+        "old": "[点](点.md)",
+        "new": "点"
+      }
+    },
+    {
+      "lessonPath": "kanji/熱.md",
+      "target": "kanji/然.md",
+      "replaceExactlyOnce": {
+        "old": "[然](然.md)",
+        "new": "然"
+      }
+    },
+    {
+      "lessonPath": "kanji/疲.md",
+      "target": "kanji/破.md",
+      "replaceExactlyOnce": {
+        "old": "[破](破.md)",
+        "new": "破"
+      }
+    },
+    {
+      "lessonPath": "kanji/状.md",
+      "target": "words/状態.md",
+      "replaceEveryOccurrence": {
+        "old": "[状態](../words/状態.md)",
+        "new": "状態",
+        "frozenOccurrenceCount": 3
+      },
+      "preserveJapanese": "状態",
+      "preserveReading": "じょうたい",
+      "preserveScopeGloss": "condition/state"
+    },
+    {
+      "lessonPath": "kanji/状.md",
+      "target": "kanji/犯.md",
+      "replaceExactlyOnce": {
+        "old": "[犯](犯.md)",
+        "new": "犯"
+      }
+    }
+  ],
+  "retainedLinks": [
+    {
+      "lessonPath": "kanji/疲.md",
+      "link": "[痛](痛.md)",
+      "reason": "The target is added in this same frozen batch."
+    },
+    {
+      "lessonPath": "kanji/熱.md",
+      "link": "[黒](黒.md)",
+      "reason": "The target exists in the published RU baseline."
+    }
+  ],
+  "limits": {
+    "newWordPages": 0,
+    "newQuizGuards": 0,
+    "newGradingRules": 0,
+    "proseChangesAuthorizedByThisAmendment": false,
+    "unlistedNavigationEditsAuthorized": false
+  }
+}

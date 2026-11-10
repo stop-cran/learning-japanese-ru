@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "131-heat-fatigue-pain-sleep-condition-kanji",
+  "status": "reviewed-candidate",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "publishedBaseline": "08813d0e412a71346ac2d3f2370f90e36dae4038",
+  "freezeCommits": [
+    "0027e42cb23f99092b63b1d3b8cdbfaca89f26e8",
+    "0f9c2144ed51b61157032529271211255cee8c8d",
+    "043bc0c704cc92e19d65426f84e27e454e788ccd"
+  ],
+  "candidateCommit": "38613291c47b70d434ef23c8ff1cf2c81a9ab0a0",
+  "candidateTree": "696465b9a036ca07069bdc085d5dc6bbd5338058",
+  "contentVersion": "d8a791473ae509d9",
+  "scope": {
+    "newLessons": ["熱", "疲", "痛", "眠", "状", "点", "然", "破", "犯", "石"],
+    "newStrokeAssets": 10,
+    "navigationOnlyPaths": [
+      "words/交差点.md",
+      "words/全然.md",
+      "words/句読点.md",
+      "words/点.md",
+      "words/然る.md",
+      "words/熱.md",
+      "words/熱い.md",
+      "words/疲れる.md",
+      "words/症状.md",
+      "words/痛い.md",
+      "words/眠い.md",
+      "words/眠る.md",
+      "words/石.md"
+    ],
+    "newWordPages": 0,
+    "quizOrGradingChanges": 0,
+    "otherRuntimePaths": 0
+  },
+  "optionalUnavailableWordPages": {
+    "status": "visible Japanese retained without dangling RU links",
+    "paths": [
+      "words/状態.md",
+      "words/偶然.md",
+      "words/破る.md",
+      "words/破れる.md",
+      "words/犯人.md"
+    ],
+    "newPagesAdded": false
+  },
+  "independentReview": {
+    "report": "docs/translation-batches/131-heat-fatigue-pain-sleep-condition-kanji-independent-review-001.md",
+    "record": "docs/translation-batches/131-heat-fatigue-pain-sleep-condition-kanji-independent-review-001.json",
+    "C1": "UNVERIFIED overall; source fidelity and partial primary-capture confirmations recorded; no supported Japanese-content defect.",
+    "C2": "UNVERIFIED overall; all 30 ordinary negative/fallback directions remain UNVERIFIED; no grading guard.",
+    "C3": "UNVERIFIED; no specific comprehension defect substantiated in the complete lesson bodies read; not native-speaker certification.",
+    "supportedFindings": []
+  },
+  "primaryEvidence": {
+    "kanjidic2": {
+      "privateArtifact": "ru-131-metadata-primary-capture-001.json",
+      "rawSha256": "808ef41d844c89b9700208958d5d1d8e3ee114253b83461207af1b2af238d68d",
+      "confirmedCompleteRecords": 5
+    },
+    "kanjipedia": {
+      "privateArtifact": "ru-131-kanjipedia-capture-001.json",
+      "rawSha256": "690216157611438965b19dfa068b6ed555ffc135dcec50d13542cc8e16e5f6c1",
+      "completeEntryPagesRead": ["熱", "疲", "痛", "眠", "状"],
+      "glyphPixelsVisuallyInspected": false
+    },
+    "jmdict": {
+      "privateArtifact": "ru-131-jmdict-primary-capture-001.json",
+      "rawSha256": "0dea3d277a147b92db5d0c7f1e8d5c7fd09cd7807a00ded9893a4076e7f28fdc",
+      "completeEntriesRead": 15
+    },
+    "independentReview": "docs/translation-batches/131-heat-fatigue-pain-sleep-condition-kanji-independent-review-001.json"
+  },
+  "quizSafety": {
+    "allDirectDirections": "UNVERIFIED",
+    "ordinaryNegativeEdges": [
+      "熱→点", "熱→黒", "熱→然",
+      "疲→痛", "疲→病", "疲→破",
+      "痛→通", "痛→用", "痛→同",
+      "眠→目", "眠→銀", "眠→服",
+      "状→犬", "状→大", "状→犯",
+      "点→店", "点→黒", "点→熱",
+      "然→熱", "然→点", "然→犬",
+      "破→疲", "破→研", "破→石",
+      "犯→犬", "犯→状", "犯→兄",
+      "石→右", "石→口", "石→古"
+    ],
+    "metadataRetentionIsNotGradingApproval": true,
+    "acceptedAnswerPathAndSenseConstraintsReviewed": false,
+    "guardsAdded": []
+  },
+  "authorityLimits": {
+    "sourceProgressOnly": true,
+    "runtimeAcceptance": false,
+    "runtimeActivation": false,
+    "mediaOrPackageApproval": false,
+    "deviceOrReleaseApproval": false,
+    "fullTranslationCompletion": false
+  }
+}

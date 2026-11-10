@@ -11,7 +11,55 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current published source milestone: batch129 floating, depth and settlement kanji
+## Current qualified source candidate: batch131 heat, fatigue, pain, sleep and condition kanji
+
+Batch131 adds ten complete Russian lessons (熱/疲/痛/眠/状/点/然/破/犯/石),
+ten byte-identical frozen-source stroke assets, and thirteen NAV-only word-page
+updates. No word page or quiz/grading behavior was added. Five source-linked RU
+word pages remain absent; their visible Japanese terms are retained without
+dangling links.
+
+The bounded independent report found no supported findings. C1 is UNVERIFIED
+overall despite verified source fidelity and partial primary-capture
+confirmation; C2 remains UNVERIFIED for all 30 ordinary negative/fallback quiz
+directions; C3 is UNVERIFIED and is not native-speaker certification. This is
+qualified source progress only—no grading, runtime, device, media, release, or
+ordinary-activation approval.
+
+The [qualified source record](translation-batches/131-heat-fatigue-pain-sleep-condition-kanji-reviewed-source.json)
+records 2,484 reviewed-current / 2 excluded reviewed runtime-blocked drafts /
+5,792 pending of 8,278; 1,478 words / 488 kanji / 488 strokes. Version
+`d8a791473ae509d9`; checkpoint authority remains null and `Ready` false. The
+signed candidate is `38613291c47b70d434ef23c8ff1cf2c81a9ab0a0`; normal PR
+integration, exact-main CI, archive and protected-ref verification remain
+pending. Continue batch132 and every remaining safe frozen family after
+publication; this is not finite completion.
+
+## Previous published source milestone: batch130 crossing, harbor, fullness and performance kanji
+
+Batch130 adds four complete Russian N3 kanji lessons (渡/港/満/演), four
+byte-identical frozen-source stroke assets, and five preauthorized NAV-only
+word-page updates. Seven unavailable-link wrappers were removed while Japanese
+text was preserved; no word pages or quiz/runtime behavior were added.
+
+The bounded report found no supported findings, but C1/C2/C3 remain UNVERIFIED.
+All 12 ordinary negative/fallback quiz directions remain UNVERIFIED; the
+supplemental バス entry does not establish full-sentence naturalness. This is
+qualified source progress only, with no grading, runtime, native-speaker,
+device, release or ordinary-activation approval.
+
+The [qualified source record](translation-batches/130-crossing-harbor-fullness-performance-kanji-reviewed-source.json)
+records 2,464 reviewed-current / 2 excluded reviewed runtime-blocked drafts /
+5,812 pending of 8,278; 1,478 words / 478 kanji / 478 strokes. Version
+`fadd97d55a215c4d`; checkpoint authority remains null and `Ready` false. PR
+[#14](https://github.com/stop-cran/learning-japanese-ru/pull/14) merged at main
+`08813d0e412a71346ac2d3f2370f90e36dae4038`. Exact-main CI passed; public ZIP
+and tar.gz exports matched the exact Git archive bytes, required licenses/notices
+were present, all four protected refs remained unchanged, and issue #3 progress
+was updated. See the [publication verification](translation-batches/130-crossing-harbor-fullness-performance-kanji-publication-verification-001.json).
+Batch131 supersedes this as the current qualified candidate; see above.
+
+## Previous published source milestone: batch129 floating, depth and settlement kanji
 
 Batch129 adds four complete Russian frozen-community N3 lessons, 浮/消/深/済,
 and four byte-identical frozen KanjiVG stroke files. Six existing word pages

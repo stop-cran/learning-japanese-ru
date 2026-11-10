@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "batchId": "131-heat-fatigue-pain-sleep-condition-kanji",
+  "amendmentId": "131-quiz-dependency-closure-and-links-amendment-001",
+  "status": "frozen before dependency-card and amendment-authorized navigation mutation",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "publishedBaseline": "08813d0e412a71346ac2d3f2370f90e36dae4038",
+  "priorSignedFreezeCommit": "0027e42cb23f99092b63b1d3b8cdbfaca89f26e8",
+  "supersedes": {
+    "document": "docs/translation-batches/131-heat-fatigue-pain-sleep-condition-kanji-pre-mutation-navigation-amendment-001.json",
+    "onlyItems": [
+      "The planned removal of the 点 link from kanji/熱.md is superseded because kanji/点.md is now added as a required direct distractor dependency.",
+      "The planned removal of the 然 link from kanji/熱.md is superseded because kanji/然.md is now added as a required direct distractor dependency.",
+      "The planned removal of the 破 link from kanji/疲.md is superseded because kanji/破.md is now added as a required direct distractor dependency.",
+      "The planned removal of the 犯 link from kanji/状.md is superseded because kanji/犯.md is now added as a required direct distractor dependency."
+    ],
+    "unchangedItems": [
+      "The three wrappers around the unavailable RU words/状態.md target remain absent; keep 状態, its reading and visible meaning.",
+      "The 痛 link in kanji/疲.md remains because kanji/痛.md is part of the original batch.",
+      "The original five lesson/stroke scope, four initial word-page wrappers, and all original source/metadata invariants remain in force."
+    ]
+  },
+  "discovery": {
+    "command": "python -X utf8 -B tools/validate.py",
+    "candidateState": "First five lesson drafts, their five source-identical strokes and four initial word-page navigation edits existed only as uncommitted working-tree content. No dependency lesson, dependency stroke or amendment-listed word-page edit below had been made.",
+    "validatorFindings": [
+      "kanji/熱.md: distractor '点' has no card",
+      "kanji/熱.md: distractor '然' has no card",
+      "kanji/熱.md: 'distractors' must include at least 2 distinct existing nonself kanji",
+      "kanji/疲.md: distractor '破' has no card",
+      "kanji/状.md: distractor '犯' has no card",
+      "words/熱.md: kanji '熱' has a card but the article does not link to it",
+      "words/症状.md: kanji '状' has a card but the article does not link to it",
+      "words/眠い.md: kanji '眠' has a card but the article does not link to it"
+    ],
+    "resolution": "Preserve every frozen distractor ID and close the direct dependency targets with complete source lessons/strokes. Do not remove distractor metadata or add grading guards."
+  },
+  "additionalLessons": [
+    {
+      "kanji": "点",
+      "sourcePath": "kanji/点.md",
+      "sourceGitBlob": "086b3c10d98b3cde024244fd3d6cdaf4fe2f5a32",
+      "sourceRawSha256": "1541f325d59604436ab5e5331f5b2ebee55255ef181ed14713d4f12ac265797a",
+      "strokePath": "strokes/点.json",
+      "strokeGitBlob": "363b378851952b43293e5d2595c2e4073f67ba2e",
+      "strokeRawSha256": "549e66fb39acdb99b0fa48275cf9dc42b162ac03298ffb586096fdb5c2b2b3aa",
+      "frozenMetadata": {
+        "title": "point; dot",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-2", "structure-unclassified"],
+        "strokes": 9,
+        "radical": "火",
+        "radicalNumber": 86,
+        "onyomi": ["テン"],
+        "kunyomi": ["つ.ける", "つ.く", "た.てる", "さ.す", "とぼ.す", "とも.す", "ぼち"],
+        "distractors": ["店", "黒", "熱"]
+      }
+    },
+    {
+      "kanji": "然",
+      "sourcePath": "kanji/然.md",
+      "sourceGitBlob": "96502a27de3835ea76ad427b5b64e75163668e17",
+      "sourceRawSha256": "7e5131d4284620126ca8ae23243b2e1826714b503f5226db6f324a4dfd1a4a31",
+      "strokePath": "strokes/然.json",
+      "strokeGitBlob": "9761f3793c932cbb63c7cc13627ffe0f481d5dd2",
+      "strokeRawSha256": "968df73a137128b06562ebc4661eb587497ceab3a208b4073e6332f758401431",
+      "frozenMetadata": {
+        "title": "so; in that state",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-4", "structure-unclassified"],
+        "strokes": 12,
+        "radical": "火",
+        "radicalNumber": 86,
+        "onyomi": ["ゼン", "ネン"],
+        "kunyomi": ["しか", "しか.り", "しか.し", "さ"],
+        "distractors": ["熱", "点", "犬"]
+      }
+    },
+    {
+      "kanji": "破",
+      "sourcePath": "kanji/破.md",
+      "sourceGitBlob": "ac945769bfd8109c96f0703f495b99ab470cfef5",
+      "sourceRawSha256": "9e3acc335683408dcc5135966cdeda887151e490185453d661ea11aa5ef6ea3f",
+      "strokePath": "strokes/破.json",
+      "strokeGitBlob": "61926c9b58ae7e2338f8017981565734147db234",
+      "strokeRawSha256": "457a808ddafcfcc826b18d901709fb44460875c09df9a913a1914de0e9e17e77",
+      "frozenMetadata": {
+        "title": "tear; break",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-5", "structure-unclassified"],
+        "strokes": 10,
+        "radical": "石",
+        "radicalNumber": 112,
+        "onyomi": ["ハ"],
+        "kunyomi": ["やぶ.る", "やぶ.れる", "わ.れる"],
+        "distractors": ["疲", "研", "石"]
+      }
+    },
+    {
+      "kanji": "犯",
+      "sourcePath": "kanji/犯.md",
+      "sourceGitBlob": "a3b1cd9d984792aa455883c7b7967db3282e7908",
+      "sourceRawSha256": "92e76b4c53d1d12805a9349cfad8996b27ae873d3e4e836ce367ebe09b1c9587",
+      "strokePath": "strokes/犯.json",
+      "strokeGitBlob": "54ae604ccc844be8a7f98f8dd1a9c640cb1fb365",
+      "strokeRawSha256": "d6dba042309737ba223232cb94902c4db8a837509d81ae24e1f003feeee5f722",
+      "frozenMetadata": {
+        "title": "commit an offense",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-5", "structure-unclassified"],
+        "strokes": 5,
+        "radical": "犬",
+        "radicalNumber": 94,
+        "onyomi": ["ハン", "ボン"],
+        "kunyomi": ["おか.す"],
+        "distractors": ["犬", "状", "兄"]
+      }
+    },
+    {
+      "kanji": "石",
+      "sourcePath": "kanji/石.md",
+      "sourceGitBlob": "69fb78680c41d3a7ec06371cb212fca0584f229c",
+      "sourceRawSha256": "298ca8fa111920ba371a0221d74c230c2a3c9df528387364c97e29554472efd5",
+      "strokePath": "strokes/石.json",
+      "strokeGitBlob": "1731712fb4c9a435730fb287e8369239432d9ad4",
+      "strokeRawSha256": "6319b567575a6f7f9d4a58bdff2ac4c942fde6afd268c8868b1e7498c6afd8b4",
+      "frozenMetadata": {
+        "title": "stone",
+        "jlpt": 3,
+        "tags": ["jlpt-n3", "grade-1", "structure-unclassified"],
+        "strokes": 5,
+        "radical": "石",
+        "radicalNumber": 112,
+        "onyomi": ["セキ", "シャク", "コク"],
+        "kunyomi": ["いし"],
+        "distractors": ["右", "口", "古"]
+      }
+    }
+  ],
+  "directDistractorClosure": [
+    {
+      "kanji": "点",
+      "distractors": [
+        {"kanji": "店", "availableIn": "published baseline"},
+        {"kanji": "黒", "availableIn": "published baseline"},
+        {"kanji": "熱", "availableIn": "original batch131"}
+      ]
+    },
+    {
+      "kanji": "然",
+      "distractors": [
+        {"kanji": "熱", "availableIn": "original batch131"},
+        {"kanji": "点", "availableIn": "this amendment"},
+        {"kanji": "犬", "availableIn": "published baseline"}
+      ]
+    },
+    {
+      "kanji": "破",
+      "distractors": [
+        {"kanji": "疲", "availableIn": "original batch131"},
+        {"kanji": "研", "availableIn": "published baseline"},
+        {"kanji": "石", "availableIn": "this amendment"}
+      ]
+    },
+    {
+      "kanji": "犯",
+      "distractors": [
+        {"kanji": "犬", "availableIn": "published baseline"},
+        {"kanji": "状", "availableIn": "original batch131"},
+        {"kanji": "兄", "availableIn": "published baseline"}
+      ]
+    },
+    {
+      "kanji": "石",
+      "distractors": [
+        {"kanji": "右", "availableIn": "published baseline"},
+        {"kanji": "口", "availableIn": "published baseline"},
+        {"kanji": "古", "availableIn": "published baseline"}
+      ]
+    }
+  ],
+  "additionalNavigationChanges": [
+    {
+      "path": "words/交差点.md",
+      "baselineGitBlob": "6da0febe2b7e406144fc731df023d2ffa52ba5b1",
+      "baselineRawSha256": "5d836542d7d5666e7400a2bc14fcacfe7cd2f3ff5c4e02648d7bade99c9eb920",
+      "replaceExactlyOnce": {
+        "old": "点 добавляет значение «точка»: место пересечения.",
+        "new": "[点](../kanji/点.md) добавляет значение «точка»: место пересечения."
+      }
+    },
+    {
+      "path": "words/句読点.md",
+      "baselineGitBlob": "1dd501ce3e832e0d9c8987843ed2270583b4e07f",
+      "baselineRawSha256": "6bb8f06dc40366dd8339ff0a551e0fee523f30cc93b04c0ac6b091ed5b7ac301",
+      "replaceExactlyOnce": {
+        "old": "点 с чтением テン вносит значение знака или точки.",
+        "new": "[点](../kanji/点.md) с чтением テン вносит значение знака или точки."
+      }
+    },
+    {
+      "path": "words/点.md",
+      "baselineGitBlob": "9ff39e487de0ed4eba38344b9acd6c8fed3b23bc",
+      "baselineRawSha256": "fcbf0eb8dbcac58da541482644508ec9e39446dc9b89da6dacce800ad5c8dd93",
+      "replaceExactlyOnce": {
+        "old": "Здесь один кандзи 点.",
+        "new": "Здесь один кандзи [点](../kanji/点.md)."
+      }
+    },
+    {
+      "path": "words/熱.md",
+      "baselineGitBlob": "b2e384e1a115780fb666409b490c8cd78e5272ab",
+      "baselineRawSha256": "cbb9f80c78c7d9b2b3cc4062902e1d1f131f432a37b1df06ab32e3aed7eb4d5d",
+      "replaceExactlyOnce": {
+        "old": "熱 означает тепло, жар.",
+        "new": "[熱](../kanji/熱.md) означает тепло, жар."
+      }
+    },
+    {
+      "path": "words/症状.md",
+      "baselineGitBlob": "f115d7745597fc3fec3b2c51037789f649d535d7",
+      "baselineRawSha256": "e5665b18add3dee46261edf2c2943ed1e140c02e4b168e29823bde60b4b4c30b",
+      "replaceExactlyOnce": {
+        "old": "状 — состояния или внешнего проявления.",
+        "new": "[状](../kanji/状.md) — состояния или внешнего проявления."
+      }
+    },
+    {
+      "path": "words/眠い.md",
+      "baselineGitBlob": "a0c6f18e7f17e5a9bda668b497861a55b48f552e",
+      "baselineRawSha256": "1d74fa652928e366036f7baa1c43371bb0274c0b546b33b32c2f0b83bac6aa2a",
+      "replaceExactlyOnce": {
+        "old": "眠い — «сонный; хочется спать»:",
+        "new": "[眠](../kanji/眠.md)い — «сонный; хочется спать»:"
+      }
+    },
+    {
+      "path": "words/全然.md",
+      "baselineGitBlob": "4810fd62bb20207fe922ad54c23ad5fa083e1f86",
+      "baselineRawSha256": "cf41954194124c12aa9d62208733689da691faebc582a8598b534f80d1ee30ee",
+      "replaceExactlyOnce": {
+        "old": "а 然 встречается в словах,",
+        "new": "а [然](../kanji/然.md) встречается в словах,"
+      }
+    },
+    {
+      "path": "words/然る.md",
+      "baselineGitBlob": "63d63e0933de3dc26ebcb4d195fb07d8673bae60",
+      "baselineRawSha256": "ca0498856370e55df50bb5acbb5e9ff85de1e61bfcf99f27e44203daf3c338b7",
+      "replaceExactlyOnce": {
+        "old": "然 связан со значением «так; такой».",
+        "new": "[然](../kanji/然.md) связан со значением «так; такой»."
+      }
+    },
+    {
+      "path": "words/石.md",
+      "baselineGitBlob": "49aabd93b51bafd8d5f66b53c5603bf9f58cf455",
+      "baselineRawSha256": "f1af50a1a06c27bdf6bd1905ccf3f0b471d66b6924af0ffed7b2c15a0ee039bf",
+      "replaceExactlyOnce": {
+        "old": "Один знак 石",
+        "new": "Один знак [石](../kanji/石.md)"
+      }
+    }
+  ],
+  "additionalLessonLinks": [
+    {
+      "lessonPath": "kanji/熱.md",
+      "old": "点, [黒](黒.md) и 然 тоже содержат 灬, но их верхние части и значения отличаются.",
+      "new": "[点](点.md), [黒](黒.md) и [然](然.md) тоже содержат 灬, но их верхние части и значения отличаются."
+    },
+    {
+      "lessonPath": "kanji/疲.md",
+      "old": "破 содержит 皮 и вместо внешнего ключа болезни имеет 石.",
+      "new": "[破](破.md) содержит 皮 и вместо внешнего ключа болезни имеет 石."
+    },
+    {
+      "lessonPath": "kanji/状.md",
+      "old": "У 犬 и 大 другие формы; у 犯 犭 находится слева.",
+      "new": "У 犬 и 大 другие формы; у [犯](犯.md) 犭 находится слева."
+    }
+  ],
+  "sourceEvidence": {
+    "kanjidic2": {
+      "privateArtifact": "ru-131-dependency-kanjidic2-capture-001.json",
+      "rawSha256": "1f4a396c0714ab2fcea6bb928b959abf827ae81b93bc58e2fed0286aba3f45f4",
+      "archiveSha256": "e26e34c9187a786bf1f0b21f87e311a9b0ed644aefe9693d10bdc7cb8643d8e0",
+      "recordsRead": ["点", "然", "破", "犯", "石"],
+      "interpretation": "All five captured records match frozen stroke counts, classical radical numbers and full on/kun fields. Legacy JLPT value 2 does not replace the frozen community jlpt: 3."
+    },
+    "jmdict": {
+      "privateArtifact": "ru-131-dependency-jmdict-capture-001.json",
+      "rawSha256": "c1be7a7d68d5484e5b0c6564ea47ed906da0cd0bce01ef3ab3bc18df5e108822",
+      "archiveSha256": "5af39046e9579fd5e14d07a048fccce422b8df0d940ba8c086439e5a7617eab6",
+      "matchedPairsRead": [
+        "点/てん",
+        "百点/ひゃくてん",
+        "偶然/ぐうぜん",
+        "自然/しぜん",
+        "当然/とうぜん",
+        "破る/やぶる",
+        "破れる/やぶれる",
+        "破壊/はかい",
+        "犯人/はんにん",
+        "犯罪/はんざい",
+        "犯す/おかす",
+        "容疑者/ようぎしゃ",
+        "石/いし",
+        "石油/せきゆ",
+        "宝石/ほうせき"
+      ],
+      "interpretation": "Read exact matched forms, readings, all senses, glosses and restrictions from the complete captured entry slices. Dictionary availability does not establish frequency, sentence naturalness, or quiz safety."
+    },
+    "kanjipedia": {
+      "capturedForDependencyCards": false,
+      "interpretation": "No new historical or component-derivation claim is authorized; the added lessons use the frozen source wording and explicitly labelled modern-shape mnemonics."
+    }
+  },
+  "resultingScope": {
+    "newKanjiLessonsTotal": 10,
+    "newByteIdenticalStrokesTotal": 10,
+    "navigationOnlyExistingWordPagesTotal": 13,
+    "newWordPages": 0,
+    "metadataChanges": 0,
+    "quizOrGradingChanges": 0,
+    "ordinaryDirectQuizDirections": 30,
+    "ordinaryDirectQuizDirectionsStatus": "UNVERIFIED",
+    "quizGuardsAdded": [],
+    "otherRuntimePaths": 0
+  },
+  "limits": {
+    "noNativeSpeakerCertification": true,
+    "noGlyphPixelReview": true,
+    "noMediaOrPackageApproval": true,
+    "noDeviceOrReleaseApproval": true,
+    "noOrdinaryRuntimeActivation": true,
+    "fullTranslationComplete": false
+  }
+}

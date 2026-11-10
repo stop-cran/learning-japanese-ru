@@ -1,6 +1,34 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch129 floating, depth and settlement kanji
+## Current published source milestone: batch130 crossing, harbor, fullness and performance kanji
+
+Batch130 adds four complete Russian frozen-community N3 lessons (渡/港/満/演),
+four byte-identical frozen-source stroke assets, and five authorized NAV-only
+wrappers on existing word pages. Seven unavailable-link wrappers were removed
+while their Japanese text was retained; no word pages were added and quiz/runtime
+behavior did not change.
+
+The bounded text-only report found no supported findings, but C1, C2 and C3 all
+remain **UNVERIFIED**. In particular, all 12 ordinary negative/fallback quiz
+directions remain UNVERIFIED, and a supplemental JMdict capture of バス does not
+establish the naturalness of the full sentence バスは満員です. No grading guard,
+runtime approval, native-speaker certification or ordinary activation is claimed.
+
+The [qualified source record](translation-batches/130-crossing-harbor-fullness-performance-kanji-reviewed-source.json)
+records **2,464 reviewed-current / 2 excluded reviewed runtime-blocked drafts /
+5,812 pending of 8,278**, with 1,478 words / 478 kanji / 478 strokes. Content
+version is `fadd97d55a215c4d`; checkpoint authority remains null and `Ready`
+false. PR [#14](https://github.com/stop-cran/learning-japanese-ru/pull/14)
+integrated at main `08813d0e412a71346ac2d3f2370f90e36dae4038`. Exact-main CI
+passed; the actual public ZIP and tar.gz exports matched the exact Git archive
+path-by-path and byte-for-byte, all required notices/licenses were present, all
+four protected refs were unchanged, and issue #3 progress was updated. See the
+[publication verification](translation-batches/130-crossing-harbor-fullness-performance-kanji-publication-verification-001.json).
+This is source-content qualification only, not runtime, device, release,
+ordinary-activation or full-translation approval. Continue batch131 and every
+remaining safe frozen family.
+
+## Previous published source milestone: batch129 floating, depth and settlement kanji
 
 Batch129 adds four complete Russian frozen-community N3 lessons (浮/消/深/済),
 four byte-identical frozen-source stroke assets, and six authorized NAV-only

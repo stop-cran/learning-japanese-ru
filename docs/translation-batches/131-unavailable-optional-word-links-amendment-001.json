@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "batch": "131-heat-fatigue-pain-sleep-condition-kanji",
+  "recordedAt": "2026-11-10T12:35:58.890+01:00",
+  "stage": "PRE-MUTATION NAVIGATION AMENDMENT",
+  "branch": "full-ru-131-heat-fatigue-pain-sleep-condition-kanji",
+  "baselineHeadBeforeAmendment": "0f9c2144ed51b61157032529271211255cee8c8d",
+  "frozenEnglishSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "russianBaselineSnapshot": "08813d0e412a71346ac2d3f2370f90e36dae4038",
+  "amendsFreezeArtifact": "docs/translation-batches/131-quiz-dependency-closure-and-links-amendment-001.json",
+  "amendsFreezeRawSha256": "53c10ca82427f111685b287bd443512d7cb64848501e140734469295820e8a71",
+  "trigger": {
+    "candidateStructuralCheck": "python -X utf8 -B tools\\validate.py",
+    "actualExitCode": 1,
+    "actualStdout": "kanji/然.md: broken link: ../words/偶然.md\r\nkanji/然.md: broken link: ../words/偶然.md\r\nkanji/然.md: broken link: ../words/偶然.md\r\nkanji/熱.md: body must start with a single H1 matching metadata: # 熱 — жар; лихорадка\r\nkanji/犯.md: broken link: ../words/犯人.md\r\nkanji/犯.md: broken link: ../words/犯人.md\r\nkanji/犯.md: broken link: ../words/犯人.md\r\nkanji/破.md: broken link: ../words/破る.md\r\nkanji/破.md: broken link: ../words/破る.md\r\nkanji/破.md: broken link: ../words/破る.md\r\n10 error(s)\r\n",
+    "actualStdoutSha256": "165eb133ce9613f0adc44a6bf8700796896998a6bd99e665c9c67f2bdcee3c3a",
+    "actualStdoutBytes": 540,
+    "privateExactStdoutArtifact": "ru-131-validator-before-optional-links-amendment-001.stdout",
+    "completedSeriallyAfterCandidateManifestGeneration": true,
+    "unrelatedStructuralFinding": {
+      "path": "kanji/熱.md",
+      "finding": "The existing candidate H1 does not match its Russian title metadata.",
+      "disposition": "This navigation-only amendment does not change it; correct the heading separately before review."
+    }
+  },
+  "reason": "The validator found optional lesson links to three RU word cards that are absent from the accepted runtime baseline. Keep the Japanese words and readings, remove only the Markdown wrappers, and do not add unplanned word pages.",
+  "exactWrapperOnlyEdits": [
+    {
+      "path": "kanji/然.md",
+      "beforeWorkingRawSha256": "00e0e3b25205f12a80283f6469c81bed9555ba4a78214f0408447f0db6bec969",
+      "plannedAfterWorkingRawSha256": "cce919291075bb88ef970334bfbc6e42d6853982946ab20e7b7f3ba8372cfd0f",
+      "frozenSourceGitBlob": "96502a27de3835ea76ad427b5b64e75163668e17",
+      "exactUnavailableTarget": "words/偶然.md",
+      "exactMarkdownToken": "[偶然](../words/偶然.md)",
+      "wholeTokenOccurrences": 3,
+      "retainedLearnerFacingJapaneseText": "偶然",
+      "allOtherBytesRemainInOriginalOrder": true,
+      "plannedPageUtf8Bytes": 2545
+    },
+    {
+      "path": "kanji/犯.md",
+      "beforeWorkingRawSha256": "fe8a013d10a492aa5e962c4da9b3367b8cdd2bba0f329cce10cc709f3c7304c9",
+      "plannedAfterWorkingRawSha256": "4de42dec88891f1ae0eaf8e4c04e1b5a4e3160941fa26a1fcbfedf37c69c8a59",
+      "frozenSourceGitBlob": "a3b1cd9d984792aa455883c7b7967db3282e7908",
+      "exactUnavailableTarget": "words/犯人.md",
+      "exactMarkdownToken": "[犯人](../words/犯人.md)",
+      "wholeTokenOccurrences": 3,
+      "retainedLearnerFacingJapaneseText": "犯人",
+      "allOtherBytesRemainInOriginalOrder": true,
+      "plannedPageUtf8Bytes": 2538
+    },
+    {
+      "path": "kanji/破.md",
+      "beforeWorkingRawSha256": "3ab24ae40e61491bcc1b1f51c159cf194f13fdbbfe076b0f232e7dabda96694d",
+      "plannedAfterWorkingRawSha256": "38fb3d33cfafc90f3f978579641efd756f4e964e18cc5eedaf5c3e602c949814",
+      "frozenSourceGitBlob": "ac945769bfd8109c96f0703f495b99ab470cfef5",
+      "exactUnavailableTarget": "words/破る.md",
+      "exactMarkdownToken": "[破る](../words/破る.md)",
+      "wholeTokenOccurrences": 3,
+      "retainedLearnerFacingJapaneseText": "破る",
+      "allOtherBytesRemainInOriginalOrder": true,
+      "plannedPageUtf8Bytes": 2838
+    }
+  ],
+  "totalLinksUnwrapped": 9,
+  "affectedRuntimePaths": [
+    "kanji/然.md",
+    "kanji/犯.md",
+    "kanji/破.md"
+  ],
+  "noNewObjects": true,
+  "noJapaneseCharacterOrReadingOrProseChanges": true,
+  "noMetadataOrQuizOrStrokeChanges": true,
+  "availableAndSameBatchLinksPreserved": true,
+  "plannedAfterHashesComputedBeforeFurtherMutation": true,
+  "independentReviewOccurred": false,
+  "runtimeAcceptance": false,
+  "fullTaskComplete": false,
+  "continueRequired": true
+}
