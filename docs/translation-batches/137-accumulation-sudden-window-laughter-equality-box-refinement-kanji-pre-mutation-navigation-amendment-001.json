@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "batchId": "137-accumulation-sudden-window-laughter-equality-box-refinement-kanji",
+  "recordedAt": "2026-11-10T18:06:47+00:00",
+  "status": "pre-mutation navigation amendment; included with the signed freeze before runtime authoring",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "a9ba83522d20b23fd6d76bd5300b37b9a2fc9494",
+  "scope": "Authorize only four exact NAV wrappers on existing word pages and removal of nine Markdown wrappers to unavailable optional word targets. Preserve all visible Japanese and Russian text, metadata, quiz fields and every other byte.",
+  "wordPageWrappers": [
+    {
+      "path": "words/窓.md",
+      "baselineGitBlob": "a5556c94c5a544956a67a70d43bbc1f9afbdc2ff",
+      "baselineRawSha256": "f9236470ec122d0c0ad3738af4a96ff0c4e200250ca6772e96f550725bf9e770",
+      "baselineBytes": 2539,
+      "replaceExactlyOnce": {
+        "old": "窓 — окно в здании или транспортном средстве.",
+        "new": "[窓](../kanji/窓.md) — окно в здании или транспортном средстве."
+      },
+      "preserveVisibleTextAndAllOtherBytes": true,
+      "navigationOnly": true
+    },
+    {
+      "path": "words/笑う.md",
+      "baselineGitBlob": "e6b252bf093a8639d7aa17ff8c43a6aba23760a5",
+      "baselineRawSha256": "04562010f0f9116d860ffb7e8c6d0142724a136ba27ce485a2a668b1a8765519",
+      "baselineBytes": 2789,
+      "replaceExactlyOnce": {
+        "old": "笑う описывает смех или улыбку.",
+        "new": "[笑](../kanji/笑.md)う описывает смех или улыбку."
+      },
+      "preserveVisibleTextAndAllOtherBytes": true,
+      "navigationOnly": true
+    },
+    {
+      "path": "words/箱.md",
+      "baselineGitBlob": "de18e2783496a8ba67f2f5314405fef0d91b5f54",
+      "baselineRawSha256": "92d9b787e6c0248f3e994f64fdba0b7eff86a5293e432d6962a8acee1ed0aae1",
+      "baselineBytes": 2702,
+      "replaceExactlyOnce": {
+        "old": "箱 — коробка, ящик, футляр, сундук или подобная ёмкость.",
+        "new": "[箱](../kanji/箱.md) — коробка, ящик, футляр, сундук или подобная ёмкость."
+      },
+      "preserveVisibleTextAndAllOtherBytes": true,
+      "navigationOnly": true
+    },
+    {
+      "path": "words/精神.md",
+      "baselineGitBlob": "30fa1c6f9e8d5237f6cdc5bfb42dca998bff38a8",
+      "baselineRawSha256": "e89ac89b17bc94600568efba3151155a843eca0509347ef0064e67047f7b90cb",
+      "baselineBytes": 4003,
+      "replaceExactlyOnce": {
+        "old": "精 передаёт идею жизненной силы или сущности,",
+        "new": "[精](../kanji/精.md) передаёт идею жизненной силы или сущности,"
+      },
+      "preserveVisibleTextAndAllOtherBytes": true,
+      "navigationOnly": true
+    }
+  ],
+  "unavailableOptionalWordLinks": [
+    {
+      "lessonPath": "kanji/積.md",
+      "sourceLessonGitBlob": "7e6bf35ad91c33eb55c5313681494d20d03a23ee",
+      "targetPath": "words/積む.md",
+      "targetAbsentAtBaseline": true,
+      "sourceLinkOccurrences": 3,
+      "operation": "In the Russian lesson only, strip the Markdown wrapper from each link whose label is 積む and target is ../words/積む.md; preserve the Japanese label, reading, examples and all Russian teaching text."
+    },
+    {
+      "lessonPath": "kanji/突.md",
+      "sourceLessonGitBlob": "a874caa85ff3346ce344e103bc4eece8707344cd",
+      "targetPath": "words/突然.md",
+      "targetAbsentAtBaseline": true,
+      "sourceLinkOccurrences": 3,
+      "operation": "In the Russian lesson only, strip the Markdown wrapper from each link whose label is 突然 and target is ../words/突然.md; preserve the Japanese label, reading, examples and all Russian teaching text."
+    },
+    {
+      "lessonPath": "kanji/等.md",
+      "sourceLessonGitBlob": "1cb76832c22566f7cc7d6b3d5f8dedfd78c6f793",
+      "targetPath": "words/平等.md",
+      "targetAbsentAtBaseline": true,
+      "sourceLinkOccurrences": 2,
+      "operation": "In the Russian lesson only, strip the Markdown wrapper from each link whose label is 平等 and target is ../words/平等.md; preserve the Japanese label, reading, examples and all Russian teaching text."
+    }
+  ],
+  "limits": {
+    "wordPageWrapperCount": 4,
+    "wordPageVisibleTextChanges": false,
+    "wordPageMetadataOrQuizChanges": false,
+    "optionalWordLinkWrapperRemovals": 8,
+    "articleReferenceSentenceOmissions": 0,
+    "newWordPages": false,
+    "otherWordPageChangesAuthorized": false,
+    "quizOrGradingChanges": false,
+    "otherRuntimeChangesAuthorized": false
+  }
+}

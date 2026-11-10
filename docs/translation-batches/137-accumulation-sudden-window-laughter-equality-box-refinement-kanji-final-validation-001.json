@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "batchId": "137-accumulation-sudden-window-laughter-equality-box-refinement-kanji",
+  "recordedAt": "2026-11-10T19:39:17+01:00",
+  "candidateCommit": "fe9b22de0a65bed95387e87674861ac80f5078fa",
+  "candidateTree": "4aeb41b28a82f9983b8cb57b087b8a15a3231822",
+  "contentVersion": "885c9d2367c2c322",
+  "execution": {
+    "order": "Serial after independent review, qualified source/tracking/progress reconciliation, plan updates, and writing the acceptance records.",
+    "status": "Completed successfully; each recorded command exited 0 in the recorded order.",
+    "environment": "Python UTF-8 output enabled and bytecode disabled with -B; Windows checkout paths; no regression tests skipped. Test temporary directory was an exact owned NTFS fixture and was removed empty after completion.",
+    "validationScope": "Runtime content exactly matches the signed candidate commit. The tracked working diff contains only plan/tracking/progress documentation, not manifest inputs; review report and receipt and acceptance/validation ledgers are documentation evidence."
+  },
+  "commands": [
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools\\build_manifest.py"
+      ],
+      "exitCode": 0,
+      "stdout": "manifest.json: 2542 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 885c9d2367c2c322\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools\\validate.py"
+      ],
+      "exitCode": 0,
+      "stdout": "0 error(s)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools",
+        "-p",
+        "test_*.py"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 40.580s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools\\check_content_budget.py"
+      ],
+      "exitCode": 0,
+      "stdout": "{'files': 2550, 'entries': 2559, 'retainedBytes': 7063948, 'inflatedBytes': 7082163, 'localZipBytes': 3555269, 'listeningTaskMediaBytes': 0}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "contentBudget": {
+    "files": 2550,
+    "entries": 2559,
+    "retainedBytes": 7063948,
+    "inflatedBytes": 7082163,
+    "localZipBytes": 3555269,
+    "listeningTaskMediaBytes": 0
+  },
+  "allPassed": true,
+  "qualification": "Structural/content tests passed; this does not certify unresolved quiz directions, native-speaker naturalness, runtime/device/media/release or activation.",
+  "artifacts": [
+    {
+      "path": "manifest.json",
+      "utf8Bytes": 227255,
+      "rawSha256": "446a5781798d3d1e9ec04b6fde937b47f253f2154ff8b7ed5bb89d5abcf99e87"
+    },
+    {
+      "path": "docs/translation-tracking.json",
+      "utf8Bytes": 8030015,
+      "rawSha256": "843b01f6b074f981e2f525e4fdbcebec3e3f9f65569e7e1518620567a759a123"
+    },
+    {
+      "path": "docs/translation-progress.json",
+      "utf8Bytes": 5401644,
+      "rawSha256": "100cd9eec7d290fdfa51483fead85bdd260e9e23b178c53649acfa5d6328a813"
+    }
+  ],
+  "reportedRuntimeDiffPaths": [],
+  "publishedBaseline": "a9ba83522d20b23fd6d76bd5300b37b9a2fc9494",
+  "sourceAcceptance": "Qualified source-only record created separately; publication remains pending."
+}

@@ -8,7 +8,7 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Latest published source milestone: batch135 doubt, climb, everyone, steal and straight kanji
+## Previous published source milestone: batch135 doubt, climb, everyone, steal and straight kanji
 
 Batch135 adds complete lessons and byte-identical frozen-source stroke assets
 for 疑/登/皆/盗/直, plus six preauthorized NAV-only wrappers. The bounded review’s
@@ -31,7 +31,7 @@ unchanged, and issue #3 progress was updated. See the [publication verification]
 This remains qualified source progress only—no grading, runtime, device, media,
 release, ordinary-activation, checkpoint, or full-translation approval.
 
-## Qualified source acceptance awaiting publication: batch136 mutual certainty, show, department, extent and kind
+## Latest published source milestone: batch136 mutual certainty, show, department, extent and kind
 
 The next six pending kanji in the frozen N3 source order, 相/確/示/科/程/種,
 are complete Russian lesson candidates with six byte-identical frozen stroke
@@ -55,11 +55,36 @@ record](translation-batches/136-mutual-certainty-show-department-extent-kind-kan
 and [final validation](translation-batches/136-mutual-certainty-show-department-extent-kind-kanji-final-validation-001.json)
 record 2,528 reviewed-current / 2 runtime-blocked / 5,748 pending of 8,278,
 with 1,478 words / 510 kanji / 510 strokes; content version is
-`c7cdeb30962724ec`. Publication and integration are still pending, so main
-remains at batch 135. All 18 ordinary negative/fallback directions remain
-**UNVERIFIED**. No grading, runtime, device, media, release, ordinary-activation,
-checkpoint, or full-translation approval is implied. Continue normal publication
-and every remaining safe frozen family.
+`c7cdeb30962724ec`. PR [#22](https://github.com/stop-cran/learning-japanese-ru/pull/22)
+merged at main `a9ba83522d20b23fd6d76bd5300b37b9a2fc9494`; exact-main CI
+[#42869365222](https://github.com/stop-cran/learning-japanese-ru/actions/runs/42869365222)
+passed, public archives matched the exact Git archive, all four protected refs
+remained unchanged, and issue #3 progress was updated. See the [publication verification](translation-batches/136-mutual-certainty-show-department-extent-kind-kanji-publication-verification-001.json).
+All 18 ordinary negative/fallback directions remain **UNVERIFIED**. This is
+qualified source progress only, not grading, runtime, device, media, release,
+ordinary-activation, checkpoint, or full-translation approval.
+
+## Batch137: reviewed, qualified candidate; publication pending
+
+Batch137 covers the first six pending frozen N3 kanji 積/突/窓/笑/等/箱
+(positions 255–260) plus direct distractor dependency 精 (position 262); 米 at
+261 remains pending. The pre-mutation freeze is signed commit
+`b79554c58aa172efd04bda95f0adac65887c76e2`. Signed navigation amendments
+001 and 002 authorize, respectively, four and five exact NAV-only word-page
+wrappers plus eight optional unavailable-link wrapper removals.
+
+The candidate commit `fe9b22de0a65bed95387e87674861ac80f5078fa` contains seven
+complete Russian lessons, seven byte-identical frozen-source stroke files and
+nine exact navigation-only word-page changes; no new word pages or quiz/
+grading changes. The independent review found no supported C1 or C3 issue in
+its bounded scope; C1/C3 are CLEAN only within that scope, while C2 remains
+UNVERIFIED for all 21 ordinary negative/fallback directions. Candidate content
+version is `885c9d2367c2c322`; progress is 2,542 reviewed-current / 2 excluded
+reviewed runtime-blocked / 5,734 pending of 8,278. Publication, exact-main CI,
+archive and protected-ref verification are pending. This does not authorize
+grading, runtime activation, device/media/release work, or completion. Preserve
+the excluded `docs/translation-drafts/033-nature-outdoor-activity/words/空.md`
+and continue the frozen scope.
 
 ## Previous published source milestone: batch134 smoke, cat, birth, stay and turn kanji
 

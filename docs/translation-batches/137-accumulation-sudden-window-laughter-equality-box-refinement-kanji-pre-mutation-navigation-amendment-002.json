@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "batchId": 137,
+  "recordedAt": "2026-11-10T19:16:22+01:00",
+  "status": "scope-frozen-before-listed-word-page-mutations",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "a9ba83522d20b23fd6d76bd5300b37b9a2fc9494",
+  "preservesOriginalAmendmentScope": true,
+  "relatedAmendment": "docs/translation-batches/137-accumulation-sudden-window-laughter-equality-box-refinement-kanji-pre-mutation-navigation-amendment-001.json",
+  "reason": "The first draft manifest/content validation reported five existing Russian word articles whose kanji metadata includes a newly added card but whose article body does not link to it. Each corresponding frozen English article contains the same kanji-card navigation link. This amendment freezes only those five missing wrappers before changing these word pages.",
+  "triggerEvidence": {
+    "candidateManifestVersionBeforeTheseChanges": "de556fe22b2625ac",
+    "validationErrors": [
+      "words/微笑む.md: kanji '笑' has a card but the article does not link to it (add [笑](../kanji/笑.md))",
+      "words/笑い.md: kanji '笑' has a card but the article does not link to it (add [笑](../kanji/笑.md))",
+      "words/笑顔.md: kanji '笑' has a card but the article does not link to it (add [笑](../kanji/笑.md))",
+      "words/等しい.md: kanji '等' has a card but the article does not link to it (add [等](../kanji/等.md))",
+      "words/高等学校.md: kanji '等' has a card but the article does not link to it (add [等](../kanji/等.md))"
+    ],
+    "validationWasNotApproval": true
+  },
+  "limits": {
+    "operation": "Add the exact Markdown wrapper around the existing kanji label in each listed Russian word article.",
+    "navigationOnly": true,
+    "preserveVisibleTextAndAllOtherBytes": true,
+    "noProseOrMetadataChanges": true,
+    "noNewWordPages": true,
+    "noQuizMeaningOrGradingAuthorization": true,
+    "doesNotAlterThe21UnverifiedQuizDirections": true,
+    "doesNotExpandBatch137ContentOrReviewClearance": true
+  },
+  "wordPageWrappers": [
+    {
+      "path": "words/微笑む.md",
+      "baselineGitBlob": "9b4d325c8950e2f02ed9e03cd601559b47f69196",
+      "baselineRawSha256": "64b1f54ab32804abb4ce3b8bd3efd094b0524fa38682592ed95b88041a1c86bf",
+      "baselineBytes": 2474,
+      "replaceExactlyOnce": {
+        "old": "а 笑 — с улыбкой или смехом.",
+        "new": "а [笑](../kanji/笑.md) — с улыбкой или смехом."
+      },
+      "frozenEnglishEvidence": {
+        "path": "words/微笑む.md",
+        "gitBlob": "7602a0eb7f0d41553c96d9f665eb06b405fed78a",
+        "text": "and [笑](../kanji/笑.md) contributes smiling or laughing."
+      },
+      "navigationOnly": true
+    },
+    {
+      "path": "words/笑い.md",
+      "baselineGitBlob": "9efdb3bc0c6b1f2e043d8efa170f77d6efaec767",
+      "baselineRawSha256": "d32c6c36f77dd1abdf3f41964dfb8b4255f18985fc0dcc4aeec85f7620948c9d",
+      "baselineBytes": 2428,
+      "replaceExactlyOnce": {
+        "old": "笑 передаёт смех или улыбку.",
+        "new": "[笑](../kanji/笑.md) передаёт смех или улыбку."
+      },
+      "frozenEnglishEvidence": {
+        "path": "words/笑い.md",
+        "gitBlob": "4acbe1ac0855271adc669be07738e6d639f811c0",
+        "text": "[笑](../kanji/笑.md) contributes laughing or smiling."
+      },
+      "navigationOnly": true
+    },
+    {
+      "path": "words/笑顔.md",
+      "baselineGitBlob": "415b09792361bb2d9b01f453fa3c38ca73374cca",
+      "baselineRawSha256": "7c20b2028c4e3e3acdfed365814a0d79a579f6095c5a5bb6ab8c64a986f552d6",
+      "baselineBytes": 2398,
+      "replaceExactlyOnce": {
+        "old": "笑 связан с улыбкой или смехом, 顔 означает «лицо»; первая часть характеризует лицо.",
+        "new": "[笑](../kanji/笑.md) связан с улыбкой или смехом, 顔 означает «лицо»; первая часть характеризует лицо."
+      },
+      "frozenEnglishEvidence": {
+        "path": "words/笑顔.md",
+        "gitBlob": "03a363bd45a84fea8163cfc5ad7a837b8078fd17",
+        "text": "[笑](../kanji/笑.md) contributes smiling or laughter"
+      },
+      "navigationOnly": true
+    },
+    {
+      "path": "words/等しい.md",
+      "baselineGitBlob": "76eaa7b7b399b90eec9c8462706bd7cc5ad29365",
+      "baselineRawSha256": "fa4b5b551f224cd201a5592abe14fc6ddc1be198ca78077a4f445a0617867fb7",
+      "baselineBytes": 2906,
+      "replaceExactlyOnce": {
+        "old": "等 передаёт идею равенства,",
+        "new": "[等](../kanji/等.md) передаёт идею равенства,"
+      },
+      "frozenEnglishEvidence": {
+        "path": "words/等しい.md",
+        "gitBlob": "1b0c2f5b4e2bc173ea2a4a1a65516e3a524329f3",
+        "text": "[等](../kanji/等.md) supplies the equality idea"
+      },
+      "navigationOnly": true
+    },
+    {
+      "path": "words/高等学校.md",
+      "baselineGitBlob": "9fe0a8ec1f1904e02696ca5bc3c399e32b97743e",
+      "baselineRawSha256": "646bc50db663e7255df119e7c9eb7b952fe540e48aa73e4a67c50c30379cc3ae",
+      "baselineBytes": 2350,
+      "replaceExactlyOnce": {
+        "old": "а 等 — «ступень; ранг».",
+        "new": "а [等](../kanji/等.md) — «ступень; ранг»."
+      },
+      "frozenEnglishEvidence": {
+        "path": "words/高等学校.md",
+        "gitBlob": "ab016bbf82fc09702266854e756dd59dc64ed95e",
+        "text": "and [等](../kanji/等.md) grade or rank."
+      },
+      "navigationOnly": true
+    }
+  ]
+}
