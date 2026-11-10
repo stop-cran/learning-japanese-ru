@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "batch": "127-capture-hanging-search-population-kanji",
+  "recordedAt": "2026-11-10T08:34:11+01:00",
+  "commitAtValidation": "8a029bc1097e32d68c12f4c5ac4503982a0f3896",
+  "treeAtValidation": "5ebb68eb89ffdec2458ce7d7649aff22616c5ba3",
+  "candidateContentVersion": "7034d4c5959242d3",
+  "runs": [
+    {
+      "command": "python -X utf8 -B tools\\build_manifest.py",
+      "exitCode": 0,
+      "stdout": "manifest.json: 2434 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 7034d4c5959242d3",
+      "stderr": ""
+    },
+    {
+      "command": "python -X utf8 -B tools\\validate.py",
+      "exitCode": 0,
+      "stdout": "0 error(s)",
+      "stderr": ""
+    },
+    {
+      "command": "python -X utf8 -B -m unittest discover -s tools -p \"test_*.py\"",
+      "exitCode": 0,
+      "stdout": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 26.981s\n\nOK",
+      "stderr": ""
+    },
+    {
+      "command": "python -X utf8 -B tools\\check_content_budget.py",
+      "exitCode": 0,
+      "stdout": "{'files': 2442, 'entries': 2451, 'retainedBytes': 6769084, 'inflatedBytes': 6787299, 'localZipBytes': 3412470, 'listeningTaskMediaBytes': 0}",
+      "stderr": ""
+    }
+  ],
+  "executionBoundary": "Four actual completed tool runs executed serially after final learner-facing candidate edits and manifest generation. The commit tree is the exact reviewed candidate; subsequent changes are documentation/tracking only, not runtime paths. Python ran with -B; pre-existing tools/__pycache__/ was preserved.",
+  "allFourFreshSerialChecksPassed": true,
+  "runtimeAcceptance": false,
+  "publicationIntegrated": false,
+  "fullTranslationComplete": false
+}

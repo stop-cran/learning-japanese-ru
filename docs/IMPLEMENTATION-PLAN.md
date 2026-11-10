@@ -11,7 +11,36 @@ records this revised order; earlier blocked observations below remain historical
 The owner's explicit 2026-11-06 restart instruction supersedes only the temporary
 046 pause, not the frozen target or evidence/release protections.
 
-## Current qualified source milestone: batch125 tooth, age and stages kanji
+## Current qualified source candidate: batch127 capture and search kanji
+
+Batch127 adds five complete Russian frozen-community N3 lessons, 捕/掛/探/民/求, and five
+byte-identical frozen KanjiVG stroke files. Five existing word pages receive only planned
+navigation wrappers; the pre-mutation amendment authorizes removal of exactly three optional
+wrappers whose `words/求める.md` target is absent. No word page was added and no Japanese form,
+reading, example, or grading metadata changed.
+
+The [whole-candidate review disposition](translation-batches/127-capture-hanging-search-population-kanji-review-qualification-dispositions-001.json)
+covers all five Russian lessons and frozen English counterparts, five navigation diffs, eleven
+existing direct distractor providers, source captures, and all 15 direct source-directed edges.
+C1 and C3 are CLEAN only within the recorded scope. C2 is UNVERIFIED for ordinary active-negative
+and fallback quiz safety; all 15 directions remain UNVERIFIED and no grading guard is approved.
+All five stroke blobs match the frozen source. The reviewer did not run tests, inspect KanjiPedia
+glyph pixels, or perform app/device/native-speaker review.
+
+The original intake's 449 accepted kanji/strokes counts were stale pre-batch126 values. The
+[count reconciliation](translation-batches/127-capture-hanging-search-population-kanji-baseline-count-reconciliation-001.json)
+preserves the immutable intake and establishes the actual batch127 baseline as 458 kanji and 458
+strokes. Batch126 added nine of each and was integrated at `1468224621c9c2092a11536d98e56ff734b883dc`;
+`db368c9a0acd3dee80695d29e88d1c58c8a6797a` is its subsequent progress reconciliation.
+
+The [qualified source record](translation-batches/127-capture-hanging-search-population-kanji-reviewed-source.json)
+records 2,434 reviewed-current / 2 excluded reviewed blocked-media drafts / 5,842 pending of
+8,278; 1,478 words / 463 kanji / 463 strokes. Version `7034d4c5959242d3`; checkpoint authority
+remains null and `Ready` false. The candidate is `8a029bc1097e32d68c12f4c5ac4503982a0f3896`;
+normal signed integration/publication is still pending. No runtime, device, release, or ordinary
+activation approval is claimed. Continue batch128 and every remaining safe frozen family.
+
+## Previous qualified source milestone: batch125 tooth, age and stages kanji
 
 Batch125 adds five complete Russian frozen N3 lessons, 歯/歳/残/段/殺, and five frozen-source
 byte-identical KanjiVG stroke files. Seven existing word pages receive only planned standalone-glyph
@@ -32,8 +61,9 @@ preserves the prior 2396 accepted runtime entries and all 1478 word metadata/qui
 source checkpoint: **2406 reviewed-current / 2 excluded reviewed blocked-media drafts / 5870 pending
 of 8278**; 1478 words/449 kanji/449 strokes; kanji 80 N5/166 N4/**201 N3**/2 N2, with **166 N3
 remaining**. Version `afe1154b96b55364`; checkpoint authority remains null and `Ready` false. The
-protected 033 `空` draft remains excluded, not runtime and not a media issue. This is not finite
-completion: continue batch126 and all remaining safe frozen families.
+protected 033 `空` draft remains excluded, not runtime and not a media issue. This was not finite
+completion; batch126 and then batch127 were subsequently completed in sequence, and all remaining
+safe frozen families remain open.
 
 ## Previous qualified source milestone: batch124
 

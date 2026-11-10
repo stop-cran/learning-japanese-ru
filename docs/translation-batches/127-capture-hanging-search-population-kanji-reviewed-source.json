@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "batchId": "127-capture-hanging-search-population-kanji",
+  "recordedAt": "2026-11-10T08:35:09+01:00",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "reviewedContentCommit": "8a029bc1097e32d68c12f4c5ac4503982a0f3896",
+  "finalManifestCommit": "8a029bc1097e32d68c12f4c5ac4503982a0f3896",
+  "finalCandidateTree": "5ebb68eb89ffdec2458ce7d7649aff22616c5ba3",
+  "baselineCommit": "db368c9a0acd3dee80695d29e88d1c58c8a6797a",
+  "contentVersion": "7034d4c5959242d3",
+  "artifacts": {
+    "intake": {
+      "path": "docs/translation-batches/127-capture-hanging-search-population-kanji-intake.json",
+      "rawSha256": "4fca4be723645d3106ace6f8251f96337ba569f04d009b70f8498471333526a9"
+    },
+    "sourceFreeze": {
+      "path": "docs/translation-batches/127-capture-hanging-search-population-kanji-source-adjudication-and-semantic-freeze-001.json",
+      "rawSha256": "a280f5e93e6189c51317c2f4908e049ada8049907eab924f9ba1857de5f8a347"
+    },
+    "navigationAmendment": {
+      "path": "docs/translation-batches/127-capture-hanging-search-population-kanji-pre-mutation-navigation-amendment-001.json",
+      "rawSha256": "8fc9151688e34a6a94b6a02b80203d31c93fd4035f934e3a481f5d2a8001f975"
+    },
+    "candidateRecord": {
+      "path": "docs/translation-batches/127-capture-hanging-search-population-kanji-candidate-001.json",
+      "rawSha256": "fd29cd21272b6cc547c820187bbe96437b7302cfa1d292d52970aa1feceee025"
+    },
+    "qualifiedReview": {
+      "path": "docs/translation-batches/127-capture-hanging-search-population-kanji-review-qualification-dispositions-001.json",
+      "rawSha256": "f9a0b9fa3f010edcf25af0d57f5428d02464e6ec66c455e91308c0c346ef1de6"
+    },
+    "finalValidation": {
+      "path": "docs/translation-batches/127-capture-hanging-search-population-kanji-final-validation-001.json",
+      "rawSha256": "8b00a8b66acc16c007e86b2391d20a6f75b022ecc1f3b7f22124a5b480767d41"
+    },
+    "baselineCountReconciliation": {
+      "path": "docs/translation-batches/127-capture-hanging-search-population-kanji-baseline-count-reconciliation-001.json",
+      "rawSha256": "81394fc8b93ba827b6d2e151bfd9101fc99f49e0ccad02e028be8659c10e7a9c"
+    }
+  },
+  "scope": {
+    "newLessons": [
+      "捕",
+      "掛",
+      "探",
+      "民",
+      "求"
+    ],
+    "newStrokeAssets": 5,
+    "navigationOnlyPaths": [
+      "words/捕まえる.md",
+      "words/掛かる.md",
+      "words/掛ける.md",
+      "words/探す.md",
+      "words/市民.md"
+    ],
+    "newRuntimeObjects": 10,
+    "affectedRuntimePaths": 15,
+    "wholeLessonLines": 272,
+    "optionalUnavailableSourceLinkWrappersRemoved": 3,
+    "newWordPages": 0,
+    "newProviderKanji": 0,
+    "quizOrRuntimeBehaviorChanges": 0
+  },
+  "qualifiedVerdicts": {
+    "C1": "CLEAN within five lesson metadata, cited Japanese readings/senses/examples, and five word-page change boundary; no supported fact defect.",
+    "C2": "UNVERIFIED overall for ordinary active-negative/fallback quiz safety; exact mutation scope and navigation/dependency preservation are bounded and clean. All 15 directed edges remain UNVERIFIED for ordinary active-negative/fallback use; no guard/runtime approval.",
+    "C3": "CLEAN within five complete Russian lessons and five navigation-only changes; not native-speaker or learning-outcome certification."
+  },
+  "directedQuizDisposition": {
+    "sourceDirectedEdges": [
+      "捕→指",
+      "捕→掛",
+      "捕→折",
+      "掛→指",
+      "掛→折",
+      "掛→押",
+      "探→持",
+      "探→抱",
+      "探→指",
+      "民→母",
+      "民→長",
+      "民→目",
+      "求→水",
+      "求→来",
+      "求→犬"
+    ],
+    "ordinaryActiveNegative": "UNVERIFIED for every direction; no grading guard approval.",
+    "metadataPreservationIsNotApproval": true
+  },
+  "baselineSourceCheckpoint": {
+    "reviewedCurrent": 2424,
+    "excludedReviewedRuntimeBlocked": 2,
+    "pending": 5852,
+    "frozenInventory": 8278,
+    "acceptedKanji": 458,
+    "acceptedStrokes": 458,
+    "acceptedWords": 1478,
+    "intakeCountCorrection": "docs/translation-batches/127-capture-hanging-search-population-kanji-baseline-count-reconciliation-001.json"
+  },
+  "qualifiedSourceCheckpoint": {
+    "reviewedCurrent": 2434,
+    "excludedReviewedRuntimeBlocked": 2,
+    "pending": 5842,
+    "frozenInventory": 8278,
+    "acceptedKanji": 463,
+    "acceptedStrokes": 463,
+    "acceptedWords": 1478,
+    "acceptedArticles": 2,
+    "acceptedCounters": 22,
+    "acceptedGrammar": 1,
+    "acceptedImages": 3,
+    "acceptedScenes": 2,
+    "checkpointAuthority": null,
+    "checkpointReady": false
+  },
+  "sourceAcceptance": "Qualified for source content/progress only, within the scoped C1/C2/C3 dispositions above. This does not approve quiz grading or runtime activation.",
+  "runtimeAcceptance": false,
+  "publicationIntegrated": false,
+  "fullTranslationComplete": false,
+  "continueRequired": "Integrate the qualified batch by normal signed publication, then continue sequentially across all remaining safe frozen families.",
+  "mechanicalProgressReport": {
+    "artifact": "private ru-127-progress-report-accepted-001.json",
+    "sha256": "1ca8fdf151029ee2aac1bcab4a13296ae31f0c11592ca478608ad639959d245f",
+    "sourceInventoryBefore": "5f460b85b391404e7da01be0a0cded78243b7538",
+    "sourceInventoryAfter": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "targetChangedDuringBatch": false,
+    "unreconciledGuidanceCount": 0,
+    "candidateRuntimeContentVersion": "7034d4c5959242d3"
+  },
+  "baselineCountCorrection": {
+    "artifact": "docs/translation-batches/127-capture-hanging-search-population-kanji-baseline-count-reconciliation-001.json",
+    "resolution": "The intake’s 449 kanji/strokes were stale pre-batch126 counts; the actual batch127 baseline is 458/458. The original signed intake remains unchanged."
+  }
+}
