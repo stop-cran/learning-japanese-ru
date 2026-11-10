@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "batchId": "136-mutual-certainty-show-department-extent-kind-kanji",
+  "recordedAt": "2026-11-10T17:27:44+00:00",
+  "reviewerAgentType": "code-review",
+  "reviewerIdentifier": "not exposed by the task tool; one read-only reviewer returned this report",
+  "candidateCommit": "db6dd58af523317fd016aad237db29c17cc31257",
+  "candidateTree": "873d43fe0bb5c96ac9a7f2e792f0c21ce2318eb6",
+  "signedFreezeCommit": "8aa5f8d5a98d10af7992a6a5517ae186f26aa85a",
+  "baselineCommit": "2c5afc95fc9cea2740f574b0d53b0603ce8d338b",
+  "frozenSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "reportArtifact": "docs/translation-batches/136-mutual-certainty-show-department-extent-kind-kanji-independent-review-001.md",
+  "reportProjectionUtf8Bytes": 5128,
+  "reportProjectionRawSha256": "738510322515c4f6767ec5aea2cfa334370fc10ab19e64a52c46d5dce3d965d1",
+  "reportProjectionGitBlob": "9802efa133ac05982a82d7cb61c09a10d9c2e424",
+  "reportCaptureBoundary": "The task tool returned rendered report text, not separately exposed raw stdout bytes. This Markdown file preserves the complete report text; its raw-byte hash and Git blob ID identify this persisted projection, not a claimed tool-stdout byte hash.",
+  "coverage": {
+    "candidateAndFrozenSourceLessons": [
+      "kanji/相.md",
+      "kanji/確.md",
+      "kanji/示.md",
+      "kanji/科.md",
+      "kanji/程.md",
+      "kanji/種.md"
+    ],
+    "directEdgeTargetLessonsRUandEN": [
+      "休",
+      "本",
+      "目",
+      "研",
+      "集",
+      "短",
+      "赤",
+      "小",
+      "木",
+      "料",
+      "秋",
+      "私",
+      "重"
+    ],
+    "wordPages": [
+      "words/相当.md",
+      "words/相談.md",
+      "words/確か.md",
+      "words/科学.md",
+      "words/種類.md"
+    ],
+    "batchEvidence": [
+      "intake",
+      "signed semantic freeze",
+      "pre-mutation navigation amendment"
+    ],
+    "guidance": [
+      ".github/copilot-instructions.md",
+      ".github/instructions/content-structure.instructions.md",
+      ".github/agents/kanji-accuracy-reviewer.agent.md",
+      ".github/agents/kanji-comprehension-reviewer.agent.md",
+      ".github/agents/content-consistency-reviewer.agent.md",
+      "docs/translation-methodology.md",
+      "docs/content-format-reference.md"
+    ],
+    "primaryCapture": [
+      "ru-136-kanjidic2-primary-capture-001.json: six records",
+      "ru-136-jmdict-primary-capture-001.json: 18 cited entries"
+    ]
+  },
+  "verdicts": {
+    "C1": "CLEAN, qualified; bounded checked facts only, not native-speaker or independent naturalness certification.",
+    "C2": "UNVERIFIED overall; scope/dependencies and NAV amendments matched, but quiz semantics remain unverified.",
+    "C3": "NEEDS FIX; finding C3-01 explains the on/kun labels."
+  },
+  "ordinaryQuizNegativeDirections": {
+    "status": "UNVERIFIED",
+    "count": 18,
+    "directions": [
+      "相→休",
+      "相→本",
+      "相→目",
+      "確→研",
+      "確→集",
+      "確→短",
+      "示→赤",
+      "示→小",
+      "示→木",
+      "科→料",
+      "科→秋",
+      "科→私",
+      "程→秋",
+      "程→種",
+      "程→私",
+      "種→重",
+      "種→秋",
+      "種→私"
+    ],
+    "guardsAdded": 0,
+    "gradingApproval": false
+  },
+  "strokeEvidence": [
+    {
+      "kanji": "相",
+      "rawSha256": "3ec451679796dece97ffc60eee2b3df475616b65c3f551a4aea6684ed0057b84",
+      "gitBlob": "57cb1c15b2c9f01e0694d20f8ebfc832bd6d147c"
+    },
+    {
+      "kanji": "確",
+      "rawSha256": "6d99b6fb623bd9f263216e1af1fc9489e47d3ebe1f59fa586b0fef0df8eb2c80",
+      "gitBlob": "d6e86b00b05b851b6714cadb9e85f37dd0223207"
+    },
+    {
+      "kanji": "示",
+      "rawSha256": "ab8c29ff453ed89e6f4ef09d3312214c20c2131a28a047b0e997461be0185ca6",
+      "gitBlob": "54d17154598b34e1b6f6bed3d139c7ba7765c92e"
+    },
+    {
+      "kanji": "科",
+      "rawSha256": "82db27c13e2ff63211d68aa2c22a58c2146f1fd7ab949a555c6cb898aae411c6",
+      "gitBlob": "b92090d03ee2f220e34492b79488e55dabbfd3eb"
+    },
+    {
+      "kanji": "程",
+      "rawSha256": "a1c9360949f468bd41b7f9bd119525facfb3fe238fc3337184f5214092543736",
+      "gitBlob": "36d732b24658dbb656b25b782ec111477b9bf4bb"
+    },
+    {
+      "kanji": "種",
+      "rawSha256": "7ffafa8ec7a8bb9e260aaf4700951bf36fd8d14954da10ed7879a6b1691b5710",
+      "gitBlob": "a10f708a4e4df53963c17a8c6a64b058dcdaf29b"
+    }
+  ],
+  "hashDomainNote": "Raw SHA-256, Git blob IDs, capture JSON hashes, source archive hashes, and report projection bytes are distinct domains. No hash comparison is inferred across domains.",
+  "reviewerValidation": "No validator or tests were run by reviewer. Candidate author validation results are separate and do not replace semantic review.",
+  "candidateAcceptance": "Not accepted; C3-01 requires a signed pre-mutation amendment and focused read-only follow-up.",
+  "approvalBoundaries": {
+    "nativeSpeakerCertification": false,
+    "glyphPixelInspection": false,
+    "frequencyAssessment": false,
+    "runtimeDeviceMediaRelease": false,
+    "ordinaryActivation": false,
+    "fullTranslationCompletion": false
+  }
+}

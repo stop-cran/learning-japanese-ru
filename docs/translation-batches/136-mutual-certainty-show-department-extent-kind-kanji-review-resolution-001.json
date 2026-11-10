@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "batchId": "136-mutual-certainty-show-department-extent-kind-kanji",
+  "recordedAt": "2026-11-10T17:27:44+00:00",
+  "candidateCommit": "db6dd58af523317fd016aad237db29c17cc31257",
+  "candidateTree": "873d43fe0bb5c96ac9a7f2e792f0c21ce2318eb6",
+  "reviewReport": {
+    "path": "docs/translation-batches/136-mutual-certainty-show-department-extent-kind-kanji-independent-review-001.md",
+    "projectionUtf8Bytes": 5128,
+    "projectionRawSha256": "738510322515c4f6767ec5aea2cfa334370fc10ab19e64a52c46d5dce3d965d1",
+    "projectionGitBlob": "9802efa133ac05982a82d7cb61c09a10d9c2e424"
+  },
+  "reviewReceipt": "docs/translation-batches/136-mutual-certainty-show-department-extent-kind-kanji-independent-review-receipt-001.json",
+  "verdicts": {
+    "C1": "CLEAN, qualified; bounded checked facts only, not native-speaker or independent naturalness certification.",
+    "C2": "UNVERIFIED overall; scope/dependencies and NAV amendments matched, but quiz semantics remain unverified.",
+    "C3": "NEEDS FIX; finding C3-01 explains the on/kun labels."
+  },
+  "findings": [
+    {
+      "id": "C3-01",
+      "status": "open",
+      "severity": "medium",
+      "title": "Explain the reading-type labels for beginners",
+      "paths": [
+        "kanji/相.md",
+        "kanji/確.md",
+        "kanji/示.md",
+        "kanji/科.md",
+        "kanji/程.md",
+        "kanji/種.md"
+      ],
+      "problem": "Reading tables use abbreviated labels on/kun without defining the categories for novice learners.",
+      "evidence": "The methodology names on-yomi and kun-yomi and directs explanation when needed; the comprehension rubric requires necessary terminology to be explained.",
+      "authorizedResolution": "A separate pre-mutation amendment specifies exactly one short paragraph in each of the six lessons; no prose has yet been changed.",
+      "requiresFocusedFollowUp": true
+    }
+  ],
+  "C1AndC2Disposition": "No changes to the report verdicts; preserve C1 qualified CLEAN and C2 UNVERIFIED overall.",
+  "ordinaryQuizDirections": "All 18 remain UNVERIFIED, with zero guards and no grading approval.",
+  "candidateAcceptanceBlocked": true,
+  "noRuntimeOrReleaseApproval": true
+}

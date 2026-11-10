@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "batchId": "136-mutual-certainty-show-department-extent-kind-kanji",
+  "recordedAt": "2026-11-10T17:35:23+00:00",
+  "reviewerAgentType": "code-review",
+  "reviewerIdentifier": "not exposed by task tool",
+  "reviewedBaseCommit": "85abf691e98b46f2320cfcf0fcb7382e1772e183",
+  "candidatePreMutationCommit": "db6dd58af523317fd016aad237db29c17cc31257",
+  "amendmentCommit": "85abf691e98b46f2320cfcf0fcb7382e1772e183",
+  "scope": "C3-01 only: inspect the six authorized reading-label explanations in local lesson context and compare the terms to translation methodology. No C1/C2 or quiz review requested.",
+  "reportArtifact": "docs/translation-batches/136-mutual-certainty-show-department-extent-kind-kanji-independent-review-follow-up-001.md",
+  "reportProjectionUtf8Bytes": 2200,
+  "reportProjectionRawSha256": "aace431e22bea20df5ffcc96539743438463c06edfe58bfbd4be0dfd3ded49d1",
+  "reportProjectionGitBlob": "342995d7d497bbac86f34874d5cdfe30628596ac",
+  "reportCaptureBoundary": "Rendered report text was returned by the task tool and persisted in Markdown. Raw tool-response bytes, reviewer ID/model, and line-level evidence were not separately exposed. Hashes identify the persisted report projection only.",
+  "reviewedCandidateState": {
+    "baseCommit": "85abf691e98b46f2320cfcf0fcb7382e1772e183",
+    "trackedDiffBytes": 7850,
+    "trackedDiffRawSha256": "0b1337a25dbb1c05ac991c8dacad151da4e3f1d823e1b9ed9b6d879d08f1574d",
+    "trackedChangedPaths": [
+      "kanji/相.md",
+      "kanji/確.md",
+      "kanji/示.md",
+      "kanji/科.md",
+      "kanji/程.md",
+      "kanji/種.md",
+      "manifest.json"
+    ],
+    "lessonGitBlobs": {
+      "kanji/相.md": "ac7b60142711d1aea5fcd32b72b2238c1f869ca1",
+      "kanji/確.md": "f7d314e2f8aee1e296e98869f4515f6c54d6c896",
+      "kanji/示.md": "e2e06b96d4326d2262dc9c0470a1e6361bf934e5",
+      "kanji/科.md": "391a7256a0dd1151f7714abdeee480d7398dfef1",
+      "kanji/程.md": "408580f0b415ee378d85a96dcb513c25c292c704",
+      "kanji/種.md": "18364eaffad641a5dcdcdb22f9365b341c52d027"
+    },
+    "generatedManifestGitBlob": "2c8602fe7cf6b6baa3b0e91e19e5f28c6a1055de",
+    "manifestVersion": "c7cdeb30962724ec"
+  },
+  "coverageActuallyNamedByReport": [
+    "kanji/相.md",
+    "kanji/確.md",
+    "kanji/示.md",
+    "kanji/科.md",
+    "kanji/程.md",
+    "kanji/種.md",
+    "docs/translation-methodology.md"
+  ],
+  "verdict": "C3-01 ADDRESSED (qualified)",
+  "basis": "Exact paragraph occurs once after ## Чтения and before each table; the six lesson contexts were reported to contain no misleading context; terminology matches docs/translation-methodology.md; the caveat avoids an exception-free distinction. This is adequate beginner clarification, not exhaustive technical treatment.",
+  "limits": "The returned report does not name a rubric file, line ranges, or exact reviewer/model identifier; do not infer them. No native-speaker certification. Follow-up only; not candidate acceptance.",
+  "C1": "Original qualified CLEAN is unchanged; follow-up did not review or upgrade it.",
+  "C2": "Original UNVERIFIED overall is unchanged; follow-up did not review or upgrade it.",
+  "ordinaryQuizNegativeDirections": {
+    "status": "UNVERIFIED",
+    "count": 18,
+    "guardsAdded": 0,
+    "gradingApproval": false
+  },
+  "validationByReviewer": false,
+  "candidateAcceptance": false
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "batchId": "136-mutual-certainty-show-department-extent-kind-kanji",
+  "recordedAt": "2026-11-10T17:27:44+00:00",
+  "status": "C3 terminology amendment frozen before applying the six prose additions",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "2c5afc95fc9cea2740f574b0d53b0603ce8d338b",
+  "signedPreMutationFreezeCommit": "8aa5f8d5a98d10af7992a6a5517ae186f26aa85a",
+  "candidateCommit": "db6dd58af523317fd016aad237db29c17cc31257",
+  "candidateTree": "873d43fe0bb5c96ac9a7f2e792f0c21ce2318eb6",
+  "reviewFinding": {
+    "findingId": "C3-01",
+    "report": "docs/translation-batches/136-mutual-certainty-show-department-extent-kind-kanji-independent-review-001.md",
+    "reviewReceipt": "docs/translation-batches/136-mutual-certainty-show-department-extent-kind-kanji-independent-review-receipt-001.json",
+    "scope": "The reviewer found that novice readers cannot tell what the table labels он and кун mean."
+  },
+  "evidenceBasis": [
+    "docs/translation-methodology.md maps 音読み/訓読み to онное чтение (онъёми)/кунное чтение (кунъёми) and says to explain terms when needed.",
+    "The bounded comprehension rubric requires necessary terminology to be explained.",
+    "The six captured KANJIDIC2 records distinguish ja_on and ja_kun readings; current captures are separately hashed and are not represented as the frozen snapshot archives.",
+    "The local plan records a prior reviewed Russian explanation pattern; this amendment uses a short, bounded formulation and does not add a kanji meaning or word-specific reading."
+  ],
+  "exactAuthorizedText": "В таблице «он» — онное чтение (онъёми), связанное с китайским произношением; «кун» — кунное чтение (кунъёми), японское чтение слова, соотнесённое со значением знака. Это ориентир, а не правило без исключений.",
+  "operation": "Insert the exact paragraph once in each listed lesson, immediately after ## Чтения and before its reading table. Do not edit any other character or file.",
+  "affectedLessons": [
+    {
+      "path": "kanji/相.md",
+      "candidateBaseGitBlob": "bbf9961aee033beeba64978d75589cc508c0eb7b",
+      "candidateBaseWorkingTreeRawSha256": "08c42c733c32f9c459b45d8d3bdc44e8d4fee7266865503df10937f42f1c326c",
+      "candidateBaseWorkingTreeRawBytes": 2924,
+      "insertAfterHeading": "## Чтения",
+      "insertBefore": "reading table",
+      "expectedOccurrences": 1,
+      "text": "В таблице «он» — онное чтение (онъёми), связанное с китайским произношением; «кун» — кунное чтение (кунъёми), японское чтение слова, соотнесённое со значением знака. Это ориентир, а не правило без исключений."
+    },
+    {
+      "path": "kanji/確.md",
+      "candidateBaseGitBlob": "99e63aa3a643ca19dbe5875643f13b05bd2b6d9a",
+      "candidateBaseWorkingTreeRawSha256": "0fa59ddb8559d9ea49e3da2d3188d00a1dd3d8e80726e831b158ff4f19007a0a",
+      "candidateBaseWorkingTreeRawBytes": 3080,
+      "insertAfterHeading": "## Чтения",
+      "insertBefore": "reading table",
+      "expectedOccurrences": 1,
+      "text": "В таблице «он» — онное чтение (онъёми), связанное с китайским произношением; «кун» — кунное чтение (кунъёми), японское чтение слова, соотнесённое со значением знака. Это ориентир, а не правило без исключений."
+    },
+    {
+      "path": "kanji/示.md",
+      "candidateBaseGitBlob": "51ecb3673fa3173db57f33e62d8f051f55b584f1",
+      "candidateBaseWorkingTreeRawSha256": "ffc76a8bec2ba94612adcc86720580afe415078a96c64bbb80329e1d7c998bd8",
+      "candidateBaseWorkingTreeRawBytes": 2695,
+      "insertAfterHeading": "## Чтения",
+      "insertBefore": "reading table",
+      "expectedOccurrences": 1,
+      "text": "В таблице «он» — онное чтение (онъёми), связанное с китайским произношением; «кун» — кунное чтение (кунъёми), японское чтение слова, соотнесённое со значением знака. Это ориентир, а не правило без исключений."
+    },
+    {
+      "path": "kanji/科.md",
+      "candidateBaseGitBlob": "4076dcf288b441b86e912df6177336b0991bd3e4",
+      "candidateBaseWorkingTreeRawSha256": "23256d8698225b55bfff5e8417d43f809d5dab8ea09cf3fd9d17ea986992d421",
+      "candidateBaseWorkingTreeRawBytes": 2730,
+      "insertAfterHeading": "## Чтения",
+      "insertBefore": "reading table",
+      "expectedOccurrences": 1,
+      "text": "В таблице «он» — онное чтение (онъёми), связанное с китайским произношением; «кун» — кунное чтение (кунъёми), японское чтение слова, соотнесённое со значением знака. Это ориентир, а не правило без исключений."
+    },
+    {
+      "path": "kanji/程.md",
+      "candidateBaseGitBlob": "967191733215122664d9216579f038e25cc0807f",
+      "candidateBaseWorkingTreeRawSha256": "893d9219977bb479035f786c63864bb9796d81cb30380339a1c54f343c74b030",
+      "candidateBaseWorkingTreeRawBytes": 2485,
+      "insertAfterHeading": "## Чтения",
+      "insertBefore": "reading table",
+      "expectedOccurrences": 1,
+      "text": "В таблице «он» — онное чтение (онъёми), связанное с китайским произношением; «кун» — кунное чтение (кунъёми), японское чтение слова, соотнесённое со значением знака. Это ориентир, а не правило без исключений."
+    },
+    {
+      "path": "kanji/種.md",
+      "candidateBaseGitBlob": "dddf0d7aec91a5a8504aa63f27db8bda1e986da1",
+      "candidateBaseWorkingTreeRawSha256": "fdb72eb2b1421cb1d9926cc1bcadf5edb90240d33fb55270ce1419b6388bb15c",
+      "candidateBaseWorkingTreeRawBytes": 2462,
+      "insertAfterHeading": "## Чтения",
+      "insertBefore": "reading table",
+      "expectedOccurrences": 1,
+      "text": "В таблице «он» — онное чтение (онъёми), связанное с китайским произношением; «кун» — кунное чтение (кунъёми), японское чтение слова, соотнесённое со значением знака. Это ориентир, а не правило без исключений."
+    }
+  ],
+  "limits": {
+    "paragraphCount": 1,
+    "affectedLessonCount": 6,
+    "metadataChanges": false,
+    "JapaneseTextChanges": false,
+    "exampleChanges": false,
+    "wordPageChanges": false,
+    "strokeChanges": false,
+    "quizPoolOrGradingChanges": false,
+    "otherRuntimeChanges": false,
+    "C1OrC2VerdictsChanged": false,
+    "all18QuizDirectionsRemainUnverified": true,
+    "requiresFocusedReadOnlyFollowUp": true,
+    "candidateAcceptanceBeforeFollowUp": false
+  }
+}
