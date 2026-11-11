@@ -1,0 +1,52 @@
+{
+ "schemaVersion": 1,
+ "batchId": "141-youth-bitterness-grass-fall-leaf-medicine-kanji",
+ "recordedAt": "2026-11-11T07:46:00+00:00",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "candidateCommit": "f438d3abbe1d6335997e5af30fdae8b774dff9b2",
+ "manifestVersion": "3cb652cb2852209a",
+ "serialValidation": [
+  {
+   "command": "python -X utf8 -B tools\\build_manifest.py",
+   "exitCode": 0,
+   "stdout": "manifest.json: 2590 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 3cb652cb2852209a\n",
+   "stderr": ""
+  },
+  {
+   "command": "python -X utf8 -B tools\\validate.py",
+   "exitCode": 0,
+   "stdout": "0 error(s)\n",
+   "stderr": ""
+  },
+  {
+   "command": "python -X utf8 -B -m unittest discover -s tools -p \"test_*.py\"",
+   "exitCode": 0,
+   "stdout": "",
+   "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 41.013s\n\nOK\n"
+  },
+  {
+   "command": "python -X utf8 -B tools\\check_content_budget.py",
+   "exitCode": 0,
+   "stdout": "{'files': 2598, 'entries': 2607, 'retainedBytes': 7197881, 'inflatedBytes': 7216096, 'localZipBytes': 3619940, 'listeningTaskMediaBytes': 0}\n",
+   "stderr": ""
+  }
+ ],
+ "gitDiffCheck": {
+  "command": "git diff --cached --check",
+  "exitCode": 0,
+  "stderr": ""
+ },
+ "review": {
+  "report": "docs/translation-batches/141-youth-bitterness-grass-fall-leaf-medicine-kanji-independent-review-001.md",
+  "verdict": "PASS WITH QUALIFICATIONS",
+  "negativeFallbackDirections": "UNVERIFIED for all 18 direct directions"
+ },
+ "limits": {
+  "runtimeOrGradingApproval": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "ordinaryActivationApproval": false,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "fullTranslationComplete": false
+ }
+}

@@ -2,6 +2,29 @@
 
 ## Previous published source milestone: batch135 doubt, climb, everyone, steal and straight kanji
 
+## Batch141: qualified source acceptance recorded, publication pending
+
+Batch141 adds complete Russian lessons and byte-identical frozen stroke assets
+for 若/苦/草/落/葉/薬. Ten existing word pages received only the exact
+navigation wrappers authorized by the validator-driven amendment; six optional
+wrappers to unavailable word pages were omitted. The validator reports no
+errors, and the independent review found no actionable translation,
+metadata/invariant, or scope issues within its bounded scope.
+
+The signed pre-mutation freeze is `445f33898fc56d6b9761333960f418d32043c5ea`;
+the signed navigation amendment is `60a55a3144c9ee622afe51dff64926b50d1bb56a`;
+the signed runtime candidate is `f438d3abbe1d6335997e5af30fdae8b774dff9b2`,
+content version `3cb652cb2852209a`. The reused 2026-314 dictionary captures
+are supplemental and do not match the frozen dictionary snapshot.
+
+Qualified progress is now **2,590 reviewed-current / 2 excluded reviewed
+runtime-blocked / 5,686 pending of 8,278**, with 1,478 words / 541 kanji / 541
+strokes. C1/C3 are CLEAN only within the cited, bounded review scope.
+Ordinary quiz negative/fallback safety remains **UNVERIFIED** for all 18 direct
+directions. Checkpoint authority remains null and `Ready` false; publication,
+runtime, device, media, release, ordinary-activation, and full-translation
+approval are not implied.
+
 ## Batch140: qualified source acceptance recorded, publication pending
 
 Batch140 adds complete Russian lessons and byte-identical frozen stroke assets
