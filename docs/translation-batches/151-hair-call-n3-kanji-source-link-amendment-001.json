@@ -1,0 +1,41 @@
+{
+ "schemaVersion": 1,
+ "batchId": "151-hair-call-n3-kanji",
+ "amendment": 1,
+ "recordedAt": "2026-11-11T15:12:57Z",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "3c862d7edc3466feb273fbcf03390e7fbda73177",
+ "basis": "Read-only inventory of every local link in the two frozen lessons and every published Russian word page whose YAML kanji field contains either new lesson character.",
+ "preservedAvailableSourceLinks": [
+  {"lesson": "kanji/髪.md", "target": "words/髪.md", "occurrences": 3},
+  {"lesson": "kanji/鳴.md", "target": "words/鳴く.md", "occurrences": 3}
+ ],
+ "reciprocalLinksRequiredByPublishedYamlKanjiFields": [
+  {
+   "wordPage": "words/髪.md",
+   "kanji": "髪",
+   "authorizedAnchor": "the existing 髪 in the first substantive sentence of ## Как сочетаются кандзи",
+   "target": "../kanji/髪.md"
+  },
+  {
+   "wordPage": "words/鳴く.md",
+   "kanji": "鳴",
+   "authorizedAnchor": "the existing 鳴 in the first substantive sentence of ## Как сочетаются кандзи",
+   "target": "../kanji/鳴.md"
+  },
+  {
+   "wordPage": "words/鳴る.md",
+   "kanji": "鳴",
+   "authorizedAnchor": "the existing 鳴 in the first substantive sentence of ## Как сочетаются кандзи",
+   "target": "../kanji/鳴.md"
+  }
+ ],
+ "allOtherLocalLinksInTheFrozenLessonsResolveInPublishedBaseline": true,
+ "scopeLimits": {
+  "newWordPages": 0,
+  "otherWordPageEdits": 0,
+  "wordMetadataReadingsExamplesOrQuizExclusionsChanged": false,
+  "lessonMeaningOrJapaneseContentChangedByThisAmendment": false,
+  "quizOrGradingChanges": 0
+ }
+}

@@ -1,0 +1,97 @@
+{
+ "schemaVersion": 1,
+ "batchId": "151-hair-call-n3-kanji",
+ "amendment": 1,
+ "recordedAt": "2026-11-11T15:12:57Z",
+ "status": "pre-mutation semantic freeze; authoring authorized only within this scope",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "3c862d7edc3466feb273fbcf03390e7fbda73177",
+ "intakeRecord": "docs/translation-batches/151-hair-call-n3-kanji-intake.json",
+ "sourceRead": {
+  "frozenEnglishLessonsRead": ["kanji/髪.md", "kanji/鳴.md"],
+  "sourceSnapshotRead": "docs/n3-source-snapshot.json",
+  "primaryEvidenceBoundary": "Complete frozen English lessons, their exact cited JMdict entry IDs, frozen KANJIDIC2 provenance, and the frozen community-N3 snapshot only; no fresh JMdict record-level review or broad frequency/naturalness claim.",
+  "communityJlptBasis": "Positions 366–367 in the frozen 367-entry community list, not an official JLPT syllabus.",
+  "dependencyClosure": "All six direct distractor IDs are present in the published Russian baseline."
+ },
+ "frozenJapaneseInvariants": {
+  "lessonIdsAndPaths": ["髪", "鳴"],
+  "metadata": true,
+  "readingsAndExamples": true,
+  "citedJMdictEntryIds": true,
+  "directDistractorIds": true,
+  "strokes": "reuse exact byte-identical frozen-source assets",
+  "mnemonics": "modern visual mnemonics only, not historical or unverified phonetic claims",
+  "quiz": "no grading, answer, exclusion, or fallback changes"
+ },
+ "frozenLessonMetadata": [
+  {
+   "kanji": "髪",
+   "title": "hair of the head",
+   "jlpt": 3,
+   "tags": ["jlpt-n3", "grade-8", "structure-unclassified"],
+   "strokes": 14,
+   "radical": "髟",
+   "radicalNumber": 190,
+   "onyomi": ["ハツ"],
+   "kunyomi": ["かみ"],
+   "distractors": ["長", "友", "夏"],
+   "citedJMdictEntryIds": [1303590, 1311530, 1477950, 1477960, 1533820, 1583050]
+  },
+  {
+   "kanji": "鳴",
+   "title": "animal call; ring",
+   "jlpt": 3,
+   "tags": ["jlpt-n3", "grade-2", "structure-unclassified"],
+   "strokes": 14,
+   "radical": "鳥",
+   "radicalNumber": 196,
+   "onyomi": ["メイ"],
+   "kunyomi": ["な.く", "な.る", "な.らす"],
+   "distractors": ["鳥", "問", "駅"],
+   "citedJMdictEntryIds": [1229840, 1532870, 1532880, 1532910]
+  }
+ ],
+ "sourceWordReferences": [
+  {
+   "sourceLesson": "kanji/髪.md",
+   "target": "words/髪.md",
+   "occurrences": 3,
+   "publishedRussianTargetExists": true,
+   "disposition": "preserve all three available source links"
+  },
+  {
+   "sourceLesson": "kanji/鳴.md",
+   "target": "words/鳴く.md",
+   "occurrences": 3,
+   "publishedRussianTargetExists": true,
+   "disposition": "preserve all three available source links"
+  }
+ ],
+ "directDistractorEdges": {
+  "directions": ["髪→長", "髪→友", "髪→夏", "鳴→鳥", "鳴→問", "鳴→駅"],
+  "directionCount": 6,
+  "internalBatchDirections": [],
+  "externalDistractorIdsPresentInPublishedBaseline": ["長", "友", "夏", "鳥", "問", "駅"],
+  "negativeFallbackStatus": "UNVERIFIED for all six direct directions; no transitive closure or quiz-safety conclusion inferred"
+ },
+ "candidateBoundary": {
+  "newLessons": ["kanji/髪.md", "kanji/鳴.md"],
+  "newFrozenStrokeAssets": ["strokes/髪.json", "strokes/鳴.json"],
+  "navigationOnlyWordPages": ["words/髪.md", "words/鳴く.md", "words/鳴る.md"],
+  "newWordPages": 0,
+  "otherRuntimePaths": 0,
+  "quizOrGradingChanges": 0,
+  "unavailableOptionalWordPages": [],
+  "manifestGenerationAmendment": "docs/translation-batches/151-hair-call-n3-kanji-manifest-generation-amendment-001.json",
+  "sourceLinkAmendment": "docs/translation-batches/151-hair-call-n3-kanji-source-link-amendment-001.json"
+ },
+ "qualificationLimits": {
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all six direct directions; no transitive closure inferred",
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "fullTranslationComplete": false
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "schemaVersion": 1,
+ "batchId": "151-hair-call-n3-kanji",
+ "amendment": 1,
+ "recordedAt": "2026-11-11T15:12:57Z",
+ "baselineCommit": "3c862d7edc3466feb273fbcf03390e7fbda73177",
+ "baselineManifest": {
+  "path": "manifest.json",
+  "contentVersion": "befb7eb96f13cee1",
+  "rawBytes": 244679,
+  "rawSha256": "caa456a3e04a5051b691490a05b6f346f46541bc9a48fe2482ffd7be89b289dc",
+  "gitBlob": "b48f722795ea738a1270fee8888291ae5cecac50"
+ },
+ "generation": {
+  "authorizedCommand": "python tools\\build_manifest.py",
+  "contentVersion": "must be recomputed by the repository builder; do not predict or hand-edit it",
+  "expectedDelta": {
+   "newRegistrations": [
+    "kanji/髪.md",
+    "kanji/鳴.md",
+    "strokes/髪.json",
+    "strokes/鳴.json"
+   ],
+   "changedExistingHashes": [
+    "words/髪.md",
+    "words/鳴く.md",
+    "words/鳴る.md"
+   ],
+   "removedRegistrations": 0,
+   "unrelatedHashChanges": 0,
+   "otherTopLevelChanges": 0
+  }
+ },
+ "invariants": {
+  "newWordPages": 0,
+  "runtimePathsOutsideNewLessonsStrokesReciprocalLinksAndManifest": 0,
+  "quizGradingAnswerExclusionFallbackChanges": 0,
+  "manifestMustBeRecomputedFromCandidateFiles": true,
+  "manifestMustMatchExactAuthorizedDelta": true
+ }
+}

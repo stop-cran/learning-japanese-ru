@@ -6805,5 +6805,5 @@ and 5,536 pending of 8,278. `checkpointAuthority` remains null and
 device, media, activation, release or full-completion approval is implied. The
 Kolobok lead for the protected 空 question remains separately qualified in
 [the post-publication lead record](translation-batches/149-sora-kolobok-lead-qualification-001.json);
-both 空 pairs remain C2 **UNVERIFIED**. Continue with positions 366–375; this
+both 空 pairs remain C2 **UNVERIFIED**. Continue with positions 366–367; this
 is not finite completion.

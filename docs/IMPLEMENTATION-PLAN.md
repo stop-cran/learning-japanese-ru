@@ -5855,5 +5855,5 @@ Exact-main `Validate Russian content` run 43043911004 passed. Progress is
 2,740 reviewed-current objects, two runtime-blocked drafts and 5,536 pending
 objects of 8,278. All 30 direct negative/fallback directions remain
 **UNVERIFIED**; checkpoint authority and readiness remain null/false. Continue
-sequentially with community-N3 positions 366–375. This status grants no
+sequentially with community-N3 positions 366–367. This status grants no
 runtime, device, media, activation, release or full-completion approval.
