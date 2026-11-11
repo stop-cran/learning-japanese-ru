@@ -1,0 +1,90 @@
+{
+ "schemaVersion": 1,
+ "batchId": "154-n2-batch-03-kanji",
+ "recordedAt": "2026-11-11T19:09:25Z",
+ "repository": "stop-cran/learning-japanese-ru",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "f940768c96f7a556d2e6cf71303d53190bf48828",
+ "publishedBaselineTree": "985f5780295057d95fd6b4fe47beb58856aa3d82",
+ "candidateBase": "2af442b36de22a2883247292429dc0dc049542ee",
+ "candidateBranch": "full-ru-154-n2-batch-03",
+ "selection": {
+  "selectionMethod": "Next contiguous group of 15 planned community-N2 additions; one-based frozen jlptN2.characters positions 31–45.",
+  "jlptBasis": "Frozen community list; not an official JLPT syllabus.",
+  "snapshot": {
+   "path": "docs/n2-source-snapshot.json",
+   "bytes": 6925,
+   "rawSha256": "2c24bba74d88b842f062e9a4f83f8b5668ae89ed8aa6cb66f3d74e89c26724a9",
+   "gitBlob": "a51e8f0a5f7cd28071be6a534394538d0ec65cdb",
+   "communityListCount": 367,
+   "plannedAdditions": 365,
+   "preservedExistingCards": ["珍", "短"],
+   "positionDomain": "One-based order in jlptN2.characters."
+  },
+  "batchSourceRecord": {
+   "path": "docs/n2-batch-sources/batch-03.json",
+   "bytes": 87179,
+   "rawSha256": "658da85a300bc896f96310262ce2d9256c86d28d942ace16b6a229c088671a60",
+   "gitBlob": "e2c87891e5e623ac438bb25cdead4992993ad94a",
+   "dictionarySnapshotDate": "2026-10-21"
+  },
+  "positions": [
+   {"position": 31, "kanji": "券"},
+   {"position": 32, "kanji": "刺"},
+   {"position": 33, "kanji": "則"},
+   {"position": 34, "kanji": "副"},
+   {"position": 35, "kanji": "劇"},
+   {"position": 36, "kanji": "効"},
+   {"position": 37, "kanji": "勇"},
+   {"position": 38, "kanji": "募"},
+   {"position": 39, "kanji": "勢"},
+   {"position": 40, "kanji": "包"},
+   {"position": 41, "kanji": "匹"},
+   {"position": 42, "kanji": "区"},
+   {"position": 43, "kanji": "卒"},
+   {"position": 44, "kanji": "協"},
+   {"position": 45, "kanji": "占"}
+  ],
+  "newLessons": [
+   "券", "刺", "則", "副", "劇", "効", "勇", "募", "勢", "包", "匹", "区", "卒", "協", "占"
+  ]
+ },
+ "progressSnapshot": {
+  "frozenInventory": 8278,
+  "reviewedCurrent": 2804,
+  "runtimeBlocked": 2,
+  "pending": 5472,
+  "russianContentVersion": "85ef34116e4c0c7c",
+  "checkpointAuthority": null,
+  "checkpointReady": false
+ },
+ "sourceLinkCountReconciliation": {
+  "frozenSourceLessonTargets": 50,
+  "localLessonLinkOccurrences": 85,
+  "availableExistingLessonTargets": 9,
+  "unavailableLessonTargets": 41,
+  "frozenSourceBacklinkPages": 46,
+  "publishedRussianPagesAmongFrozenBacklinks": 4,
+  "unavailableReverseTargetPages": 42,
+  "revalidationFinding": "The four published word pages contain the selected kanji in front matter but do not link to the corresponding new card in their article text; add four navigation-only links."
+ },
+ "candidateBoundary": {
+  "newLessons": 15,
+  "newFrozenStrokeAssets": 15,
+  "navigationOnlyExistingWordPages": 4,
+  "newWordPages": 0,
+  "quizOrGradingChanges": 0,
+  "additionalRuntimePaths": 0,
+  "expectedManifestDelta": "30 new registrations and exactly 4 changed existing word hashes; no removals or unrelated changes."
+ },
+ "qualificationLimits": {
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 45 direct directions; no transitive closure or safety claim.",
+  "freshJMdictRecordLevelReview": false,
+  "nativeSpeakerFrequencyOrNaturalnessClaim": false,
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "fullTranslationComplete": false
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "schemaVersion": 1,
+ "batchId": "154-n2-batch-03-kanji",
+ "amendment": 1,
+ "recordedAt": "2026-11-11T19:09:25Z",
+ "status": "Pre-mutation source-link inventory; authoring authorized only within this scope.",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "f940768c96f7a556d2e6cf71303d53190bf48828",
+ "basis": "Read-only inventory of every local link in all 15 frozen lessons, every source word page linking to any selected kanji at the frozen source commit, and target availability in the published baseline tree.",
+ "lessonLinks": {
+  "distinctLocalTargets": 50,
+  "localLinkOccurrences": 85,
+  "availableExistingTargets": [
+   {"path":"kanji/富.md","occurrences":1},
+   {"path":"kanji/男.md","occurrences":1},
+   {"path":"kanji/福.md","occurrences":1},
+   {"path":"words/包む.md","occurrences":2},
+   {"path":"words/卒業.md","occurrences":2},
+   {"path":"words/大勢.md","occurrences":2},
+   {"path":"words/終わる.md","occurrences":1},
+   {"path":"words/規則.md","occurrences":2},
+   {"path":"words/閉める.md","occurrences":1}
+  ],
+  "unavailableTargetCount": 41,
+  "unavailableTargets": [
+   "words/くるむ.md","words/不規則.md","words/券.md","words/刺さる.md","words/刺す.md",
+   "words/刺激.md","words/刺身.md","words/副作用.md","words/副詞.md","words/劇.md",
+   "words/劇場.md","words/効く.md","words/効力.md","words/効果.md","words/勇ましい.md",
+   "words/勇気.md","words/募集.md","words/勢い.md","words/包み.md","words/包丁.md",
+   "words/包帯.md","words/包装.md","words/匹敵.md","words/区分.md","words/区切る.md",
+   "words/区別.md","words/区域.md","words/協力.md","words/占う.md","words/占める.md",
+   "words/名刺.md","words/回数券.md","words/地区.md","words/姿勢.md","words/定期券.md",
+   "words/小包.md","words/悲劇.md","words/有効.md","words/法則.md","words/演劇.md",
+   "words/率直.md"
+  ],
+  "disposition": "Retain only available lesson links above. Keep unavailable word targets as visible plain Japanese; do not create pages or substitute links."
+ },
+ "reciprocalWordPages": {
+  "sourcePages": 46,
+  "publishedRussianPages": 4,
+  "unavailableSourcePages": 42,
+  "revalidationCorrection": "The four published pages have selected kanji in front matter but lacked links to those kanji in article text; front-matter membership is not a reciprocal navigation link.",
+  "authorizedEdits": [
+   {
+    "path":"words/規則.md",
+    "kanji":"則",
+    "target":"../kanji/則.md",
+    "before":"則 — также правило или принцип.",
+    "after":"[則](../kanji/則.md) — также правило или принцип."
+   },
+   {
+    "path":"words/大勢.md",
+    "kanji":"勢",
+    "target":"../kanji/勢.md",
+    "before":"а 勢 даёт ぜい.",
+    "after":"а [勢](../kanji/勢.md) даёт ぜい."
+   },
+   {
+    "path":"words/包む.md",
+    "kanji":"包",
+    "target":"../kanji/包.md",
+    "before":"包 передаёт идею охватывания, обёртывания;",
+    "after":"[包](../kanji/包.md) передаёт идею охватывания, обёртывания;"
+   },
+   {
+    "path":"words/卒業.md",
+    "kanji":"卒",
+    "target":"../kanji/卒.md",
+    "before":"卒 связан с завершением,",
+    "after":"[卒](../kanji/卒.md) связан с завершением,"
+   }
+  ],
+  "scope": "Navigation-only. Preserve word metadata, readings, examples, classifications and quiz exclusions exactly; all 42 unavailable source backlink pages remain unmodified."
+ },
+ "scopeLimits": {
+  "newWordPages": 0,
+  "wordMeaningOrJapaneseContentChanged": false,
+  "wordMetadataReadingsExamplesOrQuizExclusionsChanged": false,
+  "quizOrGradingChanges": 0
+ }
+}
