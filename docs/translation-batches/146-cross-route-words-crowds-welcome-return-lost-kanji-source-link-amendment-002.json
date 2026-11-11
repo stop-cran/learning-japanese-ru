@@ -1,0 +1,34 @@
+{
+ "schemaVersion": 1,
+ "batchId": "146-cross-route-words-crowds-welcome-return-lost-kanji",
+ "recordedAt": "2026-11-11T10:40:39Z",
+ "status": "pre-mutation supplemental source-link scope authorization",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "28555f4735a3567fa1ed42a0dc30abbb1a543acf",
+ "intakeRecord": "docs/translation-batches/146-cross-route-words-crowds-welcome-return-lost-kanji-intake.json",
+ "semanticFreeze": "docs/translation-batches/146-cross-route-words-crowds-welcome-return-lost-kanji-source-adjudication-and-semantic-freeze-001.json",
+ "manifestScope": "The only affected runtime path is kanji/路.md, already covered by the signed pre-generation manifest authorization; this amendment adds no manifest registration or path.",
+ "finding": {
+  "sourceLesson": "kanji/路.md",
+  "sourceLink": "途.md",
+  "sourceOccurrences": 1,
+  "targetPath": "kanji/途.md",
+  "targetExistsAtPublishedBaseline": false,
+  "scope": "The frozen lesson compares 路 with 道 and 途, but the optional Russian 途 card is not yet available."
+ },
+ "authorization": {
+  "renderTheCharacterAsPlainJapaneseTextWithoutMarkdownLink": true,
+  "preserveTheComparisonAndItsVisibleJapaneseContent": true,
+  "createOrModifyKanji途": false,
+  "modifyAnyAdditionalRuntimePath": false,
+  "changeAnyKanjiOrWordContentBeyondTheSemanticFreeze": false,
+  "changeQuizOrGradingBehavior": false,
+  "frozenEnglishSourceMustRemainUntouched": true
+ },
+ "acceptanceCondition": "The translated 路 lesson preserves the comparison with 道 and 途, links 道 only if its Russian card exists, and contains no unresolved link to kanji/途.md.",
+ "limits": {
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 30 direct directions; no transitive closure inferred",
+  "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false
+ }
+}
