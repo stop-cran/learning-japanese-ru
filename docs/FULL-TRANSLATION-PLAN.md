@@ -6809,28 +6809,24 @@ both 空 pairs remain C2 **UNVERIFIED**. At that point the next source slice was
 N3 positions 366–367; Batch 151 and the subsequent N2 transition supersede that
 continuation below. This is not finite completion.
 
-## Current continuation after batch 151 publication
+## Current continuation after Batch 152 candidate validation
 
-Batch 151 (`髪`, `鳴`) is published through [PR #34](https://github.com/stop-cran/learning-japanese-ru/pull/34)
-at `b3e960428b29058060251a549110e05a3052e73a`. The owner-signed acceptance
-commit is `bd7cecdfb63b1d05a4ba69081707700d27e4c0ae`; the corrected candidate
-`49b94223bb7e1a7a3de7529332f9130d92bbe6c8` was independently reviewed, and
-the exact-main CI run [43051513920](https://github.com/stop-cran/learning-japanese-ru/actions/runs/43051513920)
-passed. Qualified progress is **2,744 reviewed-current / 2 runtime-blocked /
-5,532 pending of 8,278**, with content version `82dfd74ec9955e41`.
+Batch 152's owner-signed candidate `80e4e1d0d13caea2fcadb80345fc272441f3dcc4`
+is pushed to `full-ru-152-n2-batch-01`; publication through a PR and exact-main
+CI verification remain pending. The candidate adds 15 lessons and 15 byte-
+identical stroke assets, plus nine authorized navigation-only word-page edits.
+The initial independent review's omitted `紹介` links in `介` were restored;
+the focused follow-up passed. Qualified progress is **2,774 reviewed-current /
+2 runtime-blocked / 5,502 pending of 8,278**, with content version
+`34b5c4ac31854637`.
 
-Continue with Batch 152, the first planned group in the frozen community-N2
-snapshot: 並丸久乱乳乾了介仏令仲伸伺低依 (positions 1–15 of the 365
-additions; 珍 and 短 remain pre-existing). This community list is not an
-official JLPT syllabus. The exact frozen-source audit finds 35 unique lesson
-word targets: ten exist in the Russian baseline and remain linked, while 25
-unavailable targets remain visible as plain Japanese without new word pages.
-The source-review ledger's 22 reciprocal links describe its earlier `a73354e`
-snapshot; the frozen `6af98cb` tree has 34 source-linked word pages, of which
-nine exist in the current Russian baseline and are the only reciprocal edits
-authorized for this batch.
+After publication, continue with Batch 153, the next 15 entries in the frozen
+community-N2 snapshot: 個倍停傾像億兆児党兵冊再凍刊刷 (positions 16–30 of
+365 additions; 珍 and 短 remain pre-existing). This community list is not an
+official JLPT syllabus. Freeze and review this next scope against the same
+source revision before authoring.
 
-All 45 direct distractor directions remain **UNVERIFIED** for negative/fallback
-behavior; no transitive closure or quiz-safety claim is made. The protected 空
-pairs, runtime/device/media/activation/release gates, and full-completion status
-remain separate and unchanged.
+All 45 Batch 152 direct distractor directions remain **UNVERIFIED** for
+negative/fallback behavior; no transitive closure or quiz-safety claim is made.
+The protected 空 pairs, runtime/device/media/activation/release gates, and
+full-completion status remain separate and unchanged.

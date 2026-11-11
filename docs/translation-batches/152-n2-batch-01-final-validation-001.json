@@ -1,0 +1,161 @@
+{
+ "authorizationLimits": {
+  "all45DirectNegativeFallbackDirections": "UNVERIFIED; no transitive closure or safety claim",
+  "fullTranslationComplete": false,
+  "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false
+ },
+ "batchId": "152-n2-batch-01-kanji",
+ "candidateCommit": "80e4e1d0d13caea2fcadb80345fc272441f3dcc4",
+ "candidateGitHubIdentity": {
+  "author": "stop-cran",
+  "committer": "stop-cran",
+  "remoteBranch": "full-ru-152-n2-batch-01",
+  "remoteBranchSha": "80e4e1d0d13caea2fcadb80345fc272441f3dcc4",
+  "signatureReason": "valid",
+  "signatureVerified": true
+ },
+ "candidateScope": {
+  "additionalRuntimePaths": 0,
+  "manifestDeltaFromPublishedBaseline": {
+   "changedExistingHashes": 9,
+   "newRegistrations": 30,
+   "otherTopLevelChanges": 0,
+   "recomputedByBuilder": true,
+   "removedRegistrations": 0,
+   "unrelatedHashChanges": 0
+  },
+  "navigationOnlyWordPages": [
+   "words/並ぶ.md",
+   "words/並べる.md",
+   "words/丸い.md",
+   "words/久しぶり.md",
+   "words/乾く.md",
+   "words/伺う.md",
+   "words/低い.md",
+   "words/牛乳.md",
+   "words/紹介.md"
+  ],
+  "newByteIdenticalStrokeAssets": [
+   "strokes/並.json",
+   "strokes/丸.json",
+   "strokes/久.json",
+   "strokes/乱.json",
+   "strokes/乳.json",
+   "strokes/乾.json",
+   "strokes/了.json",
+   "strokes/介.json",
+   "strokes/仏.json",
+   "strokes/令.json",
+   "strokes/仲.json",
+   "strokes/伸.json",
+   "strokes/伺.json",
+   "strokes/低.json",
+   "strokes/依.json"
+  ],
+  "newLessons": [
+   "kanji/並.md",
+   "kanji/丸.md",
+   "kanji/久.md",
+   "kanji/乱.md",
+   "kanji/乳.md",
+   "kanji/乾.md",
+   "kanji/了.md",
+   "kanji/介.md",
+   "kanji/仏.md",
+   "kanji/令.md",
+   "kanji/仲.md",
+   "kanji/伸.md",
+   "kanji/伺.md",
+   "kanji/低.md",
+   "kanji/依.md"
+  ],
+  "newWordPages": 0,
+  "quizOrGradingChanges": 0
+ },
+ "candidateTree": "c5c79553858b14ba266234bfc25c9b3a2395ea95",
+ "manifestSha256": "62a460842ddc467d60fc99afd53088da715b040babfbf7019230b551563fc9cb",
+ "manifestVersion": "34b5c4ac31854637",
+ "publishedBaseline": "b3e960428b29058060251a549110e05a3052e73a",
+ "recordedAt": "2026-11-11T16:52:57Z",
+ "repository": "stop-cran/learning-japanese-ru",
+ "review": {
+  "confidence": "high within the bounded static-review scopes",
+  "directNegativeFallbackDirections": {
+   "count": 45,
+   "quizSafetyClaim": false,
+   "status": "UNVERIFIED",
+   "transitiveClosureInferred": false
+  },
+  "followUpReport": "docs/translation-batches/152-n2-batch-01-independent-review-002.md",
+  "followUpVerdict": "PASS — no actionable findings",
+  "initialCandidate": "185cfdbdc63f49af4a791a93a5f3d836d04b2e08",
+  "initialReport": "docs/translation-batches/152-n2-batch-01-independent-review-001.md",
+  "initialVerdict": "CHANGES REQUESTED",
+  "qualifications": [
+   "No fresh JMdict record-level adjudication or native-speaker certification.",
+   "No runtime/device/media/activation/release approval, checkpoint authority, or full-completion approval."
+  ],
+  "resolvedFindings": [
+   "B152-R1: restored both source navigation links to words/紹介.md in kanji/介.md; target exists."
+  ],
+  "reviewedCandidate": "409f0859d74cec8d8e1c389bb0a8b8bc650b6396",
+  "scope": "All 15 complete Russian lessons against the frozen source, Japanese invariants, citations, all 45 direct distractor directions, all 15 byte-identical stroke assets, authorized reciprocal word links, and exact manifest delta. Focused follow-up reviewed the authorized correction and manifest."
+ },
+ "schemaVersion": 1,
+ "serialValidation": [
+  {
+   "command": "python -X utf8 -B tools\\build_manifest.py",
+   "exitCode": 0,
+   "stdout": "manifest.json: 2774 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 34b5c4ac31854637"
+  },
+  {
+   "command": "python -X utf8 -B tools\\validate.py",
+   "exitCode": 0,
+   "stdout": "0 error(s)"
+  },
+  {
+   "command": "python -X utf8 -B -m unittest discover -s tools -p \"test_*.py\"",
+   "exitCode": 0,
+   "stdout": "Ran 124 tests in 39.981s; OK"
+  },
+  {
+   "command": "python -X utf8 -B tools\\check_content_budget.py",
+   "exitCode": 0,
+   "stdout": "files=2782; entries=2791; retainedBytes=7704631; inflatedBytes=7722846; localZipBytes=3865204; listeningTaskMediaBytes=0"
+  }
+ ],
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "qualified frozen-source content and source-progress acceptance; publication pending",
+ "trackingAndProgress": {
+  "adoptedEntries": 2774,
+  "artifacts": {
+   "docs/translation-batches/152-n2-batch-01-independent-review-001.md": {
+    "sha256": "9762b8e8bad29217dbb381e9e40bc09597bebffffac3f4bf337e182f4db59295"
+   },
+   "docs/translation-batches/152-n2-batch-01-independent-review-002.md": {
+    "sha256": "d663df22a51d232bab115c13258a634f7353f5ccb288e9b26accc768520781cf"
+   },
+   "docs/translation-progress.json": {
+    "sha256": "3fed78cdef8e519b00ada3895ee639af77c39c39231a81892bcb0e53583e7608"
+   },
+   "docs/translation-tracking.json": {
+    "sha256": "657c1e484a9fa1f279fe6d518a250f03ccbcae3fa41d3589c26cb6b87df06f55"
+   }
+  },
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "excludedReviewedRuntimeBlocked": 2,
+  "frozenInventory": 8278,
+  "fullTranslationComplete": false,
+  "guidanceChanges": 0,
+  "pending": 5502,
+  "reviewedCurrent": 2774,
+  "runtimeAcceptance": false,
+  "russianContentVersion": "34b5c4ac31854637",
+  "sourceChanges": 0,
+  "targetChangedDuringBatch": false,
+  "translationProgressReportMatchesTracking": true,
+  "unreconciledGuidance": 0
+ }
+}
