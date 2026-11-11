@@ -51,16 +51,17 @@ correctly says this is not a two-calendar-day gate.
 The reviewer confirmed all 15 stroke JSON blobs have the same Git blob IDs as
 the frozen source, parse as schema version 1, use sequential stroke IDs, and
 have counts matching the card metadata. All 42 changed paths are within the
-requested scope; no runtime or learner-state paths changed. The pre-existing
-untracked `tools/__pycache__/` was left untouched. The reviewer ran no tests or
-builds, consistent with the read-only request.
+requested scope. No app/runtime code or learner-state paths changed; the
+reviewed content scope intentionally includes 15 kanji lessons, 15 frozen
+stroke assets, ten navigation-only word links, and two documentation
+corrections. The pre-existing untracked `tools/__pycache__/` was left
+untouched. The reviewer ran no tests or builds, consistent with the read-only
+request.
 
-Minor non-blocking wording observations remain documented: a `券` example
-could use a more precise phrase for a time-limited pass (30, 38); one `刺`
-construction is awkward (20); `則` has a slightly stiff particle description;
-`劇` repeats the sense of “theatre” in one phrase; `効` uses the less idiomatic
-`результативность` for 効果; and `卒` uses unexplained Jōyō-list jargon (34).
-No supported Japanese-content blocker was found.
+The title-level clarity observations for `厚`, `双`, `叫`, and `召` are
+documented above and their exact hash-bound refinements passed follow-ups. No
+additional non-blocking wording observations were recorded for this 15-card
+review. No supported Japanese-content blocker was found.
 
 All 45 direct distractor directions remain **UNVERIFIED**; no transitive
 closure or quiz-safety conclusion is inferred. No fresh record-level JMdict

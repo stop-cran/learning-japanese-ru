@@ -1,0 +1,64 @@
+{
+ "baseCommit": "568dcd62f17bbfd66df809ba5e3978973766e89b",
+ "batchId": "155-n2-batch-04-kanji",
+ "changes": [
+  {
+   "baseBlob": "cc0d3e2f9d7379c920fea78bac2d455009a5517b",
+   "baseBytes": 7574,
+   "baseCommit": "568dcd62f17bbfd66df809ba5e3978973766e89b",
+   "baseRawSha256": "ac859381057f12823473b741f5563ce86d94c80e85774c502a032c78f0f98d46",
+   "change": "Removed six Batch 154 wording observations falsely attributed to Batch 155; clarified the intentionally changed content paths and that no app/runtime code or learner-state paths changed.",
+   "correctedBlob": "4e76110c2ba5935caeb3c0c6f8afd968cc68e98c",
+   "correctedBytes": 7566,
+   "correctedRawSha256": "b8b54a0fd1fed1d88ae3d6525b444c6ce5472dd3ee25a11da8ed80b354cda51d",
+   "path": "docs/translation-batches/155-n2-batch-04-semantic-review-001.md"
+  },
+  {
+   "baseBlob": "1ca663a69821c6f86e4d8e6925efbe892c048b45",
+   "baseBytes": 1826,
+   "baseCommit": "568dcd62f17bbfd66df809ba5e3978973766e89b",
+   "baseRawSha256": "3348b1cda7d4ba1b77e4e4255e08b5b6d11591affaef06bf73b38550bf91f7be",
+   "change": "Removed six Batch 154 observations falsely attributed to Batch 155; narrowed the runtime-path statement to app/runtime code and learner-state paths, while preserving the explicit reviewed content scope.",
+   "correctedBlob": "924e493bfa661f77b14153be7b54cf80a0ad0375",
+   "correctedBytes": 1890,
+   "correctedRawSha256": "60d248abd402e98cb02dc1d0f09efe6dbf0aa8bec76874ed80c73f7a2a18c722",
+   "path": "docs/translation-batches/155-n2-batch-04-independent-review-001.md"
+  }
+ ],
+ "provenanceCorrection": "The six wording observations for 券, 刺, 則, 劇, 効, and 卒 belong to Batch 154 and were removed from Batch 155 reviewer records. Batch 154 handles those notes in docs/translation-batches/154-n2-batch-03-semantic-review-followup-002.md. The Batch 155 reviewer report remains limited to its actual 15-card scope.",
+ "recordedAt": "2026-11-11T22:18:39Z",
+ "revalidation": {
+  "allPassed": true,
+  "commands": [
+   {
+    "command": "python -X utf8 -B tools\\build_manifest.py",
+    "exitCode": 0,
+    "stdout": "manifest.json: 2864 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 32657b3b3f44f6ec"
+   },
+   {
+    "command": "python -X utf8 -B tools\\validate.py",
+    "exitCode": 0,
+    "stdout": "0 error(s)"
+   },
+   {
+    "command": "python -X utf8 -B -m unittest discover -s tools -p \"test_*.py\"",
+    "exitCode": 0,
+    "stdout": "Ran 124 tests in 43.995s; OK"
+   },
+   {
+    "command": "python -X utf8 -B tools\\check_content_budget.py",
+    "exitCode": 0,
+    "stdout": "{'files': 2872, 'entries': 2881, 'retainedBytes': 7946194, 'inflatedBytes': 7964409, 'localZipBytes': 3981585, 'listeningTaskMediaBytes': 0}"
+   },
+   {
+    "command": "git diff --check",
+    "exitCode": 0,
+    "stdout": ""
+   }
+  ],
+  "scope": "Documentation-only correction; exact Batch 155 content, manifest, tracking, and progress remain unchanged."
+ },
+ "runtimeScopeCorrection": "Replace the broad claim that no runtime paths changed with the verified statement that no app/runtime code or learner-state paths changed; reviewed kanji, stroke, and word content paths remain explicitly in scope.",
+ "schemaVersion": 1,
+ "status": "Documentation-only reviewer-provenance correction; no learner-content or runtime changes."
+}

@@ -15,17 +15,18 @@ hash-bound title follow-up is
 the exact copy-edit scope is
 `docs/translation-batches/155-n2-batch-04-copy-edit-amendment-001.json`.
 The reviewer confirmed all ten word-page edits are navigation-only, the
-counter-gate documentation preserves the runtime/native-acceptance distinction,
-and no runtime or learner-state paths changed.
+counter-gate documentation preserves the runtime/native-acceptance distinction.
+No app/runtime code or learner-state paths changed; the reviewed content scope
+intentionally includes 15 kanji lessons, 15 frozen stroke assets, ten
+navigation-only word links, and two documentation corrections.
 
-The initial report's minor Russian suggestions for `券`, `刺`, `則`, `劇`,
-`効`, and `卒` remain explicitly documented as non-blocking; they are not
-silently treated as resolved. The four title refinements for `厚`, `双`, `叫`,
-and `召` passed the exact hash-bound follow-up. This evidence does not claim
-fresh record-level dictionary adjudication, native-speaker certification,
-quiz safety, runtime acceptance, release authority, or full-translation
-completion. All 45 direct distractor directions remain **UNVERIFIED** and the
-protected `空` draft remains C2 **UNVERIFIED**.
+The four title refinements for `厚`, `双`, `叫`, and `召` passed the exact
+hash-bound follow-up, and the later `各` title/H1 refinement passed its own
+scoped hash-bound follow-up. This evidence does not claim fresh record-level
+dictionary adjudication, native-speaker certification, quiz safety, runtime
+acceptance, release authority, or full-translation completion. All 45 direct
+distractor directions remain **UNVERIFIED** and the protected `空` draft
+remains C2 **UNVERIFIED**.
 
 The reviewer session was archived after both reports were recorded, and its
 single reviewer slot was released to the N1 workstream.
