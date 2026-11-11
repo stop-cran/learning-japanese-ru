@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "recordId": "142-technique-surface-necessity-standard-memory-observation-kanji-generated-manifest-scope-record-001",
+  "recordedAt": "2026-11-11T08:14:25Z",
+  "state": "generated registration metadata scope explicitly recognized before qualified acceptance",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "candidateCommit": "4f5e7d6dfb1ea2b7a353081c7675a7e0b8edae17",
+  "candidateManifest": {
+    "path": "manifest.json",
+    "bytes": 232535,
+    "rawSha256": "661efa2d03be15b4fd497c7a919ae5b99f0bdb976ee9552fb4925b3971c03fdb",
+    "gitBlob": "a6410d7c59064777793aa297998e012c0a1d3453",
+    "contentVersion": "32c09d9b1877d294"
+  },
+  "preCandidateManifest": {
+    "path": "manifest.json",
+    "baselineCommit": "b54e4742295a89cf604f50b457dddd9c466d1d69",
+    "bytes": 231479,
+    "rawSha256": "6c7b894379356c42733a284638605947ccc1527c114b3e4c6ca05d4fa542fd62",
+    "gitBlob": "709d8630dae93b01d74cda566795513dc68c314d",
+    "contentVersion": "3cb652cb2852209a"
+  },
+  "reason": "The independent reviewer identified manifest.json as an extra tracked path beyond the two source-content freezes. The file is the repository's generated content-registration index, not a lesson or other learner-authored/runtime content. Its exact change was independently compared against the pre-candidate manifest before this scope record was written.",
+  "authorizedGeneratedChange": {
+    "generator": "python tools/build_manifest.py",
+    "addedEntries": [
+      "kanji/術.md",
+      "kanji/表.md",
+      "kanji/要.md",
+      "kanji/規.md",
+      "kanji/覚.md",
+      "kanji/観.md",
+      "strokes/術.json",
+      "strokes/表.json",
+      "strokes/要.json",
+      "strokes/規.json",
+      "strokes/覚.json",
+      "strokes/観.json"
+    ],
+    "removedEntries": [],
+    "updatedHashes": [
+      "words/必要.md",
+      "words/技術.md",
+      "words/美術館.md",
+      "words/表.md",
+      "words/表現.md",
+      "words/要る.md",
+      "words/規則.md",
+      "words/覚える.md",
+      "words/重要.md"
+    ],
+    "contentVersionChange": {
+      "before": "3cb652cb2852209a",
+      "after": "32c09d9b1877d294"
+    }
+  },
+  "scopeBoundary": {
+    "manifestOnlyIndexesTheSixFrozenLessonsAndSixExactFrozenStrokeAssetsAndNineAmendedNavigationFiles": true,
+    "noOtherManifestEntriesAddedRemovedOrChanged": true,
+    "noNewLearnerTextOrSemanticSourceClaims": true,
+    "noNewRuntimeAuthoredPath": true,
+    "candidateRuntimeContentBoundariesRemainDefinedBy": [
+      "docs/translation-batches/142-technique-surface-necessity-standard-memory-observation-kanji-source-adjudication-and-semantic-freeze-001.json",
+      "docs/translation-batches/142-technique-surface-necessity-standard-memory-observation-kanji-source-scope-amendment-001.json"
+    ],
+    "thisRecordDoesNotClaimTheManifestWasAmendedBeforeItsDeterministicGeneration": true,
+    "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 18 direct directions",
+    "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false,
+    "fullTranslationComplete": false
+  }
+}
