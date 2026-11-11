@@ -1,0 +1,129 @@
+{
+ "schemaVersion": 1,
+ "batchId": "145-lose-wealth-poor-blame-expense-resource-approval-kanji",
+ "recordedAt": "2026-11-11T09:45:00Z",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "28d55d34e2b8e9f72697adabdfb6094d80dd5250",
+ "candidateBranch": "full-ru-145-lose-wealth-poor-blame-expense-resource-approval-kanji",
+ "selection": {
+  "selectionMethod": "next contiguous dependency-closed community-N3 source positions",
+  "jlptBasis": "docs/n3-source-snapshot.json at the frozen source commit; community list, not an official JLPT syllabus",
+  "frozenN3Snapshot": {
+   "path": "docs/n3-source-snapshot.json",
+   "bytes": 5879,
+   "rawSha256": "4ffdacad14efcdee13e504a36f5705bc2226ea763bf46a00369c1bf6040b28e8",
+   "gitBlob": "b18b0a72779488538324a0b48c82e2684ea89d71",
+   "sourceUrl": "https://kanjiapi.dev/v1/kanji/jlpt-3",
+   "downloadSha256": "90aca621147e29ba525c81dc5b57cf3373115007c95e9fdb97febd9a56394412",
+   "count": 367,
+   "positionDomain": "one-based order in jlptN3.characters, including the five already-present characters"
+  },
+  "positions": [
+   {"position": 309, "kanji": "負"},
+   {"position": 310, "kanji": "財"},
+   {"position": 311, "kanji": "貧"},
+   {"position": 312, "kanji": "責"},
+   {"position": 313, "kanji": "費"},
+   {"position": 314, "kanji": "資"},
+   {"position": 315, "kanji": "賛"}
+  ],
+  "dependencyClosure": {
+   "directDistractorEdges": [
+    "負→買", "負→貧", "負→賛",
+    "財→貸", "財→責", "財→貧",
+    "貧→分", "貧→負", "貧→買",
+    "責→青", "責→買", "責→賛",
+    "費→貸", "費→貧", "費→賛",
+    "資→貧", "資→負", "資→責",
+    "賛→費", "賛→資", "賛→責"
+   ],
+   "externalDependenciesAlreadyReviewedCurrent": ["買", "貸", "分", "青"],
+   "negativeFallbackStatus": "UNVERIFIED for all 21 direct directions; no transitive closure inferred"
+  }
+ },
+ "progressSnapshot": {
+  "progressPath": "docs/translation-progress.json",
+  "progressBytes": 5527714,
+  "progressRawSha256": "5252bae3593ce14f302cae47d843fd4f5fabf69552e8b8162119d3bdcd94a8e5",
+  "trackingPath": "docs/translation-tracking.json",
+  "trackingBytes": 7974673,
+  "trackingRawSha256": "47a34c45ed4a11b12efd52bf2e21ecc7e75d6fe7ed67fad37aa79c8f8a7a3b1d",
+  "frozenInventory": 8278,
+  "reviewedCurrent": 2628,
+  "runtimeBlocked": 2,
+  "pending": 5648,
+  "adoptedWords": 1478,
+  "adoptedKanji": 560,
+  "adoptedStrokes": 560,
+  "russianContentVersion": "f7f520d85e56fcab",
+  "checkpointAuthority": null,
+  "checkpointReady": false
+ },
+ "sourceLessonIds": {
+  "負": [1497980, 1497930, 1498130, 1383180, 1346150],
+  "財": [1296970, 1296820],
+  "貧": [1490740, 1490830, 1490900],
+  "責": [1383180, 1383160],
+  "費": [1484620, 1207060, 1484600],
+  "資": [1312820, 1312700, 1312690],
+  "賛": [1304200, 1304210, 1594920, 1480670]
+ },
+ "frozenRuntimeSourceFiles": [
+  {"path":"kanji/負.md","bytes":1658,"rawSha256":"f5cc9accb7533abd1d3373e40e2bd265a09c49a906540a57c4a56a2d423085fd","gitBlob":"5b6c35971ee4c3ae5e401a1ef26d6139ddbbb5c9"},
+  {"path":"kanji/財.md","bytes":1485,"rawSha256":"108041fe169ebc83e8341403f53881082a1a3fc9de17047dd6b0fb4832bcd3e6","gitBlob":"0c66beedd97c55febd8c5c21df7c1fdb52459642"},
+  {"path":"kanji/貧.md","bytes":1558,"rawSha256":"f07f0456b3dd6bf9989cacc7252b9912fcdfd981e3b48b2cf14b2aefcf82f476","gitBlob":"154028b2b537c3fa86af8950dec9b031df1424bc"},
+  {"path":"kanji/責.md","bytes":1493,"rawSha256":"baa512675cb3b6c899a693c9a3c2a07f52cc0ab6825926028b5d082c180e366c","gitBlob":"a4f361e3efbdfe70f196e9e4cb88598df7b73217"},
+  {"path":"kanji/費.md","bytes":1547,"rawSha256":"58cd48cb9d0fb83d610256a5fce7e75b54f016a951edfeb95b4654bd74e3e1d8","gitBlob":"ea394945dd61fc49382870deaf4ccf841020b1b0"},
+  {"path":"kanji/資.md","bytes":1493,"rawSha256":"491d20fd64d883d1b7a6b607859b28914aa8daf24c95ceb550f0a85298e9ffa0","gitBlob":"069d978d77a646726c7308ea9146b8dba9c9331a"},
+  {"path":"kanji/賛.md","bytes":1592,"rawSha256":"2d8663f4c6e26043976aedba94286b6a9c1d9c7a9cfc6f3d9842710aaebfb56a","gitBlob":"b80e45b424186c20492d757ddb3c6f9a0a9e3aef"},
+  {"path":"strokes/負.json","bytes":2238,"rawSha256":"5c4d4b68992ab0663208d6cf5104dfe378be3791d48696161dea2ba028ffc2aa","gitBlob":"66edca6382ae5e8b0fb472f28fbad758997dc678"},
+  {"path":"strokes/財.json","bytes":2465,"rawSha256":"e413529b20f41b733685a89f111d5003008b73106f6fe9bd5cab6d8f92cf82d7","gitBlob":"dfc3599685835ee84d174f1286562a3e1fafaa92"},
+  {"path":"strokes/貧.json","bytes":2691,"rawSha256":"a4f04531b73070be97d4533c21b0796bc6f106de284d01edd336fa91f56671a9","gitBlob":"d9b1f0f7820f6b533077835fdb37bf382b0daa1f"},
+  {"path":"strokes/責.json","bytes":2691,"rawSha256":"4d97b2ad6d2c52056a5415ae5e6b95e2b5802345053932b836f5f1e368ee2fb2","gitBlob":"5007784c2993e540ff06330242937ec40afe253f"},
+  {"path":"strokes/費.json","bytes":2921,"rawSha256":"b40229f49e5223ea8ae3420ad16b0483ffa600b5123471722e3ab70e3045d439","gitBlob":"a46c83a42c61a701a65977abaec9eb025570e122"},
+  {"path":"strokes/資.json","bytes":3143,"rawSha256":"3b7d9b3b8d97dd26a85b7a8f112488d1a99cbd8901607990a06c291b4277a693","gitBlob":"c0882e98c0c1678fb79f29522252002e482e00e6"},
+  {"path":"strokes/賛.json","bytes":3599,"rawSha256":"151eecb85a82e4f66a673ede1494091d278ac2e0bf4782d47875d2a32071b5d3","gitBlob":"8b336a10165d1e18dc9dcbda69acc501f391a2da"}
+ ],
+ "linkedWordPages": {
+  "available": [
+   {"path":"words/負ける.md","sourceLinkOccurrences":2,"targetExists":true,"targetHasKanjiMetadata":true},
+   {"path":"words/財布.md","sourceLinkOccurrences":2,"targetExists":true,"targetHasKanjiMetadata":true},
+   {"path":"words/勝つ.md","sourceLinkOccurrences":1,"targetExists":true,"targetHasKanjiMetadata":false},
+   {"path":"words/反対.md","sourceLinkOccurrences":1,"targetExists":true,"targetHasKanjiMetadata":false}
+  ],
+  "unavailableOptional": [
+   {"path":"words/責任.md","sourceLinkOccurrences":3,"targetExists":false},
+   {"path":"words/貧しい.md","sourceLinkOccurrences":2,"targetExists":false},
+   {"path":"words/費用.md","sourceLinkOccurrences":2,"targetExists":false},
+   {"path":"words/資料.md","sourceLinkOccurrences":2,"targetExists":false},
+   {"path":"words/賛成.md","sourceLinkOccurrences":2,"targetExists":false}
+  ],
+  "availableSourceLinkTotal": 6,
+  "unavailableOptionalWrapperRemovalTotal": 11,
+  "reciprocalWordKanjiLinksRequired": [
+   {"path":"words/負ける.md","kanji":"負","target":"../kanji/負.md","occurrences":1},
+   {"path":"words/財布.md","kanji":"財","target":"../kanji/財.md","occurrences":1}
+  ]
+ },
+ "targetPreMutation": {
+  "manifest": {
+   "path":"manifest.json",
+   "bytes":234823,
+   "rawSha256":"b9ccac2710023743ae5574a6cef690b2e965fc25173f7c3a2b6b13cad724e7e3",
+   "contentVersion":"f7f520d85e56fcab"
+  },
+  "navigationWordPages": [
+   {"path":"words/負ける.md","bytes":2692,"rawSha256":"6052b55c45dae8b5f93b12cb6c9cac375dfb162e37487336cc171c0da0bf3cb5","normalizedSha256":"6052b55c45dae8b5f93b12cb6c9cac375dfb162e37487336cc171c0da0bf3cb5","gitBlob":"0408b499ad4d8705b628581a1ca312d274e5fa40"},
+   {"path":"words/財布.md","bytes":2313,"rawSha256":"9e17afde8b6d1d050f0a83b3597c2b4f56a9cb1ee6a2664650eaeb1179ed12a2","normalizedSha256":"a9b95e76cfcb32fa03e7281d3de2bdf2536d0a5f45ce59763fd3ddc2215bf245","gitBlob":"62bb7844f598ab07677aab1ce3b114e680288d2d"}
+  ],
+  "allNewKanjiAndStrokePathsPending": true,
+  "targetChangedDuringBatch": false
+ },
+ "limits": {
+  "directNegativeFallbackDirections": "UNVERIFIED for all 21 directions; no transitive closure inferred.",
+  "ordinaryQuizSafety": false,
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false
+ }
+}
