@@ -1,0 +1,154 @@
+{
+ "batchId": "147-route-speed-link-progress-time-kanji",
+ "candidateCommit": "918a5e8ad3045fe181a1e18cf0196d4e58f7ea7b",
+ "candidateScope": {
+  "manifestDelta": {
+   "changedExistingHashes": [
+    "words/途中.md",
+    "words/速い.md",
+    "words/連れる.md",
+    "words/連絡.md",
+    "words/進む.md",
+    "words/遅い.md",
+    "words/遅れる.md",
+    "words/遊び.md",
+    "words/遊ぶ.md",
+    "words/過ぎる.md",
+    "words/違う.md",
+    "words/遠い.md",
+    "words/遠く.md",
+    "words/遠慮.md",
+    "words/間違える.md"
+   ],
+   "contentVersion": "00358c788ce1bdf4",
+   "newLessonAndStrokeRegistrations": 18,
+   "removedRegistrations": 0,
+   "unrelatedHashChanges": 0
+  },
+  "navigationOnlyWordPages": [
+   "words/途中.md",
+   "words/速い.md",
+   "words/連れる.md",
+   "words/連絡.md",
+   "words/進む.md",
+   "words/遅い.md",
+   "words/遅れる.md",
+   "words/遊び.md",
+   "words/遊ぶ.md",
+   "words/過ぎる.md",
+   "words/違う.md",
+   "words/遠い.md",
+   "words/遠く.md",
+   "words/遠慮.md",
+   "words/間違える.md"
+  ],
+  "newByteIdenticalStrokeAssets": [
+   "途",
+   "速",
+   "連",
+   "進",
+   "遅",
+   "遊",
+   "過",
+   "違",
+   "遠"
+  ],
+  "newLessons": [
+   "途",
+   "速",
+   "連",
+   "進",
+   "遅",
+   "遊",
+   "過",
+   "違",
+   "遠"
+  ],
+  "newWordPages": 0,
+  "optionalUnavailableSourceReferencesAsPlainJapaneseText": [
+   "words/連休.md",
+   "words/遅刻.md"
+  ],
+  "otherRuntimePaths": 0,
+  "quizOrGradingChanges": 0
+ },
+ "candidateTree": "8b613e29910c1f0f67847ad2f8251377f747d7f2",
+ "diffCheck": {
+  "command": "git diff --cached --check",
+  "exitCode": 0,
+  "stderr": ""
+ },
+ "limits": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false,
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 27 direct directions; no transitive closure inferred.",
+  "publicationPending": true,
+  "runtimeAcceptance": false
+ },
+ "manifestVersion": "00358c788ce1bdf4",
+ "publishedBaseline": "7c175d6a24c0ec4eb78683d6a3ace3b6fa775551",
+ "recordedAt": "2026-11-11T11:25:30Z",
+ "review": {
+  "findings": [],
+  "limitations": [
+   "All 27 direct negative/fallback directions remain UNVERIFIED; no transitive closure or quiz-safety claim.",
+   "No fresh record-level JMdict review or native-speaker frequency/naturalness validation is claimed.",
+   "No runtime/device/media/activation/release approval or full translation completion is claimed."
+  ],
+  "report": "docs/translation-batches/147-route-speed-link-progress-time-kanji-independent-review-001.md",
+  "verdict": "PASS WITH QUALIFICATIONS"
+ },
+ "schemaVersion": 1,
+ "serialValidation": [
+  {
+   "command": "python tools\\build_manifest.py",
+   "exitCode": 0,
+   "stderr": "",
+   "stdout": "manifest.json: 2680 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 00358c788ce1bdf4\n"
+  },
+  {
+   "command": "python tools\\validate.py",
+   "exitCode": 0,
+   "stderr": "",
+   "stdout": "0 error(s)\n"
+  },
+  {
+   "command": "python -m unittest discover -s tools -p \"test_*.py\"",
+   "exitCode": 0,
+   "stderr": "",
+   "stdout": "Ran 124 tests\nOK\n"
+  },
+  {
+   "command": "python tools\\check_content_budget.py",
+   "exitCode": 0,
+   "stderr": "",
+   "stdout": "{'files': 2688, 'entries': 2697, 'retainedBytes': 7448424, 'inflatedBytes': 7466639, 'localZipBytes': 3741060, 'listeningTaskMediaBytes': 0}\n"
+  }
+ ],
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "qualified source acceptance recorded; publication pending",
+ "trackingAndProgress": {
+  "artifacts": {
+   "docs/translation-progress.json": {
+    "bytes": 5601091,
+    "rawSha256": "e1198056344d0b0cef872185f58099010f0b44d4b46ef905b1234692a79781dd"
+   },
+   "docs/translation-tracking.json": {
+    "bytes": 8089303,
+    "rawSha256": "59d77158387d9286fa788ae1f710eeb05ccd2ac1e7b576a4a155383d1e44f2a6"
+   }
+  },
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "excludedReviewedRuntimeBlocked": 2,
+  "frozenInventory": 8278,
+  "kanji": 586,
+  "pending": 5596,
+  "reviewedCurrent": 2680,
+  "strokes": 586,
+  "translationProgressReportMatchesTracking": true,
+  "words": 1478
+ }
+}

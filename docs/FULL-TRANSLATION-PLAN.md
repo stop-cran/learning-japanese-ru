@@ -6762,3 +6762,20 @@ directions remain **UNVERIFIED**; no transitive closure or quiz-safety claim is
 made. No runtime, device, media, activation, release or full-completion
 approval is implied. Continue with the next contiguous dependency-closed
 frozen-source batch; this is not finite completion.
+
+## Current continuation after batch 147 publication
+
+Batch 147 (`途`, `速`, `連`, `進`, `遅`, `遊`, `過`, `違`, `遠`) is qualified
+against frozen source commit `6af98cb717755690a9ca793e5454a96ebd7a8f9f` and
+published at candidate `918a5e8ad3045fe181a1e18cf0196d4e58f7ea7b`. The
+independent review found no actionable findings. Its 15 existing word-page
+changes are reciprocal navigation only; the unavailable `連休` and `遅刻`
+targets remain visible Japanese text, with no word pages added.
+
+The progress ledger records 2,680 reviewed-current, two runtime-blocked drafts
+and 5,596 pending of 8,278. `checkpointAuthority` remains null and
+`checkpointReady` false. All 27 direct negative/fallback directions remain
+**UNVERIFIED**; no transitive closure or quiz-safety claim is made. No runtime,
+device, media, activation, release or full-completion approval is implied.
+Continue with the next contiguous dependency-closed frozen-source batch; this
+is not finite completion.
