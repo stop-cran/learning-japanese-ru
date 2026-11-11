@@ -1,0 +1,68 @@
+{
+ "schemaVersion": 1,
+ "batchId": "150-shoes-summit-head-request-face-wish-category-fly-neck-horse-kanji",
+ "amendment": 1,
+ "recordedAt": "2026-11-11T14:30:53Z",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "8773bf994666f97a6c50428498de9c7165756e46",
+ "basis": "Read-only inventory of every source lesson link and every published Russian word page whose YAML kanji field contains a new lesson character.",
+ "unavailableOptionalWordLinks": [
+  {
+   "sourceLesson": "kanji/頂.md",
+   "sourceTarget": "../words/頂上.md",
+   "occurrences": 3,
+   "publishedRussianTargetExists": false,
+   "authorizedDisposition": "Remove only Markdown link wrappers; retain visible 頂上 and its reading. Do not create or alter words/頂上.md."
+  },
+  {
+   "sourceLesson": "kanji/願.md",
+   "sourceTarget": "../words/願う.md",
+   "occurrences": 3,
+   "publishedRussianTargetExists": false,
+   "authorizedDisposition": "Remove only Markdown link wrappers; retain visible 願う and its reading. Do not create or alter words/願う.md."
+  },
+  {
+   "sourceLesson": "kanji/馬.md",
+   "sourceTarget": "../words/馬.md",
+   "occurrences": 3,
+   "publishedRussianTargetExists": false,
+   "authorizedDisposition": "Remove only Markdown link wrappers; retain visible 馬 and its reading. Do not create or alter words/馬.md."
+  }
+ ],
+ "preservedAvailableSourceLinks": [
+  "kanji/靴.md -> words/靴.md",
+  "kanji/頭.md -> words/頭.md",
+  "kanji/頼.md -> words/頼む.md",
+  "kanji/頼.md -> words/質問.md",
+  "kanji/顔.md -> words/顔.md",
+  "kanji/類.md -> words/種類.md",
+  "kanji/飛.md -> words/飛ぶ.md",
+  "kanji/首.md -> words/首.md"
+ ],
+ "reciprocalLinksRequiredByPublishedYamlKanjiFields": [
+  {"wordPage":"words/人類.md","kanji":"類"},
+  {"wordPage":"words/種類.md","kanji":"類"},
+  {"wordPage":"words/笑顔.md","kanji":"顔"},
+  {"wordPage":"words/靴.md","kanji":"靴"},
+  {"wordPage":"words/靴下.md","kanji":"靴"},
+  {"wordPage":"words/頭.md","kanji":"頭"},
+  {"wordPage":"words/頼む.md","kanji":"頼"},
+  {"wordPage":"words/顔.md","kanji":"顔"},
+  {"wordPage":"words/飛ぶ.md","kanji":"飛"},
+  {"wordPage":"words/飛行場.md","kanji":"飛"},
+  {"wordPage":"words/飛行機.md","kanji":"飛"},
+  {"wordPage":"words/首.md","kanji":"首"},
+  {"wordPage":"words/首都.md","kanji":"首"}
+ ],
+ "nonReciprocalSourceLinkedPage": {
+  "wordPage": "words/質問.md",
+  "reason": "The page exists and the source link remains, but its YAML kanji field contains 質 and 問, not a new lesson character; no added Japanese text or reciprocal edit is authorized."
+ },
+ "scopeLimits": {
+  "newWordPages": 0,
+  "otherWordPageEdits": 0,
+  "wordMetadataReadingsExamplesOrQuizExclusionsChanged": false,
+  "lessonMeaningOrJapaneseContentChangedByThisAmendment": false,
+  "quizOrGradingChanges": 0
+ }
+}
