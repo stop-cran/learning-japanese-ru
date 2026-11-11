@@ -10,7 +10,7 @@ records this revised order; earlier blocked observations below remain historical
 
 ## Previous published source milestone: batch135 doubt, climb, everyone, steal and straight kanji
 
-## Batch141: qualified source acceptance recorded, publication pending
+## Batch141: published qualified source acceptance
 
 Batch141 completed six Russian kanji lessons (若/苦/草/落/葉/薬), six
 byte-identical frozen stroke assets, and ten exact NAV-only wrappers on
@@ -26,7 +26,9 @@ and content budget. C1/C3 are qualified to reviewed scope only; C2 ordinary
 negative/fallback safety remains **UNVERIFIED** for all 18 direct directions.
 
 Progress after adoption: **2,590 reviewed-current / 2 runtime-blocked / 5,686
-pending of 8,278**, with 1,478 words / 541 kanji / 541 strokes.
+pending of 8,278**, with 1,478 words / 541 kanji / 541 strokes. The signed
+acceptance commit `dd9450df35953c5faf4df8047f1ff099a9c73815` is on `main`;
+exact-main CI passed.
 
 ## Batch140: qualified source acceptance recorded, publication pending
 

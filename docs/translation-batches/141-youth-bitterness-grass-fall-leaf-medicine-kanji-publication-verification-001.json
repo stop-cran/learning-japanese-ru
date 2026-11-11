@@ -1,0 +1,71 @@
+{
+ "schemaVersion": 1,
+ "batchId": "141-youth-bitterness-grass-fall-leaf-medicine-kanji",
+ "recordedAt": "2026-11-11T07:51:00+00:00",
+ "status": "published qualified source acceptance; exact-main CI verified",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "candidateCommit": "f438d3abbe1d6335997e5af30fdae8b774dff9b2",
+ "qualifiedAcceptanceCommit": "dd9450df35953c5faf4df8047f1ff099a9c73815",
+ "integration": {
+  "method": "Normal signed fast-forward push to main and the working branch; no pull request was created.",
+  "mainRef": {
+   "name": "refs/heads/main",
+   "sha": "dd9450df35953c5faf4df8047f1ff099a9c73815"
+  },
+  "workingBranchRef": {
+   "name": "refs/heads/full-ru-141-finished-child-renew-and-example-kanji",
+   "sha": "dd9450df35953c5faf4df8047f1ff099a9c73815"
+  },
+  "acceptanceCommitVerification": {
+   "verified": true,
+   "reason": "valid",
+   "author": "stop-cran",
+   "committer": "stop-cran",
+   "signingKey": "D4C9A275A218AF747B787AFA9D94B9D311BD26A7"
+  }
+ },
+ "exactMainCI": {
+  "runId": 42983365094,
+  "url": "https://github.com/stop-cran/learning-japanese-ru/actions/runs/42983365094",
+  "headSha": "dd9450df35953c5faf4df8047f1ff099a9c73815",
+  "check": "validate",
+  "status": "completed",
+  "conclusion": "success"
+ },
+ "protectedRefs": [
+  {
+   "ref": "refs/heads/ru-pilot-a",
+   "sha": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+   "unchangedAtPublication": true
+  },
+  {
+   "ref": "refs/heads/ru-pilot-b",
+   "sha": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+   "unchangedAtPublication": true
+  }
+ ],
+ "acceptedProgress": {
+  "reviewedCurrent": 2590,
+  "excludedReviewedRuntimeBlocked": 2,
+  "pending": 5686,
+  "total": 8278,
+  "words": 1478,
+  "kanji": 541,
+  "strokes": 541,
+  "contentVersion": "3cb652cb2852209a",
+  "checkpointAuthority": null,
+  "checkpointReady": false
+ },
+ "reviewQualification": {
+  "C1": "CLEAN only within the cited, bounded batch 141 scope.",
+  "C2": "Quiz negative/fallback safety remains UNVERIFIED for all 18 direct directions.",
+  "C3": "CLEAN only within the cited, bounded batch 141 scope."
+ },
+ "limits": {
+  "runtimeOrGradingApproval": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "checkpointAuthority": null,
+  "fullTranslationComplete": false,
+  "continueRequired": true
+ }
+}
