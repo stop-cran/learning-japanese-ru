@@ -5833,9 +5833,10 @@ runtime, device, media, activation, release or full-completion approval.
 ## Current translation continuation after batch 147
 
 Batch 147 is source-reviewed and published at
-`918a5e8ad3045fe181a1e18cf0196d4e58f7ea7b`; the candidate passed validation,
-all 124 unit tests, the content-budget check, and independent read-only review
-with no actionable findings. Progress is 2,680 reviewed-current objects, two
+`3d422af3892917a69321a98cade065aff102eb4d`; exact-main `Validate Russian
+content` run 43012517674 passed. Its candidate passed validation, all 124 unit
+tests, the content-budget check, and independent read-only review with no
+actionable findings. Progress is 2,680 reviewed-current objects, two
 runtime-blocked drafts and 5,596 pending objects of 8,278. The 27 direct
 negative/fallback directions remain **UNVERIFIED**; checkpoint authority and
 readiness remain null/false. Continue sequentially from the next contiguous
