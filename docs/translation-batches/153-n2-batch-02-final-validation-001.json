@@ -1,0 +1,144 @@
+{
+ "authorizationLimits": {
+  "all45DirectNegativeFallbackDirections": "UNVERIFIED; no transitive closure or safety claim",
+  "fullTranslationComplete": false,
+  "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false
+ },
+ "batchId": "153-n2-batch-02-kanji",
+ "candidateCommit": "6ff2496e6436be0cafaa8cfdecd89938dbcabfe0",
+ "candidateGitHubIdentity": {
+  "author": "stop-cran",
+  "committer": "stop-cran",
+  "remoteBranch": "full-ru-153-n2-batch-02",
+  "remoteBranchSha": "6ff2496e6436be0cafaa8cfdecd89938dbcabfe0",
+  "signatureReason": "valid",
+  "signatureVerified": true
+ },
+ "candidateScope": {
+  "additionalRuntimePaths": 0,
+  "manifestDeltaFromPublishedBaseline": {
+   "changedExistingHashes": 6,
+   "newRegistrations": 30,
+   "otherTopLevelChanges": 0,
+   "recomputedByBuilder": true,
+   "removedRegistrations": 0,
+   "unrelatedHashChanges": 0
+  },
+  "navigationOnlyWordPages": [
+   "words/倍.md",
+   "words/億.md",
+   "words/兆候.md",
+   "words/再来年.md",
+   "words/再来月.md",
+   "words/再来週.md"
+  ],
+  "newByteIdenticalStrokeAssets": [
+   "strokes/個.json",
+   "strokes/倍.json",
+   "strokes/停.json",
+   "strokes/傾.json",
+   "strokes/像.json",
+   "strokes/億.json",
+   "strokes/兆.json",
+   "strokes/児.json",
+   "strokes/党.json",
+   "strokes/兵.json",
+   "strokes/冊.json",
+   "strokes/再.json",
+   "strokes/凍.json",
+   "strokes/刊.json",
+   "strokes/刷.json"
+  ],
+  "newLessons": [
+   "kanji/個.md",
+   "kanji/倍.md",
+   "kanji/停.md",
+   "kanji/傾.md",
+   "kanji/像.md",
+   "kanji/億.md",
+   "kanji/兆.md",
+   "kanji/児.md",
+   "kanji/党.md",
+   "kanji/兵.md",
+   "kanji/冊.md",
+   "kanji/再.md",
+   "kanji/凍.md",
+   "kanji/刊.md",
+   "kanji/刷.md"
+  ],
+  "newWordPages": 0,
+  "quizOrGradingChanges": 0
+ },
+ "candidateTree": "dd54e79415d5e16256019341b9fa4db183d898ba",
+ "manifestSha256": "a66e21f3e1d7be12dd65c4527584bcf43c9d3bd7b79ad6c189bd132e3ed3d774",
+ "manifestVersion": "85ef34116e4c0c7c",
+ "publishedBaseline": "0a9efd6f401ea6312e43876c5b7b07471200dbd0",
+ "recordedAt": "2026-11-11T17:42:33Z",
+ "repository": "stop-cran/learning-japanese-ru",
+ "review": {
+  "confidence": "high within the bounded static-review scope",
+  "directNegativeFallbackDirections": {
+   "count": 45,
+   "quizSafetyClaim": false,
+   "status": "UNVERIFIED",
+   "transitiveClosureInferred": false
+  },
+  "report": "docs/translation-batches/153-n2-batch-02-independent-review-001.md",
+  "scope": "All 15 complete Russian lessons against the frozen source, Japanese metadata/readings/examples and citations, all 45 direct distractor directions, source-link availability, six reciprocal word links, 15 byte-identical stroke assets, and exact manifest delta.",
+  "verdict": "PASS — no significant issues found within the static-review scope."
+ },
+ "schemaVersion": 1,
+ "serialValidation": [
+  {
+   "command": "python -X utf8 -B tools\\build_manifest.py",
+   "exitCode": 0,
+   "stdout": "manifest.json: 2804 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 85ef34116e4c0c7c"
+  },
+  {
+   "command": "python -X utf8 -B tools\\validate.py",
+   "exitCode": 0,
+   "stdout": "0 error(s)"
+  },
+  {
+   "command": "python -X utf8 -B -m unittest discover -s tools -p \"test_*.py\"",
+   "exitCode": 0,
+   "stdout": "Ran 124 tests in 36.968s; OK"
+  },
+  {
+   "command": "python -X utf8 -B tools\\check_content_budget.py",
+   "exitCode": 0,
+   "stdout": "{'files': 2812, 'entries': 2821, 'retainedBytes': 7785945, 'inflatedBytes': 7804160, 'localZipBytes': 3904123, 'listeningTaskMediaBytes': 0}"
+  }
+ ],
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "qualified frozen-source content and source-progress acceptance; publication pending",
+ "trackingAndProgress": {
+  "adoptedEntries": 2804,
+  "artifacts": {
+   "docs/translation-batches/153-n2-batch-02-independent-review-001.md": {
+    "sha256": "ccdfb4a5496568e5139df35cb22b6da4ad0615e80f95658f17a591199a9a8864"
+   },
+   "docs/translation-progress.json": {
+    "sha256": "2109ede124369ee6905d6a27c0ea5762e3fb2bd59cc58717c312583abb9009d4"
+   },
+   "docs/translation-tracking.json": {
+    "sha256": "20c4dd7864fd8a065f618fd913f9a7536bfa5388975a3b398bf3e3c409b5b35f"
+   }
+  },
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "excludedReviewedRuntimeBlocked": 2,
+  "frozenInventory": 8278,
+  "fullTranslationComplete": false,
+  "guidanceChanges": 0,
+  "pending": 5472,
+  "reviewedCurrent": 2804,
+  "runtimeAcceptance": false,
+  "russianContentVersion": "85ef34116e4c0c7c",
+  "sourceChanges": 0,
+  "targetChangedDuringBatch": false,
+  "translationProgressReportMatchesTracking": true,
+  "unreconciledGuidance": 0
+ }
+}
