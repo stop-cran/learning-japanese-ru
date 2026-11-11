@@ -1,0 +1,71 @@
+{
+ "schemaVersion": 1,
+ "batchId": "151-hair-call-n3-kanji",
+ "amendment": 1,
+ "recordedAt": "2026-11-11T15:26:16Z",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "3c862d7edc3466feb273fbcf03390e7fbda73177",
+ "reviewedCandidate": "23ee92cc6ef668da2b4c99aeaaa512dea0c3f90b",
+ "reviewReport": {
+  "session": "Batch 151 review",
+  "verdict": "changes requested",
+  "confidence": "high",
+  "findings": [
+   {
+    "id": "B151-R1",
+    "severity": "P3",
+    "path": "kanji/鳴.md",
+    "location": "modern-shape mnemonic",
+    "finding": "The frozen source links 口 to kanji/口.md; the Russian candidate left 口 unlinked even though the published target exists.",
+    "disposition": "resolved by the exact source-navigation restoration authorized below"
+   },
+   {
+    "id": "B151-R2",
+    "severity": "P3",
+    "path": "kanji/鳴.md",
+    "location": "Примечания",
+    "finding": "The Russian wording says 問 includes 口 but omits the source's spatial contrast that 問 encloses 口.",
+    "disposition": "resolved by restoring the frozen source's explicit containment relation"
+   }
+  ]
+ },
+ "authorizedCorrections": [
+  {
+   "path": "kanji/鳴.md",
+   "location": "modern-shape mnemonic",
+   "before": "представьте 口 рядом с [鳥](鳥.md):",
+   "after": "представьте [口](口.md) рядом с [鳥](鳥.md):",
+   "reason": "Restore the available source link with identical visible text."
+  },
+  {
+   "path": "kanji/鳴.md",
+   "location": "Примечания",
+   "before": "[問](問.md) тоже включает 口,",
+   "after": "в [問](問.md) 口 находится внутри 門,",
+   "reason": "Preserve the frozen source's spatial contrast: 問 encloses 口, unlike 口 beside 鳥 in 鳴."
+  }
+ ],
+ "expectedManifestDelta": {
+  "changedExistingHash": ["kanji/鳴.md"],
+  "contentVersion": "recompute with python tools\\build_manifest.py",
+  "addedRegistrations": 0,
+  "removedRegistrations": 0,
+  "unrelatedHashChanges": 0,
+  "otherRuntimePaths": 0
+ },
+ "invariants": {
+  "metadataReadingsExamplesAndCitedIDsChanged": false,
+  "strokeAssetsChanged": false,
+  "wordPageContentChanged": false,
+  "quizOrGradingBehaviorChanged": false,
+  "allSixDirectNegativeFallbackDirectionsRemain": "UNVERIFIED; no transitive closure or quiz-safety conclusion"
+ },
+ "qualificationLimits": {
+  "freshJMdictRecordLevelReview": false,
+  "nativeSpeakerFrequencyOrNaturalnessClaim": false,
+  "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "fullTranslationComplete": false
+ }
+}

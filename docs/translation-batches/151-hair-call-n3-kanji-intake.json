@@ -1,0 +1,101 @@
+{
+ "schemaVersion": 1,
+ "batchId": "151-hair-call-n3-kanji",
+ "recordedAt": "2026-11-11T15:12:57Z",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "3c862d7edc3466feb273fbcf03390e7fbda73177",
+ "candidateBranch": "full-ru-151-n3-366-367-kanji",
+ "selection": {
+  "selectionMethod": "final contiguous dependency-closed community-N3 source positions",
+  "jlptBasis": "Frozen 367-entry community list; not an official JLPT syllabus.",
+  "frozenN3Snapshot": {
+   "path": "docs/n3-source-snapshot.json",
+   "bytes": 5879,
+   "rawSha256": "4ffdacad14efcdee13e504a36f5705bc2226ea763bf46a00369c1bf6040b28e8",
+   "gitBlob": "b18b0a72779488538324a0b48c82e2684ea89d71",
+   "count": 367,
+   "positionDomain": "one-based order in jlptN3.characters"
+  },
+  "positions": [
+   {"position": 366, "kanji": "髪"},
+   {"position": 367, "kanji": "鳴"}
+  ],
+  "newLessons": ["髪", "鳴"]
+ },
+ "progressSnapshot": {
+  "frozenInventory": 8278,
+  "reviewedCurrent": 2740,
+  "runtimeBlocked": 2,
+  "pending": 5536,
+  "russianContentVersion": "befb7eb96f13cee1",
+  "checkpointAuthority": null,
+  "checkpointReady": false
+ },
+ "frozenSourceLessons": [
+  {
+   "kanji": "髪",
+   "path": "kanji/髪.md",
+   "bytes": 1809,
+   "rawSha256": "efbd0a767ea03168574a9eac09e6616fece5fc1cfdcfd9f9ad94b0a36b90cb0c",
+   "gitBlob": "67c31e8a416ad5505bc5354b75931a0de26c4990",
+   "citedJMdictEntryIds": [1303590, 1311530, 1477950, 1477960, 1533820, 1583050]
+  },
+  {
+   "kanji": "鳴",
+   "path": "kanji/鳴.md",
+   "bytes": 1794,
+   "rawSha256": "59a572c1a28b830daa01e8f51a12658dd8b8b0c606232ada50b262bbb94e8b21",
+   "gitBlob": "00abf56035a22a21137a39ddbe1412b17a78b880",
+   "citedJMdictEntryIds": [1229840, 1532870, 1532880, 1532910]
+  }
+ ],
+ "frozenStrokeAssets": [
+  {
+   "kanji": "髪",
+   "path": "strokes/髪.json",
+   "bytes": 3369,
+   "rawSha256": "bc3bdc636c5e98abf9005152451566fd36823f9337deacaa74466de8bf729780",
+   "gitBlob": "a01722da70e0e7d20f629c7599a5d1efa07a9e26"
+  },
+  {
+   "kanji": "鳴",
+   "path": "strokes/鳴.json",
+   "bytes": 3371,
+   "rawSha256": "b64376f43ab426337fc7d310fd2dc8b412280dd24225c5d741ba9b09bbdb61e6",
+   "gitBlob": "69445fa324a5bdd80d9755180fc68fb26e078631"
+  }
+ ],
+ "sourceWordReferences": [
+  {"sourceLesson": "kanji/髪.md", "path": "words/髪.md", "targetExistsInPublishedRussianBaseline": true, "occurrences": 3},
+  {"sourceLesson": "kanji/鳴.md", "path": "words/鳴く.md", "targetExistsInPublishedRussianBaseline": true, "occurrences": 3}
+ ],
+ "reciprocalWordPages": [
+  {"path": "words/髪.md", "kanji": "髪", "publishedCardExists": false},
+  {"path": "words/鳴く.md", "kanji": "鳴", "publishedCardExists": false},
+  {"path": "words/鳴る.md", "kanji": "鳴", "publishedCardExists": false}
+ ],
+ "directDistractorEdges": {
+  "directions": ["髪→長", "髪→友", "髪→夏", "鳴→鳥", "鳴→問", "鳴→駅"],
+  "directionCount": 6,
+  "allExternalTargetsPresentInPublishedBaseline": ["長", "友", "夏", "鳥", "問", "駅"],
+  "negativeFallbackStatus": "UNVERIFIED for all 6 direct directions; no transitive closure or quiz-safety conclusion inferred"
+ },
+ "candidateBoundary": {
+  "newLessons": ["kanji/髪.md", "kanji/鳴.md"],
+  "newFrozenStrokeAssets": ["strokes/髪.json", "strokes/鳴.json"],
+  "navigationOnlyWordPages": ["words/髪.md", "words/鳴く.md", "words/鳴る.md"],
+  "newWordPages": 0,
+  "expectedManifestDelta": "4 new registrations, 3 changed existing word hashes, no removals or unrelated changes; see manifest-generation amendment 001",
+  "quizOrGradingChanges": 0,
+  "additionalRuntimePaths": 0
+ },
+ "limits": {
+  "freshJMdictRecordLevelReview": false,
+  "nativeSpeakerFrequencyOrNaturalnessClaim": false,
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED; direct directions only, no transitive closure inferred",
+  "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "fullTranslationComplete": false
+ }
+}
