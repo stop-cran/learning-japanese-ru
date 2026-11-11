@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "batchId": "149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji",
+ "recordedAt": "2026-11-11T13:12:58Z",
+ "status": "pre-generation manifest-scope authorization; supplemented before candidate validation",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "5f6932e4c9d314fc9194374bb48eece0faab4cce",
+ "candidateBranch": "full-ru-149-n3-346-355-kanji",
+ "intakeRecord": "docs/translation-batches/149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji-intake.json",
+ "semanticFreeze": "docs/translation-batches/149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji-source-adjudication-and-semantic-freeze-001.json",
+ "sourceLinkAmendments": [
+  "docs/translation-batches/149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji-source-link-amendment-001.json",
+  "docs/translation-batches/149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji-source-link-amendment-002.json",
+  "docs/translation-batches/149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji-source-link-amendment-003.json",
+  "docs/translation-batches/149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji-source-link-amendment-004.json",
+  "docs/translation-batches/149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji-source-link-amendment-005.json"
+ ],
+ "baselineManifest": {
+  "path": "manifest.json",
+  "bytes": 241159,
+  "contentVersion": "7751295c874d5227",
+  "rawSha256": "47b338aa1a4cd7aa09eeb030d4e0b15024b30f6b9560dc0ba230f31ee277caf8",
+  "gitBlob": "4f3f67e84c459c7e1a22a8f2f03a7eac8b255af2"
+ },
+ "authorizedBuilderDelta": {
+  "newRegistrations": [
+   "kanji/除.md", "kanji/険.md", "kanji/陽.md", "kanji/際.md", "kanji/雑.md",
+   "kanji/難.md", "kanji/雪.md", "kanji/静.md", "kanji/非.md", "kanji/面.md",
+   "strokes/除.json", "strokes/険.json", "strokes/陽.json", "strokes/際.json", "strokes/雑.json",
+   "strokes/難.json", "strokes/雪.json", "strokes/静.json", "strokes/非.json", "strokes/面.json"
+  ],
+  "changedExistingHashes": [
+   "words/危険.md", "words/国際.md", "words/太陽.md", "words/実際.md",
+   "words/掃除.md", "words/複雑.md", "words/雑誌.md", "words/難しい.md",
+   "words/雪.md", "words/静か.md", "words/非常に.md", "words/面白い.md"
+  ],
+  "removedRegistrations": [],
+  "unrelatedHashChanges": [],
+  "contentVersion": "derived by the repository builder only"
+ },
+ "scopeLimits": {
+  "builder": "Run only tools/build_manifest.py after all authorized runtime content is complete; review the complete generated manifest against this exact path set before acceptance.",
+  "noOtherManifestDelta": true,
+  "noAdditionalRuntimePath": true,
+  "noManualManifestEdits": true,
+  "noWordPagesAdded": true,
+  "noQuizOrGradingChanges": true
+ },
+ "authorization": {
+  "preGeneration": true,
+  "sourceAndNavigationScope": "Bound by the signed semantic freeze and five signed supplemental source-link amendments; the fifth amendment retargets the unavailable 顔 kanji lesson reference to the existing Russian words/顔.md page without changing the authorized runtime path set.",
+  "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 30 direct directions; no transitive closure or safety claim authorized",
+  "fullTranslationComplete": false
+ }
+}

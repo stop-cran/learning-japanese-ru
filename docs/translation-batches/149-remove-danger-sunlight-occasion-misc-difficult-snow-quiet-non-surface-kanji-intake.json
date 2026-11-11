@@ -1,0 +1,118 @@
+{
+ "schemaVersion": 1,
+ "batchId": "149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji",
+ "recordedAt": "2026-11-11T13:12:58Z",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "5f6932e4c9d314fc9194374bb48eece0faab4cce",
+ "candidateBranch": "full-ru-149-n3-346-355-kanji",
+ "selection": {
+  "selectionMethod": "next contiguous dependency-closed community-N3 source positions",
+  "jlptBasis": "Frozen 367-entry community list; not an official JLPT syllabus.",
+  "frozenN3Snapshot": {
+   "path": "docs/n3-source-snapshot.json",
+   "bytes": 5879,
+   "rawSha256": "4ffdacad14efcdee13e504a36f5705bc2226ea763bf46a00369c1bf6040b28e8",
+   "gitBlob": "b18b0a72779488538324a0b48c82e2684ea89d71",
+   "count": 367,
+   "positionDomain": "one-based order in jlptN3.characters"
+  },
+  "positions": [
+   {"position": 346, "kanji": "除"},
+   {"position": 347, "kanji": "険"},
+   {"position": 348, "kanji": "陽"},
+   {"position": 349, "kanji": "際"},
+   {"position": 350, "kanji": "雑"},
+   {"position": 351, "kanji": "難"},
+   {"position": 352, "kanji": "雪"},
+   {"position": 353, "kanji": "静"},
+   {"position": 354, "kanji": "非"},
+   {"position": 355, "kanji": "面"}
+  ],
+  "newLessons": ["除", "険", "陽", "際", "雑", "難", "雪", "静", "非", "面"],
+  "dependencyClosure": {
+   "directDistractorEdges": [
+    "除→降", "除→院", "除→都",
+    "険→限", "険→院", "険→験",
+    "陽→院", "陽→場", "陽→際",
+    "際→陽", "際→院", "際→題",
+    "雑→難", "雑→集", "雑→新",
+    "難→雑", "難→集", "難→親",
+    "雪→電", "雪→帰", "雪→書",
+    "静→青", "静→持", "静→帰",
+    "非→北", "非→耳", "非→年",
+    "面→目", "面→百", "面→同"
+   ],
+   "directionCount": 30,
+   "internalBatchDirections": ["陽→際", "際→陽", "雑→難", "難→雑"],
+   "externalDistractorIdsPresentInPublishedBaseline": [
+    "降", "院", "都", "限", "験", "場", "題", "集", "新", "親", "電",
+    "帰", "書", "青", "持", "北", "耳", "年", "目", "百", "同"
+   ],
+   "negativeFallbackStatus": "UNVERIFIED for all 30 direct directions; no transitive closure inferred"
+  }
+ },
+ "progressSnapshot": {
+  "frozenInventory": 8278,
+  "reviewedCurrent": 2700,
+  "runtimeBlocked": 2,
+  "pending": 5576,
+  "adoptedWords": 1478,
+  "adoptedKanji": 606,
+  "adoptedStrokes": 606,
+  "russianContentVersion": "7751295c874d5227",
+  "checkpointAuthority": null,
+  "checkpointReady": false
+ },
+ "frozenSourceLessons": [
+  {"kanji":"除","path":"kanji/除.md","bytes":1696,"rawSha256":"4f64aeb2414d0675f904c2d5344633a6510b72f3814d62fdec213a4929c4d02e","gitBlob":"931259b770aef3ca17196022b09f11a60dc751b8","citedJMdictEntryIds":[1345640,1345650,1399790]},
+  {"kanji":"険","path":"kanji/険.md","bytes":1777,"rawSha256":"076b893f02c307aac46b6f2a1b06a9481860993a62261adfbf469a5e5922e1f3","gitBlob":"aa3de87880587843a4d145a1d4d663af8c661255","citedJMdictEntryIds":[1218560,1260530,1519830]},
+  {"kanji":"陽","path":"kanji/陽.md","bytes":1763,"rawSha256":"07673f729d848f5b5f122698cb5658d8fb4d5ef145cfe15a03bfc7ca434796aa","gitBlob":"1702f1cd6a4a1a1d95833247d72997c9420688bb","citedJMdictEntryIds":[1408370,1546990,1547010]},
+  {"kanji":"際","path":"kanji/際.md","bytes":1883,"rawSha256":"c14f66e001799e7043b857da7317d2453e9375cd047ecb96923e6fb6499150d2","gitBlob":"92a852da0cde6aa980b7188016e2a6a2790fce0f","citedJMdictEntryIds":[1286400,1296290,1296300,1321110,1401430]},
+  {"kanji":"雑","path":"kanji/雑.md","bytes":1820,"rawSha256":"d73adc5820996bf4801b06b7debe3155c808b9ca0a79a1c49f06059a03e72144","gitBlob":"07f44228f6dff52af9742c870bfe3dc42b99e583","citedJMdictEntryIds":[1299280,1299400,1299460]},
+  {"kanji":"難","path":"kanji/難.md","bytes":2091,"rawSha256":"e029c34132c953894199d536485bba63a06b2da1c8ea6fe2123ea2e261499de5","gitBlob":"a4f12810d636864bd61ee591c95a56e5c8cea9c0","citedJMdictEntryIds":[1157000,1257110,1289620,1460850,1541560]},
+  {"kanji":"雪","path":"kanji/雪.md","bytes":1620,"rawSha256":"cf6fa290fe892cd07a1b97a6c3afcaa315b643037c887a4575fb7d42c4dddeec","gitBlob":"9aad432ca65a674a46fdd64349ac1be5ee8d198a","citedJMdictEntryIds":[1171900,1383060,1386500,1414350]},
+  {"kanji":"静","path":"kanji/静.md","bytes":1907,"rawSha256":"79d93352fccc1ba0f8f9737fe5f8e17f21b3ed7da7d85ae09306ae41e7d46241","gitBlob":"77a0f38c6d5c4b4b472415d6db70c7ac3cdc2d7b","citedJMdictEntryIds":[1381820,1381870,1481920,1594270,1594280]},
+  {"kanji":"非","path":"kanji/非.md","bytes":1849,"rawSha256":"b3dcf3cc2aab052418803c73b97cc5209db82852f420dc37446d7a786a8b5387","gitBlob":"1e7828bf15f2200d30d1c8efa93e5bc13914930a","citedJMdictEntryIds":[1484840,1484920,1484930,1484950]},
+  {"kanji":"面","path":"kanji/面.md","bytes":1769,"rawSha256":"8b53e07f4f7f7798cbe45c677344fdeb9114136c1700efc44e8144b5d5596000","gitBlob":"eb4d6aa174337641f6dc2b0f9646197a10c87bd4","citedJMdictEntryIds":[1489880,1533580]}
+ ],
+ "frozenStrokeAssets": [
+  {"kanji":"除","bytes":2461,"rawSha256":"287fae6a98d0e4c00ee5ee040ac7b303448371965bff45f655d92d08deec1d75","gitBlob":"221228f3fd464d4d84310926abef09515c0b7c56"},
+  {"kanji":"険","bytes":2689,"rawSha256":"aba3a89c1cd4ad73e4eb85a609b704f4473545cdba8835e0c95d6049a4e205c5","gitBlob":"12c89f023a9b204ff5fa24cabde1d4c641251714"},
+  {"kanji":"陽","bytes":2916,"rawSha256":"e20c2c3c59bc4d6b4ab7b07bd96d7f3f1449a795dc97f3970e9ded88697914cc","gitBlob":"f8dd3c444cf30f629d0e8f07895b5ef651706766"},
+  {"kanji":"際","bytes":3366,"rawSha256":"024c6cf563bf29a49372c3d7182d6a30f6b1b191f97a4fdc02c273ec34b56adf","gitBlob":"5ae258acd94278b568a4db4d96fe484d66c9f755"},
+  {"kanji":"雑","bytes":3374,"rawSha256":"c165de9bdbdf12f4c77c4dbeb6cb1ef316095bfc853f43d6401e11818576b06a","gitBlob":"2b9c30d2aa4f41143547bf7f07f959c5cdc9a2de"},
+  {"kanji":"難","bytes":4282,"rawSha256":"43403447d85c2788755f35cf93c2680ca1194d8c4a92714924fa78963278e07c","gitBlob":"51be5ccebf3490a08624cb8f8f1ab97e9e5a9935"},
+  {"kanji":"雪","bytes":2698,"rawSha256":"29fbc68b2191fcfa85d404a9e62dc50cf819d076745233e3801d714da3239d46","gitBlob":"9982caf26d422e02dd60d376cf75b14070d03231"},
+  {"kanji":"静","bytes":3372,"rawSha256":"a4507856ac118abe7ee055567c0e695cc5e16f1967a955f5f82831ac2262c4bd","gitBlob":"6aed41fff31a720980a70733b2c6f5b9c8ebdb40"},
+  {"kanji":"非","bytes":2014,"rawSha256":"9539ac9b95b45d05e5222859739c546c9ab1ac643bd90d13fc3e79790d660589","gitBlob":"cbc5249e13a89008b21985cc6f240cc0045632cb"},
+  {"kanji":"面","bytes":2240,"rawSha256":"5efc841a2612b044c35b4f2483d33a775fbe95ac4696fbf000cfda959b165584","gitBlob":"3cbaf6a6ee425851d81518320d14c53c63bbe682"}
+ ],
+ "sourceWordReferences": [
+  {"path":"words/除く.md","targetExistsAtFrozenSource":true,"targetExistsInPublishedRussianBaseline":false,"occurrences":3,"disposition":"keep visible 除く with reading as plain Japanese text; do not create or alter the word page"},
+  {"path":"words/危険.md","targetExistsAtFrozenSource":true,"targetExistsInPublishedRussianBaseline":true,"occurrences":3},
+  {"path":"words/太陽.md","targetExistsAtFrozenSource":true,"targetExistsInPublishedRussianBaseline":true,"occurrences":3},
+  {"path":"words/実際.md","targetExistsAtFrozenSource":true,"targetExistsInPublishedRussianBaseline":true,"occurrences":3},
+  {"path":"words/雑草.md","targetExistsAtFrozenSource":true,"targetExistsInPublishedRussianBaseline":false,"occurrences":3,"disposition":"keep visible 雑草 with reading as plain Japanese text; do not create or alter the word page"},
+  {"path":"words/難しい.md","targetExistsAtFrozenSource":true,"targetExistsInPublishedRussianBaseline":true,"occurrences":3},
+  {"path":"words/有難い.md","targetExistsAtFrozenSource":true,"targetExistsInPublishedRussianBaseline":false,"occurrences":1,"disposition":"keep visible 有難い with reading as plain Japanese text; do not create or alter the word page"},
+  {"path":"words/易しい.md","targetExistsAtFrozenSource":true,"targetExistsInPublishedRussianBaseline":true,"occurrences":1},
+  {"path":"words/雪.md","targetExistsAtFrozenSource":true,"targetExistsInPublishedRussianBaseline":true,"occurrences":3},
+  {"path":"words/静か.md","targetExistsAtFrozenSource":true,"targetExistsInPublishedRussianBaseline":true,"occurrences":3},
+  {"path":"words/非常口.md","targetExistsAtFrozenSource":true,"targetExistsInPublishedRussianBaseline":false,"occurrences":3,"disposition":"keep visible 非常口 with reading as plain Japanese text; do not create or alter the word page"},
+  {"path":"words/面白い.md","targetExistsAtFrozenSource":true,"targetExistsInPublishedRussianBaseline":true,"occurrences":3}
+ ],
+ "reciprocalWordPages": [
+  "words/危険.md", "words/国際.md", "words/太陽.md", "words/実際.md",
+  "words/掃除.md", "words/複雑.md", "words/雑誌.md", "words/難しい.md",
+  "words/雪.md", "words/静か.md", "words/非常に.md", "words/面白い.md"
+ ],
+ "limits": {
+  "freshJMdictRecordLevelReview": false,
+  "nativeSpeakerFrequencyOrNaturalnessClaim": false,
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 30 direct directions; no transitive closure inferred",
+  "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "fullTranslationComplete": false
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "schemaVersion": 1,
+ "batchId": "149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji",
+ "recordedAt": "2026-11-11T13:12:58Z",
+ "status": "pre-mutation semantic freeze; authoring authorized only within this scope",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "5f6932e4c9d314fc9194374bb48eece0faab4cce",
+ "intakeRecord": "docs/translation-batches/149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji-intake.json",
+ "sourceRead": {
+  "frozenEnglishLessonsRead": [
+   "kanji/除.md", "kanji/険.md", "kanji/陽.md", "kanji/際.md", "kanji/雑.md",
+   "kanji/難.md", "kanji/雪.md", "kanji/静.md", "kanji/非.md", "kanji/面.md"
+  ],
+  "sourceSnapshotRead": "docs/n3-source-snapshot.json",
+  "primaryEvidenceBoundary": "Complete frozen English lessons, their exact cited JMdict entry IDs, frozen KanjiDic2 provenance, and the frozen community-N3 snapshot only; no fresh JMdict record-level review or broad frequency/naturalness claim.",
+  "communityJlptBasis": "Positions 346–355 in the frozen 367-entry community list, not an official JLPT syllabus.",
+  "dependencyClosure": "All 30 direct distractor IDs are either among these ten lessons or present in the published Russian baseline."
+ },
+ "frozenJapaneseInvariants": {
+  "lessonIdsAndPaths": ["除", "険", "陽", "際", "雑", "難", "雪", "静", "非", "面"],
+  "metadata": true,
+  "readingsAndExamples": true,
+  "directDistractorIds": true,
+  "strokes": "reuse exact byte-identical frozen-source assets",
+  "mnemonics": "modern visual mnemonics only, not historical claims",
+  "quiz": "no grading, answer, exclusion, or fallback changes"
+ },
+ "candidateBoundary": {
+  "newLessons": ["除", "険", "陽", "際", "雑", "難", "雪", "静", "非", "面"],
+  "newFrozenStrokeAssets": ["除", "険", "陽", "際", "雑", "難", "雪", "静", "非", "面"],
+  "navigationOnlyWordPages": [
+   "words/危険.md", "words/国際.md", "words/太陽.md", "words/実際.md",
+   "words/掃除.md", "words/複雑.md", "words/雑誌.md", "words/難しい.md",
+   "words/雪.md", "words/静か.md", "words/非常に.md", "words/面白い.md"
+  ],
+  "reciprocalLinkCount": 12,
+  "supplementalSourceLinkAmendments": [
+   "docs/translation-batches/149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji-source-link-amendment-001.json",
+   "docs/translation-batches/149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji-source-link-amendment-002.json",
+   "docs/translation-batches/149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji-source-link-amendment-003.json",
+   "docs/translation-batches/149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji-source-link-amendment-004.json"
+  ],
+  "unavailableOptionalSourceLinks": [
+   {"sourceLesson":"kanji/除.md","sourceLink":"../words/除く.md","occurrences":3,"targetExistsInRussianBaseline":false,"disposition":"preserve visible 除く with its reading as plain Japanese text; do not create the word page"},
+   {"sourceLesson":"kanji/雑.md","sourceLink":"../words/雑草.md","occurrences":3,"targetExistsInRussianBaseline":false,"disposition":"preserve visible 雑草 with its reading as plain Japanese text; do not create the word page"},
+   {"sourceLesson":"kanji/難.md","sourceLink":"../words/有難い.md","occurrences":1,"targetExistsInRussianBaseline":false,"disposition":"preserve visible 有難い with its reading as plain Japanese text; do not create the word page"},
+   {"sourceLesson":"kanji/非.md","sourceLink":"../words/非常口.md","occurrences":3,"targetExistsInRussianBaseline":false,"disposition":"preserve visible 非常口 with its reading as plain Japanese text; do not create the word page"}
+  ],
+  "newWordPages": 0,
+  "otherAuthoredRuntimePaths": 0,
+  "quizOrGradingChanges": 0
+ },
+ "qualificationLimits": {
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 30 direct directions; no transitive closure inferred.",
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "fullTranslationComplete": false
+ }
+}

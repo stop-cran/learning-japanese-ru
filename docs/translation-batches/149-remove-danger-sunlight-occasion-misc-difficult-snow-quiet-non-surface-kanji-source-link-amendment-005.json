@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "batchId": "149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji",
+  "recordedAt": "2026-11-11T13:12:58Z",
+  "status": "supplemental source-link scope authorization before correction",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "publishedBaseline": "5f6932e4c9d314fc9194374bb48eece0faab4cce",
+  "intakeRecord": "docs/translation-batches/149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji-intake.json",
+  "semanticFreeze": "docs/translation-batches/149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji-source-adjudication-and-semantic-freeze-001.json",
+  "finding": {
+    "sourceLesson": "kanji/面.md",
+    "sourceLink": "顔.md",
+    "sourceOccurrences": 1,
+    "targetPath": "kanji/顔.md",
+    "targetExistsAtFrozenSource": true,
+    "targetExistsInPublishedRussianBaseline": false,
+    "availableRussianEquivalent": "words/顔.md",
+    "availableRussianEquivalentExistsInPublishedBaseline": true,
+    "scope": "The frozen lesson links to the optional English kanji lesson for 顔, which has not been translated into Russian. The published Russian baseline already contains the corresponding lexical article words/顔.md."
+  },
+  "authorization": {
+    "retargetTheSingleReferenceTo": "../words/顔.md",
+    "preserveVisibleJapaneseTextReadingAndTeachingContext": true,
+    "modifyTheExistingWordPage": false,
+    "modifyAnyAdditionalRuntimePath": false,
+    "changeQuizOrGradingBehavior": false,
+    "frozenEnglishSourceMustRemainUntouched": true
+  },
+  "acceptanceCondition": "The single 顔 reference links to the existing Russian words/顔.md page, no unresolved link remains, and no additional runtime path is modified.",
+  "limits": {
+    "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 30 direct directions; no transitive closure inferred.",
+    "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false,
+    "fullTranslationComplete": false
+  }
+}
