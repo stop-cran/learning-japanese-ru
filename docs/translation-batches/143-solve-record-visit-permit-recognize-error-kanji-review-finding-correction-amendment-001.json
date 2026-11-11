@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "amendmentId": "143-solve-record-visit-permit-recognize-error-kanji-review-finding-correction-amendment-001",
+ "recordedAt": "2026-11-11T09:05:00+00:00",
+ "state": "pre-mutation correction amendment; commit this record before editing the lesson or rebuilding the manifest",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "parentFreezeCommit": "fe57e10d031f9d308312c1354639df488084d237",
+ "parentCandidateCommit": "d5d613cad6fdbb48dd649d7dc0abc9c12b72115e",
+ "reviewFinding": {
+  "reviewSession": "Batch 143 review",
+  "finding": "The Russian sentence at kanji/許.md:29 says the retained reading is も, but the lesson metadata and frozen English source specify もと.",
+  "severity": "medium",
+  "confidence": 10
+ },
+ "preMutationFingerprints": [
+  {
+   "path": "kanji/許.md",
+   "bytes": 2303,
+   "rawSha256": "0dd700e60a7b184d7372f3ad9fd510cacccb09179b921c49f90050e18b406341",
+   "gitBlob": "0588d9ab59ba6f35ba0b260ea1c3128735716721"
+  },
+  {
+   "path": "manifest.json",
+   "bytes": 233591,
+   "rawSha256": "7a4d67d9e34a81e9601e94f515ccb1a5f0715f8c82146a4b19c630342b36da09",
+   "gitBlob": "7c03f940c6ccd934511c4f18b2c1c0676a0d5e66",
+   "contentVersion": "57dc9b54ea36d5c9"
+  }
+ ],
+ "authorizedCorrection": {
+  "path": "kanji/許.md",
+  "line": 29,
+  "from": "В метаданных также сохранено чтение も.",
+  "to": "В метаданных также сохранено чтение もと.",
+  "scope": "Correct the single reading transcription identified in the independent review; no other lesson wording or metadata may change."
+ },
+ "authorizedGeneratedManifestScope": {
+  "builder": "python -X utf8 -B tools\\build_manifest.py",
+  "expectedChangeKinds": [
+   "generated contentVersion change",
+   "update exactly the kanji/許.md lesson hash"
+  ],
+  "manualManifestEditing": false
+ },
+ "authorization": {
+  "onlyTheListedLessonLineMayBeEdited": true,
+  "onlyTheListedBuilderMayModifyManifestJson": true,
+  "manifestDiffMustBeInspectedAndRecordedBeforeCandidateAcceptance": true,
+  "noOtherRuntimePathMayBeAddedOrChanged": true,
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 18 direct directions; no transitive closure or safety claim authorized",
+  "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false
+ },
+ "reviewStatus": "pending-focused-independent-follow-up-review"
+}
