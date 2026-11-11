@@ -1,0 +1,84 @@
+{
+ "schemaVersion": 1,
+ "batchId": "149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji",
+ "recordedAt": "2026-11-11T14:15:56Z",
+ "repository": "stop-cran/learning-japanese-ru",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "5f6932e4c9d314fc9194374bb48eece0faab4cce",
+ "reviewedCandidateCommit": "63207618ebb7ab34234e25764b8cdd13d88e2126",
+ "qualifiedAcceptanceCommit": "b70ae97ea93478d98fe260ff46e2ac76e5ad0d54",
+ "publishedMainCommit": "9908496eddd3b020cbc7abde933cdc602f9e04f6",
+ "contentVersion": "e6af7c1b1614f5ca",
+ "integration": {
+  "method": "GitHub merge commit",
+  "pullRequest": 30,
+  "pullRequestUrl": "https://github.com/stop-cran/learning-japanese-ru/pull/30",
+  "mergedBy": "stop-cran",
+  "mergedAt": "2026-11-11T14:12:11Z",
+  "branch": "full-ru-149-n3-346-355-kanji",
+  "headRefOid": "b70ae97ea93478d98fe260ff46e2ac76e5ad0d54",
+  "mainRef": "9908496eddd3b020cbc7abde933cdc602f9e04f6",
+  "remoteBatchBranchDeleted": false
+ },
+ "githubIdentity": {
+  "authenticatedOwner": "stop-cran",
+  "acceptedCommitAuthor": "stop-cran",
+  "acceptedCommitCommitter": "stop-cran",
+  "acceptedCommitSignatureVerified": true,
+  "mergeCommitAuthor": "stop-cran",
+  "mergeCommitCommitter": "GitHub",
+  "mergeCommitSignatureVerified": true,
+  "mergeCommitSignatureReason": "valid"
+ },
+ "continuousIntegration": {
+  "pullRequestCi": {
+   "workflow": "Validate Russian content",
+   "runId": 43036008517,
+   "headSha": "b70ae97ea93478d98fe260ff46e2ac76e5ad0d54",
+   "status": "completed",
+   "conclusion": "success",
+   "url": "https://github.com/stop-cran/learning-japanese-ru/actions/runs/43036008517"
+  },
+  "exactMainCi": {
+   "workflow": "Validate Russian content",
+   "runId": 43036204282,
+   "headSha": "9908496eddd3b020cbc7abde933cdc602f9e04f6",
+   "status": "completed",
+   "conclusion": "success",
+   "url": "https://github.com/stop-cran/learning-japanese-ru/actions/runs/43036204282"
+  }
+ },
+ "protectedRefs": {
+  "ru-pilot-a": {
+   "expected": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+   "observedAfterPublication": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+   "unchanged": true
+  },
+  "ru-pilot-b": {
+   "expected": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+   "observedAfterPublication": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+   "unchanged": true
+  }
+ },
+ "qualifiedProgress": {
+  "frozenInventory": 8278,
+  "reviewedCurrent": 2720,
+  "excludedReviewedRuntimeBlocked": 2,
+  "pending": 5556,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "contentVersion": "e6af7c1b1614f5ca"
+ },
+ "evidence": {
+  "review": "docs/translation-batches/149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji-independent-review-001.md",
+  "finalValidation": "docs/translation-batches/149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji-final-validation-001.json",
+  "progressReport": "docs/translation-progress.json"
+ },
+ "remainingQualification": {
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 30 direct directions; no transitive closure inferred.",
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false,
+  "continueRequired": true
+ }
+}

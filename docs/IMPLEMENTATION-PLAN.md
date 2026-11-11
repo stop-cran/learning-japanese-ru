@@ -5843,16 +5843,16 @@ readiness remain null/false. Continue sequentially from the next contiguous
 dependency-closed frozen-source slice. This status grants no runtime, device,
 media, activation, release or full-completion approval.
 
-## Current translation continuation after batch 148
+## Current translation continuation after batch 149
 
-Batch 148 is source-reviewed and published at
-`5f6932e4c9d314fc9194374bb48eece0faab4cce` through pull request #29; exact-main
-`Validate Russian content` run 43025511681 passed. Its corrected content
-candidate `c7a0b4d2c990c29ae43c6aaf7705b3f26f1cbc95` passed independent review,
-all 124 unit tests, the content-budget check and the validator. Progress is
-2,700 reviewed-current objects, two runtime-blocked drafts and 5,576 pending
-objects of 8,278. The 30 direct negative/fallback directions remain
-**UNVERIFIED**; checkpoint authority and readiness remain null/false. Continue
-sequentially with community-N3 positions 346–355 (`除`, `険`, `陽`, `際`,
-`雑`, `難`, `雪`, `静`, `非`, `面`). This status grants no runtime, device,
-media, activation, release or full-completion approval.
+Batch 149 is source-reviewed and published at
+`9908496eddd3b020cbc7abde933cdc602f9e04f6` through pull request #30; exact-main
+`Validate Russian content` run 43036204282 passed. Corrected candidate
+`63207618ebb7ab34234e25764b8cdd13d88e2126` passed independent review, all 124
+unit tests, the content-budget check and the validator. Progress is 2,720
+reviewed-current objects, two runtime-blocked drafts and 5,556 pending objects
+of 8,278. The 30 direct negative/fallback directions remain **UNVERIFIED**;
+checkpoint authority and readiness remain null/false. The protected 空 lead
+is documented separately; both 空–遠く and 空–遠い remain C2 UNVERIFIED.
+Continue sequentially with community-N3 positions 356–365. This status grants
+no runtime, device, media, activation, release or full-completion approval.
