@@ -1,0 +1,3 @@
+Final narrow follow-up: **PASS.** `HEAD` is the exact base `5a1614d1ee055b2cb309d0811f324baf068a7022`. For all six recorded paths, current `candidateBlob`, raw SHA-256, normalized SHA-256, `baseBlob`, and base-blob SHA-256 exactly match the amendment record; each listed base blob also equals `HEAD:path`, and the six diffs are against those recorded bases. No discrepancy; no files or refs changed.
+
+Content check of the six diffs: `kanji/券.md:30,38`, `刺.md:20`, `則.md:44`, `劇.md:30,34`, and `効.md:30,40` remain within the prior copy-edit scope and preserve the intended meanings. `kanji/卒.md:34` now keeps the Jōyō explanation (“table/list of kanji and readings for general use”) and has no unsupported `редкое` claim. No new issue.

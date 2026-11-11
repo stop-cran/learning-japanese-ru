@@ -1,0 +1,139 @@
+{
+ "schemaVersion": 1,
+ "batchId": "033-nature-outdoor-activity",
+ "amendment": 1,
+ "recordedAt": "2026-11-11T17:55:49Z",
+ "status": "amendment to the excluded 空 draft; independently reviewed and approved for the excluded draft only; both C2 pairs remain UNVERIFIED; no runtime, activation or release authority",
+ "userDirection": "Ok, please update the card and perform independent review. Then commit the changes.",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "f940768c96f7a556d2e6cf71303d53190bf48828",
+ "path": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+ "runtimePath": "words/空.md",
+ "before": {
+  "gitBlob": "f1ee8d9dec137122766e8b1a5c89efc341082007",
+  "gitRawSha256": "7c1084763f6229793b540ee6c501d9177513eb4fb23c2e27619eb16cb607a495",
+  "previousWorkingRawSha256": "dffd2334fd32d193a808a84ec1486b7ccd5aef28eaffc110d37cac696f522268",
+  "previousWorkingRawNote": "CRLF bytes of the earlier shared checkout; the committed LF blob is unchanged until this amendment."
+ },
+ "after": {
+  "gitBlob": "14a3396f82a892584b45d4fdf163e8e67888502d",
+  "gitRawSha256": "97613d8959309dda4233a4f63ad2de635db4f09e6c229103860d1140640ae5d9",
+  "normalizedLfSha256": "97613d8959309dda4233a4f63ad2de635db4f09e6c229103860d1140640ae5d9",
+  "workingRawSha256": "97613d8959309dda4233a4f63ad2de635db4f09e6c229103860d1140640ae5d9"
+ },
+ "changes": [
+  {
+   "kind": "navigation-only",
+   "section": "## Как сочетаются кандзи",
+   "beforeLine": "Исконное существительное записывается одним знаком 空 и читается そら.",
+   "afterLine": "Исконное существительное записывается одним знаком [空](../kanji/空.md) и читается そら.",
+   "basis": [
+    "kanji/空.md exists since f5e7ca2 (Batch 077); tools/validate.py check_word_kanji_links requires a word article to link every kanji in its 'kanji' field that has a card.",
+    "The frozen English source sentence links the same character: 'single native noun written with [空](../kanji/空.md)'.",
+    "Simulating the unamended blob at words/空.md yields: kanji '空' has a card but the article does not link to it; the amended draft yields 0 errors."
+   ],
+   "linkConvention": "Runtime-relative, like the existing [青](../kanji/青.md) link; not certified as standalone draft navigation."
+  },
+  {
+   "kind": "user-directed content beyond the frozen English card",
+   "section": "## Оттенки значения",
+   "addedParagraph": "У そら есть и значение «далёкое место» (JMdict, запись 1245290, значение 3).\nОно встречается, например, в выражении 旅の空（たびのそら）— «вдали от дома; в пути»\n(JMdict, запись 1839300). Здесь そら — существительное, а не наречие «далеко»;\nосновное значение этой карточки — «небо».",
+   "basis": "JMdict 1245290 sense 3 'far-off place; distant place' (n) and JMdict 1839300 旅の空 'away from home; while travelling' (exp), CC BY-SA 4.0; see docs/translation-batches/033-nature-outdoor-activity-sky-sense-evidence-qualification-001.json",
+   "boundaries": [
+    "Presents one verified whole expression as an example, not an exhaustive construction rule.",
+    "Does not equate bare 空 with «далеко», «вдали» or «далёкий».",
+    "Carries no literary/phrase-bound label for the whole sense."
+   ]
+  },
+  {
+   "kind": "attribution",
+   "section": "final source line",
+   "beforeLine": "Словарная основа: JMdict, запись 1245290 — 空（そら）, значение «небо»;\nзапись 1245280 — сопоставляемое 空（から）.",
+   "afterLine": "Словарная основа: JMdict, запись 1245290 — 空（そら）, значения «небо» и «далёкое место»;\nзапись 1839300 — 旅の空（たびのそら）; запись 1245280 — сопоставляемое 空（から）."
+  }
+ ],
+ "unchanged": [
+  "front matter: word, reading, title «небо», jlpt, type, kanji, tags, quiz_exclusions [天気, 気, 気分]",
+  "heading, Значение section and both examples",
+  "青空 explanation and 青 link",
+  "Синонимы и антонимы section",
+  "から contrast, N3 source-list note, EDRDG/CC BY-SA attribution links"
+ ],
+ "evidence": "docs/translation-batches/033-nature-outdoor-activity-sky-sense-evidence-qualification-001.json",
+ "c2": {
+  "pairs": [
+   [
+    "空",
+    "遠く"
+   ],
+   [
+    "空",
+    "遠い"
+   ]
+  ],
+  "statusBeforeReview": "UNVERIFIED",
+  "statusAfterReview": "UNVERIFIED",
+  "directionsAfterReview": {
+   "japaneseToRussian": "UNVERIFIED",
+   "russianToJapanese": "UNVERIFIED"
+  },
+  "furtherEvidenceNeeded": "Direct Russian-usage evidence or adjudication for the actual quiz titles of 遠く («далеко; вдали») and 遠い («далёкий; далеко») against 空 («небо»). Completed review 004 neither cleared nor excluded either pair.",
+  "guardsAdded": 0,
+  "quizOrExclusionChanges": 0
+ },
+ "independentReview": {
+  "report": "docs/translation-batches/033-nature-outdoor-activity-independent-review-004.md",
+  "reviewerSession": "a5da29cd-cb6d-4a24-be85-c7e20079cf88",
+  "reviewDate": "2026-11-11",
+  "reviewedCardSha256": "97613d8959309dda4233a4f63ad2de635db4f09e6c229103860d1140640ae5d9",
+  "verdict": "Approve the card/link/phrase amendment for integration into the excluded draft only; not runtime acceptance.",
+  "reportedBlockersForExcludedDraft": "none",
+  "c2Result": "Both pairs, 空–遠く and 空–遠い, remain C2 UNVERIFIED in the Japanese→Russian and Russian→Japanese directions; neither CLEAN nor DIRECT EXCLUSION WARRANTED is supported; no new guard.",
+  "persistedCopy": {
+   "form": "LF transcription of the report body with provenance and portability omissions only; see the note at the top of the report",
+   "bytes": 10818,
+   "sha256": "47d4c6cd988a7a2fe82424ca0bf8688c72e2debe82a1134470da25672828929e",
+   "reviewerSavedReportCrlfSha256": "307dfe7b4c8ed4cf071afe3fa9d11859157b6836627b3458ef3f6a274559d6b5",
+   "reviewerSavedReportLfSha256": "70da0a1d1d4c678e3e0e270b544e484647101533d7c3842113361e9dae558368"
+  },
+  "reviewedEvidenceRecord": {
+   "revision": 1,
+   "bytes": 7802,
+   "sha256": "34a56380ac754bc3621a0a5639365b9c7b06afd50edf4061fc34884a9e5f3653"
+  },
+  "followUp": "docs/translation-batches/033-nature-outdoor-activity-independent-review-004-followup.md",
+  "limits": "Read-only review of the excluded-draft amendment and its records. It does not adjudicate the quiz pairs and grants no runtime, activation, release or checkpoint authority."
+ },
+ "provenanceCorrection": {
+  "recordedAt": "2026-11-11T18:33:00Z",
+  "reason": "Post-review coordinator findings: revision 1 of the evidence record said that WARODAI and Kotobank wording was not reproduced although it quoted short example strings from those entries, and its licence statement was broader than the pages checked; the first copy of review 004 carried the same kind of example strings and a local absolute path.",
+  "evidenceRecord": {
+   "asReviewedRevision": 1,
+   "asReviewedBytes": 7802,
+   "asReviewedSha256": "34a56380ac754bc3621a0a5639365b9c7b06afd50edf4061fc34884a9e5f3653",
+   "followUpRound1Bytes": 15210,
+   "followUpRound1Sha256": "0109fa2a0430eeee1e5097e1553702d8690dcf573512e2cf516ddc86a4e0aef0",
+   "finalRevision": 2,
+   "finalBytes": 15864,
+   "finalSha256": "0a5bd448483961846e29e058ce687bdb6c6aaf5066c599b1ae68dc9835e719dd"
+  },
+  "thisRecord": {
+   "asReviewedBytes": 4937,
+   "asReviewedSha256": "7fa75ff68c1340320e288bb8b1608274bdc4d666a03d95f8b63d90fd014d9364",
+   "note": "Updated after review to add the review result, the C2 result after review and this correction; the card changes above are unchanged."
+  },
+  "changes": [
+   "Evidence record: licence statements tied to the pages actually checked (EDRDG licence page for JMdict; the licence file of the WARODAI source repository, the WARODAI site footer and its history paragraph; the Kotobank terms) plus a citation policy; example text from WARODAI and Kotobank entries removed in favour of descriptions with article IDs or entry URLs, keeping only JMdict-supported headwords.",
+   "Review 004 persisted as a redacted LF copy: local absolute path replaced by a portable description, restricted-source example text replaced by markers, provenance note added.",
+   "FULL-TRANSLATION-PLAN wording now distinguishes the completed review 004 from the further evidence still needed for C2.",
+   "After the first provenance follow-up round: isolated Russian words taken from WARODAI renderings were removed from the evidence record (V2, K1, unsupportedClaims) and its citation policy now separates Russian search terms from source material; the plan's pointer to the follow-up record no longer states its outcome."
+  ],
+  "unchanged": "The card 空.md (SHA-256 97613d8959309dda4233a4f63ad2de635db4f09e6c229103860d1140640ae5d9), its JMdict-supported learner paragraph, the unresolved C2 status of both pairs and zero guards."
+ },
+ "scopeLimits": {
+  "runtimeWordPageCreated": false,
+  "manifestChanged": false,
+  "progressEntry": "words/空.md remains pending",
+  "activationOrReleaseAuthority": false
+ }
+}
