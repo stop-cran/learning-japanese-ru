@@ -1,0 +1,89 @@
+{
+ "schemaVersion": 1,
+ "batchId": "151-hair-call-n3-kanji",
+ "recordedAt": "2026-11-11T16:06:54Z",
+ "repository": "stop-cran/learning-japanese-ru",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "3c862d7edc3466feb273fbcf03390e7fbda73177",
+ "reviewedCandidateCommit": "49b94223bb7e1a7a3de7529332f9130d92bbe6c8",
+ "qualifiedAcceptanceCommit": "bd7cecdfb63b1d05a4ba69081707700d27e4c0ae",
+ "publishedMainCommit": "b3e960428b29058060251a549110e05a3052e73a",
+ "contentVersion": "82dfd74ec9955e41",
+ "integration": {
+  "method": "GitHub merge commit",
+  "pullRequest": 34,
+  "pullRequestUrl": "https://github.com/stop-cran/learning-japanese-ru/pull/34",
+  "mergedBy": "stop-cran",
+  "mergedAt": "2026-11-11T15:45:20Z",
+  "branch": "full-ru-151-n3-366-367-kanji",
+  "headRefOid": "bd7cecdfb63b1d05a4ba69081707700d27e4c0ae",
+  "mainRef": "b3e960428b29058060251a549110e05a3052e73a"
+ },
+ "githubIdentity": {
+  "authenticatedOwner": "stop-cran",
+  "acceptedCommitAuthor": "stop-cran",
+  "acceptedCommitCommitter": "stop-cran",
+  "acceptedCommitSignatureVerified": true,
+  "acceptedCommitSigningKey": "D4C9A275A218AF747B787AFA9D94B9D311BD26A7",
+  "mergeCommitAuthor": "Roman Konstantinovskiy",
+  "mergeCommitCommitter": "GitHub",
+  "mergeCommitSignatureVerification": {
+   "status": "unavailable",
+   "gpgStatus": "E",
+   "keyId": "B5690EEEBB952194",
+   "reason": "Local git verify-commit could not check the signature because the public key is not available. The owner-signed acceptance commit was independently verified."
+  }
+ },
+ "continuousIntegration": {
+  "pullRequestCi": {
+   "workflow": "Validate Russian content",
+   "runId": 43051396347,
+   "headSha": "bd7cecdfb63b1d05a4ba69081707700d27e4c0ae",
+   "status": "completed",
+   "conclusion": "success",
+   "url": "https://github.com/stop-cran/learning-japanese-ru/actions/runs/43051396347"
+  },
+  "exactMainCi": {
+   "workflow": "Validate Russian content",
+   "runId": 43051513920,
+   "headSha": "b3e960428b29058060251a549110e05a3052e73a",
+   "status": "completed",
+   "conclusion": "success",
+   "url": "https://github.com/stop-cran/learning-japanese-ru/actions/runs/43051513920"
+  }
+ },
+ "protectedRefs": {
+  "ru-pilot-a": {
+   "expected": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+   "observedAfterPublication": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+   "unchanged": true
+  },
+  "ru-pilot-b": {
+   "expected": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+   "observedAfterPublication": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+   "unchanged": true
+  }
+ },
+ "qualifiedProgress": {
+  "frozenInventory": 8278,
+  "reviewedCurrent": 2744,
+  "excludedReviewedRuntimeBlocked": 2,
+  "pending": 5532,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "contentVersion": "82dfd74ec9955e41"
+ },
+ "evidence": {
+  "initialReview": "docs/translation-batches/151-hair-call-n3-kanji-independent-review-001.md",
+  "focusedCorrectionReview": "docs/translation-batches/151-hair-call-n3-kanji-independent-review-002.md",
+  "finalValidation": "docs/translation-batches/151-hair-call-n3-kanji-final-validation-001.json",
+  "progressReport": "docs/translation-progress.json"
+ },
+ "remainingQualification": {
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 6 direct directions; no transitive closure inferred.",
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false,
+  "continueRequired": true
+ }
+}

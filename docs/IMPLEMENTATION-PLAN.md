@@ -5843,7 +5843,7 @@ readiness remain null/false. Continue sequentially from the next contiguous
 dependency-closed frozen-source slice. This status grants no runtime, device,
 media, activation, release or full-completion approval.
 
-## Current translation continuation after batch 150
+## Previous translation continuation after batch 150
 
 Batch 150 (`靴`, `頂`, `頭`, `頼`, `顔`, `願`, `類`, `飛`, `首`, `馬`) is
 published at `48dbf194db2c6e6d6cbaab0b3cba47fdf715d9bd` through pull request
@@ -5856,4 +5856,29 @@ Exact-main `Validate Russian content` run 43043911004 passed. Progress is
 objects of 8,278. All 30 direct negative/fallback directions remain
 **UNVERIFIED**; checkpoint authority and readiness remain null/false. Continue
 sequentially with community-N3 positions 366–367. This status grants no
-runtime, device, media, activation, release or full-completion approval.
+runtime, device, media, activation, release or full-completion approval. Batch
+151 and the following N2 transition supersede this continuation below.
+
+## Current translation continuation after batch 151
+
+Batch 151 is published at `b3e960428b29058060251a549110e05a3052e73a` through
+[PR #34](https://github.com/stop-cran/learning-japanese-ru/pull/34), with
+owner-signed acceptance commit `bd7cecdfb63b1d05a4ba69081707700d27e4c0ae`.
+Exact-main CI run [43051513920](https://github.com/stop-cran/learning-japanese-ru/actions/runs/43051513920)
+passed. Progress is 2,744 reviewed-current objects, two runtime-blocked drafts
+and 5,532 pending objects of 8,278; content version is `82dfd74ec9955e41`.
+
+Batch 152 is the first planned group in the frozen community-N2 snapshot:
+並丸久乱乳乾了介仏令仲伸伺低依 (positions 1–15 of 365 additions; 珍 and
+短 are already present). The list is not an official JLPT syllabus. Preserve
+the ten available lesson-to-word links; keep 25 unavailable targets as plain
+text and do not create word pages. Current frozen-source reverse navigation
+contains 34 word pages, but only nine exist in Russian and may receive the
+preauthorized wrappers. The older 22-link review count refers to the earlier
+`a73354e` source snapshot; 12 more source pages link these characters at the
+frozen `6af98cb` revision.
+
+All 45 direct distractor directions remain **UNVERIFIED**; do not infer
+transitive closure, negative/fallback behavior, or quiz safety. No runtime,
+device, media, ordinary activation, release, checkpoint, or full-completion
+approval is implied.

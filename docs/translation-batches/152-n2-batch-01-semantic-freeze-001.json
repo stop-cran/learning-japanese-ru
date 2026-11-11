@@ -1,0 +1,94 @@
+{
+ "schemaVersion": 1,
+ "batchId": "152-n2-batch-01-kanji",
+ "amendment": 1,
+ "recordedAt": "2026-11-11T16:06:54Z",
+ "status": "pre-mutation semantic freeze; authoring authorized only within this scope",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "b3e960428b29058060251a549110e05a3052e73a",
+ "intakeRecord": "docs/translation-batches/152-n2-batch-01-intake.json",
+ "sourceRead": {
+  "frozenEnglishLessonsRead": ["kanji/並.md", "kanji/丸.md", "kanji/久.md", "kanji/乱.md", "kanji/乳.md", "kanji/乾.md", "kanji/了.md", "kanji/介.md", "kanji/仏.md", "kanji/令.md", "kanji/仲.md", "kanji/伸.md", "kanji/伺.md", "kanji/低.md", "kanji/依.md"],
+  "snapshot": "docs/n2-source-snapshot.json",
+  "batchEvidence": "docs/n2-batch-sources/batch-01.json",
+  "sourceEvidenceBoundary": "Pinned 2026-10-21 KANJIDIC2 and JMdict-derived records, frozen English lessons, source batch evidence, and frozen community-N2 snapshot only; no fresh JMdict record-level adjudication or broad frequency/naturalness claim.",
+  "communityJlptBasis": "First 15 characters in the frozen 367-entry community list; not an official JLPT syllabus.",
+  "dictionaryAttribution": "KANJIDIC2 and JMdict source attribution and CC BY-SA 4.0 obligations remain applicable; preserve lesson citations and project attribution.",
+  "strokeAssets": "Use the exact frozen KanjiVG-derived JSON blobs from source commit 6af98cb717755690a9ca793e5454a96ebd7a8f9f; do not redraw or regenerate them."
+ },
+ "frozenJapaneseInvariants": {
+  "lessonIdsAndPaths": ["並", "丸", "久", "乱", "乳", "乾", "了", "介", "仏", "令", "仲", "伸", "伺", "低", "依"],
+  "jlpt": 2,
+  "tagsGradesRadicalsAndStrokeCounts": "Preserve exact frozen values per card below.",
+  "readingsAndExamples": "Preserve all ordered on/kun readings and Japanese examples; qualify source-only readings rather than presenting them as ordinary usage.",
+  "citedJMdictEntryIds": "Preserve the exact cited IDs per card below.",
+  "directDistractorIds": "Preserve all 45 ordered direct directions exactly; do not infer transitive exclusions or negative/fallback safety.",
+  "mnemonics": "Modern visual mnemonics only, not historical etymology or unverified phonetic/component claims.",
+  "quiz": "No changes to grading, answers, exclusions, or fallback behavior on existing or new cards."
+ },
+ "frozenLessonMetadata": [
+  {"kanji":"並","path":"kanji/並.md","bytes":2581,"rawSha256":"71f2ef569334ed8a82f3d94f902d74e38daf536de74a3f35c23a06f85fcec1ee","gitBlob":"690a5f4517b2bfde8de65216522f32560347f7be","jlpt":2,"tags":["jlpt-n2","grade-6","structure-unclassified"],"strokes":8,"radical":"一","radicalNumber":1,"onyomi":["ヘイ","ホウ"],"kunyomi":["な.み","なみ","なら.べる","なら.ぶ","なら.びに"],"distractors":["立","業","半"],"citedJMdictEntryIds":[1508350,1508380,1508390,1508480,1508530,1599620,1599640]},
+  {"kanji":"丸","path":"kanji/丸.md","bytes":1710,"rawSha256":"84a04083fe46063ebbcdd116512c3e80450b5990cb35eed57e8e9c312f97d053","gitBlob":"fe710f80d2d17cf5d87a1096697fe4200f5c06c0","jlpt":2,"tags":["jlpt-n2","grade-2","structure-unclassified"],"strokes":3,"radical":"丶","radicalNumber":3,"onyomi":["ガン"],"kunyomi":["まる","まる.める","まる.い"],"distractors":["九","大","力"],"citedJMdictEntryIds":[1216250,1216300,1216760,1604230]},
+  {"kanji":"久","path":"kanji/久.md","bytes":1859,"rawSha256":"01faec2d1abf6b130d17de26b77a9e9187631c3913c14dd8205c8950d47e6b58","gitBlob":"51c54c46d3addb187b2c80d19013a6efeefbefd1","jlpt":2,"tags":["jlpt-n2","grade-5","structure-unclassified"],"strokes":3,"radical":"丿","radicalNumber":4,"onyomi":["キュウ","ク"],"kunyomi":["ひさ.しい"],"distractors":["夕","欠","友"],"citedJMdictEntryIds":[1227340,1227370,1576520,1577900]},
+  {"kanji":"乱","path":"kanji/乱.md","bytes":2708,"rawSha256":"ff48acb2b24c94b979601e915f87b421b10bc98a0e57cf3b28b3acfb36d05f5d","gitBlob":"ebe4b9f3d15c593ce10548ab2fe424d51f6de3ed","jlpt":2,"tags":["jlpt-n2","grade-6","structure-unclassified"],"strokes":7,"radical":"乙","radicalNumber":5,"onyomi":["ラン","ロン"],"kunyomi":["みだ.れる","みだ.る","みだ.す","みだ","おさ.める","わた.る"],"distractors":["右","辞","乳"],"citedJMdictEntryIds":[1267590,1290560,1548930,1548940,1549100]},
+  {"kanji":"乳","path":"kanji/乳.md","bytes":1840,"rawSha256":"51a1c238579b50b7e20ba28f696be1d14d1ed1905b80ff6bc4f8062cb88a4c71","gitBlob":"b7126cf01628d73ff01880e73156724cb697fc0a","jlpt":2,"tags":["jlpt-n2","grade-6","structure-unclassified"],"strokes":8,"radical":"乙","radicalNumber":5,"onyomi":["ニュウ"],"kunyomi":["ちち","ち"],"distractors":["子","乱","好"],"citedJMdictEntryIds":[1231590,1464980,1465150,1515190,1582730,1582760]},
+  {"kanji":"乾","path":"kanji/乾.md","bytes":3160,"rawSha256":"9786086bbcb16f99165d55c0e92dc65fac0ec6ba650fce2bc2b135a86fd02013","gitBlob":"9937ce2df0ae71510cd59c0184dcd8be932c4505","jlpt":2,"tags":["jlpt-n2","grade-8","structure-unclassified"],"strokes":11,"radical":"乙","radicalNumber":5,"onyomi":["カン","ケン"],"kunyomi":["かわ.く","かわ.かす","ほ.す","ひ.る","いぬい"],"distractors":["朝","計","午"],"citedJMdictEntryIds":[1209630,1209650,1209780,1209920,1210100,1212010,1277350,1590950,1603510,2232320]},
+  {"kanji":"了","path":"kanji/了.md","bytes":1763,"rawSha256":"d713cf90acf8dd80bef357bcf880f9a72708dde6e31377cfed2f29b331601f72","gitBlob":"b1e36358249e84f945794807c9edde6c3f97c8da","jlpt":2,"tags":["jlpt-n2","grade-8","structure-unclassified"],"strokes":2,"radical":"亅","radicalNumber":6,"onyomi":["リョウ"],"kunyomi":[],"distractors":["子","予","才"],"citedJMdictEntryIds":[1211630,1333040,1553310,1606280]},
+  {"kanji":"介","path":"kanji/介.md","bytes":1590,"rawSha256":"d2d655979af54306de6cdef275bcd78c634a92734a4533abe91863623f793b8f","gitBlob":"9d7dd3915603bf877a70a1dae7cc697e8a689563","jlpt":2,"tags":["jlpt-n2","grade-8","structure-unclassified"],"strokes":4,"radical":"人","radicalNumber":9,"onyomi":["カイ"],"kunyomi":[],"distractors":["今","会","全"],"citedJMdictEntryIds":[1198060,1351430,1425750]},
+  {"kanji":"仏","path":"kanji/仏.md","bytes":1829,"rawSha256":"d30df861c85b99fee53b4b6b975dc297905b15003511881257ffb18c194b7a1d","gitBlob":"b833a10e2520551f84bd7337b441f38daf6156e4","jlpt":2,"tags":["jlpt-n2","grade-5","structure-unclassified"],"strokes":4,"radical":"人","radicalNumber":9,"onyomi":["ブツ","フツ"],"kunyomi":["ほとけ"],"distractors":["私","払","伝"],"citedJMdictEntryIds":[1501760,1501930,1501970,1501980]},
+  {"kanji":"令","path":"kanji/令.md","bytes":1670,"rawSha256":"d860773883226baba220beb75542bcde22cd47a3630c6ffc82df59dc7467e8be","gitBlob":"095f528ddeba6830ac5e7e2c5377131d44a214cf","jlpt":2,"tags":["jlpt-n2","grade-4","structure-unclassified"],"strokes":5,"radical":"人","radicalNumber":9,"onyomi":["レイ"],"kunyomi":[],"distractors":["今","冷","会"],"citedJMdictEntryIds":[1517500,1532160,1556190]},
+  {"kanji":"仲","path":"kanji/仲.md","bytes":2171,"rawSha256":"a7f6027d09cc14e89c63c0d665071fb342cab2b5e9057ec29043e21c3e464921","gitBlob":"2fd45d2a9f0524f20c3fb3362a2fcd21dddd9a7f","jlpt":2,"tags":["jlpt-n2","grade-4","structure-unclassified"],"strokes":6,"radical":"人","radicalNumber":9,"onyomi":["チュウ"],"kunyomi":["なか"],"distractors":["住","伸","使"],"citedJMdictEntryIds":[1425710,1425750,1425790,1426000,1426100]},
+  {"kanji":"伸","path":"kanji/伸.md","bytes":2246,"rawSha256":"a597b2609b3d420679ae044a783d7287d1230e7f6d10a172df973e436192a660","gitBlob":"fa647b3bdefaf57b294caab2e309c3d4c08e6805","jlpt":2,"tags":["jlpt-n2","grade-8","structure-unclassified"],"strokes":7,"radical":"人","radicalNumber":9,"onyomi":["シン"],"kunyomi":["の.びる","の.ばす","の.べる","の.す"],"distractors":["申","仲","神"],"citedJMdictEntryIds":[1176390,1254010,1358850,1358870,1358960,1600290]},
+  {"kanji":"伺","path":"kanji/伺.md","bytes":1871,"rawSha256":"81aea8c4a5ad18fcce3e658f4e440a1787aa5acbd2f3419357aaebb107588f07","gitBlob":"67ba337362f75127dd67c63ee9b3e25a80ed857d","jlpt":2,"tags":["jlpt-n2","grade-8","structure-unclassified"],"strokes":7,"radical":"人","radicalNumber":9,"onyomi":["シ"],"kunyomi":["うかが.う"],"distractors":["何","同","向"],"citedJMdictEntryIds":[1305700,1305710]},
+  {"kanji":"低","path":"kanji/低.md","bytes":1972,"rawSha256":"c52ba78ce59052e59aae4ee3c251045d5475394cac43987c983ddb9cf76ba2e9","gitBlob":"58cf093c32e1d98a8943d27c9f7c8abd4f25633b","jlpt":2,"tags":["jlpt-n2","grade-4","structure-unclassified"],"strokes":7,"radical":"人","radicalNumber":9,"onyomi":["テイ"],"kunyomi":["ひく.い","ひく.める","ひく.まる"],"distractors":["何","紙","住"],"citedJMdictEntryIds":[1294220,1434180,1434190,1434200,1434250]},
+  {"kanji":"依","path":"kanji/依.md","bytes":1832,"rawSha256":"40991137bae91b9294b62b197817dcc515d3d67c5a0ae864c61b09a6c89e82cd","gitBlob":"d29ed8d5990296159f2b437f3777dc082ef96291","jlpt":2,"tags":["jlpt-n2","grade-8","structure-unclassified"],"strokes":8,"radical":"人","radicalNumber":9,"onyomi":["イ","エ"],"kunyomi":["よ.る"],"distractors":["使","代","位"],"citedJMdictEntryIds":[1155710,1155750,1168660,1575870]}
+ ],
+ "frozenStrokeAssets": [
+  {"kanji":"並","path":"strokes/並.json","bytes":2011,"rawSha256":"d075dc4a7d14f37480d86bc5978ae573ffc962df580844b630a9486d2280ab76","gitBlob":"d3fa7e1d230bb9ab7ca92a579f6ff350cf598ede"},
+  {"kanji":"丸","path":"strokes/丸.json","bytes":884,"rawSha256":"18f614c1dfa266326027f6b301250defb84545fe2f7b8114a914164ed6de07d0","gitBlob":"cdef6ef8204f7f0403afe6a05ddec72a41c11c42"},
+  {"kanji":"久","path":"strokes/久.json","bytes":884,"rawSha256":"6fa6ec6a761d93306719c0b989a4d0e4c6df6a9959fb612c5ee421c4e2c323c0","gitBlob":"4019e869b36669d9173256fc6f9367df8c662306"},
+  {"kanji":"乱","path":"strokes/乱.json","bytes":1787,"rawSha256":"ab1782795201094131058a3ec174480cd2e05038ebef5a8731109f270df4fcf3","gitBlob":"f72f33a2e221ca614d4e8cc45dfc6fb55243be08"},
+  {"kanji":"乳","path":"strokes/乳.json","bytes":2013,"rawSha256":"3ce74b842ad1edb5f2df8c8b7f5b12bef52186de5f8e6b3dabfc674883112d6b","gitBlob":"cf5a18e3b92552c898c89f62e323c847e8e40cbb"},
+  {"kanji":"乾","path":"strokes/乾.json","bytes":2691,"rawSha256":"18725cf000aad6ebba639f8bb128b8e9a652c33731cd5ba151f22a6089586305","gitBlob":"bf9ffe520b55eef415a186d0b4da25a7487996ed"},
+  {"kanji":"了","path":"strokes/了.json","bytes":659,"rawSha256":"6e88c813d5967b262b81eace92b9772d5e7429bbfaf1d36f30e2a5820df0eafc","gitBlob":"e7314535841f796ae6c45c4fb19fa90093197259"},
+  {"kanji":"介","path":"strokes/介.json","bytes":1109,"rawSha256":"c711ecc94e19a70a0dfe97cdc3a730454b77a63383bfdb9e932878f36a5d9765","gitBlob":"8ffebdf203d77f3d095041bdc9ccb3ab085875cd"},
+  {"kanji":"仏","path":"strokes/仏.json","bytes":1109,"rawSha256":"19a6cbc2b7a877e77db71cbc2de296a85aad88e540f638f057ecbe45ddb2f3cb","gitBlob":"b4e53b6a226fa2e46e5a1082061932cb9bd32c06"},
+  {"kanji":"令","path":"strokes/令.json","bytes":1334,"rawSha256":"c633cf122c4eb1ca831652b30426c414bfe58505678c161463e86529795ed6b0","gitBlob":"accb4cf222c4f56235f962cf42444073469e2482"},
+  {"kanji":"仲","path":"strokes/仲.json","bytes":1561,"rawSha256":"92cd83c870693ffd49b78eeb024492d77549cd47ae8b21fdec5db856b345a7e5","gitBlob":"749d84be8ad109cc24a0dd1f58532def2c50460d"},
+  {"kanji":"伸","path":"strokes/伸.json","bytes":1787,"rawSha256":"17abb6b04785f2da93bb7de437791d03b49da9353aa65ea1589e2edec937063a","gitBlob":"c0b866ad993afca3747a630c740bfc1a3085ad54"},
+  {"kanji":"伺","path":"strokes/伺.json","bytes":1786,"rawSha256":"db6e5d2b3524e7705c1a348980ef12ca22175e9525a6a50e6c78bf4136ce0d73","gitBlob":"001b7e431ae84f12a8f807a5cce318a6438e7372"},
+  {"kanji":"低","path":"strokes/低.json","bytes":1783,"rawSha256":"6bf74f021a3c5fb96dc96dceac9b02a10a1ae4165a450004b2f0195d94cdae95","gitBlob":"a5edadbc437159f4237b8b1035138b3bac50f54c"},
+  {"kanji":"依","path":"strokes/依.json","bytes":2010,"rawSha256":"ab2d6cefd92e9629c41b92dc523452842c40ed9c8aa3f2f024aa80936e994726","gitBlob":"c82541b6bf224e2986916b08fd8afdd10cb28ab9"}
+ ],
+ "directDistractorEdges": {
+  "directions": ["並→立","並→業","並→半","丸→九","丸→大","丸→力","久→夕","久→欠","久→友","乱→右","乱→辞","乱→乳","乳→子","乳→乱","乳→好","乾→朝","乾→計","乾→午","了→子","了→予","了→才","介→今","介→会","介→全","仏→私","仏→払","仏→伝","令→今","令→冷","令→会","仲→住","仲→伸","仲→使","伸→申","伸→仲","伸→神","伺→何","伺→同","伺→向","低→何","低→紙","低→住","依→使","依→代","依→位"],
+  "directionCount": 45,
+  "internalBatchDirections": ["乱→乳","乳→乱","仲→伸","伸→仲"],
+  "externalTargetsPresentInPublishedBaseline": true,
+  "negativeFallbackStatus": "UNVERIFIED for all 45 direct directions; no transitive closure or quiz-safety conclusion inferred"
+ },
+ "sourceOnlyExistingCardNote": {
+  "scope": "No existing kanji card is edited in Batch 152.",
+  "n2ReviewLedger": "Its historical note about two legacy distractor changes and 22 word-link edits refers to its reviewed a73354e snapshot, not an instruction to re-edit existing Russian cards in this batch.",
+  "existingRussianLongCard": "Retain the accepted published baseline as-is; any existing source-specific distractor adaptation is outside this pre-mutation scope."
+ },
+ "candidateBoundary": {
+  "newLessons": ["kanji/並.md","kanji/丸.md","kanji/久.md","kanji/乱.md","kanji/乳.md","kanji/乾.md","kanji/了.md","kanji/介.md","kanji/仏.md","kanji/令.md","kanji/仲.md","kanji/伸.md","kanji/伺.md","kanji/低.md","kanji/依.md"],
+  "newFrozenStrokeAssets": ["strokes/並.json","strokes/丸.json","strokes/久.json","strokes/乱.json","strokes/乳.json","strokes/乾.json","strokes/了.json","strokes/介.json","strokes/仏.json","strokes/令.json","strokes/仲.json","strokes/伸.json","strokes/伺.json","strokes/低.json","strokes/依.json"],
+  "newWordPages": 0,
+  "quizOrGradingChanges": 0,
+  "otherRuntimePaths": 0,
+  "sourceLinkAmendment": "docs/translation-batches/152-n2-batch-01-source-link-amendment-001.json",
+  "manifestGenerationAmendment": "docs/translation-batches/152-n2-batch-01-manifest-generation-amendment-001.json"
+ },
+ "qualificationLimits": {
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 45 direct directions; no transitive closure inferred.",
+  "freshJMdictRecordLevelReview": false,
+  "nativeSpeakerFrequencyOrNaturalnessClaim": false,
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "fullTranslationComplete": false
+ }
+}

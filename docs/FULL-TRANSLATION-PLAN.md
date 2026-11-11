@@ -6783,7 +6783,7 @@ device, media, activation, release or full-completion approval is implied.
 Continue with the next contiguous dependency-closed frozen-source batch; this
 is not finite completion.
 
-## Current continuation after batch 150 publication
+## Previous continuation after batch 150 publication
 
 Batch 150 (`靴`, `頂`, `頭`, `頼`, `顔`, `願`, `類`, `飛`, `首`, `馬`) is
 qualified against frozen source commit `6af98cb717755690a9ca793e5454a96ebd7a8f9f`
@@ -6805,5 +6805,32 @@ and 5,536 pending of 8,278. `checkpointAuthority` remains null and
 device, media, activation, release or full-completion approval is implied. The
 Kolobok lead for the protected 空 question remains separately qualified in
 [the post-publication lead record](translation-batches/149-sora-kolobok-lead-qualification-001.json);
-both 空 pairs remain C2 **UNVERIFIED**. Continue with positions 366–367; this
-is not finite completion.
+both 空 pairs remain C2 **UNVERIFIED**. At that point the next source slice was
+N3 positions 366–367; Batch 151 and the subsequent N2 transition supersede that
+continuation below. This is not finite completion.
+
+## Current continuation after batch 151 publication
+
+Batch 151 (`髪`, `鳴`) is published through [PR #34](https://github.com/stop-cran/learning-japanese-ru/pull/34)
+at `b3e960428b29058060251a549110e05a3052e73a`. The owner-signed acceptance
+commit is `bd7cecdfb63b1d05a4ba69081707700d27e4c0ae`; the corrected candidate
+`49b94223bb7e1a7a3de7529332f9130d92bbe6c8` was independently reviewed, and
+the exact-main CI run [43051513920](https://github.com/stop-cran/learning-japanese-ru/actions/runs/43051513920)
+passed. Qualified progress is **2,744 reviewed-current / 2 runtime-blocked /
+5,532 pending of 8,278**, with content version `82dfd74ec9955e41`.
+
+Continue with Batch 152, the first planned group in the frozen community-N2
+snapshot: 並丸久乱乳乾了介仏令仲伸伺低依 (positions 1–15 of the 365
+additions; 珍 and 短 remain pre-existing). This community list is not an
+official JLPT syllabus. The exact frozen-source audit finds 35 unique lesson
+word targets: ten exist in the Russian baseline and remain linked, while 25
+unavailable targets remain visible as plain Japanese without new word pages.
+The source-review ledger's 22 reciprocal links describe its earlier `a73354e`
+snapshot; the frozen `6af98cb` tree has 34 source-linked word pages, of which
+nine exist in the current Russian baseline and are the only reciprocal edits
+authorized for this batch.
+
+All 45 direct distractor directions remain **UNVERIFIED** for negative/fallback
+behavior; no transitive closure or quiz-safety claim is made. The protected 空
+pairs, runtime/device/media/activation/release gates, and full-completion status
+remain separate and unchanged.

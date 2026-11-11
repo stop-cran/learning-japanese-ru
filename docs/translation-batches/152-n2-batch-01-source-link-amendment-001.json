@@ -1,0 +1,71 @@
+{
+ "schemaVersion": 1,
+ "batchId": "152-n2-batch-01-kanji",
+ "amendment": 1,
+ "recordedAt": "2026-11-11T16:06:54Z",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "b3e960428b29058060251a549110e05a3052e73a",
+ "basis": "Read-only inventory of every local link in all 15 frozen lessons, every source word page linking to any selected kanji at exact source commit 6af98cb, and the published Russian baseline.",
+ "lessonLinks": {
+  "distinctLocalTargets": 41,
+  "availableExistingKanjiTargets": [
+   {"path":"kanji/中.md","occurrences":1},
+   {"path":"kanji/今.md","occurrences":2},
+   {"path":"kanji/円.md","occurrences":1},
+   {"path":"kanji/夕.md","occurrences":1},
+   {"path":"kanji/子.md","occurrences":1},
+   {"path":"kanji/申.md","occurrences":1}
+  ],
+  "availableExistingWordTargets": [
+   {"path":"words/並ぶ.md","occurrences":2},
+   {"path":"words/並べる.md","occurrences":2},
+   {"path":"words/丸い.md","occurrences":2},
+   {"path":"words/久しぶり.md","occurrences":1},
+   {"path":"words/乾く.md","occurrences":2},
+   {"path":"words/伺う.md","occurrences":2},
+   {"path":"words/低い.md","occurrences":2},
+   {"path":"words/短い.md","occurrences":1},
+   {"path":"words/牛乳.md","occurrences":2},
+   {"path":"words/紹介.md","occurrences":2}
+  ],
+  "unavailableWordTargets": [
+   "words/並木.md","words/並行.md","words/丸.md","words/乱暴.md","words/乾かす.md",
+   "words/乾杯.md","words/乾燥.md","words/乾電池.md","words/仏.md","words/仲.md",
+   "words/仲直り.md","words/仲良し.md","words/仲間.md","words/伸ばす.md","words/伸びる.md",
+   "words/低下.md","words/依頼.md","words/命令.md","words/完了.md","words/最低.md",
+   "words/欠伸.md","words/永久.md","words/混乱.md","words/渇く.md","words/終了.md"
+  ],
+  "disposition": "Keep all source links whose target exists in the Russian baseline. Keep visible Japanese for unavailable targets as plain text; do not create word pages or add substitute links."
+ },
+ "reciprocalWordPages": [
+  {"path":"words/並ぶ.md","kanji":"並","authorizedAnchor":"the first 並 in the existing ## Как сочетаются кандзи section","target":"../kanji/並.md"},
+  {"path":"words/並べる.md","kanji":"並","authorizedAnchor":"the first 並 in the existing ## Как сочетаются кандзи section","target":"../kanji/並.md"},
+  {"path":"words/丸い.md","kanji":"丸","authorizedAnchor":"the first 丸 in the existing ## Как сочетаются кандзи section","target":"../kanji/丸.md"},
+  {"path":"words/久しぶり.md","kanji":"久","authorizedAnchor":"the first 久 in the existing ## Как сочетаются кандзи section","target":"../kanji/久.md"},
+  {"path":"words/乾く.md","kanji":"乾","authorizedAnchor":"the first 乾 in the existing ## Как сочетаются кандзи section","target":"../kanji/乾.md"},
+  {"path":"words/伺う.md","kanji":"伺","authorizedAnchor":"the first 伺 in the existing ## Как сочетаются кандзи section","target":"../kanji/伺.md"},
+  {"path":"words/低い.md","kanji":"低","authorizedAnchor":"the first 低 in the existing ## Как сочетаются кандзи section","target":"../kanji/低.md"},
+  {"path":"words/牛乳.md","kanji":"乳","authorizedAnchor":"the existing 乳 in the first substantive sentence of ## Как сочетаются кандзи; preserve the 牛 link","target":"../kanji/乳.md"},
+  {"path":"words/紹介.md","kanji":"介","authorizedAnchor":"the existing 介 in the first paragraph of ## Как сочетаются кандзи; preserve the 紹 link","target":"../kanji/介.md"}
+ ],
+ "reverseLinkCountReconciliation": {
+  "historicalN2ReviewSnapshot": "a73354e75917d4758b386c870a4284cd70dfacee",
+  "historicalSourcePages": 22,
+  "frozenSourcePages": 34,
+  "addedAfterHistoricalSnapshot": [
+   "words/並木.md","words/並行.md","words/乱暴.md","words/乾かす.md","words/乾杯.md","words/乾燥.md",
+   "words/乾電池.md","words/仲直り.md","words/仲良し.md","words/低下.md","words/欠伸.md","words/終了.md"
+  ],
+  "existingInPublishedRussianBaseline": 9,
+  "authorizedEdits": 9,
+  "unavailableReverseTargetPagesRemainUnmodified": 25,
+  "specialCase": "words/短い.md is an available lesson-to-word target but has no corresponding reverse link in the frozen source, so it remains unchanged."
+ },
+ "scopeLimits": {
+  "newWordPages": 0,
+  "otherWordPageEdits": 0,
+  "wordMetadataReadingsExamplesOrQuizExclusionsChanged": false,
+  "lessonMeaningOrJapaneseContentChangedByThisAmendment": false,
+  "quizOrGradingChanges": 0
+ }
+}
