@@ -1,0 +1,84 @@
+{
+ "schemaVersion": 1,
+ "batchId": "144-explain-investigate-discuss-argue-know-warn-deliberate-kanji",
+ "recordedAt": "2026-11-11T09:20:19Z",
+ "status": "pre-mutation authorization following validator finding",
+ "sourceFreezeCommit": "d44c9391385ab1a8f962c3bf476cb35d9a478f0a",
+ "previousNavigationAmendmentCommit": "44f8cc3c348a767dd0e025273fa562884a156dc9",
+ "targetBaseline": "d95c7b792b4b575dcbece7b6c880b0e7cdf52a58",
+ "validationFinding": {
+  "command": "python -X utf8 tools/validate.py",
+  "result": "5 errors, all caused by existing word articles whose YAML kanji field names one of the newly added cards but which do not yet link to that card.",
+  "validatorRule": "For each character in a word article's YAML kanji list, if kanji/<character>.md exists, that word article must contain a direct link to the card.",
+  "scopeEffect": "Add only the five navigation links below. The failed candidate was not accepted or committed; regenerate the manifest only after this amendment is committed and these links are applied."
+ },
+ "additionalScope": [
+  {
+   "path": "words/会議.md",
+   "bytes": 2379,
+   "rawSha256": "1f0abc83a8dabd7896f56a7fd01805db812177b2a226b8221dad969d52e94e72",
+   "parentGitBlob": "9bac113831138d0257391327bb720dbdd309e7bd",
+   "existingText": "議 with reading ギ is related to discussion",
+   "operation": "Wrap only the existing 議 in «Как сочетаются кандзи» with the card link.",
+   "expectedLink": "[議](../kanji/議.md)",
+   "otherChangesAuthorized": false
+  },
+  {
+   "path": "words/会議室.md",
+   "bytes": 2156,
+   "rawSha256": "8f44ae1eedc501f9aa93d119e2dff5646b6b62ca62d53197f25b1a2aeed056f7",
+   "parentGitBlob": "df4796a146301747e7de2e7441c175a503f84dc3",
+   "existingText": "会 and 議 form 会議",
+   "operation": "Wrap only the existing 議 in «Как сочетаются кандзи» with the card link.",
+   "expectedLink": "[議](../kanji/議.md)",
+   "otherChangesAuthorized": false
+  },
+  {
+   "path": "words/小説.md",
+   "bytes": 2164,
+   "rawSha256": "379519a5a5b35fb98c0c6639f454bdf06b4de7325d6f5a32b7b156962d760aa4",
+   "parentGitBlob": "31534fa3d76e32115d4a3555a0c269776a875775",
+   "existingText": "説 is related to explanation or exposition",
+   "operation": "Wrap only the existing 説 in «Как сочетаются кандзи» with the card link.",
+   "expectedLink": "[説](../kanji/説.md)",
+   "otherChangesAuthorized": false
+  },
+  {
+   "path": "words/演説.md",
+   "bytes": 2564,
+   "rawSha256": "f2899c0b21aa85df4914adc836644db3f8fbbadfb35df08dee22d9118beb9579",
+   "parentGitBlob": "746015ef398b339dba429bf80b7986a8d3ffe5ab",
+   "existingText": "演 is related to performance, and 説 to explanation or exposition",
+   "operation": "Wrap only the existing 説 in «Как сочетаются кандзи» with the card link.",
+   "expectedLink": "[説](../kanji/説.md)",
+   "otherChangesAuthorized": false
+  },
+  {
+   "path": "words/警察.md",
+   "bytes": 2121,
+   "rawSha256": "bc6caf25bbd79481b5a50fc4ed3d7f727cd449fdc4bf3c619a1c80a279ab9bfa",
+   "parentGitBlob": "13a7868523b678d66509e171e99bf04b37886140",
+   "existingText": "警 is related to warning or vigilance",
+   "operation": "Wrap only the existing 警 in «Как сочетаются кандзи» with the card link.",
+   "expectedLink": "[警](../kanji/警.md)",
+   "otherChangesAuthorized": false
+  }
+ ],
+ "methodologyUpdate": {
+  "path": "docs/translation-methodology.md",
+  "bytesBeforeMutation": 28946,
+  "rawSha256BeforeMutation": "521bb4859a7257fe2ae2ec80d91244c31487bd7833c16acb6084a194bed77a89",
+  "parentGitBlob": "0ec75505630c4137f7dec85ca5dbd9b8360d4e62",
+  "finding": "The validator's reverse-link invariant applies to all existing word articles naming a kanji in YAML, not only words linked from the frozen source lesson.",
+  "documentationOnly": true,
+  "runtimeTeachingContentChanged": false
+ },
+ "invariants": {
+  "allNineWordPageEditsAreNavigationOnly": true,
+  "allJapaneseTextAndTeachingContentOtherwiseUnchanged": true,
+  "quizOrGradingDataUnchanged": true,
+  "noOtherRuntimePathChangesAuthorized": true,
+  "directNegativeFallbackDirectionsRemainUnverified": 21
+ },
+ "authorization": "This addendum extends the four-page navigation amendment by exactly five single-link insertions. It authorizes no translation, metadata, Japanese wording, quiz, grading, or other runtime change."
+}

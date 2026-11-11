@@ -1,0 +1,65 @@
+{
+ "schemaVersion": 1,
+ "batchId": "144-explain-investigate-discuss-argue-know-warn-deliberate-kanji",
+ "recordedAt": "2026-11-11T09:20:19Z",
+ "status": "supplemental pre-generation manifest-scope authorization",
+ "sourceFreezeCommit": "d44c9391385ab1a8f962c3bf476cb35d9a478f0a",
+ "previousManifestAmendmentCommit": "44f8cc3c348a767dd0e025273fa562884a156dc9",
+ "additionalNavigationAmendment": "docs/translation-batches/144-explain-investigate-discuss-argue-know-warn-deliberate-kanji-pre-mutation-navigation-amendment-002.json",
+ "publishedManifestBaseline": {
+  "path": "manifest.json",
+  "bytes": 233591,
+  "rawSha256": "f2fd68335168bca6ab5b0856955b32f48f92a24c547e046cd1b32b63ada7161d",
+  "gitBlob": "8e3b0b990048971e362990a8f75d9eccc7392b98",
+  "contentVersion": "fdcb38de679a3f19"
+ },
+ "unacceptedInterimGeneration": {
+  "command": "python tools/build_manifest.py",
+  "bytes": 234823,
+  "rawSha256": "7e41064206b23f7f01bfa20964e483a6b7050f8d85c5b875230f7bc52ce4a310",
+  "gitBlob": "dc44fcc2d6ecca997ae8d39347ce19937cc96318",
+  "contentVersion": "cc940e90445329ce",
+  "disposition": "Not staged, committed, or accepted; validator then exposed five additional required reverse links."
+ },
+ "nextAuthorizedGeneration": {
+  "command": "python tools/build_manifest.py",
+  "newLessonRegistrations": [
+   "kanji/説.md",
+   "kanji/調.md",
+   "kanji/談.md",
+   "kanji/論.md",
+   "kanji/識.md",
+   "kanji/警.md",
+   "kanji/議.md"
+  ],
+  "newStrokeRegistrations": [
+   "strokes/説.json",
+   "strokes/調.json",
+   "strokes/談.json",
+   "strokes/論.json",
+   "strokes/識.json",
+   "strokes/警.json",
+   "strokes/議.json"
+  ],
+  "refreshedExistingWordPageHashes": [
+   "words/説明.md",
+   "words/調べる.md",
+   "words/相談.md",
+   "words/警官.md",
+   "words/会議.md",
+   "words/会議室.md",
+   "words/小説.md",
+   "words/演説.md",
+   "words/警察.md"
+  ],
+  "contentVersion": "builder-derived only",
+  "expectedRuntimePathCount": 23
+ },
+ "prohibitions": [
+  "Do not hand-edit manifest.json.",
+  "Do not stage or accept the interim generated manifest.",
+  "Do not accept any generated registration, path, or hash outside the listed scope.",
+  "If the builder produces additional manifest changes, stop and investigate before staging."
+ ],
+ "acceptanceCondition": "Compare the complete final generated manifest with the path set above; allow only the 14 new registrations, nine refreshed word hashes, and the derived contentVersion."
+}
