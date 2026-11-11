@@ -1,0 +1,165 @@
+{
+ "schemaVersion": 1,
+ "batchId": "146-cross-route-words-crowds-welcome-return-lost-kanji",
+ "recordedAt": "2026-11-11T10:28:44Z",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "28555f4735a3567fa1ed42a0dc30abbb1a543acf",
+ "candidateBranch": "full-ru-146-cross-route-words-crowds-welcome-return-lost-kanji",
+ "selection": {
+  "selectionMethod": "next contiguous dependency-closed community-N3 source positions",
+  "jlptBasis": "docs/n3-source-snapshot.json at the frozen source commit; community list, not an official JLPT syllabus",
+  "frozenN3Snapshot": {
+   "path": "docs/n3-source-snapshot.json",
+   "bytes": 5879,
+   "rawSha256": "4ffdacad14efcdee13e504a36f5705bc2226ea763bf46a00369c1bf6040b28e8",
+   "gitBlob": "b18b0a72779488538324a0b48c82e2684ea89d71",
+   "sourceUrl": "https://kanjiapi.dev/v1/kanji/jlpt-3",
+   "downloadSha256": "90aca621147e29ba525c81dc5b57cf3373115007c95e9fdb97febd9a56394412",
+   "count": 367,
+   "positionDomain": "one-based order in jlptN3.characters, including the five already-present characters"
+  },
+  "positions": [
+   {"position": 316, "kanji": "越"},
+   {"position": 317, "kanji": "路"},
+   {"position": 318, "kanji": "辞"},
+   {"position": 319, "kanji": "込"},
+   {"position": 320, "kanji": "迎"},
+   {"position": 321, "kanji": "返"},
+   {"position": 322, "kanji": "迷"},
+   {"position": 323, "kanji": "追"},
+   {"position": 324, "kanji": "退"},
+   {"position": 325, "kanji": "逃"}
+  ],
+  "dependencyClosureExpansion": "The initial contiguous range 316–322 leaves 込→逃 unresolved because kanji/逃.md is absent at the published baseline. Extend through positions 323–325 to include 追 and 退 before 逃, preserving contiguous order and closing all direct distractor-card dependencies.",
+  "dependencyClosure": {
+   "directDistractorEdges": [
+    "越→起", "越→走", "越→迷",
+    "路→足", "路→名", "路→語",
+    "辞→新", "辞→千", "辞→立",
+    "込→近", "込→週", "込→逃",
+    "迎→近", "迎→週", "迎→返",
+    "返→近", "返→週", "返→迷",
+    "迷→米", "迷→近", "迷→送",
+    "追→近", "追→週", "追→返",
+    "退→近", "退→道", "退→週",
+    "逃→近", "逃→週", "逃→迎"
+   ],
+   "externalDependenciesAlreadyReviewedCurrent": ["起", "走", "足", "名", "語", "新", "千", "立", "近", "週", "米", "送", "道"],
+   "negativeFallbackStatus": "UNVERIFIED for all 30 direct directions; no transitive closure inferred"
+  }
+ },
+ "progressSnapshot": {
+  "progressPath": "docs/translation-progress.json",
+  "progressBytes": 5541080,
+  "progressRawSha256": "65c94097f7ecede83cf7751e1e4880816a637ef6db7c88c068c14e54b6da97b1",
+  "trackingPath": "docs/translation-tracking.json",
+  "trackingBytes": 7998317,
+  "trackingRawSha256": "d876b8a077371affdaaf0661a4e23a2c15b539cebe3829d14b6c02de4d593389",
+  "frozenInventory": 8278,
+  "reviewedCurrent": 2642,
+  "runtimeBlocked": 2,
+  "pending": 5634,
+  "adoptedWords": 1478,
+  "adoptedKanji": 567,
+  "adoptedStrokes": 567,
+  "russianContentVersion": "451870c9d2acb3df",
+  "checkpointAuthority": null,
+  "checkpointReady": false
+ },
+ "sourceLessonIds": {
+  "越": [1593070, 1175300],
+  "路": [1454290, 1560040],
+  "辞": [1318970, 1318950, 1319000],
+  "込": [1362890, 1593410, 1465460],
+  "迎": [1253190, 1212960, 1198180],
+  "返": [1512130, 1512150, 1512220, 1221270],
+  "迷": [1532710, 1532750],
+  "追": [1432410, 1608720, 1432460],
+  "退": [1411300, 1411420, 1595084],
+  "逃": [1450330, 1450320, 1450450]
+ },
+ "frozenRuntimeSourceFiles": [
+  {"path":"kanji/越.md","bytes":1636,"rawSha256":"d803afa1566fdfe5a588fd2021e0c5bcf06e23c37110851ba00b22ef112765be","gitBlob":"f17b6375c1c315df43f6f81853cace27a5078086"},
+  {"path":"kanji/路.md","bytes":1510,"rawSha256":"eb1ac2217bb0213d7b2921cd573f939d149a422d271bd1fa2b39defbb6989ddd","gitBlob":"1236bac838ea2813d611c429397e065aabcb3784"},
+  {"path":"kanji/辞.md","bytes":1624,"rawSha256":"3e2e2bc541e1b8dfbcf789978df2650957b265cd26236a64b7075793bdf31e19","gitBlob":"d4400e0f79386ae48c897da55dc0c3cdb33ffedd"},
+  {"path":"kanji/込.md","bytes":1792,"rawSha256":"a679910b4078fd2e1fb9daf86c08ff4ccf4d4e10b1b798d17a56a99acc8873bd","gitBlob":"e27e84b61e07662ba98b9030a7c9da365836a2f9"},
+  {"path":"kanji/迎.md","bytes":1538,"rawSha256":"574407b9320ecc37b75bd8e30d5210ce916ae78ee4a9f847d35cf663630b8e9d","gitBlob":"aef9f2d4536702ae2ef2e92a6bffed415ced7f78"},
+  {"path":"kanji/返.md","bytes":1808,"rawSha256":"82ee01179423ed9e507c0033dc4a4d143c78520914e54a27d267f964a9d84e77","gitBlob":"db07e09dc3b6e04a69d0b647692405945b97f23e"},
+  {"path":"kanji/迷.md","bytes":1501,"rawSha256":"1c3a410d3331122d55fde2c9782b3c7ac4c1a75d6f77ebd6ec66b03e85c25b2b","gitBlob":"28859581f8ef0d92e21e103abf33423c4b8c78e2"},
+  {"path":"kanji/追.md","bytes":1506,"rawSha256":"79b9dbb2b8a0d98baff9a178d459814c0ad5f47ae133fb636f7ead1dbf75b8ce","gitBlob":"be5846d6eaf9bf56207883e7f29128bae6aaef01"},
+  {"path":"kanji/退.md","bytes":1680,"rawSha256":"32f009583b3230536c3a4ff6c587ed16932b2121c69afa6dab42a8d21862d407","gitBlob":"9618a06b21bbd838dc6d2413b7612a4db4ecba39"},
+  {"path":"kanji/逃.md","bytes":1601,"rawSha256":"f255919e786bba181a390e271977bd52a5489b1577c50a122385200a5cf7afe7","gitBlob":"a0669d5edecabed8402f0ad9f6d9a1c57ebaefa2"},
+  {"path":"strokes/越.json","bytes":2916,"rawSha256":"82197be3eee9e0d6962f692adeb7a89d171470d2fea0d537449ed708d8e80295","gitBlob":"9dfb841cd8e51ec3e2ea0b82947a9402aff8a41b"},
+  {"path":"strokes/路.json","bytes":3149,"rawSha256":"a19b0687617e03d836cae4d0c69de0c4c8cb0bcfd346d2c45168e781e905c961","gitBlob":"b79b19e6f5b5d946ea6c09452a45473a4d597dad"},
+  {"path":"strokes/辞.json","bytes":3143,"rawSha256":"c2536226566ad6b1a8a6d799d84d1754ed2c4287906e2386c94775b03b45433b","gitBlob":"198356a8a0830dc5d51bbfb29a37b8d6988ef4cd"},
+  {"path":"strokes/込.json","bytes":1335,"rawSha256":"cb53789e5dcbd72993fca7e02dc1fb572e69e163282cfd3123db12b974cac792","gitBlob":"085e7482dac1c81e8d7ce856d37a944309cb8fa4"},
+  {"path":"strokes/迎.json","bytes":1785,"rawSha256":"70c7c3d7f290591c6fe71d1fd9b2e71930678a77735b83d8af9dff6d96ecd711","gitBlob":"33634e14fe44a0900563acfd3d52304721954420"},
+  {"path":"strokes/返.json","bytes":1785,"rawSha256":"16420b767722663c8f7281e56eeab8f7c21aa01772eeabde3c613112a182da0a","gitBlob":"3c7737120d17fe87092ff9005f310b8ed5888921"},
+  {"path":"strokes/迷.json","bytes":2239,"rawSha256":"e4a07f4506fe4647b4fa4fb48c6556e47dddc4563fa8d37fc6c58718147fa18b","gitBlob":"d6b97a871aee7dd0f41865adcf76a6618b4d5beb"},
+  {"path":"strokes/追.json","bytes":2239,"rawSha256":"f168fe6eca0451b21472c6c6face39458382871d0ac36a5d6293d5fc745ac0cd","gitBlob":"42e6401df61cf8402179da1ead9a17fbdff53ee3"},
+  {"path":"strokes/退.json","bytes":2241,"rawSha256":"ad6e14cd1346c72164c197b5a8f077d978a2382ff8d6cfd3389b8a56e4df22df","gitBlob":"0e7853910781fafee08baec352a674a1983ad1cf"},
+  {"path":"strokes/逃.json","bytes":2235,"rawSha256":"a2b85e19e3546ae44a92634eb6d9bcc4cf9de0590dbade64491e0be49c1fd3e7","gitBlob":"8433144a5cccf44580c73bfdaf81696cba2ea204"}
+ ],
+ "linkedWordPages": {
+  "available": [
+   {"path":"words/辞書.md","sourceLinkOccurrences":2,"targetExists":true,"targetHasKanjiMetadata":true},
+   {"path":"words/申し込む.md","sourceLinkOccurrences":2,"targetExists":true,"targetHasKanjiMetadata":true},
+   {"path":"words/迎える.md","sourceLinkOccurrences":2,"targetExists":true,"targetHasKanjiMetadata":true},
+   {"path":"words/会う.md","sourceLinkOccurrences":1,"targetExists":true,"targetHasKanjiMetadata":true},
+   {"path":"words/返す.md","sourceLinkOccurrences":2,"targetExists":true,"targetHasKanjiMetadata":true},
+   {"path":"words/帰る.md","sourceLinkOccurrences":1,"targetExists":true,"targetHasKanjiMetadata":true},
+   {"path":"words/退院.md","sourceLinkOccurrences":2,"targetExists":true,"targetHasKanjiMetadata":true},
+   {"path":"words/逃げる.md","sourceLinkOccurrences":2,"targetExists":true,"targetHasKanjiMetadata":true}
+  ],
+  "unavailableOptional": [
+   {"path":"words/越える.md","sourceLinkOccurrences":2,"targetExists":false},
+   {"path":"words/道路.md","sourceLinkOccurrences":2,"targetExists":false},
+   {"path":"words/迷う.md","sourceLinkOccurrences":2,"targetExists":false},
+   {"path":"words/追う.md","sourceLinkOccurrences":2,"targetExists":false}
+  ],
+  "availableSourceLinkTotal": 14,
+  "unavailableOptionalPlainTextTotal": 8,
+  "reciprocalWordKanjiLinksRequired": [
+   {"path":"words/引っ越す.md","kanji":"越","target":"../kanji/越.md","occurrences":1},
+   {"path":"words/申し込む.md","kanji":"込","target":"../kanji/込.md","occurrences":1},
+   {"path":"words/辞典.md","kanji":"辞","target":"../kanji/辞.md","occurrences":1},
+   {"path":"words/辞書.md","kanji":"辞","target":"../kanji/辞.md","occurrences":1},
+   {"path":"words/込む.md","kanji":"込","target":"../kanji/込.md","occurrences":1},
+   {"path":"words/迎える.md","kanji":"迎","target":"../kanji/迎.md","occurrences":1},
+   {"path":"words/返す.md","kanji":"返","target":"../kanji/返.md","occurrences":1},
+   {"path":"words/返事.md","kanji":"返","target":"../kanji/返.md","occurrences":1},
+   {"path":"words/退院.md","kanji":"退","target":"../kanji/退.md","occurrences":1},
+   {"path":"words/逃げる.md","kanji":"逃","target":"../kanji/逃.md","occurrences":1}
+  ]
+ },
+ "targetPreMutation": {
+  "manifest": {
+   "path":"manifest.json",
+   "bytes":236055,
+   "rawSha256":"28ef2e4f2ca5067f5d3034f787cdae6f1cc0ce3d3650694dbafe248c6364a7ea",
+   "gitBlob":"faf75911de456709bc294bc6d85d5055c304d66f",
+   "contentVersion":"451870c9d2acb3df"
+  },
+  "navigationWordPages": [
+   {"path":"words/引っ越す.md","bytes":2373,"rawSha256":"bbc3481c0a193a661a926a6084b95e804e8ccec4f1fce1e2b5135d5aae6bf9f2","normalizedSha256":"bbc3481c0a193a661a926a6084b95e804e8ccec4f1fce1e2b5135d5aae6bf9f2","gitBlob":"eb78e059d4b36168e26e08a98a162444de20b632"},
+   {"path":"words/申し込む.md","bytes":3531,"rawSha256":"0d5804005330a8d2eef6b507901eaf481858709326dde977eb3cde3ca7513080","normalizedSha256":"45475d9a946e773dcbe7a7b8ab18353338465a63825799c8203e600d8cbdb7d0","gitBlob":"af10d96aedfb656f6f92c4f3baeb47d42cbf5130"},
+   {"path":"words/辞典.md","bytes":2106,"rawSha256":"3172389f42b1f1eb95a6cfe8cf5c0ceb4d0b8c528ae4eaaf164f9a7e60c9e7cf","normalizedSha256":"3172389f42b1f1eb95a6cfe8cf5c0ceb4d0b8c528ae4eaaf164f9a7e60c9e7cf","gitBlob":"5b7b2b2dbadc232a0e9fd7e1606844b6549b98f0"},
+   {"path":"words/辞書.md","bytes":2283,"rawSha256":"a3ec30233c5400a7f9bf6882709e54f1c7188bac90695b31dfc743ff3d1c66d7","normalizedSha256":"a3ec30233c5400a7f9bf6882709e54f1c7188bac90695b31dfc743ff3d1c66d7","gitBlob":"b361cfdaf5620b314f026806e4e98a4e62bb52ed"},
+   {"path":"words/込む.md","bytes":2411,"rawSha256":"d601b23ef8cf0dbb7c65450039f52d335b1b83ae5bfb4fac4a96d5b49d8169c7","normalizedSha256":"d601b23ef8cf0dbb7c65450039f52d335b1b83ae5bfb4fac4a96d5b49d8169c7","gitBlob":"8c1973110d309a69cb6adacec3cde4137c822871"},
+   {"path":"words/迎える.md","bytes":2636,"rawSha256":"7b783b5ab6479c418f882253c81dcaad98f8cfef2775a65bf6ff37edc9d1c188","normalizedSha256":"7b783b5ab6479c418f882253c81dcaad98f8cfef2775a65bf6ff37edc9d1c188","gitBlob":"7f70836fc85d415fc850b159a087dcabe3823bc2"},
+   {"path":"words/返す.md","bytes":2647,"rawSha256":"2cedb96cbb12afb413d3c6d09695e2a7396e26b63a9b5fd7a6215386bf72f71a","normalizedSha256":"d049c4bd3f90ecd9379fb571fe2ee1f5fce5e290f157ec83c1f1a675389498be","gitBlob":"643a3c9dfa1e6f8f3ff4028841b9fb61d1ec2838"},
+   {"path":"words/返事.md","bytes":2259,"rawSha256":"1c41d87f4d9c658401df4225965825469a89670f91aab7d3ac1f4e5b954d4143","normalizedSha256":"1c41d87f4d9c658401df4225965825469a89670f91aab7d3ac1f4e5b954d4143","gitBlob":"7c1b597152de8577cfd72a188a0fd2f64142ad55"},
+   {"path":"words/退院.md","bytes":2532,"rawSha256":"6315f1dbf78273ed0b499299df09e693267f5f51e51a7e166600750a20697050","normalizedSha256":"6315f1dbf78273ed0b499299df09e693267f5f51e51a7e166600750a20697050","gitBlob":"5c012b39cd3dc642cdb3482445dfd3748f09f5c4"},
+   {"path":"words/逃げる.md","bytes":2385,"rawSha256":"57ec294fac2a58d492428feb26d9ff539f0a7fd82c0485bd9ee665a2d7e761b2","normalizedSha256":"57ec294fac2a58d492428feb26d9ff539f0a7fd82c0485bd9ee665a2d7e761b2","gitBlob":"bcdafb67d71285437304d2cfd1fae330cf1ba434"}
+  ],
+  "allNewKanjiAndStrokePathsPending": true,
+  "targetChangedDuringBatch": false
+ },
+ "limits": {
+  "directNegativeFallbackDirections": "UNVERIFIED for all 30 directions; no transitive closure inferred",
+  "ordinaryQuizSafety": false,
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false
+ }
+}
