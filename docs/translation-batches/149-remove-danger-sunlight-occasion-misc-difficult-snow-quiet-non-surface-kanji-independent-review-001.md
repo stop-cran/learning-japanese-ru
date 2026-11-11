@@ -2,15 +2,18 @@
 
 ## Candidate and verdict
 
-- Reviewed candidate: `eca81ad7ab5805bd0c6118f452268f0019698067`
+- Initial reviewed candidate: `eca81ad7ab5805bd0c6118f452268f0019698067`
+- Final candidate after focused corrections: `63207618ebb7ab34234e25764b8cdd13d88e2126`
 - Branch: `full-ru-149-n3-346-355-kanji`
 - Frozen English source: `6af98cb717755690a9ca793e5454a96ebd7a8f9f`
 - Published baseline: `5f6932e4c9d314fc9194374bb48eece0faab4cce`
-- Verdict: **CHANGES REQUESTED**
+- Final verdict: **PASS WITH QUALIFICATIONS**
 
-The read-only review found three actionable issues. The report applies only to
-the exact candidate SHA above; corrections require a new candidate and
-focused follow-up review.
+The initial read-only review found three actionable issues. All three were
+corrected in the final candidate and independently confirmed in the focused
+follow-up below. The initial findings apply to the initial candidate; the final
+verdict applies to the final candidate SHA above and remains qualified as
+described here.
 
 ## Actionable findings
 
@@ -120,3 +123,52 @@ approval, checkpoint authority, or full translation completion.
 The complete findings, exact candidate SHA, reviewed scope, and qualifications
 were sent directly to the coordinating writer by reviewer session
 `f7d3cb80-c5d5-4ec6-b305-1d6ce07ddb8b`.
+
+## Focused follow-up
+
+- Final candidate: `63207618ebb7ab34234e25764b8cdd13d88e2126`
+- Initial candidate: `eca81ad7ab5805bd0c6118f452268f0019698067`
+- Verdict: **No remaining actionable finding within the focused correction
+  scope.** This is not runtime, activation, or release approval.
+- Reviewer session: `e877613a-57f9-4fd0-bd11-51b3b418b4ff`
+
+The follow-up confirmed:
+
+- `kanji/陽.md:39` retains “жизнерадостный; как существительное — погода; время
+  года”, preserving the noun senses of 陽気 alongside the adjective sense.
+- `kanji/険.md:34` restores 冒険（ぼうけん）— приключение in the ケン reading
+  table, and `kanji/険.md:21` restores the link to `../words/危険.md`.
+- `kanji/静.md:24` restores `[青](青.md)` and `[争](争.md)` without changing
+  their visible Japanese or surrounding sentence.
+- All three targets exist in both the frozen source and published baseline,
+  resolve in the candidate, and are unchanged since the initial candidate.
+  The complete three-lesson correction diff has only these intended changes;
+  no unrelated metadata, readings, examples, or surrounding teaching content
+  changed.
+- The runtime correction commit changes exactly three lessons and generated
+  `manifest.json`. Three added documentation paths in the preceding scope
+  commit—this review report, manifest-generation amendment 002, and
+  source-link amendment 006—are evidence records, not runtime drift.
+- Since the initial candidate, only hashes for `kanji/陽.md`, `kanji/険.md`,
+  and `kanji/静.md` change in the manifest, with contentVersion
+  `e6af7c1b1614f5ca`; no registration is added or removed and no other payload
+  changes. Final manifest SHA-256:
+  `44297ce2093d442d2316e14682ccedc0aea557583e9353977b49564b602c9c6a`.
+  The unchanged manifest delta from the published baseline remains twenty new
+  registrations, twelve pre-authorized existing word hash changes, no
+  removals, and no unrelated hashes.
+
+All thirty direct negative/fallback directions remain **UNVERIFIED**. No
+transitive closure, negative/fallback behavior, or quiz safety is inferred.
+The follow-up independently inspected the correction diff, the three lessons
+and frozen counterparts, target continuity, amendment scopes, manifest hashes,
+and builder hashing/serialization rules. It did not execute the builder,
+validator, tests, or budget check; those are parent-provided successful results.
+No files, Git state, or frozen source were modified by the reviewer. No fresh
+JMdict record-level review, native-speaker frequency/naturalness certification,
+runtime/device/media/activation/release approval, checkpoint authority, or full
+translation completion is claimed.
+
+The complete focused follow-up findings, exact candidate SHA, scope, and
+qualifications were sent directly to the coordinating writer by reviewer
+session `e877613a-57f9-4fd0-bd11-51b3b418b4ff`.

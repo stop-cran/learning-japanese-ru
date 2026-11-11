@@ -1,0 +1,143 @@
+{
+ "schemaVersion": 1,
+ "batchId": "149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "5f6932e4c9d314fc9194374bb48eece0faab4cce",
+ "candidateCommit": "63207618ebb7ab34234e25764b8cdd13d88e2126",
+ "candidateTree": "9d3e7ab8772240a6f013d45bba2b6dc138c3077b",
+ "manifestVersion": "e6af7c1b1614f5ca",
+ "manifestSha256": "44297ce2093d442d2316e14682ccedc0aea557583e9353977b49564b602c9c6a",
+ "review": {
+  "report": "docs/translation-batches/149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji-independent-review-001.md",
+  "initialCandidate": "eca81ad7ab5805bd0c6118f452268f0019698067",
+  "initialVerdict": "CHANGES REQUESTED",
+  "finalVerdict": "PASS WITH QUALIFICATIONS",
+  "findings": [
+   {
+    "severity": "P2",
+    "location": "kanji/陽.md:39",
+    "finding": "The translation omitted the noun senses of 陽気.",
+    "resolution": "Restored the noun distinction: жизнерадостный; как существительное — погода; время года.",
+    "followUp": "Independently confirmed at final candidate."
+   },
+   {
+    "severity": "P2",
+    "location": "kanji/険.md:34",
+    "finding": "The ケン reading-table row omitted the frozen 冒険（ぼうけん） example.",
+    "resolution": "Restored 冒険（ぼうけん）— приключение in the reading table.",
+    "followUp": "Independently confirmed at final candidate."
+   },
+   {
+    "severity": "P3",
+    "locations": [
+     "kanji/険.md:21",
+     "kanji/静.md:24"
+    ],
+    "finding": "Three source links to available published Russian targets had been removed.",
+    "resolution": "Restored the 危険 link and the 青 and 争 mnemonic links to existing lessons.",
+    "followUp": "All three targets resolve and are unchanged from the published baseline."
+   }
+  ],
+  "focusedFollowUpCandidate": "63207618ebb7ab34234e25764b8cdd13d88e2126",
+  "focusedFollowUpFinding": "No remaining actionable finding within the focused correction scope.",
+  "directNegativeFallbackDirections": {
+   "count": 30,
+   "status": "UNVERIFIED",
+   "transitiveClosureInferred": false,
+   "quizSafetyClaim": false
+  },
+  "limitations": [
+   "No fresh record-level JMdict review.",
+   "No native-speaker frequency or naturalness validation.",
+   "No runtime, device, media, activation, or release approval.",
+   "Full translation completion is not claimed."
+  ]
+ },
+ "candidateScope": {
+  "newLessons": [
+   "kanji/除.md", "kanji/険.md", "kanji/陽.md", "kanji/際.md", "kanji/雑.md",
+   "kanji/難.md", "kanji/雪.md", "kanji/静.md", "kanji/非.md", "kanji/面.md"
+  ],
+  "newByteIdenticalStrokeAssets": [
+   "strokes/除.json", "strokes/険.json", "strokes/陽.json", "strokes/際.json", "strokes/雑.json",
+   "strokes/難.json", "strokes/雪.json", "strokes/静.json", "strokes/非.json", "strokes/面.json"
+  ],
+  "navigationOnlyWordPages": [
+   "words/危険.md", "words/国際.md", "words/太陽.md", "words/実際.md",
+   "words/掃除.md", "words/複雑.md", "words/雑誌.md", "words/難しい.md",
+   "words/雪.md", "words/静か.md", "words/非常に.md", "words/面白い.md"
+  ],
+  "newWordPages": 0,
+  "quizOrGradingChanges": 0,
+  "additionalRuntimePaths": 0,
+  "manifestDeltaFromPublishedBaseline": {
+   "newRegistrations": 20,
+   "changedExistingHashes": 12,
+   "removedRegistrations": 0,
+   "unrelatedHashChanges": 0,
+   "otherTopLevelChanges": 0,
+   "recomputedByBuilder": true
+  },
+  "correctionAmendments": [
+   "docs/translation-batches/149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji-source-link-amendment-006.json",
+   "docs/translation-batches/149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji-manifest-generation-amendment-002.json"
+  ]
+ },
+ "serialValidation": [
+  {
+   "command": "python -B tools\\build_manifest.py",
+   "exitCode": 0,
+   "stdout": "manifest.json: 2720 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version e6af7c1b1614f5ca"
+  },
+  {
+   "command": "python -B tools\\validate.py",
+   "exitCode": 0,
+   "stdout": "0 error(s)"
+  },
+  {
+   "command": "python -B -m unittest discover -s tools -p \"test_*.py\"",
+   "exitCode": 0,
+   "stdout": "Ran 124 tests in 52.290s; OK"
+  },
+  {
+   "command": "python -B tools\\check_content_budget.py",
+   "exitCode": 0,
+   "stdout": "files=2728; entries=2737; retainedBytes=7560841; inflatedBytes=7579056; localZipBytes=3795111; listeningTaskMediaBytes=0"
+  }
+ ],
+ "trackingAndProgress": {
+  "frozenInventory": 8278,
+  "adoptedEntries": 2720,
+  "reviewedCurrent": 2720,
+  "pending": 5556,
+  "excludedReviewedRuntimeBlocked": 2,
+  "sourceChanges": 0,
+  "guidanceChanges": 0,
+  "unreconciledGuidance": 0,
+  "targetChangedDuringBatch": false,
+  "translationProgressReportMatchesTracking": true,
+  "russianContentVersion": "e6af7c1b1614f5ca",
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false,
+  "artifacts": {
+   "docs/translation-tracking.json": {
+    "sha256": "dd0e544c976b87f57648e6c0d21a8ed42cddca421300ed399e2aeff9ec4a1ec1"
+   },
+   "docs/translation-progress.json": {
+    "sha256": "662480f3994bce414b8f6f2a4016c692d27ed6e44d949c06116e76f6a36cf244"
+   },
+   "docs/translation-batches/149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji-independent-review-001.md": {
+    "sha256": "56ee918fa0250f8de37b4a2ecf70e5dc008acdd88ded142ced0a30eb65a9e5c5"
+   }
+  }
+ },
+ "authorizationLimits": {
+  "all30DirectNegativeFallbackDirections": "UNVERIFIED; no transitive closure or safety claim",
+  "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false
+ },
+ "status": "qualified frozen-source content and source-progress acceptance; publication pending"
+}
