@@ -1,0 +1,129 @@
+{
+ "schemaVersion": 1,
+ "batchId": "154-n2-batch-03-kanji",
+ "repository": "stop-cran/learning-japanese-ru",
+ "status": "qualified frozen-source content and source-progress acceptance; publication pending",
+ "candidateCommit": "7482c9047105dc605325a96e37250ce53654fe24",
+ "candidateParent": "5a1614d1ee055b2cb309d0811f324baf068a7022",
+ "candidateTree": "cd98ce139803107e4cbe02cad247d4c3442154a5",
+ "publishedBaseline": "f940768c96f7a556d2e6cf71303d53190bf48828",
+ "publishedBaselineTree": "985f5780295057d95fd6b4fe47beb58856aa3d82",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "candidateLocalCommitIdentity": {
+  "author": "stop-cran",
+  "committer": "stop-cran",
+  "signatureFingerprint": "D4C9A275A218AF747B787AFA9D94B9D311BD26A7",
+  "signatureVerified": true,
+  "signatureReason": "valid",
+  "coAuthorTrailer": "Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>"
+ },
+ "candidateScope": {
+  "newLessons": [
+   "kanji/券.md", "kanji/刺.md", "kanji/則.md", "kanji/副.md", "kanji/劇.md",
+   "kanji/効.md", "kanji/勇.md", "kanji/募.md", "kanji/勢.md", "kanji/包.md",
+   "kanji/匹.md", "kanji/区.md", "kanji/卒.md", "kanji/協.md", "kanji/占.md"
+  ],
+  "newByteIdenticalStrokeAssets": [
+   "strokes/券.json", "strokes/刺.json", "strokes/則.json", "strokes/副.json", "strokes/劇.json",
+   "strokes/効.json", "strokes/勇.json", "strokes/募.json", "strokes/勢.json", "strokes/包.json",
+   "strokes/匹.json", "strokes/区.json", "strokes/卒.json", "strokes/協.json", "strokes/占.json"
+  ],
+  "navigationOnlyWordPages": [
+   "words/規則.md", "words/大勢.md", "words/包む.md", "words/卒業.md"
+  ],
+  "newWordPages": 0,
+  "quizOrGradingChanges": 0,
+  "additionalRuntimePaths": 0,
+  "manifestSha256": "eb9e67580b27e4595dcdd856125d7a0093ca2cf55eb8d3b46d17b633e37b5921",
+  "manifestVersion": "bf7b6777ce64110f",
+  "manifestDeltaFromPublishedBaseline": {
+   "newRegistrations": 30,
+   "changedExistingHashes": 4,
+   "removedRegistrations": 0,
+   "unrelatedHashChanges": 0,
+   "recomputedByBuilder": true
+  }
+ },
+ "review": {
+  "verdict": "QUALIFIED PASS — no supported Japanese-content blocker; recommended Russian copy edits were resolved.",
+  "semanticReport": "docs/translation-batches/154-n2-batch-03-semantic-review-001.md",
+  "copyEditFollowup": "docs/translation-batches/154-n2-batch-03-semantic-review-followup-001.md",
+  "finalHashBoundFollowup": "docs/translation-batches/154-n2-batch-03-semantic-review-followup-002.md",
+  "hashBoundScope": "docs/translation-batches/154-n2-batch-03-review-copy-amendment-001.json",
+  "reviewEvidenceStatus": "docs/translation-batches/154-n2-batch-03-independent-review-001.md",
+  "scope": "All 15 lessons have distinct Japanese-fact, source-scope fidelity, and Russian-clarity judgments. The same reviewer confirmed the six hash-bound copy edits against exact base 5a1614d; committed blobs match the reviewed hashes.",
+  "directNegativeFallbackDirections": {
+   "count": 45,
+   "status": "UNVERIFIED",
+   "transitiveClosureInferred": false,
+   "quizSafetyClaim": false
+  },
+  "qualifications": [
+   "No fresh record-level JMdict adjudication or native-speaker certification.",
+   "No runtime/device/media release or ordinary activation approval.",
+   "No checkpoint authority, checkpoint readiness, or full-translation-complete claim."
+  ]
+ },
+ "serialValidation": [
+  {
+   "command": "python -X utf8 -B tools\\build_manifest.py",
+   "exitCode": 0,
+   "stdout": "manifest.json: 2834 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version bf7b6777ce64110f"
+  },
+  {
+   "command": "python -X utf8 -B tools\\validate.py",
+   "exitCode": 0,
+   "stdout": "0 error(s)"
+  },
+  {
+   "command": "python -X utf8 -B -m unittest discover -s tools -p \"test_*.py\"",
+   "exitCode": 0,
+   "stdout": "Ran 124 tests in 49.452s; OK"
+  },
+  {
+   "command": "python -X utf8 -B tools\\check_content_budget.py",
+   "exitCode": 0,
+   "stdout": "{'files': 2842, 'entries': 2851, 'retainedBytes': 7869207, 'inflatedBytes': 7887422, 'localZipBytes': 3943744, 'listeningTaskMediaBytes': 0}"
+  },
+  {
+   "command": "git diff --check",
+   "exitCode": 0,
+   "stdout": ""
+  }
+ ],
+ "trackingAndProgress": {
+  "artifacts": {
+   "docs/translation-tracking.json": {
+    "sha256": "87378d687a936bbabaff66276725e09c720c6ded6a9677c3ad66cff5f28a1ac5"
+   },
+   "docs/translation-progress.json": {
+    "sha256": "8b9e093af92e3e2c96c86e738b087f626788bf23b3857e065050bf48e7979a92"
+   },
+   "manifest.json": {
+    "sha256": "eb9e67580b27e4595dcdd856125d7a0093ca2cf55eb8d3b46d17b633e37b5921"
+   }
+  },
+  "frozenInventory": 8278,
+  "reviewedCurrent": 2834,
+  "pending": 5442,
+  "excludedReviewedRuntimeBlocked": 2,
+  "adoptedEntries": 2834,
+  "runtimeEntries": 8278,
+  "sourceChanges": 0,
+  "guidanceChanges": 0,
+  "unreconciledGuidance": 0,
+  "targetChangedDuringBatch": false,
+  "translationProgressReportMatchesTracking": true,
+  "russianContentVersion": "bf7b6777ce64110f",
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false
+ },
+ "publication": {
+  "pullRequest": null,
+  "exactMainValidation": null,
+  "status": "pending"
+ }
+}

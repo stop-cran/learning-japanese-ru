@@ -61,10 +61,13 @@ the exact base and six base/candidate blob and SHA-256 values are recorded in
 `docs/translation-batches/154-n2-batch-03-review-copy-amendment-001.json`.
 The reviewer slot was released back to N1 after this PASS.
 
-The six reviewed card changes and regenerated manifest remain uncommitted at
-the exact reviewed base `5a1614d1ee055b2cb309d0811f324baf068a7022`. Thus the
-review stage is complete, but acceptance records and publication are still
-pending.
+The six reviewed card changes and regenerated manifest are committed as
+`7482c9047105dc605325a96e37250ce53654fe24`, following the exact reviewed base
+`5a1614d1ee055b2cb309d0811f324baf068a7022`. Each committed blob, exact-byte
+SHA-256, normalized SHA-256, and base blob was verified against the
+hash-bound amendment record. The review stage is complete, and the 30 new
+runtime registrations plus four navigation-only word changes have now been
+recorded in tracking and progress. Publication is still pending.
 
 ## Amended-candidate mechanical checks
 
