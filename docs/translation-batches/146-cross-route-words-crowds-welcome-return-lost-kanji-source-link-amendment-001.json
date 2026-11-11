@@ -1,0 +1,33 @@
+{
+ "schemaVersion": 1,
+ "batchId": "146-cross-route-words-crowds-welcome-return-lost-kanji",
+ "recordedAt": "2026-11-11T10:33:39Z",
+ "status": "pre-mutation supplemental source-link scope authorization",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "28555f4735a3567fa1ed42a0dc30abbb1a543acf",
+ "intakeRecord": "docs/translation-batches/146-cross-route-words-crowds-welcome-return-lost-kanji-intake.json",
+ "semanticFreeze": "docs/translation-batches/146-cross-route-words-crowds-welcome-return-lost-kanji-source-adjudication-and-semantic-freeze-001.json",
+ "finding": {
+  "sourceLesson": "kanji/返.md",
+  "sourceLink": "../articles/kaeru-change-replace-and-return.md",
+  "sourceOccurrences": 1,
+  "targetPath": "articles/kaeru-change-replace-and-return.md",
+  "targetExistsAtPublishedBaseline": false,
+  "scope": "The frozen lesson refers to an unavailable optional article; no translated target article exists in the Russian tree."
+ },
+ "authorization": {
+  "renderArticleTitleAsPlainRussianTextWithoutMarkdownLink": true,
+  "preserveTheComparisonAndItsVisibleJapaneseContent": true,
+  "createOrModifyArticle": false,
+  "modifyAnyAdditionalRuntimePath": false,
+  "changeAnyKanjiOrWordContentBeyondTheSemanticFreeze": false,
+  "changeQuizOrGradingBehavior": false,
+  "frozenEnglishSourceMustRemainUntouched": true
+ },
+ "acceptanceCondition": "The translated 返 lesson preserves the source's comparison of 返る, 帰る, and 返す as plain text, uses no unresolved article link, and does not create or alter an article.",
+ "limits": {
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 30 direct directions; no transitive closure inferred",
+  "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false
+ }
+}
