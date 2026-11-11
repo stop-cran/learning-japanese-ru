@@ -1,0 +1,74 @@
+{
+ "schemaVersion": 1,
+ "amendmentId": "143-solve-record-visit-permit-recognize-error-kanji-pre-mutation-navigation-amendment-001",
+ "recordedAt": "2026-11-11T08:34:00+00:00",
+ "state": "pre-mutation navigation-scope amendment; the listed article edits may begin only after this record is committed",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "parentFreezeCommit": "fe57e10d031f9d308312c1354639df488084d237",
+ "parentFreezeRecord": "docs/translation-batches/143-solve-record-visit-permit-recognize-error-kanji-source-adjudication-and-semantic-freeze-001.json",
+ "reason": "The candidate lessons link to three available Russian word pages whose kanji composition text contains the new target glyphs without reciprocal kanji-card links. This amendment declares the exact one-occurrence NAV-only additions before any word-page mutation.",
+ "authorizedScope": {
+  "navigationOnlyWordPages": [
+   "words/理解.md",
+   "words/日記.md",
+   "words/訪ねる.md"
+  ],
+  "linkChanges": [
+   {
+    "path": "words/理解.md",
+    "kanji": "解",
+    "target": "../kanji/解.md",
+    "occurrences": 1,
+    "context": "In «Как сочетаются кандзи», wrap the existing plain 解 in the sentence explaining that 解 concerns resolving or understanding."
+   },
+   {
+    "path": "words/日記.md",
+    "kanji": "記",
+    "target": "../kanji/記.md",
+    "occurrences": 1,
+    "context": "In «Как сочетаются кандзи», wrap the existing plain 記 in the sentence explaining that 日 specifies the written-record sense."
+   },
+   {
+    "path": "words/訪ねる.md",
+    "kanji": "訪",
+    "target": "../kanji/訪.md",
+    "occurrences": 1,
+    "context": "In «Как сочетаются кандзи», wrap the existing plain 訪 in the sentence «訪 связан с посещением»."
+   }
+  ],
+  "preMutationFingerprints": [
+   {
+    "path": "words/理解.md",
+    "bytes": 2408,
+    "rawSha256": "3b0106db0010b04511ac16e84dfa16195ceab895b773a68bd45a7bbcf07acbea",
+    "gitBlob": "133f5948288438b4908a311dd173800ce3ce3b51"
+   },
+   {
+    "path": "words/日記.md",
+    "bytes": 2443,
+    "rawSha256": "0c79ca02ad51deaec51e395ea80ed86e29bbd0610cb30fdee79627b1bf8db40a",
+    "gitBlob": "9ffa796622a2058be7b2c99a2ba91d95a29d4152"
+   },
+   {
+    "path": "words/訪ねる.md",
+    "bytes": 2291,
+    "rawSha256": "1a6fe52efa36c8ecc424d56ce4e1301b21a6fc8fc97c3a46ea397c6ad16dc262",
+    "gitBlob": "e1f7464f46b218667059d9a8649b5bba363f6c13"
+   }
+  ],
+  "newWordPages": 0,
+  "semanticWordChanges": 0,
+  "nonNavigationWordChanges": 0,
+  "quizOrGradingChanges": 0
+ },
+ "authorization": {
+  "onlyListedOneOccurrenceReciprocalLinksMayBeAdded": true,
+  "allExistingJapaneseTextMustRemainUnchanged": true,
+  "allOtherArticleContentMustRemainUnchanged": true,
+  "frozenEnglishSourceMustRemainUntouched": true,
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 18 direct directions; no transitive closure or safety claim authorized",
+  "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false
+ },
+ "reviewStatus": "pending-independent-review"
+}
