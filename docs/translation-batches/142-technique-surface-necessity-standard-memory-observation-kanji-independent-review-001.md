@@ -35,6 +35,13 @@ artifact is explicitly recognized in
 `142-technique-surface-necessity-standard-memory-observation-kanji-generated-manifest-scope-record-001.json`.
 The reviewer did not independently review that later scope record.
 
+A separate writer audit found an incorrect `sourceBytes` value of 5 for each
+of the six frozen lesson objects in the intake. Their recorded Git blob IDs and
+SHA-256 values match the actual frozen objects; the exact object byte counts are
+preserved in
+`142-technique-surface-necessity-standard-memory-observation-kanji-source-intake-byte-count-correction-001.json`.
+This metadata correction does not change the frozen source or review verdict.
+
 All 18 direct negative/fallback distractor directions remain **UNVERIFIED**.
 No transitive exclusion closure is inferred, and this review does not certify
 quiz safety CLEAN.

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "correctionId": "142-technique-surface-necessity-standard-memory-observation-kanji-source-intake-byte-count-correction-001",
+  "recordedAt": "2026-11-11T08:18:00Z",
+  "state": "source-evidence metadata correction; frozen source and signed intake are unchanged",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "intakeRecord": "docs/translation-batches/142-technique-surface-necessity-standard-memory-observation-kanji-intake.json",
+  "reason": "A post-review audit found that the six sourceLessons.sourceBytes fields in the intake each say 5, while the exact frozen Git objects contain longer lesson text. Re-reading each object by its frozen commit and path confirms that its Git blob and raw SHA-256 exactly match the intake; only the recorded byte counts are wrong.",
+  "corrections": [
+    {
+      "path": "kanji/術.md",
+      "recordedBytes": 5,
+      "actualFrozenObjectBytes": 1805,
+      "sourceGitBlob": "121b1d735a17117c483fe0490430c12f88b7a5d1",
+      "sourceRawSha256": "8398f786b5c7d5e34ab86824a0c9e91ced07dc45cb2f0f142ee8ecfef453fb7d",
+      "intakeGitBlobAndSha256Match": true
+    },
+    {
+      "path": "kanji/表.md",
+      "recordedBytes": 5,
+      "actualFrozenObjectBytes": 1982,
+      "sourceGitBlob": "3f5f00a41c2b9ffe6c47423cd3a44e687c9818dc",
+      "sourceRawSha256": "18a12fcebe53204158acaa1260b5217ff02d758c6a98944c702444967c725317",
+      "intakeGitBlobAndSha256Match": true
+    },
+    {
+      "path": "kanji/要.md",
+      "recordedBytes": 5,
+      "actualFrozenObjectBytes": 1790,
+      "sourceGitBlob": "b8d7ba4945e9407717a3a70c9d2f06cf50bbd67c",
+      "sourceRawSha256": "068e4c88120e09b36f7402a834c36be5093c3d162e4a0fb5483fe5c3819db0d7",
+      "intakeGitBlobAndSha256Match": true
+    },
+    {
+      "path": "kanji/規.md",
+      "recordedBytes": 5,
+      "actualFrozenObjectBytes": 1653,
+      "sourceGitBlob": "eaf8c331a88c122a37d98badcd500962c595b2aa",
+      "sourceRawSha256": "a3ceb890a874ce19e38e821b2558e849a036d0cc50a712404bbb67947c7345bf",
+      "intakeGitBlobAndSha256Match": true
+    },
+    {
+      "path": "kanji/覚.md",
+      "recordedBytes": 5,
+      "actualFrozenObjectBytes": 1757,
+      "sourceGitBlob": "de9bbee08811488815f0b332c2fc08145cd53541",
+      "sourceRawSha256": "275833b6e662dcf2ae27ea979ede1875f56aadf541037cf5796b1b3508d6ccb7",
+      "intakeGitBlobAndSha256Match": true
+    },
+    {
+      "path": "kanji/観.md",
+      "recordedBytes": 5,
+      "actualFrozenObjectBytes": 1659,
+      "sourceGitBlob": "20c858063925420eeac7164ae9a0d65ad9ee6aae",
+      "sourceRawSha256": "24027e7b7bbee4ac285844e8329c22fa487dfeb2028405913339e35a7321639f",
+      "intakeGitBlobAndSha256Match": true
+    }
+  ],
+  "impact": {
+    "frozenSourceChanged": false,
+    "intakeOrSemanticFreezeRewritten": false,
+    "sourceGitBlobsOrContentHashesChanged": false,
+    "translationCandidateContentChanged": false,
+    "reviewFindingsChanged": false,
+    "candidateScopeChanged": false
+  }
+}

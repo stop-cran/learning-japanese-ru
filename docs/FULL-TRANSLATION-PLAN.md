@@ -2,6 +2,29 @@
 
 ## Previous published source milestone: batch135 doubt, climb, everyone, steal and straight kanji
 
+## Batch142: qualified source acceptance recorded, publication pending
+
+Batch142 adds complete Russian lessons and byte-identical frozen stroke assets
+for 術/表/要/規/覚/観, plus nine exact NAV-only wrappers in existing word
+pages. Thirteen optional wrappers to unavailable word pages were omitted with
+their visible Japanese text retained. The independent bounded review found no
+actionable lesson or navigation-text issue; a generated-manifest scope note and
+a correction to six inaccurate intake byte counts are recorded separately.
+
+The signed pre-mutation freeze is `7948afecf4a2733bc0cd5d0f97f1b60c8b3d9832`;
+the signed navigation amendment is `b54e4742295a89cf604f50b457dddd9c466d1d69`;
+the signed runtime candidate is `4f5e7d6dfb1ea2b7a353081c7675a7e0b8edae17`,
+content version `32c09d9b1877d294`. The reused 2026-314 dictionary captures
+are supplemental and do not match the frozen dictionary snapshot.
+
+Qualified progress is now **2,602 reviewed-current / 2 excluded reviewed
+runtime-blocked / 5,674 pending of 8,278**, with 1,478 words / 547 kanji / 547
+strokes. Serial manifest, validator, 124-test, and content-budget checks passed.
+C1/C3 are CLEAN only within the cited bounded review scope. All 18 direct
+negative/fallback directions remain **UNVERIFIED**. Checkpoint authority remains
+null and `Ready` false; runtime, device, media, release, ordinary activation,
+and full-translation approval are not implied. Publication is pending.
+
 ## Batch141: published qualified source acceptance
 
 Batch141 adds complete Russian lessons and byte-identical frozen stroke assets
@@ -17,9 +40,9 @@ the signed runtime candidate is `f438d3abbe1d6335997e5af30fdae8b774dff9b2`,
 content version `3cb652cb2852209a`. The reused 2026-314 dictionary captures
 are supplemental and do not match the frozen dictionary snapshot.
 
-Qualified progress is now **2,590 reviewed-current / 2 excluded reviewed
-runtime-blocked / 5,686 pending of 8,278**, with 1,478 words / 541 kanji / 541
-strokes. The signed qualified-acceptance commit
+At batch141, qualified progress was **2,590 reviewed-current / 2 excluded
+reviewed runtime-blocked / 5,686 pending of 8,278**, with 1,478 words / 541
+kanji / 541 strokes. The signed qualified-acceptance commit
 `dd9450df35953c5faf4df8047f1ff099a9c73815` is on `main`; exact-main CI passed.
 C1/C3 are CLEAN only within the cited, bounded review scope.
 Ordinary quiz negative/fallback safety remains **UNVERIFIED** for all 18 direct

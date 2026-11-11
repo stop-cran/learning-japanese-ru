@@ -10,6 +10,25 @@ records this revised order; earlier blocked observations below remain historical
 
 ## Previous published source milestone: batch135 doubt, climb, everyone, steal and straight kanji
 
+## Batch142: qualified source acceptance recorded, publication pending
+
+Batch142 completed six Russian kanji lessons (術/表/要/規/覚/観), six
+byte-identical frozen stroke assets, and nine exact NAV-only wrappers on
+existing word pages under a signed pre-mutation amendment. Thirteen optional
+links to absent word pages were omitted. The independent bounded review found
+no actionable lesson or navigation-text issue. The generated manifest's exact
+registration-only changes and six incorrect intake byte counts are preserved in
+separate scope/evidence records.
+
+Candidate commit is `4f5e7d6dfb1ea2b7a353081c7675a7e0b8edae17`, content version
+`32c09d9b1877d294`. Serial checks passed: manifest build, validator, 124 tests,
+and content budget. C1/C3 are qualified to reviewed scope only; all 18 direct
+negative/fallback directions remain **UNVERIFIED**.
+
+Progress after adoption: **2,602 reviewed-current / 2 runtime-blocked / 5,674
+pending of 8,278**, with 1,478 words / 547 kanji / 547 strokes. Publication is
+pending; checkpoint authority remains null and `Ready` remains false.
+
 ## Batch141: published qualified source acceptance
 
 Batch141 completed six Russian kanji lessons (若/苦/草/落/葉/薬), six
@@ -25,8 +44,8 @@ Candidate commit is `f438d3abbe1d6335997e5af30fdae8b774dff9b2`, content version
 and content budget. C1/C3 are qualified to reviewed scope only; C2 ordinary
 negative/fallback safety remains **UNVERIFIED** for all 18 direct directions.
 
-Progress after adoption: **2,590 reviewed-current / 2 runtime-blocked / 5,686
-pending of 8,278**, with 1,478 words / 541 kanji / 541 strokes. The signed
+At batch141, progress after adoption was **2,590 reviewed-current / 2
+runtime-blocked / 5,686 pending of 8,278**, with 1,478 words / 541 kanji / 541 strokes. The signed
 acceptance commit `dd9450df35953c5faf4df8047f1ff099a9c73815` is on `main`;
 exact-main CI passed.
 

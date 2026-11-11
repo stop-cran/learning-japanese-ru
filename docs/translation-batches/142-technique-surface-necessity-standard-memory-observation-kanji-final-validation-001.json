@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "142-technique-surface-necessity-standard-memory-observation-kanji",
+  "recordedAt": "2026-11-11T08:20:00Z",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "preMutationFreezeCommit": "7948afecf4a2733bc0cd5d0f97f1b60c8b3d9832",
+  "navigationScopeAmendmentCommit": "b54e4742295a89cf604f50b457dddd9c466d1d69",
+  "candidateCommit": "4f5e7d6dfb1ea2b7a353081c7675a7e0b8edae17",
+  "candidateTree": "942b34af600d6d669844040820773d8625b322f3",
+  "manifestVersion": "32c09d9b1877d294",
+  "serialValidation": [
+    {
+      "command": "python -X utf8 -B tools\\build_manifest.py",
+      "exitCode": 0,
+      "stdout": "manifest.json: 2602 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 32c09d9b1877d294\n",
+      "stderr": ""
+    },
+    {
+      "command": "python -X utf8 -B tools\\validate.py",
+      "exitCode": 0,
+      "stdout": "0 error(s)\n",
+      "stderr": ""
+    },
+    {
+      "command": "python -X utf8 -B -m unittest discover -s tools -p \"test_*.py\"",
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 40.126s\n\nOK\n"
+    },
+    {
+      "command": "python -X utf8 -B tools\\check_content_budget.py",
+      "exitCode": 0,
+      "stdout": "{'files': 2610, 'entries': 2619, 'retainedBytes': 7232027, 'inflatedBytes': 7250242, 'localZipBytes': 3636317, 'listeningTaskMediaBytes': 0}\n",
+      "stderr": ""
+    }
+  ],
+  "diffCheck": {
+    "command": "git diff --check",
+    "exitCode": 0,
+    "stderr": ""
+  },
+  "review": {
+    "report": "docs/translation-batches/142-technique-surface-necessity-standard-memory-observation-kanji-independent-review-001.md",
+    "verdict": "PASS WITH QUALIFICATIONS",
+    "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 18 direct directions"
+  },
+  "scopeRecords": [
+    "docs/translation-batches/142-technique-surface-necessity-standard-memory-observation-kanji-generated-manifest-scope-record-001.json",
+    "docs/translation-batches/142-technique-surface-necessity-standard-memory-observation-kanji-source-intake-byte-count-correction-001.json"
+  ],
+  "candidateScope": {
+    "newLessons": [
+      "術",
+      "表",
+      "要",
+      "規",
+      "覚",
+      "観"
+    ],
+    "newByteIdenticalStrokeAssets": [
+      "術",
+      "表",
+      "要",
+      "規",
+      "覚",
+      "観"
+    ],
+    "navigationOnlyWordPages": [
+      "words/必要.md",
+      "words/技術.md",
+      "words/美術館.md",
+      "words/表.md",
+      "words/表現.md",
+      "words/要る.md",
+      "words/規則.md",
+      "words/覚える.md",
+      "words/重要.md"
+    ],
+    "optionalUnavailableLinkWrappersRemoved": 13,
+    "newWordPages": 0,
+    "quizOrGradingChanges": 0,
+    "otherAuthoredRuntimePaths": 0
+  },
+  "limits": {
+    "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED",
+    "runtimeAcceptance": false,
+    "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+    "checkpointAuthority": null,
+    "checkpointReady": false,
+    "fullTranslationComplete": false
+  }
+}
