@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "batchId": "149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji",
+  "status": "focused review correction scope authorization before mutation",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "publishedBaseline": "5f6932e4c9d314fc9194374bb48eece0faab4cce",
+  "initialCandidate": "eca81ad7ab5805bd0c6118f452268f0019698067",
+  "reviewRecord": "docs/translation-batches/149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji-independent-review-001.md",
+  "finding": {
+    "scope": "The initial candidate omitted three existing, available source-navigation links in two authorized new lessons.",
+    "references": [
+      {
+        "sourceLesson": "kanji/険.md",
+        "sourceLink": "../words/危険.md",
+        "targetExistsAtFrozenSource": true,
+        "targetExistsInPublishedRussianBaseline": true,
+        "candidateDisposition": "The source-linked occurrence in the meaning paragraph was rendered as plain text; other source occurrences remain linked."
+      },
+      {
+        "sourceLesson": "kanji/静.md",
+        "sourceLink": "青.md",
+        "targetPath": "kanji/青.md",
+        "targetExistsAtFrozenSource": true,
+        "targetExistsInPublishedRussianBaseline": true,
+        "candidateDisposition": "The source-linked occurrence in the modern-shape mnemonic was rendered as plain text."
+      },
+      {
+        "sourceLesson": "kanji/静.md",
+        "sourceLink": "争.md",
+        "targetPath": "kanji/争.md",
+        "targetExistsAtFrozenSource": true,
+        "targetExistsInPublishedRussianBaseline": true,
+        "candidateDisposition": "The source-linked occurrence in the modern-shape mnemonic was rendered as plain text."
+      }
+    ]
+  },
+  "authorization": {
+    "restoreExactlyTheseThreeSourceLinks": true,
+    "preserveVisibleJapaneseTextAndTeachingContext": true,
+    "createOrModifyAnyWordPage": false,
+    "modifyAnyAdditionalRuntimePath": false,
+    "changeQuizOrGradingBehavior": false,
+    "frozenEnglishSourceMustRemainUntouched": true
+  },
+  "acceptanceCondition": "The three links resolve to the existing published Russian pages, the visible Japanese text and teaching content are otherwise unchanged, and no additional runtime path is modified.",
+  "limits": {
+    "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 30 direct directions; no transitive closure inferred.",
+    "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false,
+    "fullTranslationComplete": false
+  }
+}
