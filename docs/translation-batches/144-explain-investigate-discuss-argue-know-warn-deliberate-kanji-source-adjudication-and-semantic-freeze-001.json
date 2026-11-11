@@ -1,0 +1,76 @@
+{
+ "schemaVersion": 1,
+ "batchId": "144-explain-investigate-discuss-argue-know-warn-deliberate-kanji",
+ "recordedAt": "2026-11-11T09:11:07Z",
+ "status": "pre-mutation semantic freeze; authoring is authorized only within this scope",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "d95c7b792b4b575dcbece7b6c880b0e7cdf52a58",
+ "intakeRecord": "docs/translation-batches/144-explain-investigate-discuss-argue-know-warn-deliberate-kanji-intake.json",
+ "sourceRead": {
+  "frozenEnglishLessonsRead": [
+   "kanji/説.md",
+   "kanji/調.md",
+   "kanji/談.md",
+   "kanji/論.md",
+   "kanji/識.md",
+   "kanji/警.md",
+   "kanji/議.md"
+  ],
+  "sourceSnapshotRead": "docs/n3-source-snapshot.json",
+  "primaryEvidenceBoundary": "The frozen English lessons, their exact cited JMdict entry IDs, and the frozen N3/dictionary snapshot identities are the bounded source basis. Dictionary archive hashes identify reused inputs but do not claim fresh record-level review or validate additional frequency/naturalness claims.",
+  "communityJlptBasis": "The frozen 367-entry N3 community list; these positions are not represented as an official JLPT syllabus."
+ },
+ "frozenJapaneseInvariants": {
+  "lessonIdsAndPaths": ["説", "調", "談", "論", "識", "警", "議"],
+  "metadata": true,
+  "readingsAndExamples": true,
+  "directDistractorIds": true,
+  "strokes": "reuse exact byte-identical frozen-source assets",
+  "mnemonics": "remain explicitly modern-shape memory aids, not historical claims",
+  "quiz": "no grading, answer, exclusion, or fallback changes"
+ },
+ "candidateBoundary": {
+  "newLessons": ["説", "調", "談", "論", "識", "警", "議"],
+  "newFrozenStrokeAssets": ["説", "調", "談", "論", "識", "警", "議"],
+  "navigationOnlyWordPages": ["words/説明.md", "words/調べる.md", "words/相談.md", "words/警官.md"],
+  "reciprocalLinkChanges": [
+   {"path":"words/説明.md","kanji":"説","target":"../kanji/説.md","occurrences":1,"context":"In «Как сочетаются кандзи», link the existing plain 説 in the sentence that says 説 is related to explanation."},
+   {"path":"words/調べる.md","kanji":"調","target":"../kanji/調.md","occurrences":1,"context":"In «Как сочетаются кандзи», link the existing plain 調 in the sentence that says 調 is related to research or finding out."},
+   {"path":"words/相談.md","kanji":"談","target":"../kanji/談.md","occurrences":1,"context":"In «Как сочетаются кандзи», link the existing plain 談 after the existing 相 card link."},
+   {"path":"words/警官.md","kanji":"警","target":"../kanji/警.md","occurrences":1,"context":"In «Как сочетаются кандзи», link the existing plain 警 in the sentence about warning or caution."}
+  ],
+  "availableWordLinks": [
+   {"lessonPath":"kanji/説.md","targetPath":"../words/説明.md","occurrences":3},
+   {"lessonPath":"kanji/調.md","targetPath":"../words/調べる.md","occurrences":3},
+   {"lessonPath":"kanji/談.md","targetPath":"../words/相談.md","occurrences":3},
+   {"lessonPath":"kanji/警.md","targetPath":"../words/警官.md","occurrences":2}
+  ],
+  "optionalUnavailableWordLinkWrapperRemovals": [
+   {"lessonPath":"kanji/論.md","targetPath":"../words/議論.md","occurrences":3},
+   {"lessonPath":"kanji/識.md","targetPath":"../words/知識.md","occurrences":3},
+   {"lessonPath":"kanji/議.md","targetPath":"../words/議論.md","occurrences":2}
+  ],
+  "newWordPages": 0,
+  "otherAuthoredRuntimePaths": 0,
+  "quizOrGradingChanges": 0,
+  "unverifiedDirectNegativeFallbackDirections": 21,
+  "generatedManifestBoundary": "Only the repository builder may add exactly the seven new lesson registrations, seven new stroke registrations, four changed reciprocal-link word-page hashes, and the derived contentVersion. Commit a separate pre-generation manifest-scope amendment before running the builder."
+ },
+ "authorization": {
+  "translationWithinRecordedScope": true,
+  "onlyListedOptionalLinkWrapperRemovalsMayChangeLinks": true,
+  "eachExistingWordPageMayReceiveOnlyItsSingleListedReciprocalLink": true,
+  "allOtherWordPageContentMustRemainUnchanged": true,
+  "frozenEnglishSourceMustRemainUntouched": true,
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 21 direct directions; no transitive closure or safety claim authorized",
+  "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false
+ },
+ "unresolved": {
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 21 direct directions",
+  "nativeSpeakerNaturalnessAndUniversalFrequencyClaims": "UNVERIFIED",
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "fullTranslationComplete": false
+ }
+}
