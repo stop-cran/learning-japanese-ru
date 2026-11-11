@@ -1,0 +1,83 @@
+{
+ "baseCommit": "616385e3bed59b00b5d90c2e4e2d2eff2d961406",
+ "batchId": "155-n2-batch-04-kanji",
+ "changes": [
+  {
+   "baseBlob": "949299c75d86a091a6f2fca3cc7a563df064af1e",
+   "baseBytes": 6191,
+   "baseRawSha256": "0baf820e5914ce95bf67da464222f26f23f5cee83d59fd01afa1241f3c2d52f9",
+   "change": "Replaced the broad no-quiz-or-grading-changes count with the precise scope: no grading-code or pre-existing quiz-metadata edits outside the new card additions; recorded the new cards' displayed-answer, distractor, and fallback-pool impact.",
+   "correctedBlob": "b5960bf64387e950584b7282081f81f8d247e0fa",
+   "correctedBytes": 6653,
+   "correctedRawSha256": "6894f046a3f111ad0f70abbda1209c257ab4ff3bbd398301fe83db02f63fe5a6",
+   "path": "docs/translation-batches/155-n2-batch-04-intake.json"
+  },
+  {
+   "baseBlob": "f6da0b39c01f51a6c0bb083ca8172bd15b299a52",
+   "baseBytes": 21515,
+   "baseRawSha256": "e7e0e99d7591915757fc0873003f93c831f7fb7b5ce4ca6680aad7e60d2222e7",
+   "change": "Corrected the frozen quiz invariant to acknowledge the 15 new displayed answers, 45 curated direct distractor directions, and possible participation in existing fallback pools while preserving the UNVERIFIED status and adding no guards.",
+   "correctedBlob": "eb545d5c46a32858562a0da7ae510346c8b85f6c",
+   "correctedBytes": 22211,
+   "correctedRawSha256": "3bbaf9d8ffc1fe9f986107e5f7116f2038ec3ca028203ac4188098117207fcec",
+   "path": "docs/translation-batches/155-n2-batch-04-semantic-freeze-001.json"
+  },
+  {
+   "baseBlob": "6aa3c855fbe00b2676d807639dabb45358de473b",
+   "baseBytes": 7779,
+   "baseRawSha256": "c95135d9b3e2be978786faa05e2c2f28d4483f984ba71d286b7630873f7741ae",
+   "change": "Corrected final candidate-scope claims and recorded the post-correction serial revalidation results and runtime evidence.",
+   "correctedBlob": "1574c62d9d6cf3a8f32e7669990196fa96dc5863",
+   "correctedBytes": 9890,
+   "correctedRawSha256": "8a747468ff6d8adabb818eddc6d32558e325ff9c095a1daa37b88ff4256918e5",
+   "path": "docs/translation-batches/155-n2-batch-04-final-validation-001.json"
+  }
+ ],
+ "quizContentImpact": {
+  "newKanjiDisplayedAnswers": 15,
+  "newCuratedDirectDistractorDirections": 45,
+  "newCardsMayEnterExistingFallbackPools": true,
+  "gradingCodeOrPreExistingQuizMetadataEdits": 0,
+  "qualification": "No grading-code or pre-existing quiz-metadata edits outside the new card additions. All 45 direct distractor directions and fallback safety remain UNVERIFIED; no transitive closure or safety claim is made, and no guards were added."
+ },
+ "recordedAt": "2026-11-11T22:25:47Z",
+ "repository": "stop-cran/learning-japanese-ru",
+ "runtimeEvidence": {
+  "source": "Coordinator-verified by read-only inspection of pinned Android commit 5c000bd",
+  "details": "The coordinator's inspection found that QuizViewModel builds quiz candidates from all in-stack kanji; QuizBuilder uses titles and distractors with the fallback pool. The new kanji can therefore affect displayed answers, options, and existing fallback pools without changing grading code or pre-existing quiz metadata.",
+  "androidCheckoutModified": false
+ },
+ "schemaVersion": 1,
+ "scope": "Hash-bound documentation-only correction to the Batch 155 intake, semantic freeze, and final-validation records; no learner-content, manifest, tracking, progress, grading-code, or learner-state changes.",
+ "revalidation": {
+  "allPassed": true,
+  "commands": [
+   {
+    "command": "python -X utf8 -B tools\\build_manifest.py",
+    "exitCode": 0,
+    "stdout": "manifest.json: 2864 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 32657b3b3f44f6ec"
+   },
+   {
+    "command": "python -X utf8 -B tools\\validate.py",
+    "exitCode": 0,
+    "stdout": "0 error(s)"
+   },
+   {
+    "command": "python -X utf8 -B -m unittest discover -s tools -p \"test_*.py\"",
+    "exitCode": 0,
+    "stdout": "Ran 124 tests in 44.133s; OK"
+   },
+   {
+    "command": "python -X utf8 -B tools\\check_content_budget.py",
+    "exitCode": 0,
+    "stdout": "{'files': 2872, 'entries': 2881, 'retainedBytes': 7946194, 'inflatedBytes': 7964409, 'localZipBytes': 3981585, 'listeningTaskMediaBytes': 0}"
+   },
+   {
+    "command": "git diff --check",
+    "exitCode": 0,
+    "stdout": ""
+   }
+  ]
+ },
+ "status": "Hash-bound quiz-content scope correction recorded; all serial validations passed, publication remains pending."
+}

@@ -202,9 +202,13 @@ The following is the original bounded B3/restoration receipt. Its then-unearned 
 observation is historical; the subsequent five-target observation below updates that boundary
 without rewriting the original APK/history receipt or passing the other remaining gates.
 
-- **Counter suffix / legacy whole-phrase typing:** native-deferred until the existing two-distinct-days
-  Choose prerequisite is genuinely earned. One actual Choose day is recorded; do not advance the clock
-  or inject state to complete the matrix.
+- **Counter suffix / legacy whole-phrase typing:** native acceptance remains deferred pending a second
+  distinct real `CounterChoose` day. Only one actual day is recorded, so this requirement is still
+  unpassed. Do not advance the clock or inject state to complete the matrix.
+  This acceptance requirement is separate from runtime Type availability: `CounterGate.typeOpen`
+  opens if the card's Choose state is Review with at least two repetitions and estimated stability of
+  at least 2.0 days, or if that card's Type state has already started (`phase != New`). This is not a
+  two-calendar-day unlock.
 - **New-cohort Word Type:** the separate Russian-to-Japanese prerequisite has not been earned.
   The 18-label real-composable regression passes, but no new-cohort native Type pass is claimed.
 - **Listening:** both complete reviewed Russian adaptations remain outside runtime pending fresh

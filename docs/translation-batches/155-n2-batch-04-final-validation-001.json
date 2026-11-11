@@ -1,0 +1,260 @@
+{
+ "batchId": "155-n2-batch-04-kanji",
+ "candidateCommit": "eccd6a932216e2c7c4a078b1d2f34f5abe1bdd18",
+ "candidateLocalCommitIdentity": {
+  "author": "stop-cran",
+  "coAuthorTrailers": [
+   "Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+   "Co-authored-by: Copilot App <223556219+Copilot@users.noreply.github.com>"
+  ],
+  "committer": "stop-cran",
+  "signatureFingerprint": "D4C9A275A218AF747B787AFA9D94B9D311BD26A7",
+  "signatureReason": "valid",
+  "signatureVerified": true
+ },
+ "candidateParent": "4153e558ca43b323afa8d383e2a7027e2a5c947e",
+ "candidateScope": {
+  "additionalRuntimePaths": 0,
+  "manifestDeltaFromPublishedBaseline": {
+   "changedExistingHashes": 10,
+   "newRegistrations": 30,
+   "recomputedByBuilder": true,
+   "removedRegistrations": 0,
+   "unrelatedHashChanges": 0
+  },
+  "manifestSha256": "91d62bd40e9fb53387ac6d7371f3f024de157ce5f04f1870b5dbd2182f910acc",
+  "manifestVersion": "32657b3b3f44f6ec",
+  "navigationOnlyWordPages": [
+   "words/印.md",
+   "words/卵.md",
+   "words/厚い.md",
+   "words/召し上がる.md",
+   "words/周り.md",
+   "words/咲く.md",
+   "words/喫茶店.md",
+   "words/団体.md",
+   "words/布団.md",
+   "words/歴史.md"
+  ],
+  "newByteIdenticalStrokeAssets": [
+   "strokes/印.json",
+   "strokes/卵.json",
+   "strokes/厚.json",
+   "strokes/双.json",
+   "strokes/叫.json",
+   "strokes/召.json",
+   "strokes/史.json",
+   "strokes/各.json",
+   "strokes/含.json",
+   "strokes/周.json",
+   "strokes/咲.json",
+   "strokes/喫.json",
+   "strokes/営.json",
+   "strokes/団.json",
+   "strokes/囲.json"
+  ],
+  "newLessons": [
+   "kanji/印.md",
+   "kanji/卵.md",
+   "kanji/厚.md",
+   "kanji/双.md",
+   "kanji/叫.md",
+   "kanji/召.md",
+   "kanji/史.md",
+   "kanji/各.md",
+   "kanji/含.md",
+   "kanji/周.md",
+   "kanji/咲.md",
+   "kanji/喫.md",
+   "kanji/営.md",
+   "kanji/団.md",
+   "kanji/囲.md"
+  ],
+  "newWordPages": 0,
+  "gradingCodeOrPreExistingQuizMetadataEdits": 0,
+  "newKanjiDisplayedAnswers": 15,
+  "newCuratedDirectDistractorDirections": 45,
+  "newCardsMayEnterExistingFallbackPools": true,
+  "quizContentImpact": "The 15 new kanji add displayed answers and 45 curated direct distractor directions, and may enter existing fallback pools. No grading code or pre-existing quiz metadata was edited outside these new card additions. All 45 directions remain UNVERIFIED; no additional guards are inferred."
+ },
+ "candidateTree": "7bba3d5f56742666286580d83248c5c2a90b7299",
+ "postAcceptanceDocumentationCorrection": {
+  "changes": [
+   {
+    "baseBlob": "cc0d3e2f9d7379c920fea78bac2d455009a5517b",
+    "baseRawSha256": "ac859381057f12823473b741f5563ce86d94c80e85774c502a032c78f0f98d46",
+    "correctedBlob": "4e76110c2ba5935caeb3c0c6f8afd968cc68e98c",
+    "correctedRawSha256": "b8b54a0fd1fed1d88ae3d6525b444c6ce5472dd3ee25a11da8ed80b354cda51d",
+    "path": "docs/translation-batches/155-n2-batch-04-semantic-review-001.md"
+   },
+   {
+    "baseBlob": "1ca663a69821c6f86e4d8e6925efbe892c048b45",
+    "baseRawSha256": "3348b1cda7d4ba1b77e4e4255e08b5b6d11591affaef06bf73b38550bf91f7be",
+    "correctedBlob": "924e493bfa661f77b14153be7b54cf80a0ad0375",
+    "correctedRawSha256": "60d248abd402e98cb02dc1d0f09efe6dbf0aa8bec76874ed80c73f7a2a18c722",
+    "path": "docs/translation-batches/155-n2-batch-04-independent-review-001.md"
+   }
+  ],
+  "record": "docs/translation-batches/155-n2-batch-04-review-provenance-correction-001.json",
+  "revalidation": [
+   {
+    "command": "python -X utf8 -B tools\\build_manifest.py",
+    "exitCode": 0,
+    "stdout": "manifest.json: 2864 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 32657b3b3f44f6ec"
+   },
+   {
+    "command": "python -X utf8 -B tools\\validate.py",
+    "exitCode": 0,
+    "stdout": "0 error(s)"
+   },
+   {
+    "command": "python -X utf8 -B -m unittest discover -s tools -p \"test_*.py\"",
+    "exitCode": 0,
+    "stdout": "Ran 124 tests in 43.995s; OK"
+   },
+   {
+    "command": "python -X utf8 -B tools\\check_content_budget.py",
+    "exitCode": 0,
+    "stdout": "{'files': 2872, 'entries': 2881, 'retainedBytes': 7946194, 'inflatedBytes': 7964409, 'localZipBytes': 3981585, 'listeningTaskMediaBytes': 0}"
+   },
+   {
+    "command": "git diff --check",
+    "exitCode": 0,
+    "stdout": ""
+   }
+  ],
+  "scope": "Two documentation records only; no learner-content, manifest, tracking, or progress changes."
+ },
+ "postAcceptanceQuizContentScopeCorrection": {
+  "record": "docs/translation-batches/155-n2-batch-04-quiz-content-scope-correction-001.json",
+  "runtimeEvidence": "The coordinating session's read-only inspection of pinned Android commit 5c000bd found that QuizViewModel builds quiz candidates from all in-stack kanji, and QuizBuilder uses titles and distractors with the fallback pool. New kanji can therefore affect displayed answers, options, and existing fallback pools without changing grading code or pre-existing quiz metadata.",
+  "revalidation": {
+   "allPassed": true,
+   "commands": [
+    {
+     "command": "python -X utf8 -B tools\\build_manifest.py",
+     "exitCode": 0,
+     "stdout": "manifest.json: 2864 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 32657b3b3f44f6ec"
+    },
+    {
+     "command": "python -X utf8 -B tools\\validate.py",
+     "exitCode": 0,
+     "stdout": "0 error(s)"
+    },
+    {
+     "command": "python -X utf8 -B -m unittest discover -s tools -p \"test_*.py\"",
+     "exitCode": 0,
+     "stdout": "Ran 124 tests in 44.133s; OK"
+    },
+    {
+     "command": "python -X utf8 -B tools\\check_content_budget.py",
+     "exitCode": 0,
+     "stdout": "{'files': 2872, 'entries': 2881, 'retainedBytes': 7946194, 'inflatedBytes': 7964409, 'localZipBytes': 3981585, 'listeningTaskMediaBytes': 0}"
+    },
+    {
+     "command": "git diff --check",
+     "exitCode": 0,
+     "stdout": ""
+    }
+   ]
+  },
+  "scope": "Documentation-only correction to quiz-content scope statements and revalidation metadata; no learner-content, manifest, tracking, progress, grading-code, or learner-state changes."
+ },
+ "postAcceptanceQuizRuntimeEvidenceProvenanceCorrection": {
+  "record": "docs/translation-batches/155-n2-batch-04-quiz-runtime-evidence-provenance-correction-001.json",
+  "scope": "Corrects attribution to the coordinating session's read-only inspection; runtime evidence and quiz-safety qualifications are unchanged."
+ },
+ "publication": {
+  "exactMainValidation": null,
+  "pullRequest": null,
+  "status": "pending"
+ },
+ "publishedBaseline": "f5fb4bcc961cd16d6d6f4f07c4da70d28072e85c",
+ "publishedBaselineTree": "2c9401f8d1da70bab21d24c8ff4d2e2b6af23e84",
+ "repository": "stop-cran/learning-japanese-ru",
+ "review": {
+  "additionalHashBoundAmendments": [
+   "docs/translation-batches/155-n2-batch-04-copy-edit-amendment-002.json"
+  ],
+  "additionalHashBoundFollowups": [
+   "docs/translation-batches/155-n2-batch-04-semantic-review-followup-003.md"
+  ],
+  "copyEditFollowup": "docs/translation-batches/155-n2-batch-04-semantic-review-followup-001.md",
+  "directNegativeFallbackDirections": {
+   "count": 45,
+   "quizSafetyClaim": false,
+   "status": "UNVERIFIED",
+   "transitiveClosureInferred": false
+  },
+  "hashBoundScope": "docs/translation-batches/155-n2-batch-04-copy-edit-amendment-001.json",
+  "qualifications": [
+   "No fresh record-level JMdict adjudication or native-speaker certification.",
+   "No runtime/device/media release or ordinary activation approval.",
+   "No checkpoint authority, checkpoint readiness, or full-translation-complete claim."
+  ],
+  "reviewEvidenceStatus": "docs/translation-batches/155-n2-batch-04-independent-review-001.md",
+  "scope": "All 15 lessons have distinct Japanese-fact, source-scope fidelity, and Russian-clarity judgments. All ten navigation-only word changes and both counter-gate documentation corrections were inspected. Four first-round title refinements and the later 各 title/H1 refinement received hash-bound PASS follow-ups.",
+  "semanticReport": "docs/translation-batches/155-n2-batch-04-semantic-review-001.md",
+  "verdict": "QUALIFIED PASS — no supported Japanese-content blocker; the five hash-bound title/H1 copy refinements passed scoped follow-ups."
+ },
+ "schemaVersion": 1,
+ "serialValidation": [
+  {
+   "command": "python -X utf8 -B tools\\build_manifest.py",
+   "exitCode": 0,
+   "stdout": "manifest.json: 2864 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 32657b3b3f44f6ec"
+  },
+  {
+   "command": "python -X utf8 -B tools\\validate.py",
+   "exitCode": 0,
+   "stdout": "0 error(s)"
+  },
+  {
+   "command": "python -X utf8 -B -m unittest discover -s tools -p \"test_*.py\"",
+   "exitCode": 0,
+   "stdout": "Ran 124 tests in 46.132s; OK"
+  },
+  {
+   "command": "python -X utf8 -B tools\\check_content_budget.py",
+   "exitCode": 0,
+   "stdout": "{'files': 2872, 'entries': 2881, 'retainedBytes': 7946194, 'inflatedBytes': 7964409, 'localZipBytes': 3981585, 'listeningTaskMediaBytes': 0}"
+  },
+  {
+   "command": "git diff --check",
+   "exitCode": 0,
+   "stdout": ""
+  }
+ ],
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "qualified frozen-source content and source-progress acceptance; publication pending",
+ "trackingAndProgress": {
+  "adoptedEntries": 2864,
+  "artifacts": {
+   "docs/translation-progress.json": {
+    "sha256": "74b801ceb1922809ac7dd5e59c7fab307d894a65bd0599221666bbaa96ff6243"
+   },
+   "docs/translation-tracking.json": {
+    "sha256": "1bdcbe0a6a08218afbe86a48587f46229b7e2c849ebdbe90e48445ff0af950c2"
+   },
+   "manifest.json": {
+    "sha256": "91d62bd40e9fb53387ac6d7371f3f024de157ce5f04f1870b5dbd2182f910acc"
+   }
+  },
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "excludedReviewedRuntimeBlocked": 2,
+  "frozenInventory": 8278,
+  "fullTranslationComplete": false,
+  "guidanceChanges": 0,
+  "pending": 5412,
+  "reviewedCurrent": 2864,
+  "runtimeAcceptance": false,
+  "runtimeEntries": 8278,
+  "russianContentVersion": "32657b3b3f44f6ec",
+  "sourceChanges": 0,
+  "targetChangedDuringBatch": false,
+  "translationProgressReportMatchesTracking": true,
+  "unreconciledGuidance": 0
+ }
+}
