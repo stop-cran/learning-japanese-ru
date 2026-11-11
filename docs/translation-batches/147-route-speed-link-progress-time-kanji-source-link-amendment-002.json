@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "batchId": "147-route-speed-link-progress-time-kanji",
+ "amendmentId": "147-route-speed-link-progress-time-kanji-source-link-amendment-002",
+ "recordedAt": "2026-11-11T11:09:11Z",
+ "status": "pre-mutation source-link disposition; no runtime content change yet",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "7c175d6a24c0ec4eb78683d6a3ace3b6fa775551",
+ "semanticFreeze": "docs/translation-batches/147-route-speed-link-progress-time-kanji-source-adjudication-and-semantic-freeze-001.json",
+ "finding": {
+  "lesson": "kanji/遅.md",
+  "targetWordPath": "words/遅刻.md",
+  "targetExistsInRussianBaseline": false,
+  "frozenSourceOccurrences": [
+   {
+    "lesson": "遅",
+    "visibleText": "遅刻",
+    "sourceTarget": "../words/遅刻.md",
+    "occurrence": 1,
+    "location": "Meaning/description"
+   },
+   {
+    "lesson": "遅",
+    "visibleText": "遅刻",
+    "sourceTarget": "../words/遅刻.md",
+    "occurrence": 2,
+    "location": "Readings table"
+   },
+   {
+    "lesson": "遅",
+    "visibleText": "遅刻",
+    "sourceTarget": "../words/遅刻.md",
+    "occurrence": 3,
+    "location": "Common words list"
+   }
+  ],
+  "requiredDisposition": "Keep each visible Japanese word as plain text in the Russian lesson; do not create an out-of-scope word page or leave an unresolved link."
+ },
+ "authorization": {
+  "removeOnlyMarkdownLinkWrapper": true,
+  "preserveVisibleJapaneseText": true,
+  "preserveSurroundingTeachingContent": true,
+  "createTargetWordPage": false,
+  "otherLessonOrWordChanges": false,
+  "quizOrGradingChanges": false
+ },
+ "unresolved": {
+  "targetPageTranslation": "outside this batch",
+  "quizNegativeFallbackSafety": "UNVERIFIED"
+ }
+}

@@ -1,0 +1,1043 @@
+{
+ "schemaVersion": 1,
+ "batchId": "147-route-speed-link-progress-time-kanji",
+ "recordedAt": "2026-11-11T11:09:11Z",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "7c175d6a24c0ec4eb78683d6a3ace3b6fa775551",
+ "candidateBranch": "full-ru-147-route-speed-link-progress-time-kanji",
+ "selection": {
+  "selectionMethod": "next contiguous dependency-closed community-N3 source positions",
+  "jlptBasis": "Frozen 367-entry community list; not an official JLPT syllabus.",
+  "frozenN3Snapshot": {
+   "path": "docs/n3-source-snapshot.json",
+   "bytes": 5879,
+   "rawSha256": "4ffdacad14efcdee13e504a36f5705bc2226ea763bf46a00369c1bf6040b28e8",
+   "gitBlob": "b18b0a72779488538324a0b48c82e2684ea89d71",
+   "count": 367,
+   "positionDomain": "one-based order in jlptN3.characters"
+  },
+  "positions": [
+   {
+    "position": 326,
+    "kanji": "途"
+   },
+   {
+    "position": 327,
+    "kanji": "速"
+   },
+   {
+    "position": 328,
+    "kanji": "連"
+   },
+   {
+    "position": 329,
+    "kanji": "進"
+   },
+   {
+    "position": 330,
+    "kanji": "遅"
+   },
+   {
+    "position": 331,
+    "kanji": "遊"
+   },
+   {
+    "position": 332,
+    "kanji": "過"
+   },
+   {
+    "position": 333,
+    "kanji": "達"
+   },
+   {
+    "position": 334,
+    "kanji": "違"
+   },
+   {
+    "position": 335,
+    "kanji": "遠"
+   }
+  ],
+  "alreadyPresentInRuBaseline": [
+   "達"
+  ],
+  "newLessons": [
+   "途",
+   "速",
+   "連",
+   "進",
+   "遅",
+   "遊",
+   "過",
+   "違",
+   "遠"
+  ],
+  "dependencyClosure": {
+   "directDistractorEdges": [
+    "途→近",
+    "途→迷",
+    "途→追",
+    "速→連",
+    "速→週",
+    "速→遠",
+    "連→速",
+    "連→週",
+    "連→遠",
+    "進→週",
+    "進→道",
+    "進→遠",
+    "遅→遊",
+    "遅→週",
+    "遅→速",
+    "遊→族",
+    "遊→週",
+    "遊→道",
+    "過→週",
+    "過→遠",
+    "過→道",
+    "違→遠",
+    "違→連",
+    "違→週",
+    "遠→週",
+    "遠→道",
+    "遠→速"
+   ],
+   "directionCount": 27,
+   "externalDependenciesAlreadyReviewedCurrent": [
+    "族",
+    "近",
+    "迷",
+    "追",
+    "週",
+    "道"
+   ],
+   "negativeFallbackStatus": "UNVERIFIED for all 27 direct directions; no transitive closure inferred"
+  }
+ },
+ "progressSnapshot": {
+  "progressPath": "docs/translation-progress.json",
+  "frozenInventory": 8278,
+  "reviewedCurrent": 2662,
+  "runtimeBlocked": 2,
+  "pending": 5614,
+  "adoptedWords": 1478,
+  "adoptedKanji": 577,
+  "adoptedStrokes": 577,
+  "russianContentVersion": "2744b7a9fcd39d7e",
+  "checkpointAuthority": null,
+  "checkpointReady": false
+ },
+ "sourceLessonIds": {
+  "途": [
+   1582200,
+   1546380
+  ],
+  "速": [
+   1177800,
+   1283700,
+   1404975,
+   1405050,
+   1421970
+  ],
+  "連": [
+   1559290,
+   1559380,
+   1559610
+  ],
+  "進": [
+   1365980,
+   1365990,
+   1366190
+  ],
+  "遅": [
+   1404975,
+   1421970,
+   1422050,
+   1589040
+  ],
+  "遊": [
+   1419370,
+   1542070,
+   1542160,
+   1542170
+  ],
+  "過": [
+   1195970,
+   1196000,
+   1196030
+  ],
+  "違": [
+   1158870,
+   1158880,
+   1611610
+  ],
+  "遠": [
+   1177800,
+   1178260,
+   1178340,
+   1242130
+  ]
+ },
+ "frozenSourceLessons": [
+  {
+   "kanji": "途",
+   "path": "kanji/途.md",
+   "bytes": 1480,
+   "rawSha256": "8eacce9c82a3ff505eca5cffbc2c7d5c8a2e386957dfea12c98d4a5fad6703e8",
+   "manifestSha256": "8eacce9c82a3ff505eca5cffbc2c7d5c8a2e386957dfea12c98d4a5fad6703e8",
+   "gitBlob": "1438e39c660f8e093a26a2267e9fe0a65aaf52b3",
+   "metadata": {
+    "kanji": "途",
+    "title": "route; course",
+    "jlpt": 3,
+    "tags": [
+     "jlpt-n3",
+     "grade-8",
+     "structure-unclassified"
+    ],
+    "strokes": 10,
+    "radical": "辵",
+    "radicalNumber": 162,
+    "onyomi": [
+     "ト"
+    ],
+    "kunyomi": [
+     "みち"
+    ],
+    "distractors": [
+     "近",
+     "迷",
+     "追"
+    ]
+   },
+   "citedJMdictEntryIds": [
+    1582200,
+    1546380
+   ]
+  },
+  {
+   "kanji": "速",
+   "path": "kanji/速.md",
+   "bytes": 1728,
+   "rawSha256": "35007d7fbf8a422034d06e34a3ba16bb475a6bcd84be33b2d0456e06e68258bb",
+   "manifestSha256": "35007d7fbf8a422034d06e34a3ba16bb475a6bcd84be33b2d0456e06e68258bb",
+   "gitBlob": "1bdc8ba0689bee850324b5125ccb90f44aec57f8",
+   "metadata": {
+    "kanji": "速",
+    "title": "fast",
+    "jlpt": 3,
+    "tags": [
+     "jlpt-n3",
+     "grade-3",
+     "structure-unclassified"
+    ],
+    "strokes": 10,
+    "radical": "辵",
+    "radicalNumber": 162,
+    "onyomi": [
+     "ソク"
+    ],
+    "kunyomi": [
+     "はや.い",
+     "はや-",
+     "はや.める",
+     "すみ.やか"
+    ],
+    "distractors": [
+     "連",
+     "週",
+     "遠"
+    ]
+   },
+   "citedJMdictEntryIds": [
+    1177800,
+    1283700,
+    1404975,
+    1405050,
+    1421970
+   ]
+  },
+  {
+   "kanji": "連",
+   "path": "kanji/連.md",
+   "bytes": 1786,
+   "rawSha256": "cb8a9c4108662acdb1e657a204788eb7eeed94dbf83eb8f93a8b9e022a2cf00a",
+   "manifestSha256": "cb8a9c4108662acdb1e657a204788eb7eeed94dbf83eb8f93a8b9e022a2cf00a",
+   "gitBlob": "79800e4850f22303d84f4908a240fd03a7e624e4",
+   "metadata": {
+    "kanji": "連",
+    "title": "link; take along",
+    "jlpt": 3,
+    "tags": [
+     "jlpt-n3",
+     "grade-4",
+     "structure-unclassified"
+    ],
+    "strokes": 10,
+    "radical": "辵",
+    "radicalNumber": 162,
+    "onyomi": [
+     "レン"
+    ],
+    "kunyomi": [
+     "つら.なる",
+     "つら.ねる",
+     "つ.れる",
+     "-づ.れ"
+    ],
+    "distractors": [
+     "速",
+     "週",
+     "遠"
+    ]
+   },
+   "citedJMdictEntryIds": [
+    1559290,
+    1559380,
+    1559610
+   ]
+  },
+  {
+   "kanji": "進",
+   "path": "kanji/進.md",
+   "bytes": 1814,
+   "rawSha256": "ad552bc911456b433c3391cf93f92b717671edb99f6a958abf1db5f2bfcc52dd",
+   "manifestSha256": "ad552bc911456b433c3391cf93f92b717671edb99f6a958abf1db5f2bfcc52dd",
+   "gitBlob": "090aa54c786995b6b070678ad62390fe661ebd70",
+   "metadata": {
+    "kanji": "進",
+    "title": "advance",
+    "jlpt": 3,
+    "tags": [
+     "jlpt-n3",
+     "grade-3",
+     "structure-unclassified"
+    ],
+    "strokes": 11,
+    "radical": "辵",
+    "radicalNumber": 162,
+    "onyomi": [
+     "シン"
+    ],
+    "kunyomi": [
+     "すす.む",
+     "すす.める"
+    ],
+    "distractors": [
+     "週",
+     "道",
+     "遠"
+    ]
+   },
+   "citedJMdictEntryIds": [
+    1365980,
+    1365990,
+    1366190
+   ]
+  },
+  {
+   "kanji": "遅",
+   "path": "kanji/遅.md",
+   "bytes": 1775,
+   "rawSha256": "2d2b9b9dcd645d23a22ddd52f51d212bc937c736efac974d551dc3fa6cbeb82a",
+   "manifestSha256": "2d2b9b9dcd645d23a22ddd52f51d212bc937c736efac974d551dc3fa6cbeb82a",
+   "gitBlob": "8451b7030ce9149b21671d1b56d1fec4e4476bf8",
+   "metadata": {
+    "kanji": "遅",
+    "title": "late; slow",
+    "jlpt": 3,
+    "tags": [
+     "jlpt-n3",
+     "grade-8",
+     "structure-unclassified"
+    ],
+    "strokes": 12,
+    "radical": "辵",
+    "radicalNumber": 162,
+    "onyomi": [
+     "チ"
+    ],
+    "kunyomi": [
+     "おく.れる",
+     "おく.らす",
+     "おそ.い"
+    ],
+    "distractors": [
+     "遊",
+     "週",
+     "速"
+    ]
+   },
+   "citedJMdictEntryIds": [
+    1404975,
+    1421970,
+    1422050,
+    1589040
+   ]
+  },
+  {
+   "kanji": "遊",
+   "path": "kanji/遊.md",
+   "bytes": 1698,
+   "rawSha256": "b4f7408ef3f58778bae89bd3ac09b3e28d227c41314dfc2e9f6bae50ce126a35",
+   "manifestSha256": "b4f7408ef3f58778bae89bd3ac09b3e28d227c41314dfc2e9f6bae50ce126a35",
+   "gitBlob": "20cb6d0f0477669f49cb0281aa8037d0f7763e0d",
+   "metadata": {
+    "kanji": "遊",
+    "title": "play",
+    "jlpt": 3,
+    "tags": [
+     "jlpt-n3",
+     "grade-3",
+     "structure-unclassified"
+    ],
+    "strokes": 12,
+    "radical": "辵",
+    "radicalNumber": 162,
+    "onyomi": [
+     "ユウ",
+     "ユ"
+    ],
+    "kunyomi": [
+     "あそ.ぶ",
+     "あそ.ばす"
+    ],
+    "distractors": [
+     "族",
+     "週",
+     "道"
+    ]
+   },
+   "citedJMdictEntryIds": [
+    1419370,
+    1542070,
+    1542160,
+    1542170
+   ]
+  },
+  {
+   "kanji": "過",
+   "path": "kanji/過.md",
+   "bytes": 1814,
+   "rawSha256": "890c27c9d53defd019149ca956960511054e9865301960c2f0855afe81661169",
+   "manifestSha256": "890c27c9d53defd019149ca956960511054e9865301960c2f0855afe81661169",
+   "gitBlob": "996a58c93b09093a4ba7342933b97b58db7a7644",
+   "metadata": {
+    "kanji": "過",
+    "title": "exceed; go beyond",
+    "jlpt": 3,
+    "tags": [
+     "jlpt-n3",
+     "grade-5",
+     "structure-unclassified"
+    ],
+    "strokes": 12,
+    "radical": "辵",
+    "radicalNumber": 162,
+    "onyomi": [
+     "カ"
+    ],
+    "kunyomi": [
+     "す.ぎる",
+     "す.ごす",
+     "あやま.ち",
+     "あやま.つ",
+     "よぎ.る",
+     "よ.ぎる"
+    ],
+    "distractors": [
+     "週",
+     "遠",
+     "道"
+    ]
+   },
+   "citedJMdictEntryIds": [
+    1195970,
+    1196000,
+    1196030
+   ]
+  },
+  {
+   "kanji": "違",
+   "path": "kanji/違.md",
+   "bytes": 1768,
+   "rawSha256": "cd238b3f1547930e114521c50287f68480d8bfdc8e6ff3f5f1c4f637ae2b6a3b",
+   "manifestSha256": "cd238b3f1547930e114521c50287f68480d8bfdc8e6ff3f5f1c4f637ae2b6a3b",
+   "gitBlob": "0d3fb19b4dd49fcda3a80729bed58a91e033899a",
+   "metadata": {
+    "kanji": "違",
+    "title": "differ",
+    "jlpt": 3,
+    "tags": [
+     "jlpt-n3",
+     "grade-8",
+     "structure-unclassified"
+    ],
+    "strokes": 13,
+    "radical": "辵",
+    "radicalNumber": 162,
+    "onyomi": [
+     "イ"
+    ],
+    "kunyomi": [
+     "ちが.う",
+     "ちが.い",
+     "ちが.える",
+     "-ちが.える",
+     "たが.う",
+     "たが.える"
+    ],
+    "distractors": [
+     "遠",
+     "連",
+     "週"
+    ]
+   },
+   "citedJMdictEntryIds": [
+    1158870,
+    1158880,
+    1611610
+   ]
+  },
+  {
+   "kanji": "遠",
+   "path": "kanji/遠.md",
+   "bytes": 1702,
+   "rawSha256": "3e94315bef1e70c68caf062929b12bde6835be4b52df76ebb3e7a2d9934ff2a5",
+   "manifestSha256": "3e94315bef1e70c68caf062929b12bde6835be4b52df76ebb3e7a2d9934ff2a5",
+   "gitBlob": "ceababe3e2ac241345faef9806ae8719a0b3fd8d",
+   "metadata": {
+    "kanji": "遠",
+    "title": "far",
+    "jlpt": 3,
+    "tags": [
+     "jlpt-n3",
+     "grade-2",
+     "structure-unclassified"
+    ],
+    "strokes": 13,
+    "radical": "辵",
+    "radicalNumber": 162,
+    "onyomi": [
+     "エン",
+     "オン"
+    ],
+    "kunyomi": [
+     "とお.い"
+    ],
+    "distractors": [
+     "週",
+     "道",
+     "速"
+    ]
+   },
+   "citedJMdictEntryIds": [
+    1177800,
+    1178260,
+    1178340,
+    1242130
+   ]
+  }
+ ],
+ "frozenStrokeAssets": [
+  {
+   "path": "strokes/途.json",
+   "bytes": 2462,
+   "rawSha256": "6e2863af40e4fdd435f042711c3fd5657f40f127f5fe569e4025a6c25025547a",
+   "gitBlob": "ecd9bf0b3f8bf4f46726c5090b85b085177ff6b8",
+   "manifestSha256": "6e2863af40e4fdd435f042711c3fd5657f40f127f5fe569e4025a6c25025547a"
+  },
+  {
+   "path": "strokes/速.json",
+   "bytes": 2468,
+   "rawSha256": "de1dac54b6fe78ae3d674131b5be4a6d92cac686f59be818a863a67e27c0fe36",
+   "gitBlob": "d7995b50f16c1364ca7fef413d69bedb687ca4cb",
+   "manifestSha256": "de1dac54b6fe78ae3d674131b5be4a6d92cac686f59be818a863a67e27c0fe36"
+  },
+  {
+   "path": "strokes/連.json",
+   "bytes": 2465,
+   "rawSha256": "1c411cce8d64be368830d1ec2211dfbce5e399eea5f6be75839e916935c99a66",
+   "gitBlob": "c411b3bc6710f30064e1911f2d087756a8358cfc",
+   "manifestSha256": "1c411cce8d64be368830d1ec2211dfbce5e399eea5f6be75839e916935c99a66"
+  },
+  {
+   "path": "strokes/進.json",
+   "bytes": 2693,
+   "rawSha256": "93e4fb6a084d7c7a280bfb58e0469dbc118ebc2757c5c449513c402efa7b9a56",
+   "gitBlob": "5358af1d8b96ff521f8b140441cf7def31b6de6d",
+   "manifestSha256": "93e4fb6a084d7c7a280bfb58e0469dbc118ebc2757c5c449513c402efa7b9a56"
+  },
+  {
+   "path": "strokes/遅.json",
+   "bytes": 2916,
+   "rawSha256": "3e37cfa04432b180d2168c719e85313c12e1a9bc045c8bda160b2fca737a1be2",
+   "gitBlob": "d2aa207488d4087ff70891cb7208cea76fc9c4ff",
+   "manifestSha256": "3e37cfa04432b180d2168c719e85313c12e1a9bc045c8bda160b2fca737a1be2"
+  },
+  {
+   "path": "strokes/遊.json",
+   "bytes": 2916,
+   "rawSha256": "0da8aec0cec0a2ea4a458f12e124f7c836f1b112cd1a86445338a3a9bbc5b8ca",
+   "gitBlob": "5facfaab4789bbcd7ed8cbdfa6503c1a3d0c3bde",
+   "manifestSha256": "0da8aec0cec0a2ea4a458f12e124f7c836f1b112cd1a86445338a3a9bbc5b8ca"
+  },
+  {
+   "path": "strokes/過.json",
+   "bytes": 2921,
+   "rawSha256": "80dac43e0cc484951d02f8e43c10de684d508eaa64effd8030aad7753e26da7e",
+   "gitBlob": "9fab4480fef3d04be531ae203d7f3a5a88bad71c",
+   "manifestSha256": "80dac43e0cc484951d02f8e43c10de684d508eaa64effd8030aad7753e26da7e"
+  },
+  {
+   "path": "strokes/違.json",
+   "bytes": 3145,
+   "rawSha256": "e9e6fd0e113254d925de44003836a9aa23acb18ad98cf7d2d9e10dc9bdf5fef7",
+   "gitBlob": "a2df8fe4cac19372382049d31c896066b274fab5",
+   "manifestSha256": "e9e6fd0e113254d925de44003836a9aa23acb18ad98cf7d2d9e10dc9bdf5fef7"
+  },
+  {
+   "path": "strokes/遠.json",
+   "bytes": 3151,
+   "rawSha256": "d8d25c60f7d67e4a91541579bdc9e68d0123575e77b32b9b475cf9729f4a515e",
+   "gitBlob": "258813aeef407b44132c7d73bc4619d551f327d5",
+   "manifestSha256": "d8d25c60f7d67e4a91541579bdc9e68d0123575e77b32b9b475cf9729f4a515e"
+  }
+ ],
+ "existingNavigationWordPages": [
+  {
+   "path": "words/途中.md",
+   "kanji": "途",
+   "target": "../kanji/途.md",
+   "occurrences": 1,
+   "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+   "baselineBytes": 2798,
+   "baselineRawSha256": "314d2c87a6dda316d16bc439ac9c9dbe466719790d455e0f4c59693f36bb0904",
+   "baselineManifestSha256": "314d2c87a6dda316d16bc439ac9c9dbe466719790d455e0f4c59693f36bb0904",
+   "baselineGitBlob": "5277663dcf0cca7fae92534b6e2fa2e822ed3534"
+  },
+  {
+   "path": "words/速い.md",
+   "kanji": "速",
+   "target": "../kanji/速.md",
+   "occurrences": 1,
+   "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+   "baselineBytes": 2504,
+   "baselineRawSha256": "b878dc9785c561ee8d4298cd2fa4599095517585896e7a8576ce6b4e7b633db0",
+   "baselineManifestSha256": "b878dc9785c561ee8d4298cd2fa4599095517585896e7a8576ce6b4e7b633db0",
+   "baselineGitBlob": "53a9d33d4c770ca7042482dee445c9e8364e67a0"
+  },
+  {
+   "path": "words/連れる.md",
+   "kanji": "連",
+   "target": "../kanji/連.md",
+   "occurrences": 1,
+   "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+   "baselineBytes": 2112,
+   "baselineRawSha256": "18c5e19aa45b59d53ee338bfaf29c0a1bcb7a8c076d29579b0110148563621af",
+   "baselineManifestSha256": "18c5e19aa45b59d53ee338bfaf29c0a1bcb7a8c076d29579b0110148563621af",
+   "baselineGitBlob": "6890f6b6e55ef240ca1e00c8c9029c05bada5937"
+  },
+  {
+   "path": "words/連絡.md",
+   "kanji": "連",
+   "target": "../kanji/連.md",
+   "occurrences": 1,
+   "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+   "baselineBytes": 2140,
+   "baselineRawSha256": "0faf2ae6e1933d8e40bbd8ca76bb0c1bc05507b55639d82227b92be8fd604f17",
+   "baselineManifestSha256": "0faf2ae6e1933d8e40bbd8ca76bb0c1bc05507b55639d82227b92be8fd604f17",
+   "baselineGitBlob": "7984ae3698708b2641ecc099eacc43f618998687"
+  },
+  {
+   "path": "words/進む.md",
+   "kanji": "進",
+   "target": "../kanji/進.md",
+   "occurrences": 1,
+   "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+   "baselineBytes": 2495,
+   "baselineRawSha256": "72474731038cc9e34182317153a68c5b1bbd78ef65478a0b9eb6df81006f49e7",
+   "baselineManifestSha256": "72474731038cc9e34182317153a68c5b1bbd78ef65478a0b9eb6df81006f49e7",
+   "baselineGitBlob": "bb70cb6411e6c0d045129aa688e9b129d28c4317"
+  },
+  {
+   "path": "words/遅い.md",
+   "kanji": "遅",
+   "target": "../kanji/遅.md",
+   "occurrences": 1,
+   "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+   "baselineBytes": 2100,
+   "baselineRawSha256": "27b5458300ab693f6ddf4e411d1a35b382727408fd29273be5e2538bcd7490ae",
+   "baselineManifestSha256": "27b5458300ab693f6ddf4e411d1a35b382727408fd29273be5e2538bcd7490ae",
+   "baselineGitBlob": "28f35e041be349ba28f74cafc63e36d74933a60b"
+  },
+  {
+   "path": "words/遅れる.md",
+   "kanji": "遅",
+   "target": "../kanji/遅.md",
+   "occurrences": 1,
+   "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+   "baselineBytes": 2224,
+   "baselineRawSha256": "f667274ab957340f89249d96bfed4504408e558bba552725e43cca24cca57f46",
+   "baselineManifestSha256": "f667274ab957340f89249d96bfed4504408e558bba552725e43cca24cca57f46",
+   "baselineGitBlob": "2f0ead514c183316dad81ae99bfcce4df044586d"
+  },
+  {
+   "path": "words/遊び.md",
+   "kanji": "遊",
+   "target": "../kanji/遊.md",
+   "occurrences": 1,
+   "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+   "baselineBytes": 2180,
+   "baselineRawSha256": "a66a69f2371f72c9573d52ebcb3460aa6529fcd40df8ab801f763ad4b9bc282e",
+   "baselineManifestSha256": "a66a69f2371f72c9573d52ebcb3460aa6529fcd40df8ab801f763ad4b9bc282e",
+   "baselineGitBlob": "bf85914e562a3cfc45ac24690b15b46a2db1fed9"
+  },
+  {
+   "path": "words/遊ぶ.md",
+   "kanji": "遊",
+   "target": "../kanji/遊.md",
+   "occurrences": 1,
+   "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+   "baselineBytes": 2890,
+   "baselineRawSha256": "9d48a6baef74979a3f96f0f617337447849f997bf28a8ac72194d0a24f529661",
+   "baselineManifestSha256": "9d48a6baef74979a3f96f0f617337447849f997bf28a8ac72194d0a24f529661",
+   "baselineGitBlob": "fe8bab660abda4ceabbf4526d674936a28c2379c"
+  },
+  {
+   "path": "words/過ぎる.md",
+   "kanji": "過",
+   "target": "../kanji/過.md",
+   "occurrences": 1,
+   "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+   "baselineBytes": 3071,
+   "baselineRawSha256": "faab13b6dea0c33d96c7af9f7cf520a6e5f6c1bc5ee891b9a4367a343f8869a1",
+   "baselineManifestSha256": "faab13b6dea0c33d96c7af9f7cf520a6e5f6c1bc5ee891b9a4367a343f8869a1",
+   "baselineGitBlob": "b073558f1002d903e2f37b323e2ef275999de8bf"
+  },
+  {
+   "path": "words/違う.md",
+   "kanji": "違",
+   "target": "../kanji/違.md",
+   "occurrences": 1,
+   "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+   "baselineBytes": 2215,
+   "baselineRawSha256": "6f31da3106fc52220618d2266c76d88477bfa93537066fed1f4e458f414fedde",
+   "baselineManifestSha256": "6f31da3106fc52220618d2266c76d88477bfa93537066fed1f4e458f414fedde",
+   "baselineGitBlob": "c087e0ce3cc43cf396a004fc9c22639cbb3600b2"
+  },
+  {
+   "path": "words/遠い.md",
+   "kanji": "遠",
+   "target": "../kanji/遠.md",
+   "occurrences": 1,
+   "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+   "baselineBytes": 2213,
+   "baselineRawSha256": "e99af87d7f060e0c5ff25381f04993e5a0accf5ef2419ad4f4ff4899dcb3d37a",
+   "baselineManifestSha256": "e99af87d7f060e0c5ff25381f04993e5a0accf5ef2419ad4f4ff4899dcb3d37a",
+   "baselineGitBlob": "ec800dc6333ecd103fbb8c28c1c1bd9940854c92"
+  },
+  {
+   "path": "words/遠く.md",
+   "kanji": "遠",
+   "target": "../kanji/遠.md",
+   "occurrences": 1,
+   "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+   "baselineBytes": 2252,
+   "baselineRawSha256": "b897d1fb371e873007cf9f53cb37912f7189d55d66778b8697563ca1869936e0",
+   "baselineManifestSha256": "b897d1fb371e873007cf9f53cb37912f7189d55d66778b8697563ca1869936e0",
+   "baselineGitBlob": "3f942cb12c138f1e8d186abdbb0855583c64a82e"
+  },
+  {
+   "path": "words/遠慮.md",
+   "kanji": "遠",
+   "target": "../kanji/遠.md",
+   "occurrences": 1,
+   "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+   "baselineBytes": 2543,
+   "baselineRawSha256": "3f1446f6c4c81b892e9041fc5f5462d08f49ac32c602eb0095af86df71e213c7",
+   "baselineManifestSha256": "3f1446f6c4c81b892e9041fc5f5462d08f49ac32c602eb0095af86df71e213c7",
+   "baselineGitBlob": "e3c54b6be66c6898d246397066b461e751e1f7a6"
+  },
+  {
+   "path": "words/間違える.md",
+   "kanji": "違",
+   "target": "../kanji/違.md",
+   "occurrences": 1,
+   "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+   "baselineBytes": 2080,
+   "baselineRawSha256": "edc63efaf13c40d0cdf332a938c40d31dd523b663cdd7333776f8cdd24c45115",
+   "baselineManifestSha256": "edc63efaf13c40d0cdf332a938c40d31dd523b663cdd7333776f8cdd24c45115",
+   "baselineGitBlob": "3cf52eff6396cfdf01a857a12e4769578e72f3cd"
+  }
+ ],
+ "unavailableOptionalReferences": [
+  {
+   "lesson": "連",
+   "label": "連休",
+   "target": "../words/連休.md",
+   "resolvedTarget": "words/連休.md",
+   "status": "missing-optional-source-reference"
+  },
+  {
+   "lesson": "連",
+   "label": "連休",
+   "target": "../words/連休.md",
+   "resolvedTarget": "words/連休.md",
+   "status": "missing-optional-source-reference"
+  },
+  {
+   "lesson": "連",
+   "label": "連休",
+   "target": "../words/連休.md",
+   "resolvedTarget": "words/連休.md",
+   "status": "missing-optional-source-reference"
+  },
+  {
+   "lesson": "遅",
+   "label": "遅刻",
+   "target": "../words/遅刻.md",
+   "resolvedTarget": "words/遅刻.md",
+   "status": "missing-optional-source-reference"
+  },
+  {
+   "lesson": "遅",
+   "label": "遅刻",
+   "target": "../words/遅刻.md",
+   "resolvedTarget": "words/遅刻.md",
+   "status": "missing-optional-source-reference"
+  },
+  {
+   "lesson": "遅",
+   "label": "遅刻",
+   "target": "../words/遅刻.md",
+   "resolvedTarget": "words/遅刻.md",
+   "status": "missing-optional-source-reference"
+  }
+ ],
+ "baselineManifest": {
+  "path": "manifest.json",
+  "bytes": 237815,
+  "rawSha256": "f8bc71831cdd83678b598707301e40dcfe99a8aa5de56a2d5428cf63d1c8f98f",
+  "contentVersion": "2744b7a9fcd39d7e"
+ },
+ "candidateBoundary": {
+  "newLessons": [
+   "途",
+   "速",
+   "連",
+   "進",
+   "遅",
+   "遊",
+   "過",
+   "違",
+   "遠"
+  ],
+  "newByteIdenticalStrokeAssets": [
+   "途",
+   "速",
+   "連",
+   "進",
+   "遅",
+   "遊",
+   "過",
+   "違",
+   "遠"
+  ],
+  "navigationOnlyWordPages": [
+   "words/途中.md",
+   "words/速い.md",
+   "words/連れる.md",
+   "words/連絡.md",
+   "words/進む.md",
+   "words/遅い.md",
+   "words/遅れる.md",
+   "words/遊び.md",
+   "words/遊ぶ.md",
+   "words/過ぎる.md",
+   "words/違う.md",
+   "words/遠い.md",
+   "words/遠く.md",
+   "words/遠慮.md",
+   "words/間違える.md"
+  ],
+  "reciprocalLinkChanges": [
+   {
+    "path": "words/途中.md",
+    "kanji": "途",
+    "target": "../kanji/途.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+    "baselineBytes": 2798,
+    "baselineRawSha256": "314d2c87a6dda316d16bc439ac9c9dbe466719790d455e0f4c59693f36bb0904",
+    "baselineManifestSha256": "314d2c87a6dda316d16bc439ac9c9dbe466719790d455e0f4c59693f36bb0904",
+    "baselineGitBlob": "5277663dcf0cca7fae92534b6e2fa2e822ed3534"
+   },
+   {
+    "path": "words/速い.md",
+    "kanji": "速",
+    "target": "../kanji/速.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+    "baselineBytes": 2504,
+    "baselineRawSha256": "b878dc9785c561ee8d4298cd2fa4599095517585896e7a8576ce6b4e7b633db0",
+    "baselineManifestSha256": "b878dc9785c561ee8d4298cd2fa4599095517585896e7a8576ce6b4e7b633db0",
+    "baselineGitBlob": "53a9d33d4c770ca7042482dee445c9e8364e67a0"
+   },
+   {
+    "path": "words/連れる.md",
+    "kanji": "連",
+    "target": "../kanji/連.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+    "baselineBytes": 2112,
+    "baselineRawSha256": "18c5e19aa45b59d53ee338bfaf29c0a1bcb7a8c076d29579b0110148563621af",
+    "baselineManifestSha256": "18c5e19aa45b59d53ee338bfaf29c0a1bcb7a8c076d29579b0110148563621af",
+    "baselineGitBlob": "6890f6b6e55ef240ca1e00c8c9029c05bada5937"
+   },
+   {
+    "path": "words/連絡.md",
+    "kanji": "連",
+    "target": "../kanji/連.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+    "baselineBytes": 2140,
+    "baselineRawSha256": "0faf2ae6e1933d8e40bbd8ca76bb0c1bc05507b55639d82227b92be8fd604f17",
+    "baselineManifestSha256": "0faf2ae6e1933d8e40bbd8ca76bb0c1bc05507b55639d82227b92be8fd604f17",
+    "baselineGitBlob": "7984ae3698708b2641ecc099eacc43f618998687"
+   },
+   {
+    "path": "words/進む.md",
+    "kanji": "進",
+    "target": "../kanji/進.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+    "baselineBytes": 2495,
+    "baselineRawSha256": "72474731038cc9e34182317153a68c5b1bbd78ef65478a0b9eb6df81006f49e7",
+    "baselineManifestSha256": "72474731038cc9e34182317153a68c5b1bbd78ef65478a0b9eb6df81006f49e7",
+    "baselineGitBlob": "bb70cb6411e6c0d045129aa688e9b129d28c4317"
+   },
+   {
+    "path": "words/遅い.md",
+    "kanji": "遅",
+    "target": "../kanji/遅.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+    "baselineBytes": 2100,
+    "baselineRawSha256": "27b5458300ab693f6ddf4e411d1a35b382727408fd29273be5e2538bcd7490ae",
+    "baselineManifestSha256": "27b5458300ab693f6ddf4e411d1a35b382727408fd29273be5e2538bcd7490ae",
+    "baselineGitBlob": "28f35e041be349ba28f74cafc63e36d74933a60b"
+   },
+   {
+    "path": "words/遅れる.md",
+    "kanji": "遅",
+    "target": "../kanji/遅.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+    "baselineBytes": 2224,
+    "baselineRawSha256": "f667274ab957340f89249d96bfed4504408e558bba552725e43cca24cca57f46",
+    "baselineManifestSha256": "f667274ab957340f89249d96bfed4504408e558bba552725e43cca24cca57f46",
+    "baselineGitBlob": "2f0ead514c183316dad81ae99bfcce4df044586d"
+   },
+   {
+    "path": "words/遊び.md",
+    "kanji": "遊",
+    "target": "../kanji/遊.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+    "baselineBytes": 2180,
+    "baselineRawSha256": "a66a69f2371f72c9573d52ebcb3460aa6529fcd40df8ab801f763ad4b9bc282e",
+    "baselineManifestSha256": "a66a69f2371f72c9573d52ebcb3460aa6529fcd40df8ab801f763ad4b9bc282e",
+    "baselineGitBlob": "bf85914e562a3cfc45ac24690b15b46a2db1fed9"
+   },
+   {
+    "path": "words/遊ぶ.md",
+    "kanji": "遊",
+    "target": "../kanji/遊.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+    "baselineBytes": 2890,
+    "baselineRawSha256": "9d48a6baef74979a3f96f0f617337447849f997bf28a8ac72194d0a24f529661",
+    "baselineManifestSha256": "9d48a6baef74979a3f96f0f617337447849f997bf28a8ac72194d0a24f529661",
+    "baselineGitBlob": "fe8bab660abda4ceabbf4526d674936a28c2379c"
+   },
+   {
+    "path": "words/過ぎる.md",
+    "kanji": "過",
+    "target": "../kanji/過.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+    "baselineBytes": 3071,
+    "baselineRawSha256": "faab13b6dea0c33d96c7af9f7cf520a6e5f6c1bc5ee891b9a4367a343f8869a1",
+    "baselineManifestSha256": "faab13b6dea0c33d96c7af9f7cf520a6e5f6c1bc5ee891b9a4367a343f8869a1",
+    "baselineGitBlob": "b073558f1002d903e2f37b323e2ef275999de8bf"
+   },
+   {
+    "path": "words/違う.md",
+    "kanji": "違",
+    "target": "../kanji/違.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+    "baselineBytes": 2215,
+    "baselineRawSha256": "6f31da3106fc52220618d2266c76d88477bfa93537066fed1f4e458f414fedde",
+    "baselineManifestSha256": "6f31da3106fc52220618d2266c76d88477bfa93537066fed1f4e458f414fedde",
+    "baselineGitBlob": "c087e0ce3cc43cf396a004fc9c22639cbb3600b2"
+   },
+   {
+    "path": "words/遠い.md",
+    "kanji": "遠",
+    "target": "../kanji/遠.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+    "baselineBytes": 2213,
+    "baselineRawSha256": "e99af87d7f060e0c5ff25381f04993e5a0accf5ef2419ad4f4ff4899dcb3d37a",
+    "baselineManifestSha256": "e99af87d7f060e0c5ff25381f04993e5a0accf5ef2419ad4f4ff4899dcb3d37a",
+    "baselineGitBlob": "ec800dc6333ecd103fbb8c28c1c1bd9940854c92"
+   },
+   {
+    "path": "words/遠く.md",
+    "kanji": "遠",
+    "target": "../kanji/遠.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+    "baselineBytes": 2252,
+    "baselineRawSha256": "b897d1fb371e873007cf9f53cb37912f7189d55d66778b8697563ca1869936e0",
+    "baselineManifestSha256": "b897d1fb371e873007cf9f53cb37912f7189d55d66778b8697563ca1869936e0",
+    "baselineGitBlob": "3f942cb12c138f1e8d186abdbb0855583c64a82e"
+   },
+   {
+    "path": "words/遠慮.md",
+    "kanji": "遠",
+    "target": "../kanji/遠.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+    "baselineBytes": 2543,
+    "baselineRawSha256": "3f1446f6c4c81b892e9041fc5f5462d08f49ac32c602eb0095af86df71e213c7",
+    "baselineManifestSha256": "3f1446f6c4c81b892e9041fc5f5462d08f49ac32c602eb0095af86df71e213c7",
+    "baselineGitBlob": "e3c54b6be66c6898d246397066b461e751e1f7a6"
+   },
+   {
+    "path": "words/間違える.md",
+    "kanji": "違",
+    "target": "../kanji/違.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link in the existing kanji explanation, at its first explanatory occurrence.",
+    "baselineBytes": 2080,
+    "baselineRawSha256": "edc63efaf13c40d0cdf332a938c40d31dd523b663cdd7333776f8cdd24c45115",
+    "baselineManifestSha256": "edc63efaf13c40d0cdf332a938c40d31dd523b663cdd7333776f8cdd24c45115",
+    "baselineGitBlob": "3cf52eff6396cfdf01a857a12e4769578e72f3cd"
+   }
+  ],
+  "newWordPages": 0,
+  "otherAuthoredRuntimePaths": 0,
+  "quizOrGradingChanges": 0,
+  "generatedManifestBoundary": "Before build_manifest, commit a separate amendment authorizing exactly nine new lesson registrations, nine new stroke registrations, 15 changed reciprocal-link word hashes, and builder-derived contentVersion."
+ },
+ "limits": {
+  "directNegativeFallbackDirections": "UNVERIFIED for all 27 directions; no transitive closure inferred",
+  "ordinaryQuizSafety": false,
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false
+ }
+}
