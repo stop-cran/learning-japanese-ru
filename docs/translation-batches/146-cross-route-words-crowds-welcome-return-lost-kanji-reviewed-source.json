@@ -1,0 +1,142 @@
+{
+ "schemaVersion": 1,
+ "batchId": "146-cross-route-words-crowds-welcome-return-lost-kanji",
+ "recordedAt": "2026-11-11T10:58:41Z",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "28555f4735a3567fa1ed42a0dc30abbb1a543acf",
+ "candidateCommit": "8788270a25458e6eb06e41eaf8af0e7cb6e32eba",
+ "candidateTree": "bdb51ccd6702e21f359b45478702cde36b346360",
+ "manifestVersion": "2744b7a9fcd39d7e",
+ "status": "qualified frozen-source content and progress acceptance; publication pending",
+ "independentReview": "docs/translation-batches/146-cross-route-words-crowds-welcome-return-lost-kanji-independent-review-001.md",
+ "scopeRecords": [
+  "docs/translation-batches/146-cross-route-words-crowds-welcome-return-lost-kanji-intake.json",
+  "docs/translation-batches/146-cross-route-words-crowds-welcome-return-lost-kanji-source-adjudication-and-semantic-freeze-001.json",
+  "docs/translation-batches/146-cross-route-words-crowds-welcome-return-lost-kanji-manifest-generation-amendment-001.json",
+  "docs/translation-batches/146-cross-route-words-crowds-welcome-return-lost-kanji-source-link-amendment-001.json",
+  "docs/translation-batches/146-cross-route-words-crowds-welcome-return-lost-kanji-source-link-amendment-002.json"
+ ],
+ "scope": {
+  "newLessons": [
+   "越",
+   "路",
+   "辞",
+   "込",
+   "迎",
+   "返",
+   "迷",
+   "追",
+   "退",
+   "逃"
+  ],
+  "newByteIdenticalStrokeAssets": [
+   "越",
+   "路",
+   "辞",
+   "込",
+   "迎",
+   "返",
+   "迷",
+   "追",
+   "退",
+   "逃"
+  ],
+  "navigationOnlyWordPages": [
+   "words/引っ越す.md",
+   "words/申し込む.md",
+   "words/辞典.md",
+   "words/辞書.md",
+   "words/込む.md",
+   "words/迎える.md",
+   "words/返す.md",
+   "words/返事.md",
+   "words/退院.md",
+   "words/逃げる.md"
+  ],
+  "optionalUnavailableSourceReferencesAsPlainJapaneseText": [
+   "words/越える.md",
+   "words/道路.md",
+   "words/迷う.md",
+   "words/追う.md",
+   "kanji/途.md",
+   "articles/kaeru-change-replace-and-return.md"
+  ],
+  "newWordPages": 0,
+  "quizOrGradingChanges": 0,
+  "otherAuthoredRuntimePaths": 0,
+  "generatedManifest": {
+   "newLessonAndStrokeRegistrations": 20,
+   "changedExistingHashes": [
+    "words/引っ越す.md",
+    "words/申し込む.md",
+    "words/辞典.md",
+    "words/辞書.md",
+    "words/込む.md",
+    "words/迎える.md",
+    "words/返す.md",
+    "words/返事.md",
+    "words/退院.md",
+    "words/逃げる.md"
+   ],
+   "removedRegistrations": 0,
+   "unrelatedHashChanges": 0,
+   "contentVersion": "2744b7a9fcd39d7e"
+  }
+ },
+ "qualifiedVerdicts": {
+  "C1": "No actionable Japanese metadata, reading, example, classification, source-ID, radical, stroke-count, or direct-distractor issue remains in the ten reviewed lessons. No broad linguistic or corpus certification is made.",
+  "C2": {
+   "scopeAndNavigation": "All 20 new lesson/stroke registrations and ten authorized reciprocal word-link edits match the frozen scope; unavailable optional references remain plain Japanese text; all stroke assets match frozen source bytes.",
+   "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 30 direct directions; no transitive exclusion closure inferred."
+  },
+  "C3": "No actionable Russian accuracy, fidelity, or learner-clarity issue remains in the bounded ten-lesson scope."
+ },
+ "primaryEvidence": {
+  "basis": "Frozen English lessons, their exact cited JMdict entry IDs, and the frozen N3 community-list snapshot; no fresh JMdict record-level review or additional frequency/naturalness claim.",
+  "review": "Independent review of final candidate with focused resolution of the original 還る omission."
+ },
+ "ordinaryQuizNegativeEdges": {
+  "status": "UNVERIFIED",
+  "directionCount": 30,
+  "gradingGuardsAdded": [],
+  "noTransitiveClosureInferred": true
+ },
+ "trackingAndProgress": {
+  "frozenInventory": 8278,
+  "reviewedCurrent": 2662,
+  "excludedReviewedRuntimeBlocked": 2,
+  "pending": 5614,
+  "words": 1478,
+  "kanji": 577,
+  "strokes": 577,
+  "progressStatusCounts": {
+   "draft-reviewed-runtime-blocked": 2,
+   "pending": 5614,
+   "reviewed-current": 2662
+  },
+  "progressRecord": "docs/translation-progress.json",
+  "trackingRecord": "docs/translation-tracking.json",
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "artifacts": {
+   "docs/translation-progress.json": {
+    "bytes": 5571670,
+    "rawSha256": "172d7adb875a583a972d7e7b51d148ad82de78861c31bd00da4dd9d1a9638792"
+   },
+   "docs/translation-tracking.json": {
+    "bytes": 8044525,
+    "rawSha256": "a3cb592fe827e4d15275c11aa92cf73cba6c7c8adbfd8ec60bbe4c07ec0b447d"
+   }
+  }
+ },
+ "sourceAcceptance": "Qualified frozen-source content and source-progress acceptance only. No grading/runtime/activation/device/media/release/checkpoint/full-completion approval.",
+ "authority": {
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false,
+  "quizGradingApproval": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "fullTranslationComplete": false
+ }
+}
