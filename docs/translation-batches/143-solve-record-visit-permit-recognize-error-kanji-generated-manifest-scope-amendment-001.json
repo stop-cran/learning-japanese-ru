@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "amendmentId": "143-solve-record-visit-permit-recognize-error-kanji-generated-manifest-scope-amendment-001",
+ "recordedAt": "2026-11-11T08:36:00+00:00",
+ "state": "pre-generation manifest-scope amendment; run the repository builder only after this record is committed",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "parentFreezeCommit": "fe57e10d031f9d308312c1354639df488084d237",
+ "parentScopeAmendmentCommit": "9e7e406b584b22fbe58fd31e5ea700e3e43643be",
+ "reason": "The six new lessons, six exact-source stroke assets, and three authorized navigation-only word changes must be registered in the generated runtime manifest. This path was not part of the authored-source freeze, so its deterministic generated scope is declared before invoking the builder.",
+ "preMutationFingerprint": {
+  "path": "manifest.json",
+  "bytes": 232535,
+  "rawSha256": "661efa2d03be15b4fd497c7a919ae5b99f0bdb976ee9552fb4925b3971c03fdb",
+  "gitBlob": "a6410d7c59064777793aa297998e012c0a1d3453"
+ },
+ "authorizedGeneratedScope": {
+  "builder": "python -X utf8 -B tools\\build_manifest.py",
+  "newRuntimeRegistrations": [
+   "kanji/解.md",
+   "kanji/記.md",
+   "kanji/訪.md",
+   "kanji/許.md",
+   "kanji/認.md",
+   "kanji/誤.md",
+   "strokes/解.json",
+   "strokes/記.json",
+   "strokes/訪.json",
+   "strokes/許.json",
+   "strokes/認.json",
+   "strokes/誤.json"
+  ],
+  "updatedExistingRuntimeHashes": [
+   "words/理解.md",
+   "words/日記.md",
+   "words/訪ねる.md"
+  ],
+  "expectedChangeKinds": [
+   "generated contentVersion change",
+   "add exactly the 12 listed runtime registrations",
+   "update exactly the 3 listed existing runtime hashes"
+  ],
+  "manualManifestEditing": false
+ },
+ "authorization": {
+  "onlyTheListedBuilderMayModifyManifestJson": true,
+  "manifestDiffMustBeInspectedAndRecordedBeforeCandidateAcceptance": true,
+  "noOtherRuntimePathMayBeAddedOrChanged": true,
+  "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false
+ },
+ "reviewStatus": "pending-independent-review"
+}
