@@ -6783,24 +6783,27 @@ device, media, activation, release or full-completion approval is implied.
 Continue with the next contiguous dependency-closed frozen-source batch; this
 is not finite completion.
 
-## Current continuation after batch 150 source acceptance
+## Current continuation after batch 150 publication
 
 Batch 150 (`靴`, `頂`, `頭`, `頼`, `顔`, `願`, `類`, `飛`, `首`, `馬`) is
-qualified against frozen source commit `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
-Candidate `724547d29590c06c8ab2d461c164a51df97b42c5`, content version
+qualified against frozen source commit `6af98cb717755690a9ca793e5454a96ebd7a8f9f`
+and published by pull request
+[#32](https://github.com/stop-cran/learning-japanese-ru/pull/32) at
+`48dbf194db2c6e6d6cbaab0b3cba47fdf715d9bd`. Candidate
+`724547d29590c06c8ab2d461c164a51df97b42c5`, content version
 `befb7eb96f13cee1`, passed independent read-only review with no actionable
 findings. All 20 new registrations and 13 navigation-only word changes match
 the authorized manifest delta. The validator, all 124 unit tests, and the
-content-budget check passed.
+content-budget check passed; exact-main CI run
+[43043911004](https://github.com/stop-cran/learning-japanese-ru/actions/runs/43043911004)
+completed successfully.
 
 The progress ledger records 2,740 reviewed-current, two runtime-blocked drafts
 and 5,536 pending of 8,278. `checkpointAuthority` remains null and
 `checkpointReady` false. All 30 direct negative/fallback directions remain
-**UNVERIFIED**; no transitive closure or quiz-safety claim is made. Qualified
-source acceptance is recorded; publication and exact-main CI verification are
-pending. No runtime, device, media, activation, release or full-completion
-approval is implied. The Kolobok lead for the protected 空 question remains
-separately qualified in
+**UNVERIFIED**; no transitive closure or quiz-safety claim is made. No runtime,
+device, media, activation, release or full-completion approval is implied. The
+Kolobok lead for the protected 空 question remains separately qualified in
 [the post-publication lead record](translation-batches/149-sora-kolobok-lead-qualification-001.json);
-both 空 pairs remain C2 **UNVERIFIED**. Continue with positions 366–375 after
-Batch 150 publication; this is not finite completion.
+both 空 pairs remain C2 **UNVERIFIED**. Continue with positions 366–375; this
+is not finite completion.

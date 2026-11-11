@@ -5846,14 +5846,14 @@ media, activation, release or full-completion approval.
 ## Current translation continuation after batch 150
 
 Batch 150 (`靴`, `頂`, `頭`, `頼`, `顔`, `願`, `類`, `飛`, `首`, `馬`) is
-qualified against frozen source commit `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
-Candidate `724547d29590c06c8ab2d461c164a51df97b42c5`, content version
+published at `48dbf194db2c6e6d6cbaab0b3cba47fdf715d9bd` through pull request
+[#32](https://github.com/stop-cran/learning-japanese-ru/pull/32). Candidate
+`724547d29590c06c8ab2d461c164a51df97b42c5`, content version
 `befb7eb96f13cee1`, passed independent read-only review with no actionable
 findings, the validator, all 124 unit tests, and the content-budget check.
-Progress is 2,740 reviewed-current objects, two runtime-blocked drafts and
-5,536 pending objects of 8,278. All 30 direct negative/fallback directions
-remain **UNVERIFIED**; checkpoint authority and readiness remain null/false.
-Qualified source acceptance is recorded; publication and exact-main CI
-verification are pending. Continue sequentially with community-N3 positions
-366–375 after publication. This status grants no runtime, device, media,
-activation, release or full-completion approval.
+Exact-main `Validate Russian content` run 43043911004 passed. Progress is
+2,740 reviewed-current objects, two runtime-blocked drafts and 5,536 pending
+objects of 8,278. All 30 direct negative/fallback directions remain
+**UNVERIFIED**; checkpoint authority and readiness remain null/false. Continue
+sequentially with community-N3 positions 366–375. This status grants no
+runtime, device, media, activation, release or full-completion approval.
