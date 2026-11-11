@@ -1,0 +1,185 @@
+{
+ "schemaVersion": 1,
+ "batchId": "148-suitable-choose-department-city-distribute-alcohol-close-limit-kanji",
+ "recordedAt": "2026-11-11T12:50:29Z",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "541d6c0fbc737d0079ec41cd55f95ef4650b4ce8",
+ "candidateCommit": "c7a0b4d2c990c29ae43c6aaf7705b3f26f1cbc95",
+ "candidateTree": "afb5c7e2d6434fe4d36cb0749de41e7b052fb698",
+ "manifestVersion": "7751295c874d5227",
+ "review": {
+  "report": "docs/translation-batches/148-suitable-choose-department-city-distribute-alcohol-close-limit-kanji-independent-review-001.md",
+  "verdict": "PASS WITH QUALIFICATIONS",
+  "initialFinding": {
+   "severity": "P2",
+   "location": "kanji/酒.md:20",
+   "finding": "A visible 酒 reference was mistakenly formatted as the relative self-link [酒](酒.md), rather than plain Japanese text as authorized by source-link amendment 002.",
+   "resolution": "Commit c7a0b4d2c990c29ae43c6aaf7705b3f26f1cbc95 changes only that reference to 酒 さけ and the generated manifest hash/contentVersion.",
+   "focusedFollowUp": "Reviewer confirmed the plain-text disposition, matching normalized SHA-256, exact two-path/one-line correction delta, and no remaining issue."
+  },
+  "directNegativeFallbackDirections": {
+   "count": 30,
+   "status": "UNVERIFIED",
+   "transitiveClosureInferred": false,
+   "quizSafetyClaim": false
+  },
+  "limitations": [
+   "No fresh record-level JMdict review.",
+   "No native-speaker frequency or naturalness validation.",
+   "No runtime, device, media, activation, or release approval.",
+   "Full translation completion is not claimed."
+  ]
+ },
+ "candidateScope": {
+  "newLessons": [
+   "kanji/適.md",
+   "kanji/選.md",
+   "kanji/部.md",
+   "kanji/都.md",
+   "kanji/配.md",
+   "kanji/酒.md",
+   "kanji/閉.md",
+   "kanji/関.md",
+   "kanji/降.md",
+   "kanji/限.md"
+  ],
+  "newByteIdenticalStrokeAssets": [
+   "strokes/適.json",
+   "strokes/選.json",
+   "strokes/部.json",
+   "strokes/都.json",
+   "strokes/配.json",
+   "strokes/酒.json",
+   "strokes/閉.json",
+   "strokes/関.json",
+   "strokes/降.json",
+   "strokes/限.json"
+  ],
+  "navigationOnlyWordPages": [
+   "words/お酒.md",
+   "words/全部.md",
+   "words/心配.md",
+   "words/玄関.md",
+   "words/適当.md",
+   "words/選ぶ.md",
+   "words/部屋.md",
+   "words/部長.md",
+   "words/都.md",
+   "words/都会.md",
+   "words/都合.md",
+   "words/閉まる.md",
+   "words/閉める.md",
+   "words/関係.md",
+   "words/降りる.md",
+   "words/降り出す.md",
+   "words/降る.md",
+   "words/降ろす.md",
+   "words/首都.md"
+  ],
+  "unavailableOptionalSourceLinksAsPlainText": [
+   {
+    "sourceLesson": "kanji/適.md",
+    "term": "適切",
+    "occurrences": 3,
+    "wordPageCreated": false
+   },
+   {
+    "sourceLesson": "kanji/酒.md",
+    "term": "酒",
+    "occurrences": 3,
+    "wordPageCreated": false
+   },
+   {
+    "sourceLesson": "kanji/限.md",
+    "term": "限る",
+    "occurrences": 3,
+    "wordPageCreated": false
+   }
+  ],
+  "newWordPages": 0,
+  "quizOrGradingChanges": 0,
+  "otherRuntimePaths": 0,
+  "manifestDelta": {
+   "newRegistrations": 20,
+   "changedExistingHashes": 19,
+   "removedRegistrations": 0,
+   "unrelatedHashChanges": 0,
+   "contentVersion": "7751295c874d5227",
+   "recomputedFromBuilder": true
+  }
+ },
+ "diffCheck": {
+  "command": "git diff --cached --check",
+  "exitCode": 0,
+  "stderr": "",
+  "scope": "Initial runtime candidate and focused plain-text correction were both checked before their signed commits."
+ },
+ "serialValidation": [
+  {
+   "command": "python tools\\build_manifest.py",
+   "exitCode": 0,
+   "stdout": "manifest.json: 2700 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 7751295c874d5227\n",
+   "stderr": ""
+  },
+  {
+   "command": "python tools\\validate.py",
+   "exitCode": 0,
+   "stdout": "0 error(s)\n",
+   "stderr": ""
+  },
+  {
+   "command": "python -m unittest discover -s tools -p \"test_*.py\"",
+   "exitCode": 0,
+   "stdout": "Ran 124 tests in 36.795s\nOK\n",
+   "stderr": ""
+  },
+  {
+   "command": "python tools\\check_content_budget.py",
+   "exitCode": 0,
+   "stdout": "{'files': 2708, 'entries': 2717, 'retainedBytes': 7504424, 'inflatedBytes': 7522639, 'localZipBytes': 3767730, 'listeningTaskMediaBytes': 0}\n",
+   "stderr": ""
+  },
+  {
+   "command": "git verify-commit c7a0b4d2c990c29ae43c6aaf7705b3f26f1cbc95",
+   "exitCode": 0,
+   "signingKey": "D4C9A275A218AF747B787AFA9D94B9D311BD26A7"
+  }
+ ],
+ "scopeRecords": [
+  "docs/translation-batches/148-suitable-choose-department-city-distribute-alcohol-close-limit-kanji-intake.json",
+  "docs/translation-batches/148-suitable-choose-department-city-distribute-alcohol-close-limit-kanji-source-adjudication-and-semantic-freeze-001.json",
+  "docs/translation-batches/148-suitable-choose-department-city-distribute-alcohol-close-limit-kanji-source-link-amendment-001.json",
+  "docs/translation-batches/148-suitable-choose-department-city-distribute-alcohol-close-limit-kanji-source-link-amendment-002.json",
+  "docs/translation-batches/148-suitable-choose-department-city-distribute-alcohol-close-limit-kanji-source-link-amendment-003.json",
+  "docs/translation-batches/148-suitable-choose-department-city-distribute-alcohol-close-limit-kanji-manifest-generation-amendment-001.json"
+ ],
+ "trackingAndProgress": {
+  "artifacts": {
+   "docs/translation-progress.json": {
+    "bytes": 5654178,
+    "rawSha256": "d5e47effc5705ccae32d80cbda1195fba3c11a86acffe6f106b9e14f5e83b692"
+   },
+   "docs/translation-tracking.json": {
+    "bytes": 8159762,
+    "rawSha256": "a2cc33c2c29a32246ec1eced789012ac8fee8507490048746627b35659883495"
+   }
+  },
+  "frozenInventory": 8278,
+  "adoptedEntries": 2700,
+  "reviewedCurrent": 2700,
+  "pending": 5576,
+  "excludedReviewedRuntimeBlocked": 2,
+  "sourceChanges": 0,
+  "guidanceChanges": 0,
+  "unreconciledGuidance": 0,
+  "targetChangedDuringBatch": false,
+  "translationProgressReportMatchesTracking": true,
+  "russianContentVersion": "7751295c874d5227",
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false
+ },
+ "status": "qualified frozen-source content and source-progress acceptance; publication pending"
+}
