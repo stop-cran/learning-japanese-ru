@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "batchId": "152-n2-batch-01-kanji",
+  "amendment": 2,
+  "recordedAt": "2026-11-11T16:24:37Z",
+  "status": "pre-correction scope clarification",
+  "sourceLinkAmendment": "docs/translation-batches/152-n2-batch-01-source-link-amendment-001.json",
+  "publishedBaseline": "b3e960428b29058060251a549110e05a3052e73a",
+  "finding": {
+    "path": "words/紹介.md",
+    "incorrectStatement": "Amendment 001 says to preserve an existing link from 紹 to ../kanji/紹.md.",
+    "verifiedBaseline": "At the published baseline, 紹 in the first paragraph of ## Как сочетаются кандзи is plain text, not a Markdown link. kanji/紹.md is absent from the published baseline.",
+    "cause": "The candidate mistakenly added a link wrapper around 紹 while adding the authorized reciprocal link for 介; the new wrapper targets a nonexistent page and causes validation to fail."
+  },
+  "correction": {
+    "finalDisposition": "Keep 紹 as plain text and add only the authorized [介](../kanji/介.md) wrapper.",
+    "newKanjiLessonOrWordPage": false,
+    "runtimePathsAddedToScope": [],
+    "candidateWordPagePathRemainsAuthorized": true
+  },
+  "manifestScope": {
+    "amendment": "docs/translation-batches/152-n2-batch-01-manifest-generation-amendment-001.json",
+    "authorizedChangedExistingWordHashesRemain": [
+      "words/並ぶ.md",
+      "words/並べる.md",
+      "words/丸い.md",
+      "words/久しぶり.md",
+      "words/乾く.md",
+      "words/伺う.md",
+      "words/低い.md",
+      "words/牛乳.md",
+      "words/紹介.md"
+    ],
+    "expectedNewRegistrations": 30,
+    "expectedChangedExistingHashes": 9,
+    "expectedRemovedRegistrations": 0,
+    "expectedUnrelatedHashChanges": 0
+  },
+  "qualification": "This corrects the source-link availability statement only. It authorizes no new page, runtime path, or word-content change beyond removing the erroneous 紹 link wrapper and retaining the preauthorized 介 link. All 45 direct negative/fallback directions remain UNVERIFIED."
+}
