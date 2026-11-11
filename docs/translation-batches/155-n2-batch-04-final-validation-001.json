@@ -71,7 +71,11 @@
    "kanji/囲.md"
   ],
   "newWordPages": 0,
-  "quizOrGradingChanges": 0
+  "gradingCodeOrPreExistingQuizMetadataEdits": 0,
+  "newKanjiDisplayedAnswers": 15,
+  "newCuratedDirectDistractorDirections": 45,
+  "newCardsMayEnterExistingFallbackPools": true,
+  "quizContentImpact": "The 15 new kanji add displayed answers and 45 curated direct distractor directions, and may enter existing fallback pools. No grading code or pre-existing quiz metadata was edited outside these new card additions. All 45 directions remain UNVERIFIED; no additional guards are inferred."
  },
  "candidateTree": "7bba3d5f56742666286580d83248c5c2a90b7299",
  "postAcceptanceDocumentationCorrection": {
@@ -120,6 +124,41 @@
    }
   ],
   "scope": "Two documentation records only; no learner-content, manifest, tracking, or progress changes."
+ },
+ "postAcceptanceQuizContentScopeCorrection": {
+  "record": "docs/translation-batches/155-n2-batch-04-quiz-content-scope-correction-001.json",
+  "runtimeEvidence": "User-verified against pinned Android commit 5c000bd: QuizViewModel builds quiz candidates from all in-stack kanji, and QuizBuilder uses titles and distractors with the fallback pool. New kanji can therefore affect displayed answers, options, and existing fallback pools without changing grading code or pre-existing quiz metadata.",
+  "revalidation": {
+   "allPassed": true,
+   "commands": [
+    {
+     "command": "python -X utf8 -B tools\\build_manifest.py",
+     "exitCode": 0,
+     "stdout": "manifest.json: 2864 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 32657b3b3f44f6ec"
+    },
+    {
+     "command": "python -X utf8 -B tools\\validate.py",
+     "exitCode": 0,
+     "stdout": "0 error(s)"
+    },
+    {
+     "command": "python -X utf8 -B -m unittest discover -s tools -p \"test_*.py\"",
+     "exitCode": 0,
+     "stdout": "Ran 124 tests in 44.133s; OK"
+    },
+    {
+     "command": "python -X utf8 -B tools\\check_content_budget.py",
+     "exitCode": 0,
+     "stdout": "{'files': 2872, 'entries': 2881, 'retainedBytes': 7946194, 'inflatedBytes': 7964409, 'localZipBytes': 3981585, 'listeningTaskMediaBytes': 0}"
+    },
+    {
+     "command": "git diff --check",
+     "exitCode": 0,
+     "stdout": ""
+    }
+   ]
+  },
+  "scope": "Documentation-only correction to quiz-content scope statements and revalidation metadata; no learner-content, manifest, tracking, progress, grading-code, or learner-state changes."
  },
  "publication": {
   "exactMainValidation": null,
