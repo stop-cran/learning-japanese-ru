@@ -1,28 +1,47 @@
 # Full Russian translation: execution after the two pilots
 
-## Current candidate after batch144
+## Current published source milestone: batch145 lose, wealth, poor, blame, expense, resource and approval kanji
 
-Batch144 adds Russian lessons and byte-identical frozen strokes for 説/調/談/論/識/警/議,
+Batch145 adds Russian lessons and byte-identical frozen strokes for 負/財/貧/責/費/資/賛,
+plus two exact reciprocal word-page links. Eleven optional links to absent Russian word pages
+were omitted without removing their visible Japanese. No quiz or grading behavior changed.
+The first read-only review reported one medium grade issue for 費; focused follow-up withdrew
+it after the official MEXT table confirmed `費5 ヒ`. The grade-5 tag is supported, and no
+lesson correction was warranted.
+
+The signed candidate is `6cb20cdce4e657d51632dbd74665473a6de4e853`, content version
+`451870c9d2acb3df`. The qualified acceptance commit
+`48359a5ae815e5af7d9293eba601f2d418853b7a` was fast-forwarded directly to `main` as owner
+`stop-cran`; no pull request was created. Serial manifest, validator, 124-test, and
+content-budget checks passed. Qualified progress is **2,642 reviewed-current / 2 excluded
+reviewed runtime-blocked / 5,634 pending of 8,278**, with 1,478 words / 567 kanji / 567
+strokes. Exact-main CI passed in run
+[43002902105](https://github.com/stop-cran/learning-japanese-ru/actions/runs/43002902105).
+Checkpoint authority remains null and `Ready` false.
+
+See the [independent review](translation-batches/145-lose-wealth-poor-blame-expense-resource-approval-kanji-independent-review-001.md),
+[qualified source record](translation-batches/145-lose-wealth-poor-blame-expense-resource-approval-kanji-reviewed-source.json),
+[final validation](translation-batches/145-lose-wealth-poor-blame-expense-resource-approval-kanji-final-validation-001.json),
+and [publication verification](translation-batches/145-lose-wealth-poor-blame-expense-resource-approval-kanji-publication-verification-001.json).
+All 21 direct negative/fallback directions remain **UNVERIFIED**. No runtime, device, media,
+release, ordinary-activation, or full-translation approval is implied.
+
+## Previous published source milestone: batch144 explain, investigate, discuss, argue, know, warn and deliberate kanji
+
+Batch144 added Russian lessons and byte-identical frozen strokes for 説/調/談/論/識/警/議,
 plus nine exact navigation-only word-page links. The validator exposed five reciprocal links
 from existing word pages to the new kanji cards; their single-wrapper changes were authorized
 in a supplemental pre-mutation amendment. Eight optional links to absent word pages were
 omitted without removing their visible Japanese. No quiz or grading behavior changed.
 
-The independent bounded review found no actionable issue. All 21 direct negative/fallback
-directions remain **UNVERIFIED**. The signed candidate is
+The independent bounded review found no actionable issue. The signed candidate was
 `43b1e11db458b9379bf67b5571f8d597ccdd2f46`, content version `f7f520d85e56fcab`.
-Serial manifest, validator, 124-test, and content-budget checks passed. Qualified progress
-is **2,628 reviewed-current / 2 excluded reviewed runtime-blocked / 5,648 pending of 8,278**,
-with 1,478 words / 560 kanji / 560 strokes. Acceptance is being published directly to
-`main`; no pull request is required. **Published** as signed owner commit
-`375ea10c482219a6b9dc586ba322510a03d3cd0f`; exact-main CI passed in run
+Qualified progress after adoption was **2,628 reviewed-current / 2 excluded reviewed
+runtime-blocked / 5,648 pending of 8,278**, with 1,478 words / 560 kanji / 560 strokes.
+The signed acceptance commit `375ea10c482219a6b9dc586ba322510a03d3cd0f` was fast-forwarded
+to `main`; exact-main CI passed in run
 [42997309964](https://github.com/stop-cran/learning-japanese-ru/actions/runs/42997309964).
-Checkpoint authority remains null and `Ready` false.
-See the [independent review](translation-batches/144-explain-investigate-discuss-argue-know-warn-deliberate-kanji-independent-review-001.md),
-[qualified source record](translation-batches/144-explain-investigate-discuss-argue-know-warn-deliberate-kanji-reviewed-source.json),
-[final validation](translation-batches/144-explain-investigate-discuss-argue-know-warn-deliberate-kanji-final-validation-001.json),
-and [publication verification](translation-batches/144-explain-investigate-discuss-argue-know-warn-deliberate-kanji-publication-verification-001.json).
-No runtime, device, media, release, ordinary-activation, or full-translation approval is implied.
+See the [publication verification](translation-batches/144-explain-investigate-discuss-argue-know-warn-deliberate-kanji-publication-verification-001.json).
 
 ## Previous published source milestone: batch143 solve, record, visit, permit, recognize and error kanji
 

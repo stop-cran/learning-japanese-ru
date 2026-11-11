@@ -8,23 +8,39 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current candidate after batch144
+## Current published source milestone: batch145 lose, wealth, poor, blame, expense, resource and approval kanji
+
+Batch145 completed seven Russian kanji lessons (負/財/貧/責/費/資/賛), seven
+byte-identical frozen stroke assets, and two reciprocal word-page links. Eleven
+optional links to absent Russian word pages were omitted. The initial independent
+review's medium claim that 費 should be grade 4 was withdrawn in focused follow-up;
+the official MEXT table lists `費5 ヒ`, supporting the existing grade-5 tag.
+
+Candidate commit is `6cb20cdce4e657d51632dbd74665473a6de4e853`, content version
+`451870c9d2acb3df`. Serial checks passed: manifest build, validator, 124 tests,
+and content budget. Qualified progress: **2,642 reviewed-current / 2 runtime-blocked /
+5,634 pending of 8,278**, with 1,478 words / 567 kanji / 567 strokes. Signed
+acceptance `48359a5ae815e5af7d9293eba601f2d418853b7a` was fast-forwarded directly
+to `main`; exact-main CI passed in run
+[43002902105](https://github.com/stop-cran/learning-japanese-ru/actions/runs/43002902105).
+All 21 direct negative/fallback directions remain **UNVERIFIED**. Checkpoint
+authority remains null and `Ready` is false. No runtime, device, media, release,
+ordinary-activation, or full-translation approval is implied.
+
+## Previous published source milestone: batch144 explain, investigate, discuss, argue, know, warn and deliberate kanji
 
 Batch144 completed seven Russian kanji lessons (説/調/談/論/識/警/議), seven
 byte-identical frozen stroke assets, and nine navigation-only word-page links,
 including five validator-required reciprocal links authorized before mutation.
 Eight optional source links to absent Russian word pages were omitted. The
-independent bounded review found no actionable issue. All 21 direct negative/fallback
-directions remain **UNVERIFIED**.
+independent bounded review found no actionable issue.
 
-Candidate commit is `43b1e11db458b9379bf67b5571f8d597ccdd2f46`, content version
-`f7f520d85e56fcab`. Serial checks passed: manifest build, validator, 124 tests,
-and content budget. Qualified progress: **2,628 reviewed-current / 2 runtime-blocked /
-5,648 pending of 8,278**, with 1,478 words / 560 kanji / 560 strokes. Acceptance
-was fast-forwarded directly to `main` as signed owner commit
-`375ea10c482219a6b9dc586ba322510a03d3cd0f`; exact-main CI passed in run
+Candidate commit was `43b1e11db458b9379bf67b5571f8d597ccdd2f46`, content version
+`f7f520d85e56fcab`. Qualified progress was **2,628 reviewed-current / 2 runtime-blocked /
+5,648 pending of 8,278**, with 1,478 words / 560 kanji / 560 strokes. Signed
+acceptance `375ea10c482219a6b9dc586ba322510a03d3cd0f` was fast-forwarded to `main`;
+exact-main CI passed in run
 [42997309964](https://github.com/stop-cran/learning-japanese-ru/actions/runs/42997309964).
-Checkpoint authority remains null and `Ready` false.
 
 ## Previous published source milestone: batch143 solve, record, visit, permit, recognize and error kanji
 
