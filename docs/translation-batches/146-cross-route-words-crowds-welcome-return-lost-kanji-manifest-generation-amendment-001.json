@@ -1,0 +1,72 @@
+{
+ "schemaVersion": 1,
+ "batchId": "146-cross-route-words-crowds-welcome-return-lost-kanji",
+ "recordedAt": "2026-11-11T10:38:58Z",
+ "status": "pre-generation manifest-scope amendment; no manifest generation or content mutation is implied",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "28555f4735a3567fa1ed42a0dc30abbb1a543acf",
+ "candidateBranch": "full-ru-146-cross-route-words-crowds-welcome-return-lost-kanji",
+ "intakeRecord": "docs/translation-batches/146-cross-route-words-crowds-welcome-return-lost-kanji-intake.json",
+ "semanticFreeze": "docs/translation-batches/146-cross-route-words-crowds-welcome-return-lost-kanji-source-adjudication-and-semantic-freeze-001.json",
+ "sourceLinkAmendment": "docs/translation-batches/146-cross-route-words-crowds-welcome-return-lost-kanji-source-link-amendment-001.json",
+ "baselineManifest": {
+  "path": "manifest.json",
+  "contentVersion": "451870c9d2acb3df",
+  "rawSha256": "28ef2e4f2ca5067f5d3034f787cdae6f1cc0ce3d3650694dbafe248c6364a7ea",
+  "gitBlob": "faf75911de456709bc294bc6d85d5055c304d66f"
+ },
+ "authorizedBuilderDelta": {
+  "newRegistrations": [
+   "kanji/越.md",
+   "kanji/路.md",
+   "kanji/辞.md",
+   "kanji/込.md",
+   "kanji/迎.md",
+   "kanji/返.md",
+   "kanji/迷.md",
+   "kanji/追.md",
+   "kanji/退.md",
+   "kanji/逃.md",
+   "strokes/越.json",
+   "strokes/路.json",
+   "strokes/辞.json",
+   "strokes/込.json",
+   "strokes/迎.json",
+   "strokes/返.json",
+   "strokes/迷.json",
+   "strokes/追.json",
+   "strokes/退.json",
+   "strokes/逃.json"
+  ],
+  "changedExistingHashes": [
+   "words/引っ越す.md",
+   "words/申し込む.md",
+   "words/辞典.md",
+   "words/辞書.md",
+   "words/込む.md",
+   "words/迎える.md",
+   "words/返す.md",
+   "words/返事.md",
+   "words/退院.md",
+   "words/逃げる.md"
+  ],
+  "removedRegistrations": [],
+  "unrelatedHashChanges": [],
+  "contentVersion": "derived by the repository builder only"
+ },
+ "scopeLimits": {
+  "builder": "Run only tools/build_manifest.py after all authorized runtime content is complete; review the complete generated manifest against this exact path set before acceptance.",
+  "noOtherManifestDelta": true,
+  "noAdditionalRuntimePath": true,
+  "noManualManifestEdits": true,
+  "noWordPagesAdded": true,
+  "noQuizOrGradingChanges": true
+ },
+ "authorization": {
+  "preGeneration": true,
+  "sourceAndNavigationScope": "Bound by the signed source adjudication and semantic freeze record plus the signed supplemental unavailable-article-link amendment.",
+  "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 30 direct directions; no transitive closure or safety claim authorized",
+  "fullTranslationComplete": false
+ }
+}
