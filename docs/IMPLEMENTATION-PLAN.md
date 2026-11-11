@@ -5843,16 +5843,17 @@ readiness remain null/false. Continue sequentially from the next contiguous
 dependency-closed frozen-source slice. This status grants no runtime, device,
 media, activation, release or full-completion approval.
 
-## Current translation continuation after batch 149
+## Current translation continuation after batch 150
 
-Batch 149 is source-reviewed and published at
-`9908496eddd3b020cbc7abde933cdc602f9e04f6` through pull request #30; exact-main
-`Validate Russian content` run 43036204282 passed. Corrected candidate
-`63207618ebb7ab34234e25764b8cdd13d88e2126` passed independent review, all 124
-unit tests, the content-budget check and the validator. Progress is 2,720
-reviewed-current objects, two runtime-blocked drafts and 5,556 pending objects
-of 8,278. The 30 direct negative/fallback directions remain **UNVERIFIED**;
-checkpoint authority and readiness remain null/false. The protected 空 lead
-is documented separately; both 空–遠く and 空–遠い remain C2 UNVERIFIED.
-Continue sequentially with community-N3 positions 356–365. This status grants
-no runtime, device, media, activation, release or full-completion approval.
+Batch 150 (`靴`, `頂`, `頭`, `頼`, `顔`, `願`, `類`, `飛`, `首`, `馬`) is
+qualified against frozen source commit `6af98cb717755690a9ca793e5454a96ebd7a8f9f`.
+Candidate `724547d29590c06c8ab2d461c164a51df97b42c5`, content version
+`befb7eb96f13cee1`, passed independent read-only review with no actionable
+findings, the validator, all 124 unit tests, and the content-budget check.
+Progress is 2,740 reviewed-current objects, two runtime-blocked drafts and
+5,536 pending objects of 8,278. All 30 direct negative/fallback directions
+remain **UNVERIFIED**; checkpoint authority and readiness remain null/false.
+Qualified source acceptance is recorded; publication and exact-main CI
+verification are pending. Continue sequentially with community-N3 positions
+366–375 after publication. This status grants no runtime, device, media,
+activation, release or full-completion approval.

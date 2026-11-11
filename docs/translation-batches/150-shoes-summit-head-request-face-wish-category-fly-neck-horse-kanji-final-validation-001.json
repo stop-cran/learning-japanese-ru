@@ -1,0 +1,120 @@
+{
+ "schemaVersion": 1,
+ "batchId": "150-shoes-summit-head-request-face-wish-category-fly-neck-horse-kanji",
+ "recordedAt": "2026-11-11T14:56:40Z",
+ "repository": "stop-cran/learning-japanese-ru",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "8773bf994666f97a6c50428498de9c7165756e46",
+ "candidateCommit": "724547d29590c06c8ab2d461c164a51df97b42c5",
+ "candidateTree": "75164135da55309f967c10f2065b80c57698d061",
+ "manifestVersion": "befb7eb96f13cee1",
+ "manifestSha256": "caa456a3e04a5051b691490a05b6f346f46541bc9a48fe2482ffd7be89b289dc",
+ "candidateGitHubIdentity": {
+  "author": "stop-cran",
+  "committer": "stop-cran",
+  "signatureVerified": true,
+  "signatureReason": "valid",
+  "remoteBranch": "full-ru-150-n3-356-365-kanji",
+  "remoteBranchSha": "724547d29590c06c8ab2d461c164a51df97b42c5"
+ },
+ "review": {
+  "report": "docs/translation-batches/150-shoes-summit-head-request-face-wish-category-fly-neck-horse-kanji-independent-review-001.md",
+  "verdict": "NO ACTIONABLE FINDINGS",
+  "confidence": "high",
+  "reviewedCandidate": "724547d29590c06c8ab2d461c164a51df97b42c5",
+  "scope": "All ten lessons and stroke assets, 13 reciprocal word-page edits, authorized manifest delta, local links, and frozen Japanese metadata/readings/examples.",
+  "directNegativeFallbackDirections": {
+   "count": 30,
+   "status": "UNVERIFIED",
+   "transitiveClosureInferred": false,
+   "quizSafetyClaim": false
+  },
+  "qualifications": [
+   "Static source, translation, navigation, and manifest review only.",
+   "No runtime, device, media, activation, release, checkpoint, or full-completion approval."
+  ]
+ },
+ "candidateScope": {
+  "newLessons": [
+   "kanji/靴.md", "kanji/頂.md", "kanji/頭.md", "kanji/頼.md", "kanji/顔.md",
+   "kanji/願.md", "kanji/類.md", "kanji/飛.md", "kanji/首.md", "kanji/馬.md"
+  ],
+  "newByteIdenticalStrokeAssets": [
+   "strokes/靴.json", "strokes/頂.json", "strokes/頭.json", "strokes/頼.json", "strokes/顔.json",
+   "strokes/願.json", "strokes/類.json", "strokes/飛.json", "strokes/首.json", "strokes/馬.json"
+  ],
+  "navigationOnlyWordPages": [
+   "words/人類.md", "words/種類.md", "words/笑顔.md", "words/靴.md", "words/靴下.md",
+   "words/頭.md", "words/頼む.md", "words/顔.md", "words/飛ぶ.md",
+   "words/飛行場.md", "words/飛行機.md", "words/首.md", "words/首都.md"
+  ],
+  "newWordPages": 0,
+  "quizOrGradingChanges": 0,
+  "additionalRuntimePaths": 0,
+  "manifestDeltaFromPublishedBaseline": {
+   "newRegistrations": 20,
+   "changedExistingHashes": 13,
+   "removedRegistrations": 0,
+   "unrelatedHashChanges": 0,
+   "otherTopLevelChanges": 0,
+   "recomputedByBuilder": true
+  }
+ },
+ "serialValidation": [
+  {
+   "command": "python -X utf8 -B tools\\build_manifest.py",
+   "exitCode": 0,
+   "stdout": "manifest.json: 2740 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version befb7eb96f13cee1"
+  },
+  {
+   "command": "python -X utf8 -B tools\\validate.py",
+   "exitCode": 0,
+   "stdout": "0 error(s)"
+  },
+  {
+   "command": "python -X utf8 -B -m unittest discover -s tools -p \"test_*.py\"",
+   "exitCode": 0,
+   "stdout": "Ran 124 tests in 42.199s; OK"
+  },
+  {
+   "command": "python -X utf8 -B tools\\check_content_budget.py",
+   "exitCode": 0,
+   "stdout": "files=2748; entries=2757; retainedBytes=7621751; inflatedBytes=7639966; localZipBytes=3823883; listeningTaskMediaBytes=0"
+  }
+ ],
+ "trackingAndProgress": {
+  "frozenInventory": 8278,
+  "adoptedEntries": 2740,
+  "reviewedCurrent": 2740,
+  "pending": 5536,
+  "excludedReviewedRuntimeBlocked": 2,
+  "sourceChanges": 0,
+  "guidanceChanges": 0,
+  "unreconciledGuidance": 0,
+  "targetChangedDuringBatch": false,
+  "translationProgressReportMatchesTracking": true,
+  "russianContentVersion": "befb7eb96f13cee1",
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false,
+  "artifacts": {
+   "docs/translation-tracking.json": {
+    "sha256": "ddf961002862c96b8b00ebcf42d35b681a114eb5f04fca74022c616cb539d965"
+   },
+   "docs/translation-progress.json": {
+    "sha256": "5bfdbb561c074188f5ccd5ec07a1db3e790cbcab7f6e6c1dfd6ffe3dd32ecc40"
+   },
+   "docs/translation-batches/150-shoes-summit-head-request-face-wish-category-fly-neck-horse-kanji-independent-review-001.md": {
+    "sha256": "a6b5972313181c41a2b382d96904c0ce45fdb76c5647836ee44af75636227a9d"
+   }
+  }
+ },
+ "authorizationLimits": {
+  "all30DirectNegativeFallbackDirections": "UNVERIFIED; no transitive closure or safety claim",
+  "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false
+ },
+ "status": "qualified frozen-source content and source-progress acceptance; publication pending"
+}
