@@ -6783,22 +6783,26 @@ device, media, activation, release or full-completion approval is implied.
 Continue with the next contiguous dependency-closed frozen-source batch; this
 is not finite completion.
 
-## Current continuation after batch 148 publication
+## Current continuation after batch 149 publication
 
-Batch 148 (`適`, `選`, `部`, `都`, `配`, `酒`, `閉`, `関`, `降`, `限`) is
+Batch 149 (`除`, `険`, `陽`, `際`, `雑`, `難`, `雪`, `静`, `非`, `面`) is
 qualified against frozen source commit `6af98cb717755690a9ca793e5454a96ebd7a8f9f`
-and published by pull request [#29](https://github.com/stop-cran/learning-japanese-ru/pull/29)
-at `5f6932e4c9d314fc9194374bb48eece0faab4cce`. Its corrected content candidate
-`c7a0b4d2c990c29ae43c6aaf7705b3f26f1cbc95` passed independent review after the
-focused `酒` self-link correction. Exact-main `Validate Russian content` run
-[43025511681](https://github.com/stop-cran/learning-japanese-ru/actions/runs/43025511681)
+and published by pull request [#30](https://github.com/stop-cran/learning-japanese-ru/pull/30)
+at `9908496eddd3b020cbc7abde933cdc602f9e04f6`. Its corrected content candidate
+`63207618ebb7ab34234e25764b8cdd13d88e2126` passed independent review after
+three findings were corrected; the signed acceptance commit is
+`b70ae97ea93478d98fe260ff46e2ac76e5ad0d54`. Exact-main `Validate Russian
+content` run
+[43036204282](https://github.com/stop-cran/learning-japanese-ru/actions/runs/43036204282)
 completed successfully.
 
-The progress ledger records 2,700 reviewed-current, two runtime-blocked drafts
-and 5,576 pending of 8,278. `checkpointAuthority` remains null and
+The progress ledger records 2,720 reviewed-current, two runtime-blocked drafts
+and 5,556 pending of 8,278. `checkpointAuthority` remains null and
 `checkpointReady` false. All 30 direct negative/fallback directions remain
 **UNVERIFIED**; no transitive closure or quiz-safety claim is made. No runtime,
-device, media, activation, release or full-completion approval is implied.
-Continue with the next contiguous dependency-closed frozen-source slice,
-community-N3 positions 346–355 (`除`, `険`, `陽`, `際`, `雑`, `難`, `雪`,
-`静`, `非`, `面`); this is not finite completion.
+device, media, activation, release or full-completion approval is implied. The
+Kolobok lead for the protected 空 question is separately qualified in
+[the post-publication lead record](translation-batches/149-sora-kolobok-lead-qualification-001.json);
+both 空 pairs remain C2 **UNVERIFIED**. Continue with the next contiguous
+dependency-closed frozen-source slice, community-N3 positions 356–365; this
+is not finite completion.
