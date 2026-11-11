@@ -1,0 +1,33 @@
+{
+ "schemaVersion": 1,
+ "batchId": "149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji",
+ "recordedAt": "2026-11-11T13:12:58Z",
+ "status": "pre-mutation supplemental source-link scope authorization",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "5f6932e4c9d314fc9194374bb48eece0faab4cce",
+ "intakeRecord": "docs/translation-batches/149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji-intake.json",
+ "semanticFreeze": "docs/translation-batches/149-remove-danger-sunlight-occasion-misc-difficult-snow-quiet-non-surface-kanji-source-adjudication-and-semantic-freeze-001.json",
+ "finding": {
+  "sourceLesson": "kanji/非.md",
+  "sourceLink": "../words/非常口.md",
+  "sourceOccurrences": 3,
+  "targetPath": "words/非常口.md",
+  "targetExistsAtFrozenSource": true,
+  "targetExistsInPublishedRussianBaseline": false,
+  "scope": "The frozen lesson links to the optional English word page for 非常口, which is absent from the Russian runtime."
+ },
+ "authorization": {
+  "renderAllThreeVisibleFormsAsPlainJapaneseTextWithoutMarkdownLink": true,
+  "preserveTheirVisibleJapaneseTextReadingAndTeachingContext": true,
+  "createOrModifyWordPage": false,
+  "modifyAnyAdditionalRuntimePath": false,
+  "changeQuizOrGradingBehavior": false,
+  "frozenEnglishSourceMustRemainUntouched": true
+ },
+ "acceptanceCondition": "All three 非常口 references remain visible with the reading, no unresolved link remains, and no word page is created or modified.",
+ "limits": {
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 30 direct directions; no transitive closure inferred.",
+  "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false
+ }
+}
