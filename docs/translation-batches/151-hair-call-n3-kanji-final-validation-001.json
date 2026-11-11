@@ -1,0 +1,121 @@
+{
+ "schemaVersion": 1,
+ "batchId": "151-hair-call-n3-kanji",
+ "recordedAt": "2026-11-11T15:39:20Z",
+ "repository": "stop-cran/learning-japanese-ru",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "3c862d7edc3466feb273fbcf03390e7fbda73177",
+ "candidateCommit": "49b94223bb7e1a7a3de7529332f9130d92bbe6c8",
+ "candidateTree": "33495b3ca55f06ca7cfcea8d978f1660b69c03f3",
+ "manifestVersion": "82dfd74ec9955e41",
+ "manifestSha256": "4c26d2bc1277a454f3f55e3c925403be8deac54f9dad81e0406bfbd8b433c560",
+ "candidateGitHubIdentity": {
+  "author": "stop-cran",
+  "committer": "stop-cran",
+  "signatureVerified": true,
+  "signatureReason": "valid",
+  "remoteBranch": "full-ru-151-n3-366-367-kanji",
+  "remoteBranchSha": "49b94223bb7e1a7a3de7529332f9130d92bbe6c8"
+ },
+ "review": {
+  "initialReport": "docs/translation-batches/151-hair-call-n3-kanji-independent-review-001.md",
+  "initialVerdict": "CHANGES REQUESTED",
+  "followUpReport": "docs/translation-batches/151-hair-call-n3-kanji-independent-review-002.md",
+  "followUpVerdict": "PASS FOR THE TWO AUTHORIZED CORRECTIONS",
+  "confidence": "high within the bounded review scopes",
+  "initialCandidate": "23ee92cc6ef668da2b4c99aeaaa512dea0c3f90b",
+  "reviewedCandidate": "49b94223bb7e1a7a3de7529332f9130d92bbe6c8",
+  "resolvedFindings": [
+   "B151-R1: restored [口](口.md) navigation in the 鳴 mnemonic",
+   "B151-R2: restored the enclosure contrast that 口 is inside 門 in 問"
+  ],
+  "scope": "Two authorized corrections in kanji/鳴.md, their local targets, complete correction diff, manifest delta, and no unrelated changes to reviewed lesson/assets/word pages.",
+  "directNegativeFallbackDirections": {
+   "count": 6,
+   "status": "UNVERIFIED",
+   "transitiveClosureInferred": false,
+   "quizSafetyClaim": false
+  },
+  "qualifications": [
+   "Initial review checked both complete lessons against the frozen English source; focused follow-up could not independently open that source from its checkout.",
+   "No fresh JMdict record-level review or native-speaker frequency/naturalness certification.",
+   "No runtime, device, media, activation, release, checkpoint, or full-completion approval."
+  ]
+ },
+ "candidateScope": {
+  "newLessons": ["kanji/髪.md", "kanji/鳴.md"],
+  "newByteIdenticalStrokeAssets": ["strokes/髪.json", "strokes/鳴.json"],
+  "navigationOnlyWordPages": ["words/髪.md", "words/鳴く.md", "words/鳴る.md"],
+  "newWordPages": 0,
+  "quizOrGradingChanges": 0,
+  "additionalRuntimePaths": 0,
+  "manifestDeltaFromPublishedBaseline": {
+   "newRegistrations": 4,
+   "changedExistingHashes": 3,
+   "removedRegistrations": 0,
+   "unrelatedHashChanges": 0,
+   "otherTopLevelChanges": 0,
+   "recomputedByBuilder": true
+  }
+ },
+ "serialValidation": [
+  {
+   "command": "python -X utf8 -B tools\\build_manifest.py",
+   "exitCode": 0,
+   "stdout": "manifest.json: 2744 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 82dfd74ec9955e41"
+  },
+  {
+   "command": "python -X utf8 -B tools\\validate.py",
+   "exitCode": 0,
+   "stdout": "0 error(s)"
+  },
+  {
+   "command": "python -X utf8 -B -m unittest discover -s tools -p \"test_*.py\"",
+   "exitCode": 0,
+   "stdout": "Ran 124 tests in 36.388s; OK"
+  },
+  {
+   "command": "python -X utf8 -B tools\\check_content_budget.py",
+   "exitCode": 0,
+   "stdout": "files=2752; entries=2761; retainedBytes=7634433; inflatedBytes=7652648; localZipBytes=3829815; listeningTaskMediaBytes=0"
+  }
+ ],
+ "trackingAndProgress": {
+  "frozenInventory": 8278,
+  "adoptedEntries": 2744,
+  "reviewedCurrent": 2744,
+  "pending": 5532,
+  "excludedReviewedRuntimeBlocked": 2,
+  "sourceChanges": 0,
+  "guidanceChanges": 0,
+  "unreconciledGuidance": 0,
+  "targetChangedDuringBatch": false,
+  "translationProgressReportMatchesTracking": true,
+  "russianContentVersion": "82dfd74ec9955e41",
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false,
+  "artifacts": {
+   "docs/translation-tracking.json": {
+    "sha256": "a8b65ef94c4726dbf95535cd42a8b1cf9e2713c579822873b0951b10a7e8d7c6"
+   },
+   "docs/translation-progress.json": {
+    "sha256": "ede1b92ca7a27c5609f4458ab33ffab85a635cd890df54d6659c59ab99f6e737"
+   },
+   "docs/translation-batches/151-hair-call-n3-kanji-independent-review-001.md": {
+    "sha256": "af6e844c398f992499bac8fbb62053f649144fb57bb87ce051a0b900968541fb"
+   },
+   "docs/translation-batches/151-hair-call-n3-kanji-independent-review-002.md": {
+    "sha256": "f8a8a6b0730519cadb7a5b219bd03a1902717dd793c3918b947826f73582de5e"
+   }
+  }
+ },
+ "authorizationLimits": {
+  "all6DirectNegativeFallbackDirections": "UNVERIFIED; no transitive closure or safety claim",
+  "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false
+ },
+ "status": "qualified frozen-source content and source-progress acceptance; publication pending"
+}
