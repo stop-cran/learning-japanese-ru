@@ -6809,22 +6809,25 @@ both 空 pairs remain C2 **UNVERIFIED**. At that point the next source slice was
 N3 positions 366–367; Batch 151 and the subsequent N2 transition supersede that
 continuation below. This is not finite completion.
 
-## Current continuation after Batch 152 candidate validation
+## Current continuation after Batch 152 publication
 
-Batch 152's owner-signed candidate `80e4e1d0d13caea2fcadb80345fc272441f3dcc4`
-is pushed to `full-ru-152-n2-batch-01`; publication through a PR and exact-main
-CI verification remain pending. The candidate adds 15 lessons and 15 byte-
-identical stroke assets, plus nine authorized navigation-only word-page edits.
-The initial independent review's omitted `紹介` links in `介` were restored;
-the focused follow-up passed. Qualified progress is **2,774 reviewed-current /
-2 runtime-blocked / 5,502 pending of 8,278**, with content version
-`34b5c4ac31854637`.
+Batch 152 is published through [PR #35](https://github.com/stop-cran/learning-japanese-ru/pull/35)
+at `0a9efd6f401ea6312e43876c5b7b07471200dbd0`. The owner-signed runtime
+candidate is `80e4e1d0d13caea2fcadb80345fc272441f3dcc4`; the signed acceptance
+head is `e130049afddf7291fbf276a85699dbd0b3f301aa`. PR validation run
+[43062985009](https://github.com/stop-cran/learning-japanese-ru/actions/runs/43062985009)
+and exact-main CI run
+[43063177706](https://github.com/stop-cran/learning-japanese-ru/actions/runs/43063177706)
+passed. The publication record is
+[152-n2-batch-01-publication-verification-001.json](translation-batches/152-n2-batch-01-publication-verification-001.json).
+Qualified progress is **2,774 reviewed-current / 2 runtime-blocked /
+5,502 pending of 8,278**, with content version `34b5c4ac31854637`.
 
-After publication, continue with Batch 153, the next 15 entries in the frozen
-community-N2 snapshot: 個倍停傾像億兆児党兵冊再凍刊刷 (positions 16–30 of
-365 additions; 珍 and 短 remain pre-existing). This community list is not an
-official JLPT syllabus. Freeze and review this next scope against the same
-source revision before authoring.
+Continue with Batch 153, the next 15 entries in the frozen community-N2
+snapshot: 個倍停傾像億兆児党兵冊再凍刊刷 (positions 16–30 of 365 additions;
+珍 and 短 remain pre-existing). This community list is not an official JLPT
+syllabus. Freeze and review this next scope against the same source revision
+before authoring.
 
 All 45 Batch 152 direct distractor directions remain **UNVERIFIED** for
 negative/fallback behavior; no transitive closure or quiz-safety claim is made.
