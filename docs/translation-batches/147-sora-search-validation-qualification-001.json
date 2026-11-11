@@ -1,0 +1,69 @@
+{
+ "schemaVersion": 1,
+ "recordedAt": "2026-11-11T12:26:09Z",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "scope": "Read-only verification of search results for an existing C2 gap; not an independent review, source acceptance, or runtime authorization.",
+ "evidenceSource": "D:\\CopilotSessionStates\\68a44f7f-62db-4755-8296-fd586c861a35\\files\\ru-sora-search-verification-20261111.json",
+ "observations": [
+  {
+   "source": "Tatoeba api_v0 search",
+   "url": "https://tatoeba.org/en/api_v0/search?from=jpn&to=rus&query=%E6%97%85%E3%81%AE%E7%A9%BA",
+   "query": "旅の空",
+   "resultCount": 5,
+   "resultIds": [
+    9840100,
+    179440,
+    162839,
+    184171,
+    1783169
+   ],
+   "exactSubstringMatches": 0,
+   "observed": "All five returned Japanese sentences were inspected. None contains the requested contiguous expression; four contain the reversed expression 空の旅, and one contains neither expression.",
+   "limitation": "The result count is not evidence that the requested expression occurs, and this result set does not establish corpus-wide absence."
+  },
+  {
+   "source": "Warodai corpus lookup",
+   "urls": [
+    "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E7%A9%BA%E3%81%AE%E5%BD%BC%E6%96%B9&corpus=warodai",
+    "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E3%81%9D%E3%82%89%E3%81%AE%E3%81%8B%E3%81%AA%E3%81%9F&corpus=warodai",
+    "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E5%BD%BC%E6%96%B9&corpus=warodai"
+   ],
+   "queries": [
+    {
+     "writtenForm": "空の彼方",
+     "result": []
+    },
+    {
+     "readingForm": "そらのかなた",
+     "result": []
+    },
+    {
+     "headword": "彼方",
+     "observedEntryId": "007-67-27"
+    }
+   ],
+   "observed": "An AI search summary claimed a direct Warodai entry for 空の彼方 with Russian distance glosses. The exact written-form and reading-form lookups returned empty arrays. The observed かなた【彼方】 entry is a different headword and does not supply the claimed standalone 空 equivalence.",
+   "limitation": "Empty exact lookup results do not prove that the phrase cannot occur anywhere in the complete dictionary; they do not substantiate the claimed headword and quotation."
+  },
+  {
+   "source": "Japanese-Russian dictionary page for 空",
+   "url": "https://japanese_russian.academic.ru/20867/%E7%A9%BA",
+   "observed": "The inspected そら【空I】 and そら【空II】 entries give sky/air/weather and memory/pretence uses; they do not give the needed distant-place Russian caption mapping.",
+   "limitation": "The page reproduces the same apparent dictionary material as Warodai and is not independent confirmation. An omitted gloss does not establish impossibility."
+  }
+ ],
+ "methodology": [
+  "Inspect exact source text and exact spelling/reading, including character order, instead of treating a result count as an exact substring occurrence.",
+  "A reversed expression is not an exact match; inspect the returned sentence bodies.",
+  "An empty exact lookup reports only that query's result, not corpus-wide absence.",
+  "A contextual phrase translation does not automatically establish a standalone lexical equivalence for one constituent.",
+  "Treat AI-generated search summaries as leads, then verify the exact headword and sense in the cited source.",
+  "Record URLs, observed IDs, checks, and limitations; do not promote UNVERIFIED without the required semantic adjudication and independent focused review."
+ ],
+ "disposition": {
+  "空–遠く": "C2 UNVERIFIED",
+  "空–遠い": "C2 UNVERIFIED",
+  "lessonOrQuizChangesAuthorized": false,
+  "runtimeOrReleaseAuthority": false
+ }
+}
