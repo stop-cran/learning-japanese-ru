@@ -1,0 +1,305 @@
+{
+ "schemaVersion": 1,
+ "recordedAt": "2026-11-11T17:55:13Z",
+ "revision": {
+  "number": 2,
+  "revisedAt": "2026-11-11T18:50:00Z",
+  "supersedes": "As-reviewed revision 1 (recordedAt 2026-11-11T17:55:13Z; 7802 bytes; SHA-256 34a56380ac754bc3621a0a5639365b9c7b06afd50edf4061fc34884a9e5f3653), the text examined by independent-review-004.",
+  "reason": "Coordinator-reported provenance defects in revision 1: it said that WARODAI and Kotobank wording was not reproduced although it quoted short example strings from their entries, and its licence sentence was broader than the evidence checked.",
+  "changes": [
+   "licenseHandling is now a per-source statement tied to the pages actually checked, including the licence file of the WARODAI source repository.",
+   "citationPolicy added; every case now separates cited identifiers (JMdict headwords with entry numbers) from the record's own description.",
+   "Example phrases and sentences from WARODAI and Kotobank entries were removed and replaced by descriptions plus article IDs or entry URLs.",
+   "After the first provenance follow-up round, isolated Russian words taken from WARODAI renderings were removed from V2, K1 and unsupportedClaims and replaced by descriptions; citationPolicy now lists the Russian search terms separately from source material.",
+   "disposition now points to independent-review-004."
+  ],
+  "unchanged": "The jmdict block, displayedCaptions, russianToJapaneseHeadwords, the unresolved C2 status of both pairs and the card paragraph (card SHA-256 97613d8959309dda4233a4f63ad2de635db4f09e6c229103860d1140640ae5d9)."
+ },
+ "scope": "Read-only dictionary evidence for the protected 空 draft and its two C2 questions. Not an independent review, source acceptance, runtime authorization or quiz-safety claim.",
+ "userDirection": [
+  "Can you investigate 空 kanji card translation issue reported before? Can you search RU-JP dictionaries for it to confirm?",
+  "Can we narrow down unverified claims? E.g. instead of general 空 = «далеко» provide individual verified cases?",
+  "Ok, please update the card and perform independent review. Then commit the changes."
+ ],
+ "frozenSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedMain": "f940768c96f7a556d2e6cf71303d53190bf48828",
+ "exactPairs": [
+  [
+   "空",
+   "遠く"
+  ],
+  [
+   "空",
+   "遠い"
+  ]
+ ],
+ "displayedCaptions": {
+  "空": "небо",
+  "遠く": "далеко; вдали",
+  "遠い": "далёкий; далеко"
+ },
+ "licenseHandling": {
+  "purpose": "Provenance statement for this tracked record, limited to the licence evidence checked on 2026-11-11. It is not legal advice and does not decide the licence of any third-party entry.",
+  "thisRepository": "CC BY-SA 4.0 (root LICENSE; README.md line 32); third-party terms are listed in NOTICE.md.",
+  "jmdict": {
+   "licence": "CC BY-SA 4.0; copyright J. W. Breen and EDRDG.",
+   "basis": "EDRDG licence statement, section 3: https://www.edrdg.org/edrdg/licence.html",
+   "reuseInThisRecord": "JMdict headwords and English glosses are cited with entry numbers and EDRDG attribution; the card paragraph carries the matching attribution."
+  },
+  "warodai": {
+   "declaredLicence": "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)",
+   "evidence": [
+    "Root LICENSE of the source repository linked from warodai.ru, which is the CC BY-NC-ND 3.0 Unported legal code: https://github.com/WarodaiProject/warodai-source/blob/master/LICENSE",
+    "Page footer of https://warodai.ru/about/, https://warodai.ru/about/readme/ and https://warodai.ru/lookup/index.php, which states that the work is available under CC BY-NC-ND 3.0 and links the source repository.",
+    "https://warodai.ru/about/ and the repository README, whose history statement says that the 2008 first release was published under the same licence; that statement names the first release only."
+   ],
+   "notEstablished": "The checked pages give no per-article licence or provenance statement and no different licence for individual current entries.",
+   "reuseInThisRecord": "The NonCommercial and NoDerivatives terms cannot be replaced by this repository's CC BY-SA 4.0, and no permission grant is relied on. Nothing from WARODAI article bodies is reproduced: only article IDs and headword identifiers are cited, and entries are described in the record's own words (see citationPolicy)."
+  },
+  "kotobank": {
+   "terms": "https://kotobank.jp/rule/ (enacted 2019-03-04, revised 2026-10-01): copyright in the service data belongs to C-POT and each content's authors; use is limited to personal purposes; commercial use and reproduction, storage, AI development or training use, translation, publication, sale, transmission, lending or modification beyond the terms are prohibited except where copyright law permits.",
+   "reuseInThisRecord": "No Kotobank entry text, definition, example or translation is reproduced; entries are cited by URL and sense number and described in the record's own words."
+  }
+ },
+ "citationPolicy": {
+  "reproduced": [
+   "JMdict headwords, readings and English glosses, each with its entry number (CC BY-SA 4.0 with EDRDG attribution).",
+   "Source identifiers: URLs, WARODAI article IDs, dictionary names, headwords used only to identify an article or entry, and sense numbers.",
+   "The project's own Russian captions and the Russian search terms tested against the sources: the caption words, «вдалеке» (a near-synonym of «вдали») and «чужбина» and «далёкие края» (named in the investigation brief). They appear only as search terms or Shogakukan headword identifiers, never as renderings attributed to a WARODAI or Kotobank entry."
+  ],
+  "describedNotQuoted": "WARODAI and Kotobank entries are summarised in the record's own English words (field 'description'). A description says which sense or rendering pattern an entry shows; it does not translate or follow the wording of a definition, example or Russian rendering.",
+  "notReproduced": "Example phrases or sentences, definitions, Russian renderings and classical citations from WARODAI and Kotobank entries. To check a case, follow its URL or article ID.",
+  "japaneseStrings": "Every Japanese string in this record is a word under test, a JMdict headword (entry number given in 'citedExpressions'), a dictionary name, a headword used only to identify a WARODAI article or Kotobank entry, or a work title."
+ },
+ "jmdict": {
+  "release": "http://ftp.edrdg.org/pub/Nihongo/JMdict_e.gz",
+  "releaseCreated": "2026-11-11",
+  "downloadSha256": "3a77bf9af599c1264deef9780b8b1a9f53ea16e1aab30ebaf3c64a6f816ccc4f",
+  "license": "CC BY-SA 4.0, J. W. Breen / EDRDG",
+  "entries": [
+   {
+    "entSeq": "1245290",
+    "keb": [
+     "空",
+     "虚"
+    ],
+    "reb": [
+     "そら"
+    ],
+    "sense": 3,
+    "pos": [
+     "n"
+    ],
+    "gloss": [
+     "far-off place",
+     "distant place"
+    ],
+    "neighbouringSenses": "1 sky/the air/the heavens; 2 weather; 4 state of mind; 5 (from) memory; 6 falsehood; 7–8 noun prefixes",
+    "proves": "JMdict lists a noun sense 'far-off place; distant place' for そら, separate from 'sky'.",
+    "doesNotProve": "It gives no Russian rendering and no adverbial or adjectival use; it does not equate そら with «далеко», «вдали» or «далёкий»."
+   },
+   {
+    "entSeq": "1839300",
+    "keb": [
+     "旅の空"
+    ],
+    "reb": [
+     "たびのそら"
+    ],
+    "pos": [
+     "exp"
+    ],
+    "gloss": [
+     "away from home",
+     "while travelling"
+    ],
+    "proves": "The whole expression 旅の空 is a recorded dictionary entry with this meaning.",
+    "doesNotProve": "An expression-level gloss does not establish a standalone equivalence for its constituent 空."
+   }
+  ],
+  "independence": "First direct check of the EDRDG release for this question; the earlier Kolobok lead (149 record) was only JMdict-derived."
+ },
+ "verifiedPhraseCases": [
+  {
+   "id": "V1",
+   "citedExpressions": [
+    {
+     "text": "旅の空",
+     "jmdictEntSeq": "1839300"
+    }
+   ],
+   "source": "WARODAI, article たび【旅】 001-51-23",
+   "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E6%97%85%E3%81%AE%E7%A9%BA&corpus=warodai",
+   "description": "The article has one example built on the expression 旅の空 with a locative particle. Its Russian rendering is a locative phrase that keeps a word for 'sky' with a 'foreign' modifier.",
+   "doesNotProve": "No bare 空 rendered as «далеко», «вдали» or «далёкий»."
+  },
+  {
+   "id": "V2",
+   "citedExpressions": [
+    {
+     "text": "異郷/異境",
+     "jmdictEntSeq": "1157620",
+     "gloss": [
+      "foreign country",
+      "foreign land",
+      "strange land",
+      "far-off land"
+     ]
+    }
+   ],
+   "source": "WARODAI, article いきょう【異境・異郷】 009-24-70",
+   "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E7%95%B0%E9%83%B7&corpus=warodai",
+   "description": "The article's headword gloss carries the foreign-land meaning. Its one example that contains 空 is marked poetic and is rendered as a phrase of longing in a foreign land; no separate Russian word is attributed to 空. The article's other example, which has no 空, gets a rendering of the same kind. Inference from this structure: the foreign-land meaning comes from 異境, not from 空.",
+   "doesNotProve": "No rendering of bare 空 as a foreign-land word or as a distance word."
+  },
+  {
+   "id": "V3",
+   "citedExpressions": [
+    {
+     "text": "旅の空",
+     "jmdictEntSeq": "1839300"
+    }
+   ],
+   "source": "デジタル大辞泉 via Kotobank, headword 旅の空, sense 2",
+   "url": "https://kotobank.jp/word/%E6%97%85%E3%81%AE%E7%A9%BA-562279",
+   "description": "Sense 2 of this expression entry covers the same idea as the JMdict gloss: being away from home while travelling.",
+   "doesNotProve": "No Russian rendering; expression-level entry."
+  },
+  {
+   "id": "V4",
+   "citedExpressions": [
+    {
+     "text": "旅の空",
+     "jmdictEntSeq": "1839300"
+    }
+   ],
+   "source": "精選版 日本国語大辞典 via Kotobank, headword そら【空】, sense [一]④",
+   "url": "https://kotobank.jp/word/%E7%A9%BA-54809",
+   "description": "A remote-from-one's-base sense that stresses circumstance and mood (insecurity or sadness); it is illustrated with a classical passage from 竹取物語 that uses the 旅の空 expression.",
+   "doesNotProve": "No Russian rendering; emphasises circumstance and mood, not a measured distance."
+  },
+  {
+   "id": "V5-V6",
+   "citedExpressions": [
+    {
+     "text": "旅の空",
+     "jmdictEntSeq": "1839300"
+    }
+   ],
+   "source": "デジタル大辞泉 via Kotobank, headword そら【空】, sense 3 and its listed examples",
+   "url": "https://kotobank.jp/word/%E7%A9%BA-54809",
+   "description": "Sense 3 is the dictionary's remote-place sense, matching JMdict 1245290 sense 3. The entry lists three short examples: one is the expression 旅の空 and the other two are further N+の空-shaped phrases, which are not reproduced here (see the cited entry). Exact-string WARODAI lookups of those two phrases returned no entries on 2026-11-11.",
+   "doesNotProve": "No Russian rendering is attested for either unreproduced example."
+  }
+ ],
+ "controlCases": [
+  {
+   "id": "K1",
+   "citedExpressions": [
+    {
+     "text": "虚空",
+     "jmdictEntSeq": "1232680",
+     "gloss": [
+      "empty space",
+      "empty sky"
+     ]
+    },
+    {
+     "text": "はるか/遥か",
+     "jmdictEntSeq": "1546930",
+     "gloss": [
+      "far away",
+      "far off",
+      "far",
+      "distant",
+      "in the distance"
+     ]
+    }
+   ],
+   "source": "WARODAI, article こくう【虚空】 007-27-85",
+   "description": "The only checked 空-containing WARODAI example whose Russian rendering contains a distance adverb: the example combines 虚空 with the adverb はるか, the distance adverb renders はるか, and 虚空 is rendered through its sky sense (the article marks 虚空 as book-style)."
+  },
+  {
+   "id": "K2",
+   "citedExpressions": [
+    {
+     "text": "空の旅",
+     "jmdictEntSeq": "2017660",
+     "gloss": [
+      "air travel",
+      "air trip"
+     ]
+    }
+   ],
+   "source": "WARODAI, articles そら【空I】 002-00-71 and たび【旅】 001-51-23",
+   "description": "In both articles the reversed-order compound is rendered as air travel (sky sense)."
+  },
+  {
+   "id": "K3",
+   "citedExpressions": [
+    {
+     "text": "秋の空",
+     "jmdictEntSeq": "2709640",
+     "gloss": [
+      "clear autumn sky"
+     ]
+    },
+    {
+     "text": "男心と秋の空",
+     "jmdictEntSeq": "2520160",
+     "gloss": [
+      "a man's heart is as fickle as autumn weather"
+     ]
+    }
+   ],
+   "source": "WARODAI, articles あき【秋】 001-19-42 and おとこごころ【男心】 003-00-60",
+   "description": "In the inspected examples of these two expressions, 空 is rendered as sky or weather. These examples do not establish a rule for non-place nouns; the N+の空 pattern alone does not determine the sense."
+  },
+  {
+   "id": "K4",
+   "citedExpressions": [
+    {
+     "text": "赤らむ",
+     "jmdictEntSeq": "1383280",
+     "gloss": [
+      "to become red",
+      "to redden",
+      "to blush"
+     ]
+    }
+   ],
+   "source": "WARODAI, article あからむ【赤らむ】 006-02-83",
+   "description": "The article's example has a compass-direction noun modifying 空 as the subject of 赤らむ; 空 still means sky there."
+  }
+ ],
+ "russianToJapaneseHeadwords": {
+  "source": "プログレッシブ ロシア語辞典（露和編）, Shogakukan, via Kotobank",
+  "infoUrl": "https://kotobank.jp/dictionary/prj/",
+  "checkedHeadwords": [
+   "далеко",
+   "вдали",
+   "вдалеке",
+   "далёкий",
+   "чужбина"
+  ],
+  "observation": "None of the checked headword entries lists 空/そら among its Japanese equivalents; the 和露 entry そら gives only sky/heavens.",
+  "limitation": "Mid-size dictionary; omission is not proof that a context-dependent rendering is impossible."
+ },
+ "unsupportedClaims": [
+  "Bare 空/そら glossed as «далеко», «вдали», «вдалеке» or «далёкий»: not found in any checked source.",
+  "Bare 空/そら glossed with the search terms «чужбина» or «далёкие края»: not found in any checked source. In WARODAI 009-24-70 the foreign-land meaning is carried by the headword gloss and by phrase-level renderings of the article's two examples, never by a rendering of 空 alone (V2).",
+  "Naminori/Kolobok Russian wording: unchanged lead status from the 149 record; not re-verified."
+ ],
+ "corrections": [
+  "The remote-place examples inspected in the cited entries are N+の空-shaped phrases (one is the JMdict expression 旅の空; the others are described in V2 and V5-V6 without being reproduced). The checked entries do not establish an exhaustive syntactic restriction; do not infer that other constructions are impossible or use that inference alone to declare either pair safe.",
+  "No checked source labels the whole remote-place sense as literary or phrase-bound. WARODAI marks only one specific example in 009-24-70 as poetic, and the 竹取物語 citation in V4 is one historical example; keep such qualifications tied to those examples, not to the sense."
+ ],
+ "disposition": {
+  "空–遠く": "C2 UNVERIFIED",
+  "空–遠い": "C2 UNVERIFIED",
+  "afterIndependentReview": "independent-review-004 (docs/translation-batches/033-nature-outdoor-activity-independent-review-004.md): both pairs stay C2 UNVERIFIED in the Japanese→Russian and Russian→Japanese directions; neither CLEAN nor DIRECT EXCLUSION WARRANTED is supported.",
+  "missingDictionarySenseIsNotSafetyProof": true,
+  "guardsAddedByThisRecord": 0,
+  "runtimeOrReleaseAuthority": false
+ }
+}

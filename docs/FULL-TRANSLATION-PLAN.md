@@ -6833,3 +6833,27 @@ All 45 Batch 152 direct distractor directions remain **UNVERIFIED** for
 negative/fallback behavior; no transitive closure or quiz-safety claim is made.
 The protected 空 pairs, runtime/device/media/activation/release gates, and
 full-completion status remain separate and unchanged.
+
+## Protected 空 draft amendment after Batch 153 merge
+
+At the user's request the excluded
+[空 draft](translation-drafts/033-nature-outdoor-activity/words/空.md) gains the
+required `[空](../kanji/空.md)` link and one JMdict-sourced paragraph on the
+secondary sense «далёкое место» with the expression 旅の空. See the
+[amendment](translation-batches/033-nature-outdoor-activity-sky-draft-amendment-001.json)
+and [dictionary evidence](translation-batches/033-nature-outdoor-activity-sky-sense-evidence-qualification-001.json).
+The draft stays excluded and runtime-absent, `words/空.md` stays pending, and no
+quiz guard, activation or release authority is added.
+
+The independent focused review of this amendment is complete:
+[review 004](translation-batches/033-nature-outdoor-activity-independent-review-004.md)
+approved it for the excluded draft only and left both 空–遠く and 空–遠い
+**UNVERIFIED** in the Japanese→Russian and Russian→Japanese directions, with no
+clean or exclusion inference and no new guard. Source-handling corrections made
+to the supporting records after that review, and their independent follow-up
+review, are recorded in the
+[provenance follow-up](translation-batches/033-nature-outdoor-activity-independent-review-004-followup.md).
+Review 004 does not resolve C2.
+Resolving it still needs direct Russian-usage evidence or adjudication of the
+actual quiz titles of 遠く and 遠い against 空, and none has been found so far.
+Until then both pairs stay C2 **UNVERIFIED** and runtime acceptance stays blocked.
