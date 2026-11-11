@@ -2,7 +2,7 @@
 
 ## Previous published source milestone: batch135 doubt, climb, everyone, steal and straight kanji
 
-## Batch142: qualified source acceptance recorded, publication pending
+## Batch142: published qualified source acceptance
 
 Batch142 adds complete Russian lessons and byte-identical frozen stroke assets
 for 術/表/要/規/覚/観, plus nine exact NAV-only wrappers in existing word
@@ -22,8 +22,11 @@ runtime-blocked / 5,674 pending of 8,278**, with 1,478 words / 547 kanji / 547
 strokes. Serial manifest, validator, 124-test, and content-budget checks passed.
 C1/C3 are CLEAN only within the cited bounded review scope. All 18 direct
 negative/fallback directions remain **UNVERIFIED**. Checkpoint authority remains
-null and `Ready` false; runtime, device, media, release, ordinary activation,
-and full-translation approval are not implied. Publication is pending.
+null and `Ready` false. The signed qualified-acceptance commit
+`2a6fd1a4d1e110cdb21613807f226c3784986729` was fast-forwarded to `main`;
+exact-main CI passed. See the [publication verification](translation-batches/142-technique-surface-necessity-standard-memory-observation-kanji-publication-verification-001.json).
+Runtime, device, media, release, ordinary-activation, and full-translation
+approval are not implied.
 
 ## Batch141: published qualified source acceptance
 
