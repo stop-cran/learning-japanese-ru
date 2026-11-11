@@ -1,0 +1,68 @@
+{
+ "acceptedPRHeadCommit": "e130049afddf7291fbf276a85699dbd0b3f301aa",
+ "acceptedPRHeadTree": "a54b8479515559d691c9614943725fb32c49f5ef",
+ "batchId": "152-n2-batch-01-kanji",
+ "checks": {
+  "exactMainValidation": {
+   "conclusion": "success",
+   "databaseId": 43063177706,
+   "headSha": "0a9efd6f401ea6312e43876c5b7b07471200dbd0",
+   "name": "Validate Russian content",
+   "status": "completed",
+   "url": "https://github.com/stop-cran/learning-japanese-ru/actions/runs/43063177706"
+  },
+  "pullRequestValidation": {
+   "conclusion": "success",
+   "databaseId": 43062985009,
+   "headSha": "e130049afddf7291fbf276a85699dbd0b3f301aa",
+   "name": "Validate Russian content",
+   "status": "completed",
+   "url": "https://github.com/stop-cran/learning-japanese-ru/actions/runs/43062985009"
+  }
+ },
+ "progress": {
+  "adoptedEntries": 2774,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "contentVersion": "34b5c4ac31854637",
+  "frozenInventory": 8278,
+  "pending": 5502,
+  "reviewedCurrent": 2774,
+  "runtimeBlocked": 2
+ },
+ "protectedRefs": {
+  "ru-pilot-a": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+  "ru-pilot-b": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f"
+ },
+ "publishedBaseline": "b3e960428b29058060251a549110e05a3052e73a",
+ "publishedMain": {
+  "author": "stop-cran",
+  "commit": "0a9efd6f401ea6312e43876c5b7b07471200dbd0",
+  "committer": "web-flow",
+  "tree": "a54b8479515559d691c9614943725fb32c49f5ef",
+  "treeMatchesAcceptedPRHead": true
+ },
+ "pullRequest": {
+  "author": "stop-cran",
+  "mergeCommit": "0a9efd6f401ea6312e43876c5b7b07471200dbd0",
+  "merged": true,
+  "mergedBy": "stop-cran",
+  "number": 35,
+  "remoteBranchDeleted": true,
+  "state": "closed",
+  "title": "Translate community N2 kanji batch 152",
+  "url": "https://github.com/stop-cran/learning-japanese-ru/pull/35"
+ },
+ "qualifications": [
+  "Published main tree exactly matches the accepted PR head tree; the earlier runtime candidate commit has a separate tree because the PR also includes its acceptance records.",
+  "Exact-main Validate Russian content workflow passed; PR validation also passed.",
+  "No ZIP/tar export-byte comparison was performed for this publication.",
+  "This is not runtime/device/media/activation/release approval or full-translation completion."
+ ],
+ "recordedAt": "2026-11-11T17:00:29Z",
+ "repository": "stop-cran/learning-japanese-ru",
+ "runtimeCandidateCommit": "80e4e1d0d13caea2fcadb80345fc272441f3dcc4",
+ "runtimeCandidateTree": "c5c79553858b14ba266234bfc25c9b3a2395ea95",
+ "schemaVersion": 1,
+ "status": "published and exact-main CI verified; runtime release gates remain separate"
+}
