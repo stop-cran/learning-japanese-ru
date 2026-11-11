@@ -1,0 +1,42 @@
+{
+ "schemaVersion": 1,
+ "amendmentId": "143-solve-record-visit-permit-recognize-error-kanji-generated-manifest-scope-amendment-003",
+ "recordedAt": "2026-11-11T08:42:00+00:00",
+ "state": "pre-generation manifest-scope amendment; rerun the repository builder only after this record is committed",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "parentFreezeCommit": "fe57e10d031f9d308312c1354639df488084d237",
+ "priorManifestAmendmentCommits": [
+  "17cf1abe0d569c86edb2c3a12809c1eda43bfc27",
+  "498dc2449559d916aadddd9949ffd7e389119812"
+ ],
+ "reason": "After the authorized kanji lesson drafts were refined before candidate freeze, their generated manifest hashes became stale. The builder must refresh only those exact registration hashes and the derived content version.",
+ "preMutationFingerprint": {
+  "path": "manifest.json",
+  "bytes": 233591,
+  "rawSha256": "604c91a207bfd1f9e998a02a74a260609693b2609f996667501b01f6ed586e7c",
+  "gitBlob": "94354070e90b9d9f2d09b954ee7d47f48b1f00b1",
+  "contentVersion": "b8b8c01bf310d369"
+ },
+ "authorizedGeneratedScope": {
+  "builder": "python -X utf8 -B tools\\build_manifest.py",
+  "updatedExistingNewLessonHashes": [
+   "kanji/記.md",
+   "kanji/訪.md",
+   "kanji/許.md",
+   "kanji/認.md",
+   "kanji/誤.md"
+  ],
+  "expectedChangeKinds": [
+   "generated contentVersion change",
+   "update exactly the 5 listed lesson hashes"
+  ],
+  "manualManifestEditing": false
+ },
+ "authorization": {
+  "onlyTheListedBuilderMayModifyManifestJson": true,
+  "manifestDiffMustBeInspectedAndRecordedBeforeCandidateAcceptance": true,
+  "noOtherRuntimePathMayBeAddedOrChanged": true,
+  "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false
+ },
+ "reviewStatus": "pending-independent-review"
+}
