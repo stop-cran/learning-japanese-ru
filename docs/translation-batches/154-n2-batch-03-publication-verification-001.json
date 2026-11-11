@@ -1,0 +1,106 @@
+{
+ "acceptedCommit": "10bdab539a474df66fc834695cf81d51a353cb36",
+ "acceptedTree": "2c9401f8d1da70bab21d24c8ff4d2e2b6af23e84",
+ "batchId": "154-n2-batch-03-kanji",
+ "exactMainCI": {
+  "conclusion": "success",
+  "event": "push",
+  "headSha": "f5fb4bcc961cd16d6d6f4f07c4da70d28072e85c",
+  "runId": 43104837315,
+  "status": "completed",
+  "url": "https://github.com/stop-cran/learning-japanese-ru/actions/runs/43104837315",
+  "validateJobConclusion": "success",
+  "validateJobId": 130805336744,
+  "workflow": "Validate Russian content"
+ },
+ "liveVerification": {
+  "PR37Merged": true,
+  "acceptanceSignatureValid": true,
+  "bothProtectedRefsMatchReceipt": true,
+  "candidateAuthorAndCommitterStopCran": true,
+  "exactMainCISuccess": true,
+  "ownerAuthenticatedGitHubLogin": "stop-cran",
+  "syntheticMergeTreeMatchesCandidateAndMain": true
+ },
+ "main": {
+  "ref": "refs/heads/main",
+  "sha": "f5fb4bcc961cd16d6d6f4f07c4da70d28072e85c",
+  "tree": "2c9401f8d1da70bab21d24c8ff4d2e2b6af23e84"
+ },
+ "protectedRefs": [
+  {
+   "ref": "refs/heads/ru-pilot-a",
+   "sha": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+   "unchangedAtPublication": true
+  },
+  {
+   "ref": "refs/heads/ru-pilot-b",
+   "sha": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+   "unchangedAtPublication": true
+  }
+ ],
+ "publishedBaseline": "f940768c96f7a556d2e6cf71303d53190bf48828",
+ "pullRequest": {
+  "baseSha": "f940768c96f7a556d2e6cf71303d53190bf48828",
+  "headSha": "10bdab539a474df66fc834695cf81d51a353cb36",
+  "mergeCommit": "f5fb4bcc961cd16d6d6f4f07c4da70d28072e85c",
+  "merged": true,
+  "mergedAt": "2026-11-11T21:38:28Z",
+  "number": 37,
+  "state": "merged",
+  "url": "https://github.com/stop-cran/learning-japanese-ru/pull/37"
+ },
+ "pullRequestValidation": {
+  "checkedOutCommit": "2b4da1abf2e3be7791a97de8f50d642a45d15d8c",
+  "checkedOutParents": [
+   "f940768c96f7a556d2e6cf71303d53190bf48828",
+   "10bdab539a474df66fc834695cf81d51a353cb36"
+  ],
+  "checkedOutTree": "2c9401f8d1da70bab21d24c8ff4d2e2b6af23e84",
+  "conclusion": "success",
+  "event": "pull_request",
+  "provenance": "The pull_request job checked GitHub’s synthetic merge commit, not a detached checkout of the head. Its tree is identical to both the exact PR head and merged main.",
+  "runHeadSha": "10bdab539a474df66fc834695cf81d51a353cb36",
+  "runId": 43104585097,
+  "status": "completed",
+  "url": "https://github.com/stop-cran/learning-japanese-ru/actions/runs/43104585097",
+  "validateJobConclusion": "success",
+  "validateJobId": 130804448410,
+  "workflow": "Validate Russian content"
+ },
+ "qualifiedAcceptanceCommitVerification": {
+  "author": "stop-cran <stop-cran@list.ru>",
+  "coAuthorTrailers": [
+   "Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+   "Co-authored-by: Copilot App <223556219+Copilot@users.noreply.github.com>"
+  ],
+  "commit": "10bdab539a474df66fc834695cf81d51a353cb36",
+  "committer": "stop-cran <stop-cran@list.ru>",
+  "parent": "7482c9047105dc605325a96e37250ce53654fe24",
+  "signatureFingerprint": "D4C9A275A218AF747B787AFA9D94B9D311BD26A7",
+  "signatureReason": "valid",
+  "signatureVerified": true
+ },
+ "qualifiedCandidateCommit": "7482c9047105dc605325a96e37250ce53654fe24",
+ "qualifiedCandidateTree": "cd98ce139803107e4cbe02cad247d4c3442154a5",
+ "recordedAt": "2026-11-11T22:02:22Z",
+ "repository": "stop-cran/learning-japanese-ru",
+ "reviewQualification": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "directNegativeFallbackDirections": {
+   "count": 45,
+   "quizSafetyClaim": false,
+   "status": "UNVERIFIED",
+   "transitiveClosureInferred": false
+  },
+  "freshRecordLevelDictionaryReview": false,
+  "fullTranslationComplete": false,
+  "nativeSpeakerCertification": false,
+  "runtimeAcceptance": false
+ },
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "Published; PR validation and exact-main push validation succeeded."
+}
