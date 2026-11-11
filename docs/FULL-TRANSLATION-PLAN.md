@@ -1,6 +1,40 @@
 # Full Russian translation: execution after the two pilots
 
-## Previous published source milestone: batch135 doubt, climb, everyone, steal and straight kanji
+## Previous published source milestone: batch143 solve, record, visit, permit, recognize and error kanji
+
+## Batch143: published qualified source acceptance
+
+Batch143 adds complete Russian lessons and byte-identical frozen stroke assets
+for 解/記/訪/許/認/誤, plus four exact NAV-only wrappers in existing word
+pages. Eleven optional wrappers to unavailable word pages were omitted with
+their visible Japanese text retained. The initial independent review found one
+medium reading transcription error (`も` for `もと`) in `kanji/許.md`; a
+pre-mutation amendment authorized the single-line correction, and focused
+follow-up review confirmed it resolved the finding. No quiz or grading behavior
+changed.
+
+The signed freeze is `fe57e10d031f9d308312c1354639df488084d237`; the signed
+candidate is `d206576631135f27b43fd0136d18652cb2ba96fc`, content version
+`fdcb38de679a3f19`. The exact manifest delta is 12 new lesson/stroke
+registrations and four navigation word-page hash changes; no entries were
+removed or unrelated hashes changed. Serial manifest, validator, 124-test, and
+content-budget checks passed.
+
+Qualified progress is now **2,614 reviewed-current / 2 excluded reviewed
+runtime-blocked / 5,662 pending of 8,278**, with 1,478 words / 553 kanji / 553
+strokes. The signed qualified-acceptance commit
+`e82c86a6949b57394e61c7e029b99edba8db79ef` was fast-forwarded to `main`;
+exact-main CI passed. See the [independent review](translation-batches/143-solve-record-visit-permit-recognize-error-kanji-independent-review-001.md),
+[correction follow-up](translation-batches/143-solve-record-visit-permit-recognize-error-kanji-independent-review-follow-up-001.md),
+[qualified source record](translation-batches/143-solve-record-visit-permit-recognize-error-kanji-reviewed-source.json),
+[final validation](translation-batches/143-solve-record-visit-permit-recognize-error-kanji-final-validation-001.json),
+and [publication verification](translation-batches/143-solve-record-visit-permit-recognize-error-kanji-publication-verification-001.json).
+C1/C3 are CLEAN only within the cited bounded review scope; all 18 direct
+negative/fallback directions remain **UNVERIFIED**. Checkpoint authority remains
+null and `Ready` false. Runtime, device, media, release, ordinary-activation,
+and full-translation approval are not implied.
+
+## Previous published source milestone: batch142 technique, surface, necessity, standard, memory and observation kanji
 
 ## Batch142: published qualified source acceptance
 

@@ -8,7 +8,30 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Previous published source milestone: batch135 doubt, climb, everyone, steal and straight kanji
+## Previous published source milestone: batch143 solve, record, visit, permit, recognize and error kanji
+
+## Batch143: published qualified source acceptance
+
+Batch143 completed six Russian kanji lessons (解/記/訪/許/認/誤), six
+byte-identical frozen stroke assets, and four exact NAV-only wrappers on
+existing word pages. Eleven optional links to absent word pages were omitted.
+The initial independent review found one medium reading typo in `許`; a
+pre-mutation amendment authorized the correction from `も` to `もと`, and a
+focused independent follow-up resolved the finding. No quiz or grading
+behavior changed.
+
+Candidate commit is `d206576631135f27b43fd0136d18652cb2ba96fc`, content version
+`fdcb38de679a3f19`. Serial checks passed: manifest build, validator, 124 tests,
+and content budget. C1/C3 are qualified to the bounded reviewed scope only; all
+18 direct negative/fallback directions remain **UNVERIFIED**.
+
+Progress after adoption: **2,614 reviewed-current / 2 runtime-blocked / 5,662
+pending of 8,278**, with 1,478 words / 553 kanji / 553 strokes. Signed
+acceptance `e82c86a6949b57394e61c7e029b99edba8db79ef` was fast-forwarded to
+`main`; exact-main CI passed. See the [publication verification](translation-batches/143-solve-record-visit-permit-recognize-error-kanji-publication-verification-001.json).
+Checkpoint authority remains null and `Ready` remains false.
+
+## Previous published source milestone: batch142 technique, surface, necessity, standard, memory and observation kanji
 
 ## Batch142: published qualified source acceptance
 
