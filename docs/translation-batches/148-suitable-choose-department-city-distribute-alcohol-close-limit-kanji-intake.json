@@ -1,0 +1,943 @@
+{
+ "schemaVersion": 1,
+ "batchId": "148-suitable-choose-department-city-distribute-alcohol-close-limit-kanji",
+ "recordedAt": "2026-11-11T12:26:09Z",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "541d6c0fbc737d0079ec41cd55f95ef4650b4ce8",
+ "candidateBranch": "full-ru-148-n3-336-345-kanji",
+ "selection": {
+  "selectionMethod": "next contiguous dependency-closed community-N3 source positions",
+  "jlptBasis": "Frozen 367-entry community list; not an official JLPT syllabus.",
+  "frozenN3Snapshot": {
+   "path": "docs/n3-source-snapshot.json",
+   "bytes": 5879,
+   "rawSha256": "4ffdacad14efcdee13e504a36f5705bc2226ea763bf46a00369c1bf6040b28e8",
+   "gitBlob": "b18b0a72779488538324a0b48c82e2684ea89d71",
+   "count": 367,
+   "positionDomain": "one-based order in jlptN3.characters"
+  },
+  "positions": [
+   {
+    "position": 336,
+    "kanji": "適"
+   },
+   {
+    "position": 337,
+    "kanji": "選"
+   },
+   {
+    "position": 338,
+    "kanji": "部"
+   },
+   {
+    "position": 339,
+    "kanji": "都"
+   },
+   {
+    "position": 340,
+    "kanji": "配"
+   },
+   {
+    "position": 341,
+    "kanji": "酒"
+   },
+   {
+    "position": 342,
+    "kanji": "閉"
+   },
+   {
+    "position": 343,
+    "kanji": "関"
+   },
+   {
+    "position": 344,
+    "kanji": "降"
+   },
+   {
+    "position": 345,
+    "kanji": "限"
+   }
+  ],
+  "newLessons": [
+   "適",
+   "選",
+   "部",
+   "都",
+   "配",
+   "酒",
+   "閉",
+   "関",
+   "降",
+   "限"
+  ],
+  "dependencyClosure": {
+   "directDistractorEdges": [
+    "適→週",
+    "適→道",
+    "適→遠",
+    "選→遊",
+    "選→週",
+    "選→道",
+    "部→都",
+    "部→立",
+    "部→問",
+    "都→部",
+    "都→院",
+    "都→者",
+    "配→酒",
+    "配→西",
+    "配→起",
+    "酒→配",
+    "酒→西",
+    "酒→洋",
+    "閉→開",
+    "閉→間",
+    "閉→問",
+    "関→開",
+    "関→間",
+    "関→問",
+    "降→限",
+    "降→院",
+    "降→部",
+    "限→降",
+    "限→院",
+    "限→都"
+   ],
+   "directionCount": 30,
+   "externalDependenciesAlreadyReviewedCurrent": [
+    "問",
+    "洋",
+    "立",
+    "者",
+    "西",
+    "起",
+    "週",
+    "遊",
+    "道",
+    "遠",
+    "開",
+    "間",
+    "院"
+   ],
+   "negativeFallbackStatus": "UNVERIFIED for all 30 direct directions; no transitive closure inferred"
+  }
+ },
+ "progressSnapshot": {
+  "frozenInventory": 8278,
+  "reviewedCurrent": 2680,
+  "runtimeBlocked": 2,
+  "pending": 5596,
+  "adoptedWords": 1478,
+  "adoptedKanji": 586,
+  "adoptedStrokes": 586,
+  "russianContentVersion": "00358c788ce1bdf4",
+  "checkpointAuthority": null,
+  "checkpointReady": false
+ },
+ "sourceLessonIds": {
+  "適": [
+   1200120,
+   1437430,
+   1437440
+  ],
+  "選": [
+   1392250,
+   1392290,
+   1588730
+  ],
+  "部": [
+   1396130,
+   1499320,
+   1499490
+  ],
+  "都": [
+   1444950,
+   1444970,
+   1652350
+  ],
+  "配": [
+   1360930,
+   1472990,
+   1473140
+  ],
+  "酒": [
+   1329010,
+   1329040,
+   1464670
+  ],
+  "閉": [
+   1436560,
+   1508550,
+   1508590,
+   1508720
+  ],
+  "関": [
+   1215810,
+   1215860,
+   1589880
+  ],
+  "降": [
+   1282790,
+   1282900,
+   1548550,
+   1589500
+  ],
+  "限": [
+   1220560,
+   1264640,
+   1264650
+  ]
+ },
+ "frozenSourceLessons": [
+  {
+   "kanji": "適",
+   "path": "kanji/適.md",
+   "bytes": 1684,
+   "rawSha256": "e2c0e5e55d072f2f4360df5b12de6c45d51faa144a1cd7838254a0272f76ef36",
+   "manifestSha256": "e2c0e5e55d072f2f4360df5b12de6c45d51faa144a1cd7838254a0272f76ef36",
+   "gitBlob": "b49a89b2b4823a5bcdb949c8cd3e29752a606f6b",
+   "metadata": {
+    "kanji": "適",
+    "title": "suitable",
+    "jlpt": "3",
+    "tags": [
+     "jlpt-n3",
+     "grade-5",
+     "structure-unclassified"
+    ],
+    "strokes": "14",
+    "radical": "辵",
+    "radicalNumber": "162",
+    "onyomi": [
+     "テキ"
+    ],
+    "kunyomi": [
+     "かな.う"
+    ],
+    "distractors": [
+     "週",
+     "道",
+     "遠"
+    ]
+   },
+   "citedJMdictEntryIds": [
+    1200120,
+    1437430,
+    1437440
+   ]
+  },
+  {
+   "kanji": "選",
+   "path": "kanji/選.md",
+   "bytes": 1644,
+   "rawSha256": "02aa12c6220b24612d1bb987901066159f8f36053e132cd88f6148d63d73e981",
+   "manifestSha256": "02aa12c6220b24612d1bb987901066159f8f36053e132cd88f6148d63d73e981",
+   "gitBlob": "f6c8794cfbbe073c72999036936f9415ca347c60",
+   "metadata": {
+    "kanji": "選",
+    "title": "choose",
+    "jlpt": "3",
+    "tags": [
+     "jlpt-n3",
+     "grade-4",
+     "structure-unclassified"
+    ],
+    "strokes": "15",
+    "radical": "辵",
+    "radicalNumber": "162",
+    "onyomi": [
+     "セン"
+    ],
+    "kunyomi": [
+     "えら.ぶ",
+     "え.る",
+     "よ.る"
+    ],
+    "distractors": [
+     "遊",
+     "週",
+     "道"
+    ]
+   },
+   "citedJMdictEntryIds": [
+    1392250,
+    1392290,
+    1588730
+   ]
+  },
+  {
+   "kanji": "部",
+   "path": "kanji/部.md",
+   "bytes": 1738,
+   "rawSha256": "bf1f8c79c61fbb6afec40366a1ca4e1893cf0e9c3002758107b07c43d200b500",
+   "manifestSha256": "bf1f8c79c61fbb6afec40366a1ca4e1893cf0e9c3002758107b07c43d200b500",
+   "gitBlob": "805eeffbd3468743768618ee0cb8de71fa37da7f",
+   "metadata": {
+    "kanji": "部",
+    "title": "section; department",
+    "jlpt": "3",
+    "tags": [
+     "jlpt-n3",
+     "grade-3",
+     "structure-unclassified"
+    ],
+    "strokes": "11",
+    "radical": "邑",
+    "radicalNumber": "163",
+    "onyomi": [
+     "ブ"
+    ],
+    "kunyomi": [
+     "-べ"
+    ],
+    "distractors": [
+     "都",
+     "立",
+     "問"
+    ]
+   },
+   "citedJMdictEntryIds": [
+    1396130,
+    1499320,
+    1499490
+   ]
+  },
+  {
+   "kanji": "都",
+   "path": "kanji/都.md",
+   "bytes": 1618,
+   "rawSha256": "18b63e3e47b77ba7a510ad0549cddb60ee597a4872a21ca145ccb7fbec3e90ff",
+   "manifestSha256": "18b63e3e47b77ba7a510ad0549cddb60ee597a4872a21ca145ccb7fbec3e90ff",
+   "gitBlob": "84afade7f6d6292660263e5408f26a739a6120e9",
+   "metadata": {
+    "kanji": "都",
+    "title": "metropolis",
+    "jlpt": "3",
+    "tags": [
+     "jlpt-n3",
+     "grade-3",
+     "structure-unclassified"
+    ],
+    "strokes": "11",
+    "radical": "邑",
+    "radicalNumber": "163",
+    "onyomi": [
+     "ト",
+     "ツ"
+    ],
+    "kunyomi": [
+     "みやこ"
+    ],
+    "distractors": [
+     "部",
+     "院",
+     "者"
+    ]
+   },
+   "citedJMdictEntryIds": [
+    1444950,
+    1444970,
+    1652350
+   ]
+  },
+  {
+   "kanji": "配",
+   "path": "kanji/配.md",
+   "bytes": 1783,
+   "rawSha256": "85d7958a16094023e5a0a2dcc274d0576d0b87b56a7c1be84f71c29592bad808",
+   "manifestSha256": "85d7958a16094023e5a0a2dcc274d0576d0b87b56a7c1be84f71c29592bad808",
+   "gitBlob": "cadda10f1cc5a2bf49b85d60d942463e7c212233",
+   "metadata": {
+    "kanji": "配",
+    "title": "distribute",
+    "jlpt": "3",
+    "tags": [
+     "jlpt-n3",
+     "grade-3",
+     "structure-unclassified"
+    ],
+    "strokes": "10",
+    "radical": "酉",
+    "radicalNumber": "164",
+    "onyomi": [
+     "ハイ"
+    ],
+    "kunyomi": [
+     "くば.る"
+    ],
+    "distractors": [
+     "酒",
+     "西",
+     "起"
+    ]
+   },
+   "citedJMdictEntryIds": [
+    1360930,
+    1472990,
+    1473140
+   ]
+  },
+  {
+   "kanji": "酒",
+   "path": "kanji/酒.md",
+   "bytes": 1666,
+   "rawSha256": "8a26659571241f685fde73514f72a821e1d78ce18fe8e3479c83979df5ed1039",
+   "manifestSha256": "8a26659571241f685fde73514f72a821e1d78ce18fe8e3479c83979df5ed1039",
+   "gitBlob": "450a344e7bc0453dbd9a1462630525ea8a2465cb",
+   "metadata": {
+    "kanji": "酒",
+    "title": "alcohol; sake",
+    "jlpt": "3",
+    "tags": [
+     "jlpt-n3",
+     "grade-3",
+     "structure-unclassified"
+    ],
+    "strokes": "10",
+    "radical": "酉",
+    "radicalNumber": "164",
+    "onyomi": [
+     "シュ"
+    ],
+    "kunyomi": [
+     "さけ",
+     "さか-"
+    ],
+    "distractors": [
+     "配",
+     "西",
+     "洋"
+    ]
+   },
+   "citedJMdictEntryIds": [
+    1329010,
+    1329040,
+    1464670
+   ]
+  },
+  {
+   "kanji": "閉",
+   "path": "kanji/閉.md",
+   "bytes": 1863,
+   "rawSha256": "2ec063186aac37716e3c4b09de92d5ba74b77596124d0813e993c1ffe40b62a4",
+   "manifestSha256": "2ec063186aac37716e3c4b09de92d5ba74b77596124d0813e993c1ffe40b62a4",
+   "gitBlob": "2b54f5d9f1eacb57e6e469035a0d779fe6ba720f",
+   "metadata": {
+    "kanji": "閉",
+    "title": "shut",
+    "jlpt": "3",
+    "tags": [
+     "jlpt-n3",
+     "grade-6",
+     "structure-unclassified"
+    ],
+    "strokes": "11",
+    "radical": "門",
+    "radicalNumber": "169",
+    "onyomi": [
+     "ヘイ"
+    ],
+    "kunyomi": [
+     "と.じる",
+     "と.ざす",
+     "し.める",
+     "し.まる",
+     "た.てる"
+    ],
+    "distractors": [
+     "開",
+     "間",
+     "問"
+    ]
+   },
+   "citedJMdictEntryIds": [
+    1436560,
+    1508550,
+    1508590,
+    1508720
+   ]
+  },
+  {
+   "kanji": "関",
+   "path": "kanji/関.md",
+   "bytes": 1870,
+   "rawSha256": "d391ffbf279277bf1ee6913b732bf07637f507efb4bd19957b5b4336d26c1d49",
+   "manifestSha256": "d391ffbf279277bf1ee6913b732bf07637f507efb4bd19957b5b4336d26c1d49",
+   "gitBlob": "772a7fa93aa9d027cb0f551182d3b247c4302187",
+   "metadata": {
+    "kanji": "関",
+    "title": "involve; barrier",
+    "jlpt": "3",
+    "tags": [
+     "jlpt-n3",
+     "grade-4",
+     "structure-unclassified"
+    ],
+    "strokes": "14",
+    "radical": "門",
+    "radicalNumber": "169",
+    "onyomi": [
+     "カン"
+    ],
+    "kunyomi": [
+     "せき",
+     "-ぜき",
+     "かか.わる",
+     "からくり",
+     "かんぬき"
+    ],
+    "distractors": [
+     "開",
+     "間",
+     "問"
+    ]
+   },
+   "citedJMdictEntryIds": [
+    1215810,
+    1215860,
+    1589880
+   ]
+  },
+  {
+   "kanji": "降",
+   "path": "kanji/降.md",
+   "bytes": 1953,
+   "rawSha256": "2869eeb2305d8ed37d59809a5d047f76d40c1ebc86619a3fb0e7757521ef9e36",
+   "manifestSha256": "2869eeb2305d8ed37d59809a5d047f76d40c1ebc86619a3fb0e7757521ef9e36",
+   "gitBlob": "4a737f323e4304d8d77d75f8495335f7a0e71e1f",
+   "metadata": {
+    "kanji": "降",
+    "title": "descend",
+    "jlpt": "3",
+    "tags": [
+     "jlpt-n3",
+     "grade-6",
+     "structure-unclassified"
+    ],
+    "strokes": "10",
+    "radical": "阜",
+    "radicalNumber": "170",
+    "onyomi": [
+     "コウ",
+     "ゴ"
+    ],
+    "kunyomi": [
+     "お.りる",
+     "お.ろす",
+     "ふ.る",
+     "ふ.り",
+     "くだ.る",
+     "くだ.す"
+    ],
+    "distractors": [
+     "限",
+     "院",
+     "部"
+    ]
+   },
+   "citedJMdictEntryIds": [
+    1282790,
+    1282900,
+    1548550,
+    1589500
+   ]
+  },
+  {
+   "kanji": "限",
+   "path": "kanji/限.md",
+   "bytes": 1726,
+   "rawSha256": "6ae129471966d9d1516fdb7e9e412cd4082417bac03fbaa949ec608c75f901d7",
+   "manifestSha256": "6ae129471966d9d1516fdb7e9e412cd4082417bac03fbaa949ec608c75f901d7",
+   "gitBlob": "518a60432a3f6a732698c9eeae292886bd9d9def",
+   "metadata": {
+    "kanji": "限",
+    "title": "limit",
+    "jlpt": "3",
+    "tags": [
+     "jlpt-n3",
+     "grade-5",
+     "structure-unclassified"
+    ],
+    "strokes": "9",
+    "radical": "阜",
+    "radicalNumber": "170",
+    "onyomi": [
+     "ゲン"
+    ],
+    "kunyomi": [
+     "かぎ.る",
+     "かぎ.り",
+     "-かぎ.り"
+    ],
+    "distractors": [
+     "降",
+     "院",
+     "都"
+    ]
+   },
+   "citedJMdictEntryIds": [
+    1220560,
+    1264640,
+    1264650
+   ]
+  }
+ ],
+ "candidateBoundary": {
+  "newLessons": [
+   "適",
+   "選",
+   "部",
+   "都",
+   "配",
+   "酒",
+   "閉",
+   "関",
+   "降",
+   "限"
+  ],
+  "newFrozenStrokeAssets": [
+   "適",
+   "選",
+   "部",
+   "都",
+   "配",
+   "酒",
+   "閉",
+   "関",
+   "降",
+   "限"
+  ],
+  "navigationOnlyWordPages": [
+   "words/お酒.md",
+   "words/全部.md",
+   "words/心配.md",
+   "words/玄関.md",
+   "words/適当.md",
+   "words/選ぶ.md",
+   "words/部屋.md",
+   "words/部長.md",
+   "words/都.md",
+   "words/都会.md",
+   "words/都合.md",
+   "words/閉まる.md",
+   "words/閉める.md",
+   "words/関係.md",
+   "words/降りる.md",
+   "words/降り出す.md",
+   "words/降る.md",
+   "words/降ろす.md",
+   "words/首都.md"
+  ],
+  "reciprocalLinks": [
+   {
+    "path": "words/お酒.md",
+    "kanji": "酒",
+    "target": "../kanji/酒.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link at its first explanatory occurrence; preserve all other teaching content.",
+    "baselineBytes": 2326,
+    "baselineRawSha256": "e366a3fc49a8ca6a433ba6b3bb0cf3acdae811ee474f8499f01073862166a31b",
+    "baselineManifestSha256": "445cc3ed168833b1e46216471b4aa781fd6eee67fa42ee43908e62ed76ae4552",
+    "baselineGitBlob": "a2a7afacc6d9658530369dae19f7697879761359"
+   },
+   {
+    "path": "words/全部.md",
+    "kanji": "部",
+    "target": "../kanji/部.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link at its first explanatory occurrence; preserve all other teaching content.",
+    "baselineBytes": 2896,
+    "baselineRawSha256": "4f5dc28e992a6489f16c22201bc5655549d9620720ec4c6b5c9ec64b53d33032",
+    "baselineManifestSha256": "6c50ac00d7a376386e63fb8b6989d9740a3d4fe2b244818e7566c332bd8cf2de",
+    "baselineGitBlob": "40b2454057e04ab2bdd960ea218b2c2cc3aa355f"
+   },
+   {
+    "path": "words/心配.md",
+    "kanji": "配",
+    "target": "../kanji/配.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link at its first explanatory occurrence; preserve all other teaching content.",
+    "baselineBytes": 2891,
+    "baselineRawSha256": "edb9236dcc6f3a450297d92047f11053431b2cd7e2952f1d753e2b29ad9205fa",
+    "baselineManifestSha256": "edb9236dcc6f3a450297d92047f11053431b2cd7e2952f1d753e2b29ad9205fa",
+    "baselineGitBlob": "d5921bea09f5be4a3c0c5fe0124efba5abaa3426"
+   },
+   {
+    "path": "words/玄関.md",
+    "kanji": "関",
+    "target": "../kanji/関.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link at its first explanatory occurrence; preserve all other teaching content.",
+    "baselineBytes": 2245,
+    "baselineRawSha256": "e7748437c068c5e029f7eeccca04e5b0a99c65556c9d0f8667aabb5d2d3af0f2",
+    "baselineManifestSha256": "ba8fb30b31c4187ebaeb3955500260f29aaf62165ccc0245cc7294cc9f02bcbe",
+    "baselineGitBlob": "a91b90334cfcc3d4e537bb31c5a3672a1fe105bb"
+   },
+   {
+    "path": "words/適当.md",
+    "kanji": "適",
+    "target": "../kanji/適.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link at its first explanatory occurrence; preserve all other teaching content.",
+    "baselineBytes": 2702,
+    "baselineRawSha256": "1202a203886eda15d18860d44278f700fbc3e986211588250428d020ed24ab61",
+    "baselineManifestSha256": "1202a203886eda15d18860d44278f700fbc3e986211588250428d020ed24ab61",
+    "baselineGitBlob": "92ab59c6437a3b7e8d3661dd324c62b2eb6e8c1d"
+   },
+   {
+    "path": "words/選ぶ.md",
+    "kanji": "選",
+    "target": "../kanji/選.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link at its first explanatory occurrence; preserve all other teaching content.",
+    "baselineBytes": 2220,
+    "baselineRawSha256": "847df2d1055fafe62faaa0f563fd86c0e0c037d7e7fcc07438ccbca02c28debe",
+    "baselineManifestSha256": "847df2d1055fafe62faaa0f563fd86c0e0c037d7e7fcc07438ccbca02c28debe",
+    "baselineGitBlob": "8aa728429646f01e6d087f4d09bd9a0cf6e499a5"
+   },
+   {
+    "path": "words/部屋.md",
+    "kanji": "部",
+    "target": "../kanji/部.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link at its first explanatory occurrence; preserve all other teaching content.",
+    "baselineBytes": 3121,
+    "baselineRawSha256": "2946480cebed04555edf05bb7d0d6ba09757cbdffc8eab94dab1d9509cb03199",
+    "baselineManifestSha256": "2fe414b8e015a821e79ff436700cb908a72ca5a1bf47859f5b57fd92f19a0cce",
+    "baselineGitBlob": "066c88f1ebd2703db7359c8b05c8336a6b72f77b"
+   },
+   {
+    "path": "words/部長.md",
+    "kanji": "部",
+    "target": "../kanji/部.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link at its first explanatory occurrence; preserve all other teaching content.",
+    "baselineBytes": 2394,
+    "baselineRawSha256": "1fa89fc9a2f043a0fcde83f6ae424ffe95828d7c5c9e663f14a04da0d2ffb843",
+    "baselineManifestSha256": "1fa89fc9a2f043a0fcde83f6ae424ffe95828d7c5c9e663f14a04da0d2ffb843",
+    "baselineGitBlob": "dab473b9c59f59af2b65df7425eb7438c803fc9a"
+   },
+   {
+    "path": "words/都.md",
+    "kanji": "都",
+    "target": "../kanji/都.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link at its first explanatory occurrence; preserve all other teaching content.",
+    "baselineBytes": 3528,
+    "baselineRawSha256": "eb42ff56c22d94125533324a7c20e1df65775590d8a00f9d06521665867bafc5",
+    "baselineManifestSha256": "eb42ff56c22d94125533324a7c20e1df65775590d8a00f9d06521665867bafc5",
+    "baselineGitBlob": "aa264e88a2db5ee24ae3928ec9b8706e8442db5e"
+   },
+   {
+    "path": "words/都会.md",
+    "kanji": "都",
+    "target": "../kanji/都.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link at its first explanatory occurrence; preserve all other teaching content.",
+    "baselineBytes": 2548,
+    "baselineRawSha256": "d83933c8bd2ad6ebf9456dff86a1bfdf687ed9dc2aed856fd3188e5a9e4f5cde",
+    "baselineManifestSha256": "d83933c8bd2ad6ebf9456dff86a1bfdf687ed9dc2aed856fd3188e5a9e4f5cde",
+    "baselineGitBlob": "97de8baad85f38e394133b373d9a4d77cee39ed2"
+   },
+   {
+    "path": "words/都合.md",
+    "kanji": "都",
+    "target": "../kanji/都.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link at its first explanatory occurrence; preserve all other teaching content.",
+    "baselineBytes": 2570,
+    "baselineRawSha256": "975f1e03d78efb922eca5507f52e0cf31be55b01458b697c553f2c9b32520df9",
+    "baselineManifestSha256": "975f1e03d78efb922eca5507f52e0cf31be55b01458b697c553f2c9b32520df9",
+    "baselineGitBlob": "fbfef0e58c0925cc137b29abfa3b014afb8be73d"
+   },
+   {
+    "path": "words/閉まる.md",
+    "kanji": "閉",
+    "target": "../kanji/閉.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link at its first explanatory occurrence; preserve all other teaching content.",
+    "baselineBytes": 2202,
+    "baselineRawSha256": "b79613098d8ddac4b48b839b05d6000a7c6b2c4cba51be0c1e4d17e22f25db81",
+    "baselineManifestSha256": "98fe8c0810ea73ec355df579d83846c550c06a04af07db4d4037717c3d437ab3",
+    "baselineGitBlob": "afcde022e10aa605f02feef1f37a335e47be9040"
+   },
+   {
+    "path": "words/閉める.md",
+    "kanji": "閉",
+    "target": "../kanji/閉.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link at its first explanatory occurrence; preserve all other teaching content.",
+    "baselineBytes": 2228,
+    "baselineRawSha256": "fa8e8b2067155064bee4a22c89002d40bd8190edca239b09f51b759ca15368b3",
+    "baselineManifestSha256": "46a734cc0a81142cf8a4efa291d33476a84cae27e01022175f54fba431dd45be",
+    "baselineGitBlob": "446e64e61a304cb865b44c684143b24fbb40b5c3"
+   },
+   {
+    "path": "words/関係.md",
+    "kanji": "関",
+    "target": "../kanji/関.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link at its first explanatory occurrence; preserve all other teaching content.",
+    "baselineBytes": 2927,
+    "baselineRawSha256": "9cab0541c7f73abd52e115a4488f27446fa34644642ef0c808397680a7240836",
+    "baselineManifestSha256": "9cab0541c7f73abd52e115a4488f27446fa34644642ef0c808397680a7240836",
+    "baselineGitBlob": "b72c6c189a1a1317a6e086707c9325d15c00bd26"
+   },
+   {
+    "path": "words/降りる.md",
+    "kanji": "降",
+    "target": "../kanji/降.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link at its first explanatory occurrence; preserve all other teaching content.",
+    "baselineBytes": 2264,
+    "baselineRawSha256": "bea0548c6d0d225791e8a130ae44b43ab881cd826ac93a2d5936606fb506204a",
+    "baselineManifestSha256": "2ca4c471fb388262fcb5d003cee13b0f3201f15c48475007fb4b54c70ce8b1d8",
+    "baselineGitBlob": "e41255c2d94220034193ffac27a853acab2f98c5"
+   },
+   {
+    "path": "words/降り出す.md",
+    "kanji": "降",
+    "target": "../kanji/降.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link at its first explanatory occurrence; preserve all other teaching content.",
+    "baselineBytes": 2349,
+    "baselineRawSha256": "f7f1239511b838648a4c285a2f7a12462a0ed057a0ad3b844124f23e5019a249",
+    "baselineManifestSha256": "f7f1239511b838648a4c285a2f7a12462a0ed057a0ad3b844124f23e5019a249",
+    "baselineGitBlob": "b1d0b25f62201dce7f232cee6b97d48bb7821e0f"
+   },
+   {
+    "path": "words/降る.md",
+    "kanji": "降",
+    "target": "../kanji/降.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link at its first explanatory occurrence; preserve all other teaching content.",
+    "baselineBytes": 2348,
+    "baselineRawSha256": "f9c5c88e7bbe9bd3182d4b18d11af66a1e832eb8487c23b576621cd379f6a173",
+    "baselineManifestSha256": "21421ce29204b1ad75f88d71f4e92a58c19973f235767c756dedfcbbcea20cab",
+    "baselineGitBlob": "b7b3c99dff58971aef2c40a8d9eabebcc753ce0a"
+   },
+   {
+    "path": "words/降ろす.md",
+    "kanji": "降",
+    "target": "../kanji/降.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link at its first explanatory occurrence; preserve all other teaching content.",
+    "baselineBytes": 2866,
+    "baselineRawSha256": "34db5cb962f01a9f6a6358473626080776fea1ec04503abb96ef7e968594838e",
+    "baselineManifestSha256": "34db5cb962f01a9f6a6358473626080776fea1ec04503abb96ef7e968594838e",
+    "baselineGitBlob": "f3b15d632aa7100b6f10499d760d8a19e5705009"
+   },
+   {
+    "path": "words/首都.md",
+    "kanji": "都",
+    "target": "../kanji/都.md",
+    "occurrences": 1,
+    "context": "Add the single reciprocal kanji-card link at its first explanatory occurrence; preserve all other teaching content.",
+    "baselineBytes": 2443,
+    "baselineRawSha256": "93a06bd157fb229384010d1a0a52c4a16b6a593aea8548df0d3c2eb5beccfded",
+    "baselineManifestSha256": "93a06bd157fb229384010d1a0a52c4a16b6a593aea8548df0d3c2eb5beccfded",
+    "baselineGitBlob": "403898600205212bddd4e156bf913d4b4533c790"
+   }
+  ],
+  "unavailableOptionalSourceLinks": [
+   {
+    "sourceLesson": "kanji/適.md",
+    "sourceLink": "../words/適切.md",
+    "sourceOccurrences": 3,
+    "targetPath": "words/適切.md",
+    "targetExistsAtFrozenSource": true,
+    "targetExistsInRussianBaseline": false
+   },
+   {
+    "sourceLesson": "kanji/酒.md",
+    "sourceLink": "../words/酒.md",
+    "sourceOccurrences": 3,
+    "targetPath": "words/酒.md",
+    "targetExistsAtFrozenSource": true,
+    "targetExistsInRussianBaseline": false
+   },
+   {
+    "sourceLesson": "kanji/限.md",
+    "sourceLink": "../words/限る.md",
+    "sourceOccurrences": 3,
+    "targetPath": "words/限る.md",
+    "targetExistsAtFrozenSource": true,
+    "targetExistsInRussianBaseline": false
+   }
+  ],
+  "newWordPages": 0,
+  "quizOrGradingChanges": 0,
+  "otherRuntimePaths": 0,
+  "methodologyChanges": [
+   ".github/copilot-instructions.md",
+   "docs/translation-methodology.md"
+  ],
+  "methodologyEvidence": "docs/translation-batches/147-sora-search-validation-qualification-001.json"
+ },
+ "targetPreMutation": {
+  "manifest": {
+   "path": "manifest.json",
+   "bytes": 239399,
+   "rawSha256": "9d7da4ffe85eb31066b7efd2f895c9e1147f460bdd72233c3b9143fb9039e878",
+   "gitBlob": "8a6061443e86b3406cd3781a0fc346a492fe309e",
+   "contentVersion": "00358c788ce1bdf4"
+  },
+  "allNewKanjiAndStrokePathsPending": true,
+  "targetChangedDuringBatch": false
+ },
+ "manifestGenerationPlan": {
+  "newRegistrations": [
+   "kanji/適.md",
+   "kanji/選.md",
+   "kanji/部.md",
+   "kanji/都.md",
+   "kanji/配.md",
+   "kanji/酒.md",
+   "kanji/閉.md",
+   "kanji/関.md",
+   "kanji/降.md",
+   "kanji/限.md",
+   "strokes/適.json",
+   "strokes/選.json",
+   "strokes/部.json",
+   "strokes/都.json",
+   "strokes/配.json",
+   "strokes/酒.json",
+   "strokes/閉.json",
+   "strokes/関.json",
+   "strokes/降.json",
+   "strokes/限.json"
+  ],
+  "changedExistingHashes": [
+   "words/お酒.md",
+   "words/全部.md",
+   "words/心配.md",
+   "words/玄関.md",
+   "words/適当.md",
+   "words/選ぶ.md",
+   "words/部屋.md",
+   "words/部長.md",
+   "words/都.md",
+   "words/都会.md",
+   "words/都合.md",
+   "words/閉まる.md",
+   "words/閉める.md",
+   "words/関係.md",
+   "words/降りる.md",
+   "words/降り出す.md",
+   "words/降る.md",
+   "words/降ろす.md",
+   "words/首都.md"
+  ],
+  "removedRegistrations": [],
+  "unrelatedHashChanges": [],
+  "contentVersion": "builder-derived only"
+ },
+ "limits": {
+  "directNegativeFallbackDirections": "UNVERIFIED for all 30 directions; no transitive closure inferred",
+  "ordinaryQuizSafety": false,
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false
+ }
+}
