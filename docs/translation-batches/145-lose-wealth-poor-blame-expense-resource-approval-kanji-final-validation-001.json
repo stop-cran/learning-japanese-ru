@@ -1,0 +1,98 @@
+{
+ "schemaVersion": 1,
+ "batchId": "145-lose-wealth-poor-blame-expense-resource-approval-kanji",
+ "recordedAt": "2026-11-11T12:15:00Z",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "28d55d34e2b8e9f72697adabdfb6094d80dd5250",
+ "candidateCommit": "6cb20cdce4e657d51632dbd74665473a6de4e853",
+ "candidateTree": "b1640819f95b1ad3bdf4a684eb365d4aab6074ae",
+ "manifestVersion": "451870c9d2acb3df",
+ "status": "candidate validation passed; qualified independent review found no actionable issue",
+ "publicationVerification": "docs/translation-batches/145-lose-wealth-poor-blame-expense-resource-approval-kanji-publication-verification-001.json",
+ "serialValidation": [
+  {
+   "command": "python -X utf8 tools\\build_manifest.py",
+   "exitCode": 0,
+   "stdout": "manifest.json: 2642 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 451870c9d2acb3df\n",
+   "stderr": ""
+  },
+  {
+   "command": "python -X utf8 tools\\validate.py",
+   "exitCode": 0,
+   "stdout": "0 error(s)\n",
+   "stderr": ""
+  },
+  {
+   "command": "python -X utf8 -m unittest discover -s tools -p \"test_*.py\"",
+   "exitCode": 0,
+   "stdout": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 35.561s\n\nOK\n",
+   "stderr": ""
+  },
+  {
+   "command": "python -X utf8 tools\\check_content_budget.py",
+   "exitCode": 0,
+   "stdout": "{'files': 2650, 'entries': 2659, 'retainedBytes': 7351546, 'inflatedBytes': 7369761, 'localZipBytes': 3692343, 'listeningTaskMediaBytes': 0}\n",
+   "stderr": ""
+  }
+ ],
+ "diffCheck": {
+  "command": "git diff --check",
+  "exitCode": 0,
+  "stderr": ""
+ },
+ "review": {
+  "report": "docs/translation-batches/145-lose-wealth-poor-blame-expense-resource-approval-kanji-independent-review-001.md",
+  "followUpDisposition": "The MEDIUM grade-4 finding at kanji/費.md:5 was withdrawn; grade-5 is supported by MEXT source evidence.",
+  "verdict": "PASS WITH QUALIFICATIONS",
+  "findings": []
+ },
+ "candidateScope": {
+  "newLessons": ["負", "財", "貧", "責", "費", "資", "賛"],
+  "newByteIdenticalStrokeAssets": ["負", "財", "貧", "責", "費", "資", "賛"],
+  "navigationOnlyWordPages": ["words/負ける.md", "words/財布.md"],
+  "optionalUnavailableLinkWrappersRemoved": 11,
+  "newWordPages": 0,
+  "quizOrGradingChanges": 0,
+  "otherAuthoredRuntimePaths": 0,
+  "manifestDeltaFromPublishedBaseline": {
+   "addedRegistrations": 14,
+   "changedExistingHashes": ["words/負ける.md", "words/財布.md"],
+   "removedRegistrations": 0,
+   "unrelatedHashChanges": 0,
+   "contentVersion": "451870c9d2acb3df"
+  }
+ },
+ "trackingAndProgress": {
+  "frozenInventory": 8278,
+  "reviewedCurrent": 2642,
+  "excludedReviewedRuntimeBlocked": 2,
+  "pending": 5634,
+  "words": 1478,
+  "kanji": 567,
+  "strokes": 567,
+  "translationProgressReportMatchesTracking": true,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "artifacts": [
+   {
+    "path": "docs/translation-progress.json",
+    "bytes": 5541080,
+    "rawSha256": "65c94097f7ecede83cf7751e1e4880816a637ef6db7c88c068c14e54b6da97b1"
+   },
+   {
+    "path": "docs/translation-tracking.json",
+    "bytes": 7998317,
+    "rawSha256": "d876b8a077371affdaaf0661a4e23a2c15b539cebe3829d14b6c02de4d593389"
+   }
+  ]
+ },
+ "limits": {
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 21 direct directions; no transitive closure inferred.",
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "fullTranslationComplete": false,
+  "publicationPending": true
+ }
+}
