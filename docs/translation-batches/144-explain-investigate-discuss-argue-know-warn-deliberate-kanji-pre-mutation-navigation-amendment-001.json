@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "batchId": "144-explain-investigate-discuss-argue-know-warn-deliberate-kanji",
+ "recordedAt": "2026-11-11T09:18:00Z",
+ "status": "pre-mutation authorization",
+ "sourceFreezeCommit": "d44c9391385ab1a8f962c3bf476cb35d9a478f0a",
+ "targetBaseline": "d95c7b792b4b575dcbece7b6c880b0e7cdf52a58",
+ "scope": [
+  {
+   "path": "words/説明.md",
+   "bytes": 2689,
+   "rawSha256": "b935a41b8080db44394d7b4e47b8d97bb5bcbb6d3592c091da718d79ced0200d",
+   "parentGitBlob": "355fd8b69fd343759c7e3f035e8e08eeb12c876c",
+   "operation": "Add exactly one kanji-page wrapper around the existing plain 説 in «Как сочетаются кандзи», in the sentence linking 説 with explanation.",
+   "expectedLink": "[説](../kanji/説.md)",
+   "otherChangesAuthorized": false
+  },
+  {
+   "path": "words/調べる.md",
+   "bytes": 2463,
+   "rawSha256": "db9a1c587afb7047a1513a0372fe6a9d976ca93e0aa70ec1b631689d0411fafa",
+   "parentGitBlob": "0aa10d57fc4ffd57156ead8590abe1ce46694a3c",
+   "operation": "Add exactly one kanji-page wrapper around the existing plain 調 in «Как сочетаются кандзи», in the sentence linking 調 with investigation or finding out.",
+   "expectedLink": "[調](../kanji/調.md)",
+   "otherChangesAuthorized": false
+  },
+  {
+   "path": "words/相談.md",
+   "bytes": 2921,
+   "rawSha256": "6b75d680c4d2b9394b67d6d187021cca9a0fd4fa69a1bfe5315667125b781613",
+   "parentGitBlob": "f005020bc66e03cbf38b74e90e394f6709138436",
+   "operation": "Add exactly one kanji-page wrapper around the existing plain 談 after the existing [相](../kanji/相.md) link in «Как сочетаются кандзи».",
+   "expectedLink": "[談](../kanji/談.md)",
+   "otherChangesAuthorized": false
+  },
+  {
+   "path": "words/警官.md",
+   "bytes": 2984,
+   "rawSha256": "32ad6e942cbd5df7da2b69bc957b0b25265a56db4832277e156aa1cc5557527c",
+   "parentGitBlob": "a77ae85893cb6e2c328fae1529fdb86f7359f262",
+   "operation": "Add exactly one kanji-page wrapper around the existing plain 警 in «Как сочетаются кандзи», in the sentence about warning or caution.",
+   "expectedLink": "[警](../kanji/警.md)",
+   "otherChangesAuthorized": false
+  }
+ ],
+ "invariants": {
+  "wordsRemainNavigationOnly": true,
+  "allJapaneseTextAndTeachingContentOtherwiseUnchanged": true,
+  "quizOrGradingDataUnchanged": true,
+  "doNotCreateAbsentWordPages": ["words/議論.md", "words/知識.md"],
+  "preserveVisibleJapaneseWhereOptionalSourceWrappersAreRemoved": true
+ },
+ "authorization": "No edits to the four listed word pages are authorized until this amendment is committed. Only the single described wrapper insertion per page is authorized; every other byte-level change requires a new pre-mutation amendment."
+}
