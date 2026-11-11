@@ -1,0 +1,37 @@
+{
+ "baseCommit": "6d9d83ef090e07229c45c42c2f352a3426b60017",
+ "batchId": "155-n2-batch-04-kanji",
+ "changes": [
+  {
+   "baseBlob": "1574c62d9d6cf3a8f32e7669990196fa96dc5863",
+   "baseBytes": 9890,
+   "baseRawSha256": "8a747468ff6d8adabb818eddc6d32558e325ff9c095a1daa37b88ff4256918e5",
+   "change": "Reattributed the Android quiz-behavior evidence to the coordinating session's read-only inspection and linked this provenance correction.",
+   "correctedBlob": "b0eaa10b2afbe7d0cc1b4e0b8e66d2a03e38dd09",
+   "correctedBytes": 10251,
+   "correctedRawSha256": "f0e16cc1fc9267cc8af5d1efaca0cf586dda0fab06c1f10ac2e8be83dac5832e",
+   "path": "docs/translation-batches/155-n2-batch-04-final-validation-001.json"
+  },
+  {
+   "baseBlob": "0e7a7eb99e3e26de0c4ba5d502743b6288f0fe47",
+   "baseBytes": 4346,
+   "baseRawSha256": "d2d0968ab07ade899502c0f981ba4b326d5e85942ef55844d36a7db4ed891772",
+   "change": "Replaced the incorrect human-user attribution with the coordinating session's read-only inspection provenance; retained the inspected commit and behavior description.",
+   "correctedBlob": "e7f45281ae0d9ea919e80473a99751e38e7a6675",
+   "correctedBytes": 4399,
+   "correctedRawSha256": "82150e15dcca859c8ecce87e3af570f8d8aba1243d2db9c03afe04241fdb632e",
+   "path": "docs/translation-batches/155-n2-batch-04-quiz-content-scope-correction-001.json"
+  }
+ ],
+ "provenance": {
+  "source": "Coordinator-verified from the coordinating session's read-only inspection of pinned Android commit 5c000bd",
+  "details": "The coordinating session reported that QuizViewModel builds quiz candidates from all in-stack kanji and QuizBuilder uses titles and distractors with the fallback pool.",
+  "humanUserVerificationClaimed": false,
+  "writerInspectedAndroidCheckout": false
+ },
+ "recordedAt": "2026-11-11T22:28:57Z",
+ "repository": "stop-cran/learning-japanese-ru",
+ "schemaVersion": 1,
+ "scope": "Hash-bound documentation-only provenance correction. The runtime evidence, 15 displayed-answer additions, 45 direct distractor directions, possible fallback-pool impact, and UNVERIFIED quiz-safety qualification are unchanged.",
+ "status": "Coordinator read-only evidence provenance corrected; publication remains pending."
+}

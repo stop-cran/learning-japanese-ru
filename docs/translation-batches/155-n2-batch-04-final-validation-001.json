@@ -127,7 +127,7 @@
  },
  "postAcceptanceQuizContentScopeCorrection": {
   "record": "docs/translation-batches/155-n2-batch-04-quiz-content-scope-correction-001.json",
-  "runtimeEvidence": "User-verified against pinned Android commit 5c000bd: QuizViewModel builds quiz candidates from all in-stack kanji, and QuizBuilder uses titles and distractors with the fallback pool. New kanji can therefore affect displayed answers, options, and existing fallback pools without changing grading code or pre-existing quiz metadata.",
+  "runtimeEvidence": "The coordinating session's read-only inspection of pinned Android commit 5c000bd found that QuizViewModel builds quiz candidates from all in-stack kanji, and QuizBuilder uses titles and distractors with the fallback pool. New kanji can therefore affect displayed answers, options, and existing fallback pools without changing grading code or pre-existing quiz metadata.",
   "revalidation": {
    "allPassed": true,
    "commands": [
@@ -159,6 +159,10 @@
    ]
   },
   "scope": "Documentation-only correction to quiz-content scope statements and revalidation metadata; no learner-content, manifest, tracking, progress, grading-code, or learner-state changes."
+ },
+ "postAcceptanceQuizRuntimeEvidenceProvenanceCorrection": {
+  "record": "docs/translation-batches/155-n2-batch-04-quiz-runtime-evidence-provenance-correction-001.json",
+  "scope": "Corrects attribution to the coordinating session's read-only inspection; runtime evidence and quiz-safety qualifications are unchanged."
  },
  "publication": {
   "exactMainValidation": null,
