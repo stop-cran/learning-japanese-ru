@@ -20,9 +20,11 @@ directions remain **UNVERIFIED**.
 Candidate commit is `43b1e11db458b9379bf67b5571f8d597ccdd2f46`, content version
 `f7f520d85e56fcab`. Serial checks passed: manifest build, validator, 124 tests,
 and content budget. Qualified progress: **2,628 reviewed-current / 2 runtime-blocked /
-5,648 pending of 8,278**, with 1,478 words / 560 kanji / 560 strokes. The
-acceptance update is being fast-forwarded directly to `main`; exact-main CI
-verification remains pending. Checkpoint authority remains null and `Ready` false.
+5,648 pending of 8,278**, with 1,478 words / 560 kanji / 560 strokes. Acceptance
+was fast-forwarded directly to `main` as signed owner commit
+`375ea10c482219a6b9dc586ba322510a03d3cd0f`; exact-main CI passed in run
+[42997309964](https://github.com/stop-cran/learning-japanese-ru/actions/runs/42997309964).
+Checkpoint authority remains null and `Ready` false.
 
 ## Previous published source milestone: batch143 solve, record, visit, permit, recognize and error kanji
 

@@ -14,7 +14,10 @@ directions remain **UNVERIFIED**. The signed candidate is
 Serial manifest, validator, 124-test, and content-budget checks passed. Qualified progress
 is **2,628 reviewed-current / 2 excluded reviewed runtime-blocked / 5,648 pending of 8,278**,
 with 1,478 words / 560 kanji / 560 strokes. Acceptance is being published directly to
-`main`; no pull request is required. Checkpoint authority remains null and `Ready` false.
+`main`; no pull request is required. **Published** as signed owner commit
+`375ea10c482219a6b9dc586ba322510a03d3cd0f`; exact-main CI passed in run
+[42997309964](https://github.com/stop-cran/learning-japanese-ru/actions/runs/42997309964).
+Checkpoint authority remains null and `Ready` false.
 See the [independent review](translation-batches/144-explain-investigate-discuss-argue-know-warn-deliberate-kanji-independent-review-001.md),
 [qualified source record](translation-batches/144-explain-investigate-discuss-argue-know-warn-deliberate-kanji-reviewed-source.json),
 [final validation](translation-batches/144-explain-investigate-discuss-argue-know-warn-deliberate-kanji-final-validation-001.json),
