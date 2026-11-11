@@ -1,0 +1,76 @@
+{
+ "schemaVersion": 1,
+ "batchId": "145-lose-wealth-poor-blame-expense-resource-approval-kanji",
+ "recordedAt": "2026-11-11T09:49:52Z",
+ "status": "pre-mutation semantic freeze; authoring is authorized only within this scope",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "28d55d34e2b8e9f72697adabdfb6094d80dd5250",
+ "intakeRecord": "docs/translation-batches/145-lose-wealth-poor-blame-expense-resource-approval-kanji-intake.json",
+ "sourceRead": {
+  "frozenEnglishLessonsRead": [
+   "kanji/負.md",
+   "kanji/財.md",
+   "kanji/貧.md",
+   "kanji/責.md",
+   "kanji/費.md",
+   "kanji/資.md",
+   "kanji/賛.md"
+  ],
+  "sourceSnapshotRead": "docs/n3-source-snapshot.json",
+  "primaryEvidenceBoundary": "The frozen English lessons, their exact cited JMdict entry IDs, and the frozen N3 community-list snapshot are the bounded source basis. No fresh JMdict record-level review or additional frequency/naturalness claim is made.",
+  "communityJlptBasis": "The frozen 367-entry N3 community list; these positions are not represented as an official JLPT syllabus."
+ },
+ "frozenJapaneseInvariants": {
+  "lessonIdsAndPaths": ["負", "財", "貧", "責", "費", "資", "賛"],
+  "metadata": true,
+  "readingsAndExamples": true,
+  "directDistractorIds": true,
+  "strokes": "reuse exact byte-identical frozen-source assets",
+  "mnemonics": "remain explicitly modern-shape memory aids, not historical claims",
+  "quiz": "no grading, answer, exclusion, or fallback changes"
+ },
+ "candidateBoundary": {
+  "newLessons": ["負", "財", "貧", "責", "費", "資", "賛"],
+  "newFrozenStrokeAssets": ["負", "財", "貧", "責", "費", "資", "賛"],
+  "navigationOnlyWordPages": ["words/負ける.md", "words/財布.md"],
+  "reciprocalLinkChanges": [
+   {"path":"words/負ける.md","kanji":"負","target":"../kanji/負.md","occurrences":1,"context":"In «Как сочетаются кандзи», link the existing plain 負 in the sentence identifying the one written kanji and its losing sense."},
+   {"path":"words/財布.md","kanji":"財","target":"../kanji/財.md","occurrences":1,"context":"In «Как сочетаются кандзи», link the existing plain 財 in the sentence about money or valuables."}
+  ],
+  "availableWordLinks": [
+   {"lessonPath":"kanji/負.md","targetPath":"../words/負ける.md","occurrences":2},
+   {"lessonPath":"kanji/財.md","targetPath":"../words/財布.md","occurrences":2},
+   {"lessonPath":"kanji/負.md","targetPath":"../words/勝つ.md","occurrences":1},
+   {"lessonPath":"kanji/賛.md","targetPath":"../words/反対.md","occurrences":1}
+  ],
+  "optionalUnavailableWordLinkWrapperRemovals": [
+   {"lessonPath":"kanji/負.md","targetPath":"../words/責任.md","occurrences":1},
+   {"lessonPath":"kanji/貧.md","targetPath":"../words/貧しい.md","occurrences":2},
+   {"lessonPath":"kanji/責.md","targetPath":"../words/責任.md","occurrences":2},
+   {"lessonPath":"kanji/費.md","targetPath":"../words/費用.md","occurrences":2},
+   {"lessonPath":"kanji/資.md","targetPath":"../words/資料.md","occurrences":2},
+   {"lessonPath":"kanji/賛.md","targetPath":"../words/賛成.md","occurrences":2}
+  ],
+  "newWordPages": 0,
+  "otherAuthoredRuntimePaths": 0,
+  "quizOrGradingChanges": 0,
+  "generatedManifestBoundary": "Only the repository builder may add exactly the seven new lesson registrations, seven new stroke registrations, two changed reciprocal-link word-page hashes, and the derived contentVersion. Commit a separate pre-generation manifest-scope amendment before running the builder."
+ },
+ "authorization": {
+  "translationWithinRecordedScope": true,
+  "onlyListedOptionalLinkWrapperRemovalsMayChangeLinks": true,
+  "eachExistingWordPageMayReceiveOnlyItsSingleListedReciprocalLink": true,
+  "allOtherWordPageContentMustRemainUnchanged": true,
+  "frozenEnglishSourceMustRemainUntouched": true,
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 21 direct directions; no transitive closure or safety claim authorized",
+  "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false
+ },
+ "unresolved": {
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 21 direct directions",
+  "nativeSpeakerNaturalnessAndUniversalFrequencyClaims": "UNVERIFIED",
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "fullTranslationComplete": false
+ }
+}
