@@ -8,6 +8,22 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+## Current candidate after batch144
+
+Batch144 completed seven Russian kanji lessons (説/調/談/論/識/警/議), seven
+byte-identical frozen stroke assets, and nine navigation-only word-page links,
+including five validator-required reciprocal links authorized before mutation.
+Eight optional source links to absent Russian word pages were omitted. The
+independent bounded review found no actionable issue. All 21 direct negative/fallback
+directions remain **UNVERIFIED**.
+
+Candidate commit is `43b1e11db458b9379bf67b5571f8d597ccdd2f46`, content version
+`f7f520d85e56fcab`. Serial checks passed: manifest build, validator, 124 tests,
+and content budget. Qualified progress: **2,628 reviewed-current / 2 runtime-blocked /
+5,648 pending of 8,278**, with 1,478 words / 560 kanji / 560 strokes. The
+acceptance update is being fast-forwarded directly to `main`; exact-main CI
+verification remains pending. Checkpoint authority remains null and `Ready` false.
+
 ## Previous published source milestone: batch143 solve, record, visit, permit, recognize and error kanji
 
 ## Batch143: published qualified source acceptance

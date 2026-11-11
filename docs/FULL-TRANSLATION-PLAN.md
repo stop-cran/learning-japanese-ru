@@ -1,5 +1,26 @@
 # Full Russian translation: execution after the two pilots
 
+## Current candidate after batch144
+
+Batch144 adds Russian lessons and byte-identical frozen strokes for 説/調/談/論/識/警/議,
+plus nine exact navigation-only word-page links. The validator exposed five reciprocal links
+from existing word pages to the new kanji cards; their single-wrapper changes were authorized
+in a supplemental pre-mutation amendment. Eight optional links to absent word pages were
+omitted without removing their visible Japanese. No quiz or grading behavior changed.
+
+The independent bounded review found no actionable issue. All 21 direct negative/fallback
+directions remain **UNVERIFIED**. The signed candidate is
+`43b1e11db458b9379bf67b5571f8d597ccdd2f46`, content version `f7f520d85e56fcab`.
+Serial manifest, validator, 124-test, and content-budget checks passed. Qualified progress
+is **2,628 reviewed-current / 2 excluded reviewed runtime-blocked / 5,648 pending of 8,278**,
+with 1,478 words / 560 kanji / 560 strokes. Acceptance is being published directly to
+`main`; no pull request is required. Checkpoint authority remains null and `Ready` false.
+See the [independent review](translation-batches/144-explain-investigate-discuss-argue-know-warn-deliberate-kanji-independent-review-001.md),
+[qualified source record](translation-batches/144-explain-investigate-discuss-argue-know-warn-deliberate-kanji-reviewed-source.json),
+[final validation](translation-batches/144-explain-investigate-discuss-argue-know-warn-deliberate-kanji-final-validation-001.json),
+and [publication verification](translation-batches/144-explain-investigate-discuss-argue-know-warn-deliberate-kanji-publication-verification-001.json).
+No runtime, device, media, release, ordinary-activation, or full-translation approval is implied.
+
 ## Previous published source milestone: batch143 solve, record, visit, permit, recognize and error kanji
 
 ## Batch143: published qualified source acceptance

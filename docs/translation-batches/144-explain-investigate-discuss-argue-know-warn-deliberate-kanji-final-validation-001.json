@@ -1,0 +1,117 @@
+{
+ "schemaVersion": 1,
+ "batchId": "144-explain-investigate-discuss-argue-know-warn-deliberate-kanji",
+ "recordedAt": "2026-11-11T09:30:40Z",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "d95c7b792b4b575dcbece7b6c880b0e7cdf52a58",
+ "candidateCommit": "43b1e11db458b9379bf67b5571f8d597ccdd2f46",
+ "candidateTree": "3d8d18b5baa2e43f4a1b0c1e9b5501aa051c4c53",
+ "manifestVersion": "f7f520d85e56fcab",
+ "status": "candidate validation passed; qualified independent review found no actionable issue",
+ "publicationVerification": "docs/translation-batches/144-explain-investigate-discuss-argue-know-warn-deliberate-kanji-publication-verification-001.json",
+ "serialValidation": [
+  {
+   "command": "python tools\\build_manifest.py",
+   "exitCode": 0,
+   "stdout": "manifest.json: 2628 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version f7f520d85e56fcab\n",
+   "stderr": ""
+  },
+  {
+   "command": "python -X utf8 tools\\validate.py",
+   "exitCode": 0,
+   "stdout": "0 error(s)\n",
+   "stderr": ""
+  },
+  {
+   "command": "python -X utf8 -m unittest discover -s tools -p \"test_*.py\"",
+   "exitCode": 0,
+   "stdout": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 55.907s\n\nOK\n",
+   "stderr": ""
+  },
+  {
+   "command": "python -X utf8 tools\\check_content_budget.py",
+   "exitCode": 0,
+   "stdout": "{'files': 2636, 'entries': 2645, 'retainedBytes': 7313684, 'inflatedBytes': 7331899, 'localZipBytes': 3673937, 'listeningTaskMediaBytes': 0}\n",
+   "stderr": ""
+  }
+ ],
+ "diffCheck": {
+  "command": "git diff --check",
+  "exitCode": 0,
+  "stderr": ""
+ },
+ "review": {
+  "report": "docs/translation-batches/144-explain-investigate-discuss-argue-know-warn-deliberate-kanji-independent-review-001.md",
+  "verdict": "PASS WITH QUALIFICATIONS",
+  "findings": []
+ },
+ "candidateScope": {
+  "newLessons": ["説", "調", "談", "論", "識", "警", "議"],
+  "newByteIdenticalStrokeAssets": ["説", "調", "談", "論", "識", "警", "議"],
+  "navigationOnlyWordPages": [
+   "words/説明.md",
+   "words/調べる.md",
+   "words/相談.md",
+   "words/警官.md",
+   "words/会議.md",
+   "words/会議室.md",
+   "words/小説.md",
+   "words/演説.md",
+   "words/警察.md"
+  ],
+  "optionalUnavailableLinkWrappersRemoved": 8,
+  "newWordPages": 0,
+  "quizOrGradingChanges": 0,
+  "otherAuthoredRuntimePaths": 0,
+  "manifestDeltaFromPublishedBaseline": {
+   "addedRegistrations": 14,
+   "changedExistingHashes": [
+    "words/説明.md",
+    "words/調べる.md",
+    "words/相談.md",
+    "words/警官.md",
+    "words/会議.md",
+    "words/会議室.md",
+    "words/小説.md",
+    "words/演説.md",
+    "words/警察.md"
+   ],
+   "removedRegistrations": 0,
+   "unrelatedHashChanges": 0,
+   "contentVersion": "f7f520d85e56fcab"
+  }
+ },
+ "trackingAndProgress": {
+  "frozenInventory": 8278,
+  "reviewedCurrent": 2628,
+  "excludedReviewedRuntimeBlocked": 2,
+  "pending": 5648,
+  "words": 1478,
+  "kanji": 560,
+  "strokes": 560,
+  "translationProgressReportMatchesTracking": true,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "artifacts": [
+   {
+    "path": "docs/translation-progress.json",
+    "bytes": 5527714,
+    "rawSha256": "5252bae3593ce14f302cae47d843fd4f5fabf69552e8b8162119d3bdcd94a8e5"
+   },
+   {
+    "path": "docs/translation-tracking.json",
+    "bytes": 7974673,
+    "rawSha256": "47a34c45ed4a11b12efd52bf2e21ecc7e75d6fe7ed67fad37aa79c8f8a7a3b1d"
+   }
+  ]
+ },
+ "limits": {
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 21 direct directions; no transitive closure inferred.",
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "fullTranslationComplete": false,
+  "publicationPending": true
+ }
+}
