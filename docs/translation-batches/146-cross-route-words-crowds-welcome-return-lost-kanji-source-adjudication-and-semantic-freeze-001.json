@@ -1,0 +1,101 @@
+{
+ "schemaVersion": 1,
+ "batchId": "146-cross-route-words-crowds-welcome-return-lost-kanji",
+ "recordedAt": "2026-11-11T10:31:40Z",
+ "status": "pre-mutation semantic freeze; authoring is authorized only within this scope",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "28555f4735a3567fa1ed42a0dc30abbb1a543acf",
+ "intakeRecord": "docs/translation-batches/146-cross-route-words-crowds-welcome-return-lost-kanji-intake.json",
+ "sourceRead": {
+  "frozenEnglishLessonsRead": [
+   "kanji/越.md",
+   "kanji/路.md",
+   "kanji/辞.md",
+   "kanji/込.md",
+   "kanji/迎.md",
+   "kanji/返.md",
+   "kanji/迷.md",
+   "kanji/追.md",
+   "kanji/退.md",
+   "kanji/逃.md"
+  ],
+  "sourceSnapshotRead": "docs/n3-source-snapshot.json",
+  "primaryEvidenceBoundary": "The complete frozen English lessons, their exact cited JMdict entry IDs, and the frozen N3 community-list snapshot are the bounded source basis. No fresh JMdict record-level review, new frequency/naturalness claim, or modern official JLPT claim is made.",
+  "communityJlptBasis": "The frozen 367-entry N3 community list; these positions are not represented as an official JLPT syllabus.",
+  "dependencyClosure": "Positions 316–325 form the next contiguous closure: the initial 316–322 slice included 込→逃, but kanji/逃.md was absent at the baseline. Extending through 323–325 adds 追, 退, and the required 逃 card; all other direct distractor cards are reviewed-current at the baseline."
+ },
+ "frozenJapaneseInvariants": {
+  "lessonIdsAndPaths": ["越", "路", "辞", "込", "迎", "返", "迷", "追", "退", "逃"],
+  "metadata": true,
+  "readingsAndExamples": true,
+  "directDistractorIds": true,
+  "strokes": "reuse exact byte-identical frozen-source assets",
+  "mnemonics": "remain explicitly modern-shape memory aids, not historical claims",
+  "quiz": "no grading, answer, exclusion, or fallback changes"
+ },
+ "candidateBoundary": {
+  "newLessons": ["越", "路", "辞", "込", "迎", "返", "迷", "追", "退", "逃"],
+  "newFrozenStrokeAssets": ["越", "路", "辞", "込", "迎", "返", "迷", "追", "退", "逃"],
+  "navigationOnlyWordPages": [
+   "words/引っ越す.md",
+   "words/申し込む.md",
+   "words/辞典.md",
+   "words/辞書.md",
+   "words/込む.md",
+   "words/迎える.md",
+   "words/返す.md",
+   "words/返事.md",
+   "words/退院.md",
+   "words/逃げる.md"
+  ],
+  "reciprocalLinkChanges": [
+   {"path":"words/引っ越す.md","kanji":"越","target":"../kanji/越.md","occurrences":1,"context":"In the existing kanji-combination explanation, link the first explanatory occurrence of 越す."},
+   {"path":"words/申し込む.md","kanji":"込","target":"../kanji/込.md","occurrences":1,"context":"In the existing kanji-combination explanation, link the standalone mention of 込."},
+   {"path":"words/辞典.md","kanji":"辞","target":"../kanji/辞.md","occurrences":1,"context":"In the existing kanji-combination explanation, link the explanatory mention of 辞."},
+   {"path":"words/辞書.md","kanji":"辞","target":"../kanji/辞.md","occurrences":1,"context":"In the existing kanji-combination explanation, link the explanatory mention of 辞."},
+   {"path":"words/込む.md","kanji":"込","target":"../kanji/込.md","occurrences":1,"context":"In the existing kanji-combination explanation, link the standalone mention of 込."},
+   {"path":"words/迎える.md","kanji":"迎","target":"../kanji/迎.md","occurrences":1,"context":"In the existing kanji-combination explanation, link the explanatory mention of 迎."},
+   {"path":"words/返す.md","kanji":"返","target":"../kanji/返.md","occurrences":1,"context":"In the existing kanji-combination explanation, link the explanatory mention of 返."},
+   {"path":"words/返事.md","kanji":"返","target":"../kanji/返.md","occurrences":1,"context":"In the existing kanji-combination explanation, link the explanatory mention of 返."},
+   {"path":"words/退院.md","kanji":"退","target":"../kanji/退.md","occurrences":1,"context":"In the existing kanji-combination explanation, link the explanatory mention of 退."},
+   {"path":"words/逃げる.md","kanji":"逃","target":"../kanji/逃.md","occurrences":1,"context":"In the existing kanji-combination explanation, link the explanatory mention of 逃."}
+  ],
+  "availableSourceWordLinks": [
+   "words/辞書.md",
+   "words/申し込む.md",
+   "words/迎える.md",
+   "words/会う.md",
+   "words/返す.md",
+   "words/帰る.md",
+   "words/退院.md",
+   "words/逃げる.md"
+  ],
+  "optionalUnavailableSourceWordLinksAsPlainJapaneseText": [
+   "words/越える.md",
+   "words/道路.md",
+   "words/迷う.md",
+   "words/追う.md"
+  ],
+  "newWordPages": 0,
+  "otherAuthoredRuntimePaths": 0,
+  "quizOrGradingChanges": 0,
+  "generatedManifestBoundary": "Only the repository builder may add exactly the ten new lesson registrations, ten new stroke registrations, ten changed reciprocal-link word-page hashes, and the derived contentVersion. Commit a separate pre-generation manifest-scope amendment before running the builder."
+ },
+ "authorization": {
+  "translationWithinRecordedScope": true,
+  "onlyListedOptionalMissingLinksMayBeRenderedAsPlainJapaneseText": true,
+  "eachExistingWordPageMayReceiveOnlyItsSingleListedReciprocalLink": true,
+  "allOtherWordPageContentMustRemainUnchanged": true,
+  "frozenEnglishSourceMustRemainUntouched": true,
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 30 direct directions; no transitive closure or safety claim authorized",
+  "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false
+ },
+ "unresolved": {
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 30 direct directions",
+  "nativeSpeakerNaturalnessAndUniversalFrequencyClaims": "UNVERIFIED",
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "fullTranslationComplete": false
+ }
+}
