@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "batchId": "141-youth-bitterness-grass-fall-leaf-medicine-kanji",
+  "recordedAt": "2026-11-11T07:45:10+00:00",
+  "status": "pre-mutation validator-driven navigation amendment before word-page edits",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "baselineCommit": "445f33898fc56d6b9761333960f418d32043c5ea",
+  "amends": [
+    "docs/translation-batches/141-youth-bitterness-grass-fall-leaf-medicine-kanji-intake.json",
+    "docs/translation-batches/141-youth-bitterness-grass-fall-leaf-medicine-kanji-source-adjudication-and-semantic-freeze-001.json"
+  ],
+  "trigger": {
+    "validatorCommand": "python -X utf8 -B tools\\validate.py",
+    "result": "10 errors: newly available kanji lessons require missing navigation wrappers in existing word articles",
+    "affectedCharacters": [
+      "若",
+      "苦",
+      "草",
+      "落",
+      "葉",
+      "薬"
+    ],
+    "wordPagesModifiedBeforeAmendment": false,
+    "exactOldTextOccurrencesVerified": 10
+  },
+  "preMutationCandidateState": {
+    "headCommit": "445f33898fc56d6b9761333960f418d32043c5ea",
+    "uncommittedNewLessons": [
+      "kanji/若.md",
+      "kanji/苦.md",
+      "kanji/草.md",
+      "kanji/落.md",
+      "kanji/葉.md",
+      "kanji/薬.md"
+    ],
+    "uncommittedFrozenStrokeAssets": [
+      "strokes/若.json",
+      "strokes/苦.json",
+      "strokes/草.json",
+      "strokes/落.json",
+      "strokes/葉.json",
+      "strokes/薬.json"
+    ],
+    "wordPagesStillUnmodified": true
+  },
+  "authorizedNavigationOnlyWrappers": [
+    {
+      "path": "words/若い.md",
+      "replaceExactlyOnce": {
+        "old": "若 передаёт значение молодости и записывает わか;",
+        "new": "[若](../kanji/若.md) передаёт значение молодости и записывает わか;"
+      }
+    },
+    {
+      "path": "words/苦い.md",
+      "replaceExactlyOnce": {
+        "old": "苦 передаёт にが,",
+        "new": "[苦](../kanji/苦.md) передаёт にが,"
+      }
+    },
+    {
+      "path": "words/苦しい.md",
+      "replaceExactlyOnce": {
+        "old": "苦 передаёт страдание или трудность.",
+        "new": "[苦](../kanji/苦.md) передаёт страдание или трудность."
+      }
+    },
+    {
+      "path": "words/草.md",
+      "replaceExactlyOnce": {
+        "old": "草 — один кандзи",
+        "new": "[草](../kanji/草.md) — один кандзи"
+      }
+    },
+    {
+      "path": "words/落す.md",
+      "replaceExactlyOnce": {
+        "old": "落 связано с падением.",
+        "new": "[落](../kanji/落.md) связано с падением."
+      }
+    },
+    {
+      "path": "words/落ちる.md",
+      "replaceExactlyOnce": {
+        "old": "Здесь один кандзи 落, связанный с падением.",
+        "new": "Здесь один кандзи [落](../kanji/落.md), связанный с падением."
+      }
+    },
+    {
+      "path": "words/葉.md",
+      "replaceExactlyOnce": {
+        "old": "Один кандзи 葉",
+        "new": "Один кандзи [葉](../kanji/葉.md)"
+      }
+    },
+    {
+      "path": "words/葉書.md",
+      "replaceExactlyOnce": {
+        "old": "葉 читается は, а [書](../kanji/書.md) передаёт がき, связанное с письмом.",
+        "new": "[葉](../kanji/葉.md) читается は, а [書](../kanji/書.md) передаёт がき, связанное с письмом."
+      }
+    },
+    {
+      "path": "words/薬.md",
+      "replaceExactlyOnce": {
+        "old": "薬 — один знак, который здесь читается как исконное слово くすり.",
+        "new": "[薬](../kanji/薬.md) — один знак, который здесь читается как исконное слово くすり."
+      }
+    },
+    {
+      "path": "words/言葉.md",
+      "replaceExactlyOnce": {
+        "old": "[言](../kanji/言.md) связан с речью, а 葉 — знак со значением «лист».",
+        "new": "[言](../kanji/言.md) связан с речью, а [葉](../kanji/葉.md) — знак со значением «лист»."
+      }
+    }
+  ],
+  "limits": {
+    "navigationOnly": true,
+    "visibleMeaningTextChange": false,
+    "metadataOrQuizChanges": false,
+    "otherRuntimeChangesAuthorized": false
+  }
+}
