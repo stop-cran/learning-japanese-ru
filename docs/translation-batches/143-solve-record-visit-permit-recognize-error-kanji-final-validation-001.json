@@ -1,0 +1,133 @@
+{
+ "schemaVersion": 1,
+ "batchId": "143-solve-record-visit-permit-recognize-error-kanji",
+ "recordedAt": "2026-11-11T09:03:27Z",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "10e8e92aa8c2f82d448358187ba575527d995180",
+ "candidateCommit": "d206576631135f27b43fd0136d18652cb2ba96fc",
+ "candidateTree": "a83d1a620813959781d34f1464adf334cc09560f",
+ "manifestVersion": "fdcb38de679a3f19",
+ "status": "candidate validation passed; publication pending",
+ "serialValidation": [
+  {
+   "command": "python -X utf8 -B tools\\build_manifest.py",
+   "exitCode": 0,
+   "stdout": "manifest.json: 2614 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version fdcb38de679a3f19\n",
+   "stderr": ""
+  },
+  {
+   "command": "python -X utf8 -B tools\\validate.py",
+   "exitCode": 0,
+   "stdout": "0 error(s)\n",
+   "stderr": ""
+  },
+  {
+   "command": "python -X utf8 -B -m unittest discover -s tools -p \"test_*.py\"",
+   "exitCode": 0,
+   "stdout": "",
+   "stderr": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 53.669s\n\nOK\n"
+  },
+  {
+   "command": "python -X utf8 -B tools\\check_content_budget.py",
+   "exitCode": 0,
+   "stdout": "{'files': 2622, 'entries': 2631, 'retainedBytes': 7266675, 'inflatedBytes': 7284890, 'localZipBytes': 3652771, 'listeningTaskMediaBytes': 0}\n",
+   "stderr": ""
+  }
+ ],
+ "diffCheck": {
+  "command": "git diff --check",
+  "exitCode": 0,
+  "stderr": ""
+ },
+ "reviews": {
+  "initial": {
+   "report": "docs/translation-batches/143-solve-record-visit-permit-recognize-error-kanji-independent-review-001.md",
+   "verdict": "NEEDS FIX",
+   "finding": "kanji/許.md:29 said も instead of もと."
+  },
+  "followUp": {
+   "report": "docs/translation-batches/143-solve-record-visit-permit-recognize-error-kanji-independent-review-follow-up-001.md",
+   "verdict": "PASS WITH QUALIFICATIONS",
+   "result": "The correction resolves the finding; no remaining or new actionable issue in focused scope."
+  }
+ },
+ "candidateScope": {
+  "newLessons": [
+   "解",
+   "記",
+   "訪",
+   "許",
+   "認",
+   "誤"
+  ],
+  "newByteIdenticalStrokeAssets": [
+   "解",
+   "記",
+   "訪",
+   "許",
+   "認",
+   "誤"
+  ],
+  "navigationOnlyWordPages": [
+   "words/理解.md",
+   "words/日記.md",
+   "words/訪ねる.md",
+   "words/記号.md"
+  ],
+  "optionalUnavailableLinkWrappersRemoved": 11,
+  "newWordPages": 0,
+  "quizOrGradingChanges": 0,
+  "otherAuthoredRuntimePaths": 0,
+  "manifestDeltaFromPublishedBaseline": {
+   "addedRegistrations": 12,
+   "changedExistingHashes": [
+    "words/理解.md",
+    "words/日記.md",
+    "words/訪ねる.md",
+    "words/記号.md"
+   ],
+   "removedRegistrations": 0,
+   "unrelatedHashChanges": 0,
+   "contentVersion": "fdcb38de679a3f19"
+  },
+  "correctionManifestDeltaFromInitialCandidate": {
+   "changedLessonHash": "kanji/許.md",
+   "contentVersionFrom": "57dc9b54ea36d5c9",
+   "contentVersionTo": "fdcb38de679a3f19",
+   "otherManifestChanges": 0
+  }
+ },
+ "trackingAndProgress": {
+  "frozenInventory": 8278,
+  "reviewedCurrent": 2614,
+  "excludedReviewedRuntimeBlocked": 2,
+  "pending": 5662,
+  "words": 1478,
+  "kanji": 553,
+  "strokes": 553,
+  "translationProgressReportMatchesTracking": true,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "artifacts": [
+   {
+    "path": "docs/translation-progress.json",
+    "bytes": 5505668,
+    "rawSha256": "a71c0d08dafdc2f9c4ddbf27c899a9ee8dc9689ebaf42389d71b5a61a9c4993d"
+   },
+   {
+    "path": "docs/translation-tracking.json",
+    "bytes": 7941878,
+    "rawSha256": "1cc31b1a202fb61996faf2c48a4d75352c17b77bdfc9fb94ef6a12fb7a4b75ac"
+   }
+  ]
+ },
+ "limits": {
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 18 direct directions; no transitive closure inferred.",
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "fullTranslationComplete": false,
+  "publicationPending": true
+ }
+}

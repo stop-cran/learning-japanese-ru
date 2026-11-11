@@ -1,0 +1,110 @@
+{
+ "schemaVersion": 1,
+ "batchId": "143-solve-record-visit-permit-recognize-error-kanji",
+ "recordedAt": "2026-11-11T09:01:05Z",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "10e8e92aa8c2f82d448358187ba575527d995180",
+ "preMutationFreezeCommit": "fe57e10d031f9d308312c1354639df488084d237",
+ "candidateCommit": "d206576631135f27b43fd0136d18652cb2ba96fc",
+ "candidateTree": "a83d1a620813959781d34f1464adf334cc09560f",
+ "manifestVersion": "fdcb38de679a3f19",
+ "status": "qualified frozen-source content and progress acceptance; publication pending",
+ "independentReviews": [
+  "docs/translation-batches/143-solve-record-visit-permit-recognize-error-kanji-independent-review-001.md",
+  "docs/translation-batches/143-solve-record-visit-permit-recognize-error-kanji-independent-review-follow-up-001.md"
+ ],
+ "finalValidation": "docs/translation-batches/143-solve-record-visit-permit-recognize-error-kanji-final-validation-001.json",
+ "scopeRecords": [
+  "docs/translation-batches/143-solve-record-visit-permit-recognize-error-kanji-intake.json",
+  "docs/translation-batches/143-solve-record-visit-permit-recognize-error-kanji-source-adjudication-and-semantic-freeze-001.json",
+  "docs/translation-batches/143-solve-record-visit-permit-recognize-error-kanji-pre-mutation-navigation-amendment-001.json",
+  "docs/translation-batches/143-solve-record-visit-permit-recognize-error-kanji-pre-mutation-navigation-amendment-002.json",
+  "docs/translation-batches/143-solve-record-visit-permit-recognize-error-kanji-generated-manifest-scope-amendment-001.json",
+  "docs/translation-batches/143-solve-record-visit-permit-recognize-error-kanji-generated-manifest-scope-amendment-002.json",
+  "docs/translation-batches/143-solve-record-visit-permit-recognize-error-kanji-generated-manifest-scope-amendment-003.json",
+  "docs/translation-batches/143-solve-record-visit-permit-recognize-error-kanji-review-finding-correction-amendment-001.json"
+ ],
+ "scope": {
+  "newLessons": [
+   "解",
+   "記",
+   "訪",
+   "許",
+   "認",
+   "誤"
+  ],
+  "newByteIdenticalStrokeAssets": [
+   "解",
+   "記",
+   "訪",
+   "許",
+   "認",
+   "誤"
+  ],
+  "navigationOnlyWordPages": [
+   "words/理解.md",
+   "words/日記.md",
+   "words/訪ねる.md",
+   "words/記号.md"
+  ],
+  "optionalUnavailableWordLinkWrapperRemovals": 11,
+  "newWordPages": 0,
+  "quizOrGradingChanges": 0,
+  "otherAuthoredRuntimePaths": 0,
+  "generatedManifest": {
+   "relativeToPublishedBaseline": "12 new lesson/stroke registrations and four navigation word-page hash changes; the corrected lesson content is represented by its final registered hash; no registrations removed or unrelated hashes changed.",
+   "correctionRelativeToInitialCandidate": "Exactly the kanji/許.md hash and the derived contentVersion changed, from 57dc9b54ea36d5c9 to fdcb38de679a3f19."
+  }
+ },
+ "qualifiedVerdicts": {
+  "C1": "After the focused correction follow-up, metadata, readings, examples, classifications and direct distractor IDs match the frozen source within the bounded six-lesson scope. The もと transcription finding was corrected. No broader corpus or native-speaker certification.",
+  "C2": {
+   "scopeAndNavigation": "The four NAV-only word edits, 11 optional unavailable-link wrapper removals, six byte-identical stroke assets and generated manifest changes match the pre-mutation records.",
+   "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 18 direct directions; no transitive exclusion closure inferred."
+  },
+  "C3": "No remaining actionable Russian learner-clarity or fidelity issue was found within the bounded reviewed scope after the correction."
+ },
+ "primaryEvidence": {
+  "basis": "The frozen English lessons, their exact cited JMdict entry IDs, and the frozen N3/dictionary snapshot identities are the bounded source basis.",
+  "dictionaryBoundary": "Dictionary archive hashes identify reused inputs only; no fresh record-level dictionary re-review or additional frequency/naturalness claim is made.",
+  "strokes": {
+   "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+   "byteIdentical": true,
+   "hashDomain": "Raw SHA-256; each target hash equals its frozen source hash."
+  }
+ },
+ "ordinaryQuizNegativeEdges": {
+  "status": "UNVERIFIED",
+  "directionCount": 18,
+  "gradingGuardsAdded": [],
+  "noTransitiveClosureInferred": true
+ },
+ "trackingAndProgress": {
+  "frozenInventory": 8278,
+  "reviewedCurrent": 2614,
+  "excludedReviewedRuntimeBlocked": 2,
+  "pending": 5662,
+  "words": 1478,
+  "kanji": 553,
+  "strokes": 553,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "progressRecord": "docs/translation-progress.json",
+  "trackingRecord": "docs/translation-tracking.json",
+  "progressStatusCounts": {
+   "draft-reviewed-runtime-blocked": 2,
+   "pending": 5662,
+   "reviewed-current": 2614
+  }
+ },
+ "sourceAcceptance": "Qualified frozen-source content and source-progress acceptance only. No grading/runtime/activation/device/media/release/checkpoint/full-completion approval.",
+ "authority": {
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false,
+  "quizGradingApproval": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "fullTranslationComplete": false
+ }
+}
