@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "amendmentId": "143-solve-record-visit-permit-recognize-error-kanji-pre-mutation-navigation-amendment-002",
+ "recordedAt": "2026-11-11T08:39:00+00:00",
+ "state": "pre-mutation navigation-scope amendment; the listed article edit may begin only after this record is committed",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "parentFreezeCommit": "fe57e10d031f9d308312c1354639df488084d237",
+ "priorNavigationAmendmentCommit": "9e7e406b584b22fbe58fd31e5ea700e3e43643be",
+ "trigger": {
+  "command": "python -X utf8 -B tools\\validate.py",
+  "result": "words/記号.md: kanji '記' has a card but the article does not link to it"
+ },
+ "reason": "The first candidate validator pass requires a reciprocal kanji-card link in one additional existing Russian word article. This exact NAV-only edit is declared before mutating that article.",
+ "authorizedScope": {
+  "navigationOnlyWordPages": [
+   "words/記号.md"
+  ],
+  "linkChanges": [
+   {
+    "path": "words/記号.md",
+    "kanji": "記",
+    "target": "../kanji/記.md",
+    "occurrences": 1,
+    "context": "In «Как сочетаются кандзи», wrap the existing plain 記 in the sentence explaining that 記 concerns writing or notation."
+   }
+  ],
+  "preMutationFingerprints": [
+   {
+    "path": "words/記号.md",
+    "bytes": 2533,
+    "rawSha256": "6192b10dc4513c419901b8478fc3fed3c18150a5f9c0e1e4b78297f575131823",
+    "gitBlob": "01efb94f441a279989ea06e0dd94c80427d848a3"
+   }
+  ],
+  "newWordPages": 0,
+  "semanticWordChanges": 0,
+  "nonNavigationWordChanges": 0,
+  "quizOrGradingChanges": 0
+ },
+ "authorization": {
+  "onlyListedOneOccurrenceReciprocalLinkMayBeAdded": true,
+  "allExistingJapaneseTextMustRemainUnchanged": true,
+  "allOtherArticleContentMustRemainUnchanged": true,
+  "frozenEnglishSourceMustRemainUntouched": true,
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 18 direct directions; no transitive closure or safety claim authorized",
+  "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false
+ },
+ "reviewStatus": "pending-independent-review"
+}

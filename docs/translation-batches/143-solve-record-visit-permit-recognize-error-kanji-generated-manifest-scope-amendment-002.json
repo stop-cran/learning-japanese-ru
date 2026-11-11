@@ -1,0 +1,33 @@
+{
+ "schemaVersion": 1,
+ "amendmentId": "143-solve-record-visit-permit-recognize-error-kanji-generated-manifest-scope-amendment-002",
+ "recordedAt": "2026-11-11T08:39:00+00:00",
+ "state": "pre-generation manifest-scope amendment; rerun the repository builder only after this record is committed",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "parentFreezeCommit": "fe57e10d031f9d308312c1354639df488084d237",
+ "parentManifestAmendmentCommit": "17cf1abe0d569c86edb2c3a12809c1eda43bfc27",
+ "navigationAmendment": "docs/translation-batches/143-solve-record-visit-permit-recognize-error-kanji-pre-mutation-navigation-amendment-002.json",
+ "preMutationFingerprint": {
+  "path": "manifest.json",
+  "bytes": 233591,
+  "rawSha256": "74961f75a181876bd7ebb115a7a8e4e036306bf09a563a27df5193d024b2f902",
+  "gitBlob": "543b23903fa7348f9359327d2132fcacec646a00",
+  "contentVersion": "e3257c797165d9b1"
+ },
+ "authorizedGeneratedScope": {
+  "builder": "python -X utf8 -B tools\\build_manifest.py",
+  "additionalUpdatedExistingRuntimeHash": "words/記号.md",
+  "expectedChangeKinds": [
+   "generated contentVersion change",
+   "update exactly the words/記号.md hash"
+  ],
+  "manualManifestEditing": false
+ },
+ "authorization": {
+  "onlyTheListedBuilderMayModifyManifestJson": true,
+  "manifestDiffMustBeInspectedAndRecordedBeforeCandidateAcceptance": true,
+  "noOtherRuntimePathMayBeAddedOrChanged": true,
+  "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false
+ },
+ "reviewStatus": "pending-independent-review"
+}
