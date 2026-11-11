@@ -1,0 +1,256 @@
+{
+ "schemaVersion": 1,
+ "batchId": "143-solve-record-visit-permit-recognize-error-kanji",
+ "recordedAt": "2026-11-11T08:31:00+00:00",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "10e8e92aa8c2f82d448358187ba575527d995180",
+ "selection": {
+  "communityN3Positions": [
+   296,
+   297,
+   298,
+   299,
+   300,
+   301
+  ],
+  "kanji": [
+   "解",
+   "記",
+   "訪",
+   "許",
+   "認",
+   "誤"
+  ],
+  "justification": "First six pending characters after batch 142 in the frozen community N3 order; all direct distractor dependencies are already reviewed or included here."
+ },
+ "directDistractorEdges": [
+  "解→物",
+  "解→特",
+  "解→料",
+  "記→起",
+  "記→計",
+  "記→訪",
+  "訪→方",
+  "訪→記",
+  "訪→許",
+  "許→午",
+  "許→話",
+  "許→訪",
+  "認→誤",
+  "認→訪",
+  "認→語",
+  "誤→語",
+  "誤→記",
+  "誤→認"
+ ],
+ "dependencyClosure": {
+  "newInBatch": [
+   "解",
+   "記",
+   "訪",
+   "許",
+   "認",
+   "誤"
+  ],
+  "alreadyReviewed": [
+   "物",
+   "特",
+   "料",
+   "起",
+   "計",
+   "方",
+   "午",
+   "話",
+   "語"
+  ],
+  "pendingDirectDependenciesOutsideSelection": []
+ },
+ "sourceLessons": [
+  {
+   "position": 296,
+   "kanji": "解",
+   "path": "kanji/解.md",
+   "sourceGitBlob": "7f5b53a552684987d269f3452bca5e572317c543",
+   "sourceRawSha256": "e01988091f83ad412b54d1a864fdde9bef710bf071aca2575d5a8bdc8a3f236f",
+   "sourceBytes": 1917
+  },
+  {
+   "position": 297,
+   "kanji": "記",
+   "path": "kanji/記.md",
+   "sourceGitBlob": "a1577e1bb8bc5793097627bb863818ca3daaf56c",
+   "sourceRawSha256": "b8188cf752e3aef47a805563127c74000416e71b27e82f8ee3f63eebd3c92c07",
+   "sourceBytes": 1635
+  },
+  {
+   "position": 298,
+   "kanji": "訪",
+   "path": "kanji/訪.md",
+   "sourceGitBlob": "a3623a830b384aebf8a3232a2581eb0d68c10a01",
+   "sourceRawSha256": "43d820c2ed16d8ee1fdca707468810d28742cd4b21a7550be54a38f620ee60ab",
+   "sourceBytes": 1709
+  },
+  {
+   "position": 299,
+   "kanji": "許",
+   "path": "kanji/許.md",
+   "sourceGitBlob": "c7adb18079c2e51d37a3beb87f514510c2c68cb3",
+   "sourceRawSha256": "5ea7e43f8bdd328af866b93b4849ff8f8fbe20a8413af73c07f1422b71cd02c2",
+   "sourceBytes": 1604
+  },
+  {
+   "position": 300,
+   "kanji": "認",
+   "path": "kanji/認.md",
+   "sourceGitBlob": "dd1d5193d62cc3bf499ea87fe46e3b1ef2d77c61",
+   "sourceRawSha256": "0967bb74b0d58ffc8854f55fecdb9799daac275dffda50910b7bfd86add84de8",
+   "sourceBytes": 1778
+  },
+  {
+   "position": 301,
+   "kanji": "誤",
+   "path": "kanji/誤.md",
+   "sourceGitBlob": "ae78370072cce49dd59784fd88b5d54d838924c9",
+   "sourceRawSha256": "d3646a21a1cdcab0252f746f908557415d97bf0ae2fc9deef786173a504e5700",
+   "sourceBytes": 1673
+  }
+ ],
+ "sourceStrokeAssets": [
+  {
+   "kanji": "解",
+   "path": "strokes/解.json",
+   "sourceGitBlob": "5f58ff5627a69c881ac5a337a24766f2e42bb4d0",
+   "sourceRawSha256": "449cb63b90f6aa3ae9c80a88af08fb6cc3bd517039c2fc83e40beeb9e9948118",
+   "sourceBytes": 3143
+  },
+  {
+   "kanji": "記",
+   "path": "strokes/記.json",
+   "sourceGitBlob": "214e6cea56b0db4684e86ea9c454661ed7ef5a95",
+   "sourceRawSha256": "2d0dabc0269bfe077eb708e67c1a1f6bb8b01ab51f86bec00654245df63a9bb6",
+   "sourceBytes": 2464
+  },
+  {
+   "kanji": "訪",
+   "path": "strokes/訪.json",
+   "sourceGitBlob": "af35d7fe03d7b8733e71169993a2ba6b660f9136",
+   "sourceRawSha256": "21446ce6ccdd8bffe82e4420ff84bc3d6ec2a1591f4708d92c0fb89b2dce7099",
+   "sourceBytes": 2691
+  },
+  {
+   "kanji": "許",
+   "path": "strokes/許.json",
+   "sourceGitBlob": "dcfc3f958cbeabdead5ee0b0da06f4d3ef482498",
+   "sourceRawSha256": "905381909917a76750a99e3f574495e6a480ff333d52f5031f4b5d57d0147937",
+   "sourceBytes": 2689
+  },
+  {
+   "kanji": "認",
+   "path": "strokes/認.json",
+   "sourceGitBlob": "5911502248c936808aeeb660acb1f35fc5a0e13a",
+   "sourceRawSha256": "395a4411f2297575fbc212612e54ed588ac5ed94f0af910137c373600335fcc9",
+   "sourceBytes": 3368
+  },
+  {
+   "kanji": "誤",
+   "path": "strokes/誤.json",
+   "sourceGitBlob": "3c595cf07ee8558bd1346f96cd28bfb5899b677f",
+   "sourceRawSha256": "1c474723d96be618b5c2fb24312b96937e089df5954f1767efdb58e34e371846",
+   "sourceBytes": 3373
+  }
+ ],
+ "wordPageAvailability": {
+  "existing": [
+   "words/理解.md",
+   "words/日記.md",
+   "words/訪ねる.md"
+  ],
+  "absentOptional": [
+   "words/誤解.md",
+   "words/許す.md",
+   "words/認める.md"
+  ],
+  "absentOptionalLinkWrapperOccurrences": [
+   {
+    "lessonPath": "kanji/解.md",
+    "targetPath": "../words/誤解.md",
+    "sourceLinkOccurrences": 2
+   },
+   {
+    "lessonPath": "kanji/許.md",
+    "targetPath": "../words/許す.md",
+    "sourceLinkOccurrences": 3
+   },
+   {
+    "lessonPath": "kanji/認.md",
+    "targetPath": "../words/認める.md",
+    "sourceLinkOccurrences": 3
+   },
+   {
+    "lessonPath": "kanji/誤.md",
+    "targetPath": "../words/誤解.md",
+    "sourceLinkOccurrences": 3
+   }
+  ],
+  "availableLinkedWrapperOccurrences": 9
+ },
+ "primaryEvidence": {
+  "frozenN3Snapshot": {
+   "path": "docs/n3-source-snapshot.json",
+   "sourceGitBlob": "b18b0a72779488538324a0b48c82e2684ea89d71",
+   "sourceRawSha256": "4ffdacad14efcdee13e504a36f5705bc2226ea763bf46a00369c1bf6040b28e8",
+   "sourceBytes": 5879,
+   "communityListRetrieved": "2026-10-09",
+   "sourceDictionarySnapshotDate": "2026-10-08",
+   "dictionarySnapshotBoundary": "KANJIDIC2 2026-281 and JMdict exact archive/XML/index hashes are recorded in the frozen snapshot; these identify the source data but are not a fresh independent record-level review."
+  },
+  "frozenLessonCitations": {
+   "kanjidic2": "Each frozen lesson cites KANJIDIC2 for Japanese metadata.",
+   "jmdictEntryIds": {
+    "解": [
+     "1549910",
+     "1198890",
+     "1271310"
+    ],
+    "記": [
+     "1463930",
+     "1223440",
+     "1223140"
+    ],
+    "訪": [
+     "1518070",
+     "1518120",
+     "1518080"
+    ],
+    "許": [
+     "1232870",
+     "1232880"
+    ],
+    "認": [
+     "1467530",
+     "1205900"
+    ],
+    "誤": [
+     "1271310",
+     "1271300",
+     "1271350"
+    ]
+   },
+   "boundary": "These IDs and lesson statements are bound to the exact frozen English source; no supplemental dictionary capture or broad frequency claim is treated as frozen evidence."
+  },
+  "communityJlptBasis": "docs/n3-source-snapshot.json at the frozen source commit; the Japanese character list is a community list, not an official JLPT syllabus."
+ },
+ "progressSnapshot": {
+  "reviewedCurrent": 2602,
+  "excludedReviewedRuntimeBlocked": 2,
+  "pending": 5674,
+  "total": 8278,
+  "contentVersion": "32c09d9b1877d294"
+ },
+ "limits": {
+  "quizOrGradingChanges": false,
+  "runtimeDeviceMediaReleaseApproval": false,
+  "ordinaryActivationApproval": false,
+  "fullTranslationComplete": false
+ }
+}

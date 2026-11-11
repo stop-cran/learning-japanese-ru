@@ -1,0 +1,116 @@
+{
+ "schemaVersion": 1,
+ "batchId": "143-solve-record-visit-permit-recognize-error-kanji",
+ "recordedAt": "2026-11-11T08:31:00+00:00",
+ "status": "pre-mutation semantic freeze; authoring is authorized only within this scope",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "10e8e92aa8c2f82d448358187ba575527d995180",
+ "selectionRecord": "docs/translation-batches/143-solve-record-visit-permit-recognize-error-kanji-intake.json",
+ "sourceRead": {
+  "frozenEnglishLessonsRead": [
+   "kanji/解.md",
+   "kanji/記.md",
+   "kanji/訪.md",
+   "kanji/許.md",
+   "kanji/認.md",
+   "kanji/誤.md"
+  ],
+  "sourceSnapshotRead": "docs/n3-source-snapshot.json",
+  "primaryEvidenceBoundary": "The frozen English lessons, their exact cited JMdict entry IDs, and the frozen N3/dictionary snapshot identities are the bounded source basis. Dictionary archive hashes identify reused inputs but do not claim a fresh record-level review or validate additional frequency/naturalness claims.",
+  "communityJlptBasis": "docs/n3-source-snapshot.json at the frozen source commit; N3 is identified as a community list, not an official JLPT syllabus."
+ },
+ "frozenJapaneseInvariants": {
+  "lessonIdsAndPaths": [
+   "解",
+   "記",
+   "訪",
+   "許",
+   "認",
+   "誤"
+  ],
+  "metadata": true,
+  "readingsAndExamples": true,
+  "directDistractorIds": true,
+  "strokes": "reuse exact byte-identical frozen-source assets",
+  "mnemonics": "remain explicitly modern-shape memory aids, not historical claims",
+  "links": "retain wrappers only to available Russian word pages; remove only the 11 pre-recorded wrappers to absent optional pages, preserving visible Japanese text",
+  "quiz": "no grading, answer, exclusion, or fallback changes"
+ },
+ "candidateBoundary": {
+  "newLessons": [
+   "解",
+   "記",
+   "訪",
+   "許",
+   "認",
+   "誤"
+  ],
+  "newFrozenStrokeAssets": [
+   "解",
+   "記",
+   "訪",
+   "許",
+   "認",
+   "誤"
+  ],
+  "navigationOnlyWordPages": [],
+  "newWordPages": 0,
+  "optionalUnavailableWordLinkWrapperRemovals": [
+   {
+    "lessonPath": "kanji/解.md",
+    "targetPath": "../words/誤解.md",
+    "occurrences": 2
+   },
+   {
+    "lessonPath": "kanji/許.md",
+    "targetPath": "../words/許す.md",
+    "occurrences": 3
+   },
+   {
+    "lessonPath": "kanji/認.md",
+    "targetPath": "../words/認める.md",
+    "occurrences": 3
+   },
+   {
+    "lessonPath": "kanji/誤.md",
+    "targetPath": "../words/誤解.md",
+    "occurrences": 3
+   }
+  ],
+  "availableWordLinks": [
+   {
+    "lessonPath": "kanji/解.md",
+    "targetPath": "../words/理解.md",
+    "occurrences": 3
+   },
+   {
+    "lessonPath": "kanji/記.md",
+    "targetPath": "../words/日記.md",
+    "occurrences": 3
+   },
+   {
+    "lessonPath": "kanji/訪.md",
+    "targetPath": "../words/訪ねる.md",
+    "occurrences": 3
+   }
+  ],
+  "articleReferenceOmissions": 0,
+  "otherAuthoredRuntimePaths": 0,
+  "quizOrGradingChanges": 0,
+  "unverifiedDirectNegativeFallbackDirections": 18
+ },
+ "authorization": {
+  "translationWithinRecordedScope": true,
+  "onlyListedOptionalLinkWrapperRemovalsMayChangeLinks": true,
+  "anyFurtherSemanticOrRuntimeChangeRequiresSeparatePreMutationAmendment": true,
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 18 direct directions; no transitive closure or safety claim authorized",
+  "runtimeDeviceMediaReleaseOrOrdinaryActivationApproval": false
+ },
+ "unresolved": {
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 18 direct directions",
+  "nativeSpeakerNaturalnessAndUniversalFrequencyClaims": "UNVERIFIED",
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "fullTranslationComplete": false
+ }
+}
