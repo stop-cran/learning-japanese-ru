@@ -5843,7 +5843,7 @@ readiness remain null/false. Continue sequentially from the next contiguous
 dependency-closed frozen-source slice. This status grants no runtime, device,
 media, activation, release or full-completion approval.
 
-## Current translation continuation after batch 150
+## Previous translation continuation after batch 150
 
 Batch 150 (`靴`, `頂`, `頭`, `頼`, `顔`, `願`, `類`, `飛`, `首`, `馬`) is
 published at `48dbf194db2c6e6d6cbaab0b3cba47fdf715d9bd` through pull request
@@ -5856,4 +5856,26 @@ Exact-main `Validate Russian content` run 43043911004 passed. Progress is
 objects of 8,278. All 30 direct negative/fallback directions remain
 **UNVERIFIED**; checkpoint authority and readiness remain null/false. Continue
 sequentially with community-N3 positions 366–367. This status grants no
-runtime, device, media, activation, release or full-completion approval.
+runtime, device, media, activation, release or full-completion approval. Batch
+151 and the following N2 transition supersede this continuation below.
+
+## Current translation continuation after Batch 152 candidate validation
+
+Batch 152's owner-signed candidate `80e4e1d0d13caea2fcadb80345fc272441f3dcc4`
+is pushed to `full-ru-152-n2-batch-01`; its PR, merge, and exact-main CI
+verification remain pending. It adds 15 lessons and 15 byte-identical stroke
+assets, plus nine authorized navigation-only word-page edits. The initial
+review's omitted `紹介` links in `介` were restored, and the focused follow-up
+passed. Qualified progress is 2,774 reviewed-current objects, two runtime-
+blocked drafts, and 5,502 pending objects of 8,278; content version is
+`34b5c4ac31854637`.
+
+After publication, Batch 153 continues with the next 15 entries in the frozen
+community-N2 snapshot: 個倍停傾像億兆児党兵冊再凍刊刷 (positions 16–30 of
+365 additions; 珍 and 短 are already present). The list is not an official
+JLPT syllabus; freeze this scope against the pinned source before authoring.
+
+All 45 Batch 152 direct distractor directions remain **UNVERIFIED**; do not
+infer transitive closure, negative/fallback behavior, or quiz safety. No
+runtime, device, media, ordinary activation, release, checkpoint, or
+full-completion approval is implied.

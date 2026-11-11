@@ -1,0 +1,85 @@
+{
+ "schemaVersion": 1,
+ "batchId": "152-n2-batch-01-kanji",
+ "recordedAt": "2026-11-11T16:06:54Z",
+ "repository": "stop-cran/learning-japanese-ru",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "b3e960428b29058060251a549110e05a3052e73a",
+ "candidateBranch": "full-ru-152-n2-batch-01",
+ "selection": {
+  "selectionMethod": "first contiguous dependency-closed group in the frozen community-N2 plan",
+  "jlptBasis": "Community list; not an official JLPT syllabus.",
+  "snapshot": {
+   "path": "docs/n2-source-snapshot.json",
+   "bytes": 6925,
+   "rawSha256": "2c24bba74d88b842f062e9a4f83f8b5668ae89ed8aa6cb66f3d74e89c26724a9",
+   "gitBlob": "a51e8f0a5f7cd28071be6a534394538d0ec65cdb",
+   "communityListCount": 367,
+   "plannedAdditions": 365,
+   "preservedExistingCards": ["珍", "短"],
+   "positionDomain": "one-based order in jlptN2.characters"
+  },
+  "batchSourceRecord": {
+   "path": "docs/n2-batch-sources/batch-01.json",
+   "bytes": 93825,
+   "rawSha256": "282ee121cb1d3239333b1de55891e934ca7b44879ba46869d1e88e0d62b1b11c",
+   "gitBlob": "77ebefb302f26b630ad24159620bb63c5947746e",
+   "dictionarySnapshotDate": "2026-10-21"
+  },
+  "positions": [
+   {"position": 1, "kanji": "並"},
+   {"position": 2, "kanji": "丸"},
+   {"position": 3, "kanji": "久"},
+   {"position": 4, "kanji": "乱"},
+   {"position": 5, "kanji": "乳"},
+   {"position": 6, "kanji": "乾"},
+   {"position": 7, "kanji": "了"},
+   {"position": 8, "kanji": "介"},
+   {"position": 9, "kanji": "仏"},
+   {"position": 10, "kanji": "令"},
+   {"position": 11, "kanji": "仲"},
+   {"position": 12, "kanji": "伸"},
+   {"position": 13, "kanji": "伺"},
+   {"position": 14, "kanji": "低"},
+   {"position": 15, "kanji": "依"}
+  ],
+  "newLessons": ["並", "丸", "久", "乱", "乳", "乾", "了", "介", "仏", "令", "仲", "伸", "伺", "低", "依"]
+ },
+ "progressSnapshot": {
+  "frozenInventory": 8278,
+  "reviewedCurrent": 2744,
+  "runtimeBlocked": 2,
+  "pending": 5532,
+  "russianContentVersion": "82dfd74ec9955e41",
+  "checkpointAuthority": null,
+  "checkpointReady": false
+ },
+ "sourceLinkCountReconciliation": {
+  "historicalN2ReviewSnapshot": "a73354e75917d4758b386c870a4284cd70dfacee",
+  "historicalSourceBacklinkPages": 22,
+  "frozenSourceBacklinkPages": 34,
+  "pagesAddedByFrozenSource": 12,
+  "publishedRussianPagesAmongFrozenBacklinks": 9,
+  "basis": "Read-only git grep at both exact source revisions; paths normalized before checking the published Russian baseline.",
+  "disposition": "The older 22-page N2 review count describes its a73354e snapshot. The exact frozen 6af98cb source controls this batch; authorize only its nine backlink pages already present in Russian."
+ },
+ "candidateBoundary": {
+  "newLessons": 15,
+  "newFrozenStrokeAssets": 15,
+  "navigationOnlyExistingWordPages": 9,
+  "newWordPages": 0,
+  "quizOrGradingChanges": 0,
+  "additionalRuntimePaths": 0,
+  "expectedManifestDelta": "30 new registrations and exactly 9 changed existing word hashes; no removals or unrelated changes. See the pre-mutation source-link and manifest amendments."
+ },
+ "qualificationLimits": {
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 45 direct directions; no transitive closure or safety claim.",
+  "freshJMdictRecordLevelReview": false,
+  "nativeSpeakerFrequencyOrNaturalnessClaim": false,
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "fullTranslationComplete": false
+ }
+}

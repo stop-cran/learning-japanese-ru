@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "batchId": "152-n2-batch-01-kanji",
+  "amendment": 3,
+  "recordedAt": "2026-11-11T16:36:05Z",
+  "status": "pre-correction review finding disposition",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "publishedBaseline": "b3e960428b29058060251a549110e05a3052e73a",
+  "independentReview": "docs/translation-batches/152-n2-batch-01-independent-review-001.md",
+  "finding": {
+    "path": "kanji/介.md",
+    "severity": "low",
+    "confidence": "high",
+    "omission": "The source links both 紹介 occurrences in the reading table and common-words list to ../words/紹介.md, but the candidate leaves them unlinked.",
+    "target": "words/紹介.md",
+    "targetAvailableInPublishedBaseline": true
+  },
+  "authorizedCorrection": {
+    "restoreLinks": [
+      {
+        "section": "readings table",
+        "visibleText": "紹介",
+        "target": "../words/紹介.md"
+      },
+      {
+        "section": "common words",
+        "visibleText": "紹介",
+        "target": "../words/紹介.md"
+      }
+    ],
+    "newPages": 0,
+    "additionalRuntimePaths": 0,
+    "quizOrGradingChanges": 0,
+    "otherLessonChanges": 0
+  },
+  "manifestScope": {
+    "amendment": "docs/translation-batches/152-n2-batch-01-manifest-generation-amendment-001.json",
+    "newRegistrationsRemain": 30,
+    "changedExistingWordHashesRemain": 9,
+    "removedRegistrationsRemain": 0,
+    "unrelatedHashChangesRemain": 0,
+    "regenerateAfterCorrection": true
+  },
+  "qualification": "This corrects two source-navigation omissions in an already authorized new lesson and adds no registrations or new runtime paths. All 45 direct negative/fallback directions remain UNVERIFIED; no transitive closure or quiz-safety claim."
+}

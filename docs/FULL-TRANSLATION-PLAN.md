@@ -6783,7 +6783,7 @@ device, media, activation, release or full-completion approval is implied.
 Continue with the next contiguous dependency-closed frozen-source batch; this
 is not finite completion.
 
-## Current continuation after batch 150 publication
+## Previous continuation after batch 150 publication
 
 Batch 150 (`靴`, `頂`, `頭`, `頼`, `顔`, `願`, `類`, `飛`, `首`, `馬`) is
 qualified against frozen source commit `6af98cb717755690a9ca793e5454a96ebd7a8f9f`
@@ -6805,5 +6805,28 @@ and 5,536 pending of 8,278. `checkpointAuthority` remains null and
 device, media, activation, release or full-completion approval is implied. The
 Kolobok lead for the protected 空 question remains separately qualified in
 [the post-publication lead record](translation-batches/149-sora-kolobok-lead-qualification-001.json);
-both 空 pairs remain C2 **UNVERIFIED**. Continue with positions 366–367; this
-is not finite completion.
+both 空 pairs remain C2 **UNVERIFIED**. At that point the next source slice was
+N3 positions 366–367; Batch 151 and the subsequent N2 transition supersede that
+continuation below. This is not finite completion.
+
+## Current continuation after Batch 152 candidate validation
+
+Batch 152's owner-signed candidate `80e4e1d0d13caea2fcadb80345fc272441f3dcc4`
+is pushed to `full-ru-152-n2-batch-01`; publication through a PR and exact-main
+CI verification remain pending. The candidate adds 15 lessons and 15 byte-
+identical stroke assets, plus nine authorized navigation-only word-page edits.
+The initial independent review's omitted `紹介` links in `介` were restored;
+the focused follow-up passed. Qualified progress is **2,774 reviewed-current /
+2 runtime-blocked / 5,502 pending of 8,278**, with content version
+`34b5c4ac31854637`.
+
+After publication, continue with Batch 153, the next 15 entries in the frozen
+community-N2 snapshot: 個倍停傾像億兆児党兵冊再凍刊刷 (positions 16–30 of
+365 additions; 珍 and 短 remain pre-existing). This community list is not an
+official JLPT syllabus. Freeze and review this next scope against the same
+source revision before authoring.
+
+All 45 Batch 152 direct distractor directions remain **UNVERIFIED** for
+negative/fallback behavior; no transitive closure or quiz-safety claim is made.
+The protected 空 pairs, runtime/device/media/activation/release gates, and
+full-completion status remain separate and unchanged.
