@@ -5819,3 +5819,13 @@ During this localization work, persist verified reusable findings in the relevan
 in the same correction batch. Keep reproduction, evidence, scope and disposition in the work item; code/linguistic
 errors must be fixed, not merely documented. Pending hypotheses stay explicit and do not become mandatory rules.
 This is the user's requested methodology for this project, not an assertion that future integration has already passed.
+
+## Current translation continuation after batch 146
+
+Batch 146 is source-reviewed and published at `ae33e2bb5634298db274e95f4cec64380f8e5cc5`;
+the exact-main `Validate Russian content` run 43008572740 passed. Progress is
+2,662 reviewed-current objects, two runtime-blocked drafts and 5,614 pending
+objects of 8,278. The 30 direct negative/fallback directions remain
+**UNVERIFIED**; checkpoint authority and readiness remain null/false. Continue
+the sequential frozen-source translation with batch 147. This status grants no
+runtime, device, media, activation, release or full-completion approval.

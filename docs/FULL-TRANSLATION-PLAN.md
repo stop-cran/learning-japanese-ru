@@ -6718,7 +6718,7 @@ No grading, runtime activation, device, media, release, or ordinary-activation
 approval is implied. The finite translation remains in progress; continue with
 batch 134 and all remaining safe frozen families.
 
-## Current continuation after batch 134 candidate review
+## Historical batch 134 candidate checkpoint
 
 Batch134 selects the next five frozen N3 kanji in source order: 煙, 猫, 産,
 留 and 番. Its signed pre-mutation freeze is `01c7952e6b53f858a8f4e362b73c4a05952a5f06`;
@@ -6741,3 +6741,24 @@ Candidate progress is 2,506 reviewed-current, 2 runtime-blocked drafts and
 CI and public archive verification are pending. After completing those steps,
 continue with batch135 and every remaining safe frozen family; this is not
 finite completion.
+
+## Current continuation after batch 146 publication
+
+Batch 146 (`越`, `路`, `辞`, `込`, `迎`, `返`, `迷`, `追`, `退`, `逃`) is
+qualified and published from frozen source commit
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f`. The corrected candidate
+`8788270a25458e6eb06e41eaf8af0e7cb6e32eba` preserves the previously omitted
+comparison character `還る`; its independent review found no remaining
+actionable findings. Signed owner acceptance commit
+`ae33e2bb5634298db274e95f4cec64380f8e5cc5` is on `main` and the short-lived
+batch branch. Exact-main `Validate Russian content` run
+[43008572740](https://github.com/stop-cran/learning-japanese-ru/actions/runs/43008572740)
+completed successfully. Protected pilot refs are unchanged.
+
+The published progress ledger records 2,662 reviewed-current, two
+runtime-blocked drafts and 5,614 pending of 8,278. `checkpointAuthority`
+remains null and `checkpointReady` false. All 30 direct negative/fallback
+directions remain **UNVERIFIED**; no transitive closure or quiz-safety claim is
+made. No runtime, device, media, activation, release or full-completion
+approval is implied. Continue with the next contiguous dependency-closed
+frozen-source batch; this is not finite completion.
