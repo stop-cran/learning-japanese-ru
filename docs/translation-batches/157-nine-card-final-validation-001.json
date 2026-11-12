@@ -1,0 +1,134 @@
+{
+ "schemaVersion": 1,
+ "batchId": "157-nine-card-qualified-source-acceptance",
+ "recordedAt": "2026-11-12T14:20:19Z",
+ "repository": "stop-cran/learning-japanese-ru",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "c9fa34ca61c057d60f4be789917437c3d3bd4197",
+ "candidateCommit": "d3f0907b7dbb895b948556370e789a5dde7c2094",
+ "candidateTree": "561ce1552a9eea73763030df3bdd5bc994e57cc8",
+ "manifestVersion": "6eb5aadef3ed81b1",
+ "status": "candidate validation passed; qualified independent review found no actionable issue",
+ "publicationVerification": "docs/translation-batches/157-nine-card-publication-verification-001.json",
+ "serialValidation": [
+  {
+   "command": "python -X utf8 -B tools\\build_manifest.py",
+   "exitCode": 0,
+   "stdout": "manifest.json: 2906 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 6eb5aadef3ed81b1\n",
+   "stderr": ""
+  },
+  {
+   "command": "python -X utf8 -B tools\\validate.py",
+   "exitCode": 0,
+   "stdout": "0 error(s)\n",
+   "stderr": ""
+  },
+  {
+   "command": "python -X utf8 -B -m unittest discover -s tools -p \"test_*.py\"",
+   "exitCode": 0,
+   "stdout": "............................................................................................................................\n----------------------------------------------------------------------\nRan 124 tests in 52.087s\n\nOK\n",
+   "stderr": ""
+  },
+  {
+   "command": "python -X utf8 -B tools\\check_content_budget.py",
+   "exitCode": 0,
+   "stdout": "{'files': 2914, 'entries': 2923, 'retainedBytes': 8029705, 'inflatedBytes': 8047856, 'localZipBytes': 4029325, 'listeningTaskMediaBytes': 0}\n",
+   "stderr": ""
+  }
+ ],
+ "review": {
+  "report": "docs/translation-batches/157-nine-card-independent-review-001.md",
+  "verbatimSourceRawSha256": "ce75ce2009dae927c64a81f9ec69a7900a3c7751e7f94ebd92309d3ea85148cb",
+  "verdict": "PASS WITH QUALIFICATIONS",
+  "findings": [],
+  "qualification": "No new substantive discrepancy; reading/sense coverage remains non-exhaustive for 宇/専/尊/導/岸; visual-confusion risk untested; no semantic CLEAN or release clearance."
+ },
+ "candidateScope": {
+  "newLessons": [
+   "孫",
+   "宇",
+   "宝",
+   "寺",
+   "専",
+   "将",
+   "尊",
+   "導",
+   "岸"
+  ],
+  "newByteIdenticalStrokeAssets": [
+   "孫",
+   "宇",
+   "宝",
+   "寺",
+   "専",
+   "将",
+   "尊",
+   "導",
+   "岸"
+  ],
+  "navigationOnlyWordPages": [
+   "words/寺.md",
+   "words/将来.md",
+   "words/海岸.md"
+  ],
+  "newWordPages": 0,
+  "optionalUnavailableLinkWrappersRemoved": 0,
+  "quizOrGradingChanges": 0,
+  "otherAuthoredRuntimePaths": 0,
+  "manifestDeltaFromPublishedBaseline": {
+   "addedRegistrations": 18,
+   "changedExistingHashes": [
+    "words/寺.md",
+    "words/将来.md",
+    "words/海岸.md"
+   ],
+   "removedRegistrations": 0,
+   "unrelatedHashChanges": 0,
+   "contentVersion": "6eb5aadef3ed81b1"
+  }
+ },
+ "trackingAndProgress": {
+  "frozenInventory": 8278,
+  "reviewedCurrent": 2906,
+  "excludedReviewedRuntimeBlocked": 8,
+  "pending": 5364,
+  "words": 1478,
+  "kanji": 699,
+  "strokes": 699,
+  "progressStatusCounts": {
+   "draft-reviewed-runtime-blocked": 8,
+   "pending": 5364,
+   "reviewed-current": 2906
+  },
+  "translationProgressReportMatchesTracking": true,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "artifacts": [
+   {
+    "path": "docs/translation-progress.json",
+    "bytes": 5863156,
+    "rawSha256": "3783f1cf6c12caae720548eeac6d8d4f104046f294f65e1b52e6101745828aff"
+   },
+   {
+    "path": "docs/translation-tracking.json",
+    "bytes": 8516138,
+    "rawSha256": "8452c2437be40a33e363f821efde8212f493ae4b31fd8b8c14ad1a844b7f7bd8"
+   }
+  ]
+ },
+ "diffCheck": {
+  "command": "git diff --check",
+  "exitCode": 0,
+  "stderr": ""
+ },
+ "limits": {
+  "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 27 direct directions; no transitive closure inferred.",
+  "syntheticPoolEvidence": "One bounded synthetic attempt only; not all seeds/pools, learner performance, ASR/audio, drawing, device/IME, or semantic CLEAN.",
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "fullTranslationComplete": false,
+  "publicationPending": true
+ }
+}
