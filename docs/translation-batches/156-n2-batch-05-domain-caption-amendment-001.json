@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "kind": "focused-caption-amendment",
+  "batchId": "156-n2-batch-05-kanji",
+  "recordedAt": "2026-11-12",
+  "status": "Proposed exact caption pending focused independent review; 域 is not runtime-accepted.",
+  "previousCaption": {
+    "text": "область; пределы",
+    "candidateRawSha256": "b0407a69810d9f223301c583a0b0b63e08f4ba49a42ea651b7af56a6d722da6e",
+    "reviewedPairs": {
+      "域/区": "PASS",
+      "域/限": "PASS"
+    },
+    "reviewScopePath": "docs/translation-batches/156-n2-batch-05-pair-caption-review-scope-002.json",
+    "reviewScopeRawSha256": "3cf9536312e989995edbfb685234b929e12aab8073e6cd3a9ef003853ce0aeef",
+    "reportPath": "docs/translation-batches/156-n2-batch-05-pair-caption-review-001.md",
+    "qualification": "These verdicts remain attached to the exact previous caption and are not transferred to the proposed wording."
+  },
+  "reason": {
+    "partialOverlapPolicy": {
+      "path": "docs/translation-methodology.md",
+      "bytes": 33637,
+      "rawSha256": "0b2fe9398de8777b2b96d37f18a068b2ec96714f4d1b6212a9e83e60abc5ab85",
+      "gitBlob": "c31426aa604b7263d839893d27763f8b615094c4",
+      "lines": [
+        190,
+        192
+      ],
+      "ruleExample": "川 «река; ручей» and 小川 «ручей» require direct exclusion in meaning tasks although the complete title strings differ. A correct shared gloss must not be removed merely to shape answer choices."
+    },
+    "overlapConcern": "The previous 域 caption and 限 caption expose the shared Russian lexeme «пределы» / «предел». The prior review distinguished them using 域’s other caption segment, but the project’s documented partial-overlap example calls for reassessing that overlap rather than treating different full strings as sufficient.",
+    "source": {
+      "path": "kanji/域.md",
+      "bytes": 1597,
+      "rawSha256": "f6476a2593d56e55f54b479c59b71b5063a034842623f528d800d76bf35d131f",
+      "gitBlob": "e9ca420871c1b2fd9d1f5b512bdd0f67319482e2",
+      "frozenTitle": "region; range",
+      "frozenBodyMeaning": "area, region, range or limit",
+      "dictionaryNote": "The frozen lesson cites KANJIDIC2; the coordinating session notes that its Batch 05 gloss explicitly includes “limits.”"
+    }
+  },
+  "change": {
+    "path": "kanji/域.md",
+    "fields": [
+      "frontmatter title",
+      "H1"
+    ],
+    "before": "область; пределы",
+    "after": "область; диапазон",
+    "candidateBytes": 2357,
+    "candidateRawSha256": "2a7a39c8cce6222d12b0bb58cbfac7236bc7a35f5f66a0b5f372fa464f4e2f2c",
+    "candidateGitBlob": "19707d9192dc9acdf1b9835c691dcfb452221947",
+    "bodyDisposition": "The lesson body remains unchanged and continues to include «пределы» for the source-supported limit sense; the title tracks the frozen “region; range” heading."
+  },
+  "proposedPairs": [
+    {
+      "pairId": "域/区",
+      "caption": "域 «область; диапазон» vs 区 «округ; район»",
+      "reason": "The 域 title changed, so the prior PASS for «область; пределы» does not bind this candidate."
+    },
+    {
+      "pairId": "域/限",
+      "caption": "域 «область; диапазон» vs 限 «предел; ограничивать»",
+      "reason": "Evaluate the exact replacement against the partial-overlap rule and frozen sources; do not assume that changing the shared gloss clears the pair."
+    }
+  ],
+  "baselineLiteralTitleScan": {
+    "revision": "dc621b31058ed65361acfec029f44ad57f2657f6",
+    "scope": "Published kanji frontmatter titles only",
+    "titleCount": 678,
+    "terms": [
+      "диапазон",
+      "интервал",
+      "размах"
+    ],
+    "literalSubstringMatches": 0,
+    "checkedBy": "Current authoring session",
+    "qualification": "Literal baseline-title substring check only; not a semantic review, co-display result, future-pool scan, or quiz-safety finding."
+  },
+  "reviewBoundary": "Request separate exact-caption verdicts for 域/区 and 域/限 against the bound frozen sources and cited partial-overlap rule. This is not a request to add an exclusion or claim broad fallback safety. If the overlap is not cleared, keep 域 and its stroke asset out of runtime and reconcile all direct runtime links and distractors.",
+  "plannedReviewScope": "docs/translation-batches/156-n2-batch-05-domain-caption-review-scope-001.json"
+}

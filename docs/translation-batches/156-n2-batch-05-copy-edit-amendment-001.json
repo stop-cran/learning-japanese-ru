@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "batchId": "156-n2-batch-05-kanji",
+  "repository": "stop-cran/learning-japanese-ru",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "candidateBase": "dc621b31058ed65361acfec029f44ad57f2657f6",
+  "trigger": {
+    "evidenceSource": "Coordinator-provided local Kotlin QuizBuilder reproduction",
+    "coordinatingSession": "68a44f7f-62db-4755-8296-fd586c861a35",
+    "preconditions": "Practice-more with all 367 published N3 cards and borrowed 型",
+    "randomSeed": 60,
+    "selectedFallback": "状",
+    "qualification": "Reproduces co-display under the stated local preconditions; not a device run, linguistic verdict, or general fallback-safety assessment.",
+    "afterEditReproduction": {
+      "evidenceSource": "Coordinator-provided fresh isolated compile of the unchanged pinned QuizBuilder",
+      "randomSeed": 60,
+      "optionsBeforeAndAfter": [
+        "際",
+        "型",
+        "列",
+        "状"
+      ],
+      "captionObservation": "The revised 型 title has no standalone «форма» segment, while both complete titles still contain «форма».",
+      "qualification": "Confirms only co-display and the literal change; not semantic safety or an Android-device run."
+    }
+  },
+  "changes": [
+    {
+      "path": "kanji/型.md",
+      "fields": [
+        "frontmatter title",
+        "H1"
+      ],
+      "before": "форма; тип",
+      "after": "форма для изготовления; тип",
+      "sourceTitle": "mold; type",
+      "sourceMeaningBasis": "The frozen English lesson describes 型 かた as a mold used to shape something; the existing Russian lesson body already explains this manufacturing-form sense.",
+      "oldBytes": 2825,
+      "oldRawSha256": "54ca17e2a175b86ab4d9938d26abe2acb5addb1d14b205ee87f6ff9cb0361a87",
+      "oldGitBlob": "76f1b6fca4b2098e168a486eaa9d49ca3c54d65f",
+      "oldManifest": {
+        "rawSha256": "2c3a3e5b8bf51d3028b5856eed82ad667389586c9c27c85d76cfed92a799e89d",
+        "contentVersion": "e03c4e5d5e37445c"
+      },
+      "newBytes": 2889,
+      "newRawSha256": "95574e75a751e54bd33bd4f28ed34742cfe7d4afea1e3dd8a4f3947fb16b8030",
+      "newManifestSha256": "95574e75a751e54bd33bd4f28ed34742cfe7d4afea1e3dd8a4f3947fb16b8030",
+      "newGitBlob": "692259006a4108037d28123970add6ac28d8966f",
+      "newManifest": {
+        "rawSha256": "cf660291679e55c4924c25f8af14d8c10382da55823250b39b66cc8bbd590d08",
+        "contentVersion": "4b6e9111e4db9c27"
+      },
+      "otherContentChanged": false
+    }
+  ],
+  "reviewQuestion": {
+    "candidateCaption": "форма для изготовления; тип",
+    "publishedComparatorCaption": "состояние; форма",
+    "completeCaptions": {
+      "型": "форма для изготовления; тип",
+      "状": "состояние; форма"
+    },
+    "reproducedOptions": [
+      "際",
+      "型",
+      "列",
+      "状"
+    ],
+    "reproducedFallbackContext": "The coordinating session reports a local QuizBuilder reproduction in which borrowed 型 and fallback 状 can be co-displayed under the recorded Practice-more preconditions.",
+    "question": "Assess both complete captions in this context. Does the qualified manufacturing-mold sense in «форма для изготовления» make the caption for 型 sufficiently distinct and defensible, or could its remaining generic «форма» still mislead a learner toward 状's form sense? Do not rely on exact-string de-duplication or word-overlap alone.",
+    "qualification": "This focused title review cannot establish general fallback safety; all other fallback behavior remains UNVERIFIED."
+  },
+  "status": "Awaiting focused independent review."
+}

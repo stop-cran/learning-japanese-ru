@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "kind": "provenance-correction",
+  "batchId": "156-n2-batch-05-kanji",
+  "repository": "stop-cran/learning-japanese-ru",
+  "recordedAt": "2026-11-12",
+  "status": "Supplemental erratum; Batch 156 commit and publication remain paused.",
+  "authority": "The coordinating assistant session ran and reported the builder reproductions and pair leads. They were not user-run or user-reported observations.",
+  "reviewedScope": {
+    "path": "docs/translation-batches/156-n2-batch-05-pair-caption-review-scope-002.json",
+    "bytes": 21408,
+    "rawSha256": "3cf9536312e989995edbfb685234b929e12aab8073e6cd3a9ef003853ce0aeef",
+    "reviewerSessionId": "c37b0cfb-1111-42a0-9c88-c0a36e4de03a",
+    "reviewerSawTheseExactBytes": true,
+    "preservedUnmodified": true,
+    "binding": "The original five-pair report remains bound to this exact historical scope and the candidate, comparator, and frozen-source hashes in it. This erratum was not part of the reviewer input and is not a replacement reviewed scope."
+  },
+  "auditedArtifacts": [
+    {
+      "path": "docs/translation-batches/156-n2-batch-05-pair-caption-review-scope-002.json",
+      "bytes": 21408,
+      "rawSha256": "3cf9536312e989995edbfb685234b929e12aab8073e6cd3a9ef003853ce0aeef",
+      "corrections": [
+        "All ten reportedBy fields attributed the reproductions to User; the coordinating assistant session ran and reported them.",
+        "The legacy 奥/中 pool incorrectly said both 奥 and 中 were borrowed. 中 was already among the 80 N5 cards; only 奥 was borrowed.",
+        "The current Starter 奥/中 pool correctly included 中 and borrowed only 奥.",
+        "The initial 奥/中 observations used the pre-edit 奥 caption, raw SHA-256 f6752c7814a49d398222bc1c01bba28645a0907310132e42ef38a0733690a363. The scope did not bind that old hash for both observations.",
+        "The later 奥/内 observations used the revised caption, raw SHA-256 4666bfaaf33b980e4be5c79683e35698d3a766fccbb9117396a9df279f0cd816."
+      ]
+    },
+    {
+      "path": "docs/translation-batches/156-n2-batch-05-pair-caption-review-scope-001.json",
+      "bytes": 9081,
+      "rawSha256": "5c8b3ba647d859905f89e2ce32e1608630881c96a367e93215542148ef894789",
+      "corrections": [
+        "Its three reportedBy fields and its user-reported invalidation reason misattribute coordinator-run leads.",
+        "This unlaunched scope was superseded; it is retained byte-for-byte as historical evidence."
+      ]
+    },
+    {
+      "path": "docs/translation-batches/156-n2-batch-05-copy-edit-amendment-002.json",
+      "bytes": 4073,
+      "rawSha256": "071fcc7c702f726dd0ac688fa948377f30c80e27f0c4cafa07e8804d9733aaa0",
+      "corrections": [
+        "Its reportedBy field should identify the coordinating assistant session, not User.",
+        "Its pending-review state is superseded by the pair-specific PASS verdicts for 奥/中 and 奥/内 in pair-caption-review-001.md."
+      ]
+    },
+    {
+      "path": "docs/translation-batches/156-n2-batch-05-奥-caption-review-scope-001.json",
+      "bytes": 4101,
+      "rawSha256": "96cd574c91f4355e193a767df3313f6ea890b8a320688f72b86132e272129f1c",
+      "corrections": [
+        "Its reportedBy field should identify the coordinating assistant session, not User.",
+        "Its legacy 奥/中 reproduction used the pre-edit caption hash f6752c7814a49d398222bc1c01bba28645a0907310132e42ef38a0733690a363; the current-main observation also used that pre-edit caption."
+      ]
+    },
+    {
+      "path": "docs/translation-batches/156-n2-batch-05-iki-ku-review-evidence-001.json",
+      "bytes": 4178,
+      "rawSha256": "e7bc5b292986499d148c8151118a14d1b4939b5c50eadbe0299208aa5ee6168c",
+      "corrections": [
+        "Both reportedBy fields should identify the coordinating assistant session, not User."
+      ]
+    },
+    {
+      "path": "docs/translation-batches/156-n2-batch-05-review-scope-003.json",
+      "bytes": 14611,
+      "rawSha256": "e8b30832b8c9c02ebff101bdffb0b8b2103167f3c14e15fb7401cf82b61e8ccc",
+      "corrections": [
+        "Retained unchanged as the invalidated runtime scope referenced by the reviewed scope; it was not accepted or reviewed to completion."
+      ]
+    }
+  ],
+  "correctedObservationBindings": [
+    {
+      "pairId": "oku-middle",
+      "timing": "Original observations, before the 奥 caption edit",
+      "reportedBy": "Coordinating assistant session",
+      "candidateCaption": "внутреннее пространство; глубина",
+      "candidateRawSha256": "f6752c7814a49d398222bc1c01bba28645a0907310132e42ef38a0733690a363",
+      "observations": [
+        {
+          "appCommit": "5c000bd",
+          "pool": "80 published N5 cards, including 中; only 奥 was borrowed.",
+          "randomSeed": 85,
+          "options": [
+            "中",
+            "奥",
+            "大",
+            "金"
+          ]
+        },
+        {
+          "appCommit": "10d98d0",
+          "pool": "118 published Starter cards, including 中; only 奥 was borrowed.",
+          "randomSeed": 95,
+          "options": [
+            "奥",
+            "大",
+            "中",
+            "短"
+          ]
+        }
+      ],
+      "qualification": "Bounded core-builder co-display observations only; not semantic verdicts, device results, frequency estimates, or general fallback-safety evidence."
+    },
+    {
+      "pairId": "oku-middle",
+      "timing": "New coordinator observations after the focused review",
+      "reportedBy": "Coordinating assistant session",
+      "candidateCaption": "дальняя внутренняя часть; глубина",
+      "candidateRawSha256": "4666bfaaf33b980e4be5c79683e35698d3a766fccbb9117396a9df279f0cd816",
+      "observations": [
+        {
+          "appCommit": "5c000bd",
+          "pool": "80 published N5 cards, including 中; only 奥 was borrowed.",
+          "randomSeed": 85,
+          "options": [
+            "中",
+            "奥",
+            "大",
+            "金"
+          ]
+        },
+        {
+          "appCommit": "10d98d0",
+          "pool": "118 published Starter cards, including 中; only 奥 was borrowed.",
+          "randomSeed": 95,
+          "options": [
+            "奥",
+            "大",
+            "中",
+            "短"
+          ]
+        }
+      ],
+      "qualification": "These are new coordinator-reported core-builder observations, not the original pre-edit runs and not runs performed by the reviewer. They confirm co-display only."
+    },
+    {
+      "pairId": "oku-inner",
+      "timing": "Original observations after the 奥 caption edit",
+      "reportedBy": "Coordinating assistant session",
+      "candidateCaption": "дальняя внутренняя часть; глубина",
+      "candidateRawSha256": "4666bfaaf33b980e4be5c79683e35698d3a766fccbb9117396a9df279f0cd816",
+      "qualification": "The legacy and current-main 奥/内 observations in scope 002 used the revised candidate; the scope's candidate hash is accurate for these runs."
+    }
+  ],
+  "reviewerKickoffCorrection": {
+    "reviewerSessionId": "c37b0cfb-1111-42a0-9c88-c0a36e4de03a",
+    "correction": "The kickoff quoted a coordination-session message as a user request. That quoted instruction originated from the coordinating assistant session; it was not a direct user quote.",
+    "reviewReportPath": "docs/translation-batches/156-n2-batch-05-pair-caption-review-001.md",
+    "handoffComparedWithReport": true,
+    "reportedBy": "Coordinating assistant session",
+    "verdictsChanged": false,
+    "qualification": "The reviewer assessed the full captions and frozen sources in the exact scope-002 input. The reviewer did not perform or independently verify the builder reproductions."
+  },
+  "reviewResult": {
+    "reportPath": "docs/translation-batches/156-n2-batch-05-pair-caption-review-001.md",
+    "binding": "The five verdicts remain the reviewer’s pair-specific judgments on the full captions and source material bound in the original scope-002 bytes. They do not validate the erroneous observation attribution or legacy pool description, and are not reassigned to the post-review runs.",
+    "verdicts": {
+      "奥/中": "PASS",
+      "奥/内": "PASS",
+      "域/区": "PASS",
+      "域/限": "PASS",
+      "塗/刷": "NEEDS FIX"
+    }
+  },
+  "futureBinding": "Keep all hash-bound historical files above unchanged. Any subsequent review or publication scope must bind the actual final candidate and runtime files and cite this erratum; do not represent it as a scope the reviewer already saw."
+}

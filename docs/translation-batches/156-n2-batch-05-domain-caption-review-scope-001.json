@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "kind": "focused-independent-semantic-caption-review",
+  "batchId": "156-n2-batch-05-kanji",
+  "repository": "stop-cran/learning-japanese-ru",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "candidateBase": "dc621b31058ed65361acfec029f44ad57f2657f6",
+  "recordedAt": "2026-11-12",
+  "status": "Two exact-caption pair verdicts pending; 域 is not runtime-accepted.",
+  "amendment": {
+    "path": "docs/translation-batches/156-n2-batch-05-domain-caption-amendment-001.json",
+    "bytes": 4457,
+    "rawSha256": "546e16f0c2c80426bd59bb633df4e55304fae3d7434c911d4f9704126040faee",
+    "gitBlob": "566d9398d23f2a50386bb1cd442f2448cf485b07"
+  },
+  "manifest": {
+    "path": "manifest.json",
+    "bytes": 257703,
+    "rawSha256": "2e8f2e43aa353f6e43bba58f9f7085fcd73c230b73889ba479d942e6104dc174",
+    "gitBlob": "ba2c3711e144cf4177666601e98d4b3107767a07",
+    "contentVersion": "5f46b00abfbeb944",
+    "fileEntries": 2883
+  },
+  "partialOverlapPolicy": {
+    "path": "docs/translation-methodology.md",
+    "bytes": 33637,
+    "rawSha256": "0b2fe9398de8777b2b96d37f18a068b2ec96714f4d1b6212a9e83e60abc5ab85",
+    "gitBlob": "c31426aa604b7263d839893d27763f8b615094c4",
+    "lines": [
+      190,
+      192
+    ],
+    "example": "川 «река; ручей» and 小川 «ручей» require direct exclusion in meaning tasks although the complete title strings differ. A correct shared gloss must not be removed merely to shape answer choices."
+  },
+  "baselineTitleScan": {
+    "revision": "dc621b31058ed65361acfec029f44ad57f2657f6",
+    "scope": "Published kanji frontmatter titles only",
+    "titleCount": 678,
+    "terms": [
+      "диапазон",
+      "интервал",
+      "размах"
+    ],
+    "literalSubstringMatches": 0,
+    "qualification": "Literal baseline-title result only; not a semantic review, co-display result, future-pool scan, or quiz-safety finding."
+  },
+  "historicalReview": {
+    "scopePath": "docs/translation-batches/156-n2-batch-05-pair-caption-review-scope-002.json",
+    "scopeRawSha256": "3cf9536312e989995edbfb685234b929e12aab8073e6cd3a9ef003853ce0aeef",
+    "reportPath": "docs/translation-batches/156-n2-batch-05-pair-caption-review-001.md",
+    "oldCandidateCaption": "область; пределы",
+    "oldCandidateRawSha256": "b0407a69810d9f223301c583a0b0b63e08f4ba49a42ea651b7af56a6d722da6e",
+    "oldVerdicts": {
+      "域/区": "PASS",
+      "域/限": "PASS"
+    },
+    "qualification": "These verdicts remain attached to the old exact caption; they are not transferred to the changed candidate."
+  },
+  "pairs": [
+    {
+      "pairId": "域/区",
+      "candidate": {
+        "path": "kanji/域.md",
+        "caption": "область; диапазон",
+        "bytes": 2357,
+        "rawSha256": "2a7a39c8cce6222d12b0bb58cbfac7236bc7a35f5f66a0b5f372fa464f4e2f2c",
+        "gitBlob": "19707d9192dc9acdf1b9835c691dcfb452221947"
+      },
+      "comparator": {
+        "path": "kanji/区.md",
+        "caption": "округ; район",
+        "publishedGitContentSha256": "f78efcbc62181bd3a197284b592b1d1157d470c4cf7864726d95d1a8ebbdbff7",
+        "gitBlob": "13c7dc2016608d42631be2067c0f7e60a387eb89"
+      },
+      "frozenSources": [
+        {
+          "path": "kanji/域.md",
+          "bytes": 1597,
+          "rawSha256": "f6476a2593d56e55f54b479c59b71b5063a034842623f528d800d76bf35d131f",
+          "gitBlob": "e9ca420871c1b2fd9d1f5b512bdd0f67319482e2"
+        },
+        {
+          "path": "kanji/区.md",
+          "bytes": 2467,
+          "rawSha256": "d2936e26cbb61b78222ab90f8f053cee801a18109fa5b737e87386e5426c891b",
+          "gitBlob": "01a1a389787f241f2cce02965c9a907c22e27f82"
+        },
+        {
+          "path": "words/地域.md",
+          "bytes": 1934,
+          "rawSha256": "d343e9578c4972a350a85451c9a7294f233cb9cfbf77c31dc2f59fc7bf1ef928",
+          "gitBlob": "ab003b6426d4559a2230ca4e00e24570746d266e"
+        },
+        {
+          "path": "words/区域.md",
+          "bytes": 2007,
+          "rawSha256": "6f0f46885d8377214cbfba3b749978d213d86974d2245872896a0d2822262c44",
+          "gitBlob": "f443864e6084e564a5b8a845858ee72d5ddb2ce6"
+        }
+      ],
+      "historicalCoDisplay": {
+        "reportedBy": "Coordinating assistant session",
+        "observedCaption": "область; пределы",
+        "observedCandidateRawSha256": "b0407a69810d9f223301c583a0b0b63e08f4ba49a42ea651b7af56a6d722da6e",
+        "legacy": {
+          "appCommit": "5c000bd",
+          "pool": "80 published N5 cards plus already-started 域 and 区 borrowed in that order.",
+          "randomSeed": 0,
+          "options": [
+            "上",
+            "区",
+            "話",
+            "域"
+          ]
+        },
+        "currentMain": {
+          "appCommit": "10d98d0",
+          "pool": "118 published Starter cards plus already-started 域 and 区 borrowed in that order.",
+          "randomSeed": 0,
+          "options": [
+            "短",
+            "区",
+            "供",
+            "域"
+          ]
+        },
+        "qualification": "Historical co-display only; these runs used the previous caption and do not claim that the revised-caption candidate was run."
+      }
+    },
+    {
+      "pairId": "域/限",
+      "candidate": {
+        "path": "kanji/域.md",
+        "caption": "область; диапазон",
+        "bytes": 2357,
+        "rawSha256": "2a7a39c8cce6222d12b0bb58cbfac7236bc7a35f5f66a0b5f372fa464f4e2f2c",
+        "gitBlob": "19707d9192dc9acdf1b9835c691dcfb452221947"
+      },
+      "comparator": {
+        "path": "kanji/限.md",
+        "caption": "предел; ограничивать",
+        "publishedGitContentSha256": "30706f6ff1a0f352ee6b206dd11cf485ede5305b9657c43c1af411581dc09d8e",
+        "gitBlob": "3bf538e99bc61afe3e733cc608979f9418b109c8"
+      },
+      "frozenSources": [
+        {
+          "path": "kanji/域.md",
+          "bytes": 1597,
+          "rawSha256": "f6476a2593d56e55f54b479c59b71b5063a034842623f528d800d76bf35d131f",
+          "gitBlob": "e9ca420871c1b2fd9d1f5b512bdd0f67319482e2"
+        },
+        {
+          "path": "kanji/限.md",
+          "bytes": 1726,
+          "rawSha256": "6ae129471966d9d1516fdb7e9e412cd4082417bac03fbaa949ec608c75f901d7",
+          "gitBlob": "518a60432a3f6a732698c9eeae292886bd9d9def"
+        },
+        {
+          "path": "words/区域.md",
+          "bytes": 2007,
+          "rawSha256": "6f0f46885d8377214cbfba3b749978d213d86974d2245872896a0d2822262c44",
+          "gitBlob": "f443864e6084e564a5b8a845858ee72d5ddb2ce6"
+        },
+        {
+          "path": "words/限界.md",
+          "bytes": 1953,
+          "rawSha256": "c3f081fd42f78419ead2ba744588c2f03b37856514a5de9c9a84a96f3623056d",
+          "gitBlob": "58692413569be328d4af54b63f6a1965a9337ab6"
+        }
+      ],
+      "historicalCoDisplay": {
+        "reportedBy": "Coordinating assistant session",
+        "observedCaption": "область; пределы",
+        "observedCandidateRawSha256": "b0407a69810d9f223301c583a0b0b63e08f4ba49a42ea651b7af56a6d722da6e",
+        "legacy": {
+          "appCommit": "5c000bd",
+          "pool": "80 published N5 cards plus already-started 域 and 限 borrowed in that order.",
+          "randomSeed": 0,
+          "options": [
+            "上",
+            "限",
+            "話",
+            "域"
+          ]
+        },
+        "currentMain": {
+          "appCommit": "10d98d0",
+          "pool": "118 published Starter cards plus already-started 域 and 限 borrowed in that order.",
+          "randomSeed": 0,
+          "options": [
+            "短",
+            "供",
+            "限",
+            "域"
+          ]
+        },
+        "qualification": "Historical co-display only; these runs used the previous caption and do not claim that the revised-caption candidate was run."
+      }
+    }
+  ],
+  "reviewInstructions": "Return one separate PASS or NEEDS FIX verdict for each pair, bound to candidate raw SHA-256 2a7a39c8cce6222d12b0bb58cbfac7236bc7a35f5f66a0b5f372fa464f4e2f2c and the listed comparator/frozen-source hashes. Apply the documented partial-overlap rule: differing complete title strings alone do not clear a correct shared gloss. Evaluate whether «диапазон» is source-faithful for 域, whether its supported «limit(s)» sense still overlaps 限 «предел», and whether the complete captions are meaningfully distinct for these direct comparisons. Do not infer semantic equivalence or safety from co-display, do not claim device/frequency/fallback safety, do not add exclusions, and do not edit files. If either relevant comparison is not cleared, report NEEDS FIX so 域 can be held and its runtime dependencies reconciled."
+}

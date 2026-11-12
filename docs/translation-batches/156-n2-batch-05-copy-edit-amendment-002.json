@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "156-n2-batch-05-kanji",
+  "repository": "stop-cran/learning-japanese-ru",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "candidateBase": "dc621b31058ed65361acfec029f44ad57f2657f6",
+  "status": "Proposed caption pending focused independent review; no runtime acceptance.",
+  "trigger": {
+    "reportedBy": "User",
+    "legacyCompatibility": {
+      "appCommit": "5c000bd",
+      "setup": "All 80 published N5 cards plus already-started 奥 borrowed into a short Practice-more pool.",
+      "randomSeed": 85,
+      "options": [
+        "中",
+        "奥",
+        "大",
+        "金"
+      ],
+      "candidateRawSha256BeforeEdit": "f6752c7814a49d398222bc1c01bba28645a0907310132e42ef38a0733690a363",
+      "qualification": "Conditional core-builder reproduction only; not a device result or linguistic verdict."
+    },
+    "currentMainCompatibility": {
+      "appCommit": "10d98d0",
+      "setup": "118 published Starter cards plus already-started 奥 borrowed into a short session.",
+      "randomSeed": 95,
+      "options": [
+        "奥",
+        "大",
+        "中",
+        "短"
+      ],
+      "boundStarterPoolAndCandidateDeclareNoKanjiExclusions": true,
+      "sourceSha256Prefix": "c3208d21…",
+      "compiledClassSha256": "418a71c4d0f7ac01bd9c7a840e307ecd834e3aae115bfd5f6c4af57d25e5dad9",
+      "qualification": "Conditional core-builder reproduction only; not a device result, frequency estimate, or semantic verdict."
+    }
+  },
+  "changes": [
+    {
+      "path": "kanji/奥.md",
+      "fields": [
+        "frontmatter title",
+        "H1"
+      ],
+      "before": "внутреннее пространство; глубина",
+      "after": "дальняя внутренняя часть; глубина",
+      "sourceMeaningBasis": "The frozen 奥 lesson describes an inner or farther part, the back of a shop and forest depths; frozen words/奥 distinguishes 中’s broad inside/middle sense from 奥’s depth or distance from an entrance or viewpoint.",
+      "candidateFile": {
+        "path": "kanji/奥.md",
+        "bytes": 3745,
+        "rawSha256": "4666bfaaf33b980e4be5c79683e35698d3a766fccbb9117396a9df279f0cd816",
+        "gitBlob": "35c2ca5ef009473b35c80d228e76347085338cd4"
+      },
+      "reviewQuestion": "Assess both complete captions against the frozen lessons in the reproduced co-display context. Is «дальняя внутренняя часть; глубина» faithful and sufficiently distinct from 中 «середина; внутри», without overstating 奥 as an absolute farthest endpoint?"
+    }
+  ],
+  "comparator": {
+    "path": "kanji/中.md",
+    "title": "середина; внутри",
+    "workingTree": {
+      "path": "kanji/中.md",
+      "bytes": 3667,
+      "rawSha256": "b5fbee68cb20fcd99799db129345b3cf743236a9336370a58900da048bd01942",
+      "gitBlob": "8c67cba944ff1647fbab7ec92fa09fb8f1563a4a"
+    },
+    "publishedGitContentSha256": "d1d1c845567d21a26c7a06096cade000d2b879da1b0116b20b8b35c87ee5b330",
+    "publishedGitBlob": "8c67cba944ff1647fbab7ec92fa09fb8f1563a4a"
+  },
+  "frozenSources": [
+    {
+      "path": "kanji/奥.md",
+      "bytes": 2293,
+      "rawSha256": "a356c9346903e43f5aff9f629f736e60b2d57d88fc4eaaf00391c198bc0d23e1",
+      "gitBlob": "490d7f7fb8df8884b583377bc0f9fbfe53e87dda"
+    },
+    {
+      "path": "kanji/中.md",
+      "bytes": 1802,
+      "rawSha256": "05b953eb857b08ca8c27e3001f38b926260ee9fdfc8b98ed30c92c49d839536f",
+      "gitBlob": "4aeb74c44b48502e2a57b654fe8f9dea8cad9340"
+    },
+    {
+      "path": "words/奥.md",
+      "bytes": 1621,
+      "rawSha256": "de071890f5bdeeec88dedff959678777071e371289a2aafa8c311a92235723e5",
+      "gitBlob": "43955eee588a78c247a24425d07d036887f56057"
+    }
+  ],
+  "reviewScope": "docs/translation-batches/156-n2-batch-05-奥-caption-review-scope-001.json",
+  "safetyQualification": "The title review addresses this pair only. No exclusion was written. Direct distractor and fallback safety remain UNVERIFIED; no app/device or general safety conclusion is claimed."
+}
