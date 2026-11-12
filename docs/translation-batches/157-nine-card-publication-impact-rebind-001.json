@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "batchId": "157-nine-card-qualified-source-acceptance",
+  "recordedAt": "2026-11-12T14:01:59Z",
+  "repository": "stop-cran/learning-japanese-ru",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "publishedBaseline": "c9fa34ca61c057d60f4be789917437c3d3bd4197",
+  "candidateBranch": "full-ru-157-nine-card-publish",
+  "kind": "B157 publication-impact rebind against exact published predecessor",
+  "status": "Pre-mutation impact rebind; old session-local provisional inventory preserved unchanged.",
+  "priorProvisionalInventoryDisposition": "Not rewritten; this record rebinds its c9fa assumptions to the exact reviewed package and current remote main.",
+  "baseline": {
+    "commit": "c9fa34ca61c057d60f4be789917437c3d3bd4197",
+    "remoteMainMatches": true,
+    "protectedRefs": {
+      "ru-pilot-a": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+      "ru-pilot-b": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f"
+    },
+    "publishedBindingsVerified": 50
+  },
+  "packageManifestSha256": "4da05222932a381798150b57305c7f234f31c3633cebcbd817c943141b0cd5aa",
+  "reviewedScope": {
+    "newLessons": [
+      "kanji/孫.md",
+      "kanji/宇.md",
+      "kanji/宝.md",
+      "kanji/寺.md",
+      "kanji/専.md",
+      "kanji/将.md",
+      "kanji/尊.md",
+      "kanji/導.md",
+      "kanji/岸.md"
+    ],
+    "newByteIdenticalStrokes": [
+      "strokes/孫.json",
+      "strokes/宇.json",
+      "strokes/宝.json",
+      "strokes/寺.json",
+      "strokes/専.json",
+      "strokes/将.json",
+      "strokes/尊.json",
+      "strokes/導.json",
+      "strokes/岸.json"
+    ],
+    "sixHeldCards": [
+      "委",
+      "季",
+      "封",
+      "届",
+      "層",
+      "岩"
+    ],
+    "navigationOnlyWordChanges": [
+      {
+        "path": "words/寺.md",
+        "kanji": "寺",
+        "baseCommit": "c9fa34ca61c057d60f4be789917437c3d3bd4197",
+        "baseBytes": 2059,
+        "baseRawSha256": "692c5f4a8eb639a3b75f52b511e4b53a28cceb889c6f46c0f265356bf2b1f78f",
+        "candidateBytes": 2078,
+        "candidateRawSha256": "b07f7b8d2933d9a0aa9cc8826bc62b68501da4a655571c716725ad3227c78747",
+        "change": "one target-link wrapper insertion only; normalized visible teaching text unchanged"
+      },
+      {
+        "path": "words/将来.md",
+        "kanji": "将",
+        "baseCommit": "c9fa34ca61c057d60f4be789917437c3d3bd4197",
+        "baseBytes": 2345,
+        "baseRawSha256": "fbb3d708c3ca7cbf4395f135e707deb6563e875ed9e09406760c2395870c8685",
+        "candidateBytes": 2364,
+        "candidateRawSha256": "333d46cb697e52cb563a2d75e94c3655353b426b8ebdbe8394004b4dde44d475",
+        "change": "one target-link wrapper insertion only; normalized visible teaching text unchanged"
+      },
+      {
+        "path": "words/海岸.md",
+        "kanji": "岸",
+        "baseCommit": "c9fa34ca61c057d60f4be789917437c3d3bd4197",
+        "baseBytes": 2023,
+        "baseRawSha256": "7e8aaa1d2436cc566a0cacce1521c7e35e551c108836818d2b8a14aedde6d208",
+        "candidateBytes": 2042,
+        "candidateRawSha256": "2bac2ef5ddc3210cf1ff76d8f4ddae6c53cb6e3f83eb1037b66db99b544e949b",
+        "change": "one target-link wrapper insertion only; normalized visible teaching text unchanged"
+      }
+    ]
+  },
+  "expectedImpact": {
+    "manifestRegistrationsAdded": 18,
+    "existingHashChanges": [
+      "words/寺.md",
+      "words/将来.md",
+      "words/海岸.md"
+    ],
+    "removedRegistrations": 0,
+    "unrelatedHashChanges": 0,
+    "newProgressObjects": 18,
+    "baselineProgress": {
+      "reviewedCurrent": 2888,
+      "runtimeBlocked": 8,
+      "pending": 5382
+    },
+    "projectedProgress": {
+      "reviewedCurrent": 2906,
+      "runtimeBlocked": 8,
+      "pending": 5364
+    }
+  },
+  "limits": [
+    "No six-card hold is cleared.",
+    "All 27 direct negative/fallback directions remain UNVERIFIED.",
+    "This is a source-progress impact estimate, not runtime, learner, ASR, drawing, device, release, or publication clearance."
+  ]
+}

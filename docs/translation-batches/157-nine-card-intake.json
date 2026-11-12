@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "batchId": "157-nine-card-qualified-source-acceptance",
+  "recordedAt": "2026-11-12T14:01:59Z",
+  "repository": "stop-cran/learning-japanese-ru",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "publishedBaseline": "c9fa34ca61c057d60f4be789917437c3d3bd4197",
+  "candidateBranch": "full-ru-157-nine-card-publish",
+  "status": "Hash-bound B157 nine-card source intake; publication pending.",
+  "selection": {
+    "method": "Explicit nine-card derivative authorized for qualified-source acceptance; not an autonomous continuation of the adjacent Batch 156 intake.",
+    "activeCards": [
+      "孫",
+      "宇",
+      "宝",
+      "寺",
+      "専",
+      "将",
+      "尊",
+      "導",
+      "岸"
+    ],
+    "heldCards": [
+      "委",
+      "季",
+      "封",
+      "届",
+      "層",
+      "岩"
+    ],
+    "activeDirectDistractorDirections": [
+      "孫→係",
+      "孫→乳",
+      "孫→好",
+      "宇→守",
+      "宇→字",
+      "宇→安",
+      "宝→字",
+      "宝→王",
+      "宝→守",
+      "寺→時",
+      "寺→待",
+      "寺→持",
+      "専→申",
+      "専→東",
+      "専→事",
+      "将→状",
+      "将→待",
+      "将→付",
+      "尊→専",
+      "尊→導",
+      "尊→首",
+      "導→尊",
+      "導→首",
+      "導→待",
+      "岸→厚",
+      "岸→午",
+      "岸→山"
+    ],
+    "negativeFallbackStatus": "UNVERIFIED for all 27 direct directions; no transitive closure inferred."
+  },
+  "candidateBoundary": {
+    "newLessons": [
+      "kanji/孫.md",
+      "kanji/宇.md",
+      "kanji/宝.md",
+      "kanji/寺.md",
+      "kanji/専.md",
+      "kanji/将.md",
+      "kanji/尊.md",
+      "kanji/導.md",
+      "kanji/岸.md"
+    ],
+    "newByteIdenticalStrokeAssets": [
+      "strokes/孫.json",
+      "strokes/宇.json",
+      "strokes/宝.json",
+      "strokes/寺.json",
+      "strokes/専.json",
+      "strokes/将.json",
+      "strokes/尊.json",
+      "strokes/導.json",
+      "strokes/岸.json"
+    ],
+    "navigationOnlyExistingWordPages": [
+      "words/寺.md",
+      "words/将来.md",
+      "words/海岸.md"
+    ],
+    "newWordPages": 0,
+    "quizOrGradingChanges": 0,
+    "otherAuthoredRuntimePaths": 0,
+    "expectedManifestDelta": {
+      "newRegistrations": 18,
+      "changedExistingHashes": [
+        "words/寺.md",
+        "words/将来.md",
+        "words/海岸.md"
+      ],
+      "removedRegistrations": 0,
+      "unrelatedHashChanges": 0
+    },
+    "newCardsMayEnterExistingFallbackPools": true
+  },
+  "packageBindings": {
+    "packageManifestSha256": "4da05222932a381798150b57305c7f234f31c3633cebcbd817c943141b0cd5aa",
+    "bindingManifestSha256": "80eef35a3517ce1582b5096b987933d719d7dcf3b743078184774e373a250ed5",
+    "reviewScopeSha256": "5c988d742e96d310f1525e52334ea167d24a5aa0a3f0dd74c4ad87cb46985295",
+    "payloadManifestSha256": "9158907972608f9140f7e7a84f8b7cd8c6719f44df141538b4c15259c4a293a6",
+    "heldContextManifestSha256": "82cad8e8fffd940ee04b84d57dab1e6fd1e299aa1586debb2d43ee4111786993",
+    "evidenceManifestSha256": "b781ea009ae37ec97ea755034aba5a551e3e3b175f9bfa1e372a8aa9818b1dcb",
+    "originalFreezeSha256": "9d24c1c0edf7db4a50549944193fa57d5638812f9602a44065cbcc02c8046a9c",
+    "publishedPredecessorBindingsVerified": 50
+  },
+  "independentReview": {
+    "report": "docs/translation-batches/157-nine-card-independent-review-001.md",
+    "verbatimSourceRawSha256": "ce75ce2009dae927c64a81f9ec69a7900a3c7751e7f94ebd92309d3ea85148cb",
+    "disposition": "Qualified review complete; no new substantive discrepancy in the nine active cards; not semantic CLEAN or release clearance."
+  },
+  "baselineProgress": {
+    "frozenInventory": 8278,
+    "reviewedCurrent": 2888,
+    "excludedReviewedRuntimeBlocked": 8,
+    "pending": 5382,
+    "words": 1478,
+    "kanji": 690,
+    "strokes": 690,
+    "checkpointAuthority": null,
+    "checkpointReady": false
+  },
+  "projectedProgress": {
+    "frozenInventory": 8278,
+    "reviewedCurrent": 2906,
+    "excludedReviewedRuntimeBlocked": 8,
+    "pending": 5364,
+    "words": 1478,
+    "kanji": 699,
+    "strokes": 699,
+    "checkpointAuthority": null,
+    "checkpointReady": false
+  },
+  "qualificationLimits": {
+    "ordinaryQuizNegativeFallbackSafety": "UNVERIFIED for all 27 direct directions; no transitive closure inferred.",
+    "readingAndSenseCoverage": "Non-exhaustive for 宇/専/尊/導/岸 as detailed in the independent review.",
+    "visualConfusionRisk": "Untested; bounded synthetic pool evidence is not visual/drawing evidence.",
+    "runtimeAcceptance": false,
+    "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+    "fullTranslationComplete": false
+  }
+}
