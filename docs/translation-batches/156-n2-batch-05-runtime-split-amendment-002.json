@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "batchId": "156-n2-batch-05-kanji",
+  "amendment": "runtime-split-amendment-002",
+  "recordedAt": "2026-11-12",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "candidateBase": "dc621b31058ed65361acfec029f44ad57f2657f6",
+  "supersedes": {
+    "amendment": "docs/translation-batches/156-n2-batch-05-runtime-split-amendment-001.json",
+    "rawSha256": "9fd0211c0ae8219fc7717d2bc6f7d2c3f0db1f938656fc2fdbfc5d391adb460c"
+  },
+  "runtimeDisposition": {
+    "activeKanji": [
+      "固",
+      "圧",
+      "坂",
+      "均",
+      "型",
+      "埋",
+      "城",
+      "域",
+      "塔",
+      "塩",
+      "奥",
+      "姓"
+    ],
+    "activeStrokeAssets": 12,
+    "heldOutKanji": [
+      "央",
+      "境",
+      "塗"
+    ],
+    "heldOutStrokeAssets": [
+      "央",
+      "境",
+      "塗"
+    ],
+    "changeFromAmendment001": {
+      "removedActiveKanji": [
+        "塗"
+      ],
+      "removedActiveStrokeAssets": 1,
+      "previouslyHeldOutRetained": [
+        "央",
+        "境"
+      ],
+      "newlyHeldOut": [
+        "塗"
+      ]
+    },
+    "manifestDeltaFromPublishedBase": {
+      "baseCommit": "dc621b31058ed65361acfec029f44ad57f2657f6",
+      "newRegistrations": 24,
+      "changedExistingHashes": 5,
+      "removedRegistrations": 0,
+      "changedExistingWordPages": [
+        "words/固い.md",
+        "words/坂.md",
+        "words/型.md",
+        "words/塩.md",
+        "words/奥さん.md"
+      ],
+      "unrelatedHashChanges": 0
+    },
+    "candidateManifest": {
+      "path": "manifest.json",
+      "rawSha256": "2e8f2e43aa353f6e43bba58f9f7085fcd73c230b73889ba479d942e6104dc174",
+      "contentVersion": "5f46b00abfbeb944",
+      "registrationCount": 2888
+    },
+    "candidateReferencesToHeld": {
+      "lessonLinks": [],
+      "curatedDistractors": [],
+      "existingWordBacklinks": [],
+      "verification": "The coordinator's read-only split snapshot confirmed the 12 active lessons and strokes, no runtime references to 央・境・塗, five active-word backlinks, 塗る unchanged without a 塗 backlink, and 城's link and distractor to active 域."
+    },
+    "wordBacklinks": {
+      "activeExistingWordPages": [
+        "words/固い.md",
+        "words/坂.md",
+        "words/型.md",
+        "words/塩.md",
+        "words/奥さん.md"
+      ],
+      "heldOutPage": {
+        "path": "words/塗る.md",
+        "rawSha256": "a4b806b4e58ab414c558e6cbfe020c0e53e4fdab71029bb3dec38cce3c17496c",
+        "matchesPublishedBase": true,
+        "containsHeldKanjiBacklink": false
+      }
+    },
+    "域Caption": {
+      "path": "kanji/域.md",
+      "caption": "область; диапазон",
+      "rawSha256": "2a7a39c8cce6222d12b0bb58cbfac7236bc7a35f5f66a0b5f372fa464f4e2f2c",
+      "review": "The exact caption hash matches the separate 域/区 and 域/限 review scope; those pair-specific PASS findings do not establish device, frequency, runtime, or general fallback safety."
+    },
+    "narrowTitleScan": {
+      "baseline": "dc621b31058ed65361acfec029f44ad57f2657f6",
+      "finding": "The coordinator's literal exact-segment scan found no matches between the 12 active titles and titles in the published baseline.",
+      "qualification": "Mechanical lexical screen only; not semantic review, fallback-safety evidence, or a claim about other corpora."
+    }
+  },
+  "heldOutDrafts": [
+    {
+      "character": "央",
+      "lessonPath": "docs/translation-drafts/156-n2-batch-05/kanji/央.md",
+      "lessonRawSha256": "d103073f411ae93b76d4a11cf018d8d07e8fdb7a1b18bc658a0c7ef91e7e88b0",
+      "strokePath": "docs/translation-drafts/156-n2-batch-05/strokes/央.json",
+      "strokeRawSha256": "f7fbd9866b797b390f8de9a3fd0317b8d6ecfe59decdaa99b035479507492b56",
+      "reason": "The faithful central/middle caption overlaps 中; no independently reviewed faithful distinction is established.",
+      "evidence": "docs/translation-batches/156-n2-batch-05-runtime-split-amendment-001.json"
+    },
+    {
+      "character": "境",
+      "lessonPath": "docs/translation-drafts/156-n2-batch-05/kanji/境.md",
+      "lessonRawSha256": "2475c83f00eab9bebcfc06ade2ad06ad44805efb3e7018f3843ca2c29e7affa9",
+      "strokePath": "docs/translation-drafts/156-n2-batch-05/strokes/境.json",
+      "strokeRawSha256": "88dfe5ef99daae8f156cbbea4c488a4e5b1cb4730fc435025c6f4be771c3f229",
+      "reason": "No faithful, independently reviewed resolution of the 境/界 overlap is established.",
+      "evidence": "docs/translation-batches/156-n2-batch-05-runtime-split-amendment-001.json"
+    },
+    {
+      "character": "塗",
+      "lessonPath": "docs/translation-drafts/156-n2-batch-05/kanji/塗.md",
+      "lessonRawSha256": "ec5cd53ab7211f52da2ca3e7f4bb9d7eef2a4d1835b5aa4ae84a2162e99b000e",
+      "frozenSourceRawSha256": "9253bbcd555fbea6d37c066ad9e51bf09b013c6ad36a0a37f842b799d734722e",
+      "strokePath": "docs/translation-drafts/156-n2-batch-05/strokes/塗.json",
+      "strokeRawSha256": "00685d270685091e7905b0b2dafbd9096eec9ff18a2da95acec268e3d39809bf",
+      "caption": "красить; покрывать",
+      "pair": {
+        "comparator": "刷",
+        "reviewReport": "docs/translation-batches/156-n2-batch-05-pair-caption-review-001.md",
+        "verdict": "NEEDS FIX",
+        "reason": "The reviewer found that the caption drops the source-supported light-application nuance and remains broad enough to overlap 塗; no source-faithful, meaningfully distinct caption has been independently cleared."
+      },
+      "runtimeStatus": "blocked-non-runtime; retained as reviewed draft"
+    }
+  ],
+  "releaseBoundary": "This amendment records the final candidate runtime split only. Pair-specific PASS findings remain bound to their exact captions. It does not claim release readiness, device acceptance, frequency safety, complete quiz safety, or general fallback safety."
+}

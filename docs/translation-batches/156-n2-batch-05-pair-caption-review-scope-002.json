@@ -1,0 +1,514 @@
+{
+  "schemaVersion": 1,
+  "kind": "focused-independent-semantic-pair-review",
+  "batchId": "156-n2-batch-05-kanji",
+  "repository": "stop-cran/learning-japanese-ru",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "candidateBase": "dc621b31058ed65361acfec029f44ad57f2657f6",
+  "recordedAt": "2026-11-12",
+  "status": "Five separate pair-specific verdicts pending; candidates remain unaccepted and Batch 156 publication is paused.",
+  "supersedesUnlaunchedScope": {
+    "path": "156-n2-batch-05-pair-caption-review-scope-001.json",
+    "rawSha256": "5c8b3ba647d859905f89e2ce32e1608630881c96a367e93215542148ef894789"
+  },
+  "invalidatedRuntimeScope": {
+    "path": "156-n2-batch-05-review-scope-003.json",
+    "rawSha256": "e8b30832b8c9c02ebff101bdffb0b8b2103167f3c14e15fb7401cf82b61e8ccc",
+    "reason": "New user-reported pair leads invalidated the 13-card candidate; no verdict was issued."
+  },
+  "currentManifest": {
+    "path": "manifest.json",
+    "bytes": 257879,
+    "rawSha256": "8e6d8b2f301dbc1490fb151d01753291fb5862bc3c8e3a9a6a7d0bbfea779ccf",
+    "gitBlob": "472ca0be8c7d2b2922d29a764d3d17fc612e34e9"
+  },
+  "pairs": [
+    {
+      "pairId": "oku-middle",
+      "candidateId": "奥",
+      "candidateCaption": "дальняя внутренняя часть; глубина",
+      "comparatorId": "中",
+      "comparatorCaption": "середина; внутри",
+      "observations": [
+        {
+          "appCommit": "5c000bd",
+          "reportedBy": "User",
+          "pool": "All 80 published N5 cards plus already-started 奥 and 中 borrowed in that order into a short Practice-more pool.",
+          "randomSeed": 85,
+          "target": "奥",
+          "options": [
+            "中",
+            "奥",
+            "大",
+            "金"
+          ],
+          "qualification": "Conditional core-builder co-display only; not a linguistic verdict or device result.",
+          "candidateRawSha256BeforeCaptionEdit": "f6752c7814a49d398222bc1c01bba28645a0907310132e42ef38a0733690a363"
+        },
+        {
+          "appCommit": "10d98d0",
+          "reportedBy": "User",
+          "pool": "118 published Starter cards plus already-started 奥 borrowed; 中 is in the published Starter pool.",
+          "randomSeed": 95,
+          "target": "奥",
+          "options": [
+            "奥",
+            "大",
+            "中",
+            "短"
+          ],
+          "qualification": "Conditional core-builder co-display only; not a linguistic verdict or device result.",
+          "boundPoolAndCandidateHaveNoKanjiExclusions": true,
+          "builderSourceSha256Prefix": "c3208d21",
+          "compiledClassSha256": "418a71c4d0f7ac01bd9c7a840e307ecd834e3aae115bfd5f6c4af57d25e5dad9"
+        }
+      ],
+      "question": "Against the frozen 奥/中 lessons and 奥 word article, is the proposed qualified 奥 caption faithful and sufficiently distinct from the broad middle/inside caption? Avoid implying an absolute endpoint.",
+      "candidate": {
+        "path": "kanji/奥.md",
+        "bytes": 3745,
+        "rawSha256": "4666bfaaf33b980e4be5c79683e35698d3a766fccbb9117396a9df279f0cd816",
+        "gitBlob": "35c2ca5ef009473b35c80d228e76347085338cd4"
+      },
+      "comparator": {
+        "path": "kanji/中.md",
+        "fullCaption": "середина; внутри",
+        "workingTree": {
+          "path": "kanji/中.md",
+          "bytes": 3667,
+          "rawSha256": "b5fbee68cb20fcd99799db129345b3cf743236a9336370a58900da048bd01942",
+          "gitBlob": "8c67cba944ff1647fbab7ec92fa09fb8f1563a4a"
+        },
+        "published": {
+          "path": "kanji/中.md",
+          "bytes": 3623,
+          "gitContentSha256": "d1d1c845567d21a26c7a06096cade000d2b879da1b0116b20b8b35c87ee5b330",
+          "gitBlob": "8c67cba944ff1647fbab7ec92fa09fb8f1563a4a"
+        }
+      },
+      "fullCaptions": {
+        "奥": "дальняя внутренняя часть; глубина",
+        "中": "середина; внутри"
+      },
+      "frozenSources": [
+        {
+          "path": "kanji/奥.md",
+          "bytes": 2293,
+          "rawSha256": "a356c9346903e43f5aff9f629f736e60b2d57d88fc4eaaf00391c198bc0d23e1",
+          "gitBlob": "490d7f7fb8df8884b583377bc0f9fbfe53e87dda"
+        },
+        {
+          "path": "kanji/中.md",
+          "bytes": 1802,
+          "rawSha256": "05b953eb857b08ca8c27e3001f38b926260ee9fdfc8b98ed30c92c49d839536f",
+          "gitBlob": "4aeb74c44b48502e2a57b654fe8f9dea8cad9340"
+        },
+        {
+          "path": "words/奥.md",
+          "bytes": 1621,
+          "rawSha256": "de071890f5bdeeec88dedff959678777071e371289a2aafa8c311a92235723e5",
+          "gitBlob": "43955eee588a78c247a24425d07d036887f56057"
+        }
+      ]
+    },
+    {
+      "pairId": "oku-inner",
+      "candidateId": "奥",
+      "candidateCaption": "дальняя внутренняя часть; глубина",
+      "comparatorId": "内",
+      "comparatorCaption": "внутри; внутренний",
+      "observations": [
+        {
+          "appCommit": "5c000bd",
+          "reportedBy": "User",
+          "pool": "All 80 published N5 cards plus already-started 奥 and 内 borrowed in that order into a short Practice-more pool.",
+          "randomSeed": 51,
+          "target": "奥",
+          "options": [
+            "大",
+            "内",
+            "国",
+            "奥"
+          ],
+          "qualification": "Conditional core-builder co-display only; not a linguistic verdict or device result.",
+          "candidateRawSha256": "4666bfaaf33b980e4be5c79683e35698d3a766fccbb9117396a9df279f0cd816"
+        },
+        {
+          "appCommit": "10d98d0",
+          "reportedBy": "User",
+          "pool": "118 published Starter cards including 内 plus already-started 奥 borrowed.",
+          "randomSeed": 19,
+          "target": "奥",
+          "options": [
+            "短",
+            "大",
+            "内",
+            "奥"
+          ],
+          "qualification": "Conditional core-builder co-display only; not a linguistic verdict or device result.",
+          "boundPoolHasKanjiExclusions": false,
+          "candidateRawSha256": "4666bfaaf33b980e4be5c79683e35698d3a766fccbb9117396a9df279f0cd816"
+        }
+      ],
+      "question": "Against the frozen 奥/内 lessons and 奥 word article, is the proposed depth/distance-from-entrance caption sufficiently distinct from 内’s general interior/within/group senses?",
+      "candidate": {
+        "path": "kanji/奥.md",
+        "bytes": 3745,
+        "rawSha256": "4666bfaaf33b980e4be5c79683e35698d3a766fccbb9117396a9df279f0cd816",
+        "gitBlob": "35c2ca5ef009473b35c80d228e76347085338cd4"
+      },
+      "comparator": {
+        "path": "kanji/内.md",
+        "fullCaption": "внутри; внутренний",
+        "workingTree": {
+          "path": "kanji/内.md",
+          "bytes": 3289,
+          "rawSha256": "7450fda4c4e7ef7c159ed9c5095147c3aa631bfe65775a2be1cc1acd03a16823",
+          "gitBlob": "fa862f0aaccc885a28ecd7316e4f53ae0c6ea951"
+        },
+        "published": {
+          "path": "kanji/内.md",
+          "bytes": 3248,
+          "gitContentSha256": "ee4f29f46ac46776356cf4126625b5002051aa7b3230ee082360412854f88d7b",
+          "gitBlob": "fa862f0aaccc885a28ecd7316e4f53ae0c6ea951"
+        }
+      },
+      "fullCaptions": {
+        "奥": "дальняя внутренняя часть; глубина",
+        "内": "внутри; внутренний"
+      },
+      "frozenSources": [
+        {
+          "path": "kanji/奥.md",
+          "bytes": 2293,
+          "rawSha256": "a356c9346903e43f5aff9f629f736e60b2d57d88fc4eaaf00391c198bc0d23e1",
+          "gitBlob": "490d7f7fb8df8884b583377bc0f9fbfe53e87dda"
+        },
+        {
+          "path": "kanji/内.md",
+          "bytes": 1757,
+          "rawSha256": "dd05677ab1f68115476cb0fecbbb28a3ba7816147b00b3b757f067951fba4579",
+          "gitBlob": "e51f2c7144904337982e051cad57766be883bb25"
+        },
+        {
+          "path": "words/奥.md",
+          "bytes": 1621,
+          "rawSha256": "de071890f5bdeeec88dedff959678777071e371289a2aafa8c311a92235723e5",
+          "gitBlob": "43955eee588a78c247a24425d07d036887f56057"
+        }
+      ]
+    },
+    {
+      "pairId": "iki-ku",
+      "candidateId": "域",
+      "candidateCaption": "область; пределы",
+      "comparatorId": "区",
+      "comparatorCaption": "округ; район",
+      "observations": [
+        {
+          "appCommit": "5c000bd",
+          "reportedBy": "User",
+          "pool": "All 80 published N5 cards plus already-started 域 and 区 borrowed in that order into a short Practice-more pool.",
+          "randomSeed": 0,
+          "target": "域",
+          "options": [
+            "上",
+            "区",
+            "話",
+            "域"
+          ],
+          "qualification": "Conditional core-builder co-display only; not a linguistic verdict or device result."
+        },
+        {
+          "appCommit": "10d98d0",
+          "reportedBy": "User",
+          "pool": "All 118 published Starter cards plus already-started 域 and 区 borrowed in that order into a short session.",
+          "randomSeed": 0,
+          "target": "域",
+          "options": [
+            "短",
+            "区",
+            "供",
+            "域"
+          ],
+          "qualification": "Conditional core-builder co-display only; not a linguistic verdict or device result.",
+          "boundPoolHasKanjiExclusions": false
+        }
+      ],
+      "question": "In 地域/区域 context, are the complete captions genuinely ambiguous, or meaningfully distinguished by the source-supported region/range vs ward/district senses? Co-display does not establish interchangeability.",
+      "candidate": {
+        "path": "kanji/域.md",
+        "bytes": 2353,
+        "rawSha256": "b0407a69810d9f223301c583a0b0b63e08f4ba49a42ea651b7af56a6d722da6e",
+        "gitBlob": "18b48f1bd8739f8c529fabfe729bed5b68dc77bf"
+      },
+      "comparator": {
+        "path": "kanji/区.md",
+        "fullCaption": "округ; район",
+        "workingTree": {
+          "path": "kanji/区.md",
+          "bytes": 3625,
+          "rawSha256": "f78efcbc62181bd3a197284b592b1d1157d470c4cf7864726d95d1a8ebbdbff7",
+          "gitBlob": "13c7dc2016608d42631be2067c0f7e60a387eb89"
+        },
+        "published": {
+          "path": "kanji/区.md",
+          "bytes": 3625,
+          "gitContentSha256": "f78efcbc62181bd3a197284b592b1d1157d470c4cf7864726d95d1a8ebbdbff7",
+          "gitBlob": "13c7dc2016608d42631be2067c0f7e60a387eb89"
+        }
+      },
+      "fullCaptions": {
+        "域": "область; пределы",
+        "区": "округ; район"
+      },
+      "frozenSources": [
+        {
+          "path": "kanji/域.md",
+          "bytes": 1597,
+          "rawSha256": "f6476a2593d56e55f54b479c59b71b5063a034842623f528d800d76bf35d131f",
+          "gitBlob": "e9ca420871c1b2fd9d1f5b512bdd0f67319482e2"
+        },
+        {
+          "path": "kanji/区.md",
+          "bytes": 2467,
+          "rawSha256": "d2936e26cbb61b78222ab90f8f053cee801a18109fa5b737e87386e5426c891b",
+          "gitBlob": "01a1a389787f241f2cce02965c9a907c22e27f82"
+        },
+        {
+          "path": "words/地域.md",
+          "bytes": 1934,
+          "rawSha256": "d343e9578c4972a350a85451c9a7294f233cb9cfbf77c31dc2f59fc7bf1ef928",
+          "gitBlob": "ab003b6426d4559a2230ca4e00e24570746d266e"
+        },
+        {
+          "path": "words/区域.md",
+          "bytes": 2007,
+          "rawSha256": "6f0f46885d8377214cbfba3b749978d213d86974d2245872896a0d2822262c44",
+          "gitBlob": "f443864e6084e564a5b8a845858ee72d5ddb2ce6"
+        }
+      ]
+    },
+    {
+      "pairId": "iki-limit",
+      "candidateId": "域",
+      "candidateCaption": "область; пределы",
+      "comparatorId": "限",
+      "comparatorCaption": "предел; ограничивать",
+      "observations": [
+        {
+          "appCommit": "5c000bd",
+          "reportedBy": "User",
+          "pool": "All 80 published N5 cards plus already-started 域 and 限 borrowed in that order into a short Practice-more pool.",
+          "randomSeed": 0,
+          "target": "域",
+          "options": [
+            "上",
+            "限",
+            "話",
+            "域"
+          ],
+          "qualification": "Conditional core-builder co-display only; not a linguistic verdict or device result."
+        },
+        {
+          "appCommit": "10d98d0",
+          "reportedBy": "User",
+          "pool": "All 118 published Starter cards plus already-started 域 and 限 borrowed in that order into a short session.",
+          "randomSeed": 0,
+          "target": "域",
+          "options": [
+            "短",
+            "供",
+            "限",
+            "域"
+          ],
+          "qualification": "Conditional core-builder co-display only; not a linguistic verdict or device result.",
+          "boundPoolHasKanjiExclusions": false
+        }
+      ],
+      "question": "Do 域’s area/region/range senses remain meaningfully distinct from 限’s limit/boundary senses in the complete captions and examples, despite shared Russian «предел» wording?",
+      "candidate": {
+        "path": "kanji/域.md",
+        "bytes": 2353,
+        "rawSha256": "b0407a69810d9f223301c583a0b0b63e08f4ba49a42ea651b7af56a6d722da6e",
+        "gitBlob": "18b48f1bd8739f8c529fabfe729bed5b68dc77bf"
+      },
+      "comparator": {
+        "path": "kanji/限.md",
+        "fullCaption": "предел; ограничивать",
+        "workingTree": {
+          "path": "kanji/限.md",
+          "bytes": 2593,
+          "rawSha256": "30706f6ff1a0f352ee6b206dd11cf485ede5305b9657c43c1af411581dc09d8e",
+          "gitBlob": "3bf538e99bc61afe3e733cc608979f9418b109c8"
+        },
+        "published": {
+          "path": "kanji/限.md",
+          "bytes": 2593,
+          "gitContentSha256": "30706f6ff1a0f352ee6b206dd11cf485ede5305b9657c43c1af411581dc09d8e",
+          "gitBlob": "3bf538e99bc61afe3e733cc608979f9418b109c8"
+        }
+      },
+      "fullCaptions": {
+        "域": "область; пределы",
+        "限": "предел; ограничивать"
+      },
+      "frozenSources": [
+        {
+          "path": "kanji/域.md",
+          "bytes": 1597,
+          "rawSha256": "f6476a2593d56e55f54b479c59b71b5063a034842623f528d800d76bf35d131f",
+          "gitBlob": "e9ca420871c1b2fd9d1f5b512bdd0f67319482e2"
+        },
+        {
+          "path": "kanji/限.md",
+          "bytes": 1726,
+          "rawSha256": "6ae129471966d9d1516fdb7e9e412cd4082417bac03fbaa949ec608c75f901d7",
+          "gitBlob": "518a60432a3f6a732698c9eeae292886bd9d9def"
+        },
+        {
+          "path": "words/区域.md",
+          "bytes": 2007,
+          "rawSha256": "6f0f46885d8377214cbfba3b749978d213d86974d2245872896a0d2822262c44",
+          "gitBlob": "f443864e6084e564a5b8a845858ee72d5ddb2ce6"
+        },
+        {
+          "path": "words/限界.md",
+          "bytes": 1953,
+          "rawSha256": "c3f081fd42f78419ead2ba744588c2f03b37856514a5de9c9a84a96f3623056d",
+          "gitBlob": "58692413569be328d4af54b63f6a1965a9337ab6"
+        }
+      ]
+    },
+    {
+      "pairId": "to-brush",
+      "candidateId": "塗",
+      "candidateCaption": "красить; покрывать",
+      "comparatorId": "刷",
+      "comparatorCaption": "печатать; наносить кистью",
+      "observations": [
+        {
+          "appCommit": "5c000bd",
+          "reportedBy": "User",
+          "pool": "All 80 published N5 cards plus already-started 塗 and 刷 borrowed in that order into a short Practice-more pool.",
+          "randomSeed": 0,
+          "target": "塗",
+          "options": [
+            "上",
+            "刷",
+            "話",
+            "塗"
+          ],
+          "qualification": "Conditional core-builder co-display only; not a linguistic verdict or device result."
+        },
+        {
+          "appCommit": "10d98d0",
+          "reportedBy": "User",
+          "pool": "All 118 published Starter cards plus already-started 塗 and 刷 borrowed in that order into a short session.",
+          "randomSeed": 0,
+          "target": "塗",
+          "options": [
+            "千",
+            "刷",
+            "短",
+            "塗"
+          ],
+          "qualification": "Conditional core-builder co-display only; not a linguistic verdict or device result.",
+          "boundPoolHasKanjiExclusions": false
+        }
+      ],
+      "question": "Against both frozen lessons, including 刷く’s supported light brush-application sense, are «красить; покрывать» and «печатать; наносить кистью» sufficiently distinguished?",
+      "candidate": {
+        "path": "kanji/塗.md",
+        "bytes": 3177,
+        "rawSha256": "ec5cd53ab7211f52da2ca3e7f4bb9d7eef2a4d1835b5aa4ae84a2162e99b000e",
+        "gitBlob": "3f2a170ce1397c40d621a361f9a1d34133e85d84"
+      },
+      "comparator": {
+        "path": "kanji/刷.md",
+        "fullCaption": "печатать; наносить кистью",
+        "workingTree": {
+          "path": "kanji/刷.md",
+          "bytes": 3180,
+          "rawSha256": "909a756114bfedebcd72d84e221f8633a59bf3b2745dd1d6d37add0697d9b339",
+          "gitBlob": "728908ea04f98325b29670e1345213b5a994bb14"
+        },
+        "published": {
+          "path": "kanji/刷.md",
+          "bytes": 3180,
+          "gitContentSha256": "909a756114bfedebcd72d84e221f8633a59bf3b2745dd1d6d37add0697d9b339",
+          "gitBlob": "728908ea04f98325b29670e1345213b5a994bb14"
+        }
+      },
+      "fullCaptions": {
+        "塗": "красить; покрывать",
+        "刷": "печатать; наносить кистью"
+      },
+      "frozenSources": [
+        {
+          "path": "kanji/塗.md",
+          "bytes": 2005,
+          "rawSha256": "9253bbcd555fbea6d37c066ad9e51bf09b013c6ad36a0a37f842b799d734722e",
+          "gitBlob": "ac2824902521c77dab5ce120be2b600498e92262"
+        },
+        {
+          "path": "kanji/刷.md",
+          "bytes": 2343,
+          "rawSha256": "dc9be26d37360e20ec28ba475c8014a74c023ca6206702d5b27378d619db9041",
+          "gitBlob": "aa9a2807679584b28a8cb356b10daed712152725"
+        },
+        {
+          "path": "words/塗る.md",
+          "bytes": 1567,
+          "rawSha256": "c7b272f7739d8727e8869de5fb63701062abc00a62243664e8fbd137f1a5dad5",
+          "gitBlob": "1f05fb4c922314a65a12c225b4ddc5a85a7de033"
+        },
+        {
+          "path": "words/刷る.md",
+          "bytes": 1829,
+          "rawSha256": "401e4f9ef6f704146fda01879d3e2cb5a333f2d0a79b8fcb320e0c1283969cd7",
+          "gitBlob": "2abb194e25520794640c59c72bc3a287a784dfb3"
+        }
+      ]
+    }
+  ],
+  "dependentRuntimeContext": {
+    "path": "kanji/城.md",
+    "bytes": 2710,
+    "rawSha256": "642f9f8670853e47c1c78032e6977c720dd0f1e9e9ab6d20597443f6b2141df7",
+    "gitBlob": "b8e39fdb085aa29cb50e9adff0d6896cb902ee60",
+    "域DistractorAndLink": "城 has distractors [成, 域, 戦] and a lesson link [域](域.md). If 域 is held, both references need reconciliation and the actual final candidate must be rebound.",
+    "wordBacklinkChanges": [
+      {
+        "path": "words/塗る.md",
+        "current": {
+          "path": "words/塗る.md",
+          "bytes": 2551,
+          "rawSha256": "e1ccfd9178cfd5e04630e5c4469a78d8b61e5db7d43397261aa8e3ec28df36a3",
+          "gitBlob": "a3c7e0827c9e4193a3af29eb4d4caf0b42fdcffe"
+        },
+        "priorPublished": {
+          "gitContentSha256": "a4b806b4e58ab414c558e6cbfe020c0e53e4fdab71029bb3dec38cce3c17496c",
+          "gitBlob": "618802d961e207fe137e8ad93b2d5d27917b7b92"
+        },
+        "onlyChange": "One existing sentence adds a relative link to the corresponding new kanji page."
+      },
+      {
+        "path": "words/奥さん.md",
+        "current": {
+          "path": "words/奥さん.md",
+          "bytes": 2248,
+          "rawSha256": "d1163a6e2bf4163d91cccee910e56ba6209f67439f6e2aa1cb6494d40e223307",
+          "gitBlob": "7de1d80c1c16a14c3c66aa171732dde5456408b9"
+        },
+        "priorPublished": {
+          "gitContentSha256": "d5329a47f958cce287f68152201ce1fe47c19089cc4f8ec907b551db43ec76aa",
+          "gitBlob": "9a7d9dc77f0e6e5574f30e1b4e47bccd35f14630"
+        },
+        "onlyChange": "One existing sentence adds a relative link to the corresponding new kanji page."
+      }
+    ],
+    "heldDisposition": "If 塗 or 奥 is held, remove only its newly added backlink in the corresponding existing word page; do not remove baseline Japanese content. If 域 is held, reconcile both 城’s link and its 域 distractor; keep at least two valid distinct distractors and rebind the actual final candidate."
+  },
+  "reviewInstructions": "Return exactly five separate verdicts: 奥/中, 奥/内, 域/区, 域/限, and 塗/刷. Each verdict must assess the full captions against the exact candidate, comparator, and frozen-source hashes listed. Co-display outputs are conditional core-builder observations, not semantic verdicts, device results, frequency estimates, or general fallback-safety evidence. Do not edit/create files or run commands that write. If a candidate is not independently cleared, it remains held; do not infer general fallback safety. Any dependent link/distractor changes must be authored and rebound separately before runtime validation."
+}

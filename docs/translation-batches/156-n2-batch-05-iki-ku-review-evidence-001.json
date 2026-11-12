@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "batchId": "156-n2-batch-05-kanji",
+  "repository": "stop-cran/learning-japanese-ru",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "status": "Pair-specific lead; linguistic verdict pending.",
+  "candidate": {
+    "path": "kanji/域.md",
+    "bytes": 2353,
+    "rawSha256": "b0407a69810d9f223301c583a0b0b63e08f4ba49a42ea651b7af56a6d722da6e",
+    "gitBlob": "18b48f1bd8739f8c529fabfe729bed5b68dc77bf"
+  },
+  "comparator": {
+    "path": "kanji/区.md",
+    "fullCaption": "округ; район",
+    "workingTree": {
+      "path": "kanji/区.md",
+      "bytes": 3625,
+      "rawSha256": "f78efcbc62181bd3a197284b592b1d1157d470c4cf7864726d95d1a8ebbdbff7",
+      "gitBlob": "13c7dc2016608d42631be2067c0f7e60a387eb89"
+    },
+    "publishedGitContentSha256": "f78efcbc62181bd3a197284b592b1d1157d470c4cf7864726d95d1a8ebbdbff7",
+    "publishedGitBlob": "13c7dc2016608d42631be2067c0f7e60a387eb89"
+  },
+  "fullCaptions": {
+    "域": "область; пределы",
+    "区": "округ; район"
+  },
+  "frozenSources": [
+    {
+      "path": "kanji/域.md",
+      "bytes": 1597,
+      "rawSha256": "f6476a2593d56e55f54b479c59b71b5063a034842623f528d800d76bf35d131f",
+      "gitBlob": "e9ca420871c1b2fd9d1f5b512bdd0f67319482e2"
+    },
+    {
+      "path": "kanji/区.md",
+      "bytes": 2467,
+      "rawSha256": "d2936e26cbb61b78222ab90f8f053cee801a18109fa5b737e87386e5426c891b",
+      "gitBlob": "01a1a389787f241f2cce02965c9a907c22e27f82"
+    },
+    {
+      "path": "words/地域.md",
+      "bytes": 1934,
+      "rawSha256": "d343e9578c4972a350a85451c9a7294f233cb9cfbf77c31dc2f59fc7bf1ef928",
+      "gitBlob": "ab003b6426d4559a2230ca4e00e24570746d266e"
+    },
+    {
+      "path": "words/区域.md",
+      "bytes": 2007,
+      "rawSha256": "6f0f46885d8377214cbfba3b749978d213d86974d2245872896a0d2822262c44",
+      "gitBlob": "f443864e6084e564a5b8a845858ee72d5ddb2ce6"
+    }
+  ],
+  "coDisplayObservations": [
+    {
+      "appCommit": "5c000bd",
+      "reportedBy": "User",
+      "pool": "All 80 published N5 cards plus already-started 域 and 区 borrowed in that order.",
+      "randomSeed": 0,
+      "target": "域",
+      "options": [
+        "上",
+        "区",
+        "話",
+        "域"
+      ],
+      "candidateRawSha256": "b0407a69810d9f223301c583a0b0b63e08f4ba49a42ea651b7af56a6d722da6e",
+      "qualification": "Conditional core-builder co-display only; not semantic interchangeability or an Android-device run."
+    },
+    {
+      "appCommit": "10d98d0",
+      "reportedBy": "User",
+      "pool": "All 118 published Starter cards plus already-started 域 and 区 borrowed in that order.",
+      "randomSeed": 0,
+      "target": "域",
+      "options": [
+        "短",
+        "区",
+        "供",
+        "域"
+      ],
+      "boundPoolHasKanjiExclusions": false,
+      "qualification": "Conditional current-main core-builder co-display only; not a linguistic verdict or device result."
+    }
+  ],
+  "sourceContext": "The frozen 域 lesson glosses 地域 as area/region and 区域 as area/zone; the frozen 区 lesson also gives 区域 as area/zone. The Russian 域 card glosses 地域 «район; регион»; both Russian lessons describe areas and cite 区域. This context is evidence for review, not a conclusion that the cards are interchangeable.",
+  "dependentRuntimeContext": {
+    "file": {
+      "path": "kanji/城.md",
+      "bytes": 2710,
+      "rawSha256": "642f9f8670853e47c1c78032e6977c720dd0f1e9e9ab6d20597443f6b2141df7",
+      "gitBlob": "b8e39fdb085aa29cb50e9adff0d6896cb902ee60"
+    },
+    "observedText": "distractors: [成, 域, 戦]; the note links to [域](域.md).",
+    "qualification": "If 域 is held, both the link and direct distractor reference must be reconciled before runtime validation; the actual edited state must be rebound."
+  },
+  "reviewQuestion": "Assess whether the complete captions «область; пределы» and «округ; район» are genuinely ambiguous in the given co-display and frozen lexical context, or meaningfully distinguished by the source-supported difference between 域 and 区. Do not equate co-display with semantic interchangeability."
+}

@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "batchId": "156-n2-batch-05-kanji",
+  "amendment": "runtime-split-amendment-001",
+  "recordedAt": "2026-11-12",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "candidateBase": "dc621b31058ed65361acfec029f44ad57f2657f6",
+  "runtimeDisposition": {
+    "activeKanji": [
+      "固",
+      "圧",
+      "坂",
+      "均",
+      "型",
+      "埋",
+      "城",
+      "域",
+      "塔",
+      "塗",
+      "塩",
+      "奥",
+      "姓"
+    ],
+    "activeStrokeAssets": 13,
+    "heldOutKanji": [
+      "央",
+      "境"
+    ],
+    "heldOutStrokeAssets": [
+      "央",
+      "境"
+    ],
+    "runtimeDelta": {
+      "newKanjiLessons": 13,
+      "newStrokeAssets": 13,
+      "newRuntimeRegistrations": 26,
+      "navigationOnlyExistingWordPages": 6,
+      "removedRegistrationsFromPrior15CardCandidate": 4,
+      "directDistractorDirections": 39,
+      "directDistractorStatus": "UNVERIFIED",
+      "fallbackSafety": "UNVERIFIED; no transitive closure or general safety claim"
+    }
+  },
+  "heldOutDrafts": [
+    {
+      "character": "央",
+      "runtimeStatus": "blocked; retained as reviewed non-runtime draft",
+      "lessonPath": "docs/translation-drafts/156-n2-batch-05/kanji/央.md",
+      "lessonRawSha256": "d103073f411ae93b76d4a11cf018d8d07e8fdb7a1b18bc658a0c7ef91e7e88b0",
+      "frozenSourceRawSha256": "6790b0c64bca5f3fb8d50b75a17567ae0da3996a4045fe60771d5e15bd2a97d5",
+      "strokePath": "docs/translation-drafts/156-n2-batch-05/strokes/央.json",
+      "strokeRawSha256": "f7fbd9866b797b390f8de9a3fd0317b8d6ecfe59decdaa99b035479507492b56",
+      "caption": "центр; середина",
+      "comparator": {
+        "character": "中",
+        "title": "середина; внутри",
+        "rawSha256": "b5fbee68cb20fcd99799db129345b3cf743236a9336370a58900da048bd01942"
+      },
+      "legacyReproduction": {
+        "appCommit": "5c000bd",
+        "setup": "All 80 published N5 cards plus already-started 央 borrowed into a short N5 Practice-more queue.",
+        "builder": "Pinned QuizBuilder using Kotlin Random(85), count 4.",
+        "options": [
+          "中",
+          "央",
+          "大",
+          "金"
+        ],
+        "qualification": "Coordinator-reported core-builder reproduction only; not a device run, frequency estimate, or proof of linguistic safety."
+      },
+      "focusedCaptionReview": {
+        "reviewerSession": "4ce8ae6a-a303-48c7-af08-e23193b5f7d3 (archived)",
+        "verdict": "Retain the faithful captions. Their central/middle senses genuinely overlap; the proposed «центр; центральная часть» was withdrawn as a near-synonym substitution that does not establish a reliable semantic contrast.",
+        "hashesVerified": {
+          "candidate": "d103073f411ae93b76d4a11cf018d8d07e8fdb7a1b18bc658a0c7ef91e7e88b0",
+          "comparator": "b5fbee68cb20fcd99799db129345b3cf743236a9336370a58900da048bd01942",
+          "frozenSource": "6790b0c64bca5f3fb8d50b75a17567ae0da3996a4045fe60771d5e15bd2a97d5"
+        },
+        "limits": "Caption assessment only; no native-speaker certification, current-main co-display claim, or universal fallback-safety claim."
+      },
+      "currentMainBoundedCheck": {
+        "appCommits": [
+          "2edbf36",
+          "10d98d0"
+        ],
+        "finding": "The reported complete cumulative N2/N1/All pools include all three curated distractors for both cards. In Starter, higher-ranked choices preempt this pair in the reported complete corpus; no 中 appeared in 10,000 seeds.",
+        "qualification": "Bounded to the reported current-main corpus and selection behavior; not a guarantee under missing or changed content and does not protect the older 5c000bd build."
+      }
+    },
+    {
+      "character": "境",
+      "runtimeStatus": "blocked pending separate pair-specific resolution; retained as reviewed non-runtime draft",
+      "lessonPath": "docs/translation-drafts/156-n2-batch-05/kanji/境.md",
+      "lessonRawSha256": "2475c83f00eab9bebcfc06ade2ad06ad44805efb3e7018f3843ca2c29e7affa9",
+      "frozenSourceRawSha256": "125d5d49a353ea55b50575d772339db7b912fdb6addecf5b712696618703acb1",
+      "strokePath": "docs/translation-drafts/156-n2-batch-05/strokes/境.json",
+      "strokeRawSha256": "88dfe5ef99daae8f156cbbea4c488a4e5b1cb4730fc435025c6f4be771c3f229",
+      "caption": "граница; рубеж",
+      "comparator": {
+        "character": "界",
+        "title": "мир; граница",
+        "gitContentSha256": "3c98782c28d0e07da96d07445ff4bf5d2d09fb030420308587ca4466fc9bfbc5"
+      },
+      "legacyReproduction": {
+        "appCommit": "5c000bd",
+        "setup": "All 80 published N5 cards plus already-started 境 and 界 borrowed in that order into a short N5 session.",
+        "builder": "Pinned QuizBuilder using Kotlin Random(0), count 4, target 境.",
+        "options": [
+          "上",
+          "界",
+          "話",
+          "境"
+        ],
+        "qualification": "Conditional core-builder reproduction; not a device run, frequency estimate, or independent linguistic assessment of the pair."
+      },
+      "currentMainReproduction": {
+        "appCommit": "10d98d0",
+        "builderBlob": "47ce071b68abb132e3df427ca54b0c83eebcec2a",
+        "compiledClassSha256": "418a71c4d0f7ac01bd9c7a840e307ecd834e3aae115bfd5f6c4af57d25e5dad9",
+        "setup": "All 118 published Starter cards plus already-started 境 and 界 borrowed in that order into a short Starter session.",
+        "builder": "Freshly compiled current QuizBuilder using Kotlin Random(0).",
+        "optionsWithoutExclusion": [
+          "千",
+          "界",
+          "短",
+          "境"
+        ],
+        "syntheticTestOnly": {
+          "directExclusion": "境→界",
+          "options": [
+            "食",
+            "短",
+            "千",
+            "境"
+          ],
+          "qualification": "The exclusion was synthetic in the test only; no exclusion was written to the repository."
+        },
+        "qualification": "Conditional core-builder reproduction under the stated borrowed-card preconditions; not a device run, frequency estimate, or independent linguistic assessment."
+      },
+      "pairAssessment": "No faithful, independently reviewed resolution is established. Keep 境 out of runtime rather than changing a source-faithful caption or claiming the overlap is safe."
+    }
+  ],
+  "legacyCompatibility": {
+    "deliveredApk": "Prior session checkpoint 222 records that the requested phone APK was built from app commit 5c000bd and its MTP copy to Download was verified. Installation was not verified.",
+    "currentAppDifference": "The newer app has direct kanji quiz exclusions and no JLPT-stack padding for JLPT stacks, but a separate current-main Starter test reproduces 境/界 co-display when both are borrowed. The older 5c000bd app does not receive the newer direct-exclusion behavior.",
+    "activationBoundary": "The newer validator/schema work does not protect the delivered older build and does not authorize either held card."
+  },
+  "narrowTitleScan": "The reported 15-card snapshot had no exact shared semicolon-separated title segments within the batch. A modeled old-app full-stack/padding scan found only these two exact-segment new-versus-published leads. This is a narrow mechanical scan, not semantic safety or a guarantee about other content.",
+  "disposition": "The two lessons and byte-identical stroke assets are preserved under docs and excluded from the runtime manifest. The 13-card remainder may proceed through rebound review and validation. Do not describe the original 15-card batch, either held card, or broad fallback safety as accepted.",
+  "reviewHistory": {
+    "initial15CardTranslationReview": {
+      "scope": "docs/translation-batches/156-n2-batch-05-review-scope-001.json",
+      "scopeRawSha256": "4e37770e9e53d8094cdd0e1fba327be4db170499f3eabe2b3948a3511c8740c8",
+      "report": "docs/translation-batches/156-n2-batch-05-independent-review-001.md",
+      "reportRawSha256": "0b99693d79cd172b4e0330e0bea2b6e61f9350602fc403ec66db4259126109da",
+      "verdict": "PASS for the original 15-card translation candidate. This report is bound to scope 001 and does not cover the later 型 title amendment."
+    },
+    "focusedTypeCaptionFollowup": {
+      "scope": "docs/translation-batches/156-n2-batch-05-review-scope-002.json",
+      "scopeRawSha256": "8897b6865310649bd28d720c70f164382a878b53392c8a7a99ed4df5baaef06f",
+      "report": "docs/translation-batches/156-n2-batch-05-semantic-review-followup-001.md",
+      "reportRawSha256": "ff34a52f337a7e23062a978055977a6a25ffbc437e9bdda9c962d7e938929070",
+      "verdict": "PASS for the clarified 型 caption in the specified co-display comparison only; scope 002 was covered for this change by the focused follow-up, not by the original batch report."
+    }
+  },
+  "remainderClosure": {
+    "activeKanji": [
+      "固",
+      "圧",
+      "坂",
+      "均",
+      "型",
+      "埋",
+      "城",
+      "域",
+      "塔",
+      "塗",
+      "塩",
+      "奥",
+      "姓"
+    ],
+    "heldOutKanji": [
+      "央",
+      "境"
+    ],
+    "candidateReferencesToHeld": {
+      "lessonLinks": [],
+      "curatedDistractors": [],
+      "existingWordBacklinks": [],
+      "verification": "Rechecked the 13 active runtime lessons and six current word-backlink pages, plus frozen-source lesson links and all 39 active curated distractor directions."
+    },
+    "sourceLinkTargets": {
+      "uniqueCount": 34,
+      "existingAtPublishedBaseline": 14,
+      "intraBatch": 2,
+      "missingAtPublishedBaseline": 18,
+      "qualification": "Unavailable frozen-source links remain unwrapped in candidate text; link-closure counts do not claim those source targets exist."
+    },
+    "manifestDeltaFromPublishedBase": {
+      "newRegistrations": 26,
+      "changedExistingHashes": 6,
+      "removedRegistrations": 0,
+      "unrelatedHashChanges": 0
+    },
+    "manifestQualification": "Recomputed against published base dc621b31058ed65361acfec029f44ad57f2657f6; 13 lesson and 13 stroke registrations are present and both held lesson/stroke pairs are absent."
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "kind": "focused-independent-semantic-pair-review",
+  "batchId": "156-n2-batch-05-kanji",
+  "repository": "stop-cran/learning-japanese-ru",
+  "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "candidateBase": "dc621b31058ed65361acfec029f44ad57f2657f6",
+  "recordedAt": "2026-11-12",
+  "status": "Two pair-specific verdicts pending; candidates remain unaccepted and publication is paused.",
+  "supersedesUnlaunchedOkuScope": {
+    "path": "docs/translation-batches/156-n2-batch-05-奥-caption-review-scope-001.json",
+    "rawSha256": "96cd574c91f4355e193a767df3313f6ea890b8a320688f72b86132e272129f1c"
+  },
+  "invalidatedRuntimeScope": {
+    "path": "docs/translation-batches/156-n2-batch-05-review-scope-003.json",
+    "rawSha256": "e8b30832b8c9c02ebff101bdffb0b8b2103167f3c14e15fb7401cf82b61e8ccc",
+    "reason": "Invalidated by subsequent user-reported 奥/中 and 域/区 co-display leads; no verdict was issued."
+  },
+  "pairs": [
+    {
+      "pairId": "oku-middle",
+      "candidate": {
+        "path": "kanji/奥.md",
+        "bytes": 3745,
+        "rawSha256": "4666bfaaf33b980e4be5c79683e35698d3a766fccbb9117396a9df279f0cd816",
+        "gitBlob": "35c2ca5ef009473b35c80d228e76347085338cd4"
+      },
+      "comparator": {
+        "path": "kanji/中.md",
+        "title": "середина; внутри",
+        "workingTree": {
+          "path": "kanji/中.md",
+          "bytes": 3667,
+          "rawSha256": "b5fbee68cb20fcd99799db129345b3cf743236a9336370a58900da048bd01942",
+          "gitBlob": "8c67cba944ff1647fbab7ec92fa09fb8f1563a4a"
+        },
+        "publishedGitContentSha256": "d1d1c845567d21a26c7a06096cade000d2b879da1b0116b20b8b35c87ee5b330",
+        "publishedGitBlob": "8c67cba944ff1647fbab7ec92fa09fb8f1563a4a"
+      },
+      "frozenSources": [
+        {
+          "path": "kanji/奥.md",
+          "bytes": 2293,
+          "rawSha256": "a356c9346903e43f5aff9f629f736e60b2d57d88fc4eaaf00391c198bc0d23e1",
+          "gitBlob": "490d7f7fb8df8884b583377bc0f9fbfe53e87dda"
+        },
+        {
+          "path": "kanji/中.md",
+          "bytes": 1802,
+          "rawSha256": "05b953eb857b08ca8c27e3001f38b926260ee9fdfc8b98ed30c92c49d839536f",
+          "gitBlob": "4aeb74c44b48502e2a57b654fe8f9dea8cad9340"
+        },
+        {
+          "path": "words/奥.md",
+          "bytes": 1621,
+          "rawSha256": "de071890f5bdeeec88dedff959678777071e371289a2aafa8c311a92235723e5",
+          "gitBlob": "43955eee588a78c247a24425d07d036887f56057"
+        }
+      ],
+      "captionAmendment": {
+        "path": "docs/translation-batches/156-n2-batch-05-copy-edit-amendment-002.json",
+        "bytes": 4073,
+        "rawSha256": "071fcc7c702f726dd0ac688fa948377f30c80e27f0c4cafa07e8804d9733aaa0",
+        "gitBlob": "5761f3948962dca87449983053e784684a0d715b"
+      },
+      "reproductions": {
+        "reportedBy": "User",
+        "legacyCompatibility": {
+          "appCommit": "5c000bd",
+          "setup": "All 80 published N5 cards plus already-started 奥 borrowed into a short Practice-more pool.",
+          "randomSeed": 85,
+          "options": [
+            "中",
+            "奥",
+            "大",
+            "金"
+          ],
+          "candidateRawSha256BeforeEdit": "f6752c7814a49d398222bc1c01bba28645a0907310132e42ef38a0733690a363",
+          "qualification": "Conditional core-builder reproduction only; not a device result or linguistic verdict."
+        },
+        "currentMainCompatibility": {
+          "appCommit": "10d98d0",
+          "setup": "118 published Starter cards plus already-started 奥 borrowed into a short session.",
+          "randomSeed": 95,
+          "options": [
+            "奥",
+            "大",
+            "中",
+            "短"
+          ],
+          "boundStarterPoolAndCandidateDeclareNoKanjiExclusions": true,
+          "sourceSha256Prefix": "c3208d21…",
+          "compiledClassSha256": "418a71c4d0f7ac01bd9c7a840e307ecd834e3aae115bfd5f6c4af57d25e5dad9",
+          "qualification": "Conditional core-builder reproduction only; not a device result, frequency estimate, or semantic verdict."
+        }
+      },
+      "fullCaptions": {
+        "奥": "дальняя внутренняя часть; глубина",
+        "中": "середина; внутри"
+      },
+      "reviewQuestion": "Assess both complete captions against the frozen lessons in the reproduced co-display context. Is «дальняя внутренняя часть; глубина» faithful and sufficiently distinct from 中 «середина; внутри», without overstating 奥 as an absolute farthest endpoint?"
+    },
+    {
+      "pairId": "iki-ku",
+      "candidate": {
+        "path": "kanji/域.md",
+        "bytes": 2353,
+        "rawSha256": "b0407a69810d9f223301c583a0b0b63e08f4ba49a42ea651b7af56a6d722da6e",
+        "gitBlob": "18b48f1bd8739f8c529fabfe729bed5b68dc77bf"
+      },
+      "comparator": {
+        "path": "kanji/区.md",
+        "fullCaption": "округ; район",
+        "workingTree": {
+          "path": "kanji/区.md",
+          "bytes": 3625,
+          "rawSha256": "f78efcbc62181bd3a197284b592b1d1157d470c4cf7864726d95d1a8ebbdbff7",
+          "gitBlob": "13c7dc2016608d42631be2067c0f7e60a387eb89"
+        },
+        "publishedGitContentSha256": "f78efcbc62181bd3a197284b592b1d1157d470c4cf7864726d95d1a8ebbdbff7",
+        "publishedGitBlob": "13c7dc2016608d42631be2067c0f7e60a387eb89"
+      },
+      "frozenSources": [
+        {
+          "path": "kanji/域.md",
+          "bytes": 1597,
+          "rawSha256": "f6476a2593d56e55f54b479c59b71b5063a034842623f528d800d76bf35d131f",
+          "gitBlob": "e9ca420871c1b2fd9d1f5b512bdd0f67319482e2"
+        },
+        {
+          "path": "kanji/区.md",
+          "bytes": 2467,
+          "rawSha256": "d2936e26cbb61b78222ab90f8f053cee801a18109fa5b737e87386e5426c891b",
+          "gitBlob": "01a1a389787f241f2cce02965c9a907c22e27f82"
+        },
+        {
+          "path": "words/地域.md",
+          "bytes": 1934,
+          "rawSha256": "d343e9578c4972a350a85451c9a7294f233cb9cfbf77c31dc2f59fc7bf1ef928",
+          "gitBlob": "ab003b6426d4559a2230ca4e00e24570746d266e"
+        },
+        {
+          "path": "words/区域.md",
+          "bytes": 2007,
+          "rawSha256": "6f0f46885d8377214cbfba3b749978d213d86974d2245872896a0d2822262c44",
+          "gitBlob": "f443864e6084e564a5b8a845858ee72d5ddb2ce6"
+        }
+      ],
+      "evidence": {
+        "path": "docs/translation-batches/156-n2-batch-05-iki-ku-review-evidence-001.json",
+        "bytes": 4178,
+        "rawSha256": "e7bc5b292986499d148c8151118a14d1b4939b5c50eadbe0299208aa5ee6168c",
+        "gitBlob": "7d77c23e91de58d3d996f86b3d66664019adc037"
+      },
+      "fullCaptions": {
+        "域": "область; пределы",
+        "区": "округ; район"
+      },
+      "reproductions": [
+        {
+          "appCommit": "5c000bd",
+          "reportedBy": "User",
+          "pool": "All 80 published N5 cards plus already-started 域 and 区 borrowed in that order.",
+          "randomSeed": 0,
+          "target": "域",
+          "options": [
+            "上",
+            "区",
+            "話",
+            "域"
+          ],
+          "candidateRawSha256": "b0407a69810d9f223301c583a0b0b63e08f4ba49a42ea651b7af56a6d722da6e",
+          "qualification": "Conditional core-builder co-display only; not semantic interchangeability or an Android-device run."
+        },
+        {
+          "appCommit": "10d98d0",
+          "reportedBy": "User",
+          "pool": "All 118 published Starter cards plus already-started 域 and 区 borrowed in that order.",
+          "randomSeed": 0,
+          "target": "域",
+          "options": [
+            "短",
+            "区",
+            "供",
+            "域"
+          ],
+          "boundPoolHasKanjiExclusions": false,
+          "qualification": "Conditional current-main core-builder co-display only; not a linguistic verdict or device result."
+        }
+      ],
+      "reviewQuestion": "Assess whether the complete captions «область; пределы» and «округ; район» are genuinely ambiguous in the given co-display and frozen lexical context, or meaningfully distinguished by the source-supported difference between 域 and 区. Do not equate co-display with semantic interchangeability."
+    }
+  ],
+  "sharedQualification": "Each reproduction is a bounded core-builder observation, not a linguistic verdict, device result, frequency estimate, or proof of general fallback safety. No exclusions have been added.",
+  "reviewInstructions": "Return separate verdicts for 奥/中 and 域/区, bound to the exact candidate, comparator, and frozen-source hashes listed here. For 奥, assess the proposed qualified caption against the frozen 奥/中 and 奥-word contrast. For 域, assess the contextual region/district overlap against both frozen lessons and the cited 地域/区域 usage. Report evidence and any actionable correction. Do not infer interchangeability from co-display, do not claim broad quiz safety, and make no file edits."
+}
