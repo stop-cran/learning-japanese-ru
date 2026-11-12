@@ -1,6 +1,33 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch145 lose, wealth, poor, blame, expense, resource and approval kanji
+## Current published source milestone: batch157 nine-card qualified-source acceptance
+
+Batch157 adds Russian lessons and byte-identical frozen strokes for 孫/宇/宝/寺/専/将/尊/導/岸,
+plus three reciprocal, link-only word-page changes. Six cards (委/季/封/届/層/岩) remain held
+and were not copied. No quiz or grading behavior changed.
+
+The bounded independent review found no new substantive discrepancy. Reading/sense coverage remains
+non-exhaustive for 宇/専/尊/導/岸, visual-confusion risk is untested, and this is not semantic CLEAN
+or learner acceptance. The signed candidate is `d3f0907b7dbb895b948556370e789a5dde7c2094`,
+content version `6eb5aadef3ed81b1`. The signed qualified-source acceptance commit
+`47b599b8298307def5cfd9b2e976f23006c33cfa` was fast-forwarded directly to `main` as owner
+`stop-cran`; no pull request was created. Serial manifest, validator, 124-test, and content-budget
+checks passed. Exact-main CI passed in run
+[43236330540](https://github.com/stop-cran/learning-japanese-ru/actions/runs/43236330540).
+
+Qualified progress is **2,906 reviewed-current / 8 reviewed runtime-blocked / 5,364 pending of
+8,278**, with 1,478 words / 699 kanji / 699 strokes. Checkpoint authority remains null and `Ready`
+false. See the [independent review](translation-batches/157-nine-card-independent-review-001.md),
+[qualified source record](translation-batches/157-nine-card-reviewed-source.json),
+[final validation](translation-batches/157-nine-card-final-validation-001.json), and
+[publication verification](translation-batches/157-nine-card-publication-verification-001.json).
+
+All 27 direct negative/fallback directions remain **UNVERIFIED**. The one bounded synthetic pool
+screen is not learner, ASR, drawing, device, semantic-CLEAN, or release evidence. This is qualified
+source-content progress only; no grading, runtime, device, media, release, ordinary-activation, or
+full-translation approval is implied.
+
+## Previous published source milestone: batch145 lose, wealth, poor, blame, expense, resource and approval kanji
 
 Batch145 adds Russian lessons and byte-identical frozen strokes for 負/財/貧/責/費/資/賛,
 plus two exact reciprocal word-page links. Eleven optional links to absent Russian word pages

@@ -8,7 +8,29 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch145 lose, wealth, poor, blame, expense, resource and approval kanji
+## Current published source milestone: batch157 nine-card qualified-source acceptance
+
+Batch157 added nine Russian lessons (孫/宇/宝/寺/専/将/尊/導/岸), nine byte-identical
+frozen-source strokes, and three reciprocal link-only word-page changes. Six cards
+(委/季/封/届/層/岩) remain held; no quiz or grading behavior changed. The bounded independent
+review found no new substantive discrepancy, while preserving non-exhaustive reading/sense
+qualifications for 宇/専/尊/導/岸 and untested visual-confusion risk.
+
+Candidate `d3f0907b7dbb895b948556370e789a5dde7c2094`, content version `6eb5aadef3ed81b1`,
+passed serial manifest, validator, 124-test, and content-budget checks. Qualified acceptance
+`47b599b8298307def5cfd9b2e976f23006c33cfa` was fast-forwarded to `main` as `stop-cran`
+without a PR. Exact-main CI passed in run
+[43236330540](https://github.com/stop-cran/learning-japanese-ru/actions/runs/43236330540).
+Progress: **2,906 reviewed-current / 8 runtime-blocked / 5,364 pending of 8,278**; 1,478 words /
+699 kanji / 699 strokes. Checkpoint authority remains null and `Ready` false. See the
+[qualified source record](translation-batches/157-nine-card-reviewed-source.json),
+[final validation](translation-batches/157-nine-card-final-validation-001.json), and
+[publication verification](translation-batches/157-nine-card-publication-verification-001.json).
+All 27 direct negative/fallback directions remain **UNVERIFIED**. This is source-content progress
+only—not semantic CLEAN, grading/runtime/device/media/release/ordinary-activation approval, or
+full-translation completion.
+
+## Previous published source milestone: batch145 lose, wealth, poor, blame, expense, resource and approval kanji
 
 Batch145 completed seven Russian kanji lessons (負/財/貧/責/費/資/賛), seven
 byte-identical frozen stroke assets, and two reciprocal word-page links. Eleven
