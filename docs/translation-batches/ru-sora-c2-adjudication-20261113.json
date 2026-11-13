@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-13",
+  "stage": "Evidence gathering and independent adjudication complete; coordinator disposition pending",
+  "scope": "Session-only follow-up for the exact pairs [空,遠く] and [空,遠い]. No repository or runtime changes.",
+  "authorSession": "C2-AUTHOR-20261113",
+  "coordinatorSession": "RU-COORDINATOR",
+  "evidenceFreeze": [
+    {
+      "file": "ru-sora-c2-followup-20261113.json",
+      "bytes": 26345,
+      "sha256": "784192d05a7836ed2d72c181109207b00e1fbf9409f3c2443c0bf7daf208ac4f"
+    },
+    {
+      "file": "ru-sora-c2-followup-20261113.md",
+      "bytes": 9239,
+      "sha256": "4d87b5214834e46e5b1bb727f04de6747706db48aa5b889257698c921e7b9bc9"
+    }
+  ],
+  "independentReview": {
+    "reviewNumber": "005",
+    "reviewerSession": "C2-REVIEW-005",
+    "file": "docs/translation-batches/033-sora-c2-followup-independent-review-005.md",
+    "bytes": 8677,
+    "sha256": "1ff71f875c074894f2f170b9029e251807fd50e18b645da73cb9b89e4de14820",
+    "lineEndings": "CRLF, preserved unchanged",
+    "hashDomain": "Saved report bytes, not a network-message or stdout-wrapper hash",
+    "receivedAndRead": "Full report read; exact saved hash and both evidence-freeze hashes verified after receipt.",
+    "independence": "A separate reviewer session independently reopened decisive Russian and Japanese sources and checked the packet, cards and selected provenance. This receipt is author-maintained and is not an independent review of itself.",
+    "verdict": "Recommend narrowly qualified conservative DIRECT EXCLUSION for both exact pairs.",
+    "findings": [
+      "R1/R2 independently establish a spatial noun at the exact Russian caption component далеко, alongside the ё variant; this is not solely an adverb/predicate.",
+      "The attributed Gogol passage establishes historical nominal usage, not contemporary frequency.",
+      "JMdict and Digital Daijisen independently attest the Japanese remote-place noun sense of 空/そら.",
+      "The cross-language noun-sense match is a defensible conservative semantic-overlap inference, not an observed standalone Japanese-Russian translation.",
+      "The neighbouring вдали and далёкий favour ordinary readings, but the reviewer judges the semicolon-separated alternatives do not grammatically exclude the nominal homograph.",
+      "The converse небо-versus-distance-target cells have no direct overlap established by this packet; they are not declared CLEAN or impossible.",
+      "The source/control evidence and direct-link versus translation-authorship distinctions were preserved."
+    ]
+  },
+  "directionalDisposition": [
+    {
+      "pair": ["空", "遠く"],
+      "japaneseToRussian": {
+        "overlapSupported": "Prompt 空; competing option далеко; вдали, through nominal далеко only.",
+        "notEstablished": "Prompt 遠く; competing option небо."
+      },
+      "russianToJapanese": {
+        "overlapSupported": "Prompt далеко; вдали; competing Japanese option 空, through nominal далеко only.",
+        "notEstablished": "Prompt небо; competing Japanese option 遠く."
+      },
+      "recommendation": "Conservative direct exclusion supported; no implementation authorized or performed."
+    },
+    {
+      "pair": ["空", "遠い"],
+      "japaneseToRussian": {
+        "overlapSupported": "Prompt 空; competing option далёкий; далеко, through nominal далеко only.",
+        "notEstablished": "Prompt 遠い; competing option небо."
+      },
+      "russianToJapanese": {
+        "overlapSupported": "Prompt далёкий; далеко; competing Japanese option 空, through nominal далеко only.",
+        "notEstablished": "Prompt небо; competing Japanese option 遠い."
+      },
+      "recommendation": "Conservative direct exclusion supported; no implementation authorized or performed."
+    }
+  ],
+  "unresolved": [
+    "No directly verified bilingual source translates standalone 空 as the Russian noun далеко.",
+    "No bare equivalence with ordinary adverb далеко, adverb вдали or adjective далёкий has been established.",
+    "Contemporary frequency, learner-confusion rate and ordinary-quiz necessity remain unestablished.",
+    "The conservative recommendation rests on independently reviewed semantic inference; it is not an unrestricted interchangeability claim.",
+    "No additional evidence establishes the four converse небо-versus-distance-target cases.",
+    "Coordinator acceptance and any later separately authorized implementation remain outstanding."
+  ],
+  "stateAndHandoff": {
+    "persistedC2": "UNVERIFIED for both pairs, unchanged",
+    "runtimeHold": "Unchanged",
+    "guardsActivated": 0,
+    "sharedCheckoutEdits": 0,
+    "repositoryEdits": 0,
+    "runtimeManifestProgressEdits": 0,
+    "publication": false,
+    "emulatorNeeded": false,
+    "authorTask": "Complete at research/adjudication boundary",
+    "reviewerAssignment": "Review 005 complete; no follow-up assigned and the author's reviewer-slot claim is released.",
+    "remainingOwner": "RU coordinator",
+    "nextDecision": "Accept, defer or reject the narrowly qualified conservative recommendation and record disposition through the authorized writer. This session will not activate guards or change runtime/publication state.",
+    "historicalRecords": "Review 004 and the frozen research packet remain unchanged. This receipt records the newly completed review rather than rewriting the earlier pending-review wording."
+  }
+}
