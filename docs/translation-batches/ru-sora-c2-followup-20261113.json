@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-13",
+  "stage": "Author evidence freeze; independent adjudication requested, not yet received",
+  "assignment": "Gather direct attributable Russian-usage evidence for the actual captions of the protected pairs and obtain independent adjudication. Session artifacts only.",
+  "authority": {
+    "repositoryChanges": false,
+    "sharedCheckoutChanges": false,
+    "guardsActivated": false,
+    "runtimeManifestProgressChanges": false,
+    "publication": false,
+    "emulator": false,
+    "persistedC2": "Both pairs remain UNVERIFIED; this artifact changes no acceptance or runtime record."
+  },
+  "snapshot": {
+    "frozenEnglishRevision": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "isolatedCloneRevision": "2af442b36de22a2883247292429dc0dc049542ee",
+    "sharedCheckoutHeadObserved": "c9fa34ca61c057d60f4be789917437c3d3bd4197",
+    "readingMethod": "Read the three complete cards in the shared checkout without modifying it; their raw bytes equal the corresponding files in the isolated clone. The historical freeze and instructions also match. The current methodology differs from the clone and its relevant review/direction sections were read in the shared checkout.",
+    "cards": [
+      {
+        "id": "空",
+        "reading": "そら",
+        "title": "небо",
+        "path": "docs/translation-drafts/033-nature-outdoor-activity/words/空.md",
+        "bytes": 3857,
+        "sha256": "97613d8959309dda4233a4f63ad2de635db4f09e6c229103860d1140640ae5d9"
+      },
+      {
+        "id": "遠く",
+        "reading": "とおく",
+        "title": "далеко; вдали",
+        "path": "words/遠く.md",
+        "bytes": 2271,
+        "sha256": "41c632275a0e6cb571e89d251f38e2e0d2d79bf91fa993cc6fdfc069709eb3c7"
+      },
+      {
+        "id": "遠い",
+        "reading": "とおい",
+        "title": "далёкий; далеко",
+        "path": "words/遠い.md",
+        "bytes": 2232,
+        "sha256": "0979fcee575828a17b3cda910548c8279668a63524f5b8051121573035c35586"
+      }
+    ],
+    "historicalFreeze": {
+      "path": "docs/translation-batches/033-nature-outdoor-activity-review-resolution-freeze.json",
+      "bytes": 18880,
+      "sha256": "1994b6b8dbf3effd152bd858dbce410fc0d4b7e938e5da45eb447e8fe76525d4",
+      "section": "unverifiedCompleteDraft, especially reason and requiredFutureEvidence"
+    },
+    "currentInstructionsSha256": "e6d6119f7eea87fa7e6d0b945212fc9df990a4a77d773f9862e4dab95e0999ee",
+    "currentMethodologySha256": "0b2fe9398de8777b2b96d37f18a068b2ec96714f4d1b6212a9e83e60abc5ab85"
+  },
+  "policy": {
+    "source": "https://raw.githubusercontent.com/stop-cran/learning-japanese/6af98cb717755690a9ca793e5454a96ebd7a8f9f/docs/content-format.md",
+    "sectionsRead": "Word metadata and quiz guidance, lines 138-176",
+    "facts": [
+      "Word title is the meaning-quiz label. Exclusions are direct symmetric pairs applied in both language directions, not transitive closure.",
+      "The criterion is whether a learner could reasonably accept the competing title, not merely whether two words describe the same scene.",
+      "The current RU instructions require checking Russian polysemy, secondary Japanese senses and actual caption components; primary readings or the card body do not necessarily constrain the bare quiz.",
+      "The current RU instructions explicitly distinguish conservative dictionary-supported protection from a claim of contemporary frequency or ordinary-quiz necessity."
+    ],
+    "directionConvention": "Each pair has two language directions and two possible target cards. The eight matrix rows below make those cases explicit. A symmetric implementation rule does not imply symmetric linguistic evidence."
+  },
+  "provenance": {
+    "restrictedSources": "Gramota/BTS/orthographic dictionary and Kotobank are cited by URL, named dictionary, headword and section. Their definitions and example wording are not copied into these artifacts. English descriptions below are this researcher's summaries and inferences, not quotations or source-supplied translations. Lexical headwords, stress marks and project captions identify what was checked.",
+    "jmdict": {
+      "attribution": "J. W. Breen and the Electronic Dictionary Research and Development Group (EDRDG)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://www.edrdg.org/edrdg/licence.html",
+      "scope": "Japanese/English entries read directly from the previously downloaded archive; not Russian JMdict glosses."
+    },
+    "wiktionary": {
+      "attribution": "Russian Wiktionary contributors, linked individual revisions",
+      "license": "CC BY-SA 4.0, confirmed from the site footer",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "scope": "Only very short definition extracts from the community dictionary; none of its third-party literary quotations is reproduced."
+    },
+    "gogol": {
+      "attribution": "Nikolai Gogol, Dead Souls, volume I, chapter XI (1842); Wikisource transcription, revision 5640336",
+      "reuseBasis": "Original Russian public-domain work, author died in 1852. One short excerpt is reproduced, without translation or modernization.",
+      "limitation": "Wikisource labels the transcription unproofread; no scan was checked. The excerpt is also recognizable as the citation identified by BTS, but that is not an independent modern usage sample."
+    },
+    "tatoeba": {
+      "license": "CC BY 2.0 FR for each quoted sentence, checked in the API",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+      "termsUrl": "https://tatoeba.org/en/terms_of_use#section-6",
+      "scope": "Unmodified text only, with sentence URLs and current owner usernames. No audio reused. Usernames are returned owner attribution, not an assertion that the current owner originally authored every sentence.",
+      "limitation": "Community-contributed examples, not professionally guaranteed translations. A direct graph link is not proof of direct translation authorship; based_on_id is recorded separately."
+    }
+  },
+  "evidence": [
+    {
+      "id": "R1",
+      "kind": "new primary dictionary evidence",
+      "dictionary": "Русский орфографический словарь, edited by V. V. Lopatin and O. E. Ivanova, via Gramota",
+      "url": "https://gramota.ru/poisk?query=%D0%B4%D0%B0%D0%BB%D0%B5%D0%BA%D0%BE&mode=slovari&dicts%5B%5D=71",
+      "locator": "First exact headword result; distinguish nominal entry 2 from adverb entry 1 and the following далеко не entry. Do not use the generic Metadictionary panel below as a substitute.",
+      "headwords": ["далеко́2", "далёко2"],
+      "observation": "The entry explicitly indexes a declinable nominal homograph covering spatial remoteness. Both stress/spelling variants are admitted, with genitives in -а. It is not limited to the future, and the variant spelled with е is explicitly present.",
+      "proves": "The exact unaccented project string далеко can identify a noun, not only an adverb or predicate. No conversion of е into ё is necessary to obtain this reading.",
+      "doesNotProve": "No Japanese equivalent is supplied. This is not a frequency measure or proof that a learner will choose that reading inside either full semicolon-separated caption.",
+      "confidence": "high for the attested nominal spelling and spatial sense"
+    },
+    {
+      "id": "R2",
+      "kind": "new named explanatory dictionary evidence",
+      "dictionary": "Большой толковый словарь русского языка, S. A. Kuznetsov (chief editor), via Gramota",
+      "url": "https://gramota.ru/poisk?query=%D0%B4%D0%B0%D0%BB%D0%B5%D0%BA%D0%BE&mode=slovari&dicts%5B%5D=42",
+      "locator": "Nominal subentry after adverb/predicate sections I-II and before далеко за",
+      "headwords": ["Далёко", "Далеко́"],
+      "observation": "A neuter nominal subentry is marked colloquial. Its coverage includes a remote place where someone is situated as well as future reference. It gives a location-use example and attributes a second example to Gogol.",
+      "proves": "Positive Russian lexical support for the remote-location noun reading; the older all-adverb analysis of the caption string is incomplete.",
+      "doesNotProve": "No Japanese translation, present-day frequency, unrestricted replacement of distance adverbs or adjective, or ordinary-quiz necessity.",
+      "independence": "Different named dictionary from R1, hosted on the same site; not presented as an independent corpus sample.",
+      "confidence": "high for lexical attestation; no frequency conclusion"
+    },
+    {
+      "id": "R3",
+      "kind": "attributed primary Russian usage",
+      "author": "Nikolai Gogol",
+      "work": "Dead Souls, volume I, chapter XI",
+      "year": 1842,
+      "url": "https://ru.wikisource.org/w/index.php?oldid=5640336",
+      "pageTitle": "Мёртвые души (Гоголь)/Том I/Глава XI",
+      "revisionTimestamp": "2025-09-04T19:14:50Z",
+      "quote": "Русь! Русь! вижу тебя, из моего чудного, прекрасного далека тебя вижу",
+      "observation": "The preposition and agreeing modifiers accompany an inflected nominal form. This is an actual attributed use, not an invented teaching example.",
+      "proves": "Historical nominal usage denoting the speaker's remote vantage/location.",
+      "doesNotProve": "Modern frequency, the nominative spelling by itself (use R1/R2 for the paradigm), Japanese translation or ordinary bare-quiz acceptability.",
+      "confidence": "high for the text observed; qualified by unproofread transcription"
+    },
+    {
+      "id": "R4",
+      "kind": "Russian lexical controls",
+      "entries": [
+        {
+          "headword": "далеко",
+          "url": "https://ru.wiktionary.org/w/index.php?oldid=13708767",
+          "locator": "Russian meaning 1",
+          "quote": "на большом расстоянии либо на большое расстояние"
+        },
+        {
+          "headword": "вдали",
+          "url": "https://ru.wiktionary.org/w/index.php?oldid=12004393",
+          "locator": "Russian вдали I, meaning 1",
+          "quote": "на большом расстоянии"
+        },
+        {
+          "headword": "далёкий",
+          "url": "https://ru.wiktionary.org/w/index.php?oldid=12279799",
+          "locator": "Russian meaning 1",
+          "quote": "отдалённый, находящийся на большом расстоянии"
+        },
+        {
+          "headword": "небо",
+          "url": "https://ru.wiktionary.org/w/index.php?oldid=14429800",
+          "locator": "Russian небо I, meanings 1-2 and translation table",
+          "description": "Sky/overhead space and religious heaven; the Japanese translation table lists 天 and 空/そら. This community entry is not an exhaustive denial of other meanings."
+        }
+      ],
+      "observation": "These support ordinary adverbial/adjectival readings, but the inspected Wiktionary далеко page does not supply R1/R2's noun. That incompleteness must not be used to erase the noun attested in the named dictionaries."
+    },
+    {
+      "id": "R5",
+      "kind": "named Russian usage controls",
+      "entries": [
+        {
+          "headword": "вдали",
+          "dictionary": "BTS/Kuznetsov",
+          "url": "https://gramota.ru/poisk?query=%D0%B2%D0%B4%D0%B0%D0%BB%D0%B8&mode=slovari&dicts%5B%5D=42",
+          "description": "Adverbial distance and a construction with от plus a reference point; examples retain that construction."
+        },
+        {
+          "headword": "далёкий",
+          "dictionary": "BTS/Kuznetsov",
+          "url": "https://gramota.ru/poisk?query=%D0%B4%D0%B0%D0%BB%D1%91%D0%BA%D0%B8%D0%B9&mode=slovari&dicts%5B%5D=42",
+          "description": "Attribute/predicate of spatial or temporal distance and additional figurative senses; its short neuter form is a separate reason not to assume every далеко occurrence is an adverb."
+        },
+        {
+          "headword": "небо",
+          "dictionary": "BTS/Kuznetsov",
+          "url": "https://gramota.ru/poisk?query=%D0%BD%D0%B5%D0%B1%D0%BE&mode=slovari&dicts%5B%5D=42",
+          "description": "Includes sky/airspace, a homeland/foreign-land symbolism within the sky section, and religious uses. The locality examples have modifying material or prepositions; this does not establish bare небо as an equivalent of a generic remote location."
+        },
+        {
+          "headword": "небо",
+          "dictionary": "Большой универсальный словарь русского языка, V. V. Morkovkin, G. F. Bogacheva, N. M. Lutskaya",
+          "url": "https://gramota.ru/poisk?query=%D0%BD%D0%B5%D0%B1%D0%BE&mode=slovari",
+          "description": "The inspected named entry includes locative phraseology involving под plus specified territory. A geographic construction is not an independent bare caption equivalence."
+        }
+      ],
+      "doesNotProve": "No negative impossibility result. These controls block a simplistic inference from sky being far away, or from phrase-level homeland symbolism, to bare lexical equivalence."
+    },
+    {
+      "id": "J1",
+      "kind": "rechecked reusable Japanese lexical evidence",
+      "archiveUrl": "http://ftp.edrdg.org/pub/Nihongo/JMdict_e.gz",
+      "archiveDate": "2026-11-11",
+      "archiveSha256": "3a77bf9af599c1264deef9780b8b1a9f53ea16e1aab30ebaf3c64a6f816ccc4f",
+      "localRelativePath": "jmdict/JMdict_e.gz",
+      "entries": [
+        {"entSeq": "1245290", "headword": "空", "reading": "そら", "sense": 3, "pos": "noun", "glosses": ["far-off place", "distant place"]},
+        {"entSeq": "1839300", "headword": "旅の空", "reading": "たびのそら", "sense": 1, "pos": "expression", "glosses": ["away from home", "while travelling"]},
+        {"entSeq": "1177820", "headword": "遠く", "reading": "とおく", "sense": 1, "pos": ["noun", "adverb", "noun taking no"], "glosses": ["far away", "distant place", "a (great) distance", "a long way off", "afar"]},
+        {"entSeq": "1177800", "headword": "遠い", "reading": "とおい", "sense": 1, "pos": "i-adjective", "glosses": ["far", "distant", "far away", "a long way off", "in the distance"]}
+      ],
+      "coverage": "Full entries for these four IDs and 1245280 空/から were printed and read. The excerpted senses above are the ones relevant to this proposal.",
+      "doesNotProve": "No Russian translation supplied; no English-to-Russian gloss chaining alone establishes C2."
+    },
+    {
+      "id": "J2",
+      "kind": "rechecked native Japanese dictionary",
+      "dictionary": "デジタル大辞泉, Shogakukan, via Kotobank",
+      "url": "https://kotobank.jp/word/%E7%A9%BA-54809",
+      "locator": "そら【空／虚】, noun sense 3",
+      "description": "The remote-place sense relates a location to someone's home/base and also extends to circumstance. Its examples concern a foreign country, travel and remembered home. No Russian equivalent is present.",
+      "proves": "The Japanese noun has a genuinely locational reading, not only the optical sky sense.",
+      "doesNotProve": "No universal N+の空 restriction or blanket literary label is stated for this sense. The displayed examples do not independently settle bare quiz acceptability."
+    },
+    {
+      "id": "T1",
+      "kind": "directly linked bilingual usage control",
+      "japanese": {"id": 179417, "text": "空は青い。", "owner": "bunbuku", "url": "https://tatoeba.org/en/sentences/show/179417"},
+      "russian": {"id": 614720, "text": "Небо голубое.", "owner": "Aleksej", "url": "https://tatoeba.org/en/sentences/show/614720", "basedOnId": 430765},
+      "licenseEach": "CC BY 2.0 FR",
+      "directLink": true,
+      "proves": "An actual Russian sky rendering paired with 空/そら.",
+      "limitation": "Russian based_on_id points to an Esperanto sentence. The Japanese link is direct in the translation graph, not direct-translation authorship. No remote-place sense is tested."
+    },
+    {
+      "id": "T2",
+      "kind": "directly linked bilingual usage control",
+      "japanese": {"id": 188677, "text": "遠くに富士山が見えた。", "owner": "small_snow", "url": "https://tatoeba.org/en/sentences/show/188677"},
+      "russian": {"id": 2087877, "text": "Вдали виднелась гора Фудзи.", "owner": "sharptoothed", "url": "https://tatoeba.org/en/sentences/show/2087877", "basedOnId": 188677},
+      "licenseEach": "CC BY 2.0 FR",
+      "directLink": true,
+      "proves": "Attested Russian вдали for Japanese 遠くに in a complete sentence; Russian creation metadata names this Japanese source sentence.",
+      "limitation": "Supports the existing caption, not a standalone 空 equivalence."
+    },
+    {
+      "id": "T3",
+      "kind": "directly linked bilingual usage control",
+      "japanese": {"id": 8692025, "text": "街まで遠いですか？", "owner": "small_snow", "url": "https://tatoeba.org/en/sentences/show/8692025"},
+      "russian": {"id": 3071669, "text": "До города далеко?", "owner": "sharptoothed", "url": "https://tatoeba.org/en/sentences/show/3071669", "basedOnId": 3071668},
+      "licenseEach": "CC BY 2.0 FR",
+      "directLink": true,
+      "proves": "Attested Russian predicative далеко for Japanese 遠い in a complete sentence.",
+      "limitation": "Russian creation metadata points to English, not Japanese. Does not support a remote-location noun reading of 遠い or 空."
+    }
+  ],
+  "authorAnalysis": {
+    "newBridge": "R1-R3 establish positive Russian evidence for a remote-location noun whose unaccented nominative is exactly далеко. J1/J2 establish a Japanese remote-place noun sense of 空/そら. Comparing those meanings is this author's bilingual semantic adjudication, NOT a direct Japanese-Russian dictionary quotation or an attested translation of Gogol.",
+    "proposal": "Both pairs now have a concrete, non-transitive basis for considering a conservative direct exclusion through the shared literal caption component далеко, read as the attested noun. This is a review proposal, not accepted C2 or authority to add it.",
+    "proposalConfidence": "medium for conservative caption-overlap judgment; high for the underlying lexical facts",
+    "limits": [
+      "There is still no newly verified bilingual source rendering standalone 空 as the Russian noun далеко.",
+      "No source here establishes bare 空 as the ordinary Russian adverb далеко, adverb вдали or adjective далёкий.",
+      "No contemporary corpus frequency, learner-confusion rate or ordinary-quiz necessity has been established.",
+      "The full caption neighbours вдали and далёкий strongly suggest the usual distance readings. Whether that contextual cue sufficiently excludes the nominal homograph is a real adjudication question, not decided by orthography alone.",
+      "No new finding says Japanese 空 and 遠い are generally interchangeable or that the Russian adjective means a remote place.",
+      "Russian sky/locality phraseology is not proof that bare небо is a good caption for 遠く or 遠い.",
+      "Earlier qualified review 004 is preserved, not retroactively called wrong: the Russian noun evidence was not part of that record."
+    ]
+  },
+  "directionalMatrix": [
+    {
+      "pair": ["空", "遠く"],
+      "direction": "Japanese to Russian",
+      "target": "空",
+      "key": "небо",
+      "competingOption": "далеко; вдали",
+      "proposal": "Conservative overlap supported for review through nominal далеко only.",
+      "basis": ["R1", "R2", "R3", "J1", "J2"],
+      "remaining": "Naturalness of this whole bare quiz option and translation-specific confirmation; not a claim about the adverbs."
+    },
+    {
+      "pair": ["空", "遠く"],
+      "direction": "Japanese to Russian",
+      "target": "遠く",
+      "key": "далеко; вдали",
+      "competingOption": "небо",
+      "proposal": "No direct overlap established in this evidence; no blanket CLEAN/impossibility claim.",
+      "basis": ["R5", "J1", "T2"],
+      "remaining": "Phrase-level Russian sky/locality symbolism does not by itself establish the bare option."
+    },
+    {
+      "pair": ["空", "遠く"],
+      "direction": "Russian to Japanese",
+      "target": "далеко; вдали",
+      "key": "遠く",
+      "competingOption": "空",
+      "proposal": "Conservative overlap supported for review if the unqualified далеко component admits its attested noun reading.",
+      "basis": ["R1", "R2", "R3", "J1", "J2"],
+      "remaining": "Full-label cue from вдали and suitability of bare 空 for the nominal reading require independent judgment."
+    },
+    {
+      "pair": ["空", "遠く"],
+      "direction": "Russian to Japanese",
+      "target": "небо",
+      "key": "空",
+      "competingOption": "遠く",
+      "proposal": "No direct overlap established in this evidence; no blanket CLEAN/impossibility claim.",
+      "basis": ["R4", "R5", "J1", "T1"],
+      "remaining": "No new lexical support for 遠く as the sky caption; no exhaustive negative claim."
+    },
+    {
+      "pair": ["空", "遠い"],
+      "direction": "Japanese to Russian",
+      "target": "空",
+      "key": "небо",
+      "competingOption": "далёкий; далеко",
+      "proposal": "Conservative overlap supported for review through nominal далеко only, not adjective далёкий.",
+      "basis": ["R1", "R2", "R3", "J1", "J2"],
+      "remaining": "Full-label cue from далёкий and translation-specific confirmation."
+    },
+    {
+      "pair": ["空", "遠い"],
+      "direction": "Japanese to Russian",
+      "target": "遠い",
+      "key": "далёкий; далеко",
+      "competingOption": "небо",
+      "proposal": "No direct overlap established in this evidence; no blanket CLEAN/impossibility claim.",
+      "basis": ["R5", "J1", "T3"],
+      "remaining": "Spatial association is not a lexical sky meaning."
+    },
+    {
+      "pair": ["空", "遠い"],
+      "direction": "Russian to Japanese",
+      "target": "далёкий; далеко",
+      "key": "遠い",
+      "competingOption": "空",
+      "proposal": "Conservative overlap supported for review through the caption's nominal далеко homograph, not by changing the Japanese adjective into a noun.",
+      "basis": ["R1", "R2", "R3", "J1", "J2"],
+      "remaining": "The adjective component favours the ordinary reading; independent reviewer must decide whether the noun reading is reasonable for this full caption."
+    },
+    {
+      "pair": ["空", "遠い"],
+      "direction": "Russian to Japanese",
+      "target": "небо",
+      "key": "空",
+      "competingOption": "遠い",
+      "proposal": "No direct overlap established in this evidence; no blanket CLEAN/impossibility claim.",
+      "basis": ["R4", "R5", "J1", "T1"],
+      "remaining": "No new lexical support for 遠い as the sky caption; no exhaustive negative claim."
+    }
+  ],
+  "searchCoverageAndFailures": [
+    "An AI web-search response asserted broad absence and suggested unsupported phrase renderings. None was accepted as evidence. A subsequent search call failed with a transport error.",
+    "Tatoeba deprecated api_v0: attempted trans_query=далеко/вдали/далёкий filters were not honoured (identical ten results, including sky sentences without those Russian terms). These are INVALID filtered searches and supply no negative evidence.",
+    "Tatoeba first-page direct-link searches returned 10 of 33 for 遠く and 10 of 47 for 遠い. Only the displayed first pages were read; no corpus-wide claim.",
+    "Tatoeba exact query =далёкий, Russian to Japanese with direct links, returned zero. Unrestricted далёкий returned 17 and the first ten included inflected/stem-related terms. Search normalization is not exact lexical equivalence; no absence conclusion.",
+    "Tatoeba Japanese to Russian quoted query for 旅の空 returned zero. This narrow query result is not proof that the expression or a translation is absent from all corpora.",
+    "The attempted Wikisource Ushakov/Далеко and Gufo MAS/далёко URLs returned 404. Lexicography.online Ushakov pages for е/ё both displayed the adverb entry. No Ushakov noun evidence is claimed.",
+    "The historical artifact directory glob timed out; its files were not reread. The prior qualified evidence record in the isolated clone was read instead.",
+    "The local clone had no docs/confusable-words.md; the actual frozen upstream candidate inventory and format contract were fetched directly.",
+    "Gramota далёкий initially returned HTTP 429; a later bounded request succeeded. No negative lexical inference from the failed call.",
+    "No fresh WARODAI or Shogakukan Russian-to-Japanese headword search was performed in this follow-up. Prior qualified findings remain historical context, not newly verified coverage."
+  ],
+  "reviewQuestions": [
+    "Independently verify R1/R2 in the named dictionary blocks, not the generic Metadictionary summary; is the exact е-spelled nominal homograph and spatial sense real?",
+    "Verify the attributed Gogol passage and distinguish historical attestation from current frequency and direct Japanese-Russian evidence.",
+    "Does the evidence provide a defensible conservative caption overlap for each pair and language direction, or only a new lead requiring further bilingual/usage adjudication?",
+    "Assess the complete semicolon-separated captions, not an invented standalone noun-only replacement; do their neighbours rule out the proposed nominal reading?",
+    "Keep adverb далеко, adverb вдали, adjective далёкий and noun далеко separate. Do not convert a noun-homograph finding into a new general translation claim.",
+    "Check the eight directional rows, source/quotation provenance and any missing counterevidence. Report independent verdicts and unresolved uncertainty without modifying any repository or runtime state."
+  ]
+}
