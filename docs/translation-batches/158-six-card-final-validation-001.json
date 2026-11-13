@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "batchId": "158-six-card-qualified-source-acceptance",
+ "status": "isolated candidate serial validation passed; publication and exact-main CI pending",
+ "publishedBaseline": "2b83105f8fc08236a667bf721011c882cdea53d0",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "manifestVersion": "ec15c80a67ac67a7",
+ "serialValidation": [
+  {
+   "command": "python -X utf8 -B tools\\build_manifest.py",
+   "exitCode": 0,
+   "result": "2918 files; content version ec15c80a67ac67a7"
+  },
+  {
+   "command": "python -X utf8 -B tools\\validate.py",
+   "exitCode": 0,
+   "result": "0 errors"
+  },
+  {
+   "command": "python -X utf8 -B -m unittest discover -s tools -p \"test_*.py\"",
+   "exitCode": 0,
+   "result": "124 tests passed"
+  },
+  {
+   "command": "python -X utf8 -B tools\\check_content_budget.py",
+   "exitCode": 0,
+   "result": {
+    "files": 2926,
+    "entries": 2935,
+    "retainedBytes": 8061652,
+    "inflatedBytes": 8079803,
+    "localZipBytes": 4044486,
+    "listeningTaskMediaBytes": 0
+   }
+  }
+ ],
+ "tracking": {
+  "runtimeEntries": 8278,
+  "reviewedCurrent": 2918,
+  "pending": 5352,
+  "draftReviewedRuntimeBlocked": 8,
+  "checkpointAuthority": null,
+  "checkpointReady": false
+ },
+ "widthQualification": "This 幅 lesson teaches width/breadth, its range/difference extension, and 増幅; the batch metadata also lists ‘hanging scroll,’ which this lesson does not teach.",
+ "limits": [
+  "Qualified source-content acceptance only; no blanket semantic CLEAN.",
+  "No general quiz-negative/fallback, actual ASR or voice, drawing, learner/device, ordinary activation or release clearance.",
+  "巨 and the other held cards remain excluded; protected drafts remain separate."
+ ]
+}
