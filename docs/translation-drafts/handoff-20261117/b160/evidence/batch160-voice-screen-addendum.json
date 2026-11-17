@@ -1,0 +1,159 @@
+{
+  "kind": "batch160-voice-screen-addendum",
+  "status": "bounded synthetic voice evidence; not review or acceptance",
+  "originalIntakePreserved": {
+    "path": "batch160-intake-and-dependencies.json",
+    "rawSha256": "98a420c47d7db917605dade0a322dbfa28c140cc4ddeb155c4ac6c8f0bbb91e2",
+    "note": "The original intake remains unchanged; this separate addendum records subsequent voice evidence."
+  },
+  "bindings": {
+    "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "publishedBaseCommit": "c9fa34ca61c057d60f4be789917437c3d3bd4197",
+    "candidateScopeSha256": "dba395b05e61bb59305a48fd006f850c076921dc59780c726c4dc57d35029c3c",
+    "candidateManifestSha256": "b9b1821c34852ba96110a6bfb27ac5346057c5f613340d6ecccca41c2a4e4168",
+    "exactVariantInventory": {
+      "path": "batch160-voice-variant-screen.json",
+      "rawSha256": "881148153f809de377fc682f084b152cae4d2ec6c2267044641b3bf68ef15db2"
+    },
+    "constructedPoolReceipt": {
+      "path": "batch160-pair-screen-receipt.json",
+      "rawSha256": "a16edcf7c7a6de696cde491c7a1cd0978580f6c9ddfbedb257e160963b53013c",
+      "legacyOutputSha256": "da9f00b4fa2d7c7e2ac24763f28b1643b4122bc53031680872e976c1223178b1",
+      "currentOutputSha256": "1a23ef44ae17672260ca59cb25665a8f8b1de629a71f48f9e2fd58f6267c81b3",
+      "publishedSnapshotArchiveSha256": "12191f1513b388b27e1a06b85f85edd53f162f918ae6304429e48574de2bbc8c"
+    }
+  },
+  "matcherVariants": [
+    "legacy-5c",
+    "current-10d",
+    "qualifier-fix-f3f",
+    "ordered-candidate-f3f"
+  ],
+  "exactNormalizedVariantLeads": [
+    {
+      "target": "採",
+      "foil": "収",
+      "sharedVariants": [
+        "собирать"
+      ],
+      "foilCategory": "published-c9fa"
+    },
+    {
+      "target": "採",
+      "foil": "承",
+      "sharedVariants": [
+        "принимать"
+      ],
+      "foilCategory": "unreviewed-159"
+    },
+    {
+      "target": "採",
+      "foil": "拾",
+      "sharedVariants": [
+        "собирать"
+      ],
+      "foilCategory": "published-c9fa"
+    },
+    {
+      "target": "採",
+      "foil": "選",
+      "sharedVariants": [
+        "выбирать"
+      ],
+      "foilCategory": "published-c9fa"
+    },
+    {
+      "target": "採",
+      "foil": "集",
+      "sharedVariants": [
+        "собирать"
+      ],
+      "foilCategory": "published-c9fa"
+    },
+    {
+      "target": "接",
+      "foil": "組",
+      "sharedVariants": [
+        "соединять"
+      ],
+      "foilCategory": "published-c9fa"
+    },
+    {
+      "target": "換",
+      "foil": "代",
+      "sharedVariants": [
+        "заменять"
+      ],
+      "foilCategory": "published-c9fa"
+    },
+    {
+      "target": "損",
+      "foil": "失",
+      "sharedVariants": [
+        "потеря"
+      ],
+      "foilCategory": "published-c9fa"
+    },
+    {
+      "target": "敬",
+      "foil": "尊",
+      "sharedVariants": [
+        "почитать",
+        "уважать"
+      ],
+      "foilCategory": "unreviewed-157"
+    },
+    {
+      "target": "旧",
+      "foil": "元",
+      "sharedVariants": [
+        "прежний"
+      ],
+      "foilCategory": "published-c9fa"
+    },
+    {
+      "target": "旧",
+      "foil": "古",
+      "sharedVariants": [
+        "старый"
+      ],
+      "foilCategory": "published-c9fa"
+    },
+    {
+      "target": "昇",
+      "foil": "登",
+      "sharedVariants": [
+        "подниматься"
+      ],
+      "foilCategory": "published-c9fa"
+    }
+  ],
+  "constructedPoolResults": {
+    "directionalCases": 24,
+    "coDisplayedDirections": {
+      "legacyN5SyntheticPadded": 23,
+      "currentStarterSyntheticPadded": 16
+    },
+    "displayedSharedPhraseVoiceTests": "Every displayed test returned null.",
+    "fixedHypotheticalInclusiveN2": {
+      "assumption": "All four provisional batches are present and unchanged.",
+      "directions": 24,
+      "screenedFoilDisplayed": 0,
+      "curatedAlternativesFilledWrongSlots": 24,
+      "alternativesPerDirection": 3
+    },
+    "boundedNoHits": "No-hits are limited to tested seeds 0–4999 or curated-slot behavior; they do not prove impossibility."
+  },
+  "limits": [
+    "The inventory groups only exact normalized full-title or title-part variants emitted by the four pinned matcher variants.",
+    "Pools are constructed and padded with synthetic Review-phase cards; the inclusive-N2 result is hypothetical.",
+    "This evidence is not a semantic, drawing, real-ASR/device, frequency, acceptance, or publication conclusion.",
+    "All provisional predecessors remain unreviewed; rebind evidence after title or hold changes."
+  ],
+  "reviewState": {
+    "reviewFrozen": false,
+    "reviewerStarted": false,
+    "predecessorsReviewedOrAccepted": false,
+    "holdsChangedOrCleared": false
+  }
+}

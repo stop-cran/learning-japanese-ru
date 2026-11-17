@@ -1,0 +1,770 @@
+{
+  "candidateScope": {
+    "candidateScopeSha256": "aea2cf1fd9fd01a186dee51d60a462b2e5913e3e119c310c1b6d6466e4cfc6b1",
+    "hashDomain": "SHA-256 of UTF-8 compact sorted JSON mapping each changed runtime path to its raw-file SHA-256",
+    "path": "batch162-candidate-scope.json",
+    "rawSha256": "9b27419496823111a8d2e2857c55b8f3ccee7560cbbe3cba3f38812e541a5741",
+    "runtimeFileCount": 37
+  },
+  "directDistractorDirections": {
+    "allReviewStatus": "UNVERIFIED",
+    "conditionalDependencies": [
+      {
+        "conditionalDependency": "Revalidate 査 if provisional predecessor card 担 is held or absent.",
+        "foil": "担",
+        "resolution": "provisionalBatch159",
+        "reviewStatus": "UNVERIFIED",
+        "target": "査"
+      },
+      {
+        "conditionalDependency": "Revalidate 械 if provisional predecessor card 枚 is held or absent.",
+        "foil": "枚",
+        "resolution": "provisionalBatch161",
+        "reviewStatus": "UNVERIFIED",
+        "target": "械"
+      },
+      {
+        "conditionalDependency": "Revalidate 棒 if provisional predecessor card 拝 is held or absent.",
+        "foil": "拝",
+        "resolution": "provisionalBatch159",
+        "reviewStatus": "UNVERIFIED",
+        "target": "棒"
+      },
+      {
+        "conditionalDependency": "Revalidate 森 if provisional predecessor card 村 is held or absent.",
+        "foil": "村",
+        "resolution": "provisionalBatch161",
+        "reviewStatus": "UNVERIFIED",
+        "target": "森"
+      },
+      {
+        "conditionalDependency": "Revalidate 森 if provisional predecessor card 柱 is held or absent.",
+        "foil": "柱",
+        "resolution": "provisionalBatch161",
+        "reviewStatus": "UNVERIFIED",
+        "target": "森"
+      },
+      {
+        "conditionalDependency": "Revalidate 極 if same-batch card 橋 is held or absent.",
+        "foil": "橋",
+        "resolution": "intraBatch162",
+        "reviewStatus": "UNVERIFIED",
+        "target": "極"
+      }
+    ],
+    "count": 45,
+    "resolutionCounts": {
+      "intraBatch162": 1,
+      "provisionalBatch159": 2,
+      "provisionalBatch161": 3,
+      "publishedC9fa": 39
+    }
+  },
+  "evidenceGeneratorSha256": "f08a6d60344796430d55a3ab5adf0b448ceeddb2b2de3897f867f15835138a23",
+  "holdDisposition": "All predecessor batches 157-161 remain provisional, unreviewed, and unaccepted. No hold was cleared or changed. Revalidate each conditional dependency if its referenced predecessor card is held or absent. Preserve the separately blocked caption candidate and all protected refs.",
+  "inheritedFutureHoldImpact": {
+    "addendumRawSha256": "06eebd30188a05e9ae8068331934c063378ae2376aa1e91c48db8b57ddae9c23",
+    "batch162Foils": [
+      {
+        "batch": 162,
+        "requires": "枚",
+        "target": "械"
+      },
+      {
+        "batch": 162,
+        "requires": "村",
+        "target": "森"
+      },
+      {
+        "batch": 162,
+        "requires": "柱",
+        "target": "森"
+      }
+    ],
+    "batch162LessonLinks": [
+      {
+        "batch": 162,
+        "linksTo": "枚",
+        "target": "械"
+      },
+      {
+        "batch": 162,
+        "linksTo": "柱",
+        "target": "棒"
+      },
+      {
+        "batch": 162,
+        "linksTo": "林",
+        "target": "森"
+      }
+    ],
+    "receiptPath": "batch161-future-hold-impact-162-176.json",
+    "receiptRawSha256": "156f0388d3d69b5d4b8fbdc5455d2e29663d5c79b0ed7439fb657483f0e9838b",
+    "scope": "Conditional source dependency inventory only; not a hold, semantic, review, or acceptance decision.",
+    "scopeCounts": {
+      "alreadyPublishedRows": 1,
+      "frozenBatchCount": 15,
+      "frozenLessonCount": 215,
+      "futureSourceFoils": 17,
+      "futureSourceLessonLinks": 10,
+      "pendingLessonsScanned": 214
+    },
+    "scriptRawSha256": "4d176e1c59f00028afbcdfae7cee55fd97edc3d31b55d4289054c4d5eca09ce7"
+  },
+  "kind": "full-ru-batch162-scratch-intake",
+  "lessonLinks": {
+    "conditionalLinks": [
+      {
+        "category": "planned-161",
+        "path": "kanji/林.md"
+      },
+      {
+        "category": "planned-161",
+        "path": "kanji/枚.md"
+      },
+      {
+        "category": "planned-161",
+        "path": "kanji/柱.md"
+      }
+    ],
+    "count": 56,
+    "resolutionCounts": {
+      "planned-161": 3,
+      "published": 22,
+      "unavailable": 31
+    },
+    "unavailableSourceLinksRemainUnlinked": true
+  },
+  "preservedBatch161Bindings": {
+    "candidateScopeRawSha256": "f218fd62a012f735576ece7ba72d92a7362031ec2327cbffccd11c8408cd3a33",
+    "candidateScopeSha256": "e1a46fcd286cb4e070a16d3772740f0afd133e408201a4c4492eae906727bee7",
+    "holdDisposition": "No predecessor hold decision is asserted or cleared. Batches 157-160 remain unreviewed/unaccepted provisional inputs. Revalidate each conditional edge if its referenced predecessor card is held or absent. Protected predecessor holds and the separate blocked 営 caption candidate remain unchanged.",
+    "intakeRawSha256": "e2dd56ec125c48cc18425e1a7c456ff68b8d506a733cc7bc8c443c30956bb765",
+    "predecessorStates": {
+      "batch157": {
+        "batch160ConditionalFoils": [
+          {
+            "batch": "160",
+            "requires": "届",
+            "target": "掘"
+          }
+        ],
+        "batch160ConditionalLessonLinks": [
+          {
+            "batch": "160",
+            "linksTo": "届",
+            "target": "掘"
+          }
+        ],
+        "glyphs": [
+          "委",
+          "季",
+          "孫",
+          "宇",
+          "宝",
+          "寺",
+          "封",
+          "専",
+          "将",
+          "尊",
+          "導",
+          "届",
+          "層",
+          "岩",
+          "岸"
+        ],
+        "holdImpactRawSha256": "af52b092132b6189ee11893a958b43f759a1447cf5bf058ea289e7d0269015c6",
+        "scopeSha256": "0cb55014d3426fd06dbbc75314407c8f4dd844d50968844c484743f9b627e782",
+        "status": "hypothetical overlay; not independently reviewed or accepted"
+      },
+      "batch158": {
+        "batch160EdgesInProvidedInventory": [],
+        "currentContentVersion": "02fbdd10ae77955d",
+        "futureHoldImpact159To176RawSha256": "717c02673e60047db8cb91d95b76d43d4b1c4a1c345cb5babc9f18de1c3be57e",
+        "glyphs": [
+          "島",
+          "州",
+          "巨",
+          "巻",
+          "布",
+          "希",
+          "帯",
+          "帽",
+          "幅",
+          "干",
+          "幼",
+          "庁",
+          "床",
+          "底",
+          "府"
+        ],
+        "intakeRawSha256": "653ad4b807e6bfd187a1cbd002648ccd8cc890379c3fd0d5769e94e47f324a53",
+        "status": "draft; not independently reviewed or accepted"
+      },
+      "batch159": {
+        "batch160ConditionalFoils": [
+          {
+            "batch": 160,
+            "requires": "技",
+            "target": "挟"
+          },
+          {
+            "batch": 160,
+            "requires": "技",
+            "target": "採"
+          },
+          {
+            "batch": 160,
+            "requires": "技",
+            "target": "接"
+          }
+        ],
+        "batch160ConditionalLessonLinks": [],
+        "candidateScopeSha256": "461227e55a88c1aa017b865a8731d942d0db3960c3dd902d46343e464667f421",
+        "futureHoldImpact160To176RawSha256": "ae61132e7daabab3c3281b5018d4ebac439fa84ec55e0f5650b156b7c2b4e7b5",
+        "futureHoldImpactScriptRawSha256": "f9db0b34b580e3a27d62f4a0e3c18ff8dedda0591c04debd339098d77ae76754",
+        "glyphs": [
+          "庫",
+          "延",
+          "弱",
+          "律",
+          "復",
+          "快",
+          "恋",
+          "患",
+          "悩",
+          "憎",
+          "戸",
+          "承",
+          "技",
+          "担",
+          "拝"
+        ],
+        "intakeRawSha256": "0b00ce2f54b1a8a2fdfffcf252655fb41bff271b109bb872432cb1ed386925f4",
+        "pairScreenReceiptRawSha256": "6ea928ee76af8a46e2920c96d9a444be716275cdf39875649200183321c4cd57",
+        "status": "draft; not independently reviewed or accepted",
+        "voiceEvidenceContext": "Coordinator-provided screen: four normalized title-variant pairs match the exact-segment leads. In constructed five-due-plus-two-borrowed N5/Starter pools, all eight directions co-displayed and the shared utterance returned null; a fixed hypothetical inclusive N2 pool filled all three curated wrong slots. The pools and Review-phase borrowings are synthetic; this is not semantic, drawing, real-ASR/device, frequency, or independent-review evidence.",
+        "voiceEvidenceQualification": [
+          "Only exact normalized full-title or title-part variants emitted by each matcher are grouped.",
+          "Shared variants are not a semantic, drawing, co-display, ASR, frequency, or release verdict.",
+          "No partial, approximate, concatenated, or multiple-hypothesis utterances are enumerated.",
+          "All three provisional batches, holds and predecessor must be rebound before review or publication."
+        ],
+        "voiceVariantScreenRawSha256": "7cca5e4f57b823743b16381ff7d8177a27576d5e2df383ef9a2822fa566168c3"
+      },
+      "batch160": {
+        "candidateCaptionSegmentScreenRawSha256": "876c4817b9bf30f60797500b18742d3c5f534bd6a0ae14280b141de20665c64f",
+        "candidateFiles": {
+          "kanji/挟.md": "f83260841aa01212609d16728a278e8abb85501878a8c21082d651cd4e2d991f",
+          "kanji/掃.md": "dba93e2f4467325a789db660184271f12c4fed28089f8100eca5a4e1a10a0e5e",
+          "kanji/掘.md": "f653ed325e72ec0c22f72b1a2f8cb3a2467b4e07d4a10645ff8adf68519fba32",
+          "kanji/採.md": "067050aace0eba23a82b868e51bfbdf825b4f482b0c59291bd8b14d6645a4036",
+          "kanji/接.md": "84208a047ba8ab102777b79eb5e75717ed89b470846e1405b0785cac9391f25d",
+          "kanji/換.md": "054ed1aa73e8ff8f0b1c3a257b4f5b513908b4d63bffafc226a00f71e906316f",
+          "kanji/損.md": "aef182385b6fbf8e2faff5bd76a6c8e153c21ef0be9004af68e749739b2a0b36",
+          "kanji/改.md": "c7bffa69b1a707a1e639b3f2c91783c2949c9aeaa2dea529eb7be2ae7b8c2354",
+          "kanji/敬.md": "38559665d97c1c2c2eea93fa15e294723115311a45249ea177700aff7097e5bf",
+          "kanji/旧.md": "fd09b765830176f8e4643def5cfeccefdb2990f3a113495d827c112169dd60c8",
+          "kanji/昇.md": "f151780b3635753c22beb07b0ebd3856ab67e201f0951cfb05374ff43dc7c871",
+          "kanji/星.md": "253252930679b5eb2214be3f3b0c27540ba2440f49e78623e6325e5d6c27f159",
+          "strokes/挟.json": "7eaa8d50bab835cb1a45c57247d03aac5ff0545e41bf1e295d7dfc979892d5fa",
+          "strokes/掃.json": "63085fc2a2f6e6ef097585cb20f56c78753c055be2905eb1bc0bd607b771c2c8",
+          "strokes/掘.json": "b8dbf0888bfef874ca6d4dc5a609e5f84f54c048cdc061925cd47edc005b04d5",
+          "strokes/採.json": "8b1df4c7181dbdaf137c03ef40e577421e97730f76cccde34ab4263cb7ab1fbf",
+          "strokes/接.json": "54b7251504ff2376469b8770289735e6026db25d724cdf0d850087e32fab17aa",
+          "strokes/換.json": "f233b3e80eeffce2e0f1191dc2413e67388590b9122a5c0a7806ce2d166c9e5e",
+          "strokes/損.json": "c0663c29bc3c3e1f5b40bb70f1094e6297c63061ec35508ccb0219124120137b",
+          "strokes/改.json": "8a307b3d790e1d39836ed9aed8850c04152e161426254ef2c15514ad34c90fbb",
+          "strokes/敬.json": "1820156f0849fbf15f0d36b5d5aedb0c0757cece19e69aa5c1c74738a5d88888",
+          "strokes/旧.json": "eff36f5d361b1c15a2515f988679e77a30345dd61b3e01d16cd3bc7665887e1c",
+          "strokes/昇.json": "837584e90e93a2f46bd472c446151a796bafeb3eb024866cb6f67a0d4886f351",
+          "strokes/星.json": "1e18f5a2c4b9b01ab720e3483ecfddbc4a0186d81136c5f3640797d9d68f4d0f",
+          "words/乗り換える.md": "eafa260e4ee0e85f990cb2d1c6e94742b173169048ba7cdb84baef1bd1abcf1c",
+          "words/掃除.md": "08671bb68b1f351ac27ed5f3ba62a14d05a38ec8619c005f4e1f9ad400e4ed3f",
+          "words/星.md": "0b5d32fe97e45e0c32b9cee56bfb6a650292c92c7c67fcd1593196bc1e418810"
+        },
+        "candidateScopeSha256": "dba395b05e61bb59305a48fd006f850c076921dc59780c726c4dc57d35029c3c",
+        "directDistractorDirections": {
+          "allReviewStatus": "UNVERIFIED",
+          "count": 45,
+          "resolutionCounts": {
+            "batch160-source-scope": 6,
+            "provisionalBatch157": 1,
+            "provisionalBatch159": 3,
+            "publishedC9fa": 35
+          },
+          "rows": [
+            {
+              "conditionalDependency": null,
+              "foil": "捨",
+              "resolution": "batch160-source-scope",
+              "reviewStatus": "UNVERIFIED",
+              "target": "拾"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "指",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "拾"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "押",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "拾"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "捜",
+              "resolution": "batch160-source-scope",
+              "reviewStatus": "UNVERIFIED",
+              "target": "挟"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "捨",
+              "resolution": "batch160-source-scope",
+              "reviewStatus": "UNVERIFIED",
+              "target": "挟"
+            },
+            {
+              "conditionalDependency": "Revalidate 挟 if provisional predecessor card 技 is held or absent.",
+              "foil": "技",
+              "resolution": "provisionalBatch159",
+              "reviewStatus": "UNVERIFIED",
+              "target": "挟"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "押",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "捜"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "捨",
+              "resolution": "batch160-source-scope",
+              "reviewStatus": "UNVERIFIED",
+              "target": "捜"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "招",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "捜"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "拾",
+              "resolution": "batch160-source-scope",
+              "reviewStatus": "UNVERIFIED",
+              "target": "捨"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "持",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "捨"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "招",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "捨"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "帰",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "掃"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "婦",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "掃"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "指",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "掃"
+            },
+            {
+              "conditionalDependency": "Revalidate 掘 if provisional predecessor card 届 is held or absent.",
+              "foil": "届",
+              "resolution": "provisionalBatch157",
+              "reviewStatus": "UNVERIFIED",
+              "target": "掘"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "指",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "掘"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "押",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "掘"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "捨",
+              "resolution": "batch160-source-scope",
+              "reviewStatus": "UNVERIFIED",
+              "target": "採"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "押",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "採"
+            },
+            {
+              "conditionalDependency": "Revalidate 採 if provisional predecessor card 技 is held or absent.",
+              "foil": "技",
+              "resolution": "provisionalBatch159",
+              "reviewStatus": "UNVERIFIED",
+              "target": "採"
+            },
+            {
+              "conditionalDependency": "Revalidate 接 if provisional predecessor card 技 is held or absent.",
+              "foil": "技",
+              "resolution": "provisionalBatch159",
+              "reviewStatus": "UNVERIFIED",
+              "target": "接"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "押",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "接"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "抜",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "接"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "探",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "換"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "指",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "換"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "招",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "換"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "員",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "損"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "指",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "損"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "招",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "損"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "放",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "改"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "記",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "改"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "忘",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "改"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "警",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "敬"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "散",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "敬"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "放",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "敬"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "日",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "旧"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "白",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "旧"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "目",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "旧"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "早",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "昇"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "界",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "昇"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "果",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "昇"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "晴",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "星"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "早",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "星"
+            },
+            {
+              "conditionalDependency": null,
+              "foil": "昨",
+              "resolution": "publishedC9fa",
+              "reviewStatus": "UNVERIFIED",
+              "target": "星"
+            }
+          ]
+        },
+        "intakeRawSha256": "98a420c47d7db917605dade0a322dbfa28c140cc4ddeb155c4ac6c8f0bbb91e2",
+        "newProvisionalDraftGlyphs": [
+          "挟",
+          "掃",
+          "掘",
+          "採",
+          "接",
+          "換",
+          "損",
+          "改",
+          "敬",
+          "旧",
+          "昇",
+          "星"
+        ],
+        "publishedBaseCommit": "c9fa34ca61c057d60f4be789917437c3d3bd4197",
+        "reviewStatus": "unreviewed and unaccepted; retain only as a conditional provisional predecessor",
+        "sourceCaptionScreenRawSha256": "1717b79e1c86251431507df6de813227abb35d2dc40e023f735a788f53a5b350",
+        "sourceCheckRawSha256": "2dc505c837ff46daba5bc0e3885250d882479604f90bf8b54a61f10c7cef2314",
+        "sourceRowsAlreadyPublishedAndRetained": [
+          "拾",
+          "捜",
+          "捨"
+        ],
+        "status": "draft-only; technically validated, not independently reviewed, accepted, published, or release-approved"
+      },
+      "holdDisposition": "No predecessor hold decision is asserted by these inventories; predecessor review/acceptance remains unresolved. Revalidate each conditional dependency if its predecessor card is held or absent.",
+      "rebindRequiredBeforeAnyLaterReview": true
+    },
+    "sourceCheckRawSha256": "4a77a9eac109c4385c2ca3a40b4d7071c846fc1ce62b8093d455d51138b40668"
+  },
+  "publication": {
+    "commitCreated": false,
+    "progressUpdated": false,
+    "published": false,
+    "pushPerformed": false
+  },
+  "reviewScope": {
+    "reviewFreezeCreated": false,
+    "reviewSlotUsed": false,
+    "reviewerStarted": false
+  },
+  "scope": {
+    "batch": 162,
+    "frozenSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "glyphs": [
+      "査",
+      "栄",
+      "根",
+      "械",
+      "棒",
+      "森",
+      "植",
+      "極",
+      "橋",
+      "欧",
+      "武",
+      "歴",
+      "殿",
+      "毒",
+      "比"
+    ],
+    "publishedBaseCommit": "c9fa34ca61c057d60f4be789917437c3d3bd4197",
+    "sourceBatch": 11,
+    "sourcePrepRawSha256": "9f75f068066bc35a8499b6aa3a33175f93b6c2da82bacf5c636292c71a6f77c6"
+  },
+  "sourceCheck": {
+    "path": "batch162-source-check.json",
+    "rawSha256": "f0aceb0d194e75eabbd7b9481f3d20ba24e5be7d0c9b4dfa51084173d16fa458"
+  },
+  "sourceTitlePairLeads": {
+    "qualification": "Exact English source-title segment leads only; no Russian semantic, voice, co-display, drawing, review, or acceptance conclusion.",
+    "rows": [
+      {
+        "foil": "調",
+        "foilCategory": "published",
+        "foilSource": {
+          "publishedGitBlob": "f202d7576a3b9f725acace227575b2147f8f0ad6",
+          "publishedRussianTitle": "исследовать; настраивать",
+          "sourceGitBlob": "69c2f1fb98b42d6cd6d1a92700d1acc14bdb7748",
+          "sourceSha256": "e7b3de09b7c536e8bde4f9807d8a8d55380027cb0a2ee1e2a418c2a12499c38d",
+          "title": "investigate; tune"
+        },
+        "sharedExactSourceSegments": [
+          "investigate"
+        ],
+        "target": "査",
+        "targetSource": {
+          "sourceGitBlob": "08024b608d094d9e3eaf9cf8274a11cf02f060fa",
+          "sourceSha256": "ee6b263da17658bba77cf20fddb2696b78e4ca3a37b21639b8a685a586d3fa89",
+          "title": "investigate; inspect"
+        }
+      },
+      {
+        "foil": "史",
+        "foilCategory": "published",
+        "foilSource": {
+          "publishedGitBlob": "7134d71a92d838c236349a5742fb266143f9ddc9",
+          "publishedRussianTitle": "история; летопись",
+          "sourceGitBlob": "1c234b0f7fc22e73c8d1beca7aea467afb5b5f11",
+          "sourceSha256": "2b573872d84e7d0a0c606c4efb19375fd6126477147c7eb8d14124fdd807c51a",
+          "title": "history; chronicle"
+        },
+        "sharedExactSourceSegments": [
+          "history"
+        ],
+        "target": "歴",
+        "targetSource": {
+          "sourceGitBlob": "3142a175ed867d94712eceb8db1e9752b2699cb0",
+          "sourceSha256": "5f939392c37c33d19e5c40be6697cf83125847a5f1e48ed6d99ed8a4ba87c459",
+          "title": "history; passage of time"
+        }
+      }
+    ]
+  },
+  "status": "draft-only; technically validated, not independently reviewed, accepted, published, or release-approved",
+  "validation": {
+    "contentBudget": {
+      "command": "python -X utf8 -B tools\\check_content_budget.py",
+      "entries": 3079,
+      "files": 3070,
+      "inflatedBytes": 8490328,
+      "listeningTaskMediaBytes": 0,
+      "localZipBytes": 4238919,
+      "retainedBytes": 8472177,
+      "status": "passed"
+    },
+    "manifestBuild": {
+      "command": "python -X utf8 -B tools\\build_manifest.py",
+      "output": "3062 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks; version 848436e521514554",
+      "status": "passed"
+    },
+    "unitTests": {
+      "command": "python -X utf8 -B -m unittest discover -s tools -p 'test_*.py'",
+      "passed": 124,
+      "status": "passed"
+    },
+    "validator": {
+      "command": "python -X utf8 -B tools\\validate.py",
+      "errors": 0,
+      "status": "passed"
+    }
+  },
+  "wordPageChanges": {
+    "count": 7,
+    "paths": [
+      "words/森.md",
+      "words/植える.md",
+      "words/極.md",
+      "words/橋.md",
+      "words/歴史.md",
+      "words/比べる.md",
+      "words/泥棒.md"
+    ],
+    "purpose": "Navigation-only backlinks to the new kanji pages."
+  }
+}
