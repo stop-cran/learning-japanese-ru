@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "kind": "review-verbatim-provenance-correction",
+  "status": "supplemental correction; original scope-bound artifact preserved unchanged",
+  "priorReview": {
+    "reviewedScopeSha256": "7f84228b5189cf0cd0197180cdf0d38b825f726a2731947ab24a533ba1f8c252",
+    "originalCombinedArtifact": {
+      "path": "docs/translation-batches/155-published-caption-independent-review-002-verbatim.md",
+      "sha256": "f540a2be30ba7d334f5dca950dcf2e38597bed45679a599296bcb2c30f8252b6",
+      "utf8Bytes": 4721,
+      "preservedUnmodified": true
+    },
+    "exactOriginalFirstMessage": {
+      "sourceArtifact": "original-review-002-message.txt (session evidence)",
+      "repositoryCopy": "docs/translation-batches/155-published-caption-independent-review-002-original-message-corrected.md",
+      "sha256": "e67d87f0a38c18b19dff692edf89037e0184f0e3416d061dc3cd00ea7e8a65e0",
+      "utf8Bytes": 4292,
+      "matchesFullSourceBytes": true
+    },
+    "separateExactCorrection": {
+      "sourceArtifact": "original-review-002-correction.txt (session evidence)",
+      "repositoryCopy": "docs/translation-batches/155-published-caption-independent-review-002-correction-verbatim.md",
+      "sha256": "112db597c0693b82b6f18d327a649c1c033c925d0378d0a3b7c9fddfc3b0e3e4",
+      "utf8Bytes": 269,
+      "matchesFullSourceBytes": true
+    },
+    "singleTranscriptionDifference": {
+      "incorrectPreservedText": "the nonexclusive Russian-only “солнце” example",
+      "exactOriginalText": "the nonexclusive `например` example",
+      "replacementCount": 1,
+      "correctedFirstMessageMatchesOriginal": true
+    },
+    "reviewerCorrectionAt": "2026-11-12T01:20:27Z"
+  },
+  "currentNinePairReview": {
+    "scopeReviewId": "batch-155-nine-pair-caption-voice-review-20261112",
+    "scopeSha256": "4a997b756d3fee3cfb2e0b88229b23322fc3bbd114f26807ed9c6c4851fbd273",
+    "handoffArtifact": {
+      "path": "docs/translation-batches/155-caption-nine-pair-independent-review-003-verbatim.md",
+      "sha256": "b078a7ea1fc1e246b8f0da340ccdbb0f182b9026209a513342e356d83442215c",
+      "utf8Bytes": 8307,
+      "matchesSuppliedHandoffFingerprint": true
+    },
+    "separateTaskCompleteSummary": {
+      "sha256": "81884304f97e2b7d128cb0524bb0ae749f9405a66c22370a09e172c8642cdfef",
+      "utf8Bytes": 6998,
+      "bodyStoredHere": false,
+      "note": "Distinct summary fingerprint supplied by coordinator; not conflated with the preserved send_session_message handoff."
+    },
+    "reviewerSessionId": "[private locator or identifier omitted]",
+    "archived": true
+  },
+  "semanticImpact": {
+    "candidateBytesChangedByThisCorrection": false,
+    "assessment": "The correction restores the original nonexclusive-example wording in the prior reviewer message. The nine-pair handoff directly evaluates the frozen source and current candidate; its qualified findings do not inherit the prior review verdict. This provenance-only correction does not change those findings or approve the candidate.",
+    "reReviewRequiredForThisCorrectionAlone": false,
+    "limitation": "Any subsequent candidate caption edit requires a new exact-byte scope and independent review; this record is not review or publication approval."
+  },
+  "scopeBindingPolicy": "The old scope and its SHA-256 remain unchanged and continue to bind the original combined artifact hash. This correction is a separate, additive provenance record; do not overwrite or silently substitute the old artifact."
+}

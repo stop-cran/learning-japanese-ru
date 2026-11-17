@@ -1,0 +1,1 @@
+Correction to the 太 H1 typography in my report: the exact string is `# 太 — толстый в обхвате; полный; великий (например, в слове со значением «солнце»)` — it ends with exactly one closing parenthesis.

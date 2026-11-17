@@ -1,0 +1,586 @@
+diff --git a/docs/content-format-reference.md b/docs/content-format-reference.md
+index 08a58ea..624da73 100644
+--- a/docs/content-format-reference.md
++++ b/docs/content-format-reference.md
+@@ -93,6 +93,16 @@ python -X utf8 -B -m unittest discover -s tools -p "test_*.py"
+ не следует портировать буквально на ограниченный RU scope: добавьте валидный smoke на выбранные элементы,
+ не пропускайте отсутствующие файлы и не добавляйте незаказанные уроки ради теста.
+ 
++В `kanji/*.md` поле `quiz_exclusions` необязательно; если оно задано, используйте ровно один
++некавыченный ключ верхнего уровня и inline-список. Допускается отсутствие поля или пустой список.
++Каждый элемент должен быть одним кодовым пунктом Unicode без пробелов, управляющих символов,
++суррогатов, Unicode noncharacters и разделителей пути, совпадать с точным регистром ID существующей
++карточки, не повторяться, не указывать на саму карточку и не дублировать её `distractors`.
++`tools/validate.py` проверяет только структуру и целостность ID: он не оценивает смысловую различимость,
++взаимность пары, совместимость приложения или безопасность fallback. Семантическая проверка пары остаётся
++отдельной; транзитивные исключения не выводятся. В content-папках он также сообщает о не-файловых `.md`
++элементах и продолжает проверку остальных файлов. Контракт других namespace этим не меняется.
++
+ - Проверьте видимые русские title и distractor-пары по смыслу, а не только на равенство строк. Учитывайте
+   вторичные обычные значения, регистр, читаемое пользователю написание и конкретный вопрос.
+ - `quiz_exclusions` — прямые симметричные пары, не транзитивная группа; не ослабляйте ограничения, чтобы
+diff --git a/docs/translation-tracking.json b/docs/translation-tracking.json
+index b0a1803..2f9d75a 100644
+--- a/docs/translation-tracking.json
++++ b/docs/translation-tracking.json
+@@ -4059,12 +4059,16 @@
+     "docs/translation-batches/091-rows-beginnings-judgment-benefit-arrival-regulation-carving-and-division-kanji-independent-review-001.json",
+     "docs/translation-batches/091-rows-beginnings-judgment-benefit-arrival-regulation-carving-and-division-kanji-review-qualification-dispositions-001.json",
+     "docs/translation-batches/091-rows-beginnings-judgment-benefit-arrival-regulation-carving-and-division-kanji-independent-review.json",
+-    "docs/translation-batches/091-rows-beginnings-judgment-benefit-arrival-regulation-carving-and-division-kanji-reviewed-source.json"
++    "docs/translation-batches/091-rows-beginnings-judgment-benefit-arrival-regulation-carving-and-division-kanji-reviewed-source.json",
++    "docs/translation-batches/155-published-caption-independent-review-002.md",
++    "docs/translation-batches/155-published-caption-independent-review-002-verbatim.md",
++    "docs/translation-batches/155-published-caption-source-bound-amendment-001.json",
++    "docs/translation-batches/155-published-caption-independent-review-002-provenance-correction-001.json"
+    ],
+    "reviewStatus": "accepted",
+-   "ruGitRawSha256": "ee0ef8bb61f83b99b57fedff1fbfe14ae84d7527457dd0eebfb29f9024b68cdf",
+-   "ruRawSha256": "ee0ef8bb61f83b99b57fedff1fbfe14ae84d7527457dd0eebfb29f9024b68cdf",
+-   "ruSha256": "ee0ef8bb61f83b99b57fedff1fbfe14ae84d7527457dd0eebfb29f9024b68cdf",
++   "ruGitRawSha256": "fc21b50b4b92bcbbe8c24d9a3d302a2c8f906468df94a0d3fcd321114d3a4381",
++   "ruRawSha256": "fc21b50b4b92bcbbe8c24d9a3d302a2c8f906468df94a0d3fcd321114d3a4381",
++   "ruSha256": "fc21b50b4b92bcbbe8c24d9a3d302a2c8f906468df94a0d3fcd321114d3a4381",
+    "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "sourceRawSha256": "a7808845571d0b6ad34a551778ea3f32281943f037c16cf333337965fcbafd3c",
+    "sourceSha256": "a7808845571d0b6ad34a551778ea3f32281943f037c16cf333337965fcbafd3c"
+@@ -5171,11 +5175,15 @@
+     "docs/translation-batches/155-n2-batch-04-independent-review-001.md",
+     "docs/translation-batches/155-n2-batch-04-semantic-review-001.md",
+     "docs/translation-batches/155-n2-batch-04-semantic-review-followup-001.md",
+-    "docs/translation-batches/155-n2-batch-04-copy-edit-amendment-001.json"
++    "docs/translation-batches/155-n2-batch-04-copy-edit-amendment-001.json",
++    "docs/translation-batches/155-published-caption-independent-review-002.md",
++    "docs/translation-batches/155-published-caption-independent-review-002-verbatim.md",
++    "docs/translation-batches/155-published-caption-source-bound-amendment-001.json",
++    "docs/translation-batches/155-published-caption-independent-review-002-provenance-correction-001.json"
+    ],
+    "reviewStatus": "accepted",
+-   "ruRawSha256": "a4ad9a887e003900793d8b616a7eac76fbe73bd406409e68a02382cd50f108d9",
+-   "ruSha256": "a4ad9a887e003900793d8b616a7eac76fbe73bd406409e68a02382cd50f108d9",
++   "ruRawSha256": "3d27564c74b60440a8350405a523334c5fb16fdcb7d844002175fa991fcdd09f",
++   "ruSha256": "3d27564c74b60440a8350405a523334c5fb16fdcb7d844002175fa991fcdd09f",
+    "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "sourceRawSha256": "9c0ebe13a7823568df987874309426c69a86222a4337c484fa741765a581de76",
+    "sourceSha256": "9c0ebe13a7823568df987874309426c69a86222a4337c484fa741765a581de76"
+@@ -5292,11 +5300,15 @@
+     "docs/translation-batches/155-n2-batch-04-independent-review-001.md",
+     "docs/translation-batches/155-n2-batch-04-semantic-review-001.md",
+     "docs/translation-batches/155-n2-batch-04-semantic-review-followup-001.md",
+-    "docs/translation-batches/155-n2-batch-04-copy-edit-amendment-001.json"
++    "docs/translation-batches/155-n2-batch-04-copy-edit-amendment-001.json",
++    "docs/translation-batches/155-published-caption-independent-review-002.md",
++    "docs/translation-batches/155-published-caption-independent-review-002-verbatim.md",
++    "docs/translation-batches/155-published-caption-source-bound-amendment-001.json",
++    "docs/translation-batches/155-published-caption-independent-review-002-provenance-correction-001.json"
+    ],
+    "reviewStatus": "accepted",
+-   "ruRawSha256": "cb5fd5daed4659db63c59c992b49fc197e7c5e233acfa050d7355f07fbf4244d",
+-   "ruSha256": "cb5fd5daed4659db63c59c992b49fc197e7c5e233acfa050d7355f07fbf4244d",
++   "ruRawSha256": "dd3d3364fa0392dbbb5f97bb3add83492aa76cb85cccf530fecc268f749e4195",
++   "ruSha256": "dd3d3364fa0392dbbb5f97bb3add83492aa76cb85cccf530fecc268f749e4195",
+    "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "sourceRawSha256": "fc351c7748a2c1fc2664ac52fef8e152843c2cd1e13aa961463d3bf02d01a1e1",
+    "sourceSha256": "fc351c7748a2c1fc2664ac52fef8e152843c2cd1e13aa961463d3bf02d01a1e1"
+@@ -6172,11 +6184,15 @@
+     "docs/translation-batches/155-n2-batch-04-independent-review-001.md",
+     "docs/translation-batches/155-n2-batch-04-semantic-review-001.md",
+     "docs/translation-batches/155-n2-batch-04-semantic-review-followup-001.md",
+-    "docs/translation-batches/155-n2-batch-04-copy-edit-amendment-001.json"
++    "docs/translation-batches/155-n2-batch-04-copy-edit-amendment-001.json",
++    "docs/translation-batches/155-published-caption-independent-review-002.md",
++    "docs/translation-batches/155-published-caption-independent-review-002-verbatim.md",
++    "docs/translation-batches/155-published-caption-source-bound-amendment-001.json",
++    "docs/translation-batches/155-published-caption-independent-review-002-provenance-correction-001.json"
+    ],
+    "reviewStatus": "accepted",
+-   "ruRawSha256": "91b184bf27ac1c01c73205a9e43c4ee2e793ee26e3e51a5eb03119e45253a28e",
+-   "ruSha256": "91b184bf27ac1c01c73205a9e43c4ee2e793ee26e3e51a5eb03119e45253a28e",
++   "ruRawSha256": "139598630b3a4590e046d4377f976d91065f15f4cc23685f8b8be0393c4c1a60",
++   "ruSha256": "139598630b3a4590e046d4377f976d91065f15f4cc23685f8b8be0393c4c1a60",
+    "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "sourceRawSha256": "2909fa07814f5da29e5e1ac05ebe8b62583d9cd8622382c6e0fb9e15e3f754de",
+    "sourceSha256": "2909fa07814f5da29e5e1ac05ebe8b62583d9cd8622382c6e0fb9e15e3f754de"
+@@ -6264,11 +6280,15 @@
+     "docs/translation-batches/155-n2-batch-04-independent-review-001.md",
+     "docs/translation-batches/155-n2-batch-04-semantic-review-001.md",
+     "docs/translation-batches/155-n2-batch-04-semantic-review-followup-001.md",
+-    "docs/translation-batches/155-n2-batch-04-copy-edit-amendment-001.json"
++    "docs/translation-batches/155-n2-batch-04-copy-edit-amendment-001.json",
++    "docs/translation-batches/155-published-caption-independent-review-002.md",
++    "docs/translation-batches/155-published-caption-independent-review-002-verbatim.md",
++    "docs/translation-batches/155-published-caption-source-bound-amendment-001.json",
++    "docs/translation-batches/155-published-caption-independent-review-002-provenance-correction-001.json"
+    ],
+    "reviewStatus": "accepted",
+-   "ruRawSha256": "9405f870f55a4694f3d32ad1d11380298f5690f13ef88424c2f95429455c6a9d",
+-   "ruSha256": "9405f870f55a4694f3d32ad1d11380298f5690f13ef88424c2f95429455c6a9d",
++   "ruRawSha256": "022bfe7883fa4de690804a3627a85ce414624508f03cc108ab4bbad855b7bfbd",
++   "ruSha256": "022bfe7883fa4de690804a3627a85ce414624508f03cc108ab4bbad855b7bfbd",
+    "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "sourceRawSha256": "47d7289beee6b179e724d7b13e22bd43a7dbf0c2c7269f594963c889ef9c6f57",
+    "sourceSha256": "47d7289beee6b179e724d7b13e22bd43a7dbf0c2c7269f594963c889ef9c6f57"
+@@ -7077,12 +7097,16 @@
+     "docs/translation-batches/100-change-thick-husband-and-loss-kanji-independent-review-001.json",
+     "docs/translation-batches/100-change-thick-husband-and-loss-kanji-review-qualification-dispositions-001.json",
+     "docs/translation-batches/100-change-thick-husband-and-loss-kanji-independent-review.json",
+-    "docs/translation-batches/100-change-thick-husband-and-loss-kanji-reviewed-source.json"
++    "docs/translation-batches/100-change-thick-husband-and-loss-kanji-reviewed-source.json",
++    "docs/translation-batches/155-published-caption-independent-review-002.md",
++    "docs/translation-batches/155-published-caption-independent-review-002-verbatim.md",
++    "docs/translation-batches/155-published-caption-source-bound-amendment-001.json",
++    "docs/translation-batches/155-published-caption-independent-review-002-provenance-correction-001.json"
+    ],
+    "reviewStatus": "accepted",
+-   "ruGitRawSha256": "908efa4f2385570cb7cb6ab2eadd2f9b1bc14748a4abf468e05f02b9746355fd",
+-   "ruRawSha256": "908efa4f2385570cb7cb6ab2eadd2f9b1bc14748a4abf468e05f02b9746355fd",
+-   "ruSha256": "908efa4f2385570cb7cb6ab2eadd2f9b1bc14748a4abf468e05f02b9746355fd",
++   "ruGitRawSha256": "7f8a0c09bd76ad5316243314671703acdf414e647911c70fd8e54e8a9c2d709d",
++   "ruRawSha256": "7f8a0c09bd76ad5316243314671703acdf414e647911c70fd8e54e8a9c2d709d",
++   "ruSha256": "7f8a0c09bd76ad5316243314671703acdf414e647911c70fd8e54e8a9c2d709d",
+    "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "sourceRawSha256": "8207454c77fe26341a5d134c5a2cae0ba4f900000f159f4feb389744dfc16c78",
+    "sourceSha256": "8207454c77fe26341a5d134c5a2cae0ba4f900000f159f4feb389744dfc16c78"
+diff --git a/kanji/判.md b/kanji/判.md
+index f9d8231..1e8e55b 100644
+--- a/kanji/判.md
++++ b/kanji/判.md
+@@ -1,6 +1,6 @@
+ ---
+ kanji: 判
+-title: суждение; печать
++title: суждение; печать (в том числе личная)
+ jlpt: 3
+ tags: [jlpt-n3, grade-5, structure-unclassified]
+ strokes: 7
+@@ -11,7 +11,7 @@ kunyomi: [わか.る]
+ distractors: [半, 列, 利]
+ ---
+ 
+-# 判 — суждение; печать
++# 判 — суждение; печать (в том числе личная)
+ 
+ **Черты:** 7 · **Ключ (радикал):** 刀 (№ 18) · **JLPT:** N3 (список сообщества)
+ 
+diff --git a/kanji/厚.md b/kanji/厚.md
+index 5e7aebe..92d6fb1 100644
+--- a/kanji/厚.md
++++ b/kanji/厚.md
+@@ -1,6 +1,6 @@
+ ---
+ kanji: 厚
+-title: толстый; сердечный
++title: толстый (в том числе о толщине книги); сердечный
+ jlpt: 2
+ tags: [jlpt-n2, grade-5, structure-unclassified]
+ strokes: 9
+@@ -11,7 +11,7 @@ kunyomi: [あつ.い, あか]
+ distractors: [原, 屋, 度]
+ ---
+ 
+-# 厚 — толстый; сердечный
++# 厚 — толстый (в том числе о толщине книги); сердечный
+ 
+ **Черты:** 9 · **Ключ (радикал):** 厂 (№ 27) · **JLPT:** N2 (список сообщества)
+ 
+diff --git a/kanji/双.md b/kanji/双.md
+index eadc1f9..58aa7cf 100644
+--- a/kanji/双.md
++++ b/kanji/双.md
+@@ -1,6 +1,6 @@
+ ---
+ kanji: 双
+-title: пара; оба
++title: пара; оба (вместе)
+ jlpt: 2
+ tags: [jlpt-n2, grade-8, structure-unclassified]
+ strokes: 4
+@@ -11,7 +11,7 @@ kunyomi: [ふた, たぐい, ならぶ, ふたつ]
+ distractors: [友, 反, 支]
+ ---
+ 
+-# 双 — пара; оба
++# 双 — пара; оба (вместе)
+ 
+ **Черты:** 4 · **Ключ (радикал):** 又 (№ 29) · **JLPT:** N2 (список сообщества)
+ 
+diff --git a/kanji/営.md b/kanji/営.md
+index 40be1e4..3d11133 100644
+--- a/kanji/営.md
++++ b/kanji/営.md
+@@ -1,6 +1,6 @@
+ ---
+ kanji: 営
+-title: вести дело; управлять
++title: вести дело; деятельность; управлять (в том числе предприятием)
+ jlpt: 2
+ tags: [jlpt-n2, grade-5, structure-unclassified]
+ strokes: 12
+@@ -11,7 +11,7 @@ kunyomi: [いとな.む, いとな.み]
+ distractors: [覚, 堂, 常]
+ ---
+ 
+-# 営 — вести дело; управлять
++# 営 — вести дело; деятельность; управлять (в том числе предприятием)
+ 
+ **Черты:** 12 · **Ключ (радикал):** 口 (№ 30) · **JLPT:** N2 (список сообщества)
+ 
+diff --git a/kanji/団.md b/kanji/団.md
+index 5be830b..9d94c32 100644
+--- a/kanji/団.md
++++ b/kanji/団.md
+@@ -1,6 +1,6 @@
+ ---
+ kanji: 団
+-title: группа; объединение
++title: группа; объединение; скопление
+ jlpt: 2
+ tags: [jlpt-n2, grade-5, structure-unclassified]
+ strokes: 6
+@@ -11,7 +11,7 @@ kunyomi: [かたまり, まる.い]
+ distractors: [困, 図, 因]
+ ---
+ 
+-# 団 — группа; объединение
++# 団 — группа; объединение; скопление
+ 
+ **Черты:** 6 · **Ключ (радикал):** 囗 (№ 31) · **JLPT:** N2 (список сообщества)
+ 
+diff --git a/kanji/太.md b/kanji/太.md
+index 553b158..eaf5bab 100644
+--- a/kanji/太.md
++++ b/kanji/太.md
+@@ -1,6 +1,6 @@
+ ---
+ kanji: 太
+-title: толстый; полный
++title: толстый (в обхвате); полный; великий (в том числе в слове со значением «солнце»)
+ jlpt: 3
+ tags: [jlpt-n3, grade-2, structure-unclassified]
+ strokes: 4
+@@ -11,7 +11,7 @@ kunyomi: [ふと.い, ふと.る]
+ distractors: [犬, 天, 木]
+ ---
+ 
+-# 太 — толстый; полный
++# 太 — толстый (в обхвате); полный; великий (в том числе в слове со значением «солнце»)
+ 
+ **Черты:** 4 · **Ключ (радикал):** 大 (№ 37) · **JLPT:** N3 (список сообщества)
+ 
+diff --git a/manifest.json b/manifest.json
+index ba2c371..e776c68 100644
+--- a/manifest.json
++++ b/manifest.json
+@@ -1,6 +1,6 @@
+ {
+  "baseLanguage": "ru",
+- "contentVersion": "5f46b00abfbeb944",
++ "contentVersion": "ea98754243650c93",
+  "files": {
+   "articles/japanese-listing-and-examples.md": "0b6dc64aff1b26466bdbfbc0561d80587becf6b4f1081cb405b8ff3a0211107c",
+   "articles/numbers-and-counters.md": "3412941e6823439bc4ef4658e4560659fc99216517ec87f7ea4772db8bc978b5",
+@@ -136,7 +136,7 @@
+   "kanji/刊.md": "9d18b30935172aab9b1aaac388ad398a4700f340ddadd551af28c7374fa645a9",
+   "kanji/列.md": "88a4d24be73a4035df19fdbdcf21923b082d0f64204f133e53e7b0612661518c",
+   "kanji/初.md": "7767d5f51c4f92fdc326658627ad7c26cc0ad7d253552dcb4135540aa4cfdce4",
+-  "kanji/判.md": "ee0ef8bb61f83b99b57fedff1fbfe14ae84d7527457dd0eebfb29f9024b68cdf",
++  "kanji/判.md": "cfcd87bdb870dc16798627e130c4292b8d239115be95656586a28aeba65d2d04",
+   "kanji/別.md": "b5a87e15094906a55d22b7d47a5174ec9eb48cf7aac86d0811e4d88be4c39df7",
+   "kanji/利.md": "7279e1503d0593506a5e6f3c1a12410263ab31208fbeb19e671e3167dd2f838c",
+   "kanji/到.md": "019e2f5d8b8ec4ab42f8938b3717639b463dac6db2225b0d84aa71300af21944",
+@@ -182,12 +182,12 @@
+   "kanji/印.md": "a6d7db1075885836b7da947811523374fed6ad45165e9b8146f804f02d796edb",
+   "kanji/危.md": "ca2fb04778ee55e6ec10e94ec361ef6ee1da50466d722e649a8a530e2782548b",
+   "kanji/卵.md": "6745ad99984418871a279be70c54c3c8d1714c9cd71603516abb6752f89ba63d",
+-  "kanji/厚.md": "a4ad9a887e003900793d8b616a7eac76fbe73bd406409e68a02382cd50f108d9",
++  "kanji/厚.md": "763ce4e8f4bc2a121c33a31f20daa10ac870aba2385a3a7e0b859c897f8a661e",
+   "kanji/原.md": "8eefccca5b50d6aab9b914e96c755100712b792693021d21893b88166a9a0f53",
+   "kanji/去.md": "12344d26788a3663041d228b5f959ffe0c2719e9d9284b271c96413bd472987b",
+   "kanji/参.md": "625bee0286955ef9297df1f99d56e4cf5a607b69baab97e25d13cb1abe967f23",
+   "kanji/友.md": "05d7b3574abac5a07ab13bc6e2281b0a90093547bbded47a977f8ae08e899de8",
+-  "kanji/双.md": "cb5fd5daed4659db63c59c992b49fc197e7c5e233acfa050d7355f07fbf4244d",
++  "kanji/双.md": "0e6f49f07ac56d99ed97747bc0341b08cd4fbdd20bf6a5b996b594bffca5168e",
+   "kanji/反.md": "a0950995a94600ae8f8f9e89f0371fc895362fc7b95bce426f351fa4099b6d54",
+   "kanji/収.md": "34ba5bed441abd3efa40fa99dc90cd6d42bdfe3d833d91a235c6d35f2971c416",
+   "kanji/取.md": "6fa218c6d2a27750fa1ef298534bccc0913372768d7bd87f99eb9dd383b5b49a",
+@@ -223,11 +223,11 @@
+   "kanji/問.md": "938c72497b077b686c2d7ae6066fccd699ce293fff34569eedebac85bdebd9f2",
+   "kanji/喜.md": "f2981416f2f6c2a3d469f5e4db38680b2013fe15c4e08362d907af1dd4aed732",
+   "kanji/喫.md": "740a961a3bef498b89abe41c39bd0dbb67406d9558d50f2e368b787d3bec43d5",
+-  "kanji/営.md": "91b184bf27ac1c01c73205a9e43c4ee2e793ee26e3e51a5eb03119e45253a28e",
++  "kanji/営.md": "f19633a8f8d370c8751fd154cee69a788da533d9f2135846cc1e1b050770fc2e",
+   "kanji/四.md": "1011d8c00e36a42e8af94d462a5e41dff49d8220d65cd4e253c66b26fdfcf473",
+   "kanji/回.md": "7346f7e3fa6992593a04242087e7b688b6ae076d6577c49f85157b7f27e97a8e",
+   "kanji/因.md": "f13dd51b5275cb964d68ee7f1e1429500f597932ae8231d8991fe060bcc8c447",
+-  "kanji/団.md": "9405f870f55a4694f3d32ad1d11380298f5690f13ef88424c2f95429455c6a9d",
++  "kanji/団.md": "022bfe7883fa4de690804a3627a85ce414624508f03cc108ab4bbad855b7bfbd",
+   "kanji/困.md": "8bf4a009cb82b4232e7761349c9fd8a54c8e604c81d3306acfc1932fd9a7623c",
+   "kanji/囲.md": "1b83098802cea28373e0db39ae180cf73e1899b072430e8dc112f7065075d3b2",
+   "kanji/図.md": "b95013f9a343641075fd6edc086cbc8bfae573f3afb2fd4829b92b098469f56c",
+@@ -261,7 +261,7 @@
+   "kanji/夢.md": "a847b6d2a63c67ffc8c14aee3756085185d422f61f998b4729d7d2c573391890",
+   "kanji/大.md": "121d041e5c1d7dadfb0f23998d5f121d554559525cc521f3a19b0d9494c036f8",
+   "kanji/天.md": "22147950e296dbee9dc150fb10e9bf25b021522c7c1cb3e9e60e4dad9624cb64",
+-  "kanji/太.md": "908efa4f2385570cb7cb6ab2eadd2f9b1bc14748a4abf468e05f02b9746355fd",
++  "kanji/太.md": "43881c982ed238bafe8d4d9461b4ec117f4226bc67ef9a60387f8f04c25b0b65",
+   "kanji/夫.md": "c4a21fcd2abec66ff2d93a62d4a2a79fd514a14998c1a0744254645fde713a48",
+   "kanji/失.md": "55e46582a30608cb0952e0a19b8ee5cfdbfe384772002223735e15e1933c13fb",
+   "kanji/奥.md": "4666bfaaf33b980e4be5c79683e35698d3a766fccbb9117396a9df279f0cd816",
+diff --git a/tools/test_validate.py b/tools/test_validate.py
+index 6856d0b..3bde828 100644
+--- a/tools/test_validate.py
++++ b/tools/test_validate.py
+@@ -629,11 +629,99 @@ class ValidateTests(unittest.TestCase):
+                 self.check_card(self.word_path)
+                 self.assertEqual([], validate.errors)
+ 
+-    def test_word_quiz_exclusion_rule_does_not_change_legacy_kanji_behavior(self):
+-        self.write("kanji/日.md", KANJI_HEADER + "\nquiz_exclusions: []\nquiz_exclusions: []", KANJI_BODY)
++    def test_kanji_quiz_exclusions_are_optional_and_one_sided(self):
++        (self.root / "kanji" / "𠮷.md").touch()
++        for field in ("", "quiz_exclusions: []", "quiz_exclusions: [ ]",
++                      "quiz_exclusions: [𠮷]", "quiz_exclusions: ['𠮷']",
++                      'quiz_exclusions: ["𠮷"]'):
++            with self.subTest(field=field):
++                validate.errors.clear()
++                self.write("kanji/日.md", KANJI_HEADER + "\n" + field, KANJI_BODY)
++                self.check_card(self.kanji_path)
++                self.assertEqual([], validate.errors)
++
++    def test_kanji_quiz_exclusions_reject_malformed_or_shadowed_fields(self):
++        fields = (
++            "quiz_exclusions: []\nquiz_exclusions: []",
++            "quiz_exclusions: null\nquiz_exclusions: []",
++            "quiz_exclusions: []\nnotes: |\n  quiz_exclusions: []",
++            "'quiz_exclusions': []", '"quiz_exclusions": []',
++            "quiz_exclusions: [] # comment", "quiz_exclusions:\n  - 月",
++            r'"\u0071uiz_exclusions": [月]' + "\nquiz_exclusions: []",
++            "!!str quiz_exclusions: [月]\nquiz_exclusions: []",
++            "&key quiz_exclusions: [月]\nquiz_exclusions: []",
++            "saved: &key quiz_exclusions\n*key: [月]\nquiz_exclusions: []",
++        )
++        for field in fields:
++            with self.subTest(field=field):
++                validate.errors.clear()
++                self.write("kanji/日.md", KANJI_HEADER + "\n" + field, KANJI_BODY)
++                validate.parse(self.kanji_path)
++                self.assert_error("'quiz_exclusions' must be a single top-level")
++        for value in ("null", "true", "5", "{}", "月", "'[]'", "[1]", "[true]", "[null]",
++                      "[{}]", '["\\u6708"]'):
++            with self.subTest(value=value):
++                validate.errors.clear()
++                self.write("kanji/日.md", KANJI_HEADER + f"\nquiz_exclusions: {value}", KANJI_BODY)
++                self.check_card(self.kanji_path)
++                self.assert_error("'quiz_exclusions'")
++
++    def test_kanji_quiz_exclusions_validate_ids_and_curated_conflicts(self):
++        for choices, message in (
++                (["月", "月"], "must not contain repeated entries"),
++                (["日"], "must not include the card itself"),
++                (["𠮷"], "has no card with that exact ID"),
++                ([""], "must be a single non-control kanji ID"),
++                (["月 "], "must be a single non-control kanji ID"),
++                (["../月"], "must be a single non-control kanji ID"),
++                (["\\"], "must be a single non-control kanji ID"),
++                (["\x1f"], "must be a single non-control kanji ID"),
++                (["月"], "also listed in 'quiz_exclusions'")):
++            with self.subTest(choices=choices):
++                validate.errors.clear()
++                meta, _ = validate.parse(self.kanji_path)
++                validate.check_kanji(self.kanji_path, dict(meta, quiz_exclusions=choices), {})
++                self.assert_error(message)
++
++    def test_kanji_exclusion_checks_preserve_unrelated_legacy_keys(self):
++        extra = "\njlpt: 5\n# quiz_exclusions: [月]\nnote: 'quiz_exclusions: [月]'"
++        self.write("kanji/日.md", KANJI_HEADER + extra, KANJI_BODY)
+         self.check_card(self.kanji_path)
+         self.assertEqual([], validate.errors)
+ 
++    def test_kanji_quiz_exclusions_require_exact_case_even_on_windows(self):
++        (self.root / "kanji" / "A.md").touch()
++        meta, _ = validate.parse(self.kanji_path)
++        validate.check_kanji(self.kanji_path, dict(meta, quiz_exclusions=["a"]), {})
++        self.assert_error("has no card with that exact ID")
++
++    def test_kanji_quiz_exclusions_reject_unicode_noncharacters_even_if_file_exists(self):
++        meta, _ = validate.parse(self.kanji_path)
++        for codepoint in (0xFDD0, 0xFDEF, 0xFFFE, 0xFFFF, 0x1FFFE, 0x1FFFF, 0x10FFFE, 0x10FFFF):
++            with self.subTest(codepoint=hex(codepoint)):
++                validate.errors.clear()
++                other = chr(codepoint)
++                with patch.object(Path, "glob", return_value=[Path(f"{other}.md")]):
++                    validate.check_kanji(self.kanji_path, dict(meta, quiz_exclusions=[other]), {})
++                self.assert_error("must be a single non-control kanji ID")
++
++    def test_kanji_quiz_exclusion_diagnostic_is_utf8_safe(self):
++        self.write("kanji/日.md", KANJI_HEADER + '\nquiz_exclusions: ["\\uD800"]', KANJI_BODY)
++        meta, _ = validate.parse(self.kanji_path)
++        validate.check_kanji(self.kanji_path, meta, {})
++        self.assert_error("must be a single non-control kanji ID")
++
++        output = io.BytesIO()
++        stdout = io.TextIOWrapper(output, encoding="utf-8", errors="strict")
++        try:
++            with redirect_stdout(stdout):
++                for message in validate.errors:
++                    print(message)
++            stdout.flush()
++        finally:
++            stdout.detach()
++        self.assertIn(r"quiz exclusion '\ud800'".encode("ascii"), output.getvalue())
++
+     def test_word_keys_reject_encoded_tagged_and_anchored_duplicate_exclusions(self):
+         for key in (r'"\u0071uiz_exclusions"', r'"\x71uiz_exclusions"',
+                     r'"\U00000071uiz_exclusions"', "!!str quiz_exclusions",
+@@ -1034,6 +1122,24 @@ class ValidateTests(unittest.TestCase):
+         self.assertIn("front matter must be a mapping", output.getvalue())
+         self.assertIn("1 error(s)", output.getvalue())
+ 
++    def test_cli_reports_markdown_directory_and_invalid_kanji_exclusion_without_traceback(self):
++        header = KANJI_HEADER.replace("distractors: [月, 口]", "distractors: [口, 人]")
++        self.write("kanji/日.md", header + "\nquiz_exclusions: [月]", KANJI_BODY)
++        (self.root / "kanji" / "人.md").touch()
++        month_path = self.root / "kanji" / "月.md"
++        month_path.unlink()
++        month_path.mkdir()
++
++        output = io.StringIO()
++        with redirect_stdout(output):
++            result = validate.main()
++
++        self.assertEqual(1, result)
++        self.assertIn("kanji/月.md: non-file .md entry", output.getvalue())
++        self.assertIn("kanji/日.md: quiz exclusion '月' has no card with that exact ID", output.getvalue())
++        self.assertIn("kanji/人.md: missing front matter", output.getvalue())
++        self.assertNotIn("Traceback", output.getvalue())
++
+     def test_cli_reports_utf8_errors_for_each_file_and_continues(self):
+         for char in ("月", "口"):
+             (self.root / "kanji" / f"{char}.md").unlink()
+diff --git a/tools/validate.py b/tools/validate.py
+index 5059650..d8440f8 100644
+--- a/tools/validate.py
++++ b/tools/validate.py
+@@ -30,7 +30,7 @@ RAW_HTML = re.compile(r"<\s*/?\s*(script|iframe|style|object|embed|img|a|div|spa
+ KANJI_REQUIRED = ["kanji", "title", "jlpt", "tags", "strokes", "radical", "radicalNumber", "onyomi", "kunyomi"]
+ WORD_REQUIRED = ["word", "reading", "title", "type", "kanji", "tags"]
+ WORD_TYPES = {"kango", "wago", "jukujikun", "gairaigo"}
+-KANJI_LISTS = ("tags", "onyomi", "kunyomi", "distractors", "quizOnyomi", "quizKunyomi")
++KANJI_LISTS = ("tags", "onyomi", "kunyomi", "distractors", "quizOnyomi", "quizKunyomi", "quiz_exclusions")
+ WORD_LISTS = ("kanji", "tags", "quiz_exclusions", "quiz_distractors")
+ MAX_QUIZ_DISTRACTORS = 3
+ MAX_IMAGE_BYTES = 100 * 1024
+@@ -64,6 +64,7 @@ def parse(path: Path):
+     if path.parent.name == "kanji":
+         for key in ("quizOnyomi", "quizKunyomi"):
+             check_word_list_declaration(path, header, key)
++        check_kanji_quiz_exclusions_declaration(path, header)
+     if path.parent.name == "words":
+         suffix = text[end + 4:after_marker] if after_marker >= 0 else text[end + 4:]
+         if suffix.strip(KOTLIN_WHITESPACE) and (
+@@ -174,12 +175,28 @@ def check_word_quiz_exclusions_declaration(path: Path, header: str) -> None:
+     check_word_list_declaration(path, header, "quiz_exclusions")
+ 
+ 
++def check_kanji_quiz_exclusions_declaration(path: Path, header: str) -> None:
++    check_word_list_declaration(path, header, "quiz_exclusions")
++    # YAML decoding can conceal a quoted, escaped, tagged or anchored duplicate key.
++    try:
++        root = yaml.compose(header)
++    except (yaml.YAMLError, ValueError, RecursionError):
++        return  # The normal front-matter parse reports malformed YAML.
++    if not isinstance(root, yaml.MappingNode):
++        return
++    decoded = [key for key, _ in root.value
++               if isinstance(key, yaml.ScalarNode) and key.value == "quiz_exclusions"]
++    raw = word_declarations(header, "quiz_exclusions")
++    if len(decoded) != len(raw):
++        err(path, "'quiz_exclusions' must be a single top-level unquoted key with an inline list")
++
++
+ def check_android_front_matter(path: Path, fields: dict | None, meta: dict) -> None:
+     if fields is None:
+         err(path, "Android front matter requires 'key: value' on each non-comment header line")
+         return
+     if path.parent.name == "kanji":
+-        known = KANJI_REQUIRED + ["phonetic", "distractors", "quizOnyomi", "quizKunyomi"]
++        known = KANJI_REQUIRED + ["phonetic", "distractors", "quizOnyomi", "quizKunyomi", "quiz_exclusions"]
+     elif path.parent.name == "words":
+         known = WORD_REQUIRED + ["jlpt", "quiz_exclusions", "quiz_distractors", "image", "image_scene"]
+     else:
+@@ -445,15 +462,32 @@ def check_kanji(path: Path, meta: dict, titles: dict,
+     distractors = set()
+     for other in choices:
+         if len(other) != 1:
+-            err(path, f"distractor '{other}' must be a single kanji character")
++            err(path, f"distractor {other!r} must be a single kanji character")
+         elif other == meta["kanji"]:
+             err(path, "'distractors' must not include the card itself")
+         elif not (ROOT / "kanji" / f"{other}.md").is_file():
+-            err(path, f"distractor '{other}' has no card")
++            err(path, f"distractor {other!r} has no card")
+         else:
+             distractors.add(other)
+     if len(distractors) < 2:
+         err(path, "'distractors' must include at least 2 distinct existing nonself kanji")
++    exclusions = meta.get("quiz_exclusions", [])
++    if len(exclusions) != len(set(exclusions)):
++        err(path, "'quiz_exclusions' must not contain repeated entries")
++    known_kanji = ({other.stem for other in (ROOT / "kanji").glob("*.md") if other.is_file()}
++                   if exclusions else set())
++    for other in exclusions:
++        if (len(other) != 1 or other in "/\\" or other.isspace()
++                or ord(other) < 32 or 127 <= ord(other) <= 159
++                or 0xD800 <= ord(other) <= 0xDFFF or 0xFDD0 <= ord(other) <= 0xFDEF
++                or ord(other) & 0xFFFF in (0xFFFE, 0xFFFF)):
++            err(path, f"quiz exclusion {other!r} must be a single non-control kanji ID")
++        elif other == meta["kanji"]:
++            err(path, "'quiz_exclusions' must not include the card itself")
++        elif other not in known_kanji:
++            err(path, f"quiz exclusion {other!r} has no card with that exact ID")
++        if other in distractors:
++            err(path, f"distractor {other!r} is also listed in 'quiz_exclusions'")
+ 
+ 
+ def check_word(path: Path, meta: dict, known_words: set[str] | None = None) -> None:
+@@ -495,14 +529,14 @@ def check_word(path: Path, meta: dict, known_words: set[str] | None = None) -> N
+         if other == meta["word"]:
+             err(path, "'quiz_exclusions' must not include the word itself")
+         elif other not in known_words:
+-            err(path, f"quiz exclusion '{other}' has no word article with that exact ID")
++            err(path, f"quiz exclusion {other!r} has no word article with that exact ID")
+     for other in distractors:
+         if other == meta["word"]:
+             err(path, "'quiz_distractors' must not include the word itself")
+         elif other not in known_words:
+-            err(path, f"quiz distractor '{other}' has no word article with that exact ID")
++            err(path, f"quiz distractor {other!r} has no word article with that exact ID")
+         elif other in exclusions:
+-            err(path, f"quiz distractor '{other}' is also listed in 'quiz_exclusions'")
++            err(path, f"quiz distractor {other!r} is also listed in 'quiz_exclusions'")
+ 
+ 
+ def check_word_image(path: Path, meta: dict) -> None:
+@@ -583,12 +617,20 @@ def main() -> int:
+         print(exc)
+         return 1
+     stroke_counts = {path.stem: check_strokes(path) for path in sorted((ROOT / "strokes").glob("*.json"))}
+-    word_ids = {path.stem for path in (ROOT / "words").glob("*.md")}
++    markdown_files: dict[str, list[Path]] = {}
++    for folder in ("kanji", "words", "articles"):
++        markdown_files[folder] = []
++        for path in sorted((ROOT / folder).glob("*.md")):
++            if path.is_file():
++                markdown_files[folder].append(path)
++            else:
++                err(path, "non-file .md entry; expected a regular file")
++    word_ids = {path.stem for path in markdown_files["words"]}
+     titles: dict[str, str] = {}
+     word_images: dict[str, str] = {}
+     word_metadata: dict[str, dict] = {}
+     for folder in ("kanji", "words", "articles"):
+-        for path in sorted((ROOT / folder).glob("*.md")):
++        for path in markdown_files[folder]:
+             meta, body = parse(path)
+             if folder == "articles":
+                 check_links(path, body)

@@ -1,0 +1,923 @@
+{
+  "schemaVersion": 1,
+  "kind": "source-bound-published-caption-review-amendment",
+  "batchId": "155-published-caption-six-pair-triage",
+  "status": "exact revised bytes independently reviewed; tracking binding update authorized; commit and publication still gated",
+  "publishedBaseCommit": "c9fa34ca61c057d60f4be789917437c3d3bd4197",
+  "frozenSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+  "candidateHead": "c9fa34ca61c057d60f4be789917437c3d3bd4197",
+  "candidateState": "uncommitted, unstaged worktree",
+  "manifest": {
+    "path": "manifest.json",
+    "rawSha256": "02643cc803069cc8470ad92c92f94e2518a8247c048255cf56400f4f98e98d36",
+    "contentVersion": "79a004018fdef2d9"
+  },
+  "reviewScope": {
+    "sessionArtifact": "[private locator or identifier omitted]",
+    "sha256": "7f84228b5189cf0cd0197180cdf0d38b825f726a2731947ab24a533ba1f8c252",
+    "priorScopeSha256": "9641659d26b56007af26c4fa1aefc67382c6e9af5aea175f56a9466f20b54ccc"
+  },
+  "reviewReport": {
+    "path": "docs/translation-batches/155-published-caption-independent-review-002.md",
+    "rawSha256": "dad18b354f54100e6ec57d8196ed42695661c8a5a6627c281bbeb5b74c1868aa",
+    "reviewerSessionId": "[private locator or identifier omitted]",
+    "status": "read-only review complete; session archived"
+  },
+  "verbatimReviewMessages": [
+    {
+      "path": "docs/translation-batches/155-published-caption-independent-review-002-verbatim.md",
+      "rawSha256": "f540a2be30ba7d334f5dca950dcf2e38597bed45679a599296bcb2c30f8252b6",
+      "reviewMessageReceivedAt": "2026-11-12T01:20:09Z",
+      "separateH1CorrectionReceivedAt": "2026-11-12T01:20:27Z",
+      "preservationNote": "Both messages are verbatim; the original extra closing parenthesis is retained and the later correction is separately preserved."
+    }
+  ],
+  "publishedScreen": {
+    "sessionArtifact": "[private locator or identifier omitted]",
+    "sha256": "823b9ba37ca542f22cc6552a126cf9173c0035ca879f7c3b11eca054d8125380",
+    "data": {
+      "schemaVersion": 1,
+      "kind": "published-kanji-caption-overlap-screen",
+      "baselineCommit": "dc621b31058ed65361acfec029f44ad57f2657f6",
+      "frozenSourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+      "scope": "The 15 Batch 155 kanji compared with published kanji titles. Exact semicolon-separated caption segments were screened; this is not an exhaustive semantic scan.",
+      "qualification": "These six leads require pair-specific independent review. Dictionary examples and compounds must not be treated as standalone glyph equivalence without adjudication. Builder observations are conditional and are not device results, frequency estimates, or general safety guarantees.",
+      "builderRuns": {
+        "legacy": {
+          "appCommit": "5c000bd5596d2189ef878da572687bd01ab3bb5f",
+          "compiledClassSha256": "afd19c5489b79213e52d48e3a439858168a89aa9974f3958c46757198b48180b",
+          "pool": "All 80 published N5 cards, followed by the two already-started cards in pair order, as in a short Practice-more padding scenario."
+        },
+        "current": {
+          "appCommit": "10d98d0db61dcde621463460e6a1e59941b4042b",
+          "sourceSha256": "c3208d21958b053becfbb90fef78877f2ad67caf87b97924ee4f633c0e4c91ee",
+          "compiledClassSha256": "418a71c4d0f7ac01bd9c7a840e307ecd834e3aae115bfd5f6c4af57d25e5dad9",
+          "pool": "All 118 published Starter cards, followed by the two already-started cards in pair order, as in a short Practice-more padding scenario."
+        },
+        "limits": "Neither card in any listed pair belongs to the respective base pool. Each observed seed is a reproducible core-builder example. A null result means no co-display was found in seeds 0 through 4999 for that exact pool and direction; it does not prove impossibility in other pools."
+      },
+      "pairs": [
+        {
+          "pair": [
+            "判",
+            "印"
+          ],
+          "titles": [
+            "суждение; печать",
+            "печать; знак"
+          ],
+          "publishedRawSha256": [
+            "ee0ef8bb61f83b99b57fedff1fbfe14ae84d7527457dd0eebfb29f9024b68cdf",
+            "a6d7db1075885836b7da947811523374fed6ad45165e9b8146f804f02d796edb"
+          ],
+          "sharedSegment": "печать",
+          "dictionaryEvidence": [
+            {
+              "headword": "判（はん）",
+              "dictionary": "WARODAI",
+              "entry": "007-40-43",
+              "gloss": "печать, штамп; оттиск печати; штемпель",
+              "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E5%88%A4&corpus=warodai"
+            },
+            {
+              "headword": "印（いん）",
+              "dictionary": "WARODAI",
+              "entry": "008-70-73",
+              "gloss": "печать, штамп; штемпель",
+              "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E5%8D%B0&corpus=warodai"
+            }
+          ],
+          "legacy": [
+            {
+              "target": "判",
+              "seed": 0,
+              "options": [
+                "話",
+                "半",
+                "印",
+                "判"
+              ]
+            },
+            {
+              "target": "印",
+              "seed": 0,
+              "options": [
+                "上",
+                "判",
+                "話",
+                "印"
+              ]
+            }
+          ],
+          "current": [
+            {
+              "target": "判",
+              "seed": 2,
+              "options": [
+                "判",
+                "達",
+                "印",
+                "半"
+              ]
+            },
+            {
+              "target": "印",
+              "seed": 0,
+              "options": [
+                "短",
+                "達",
+                "判",
+                "印"
+              ]
+            }
+          ]
+        },
+        {
+          "pair": [
+            "厚",
+            "太"
+          ],
+          "titles": [
+            "толстый; сердечный",
+            "толстый; полный"
+          ],
+          "publishedRawSha256": [
+            "a4ad9a887e003900793d8b616a7eac76fbe73bd406409e68a02382cd50f108d9",
+            "908efa4f2385570cb7cb6ab2eadd2f9b1bc14748a4abf468e05f02b9746355fd"
+          ],
+          "sharedSegment": "толстый",
+          "dictionaryEvidence": [
+            {
+              "headword": "厚い（あつい）",
+              "dictionary": "WARODAI",
+              "entry": "002-44-01",
+              "gloss": "толстый (о предметах)",
+              "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E5%8E%9A%E3%81%84&corpus=warodai"
+            },
+            {
+              "headword": "太い（ふとい）",
+              "dictionary": "WARODAI",
+              "entry": "001-41-23",
+              "gloss": "толстый, жирный",
+              "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E5%A4%AA%E3%81%84&corpus=warodai"
+            }
+          ],
+          "legacy": [
+            {
+              "target": "厚",
+              "seed": 0,
+              "options": [
+                "上",
+                "太",
+                "話",
+                "厚"
+              ]
+            },
+            {
+              "target": "太",
+              "seed": 51,
+              "options": [
+                "天",
+                "木",
+                "厚",
+                "太"
+              ]
+            }
+          ],
+          "current": [
+            {
+              "target": "厚",
+              "seed": 0,
+              "options": [
+                "千",
+                "太",
+                "短",
+                "厚"
+              ]
+            },
+            {
+              "target": "太",
+              "seed": null,
+              "searchedSeeds": [
+                0,
+                4999
+              ]
+            }
+          ]
+        },
+        {
+          "pair": [
+            "双",
+            "両"
+          ],
+          "titles": [
+            "пара; оба",
+            "оба"
+          ],
+          "publishedRawSha256": [
+            "cb5fd5daed4659db63c59c992b49fc197e7c5e233acfa050d7355f07fbf4244d",
+            "683c9ecdb844c1a1d943299056fc93e952c88a5b6480007f55e86ac8db20b4b6"
+          ],
+          "sharedSegment": "оба",
+          "dictionaryEvidence": [
+            {
+              "headword": "双方（そうほう）",
+              "dictionary": "WARODAI",
+              "entry": "008-66-46",
+              "gloss": "обе стороны (партии, группы)",
+              "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E5%8F%8C%E6%96%B9&corpus=warodai",
+              "qualification": "Complete compound, not a standalone 双 headword."
+            },
+            {
+              "headword": "両方（りょうほう）",
+              "dictionary": "WARODAI",
+              "entry": "008-74-52",
+              "gloss": "оба; обе стороны",
+              "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E4%B8%A1%E6%96%B9&corpus=warodai",
+              "qualification": "Complete compound, not a standalone 両 headword."
+            }
+          ],
+          "legacy": [
+            {
+              "target": "双",
+              "seed": 0,
+              "options": [
+                "話",
+                "友",
+                "両",
+                "双"
+              ]
+            },
+            {
+              "target": "両",
+              "seed": 0,
+              "options": [
+                "双",
+                "雨",
+                "西",
+                "両"
+              ]
+            }
+          ],
+          "current": [
+            {
+              "target": "双",
+              "seed": 0,
+              "options": [
+                "短",
+                "友",
+                "両",
+                "双"
+              ]
+            },
+            {
+              "target": "両",
+              "seed": null,
+              "searchedSeeds": [
+                0,
+                4999
+              ]
+            }
+          ]
+        },
+        {
+          "pair": [
+            "営",
+            "御"
+          ],
+          "titles": [
+            "вести дело; управлять",
+            "почтительный префикс; управлять"
+          ],
+          "publishedRawSha256": [
+            "91b184bf27ac1c01c73205a9e43c4ee2e793ee26e3e51a5eb03119e45253a28e",
+            "3796a8c0d8a40884bb7df38acee11d302b89c7c4452d995b690d399bbf0ecd27"
+          ],
+          "sharedSegment": "управлять",
+          "dictionaryEvidence": [
+            {
+              "headword": "営む（いとなむ）",
+              "dictionary": "WARODAI",
+              "entry": "006-39-33",
+              "gloss": "управлять (предприятием); вести (дело)",
+              "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E5%96%B6%E3%82%80&corpus=warodai"
+            },
+            {
+              "headword": "御する（ぎょする）",
+              "dictionary": "WARODAI",
+              "entry": "003-19-71",
+              "gloss": "руководить, управлять",
+              "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E5%BE%A1%E3%81%99%E3%82%8B&corpus=warodai"
+            }
+          ],
+          "legacy": [
+            {
+              "target": "営",
+              "seed": 0,
+              "options": [
+                "上",
+                "御",
+                "話",
+                "営"
+              ]
+            },
+            {
+              "target": "御",
+              "seed": 0,
+              "options": [
+                "話",
+                "後",
+                "営",
+                "御"
+              ]
+            }
+          ],
+          "current": [
+            {
+              "target": "営",
+              "seed": 0,
+              "options": [
+                "千",
+                "御",
+                "短",
+                "営"
+              ]
+            },
+            {
+              "target": "御",
+              "seed": 2,
+              "options": [
+                "御",
+                "達",
+                "営",
+                "後"
+              ]
+            }
+          ]
+        },
+        {
+          "pair": [
+            "営",
+            "治"
+          ],
+          "titles": [
+            "вести дело; управлять",
+            "управлять; лечить"
+          ],
+          "publishedRawSha256": [
+            "91b184bf27ac1c01c73205a9e43c4ee2e793ee26e3e51a5eb03119e45253a28e",
+            "2611fa7980d59fa0d2acb036273a00c3c335dd0b4711020a8eadbcd150de161e"
+          ],
+          "sharedSegment": "управлять",
+          "dictionaryEvidence": [
+            {
+              "headword": "営む（いとなむ）",
+              "dictionary": "WARODAI",
+              "entry": "006-39-33",
+              "gloss": "управлять (предприятием); вести (дело)",
+              "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E5%96%B6%E3%82%80&corpus=warodai"
+            },
+            {
+              "headword": "治める（おさめる）",
+              "dictionary": "WARODAI",
+              "entry": "007-51-42",
+              "gloss": "управлять, руководить, заведовать чем-либо",
+              "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E6%B2%BB%E3%82%81%E3%82%8B&corpus=warodai"
+            }
+          ],
+          "legacy": [
+            {
+              "target": "営",
+              "seed": 0,
+              "options": [
+                "上",
+                "治",
+                "話",
+                "営"
+              ]
+            },
+            {
+              "target": "治",
+              "seed": 0,
+              "options": [
+                "上",
+                "営",
+                "話",
+                "治"
+              ]
+            }
+          ],
+          "current": [
+            {
+              "target": "営",
+              "seed": 0,
+              "options": [
+                "千",
+                "治",
+                "短",
+                "営"
+              ]
+            },
+            {
+              "target": "治",
+              "seed": 2,
+              "options": [
+                "治",
+                "側",
+                "営",
+                "達"
+              ]
+            }
+          ]
+        },
+        {
+          "pair": [
+            "団",
+            "組"
+          ],
+          "titles": [
+            "группа; объединение",
+            "группа; соединять"
+          ],
+          "publishedRawSha256": [
+            "9405f870f55a4694f3d32ad1d11380298f5690f13ef88424c2f95429455c6a9d",
+            "a861b838d58224305bbba9dd20a5852cbd6c326e57ae51756f1f6aedc694907d"
+          ],
+          "sharedSegment": "группа",
+          "dictionaryEvidence": [
+            {
+              "headword": "…団（…だん）",
+              "dictionary": "WARODAI",
+              "entry": "000-95-61",
+              "gloss": "группа, группировка, организация",
+              "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E5%9B%A3&corpus=warodai",
+              "qualification": "Suffix entry, not a standalone 団 noun."
+            },
+            {
+              "headword": "組（くみ）",
+              "dictionary": "WARODAI",
+              "entry": "003-28-21",
+              "gloss": "группа; класс; команда",
+              "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E7%B5%84&corpus=warodai"
+            }
+          ],
+          "legacy": [
+            {
+              "target": "団",
+              "seed": 0,
+              "options": [
+                "上",
+                "組",
+                "話",
+                "団"
+              ]
+            },
+            {
+              "target": "組",
+              "seed": 8,
+              "options": [
+                "団",
+                "行",
+                "今",
+                "組"
+              ]
+            }
+          ],
+          "current": [
+            {
+              "target": "団",
+              "seed": 0,
+              "options": [
+                "千",
+                "組",
+                "短",
+                "団"
+              ]
+            },
+            {
+              "target": "組",
+              "seed": 4,
+              "options": [
+                "団",
+                "内",
+                "組",
+                "供"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "reviewFindings": {
+    "判/印": {
+      "verdict": "adequately differentiated in complete-card context",
+      "qualification": "Both legitimately include a seal sense; 判 judgment/personal-seal examples contrast with 印 seal/impression and mark/sign."
+    },
+    "厚/太": {
+      "verdict": "materially overlapping",
+      "status": "UNRESOLVED",
+      "qualification": "Book-thickness and girth/rope/weight contexts contrast, but titles do not provide a legacy-compatibility fix."
+    },
+    "双/両": {
+      "verdict": "materially overlapping",
+      "status": "UNRESOLVED",
+      "qualification": "Pair/together versus both-members are not textually exclusive; 双方 and 両方 are compounds."
+    },
+    "営/御": {
+      "verdict": "adequately differentiated in complete-card context",
+      "qualification": "Business/activity/enterprise management differs from the honorific prefix; govern/control overlap remains real."
+    },
+    "営/治": {
+      "verdict": "adequately differentiated in complete-card context",
+      "qualification": "Business/activity differs from administration/politics and recovery/treatment; management overlap remains real."
+    },
+    "団/組": {
+      "verdict": "materially overlapping",
+      "status": "UNRESOLVED",
+      "qualification": "Both cover group; 組 also covers set and assembling/joining. WARODAI 団 is a suffix entry."
+    }
+  },
+  "reviewedCards": {
+    "両": {
+      "candidate": {
+        "path": "kanji/両.md",
+        "rawSha256": "683c9ecdb844c1a1d943299056fc93e952c88a5b6480007f55e86ac8db20b4b6",
+        "gitBlob": "ce8d133782b00ef567245e7b44190fd127b97d3d",
+        "title": "оба",
+        "heading": "両 — оба",
+        "manifestSha256": "683c9ecdb844c1a1d943299056fc93e952c88a5b6480007f55e86ac8db20b4b6"
+      },
+      "publishedBase": {
+        "rawSha256": "683c9ecdb844c1a1d943299056fc93e952c88a5b6480007f55e86ac8db20b4b6",
+        "gitBlob": "ce8d133782b00ef567245e7b44190fd127b97d3d",
+        "title": "оба",
+        "heading": "両 — оба"
+      },
+      "frozenSource": {
+        "rawSha256": "be1a9b1a063792e957162062eff6ecbfe3ca826da0ce2530c7ef46ad8b4e368b",
+        "gitBlob": "9533cfa5a6200e5bac7c0b8fa62efcb596b763d5"
+      }
+    },
+    "判": {
+      "candidate": {
+        "path": "kanji/判.md",
+        "rawSha256": "fc21b50b4b92bcbbe8c24d9a3d302a2c8f906468df94a0d3fcd321114d3a4381",
+        "gitBlob": "c5e60570c4d0892248e575c12c59db1d3dedd9e4",
+        "title": "суждение; печать (например, личная)",
+        "heading": "判 — суждение; печать (например, личная)",
+        "manifestSha256": "fc21b50b4b92bcbbe8c24d9a3d302a2c8f906468df94a0d3fcd321114d3a4381"
+      },
+      "publishedBase": {
+        "rawSha256": "ee0ef8bb61f83b99b57fedff1fbfe14ae84d7527457dd0eebfb29f9024b68cdf",
+        "gitBlob": "f9d82319c06f01c5682f997411b5473c7cee7209",
+        "title": "суждение; печать",
+        "heading": "判 — суждение; печать"
+      },
+      "frozenSource": {
+        "rawSha256": "a7808845571d0b6ad34a551778ea3f32281943f037c16cf333337965fcbafd3c",
+        "gitBlob": "46445f9a0cb8c6256b54fe044b1cb398c61eadef"
+      }
+    },
+    "印": {
+      "candidate": {
+        "path": "kanji/印.md",
+        "rawSha256": "a6d7db1075885836b7da947811523374fed6ad45165e9b8146f804f02d796edb",
+        "gitBlob": "96a7356e55d991340337e1edc278b36df2786dea",
+        "title": "печать; знак",
+        "heading": "印 — печать; знак",
+        "manifestSha256": "a6d7db1075885836b7da947811523374fed6ad45165e9b8146f804f02d796edb"
+      },
+      "publishedBase": {
+        "rawSha256": "a6d7db1075885836b7da947811523374fed6ad45165e9b8146f804f02d796edb",
+        "gitBlob": "96a7356e55d991340337e1edc278b36df2786dea",
+        "title": "печать; знак",
+        "heading": "印 — печать; знак"
+      },
+      "frozenSource": {
+        "rawSha256": "02c20ac1f28461ba84ef1f41eac9dc634b9d7fe857dc3c985356c6c7047915a9",
+        "gitBlob": "afef8d04f984e44880438da4b80b21d07f513de5"
+      }
+    },
+    "厚": {
+      "candidate": {
+        "path": "kanji/厚.md",
+        "rawSha256": "3d27564c74b60440a8350405a523334c5fb16fdcb7d844002175fa991fcdd09f",
+        "gitBlob": "a9dd1364a3e477e712bb2be2015587734bdd3e9e",
+        "title": "толстый (например, о книге); сердечный",
+        "heading": "厚 — толстый (например, о книге); сердечный",
+        "manifestSha256": "3d27564c74b60440a8350405a523334c5fb16fdcb7d844002175fa991fcdd09f"
+      },
+      "publishedBase": {
+        "rawSha256": "a4ad9a887e003900793d8b616a7eac76fbe73bd406409e68a02382cd50f108d9",
+        "gitBlob": "5e7aebe5edc86181682e94b234ae2a05293af4fc",
+        "title": "толстый; сердечный",
+        "heading": "厚 — толстый; сердечный"
+      },
+      "frozenSource": {
+        "rawSha256": "9c0ebe13a7823568df987874309426c69a86222a4337c484fa741765a581de76",
+        "gitBlob": "30e197320eccc422215aadb5c554d83f296b5c65"
+      }
+    },
+    "双": {
+      "candidate": {
+        "path": "kanji/双.md",
+        "rawSha256": "dd3d3364fa0392dbbb5f97bb3add83492aa76cb85cccf530fecc268f749e4195",
+        "gitBlob": "6c5c728132fb62bb70b5c98002c28d66908a6bff",
+        "title": "пара; два вместе",
+        "heading": "双 — пара; два вместе",
+        "manifestSha256": "dd3d3364fa0392dbbb5f97bb3add83492aa76cb85cccf530fecc268f749e4195"
+      },
+      "publishedBase": {
+        "rawSha256": "cb5fd5daed4659db63c59c992b49fc197e7c5e233acfa050d7355f07fbf4244d",
+        "gitBlob": "eadc1f90b94a4959693844034e8c49b5cdc6be0e",
+        "title": "пара; оба",
+        "heading": "双 — пара; оба"
+      },
+      "frozenSource": {
+        "rawSha256": "fc351c7748a2c1fc2664ac52fef8e152843c2cd1e13aa961463d3bf02d01a1e1",
+        "gitBlob": "30c1adda195f02ffab34613b1ecb78f80acee855"
+      }
+    },
+    "営": {
+      "candidate": {
+        "path": "kanji/営.md",
+        "rawSha256": "139598630b3a4590e046d4377f976d91065f15f4cc23685f8b8be0393c4c1a60",
+        "gitBlob": "db8f1e2c10196f7b268db05e2978edbea62c8748",
+        "title": "вести дело; осуществлять деятельность; управлять предприятием",
+        "heading": "営 — вести дело; осуществлять деятельность; управлять предприятием",
+        "manifestSha256": "139598630b3a4590e046d4377f976d91065f15f4cc23685f8b8be0393c4c1a60"
+      },
+      "publishedBase": {
+        "rawSha256": "91b184bf27ac1c01c73205a9e43c4ee2e793ee26e3e51a5eb03119e45253a28e",
+        "gitBlob": "40be1e4c9eac3bf019bd4fe26b4c5416d4baa2bb",
+        "title": "вести дело; управлять",
+        "heading": "営 — вести дело; управлять"
+      },
+      "frozenSource": {
+        "rawSha256": "2909fa07814f5da29e5e1ac05ebe8b62583d9cd8622382c6e0fb9e15e3f754de",
+        "gitBlob": "3c8f1e8785e3a75532252941971f5330d0caba53"
+      }
+    },
+    "団": {
+      "candidate": {
+        "path": "kanji/団.md",
+        "rawSha256": "022bfe7883fa4de690804a3627a85ce414624508f03cc108ab4bbad855b7bfbd",
+        "gitBlob": "9d94c326120f0b67bf0543767065771eb94e1a1e",
+        "title": "группа; объединение; скопление",
+        "heading": "団 — группа; объединение; скопление",
+        "manifestSha256": "022bfe7883fa4de690804a3627a85ce414624508f03cc108ab4bbad855b7bfbd"
+      },
+      "publishedBase": {
+        "rawSha256": "9405f870f55a4694f3d32ad1d11380298f5690f13ef88424c2f95429455c6a9d",
+        "gitBlob": "5be830b31b745adf11740048b2a55ea13082b4a8",
+        "title": "группа; объединение",
+        "heading": "団 — группа; объединение"
+      },
+      "frozenSource": {
+        "rawSha256": "47d7289beee6b179e724d7b13e22bd43a7dbf0c2c7269f594963c889ef9c6f57",
+        "gitBlob": "198e406bec9230576837dfbc8de6cf2171b030cb"
+      }
+    },
+    "太": {
+      "candidate": {
+        "path": "kanji/太.md",
+        "rawSha256": "7f8a0c09bd76ad5316243314671703acdf414e647911c70fd8e54e8a9c2d709d",
+        "gitBlob": "bcc4adea734ae6c59c9d5a6a9e3442c456eddaea",
+        "title": "толстый в обхвате; полный; великий (например, в слове со значением «солнце»)",
+        "heading": "太 — толстый в обхвате; полный; великий (например, в слове со значением «солнце»)",
+        "manifestSha256": "7f8a0c09bd76ad5316243314671703acdf414e647911c70fd8e54e8a9c2d709d"
+      },
+      "publishedBase": {
+        "rawSha256": "908efa4f2385570cb7cb6ab2eadd2f9b1bc14748a4abf468e05f02b9746355fd",
+        "gitBlob": "553b158a076d5186d645190786f04f15f45922be",
+        "title": "толстый; полный",
+        "heading": "太 — толстый; полный"
+      },
+      "frozenSource": {
+        "rawSha256": "8207454c77fe26341a5d134c5a2cae0ba4f900000f159f4feb389744dfc16c78",
+        "gitBlob": "5681077fd4edbabb5f800f57d0b566e7f8fe0d0a"
+      }
+    },
+    "御": {
+      "candidate": {
+        "path": "kanji/御.md",
+        "rawSha256": "3796a8c0d8a40884bb7df38acee11d302b89c7c4452d995b690d399bbf0ecd27",
+        "gitBlob": "f136f2f37aaef4717620b7c0f0f477643b834f33",
+        "title": "почтительный префикс; управлять",
+        "heading": "御 — почтительный префикс; управлять",
+        "manifestSha256": "3796a8c0d8a40884bb7df38acee11d302b89c7c4452d995b690d399bbf0ecd27"
+      },
+      "publishedBase": {
+        "rawSha256": "3796a8c0d8a40884bb7df38acee11d302b89c7c4452d995b690d399bbf0ecd27",
+        "gitBlob": "f136f2f37aaef4717620b7c0f0f477643b834f33",
+        "title": "почтительный префикс; управлять",
+        "heading": "御 — почтительный префикс; управлять"
+      },
+      "frozenSource": {
+        "rawSha256": "8f8d0fed246232c264447e174b6b0e9b4d0c4c6b0bf93939e94cd62d28a5a2e6",
+        "gitBlob": "54576e87aae86c91df395054f24ea206ad190e70"
+      }
+    },
+    "治": {
+      "candidate": {
+        "path": "kanji/治.md",
+        "rawSha256": "2611fa7980d59fa0d2acb036273a00c3c335dd0b4711020a8eadbcd150de161e",
+        "gitBlob": "780e9cd3c251296e961f7016262f7044e3350427",
+        "title": "управлять; лечить",
+        "heading": "治 — управлять; лечить",
+        "manifestSha256": "2611fa7980d59fa0d2acb036273a00c3c335dd0b4711020a8eadbcd150de161e"
+      },
+      "publishedBase": {
+        "rawSha256": "2611fa7980d59fa0d2acb036273a00c3c335dd0b4711020a8eadbcd150de161e",
+        "gitBlob": "780e9cd3c251296e961f7016262f7044e3350427",
+        "title": "управлять; лечить",
+        "heading": "治 — управлять; лечить"
+      },
+      "frozenSource": {
+        "rawSha256": "cd899dfb83a6d8be66fa6ebe1a85d9c299e53d7ac4016062ebb0452898d85f61",
+        "gitBlob": "0c3c5bc71d8844f9b4cb0c65464242aba6d4a577"
+      }
+    },
+    "組": {
+      "candidate": {
+        "path": "kanji/組.md",
+        "rawSha256": "07806b7ce0116a97537fe50cfbffc1d0477715254c2a5ec1bf935703288962e3",
+        "gitBlob": "074eedb4c9b49b68ce91fdab67b7233c23bc851b",
+        "title": "группа; соединять",
+        "heading": "組 — группа; соединять",
+        "manifestSha256": "a861b838d58224305bbba9dd20a5852cbd6c326e57ae51756f1f6aedc694907d"
+      },
+      "publishedBase": {
+        "rawSha256": "a861b838d58224305bbba9dd20a5852cbd6c326e57ae51756f1f6aedc694907d",
+        "gitBlob": "074eedb4c9b49b68ce91fdab67b7233c23bc851b",
+        "title": "группа; соединять",
+        "heading": "組 — группа; соединять"
+      },
+      "frozenSource": {
+        "rawSha256": "2bc9cbbaae0060e43c78b9b9588cdafa31a63834617414f473cd3e8311af33dc",
+        "gitBlob": "c5a3452c32b9fd73fb793f77682feebd00cc8328"
+      }
+    }
+  },
+  "trackingUpdates": {
+    "paths": [
+      "kanji/判.md",
+      "kanji/厚.md",
+      "kanji/双.md",
+      "kanji/営.md",
+      "kanji/団.md",
+      "kanji/太.md"
+    ],
+    "reviewStatus": "accepted for the reviewed Russian content; pair-level overlap remains separately unresolved",
+    "appendEvidence": [
+      "docs/translation-batches/155-published-caption-independent-review-002.md",
+      "docs/translation-batches/155-published-caption-source-bound-amendment-001.json"
+    ],
+    "hashFields": {
+      "ruSha256": "manifest normalized text SHA-256",
+      "ruRawSha256": "current worktree raw-byte SHA-256",
+      "ruGitRawSha256": "update only where already present; bind to reviewed raw bytes"
+    },
+    "noSourceHashChanges": true
+  },
+  "supplementalCoordinatorEvidence": {
+    "legacyPadding": {
+      "artifact": "[private locator or identifier omitted]",
+      "sha256": "413601649fa101f67461560ce67c27f818154f7233e2b280c6d0e56c556ae1a8",
+      "description": "Actual legacy QueueBuilder.extra and PracticePadding.fill selected each eligible borrowed target in synthetic focus-full states; QuizBuilder reproduced the 12 reported directions. Conditional in-memory core reproduction only."
+    },
+    "drawingRecognition": {
+      "attribution": "coordinator-provided, supplemental and not part of the independent caption review",
+      "description": "Using exact c9fa stroke references and the 5c/10d-identical matcher/grader, synthetic sole alternate recognition results for 厚/太, 双/両, 団/組 returned NotRecognized in all six directions. This is not device/recognizer evidence and does not decide whether a final title reasonably prompts an alternate. Draw-cue ambiguity needs separate exact-title adjudication; a future meaning-choice guard is not a drawing fix."
+    }
+  },
+  "dictionaryEvidence": {
+    "判/印": [
+      {
+        "headword": "判（はん）",
+        "dictionary": "WARODAI",
+        "entry": "007-40-43",
+        "gloss": "печать, штамп; оттиск печати; штемпель",
+        "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E5%88%A4&corpus=warodai"
+      },
+      {
+        "headword": "印（いん）",
+        "dictionary": "WARODAI",
+        "entry": "008-70-73",
+        "gloss": "печать, штамп; штемпель",
+        "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E5%8D%B0&corpus=warodai"
+      }
+    ],
+    "厚/太": [
+      {
+        "headword": "厚い（あつい）",
+        "dictionary": "WARODAI",
+        "entry": "002-44-01",
+        "gloss": "толстый (о предметах)",
+        "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E5%8E%9A%E3%81%84&corpus=warodai"
+      },
+      {
+        "headword": "太い（ふとい）",
+        "dictionary": "WARODAI",
+        "entry": "001-41-23",
+        "gloss": "толстый, жирный",
+        "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E5%A4%AA%E3%81%84&corpus=warodai"
+      }
+    ],
+    "双/両": [
+      {
+        "headword": "双方（そうほう）",
+        "dictionary": "WARODAI",
+        "entry": "008-66-46",
+        "gloss": "обе стороны (партии, группы)",
+        "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E5%8F%8C%E6%96%B9&corpus=warodai",
+        "qualification": "Complete compound, not a standalone 双 headword."
+      },
+      {
+        "headword": "両方（りょうほう）",
+        "dictionary": "WARODAI",
+        "entry": "008-74-52",
+        "gloss": "оба; обе стороны",
+        "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E4%B8%A1%E6%96%B9&corpus=warodai",
+        "qualification": "Complete compound, not a standalone 両 headword."
+      }
+    ],
+    "営/御": [
+      {
+        "headword": "営む（いとなむ）",
+        "dictionary": "WARODAI",
+        "entry": "006-39-33",
+        "gloss": "управлять (предприятием); вести (дело)",
+        "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E5%96%B6%E3%82%80&corpus=warodai"
+      },
+      {
+        "headword": "御する（ぎょする）",
+        "dictionary": "WARODAI",
+        "entry": "003-19-71",
+        "gloss": "руководить, управлять",
+        "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E5%BE%A1%E3%81%99%E3%82%8B&corpus=warodai"
+      }
+    ],
+    "営/治": [
+      {
+        "headword": "営む（いとなむ）",
+        "dictionary": "WARODAI",
+        "entry": "006-39-33",
+        "gloss": "управлять (предприятием); вести (дело)",
+        "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E5%96%B6%E3%82%80&corpus=warodai"
+      },
+      {
+        "headword": "治める（おさめる）",
+        "dictionary": "WARODAI",
+        "entry": "007-51-42",
+        "gloss": "управлять, руководить, заведовать чем-либо",
+        "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E6%B2%BB%E3%82%81%E3%82%8B&corpus=warodai"
+      }
+    ],
+    "団/組": [
+      {
+        "headword": "…団（…だん）",
+        "dictionary": "WARODAI",
+        "entry": "000-95-61",
+        "gloss": "группа, группировка, организация",
+        "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E5%9B%A3&corpus=warodai",
+        "qualification": "Suffix entry, not a standalone 団 noun."
+      },
+      {
+        "headword": "組（くみ）",
+        "dictionary": "WARODAI",
+        "entry": "003-28-21",
+        "gloss": "группа; класс; команда",
+        "url": "https://warodai.ru/api/v1/corpus/lookup/?keyword=%E7%B5%84&corpus=warodai"
+      }
+    ]
+  },
+  "kanjiPediaEvidence": {
+    "source": "Kanji Pedia",
+    "url": "https://www.kanjipedia.jp/kanji/0004424200",
+    "retrievedText": "①おおきい。「太洋」「太陽」",
+    "qualification": "Direct page lists multiple compounds for the large/great sense. The title uses a nonexclusive Russian-only example (“например, в слове со значением «солнце»”) and contains no 太/太陽 answer glyph; this is not a claim that 太 means sun."
+  },
+  "openPairRisks": [
+    "厚/太",
+    "双/両",
+    "団/組"
+  ],
+  "explicitNonClaims": [
+    "No pair-level runtime safety clearance for the three unresolved pairs.",
+    "No titles-only change is claimed as a legacy compatibility fix.",
+    "No holds, meaning removals, quiz exclusions, app-only guard, learner-state changes, or device/frequency/general fallback claims.",
+    "The deferred self-glyph-title validator rule is deferred under the coordinator instruction (not user instruction) until after the current caption gate."
+  ],
+  "trackingProgressContext": {
+    "preReviewReport": "[private locator or identifier omitted]",
+    "preReviewStatuses": {
+      "reviewed-current": 2882,
+      "ru-changed": 6,
+      "pending": 5382,
+      "draft-reviewed-runtime-blocked": 8
+    },
+    "updateProgressOnlyAfterUpdatingTheSixTrackingRecords": true
+  }
+}
