@@ -8,14 +8,23 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch167 thirty words
+## Current published source milestone: batch168 navigation sweep
+
+Batch168 is a navigation-only sweep with no new cards: 198 of 205 (file, target) pairs where the frozen EN file links a
+target that RU now has were restored at the EN link positions (202 links in 161 files), with link-stripped text unchanged.
+Seven pairs have no clear RU counterpart or a different existing link at that position. The independent review checked
+all 202 links and found all facets clean. Progress is unchanged: **3,159 reviewed-current / 8 runtime-blocked / 5,111
+pending of 8,278**. Next: the general word queue (Batch169 onward), interleaving the held N2 kanji. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch168-navigation-only-link-restoration-sweep).
+
+## Previous published source milestone: batch167 thirty words
 
 Batch167 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions), plus navigation-only link wraps in 22 existing pages. The independent review found four
 minor quiz-safety gaps in the easy/suit/soft clusters; all were fixed and resolved in the recheck. A corpus-wide
 navigation-only sweep (203 EN link pairs whose RU targets now exist) is scheduled next. Progress: **3,159
 reviewed-current / 8 runtime-blocked / 5,111 pending of 8,278**; 1,693 words / 718 kanji / 718 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch167-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch167-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch166 thirty words
 
