@@ -1,0 +1,188 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "185-words-batch-24",
+ "publishedBaseline": "4edb919",
+ "qualifiedVerdicts": {
+  "content": "Review 001 at 60c84eb (blind kanji-accuracy-reviewer subagent; underlying model assigned by the runtime and not disclosed): correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; quiz safety NEEDS FIX (F1 高価 «дорогостоящий; высокой цены» lacked guards against 大切 and 大事 «важный; дорогой», since «дорогой» primarily means \"expensive\" and both cards already exclude 高い for that reason; F2 食物 «пища; еда» lacked a guard against 食事 «приём пищи; трапеза», since Ožegov's «еда» sense 1 is «приём пищи» and 飯 already guards 食事; F3, medium-low confidence, 駐車 «парковка; парковаться» lacked a guard against 止める, whose JMdict sense \"to park (a car)\" the 駐車 body teaches as 車を止める «поставить машину»). The reviewer checked the Russian-only paragraphs of 飽きる, 鬼, 高価, 髪の毛, 飯, 飼う and 空 against standard sources and found no unjustified guard. Fix commit d6deb71: 高価 guards 大切/大事, 食物 guards 食事, 駐車 guards 止める. Recheck 001 at d6deb71: F1-F3 resolved, the diff contains only those three exclusion lines and the matching manifest hashes (the manifest reproduces), no regressions in the re-screen, the four optional items accepted as declined; correctness, scoped coverage, comprehensibility and quiz safety CLEAN. 空 note: words/空.md is byte-identical to the held batch-033 draft docs/translation-drafts/033-nature-outdoor-activity/words/空.md (raw SHA-256 983424986f18...), which is bound to the same frozen EN bytes (EN raw SHA-256 0a7cad85...); the author found no defect against EN and current conventions, and the B185 reviewer, blind to the batch-033 records, read the runtime bytes in full and confirmed the Russian-only far-off-place / 旅の空 paragraphs against JMdict-derived senses. Its Russian-only guards 天気, 気, 気分, 遠く and 遠い are retained as conservative protective pairs: the reviewer found a dictionary basis for each (そら weather, state-of-mind and far-off-place senses) but judged their necessity in an ordinary quiz not established (the article teaches only the far-off-place sense), consistent with the batch-033 qualification. C2 for these pairs therefore stays qualified rather than CLEAN: the dictionary basis is recorded separately from quiz necessity, which remains UNVERIFIED, and the symmetric guard is wider than the supported 空-遠く/遠い cells.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Title/stem screen hand-checked; author guards beyond EN added きょろきょろ-見る (following じろじろ/ちらちら), かぎり-制限/以内/内/できるだけ, かあかあ-鳴く (following the animal-call cards that guard 鳴く), 髪の毛-髪/毛 (shared «волосы (на голове)»), 高速-速い, 骨折-折る (する-noun action «сломать»), 騒ぎ-混乱/ばたばた, 駐車-駐車場 (Russian «парковка» also names the lot), 飼う-持つ («держать»), 飯-ご飯/米/食べ物/食物, 食糧-食料品/食べ物/食物, 食物-食料品 and 食欲-もりもり; 空 keeps the five conservative guards of its held draft (天気, 気, 気分, 遠く, 遠い; see the 空 note). The review added 高価-大切/大事, 食物-食事 and 駐車-止める. The reviewer classified かぎり-以内/内, 飯-米 and the 空 guards as conservative (dictionary basis present, quiz necessity not established) and the rest as needed. All pairs are one-sided direct pairs; no existing card was changed for guards. Every EN exclusion is retained; no batch word has EN quiz_distractors. Screen-driven title choices during authoring: 鬼 «демон; водящий (в игре)» avoids the bare transliteration «они», the exact title of 彼ら; 髪の毛 «волосок; волосы (на голове)» is distinct from 髪 «волосы на голове»; 高価 «дорогостоящий; высокой цены» (not «дорогой», which overlapped 大事/大切 by segment); 食糧 «продовольствие; провиант», 食料 «продукты; съестные припасы» and 食物 «пища; еда» are mutually distinct, and every overlapping food pair is excluded in at least one direction."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/185-words-batch-24-intake.json",
+  "docs/translation-batches/185-words-batch-24-independent-review-001.md",
+  "docs/translation-batches/185-words-batch-24-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "板",
+   "毛",
+   "骨",
+   "駐",
+   "香"
+  ],
+  "navigationNote": "Only link brackets added at EN link positions for batch words (16 links in 10 word pages and 2 kanji pages; per-file link counts to batch words match EN): kanji/空 -> 空 (3 links), kanji/限 -> 限る (3 links), words/こけこっこー -> かあかあ, words/じろじろ -> きょろきょろ, words/すやすや -> うとうと, words/ちゅんちゅん -> かあかあ, words/におい -> 香り, words/兎 -> 餌, words/家畜 -> 飼う, words/蚕 -> 飼う, words/豚 -> 飼う, words/財産 -> 高価. 板, 毛, 骨, 駐 and 香 have EN kanji pages but no RU kanji page yet; 飽, 黙, 魅, 鬼, 価, 騒, 餌, 飼 and 糧 have no kanji page in EN or RU.",
+  "navigationOnlyEdits": [
+   "kanji/空.md",
+   "kanji/限.md",
+   "words/こけこっこー.md",
+   "words/じろじろ.md",
+   "words/すやすや.md",
+   "words/ちゅんちゅん.md",
+   "words/におい.md",
+   "words/兎.md",
+   "words/家畜.md",
+   "words/蚕.md",
+   "words/豚.md",
+   "words/財産.md"
+  ],
+  "newWords": [
+   "きょろきょろ",
+   "制限",
+   "限る",
+   "かぎり",
+   "かあかあ",
+   "飽きる",
+   "うんざり",
+   "うとうと",
+   "空",
+   "黙る",
+   "黒板",
+   "魅力",
+   "鬼",
+   "髪の毛",
+   "高速",
+   "高価",
+   "骨折",
+   "物音",
+   "騒音",
+   "騒ぎ",
+   "駐車",
+   "香り",
+   "首相",
+   "餌",
+   "飼う",
+   "飯",
+   "食糧",
+   "食料",
+   "食物",
+   "食欲"
+  ],
+  "selection": "Chunk 0 of 95 of the general remaining-word queue (word_schedule.py 30 --all over the full remaining word closure of 2,847 EN words, recomputed after Batch184); the chunk is closed under quiz_exclusions with no closure additions, so every EN exclusion target resolves to an existing RU word or a batch word. 空 was published from its held batch-033 draft (see the 空 note in content).",
+  "unwrappedAbsentTargetsNote": "Links to words absent from RU (禁止 除く ぐっすり 板 悪魔 速度 総理大臣 大臣 大統領 議会 食品) and to the pending kanji 板 毛 骨 駐 香 are plain labels until those files exist; links to the onomatopoeia articles (japanese-onomatopoeia, onomatopoeia-motion-and-sound, onomatopoeia-body-and-feelings, onomatopoeia-sound-patterns) and to koto-wake-and-formal-nouns are plain pointers. The optional image field of 3 onomatopoeic articles (きょろきょろ かあかあ うんざり) is omitted (word-only adaptation).",
+  "wordOnlyImageOmissions": [
+   "きょろきょろ",
+   "かあかあ",
+   "うんざり"
+  ]
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "Optional guards declined after review, with the reviewer's agreement in Recheck 001: 空-からから (the card's reading is そら; low risk), 骨折-折れる (the article does not teach 折れる), 騒ぎ-騒音/音 (no noise sense of 騒ぎ established) and かぎり-間 (weak). Author-judged borderline pairs left unguarded: かぎり-最後/終わり, かあかあ-鳥, 骨折-怪我 (a taught hyponym contrast), 騒音-うるさい, 高速-急行/特急 and 首相-社長 (the title has no «глава»)."
+  ],
+  "exclusionsAddedBeyondEn": {
+   "かあかあ": [
+    "鳴く"
+   ],
+   "かぎり": [
+    "制限",
+    "以内",
+    "内",
+    "できるだけ"
+   ],
+   "きょろきょろ": [
+    "見る"
+   ],
+   "空": [
+    "天気",
+    "気",
+    "気分",
+    "遠く",
+    "遠い"
+   ],
+   "食欲": [
+    "もりもり"
+   ],
+   "食物": [
+    "食料品",
+    "食事"
+   ],
+   "食糧": [
+    "食料品",
+    "食べ物",
+    "食物"
+   ],
+   "飯": [
+    "ご飯",
+    "米",
+    "食べ物",
+    "食物"
+   ],
+   "飼う": [
+    "持つ"
+   ],
+   "駐車": [
+    "駐車場",
+    "止める"
+   ],
+   "騒ぎ": [
+    "混乱",
+    "ばたばた"
+   ],
+   "骨折": [
+    "折る"
+   ],
+   "高価": [
+    "大切",
+    "大事"
+   ],
+   "高速": [
+    "速い"
+   ],
+   "髪の毛": [
+    "髪",
+    "毛"
+   ]
+  },
+  "titles": {
+   "うとうと": "дремать; клевать носом",
+   "うんざり": "сыт по горло; надоело",
+   "かあかあ": "кар-кар (карканье вороны)",
+   "かぎり": "предел; насколько; пока",
+   "きょろきょろ": "беспокойно оглядываться; озираться",
+   "制限": "ограничение; лимит",
+   "物音": "звук; шум (от чего-то)",
+   "空": "небо",
+   "限る": "ограничивать; ограничиваться",
+   "食料": "продукты; съестные припасы",
+   "食欲": "аппетит",
+   "食物": "пища; еда",
+   "食糧": "продовольствие; провиант",
+   "飯": "варёный рис; еда (разг.)",
+   "飼う": "держать (животных); разводить",
+   "飽きる": "надоедать; терять интерес",
+   "餌": "корм; приманка",
+   "首相": "премьер-министр",
+   "香り": "аромат; благоухание",
+   "駐車": "парковка; парковаться",
+   "騒ぎ": "переполох; суматоха",
+   "騒音": "шум; грохот",
+   "骨折": "перелом (кости)",
+   "高価": "дорогостоящий; высокой цены",
+   "高速": "высокая скорость; скоростная автомагистраль",
+   "髪の毛": "волосок; волосы (на голове)",
+   "鬼": "демон; водящий (в игре)",
+   "魅力": "обаяние; привлекательность",
+   "黒板": "классная доска",
+   "黙る": "молчать; замолчать"
+  }
+ }
+}

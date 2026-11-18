@@ -8,7 +8,18 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch184 thirty words
+## Current published source milestone: batch185 thirty words
+
+Batch185 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions), plus 16 navigation-only link wraps in 10 existing word pages and the kanji pages 空 and 限.
+空 was published byte-identical to its held batch-033 draft; its five guards remain explicitly conservative (dictionary
+basis, necessity not established). The independent review found three minor quiz-safety gaps (高価–大切/大事, 食物–食事,
+駐車–止める); all were fixed, and the recheck reported all four facets clean.
+Progress: **3,669 reviewed-current / 8 runtime-blocked / 4,601 pending of 8,278**; 2,203 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch185-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch184 thirty words
 
 Batch184 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions), plus 36 navigation-only link wraps in 32 existing word pages. The independent review found two
@@ -16,7 +27,7 @@ quiz-safety issues (a missing ごぼごぼ–沸く guard and over-guards agains
 gap (きりきり–ぎゅうぎゅう). All were fixed, and the second recheck reported all four facets clean.
 Progress: **3,639 reviewed-current / 8 runtime-blocked / 4,631 pending of 8,278**; 2,173 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch184-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch184-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch183 thirty words
 
