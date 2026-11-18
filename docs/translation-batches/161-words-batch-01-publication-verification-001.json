@@ -1,0 +1,80 @@
+{
+ "schemaVersion": 1,
+ "batchId": "161-words-batch-01",
+ "recordedAt": "2026-11-18T07:35:17Z",
+ "repository": "stop-cran/learning-japanese-ru",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "e2ebf8c3f3f2c48d39130f08d305a45cf869108c",
+ "candidateCommit": "0d8ce16",
+ "qualifiedAcceptanceCommit": "c7ec48b010ba8f29f375dbc495d753d063c5a56f",
+ "publishedCommit": "84ce6e9e8bb86abc978efd4fd91c453cdd1738bc",
+ "publishedTree": "30109184f1d11c54edb1e16a02591b5b7b073fd2",
+ "contentVersion": "1b8da208fd8ff5c8",
+ "integration": {
+  "method": "pull request merge commit",
+  "pullRequestCreated": true,
+  "pullRequest": 45,
+  "pullRequestUrl": "https://github.com/stop-cran/learning-japanese-ru/pull/45",
+  "branch": "full-ru-161-words-01",
+  "branchRef": "c7ec48b010ba8f29f375dbc495d753d063c5a56f",
+  "mainRef": "84ce6e9e8bb86abc978efd4fd91c453cdd1738bc",
+  "mergeParents": [
+   "e2ebf8c3f3f2c48d39130f08d305a45cf869108c",
+   "c7ec48b010ba8f29f375dbc495d753d063c5a56f"
+  ],
+  "branchAndMainTreeMatch": true
+ },
+ "githubIdentity": {
+  "authenticatedOwner": "stop-cran",
+  "author": "stop-cran",
+  "committer": "stop-cran (branch commits); web-flow (merge commit)",
+  "commitSignatureVerified": true,
+  "signatureReason": "valid",
+  "ownerCredentialMatchedVerifiedOwnerToken": true
+ },
+ "exactMainCi": {
+  "workflow": "Validate Russian content",
+  "runId": 44259891202,
+  "headSha": "84ce6e9e8bb86abc978efd4fd91c453cdd1738bc",
+  "status": "completed",
+  "conclusion": "success",
+  "url": "https://github.com/stop-cran/learning-japanese-ru/actions/runs/44259891202"
+ },
+ "protectedRefs": {
+  "ru-pilot-a": {
+   "expected": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+   "observedAfterPublication": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+   "unchanged": true
+  },
+  "ru-pilot-b": {
+   "expected": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+   "observedAfterPublication": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+   "unchanged": true
+  }
+ },
+ "qualifiedProgress": {
+  "frozenInventory": 8278,
+  "reviewedCurrent": 2974,
+  "excludedReviewedRuntimeBlocked": 8,
+  "pending": 5296,
+  "words": 1508,
+  "kanji": 718,
+  "strokes": 718,
+  "checkpointAuthority": null,
+  "checkpointReady": false
+ },
+ "evidence": {
+  "intake": "docs/translation-batches/161-words-batch-01-intake.json",
+  "review": "docs/translation-batches/161-words-batch-01-independent-review-001.md",
+  "recheck": "docs/translation-batches/161-words-batch-01-recheck-001.md",
+  "finalValidation": "docs/translation-batches/161-words-batch-01-final-validation-001.json",
+  "qualifiedSourceRecord": "docs/translation-batches/161-words-batch-01-reviewed-source.json"
+ },
+ "remainingQualification": {
+  "ordinaryQuizNegativeFallbackSafety": "30 word titles and their direct exclusions judged safe by one bounded independent review against the current RU title pool; not exhaustive, no transitive closure inferred.",
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false,
+  "continueRequired": true
+ }
+}
