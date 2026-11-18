@@ -1,6 +1,33 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch162 thirty words (second B160 example-word closure batch)
+## Current published source milestone: batch163 thirty-five words (final B160 example-word closure batch)
+
+Batch163 adds 35 Russian word articles: 愛情 愛する 愉快 悩む 患者 恋人 快適 延期 広がる 尊重 尊敬 回復 命令
+命じる 受け取る 便り 伸びる 伸ばす がっかり 器具 食器 規律 瀬戸物 拝む 担ぐ 承る 戸棚 憧れる 恋しい 快晴 往復
+弱点 延長 失恋 井戸. They are the final dependency-closed chunk of the quiz-exclusion closure of Batch160's
+plain-text example words, so every example word of the Batch160 kanji now has a Russian article. Twenty-three
+existing pages (kanji/令 伸 尊 延 弱 律 復 快 恋 患 悩 戸 承 担 拝, words/しょんぼり 依頼 失望 感心 拡大 機械 注文
+見送り) receive navigation-only link wraps at EN link positions; kanji/拝 also regains its EN-position 拝見 link.
+Kanji without RU cards (井 器 往 愉 憧 敬 棚 瀬) stay plain text.
+
+The independent read-only review found correctness and scoped coverage clean, two low quiz-safety gaps
+(伸びる–増える, 愉快–明るい) and one low comprehensibility defect (the 瀬戸物 literal-reading gloss). All were
+fixed, optional wording polish was applied, and the recheck resolved everything with no regressions. Exclusions
+added beyond EN are listed with the titles in the qualified source record.
+
+Qualified progress is **3,039 reviewed-current / 8 reviewed runtime-blocked / 5,231 pending of 8,278**,
+with 1,573 words, 718 kanji and 718 strokes. See the [intake](translation-batches/163-words-batch-03-intake.json),
+[independent review](translation-batches/163-words-batch-03-independent-review-001.md),
+[recheck](translation-batches/163-words-batch-03-recheck-001.md),
+[qualified source record](translation-batches/163-words-batch-03-reviewed-source.json) and
+[final validation](translation-batches/163-words-batch-03-final-validation-001.json).
+Next: the general word queue in dependency-closed chunks, interleaved with the held N2 kanji
+(B157-held 委 季 封 届 層 岩, B158-held 島 巨 布 希 干 庁 床 底 府, then 庫 and 憎).
+
+This is qualified source-content progress only. Tag/random fallback options, voice, drawing, learner, device,
+media, release, ordinary activation and full-translation approval are not implied.
+
+## Previous published source milestone: batch162 thirty words (second B160 example-word closure batch)
 
 Batch162 adds 30 Russian word articles: 設備 見送り 装置 苦手 芝居 続き 欠点 欠陥 粗 競技 皿 成長 発展 発達 演技
 方法 手段 法 決定 決まり 機械 整理 支配 拡大 担当 技師 承認 感心 愛 恋. They form the second dependency-closed
