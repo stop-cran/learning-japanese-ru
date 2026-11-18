@@ -1,6 +1,31 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch160 thirteen N2 kanji (B159 held drafts promoted)
+## Current published source milestone: batch161 thirty words (first B160 example-word closure batch)
+
+Batch161 adds 30 Russian word articles: 予想 疲れ くたくた へとへと ぐったり ぼろぼろ しんみり 失望 沈む しょんぼり
+注文 条件 予期 期待 意思 依頼 希望 望み 望む 求める 要求 請求 願い 願う 番 順番 順 頂戴 賛成 許可. They form the
+first dependency-closed chunk of the quiz-exclusion closure of Batch160's plain-text example words: every EN
+`quiz_exclusions`/`quiz_distractors` target is an existing RU word or a batch word. Thirteen existing kanji/word
+pages receive navigation-only link wraps at EN link positions (kanji/想 also regains its EN link to 相).
+ぼろぼろ, しんみり and しょんぼり are word-only adaptations without the optional image fields.
+
+The independent read-only review found no defects and judged all 30 words CLEAN on correctness, scoped coverage,
+Russian comprehensibility and quiz safety, including the 41 remaining stem overlaps. One optional consistency
+exclusion (くたくた–ソフト) was applied; the other optional items were withdrawn in the recheck. Exclusions added
+beyond EN are listed with the titles in the qualified source record.
+
+Qualified progress is **2,974 reviewed-current / 8 reviewed runtime-blocked / 5,296 pending of 8,278**,
+with 1,508 words, 718 kanji and 718 strokes. See the [intake](translation-batches/161-words-batch-01-intake.json),
+[independent review](translation-batches/161-words-batch-01-independent-review-001.md),
+[recheck](translation-batches/161-words-batch-01-recheck-001.md),
+[qualified source record](translation-batches/161-words-batch-01-reviewed-source.json) and
+[final validation](translation-batches/161-words-batch-01-final-validation-001.json).
+The remaining 65 words of that closure (planned as chunks of 30, 30 and 5) follow in later word batches.
+
+This is qualified source-content progress only. Tag/random fallback options, voice, drawing, learner, device,
+media, release, ordinary activation and full-translation approval are not implied.
+
+## Previous published source milestone: batch160 thirteen N2 kanji (B159 held drafts promoted)
 
 Batch160 adds Russian lessons and byte-identical frozen strokes for 延/弱/律/復/快/恋/患/悩/戸/承/技/担/拝,
 starting from the held B159 drafts, plus one required kanji link wrapper in each of eight existing words
