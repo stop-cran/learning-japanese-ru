@@ -1,6 +1,34 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch182 thirty words (general word queue)
+## Current published source milestone: batch183 thirty words (general word queue)
+
+Batch183 adds 30 Russian word articles: ひりひり ひらひら 偶然 ひょいと ぱんぱん ぱらぱら ざぶざぶ ばしゃばしゃ はあはあ にやにや
+にゃあにゃあ とぼとぼ てくてく たびたび しばしば たま ちょこちょこ 徐々に ちびちび ちくちく そよそよ ぐいぐい ずんずん ずるずる
+ずけずけ ずきずき するする 睡眠 すやすや すいすい. They are chunk 0 of 97 of the general remaining-word queue
+(recomputed after Batch182: closure of 2,907 EN words), so every EN quiz_exclusions target resolves to an existing RU
+word or a batch word. Twenty existing word pages and the kanji pages 偶 and 然 receive 27 navigation-only link wraps at
+EN link positions (three each to 偶然 on the two kanji pages), with per-file link counts to batch words matching EN.
+
+The batch covers stinging and throbbing pain, fluttering, chance, nimble and bulging movement, sprinkling and
+splashing, panting, grinning and mewing, trudging and steady walking, frequency adverbs (たびたび, しばしば, たま),
+toddling and sipping, prickling, breezes, forceful and dragging movement, blunt speech, gliding, smooth swimming and
+the sleep words 睡眠 and すやすや. Direct guards beyond EN cover pairs such as ひりひり/ずきずき–苦痛/頭痛/しくしく,
+偶然–出会う/ふと/ばったり, ぱんぱん–一杯/込む/満ちる, たま–たまに/珍しい/時々, とぼとぼ/てくてく–歩く, するする–滑る/つるつる/ぬるぬる,
+睡眠–眠る/夢 and すいすい–泳ぐ/容易. The optional image field of 20 onomatopoeic articles is omitted (word-only
+adaptation).
+The independent read-only review found correctness and scoped coverage clean, one comprehensibility issue (the
+ざぶざぶ title taught wading as a sense; it was retitled «шумно плескать; с громким плеском») and two quiz-safety gaps
+(ずけずけ–まっすぐ «напрямик» and ぱんぱん–あふれる «переполняться»). They were fixed, together with five adopted optional
+wording items, and the recheck reported all four facets clean.
+
+Qualified progress is **3,609 reviewed-current / 8 reviewed runtime-blocked / 4,661 pending of 8,278**,
+with 2,143 words, 718 kanji and 718 strokes. See the [intake](translation-batches/183-words-batch-22-intake.json),
+[independent review](translation-batches/183-words-batch-22-independent-review-001.md),
+[recheck](translation-batches/183-words-batch-22-recheck-001.md),
+[qualified source record](translation-batches/183-words-batch-22-reviewed-source.json) and
+[final validation](translation-batches/183-words-batch-22-final-validation-001.json).
+
+## Previous published source milestone: batch182 thirty words (general word queue)
 
 Batch182 adds 30 Russian word articles: わんわん よちよち もくもく むずむず まま ぽりぽり ぽちゃん ぽたぽた あつあつ ほかほか
 ぽかぽか ぺちゃんこ ぺたぺた ぺこぺこ べらべら ねばねば べたべた ぶかぶか ぴりぴり ちゅんちゅん ぴよぴよ ぴょんぴょん びりびり
