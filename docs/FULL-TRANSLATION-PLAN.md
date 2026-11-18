@@ -1,6 +1,35 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch163 thirty-five words (final B160 example-word closure batch)
+## Current published source milestone: batch164 thirty words (first general word-queue batch)
+
+Batch164 adds 30 Russian word articles: 生物 生き物 牛 家畜 熊 猪 馬鹿 猿 酔う 酔っ払い 虎 のんびり 回り くるくる
+ふらふら うろうろ ぶらぶら ころころ ごろごろ のろのろ 怠ける だらだら 句 文句 不満 不平 ぐずぐず ぐっしょり びしょびしょ
+ぐしゃぐしゃ. They are chunk 0 of 115 of the general remaining-word queue: `word_schedule.py 30 --all` orders the
+full remaining word closure (3,447 EN words) into dependency-closed chunks, so every EN quiz_exclusions target
+resolves to an existing RU word or a batch word. words/しっかり receives a navigation-only link wrap (ふらふら) at
+its EN link position. Kanji without RU cards (句 怠 熊 猪 猿 畜 虎 酔 鹿) stay plain text; four onomatopoeia
+images are omitted under the word-only convention.
+
+The independent read-only review found correctness and scoped coverage clean and accepted the Russian-specific
+replacements for English-only remarks (корова, кабан, пьяница, меня укачало, домашние животные). It found one
+moderate quiz-safety gap (文句 vs 反対 «возражение») and one minor comprehensibility defect (句 glossed as «фраза»
+without narrowing). Both were fixed, optional wording polish was applied, and the recheck resolved everything with
+no regressions. Exclusions added beyond EN (including 生物/生き物–動物) are listed with the titles in the qualified
+source record.
+
+Qualified progress is **3,069 reviewed-current / 8 reviewed runtime-blocked / 5,201 pending of 8,278**,
+with 1,603 words, 718 kanji and 718 strokes. See the [intake](translation-batches/164-words-batch-04-intake.json),
+[independent review](translation-batches/164-words-batch-04-independent-review-001.md),
+[recheck](translation-batches/164-words-batch-04-recheck-001.md),
+[qualified source record](translation-batches/164-words-batch-04-reviewed-source.json) and
+[final validation](translation-batches/164-words-batch-04-final-validation-001.json).
+Next: further general word-queue chunks (recomputed after each merge), interleaved with the held N2 kanji
+(B157-held 委 季 封 届 層 岩, B158-held 島 巨 布 希 干 庁 床 底 府, then 庫 and 憎).
+
+This is qualified source-content progress only. Tag/random fallback options, voice, drawing, learner, device,
+media, release, ordinary activation and full-translation approval are not implied.
+
+## Previous published source milestone: batch163 thirty-five words (final B160 example-word closure batch)
 
 Batch163 adds 35 Russian word articles: 愛情 愛する 愉快 悩む 患者 恋人 快適 延期 広がる 尊重 尊敬 回復 命令
 命じる 受け取る 便り 伸びる 伸ばす がっかり 器具 食器 規律 瀬戸物 拝む 担ぐ 承る 戸棚 憧れる 恋しい 快晴 往復

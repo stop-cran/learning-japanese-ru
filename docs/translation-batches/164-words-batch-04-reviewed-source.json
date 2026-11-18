@@ -1,0 +1,158 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "164-words-batch-04",
+ "publishedBaseline": "10ba294",
+ "qualifiedVerdicts": {
+  "content": "Review 001 at 0501fab: correctness CLEAN and scoped coverage CLEAN on all 30 words and the navigation-only edit; the author's Russian-specific claims (корова, кабан, пьяница, меня укачало, домашние животные, словосочетание, 馬鹿 register warnings) accepted; Q1 moderate quiz-safety gap (文句 vs 反対 «возражение») and C1 minor comprehensibility defect (句 glossed as «фраза» without narrowing). Recheck 001 at a934d95: Q1 and C1 resolved; optional O1-O3 wording polish (くるくる, ころころ, だらだら) applied and resolved; no regressions; all four facets CLEAN.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Title/stem screen hand-checked; coordinator added 生物-動物 and 生き物-動物 (живое существо vs животное); conservative 回り-周り guard kept (Daijisen treats まわり as one word with the surroundings sense usually written 周り); no EN exclusion dropped."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/164-words-batch-04-intake.json",
+  "docs/translation-batches/164-words-batch-04-independent-review-001.md",
+  "docs/translation-batches/164-words-batch-04-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "句",
+   "怠",
+   "熊",
+   "猪",
+   "猿",
+   "畜",
+   "虎",
+   "酔",
+   "鹿"
+  ],
+  "navigationNote": "Only link brackets added at the EN link position for batch word ふらふら in words/しっかり.",
+  "navigationOnlyEdits": [
+   "words/しっかり.md"
+  ],
+  "newWords": [
+   "生物",
+   "生き物",
+   "牛",
+   "家畜",
+   "熊",
+   "猪",
+   "馬鹿",
+   "猿",
+   "酔う",
+   "酔っ払い",
+   "虎",
+   "のんびり",
+   "回り",
+   "くるくる",
+   "ふらふら",
+   "うろうろ",
+   "ぶらぶら",
+   "ころころ",
+   "ごろごろ",
+   "のろのろ",
+   "怠ける",
+   "だらだら",
+   "句",
+   "文句",
+   "不満",
+   "不平",
+   "ぐずぐず",
+   "ぐっしょり",
+   "びしょびしょ",
+   "ぐしゃぐしゃ"
+  ],
+  "selection": "Chunk 0 of 115 of the general remaining-word queue (word_schedule.py 30 --all over the full remaining word closure of 3,447 EN words); the chunk is closed under quiz_exclusions, so every EN exclusion target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to targets absent from RU (words からから きびきび ぐにゃぐにゃ ぐるぐる ざらざら しっとり じとじと すたすた ずるずる ぶうぶう ぽたぽた 不足 文 植物 満足 物理 豚 酒 飼う; kanji 熊 猪 猿 畜 虎 鹿 句 怠 酔; onomatopoeia guides) are plain labels until those files exist.",
+  "wordOnlyImageOmissions": [
+   "のろのろ",
+   "だらだら",
+   "ぐずぐず",
+   "ぐしゃぐしゃ"
+  ]
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "O4 weak EN-parity overlaps (ぶらぶら-散歩, のんびり-休み, 怠ける vs ごろごろ/ぶらぶら, 回り vs окрестности titles) left unguarded",
+   "O5 ぐずぐず title keeps the concise two-sense form; the 'unsettled' sense stays in the body"
+  ],
+  "exclusionsAddedBeyondEn": {
+   "くるくる": [
+    "回る"
+   ],
+   "ぐっしょり": [
+    "ぬれる"
+   ],
+   "ころころ": [
+    "変わる"
+   ],
+   "のんびり": [
+    "休む",
+    "静か"
+   ],
+   "びしょびしょ": [
+    "ぬれる"
+   ],
+   "句": [
+    "表現",
+    "言葉"
+   ],
+   "回り": [
+    "回る",
+    "周り",
+    "広がる"
+   ],
+   "家畜": [
+    "動物"
+   ],
+   "文句": [
+    "反対"
+   ],
+   "生き物": [
+    "動物"
+   ],
+   "生物": [
+    "動物"
+   ]
+  },
+  "titles": {
+   "うろうろ": "беспокойно бродить; околачиваться",
+   "くるくる": "вертеться; обматывать",
+   "ぐしゃぐしゃ": "смятый; растрёпанный; раскисший",
+   "ぐずぐず": "мешкать; ворчать",
+   "ぐっしょり": "насквозь промокший",
+   "ころころ": "катиться; то и дело меняться",
+   "ごろごろ": "громыхать; катиться; валяться без дела",
+   "だらだら": "литься ручьём; затягиваться; бездельничать",
+   "のろのろ": "черепашьим шагом; вяло",
+   "のんびり": "не спеша; расслабляться",
+   "びしょびしょ": "промокший до нитки",
+   "ふらふら": "пошатываться; бродить без цели",
+   "ぶらぶら": "болтаться; бродить без дела",
+   "不平": "недовольство; жалоба",
+   "不満": "недовольство; неудовлетворённость",
+   "句": "фраза; стих",
+   "回り": "вращение; обход; распространение",
+   "家畜": "домашний скот; сельскохозяйственные животные",
+   "怠ける": "лениться; пренебрегать",
+   "文句": "жалоба; фраза",
+   "熊": "медведь",
+   "牛": "корова; крупный рогатый скот",
+   "猪": "кабан",
+   "猿": "обезьяна",
+   "生き物": "живое существо",
+   "生物": "живое существо; организм; биология",
+   "虎": "тигр",
+   "酔う": "пьянеть; страдать от укачивания",
+   "酔っ払い": "пьяный человек; опьянение",
+   "馬鹿": "дурак; глупый"
+  }
+ }
+}
