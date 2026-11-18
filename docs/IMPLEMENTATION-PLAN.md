@@ -8,14 +8,24 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch182 thirty words
+## Current published source milestone: batch183 thirty words
+
+Batch183 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions), plus 27 navigation-only link wraps in 22 existing pages (including kanji 偶 and 然). The
+independent review found one comprehensibility issue (the ざぶざぶ title) and two quiz-safety gaps (ずけずけ–まっすぐ,
+ぱんぱん–あふれる); all were fixed and resolved in the recheck.
+Progress: **3,609 reviewed-current / 8 runtime-blocked / 4,661 pending of 8,278**; 2,143 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch183-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch182 thirty words
 
 Batch182 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions), plus 11 navigation-only link wraps in 10 existing pages. The independent review found one
 quiz-safety gap (がんがん «грохотать» vs. ごろごろ «громыхать…»); it was fixed and resolved in the recheck.
 Progress: **3,579 reviewed-current / 8 runtime-blocked / 4,691 pending of 8,278**; 2,113 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch182-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch182-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch181 thirty words
 

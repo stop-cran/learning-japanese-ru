@@ -1,0 +1,241 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "183-words-batch-22",
+ "publishedBaseline": "ab2e872",
+ "qualifiedVerdicts": {
+  "content": "Review 001 at b538ac4: correctness CLEAN; scoped coverage CLEAN; comprehensibility NEEDS FIX (F3 ざぶざぶ title «шумно плескать; брести по воде» taught wading as a sense, whereas EN glosses \"sloshing and splashing\" and JMdict gives only \"splashing; sloshing\"); quiz safety NEEDS FIX (F1 ずけずけ «говорить без обиняков, бесцеремонно» lacked a guard against まっすぐ «прямо; напрямик», whose «напрямик» also means «без обиняков»; F2 ぱんぱん «набитый до отказа…» lacked a guard against あふれる «…переполняться», which already guards 込む and 満ちる on the same ground). Optional suggestions adopted: ずるずる example translation «…, а к выводу так и не пришли»; すやすや «Первые два слова пересекаются» → «すやすや и ぐっすり пересекаются» (deep sleep and dozing cannot be the overlapping pair); 睡眠を取る «высыпаться, спать» → «спать, поспать» (EN \"get some sleep\"; the example keeps «выспался» because 十分な is explicit); ばしゃばしゃ «этим глухим чтением» → «к варианту с глухим согласным (ぱしゃぱしゃ)»; にやにや example translation «Он, видимо, знал ответ и многозначительно ухмыльнулся». Fix commit 51aa24d: ずけずけ-まっすぐ and ぱんぱん-あふれる guards added; ざぶざぶ retitled «шумно плескать; с громким плеском» and its author-added とぼとぼ guard (motivated only by «брести») removed. Recheck 001 at 51aa24d: F1-F3 and all five optional items resolved, no regressions (the new ざぶざぶ title has no real collision; removing とぼとぼ is safe; manifest reproduces); correctness, scoped coverage, comprehensibility and quiz safety CLEAN.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Title/stem screen hand-checked; author guards beyond EN added ひりひり-苦痛/頭痛/しくしく/ずきずき, ずきずき-苦痛/頭痛/しくしく, ひらひら-ゆらゆら, 偶然-出会う/ふと/ばったり, ぱんぱん-一杯/込む/満ちる/ばたばた, ぱらぱら-ほくほく/ぼろぼろ, ばしゃばしゃ-ぺたぺた, にやにや-微笑む, にゃあにゃあ-鳴く, とぼとぼ-のろのろ/歩く/しょんぼり, てくてく-歩く, たま-たまに/珍しい/時々, 徐々に-ぽつぽつ, ちびちび-ぽつぽつ/少し/ちょっと, ちくちく-びりびり, そよそよ-吹く/風, ずんずん-進む/昇る, ずるずる-引く, ずけずけ-言う/話す, するする-滑る/つるつる/ぬるぬる, 睡眠-眠る/夢 and すいすい-泳ぐ/容易/ずんずん/進む; the review added ずけずけ-まっすぐ (ずけずけ «говорить без обиняков, бесцеремонно» vs. まっすぐ «прямо; напрямик», where «напрямик» also means «без обиняков») and ぱんぱん-あふれる (ぱんぱん «набитый до отказа…» vs. あふれる «переливаться через край; переполняться», which already guards 込む and 満ちる on the same ground); both are one-sided direct pairs and まっすぐ and あふれる are unchanged. Every EN exclusion is retained; no batch word has EN quiz_distractors. するする was titled «легко скользить; без помех» rather than the planned «скользить; двигаться плавно», which overlapped 動く/進む. ざぶざぶ was retitled after review from «шумно плескать; брести по воде» to «шумно плескать; с громким плеском» (EN \"sloshing and splashing\"; wading is a usage, not a sense), and its author-added とぼとぼ guard, motivated only by «брести», was removed; the re-screen found no other title overlap. The reviewer judged するする-容易, ひらひら-ばたばた/ふわふわ, ひょいと-すっと, ぱらぱら-ぽたぽた and ずるずる-締める/曇る (homonymous «затягивать(ся)», as with the unguarded だらだら) borderline and left them unguarded; the author left 偶然-合う and ずけずけ-おっしゃる/申す/申し上げる/ささやく/ぺらぺら unguarded."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/183-words-batch-22-intake.json",
+  "docs/translation-batches/183-words-batch-22-independent-review-001.md",
+  "docs/translation-batches/183-words-batch-22-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [],
+  "navigationNote": "Only link brackets added at EN link positions for batch words (27 links in 22 files; per-file link counts to batch words match EN): kanji/偶 -> 偶然 (3 links), kanji/然 -> 偶然 (3 links), words/がんがん -> ずきずき, words/きっぱり -> ずけずけ, words/じんじん -> ずきずき, words/すたすた -> とぼとぼ, words/だらだら -> ずるずる, words/ちらちら -> ひらひら, words/にこにこ -> にやにや, words/にっこり -> にやにや, words/はきはき -> ずけずけ, words/ぱちぱち -> ぱんぱん, words/びゅうびゅう -> そよそよ, words/ぴょんぴょん -> ひょいと, words/ぴりぴり -> ひりひり, ちくちく, words/ふと -> 偶然, words/べちゃべちゃ -> ぱらぱら, words/ぽちゃん -> ばしゃばしゃ, words/ぽつぽつ -> ぱらぱら, words/むずむず -> ちくちく, words/わんわん -> にゃあにゃあ, words/突然 -> 偶然. 睡 and 徐 have no kanji page in EN or RU, so no other kanji page changes.",
+  "navigationOnlyEdits": [
+   "kanji/偶.md",
+   "kanji/然.md",
+   "words/がんがん.md",
+   "words/きっぱり.md",
+   "words/じんじん.md",
+   "words/すたすた.md",
+   "words/だらだら.md",
+   "words/ちらちら.md",
+   "words/にこにこ.md",
+   "words/にっこり.md",
+   "words/はきはき.md",
+   "words/ぱちぱち.md",
+   "words/びゅうびゅう.md",
+   "words/ぴょんぴょん.md",
+   "words/ぴりぴり.md",
+   "words/ふと.md",
+   "words/べちゃべちゃ.md",
+   "words/ぽちゃん.md",
+   "words/ぽつぽつ.md",
+   "words/むずむず.md",
+   "words/わんわん.md",
+   "words/突然.md"
+  ],
+  "newWords": [
+   "ひりひり",
+   "ひらひら",
+   "偶然",
+   "ひょいと",
+   "ぱんぱん",
+   "ぱらぱら",
+   "ざぶざぶ",
+   "ばしゃばしゃ",
+   "はあはあ",
+   "にやにや",
+   "にゃあにゃあ",
+   "とぼとぼ",
+   "てくてく",
+   "たびたび",
+   "しばしば",
+   "たま",
+   "ちょこちょこ",
+   "徐々に",
+   "ちびちび",
+   "ちくちく",
+   "そよそよ",
+   "ぐいぐい",
+   "ずんずん",
+   "ずるずる",
+   "ずけずけ",
+   "ずきずき",
+   "するする",
+   "睡眠",
+   "すやすや",
+   "すいすい"
+  ],
+  "selection": "Chunk 0 of 97 of the general remaining-word queue (word_schedule.py 30 --all over the full remaining word closure of 2,907 EN words, recomputed after Batch182); the chunk is closed under quiz_exclusions with no closure additions, so every EN exclusion target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to words absent from RU (うとうと がぶがぶ ぎゅうぎゅう くすくす ぐっすり げほげほ ごくごく しとしと じゃぶじゃぶ じりじり どきどき) are plain labels until those files exist; links to the onomatopoeia articles (japanese-onomatopoeia, onomatopoeia-body-and-feelings, -eating-and-drinking, -motion-and-sound, -sound-and-movement, -sound-patterns) are plain pointers. The optional image field of 20 onomatopoeic articles (all batch words except 偶然 ぱらぱら にやにや とぼとぼ たびたび しばしば たま 徐々に 睡眠 すやすや) is omitted (word-only adaptation).",
+  "wordOnlyImageOmissions": [
+   "ひりひり",
+   "ひらひら",
+   "ひょいと",
+   "ぱんぱん",
+   "ざぶざぶ",
+   "ばしゃばしゃ",
+   "はあはあ",
+   "にゃあにゃあ",
+   "てくてく",
+   "ちょこちょこ",
+   "ちびちび",
+   "ちくちく",
+   "そよそよ",
+   "ぐいぐい",
+   "ずんずん",
+   "ずるずる",
+   "ずけずけ",
+   "ずきずき",
+   "するする",
+   "すいすい"
+  ]
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "Borderline pairs left unguarded after review: するする-容易 (JMdict gives only \"smoothly; swiftly\"), ひらひら-ばたばた/ふわふわ, ひょいと-すっと, ぱらぱら-ぽたぽた and ずるずる-締める/曇る (homonymous «затягивать(ся)», as with the unguarded だらだら); the author's open judgments 偶然-合う and ずけずけ-おっしゃる/申す/申し上げる/ささやく/ぺらぺら likewise remain unguarded. All five optional wording suggestions were adopted."
+  ],
+  "exclusionsAddedBeyondEn": {
+   "すいすい": [
+    "泳ぐ",
+    "容易",
+    "ずんずん",
+    "進む"
+   ],
+   "するする": [
+    "滑る",
+    "つるつる",
+    "ぬるぬる"
+   ],
+   "ずきずき": [
+    "苦痛",
+    "頭痛",
+    "しくしく"
+   ],
+   "ずけずけ": [
+    "言う",
+    "話す",
+    "まっすぐ"
+   ],
+   "ずるずる": [
+    "引く"
+   ],
+   "ずんずん": [
+    "進む",
+    "昇る"
+   ],
+   "そよそよ": [
+    "吹く",
+    "風"
+   ],
+   "たま": [
+    "たまに",
+    "珍しい",
+    "時々"
+   ],
+   "ちくちく": [
+    "びりびり"
+   ],
+   "ちびちび": [
+    "ぽつぽつ",
+    "少し",
+    "ちょっと"
+   ],
+   "てくてく": [
+    "歩く"
+   ],
+   "とぼとぼ": [
+    "のろのろ",
+    "歩く",
+    "しょんぼり"
+   ],
+   "にゃあにゃあ": [
+    "鳴く"
+   ],
+   "にやにや": [
+    "微笑む"
+   ],
+   "ばしゃばしゃ": [
+    "ぺたぺた"
+   ],
+   "ぱらぱら": [
+    "ほくほく",
+    "ぼろぼろ"
+   ],
+   "ぱんぱん": [
+    "一杯",
+    "込む",
+    "満ちる",
+    "ばたばた",
+    "あふれる"
+   ],
+   "ひらひら": [
+    "ゆらゆら"
+   ],
+   "ひりひり": [
+    "苦痛",
+    "頭痛",
+    "しくしく",
+    "ずきずき"
+   ],
+   "偶然": [
+    "出会う",
+    "ふと",
+    "ばったり"
+   ],
+   "徐々に": [
+    "ぽつぽつ"
+   ],
+   "睡眠": [
+    "眠る",
+    "夢"
+   ]
+  },
+  "titles": {
+   "ぐいぐい": "с силой, напористо; большими глотками",
+   "ざぶざぶ": "шумно плескать; с громким плеском",
+   "しばしば": "часто; нередко",
+   "すいすい": "легко и плавно (плыть, продвигаться)",
+   "すやすや": "мирно, сладко спать",
+   "するする": "легко скользить; без помех",
+   "ずきずき": "пульсирующая боль",
+   "ずけずけ": "говорить без обиняков, бесцеремонно",
+   "ずるずる": "волочить; шумно втягивать (лапшу); затягиваться",
+   "ずんずん": "уверенно продвигаться; гулко бухать",
+   "そよそよ": "тихо веять (о ветерке)",
+   "たびたび": "неоднократно; часто",
+   "たま": "нечастый; редкий",
+   "ちくちく": "колоть; покалывать",
+   "ちびちび": "понемногу; маленькими глотками",
+   "ちょこちょこ": "семенить; то и дело",
+   "てくてく": "мерно шагать",
+   "とぼとぼ": "понуро брести",
+   "にゃあにゃあ": "мяу-мяу",
+   "にやにや": "ухмыляться",
+   "はあはあ": "тяжело дышать, задыхаться",
+   "ばしゃばしゃ": "шлёпать по воде, брызгаться",
+   "ぱらぱら": "редко накрапывать; рассыпчатый (о рисе)",
+   "ぱんぱん": "набитый до отказа; звонкие хлопки",
+   "ひょいと": "проворно; неожиданно",
+   "ひらひら": "порхать; развеваться",
+   "ひりひり": "саднящая, жгучая боль",
+   "偶然": "случайно; совпадение",
+   "徐々に": "постепенно; мало-помалу",
+   "睡眠": "сон (физиологический)"
+  }
+ }
+}
