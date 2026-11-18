@@ -1,0 +1,176 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "174-words-batch-13",
+ "publishedBaseline": "3a5f616",
+ "qualifiedVerdicts": {
+  "content": "Review 001 at 3ed3f15: correctness NEEDS FIX (F3 実 example note implied the discussion might concern fruit; F4 地 described に as direction instead of the endpoint/destination); scoped coverage CLEAN; comprehensibility NEEDS FIX (F3); quiz safety NEEDS FIX (F1 場-席 via «место»; F2 中央-途中/間 suggested at medium/low confidence). Optional: 財産 «только имущество» wording, English glosses in 場/地/畝 learner text, bookish 中心 «средоточие», weak 地-田舎 overlap. Recheck 001 at 6126c80: all four facets CLEAN; F1, F3 and F4 resolved, F2 withdrawn (no direct label collision), the optional 財産, gloss, 中心 title and 地-田舎 items resolved; the new «часть» overlaps of the 中心 title judged not quiz collisions.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Title/stem screen hand-checked; author guards beyond EN added 額-合計/代金, 総額-代金, 中心-中, 半ば-中/中央/真ん中/途中, 酒-お酒/飲み物, 武器-道具, 実-本当/実際, 果実-果物, 獣医-医者, 場-会場/模様, 地-土/所/耕地, 陸-海岸/土; the review fixes added 場-席 and 地-田舎. 中心 was retitled «центр; ядро; главная часть»; its remaining «часть» overlaps (ほとんど, 内側, 続き) share no whole label segment."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/174-words-batch-13-intake.json",
+  "docs/translation-batches/174-words-batch-13-independent-review-001.md",
+  "docs/translation-batches/174-words-batch-13-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "額",
+   "総",
+   "央",
+   "竹",
+   "笹",
+   "稲",
+   "穂",
+   "武",
+   "矛",
+   "桃",
+   "略",
+   "畝",
+   "畔",
+   "獣",
+   "陸"
+  ],
+  "navigationNote": "Only link brackets added at EN link positions for batch words (13 links in 7 files; per-file link counts match EN): kanji/容 -> 内容, kanji/富 -> 富, kanji/酒 -> 酒, words/こと -> 内容, words/形式 -> 内容, words/獣 -> 獣医, words/酔う -> 酒.",
+  "navigationOnlyEdits": [
+   "kanji/容.md",
+   "kanji/富.md",
+   "kanji/酒.md",
+   "words/こと.md",
+   "words/形式.md",
+   "words/獣.md",
+   "words/酔う.md"
+  ],
+  "newWords": [
+   "額",
+   "総額",
+   "中心",
+   "中央",
+   "半ば",
+   "竹",
+   "酒",
+   "笹",
+   "稲穂",
+   "研究員",
+   "研究者",
+   "富",
+   "財産",
+   "武器",
+   "矛",
+   "内容",
+   "実",
+   "果実",
+   "ピンク",
+   "桃",
+   "白桃",
+   "いかがわしい",
+   "疑わしい",
+   "略語",
+   "畝",
+   "畔",
+   "獣医",
+   "場",
+   "地",
+   "陸"
+  ],
+  "selection": "Chunk 0 of 106 of the general remaining-word queue (word_schedule.py 30 --all over the full remaining word closure of 3,177 EN words, recomputed after Batch173); the chunk is closed under quiz_exclusions, so every EN exclusion target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to targets absent from RU (words 松 梅 高価 能力 矛盾 種 怪しい 疑う 省く 湖畔 医師 地球 大陸; kanji 額 総 央 竹 笹 稲 穂 武 矛 桃 略 畝 畔 獣 陸; articles occupation-and-role-endings and ayashii-and-related-words) are plain labels until those files exist.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "F2 中央-途中/間 and 半ば-間 guards not added: the displayed labels share no segment and the link is only transitive via 真ん中; exclusions are direct pairs",
+   "稲穂-稲/米, 竹-木, 略語-言葉, 畝-畑, 桃-果物, 財産-お金 guards not added: hypernyms or distinct Russian answers, and EN has no pairs"
+  ],
+  "exclusionsAddedBeyondEn": {
+   "中心": [
+    "中"
+   ],
+   "半ば": [
+    "中",
+    "中央",
+    "真ん中",
+    "途中"
+   ],
+   "地": [
+    "土",
+    "所",
+    "耕地",
+    "田舎"
+   ],
+   "場": [
+    "会場",
+    "模様",
+    "席"
+   ],
+   "実": [
+    "本当",
+    "実際"
+   ],
+   "果実": [
+    "果物"
+   ],
+   "武器": [
+    "道具"
+   ],
+   "獣医": [
+    "医者"
+   ],
+   "総額": [
+    "代金"
+   ],
+   "酒": [
+    "お酒",
+    "飲み物"
+   ],
+   "陸": [
+    "海岸",
+    "土"
+   ],
+   "額": [
+    "合計",
+    "代金"
+   ]
+  },
+  "titles": {
+   "いかがわしい": "сомнительный; непристойный",
+   "ピンク": "розовый",
+   "中央": "центр; середина",
+   "中心": "центр; ядро; главная часть",
+   "内容": "содержание; суть",
+   "半ば": "середина; наполовину; отчасти",
+   "地": "земля; местность",
+   "場": "место; обстановка; физическое поле",
+   "実": "плод; суть",
+   "富": "богатство",
+   "果実": "плод",
+   "桃": "персик (дерево и плод)",
+   "武器": "оружие; сильная сторона",
+   "獣医": "ветеринар",
+   "畔": "межа (между рисовыми полями)",
+   "畝": "гряда; рубчик (на ткани)",
+   "略語": "сокращение; аббревиатура",
+   "疑わしい": "сомнительный; подозрительный",
+   "白桃": "белый персик",
+   "矛": "копьё; древковое оружие",
+   "研究員": "научный сотрудник",
+   "研究者": "исследователь",
+   "稲穂": "рисовый колос",
+   "竹": "бамбук",
+   "笹": "саза; мелкий бамбук",
+   "総額": "общая сумма; итоговая сумма",
+   "財産": "имущество; достояние; богатство",
+   "酒": "алкогольный напиток; сакэ",
+   "陸": "суша; берег",
+   "額": "рамка; сумма"
+  }
+ }
+}

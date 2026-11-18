@@ -8,7 +8,17 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch173 thirty words
+## Current published source milestone: batch174 thirty words
+
+Batch174 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions), plus 13 navigation-only link wraps in 7 existing pages. The independent review found two
+explanation errors (実 example note, 地 に as direction) and a 場–席 quiz-safety gap; all were fixed and resolved in the
+recheck, and a transitive 中央–途中/間 guard suggestion was declined.
+Progress: **3,339 reviewed-current / 8 runtime-blocked / 4,931 pending of 8,278**; 1,873 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch174-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch173 thirty words
 
 Batch173 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions), plus 26 navigation-only link wraps in 13 existing pages. The independent review found an
@@ -16,7 +26,7 @@ ownership-implying title (自宅), a coarse register title (腹) and four quiz-s
 ケース–出来事); all were fixed and resolved in the recheck.
 Progress: **3,309 reviewed-current / 8 runtime-blocked / 4,961 pending of 8,278**; 1,843 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch173-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch173-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch172 thirty words
 
