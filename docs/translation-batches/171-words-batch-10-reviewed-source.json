@@ -1,0 +1,161 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "171-words-batch-10",
+ "publishedBaseline": "f1f6103",
+ "qualifiedVerdicts": {
+  "content": "Review 001 at 7b9ffca: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN (optional polish O1-O5: 傾向 example translation hiding the tendency sense, 蝶 glosses for 蛾/蝶番 too narrow, a tautological 蛍 spelling sentence, an untranslated English source gloss in 目下, the river-only 蛇行 title); quiz safety NEEDS FIX (F1 missing 蚕-蝶 direct pair: Russian «бабочка» also covers moths, including the silkworm imago). Recheck 001 at fe752ba: F1 resolved (蚕 excludes [虫, 蝶]); optional O1-O5 resolved (傾向 translation states the tendency, 蝶 glosses «ночная бабочка; мотылёк» and «петля; шарнир», 蛍 spelling sentence de-duplicated, 目下 source gloss translated, 蛇行 title «извилистый путь; петлять; вилять» with no new quiz collision); no regressions; correctness, scoped coverage, comprehensibility and quiz safety CLEAN.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Title/stem screen hand-checked; remaining hits (現在-このごろ/近頃/最近 «время», 諸島-島, 辰-酉 «знак зодиака», 筋肉-肉, 蛇行-道 «путь») are separated by qualifiers or meaning; author guards added 雑草-草, 週末-休日/休み/連休, 連休-休日/休み, 迷う-悩む, 植物-草, 形式-格好, 傾向-癖; the review fix added 蚕-蝶."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/171-words-batch-10-intake.json",
+  "docs/translation-batches/171-words-batch-10-independent-review-001.md",
+  "docs/translation-batches/171-words-batch-10-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "島",
+   "柄",
+   "棒",
+   "植",
+   "模",
+   "癖",
+   "筋",
+   "蚕",
+   "蛇",
+   "蛍",
+   "蝶",
+   "諸",
+   "辰",
+   "酉",
+   "鉱",
+   "隻",
+   "隼",
+   "雛"
+  ],
+  "navigationNote": "Only link brackets added at EN link positions for batch words (23 links in 9 files; per-file link counts match EN): kanji/傾 -> 傾向 (2), kanji/式 -> 形式 (3), kanji/形 -> 形式 (3), kanji/末 -> 週末 (3), kanji/草 -> 雑草 (3), kanji/迷 -> 迷う (2), kanji/連 -> 連休 (3), kanji/雑 -> 雑草 (3), words/生き物 -> 植物 (1).",
+  "navigationOnlyEdits": [
+   "kanji/傾.md",
+   "kanji/式.md",
+   "kanji/形.md",
+   "kanji/末.md",
+   "kanji/草.md",
+   "kanji/迷.md",
+   "kanji/連.md",
+   "kanji/雑.md",
+   "words/生き物.md"
+  ],
+  "newWords": [
+   "現在",
+   "目下",
+   "雛",
+   "雑草",
+   "隼",
+   "隻",
+   "鉱石",
+   "酉",
+   "週末",
+   "連休",
+   "迷う",
+   "辰",
+   "諸島",
+   "蝶",
+   "蛍",
+   "カーブ",
+   "蛇行",
+   "蛇",
+   "蚕",
+   "植物",
+   "植木",
+   "グラス",
+   "模様",
+   "柄",
+   "形式",
+   "癖",
+   "傾向",
+   "筋肉",
+   "筋",
+   "棒"
+  ],
+  "selection": "Chunk 0 of 109 of the general remaining-word queue (word_schedule.py 30 --all over the full remaining word closure of 3,267 EN words, recomputed after Batch170); the chunk is closed under quiz_exclusions, so every EN exclusion target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to targets absent from RU (words 過去 未来 現代 目上 舟 枚 採掘 時刻 蚊 蛍光灯 曲線 蛇口 飼う 繭 桑 内容 流行 骨; kanji 雛 隼 隻 鉱 銅 酉 辰 諸 島 蝶 蛍 蛇 蚕 植 棒) are plain labels until those files exist.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "筋肉-肉 guard not added: «мышца; мускулатура» vs «мясо; плоть» name different senses and EN has no pair",
+   "現在-このごろ/近頃 guards not added: «настоящее время; на данный момент» vs «в наши дни; в последнее время» are distinct and EN has no pair",
+   "Pre-existing extra kanji links in kanji/式 and kanji/形 left outside this word batch"
+  ],
+  "exclusionsAddedBeyondEn": {
+   "傾向": [
+    "癖"
+   ],
+   "形式": [
+    "格好"
+   ],
+   "植物": [
+    "草"
+   ],
+   "蚕": [
+    "蝶"
+   ],
+   "迷う": [
+    "悩む"
+   ],
+   "連休": [
+    "休日",
+    "休み"
+   ],
+   "週末": [
+    "休日",
+    "休み",
+    "連休"
+   ],
+   "雑草": [
+    "草"
+   ]
+  },
+  "titles": {
+   "カーブ": "изгиб; поворот дороги; кервбол",
+   "グラス": "бокал; стакан",
+   "傾向": "тенденция; склонность",
+   "形式": "форма; формат",
+   "柄": "рукоятка; узор",
+   "棒": "палка; стержень; шест",
+   "植木": "садовое дерево; растение в горшке",
+   "植物": "растение; растительность",
+   "模様": "узор; обстановка",
+   "現在": "настоящее время; на данный момент",
+   "癖": "привычка; особенность",
+   "目下": "нижестоящий; младший по положению",
+   "筋": "сухожилие; полоса; сюжет",
+   "筋肉": "мышца; мускулатура",
+   "蚕": "тутовый шелкопряд",
+   "蛇": "змея",
+   "蛇行": "извилистый путь; петлять; вилять",
+   "蛍": "светлячок",
+   "蝶": "бабочка",
+   "諸島": "архипелаг; группа островов",
+   "辰": "Дракон (знак зодиака)",
+   "迷う": "заблудиться; колебаться (при выборе)",
+   "連休": "несколько выходных подряд",
+   "週末": "выходные; конец недели",
+   "酉": "Петух (знак зодиака)",
+   "鉱石": "руда; минерал",
+   "隻": "счётное слово для судов",
+   "隼": "сокол; сапсан",
+   "雑草": "сорняки",
+   "雛": "птенец; кукла хина"
+  }
+ }
+}
