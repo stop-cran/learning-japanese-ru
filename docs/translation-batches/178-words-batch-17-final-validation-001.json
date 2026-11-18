@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "batchId": "178-words-batch-17",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "baseline": "9c9ab978a311b39460516306a25505f0a3fd7f91",
+ "candidateHead": "bbb801d895ec10841cdcb0850bd5e645f6156825",
+ "manifestVersion": "9b00a4b110eebd2f",
+ "serialValidation": [
+  {
+   "command": "python -X utf8 -B tools\\build_manifest.py",
+   "exitCode": 0,
+   "result": "manifest.json: 3459 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version 9b00a4b110eebd2f"
+  },
+  {
+   "command": "python -X utf8 -B tools\\validate.py",
+   "exitCode": 0,
+   "result": "0 error(s)"
+  },
+  {
+   "command": "python -X utf8 -B -m unittest discover -s tools -p test_*.py",
+   "exitCode": 0,
+   "result": "Ran 124 tests in 45.572s |  | OK"
+  },
+  {
+   "command": "python -X utf8 -B tools\\check_content_budget.py",
+   "exitCode": 0,
+   "result": "{'files': 3467, 'entries': 3476, 'retainedBytes': 9714202, 'inflatedBytes': 9732353, 'localZipBytes': 4874270, 'listeningTaskMediaBytes': 0}"
+  }
+ ],
+ "tracking": {
+  "draft-reviewed-runtime-blocked": 8,
+  "pending": 4811,
+  "reviewed-current": 3459
+ },
+ "limits": [
+  "Source-content acceptance only; no device, voice, drawing, learner, activation or release clearance."
+ ]
+}
