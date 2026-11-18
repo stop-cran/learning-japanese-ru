@@ -1,0 +1,206 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "182-words-batch-21",
+ "publishedBaseline": "383c2ac",
+ "qualifiedVerdicts": {
+  "content": "Review 001 at 415c242: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; quiz safety NEEDS FIX (F1 がんがん «грохотать; голова раскалывается» lacked a guard against the existing ごろごろ «громыхать; катиться; валяться без дела»; «грохотать» and «громыхать» are near-synonyms with different roots, so the stem screen missed the pair). Optional suggestions adopted: O1 まま «na-/i-прилагательное» → corpus convention «な-/い-прилагательное»; O2 じんじん title «покалывание; ноющее онемение» → «покалывание; пульсирующее онемение» (EN \"throbbing\"); O3 ぶかぶか «как устойчивую идентичность» → «как основную, постоянную форму записи». O4 (よちよち-ふらふら guard) declined: the pair is unguarded in EN. A coordinator pre-intake check restored EN's kana word spacing in the three まま example readings before the candidate commit. Fix commit 7aa7760. Recheck 001 at 7aa7760: F1 and O1-O3 resolved, O4 remains optional, no regressions (the new じんじん title creates no new overlap; manifest updates exactly the four changed cards); correctness, scoped coverage, comprehensibility and quiz safety CLEAN.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Title/stem screen hand-checked; author guards beyond EN added わんわん/ちゅんちゅん/ぴよぴよ-鳴く, むずむず-いらいら/わくわく, ぽりぽり-こりこり, ぽちゃん-ぐつぐつ, ぽかぽか-温い, ぺたぺた-貼る/べたべた, ぺこぺこ-拝む, べらべら-細い, ねばねば-もちもち/付く, べたべた-付く, ぶかぶか-大きい/大きな, ぴりぴり-辛い, びゅうびゅう-吠える/吹く, 頭痛-痛い/痛み/苦痛/しくしく, じんじん-しくしく, 苦痛-痛い/苦しい/しくしく and 痛み-痛い/しくしく; the review added がんがん-ごろごろ (がんがん «грохотать; голова раскалывается» vs. ごろごろ «громыхать; катиться; валяться без дела», near-synonyms with different roots that the stem screen missed; one-sided direct pair, ごろごろ unchanged). Every EN exclusion is retained and ぶかぶか keeps its EN quiz_distractors (ぼろぼろ びしょびしょ ふかふか). じんじん was retitled «покалывание; пульсирующее онемение» (from «…; ноющее онемение») after review; the re-screen found only the EN-excluded びりびり overlap on «покалывание». まま «в прежнем состоянии; без изменений» was left without a 状態 guard (a grammatical state expression vs. the noun «состояние»), and the reviewer judged よちよち-ふらふら unguarded as in EN."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/182-words-batch-21-intake.json",
+  "docs/translation-batches/182-words-batch-21-independent-review-001.md",
+  "docs/translation-batches/182-words-batch-21-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [],
+  "navigationNote": "Only link brackets added at EN link positions for batch words (11 links in 10 files; per-file link counts to batch words match EN): words/さらさら -> ねばねば, words/だらだら -> ぽたぽた, words/どろどろ -> ねばねば, words/ぬるぬる -> ねばねば, べたべた, words/ばりばり -> びりびり, words/べちゃべちゃ -> べたべた, words/ほくほく -> ほかほか (first mention only, as in EN), words/めらめら -> もくもく, words/メーメー -> わんわん, words/苦心 -> 痛み. The EN kanji pages 頭 and 痛 mention 頭痛 only as plain text, so no kanji page changes.",
+  "navigationOnlyEdits": [
+   "words/さらさら.md",
+   "words/だらだら.md",
+   "words/どろどろ.md",
+   "words/ぬるぬる.md",
+   "words/ばりばり.md",
+   "words/べちゃべちゃ.md",
+   "words/ほくほく.md",
+   "words/めらめら.md",
+   "words/メーメー.md",
+   "words/苦心.md"
+  ],
+  "newWords": [
+   "わんわん",
+   "よちよち",
+   "もくもく",
+   "むずむず",
+   "まま",
+   "ぽりぽり",
+   "ぽちゃん",
+   "ぽたぽた",
+   "あつあつ",
+   "ほかほか",
+   "ぽかぽか",
+   "ぺちゃんこ",
+   "ぺたぺた",
+   "ぺこぺこ",
+   "べらべら",
+   "ねばねば",
+   "べたべた",
+   "ぶかぶか",
+   "ぴりぴり",
+   "ちゅんちゅん",
+   "ぴよぴよ",
+   "ぴょんぴょん",
+   "びりびり",
+   "びゅうびゅう",
+   "ひんやり",
+   "頭痛",
+   "がんがん",
+   "じんじん",
+   "苦痛",
+   "痛み"
+  ],
+  "selection": "Chunk 0 of 98 of the general remaining-word queue (word_schedule.py 30 --all over the full remaining word closure of 2,937 EN words, recomputed after Batch181); the chunk is closed under quiz_exclusions with no closure additions, so every EN exclusion target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to words absent from RU (かあかあ きつい ごしごし じゃぶじゃぶ ずきずき そよそよ ちくちく にゃあにゃあ ばしゃばしゃ ひょいと ひりひり ぴったり) are plain labels until those files exist; links to the koto-wake-and-formal-nouns article and to the onomatopoeia articles (japanese-onomatopoeia, onomatopoeia-body-and-feelings, -eating-and-drinking, -motion-and-sound, -sound-and-movement, -sound-patterns, -texture-and-warmth) are plain pointers. The optional image field of 19 onomatopoeic articles (all batch words except よちよち まま あつあつ ぺたぺた ぺこぺこ ねばねば べたべた ぶかぶか 頭痛 苦痛 痛み) is omitted (word-only adaptation).",
+  "wordOnlyImageOmissions": [
+   "わんわん",
+   "もくもく",
+   "むずむず",
+   "ぽりぽり",
+   "ぽちゃん",
+   "ぽたぽた",
+   "ほかほか",
+   "ぽかぽか",
+   "ぺちゃんこ",
+   "べらべら",
+   "ぴりぴり",
+   "ちゅんちゅん",
+   "ぴよぴよ",
+   "ぴょんぴょん",
+   "びりびり",
+   "びゅうびゅう",
+   "ひんやり",
+   "がんがん",
+   "じんじん"
+  ]
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "O4 よちよち-ふらふら guard declined: the pair is unguarded in EN and the reviewer judged no guard necessary.",
+   "まま keeps «в прежнем состоянии; без изменений» without a 状態 guard (noun «состояние» vs. a grammatical state expression); ぺこぺこ-拝む kept as a cautious guard (the reviewer judged all added guards justified)."
+  ],
+  "exclusionsAddedBeyondEn": {
+   "がんがん": [
+    "ごろごろ"
+   ],
+   "じんじん": [
+    "しくしく"
+   ],
+   "ちゅんちゅん": [
+    "鳴く"
+   ],
+   "ねばねば": [
+    "もちもち",
+    "付く"
+   ],
+   "びゅうびゅう": [
+    "吠える",
+    "吹く"
+   ],
+   "ぴよぴよ": [
+    "鳴く"
+   ],
+   "ぴりぴり": [
+    "辛い"
+   ],
+   "ぶかぶか": [
+    "大きい",
+    "大きな"
+   ],
+   "べたべた": [
+    "付く"
+   ],
+   "べらべら": [
+    "細い"
+   ],
+   "ぺこぺこ": [
+    "拝む"
+   ],
+   "ぺたぺた": [
+    "貼る",
+    "べたべた"
+   ],
+   "ぽかぽか": [
+    "温い"
+   ],
+   "ぽちゃん": [
+    "ぐつぐつ"
+   ],
+   "ぽりぽり": [
+    "こりこり"
+   ],
+   "むずむず": [
+    "いらいら",
+    "わくわく"
+   ],
+   "わんわん": [
+    "鳴く"
+   ],
+   "痛み": [
+    "痛い",
+    "しくしく"
+   ],
+   "苦痛": [
+    "痛い",
+    "苦しい",
+    "しくしく"
+   ],
+   "頭痛": [
+    "痛い",
+    "痛み",
+    "苦痛",
+    "しくしく"
+   ]
+  },
+  "titles": {
+   "あつあつ": "с пылу с жару; пылко влюблённый",
+   "がんがん": "грохотать; голова раскалывается",
+   "じんじん": "покалывание; пульсирующее онемение",
+   "ちゅんちゅん": "чик-чирик (птичий щебет)",
+   "ねばねば": "тягучий и липкий",
+   "ひんやり": "прохладный на ощупь",
+   "びゅうびゅう": "завывать, свистеть (о ветре)",
+   "びりびり": "рвать в клочья; дребезжать; покалывание (током)",
+   "ぴょんぴょん": "прыг-скок; прыгать раз за разом",
+   "ぴよぴよ": "пи-пи (писк цыплят)",
+   "ぴりぴり": "жгучий, щиплющий; напряжённый, нервный",
+   "ぶかぶか": "слишком большой и свободный (об одежде)",
+   "べたべた": "липкий; льнуть (к кому-то)",
+   "べらべら": "болтать лишнее; тонкий и хлипкий",
+   "ぺこぺこ": "очень голодный; угодливо кланяться",
+   "ぺたぺた": "шлёп-шлёп; налеплять повсюду",
+   "ぺちゃんこ": "расплющенный в лепёшку",
+   "ほかほか": "горяченький, с парком; приятно прогретый",
+   "ぽかぽか": "приятно тёплый",
+   "ぽたぽた": "капля за каплей",
+   "ぽちゃん": "бульк (о падении в воду)",
+   "ぽりぽり": "похрустывать; почёсывать",
+   "まま": "в прежнем состоянии; без изменений",
+   "むずむず": "зудеть; не терпится",
+   "もくもく": "клубиться (о дыме, облаках)",
+   "よちよち": "ковылять неуверенными шажками",
+   "わんわん": "гав-гав; громко реветь",
+   "痛み": "боль; душевная боль",
+   "苦痛": "боль; страдание",
+   "頭痛": "головная боль"
+  }
+ }
+}

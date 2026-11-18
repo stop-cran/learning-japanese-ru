@@ -1,6 +1,34 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch181 thirty words (general word queue)
+## Current published source milestone: batch182 thirty words (general word queue)
+
+Batch182 adds 30 Russian word articles: わんわん よちよち もくもく むずむず まま ぽりぽり ぽちゃん ぽたぽた あつあつ ほかほか
+ぽかぽか ぺちゃんこ ぺたぺた ぺこぺこ べらべら ねばねば べたべた ぶかぶか ぴりぴり ちゅんちゅん ぴよぴよ ぴょんぴょん びりびり
+びゅうびゅう ひんやり 頭痛 がんがん じんじん 苦痛 痛み. They are chunk 0 of 98 of the general remaining-word queue
+(recomputed after Batch181: closure of 2,937 EN words), so every EN quiz_exclusions target resolves to an existing RU
+word or a batch word. Ten existing pages (words/さらさら だらだら どろどろ ぬるぬる ばりばり べちゃべちゃ ほくほく めらめら
+メーメー 苦心) receive 11 navigation-only link wraps at EN link positions, with per-file link counts to batch words
+matching EN.
+
+The batch covers animal and bird calls, toddling and hopping, smoke, itching, dripping and splashing, warmth and
+coolness, stickiness, flattening, chattering and fawning, oversized clothes, stinging, tearing and buzzing, howling
+wind, the grammatical noun まま, and the pain words 頭痛, 苦痛 and 痛み with throbbing and tingling. Direct guards beyond
+EN cover pairs such as わんわん/ちゅんちゅん/ぴよぴよ–鳴く, ぺたぺた–貼る/べたべた, ねばねば–もちもち/付く, ぶかぶか–大きい/大きな,
+びゅうびゅう–吠える/吹く and the pain cluster 頭痛/苦痛/痛み/じんじん–痛い/しくしく. The optional image field of 19
+onomatopoeic articles is omitted (word-only adaptation).
+The independent read-only review found correctness, scoped coverage and comprehensibility clean and one quiz-safety
+gap (がんがん «грохотать» lacked a guard against ごろごろ «громыхать…», a different-root near-synonym the stem screen
+missed). It was fixed, together with three adopted optional wording items, and the recheck reported all four facets
+clean.
+
+Qualified progress is **3,579 reviewed-current / 8 reviewed runtime-blocked / 4,691 pending of 8,278**,
+with 2,113 words, 718 kanji and 718 strokes. See the [intake](translation-batches/182-words-batch-21-intake.json),
+[independent review](translation-batches/182-words-batch-21-independent-review-001.md),
+[recheck](translation-batches/182-words-batch-21-recheck-001.md),
+[qualified source record](translation-batches/182-words-batch-21-reviewed-source.json) and
+[final validation](translation-batches/182-words-batch-21-final-validation-001.json).
+
+## Previous published source milestone: batch181 thirty words (general word queue)
 
 Batch181 adds 30 Russian word articles: 炊事 炊く 煮える 煮る がやがや ぶるぶる わくわく 天候 陽気 うきうき ぞくぞく ざわざわ
 ささやく ぶつぶつ 凹凸 武士 兵士 公演 体力 亥 亀 それとも あるいは 乃至 丑 メーメー しくしく めそめそ 叫ぶ 吠える.
