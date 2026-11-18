@@ -1,0 +1,232 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "180-words-batch-19",
+ "publishedBaseline": "98bf22b",
+ "qualifiedVerdicts": {
+  "content": "Review 001 at c2967ea: scoped coverage CLEAN; comprehensibility CLEAN; correctness NEEDS FIX (F1 破る claimed «Но «сломать» сюда не входит», an absolute contradicted by JMdict 1471200 senses 1-2 \"to break; to destroy; to break through\"; the EN point is only that 壊す, not 破る, suits a broken machine); quiz safety NEEDS FIX (F2 備える «оснащать; готовиться (к чему-либо)» lacked a direct guard against the する-noun 予習 «подготовка к уроку», which 準備, 用意 and 支度 already guard). Optional suggestions adopted: あっさり断る glossed «отказать сразу, не раздумывая» instead of «отказать наотрез» (the きっぱり title word), せっせと «выпалывает сорняки» instead of «пропалывает сорняки», and a もりもり-一生懸命 guard. Fix commit 87bb8aa. Recheck 001 at 87bb8aa: F1, F2 and the adopted optional items resolved, manifest changes limited to contentVersion and the five edited hashes; correctness, scoped coverage, comprehensibility and quiz safety CLEAN.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Title/stem screen hand-checked; author guards beyond EN added 少しも-ちっとも/決して/とても/何, 全く-ちっとも/決して/とても/何/実に/全部/皆, 明確-はっきり/確か, 明らか-はっきり, はあ-さあ, さっぱり-決して/とても/何/すっかり, すっきり-きれい, あっさり-軽い/易しい/簡単/楽/安易, きびきび-活気, せっせと-一生懸命/ねっしん, ばりばり-ぱちぱち/一生懸命/こりこり, 活気-元気/賑やか/盛ん, ぴんぴん-丈夫, ぱくぱく-開ける/閉める/開く/閉まる, むしゃむしゃ-噛む, ぐつぐつ-沸く, 備える-準備/用意/支度/設備/できる, こしらえる-料理, 家事-用事/仕事/家庭/宿題; the review added 備える-予習 and, as an adopted optional item, もりもり-一生懸命. The negative-polarity «совсем не; ничуть не» titles (全然, ちっとも, 少しも, 全く, さっぱり) are excluded on every pair by EN or batch exclusions; the «посвежевший» titles (さっぱり, すっきり) are EN-excluded; in the energy/effort cluster, もりもり «с аппетитом; с приливом сил» is guarded against all of 元気, 活気, きびきび, ぴんぴん, 一生懸命, ばりばり and せっせと, 元気 against 活気, きびきび and ぴんぴん, 活気 against きびきび, and 一生懸命 against ばりばり and せっせと, while ぴんぴん «полный сил» (health) and 一生懸命 «изо всех сил» (effort) share only a stem and are left unguarded; がちがち renders its teeth sense as «стук зубов» rather than «стучать», avoiding 叩く «бить; стучать»; 家事 «домашние дела» is guarded against 宿題 «домашнее задание». The author left はあ-はい, ぴんぴん-強い, 家事-掃除/洗濯/料理/生活 and ぽつぽつ (no RU rain onomatopoeia yet) unguarded; the reviewer raised no finding on them."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/180-words-batch-19-intake.json",
+  "docs/translation-batches/180-words-batch-19-independent-review-001.md",
+  "docs/translation-batches/180-words-batch-19-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [],
+  "navigationNote": "Only link brackets added at EN link positions for batch words (22 links in 17 files; per-file link counts to batch words match EN): kanji/備 -> 備える (3), kanji/破 -> 破る (3), words/かたかた -> かちかち, words/ぐずぐず -> きびきび, words/ぐったり -> ぴんぴん, words/ぐにゃぐにゃ -> かちかち, がちがち, words/ことこと -> ぐつぐつ, words/しっかり -> すっきり, words/ばきばき -> ばりばり, words/ぱちぱち -> かちかち, words/びくびく -> ぴんぴん, words/ぶくぶく -> ぐつぐつ, words/へとへと -> ぴんぴん, words/ぼそぼそ -> もぐもぐ, words/むかむか -> すっきり, words/もやもや -> すっきり, words/約束 -> 破る. The pre-existing kanji/備 links to 準備 (present at the baseline) are unchanged.",
+  "navigationOnlyEdits": [
+   "kanji/備.md",
+   "kanji/破.md",
+   "words/かたかた.md",
+   "words/ぐずぐず.md",
+   "words/ぐったり.md",
+   "words/ぐにゃぐにゃ.md",
+   "words/ことこと.md",
+   "words/しっかり.md",
+   "words/ばきばき.md",
+   "words/ぱちぱち.md",
+   "words/びくびく.md",
+   "words/ぶくぶく.md",
+   "words/へとへと.md",
+   "words/ぼそぼそ.md",
+   "words/むかむか.md",
+   "words/もやもや.md",
+   "words/約束.md"
+  ],
+  "newWords": [
+   "少しも",
+   "全く",
+   "明確",
+   "明らか",
+   "はあ",
+   "さっぱり",
+   "すっきり",
+   "ほっと",
+   "あっさり",
+   "きっぱり",
+   "はきはき",
+   "きびきび",
+   "せっせと",
+   "破る",
+   "がちがち",
+   "かちかち",
+   "ばりばり",
+   "活気",
+   "ぴんぴん",
+   "もりもり",
+   "ぺろり",
+   "ぺろぺろ",
+   "ぱくぱく",
+   "むしゃむしゃ",
+   "もぐもぐ",
+   "ぽつぽつ",
+   "ぐつぐつ",
+   "備える",
+   "こしらえる",
+   "家事"
+  ],
+  "selection": "Chunk 0 of 100 of the general remaining-word queue (word_schedule.py 30 --all over the full remaining word closure of 2,997 EN words, recomputed after Batch179); the chunk is closed under quiz_exclusions (さっぱり pulled すっきり and ほっと into the chunk), so every EN exclusion target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to targets absent from RU (words 全て 完全 守る こってり ずけずけ ぶるぶる びりびり ぱらぱら しとしと ざあざあ じゅうじゅう) are plain labels until those files exist; links to the onomatopoeia articles (japanese-onomatopoeia, onomatopoeia-body-and-feelings, onomatopoeia-eating-and-drinking, onomatopoeia-motion-and-sound, onomatopoeia-sound-and-movement, onomatopoeia-sound-patterns) are plain «См. …» pointers. The optional image field of 17 onomatopoeic articles (さっぱり ほっと あっさり きっぱり はきはき きびきび せっせと がちがち かちかち ばりばり もりもり ぺろり ぺろぺろ ぱくぱく むしゃむしゃ もぐもぐ ぐつぐつ) is omitted (word-only adaptation).",
+  "wordOnlyImageOmissions": [
+   "さっぱり",
+   "ほっと",
+   "あっさり",
+   "きっぱり",
+   "はきはき",
+   "きびきび",
+   "せっせと",
+   "がちがち",
+   "かちかち",
+   "ばりばり",
+   "もりもり",
+   "ぺろり",
+   "ぺろぺろ",
+   "ぱくぱく",
+   "むしゃむしゃ",
+   "もぐもぐ",
+   "ぐつぐつ"
+  ]
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "The reviewer judged the batch guards 少しも/全く-とても/何 and 全く-皆/実に harmless but unnecessary; they were kept, following the ちっとも/全然 precedent."
+  ],
+  "exclusionsAddedBeyondEn": {
+   "あっさり": [
+    "軽い",
+    "易しい",
+    "簡単",
+    "楽",
+    "安易"
+   ],
+   "きびきび": [
+    "活気"
+   ],
+   "ぐつぐつ": [
+    "沸く"
+   ],
+   "こしらえる": [
+    "料理"
+   ],
+   "さっぱり": [
+    "決して",
+    "とても",
+    "何",
+    "すっかり"
+   ],
+   "すっきり": [
+    "きれい"
+   ],
+   "せっせと": [
+    "一生懸命",
+    "ねっしん"
+   ],
+   "はあ": [
+    "さあ"
+   ],
+   "ばりばり": [
+    "ぱちぱち",
+    "一生懸命",
+    "こりこり"
+   ],
+   "ぱくぱく": [
+    "開ける",
+    "閉める",
+    "開く",
+    "閉まる"
+   ],
+   "ぴんぴん": [
+    "丈夫"
+   ],
+   "むしゃむしゃ": [
+    "噛む"
+   ],
+   "もりもり": [
+    "一生懸命"
+   ],
+   "備える": [
+    "準備",
+    "用意",
+    "支度",
+    "設備",
+    "できる",
+    "予習"
+   ],
+   "全く": [
+    "ちっとも",
+    "決して",
+    "とても",
+    "何",
+    "実に",
+    "全部",
+    "皆"
+   ],
+   "家事": [
+    "用事",
+    "仕事",
+    "家庭",
+    "宿題"
+   ],
+   "少しも": [
+    "ちっとも",
+    "決して",
+    "とても",
+    "何"
+   ],
+   "明らか": [
+    "はっきり"
+   ],
+   "明確": [
+    "はっきり",
+    "確か"
+   ],
+   "活気": [
+    "元気",
+    "賑やか",
+    "盛ん"
+   ]
+  },
+  "titles": {
+   "あっさり": "лёгкий (о вкусе); запросто",
+   "かちかち": "твёрдый как камень; тикать, щёлкать",
+   "がちがち": "скованный, одеревеневший; стук зубов",
+   "きっぱり": "решительно; наотрез",
+   "きびきび": "энергично и расторопно",
+   "ぐつぐつ": "булькать на огне; кипеть",
+   "こしらえる": "мастерить; готовить; выдумывать",
+   "さっぱり": "посвежевший; совсем не",
+   "すっきり": "посвежевший; опрятный, без лишнего",
+   "せっせと": "усердно; не покладая рук",
+   "はあ": "ну…; а?; вздох",
+   "はきはき": "чётко и бойко (о речи)",
+   "ばりばり": "с треском, с хрустом; вовсю (о работе)",
+   "ぱくぱく": "открывать и закрывать рот; уплетать",
+   "ぴんぴん": "полный сил; бодрый",
+   "ぺろぺろ": "облизывать; лизать",
+   "ぺろり": "вмиг съесть; быстро лизнуть",
+   "ほっと": "с облегчением; глубоко вздохнуть",
+   "ぽつぽつ": "кап-кап; кое-где, понемногу",
+   "むしゃむしゃ": "уплетать за обе щеки",
+   "もぐもぐ": "жевать; бормотать",
+   "もりもり": "с аппетитом; с приливом сил",
+   "備える": "оснащать; готовиться (к чему-либо)",
+   "全く": "совершенно; совсем не",
+   "家事": "работа по дому; домашние дела",
+   "少しも": "ничуть не; нисколько не",
+   "明らか": "очевидный; явный",
+   "明確": "чёткий; определённый",
+   "活気": "оживление; энергия",
+   "破る": "рвать; разрывать"
+  }
+ }
+}
