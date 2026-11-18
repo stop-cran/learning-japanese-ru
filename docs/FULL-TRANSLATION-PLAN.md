@@ -1,6 +1,68 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch157 nine-card qualified-source acceptance
+## Current published source milestone: batch160 thirteen N2 kanji (B159 held drafts promoted)
+
+Batch160 adds Russian lessons and byte-identical frozen strokes for 延/弱/律/復/快/恋/患/悩/戸/承/技/担/拝,
+starting from the held B159 drafts, plus one required kanji link wrapper in each of eight existing words
+(弱い, 復習, 戸, 承知, 技術, 拝見, 法律, 雨戸). 庫 and 憎 stay outside the batch. No quiz or grading code changed.
+
+The independent read-only review found eight minor defects (one 延べる sense, 悩ましい sense numbering,
+the ウケる direction, a 戻 gloss, two references to RU word articles that do not exist, one illogical 担う
+note and an English-only pun on 患者). All were resolved in the recheck with no regressions. Every one of
+the 39 declared quiz directions was judged safe against the current Russian titles. To avoid exact overlaps
+introduced by the Russian wording, three titles were adapted: 患 «недуг; страдать от болезни», 承 «принимать;
+соглашаться» and 技 «навык; мастерство». The overlaps inherited from EN, 律/法 «закон» and 復/再 (repetition),
+are qualified; neither pair is in a distractor relation. Twenty-eight example words that have no Russian page
+yet remain plain text.
+
+Qualified progress is **2,944 reviewed-current / 8 reviewed runtime-blocked / 5,326 pending of 8,278**,
+with 1,478 words, 718 kanji and 718 strokes. The checkpoint authority remains null and `Ready` remains false.
+See the [intake](translation-batches/160-n2-batch-09-intake.json),
+[independent review](translation-batches/160-n2-batch-09-independent-review-001.md),
+[recheck and reconciliation](translation-batches/160-n2-batch-09-recheck-001.md),
+[qualified source record](translation-batches/160-n2-batch-09-reviewed-source.json) and
+[final validation](translation-batches/160-n2-batch-09-final-validation-001.json).
+Batch158 (州/巻/帯/帽/幅/幼) was published through PR #40 with its own evidence under `translation-batches/158-*`.
+
+This is qualified source-content progress only. Tag/random fallback options, voice, drawing, learner, device,
+media, release, ordinary activation and full-translation approval are not implied.
+
+## Continuation plan after the November 2026 takeover
+
+The streamlined loop below follows the written rules in `.github/copilot-instructions.md`, which do not fix
+a reviewer count:
+
+1. Draft one dependency-closed batch from frozen EN `6af98cb`, using held drafts only as starting material.
+2. Screen kanji closure, exact title overlaps and 5-letter stem overlaps against the whole RU pool, and EN↔RU
+   link parity.
+3. Make a signed candidate commit.
+4. Have one independent read-only reviewer check correctness, scoped coverage, Russian comprehensibility and
+   every declared distractor direction against the displayed RU titles.
+5. Apply the fixes and have a reviewer of the same model family recheck them with the stored report and the
+   exact diff. Write a reconciliation that marks each finding resolved, partially resolved, unresolved,
+   withdrawn or optional.
+6. Update the ledger and regenerate the manifest and progress files.
+7. Run serial validation, open a PR, check CI on the exact `main` commit and record publication verification.
+
+The app removes only options whose titles are exactly identical, and kanji cards have no quiz-exclusion field.
+Russian kanji titles therefore avoid overlaps that the translation itself would introduce. Overlaps inherited
+from EN are recorded as qualifications.
+
+Remaining order (R4, then R5/R6):
+
+1. Finish the N2 kanji: the B157 holds 委/季/封/届/層/岩, the B158 holds 島/巨/布/希/干/庁/床/底/府, then
+   庫/憎 and the rest. The `handoff-ru-held-20261117` drafts (named b157–b162) are unreviewed starting material.
+2. A word batch for missing example words, such as Batch160's 28 plain-text words, to restore kanji↔word links.
+3. The 82 N1 kanji.
+4. Words in the order N3 → N2 → N1/unlabelled.
+5. Articles, grammar, curriculum and counters alongside the units they support.
+6. Scenes and images.
+7. Listening, as non-runtime drafts under `docs/` only.
+
+The kanji `quiz_exclusions` validator support (B155), paid media, RU activation and device/IME claims remain
+out of scope until the owner authorizes them.
+
+## Previous published source milestone: batch157 nine-card qualified-source acceptance
 
 Batch157 adds Russian lessons and byte-identical frozen strokes for 孫/宇/宝/寺/専/将/尊/導/岸,
 plus three reciprocal, link-only word-page changes. Six cards (委/季/封/届/層/岩) remain held
