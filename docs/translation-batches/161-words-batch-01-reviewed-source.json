@@ -1,0 +1,207 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "161-words-batch-01",
+ "publishedBaseline": "e2ebf8c",
+ "qualifiedVerdicts": {
+  "content": "Review 001 established no findings; all 30 words CLEAN on correctness, scoped coverage, Russian comprehensibility and quiz safety within reviewed scope. Recheck 001: optional 2 resolved (くたくた-ソフト), optional 1/3/4 withdrawn; no regressions.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 41 remaining word_title_screen overlaps hand-checked as different-sense stem collisions; synonym scan found no unguarded overlap."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/161-words-batch-01-intake.json",
+  "docs/translation-batches/161-words-batch-01-independent-review-001.md",
+  "docs/translation-batches/161-words-batch-01-recheck-001.md",
+  "docs/translation-batches/161-words-batch-01-reviewed-source.json"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "沈",
+   "条",
+   "希",
+   "請",
+   "順",
+   "戴",
+   "可"
+  ],
+  "navigationNote": "Only link brackets added at EN link positions for batch words; kanji/想 also restores its pre-existing EN link to the existing 相 card.",
+  "navigationOnlyEdits": [
+   "kanji/予.md",
+   "kanji/依.md",
+   "kanji/反.md",
+   "kanji/想.md",
+   "kanji/望.md",
+   "kanji/求.md",
+   "kanji/賛.md",
+   "kanji/願.md",
+   "words/しっかり.md",
+   "words/予定.md",
+   "words/反対.md",
+   "words/理解.md",
+   "words/頼む.md"
+  ],
+  "newWords": [
+   "予想",
+   "疲れ",
+   "くたくた",
+   "へとへと",
+   "ぐったり",
+   "ぼろぼろ",
+   "しんみり",
+   "失望",
+   "沈む",
+   "しょんぼり",
+   "注文",
+   "条件",
+   "予期",
+   "期待",
+   "意思",
+   "依頼",
+   "希望",
+   "望み",
+   "望む",
+   "求める",
+   "要求",
+   "請求",
+   "願い",
+   "願う",
+   "番",
+   "順番",
+   "順",
+   "頂戴",
+   "賛成",
+   "許可"
+  ],
+  "selection": "Closure chunk 0 of the B160 example-word closure; every EN quiz_exclusions/quiz_distractors target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to targets absent from RU (onomatopoeia/こと guides and words such as がっかり, 命令, 承認, 禁止, 許す, 状態, 意志, 目的) are plain labels until those files exist.",
+  "wordOnlyImageOmissions": [
+   "ぼろぼろ",
+   "しんみり",
+   "しょんぼり"
+  ]
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "See-pointers to untranslated guides kept, matching しっかり/どんどん/びっくり/重要",
+   "順 example keeps «в порядке имён»",
+   "予想 keeps «предсказание» to avoid overlap with 天気予報 «прогноз погоды»"
+  ],
+  "exclusionsAddedBeyondEn": {
+   "くたくた": [
+    "柔らかい",
+    "ソフト"
+   ],
+   "しょんぼり": [
+    "悲しい"
+   ],
+   "しんみり": [
+    "悲しい"
+   ],
+   "依頼": [
+    "用事",
+    "願い",
+    "要求"
+   ],
+   "失望": [
+    "残念"
+   ],
+   "希望": [
+    "夢"
+   ],
+   "意思": [
+    "願い",
+    "望み"
+   ],
+   "望み": [
+    "期待",
+    "夢"
+   ],
+   "望む": [
+    "欲しい",
+    "祈る",
+    "願う"
+   ],
+   "期待": [
+    "希望",
+    "楽しみ"
+   ],
+   "求める": [
+    "欲しい"
+   ],
+   "沈む": [
+    "下がる"
+   ],
+   "注文": [
+    "要求",
+    "請求",
+    "条件",
+    "願い"
+   ],
+   "番": [
+    "番号"
+   ],
+   "疲れ": [
+    "疲れる"
+   ],
+   "許可": [
+    "承知"
+   ],
+   "賛成": [
+    "承知"
+   ],
+   "頂戴": [
+    "受ける",
+    "くれる",
+    "くださる",
+    "どうぞ"
+   ],
+   "願い": [
+    "夢"
+   ],
+   "願う": [
+    "祈る",
+    "欲しい"
+   ]
+  },
+  "titles": {
+   "くたくた": "вымотанный; заношенный; разваренный",
+   "ぐったり": "обмякший; обессиленный",
+   "しょんぼり": "понурый; удручённый",
+   "しんみり": "задушевно; с тихой грустью",
+   "へとへと": "выбившийся из сил",
+   "ぼろぼろ": "потрёпанный; рассыпающийся; измученный",
+   "予想": "предсказание; предположение",
+   "予期": "предвидение; ожидание",
+   "依頼": "просьба; поручение",
+   "失望": "разочарование",
+   "希望": "надежда; пожелание",
+   "意思": "намерение; желание",
+   "望み": "желание; надежда; шанс",
+   "望む": "желать; надеяться",
+   "期待": "ожидания; надежды",
+   "条件": "условие",
+   "求める": "просить; искать",
+   "沈む": "тонуть; погружаться; унывать",
+   "注文": "заказ; требование",
+   "番": "номер (по порядку); очередь",
+   "疲れ": "усталость; утомление",
+   "要求": "требование; настойчивая просьба",
+   "許可": "разрешение",
+   "請求": "требование оплаты; запрос",
+   "賛成": "одобрение; поддержка",
+   "頂戴": "скромно получать; дай, пожалуйста",
+   "順": "порядок; очерёдность",
+   "順番": "очередь; порядок",
+   "願い": "желание; просьба",
+   "願う": "желать; просить"
+  }
+ }
+}
