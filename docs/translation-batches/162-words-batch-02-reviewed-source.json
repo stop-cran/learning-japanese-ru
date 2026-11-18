@@ -1,0 +1,212 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "162-words-batch-02",
+ "publishedBaseline": "84ce6e9",
+ "qualifiedVerdicts": {
+  "content": "Review 001: F1 minor correctness (続き sequel restriction) and F2-F5 minor quiz-safety guards (皿-料理, 苦手-弱い, 方法-泳ぎ方, 決まり-約束, 法-規則); all other words CLEAN on correctness, scoped coverage, Russian comprehensibility and quiz safety; 8 navigation-only edits CLEAN. Recheck 001 at 4f8f882: F1-F5 resolved, optional items applied or declined, no regressions; its optional 続き L42 wording was then applied verbatim.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Remaining word_title_screen overlaps hand-checked as different-sense stem collisions (сторона, часть, провод, номер, использ-, средство, участок/ответ, признак, любование); no unguarded EN exclusion dropped."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/162-words-batch-02-intake.json",
+  "docs/translation-batches/162-words-batch-02-independent-review-001.md",
+  "docs/translation-batches/162-words-batch-02-recheck-001.md",
+  "docs/translation-batches/162-words-batch-02-reviewed-source.json"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "展",
+   "拡",
+   "整",
+   "械",
+   "皿",
+   "競",
+   "粗",
+   "芝",
+   "装",
+   "設",
+   "陥"
+  ],
+  "navigationNote": "Only link brackets added at EN link positions for batch words.",
+  "navigationOnlyEdits": [
+   "kanji/担.md",
+   "kanji/承.md",
+   "kanji/技.md",
+   "kanji/恋.md",
+   "kanji/愛.md",
+   "kanji/法.md",
+   "words/式.md",
+   "words/許可.md"
+  ],
+  "newWords": [
+   "設備",
+   "見送り",
+   "装置",
+   "苦手",
+   "芝居",
+   "続き",
+   "欠点",
+   "欠陥",
+   "粗",
+   "競技",
+   "皿",
+   "成長",
+   "発展",
+   "発達",
+   "演技",
+   "方法",
+   "手段",
+   "法",
+   "決定",
+   "決まり",
+   "機械",
+   "整理",
+   "支配",
+   "拡大",
+   "担当",
+   "技師",
+   "承認",
+   "感心",
+   "愛",
+   "恋"
+  ],
+  "selection": "Second chunk of the B160 example-word closure (chunk 0 of the closure remaining after batch 161); every EN quiz_exclusions/quiz_distractors target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to targets absent from RU (e.g. 延期, 器具, 尊敬, 広がる and untranslated guides) are plain labels until those files exist.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "苦手-欠点 guard declined (adjectival state vs noun «недостаток»)",
+   "感心-ほめる guard declined (different meaning and part of speech)",
+   "手段-泳ぎ方 guard not added (means-to-an-end sense)"
+  ],
+  "exclusionsAddedBeyondEn": {
+   "恋": [
+    "好き",
+    "小説"
+   ],
+   "愛": [
+    "好き"
+   ],
+   "感心": [
+    "立派"
+   ],
+   "成長": [
+    "背"
+   ],
+   "手段": [
+    "道具",
+    "仕方",
+    "方"
+   ],
+   "技師": [
+    "技術"
+   ],
+   "拡大": [
+    "増える"
+   ],
+   "整理": [
+    "片付ける"
+   ],
+   "方法": [
+    "仕方",
+    "方",
+    "泳ぎ方"
+   ],
+   "機械": [
+    "車",
+    "自動車"
+   ],
+   "欠点": [
+    "長短"
+   ],
+   "欠陥": [
+    "故障"
+   ],
+   "決まり": [
+    "決まる",
+    "順",
+    "順番",
+    "約束",
+    "習慣",
+    "法律"
+   ],
+   "決定": [
+    "決める",
+    "決まる",
+    "答"
+   ],
+   "法": [
+    "規則",
+    "泳ぎ方"
+   ],
+   "皿": [
+    "お皿",
+    "一杯",
+    "料理"
+   ],
+   "競技": [
+    "スポーツ"
+   ],
+   "続き": [
+    "続く",
+    "続ける",
+    "ほか"
+   ],
+   "苦手": [
+    "弱い"
+   ],
+   "装置": [
+    "設備",
+    "道具"
+   ],
+   "見送り": [
+    "送る"
+   ],
+   "設備": [
+    "装置"
+   ]
+  },
+  "titles": {
+   "恋": "влюблённость; романтическая любовь",
+   "愛": "любовь; привязанность",
+   "感心": "восхищение; похвальный",
+   "成長": "рост; развитие",
+   "手段": "средство; способ достижения",
+   "承認": "одобрение; признание",
+   "技師": "инженер; техник",
+   "担当": "ответственность за участок работы",
+   "拡大": "увеличение; расширение",
+   "支配": "господство; контроль",
+   "整理": "упорядочивание; сортировка",
+   "方法": "способ; метод",
+   "機械": "машина; механизм",
+   "欠点": "недостаток; слабая сторона",
+   "欠陥": "дефект; изъян",
+   "決まり": "правило; установленный порядок",
+   "決定": "решение; постановление",
+   "法": "закон; метод",
+   "演技": "актёрская игра; исполнение номера",
+   "発展": "развитие; расширение",
+   "発達": "развитие (способностей, систем)",
+   "皿": "тарелка; порция",
+   "競技": "спортивное состязание; вид спорта",
+   "粗": "недочёт; изъян",
+   "続き": "продолжение; оставшаяся часть",
+   "芝居": "спектакль; пьеса",
+   "苦手": "не силён (в чём-то); не по душе",
+   "装置": "устройство; аппарат",
+   "見送り": "проводы; откладывание",
+   "設備": "оборудование; оснащение"
+  }
+ }
+}

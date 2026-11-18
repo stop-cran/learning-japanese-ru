@@ -1,6 +1,33 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch161 thirty words (first B160 example-word closure batch)
+## Current published source milestone: batch162 thirty words (second B160 example-word closure batch)
+
+Batch162 adds 30 Russian word articles: 設備 見送り 装置 苦手 芝居 続き 欠点 欠陥 粗 競技 皿 成長 発展 発達 演技
+方法 手段 法 決定 決まり 機械 整理 支配 拡大 担当 技師 承認 感心 愛 恋. They form the second dependency-closed
+chunk of the quiz-exclusion closure of Batch160's plain-text example words. Eight existing pages (kanji/担 承 技 恋
+愛 法, words/式 許可) receive navigation-only link wraps at EN link positions. Kanji without RU cards
+(展 拡 整 械 皿 競 粗 芝 装 設 陥) stay plain text.
+
+The independent read-only review found one minor correctness defect (続き overstated that it never names a
+sequel) and five minor quiz-safety gaps (皿–料理, 苦手–弱い, 方法–泳ぎ方, 決まり–約束, 法–規則), following
+existing RU precedents. All were fixed and resolved in the recheck with no regressions; optional wording and
+guard polish was applied or declined with reasons. Exclusions added beyond EN are listed with the titles in the
+qualified source record.
+
+Qualified progress is **3,004 reviewed-current / 8 reviewed runtime-blocked / 5,266 pending of 8,278**,
+with 1,538 words, 718 kanji and 718 strokes. See the [intake](translation-batches/162-words-batch-02-intake.json),
+[independent review](translation-batches/162-words-batch-02-independent-review-001.md),
+[recheck](translation-batches/162-words-batch-02-recheck-001.md),
+[qualified source record](translation-batches/162-words-batch-02-reviewed-source.json) and
+[final validation](translation-batches/162-words-batch-02-final-validation-001.json).
+The remaining 35 words of that closure (愛情 愛する 愉快 悩む 患者 恋人 快適 延期 広がる 尊重 尊敬 回復 命令
+命じる 受け取る 便り 伸びる 伸ばす がっかり 器具 食器 規律 瀬戸物 拝む 担ぐ 承る 戸棚 憧れる 恋しい 快晴 往復
+弱点 延長 失恋 井戸) follow in the next word batch.
+
+This is qualified source-content progress only. Tag/random fallback options, voice, drawing, learner, device,
+media, release, ordinary activation and full-translation approval are not implied.
+
+## Previous published source milestone: batch161 thirty words (first B160 example-word closure batch)
 
 Batch161 adds 30 Russian word articles: 予想 疲れ くたくた へとへと ぐったり ぼろぼろ しんみり 失望 沈む しょんぼり
 注文 条件 予期 期待 意思 依頼 希望 望み 望む 求める 要求 請求 願い 願う 番 順番 順 頂戴 賛成 許可. They form the
