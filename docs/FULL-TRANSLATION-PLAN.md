@@ -1,6 +1,34 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch164 thirty words (first general word-queue batch)
+## Current published source milestone: batch165 thirty words (general word queue)
+
+Batch165 adds 30 Russian word articles: げらげら からから ぷくぷく ぶくぶく ことこと がちゃがちゃ 緊張 おどおど びくびく
+はらはら ぴかぴか ちらちら 拍手 叩く ぱちぱち かたかた ゆらゆら 震える がたがた カー ぶうぶう 豚 象 馬 鹿 鼠 兎 獣 者
+個人. They are chunk 0 of 114 of the general remaining-word queue (recomputed after Batch164: closure of 3,417 EN
+words), so every EN quiz_exclusions target resolves to an existing RU word or a batch word. Ten existing pages
+(kanji/個 馬, words/きらきら ぎらぎら つやつや てかてか ぐずぐず ごろごろ 打つ 猪) receive navigation-only link wraps at EN
+link positions; words/きらきら also regains its EN-position ぎらぎら and つやつや links. Kanji without RU cards
+(兎 叩 張 拍 獣 緊 豚 象 震 鹿 鼠) stay plain text; nine onomatopoeia images are omitted under the word-only convention.
+
+The independent read-only review found scoped coverage clean and four minor defects: the 叩く "dust" sense belongs
+to the separate dictionary entry 叩く（はたく）, 震える used a non-glossary spelling of итидан, and かたかた/ことこと
+lacked guards against 叩く and ことこと against からから. All were fixed; optional ぶくぶく–沸く and からから–乾く guards
+and wording polish in 象 and ぶうぶう were applied, and the recheck resolved everything with no regressions and all
+four facets clean. Exclusions added beyond EN are listed with the titles in the qualified source record.
+
+Qualified progress is **3,099 reviewed-current / 8 reviewed runtime-blocked / 5,171 pending of 8,278**,
+with 1,633 words, 718 kanji and 718 strokes. See the [intake](translation-batches/165-words-batch-05-intake.json),
+[independent review](translation-batches/165-words-batch-05-independent-review-001.md),
+[recheck](translation-batches/165-words-batch-05-recheck-001.md),
+[qualified source record](translation-batches/165-words-batch-05-reviewed-source.json) and
+[final validation](translation-batches/165-words-batch-05-final-validation-001.json).
+Next: further general word-queue chunks (recomputed after each merge), interleaved with the held N2 kanji
+(B157-held 委 季 封 届 層 岩, B158-held 島 巨 布 希 干 庁 床 底 府, then 庫 and 憎).
+
+This is qualified source-content progress only. Tag/random fallback options, voice, drawing, learner, device,
+media, release, ordinary activation and full-translation approval are not implied.
+
+## Previous published source milestone: batch164 thirty words (first general word-queue batch)
 
 Batch164 adds 30 Russian word articles: 生物 生き物 牛 家畜 熊 猪 馬鹿 猿 酔う 酔っ払い 虎 のんびり 回り くるくる
 ふらふら うろうろ ぶらぶら ころころ ごろごろ のろのろ 怠ける だらだら 句 文句 不満 不平 ぐずぐず ぐっしょり びしょびしょ
