@@ -1,0 +1,176 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "172-words-batch-11",
+ "publishedBaseline": "a45ec5b",
+ "qualifiedVerdicts": {
+  "content": "Review 001 at ca85700: correctness CLEAN; scoped coverage CLEAN; comprehensibility NEEDS FIX (F1 独特 «особняка» mistranslation, F2 縞 note on the English gloss 'bar' carried over without naming it, F3 混雑 reference to a gloss the reader never sees, F4 大気 phrase contradicting the obsolete physical sense of 雰囲気, F6 縞 spelling «тканными»; optional polish for 大気, 狂う, 一種 and 反抗 example translations); quiz safety NEEDS FIX (F5 missing 雰囲気-模様 direct pair via «обстановка»). Recheck 001 at b266fb9: F1-F6 and the optional items resolved with no regressions; new R1 (quiz safety: 混雑 is a する-noun whose card teaches «混雑する», so 込む «быть переполненным» is a defensible answer under the action-meaning rule) and R2 (generated tools/__pycache__ files committed by mistake). Recheck 002 at 4120c99: R1 and R2 resolved, manifest change limited to 混雑 and contentVersion, no regressions; correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; quiz safety CLEAN.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Title/stem screen hand-checked; author guards beyond EN added 一種-タイプ, 独特-特別, 特徴-癖/兆候, 大気-雰囲気, 綱-縄, 暴れる-荒い, 混雑-大勢, 荒れる-荒い, 畑-田/田んぼ, 耕地-土, 稲-米/ご飯; the review fixes added 雰囲気-模様 and 混雑-込む, and the owner decision added 一種-型 (shared «тип»)."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/172-words-batch-11-intake.json",
+  "docs/translation-batches/172-words-batch-11-independent-review-001.md",
+  "docs/translation-batches/172-words-batch-11-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "徴",
+   "抗",
+   "抵",
+   "暴",
+   "混",
+   "渋",
+   "滞",
+   "無",
+   "狂",
+   "独",
+   "畑",
+   "稲",
+   "紐",
+   "綱",
+   "縞",
+   "耕",
+   "芽",
+   "苗",
+   "茉",
+   "荒",
+   "莉",
+   "菊",
+   "雰",
+   "駄"
+  ],
+  "navigationNote": "Only link brackets added at EN link positions for batch words (5 links in 5 files; per-file link counts match EN): words/コード -> 紐 (1), words/欠点 -> 特徴 (1), words/混乱 -> 混雑 (1), words/色 -> カラー (1), words/荒い -> 荒れる (1).",
+  "navigationOnlyEdits": [
+   "words/コード.md",
+   "words/欠点.md",
+   "words/混乱.md",
+   "words/色.md",
+   "words/荒い.md"
+  ],
+  "newWords": [
+   "縞",
+   "一種",
+   "パターン",
+   "独特",
+   "特徴",
+   "雰囲気",
+   "大気",
+   "カラー",
+   "紐",
+   "綱",
+   "菊",
+   "戦う",
+   "戦い",
+   "反抗",
+   "抵抗",
+   "暴れる",
+   "狂う",
+   "渋滞",
+   "混雑",
+   "荒れる",
+   "茉莉花",
+   "田",
+   "畑",
+   "耕地",
+   "田んぼ",
+   "苗代",
+   "芽",
+   "稲",
+   "苗",
+   "無駄"
+  ],
+  "selection": "Chunk 0 of 108 of the general remaining-word queue (word_schedule.py 30 --all over the full remaining word closure of 3,237 EN words, recomputed after Batch171); the chunk is closed under quiz_exclusions, so every EN exclusion target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to targets absent from RU (words 違い 鎖 結ぶ 争う 従う 種 田植え 育苗; kanji 菊 暴 混 荒 莉 耕 苗 稲) are plain labels until those files exist.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "独特-変/珍しい, 苗-植木, 稲-植物/植木, 苗代-苗, 畑-土地/庭 guards not added: the Russian titles name different answers and EN has no pairs",
+   "Pre-existing extra link words/色 -> 茶色 left outside this word batch"
+  ],
+  "exclusionsAddedBeyondEn": {
+   "一種": [
+    "タイプ",
+    "型"
+   ],
+   "大気": [
+    "雰囲気"
+   ],
+   "暴れる": [
+    "荒い"
+   ],
+   "混雑": [
+    "大勢",
+    "込む"
+   ],
+   "特徴": [
+    "癖",
+    "兆候"
+   ],
+   "独特": [
+    "特別"
+   ],
+   "畑": [
+    "田",
+    "田んぼ"
+   ],
+   "稲": [
+    "米",
+    "ご飯"
+   ],
+   "綱": [
+    "縄"
+   ],
+   "耕地": [
+    "土"
+   ],
+   "荒れる": [
+    "荒い"
+   ],
+   "雰囲気": [
+    "模様"
+   ]
+  },
+  "titles": {
+   "カラー": "цвет; колорит; воротник",
+   "パターン": "узор; тип; повторяющаяся модель",
+   "一種": "разновидность; своего рода",
+   "反抗": "неповиновение; бунт",
+   "大気": "атмосфера (воздушная оболочка); воздух",
+   "戦い": "битва; борьба",
+   "戦う": "сражаться; бороться",
+   "抵抗": "сопротивление; противодействие",
+   "暴れる": "буйствовать; биться",
+   "混雑": "давка; скопление людей",
+   "渋滞": "пробка (на дороге); застой",
+   "無駄": "пустая трата; бесполезность",
+   "特徴": "характерная черта; отличительный признак",
+   "狂う": "сбиваться; сходить с ума",
+   "独特": "своеобразный; характерный",
+   "田": "рисовое поле",
+   "田んぼ": "рисовое поле; заливное поле",
+   "畑": "поле; огород",
+   "稲": "рис (растение)",
+   "紐": "бечёвка; шнурок",
+   "綱": "канат; верёвка",
+   "縞": "полоса; полосатый узор",
+   "耕地": "пахотная земля; сельхозугодья",
+   "芽": "росток; почка; побег",
+   "苗": "рассада; молодое растение",
+   "苗代": "рисовый рассадник",
+   "茉莉花": "арабский жасмин",
+   "荒れる": "бушевать; грубеть; приходить в беспорядок",
+   "菊": "хризантема",
+   "雰囲気": "атмосфера; аура"
+  }
+ }
+}
