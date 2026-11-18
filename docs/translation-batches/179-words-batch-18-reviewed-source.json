@@ -1,0 +1,174 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "179-words-batch-18",
+ "publishedBaseline": "2f8f40d",
+ "qualifiedVerdicts": {
+  "content": "Review 001 at a52ee8a: correctness CLEAN; scoped coverage CLEAN; comprehensibility NEEDS FIX (F2 こぼす «Я поворчал другу на работу» was unnatural Russian; F3 零れる glossed the intransitive 水がこぼれる with a transitive sentence whose subject was the glass, blurring the こぼす/零れる contrast); quiz safety NEEDS FIX (F1 満ちる «наполняться; быть полным» lacked a direct guard against 込む «быть переполненным»). Optional wording suggestions adopted: ひそひそ «о чём-то вполголоса советоваться» (removing the repeated совещ- stem), いらいら «нервно, раздражённо ждать», かりかり «взвинченный, раздражительный» and «Карандаш поскрипывал по бумаге», こんこん 懇々 «настойчиво и обстоятельно (убеждать)». Fix commit 7b8174d. Recheck 001 at 7b8174d: F1, F2, F3 and the adopted optional items resolved, manifest changes limited to contentVersion and the seven edited hashes; correctness, scoped coverage, comprehensibility and quiz safety CLEAN.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Title/stem screen hand-checked; author guards beyond EN added 訴える-文句/不平, 面倒-心配, 厄介-苦労/手間/世話, 努力-一生懸命, 満ちる-一杯, あふれる-込む, 零れる/こぼす-流す, ぼそぼそ-かさかさ, すたすた-速い/すっと, こりこり-堅い, こんこん/とんとん-叩く, さくさく-容易; the review added 満ちる-込む. Shared title stems: «хлопоты»/«хлопотный» (苦労, 面倒, 厄介, 手間) is guarded on every pair by EN or batch exclusions; «хрустящий» (しゃきしゃき, こりこり, ぱりぱり, さくさく, かりかり) is EN-excluded on every pair, while ばきばき is titled by its cracking sound; «тук-тук» (こんこん, とんとん) is EN-excluded; «сухой» (ぱさぱさ, ぼそぼそ, かさかさ) is guarded by EN exclusions and the ぼそぼそ-かさかさ guard. とんとん renders its smooth-progress sense as «как по маслу» rather than repeating 順調's «гладко», and 順調 is qualified «(о ходе дел)» against the tactile «гладкий» titles of すべすべ and つるつる; 零れる uses «сыпаться» rather than «рассыпаться», which was closer to ぼろぼろ «рассыпающийся» and ほくほく «рассыпчатый». The reviewer judged いらいら-緊張/怒る, ノック-打つ, すたすた-急ぐ and 労働-勤める low-risk and unguarded."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/179-words-batch-18-intake.json",
+  "docs/translation-batches/179-words-batch-18-independent-review-001.md",
+  "docs/translation-batches/179-words-batch-18-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "厄",
+   "訴",
+   "零",
+   "順"
+  ],
+  "navigationNote": "Only link brackets added at EN link positions for batch words (23 links in 16 files; per-file link counts match EN): kanji/働 -> 労働 (3), kanji/努 -> 努力 (3), kanji/労 -> 労働 (3), words/うろうろ -> すたすた, words/かさかさ -> ぱさぱさ, words/からから -> ぱさぱさ, words/しっとり -> ぱさぱさ, words/そっと -> ひそひそ, words/つやつや -> ぱさぱさ, words/どたどた -> すたすた, words/どんどん -> こんこん, とんとん, words/のろのろ -> すたすた, words/ぱちぱち -> ばきばき, words/ぺらぺら -> ひそひそ, words/ぼろぼろ -> ぼそぼそ, words/緊張 -> いらいら. The pre-existing kanji/働 links to 働く (present at the baseline) are unchanged.",
+  "navigationOnlyEdits": [
+   "kanji/働.md",
+   "kanji/努.md",
+   "kanji/労.md",
+   "words/うろうろ.md",
+   "words/かさかさ.md",
+   "words/からから.md",
+   "words/しっとり.md",
+   "words/そっと.md",
+   "words/つやつや.md",
+   "words/どたどた.md",
+   "words/どんどん.md",
+   "words/のろのろ.md",
+   "words/ぱちぱち.md",
+   "words/ぺらぺら.md",
+   "words/ぼろぼろ.md",
+   "words/緊張.md"
+  ],
+  "newWords": [
+   "訴える",
+   "困難",
+   "苦労",
+   "面倒",
+   "厄介",
+   "手間",
+   "努力",
+   "労働",
+   "苦心",
+   "苦情",
+   "満ちる",
+   "あふれる",
+   "零れる",
+   "こぼす",
+   "ひそひそ",
+   "ぱさぱさ",
+   "ぼそぼそ",
+   "すたすた",
+   "しゃきしゃき",
+   "こりこり",
+   "ぱりぱり",
+   "ノック",
+   "こんこん",
+   "順調",
+   "とんとん",
+   "さくさく",
+   "むかむか",
+   "いらいら",
+   "かりかり",
+   "ばきばき"
+  ],
+  "selection": "Chunk 0 of 101 of the general remaining-word queue (word_schedule.py 30 --all over the full remaining word closure of 3,027 EN words, recomputed after Batch178); the chunk is closed under quiz_exclusions (苦情 pulled 苦心 into the chunk), so every EN exclusion target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to targets absent from RU (words がやがや くすくす くよくよ こそこそ すっきり とぼとぼ ばりばり もぐもぐ 痛み 調子 迷惑; kanji 零 順) are plain labels until those files exist; links to the onomatopoeia articles (japanese-onomatopoeia, onomatopoeia-eating-and-drinking, onomatopoeia-motion-and-sound, onomatopoeia-sound-and-movement, onomatopoeia-sound-patterns, onomatopoeia-texture-and-warmth) are plain «См. …» pointers; kanji 厄 and 訴 also lack RU cards and are not linked from these EN articles. The optional image field of ぼそぼそ, すたすた and ばきばき is omitted (word-only adaptation).",
+  "wordOnlyImageOmissions": [
+   "ぼそぼそ",
+   "すたすた",
+   "ばきばき"
+  ]
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [],
+  "exclusionsAddedBeyondEn": {
+   "あふれる": [
+    "込む"
+   ],
+   "こぼす": [
+    "流す"
+   ],
+   "こりこり": [
+    "堅い"
+   ],
+   "こんこん": [
+    "叩く"
+   ],
+   "さくさく": [
+    "容易"
+   ],
+   "すたすた": [
+    "速い",
+    "すっと"
+   ],
+   "とんとん": [
+    "叩く"
+   ],
+   "ぼそぼそ": [
+    "かさかさ"
+   ],
+   "努力": [
+    "一生懸命"
+   ],
+   "厄介": [
+    "苦労",
+    "手間",
+    "世話"
+   ],
+   "満ちる": [
+    "一杯",
+    "込む"
+   ],
+   "訴える": [
+    "文句",
+    "不平"
+   ],
+   "零れる": [
+    "流す"
+   ],
+   "面倒": [
+    "心配"
+   ]
+  },
+  "titles": {
+   "あふれる": "переливаться через край; переполняться",
+   "いらいら": "раздражение; нетерпение",
+   "かりかり": "поджаристый, хрустящий; раздражённый",
+   "こぼす": "проливать; ворчать",
+   "こりこり": "плотный и хрустящий; затвердевший (о мышцах)",
+   "こんこん": "тук-тук; кхе-кхе",
+   "さくさく": "легко хрустящий; без заминок (о деле)",
+   "しゃきしゃき": "свежий и хрустящий; расторопный",
+   "すたすた": "быстрым шагом",
+   "とんとん": "тук-тук; как по маслу; без прибыли и убытков",
+   "ばきばき": "с громким треском; трещать",
+   "ぱさぱさ": "сухой (о еде, волосах); пересушенный",
+   "ぱりぱり": "хрустящий и ломкий",
+   "ひそひそ": "шёпотом; вполголоса",
+   "ぼそぼそ": "бормотать; сухой и крошащийся",
+   "むかむか": "подташнивать; закипать от злости",
+   "ノック": "стук в дверь; отработка приёма мячей (бейсбол)",
+   "努力": "усилия; старание",
+   "労働": "труд",
+   "厄介": "хлопотный; обуза; попечение",
+   "困難": "трудность; трудный",
+   "手間": "хлопоты; трудоёмкость",
+   "満ちる": "наполняться; быть полным",
+   "苦労": "тяготы; хлопоты",
+   "苦心": "старания; кропотливый труд",
+   "苦情": "жалоба; претензия",
+   "訴える": "жаловаться; подавать в суд; взывать",
+   "零れる": "проливаться; сыпаться",
+   "面倒": "хлопоты; забота (о ком-то)",
+   "順調": "гладко; успешно (о ходе дел)"
+  }
+ }
+}

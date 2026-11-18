@@ -1,6 +1,36 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch178 thirty words (general word queue)
+## Current published source milestone: batch179 thirty words (general word queue)
+
+Batch179 adds 30 Russian word articles: 訴える 困難 苦労 面倒 厄介 手間 努力 労働 苦心 苦情 満ちる あふれる 零れる
+こぼす ひそひそ ぱさぱさ ぼそぼそ すたすた しゃきしゃき こりこり ぱりぱり ノック こんこん 順調 とんとん さくさく
+むかむか いらいら かりかり ばきばき.
+They are chunk 0 of 101 of the general remaining-word queue (recomputed after Batch178: closure of 3,027 EN words),
+so every EN quiz_exclusions target resolves to an existing RU word or a batch word. Sixteen existing pages
+(kanji/働 努 労; words/うろうろ かさかさ からから しっとり そっと つやつや どたどた どんどん のろのろ ぱちぱち ぺらぺら
+ぼろぼろ 緊張) receive 23 navigation-only link wraps at EN link positions, with per-file link counts matching EN.
+Kanji without RU cards (厄 訴 零 順) stay plain text.
+
+The batch covers complaining and suing, difficulty, hardship, trouble and effort, labour, filling, overflowing and
+spilling, smooth progress (順調), knocking at a door (ノック), and fourteen onomatopoeic words for whispering and
+mumbling, dry and crisp textures, brisk walking, knocking, smooth progress, nausea and irritation. Every pair among
+the four «хлопоты»/«хлопотный» titles (苦労, 面倒, 厄介, 手間) and among the five «хрустящий» titles
+(しゃきしゃき, こりこり, ぱりぱり, さくさく, かりかり) is excluded; other direct guards cover pairs such as
+訴える–文句/不平, 努力–一生懸命, あふれる–込む, 零れる/こぼす–流す and こんこん/とんとん–叩く.
+The optional image field of ぼそぼそ, すたすた and ばきばき is omitted (word-only adaptation). The independent
+read-only review found correctness and scoped coverage clean, two comprehensibility issues (an unnatural Russian
+translation in こぼす and a transitive gloss of the intransitive 水がこぼれる in 零れる) and one quiz-safety gap
+(満ちる lacked a guard against 込む «быть переполненным»). All three were fixed, together with five adopted wording
+suggestions, and the recheck reported all four facets clean.
+
+Qualified progress is **3,489 reviewed-current / 8 reviewed runtime-blocked / 4,781 pending of 8,278**,
+with 2,023 words, 718 kanji and 718 strokes. See the [intake](translation-batches/179-words-batch-18-intake.json),
+[independent review](translation-batches/179-words-batch-18-independent-review-001.md),
+[recheck](translation-batches/179-words-batch-18-recheck-001.md),
+[qualified source record](translation-batches/179-words-batch-18-reviewed-source.json) and
+[final validation](translation-batches/179-words-batch-18-final-validation-001.json).
+
+## Previous published source milestone: batch178 thirty words (general word queue)
 
 Batch178 adds 30 Russian word articles: 素 台 基準 基礎 基盤 基地 地盤 幹 巳 詩 俳句 川柳 寅 奇しい 妖しい 圧力 卯 同一
 同様 匹敵 副作用 発行 出版 刊行 差 区別 幅 違い 異なる 相違.
