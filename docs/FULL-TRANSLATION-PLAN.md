@@ -1,6 +1,34 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch165 thirty words (general word queue)
+## Current published source milestone: batch166 thirty words (general word queue)
+
+Batch166 adds 30 Russian word articles: 余裕 冷静 平ら 穏やか 管理 仕舞い しまう 済ませる 終える 得る 収める 支払う 支給
+供給 配達 計算 勘定 会計 費用 価格 値 料金 代金 支払 納める 治める 安定 もこもこ ぼんやり ふかふか. They are chunk 0
+of 113 of the general remaining-word queue (recomputed after Batch165: closure of 3,387 EN words), so every EN
+quiz_exclusions target resolves to an existing RU word or a batch word. Eight existing pages (kanji/払 支 治 費,
+words/ぶくぶく ぷくぷく 支配 請求) receive navigation-only link wraps at EN link positions. Kanji without RU cards
+(価 勘 穏 算 管 納 裕) stay plain text; two onomatopoeia images are omitted under the word-only convention.
+
+The batch is dense in near-synonym clusters (price/fee/cost, payment, finishing, the おさめる homophones, calm and
+soft), so the author added direct guards beyond EN in 21 cards. The independent read-only review found correctness,
+scoped coverage and comprehensibility clean, accepted the Russian-specific replacements for English-only remarks,
+and found three quiz-safety gaps (支払–料金, 会計–計算, 穏やか–柔らかい/ソフト). All were fixed with optional wording
+polish, and the recheck resolved everything with no regressions and all four facets clean. Exclusions added beyond
+EN are listed with the titles in the qualified source record.
+
+Qualified progress is **3,129 reviewed-current / 8 reviewed runtime-blocked / 5,141 pending of 8,278**,
+with 1,663 words, 718 kanji and 718 strokes. See the [intake](translation-batches/166-words-batch-06-intake.json),
+[independent review](translation-batches/166-words-batch-06-independent-review-001.md),
+[recheck](translation-batches/166-words-batch-06-recheck-001.md),
+[qualified source record](translation-batches/166-words-batch-06-reviewed-source.json) and
+[final validation](translation-batches/166-words-batch-06-final-validation-001.json).
+Next: further general word-queue chunks (recomputed after each merge), interleaved with the held N2 kanji
+(B157-held 委 季 封 届 層 岩, B158-held 島 巨 布 希 干 庁 床 底 府, then 庫 and 憎).
+
+This is qualified source-content progress only. Tag/random fallback options, voice, drawing, learner, device,
+media, release, ordinary activation and full-translation approval are not implied.
+
+## Previous published source milestone: batch165 thirty words (general word queue)
 
 Batch165 adds 30 Russian word articles: げらげら からから ぷくぷく ぶくぶく ことこと がちゃがちゃ 緊張 おどおど びくびく
 はらはら ぴかぴか ちらちら 拍手 叩く ぱちぱち かたかた ゆらゆら 震える がたがた カー ぶうぶう 豚 象 馬 鹿 鼠 兎 獣 者
