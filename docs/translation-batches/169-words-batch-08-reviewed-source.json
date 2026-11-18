@@ -1,0 +1,181 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "169-words-batch-08",
+ "publishedBaseline": "687f9b1",
+ "qualifiedVerdicts": {
+  "content": "Review 001 at 27ba8c1: scoped coverage CLEAN; correctness NEEDS FIX (low: C1 the 疲れ加減 gloss; Q7 also flagged «на душе неспокойно» in もやもや as worry rather than unresolved discomfort); comprehensibility NEEDS FIX (low: R1 an English-only 'plump' note in ばったり; R2 a calqued «общественный словник» and a blank-English-gloss remark in 急に and ふと); quiz safety NEEDS FIX (Q1 ばったり-出会う, Q2 少々-少ない/気持ち, Q3 ざっと-ぺらぺら «бегло», Q4 様子-具合/場合, Q5 一時-時間, Q6 うっかり-思わず, Q7 もやもや-心配). Recheck 001 at a9b65b6: all ten findings resolved (Q3 and Q7 by retitling ざっと and もやもや); accepted optional polish in 一時, 永遠, 約 and でこぼこ applied; no regressions; all four facets CLEAN.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Title/stem screen hand-checked; remaining stem hits (ざっと-ぺらぺら on «бегло», ざっと-拝見 on «просм», もやもや-ぼんやり/ぼうっと on «смутн») are separated by qualifiers, part of speech or existing exclusions; review fixes added ばったり-出会う, 少々-少ない/気持ち, 様子-具合/場合, 一時-時間 and うっかり-思わず."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/169-words-batch-08-intake.json",
+  "docs/translation-batches/169-words-batch-08-independent-review-001.md",
+  "docs/translation-batches/169-words-batch-08-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "悠",
+   "態",
+   "旦",
+   "永",
+   "減",
+   "激",
+   "粗",
+   "荒"
+  ],
+  "navigationNote": "Only link brackets added at EN link positions for batch words (24 links in 15 files; per-file link counts match EN): kanji/久 -> 永久, kanji/様 -> 様子, kanji/状 -> 状態, kanji/程 -> 程度, kanji/突 -> 突然, words/からから -> かさかさ, words/ごろごろ すべすべ つるつる -> ざらざら, words/ぷにぷに -> ごつごつ, words/ぼんやり -> もやもや, words/もこもこ -> でこぼこ, words/条件 and 症状 -> 状態, words/穏やか -> 激しい.",
+  "navigationOnlyEdits": [
+   "kanji/久.md",
+   "kanji/様.md",
+   "kanji/状.md",
+   "kanji/程.md",
+   "kanji/突.md",
+   "words/からから.md",
+   "words/ごろごろ.md",
+   "words/すべすべ.md",
+   "words/つるつる.md",
+   "words/ぷにぷに.md",
+   "words/ぼんやり.md",
+   "words/もこもこ.md",
+   "words/条件.md",
+   "words/症状.md",
+   "words/穏やか.md"
+  ],
+  "newWords": [
+   "永久",
+   "永遠",
+   "悠々",
+   "もやもや",
+   "めらめら",
+   "ぼうっと",
+   "突然",
+   "急に",
+   "ばったり",
+   "思わず",
+   "ふと",
+   "うっかり",
+   "でこぼこ",
+   "ごつごつ",
+   "かさかさ",
+   "ざらざら",
+   "粗い",
+   "激しい",
+   "荒い",
+   "様子",
+   "状態",
+   "加減",
+   "見当",
+   "およそ",
+   "程度",
+   "約",
+   "ざっと",
+   "一時",
+   "少々",
+   "一旦"
+  ],
+  "selection": "Chunk 0 of 111 of the general remaining-word queue (word_schedule.py 30 --all over the full remaining word closure of 3,327 EN words, recomputed after Batch168); the chunk is closed under quiz_exclusions, so every EN exclusion target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to targets absent from RU (words きちんと くよくよ すっきり たまたま ぱさぱさ もくもく わざと 一応 偶然 凹凸 検討 正確 状況 荒れる 詳しい 調子 長期; kanji 凸 凹 永 減 荒; onomatopoeia articles) are plain labels until those files exist; onomatopoeia pointers use the established «См. японскую ономатопею» wording.",
+  "wordOnlyImageOmissions": [
+   "めらめら",
+   "ぼうっと",
+   "うっかり",
+   "ざらざら"
+  ]
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "ぼうっと title kept: the suggested wording would collide with ぼんやり «смутно; рассеянно»"
+  ],
+  "exclusionsAddedBeyondEn": {
+   "うっかり": [
+    "思わず"
+   ],
+   "ざっと": [
+    "大体",
+    "約",
+    "ほど",
+    "程度"
+   ],
+   "ばったり": [
+    "出会う"
+   ],
+   "ふと": [
+    "突然",
+    "急に"
+   ],
+   "一時": [
+    "時間"
+   ],
+   "加減": [
+    "ほど",
+    "気分"
+   ],
+   "少々": [
+    "多少",
+    "少ない",
+    "気持ち"
+   ],
+   "思わず": [
+    "しまう"
+   ],
+   "急に": [
+    "急"
+   ],
+   "様子": [
+    "具合",
+    "場合"
+   ],
+   "程度": [
+    "大体"
+   ],
+   "約": [
+    "程度"
+   ],
+   "見当": [
+    "予想",
+    "想像"
+   ]
+  },
+  "titles": {
+   "うっかり": "по рассеянности; по недосмотру",
+   "およそ": "примерно; в общем",
+   "かさかさ": "сухой и шершавый; шуршащий",
+   "ごつごつ": "бугристый; узловатый",
+   "ざっと": "навскидку; бегло (просмотреть)",
+   "ざらざら": "шершавый; зернистый",
+   "でこぼこ": "неровный; ухабистый",
+   "ばったり": "с размаху (упасть); неожиданно (встретить)",
+   "ふと": "вдруг; невзначай",
+   "ぼうっと": "в оцепенении; смутно (виднеться)",
+   "めらめら": "полыхая (о пламени)",
+   "もやもや": "туманный; смутно на душе",
+   "一旦": "на время; раз уж (если)",
+   "一時": "временно; одно время; час дня или ночи",
+   "加減": "степень; регулировка; самочувствие",
+   "少々": "немного; минутку",
+   "思わず": "невольно; сам того не желая",
+   "急に": "внезапно; резко",
+   "悠々": "неспешно; невозмутимо; без труда",
+   "様子": "положение дел; облик",
+   "永久": "постоянство; вечность",
+   "永遠": "вечность; навеки",
+   "激しい": "сильный; бурный",
+   "状態": "состояние",
+   "程度": "степень; примерно (после числа)",
+   "突然": "внезапно; внезапный",
+   "粗い": "крупный (о зерне); грубый (о работе)",
+   "約": "около; приблизительно",
+   "荒い": "бурный; грубый; буйный",
+   "見当": "прикидка; примерное представление"
+  }
+ }
+}
