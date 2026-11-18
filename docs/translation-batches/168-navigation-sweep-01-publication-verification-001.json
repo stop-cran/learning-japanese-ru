@@ -1,0 +1,78 @@
+{
+ "schemaVersion": 1,
+ "batchId": "168-navigation-sweep-01",
+ "recordedAt": "2026-11-18T11:11:36Z",
+ "repository": "stop-cran/learning-japanese-ru",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "f399daa69ce5cd8bc4aa82329efc993fb95cf580",
+ "candidateCommit": "8d5afde",
+ "qualifiedAcceptanceCommit": "f2a78c30643dc7b6e907caefbdd6eefa397c484b",
+ "publishedCommit": "687f9b114ef00eef6b8a17ec55dc9ab0cdce83aa",
+ "publishedTree": "58bb382920dc9c3ed0606bef77d856b6bcde52e9",
+ "contentVersion": "3299c979dc668e14",
+ "integration": {
+  "method": "pull request merge commit",
+  "pullRequestCreated": true,
+  "pullRequest": 52,
+  "pullRequestUrl": "https://github.com/stop-cran/learning-japanese-ru/pull/52",
+  "branch": "full-ru-168-nav-sweep-01",
+  "branchRef": "f2a78c30643dc7b6e907caefbdd6eefa397c484b",
+  "mainRef": "687f9b114ef00eef6b8a17ec55dc9ab0cdce83aa",
+  "mergeParents": [
+   "f399daa69ce5cd8bc4aa82329efc993fb95cf580",
+   "f2a78c30643dc7b6e907caefbdd6eefa397c484b"
+  ],
+  "branchAndMainTreeMatch": true
+ },
+ "githubIdentity": {
+  "authenticatedOwner": "stop-cran",
+  "author": "stop-cran",
+  "committer": "stop-cran (branch commits); web-flow (merge commit)",
+  "commitSignatureVerified": true,
+  "signatureReason": "valid",
+  "ownerCredentialMatchedVerifiedOwnerToken": true
+ },
+ "exactMainCi": {
+  "workflow": "Validate Russian content",
+  "runId": 44292219707,
+  "headSha": "687f9b114ef00eef6b8a17ec55dc9ab0cdce83aa",
+  "status": "completed",
+  "conclusion": "success",
+  "url": "https://github.com/stop-cran/learning-japanese-ru/actions/runs/44292219707"
+ },
+ "protectedRefs": {
+  "ru-pilot-a": {
+   "expected": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+   "observedAfterPublication": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+   "unchanged": true
+  },
+  "ru-pilot-b": {
+   "expected": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+   "observedAfterPublication": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+   "unchanged": true
+  }
+ },
+ "qualifiedProgress": {
+  "frozenInventory": 8278,
+  "reviewedCurrent": 3159,
+  "excludedReviewedRuntimeBlocked": 8,
+  "pending": 5111,
+  "words": 1693,
+  "kanji": 718,
+  "strokes": 718,
+  "checkpointAuthority": null,
+  "checkpointReady": false
+ },
+ "evidence": {
+  "intake": "docs/translation-batches/168-navigation-sweep-01-intake.json",
+  "review": "docs/translation-batches/168-navigation-sweep-01-independent-review-001.md",
+  "finalValidation": "docs/translation-batches/168-navigation-sweep-01-final-validation-001.json"
+ },
+ "remainingQualification": {
+  "ordinaryQuizNegativeFallbackSafety": "No titles or quiz_exclusions changed; the 202 added navigation-only links were judged correct by one bounded independent review against their frozen EN positions; not exhaustive.",
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false,
+  "continueRequired": true
+ }
+}
