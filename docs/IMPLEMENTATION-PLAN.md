@@ -8,7 +8,15 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch157 nine-card qualified-source acceptance
+## Current published source milestone: batch160 thirteen N2 kanji
+
+Batch160 promoted the held B159 drafts for 延/弱/律/復/快/恋/患/悩/戸/承/技/担/拝 (13 lessons, 13
+byte-identical strokes, 8 word link wrappers) after an independent review, fixes and recheck. Progress:
+**2,944 reviewed-current / 8 runtime-blocked / 5,326 pending of 8,278**; 1,478 words / 718 kanji /
+718 strokes. Details, qualifications and the post-takeover continuation plan are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch160-thirteen-n2-kanji-b159-held-drafts-promoted).
+
+## Previous published source milestone: batch157 nine-card qualified-source acceptance
 
 Batch157 added nine Russian lessons (孫/宇/宝/寺/専/将/尊/導/岸), nine byte-identical
 frozen-source strokes, and three reciprocal link-only word-page changes. Six cards
