@@ -8,7 +8,17 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch175 thirty words
+## Current published source milestone: batch176 thirty words
+
+Batch176 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions), plus 10 navigation-only link wraps in 6 existing pages. The independent review found two
+correctness issues (栗 horse-chestnut note, 豊か "wealthy" sense) and three quiz-safety gaps (支える–賛成, 暮れ–端,
+トップ–いちばん); all were fixed and resolved in the recheck.
+Progress: **3,399 reviewed-current / 8 runtime-blocked / 4,871 pending of 8,278**; 1,933 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch176-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch175 thirty words
 
 Batch175 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions), plus 7 navigation-only link wraps in 4 existing pages. The independent review found one
@@ -16,7 +26,7 @@ comprehensibility issue (a 脂 sentence about an unseen «масло» translati
 水稲–ご飯); all were fixed and resolved in the recheck.
 Progress: **3,369 reviewed-current / 8 runtime-blocked / 4,901 pending of 8,278**; 1,903 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch175-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch175-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch174 thirty words
 

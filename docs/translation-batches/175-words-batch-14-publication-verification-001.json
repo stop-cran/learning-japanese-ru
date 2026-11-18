@@ -1,0 +1,80 @@
+{
+ "schemaVersion": 1,
+ "batchId": "175-words-batch-14",
+ "recordedAt": "2026-11-18T14:54:38Z",
+ "repository": "stop-cran/learning-japanese-ru",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "b79387fe46548a4ecf9823fd4c55946f752e2cb4",
+ "candidateCommit": "e6c63f6",
+ "qualifiedAcceptanceCommit": "87f4bf083d53b498dc7e5616831c2baf7a70e9ae",
+ "publishedCommit": "adbec436f411e8914d724804f4eac158e346b8f0",
+ "publishedTree": "309b89b0d89d59e042421e463a9508c5cd36027c",
+ "contentVersion": "9c624550696781e3",
+ "integration": {
+  "method": "pull request merge commit",
+  "pullRequestCreated": true,
+  "pullRequest": 59,
+  "pullRequestUrl": "https://github.com/stop-cran/learning-japanese-ru/pull/59",
+  "branch": "full-ru-175-words-14",
+  "branchRef": "87f4bf083d53b498dc7e5616831c2baf7a70e9ae",
+  "mainRef": "adbec436f411e8914d724804f4eac158e346b8f0",
+  "mergeParents": [
+   "b79387fe46548a4ecf9823fd4c55946f752e2cb4",
+   "87f4bf083d53b498dc7e5616831c2baf7a70e9ae"
+  ],
+  "branchAndMainTreeMatch": true
+ },
+ "githubIdentity": {
+  "authenticatedOwner": "stop-cran",
+  "author": "stop-cran",
+  "committer": "stop-cran (branch commits); web-flow (merge commit)",
+  "commitSignatureVerified": true,
+  "signatureReason": "valid",
+  "ownerCredentialMatchedVerifiedOwnerToken": true
+ },
+ "exactMainCi": {
+  "workflow": "Validate Russian content",
+  "runId": 44329238618,
+  "headSha": "adbec436f411e8914d724804f4eac158e346b8f0",
+  "status": "completed",
+  "conclusion": "success",
+  "url": "https://github.com/stop-cran/learning-japanese-ru/actions/runs/44329238618"
+ },
+ "protectedRefs": {
+  "ru-pilot-a": {
+   "expected": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+   "observedAfterPublication": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+   "unchanged": true
+  },
+  "ru-pilot-b": {
+   "expected": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+   "observedAfterPublication": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+   "unchanged": true
+  }
+ },
+ "qualifiedProgress": {
+  "frozenInventory": 8278,
+  "reviewedCurrent": 3369,
+  "excludedReviewedRuntimeBlocked": 8,
+  "pending": 4901,
+  "words": 1903,
+  "kanji": 718,
+  "strokes": 718,
+  "checkpointAuthority": null,
+  "checkpointReady": false
+ },
+ "evidence": {
+  "intake": "docs/translation-batches/175-words-batch-14-intake.json",
+  "review": "docs/translation-batches/175-words-batch-14-independent-review-001.md",
+  "recheck": "docs/translation-batches/175-words-batch-14-recheck-001.md",
+  "finalValidation": "docs/translation-batches/175-words-batch-14-final-validation-001.json",
+  "qualifiedSourceRecord": "docs/translation-batches/175-words-batch-14-reviewed-source.json"
+ },
+ "remainingQualification": {
+  "ordinaryQuizNegativeFallbackSafety": "岸 湖畔 流す 注ぐ 浴びせる 沈める 水稲 歳 欧州 橘 油 石油 脂 ビニール プラスチック ナイロン 樹脂 榛 達する 至る 極める 材料 材木 木材 楠 紅葉 楓 椿 骨 椎骨 and their direct exclusions judged safe by one bounded independent review and recheck against the current RU title pool; not exhaustive, no transitive closure inferred.",
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false,
+  "continueRequired": true
+ }
+}

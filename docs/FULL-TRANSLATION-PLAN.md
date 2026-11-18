@@ -1,6 +1,31 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch175 thirty words (general word queue)
+## Current published source milestone: batch176 thirty words (general word queue)
+
+Batch176 adds 30 Russian word articles: 椋 梨 縁 端 暮れ 末 底 尻 しっぽ 頂上 トップ 先端 梢 梓 桑 桐 桂 書物 図書
+冊子 栞 茶 茶色い 栗 豊富 豊か 栄える 柳 支える 助ける.
+They are chunk 0 of 104 of the general remaining-word queue (recomputed after Batch175: closure of 3,117 EN words),
+so every EN quiz_exclusions target resolves to an existing RU word or a batch word. Six existing pages
+(kanji/冊 助 頂; words/榛 蚕 貧しい) receive 10 navigation-only link wraps at EN link positions, with per-file link
+counts matching EN. Kanji without RU cards (椋 梨 縁 端 底 尻 梢 梓 桑 桐 桂 栞 栗 豊 栄 柳) stay plain text.
+
+The batch covers trees (muku, pear, azusa, mulberry, paulownia, katsura, chestnut, willow), edges, ends and tips,
+dusk and the year's end, bottoms and tails, summits and the top position, books, booklets and bookmarks, tea and
+brown, abundance and prosperity, and support and help. Russian titles that share «конец», «книга», «чай»,
+«коричневый», «богатый» or «поддерживать» receive direct guards; English-only contrasts ("edge/rim/tip", "bottom",
+"top", "rich", "help/save/support") were recast in Russian terms. The independent read-only review found scoped
+coverage and comprehensibility clean, two correctness issues (a Russian-only 栗 note calling トチノキ seeds
+inedible; a 豊か sentence that could read as denying its "wealthy" sense) and three quiz-safety gaps (支える–賛成,
+暮れ–端, トップ–いちばん). All were fixed; a 冊子 wording option was declined for consistency with 受付. The recheck at 2ed9172 confirmed all five findings resolved, with correctness, scoped coverage, comprehensibility and quiz safety clean.
+
+Qualified progress is **3,399 reviewed-current / 8 reviewed runtime-blocked / 4,871 pending of 8,278**,
+with 1,933 words, 718 kanji and 718 strokes. See the [intake](translation-batches/176-words-batch-15-intake.json),
+[independent review](translation-batches/176-words-batch-15-independent-review-001.md),
+[recheck](translation-batches/176-words-batch-15-recheck-001.md),
+[qualified source record](translation-batches/176-words-batch-15-reviewed-source.json) and
+[final validation](translation-batches/176-words-batch-15-final-validation-001.json).
+
+## Previous published source milestone: batch175 thirty words (general word queue)
 
 Batch175 adds 30 Russian word articles: 岸 湖畔 流す 注ぐ 浴びせる 沈める 水稲 歳 欧州 橘 油 石油 脂 ビニール
 プラスチック ナイロン 樹脂 榛 達する 至る 極める 材料 材木 木材 楠 紅葉 楓 椿 骨 椎骨.
