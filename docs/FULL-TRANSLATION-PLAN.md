@@ -1,6 +1,35 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch176 thirty words (general word queue)
+## Current published source milestone: batch177 thirty words (general word queue)
+
+Batch177 adds 30 Russian word articles: 救う 救助 手伝い 援助 柱 柚 枚 松竹梅 梅 杏 李 曲 増す 増加 昇る 政治家
+採掘 釣り 漁業 水産 捕鯨 御殿 彗星 局 オフィス 庁 基本 基 水準 計る.
+They are chunk 0 of 103 of the general remaining-word queue (recomputed after Batch176: closure of 3,087 EN words),
+so every EN quiz_exclusions target resolves to an existing RU word or a batch word. Ten existing pages
+(kanji/曲; words/拡大 支える 桃 橘 発展 竹 鉱石 隻 鯨) receive 12 navigation-only link wraps at EN link positions,
+with per-file link counts matching EN. Kanji without RU cards (基 庁 彗 掘 採 援 救 昇 星 李 杏 松 枚 柚 柱 梅 殿 準 漁
+竹 釣 鯨) stay plain text.
+
+The batch covers rescue, help and aid, pillars, citrus and stone-fruit trees (yuzu, ume, apricot, plum), the flat-object
+counter, the pine-bamboo-plum ranking, musical pieces, increase and rising, politicians, mining, fishing, fisheries and
+whaling, palaces, comets, bureaus, offices and agencies, basics, foundations and standards, and measuring. Russian titles
+that share «помощь», «поддержка», «увеличение», «рост», «управление» or «станция» receive direct guards, as do close
+pairs such as 曲–歌, 釣り–釣る and オフィス–会社; 梅 is titled «умэ; японский абрикос» after its botanical identity so
+that it does not collide with 李 «слива». English-only contrasts ("save money",
+"post", "citron", "take office", "weigh") were recast in Russian terms. The independent read-only review found
+correctness and scoped coverage clean, one comprehensibility issue (松竹梅 romanized 竹 as «таке» instead of «такэ») and
+one quiz-safety gap (増す lacked 上がる/上げる guards, per the 増える precedent). Both were fixed, together with an adopted
+昇る–進む guard and two menu wordings in 松竹梅 and 梅; a 漁業 rewording and 水産 title alternatives were declined as not
+clearly better. The recheck resolved every item and reported all four facets clean.
+
+Qualified progress is **3,429 reviewed-current / 8 reviewed runtime-blocked / 4,841 pending of 8,278**,
+with 1,963 words, 718 kanji and 718 strokes. See the [intake](translation-batches/177-words-batch-16-intake.json),
+[independent review](translation-batches/177-words-batch-16-independent-review-001.md),
+[recheck](translation-batches/177-words-batch-16-recheck-001.md),
+[qualified source record](translation-batches/177-words-batch-16-reviewed-source.json) and
+[final validation](translation-batches/177-words-batch-16-final-validation-001.json).
+
+## Previous published source milestone: batch176 thirty words (general word queue)
 
 Batch176 adds 30 Russian word articles: 椋 梨 縁 端 暮れ 末 底 尻 しっぽ 頂上 トップ 先端 梢 梓 桑 桐 桂 書物 図書
 冊子 栞 茶 茶色い 栗 豊富 豊か 栄える 柳 支える 助ける.

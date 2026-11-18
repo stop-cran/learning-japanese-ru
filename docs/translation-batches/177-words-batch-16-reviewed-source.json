@@ -1,0 +1,180 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "177-words-batch-16",
+ "publishedBaseline": "77608b5",
+ "qualifiedVerdicts": {
+  "content": "Review 001 at 0abb3aa: correctness CLEAN; scoped coverage CLEAN; comprehensibility NEEDS FIX (F2 松竹梅 example romanized 竹 as «таке» instead of «такэ», inconsistent with «умэ»); quiz safety NEEDS FIX (F1 増す lacked 上がる/上げる guards although its bare «повышаться»/«расти» senses overlap them, per the existing 増える precedent). Optional suggestions adopted: 昇る-進む guard (shared bare «продвигаться»), 松竹梅 «Комплексные обеды» -> «Комплексные меню», 梅 «базовый комплекс» -> «самый простой вариант меню». Fix commit 2097b18. Recheck 001 at 2097b18: F1 and F2 resolved, the three adopted optional items resolved, manifest changes limited to contentVersion and the four edited hashes; correctness, scoped coverage, comprehensibility and quiz safety CLEAN.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Title/stem screen hand-checked; author guards beyond EN added 救助-助ける, 手伝い-世話/おかげ, 援助-助ける/手伝う/支える/賛成/おかげ, 曲-歌, 増す-拡大, 増加-拡大/成長, 釣り-釣る, 局-駅/管理, オフィス-会社, 庁-管理; the review fixes added 増す-上がる/上げる and 昇る-進む. 梅 is titled «умэ; японский абрикос» after the botanical identity (Prunus mume), because «японская слива» would collide with 李 «слива; сливовое дерево»; 杏 «абрикос; абрикосовое дерево» and 柚 «юдзу (цитрус)» keep distinct stems. 局 «управление; бюро; телерадиостанция» and 庁 «государственное ведомство; управление» share «управление»: their direct pair is retained from EN 庁 quiz_exclusions, and both now also exclude 管理."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/177-words-batch-16-intake.json",
+  "docs/translation-batches/177-words-batch-16-independent-review-001.md",
+  "docs/translation-batches/177-words-batch-16-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "基",
+   "庁",
+   "彗",
+   "掘",
+   "採",
+   "援",
+   "救",
+   "昇",
+   "星",
+   "李",
+   "杏",
+   "松",
+   "枚",
+   "柚",
+   "柱",
+   "梅",
+   "殿",
+   "準",
+   "漁",
+   "竹",
+   "釣",
+   "鯨"
+  ],
+  "navigationNote": "Only link brackets added at EN link positions for batch words (12 links in 10 files; per-file link counts match EN): kanji/曲 -> 曲 (3), words/拡大 -> 増加, words/支える -> 援助, words/桃 -> 梅, words/橘 -> 柚, words/発展 -> 増加, words/竹 -> 梅, words/鉱石 -> 採掘, words/隻 -> 枚, words/鯨 -> 捕鯨.",
+  "navigationOnlyEdits": [
+   "kanji/曲.md",
+   "words/拡大.md",
+   "words/支える.md",
+   "words/桃.md",
+   "words/橘.md",
+   "words/発展.md",
+   "words/竹.md",
+   "words/鉱石.md",
+   "words/隻.md",
+   "words/鯨.md"
+  ],
+  "newWords": [
+   "救う",
+   "救助",
+   "手伝い",
+   "援助",
+   "柱",
+   "柚",
+   "枚",
+   "松竹梅",
+   "梅",
+   "杏",
+   "李",
+   "曲",
+   "増す",
+   "増加",
+   "昇る",
+   "政治家",
+   "採掘",
+   "釣り",
+   "漁業",
+   "水産",
+   "捕鯨",
+   "御殿",
+   "彗星",
+   "局",
+   "オフィス",
+   "庁",
+   "基本",
+   "基",
+   "水準",
+   "計る"
+  ],
+  "selection": "Chunk 0 of 103 of the general remaining-word queue (word_schedule.py 30 --all over the full remaining word closure of 3,087 EN words, recomputed after Batch176); the chunk is closed under quiz_exclusions, so every EN exclusion target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to targets absent from RU (words お手伝いさん 元 数える 最高 松 減る; kanji 庁 府 彗 掘 採 昇 星 李 杏 松 枚 柚 柱 桃 梅 殿 測 準 漁 竹 量 鯨; article occupation-and-role-endings) are plain labels until those files exist; kanji 基 援 救 釣 also lack RU cards and are not linked from these EN articles.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "漁業 «работает в рыболовстве» rewording not adopted: natural and accurate as written",
+   "水産 title alternatives not adopted: «продукты водного промысла; рыбное хозяйство» accurately renders EN aquatic products; fisheries and the alternatives were not clearly better"
+  ],
+  "exclusionsAddedBeyondEn": {
+   "オフィス": [
+    "会社"
+   ],
+   "増す": [
+    "拡大",
+    "上がる",
+    "上げる"
+   ],
+   "増加": [
+    "拡大",
+    "成長"
+   ],
+   "局": [
+    "駅",
+    "管理"
+   ],
+   "庁": [
+    "管理"
+   ],
+   "手伝い": [
+    "世話",
+    "おかげ"
+   ],
+   "援助": [
+    "助ける",
+    "手伝う",
+    "支える",
+    "賛成",
+    "おかげ"
+   ],
+   "救助": [
+    "助ける"
+   ],
+   "昇る": [
+    "進む"
+   ],
+   "曲": [
+    "歌"
+   ],
+   "釣り": [
+    "釣る"
+   ]
+  },
+  "titles": {
+   "オフィス": "офис; рабочее помещение",
+   "基": "основа; база",
+   "基本": "основы; основа",
+   "増す": "увеличиваться; усиливаться",
+   "増加": "увеличение; рост",
+   "局": "управление; бюро; телерадиостанция",
+   "庁": "государственное ведомство; управление",
+   "彗星": "комета",
+   "御殿": "дворец",
+   "手伝い": "помощь; помощник",
+   "捕鯨": "китобойный промысел",
+   "採掘": "добыча (полезных ископаемых)",
+   "援助": "помощь; содействие; поддержка",
+   "政治家": "политик",
+   "救う": "спасать; избавлять",
+   "救助": "спасение; спасательные работы",
+   "昇る": "восходить (о солнце); продвигаться по службе",
+   "曲": "музыкальное произведение; мелодия",
+   "李": "слива; сливовое дерево",
+   "杏": "абрикос; абрикосовое дерево",
+   "松竹梅": "сосна, бамбук и умэ; три разряда",
+   "枚": "счётное слово для плоских предметов",
+   "柚": "юдзу (цитрус)",
+   "柱": "столб; опора",
+   "梅": "умэ; японский абрикос",
+   "水準": "уровень; стандарт",
+   "水産": "продукты водного промысла; рыбное хозяйство",
+   "漁業": "рыболовство; рыбный промысел",
+   "計る": "измерять; засекать (время)",
+   "釣り": "рыбалка; ужение рыбы"
+  }
+ }
+}
