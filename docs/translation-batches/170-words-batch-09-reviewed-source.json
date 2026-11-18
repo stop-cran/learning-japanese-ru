@@ -1,0 +1,165 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "170-words-batch-09",
+ "publishedBaseline": "9a53eee",
+ "qualifiedVerdicts": {
+  "content": "Review 001 at c526abc: correctness CLEAN; scoped coverage CLEAN; comprehensibility NEEDS FIX (minor: F2 an editorial «курс(ы)» shortcut and unwarranted past tense in a 後輩 example translation; F3 «пожилой новичок» narrowing EN 'older newcomer' to old age); quiz safety NEEDS FIX (F1 missing ばかり-ほぼ direct pair on «около»/«приблизительно»). Recheck 001 at 0c9b9df: F1, F2 and F3 resolved; accepted optional polish in ほぼ and 一応 and conservative ころ-ほぼ/およそ guards applied; no regressions; all four facets CLEAN.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Title/stem screen hand-checked; remaining hits (ころ-いつ «когда», だけ-いくら/幾つ «сколько», 鴻鵠 «великий человек»-人物/人, 後輩-生徒 «учащийся») are separated by qualifiers, part of speech or meaning; author guards added ほぼ-ほど/程度, くらい-およそ/約/ほぼ, ころ-約, ばかり-さっき/約/およそ, 一応-万一, ばたばた-ぱちぱち/叩く, 鴻鵠-偉大, 非常口-出口; review fixes added ばかり-ほぼ and conservative ころ-ほぼ/およそ."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/170-words-batch-09-intake.json",
+  "docs/translation-batches/170-words-batch-09-independent-review-001.md",
+  "docs/translation-batches/170-words-batch-09-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "凰",
+   "応",
+   "揚",
+   "混",
+   "輩",
+   "鮎",
+   "鯉",
+   "鯛",
+   "鯨",
+   "鳩",
+   "鳳",
+   "鴻",
+   "鵠",
+   "鵬",
+   "鶏",
+   "鶴",
+   "鷹",
+   "麒",
+   "麟"
+  ],
+  "navigationNote": "Only link brackets added at EN link positions for batch words (11 links in 6 files; per-file link counts match EN): kanji/乱 -> 混乱 (2), kanji/常 -> 非常口 (3), kanji/非 -> 非常口 (3), words/ほど -> くらい, words/一旦 -> 一応, words/落ち着く -> あわてる.",
+  "navigationOnlyEdits": [
+   "kanji/乱.md",
+   "kanji/常.md",
+   "kanji/非.md",
+   "words/ほど.md",
+   "words/一旦.md",
+   "words/落ち着く.md"
+  ],
+  "newWords": [
+   "ほぼ",
+   "くらい",
+   "ころ",
+   "だけ",
+   "ばかり",
+   "一応",
+   "おおざっぱ",
+   "どたどた",
+   "次々",
+   "ばたばた",
+   "混乱",
+   "あわてる",
+   "そそっかしい",
+   "のんき",
+   "鷹揚",
+   "鶴",
+   "鴻",
+   "鴻鵠",
+   "麒麟",
+   "鷹",
+   "鶏",
+   "鵬",
+   "鳳凰",
+   "鳩",
+   "鯨",
+   "鯛",
+   "鯉",
+   "鮎",
+   "非常口",
+   "後輩"
+  ],
+  "selection": "Chunk 0 of 110 of the general remaining-word queue (word_schedule.py 30 --all over the full remaining word closure of 3,297 EN words, recomputed after Batch169); the chunk is closed under quiz_exclusions, so every EN exclusion target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to targets absent from RU (words すたすた 同時 混雑 あわただしい 慎重 才能 捕鯨; kanji 混 鷹 鶴 鴻 鶏 鵬 鳩 鯛 鯉 鮎 麟 鳳 鯨; the koto-wake article anchors and onomatopoeia articles) are plain labels until those files exist; onomatopoeia pointers use the established «См. японскую ономатопею» wording.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "のんき-悠々/平気 guards declined: the titles share no sense word and the reviewer rated the overlap as loose",
+   "Hypernym guards (鷹 鶏 鯛 鯉 鮎 vs 動物; 鶏 vs 家畜) not added: inherited from EN, not a translation defect, and the hyponym/hypernym answer remains distinguishable",
+   "Pre-existing kanji/常 «запасный выход» vs kanji/非 «аварийный выход» wording for 非常口 left outside this word batch"
+  ],
+  "exclusionsAddedBeyondEn": {
+   "くらい": [
+    "およそ",
+    "約",
+    "ほぼ"
+   ],
+   "ころ": [
+    "約",
+    "ほぼ",
+    "およそ"
+   ],
+   "ばかり": [
+    "さっき",
+    "約",
+    "およそ",
+    "ほぼ"
+   ],
+   "ばたばた": [
+    "ぱちぱち",
+    "叩く"
+   ],
+   "ほぼ": [
+    "ほど",
+    "程度"
+   ],
+   "一応": [
+    "万一"
+   ],
+   "非常口": [
+    "出口"
+   ],
+   "鴻鵠": [
+    "偉大"
+   ]
+  },
+  "titles": {
+   "あわてる": "растеряться; поспешить",
+   "おおざっぱ": "в общих чертах; небрежный",
+   "くらい": "примерно; до такой степени, что",
+   "ころ": "время, когда; около (о времени)",
+   "そそっかしい": "невнимательный; поспешный и неосторожный",
+   "だけ": "только; столько, сколько",
+   "どたどた": "тяжело топая; с топотом",
+   "のんき": "беззаботный; беспечный",
+   "ばかり": "одно лишь; только что (сделал); около",
+   "ばたばた": "хлопая (крыльями); в суматохе",
+   "ほぼ": "почти; приблизительно",
+   "一応": "пока что; более-менее; на всякий случай",
+   "後輩": "младший коллега или учащийся",
+   "次々": "один за другим; подряд",
+   "混乱": "беспорядок; замешательство",
+   "非常口": "запасный выход",
+   "鮎": "аю (рыба)",
+   "鯉": "карп",
+   "鯛": "морской карась (тай)",
+   "鯨": "кит",
+   "鳩": "голубь",
+   "鳳凰": "фэнхуан; китайский феникс",
+   "鴻": "гуменник (гусь)",
+   "鴻鵠": "большие птицы; великий человек",
+   "鵬": "Пэн; гигантская мифическая птица",
+   "鶏": "курица (домашняя птица)",
+   "鶴": "журавль",
+   "鷹": "ястреб; сокол",
+   "鷹揚": "великодушный; невозмутимый",
+   "麒麟": "жираф; цилинь"
+  }
+ }
+}

@@ -8,14 +8,23 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch169 thirty words
+## Current published source milestone: batch170 thirty words
+
+Batch170 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions), plus 11 navigation-only link wraps in six existing pages. The independent review found one
+quiz-safety gap (ばかり–ほぼ) and two minor wording issues in 後輩; all were fixed and resolved in the recheck.
+Progress: **3,219 reviewed-current / 8 runtime-blocked / 5,051 pending of 8,278**; 1,753 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch170-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch169 thirty words
 
 Batch169 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions), plus 24 navigation-only link wraps in 15 existing pages. The independent review found seven
 quiz-safety gaps in the suddenness, approximation and state clusters and a few low-severity wording issues; all were
 fixed (two by retitling) and resolved in the recheck. Progress: **3,189 reviewed-current / 8 runtime-blocked / 5,081
 pending of 8,278**; 1,723 words / 718 kanji / 718 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch169-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch169-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch168 navigation sweep
 

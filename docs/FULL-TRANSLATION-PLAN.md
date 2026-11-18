@@ -1,6 +1,30 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch169 thirty words (general word queue)
+## Current published source milestone: batch170 thirty words (general word queue)
+
+Batch170 adds 30 Russian word articles: ほぼ くらい ころ だけ ばかり 一応 おおざっぱ どたどた 次々 ばたばた 混乱
+あわてる そそっかしい のんき 鷹揚 鶴 鴻 鴻鵠 麒麟 鷹 鶏 鵬 鳳凰 鳩 鯨 鯛 鯉 鮎 非常口 後輩.
+They are chunk 0 of 110 of the general remaining-word queue (recomputed after Batch169: closure of 3,297 EN words),
+so every EN quiz_exclusions target resolves to an existing RU word or a batch word. Six existing pages
+(kanji/乱 常 非 and words/ほど 一旦 落ち着く) receive 11 navigation-only link wraps at EN link positions, with per-file
+link counts matching EN. Kanji without RU cards (凰 応 揚 混 輩 鮎 鯉 鯛 鯨 鳩 鳳 鴻 鵠 鵬 鶏 鶴 鷹 麒 麟) stay plain text.
+
+The batch covers approximation and limit particles, carelessness and temperament, hurry and confusion, birds, fish
+and mythical creatures, and 非常口/後輩. Russian names follow established usage (гуменник, цилинь, Пэн, фэнхуан,
+аю, морской карась, «запасный выход»); English-only notes (the lifting crane, pigeon vs dove, "chicken" as coward)
+were re-expressed or dropped. The independent read-only review found correctness and scoped coverage clean, one
+quiz-safety gap (ばかり «около» vs ほぼ «приблизительно») and two minor wording issues in 後輩 (an editorial «курс(ы)»
+shortcut and «пожилой» for "older"). All were fixed, with optional polish in ほぼ and 一応 and conservative ころ
+guards; the recheck resolved every finding with no regressions and all four facets clean.
+
+Qualified progress is **3,219 reviewed-current / 8 reviewed runtime-blocked / 5,051 pending of 8,278**,
+with 1,753 words, 718 kanji and 718 strokes. See the [intake](translation-batches/170-words-batch-09-intake.json),
+[independent review](translation-batches/170-words-batch-09-independent-review-001.md),
+[recheck](translation-batches/170-words-batch-09-recheck-001.md),
+[qualified source record](translation-batches/170-words-batch-09-reviewed-source.json) and
+[final validation](translation-batches/170-words-batch-09-final-validation-001.json).
+
+## Previous published source milestone: batch169 thirty words (general word queue)
 
 Batch169 adds 30 Russian word articles: 永久 永遠 悠々 もやもや めらめら ぼうっと 突然 急に ばったり 思わず ふと
 うっかり でこぼこ ごつごつ かさかさ ざらざら 粗い 激しい 荒い 様子 状態 加減 見当 およそ 程度 約 ざっと 一時 少々 一旦.
