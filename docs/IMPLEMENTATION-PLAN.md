@@ -8,7 +8,17 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch178 thirty words
+## Current published source milestone: batch179 thirty words
+
+Batch179 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions), plus 23 navigation-only link wraps in 16 existing pages. The independent review found two
+comprehensibility issues (an unnatural こぼす translation and a transitive gloss of 水がこぼれる in 零れる) and one
+missing 満ちる–込む guard; all were fixed and resolved in the recheck.
+Progress: **3,489 reviewed-current / 8 runtime-blocked / 4,781 pending of 8,278**; 2,023 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch179-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch178 thirty words
 
 Batch178 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions), plus 19 navigation-only link wraps in 12 existing pages. The independent review found three
@@ -16,7 +26,7 @@ comprehensibility issues (an English "base" contrast in 基地, a personal-subje
 副作用 sentence); all were fixed, with an EN-inherited 幹–中心 guard, and resolved in the recheck.
 Progress: **3,459 reviewed-current / 8 runtime-blocked / 4,811 pending of 8,278**; 1,993 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch178-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch178-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch177 thirty words
 
