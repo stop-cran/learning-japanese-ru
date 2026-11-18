@@ -1,0 +1,189 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "165-words-batch-05",
+ "publishedBaseline": "918e64e",
+ "qualifiedVerdicts": {
+  "content": "Review 001 at 1cb7fd3: scoped coverage CLEAN on all 30 words and the 10 navigation-only edits; correctness NEEDS FIX (F1 minor: 叩く dust sense belongs to the separate entry 叩く（はたく）; F4 minor: glossary spelling итидан in 震える), comprehensibility NEEDS FIX (F1), quiz safety NEEDS FIX (F2 minor: かたかた/ことこと vs 叩く; F3 minor: ことこと vs からから). Recheck 001 at 47741c1: F1-F4 resolved; optional ぶくぶく-沸く and からから-乾く guards plus 象 and ぶうぶう wording polish applied and accepted; no regressions; all four facets CLEAN.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Title/stem screen hand-checked (only different-sense collisions); coordinator-approved author guards ぷくぷく-太い, ことこと-沸く, 緊張-騒ぐ/心配, びくびく-震える, はらはら-落ちる, ぴかぴか-きれい, ちらちら-見る, 拍手-叩く, ぶうぶう-鳴く, 豚-猪, 獣-生物, 個人-人間/人物/者/一人; review fixes added かたかた-叩く, ことこと-叩く, ことこと-からから; optional ぶくぶく-沸く and からから-乾く guards applied; no EN exclusion dropped."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/165-words-batch-05-intake.json",
+  "docs/translation-batches/165-words-batch-05-independent-review-001.md",
+  "docs/translation-batches/165-words-batch-05-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "兎",
+   "叩",
+   "張",
+   "拍",
+   "獣",
+   "緊",
+   "豚",
+   "象",
+   "震",
+   "鹿",
+   "鼠"
+  ],
+  "navigationNote": "Only link brackets added at EN link positions for batch words: kanji/個 -> 個人, kanji/馬 -> 馬, words/きらきら ぎらぎら つやつや てかてか -> ぴかぴか (きらきら also regained its EN-position ぎらぎら and つやつや links), ぐずぐず -> ぶうぶう, ごろごろ -> からから, 打つ -> 叩く, 猪 -> 豚.",
+  "navigationOnlyEdits": [
+   "kanji/個.md",
+   "kanji/馬.md",
+   "words/きらきら.md",
+   "words/ぎらぎら.md",
+   "words/つやつや.md",
+   "words/てかてか.md",
+   "words/ぐずぐず.md",
+   "words/ごろごろ.md",
+   "words/打つ.md",
+   "words/猪.md"
+  ],
+  "newWords": [
+   "げらげら",
+   "からから",
+   "ぷくぷく",
+   "ぶくぶく",
+   "ことこと",
+   "がちゃがちゃ",
+   "緊張",
+   "おどおど",
+   "びくびく",
+   "はらはら",
+   "ぴかぴか",
+   "ちらちら",
+   "拍手",
+   "叩く",
+   "ぱちぱち",
+   "かたかた",
+   "ゆらゆら",
+   "震える",
+   "がたがた",
+   "カー",
+   "ぶうぶう",
+   "豚",
+   "象",
+   "馬",
+   "鹿",
+   "鼠",
+   "兎",
+   "獣",
+   "者",
+   "個人"
+  ],
+  "selection": "Chunk 0 of 114 of the general remaining-word queue (word_schedule.py 30 --all over the full remaining word closure of 3,417 EN words); the chunk is closed under quiz_exclusions, so every EN exclusion target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to targets absent from RU (words いらいら かさかさ かちかち くすくす ぐつぐつ ぐらぐら しっとり じゅうじゅう じろじろ どきどき ばきばき ぱさぱさ ぱんぱん ひらひら ぴんぴん ぶるぶる ぷにぷに もこもこ わくわく 不安 批判 振る 歓迎 獣医 飼う 餌; kanji 獣 豚 象 震 鹿; onomatopoeia articles) are plain labels until those files exist.",
+  "wordOnlyImageOmissions": [
+   "ぷくぷく",
+   "がちゃがちゃ",
+   "ぴかぴか",
+   "ちらちら",
+   "ぱちぱち",
+   "かたかた",
+   "ゆらゆら",
+   "がたがた",
+   "ぶうぶう"
+  ]
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "鳴る vs clatter/onomatopoeia words left unguarded, following the unguarded ごろごろ precedent",
+   "者 example translation «перезвонит» kept as acceptable",
+   "words/研究 lacking its kanji/者 link is pre-existing and out of batch scope"
+  ],
+  "exclusionsAddedBeyondEn": {
+   "かたかた": [
+    "叩く"
+   ],
+   "からから": [
+    "乾く"
+   ],
+   "ことこと": [
+    "沸く",
+    "からから",
+    "叩く"
+   ],
+   "ちらちら": [
+    "見る"
+   ],
+   "はらはら": [
+    "落ちる"
+   ],
+   "びくびく": [
+    "震える"
+   ],
+   "ぴかぴか": [
+    "きれい"
+   ],
+   "ぶうぶう": [
+    "鳴く"
+   ],
+   "ぶくぶく": [
+    "沸く"
+   ],
+   "ぷくぷく": [
+    "太い"
+   ],
+   "個人": [
+    "人間",
+    "人物",
+    "者",
+    "一人"
+   ],
+   "拍手": [
+    "叩く"
+   ],
+   "獣": [
+    "生物"
+   ],
+   "緊張": [
+    "騒ぐ",
+    "心配"
+   ],
+   "豚": [
+    "猪"
+   ]
+  },
+  "titles": {
+   "おどおど": "робко; неуверенно",
+   "かたかた": "легонько постукивать; дребезжать",
+   "からから": "пересохший; пустой; дребезжать",
+   "がたがた": "дребезжать; расшатанный; ворчать",
+   "がちゃがちゃ": "лязгать; захламлённый; брюзжать",
+   "げらげら": "громко хохотать",
+   "ことこと": "томиться на медленном огне; тихо постукивать",
+   "ちらちら": "то и дело поглядывать; мелькать",
+   "はらはら": "замирать от тревоги; плавно опадать",
+   "ぱちぱち": "потрескивать; хлопать; моргать",
+   "びくびく": "бояться; дрожать от страха",
+   "ぴかぴか": "блестеть; сверкающий чистотой; новенький",
+   "ぶうぶう": "хрюкать; гудеть; ворчать",
+   "ぶくぶく": "бурлить пузырями; разбухать",
+   "ぷくぷく": "пузыриться; пухленький",
+   "ゆらゆら": "покачиваться; колыхаться",
+   "カー": "автомобиль (в составных словах)",
+   "個人": "частное лицо; отдельный человек",
+   "兎": "кролик; заяц",
+   "叩く": "бить; стучать; хлопать",
+   "拍手": "аплодисменты; хлопки в ладоши",
+   "獣": "зверь",
+   "緊張": "напряжение; нервное волнение",
+   "者": "человек (с определением); тот, кто…",
+   "豚": "свинья",
+   "象": "слон",
+   "震える": "дрожать; трястись",
+   "馬": "лошадь",
+   "鹿": "олень",
+   "鼠": "мышь; крыса"
+  }
+ }
+}
