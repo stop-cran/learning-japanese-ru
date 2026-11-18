@@ -1,0 +1,80 @@
+{
+ "schemaVersion": 1,
+ "batchId": "174-words-batch-13",
+ "recordedAt": "2026-11-18T14:22:51Z",
+ "repository": "stop-cran/learning-japanese-ru",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "3a5f6166dd338ce3f53c4b4e7ccaefa51aa0c39f",
+ "candidateCommit": "3ed3f15",
+ "qualifiedAcceptanceCommit": "66670fc23d256db2d27aa4c0c35e4f1c6d8a2167",
+ "publishedCommit": "b79387fe46548a4ecf9823fd4c55946f752e2cb4",
+ "publishedTree": "2cb154631e71ac10e1b6a4db946196f44d16cf5d",
+ "contentVersion": "d52701dd96c1509f",
+ "integration": {
+  "method": "pull request merge commit",
+  "pullRequestCreated": true,
+  "pullRequest": 58,
+  "pullRequestUrl": "https://github.com/stop-cran/learning-japanese-ru/pull/58",
+  "branch": "full-ru-174-words-13",
+  "branchRef": "66670fc23d256db2d27aa4c0c35e4f1c6d8a2167",
+  "mainRef": "b79387fe46548a4ecf9823fd4c55946f752e2cb4",
+  "mergeParents": [
+   "3a5f6166dd338ce3f53c4b4e7ccaefa51aa0c39f",
+   "66670fc23d256db2d27aa4c0c35e4f1c6d8a2167"
+  ],
+  "branchAndMainTreeMatch": true
+ },
+ "githubIdentity": {
+  "authenticatedOwner": "stop-cran",
+  "author": "stop-cran",
+  "committer": "stop-cran (branch commits); web-flow (merge commit)",
+  "commitSignatureVerified": true,
+  "signatureReason": "valid",
+  "ownerCredentialMatchedVerifiedOwnerToken": true
+ },
+ "exactMainCi": {
+  "workflow": "Validate Russian content",
+  "runId": 44323405377,
+  "headSha": "b79387fe46548a4ecf9823fd4c55946f752e2cb4",
+  "status": "completed",
+  "conclusion": "success",
+  "url": "https://github.com/stop-cran/learning-japanese-ru/actions/runs/44323405377"
+ },
+ "protectedRefs": {
+  "ru-pilot-a": {
+   "expected": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+   "observedAfterPublication": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+   "unchanged": true
+  },
+  "ru-pilot-b": {
+   "expected": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+   "observedAfterPublication": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+   "unchanged": true
+  }
+ },
+ "qualifiedProgress": {
+  "frozenInventory": 8278,
+  "reviewedCurrent": 3339,
+  "excludedReviewedRuntimeBlocked": 8,
+  "pending": 4931,
+  "words": 1873,
+  "kanji": 718,
+  "strokes": 718,
+  "checkpointAuthority": null,
+  "checkpointReady": false
+ },
+ "evidence": {
+  "intake": "docs/translation-batches/174-words-batch-13-intake.json",
+  "review": "docs/translation-batches/174-words-batch-13-independent-review-001.md",
+  "recheck": "docs/translation-batches/174-words-batch-13-recheck-001.md",
+  "finalValidation": "docs/translation-batches/174-words-batch-13-final-validation-001.json",
+  "qualifiedSourceRecord": "docs/translation-batches/174-words-batch-13-reviewed-source.json"
+ },
+ "remainingQualification": {
+  "ordinaryQuizNegativeFallbackSafety": "額 総額 中心 中央 半ば 竹 酒 笹 稲穂 研究員 研究者 富 財産 武器 矛 内容 実 果実 ピンク 桃 白桃 いかがわしい 疑わしい 略語 畝 畔 獣医 場 地 陸 and their direct exclusions judged safe by one bounded independent review and recheck against the current RU title pool; not exhaustive, no transitive closure inferred.",
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false,
+  "continueRequired": true
+ }
+}

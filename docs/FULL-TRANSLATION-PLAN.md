@@ -1,6 +1,32 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch174 thirty words (general word queue)
+## Current published source milestone: batch175 thirty words (general word queue)
+
+Batch175 adds 30 Russian word articles: 岸 湖畔 流す 注ぐ 浴びせる 沈める 水稲 歳 欧州 橘 油 石油 脂 ビニール
+プラスチック ナイロン 樹脂 榛 達する 至る 極める 材料 材木 木材 楠 紅葉 楓 椿 骨 椎骨.
+They are chunk 0 of 105 of the general remaining-word queue (recomputed after Batch174: closure of 3,147 EN words),
+so every EN quiz_exclusions target resolves to an existing RU word or a batch word. Four existing pages
+(kanji/岸 歳; words/畔 筋肉) receive 7 navigation-only link wraps at EN link positions, with per-file link counts
+matching EN. Kanji without RU cards (湖 畔 浴 沈 稲 欧 橘 油 脂 樹 榛 至 極 材 楠 紅 楓 椿 骨 椎) stay plain text.
+
+The batch covers shores and lakesides, flowing, pouring and sinking, wetland rice, age, Europe, trees and shrubs
+(tachibana, hazel, camphor, maple, camellia), oils, fats and petroleum, plastics, vinyl, nylon and resin, reaching
+and attaining, materials and timber, autumn leaves, and bones. Russian titles that share «берег», «рис», «лет»,
+«масло» or «пускать» receive direct guards; English-only notes ("bank", "oil", "oily", "plastic", "materials",
+"reach") were recast in Russian terms. The independent read-only review found correctness and scoped coverage
+clean, one comprehensibility issue (a 脂 sentence referring to a broad «масло» translation of 石油 that the learner
+never sees) and two quiz-safety gaps (ビニール–レコード via colloquial «винил», 水稲–ご飯 via «рис»). They were fixed
+together with optional polish (脂 and 流す example translations, the 榛 species name); a ビニール retitle was
+declined. The recheck resolved all three findings and the accepted polish with no regressions, leaving all four facets clean.
+
+Qualified progress is **3,369 reviewed-current / 8 reviewed runtime-blocked / 4,901 pending of 8,278**,
+with 1,903 words, 718 kanji and 718 strokes. See the [intake](translation-batches/175-words-batch-14-intake.json),
+[independent review](translation-batches/175-words-batch-14-independent-review-001.md),
+[recheck](translation-batches/175-words-batch-14-recheck-001.md),
+[qualified source record](translation-batches/175-words-batch-14-reviewed-source.json) and
+[final validation](translation-batches/175-words-batch-14-final-validation-001.json).
+
+## Previous published source milestone: batch174 thirty words (general word queue)
 
 Batch174 adds 30 Russian word articles: 額 総額 中心 中央 半ば 竹 酒 笹 稲穂 研究員 研究者 富 財産 武器 矛 内容 実
 果実 ピンク 桃 白桃 いかがわしい 疑わしい 略語 畝 畔 獣医 場 地 陸.
