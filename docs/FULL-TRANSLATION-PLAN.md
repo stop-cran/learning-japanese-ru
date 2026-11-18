@@ -1,6 +1,32 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch173 thirty words (general word queue)
+## Current published source milestone: batch174 thirty words (general word queue)
+
+Batch174 adds 30 Russian word articles: 額 総額 中心 中央 半ば 竹 酒 笹 稲穂 研究員 研究者 富 財産 武器 矛 内容 実
+果実 ピンク 桃 白桃 いかがわしい 疑わしい 略語 畝 畔 獣医 場 地 陸.
+They are chunk 0 of 106 of the general remaining-word queue (recomputed after Batch173: closure of 3,177 EN words),
+so every EN quiz_exclusions target resolves to an existing RU word or a batch word. Seven existing pages
+(kanji/容 富 酒; words/こと 形式 獣 酔う) receive 13 navigation-only link wraps at EN link positions, with per-file
+link counts matching EN. Kanji without RU cards (額 総 央 竹 笹 稲 穂 武 矛 桃 略 畝 畔 獣 陸) stay plain text.
+
+The batch covers amounts and totals, centres and middles, bamboo and rice ears, alcohol, researchers, wealth and
+property, weapons and spears, content and fruit, pink and peaches, doubtful and shady things, abbreviations, ridges
+and paddy levees, veterinarians, and place, land and dry land. Russian titles that share «сумма», «центр», «середина»,
+«плод», «сомнительный», «место» or «земля» receive direct guards; English-only notes ("ear", "ordinance", "vet",
+"field", "earth", "furrow") were recast in Russian terms. The independent read-only review found scoped coverage
+clean, two correctness issues (a 実 example note implying the discussion might concern fruit, and 地 に described as
+direction instead of the endpoint) and a 場–席 quiz-safety gap; a suggested 中央–途中/間 guard was declined as only
+transitive. They were fixed together with optional polish (a 地–田舎 guard, 財産 wording, the 中心 title and removal of
+English glosses from 場, 地 and 畝). The recheck found all four facets clean, withdrew the transitive 中央 suggestion and judged the new «часть» overlaps of the 中心 title not to be quiz collisions.
+
+Qualified progress is **3,339 reviewed-current / 8 reviewed runtime-blocked / 4,931 pending of 8,278**,
+with 1,873 words, 718 kanji and 718 strokes. See the [intake](translation-batches/174-words-batch-13-intake.json),
+[independent review](translation-batches/174-words-batch-13-independent-review-001.md),
+[recheck](translation-batches/174-words-batch-13-recheck-001.md),
+[qualified source record](translation-batches/174-words-batch-13-reviewed-source.json) and
+[final validation](translation-batches/174-words-batch-13-final-validation-001.json).
+
+## Previous published source milestone: batch173 thirty words (general word queue)
 
 Batch173 adds 30 Russian word articles: 退屈 くだらない 紙屑 残り 屑 芋 ボート ヨット 典型 例 出来事 事件 ケース 舟 自宅
 知恵 知能 感情 胸 腹 脳 育苗 翌日 繭 合計 提案 案 プラン 計 金額.
