@@ -1,6 +1,36 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch166 thirty words (general word queue)
+## Current published source milestone: batch167 thirty words (general word queue)
+
+Batch167 adds 30 Russian word articles: ぷにぷに ぐにゃぐにゃ 浮く 想像 示す 現す 表す 浮かべる 浮かぶ ふわふわ ほくほく
+しっとり 明かり 灯 もちもち 軟らかい 利口 そっと おとなしい 適する 似合う 落ち着く 平気 容易 楽 単純 貧しい 粗末 安易 佚.
+They are chunk 0 of 112 of the general remaining-word queue (recomputed after Batch166: closure of 3,357 EN words),
+so every EN quiz_exclusions target resolves to an existing RU word or a batch word. Twenty-two existing pages
+(kanji/像 易 泳 浮 示 貧 and 16 word pages) receive navigation-only link wraps at EN link positions. Kanji without RU
+cards (佚 灯 粗 純 軟) stay plain text; two onomatopoeia images are omitted under the word-only convention.
+
+The batch covers dense soft-texture, float/appear, show/express, light, calm, suit, easy and poor clusters. The
+author changed the 現す and 楽 titles to clear exact segment overlaps and added direct guards beyond EN in 15 cards.
+The independent read-only review found correctness, scoped coverage and comprehensibility clean, accepted the
+Russian-specific notes (for example the two senses of «плавать» for 浮く/泳ぐ), and found four minor quiz-safety gaps
+(安易–楽, 単純–易しい, 似合う–いい, ぐにゃぐにゃ–べちゃべちゃ). All were fixed; the recheck resolved them with no
+regressions and all four facets clean.
+
+The review also confirmed a pre-existing navigation gap: older pages still show plain text where EN links to
+targets that RU now has (a corpus scan finds 203 such link pairs in 167 files). A dedicated navigation-only sweep
+batch is scheduled next.
+
+Qualified progress is **3,159 reviewed-current / 8 reviewed runtime-blocked / 5,111 pending of 8,278**,
+with 1,693 words, 718 kanji and 718 strokes. See the [intake](translation-batches/167-words-batch-07-intake.json),
+[independent review](translation-batches/167-words-batch-07-independent-review-001.md),
+[recheck](translation-batches/167-words-batch-07-recheck-001.md),
+[qualified source record](translation-batches/167-words-batch-07-reviewed-source.json) and
+[final validation](translation-batches/167-words-batch-07-final-validation-001.json).
+
+This is qualified source-content progress only. Tag/random fallback options, voice, drawing, learner, device,
+media, release, ordinary activation and full-translation approval are not implied.
+
+## Previous published source milestone: batch166 thirty words (general word queue)
 
 Batch166 adds 30 Russian word articles: 余裕 冷静 平ら 穏やか 管理 仕舞い しまう 済ませる 終える 得る 収める 支払う 支給
 供給 配達 計算 勘定 会計 費用 価格 値 料金 代金 支払 納める 治める 安定 もこもこ ぼんやり ふかふか. They are chunk 0

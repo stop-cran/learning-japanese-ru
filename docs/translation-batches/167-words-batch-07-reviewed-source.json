@@ -1,0 +1,186 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "167-words-batch-07",
+ "publishedBaseline": "75a3c17",
+ "qualifiedVerdicts": {
+  "content": "Review 001 at 1d2c5b6: correctness, scoped coverage and comprehensibility CLEAN on all 30 words and the 22 navigation-only edits; the author's Russian-specific notes (浮く/泳ぐ and the two senses of плавать, 現す with を vs intransitive появиться, 灯 огни города vs 火, 利口 умница, 似合う идти/к лицу, 貧しい vs бедный ты мой!, 平気でうそをつく не моргнув глазом) accepted; quiz safety NEEDS FIX (four minor pairs: 安易-楽, 単純-易しい, 似合う-いい, ぐにゃぐにゃ-べちゃべちゃ). Recheck 001 at fa12b59: all four resolved; optional 浮く wording applied; no regressions; all four facets CLEAN.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Title/stem screen hand-checked; author guards for the dense soft/float/show/light/calm/suit/easy/poor clusters (ぷにぷに-ソフト, 浮く-泳ぐ, 想像-予想, 現す-現れる, 表す-表現/申し上げる/現れ, しっとり-静か, 明かり-電気/電灯, 灯-火, 適する-いい/適当, 似合う-合う, 粗末-悪い, 安易-軽い, 佚-休む) accepted by review; titles of 現す and 楽 changed by the author to clear exact segment overlaps with 見つける and 都合; review fixes added 安易-楽, 単純-易しい, 似合う-いい and ぐにゃぐにゃ-べちゃべちゃ."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/167-words-batch-07-intake.json",
+  "docs/translation-batches/167-words-batch-07-independent-review-001.md",
+  "docs/translation-batches/167-words-batch-07-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "佚",
+   "灯",
+   "粗",
+   "純",
+   "軟"
+  ],
+  "navigationNote": "Only link brackets added at EN link positions for batch words: kanji/像 -> 想像, kanji/易 -> 安易, kanji/泳 -> 浮く, kanji/浮 -> 浮く/浮かぶ/浮かべる, kanji/示 -> 示す, kanji/貧 -> 貧しい, words/からから ぐっしょり びしょびしょ べちゃべちゃ -> しっとり, words/ぐしゃぐしゃ -> ぐにゃぐにゃ, words/ふかふか -> ふわふわ/ほくほく, words/ぷくぷく -> ぷにぷに, words/もこもこ -> ふわふわ, words/快適 and 苦しい -> 楽, words/易しい -> 容易, words/柔らかい -> 軟らかい, words/沈む and 泳ぐ -> 浮く, words/治める -> 落ち着く, words/現れる -> 表す.",
+  "navigationOnlyEdits": [
+   "kanji/像.md",
+   "kanji/易.md",
+   "kanji/泳.md",
+   "kanji/浮.md",
+   "kanji/示.md",
+   "kanji/貧.md",
+   "words/からから.md",
+   "words/ぐしゃぐしゃ.md",
+   "words/ぐっしょり.md",
+   "words/びしょびしょ.md",
+   "words/ふかふか.md",
+   "words/ぷくぷく.md",
+   "words/べちゃべちゃ.md",
+   "words/もこもこ.md",
+   "words/快適.md",
+   "words/易しい.md",
+   "words/柔らかい.md",
+   "words/沈む.md",
+   "words/治める.md",
+   "words/泳ぐ.md",
+   "words/現れる.md",
+   "words/苦しい.md"
+  ],
+  "newWords": [
+   "ぷにぷに",
+   "ぐにゃぐにゃ",
+   "浮く",
+   "想像",
+   "示す",
+   "現す",
+   "表す",
+   "浮かべる",
+   "浮かぶ",
+   "ふわふわ",
+   "ほくほく",
+   "しっとり",
+   "明かり",
+   "灯",
+   "もちもち",
+   "軟らかい",
+   "利口",
+   "そっと",
+   "おとなしい",
+   "適する",
+   "似合う",
+   "落ち着く",
+   "平気",
+   "容易",
+   "楽",
+   "単純",
+   "貧しい",
+   "粗末",
+   "安易",
+   "佚"
+  ],
+  "selection": "Chunk 0 of 112 of the general remaining-word queue (word_schedule.py 30 --all over the full remaining word closure of 3,357 EN words); the chunk is closed under quiz_exclusions, so every EN exclusion target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to targets absent from RU (words ごつごつ かちかち がちがち 隠す ほかほか ぱさぱさ じめじめ 賢い 鋭い こそこそ ひそひそ あわてる 豊か 慎重; kanji 灯 軟 純; onomatopoeia articles) are plain labels until those files exist.",
+  "wordOnlyImageOmissions": [
+   "ぐにゃぐにゃ",
+   "ふわふわ"
+  ]
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "そっと-静か left unguarded (different parts of speech, no EN pair); 単純 title qualifier «по устройству» kept to stay distinct from 簡単"
+  ],
+  "exclusionsAddedBeyondEn": {
+   "ぐにゃぐにゃ": [
+    "べちゃべちゃ"
+   ],
+   "しっとり": [
+    "静か"
+   ],
+   "ぷにぷに": [
+    "ソフト"
+   ],
+   "似合う": [
+    "合う",
+    "いい"
+   ],
+   "佚": [
+    "休む"
+   ],
+   "単純": [
+    "易しい"
+   ],
+   "安易": [
+    "軽い",
+    "楽"
+   ],
+   "想像": [
+    "予想"
+   ],
+   "明かり": [
+    "電気",
+    "電灯"
+   ],
+   "浮く": [
+    "泳ぐ"
+   ],
+   "灯": [
+    "火"
+   ],
+   "現す": [
+    "現れる"
+   ],
+   "粗末": [
+    "悪い"
+   ],
+   "表す": [
+    "表現",
+    "申し上げる",
+    "現れ"
+   ],
+   "適する": [
+    "いい",
+    "適当"
+   ]
+  },
+  "titles": {
+   "おとなしい": "тихий; смирный; послушный",
+   "ぐにゃぐにゃ": "легко гнущийся; размякший",
+   "しっとり": "приятно влажный; спокойный и сдержанный",
+   "そっと": "тихонько; бережно",
+   "ふわふわ": "воздушный; плавно парящий",
+   "ぷにぷに": "мягонький и упругий",
+   "ほくほく": "рассыпчатый (о картофеле, тыкве)",
+   "もちもち": "упругий и тягучий",
+   "似合う": "идти (об одежде); быть к лицу",
+   "佚": "отдых; непринуждённость",
+   "利口": "умный; рассудительный; послушный",
+   "単純": "простой по устройству; наивный",
+   "安易": "лёгкий; необдуманный",
+   "容易": "нетрудный; легко выполнимый",
+   "平気": "невозмутимый; в порядке",
+   "想像": "воображение; предположение",
+   "明かり": "свет; светильник",
+   "楽": "лёгкость; комфорт",
+   "浮かぶ": "всплывать; приходить в голову",
+   "浮かべる": "пускать на воду; представлять себе",
+   "浮く": "держаться на поверхности; не тонуть",
+   "灯": "свет лампы; огонёк",
+   "現す": "раскрывать; показывать (скрытое)",
+   "示す": "показывать; указывать",
+   "粗末": "грубо сделанный; небрежный",
+   "落ち着く": "успокаиваться; обустраиваться",
+   "表す": "выражать; обозначать",
+   "貧しい": "бедный; нуждающийся",
+   "軟らかい": "мягкий; податливый",
+   "適する": "подходить (для чего-л.); годиться"
+  }
+ }
+}
