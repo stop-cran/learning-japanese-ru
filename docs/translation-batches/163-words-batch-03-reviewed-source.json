@@ -1,0 +1,209 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "163-words-batch-03",
+ "publishedBaseline": "5e75ded",
+ "qualifiedVerdicts": {
+  "content": "Review 001 at 2c11a0d: correctness CLEAN and scoped coverage CLEAN on all 35 words and 23 navigation-only edits; F1-F2 low quiz-safety guards (伸びる-増える, 愉快-明るい) and F3 low comprehensibility (瀬戸物 literal-reading gloss «порога» misread as a door threshold). Recheck 001 at 7839a2f: F1-F3 resolved; optional polish (担ぐ 神輿 «святилище», 患者 example 1, 瀬戸物 茶碗 «пиала», EN-position 拝見 link in kanji/拝) applied and resolved; no regressions; all four facets CLEAN.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Remaining word_title_screen overlaps hand-checked as different-sense stem collisions (человек, место, скромн-, погод-, прост-, обратный путь vs туда и обратно); no EN exclusion dropped; 延期-延長 left unguarded by design (the cards teach the contrast)."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/163-words-batch-03-intake.json",
+  "docs/translation-batches/163-words-batch-03-independent-review-001.md",
+  "docs/translation-batches/163-words-batch-03-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "井",
+   "器",
+   "往",
+   "愉",
+   "憧",
+   "敬",
+   "棚",
+   "瀬"
+  ],
+  "navigationNote": "Only link brackets added at EN link positions for batch words (plus the EN-position 拝見 link in kanji/拝, a pre-existing gap noted by the review).",
+  "navigationOnlyEdits": [
+   "kanji/令.md",
+   "kanji/伸.md",
+   "kanji/尊.md",
+   "kanji/延.md",
+   "kanji/弱.md",
+   "kanji/律.md",
+   "kanji/復.md",
+   "kanji/快.md",
+   "kanji/恋.md",
+   "kanji/患.md",
+   "kanji/悩.md",
+   "kanji/戸.md",
+   "kanji/承.md",
+   "kanji/担.md",
+   "kanji/拝.md",
+   "words/しょんぼり.md",
+   "words/依頼.md",
+   "words/失望.md",
+   "words/感心.md",
+   "words/拡大.md",
+   "words/機械.md",
+   "words/注文.md",
+   "words/見送り.md"
+  ],
+  "newWords": [
+   "愛情",
+   "愛する",
+   "愉快",
+   "悩む",
+   "患者",
+   "恋人",
+   "快適",
+   "延期",
+   "広がる",
+   "尊重",
+   "尊敬",
+   "回復",
+   "命令",
+   "命じる",
+   "受け取る",
+   "便り",
+   "伸びる",
+   "伸ばす",
+   "がっかり",
+   "器具",
+   "食器",
+   "規律",
+   "瀬戸物",
+   "拝む",
+   "担ぐ",
+   "承る",
+   "戸棚",
+   "憧れる",
+   "恋しい",
+   "快晴",
+   "往復",
+   "弱点",
+   "延長",
+   "失恋",
+   "井戸"
+  ],
+  "selection": "Final chunk of the B160 example-word closure (the 35 words remaining after batches 161-162); every EN quiz_exclusions target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to targets absent from RU (words 感情, 楽, 中止, 無視, 敬意, 改善, 従う, 知らせ, 片道, 緯度; kanji 敬; onomatopoeia guides) are plain labels until those files exist.",
+  "wordOnlyImageOmissions": [
+   "がっかり"
+  ]
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "延期-延長 guard not added (watch-only; the cards deliberately teach the postponement/extension contrast)"
+  ],
+  "exclusionsAddedBeyondEn": {
+   "がっかり": [
+    "沈む"
+   ],
+   "伸びる": [
+    "成長",
+    "増える"
+   ],
+   "受け取る": [
+    "いただく",
+    "頂戴"
+   ],
+   "回復": [
+    "治る"
+   ],
+   "尊敬": [
+    "感心"
+   ],
+   "広がる": [
+    "拡大"
+   ],
+   "往復": [
+    "切符"
+   ],
+   "快適": [
+    "楽しい",
+    "便利"
+   ],
+   "恋しい": [
+    "寂しい"
+   ],
+   "恋人": [
+    "彼女"
+   ],
+   "悩む": [
+    "かまう",
+    "騒ぐ"
+   ],
+   "愉快": [
+    "おかしい",
+    "明るい"
+   ],
+   "愛する": [
+    "好き"
+   ],
+   "愛情": [
+    "愛",
+    "愛する",
+    "好き"
+   ],
+   "憧れる": [
+    "夢"
+   ],
+   "戸棚": [
+    "本棚"
+   ],
+   "拝む": [
+    "求める"
+   ],
+   "食器": [
+    "箸"
+   ]
+  },
+  "titles": {
+   "がっかり": "разочароваться; разочарованно",
+   "井戸": "колодец",
+   "伸ばす": "вытягивать; удлинять; отращивать",
+   "伸びる": "удлиняться; расти; улучшаться",
+   "便り": "весточка; письмо (от кого-либо)",
+   "受け取る": "получать; воспринимать (как)",
+   "命じる": "приказывать; назначать (на должность)",
+   "命令": "приказ; команда",
+   "器具": "инструмент; прибор; утварь",
+   "回復": "восстановление; выздоровление",
+   "失恋": "несчастная любовь; разбитое сердце",
+   "尊敬": "уважение; почтение (к человеку)",
+   "尊重": "уважение (к мнению, правам); учёт",
+   "広がる": "распространяться; простираться",
+   "延期": "перенос на более поздний срок; отсрочка",
+   "延長": "продление; удлинение",
+   "弱点": "слабое место; уязвимость",
+   "往復": "туда и обратно; билет туда и обратно",
+   "快晴": "безоблачная погода; ясное небо",
+   "快適": "комфортный; приятный (об условиях)",
+   "恋しい": "скучать по (кому-либо, чему-либо)",
+   "恋人": "возлюбленный; парень или девушка",
+   "患者": "пациент",
+   "悩む": "переживать; мучиться (проблемой, выбором)",
+   "愉快": "весёлый; забавный",
+   "愛する": "любить",
+   "愛情": "чувство любви; нежная привязанность",
+   "憧れる": "мечтать (о чём-либо); восхищаться (кем-либо)",
+   "戸棚": "шкаф с дверцами; буфет",
+   "承る": "скромно выслушивать; принимать (заказ)",
+   "担ぐ": "нести на плече; выдвигать (кандидатом)",
+   "拝む": "молитвенно кланяться; умолять",
+   "瀬戸物": "керамические изделия; фарфоровая посуда",
+   "規律": "дисциплина; правила поведения",
+   "食器": "столовая посуда"
+  }
+ }
+}

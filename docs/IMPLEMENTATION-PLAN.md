@@ -8,14 +8,23 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch162 thirty words
+## Current published source milestone: batch163 thirty-five words
+
+Batch163 added 35 Russian word articles, the final dependency-closed chunk of the quiz-exclusion closure of
+Batch160's plain-text example words, plus navigation-only link wraps in 23 existing pages. The independent review
+found two low quiz-safety gaps and one low comprehensibility defect; all were fixed and resolved in the recheck.
+Progress: **3,039 reviewed-current / 8 runtime-blocked / 5,231 pending of 8,278**; 1,573 words / 718 kanji /
+718 strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch163-thirty-five-words-final-b160-example-word-closure-batch).
+
+## Previous published source milestone: batch162 thirty words
 
 Batch162 added 30 Russian word articles, the second dependency-closed chunk of the quiz-exclusion closure of
 Batch160's plain-text example words, plus navigation-only link wraps in 8 existing pages. The independent review
 found one minor correctness defect and five minor quiz-safety gaps; all were fixed and resolved in the recheck.
 Progress: **3,004 reviewed-current / 8 runtime-blocked / 5,266 pending of 8,278**; 1,538 words / 718 kanji /
 718 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch162-thirty-words-second-b160-example-word-closure-batch).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch162-thirty-words-second-b160-example-word-closure-batch).
 
 ## Previous published source milestone: batch161 thirty words
 
