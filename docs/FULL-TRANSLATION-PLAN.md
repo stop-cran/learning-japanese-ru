@@ -1,6 +1,30 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch170 thirty words (general word queue)
+## Current published source milestone: batch171 thirty words (general word queue)
+
+Batch171 adds 30 Russian word articles: 現在 目下 雛 雑草 隼 隻 鉱石 酉 週末 連休 迷う 辰 諸島 蝶 蛍 カーブ 蛇行 蛇 蚕
+植物 植木 グラス 模様 柄 形式 癖 傾向 筋肉 筋 棒.
+They are chunk 0 of 109 of the general remaining-word queue (recomputed after Batch170: closure of 3,267 EN words),
+so every EN quiz_exclusions target resolves to an existing RU word or a batch word. Nine existing pages
+(kanji/傾 式 形 末 草 迷 連 雑 and words/生き物) receive 23 navigation-only link wraps at EN link positions, with per-file
+link counts matching EN. Kanji without RU cards (島 柄 棒 植 模 癖 筋 蚕 蛇 蛍 蝶 諸 辰 酉 鉱 隻 隼 雛) stay plain text.
+
+The batch covers time and rank (現在, 目下 read めした), weekends and holidays, getting lost, birds, insects and zodiac
+signs, plants, patterns and tendencies, and muscles, lines and sticks. Russian titles that share «выходные» or
+«выходной» (週末, 連休, 休み, 休日) receive direct guards; the English-only note on "plant" as a factory was dropped and
+the stick/rod/pole note recast as палка/стержень/шест. The independent read-only review found correctness, scoped
+coverage and comprehensibility clean and one quiz-safety gap (蚕 vs 蝶: Russian «бабочка» also covers moths, including
+the silkworm imago). It was fixed together with optional polish in 傾向, 蝶, 蛍, 目下 and the 蛇行 title; the recheck
+resolved every finding with no regressions and all four facets clean.
+
+Qualified progress is **3,249 reviewed-current / 8 reviewed runtime-blocked / 5,021 pending of 8,278**,
+with 1,783 words, 718 kanji and 718 strokes. See the [intake](translation-batches/171-words-batch-10-intake.json),
+[independent review](translation-batches/171-words-batch-10-independent-review-001.md),
+[recheck](translation-batches/171-words-batch-10-recheck-001.md),
+[qualified source record](translation-batches/171-words-batch-10-reviewed-source.json) and
+[final validation](translation-batches/171-words-batch-10-final-validation-001.json).
+
+## Previous published source milestone: batch170 thirty words (general word queue)
 
 Batch170 adds 30 Russian word articles: ほぼ くらい ころ だけ ばかり 一応 おおざっぱ どたどた 次々 ばたばた 混乱
 あわてる そそっかしい のんき 鷹揚 鶴 鴻 鴻鵠 麒麟 鷹 鶏 鵬 鳳凰 鳩 鯨 鯛 鯉 鮎 非常口 後輩.
