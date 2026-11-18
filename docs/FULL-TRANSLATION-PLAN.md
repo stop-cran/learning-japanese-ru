@@ -1,6 +1,31 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch172 thirty words (general word queue)
+## Current published source milestone: batch173 thirty words (general word queue)
+
+Batch173 adds 30 Russian word articles: 退屈 くだらない 紙屑 残り 屑 芋 ボート ヨット 典型 例 出来事 事件 ケース 舟 自宅
+知恵 知能 感情 胸 腹 脳 育苗 翌日 繭 合計 提案 案 プラン 計 金額.
+They are chunk 0 of 107 of the general remaining-word queue (recomputed after Batch172: closure of 3,207 EN words),
+so every EN quiz_exclusions target resolves to an existing RU word or a batch word. Thirteen existing pages
+(kanji/件 例 型 宅 情 感 腹; words/おなか 愛情 船 苗 蚕 隻) receive 26 navigation-only link wraps at EN link positions,
+with per-file link counts matching EN. Kanji without RU cards (典 屈 屑 恵 提 案 繭 翌 胸 脳 舟 芋 苗 額) stay plain text.
+
+The batch covers boredom and worthlessness, waste and remainders, tubers, boats, typical examples and cases, events
+and incidents, home, wisdom, intelligence, emotions and the mind, chest and belly, seedlings and cocoons, the next
+day, totals and amounts of money, and proposals and plans. Russian titles that share «сумма», «план», «случай», «дом»
+or «образец» receive direct guards; English-only notes ("case", "boat/ship/yacht", "plan/proposal/package",
+"mind/brain") were recast in Russian terms. The independent read-only review found scoped coverage clean, one
+correctness issue (自宅 «собственное жильё» implied ownership), one register issue (腹 «брюхо») and four quiz-safety
+gaps (残り–続き, 典型–型, プラン–料金, ケース–出来事). They were fixed together with optional polish (a 計–器具 guard and
+提案, 知恵 and 出来事 wording). Recheck 001 resolved all of them with no regressions and found all four facets clean.
+
+Qualified progress is **3,309 reviewed-current / 8 reviewed runtime-blocked / 4,961 pending of 8,278**,
+with 1,843 words, 718 kanji and 718 strokes. See the [intake](translation-batches/173-words-batch-12-intake.json),
+[independent review](translation-batches/173-words-batch-12-independent-review-001.md),
+[recheck](translation-batches/173-words-batch-12-recheck-001.md),
+[qualified source record](translation-batches/173-words-batch-12-reviewed-source.json) and
+[final validation](translation-batches/173-words-batch-12-final-validation-001.json).
+
+## Previous published source milestone: batch172 thirty words (general word queue)
 
 Batch172 adds 30 Russian word articles: 縞 一種 パターン 独特 特徴 雰囲気 大気 カラー 紐 綱 菊 戦う 戦い 反抗 抵抗 暴れる
 狂う 渋滞 混雑 荒れる 茉莉花 田 畑 耕地 田んぼ 苗代 芽 稲 苗 無駄.
