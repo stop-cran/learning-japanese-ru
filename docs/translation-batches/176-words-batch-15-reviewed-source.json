@@ -1,0 +1,170 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "176-words-batch-15",
+ "publishedBaseline": "adbec43",
+ "qualifiedVerdicts": {
+  "content": "Review 001 at 4abbf09: correctness NEEDS FIX (F4 栗 Russian-only horse-chestnut note called トチノキ seeds inedible and omitted マロニエ; F5 豊か sentence could read as 豊か never meaning wealthy, contradicting its own title); scoped coverage CLEAN; comprehensibility CLEAN; quiz safety NEEDS FIX (F1 支える-賛成 via «поддерживать/поддержка», する-noun action sense; F2 暮れ-端 via bare «конец»; F3 トップ-いちばん via «первое место»). Optional: 冊子 «на ресепшене». Recheck 001 at 2ed9172: all five findings resolved (F1-F3 guards present and screened against the whole RU pool; F4 栗 sentence factually accurate; F5 豊か wording consistent with its title); correctness, scoped coverage, comprehensibility and quiz safety CLEAN; no regressions.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Title/stem screen hand-checked; author guards beyond EN added 暮れ-夕方/暮れる/終わり/最後/仕舞い, 端-終わり/最後/仕舞い, 末-とうとう, 尻-後ろ, 書物-図書, 茶-お茶, 茶色い-茶色, 豊か-金持ち, 栄える-発展, 支える-持つ/助ける; the review fixes added 支える-賛成, 暮れ-端 and トップ-いちばん. 椋 keeps its Japanese name «муку (дерево)» because Aphananthe aspera has no stable Russian common name."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/176-words-batch-15-intake.json",
+  "docs/translation-batches/176-words-batch-15-independent-review-001.md",
+  "docs/translation-batches/176-words-batch-15-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "椋",
+   "梨",
+   "縁",
+   "端",
+   "底",
+   "尻",
+   "梢",
+   "梓",
+   "桑",
+   "桐",
+   "桂",
+   "栞",
+   "栗",
+   "豊",
+   "栄",
+   "柳"
+  ],
+  "navigationNote": "Only link brackets added at EN link positions for batch words (10 links in 6 files; per-file link counts match EN): kanji/冊 -> 冊子, kanji/助 -> 助ける (3), kanji/頂 -> 頂上 (3), words/榛 -> 栗, words/蚕 -> 桑, words/貧しい -> 豊か.",
+  "navigationOnlyEdits": [
+   "kanji/冊.md",
+   "kanji/助.md",
+   "kanji/頂.md",
+   "words/榛.md",
+   "words/蚕.md",
+   "words/貧しい.md"
+  ],
+  "newWords": [
+   "椋",
+   "梨",
+   "縁",
+   "端",
+   "暮れ",
+   "末",
+   "底",
+   "尻",
+   "しっぽ",
+   "頂上",
+   "トップ",
+   "先端",
+   "梢",
+   "梓",
+   "桑",
+   "桐",
+   "桂",
+   "書物",
+   "図書",
+   "冊子",
+   "栞",
+   "茶",
+   "茶色い",
+   "栗",
+   "豊富",
+   "豊か",
+   "栄える",
+   "柳",
+   "支える",
+   "助ける"
+  ],
+  "selection": "Chunk 0 of 104 of the general remaining-word queue (word_schedule.py 30 --all over the full remaining word closure of 3,117 EN words, recomputed after Batch175); the chunk is closed under quiz_exclusions, so every EN exclusion target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to targets absent from RU (words 無し 境 表面 腰 印刷 出版 杉 書類 不足 たっぷり 川柳 援助; kanji 椋 梨 底 梢 梓 桑 桐 桂 栞 栗 豊 栄 柳) are plain labels until those files exist; kanji 縁 端 尻 also lack RU cards and are not linked from these EN articles.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "冊子 «на ресепшене»/«в регистратуре» not adopted: «на стойке регистрации» matches the RU 受付 title «приём; стойка регистрации» and its existing examples",
+   "梢-木, 豊富/豊か-富, 豊富-多い, 暮れ-晩 guards not added: part vs whole tree, noun vs adjective, many vs abundant, and dusk (not evening) keep the Russian answers distinct; EN has no pairs"
+  ],
+  "exclusionsAddedBeyondEn": {
+   "トップ": [
+    "いちばん"
+   ],
+   "尻": [
+    "後ろ"
+   ],
+   "支える": [
+    "持つ",
+    "助ける",
+    "賛成"
+   ],
+   "暮れ": [
+    "夕方",
+    "暮れる",
+    "終わり",
+    "最後",
+    "仕舞い",
+    "端"
+   ],
+   "書物": [
+    "図書"
+   ],
+   "末": [
+    "とうとう"
+   ],
+   "栄える": [
+    "発展"
+   ],
+   "端": [
+    "終わり",
+    "最後",
+    "仕舞い"
+   ],
+   "茶": [
+    "お茶"
+   ],
+   "茶色い": [
+    "茶色"
+   ],
+   "豊か": [
+    "金持ち"
+   ]
+  },
+  "titles": {
+   "しっぽ": "хвост",
+   "トップ": "верх; лидирующая позиция",
+   "先端": "кончик; передний край",
+   "冊子": "брошюра; буклет",
+   "助ける": "помогать; спасать",
+   "図書": "книги; книжный фонд",
+   "尻": "ягодицы; зад",
+   "底": "дно; подошва",
+   "支える": "поддерживать; подпирать",
+   "暮れ": "сумерки; конец года",
+   "書物": "книга (письменный труд)",
+   "末": "конец; в итоге",
+   "柳": "ива",
+   "栄える": "процветать",
+   "栗": "каштан (съедобный)",
+   "栞": "закладка; памятка",
+   "桂": "багрянник японский; кацура",
+   "桐": "павловния",
+   "桑": "шелковица; тутовое дерево",
+   "梓": "адзуса (дерево)",
+   "梢": "верхушка дерева; кончик ветки",
+   "梨": "груша; грушевое дерево",
+   "椋": "муку (дерево)",
+   "端": "край; конец; кончик",
+   "縁": "край; кромка",
+   "茶": "чай (напиток, растение)",
+   "茶色い": "коричневый",
+   "豊か": "богатый; обильный; зажиточный",
+   "豊富": "обильный; богатый (чем-либо)",
+   "頂上": "вершина"
+  }
+ }
+}
