@@ -1,6 +1,32 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch171 thirty words (general word queue)
+## Current published source milestone: batch172 thirty words (general word queue)
+
+Batch172 adds 30 Russian word articles: 縞 一種 パターン 独特 特徴 雰囲気 大気 カラー 紐 綱 菊 戦う 戦い 反抗 抵抗 暴れる
+狂う 渋滞 混雑 荒れる 茉莉花 田 畑 耕地 田んぼ 苗代 芽 稲 苗 無駄.
+They are chunk 0 of 108 of the general remaining-word queue (recomputed after Batch171: closure of 3,237 EN words),
+so every EN quiz_exclusions target resolves to an existing RU word or a batch word. Five existing pages
+(words/コード 欠点 混乱 色 荒い) receive 5 navigation-only link wraps at EN link positions, with per-file link counts
+matching EN. Kanji without RU cards (徴 抗 抵 暴 混 渋 滞 無 狂 独 畑 稲 紐 綱 縞 耕 芽 苗 茉 荒 莉 菊 雰 駄) stay plain text.
+
+The batch covers stripes, kinds and patterns, distinctive features, atmosphere, colour, cords and ropes, fighting and
+resistance, rampaging and going wrong, traffic jams and crowds, rough weather, jasmine and chrysanthemums, fields and
+rice farming, and waste. Russian titles that share «атмосфера», «поле», «рис», «верёвка» or «тип» receive direct
+guards; English-only notes (the "bar" gloss of 縞, jasmine as чубушник, nursery and rice senses) were recast in
+Russian terms. The independent read-only review found correctness and scoped coverage clean, five minor
+comprehensibility issues (独特, 縞, 混雑, 大気) and one quiz-safety gap (雰囲気 vs 模様 via «обстановка»). They were
+fixed with optional example polish and an owner-added 一種–型 guard. Recheck 001 resolved them and raised a 混雑–込む
+guard (混雑 is a する-noun) and stray generated `tools/__pycache__` files, both fixed; recheck 002 found all four
+facets clean.
+
+Qualified progress is **3,279 reviewed-current / 8 reviewed runtime-blocked / 4,991 pending of 8,278**,
+with 1,813 words, 718 kanji and 718 strokes. See the [intake](translation-batches/172-words-batch-11-intake.json),
+[independent review](translation-batches/172-words-batch-11-independent-review-001.md),
+[recheck](translation-batches/172-words-batch-11-recheck-001.md),
+[qualified source record](translation-batches/172-words-batch-11-reviewed-source.json) and
+[final validation](translation-batches/172-words-batch-11-final-validation-001.json).
+
+## Previous published source milestone: batch171 thirty words (general word queue)
 
 Batch171 adds 30 Russian word articles: 現在 目下 雛 雑草 隼 隻 鉱石 酉 週末 連休 迷う 辰 諸島 蝶 蛍 カーブ 蛇行 蛇 蚕
 植物 植木 グラス 模様 柄 形式 癖 傾向 筋肉 筋 棒.
