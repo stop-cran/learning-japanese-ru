@@ -1,0 +1,236 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "184-words-batch-23",
+ "publishedBaseline": "102ccc2",
+ "qualifiedVerdicts": {
+  "content": "Review 001 at d91f970: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; quiz safety NEEDS FIX (Q1 ごぼごぼ «булькать; клокотать (о жидкости)» lacked a guard against 沸く «кипеть; нагреваться», since «клокотать» is glossed «бурлить, кипеть» and ぐつぐつ/ぶくぶく/ことこと already guard 沸く; Q2 the author-added ちびちび guards on ぐびぐび and ごくごく were over-guards, as ちびちび is the opposite and the articles present it as the contrast). Optional suggestions: きりきり title «режущая» vs. the body and EN \"gripping\" (adopted: «острая, сжимающая боль; скрежет», with the first example translation «У меня острая, сжимающая боль в желудке.»); じゅうじゅう «(на сковороде)» narrower than EN \"on a hot surface\" (adopted: «шкворчать (при жарке)»); ぐびぐび «громкими» (declined, see declinedOptional). Fix commit 8647411: ごぼごぼ-沸く guard added; ちびちび removed from ぐびぐび and ごくごく; きりきり and じゅうじゅう retitled. Recheck 001 at 8647411: Q1, Q2 and the two adopted optional items resolved, ぐびぐび kept optional; the re-screened overlaps ごぼごぼ-沸かす, じゅうじゅう-焼く and the new «сжимающая»/«туго сжимать» wording were judged not to be new risks; manifest consistent. It raised Q3 (low, medium confidence; pre-existing at d91f970, missed in Review 001): きりきり and ぎゅうぎゅう share the JMdict tight-binding sense taught in the きりきり body as «тугое затягивание», so ぎゅうぎゅう «битком набитый; туго сжимать» could pass as an answer for きりきり; quiz safety NEEDS FIX. Fix commit bbdbe01: きりきり-ぎゅうぎゅう guard added. Recheck 2 at bbdbe01: Q3 resolved with no regressions (one exclusion line plus the manifest; the きりきり hash and content version reproduce); Q1-Q3 and the two adopted optional items resolved, ぐびぐび optional; correctness, scoped coverage, comprehensibility and quiz safety CLEAN.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Title/stem screen hand-checked; author guards beyond EN added じろじろ-見る, じりじり-暑い/そろそろ/遅い, じとじと-しっとり/ぬれる, じめじめ-暗い, ざあざあ-だらだら/ざぶざぶ, ごぼごぼ-ぽちゃん, ごしごし-磨く, ぐびぐび-飲む, がぶがぶ-飲む, ごくごく-飲む, 濃い-強い, こってり-厚い/太い, こけこっこー-鳴く/鶏 (following the animal-call cards that guard 鳴く), 咳-こんこん, ぐるぐる-回る, ぐらぐら-沸く, くんくん-鳴く, くるり-回る/向く, ぎゅうぎゅう-一杯/満ちる/あふれる and きりきり-苦痛/頭痛/しくしく/ずきずき/ひりひり/ちくちく; the review added ごぼごぼ-沸く (ごぼごぼ «булькать; клокотать (о жидкости)» vs. 沸く «кипеть; нагреваться», since «клокотать» is glossed «бурлить, кипеть», and ぐつぐつ/ぶくぶく/ことこと already guard 沸く) and removed the author-added ぐびぐび-ちびちび and ごくごく-ちびちび (opposites, not defensible answers, and the most instructive contrasting distractor; がぶがぶ never guarded it); Recheck 001 added きりきり-ぎゅうぎゅう (shared JMdict tight-binding sense, taught in the きりきり body as «тугое затягивание», against ぎゅうぎゅう «туго сжимать»). All pairs are one-sided direct pairs; no existing card was changed for guards. Every EN exclusion is retained; no batch word has EN quiz_distractors. Screen-driven title changes during authoring: じろじろ «назойливо разглядывать» (not «бесцеремонно», which overlapped ずけずけ), ごしごし «энергично тереть, оттирать» (not «с силой», which overlapped ぐいぐい), 濃い «насыщенный (о цвете, вкусе); концентрированный» (without «крепкий», which overlapped 強い/固い/丈夫/しっかり; the 強い guard is kept because «крепкий чай» remains the natural rendering in the body) and ぎゅうぎゅう «битком набитый; туго сжимать». After review きりきり was retitled «острая, сжимающая боль; скрежет» (EN \"sharp gripping pain\"; it was «режущая», inconsistent with the body) and じゅうじゅう «шкворчать (при жарке)» (EN \"sizzling on a hot surface\"; it was «(на сковороде)», narrower than the griddle example); the re-screen judged the stem overlaps ごぼごぼ-沸かす «кипятить» and じゅうじゅう-焼く «выпекать; жарить» not defensible answers."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/184-words-batch-23-intake.json",
+  "docs/translation-batches/184-words-batch-23-independent-review-001.md",
+  "docs/translation-batches/184-words-batch-23-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "濃"
+  ],
+  "navigationNote": "Only link brackets added at EN link positions for batch words (36 links in 32 word pages; per-file link counts to batch words match EN): words/あっさり -> こってり, words/いらいら -> くよくよ, words/がたがた -> ぐらぐら, words/くるくる -> ぐるぐる, words/ぐいぐい -> がぶがぶ, ごくごく, words/ぐっしょり -> じとじと, words/ぐつぐつ -> じゅうじゅう, words/げらげら -> くすくす, words/ことこと -> じゅうじゅう, words/ころころ -> ぐるぐる, words/さっぱり -> こってり, words/ざぶざぶ -> じゃぶじゃぶ, words/しっとり -> じめじめ, words/ずんずん -> じりじり, words/そっと -> こそこそ, words/ちびちび -> がぶがぶ, ごくごく, words/ちらちら -> じろじろ, words/にやにや -> くすくす, words/はあはあ -> げほげほ, words/ばしゃばしゃ -> じゃぶじゃぶ, words/ぱらぱら -> しとしと, words/ぱんぱん -> ぎゅうぎゅう, words/ひそひそ -> くすくす, こそこそ, words/びしょびしょ -> じとじと, words/びっくり -> ぎょっと, words/ぽちゃん -> じゃぶじゃぶ, words/ぽつぽつ -> ざあざあ, しとしと, words/ぽりぽり -> ごしごし, words/めそめそ -> くよくよ, words/もやもや -> くよくよ, words/ゆらゆら -> ぐらぐら, words/メーメー -> こけこっこー. 秘, 密 and 咳 have no kanji page in EN or RU, and 濃 has no RU kanji page yet, so no kanji page changes.",
+  "navigationOnlyEdits": [
+   "words/あっさり.md",
+   "words/いらいら.md",
+   "words/がたがた.md",
+   "words/くるくる.md",
+   "words/ぐいぐい.md",
+   "words/ぐっしょり.md",
+   "words/ぐつぐつ.md",
+   "words/げらげら.md",
+   "words/ことこと.md",
+   "words/ころころ.md",
+   "words/さっぱり.md",
+   "words/ざぶざぶ.md",
+   "words/しっとり.md",
+   "words/ずんずん.md",
+   "words/そっと.md",
+   "words/ちびちび.md",
+   "words/ちらちら.md",
+   "words/にやにや.md",
+   "words/はあはあ.md",
+   "words/ばしゃばしゃ.md",
+   "words/ぱらぱら.md",
+   "words/ぱんぱん.md",
+   "words/ひそひそ.md",
+   "words/びしょびしょ.md",
+   "words/びっくり.md",
+   "words/ぽちゃん.md",
+   "words/ぽつぽつ.md",
+   "words/ぽりぽり.md",
+   "words/めそめそ.md",
+   "words/もやもや.md",
+   "words/ゆらゆら.md",
+   "words/メーメー.md"
+  ],
+  "newWords": [
+   "じっと",
+   "じろじろ",
+   "じゅうじゅう",
+   "じりじり",
+   "じゃぶじゃぶ",
+   "じとじと",
+   "じめじめ",
+   "しとしと",
+   "ざあざあ",
+   "ごぼごぼ",
+   "ごしごし",
+   "ぐびぐび",
+   "がぶがぶ",
+   "ごくごく",
+   "濃い",
+   "こってり",
+   "秘密",
+   "こそこそ",
+   "こけこっこー",
+   "咳",
+   "げほげほ",
+   "ぐるぐる",
+   "ぐらぐら",
+   "くんくん",
+   "くるり",
+   "くよくよ",
+   "くすくす",
+   "ぎょっと",
+   "ぎゅうぎゅう",
+   "きりきり"
+  ],
+  "selection": "Chunk 0 of 96 of the general remaining-word queue (word_schedule.py 30 --all over the full remaining word closure of 2,877 EN words, recomputed after Batch183); the chunk is closed under quiz_exclusions with no closure additions, so every EN exclusion target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to words absent from RU (かあかあ きょろきょろ しゃべる) and to the pending kanji 濃 are plain labels until those files exist; links to the onomatopoeia articles (japanese-onomatopoeia, onomatopoeia-body-and-feelings, -eating-and-drinking, -motion-and-sound, -sound-and-movement, -sound-patterns, -texture-and-warmth) are plain pointers. The optional image field of 21 onomatopoeic articles (all batch words except じっと じとじと じめじめ 濃い 秘密 こそこそ 咳 くよくよ くすくす) is omitted (word-only adaptation).",
+  "wordOnlyImageOmissions": [
+   "じろじろ",
+   "じゅうじゅう",
+   "じりじり",
+   "じゃぶじゃぶ",
+   "しとしと",
+   "ざあざあ",
+   "ごぼごぼ",
+   "ごしごし",
+   "ぐびぐび",
+   "がぶがぶ",
+   "ごくごく",
+   "こってり",
+   "こけこっこー",
+   "げほげほ",
+   "ぐるぐる",
+   "ぐらぐら",
+   "くんくん",
+   "くるり",
+   "ぎょっと",
+   "ぎゅうぎゅう",
+   "きりきり"
+  ]
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "Optional ぐびぐび retitle (the reviewer noted «громкими» slightly overstates EN \"audible\") declined: «пить с громкими глотками» is a fair rendering of \"drinking with audible gulps\" and matches both example translations. Author-judged borderline pairs left unguarded: くんくん-しくしく/吸う, ごしごし-洗う (ごしごし洗う is one collocation of a general verb), こってり-脂 and ごぼごぼ-沸かす."
+  ],
+  "exclusionsAddedBeyondEn": {
+   "がぶがぶ": [
+    "飲む"
+   ],
+   "きりきり": [
+    "苦痛",
+    "頭痛",
+    "しくしく",
+    "ずきずき",
+    "ひりひり",
+    "ちくちく",
+    "ぎゅうぎゅう"
+   ],
+   "ぎゅうぎゅう": [
+    "一杯",
+    "満ちる",
+    "あふれる"
+   ],
+   "くるり": [
+    "回る",
+    "向く"
+   ],
+   "くんくん": [
+    "鳴く"
+   ],
+   "ぐびぐび": [
+    "飲む"
+   ],
+   "ぐらぐら": [
+    "沸く"
+   ],
+   "ぐるぐる": [
+    "回る"
+   ],
+   "こけこっこー": [
+    "鳴く",
+    "鶏"
+   ],
+   "こってり": [
+    "厚い",
+    "太い"
+   ],
+   "ごくごく": [
+    "飲む"
+   ],
+   "ごしごし": [
+    "磨く"
+   ],
+   "ごぼごぼ": [
+    "ぽちゃん",
+    "沸く"
+   ],
+   "ざあざあ": [
+    "だらだら",
+    "ざぶざぶ"
+   ],
+   "じとじと": [
+    "しっとり",
+    "ぬれる"
+   ],
+   "じめじめ": [
+    "暗い"
+   ],
+   "じりじり": [
+    "暑い",
+    "そろそろ",
+    "遅い"
+   ],
+   "じろじろ": [
+    "見る"
+   ],
+   "咳": [
+    "こんこん"
+   ],
+   "濃い": [
+    "強い"
+   ]
+  },
+  "titles": {
+   "がぶがぶ": "жадно пить помногу",
+   "きりきり": "острая, сжимающая боль; скрежет",
+   "ぎゅうぎゅう": "битком набитый; туго сжимать",
+   "ぎょっと": "вздрогнуть от испуга; оторопеть",
+   "くすくす": "тихо хихикать; посмеиваться",
+   "くよくよ": "терзаться; изводить себя переживаниями",
+   "くるり": "быстро повернуться, обернуться",
+   "くんくん": "принюхиваться; поскуливать",
+   "ぐびぐび": "пить с громкими глотками",
+   "ぐらぐら": "шататься; неустойчивый",
+   "ぐるぐる": "кругами; обматывать витками",
+   "げほげほ": "надсадно кашлять",
+   "こけこっこー": "кукареку",
+   "こそこそ": "украдкой, тайком",
+   "こってり": "сытный и жирный (о еде); толстым слоем",
+   "ごくごく": "пить большими глотками",
+   "ごしごし": "энергично тереть, оттирать",
+   "ごぼごぼ": "булькать; клокотать (о жидкости)",
+   "ざあざあ": "лить как из ведра; шумно литься",
+   "しとしと": "тихо моросить (о дожде)",
+   "じっと": "неподвижно; пристально; терпеливо",
+   "じとじと": "липко-влажный; сырой",
+   "じめじめ": "сырой и душный; унылый",
+   "じゃぶじゃぶ": "плескаться в воде; с плеском",
+   "じゅうじゅう": "шкворчать (при жарке)",
+   "じりじり": "медленно, но верно; палящий; в нетерпении",
+   "じろじろ": "назойливо разглядывать",
+   "咳": "кашель",
+   "濃い": "насыщенный (о цвете, вкусе); концентрированный",
+   "秘密": "секрет; тайна"
+  }
+ }
+}
