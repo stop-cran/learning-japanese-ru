@@ -1,6 +1,34 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch184 thirty words (general word queue)
+## Current published source milestone: batch185 thirty words (general word queue)
+
+Batch185 adds 30 Russian word articles: きょろきょろ 制限 限る かぎり かあかあ 飽きる うんざり うとうと 空 黙る 黒板 魅力 鬼 髪の毛
+高速 高価 骨折 物音 騒音 騒ぎ 駐車 香り 首相 餌 飼う 飯 食糧 食料 食物 食欲. They are chunk 0 of 95 of the general
+remaining-word queue (recomputed after Batch184: closure of 2,847 EN words), so every EN quiz_exclusions target resolves
+to an existing RU word or a batch word. Ten existing word pages and the kanji pages 空 and 限 receive 16 navigation-only
+link wraps at EN link positions, with per-file link counts to batch words matching EN; 板, 毛, 骨, 駐 and 香 remain plain
+labels because those kanji are still pending in RU.
+
+The batch covers limits and restrictions (制限, 限る, かぎり), restless glancing, a crow's caw, boredom and dozing, the sky,
+falling silent, blackboards, charm, demons and the "it" of tag, hair, high speed and expensive things, fractures, noise
+and commotion, parking, fragrance, the prime minister, feed and keeping animals, and words for rice, food and provisions
+(飯, 食糧, 食料, 食物, 食欲). 空 is published byte-identical to its held batch-033 draft; its five Russian-only guards
+(天気, 気, 気分, 遠く, 遠い) were independently assessed as conservative: each has a dictionary basis, but ordinary-quiz
+necessity is not established, so that C2 qualification stays explicit rather than CLEAN. Other direct guards beyond EN
+cover pairs such as かぎり–制限/以内/内/できるだけ, 髪の毛–髪/毛, 骨折–折る, 騒ぎ–混乱/ばたばた, 駐車–駐車場, 飼う–持つ and the
+mutually distinct food titles. The optional image field of 3 onomatopoeic articles is omitted (word-only adaptation).
+The independent read-only review found correctness, scoped coverage and comprehensibility clean and three minor
+quiz-safety gaps: 高価 now guards 大切/大事 (shared «дорогой»), 食物 guards 食事 (Russian «еда» also means a meal) and
+駐車 guards 止める (the article teaches 車を止める). The recheck reported all four facets clean.
+
+Qualified progress is **3,669 reviewed-current / 8 reviewed runtime-blocked / 4,601 pending of 8,278**,
+with 2,203 words, 718 kanji and 718 strokes. See the [intake](translation-batches/185-words-batch-24-intake.json),
+[independent review](translation-batches/185-words-batch-24-independent-review-001.md),
+[recheck](translation-batches/185-words-batch-24-recheck-001.md),
+[qualified source record](translation-batches/185-words-batch-24-reviewed-source.json) and
+[final validation](translation-batches/185-words-batch-24-final-validation-001.json).
+
+## Previous published source milestone: batch184 thirty words (general word queue)
 
 Batch184 adds 30 Russian word articles: じっと じろじろ じゅうじゅう じりじり じゃぶじゃぶ じとじと じめじめ しとしと ざあざあ ごぼごぼ
 ごしごし ぐびぐび がぶがぶ ごくごく 濃い こってり 秘密 こそこそ こけこっこー 咳 げほげほ ぐるぐる ぐらぐら くんくん くるり くよくよ
