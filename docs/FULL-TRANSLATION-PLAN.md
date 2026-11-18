@@ -1,6 +1,35 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch179 thirty words (general word queue)
+## Current published source milestone: batch180 thirty words (general word queue)
+
+Batch180 adds 30 Russian word articles: 少しも 全く 明確 明らか はあ さっぱり すっきり ほっと あっさり きっぱり はきはき
+きびきび せっせと 破る がちがち かちかち ばりばり 活気 ぴんぴん もりもり ぺろり ぺろぺろ ぱくぱく むしゃむしゃ もぐもぐ
+ぽつぽつ ぐつぐつ 備える こしらえる 家事.
+They are chunk 0 of 100 of the general remaining-word queue (recomputed after Batch179: closure of 2,997 EN words),
+so every EN quiz_exclusions target resolves to an existing RU word or a batch word. Seventeen existing pages
+(kanji/備 破; words/かたかた ぐずぐず ぐったり ぐにゃぐにゃ ことこと しっかり ばきばき ぱちぱち びくびく ぶくぶく へとへと
+ぼそぼそ むかむか もやもや 約束) receive 22 navigation-only link wraps at EN link positions, with per-file link counts to
+batch words matching EN.
+
+The batch covers negative-polarity «not at all» adverbs, clarity and obviousness, the interjection はあ, tearing and
+breaking rules, liveliness, preparing and making things, housework, and twenty onomatopoeic words for refreshment and
+relief, light taste, decisive and brisk manner, stiffness and hardness, crunching, vigour, eating and licking, scattered drops and
+simmering. Every pair among the five negative-polarity «совсем не / нисколько» titles (全然, ちっとも, 少しも, 全く, さっぱり) is excluded;
+other direct guards cover pairs such as 明確/明らか–はっきり, あっさり–軽い/簡単/安易, 活気–元気/賑やか, 備える–準備/用意/支度,
+こしらえる–料理 and 家事–宿題. The optional image field of 17 onomatopoeic articles is omitted (word-only adaptation).
+The independent read-only review found scoped coverage and comprehensibility clean, one correctness issue (破る
+claimed that «сломать» lies outside its range, although its first dictionary sense includes "break") and one
+quiz-safety gap (備える lacked a guard against 予習). Both were fixed, together with three adopted optional items, and
+the recheck reported all four facets clean.
+
+Qualified progress is **3,519 reviewed-current / 8 reviewed runtime-blocked / 4,751 pending of 8,278**,
+with 2,053 words, 718 kanji and 718 strokes. See the [intake](translation-batches/180-words-batch-19-intake.json),
+[independent review](translation-batches/180-words-batch-19-independent-review-001.md),
+[recheck](translation-batches/180-words-batch-19-recheck-001.md),
+[qualified source record](translation-batches/180-words-batch-19-reviewed-source.json) and
+[final validation](translation-batches/180-words-batch-19-final-validation-001.json).
+
+## Previous published source milestone: batch179 thirty words (general word queue)
 
 Batch179 adds 30 Russian word articles: 訴える 困難 苦労 面倒 厄介 手間 努力 労働 苦心 苦情 満ちる あふれる 零れる
 こぼす ひそひそ ぱさぱさ ぼそぼそ すたすた しゃきしゃき こりこり ぱりぱり ノック こんこん 順調 とんとん さくさく
