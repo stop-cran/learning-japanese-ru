@@ -1,6 +1,35 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch183 thirty words (general word queue)
+## Current published source milestone: batch184 thirty words (general word queue)
+
+Batch184 adds 30 Russian word articles: じっと じろじろ じゅうじゅう じりじり じゃぶじゃぶ じとじと じめじめ しとしと ざあざあ ごぼごぼ
+ごしごし ぐびぐび がぶがぶ ごくごく 濃い こってり 秘密 こそこそ こけこっこー 咳 げほげほ ぐるぐる ぐらぐら くんくん くるり くよくよ
+くすくす ぎょっと ぎゅうぎゅう きりきり. They are chunk 0 of 96 of the general remaining-word queue (recomputed after
+Batch183: closure of 2,877 EN words), so every EN quiz_exclusions target resolves to an existing RU word or a batch word.
+Thirty-two existing word pages receive 36 navigation-only link wraps at EN link positions, with per-file link counts to
+batch words matching EN; no kanji page changes (濃 is still pending in RU, and 秘, 密 and 咳 have no kanji page).
+
+The batch covers stillness and staring, sizzling, scorching heat and impatience, splashing, damp and humid weather,
+drizzle and downpours, gurgling, scrubbing, gulping and guzzling, rich and concentrated food or colour (濃い, こってり),
+secrets and sneaking, the rooster's crow, coughing, spinning and wobbling, sniffing, quick turns, brooding, giggling,
+being startled, tight cramming and gripping pain. Direct guards beyond EN cover pairs such as じりじり–暑い/そろそろ/遅い,
+ごぼごぼ/ぐらぐら–沸く, ぐびぐび/がぶがぶ/ごくごく–飲む, 濃い–強い, こってり–厚い/太い, こけこっこー–鳴く/鶏, 咳–こんこん,
+ぐるぐる/くるり–回る, ぎゅうぎゅう–一杯/満ちる/あふれる and きりきり–苦痛/頭痛/ずきずき/ぎゅうぎゅう. The optional image field of 21
+onomatopoeic articles is omitted (word-only adaptation).
+The independent read-only review found correctness, scoped coverage and comprehensibility clean and two quiz-safety
+issues: ごぼごぼ «клокотать» also means «кипеть», so it now guards 沸く, and author-added ちびちび guards on ぐびぐび and ごくごく
+excluded an opposite and were removed. Two optional title refinements (きりきり, じゅうじゅう) were adopted. The first recheck
+found one earlier gap, the shared tight-binding sense of きりきり and ぎゅうぎゅう, which received a guard; the second recheck
+reported all four facets clean.
+
+Qualified progress is **3,639 reviewed-current / 8 reviewed runtime-blocked / 4,631 pending of 8,278**,
+with 2,173 words, 718 kanji and 718 strokes. See the [intake](translation-batches/184-words-batch-23-intake.json),
+[independent review](translation-batches/184-words-batch-23-independent-review-001.md),
+[recheck](translation-batches/184-words-batch-23-recheck-001.md),
+[qualified source record](translation-batches/184-words-batch-23-reviewed-source.json) and
+[final validation](translation-batches/184-words-batch-23-final-validation-001.json).
+
+## Previous published source milestone: batch183 thirty words (general word queue)
 
 Batch183 adds 30 Russian word articles: ひりひり ひらひら 偶然 ひょいと ぱんぱん ぱらぱら ざぶざぶ ばしゃばしゃ はあはあ にやにや
 にゃあにゃあ とぼとぼ てくてく たびたび しばしば たま ちょこちょこ 徐々に ちびちび ちくちく そよそよ ぐいぐい ずんずん ずるずる
