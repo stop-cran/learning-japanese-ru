@@ -1,6 +1,33 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch180 thirty words (general word queue)
+## Current published source milestone: batch181 thirty words (general word queue)
+
+Batch181 adds 30 Russian word articles: 炊事 炊く 煮える 煮る がやがや ぶるぶる わくわく 天候 陽気 うきうき ぞくぞく ざわざわ
+ささやく ぶつぶつ 凹凸 武士 兵士 公演 体力 亥 亀 それとも あるいは 乃至 丑 メーメー しくしく めそめそ 叫ぶ 吠える.
+They are chunk 0 of 99 of the general remaining-word queue (recomputed after Batch180: closure of 2,967 EN words),
+so every EN quiz_exclusions target resolves to an existing RU word or a batch word. Seventeen existing pages
+(kanji/体 候 兵 叫 園 演; words/がたがた がちがち しょんぼり でこぼこ はらはら ひそひそ ぺらぺら 元気 公園 寅 巳) receive 24
+navigation-only link wraps at EN link positions, with per-file link counts to batch words matching EN.
+
+The batch covers cooking and boiling, weather, unevenness, warriors and soldiers, stage performances, physical
+strength, two zodiac signs and the turtle, the «or» conjunctions それとも, あるいは and 乃至, shouting and barking, and ten
+onomatopoeic words for crowd noise, trembling, excitement and thrill, grumbling, bleating and whimpering. Direct
+guards beyond EN cover pairs such as 炊事–台所/こしらえる, 煮える–ぐつぐつ/ことこと, がやがや/ざわざわ–騒ぐ,
+陽気–楽しい/賑やか, 公演–芝居/演説/スピーチ, 亥–豚 and 叫ぶ–呼ぶ. The optional image field of 5 onomatopoeic articles is
+omitted (word-only adaptation).
+The independent read-only review found correctness and scoped coverage clean, one comprehensibility issue (an
+ungrammatical double negation in 武士) and two quiz-safety gaps (公演 «выступление артистов; спектакль» shared
+«выступление» with スピーチ and 演説 without a guard; 煮える lacked guards against ぐつぐつ and ことこと). All three were
+fixed, together with one adopted optional wording item, and the recheck reported all four facets clean.
+
+Qualified progress is **3,549 reviewed-current / 8 reviewed runtime-blocked / 4,721 pending of 8,278**,
+with 2,083 words, 718 kanji and 718 strokes. See the [intake](translation-batches/181-words-batch-20-intake.json),
+[independent review](translation-batches/181-words-batch-20-independent-review-001.md),
+[recheck](translation-batches/181-words-batch-20-recheck-001.md),
+[qualified source record](translation-batches/181-words-batch-20-reviewed-source.json) and
+[final validation](translation-batches/181-words-batch-20-final-validation-001.json).
+
+## Previous published source milestone: batch180 thirty words (general word queue)
 
 Batch180 adds 30 Russian word articles: 少しも 全く 明確 明らか はあ さっぱり すっきり ほっと あっさり きっぱり はきはき
 きびきび せっせと 破る がちがち かちかち ばりばり 活気 ぴんぴん もりもり ぺろり ぺろぺろ ぱくぱく むしゃむしゃ もぐもぐ

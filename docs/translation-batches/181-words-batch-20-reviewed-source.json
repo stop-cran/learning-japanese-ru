@@ -1,0 +1,184 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "181-words-batch-20",
+ "publishedBaseline": "0ed7fce",
+ "qualifiedVerdicts": {
+  "content": "Review 001 at c3f1c45: correctness CLEAN; scoped coverage CLEAN; comprehensibility NEEDS FIX (F3 武士 contained the ungrammatical double negation «ни повсеместно не противопоставлены, ни не являются…»); quiz safety NEEDS FIX (F1 公演 «выступление артистов; спектакль» shared «выступление» with スピーチ «выступление перед слушателями» and 演説 «публичная речь; выступление» without a guard; F2 煮える «вариться; провариться» lacked guards against ぐつぐつ «…; кипеть» and ことこと «томиться на медленном огне», a precaution since the article says 煮える can describe boiling). Optional suggestion adopted: 叫ぶ «переход в ん» instead of «звуковое изменение в ん». Fix commit 8a7a43c (with 煮る-ことこと added as the same precaution). Recheck 001 at 8a7a43c: F1, F2, F3 and the adopted optional item resolved, no regressions, all new guards justified; correctness, scoped coverage, comprehensibility and quiz safety CLEAN.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Title/stem screen hand-checked; author guards beyond EN added 炊事-台所/こしらえる, がやがや-騒ぐ, わくわく-楽しみ, 陽気-楽しい/賑やか, うきうき-楽しい, ぞくぞく-寒い, ざわざわ-騒ぐ, ささやく-ぼそぼそ, 公演-芝居, 体力-力, 亥-豚, メーメー-鳴く, しくしく-痛い, 叫ぶ-呼ぶ and 吠える-泣く (colloquial «выть» also means to sob loudly); the review added 公演-演説/スピーチ (shared «выступление», following the existing スピーチ-演説 guard) and 煮える-ぐつぐつ/ことこと, with 煮る-ことこと adopted as the same precaution. Every pair among the four «или» titles (それとも, あるいは, 乃至, または) is excluded by EN; within the cooking cluster 炊く, 煮える and 煮る are mutually excluded and each guards 料理; 天候 is titled «погодные условия» rather than «погода» so that it does not repeat 天気 (EN-excluded anyway); 亥 is titled «Кабан (знак зодиака)» in line with 猪 «кабан» (EN-excluded) and guards 豚 «свинья». The author left うきうき-気分/気持ち («настроение» nouns) unguarded, and the reviewer judged がやがや/ざわざわ-うるさい and 公演-コンサート overlaps weak and matching EN; no guards were added for them."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/181-words-batch-20-intake.json",
+  "docs/translation-batches/181-words-batch-20-independent-review-001.md",
+  "docs/translation-batches/181-words-batch-20-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [],
+  "navigationNote": "Only link brackets added at EN link positions for batch words (24 links in 17 files; per-file link counts to batch words match EN): kanji/体 -> 体力 (2), kanji/候 -> 天候 (3), kanji/兵 -> 兵士 (2), kanji/叫 -> 叫ぶ (2), kanji/園 -> 公演, kanji/演 -> 公演 (3), words/がたがた -> ぶるぶる, words/がちがち -> ぶるぶる, words/しょんぼり -> うきうき, words/でこぼこ -> 凹凸, words/はらはら -> わくわく, words/ひそひそ -> がやがや, words/ぺらぺら -> がやがや, words/元気 -> 体力, words/公園 -> 公演, words/寅 -> 丑, words/巳 -> 亥. The pre-existing kanji/候 link to 兆候 (present at the baseline) is unchanged.",
+  "navigationOnlyEdits": [
+   "kanji/体.md",
+   "kanji/候.md",
+   "kanji/兵.md",
+   "kanji/叫.md",
+   "kanji/園.md",
+   "kanji/演.md",
+   "words/がたがた.md",
+   "words/がちがち.md",
+   "words/しょんぼり.md",
+   "words/でこぼこ.md",
+   "words/はらはら.md",
+   "words/ひそひそ.md",
+   "words/ぺらぺら.md",
+   "words/元気.md",
+   "words/公園.md",
+   "words/寅.md",
+   "words/巳.md"
+  ],
+  "newWords": [
+   "炊事",
+   "炊く",
+   "煮える",
+   "煮る",
+   "がやがや",
+   "ぶるぶる",
+   "わくわく",
+   "天候",
+   "陽気",
+   "うきうき",
+   "ぞくぞく",
+   "ざわざわ",
+   "ささやく",
+   "ぶつぶつ",
+   "凹凸",
+   "武士",
+   "兵士",
+   "公演",
+   "体力",
+   "亥",
+   "亀",
+   "それとも",
+   "あるいは",
+   "乃至",
+   "丑",
+   "メーメー",
+   "しくしく",
+   "めそめそ",
+   "叫ぶ",
+   "吠える"
+  ],
+  "selection": "Chunk 0 of 99 of the general remaining-word queue (word_schedule.py 30 --all over the full remaining word closure of 2,967 EN words, recomputed after Batch180); the chunk is closed under quiz_exclusions with no closure additions, so every EN exclusion target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to targets absent from RU (kanji 丑 乃 亀 亥 凸 凹 士 武; words 焚く どきどき 気候 続々 しーん こけこっこー わんわん くよくよ 時刻) are plain labels until those files exist; links to the onomatopoeia articles (japanese-onomatopoeia, onomatopoeia-body-and-feelings, onomatopoeia-motion-and-sound, onomatopoeia-sound-patterns) and to occupation-and-role-endings are plain pointers. The optional image field of 5 onomatopoeic articles (ぶるぶる うきうき ぞくぞく ざわざわ メーメー) is omitted (word-only adaptation).",
+  "wordOnlyImageOmissions": [
+   "ぶるぶる",
+   "うきうき",
+   "ぞくぞく",
+   "ざわざわ",
+   "メーメー"
+  ]
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "うきうき «Образ «всплывающего» настроения» kept (the reviewer judged it acceptable).",
+   "No がやがや/ざわざわ-うるさい or 公演-コンサート guards: the overlaps are weak and match EN."
+  ],
+  "exclusionsAddedBeyondEn": {
+   "うきうき": [
+    "楽しい"
+   ],
+   "がやがや": [
+    "騒ぐ"
+   ],
+   "ささやく": [
+    "ぼそぼそ"
+   ],
+   "ざわざわ": [
+    "騒ぐ"
+   ],
+   "しくしく": [
+    "痛い"
+   ],
+   "ぞくぞく": [
+    "寒い"
+   ],
+   "わくわく": [
+    "楽しみ"
+   ],
+   "メーメー": [
+    "鳴く"
+   ],
+   "亥": [
+    "豚"
+   ],
+   "体力": [
+    "力"
+   ],
+   "公演": [
+    "芝居",
+    "演説",
+    "スピーチ"
+   ],
+   "叫ぶ": [
+    "呼ぶ"
+   ],
+   "吠える": [
+    "泣く"
+   ],
+   "炊事": [
+    "台所",
+    "こしらえる"
+   ],
+   "煮える": [
+    "ぐつぐつ",
+    "ことこと"
+   ],
+   "煮る": [
+    "ことこと"
+   ],
+   "陽気": [
+    "楽しい",
+    "賑やか"
+   ]
+  },
+  "titles": {
+   "あるいは": "или; возможно",
+   "うきうき": "в приподнятом настроении",
+   "がやがや": "гомон голосов",
+   "ささやく": "шептать; говорить вполголоса",
+   "ざわざわ": "гул толпы; шелест",
+   "しくしく": "тихо всхлипывать; ноющая боль",
+   "それとも": "или; или же",
+   "ぞくぞく": "озноб; трепет",
+   "ぶつぶつ": "ворчать; бормотать; мелкая сыпь",
+   "ぶるぶる": "дрожать мелкой дрожью",
+   "めそめそ": "хныкать; распускать нюни",
+   "わくわく": "в радостном предвкушении",
+   "メーメー": "бе-е (блеяние овцы)",
+   "丑": "Бык (знак зодиака)",
+   "乃至": "от … до; или",
+   "亀": "черепаха",
+   "亥": "Кабан (знак зодиака)",
+   "体力": "физическая сила; выносливость",
+   "公演": "выступление артистов; спектакль",
+   "兵士": "солдат",
+   "凹凸": "неровность; неравенство",
+   "叫ぶ": "кричать; выкрикивать",
+   "吠える": "лаять; выть; рычать",
+   "天候": "погодные условия",
+   "武士": "самурай; воин",
+   "炊く": "варить (рис, крупу)",
+   "炊事": "приготовление пищи; работа на кухне",
+   "煮える": "вариться; провариться",
+   "煮る": "варить; тушить",
+   "陽気": "жизнерадостный; погода по сезону"
+  }
+ }
+}
