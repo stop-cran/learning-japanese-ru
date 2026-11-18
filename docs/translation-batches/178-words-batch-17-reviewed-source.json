@@ -1,0 +1,196 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "178-words-batch-17",
+ "publishedBaseline": "9c9ab97",
+ "qualifiedVerdicts": {
+  "content": "Review 001 at 43f30e7: correctness CLEAN; scoped coverage CLEAN; comprehensibility NEEDS FIX (F1 基地 left the English contrast 'base' in learner text; F2 区別 glossed 区別がつかない with a personal subject «не могу отличить», contradicting the following note; F3 副作用 ungrammatical sentence about the figurative Russian «побочный эффект»); quiz safety CLEAN with one EN-inherited weak pair (Q1 幹-中心, «главная часть» vs the backbone/main-part sense). Optional suggestions adopted: 台 «тридцать с лишним градусов», 同一 «Эти две вещи», 寅/卯 «значения в шестидесятилетнем цикле» (instead of «шестидесятеричного», which reads as base-60 numerals), 地盤 «опору кандидата в избирательном округе», 副作用 «меня стало клонить в сон», 発行-支給 and 同様-然る guards. Fix commit 5731eb5. Recheck 001 at 5731eb5: F1, F2, F3 and Q1 resolved, the adopted optional items resolved, the declined figurative-sense addition withdrawn, manifest changes limited to contentVersion and the eleven edited hashes; the recheck noted an optional repetition (N1, «опору» twice in 地盤), which commit a414b65 removed and the N1 follow-up confirmed as resolved, with manifest changes limited to contentVersion and the 地盤 hash; correctness, scoped coverage, comprehensibility and quiz safety CLEAN.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Title/stem screen hand-checked; author guards beyond EN added 素-基/基本, 基地-基, 地盤-土, 幹-骨, 詩-句/歌, 同一-一緒/等しい, 同様-一緒/等しい/似る/そんな, 匹敵-並ぶ, 発行/出版/刊行-出す, 差-幅/別, 区別-別, 違い-違う/異なる/相違/別, 異なる-別, 相違-別; the review added 幹-中心 and adopted 発行-支給 and 同様-然る. Shared title stems: «основа» (素, 基礎, 基盤 vs 基 «основа; база» and 基本 «основы; основа») is guarded by EN or batch exclusions on every new card; 基地 «база (военная, экспедиционная)» excludes 基 «основа; база»; 異なる and 違う share «отличаться» and are guarded from EN; 発行 and 支給 share «выдача». The zodiac signs follow the «X (знак зодиака)» pattern of 辰 and 酉; 卯 is titled «Кролик», with «Заяц» given in the body as the alternative Russian name, and 奇しい carries «(редкое написание)»."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/178-words-batch-17-intake.json",
+  "docs/translation-batches/178-words-batch-17-independent-review-001.md",
+  "docs/translation-batches/178-words-batch-17-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "俳",
+   "卯",
+   "句",
+   "基",
+   "奇",
+   "妖",
+   "寅",
+   "巳",
+   "幹",
+   "敵",
+   "柳",
+   "準",
+   "版",
+   "異",
+   "盤",
+   "礎",
+   "素",
+   "詩"
+  ],
+  "navigationNote": "Only link brackets added at EN link positions for batch words (19 links in 12 files; per-file link counts match EN): kanji/刊 -> 刊行 (2), kanji/副 -> 副作用 (2), kanji/匹 -> 匹敵 (2), kanji/区 -> 区別, kanji/圧 -> 圧力 (2), kanji/差 -> 差 (3), kanji/幅 -> 幅 (2), kanji/規 -> 基準 (the EN link labelled 規準), words/柳 -> 川柳, words/梓 -> 出版, words/特徴 -> 違い, words/狂う -> 違い.",
+  "navigationOnlyEdits": [
+   "kanji/刊.md",
+   "kanji/副.md",
+   "kanji/匹.md",
+   "kanji/区.md",
+   "kanji/圧.md",
+   "kanji/差.md",
+   "kanji/幅.md",
+   "kanji/規.md",
+   "words/柳.md",
+   "words/梓.md",
+   "words/特徴.md",
+   "words/狂う.md"
+  ],
+  "newWords": [
+   "素",
+   "台",
+   "基準",
+   "基礎",
+   "基盤",
+   "基地",
+   "地盤",
+   "幹",
+   "巳",
+   "詩",
+   "俳句",
+   "川柳",
+   "寅",
+   "奇しい",
+   "妖しい",
+   "圧力",
+   "卯",
+   "同一",
+   "同様",
+   "匹敵",
+   "副作用",
+   "発行",
+   "出版",
+   "刊行",
+   "差",
+   "区別",
+   "幅",
+   "違い",
+   "異なる",
+   "相違"
+  ],
+  "selection": "Chunk 0 of 102 of the general remaining-word queue (word_schedule.py 30 --all over the full remaining word closure of 3,057 EN words, recomputed after Batch177); the chunk is closed under quiz_exclusions, so every EN exclusion target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to targets absent from RU (words 丑 亥 元 共通 分ける 劣る 効果 印刷 差別 床 影響 怪しい 新幹線 時刻 発表 詩人 間違い; kanji 卯 奇 妖 寅 巳 幹 柳 準 版; article ayashii-and-related-words) are plain labels until those files exist; kanji 俳 句 基 敵 異 盤 礎 素 詩 also lack RU cards and are not linked from these EN articles. Two Russian-only contrast notes link existing RU words beyond EN positions: 素 -> 基礎, 基本 (the «основа» note) and 基地 -> 基, 基盤 (the «база» note).",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "副作用 figurative Japanese sense not added: content beyond the EN source"
+  ],
+  "exclusionsAddedBeyondEn": {
+   "出版": [
+    "出す"
+   ],
+   "刊行": [
+    "出す"
+   ],
+   "匹敵": [
+    "並ぶ"
+   ],
+   "区別": [
+    "別"
+   ],
+   "同一": [
+    "一緒",
+    "等しい"
+   ],
+   "同様": [
+    "一緒",
+    "等しい",
+    "似る",
+    "そんな",
+    "然る"
+   ],
+   "地盤": [
+    "土"
+   ],
+   "基地": [
+    "基"
+   ],
+   "差": [
+    "幅",
+    "別"
+   ],
+   "幹": [
+    "骨",
+    "中心"
+   ],
+   "異なる": [
+    "別"
+   ],
+   "発行": [
+    "出す",
+    "支給"
+   ],
+   "相違": [
+    "別"
+   ],
+   "素": [
+    "基",
+    "基本"
+   ],
+   "詩": [
+    "句",
+    "歌"
+   ],
+   "違い": [
+    "違う",
+    "異なる",
+    "相違",
+    "別"
+   ]
+  },
+  "titles": {
+   "俳句": "хайку",
+   "出版": "публикация; издательское дело",
+   "刊行": "выпуск в свет; публикация",
+   "副作用": "побочное действие; побочный эффект",
+   "匹敵": "не уступать; быть равным",
+   "区別": "разграничение; различение",
+   "卯": "Кролик (знак зодиака)",
+   "台": "подставка; платформа",
+   "同一": "тождественный; один и тот же",
+   "同様": "такой же; аналогичный",
+   "圧力": "давление",
+   "地盤": "грунт; база поддержки",
+   "基地": "база (военная, экспедиционная)",
+   "基準": "стандарт; критерий",
+   "基盤": "основа; инфраструктура",
+   "基礎": "фундамент; основа",
+   "奇しい": "странный; подозрительный (редкое написание)",
+   "妖しい": "таинственный; чарующий",
+   "寅": "Тигр (знак зодиака)",
+   "川柳": "сэнрю; короткий шуточный стих",
+   "差": "разница; разрыв",
+   "巳": "Змея (знак зодиака)",
+   "幅": "ширина; диапазон",
+   "幹": "ствол дерева; костяк",
+   "異なる": "отличаться; различаться",
+   "発行": "выпуск; выдача документов",
+   "相違": "расхождение; несовпадение",
+   "素": "основа; готовая смесь",
+   "詩": "стихотворение; поэзия",
+   "違い": "различие; разница"
+  }
+ }
+}

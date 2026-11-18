@@ -1,6 +1,35 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch177 thirty words (general word queue)
+## Current published source milestone: batch178 thirty words (general word queue)
+
+Batch178 adds 30 Russian word articles: 素 台 基準 基礎 基盤 基地 地盤 幹 巳 詩 俳句 川柳 寅 奇しい 妖しい 圧力 卯 同一
+同様 匹敵 副作用 発行 出版 刊行 差 区別 幅 違い 異なる 相違.
+They are chunk 0 of 102 of the general remaining-word queue (recomputed after Batch177: closure of 3,057 EN words),
+so every EN quiz_exclusions target resolves to an existing RU word or a batch word. Twelve existing pages
+(kanji/刊 副 匹 区 圧 差 幅 規; words/柳 梓 特徴 狂う) receive 19 navigation-only link wraps at EN link positions,
+with per-file link counts matching EN. Kanji without RU cards (俳 卯 句 基 奇 妖 寅 巳 幹 敵 柳 準 版 異 盤 礎 素 詩)
+stay plain text.
+
+The batch covers bases, foundations, standards and infrastructure, stands and platforms, ground and political support
+bases, tree trunks, three zodiac signs (Snake, Tiger, Rabbit), poetry, haiku and senryū, strange and bewitching,
+pressure, sameness and similarity, matching an equal, side effects, issuing and publishing, and difference, width and
+distinction. New cards titled with «основа» (素, 基礎, 基盤) exclude 基 «основа; база» and 基本 «основы; основа», and
+基地 «база» excludes 基; other direct guards cover close pairs such as 詩–句/歌, 同様–そんな, 発行/出版/刊行–出す and
+違い–違う/異なる/相違/別. English source glosses that mislead in Russian ("prime", "similarity", "discrimination") are
+cited and explained in Russian terms. The independent read-only review found correctness, scoped coverage and quiz safety clean, and three
+comprehensibility issues: an English "base" contrast left in 基地, a 区別がつかない gloss with a personal subject, and
+an ungrammatical sentence in 副作用. All three were fixed, together with an EN-inherited 幹–中心 guard, five adopted
+wording suggestions, 発行–支給 and 同様–然る guards, and a follow-up removal of a repeated word in 地盤. Adding 副作用's figurative Japanese
+sense was declined as beyond the EN source. The recheck resolved every item and reported all four facets clean.
+
+Qualified progress is **3,459 reviewed-current / 8 reviewed runtime-blocked / 4,811 pending of 8,278**,
+with 1,993 words, 718 kanji and 718 strokes. See the [intake](translation-batches/178-words-batch-17-intake.json),
+[independent review](translation-batches/178-words-batch-17-independent-review-001.md),
+[recheck](translation-batches/178-words-batch-17-recheck-001.md),
+[qualified source record](translation-batches/178-words-batch-17-reviewed-source.json) and
+[final validation](translation-batches/178-words-batch-17-final-validation-001.json).
+
+## Previous published source milestone: batch177 thirty words (general word queue)
 
 Batch177 adds 30 Russian word articles: 救う 救助 手伝い 援助 柱 柚 枚 松竹梅 梅 杏 李 曲 増す 増加 昇る 政治家
 採掘 釣り 漁業 水産 捕鯨 御殿 彗星 局 オフィス 庁 基本 基 水準 計る.
