@@ -1,0 +1,148 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "175-words-batch-14",
+ "publishedBaseline": "b79387f",
+ "qualifiedVerdicts": {
+  "content": "Review 001 at e6c63f6: correctness CLEAN; scoped coverage CLEAN; comprehensibility NEEDS FIX (F3 脂 sentence referred to a broad «масло» translation of 石油 that the learner never sees); quiz safety NEEDS FIX (F1 ビニール-レコード via colloquial «винил» = record; F2 水稲-ご飯 via «рис», following the 稲-ご飯 precedent). Optional: 脂 «срезал» narrower than 取る, 流す imperfective «проливала», 榛 standard Russian species name, ビニール «полиэтиленовая плёнка». Recheck 001 at 656786d: all four facets CLEAN; F1, F2 and F3 resolved with no regressions; the accepted optional 脂, 流す and 榛 polish resolved (the 榛 note checked as accurate); the ビニール retitle declined.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Title/stem screen hand-checked; author guards beyond EN added 流す-浮かべる, 水稲-米/田んぼ, 歳-年/二十歳, 油-バター; the review fixes added ビニール-レコード and 水稲-ご飯. 浴びせる was retitled «обливать; осыпать (кого-либо чем-либо)» (avoids 質問) and ビニール «винил; полиэтилен» (avoids 材料) before review."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/175-words-batch-14-intake.json",
+  "docs/translation-batches/175-words-batch-14-independent-review-001.md",
+  "docs/translation-batches/175-words-batch-14-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "湖",
+   "畔",
+   "浴",
+   "沈",
+   "稲",
+   "欧",
+   "橘",
+   "油",
+   "脂",
+   "樹",
+   "榛",
+   "至",
+   "極",
+   "材",
+   "楠",
+   "紅",
+   "楓",
+   "椿",
+   "骨",
+   "椎"
+  ],
+  "navigationNote": "Only link brackets added at EN link positions for batch words (7 links in 4 files; per-file link counts match EN): kanji/岸 -> 岸, kanji/歳 -> 歳, words/畔 -> 湖畔, words/筋肉 -> 骨.",
+  "navigationOnlyEdits": [
+   "kanji/岸.md",
+   "kanji/歳.md",
+   "words/畔.md",
+   "words/筋肉.md"
+  ],
+  "newWords": [
+   "岸",
+   "湖畔",
+   "流す",
+   "注ぐ",
+   "浴びせる",
+   "沈める",
+   "水稲",
+   "歳",
+   "欧州",
+   "橘",
+   "油",
+   "石油",
+   "脂",
+   "ビニール",
+   "プラスチック",
+   "ナイロン",
+   "樹脂",
+   "榛",
+   "達する",
+   "至る",
+   "極める",
+   "材料",
+   "材木",
+   "木材",
+   "楠",
+   "紅葉",
+   "楓",
+   "椿",
+   "骨",
+   "椎骨"
+  ],
+  "selection": "Chunk 0 of 105 of the general remaining-word queue (word_schedule.py 30 --all over the full remaining word closure of 3,147 EN words, recomputed after Batch174); the chunk is closed under quiz_exclusions, so every EN exclusion target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to targets absent from RU (words 流れる 涙 ヨーロッパ 柚 袋 ゴム 生地 綿 栗 到着 届く 限界 資料; kanji 湖 畔 浴 沈 稲 欧 橘 油 脂 樹 榛 極 材 楠 紅 楓 椿 骨 椎) are plain labels until those files exist; 至 is mentioned in plain text in EN as well.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "ビニール «полиэтиленовая плёнка» retitle not adopted: ビニール names the material generally, not only film, and the card explains the everyday label",
+   "湖畔-海岸, 楠-大木, 歳-隻 guards not added: the qualifiers (lake vs sea; species vs size; age vs ships) keep the Russian answers distinct, and EN has no pairs"
+  ],
+  "exclusionsAddedBeyondEn": {
+   "ビニール": [
+    "レコード"
+   ],
+   "歳": [
+    "年",
+    "二十歳"
+   ],
+   "水稲": [
+    "米",
+    "ご飯",
+    "田んぼ"
+   ],
+   "油": [
+    "バター"
+   ],
+   "流す": [
+    "浮かべる"
+   ]
+  },
+  "titles": {
+   "ナイロン": "нейлон",
+   "ビニール": "винил; полиэтилен",
+   "プラスチック": "пластмасса; пластик",
+   "岸": "берег",
+   "木材": "древесина; лесоматериал",
+   "材料": "материал; ингредиенты",
+   "材木": "лесоматериал; строительная древесина",
+   "椎骨": "позвонок",
+   "椿": "камелия",
+   "楓": "клён",
+   "楠": "камфорное дерево; камфорная древесина",
+   "極める": "доводить до предела; достигать вершины",
+   "榛": "лещина (азиатская)",
+   "樹脂": "смола (природная, синтетическая)",
+   "橘": "татибана (японский цитрус)",
+   "欧州": "Европа",
+   "歳": "счётное слово для возраста (… лет)",
+   "水稲": "заливной рис",
+   "沈める": "топить; погружать (что-либо)",
+   "油": "масло (растительное, машинное)",
+   "注ぐ": "наливать; посвящать (силы)",
+   "流す": "пускать (воду); проливать; транслировать",
+   "浴びせる": "обливать; осыпать (кого-либо чем-либо)",
+   "湖畔": "берег озера; приозёрье",
+   "石油": "нефть",
+   "紅葉": "осенняя листва; осенние краски",
+   "脂": "жир; сало",
+   "至る": "доходить (до); достигать (стадии, итога)",
+   "達する": "достигать",
+   "骨": "кость; каркас"
+  }
+ }
+}
