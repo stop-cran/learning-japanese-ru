@@ -8,14 +8,23 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch166 thirty words
+## Current published source milestone: batch167 thirty words
+
+Batch167 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions), plus navigation-only link wraps in 22 existing pages. The independent review found four
+minor quiz-safety gaps in the easy/suit/soft clusters; all were fixed and resolved in the recheck. A corpus-wide
+navigation-only sweep (203 EN link pairs whose RU targets now exist) is scheduled next. Progress: **3,159
+reviewed-current / 8 runtime-blocked / 5,111 pending of 8,278**; 1,693 words / 718 kanji / 718 strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch167-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch166 thirty words
 
 Batch166 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions), plus navigation-only link wraps in eight existing pages. The independent review found
 three minor quiz-safety gaps in the dense price/payment and calm/soft clusters; all were fixed and resolved in the
 recheck. Progress: **3,129 reviewed-current / 8 runtime-blocked / 5,141 pending of 8,278**; 1,663 words / 718 kanji /
 718 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch166-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch166-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch165 thirty words
 
