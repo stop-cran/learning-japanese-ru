@@ -8,7 +8,17 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch180 thirty words
+## Current published source milestone: batch181 thirty words
+
+Batch181 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions), plus 24 navigation-only link wraps in 17 existing pages. The independent review found one
+comprehensibility issue (a double negation in 武士) and two quiz-safety gaps (公演–スピーチ/演説 sharing «выступление»;
+煮える–ぐつぐつ/ことこと); all were fixed and resolved in the recheck.
+Progress: **3,549 reviewed-current / 8 runtime-blocked / 4,721 pending of 8,278**; 2,083 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch181-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch180 thirty words
 
 Batch180 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions), plus 22 navigation-only link wraps in 17 existing pages. The independent review found one
@@ -16,7 +26,7 @@ correctness issue (an absolute claim that 破る never covers «сломать»
 fixed and resolved in the recheck.
 Progress: **3,519 reviewed-current / 8 runtime-blocked / 4,751 pending of 8,278**; 2,053 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch180-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch180-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch179 thirty words
 
