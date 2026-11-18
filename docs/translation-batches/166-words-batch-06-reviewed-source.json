@@ -1,0 +1,207 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "166-words-batch-06",
+ "publishedBaseline": "8f56fab",
+ "qualifiedVerdicts": {
+  "content": "Review 001 at 4b77b04: correctness, scoped coverage and comprehensibility CLEAN on all 30 words and the 8 navigation-only edits; the author's Russian-specific claims (管理 vs управлять станком, 供給 as предложение, 配達 vs доставить удовольствие, 会計 vs bank/website счёт, 費用 vs стоимость, 治める vs уладить формальности) accepted; quiz safety NEEDS FIX (Q1 minor-moderate 支払-料金, Q2 minor 会計-計算, Q3 minor 穏やか-柔らかい/ソフト). Recheck 001 at 01db1e4: Q1-Q3 resolved; optional wording polish in 平ら, 治める, 仕舞い and 値 applied and accepted; no regressions; all four facets CLEAN.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Title/stem screen hand-checked; author guards for the dense price/payment/finishing/calm/soft clusters (余裕-暇, 冷静/穏やか-静か/安心, 管理-支配, 仕舞い-終える/終わる/済む, しまう/済ませる/終える-済む/無くなる, 得る-もらう/受ける/受け取る/いただく/頂戴, 支払う-払う/支払, 支給-払う/支払う, 配達-届ける, 勘定/会計-請求, 価格-値, 料金-値段/価格/値, 代金-勘定/会計/請求, 支払-払う, 治める-済む, もこもこ/ふかふか-ソフト) accepted by review; review fixes added 支払-料金, 会計-計算, 穏やか-柔らかい/ソフト; no EN exclusion dropped."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/166-words-batch-06-intake.json",
+  "docs/translation-batches/166-words-batch-06-independent-review-001.md",
+  "docs/translation-batches/166-words-batch-06-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "価",
+   "勘",
+   "穏",
+   "算",
+   "管",
+   "納",
+   "裕"
+  ],
+  "navigationNote": "Only link brackets added at EN link positions for batch words: kanji/払 and kanji/支 -> 支払う, kanji/治 -> 治める, kanji/費 -> 費用, words/ぶくぶく and ぷくぷく -> もこもこ, words/支配 -> 管理, words/請求 -> 支払う and 料金.",
+  "navigationOnlyEdits": [
+   "kanji/払.md",
+   "kanji/支.md",
+   "kanji/治.md",
+   "kanji/費.md",
+   "words/ぶくぶく.md",
+   "words/ぷくぷく.md",
+   "words/支配.md",
+   "words/請求.md"
+  ],
+  "newWords": [
+   "余裕",
+   "冷静",
+   "平ら",
+   "穏やか",
+   "管理",
+   "仕舞い",
+   "しまう",
+   "済ませる",
+   "終える",
+   "得る",
+   "収める",
+   "支払う",
+   "支給",
+   "供給",
+   "配達",
+   "計算",
+   "勘定",
+   "会計",
+   "費用",
+   "価格",
+   "値",
+   "料金",
+   "代金",
+   "支払",
+   "納める",
+   "治める",
+   "安定",
+   "もこもこ",
+   "ぼんやり",
+   "ふかふか"
+  ],
+  "selection": "Chunk 0 of 113 of the general remaining-word queue (word_schedule.py 30 --all over the full remaining word closure of 3,387 EN words); the chunk is closed under quiz_exclusions, so every EN exclusion target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to targets absent from RU (words でこぼこ ふわふわ ほくほく もやもや 不足 与える 予算 価値 収入 失う 始まり 数える 激しい 無料 経営 給料 落ち着く 集中 需要; kanji 算 管; onomatopoeia articles) are plain labels until those files exist.",
+  "wordOnlyImageOmissions": [
+   "もこもこ",
+   "ふかふか"
+  ]
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "料金-費用, 供給-配達 and 余裕-穏やか left unguarded as weak or borderline overlaps"
+  ],
+  "exclusionsAddedBeyondEn": {
+   "しまう": [
+    "済む",
+    "無くなる"
+   ],
+   "ふかふか": [
+    "ソフト"
+   ],
+   "もこもこ": [
+    "ソフト"
+   ],
+   "仕舞い": [
+    "終える",
+    "終わる",
+    "済む"
+   ],
+   "代金": [
+    "勘定",
+    "会計",
+    "請求"
+   ],
+   "会計": [
+    "請求",
+    "計算"
+   ],
+   "余裕": [
+    "暇"
+   ],
+   "価格": [
+    "値"
+   ],
+   "冷静": [
+    "静か",
+    "安心"
+   ],
+   "勘定": [
+    "請求"
+   ],
+   "得る": [
+    "もらう",
+    "受ける",
+    "受け取る",
+    "いただく",
+    "頂戴"
+   ],
+   "支払": [
+    "払う",
+    "料金"
+   ],
+   "支払う": [
+    "払う",
+    "支払"
+   ],
+   "支給": [
+    "払う",
+    "支払う"
+   ],
+   "料金": [
+    "値段",
+    "価格",
+    "値"
+   ],
+   "治める": [
+    "済む"
+   ],
+   "済ませる": [
+    "済む",
+    "無くなる"
+   ],
+   "穏やか": [
+    "静か",
+    "安心",
+    "柔らかい",
+    "ソフト"
+   ],
+   "管理": [
+    "支配"
+   ],
+   "終える": [
+    "済む",
+    "無くなる"
+   ],
+   "配達": [
+    "届ける"
+   ]
+  },
+  "titles": {
+   "しまう": "убирать; заканчивать; невольно сделать",
+   "ふかふか": "пышный и мягкий",
+   "ぼんやり": "смутно; рассеянно",
+   "もこもこ": "пушистый и объёмный",
+   "仕舞い": "конец; завершение",
+   "代金": "плата за покупку; сумма к оплате",
+   "会計": "бухгалтерия; счёт (в ресторане)",
+   "余裕": "запас (времени, денег, сил); невозмутимость",
+   "供給": "снабжение; поставка",
+   "価格": "цена; стоимость",
+   "値": "цена (товара)",
+   "冷静": "хладнокровный; собранный",
+   "勘定": "подсчёт; счёт (к оплате)",
+   "収める": "убирать (на место); добиваться (результата)",
+   "安定": "стабильность; устойчивость",
+   "平ら": "плоский; ровный",
+   "得る": "получать; приобретать",
+   "支払": "оплата; платёж",
+   "支払う": "платить; оплачивать",
+   "支給": "выдача (денег, вещей); выплата пособий",
+   "料金": "плата (за услугу); тариф",
+   "治める": "управлять (страной); улаживать (спор)",
+   "済ませる": "заканчивать (дело); обходиться (чем-л.)",
+   "穏やか": "спокойный; мирный",
+   "管理": "управление; контроль",
+   "納める": "платить (налоги); поставлять (товар)",
+   "終える": "заканчивать; завершать",
+   "計算": "вычисление; расчёт",
+   "費用": "расходы; затраты",
+   "配達": "доставка; разноска"
+  }
+ }
+}
