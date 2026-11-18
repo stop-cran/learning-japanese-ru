@@ -1,6 +1,30 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch167 thirty words (general word queue)
+## Current published source milestone: batch168 navigation-only link restoration sweep
+
+Batch168 adds no new cards. Earlier batches translated cards while some EN link targets did not yet exist in RU, so
+those mentions stayed plain text. After Batch167 a corpus scan of words/, kanji/ and articles/ found 205 (file, target)
+pairs where the frozen EN file links a target that RU now has but the RU file did not. The sweep wraps existing RU
+text at the corresponding EN link positions: 198 pairs restored with 202 links in 161 files (including
+articles/numbers-and-counters.md). The link-stripped text of every changed file is byte-identical to the baseline; no
+title, quiz exclusion or other front matter changed.
+
+Seven pairs stay unlinked: kanji/殺 and kanji/飛 have no RU counterpart for the EN sentence, and the matching positions
+in kanji/面, words/落す and words/野菜 already link a different target (a word page instead of the EN kanji page, or the
+reverse). The independent read-only review checked all 202 added links against their EN positions and found all four
+facets clean. Its optional notes (a link on only 子 inside 椅子 in words/いす, and the pre-existing kind mismatches)
+need rewording or retargeting, so they are left for a later content batch.
+
+Qualified progress is unchanged at **3,159 reviewed-current / 8 reviewed runtime-blocked / 5,111 pending of 8,278**
+(1,693 words, 718 kanji, 718 strokes); the 161 ledger records carry the refreshed hashes and the sweep evidence. See the
+[intake](translation-batches/168-navigation-sweep-01-intake.json),
+[independent review](translation-batches/168-navigation-sweep-01-independent-review-001.md) and
+[final validation](translation-batches/168-navigation-sweep-01-final-validation-001.json).
+
+Future word batches restore navigation to their own new words at EN link positions in the same batch, so this sweep
+should not need repeating except after article or kanji families land. This is qualified source-content progress only.
+
+## Previous published source milestone: batch167 thirty words (general word queue)
 
 Batch167 adds 30 Russian word articles: ぷにぷに ぐにゃぐにゃ 浮く 想像 示す 現す 表す 浮かべる 浮かぶ ふわふわ ほくほく
 しっとり 明かり 灯 もちもち 軟らかい 利口 そっと おとなしい 適する 似合う 落ち着く 平気 容易 楽 単純 貧しい 粗末 安易 佚.

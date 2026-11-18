@@ -1,0 +1,978 @@
+{
+ "baseline": "f399daa69ce5cd8bc4aa82329efc993fb95cf580",
+ "batchId": "168-navigation-sweep-01",
+ "held": [],
+ "notes": [
+  "Navigation-only sweep: 205 (file, target) pairs where the frozen EN file links a target that now exists in RU but the RU file had plain text (corpus scan after Batch 167 publication). 198 pairs wrapped at EN link positions (202 links in 161 files); 7 skipped where RU has no counterpart sentence or already links a different target at the same position. Link-stripped text byte-identical to the baseline."
+ ],
+ "payloads": [
+  {
+   "candidateRawSha256": "d30d37f260f75831ca5e8e9a7f0b04e9b4e6ab67d6a5e9c33c4870fac4dfc75f",
+   "path": "articles/numbers-and-counters.md",
+   "sourceRawSha256": "62121e5289d25c54b7e0c7048b1158b55a4961fa6bf706371d2aa90ef0a4b19d",
+   "sourceSha256": "b9e2433e7f862524462ec6f1ec307b40c9f74d86a2982ab3d8d716b073dfc930"
+  },
+  {
+   "candidateRawSha256": "a7654392f5094cce144aadeed7837996ff0a1d4453d05f5a2df5dbfc3299fb25",
+   "path": "kanji/人.md",
+   "sourceRawSha256": "b4dc367685d7f68abd547f5ee9c37bd266b7e581e66464aae62d121df552d7d7",
+   "sourceSha256": "64281af5455b0586607dc7a47b0e31cb72edb9bc5b75602c441d0d119a609ff4"
+  },
+  {
+   "candidateRawSha256": "5c5625a83e462d5a45783797dc14d9a30b8063674fabfd9d829332cb60acf4d9",
+   "path": "kanji/仕.md",
+   "sourceRawSha256": "77347d05b582868efe0720baec635dae76c187966e313fac3e0d9a69337d5382",
+   "sourceSha256": "77347d05b582868efe0720baec635dae76c187966e313fac3e0d9a69337d5382"
+  },
+  {
+   "candidateRawSha256": "c432a72769a0ddb165507c4c062200557b3531c0f4247fce5c3ed97f771f457d",
+   "path": "kanji/例.md",
+   "sourceRawSha256": "5bcdd6ea931fa5470f35407bd91aceb1adeba6001c8e6859788282ade9711fbf",
+   "sourceSha256": "5bcdd6ea931fa5470f35407bd91aceb1adeba6001c8e6859788282ade9711fbf"
+  },
+  {
+   "candidateRawSha256": "ca18dce5fbe32a3ec005a95077fa771c510312818b50091b8072740c72db9e7a",
+   "path": "kanji/便.md",
+   "sourceRawSha256": "d2aeabab64047797d2cf550400f984841d565e44daf0adcc7d1fbae8e4501ba4",
+   "sourceSha256": "d2aeabab64047797d2cf550400f984841d565e44daf0adcc7d1fbae8e4501ba4"
+  },
+  {
+   "candidateRawSha256": "ae3b8e86a22b460b0df94e19303487ca1807967f8d6d433b32e7f8df6b06b511",
+   "path": "kanji/倒.md",
+   "sourceRawSha256": "e8047054cee6678283c08c8502829dcadc6765d49448c7f68152927ba50ffd67",
+   "sourceSha256": "e8047054cee6678283c08c8502829dcadc6765d49448c7f68152927ba50ffd67"
+  },
+  {
+   "candidateRawSha256": "80050a81d8eb1709da9d5f5dd173dbcc558638c246a3157d9b10f895ae05792e",
+   "path": "kanji/値.md",
+   "sourceRawSha256": "8c1af943e94fdf99b7dc06ee2d5d662ca6075924fb99962704bf7900fe1c9f07",
+   "sourceSha256": "8c1af943e94fdf99b7dc06ee2d5d662ca6075924fb99962704bf7900fe1c9f07"
+  },
+  {
+   "candidateRawSha256": "5d6616999fd1dec674da03f6cfded470623cd3179a3522435411f09b46c4f92c",
+   "path": "kanji/偉.md",
+   "sourceRawSha256": "70d9e359eaea57a35984fa5ef36e768a30ec566f6f504cde2e0d64867953cb4c",
+   "sourceSha256": "70d9e359eaea57a35984fa5ef36e768a30ec566f6f504cde2e0d64867953cb4c"
+  },
+  {
+   "candidateRawSha256": "0b14bf8e1128d1940427ec17ccd89a709c8c00e5f5714813dd93fa92adb46064",
+   "path": "kanji/兄.md",
+   "sourceRawSha256": "655d404885cbfe49a91ea2a0d46504fcb76bf339059562b5116bf3a17947f94c",
+   "sourceSha256": "655d404885cbfe49a91ea2a0d46504fcb76bf339059562b5116bf3a17947f94c"
+  },
+  {
+   "candidateRawSha256": "d95eee9c69f9adb223537252d3030a9ba1c045af2d8a873e7830da862ab3ffd0",
+   "path": "kanji/写.md",
+   "sourceRawSha256": "22e5ac4bd952105df0434ad4968230d39a90fba8f70b6d022c4b14506d102328",
+   "sourceSha256": "22e5ac4bd952105df0434ad4968230d39a90fba8f70b6d022c4b14506d102328"
+  },
+  {
+   "candidateRawSha256": "55a288eee5c04d20990356b712c6983417fca8cc43d4f1469c89bb703971a1be",
+   "path": "kanji/切.md",
+   "sourceRawSha256": "1fc6ebae26533b36e0e68cf6f3527dc831500023c486ff05c2ade006d90cd162",
+   "sourceSha256": "1fc6ebae26533b36e0e68cf6f3527dc831500023c486ff05c2ade006d90cd162"
+  },
+  {
+   "candidateRawSha256": "afe6794138c3a0bec9f5e128ccfaf09e2bc327a327fe7a892ad6d72dd046b62c",
+   "path": "kanji/割.md",
+   "sourceRawSha256": "55771468cab0b76c21a66d04f3b85cac34d0c5d77b79be655b5bc83bf27c4dfa",
+   "sourceSha256": "55771468cab0b76c21a66d04f3b85cac34d0c5d77b79be655b5bc83bf27c4dfa"
+  },
+  {
+   "candidateRawSha256": "7be34045f4390ba3f7e72d4304d808155dfec10b67dca7d438d7289adba01c2b",
+   "path": "kanji/口.md",
+   "sourceRawSha256": "af1b353ec5b168bebceb14e25a7bb65a8e8b16a76bc2025f7b7fd5179cf14852",
+   "sourceSha256": "16454fe66b9c5ec7668c6de0efefd74a1cc1336b8a3b35e80a5f088a0e1ea769"
+  },
+  {
+   "candidateRawSha256": "789be2a9c07542d361d4b294f5d1c8f6aee70a4933eb8c9be823d893e548d14d",
+   "path": "kanji/告.md",
+   "sourceRawSha256": "c8dd0585e71c7aae3c9dd1b363575c59c180768c9a8809dcba7c562e52c56924",
+   "sourceSha256": "c8dd0585e71c7aae3c9dd1b363575c59c180768c9a8809dcba7c562e52c56924"
+  },
+  {
+   "candidateRawSha256": "47c5a323dec76e86bed703af755787c7dbb0a56a4c3dc90964d4c4a753bc2950",
+   "path": "kanji/夜.md",
+   "sourceRawSha256": "436f6038bf2436009a1c8095f97b5cf849b153638468a25280c78f55118c1eca",
+   "sourceSha256": "436f6038bf2436009a1c8095f97b5cf849b153638468a25280c78f55118c1eca"
+  },
+  {
+   "candidateRawSha256": "caa31158da50eac46fc9e31e2b0a9d27bf27cd427a1710bea0c0afc3ceb31607",
+   "path": "kanji/大.md",
+   "sourceRawSha256": "d335bbba02bdbc6e8ca185e91d7afd528d770d48492b4b72540107b333493a44",
+   "sourceSha256": "cd08a62930b919b82400f10c8cb1d0d2fc63a8eb3afcfc2ffe309809d1050afc"
+  },
+  {
+   "candidateRawSha256": "0a077f9680accc8edb50a7ce6da9303805bf095f4c1f62f32e2841d9a4bf334c",
+   "path": "kanji/夫.md",
+   "sourceRawSha256": "075284dcc2d28a3bd574f7c19a11415d4b3a1b435ddaf370980a8ff11c6f279f",
+   "sourceSha256": "075284dcc2d28a3bd574f7c19a11415d4b3a1b435ddaf370980a8ff11c6f279f"
+  },
+  {
+   "candidateRawSha256": "f917eb16ea4c8d17f0ddbb4212a3f0956be14958ee67ca68e99de8de36e2146e",
+   "path": "kanji/室.md",
+   "sourceRawSha256": "bb7a76438e4e49228c054e377fabede5674469192f66d86f9791ecc9bbb65e97",
+   "sourceSha256": "bb7a76438e4e49228c054e377fabede5674469192f66d86f9791ecc9bbb65e97"
+  },
+  {
+   "candidateRawSha256": "119d3812a62eeec758a52e26dfb0e58dceba40b6a939e4788217b8f29809a7a1",
+   "path": "kanji/屋.md",
+   "sourceRawSha256": "a4f738dd26ce0d04671ff9fd86d62ba1f6c708469571cc69d545f7d92c92d890",
+   "sourceSha256": "a4f738dd26ce0d04671ff9fd86d62ba1f6c708469571cc69d545f7d92c92d890"
+  },
+  {
+   "candidateRawSha256": "e15387ad943b4db1b689d64a2a62582b97a6081550f332a05bca0ff82df98792",
+   "path": "kanji/山.md",
+   "sourceRawSha256": "1c1ced6e0444bb9c40b3d6e081e79158944e4587e4954239378d0f6add1e95e1",
+   "sourceSha256": "4213ec59eb3019d4170eeb8fb2c753cb39947fa3ce31a9f12b709cabd90255d6"
+  },
+  {
+   "candidateRawSha256": "7478c3addd24cb8943e5441e49d29ad4300294e1343fbc6475781a3254c2e280",
+   "path": "kanji/弟.md",
+   "sourceRawSha256": "3a3fdcfdb0eca5da98d9e34229b57549fc2db18ebc2bba79e04212450895037b",
+   "sourceSha256": "3a3fdcfdb0eca5da98d9e34229b57549fc2db18ebc2bba79e04212450895037b"
+  },
+  {
+   "candidateRawSha256": "9461465debbc72a7de6f748cbc1e39ea7fd98bf41dd1593a888341a4ccacff34",
+   "path": "kanji/怖.md",
+   "sourceRawSha256": "da8347d8e95668da52329a273b8ce0516cb2a5ab4e4d430a00ab7e54268e4305",
+   "sourceSha256": "da8347d8e95668da52329a273b8ce0516cb2a5ab4e4d430a00ab7e54268e4305"
+  },
+  {
+   "candidateRawSha256": "a681edb42881bc271a14a751cc86e1d46eab7f530e341cc15f63fb4165eee2e3",
+   "path": "kanji/悲.md",
+   "sourceRawSha256": "e14e52be21aac38790755b1fbe9cfbba16bccdac9bc47e28d61a31bf6a725079",
+   "sourceSha256": "e14e52be21aac38790755b1fbe9cfbba16bccdac9bc47e28d61a31bf6a725079"
+  },
+  {
+   "candidateRawSha256": "b83dc5bfd90096ab75c7ca910a054e840617adbe3879597ca7396db75844b418",
+   "path": "kanji/時.md",
+   "sourceRawSha256": "bc72feee31b4adc4aa5287336151cab767db36d840cd18a7ab9d81db8631f317",
+   "sourceSha256": "302f74c22601c7431840032a727f02612b29d50d9f00042e9f05efac61fc78ba"
+  },
+  {
+   "candidateRawSha256": "7a65b6ba1b37e81043b728a8cdd66566ecc2aec8f56656429a6e289f0dc247c3",
+   "path": "kanji/服.md",
+   "sourceRawSha256": "cfe178aba068bda5964767526070e478dfb9cb263f1fcfa5c4706ec63ec58721",
+   "sourceSha256": "cfe178aba068bda5964767526070e478dfb9cb263f1fcfa5c4706ec63ec58721"
+  },
+  {
+   "candidateRawSha256": "ee658f1656bb9d6be20da5290a5a96ab8e3ace78bb2d1b34ba910fece47c1cfd",
+   "path": "kanji/歳.md",
+   "sourceRawSha256": "e500a1e74573992c073eef9317f5de000bd61fb323a5dbbc5c081188f40a7a0e",
+   "sourceSha256": "e500a1e74573992c073eef9317f5de000bd61fb323a5dbbc5c081188f40a7a0e"
+  },
+  {
+   "candidateRawSha256": "4d0ef4ddd0b109452e8015662132cd0034ca427da8a1bee6494a4957893121e9",
+   "path": "kanji/渡.md",
+   "sourceRawSha256": "7200ea5376778f11d8c346219f523551ddf23fb09fd51a8cbe95229710c5657f",
+   "sourceSha256": "7200ea5376778f11d8c346219f523551ddf23fb09fd51a8cbe95229710c5657f"
+  },
+  {
+   "candidateRawSha256": "d8c20e80baf66d09991bbc7dae7e0dee984cb837a6e8827b2a981880e78a1f1a",
+   "path": "kanji/物.md",
+   "sourceRawSha256": "9052b43941e78cc10f09c93c3989ae78534cd2333d44c2c2dca69187f11f44a1",
+   "sourceSha256": "7757ffd6eaf6e81ecdd9f27c691adbfe17fa867efdf630041fc6f9eb69df4980"
+  },
+  {
+   "candidateRawSha256": "f92ecac45fe0f52409bcffa3151afe42fe1644c49c1b96c85752da84562dd742",
+   "path": "kanji/界.md",
+   "sourceRawSha256": "57ac85ce8e76bd8c7a073dc766cc3f29163b6bcd71cd6f68a7c0f4b813d7748f",
+   "sourceSha256": "57ac85ce8e76bd8c7a073dc766cc3f29163b6bcd71cd6f68a7c0f4b813d7748f"
+  },
+  {
+   "candidateRawSha256": "123fe52e05d3b0ba73716084ba1749314086caf2cff227a704d7e025f8e939de",
+   "path": "kanji/示.md",
+   "sourceRawSha256": "fe9b057dacd168601591699d65828b31f67010c32dab0ff1c5a9fceb816c1ab0",
+   "sourceSha256": "fe9b057dacd168601591699d65828b31f67010c32dab0ff1c5a9fceb816c1ab0"
+  },
+  {
+   "candidateRawSha256": "9d05d26ae6834cd363f6d67d4a51039e7672a2f48a56673c23a46a5720b96ddb",
+   "path": "kanji/立.md",
+   "sourceRawSha256": "9b743345d29bb851d569530fa85ad69e36d2cd181588225327ef2fcfeb40b2db",
+   "sourceSha256": "9b743345d29bb851d569530fa85ad69e36d2cd181588225327ef2fcfeb40b2db"
+  },
+  {
+   "candidateRawSha256": "ea828f3c020248daae5f493eb8b74796d81f68eefbc7a7e8fd043fac58d29253",
+   "path": "kanji/終.md",
+   "sourceRawSha256": "e1b17a799ee9cf38a54a27cacce85edc8eb8d2f56fa0cafad8aa0b0db05fb0f8",
+   "sourceSha256": "e1b17a799ee9cf38a54a27cacce85edc8eb8d2f56fa0cafad8aa0b0db05fb0f8"
+  },
+  {
+   "candidateRawSha256": "fd48cfd165ad0302bcf6d50fa81d9111d7ff90f49538f4e80d91e9d9071241e7",
+   "path": "kanji/色.md",
+   "sourceRawSha256": "55588dd7fe61d3e60066822e35ed888eca48acd01a899a23415df8c58a29f1b9",
+   "sourceSha256": "55588dd7fe61d3e60066822e35ed888eca48acd01a899a23415df8c58a29f1b9"
+  },
+  {
+   "candidateRawSha256": "62b573ed8935d453366125194600fe2f01e5f796de5cf499cd72fa8c502a049e",
+   "path": "kanji/訪.md",
+   "sourceRawSha256": "43d820c2ed16d8ee1fdca707468810d28742cd4b21a7550be54a38f620ee60ab",
+   "sourceSha256": "43d820c2ed16d8ee1fdca707468810d28742cd4b21a7550be54a38f620ee60ab"
+  },
+  {
+   "candidateRawSha256": "bc095563985b062821b4c1702caeab79a4c6646405806b3d9bfa450484a59599",
+   "path": "kanji/路.md",
+   "sourceRawSha256": "eb1ac2217bb0213d7b2921cd573f939d149a422d271bd1fa2b39defbb6989ddd",
+   "sourceSha256": "eb1ac2217bb0213d7b2921cd573f939d149a422d271bd1fa2b39defbb6989ddd"
+  },
+  {
+   "candidateRawSha256": "1a2a1d685dfc662aa2618869840c664f47fa036dee6efcc3822d13d41e980aa6",
+   "path": "kanji/週.md",
+   "sourceRawSha256": "6ed7691247d856f16ead99263d5c260267dd295ea8a0616376e7352f48435a79",
+   "sourceSha256": "6ed7691247d856f16ead99263d5c260267dd295ea8a0616376e7352f48435a79"
+  },
+  {
+   "candidateRawSha256": "91421197101645a494cf1974f75fcfa777ea1cca8bc9b753fc25d33b928fa9bd",
+   "path": "kanji/院.md",
+   "sourceRawSha256": "98e248fbedd95b3841e96451cfa6e276b784b9ecebcf5d5129d9aeeb98bc0624",
+   "sourceSha256": "98e248fbedd95b3841e96451cfa6e276b784b9ecebcf5d5129d9aeeb98bc0624"
+  },
+  {
+   "candidateRawSha256": "3b948524ff52f1d849a61179a21515ac44076484b829d31e652f60b6e7d426c4",
+   "path": "words/あまり.md",
+   "sourceRawSha256": "3e9af12834ccb092bf44810ec531f2046f66ce66d68ed7faf857c3a80ab20fb8",
+   "sourceSha256": "3e9af12834ccb092bf44810ec531f2046f66ce66d68ed7faf857c3a80ab20fb8"
+  },
+  {
+   "candidateRawSha256": "d31179bb4c6a8a81ee637f99fc8763aa36821dc3a364221fb76462195b5799d7",
+   "path": "words/ある.md",
+   "sourceRawSha256": "c52a94e8208e4031379b91581cef23261c1dbd2892d90dce93f6edf2b1bf9f6d",
+   "sourceSha256": "c52a94e8208e4031379b91581cef23261c1dbd2892d90dce93f6edf2b1bf9f6d"
+  },
+  {
+   "candidateRawSha256": "ea61d866dcc73e5a126943f12308864291e4551d2ed8e51ea8b6cf30e0e34919",
+   "path": "words/いす.md",
+   "sourceRawSha256": "95a17c3130b3a675067a7f118a21289e85489b0a2e38dba4c24bb0d69cf57a90",
+   "sourceSha256": "95a17c3130b3a675067a7f118a21289e85489b0a2e38dba4c24bb0d69cf57a90"
+  },
+  {
+   "candidateRawSha256": "d9b6cdd0d80c353ecf4782bdddf1e5bbfdd7f1610bb6cd409d30fef637b74ae1",
+   "path": "words/いただく.md",
+   "sourceRawSha256": "efd150ff48879daf634bf0f49396c98556472c17ab3117736a6b5d0f9f70ca26",
+   "sourceSha256": "efd150ff48879daf634bf0f49396c98556472c17ab3117736a6b5d0f9f70ca26"
+  },
+  {
+   "candidateRawSha256": "084d03315f39795456f8678df51041456006e25900a8830cea829910b871d1ef",
+   "path": "words/いちばん.md",
+   "sourceRawSha256": "6ae04990b21329855617f2222c86f9591d3ddc7bdfb5dbe7526c39e89b051533",
+   "sourceSha256": "6ae04990b21329855617f2222c86f9591d3ddc7bdfb5dbe7526c39e89b051533"
+  },
+  {
+   "candidateRawSha256": "06b5707b223e8d0564aa911a6fe5e5d324ba56185b821284821f9ce3c77786a8",
+   "path": "words/いる.md",
+   "sourceRawSha256": "85a4b9daf2a2ec2479b89467bd04293b1783f63c7546cbb8ec8be5c5da178429",
+   "sourceSha256": "85a4b9daf2a2ec2479b89467bd04293b1783f63c7546cbb8ec8be5c5da178429"
+  },
+  {
+   "candidateRawSha256": "9c9f174bd490dfff3474b6d463743cb8e5ace4d8712cc80aff0e987f77b2f5ed",
+   "path": "words/うるさい.md",
+   "sourceRawSha256": "1f8ee02aad9739ea4d51d6ae0cc25a5d1a3b515446216b400d534cbf72eebb75",
+   "sourceSha256": "1f8ee02aad9739ea4d51d6ae0cc25a5d1a3b515446216b400d534cbf72eebb75"
+  },
+  {
+   "candidateRawSha256": "19376bf778b0d87359c28e7b881150dcdaaa13191f197a3fbefc9f963b301463",
+   "path": "words/おいしい.md",
+   "sourceRawSha256": "bbccb85de58ff1072d4f94454989718b3fc4a096b7da970aed3968f6c26f8e84",
+   "sourceSha256": "bbccb85de58ff1072d4f94454989718b3fc4a096b7da970aed3968f6c26f8e84"
+  },
+  {
+   "candidateRawSha256": "0a4025e285d94b1af926d8cb6358535f964ac787f41617a8255c3cc543d36eaa",
+   "path": "words/おしゃべり.md",
+   "sourceRawSha256": "919360bc489bd7da54f70a32e5233059fa5bf02191ad1add93d9d5c9ffe5c3e9",
+   "sourceSha256": "919360bc489bd7da54f70a32e5233059fa5bf02191ad1add93d9d5c9ffe5c3e9"
+  },
+  {
+   "candidateRawSha256": "277a5ae50c660d9b85f726d7d6962370b1bcfd21949e6df7edb9beef2f51fa6e",
+   "path": "words/おなか.md",
+   "sourceRawSha256": "04a83575923b0415b46455bb0e1f31db654c4c30eb7d4d9258d15c169cf9f7a3",
+   "sourceSha256": "04a83575923b0415b46455bb0e1f31db654c4c30eb7d4d9258d15c169cf9f7a3"
+  },
+  {
+   "candidateRawSha256": "6b2ccf15d27b18565c8a67765f0501e7c1285c70dcea690c78e3528632297b4d",
+   "path": "words/かまう.md",
+   "sourceRawSha256": "ddf8a7156879626ea9e84b93c4d4c15ea13379fc6f18ef777e0b4cf8fbd63944",
+   "sourceSha256": "ddf8a7156879626ea9e84b93c4d4c15ea13379fc6f18ef777e0b4cf8fbd63944"
+  },
+  {
+   "candidateRawSha256": "cf50476ee2c414b7d634a7b822a6197777a792ff11eaba097b64c3d4783603dd",
+   "path": "words/ごちそう.md",
+   "sourceRawSha256": "de594ddf15af5e57fae3a16c14584aa32b9f7e6b31f217740873c10862419979",
+   "sourceSha256": "de594ddf15af5e57fae3a16c14584aa32b9f7e6b31f217740873c10862419979"
+  },
+  {
+   "candidateRawSha256": "f82e5cd398b702b4de03c84efb3d647ed1268dc64dd9a4d2dc69da603c8e4edf",
+   "path": "words/さあ.md",
+   "sourceRawSha256": "632dcaa13ebd457e1abbe071611bf1f6cafde883a8f6e29169e039470b143698",
+   "sourceSha256": "632dcaa13ebd457e1abbe071611bf1f6cafde883a8f6e29169e039470b143698"
+  },
+  {
+   "candidateRawSha256": "590810b08ad208ae27eeb341e11c2985b205ec6866e6163c420ca8131bdb4258",
+   "path": "words/すぐに.md",
+   "sourceRawSha256": "09d1bf2726d62cc90f214c4ac415b8ce11c84da00e6f8a2a26af943139df1730",
+   "sourceSha256": "09d1bf2726d62cc90f214c4ac415b8ce11c84da00e6f8a2a26af943139df1730"
+  },
+  {
+   "candidateRawSha256": "953e526a4ffaa277eb48d0ea078e25c1844983e40f20bc169a6c87e5377b2c12",
+   "path": "words/それでは.md",
+   "sourceRawSha256": "d70df60a07aefbf61598343eac9f4c69c67c1e2da4fda560fc86914e21043bb7",
+   "sourceSha256": "d70df60a07aefbf61598343eac9f4c69c67c1e2da4fda560fc86914e21043bb7"
+  },
+  {
+   "candidateRawSha256": "859103538f168f3f9c68fb04620c43639328d0e34d22379bff59221fdf7a299c",
+   "path": "words/だんだん.md",
+   "sourceRawSha256": "f4c37698a91a7faf54cf0730a77d86f061fb780bc7b4a2a4aeba0fed80fb4f18",
+   "sourceSha256": "f4c37698a91a7faf54cf0730a77d86f061fb780bc7b4a2a4aeba0fed80fb4f18"
+  },
+  {
+   "candidateRawSha256": "63e87c5678abcadb16594fc7ddc43f6c2076989b2d98d56be7cc88dcd26a9731",
+   "path": "words/ちゃわん.md",
+   "sourceRawSha256": "bd41c5844e663b3c32c3ca8b700d521a3ef672e9b0758f2a0abf8a557d29eec9",
+   "sourceSha256": "bd41c5844e663b3c32c3ca8b700d521a3ef672e9b0758f2a0abf8a557d29eec9"
+  },
+  {
+   "candidateRawSha256": "8292ad62e1fe5c7c71b4d0192f8dcf19f46d094fd5dfa183f232b923a1583d51",
+   "path": "words/ちょっと.md",
+   "sourceRawSha256": "a1735e30924c84146b94cd7f27257dc5f9e609a0bcb9226efbc20adf8d249165",
+   "sourceSha256": "a1735e30924c84146b94cd7f27257dc5f9e609a0bcb9226efbc20adf8d249165"
+  },
+  {
+   "candidateRawSha256": "65873676ab5c3db47671263e0c8508b44817a2e9225ed184ca816473eeb40ca5",
+   "path": "words/どちら.md",
+   "sourceRawSha256": "dabea33f51f8b9e86f05503e005a28d61a56d05b5847eb9140a3957180c36baa",
+   "sourceSha256": "dabea33f51f8b9e86f05503e005a28d61a56d05b5847eb9140a3957180c36baa"
+  },
+  {
+   "candidateRawSha256": "19d556abb8b5d3166e8a8cb00da495bbbc4f5de3bda0a8b0629117b165a0bfb5",
+   "path": "words/なかなか.md",
+   "sourceRawSha256": "10fe3833508b8db7a459f290b17ce54b82c1e5aa884bcf422ec6c8313171518d",
+   "sourceSha256": "10fe3833508b8db7a459f290b17ce54b82c1e5aa884bcf422ec6c8313171518d"
+  },
+  {
+   "candidateRawSha256": "b2d561a02e01affa1c83c0c896d6435c56020f3ee1997f970ea42ec595832b6b",
+   "path": "words/など.md",
+   "sourceRawSha256": "5c5b442e15a67ed57fa184fc7bb0360695069e6c36b49c076b88c9005e653058",
+   "sourceSha256": "5c5b442e15a67ed57fa184fc7bb0360695069e6c36b49c076b88c9005e653058"
+  },
+  {
+   "candidateRawSha256": "acaba1bb635f28683ccfb117c532dfcc013b3d46b4571e1bc873ca0dc37a6d7b",
+   "path": "words/なる.md",
+   "sourceRawSha256": "7d24715b2fb6cae607bc6e2472965720c4dce7af2dbb116644adb700686d28a0",
+   "sourceSha256": "7d24715b2fb6cae607bc6e2472965720c4dce7af2dbb116644adb700686d28a0"
+  },
+  {
+   "candidateRawSha256": "d203bcfaf1081295d48e6f6532f9368dfe9c9a5f4a4ee4ebb50a0918ce454aae",
+   "path": "words/にこにこ.md",
+   "sourceRawSha256": "c6dc6e543bbb1d171df6a2ef0217a1a84a417028ee5d0110a6d250bf7ffafa08",
+   "sourceSha256": "2e8a1fd4850262990039e22644d39aeb9d02df2797329ef448cadc99ef9bec43"
+  },
+  {
+   "candidateRawSha256": "f1839fd0ff48a118c9ff2ed28792f232b0675be3a551877ae0da5d8d2a784a56",
+   "path": "words/ねっしん.md",
+   "sourceRawSha256": "104da2a737efea2eb7e7a62bd54690815804861532a98958777fab9a05b03a7e",
+   "sourceSha256": "104da2a737efea2eb7e7a62bd54690815804861532a98958777fab9a05b03a7e"
+  },
+  {
+   "candidateRawSha256": "242c722e375cfe3922fc90075af2b715234d38fa10b1f4973ee66fb61342a680",
+   "path": "words/ほか.md",
+   "sourceRawSha256": "2c4d40251dc8b221e2e0ff5a120fb57fe832d707d58d02a41ccaca5360886919",
+   "sourceSha256": "2c4d40251dc8b221e2e0ff5a120fb57fe832d707d58d02a41ccaca5360886919"
+  },
+  {
+   "candidateRawSha256": "55ee2ab65dc2416ae642ccd0fab4651bbe528a2fd7511b69ae836359b6cc64e5",
+   "path": "words/また.md",
+   "sourceRawSha256": "9e1e4661a7dc27c75297795ab776b14c6c2be42b7d5b44a8ca7c12236a38b983",
+   "sourceSha256": "9e1e4661a7dc27c75297795ab776b14c6c2be42b7d5b44a8ca7c12236a38b983"
+  },
+  {
+   "candidateRawSha256": "3026da06a7cbfe5711c65ef31210b5e23d27c49021485ae19c97a6ba30d59c4d",
+   "path": "words/まだ.md",
+   "sourceRawSha256": "c26f62455ef736dd0a3c8784a7d3eb4f6758854c2cd8adb79c1c0c6129705b8b",
+   "sourceSha256": "c26f62455ef736dd0a3c8784a7d3eb4f6758854c2cd8adb79c1c0c6129705b8b"
+  },
+  {
+   "candidateRawSha256": "8fed9f0bd89e163ed28acdb2ecf18e08e64cce360e4b67e74ebeb9e183b33ee5",
+   "path": "words/みんな.md",
+   "sourceRawSha256": "ccd631617d6c02e0c1545349aaf4e65e628e4a704dc1acf7a14c1643a4c53cc3",
+   "sourceSha256": "ccd631617d6c02e0c1545349aaf4e65e628e4a704dc1acf7a14c1643a4c53cc3"
+  },
+  {
+   "candidateRawSha256": "0cf19a573dfcfa6042ad094878fcff1db18519803e4f1dae7480e7529270186a",
+   "path": "words/もちろん.md",
+   "sourceRawSha256": "11e06c6e8d8c5f1ae49998fcc48b04cb0bddae646e16258460c2207407772284",
+   "sourceSha256": "11e06c6e8d8c5f1ae49998fcc48b04cb0bddae646e16258460c2207407772284"
+  },
+  {
+   "candidateRawSha256": "6f8294451749905335580978b8452ffd73047adf86ff8630232dbd1304eb047c",
+   "path": "words/わがまま.md",
+   "sourceRawSha256": "0cdb696cf4cd093521ebf9ef9968d5509001f0ee789e2122c6c6e67df1190988",
+   "sourceSha256": "0cdb696cf4cd093521ebf9ef9968d5509001f0ee789e2122c6c6e67df1190988"
+  },
+  {
+   "candidateRawSha256": "a208394ab23e9e312e055119172ccc38bd7d01ae4ac5ccbcdff0c4c27a52fd08",
+   "path": "words/一人.md",
+   "sourceRawSha256": "50975042f7e8e263d2c1c0209537f395c3798983ea64bca4847f77a373ad7684",
+   "sourceSha256": "8441a043fa5caa9cfa132e17deb4aa7a966efad8b781d56a2c15fdee2468aabd"
+  },
+  {
+   "candidateRawSha256": "55b9f2077e35fa945520a0f15a9314cc32dfb1351a81ffd5debd9981f590008f",
+   "path": "words/万一.md",
+   "sourceRawSha256": "1e3bcb5f376cb5c6571265bbf4af2ecac5875afc19e53cfadd998c8be116b4e6",
+   "sourceSha256": "bc967a29620a81c6a49cf799994c0156e018dae9599319c4e085235d0c4fe9a3"
+  },
+  {
+   "candidateRawSha256": "7093ea0b014b3873343cba21e243e457f32144228bc6b7c3f763730f8b5c6498",
+   "path": "words/三百.md",
+   "sourceRawSha256": "4406d319b680fce3bcdc59a5baf77858d95e39583575a29ca334e08684c2400c",
+   "sourceSha256": "bc207daab3d9ca729278b320499c0ba886786742516489904c2ff82cf058dbff"
+  },
+  {
+   "candidateRawSha256": "bed00f690426e42cc62daae8a0add7992a944aafdb7b0570ebb1c187eac7d4ad",
+   "path": "words/上げる.md",
+   "sourceRawSha256": "56194a62c289fcc02d0416a3109d2cdf488d4b0c52406ef0e27fb3f64ad93404",
+   "sourceSha256": "56194a62c289fcc02d0416a3109d2cdf488d4b0c52406ef0e27fb3f64ad93404"
+  },
+  {
+   "candidateRawSha256": "609bf345caf0568e19f58cbb45621247aa85371015db552a8e12e9c959cff535",
+   "path": "words/人間.md",
+   "sourceRawSha256": "fb12f834b213daa26f6bdc5252faebe147c1c9dd1f36ea28f23f6bec2da2f546",
+   "sourceSha256": "1b7bd8cc761963e411f81b5f51b9b94fffbfbc87e42f15545d4e901ea4f64df3"
+  },
+  {
+   "candidateRawSha256": "c75561dec511afcc8539937bda8fcb05bcd897f9aee6d23ac82c34f1a214ebb7",
+   "path": "words/仕事.md",
+   "sourceRawSha256": "1c1237179f32e06c1e2a41e31ad73143ae8cb7ba7e3a38de480ab4acb3766a71",
+   "sourceSha256": "1c1237179f32e06c1e2a41e31ad73143ae8cb7ba7e3a38de480ab4acb3766a71"
+  },
+  {
+   "candidateRawSha256": "3f59843694d6462c6207a960b2a93e8664e63f77f640ca812d4b7026b4e8135e",
+   "path": "words/仕方.md",
+   "sourceRawSha256": "de4c2c1d3cd2f86cb11a6f954902c65bcaacc7fe75ef984ec5a815ca9e2f0389",
+   "sourceSha256": "de4c2c1d3cd2f86cb11a6f954902c65bcaacc7fe75ef984ec5a815ca9e2f0389"
+  },
+  {
+   "candidateRawSha256": "3311317128a14584e7aeadbd2df0e1f792fcbdbd6f750923b780424c7b77ef18",
+   "path": "words/他.md",
+   "sourceRawSha256": "4e8d1deefd0c884fe4d4bb38d810f5e1ea4e2bb6de8ca7a69eff7ec15b5d35b3",
+   "sourceSha256": "4e8d1deefd0c884fe4d4bb38d810f5e1ea4e2bb6de8ca7a69eff7ec15b5d35b3"
+  },
+  {
+   "candidateRawSha256": "3dba9885523bafe03d6233464188f2451810b95fe3cbe2c1daeaac097838b357",
+   "path": "words/付ける.md",
+   "sourceRawSha256": "76ce84b8a3f76f4e224d206878c576cd1defd4ef6396893ad64488e7c4ab25b1",
+   "sourceSha256": "76ce84b8a3f76f4e224d206878c576cd1defd4ef6396893ad64488e7c4ab25b1"
+  },
+  {
+   "candidateRawSha256": "4bcc7cb240a45e94dbfdd3d35af109c040504b9b5343b4254aa43969a3834b7b",
+   "path": "words/何か.md",
+   "sourceRawSha256": "43d4576fde9f94c880ba20431abc30f83591a848eadbf7e3ac558847a1e33c3f",
+   "sourceSha256": "f61eacd96fa5c6cd7468e13c35286a715fec23eaf47811fcafaf5468fb6caada"
+  },
+  {
+   "candidateRawSha256": "046e5a2923ee11fa2efb90ac38c059e8bc1245aa2215fa6aca1e257601e17fb4",
+   "path": "words/倒れる.md",
+   "sourceRawSha256": "9e18b26f664f6850acbb4dd7afb31797dce838866ba1b562ed1b5aaee9dcc7ee",
+   "sourceSha256": "9e18b26f664f6850acbb4dd7afb31797dce838866ba1b562ed1b5aaee9dcc7ee"
+  },
+  {
+   "candidateRawSha256": "e8638fe1407c312d6358f4f72fca5f352cbf21fc656a8c5535d314387afc0ada",
+   "path": "words/先月.md",
+   "sourceRawSha256": "7da7f8b1490b0a1278777a83cc93f1c8728a96d438eb2bdcfe295a5806dd85ff",
+   "sourceSha256": "7f0dbad504e73f27db9a5544fbd6648db0450837e07e72f3ad56a4ad8c556ed7"
+  },
+  {
+   "candidateRawSha256": "b7abba0610bcfb39e584521ef3759ad27e90709e051704d46e3738c02b6cc9ac",
+   "path": "words/入院.md",
+   "sourceRawSha256": "084d09073a483bb1ef6e78935e65465a3231ba50bcff07d46c7093dc7c93a868",
+   "sourceSha256": "084d09073a483bb1ef6e78935e65465a3231ba50bcff07d46c7093dc7c93a868"
+  },
+  {
+   "candidateRawSha256": "5dd3bc59958459d7dfe0ef98965c787f54a60854ceb2e354f91e8bf4dac8268b",
+   "path": "words/写真.md",
+   "sourceRawSha256": "2de2ea57fd3eb3564aee890b86fa299259622e132a60e6b25baae6357a676137",
+   "sourceSha256": "2de2ea57fd3eb3564aee890b86fa299259622e132a60e6b25baae6357a676137"
+  },
+  {
+   "candidateRawSha256": "6bab0ac29676d9c395609cbc2bdbf4670d96847c9afecd8c10e8ec9adc9b2027",
+   "path": "words/冷たい.md",
+   "sourceRawSha256": "8908d060bafad40b10cd0284e8ddca33f5523918f3eb43169838de9e6829e93b",
+   "sourceSha256": "8908d060bafad40b10cd0284e8ddca33f5523918f3eb43169838de9e6829e93b"
+  },
+  {
+   "candidateRawSha256": "ae5f23607abdf194980e77bf1260b61d14d44406c707a3833024819445fede0b",
+   "path": "words/出かける.md",
+   "sourceRawSha256": "0810912616275debf8d756701383d5450935c8e402300224084a69b59b14554c",
+   "sourceSha256": "0810912616275debf8d756701383d5450935c8e402300224084a69b59b14554c"
+  },
+  {
+   "candidateRawSha256": "5fe955905bd025277d26af5f95897f624c8babb58175b61a3dd33499073c3e0d",
+   "path": "words/出入口.md",
+   "sourceRawSha256": "ab09cafad1c6463193d9cd9670136e8dcc6a9be570c3b7cb7a6124d67d995393",
+   "sourceSha256": "a63f4892561bdf73bc05f0a203448fe83fa97c5b38cdaecbcee1ab884071de77"
+  },
+  {
+   "candidateRawSha256": "862f5dadf79bc928a67b099a6c18441f18422fa576a71dffeb0ec56860f135f1",
+   "path": "words/出席.md",
+   "sourceRawSha256": "0c712662fa87c1d7e255ad3c9cbf647ab80caaac20e7cd45a874e999fcf4d76b",
+   "sourceSha256": "0c712662fa87c1d7e255ad3c9cbf647ab80caaac20e7cd45a874e999fcf4d76b"
+  },
+  {
+   "candidateRawSha256": "e176b6ff0fae16cf1da8c8401b6972d84b0dcdaf6e0e977a98b8a67921c4370b",
+   "path": "words/初めて.md",
+   "sourceRawSha256": "84c5e9052ff5261f57e7aa294d3b6220f411692fbe4cb03d56cb7857edb2f8ab",
+   "sourceSha256": "84c5e9052ff5261f57e7aa294d3b6220f411692fbe4cb03d56cb7857edb2f8ab"
+  },
+  {
+   "candidateRawSha256": "faf0b2ed1836e18d1dd815711b4a677dcd5f2f85793b17b1b9689c3a2181795f",
+   "path": "words/勉強.md",
+   "sourceRawSha256": "6834a33656ca2acd8d1fe211fd0fc3cc59d4a5d9f3287c30e835a3a4b4e16a69",
+   "sourceSha256": "6834a33656ca2acd8d1fe211fd0fc3cc59d4a5d9f3287c30e835a3a4b4e16a69"
+  },
+  {
+   "candidateRawSha256": "8db3e8bcd95ad13eb39a664a2f448bf58590f61d5348dee1eca80cdbadf571ba",
+   "path": "words/名.md",
+   "sourceRawSha256": "efef32e8018194a84edb27aec776334be112da9e971b4a893dd7400ce3f01858",
+   "sourceSha256": "efef32e8018194a84edb27aec776334be112da9e971b4a893dd7400ce3f01858"
+  },
+  {
+   "candidateRawSha256": "06ef8c717d94b7bab65583af6d48cacb81684587b12f5f329b8292ba734a8e55",
+   "path": "words/吹く.md",
+   "sourceRawSha256": "50fd6636d7e74dcf29f5c19fd6044124481c87544c912373fe0dceaa870690a7",
+   "sourceSha256": "50fd6636d7e74dcf29f5c19fd6044124481c87544c912373fe0dceaa870690a7"
+  },
+  {
+   "candidateRawSha256": "f8a7304fd0557b011108b878f7f4cb1fd894ab3a7f08faf25016a0c44ea9b730",
+   "path": "words/喜び.md",
+   "sourceRawSha256": "73535adc4291b6bc14ee9ab32575918d9a4c29662261e351b8403a5b291d7a0e",
+   "sourceSha256": "73535adc4291b6bc14ee9ab32575918d9a4c29662261e351b8403a5b291d7a0e"
+  },
+  {
+   "candidateRawSha256": "df16e9da7bae4b07a20f860ff06649df36770741fa7cc5925ff8e43d0dd50091",
+   "path": "words/噂.md",
+   "sourceRawSha256": "e83203ee46b4dfd5eb60dacf71581336b4d59c72bf5dd794fcb8c8af1a4270d8",
+   "sourceSha256": "e83203ee46b4dfd5eb60dacf71581336b4d59c72bf5dd794fcb8c8af1a4270d8"
+  },
+  {
+   "candidateRawSha256": "3ce06ea028377bd0bc0f46d1e6c68972d851b164f1bfdbc1d50c31d441194f13",
+   "path": "words/困る.md",
+   "sourceRawSha256": "48c4139917e6814b2aebf1ebd34e7cf6cb396b83bdf0240deb768ad1d60d6b83",
+   "sourceSha256": "48c4139917e6814b2aebf1ebd34e7cf6cb396b83bdf0240deb768ad1d60d6b83"
+  },
+  {
+   "candidateRawSha256": "ddc1432b544dc09cf36d164d9557ea81bdc0376f99db2ecbaaca75e9b0f52f9c",
+   "path": "words/地図.md",
+   "sourceRawSha256": "84d0699a3f0be16bf2df11d1fcc6bbe739df39c8fc0a0e61a35921116a567b36",
+   "sourceSha256": "84d0699a3f0be16bf2df11d1fcc6bbe739df39c8fc0a0e61a35921116a567b36"
+  },
+  {
+   "candidateRawSha256": "b397321f3aba480b10104a3e157d39f5687a7efc32920da427cbc7c84d018a61",
+   "path": "words/声.md",
+   "sourceRawSha256": "ec838811f2a55314d57054e7880db39c7429ab6629e0fc4e01bba6c21e15371b",
+   "sourceSha256": "ec838811f2a55314d57054e7880db39c7429ab6629e0fc4e01bba6c21e15371b"
+  },
+  {
+   "candidateRawSha256": "f7d827e7c14c6224259d96f43d610c50c12fd5156da5d375926a2e4b6d4c0d8e",
+   "path": "words/多分.md",
+   "sourceRawSha256": "569006e583af6d75c23a486b85ea027ae717cae014d635a03465fc5406f573be",
+   "sourceSha256": "569006e583af6d75c23a486b85ea027ae717cae014d635a03465fc5406f573be"
+  },
+  {
+   "candidateRawSha256": "bff4f086105a11e1a1e6e6e437cdc9cf00741583153a5531679b4965b1d5390f",
+   "path": "words/家族.md",
+   "sourceRawSha256": "ae1a246a785e8cbd1bec7ae36ae2a4c2decf25a4eef0bc2840be83e9f6d24633",
+   "sourceSha256": "ae1a246a785e8cbd1bec7ae36ae2a4c2decf25a4eef0bc2840be83e9f6d24633"
+  },
+  {
+   "candidateRawSha256": "01b8cc0eea42dfb5cabe0a9969add791e5c015b7da2712c5fcc51669977b2709",
+   "path": "words/寝る.md",
+   "sourceRawSha256": "d09a39ab071b51794a6d41a66f0dcb2113a54156dc231ac06f7629c578f2dcc8",
+   "sourceSha256": "d09a39ab071b51794a6d41a66f0dcb2113a54156dc231ac06f7629c578f2dcc8"
+  },
+  {
+   "candidateRawSha256": "98395fd94bb15fabc065b00745c7b4f4c34317980a9afc0b7f555da77cb92ee2",
+   "path": "words/川.md",
+   "sourceRawSha256": "08b5ba019272e86b70cdfeae7fb53e84d0e5f415f6508cb1d17d23f30cab73ba",
+   "sourceSha256": "08b5ba019272e86b70cdfeae7fb53e84d0e5f415f6508cb1d17d23f30cab73ba"
+  },
+  {
+   "candidateRawSha256": "25f1256b6d0615558968a17f7f63463a565e465fef02d00248d92a30f5bfbec7",
+   "path": "words/幸福.md",
+   "sourceRawSha256": "172d4266a5238dbbf5b4214c2dff0e7db7e4c902a8b041f95329c1448275d410",
+   "sourceSha256": "172d4266a5238dbbf5b4214c2dff0e7db7e4c902a8b041f95329c1448275d410"
+  },
+  {
+   "candidateRawSha256": "8b973b40e6cb3d97f45d2bb92b1992f38a1d8be3dd05cb6eb54f591cd0832e3a",
+   "path": "words/庭.md",
+   "sourceRawSha256": "05c3d2ad686533951e1e0ae8c37000833c971ee18ef3524fbdea9cfebe227638",
+   "sourceSha256": "05c3d2ad686533951e1e0ae8c37000833c971ee18ef3524fbdea9cfebe227638"
+  },
+  {
+   "candidateRawSha256": "2e514cbf7209df385193ac9f8ac3de40e4c4bc331800f266c8901977e752178a",
+   "path": "words/建てる.md",
+   "sourceRawSha256": "32ebabb28e344e3baea1aaaf8dc1b17a16534212e46e0db0f6bc6ba1f5947a70",
+   "sourceSha256": "32ebabb28e344e3baea1aaaf8dc1b17a16534212e46e0db0f6bc6ba1f5947a70"
+  },
+  {
+   "candidateRawSha256": "ed19e8ab29c7008840cf1b4d7e6490c5f6ad3a12166821e8f5ba3ba4ceb4da60",
+   "path": "words/弱い.md",
+   "sourceRawSha256": "d56277a42dc03748fb7f9877167d3b66846c323cd346848417268aefd44fa826",
+   "sourceSha256": "d56277a42dc03748fb7f9877167d3b66846c323cd346848417268aefd44fa826"
+  },
+  {
+   "candidateRawSha256": "05e6bd9818ad9492acf3ee0b961d6c41714685fc4abe303e6d71344c4286c0a8",
+   "path": "words/待つ.md",
+   "sourceRawSha256": "7791fac13d7c5c095f60454704b38b98621d2ed99250096d8bd4a5f6cc8842d2",
+   "sourceSha256": "7791fac13d7c5c095f60454704b38b98621d2ed99250096d8bd4a5f6cc8842d2"
+  },
+  {
+   "candidateRawSha256": "4180d2323a2655b60eb951ed08ec8f43bf57a748511f84a2d6a8d847173e3b91",
+   "path": "words/押す.md",
+   "sourceRawSha256": "dec0019bdc75766bda3c2739d7c9ef9869779b651ecffee89f21c502f55432f3",
+   "sourceSha256": "dec0019bdc75766bda3c2739d7c9ef9869779b651ecffee89f21c502f55432f3"
+  },
+  {
+   "candidateRawSha256": "cbce2e5c46027672c38c42263423fe42436636ef3f3e3134903caf05f3976203",
+   "path": "words/放送.md",
+   "sourceRawSha256": "77eca2122e0913bc5353edf5249963c7fbb5f240092548bba158e26be97c4c69",
+   "sourceSha256": "77eca2122e0913bc5353edf5249963c7fbb5f240092548bba158e26be97c4c69"
+  },
+  {
+   "candidateRawSha256": "0a173fefc71e7de1a3b27c3da59ff1b6b5d3b893cd607ac50f360c5e283db9fa",
+   "path": "words/教室.md",
+   "sourceRawSha256": "53af6f5138a1dcb453b00479ffee7ccec7a4b69f824a2a885ce27486055336c8",
+   "sourceSha256": "53af6f5138a1dcb453b00479ffee7ccec7a4b69f824a2a885ce27486055336c8"
+  },
+  {
+   "candidateRawSha256": "07c95ddc8c5472a84f251ca538665450fe5a1a5d701d52587da057a5963b12b8",
+   "path": "words/日.md",
+   "sourceRawSha256": "052a0c7f9ab3d5f43283c9d6df3e1e6e863140fd2143466cb0680ff9878503d2",
+   "sourceSha256": "052a0c7f9ab3d5f43283c9d6df3e1e6e863140fd2143466cb0680ff9878503d2"
+  },
+  {
+   "candidateRawSha256": "6ed216dacbfb22ee7a40115299b1c0f4604a3a10a9a2247c8cafb243caa192c9",
+   "path": "words/日中.md",
+   "sourceRawSha256": "cb8ef7495e7f5d24dc05dba76a6c39af405ee681bbeb16e6d2377ac839f34ac0",
+   "sourceSha256": "91ab54381e8cb9457a863c47e4e8e2d8815d414beb61b6d58c0203c162c0f313"
+  },
+  {
+   "candidateRawSha256": "90018706dafe420ddaafc6ae38df7842d7bc22924fc03b4fd837f3f9214bfa69",
+   "path": "words/日本.md",
+   "sourceRawSha256": "726134d0f9579874d671a263ea2946beb2434c32d2f428661af01e919853e84a",
+   "sourceSha256": "7fd98af6c724220c7422f3996587cb0c74d9d48ecdb4ddae20f3af1629bdcd5b"
+  },
+  {
+   "candidateRawSha256": "27fc72f79c2a950a608b622d4b4515ed2670b36af7a85e169396159550e5ec59",
+   "path": "words/明るい.md",
+   "sourceRawSha256": "9f203e97dbc0393643ac88a3fa6718ae3766fb15050cfbe36cef3c1ea77b3ae7",
+   "sourceSha256": "9f203e97dbc0393643ac88a3fa6718ae3766fb15050cfbe36cef3c1ea77b3ae7"
+  },
+  {
+   "candidateRawSha256": "76b43794a648d955c4570703f66225731e00de95351cbb25b000808cd543629a",
+   "path": "words/易しい.md",
+   "sourceRawSha256": "9414d59b746dab8ee3cdfde31b3ee2bf75781655feef9bb2c6d1d9745252aa78",
+   "sourceSha256": "9414d59b746dab8ee3cdfde31b3ee2bf75781655feef9bb2c6d1d9745252aa78"
+  },
+  {
+   "candidateRawSha256": "2d9e46221e48fd89bf0ca494e240b97530d339f93b042a0a0a35bb2b147ffde4",
+   "path": "words/昨日.md",
+   "sourceRawSha256": "4fcdf5d6ed5e199cb45756f9ee758ca96e3750b91bab6cd54d1956182bd07cbe",
+   "sourceSha256": "4fcdf5d6ed5e199cb45756f9ee758ca96e3750b91bab6cd54d1956182bd07cbe"
+  },
+  {
+   "candidateRawSha256": "1fc1bd35234556b912708181819d2013f1679adb472b7e37314a92ddd2b83752",
+   "path": "words/昼.md",
+   "sourceRawSha256": "ce52287596a3ab3b33dbf7909adb664499702fe7179fb020e329343c43f358b9",
+   "sourceSha256": "ce52287596a3ab3b33dbf7909adb664499702fe7179fb020e329343c43f358b9"
+  },
+  {
+   "candidateRawSha256": "ef13b431835ae861debafd51b79b3fee6469f06019321867b6622774b2beebf0",
+   "path": "words/曇り.md",
+   "sourceRawSha256": "1b930cf760a09d6d5ded0657a424cf3ab8e1854c01560487f5d175a29ff9bf9d",
+   "sourceSha256": "1b930cf760a09d6d5ded0657a424cf3ab8e1854c01560487f5d175a29ff9bf9d"
+  },
+  {
+   "candidateRawSha256": "8bf168beba59c7f9d28c6024bf25871aa75b22e964249879a057ceef1c379dbe",
+   "path": "words/書く.md",
+   "sourceRawSha256": "a4b805868cf6dd34a320c0e40192d678633d57ef80a4660070dc828afd1bbde3",
+   "sourceSha256": "66d7ace084108999e00d55f40c19af1007cb9fc352b8ce0b42b5a3159f772c5c"
+  },
+  {
+   "candidateRawSha256": "c5c2b3367d33eb97a02140c86060b74494fc0130aa0d92ef5b109c1d2cb9ead6",
+   "path": "words/最近.md",
+   "sourceRawSha256": "0148df9ba784dbf77f3cc994172ea71e91531a1a0c6f96eca9344047125398ec",
+   "sourceSha256": "0148df9ba784dbf77f3cc994172ea71e91531a1a0c6f96eca9344047125398ec"
+  },
+  {
+   "candidateRawSha256": "4e06f28ba0d59cdb91a0c353b99a48a5ff414ba7c5c68e6b2a487982b5da1330",
+   "path": "words/本棚.md",
+   "sourceRawSha256": "86e269b738689148355d837c71a2db091994b27b980dd538153454804698f182",
+   "sourceSha256": "86e269b738689148355d837c71a2db091994b27b980dd538153454804698f182"
+  },
+  {
+   "candidateRawSha256": "fd4bf79293ec9e22f97adbbd6950e61d63532ee7482c78fdb6c4c4e947a6e341",
+   "path": "words/来月.md",
+   "sourceRawSha256": "577624f1696f6fac4613be2868be521aecc236fda53811293f88a7092beb0774",
+   "sourceSha256": "577624f1696f6fac4613be2868be521aecc236fda53811293f88a7092beb0774"
+  },
+  {
+   "candidateRawSha256": "fa22327c3e0ef76059f8cd26bf0785eab77ec742acbb48d3f4b5c63f31c76d15",
+   "path": "words/欲張り.md",
+   "sourceRawSha256": "d17adf231be732889a75817ccceaf6fda995686fc0e5d177f8f8a3bd4b37c2c8",
+   "sourceSha256": "d17adf231be732889a75817ccceaf6fda995686fc0e5d177f8f8a3bd4b37c2c8"
+  },
+  {
+   "candidateRawSha256": "0675140ba5a75fbf8ab7cd8aec304c75e5748fb0b9e1d984c8214d4ed752126a",
+   "path": "words/毎日.md",
+   "sourceRawSha256": "ebc4ee3a178892da285472a23e40226fe2d9688c32617707529888ea27ef6e08",
+   "sourceSha256": "a7a656123a977a42b39df8a229973d44d08f0029fd303941724554670571f64a"
+  },
+  {
+   "candidateRawSha256": "9a42c2d41b4db5e68e47349994c8005ef5624d544be34cae58be30eb8c5c0bab",
+   "path": "words/毛.md",
+   "sourceRawSha256": "439af8c1c1cbc775b8dda9fb15dd5b27511df44e1aff726fbf849dce6f79a0ef",
+   "sourceSha256": "439af8c1c1cbc775b8dda9fb15dd5b27511df44e1aff726fbf849dce6f79a0ef"
+  },
+  {
+   "candidateRawSha256": "6d145ef1d44ea960e068ece38342616ebe7a001b7113a281b644f5cab19b778a",
+   "path": "words/汚す.md",
+   "sourceRawSha256": "c3c5048ce6e543db4e41806f6b8cd5bca0ff6284a7c5be8ad7b98ef5d524523d",
+   "sourceSha256": "c3c5048ce6e543db4e41806f6b8cd5bca0ff6284a7c5be8ad7b98ef5d524523d"
+  },
+  {
+   "candidateRawSha256": "04871e6928d9e94f6f8df9606923a040b79ad81b37d6411f21c85db581cbfe67",
+   "path": "words/決める.md",
+   "sourceRawSha256": "cecbf921eff4b3ca76d85c572c9db09a9f5b0e8a6daedbf48c22a29a63e82a74",
+   "sourceSha256": "cecbf921eff4b3ca76d85c572c9db09a9f5b0e8a6daedbf48c22a29a63e82a74"
+  },
+  {
+   "candidateRawSha256": "45dccd9df215b10763f748579e4e836425c36288d2de37b1e6c7e48740b75db9",
+   "path": "words/泥棒.md",
+   "sourceRawSha256": "4981dce4008c446bb4de02912c5a2329c00ecf71463c3d2ca7d1b8ee56475c89",
+   "sourceSha256": "4981dce4008c446bb4de02912c5a2329c00ecf71463c3d2ca7d1b8ee56475c89"
+  },
+  {
+   "candidateRawSha256": "a258ccc3158417ba6254d6750cf76c8be5e03fe078d7d91901f6014f8a87445f",
+   "path": "words/海.md",
+   "sourceRawSha256": "33d9cd1a424c38a5a8c62c894d8cacc1dc910eec60c36280a2a03814c87c14b5",
+   "sourceSha256": "33d9cd1a424c38a5a8c62c894d8cacc1dc910eec60c36280a2a03814c87c14b5"
+  },
+  {
+   "candidateRawSha256": "ad180218ba89ff06d3fc6aeef182a88800a04e06daec55ee963e434e0e459c07",
+   "path": "words/火.md",
+   "sourceRawSha256": "572db0fbc9880681132010a2901d756b10cc566a71cf3de76395022d310010ec",
+   "sourceSha256": "572db0fbc9880681132010a2901d756b10cc566a71cf3de76395022d310010ec"
+  },
+  {
+   "candidateRawSha256": "ee386b138eec5719e836b3408d0a0982ab9606831a32348f10289fb2c7342ad2",
+   "path": "words/現れ.md",
+   "sourceRawSha256": "948b8f128871015e3e841dc02dff18caf3610ce0689ce2c53c600ee090c59b75",
+   "sourceSha256": "948b8f128871015e3e841dc02dff18caf3610ce0689ce2c53c600ee090c59b75"
+  },
+  {
+   "candidateRawSha256": "99b6ee617ebf5a9647b03893dbfaae09a607116abf82365feb13354b6f88832e",
+   "path": "words/相当.md",
+   "sourceRawSha256": "576f1167878eea5a6819af1dd72de9ce1fb6686c00a679ccf81a4f87191a24c7",
+   "sourceSha256": "576f1167878eea5a6819af1dd72de9ce1fb6686c00a679ccf81a4f87191a24c7"
+  },
+  {
+   "candidateRawSha256": "923abd52d96a4699647f899a894242e5f1b2178ac916fbfea4d16b9110e7354a",
+   "path": "words/着る.md",
+   "sourceRawSha256": "b26ce44bf5fdcbac629427e57e4cc315f2b1297eecaedeede8813708cf86ab74",
+   "sourceSha256": "b26ce44bf5fdcbac629427e57e4cc315f2b1297eecaedeede8813708cf86ab74"
+  },
+  {
+   "candidateRawSha256": "e1ad6205c9a013a550de8ad82394f26539b8beb090f1fc238ec2601e7adee514",
+   "path": "words/知る.md",
+   "sourceRawSha256": "a41ea514bd96bd804189316245cab7028d12d0ca44ada2cafe39dbaafafa292b",
+   "sourceSha256": "a41ea514bd96bd804189316245cab7028d12d0ca44ada2cafe39dbaafafa292b"
+  },
+  {
+   "candidateRawSha256": "68f4d9dfb81dc10216f6fe3aa61451f31fb52bcc60ab3529e73338a61721035b",
+   "path": "words/研究.md",
+   "sourceRawSha256": "3a3e8e4a0f379ef1854b612602198828d22f8e501e31f31b8613281deb290b9f",
+   "sourceSha256": "3a3e8e4a0f379ef1854b612602198828d22f8e501e31f31b8613281deb290b9f"
+  },
+  {
+   "candidateRawSha256": "978ee2435ed779df2e1b93f776636d8fde723f9941b521b906c851edb3bc5dec",
+   "path": "words/窓.md",
+   "sourceRawSha256": "c7f79940828f4d373cb0e3ad8350fc41fa1c2478bc58ce543c301727eced1fcc",
+   "sourceSha256": "c7f79940828f4d373cb0e3ad8350fc41fa1c2478bc58ce543c301727eced1fcc"
+  },
+  {
+   "candidateRawSha256": "4c50b5ffa4552bcb79214074923103c1fdd5eeb8ac31fd52f6d0645548777ccd",
+   "path": "words/立つ.md",
+   "sourceRawSha256": "bac9a088a79230c66de55abca2cac99fbd1d54583b40a23fc8fc7976ab5a54b5",
+   "sourceSha256": "bac9a088a79230c66de55abca2cac99fbd1d54583b40a23fc8fc7976ab5a54b5"
+  },
+  {
+   "candidateRawSha256": "b109a689cf590688c07412a83efd1663822b65b3209c21f3b79890c11758033a",
+   "path": "words/笑い.md",
+   "sourceRawSha256": "acb6dd7410ab4f6c32f53961a1eeb27d6e180e8e9609ebd37a94e07d2229fcc8",
+   "sourceSha256": "acb6dd7410ab4f6c32f53961a1eeb27d6e180e8e9609ebd37a94e07d2229fcc8"
+  },
+  {
+   "candidateRawSha256": "a8746ea2987875d1e1535a7089f696b5651345de0643c2e8624c189fb408250d",
+   "path": "words/精神.md",
+   "sourceRawSha256": "cf77d7ff9f7b3e845328d4039d39979a5938a6c2e815be79cd344fafb5c24bdf",
+   "sourceSha256": "cf77d7ff9f7b3e845328d4039d39979a5938a6c2e815be79cd344fafb5c24bdf"
+  },
+  {
+   "candidateRawSha256": "d5044de1aa3aaa33538d76d9381315acd21f3e2a961e5e4d447b683cf44989fa",
+   "path": "words/紙.md",
+   "sourceRawSha256": "d404b11550f8e0734602c9052400e4315a29e6abc069a5bb83c155d345269c6b",
+   "sourceSha256": "d404b11550f8e0734602c9052400e4315a29e6abc069a5bb83c155d345269c6b"
+  },
+  {
+   "candidateRawSha256": "04ded753b90f1bc14812876231992d3232d630466d90d0ba8a2ed449ae21d7a7",
+   "path": "words/終わる.md",
+   "sourceRawSha256": "2035f02cbba7fab27f89a1ed61cfcb12aab6f0445f0622dd5ea852e8ea154ba4",
+   "sourceSha256": "2035f02cbba7fab27f89a1ed61cfcb12aab6f0445f0622dd5ea852e8ea154ba4"
+  },
+  {
+   "candidateRawSha256": "fcb14d73d187fe37f4194ef18f15faf5af0f95ec3cac815fb23da6fc42ce7e8d",
+   "path": "words/組.md",
+   "sourceRawSha256": "7cf2d908ad33b56d96658d54205a91de69dd3f71f3f3cb5cf31bec5eb7bd9e2f",
+   "sourceSha256": "7cf2d908ad33b56d96658d54205a91de69dd3f71f3f3cb5cf31bec5eb7bd9e2f"
+  },
+  {
+   "candidateRawSha256": "85d0f8dabd980dfbb595ce6c68339e00fad0f3689bd05f4546732eb0f25004ce",
+   "path": "words/耳.md",
+   "sourceRawSha256": "762d3484c892761d737abcd0210be2a7a53eb1655e1ffc964afba2f1189c96ca",
+   "sourceSha256": "cd54e47acf1374636aa10435a85e6fbc4d433bef8c44014aba871baed767c1c6"
+  },
+  {
+   "candidateRawSha256": "eea10f1909cab5db294f17004f47810e22a1343bc928edae25a3fce08bf219b7",
+   "path": "words/背.md",
+   "sourceRawSha256": "be282dec683cceba823a6c38b436a73ee1ceafe5c08ee52f3cbda1e6c1ff5f0c",
+   "sourceSha256": "be282dec683cceba823a6c38b436a73ee1ceafe5c08ee52f3cbda1e6c1ff5f0c"
+  },
+  {
+   "candidateRawSha256": "f7af0dffa0b562fcac5dbfa8ca9e0c451302f64a56854d9758c9847dc8acf124",
+   "path": "words/良い.md",
+   "sourceRawSha256": "63829165a490be9b918f4934fcf1d68abb99d3d8554e819eac14b3a861984fb5",
+   "sourceSha256": "63829165a490be9b918f4934fcf1d68abb99d3d8554e819eac14b3a861984fb5"
+  },
+  {
+   "candidateRawSha256": "d4da77f2c9929ef24fe7ebfcbd6af36e76065f13174633a3851f09f30d7c6dc0",
+   "path": "words/苦しい.md",
+   "sourceRawSha256": "5f82d033367ff54312163fe40e98c8b95288d40250642709ef6cace5d3f68e71",
+   "sourceSha256": "5f82d033367ff54312163fe40e98c8b95288d40250642709ef6cace5d3f68e71"
+  },
+  {
+   "candidateRawSha256": "2747683aca4109979928d30332bebc420baa15d21499f2a89c6b3d7a1fce93ec",
+   "path": "words/表現.md",
+   "sourceRawSha256": "4832bb291be365566898e3bcd17282c0fea6654dda763b5bee83e30c93aacd32",
+   "sourceSha256": "4832bb291be365566898e3bcd17282c0fea6654dda763b5bee83e30c93aacd32"
+  },
+  {
+   "candidateRawSha256": "b562cddc21ad243364080fd8f6dcf4aeffb9493c0589267b2af3fe266c23d3f6",
+   "path": "words/西.md",
+   "sourceRawSha256": "85cd76b7b8a72bfe519cbe44411016fc4b4b5d855ae4a23da2c2a83823a569a5",
+   "sourceSha256": "85cd76b7b8a72bfe519cbe44411016fc4b4b5d855ae4a23da2c2a83823a569a5"
+  },
+  {
+   "candidateRawSha256": "2a9eaa8a9c25cf2d2b59d823ac008a2b653e95e8ecfffcf91eaf731b5b205606",
+   "path": "words/見つかる.md",
+   "sourceRawSha256": "fd3e57404534b270239eb817d02fc2502b0a53f9de5de865327fab4eeb8b372b",
+   "sourceSha256": "fd3e57404534b270239eb817d02fc2502b0a53f9de5de865327fab4eeb8b372b"
+  },
+  {
+   "candidateRawSha256": "0e71202b9b78d937657729822295bf2023dbd4440e6048c8f42af44c59cbfe82",
+   "path": "words/見つける.md",
+   "sourceRawSha256": "8a7d973cb00eefdcf8eaf38b29e0f7c326f04a5ed5202b6ef11d246bdd2cb3ab",
+   "sourceSha256": "8a7d973cb00eefdcf8eaf38b29e0f7c326f04a5ed5202b6ef11d246bdd2cb3ab"
+  },
+  {
+   "candidateRawSha256": "c75e1dfea7a791e6a0208e05a15f86a7177aad2334a267480093d55f000be480",
+   "path": "words/見る.md",
+   "sourceRawSha256": "beb58c3cd4117b43fc98938fe6e4f8d357461b882501d93dd8bc5d00e5bd2245",
+   "sourceSha256": "c8da621f25bf4257bc6ab4bf546c3110a29938f5e34bd99e17ba13d1bbd0f4a9"
+  },
+  {
+   "candidateRawSha256": "b1ac82c7b8243639ccdc6daaf868f79957554f4a5dc9ad12862f4437148eb2e3",
+   "path": "words/訳.md",
+   "sourceRawSha256": "c88e59a9c13237ad7aa64df95627dd07f47173d5401ac0beac2ca9beb8fded5e",
+   "sourceSha256": "c88e59a9c13237ad7aa64df95627dd07f47173d5401ac0beac2ca9beb8fded5e"
+  },
+  {
+   "candidateRawSha256": "1eb8dfe8aaf9183cf72b74e0de2c5004c9d1c1134b6c561dc1fdcd0bb768bfcd",
+   "path": "words/話す.md",
+   "sourceRawSha256": "61ebd14c2eb0ac2fa2fb877a7b7655441156d6216e8e0abd96358c6ff2411247",
+   "sourceSha256": "eb54d4f8dd056335606a5ef6ca5e6b2a35238866af562633bd523306ab86d2ed"
+  },
+  {
+   "candidateRawSha256": "464a18d69b08a52bd07384c0e7f797b9cae950ac857476ca2ca097f3c2c0ca0f",
+   "path": "words/読む.md",
+   "sourceRawSha256": "36f524e70063816c28aebfd491a81fe70f19c05dab9cdc3c7e8705643ec98bd6",
+   "sourceSha256": "dc4f6a044ed5a5957d7ccd5a167afbf9620cfc83b0391acb64cd4b864847c68c"
+  },
+  {
+   "candidateRawSha256": "3fef29d7295cd5375eb00bbd109b23e4aa8ab514fed6298265b2c21d55bf0aae",
+   "path": "words/調べる.md",
+   "sourceRawSha256": "c1be303f66dff6905e1a08e3d248468153bba89cf040b73929d02608c2209935",
+   "sourceSha256": "c1be303f66dff6905e1a08e3d248468153bba89cf040b73929d02608c2209935"
+  },
+  {
+   "candidateRawSha256": "e451ac606fa2a666243fe30f571d37978a4a8dca810776c34bca0a37a2c05a6f",
+   "path": "words/貸す.md",
+   "sourceRawSha256": "3d30a9362f36e6998990dbc0689683ea4c3d4fe0c8c47d3c640f5b15101cd296",
+   "sourceSha256": "3d30a9362f36e6998990dbc0689683ea4c3d4fe0c8c47d3c640f5b15101cd296"
+  },
+  {
+   "candidateRawSha256": "218d7caf29137c4fe96101bf9d29507db7d881bbc1a5a02caffee56a7d53f4e0",
+   "path": "words/走る.md",
+   "sourceRawSha256": "65bb47067703b585ba40c9ec25fdb15479623095327e964017a7b3498c0fd3cc",
+   "sourceSha256": "65bb47067703b585ba40c9ec25fdb15479623095327e964017a7b3498c0fd3cc"
+  },
+  {
+   "candidateRawSha256": "b49f62a8d15b16e23ceacbbb273f0fdc57720f5daaf9ff2803d8d5eb4bd045e0",
+   "path": "words/足りる.md",
+   "sourceRawSha256": "89b15d3edd243321474f6b8ec85985efa2a33a48df32032553cccb24e8b1093c",
+   "sourceSha256": "89b15d3edd243321474f6b8ec85985efa2a33a48df32032553cccb24e8b1093c"
+  },
+  {
+   "candidateRawSha256": "279df7f81f09ed8318842d121fab970fdfadab4a80176f52ccf542bea684bab7",
+   "path": "words/跡.md",
+   "sourceRawSha256": "49593d2ea19a87702189406638de757568ca22ee74db13a0f569c39d2e8ac75b",
+   "sourceSha256": "49593d2ea19a87702189406638de757568ca22ee74db13a0f569c39d2e8ac75b"
+  },
+  {
+   "candidateRawSha256": "e14c841c58a9df63685b6e4e54b39c05330c7bf530f911b01ce14fd6c56c16df",
+   "path": "words/近頃.md",
+   "sourceRawSha256": "6136da36d09c024fd7bf2e931343021f5518ea589f25b68a610da7487659b899",
+   "sourceSha256": "6136da36d09c024fd7bf2e931343021f5518ea589f25b68a610da7487659b899"
+  },
+  {
+   "candidateRawSha256": "a926686269a5d0151fa8339219e7656ac91871c84f144e708a31e73f369c31d3",
+   "path": "words/運ぶ.md",
+   "sourceRawSha256": "f6b79b201b7b9bc83993222f169952b71fbac86d233d1a621c4bfe3a05d0f560",
+   "sourceSha256": "f6b79b201b7b9bc83993222f169952b71fbac86d233d1a621c4bfe3a05d0f560"
+  },
+  {
+   "candidateRawSha256": "1194e268da75f8e1691f96eda42400266b69cdbede0b51415b63f32752901452",
+   "path": "words/開ける.md",
+   "sourceRawSha256": "a51aa6cf7e7fb73bfe03cc61cdd582e9003df26f711e75602a8a7836420d5c46",
+   "sourceSha256": "a51aa6cf7e7fb73bfe03cc61cdd582e9003df26f711e75602a8a7836420d5c46"
+  },
+  {
+   "candidateRawSha256": "d2979f429293b8669e406dc5fa9c6b2dd7ad00949d48510d80e28bef483c77dd",
+   "path": "words/降る.md",
+   "sourceRawSha256": "5cf150b15aec389553e8dd2765c5d371808161a62505b2c08045d51cecd3a8c4",
+   "sourceSha256": "5cf150b15aec389553e8dd2765c5d371808161a62505b2c08045d51cecd3a8c4"
+  },
+  {
+   "candidateRawSha256": "d5601cf5e4e71f1435146f7ce400e5630a8a06967171f7210710f615839dd6c0",
+   "path": "words/青い.md",
+   "sourceRawSha256": "0e1f329a963e22ea1e7d62a3eef98b250af33589a9a7a1cfb7e529c89882e0b2",
+   "sourceSha256": "e7535962882ea41ea58b4695fc128ac1c710bb4fc8f493d78512cecb903777f4"
+  },
+  {
+   "candidateRawSha256": "f40f338aa62c2724024ef9879c3826ba83560aceac1ef72961f8d3d21c054d03",
+   "path": "words/頭.md",
+   "sourceRawSha256": "925c354f1cde4ec6e746bab6f0158a6189017a25ba11d333bf2a6cab5adabaab",
+   "sourceSha256": "925c354f1cde4ec6e746bab6f0158a6189017a25ba11d333bf2a6cab5adabaab"
+  }
+ ],
+ "schemaVersion": 1,
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f"
+}
