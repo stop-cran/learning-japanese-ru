@@ -1,6 +1,31 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch168 navigation-only link restoration sweep
+## Current published source milestone: batch169 thirty words (general word queue)
+
+Batch169 adds 30 Russian word articles: 永久 永遠 悠々 もやもや めらめら ぼうっと 突然 急に ばったり 思わず ふと
+うっかり でこぼこ ごつごつ かさかさ ざらざら 粗い 激しい 荒い 様子 状態 加減 見当 およそ 程度 約 ざっと 一時 少々 一旦.
+They are chunk 0 of 111 of the general remaining-word queue (recomputed after Batch168: closure of 3,327 EN words),
+so every EN quiz_exclusions target resolves to an existing RU word or a batch word. Fifteen existing pages
+(kanji/久 様 状 程 突 and 10 word pages) receive 24 navigation-only link wraps at EN link positions, with per-file
+link counts matching EN. Kanji without RU cards (悠 態 旦 永 減 激 粗 荒) stay plain text; four onomatopoeia images
+are omitted under the word-only convention.
+
+The batch covers eternity, suddenness and carelessness, rough textures, state/degree and approximation clusters.
+The independent read-only review found scoped coverage clean and seven quiz-safety gaps (for example ばったり–出会う,
+少々–少ない/気持ち, 様子–具合/場合 and うっかり–思わず), plus low-severity wording issues: the 疲れ加減 gloss,
+«на душе неспокойно» in もやもや reading as worry, and English-dependent remarks about the source glosses in
+ばったり, 急に and ふと. All were fixed; ざっと and もやもや were retitled rather than guarded («навскидку; бегло
+(просмотреть)», «туманный; смутно на душе»). The recheck resolved every finding with no regressions and all four
+facets clean.
+
+Qualified progress is **3,189 reviewed-current / 8 reviewed runtime-blocked / 5,081 pending of 8,278**,
+with 1,723 words, 718 kanji and 718 strokes. See the [intake](translation-batches/169-words-batch-08-intake.json),
+[independent review](translation-batches/169-words-batch-08-independent-review-001.md),
+[recheck](translation-batches/169-words-batch-08-recheck-001.md),
+[qualified source record](translation-batches/169-words-batch-08-reviewed-source.json) and
+[final validation](translation-batches/169-words-batch-08-final-validation-001.json).
+
+## Previous published source milestone: batch168 navigation-only link restoration sweep
 
 Batch168 adds no new cards. Earlier batches translated cards while some EN link targets did not yet exist in RU, so
 those mentions stayed plain text. After Batch167 a corpus scan of words/, kanji/ and articles/ found 205 (file, target)
