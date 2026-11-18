@@ -1,0 +1,183 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "173-words-batch-12",
+ "publishedBaseline": "5e90801",
+ "qualifiedVerdicts": {
+  "content": "Review 001 at af53715: correctness NEEDS FIX (F5 自宅 «собственное жильё» implied ownership, contradicting the article's rented-home point); scoped coverage CLEAN; comprehensibility NEEDS FIX (F6 腹 «брюхо» is прост. about a person; optional polish for 提案 title and example, 知恵 example, 出来事 title and calque); quiz safety NEEDS FIX (F1 残り-続き, F2 典型-型, F3 プラン-料金 via «тариф», F4 ケース-出来事 via «случай»; optional 計-器具 via «прибор»). Recheck 001 at 2c33c06: F1-F6 and the accepted optional items (計-器具 guard, 提案 title and example, 知恵 example, 出来事 title and calque) resolved with no regressions; correctness, scoped coverage, comprehensibility and quiz safety CLEAN; no generated files committed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Title/stem screen hand-checked; author guards beyond EN added 残り-跡/ほか, 出来事-こと, 自宅-家/お宅, 胸-心, 翌日-次, 合計-勘定/代金, 案-計画, プラン-予定/つもり, 計-つもり/予定/時計, 金額-合計/代金, ケース-機会, 感情-愛情; the review fixes added 残り-続き, 典型-型, プラン-料金, ケース-出来事 and 計-器具. 残り, 自宅, 腹, 提案 and 出来事 were retitled."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/173-words-batch-12-intake.json",
+  "docs/translation-batches/173-words-batch-12-independent-review-001.md",
+  "docs/translation-batches/173-words-batch-12-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "典",
+   "屈",
+   "屑",
+   "恵",
+   "提",
+   "案",
+   "繭",
+   "翌",
+   "胸",
+   "脳",
+   "舟",
+   "芋",
+   "苗",
+   "額"
+  ],
+  "navigationNote": "Only link brackets added at EN link positions for batch words (26 links in 13 files; per-file link counts match EN): kanji/件 -> 事件, kanji/例 -> 例, kanji/型 -> 典型, kanji/宅 -> 自宅, kanji/情 -> 感情, kanji/感 -> 感情, kanji/腹 -> 腹, words/おなか -> 腹, words/愛情 -> 感情, words/船 -> ボート, words/苗 -> 育苗, words/蚕 -> 繭, words/隻 -> 舟.",
+  "navigationOnlyEdits": [
+   "kanji/件.md",
+   "kanji/例.md",
+   "kanji/型.md",
+   "kanji/宅.md",
+   "kanji/情.md",
+   "kanji/感.md",
+   "kanji/腹.md",
+   "words/おなか.md",
+   "words/愛情.md",
+   "words/船.md",
+   "words/苗.md",
+   "words/蚕.md",
+   "words/隻.md"
+  ],
+  "newWords": [
+   "退屈",
+   "くだらない",
+   "紙屑",
+   "残り",
+   "屑",
+   "芋",
+   "ボート",
+   "ヨット",
+   "典型",
+   "例",
+   "出来事",
+   "事件",
+   "ケース",
+   "舟",
+   "自宅",
+   "知恵",
+   "知能",
+   "感情",
+   "胸",
+   "腹",
+   "脳",
+   "育苗",
+   "翌日",
+   "繭",
+   "合計",
+   "提案",
+   "案",
+   "プラン",
+   "計",
+   "金額"
+  ],
+  "selection": "Chunk 0 of 107 of the general remaining-word queue (word_schedule.py 30 --all over the full remaining word closure of 3,207 EN words, recomputed after Batch172); the chunk is closed under quiz_exclusions, so every EN exclusion target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to targets absent from RU (words 知識 能力 胃 育つ 巣 実行; kanji 芋 舟 胸 脳 苗 翌 繭 額) are plain labels until those files exist.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "芋-野菜/ほくほく, 育苗-苗/苗代, 金額-お金/値段/料金/費用, 合計-計算, 提案-意見, 胸-気持ち, ヨット-船/ボート guards not added: hypernyms or distinct Russian answers, and EN has no pairs",
+   "Pre-existing extra link kanji/例 -> 例えば left outside this word batch"
+  ],
+  "exclusionsAddedBeyondEn": {
+   "ケース": [
+    "機会",
+    "出来事"
+   ],
+   "プラン": [
+    "予定",
+    "つもり",
+    "料金"
+   ],
+   "典型": [
+    "型"
+   ],
+   "出来事": [
+    "こと"
+   ],
+   "合計": [
+    "勘定",
+    "代金"
+   ],
+   "感情": [
+    "愛情"
+   ],
+   "案": [
+    "計画"
+   ],
+   "残り": [
+    "跡",
+    "ほか",
+    "続き"
+   ],
+   "翌日": [
+    "次"
+   ],
+   "胸": [
+    "心"
+   ],
+   "自宅": [
+    "家",
+    "お宅"
+   ],
+   "計": [
+    "つもり",
+    "予定",
+    "時計",
+    "器具"
+   ],
+   "金額": [
+    "合計",
+    "代金"
+   ]
+  },
+  "titles": {
+   "くだらない": "пустяковый; вздорный; никчёмный",
+   "ケース": "футляр; случай",
+   "プラン": "план; пакет услуг",
+   "ボート": "гребная лодка; лодка",
+   "ヨット": "парусная яхта; парусник",
+   "事件": "инцидент; происшествие",
+   "例": "пример",
+   "典型": "типичный пример; типичный представитель",
+   "出来事": "событие; случившееся",
+   "合計": "итог; общая сумма",
+   "屑": "отходы; обрезки; мусор",
+   "感情": "эмоции; чувства",
+   "提案": "предложение (на рассмотрение)",
+   "案": "предложение; проект",
+   "残り": "остаток; оставшееся",
+   "知恵": "мудрость; смекалка",
+   "知能": "интеллект; умственные способности",
+   "紙屑": "макулатура; бумажный мусор",
+   "繭": "кокон",
+   "翌日": "следующий день; на следующий день",
+   "育苗": "выращивание рассады",
+   "胸": "грудь; сердце (о чувствах)",
+   "脳": "мозг; ум",
+   "腹": "живот; брюшная область",
+   "自宅": "свой дом; своё жильё",
+   "舟": "лодка; судно",
+   "芋": "клубнеплод (картофель, таро и др.)",
+   "計": "план; итого; -метр (прибор)",
+   "退屈": "скука; скучный",
+   "金額": "денежная сумма"
+  }
+ }
+}
