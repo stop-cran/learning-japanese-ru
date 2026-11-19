@@ -1,6 +1,39 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch195 thirty words (general word queue)
+## Current published source milestone: batch196 thirty words (general word queue)
+
+Batch196 adds 30 Russian word articles: 能力 能 胃 育つ 肩 皮 肌 職業 職 考慮 考え 老人 老い 翼 羽 美人 罹る 罰する 罪 缶
+繰り返す 結ぶ 繋ぐ 綿 保存 維持 絶滅 絶対 絵画 給料. They are chunk 0 of 84 of the general remaining-word queue (recomputed
+after Batch195: 2,517 EN words remaining); the dependency closure is exactly the 30 requested words, so every EN
+quiz_exclusions target resolves to an existing RU word or a batch word. Fifteen existing word pages and the kanji pages 給, 絶,
+罪, 老, 職 and 育 receive 33 navigation-only link wraps at EN link positions; 保, 慮, 滅, 皮, 結, 維, 綿, 繋, 繰, 缶, 罰, 罹,
+羽, 翼, 肌, 肩 and 胃 remain plain labels because those kanji have no RU card.
+
+The batch covers ability and talent, including Noh theatre (能力, 能), the stomach and shoulder (胃, 肩), growing up (育つ),
+peel, hide and skin (皮, 肌), occupations and posts (職業, 職), consideration and thoughts (考慮, 考え), old people and ageing
+(老人, 老い), wings and feathers (翼, 羽), beauties (美人), falling ill (罹る), punishment and crime (罰する, 罪), cans (缶),
+repeating (繰り返す), tying and connecting (結ぶ, 繋ぐ), cotton (綿), storage and maintenance (保存, 維持), extinction (絶滅),
+absolute certainty (絶対), painting (絵画) and salary (給料). All 20 EN exclusions are retained; 15 direct guards beyond EN
+cover 能力–知能, 能–機能, 育つ–伸びる/成長, 皮–革, 肌–表/面, 職–勤め, 考慮–尊重, 考え–意見/見解/考える, 維持–支える and
+老人–おじいさん/おばあさん. Exclusions are one-sided declarations that Android applies in both directions; the batch changes
+exclusions only on its new cards.
+The blind facet-split review found correctness clean, one scoped-coverage gap (綿 changed EN's kana reading gloss), one
+quiz-safety gap (老人 «пожилой человек» overlaps おじいさん and おばあさん) and nine minor comprehensibility and coverage
+defects: 能力 called 才能 innate; «театр но» read as the conjunction «но»; 綿, 考慮, 絶対 and 老人 lacked contrasts with 木綿,
+尊重, ぜひ and おじいさん/おばあさん; 羽 and 皮 kept author-facing source-list notes; and «ханэцуки» lacked context. All were
+fixed with plain-text contrasts, a guard pair, «театр Но», EN-faithful «талант, одарённость» and reworded learner notes.
+The candidate was committed signed and pushed before review. The records preserve the author's and reviewer's differing
+required-versus-conservative classification of the RU-added pairs and the reviewers' differing dictionary evidence on
+whether 才能 implies innate ability. The serial rechecks reported all facets clean.
+
+Qualified progress is **3,999 reviewed-current / 8 reviewed runtime-blocked / 4,271 pending of 8,278**,
+with 2,533 words, 718 kanji and 718 strokes. See the [intake](translation-batches/196-words-batch-35-intake.json),
+[independent review](translation-batches/196-words-batch-35-independent-review-001.md),
+[recheck](translation-batches/196-words-batch-35-recheck-001.md),
+[qualified source record](translation-batches/196-words-batch-35-reviewed-source.json) and
+[final validation](translation-batches/196-words-batch-35-final-validation-001.json).
+
+## Previous published source milestone: batch195 thirty words (general word queue)
 
 Batch195 adds 30 Russian word articles: 表情 衣服 衝突 衛星 行儀 行動 行き 虫歯 作家 ライター 著者 菓子 莫大 苦しむ 芸術
 芝生 航空 舞台 舌 臭い 天然 自然 自殺 自慢 自動 膝 腰 腐る 脇 才能. They are chunk 0 of 85 of the general remaining-word
