@@ -1,6 +1,40 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch193 thirty words (general word queue)
+## Current published source milestone: batch194 thirty words (general word queue)
+
+Batch194 adds 30 Russian word articles: 解決 解ける 解く 観察 観客 観光 親友 覚悟 覚める 覚ます 見解 見舞い 偉い 上等 見事
+覆う 要素 要点 すなわち つまり 要するに 製品 裸 裏切る 裁判 害 被害 被る 袖 袋. They are chunk 0 of 86 of the general
+remaining-word queue (recomputed after Batch193: 2,577 EN words remaining); the dependency closure is exactly the 30 requested
+words, so every EN quiz_exclusions target resolves to an existing RU word or a batch word. Eight existing word pages and the
+kanji pages 偉, 害, 察 and 観 receive 20 navigation-only link wraps at EN link positions; 悟, 覆, 素, 製, 裸, 裏, 裁, 被, 袖
+and 袋 remain plain labels because those kanji have no RU card.
+
+The batch covers solving and untying (解決, 解ける, 解く), observation, spectators and sightseeing (観察, 観客, 観光), close
+friends (親友), resolve and waking (覚悟, 覚める, 覚ます), views and sympathy visits (見解, 見舞い), praise and quality (偉い,
+上等, 見事), covering (覆う), elements and main points (要素, 要点), the restatement words すなわち, つまり and 要するに,
+products (製品), nakedness and betrayal (裸, 裏切る), trials (裁判), harm and damage (害, 被害), wearing on the head or taking
+blame (被る), sleeves (袖) and bags (袋). All 20 EN exclusions are retained; 27 direct guards beyond EN cover
+解決–決定/解く/解ける/決める, 解ける–解く/決まる, 解く–決める, 観察–見物, 親友–友人/友達/友, 覚ます–起す,
+見舞い–訪問/訪ねる/伺う, 偉い–立派/感心/偉大/優秀/大した, 上等–すばらしい, 見事–凄い, 要素–部分, 要点–中心, 製品–品物
+and 被る–着る/履く. Exclusions are one-sided declarations that Android applies in both directions; the batch changes
+exclusions only on its new cards.
+The blind facet-split review found correctness clean, also for a post-blind Gramota check of nine Russian lexical choices.
+It found two quiz-safety gaps closed by guards (見事–凄い, 解決–決める) and three comprehensibility defects: 被害's
+definition «увиденные…» could read as harm that was seen, 被る ended with the English source-list gloss "to suffer", and
+覚ます's title «будить; пробуждать» repeated 起す «будить». 被害 now says «с точки зрения того, кто их понёс», 被る's
+provenance note renders the gloss as «страдать», and 覚ます is retitled «пробуждать; выводить из сна». Two optional wording
+items (お as the polite prefix in 見舞い, 解く's own gloss «развязывать») were accepted. The candidate was committed signed
+and pushed before review. The recheck preserves the author's and reviewer's differing required-versus-conservative
+classification of the RU-added pairs. The serial rechecks reported all facets clean.
+
+Qualified progress is **3,939 reviewed-current / 8 reviewed runtime-blocked / 4,331 pending of 8,278**,
+with 2,473 words, 718 kanji and 718 strokes. See the [intake](translation-batches/194-words-batch-33-intake.json),
+[independent review](translation-batches/194-words-batch-33-independent-review-001.md),
+[recheck](translation-batches/194-words-batch-33-recheck-001.md),
+[qualified source record](translation-batches/194-words-batch-33-reviewed-source.json) and
+[final validation](translation-batches/194-words-batch-33-final-validation-001.json).
+
+## Previous published source milestone: batch193 thirty words (general word queue)
 
 Batch193 adds 30 Russian word articles: 生まれ 誕生 許す 認める 誇り 詳しい 話題 詰める 詩人 試す 試し 判断 評価 証明 検査 診察
 設計 訪問 記録 記者 記憶 記念 記入 記事 訓練 訓 討つ 言わば 触れる 解釈. They are chunk 0 of 87 of the general remaining-word queue

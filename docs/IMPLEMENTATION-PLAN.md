@@ -8,7 +8,18 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch193 thirty words
+## Current published source milestone: batch194 thirty words
+
+Batch194 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions with nothing added), plus 20 navigation-only link wraps in 8 existing word pages and the kanji pages
+偉, 害, 察 and 観. The blind facet-split review found correctness clean, two quiz-safety gaps closed by guards (見事–凄い,
+解決–決める) and three comprehensibility defects (被害's «увиденные» definition, 被る's English source-list gloss and
+覚ます's title repeating 起す «будить»). All were fixed, and the serial rechecks reported all facets clean.
+Progress: **3,939 reviewed-current / 8 runtime-blocked / 4,331 pending of 8,278**; 2,473 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch194-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch193 thirty words
 
 Batch193 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions with nothing added), plus 20 navigation-only link wraps in 8 existing word pages and the kanji pages
@@ -17,7 +28,7 @@ reading やま), two quiz-safety gaps closed by guards (訪問–お見舞い, �
 English a/the remark). All were fixed, and the serial rechecks reported all facets clean.
 Progress: **3,909 reviewed-current / 8 runtime-blocked / 4,361 pending of 8,278**; 2,443 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch193-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch193-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch192 thirty words
 

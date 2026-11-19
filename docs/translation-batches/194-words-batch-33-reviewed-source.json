@@ -1,0 +1,180 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "194-words-batch-33",
+ "publishedBaseline": "93d7bf3f90217383b86c428bb3ad0e4de661bd7a",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 6947a60 and serialized fix rechecks of 330e621 found the original quiz-safety and comprehensibility defects resolved; correctness was clean from the start, including a post-blind Gramota check of nine Russian lexical choices. 被害's opening definition now says «с точки зрения того, кто их понёс» instead of «увиденные…», which could read as harm that was seen; 被る's source-list provenance note renders the English gloss \"to suffer\" as «страдать»; 覚ます is retitled «пробуждать; выводить из сна» so that it no longer repeats 起す «будить»; 見舞い names お as the polite prefix; and 解く's nuance warning names its own gloss «развязывать». Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation, the preserved author/reviewer required-versus-conservative exclusion classification and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 20 EN exclusions across 13 lists are retained. The reviewed RU title overlaps received 27 direct, one-sided exclusions on 14 new cards: 解決–決定/解く/解ける/決める; 解ける–解く/決まる; 解く–決める; 観察–見物; 親友–友人/友達/友; 覚ます–起す; 見舞い–訪問/訪ねる/伺う; 偉い–立派/感心/偉大/優秀/大した; 上等–すばらしい; 見事–凄い; 要素–部分; 要点–中心; 製品–品物; 被る–着る/履く. Two were added after review: 見事–凄い and 解決–決める. 覚ます's title was reworded after review from «будить; пробуждать» to «пробуждать; выводить из сна» (EN \"awaken; bring out of sleep\") to remove the exact title overlap with 起す «будить»; the 覚ます–起す guard is kept because both still denote waking. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/194-words-batch-33-intake.json",
+  "docs/translation-batches/194-words-batch-33-independent-review-001.md",
+  "docs/translation-batches/194-words-batch-33-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "悟",
+   "覆",
+   "素",
+   "製",
+   "裸",
+   "裏",
+   "裁",
+   "被",
+   "袖",
+   "袋"
+  ],
+  "navigationNote": "Restored 20 relative links across the 12 listed Markdown files at the corresponding EN-linked positions, using EN's href forms. No surrounding prose was changed. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented. The pre-existing kanji/偉.md link to 偉大 (an RU extra relative to EN) is unchanged and outside this batch.",
+  "navigationOnlyEdits": [
+   "kanji/偉.md",
+   "kanji/害.md",
+   "kanji/察.md",
+   "kanji/観.md",
+   "words/すばらしい.md",
+   "words/ビニール.md",
+   "words/上.md",
+   "words/偉大.md",
+   "words/友人.md",
+   "words/親しい.md",
+   "words/言わば.md",
+   "words/訪問.md"
+  ],
+  "newWords": [
+   "解決",
+   "解ける",
+   "解く",
+   "観察",
+   "観客",
+   "観光",
+   "親友",
+   "覚悟",
+   "覚める",
+   "覚ます",
+   "見解",
+   "見舞い",
+   "偉い",
+   "上等",
+   "見事",
+   "覆う",
+   "要素",
+   "要点",
+   "すなわち",
+   "つまり",
+   "要するに",
+   "製品",
+   "裸",
+   "裏切る",
+   "裁判",
+   "害",
+   "被害",
+   "被る",
+   "袖",
+   "袋"
+  ],
+  "selection": "Batch 33 selected 30 word cards from the frozen source: chunk 0 of the 86-batch dependency-closed queue of the general remaining-word pool (30 of 2,577 remaining EN words, recomputed after Batch 193). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. 覚ます→覚める, 見事→偉い/上等, つまり→すなわち, 要するに→つまり and 被害→害 are the dependency edges inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped: 解ける→溶ける; 解く→結ぶ; 観客→俳優; 親友→仲間; 覚悟→決心; 見解→考え; 上等→最高; 要素→全体; 要点→メモ; 製品→商品; 裏切る→kanji 裏 and 信頼; 裁判→犯罪; 害→損害; 被害→kanji 被 and 損害; 被る→kanji 被 and 被せる; 袖→衣服; 袋→kanji 袋. 10 written kanji have no RU kanji card: 悟, 覆, 素, 製, 裸, 裏, 裁, 被, 袖, 袋. No RU-only links were added (EN link parity).",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: guarding 解決–決まる (決まる is an intransitive verb, 解決's title is a noun, and 決定 already guards «решение»); guarding 親友–親しい (noun versus adjective, unguarded in EN); deleting 被る's source-list provenance note (EN keeps it and reviewed RU cards keep the same kind of note; its English gloss is now rendered in Russian); and adding a 起す comparison sentence and link to 覚ます (EN has no such link or sentence, RU-only links break EN link parity, and the title collision is removed). No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "上等": [
+    "すばらしい"
+   ],
+   "偉い": [
+    "立派",
+    "感心",
+    "偉大",
+    "優秀",
+    "大した"
+   ],
+   "被る": [
+    "着る",
+    "履く"
+   ],
+   "製品": [
+    "品物"
+   ],
+   "要点": [
+    "中心"
+   ],
+   "要素": [
+    "部分"
+   ],
+   "見事": [
+    "凄い"
+   ],
+   "見舞い": [
+    "訪問",
+    "訪ねる",
+    "伺う"
+   ],
+   "覚ます": [
+    "起す"
+   ],
+   "親友": [
+    "友人",
+    "友達",
+    "友"
+   ],
+   "観察": [
+    "見物"
+   ],
+   "解く": [
+    "決める"
+   ],
+   "解ける": [
+    "解く",
+    "決まる"
+   ],
+   "解決": [
+    "決定",
+    "解く",
+    "解ける",
+    "決める"
+   ]
+  },
+  "titles": {
+   "すなわち": "а именно; то есть",
+   "つまり": "другими словами; короче говоря",
+   "上等": "высококачественный; превосходный",
+   "偉い": "достойный похвалы; высокопоставленный",
+   "害": "вред",
+   "袋": "пакет; мешок",
+   "袖": "рукав",
+   "被る": "надевать на голову; брать вину на себя",
+   "被害": "ущерб; понесённый вред",
+   "裁判": "суд; судебный процесс",
+   "裏切る": "предавать; подводить",
+   "裸": "голый; неприкрытый",
+   "製品": "изделие; продукция",
+   "要するに": "словом; если коротко",
+   "要点": "основные моменты; главное",
+   "要素": "элемент; составляющая; фактор",
+   "覆う": "покрывать; укрывать",
+   "見事": "замечательный; восхитительный",
+   "見舞い": "визит к больному; знак сочувствия",
+   "見解": "точка зрения; позиция",
+   "覚ます": "пробуждать; выводить из сна",
+   "覚める": "пробуждаться; приходить в себя",
+   "覚悟": "готовность (к трудностям); решимость",
+   "親友": "близкий друг",
+   "観光": "туризм; осмотр достопримечательностей",
+   "観客": "зритель; публика",
+   "観察": "наблюдение",
+   "解く": "развязывать; решать (задачу)",
+   "解ける": "развязываться; решаться (о задаче)",
+   "解決": "решение (проблемы); урегулирование"
+  }
+ }
+}
