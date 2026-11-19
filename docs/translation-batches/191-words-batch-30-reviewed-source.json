@@ -1,0 +1,174 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "191-words-batch-30",
+ "publishedBaseline": "6aff607acac4c44f4e98f120ecea5bac706364bd",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews on the shared initial tree and serialized fix rechecks found the original correctness, comprehensibility, scoped-coverage and quiz-safety defects resolved. 負け drops an unsourced claim that 敗北 sounds more bookish and glosses 今回は私の負けです non-past («это мой проигрыш»); 越す, 販売 and 貢献 no longer depend on English-language glosses (the «распродажа» warning is restated in Russian); 働き contrasts 労働 «труд» (労働時間 «рабочее время») with the person's or organ's work shown in its examples. The reviews ran on a local unsigned commit whose tree is identical to the signed candidate 3109d3d; the records state this. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation, the preserved author/reviewer required-versus-conservative exclusion classification and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 37 EN exclusions are retained. The reviewed RU title overlaps received 19 direct, one-sided exclusions: 身体–生物; 越す–引っ越す/移る/過ぎる; 与える–くれる/くださる; 贈る–あげる/差し上げる/上げる; 恩–御礼; 貸し–貸す; 貴重–高価; 係–責任; 働き–労働/運転/動く; 責任–担当; 販売–売る; 負け–負ける. 越す–過ぎる and 貴重–高価 were added after review. 係 was retitled «ответственный (за порученное дело); ведение» before review because «поручение» exactly matched the 依頼 and 用事 titles. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/191-words-batch-30-intake.json",
+  "docs/translation-batches/191-words-batch-30-independent-review-001.md",
+  "docs/translation-batches/191-words-batch-30-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "身",
+   "贈",
+   "贅",
+   "沢",
+   "賢",
+   "賞",
+   "源",
+   "恩",
+   "貴",
+   "貯",
+   "義",
+   "販",
+   "貢",
+   "献",
+   "豪",
+   "華"
+  ],
+  "navigationNote": "Restored 22 relative links across the 12 listed Markdown files at the corresponding EN-linked positions. No surrounding prose was changed. In kanji/負.md the RU sentence lacks EN's separate \"see 責任\" clause, so the 責任 link sits on 責任 in 責任を負う. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/与.md",
+   "kanji/任.md",
+   "kanji/役.md",
+   "kanji/負.md",
+   "kanji/責.md",
+   "kanji/越.md",
+   "words/供給.md",
+   "words/利口.md",
+   "words/担当.md",
+   "words/重要.md",
+   "words/量.md",
+   "words/鋭い.md"
+  ],
+  "newWords": [
+   "身体",
+   "越える",
+   "越す",
+   "起こる",
+   "与える",
+   "贈る",
+   "贅沢",
+   "質",
+   "賢い",
+   "賞",
+   "資源",
+   "資本",
+   "恩",
+   "貸し",
+   "貴重",
+   "貯金",
+   "係",
+   "機能",
+   "働き",
+   "作業",
+   "勤め",
+   "役",
+   "義務",
+   "務め",
+   "責任",
+   "責める",
+   "販売",
+   "貢献",
+   "負け",
+   "豪華"
+  ],
+  "selection": "Batch 30 selected 30 word cards from the frozen source: chunk 0 of the 89-batch dependency-closed queue of the general remaining-word pool (30 of 2,667 remaining EN words, recomputed after Batch 190). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. 越す→越える, 贈る→与える, 貸し→恩, 働き→機能, 作業→働き, 勤め→作業, 役→係/勤め, 義務→役, 務め→義務/勤め/役, 責任→務め/義務 and 豪華→贅沢 are the dependency edges inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped: 越える and 越す→kanji 超; 与える→影響; 贈る→kanji 贈; 贅沢→節約; 賢い→kanji 賢; 賞→kanji 賞; 恩→感謝; 貯金→kanji 貯 and 節約; 機能 and 責任→役割; 義務→権利; 責める→叱る and 攻める; 販売→kanji 販; 貢献→協力 and 寄付; 負け→勝ち. Sixteen written kanji have no RU kanji card: 身, 贈, 贅, 沢, 賢, 賞, 源, 恩, 貴, 貯, 義, 販, 貢, 献, 豪, 華.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional additions: 渡す guards on 与える/贈る and an 恩–おかげ guard (no shared title word; necessity not established; withdrawn in recheck); 係 «поручение» (exact title collision with 依頼/用事); rewording 資本:41 and 与える:17 (faithful to EN); a 賢い→利口 back-pointer and replacing 質 «характер вещи» (the examples disambiguate; 質–性格 is guarded); 越す honorific sense 6 (EN stops at senses 1–5; expansion); a link to 労働 in 働き and the unsourced «часто условия и время труда» wording (EN link parity; unsourced). No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "与える": [
+    "くれる",
+    "くださる"
+   ],
+   "係": [
+    "責任"
+   ],
+   "働き": [
+    "労働",
+    "運転",
+    "動く"
+   ],
+   "恩": [
+    "御礼"
+   ],
+   "負け": [
+    "負ける"
+   ],
+   "販売": [
+    "売る"
+   ],
+   "責任": [
+    "担当"
+   ],
+   "貴重": [
+    "高価"
+   ],
+   "貸し": [
+    "貸す"
+   ],
+   "贈る": [
+    "あげる",
+    "差し上げる",
+    "上げる"
+   ],
+   "越す": [
+    "過ぎる",
+    "引っ越す",
+    "移る"
+   ],
+   "身体": [
+    "生物"
+   ]
+  },
+  "titles": {
+   "与える": "давать; предоставлять",
+   "作業": "выполнение работ; операция",
+   "係": "ответственный (за порученное дело); ведение",
+   "働き": "труд; функционирование",
+   "務め": "долг; обязанность",
+   "勤め": "служба; буддийское богослужение",
+   "役": "роль; обязанность",
+   "恩": "благодеяние; долг благодарности",
+   "機能": "функция",
+   "義務": "обязанность; обязательство",
+   "豪華": "роскошный; пышный",
+   "負け": "поражение; проигрыш",
+   "貢献": "вклад (в общее дело)",
+   "販売": "продажа; сбыт",
+   "責める": "упрекать; винить",
+   "責任": "ответственность",
+   "貯金": "сбережения; откладывание денег",
+   "貴重": "ценный; драгоценный",
+   "貸し": "ссуда; должок (за услугу)",
+   "資本": "капитал (для дела)",
+   "資源": "ресурсы",
+   "賞": "премия; награда",
+   "賢い": "умный; мудрый",
+   "質": "качество; сущность",
+   "贅沢": "роскошь; излишество",
+   "贈る": "дарить; преподносить",
+   "起こる": "происходить; случаться",
+   "越える": "перебираться через; выходить за пределы",
+   "越す": "переваливать через; превышать",
+   "身体": "тело (человека); организм"
+  }
+ }
+}

@@ -8,7 +8,20 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch190 thirty words
+## Current published source milestone: batch191 thirty words
+
+Batch191 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions with nothing added), plus 22 navigation-only link wraps in 6 existing word pages and the kanji pages
+与, 任, 役, 負, 責 and 越. The blind facet-split review found one correctness defect (負け's unsourced claim that 敗北 sounds
+more bookish), two quiz-safety gaps (越す–過ぎる, 貴重–高価) and five comprehensibility or coverage defects (English-dependent
+remarks in 越す, 販売 and 貢献, 負け's past-tense gloss, no 働き–労働 contrast). All were fixed, and the serial rechecks reported
+all facets clean. Signing timed out at the first candidate commit, so the reviews ran on a local unsigned commit with a tree
+identical to the signed candidate; the records state this.
+Progress: **3,849 reviewed-current / 8 runtime-blocked / 4,421 pending of 8,278**; 2,383 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch191-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch190 thirty words
 
 Batch190 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions with nothing added), plus 10 navigation-only link wraps in 6 existing word pages and the kanji pages
@@ -18,7 +31,7 @@ contrasts, 近代's title, a bare 円 in 丸). All were fixed, 近代 was retitl
 withdrawn, and the serial rechecks reported all facets clean.
 Progress: **3,819 reviewed-current / 8 runtime-blocked / 4,451 pending of 8,278**; 2,353 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch190-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch190-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch189 thirty words
 
