@@ -1,0 +1,219 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "186-words-batch-25",
+ "publishedBaseline": "ff841a6",
+ "qualifiedVerdicts": {
+  "content": "Review 001 on the staged candidate tree 4fdfa8d over ff841a6 (blind kanji-accuracy-reviewer subagent; underlying model assigned by the runtime and not disclosed). The tree was committed unchanged as candidate 5baf298 after GPG signing became available (tree identity verified). Verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; quiz safety NEEDS FIX (F1, minor, medium confidence: 預ける «отдавать на хранение; оставлять под присмотром» lacked a guard against 頼む «просить; поручать», since JMdict gives 預ける \"to leave (a matter) in someone's hands\" and 頼む \"to entrust to\", and Russian «поручить» also means leaving someone in another's care). The reviewer checked the Russian-only adaptations of 頬, 離婚, 霜, 革, 電子 and 除く and every guard beyond EN, and found no unjustified guard. Fix commit bacc91b: 預ける guards 頼む; two optional polish items were accepted (頼る title and H1 «полагаться; опираться (на кого-л./что-л.)», and the 雷 meaning paragraph reworded without the English comparison). Recheck 001 on the fix diff: F1 and both polish items resolved, the manifest hashes for the three changed files match, no regressions in the changed passages, and the remaining optional items accepted as declined; correctness, scoped coverage, comprehensibility and quiz safety CLEAN.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Title/stem screen hand-checked; author guards beyond EN added 食品-食糧 (shared food sense), 食卓-テーブル («стол»), 食う-召し上がる/いただく/取る (the eating sense across registers) and 食う-掛かる (時間を食う «отнимать время»), 飛行-飛ぶ, 飛び出す-出る, 除く-以外 (〜を除いて «кроме») and 除く-取る («убирать»), 飛ばす-投げる, 風景-山水 (following 景色), 題-名前 («название»), 期間-時代/間, 時-ころ/場合/機会/ケース, 時期-時間/ころ/間/季節, 頃-ころ/くらい/ほど/時間/約/ほぼ/およそ/ばかり/そろそろ, 表面-表/格好, 面-表/点, 非常-非常に/極/大変/特別, 霧-もやもや, 雷-ごろごろ, 需要-必要, 離婚-別れる, 去る-出る/行く/出かける/立つ/過ぎる/亡くなる and 離れる-遠い/遠く. The review added 預ける-頼む (RU «оставлять под присмотром» against 頼む «поручать»; JMdict 預ける \"to leave (a matter) in someone's hands\", 頼む \"to entrust to\"). The reviewer classified 食品-食糧, 食う-召し上がる/いただく/取る, 飛ばす-投げる, 題-名前, 期間-間, 時期-間, 頃-時間, 非常-大変, 雷-ごろごろ, 需要-必要, 去る-行く/出かける, 離れる-遠い/遠く and 預ける-頼む as conservative (dictionary basis present, quiz necessity not established), 霧-もやもや and 非常-特別 as between conservative and needed, and the rest as needed. All pairs are one-sided direct pairs; no existing card was changed for guards. Every EN exclusion is retained; no batch word has EN quiz_distractors. Screen-driven title choices during authoring: 風景 «пейзаж; сцена (из жизни)» avoids «картина» (a segment of 絵 «рисунок; картина»), 時期 «время (для чего-либо); период» avoids «пора» (the first segment of 頃), and 食う «есть (разг., грубовато); отнимать (время)» marks the register in the title."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/186-words-batch-25-intake.json",
+  "docs/translation-batches/186-words-batch-25-independent-review-001.md",
+  "docs/translation-batches/186-words-batch-25-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "省",
+   "預",
+   "革"
+  ],
+  "navigationNote": "Only link brackets added at EN link positions for batch words (16 links in 10 word pages and 2 kanji pages; per-file link counts to batch words match EN): kanji/期 -> 期間 (3 links), kanji/除 -> 除く (3 links), words/供給 -> 需要, words/依頼 -> 需要, words/底 -> 表面, words/引き出す -> 預ける, words/曇り -> 霧, words/極 -> 非常, words/略語 -> 省く, words/限る -> 除く, words/食料 -> 食品, words/食糧 -> 食品. 省, 預 and 革 have EN kanji pages but no RU kanji page yet; 卓, 頬, 頃, 霧, 霜, 需, 雷 and 離 have no kanji page in EN or RU.",
+  "navigationOnlyEdits": [
+   "kanji/期.md",
+   "kanji/除.md",
+   "words/供給.md",
+   "words/依頼.md",
+   "words/底.md",
+   "words/引き出す.md",
+   "words/曇り.md",
+   "words/極.md",
+   "words/略語.md",
+   "words/限る.md",
+   "words/食料.md",
+   "words/食糧.md"
+  ],
+  "newWords": [
+   "食品",
+   "食卓",
+   "食う",
+   "飛行",
+   "飛び出す",
+   "除く",
+   "省く",
+   "飛ばす",
+   "風景",
+   "問い",
+   "題",
+   "頼る",
+   "頬",
+   "預ける",
+   "期間",
+   "時",
+   "時期",
+   "頃",
+   "革",
+   "表面",
+   "面",
+   "非常",
+   "霧",
+   "霜",
+   "需要",
+   "電子",
+   "雷",
+   "離婚",
+   "去る",
+   "離れる"
+  ],
+  "selection": "Chunk 0 of 94 of the general remaining-word queue (word_schedule.py 30 --all over the full remaining word closure of 2,817 EN words, recomputed after Batch185); the chunk is closed under quiz_exclusions, with 頃 joining through the EN 時 exclusion, so every EN exclusion target resolves to an existing RU word or a batch word.",
+  "unwrappedAbsentTargetsNote": "Links to words absent from RU (商品 含む 眺め 信じる 預かる 任せる 時刻 皮 異常 氷 離す) and to the pending kanji 省 預 革 are plain labels until those files exist. No batch word has an image field.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "Optional guards declined after review: 預ける-依頼 (a noun; weaker than the 頼む pair), 離れる-別れる (the 別れる card teaches the contrast; EN has no guard), 非常-急 (急's emergency sense not verified), 非常-珍しい and 表面-外 (the 表面 article teaches the contrast itself). Optional polish declined: widening the 問い title (the body covers spoken questions) and «на ресепшене» for 受付 in 預ける (stays «стойки регистрации», which the reviewer called acceptable). Author-judged borderline pairs left unguarded: 食う-飲む/むしゃむしゃ, 飛び出す-逃げる, 食卓-食堂 («стол» is not «зал») and 時-一時/現在 (different senses of «время»)."
+  ],
+  "exclusionsAddedBeyondEn": {
+   "去る": [
+    "出る",
+    "行く",
+    "出かける",
+    "立つ",
+    "過ぎる",
+    "亡くなる"
+   ],
+   "時": [
+    "ころ",
+    "場合",
+    "機会",
+    "ケース"
+   ],
+   "時期": [
+    "時間",
+    "ころ",
+    "間",
+    "季節"
+   ],
+   "期間": [
+    "時代",
+    "間"
+   ],
+   "表面": [
+    "表",
+    "格好"
+   ],
+   "除く": [
+    "以外",
+    "取る"
+   ],
+   "離れる": [
+    "遠い",
+    "遠く"
+   ],
+   "離婚": [
+    "別れる"
+   ],
+   "雷": [
+    "ごろごろ"
+   ],
+   "需要": [
+    "必要"
+   ],
+   "霧": [
+    "もやもや"
+   ],
+   "非常": [
+    "非常に",
+    "極",
+    "大変",
+    "特別"
+   ],
+   "面": [
+    "表",
+    "点"
+   ],
+   "頃": [
+    "ころ",
+    "くらい",
+    "ほど",
+    "時間",
+    "約",
+    "ほぼ",
+    "およそ",
+    "ばかり",
+    "そろそろ"
+   ],
+   "預ける": [
+    "頼む"
+   ],
+   "題": [
+    "名前"
+   ],
+   "風景": [
+    "山水"
+   ],
+   "飛ばす": [
+    "投げる"
+   ],
+   "飛び出す": [
+    "出る"
+   ],
+   "飛行": [
+    "飛ぶ"
+   ],
+   "食う": [
+    "召し上がる",
+    "いただく",
+    "取る",
+    "掛かる"
+   ],
+   "食卓": [
+    "テーブル"
+   ],
+   "食品": [
+    "食糧"
+   ]
+  },
+  "titles": {
+   "去る": "уходить; покидать",
+   "問い": "вопрос (в задании, в рассуждении)",
+   "時": "время; момент; случай",
+   "時期": "время (для чего-либо); период",
+   "期間": "срок; период",
+   "省く": "пропускать; экономить (силы)",
+   "表面": "поверхность; внешняя сторона",
+   "除く": "удалять; исключать",
+   "離れる": "отдаляться; находиться на расстоянии",
+   "離婚": "развод",
+   "雷": "гром; молния",
+   "電子": "электрон; электронный",
+   "需要": "спрос; потребность",
+   "霜": "иней",
+   "霧": "туман; дымка",
+   "非常": "чрезвычайная ситуация; чрезвычайный",
+   "面": "поверхность; аспект; маска",
+   "革": "кожа (выделанная)",
+   "頃": "пора; около (о времени)",
+   "預ける": "отдавать на хранение; оставлять под присмотром",
+   "頬": "щека",
+   "頼る": "полагаться; опираться (на кого-л./что-л.)",
+   "題": "заглавие; тема; задача (в контрольной)",
+   "風景": "пейзаж; сцена (из жизни)",
+   "飛ばす": "запускать (в воздух); пропускать",
+   "飛び出す": "выскакивать; торчать",
+   "飛行": "полёт",
+   "食う": "есть (разг., грубовато); отнимать (время)",
+   "食卓": "обеденный стол",
+   "食品": "пищевые продукты"
+  }
+ }
+}

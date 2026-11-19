@@ -1,6 +1,35 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch185 thirty words (general word queue)
+## Current published source milestone: batch186 thirty words (general word queue)
+
+Batch186 adds 30 Russian word articles: 食品 食卓 食う 飛行 飛び出す 除く 省く 飛ばす 風景 問い 題 頼る 頬 預ける 期間 時 時期
+頃 革 表面 面 非常 霧 霜 需要 電子 雷 離婚 去る 離れる. They are chunk 0 of 94 of the general remaining-word queue
+(recomputed after Batch185: closure of 2,817 EN words; 頃 joined through the EN 時 exclusion), so every EN
+quiz_exclusions target resolves to an existing RU word or a batch word. Ten existing word pages and the kanji pages 期 and
+除 receive 16 navigation-only link wraps at EN link positions, with per-file link counts to batch words matching EN; 省, 預
+and 革 remain plain labels because those kanji are still pending in RU.
+
+The batch covers food and eating (食品, 食卓, 食う), flying, jumping out and launching (飛行, 飛び出す, 飛ばす), removing and
+omitting (除く, 省く), scenery, questions and titles, relying on and entrusting (頼る, 預ける), the cheek, words for time,
+periods and approximate time (期間, 時, 時期, 頃), leather, surfaces and aspects (表面, 面), emergencies, fog, frost and
+thunder, demand, electrons, divorce, and leaving or moving apart (去る, 離れる). Direct guards beyond EN cover pairs such as
+食卓–テーブル, 食う–掛かる, 除く–以外/取る, 時–ころ/場合/機会/ケース, 時期–時間/季節, 頃–くらい/ほど/約, 表面–表/格好, 面–表/点,
+非常–非常に/極, 離婚–別れる and 去る–出る/立つ/過ぎる/亡くなる. The reviewer classed several others (for example
+食う–召し上がる/いただく, 需要–必要 and 離れる–遠い/遠く) as conservative: each has a dictionary basis, but ordinary-quiz
+necessity is not established, so that qualification stays explicit rather than CLEAN. The independent read-only review
+found correctness, scoped coverage and comprehensibility clean and one minor quiz-safety gap: 預ける now guards 頼む
+(Russian «поручать» also means leaving someone in another's care). Two optional polish items were accepted: 頼る's title
+now covers things as well as people, and the 雷 explanation no longer compares with English. The recheck reported all
+four facets clean.
+
+Qualified progress is **3699 reviewed-current / 8 reviewed runtime-blocked / 4571 pending of 8278**,
+with 2233 words, 718 kanji and 718 strokes. See the [intake](translation-batches/186-words-batch-25-intake.json),
+[independent review](translation-batches/186-words-batch-25-independent-review-001.md),
+[recheck](translation-batches/186-words-batch-25-recheck-001.md),
+[qualified source record](translation-batches/186-words-batch-25-reviewed-source.json) and
+[final validation](translation-batches/186-words-batch-25-final-validation-001.json).
+
+## Previous published source milestone: batch185 thirty words (general word queue)
 
 Batch185 adds 30 Russian word articles: きょろきょろ 制限 限る かぎり かあかあ 飽きる うんざり うとうと 空 黙る 黒板 魅力 鬼 髪の毛
 高速 高価 骨折 物音 騒音 騒ぎ 駐車 香り 首相 餌 飼う 飯 食糧 食料 食物 食欲. They are chunk 0 of 95 of the general
