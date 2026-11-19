@@ -1,6 +1,37 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch192 thirty words (general word queue)
+## Current published source milestone: batch193 thirty words (general word queue)
+
+Batch193 adds 30 Russian word articles: 生まれ 誕生 許す 認める 誇り 詳しい 話題 詰める 詩人 試す 試し 判断 評価 証明 検査 診察
+設計 訪問 記録 記者 記憶 記念 記入 記事 訓練 訓 討つ 言わば 触れる 解釈. They are chunk 0 of 87 of the general remaining-word queue
+(recomputed after Batch192: 2,607 EN words remaining); the dependency closure is exactly the 30 requested words, so every EN
+quiz_exclusions target resolves to an existing RU word or a batch word. Eight existing word pages and the kanji pages 判, 断, 許
+and 認 receive 20 navigation-only link wraps at EN link positions; 誕, 誇, 詳, 詰, 詩, 評, 価, 証, 検, 査, 診, 設, 録, 憶, 訓, 練,
+討, 触 and 釈 remain plain labels because those kanji have no RU card.
+
+The batch covers birth (生まれ, 誕生), allowing and recognising (許す, 認める), pride, detail and topics (誇り, 詳しい, 話題),
+packing (詰める), poets, trying and trials (詩人, 試す, 試し), judgment, assessment and proof (判断, 評価, 証明), inspection and
+medical consultation (検査, 診察), design and visits (設計, 訪問), the 記 cluster of records, reporters, memory, commemoration,
+form entries and articles (記録, 記者, 記憶, 記念, 記入, 記事), training and kun readings (訓練, 訓), attacking (討つ), "so to
+speak" (言わば), touching (触れる) and interpretation (解釈). All 17 EN exclusions are retained; 21 direct guards beyond EN cover
+生まれ–生まれる, 誕生–生まれる, 許す–許可, 認める–承認/許可, 試し–試験, 判断–読み, 評価–読み, 検査–調査/テスト, 診察–受付,
+設計–案, 訪問–訪ねる/伺う/お見舞い, 記憶–覚える/思い出す, 記念–記憶, 訓–読み, 討つ–勝つ and 触れる–関する. Exclusions are
+one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new cards.
+The blind facet-split review found correctness clean, one consistency defect (訓's example respelled the reading of 山 as
+Cyrillic «яма», an ordinary Russian word), two quiz-safety gaps closed by guards (訪問–お見舞い, 判断–読み) and one
+comprehensibility defect (記事 explained itself through the English letters a and the). All were fixed, and 試し's stiff
+first translation was smoothed as an accepted optional item. The candidate was committed signed and pushed before review.
+The recheck preserves the author's and reviewer's differing required-versus-conservative classification of the RU-added
+pairs. The serial rechecks reported all facets clean.
+
+Qualified progress is **3,909 reviewed-current / 8 reviewed runtime-blocked / 4,361 pending of 8,278**,
+with 2,443 words, 718 kanji and 718 strokes. See the [intake](translation-batches/193-words-batch-32-intake.json),
+[independent review](translation-batches/193-words-batch-32-independent-review-001.md),
+[recheck](translation-batches/193-words-batch-32-recheck-001.md),
+[qualified source record](translation-batches/193-words-batch-32-reviewed-source.json) and
+[final validation](translation-batches/193-words-batch-32-final-validation-001.json).
+
+## Previous published source milestone: batch192 thirty words (general word queue)
 
 Batch192 adds 30 Russian word articles: 豆 谷 譲る 議長 論争 議論 議員 議会 警告 講演 謎 諺 止す 諦める 論文 話し合う 論じる
 調査 調子 課 読み 説 誤解 語学 語る 単語 言語 語 招く 誘う. They are chunk 0 of 88 of the general remaining-word queue
