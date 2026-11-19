@@ -1,6 +1,35 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch191 thirty words (general word queue)
+## Current published source milestone: batch192 thirty words (general word queue)
+
+Batch192 adds 30 Russian word articles: 豆 谷 譲る 議長 論争 議論 議員 議会 警告 講演 謎 諺 止す 諦める 論文 話し合う 論じる
+調査 調子 課 読み 説 誤解 語学 語る 単語 言語 語 招く 誘う. They are chunk 0 of 88 of the general remaining-word queue
+(recomputed after Batch191: 2,637 EN words remaining); the dependency closure is exactly the 30 requested words, so every EN
+quiz_exclusions target resolves to an existing RU word or a batch word. Seven existing word pages and the kanji pages 単, 招, 解,
+誤, 論 and 議 receive 23 navigation-only link wraps at EN link positions; 豆, 谷, 譲, 講, 謎, 諺, 諦, 査, 課 and 誘 remain plain
+labels because those kanji have no RU card.
+
+The batch covers beans and valleys, yielding (譲る), the assembly-and-debate cluster (議長, 議員, 議会, 論争, 議論, 話し合う,
+論じる, 論文), warnings and lectures (警告, 講演), riddles and proverbs, stopping and giving up (止す, 諦める), investigation and
+condition (調査, 調子), lessons and sections (課), reading and theories (読み, 説), misunderstanding, the language-and-word
+cluster (語学, 語る, 単語, 言語, 語) and inviting (招く, 誘う). All 22 EN exclusions are retained; 16 direct guards beyond EN
+cover 譲る–負ける, 議論–相談/話し合う/論じる, 講演–スピーチ, 話し合う–相談, 調査–調べる, 読み–読む, 説–説明, 語学–勉強,
+語る–話/話す, 招く–招待/呼ぶ and 誘う–招待/呼ぶ. Exclusions are one-sided declarations that Android applies in both directions;
+the batch changes exclusions only on its new cards.
+The blind facet-split review found one correctness defect (譲る contrasted 負ける categorically, although 負ける also means
+yielding and reducing a price), quiz-safety gaps closed by nine added guards, Russian-only sentences in 講演 and 招く that
+described test behaviour, and one comprehensibility defect (読み's 読書 contrast and its mismatched gloss). All were fixed.
+The candidate was committed signed and pushed before review. The recheck preserves the author's and reviewer's differing
+required-versus-conservative classification of the RU-added pairs. The serial rechecks reported all facets clean.
+
+Qualified progress is **3,879 reviewed-current / 8 reviewed runtime-blocked / 4,391 pending of 8,278**,
+with 2,413 words, 718 kanji and 718 strokes. See the [intake](translation-batches/192-words-batch-31-intake.json),
+[independent review](translation-batches/192-words-batch-31-independent-review-001.md),
+[recheck](translation-batches/192-words-batch-31-recheck-001.md),
+[qualified source record](translation-batches/192-words-batch-31-reviewed-source.json) and
+[final validation](translation-batches/192-words-batch-31-final-validation-001.json).
+
+## Previous published source milestone: batch191 thirty words (general word queue)
 
 Batch191 adds 30 Russian word articles: 身体 越える 越す 起こる 与える 贈る 贅沢 質 賢い 賞 資源 資本 恩 貸し 貴重 貯金 係 機能
 働き 作業 勤め 役 義務 務め 責任 責める 販売 貢献 負け 豪華. They are chunk 0 of 89 of the general remaining-word queue
