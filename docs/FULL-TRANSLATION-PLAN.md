@@ -1,6 +1,38 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch189 thirty words (general word queue)
+## Current published source milestone: batch190 thirty words (general word queue)
+
+Batch190 adds 30 Russian word articles: 通り 通す 通じる 瞬間 途端 逆らう 逆 追う 追い付く 迷惑 迷子 述べる 現代 近代 迎え
+辺り 農民 農業 農家 辞める 轢く 丸 輪 転ぶ 軒 軍隊 軍 身長 自身 身. They are chunk 0 of 90 of the general remaining-word queue
+(recomputed after Batch189: 2,697 EN words remaining); the dependency closure is exactly the 30 requested words, so every EN
+quiz_exclusions target resolves to an existing RU word or a batch word. Six existing word pages and the kanji pages 丸 and 追
+receive 10 navigation-only link wraps at EN link positions; 瞬, 端, 逆, 惑, 述, 辺, 農, 轢, 輪, 軒, 軍, 隊 and 身 remain plain
+labels because those kanji have no RU card.
+
+The batch covers passing through and communicating (通り, 通す, 通じる), moments (瞬間, 途端), opposing and reversal (逆らう,
+逆), chasing and catching up (追う, 追い付く), nuisance and lost children (迷惑, 迷子), stating, the present and modern eras
+(現代, 近代), meeting someone, vicinity (辺り), farming (農民, 農業, 農家), quitting, running over, circles and rings (丸, 輪),
+falling over, the counter for houses, armies (軍隊, 軍) and the body and self (身長, 自身, 身). All 25 EN exclusions are retained;
+26 direct guards beyond EN cover 迷惑–不便/厄介, 現代–現在/時代, 近代–時代, 瞬間–際, 迎え–迎える/会/会合, 農業–産業,
+農家–家族/家庭/家, 迷子–子/子供, 輪–指輪, 転ぶ–落ちる, 身長–成長/増加, 身–肉/中心, 辺り–頃/側/隣, 通す–極める and 轢く–移る.
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+The blind facet-split review found two correctness defects (通じる dropped the source's "not every communication use"
+qualification of 通る, and 輪 claimed an unsupported frequency for the ornament sense), an unverified 近代 periodization
+caution, and four comprehensibility defects (undemonstrated 辺り and 迷惑 contrasts, 近代's «новое время» title and a bare 円
+in 丸). All were fixed; 近代 is now «эпоха модернизации», and its qualified «новое время» caution is backed by Warodai/Jardic and
+ru.wikipedia periodization evidence. The consistency reviewer's 轢く–引っ越す lead was accepted and the guard withdrawn;
+its 農業–産業 concern was withdrawn in recheck under the generic-label rule. The recheck preserves the author's and reviewer's
+differing required-versus-conservative classification of the RU-added pairs. The serial rechecks reported all facets clean.
+
+Qualified progress is **3,819 reviewed-current / 8 reviewed runtime-blocked / 4,451 pending of 8,278**,
+with 2,353 words, 718 kanji and 718 strokes. See the [intake](translation-batches/190-words-batch-29-intake.json),
+[independent review](translation-batches/190-words-batch-29-independent-review-001.md),
+[recheck](translation-batches/190-words-batch-29-recheck-001.md),
+[qualified source record](translation-batches/190-words-batch-29-reviewed-source.json) and
+[final validation](translation-batches/190-words-batch-29-final-validation-001.json).
+
+## Previous published source milestone: batch189 thirty words (general word queue)
 
 Batch189 adds 30 Russian word articles: 銅貨 銃 銀 鉄道 鉄 ピン 針 金属 金 金銭 金融 金曜 金庫 数 量 野 重視 重大 酸素 都市 便
 郵便 部分 避ける 選択 選手 適用 適切 適度 違反. They are chunk 0 of 91 of the general remaining-word queue (recomputed after
