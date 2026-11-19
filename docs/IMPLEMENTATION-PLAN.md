@@ -8,7 +8,18 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch192 thirty words
+## Current published source milestone: batch193 thirty words
+
+Batch193 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions with nothing added), plus 20 navigation-only link wraps in 8 existing word pages and the kanji pages
+判, 断, 許 and 認. The blind facet-split review found correctness clean, one consistency defect (訓's Cyrillic «яма» for the
+reading やま), two quiz-safety gaps closed by guards (訪問–お見舞い, 判断–読み) and one comprehensibility defect (記事's
+English a/the remark). All were fixed, and the serial rechecks reported all facets clean.
+Progress: **3,909 reviewed-current / 8 runtime-blocked / 4,361 pending of 8,278**; 2,443 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch193-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch192 thirty words
 
 Batch192 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions with nothing added), plus 23 navigation-only link wraps in 7 existing word pages and the kanji pages
@@ -18,7 +29,7 @@ quiz-safety gaps closed by nine added guards (招く/誘う–呼ぶ, 語る–�
 All were fixed, and the serial rechecks reported all facets clean.
 Progress: **3,879 reviewed-current / 8 runtime-blocked / 4,391 pending of 8,278**; 2,413 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch192-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch192-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch191 thirty words
 

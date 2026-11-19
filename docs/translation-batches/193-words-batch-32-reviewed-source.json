@@ -1,0 +1,187 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "193-words-batch-32",
+ "publishedBaseline": "3a0c79f6ab716b7351eb61a7a21594a9e3aad15f",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 8fd47e7 and serialized fix rechecks of 82b1d3b found the original consistency, quiz-safety and comprehensibility defects resolved; correctness was clean from the start. 訓's first example now gives the reading of 山 in kana (やま) instead of the Cyrillic respelling «яма»; 記事 no longer explains itself through the English letters a and the, a warning about the English homonym article that does not apply to Russian «статья»; 試し's first example translation now reads «Я на пробу воспользовался этим приложением, чтобы посмотреть, что оно собой представляет.» Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation, the preserved author/reviewer required-versus-conservative exclusion classification and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 17 EN exclusions across 13 lists are retained. The reviewed RU title overlaps received 21 direct, one-sided exclusions on 16 new cards: 生まれ–生まれる; 誕生–生まれる; 許す–許可; 認める–承認/許可; 試し–試験; 判断–読み; 評価–読み; 検査–調査/テスト; 診察–受付; 設計–案; 訪問–訪ねる/伺う/お見舞い; 記憶–覚える/思い出す; 記念–記憶; 訓–読み; 討つ–勝つ; 触れる–関する. Two were added after review: 訪問–お見舞い and 判断–読み. 認める's title was reworded during authoring from «признавать; обнаруживать» to «признавать; замечать» to avoid an exact segment overlap with 見つける; «замечать» is shared with 気付く, which EN already guards. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/193-words-batch-32-intake.json",
+  "docs/translation-batches/193-words-batch-32-independent-review-001.md",
+  "docs/translation-batches/193-words-batch-32-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "誕",
+   "誇",
+   "詳",
+   "詰",
+   "詩",
+   "評",
+   "価",
+   "証",
+   "検",
+   "査",
+   "診",
+   "設",
+   "録",
+   "憶",
+   "訓",
+   "練",
+   "討",
+   "触",
+   "釈"
+  ],
+  "navigationNote": "Restored 20 relative links across the 12 listed Markdown files at the corresponding EN-linked positions, using EN's href forms. No surrounding prose was changed. Missing kanji cards and unavailable word or article targets remain plain text; no substitute cards were invented. The pre-existing kanji/判.md link to 評判 (an RU extra relative to EN) is unchanged and outside this batch.",
+  "navigationOnlyEdits": [
+   "kanji/判.md",
+   "kanji/断.md",
+   "kanji/許.md",
+   "kanji/認.md",
+   "words/ざっと.md",
+   "words/ほめる.md",
+   "words/俳句.md",
+   "words/承認.md",
+   "words/許可.md",
+   "words/評判.md",
+   "words/論じる.md",
+   "words/論文.md"
+  ],
+  "newWords": [
+   "生まれ",
+   "誕生",
+   "許す",
+   "認める",
+   "誇り",
+   "詳しい",
+   "話題",
+   "詰める",
+   "詩人",
+   "試す",
+   "試し",
+   "判断",
+   "評価",
+   "証明",
+   "検査",
+   "診察",
+   "設計",
+   "訪問",
+   "記録",
+   "記者",
+   "記憶",
+   "記念",
+   "記入",
+   "記事",
+   "訓練",
+   "訓",
+   "討つ",
+   "言わば",
+   "触れる",
+   "解釈"
+  ],
+  "selection": "Batch 32 selected 30 word cards from the frozen source: chunk 0 of the 87-batch dependency-closed queue of the general remaining-word pool (30 of 2,607 remaining EN words, recomputed after Batch 192). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. 誕生→生まれ, 認める→許す, 試し→試す, 評価→判断 and 診察→検査 are the dependency edges inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped: 生まれ→出身; 認める→否定; 誇り→埃 and 自慢; 詰める→kanji 詰; 詩人→作家; 評価→価値 and 批判; 証明→the こと/わけ/formal-nouns article (named as a topic, as in おかげ, かぎり and ほか); 検査→kanji 査 and 検討; 設計→kanji 設; 訪問→見舞い; 記録→kanji 録; 記念→思い出 and 祝い; 訓練→kanji 訓 and 練; 訓→kanji 訓; 言わば→つまり; 触れる→kanji 触. Nineteen written kanji have no RU kanji card: 誕, 誇, 詳, 詰, 詩, 評, 価, 証, 検, 査, 診, 設, 録, 憶, 訓, 練, 討, 触, 釈. No RU-only links were added (EN link parity).",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: unlinking or dropping 証明's pointer to the こと/わけ topic (the same unlinked topic pointer is used in おかげ, かぎり and ほか, and the attachment rules are complete in the paragraph); naming 評価 in 判断's opening (titles and examples already differ, and 評判 contrasts 評価); widening 検査's title to «проверка; осмотр; анализ» (the body lists проверка/досмотр/обследование and 診察 already guards 検査); replacing 記念's «ознаменование» and 触れる's voice terminology (examples already make the senses plain); guarding 判断–決定 and 検査–調べる (different titles, no EN pair); and dropping 診察–受付 (harmless conservative guard). No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "判断": [
+    "読み"
+   ],
+   "検査": [
+    "調査",
+    "テスト"
+   ],
+   "生まれ": [
+    "生まれる"
+   ],
+   "触れる": [
+    "関する"
+   ],
+   "討つ": [
+    "勝つ"
+   ],
+   "訓": [
+    "読み"
+   ],
+   "記念": [
+    "記憶"
+   ],
+   "記憶": [
+    "覚える",
+    "思い出す"
+   ],
+   "訪問": [
+    "訪ねる",
+    "伺う",
+    "お見舞い"
+   ],
+   "設計": [
+    "案"
+   ],
+   "許す": [
+    "許可"
+   ],
+   "診察": [
+    "受付"
+   ],
+   "評価": [
+    "読み"
+   ],
+   "試し": [
+    "試験"
+   ],
+   "認める": [
+    "承認",
+    "許可"
+   ],
+   "誕生": [
+    "生まれる"
+   ]
+  },
+  "titles": {
+   "判断": "суждение; вывод",
+   "検査": "осмотр; анализ",
+   "生まれ": "рождение (где, когда); место рождения",
+   "解釈": "толкование; интерпретация",
+   "触れる": "прикасаться; затрагивать (тему)",
+   "言わば": "так сказать; в некотором смысле",
+   "討つ": "нападать; одолевать (врага); мстить",
+   "訓": "кунное чтение (кандзи)",
+   "訓練": "тренировка (навыка); учения",
+   "記事": "статья (в СМИ); заметка",
+   "記入": "заполнение (бланка); внесение данных",
+   "記念": "ознаменование; вещь на память",
+   "記憶": "память; воспоминание",
+   "記者": "журналист; репортёр",
+   "記録": "запись (сведений); рекорд",
+   "訪問": "визит; посещение",
+   "設計": "проектирование; разработка конструкции",
+   "許す": "позволять; прощать",
+   "診察": "приём у врача; врачебный осмотр",
+   "証明": "доказательство; удостоверение",
+   "評価": "оценка (работы, заслуг)",
+   "試し": "попытка; проба",
+   "試す": "пробовать; испытывать",
+   "詩人": "поэт",
+   "詰める": "набивать; укорачивать; прорабатывать детали",
+   "話題": "тема разговора; нашумевший",
+   "詳しい": "детальный; сведущий (в чём-л.)",
+   "誇り": "гордость; предмет гордости",
+   "認める": "признавать; замечать",
+   "誕生": "появление на свет; возникновение"
+  }
+ }
+}
