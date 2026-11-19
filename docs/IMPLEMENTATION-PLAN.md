@@ -8,7 +8,18 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch188 thirty words
+## Current published source milestone: batch189 thirty words
+
+Batch189 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions with nothing added), plus 12 navigation-only link wraps in 5 existing word pages, the kanji pages
+数 and 適 and one article. The blind facet-split review found one inherited correctness defect (避ける's categorical
+よける/さける split), one quiz-safety gap (鉄/銀–金属) and one comprehensibility defect (都市's «городской центр» gloss).
+All were fixed, the 鉄–鉄道 lead was declined with recorded reasoning, and the serial rechecks reported all facets clean.
+Progress: **3,789 reviewed-current / 8 runtime-blocked / 4,481 pending of 8,278**; 2,323 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch189-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch188 thirty words
 
 Batch188 added 30 Russian word articles, chunk 1 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions; 幸運 and 運 joined through the EN 幸い exclusion chain; chunk 0 remains queued), plus 15
@@ -18,7 +29,7 @@ facet-split review found one correctness defect (週間's 毎週 gloss), quiz-sa
 final rechecks reported all facets clean, and the recheck records a preserved reviewer disagreement and process deviations.
 Progress: **3,759 reviewed-current / 8 runtime-blocked / 4,511 pending of 8,278**; 2,293 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch188-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch188-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch187 thirty words
 
