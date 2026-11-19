@@ -1,0 +1,181 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "187-words-batch-26",
+ "publishedBaseline": "acef99457c635222a5a38da49b9724da98d58cf8",
+ "qualifiedVerdicts": {
+  "content": "Blind reviews on the shared initial tree and independent fix rechecks found the original correctness and comprehensibility defects resolved. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports and reconciliation are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "EN exclusions are retained. The reviewed RU title overlaps received direct, one-sided exclusions, including 回–一度/もう一度; 度–場合/ケース/機会/一度/もう一度/今度; 始まり–始め/出発; 開始–出発; plus the other justified pairs recorded in exclusionsAddedBeyondEn. Android applies each declaration symmetrically. Broad overlaps such as 回–今度, 長期–時期/時代, and 関連–関する were declined after comparing the displayed labels and full senses; they do not justify adding a transitive or topic-based cluster."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/187-words-batch-26-intake.json",
+  "docs/translation-batches/187-words-batch-26-independent-review-001.md",
+  "docs/translation-batches/187-words-batch-26-review-correctness-001.md",
+  "docs/translation-batches/187-words-batch-26-review-consistency-001.md",
+  "docs/translation-batches/187-words-batch-26-review-comprehensibility-001.md",
+  "docs/translation-batches/187-words-batch-26-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "鋏",
+   "鋭",
+   "鍋",
+   "鎖",
+   "防",
+   "陰",
+   "障",
+   "隠",
+   "雇",
+   "離"
+  ],
+  "navigationNote": "Restored 19 relative links across the 17 listed Markdown files at corresponding EN-linked positions; kanji/守.md contains three restored 守る links. No surrounding prose was changed. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/団.md",
+   "kanji/守.md",
+   "words/ぼんやり.md",
+   "words/仕舞い.md",
+   "words/利口.md",
+   "words/団体.md",
+   "words/対する.md",
+   "words/感心.md",
+   "words/永久.md",
+   "words/破る.md",
+   "words/約束.md",
+   "words/紐.md",
+   "words/組織.md",
+   "words/表す.md",
+   "words/達する.md",
+   "words/違い.md",
+   "words/離れる.md"
+  ],
+  "newWords": [
+   "離す",
+   "雇う",
+   "集団",
+   "集中",
+   "会",
+   "会合",
+   "集まり",
+   "隠れる",
+   "隠す",
+   "障害",
+   "回",
+   "度",
+   "際",
+   "陰",
+   "限界",
+   "守る",
+   "防ぐ",
+   "関連",
+   "関心",
+   "関する",
+   "誤り",
+   "間違い",
+   "始まり",
+   "開始",
+   "閉じる",
+   "長期",
+   "鎖",
+   "鍋",
+   "鋭い",
+   "鋏"
+  ],
+  "selection": "Batch 26 selected 30 N3 word cards from the frozen source. The dependency closure added 会 to support 会合 and 会合 to support 集まり; the final batch is closed under the source quiz-exclusion edges.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped: 離す→放す; 雇う→kanji 雇; 集団→グループ; 陰→影; 防ぐ→kanji 防 and 避ける; 誤り→誤解; 鋭い→kanji 鋭, 賢い and 鈍い. Ten written kanji have no RU kanji card: 鋏, 鋭, 鍋, 鎖, 防, 陰, 障, 隠, 雇, 離.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional additions: reverse declarations for already guarded pairs (Android checks either side); links from baseline kanji pages where EN has only a plain-text mention; 回–今度 (a repetition counter versus a deictic current/next occasion); 長期–時期/時代 (long duration versus event timing or an era); 関連–関する (relation noun versus topic-related verb). These were not established as direct answer ambiguities. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "回": [
+    "一度",
+    "もう一度"
+   ],
+   "始まり": [
+    "始め",
+    "出発"
+   ],
+   "度": [
+    "場合",
+    "ケース",
+    "機会",
+    "一度",
+    "もう一度",
+    "今度"
+   ],
+   "鋭い": [
+    "辛い"
+   ],
+   "鍋": [
+    "料理"
+   ],
+   "長期": [
+    "期間"
+   ],
+   "閉じる": [
+    "ぱくぱく"
+   ],
+   "開始": [
+    "最初",
+    "出発"
+   ],
+   "間違い": [
+    "失敗"
+   ],
+   "関する": [
+    "対する",
+    "触る"
+   ],
+   "関連": [
+    "連絡"
+   ],
+   "限界": [
+    "かぎり"
+   ],
+   "際": [
+    "場合"
+   ]
+  },
+  "titles": {
+   "会": "встреча; объединение",
+   "会合": "встреча; собрание",
+   "回": "раз; счётное слово для повторений",
+   "始まり": "начало; исток",
+   "守る": "защищать; соблюдать; сдерживать обещание",
+   "度": "случай; раз; градус",
+   "誤り": "ошибка; неточность",
+   "鋏": "ножницы",
+   "鋭い": "острый; проницательный",
+   "鍋": "кастрюля; горячее блюдо набэ",
+   "鎖": "цепь",
+   "長期": "долгосрочный период; длительный срок",
+   "閉じる": "закрывать; закрываться",
+   "開始": "начало; запуск",
+   "間違い": "ошибка",
+   "関する": "касаться; относиться к",
+   "関心": "интерес; заинтересованность",
+   "関連": "связь; отношение к теме",
+   "防ぐ": "предотвращать; защищать от",
+   "限界": "предел; граница",
+   "陰": "тень; место, скрытое от света",
+   "際": "момент события; время совершения",
+   "障害": "препятствие; нарушение функции",
+   "隠す": "прятать; скрывать",
+   "隠れる": "прятаться; быть скрытым",
+   "集まり": "собрание; скопление",
+   "集中": "сосредоточение; концентрация",
+   "集団": "группа; коллектив",
+   "雇う": "нанимать; брать на работу",
+   "離す": "отделять; держать на расстоянии"
+  }
+ }
+}
