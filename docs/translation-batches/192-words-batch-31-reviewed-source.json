@@ -1,0 +1,164 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "192-words-batch-31",
+ "publishedBaseline": "22c903894ea069e1e89f9da7127d41b89dcdebfe",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate dc2c32f and serialized fix rechecks of a4c7616 found the original correctness, comprehensibility, consistency and quiz-safety defects resolved. 譲る now confines its 負ける contrast to the seat example and acknowledges 負ける's «уступать, поддаваться» and «снижать цену» senses; 読み's closing note says only that 読書 «чтение книг» names the activity and lacks the pronunciation and situation-assessment senses; RU-only sentences describing test behaviour were removed from 講演 and 招く while their linguistic distinctions remain. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation, the preserved author/reviewer required-versus-conservative exclusion classification and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 22 EN exclusions across 15 lists are retained. The reviewed RU title overlaps received 16 direct, one-sided exclusions: 譲る–負ける; 議論–相談/話し合う/論じる; 講演–スピーチ; 話し合う–相談; 調査–調べる; 読み–読む; 説–説明; 語学–勉強; 語る–話/話す; 招く–招待/呼ぶ; 誘う–招待/呼ぶ. Nine were added after review: 議論–話し合う, 議論–論じる, 調査–調べる, 読み–読む, 説–説明, 語学–勉強, 語る–話す, 招く–呼ぶ and 誘う–呼ぶ. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/192-words-batch-31-intake.json",
+  "docs/translation-batches/192-words-batch-31-independent-review-001.md",
+  "docs/translation-batches/192-words-batch-31-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "豆",
+   "谷",
+   "譲",
+   "講",
+   "謎",
+   "諺",
+   "諦",
+   "査",
+   "課",
+   "誘"
+  ],
+  "navigationNote": "Restored 23 relative links across the 13 listed Markdown files at the corresponding EN-linked positions, using EN's href forms. No surrounding prose was changed. Positions that EN leaves unlinked (for example the kanji/議.md table row and the words/状態.md dictionary line) stay plain text. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/単.md",
+   "kanji/招.md",
+   "kanji/解.md",
+   "kanji/誤.md",
+   "kanji/論.md",
+   "kanji/議.md",
+   "words/演説.md",
+   "words/状態.md",
+   "words/理解.md",
+   "words/言葉.md",
+   "words/誤り.md",
+   "words/順調.md",
+   "words/首相.md"
+  ],
+  "newWords": [
+   "豆",
+   "谷",
+   "譲る",
+   "議長",
+   "論争",
+   "議論",
+   "議員",
+   "議会",
+   "警告",
+   "講演",
+   "謎",
+   "諺",
+   "止す",
+   "諦める",
+   "論文",
+   "話し合う",
+   "論じる",
+   "調査",
+   "調子",
+   "課",
+   "読み",
+   "説",
+   "誤解",
+   "語学",
+   "語る",
+   "単語",
+   "言語",
+   "語",
+   "招く",
+   "誘う"
+  ],
+  "selection": "Batch 31 selected 30 word cards from the frozen source: chunk 0 of the 88-batch dependency-closed queue of the general remaining-word pool (30 of 2,637 remaining EN words, recomputed after Batch 191). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. 議論→論争, 諦める→止す, 論じる→話し合う, 語→単語/言語 and 誘う→招く are the dependency edges inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped: 谷→kanji 谷; 議員→国会; 議会→国会 and 政府; 講演→kanji 講; 謎→不思議; 論文→記事; 論じる→触れる; 調査→kanji 査; 課→kanji 課; 説→事実; 語学→学問; 単語→文 and 文字. Ten written kanji have no RU kanji card: 豆, 谷, 譲, 講, 謎, 諺, 諦, 査, 課, 誘. Unlinked comparison words added in RU prose (負ける, 演説, スピーチ, 読書) stay unlinked for EN link parity.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: replacing «обследование» in 調査's survey example with «опрос» (the gloss matches the title and the Jardic entry, and «опрос» stays in the meaning line); 調子 «(форма)» (Jardic «[спортивная] форма»; the body explains 調子がいい/悪い as good or poor form); the shared 語/単語 example (both sentences are in frozen EN); a linked 読書 contrast in 読み (EN link parity; the unlinked wording was adopted instead); a separate 講演–演説 distinction (partly addressed by the qualified スピーチ/演説 clause); and the 議論 ../words/相談.md href form (EN-faithful). No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "招く": [
+    "招待",
+    "呼ぶ"
+   ],
+   "話し合う": [
+    "相談"
+   ],
+   "誘う": [
+    "招待",
+    "呼ぶ"
+   ],
+   "語る": [
+    "話",
+    "話す"
+   ],
+   "語学": [
+    "勉強"
+   ],
+   "説": [
+    "説明"
+   ],
+   "読み": [
+    "読む"
+   ],
+   "調査": [
+    "調べる"
+   ],
+   "講演": [
+    "スピーチ"
+   ],
+   "議論": [
+    "相談",
+    "話し合う",
+    "論じる"
+   ],
+   "譲る": [
+    "負ける"
+   ]
+  },
+  "titles": {
+   "単語": "слово (единица лексики)",
+   "招く": "приглашать (в гости)",
+   "止す": "переставать (делать); раздумать",
+   "言語": "язык (как система)",
+   "話し合う": "обсуждать вместе",
+   "誘う": "приглашать (с собой); завлекать",
+   "語": "слово (термин); суффикс в названиях языков",
+   "語る": "рассказывать; повествовать",
+   "語学": "изучение иностранных языков",
+   "誤解": "недоразумение; неверное понимание",
+   "説": "теория; версия",
+   "読み": "чтение; оценка ситуации",
+   "課": "урок (в учебнике); отдел",
+   "調子": "тон; состояние (форма)",
+   "調査": "расследование; обследование",
+   "論じる": "рассматривать (вопрос); рассуждать",
+   "論争": "полемика; спор",
+   "論文": "научная статья; диссертация",
+   "諦める": "оставлять надежду; смиряться",
+   "諺": "пословица; поговорка",
+   "謎": "загадка",
+   "講演": "публичная лекция; доклад",
+   "警告": "предупреждение; предостережение",
+   "議会": "парламент; законодательное собрание",
+   "議員": "член собрания; депутат",
+   "議論": "дискуссия; обмен мнениями",
+   "議長": "председатель (собрания); спикер",
+   "譲る": "уступать (место); передавать другому",
+   "谷": "долина; ущелье",
+   "豆": "бобы; горох"
+  }
+ }
+}
