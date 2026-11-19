@@ -1,0 +1,80 @@
+{
+ "schemaVersion": 1,
+ "batchId": "187-words-batch-26",
+ "recordedAt": "2026-11-19T06:37:38Z",
+ "repository": "stop-cran/learning-japanese-ru",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "acef99457c635222a5a38da49b9724da98d58cf8",
+ "candidateCommit": "9a98b6d8ad1e87b737f10235148b10737083f3cb",
+ "qualifiedAcceptanceCommit": "0919e60d3e2aebb64f4f42880ebcf44c342b4f01",
+ "publishedCommit": "6722867485116a23d63f8705945e5dfa2986e0d6",
+ "publishedTree": "b0fbb40d3f77ea251abecd19dc55b53efb21be83",
+ "contentVersion": "817df18244d528ab",
+ "integration": {
+  "method": "pull request squash merge",
+  "pullRequestCreated": true,
+  "pullRequest": 71,
+  "pullRequestUrl": "https://github.com/stop-cran/learning-japanese-ru/pull/71",
+  "branch": "full-ru-187-words-26",
+  "branchRef": "0919e60d3e2aebb64f4f42880ebcf44c342b4f01",
+  "branchTree": "b0fbb40d3f77ea251abecd19dc55b53efb21be83",
+  "mainRef": "6722867485116a23d63f8705945e5dfa2986e0d6",
+  "mergeParents": [
+   "acef99457c635222a5a38da49b9724da98d58cf8"
+  ],
+  "branchAndMainTreeMatch": true
+ },
+ "githubIdentity": {
+  "authenticatedOwner": "stop-cran",
+  "author": "stop-cran",
+  "committer": "stop-cran (branch commits); web-flow (merge commit)",
+  "commitSignatureVerified": true,
+  "signatureReason": "valid",
+  "ownerCredentialMatchedVerifiedOwnerToken": true
+ },
+ "exactMainCi": {
+  "workflow": "Validate Russian content",
+  "runId": 44472954844,
+  "headSha": "6722867485116a23d63f8705945e5dfa2986e0d6",
+  "status": "completed",
+  "conclusion": "success",
+  "url": "https://github.com/stop-cran/learning-japanese-ru/actions/runs/44472954844"
+ },
+ "protectedRefs": {
+  "ru-pilot-a": {
+   "expected": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+   "observedAfterPublication": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+   "unchanged": true
+  },
+  "ru-pilot-b": {
+   "expected": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+   "observedAfterPublication": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+   "unchanged": true
+  }
+ },
+ "qualifiedProgress": {
+  "frozenInventory": 8278,
+  "reviewedCurrent": 3729,
+  "excludedReviewedRuntimeBlocked": 8,
+  "pending": 4541,
+  "words": 2263,
+  "kanji": 718,
+  "strokes": 718,
+  "checkpointAuthority": null,
+  "checkpointReady": false
+ },
+ "evidence": {
+  "intake": "docs/translation-batches/187-words-batch-26-intake.json",
+  "review": "docs/translation-batches/187-words-batch-26-independent-review-001.md",
+  "recheck": "docs/translation-batches/187-words-batch-26-recheck-001.md",
+  "finalValidation": "docs/translation-batches/187-words-batch-26-final-validation-001.json",
+  "qualifiedSourceRecord": "docs/translation-batches/187-words-batch-26-reviewed-source.json"
+ },
+ "remainingQualification": {
+  "ordinaryQuizNegativeFallbackSafety": "30 Russian word titles and their direct exclusions assessed in the bounded review and recheck against the current RU title pool; not exhaustive and no transitive closure inferred.",
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false,
+  "continueRequired": true
+ }
+}

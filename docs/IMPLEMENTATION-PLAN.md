@@ -8,7 +8,30 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch186 thirty words
+## Current published source milestone: batch188 thirty words
+
+Batch188 added 30 Russian word articles, chunk 1 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions; 幸運 and 運 joined through the EN 幸い exclusion chain; chunk 0 remains queued), plus 15
+navigation-only link wraps in 5 existing word pages, the kanji pages 刻, 路 and 遅 and one article. The blind
+facet-split review found one correctness defect (週間's 毎週 gloss), quiz-safety gaps (identical 運/幸運 titles, 連続–次々,
+進歩–発展) and four comprehensibility issues; a later correctness recheck added 幸い–幸福 and 進歩–発達. All were fixed, the
+final rechecks reported all facets clean, and the recheck records a preserved reviewer disagreement and process deviations.
+Progress: **3,759 reviewed-current / 8 runtime-blocked / 4,511 pending of 8,278**; 2,293 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch188-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch187 thirty words
+
+Batch187 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions; 会 and 会合 joined through the 集まり exclusion chain), plus 19 navigation-only link wraps in 15
+existing word pages and the kanji pages 団 and 守. The independent review found two correctness defects (集中, 際),
+two comprehensibility issues (関する, 鍋) and two quiz-safety advisories (度–機会, 始まり/開始–出発); all were
+fixed, a later recheck added the 回/度 guards, and the rechecks reported all facets clean.
+Progress: **3,729 reviewed-current / 8 runtime-blocked / 4,541 pending of 8,278**; 2,263 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch187-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch186 thirty words
 
 Batch186 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions; 頃 joined through the EN 時 exclusion), plus 16 navigation-only link wraps in 10 existing word
@@ -17,7 +40,7 @@ basis, necessity not established). The independent review found one minor quiz-s
 together with two optional polish items, and the recheck reported all four facets clean.
 Progress: **3699 reviewed-current / 8 runtime-blocked / 4571 pending of 8278**; 2233 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch186-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch186-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch185 thirty words
 
