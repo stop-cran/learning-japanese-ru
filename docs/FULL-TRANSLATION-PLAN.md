@@ -1,6 +1,39 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch194 thirty words (general word queue)
+## Current published source milestone: batch195 thirty words (general word queue)
+
+Batch195 adds 30 Russian word articles: 表情 衣服 衝突 衛星 行儀 行動 行き 虫歯 作家 ライター 著者 菓子 莫大 苦しむ 芸術
+芝生 航空 舞台 舌 臭い 天然 自然 自殺 自慢 自動 膝 腰 腐る 脇 才能. They are chunk 0 of 85 of the general remaining-word
+queue (recomputed after Batch194: 2,547 EN words remaining); the dependency closure is exactly the 30 requested words, so every
+EN quiz_exclusions target resolves to an existing RU word or a batch word. Seven existing word pages and the kanji pages 才, 能
+and 舞 receive 16 navigation-only link wraps at EN link positions; 衣, 衝, 衛, 星, 儀, 虫, 著, 菓, 莫, 芸, 芝, 航, 舌, 臭, 慢,
+膝, 腰, 腐 and 脇 remain plain labels because those kanji have no RU card.
+
+The batch covers facial expressions and clothing (表情, 衣服), collisions and satellites (衝突, 衛星), manners, actions and
+outbound journeys (行儀, 行動, 行き), tooth decay (虫歯), writers, lighters and authors (作家, ライター, 著者), sweets (菓子),
+enormous amounts (莫大), suffering (苦しむ), art (芸術), lawns (芝生), aviation (航空), the stage (舞台), the tongue (舌),
+bad smells (臭い), the natural (天然, 自然), suicide (自殺), boasting (自慢), automatic operation (自動), the knee, lower back
+and side (膝, 腰, 脇), rotting (腐る) and talent (才能). All 12 EN exclusions are retained; 15 direct guards beyond EN cover
+表情–表現/現れ, 衣服–洋服, 衝突–喧嘩, 衛星–友/連れ/月, 行動–こと, 虫歯–歯, ライター–記者, 菓子–ケーキ/飴, 苦しむ–苦痛,
+舌–言葉 and 脇–横. Exclusions are one-sided declarations that Android applies in both directions; the batch changes
+exclusions only on its new cards.
+The blind facet-split review found correctness clean, one scoped-coverage gap (衣服 dropped EN's rule that the word needs
+no Japanese plural ending), one quiz-safety gap (虫歯's title «кариес; кариозный зуб» overlaps 歯 «зуб; зубы») and one
+comprehensibility defect (自慢 shared the «гордость» frame with the existing 誇り card without separating them). 衣服 now
+states the plural rule, 虫歯 is guarded against 歯, and 自慢 gains an unlinked, qualified contrast with 誇り. A smoother 衣服
+example translation was accepted as an optional item. A second comprehensibility finding, 作家's plain-text pointer to the
+untranslated article on occupation and role endings, was declined under the restoration convention and withdrawn on recheck.
+The candidate was committed signed and pushed before review. The recheck preserves the author's and reviewer's differing
+required-versus-conservative classification of the RU-added pairs. The serial rechecks reported all facets clean.
+
+Qualified progress is **3,969 reviewed-current / 8 reviewed runtime-blocked / 4,301 pending of 8,278**,
+with 2,503 words, 718 kanji and 718 strokes. See the [intake](translation-batches/195-words-batch-34-intake.json),
+[independent review](translation-batches/195-words-batch-34-independent-review-001.md),
+[recheck](translation-batches/195-words-batch-34-recheck-001.md),
+[qualified source record](translation-batches/195-words-batch-34-reviewed-source.json) and
+[final validation](translation-batches/195-words-batch-34-final-validation-001.json).
+
+## Previous published source milestone: batch194 thirty words (general word queue)
 
 Batch194 adds 30 Russian word articles: 解決 解ける 解く 観察 観客 観光 親友 覚悟 覚める 覚ます 見解 見舞い 偉い 上等 見事
 覆う 要素 要点 すなわち つまり 要するに 製品 裸 裏切る 裁判 害 被害 被る 袖 袋. They are chunk 0 of 86 of the general
