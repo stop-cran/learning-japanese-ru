@@ -8,7 +8,19 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch195 thirty words
+## Current published source milestone: batch196 thirty words
+
+Batch196 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions with nothing added), plus 33 navigation-only link wraps in 15 existing word pages and the kanji pages
+給, 絶, 罪, 老, 職 and 育. The blind facet-split review found correctness clean, one scoped-coverage gap (綿's kana reading
+gloss), one quiz-safety gap closed by guards (老人–おじいさん/おばあさん) and nine minor comprehensibility and coverage defects
+(能力 calling 才能 innate, «театр но», missing 木綿/尊重/ぜひ/おじいさん contrasts, author-facing notes in 羽 and 皮, and
+bare «ханэцуки»). All were fixed without RU-only links, and the serial rechecks reported all facets clean.
+Progress: **3,999 reviewed-current / 8 runtime-blocked / 4,271 pending of 8,278**; 2,533 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch196-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch195 thirty words
 
 Batch195 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions with nothing added), plus 16 navigation-only link wraps in 7 existing word pages and the kanji pages
@@ -18,7 +30,7 @@ All were fixed; 作家's plain-text pointer to an untranslated article was kept 
 on recheck. The serial rechecks reported all facets clean.
 Progress: **3,969 reviewed-current / 8 runtime-blocked / 4,301 pending of 8,278**; 2,503 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch195-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch195-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch194 thirty words
 

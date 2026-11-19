@@ -1,0 +1,176 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "196-words-batch-35",
+ "publishedBaseline": "4a594388776ce4decc26ba2ff4d3dbacd0e96762",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate dd39924 and serialized fix rechecks of 14a5f4c found the original scoped-coverage, quiz-safety and comprehensibility defects resolved; correctness was clean from the start. 綿 restores EN's kana reading gloss and gains an unlinked 木綿（もめん） contrast; 老人 «пожилой человек» is guarded against おじいさん and おばあさん and contrasts their sex and kinship meanings; 能 writes «театр Но» as a name and points to 音楽の才能がある for talent in a field; 能力 no longer calls 才能 innate, matching EN's \"talent or aptitude\"; 考慮 and 絶対 gain unlinked contrasts with 尊重 and ぜひ; and the 羽 and 皮 source-list notes are reworded for learners while keeping EN's substance, with «для игры в ханэцуки» giving the game context. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation, the preserved author/reviewer required-versus-conservative exclusion classification, the preserved 才能 innateness evidence disagreement and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 20 EN exclusions across 13 lists are retained. The reviewed RU title overlaps received 15 direct, one-sided exclusions on 10 new cards: 能力–知能; 能–機能; 育つ–伸びる/成長; 皮–革; 肌–表/面; 職–勤め; 考慮–尊重; 考え–意見/見解/考える; 維持–支える; 老人–おじいさん/おばあさん. Two were added after review: 老人–おじいさん/おばあさん, because 老人 is a defensible answer for either sex-specific title. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/196-words-batch-35-intake.json",
+  "docs/translation-batches/196-words-batch-35-independent-review-001.md",
+  "docs/translation-batches/196-words-batch-35-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "保",
+   "慮",
+   "滅",
+   "皮",
+   "結",
+   "維",
+   "綿",
+   "繋",
+   "繰",
+   "缶",
+   "罰",
+   "罹",
+   "羽",
+   "翼",
+   "肌",
+   "肩",
+   "胃"
+  ],
+  "navigationNote": "Restored 33 relative links across the 21 listed Markdown files at the corresponding EN-linked positions, using EN's href forms: three in each of the six kanji cards and one in each of the 15 word cards. No surrounding prose was changed. Missing kanji cards and unavailable word or article targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/給.md",
+   "kanji/絶.md",
+   "kanji/罪.md",
+   "kanji/老.md",
+   "kanji/職.md",
+   "kanji/育.md",
+   "words/おなか.md",
+   "words/ウール.md",
+   "words/ナイロン.md",
+   "words/成長.md",
+   "words/才能.md",
+   "words/支給.md",
+   "words/武器.md",
+   "words/知能.md",
+   "words/紐.md",
+   "words/育苗.md",
+   "words/腹.md",
+   "words/芸術.md",
+   "words/見解.md",
+   "words/解く.md",
+   "words/革.md"
+  ],
+  "newWords": [
+   "能力",
+   "能",
+   "胃",
+   "育つ",
+   "肩",
+   "皮",
+   "肌",
+   "職業",
+   "職",
+   "考慮",
+   "考え",
+   "老人",
+   "老い",
+   "翼",
+   "羽",
+   "美人",
+   "罹る",
+   "罰する",
+   "罪",
+   "缶",
+   "繰り返す",
+   "結ぶ",
+   "繋ぐ",
+   "綿",
+   "保存",
+   "維持",
+   "絶滅",
+   "絶対",
+   "絵画",
+   "給料"
+  ],
+  "selection": "Batch 35 selected 30 word cards from the frozen source: chunk 0 of the 84-batch dependency-closed queue of the general remaining-word pool (30 of 2,517 remaining EN words, recomputed after Batch 195). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. 能→能力, 職→職業, 羽→翼, 繋ぐ→結ぶ and 維持→保存 are the dependency edges inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped: 能力→重ねる and 知識; 胃→kanji 胃; 肩→kanji 肩; 皮→kanji 皮; 肌→kanji 肌; 職業→就職; 考慮→検討; 老い→年齢; 羽→kanji 羽 and 根; 罰する→叱る; 罪→犯罪; 缶→kanji 缶, 瓶 and 缶詰; 繋ぐ→接続; 綿→kanji 綿; 保存→残す; 絶滅→減る; 給料→収入. 17 written kanji have no RU kanji card: 保, 慮, 滅, 皮, 結, 維, 綿, 繋, 繰, 缶, 罰, 罹, 羽, 翼, 肌, 肩, 胃. No RU-only links were added (EN link parity).",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: guarding 繰り返す–また and 保存–預ける (no title overlap requiring a guard); guarding 肌–革 (the displayed qualifiers «(тела)» and «(выделанная)» disambiguate, 肌 guards 皮 through EN and 皮 guards 革); guarding 考え–計画/案 and 絶対–決して (titles do not collide; the ぜひ contrast is plain text). The new 木綿, 尊重, ぜひ and おじいさん/おばあさん contrasts are plain text because the EN cards do not link them and RU-only links break EN link parity. Comprehensibility polish items (保存/維持, 結ぶ/繋ぐ, 繰り返す/復習, 給料, 考え/意思, 缶, 能く) remain optional. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "皮": [
+    "革"
+   ],
+   "維持": [
+    "支える"
+   ],
+   "老人": [
+    "おじいさん",
+    "おばあさん"
+   ],
+   "考え": [
+    "意見",
+    "見解",
+    "考える"
+   ],
+   "考慮": [
+    "尊重"
+   ],
+   "職": [
+    "勤め"
+   ],
+   "肌": [
+    "表",
+    "面"
+   ],
+   "育つ": [
+    "伸びる",
+    "成長"
+   ],
+   "能": [
+    "機能"
+   ],
+   "能力": [
+    "知能"
+   ]
+  },
+  "titles": {
+   "保存": "хранение; сохранение (данных)",
+   "皮": "кожура; шкура; оболочка",
+   "結ぶ": "завязывать; связывать",
+   "給料": "зарплата; жалованье",
+   "絵画": "живопись",
+   "絶対": "абсолютно; во что бы то ни стало",
+   "絶滅": "вымирание",
+   "維持": "поддержание; сохранение (состояния)",
+   "綿": "хлопок",
+   "繋ぐ": "соединять; подключать",
+   "繰り返す": "повторять; делать снова",
+   "缶": "металлическая банка; жестянка",
+   "罪": "преступление; грех",
+   "罰する": "наказывать; налагать взыскание",
+   "罹る": "заболевать",
+   "美人": "красавица",
+   "羽": "перо; крыло",
+   "翼": "крыло",
+   "老い": "старость; старение",
+   "老人": "пожилой человек",
+   "考え": "мысль; идея; замысел",
+   "考慮": "принятие во внимание",
+   "職": "должность; работа по найму",
+   "職業": "профессия; род занятий",
+   "肌": "кожа (тела); фактура поверхности",
+   "肩": "плечо",
+   "育つ": "вырастать",
+   "胃": "желудок",
+   "能": "талант; театр Но",
+   "能力": "способность"
+  }
+ }
+}
