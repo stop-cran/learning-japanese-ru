@@ -1,0 +1,186 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "189-words-batch-28",
+ "publishedBaseline": "a65f37f9f6409c434172ed6e44449821a45fa7e9",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews on the shared initial commit and serialized fix rechecks found the original correctness, comprehensibility and quiz-safety defects resolved. 避ける now qualifies the inherited categorical よける/さける split against the デジタル大辞泉 usage note; 都市 is titled «город; городское поселение» instead of the misleading «городской центр». Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation, the preserved author/reviewer required-versus-conservative exclusion classification and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 14 EN exclusions are retained. The reviewed RU title overlaps received direct, one-sided exclusions, including 金融–経済/金銭/お金/金; 金/金銭–経済; 金曜–金曜日; 数/量–多少; 重大–大変/まじめ/大した/相当; 便/郵便–郵便局; 選択–選ぶ; 適用–用; 適切–適する/合う/いい; 銃–武器; 都市–町; 野–畑; and, after review, 鉄/銀–金属 under the generic-label rule. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/189-words-batch-28-intake.json",
+  "docs/translation-batches/189-words-batch-28-independent-review-001.md",
+  "docs/translation-batches/189-words-batch-28-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "銅",
+   "貨",
+   "銃",
+   "鉄",
+   "針",
+   "属",
+   "銭",
+   "融",
+   "庫",
+   "量",
+   "視",
+   "酸",
+   "素",
+   "郵",
+   "避",
+   "択"
+  ],
+  "navigationNote": "Restored 12 relative links across the 8 listed Markdown files at the corresponding EN-linked positions. No surrounding prose was changed. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/数.md",
+   "kanji/適.md",
+   "words/市.md",
+   "words/番号.md",
+   "words/都会.md",
+   "words/防ぐ.md",
+   "words/首都.md",
+   "articles/numbers-and-counters.md"
+  ],
+  "newWords": [
+   "銅貨",
+   "銃",
+   "銀",
+   "鉄道",
+   "鉄",
+   "ピン",
+   "針",
+   "金属",
+   "金",
+   "金銭",
+   "金融",
+   "金曜",
+   "金庫",
+   "数",
+   "量",
+   "野",
+   "重視",
+   "重大",
+   "酸素",
+   "都市",
+   "便",
+   "郵便",
+   "部分",
+   "避ける",
+   "選択",
+   "選手",
+   "適用",
+   "適切",
+   "適度",
+   "違反"
+  ],
+  "selection": "Batch 28 selected 30 word cards from the frozen source: chunk 0 of the 91-batch dependency-closed queue of the general remaining-word pool (30 of 2,727 remaining EN words, recomputed after Batch 188). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. 針→ピン, 金→金属, 金銭→金, 量→数, 郵便→便 and 適度→適切 are the dependency edges inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped: 銅貨→kanji 貨/銅 and 硬貨; 鉄道→kanji 鉄 and 航空; 鉄→kanji 鉄; 針→kanji 針; 金, 金銭 and 金融→現金; 金曜→土曜 and 木曜; 金庫→kanji 庫; 数→数字; 量→kanji 量 and 質; 重視→無視; 酸素→化学; 郵便→kanji 郵; 部分→全体; 選手→チーム and 参加; 適用→使用. Sixteen written kanji have no RU kanji card: 銅, 貨, 銃, 鉄, 針, 属, 銭, 融, 庫, 量, 視, 酸, 素, 郵, 避, 択.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional additions: 鉄–鉄道 (JMdict 鉄 'railway' is an abbreviation used in compounds; the card teaches senses 1–3, and frozen EN has no pair); a 都心 explanatory sentence on 都市 (the misleading gloss was removed instead); the «городское поселение» municipal-law reading (the card already disclaims administrative status); a 重大–大変 contrast sentence (already directly excluded); deletion of the 便 source-provenance paragraph (EN parity); 金庫–銀行, 違反–障害, 数 against date cards and 重視–重大/かまう (no defensible title overlap). EN pairs naming batch words on cards without an RU card yet (for example ピストル/鉄砲→銃, 硬貨/通貨→銅貨) are deferred to those cards. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "便": [
+    "郵便局"
+   ],
+   "数": [
+    "多少"
+   ],
+   "適切": [
+    "適する",
+    "合う",
+    "いい"
+   ],
+   "適用": [
+    "用"
+   ],
+   "選択": [
+    "選ぶ"
+   ],
+   "郵便": [
+    "郵便局"
+   ],
+   "都市": [
+    "町"
+   ],
+   "重大": [
+    "大変",
+    "まじめ",
+    "大した",
+    "相当"
+   ],
+   "野": [
+    "畑"
+   ],
+   "量": [
+    "多少"
+   ],
+   "金": [
+    "経済"
+   ],
+   "金曜": [
+    "金曜日"
+   ],
+   "金融": [
+    "経済",
+    "金銭",
+    "お金",
+    "金"
+   ],
+   "金銭": [
+    "経済"
+   ],
+   "鉄": [
+    "金属"
+   ],
+   "銀": [
+    "金属"
+   ],
+   "銃": [
+    "武器"
+   ]
+  },
+  "titles": {
+   "ピン": "булавка; кегля",
+   "便": "рейс; почта",
+   "数": "число; количество",
+   "違反": "нарушение (правил, закона)",
+   "適切": "уместный; подходящий",
+   "適度": "умеренный; в меру",
+   "適用": "применение (правила или метода)",
+   "選手": "спортсмен; игрок",
+   "選択": "выбор",
+   "避ける": "избегать; уклоняться (от вопроса)",
+   "部分": "часть; раздел",
+   "郵便": "почта; почтовая служба",
+   "都市": "город; городское поселение",
+   "酸素": "кислород",
+   "重大": "серьёзный; значимый",
+   "重視": "придавать большое значение",
+   "野": "открытое поле; равнина",
+   "量": "количество; объём",
+   "金": "деньги; золото",
+   "金属": "металл",
+   "金庫": "сейф; хранилище",
+   "金曜": "пятница",
+   "金融": "финансы; финансирование",
+   "金銭": "деньги; денежные дела",
+   "針": "игла; стрелка (часов)",
+   "鉄": "железо",
+   "鉄道": "железная дорога",
+   "銀": "серебро",
+   "銃": "огнестрельное оружие",
+   "銅貨": "медная монета"
+  }
+ }
+}

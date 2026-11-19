@@ -1,6 +1,36 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch188 thirty words (general word queue)
+## Current published source milestone: batch189 thirty words (general word queue)
+
+Batch189 adds 30 Russian word articles: 銅貨 銃 銀 鉄道 鉄 ピン 針 金属 金 金銭 金融 金曜 金庫 数 量 野 重視 重大 酸素 都市 便
+郵便 部分 避ける 選択 選手 適用 適切 適度 違反. They are chunk 0 of 91 of the general remaining-word queue (recomputed after
+Batch188: 2,727 EN words remaining); the dependency closure is exactly the 30 requested words, so every EN quiz_exclusions
+target resolves to an existing RU word or a batch word. Five existing word pages, the kanji pages 数 and 適 and the
+numbers-and-counters article receive 12 navigation-only link wraps at EN link positions; 銅, 貨, 銃, 鉄, 針, 属, 銭, 融, 庫, 量,
+視, 酸, 素, 郵, 避 and 択 remain plain labels because those kanji have no RU card.
+
+The batch covers coins, guns, metals (銀, 鉄, 金属, 金), railways, pins and needles, money and finance (金銭, 金融), Friday,
+safes, number and quantity (数, 量), fields, emphasis and seriousness (重視, 重大), oxygen, cities, mail and service (便, 郵便),
+parts, avoiding, choice, athletes, application, appropriateness and moderation (適用, 適切, 適度) and violations. All 14 EN
+exclusions are retained; direct guards beyond EN cover 金融–経済/金銭/お金/金, 金/金銭–経済, 金曜–金曜日, 数/量–多少,
+重大–大変/まじめ/大した/相当, 便/郵便–郵便局, 選択–選ぶ, 適用–用, 適切–適する/合う/いい, 銃–武器, 都市–町, 野–畑 and 鉄/銀–金属.
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+The blind facet-split review found one inherited correctness defect (避ける stated a categorical よける/さける split that
+デジタル大辞泉's usage note qualifies), one quiz-safety gap (鉄/銀 lacked the generic 金属 guard) and one comprehensibility
+defect (都市 glossed «городской центр», which reads as "downtown"). All were fixed; 都市 is now «город; городское поселение».
+The correctness reviewer's outside-facet 鉄–鉄道 lead was declined because the railway sense is an abbreviation used in compounds; the
+recheck preserves the author's and reviewer's differing required-versus-conservative classification of the RU-added pairs.
+The serial rechecks reported all facets clean.
+
+Qualified progress is **3,789 reviewed-current / 8 reviewed runtime-blocked / 4,481 pending of 8,278**,
+with 2,323 words, 718 kanji and 718 strokes. See the [intake](translation-batches/189-words-batch-28-intake.json),
+[independent review](translation-batches/189-words-batch-28-independent-review-001.md),
+[recheck](translation-batches/189-words-batch-28-recheck-001.md),
+[qualified source record](translation-batches/189-words-batch-28-reviewed-source.json) and
+[final validation](translation-batches/189-words-batch-28-final-validation-001.json).
+
+## Previous published source milestone: batch188 thirty words (general word queue)
 
 Batch188 adds 30 Russian word articles: 違いない 道路 道徳 過去 過ごす 幸い 幸運 運 遅刻 遂に 改善 上達 前進 進歩 進学 進める 週
 週間 逮捕 連続 連想 友 連れ 速度 通行 合格 通過 通学 通信 通り過ぎる. They are chunk 1 of 92 of the general remaining-word queue
