@@ -1,6 +1,38 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch190 thirty words (general word queue)
+## Current published source milestone: batch191 thirty words (general word queue)
+
+Batch191 adds 30 Russian word articles: 身体 越える 越す 起こる 与える 贈る 贅沢 質 賢い 賞 資源 資本 恩 貸し 貴重 貯金 係 機能
+働き 作業 勤め 役 義務 務め 責任 責める 販売 貢献 負け 豪華. They are chunk 0 of 89 of the general remaining-word queue
+(recomputed after Batch190: 2,667 EN words remaining); the dependency closure is exactly the 30 requested words, so every EN
+quiz_exclusions target resolves to an existing RU word or a batch word. Six existing word pages and the kanji pages 与, 任, 役,
+負, 責 and 越 receive 22 navigation-only link wraps at EN link positions; 身, 贈, 贅, 沢, 賢, 賞, 源, 恩, 貴, 貯, 義, 販, 貢, 献,
+豪 and 華 remain plain labels because those kanji have no RU card.
+
+The batch covers the body, crossing and exceeding (越える, 越す), occurring, giving and presenting (与える, 贈る), luxury and
+splendour (贅沢, 豪華), quality, cleverness, prizes, resources and capital, favours and lending (恩, 貸し), value and savings
+(貴重, 貯金), the work-and-duty cluster (係, 機能, 働き, 作業, 勤め, 役, 義務, 務め, 責任, 責める), selling, contribution and
+defeat. All 37 EN exclusions are retained; 19 direct guards beyond EN cover 身体–生物, 越す–引っ越す/移る/過ぎる,
+与える–くれる/くださる, 贈る–あげる/差し上げる/上げる, 恩–御礼, 貸し–貸す, 貴重–高価, 係–責任, 働き–労働/運転/動く,
+責任–担当, 販売–売る and 負け–負ける. 係 is titled «ответственный (за порученное дело); ведение» because «поручение» exactly
+matched the 依頼 and 用事 titles. Exclusions are one-sided declarations that Android applies in both directions; the batch
+changes exclusions only on its new cards.
+The blind facet-split review found one correctness defect (負け claimed without a source that 敗北 sounds more bookish), two
+quiz-safety gaps (越す–過ぎる, 貴重–高価) and five comprehensibility or coverage defects: English-dependent remarks in 越す,
+販売 and 貢献, a past-tense gloss of 今回は私の負けです that contradicted the card's noun-versus-verb note, and no 働き–労働
+contrast. All were fixed. GPG signing timed out when the candidate was first committed, so the reviews ran on a local unsigned
+commit whose tree is identical to the signed candidate; the records state this. The recheck preserves the author's and
+reviewer's differing required-versus-conservative classification of the RU-added pairs. The serial rechecks reported all facets
+clean.
+
+Qualified progress is **3,849 reviewed-current / 8 reviewed runtime-blocked / 4,421 pending of 8,278**,
+with 2,383 words, 718 kanji and 718 strokes. See the [intake](translation-batches/191-words-batch-30-intake.json),
+[independent review](translation-batches/191-words-batch-30-independent-review-001.md),
+[recheck](translation-batches/191-words-batch-30-recheck-001.md),
+[qualified source record](translation-batches/191-words-batch-30-reviewed-source.json) and
+[final validation](translation-batches/191-words-batch-30-final-validation-001.json).
+
+## Previous published source milestone: batch190 thirty words (general word queue)
 
 Batch190 adds 30 Russian word articles: 通り 通す 通じる 瞬間 途端 逆らう 逆 追う 追い付く 迷惑 迷子 述べる 現代 近代 迎え
 辺り 農民 農業 農家 辞める 轢く 丸 輪 転ぶ 軒 軍隊 軍 身長 自身 身. They are chunk 0 of 90 of the general remaining-word queue
