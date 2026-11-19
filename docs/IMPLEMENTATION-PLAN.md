@@ -8,7 +8,19 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch189 thirty words
+## Current published source milestone: batch190 thirty words
+
+Batch190 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions with nothing added), plus 10 navigation-only link wraps in 6 existing word pages and the kanji pages
+丸 and 追. The blind facet-split review found two correctness defects (通じる's lost "not every use" qualification and 輪's
+unsupported frequency claim), an unverified 近代 periodization caution and four comprehensibility defects (辺り and 迷惑
+contrasts, 近代's title, a bare 円 in 丸). All were fixed, 近代 was retitled «эпоха модернизации», the 轢く–引っ越す guard was
+withdrawn, and the serial rechecks reported all facets clean.
+Progress: **3,819 reviewed-current / 8 runtime-blocked / 4,451 pending of 8,278**; 2,353 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch190-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch189 thirty words
 
 Batch189 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions with nothing added), plus 12 navigation-only link wraps in 5 existing word pages, the kanji pages
@@ -17,7 +29,7 @@ under quiz_exclusions with nothing added), plus 12 navigation-only link wraps in
 All were fixed, the 鉄–鉄道 lead was declined with recorded reasoning, and the serial rechecks reported all facets clean.
 Progress: **3,789 reviewed-current / 8 runtime-blocked / 4,481 pending of 8,278**; 2,323 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch189-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch189-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch188 thirty words
 
