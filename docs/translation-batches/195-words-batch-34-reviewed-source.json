@@ -1,0 +1,169 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "195-words-batch-34",
+ "publishedBaseline": "c79168cef37fbac12e014028eb247bc11cf7c9a3",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 4a2fd76 and serialized fix rechecks of b44f566 found the original scoped-coverage, quiz-safety and comprehensibility defects resolved; correctness was clean from the start. 衣服 restores EN's rule that the word needs no Japanese plural ending, without reproducing the English-translation comparison, and its example now reads «Я сменил мокрую одежду.»; 虫歯 «кариес; кариозный зуб» is guarded against 歯 «зуб; зубы»; and 自慢 gains an unlinked, qualified contrast with 誇り that quotes the existing 誇り card's example. The 作家 pointer to the untranslated occupation-and-role-endings article stays plain text for later restoration; the reviewer withdrew that finding on recheck. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation, the preserved author/reviewer required-versus-conservative exclusion classification and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 12 EN exclusions across 11 lists are retained. The reviewed RU title overlaps received 15 direct, one-sided exclusions on 11 new cards: 表情–表現/現れ; 衣服–洋服; 衝突–喧嘩; 衛星–友/連れ/月; 行動–こと; 虫歯–歯; ライター–記者; 菓子–ケーキ/飴; 苦しむ–苦痛; 舌–言葉; 脇–横. One was added after review: 虫歯–歯, a conservative hypernym guard because the RU title adds «кариозный зуб». Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/195-words-batch-34-intake.json",
+  "docs/translation-batches/195-words-batch-34-independent-review-001.md",
+  "docs/translation-batches/195-words-batch-34-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "衣",
+   "衝",
+   "衛",
+   "星",
+   "儀",
+   "虫",
+   "著",
+   "菓",
+   "莫",
+   "芸",
+   "芝",
+   "航",
+   "舌",
+   "臭",
+   "慢",
+   "膝",
+   "腰",
+   "腐",
+   "脇"
+  ],
+  "navigationNote": "Restored 16 relative links across the 10 listed Markdown files at the corresponding EN-linked positions, using EN's href forms. No surrounding prose was changed. Missing kanji cards and unavailable word or article targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/才.md",
+   "kanji/能.md",
+   "kanji/舞.md",
+   "words/尻.md",
+   "words/袖.md",
+   "words/詩人.md",
+   "words/誇り.md",
+   "words/轢く.md",
+   "words/鉄道.md",
+   "words/麒麟.md"
+  ],
+  "newWords": [
+   "表情",
+   "衣服",
+   "衝突",
+   "衛星",
+   "行儀",
+   "行動",
+   "行き",
+   "虫歯",
+   "作家",
+   "ライター",
+   "著者",
+   "菓子",
+   "莫大",
+   "苦しむ",
+   "芸術",
+   "芝生",
+   "航空",
+   "舞台",
+   "舌",
+   "臭い",
+   "天然",
+   "自然",
+   "自殺",
+   "自慢",
+   "自動",
+   "膝",
+   "腰",
+   "腐る",
+   "脇",
+   "才能"
+  ],
+  "selection": "Batch 34 selected 30 word cards from the frozen source: chunk 0 of the 85-batch dependency-closed queue of the general remaining-word pool (30 of 2,547 remaining EN words, recomputed after Batch 194). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. 行動→行儀, 著者→作家/ライター, ライター→作家 and 自然→天然 are the dependency edges inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped: 衣服→kanji 衣; 衝突→攻撃; 衛星→kanji 星; 行儀→態度 and 礼儀; 行動→活動; 虫歯→kanji 虫; 作家→作者, 画家 and the occupation-and-role-endings article; 著者→kanji 著; 菓子→kanji 菓 and おやつ; 莫大→巨大; 苦しむ→我慢; 芸術→kanji 芸 and 絵画; 航空→kanji 航; 天然→人工; 自殺→死亡; 自慢→得意; 腰→kanji 腰; 腐る→新鮮; 才能→能力. 19 written kanji have no RU kanji card: 衣, 衝, 衛, 星, 儀, 虫, 著, 菓, 莫, 芸, 芝, 航, 舌, 臭, 慢, 膝, 腰, 腐, 脇. No RU-only links were added (EN link parity).",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: guarding 舌–言語 (the displayed parentheticals «язык (орган)» and «язык (как система)» disambiguate, and EN has no such pair); guarding 脇–隣 (no overlap requiring a guard; unguarded in EN); and linking 作家's article pointer or importing its examples (the article is untranslated, RU-only links break EN link parity, and the card already states the 作者/作家 rule). The proposed [誇り] link in 自慢 was likewise not added, and the unsupported frequency word «чаще» was dropped. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "ライター": [
+    "記者"
+   ],
+   "脇": [
+    "横"
+   ],
+   "舌": [
+    "言葉"
+   ],
+   "苦しむ": [
+    "苦痛"
+   ],
+   "菓子": [
+    "ケーキ",
+    "飴"
+   ],
+   "虫歯": [
+    "歯"
+   ],
+   "行動": [
+    "こと"
+   ],
+   "衛星": [
+    "友",
+    "連れ",
+    "月"
+   ],
+   "衝突": [
+    "喧嘩"
+   ],
+   "衣服": [
+    "洋服"
+   ],
+   "表情": [
+    "表現",
+    "現れ"
+   ]
+  },
+  "titles": {
+   "ライター": "зажигалка; автор статей",
+   "作家": "писатель; автор творческих работ",
+   "天然": "природного происхождения; натуральный",
+   "才能": "талант; дарование",
+   "脇": "бок; подмышка; место сбоку",
+   "腐る": "гнить; портиться",
+   "腰": "поясница; талия; бёдра",
+   "膝": "колено; колени (у сидящего)",
+   "自動": "автоматический режим; автоматика",
+   "自慢": "хвастовство; гордость за своё",
+   "自殺": "самоубийство",
+   "自然": "природа; естественный",
+   "臭い": "вонючий; дурно пахнущий",
+   "舌": "язык (орган)",
+   "舞台": "сцена для выступлений; подмостки",
+   "航空": "авиация; воздушный транспорт",
+   "芝生": "газон; лужайка",
+   "芸術": "искусство",
+   "苦しむ": "страдать; испытывать мучения",
+   "莫大": "огромный; колоссальный",
+   "菓子": "кондитерские изделия",
+   "著者": "автор (книги, труда)",
+   "虫歯": "кариес; кариозный зуб",
+   "行き": "путь туда; следующий до (пункта)",
+   "行儀": "манеры; поведение на людях",
+   "行動": "действия; поступки",
+   "衛星": "спутник планеты; искусственный спутник",
+   "衝突": "столкновение; конфликт",
+   "衣服": "одежда в целом",
+   "表情": "выражение лица"
+  }
+ }
+}
