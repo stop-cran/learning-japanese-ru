@@ -1,0 +1,80 @@
+{
+ "schemaVersion": 1,
+ "batchId": "195-words-batch-34",
+ "recordedAt": "2026-11-19T19:15:32Z",
+ "repository": "stop-cran/learning-japanese-ru",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "c79168cef37fbac12e014028eb247bc11cf7c9a3",
+ "candidateCommit": "03707c6",
+ "qualifiedAcceptanceCommit": "9d37e91d0ce7a0623d4d8211bf647e96aa1888b7",
+ "publishedCommit": "4a594388776ce4decc26ba2ff4d3dbacd0e96762",
+ "publishedTree": "9c99e02d871f96dd6959999d7c6fb5e303d20728",
+ "contentVersion": "eaaf5e0f833670c9",
+ "integration": {
+  "method": "pull request merge commit",
+  "pullRequestCreated": true,
+  "pullRequest": 79,
+  "pullRequestUrl": "https://github.com/stop-cran/learning-japanese-ru/pull/79",
+  "branch": "full-ru-195-words-34",
+  "branchRef": "9d37e91d0ce7a0623d4d8211bf647e96aa1888b7",
+  "mainRef": "4a594388776ce4decc26ba2ff4d3dbacd0e96762",
+  "mergeParents": [
+   "c79168cef37fbac12e014028eb247bc11cf7c9a3",
+   "9d37e91d0ce7a0623d4d8211bf647e96aa1888b7"
+  ],
+  "branchAndMainTreeMatch": true
+ },
+ "githubIdentity": {
+  "authenticatedOwner": "stop-cran",
+  "author": "stop-cran",
+  "committer": "stop-cran (branch commits); web-flow (merge commit)",
+  "commitSignatureVerified": true,
+  "signatureReason": "valid",
+  "ownerCredentialMatchedVerifiedOwnerToken": true
+ },
+ "exactMainCi": {
+  "workflow": "Validate Russian content",
+  "runId": 44596238069,
+  "headSha": "4a594388776ce4decc26ba2ff4d3dbacd0e96762",
+  "status": "completed",
+  "conclusion": "success",
+  "url": "https://github.com/stop-cran/learning-japanese-ru/actions/runs/44596238069"
+ },
+ "protectedRefs": {
+  "ru-pilot-a": {
+   "expected": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+   "observedAfterPublication": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+   "unchanged": true
+  },
+  "ru-pilot-b": {
+   "expected": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+   "observedAfterPublication": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+   "unchanged": true
+  }
+ },
+ "qualifiedProgress": {
+  "frozenInventory": 8278,
+  "reviewedCurrent": 3969,
+  "excludedReviewedRuntimeBlocked": 8,
+  "pending": 4301,
+  "words": 2503,
+  "kanji": 718,
+  "strokes": 718,
+  "checkpointAuthority": null,
+  "checkpointReady": false
+ },
+ "evidence": {
+  "intake": "docs/translation-batches/195-words-batch-34-intake.json",
+  "review": "docs/translation-batches/195-words-batch-34-independent-review-001.md",
+  "recheck": "docs/translation-batches/195-words-batch-34-recheck-001.md",
+  "finalValidation": "docs/translation-batches/195-words-batch-34-final-validation-001.json",
+  "qualifiedSourceRecord": "docs/translation-batches/195-words-batch-34-reviewed-source.json"
+ },
+ "remainingQualification": {
+  "ordinaryQuizNegativeFallbackSafety": "表情 衣服 衝突 衛星 行儀 行動 行き 虫歯 作家 ライター 著者 菓子 莫大 苦しむ 芸術 芝生 航空 舞台 舌 臭い 天然 自然 自殺 自慢 自動 膝 腰 腐る 脇 才能 and their direct exclusions judged safe by one bounded independent review and recheck against the current RU title pool; not exhaustive, no transitive closure inferred.",
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false,
+  "continueRequired": true
+ }
+}
