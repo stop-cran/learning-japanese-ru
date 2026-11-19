@@ -1,6 +1,64 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch186 thirty words (general word queue)
+## Current published source milestone: batch188 thirty words (general word queue)
+
+Batch188 adds 30 Russian word articles: 違いない 道路 道徳 過去 過ごす 幸い 幸運 運 遅刻 遂に 改善 上達 前進 進歩 進学 進める 週
+週間 逮捕 連続 連想 友 連れ 速度 通行 合格 通過 通学 通信 通り過ぎる. They are chunk 1 of 92 of the general remaining-word queue
+(recomputed after Batch187: closure of 2,757 EN words); chunk 0 remains queued. 幸運 and 運 joined through the EN
+幸い→幸運→運 exclusion chain, so every EN quiz_exclusions target resolves to an existing RU word or a batch word. Five
+existing word pages, the kanji pages 刻, 路 and 遅 and the numbers-and-counters article receive 15 navigation-only link
+wraps at EN link positions; 善, 徳, 改, 逮 and 遂 remain plain labels because those kanji have no RU card.
+
+The batch covers certainty (違いない), roads and morals, the past and spending time, good fortune, luck and fate (幸い, 幸運,
+運), lateness, "at last" (遂に), improvement, progress and pushing work forward (改善, 上達, 前進, 進歩, 進める), going on to
+further education, weeks and week-long periods (週, 週間), arrest, succession and association of ideas (連続, 連想), friends
+and companions (友, 連れ), speed, passage and traffic (通行, 通過, 通り過ぎる), passing an exam, commuting to school and
+communication. Direct guards beyond EN cover 幸い–幸福, 進歩–発展/発達, 連続–次々, 遂に–とうとう/末, 前進–進む, 通行–通る,
+通過–通る/過ぎる, 通り過ぎる–通過, 通学–通う, 速度–高速, 週間–期間 and 進学–入学. Exclusions are one-sided declarations that Android
+applies in both directions, so reverse entries briefly added to the baseline cards 次々, 発展 and 幸せ during the fixes were
+removed; the batch changes exclusions only on its new cards.
+The blind facet-split review found one correctness defect (週間 glossed 毎週 as «раз в неделю»), quiz-safety gaps
+(identical 運/幸運 titles, 連続–次々, 進歩–発展) and comprehensibility issues (the 進める title/H1 mismatch and a circular
+usage ban, the 通過/合格 overlap, an English «way» note in 道路). All were fixed; 運 is now «судьба; удача». A later
+correctness recheck added 幸い–幸福 and 進歩–発達; the reviewers' 幸い–幸福 disagreement and its evidence-based resolution are
+preserved in the recheck. The final rechecks reported all facets clean. The recheck also records process deviations:
+concurrent rechecks in one round, an unaccepted draft report and a replacement comprehensibility reviewer on the same model.
+
+Qualified progress is **3,759 reviewed-current / 8 reviewed runtime-blocked / 4,511 pending of 8,278**,
+with 2,293 words, 718 kanji and 718 strokes. See the [intake](translation-batches/188-words-batch-27-intake.json),
+[independent review](translation-batches/188-words-batch-27-independent-review-001.md),
+[recheck](translation-batches/188-words-batch-27-recheck-001.md),
+[qualified source record](translation-batches/188-words-batch-27-reviewed-source.json) and
+[final validation](translation-batches/188-words-batch-27-final-validation-001.json).
+
+## Previous published source milestone: batch187 thirty words (general word queue)
+
+Batch187 adds 30 Russian word articles: 離す 雇う 集団 集中 会 会合 集まり 隠れる 隠す 障害 回 度 際 陰 限界 守る 防ぐ 関連 関心
+関する 誤り 間違い 始まり 開始 閉じる 長期 鎖 鍋 鋭い 鋏. They are chunk 0 of 93 of the general remaining-word queue
+(recomputed after Batch186: closure of 2,787 EN words; 会 joined to support 会合, and 会合 to support 集まり), so every EN
+quiz_exclusions target resolves to an existing RU word or a batch word. Fifteen existing word pages and the kanji pages 団
+and 守 receive 19 navigation-only link wraps at EN link positions (three 守る links on 守); 鋏, 鋭, 鍋, 鎖, 防, 陰, 障, 隠, 雇
+and 離 remain plain labels because those kanji have no RU card.
+
+The batch covers separating and hiring, groups, meetings and gatherings (集団, 会, 会合, 集まり), concentration, hiding
+(隠れる, 隠す), obstacles and impairments, times, occasions and moments (回, 度, 際), shade, limits, protecting and
+preventing (守る, 防ぐ), relation and interest (関連, 関心, 関する), mistakes (誤り, 間違い), beginnings (始まり, 開始), closing,
+long terms, chains, pots, sharpness and scissors. Direct guards beyond EN cover 回–一度/もう一度,
+度–場合/ケース/機会/一度/もう一度/今度, 際–場合, 始まり–始め/出発, 開始–最初/出発, 関する–対する/触る, 関連–連絡, 限界–かぎり,
+長期–期間, 間違い–失敗, 鋭い–辛い, 鍋–料理 and 閉じる–ぱくぱく.
+The independent review found two correctness defects (the 集中 particle roles and a 際 past-form timing claim),
+comprehensibility issues (a garbled 関する translation and 鍋 conflated with a frying pan) and two quiz-safety advisories
+(度–機会, 始まり/開始–出発), adopted as guards. All were fixed; a later recheck added the 回/度 guards against 一度, もう一度 and
+今度, a final bounded pair review judged 回–今度 not directly ambiguous, and the rechecks reported all facets clean.
+
+Qualified progress is **3,729 reviewed-current / 8 reviewed runtime-blocked / 4,541 pending of 8,278**,
+with 2,263 words, 718 kanji and 718 strokes. See the [intake](translation-batches/187-words-batch-26-intake.json),
+[independent review](translation-batches/187-words-batch-26-independent-review-001.md),
+[recheck](translation-batches/187-words-batch-26-recheck-001.md),
+[qualified source record](translation-batches/187-words-batch-26-reviewed-source.json) and
+[final validation](translation-batches/187-words-batch-26-final-validation-001.json).
+
+## Previous published source milestone: batch186 thirty words (general word queue)
 
 Batch186 adds 30 Russian word articles: 食品 食卓 食う 飛行 飛び出す 除く 省く 飛ばす 風景 問い 題 頼る 頬 預ける 期間 時 時期
 頃 革 表面 面 非常 霧 霜 需要 電子 雷 離婚 去る 離れる. They are chunk 0 of 94 of the general remaining-word queue

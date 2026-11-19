@@ -1,0 +1,156 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "188-words-batch-27",
+ "publishedBaseline": "6722867485116a23d63f8705945e5dfa2986e0d6",
+ "qualifiedVerdicts": {
+  "content": "Blind reviews on the shared initial commit and serialized fix rechecks found the original correctness, comprehensibility and quiz-safety defects resolved. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation, a preserved 幸い–幸福 disagreement and process deviations are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "EN exclusions are retained. The reviewed RU title overlaps received direct, one-sided exclusions, including 幸い–幸福; 進歩–発展/発達; 連続–次々; 遂に–とうとう/末; 前進–進む; 通過–通る/過ぎる; 通り過ぎる–通過; plus the other justified pairs recorded in exclusionsAddedBeyondEn. Android applies each declaration symmetrically, so reverse declarations on baseline cards were withdrawn. 運 is titled «судьба; удача» so that it no longer duplicates 幸運. 遂に and とうとう share «наконец; в итоге» and are directly excluded."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/188-words-batch-27-intake.json",
+  "docs/translation-batches/188-words-batch-27-independent-review-001.md",
+  "docs/translation-batches/188-words-batch-27-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "善",
+   "徳",
+   "改",
+   "逮",
+   "遂"
+  ],
+  "navigationNote": "Restored 15 relative links across the 9 listed Markdown files at the corresponding EN-linked positions. No surrounding prose was changed. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/刻.md",
+   "kanji/路.md",
+   "kanji/遅.md",
+   "words/回復.md",
+   "words/幸せ.md",
+   "words/現在.md",
+   "words/町.md",
+   "words/高速.md",
+   "articles/numbers-and-counters.md"
+  ],
+  "newWords": [
+   "違いない",
+   "道路",
+   "道徳",
+   "過去",
+   "過ごす",
+   "幸い",
+   "幸運",
+   "運",
+   "遅刻",
+   "遂に",
+   "改善",
+   "上達",
+   "前進",
+   "進歩",
+   "進学",
+   "進める",
+   "週",
+   "週間",
+   "逮捕",
+   "連続",
+   "連想",
+   "友",
+   "連れ",
+   "速度",
+   "通行",
+   "合格",
+   "通過",
+   "通学",
+   "通信",
+   "通り過ぎる"
+  ],
+  "selection": "Batch 27 selected 30 N3 word cards from the frozen source: chunk 1 of 92 of the general remaining-word queue (closure of 2,757 EN words, recomputed after Batch187); chunk 0 remains queued. The set is closed under the source quiz-exclusion edges; 幸い→幸運 and 幸運→運 are the dependency edges inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped: 道徳→礼儀; 過去→以前 and 未来; 過ごす→暮らす and 経つ; 幸い→不幸; 遅刻→欠席; 改善→kanji 改; 進学→就職; 進める→勧める; 友 and 連れ→仲間; 合格→優勝 and 成功. Five written kanji have no RU kanji card: 善, 徳, 改, 逮, 遂.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional additions: reverse declarations on baseline cards (Android checks either side); 運–幸せ and 幸運–幸せ (fate or luck versus happiness); 違いない–確か (the に違いない construction versus a reliability adjective or memory hedge); 遅刻–遅れる (a lateness noun versus the broader delay verb); 連想 against 関連/関係/連絡 (only the generic «связь» overlaps); 連続–連休 (a specific holiday term); 伸びる edges to 改善/進歩/上達 (a secondary improvement sense); the weaker overlaps 過去–昔, 通信–伝える/放送, 合格–試験 and other cross-part-of-speech pairs; return links where EN has only a plain-text mention. These were not established as direct answer ambiguities. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "前進": [
+    "進む"
+   ],
+   "幸い": [
+    "幸福"
+   ],
+   "通り過ぎる": [
+    "通過"
+   ],
+   "通学": [
+    "通う"
+   ],
+   "通行": [
+    "通る"
+   ],
+   "通過": [
+    "通る",
+    "過ぎる"
+   ],
+   "速度": [
+    "高速"
+   ],
+   "連続": [
+    "次々"
+   ],
+   "週間": [
+    "期間"
+   ],
+   "進学": [
+    "入学"
+   ],
+   "進歩": [
+    "発展",
+    "発達"
+   ],
+   "遂に": [
+    "とうとう",
+    "末"
+   ]
+  },
+  "titles": {
+   "上達": "совершенствование навыка",
+   "前進": "движение вперёд; прогресс",
+   "友": "друг; спутник",
+   "合格": "сдать экзамен; соответствовать требованиям",
+   "幸い": "удача; к счастью",
+   "幸運": "удача; везение",
+   "改善": "улучшение",
+   "通り過ぎる": "проходить мимо; миновать",
+   "通信": "обмен сообщениями; передача информации",
+   "通学": "регулярная дорога в школу",
+   "通行": "движение; проезд",
+   "通過": "проход через; прохождение этапа",
+   "速度": "скорость; темп",
+   "連れ": "спутник; сопровождающий",
+   "連想": "ассоциация; ассоциативная связь",
+   "連続": "череда; последовательность",
+   "逮捕": "арест",
+   "週": "неделя",
+   "週間": "период в одну или несколько недель",
+   "進める": "продвигать; вести дело вперёд",
+   "進学": "переход на следующую ступень обучения",
+   "進歩": "прогресс; улучшение",
+   "遂に": "наконец; в итоге",
+   "遅刻": "опоздание",
+   "運": "судьба; удача",
+   "過ごす": "проводить время",
+   "過去": "прошлое",
+   "道徳": "мораль; нравственные нормы",
+   "道路": "дорога",
+   "違いない": "несомненно; наверняка"
+  }
+ }
+}
