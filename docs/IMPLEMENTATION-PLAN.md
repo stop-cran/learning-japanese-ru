@@ -8,7 +8,21 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch204 thirty words
+## Current published source milestone: batch205 thirty words
+
+Batch205 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions with nothing added), plus 26 navigation-only link wraps in 18 existing word pages and the kanji pages
+低, 効, 暮 and 未. It was authored and reviewed as a staged tree on the reviewed Batch204 tree while commit signing was
+unavailable. The blind facet-split review found one scoped-coverage finding (札 dropped EN's qualification about the source
+list's compiler), two quiz-safety findings (missing 暮らす–生活 and 暗記–覚える guards) and two comprehensibility findings (the
+same 札 sentence, and a dead pointer in 替える to the untranslated かえる article). 札 and both guards were fixed without RU-only
+links; the 替える pointer was kept by the plain-text pointer convention and that finding was withdrawn on recheck. After
+Batch204 was published, that exact reviewed tree was committed signed. The serial rechecks reported all facets clean.
+Progress: **4,269 reviewed-current / 8 runtime-blocked / 4,001 pending of 8,278**; 2,803 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch205-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch204 thirty words
 
 Batch204 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions with nothing added), plus 24 navigation-only link wraps in 11 existing word pages, the kanji pages
@@ -20,7 +34,7 @@ two added guards changed exclusions. After Batch203 was published, that exact re
 rechecks reported all facets clean.
 Progress: **4,239 reviewed-current / 8 runtime-blocked / 4,031 pending of 8,278**; 2,773 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch204-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch204-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch203 thirty words
 

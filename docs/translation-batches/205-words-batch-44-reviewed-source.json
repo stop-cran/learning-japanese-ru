@@ -1,0 +1,172 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "205-words-batch-44",
+ "publishedBaseline": "56a952485c35b887a09d0828a05e8e06ca72226a",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the staged candidate tree e26a8e9 and serialized fix rechecks of the revised tree 84dc60f, committed signed as 18386f8, found the original scoped-coverage, quiz-safety and comprehensibility defects resolved; correctness, consistency and scoped cross-file integration were clean throughout. 札's closing source note now opens with the learner rule that dictionary or word-list glosses «билет» and «бирка» at the reading さつ belong to ふだ, explains that the source list this card is based on paired さつ with ふだ's glosses, and restores EN's qualification that what the list's compiler intended remains unclear. 暮らす now declares a direct exclusion with 生活, whose card teaches 生活する «жить», and 暗記 one with 覚える «запоминать; помнить»; the conservative guards 書類–紙 and 服装–格好 were adopted from the consistency reviewer's optional items. 有効's example now reads «Этот билет действителен по завтрашний день включительно», keeping EN's inclusive \"through tomorrow\", and 旧's example reads «Это прежнее здание школы», so that it carries the card's own contrast with 古い. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation, the preserved author/reviewer required-versus-conservative exclusion classification and process notes, including the staged-tree review while commit signing was unavailable, are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 18 EN exclusions across 11 lists are retained. The reviewed RU title overlaps received 15 direct, one-sided exclusions on 13 new cards: 本物–本当; 本人–自身/自分; 木曜–木曜日; 月曜–月曜日; 日曜–日曜日; 明後日–あさって; 最中–盛り; 更に–それに; 暮らす–生きる/生活; 元–種; 暗記–覚える; 書類–紙; 服装–格好. 暮らす–生活 and 暗記–覚える were added after review (consistency F1 and F2), and 書類–紙 and 服装–格好 were adopted from that reviewer's optional items as conservative guards; the author had adjudicated 暮らす–生活 and 書類–紙 as stem-only overlaps and declined them. The author classed the three weekday pairs and 明後日–あさって as required and its other seven pairs as conservative, noting that the segment-equal 最中–盛り, 暮らす–生きる and 元–種 could be argued required; the consistency reviewer called those three required and 本物–本当, 本人–自身/自分 and 更に–それに conservative, and requested no removal. These differences are preserved, not voted. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/205-words-batch-44-intake.json",
+  "docs/translation-batches/205-words-batch-44-independent-review-001.md",
+  "docs/translation-batches/205-words-batch-44-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "札",
+   "装",
+   "替",
+   "普",
+   "旧",
+   "斎"
+  ],
+  "navigationNote": "Restored 26 relative links across the 22 listed Markdown files at the corresponding EN-linked positions, using EN's href forms: three links in each of the kanji pages 暮 (to 暮らす) and 未 (to 未来); one in each of the kanji pages 低 (to 最低) and 効 (to 有効); and one in each of 18 word cards: 上等, 松竹梅 and 精々 (to 最高), 亥, 卯, 巳, 酉, 時期 and 期間 (to 時刻), 基 and 素 (to 元), 書物 (to 書類), 火曜 and 金曜 (to 木曜), 現在 and 過去 (to 未来), 自身 (to 本人) and 過ごす (to 暮らす). Mentions that EN leaves unlinked stay plain. No surrounding prose was changed. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/低.md",
+   "kanji/効.md",
+   "kanji/暮.md",
+   "kanji/未.md",
+   "words/上等.md",
+   "words/亥.md",
+   "words/卯.md",
+   "words/基.md",
+   "words/巳.md",
+   "words/時期.md",
+   "words/書物.md",
+   "words/期間.md",
+   "words/松竹梅.md",
+   "words/火曜.md",
+   "words/現在.md",
+   "words/精々.md",
+   "words/素.md",
+   "words/自身.md",
+   "words/過ごす.md",
+   "words/過去.md",
+   "words/酉.md",
+   "words/金曜.md"
+  ],
+  "newWords": [
+   "札",
+   "本物",
+   "本人",
+   "未来",
+   "木曜",
+   "服装",
+   "有能",
+   "有効",
+   "有利",
+   "月曜",
+   "最高",
+   "最終",
+   "最低",
+   "最中",
+   "替える",
+   "書類",
+   "書斎",
+   "更に",
+   "曜日",
+   "暮らす",
+   "暮らし",
+   "暗記",
+   "景気",
+   "普段",
+   "時刻",
+   "昨",
+   "明後日",
+   "元",
+   "旧",
+   "日曜"
+  ],
+  "selection": "Batch 44 selected 30 word cards from the frozen source: chunk 0 of the 75-batch dependency-closed queue of the general remaining-word pool (30 of 2,247 remaining EN words, recomputed after Batch 204). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. 旧→元 is the only dependency edge inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (13 EN link occurrences, 13 targets): 札→kanji 札; 服装→kanji 装; 有効→効果; 有利→不利; 替える→kanji 替, 換える and the kaeru-change-replace-and-return article; 書類→資料; 曜日→日付; 暮らし→人生; 普段→kanji 普; 元→以前; 旧→kanji 旧. 6 written kanji have no RU kanji card: 札, 装, 替, 普, 旧, 斎. No RU-only links were added (EN link parity).",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: 書斎–研究室, 元–基/素, 時刻–何時 and 暮らす–過ごす guards (the consistency reviewer itself judged none necessary and withdrew them on recheck); a register note on 明後日 (EN has none here, and the RU あさって card already gives the contrast); and the comprehensibility reviewer's observations on 更に «пошёл ещё сильнее», 景気 «конъюнктура», 本人 and 書類/書物 (none was established as a defect; 景気's body immediately pairs the term with «дела идут хорошо»). The comprehensibility reviewer's request to delete 替える's plain-text pointer to the untranslated かえる article was declined by the published convention that keeps such pointers unlinked until the article exists, so that the EN link can later be restored in place (戻る and 作家 carry the same kind of pointer); the reviewer withdrew it on recheck. The optional 有効 and 旧 translation changes were adopted. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "元": [
+    "種"
+   ],
+   "日曜": [
+    "日曜日"
+   ],
+   "明後日": [
+    "あさって"
+   ],
+   "暗記": [
+    "覚える"
+   ],
+   "暮らす": [
+    "生きる",
+    "生活"
+   ],
+   "更に": [
+    "それに"
+   ],
+   "書類": [
+    "紙"
+   ],
+   "最中": [
+    "盛り"
+   ],
+   "月曜": [
+    "月曜日"
+   ],
+   "服装": [
+    "格好"
+   ],
+   "木曜": [
+    "木曜日"
+   ],
+   "本人": [
+    "自身",
+    "自分"
+   ],
+   "本物": [
+    "本当"
+   ]
+  },
+  "titles": {
+   "元": "бывший; источник",
+   "日曜": "воскресенье",
+   "旧": "бывший; прежний (приставка)",
+   "明後日": "послезавтра",
+   "昨": "прошлый (приставка в словах о времени)",
+   "時刻": "время по часам; момент времени",
+   "普段": "обычно; повседневный",
+   "景気": "экономическая конъюнктура; деловая активность",
+   "暗記": "заучивание наизусть",
+   "暮らし": "образ жизни; средства к существованию",
+   "暮らす": "вести жизнь; жить (где, как, с кем)",
+   "曜日": "день недели",
+   "更に": "ещё больше; вдобавок",
+   "書斎": "кабинет (комната в доме)",
+   "書類": "документы; бумаги",
+   "替える": "сменять; ставить взамен",
+   "最中": "разгар (какого-либо дела)",
+   "最低": "самый низкий; минимальный; наихудший",
+   "最終": "заключительный; финальный",
+   "最高": "наивысший; наилучший",
+   "月曜": "понедельник",
+   "有利": "выгодный; благоприятный",
+   "有効": "действительный (в силе); эффективный",
+   "有能": "компетентный; дельный",
+   "服装": "форма одежды; манера одеваться",
+   "木曜": "четверг",
+   "未来": "будущее (грядущее)",
+   "本人": "сам человек, о котором идёт речь",
+   "本物": "подлинная вещь; не подделка",
+   "札": "банкнота; бумажные деньги"
+  }
+ }
+}
