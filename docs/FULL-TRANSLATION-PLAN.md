@@ -1,6 +1,37 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch206 thirty words (general word queue)
+## Current published source milestone: batch207 thirty words (general word queue)
+
+Batch207 adds 30 Russian word articles: 不利 損 握手 握る 交換 両替 換える 提出 描く 掴む 掲示 推薦 捕まる 振る 指す
+持ち上げる 抱く 抱える 抜ける 抜く 投票 批評 批判 扱う 手術 手品 戻す 或 我慢 我々. They are chunk 0 of 73 of the general
+remaining-word queue (recomputed after Batch206: 2,187 EN words remaining); the dependency closure is exactly the 30 requested
+words, so every EN quiz_exclusions target resolves to an existing RU word or a batch word. Seven existing word pages and the
+kanji pages 抜, 抱 and 術 receive 16 navigation-only link wraps at EN link positions; 損, 握, 換, 替, 提, 描, 掴, 掲, 推, 薦, 振,
+票, 批, 評, 扱, 或, 我 and 慢 remain plain labels because those kanji have no RU card.
+
+The batch covers disadvantage and loss (不利, 損), handshakes and gripping (握手, 握る), exchanging and changing money (交換,
+両替, 換える), submitting (提出), drawing (描く), grasping (掴む), posted notices (掲示), recommendation (推薦), being caught
+(捕まる), waving and shaking (振る), pointing (指す), lifting and flattering (持ち上げる), holding in one's arms (抱く, 抱える),
+coming out and pulling out (抜ける, 抜く), voting (投票), critique and criticism (批評, 批判), handling (扱う), surgery (手術),
+magic tricks (手品), putting back (戻す), "a certain" (或), endurance (我慢) and "we" (我々). All 19 EN exclusions are
+retained; 6 direct guards beyond EN cover 交換–代わり/両替, 扱う–操作, 掴む–捕まえる/理解 and 持ち上げる–立てる.
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+The candidate was committed signed and pushed before review. The blind facet-split review found that 提出 defined the
+submitted item instead of the act, katakana reading joins where EN has hiragana in 不利, 握手, 批評 and 批判, three missing quiz
+guards (交換–両替, 掴む–捕まえる/理解, 持ち上げる–立てる), a misquoted 出す gloss, a 指す title teaching an untaught sense, and an
+English-dependent aside in 手品 and a dictionary-markup note in 抱く. All were fixed in a signed fix commit without RU-only
+links, and an optional clearer 不利 wording was adopted. The records preserve the author's and reviewer's differing
+required-versus-conservative classification of the RU-added pairs. The serial rechecks reported all facets clean.
+
+Qualified progress is **4,329 reviewed-current / 8 reviewed runtime-blocked / 3,941 pending of 8,278**,
+with 2,863 words, 718 kanji and 718 strokes. See the [intake](translation-batches/207-words-batch-46-intake.json),
+[independent review](translation-batches/207-words-batch-46-independent-review-001.md),
+[recheck](translation-batches/207-words-batch-46-recheck-001.md),
+[qualified source record](translation-batches/207-words-batch-46-reviewed-source.json) and
+[final validation](translation-batches/207-words-batch-46-final-validation-001.json).
+
+## Previous published source milestone: batch206 thirty words (general word queue)
 
 Batch206 adds 30 Russian word articles: 日常 日光 日付 既に 旗 旅 方向 方々 新鮮 新た 断る 文明 文字 文 敵 数字 数える 敬意
 教科書 教授 教師 出身 故郷 政府 放す 攻撃 支店 支出 操作 損害. They are chunk 0 of 74 of the general remaining-word queue
