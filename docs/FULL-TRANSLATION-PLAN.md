@@ -1,6 +1,71 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch219 thirty words (general word queue)
+## Current published source milestone: batch220 thirty words (general word queue)
+
+Batch220 adds 30 Russian word articles: 世紀 世の中 不足 不自由 不正 不幸 不安 不可 不 下り 上京 一言 一般 一致 一瞬
+一生 一方 一度に ますます 一層 一家 一体 一人一人 ワイン ロケット ラケット ヨーロッパ ユーモア メンバー メモ. They are chunk
+12 of 72 of the general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency
+closure is exactly the 30 requested words, so every EN quiz_exclusions target resolves to an existing RU word or a batch
+word.
+
+Navigation-only link wraps restore 19 links at EN link positions in 18 files: 16 existing word pages, the kanji page 不
+(two links to 不安) and the numbers-and-counters article. 世間's link to 世の中, held since Batch219, is among them. The
+kanji 可, 層, 瞬, 紀, 致 and 般 remain plain labels because they have no RU card.
+
+The batch covers:
+- centuries (世紀), the world of people (世の中), a descent or outbound direction (下り) and going to the capital (上京);
+- the negative prefix 不 and its words: shortage (不足), restricted means (不自由), dishonesty (不正), misfortune (不幸),
+  anxiety (不安) and "not permitted" (不可);
+- words with 一: a word or two (一言), "general; ordinary" (一般), agreement (一致), an instant (一瞬), a lifetime
+  (一生), one side or "on the other hand" (一方), "all at once" (一度に), the whole family (一家), "what on earth" and a
+  single whole (一体) and each person individually (一人一人);
+- "more and more" (ますます) and "even more" (一層);
+- wine (ワイン), a rocket or locket (ロケット), a racket (ラケット), Europe (ヨーロッパ), humour (ユーモア), members (メンバー)
+  and notes (メモ).
+
+All 26 EN exclusions are retained. Thirty-two direct guards on 19 new cards cover the reviewed RU title overlaps and
+sense neighbours:
+- required: 不足–欠ける, 不可–禁止, 下り–下りる, 下り–方向, 上京–東京, 一致–合う, 一致–偶然, 一体–全体, ヨーロッパ–欧州,
+  メモ–手紙, 一般–共通, ワイン–酒, ワイン–お酒 and メモ–記事;
+- conservative: 不安–緊張, 不安–はらはら, 一生–命, 一人一人–個人, 不自由–制限, 下り–降りる, 下り–坂, 一言–要するに, 一方–方,
+  一度に–同時, メンバー–委員, メモ–記録, メモ–栞, ラケット–道具, 一般–いつも, 一般–たいてい and 一般–普段;
+- a retained harmless over-guard: メンバー–参加.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: one minor finding: 一人一人's comparison with 個人 made sequential order («по очереди») part of the word's
+  meaning;
+- consistency: two minor quiz-safety findings: ワイン had no guard against its hypernym 酒, and ラケット none against the
+  generic 道具;
+- comprehensibility: one moderate finding, 一般's «рядовой; всеобщий» and «посторонние посетители» did not teach the
+  card's sense; and five minor findings: 不正's unqualified «злоупотребление», 一層's particle «тем более», 上京's «Я
+  переехал», ロケット's reliance on English rocket and locket, and メモ's «пометка; записать для памяти».
+
+One signed fix commit addressed them:
+- 一人一人's comparison now says the word singles out each member «не обязательно задавая порядок»;
+- ワイン excludes 酒 and お酒, and ラケット excludes 道具 as a conservative guard;
+- 一般's title became «общий; обычный», its example says «обычные посетители», 一般的な is glossed «общий; типичный», and it
+  also excludes 共通, いつも, たいてい and 普段;
+- 不正's title became «нечестность; неправильность», and 一層's «ещё сильнее; ещё больше» (also an optional correctness item);
+- 上京's example says «Я поехал в Токио», and ロケット explains the shared spelling through katakana's single ラ row for
+  English «р» and «л»;
+- メモ's title became «записка; заметка», the body follows, the English memorandum equation was dropped, and it excludes 記事;
+- one optional item was adopted: ラケット's example says «Одолжите» for 貸してください.
+
+The serial rechecks reported all facets clean. Links follow EN, with eleven RU-only links to existing cards at a substantive comparison or mention:
+不足–欠ける, 不安–緊張, 下り–下りる, 上京–東京, 一致–合う, 一生–命, 一体–全体, 一人一人–個人, ヨーロッパ–欧州, メンバー–委員 and
+メモ–手紙. ワイン's EN link to ビール stays plain until ビール lands in Batch221.
+
+Qualified progress is **4,719 reviewed-current / 8 reviewed runtime-blocked / 3,551 pending of 8,278**,
+with 3,253 words, 718 kanji and 718 strokes. See the [intake](translation-batches/220-words-batch-59-intake.json),
+[independent review](translation-batches/220-words-batch-59-independent-review-001.md),
+[recheck](translation-batches/220-words-batch-59-recheck-001.md),
+[qualified source record](translation-batches/220-words-batch-59-reviewed-source.json) and
+[final validation](translation-batches/220-words-batch-59-final-validation-001.json).
+
+## Previous published source milestone: batch219 thirty words (general word queue)
 
 Batch219 adds 30 Russian word articles: 以前 代表 代理 付き合い 仏 今後 今回 今にも 人込み 人種 人生 人工 交際 互い 事実
 事務 予算 予測 予報 乗客 乗せる 主要 主義 主張 主婦 主に 中止 中学 丘 世間. They are chunk 11 of 72 of the general

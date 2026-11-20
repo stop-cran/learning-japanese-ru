@@ -1,0 +1,197 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "220-words-batch-59",
+ "publishedBaseline": "cf78e9c5fd2ea264b4940b4dbb2f4b216b6e0fbd",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 19bcfe0 and serialized rechecks of the signed final fix commit 024fc98 found no remaining defect. Correctness raised one minor finding, fixed as proposed: 一人一人's RU-only comparison with 個人 said the word «перебирает всех членов группы по очереди», making sequential order part of its meaning against the card's own note that 一人一人の意見 sets no speaking order (Digital Daijisen 一人一人 1 「多くの中のそれぞれの人。めいめい。各人」); it now ends «выделяет каждого члена группы в отдельности, не обязательно задавая порядок». All 30 cards were read in full against EN, JMdict-backed Jisho records were inspected for all 30 headwords and the eleven RU-only link targets, and the Russian adaptations were checked in Kuznetsov entries on Gramota (стеснённость, рядовой, всеобщий, единодушие, семейство, медальон, пометка, злоупотребление, мир, ограниченный, столица, совпадение, целый, более), Russian Wiktionary (общество, неприемлемый, спуск, участник), Digital Daijisen (一人一人, 合う, 委員, 一層) and Takoboto (the two ロケット entries). Consistency raised two minor quiz-safety findings: ワイン now excludes its hypernym 酒 «алкогольный напиток; сакэ» and, extending the finding, お酒 «алкогольный напиток», which repeats 酒's first segment; ラケット excludes 道具, which the card calls the broader category, as a conservative guard. Comprehensibility raised one moderate and five minor findings, all addressed. 一般's title «рядовой; всеобщий» suggested a military rank and overstated the card's sense, and its example's «посторонние посетители» suggested outsiders; the title is now «общий; обычный» (JMdict 一般 senses 1-2), the example says «обычные посетители», 一般的な is glossed «общий; типичный», and 共通 (required, exact «общий») and いつも, たいてい and 普段 (conservative, the «обычн» stem) are excluded. 不正 drops the unqualified «злоупотребление» (Kuznetsov includes misuse of a substance) for «нечестность; неправильность». 一層 replaces the particle «тем более» with «ещё сильнее; ещё больше», adopted jointly with an optional correctness item (japandict; Kuznetsov «более»). 上京's example says «Я поехал в Токио», since the card says 上京 need not be a permanent move. ロケット's kanji-section sentence no longer relies on English rocket and locket; it explains that katakana renders English «р» and «л» with the same ラ row. メモ's title «пометка; записать для памяти» became «записка; заметка», the body follows, the English memorandum equation was dropped, and 記事 «статья (в СМИ); заметка» is excluded. One optional comprehensibility item was adopted: ラケット's example says «Одолжите» for 貸してください. The rechecks found no regression. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 26 EN exclusions across 15 lists are retained. Thirty-two direct, one-sided exclusions on 19 new cards cover reviewed RU title overlaps and sense neighbours. Required (14), as the consistency reviewer classified them: 不足–欠ける, 不可–禁止, 下り–下りる, 下り–方向, 上京–東京, 一致–合う, 一致–偶然, 一体–全体, ヨーロッパ–欧州 and メモ–手紙, and, added in the fix, 一般–共通, ワイン–酒, ワイン–お酒 (a second answer of the same kind as 酒) and メモ–記事. Conservative (17): 不安–緊張, 不安–はらはら, 一生–命 and 一人一人–個人 (the reviewer's \"conservative to required\"), 不自由–制限, 下り–降りる, 下り–坂, 一言–要するに, 一方–方, 一度に–同時, メンバー–委員, メモ–記録 and メモ–栞, and, added in the fix, ラケット–道具, 一般–いつも, 一般–たいてい and 一般–普段. メンバー–参加 is retained as a harmless over-guard that the reviewer did not require removing. The candidate declared the first 24. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/220-words-batch-59-intake.json",
+  "docs/translation-batches/220-words-batch-59-independent-review-001.md",
+  "docs/translation-batches/220-words-batch-59-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "可",
+   "層",
+   "瞬",
+   "紀",
+   "致",
+   "般"
+  ],
+  "navigationNote": "Restored 19 relative links across the 18 listed Markdown files at the corresponding EN-linked positions, using EN's href forms: in articles/numbers-and-counters.md, one to 世紀; in kanji/不.md, two to 不安 (the unlinked table mention stays plain, as in EN); in the word cards, 不満, 供給, 無し and 豊富 to 不足, 安心, 心配 and 緊張 to 不安, 幸い and 幸せ to 不幸, 世間 to 世の中 (held from Batch 58), 会員 to メンバー, 可 to 不可, 同時 to 一度に, 年月 to 一生, 欧州 to ヨーロッパ and 要点 to メモ. No surrounding prose was changed. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "articles/numbers-and-counters.md",
+   "kanji/不.md",
+   "words/不満.md",
+   "words/世間.md",
+   "words/会員.md",
+   "words/供給.md",
+   "words/可.md",
+   "words/同時.md",
+   "words/安心.md",
+   "words/年月.md",
+   "words/幸い.md",
+   "words/幸せ.md",
+   "words/心配.md",
+   "words/欧州.md",
+   "words/無し.md",
+   "words/緊張.md",
+   "words/要点.md",
+   "words/豊富.md"
+  ],
+  "newWords": [
+   "世紀",
+   "世の中",
+   "不足",
+   "不自由",
+   "不正",
+   "不幸",
+   "不安",
+   "不可",
+   "不",
+   "下り",
+   "上京",
+   "一言",
+   "一般",
+   "一致",
+   "一瞬",
+   "一生",
+   "一方",
+   "一度に",
+   "ますます",
+   "一層",
+   "一家",
+   "一体",
+   "一人一人",
+   "ワイン",
+   "ロケット",
+   "ラケット",
+   "ヨーロッパ",
+   "ユーモア",
+   "メンバー",
+   "メモ"
+  ],
+  "selection": "Batch 59 selected 30 word cards from the frozen source: chunk 12 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,797 remained after Batch 219). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. One source exclusion edge lies inside the batch (一層–ますます); the other 25 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (4 EN link occurrences, 4 targets) in the new cards: 一般→kanji 般, 一層→kanji 層, ワイン→ビール and ワイン→ウイスキー. 6 written kanji have no RU kanji card: 可, 層, 瞬, 紀, 致, 般 (EN has cards only for 層 and 般, not yet adapted). Links otherwise follow EN, with eleven RU-only links to existing cards at a substantive comparison or mention: 不足→欠ける, 不安→緊張, 下り→下りる, 上京→東京, 一致→合う, 一生→命, 一体→全体, 一人一人→個人, ヨーロッパ→欧州, メンバー→委員 and メモ→手紙. ビール is a Batch 60 word; its link from ワイン is restored as a navigation edit in that batch.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: dropping the over-guards メンバー–参加 and 一言–要するに (consistency; harmless, and the reviewer did not require removal), 一瞬–ちょっと (consistency; weak overlap, no defect claimed, and EN guards neither), 不自由 «стеснённость» and 一家 «семейство» (comprehensibility; each is bounded by the card's lead and examples), the italic *Europa* in ヨーロッパ (comprehensibility; it is the loan source JMdict cites, as in EN) and a ラケット/ロケット cross-note (comprehensibility; EN omits it, and the titles «ракетка» and «ракета» differ). 飲み物 was not added to ワイン's exclusions because no existing drink card guards it. The pre-existing kanji/杯.md link to 不 is outside this batch. The consistency recheck kept its declined over-guard leads optional. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "メモ": [
+    "記録",
+    "手紙",
+    "栞",
+    "記事"
+   ],
+   "メンバー": [
+    "委員",
+    "参加"
+   ],
+   "ヨーロッパ": [
+    "欧州"
+   ],
+   "ラケット": [
+    "道具"
+   ],
+   "ワイン": [
+    "酒",
+    "お酒"
+   ],
+   "一人一人": [
+    "個人"
+   ],
+   "一体": [
+    "全体"
+   ],
+   "一度に": [
+    "同時"
+   ],
+   "一方": [
+    "方"
+   ],
+   "一生": [
+    "命"
+   ],
+   "一致": [
+    "合う",
+    "偶然"
+   ],
+   "一般": [
+    "共通",
+    "いつも",
+    "たいてい",
+    "普段"
+   ],
+   "一言": [
+    "要するに"
+   ],
+   "上京": [
+    "東京"
+   ],
+   "下り": [
+    "下りる",
+    "降りる",
+    "坂",
+    "方向"
+   ],
+   "不可": [
+    "禁止"
+   ],
+   "不安": [
+    "緊張",
+    "はらはら"
+   ],
+   "不自由": [
+    "制限"
+   ],
+   "不足": [
+    "欠ける"
+   ]
+  },
+  "titles": {
+   "ますます": "всё больше и больше",
+   "メモ": "записка; заметка",
+   "メンバー": "участник; член команды",
+   "ユーモア": "юмор",
+   "ヨーロッパ": "Европа",
+   "ラケット": "ракетка",
+   "ロケット": "ракета; медальон",
+   "ワイン": "вино",
+   "一人一人": "каждый человек; каждый по отдельности",
+   "一体": "что же (в удивлённом вопросе); единое целое",
+   "一家": "вся семья; семейство",
+   "一層": "ещё сильнее; ещё больше",
+   "一度に": "разом; за один приём",
+   "一方": "одна из сторон; с другой стороны",
+   "一生": "вся жизнь; на всю жизнь",
+   "一瞬": "миг; на миг",
+   "一致": "совпадение; единодушие",
+   "一般": "общий; обычный",
+   "一言": "пара слов; короткое высказывание",
+   "上京": "поездка или переезд в столицу (в Токио)",
+   "下り": "спуск; направление «вниз» (на железной дороге)",
+   "不": "отрицательная приставка «не-»",
+   "不可": "неприемлемо; не разрешено",
+   "不安": "чувство тревоги; неуверенность",
+   "不幸": "несчастье; несчастливый",
+   "不正": "нечестность; неправильность",
+   "不自由": "стеснённость; ограниченность в возможностях",
+   "不足": "нехватка; дефицит",
+   "世の中": "мир людей; жизнь общества",
+   "世紀": "век; столетие"
+  }
+ }
+}
