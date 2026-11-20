@@ -1,6 +1,44 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch213 thirty words (general word queue)
+## Current published source milestone: batch214 thirty words (general word queue)
+
+Batch214 adds 30 Russian word articles: 地平線 地区 地下 土産 土曜 国語 国民 国家 国境 国会 図 囲む 回す 器用 善 商売
+商品 商人 唯一 哲学 品 呼吸 味方 周囲 吸収 加える 含む 否定 向かい 吐く. They are chunk 6 of 72 of the general remaining-word
+queue (recomputed after Batch207: 2,157 EN words remaining); the dependency closure is exactly the 30 requested words, so every
+EN quiz_exclusions target resolves to an existing RU word or a batch word. Ten existing word pages and the kanji pages 区, 否,
+含, 周 and 囲 receive 22 navigation-only link wraps at EN link positions. 線, 境, 器, 善, 唯, 哲 and 吐 remain plain labels
+because those kanji have no RU card.
+
+The batch covers the horizon over land (地平線), districts (地区), the underground and basements (地下), souvenir gifts
+(土産), Saturday (土曜), the national language and the school subject (国語), the people of a nation (国民), the state
+(国家), national borders (国境), the Diet (国会), diagrams (図), surrounding (囲む), turning and passing round (回す),
+dexterity (器用), moral good (善), trade (商売), goods and articles (商品, 品), merchants (商人), the only one (唯一),
+philosophy (哲学), breathing (呼吸), allies (味方), surroundings (周囲), absorption (吸収), adding and including (加える,
+含む), denial (否定), the place opposite (向かい) and breathing out and vomiting (吐く). All 28 EN exclusions are retained;
+ten direct guards on eight new cards cover the reviewed RU title overlaps and sense
+neighbours: 土曜–土曜日, 地区–町 and 地区–辺 (required), 土産–祝い and 商売–貿易 (likely required), 地区–近所, 商人–店員,
+国語–科目, 善–道徳 and 吸収–夢中 (conservative).
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+The candidate was committed signed and pushed before review. The blind facet-split review found one correctness
+finding (地区's «округ» narrowed the ordinary district sense), no consistency finding and eight comprehensibility
+findings (図 introduced with 絵's «рисунок»; 国語 glosses repeating 日本語's title; 囲む dropping what テーブルを marks;
+an author-facing sentence in 品; a broken ateji sentence in 味方; «дух» as a gloss of 息 in 呼吸; 周囲 calling 回り the
+area around; an opaque restriction sentence in 国境). One signed fix commit resolved them: 地区 became «район; выделенная
+зона» with 町, 辺 and 近所 guards, 図 now uses «схема» and the other passages were reworded; 哲学 and 土産 took optional
+polish. A second signed commit linked 周囲's RU-introduced 周り and 環境 comparisons to the existing cards after the
+correctness recheck noted that the content-structure rules call for links at a substantive comparison. The serial
+rechecks reported all facets clean.
+Apart from those two 周囲 links, links follow EN.
+
+Qualified progress is **4,539 reviewed-current / 8 reviewed runtime-blocked / 3,731 pending of 8,278**,
+with 3,073 words, 718 kanji and 718 strokes. See the [intake](translation-batches/214-words-batch-53-intake.json),
+[independent review](translation-batches/214-words-batch-53-independent-review-001.md),
+[recheck](translation-batches/214-words-batch-53-recheck-001.md),
+[qualified source record](translation-batches/214-words-batch-53-reviewed-source.json) and
+[final validation](translation-batches/214-words-batch-53-final-validation-001.json).
+
+## Previous published source milestone: batch213 thirty words (general word queue)
 
 Batch213 adds 30 Russian word articles: 夫婦 夫人 大部分 大臣 大統領 大戦 大家 大半 大使 大会 大 夢中 夜明け 夜中 外交 外す
 夕べ 売れる 墓 境 塔 塀 報告 よる 基づく 城 埃 地球 地域 地方. They are chunk 5 of 72 of the general remaining-word queue

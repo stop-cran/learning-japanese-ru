@@ -1,0 +1,151 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "214-words-batch-53",
+ "publishedBaseline": "3febe87a2674a5c5793e5a29d5e7dd1614345f18",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate a371c73 and serialized rechecks of the signed fix commits 49b86e1 and 32e1a26 found every finding resolved or kept as an accepted optional remainder. Correctness raised one minor finding, fixed: 地区's title «округ; выделенная зона» narrowed the ordinary district sense (Daijisen senses 1–2, JMdict 1421020) to an administrative okrug, so the title and heading now read «район; выделенная зона», and the shared «район» segment is guarded against 町 and 辺 (required) and 近所 (conservative). Its optional note on the conversational register of 土産's «гостинец» was adopted as a translation note. Consistency reported no findings: titles, exclusions, links, manifest and intake agreed, and it classified the RU-introduced guards without finding any unjustified. Comprehensibility raised eight findings, seven minor and one moderate, all fixed: 図 was introduced with 絵's title word «рисунок» and now uses «схема», with «рис. 1» kept only as the Russian caption equivalent of 図1; 国語's example glosses repeated 日本語's «японский язык» and now name the school subject; 囲む's example dropped what テーブルを marks and now says «собрались вокруг стола»; 品 addressed card metadata instead of the learner; 味方's ateji sentence was ungrammatical and now names the dictionary only in the footer; 呼吸 glossed 息 as «дух» and now separates «дыхание как процесс» from 息's «вдыхаемый и выдыхаемый воздух» (JMdict gives 息 no spirit sense; the optional «респирация» was also dropped); 周囲 (moderate) repeated EN's claim that 回り refers to the area around, which contradicts the deck's own 回り card, so a qualified contrast now gives surroundings to 周り and keeps 回り primarily for rotation, circuit and spreading (JMdict 1604290 and 2800530; 回り survives as a surroundings spelling in set phrases) and adds 環境 as conditions; 国境's opaque restriction sentence now names the reading くにざかい and the spelling 国界. 哲学 took the optional 的な wording. The 周囲 remedy had proposed links to 周り and 環境; the first fix left them plain under a coordinator EN-link-parity convention that is not a repository rule. After the correctness recheck noted, outside its facet, that the RU content-structure rules call for links to existing cards at a substantive comparison, a second fix commit linked their first mentions; the consistency recheck judged both links justified and the correctness reviewer confirmed that only link markup changed. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 28 EN exclusions across 19 lists are retained. Ten direct, one-sided exclusions on eight new cards cover reviewed RU title overlaps and sense neighbours. Required (3): 土曜–土曜日 (identical «суббота»), 地区–町 and 地区–辺 (shared «район»). Likely required (2): 土産–祝い (shared «подарок») and 商売–貿易 (shared «торговля»). Conservative (5): 地区–近所 (stem «район»), 商人–店員, 国語–科目, 善–道徳 and 吸収–夢中. These are the consistency reviewer's classes; the author had called 土産–祝い conservative and 商売–貿易 and 国語–科目 required. The three 地区 guards were added in the fix for correctness C1, and the consistency recheck confirmed their classes. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/214-words-batch-53-intake.json",
+  "docs/translation-batches/214-words-batch-53-independent-review-001.md",
+  "docs/translation-batches/214-words-batch-53-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "線",
+   "境",
+   "器",
+   "善",
+   "唯",
+   "哲",
+   "吐"
+  ],
+  "navigationNote": "Restored 22 relative links across the 15 listed Markdown files at the corresponding EN-linked positions, using EN's href forms except where noted: in the kanji pages, three in 否 (to 否定), two each in 区 (to 地区), 含 (to 含む) and 周 (to 周囲), and three in 囲 (two to 囲む, one to 周囲); in the word cards, one each in 営業 (to 商売), 政府, 議会 and 議員 (to 国会), 敵 (to 味方), 製品 and 食品 (to 商品), 認める (to 否定), 金曜 (to 土曜) and 除く (to 含む). EN 認める links ../words/否定.md, which resolves to the same file; RU keeps the sibling form 否定.md used by that file's other links. Mentions that EN leaves unlinked stay plain (区, 含, 議員's 国会議員, 食品). No surrounding prose was changed. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/区.md",
+   "kanji/否.md",
+   "kanji/含.md",
+   "kanji/周.md",
+   "kanji/囲.md",
+   "words/営業.md",
+   "words/政府.md",
+   "words/敵.md",
+   "words/製品.md",
+   "words/認める.md",
+   "words/議会.md",
+   "words/議員.md",
+   "words/金曜.md",
+   "words/除く.md",
+   "words/食品.md"
+  ],
+  "newWords": [
+   "地平線",
+   "地区",
+   "地下",
+   "土産",
+   "土曜",
+   "国語",
+   "国民",
+   "国家",
+   "国境",
+   "国会",
+   "図",
+   "囲む",
+   "回す",
+   "器用",
+   "善",
+   "商売",
+   "商品",
+   "商人",
+   "唯一",
+   "哲学",
+   "品",
+   "呼吸",
+   "味方",
+   "周囲",
+   "吸収",
+   "加える",
+   "含む",
+   "否定",
+   "向かい",
+   "吐く"
+  ],
+  "selection": "Batch 53 selected 30 word cards from the frozen source: chunk 6 of the 72-batch dependency-closed queue of the general remaining-word pool (recomputed after Batch 207 from 2,157 remaining EN words). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. 品→商品 and 含む→加える are the dependency edges inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (7 EN link occurrences, 7 targets): 地平線→kanji 線 and 水平線; 国民→住民; 国境→kanji 境; 唯一→ただ; 味方→仲間; 加える→加わる. 7 written kanji have no RU kanji card: 線, 境, 器, 善, 唯, 哲, 吐. Links otherwise follow EN; the only RU-only links are the two 周囲 links to 周り and 環境, added for its RU-introduced contrast under the content-structure rule on substantive comparisons.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: the correctness reviewer's simpler 吐く title such as «рвать (о рвоте)», because «извергать (рвоту, брань)» matches EN \"vomit; utter\", Russian «рвать» also means \"tear\", and the body already gives the everyday «меня вырвало»; the reviewer kept it optional in its recheck. The consistency reviewer's guards 吸収–吸う and 味方–相手, because neither pair shares a title segment or stem; the reviewer accepted the decline in its recheck. The comprehensibility reviewer's added 一息 sentence in 呼吸, because the one-breath contrast is beyond EN's scope and the reworded process/air pair already separates the meanings, and its 商売 contrast with 貿易 and 営業, because EN contrasts neither and the 商売–貿易 exclusion covers the quiz risk. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "吸収": [
+    "夢中"
+   ],
+   "商人": [
+    "店員"
+   ],
+   "商売": [
+    "貿易"
+   ],
+   "善": [
+    "道徳"
+   ],
+   "国語": [
+    "科目"
+   ],
+   "土曜": [
+    "土曜日"
+   ],
+   "土産": [
+    "祝い"
+   ],
+   "地区": [
+    "町",
+    "辺",
+    "近所"
+   ]
+  },
+  "titles": {
+   "加える": "добавлять; включать (в состав)",
+   "吐く": "выдыхать; извергать (рвоту, брань)",
+   "向かい": "место напротив",
+   "否定": "отрицание; опровержение",
+   "含む": "содержать; включать; держать во рту",
+   "吸収": "поглощение; впитывание",
+   "周囲": "окружение; периметр",
+   "味方": "союзник; сторонник",
+   "呼吸": "дыхание (вдох и выдох)",
+   "品": "вещь; товары",
+   "哲学": "философия",
+   "唯一": "единственный",
+   "商人": "торговец; купец",
+   "商品": "товар (для продажи)",
+   "商売": "торговля; коммерция",
+   "善": "добро (нравственное); добродетель",
+   "器用": "ловкий; умелый (особенно руками)",
+   "回す": "вращать; пускать по кругу",
+   "囲む": "окружать; обносить (оградой)",
+   "図": "схема; иллюстрация к объяснению",
+   "国会": "национальный парламент; парламент Японии",
+   "国境": "государственная граница",
+   "国家": "государство (как политическое целое)",
+   "国民": "народ страны; граждане",
+   "国語": "государственный язык; японский как школьный предмет",
+   "土曜": "суббота",
+   "土産": "гостинец; подарок из поездки",
+   "地下": "под землёй; подземный этаж",
+   "地区": "район; выделенная зона",
+   "地平線": "горизонт (над сушей)"
+  }
+ }
+}
