@@ -8,7 +8,19 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch213 thirty words
+## Current published source milestone: batch214 thirty words
+
+Batch214 added 30 Russian word articles, chunk 6 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions with nothing added), plus 22 navigation-only link wraps in ten existing word pages and the kanji
+pages 区, 否, 含, 周 and 囲. The candidate was committed signed and pushed before review. The blind
+facet-split review found one correctness finding (地区 title), no consistency finding and eight comprehensibility
+findings (図, 国語, 囲む, 品, 味方, 呼吸, 周囲 and 国境). One signed fix commit resolved them and a second linked
+周囲's RU-introduced 周り and 環境 comparisons to existing cards; the serial rechecks reported all facets clean.
+Progress: **4,539 reviewed-current / 8 runtime-blocked / 3,731 pending of 8,278**; 3,073 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch214-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch213 thirty words
 
 Batch213 added 30 Russian word articles, chunk 5 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions with nothing added), plus 35 navigation-only link wraps in thirteen existing word pages and the
@@ -18,7 +30,7 @@ findings (地方, 大統領 and 大部分 explanations). One signed fix commit r
 facets clean.
 Progress: **4,509 reviewed-current / 8 runtime-blocked / 3,761 pending of 8,278**; 3,043 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch213-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch213-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch212 thirty words
 
