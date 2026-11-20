@@ -1,6 +1,61 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch217 thirty words (general word queue)
+## Current published source milestone: batch218 thirty words (general word queue)
+
+Batch218 adds 30 Russian word articles: 倒す 修理 修正 信じる 信用 信頼 保証 価値 例え 作物 作法 作曲 作品 余分 何時か
+何とか 何でも 何で 体育 住民 住宅 伝統 会員 休暇 休憩 企業 任せる 仲間 仲 以来. They are chunk 10 of 72 of the general
+remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is exactly the 30
+requested words, so every EN quiz_exclusions target resolves to an existing RU word or a batch word.
+
+Navigation-only link wraps restore 31 links at EN link positions in 26 files: 23 existing word pages and the kanji pages
+仲, 信 and 疑. The kanji 企, 価, 保, 修, 憩, 暇, 統 and 証 remain plain labels because they have no RU card.
+
+The batch covers:
+- knocking down and defeating (倒す), repair (修理) and correction (修正);
+- believing (信じる), trust and credit (信用), reliance (信頼), guarantees (保証) and value (価値);
+- examples and figurative comparisons (例え), crops (作物), etiquette (作法), composing music (作曲) and works (作品);
+- surplus (余分), "some time" (何時か), "somehow" (何とか), "anything" (何でも) and "why; by what means" (何で);
+- physical education (体育), residents (住民), housing (住宅), tradition (伝統) and members (会員);
+- leave (休暇), rest breaks (休憩), enterprises (企業) and entrusting (任せる);
+- companions (仲間), relations between people (仲) and "since" (以来).
+
+All 28 EN exclusions are retained. Twelve direct guards on 12 new cards cover the reviewed RU title overlaps and sense
+neighbours:
+- required: 倒す–勝つ, 修正–直す, 作法–礼儀, 作品–曲, 住宅–自宅, 休暇–夏休み, 休憩–昼休み, 例え–比較 and 任せる–頼む;
+- conservative: 住民–人口, 仲間–友達 and 会員–仲間.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: one scoped-coverage finding: 余分's reading join turned EN's hiragana よ + ぶん into katakana;
+- consistency: two quiz-safety findings, missing guards for 例え–比較 and 任せる–頼む, plus a strokes manifest-hash note
+  withdrawn by evidence (CRLF stroke blobs are hashed after LF normalisation);
+- comprehensibility: two findings: 休憩's title offered «антракт» as an unqualified equal gloss, and 何とか's example used
+  «кое-как», which can also mean «небрежно».
+
+Three signed fix commits resolved them:
+- 余分 again joins よ + ぶん;
+- 休憩's title became «перерыв на отдых; антракт (в спектакле, концерте)», and its nuance section explains that neutral
+  speech says «перерыв» at a meeting or on a journey, where «антракт» sounds conversational (the second fix, after the
+  correctness recheck found the first wording too categorical);
+- 何とか's example now reads «Я спешил и с трудом, но успел вовремя.»;
+- 例え excludes 比較 and 任せる excludes 頼む;
+- three optional conservative guards were adopted: 住民–人口, 仲間–友達 and 会員–仲間;
+- 以来's warning now names the dictionary rendering «отныне» it qualifies (an adopted optional item); the third fix
+  removed an English gloss that this wording had added in parentheses, after the comprehensibility recheck.
+
+The serial rechecks reported all facets clean. Links follow EN, with two RU-only links to existing cards at a substantive
+comparison: 倒す–勝つ and 修正–直す. 以来's EN link to 今後 stays plain until 今後 lands in Batch219.
+
+Qualified progress is **4,659 reviewed-current / 8 reviewed runtime-blocked / 3,611 pending of 8,278**,
+with 3,193 words, 718 kanji and 718 strokes. See the [intake](translation-batches/218-words-batch-57-intake.json),
+[independent review](translation-batches/218-words-batch-57-independent-review-001.md),
+[recheck](translation-batches/218-words-batch-57-recheck-001.md),
+[qualified source record](translation-batches/218-words-batch-57-reviewed-source.json) and
+[final validation](translation-batches/218-words-batch-57-final-validation-001.json).
+
+## Previous published source milestone: batch217 thirty words (general word queue)
 
 Batch217 adds 30 Russian word articles: 刀 出会い 出 処理 凍る 冗談 冒険 再び 円 具体 共通 共に 公平 全国 全員 全て 全
 全体 党 免許 克服 先日 優勝 優れる 僅か 傷 健康 停留所 借金 候補. They are chunk 9 of 72 of the general
