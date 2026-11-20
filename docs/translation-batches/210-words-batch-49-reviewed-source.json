@@ -1,0 +1,166 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "210-words-batch-49",
+ "publishedBaseline": "26120f88e4c9f4a20889c222a329d94894ad3566",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 9d9c009 and serialized rechecks of the signed fix commit 3930d4a found every finding resolved or reclassified as optional. Correctness raised four minor findings, all fixed: 差別's example now discriminates «по гражданству», because 国籍 is citizenship rather than the ethnic sense of ordinary Russian «национальность»; 居眠り's title and definition no longer make unintendedness part of the word («дремота; сон сидя»; the accidental nuance stays with てしまいました); 岩 restores EN's note that the music genre «рок» is ロック, not 岩; and 帯's title and definition give the general shape-based sense «длинная узкая полоса» instead of «опоясывающая полоса». Comprehensibility raised five minor findings: 居る's English label «основа на -masu» became «ます-основа»; 帯's source-list provenance passage was condensed to EN's single sentence; 居眠り's prohibition example reads «не дремлите на уроке» instead of «не спите», which borrowed the title of 眠る and 寝る; and 年寄り no longer quotes 老人's quiz title in its synonym section, while its explanation now says why its examples use the softer «пожилой человек» for polite お年寄り. The 就職 source-list note was kept, following EN and published RU precedent; the reviewer reclassified it as optional. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 26 EN exclusions across 16 lists are retained. Fourteen direct, one-sided exclusions on nine new cards cover reviewed RU title overlaps and sense neighbours. Required: 年寄り–老人, 平和–世界 (shared «мир»), 帰宅–帰る, 居る–いらっしゃる and 居る–おいでになる (shared «быть»/«находиться»), 就く–習う, 就く–就職, and 屋根–屋上, added in the fix after the consistency reviewer's finding because Russian «крыша» also names the rooftop. Conservative: 帰宅–帰り, 平等–等しい, 居眠り–うとうと, 就く–座る, and 帯–縞 and 帯–筋, added in the fix when 帯's title became «длинная узкая полоса». The author's conservative 居る–参る was removed in the fix on the consistency reviewer's optional note, because 居る has no come/go sense. The consistency reviewer rated 居眠り–うとうと as required and the two 居る guards as conservative-leaning-required; the guards are the same under either classification. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/210-words-batch-49-intake.json",
+  "docs/translation-batches/210-words-batch-49-independent-review-001.md",
+  "docs/translation-batches/210-words-batch-49-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "幕",
+   "巨",
+   "巣",
+   "陸",
+   "嵐",
+   "岩",
+   "根",
+   "届",
+   "就"
+  ],
+  "navigationNote": "Restored 35 relative links across the 22 listed Markdown files at the corresponding EN-linked positions, using EN's href forms: three links in each of the kanji pages 和 (to 平和) and 居 (to 居間), two in each of 均 (to 平均), 州 (to 州), 帯 (to 帯) and 等 (to 平等), six in 平 (three each to 平和 and 平等), and one in each of fifteen word cards: 使用, 職業, 辞める and 進学 (to 就職), 区別 (to 差別), 外出 (to 帰宅), 戦争 (to 平和), 等しい (to 平等), 繭 (to 巣), 莫大 (to 巨大), 軒 (to 屋根), 通じる and 達する (to 届く), 陸 (to 大陸) and 青年 (to 少年). Mentions that EN leaves unlinked stay plain. No surrounding prose was changed. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/和.md",
+   "kanji/均.md",
+   "kanji/居.md",
+   "kanji/州.md",
+   "kanji/帯.md",
+   "kanji/平.md",
+   "kanji/等.md",
+   "words/使用.md",
+   "words/区別.md",
+   "words/外出.md",
+   "words/戦争.md",
+   "words/等しい.md",
+   "words/繭.md",
+   "words/職業.md",
+   "words/莫大.md",
+   "words/軒.md",
+   "words/辞める.md",
+   "words/通じる.md",
+   "words/進学.md",
+   "words/達する.md",
+   "words/陸.md",
+   "words/青年.md"
+  ],
+  "newWords": [
+   "年間",
+   "年月",
+   "年寄り",
+   "年代",
+   "いつでも",
+   "常に",
+   "年中",
+   "平等",
+   "平均",
+   "平和",
+   "幕",
+   "常識",
+   "帰宅",
+   "帯",
+   "差別",
+   "巨大",
+   "巣",
+   "大陸",
+   "州",
+   "嵐",
+   "岩",
+   "屋根",
+   "届く",
+   "居間",
+   "居眠り",
+   "居る",
+   "就職",
+   "就く",
+   "ボーイ",
+   "少年"
+  ],
+  "selection": "Batch 49 selected 30 word cards from the frozen source: chunk 2 of the 72-batch dependency-closed queue of the general remaining-word pool (recomputed after Batch 207 from 2,157 remaining EN words). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. 年中→いつでも, 年中→常に, 州→大陸 and 少年→ボーイ are the dependency edges inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (10 EN link occurrences, 9 targets): 年月→一生; 平等→公平 and 差別→公平; 帯→ベルト; 巨大→kanji 巨; 大陸→kanji 陸; 岩→kanji 岩; 屋根→kanji 根; 届く→kanji 届; 少年→少女. 9 written kanji have no RU kanji card: 幕, 巨, 巣, 陸, 嵐, 岩, 根, 届, 就. No RU-only links were added (EN link parity).",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: the consistency reviewer's suggested guards 差別↔区別/違い, 常に↔いつでも and 帰宅↔戻る, because EN declares none, the titles share no exact segment and the app deduplicates exact titles only; the reviewer accepted the declines in its recheck. The comprehensibility finding against 就職's source-list note was declined because the RU text renders EN's note faithfully and follows the published pattern in 便, 変化 and はあ; in its recheck the reviewer reclassified it, and the remaining 帯 provenance sentence, as optional. Its proposed 負け + おる example for 居る was not adopted, because EN gives none and it was not independently verified. Its optional notes on ボーイ, 年月, 差別 («как покончить») and 州 versus 大陸 were not adopted; the reviewer rated them non-blocking. The consistency reviewer's limits are outside the batch: the RU-only links in kanji 和 and 居 are pre-existing on published main, and the strokes raw-hash differences are the CRLF-to-LF normalization artifact recorded in Batch 209. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "就く": [
+    "習う",
+    "就職",
+    "座る"
+   ],
+   "居る": [
+    "いらっしゃる",
+    "おいでになる"
+   ],
+   "居眠り": [
+    "うとうと"
+   ],
+   "屋根": [
+    "屋上"
+   ],
+   "帯": [
+    "縞",
+    "筋"
+   ],
+   "帰宅": [
+    "帰る",
+    "帰り"
+   ],
+   "平和": [
+    "世界"
+   ],
+   "平等": [
+    "等しい"
+   ],
+   "年寄り": [
+    "老人"
+   ]
+  },
+  "titles": {
+   "いつでも": "в любое время; когда угодно",
+   "ボーイ": "мальчик; служащий отеля или ресторана",
+   "大陸": "континент; материк",
+   "少年": "мальчик; несовершеннолетний",
+   "就く": "вступать в должность; учиться у наставника",
+   "就職": "трудоустройство; поступление на работу",
+   "居る": "находиться; быть (скромно)",
+   "居眠り": "дремота; сон сидя",
+   "居間": "гостиная",
+   "届く": "дотягиваться; быть доставленным",
+   "屋根": "крыша",
+   "岩": "скала; валун",
+   "嵐": "буря; шторм",
+   "州": "штат; провинция; часть света",
+   "巣": "гнездо; улей; паутина",
+   "巨大": "громадный; гигантский",
+   "差別": "дискриминация",
+   "帯": "пояс кимоно; длинная узкая полоса",
+   "帰宅": "возвращение домой",
+   "常に": "всегда; постоянно",
+   "常識": "здравый смысл; общепринятые представления",
+   "幕": "занавес (в театре); акт (пьесы)",
+   "平和": "мир (отсутствие войны)",
+   "平均": "среднее значение; среднее арифметическое",
+   "平等": "равенство",
+   "年中": "круглый год; всё время",
+   "年代": "эпоха; период лет",
+   "年寄り": "старый человек; человек в годах",
+   "年月": "месяцы и годы",
+   "年間": "годичный срок; за год"
+  }
+ }
+}

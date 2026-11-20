@@ -1,6 +1,41 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch209 thirty words (general word queue)
+## Current published source milestone: batch210 thirty words (general word queue)
+
+Batch210 adds 30 Russian word articles: 年間 年月 年寄り 年代 いつでも 常に 年中 平等 平均 平和 幕 常識 帰宅 帯 差別 巨大
+巣 大陸 州 嵐 岩 屋根 届く 居間 居眠り 居る 就職 就く ボーイ 少年. They are chunk 2 of 72 of the general remaining-word queue
+(recomputed after Batch207: 2,157 EN words remaining); the dependency closure is exactly the 30 requested words, so every EN
+quiz_exclusions target resolves to an existing RU word or a batch word. Fifteen existing word pages and the kanji pages 和, 均,
+居, 州, 帯, 平 and 等 receive 35 navigation-only link wraps at EN link positions; 幕, 巨, 巣, 陸, 嵐, 岩, 根, 届 and 就 remain
+plain labels because those kanji have no RU card.
+
+The batch covers spans of years and eras (年間, 年月, 年代), the whole year round (年中), elderly people (年寄り), "any time"
+and "always" (いつでも, 常に), equality (平等), averages (平均), peace (平和), stage curtains and acts (幕), common sense
+(常識), returning home (帰宅), kimono sashes and long narrow strips (帯), discrimination (差別), huge size (巨大), nests (巣),
+continents (大陸), states and provinces (州), storms (嵐), rocks (岩), roofs (屋根), reaching and being delivered (届く), living
+rooms (居間), dozing (居眠り), humble "be" (居る), getting a job (就職), taking up a post or studying under a teacher (就く),
+boys and hotel or restaurant staff (ボーイ) and boys and minors (少年). All 26 EN exclusions are retained; fourteen direct
+guards on nine new cards cover the reviewed RU title overlaps and sense neighbours: 年寄り–老人, 平和–世界, 帰宅–帰る,
+居る–いらっしゃる, 居る–おいでになる, 就く–習う, 就く–就職 and 屋根–屋上 (required), 帰宅–帰り, 平等–等しい,
+居眠り–うとうと, 就く–座る, 帯–縞 and 帯–筋 (conservative). Exclusions are one-sided declarations that Android applies in both
+directions; the batch changes exclusions only on its new cards.
+The candidate was committed signed and pushed before review. The blind facet-split review found four correctness findings
+(差別 «по национальности» read as ethnicity; 居眠り's title made unintendedness lexical; 帯 «опоясывающая» narrowed the strip
+sense; 岩 omitted EN's ロック note), one quiz-safety finding (屋根 «крыша» also names the rooftop of 屋上) and five
+comprehensibility findings (居る's English «-masu» label, 帯's expanded provenance passage, 居眠り «не спите», 年寄り quoting
+老人's quiz title, and 就職's source-list note). One signed fix commit resolved them, partially for 帯's passage, which now
+mirrors EN's single sentence; 就職's note was kept as in EN and the published series. The fix also dropped the author's
+conservative 居る–参る guard. No RU-only links were added. The serial rechecks reported all facets clean, with the 帯 and
+就職 remainders optional.
+
+Qualified progress is **4,419 reviewed-current / 8 reviewed runtime-blocked / 3,851 pending of 8,278**,
+with 2,953 words, 718 kanji and 718 strokes. See the [intake](translation-batches/210-words-batch-49-intake.json),
+[independent review](translation-batches/210-words-batch-49-independent-review-001.md),
+[recheck](translation-batches/210-words-batch-49-recheck-001.md),
+[qualified source record](translation-batches/210-words-batch-49-reviewed-source.json) and
+[final validation](translation-batches/210-words-batch-49-final-validation-001.json).
+
+## Previous published source milestone: batch209 thirty words (general word queue)
 
 Batch209 adds 30 Russian word articles: 心理 徹底 徹夜 微妙 得意 従兄弟 ですから 従って 従う 後者 役割 効果 影響 影 当時
 当てる 当たる 弾 強調 強盗 強力 引退 引用 引っ張る 弁当 座席 床 広告 幼い 年齢. They are chunk 1 of 72 of the general
