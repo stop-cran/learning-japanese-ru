@@ -1,0 +1,190 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "198-words-batch-37",
+ "publishedBaseline": "6575e4cfc9a3fe7f1cbc2e87c1bd1fd129e618a0",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the staged candidate tree c82e94b and serialized fix rechecks of the revised tree 80c7336, committed signed as 174d0cc, found the original quiz-safety and comprehensibility defects resolved; correctness and scoped coverage were clean from the start. 移動 now guards 動かす (and, conservatively, 動く); 穀物 translates 米や麦 as «рис и пшеницу или ячмень» and explains that 穀物 names grain or grain crops in general; 積む says «Я сложил три коробки стопкой»; 積極的 drops a warning that depended on English \"positive\"; 神経 states that 経 also means «сутра» before rejecting the literal «писание бога»; and 祭 turns EN's dictionary-scope remark into learner guidance. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation, the preserved author/reviewer required-versus-conservative exclusion classification and process notes, including the staged-tree review while commit signing was unavailable, are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 16 EN exclusions across 12 lists are retained. The reviewed RU title overlaps received 28 direct, one-sided exclusions on 15 new cards: 立ち上がる–上がる; 空き–席; 積む–折る; 穀物–米; 稼ぐ–働く; 根–原因; 種–話題; 移動–移す/移る/動かす/動く; 禁煙–禁止; 祭–お祭り/お祝い/祝い; 祝う–お祝い/祝い; 祝い–お祝い/プレゼント/贈り物/お土産/お祭り/記念; 感謝–恩; 礼–恩; 確認–チェック/テスト/調べる. Two were added after review: 移動–動かす, answering the consistency finding, and 移動–動く, a conservative coordinator guard because «перемещение; передвижение» shares the stem of «двигаться» and 移動する is taught both transitively and intransitively. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/198-words-batch-37-intake.json",
+  "docs/translation-batches/198-words-batch-37-independent-review-001.md",
+  "docs/translation-batches/198-words-batch-37-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "笛",
+   "章",
+   "穴",
+   "極",
+   "的",
+   "穀",
+   "稼",
+   "根",
+   "税",
+   "移",
+   "秒",
+   "禁",
+   "祭",
+   "祝",
+   "儀",
+   "謝"
+  ],
+  "navigationNote": "Restored 15 relative links across the 13 listed Markdown files at the corresponding EN-linked positions, using EN's href forms: three links to 積む in kanji/積; one in kanji/明, where EN wraps 明き with a link to 空き; and one in each of the eleven word cards (人間 to 神; 制限 and 許可 to 禁止; 実, 芽 and 苗 to 種; 恩 to 感謝; 瞬間 to 秒; 行儀 and 道徳 to 礼儀; 記念 to 祝い). articles/numbers-and-counters already linked 位 and needed no change. No surrounding prose was changed. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/明.md",
+   "kanji/積.md",
+   "words/人間.md",
+   "words/制限.md",
+   "words/実.md",
+   "words/恩.md",
+   "words/瞬間.md",
+   "words/芽.md",
+   "words/苗.md",
+   "words/行儀.md",
+   "words/記念.md",
+   "words/許可.md",
+   "words/道徳.md"
+  ],
+  "newWords": [
+   "笛",
+   "章",
+   "立ち上がる",
+   "空き",
+   "穴",
+   "積極的",
+   "積む",
+   "積もる",
+   "穀物",
+   "稼ぐ",
+   "根",
+   "種",
+   "税金",
+   "税",
+   "移動",
+   "動かす",
+   "移す",
+   "秒",
+   "科目",
+   "禁煙",
+   "禁止",
+   "祭",
+   "神経",
+   "神",
+   "祝う",
+   "祝い",
+   "礼儀",
+   "感謝",
+   "礼",
+   "確認"
+  ],
+  "selection": "Batch 37 selected 30 word cards from the frozen source: chunk 0 of the 82-batch dependency-closed queue of the general remaining-word pool (30 of 2,457 remaining EN words, recomputed after Batch 197). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. 積もる→積む, 種→根, 税→税金, 移す→動かす and 礼→感謝 are the dependency edges inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped: 章→kanji 章; 積極的→kanji 極; 積む→重ねる; 稼ぐ→収入; 根→kanji 根; 税金 and 税→kanji 税; 移動 and 移す→kanji 移; 秒→kanji 秒; 禁煙→kanji 禁 and 煙; 禁止→kanji 禁; 祭→kanji 祭; 神→仏; 祝う→kanji 祝, おめでとう and 悲しむ; 祝い→kanji 祝; 感謝→ありがとう; 礼→お辞儀; 確認→確かめる. 16 written kanji have no RU kanji card: 笛, 章, 穴, 極, 的, 穀, 稼, 根, 税, 移, 秒, 禁, 祭, 祝, 儀, 謝. No RU-only links were added (EN link parity).",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: dropping 祝い–お祭り, 祭–お祝い/祝い and 祝い–お土産 (conservative guards whose retention the consistency reviewer accepted; the baseline お祭り card already guards お祝い); one-line 礼儀–行儀 and 祝う–喜ぶ contrasts (not in EN; the distinctions are available on 行儀 and in 祝う's action-not-feeling wording). A 動かす–動く guard was not recommended and was withdrawn. Optional wording items for 穀物, 空き and 積もる were adopted. The RU-added comparison sentences that support the extra guards are plain text because the EN cards do not link them and RU-only links break EN link parity. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "感謝": [
+    "恩"
+   ],
+   "根": [
+    "原因"
+   ],
+   "確認": [
+    "チェック",
+    "テスト",
+    "調べる"
+   ],
+   "礼": [
+    "恩"
+   ],
+   "祝い": [
+    "お祝い",
+    "プレゼント",
+    "贈り物",
+    "お土産",
+    "お祭り",
+    "記念"
+   ],
+   "祝う": [
+    "お祝い",
+    "祝い"
+   ],
+   "祭": [
+    "お祭り",
+    "お祝い",
+    "祝い"
+   ],
+   "禁煙": [
+    "禁止"
+   ],
+   "移動": [
+    "移す",
+    "移る",
+    "動かす",
+    "動く"
+   ],
+   "種": [
+    "話題"
+   ],
+   "稼ぐ": [
+    "働く"
+   ],
+   "穀物": [
+    "米"
+   ],
+   "積む": [
+    "折る"
+   ],
+   "空き": [
+    "席"
+   ],
+   "立ち上がる": [
+    "上がる"
+   ]
+  },
+  "titles": {
+   "動かす": "сдвигать; приводить в движение",
+   "感謝": "признательность; чувство благодарности",
+   "根": "корень; глубинный источник",
+   "確認": "подтверждение; проверка",
+   "礼": "выражение благодарности; поклон",
+   "礼儀": "этикет; правила вежливости",
+   "祝い": "празднование; поздравительный подарок",
+   "祝う": "праздновать; поздравлять",
+   "神": "бог; божество",
+   "神経": "нерв; нервы",
+   "祭": "фестиваль",
+   "禁止": "запрет; запрещение",
+   "禁煙": "запрет на курение; отказ от курения",
+   "科目": "учебный предмет",
+   "秒": "секунда",
+   "移す": "перемещать; переносить",
+   "移動": "перемещение; передвижение",
+   "税": "налог",
+   "税金": "налоги; налоговые деньги",
+   "種": "семя; источник; повод для разговора",
+   "稼ぐ": "зарабатывать",
+   "穀物": "зерно; злаки",
+   "積む": "складывать в стопку; загружать",
+   "積もる": "накапливаться; ложиться слоем",
+   "積極的": "инициативный; деятельный",
+   "穴": "дыра; отверстие",
+   "空き": "свободное место или время",
+   "立ち上がる": "вставать на ноги; запускаться (о компьютере)",
+   "章": "глава (книги); значок",
+   "笛": "флейта; свисток"
+  }
+ }
+}
