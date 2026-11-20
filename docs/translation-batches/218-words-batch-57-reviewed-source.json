@@ -1,0 +1,173 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "218-words-batch-57",
+ "publishedBaseline": "6a5ae7566481a01d89b3596fd755a8ca3f78a421",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 4cc28f4 and serialized rechecks of the signed final fix commit 40e30b5 (after fixes d45ff32 and 867e749) found every finding resolved and left no finding open. Correctness raised one minor scoped-coverage finding, fixed: 余分's reading join had turned EN's hiragana よ + ぶん into katakana; it now reads «Онные чтения складываются как よ + ぶん.» (JMdict 1544520). Its first recheck raised one minor register finding, fixed: 休憩's new contrast called a break at a meeting or on a journey never «антракт», although Kuznetsov «антракт» 1 records «Разг. Перерыв в каком-либо действии»; it now says neutral speech uses «перерыв» there and «антракт» sounds conversational. All 30 cards were read in full against EN, every headword was checked in JMdict, and the Russian adaptations were checked in Kuznetsov entries on Gramota (вверить, усмотрение, антракт, излишек, лишний, творение, работа, товарищ, компания, взаимоотношения, кредит, доверие, уверенность, кое-как, пример, сравнение, сочинение, культура, этикет, физкультура, житель, жильё, член, отпуск, перерыв, впредь and отныне). Consistency raised two quiz-safety findings, both fixed (see the quiz notes), and a strokes manifest-hash note withdrawn by evidence: build_manifest.py hashes after CRLF-to-LF normalisation and the stroke blobs are CRLF byte copies. Comprehensibility raised two minor findings, both fixed. 休憩's title «перерыв; антракт» offered the theatrical «антракт» as an unqualified equal gloss; the title and heading now read «перерыв на отдых; антракт (в спектакле, концерте)», keeping EN's \"rest break; intermission\" with a restriction, and the nuance section explains the neutral and conversational uses. 何とか's example used «кое-как», whose other sense is «небрежно»; it now reads «Я спешил и с трудом, но успел вовремя.» (JMdict 1188420 sense 2). An optional correctness item was adopted: 以来's warning now names the dictionary rendering it qualifies, «отныне» (JMdict 以来 sense 1 \"henceforth\"; Kuznetsov «отныне»). The comprehensibility recheck raised one minor finding on that wording, fixed: it had added the English gloss «(англ. henceforth)» to learner prose; the sentence now reads «Словарь приводит для 以来 и перевод «отныне», но это не разрешение заменять словом 以来 любое выражение будущего.», which also names the replaced word as EN does. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 28 EN exclusions across 21 lists are retained. Twelve direct, one-sided exclusions on 12 new cards cover reviewed RU title overlaps and sense neighbours. Required (9): 倒す–勝つ (exact segment «побеждать»), 修正–直す (correcting), 作法–礼儀 («этикет»), 作品–曲 («произведение»), 住宅–自宅 («жильё»), 休暇–夏休み («отпуск»), 休憩–昼休み («перерыв»), 例え–比較 (the title contains 比較's whole title «сравнение»; added in the fix) and 任せる–頼む («вверять» against «поручать»; JMdict 頼む \"to entrust to\"; added in the fix). Conservative (3, added in the fix): 住民–人口 (residents against population; precedent 市民→人口), 仲間–友達 (仲間 already excludes 友) and 会員–仲間 (both titles lead with «член»). The candidate declared the first seven. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/218-words-batch-57-intake.json",
+  "docs/translation-batches/218-words-batch-57-independent-review-001.md",
+  "docs/translation-batches/218-words-batch-57-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "企",
+   "価",
+   "保",
+   "修",
+   "憩",
+   "暇",
+   "統",
+   "証"
+  ],
+  "navigationNote": "Restored 31 relative links across the 26 listed Markdown files at the corresponding EN-linked positions, using EN's href forms: in the kanji pages, three in 仲 (two to 仲 and one to 仲間), three in 信 (to 信じる) and one in 疑 (to 信じる); in the word cards, two in 信仰 (to 信じる and 信用) and one each in 疑う, 宗教 and 頼る (to 信じる), 裏切る (to 信頼), 価格, 値 and 評価 (to 価値), 収穫 (to 作物), 何か (to 何でも), やがて (to 何時か), 人類 and 国民 (to 住民), 委員 (to 会員), 来 (to 以来), 預ける (to 任せる) and 友, 友情, 同僚, 味方, 相手, 親友 and 連れ (to 仲間). Every occurrence EN links is wrapped, so 仲 and 信 carry more than one link to the same target. Mentions that EN leaves unlinked stay plain. No surrounding prose was changed. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/仲.md",
+   "kanji/信.md",
+   "kanji/疑.md",
+   "words/やがて.md",
+   "words/人類.md",
+   "words/何か.md",
+   "words/価格.md",
+   "words/信仰.md",
+   "words/値.md",
+   "words/友.md",
+   "words/友情.md",
+   "words/収穫.md",
+   "words/同僚.md",
+   "words/味方.md",
+   "words/国民.md",
+   "words/委員.md",
+   "words/宗教.md",
+   "words/来.md",
+   "words/疑う.md",
+   "words/相手.md",
+   "words/裏切る.md",
+   "words/親友.md",
+   "words/評価.md",
+   "words/連れ.md",
+   "words/預ける.md",
+   "words/頼る.md"
+  ],
+  "newWords": [
+   "倒す",
+   "修理",
+   "修正",
+   "信じる",
+   "信用",
+   "信頼",
+   "保証",
+   "価値",
+   "例え",
+   "作物",
+   "作法",
+   "作曲",
+   "作品",
+   "余分",
+   "何時か",
+   "何とか",
+   "何でも",
+   "何で",
+   "体育",
+   "住民",
+   "住宅",
+   "伝統",
+   "会員",
+   "休暇",
+   "休憩",
+   "企業",
+   "任せる",
+   "仲間",
+   "仲",
+   "以来"
+  ],
+  "selection": "Batch 57 selected 30 word cards from the frozen source: chunk 10 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,857 remained after Batch 217). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. Three source exclusion edges lie inside the batch (信用–信じる, 信頼–信用 and 信頼–信じる); the other 25 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (14 EN link occurrences, 11 targets). In the new cards: 余分→余る, 何時か→そのうち, 会員→メンバー and 以来→今後. In the navigation files: in the kanji pages, 仲→仲直り (2) and 仲良し (2) and 疑→the article ayashii-and-related-words; in the word cards, やがて→そのうち, 預ける→預かる, and 委員, 裏切る and 預ける to their own kanji pages. 8 written kanji have no RU kanji card: 企, 価, 保, 修, 憩, 暇, 統, 証 (EN has no card for any of them). Links otherwise follow EN, with two RU-only links to existing cards at a substantive comparison: 倒す→勝つ and 修正→直す. 今後 is a Batch 58 word; its link from 以来 is restored as a navigation edit in that batch.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: 会員–委員 (consistency; the parenthesis «клуба, общества» separates the titles), 休憩–休む, 何で–どう, 作法–方法, 伝統–習慣 and 体育–運動 (consistency; EN leaves each unguarded and the titles share no segment), an optional 何時か→いつ link (consistency; EN keeps いつ plain), marking «творение» as elevated and «стали хорошо ладить» in 仲 (correctness; the second title gloss gives the ordinary «художественное произведение», and «подружились» fits 仲よくなる), and 仲間 «коллега», 会員 «регистрация участника», 住宅 «житель» and 作法 礼儀/行儀 wording (comprehensibility; the reviewer marked them not findings). The consistency recheck accepted the declines as optional. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "仲間": [
+    "友達"
+   ],
+   "任せる": [
+    "頼む"
+   ],
+   "休憩": [
+    "昼休み"
+   ],
+   "休暇": [
+    "夏休み"
+   ],
+   "会員": [
+    "仲間"
+   ],
+   "住宅": [
+    "自宅"
+   ],
+   "住民": [
+    "人口"
+   ],
+   "作品": [
+    "曲"
+   ],
+   "作法": [
+    "礼儀"
+   ],
+   "例え": [
+    "比較"
+   ],
+   "修正": [
+    "直す"
+   ],
+   "倒す": [
+    "勝つ"
+   ]
+  },
+  "titles": {
+   "以来": "с тех пор (как); начиная с (какого-л. момента)",
+   "仲": "взаимоотношения (между людьми)",
+   "仲間": "товарищ; член группы",
+   "任せる": "вверять (дело); оставлять на (чьё-л.) усмотрение",
+   "企業": "предприятие; компания",
+   "休憩": "перерыв на отдых; антракт (в спектакле, концерте)",
+   "休暇": "отпуск",
+   "会員": "член (клуба, общества)",
+   "伝統": "традиция",
+   "住宅": "жильё; жилой дом",
+   "住民": "жители; житель",
+   "体育": "физкультура",
+   "何で": "почему (разг.); на чём, с помощью чего",
+   "何でも": "что угодно",
+   "何とか": "как-нибудь; так или иначе",
+   "何時か": "когда-нибудь; когда-то",
+   "余分": "излишек; лишний",
+   "作品": "творение; художественное произведение",
+   "作曲": "сочинение музыки",
+   "作法": "правила этикета",
+   "作物": "сельскохозяйственные культуры",
+   "例え": "пример (для пояснения); образное сравнение",
+   "価値": "ценность",
+   "保証": "гарантия",
+   "信じる": "верить (кому-л., во что-л.)",
+   "信用": "доверие; кредит",
+   "信頼": "доверие; уверенность в надёжности",
+   "修正": "исправление; правка",
+   "修理": "ремонт; починка",
+   "倒す": "опрокидывать; валить; побеждать (соперника)"
+  }
+ }
+}
