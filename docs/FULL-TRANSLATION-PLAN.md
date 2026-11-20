@@ -1,6 +1,39 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch212 thirty words (general word queue)
+## Current published source milestone: batch213 thirty words (general word queue)
+
+Batch213 adds 30 Russian word articles: 夫婦 夫人 大部分 大臣 大統領 大戦 大家 大半 大使 大会 大 夢中 夜明け 夜中 外交 外す
+夕べ 売れる 墓 境 塔 塀 報告 よる 基づく 城 埃 地球 地域 地方. They are chunk 5 of 72 of the general remaining-word queue
+(recomputed after Batch207: 2,157 EN words remaining); the dependency closure is exactly the 30 requested words, so every EN
+quiz_exclusions target resolves to an existing RU word or a batch word. Thirteen existing word pages and the kanji pages 告,
+城, 域, 報, 塔, 夫, 婦 and 球 receive 35 navigation-only link wraps at EN link positions. 臣, 統, 領, 墓, 境, 塀, 基 and 埃
+remain plain labels because those kanji have no RU card.
+
+The batch covers married couples and wives (夫婦, 夫人), the greater part and majority (大部分, 大半), ministers,
+presidents and ambassadors (大臣, 大統領, 大使), great wars (大戦), landlords (大家), conventions and tournaments (大会),
+the prefix and size 大 (大), absorption (夢中), dawn and the dead of night (夜明け, 夜中), diplomacy (外交), taking off
+and unfastening (外す), evenings (夕べ), selling well (売れる), graves (墓), boundaries and turning points (境), towers (塔),
+fences (塀), reports (報告), depending on and being based on (よる, 基づく), castles (城), dust (埃), the Earth (地球) and
+regions and the provinces (地域, 地方). All 18 EN exclusions are retained; fifteen direct guards on nine new cards cover
+the reviewed RU title overlaps and sense neighbours: 大部分–ほとんど, 大部分–たいてい, 大半–ほとんど, 大半–たいてい,
+大–莫大, 大–巨大, 大–大小, 夢中–熱中, 外す–下ろす, 報告–リポート, よる–次第 and 地方–州 (required), 境–瞬間, 報告–知らせる
+and 報告–伝える (conservative). Exclusions are one-sided declarations that Android applies in both directions; the batch
+changes exclusions only on its new cards.
+The candidate was committed signed and pushed before review. The blind facet-split review found no correctness finding,
+one consistency finding (a missing 大–巨大 guard) and three comprehensibility findings (地方's sentence rejecting an
+English gloss; 大統領's vocative rendered as praise; 大部分 not separated from ほとんど). One signed fix commit resolved
+them: it added the guard, deleted the 地方 sentence, rendered the 大統領 vocative as «шеф!» or «дружище!» and added a
+plain-text ほとんど contrast that denies 大部分 only the negative «почти не». No RU-only links were added. The serial
+rechecks reported all facets clean.
+
+Qualified progress is **4,509 reviewed-current / 8 reviewed runtime-blocked / 3,761 pending of 8,278**,
+with 3,043 words, 718 kanji and 718 strokes. See the [intake](translation-batches/213-words-batch-52-intake.json),
+[independent review](translation-batches/213-words-batch-52-independent-review-001.md),
+[recheck](translation-batches/213-words-batch-52-recheck-001.md),
+[qualified source record](translation-batches/213-words-batch-52-reviewed-source.json) and
+[final validation](translation-batches/213-words-batch-52-final-validation-001.json).
+
+## Previous published source milestone: batch212 thirty words (general word queue)
 
 Batch212 adds 30 Russian word articles: 完全 完了 宇宙 宅 孫 学者 学ぶ 学習 学期 学 学問 存在 嫌う 嫁 婚約 姿 委員 奇妙
 不思議 妙 好み 女王 俳優 女優 奪う 奨学金 奥 契約 失業 失う. They are chunk 4 of 72 of the general remaining-word queue

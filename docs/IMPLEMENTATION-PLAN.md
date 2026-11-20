@@ -8,7 +8,19 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch212 thirty words
+## Current published source milestone: batch213 thirty words
+
+Batch213 added 30 Russian word articles, chunk 5 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions with nothing added), plus 35 navigation-only link wraps in thirteen existing word pages and the
+kanji pages 告, 城, 域, 報, 塔, 夫, 婦 and 球. The candidate was committed signed and pushed before review. The blind
+facet-split review found no correctness finding, one consistency finding (大–巨大 guard) and three comprehensibility
+findings (地方, 大統領 and 大部分 explanations). One signed fix commit resolved them; the serial rechecks reported all
+facets clean.
+Progress: **4,509 reviewed-current / 8 runtime-blocked / 3,761 pending of 8,278**; 3,043 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch213-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch212 thirty words
 
 Batch212 added 30 Russian word articles, chunk 4 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions with nothing added), plus 31 navigation-only link wraps in fifteen existing word pages and the
@@ -18,7 +30,7 @@ finding (完全–全然 guard) and two comprehensibility findings (完全 and �
 the serial rechecks reported all facets clean.
 Progress: **4,479 reviewed-current / 8 runtime-blocked / 3,791 pending of 8,278**; 3,013 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch212-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch212-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch211 thirty words
 
