@@ -1,6 +1,61 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch214 thirty words (general word queue)
+## Current published source milestone: batch215 thirty words (general word queue)
+
+Batch215 adds 30 Russian word articles: 名人 同時 同僚 合わせる 叱る 可能 可 取れる 取り上げる 収穫 収入 双子 友情 及ぼす
+参考 参加 原 印刷 占める 博物館 博士 単位 単に 単なる 共同 協力 医療 医師 化粧 化学. They are chunk 7 of 72 of the general
+remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is exactly the 30
+requested words, so every EN quiz_exclusions target resolves to an existing RU word or a batch word.
+
+Navigation-only link wraps restore 45 links at EN link positions in 31 files: 21 existing word pages and the kanji pages
+共, 刊, 刷, 加, 協, 占, 印, 参, 双 and 収. The kanji 僚, 博, 及, 可, 叱, 士, 療, 穫 and 粧 remain plain labels because they
+have no RU card.
+
+The batch covers:
+- masters of a craft (名人) and doctors and experts (博士);
+- the same time (同時), colleagues (同僚) and friendship (友情);
+- fitting and combining (合わせる) and scolding (叱る);
+- possibility (可能) and a passing grade (可);
+- coming off (取れる) and confiscating or taking up a topic (取り上げる);
+- harvests and results (収穫), income (収入) and twins (双子);
+- exerting an influence (及ぼす), reference material (参考) and participation (参加);
+- open fields and plains (原), printing (印刷) and occupying a share (占める);
+- museums (博物館);
+- units and academic credits (単位), merely (単に) and mere (単なる);
+- joint work (共同) and cooperation (協力);
+- medical care (医療), physicians (医師), make-up (化粧) and chemistry (化学).
+
+All 9 EN exclusions are retained. Seven direct guards on six new cards cover the reviewed RU title overlaps and sense
+neighbours:
+- required: 原–野, 博物館–美術館, 及ぼす–影響 and 単なる–単に;
+- conservative: 叱る–注意, 単に–だけ and 単に–ばかり.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: one finding (化粧 dropped EN's statement that け + しょう are on readings) and one verification limit. No
+  Russian dictionary headword was found for 単位's «зачётная единица»; Order No. 245 of the Russian Ministry of Science
+  and Higher Education closed it substantively;
+- consistency: no finding;
+- comprehensibility: two findings, the English abbreviation «(PhD)» in 博士 and 単に's ambiguous gloss «исключительно».
+
+One signed fix commit resolved them:
+- 単に became «просто (не более того); всего лишь», with conservative guards to だけ and ばかり;
+- 化粧 now says «Онные чтения»;
+- 博士 dropped the abbreviation;
+- 共同 took parenthesised readings.
+
+The serial rechecks reported all facets clean. Links follow EN; the batch adds no RU-only link.
+
+Qualified progress is **4,569 reviewed-current / 8 reviewed runtime-blocked / 3,701 pending of 8,278**,
+with 3,103 words, 718 kanji and 718 strokes. See the [intake](translation-batches/215-words-batch-54-intake.json),
+[independent review](translation-batches/215-words-batch-54-independent-review-001.md),
+[recheck](translation-batches/215-words-batch-54-recheck-001.md),
+[qualified source record](translation-batches/215-words-batch-54-reviewed-source.json) and
+[final validation](translation-batches/215-words-batch-54-final-validation-001.json).
+
+## Previous published source milestone: batch214 thirty words (general word queue)
 
 Batch214 adds 30 Russian word articles: 地平線 地区 地下 土産 土曜 国語 国民 国家 国境 国会 図 囲む 回す 器用 善 商売
 商品 商人 唯一 哲学 品 呼吸 味方 周囲 吸収 加える 含む 否定 向かい 吐く. They are chunk 6 of 72 of the general remaining-word

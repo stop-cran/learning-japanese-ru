@@ -8,7 +8,24 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch214 thirty words
+## Current published source milestone: batch215 thirty words
+
+Batch215 added 30 Russian word articles. They are chunk 7 of the recomputed general remaining-word queue,
+dependency-closed under quiz_exclusions with nothing added. The batch also added 45 navigation-only link wraps in 21
+existing word pages and the kanji pages 共, 刊, 刷, 加, 協, 占, 印, 参, 双 and 収.
+
+The candidate was signed and pushed before review. The blind facet-split review found:
+- one correctness finding (化粧) and one verification limit (単位), which the normative evidence closed;
+- no consistency finding;
+- two comprehensibility findings (博士 and 単に).
+
+One signed fix commit resolved them, and the serial rechecks reported all facets clean.
+
+Progress: **4,569 reviewed-current / 8 runtime-blocked / 3,701 pending of 8,278**; 3,103 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch215-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch214 thirty words
 
 Batch214 added 30 Russian word articles, chunk 6 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions with nothing added), plus 22 navigation-only link wraps in ten existing word pages and the kanji
@@ -18,7 +35,7 @@ findings (図, 国語, 囲む, 品, 味方, 呼吸, 周囲 and 国境). One sign
 周囲's RU-introduced 周り and 環境 comparisons to existing cards; the serial rechecks reported all facets clean.
 Progress: **4,539 reviewed-current / 8 runtime-blocked / 3,731 pending of 8,278**; 3,073 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch214-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch214-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch213 thirty words
 
