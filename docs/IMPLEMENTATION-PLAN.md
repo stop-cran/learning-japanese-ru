@@ -8,7 +8,21 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch203 thirty words
+## Current published source milestone: batch204 thirty words
+
+Batch204 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions with nothing added), plus 24 navigation-only link wraps in 11 existing word pages, the kanji pages
+席, 構, 権 and 欠 and the article numbers-and-counters. It was authored and reviewed as a staged tree on the reviewed Batch203
+tree while commit signing was unavailable. The blind facet-split review found one correctness finding (an overstated past-only
+restriction in 次第's Russian-added 途端 comparison), two quiz-safety findings (missing お昼–昼間 and プラス–足す guards) and one
+comprehensibility finding (a 歓迎 people-example worded with 迎える's Russian). All were fixed without RU-only links; only the
+two added guards changed exclusions. After Batch203 was published, that exact reviewed tree was committed signed. The serial
+rechecks reported all facets clean.
+Progress: **4,239 reviewed-current / 8 runtime-blocked / 4,031 pending of 8,278**; 2,773 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch204-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch203 thirty words
 
 Batch203 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions with nothing added), plus 17 navigation-only link wraps in 11 existing word pages and the kanji pages
@@ -19,7 +33,7 @@ finding (an author-style source note in 気味). All were fixed without RU-only 
 After Batch202 was published, that exact reviewed tree was committed signed. The serial rechecks reported all facets clean.
 Progress: **4,209 reviewed-current / 8 runtime-blocked / 4,061 pending of 8,278**; 2,743 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch203-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch203-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch202 thirty words
 
