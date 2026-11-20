@@ -1,0 +1,189 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "216-words-batch-55",
+ "publishedBaseline": "2721d15954814a731eaa60f6b47a671f58f82b28",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 034ab7e and serialized rechecks of the signed fix commit bf04fff found every finding resolved and left no optional item open. Correctness reported no findings: all 30 cards were read in full against EN, every headword and guard comparison word was checked in JMdict, and the Russian adaptations were checked in Gramota entries (театр, играть, драма, очередь, анализ, сыщик, жать and others), Wiktionary острота́ and Digital Daijisen 加わる and 度. Consistency raised two quiz-safety findings, both fixed. Minor: 切れる's «кончаться (о запасе)» is a near-synonym of 終わる «заканчиваться; заканчивать», so 切れる now excludes 終わる, alongside its existing 無くなる guard. Trivial: 劇 no longer excludes 劇場, an unjustified but harmless over-guard, because the card teaches that 劇 is not the building and 劇場's title says «театр (здание)». Comprehensibility raised four minor findings, all fixed. 分's title began with «бу», a Cyrillic transliteration of the reading ぶ that also stood over the reading ぶん; the title and heading now read «дробная единица; чья-либо часть». 助手 had no contrast with 手伝い, whose title shares «помощник»; a sentence now says that 手伝い can name a helper but is first of all the help itself, while 助手 names only the person who assists another in work, or such a post (Digital Daijisen 手伝い 「手伝うこと。また、その人。」 and 助手 sense 1 「仕事の手助けをする人。」). 到着 and 前者 glossed 電車 as «электричка», which in ordinary Russian is a suburban train; both now say «электропоезд», as the 電車 card does, with «первый» agreeing in 前者. 刈る's hair sentence was a calque that showed no contrast; it now presents 髪を切る as the ordinary «подстричь волосы» and says that 刈る frames cutting as cropping grown material, like mowing grass (Digital Daijisen 刈る sense 1 「伸び茂っているものを根元を残して切り払ったり、切り取ったりする。「草を刈る」「髪を刈る」」). Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 13 EN exclusions across 11 lists are retained. Twenty-four direct, one-sided exclusions on 15 new cards cover reviewed RU title overlaps and sense neighbours. Required (12): 劣る–負ける (shared «уступать»), 加わる–加える (intransitive/transitive pair), 劇–芝居 (both a play or drama), 割る–分ける (division), 到着–着く (to arrive), 別れ–別れる (noun and verb of the same stem), 別に–あまり («не особо»), 別に–別 (separate), 列–順番 and 列–番 (shared «очередь»), 切れる–切る («хорошо резать» against «резать») and 分析–検査 (検査's title includes «анализ»). Conservative (12): 勧める–推薦 and 勧める–提案 (verb against noun), 効く–効果 (shared stem «эффект»), 劣る–譲る (shared string «уступать» only), 加わる–足す, 劇–公演, 制度–機関, 別に–特に, 列車–汽車, 刑事–警官 (hypernym), 切れる–破る and 切れる–終わる («кончаться (о запасе)»; added in the fix). These are the consistency reviewer's classes; the author had called 到着–着く, 別れ–別れる and 切れる–切る conservative. The fix also removed the candidate's 劇–劇場 guard, which the consistency reviewer classed as an unjustified but harmless over-guard, so 劇 and 劇場 are now unguarded in both directions. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/216-words-batch-55-intake.json",
+  "docs/translation-batches/216-words-batch-55-independent-review-001.md",
+  "docs/translation-batches/216-words-batch-55-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "刈",
+   "刑",
+   "劣",
+   "勘",
+   "勧",
+   "析",
+   "激",
+   "益",
+   "詞"
+  ],
+  "navigationNote": "Restored 37 relative links across the 23 listed Markdown files at the corresponding EN-linked positions, using EN's href forms: in the kanji pages, three each in 列 (to 列), 到 (to 到着), 制 (to 制度) and 割 (to 割る), three in 劇 (two to 劇場 and one to 劇), and two each in 刺 (to 刺激), 効 (to 効く), 勇 (to 勇気) and 勢 (to 勢い); in the word cards, one each in 加える and 参加 (to 加わる), 匹敵 (to 劣る), 区別 and 合わせる (to 分ける), 後者 (to 前者), 悲劇 (to 劇), 推薦 and 進める (to 勧める), 損 (to 利益), 段 (to 列), 発車 and 達する (to 到着) and 負け (to 勝ち). Mentions that EN leaves unlinked stay plain. No surrounding prose was changed. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/列.md",
+   "kanji/到.md",
+   "kanji/制.md",
+   "kanji/刺.md",
+   "kanji/割.md",
+   "kanji/劇.md",
+   "kanji/効.md",
+   "kanji/勇.md",
+   "kanji/勢.md",
+   "words/加える.md",
+   "words/匹敵.md",
+   "words/区別.md",
+   "words/参加.md",
+   "words/合わせる.md",
+   "words/後者.md",
+   "words/悲劇.md",
+   "words/推薦.md",
+   "words/損.md",
+   "words/段.md",
+   "words/発車.md",
+   "words/負け.md",
+   "words/進める.md",
+   "words/達する.md"
+  ],
+  "newWords": [
+   "勧める",
+   "勢い",
+   "勝ち",
+   "勘",
+   "動詞",
+   "勇気",
+   "効く",
+   "助手",
+   "劣る",
+   "加わる",
+   "劇場",
+   "劇",
+   "割る",
+   "前者",
+   "刺激",
+   "制度",
+   "到着",
+   "利益",
+   "別れ",
+   "別に",
+   "列車",
+   "列",
+   "刑事",
+   "刈る",
+   "切れる",
+   "切れ",
+   "分野",
+   "分析",
+   "分ける",
+   "分"
+  ],
+  "selection": "Batch 55 selected 30 word cards from the frozen source: chunk 8 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,917 remained after Batch 215). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. No source exclusion edge lies inside the batch: all 13 EN exclusion targets already had RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (19 EN link occurrences, 13 targets). In the new cards: 動詞→kanji 詞, 劣る→優れる, 劇→ドラマ and 別れ→出会い. In the navigation files: 損→kanji 損; in the kanji pages, 刺→刺す (3), 刺さる (3), 刺身 (2) and 名刺, 劇→演劇, 効→効力, 勇→勇ましい and 勢→姿勢 (2). 9 written kanji have no RU kanji card: 刈, 刑, 劣, 勘, 勧, 析, 激, 益, 詞 (EN has a card only for 詞). Links otherwise follow EN, with four RU-only links to existing cards at a substantive comparison: 到着→着く, 分→部分, 分ける→分かる and 列→順番. The pre-existing RU extra links 割→割れる and 割→割合 in kanji/割.md are unchanged.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items, all from the comprehensibility reviewer, which itself judged none of them an actionable defect: an explicit 分野–地方 sentence (分野's «область (знаний, деятельности)» and its 畑 contrast already block 地方's geographic «область»); «два варианта» instead of «два предложения» for 案 in 前者 («предложение» is the ordinary Russian for a proposal, and with «сравнил … выбрал» the grammatical-sentence reading is implausible); «положите в миску» instead of «вылейте его в миску» in 割る («вылить яйцо» is the natural collocation for a broken raw egg); and a 別に–あまり contrast and a sharper 汽車 hedge in 列車 (both uses are already taught). «электричка» remains in published cards outside this batch's new files, including the navigation-only mirror example 後者:17, where «второй» agrees with «автобус»; it is recorded as a limit, not changed here. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "分析": [
+    "検査"
+   ],
+   "切れる": [
+    "切る",
+    "破る",
+    "終わる"
+   ],
+   "刑事": [
+    "警官"
+   ],
+   "列": [
+    "順番",
+    "番"
+   ],
+   "列車": [
+    "汽車"
+   ],
+   "別に": [
+    "あまり",
+    "特に",
+    "別"
+   ],
+   "別れ": [
+    "別れる"
+   ],
+   "到着": [
+    "着く"
+   ],
+   "制度": [
+    "機関"
+   ],
+   "割る": [
+    "分ける"
+   ],
+   "劇": [
+    "芝居",
+    "公演"
+   ],
+   "加わる": [
+    "加える",
+    "足す"
+   ],
+   "劣る": [
+    "負ける",
+    "譲る"
+   ],
+   "効く": [
+    "効果"
+   ],
+   "勧める": [
+    "推薦",
+    "提案"
+   ]
+  },
+  "titles": {
+   "分": "дробная единица; чья-либо часть",
+   "分ける": "разделять; раздавать (по частям)",
+   "分析": "анализ",
+   "分野": "область (знаний, деятельности)",
+   "切れ": "кусок; ломтик; острота (лезвия)",
+   "切れる": "рваться; кончаться (о запасе); хорошо резать",
+   "刈る": "косить; стричь; жать (урожай)",
+   "刑事": "сыщик (в полиции); уголовный (о делах)",
+   "列": "ряд; очередь (людей)",
+   "列車": "поезд (железнодорожный)",
+   "別に": "не особо (с отрицанием); отдельно",
+   "別れ": "расставание; прощание",
+   "利益": "прибыль; выгода; польза",
+   "到着": "прибытие",
+   "制度": "учреждённая система (в обществе, организации)",
+   "刺激": "стимул; раздражитель",
+   "前者": "первый из двух названных",
+   "割る": "разбивать; раскалывать; делить (в арифметике)",
+   "劇": "театральная постановка; драма",
+   "劇場": "театр (здание)",
+   "加わる": "присоединяться; добавляться",
+   "劣る": "быть хуже; уступать (по качеству)",
+   "助手": "помощник; ассистент",
+   "効く": "действовать; давать эффект",
+   "勇気": "смелость; храбрость",
+   "動詞": "глагол",
+   "勘": "интуиция; чутьё",
+   "勝ち": "победа; выигрыш",
+   "勢い": "напор; сила движения",
+   "勧める": "рекомендовать; советовать; предлагать"
+  }
+ }
+}

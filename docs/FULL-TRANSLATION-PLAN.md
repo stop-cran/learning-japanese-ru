@@ -1,6 +1,62 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch215 thirty words (general word queue)
+## Current published source milestone: batch216 thirty words (general word queue)
+
+Batch216 adds 30 Russian word articles: 勧める 勢い 勝ち 勘 動詞 勇気 効く 助手 劣る 加わる 劇場 劇 割る 前者 刺激
+制度 到着 利益 別れ 別に 列車 列 刑事 刈る 切れる 切れ 分野 分析 分ける 分. They are chunk 8 of 72 of the general
+remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is exactly the 30
+requested words, so every EN quiz_exclusions target resolves to an existing RU word or a batch word.
+
+Navigation-only link wraps restore 37 links at EN link positions in 23 files: 14 existing word pages and the kanji pages
+列, 到, 制, 割, 劇, 刺, 効, 勇 and 勢. The kanji 刈, 刑, 劣, 勘, 勧, 析, 激, 益 and 詞 remain plain labels because they
+have no RU card.
+
+The batch covers:
+- recommending (勧める), momentum (勢い), a win (勝ち), intuition (勘), verbs (動詞) and courage (勇気);
+- taking effect (効く), assistants (助手), being inferior (劣る) and joining (加わる);
+- theatres (劇場), plays (劇), splitting and dividing (割る) and the former of two (前者);
+- stimuli (刺激), institutional systems (制度), arrival (到着) and profit (利益);
+- partings (別れ) and "not particularly" or separately (別に);
+- railway trains (列車), rows and queues (列), police detectives (刑事) and mowing or reaping (刈る);
+- snapping, running out and cutting well (切れる), and pieces and sharpness (切れ);
+- fields of activity (分野), analysis (分析), dividing and sharing out (分ける), and fractional units and portions (分).
+
+All 13 EN exclusions are retained. Twenty-four direct guards on 15 new cards cover the reviewed RU title overlaps and
+sense neighbours:
+- required: 劣る–負ける, 加わる–加える, 劇–芝居, 割る–分ける, 到着–着く, 別れ–別れる, 別に–あまり, 別に–別, 列–順番,
+  列–番, 切れる–切る and 分析–検査;
+- conservative: 勧める–推薦, 勧める–提案, 効く–効果, 劣る–譲る, 加わる–足す, 劇–公演, 制度–機関, 別に–特に, 列車–汽車,
+  刑事–警官, 切れる–破る and 切れる–終わる.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: no finding;
+- consistency: two findings, a missing 切れる–終わる guard («кончаться (о запасе)» against «заканчиваться») and a
+  harmless over-guard 劇–劇場;
+- comprehensibility: four findings: 分's title began with «бу», a Cyrillic transliteration of its reading; 助手 had no
+  contrast with 手伝い, whose title shares «помощник»; 到着 and 前者 rendered 電車 as «электричка»; and 刈る's haircut
+  sentence was a calque that showed no contrast.
+
+One signed fix commit resolved them:
+- 切れる now excludes 終わる, and 劇 no longer excludes 劇場;
+- 分's title became «дробная единица; чья-либо часть»;
+- 助手 now contrasts the help itself (手伝い) with the person who assists another in work;
+- 到着 and 前者 say «электропоезд», as the 電車 card does;
+- 刈る presents 髪を切る as the ordinary «подстричь волосы» and frames 刈る as cropping grown material.
+
+The serial rechecks reported all facets clean. Links follow EN, with four RU-only links to existing cards at a substantive
+comparison: 到着–着く, 分–部分, 分ける–分かる and 列–順番.
+
+Qualified progress is **4,599 reviewed-current / 8 reviewed runtime-blocked / 3,671 pending of 8,278**,
+with 3,133 words, 718 kanji and 718 strokes. See the [intake](translation-batches/216-words-batch-55-intake.json),
+[independent review](translation-batches/216-words-batch-55-independent-review-001.md),
+[recheck](translation-batches/216-words-batch-55-recheck-001.md),
+[qualified source record](translation-batches/216-words-batch-55-reviewed-source.json) and
+[final validation](translation-batches/216-words-batch-55-final-validation-001.json).
+
+## Previous published source milestone: batch215 thirty words (general word queue)
 
 Batch215 adds 30 Russian word articles: 名人 同時 同僚 合わせる 叱る 可能 可 取れる 取り上げる 収穫 収入 双子 友情 及ぼす
 参考 参加 原 印刷 占める 博物館 博士 単位 単に 単なる 共同 協力 医療 医師 化粧 化学. They are chunk 7 of 72 of the general
