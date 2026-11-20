@@ -1,0 +1,164 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "217-words-batch-56",
+ "publishedBaseline": "0bbd15e72862bba9c9bc9bcffbd06e20cd989b83",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 4af7ea7 and serialized rechecks of the signed final fix commit 2b35d62 (after fix a82ecc2) found every finding resolved and left no optional item open. Correctness raised one minor finding, fixed: 克服's definition «способность взять её под контроль» named an ability rather than the act; it now reads «преодоление трудности, взятие её под контроль», following EN and JMdict 克服 sense 1. All 30 cards were read in full against EN, every headword was checked in JMdict, and the Russian adaptations were checked in Kuznetsov entries on Gramota (выходец, обработка, вновь, круг, общий, сообща, весь, партия, лицензия, чемпионат, остановка, заём, кандидат and others), the Большой универсальный словарь entry «на днях» and Wiktionary катана, уладить, преодолеть, превзойти and лишь. Consistency raised three quiz-safety findings, all fixed (see the quiz notes), and a strokes manifest-hash note withdrawn by evidence: build_manifest.py hashes after CRLF-to-LF normalisation and the stroke blobs are CRLF byte copies. Comprehensibility raised one minor finding, fixed: 出会い's title «встреча и знакомство (с кем-либо или чем-либо)» implied that every encounter is an acquaintance, which does not fit coming across a thing; the title and heading now read «встреча (с человеком или чем-либо)», and four glosses no longer equate encounter with acquaintance (Digital Daijisen 出会い sense 1 「思いがけなくあうこと／めぐりあい」, with 知り合うこと as a separate sense 6; JMdict 1338400). Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 27 EN exclusions across 14 lists are retained. Eleven direct, one-sided exclusions on 8 new cards cover reviewed RU title overlaps and sense neighbours. Required (3): 全て–皆 (shared «всё»), 先日–このあいだ (identical segment «на днях») and 共に–両方 («и тот и другой» against «оба»; added in the fix). Conservative (8): 優勝–勝ち (hyponym); 出会い–会合, 出会い–会 and 出会い–迎え (shared leading «встреча»; 迎え's own card already excludes 会 and 会合); 処理–解決 and 処理–治める (settling a matter); 借金–貸し («заём» against «ссуда») and 共通–同じ («совпадающий» against «одинаковый»). The candidate declared 全て–皆, 先日–このあいだ and 優勝–勝ち; the fixes added the other eight. The consistency reviewer proposed 出会い–紹介 for the old title's «знакомство»; it was not added because the retitle removed that segment. The reviewer rated 優勝–勝ち required or conservative; it is recorded as conservative. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/217-words-batch-56-intake.json",
+  "docs/translation-batches/217-words-batch-56-independent-review-001.md",
+  "docs/translation-batches/217-words-batch-56-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "健",
+   "傷",
+   "僅",
+   "克",
+   "免",
+   "冒",
+   "冗",
+   "刀",
+   "康",
+   "補"
+  ],
+  "navigationNote": "Restored 29 relative links across the 24 listed Markdown files at the corresponding EN-linked positions, using EN's href forms: in the kanji pages, three in 処 (to 処理), two each in 停 (to 停留所), 再 (to 再び) and 凍 (to 凍る), and one in 党 (to 党); in the word cards, one each in いくら, 丸 and 輪 (to 円), 優秀 and 劣る (to 優れる), 全く (to 全て), 出会う and 別れ (to 出会い), 合格 (to 優勝), 差別 and 平等 (to 公平), 悪戯 (to 冗談), 扱う (to 処理), 氷 (to 凍る), 皆 (to 全員), 要素 and 部分 (to 全体), 跡 (to 傷) and 違い (to 共通). いくら wraps the Russian «иен» at EN's \"yen\" link position. Mentions that EN leaves unlinked stay plain. No surrounding prose was changed. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/停.md",
+   "kanji/党.md",
+   "kanji/再.md",
+   "kanji/凍.md",
+   "kanji/処.md",
+   "words/いくら.md",
+   "words/丸.md",
+   "words/優秀.md",
+   "words/全く.md",
+   "words/出会う.md",
+   "words/別れ.md",
+   "words/劣る.md",
+   "words/合格.md",
+   "words/差別.md",
+   "words/平等.md",
+   "words/悪戯.md",
+   "words/扱う.md",
+   "words/氷.md",
+   "words/皆.md",
+   "words/要素.md",
+   "words/跡.md",
+   "words/輪.md",
+   "words/違い.md",
+   "words/部分.md"
+  ],
+  "newWords": [
+   "刀",
+   "出会い",
+   "出",
+   "処理",
+   "凍る",
+   "冗談",
+   "冒険",
+   "再び",
+   "円",
+   "具体",
+   "共通",
+   "共に",
+   "公平",
+   "全国",
+   "全員",
+   "全て",
+   "全",
+   "全体",
+   "党",
+   "免許",
+   "克服",
+   "先日",
+   "優勝",
+   "優れる",
+   "僅か",
+   "傷",
+   "健康",
+   "停留所",
+   "借金",
+   "候補"
+  ],
+  "selection": "Batch 56 selected 30 word cards from the frozen source: chunk 9 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,887 remained after Batch 216). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. Three source exclusion edges lie inside the batch (全–全て, 全体–全 and 全体–全て); the other 24 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (23 EN link occurrences, 12 targets). In the new cards: 候補→kanji 補. In the navigation files: in the kanji pages, 停→停止 (3), 停電 (3) and 停車 (2), 党→政党 (3), 再→再三 (2) and 凍→冷凍 (3) and 凍える (2); in the word cards, 扱う, 氷, 跡 and 輪 to their own kanji pages. 10 written kanji have no RU kanji card: 健, 傷, 僅, 克, 免, 冒, 冗, 刀, 康, 補 (EN has a card only for 補). Links otherwise follow EN, with three RU-only links to existing cards at a substantive comparison: 円→丸, 先日→このあいだ and 借金→借りる.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: 全–皆 (consistency; 全's «весь (приставка)» marks the prefix use), 冗談–悪戯 (consistency; «шутка» against «шалость; проделка», and the card teaches the contrast) and widening 出's «вытекание (воды)» (comprehensibility; the taught example is water and the body does not restrict the sense, so the reviewer itself judged no change needed). The consistency recheck accepted both of its declines. 出会い remains unguarded against 会う, ばったり and パーティー, which share only the stem «встре»; the consistency recheck judged none a defensible same-answer pair. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "借金": [
+    "貸し"
+   ],
+   "優勝": [
+    "勝ち"
+   ],
+   "先日": [
+    "このあいだ"
+   ],
+   "全て": [
+    "皆"
+   ],
+   "共に": [
+    "両方"
+   ],
+   "共通": [
+    "同じ"
+   ],
+   "処理": [
+    "解決",
+    "治める"
+   ],
+   "出会い": [
+    "会合",
+    "会",
+    "迎え"
+   ]
+  },
+  "titles": {
+   "候補": "кандидат; возможный вариант",
+   "借金": "денежный долг; заём",
+   "停留所": "остановка (автобуса, трамвая)",
+   "健康": "здоровье; здоровый",
+   "傷": "рана; царапина",
+   "僅か": "незначительный; лишь (перед числом)",
+   "優れる": "превосходить; выделяться (качествами)",
+   "優勝": "победа в чемпионате; первое место (в соревновании)",
+   "先日": "на днях (в прошлом)",
+   "克服": "преодоление (трудностей)",
+   "免許": "лицензия; официальное разрешение",
+   "党": "партия (политическая)",
+   "全": "весь (приставка)",
+   "全て": "всё без исключения",
+   "全体": "целое; всё целиком",
+   "全員": "все члены группы; все до одного",
+   "全国": "вся страна; общенациональный",
+   "公平": "справедливый; беспристрастный",
+   "共に": "сообща; вместе с кем-либо; и тот и другой",
+   "共通": "общий (для нескольких); совпадающий",
+   "具体": "конкретность; воплощение (идеи)",
+   "円": "иена; круг (геометрический)",
+   "再び": "вновь; повторно",
+   "冒険": "приключение; рискованное предприятие",
+   "冗談": "шутка",
+   "凍る": "замерзать; покрываться льдом",
+   "処理": "обработка; улаживание дел",
+   "出": "вытекание (воды); выходец (откуда-либо); выпускник",
+   "出会い": "встреча (с человеком или чем-либо)",
+   "刀": "меч; катана"
+  }
+ }
+}

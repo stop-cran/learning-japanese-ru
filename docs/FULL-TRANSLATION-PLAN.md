@@ -1,6 +1,57 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch216 thirty words (general word queue)
+## Current published source milestone: batch217 thirty words (general word queue)
+
+Batch217 adds 30 Russian word articles: 刀 出会い 出 処理 凍る 冗談 冒険 再び 円 具体 共通 共に 公平 全国 全員 全て 全
+全体 党 免許 克服 先日 優勝 優れる 僅か 傷 健康 停留所 借金 候補. They are chunk 9 of 72 of the general
+remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is exactly the 30
+requested words, so every EN quiz_exclusions target resolves to an existing RU word or a batch word.
+
+Navigation-only link wraps restore 29 links at EN link positions in 24 files: 19 existing word pages and the kanji pages
+停, 党, 再, 凍 and 処. The kanji 健, 傷, 僅, 克, 免, 冒, 冗, 刀, 康 and 補 remain plain labels because they have no RU card.
+
+The batch covers:
+- swords (刀), encounters (出会い), origin, graduates and outflow (出), and processing or handling (処理);
+- freezing (凍る), jokes (冗談), adventure (冒険) and "once again" (再び);
+- circles and yen (円), concreteness (具体), being shared in common (共通) and together or both (共に);
+- fairness (公平), the whole country (全国), everyone in a group (全員), everything (全て), the prefix "all" (全) and
+  the whole (全体);
+- political parties (党), licences (免許), overcoming (克服) and "the other day" (先日);
+- winning a championship (優勝), excelling (優れる), slightness (僅か), wounds and scratches (傷) and health (健康);
+- bus and tram stops (停留所), debt (借金) and candidates (候補).
+
+All 27 EN exclusions are retained. Eleven direct guards on 8 new cards cover the reviewed RU title overlaps and sense
+neighbours:
+- required: 全て–皆, 先日–このあいだ and 共に–両方;
+- conservative: 優勝–勝ち, 出会い–会合, 出会い–会, 出会い–迎え, 処理–解決, 処理–治める, 借金–貸し and 共通–同じ.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: one finding: 克服's definition named an ability («способность взять её под контроль») rather than the act;
+- consistency: three quiz-safety findings, missing guards for 共に–両方, 出会い–会合/紹介 and 処理–解決, plus a strokes
+  manifest-hash note withdrawn by evidence (CRLF stroke blobs are hashed after LF normalisation);
+- comprehensibility: one finding: 出会い's title «встреча и знакомство» equated every encounter with an acquaintance.
+
+Two signed fix commits resolved them:
+- 克服 now reads «преодоление трудности, взятие её под контроль»;
+- 出会い's title became «встреча (с человеком или чем-либо)», with four glosses aligned; it excludes 会合, 会 and 迎え,
+  and not 紹介, whose shared «знакомство» the retitle removed;
+- 共に excludes 両方, and 処理 excludes 解決 and 治める;
+- two optional conservative guards were adopted: 借金–貸し and 共通–同じ.
+
+The serial rechecks reported all facets clean. Links follow EN, with three RU-only links to existing cards at a substantive
+comparison: 円–丸, 先日–このあいだ and 借金–借りる.
+
+Qualified progress is **4,629 reviewed-current / 8 reviewed runtime-blocked / 3,641 pending of 8,278**,
+with 3,163 words, 718 kanji and 718 strokes. See the [intake](translation-batches/217-words-batch-56-intake.json),
+[independent review](translation-batches/217-words-batch-56-independent-review-001.md),
+[recheck](translation-batches/217-words-batch-56-recheck-001.md),
+[qualified source record](translation-batches/217-words-batch-56-reviewed-source.json) and
+[final validation](translation-batches/217-words-batch-56-final-validation-001.json).
+
+## Previous published source milestone: batch216 thirty words (general word queue)
 
 Batch216 adds 30 Russian word articles: 勧める 勢い 勝ち 勘 動詞 勇気 効く 助手 劣る 加わる 劇場 劇 割る 前者 刺激
 制度 到着 利益 別れ 別に 列車 列 刑事 刈る 切れる 切れ 分野 分析 分ける 分. They are chunk 8 of 72 of the general
