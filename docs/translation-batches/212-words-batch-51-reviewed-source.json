@@ -1,0 +1,169 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "212-words-batch-51",
+ "publishedBaseline": "8ded5ffbb279703cbbc1a00adc5b310d923d7eb3",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate d5fd0d9 and serialized rechecks of the signed fix commit 2cb512c found every finding resolved or kept as an accepted optional remainder. Correctness reported no findings: all 60 principal Japanese examples and their kana readings match EN, the translations keep polarity, participants and aspect, and the sex-neutral nouns 孫 and 俳優 are not given a gender. Comprehensibility raised two minor findings, both fixed: 完全's title «совершенный; безупречный» kept only the quality sense while the card teaches completeness, so it became «полный (без изъянов); совершенный» (the reviewer's «цельный» means \"of one piece\", not \"with nothing missing\"), and the first example dropped «проблемы», which 解決 does not contain; 学習's title «освоение знаний; учебный процесс» named institutional instruction and possible mastery, so it became «учёба; процесс изучения» (EN \"learning; study\"). Three optional notes were adopted: 好み «предпочтение; личный вкус» instead of the stronger «пристрастие» (EN \"preference; personal taste\"), a clearer learned-person sentence in 学者 and «в глубину ящика» in 奥. Before the candidate the coordinator retitled 完了 «завершение (задачи, процесса)» (EN \"completion\"), matching the card's own definition and the published glosses in kanji 了 and 完, and restored the three links held in Batch 211's 完成 and 専攻. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 32 EN exclusions across 15 lists are retained. Sixteen direct, one-sided exclusions on nine new cards cover reviewed RU title overlaps and sense neighbours. Required (10): 完全–全く and 完全–全然 (shared «совершенн-»; 全然 also has an affirmative \"completely\" use), 完全–一杯 (exact «полный» after the 完全 retitle), 完了–完成 and 完了–仕舞い (shared «завершение»), 宅–お宅, 学者–研究者, 存在–ある, 嫌う–避ける and 不思議–謎. Conservative (6): 完全–太い (its «полный» is qualified «(о телосложении)»), 完了–終わる, 完了–終える, 完了–済む, 妙–奇しい and 好み–好む. 完全–全然 was the consistency reviewer's one finding; 完全–一杯 and 完全–太い were added by the coordinator in the fix, and the recheck classified them. The author had called only 存在–ある required; the consistency reviewer rated seven more of the 13 candidate guards required and found none unjustified, and its classification is recorded. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/212-words-batch-51-intake.json",
+  "docs/translation-batches/212-words-batch-51-independent-review-001.md",
+  "docs/translation-batches/212-words-batch-51-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "宙",
+   "嫌",
+   "嫁",
+   "姿",
+   "委",
+   "奇",
+   "妙",
+   "俳",
+   "奪",
+   "奨",
+   "契"
+  ],
+  "navigationNote": "Restored 31 relative links across the 21 listed Markdown files at the corresponding EN-linked positions, using EN's href forms: in the kanji pages, two in 了 (to 完了), three each in 在 and 存 (to 存在), two each in 奥 (to 奥), 孫 (to 孫) and 宇 (to 宇宙); in the word cards, two each in 好む (one each to 好み and 嫌う) and 完成 (one each to 完了 and 完全), and one each in 全く, 徹底 and 欠陥 (to 完全), 専攻 and 習う (to 学ぶ), 得る (to 失う), 気に入る (to 好み), 演技 and 観客 (to 俳優), 率 (to 失業), 王様 (to 女王), 語学 (to 学問) and 謎 (to 不思議). The three links in 完成 and 専攻 were held in Batch 211 until these cards existed. Mentions that EN leaves unlinked stay plain. No surrounding prose was changed. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/了.md",
+   "kanji/在.md",
+   "kanji/奥.md",
+   "kanji/存.md",
+   "kanji/孫.md",
+   "kanji/宇.md",
+   "words/全く.md",
+   "words/好む.md",
+   "words/完成.md",
+   "words/専攻.md",
+   "words/得る.md",
+   "words/徹底.md",
+   "words/欠陥.md",
+   "words/気に入る.md",
+   "words/演技.md",
+   "words/率.md",
+   "words/王様.md",
+   "words/習う.md",
+   "words/観客.md",
+   "words/語学.md",
+   "words/謎.md"
+  ],
+  "newWords": [
+   "完全",
+   "完了",
+   "宇宙",
+   "宅",
+   "孫",
+   "学者",
+   "学ぶ",
+   "学習",
+   "学期",
+   "学",
+   "学問",
+   "存在",
+   "嫌う",
+   "嫁",
+   "婚約",
+   "姿",
+   "委員",
+   "奇妙",
+   "不思議",
+   "妙",
+   "好み",
+   "女王",
+   "俳優",
+   "女優",
+   "奪う",
+   "奨学金",
+   "奥",
+   "契約",
+   "失業",
+   "失う"
+  ],
+  "selection": "Batch 51 selected 30 word cards from the frozen source: chunk 4 of the 72-batch dependency-closed queue of the general remaining-word pool (recomputed after Batch 207 from 2,157 remaining EN words). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. 学習→学ぶ, 学→学習, 学問→学, 学問→学習, 学問→学ぶ, 不思議→奇妙, 妙→奇妙, 妙→不思議 and 女優→俳優 are the dependency edges inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (4 EN link occurrences, 4 targets): 委員→kanji 委; 委員→会員; 奇妙→kanji 奇; 女王→王女. 11 written kanji have no RU kanji card: 宙, 嫌, 嫁, 姿, 委, 奇, 妙, 俳, 奪, 奨, 契. No RU-only links were added (EN link parity).",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: the consistency reviewer's suggested guard 宇宙–世界, because EN declares none, no title shares an exact segment, the card teaches the contrast in its body and the app deduplicates exact titles only; the reviewer accepted the decline in its recheck. The comprehensibility reviewer's optional «Из неприязни к толпе…» for 嫌う:20 was not adopted, because «Не желая попасть в толпу» renders EN \"to avoid the crowds\" and line 22, as in EN, states the aversion; its «учебный период» for the 学期 examples was not adopted, because lines 15–18 explain the school dependence and the examples show both common renderings. The reviewer did not promote either note in its recheck. The consistency reviewer's limit on 向かう and 汚す, which lack an EN exclusion in RU, is outside the batch: those pairs were deliberately withdrawn as English homography in batches 028 and 073. Its strokes raw-hash limit is also outside the batch: the manifest hashes text after CRLF-to-LF normalization, as recorded in Batch 209. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "不思議": [
+    "謎"
+   ],
+   "好み": [
+    "好む"
+   ],
+   "妙": [
+    "奇しい"
+   ],
+   "嫌う": [
+    "避ける"
+   ],
+   "存在": [
+    "ある"
+   ],
+   "学者": [
+    "研究者"
+   ],
+   "宅": [
+    "お宅"
+   ],
+   "完了": [
+    "完成",
+    "終わる",
+    "終える",
+    "済む",
+    "仕舞い"
+   ],
+   "完全": [
+    "全く",
+    "全然",
+    "一杯",
+    "太い"
+   ]
+  },
+  "titles": {
+   "不思議": "непостижимый; загадочный",
+   "俳優": "актёр; актриса",
+   "失う": "терять; утрачивать",
+   "失業": "безработица; потеря работы",
+   "奇妙": "чудной; диковинный",
+   "契約": "договор; контракт",
+   "奥": "глубина; дальняя от входа часть",
+   "奨学金": "стипендия; учебная ссуда",
+   "奪う": "отбирать; лишать",
+   "女優": "актриса",
+   "女王": "королева",
+   "好み": "предпочтение; личный вкус",
+   "妙": "странноватый; чудной",
+   "委員": "член комитета (комиссии)",
+   "姿": "фигура; наружность",
+   "婚約": "помолвка",
+   "嫁": "невеста; невестка (жена сына)",
+   "嫌う": "питать неприязнь; сторониться",
+   "存在": "существование; наличие",
+   "学": "учёность; эрудиция",
+   "学ぶ": "учиться; изучать",
+   "学問": "научные занятия; научная дисциплина",
+   "学期": "учебная четверть; семестр",
+   "学習": "учёба; процесс изучения",
+   "学者": "учёный",
+   "孫": "внук; внучка",
+   "宅": "жилище; дом (после имени человека)",
+   "宇宙": "вселенная; космос",
+   "完了": "завершение (задачи, процесса)",
+   "完全": "полный (без изъянов); совершенный"
+  }
+ }
+}

@@ -1,6 +1,38 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch211 thirty words (general word queue)
+## Current published source milestone: batch212 thirty words (general word queue)
+
+Batch212 adds 30 Russian word articles: 完全 完了 宇宙 宅 孫 学者 学ぶ 学習 学期 学 学問 存在 嫌う 嫁 婚約 姿 委員 奇妙
+不思議 妙 好み 女王 俳優 女優 奪う 奨学金 奥 契約 失業 失う. They are chunk 4 of 72 of the general remaining-word queue
+(recomputed after Batch207: 2,157 EN words remaining); the dependency closure is exactly the 30 requested words, so every EN
+quiz_exclusions target resolves to an existing RU word or a batch word. Fifteen existing word pages and the kanji pages 了,
+在, 奥, 存, 孫 and 宇 receive 31 navigation-only link wraps at EN link positions, including the three links held in Batch211's
+完成 and 専攻. 宙, 嫌, 嫁, 姿, 委, 奇, 妙, 俳, 奪, 奨 and 契 remain plain labels because those kanji have no RU card.
+
+The batch covers completeness and completion (完全, 完了), the universe (宇宙), homes (宅), grandchildren (孫), learning,
+study and scholarship (学者, 学ぶ, 学習, 学期, 学, 学問, 奨学金), existence (存在), dislike (嫌う), brides and
+daughters-in-law (嫁), engagement (婚約), figure and appearance (姿), committee members (委員), the strange and mysterious
+(奇妙, 不思議, 妙), personal taste (好み), queens (女王), actors and actresses (俳優, 女優), taking away (奪う), the inner
+depths of places (奥), contracts (契約), unemployment (失業) and losing things (失う). All 32 EN exclusions are retained;
+sixteen direct guards on nine new cards cover the reviewed RU title overlaps and sense neighbours: 完全–全く, 完全–全然,
+完全–一杯, 完了–完成, 完了–仕舞い, 宅–お宅, 学者–研究者, 存在–ある, 嫌う–避ける and 不思議–謎 (required), 完全–太い,
+完了–終わる, 完了–終える, 完了–済む, 妙–奇しい and 好み–好む (conservative). Exclusions are one-sided declarations that
+Android applies in both directions; the batch changes exclusions only on its new cards.
+The candidate was committed signed and pushed before review. The blind facet-split review found no correctness finding,
+one consistency finding (a missing 完全–全然 guard) and two comprehensibility findings (完全's title keeping only the
+quality sense; 学習's title naming institutional instruction). One signed fix commit resolved them, retitled 完全 «полный
+(без изъянов); совершенный» and 学習 «учёба; процесс изучения», added the 一杯 and 太い guards for the new «полный» segment
+and adopted three optional notes (好み «предпочтение; личный вкус», 学者, 奥). No RU-only links were added. The serial
+rechecks reported all facets clean.
+
+Qualified progress is **4,479 reviewed-current / 8 reviewed runtime-blocked / 3,791 pending of 8,278**,
+with 3,013 words, 718 kanji and 718 strokes. See the [intake](translation-batches/212-words-batch-51-intake.json),
+[independent review](translation-batches/212-words-batch-51-independent-review-001.md),
+[recheck](translation-batches/212-words-batch-51-recheck-001.md),
+[qualified source record](translation-batches/212-words-batch-51-reviewed-source.json) and
+[final validation](translation-batches/212-words-batch-51-final-validation-001.json).
+
+## Previous published source milestone: batch211 thirty words (general word queue)
 
 Batch211 adds 30 Russian word articles: 少女 小麦 小屋 包み 小包 小 専攻 対象 対 審判 密 寄付 宿 宿泊 家賃 家具 実験 実施
 実行 実現 実は 宝石 宝 宜しく パス 券 定期 信仰 宗教 完成. They are chunk 3 of 72 of the general remaining-word queue
