@@ -8,7 +8,20 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch205 thirty words
+## Current published source milestone: batch206 thirty words
+
+Batch206 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions with nothing added), plus 20 navigation-only link wraps in 16 existing word pages and the kanji page
+師. It was authored and reviewed as a staged tree on the reviewed Batch205 tree while commit signing was unavailable. The
+blind facet-split review found one correctness finding (放す's literal gloss reversed the roles), one scoped-coverage finding
+(日付 dropped EN's デート comparator) and three comprehensibility findings (schema and source-list wording in 方々, and missing
+contrasts in 日常 and 支出). All five were fixed without RU-only links. After Batch205 was published, that exact reviewed tree
+was committed signed. The serial rechecks reported all facets clean.
+Progress: **4,299 reviewed-current / 8 runtime-blocked / 3,971 pending of 8,278**; 2,833 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch206-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch205 thirty words
 
 Batch205 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions with nothing added), plus 26 navigation-only link wraps in 18 existing word pages and the kanji pages
@@ -20,7 +33,7 @@ links; the 替える pointer was kept by the plain-text pointer convention and t
 Batch204 was published, that exact reviewed tree was committed signed. The serial rechecks reported all facets clean.
 Progress: **4,269 reviewed-current / 8 runtime-blocked / 4,001 pending of 8,278**; 2,803 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch205-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch205-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch204 thirty words
 
