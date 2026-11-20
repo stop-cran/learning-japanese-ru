@@ -8,7 +8,20 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch208 thirty words
+## Current published source milestone: batch209 thirty words
+
+Batch209 added 30 Russian word articles, chunk 1 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions with nothing added), plus 27 navigation-only link wraps in sixteen existing word pages and the kanji
+pages 効, 幼, 当 and 得. The coordinator retitled 得意 before the candidate («сильная сторона» instead of the fondness-laden
+«конёк») and guarded the new overlap with 武器. The candidate was committed signed and pushed before review. The blind
+facet-split review found one comprehensibility finding (a superlative added to 得意's example); correctness, scoped coverage,
+consistency and quiz safety were clean. One signed fix commit resolved it and adopted two optional gloss notes (引っ張る,
+年齢). The serial rechecks reported all facets clean.
+Progress: **4,389 reviewed-current / 8 runtime-blocked / 3,881 pending of 8,278**; 2,923 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch209-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch208 thirty words
 
 Batch208 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions with nothing added), plus 18 navigation-only link wraps in ten existing word pages and the kanji pages
@@ -21,7 +34,7 @@ coordinator added the missing 発表 reading in 成績 after finding that its fi
 rechecks reported all facets clean.
 Progress: **4,359 reviewed-current / 8 runtime-blocked / 3,911 pending of 8,278**; 2,893 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch208-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch208-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch207 thirty words
 

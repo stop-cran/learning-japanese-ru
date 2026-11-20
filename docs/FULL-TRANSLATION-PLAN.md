@@ -1,6 +1,38 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch208 thirty words (general word queue)
+## Current published source milestone: batch209 thirty words (general word queue)
+
+Batch209 adds 30 Russian word articles: 心理 徹底 徹夜 微妙 得意 従兄弟 ですから 従って 従う 後者 役割 効果 影響 影 当時
+当てる 当たる 弾 強調 強盗 強力 引退 引用 引っ張る 弁当 座席 床 広告 幼い 年齢. They are chunk 1 of 72 of the general
+remaining-word queue (recomputed after Batch207: 2,157 EN words remaining); the dependency closure is exactly the 30 requested
+words, so every EN quiz_exclusions target resolves to an existing RU word or a batch word. Sixteen existing word pages and the
+kanji pages 効, 幼, 当 and 得 receive 27 navigation-only link wraps at EN link positions; 妙, 床, 底, 弁, 張, 弾, 影, 従, 微,
+徹, 響 and 齢 remain plain labels because those kanji have no RU card.
+
+The batch covers psychology and mentality (心理), thoroughness (徹底), staying up all night (徹夜), subtlety (微妙), strong
+points (得意), cousins (従兄弟), "therefore" and "accordingly" (ですから, 従って), obeying and following (従う), "the latter"
+(後者), roles (役割), effects and influence (効果, 影響), shadows (影), "at that time" (当時), hitting and being hit (当てる,
+当たる), bullets (弾), emphasis (強調), robbery (強盗), power (強力), retirement (引退), quotation (引用), pulling (引っ張る),
+boxed lunches (弁当), seats (座席), floors (床), advertising (広告), being very young (幼い) and age (年齢). All 25 EN exclusions
+are retained; five direct guards on four new cards cover the reviewed RU title overlaps: 得意–武器, 影響–左右 and 床–性
+(required), 効果–有効 and 影響–毒 (conservative). Exclusions are one-sided declarations that Android applies in both
+directions; the batch changes exclusions only on its new cards.
+Before the candidate, the coordinator retitled 得意 from «конёк; …» to «сильная сторона; хорошо удающееся дело», because
+figurative «конёк» implies fondness that the card says 得意 does not assert, and guarded the new shared segment with 武器.
+The candidate was committed signed and pushed before review. The blind facet-split review found one comprehensibility
+problem: 得意's example added a superlative («Лучше всего…») that 得意な科目は数学です does not have. Correctness, scoped
+coverage, consistency and quiz safety were clean. One signed fix commit corrected 得意 and adopted two optional notes
+(引っ張る without a comparative, 年齢 as participation rather than registration); the correctness reviewer acknowledged that
+its initial CLEAN had missed these. No RU-only links were added. The serial rechecks reported all facets clean.
+
+Qualified progress is **4,389 reviewed-current / 8 reviewed runtime-blocked / 3,881 pending of 8,278**,
+with 2,923 words, 718 kanji and 718 strokes. See the [intake](translation-batches/209-words-batch-48-intake.json),
+[independent review](translation-batches/209-words-batch-48-independent-review-001.md),
+[recheck](translation-batches/209-words-batch-48-recheck-001.md),
+[qualified source record](translation-batches/209-words-batch-48-reviewed-source.json) and
+[final validation](translation-batches/209-words-batch-48-final-validation-001.json).
+
+## Previous published source milestone: batch208 thirty words (general word queue)
 
 Batch208 adds 30 Russian word articles: 成績 成功 成人 憲法 慎重 感じる 感覚 感動 印象 感じ 意識 意外 悲劇 悲しむ 悪魔
 悪戯 悪口 息 恐怖 恐ろしい 恐れる 性 急速 急激 思想 思い出 応じる 必死 必ずしも 心臓. They are chunk 0 of 72 of the general
