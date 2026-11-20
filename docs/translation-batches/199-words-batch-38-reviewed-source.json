@@ -1,0 +1,179 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "199-words-batch-38",
+ "publishedBaseline": "c3f3102bba7a2ad57f2f68761bd71ee9b696913d",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the staged candidate tree b99047a and serialized fix rechecks of the revised tree 841bc8c, committed signed as 4ff5f6a, found the original correctness and comprehensibility defects resolved; consistency and quiz safety were clean from the start, and scoped coverage was clean except for the 盛り translation shared with correctness. 盛り translates 桜は盛りを過ぎました as «Пик цветения сакуры уже прошёл»; 真似 qualifies the Russian-added 写す/コピー contrast as a tendency and says their meanings can overlap with 真似; 指導 describes 教育 as a broader concept that can also apply to training particular people; ゴール states only its English origin, without gloss-equivalence wording; 知識 keeps the noun in «пополнить свои знания»; and 直に drops an inline dictionary entry number already cited in the footer. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation, the preserved author/reviewer required-versus-conservative exclusion classification and process notes, including the staged-tree review while commit signing was unavailable, are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 23 EN exclusions across 15 lists are retained. The reviewed RU title overlaps received 21 direct, one-sided exclusions on 14 new cards: 確実–確か/堅い/違いない/きっと; 確かめる–調べる; 情報–案内; 知らせ–知らせる; 真剣–重大/大変; 真似–写す/コピー; 真っ赤–赤い/赤; 県–都; 直接–まっすぐ; ゴール–ため; 目標–ため; 指導–教育/教える; 監督–管理; 登山–登る. None was added or removed after review. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/199-words-batch-38-intake.json",
+  "docs/translation-batches/199-words-batch-38-independent-review-001.md",
+  "docs/translation-batches/199-words-batch-38-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "硬",
+   "貨",
+   "砂",
+   "漠",
+   "炭",
+   "眺",
+   "剣",
+   "県",
+   "接",
+   "標",
+   "的",
+   "監",
+   "督",
+   "盛"
+  ],
+  "navigationNote": "Restored 16 relative links across the 13 listed Markdown files at the corresponding EN-linked positions, using EN's href forms: two links to 指導 in kanji/導; three to 知識 in kanji/識; and one in each of the eleven word cards (まじめ to 真剣; 便り to 知らせ; 意思 and 手段 to 目的; 知恵, 知能 and 能力 to 知識; 確認 to 確かめる; 経由 to 直接; 銅貨 to 硬貨; 風景 to 眺め). Mentions that EN leaves unlinked stay plain (kanji/導 line 20, kanji/識 line 43, 風景 line 21). No surrounding prose was changed. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/導.md",
+   "kanji/識.md",
+   "words/まじめ.md",
+   "words/便り.md",
+   "words/意思.md",
+   "words/手段.md",
+   "words/知恵.md",
+   "words/知能.md",
+   "words/確認.md",
+   "words/経由.md",
+   "words/能力.md",
+   "words/銅貨.md",
+   "words/風景.md"
+  ],
+  "newWords": [
+   "確実",
+   "確かめる",
+   "硬貨",
+   "破産",
+   "砂漠",
+   "石炭",
+   "情報",
+   "知識",
+   "知事",
+   "知らせ",
+   "眺める",
+   "眺め",
+   "真剣",
+   "真似",
+   "真っ赤",
+   "県",
+   "相続",
+   "相手",
+   "直に",
+   "直ちに",
+   "直接",
+   "ゴール",
+   "目標",
+   "目的",
+   "指導",
+   "コーチ",
+   "監督",
+   "盛り",
+   "登山",
+   "発車"
+  ],
+  "selection": "Batch 38 selected 30 word cards from the frozen source: chunk 0 of the 81-batch dependency-closed queue of the general remaining-word pool (30 of 2,427 remaining EN words, recomputed after Batch 198). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. 情報→知識, 直に→直接, 直ちに→直接, ゴール→目標/目的, 目標→目的, 指導→コーチ/監督 and コーチ→監督 are the dependency edges inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped: 硬貨→kanji 硬 and 貨; 砂漠→kanji 砂; 石炭→kanji 炭; 県→kanji 県; 直接→kanji 接; 相手→仲間; ゴール→スタート; 発車→到着. 14 written kanji have no RU kanji card: 硬, 貨, 砂, 漠, 炭, 眺, 剣, 県, 接, 標, 的, 監, 督, 盛. No RU-only links were added (EN link parity).",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: dropping 登山–登る (the weakest conservative guard, harmless; the consistency reviewer accepted retention); adding 指導–管理 (necessity not established); stem-level guards for 直に/自身, 相手/向こう, 真剣/集中 and 情報/通信 (the reviewer judged them unnecessary); 直に «выслушал» for «расспросил» (作家に話を聞く is interview-like here and «лично» carries じかに); 指導 «наставляет» (the meaning section defines the verb, and EN has \"training\"); and a 眺める title without «подолгу» (it renders EN's \"gaze at\"). The optional removal of 直に's inline dictionary entry number was adopted. ゴール keeps its English source word, as the reviewed loanword cards アナウンサー, カーブ and オフィス do. The RU-added comparison sentences are plain text because RU-only links break EN link parity. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "ゴール": [
+    "ため"
+   ],
+   "情報": [
+    "案内"
+   ],
+   "指導": [
+    "教育",
+    "教える"
+   ],
+   "登山": [
+    "登る"
+   ],
+   "監督": [
+    "管理"
+   ],
+   "目標": [
+    "ため"
+   ],
+   "直接": [
+    "まっすぐ"
+   ],
+   "県": [
+    "都"
+   ],
+   "真っ赤": [
+    "赤い",
+    "赤"
+   ],
+   "真似": [
+    "写す",
+    "コピー"
+   ],
+   "真剣": [
+    "重大",
+    "大変"
+   ],
+   "知らせ": [
+    "知らせる"
+   ],
+   "確かめる": [
+    "調べる"
+   ],
+   "確実": [
+    "確か",
+    "堅い",
+    "違いない",
+    "きっと"
+   ]
+  },
+  "titles": {
+   "コーチ": "тренер; тренерская работа",
+   "ゴール": "гол; финиш",
+   "情報": "информация; сведения",
+   "指導": "руководство; наставничество",
+   "発車": "отправление транспорта",
+   "登山": "восхождение на гору",
+   "盛り": "разгар; расцвет",
+   "監督": "надзор; режиссёр; главный тренер",
+   "目標": "намеченная цель; ориентир",
+   "目的": "цель (действия)",
+   "直ちに": "тотчас; безотлагательно",
+   "直に": "непосредственно; лично",
+   "直接": "напрямую; непосредственный",
+   "相手": "партнёр; другая сторона; соперник",
+   "相続": "наследование; преемство",
+   "県": "префектура",
+   "真っ赤": "ярко-красный; совсем красный",
+   "真似": "подражание; поступок",
+   "真剣": "серьёзно настроенный; сосредоточенный",
+   "眺め": "открывающийся вид; панорама",
+   "眺める": "подолгу смотреть; обозревать",
+   "知らせ": "известие; уведомление",
+   "知事": "губернатор префектуры",
+   "知識": "знания",
+   "石炭": "каменный уголь",
+   "砂漠": "пустыня",
+   "破産": "банкротство; несостоятельность",
+   "硬貨": "монета",
+   "確かめる": "удостоверяться; проверять",
+   "確実": "несомненный; надёжный"
+  }
+ }
+}
