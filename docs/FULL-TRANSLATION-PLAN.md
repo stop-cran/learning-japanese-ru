@@ -1,6 +1,39 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch205 thirty words (general word queue)
+## Current published source milestone: batch206 thirty words (general word queue)
+
+Batch206 adds 30 Russian word articles: 日常 日光 日付 既に 旗 旅 方向 方々 新鮮 新た 断る 文明 文字 文 敵 数字 数える 敬意
+教科書 教授 教師 出身 故郷 政府 放す 攻撃 支店 支出 操作 損害. They are chunk 0 of 74 of the general remaining-word queue
+(recomputed after Batch205: 2,217 EN words remaining); the dependency closure is exactly the 30 requested words, so every EN
+quiz_exclusions target resolves to an existing RU word or a batch word. Sixteen existing word pages and the kanji page 師
+receive 20 navigation-only link wraps at EN link positions; 既, 旗, 鮮, 敵, 敬, 授, 身, 故, 郷, 府, 攻, 撃, 操 and 損 remain
+plain labels because those kanji have no RU card.
+
+The batch covers everyday life (日常), sunlight (日光), dates (日付), "already" (既に), flags (旗), journeys (旅), direction
+(方向), respected people and "here and there" (方々), freshness and renewal (新鮮, 新た), refusing (断る), civilization
+(文明), written characters and sentences (文字, 文), enemies (敵), numerals and counting (数字, 数える), respect (敬意),
+textbooks, professors and teachers (教科書, 教授, 教師), origin and hometown (出身, 故郷), government (政府), letting go (放す),
+attack (攻撃), branch offices (支店), expenditure (支出), operating a device (操作) and damage (損害). All 23 EN exclusions are
+retained; 15 direct guards beyond EN cover 日光–光, 日付–月日, 方々–人/方, 新鮮–新しい, 断る–遠慮, 文–案/提案, 数える–計算,
+教授–教える/教師, 出身–生まれ, 故郷–田舎/生まれ and 支出–支給.
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+Because the signing key's passphrase cache had expired, Batch206 was authored and reviewed as a staged tree on top of the
+reviewed Batch205 tree in a scratch worktree; no unsigned commit was made. The blind facet-split review found a literal gloss
+in 放す that reversed the roles of 手を and 風船から, a dropped デート comparator in 日付, schema and source-list wording in 方々,
+and missing contrasts of 日常 with 生活, 暮らし and 普段 and of 支出 with 費用. All five cards were fixed without RU-only links.
+An optional 日光–光 guard and a clearer 故郷 translation were adopted. After Batch205 was published, the exact reviewed tree
+was committed signed on a branch from its merge. The records preserve the author's and reviewer's differing
+required-versus-conservative classification of the RU-added pairs. The serial rechecks reported all facets clean.
+
+Qualified progress is **4,299 reviewed-current / 8 reviewed runtime-blocked / 3,971 pending of 8,278**,
+with 2,833 words, 718 kanji and 718 strokes. See the [intake](translation-batches/206-words-batch-45-intake.json),
+[independent review](translation-batches/206-words-batch-45-independent-review-001.md),
+[recheck](translation-batches/206-words-batch-45-recheck-001.md),
+[qualified source record](translation-batches/206-words-batch-45-reviewed-source.json) and
+[final validation](translation-batches/206-words-batch-45-final-validation-001.json).
+
+## Previous published source milestone: batch205 thirty words (general word queue)
 
 Batch205 adds 30 Russian word articles: 札 本物 本人 未来 木曜 服装 有能 有効 有利 月曜 最高 最終 最低 最中 替える 書類 書斎
 更に 曜日 暮らす 暮らし 暗記 景気 普段 時刻 昨 明後日 元 旧 日曜. They are chunk 0 of 75 of the general remaining-word queue

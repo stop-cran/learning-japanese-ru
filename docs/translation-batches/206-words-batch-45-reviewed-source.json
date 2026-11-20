@@ -1,0 +1,171 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "206-words-batch-45",
+ "publishedBaseline": "2d963b0a37793153a0d63ee54b015361f0061907",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the staged candidate tree 6bfa34b and serialized fix rechecks of the revised tree b8df8df, committed signed as b1e17bf, found the original correctness, scoped-coverage and comprehensibility defects resolved; consistency, quiz safety and scoped cross-file integration were clean throughout. 放す's literal explanation of its second example now keeps the Japanese roles: 手を is the hand being released and 風船から the balloon it is released from. 日付 again names the romantic-date word デート, in plain text until a RU card exists, and states that 日付 means only a calendar date; no Russian ambiguity of «дата» is claimed. 方々 explains its wago label as «исконное слово» belonging to かたがた, and replaces an authoring note about the source word list with the learner rule that the merged title glosses two different words, each reading taking only its own meaning. 日常 adds Digital Daijisen's adverbial example 日常用いる道具 and a qualified contrast with 生活, 暮らし and 普段, mentioned in plain text to keep EN link parity, that presents their overlap as shared meaning rather than a ban on substitution. 支出 now distinguishes 費用, the money an undertaking requires (旅行の費用), from money paid out of a budget, noting that one payment can be described by both words. 故郷's example now reads «…я поеду домой, в родной город», and 日光 declares a conservative direct exclusion with 光, adopted from the consistency reviewer's optional item. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation, the preserved author/reviewer required-versus-conservative exclusion classification and process notes, including the staged-tree review while commit signing was unavailable, are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 23 EN exclusions across 17 lists are retained. The reviewed RU title overlaps received 15 direct, one-sided exclusions on 11 new cards: 日光–光; 日付–月日; 方々–人/方; 新鮮–新しい; 断る–遠慮; 文–案/提案; 数える–計算; 教授–教える/教師; 出身–生まれ; 故郷–田舎/生まれ; 支出–支給. The author added 13. The coordinator added 文–提案 before review, because 提案's «предложение (на рассмотрение)» and 文's «предложение (грамматическое)» share the segment «предложение» once the qualifiers are set aside, the same homonym for which 文–案 was already declared; the author had declined it because both titles are qualified. 日光–光 was adopted after review from the consistency reviewer's optional item as a conservative guard. The author classed 日付–月日, 方々–人, 新鮮–新しい, 数える–計算 and 教授–教える as required and its other eight pairs as conservative. The consistency reviewer called 日付–月日, 方々–人, 断る–遠慮, 文–案, 文–提案 and 故郷–田舎 required, 出身–生まれ and 故郷–生まれ required or conservative, and 方々–方, 新鮮–新しい, 数える–計算, 教授–教える, 教授–教師 and 支出–支給 conservative, 支出–支給 being the weakest; it found none unjustified and no required guard missing. These differences are preserved, not voted. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/206-words-batch-45-intake.json",
+  "docs/translation-batches/206-words-batch-45-independent-review-001.md",
+  "docs/translation-batches/206-words-batch-45-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "既",
+   "旗",
+   "鮮",
+   "敵",
+   "敬",
+   "授",
+   "身",
+   "故",
+   "郷",
+   "府",
+   "攻",
+   "撃",
+   "操",
+   "損"
+  ],
+  "navigationNote": "Restored 20 relative links across the 17 listed Markdown files at the corresponding EN-linked positions, using EN's href forms: three links in the kanji page 師 (to 教師); two in the word card 単語 (to 文 and 文字); and one in each of 15 word cards: 句 (to 文), 太陽 (to 日光), 害 and 被害 (to 損害), 尊敬 (to 敬意), 数 (to 数字), 曜日 (to 日付), 生まれ (to 出身), 生徒 (to 教師), 腐る (to 新鮮), 衝突 (to 攻撃), 計る and 計算 (to 数える), 議会 (to 政府) and 離す (to 放す). Mentions that EN leaves unlinked stay plain. No surrounding prose was changed. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/師.md",
+   "words/単語.md",
+   "words/句.md",
+   "words/太陽.md",
+   "words/害.md",
+   "words/尊敬.md",
+   "words/数.md",
+   "words/曜日.md",
+   "words/生まれ.md",
+   "words/生徒.md",
+   "words/腐る.md",
+   "words/衝突.md",
+   "words/被害.md",
+   "words/計る.md",
+   "words/計算.md",
+   "words/議会.md",
+   "words/離す.md"
+  ],
+  "newWords": [
+   "日常",
+   "日光",
+   "日付",
+   "既に",
+   "旗",
+   "旅",
+   "方向",
+   "方々",
+   "新鮮",
+   "新た",
+   "断る",
+   "文明",
+   "文字",
+   "文",
+   "敵",
+   "数字",
+   "数える",
+   "敬意",
+   "教科書",
+   "教授",
+   "教師",
+   "出身",
+   "故郷",
+   "政府",
+   "放す",
+   "攻撃",
+   "支店",
+   "支出",
+   "操作",
+   "損害"
+  ],
+  "selection": "Batch 45 selected 30 word cards from the frozen source: chunk 0 of the 74-batch dependency-closed queue of the general remaining-word pool (30 of 2,217 remaining EN words, recomputed after Batch 205). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. 新た→新鮮 and 故郷→出身 are the dependency edges inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (10 EN link occurrences, 10 targets): 方々→あちこち; 敵→味方; 敬意→kanji 敬; 教師→the occupation-and-role-endings article; 政府→kanji 府 and 国会; 攻撃→批判; 支出→収入; 損害→kanji 損; 日付→デート. 14 written kanji have no RU kanji card: 既, 旗, 鮮, 敵, 敬, 授, 身, 故, 郷, 府, 攻, 撃, 操, 損. No RU-only links were added (EN link parity).",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: the comprehensibility reviewer's register notes that 既に and 新た often feel more written than もう and 新しい (EN has none, and the inspected Digital Daijisen entries mark no restriction; the reviewer itself did not treat them as defects), and its observation that 文字's example gloss «буквы» is narrower than the card's definition (natural Russian for written characters in that sentence, with kana, kanji and letters defined directly above). 方々's merged EN title was kept as faithful to frozen EN, with the body now explaining it; the consistency reviewer had noted it only as faithful, not as a defect. The optional 故郷 translation change and the 日光–光 guard were adopted. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "出身": [
+    "生まれ"
+   ],
+   "支出": [
+    "支給"
+   ],
+   "故郷": [
+    "田舎",
+    "生まれ"
+   ],
+   "教授": [
+    "教える",
+    "教師"
+   ],
+   "数える": [
+    "計算"
+   ],
+   "文": [
+    "案",
+    "提案"
+   ],
+   "断る": [
+    "遠慮"
+   ],
+   "新鮮": [
+    "新しい"
+   ],
+   "方々": [
+    "人",
+    "方"
+   ],
+   "日付": [
+    "月日"
+   ],
+   "日光": [
+    "光"
+   ]
+  },
+  "titles": {
+   "出身": "происхождение (место, школа, среда)",
+   "損害": "убыток; урон",
+   "操作": "обращение с устройством; манипулирование",
+   "支出": "расход денег; денежные затраты",
+   "支店": "филиал; отделение (банка, фирмы)",
+   "攻撃": "нападение; атака",
+   "放す": "отпускать; выпускать на волю",
+   "政府": "правительство",
+   "故郷": "родной город; малая родина",
+   "教師": "преподаватель; педагог",
+   "教授": "профессор; преподавание",
+   "教科書": "учебник",
+   "敬意": "уважительное отношение; знак уважения",
+   "数える": "считать (предметы); пересчитывать",
+   "数字": "цифра; числовые показатели",
+   "敵": "враг; противник",
+   "文": "предложение (грамматическое)",
+   "文字": "знак письма; письменность",
+   "文明": "цивилизация",
+   "断る": "отклонять; заранее предупреждать",
+   "新た": "новый (о перемене или добавлении)",
+   "新鮮": "свежий",
+   "方々": "люди (уважительно); повсюду",
+   "方向": "направление; курс",
+   "旅": "путешествие (как опыт)",
+   "旗": "флаг",
+   "既に": "уже (о свершившемся)",
+   "日付": "дата",
+   "日光": "солнечный свет",
+   "日常": "повседневность; обыденность"
+  }
+ }
+}
