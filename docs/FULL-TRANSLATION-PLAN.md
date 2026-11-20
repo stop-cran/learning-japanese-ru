@@ -1,6 +1,40 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch204 thirty words (general word queue)
+## Current published source milestone: batch205 thirty words (general word queue)
+
+Batch205 adds 30 Russian word articles: 札 本物 本人 未来 木曜 服装 有能 有効 有利 月曜 最高 最終 最低 最中 替える 書類 書斎
+更に 曜日 暮らす 暮らし 暗記 景気 普段 時刻 昨 明後日 元 旧 日曜. They are chunk 0 of 75 of the general remaining-word queue
+(recomputed after Batch204: 2,247 EN words remaining); the dependency closure is exactly the 30 requested words, so every EN
+quiz_exclusions target resolves to an existing RU word or a batch word. Eighteen existing word pages and the kanji pages 低, 効,
+暮 and 未 receive 26 navigation-only link wraps at EN link positions; 札, 装, 替, 普, 旧 and 斎 remain plain labels because those
+kanji have no RU card.
+
+The batch covers banknotes (札), the genuine article and the person concerned (本物, 本人), the future (未来), weekdays (月曜,
+木曜, 日曜, 曜日), dress (服装), capability, validity and advantage (有能, 有効, 有利), the superlatives 最高, 最終 and 最低 and
+the midst of an activity (最中), replacing (替える), documents and a home study (書類, 書斎), "further; moreover" (更に), living
+and livelihood (暮らす, 暮らし), memorization (暗記), business conditions (景気), the everyday (普段), clock time (時刻), the
+time prefix 昨, the day after tomorrow (明後日), and the former or original (元, 旧). All 18 EN exclusions are retained; 15
+direct guards beyond EN cover 木曜–木曜日, 月曜–月曜日, 日曜–日曜日, 明後日–あさって, 最中–盛り, 暮らす–生きる/生活, 元–種,
+本物–本当, 本人–自身/自分, 更に–それに, 暗記–覚える, 書類–紙 and 服装–格好.
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+Because the signing key's passphrase cache had expired, Batch205 was authored and reviewed as a staged tree on top of the
+reviewed Batch204 tree in a scratch worktree; no unsigned commit was made. The blind facet-split review found that 札's closing
+source note dropped EN's qualification about the source list's compiler and read as leftover list language, missing 暮らす–生活
+and 暗記–覚える guards, and a dead pointer in 替える to the untranslated かえる article. 札, 暮らす and 暗記 were fixed; the
+pointer was kept by the plain-text pointer convention and the reviewer withdrew the finding. Optional 書類–紙 and 服装–格好
+guards and clearer translations on 有効 and 旧 were adopted. After Batch204 was published, the exact reviewed tree was committed
+signed on a branch from its merge. The records preserve the author's and reviewer's differing required-versus-conservative
+classification of the RU-added pairs. The serial rechecks reported all facets clean.
+
+Qualified progress is **4,269 reviewed-current / 8 reviewed runtime-blocked / 4,001 pending of 8,278**,
+with 2,803 words, 718 kanji and 718 strokes. See the [intake](translation-batches/205-words-batch-44-intake.json),
+[independent review](translation-batches/205-words-batch-44-independent-review-001.md),
+[recheck](translation-batches/205-words-batch-44-recheck-001.md),
+[qualified source record](translation-batches/205-words-batch-44-reviewed-source.json) and
+[final validation](translation-batches/205-words-batch-44-final-validation-001.json).
+
+## Previous published source milestone: batch204 thirty words (general word queue)
 
 Batch204 adds 30 Russian word articles: 正式 昼食 お昼 正午 プラス 正 歓迎 歌手 事情 次第 欠席 欠ける エンジン 機関 機嫌
 横断 横切る 権利 様々 様 構成 検討 梅雨 桜 株 栄養 板 松 来 束. They are chunk 0 of 76 of the general remaining-word queue
