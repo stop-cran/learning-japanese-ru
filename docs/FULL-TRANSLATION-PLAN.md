@@ -1,6 +1,41 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch197 thirty words (general word queue)
+## Current published source milestone: batch198 thirty words (general word queue)
+
+Batch198 adds 30 Russian word articles: 笛 章 立ち上がる 空き 穴 積極的 積む 積もる 穀物 稼ぐ 根 種 税金 税 移動 動かす 移す
+秒 科目 禁煙 禁止 祭 神経 神 祝う 祝い 礼儀 感謝 礼 確認. They are chunk 0 of 82 of the general remaining-word queue (recomputed
+after Batch197: 2,457 EN words remaining); the dependency closure is exactly the 30 requested words, so every EN
+quiz_exclusions target resolves to an existing RU word or a batch word. Eleven existing word pages and the kanji pages 明 and
+積 receive 15 navigation-only link wraps at EN link positions; 笛, 章, 穴, 極, 的, 穀, 稼, 根, 税, 移, 秒, 禁, 祭, 祝, 儀 and
+謝 remain plain labels because those kanji have no RU card.
+
+The batch covers flutes and whistles (笛), chapters and badges (章), standing up (立ち上がる), free space or time (空き), holes
+(穴), being proactive (積極的), stacking, loading and settling in layers (積む, 積もる), grain (穀物), earning (稼ぐ), roots and
+seeds (根, 種), taxes (税金, 税), moving and transferring (移動, 動かす, 移す), seconds (秒), school subjects (科目), bans
+(禁煙, 禁止), festivals (祭), nerves (神経), gods (神), celebrating and celebration gifts (祝う, 祝い), etiquette (礼儀) and
+gratitude, thanks and bows (感謝, 礼), and confirmation (確認). All 16 EN exclusions are retained; 28 direct guards beyond EN
+cover 立ち上がる–上がる, 空き–席, 積む–折る, 穀物–米, 稼ぐ–働く, 根–原因, 種–話題, 移動–移す/移る/動かす/動く, 禁煙–禁止,
+祭–お祭り/お祝い/祝い, 祝う–お祝い/祝い, 祝い–お祝い/プレゼント/贈り物/お土産/お祭り/記念, 感謝–恩, 礼–恩 and
+確認–チェック/テスト/調べる. Exclusions are one-sided declarations that Android applies in both directions; the batch changes
+exclusions only on its new cards.
+Because the signing key's passphrase cache had expired, Batch198 was authored and reviewed as a staged tree on top of the
+reviewed Batch197 tree in a scratch worktree; no unsigned commit was made. The blind facet-split review found correctness and
+scoped coverage clean, one quiz-safety gap (移動 lacked a 動かす guard) and five comprehensibility defects: 穀物 rendered 米や麦
+as three crops and its scope note was unclear, 積む's «одна на другую» did not fit three boxes, 積極的 kept a warning that
+depended on English "positive", 神経 rejected «писание бога» without saying that 経 also means «сутра», and 祭 kept an
+author-facing dictionary remark. All were fixed. A conservative 移動–動く guard was added, and optional wording for 穀物, 空き
+and 積もる was adopted. After Batch197 was published, the exact reviewed tree was committed signed on a branch from its merge.
+The records preserve the author's and reviewer's differing required-versus-conservative classification of the RU-added pairs.
+The serial rechecks reported all facets clean.
+
+Qualified progress is **4,059 reviewed-current / 8 reviewed runtime-blocked / 4,211 pending of 8,278**,
+with 2,593 words, 718 kanji and 718 strokes. See the [intake](translation-batches/198-words-batch-37-intake.json),
+[independent review](translation-batches/198-words-batch-37-independent-review-001.md),
+[recheck](translation-batches/198-words-batch-37-recheck-001.md),
+[qualified source record](translation-batches/198-words-batch-37-reviewed-source.json) and
+[final validation](translation-batches/198-words-batch-37-final-validation-001.json).
+
+## Previous published source milestone: batch197 thirty words (general word queue)
 
 Batch197 adds 30 Russian word articles: 結論 結果 直 今に やがて いずれ 結局 経由 営業 経営 経つ 組合 組む 態度 位置 地位 立場
 位 段 級 納得 精々 粉 籠 範囲 節約 節 管 答案 筆. They are chunk 0 of 83 of the general remaining-word queue (recomputed after
