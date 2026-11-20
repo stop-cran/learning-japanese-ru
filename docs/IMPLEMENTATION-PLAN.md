@@ -8,7 +8,27 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch218 thirty words
+## Current published source milestone: batch219 thirty words
+
+Batch219 added 30 Russian word articles. They are chunk 11 of the recomputed general remaining-word queue,
+dependency-closed under quiz_exclusions with nothing added. The batch also added 23 navigation-only link wraps in 15
+existing word pages and the kanji pages 互, 仏 and 務.
+
+The candidate was signed and pushed before review. The blind facet-split review found:
+- three correctness findings (主義's «изменить» with the dative, 今にも's categorical claim about 今に and 人込み's
+  colloquial «толчея»);
+- no consistency finding (its optional 世間–人 guard was adopted);
+- three comprehensibility findings (代表's «представительство», 人込み's uncontrasted «толчея» and 世間's narrower
+  «общественность»).
+
+One signed fix commit resolved them and adopted two optional wording items. The serial rechecks reported all facets
+clean.
+
+Progress: **4,689 reviewed-current / 8 runtime-blocked / 3,581 pending of 8,278**; 3,223 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch219-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch218 thirty words
 
 Batch218 added 30 Russian word articles. They are chunk 10 of the recomputed general remaining-word queue,
 dependency-closed under quiz_exclusions with nothing added. The batch also added 31 navigation-only link wraps in 23
@@ -24,7 +44,7 @@ third removed an English gloss from 以来's note. The serial rechecks reported 
 
 Progress: **4,659 reviewed-current / 8 runtime-blocked / 3,611 pending of 8,278**; 3,193 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch218-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch218-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch217 thirty words
 
