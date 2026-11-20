@@ -8,7 +8,22 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch207 thirty words
+## Current published source milestone: batch208 thirty words
+
+Batch208 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions with nothing added), plus 18 navigation-only link wraps in ten existing word pages and the kanji pages
+劇, 印, 恐 and 息. The candidate was committed signed and pushed before review. The blind facet-split review found one
+correctness finding (必死's example asserted only an attempt), one scoped-coverage finding (息 omitted EN's "tone" sentence,
+later withdrawn because EN added it to reject an English source-list gloss) and three comprehensibility findings (思想's
+«Новое время», an English-dependent aside in 急激, a damage claim in 悪戯); consistency and quiz safety were clean. Three
+signed fix commits followed: the first recheck caught a 必死 wording that reused the excluded 一生懸命 title, and the
+coordinator added the missing 発表 reading in 成績 after finding that its first disposition had a false basis. The serial
+rechecks reported all facets clean.
+Progress: **4,359 reviewed-current / 8 runtime-blocked / 3,911 pending of 8,278**; 2,893 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch208-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch207 thirty words
 
 Batch207 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions with nothing added), plus 16 navigation-only link wraps in seven existing word pages and the kanji pages
@@ -19,7 +34,7 @@ findings (指す's title, an English-dependent aside in 手品, a dictionary-mar
 commit without RU-only links. The serial rechecks reported all facets clean.
 Progress: **4,329 reviewed-current / 8 runtime-blocked / 3,941 pending of 8,278**; 2,863 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch207-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch207-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch206 thirty words
 

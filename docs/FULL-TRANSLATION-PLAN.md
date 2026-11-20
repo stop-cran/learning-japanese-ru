@@ -1,6 +1,41 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch207 thirty words (general word queue)
+## Current published source milestone: batch208 thirty words (general word queue)
+
+Batch208 adds 30 Russian word articles: 成績 成功 成人 憲法 慎重 感じる 感覚 感動 印象 感じ 意識 意外 悲劇 悲しむ 悪魔
+悪戯 悪口 息 恐怖 恐ろしい 恐れる 性 急速 急激 思想 思い出 応じる 必死 必ずしも 心臓. They are chunk 0 of 72 of the general
+remaining-word queue (recomputed after Batch207: 2,157 EN words remaining); the dependency closure is exactly the 30 requested
+words, so every EN quiz_exclusions target resolves to an existing RU word or a batch word. Ten existing word pages and the
+kanji pages 劇, 印, 恐 and 息 receive 18 navigation-only link wraps at EN link positions; 績, 功, 憲, 慎, 象, 魔, 戯, 激, 応 and
+臓 remain plain labels because those kanji have no RU card.
+
+The batch covers performance and success (成績, 成功), adulthood (成人), the constitution (憲法), caution (慎重), feeling, sensation,
+being moved and impressions (感じる, 感覚, 感動, 印象, 感じ), consciousness (意識), the unexpected (意外), tragedy and grief (悲劇,
+悲しむ), devils, mischief and badmouthing (悪魔, 悪戯, 悪口), breath (息), fear (恐怖, 恐ろしい, 恐れる), sex and the suffix
+-ness (性), rapid and sharp change (急速, 急激), thought and ideology (思想), memories (思い出), responding and agreeing (応じる),
+desperation (必死), "not necessarily" (必ずしも) and the heart as an organ (心臓). All 19 EN exclusions are retained; 20 direct guards on
+15 new cards cover the reviewed RU title overlaps, including 感じる–感じ, 急速–急激/急に, 悪魔–鬼, 応じる–返事/承知 and
+心臓–心/胸. Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on
+its new cards.
+The candidate was committed signed and pushed before review. The blind facet-split review found that 必死's example asserted
+only an attempt where Japanese reports actual restraint, that 息 omitted EN's "tone" boundary sentence, and three
+comprehensibility problems: 思想 equated 近代 with «Новое время» against the published 近代 card, 急激 kept an English-dependent
+aside about political views, and 悪戯 asserted damage where Japanese means tampering. Consistency and quiz safety were clean.
+Three signed fix commits followed serial rechecks: the first recheck found that the new 必死 wording reused the title of the
+excluded 一生懸命 and that the restored 息 sentence answered an English source-list gloss the RU card never presents, so
+必死 now reads «отчаянно сдерживала» and 息 returned to the candidate text, with the correctness finding withdrawn on that
+evidence. The coordinator then corrected a false basis for declining an optional note and added EN 評価's kana reading to
+成績's RU-only 評価 example. No RU-only links were added. The records preserve the author's and reviewer's differing
+required-versus-conservative classification of the RU-added pairs. The serial rechecks reported all facets clean.
+
+Qualified progress is **4,359 reviewed-current / 8 reviewed runtime-blocked / 3,911 pending of 8,278**,
+with 2,893 words, 718 kanji and 718 strokes. See the [intake](translation-batches/208-words-batch-47-intake.json),
+[independent review](translation-batches/208-words-batch-47-independent-review-001.md),
+[recheck](translation-batches/208-words-batch-47-recheck-001.md),
+[qualified source record](translation-batches/208-words-batch-47-reviewed-source.json) and
+[final validation](translation-batches/208-words-batch-47-final-validation-001.json).
+
+## Previous published source milestone: batch207 thirty words (general word queue)
 
 Batch207 adds 30 Russian word articles: 不利 損 握手 握る 交換 両替 換える 提出 描く 掴む 掲示 推薦 捕まる 振る 指す
 持ち上げる 抱く 抱える 抜ける 抜く 投票 批評 批判 扱う 手術 手品 戻す 或 我慢 我々. They are chunk 0 of 73 of the general

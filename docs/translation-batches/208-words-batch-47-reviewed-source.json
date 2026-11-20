@@ -1,0 +1,177 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "208-words-batch-47",
+ "publishedBaseline": "7e34591050f565e11de978da42fe85c99bfa6262",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 8963d85 and serialized rechecks of the signed fix commits e5739f4, 45196f4 and c283b5f found the correctness and comprehensibility defects resolved; cross-file consistency and quiz safety were clean throughout. 必死's second example now asserts actual restraint («Она отчаянно сдерживала смех.»), avoiding both the attempt-only «пыталась» and «изо всех сил», the title of the excluded 一生懸命. 思想 renders 近代の思想 as «мысль эпохи модернизации», matching the published 近代 card. 急激 drops an English-dependent aside about political views, 悪戯 glosses 機械にいたずらする as tampering («копаться в механизме») rather than damage, and 成績's RU-only 評価 contrast now carries the kana reading given by EN 評価. 息 received EN's \"tone\" boundary sentence in fix 1 and returned to the candidate text in fix 2: EN added that sentence while rejecting an English source-list gloss that the RU card never presents, and the correctness reviewer withdrew its finding on that evidence. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation, the preserved author/reviewer required-versus-conservative exclusion classification and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 19 EN exclusions across 11 lists are retained. The author added 20 direct, one-sided exclusions on 15 new cards for reviewed RU title overlaps: 成績–評価; 慎重–注意/用心; 感じる–感じ; 感じ–感じる; 感覚–気持ち; 感動–感心; 意識–気付く; 悪魔–鬼; 恐れる–びくびく; 急速–急激/急に; 急激–急に/急速; 思い出–記憶; 応じる–返事/承知; 必ずしも–必ず; 心臓–心/胸. No exclusion changed after review. The author and the blind consistency reviewer agree that 恐れる–びくびく, 急激–急に, 思い出–記憶 and 心臓–心/胸 are required and that 成績–評価, 慎重–注意/用心, 感覚–気持ち, 感動–感心 and 意識–気付く are conservative. They differ on 感じる–感じ and 急速–急激 (author required; reviewer conservative and redundant, being declared on both sides), 必ずしも–必ず (author required; reviewer conservative), 悪魔–鬼 and 応じる–返事/承知 (author conservative; reviewer required) and 急速–急に (author conservative; reviewer weak but harmless). These differences are preserved, not voted. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/208-words-batch-47-intake.json",
+  "docs/translation-batches/208-words-batch-47-independent-review-001.md",
+  "docs/translation-batches/208-words-batch-47-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "績",
+   "功",
+   "憲",
+   "慎",
+   "象",
+   "魔",
+   "戯",
+   "激",
+   "応",
+   "臓"
+  ],
+  "navigationNote": "Restored 18 relative links across the 14 listed Markdown files at the corresponding EN-linked positions, using EN's href forms: one link in each of the kanji pages 劇 (to 悲劇) and 印 (to 印象), three in each of 恐 (to 恐れる) and 息 (to 息), and one in each of ten word cards: そそっかしい and 安易 (to 慎重), 合格 (to 成功), 怖い (to 恐れる), 感心 (to 感動), 祝う (to 悲しむ), 結果 (to 成績), 記念 (to 思い出), 青年 (to 成人) and 鬼 (to 悪魔). Mentions that EN leaves unlinked stay plain. No surrounding prose was changed. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/劇.md",
+   "kanji/印.md",
+   "kanji/恐.md",
+   "kanji/息.md",
+   "words/そそっかしい.md",
+   "words/合格.md",
+   "words/安易.md",
+   "words/怖い.md",
+   "words/感心.md",
+   "words/祝う.md",
+   "words/結果.md",
+   "words/記念.md",
+   "words/青年.md",
+   "words/鬼.md"
+  ],
+  "newWords": [
+   "成績",
+   "成功",
+   "成人",
+   "憲法",
+   "慎重",
+   "感じる",
+   "感覚",
+   "感動",
+   "印象",
+   "感じ",
+   "意識",
+   "意外",
+   "悲劇",
+   "悲しむ",
+   "悪魔",
+   "悪戯",
+   "悪口",
+   "息",
+   "恐怖",
+   "恐ろしい",
+   "恐れる",
+   "性",
+   "急速",
+   "急激",
+   "思想",
+   "思い出",
+   "応じる",
+   "必死",
+   "必ずしも",
+   "心臓"
+  ],
+  "selection": "Batch 47 selected 30 word cards from the frozen source: chunk 0 of the 72-batch dependency-closed queue of the general remaining-word pool (30 of 2,157 remaining EN words, recomputed after Batch 207). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. 感覚→感じる, 感じ→印象/感覚 and 恐れる→恐怖 are the dependency edges inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (11 EN link occurrences, 11 targets): 成績→kanji 績; 印象→kanji 象; 心臓→kanji 臓; 感じる→感ずる; 感覚→間隔; 悲劇→劇; 悪戯→冗談; 性→性別 and 性質; 応じる→従う and 応ずる. 10 written kanji have no RU kanji card: 績, 功, 憲, 慎, 象, 魔, 戯, 激, 応, 臓. No RU-only links were added (EN link parity).",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: the consistency reviewer's K1 (replace the mixed-script «óни» in 鬼 and 悪魔), because the device comes from the published, reviewed B185 鬼 card with its own explanatory line, and its suggested guards 意外→突然/びっくり and 応じる↔答える, because EN declares neither, the 意外/びっくり stem overlap is inherited across parts of speech and 返事 already guards 答える; its weak 急速–急に guard (K2) and the redundant symmetric pairs were kept as harmless. The correctness reviewer's suggestions to cite the verified Russian dictionaries on the cards (card footers cite JMdict, as in EN, and the Russian sources are recorded in the review) and to rephrase 必死:41 (outside its facet; the comprehensibility reviewer raised no issue) were not adopted. The comprehensibility reviewer's optional «óни» note was not adopted for the same reason as K1; its optional 発表 reading note was adopted in fix 3. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "心臓": [
+    "心",
+    "胸"
+   ],
+   "必ずしも": [
+    "必ず"
+   ],
+   "応じる": [
+    "返事",
+    "承知"
+   ],
+   "思い出": [
+    "記憶"
+   ],
+   "急激": [
+    "急に",
+    "急速"
+   ],
+   "急速": [
+    "急激",
+    "急に"
+   ],
+   "恐れる": [
+    "びくびく"
+   ],
+   "悪魔": [
+    "鬼"
+   ],
+   "意識": [
+    "気付く"
+   ],
+   "感じ": [
+    "感じる"
+   ],
+   "感じる": [
+    "感じ"
+   ],
+   "感動": [
+    "感心"
+   ],
+   "感覚": [
+    "気持ち"
+   ],
+   "慎重": [
+    "注意",
+    "用心"
+   ],
+   "成績": [
+    "評価"
+   ]
+  },
+  "titles": {
+   "印象": "впечатление",
+   "心臓": "сердце (орган)",
+   "必ずしも": "не обязательно; не всегда",
+   "必死": "отчаянный; неистовый",
+   "応じる": "откликаться; соглашаться (на просьбу)",
+   "思い出": "воспоминание о пережитом",
+   "思想": "мысль; идеология",
+   "急激": "резкий (о переменах)",
+   "急速": "стремительный",
+   "性": "пол; -ость (суффикс)",
+   "恐れる": "бояться; опасаться",
+   "恐ろしい": "ужасающий; жуткий",
+   "恐怖": "страх; ужас",
+   "息": "дыхание",
+   "悪口": "злословие; обидные слова",
+   "悪戯": "шалость; проделка",
+   "悪魔": "дьявол; бес",
+   "悲しむ": "горевать; скорбеть",
+   "悲劇": "трагедия",
+   "意外": "неожиданный; удивительный",
+   "意識": "сознание; осознанность",
+   "感じ": "ощущение; впечатление",
+   "感じる": "ощущать; чувствовать",
+   "感動": "растроганность; глубокое волнение",
+   "感覚": "чувствительность; восприятие",
+   "慎重": "осмотрительный; благоразумный",
+   "憲法": "конституция",
+   "成人": "совершеннолетний; совершеннолетие",
+   "成功": "успех",
+   "成績": "успеваемость; показатели"
+  }
+ }
+}
