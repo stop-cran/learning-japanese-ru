@@ -1,6 +1,39 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch200 thirty words (general word queue)
+## Current published source milestone: batch201 thirty words (general word queue)
+
+Batch201 adds 30 Russian word articles: 現状 現場 王様 王子 王 率 独身 独立 犯罪 犯人 物質 物語 物理 物価 物事
+父親 爆発 燃える 熱帯 熱中 煙 無視 無料 無事 いえ 寧ろ 否 ノー 無し 無. They are chunk 0 of 79 of the general
+remaining-word queue (recomputed after Batch200: 2,367 EN words remaining); the dependency closure is exactly the 30
+requested words, so every EN quiz_exclusions target resolves to an existing RU word or a batch word. Ten existing word pages
+and the kanji pages 帯, 煙, 犯 and 王 receive 21 navigation-only link wraps at EN link positions; 価, 寧, 無, 燃, 爆, 独, 率,
+視 and 身 remain plain labels because those kanji have no RU card.
+
+The batch covers the current state and work sites (現状, 現場), kings and princes (王様, 王子, 王), rates (率), single life
+and independence (独身, 独立), crime and criminals (犯罪, 犯人), matter, stories, physics, prices and things (物質, 物語,
+物理, 物価, 物事), fathers (父親), explosions, burning and smoke (爆発, 燃える, 煙), the tropics and absorption (熱帯, 熱中),
+ignoring, free of charge and safe arrival (無視, 無料, 無事), and negation and absence (いえ, 寧ろ, 否, ノー, 無し, 無). All 19
+EN exclusions are retained; 16 direct guards beyond EN cover 現状–様子, 物質–布, 物語–歴史/語る, 物事–こと/物,
+燃える–焼ける, 熱中–ねっしん, 無事–大丈夫/幸福, 否–嫌, 無し–いいえ/いえ/否 and 無–無し/ノー.
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+Because the signing key's passphrase cache had expired, Batch201 was authored and reviewed as a staged tree on top of the
+reviewed Batch200 tree in a scratch worktree; no unsigned commit was made. The blind facet-split review found an overstated
+Russian-only contrast in 無し (なし "only" about absence, contradicting its own evaluative use), omitted EN source-provenance
+qualifications in ノー and 無, two missing quiz guards (現状–様子 and 無–ノー), a nonstandard «ичидан» spelling in 燃える and a
+mistranslated «действенный» in 犯罪. All were fixed; the optional 独身 and 現場 wording improvements were adopted, and the
+無し–いいえ/いえ/否 guards were kept as conservative. After Batch200 was published, the exact reviewed tree was committed
+signed on a branch from its merge. The records preserve the author's and reviewer's differing required-versus-conservative
+classification of the RU-added pairs. The serial rechecks reported all facets clean.
+
+Qualified progress is **4,149 reviewed-current / 8 reviewed runtime-blocked / 4,121 pending of 8,278**,
+with 2,683 words, 718 kanji and 718 strokes. See the [intake](translation-batches/201-words-batch-40-intake.json),
+[independent review](translation-batches/201-words-batch-40-independent-review-001.md),
+[recheck](translation-batches/201-words-batch-40-recheck-001.md),
+[qualified source record](translation-batches/201-words-batch-40-reviewed-source.json) and
+[final validation](translation-batches/201-words-batch-40-final-validation-001.json).
+
+## Previous published source milestone: batch200 thirty words (general word queue)
 
 Batch200 adds 30 Russian word articles: 発表 発明 疑う 疑問 異常 留学 画家 男子 申し訳 予防 用心 使用 用いる 布 生地
 命 生 生命 生じる 瓶 環境 理想 玉 球 現金 現象 状況 光景 場面 事態. They are chunk 0 of 80 of the general remaining-word
