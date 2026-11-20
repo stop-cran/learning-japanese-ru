@@ -1,0 +1,174 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "200-words-batch-39",
+ "publishedBaseline": "8dd8bc7d7593204957771fe82ac05391a2057a11",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the staged candidate tree 117374d and serialized fix rechecks of the revised tree 00107e1, committed signed as 2eaed77, found the original quiz-safety and comprehensibility defects resolved; correctness and scoped coverage were clean from the start, and consistency and scoped cross-file integration were clean throughout. 状況 now excludes 都合, whose title overlaps it through «обстоятельства»; 玉 keeps the conservative 硬貨 guard but no longer excludes 銅貨, which was reachable only by chaining; 生じる states the causal roles in subject-first order («Во втором выражение порождает недоразумение»); 生地 replaces an author note with a learner explanation that 生地 read せいち or しょうち is a separate word meaning «место рождения», with a footer citation; 命 says that いのち is sometimes written 生命 but 生命 is not always read いのち, assigns «приказ, повеление» to the reading めい and marks «судьба, рок» as an archaic sense of いのち; and 生 and 現金 drop editorial sentences about the community source and English \"mercenary\". Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation, the preserved author/reviewer required-versus-conservative exclusion classification and process notes, including the staged-tree review while commit signing was unavailable, are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 32 EN exclusions across 16 lists are retained. The reviewed RU title overlaps received 17 direct, one-sided exclusions on 12 new cards: 画家–作家; 男子–男の人/おじいさん/おじさん; 申し訳–謝る; 予防–防ぐ; 使用–用; 用いる–利用; 瓶–缶; 玉–硬貨; 現金–お金/金/金銭; 状況–都合; 光景–景色/眺め; 事態–状況. After review, 状況–都合 was added and 玉–銅貨 removed. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/200-words-batch-39-intake.json",
+  "docs/translation-batches/200-words-batch-39-independent-review-001.md",
+  "docs/translation-batches/200-words-batch-39-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "境",
+   "布",
+   "態",
+   "況",
+   "玉",
+   "環",
+   "瓶",
+   "異",
+   "訳",
+   "象",
+   "防"
+  ],
+  "navigationNote": "Restored 27 relative links across the 19 listed Markdown files at the corresponding EN-linked positions, using EN's href forms: three links in each of the kanji pages 命 (to 命), 留 (to 留学), 疑 (to 疑う) and 表 (to 発表); and one in each of 15 word cards (ナイロン to 生地; 作家 to 画家; 出版 to 発表; 女子 to 男子; 状態 to 状況; 現実 to 理想; 疑わしい to 疑う; 発見 and 製造 to 発明; 缶 to 瓶; 適用 to 使用; 金, 金融 and 金銭 to 現金; 非常 to 異常). Mentions that EN leaves unlinked stay plain. No surrounding prose was changed. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/命.md",
+   "kanji/留.md",
+   "kanji/疑.md",
+   "kanji/表.md",
+   "words/ナイロン.md",
+   "words/作家.md",
+   "words/出版.md",
+   "words/女子.md",
+   "words/状態.md",
+   "words/現実.md",
+   "words/疑わしい.md",
+   "words/発見.md",
+   "words/缶.md",
+   "words/製造.md",
+   "words/適用.md",
+   "words/金.md",
+   "words/金融.md",
+   "words/金銭.md",
+   "words/非常.md"
+  ],
+  "newWords": [
+   "発表",
+   "発明",
+   "疑う",
+   "疑問",
+   "異常",
+   "留学",
+   "画家",
+   "男子",
+   "申し訳",
+   "予防",
+   "用心",
+   "使用",
+   "用いる",
+   "布",
+   "生地",
+   "命",
+   "生",
+   "生命",
+   "生じる",
+   "瓶",
+   "環境",
+   "理想",
+   "玉",
+   "球",
+   "現金",
+   "現象",
+   "状況",
+   "光景",
+   "場面",
+   "事態"
+  ],
+  "selection": "Batch 39 selected 30 word cards from the frozen source: chunk 0 of the 80-batch dependency-closed queue of the general remaining-word pool (30 of 2,397 remaining EN words, recomputed after Batch 199). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. 疑問→疑う, 用心→予防, 用いる→使用, 生地→布, 生→命, 生命→命/生, 球→玉, 場面→状況/光景 and 事態→場面 are the dependency edges inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (19 EN link occurrences, 18 targets): 発表→報告; 疑う→信じる; 申し訳→kanji 訳, ごめんなさい, すみません; 予防→kanji 防; 使用→就職; 布→kanji 布; 生命→人生; 瓶→kanji 瓶; 環境→kanji 境, 地球; 玉→kanji 玉, ボール; 球→ボール; 現金→カード; 現象→kanji 象; 状況→kanji 況, 事情. 11 written kanji have no RU kanji card: 境, 布, 態, 況, 玉, 環, 瓶, 異, 訳, 象, 防. No RU-only links were added (EN link parity).",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: 発表 «оглашение» in place of «объявление» (a word title and a kanji-card gloss need not coincide; the examples on the word card define the sense); a minimal pair for the near-paraphrases 状況 and 事態 (their bodies separate them, and 事態–状況 is guarded); 現金 «взялся помогать» for non-past 手伝う (急に手伝うなんて comments on an action the listener has just started, and the Russian perfective past is the natural rendering); 発表 «Лексика:» for «Словарь:» (the consistency reviewer withdrew it on precedent); and guards for 生–じとじと/じめじめ and 用いる/使用–適用 (the reviewer judged them unnecessary). Correctness optional O1 (命 «иногда записывают как 生命») and O2 (生じる role order) were adopted; comprehensibility C2 (生地) was partially adopted, rewriting the author note as a learner explanation rather than deleting it. Doubled blank lines in 画家 and 申し訳 were removed. The RU-added comparison sentences are plain text because RU-only links break EN link parity. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "予防": [
+    "防ぐ"
+   ],
+   "事態": [
+    "状況"
+   ],
+   "使用": [
+    "用"
+   ],
+   "光景": [
+    "景色",
+    "眺め"
+   ],
+   "状況": [
+    "都合"
+   ],
+   "玉": [
+    "硬貨"
+   ],
+   "現金": [
+    "お金",
+    "金",
+    "金銭"
+   ],
+   "瓶": [
+    "缶"
+   ],
+   "用いる": [
+    "利用"
+   ],
+   "申し訳": [
+    "謝る"
+   ],
+   "男子": [
+    "男の人",
+    "おじいさん",
+    "おじさん"
+   ],
+   "画家": [
+    "作家"
+   ]
+  },
+  "titles": {
+   "予防": "профилактика; предотвращение",
+   "事態": "сложившееся положение дел",
+   "使用": "использование; употребление",
+   "光景": "зрелище; увиденная сцена",
+   "命": "жизнь; срок жизни",
+   "場面": "эпизод; конкретная ситуация",
+   "布": "ткань; материя",
+   "状況": "положение вещей; совокупность обстоятельств",
+   "玉": "шар; драгоценный камень; суффикс монет",
+   "現象": "явление; феномен",
+   "現金": "наличные; корыстный",
+   "球": "сфера; мяч",
+   "理想": "идеал",
+   "環境": "окружающая среда; окружение",
+   "瓶": "бутылка; банка",
+   "生": "жизнь (как понятие); сырой (о пище)",
+   "生じる": "возникать; порождать",
+   "生命": "жизнь (живых существ)",
+   "生地": "ткань для шитья; тесто",
+   "用いる": "использовать; употреблять",
+   "用心": "предосторожность; бдительность",
+   "申し訳": "извинение; оправдание",
+   "男子": "мальчики; мужчины",
+   "画家": "художник; живописец",
+   "留学": "учёба за границей",
+   "異常": "отклонение от нормы; аномальный",
+   "疑う": "сомневаться; подозревать",
+   "疑問": "сомнение; невыясненный вопрос",
+   "発明": "изобретение",
+   "発表": "оглашение; презентация"
+  }
+ }
+}
