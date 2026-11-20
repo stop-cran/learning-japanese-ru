@@ -8,7 +8,20 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch196 thirty words
+## Current published source milestone: batch197 thirty words
+
+Batch197 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions with nothing added), plus 16 navigation-only link wraps in 7 existing word pages, the kanji pages
+位, 営 and 囲 and the numbers-and-counters article. The blind facet-split review found consistency, quiz safety and
+correctness clean, one scoped-coverage gap (結果's ケッカ reading note) and two minor comprehensibility defects (missing
+kana readings for 手間を省く and 組合の会員). All were fixed without RU-only links; optional items added a conservative
+節約–貯金 guard and smoother 結果, 籠 and 経由 wording. The serial rechecks read the staged revised tree while commit
+signing was unavailable; that exact tree was then committed signed. The rechecks reported all facets clean.
+Progress: **4,029 reviewed-current / 8 runtime-blocked / 4,241 pending of 8,278**; 2,563 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch197-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch196 thirty words
 
 Batch196 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions with nothing added), plus 33 navigation-only link wraps in 15 existing word pages and the kanji pages
@@ -18,7 +31,7 @@ gloss), one quiz-safety gap closed by guards (老人–おじいさん/おばあ
 bare «ханэцуки»). All were fixed without RU-only links, and the serial rechecks reported all facets clean.
 Progress: **3,999 reviewed-current / 8 runtime-blocked / 4,271 pending of 8,278**; 2,533 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch196-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch196-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch195 thirty words
 

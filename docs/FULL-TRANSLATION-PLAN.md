@@ -1,6 +1,38 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch196 thirty words (general word queue)
+## Current published source milestone: batch197 thirty words (general word queue)
+
+Batch197 adds 30 Russian word articles: 結論 結果 直 今に やがて いずれ 結局 経由 営業 経営 経つ 組合 組む 態度 位置 地位 立場
+位 段 級 納得 精々 粉 籠 範囲 節約 節 管 答案 筆. They are chunk 0 of 83 of the general remaining-word queue (recomputed after
+Batch196: 2,487 EN words remaining); the dependency closure is exactly the 30 requested words, so every EN quiz_exclusions
+target resolves to an existing RU word or a batch word. Seven existing word pages, the kanji pages 位, 営 and 囲 and the
+numbers-and-counters article receive 16 navigation-only link wraps at EN link positions; 態, 案, 筆, 管, 節, 範, 籠, 粉, 納, 級
+and 結 remain plain labels because those kanji have no RU card.
+
+The batch covers conclusions, results and outcomes (結論, 結果, 結局), "soon" and "eventually" (直, 今に, やがて, いずれ), going
+via a place (経由), business operation and management (営業, 経営), time passing (経つ), unions and teaming up (組合, 組む),
+attitude (態度), position, status, standpoint and rank (位置, 地位, 立場, 位), steps and grades (段, 級), being convinced
+(納得), "at most" (精々), powder (粉), baskets and cages (籠), range (範囲), saving (節約), joints, tunes and notable points
+(節), pipes (管), exam answers (答案) and writing brushes (筆). All 33 EN exclusions are retained; 24 direct guards beyond EN
+cover 結論–判断, 今に–もうすぐ/いずれ, いずれ–どの/どっち, 結局–末, 経由–通過, 営業–売る, 態度–行儀, 位置–所/場, 立場–見解,
+位–くらい, 級–水準, 納得–承知, 精々–以下, 範囲–額, 節約–省く/貯金, 節–曲/点/特徴, 答案–答 and 筆–手. Exclusions are one-sided
+declarations that Android applies in both directions; the batch changes exclusions only on its new cards.
+The blind facet-split review found consistency and quiz safety clean, correctness clean, one scoped-coverage gap (結果 wrote
+EN's ケッカ reading note as けっか) and two minor comprehensibility defects: 手間を省く in 節約 and the bold pattern 組合の会員
+lacked kana readings. All were fixed. Optional items adopted the 結果 and 籠 example translations, a broader 途中 explanation
+in 経由 and a conservative 節約–貯金 guard. The candidate was committed signed and pushed before review. Because the signing
+key's passphrase cache had expired, the serial rechecks read the staged revised tree, which was then committed signed
+unchanged. The records preserve the author's and reviewer's differing required-versus-conservative classification of the
+RU-added pairs. The serial rechecks reported all facets clean.
+
+Qualified progress is **4,029 reviewed-current / 8 reviewed runtime-blocked / 4,241 pending of 8,278**,
+with 2,563 words, 718 kanji and 718 strokes. See the [intake](translation-batches/197-words-batch-36-intake.json),
+[independent review](translation-batches/197-words-batch-36-independent-review-001.md),
+[recheck](translation-batches/197-words-batch-36-recheck-001.md),
+[qualified source record](translation-batches/197-words-batch-36-reviewed-source.json) and
+[final validation](translation-batches/197-words-batch-36-final-validation-001.json).
+
+## Previous published source milestone: batch196 thirty words (general word queue)
 
 Batch196 adds 30 Russian word articles: 能力 能 胃 育つ 肩 皮 肌 職業 職 考慮 考え 老人 老い 翼 羽 美人 罹る 罰する 罪 缶
 繰り返す 結ぶ 繋ぐ 綿 保存 維持 絶滅 絶対 絵画 給料. They are chunk 0 of 84 of the general remaining-word queue (recomputed
