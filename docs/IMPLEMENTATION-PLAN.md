@@ -8,7 +8,19 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch209 thirty words
+## Current published source milestone: batch210 thirty words
+
+Batch210 added 30 Russian word articles, chunk 2 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions with nothing added), plus 35 navigation-only link wraps in fifteen existing word pages and the kanji
+pages 和, 均, 居, 州, 帯, 平 and 等. The candidate was committed signed and pushed before review. The blind facet-split review
+found four correctness findings (差別, 居眠り, 帯, 岩), one quiz-safety finding (屋根 versus 屋上) and five comprehensibility
+findings (居る, 帯, 居眠り, 年寄り, 就職). One signed fix commit resolved them; 就職's source-list note was kept as in EN and
+became optional. The serial rechecks reported all facets clean.
+Progress: **4,419 reviewed-current / 8 runtime-blocked / 3,851 pending of 8,278**; 2,953 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch210-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch209 thirty words
 
 Batch209 added 30 Russian word articles, chunk 1 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions with nothing added), plus 27 navigation-only link wraps in sixteen existing word pages and the kanji
@@ -19,7 +31,7 @@ consistency and quiz safety were clean. One signed fix commit resolved it and ad
 年齢). The serial rechecks reported all facets clean.
 Progress: **4,389 reviewed-current / 8 runtime-blocked / 3,881 pending of 8,278**; 2,923 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch209-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch209-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch208 thirty words
 
