@@ -1,0 +1,154 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "203-words-batch-42",
+ "publishedBaseline": "bbf0b2c9259d8fd4f9baa0f83df85314ebd7332f",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the staged candidate tree d6e95d4 and serialized fix rechecks of the revised tree 20d0232, committed signed as 1f5e73c, found the original correctness, scoped-coverage, quiz-safety and comprehensibility defects resolved; consistency and scoped cross-file integration were clean throughout. 毛布 no longer says that a blanket is never put on with a clothing verb such as 着る; it teaches the covering verbs with their particles, 毛布をかける and 毛布をかぶる, as used in the card's situations. 波 restores EN's Japanese contrast without the English pun: the gesture of waving a hand is 手を振る（てをふる）, not the word 波. 正確 now declares a direct quiz exclusion with 正しい, whose title «правильный; верный» overlaps «точный; безошибочный». 気味 now opens with the learner rule — the noun きみ names the sensation (気味が悪い), while the suffix 〜気味 is read ぎみ and expresses a tendency or slight degree (疲れ気味) — and keeps EN's source note in plain words: the N3 list gives the reading きみ with a suffix-like gloss, so the card teaches the noun and shows the suffix only for comparison. 死亡 replaces the jargon «китайское сложение» with «само 死亡». Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation, the preserved author/reviewer required-versus-conservative exclusion classification, the reviewers' differing assessment of the dropped hand-wave contrast and process notes, including the staged-tree review while commit signing was unavailable, are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 17 EN exclusions across 11 lists are retained. The reviewed RU title overlaps received 9 direct, one-sided exclusions on 6 new cards: かわいそう–残念/貧しい; 哀れ–残念; 好む–好き; 気に入る–好き/大好き; 比較–比べる; 正確–ちょうど/正しい. 正確–正しい was added after review (consistency F1); the author had considered and declined it. The author and the consistency reviewer agree that 気に入る–好き is required and grade 好む–好き, 比較–比べる, 気に入る–大好き and 哀れ–残念 differently; the reviewer also called 哀れ–残念 and かわいそう–貧しい conservative, leaning unjustified but harmless, and requested no removal. These differences are preserved, not voted. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/203-words-batch-42-intake.json",
+  "docs/translation-batches/203-words-batch-42-independent-review-001.md",
+  "docs/translation-batches/203-words-batch-42-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "哀",
+   "布",
+   "志",
+   "染",
+   "毒",
+   "比",
+   "毛",
+   "氏",
+   "氷",
+   "汗",
+   "汚",
+   "沖",
+   "泉",
+   "泡",
+   "波",
+   "泥",
+   "較"
+  ],
+  "navigationNote": "Restored 17 relative links across the 13 listed Markdown files at the corresponding EN-linked positions, using EN's href forms: three links in each of the kanji pages 亡 (to 死亡) and 殺 (to 殺す), and one in each of 11 word cards: およそ (to 正確), 保存 (to 残す), 天候 (to 気候), 意思 (to 意志), 汚す (to 汚染), 決定 (to 決心), 涙 (to 汗), 父親 (to 母親), 自殺 (to 死亡), 覚悟 (to 決心) and 霜 (to 氷). Mentions that EN leaves unlinked stay plain. No surrounding prose was changed. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/亡.md",
+   "kanji/殺.md",
+   "words/およそ.md",
+   "words/保存.md",
+   "words/天候.md",
+   "words/意思.md",
+   "words/汚す.md",
+   "words/決定.md",
+   "words/涙.md",
+   "words/父親.md",
+   "words/自殺.md",
+   "words/覚悟.md",
+   "words/霜.md"
+  ],
+  "newWords": [
+   "注目",
+   "注",
+   "泥",
+   "波",
+   "泡",
+   "泉",
+   "沖",
+   "意志",
+   "決心",
+   "汚染",
+   "汗",
+   "氷",
+   "気味",
+   "気候",
+   "かわいそう",
+   "哀れ",
+   "気の毒",
+   "好む",
+   "気に入る",
+   "氏",
+   "毛布",
+   "比較",
+   "毒",
+   "母親",
+   "殺す",
+   "残す",
+   "死亡",
+   "歩道",
+   "正確",
+   "正直"
+  ],
+  "selection": "Batch 42 selected 30 word cards from the frozen source: chunk 0 of the 77-batch dependency-closed queue of the general remaining-word pool (30 of 2,307 remaining EN words, recomputed after Batch 202). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. 決心→意志, 哀れ→かわいそう, 気の毒→かわいそう/哀れ and 気に入る→好む are the dependency edges inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (19 EN link occurrences, 17 targets): 泥, 波, 汚染, 汗, 氏, 比較 and 毒→their kanji (泥, 波, 汚, 汗, 氏, 比, 毒); 泉→kanji 泉 and 温泉; 氷→kanji 氷 and 凍る; 気の毒→お気の毒に and kanji 毒; 毛布→kanji 毛 and 布; 泡→ビール; 好む→好み and 嫌う; 気に入る→好み. 17 written kanji have no RU kanji card: 哀, 布, 志, 染, 毒, 比, 毛, 氏, 氷, 汗, 汚, 沖, 泉, 泡, 波, 泥, 較. No RU-only links were added (EN link parity).",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: a 残す–残る guard (the RU titles «оставлять; приберегать» and «оставаться» introduce no title or segment overlap, EN leaves the pair unguarded, and the 汚す–汚れる and 開ける–開く precedents are inherited from EN); retranslating かわいそう's «это будет несправедливо по отношению к нему» (it renders EN's \"It is unfair to him\", and the card's next note qualifies it as contextual pity rather than a dictionary sense); and dropping «очень» from 気に入る's «Мне очень нравится этот магазин» (it renders EN's \"I really like this shop\"). The consistency reviewer judged 泥–土, 沖–海 and 正直–まじめ not to need guards, and none was added. The 死亡 comprehensibility optional item was adopted. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "かわいそう": [
+    "残念",
+    "貧しい"
+   ],
+   "哀れ": [
+    "残念"
+   ],
+   "好む": [
+    "好き"
+   ],
+   "正確": [
+    "ちょうど",
+    "正しい"
+   ],
+   "比較": [
+    "比べる"
+   ],
+   "気に入る": [
+    "好き",
+    "大好き"
+   ]
+  },
+  "titles": {
+   "かわいそう": "вызывающий жалость; несчастный",
+   "哀れ": "жалость; жалкий",
+   "好む": "предпочитать; находить по вкусу",
+   "意志": "воля (к действию)",
+   "正直": "честный; откровенно говоря",
+   "正確": "точный; безошибочный",
+   "歩道": "тротуар; пешеходная дорожка",
+   "死亡": "смерть; гибель",
+   "残す": "оставлять; приберегать",
+   "殺す": "убивать",
+   "母親": "мать (как родитель)",
+   "毒": "яд; вредное влияние",
+   "比較": "сравнение",
+   "毛布": "одеяло; плед",
+   "氏": "уважительный суффикс к имени",
+   "気に入る": "понравиться; прийтись по душе",
+   "気の毒": "достойный сочувствия; прискорбный",
+   "気候": "климат",
+   "気味": "ощущение от чего-либо",
+   "氷": "лёд",
+   "汗": "пот",
+   "汚染": "загрязнение; заражение",
+   "決心": "твёрдое решение (сделать что-то)",
+   "沖": "открытое море (вдали от берега)",
+   "泉": "родник; источник воды",
+   "泡": "пузыри; пена",
+   "波": "волна; подъёмы и спады",
+   "泥": "грязь (мокрая земля)",
+   "注": "примечание; сноска",
+   "注目": "пристальное внимание"
+  }
+ }
+}

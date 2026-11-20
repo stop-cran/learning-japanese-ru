@@ -8,7 +8,20 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch202 thirty words
+## Current published source milestone: batch203 thirty words
+
+Batch203 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions with nothing added), plus 17 navigation-only link wraps in 11 existing word pages and the kanji pages
+亡 and 殺. It was authored and reviewed as a staged tree on the reviewed Batch202 tree while commit signing was
+unavailable. The blind facet-split review found one correctness finding (an overbroad ban on 着る in 毛布), one scoped-coverage
+finding (the dropped 手を振る contrast in 波), one quiz-safety finding (a missing 正確–正しい guard) and one comprehensibility
+finding (an author-style source note in 気味). All were fixed without RU-only links; only the 正確 guard changed exclusions.
+After Batch202 was published, that exact reviewed tree was committed signed. The serial rechecks reported all facets clean.
+Progress: **4,209 reviewed-current / 8 runtime-blocked / 4,061 pending of 8,278**; 2,743 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch203-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch202 thirty words
 
 Batch202 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions with nothing added), plus 18 navigation-only link wraps in 11 existing word pages and the kanji pages
@@ -20,7 +33,7 @@ spontaneous cause in 温度 and an omitted EN source note in 濠), one consisten
 After Batch201 was published, that exact reviewed tree was committed signed. The serial rechecks reported all facets clean.
 Progress: **4,179 reviewed-current / 8 runtime-blocked / 4,091 pending of 8,278**; 2,713 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch202-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch202-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch201 thirty words
 
