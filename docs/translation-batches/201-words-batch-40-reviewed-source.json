@@ -1,0 +1,162 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "201-words-batch-40",
+ "publishedBaseline": "3b1635c4b63daa621c52177491c09ce535302479",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the staged candidate tree 6e8f388 and serialized fix rechecks of the revised tree 7d283bd, committed signed as 41cc79e, found the original correctness, scoped-coverage, quiz-safety and comprehensibility defects resolved; consistency and scoped cross-file integration were clean throughout. 無し no longer claims that なし speaks only of absence, which contradicted its own evaluative それはなしです; it now names いいえ and いえ for negative answers, bounds the absence sense to Nなしで and Nなしの and points to the separate evaluative use. ノー and 無 restore translated versions of EN's source-provenance qualifications (no English gloss in the source row for ノー; a mismatched \"nothing\" gloss paired with ぶ for 無, with separate ぶ and む source rows). 現状 now excludes 様子 «положение дел; облик», as its sibling situation cards already do, and 無 excludes ノー, with which it shares the prefix title «без». 燃える uses the glossary term «итидан»; 犯罪 replaces «действенный» (effective) with «состав напоминает о действии»; 独身 renders gender-neutral 友人 as «с другом, не состоящим в браке»; and 現場 replaces the calque «передний край» with «любое место, где непосредственно идёт практическая работа». Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation, the preserved author/reviewer required-versus-conservative exclusion classification and process notes, including the staged-tree review while commit signing was unavailable, are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 19 EN exclusions across 13 lists are retained. The reviewed RU title overlaps received 16 direct, one-sided exclusions on 10 new cards: 現状–様子; 物質–布; 物語–歴史/語る; 物事–こと/物; 燃える–焼ける; 熱中–ねっしん; 無事–大丈夫/幸福; 否–嫌; 無し–いいえ/いえ/否; 無–無し/ノー. After review, 現状–様子 and 無–ノー were added; the 無し–いいえ/いえ/否 guards were kept as conservative because Russian «нет» is also the ordinary predicate of absence. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/201-words-batch-40-intake.json",
+  "docs/translation-batches/201-words-batch-40-independent-review-001.md",
+  "docs/translation-batches/201-words-batch-40-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "価",
+   "寧",
+   "無",
+   "燃",
+   "爆",
+   "独",
+   "率",
+   "視",
+   "身"
+  ],
+  "navigationNote": "Restored 21 relative links across the 14 listed Markdown files at the corresponding EN-linked positions, using EN's href forms: three links in each of the kanji pages 煙 (to 煙), 犯 (to 犯人) and 王 (to 王), two in the kanji page 帯 (to 熱帯), and one in each of 10 word cards (値段 to 物価; 尊重 and 重視 to 無視; 支配 to 独立; 料金 to 無料; 梨 to 無し; 生物 to 物理; 禁煙 to 煙; 罪 and 裁判 to 犯罪). Mentions that EN leaves unlinked stay plain. No surrounding prose was changed. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/帯.md",
+   "kanji/煙.md",
+   "kanji/犯.md",
+   "kanji/王.md",
+   "words/値段.md",
+   "words/尊重.md",
+   "words/支配.md",
+   "words/料金.md",
+   "words/梨.md",
+   "words/生物.md",
+   "words/禁煙.md",
+   "words/罪.md",
+   "words/裁判.md",
+   "words/重視.md"
+  ],
+  "newWords": [
+   "現状",
+   "現場",
+   "王様",
+   "王子",
+   "王",
+   "率",
+   "独身",
+   "独立",
+   "犯罪",
+   "犯人",
+   "物質",
+   "物語",
+   "物理",
+   "物価",
+   "物事",
+   "父親",
+   "爆発",
+   "燃える",
+   "熱帯",
+   "熱中",
+   "煙",
+   "無視",
+   "無料",
+   "無事",
+   "いえ",
+   "寧ろ",
+   "否",
+   "ノー",
+   "無し",
+   "無"
+  ],
+  "selection": "Batch 40 selected 30 word cards from the frozen source: chunk 0 of the 79-batch dependency-closed queue of the general remaining-word pool (30 of 2,367 remaining EN words, recomputed after Batch 200). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. 王→王様, 否→いえ/寧ろ, ノー→いえ/否 and 無し→ノー are the dependency edges inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (11 EN link occurrences, 11 targets): 王様→女王; 率→失業; 独身→夫婦; 物理→化学; 父親→母親; 爆発→kanji 爆; 燃える→kanji 燃; 熱帯→温帯; 熱中→夢中; 無料→ただ; 無し→不足. 9 written kanji have no RU kanji card: 価, 寧, 無, 燃, 爆, 独, 率, 視, 身. No RU-only links were added (EN link parity).",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: dropping 無し–いいえ/いえ/否 (consistency F3; kept as conservative distractor-pool loss because Russian «нет» also states absence, as the 無し body explains); an extra いやな example on 否 (the reviewer judged the passage understandable, and it would be a Russian-only Japanese example outside EN); a less technical title for 率 than «коэффициент» (the title deliberately avoids 割合 «доля; соотношение», and the body defines it); and changes to ノー «английского no» and 現場 «дзюбакоёми», which match existing cards. A guard for 父親–親 was judged unnecessary by the reviewer, because 父親's title is explicit about «отец». The optional 独身 and 現場 wording improvements were adopted. The RU-added comparison sentences are plain text because RU-only links break EN link parity. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "否": [
+    "嫌"
+   ],
+   "無": [
+    "無し",
+    "ノー"
+   ],
+   "無し": [
+    "いいえ",
+    "いえ",
+    "否"
+   ],
+   "無事": [
+    "大丈夫",
+    "幸福"
+   ],
+   "熱中": [
+    "ねっしん"
+   ],
+   "燃える": [
+    "焼ける"
+   ],
+   "物事": [
+    "こと",
+    "物"
+   ],
+   "物語": [
+    "歴史",
+    "語る"
+   ],
+   "物質": [
+    "布"
+   ],
+   "現状": [
+    "様子"
+   ]
+  },
+  "titles": {
+   "いえ": "нет; не за что",
+   "ノー": "нет; без (в составе слов)",
+   "否": "нет; вернее",
+   "寧ろ": "скорее; напротив",
+   "無": "не-, без- (приставка); небытие",
+   "無し": "без; отсутствие",
+   "無事": "благополучный; без происшествий",
+   "無料": "бесплатный; бесплатно",
+   "無視": "игнорирование; пренебрежение",
+   "煙": "дым",
+   "熱中": "увлечённость; поглощённость",
+   "熱帯": "тропики",
+   "燃える": "гореть; пылать",
+   "爆発": "взрыв; вспышка (чувств)",
+   "父親": "отец (как родитель)",
+   "物事": "дела и вещи (вообще)",
+   "物価": "уровень цен",
+   "物理": "физика",
+   "物語": "повествование",
+   "物質": "вещество; физическая материя",
+   "犯人": "преступник; виновник",
+   "犯罪": "уголовное преступление; преступность",
+   "独立": "независимость; самостоятельность",
+   "独身": "не состоящий в браке",
+   "率": "коэффициент; относительный показатель",
+   "王": "король; монарх",
+   "王子": "принц",
+   "王様": "король (уважительно)",
+   "現場": "место происшествия; рабочая площадка",
+   "現状": "нынешнее положение; статус-кво"
+  }
+ }
+}
