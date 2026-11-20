@@ -1,0 +1,162 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "215-words-batch-54",
+ "publishedBaseline": "30b2be5bc1652e58df14b46b8f330064ab1c6e92",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 2ae93fb and serialized rechecks of the signed fix commit 3f9f8ea found every finding resolved and left no optional item open. Correctness raised one minor scoped-coverage finding, fixed: 化粧's note on how the kanji combine dropped EN's statement that け + しょう are on readings, so it now reads «Онные чтения здесь — け + しょう» (Digital Daijisen 化 lists ケ among its on readings and gives 化粧 under ケ). Its initial correctness verdict was UNVERIFIED only because no exact Russian dictionary headword was located for «зачётная единица», 単位's academic-credit sense (limit L1). The coordinator supplied normative evidence: Order No. 245 of the Russian Ministry of Science and Higher Education of 6 April 2021, paragraphs 15–16, which measure programme workload in зачётные единицы and define the unit in hours. The correctness recheck closed L1 substantively and kept a source-type limit: no dictionary headword was found, and the card claims no numerical equivalence with Japanese credits. Consistency reported no findings: titles, exclusions, links, manifest hashes and intake agreed, and it classified the RU-introduced guards without finding any unjustified. Its optional 単に–だけ/ばかり guards were adopted; its optional 協力–援助/世話 and 化学–科学 guards were declined, and it withdrew them in its recheck. Comprehensibility raised two minor findings, both fixed: 博士 kept the English abbreviation «(PhD)», now removed because «обладателя докторской степени» already states the sense; and 単に's title and gloss «исключительно», which in bare Russian commonly means \"exceptionally\" (名人 in this batch says «исключительно умело»), so the title and heading now read «просто (не более того); всего лишь» and the meaning line «просто, всего лишь, только» (JMdict 単に: simply; merely; only; solely; Kuznetsov «всего лишь»). Its optional reading parentheses in 共同 were adopted. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 9 EN exclusions across 8 lists are retained. Seven direct, one-sided exclusions on six new cards cover reviewed RU title overlaps and sense neighbours. Required (4): 原–野 (open field or plain), 博物館–美術館 (Russian «музей» covers art museums), 及ぼす–影響 (influence) and 単なる–単に (near-identical restrictive meaning; after the fix they share the exact segment «всего лишь»). Conservative (3): 叱る–注意 (注意's reprimand sense) and 単に–だけ and 単に–ばかり (bare «только» and «одно лишь» glosses). These are the consistency reviewer's classes; the author had called 博物館–美術館, 及ぼす–影響 and 単なる–単に conservative. The two 単に guards were added in the fix, adopting the consistency reviewer's optional suggestion, and its recheck confirmed them and found no other title sharing «всего лишь». Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/215-words-batch-54-intake.json",
+  "docs/translation-batches/215-words-batch-54-independent-review-001.md",
+  "docs/translation-batches/215-words-batch-54-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "僚",
+   "博",
+   "及",
+   "可",
+   "叱",
+   "士",
+   "療",
+   "穫",
+   "粧"
+  ],
+  "navigationNote": "Restored 45 relative links across the 31 listed Markdown files at the corresponding EN-linked positions, using EN's href forms: in the kanji pages, three each in 共 (to 共同), 刷 (to 印刷), 加 and 参 (to 参加) and 収 (to 収入), two each in 協 (to 協力), 占 (to 占める), 印 (to 印刷) and 双 (to 双子), and one in 刊 (to 印刷); in the word cards, one each in ほめる, 罰する and 責める (to 叱る), 出版, 刊行 and 梓 (to 印刷), 友人 (to 同僚), 引用 (to 参考), 技師 and 獣医 (to 医師; in 獣医 the standalone 医師, not the one inside 獣医師), 抜ける (to 取れる), 支出, 支払, 稼ぐ and 給料 (to 収入), 次々 (to 同時), 物理 and 酸素 (to 化学), 組む and 貢献 (to 協力) and 選手 (to 参加). Mentions that EN leaves unlinked stay plain. No surrounding prose was changed. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/共.md",
+   "kanji/刊.md",
+   "kanji/刷.md",
+   "kanji/加.md",
+   "kanji/協.md",
+   "kanji/占.md",
+   "kanji/印.md",
+   "kanji/参.md",
+   "kanji/双.md",
+   "kanji/収.md",
+   "words/ほめる.md",
+   "words/出版.md",
+   "words/刊行.md",
+   "words/友人.md",
+   "words/引用.md",
+   "words/技師.md",
+   "words/抜ける.md",
+   "words/支出.md",
+   "words/支払.md",
+   "words/梓.md",
+   "words/次々.md",
+   "words/物理.md",
+   "words/獣医.md",
+   "words/稼ぐ.md",
+   "words/組む.md",
+   "words/給料.md",
+   "words/罰する.md",
+   "words/貢献.md",
+   "words/責める.md",
+   "words/選手.md",
+   "words/酸素.md"
+  ],
+  "newWords": [
+   "名人",
+   "同時",
+   "同僚",
+   "合わせる",
+   "叱る",
+   "可能",
+   "可",
+   "取れる",
+   "取り上げる",
+   "収穫",
+   "収入",
+   "双子",
+   "友情",
+   "及ぼす",
+   "参考",
+   "参加",
+   "原",
+   "印刷",
+   "占める",
+   "博物館",
+   "博士",
+   "単位",
+   "単に",
+   "単なる",
+   "共同",
+   "協力",
+   "医療",
+   "医師",
+   "化粧",
+   "化学"
+  ],
+  "selection": "Batch 54 selected 30 word cards from the frozen source: chunk 7 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,947 remained after Batch 214). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. 博士→名人 and 協力→共同 are the exclusion dependency edges inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (12 EN link occurrences, 10 targets): 博士→kanji 士; 医療→kanji 療; 同時→一度に; 同僚 and 友情→仲間; 合わせる→分ける; 可→不可; 収穫→作物; 参加→加わる; 単に and 単なる→ただ; 単に→たった. 9 written kanji have no RU kanji card: 僚, 博, 及, 可, 叱, 士, 療, 穫, 粧 (EN has cards only for 士 and 療). Links follow EN; this batch adds no RU-only link, and the pre-existing RU extra link 参→参る in kanji/参.md is unchanged.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: the consistency reviewer's guards 協力–援助/世話 and 化学–科学, because 協力 shares no title segment or stem with «помощь» and its title avoids «содействие», and «химия» and «наука» are not mutually defensible answers while the 化学 card already contrasts the homophones; the reviewer withdrew both in its recheck. The comprehensibility reviewer's optional notes on 名人's «знатока», which echoes 博士's title «знаток» (label hygiene only: 博士 already excludes 名人, and 名人's examples say «мастер»), and on «JMdict помечает» in 博士 (the named, linked dictionary is more precise, and the phrasing occurs in published cards). Its remaining notes (原 «ручью», 叱る's 𠮟る variant note, 博士's reading notes and 可能 «Можно ли») were judged not to be defects by the reviewer itself. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "単なる": [
+    "単に"
+   ],
+   "単に": [
+    "だけ",
+    "ばかり"
+   ],
+   "博物館": [
+    "美術館"
+   ],
+   "原": [
+    "野"
+   ],
+   "及ぼす": [
+    "影響"
+   ],
+   "叱る": [
+    "注意"
+   ]
+  },
+  "titles": {
+   "共同": "совместная деятельность; сотрудничество",
+   "化学": "химия",
+   "化粧": "макияж; нанесение макияжа",
+   "医師": "врач (официальный термин)",
+   "医療": "медицинская помощь",
+   "協力": "сотрудничество; совместные усилия",
+   "単なる": "всего лишь (перед существительным); не более чем",
+   "単に": "просто (не более того); всего лишь",
+   "単位": "единица измерения; зачётная единица",
+   "博士": "знаток; доктор (учёная степень)",
+   "博物館": "музей",
+   "占める": "занимать (долю, место)",
+   "印刷": "печать (текста или изображений)",
+   "原": "открытая местность (луг, равнина)",
+   "参加": "участие",
+   "参考": "справочный материал; обращение к источнику",
+   "及ぼす": "оказывать (влияние); причинять (ущерб)",
+   "友情": "дружба",
+   "双子": "близнецы; близнец",
+   "収入": "доход",
+   "収穫": "урожай; плоды (усилий)",
+   "取り上げる": "конфисковать; выносить на обсуждение; брать в руки",
+   "取れる": "отрываться; сходить (о пятне, грязи)",
+   "可": "допустимо; проходная оценка",
+   "可能": "возможный; осуществимый",
+   "叱る": "отчитывать; делать выговор",
+   "合わせる": "совмещать; подгонять (под что-либо)",
+   "同僚": "коллега (по работе)",
+   "同時": "одно и то же время; одновременный",
+   "名人": "мастер своего дела"
+  }
+ }
+}
