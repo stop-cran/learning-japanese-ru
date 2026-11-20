@@ -8,7 +8,21 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch201 thirty words
+## Current published source milestone: batch202 thirty words
+
+Batch202 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions with nothing added), plus 18 navigation-only link wraps in 11 existing word pages and the kanji pages
+流 and 満. It was authored and reviewed as a staged tree on the reviewed Batch201 tree while commit signing was
+unavailable. The blind facet-split review found two correctness/scoped-coverage findings (an implied
+spontaneous cause in 温度 and an omitted EN source note in 濠), one consistency finding (Latin «na-прилагательное» in
+温暖, also raised for comprehensibility) and two further comprehensibility findings (a reversed relation in 灰 and
+«плакала» for 涙を流す in 涙). All were fixed without RU-only links or exclusion changes.
+After Batch201 was published, that exact reviewed tree was committed signed. The serial rechecks reported all facets clean.
+Progress: **4,179 reviewed-current / 8 runtime-blocked / 4,091 pending of 8,278**; 2,713 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch202-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch201 thirty words
 
 Batch201 added 30 Russian word articles, chunk 0 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions with nothing added), plus 21 navigation-only link wraps in 10 existing word pages and the kanji pages
@@ -19,7 +33,7 @@ comprehensibility findings (the «ичидан» spelling in 燃える and «д�
 After Batch200 was published, that exact reviewed tree was committed signed. The serial rechecks reported all facets clean.
 Progress: **4,149 reviewed-current / 8 runtime-blocked / 4,121 pending of 8,278**; 2,683 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch201-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch201-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch200 thirty words
 
