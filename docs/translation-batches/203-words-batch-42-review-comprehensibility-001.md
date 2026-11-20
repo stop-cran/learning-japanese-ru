@@ -1,0 +1,24 @@
+# B203 blind learner-comprehension review
+
+> Provenance: recorded verbatim from the blind reviewer's returned report. The task runner assigned `grok-4.7`
+> (Grok family), as shown in the runtime agent listing; the reviewer could not see its own execution metadata.
+> Reviewed snapshot: tree `d6e95d46124d66f60472825a8db483b5702688f7`, staged in a scratch worktree at detached
+> HEAD `5dd9a78` on top of the reviewed Batch 202 tree `459ddef` while commit signing was unavailable.
+> No commit of this tree exists. Later reconciliation is in `203-words-batch-42-recheck-001.md`.
+
+Snapshot: candidate tree `d6e95d46124d66f60472825a8db483b5702688f7` (base reviewed batch-202 tree `459ddef`); RU worktree `C:\Users\romanko\repos\learning-japanese-ru-b198`, detached HEAD `5dd9a78`. `git diff-index --cached --quiet d6e95d46…` and `git diff --quiet` both exited 0; `git ls-files --others --exclude-standard` printed nothing. Index and working tree equal the candidate. `git status` shows the expected staged difference from the unrelated detached HEAD, not a drift from the candidate. EN source: `learning-japanese-en-frozen` `6af98cb`. No uncommitted differences from the candidate were included beyond that identity.
+
+Scope: comprehensibility and scoped coverage only. Model not verifiable. Read in full, each against its EN original: `words/注目.md`, `words/注.md`, `words/泥.md`, `words/波.md`, `words/泡.md`, `words/泉.md`, `words/沖.md`, `words/意志.md`, `words/決心.md`, `words/汚染.md`, `words/汗.md`, `words/氷.md`, `words/気味.md`, `words/気候.md`, `words/かわいそう.md`, `words/哀れ.md`, `words/気の毒.md`, `words/好む.md`, `words/気に入る.md`, `words/氏.md`, `words/毛布.md`, `words/比較.md`, `words/毒.md`, `words/母親.md`, `words/殺す.md`, `words/残す.md`, `words/死亡.md`, `words/歩道.md`, `words/正確.md`, `words/正直.md`. Also inspected the candidate-vs-base diff of link-only edits in `kanji/亡.md`, `kanji/殺.md`, `words/およそ.md`, `words/保存.md`, `words/天候.md`, `words/意思.md`, `words/汚す.md`, `words/決定.md`, `words/涙.md`, `words/父親.md`, `words/自殺.md`, `words/覚悟.md`, `words/霜.md` (not reread in full). Comparison titles/passages used as leads, not full reviews: `words/注意.md`, `words/意思.md`, `words/残り.md`, `words/道路.md`, `words/海岸.md`. Ran `word_title_screen.py` on the 30 titles as a lead only. Did not read author reports, other reviews, or `docs/translation-batches/`.
+
+Verdicts: comprehensibility NEEDS FIX (`words/気味.md` only; the other 29 new cards CLEAN on this facet); scoped coverage CLEAN
+
+Findings:
+- C1; Minor; comprehensibility; `words/気味.md:34`; the «Оттенки значения» paragraph is an author note, not a learner explanation. «В исходном списке слов 気味 дано с чтением きみ, но с переводом, подходящим к суффиксу» and «не считается дополнительным словом уровня N3» refer to a source list, a gloss, and a level assignment the beginner never sees. A reader can think they missed a list or that the card is about editorial bookkeeping rather than when to say きみ versus ぎみ. The needed contrast is already in the «Значение» examples (`気味が悪い` きみ vs `疲れ気味` ぎみ, lines 12–22), so this paragraph adds confusion instead of a rule. Remedy: replace line 34 with: «Существительное 気味 читается きみ и называет само ощущение, как в 気味が悪い. Суффикс 〜気味 читается ぎみ и означает лишь склонность или лёгкую степень, как в 疲れ気味. Это разные употребления; суффикс показан для сравнения чтений и не заменяет существительное.» Evidence: JMdict 1222640 sense 1 is the noun きみ «sensation; feeling»; 1790980 is the separate suffix ぎみ «-like; tending to» (jisho.org entries for those ids, matching the card’s own citations). Confidence: high.
+
+Optional:
+- `words/死亡.md:26`: «китайское сложение» is unexplained jargon for this card’s own word. The bereavement contrast with 亡くなる is already clear; «не стоит просто подставлять вместо него само 死亡» would be plainer. Not a lost rule.
+- `words/かわいそう.md:19`: «это будет несправедливо» is immediately withdrawn at line 21. A closer model is «Если так его ругать, его жалко.» The adjacent note already blocks a dictionary sense «несправедливо», so this is polish, not an unexplained contradiction.
+- `words/気に入る.md:19`: «Мне очень нравится» adds a degree the Japanese and the card’s own «устойчивое предпочтение» note do not state. «Мне нравится этот магазин» is enough.
+- None of these optional items is required for the stated question of those cards.
+
+Limits: Japanese correctness, quiz exclusions, and link parity were not adjudicated. JMdict 1222640 sense 2 also records «tendency; propensity» for きみ (jisho; restricted to きみ, see-also ぎみ); whether this card should mention that sense is outside these facets. Title-screen stem overlaps (注目/注意, 決心/決定, かわいそう/哀れ, 残す/残り, 母親/お母さん) were leads only; the cards’ titles and examples keep those pairs usable. English-only traps (posted «notice», season «spring», hand «wave», legal «will», Mr./Ms.) were adapted or correctly dropped rather than copied. No file in the common sample was unread.

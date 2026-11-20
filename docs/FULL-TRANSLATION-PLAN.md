@@ -1,6 +1,37 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch202 thirty words (general word queue)
+## Current published source milestone: batch203 thirty words (general word queue)
+
+Batch203 adds 30 Russian word articles: 注目 注 泥 波 泡 泉 沖 意志 決心 汚染 汗 氷 気味 気候 かわいそう 哀れ 気の毒
+好む 気に入る 氏 毛布 比較 毒 母親 殺す 残す 死亡 歩道 正確 正直. They are chunk 0 of 77 of the general remaining-word queue
+(recomputed after Batch202: 2,307 EN words remaining); the dependency closure is exactly the 30 requested words, so every EN
+quiz_exclusions target resolves to an existing RU word or a batch word. Eleven existing word pages and the kanji pages 亡 and 殺
+receive 17 navigation-only link wraps at EN link positions; 哀, 布, 志, 染, 毒, 比, 毛, 氏, 氷, 汗, 汚, 沖, 泉, 泡, 波, 泥 and
+較 remain plain labels because those kanji have no RU card.
+
+The batch covers attention and notes (注目, 注), mud, waves, bubbles, springs and the open sea (泥, 波, 泡, 泉, 沖), will and
+resolve (意志, 決心), pollution (汚染), sweat and ice (汗, 氷), sensations and climate (気味, 気候), pity (かわいそう, 哀れ, 気の毒),
+liking (好む, 気に入る), the name suffix 氏, blankets (毛布), comparison (比較), poison (毒), mothers (母親), killing, leaving and
+death (殺す, 残す, 死亡), pavements (歩道), and accuracy and honesty (正確, 正直). All 17 EN exclusions are retained; 9 direct
+guards beyond EN cover かわいそう–残念/貧しい, 哀れ–残念, 好む–好き, 気に入る–好き/大好き, 比較–比べる and 正確–ちょうど/正しい.
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+Because the signing key's passphrase cache had expired, Batch203 was authored and reviewed as a staged tree on top of the
+reviewed Batch202 tree in a scratch worktree; no unsigned commit was made. The blind facet-split review found an overbroad ban on
+着る with 毛布, the dropped Japanese contrast 手を振る in 波, a missing 正確–正しい guard and an author-style source note in
+気味. All were fixed; the optional 死亡 wording improvement («само 死亡» for «китайское сложение») was adopted. After Batch202 was
+published, the exact reviewed tree was committed signed on a branch from its merge. The records preserve the author's and
+reviewer's differing required-versus-conservative classification of the RU-added pairs and the reviewers' differing view of
+the dropped hand-wave contrast. The serial rechecks reported all facets clean.
+
+Qualified progress is **4,209 reviewed-current / 8 reviewed runtime-blocked / 4,061 pending of 8,278**,
+with 2,743 words, 718 kanji and 718 strokes. See the [intake](translation-batches/203-words-batch-42-intake.json),
+[independent review](translation-batches/203-words-batch-42-independent-review-001.md),
+[recheck](translation-batches/203-words-batch-42-recheck-001.md),
+[qualified source record](translation-batches/203-words-batch-42-reviewed-source.json) and
+[final validation](translation-batches/203-words-batch-42-final-validation-001.json).
+
+## Previous published source milestone: batch202 thirty words (general word queue)
 
 Batch202 adds 30 Russian word articles: 炎 灰 火災 火曜 運河 濠 演奏 滞在 滅多に 溺れる 満足 湾 温暖 気温 体温
 温度 減る 減らす 清潔 深刻 涙 消防 消費 海外 流行 流れる 流れ 活用 活動 泳ぎ. They are chunk 0 of 78 of the general
