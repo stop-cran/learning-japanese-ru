@@ -1,6 +1,39 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch201 thirty words (general word queue)
+## Current published source milestone: batch202 thirty words (general word queue)
+
+Batch202 adds 30 Russian word articles: 炎 灰 火災 火曜 運河 濠 演奏 滞在 滅多に 溺れる 満足 湾 温暖 気温 体温
+温度 減る 減らす 清潔 深刻 涙 消防 消費 海外 流行 流れる 流れ 活用 活動 泳ぎ. They are chunk 0 of 78 of the general
+remaining-word queue (recomputed after Batch201: 2,337 EN words remaining); the dependency closure is exactly the 30
+requested words, so every EN quiz_exclusions target resolves to an existing RU word or a batch word. Eleven existing word pages
+and the kanji pages 流 and 満 receive 18 navigation-only link wraps at EN link positions; 奏, 暖, 河, 涙, 清, 減, 温, 湾, 溺,
+滅, 滞, 潔, 濠, 灰, 災, 炎 and 防 remain plain labels because those kanji have no RU card.
+
+The batch covers flames, ash, fires and firefighting (炎, 灰, 火災, 消防), Tuesday (火曜), canals, moats and bays (運河, 濠,
+湾), musical performance (演奏), stays (滞在), rarity (滅多に), drowning (溺れる), satisfaction (満足), warmth and temperature
+(温暖, 気温, 体温, 温度), decrease (減る, 減らす), cleanliness (清潔), seriousness (深刻), tears (涙), consumption (消費),
+abroad (海外), fashion and flow (流行, 流れる, 流れ), practical use and activity (活用, 活動), and swimming (泳ぎ). All 16
+EN exclusions are retained; 16 direct guards beyond EN cover 火災–火事, 火曜–火曜日, 演奏–演技/公演,
+滅多に–たまに/たま, 溺れる–沈む, 温暖–ぽかぽか, 体温–熱, 温度–熱, 深刻–まじめ/真剣, 流行–回り/広がる/人気 and 泳ぎ–泳ぐ.
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+Because the signing key's passphrase cache had expired, Batch202 was authored and reviewed as a staged tree on top of the
+reviewed Batch201 tree in a scratch worktree; no unsigned commit was made. The blind facet-split review found an implied spontaneous
+cause in 温度 («понижается сама»), an omitted EN note on the N2 source and its spelling 堀 in 濠, Latin «na-прилагательное»
+in 温暖, a reversed relation in 灰 («задаёт») and «плакала» for 涙を流しました in 涙, which conflated it with 泣く. All
+were fixed; the optional 満足, 体温, 海外 and 流行 wording improvements were adopted, and no exclusion changed. After Batch201 was published, the
+exact reviewed tree was committed signed on a branch from its merge. The records preserve the author's
+and reviewer's differing required-versus-conservative classification of the RU-added pairs and disclose that the
+consistency reviewer read all 30 cards in full only in a second pass. The serial rechecks reported all facets clean.
+
+Qualified progress is **4,179 reviewed-current / 8 reviewed runtime-blocked / 4,091 pending of 8,278**,
+with 2,713 words, 718 kanji and 718 strokes. See the [intake](translation-batches/202-words-batch-41-intake.json),
+[independent review](translation-batches/202-words-batch-41-independent-review-001.md),
+[recheck](translation-batches/202-words-batch-41-recheck-001.md),
+[qualified source record](translation-batches/202-words-batch-41-reviewed-source.json) and
+[final validation](translation-batches/202-words-batch-41-final-validation-001.json).
+
+## Previous published source milestone: batch201 thirty words (general word queue)
 
 Batch201 adds 30 Russian word articles: 現状 現場 王様 王子 王 率 独身 独立 犯罪 犯人 物質 物語 物理 物価 物事
 父親 爆発 燃える 熱帯 熱中 煙 無視 無料 無事 いえ 寧ろ 否 ノー 無し 無. They are chunk 0 of 79 of the general

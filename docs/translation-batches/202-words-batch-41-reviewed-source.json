@@ -1,0 +1,171 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "202-words-batch-41",
+ "publishedBaseline": "e80d113a1601af71925517822926defc29bbb8de",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the staged candidate tree fdf29ba and serialized fix rechecks of the revised tree 459ddef, committed signed as b75403d, found the original correctness, scoped-coverage, consistency and comprehensibility defects resolved; quiz safety and scoped cross-file integration were clean throughout. 温度 no longer says that with 温度が下がる the temperature falls «сама»; it now falls «без указания причины», keeping EN's subject-versus-object contrast. 濠 restores EN's source notes: the N2 source gives both «ров» and «канал», and its spelling 堀 shares JMdict entry 1522060 (ほり) with the card's stable spelling 濠, with the existing N3 level retained. 温暖 writes «な-прилагательное», as the other RU word cards do, instead of Latin «na-». 灰 no longer reverses the relation between the amount of ash and the sentence: the rest of the sentence conveys quantity, and the word has no special form for it. 涙 renders 涙を流しました as «пролила слёзы» instead of «плакала», which belongs to 泣く. Optional wording improvements were adopted on 満足 («То, чем…»), 体温 («Для изучения этого слова»), 海外 («другу, который живёт за рубежом») and 流行 («сейчас в моде»). Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation, the preserved author/reviewer required-versus-conservative exclusion classification and process notes, including the staged-tree review while commit signing was unavailable and the consistency reviewer's two-pass read, are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 16 EN exclusions across 11 lists are retained. The reviewed RU title overlaps received 16 direct, one-sided exclusions on 11 new cards: 火災–火事; 火曜–火曜日; 演奏–演技/公演; 滅多に–たまに/たま; 溺れる–沈む; 温暖–ぽかぽか; 体温–熱; 温度–熱; 深刻–まじめ/真剣; 流行–回り/広がる/人気; 泳ぎ–泳ぐ. No exclusion changed after review. The author and the consistency reviewer agree that 火災–火事, 火曜–火曜日, 溺れる–沈む and 深刻–まじめ are required and that none is unjustified; their differing grades for 滅多に–たまに and 演奏–演技 are preserved. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/202-words-batch-41-intake.json",
+  "docs/translation-batches/202-words-batch-41-independent-review-001.md",
+  "docs/translation-batches/202-words-batch-41-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "奏",
+   "暖",
+   "河",
+   "涙",
+   "清",
+   "減",
+   "温",
+   "湾",
+   "溺",
+   "滅",
+   "滞",
+   "潔",
+   "濠",
+   "灰",
+   "災",
+   "炎",
+   "防"
+  ],
+  "navigationNote": "Restored 18 relative links across the 13 listed Markdown files at the corresponding EN-linked positions, using EN's href forms: three links in each of the kanji pages 流 (to 流れる) and 満 (to 満足), two in the word card 流す (to 流れる and 涙), and one in each of 10 word cards (不平, 不満 and 納得 to 満足; 傾向 to 流行; 増す and 絶滅 to 減る; 日中 to 気温; 演技 to 演奏; 管 to 流れる; 行動 to 活動). Mentions that EN leaves unlinked stay plain. No surrounding prose was changed. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/流.md",
+   "kanji/満.md",
+   "words/不平.md",
+   "words/不満.md",
+   "words/傾向.md",
+   "words/増す.md",
+   "words/日中.md",
+   "words/流す.md",
+   "words/演技.md",
+   "words/管.md",
+   "words/納得.md",
+   "words/絶滅.md",
+   "words/行動.md"
+  ],
+  "newWords": [
+   "炎",
+   "灰",
+   "火災",
+   "火曜",
+   "運河",
+   "濠",
+   "演奏",
+   "滞在",
+   "滅多に",
+   "溺れる",
+   "満足",
+   "湾",
+   "温暖",
+   "気温",
+   "体温",
+   "温度",
+   "減る",
+   "減らす",
+   "清潔",
+   "深刻",
+   "涙",
+   "消防",
+   "消費",
+   "海外",
+   "流行",
+   "流れる",
+   "流れ",
+   "活用",
+   "活動",
+   "泳ぎ"
+  ],
+  "selection": "Batch 41 selected 30 word cards from the frozen source: chunk 0 of the 78-batch dependency-closed queue of the general remaining-word pool (30 of 2,337 remaining EN words, recomputed after Batch 201). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. 濠→運河, 温度→気温/体温, 減らす→減る and 流れ→流れる are the dependency edges inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (16 EN link occurrences, 12 targets): 灰→kanji 灰; 火曜→木曜; 運河→kanji 河; 滞在→宿泊; 湾→kanji 湾; 温暖, 気温, 体温 and 温度→kanji 温; 減る and 減らす→kanji 減; 清潔→kanji 清; 涙→kanji 涙 and 汗; 消防→kanji 防; 流れる→インク. 17 written kanji have no RU kanji card: 奏, 暖, 河, 涙, 清, 減, 温, 湾, 溺, 滅, 滞, 潔, 濠, 灰, 災, 炎, 防. No RU-only links were added (EN link parity).",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items (the comprehensibility reviewer withdrew the first three on recheck): naming 費用 on 消費 (EN does not teach 費用 there, and the titles do not collide); moving 濠's first use of 堀 after the spelling note (濠.md:25 already explains 堀, in EN's order); naming 泳ぎ方 on 泳ぎ (EN's body does not name it; the 泳ぐ guard is kept); reciprocal exclusions on partner cards (direct one-sided pairs are applied symmetrically); and replacing 火災's «вчера вечером» for 昨夜 (a standard rendering). The 濠 consistency optional item, the 満足 correctness optional item and the 体温, 海外 and 流行 comprehensibility optional items were adopted. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "体温": [
+    "熱"
+   ],
+   "泳ぎ": [
+    "泳ぐ"
+   ],
+   "流行": [
+    "回り",
+    "広がる",
+    "人気"
+   ],
+   "深刻": [
+    "まじめ",
+    "真剣"
+   ],
+   "温度": [
+    "熱"
+   ],
+   "温暖": [
+    "ぽかぽか"
+   ],
+   "溺れる": [
+    "沈む"
+   ],
+   "滅多に": [
+    "たまに",
+    "たま"
+   ],
+   "演奏": [
+    "演技",
+    "公演"
+   ],
+   "火曜": [
+    "火曜日"
+   ],
+   "火災": [
+    "火事"
+   ]
+  },
+  "titles": {
+   "体温": "температура тела",
+   "気温": "температура воздуха",
+   "泳ぎ": "плавание; умение плавать",
+   "活動": "деятельность; активность",
+   "活用": "эффективное использование; спряжение",
+   "流れ": "течение; поток; ход (событий)",
+   "流れる": "течь; струиться",
+   "流行": "мода; массовое распространение",
+   "海外": "зарубежье; за рубежом",
+   "消費": "потребление",
+   "消防": "пожаротушение; пожарная служба",
+   "涙": "слёзы; слеза",
+   "深刻": "серьёзный (о проблеме)",
+   "清潔": "чистый; гигиеничный",
+   "減らす": "уменьшать; сокращать",
+   "減る": "уменьшаться; убывать",
+   "温度": "температура",
+   "温暖": "тёплый (о климате)",
+   "湾": "залив; бухта",
+   "満足": "удовлетворение",
+   "溺れる": "тонуть; погрязать (в чём-либо)",
+   "滅多に": "редко (с отрицанием)",
+   "滞在": "временное пребывание",
+   "演奏": "исполнение музыки",
+   "濠": "крепостной ров",
+   "火曜": "вторник",
+   "火災": "пожар (как бедствие)",
+   "灰": "пепел; зола",
+   "炎": "пламя",
+   "運河": "канал (искусственное русло)"
+  }
+ }
+}
