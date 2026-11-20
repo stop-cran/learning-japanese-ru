@@ -1,6 +1,41 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch198 thirty words (general word queue)
+## Current published source milestone: batch199 thirty words (general word queue)
+
+Batch199 adds 30 Russian word articles: 確実 確かめる 硬貨 破産 砂漠 石炭 情報 知識 知事 知らせ 眺める 眺め 真剣 真似 真っ赤
+県 相続 相手 直に 直ちに 直接 ゴール 目標 目的 指導 コーチ 監督 盛り 登山 発車. They are chunk 0 of 81 of the general
+remaining-word queue (recomputed after Batch198: 2,427 EN words remaining); the dependency closure is exactly the 30 requested
+words, so every EN quiz_exclusions target resolves to an existing RU word or a batch word. Eleven existing word pages and the
+kanji pages 導 and 識 receive 16 navigation-only link wraps at EN link positions; 硬, 貨, 砂, 漠, 炭, 眺, 剣, 県, 接, 標, 的, 監,
+督 and 盛 remain plain labels because those kanji have no RU card.
+
+The batch covers certainty and checking (確実, 確かめる), coins (硬貨), bankruptcy (破産), deserts (砂漠), coal (石炭),
+information, knowledge and notices (情報, 知識, 知らせ), prefectures and their governors (県, 知事), gazing and views (眺める,
+眺め), seriousness (真剣), imitation and behaviour (真似), bright red (真っ赤), inheritance (相続), partners and opponents
+(相手), directness and immediacy (直に, 直ちに, 直接), goals and purposes (ゴール, 目標, 目的), guidance, coaches and
+supervisors (指導, コーチ, 監督), the peak of something (盛り), mountain climbing (登山) and vehicle departure (発車). All 23 EN
+exclusions are retained; 21 direct guards beyond EN cover 確実–確か/堅い/違いない/きっと, 確かめる–調べる, 情報–案内,
+知らせ–知らせる, 真剣–重大/大変, 真似–写す/コピー, 真っ赤–赤い/赤, 県–都, 直接–まっすぐ, ゴール–ため, 目標–ため,
+指導–教育/教える, 監督–管理 and 登山–登る. Exclusions are one-sided declarations that Android applies in both directions; the
+batch changes exclusions only on its new cards.
+Because the signing key's passphrase cache had expired, Batch199 was authored and reviewed as a staged tree on top of the
+reviewed Batch198 tree in a scratch worktree; no unsigned commit was made. The blind facet-split review found consistency and
+quiz safety clean and three correctness defects: 盛り rendered 盛りを過ぎました as «отцвела», the Russian-added 写す/コピー
+contrast in 真似 drew an unqualified object-based boundary, and 指導 described 教育 only as «вся система». The comprehensibility
+review independently found the 盛り issue and two more: ゴール said the loanword «соответствует английскому goal», and 知識
+turned the noun into the verb «узнать». All were fixed; the ゴール sentence now names only the English source word, as reviewed
+RU loanword cards do, and an inline dictionary number in 直に was removed as optional polish. After Batch198 was published, the
+exact reviewed tree was committed signed on a branch from its merge. The records preserve the author's and reviewer's differing
+required-versus-conservative classification of the RU-added pairs. The serial rechecks reported all facets clean.
+
+Qualified progress is **4,089 reviewed-current / 8 reviewed runtime-blocked / 4,181 pending of 8,278**,
+with 2,623 words, 718 kanji and 718 strokes. See the [intake](translation-batches/199-words-batch-38-intake.json),
+[independent review](translation-batches/199-words-batch-38-independent-review-001.md),
+[recheck](translation-batches/199-words-batch-38-recheck-001.md),
+[qualified source record](translation-batches/199-words-batch-38-reviewed-source.json) and
+[final validation](translation-batches/199-words-batch-38-final-validation-001.json).
+
+## Previous published source milestone: batch198 thirty words (general word queue)
 
 Batch198 adds 30 Russian word articles: 笛 章 立ち上がる 空き 穴 積極的 積む 積もる 穀物 稼ぐ 根 種 税金 税 移動 動かす 移す
 秒 科目 禁煙 禁止 祭 神経 神 祝う 祝い 礼儀 感謝 礼 確認. They are chunk 0 of 82 of the general remaining-word queue (recomputed
