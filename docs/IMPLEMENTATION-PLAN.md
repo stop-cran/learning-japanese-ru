@@ -8,7 +8,19 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch211 thirty words
+## Current published source milestone: batch212 thirty words
+
+Batch212 added 30 Russian word articles, chunk 4 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions with nothing added), plus 31 navigation-only link wraps in fifteen existing word pages and the
+kanji pages 了, 在, 奥, 存, 孫 and 宇, including the three links held in Batch211's 完成 and 専攻. The candidate was
+committed signed and pushed before review. The blind facet-split review found no correctness finding, one consistency
+finding (完全–全然 guard) and two comprehensibility findings (完全 and 学習 titles). One signed fix commit resolved them;
+the serial rechecks reported all facets clean.
+Progress: **4,479 reviewed-current / 8 runtime-blocked / 3,791 pending of 8,278**; 3,013 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch212-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch211 thirty words
 
 Batch211 added 30 Russian word articles, chunk 3 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions with nothing added), plus 24 navigation-only link wraps in seven existing word pages, the kanji
@@ -19,7 +31,7 @@ them; the source-list notes in 対 and 密 mirror EN, so that part was withdrawn
 clean.
 Progress: **4,449 reviewed-current / 8 runtime-blocked / 3,821 pending of 8,278**; 2,983 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch211-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch211-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch210 thirty words
 
