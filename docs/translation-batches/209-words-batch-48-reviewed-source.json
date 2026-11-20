@@ -1,0 +1,148 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "209-words-batch-48",
+ "publishedBaseline": "77a567dc73329b88f95a6e305ee6618bb5db5255",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 5f01560 and serialized rechecks of the signed fix commit 5c78e52 found the comprehensibility defect resolved; correctness, scoped coverage, cross-file consistency and quiz safety were clean throughout. 得意's second example 得意な科目は数学です no longer adds a superlative: «Предмет, который мне хорошо даётся, — математика.» replaces «Лучше всего мне даётся математика», matching EN \"My strong subject is mathematics.\" Two optional comprehensibility notes were adopted on the same Japanese evidence: 引っ張る renders ロープを強く引っ張ってください without the comparative («Пожалуйста, сильно тяните верёвку.»), and 年齢 renders 参加できます as participation rather than registration («В этом курсе можно участвовать независимо от возраста.»). Before the candidate, the coordinator retitled 得意 from «конёк; хорошо удающееся дело» to «сильная сторона; хорошо удающееся дело» for EN \"one's strong point\", because figurative «конёк» implies fondness that the card itself says 得意 does not assert. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 25 EN exclusions across 16 lists are retained. Five direct, one-sided exclusions on four new cards cover reviewed RU title overlaps: 得意–武器 (added by the coordinator with the 得意 retitle; shared segment «сильная сторона»), 影響–左右 (shared segment «влияние») and 床–性 (shared segment «пол») are required; 効果–有効 and 影響–毒 are conservative stem guards. The author, the coordinator and the blind consistency reviewer classified all five the same way. No exclusion changed after review. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/209-words-batch-48-intake.json",
+  "docs/translation-batches/209-words-batch-48-independent-review-001.md",
+  "docs/translation-batches/209-words-batch-48-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "妙",
+   "床",
+   "底",
+   "弁",
+   "張",
+   "弾",
+   "影",
+   "従",
+   "微",
+   "徹",
+   "響",
+   "齢"
+  ],
+  "navigationNote": "Restored 27 relative links across the 20 listed Markdown files at the corresponding EN-linked positions, using EN's href forms: two links in each of the kanji pages 効 (to 効果) and 幼 (to 幼い), three in each of 当 (to 当たる) and 得 (to 得意), two in 副作用 (to 効果 and 影響), and one in each of fifteen word cards: 与える and 支配 (to 影響), 反抗, 命令, 応じる and 逆らう (to 従う), 地盤 (to 床), 掲示 (to 広告), 有効 (to 効果), 機能 and 責任 (to 役割), 老い (to 年齢), 自慢 and 苦手 (to 得意) and 陰 (to 影, first occurrence). Mentions that EN leaves unlinked stay plain. No surrounding prose was changed. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/効.md",
+   "kanji/幼.md",
+   "kanji/当.md",
+   "kanji/得.md",
+   "words/与える.md",
+   "words/副作用.md",
+   "words/反抗.md",
+   "words/命令.md",
+   "words/地盤.md",
+   "words/応じる.md",
+   "words/掲示.md",
+   "words/支配.md",
+   "words/有効.md",
+   "words/機能.md",
+   "words/老い.md",
+   "words/自慢.md",
+   "words/苦手.md",
+   "words/責任.md",
+   "words/逆らう.md",
+   "words/陰.md"
+  ],
+  "newWords": [
+   "心理",
+   "徹底",
+   "徹夜",
+   "微妙",
+   "得意",
+   "従兄弟",
+   "ですから",
+   "従って",
+   "従う",
+   "後者",
+   "役割",
+   "効果",
+   "影響",
+   "影",
+   "当時",
+   "当てる",
+   "当たる",
+   "弾",
+   "強調",
+   "強盗",
+   "強力",
+   "引退",
+   "引用",
+   "引っ張る",
+   "弁当",
+   "座席",
+   "床",
+   "広告",
+   "幼い",
+   "年齢"
+  ],
+  "selection": "Batch 48 selected 30 word cards from the frozen source: chunk 1 of the 72-batch dependency-closed queue of the general remaining-word pool (30 of 2,157 remaining EN words, recomputed after Batch 207). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. 従って→ですから, 影響→効果 and 当たる→当てる are the dependency edges inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (9 EN link occurrences, 9 targets): 徹底→kanji 底 and 完全; 従兄弟→従姉妹; 後者→前者; 強調→主張; 引用→参考; 床→kanji 床; 広告→宣伝; 年齢→kanji 齢. 12 written kanji have no RU kanji card: 妙, 床, 底, 弁, 張, 弾, 影, 従, 微, 徹, 響, 齢. No RU-only links were added (EN link parity).",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: the consistency reviewer's suggested guards 引退↔辞める and 徹底↔丁寧 (medium confidence), 心理↔精神 and 得意↔自慢 (low) and the weaker pairs 当時↔昔, 幼い↔若い, 従う↔守る, 役割↔担当, 従兄弟↔親戚, 強盗↔犯人, 年齢↔歳, 強力↔力 and 効果↔副作用, because EN declares none of them, the titles share no exact segment and the app deduplicates exact titles only; the reviewer accepted the decline in its recheck. The comprehensibility reviewer's optional notes on 役割 («роль насоса» renders 役割を果たす with the same meaning; the suggested nominalisation is heavier), 幼い's title «малолетний» (Kuznetsov gives the neutral childhood sense, the body renders each example naturally, and «маленький» would overlap 小さい/小さな) and 従う's slash list (each alternative is grammatical with «следовать»; «подчиняться» would drop the following sense) were not adopted; the reviewer accepted these declines in its recheck. Its 引っ張る and 年齢 notes were adopted in the fix. The consistency reviewer's initial limit about 118 strokes hash mismatches was a raw-hash artifact: the manifest hashes text after CRLF-to-LF normalization, and the reviewer withdrew the limit after confirming all 4,384 entries. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "効果": [
+    "有効"
+   ],
+   "床": [
+    "性"
+   ],
+   "影響": [
+    "左右",
+    "毒"
+   ],
+   "得意": [
+    "武器"
+   ]
+  },
+  "titles": {
+   "ですから": "поэтому (вежливо); по этой причине",
+   "効果": "эффект; действенность",
+   "年齢": "возраст (в годах)",
+   "幼い": "малолетний; незрелый",
+   "広告": "реклама",
+   "床": "пол (в помещении)",
+   "座席": "сиденье; посадочное место",
+   "弁当": "бэнто; еда с собой",
+   "引っ張る": "тянуть с силой; дёргать",
+   "引用": "цитата; цитирование",
+   "引退": "уход от дел; завершение карьеры",
+   "強力": "мощный",
+   "強盗": "грабитель; грабёж",
+   "強調": "подчёркивание; акцент",
+   "弾": "пуля",
+   "当たる": "попадать; ударяться",
+   "当てる": "попадать (чем-л.) в цель; прикладывать; угадывать",
+   "当時": "в то время; в те дни",
+   "影": "тень; силуэт",
+   "影響": "влияние; воздействие",
+   "役割": "роль; круг обязанностей",
+   "後者": "второй (из двух названных)",
+   "従う": "повиноваться; следовать; подчиняться",
+   "従って": "следовательно; вследствие этого",
+   "従兄弟": "двоюродный брат",
+   "得意": "сильная сторона; хорошо удающееся дело",
+   "微妙": "едва уловимый; деликатный; под вопросом",
+   "徹夜": "бодрствование всю ночь",
+   "徹底": "доскональность; неукоснительное выполнение",
+   "心理": "психологическое состояние; психология"
+  }
+ }
+}
