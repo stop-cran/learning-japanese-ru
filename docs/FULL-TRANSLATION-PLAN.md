@@ -1,6 +1,70 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch218 thirty words (general word queue)
+## Current published source milestone: batch219 thirty words (general word queue)
+
+Batch219 adds 30 Russian word articles: 以前 代表 代理 付き合い 仏 今後 今回 今にも 人込み 人種 人生 人工 交際 互い 事実
+事務 予算 予測 予報 乗客 乗せる 主要 主義 主張 主婦 主に 中止 中学 丘 世間. They are chunk 11 of 72 of the general
+remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is exactly the 30
+requested words, so every EN quiz_exclusions target resolves to an existing RU word or a batch word.
+
+Navigation-only link wraps restore 23 links at EN link positions in 18 files: 15 existing word pages and the kanji pages
+互, 仏 and 務. The kanji 丘, 測, 算, 張 and 義 remain plain labels because they have no RU card.
+
+The batch covers:
+- "before; formerly" (以前), "from now on" (今後), "this time" (今回) and "at any moment" (今にも);
+- representatives and typical examples (代表), acting for someone (代理), social contact (付き合い), association and
+  dating (交際) and "each other" (互い);
+- the Buddha (仏), crowds of people (人込み), race (人種), a person's life (人生) and "artificial" (人工);
+- facts (事実), clerical work (事務), budgets (予算), forecasting (予測) and announced forecasts (予報);
+- passengers (乗客) and giving a ride or placing something on top (乗せる);
+- "main" (主要), principles and doctrines (主義), assertions (主張), housewives (主婦) and "mainly" (主に);
+- cancellation (中止), lower secondary school (中学), hills (丘) and the people around one (世間).
+
+All 20 EN exclusions are retained. Thirty-eight direct guards on 18 new cards cover the reviewed RU title overlaps and
+sense neighbours:
+- required: 以前–先, 以前–過去, 今にも–もうすぐ, 代表–典型, 代理–代わり, 付き合い–関係, 付き合い–仲, 人生–生命, 今回–度,
+  今回–場合, 人込み–混雑, 主張–見解, 主に–大半, 主に–大部分 and 事務–仕事;
+- conservative: 以前–元, 以前–まず, 今後–将来, 今後–先, 今にも–今に, 人生–生, 人生–生活, 交際–関係, 交際–恋, 交際–仲,
+  交際–連絡, 予測–予期, 予測–読み, 予測–天気予報, 主要–要点, 主義–思想, 主張–要求, 主に–主要, 中止–止める, 中止–止む,
+  世間–人, 世間–周囲 and 世間–環境.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: three minor findings: 主義's example used «изменить» with the dative, which means betraying one's
+  principles; 今にも's comparison claimed that 今に cannot describe an imminent event; and 人込み's title «толчея» is
+  colloquial and implies jostling;
+- consistency: no finding; its optional 世間–人 guard was adopted, and an unconfirmed strokes hash limit was withdrawn by
+  evidence (CRLF stroke blobs are hashed after LF normalisation, and the batch touches no stroke file);
+- comprehensibility: one moderate finding, 代表's «представительство» ordinarily names a representative office and the
+  代わり card uses it for 代理; and two minor findings: 人込み's «толчея» repeated 混雑's «давка» without a contrast,
+  and 世間's «общественность» names the active part of society rather than people generally.
+
+One signed fix commit resolved them:
+- 主義's example now reads «Он не изменил свои принципы.»;
+- 今にも's comparison now says that 今に by itself does not emphasise immediacy as 今にも does;
+- 人込み's title became «толпа людей», and a new paragraph contrasts 大勢 (a number of people, not density) and 混雑
+  (overcrowding of a place, transport or road);
+- 代表's title became «представитель; характерный образец», and the definition names both senses;
+- 世間's title became «окружающие люди; люди вообще», its news example now says «всеобщее внимание», and it also
+  excludes 人, 周囲 and 環境;
+- two optional items were adopted: 予測's title replaces colloquial «оценка наперёд» with «предварительная оценка», and
+  主婦's example says «не занималась оплачиваемой работой».
+
+The serial rechecks reported all facets clean. Links follow EN, with eight RU-only links to existing cards at a
+substantive comparison: 主に–だけ, 予報–天気予報, 事務–事務所, 今にも–今に, 今回–最近, 代理–本人, 人込み–大勢 and
+人込み–混雑. 以来's held EN link to 今後 is restored. 世間's EN link to 世の中 stays plain until 世の中 lands in
+Batch220.
+
+Qualified progress is **4,689 reviewed-current / 8 reviewed runtime-blocked / 3,581 pending of 8,278**,
+with 3,223 words, 718 kanji and 718 strokes. See the [intake](translation-batches/219-words-batch-58-intake.json),
+[independent review](translation-batches/219-words-batch-58-independent-review-001.md),
+[recheck](translation-batches/219-words-batch-58-recheck-001.md),
+[qualified source record](translation-batches/219-words-batch-58-reviewed-source.json) and
+[final validation](translation-batches/219-words-batch-58-final-validation-001.json).
+
+## Previous published source milestone: batch218 thirty words (general word queue)
 
 Batch218 adds 30 Russian word articles: 倒す 修理 修正 信じる 信用 信頼 保証 価値 例え 作物 作法 作曲 作品 余分 何時か
 何とか 何でも 何で 体育 住民 住宅 伝統 会員 休暇 休憩 企業 任せる 仲間 仲 以来. They are chunk 10 of 72 of the general

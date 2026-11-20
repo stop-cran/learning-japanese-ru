@@ -1,0 +1,200 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "219-words-batch-58",
+ "publishedBaseline": "fcc56087238d3cba6e5bb8230a4e6200bcf3604f",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate f725377 and serialized rechecks of the signed final fix commit dae224d found every finding resolved and left no finding open. Correctness raised three minor findings, all fixed: 主義's example «Он не изменил своим принципам» used изменить with the dative, which means betraying one's principles (Kuznetsov «изменить» 2, sense 3), and now reads «Он не изменил свои принципы.» (JMdict 変える sense 1); 今にも's RU-only comparison claimed that 今に cannot describe an imminent event, which Digital Daijisen 今に 1 contradicts, and now says 今に by itself does not emphasise immediacy as 今にも does; and 人込み's title gloss «толчея» is colloquial and names jostling (Kuznetsov «толчея» 1: «Разг. Давка, толкотня»), so the title is now «толпа людей», EN's \"crowd of people\". All 30 cards were read in full against EN, JMdict entries were inspected for all 30 headwords and the candidate's six RU-only link targets, and the Russian adaptations were checked in Kuznetsov entries on Gramota (изменить, толчея, представительство, общественность, наперёд), the Universal Dictionary (заместитель), Russian Wiktionary (смета, канцелярский, искусственный, назад, хозяйка, того и гляди, прогнозирование) and Digital Daijisen (今に, 今にも, 専業主婦). Consistency raised no finding; its unconfirmed limit about working-tree hash mismatches in 110 untouched stroke files was withdrawn by evidence: build_manifest.py hashes after CRLF-to-LF normalisation, the stroke blobs are CRLF byte copies, and the batch touches no stroke file. Comprehensibility raised one moderate and two minor findings, all fixed. 代表's title «представитель; представительство» offered a word that ordinarily names a representative office (Ozhegov) and that 代わり's card uses for 代理; the title is now «представитель; характерный образец» (JMdict 代表 sense 2) and the definition names both senses. 人込み's «толчея» repeated 混雑's «давка» and the card did not distinguish the neighbours; it now contrasts 大勢 (a number of people, not density) and 混雑 (overcrowding of a place, transport or road; Daijisen 混雑 2). 世間's lead gloss «общественность» means the active part of society or public organisations (Kuznetsov; Efremova; Ushakov), narrower than EN \"society; the public\"; the title is now «окружающие люди; люди вообще», the definition warns against that substitution, and the news example reads «Эта новость привлекла всеобщее внимание.» Two optional correctness items were adopted: 予測's title replaces the popular-colloquial «оценка наперёд» with «предварительная оценка», and 主婦's example says «не занималась оплачиваемой работой» instead of «не работала вне дома». The rechecks found no regression. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 20 EN exclusions across 15 lists are retained. Thirty-eight direct, one-sided exclusions on 18 new cards cover reviewed RU title overlaps and sense neighbours. Required (15), as the consistency reviewer classified them: 以前–先, 以前–過去, 今にも–もうすぐ, 代表–典型, 代理–代わり, 付き合い–関係, 付き合い–仲, 人生–生命, 今回–度, 今回–場合, 人込み–混雑, 主張–見解, 主に–大半, 主に–大部分 and 事務–仕事. Conservative (23): 以前–元, 以前–まず, 今後–将来, 今後–先, 今にも–今に, 人生–生, 人生–生活, 交際–関係, 交際–恋, 交際–仲, 交際–連絡, 予測–予期, 予測–読み, 予測–天気予報, 主要–要点, 主義–思想, 主張–要求, 主に–主要, 中止–止める and 中止–止む, and, added in the fix, 世間–人 (the reviewer's optional lead: the new title shares «люди»), 世間–周囲 and 世間–環境 (the new «окружающие» neighbours «окружение»). The candidate declared the first 35. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/219-words-batch-58-intake.json",
+  "docs/translation-batches/219-words-batch-58-independent-review-001.md",
+  "docs/translation-batches/219-words-batch-58-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "丘",
+   "測",
+   "算",
+   "張",
+   "義"
+  ],
+  "navigationNote": "Restored 23 relative links across the 18 listed Markdown files at the corresponding EN-linked positions, using EN's href forms: in the kanji pages, three in 互 (to 互い), two in 仏 (to 仏) and three in 務 (to 事務); in the word cards, one each in 元 and 過去 (to 以前), 噂, 現実 and 説 (to 事実), 大使 (to 代表), 天然 (to 人工), 延期 and 見送り (to 中止), 強調 (to 主張), 暮らし and 生命 (to 人生), 神 (to 仏), 計算 (to 予算) and 以来 (to 今後, held from Batch 57). Every occurrence EN links is wrapped, so 互, 仏 and 務 carry more than one link to the same target. Mentions that EN leaves unlinked stay plain. No surrounding prose was changed. Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/互.md",
+   "kanji/仏.md",
+   "kanji/務.md",
+   "words/以来.md",
+   "words/元.md",
+   "words/噂.md",
+   "words/大使.md",
+   "words/天然.md",
+   "words/延期.md",
+   "words/強調.md",
+   "words/暮らし.md",
+   "words/現実.md",
+   "words/生命.md",
+   "words/神.md",
+   "words/見送り.md",
+   "words/計算.md",
+   "words/説.md",
+   "words/過去.md"
+  ],
+  "newWords": [
+   "以前",
+   "代表",
+   "代理",
+   "付き合い",
+   "仏",
+   "今後",
+   "今回",
+   "今にも",
+   "人込み",
+   "人種",
+   "人生",
+   "人工",
+   "交際",
+   "互い",
+   "事実",
+   "事務",
+   "予算",
+   "予測",
+   "予報",
+   "乗客",
+   "乗せる",
+   "主要",
+   "主義",
+   "主張",
+   "主婦",
+   "主に",
+   "中止",
+   "中学",
+   "丘",
+   "世間"
+  ],
+  "selection": "Batch 58 selected 30 word cards from the frozen source: chunk 11 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,827 remained after Batch 218). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. Three source exclusion edges lie inside the batch (代理–代表, 交際–付き合い and 予報–予測); the other 17 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (5 EN link occurrences, 4 targets). In the new cards: 世間→世の中, 交際→デート, 予測→kanji 測 and 予算→kanji 算. In the navigation files: 計算→kanji 算. 5 written kanji have no RU kanji card: 丘, 測, 算, 張, 義 (EN has cards only for 測 and 算, not yet adapted). Links otherwise follow EN, with eight RU-only links to existing cards at a substantive comparison: 主に→だけ, 予報→天気予報, 事務→事務所, 今にも→今に, 今回→最近, 代理→本人, 人込み→大勢 and 人込み→混雑 (the last two added in the fix). 世の中 is a Batch 59 word; its link from 世間 is restored as a navigation edit in that batch.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: «того и гляди» in 今にも and «прогнозирование» in 予測 (correctness; the reviewer found the first semantically supported, and the second's companion gloss keeps the result sense), 主に–たいてい, 以前–昔, 主要–中心 and 今後–未来 (consistency; the titles share no segment and EN guards none of them), 代理 «не должность заместителя» (comprehensibility; the card already says a 代理 does not permanently take the other's place, and 部長代理 is an established job title) and tying 今にも's «в любую минуту» to «того и гляди» (comprehensibility; editorial). The proposed «а не … действие от чужого имени» in 代表 was not adopted because 全員を代表して means acting on a group's behalf; the comprehensibility recheck agreed. The consistency recheck kept its declined leads optional. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "世間": [
+    "人",
+    "周囲",
+    "環境"
+   ],
+   "中止": [
+    "止める",
+    "止む"
+   ],
+   "主に": [
+    "大半",
+    "大部分",
+    "主要"
+   ],
+   "主張": [
+    "見解",
+    "要求"
+   ],
+   "主義": [
+    "思想"
+   ],
+   "主要": [
+    "要点"
+   ],
+   "予測": [
+    "予期",
+    "読み",
+    "天気予報"
+   ],
+   "事務": [
+    "仕事"
+   ],
+   "交際": [
+    "関係",
+    "恋",
+    "仲",
+    "連絡"
+   ],
+   "人生": [
+    "生命",
+    "生",
+    "生活"
+   ],
+   "人込み": [
+    "混雑"
+   ],
+   "今にも": [
+    "もうすぐ",
+    "今に"
+   ],
+   "今回": [
+    "度",
+    "場合"
+   ],
+   "今後": [
+    "将来",
+    "先"
+   ],
+   "付き合い": [
+    "関係",
+    "仲"
+   ],
+   "代理": [
+    "代わり"
+   ],
+   "代表": [
+    "典型"
+   ],
+   "以前": [
+    "先",
+    "過去",
+    "元",
+    "まず"
+   ]
+  },
+  "titles": {
+   "世間": "окружающие люди; люди вообще",
+   "丘": "холм; возвышенность",
+   "中学": "средняя школа первой ступени (сокращённо)",
+   "中止": "отмена; прекращение",
+   "主に": "главным образом; преимущественно",
+   "主婦": "домохозяйка",
+   "主張": "утверждение; настаивание на своём",
+   "主義": "принцип; доктрина",
+   "主要": "основной; главный",
+   "乗せる": "подвозить; сажать или ставить на что-либо",
+   "乗客": "пассажир",
+   "予報": "прогноз (сообщаемый заранее)",
+   "予測": "прогнозирование; предварительная оценка",
+   "予算": "бюджет; смета",
+   "事務": "канцелярская работа; административные дела",
+   "事実": "факт; фактически",
+   "互い": "друг друга",
+   "交際": "социальные контакты; романтические отношения",
+   "人工": "искусственный; созданный человеком",
+   "人生": "жизненный путь; жизнь человека",
+   "人種": "раса",
+   "人込み": "толпа людей",
+   "今にも": "того и гляди; на грани чего-либо",
+   "今回": "на этот раз; данный случай",
+   "今後": "впредь; в дальнейшем",
+   "仏": "Будда; изображение Будды; покойный",
+   "付き合い": "общение; отношения с людьми",
+   "代理": "действие от чужого имени; заместитель",
+   "代表": "представитель; характерный образец",
+   "以前": "прежде; ранее"
+  }
+ }
+}
