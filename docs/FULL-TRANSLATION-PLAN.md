@@ -1,6 +1,41 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch199 thirty words (general word queue)
+## Current published source milestone: batch200 thirty words (general word queue)
+
+Batch200 adds 30 Russian word articles: 発表 発明 疑う 疑問 異常 留学 画家 男子 申し訳 予防 用心 使用 用いる 布 生地
+命 生 生命 生じる 瓶 環境 理想 玉 球 現金 現象 状況 光景 場面 事態. They are chunk 0 of 80 of the general remaining-word
+queue (recomputed after Batch199: 2,397 EN words remaining); the dependency closure is exactly the 30 requested words, so
+every EN quiz_exclusions target resolves to an existing RU word or a batch word. Fifteen existing word pages and the kanji
+pages 命, 留, 疑 and 表 receive 27 navigation-only link wraps at EN link positions; 境, 布, 態, 況, 玉, 環, 瓶, 異, 訳, 象 and 防
+remain plain labels because those kanji have no RU card.
+
+The batch covers announcements and inventions (発表, 発明), doubt (疑う, 疑問), abnormality (異常), study abroad (留学),
+painters (画家), boys and men (男子), apology (申し訳), prevention and caution (予防, 用心), using (使用, 用いる), cloth and
+dough (布, 生地), life (命, 生, 生命), arising (生じる), bottles (瓶), environment (環境), ideals (理想), balls and spheres
+(玉, 球), cash (現金), phenomena (現象) and situations, sights, scenes and states of affairs (状況, 光景, 場面, 事態). All 32 EN
+exclusions are retained; 17 direct guards beyond EN cover 画家–作家, 男子–男の人/おじいさん/おじさん, 申し訳–謝る,
+予防–防ぐ, 使用–用, 用いる–利用, 瓶–缶, 玉–硬貨, 現金–お金/金/金銭, 状況–都合, 光景–景色/眺め and 事態–状況.
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+Because the signing key's passphrase cache had expired, Batch200 was authored and reviewed as a staged tree on top of the
+reviewed Batch199 tree in a scratch worktree; no unsigned commit was made. The blind facet-split review found correctness and
+scoped coverage clean and two quiz-safety findings: 状況 lacked a guard against 都合, whose Russian title overlaps it through
+«обстоятельства», and 玉's extra 銅貨 guard was reachable only by chaining. The comprehensibility review found reversed causal
+roles in 生じる's summary, an author note with an English gloss in 生地, source adjudication instead of a learner rule in 命,
+and editorial sentences in 生 and 現金. All were fixed; 生地's note was rewritten as a learner rule that 生地 read せいち or
+しょうち is a separate word meaning «место рождения», checked against WWWJDIC, Jisho and Digital Daijisen. After Batch199 was
+published, the exact reviewed tree was committed signed on a branch from its merge. The records preserve the author's and
+reviewer's differing required-versus-conservative classification of the RU-added pairs. The serial rechecks reported all facets
+clean.
+
+Qualified progress is **4,119 reviewed-current / 8 reviewed runtime-blocked / 4,151 pending of 8,278**,
+with 2,653 words, 718 kanji and 718 strokes. See the [intake](translation-batches/200-words-batch-39-intake.json),
+[independent review](translation-batches/200-words-batch-39-independent-review-001.md),
+[recheck](translation-batches/200-words-batch-39-recheck-001.md),
+[qualified source record](translation-batches/200-words-batch-39-reviewed-source.json) and
+[final validation](translation-batches/200-words-batch-39-final-validation-001.json).
+
+## Previous published source milestone: batch199 thirty words (general word queue)
 
 Batch199 adds 30 Russian word articles: 確実 確かめる 硬貨 破産 砂漠 石炭 情報 知識 知事 知らせ 眺める 眺め 真剣 真似 真っ赤
 県 相続 相手 直に 直ちに 直接 ゴール 目標 目的 指導 コーチ 監督 盛り 登山 発車. They are chunk 0 of 81 of the general
