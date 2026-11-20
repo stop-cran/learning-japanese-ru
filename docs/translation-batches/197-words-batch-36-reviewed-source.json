@@ -1,0 +1,185 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "197-words-batch-36",
+ "publishedBaseline": "e007e0b667dd222e33a132eafb44ffb96e4fe925",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 5dd9a78 and serialized fix rechecks of the revised tree ea3a478, committed signed as 4d7eed0, found the original scoped-coverage and comprehensibility defects resolved; consistency and quiz safety were clean from the start, and correctness was clean apart from the source-preservation item. 結果 restores EN's ケッカ reading note and translates the example as «Проверив, мы выяснили причину»; 節約 gives 手間（てま）を省く and gains a conservative 貯金 guard; 組合 gives **組合の会員**（くみあいのかいいん）; 籠 says «Птица вышла из клетки» as EN \"came out\"; and 経由 explains 途中 as «в пути или в процессе дела». Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation, the preserved author/reviewer required-versus-conservative exclusion classification and process notes, including the staged-tree recheck while commit signing was unavailable, are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 33 EN exclusions across 18 lists are retained. The reviewed RU title overlaps received 24 direct, one-sided exclusions on 18 new cards: 結論–判断; 今に–もうすぐ/いずれ; いずれ–どの/どっち; 結局–末; 経由–通過; 営業–売る; 態度–行儀; 位置–所/場; 立場–見解; 位–くらい; 級–水準; 納得–承知; 精々–以下; 範囲–額; 節約–省く/貯金; 節–曲/点/特徴; 答案–答; 筆–手. One was added after review: 節約–貯金, a conservative guard because «экономия» and «сбережения» are close in Russian. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/197-words-batch-36-intake.json",
+  "docs/translation-batches/197-words-batch-36-independent-review-001.md",
+  "docs/translation-batches/197-words-batch-36-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "態",
+   "案",
+   "筆",
+   "管",
+   "節",
+   "範",
+   "籠",
+   "粉",
+   "納",
+   "級",
+   "結"
+  ],
+  "navigationNote": "Restored 16 relative links across the 11 listed Markdown files at the corresponding EN-linked positions, using EN's href forms: three links to 地位 in kanji/位, two to 営業 and one to 経営 in kanji/営, two to 範囲 in kanji/囲, one to 位 in articles/numbers-and-counters, and one in each of the seven word cards (けち, 貯金 and 贅沢 to 節約; 管理 to 経営; 組 to 組む; 行儀 to 態度; 過ごす to 経つ). In 過ごす the link wraps 経つ inside 時間が経つ, because the Russian sentence has no standalone 経つ. No surrounding prose was changed. Missing kanji cards and unavailable word or article targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/位.md",
+   "kanji/営.md",
+   "kanji/囲.md",
+   "words/けち.md",
+   "words/管理.md",
+   "words/組.md",
+   "words/行儀.md",
+   "words/貯金.md",
+   "words/贅沢.md",
+   "words/過ごす.md",
+   "articles/numbers-and-counters.md"
+  ],
+  "newWords": [
+   "結論",
+   "結果",
+   "直",
+   "今に",
+   "やがて",
+   "いずれ",
+   "結局",
+   "経由",
+   "営業",
+   "経営",
+   "経つ",
+   "組合",
+   "組む",
+   "態度",
+   "位置",
+   "地位",
+   "立場",
+   "位",
+   "段",
+   "級",
+   "納得",
+   "精々",
+   "粉",
+   "籠",
+   "範囲",
+   "節約",
+   "節",
+   "管",
+   "答案",
+   "筆"
+  ],
+  "selection": "Batch 36 selected 30 word cards from the frozen source: chunk 0 of the 83-batch dependency-closed queue of the general remaining-word pool (30 of 2,487 remaining EN words, recomputed after Batch 196). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. 今に→直, やがて→今に/直, いずれ→やがて, 結局→やがて/いずれ, 経営→営業, 位置→立場, 地位→位置, 立場→地位/態度, 位→地位/段, 段→級 and 級→位 are the dependency edges inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped: 結果→成績; やがて→そのうち and 何時か; 経由→直接; 営業→商売; 組む→協力; 段→列; 級→学年; 納得→満足; 精々→最高; 粉→kanji 粉; 範囲→対象; 管→kanji 管 and 流れる; 筆→kanji 筆. 11 written kanji have no RU kanji card: 態, 案, 筆, 管, 節, 範, 籠, 粉, 納, 級, 結. No RU-only links were added (EN link parity).",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: dropping the comma in 結局's «В конце концов, он же ребёнок» (punctuation choice; the Большой универсальный словарь supports the decisive-argument use); guarding 組合–団体/組織 (low confidence; 組合 already guards 会) and 今に–先 (not recommended by the reviewer); rewording 管's dictionary-entry note (it renders the frozen EN statement that the entry below supports くだ); 節's 不思議な節 translation, the 経由 and 経つ title wording and a 範囲–幅 prose contrast (EN parity; 範囲 already guards 幅). The RU-added comparison sentences that support the extra guards are plain text because the EN cards do not link them and RU-only links break EN link parity. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "いずれ": [
+    "どの",
+    "どっち"
+   ],
+   "今に": [
+    "もうすぐ",
+    "いずれ"
+   ],
+   "位": [
+    "くらい"
+   ],
+   "位置": [
+    "所",
+    "場"
+   ],
+   "営業": [
+    "売る"
+   ],
+   "態度": [
+    "行儀"
+   ],
+   "立場": [
+    "見解"
+   ],
+   "筆": [
+    "手"
+   ],
+   "答案": [
+    "答"
+   ],
+   "節": [
+    "曲",
+    "点",
+    "特徴"
+   ],
+   "節約": [
+    "省く",
+    "貯金"
+   ],
+   "範囲": [
+    "額"
+   ],
+   "精々": [
+    "以下"
+   ],
+   "納得": [
+    "承知"
+   ],
+   "級": [
+    "水準"
+   ],
+   "経由": [
+    "通過"
+   ],
+   "結局": [
+    "末"
+   ],
+   "結論": [
+    "判断"
+   ]
+  },
+  "titles": {
+   "いずれ": "который из них; рано или поздно",
+   "やがて": "со временем; по прошествии времени",
+   "今に": "в скором будущем; до наших дней",
+   "位": "ранг; разряд числа",
+   "位置": "расположение; местонахождение",
+   "営業": "коммерческая деятельность; продажи",
+   "地位": "социальное положение; статус",
+   "態度": "отношение (к кому-то); манера держаться",
+   "段": "ступенька; ярус; дан",
+   "直": "вскоре; в скором времени",
+   "立場": "положение (человека); угол зрения",
+   "筆": "кисть для письма",
+   "答案": "ответы на экзамене; экзаменационная работа",
+   "管": "трубка; труба",
+   "節": "сустав; напев; примечательная черта",
+   "節約": "экономия; бережливое расходование",
+   "範囲": "рамки; охват",
+   "籠": "корзина; клетка",
+   "粉": "порошок; мука",
+   "精々": "самое большее; по мере сил",
+   "納得": "убеждённость; принятие (доводов)",
+   "級": "уровень экзамена; степень в системе рангов",
+   "組む": "составлять (из частей); объединяться (с кем-то)",
+   "組合": "объединение по интересам; профсоюз",
+   "経つ": "истекать (о времени)",
+   "経営": "управление предприятием; ведение дела",
+   "経由": "через (промежуточный пункт); путь через",
+   "結局": "в конце концов; в конечном счёте",
+   "結果": "результат; исход",
+   "結論": "заключение; итоговый вывод"
+  }
+ }
+}
