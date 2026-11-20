@@ -1,6 +1,41 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch210 thirty words (general word queue)
+## Current published source milestone: batch211 thirty words (general word queue)
+
+Batch211 adds 30 Russian word articles: 少女 小麦 小屋 包み 小包 小 専攻 対象 対 審判 密 寄付 宿 宿泊 家賃 家具 実験 実施
+実行 実現 実は 宝石 宝 宜しく パス 券 定期 信仰 宗教 完成. They are chunk 3 of 72 of the general remaining-word queue
+(recomputed after Batch207: 2,157 EN words remaining); the dependency closure is exactly the 30 requested words, so every EN
+quiz_exclusions target resolves to an existing RU word or a batch word. Seven existing word pages, the kanji pages 券, 包, 完,
+宝, 専 and 成 and the article numbers-and-counters receive 24 navigation-only link wraps at EN link positions; in 少年 the
+comparison gloss for 少女 was also aligned with the new card. 麦, 攻, 象, 審, 密, 泊, 賃, 施, 宜, 仰 and 宗 remain plain labels
+because those kanji have no RU card.
+
+The batch covers young girls (少女), wheat (小麦), huts and sheds (小屋), wrapped bundles and parcels (包み, 小包), small size
+(小), a university major (専攻), targets and objects of attention (対象), "versus" and score ratios (対), verdicts, umpiring and
+judges (審判), density and close ties (密), donations (寄付), lodgings and overnight stays (宿, 宿泊), rent (家賃), furniture
+(家具), experiments (実験), holding events and putting rules into effect (実施), carrying out plans (実行), realization (実現),
+"actually" (実は), gems and treasure (宝石, 宝), "best regards" requests (宜しく), the two katakana words パス (a pass and a
+file path), tickets and coupons (券), fixed terms, schedules and commuter passes (定期), religious faith and religion (信仰,
+宗教) and completion (完成). All 25 EN exclusions are retained; eight direct guards on eight new cards cover the reviewed RU
+title overlaps and sense neighbours: 密–近い, 宿泊–泊まる, 実施–行う, 完成–仕舞い and 少女–女子 (required), 宿–泊まる,
+実行–行う and 実現–実行 (conservative). Exclusions are one-sided declarations that Android applies in both directions; the
+batch changes exclusions only on its new cards.
+The candidate was committed signed and pushed before review. The blind facet-split review found four correctness findings
+(包み's wrapping boundary for 荷物; 宝石's examples using 石's bare «камень»; 少女's title omitting childhood; パス's title omitting
+the admission pass and passing a turn), no consistency or quiz-safety finding, and five comprehensibility findings (パス's
+English-dependent pass/path split, 実行's examples not contrasting with 実現, 定期's English "regular" comparison, 宝石's
+glosses, and source-list clauses in 少女, 対 and 密). One signed fix commit resolved them, retitled 小包 «посылка» on
+dictionary evidence and added the 少女–女子 guard; the source-list notes in 対 and 密 mirror EN and the published series,
+so that part of the finding was withdrawn. No RU-only links were added. The serial rechecks reported all facets clean.
+
+Qualified progress is **4,449 reviewed-current / 8 reviewed runtime-blocked / 3,821 pending of 8,278**,
+with 2,983 words, 718 kanji and 718 strokes. See the [intake](translation-batches/211-words-batch-50-intake.json),
+[independent review](translation-batches/211-words-batch-50-independent-review-001.md),
+[recheck](translation-batches/211-words-batch-50-recheck-001.md),
+[qualified source record](translation-batches/211-words-batch-50-reviewed-source.json) and
+[final validation](translation-batches/211-words-batch-50-final-validation-001.json).
+
+## Previous published source milestone: batch210 thirty words (general word queue)
 
 Batch210 adds 30 Russian word articles: 年間 年月 年寄り 年代 いつでも 常に 年中 平等 平均 平和 幕 常識 帰宅 帯 差別 巨大
 巣 大陸 州 嵐 岩 屋根 届く 居間 居眠り 居る 就職 就く ボーイ 少年. They are chunk 2 of 72 of the general remaining-word queue

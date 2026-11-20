@@ -1,0 +1,152 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "211-words-batch-50",
+ "publishedBaseline": "4a479720e9b6f387fabb96c74ffb98530aa5eb4e",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 53d6950 and serialized rechecks of the signed fix commit 37c0c96 found every finding resolved or kept as an accepted optional remainder. Correctness raised four minor findings, all fixed: 包み's comparison now says 荷物 covers luggage and parcels whether or not they are wrapped this way; 宝石's examples say «драгоценный камень» instead of the bare «камень», the whole title of 石; 少女's title gains the childhood sense («девочка; юная девушка»); and パス's title also names passing one's turn and the admission pass («пас (мяча; отказ от хода); успешная сдача экзамена; пропуск (документ); путь к файлу»). Its 小包 limit was resolved by Daijisen evidence: the title «посылка» no longer restricts the word to the post, and 包み's closing pointer was aligned. Comprehensibility raised five minor findings: パス's two-word explanation no longer depends on reading English pass/path; 実行's examples («выполним этот план»; 実行に移す «приступить к выполнению, перейти к делу») now contrast with 実現's result; 定期's 普通 contrast is stated in Russian terms instead of English \"regular\"; 宝石's definition and examples avoid 石's title (merged with the correctness fix); and 少女's source-list sentence no longer names the rejected gloss. The one-sentence source-list notes in 対 and 密 were kept as in EN and the published series. The optional kana for 訓練を行う in 実施 was adopted. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 25 EN exclusions across 14 lists are retained. Eight direct, one-sided exclusions on eight new cards cover reviewed RU title overlaps and sense neighbours. Required: 密–近い (shared «близкий»), 宿泊–泊まる, 実施–行う and 完成–仕舞い (shared «завершение», added by the coordinator before the candidate when 完成 was retitled). 少女–女子 was added in the fix when 少女's title gained «девочка», because 女子's «девочки» is the same noun; it parallels EN's 少年–男子. Conservative: 宿–泊まる, 実行–行う and 実現–実行. The consistency reviewer classified the seven candidate guards the same way and found none unjustified; its recheck confirmed 少女–女子 as a present direct pair. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/211-words-batch-50-intake.json",
+  "docs/translation-batches/211-words-batch-50-independent-review-001.md",
+  "docs/translation-batches/211-words-batch-50-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "麦",
+   "攻",
+   "象",
+   "審",
+   "密",
+   "泊",
+   "賃",
+   "施",
+   "宜",
+   "仰",
+   "宗"
+  ],
+  "navigationNote": "Restored 24 relative links across the 14 listed Markdown files at the corresponding EN-linked positions, using EN's href forms: one in the article numbers-and-counters (to 対); in the kanji pages, two in 券 (to 券), two in 包 (one each to 包み and 小包), three each in 完 and 成 (to 完成), four in 宝 (two each to 宝 and 宝石) and two in 専 (to 専攻); and one in each of the word cards 実に and 実際 (to 実は), 提案 (to 実行), 滞在 (to 宿泊), 範囲 (to 対象), 貢献 (to 寄付) and 少年 (to 少女). Mentions that EN leaves unlinked stay plain. No surrounding prose was changed except in 少年, whose comparison gloss for 少女 was aligned with the new card («девочка» became «девочка, юная девушка»). Missing kanji cards and unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "articles/numbers-and-counters.md",
+   "kanji/券.md",
+   "kanji/包.md",
+   "kanji/完.md",
+   "kanji/宝.md",
+   "kanji/専.md",
+   "kanji/成.md",
+   "words/実に.md",
+   "words/実際.md",
+   "words/少年.md",
+   "words/提案.md",
+   "words/滞在.md",
+   "words/範囲.md",
+   "words/貢献.md"
+  ],
+  "newWords": [
+   "少女",
+   "小麦",
+   "小屋",
+   "包み",
+   "小包",
+   "小",
+   "専攻",
+   "対象",
+   "対",
+   "審判",
+   "密",
+   "寄付",
+   "宿",
+   "宿泊",
+   "家賃",
+   "家具",
+   "実験",
+   "実施",
+   "実行",
+   "実現",
+   "実は",
+   "宝石",
+   "宝",
+   "宜しく",
+   "パス",
+   "券",
+   "定期",
+   "信仰",
+   "宗教",
+   "完成"
+  ],
+  "selection": "Batch 50 selected 30 word cards from the frozen source: chunk 3 of the 72-batch dependency-closed queue of the general remaining-word pool (recomputed after Batch 207 from 2,157 remaining EN words). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. 小包→包み, 宿泊→宿, 実行→実施, 宗教→信仰, 定期→パス and 定期→券 are the dependency edges inside the batch.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (11 EN link occurrences, 10 targets): 小麦→kanji 麦; 対象→kanji 象; 宿泊→kanji 泊; 専攻→学ぶ; 実は→ところで; 宜しく→お願いします; 信仰→信じる and 宗教→信じる; 信仰→信用; 完成→完了; 完成→完全. 11 written kanji have no RU kanji card: 麦, 攻, 象, 審, 密, 泊, 賃, 施, 宜, 仰, 宗. No RU-only links were added (EN link parity).",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: the consistency reviewer's suggested guards 定期↔期間, 実験↔試験, パス↔道 and 小屋↔家, and the «девушка» stem overlaps of 少女 with 彼女 and 恋人, because EN declares none, no title shares an exact segment, the cards teach the contrasts in their bodies and the app deduplicates exact titles only; the reviewer accepted the declines in its recheck. The correctness reviewer's optional RU-only links (彼女 in 少女, 行う in 実施 and 実行, 実際 in 実は, 玉 in 宝石) were not added, because those comparison mentions have no EN link at that position and EN link parity is kept; its optional «билет» for 券 was not adopted, because it is the whole title of 切符, which 券 already guards. The comprehensibility findings against the source-list sentences in 対 and 密 were declined because they mirror EN's one-sentence notes and follow the published pattern in 便, 変化 and はあ; the reviewer withdrew that part in its recheck. Its optional notes on 宜しく's title and on naming wago/kango in 家賃 and 実は were not adopted; no defect was shown. The consistency reviewer's strokes raw-hash limit is outside the batch: the manifest hashes text after CRLF-to-LF normalization, as recorded in Batch 209. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "完成": [
+    "仕舞い"
+   ],
+   "実施": [
+    "行う"
+   ],
+   "実現": [
+    "実行"
+   ],
+   "実行": [
+    "行う"
+   ],
+   "宿": [
+    "泊まる"
+   ],
+   "宿泊": [
+    "泊まる"
+   ],
+   "密": [
+    "近い"
+   ],
+   "少女": [
+    "女子"
+   ]
+  },
+  "titles": {
+   "パス": "пас (мяча; отказ от хода); успешная сдача экзамена; пропуск (документ); путь к файлу",
+   "信仰": "вера (религиозная)",
+   "券": "талон; купон",
+   "包み": "свёрток; узелок",
+   "完成": "завершение (изделия, произведения); законченный вид",
+   "宗教": "религия",
+   "定期": "установленный срок; по графику; проездной",
+   "宜しく": "передайте привет; прошу о благосклонности",
+   "宝": "сокровище",
+   "宝石": "драгоценный камень; самоцвет",
+   "実は": "на самом деле; вообще-то",
+   "実施": "проведение (мероприятий, опросов); введение в действие",
+   "実現": "осуществление (мечты, замысла)",
+   "実行": "претворение в жизнь; исполнение (программы)",
+   "実験": "эксперимент",
+   "家具": "мебель",
+   "家賃": "плата за съём жилья",
+   "宿": "место ночлега; гостиница",
+   "宿泊": "ночёвка; размещение (в гостинице)",
+   "寄付": "пожертвование; добровольный взнос",
+   "密": "плотный; близкий (о связях)",
+   "審判": "вердикт; судейство; спортивный судья",
+   "対": "против (о соперниках); к (в счёте, пропорции)",
+   "対象": "объект (действия, внимания); целевая группа",
+   "専攻": "специальность (в вузе); специализация",
+   "小": "малый размер; что-либо малого размера",
+   "小包": "посылка",
+   "小屋": "хижина; сарай; домик",
+   "小麦": "пшеница",
+   "少女": "девочка; юная девушка"
+  }
+ }
+}

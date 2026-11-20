@@ -8,7 +8,20 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch210 thirty words
+## Current published source milestone: batch211 thirty words
+
+Batch211 added 30 Russian word articles, chunk 3 of the recomputed general remaining-word queue (dependency-closed
+under quiz_exclusions with nothing added), plus 24 navigation-only link wraps in seven existing word pages, the kanji
+pages 券, 包, 完, 宝, 専 and 成 and the article numbers-and-counters. The candidate was committed signed and pushed before
+review. The blind facet-split review found four correctness findings (包み, 宝石, 少女, パス), no consistency or quiz-safety
+finding and five comprehensibility findings (パス, 実行, 定期, 宝石, source-list clauses). One signed fix commit resolved
+them; the source-list notes in 対 and 密 mirror EN, so that part was withdrawn. The serial rechecks reported all facets
+clean.
+Progress: **4,449 reviewed-current / 8 runtime-blocked / 3,821 pending of 8,278**; 2,983 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch211-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch210 thirty words
 
 Batch210 added 30 Russian word articles, chunk 2 of the recomputed general remaining-word queue (dependency-closed
 under quiz_exclusions with nothing added), plus 35 navigation-only link wraps in fifteen existing word pages and the kanji
@@ -18,7 +31,7 @@ findings (居る, 帯, 居眠り, 年寄り, 就職). One signed fix commit reso
 became optional. The serial rechecks reported all facets clean.
 Progress: **4,419 reviewed-current / 8 runtime-blocked / 3,851 pending of 8,278**; 2,953 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch210-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch210-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch209 thirty words
 
