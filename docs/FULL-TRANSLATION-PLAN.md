@@ -1,6 +1,39 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch203 thirty words (general word queue)
+## Current published source milestone: batch204 thirty words (general word queue)
+
+Batch204 adds 30 Russian word articles: 正式 昼食 お昼 正午 プラス 正 歓迎 歌手 事情 次第 欠席 欠ける エンジン 機関 機嫌
+横断 横切る 権利 様々 様 構成 検討 梅雨 桜 株 栄養 板 松 来 束. They are chunk 0 of 76 of the general remaining-word queue
+(recomputed after Batch203: 2,277 EN words remaining); the dependency closure is exactly the 30 requested words, so every EN
+quiz_exclusions target resolves to an existing RU word or a batch word. Eleven existing word pages, the kanji pages 席, 構, 権
+and 欠 and the article numbers-and-counters receive 24 navigation-only link wraps at EN link positions; 嫌, 松, 板, 栄, 株, 桜,
+梅, 検, 歓, 第, 討 and 養 remain plain labels because those kanji have no RU card.
+
+The batch covers formality (正式), lunch and noon (昼食, お昼, 正午), plus and the true, official or positive (プラス, 正), welcome
+(歓迎), singers (歌手), circumstances and the "depending on / as soon as" suffix (事情, 次第), absence and lack (欠席, 欠ける),
+engines and institutions (エンジン, 機関), mood (機嫌), crossing (横断, 横切る), rights (権利), variety and manner (様々, 様),
+composition (構成), deliberation (検討), the rainy season and cherry trees (梅雨, 桜), shares and stumps (株), nutrition
+(栄養), boards (板), pines and top ranks (松), 来 'coming; since' and bundles (束). All 28 EN exclusions are retained; 19 direct
+guards beyond EN cover 昼食–昼, お昼–昼間, プラス–足す, 正–正しい, 歓迎–受付, 事情–原因, 次第–流れ/途端, 欠席–休む,
+機嫌–気持ち, 横断–渡る/横切る, 様–手段, 構成–組む, 検討–考える/論じる, 栄養–食料品, 板–黒板 and 松–松竹梅.
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+Because the signing key's passphrase cache had expired, Batch204 was authored and reviewed as a staged tree on top of the
+reviewed Batch203 tree in a scratch worktree; no unsigned commit was made. The blind facet-split review found an overstated
+past-only restriction in 次第's Russian-added 途端 comparison, missing お昼–昼間 and プラス–足す guards, and a 歓迎 people-example
+worded with 迎える's Russian «встречать; приветствовать». All were fixed; the optional comparison-entry citations on 事情, 様,
+構成, 検討, 栄養 and 松 were adopted. After Batch203 was published, the exact reviewed tree was committed signed on a branch from
+its merge. The records preserve the author's and reviewer's differing required-versus-conservative classification of the
+RU-added pairs. The serial rechecks reported all facets clean.
+
+Qualified progress is **4,239 reviewed-current / 8 reviewed runtime-blocked / 4,031 pending of 8,278**,
+with 2,773 words, 718 kanji and 718 strokes. See the [intake](translation-batches/204-words-batch-43-intake.json),
+[independent review](translation-batches/204-words-batch-43-independent-review-001.md),
+[recheck](translation-batches/204-words-batch-43-recheck-001.md),
+[qualified source record](translation-batches/204-words-batch-43-reviewed-source.json) and
+[final validation](translation-batches/204-words-batch-43-final-validation-001.json).
+
+## Previous published source milestone: batch203 thirty words (general word queue)
 
 Batch203 adds 30 Russian word articles: 注目 注 泥 波 泡 泉 沖 意志 決心 汚染 汗 氷 気味 気候 かわいそう 哀れ 気の毒
 好む 気に入る 氏 毛布 比較 毒 母親 殺す 残す 死亡 歩道 正確 正直. They are chunk 0 of 77 of the general remaining-word queue
