@@ -1,0 +1,152 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "237-words-batch-76",
+ "publishedBaseline": "8e183ba1efe41ff7c3c37519b37e5b513ce65bba",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate be448e7 and serialized rechecks of the signed fix commits 42f9bcc and 6ff71fb found no remaining defect. Before the candidate the coordinator made no content edits: no title edit, no exclusion append and no held link; the 37 lane files were copied unchanged. Its adjudication records: \"Titles compared with EN one by one; no coordinator title edit.\" \"RU-added exclusions accepted as reported: 8 pairs; required 親類→親戚 («родственник», «родня»), 見送る→省く and 見送る→飛ばす («пропускать»); conservative 解散→終了/閉会, 観測→読み, 回答→応対, 慰める→落ち着く (new `quiz_exclusions` line; EN has none).\" It records that `link_parity.py` over the 37 paths reports the RU-only link 言付ける:35 → 言い付ける (a reading/spelling comparison that the frozen EN card makes in plain text; the target is in this batch; B222 precedent), that the kanji/付.md extra link to 付く and the kanji/言.md extra link to 言葉 are pre-existing at 122b019 and not Batch 237 changes, and that no link is lost; that `navonly.py` reports 7 files, 9 links added, 0 problems; that the lane title screen found one unguarded exact-segment pair, アイデア ~ アイディア, whose whole titles are identical («идея; задумка»), accepted at EN parity with no guard; that «нет уж, увольте» for the ～はごめんだ refusal sense of ごめん, «задумка» in the アイデア/アイディア titles and «доносить» in the 言い付ける title were handed to the reviewers as unverified Russian usage; and that, after the Batch 236 fix, a title screen rerun on 8b5e2b3 changed only stem-only leads (詫びる ~ 請う «проси», 応ずる ~ 請う «пригл» and 言付ける ~ 恐縮 «доста», each decided without a guard; すまない ~ 恐縮 «хлопо» already guarded by the EN pair) and that \"No B237 path quotes the replaced 恐縮/請う titles or other removed wording.\" The candidate screen on the published Batch 236 tree (b237-cand-screen.txt) found one unguarded exact segment, the same アイデア ~ アイディア pair; the other exact shared segments are guarded (お待ちどおさま–すみません «простите», お待たせしました–お待ちどおさま «что заставили ждать», お待たせしました–すみません «извините», すまない–ありがとう and すまない–どうも «спасибо», 応ずる–応じる «откликаться», 応ずる–承る «принимать», アイデア–考え and アイディア–考え «идея», 親類–親戚 «родня» and «родственник», 見送る–省く and 見送る–飛ばす «пропускать», and 見送る–送る «провожать»). Correctness raised no finding and no optional note. Consistency raised three low-severity quiz-safety findings. Q1: すまない «извини, виноват; спасибо, прости за хлопоты» shares «виноват-» with 悪い «плохой; виноватый», whose card teaches 悪いね as a colloquial apology; 悪い is now appended to すまない's quiz_exclusions. Q2: おじゃまします and すまない are both \"sorry for the trouble\" formulas in the RU titles; すまない is now appended to おじゃまします's list. Q3: 頼む «просить; поручать» shares «поручать» with 言付ける «передавать весть через кого-либо; поручать доставку (вещи)» and overlaps the commanding sense of 言い付ける; 頼む is now appended to both lists, while 依頼, a noun sharing no exact segment, was not added. Comprehensibility raised five findings. C237-1: 覗く's title and H1 «заглядывать, подглядывать; выглядывать (показываться частично)» put secrecy into the quiz gloss, although the card's note at :34 says it is not obligatory; they now read «заглядывать; выглядывать (показываться частично)», the counterpart of EN \"peek; show partly\", without the proposed qualifier «(в отверстие, ненадолго)», because the body (:16, :30) already explains the hole and quick-look frames, and :26 now reads «заглядывает ли кто-то» instead of «подглядывает ли кто-то». C237-2: 言い付ける:21 «Я рассказал учителю о проделке друга.» was neutral narration for the tell-on example; it now reads «Я наябедничал учителю о проделке друга.» (JMdict 1264230 sense 2). C237-3, on ごめん's title segment «нет уж, увольте» beside the 御免 «освобождение от должности» sense at :27–30, was declined: «Увольте!» is an established refusal formula (Ozhegov), the card pairs it with «мне этого не надо» (:16) and labels the example a refusal (:21). C237-4: 親類:20 «Неподалёку живёт наш родственник.» added a possessor; it now reads «Неподалёку живёт родственник.», matching the Japanese and EN \"A relative lives nearby\". C237-5: おじゃまします's title and H1 «простите за беспокойство (входя к кому-либо); я вхожу» now read «простите за беспокойство (входя к кому-либо)», because «я вхожу» reads as the ordinary first person of 入る, and :16 now reads «おじゃまします — вежливое приветствие, которое говорят, входя в чужой дом: «простите за беспокойство».» Its optional note on 言付ける:19 was adopted: «Я передал через друга гостинец для мамы.» now reads «Я поручил другу передать маме гостинец.», closer to EN \"entrusted\" and to the title «поручать доставку»; its optional note on the unexplained サ変 in 応ずる:37 was adopted, following the published 論ずる precedent: the line now reads «объясняют эту связь через более старое спряжение サ変（さへん）— неправильное спряжение по образцу する — и»; its optional notes on 観測:21 «прогноз», 見送る:40 «в долгий ящик» and すまない:4 «виноват» were declined. Fix 2 changed one line found after fix 1 by the coordinator's corpus grep for the removed wording (the post-fix screen checks titles only): ごめんください:31 still quoted the old おじゃまします title «простите за беспокойство; я вхожу» and now reads «[おじゃまします](おじゃまします.md) — «простите за беспокойство» при входе к кому-либо — признаёт, что гость входит в пространство хозяина.»; that grep found no other quote of the removed wording except the published 見る:37, which is outside the batch and unchanged. Fix 1 (42f9bcc) applied the dispositions; fix 2 (6ff71fb) corrected words/ごめんください.md:31, whose synonym comparison still quoted the old おじゃまします title «простите за беспокойство; я вхожу» (found after fix 1 by a corpus grep for removed wording). All rechecks ran serially, read-only, with no generator run: correctness rechecked fix 1 at 42f9bcc and then fix 2 narrowly at 6ff71fb; consistency and comprehensibility each rechecked both fixes once at 6ff71fb (combined diff be448e7..6ff71fb).\nCorrectness (gpt-6.1-sol) found the fix-1 rewrites at least as accurate (覗く title and :26 without «подглядывать», 言い付ける:21 «наябедничал», 言付ける:19 «поручил другу передать маме гостинец», おじゃまします without «я вхожу», 親類:20 without «наш»); it verified the 応ずる サ変 gloss against Daijisen and Seisenban, judged the four new exclusions conservative and found no correctness problem with declining C237-3 («нет уж, увольте» as a refusal, Gramota). At 6ff71fb it found ごめんください:31 accurate, with the contrast with ごめんください kept, and no correctness problem with leaving the published 見る:37 gloss «заглядывать, подглядывать» unchanged. No regression: correctness CLEAN, scoped coverage CLEAN.\nConsistency (claude-sonnet-5.5) judged Q1 (すまない→悪い), Q2 (おじゃまします→すまない) and Q3 (言付ける, 言い付ける→頼む) resolved; it confirmed title = H1 for おじゃまします and 覗く, found no other RU word title carrying «заглядывать» and no unguarded exact-segment collision (its own grep of RU word titles, not a rerun of the coordinator's screen), found the removed «я вхожу» and «подглядывать» only in 見る:37 (a list gloss, not a quiz title; the follow-up record acceptable), no link change (the one RU-only link 言付ける→言い付ける unchanged), tools/validate.py 0 errors and manifest.json equal to an in-memory rebuild: consistency CLEAN, quiz safety CLEAN, cross-file integration CLEAN.\nComprehensibility (grok-4.7) judged C237-1, C237-2, C237-4 and C237-5 resolved (C237-5 including the fix-2 quote in ごめんください:31), withdrew C237-3, judged the adopted 言付ける:19 and 応ずる サ変 optionals resolved, withdrew the 観測:21, 見送る:40 and すまない:4 optionals, accepted the 見る:37 gloss as outside the batch and found no regression: comprehensibility CLEAN, scoped coverage CLEAN.\nNo actionable finding remains; no further fix is needed. Neither fix changed a Japanese example sentence, sourced reading, link, navigation file or kanji card. The correctness and comprehensibility reviewers read all 30 cards in full against EN; the consistency reviewer read all 30 RU cards in full, compared their front matter, heading counts and link sets with the frozen EN cards by script, read the seven navigation diffs, checked the intake path list, compared the manifest with an in-memory rebuild and ran `tools/validate.py` (0 errors). Evidence includes the JMdict_e entries for every primary JMdict ID; Digital Daijisen on Weblio (among others 御免, ごめんください, 詫びる, 謝る, すまない, 診る, 診断, 訳す, 言付ける, 評論, 言葉遣い, 親類, 見送る, サ行変格活用 and 覗く); Kotobank (御待遠様, 応ずる, 応じる, 回答, 解答 and 観念, from Daijisen and Seisenban); the dictionaries on gramota.ru, including Kuznetsov (among others уволить, задумка, доносить, ябедничать, весть, гостинец, виноватый, подглядеть, смирение, критический and прогноз); and Ozhegov («Увольте!», cited in the dispositions). The rechecks found no regression. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 171 EN exclusions across 29 lists are retained in EN order; 慰める has none in EN. Nineteen lie inside the batch: ごめんください–おじゃまします, お待たせしました–お待ちどおさま, ごめん–ごめんください, おじゃまします, お待ちどおさま and お待たせしました, すまない–ごめん, お待ちどおさま and お待たせしました, 詫びる–すまない and ごめん, 診る–診断, 回答–応ずる, 解答–回答 and 応ずる, 解散–溶ける, 観測–占う, and 観念–アイデア and アイディア; the other 152 target existing RU cards. Twelve direct, one-sided exclusions on ten new cards cover reviewed RU title overlaps, all appended at the end of their lists, 慰める's on a new quiz_exclusions line. Eight on six cards came from the authoring lane, were accepted by the coordinator as reported and were declared at the candidate: 親類–親戚 (親戚 «родственник; родня», sharing «родственник» and «родня»), 見送る–省く and 飛ばす (省く «пропускать; экономить (силы)» and 飛ばす «запускать (в воздух); пропускать», sharing «пропускать»), 解散–終了 and 閉会 (終了 «окончание (мероприятия, процесса)» and 閉会 «закрытие собрания (мероприятия)»), 観測–読み (読み «чтение; оценка ситуации»), 回答–応対 (応対 «общение с посетителями (клиентами); ответ на обращения (в том числе по телефону)») and 慰める–落ち着く (落ち着く «успокаиваться; обустраиваться»). Fix 1 added four and removed none: すまない–悪い (consistency Q1; 悪い «плохой; виноватый»), おじゃまします–すまない (Q2), and 言付ける–頼む and 言い付ける–頼む (Q3; 頼む «просить; поручать»); fix 2 changed no exclusion. The lane report, as the coordinator accepted it, classed 親類–親戚, 見送る–省く and 見送る–飛ばす as required and the other five lane entries as conservative; the fix-1 entries are conservative. The consistency reviewer classed 回答–応対, 解散–終了, 観測–読み and 親類–親戚 as required, 解散–閉会 as conservative-to-required, 見送る–省く and 見送る–飛ばす as required at title level and conservative dictionary-wise, and 慰める–落ち着く as conservative (real Russian-root overlap, necessity unestablished); it found no unjustified entry. アイデア and アイディア carry the identical title «идея; задумка» and, as in EN, declare no mutual exclusion; identical titles are deduplicated. After fix 1 neither retitled card shares an exact title segment with another RU word title in the post-fix screen (pool: RU primary words plus the Batch 238 lane drafts). 覗く's remaining first segment «заглядывать» occurs in no other title. おじゃまします keeps only stem leads from its unchanged first segment «простите за беспокойство», all present at the candidate: ごめん, ごめんなさい, すまない and すみません (guarded) and お待ちどおさま and unrelated words sharing «прост» or «беспо» (unguarded). The consistency recheck, by its own grep of RU word titles rather than a rerun of the coordinator's screen, also found «заглядывать» only in 覗く and no unguarded exact-segment collision. Every RU addition is appended at the end of its list; nothing is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/237-words-batch-76-intake.json",
+  "docs/translation-batches/237-words-batch-76-independent-review-001.md",
+  "docs/translation-batches/237-words-batch-76-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "応",
+   "慰",
+   "測",
+   "溶",
+   "覗",
+   "訳",
+   "診",
+   "評",
+   "詫",
+   "遣"
+  ],
+  "navigationNote": "Restored 9 relative links in the 7 listed Markdown files at the corresponding EN-linked positions, using EN's href forms (../words/X.md in the kanji cards, X.md in the word cards): 言い付ける in kanji 付 (line 51, matching EN line 38, in the word list), 占う in kanji 占 (line 20, matching EN line 20, in prose; line 32, matching EN line 32, in the うらな.う reading-table row; and line 37, matching EN line 37, in the word list; the mention at line 44 stays plain, as EN's line 43 mention does, and so does the footer), 言い付ける in kanji 言 (line 41, matching EN line 39, in the word list), 応ずる in word 応じる (line 39, matching EN line 38, in prose), 溶ける in word 解ける (line 35, matching EN line 28, in prose), 解説 in word 説明 (line 36, matching EN line 30, in prose) and 解散 in word 集合 (line 31, matching EN line 33, in prose). No surrounding prose was changed. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/付.md",
+   "kanji/占.md",
+   "kanji/言.md",
+   "words/応じる.md",
+   "words/解ける.md",
+   "words/説明.md",
+   "words/集合.md"
+  ],
+  "newWords": [
+   "おじゃまします",
+   "ごめんください",
+   "お待ちどおさま",
+   "お待たせしました",
+   "ごめん",
+   "すまない",
+   "詫びる",
+   "評論",
+   "診断",
+   "診る",
+   "訳す",
+   "言葉遣い",
+   "言付ける",
+   "言い付ける",
+   "解説",
+   "応ずる",
+   "回答",
+   "解答",
+   "溶ける",
+   "解散",
+   "占う",
+   "観測",
+   "アイデア",
+   "アイディア",
+   "観念",
+   "親類",
+   "親指",
+   "覗く",
+   "見送る",
+   "慰める"
+  ],
+  "selection": "Batch 76 selected 30 word cards from the frozen source: chunk 29 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,287 remained after Batch 236, and 1,257 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing outside them was added. Nineteen source exclusion entries lie inside the batch; the other 152 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (5 EN link occurrences, 5 targets) in the new cards: 詫びる→words/悔やむ, 訳す→kanji 訳, 言葉遣い→words/敬語, 溶ける→kanji 溶 and 観測→kanji 測. 10 written kanji have no RU kanji card: 応 慰 測 溶 覗 訳 診 評 詫 遣 (EN has cards only for 測, 溶 and 訳). Links otherwise follow EN. The one RU-only link is 言付ける:35 → 言い付ける, a reading/spelling comparison named in plain text in the frozen EN card, whose target is in this batch. The kanji cards 付 and 言 keep their RU-only links to 付く (lines 22, 35 and 52) and 言葉 (lines 33 and 42), present at the published baseline and not Batch 237 changes.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined, partially adopted, adapted or no-action items: comprehensibility C237-1 was adopted with a shorter wording than proposed: 覗く's title and H1 drop «подглядывать», but the proposed qualifier «(в отверстие, ненадолго)» was not added, because the body (:16, :30) already explains the hole and quick-look frames; at recheck the reviewer judged C237-1 resolved, the extra qualifier unnecessary and the fix not partial. C237-5 was adopted with adapted wording at :16 («おじゃまします — вежливое приветствие, которое говорят, входя в чужой дом: «простите за беспокойство».» rather than the proposed ««простите за беспокойство» — формула, которую говорят, входя.»); the entering situation stays in the title qualifier and in :16/:21. Comprehensibility C237-3 (ごめん:4,12,16,19, «нет уж, увольте» beside «освобождение от должности» at :27–30) was declined: «Нет уж, увольте» is an established colloquial refusal formula in Russian («Увольте!» — просьба избавить от чего-л., отказ; Ozhegov), the natural counterpart of EN \"no thanks\"; Russian readers distinguish it from «уволить» 'dismiss'; the card already pairs it with «мне этого не надо» (:16) and states at :21 that the example is a refusal; the 御免 'release from office' sense at :27–30 is etymologically related (exemption), so there is no misleading merge to prevent, and there is no title collision. The correctness reviewer found no correctness problem with declining it (Kuznetsov definition 3 and the universal dictionary on gramota.ru), and the comprehensibility reviewer withdrew it at recheck. Its optional notes were adopted for 言付ける:19 and for the サ変 gloss in 応ずる:37 and declined for 観測:21 «прогноз» (an example translation, not a title; the 観測 title «прогнозная оценка (развития событий)» and :18 already frame the sense, and EN :4 itself glosses \"prediction\"), 見送る:40 «в долгий ящик» (it renders EN \"shelving a plan\"; the next sentence explicitly says this neither promises a new date nor always means cancellation) and すまない:4 «виноват» (the collision risk is handled by Q1, and «виноват» is an ordinary colloquial apology); the reviewer withdrew all three at recheck. Consistency Q3's 依頼 «просьба; поручение» was not guarded: it is a noun and shares no exact segment, and the reviewer's remedy adds only 頼む. The identical アイデア/アイディア titles and the one-sided お待ちどおさま/お待たせしました declaration led to no action: identical titles are deduplicated by the app, and quiz_exclusions are symmetric pair declarations. Follow-up list (outside the batch; not changed): the published 見る:37 related-expressions gloss «覗く のぞく — заглядывать, подглядывать» (EN \"peek\"); 覗く does include the secret-peeping sense and the list gloss is not a quiz label, and changing it would widen the batch. At recheck the correctness reviewer found no correctness problem with leaving it unchanged, the consistency reviewer judged it not a quiz title and the follow-up record acceptable, and the comprehensibility reviewer accepted it as outside the batch.",
+  "exclusionsAddedBeyondEn": {
+   "おじゃまします": [
+    "すまない"
+   ],
+   "すまない": [
+    "悪い"
+   ],
+   "回答": [
+    "応対"
+   ],
+   "慰める": [
+    "落ち着く"
+   ],
+   "見送る": [
+    "省く",
+    "飛ばす"
+   ],
+   "親類": [
+    "親戚"
+   ],
+   "観測": [
+    "読み"
+   ],
+   "解散": [
+    "終了",
+    "閉会"
+   ],
+   "言い付ける": [
+    "頼む"
+   ],
+   "言付ける": [
+    "頼む"
+   ]
+  },
+  "titles": {
+   "おじゃまします": "простите за беспокойство (входя к кому-либо)",
+   "お待たせしました": "спасибо за ожидание; извините, что заставили ждать",
+   "お待ちどおさま": "простите, что заставили ждать",
+   "ごめん": "прости (по-свойски); нет уж, увольте",
+   "ごめんください": "можно войти? (оклик у входа)",
+   "すまない": "извини, виноват; спасибо, прости за хлопоты",
+   "アイデア": "идея; задумка",
+   "アイディア": "идея; задумка",
+   "占う": "гадать; предсказывать (исход, будущее)",
+   "回答": "ответ на вопрос (запрос, анкету)",
+   "応ずる": "откликаться (на призыв, просьбу); удовлетворять (требование); принимать (приглашение)",
+   "慰める": "утешать (в горе, неудаче); успокаивать (душу, сердце)",
+   "溶ける": "таять; растворяться",
+   "見送る": "провожать (взглядом, до выхода); пропускать (автобус, очередь); откладывать (решение)",
+   "覗く": "заглядывать; выглядывать (показываться частично)",
+   "親指": "большой палец (руки или ноги)",
+   "親類": "родственник; родня (по крови или по браку)",
+   "観念": "понятие (о чём-либо); смирение с неизбежным",
+   "観測": "наблюдения и измерения (погоды, небесных тел); прогнозная оценка (развития событий)",
+   "解散": "окончание сбора (все расходятся); роспуск (группы, коллектива); роспуск парламента",
+   "解答": "ответ к заданию; решение задачи",
+   "解説": "разъяснение; комментарий (к произведению, матчу)",
+   "言い付ける": "велеть (сделать что-либо); доносить (о чужом проступке)",
+   "言付ける": "передавать весть через кого-либо; поручать доставку (вещи)",
+   "言葉遣い": "манера речи; выбор слов",
+   "訳す": "переводить (на другой язык)",
+   "診る": "осматривать больного (о враче)",
+   "診断": "диагноз; диагностика (здоровья, состояния)",
+   "評論": "критический анализ (произведений, событий); критическая статья",
+   "詫びる": "приносить извинения; просить прощения (за проступок)"
+  }
+ }
+}
