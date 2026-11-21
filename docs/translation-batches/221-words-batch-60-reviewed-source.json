@@ -1,0 +1,150 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "221-words-batch-60",
+ "publishedBaseline": "f6ff0ae9d83b2ab689c785626de74a5a4f1559ac",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate f888c34 and serialized rechecks of the signed fix commit 47a07db found no remaining defect. Correctness established no content defect but left three exact Russian labels UNVERIFIED: ドライブ's «автопрогулка» (no exact dictionary entry), バン's «сеть с добавленной стоимостью» (no Russian terminological entry) and ボール's baseball «бол» (attested only in a Wikipedia glossary). All three were replaced: ドライブ's title is now «поездка или прогулка на машине», which the body already used and Kuznetsov прогулка supports; バン describes VAN as «сеть передачи данных с дополнительными услугами» (Multitran's Communications rendering of value-added network; English Wiktionary value-added network sense 1), with the title «сеть передачи данных (VAN)» after EN's \"VAN network\"; ボール explains the baseball sense as «неточную подачу — мяч, поданный мимо зоны удара» (JMdict ボール sense 2). All 30 cards were read in full against EN, JMdict-backed Jisho records were inspected for all 30 headwords, and the Russian adaptations were checked in Kuznetsov entries on Gramota (краска, играть, смесь, мисс, мама, мастер, миска, труба, трубка, связь, сумка, красивый, поход, платье, пучок, фургон, магистр, перрон, видеомагнитофон, паспорт, совершенный, килограмм), Russian Wiktionary (по-домашнему, сдерживание, сдерживать) and Digital Daijisen and Seisen Nihon Kokugo Daijiten on Kotobank (ハンサム, usually of men). Consistency raised one minor quiz-safety finding: パイプ's people-relations gloss «связи, канал общения между людьми» left 関係 «связь; отношения» and 連絡 «связь; контакт» (the «связ» stem) and 仲 «взаимоотношения (между людьми)» unguarded; all three are now excluded. Comprehensibility raised six minor findings, all addressed. ド's «совершенный» read as \"perfect\" and as 完全; the title is now «усилительная приставка (самый, полный)», matching the card's «полный дилетант» and «полный новичок». ボール's «бол»/«страйк» relied on baseball jargon (resolved with L3). ママ's «по-домашнему» could read as \"homestyle\"; it is now «мама (в семейной речи)» (the reviewer's «фамильярно» was not adopted because it can imply disrespect). バン's «добавленная стоимость» read as a tax term (resolved with L2). ビデオ's unexplained «кассету VHS» became «старую видеокассету». トンネル's «выехали» added vehicle travel; it is now «вышли», and the coordinator also changed the particle note's «куда въезжают» to «в которое входят» (EN \"the place entered\"). One optional correctness item, ドライブ's plainer title, was adopted through L1, and ドライブ also excludes 散歩 «прогулка» for the newly exposed standalone «прогулка». The rechecks found no regression. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 19 EN exclusions across 11 lists are retained. Eighteen direct, one-sided exclusions on 11 new cards (six of them new lists) cover reviewed RU title overlaps and sense neighbours. Required (7), as the consistency reviewer classified them: ハンサム–美しい and ハンサム–きれい (shared «красивый»), バン–束 («пучок»), ドライブ–旅行 («поездка»), ド–いちばん («самый») and ド–完全 (the former «совершенный»), and, added in the fix, パイプ–仲 (the shared «между людьми»). Conservative (10): ボール–ちゃわん, マスター–上達, ドラマ–出来事, ビール–酒 and ビール–お酒 (the hypernym, as on ワイン), ハイキング–観光 and パイプ–付き合い, and, added in the fix, パイプ–関係 and パイプ–連絡 (conservative to required, the «связ» stem) and ドライブ–散歩. プロ–職業 is retained as a harmless over-guard that the reviewer did not require removing. The candidate declared the first 14. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/221-words-batch-60-intake.json",
+  "docs/translation-batches/221-words-batch-60-independent-review-001.md",
+  "docs/translation-batches/221-words-batch-60-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [],
+  "navigationNote": "Restored 8 relative links across the 8 listed Markdown files at the corresponding EN-linked positions, using EN's href forms: in articles/numbers-and-counters.md, one to トン; in the word cards, いす to ベンチ, ワイン to ビール (held from Batch 59), 劇 to ドラマ, 帯 to ベルト, 泡 to ビール, and 玉 and 球 to ボール. No surrounding prose was changed. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "articles/numbers-and-counters.md",
+   "words/いす.md",
+   "words/ワイン.md",
+   "words/劇.md",
+   "words/帯.md",
+   "words/泡.md",
+   "words/玉.md",
+   "words/球.md"
+  ],
+  "newWords": [
+   "ミルク",
+   "ミス",
+   "ママ",
+   "マスター",
+   "マイク",
+   "ボール",
+   "ホーム",
+   "ペンキ",
+   "ベンチ",
+   "ベルト",
+   "プロ",
+   "ブレーキ",
+   "ピクニック",
+   "ビール",
+   "ビデオ",
+   "パーセント",
+   "パスポート",
+   "パイロット",
+   "パイプ",
+   "バン",
+   "バッグ",
+   "バイオリン",
+   "ハンサム",
+   "ハイキング",
+   "ドレス",
+   "ドラマ",
+   "ドライブ",
+   "ド",
+   "トンネル",
+   "トン"
+  ],
+  "selection": "Batch 60 selected 30 word cards from the frozen source: chunk 13 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,767 remained after Batch 220). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. No source exclusion edge lies inside the batch; all 19 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (3 EN link occurrences, 3 targets) in the new cards: ペンキ→絵の具, ベンチ→ソファー and バイオリン→楽器. All 30 new cards are written in kana, so no kanji label is left plain. Links otherwise follow EN, with five RU-only links to existing cards at a substantive comparison or mention: ホーム→帰宅, ドラマ→テレビ, ビール→ビル, バイオリン→弾く and トン→キログラム. ソファー is a Batch 61 word; its link from ベンチ is restored as a navigation edit in that batch.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: removing the プロ–職業 over-guard (consistency; harmless, and the reviewer did not require removal) and title polish for ホーム «перрон», ブレーキ «сдерживание», ミルク «детская смесь» and パイプ's long third gloss (comprehensibility; the reviewer called each a recognized equivalent or bounded by the body, not a demonstrated defect). The reviewer's ママ «фамильярно» and バン «сеть передачи данных с услугами» wordings were adopted in modified form, as recorded above. The 118 stroke-file manifest hashes that differ from raw bytes follow the documented manifest contract (tools/build_manifest.py hashes text payloads after CRLF-to-LF normalisation) and are unchanged from the parent. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "ド": [
+    "いちばん",
+    "完全"
+   ],
+   "ドライブ": [
+    "旅行",
+    "散歩"
+   ],
+   "ドラマ": [
+    "出来事"
+   ],
+   "ハイキング": [
+    "観光"
+   ],
+   "ハンサム": [
+    "美しい",
+    "きれい"
+   ],
+   "バン": [
+    "束"
+   ],
+   "パイプ": [
+    "付き合い",
+    "関係",
+    "連絡",
+    "仲"
+   ],
+   "ビール": [
+    "酒",
+    "お酒"
+   ],
+   "プロ": [
+    "職業"
+   ],
+   "ボール": [
+    "ちゃわん"
+   ],
+   "マスター": [
+    "上達"
+   ]
+  },
+  "titles": {
+   "トン": "тонна",
+   "トンネル": "туннель",
+   "ド": "усилительная приставка (самый, полный)",
+   "ドライブ": "поездка или прогулка на машине",
+   "ドラマ": "телесериал; драматическое событие",
+   "ドレス": "платье (особенно нарядное)",
+   "ハイキング": "пеший туризм; загородный поход",
+   "ハンサム": "красивый, привлекательный (обычно о мужчине)",
+   "バイオリン": "скрипка",
+   "バッグ": "сумка (для личных вещей)",
+   "バン": "пучок (причёска); фургон; сеть передачи данных (VAN)",
+   "パイプ": "труба; трубка; связи, канал общения между людьми",
+   "パイロット": "пилот; лётчик",
+   "パスポート": "заграничный паспорт",
+   "パーセント": "процент",
+   "ビデオ": "видео; видеокассета; видеомагнитофон",
+   "ビール": "пиво",
+   "ピクニック": "пикник",
+   "ブレーキ": "тормоз; сдерживание",
+   "プロ": "профессионал",
+   "ベルト": "ремень",
+   "ベンチ": "скамейка",
+   "ペンキ": "краска для покрытия поверхностей",
+   "ホーム": "перрон; дом (в составных словах)",
+   "ボール": "мяч; миска (для смешивания продуктов)",
+   "マイク": "микрофон",
+   "マスター": "хозяин бара или кафе; овладеть навыком",
+   "ママ": "мама (в семейной речи); хозяйка бара",
+   "ミス": "промах, ошибка; мисс (обращение перед именем)",
+   "ミルク": "молоко; детская смесь"
+  }
+ }
+}

@@ -1,6 +1,65 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch220 thirty words (general word queue)
+## Current published source milestone: batch221 thirty words (general word queue)
+
+Batch221 adds 30 Russian word articles: ミルク ミス ママ マスター マイク ボール ホーム ペンキ ベンチ ベルト プロ ブレーキ ピクニック
+ビール ビデオ パーセント パスポート パイロット パイプ バン バッグ バイオリン ハンサム ハイキング ドレス ドラマ ドライブ ド トンネル
+トン. They are chunk 13 of 72 of the general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words.
+Their dependency closure is exactly the 30 requested words, so every EN quiz_exclusions target resolves to an existing RU
+word or a batch word.
+
+Navigation-only link wraps restore 8 links at EN link positions in 8 files: 7 existing word pages and the
+numbers-and-counters article. ワイン's link to ビール, held since Batch220, is among them. Every new card is written in kana,
+so no kanji label is left plain.
+
+The batch covers:
+- food and drink: milk and infant formula (ミルク), beer (ビール), and a picnic (ピクニック);
+- people and address: a mistake or "Miss" (ミス), mum and a bar proprietress (ママ), a bar owner or mastering a skill
+  (マスター), a professional (プロ), a pilot (パイロット) and handsome (ハンサム);
+- objects and equipment: a microphone (マイク), a ball or mixing bowl (ボール), paint (ペンキ), a bench (ベンチ), a belt
+  (ベルト), a brake (ブレーキ), a video (ビデオ), a passport (パスポート), a pipe or connection (パイプ), a bag (バッグ), a
+  violin (バイオリン) and a dress (ドレス);
+- places, travel and media: a platform or home (ホーム), a hair bun, a van or a VAN network (バン), hiking (ハイキング), a TV
+  drama (ドラマ), a drive (ドライブ) and a tunnel (トンネル);
+- measures and a prefix: percent (パーセント), a tonne (トン) and the intensifying prefix ド.
+
+All 19 EN exclusions are retained. Eighteen direct guards on 11 new cards cover the reviewed RU title overlaps and
+sense neighbours:
+- required: ハンサム–美しい, ハンサム–きれい, バン–束, ドライブ–旅行, ド–いちばん, ド–完全 and, added in the fix, パイプ–仲;
+- conservative: ボール–ちゃわん, マスター–上達, ドラマ–出来事, ビール–酒, ビール–お酒, ハイキング–観光, パイプ–付き合い and,
+  added in the fix, パイプ–関係, パイプ–連絡 and ドライブ–散歩;
+- a retained harmless over-guard: プロ–職業.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: no defect, but three exact Russian labels left UNVERIFIED (ドライブ's «автопрогулка», バン's «сеть с
+  добавленной стоимостью» and ボール's baseball «бол»);
+- consistency: one minor quiz-safety finding: パイプ's people-relations gloss left 関係, 連絡 and 仲 unguarded;
+- comprehensibility: six minor findings: ド's «совершенный», ボール's «бол»/«страйк», ママ's «по-домашнему», バン's «добавленная
+  стоимость», ビデオ's unexplained «VHS» and トンネル's «выехали».
+
+One signed fix commit addressed them:
+- パイプ excludes 関係, 連絡 and 仲;
+- ド's title became «усилительная приставка (самый, полный)», and ママ's qualifier «в семейной речи»;
+- ボール explains the baseball sense as a pitch outside the strike zone;
+- バン's title says «сеть передачи данных (VAN)», and its body and example «сеть передачи данных с дополнительными услугами»;
+- ビデオ says «старую видеокассету», and トンネル says «вышли» and «в которое входят»;
+- ドライブ's title became «поездка или прогулка на машине», and it also excludes 散歩.
+
+The serial rechecks reported all facets clean. Links follow EN, with five RU-only links to existing cards at a substantive
+comparison or mention: ホーム–帰宅, ドラマ–テレビ, ビール–ビル, バイオリン–弾く and トン–キログラム. ベンチ's EN link to ソファー stays
+plain until ソファー lands in Batch222.
+
+Qualified progress is **4,749 reviewed-current / 8 reviewed runtime-blocked / 3,521 pending of 8,278**,
+with 3,283 words, 718 kanji and 718 strokes. See the [intake](translation-batches/221-words-batch-60-intake.json),
+[independent review](translation-batches/221-words-batch-60-independent-review-001.md),
+[recheck](translation-batches/221-words-batch-60-recheck-001.md),
+[qualified source record](translation-batches/221-words-batch-60-reviewed-source.json) and
+[final validation](translation-batches/221-words-batch-60-final-validation-001.json).
+
+## Previous published source milestone: batch220 thirty words (general word queue)
 
 Batch220 adds 30 Russian word articles: 世紀 世の中 不足 不自由 不正 不幸 不安 不可 不 下り 上京 一言 一般 一致 一瞬
 一生 一方 一度に ますます 一層 一家 一体 一人一人 ワイン ロケット ラケット ヨーロッパ ユーモア メンバー メモ. They are chunk
