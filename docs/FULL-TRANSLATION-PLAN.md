@@ -1,6 +1,74 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch235 thirty words (general word queue)
+## Current published source milestone: batch236 thirty words (general word queue)
+
+Batch236 adds 30 Russian word articles: 貝 講師 有難い 恐縮 謙虚 謙遜 謎謎 話し合い 争う 論ずる 請う 調節 調整 胡椒 調味料
+課税 誓う 話し中 言い出す 話しかける ぎっしり 圧縮 縮小 削る 削除 省略 縮める 縮れる 縮む 詰まる. They are chunk 28 of 72 of the
+general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is exactly
+the 30 requested words, so every EN quiz_exclusions target resolves to an existing RU word or a word in the batch; 23 of
+the 151 EN entries lie inside the batch.
+
+Navigation-only link wraps restore 8 links at EN link positions in 6 existing pages: the kanji cards 争 (three links to
+争う), 圧 (to 圧縮), 有 (to 有難い), 言 (to 言い出す) and 難 (to 有難い) and the word card 戦う (to 争う). The new cards keep
+EN's links to existing cards; their links to the kanji cards 貝, 講, 課, 税, 省, 略 and 詰 stay plain until those targets
+are adapted. 貝 deliberately drops EN's two links to トップ and 頂上 with the English-label sentences that carry them; both
+EN exclusions and the footer JMdict IDs are retained.
+
+The batch covers:
+- shellfish: a mollusc in its shell or a seashell (貝);
+- teaching: a lecturer or course instructor (講師);
+- gratitude and modesty: welcome help that calls for gratitude (有難い), obliged, apologetic gratitude (恐縮), modest
+  (謙虚) and modesty or playing down one's merits (謙遜);
+- riddles: a riddle (謎謎);
+- speech, discussion, requests and vows: a discussion to reach agreement (話し合い), the line being busy or a conversation
+  in progress (話し中), to start talking about or be the first to propose (言い出す), to address someone (話しかける), to
+  discuss or take into account (論ずる), to compete or dispute (争う), to beg, request or invite (請う) and to swear or
+  vow (誓う);
+- adjustment: regulating volume, temperature or quantity (調節) and coordinating or fine-tuning (調整);
+- seasoning: pepper (胡椒) and a seasoning or condiment (調味料);
+- taxation: taxation (課税);
+- shrinking, cutting and packing: tightly packed (ぎっしり), compression (圧縮), reduction in scale (縮小), to shave, sharpen
+  or cut back (削る), deletion (削除), omission or abbreviation (省略), to shorten (縮める), to curl (縮れる), to shrink
+  (縮む) and to be packed tight or clogged (詰まる).
+
+All 151 EN exclusions are retained in EN order. Seventeen direct guards on 10 new cards cover reviewed RU sense
+neighbours: 話しかける–扱う and 縮む–座る are required; 論ずる–検討, 考慮 and 取り上げる, 謎謎–不思議, 有難い–御礼, 礼 and
+ありがとう, 縮む–乗る, 詰まる–密, 言い出す–勧める, 話し中–会話, 話 and 話し合い, 恐縮–迷惑 and 請う–招待 are conservative
+and harmless.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: three findings: a Russian polysemy claim about «клясться» in 誓う, the title of 請う dropping the invite
+  sense, and an added «всё» in the 話し合い example translation;
+- consistency: one finding, 貝's dropped トップ/頂上 sentences, declined and kept as a qualified limit; a nonblocking note on
+  the 謎謎–不思議 guard; and an optional unguarded pair, 話し合い–話し中;
+- comprehensibility: twelve findings, among them example translations in 講師, 有難い, 謙虚, 謙遜, 話し合い, 争う, 言い出す
+  and 請う and the title of 恐縮; its points on «исходный список», N2-status text and the 話し中 title were declined for EN
+  parity and published RU precedent.
+
+One signed fix commit addressed them:
+- two titles changed: 請う «просить, умолять; приглашать» and 恐縮 «чувство неловкой признательности; смущение (от
+  любезности, похвалы, доставленных хлопот)»;
+- example translations were rewritten in 講師, 有難い, 謙虚, 謙遜, 話し合い, 争う, 言い出す and 請う, and prose was reworded
+  in 誓う, 有難い and 論ずる;
+- three exclusions were added (話し中–話し合い, 恐縮–迷惑 and 請う–招待), no link changed, and several suggested wordings
+  were adapted rather than adopted.
+
+The serial rechecks reported correctness, consistency, quiz safety, comprehensibility and scoped coverage clean, with no
+regression; the 貝 point stands as an acknowledged nonblocking limit, and the remaining declined points were withdrawn.
+
+Links follow EN, with four RU-only links: 謙虚 to 謙遜, 胡椒 to 塩, 削除 to 追加 and 詰まる to 込む.
+
+Qualified progress is **5,199 reviewed-current / 8 reviewed runtime-blocked / 3,071 pending of 8,278**,
+with 3,733 words, 718 kanji and 718 strokes. See the [intake](translation-batches/236-words-batch-75-intake.json),
+[independent review](translation-batches/236-words-batch-75-independent-review-001.md),
+[recheck](translation-batches/236-words-batch-75-recheck-001.md),
+[qualified source record](translation-batches/236-words-batch-75-reviewed-source.json) and
+[final validation](translation-batches/236-words-batch-75-final-validation-001.json).
+
+## Previous published source milestone: batch235 thirty words (general word queue)
 
 Batch235 adds 30 Russian word articles: 輸血 載る 転がる 転がす 転々 車輪 車掌 車庫 氏名 身分 蹴る 交差 踏切 跳ねる 足袋 足る
 起床 赤道 賞金 賞品 資料 貸間 家屋 貸家 貸し出し 蓄える 溜まる 溜める 貯蔵 貨物. They are chunk 27 of 72 of the general
