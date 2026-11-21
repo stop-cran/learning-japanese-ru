@@ -1,0 +1,140 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "235-words-batch-74",
+ "publishedBaseline": "1647191af5ef2fed02a2f6db5720b4b9d22fcbd3",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 75b2616 and serialized rechecks of the signed fix commit 930e9f3 found no remaining defect. Before the candidate the coordinator made no content edits: no title edit, no exclusion append and no held link; the 35 lane files were copied unchanged. Its adjudication records: \"Titles compared with EN one by one; no coordinator title edit.\" \"RU-added exclusions accepted as reported: 5 pairs on 4 cards; 資料→材料 and 貸間→下宿 required, 資料→参考, 賞品→賞金 and 貸し出し→支給 conservative.\" It records that `link_parity.py` over the 35 paths reports only the three intended RU-only links 資料:31 → 情報, 資料:32 → 材料 (information/material contrast with existing RU cards) and 貸間:33 → 下宿 (paired with the required 貸間→下宿 guard), that `navonly.py` reports 5 files, 6 links added, 0 problems, and that a lane check after the Batch 234 fix found that none of the 35 paths links to or quotes a Batch 234 card changed by that fix or its old wording, and that no Batch 235 path is a Batch 234 path. \"Candidate screen on the published B234 tree (main 1647191; b235-cand-screen.txt): 0 unguarded exact segments; the 5 exact shared segments are guarded (転がる–ころころ and 転がる–ごろごろ «катиться», 転がす–倒す «опрокидывать», 足る–足りる and 足る–間に合う «быть достаточным»).\" It also records a process incident: an authoring relative-path write rewrote words/資料.md in the session's EN worktree with identical content (no diff), and the coordinator reverted an older, unrelated stray EN-worktree edit; neither touched the RU primary checkout or any committed RU content. Correctness raised one minor finding. C1: 跳ねる:39 glossed 芝居が跳ねる as «спектакль окончился», a Russian past for the unmarked Japanese nonpast (EN \"the show ends\"; JMdict 1429620 sense 4; Digital Daijisen は・ねる sense 4); it now reads «спектакль заканчивается». Its optional note on the 転がる title was adopted through comprehensibility C2; its optional 車庫 «автобусный парк» led to no action. Consistency raised no finding; its optional notes covered the classification of the five RU-added exclusions, 発行 sharing «выдача» with 貸し出し while unguarded, the unguarded pairs 資料–情報/原料, 身分–現状 and 載る–刊行 and 足る's body gloss of 間に合う «годиться; хватать»; its limits noted that 118 strokes manifest hashes differ from the raw sha256. All five exclusions stay. Comprehensibility raised six minor findings. C1: 貸し出し:21 «— В этом магазине можно взять велосипед на время.» took the borrower's side; it now reads «— В этом магазине выдают велосипеды на время.», the lender's side, as EN \"This shop rents out bicycles\" and the card's own note at :43. C2: 転がる's title and H1 «катиться; лежать где попало (брошенным)» left out the lying-down example; they now read «катиться; падать кувырком; валяться», the counterpart of EN \"roll; tumble; lie around\", adapted: the proposed «ложиться» was not used because it shares the «ложит-» stem with 寝る «спать; ложиться спать» and 積もる «ложиться слоем» (both unguarded) and drops EN \"tumble\". C3: 賞品's title and H1 «приз (вещью); кубок, трофей» now read «приз (вещью); кубок», partially adopted: «трофей» is removed because its first Russian sense is war spoils, and «кубок» stays as the counterpart of EN's second segment \"trophy\", qualified at :23 «Приз не обязательно кубок», as EN :21 \"The prize need not be a trophy\". C4: 賞金:21 «— На этом конкурсе вручают денежный приз.» now reads «— На этом конкурсе предусмотрен денежный приз.», matching the card's 賞金が出る gloss at :18 and EN \"This competition offers prize money\". C5: 交差's title and H1 «скрещение (линий, дорог); пересекаться (друг с другом)» now read «скрещение (линий, дорог); пересечение (друг с другом)»: both segments are nouns, as EN \"crossing; intersection\" and the する-noun use. C6: 足袋:16 now reads «足袋 — таби, традиционные японские носки, у которых большой палец отделён от остальных.», introducing the Russian name before the examples use it, adapted: in the existing sentence rather than as an added one; the title is unchanged. Its optional note on 赤道:39 «термином кадастра» was adopted: the line now reads «…с отдельным кадастровым термином 赤道 для дорог, который читается あかみち или あかどう.», restoring EN \"the separate cadastral-road term\". Its optional notes on 貨物:40, 足る «(+ に 足る)» and 身分証明書 led to no action. At recheck of fix 1 (930e9f3) all three reviewers ran serially, read-only, with no generator run.\nCorrectness (gpt-6.1-sol) judged C1 (跳ねる «спектакль заканчивается») resolved and its optional on the 転がる title resolved as optional polish («катиться; падать кувырком; валяться», at least as accurate as the former title), kept 車庫 optional, and found every other rewrite at least as accurate in its context (貸し出し «выдают велосипеды на время», 賞金 «предусмотрен денежный приз», 交差 «пересечение (друг с другом)», 賞品 without «трофей», 足袋 «таби» and 赤道 «кадастровым термином … для дорог»); it reported no regression: correctness CLEAN, scoped coverage CLEAN.\nConsistency (claude-sonnet-5.5) confirmed title = H1 for 転がる, 賞品 and 交差, found no link or exclusion change and no new unguarded ambiguity: «катиться» shared with ころころ and ごろごろ (guarded; it also listed 転がす, whose segment «катить (что-либо)» is a stem overlap in the coordinator screen and is guarded either way), «валяться» only with ごろごろ (guarded), «пересечение» only with 横断 (guarded both ways) and no overlap for «кубок»; it kept 発行/貸し出し and the unguarded 資料–情報/原料, 身分–現状 and 載る–刊行 optional, withdrew the 足る:36 note and accepted the strokes-hash explanation without re-deriving it: consistency, quiz safety and scoped integration CLEAN, no finding.\nComprehensibility (grok-4.7) judged C1, C2, C4, C5 and C6 resolved (C2 and C6 in the adapted wording; it did not maintain «ложиться»), C3 partially resolved with the residual «кубок» accepted rather than unresolved, and the 赤道 optional resolved; it kept 貨物 and 足る optional, withdrew the 身分証明書 note and found no regression: comprehensibility CLEAN, scoped coverage CLEAN.\nNo actionable finding remains; no second fix is needed. Fix 1 changed no Japanese example sentence, sourced reading, link, quiz exclusion, navigation file or kanji card. The correctness and comprehensibility reviewers read all 30 cards in full against EN; the consistency reviewer read all 30 RU cards and the five navigation diffs in full, compared the EN originals by script, and checked the intake's paths and the manifest. Evidence includes the Jisho/JMdict entries for all 30 headwords; Digital Daijisen on Weblio (among others 輸血, 転がる, 転がす, 車掌, 車庫, 氏名, 踏切, 跳ねる, 足る, 溜まる, 溜める and 賞金); Kuznetsov and Krysin on gramota.ru (кондуктор, депо, приз, внаём and запасти); and Russian Wiktionary (депо, скрещение, таби, постройка and трофей). The rechecks found no regression. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 137 EN exclusions across 26 lists are retained in EN order; 輸血, 車掌, 赤道 and 資料 have none in EN. Twelve lie inside the batch: 転がす–転がる, 転々–転がる and 転がす, 身分–氏名, 踏切–交差, 貸家–家屋, 溜まる–溜める and 蓄える, 溜める–溜まる and 蓄える, and 貯蔵–蓄える and 溜める; the other 125 target existing RU cards. Five direct, one-sided exclusions on four new cards cover reviewed RU title overlaps: three appended to three existing lists and one new list on 資料 (two entries). All five came from the authoring lane, were accepted by the coordinator as reported and were declared at the candidate; fix 1 added and removed none. They are 賞品–賞金 (賞金 «денежный приз; призовые деньги»), 資料–材料 (材料 «материал; ингредиенты»), 資料–参考 (参考 «справочный материал; обращение к источнику»), 貸間–下宿 (下宿 «съёмная комната; проживание в ней») and 貸し出し–支給 (支給 «выдача (денег, вещей); выплата пособий»). The author and the coordinator classed 資料–材料 and 貸間–下宿 as required and 資料–参考, 賞品–賞金 and 貸し出し–支給 as conservative; the consistency reviewer gave the same classes, adding that 発行 «выпуск; выдача документов» shares «выдача» with 貸し出し but is unguarded (a minor inconsistency, optional); all five stay, and 貸し出し–発行 was not added because the objects differ (documents vs items lent for temporary use). After fix 1 the three retitled cards share two exact title segments with other cards, both guarded by EN lists on the new cards: 転がる's «катиться» with ころころ «катиться; то и дело меняться» and ごろごろ «громыхать; катиться; валяться без дела», and 交差's «пересечение» with 横断 «переход (через дорогу и т. п.); пересечение» (declared on 交差; 横断 does not declare 交差). 転がる's «валяться» meets ごろごろ's «валяться без дела» and its «падать» stem meets 倒れる and 落ちる, all guarded; the consistency reviewer also listed 転がす as sharing «катиться», whose segment is «катить (что-либо)», a stem overlap in the coordinator screen, guarded either way because 転がす declares 転がる. 交差's «перес-» stem also meets 横切る and 渡る (guarded) and からから, ぱさぱさ, 乗り換える, 数える, 止す and 送料 (unguarded prefix coincidences with unrelated words). 賞品's «кубок» has no exact segment and no stem lead. Every RU addition is appended at the end of its list; nothing is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/235-words-batch-74-intake.json",
+  "docs/translation-batches/235-words-batch-74-independent-review-001.md",
+  "docs/translation-batches/235-words-batch-74-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "輸",
+   "血",
+   "載",
+   "輪",
+   "掌",
+   "庫",
+   "氏",
+   "身",
+   "蹴",
+   "踏",
+   "跳",
+   "袋",
+   "床",
+   "賞",
+   "蓄",
+   "溜",
+   "貯",
+   "蔵",
+   "貨"
+  ],
+  "navigationNote": "Restored 6 relative links in the 5 listed Markdown files at the corresponding EN-linked positions, using EN's href forms (../words/X.md in the kanji card, X.md in the word cards): 資料 in kanji 資 (line 21, matching EN line 21, in prose, and line 35, matching EN line 35, in the word list; the シ reading-table row and the closing note stay plain as in EN), 資料 in word 原料 (line 36, matching EN line 38, in prose), 資料 in word 書類 (line 29, matching EN line 28, in prose), 資料 in word 材料 (line 32, matching EN line 28, in prose) and 貸し出し in word 貸す (line 26, matching EN line 29, in prose). No surrounding prose was changed. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/資.md",
+   "words/原料.md",
+   "words/書類.md",
+   "words/材料.md",
+   "words/貸す.md"
+  ],
+  "newWords": [
+   "輸血",
+   "載る",
+   "転がる",
+   "転がす",
+   "転々",
+   "車輪",
+   "車掌",
+   "車庫",
+   "氏名",
+   "身分",
+   "蹴る",
+   "交差",
+   "踏切",
+   "跳ねる",
+   "足袋",
+   "足る",
+   "起床",
+   "赤道",
+   "賞金",
+   "賞品",
+   "資料",
+   "貸間",
+   "家屋",
+   "貸家",
+   "貸し出し",
+   "蓄える",
+   "溜まる",
+   "溜める",
+   "貯蔵",
+   "貨物"
+  ],
+  "selection": "Batch 74 selected 30 word cards from the frozen source: chunk 27 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,347 remained after Batch 234, and 1,317 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; the one closure dependency recorded, 溜める's on 溜まる, was already among them; nothing outside them was added. Twelve source exclusion entries lie inside the batch; the other 125 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (18 EN link occurrences, 17 targets) in the new cards: 輸血→kanji 輸 and kanji 血, 転がす→巻く, 転々→点々, 車輪→kanji 輪, 車庫→kanji 庫, 氏名→kanji 氏 and 姓, 足袋→kanji 袋, 草履 and 下駄, 起床→kanji 床, 赤道→緯度, 賞金→kanji 賞, 賞品→kanji 賞, 貯蔵→kanji 貯 and kanji 蔵, and 貨物→kanji 貨. 19 written kanji have no RU kanji card: 輸 血 載 輪 掌 庫 氏 身 蹴 踏 跳 袋 床 賞 蓄 溜 貯 蔵 貨 (EN has cards only for 輸, 血, 輪, 庫, 氏, 袋, 床, 賞, 貯, 蔵 and 貨). Links otherwise follow EN; the three RU-only links are 資料:31 → 情報 and 資料:32 → 材料, an information/material contrast with existing RU cards, and 貸間:33 → 下宿, paired with the required 貸間→下宿 guard.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Partially adopted, adapted or no-action items (none was declined outright): the correctness reviewer's optional 車庫 «автобусный парк» led to no action, because the reviewer classed it as nonblocking and «депо» was not shown to exclude bus use; it kept it optional at recheck. The comprehensibility reviewer's C2 wording «катиться; ложиться; валяться (где попало)» was not used: «ложиться» shares the «ложит-» stem with 寝る and 積もる (both unguarded) and drops EN \"tumble\"; the reviewer did not maintain «ложиться» at recheck. Its C3 remedy (title «приз (вещью)» only) was partially adopted: «трофей» was removed, but «кубок» stays as the counterpart of EN \"trophy\", qualified in the body; at recheck the reviewer judged C3 partially resolved and accepted the residual. Its C6 added sentence was not used; «таби» is introduced in line 16 instead, which the reviewer judged sufficient at recheck. Its optional notes on 貨物:40 «Карточка сохраняет исходное чтение かもつ» (EN parity: EN :33 \"This card keeps the source reading かもつ\"), 足る's title «(+ に足る)» (it marks the construction of the «заслуживать» sense, which the body explains) and 身分証明書 (its kana reading is already at 身分:40, みぶんしょうめいしょ) led to no action; at recheck it kept 貨物 and 足る optional and withdrew the 身分証明書 note. The consistency reviewer's optional notes led to no action: 発行 «выпуск; выдача документов» and 貸し出し share the «выдача» stem but no exact segment, and their objects differ; the unguarded 資料–情報/原料, 身分–現状 and 載る–刊行 are separated by title; 足る:36's «годиться; хватать» for 間に合う is a contextual body gloss following EN :38 \"serve the purpose; suffice\", not a title. At recheck it kept the first two optional and withdrew the 足る:36 note. Its limit on 118 strokes manifest hashes is not a defect: tools/build_manifest.py:19 hashes text files after CRLF→LF normalization, exactly the 118 stroke files that contain CRLF (byte copies of EN) differ from their raw sha256, and no strokes file changed in this batch; the reviewer accepted the explanation at recheck without re-deriving it.",
+  "exclusionsAddedBeyondEn": {
+   "貸し出し": [
+    "支給"
+   ],
+   "貸間": [
+    "下宿"
+   ],
+   "資料": [
+    "材料",
+    "参考"
+   ],
+   "賞品": [
+    "賞金"
+   ]
+  },
+  "titles": {
+   "交差": "скрещение (линий, дорог); пересечение (друг с другом)",
+   "家屋": "строение; постройка (дом как сооружение)",
+   "氏名": "полное имя (фамилия и имя)",
+   "溜まる": "скапливаться (о воде, деньгах, делах, стрессе)",
+   "溜める": "копить; набирать (воду в ёмкость); не платить вовремя (за жильё и т. п.)",
+   "蓄える": "запасать; копить впрок (силы, знания, сбережения)",
+   "貨物": "груз (перевозимый поездом, судном и т. п.)",
+   "貯蔵": "хранение запасов (продуктов, воды); запасание впрок",
+   "貸し出し": "выдача во временное пользование (книг, вещей)",
+   "貸家": "дом внаём",
+   "貸間": "комната внаём",
+   "資料": "материалы (для изучения, работы); данные",
+   "賞品": "приз (вещью); кубок",
+   "賞金": "денежный приз; призовые деньги",
+   "赤道": "экватор",
+   "起床": "вставание с постели",
+   "足る": "быть достаточным; заслуживать (+ に足る)",
+   "足袋": "японские носки (с отделённым большим пальцем)",
+   "跳ねる": "подпрыгивать; разлетаться брызгами (о воде, масле)",
+   "踏切": "железнодорожный переезд",
+   "蹴る": "пинать; отвергать (предложение, требование)",
+   "身分": "положение в обществе; личность (для удостоверения); материальное положение",
+   "車庫": "гараж; депо (для поездов, автобусов)",
+   "車掌": "кондуктор (в поезде, автобусе)",
+   "車輪": "колесо (поезда, автомобиля, велосипеда)",
+   "転々": "с места на место (о смене жилья, работы); перекатываясь",
+   "転がす": "катить (что-либо); опрокидывать",
+   "転がる": "катиться; падать кувырком; валяться",
+   "載る": "быть опубликованным (в газете, на сайте); значиться (в списке, записи)",
+   "輸血": "переливание крови"
+  }
+ }
+}

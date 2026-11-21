@@ -1,6 +1,65 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch234 thirty words (general word queue)
+## Current published source milestone: batch235 thirty words (general word queue)
+
+Batch235 adds 30 Russian word articles: 輸血 載る 転がる 転がす 転々 車輪 車掌 車庫 氏名 身分 蹴る 交差 踏切 跳ねる 足袋 足る
+起床 赤道 賞金 賞品 資料 貸間 家屋 貸家 貸し出し 蓄える 溜まる 溜める 貯蔵 貨物. They are chunk 27 of 72 of the general
+remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is exactly the 30
+requested words, so every EN quiz_exclusions target resolves to an existing RU word or a word in the batch; 12 of the 137
+EN entries lie inside the batch.
+
+Navigation-only link wraps restore 6 links at EN link positions in 5 existing pages: the kanji card 資 (two links to 資料)
+and the word cards 原料, 書類 and 材料 (to 資料) and 貸す (to 貸し出し). The new cards keep EN's links to existing cards;
+their links to the words 巻く, 点々, 姓, 草履, 下駄 and 緯度 and to the kanji cards 輸, 血, 輪, 庫, 氏, 袋, 床, 賞, 貯, 蔵 and 貨
+stay plain until those targets are adapted.
+
+The batch covers:
+- transfusion: a blood transfusion (輸血);
+- publication: to appear in print or be recorded (載る);
+- rolling: to roll or tumble (転がる), to roll something (転がす) and moving from place to place (転々);
+- vehicles and transport: a wheel (車輪), a train conductor (車掌), a garage or vehicle depot (車庫), a railway crossing (踏切), a
+  crossing (交差) and cargo or freight (貨物);
+- identity: a full name (氏名) and social status or identity (身分);
+- feet and movement: to kick (蹴る), to jump or splash (跳ねる), tabi socks (足袋) and to suffice or be worthy of (足る);
+- getting up: getting out of bed (起床);
+- the equator (赤道);
+- prizes: prize money (賞金) and a prize object (賞品);
+- materials: data and reference materials (資料);
+- renting and buildings: a room for rent (貸間), a house or building (家屋), a house for rent (貸家) and lending or a loan service (貸し出し);
+- storing: to store up (蓄える), to accumulate (溜まる), to accumulate or store (溜める) and storage (貯蔵).
+
+All 137 EN exclusions are retained in EN order. Five direct guards on 4 new cards cover reviewed RU sense neighbours:
+資料–材料 and 貸間–下宿 are required; 資料–参考, 賞品–賞金 and 貸し出し–支給 are conservative and harmless.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: one minor finding: 跳ねる glossed 芝居が跳ねる with a Russian past for the Japanese nonpast;
+- consistency: no finding; optional notes on unguarded neighbours (including 発行 sharing «выдача» with 貸し出し) and the
+  exclusion classes;
+- comprehensibility: six minor findings: the borrower-side example translation in 貸し出し, the titles of 転がる, 賞品 and
+  交差, the example translation in 賞金 and the unintroduced «таби» in 足袋.
+
+One signed fix commit addressed them:
+- three titles changed: 転がる «катиться; падать кувырком; валяться», 賞品 «приз (вещью); кубок» and 交差 «скрещение
+  (линий, дорог); пересечение (друг с другом)»;
+- example translations were rewritten in 貸し出し and 賞金, and prose was reworded in 跳ねる, 足袋 and 赤道;
+- no exclusion or link changed, and several suggested wordings were adapted rather than adopted.
+
+The serial rechecks reported correctness, consistency, quiz safety, comprehensibility and scoped coverage clean, with no
+regression; the 賞品 finding was partially resolved with its residual «кубок» accepted.
+
+Links follow EN, with three RU-only links: 資料 to 情報 and 材料, and 貸間 to 下宿.
+
+Qualified progress is **5,169 reviewed-current / 8 reviewed runtime-blocked / 3,101 pending of 8,278**,
+with 3,703 words, 718 kanji and 718 strokes. See the [intake](translation-batches/235-words-batch-74-intake.json),
+[independent review](translation-batches/235-words-batch-74-independent-review-001.md),
+[recheck](translation-batches/235-words-batch-74-recheck-001.md),
+[qualified source record](translation-batches/235-words-batch-74-reviewed-source.json) and
+[final validation](translation-batches/235-words-batch-74-final-validation-001.json).
+
+## Previous published source milestone: batch234 thirty words (general word queue)
 
 Batch234 adds 30 Russian word articles: お先に さようなら 送別 送り仮名 ずれる 退く 退ける 埋める 補う 追加 追い越す 追い掛ける
 迷信 述語 宴会 応対 応接 接する 接近 催促 迫る 近寄る 近付ける 近々 農薬 農産物 農村 船便 交通機関 輸送. They are chunk 26 of 72 of
