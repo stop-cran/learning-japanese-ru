@@ -1,0 +1,132 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "228-words-batch-67",
+ "publishedBaseline": "7333eaf6d25bc802468c7b1d4730165229bf6a62",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate e2b0bdb and serialized rechecks of the signed fix commits 955a4e9 and b281154 found no remaining defect. Correctness raised three scoped-coverage findings. C1: 青少年 dropped EN's two source age definitions (JMdict 1381570 senses 1–2 on Jisho; Digital Daijisen 青少年); the card now adds «Словарь в общем значении указывает возраст примерно 12–25 лет, а в контексте постановлений об охране молодёжи — младше 18 лет. Это определения источника, а не единая действующая юридическая граница.» C2: 鈍い dropped EN's seven comparison-entry citations; the source footer now ends «…; отдельная статья のろい — 2838553; статьи для сравнения — 1174890, 1421970, 1010040, 1013050, 1008190, 1596750 и 2121270.» C3: 打ち合わせ replaced EN's exclusion of the clothing-overlap and archaic matching senses with «в текстах встречаются и другие употребления слова, например о запахе полочек одежды» (JMdict 1588140 senses 1–3; Digital Daijisen 打ち合わせ). Merged with comprehensibility F1, which found that «запахе» reads as a smell, it now reads «Карточка учит значению «согласование», а не отдельному значению «нахлёст пол одежды» (портновское «запа́х») и не устаревшему значению «точное совпадение одного с другим».» Consistency raised no finding and kept the two RU-added guards as conservative. Comprehensibility raised six further findings. F2: 広さ's title «протяжённость; величина (пространства)» led with a word for linear extent, and its room example shared 面積's «Площадь этой комнаты — двадцать квадратных метров.»; the title is now «величина (пространства); ширина», the definition lists «площадь, размер, величина или ширина», the example reads «— Размер этой комнаты — двадцать квадратных метров.», the Nの広さ note reads «В сочетании Nの広さ N называет то, о величине чего идёт речь.», and 面積's comparison says that 広さ «тоже описывает величину пространства». F3, unexplained DC, AC and LED, was declined (see below). F4: 交流's «Эта машина» for 機械 could be read as a car; it now reads «— Этот механизм работает на переменном токе.» F5: 合同's «совместную презентацию» narrowed EN \"joint information session\"; it now reads «— Две компании провели совместную информационную встречу.» F6: 電力's title «электрическая мощность; электроэнергия» conflicted with the card's power-versus-energy note (Digital Daijisen 電力); the title is now «электрическая мощность», and the body says «Слово встречается и в разговорах о подаче и потреблении электричества.» F7, 青少年's missing age ranges, was merged with correctness C1; the reviewer's marital-status clause is not in EN and was not added. At recheck of fix 1 the comprehensibility reviewer judged F1, F2 and F4–F7 resolved and accepted the declined F3 as withdrawn. Its one new minor finding, R1 (fix 1's 広さ sentence on Nの広さ did not parse), was fixed in fix 2 (b281154); its second recheck judged R1 resolved with no regression. It did not maintain «не состоящих в браке» for 青少年, and the shared 乾電池/電池 translation remains optional, not elevated. The correctness reviewer's optional 零点 translation was adopted: «— К сожалению, я получил ноль баллов за тест.» for 取ってしまいました. The correctness and comprehensibility reviewers read all 30 cards in full against EN; the consistency reviewer read all 30 cards in full and compared their front matter and link sets with EN. Evidence includes JMdict entries through Jisho for all 30 primary ids, Digital Daijisen entries (静まる, 面接, 組み合わせ, 合同, 合流, 電力, 採点, 点数, 零点, 乾電池, 青少年 and 打ち合わせ), Nipponica 乾電池 on Kotobank, Gramota and Kuznetsov entries (муторный, тугодум, габарит, гробовой, протяжённость, батарея, аккумулятор, площадь, элемент, лампа, тряпка, слить and запах), Russian Wiktionary конгруэнтный and Russian-language geometry and algebra lessons for equal triangles and «нуль функции». The rechecks found no regression. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 140 EN exclusions across 27 lists are retained in EN order; インタビュー, 直流 and 乾電池 have none. Eighteen lie inside the batch: 寸法–スケジュール, 広さ–寸法, 面積–広さ, 面接–インタビュー, 静まる–しーん, 蛍光灯–鈍い, 電球–蛍光灯, 交流–合流, 合同–組み合わせ and 合流, 合流–合同, 交流 and 組み合わせ, 電流–直流 and 交流, 電池–乾電池, 点数–採点 and 零点–点数; the other 122 target existing RU cards. Two direct, one-sided exclusions on two new cards (no new list) cover reviewed RU title overlaps. Both were added by the author at the candidate, and the consistency reviewer classed both as conservative and kept them: 採点–勘定 (the shared «подсчёт» of 採点 «выставление оценок; подсчёт очков» and 勘定 «подсчёт; счёт (к оплате)») and 打ち合わせ–話し合う (打ち合わせ «предварительное обсуждение; согласование деталей» and 話し合う «обсуждать вместе»), which the reviewer called close to required by parity with the EN guard on 相談 «консультация; обсуждение». Neither fix changed an exclusion. After the 広さ retitle the only exact title segment that a new title shares with another card is «ширина» of 幅 «ширина; диапазон», which 広さ's EN exclusion of 幅 already guards; the consistency reviewer confirmed this at recheck. Every RU addition is appended at the end of its list; nothing is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/228-words-batch-67-intake.json",
+  "docs/translation-batches/228-words-batch-67-independent-review-001.md",
+  "docs/translation-batches/228-words-batch-67-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "寸",
+   "巾",
+   "採",
+   "接",
+   "柱",
+   "池",
+   "波",
+   "灯",
+   "蛍",
+   "鈍",
+   "零"
+  ],
+  "navigationNote": "Restored 10 relative links across the 10 listed Markdown files, one in each, at the corresponding EN-linked positions, using EN's href forms (../words/X.md in the article and kanji cards, X.md in word cards): the article numbers-and-counters to 面積, kanji 乾 to 乾電池, kanji 白 and 青 to 青白い, ざわざわ and しんみり to しーん, 会議 to 打ち合わせ, 蛍 to 蛍光灯, 鋭い to 鈍い and 青年 to 青少年. No surrounding prose was changed. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "articles/numbers-and-counters.md",
+   "kanji/乾.md",
+   "kanji/白.md",
+   "kanji/青.md",
+   "words/ざわざわ.md",
+   "words/しんみり.md",
+   "words/会議.md",
+   "words/蛍.md",
+   "words/鋭い.md",
+   "words/青年.md"
+  ],
+  "newWords": [
+   "スケジュール",
+   "寸法",
+   "広さ",
+   "面積",
+   "インタビュー",
+   "面接",
+   "面倒くさい",
+   "しーん",
+   "静まる",
+   "青白い",
+   "青少年",
+   "鈍い",
+   "蛍光灯",
+   "電球",
+   "直流",
+   "組み合わせ",
+   "交流",
+   "合同",
+   "合流",
+   "電流",
+   "電波",
+   "乾電池",
+   "電池",
+   "電柱",
+   "電力",
+   "採点",
+   "点数",
+   "零点",
+   "雑巾",
+   "打ち合わせ"
+  ],
+  "selection": "Batch 67 selected 30 word cards from the frozen source: chunk 20 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,557 remained after Batch 227, and 1,527 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing outside them was added. Eighteen source exclusion entries lie inside the batch; the other 122 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (15 EN link occurrences, 14 targets) in the new cards: 面積→体積, 面接→kanji 接 and 接近, しーん→the articles japanese-onomatopoeia and onomatopoeia-motion-and-sound, 鈍い→kanji 鈍, 蛍光灯→kanji 蛍 and 灯, 電波→kanji 波, 乾電池→kanji 池, 電池→kanji 池, 電柱→kanji 柱, 採点→kanji 採 and 零点→kanji 零 and 満点. 11 written kanji have no RU kanji card: 寸 巾 採 接 柱 池 波 灯 蛍 鈍 零 (EN has cards for all except 寸 and 巾). Links otherwise follow EN, with six RU-only links to existing cards at substantive comparisons: 広さ→面積, インタビュー→面接, 電球→明るい, 交流→直流, 交流→合流 and 乾電池→電池.",
+  "wordOnlyImageOmissions": [
+   "しーん"
+  ]
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined items: comprehensibility F3 (unexplained DC, AC and LED) was declined because EN teaches DC/AC itself (titles \"direct current; DC\" and \"exchange; interaction; AC\"), the RU gives the Russian terms first and labels DC as the international abbreviation, and LED電球 is a Japanese word shown with its reading; no learner-blocking gap was demonstrated. At recheck the reviewer accepted the decline, and F3 was withdrawn. The consistency reviewer's optional O1 (広さ reads 二十平方 as にじゅっ, 面積 as にじゅう) was declined: both readings are inherited unchanged from EN, and にじゅっ before a voiceless consonant is a standard variant, so aligning them would depart from the source without a demonstrated defect; the reviewer closed it as optional at recheck. The comprehensibility reviewer's optional note on the shared 乾電池 and 電池 translation «— Я заменил батарейки в пульте.» led to no change, because the reviewer marked it non-blocking and the titles differ; it remained optional at recheck. The reviewers' suggested wordings for correctness C1–C3 and comprehensibility F1, F2, F5, F6 and R1 were adapted into the wordings quoted above, and F7 was adopted only as far as EN's two age definitions.",
+  "exclusionsAddedBeyondEn": {
+   "打ち合わせ": [
+    "話し合う"
+   ],
+   "採点": [
+    "勘定"
+   ]
+  },
+  "titles": {
+   "しーん": "гробовая тишина; ни звука",
+   "インタビュー": "интервью",
+   "スケジュール": "график; программа (мероприятий)",
+   "乾電池": "сухая батарейка (сухой элемент)",
+   "交流": "взаимодействие; культурный обмен; переменный ток",
+   "合同": "совместный (о мероприятии); слияние (организаций); конгруэнтность (в геометрии)",
+   "合流": "слияние потоков (рек, дорог); присоединение к группе",
+   "寸法": "габариты; размеры",
+   "広さ": "величина (пространства); ширина",
+   "打ち合わせ": "предварительное обсуждение; согласование деталей",
+   "採点": "выставление оценок; подсчёт очков",
+   "点数": "количество баллов; число предметов",
+   "直流": "постоянный ток",
+   "組み合わせ": "комбинация; пары соперников (в турнире)",
+   "蛍光灯": "люминесцентная лампа; тугодум (устар.)",
+   "鈍い": "тупой (о лезвии); глухой (о звуке); медлительный",
+   "雑巾": "тряпка для уборки",
+   "零点": "ноль баллов; нуль функции",
+   "電力": "электрическая мощность",
+   "電柱": "столб для проводов",
+   "電池": "батарейка; элемент питания",
+   "電波": "радиоволны; приём сигнала",
+   "電流": "электрический ток",
+   "電球": "лампочка",
+   "青少年": "подростки и молодёжь",
+   "青白い": "бледный; синевато-белый",
+   "静まる": "затихать; утихать",
+   "面倒くさい": "муторный; лень возиться",
+   "面接": "собеседование",
+   "面積": "площадь (поверхности)"
+  }
+ }
+}

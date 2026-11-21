@@ -1,6 +1,69 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch227 thirty words (general word queue)
+## Current published source milestone: batch228 thirty words (general word queue)
+
+Batch228 adds 30 Russian word articles: スケジュール 寸法 広さ 面積 インタビュー 面接 面倒くさい しーん 静まる 青白い 青少年
+鈍い 蛍光灯 電球 直流 組み合わせ 交流 合同 合流 電流 電波 乾電池 電池 電柱 電力 採点 点数 零点 雑巾 打ち合わせ. They are chunk 20 of
+72 of the general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is
+exactly the 30 requested words, so every EN quiz_exclusions target resolves to an existing RU word or a word in the batch;
+18 of the 140 EN entries lie inside the batch.
+
+Navigation-only link wraps restore 10 links at EN link positions in 10 existing pages: the article numbers-and-counters
+(to 面積), the kanji cards 乾 (to 乾電池), 白 and 青 (to 青白い), and the word cards ざわざわ and しんみり (to しーん),
+会議 (to 打ち合わせ), 蛍 (to 蛍光灯), 鋭い (to 鈍い) and 青年 (to 青少年). The new cards keep EN's links to existing cards; their
+links to the kanji cards 接, 鈍, 蛍, 灯, 波, 池, 柱, 採 and 零, to the word cards 体積, 接近 and 満点 and to the articles
+japanese-onomatopoeia and onomatopoeia-motion-and-sound stay plain until those targets are adapted.
+
+The batch covers:
+- schedules, sizes and areas: a schedule (スケジュール), dimensions (寸法), spatial extent or width (広さ) and area (面積);
+- interviews, meetings and bother: an interview (インタビュー), a job or admission interview (面接), a preliminary meeting
+  or arrangement (打ち合わせ) and too much bother to do (面倒くさい);
+- silence and calming: dead silence (しーん) and to quiet down (静まる);
+- pale colour and youth: pale (青白い) and young people (青少年);
+- dullness and lamps: blunt, dull or slow (鈍い), a fluorescent lamp (蛍光灯) and a light bulb (電球);
+- combining and joining: a combination or pairing (組み合わせ), interaction or alternating current (交流), joint or
+  combined (合同) and merging or joining up (合流);
+- electricity: electric current (電流), direct current (直流), radio waves or reception (電波), a dry cell (乾電池), a battery
+  (電池), a utility pole (電柱) and electric power (電力);
+- scores and cleaning: marking or scoring (採点), points or a number of items (点数), zero points (零点) and a cleaning
+  cloth (雑巾).
+
+All 140 EN exclusions are retained in EN order. Two direct conservative guards on 2 new cards, 採点–勘定 and 打ち合わせ–話し合う,
+cover reviewed RU sense neighbours; the consistency reviewer agreed with both classifications.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: three minor scoped-coverage findings: 青少年 dropped EN's two source age definitions, 鈍い its seven
+  comparison-entry citations and 打ち合わせ the archaic matching sense; three optional items: 零点's regret, 打ち合わせ's
+  clothing-overlap wording and 広さ's title;
+- consistency: no finding; two optional notes, 広さ's and 面積's readings of 二十 and 打ち合わせ's clothing wording;
+- comprehensibility: one moderate and six minor findings: 打ち合わせ's clothing note read as a smell, 広さ's «протяжённость»
+  and room example shared with 面積, unexplained DC, AC and LED, 交流's «машина», 合同's «презентацию», 電力's title
+  «электроэнергия» and 青少年's missing age ranges; an optional note on the shared 乾電池 and 電池 translation.
+
+Two signed fix commits addressed them:
+- two titles changed: 広さ «величина (пространства); ширина» and 電力 «электрическая мощность»;
+- 青少年 restores both age ranges as source definitions, 鈍い restores the seven citations, and 打ち合わせ names the excluded
+  clothing-overlap and matching senses;
+- 交流, 合同, 広さ, 面積 and 電力 were reworded in Russian, and 零点's example adds «К сожалению»;
+- fix 1 rewrote 広さ's Nの広さ sentence, which the comprehensibility recheck found did not parse; fix 2 says N names the
+  thing whose extent is meant;
+- the DC, AC and LED finding, the readings note and the 乾電池 and 電池 note were declined.
+
+The serial rechecks reported all facets clean, with no regression.
+Links follow EN, with six RU-only links to existing cards at a substantive comparison: 広さ–面積, インタビュー–面接,
+電球–明るい, 交流–直流, 交流–合流 and 乾電池–電池.
+
+Qualified progress is **4,959 reviewed-current / 8 reviewed runtime-blocked / 3,311 pending of 8,278**,
+with 3,493 words, 718 kanji and 718 strokes. See the [intake](translation-batches/228-words-batch-67-intake.json),
+[independent review](translation-batches/228-words-batch-67-independent-review-001.md),
+[recheck](translation-batches/228-words-batch-67-recheck-001.md),
+[qualified source record](translation-batches/228-words-batch-67-reviewed-source.json) and
+[final validation](translation-batches/228-words-batch-67-final-validation-001.json).
+
+## Previous published source milestone: batch227 thirty words (general word queue)
 
 Batch227 adds 30 Russian word articles: コレクション 伝わる 区分 区切る 区域 受け取り 境界 感想 時間割 突き当たる 突く
 突っ込む 集金 雑音 響き 響く 頂点 項目 順々 順序 預かる 領事 領収 頭脳 頼もしい 題名 顕微鏡 風呂敷 風船 飛び込む. They are chunk 19 of
