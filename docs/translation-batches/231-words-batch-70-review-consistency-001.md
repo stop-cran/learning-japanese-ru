@@ -1,0 +1,40 @@
+# B231 consistency and quiz-safety review
+
+> Provenance: recorded verbatim from the blind reviewer's returned report. The task runner assigned `claude-sonnet-5.5`
+> (Claude family), as shown in the runtime agent listing; the reviewer could not see its own execution metadata.
+> Reviewed snapshot: `5af5353eab033af178249f39b48ac4200abf5c24` (tree `f0e6d8ef3d9983f842128471acff66dfe5a652bc`),
+> the signed candidate pushed before review.
+> Later reconciliation is in `231-words-batch-70-recheck-001.md`.
+
+Snapshot: RU commit 5af5353eab033af178249f39b48ac4200abf5c24 on full-ru-231-words-70 (`git rev-parse HEAD` matched; `git status --porcelain` empty at start and end; no uncommitted changes reviewed). Frozen EN 6af98cb read from the working tree. Deviation to disclose: I ran `python tools/build_manifest.py --help` once, which executed the generator (printed "manifest.json: 5049 files … version 9f7fbab4482b1d53"); `git status` afterwards showed no tracked file modified (so the committed manifest equals a fresh generation), and I deleted the untracked `tools/__pycache__` that my Python run created. HEAD and index never changed.
+
+Scope: Facets reviewed: CONSISTENCY, QUIZ SAFETY, cross-file integration coverage. Read in full (front matter and body) against EN: all 30 new cards (コース 針路 釜 釘 金魚 重量 アクセント 重点 重役 引力 重力 重体 重なる 重ねる 重たい 下品 だらしない みじめ みっともない 醜い 酸性 酸っぱい 酢 酒場 給与 配る 汲む 酌む 都心 郵送). Read the complete -U0 diffs of all six navigation files (kanji/魚.md, words/甘い.md, 積む.md, 能力.md, 鉢.md, 魚.md) plus EN counterpart lines. Checked intake record paths/hashes, manifest, validator, a title screen run against all RU titles, plus targeted reads of 合う, 一致, 状態, 具合, いかがわしい front matter. Model: not verifiable from inside this session (reviewer is a sub-agent of the coordinator).
+
+Verdicts:
+- Consistency (format, terminology, links, navigation, manifest, intake): CLEAN.
+- Quiz safety: NEEDS FIX (one Minor missing guard, F1; two nonblocking classifications below).
+- Cross-file integration: CLEAN.
+
+Findings:
+
+F1; Minor; quiz safety; words/重なる.md:10 (quiz_exclusions). The RU title «накладываться друг на друга; совпадать по времени» adds a «совпадать» sense that EN's title ("be piled up; overlap") did not have, so it now shares the verb «совпадать» with 合う «подходить; совпадать» (words/合う.md title), and is a near-lexical neighbour of 一致 «совпадение; единодушие». Neither pair is declared on either side (重なる lists 積もる, 積む, 繰り返す, 被る, 合わせる, 重ねる; 合う lists マッチ, いい, 良い, 格好, 同じ, 一緒; 一致 lists 賛成, 合う, 偶然). In a meaning quiz a learner can defensibly pick 合う for 会議が試験と重なった-type "coincide" meaning (合う: JMdict "to match; to coincide"; 予定が合う), and 一致する is "to coincide". The repo already guards 一致↔合う, showing the same overlap was treated as confusable. The title-screen tool also flags both pairs (stem «совпа»). Remedy (one side suffices; EN list retained): `quiz_exclusions: [積もる, 積む, 繰り返す, 被る, 合わせる, 重ねる, 合う]`; 一致 is optional and may be added: `…, 合う, 一致]`. Evidence: RU titles above; JMdict 合う sense "coincide"; 重なる card itself teaches 会議が試験と重なりました (coincide in time). Confidence: medium (the overlap comes from the RU title wording, not from EN).
+
+Classification of every `quiz_exclusions` entry beyond the EN file (full 30-card comparison: all other EN lists are byte-identical in RU, so all EN exclusions are retained; front matter other than `title` and these two lists is identical to EN):
+
+C1; 下品 → いかがわしい (words/下品.md:11). Basis: JMdict 下品 (1186230) "vulgar; coarse; indecent"; いかがわしい "dubious; questionable; indecent, obscene" (the card's own cross-reference entry 1178940 sense 3 «пошлый; непристойный»). RU titles «неприличный» and «непристойный» are near-synonymous in Russian (EN titles "vulgar; indecent" vs "dubious; disreputable" were separate, so the overlap is RU-title-induced). Classification: REQUIRED (a learner can defensibly answer «непристойный» with 下品 and «неприличный» with いかがわしい). Keep.
+
+C2; 重体 → 状態 and 重体 → 具合 (words/重体.md:9). Basis: JMdict 重体 "serious condition (illness, injury)"; 状態 "state; condition"; 具合 "condition; state of health". Only a shared generic hypernym «состояние»; the batch title's qualifier «критическое… (угроза жизни)» separates them, and generic 状態 «состояние» is not a defensible answer for the critical-condition card. Classification: CONSERVATIVE (real shared-gloss basis, necessity unestablished; mildly over-guarding, nonblocking). Note inconsistent application: 調子 «тон; состояние (форма)» and 心理 «психологическое состояние; психология» share the same «состояние» token and are not guarded, which is right (they are not defensible answers either), so retain-or-drop is an editorial choice; dropping would not create a gap. EN has no exclusions for 重体. No missing guard follows from this.
+
+Other quiz-safety screening: ran the title screen against ALL RU word titles (126 candidate pairs not already guarded; no exact whole-word segment overlaps among them, only stem noise such as «движе», «предм», «состо», «време», «друго»). Judged manually against all RU titles: the only defensible-answer gaps are in F1. 金魚↔魚, 金魚↔鯉, 重量↔終了/量, 重力↔重い, 酢↔酸っぱい/しょうゆ/塩, 酒場↔店 (EN-guarded), 都心↔郊外/都市 (guarded), 郵送↔郵便局/切手/発送-type words, 重たい↔苦しい «тяжёлый», 重体↔病気/症状 and 重役↔部長/課長/経営 are adequately separated by titles or existing EN guards; no extra guard needed. Exclusions are direct pairs; no transitive pairs inferred or required.
+
+RU-only links judged: 金魚→鯉 (words/金魚.md:21), 引力→重力, 重力→重い, 酸性→酸っぱい, 酢→酸っぱい. All targets exist; EN left these plain or linked a different form; additions are navigation-only, correct paths, no quiz impact. Acceptable (not a defect).
+
+Navigation restorations (7 occurrences/6 files), each matches EN position: kanji/魚.md lines 37 (on-reading row) and 45 (list) → ../words/金魚.md (EN lines 28, 36; 人魚/魚類/熱帯魚 plain as EN); words/魚.md:25 → 金魚.md (EN line 27); words/甘い.md:36 → 酸っぱい.md (苦い stays plain as EN); words/積む.md:32 → 重ねる.md; words/能力.md:22 → form 重ねて → 重ねる.md; words/鉢.md:37 → 釜.md (same sentence as 鍋, as EN line 37, applied post-batch-230 and acceptable). -U0 diffs show only bracket/href changes; no prose change. Path forms match EN.
+
+Cross-file integration: enumerated every EN file (words/kanji/articles) that links one of the 30 new words and compared with RU: every file that exists in RU links it (including the 7 restorations and reciprocal pairs 汲む/酌む, 重なる/重ねる, 重力/引力/重量, 針路/コース, 醜い/みっともない/下品, 酸っぱい/酸性); the remaining EN-linking files have no RU card yet, so plain text is correct. Dropped EN links inside new cards (針路→kanji/針, 重量→kanji/量, 重点→終点, みっともない→厚かましい, 郵送→kanji/郵) all have no RU target, so unlinked pointers are correct. No link to a missing RU file (all relative targets resolve).
+
+Manifest/intake: `docs/translation-batches/231-words-batch-70-intake.json` lists 36 payload paths equal to the 36 content paths in the diff (30 new + 6 modified), all candidateRawSha256 values match the files, held is empty, and it adds no learner content. manifest.json adds the 30 new entries and the new hash for kanji/魚.md; the other five modified files were verified by the same check via the generator output (committed manifest equals fresh generation, version 9f7fbab4482b1d53). `python tools/validate.py`: 0 error(s). No generated or unrelated files in the commit (38 files = 30 new + 6 nav + manifest + intake).
+
+Optional: None.
+
+Limits: Did not independently re-verify dictionary entries online; dictionary senses cited above come from the cards' own source citations and standard JMdict glosses. Linguistic correctness and comprehensibility of the prose were not this facet's assignment beyond reading for consistency. My own naive SHA-256 check of strokes/*.json files against manifest values disagreed (likely line-ending normalization in the generator; unrelated to this batch and consistent with the generator reporting no diff); not pursued. No app quiz was executed; classification of "defensible answer" is judgement from titles and glosses. Not read (per BLIND rule): author reports, other reviewer reports, batch records, drafts, tracking.

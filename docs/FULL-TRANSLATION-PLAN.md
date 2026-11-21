@@ -1,6 +1,69 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch230 thirty words (general word queue)
+## Current published source milestone: batch231 thirty words (general word queue)
+
+Batch231 adds 30 Russian word articles: コース 針路 釜 釘 金魚 重量 アクセント 重点 重役 引力 重力 重体 重なる 重ねる 重たい
+下品 だらしない みじめ みっともない 醜い 酸性 酸っぱい 酢 酒場 給与 配る 汲む 酌む 都心 郵送. They are chunk 23 of 72 of the
+general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is exactly the
+30 requested words, so every EN quiz_exclusions target resolves to an existing RU word or a word in the batch; 14 of the 130
+EN entries lie inside the batch.
+
+Navigation-only link wraps restore 7 links at EN link positions in 6 existing pages: the kanji card 魚 (twice to 金魚) and the
+word cards 魚 (to 金魚), 甘い (to 酸っぱい), 積む and 能力 (to 重ねる) and 鉢 (to 釜, the link held from Batch230). The new
+cards keep EN's links to existing cards; their links to the kanji cards 針, 量 and 郵 and to the word cards 終点 and 厚かましい
+stay plain until those targets are adapted.
+
+The batch covers:
+- routes: a route or course (コース) and a heading or course of a ship or aircraft (針路);
+- hardware: a cooking pot or kettle (釜) and a nail (釘);
+- weight and gravity: weight (重量), attraction (引力), gravity (重力) and heavy or oppressive (重たい);
+- emphasis: an accent (アクセント) and an important point (重点);
+- importance and condition: a company executive (重役) and a critical medical condition (重体);
+- piling up: to be piled up or overlap (重なる) and to stack or repeat (重ねる);
+- unseemliness: vulgar (下品), sloppy (だらしない), miserable (みじめ), unsightly or shameful (みっともない) and ugly or
+  disgraceful (醜い);
+- sourness: acidity (酸性), sour (酸っぱい) and vinegar (酢);
+- drinking and scooping: a bar or tavern (酒場), to draw or scoop water (汲む) and to serve sake or drink together (酌む);
+- other words: a goldfish (金魚), pay (給与), to distribute (配る), a city center (都心) and mailing (郵送).
+
+All 130 EN exclusions are retained in EN order. Six direct guards on 4 new cards cover reviewed RU sense neighbours:
+下品–いかがわしい is required; 重体–状態 and 重体–具合 are conservative and harmless; 重なる–合う, 重なる–一致 and
+重たい–苦しい were added with the fix. The consistency reviewer agreed with the candidate classifications, and 重なる–合う
+and 重なる–一致 were added for its finding.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: one minor finding: 酌む and 汲む spelled the Russian borrowing «сакэ» instead of «саке»; optional items:
+  下品's and 酸っぱい's source-gloss notes and 重たい's «увесистый»;
+- consistency: one minor quiz-safety finding, 重なる «совпадать по времени» against 合う «подходить; совпадать», with 一致
+  as an optional extension;
+- comprehensibility: eight minor findings: 下品's source-list note, みじめ's «жалкий и униженный», 重役's «член правления»,
+  重量's verb translation and its «боксёр-тяжеловес» note, 引力's tautology, 重たい's «увесистый» and 金魚's «круглый аквариум»;
+  optional notes on コース, 下品, 配る, 酢, 都心, 釘 and 金魚.
+
+One signed fix commit addressed them:
+- four titles changed: 酌む «наливать саке; выпивать вместе», みじめ «жалкий; плачевный», 重役 «член руководства
+  компании; важный пост» and 重たい «тяжёлый; гнетущий (об атмосфере)»;
+- example translations were rewritten in みじめ, 重役, 重量 and 引力, 酌む and 汲む now spell «саке», notes in 重役, 重量,
+  金魚, 酢 and 酸っぱい were reworded, and 下品's source-list note was deleted;
+- 重なる excludes 合う and 一致, and 重たい excludes 苦しい;
+- 下品's «пошло» and the other comprehensibility optional notes were declined, and several suggested wordings were adapted
+  rather than adopted.
+
+The serial rechecks reported all facets clean, with no regression.
+Links follow EN, with five RU-only links at a substantive comparison: 金魚–鯉, 引力–重力, 重力–重い, 酸性–酸っぱい and
+酢–酸っぱい.
+
+Qualified progress is **5,049 reviewed-current / 8 reviewed runtime-blocked / 3,221 pending of 8,278**,
+with 3,583 words, 718 kanji and 718 strokes. See the [intake](translation-batches/231-words-batch-70-intake.json),
+[independent review](translation-batches/231-words-batch-70-independent-review-001.md),
+[recheck](translation-batches/231-words-batch-70-recheck-001.md),
+[qualified source record](translation-batches/231-words-batch-70-reviewed-source.json) and
+[final validation](translation-batches/231-words-batch-70-final-validation-001.json).
+
+## Previous published source milestone: batch230 thirty words (general word queue)
 
 Batch230 adds 30 Russian word articles: 長男 四角 四角い 正方形 長方形 長所 継続 長引く 長女 鑑賞 鐘 録音 錆 錆びる 銅 鉱物
 丼 鉢 鉄砲 鉄橋 鈴 仕上がる イコール 整備 揃える 揃う 釣り合う 針金 課程 過程. They are chunk 22 of 72 of the general
