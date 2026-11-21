@@ -1,6 +1,72 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch222 thirty words (general word queue)
+## Current published source milestone: batch223 thirty words (general word queue)
+
+Batch223 adds 30 Russian word articles: アイスクリーム クリーム クリスマス クラシック キャンプ キャプテン オーバー エネルギー
+ウイスキー インク アルバム アウト アイロン わざと やや だけど ところが なぜなら だって だが もっとも もしも まるで まさに まさか まあ
+きちんと そっくり くっつく くっつける. They are chunk 15 of 72 of the general remaining-word queue, recomputed after Batch207
+from 2,157 remaining EN words. Their dependency closure is exactly the 30 requested words, so every EN quiz_exclusions
+target resolves to an existing RU word or a batch word (ten entries lie inside the batch, among them クリーム–アイスクリーム
+and the connective pairs around だけど and だが).
+
+Navigation-only link wraps restore 7 links at EN link positions in 7 existing word pages. テント's link to キャンプ, held
+since Batch222, is among them. All 30 new cards are written in kana; くっつく and くっつける keep EN's links to the existing
+kanji card 付, so no kanji label is left plain.
+
+The batch covers:
+- food and drink: ice cream (アイスクリーム), cream (クリーム) and whisky (ウイスキー);
+- events and people: Christmas (クリスマス), a camp in the open (キャンプ) and a team captain (キャプテン);
+- things and terms: classical music (クラシック), going over a limit or an overcoat (オーバー), energy (エネルギー), ink
+  (インク), an album (アルバム), out in sport (アウト) and an iron (アイロン);
+- connectives: but (だけど), however (ところが), because (なぜなら), because, but or even (だって), nevertheless (だが),
+  reasonable or however (もっとも) and what if (もしも);
+- adverbs and interjections: on purpose (わざと), slightly (やや), as if or completely (まるで), exactly or just about to
+  (まさに), surely not (まさか), well (まあ), properly (きちんと) and exactly alike or entirely (そっくり);
+- verbs: to stick (くっつく) and to attach (くっつける).
+
+All 55 EN exclusions are retained. Twenty direct guards on 12 new cards cover the reviewed RU title overlaps and sense
+neighbours, as the consistency reviewer classified them:
+- required: クラシック–音楽, オーバー–越す, エネルギー–活気, だけど–でも, もしも–もし, まるで–ちっとも, まさに–もうすぐ, そっくり–似る,
+  ウイスキー–酒, ウイスキー–お酒, やや–少々, そっくり–全体 and, added in the fix, だって–しかし, だって–けれど and だって–けれども;
+- conservative: オーバー–越える, エネルギー–余裕, まさに–すなわち, まあ–あ and, added in the fix, まるで–完全.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: three minor findings and one unverified qualification: アイロン replaced EN's first example with a prose
+  pattern; アイスクリーム denied that クリーム can name the dessert; もっとも («(о доводе)»), まるで (no affirmative
+  «совершенно») and だって (no adversative «но») narrowed their source titles; キャンプ equated the activity with Russian
+  «кемпинг», an equipped camp for motor tourists;
+- consistency: no finding;
+- comprehensibility: seven minor findings: Latin-script source names in seven loanword notes, キャンプ's «кемпинг»,
+  エネルギー's «запас сил», アウト's baseball sense and イン read as the out ball, もっとも's «(о доводе)», だって's
+  excuse-defining title and partial-viewing translation, and ところが's practice and failure rendering.
+
+One signed fix commit addressed them:
+- アイロン restores シャツにアイロンをかけました。, and アイスクリーム acknowledges クリーム's recorded abbreviated sense;
+- もっとも is titled «разумный; обоснованный; впрочем», まるで «словно; совершенно; совсем не», だって «потому что; но; даже;
+  тоже», キャンプ «лагерь на природе; стоять лагерем» and エネルギー «энергия»;
+- キャンプ's body limits «кемпинг» to an equipped site, アウト separates the baseball putout from the tennis line call, and
+  だって and ところが have corrected translations;
+- だって gains guards against しかし, けれど and けれども, and まるで a conservative guard against 完全;
+- the loanword-note finding was not adopted, because naming the source word is the provenance convention of published
+  cards, and the reviewer withdrew it at recheck;
+- the optional まさに and キャプテン wording was adopted.
+
+The serial rechecks reported all facets clean. Links follow EN, with six RU-only links to existing cards at a substantive
+comparison: クリーム–アイスクリーム, エネルギー–活気, まさに–ちょうど, まさに–もうすぐ, まあ–あ and くっつける–結婚. ところが's EN
+link to ところで and きちんと's to ちゃんと stay plain until those words land (planned for Batch224); EN links to
+オーバーコート, インキ, 墨 and えっと stay plain until those targets exist.
+
+Qualified progress is **4,809 reviewed-current / 8 reviewed runtime-blocked / 3,461 pending of 8,278**,
+with 3,343 words, 718 kanji and 718 strokes. See the [intake](translation-batches/223-words-batch-62-intake.json),
+[independent review](translation-batches/223-words-batch-62-independent-review-001.md),
+[recheck](translation-batches/223-words-batch-62-recheck-001.md),
+[qualified source record](translation-batches/223-words-batch-62-reviewed-source.json) and
+[final validation](translation-batches/223-words-batch-62-final-validation-001.json).
+
+## Previous published source milestone: batch222 thirty words (general word queue)
 
 Batch222 adds 30 Russian word articles: カード トランプ トラック デート デモ テント チーム チーズ チャンス ダンス ダイヤ タオル
 タイプライター ソファー センター セット スープ スター スタンド スタイル スケート スキー スイッチ ジーンズ ジュース ジェット機
