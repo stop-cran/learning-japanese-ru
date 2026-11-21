@@ -1,6 +1,70 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch233 thirty words (general word queue)
+## Current published source milestone: batch234 thirty words (general word queue)
+
+Batch234 adds 30 Russian word articles: お先に さようなら 送別 送り仮名 ずれる 退く 退ける 埋める 補う 追加 追い越す 追い掛ける
+迷信 述語 宴会 応対 応接 接する 接近 催促 迫る 近寄る 近付ける 近々 農薬 農産物 農村 船便 交通機関 輸送. They are chunk 26 of 72 of
+the general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is exactly
+the 30 requested words, so every EN quiz_exclusions target resolves to an existing RU word or a word in the batch; 19 of the
+140 EN entries lie inside the batch.
+
+Navigation-only link wraps restore 6 links at EN link positions in 5 existing pages: the kanji card 埋 (two links to 埋める)
+and the word cards パーティー (to 宴会), 追う (to 追い掛ける), 隙間 (to 埋める) and 面接 (to 接近). The new cards keep EN's links to
+existing cards; their links to the words 仮名, ずらす and 主語 and to the kanji cards 補, 述, 接, 農, 村 and 輸 stay plain until
+those targets are adapted.
+
+The batch covers:
+- leaving and parting: going ahead or leaving first (お先に), goodbye (さようなら) and a send-off (送別);
+- grammar and writing: kana endings after kanji (送り仮名) and the predicate (述語);
+- moving aside: to shift out of place (ずれる), to step aside (退く) and to move something out of the way (退ける);
+- filling and adding: to bury or fill a gap (埋める), to make up for (補う) and an addition (追加);
+- chasing: to overtake (追い越す) and to chase (追い掛ける);
+- belief: superstition (迷信);
+- receiving people: a banquet (宴会), attending to people (応対), receiving visitors (応接) and to touch, border on or treat
+  people (接する);
+- approach and pressure: approach (接近), urging (催促), to approach or press for (迫る), to draw near (近寄る), to bring
+  close (近付ける) and in the near future or close by (近々);
+- farming: agrochemicals (農薬), agricultural produce (農産物) and a farming village (農村);
+- transport: sea mail or a shipping service (船便), means of transport (交通機関) and transportation (輸送).
+
+All 140 EN exclusions are retained in EN order. Nineteen direct guards on 12 new cards cover reviewed RU sense neighbours:
+退ける–しまう and 退ける–収める are required for the shared title segment «убирать»; 農産物–製品 shares «продукция»; the
+other sixteen (on お先に, 送別, 追い掛ける, 応対, 催促, 迫る, 近付ける, 船便, 交通機関 and 農村) are conservative and harmless.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: two minor findings: 近々's title and moving example narrowed "in the near future" to the next few days, and
+  補う dropped EN's "not automatically" qualification on legal compensation;
+- consistency: no finding; optional notes on unguarded neighbours of ずれる, 応対 and 近付ける, 休み left unlinked in 送り仮名
+  as in EN, and the exclusion classes;
+- comprehensibility: eight minor findings: a missing kana reading line in 退く, the Latin `wago` label in さようなら and
+  船便, the pesticide-only example translations and a card-title remark in 農薬, and the titles of 催促, 接する, 近々 and
+  交通機関; its optional notes needed no action.
+
+One signed fix commit addressed them:
+- four titles changed: 近々 «в ближайшем будущем; совсем близко (о расстоянии)», 催促 «напоминание (об ответе, оплате);
+  побуждение поторопиться (с ответом)», 接する «соприкасаться; граничить (с чем-либо); обходиться (с людьми)» and 交通機関
+  «транспорт (поезда, автобусы и т. п.); транспортная система»;
+- example translations were rewritten in 近々 and 農薬, notes in 補う, 接する and 農薬 were reworded, and 退く gained its kana
+  reading line;
+- the `wago` label was kept for EN parity and published precedent, its use across earlier cards is left for a separate
+  follow-up, and several suggested wordings were adapted rather than adopted.
+
+The serial rechecks reported correctness, consistency, quiz safety, comprehensibility and scoped coverage clean, with no
+regression; the comprehensibility reviewer withdrew the declined item.
+
+Links follow EN, with one RU-only link: 追い掛ける to 追い付く.
+
+Qualified progress is **5,139 reviewed-current / 8 reviewed runtime-blocked / 3,131 pending of 8,278**,
+with 3,673 words, 718 kanji and 718 strokes. See the [intake](translation-batches/234-words-batch-73-intake.json),
+[independent review](translation-batches/234-words-batch-73-independent-review-001.md),
+[recheck](translation-batches/234-words-batch-73-recheck-001.md),
+[qualified source record](translation-batches/234-words-batch-73-reviewed-source.json) and
+[final validation](translation-batches/234-words-batch-73-final-validation-001.json).
+
+## Previous published source milestone: batch233 thirty words (general word queue)
 
 Batch233 adds 30 Russian word articles: 速達 時速 速力 通路 紙幣 通貨 通訳 通知 効力 成立 妥当 回転 循環 通用 通帳
 出勤 通勤 すれ違う 通り掛かる 這う さわやか 清い 透き通る 澄む 透明 逆さま 逆さ 解放 逃がす 送料. They are chunk 25 of 72 of

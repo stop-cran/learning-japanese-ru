@@ -1,0 +1,163 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "234-words-batch-73",
+ "publishedBaseline": "1e14f14552d91362cbd0bcb4e9e2bb562fffeb7b",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 1e7c04d and serialized rechecks of the signed fix commit b850104 found no remaining defect. Before the candidate the coordinator made no content edits: no title edit, no exclusion append and no held link; the 35 lane files were copied unchanged. Its adjudication records: \"Titles compared with EN one by one; no coordinator title edit.\" \"RU-added exclusions accepted as reported: 19 pairs on 12 cards; 退ける→しまう and 退ける→収める required (identical segment «убирать»), the other 17 conservative and harmless.\" \"The 埋 kanji gloss «закапывать; заполнять пробел» stays unchanged (navigation-only restoration; outside the batch scope).\" It records that `link_parity.py` over the 35 paths reports only the intended RU-only link 追い掛ける:40 → 追い付く (substantive comparison with an existing RU card), that `navonly.py` reports 5 files, 6 links added, 0 problems, and that a lane check after the Batch 233 fix found no lane path that links to or quotes a card changed by that fix or its old wording, and no lane path that is a Batch 233 path. \"Candidate screen on the published B233 tree (main 1e14f14; b234-cand-screen.txt): 0 unguarded exact segments; the 3 exact shared segments are guarded (送別–見送り «проводы», 退ける–しまう and 退ける–収める «убирать»).\" Correctness raised two minor findings. F1: 近々's title, H1 and moving example said «в ближайшие дни», narrowing EN \"in the near future\" to a days-based horizon (JMdict 1578110 sense 1 \"soon; before long; shortly; in the near future\"; Digital Daijisen ちかぢか ごく近いうちに); the same defect as comprehensibility C7. The title and H1 are now «в ближайшем будущем; совсем близко (о расстоянии)» and the example reads «В ближайшее время я собираюсь переехать.», adapted: the reviewers' «в ближайшее время» (F1) and «скоро» (C7) were not used in the title because they are exact title segments of そのうち and もうすぐ (both EN-guarded), and line 16 already says «скоро, в ближайшее время». F2: 補う:42 «補う не означает выплату возмещения по закону:» dropped EN's \"does not automatically mean paying legal damages\"; the line now reads «Само по себе 補う не означает выплату возмещения по закону:». Consistency raised no finding; its optional notes covered the unguarded pairs ずれる–相違/逸れる, 応対–答える/応じる and 近付ける–くっつける, 休み left unlinked in 送り仮名 as in EN, and the classification of the 19 RU-added exclusions. All 19 exclusions stay. Comprehensibility raised eight minor findings. C1: 退く:21 lacked the kana reading line that EN has; it is restored. C3: 農薬:20–21 translated 農薬 only as «пестицид»; the examples now read «Я выращиваю овощи без сельскохозяйственных химических средств.» and «Используйте этот препарат строго в установленном количестве.», adapted: «агрохимикаты» was avoided because in Russian regulatory usage it denotes fertilizers and soil amendments, and the Russian statutory definition of «пестициды» includes plant growth regulators. C4: 農薬:42 «В названии карточки к «пестицидам» добавлены регуляторы роста, чтобы они не выпали из категории незаметно.» was authorial meta; it now reads «Не сводите 農薬 к «пестицидам» в узком смысле: регуляторы роста тоже входят в эту категорию.», reworded rather than deleted, because EN :49–50 has the equivalent note. C5: 催促's title and H1 ended in the verb «торопить»; they now read «напоминание (об ответе, оплате); побуждение поторопиться (с ответом)», nominal as EN \"pressing for action; urging\"; the proposed added 急ぐ sentence was declined. C6: 接する's «вести себя (с людьми)» is now «обходиться (с людьми)» in the title and H1, and line 16 ends «или «обходиться с людьми, иметь с ними дело».». C7 was merged with F1. C8: 交通機関's «средства сообщения» is now «транспортная система» in the title and H1, matching EN \"means of transport; transport system\". C2 (the Latin `wago` label in さようなら:29 and 船便:26) was declined for EN parity. At recheck of fix 1 (b850104) all three reviewers ran serially, read-only, with no generator run.\nCorrectness (gpt-6.1-sol) judged F1 (近々 «в ближайшем будущем» and the moving example «В ближайшее время») and F2 (補う «Само по себе 補う не означает…») resolved and found every other rewrite at least as accurate in its context (交通機関 «транспортная система», 催促 «побуждение поторопиться (с ответом)», 接する «обходиться (с людьми)», 農薬's two example translations and the learner-facing growth-regulator reminder, and the restored 退く reading line); it reported no regression: correctness CLEAN, scoped coverage CLEAN.\nConsistency (claude-sonnet-5.5) confirmed title = H1 for 交通機関, 催促, 接する and 近々, matched the manifest hashes, found no link or exclusion change and no new exact title segment except 接する–済ませる «обходиться», which it judged not a defensible-answer ambiguity (different complements, neither word has the other's sense) and recorded as a new optional guard; it kept its earlier optional guards (ずれる, 応対, 近付ける) and the unlinked 休み in 送り仮名 optional: consistency, quiz safety and scoped integration CLEAN, no new finding.\nComprehensibility (grok-4.7) judged C1 and C3-C8 resolved (C3, C4 and C5 in the adapted wording; it did not maintain the 急ぐ sentence, the longer 農薬 wording or the extra 近々 day-count sentence), withdrew C2 (the wago label, EN parity and the 家賃, 年月 and 方々 precedent), found no regression in the 補う edit and kept the optionals optional: comprehensibility CLEAN, scoped coverage CLEAN.\nNo actionable finding remains; no second fix is needed. Fix 1 changed no Japanese example sentence, sourced reading, link, quiz exclusion, navigation file or kanji card; in 退く it added only the kana reading line that EN has. The correctness and comprehensibility reviewers read all 30 cards in full against EN; the consistency reviewer read all 30 RU cards and the five navigation diffs in full, read the EN originals of お先に, さようなら and 送別 and the start of 送り仮名 in full and compared the rest programmatically (front matter, exclusions, link targets and counts, footers), and checked the intake's paths and the manifest hashes. Evidence includes the actual JMdict XML entries (JMdict_e.gz) for all 30 headwords and the other entry IDs the cards cite; Digital Daijisen on Weblio (近々, 補う, 補償, 農薬, 催促, 接する and 交通機関); Kotobank (送り仮名, 応対, 応接 and 近近); 実用日本語表現辞典 on Weblio (近々); JMdict via japandict (近々); and the Russian statutory definition of «пестициды». The rechecks found no regression. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 140 EN exclusions across 26 lists are retained in EN order; 送り仮名, 迷信, 述語 and 近付ける have none in EN. Nineteen lie inside the batch: さようなら–お先に, 送別–さようなら, 退く–ずれる, 退ける–退く, 補う–埋める, 追加–補う, 宴会–応接, 応対–応接, 応接–応対 and 宴会, 接する–応対 and 応接, 接近–接する, 迫る–接近 and 催促, 近寄る–接近 and 迫る, and 輸送–船便 and 交通機関; the other 121 target existing RU cards. Nineteen direct, one-sided exclusions on twelve new cards cover reviewed RU title overlaps: eighteen appended to eleven existing lists and one new list on 近付ける (four entries). All nineteen came from the authoring lane, were accepted by the coordinator as reported and were declared at the candidate; fix 1 added and removed none. They are お先に–譲る (譲る «уступать (место); передавать другому»), 送別–送る (送る «отправлять; провожать»), 退ける–しまう (しまう «убирать; заканчивать; невольно сделать»), 退ける–収める (収める «убирать (на место); добиваться (результата)»), 追い掛ける–走る (走る «бежать; бегать»), 応対–付き合い, 応対–返事 and 応対–答 (付き合い «общение; отношения с людьми», 返事 «ответ; отклик», 答 «ответ; решение»), 催促–急ぐ (急ぐ «спешить; торопиться»), 迫る–収める, 近付ける–近寄る, 近付ける–接近, 近付ける–寄る and 近付ける–近い, 農産物–製品 (製品 «изделие; продукция»), 農村–地域 (地域 «регион; округа (местное сообщество)»), 船便–郵送 and 船便–速達 (郵送 «отправка по почте», 速達 «срочная доставка (почты); срочное почтовое отправление») and 交通機関–車 (車 «автомобиль; транспортное средство»). The author classed 退ける–しまう and 退ける–収める as required for the identical segment «убирать» and the other seventeen as conservative; the coordinator accepted them as reported, recording the other seventeen as conservative and harmless. The consistency reviewer classed 退ける–しまう and 退ける–収める as required, 農産物–製品 as required or near-required (shared «продукция»), 迫る–収める, the four 近付ける entries, 船便–郵送, 船便–速達, 交通機関–車 and 農村–地域 as conservative, and お先に–譲る, 送別–送る, 追い掛ける–走る, the three 応対 entries and 催促–急ぐ as conservative and weakest (necessity unestablished; none unjustified); all nineteen stay. After fix 1 the four retitled cards share one exact title segment with another card: 接する's «обходиться (с людьми)» with 済ませる «заканчивать (дело); обходиться (чем-л.)». It is deliberately left unguarded: the displayed labels carry different complements and neither word has the other's sense; the consistency reviewer judged it not a defensible-answer ambiguity and recorded a guard as a new optional. 近々's «в ближайшем будущем» has no exact segment elsewhere; it shares the «будущ-» stem with 今に «в скором будущем» (guarded) and with 先, 将来 and 未来 (unguarded), and the «ближа-» stem with そのうち «в ближайшее время» (guarded). 催促's «побуждение поторопиться» has no exact segment, and 急ぐ is guarded. 交通機関's «транспортная система» has no exact segment; «систе-» meets 制度 «учреждённая система», 機関 (guarded) and 級. Every RU addition is appended at the end of its list; nothing is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/234-words-batch-73-intake.json",
+  "docs/translation-batches/234-words-batch-73-independent-review-001.md",
+  "docs/translation-batches/234-words-batch-73-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "仮",
+   "補",
+   "述",
+   "宴",
+   "応",
+   "接",
+   "催",
+   "促",
+   "迫",
+   "農",
+   "村",
+   "輸"
+  ],
+  "navigationNote": "Restored 6 relative links in the 5 listed Markdown files at the corresponding EN-linked positions, using EN's href forms (../words/X.md in the kanji card, X.md in the word cards): 埋める in kanji 埋 (line 29, matching EN line 29, in the う.める reading-table row, and line 38, matching EN line 38, in the word list; the うずめる row stays plain as in EN), 宴会 in word パーティー (line 36, matching EN line 28, in prose), 追い掛ける in word 追う (line 32, matching EN line 31, in prose, with the kana link text 追いかける), 埋める in word 隙間 (line 21, matching EN line 23, in prose, inside 隙間を埋める) and 接近 in word 面接 (line 30, matching EN line 31, in a reading comparison). No surrounding prose was changed; the 埋 kanji gloss «закапывать; заполнять пробел» is unchanged. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/埋.md",
+   "words/パーティー.md",
+   "words/追う.md",
+   "words/隙間.md",
+   "words/面接.md"
+  ],
+  "newWords": [
+   "お先に",
+   "さようなら",
+   "送別",
+   "送り仮名",
+   "ずれる",
+   "退く",
+   "退ける",
+   "埋める",
+   "補う",
+   "追加",
+   "追い越す",
+   "追い掛ける",
+   "迷信",
+   "述語",
+   "宴会",
+   "応対",
+   "応接",
+   "接する",
+   "接近",
+   "催促",
+   "迫る",
+   "近寄る",
+   "近付ける",
+   "近々",
+   "農薬",
+   "農産物",
+   "農村",
+   "船便",
+   "交通機関",
+   "輸送"
+  ],
+  "selection": "Batch 73 selected 30 word cards from the frozen source: chunk 26 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,377 remained after Batch 233, and 1,347 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; the one closure dependency recorded, 応接's on 宴会, was already among them; nothing outside them was added. Nineteen source exclusion entries lie inside the batch; the other 121 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (13 EN link occurrences, 9 targets) in the new cards: 送り仮名→仮名, ずれる→ずらす, 補う→kanji 補, 述語→kanji 述 and 主語, 応接→kanji 接, 接する→kanji 接, 接近→kanji 接, 農薬→kanji 農, 農産物→kanji 農, 農村→kanji 農 and kanji 村, and 輸送→kanji 輸. 12 written kanji have no RU kanji card: 仮 補 述 宴 応 接 催 促 迫 農 村 輸 (EN has cards only for 補, 述, 接, 農, 村 and 輸). Links otherwise follow EN; the one RU-only link is 追い掛ける:40 → 追い付く, a substantive comparison with an existing RU card.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined or partially adopted items: the correctness reviewer's F1 wording «в ближайшее время» and the comprehensibility reviewer's C7 wording «скоро (в ближайшее время)» were not used in 近々's title because they are exact title segments of そのうち and もうすぐ; C7's added day-count sentence was not needed because line 16 already says «скоро, в ближайшее время». The comprehensibility reviewer's C2 (さようなら:29 and 船便:26, the Latin `wago` label in learner prose) was declined: EN has the same sentences (EN さようなら:26, 船便:23), and published RU cards gloss the label as «wago («исконное слово»)» (家賃:24, 年月:29, 方々:31); a corpus-wide decision on the label in learner prose belongs to the Issue #7 follow-up list, not to one batch, and no other file is changed here. Its C3 wording «химическое средство для растений» was not used; «этот препарат» follows EN \"this agrochemical\". Its C4 deletion was not adopted: EN :49–50 has the equivalent note, so the sentence was replaced by a learner-facing one. Its C5 body sentence with a 急ぐ link was declined: it would add an RU-only link, and 催促→急ぐ is already guarded. At recheck the comprehensibility reviewer withdrew C2 and did not maintain the 急ぐ sentence, the longer 農薬 wording, «скоро» or the extra 近々 day-count sentence. Its optional notes (お先に's speech-act title, さようなら «прощайте», 送別 «прощальный», 宴会 «застолье», 農村 «земледельческая деревня», 応対's long title, 述語's commentary, 追い掛ける «пускаться в погоню», 近寄る «этой машине» and «Ко мне подошла кошка», 補う «окуригана» and the unlinked absent targets) led to no action, because the reviewer classed them as acceptable. The consistency reviewer's optional guards (ずれる–相違/逸れる, 応対–答える/応じる and 近付ける–くっつける, necessity UNVERIFIED) and its note on 休み left unlinked in 送り仮名 led to no action: the reviewer judged the pairs separated by title and the guards not required, and 休み follows EN parity; it kept them optional at recheck and added the 接する–済ませる guard as a new optional, also not adopted.",
+  "exclusionsAddedBeyondEn": {
+   "お先に": [
+    "譲る"
+   ],
+   "交通機関": [
+    "車"
+   ],
+   "催促": [
+    "急ぐ"
+   ],
+   "応対": [
+    "付き合い",
+    "返事",
+    "答"
+   ],
+   "船便": [
+    "郵送",
+    "速達"
+   ],
+   "農村": [
+    "地域"
+   ],
+   "農産物": [
+    "製品"
+   ],
+   "近付ける": [
+    "近寄る",
+    "接近",
+    "寄る",
+    "近い"
+   ],
+   "迫る": [
+    "収める"
+   ],
+   "追い掛ける": [
+    "走る"
+   ],
+   "退ける": [
+    "しまう",
+    "収める"
+   ],
+   "送別": [
+    "送る"
+   ]
+  },
+  "titles": {
+   "お先に": "проходите первым (уступая очередь); ухожу раньше вас (вежливо)",
+   "さようなら": "до свидания; прощайте",
+   "ずれる": "смещаться (с места); не совпадать (по времени, сути)",
+   "交通機関": "транспорт (поезда, автобусы и т. п.); транспортная система",
+   "催促": "напоминание (об ответе, оплате); побуждение поторопиться (с ответом)",
+   "埋める": "закапывать; заполнять (пробел, пустоту)",
+   "宴会": "банкет; застолье",
+   "応対": "общение с посетителями (клиентами); ответ на обращения (в том числе по телефону)",
+   "応接": "приём посетителей (гостей)",
+   "接する": "соприкасаться; граничить (с чем-либо); обходиться (с людьми)",
+   "接近": "приближение; сближение (по уровню, в отношениях)",
+   "船便": "морская почта (отправка морем); рейс судна (парома)",
+   "補う": "восполнять (нехватку, недостающее); дополнять",
+   "輸送": "перевозка; транспортировка",
+   "農村": "земледельческая деревня; сельское сообщество",
+   "農産物": "сельскохозяйственная продукция",
+   "農薬": "пестициды (средства защиты растений и регуляторы роста)",
+   "近々": "в ближайшем будущем; совсем близко (о расстоянии)",
+   "近付ける": "приближать (что-либо к чему-либо); подпускать близко",
+   "近寄る": "подходить ближе (к кому-, чему-либо)",
+   "迫る": "надвигаться (о сроке, событии); настойчиво добиваться (ответа, решения)",
+   "述語": "сказуемое",
+   "迷信": "суеверие",
+   "追い掛ける": "бежать следом; пускаться в погоню (за кем-, чем-либо)",
+   "追い越す": "обгонять; опережать (по уровню)",
+   "追加": "добавление; дополнительный (заказ, объяснение)",
+   "退く": "посторониться; отойти с дороги",
+   "退ける": "отодвигать (с дороги); убирать (с прохода, с места)",
+   "送り仮名": "окуригана (кана после кандзи в записи слова)",
+   "送別": "проводы (уходящего, уезжающего); прощальный (о вечере, речи)"
+  }
+ }
+}
