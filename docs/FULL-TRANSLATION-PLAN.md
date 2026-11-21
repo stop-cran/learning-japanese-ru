@@ -1,6 +1,71 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch232 thirty words (general word queue)
+## Current published source milestone: batch233 thirty words (general word queue)
+
+Batch233 adds 30 Russian word articles: 速達 時速 速力 通路 紙幣 通貨 通訳 通知 効力 成立 妥当 回転 循環 通用 通帳
+出勤 通勤 すれ違う 通り掛かる 這う さわやか 清い 透き通る 澄む 透明 逆さま 逆さ 解放 逃がす 送料. They are chunk 25 of 72 of
+the general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is exactly
+the 30 requested words, so every EN quiz_exclusions target resolves to an existing RU word or a word in the batch; 22 of the
+165 EN entries lie inside the batch.
+
+Navigation-only link wraps restore 3 links at EN link positions in 3 existing pages: the kanji card 効 (to 効力), the word
+card 開放 (to 解放) and the numbers-and-counters article (to 時速). The new cards keep EN's links to existing cards; their
+links to the kanji cards 清, 訳, 貨 and 逆 stay plain until those targets are adapted.
+
+The batch covers:
+- speed and post: express delivery (速達), speed per hour (時速), speed or rate of motion (速力) and postage or a shipping
+  charge (送料);
+- money: paper money (紙幣), currency (通貨) and a passbook (通帳);
+- passing and commuting: a passageway or aisle (通路), to pass each other (すれ違う), to happen to pass by (通り掛かる),
+  reporting for work (出勤) and commuting (通勤);
+- communication: oral translation or an interpreter (通訳) and a notification (通知);
+- validity: efficacy or validity (効力), formation or conclusion (成立), reasonable or valid (妥当) and to be accepted or
+  valid (通用);
+- turning and reversal: rotation or turnover (回転), circulation (循環), inverted (逆さま) and upside down (逆さ);
+- clarity: refreshing (さわやか), clean or pure (清い), to be transparent (透き通る), to become clear (澄む) and
+  transparent (透明);
+- movement and release: to crawl (這う), release or liberation (解放) and to let go (逃がす).
+
+All 165 EN exclusions are retained in EN order. Ten direct guards on 7 new cards cover reviewed RU sense neighbours:
+成立–教育 and 通用–過ぎる are required for shared title segments; 通路–通過, 時速–高速 and 速力–高速 share «проход» or
+«скорость»; 速達–郵送, 出勤–就職, 通用–納得, 成立–契約 and 成立–納得 are conservative and harmless. 成立–納得 was added for a
+shared «принятие» segment that the fixed 成立 title no longer has, and stays for the near «довод» wording.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: one minor scoped-coverage finding: 成立's title dropped EN's argument-validity sense; an optional note on
+  link spacing in さわやか;
+- consistency: no finding; optional notes on 透明 left unlinked in 透き通る as in EN, link spacing in さわやか, a repeated
+  kana reading after the はっきり link in 透き通る and 澄む, and the exclusion classes;
+- comprehensibility: eleven minor findings: the quiz remarks in 送料 and 通貨, example translations in 出勤, 通り掛かる and
+  すれ違う, glosses pointing to other cards' titles in 効力 and 清い, the titles of 逆さ and 通路, an added subject in さわやか
+  and its link spacing; its optional notes needed no action.
+
+One signed fix commit addressed them:
+- three titles changed: 成立 «образование (организации); заключение (договора, сделки); состоятельность (довода)», 逆さ
+  «вверх ногами; задом наперёд» and 通路 «проход (между рядами, сиденьями); проход или проезд»;
+- example translations were rewritten in 出勤, 通り掛かる, すれ違う and 清い, and notes in 送料, 効力, 清い and 通り掛かる were
+  reworded;
+- link spacing in さわやか and the repeated reading in 透き通る and 澄む were fixed; the same reading pattern in four earlier
+  cards is left for a separate follow-up;
+- 通貨's quiz remark and さわやか's subject were kept for EN parity, and several suggested wordings were adapted rather than
+  adopted.
+
+The serial rechecks reported correctness, consistency, quiz safety, comprehensibility and scoped coverage clean, with no
+regression; the comprehensibility reviewer withdrew the two declined items.
+
+Links follow EN, with no RU-only links.
+
+Qualified progress is **5,109 reviewed-current / 8 reviewed runtime-blocked / 3,161 pending of 8,278**,
+with 3,643 words, 718 kanji and 718 strokes. See the [intake](translation-batches/233-words-batch-72-intake.json),
+[independent review](translation-batches/233-words-batch-72-independent-review-001.md),
+[recheck](translation-batches/233-words-batch-72-recheck-001.md),
+[qualified source record](translation-batches/233-words-batch-72-reviewed-source.json) and
+[final validation](translation-batches/233-words-batch-72-final-validation-001.json).
+
+## Previous published source milestone: batch232 thirty words (general word queue)
 
 Batch232 adds 30 Russian word articles: 部首 原料 成分 部品 郡 裏返す お帰り 返る 遡る 遠足 対策 方角 方針 地帯 角度 方面
 道順 過失 過半数 余る 超過 過剰 遊園地 逸れる 統一 連合 作製 作成 製作 造船. They are chunk 24 of 72 of the general
