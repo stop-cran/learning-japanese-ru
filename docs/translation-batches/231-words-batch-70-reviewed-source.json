@@ -1,0 +1,133 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "231-words-batch-70",
+ "publishedBaseline": "80dbfc2715dd0eb1c7c12df952c76a868cd95a35",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 5af5353 and serialized rechecks of the signed fix commit a1887ba found no remaining defect. Before the candidate the coordinator's only content edit was the held 鉢→釜 navigation link. Its adjudication records: \"Lane check against the B230 fix: no B231 draft quotes or names a B230 title changed by fix 1 (鈴, 銅, 長引く).\" \"`type` and `tags` of all 30 cards equal EN.\" \"RU-added exclusions (3), each one-directional; the targets do not declare them back: 重体→状態, 重体→具合 (a new list; EN 重体 has none), 下品→いかがわしい. Checked titles: 状態 «состояние», 具合 «состояние; самочувствие», いかがわしい «сомнительный; непристойный».\" \"RU-only links (5), each at a substantive comparison (B214/B230 lesson): 金魚:26→鯉 (related-words list that links 魚), 引力:34→重力, 重力:39→重い, 酸性:34→酸っぱい, 酢:32→酸っぱい. EN leaves them plain. Accepted.\" Correctness raised one finding. C1: 酌む and 汲む printed the Russian borrowing as «сакэ», against the standard «саке» (Gramota's Russian Orthographic Dictionary «саке́, нескл., ж. и с.» and Gramota spravka 309247); every occurrence in 酌む (lines 4, 12, 16, 19, 20, 27, 33, 41 and 44) and 汲む:34 now reads «саке», and 酌む's title and H1 are «наливать саке; выпивать вместе». Consistency raised one quiz-safety finding. F1: 重なる's RU title adds «совпадать по времени», which shares «совпадать» with 合う «подходить; совпадать» and neighbours 一致 «совпадение; единодушие»; 重なる now excludes both (`quiz_exclusions: [積もる, 積む, 繰り返す, 被る, 合わせる, 重ねる, 合う, 一致]`), 一致 being the reviewer's optional extension. Comprehensibility raised eight findings. 1: 下品:39–40 explained a source-list gloss («скупость») the RU card never shows; the two lines are deleted. 2: みじめ's title required humiliation; the title and H1 are now «жалкий; плачевный», and みじめ:19 reads «— Проиграв матч с большим отрывом, я почувствовал себя несчастным и жалким.» 3: 重役's «член правления» narrowed 会社の重役 to board membership; the title and H1 are now «член руководства компании; важный пост», 重役:19 reads «— На совещании присутствовал один из руководителей компании.» and 重役:39 «Не каждый начальник отдела входит в высшее руководство компании,». 4: 重量:18 translated the noun with a verb; it now reads «— Вес этого багажа — десять килограммов.» 5: 重量:38 rejected a person-gloss the RU card never shows; lines 38–40 now read «Само 重量 значит только «вес» и не называет весовую категорию. Тяжёлую весовую категорию (например, у боксёров) называют отдельные слова 重量級（じゅうりょうきゅう）и ヘビー級（ヘビーきゅう）.» 6: 引力:20 «Притяжение Земли притягивает предметы» was tautological; it now reads «— Сила притяжения Земли тянет предметы к себе.» 7: 重たい's lead gloss «увесистый» was unexplained and narrower than \"heavy; weighty\"; the title and H1 are now «тяжёлый; гнетущий (об атмосфере)», and 重たい also excludes 苦しい (`quiz_exclusions: [重い, 重大, 深刻, 暗い, じめじめ, 大変, 苦しい]`). 8: 金魚:16 «круглый аквариум» added a shape and substituted a tank for a bowl; it now reads «金魚鉢（きんぎょばち）— «чаша для золотых рыбок»,». At recheck of fix 1 the comprehensibility reviewer judged findings 1–8 resolved and accepted the adapted wordings for 3 (重役), 5 (重量) and 8 (金魚); it no longer maintained its proposed «руководитель компании» for 3 or a glass qualifier («стеклянная») for 8. It found no regression in the adopted 酢:28 optional or in the correctness and consistency changes of fix 1, accepted the declined 下品:20 «пошло» optional without pressing it, kept its other optional notes optional, and reported no new finding. Optional items adopted: the correctness reviewer's 下品:39–40 and 重たい title notes coincided with comprehensibility findings 1 and 7; its 酸っぱい:40–41 note led to «酸っぱい описывает кислый вкус, а не химическое измерение кислотности, и не служит общим ярлыком для всего, что относят к 酸性.»; the consistency reviewer's optional 一致 was added with F1; and the comprehensibility reviewer's 酢:28 note led to «Это отдельное слово читается кунным чтением, а не онным.» Fix 1 changed no Japanese example sentence, navigation file or kanji card. All three reviewers read all 30 cards in full against EN; the consistency reviewer also compared front matter and links with EN by script. Evidence includes Jisho/JMdict families for the 30 words with their seven-digit citation identifiers checked against EN, JMdict entries 1186230, 1303280, 1336770, 1336900 and 1335780, rare-form notes for 重役 (おもやく), 醜い (見憎い) and 酢 (醋/酸), Digital Daijisen headings on Weblio (針路, 重役, 重点, 重体, 給与, 酌む, みじめ and 金魚鉢), the World Encyclopedia and Nipponica sections for 釜 on Kotobank, Gramota's Russian Orthographic Dictionary entry саке and spravka answer 309247, and Gramota's Kuznetsov entry увесистый. The rechecks found no regression. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 130 EN exclusions across 25 lists are retained in EN order; 金魚, 重量, 重体, 酸性 and 酢 have none. Fourteen lie inside the batch: 針路–コース, 重点–アクセント, 重力–引力, 重なる–重ねる, 重ねる–重なる, みっともない–下品, だらしない and みじめ, 醜い–みっともない and 下品, 酸っぱい–酸性, 配る–給与, 汲む–酌む and 酌む–汲む; the other 116 target existing RU cards. Six direct, one-sided exclusions on four new cards (one new list, 重体) cover reviewed RU title overlaps. Three were added at the candidate, and the consistency reviewer kept all three: 下品–いかがわしい, classed REQUIRED (下品 «вульгарный; неприличный» against いかがわしい «сомнительный; непристойный»), and 重体–状態 and 重体–具合, classed CONSERVATIVE and nonblocking (only the generic «состояние» is shared with 状態 «состояние» and 具合 «состояние; самочувствие»). Fix 1 added three: 重なる–合う and 重なる–一致 for the consistency finding (合う «подходить; совпадать» shares «совпадать» with 重なる's «совпадать по времени»; 一致 «совпадение; единодушие» is its near-lexical neighbour), and 重たい–苦しい («мучительный; тяжёлый») once 重たい's title became «тяжёлый; гнетущий (об атмосфере)». After the fix the only exact title segments that a fixed title shares with another card are «жалкий» of みじめ and 哀れ «жалость; жалкий», which みじめ's EN exclusion of 哀れ already guards, and «тяжёлый» of 重たい with 重い «тяжёлый», guarded by 重たい's EN exclusion of 重い, and with 苦しい, guarded by the new RU exclusion; 重役's new title has none; the consistency reviewer confirmed this at recheck. Every RU addition is appended at the end of its list; nothing is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/231-words-batch-70-intake.json",
+  "docs/translation-batches/231-words-batch-70-independent-review-001.md",
+  "docs/translation-batches/231-words-batch-70-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "針",
+   "釜",
+   "釘",
+   "量",
+   "醜",
+   "酸",
+   "酢",
+   "汲",
+   "酌",
+   "郵"
+  ],
+  "navigationNote": "Restored 7 relative links in the 6 listed Markdown files at the corresponding EN-linked positions, using EN's href forms (../words/X.md in the kanji card, X.md in word cards): 金魚 twice in kanji 魚 (lines 37 and 45, matching EN lines 28 and 36; 人魚, 魚類 and 熱帯魚 stay plain, as in EN), 金魚 in word 魚 (line 25, matching EN line 27; 人魚 and 魚類 stay plain), 酸っぱい in 甘い (line 36, matching EN line 28; 苦い stays plain, as in EN), 重ねる in 積む (line 32, matching EN line 32), the inflected 重ねて in 能力 (line 22, linking 重ねる, matching EN line 19), and 釜 in 鉢 (line 37, matching EN line 37; the link held from Batch 230). No surrounding prose was changed. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/魚.md",
+   "words/甘い.md",
+   "words/積む.md",
+   "words/能力.md",
+   "words/鉢.md",
+   "words/魚.md"
+  ],
+  "newWords": [
+   "コース",
+   "針路",
+   "釜",
+   "釘",
+   "金魚",
+   "重量",
+   "アクセント",
+   "重点",
+   "重役",
+   "引力",
+   "重力",
+   "重体",
+   "重なる",
+   "重ねる",
+   "重たい",
+   "下品",
+   "だらしない",
+   "みじめ",
+   "みっともない",
+   "醜い",
+   "酸性",
+   "酸っぱい",
+   "酢",
+   "酒場",
+   "給与",
+   "配る",
+   "汲む",
+   "酌む",
+   "都心",
+   "郵送"
+  ],
+  "selection": "Batch 70 selected 30 word cards from the frozen source: chunk 23 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,467 remained after Batch 230, and 1,437 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; the two closure dependencies recorded, 重ねる's on 重なる and 酌む's on 汲む, were already among them; nothing outside them was added. Fourteen source exclusion entries lie inside the batch; the other 116 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (5 EN link occurrences, 5 targets) in the new cards: 針路→kanji 針, 重量→kanji 量, 重点→終点, みっともない→厚かましい and 郵送→kanji 郵. 10 written kanji have no RU kanji card: 針 釜 釘 量 醜 酸 酢 汲 酌 郵 (EN has cards only for 針, 量 and 郵). Links otherwise follow EN, with five RU-only links at substantive comparisons: 金魚→鯉, 引力→重力, 重力→重い, 酸性→酸っぱい and 酢→酸っぱい.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined items: the comprehensibility reviewer's 下品:20 optional «пошло» was declined because EN reads \"crude\" and the reviewer itself called «грубо» a fair rendering; at recheck it accepted the decline without pressing it. The reviewers' suggested wordings for comprehensibility findings 3, 5 and 8 were adapted into the wordings quoted above: «руководитель компании» was not used for 重役 because it could be read as 社長 «глава компании»; the 重量:38 note was reworded to state what 重量 means before naming the category words; and 金魚鉢 has no glass or round qualifier, matching the RU 鉢 title «чаша; цветочный горшок». At recheck the comprehensibility reviewer stated that it does not maintain «руководитель компании» or «стеклянная». The comprehensibility reviewer's other optional notes (コース's katakana note, 配る and 分ける, which 配る's EN exclusions already guard, 都心's last sentence, 釘 «крепёжный штырь», 金魚 collocations, and «сакэ», «набэ», «патинко» and «годан/итидан») led to no action, because the reviewer itself classed them as non-defects. The «сакэ» spellings in existing cards outside this batch (words/酒, words/舟, words/猪, kanji/酒, kanji/杯 and kanji/冷) were not changed here and are recorded as a separate normalisation follow-up. The consistency reviewer had no optional notes.",
+  "exclusionsAddedBeyondEn": {
+   "下品": [
+    "いかがわしい"
+   ],
+   "重たい": [
+    "苦しい"
+   ],
+   "重なる": [
+    "合う",
+    "一致"
+   ],
+   "重体": [
+    "状態",
+    "具合"
+   ]
+  },
+  "titles": {
+   "だらしない": "расхлябанный; безвольный",
+   "みじめ": "жалкий; плачевный",
+   "みっともない": "неприглядный; постыдный",
+   "アクセント": "ударение (в слове); акцент (в оформлении)",
+   "コース": "маршрут; курс (обучения)",
+   "下品": "вульгарный; неприличный",
+   "引力": "притяжение; сила притяжения",
+   "汲む": "черпать (воду); учитывать (чувства)",
+   "給与": "заработная плата; предоставление (денег, вещей)",
+   "郵送": "отправка по почте",
+   "都心": "центр города; деловая часть города",
+   "酌む": "наливать саке; выпивать вместе",
+   "配る": "раздавать; распределять",
+   "酒場": "питейное заведение; бар",
+   "酢": "уксус",
+   "酸っぱい": "кислый (на вкус)",
+   "酸性": "кислотность; кислотный (о растворе, среде)",
+   "醜い": "уродливый; безобразный (о поступках)",
+   "重たい": "тяжёлый; гнетущий (об атмосфере)",
+   "重なる": "накладываться друг на друга; совпадать по времени",
+   "重ねる": "класть одно на другое; многократно повторять",
+   "重体": "критическое состояние (угроза жизни)",
+   "重力": "сила тяжести; гравитация",
+   "重役": "член руководства компании; важный пост",
+   "重点": "упор (на что-либо); приоритет",
+   "重量": "вес (груза, предмета)",
+   "金魚": "золотая рыбка",
+   "釘": "гвоздь; крепёжный штырь",
+   "釜": "котёл (для риса, кипятка); чайный котёл",
+   "針路": "курс (судна, самолёта); направление движения"
+  }
+ }
+}
