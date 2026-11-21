@@ -1,0 +1,165 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "236-words-batch-75",
+ "publishedBaseline": "c9c13e32aeeb31752bddc152d7e69e674f7a3a4e",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 122b019 and serialized rechecks of the signed fix commit 8b5e2b3 found no remaining defect. Before the candidate the coordinator made no content edits: no title edit, no exclusion append and no held link; the 36 lane files were copied unchanged. Its adjudication records: \"Titles compared with EN one by one; no coordinator title edit.\" \"RU-added exclusions accepted as reported: 14 pairs; required 話しかける→扱う («обращаться») and 縮む→座る («садиться»); conservative 論ずる→検討/考慮/取り上げる, 謎謎→不思議, 有難い→御礼/礼/ありがとう, 縮む→乗る, 詰まる→密, 言い出す→勧める, 話し中→会話/話.\" It records that `link_parity.py` over the 36 paths reports the RU-only links 謙虚:32 → 謙遜, 胡椒:32 → 塩, 削除:33 → 追加 and 詰まる:38 → 込む (each target mentioned as a substantive comparison in the frozen EN card, plain text there, and an existing RU card; B222 precedent), the kanji/言.md extra link to 言葉, pre-existing at 75b2616 and not a Batch 236 change, and the deliberate 貝 drop of EN's links to トップ and 頂上, an English-label safeguard with no Russian counterpart (both EN exclusions and the footer JMdict IDs 1085030/1430220 are retained), handed to the reviewers to check; that `navonly.py` reports 6 files, 8 links added, 0 problems; that the register of «испрашивать» in the 請う title and whether «ракушка» covers 貝 in both the animal and the shell sense were handed to the reviewers as unverified Russian usage; and that, after the Batch 235 publication, none of the 36 paths links to or mentions a Batch 235 card changed by fix 930e9f3 or quotes any of their replaced wording. The candidate screen on the published Batch 235 tree (b236-cand-screen.txt) found 0 unguarded exact segments; the exact shared segments are guarded (謎謎–謎 «загадка», 話し合い–会話 and 話し合い–話 «разговор», 請う–求める, 請う–頼む and 請う–願う «просить», 話しかける–扱う «обращаться», 縮める–減らす «сокращать», 縮める–詰める «укорачивать» and 縮む–座る «садиться»). It also records a process incident: the session's EN worktree had all 30 Batch 236 EN word files rewritten during the author run with LF line endings and content identical to the EN HEAD after CRLF/LF normalization; the coordinator restored them with `git checkout`, and no RU file and no EN commit was affected. Correctness raised three findings. C236-01 (medium): 誓う:41–42 claimed that Russian «клясться» can colloquially mean «браниться, проклинать», carrying English \"swear\" polysemy over to Russian, where cursing belongs to the non-reflexive «клясть» (Kuznetsov on gramota.ru; Ozhegov); the two sentences now read «誓う означает именно давать клятву или обет, а не браниться или проклинать.», and the broken-vow sentence is kept. C236-02 (medium, scoped coverage): 請う's title and H1 «просить, испрашивать (наставления, прощения)» dropped EN's \"invite\" sense, which the body teaches at :16, :29, :37 and :42; they now read «просить, умолять; приглашать», the counterpart of EN \"beg; request; invite\" (JMdict 1592920 sense 1). C236-03 (low): 話し合い:19 «Завтра мы всей семьёй всё обсудим.» added an all-inclusive object; it now reads «Завтра у нас будет семейное обсуждение.», keeping the noun frame of 話し合いをします as EN \"We will have a family discussion tomorrow\" (wording chosen together with comprehensibility C6). Consistency raised one finding and one nonblocking note. F1: 貝 drops EN's two sentences linking トップ and 頂上; it was declined and kept as a qualified limit, because those sentences explain an English-label collision with bare \"top\" that the RU titles «верх; лидирующая позиция» and «вершина» do not have, while the Japanese facts, both EN exclusions and the footer JMdict IDs stay. F2 called 謎謎→不思議 an unnecessary over-guard; it was declined, because the Russian titles share the «загад-» stem and 不思議 already guards 謎. Its optional F3, the unguarded in-batch pair 話し合い–話し中 (both «разговор»), was adopted as a conservative guard: 話し中 now declares 話し合い. Comprehensibility raised twelve findings. C1: 講師:21 «Она преподаватель в университете.» used 教師's title word; it now reads «Она работает лектором в университете.» (adapted; EN \"She is a university lecturer\"). C2: 有難い's examples used the person frame its note rejected; partially adopted: :20 «Я благодарен, что вы мне помогли.» is kept (EN :20 is also person-framed), :21 now reads «Когда я занят, получить помощь — это то, что я ценю.» (EN \"something I appreciate\"), and the note at :23–25 now explains the first example's frame: «Русское «благодарный» обычно описывает того, кто чувствует благодарность, поэтому так звучит перевод первого примера. Сами японские примеры оценивают помощь как желанную и выражают признательность говорящего.» C3: 恐縮's title omitted the apologetic sense; partially adopted: its title and H1 now read «чувство неловкой признательности; смущение (от любезности, похвалы, доставленных хлопот)», the proposed «беспокойства» not being used because it is ambiguous with one's own worry (心配), and :22 is kept as EN :19. C4: 謙虚:21 «со смирением» now reads «Я скромно принимаю совет учителя.». C5: 謙遜:20 «он скромничает» now reads «Даже когда его хвалят, он скромно отзывается о своих заслугах.» (adapted, matching :16). C6 was merged with correctness C236-03. C7: 争う:19 «борются», 戦う's title word, now reads «Две команды соперничают за победу в чемпионате.» (EN \"competing\"). C8: 言い出す:19 «заявил» now reads «Он вдруг заговорил о том, что хочет домой.» (EN \"started saying\"). C11: 請う:20 «Я попросил учителя о наставлении.» now reads «Я обратился к учителю за наставлением.», conveying the formal register; its proposed gloss for «испрашивать» at :16 was declined. C9 («исходный список» in learner prose), C10 (N2-status text) and C12 (the predicate-like 話し中 title) were declined for EN parity and published RU precedent. Its optional note on the unexplained サ変 in 論ずる:42 was adopted: the line now says that traditional Japanese dictionaries «относят его к спряжению サ変（さへん）— неправильному спряжению по образцу する.»; its optional notes on 誓う «друг другу», 謎謎 «пазл» and 調整 «наладка» were declined. Fix 1 also added the exclusions 恐縮→迷惑 and 請う→招待 (see quiz titles). At recheck of fix 1 (8b5e2b3) all three reviewers ran serially, read-only, with no generator run.\nCorrectness (gpt-6.1-sol) judged C236-01 (誓う: the false Russian «клясться» polysemy claim removed, the not-cursing and broken-vow points kept), C236-02 (請う title «просить, умолять; приглашать» restores the invite sense) and C236-03 (話し合い «семейное обсуждение» without the added «всё») resolved; it found the other rewrites at least as accurate in their teaching contexts (講師 «работает лектором», 争う «соперничают», 言い出す «заговорил о том», 謙虚 «скромно принимаю», 請う:20 «обратился к учителю за наставлением», 有難い:21 and the clarified :23–25 note), the expanded 恐縮 title accurate, and 謙遜:20 «скромно отзывается о своих заслугах» an acceptable, narrower contextual rendering; it verified the 論ずる サ変 gloss against Daijisen (動サ変; サ行変格活用 includes voiced -ずる compounds) and reported no regression: correctness CLEAN, scoped coverage CLEAN.\nConsistency (claude-sonnet-5.5) confirmed title = H1 for 請う and 恐縮, the new exclusions exactly as stated (請う→招待, 恐縮→迷惑, 話し中→話し合い), all EN guards retained, no link added or lost (the same 4 RU-only links) and every words/ and kanji/ manifest hash matching the tree (tools/validate.py 0 errors); it judged 請う «приглашать» covered by 招く/誘う and the now-guarded 招待, the unguarded stem-only 詫びる lead (a Batch 237 draft, not yet in the published pool) acceptable, and 恐縮's «хлопоты» covered by the 迷惑 guard. It accepted the 貝 omission as an acknowledged nonblocking limit (F1 partially resolved; residual: the two existing targets are no longer linked from 貝), withdrew F2 and the long-title note, judged F3 resolved and left the strokes-hash note unchanged and out of scope: consistency CLEAN, quiz safety CLEAN, navigation restorations, manifest and intake path set CLEAN.\nComprehensibility (grok-4.7) judged C1, C4, C6, C7 and C8 resolved, C5 resolved in the adapted wording, C2 and C3 partially resolved with the remainder withdrawn, C11 resolved for the example with the gloss point withdrawn, and C9, C10 and C12 withdrawn; it judged the 論ずる サ変 gloss resolved, withdrew the 誓う, 謎謎 and 調整 optionals, maintained no point (the 貝 limit stands without being maintained) and found no regression: comprehensibility CLEAN, scoped coverage CLEAN.\nNo actionable finding remains; no second fix is needed. Fix 1 changed no Japanese example sentence, sourced reading, link, navigation file or kanji card. The correctness and comprehensibility reviewers read all 30 cards in full against EN; the consistency reviewer read all 30 RU cards in full, compared them mechanically and by eye with the frozen EN cards, read the six navigation diffs, checked the intake and the manifest and ran `tools/validate.py` (0 errors). Evidence includes the JMdict XML entries for every cited JMdict ID; Digital Daijisen on Weblio (among others 講師, 謙遜, 謎謎, 論ずる, 請う, 調節, 調整, 胡椒, 調味料, 誓う, 縮小, 削る, 削除, 縮める, 縮れる and 縮む); Kotobank (貝) and Seisenban (恐縮 and 課税); KANJIDIC2; Kuznetsov on gramota.ru (among others клясться, испрашивать, ракушка, наладка, скромничать, смирение, наставление and благодарный); Ozhegov on gufo.me (клясть), Ozhegov (смирение and скромничать); Ushakov (скромничать); and JapanDict (言い出す). The rechecks found no regression. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 151 EN exclusions across 29 lists are retained in EN order; 胡椒 has none in EN. Twenty-three lie inside the batch: 恐縮–有難い, 謙虚–恐縮, 謙遜–謙虚 and 恐縮, 論ずる–話し合い and 争う, 調整–調節, 調味料–胡椒, 話しかける–言い出す, 縮小–圧縮, 削除–削る, 省略–削る and 削除, 縮める–縮小, 圧縮 and 省略, 縮む–縮める, 縮れる, 縮小 and 圧縮, and 詰まる–ぎっしり, 縮む and 縮める; the other 128 target existing RU cards. Seventeen direct, one-sided exclusions on ten new cards cover reviewed RU title overlaps, all appended to existing lists. Fourteen on eight cards came from the authoring lane, were accepted by the coordinator as reported and were declared at the candidate: 話しかける–扱う (扱う «иметь дело (с чем-либо); обращаться (с людьми, вещами)», sharing «обращаться»), 縮む–座る (座る «садиться; сидеть», sharing «садиться»), 論ずる–検討, 考慮 and 取り上げる, 謎謎–不思議, 有難い–御礼, 礼 and ありがとう, 縮む–乗る, 詰まる–密, 言い出す–勧める, and 話し中–会話 and 話. Fix 1 added three and removed none: 話し中–話し合い (consistency F3, adopted as a conservative guard; 話し中 «занято (о телефонной линии); идёт разговор» and 話し合い «обсуждение сообща; разговор, чтобы договориться»), 恐縮–迷惑 (coordinator, conservative, because the new 恐縮 qualifier names «хлопоты» and 迷惑 reads «неудобство (для других); хлопоты») and 請う–招待 (coordinator: first decided no exclusion, then reversed after the post-fix screen showed a stem lead from the new segment «приглашать» to 招待 «приглашение», unguarded, following the RU-added 招待 guards on 招く and 誘う). The author and the coordinator classed 話しかける–扱う and 縮む–座る as required and the other twelve lane entries as conservative. The consistency reviewer classed 縮む–座る, 話しかける–扱う, 論ずる–検討, 論ずる–考慮 and 言い出す–勧める as required, 論ずる–取り上げる, 有難い–御礼/礼/ありがとう, 縮む–乗る, 詰まる–密 and 話し中–会話/話 as conservative or acceptable, and 謎謎–不思議 as an unnecessary over-guard (F2); that guard stays, because the Russian titles share the «загад-» stem and 不思議 already declares 謎, and the reviewer withdrew F2 at recheck. After fix 1 the two retitled cards share exact title segments only with guarded cards: 請う's «просить» with 頼む, 願う and 求める, «умолять» with 拝む and «приглашать» with 招く and 誘う, all EN exclusions on 請う. Its stem leads are 招待 (guarded by fix 1) and 詫びる «приносить извинения; просить прощения (за проступок)», a Batch 237 lane word not in the published pool that shares only the «проси» stem and is unguarded; the consistency reviewer judged that lead acceptable. 恐縮's title changed only inside its parenthetical, which the post-fix screen strips; its stem leads there are 恥ずかしい and 感謝 (guarded) and unrelated words sharing «чувст» or «призн» (unguarded). Every RU addition is appended at the end of its list; nothing is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/236-words-batch-75-intake.json",
+  "docs/translation-batches/236-words-batch-75-independent-review-001.md",
+  "docs/translation-batches/236-words-batch-75-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "削",
+   "整",
+   "椒",
+   "略",
+   "省",
+   "税",
+   "節",
+   "縮",
+   "胡",
+   "虚",
+   "詰",
+   "誓",
+   "課",
+   "請",
+   "謎",
+   "謙",
+   "講",
+   "貝",
+   "遜"
+  ],
+  "navigationNote": "Restored 8 relative links in the 6 listed Markdown files at the corresponding EN-linked positions, using EN's href forms (../words/X.md in the kanji cards, X.md in the word card): 争う in kanji 争 (line 21, matching EN line 20, in prose; line 34, matching EN line 32, in the あらそ.う reading-table row; and line 46, matching EN line 37, in the word list; the other mentions at lines 37, 39, 54 and 59 stay plain, as EN's line 43 mention does), 圧縮 in kanji 圧 (line 43, matching EN line 43, in the word list), 有難い in kanji 有 (line 41, matching EN line 37, in the word list), 言い出す in kanji 言 (line 40, matching EN line 38, in the word list), 有難い in kanji 難 (line 40, matching EN line 40, in the word list) and 争う in word 戦う (line 31, matching EN line 28, in prose). No surrounding prose was changed. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/争.md",
+   "kanji/圧.md",
+   "kanji/有.md",
+   "kanji/言.md",
+   "kanji/難.md",
+   "words/戦う.md"
+  ],
+  "newWords": [
+   "貝",
+   "講師",
+   "有難い",
+   "恐縮",
+   "謙虚",
+   "謙遜",
+   "謎謎",
+   "話し合い",
+   "争う",
+   "論ずる",
+   "請う",
+   "調節",
+   "調整",
+   "胡椒",
+   "調味料",
+   "課税",
+   "誓う",
+   "話し中",
+   "言い出す",
+   "話しかける",
+   "ぎっしり",
+   "圧縮",
+   "縮小",
+   "削る",
+   "削除",
+   "省略",
+   "縮める",
+   "縮れる",
+   "縮む",
+   "詰まる"
+  ],
+  "selection": "Batch 75 selected 30 word cards from the frozen source: chunk 28 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,317 remained after Batch 235, and 1,287 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing outside them was added. Twenty-three source exclusion entries lie inside the batch; the other 128 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (7 EN link occurrences, 7 targets) in the new cards: 貝→kanji 貝, 講師→kanji 講, 課税→kanji 課 and kanji 税, 省略→kanji 省 and kanji 略, and 詰まる→kanji 詰. 19 written kanji have no RU kanji card: 削 整 椒 略 省 税 節 縮 胡 虚 詰 誓 課 請 謎 謙 講 貝 遜 (EN has cards only for 略, 省, 税, 詰, 課, 講 and 貝). Links otherwise follow EN, except that 貝 deliberately drops EN's two links to トップ and 頂上 together with the English-label sentences that carry them (both EN exclusions and the footer JMdict IDs are retained). The four RU-only links are 謙虚:32 → 謙遜, 胡椒:32 → 塩, 削除:33 → 追加 and 詰まる:38 → 込む, each a substantive comparison named in plain text in the frozen EN card. The kanji card 言 keeps its RU-only links to 言葉 (lines 33 and 42), present at the published baseline and not a Batch 236 change.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined, partially adopted, adapted or no-action items: consistency F1 (貝 drops EN's two sentences linking トップ and 頂上) was declined and kept as a qualified limit: those sentences explain an English-label collision with bare \"top\" that a Russian learner cannot see, the translation-boundary rule translates the teaching rule rather than English-dependent comparisons, the Japanese facts (the separate ばい noun, its usual katakana spelling, the spinning-top sense and that ばい is not a general reading of かい), both EN exclusions and the footer JMdict IDs 1085030/1430220 stay, quiz_exclusions are not learner-visible, and the correctness reviewer independently judged the omission permitted; the general question (English-label-only explanations dropped in RU) is already on the issue #7 follow-up list. At recheck the reviewer accepted the omission as an acknowledged nonblocking limit (F1 partially resolved; residual: the two existing targets are no longer linked from 貝). Consistency F2 (謎謎→不思議 over-guard) was declined: the Russian titles share the «загад-» stem, and 不思議 already declares 謎; the reviewer withdrew F2 at recheck. Its optional note on long titles (論ずる 77 and 恐縮 76 characters) led to no action and was withdrawn at recheck. Its limit on 118 strokes manifest hashes is not a defect: tools/build_manifest.py:19 hashes text files after CRLF→LF normalization, and no strokes file changed in this batch; the reviewer left the note unchanged and out of scope at recheck. Comprehensibility C1 (講師) and C5 (謙遜) were adopted in adapted wording (C1 «работает лектором» rather than «лектор»; C5 «скромно отзывается о своих заслугах» rather than «принижает свои заслуги»); C6 was merged with correctness C236-03. C2 was partially adopted: 有難い:20 «Я благодарен, что вы мне помогли.» is kept because EN :20 is also person-framed, the correctness reviewer judged it an idiomatic gratitude reply and examples are not quiz labels; the reviewer withdrew the remainder at recheck. C3 was partially adopted: 恐縮's title gained «доставленных хлопот» rather than the proposed «беспокойства», which is ambiguous with one's own worry (心配), and :22 «Я очень признателен за ваше любезное письмо.» is kept as EN :19 \"I am very grateful for your thoughtful letter\"; the reviewer withdrew the remainder at recheck. C11's example was adopted, but its proposed gloss for «испрашивать» at 請う:16 was declined: it is a recognizable bookish Russian verb, and the fixed title no longer uses it; the reviewer withdrew the gloss point at recheck. C9 («исходный список» in 圧縮:41, 削除:38, 縮める:44 and 削る:43) was declined: all four mirror EN sentences (\"source list\"/\"legacy source\"), and the phrase is an established RU convention (coordinator recount: 31 occurrences in 30 published word cards at 8b5e2b3, one wrapping across a line break); the general question is on the issue #7 follow-up list. C10 (N2-status text in 請う:42 and 削る:25) was declined for EN parity and published RU precedent (for example 引き出す) and added to the issue #7 follow-up list. C12 (話し中's predicate-like title) was declined: EN \"busy on the phone; in conversation\" is also predicate-like, and changing a quiz label for style adds churn without a learning defect. The reviewer withdrew C9, C10 and C12 at recheck. Its optional notes on 誓う:21 «друг другу», 謎謎:38 «пазл» and 調整 «наладка» were declined (natural Russian, EN-consistent, no learning defect) and withdrawn at recheck.",
+  "exclusionsAddedBeyondEn": {
+   "恐縮": [
+    "迷惑"
+   ],
+   "有難い": [
+    "御礼",
+    "礼",
+    "ありがとう"
+   ],
+   "縮む": [
+    "座る",
+    "乗る"
+   ],
+   "言い出す": [
+    "勧める"
+   ],
+   "詰まる": [
+    "密"
+   ],
+   "話しかける": [
+    "扱う"
+   ],
+   "話し中": [
+    "会話",
+    "話",
+    "話し合い"
+   ],
+   "請う": [
+    "招待"
+   ],
+   "論ずる": [
+    "検討",
+    "考慮",
+    "取り上げる"
+   ],
+   "謎謎": [
+    "不思議"
+   ]
+  },
+  "titles": {
+   "ぎっしり": "плотно, без промежутков (уложенный, заполненный)",
+   "争う": "соперничать (за первенство, приз); спорить (о праве, имуществе)",
+   "削る": "строгать, точить (карандаш); урезать (бюджет, текст)",
+   "削除": "удаление (файла, записи, текста)",
+   "圧縮": "сжатие (воздуха, файлов); сжатое изложение (текста)",
+   "恐縮": "чувство неловкой признательности; смущение (от любезности, похвалы, доставленных хлопот)",
+   "有難い": "желанный (о помощи, поддержке); вызывающий благодарность",
+   "省略": "опущение (слов, деталей); сокращённая запись",
+   "縮む": "садиться (о ткани после стирки); сжиматься, становиться короче",
+   "縮める": "укорачивать; сокращать (срок, расстояние); поджимать (ноги)",
+   "縮れる": "виться, курчавиться (о волосах)",
+   "縮小": "уменьшение масштаба (размера, объёма); свёртывание (деятельности)",
+   "胡椒": "перец (пряность)",
+   "言い出す": "заговорить (о чём-либо); первым предложить",
+   "詰まる": "быть плотно набитым; засоряться (о трубе, проходе)",
+   "話しかける": "заговаривать (с кем-либо); обращаться (к человеку)",
+   "話し中": "занято (о телефонной линии); идёт разговор",
+   "話し合い": "обсуждение сообща; разговор, чтобы договориться",
+   "誓う": "клясться; давать торжественный обет",
+   "課税": "налогообложение; обложение налогом",
+   "調味料": "приправа; вкусовая добавка (соль, сахар, соус)",
+   "調整": "координация (графиков, интересов); подстройка, наладка",
+   "調節": "регулирование (громкости, температуры, количества)",
+   "請う": "просить, умолять; приглашать",
+   "論ずる": "обсуждать, разбирать (вопрос, тему); принимать в расчёт (обычно с отрицанием)",
+   "謎謎": "загадка (в игре); вопрос на отгадывание",
+   "謙虚": "скромный (о человеке, отношении)",
+   "謙遜": "скромность; принижение своих заслуг",
+   "講師": "лектор; инструктор (на курсах, тренингах)",
+   "貝": "моллюск в раковине; ракушка"
+  }
+ }
+}
