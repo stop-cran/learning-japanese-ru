@@ -1,6 +1,69 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch226 thirty words (general word queue)
+## Current published source milestone: batch227 thirty words (general word queue)
+
+Batch227 adds 30 Russian word articles: コレクション 伝わる 区分 区切る 区域 受け取り 境界 感想 時間割 突き当たる 突く
+突っ込む 集金 雑音 響き 響く 頂点 項目 順々 順序 預かる 領事 領収 頭脳 頼もしい 題名 顕微鏡 風呂敷 風船 飛び込む. They are chunk 19 of
+72 of the general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is
+exactly the 30 requested words, so every EN quiz_exclusions target resolves to an existing RU word or a word in the batch;
+16 of the 169 EN entries lie inside the batch.
+
+Navigation-only link wraps restore 12 links at EN link positions in 5 existing pages: the kanji cards 区 (two links each
+to 区域, 区切る and 区分) and 域 (three links to 区域), and the word cards 句読点 (to 区切る), 意見 (to 感想) and 預ける (to
+預かる). The new cards keep EN's links to existing cards; their links to the kanji cards 境, 脳, 領, 預 and 順 and to the word
+cards 点く, 突き当たり, 膨らます, 膨らむ and 乾燥 stay plain until those targets are adapted.
+
+The batch covers:
+- poking and plunging: to poke or thrust (突く), to run into or reach the end of a street (突き当たる), to thrust or plunge
+  into (突っ込む) and to jump in or barge in (飛び込む);
+- dividing and areas: to mark off or punctuate (区切る), a boundary (境界), a defined area or zone (区域) and a division or
+  classification (区分);
+- headings and order: a listed item (項目), the title of a work (題名), order or procedure (順序), in order (順々) and a
+  timetable (時間割);
+- receiving, collecting and keeping: receipt (受け取り), a collection (コレクション), collecting payments (集金), receipt of
+  money (領収) and to look after or keep (預かる);
+- sound and transmission: noise or static (雑音), resonance or impression (響き), to resound or have an effect (響く) and to
+  be transmitted or handed down (伝わる);
+- other words: a balloon (風船), a wrapping cloth (風呂敷), a microscope (顕微鏡), dependable or promising (頼もしい),
+  brains or intellect (頭脳), a consul (領事), a summit or vertex (頂点) and impressions (感想).
+
+All 169 EN exclusions are retained in EN order. Nine direct guards on 8 new cards cover the reviewed RU title overlaps
+and sense neighbours:
+- required: 順序–決まり, which the consistency reviewer classed as required;
+- conservative: 境界–線 and 雑音–じゃま, the consistency reviewer's findings, which it marked conservative; 突く–突き当たる,
+  頼もしい–信頼, 頼もしい–堅い, 預かる–保存 and 頭脳–中心, from its optional notes; and, added in the fix with the retitle,
+  頂点–最高.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: three minor correctness and scoped-coverage findings: 飛び込む's contrast that excluded a rush or leap from 入る,
+  突っ込む's unsupported ranking of main senses, and 区切る's канго definition by Chinese origin; three optional items, the
+  titles of 時間割 and 響き and 集金's wording;
+- consistency: two minor quiz-safety findings, 境界–線 and 雑音–じゃま, marked conservative; five optional guard notes;
+- comprehensibility: two moderate and four minor findings: 突く's «пихать», English words in コレクション's learner text,
+  頼もしい's «надёжный друг» and search-only note, 頂点's «апогей» and 響き's «отлично»; optional notes on several titles,
+  雑音's second example and 時間割's «посмотрел».
+
+One signed fix commit addressed them:
+- two titles changed: 突く «тыкать; ткнуть; делать выпад» and 頂点 «пик; высшая точка; вершина (угла)»;
+- 飛び込む's contrast now says 入る does not require a rush or leap, 突っ込む's ranking sentence was deleted, 区切る's канго
+  note became a collection-local classification, and コレクション, 頼もしい, 響き, 時間割 and 集金 were reworded in Russian;
+- eight conservative guards were added; the fuller 時間割 and 響き titles, a 突っ込む–挿す guard and the other optional
+  title notes were declined.
+
+The serial rechecks reported all facets clean, with no regression.
+Links follow EN, with one RU-only link to an existing card at a substantive comparison: 突っ込む–引き出す.
+
+Qualified progress is **4,929 reviewed-current / 8 reviewed runtime-blocked / 3,341 pending of 8,278**,
+with 3,463 words, 718 kanji and 718 strokes. See the [intake](translation-batches/227-words-batch-66-intake.json),
+[independent review](translation-batches/227-words-batch-66-independent-review-001.md),
+[recheck](translation-batches/227-words-batch-66-recheck-001.md),
+[qualified source record](translation-batches/227-words-batch-66-reviewed-source.json) and
+[final validation](translation-batches/227-words-batch-66-final-validation-001.json).
+
+## Previous published source milestone: batch226 thirty words (general word queue)
 
 Batch226 adds 30 Russian word articles: おどかす 一流 刺す 固まる 増大 強化 拡充 拡張 挙げる 挿す 激増 片付く 裁縫 食塩
 飢える 飢饉 飽くまで 飾り 餅 養分 香水 馴れる 騒々しい 騒がしい 驚かす 高める 高層 高度 高等 高級. They are chunk 18 of 72 of the
