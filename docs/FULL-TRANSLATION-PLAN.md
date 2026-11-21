@@ -1,6 +1,67 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch229 thirty words (general word queue)
+## Current published source milestone: batch230 thirty words (general word queue)
+
+Batch230 adds 30 Russian word articles: 長男 四角 四角い 正方形 長方形 長所 継続 長引く 長女 鑑賞 鐘 録音 錆 錆びる 銅 鉱物
+丼 鉢 鉄砲 鉄橋 鈴 仕上がる イコール 整備 揃える 揃う 釣り合う 針金 課程 過程. They are chunk 22 of 72 of the general
+remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is exactly the 30
+requested words, so every EN quiz_exclusions target resolves to an existing RU word or a word in the batch; 17 of the 121
+EN entries lie inside the batch.
+
+A navigation-only link wrap restores 1 link at an EN link position in 1 existing page: the word card ベル (to 鐘). The new
+cards keep EN's links to existing cards; their links to the kanji cards 角, 賞, 録, 銅, 鉱, 鉄, 橋, 針 and 課 and to the word
+cards 三角, 短所, 釜, 学科 and 仮定 stay plain until those targets are adapted.
+
+The batch covers:
+- family: the eldest son (長男) and the eldest daughter (長女);
+- shapes: a four-cornered shape (四角), square or rectangular (四角い), a geometric square (正方形) and a rectangle
+  (長方形);
+- duration: continuation (継続) and to drag on (長引く);
+- bells and sound: a large bell (鐘), a bell, often rounded, or a jingle bell (鈴) and sound recording (録音);
+- metals and minerals: rust (錆), to rust (錆びる), copper or a bronze medal (銅), a mineral (鉱物) and wire (針金);
+- iron: a gun (鉄砲) and an iron or railway bridge (鉄橋);
+- vessels: a deep bowl or rice-bowl dish (丼) and a bowl or flowerpot (鉢);
+- completeness and balance: to be finished (仕上がる), equals (イコール), maintenance or putting in order (整備), to
+  assemble or align (揃える), to be complete or uniform (揃う) and to balance or be proportionate (釣り合う);
+- other words: a strong point or merit (長所), appreciation of art (鑑賞), a course of study (課程) and a process (過程).
+
+All 121 EN exclusions are retained in EN order. Four direct guards on 4 new cards cover reviewed RU sense neighbours:
+丼–料理, 過程–途中 and 長所–武器 are conservative with a real basis; 鉢–植木 has a real basis only as a topic and is
+harmless. The consistency reviewer agreed with these classifications, and 長所–武器 was added for its finding.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: one minor finding: 鈴's title «бубенчик» narrowed EN's "bell (often globular)" to one subtype; one optional
+  item: 録音's «слога-моры»;
+- consistency: one minor quiz-safety finding, 長所 «достоинство; преимущество» against 武器 «оружие; сильная сторона»; two
+  optional notes: 長方形 links in 四角, 四角い and 正方形, and 鈴 and 撮る links in 鐘 and 録音;
+- comprehensibility: two moderate and seven minor findings: 揃う rendered as the passive of 揃える, 鈴 equated with
+  «бубенчик», 四角's «прямоугольными кусками», 継続's «сохраняется», 銅's «(сокращ.)» and «переносят на себя»,
+  仕上がる's «должна быть готова», 長引く's title «длиться дольше ожидаемого» and its «никак»; optional notes on 四角い,
+  長男, 長女, 鉄砲, 整備 and 過程.
+
+One signed fix commit addressed them:
+- three titles changed: 鈴 «колокольчик (часто округлый); бубенчик», 銅 «медь; бронзовая медаль (сокращённо)» and 長引く
+  «затягиваться (по времени); долго тянуться»;
+- example translations were rewritten in 揃う, 揃える, 四角, 継続, 鈴, 仕上がる and 長引く, and 銅 and 録音 were reworded;
+- 長所 excludes 武器, 四角, 四角い and 正方形 link 長方形, and 鐘 links 鈴;
+- the 撮る link in 録音 and the comprehensibility optional notes were declined, and several suggested wordings were
+  adapted rather than adopted.
+
+The serial rechecks reported all facets clean, with no regression.
+Links follow EN, with four RU-only links to cards in the batch at a substantive comparison: 四角–長方形, 四角い–長方形,
+正方形–長方形 and 鐘–鈴.
+
+Qualified progress is **5,019 reviewed-current / 8 reviewed runtime-blocked / 3,251 pending of 8,278**,
+with 3,553 words, 718 kanji and 718 strokes. See the [intake](translation-batches/230-words-batch-69-intake.json),
+[independent review](translation-batches/230-words-batch-69-independent-review-001.md),
+[recheck](translation-batches/230-words-batch-69-recheck-001.md),
+[qualified source record](translation-batches/230-words-batch-69-reviewed-source.json) and
+[final validation](translation-batches/230-words-batch-69-final-validation-001.json).
+
+## Previous published source milestone: batch229 thirty words (general word queue)
 
 Batch229 adds 30 Russian word articles: 学会 集会 集合 障子 間隔 隙間 隔てる 随筆 険しい 期限 限度 属する 附属 差し支え 妨げる
 締め切り 締め切る 終了 ストップ 防止 警備 防犯 関西 関東 関わる 間接 開通 開会 開放 閉会. They are chunk 21 of

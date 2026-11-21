@@ -1,0 +1,136 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "230-words-batch-69",
+ "publishedBaseline": "d90e5eae566e22f9cb1dbba5f0a45c837f3ad316",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 5ec190a and serialized rechecks of the signed fix commit 93e2dea found no remaining defect. Before the candidate the coordinator made no content edits. Its adjudication records: \"Classification: only 四角い:27 and 鉢:29 mention kango, each mirroring an EN body sentence (EN :27, :29); no added kango/wago body sentence (B229 lesson honoured).\" \"RU-added exclusions (3), each one-directional; targets do not declare them back: 丼→料理, 鉢→植木, 過程→途中. Checked titles: 料理 «готовка; кухня; блюдо», 植木 «садовое дерево; растение в горшке», 途中 «по пути; в процессе». Not added: 丼 vs お皿 «тарелка; блюдо для подачи» / 鍋 «кастрюля; горячее блюдо набэ» (distinct dish/vessel segments).\" \"No RU-only links. 長方形 kept plain where EN is plain.\" \"Author incident (relative-path line-ending rewrite of 30 EN files in the EN session worktree) verified reverted: `git status` there shows only the pre-existing `words/能力.md` change.\" Correctness raised one finding. C1: 鈴's title «бубенчик» narrowed EN \"bell (often globular)\" to one subtype (Digital Daijisen すず on Weblio; Kuznetsov бубенчики and бубенцы on Gramota); it was merged with comprehensibility C4 (below). Consistency raised one quiz-safety finding. F1: 長所 «достоинство; преимущество» was not guarded against 武器 «оружие; сильная сторона»; 長所 now excludes 武器 (`quiz_exclusions: [得意, 利益, 味噌, 武器]`). Comprehensibility raised nine findings. C1: 揃う and 揃える rendered the が/を pair as active and passive of «собрать»; 揃う:20 now reads «— Все необходимые документы теперь в сборе.», 揃う:31 «書類が揃う описывает, что все документы в сборе;» and 揃える:30 «書類が揃った значит «все документы в сборе»». C2: 四角:19 «прямоугольными кусками» excluded squares; it now reads «— Я нарезал этот хлеб четырёхугольниками.» C3: 継続:22 «сохраняется» was 維持 territory; it now reads «— Это состояние продолжается.» C4: 鈴 was equated with «бубенчик», including large shrine bells; the title and H1 are now «колокольчик (часто округлый); бубенчик», 鈴:20 reads «— Когда я потряс колокольчик, раздался приятный звон.», 鈴:22–23 «колокольчик звенит» and «звенеть колокольчиком», and 鈴:39 «鈴 называет и колокольчики в синтоистских святилищах, в том числе большие, а не только маленькие бубенчики.»; the cat-collar example keeps «бубенчик». C5: 銅's «(сокращ.)» was a dictionary abbreviation; the title and H1 are now «медь; бронзовая медаль (сокращённо)». C6: 銅:27 «переносят на себя» was a calque; it now reads «Не каждое из этих чтений названия металла используется и для сокращения «бронзовая медаль».» C7: 仕上がる:19 «должна быть готова» added obligation to 予定です; it now reads «— По плану эта картина будет готова к завтрашнему дню.» C8: 長引く's title «длиться дольше ожидаемого» made a frequent tendency definitional; the title and H1 are now «затягиваться (по времени); долго тянуться». C9: 長引く:22 «никак» added an intensifier; it now reads «— Моя простуда долго не проходит.» At recheck of fix 1 the comprehensibility reviewer judged C1–C9 resolved, including the adapted wordings for C2, C4, C5, C6 and C8, which it no longer maintained in its proposed forms. It found no regression in the adopted 録音 optional or in the correctness and consistency changes of fix 1, kept its optional notes optional without pressing them, and reported no new finding. Three optional items were adopted: the correctness reviewer's 録音:31, now «Сохраняйте все четыре моры (ритмические единицы): ろ・く・お・ん; не выбрасывайте く.»; the consistency reviewer's F2, linking `[長方形](長方形.md)（ちょうほうけい）` in 四角:27, 四角い:35 and 正方形:34 (three RU-only links); and the 鈴 part of its F3, linking 鈴 in 鐘:29, now «[鈴](鈴.md)（すず）обычно называет маленький звенящий колокольчик или бубенчик» (an RU-only link). The correctness and comprehensibility reviewers read all 30 cards in full against EN; the consistency reviewer read all 30 cards in full against EN and compared their front matter and link sets with EN by script. Evidence includes Jisho/JMdict entries for all 30 words with their JMdict IDs checked against the cards, rare-form notes for 錆, 鉱物, 鉄砲 and 銅, Digital Daijisen headings on Weblio (四角, 四角い, 長方形, 鑑賞, 鉢, 鉄橋, 鉄砲, 鈴, 長引く and モーラ), Kuznetsov entries (бубенчики, бубенцы and достоинство), Gramota's Babenko entry череп, Russian Wiktionary entries (темпура, благоустройство, техобслуживание, уравновешиваться, соразмерный, горшок, курс and звоночек), a Russian Hokkaido University page, a Russian Buddhist-dictionary entry for патра, Russian running text using донбури, a Russian teaching text for итидан and годан, and Rybin's 2009 article on syllable and mora. The rechecks found no regression. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 121 EN exclusions across 28 lists are retained in EN order; 錆 and 銅 have none. Seventeen lie inside the batch: 四角–四角い, 四角い–四角, 正方形–四角 and 四角い, 長方形–四角, 四角い and 正方形, 長引く–継続, 錆びる–錆, 鉢–丼, 鈴–鐘, 揃える–整備, 揃う–仕上がる, イコール and 揃える, 釣り合う–揃う, and 過程–課程; the other 104 target existing RU cards. Four direct, one-sided exclusions on four new cards (no new list) cover reviewed RU title overlaps. Three were added at the candidate, and the consistency reviewer kept all three: 丼–料理 (丼's rice-dish sense against 料理 «готовка; кухня; блюдо») and 過程–途中 (途中 «по пути; в процессе» against «процесс»), with a real basis; and 鉢–植木 (植木 «садовое дерево; растение в горшке»), with a basis only in topic, marginal but harmless. The fourth, 長所–武器, was added by fix 1 for the consistency finding: 武器 «оружие; сильная сторона» overlaps 長所 «достоинство; преимущество» in meaning. After the fix the only exact title segments that a fixed title shares with another card are «колокольчик» of 鈴 and ベル «звонок; колокольчик», which 鈴's EN exclusion of ベル already guards, and «затягиваться» of 長引く and ずるずる and だらだら, which 長引く's EN exclusions of ずるずる and だらだら already guard; 銅's new title has none; the consistency reviewer confirmed this at recheck. Every RU addition is appended at the end of its list; nothing is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/230-words-batch-69-intake.json",
+  "docs/translation-batches/230-words-batch-69-independent-review-001.md",
+  "docs/translation-batches/230-words-batch-69-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "角",
+   "継",
+   "鑑",
+   "賞",
+   "鐘",
+   "録",
+   "錆",
+   "銅",
+   "鉱",
+   "丼",
+   "鉢",
+   "鉄",
+   "砲",
+   "橋",
+   "鈴",
+   "整",
+   "揃",
+   "釣",
+   "針",
+   "課"
+  ],
+  "navigationNote": "Restored 1 relative link in the 1 listed Markdown file at the corresponding EN-linked position, using EN's href form (X.md in the word card): ベル to 鐘 (line 38, matching EN ベル line 28). 鈴 and チャイム stay plain there, as in EN. No surrounding prose was changed. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "words/ベル.md"
+  ],
+  "newWords": [
+   "長男",
+   "四角",
+   "四角い",
+   "正方形",
+   "長方形",
+   "長所",
+   "継続",
+   "長引く",
+   "長女",
+   "鑑賞",
+   "鐘",
+   "録音",
+   "錆",
+   "錆びる",
+   "銅",
+   "鉱物",
+   "丼",
+   "鉢",
+   "鉄砲",
+   "鉄橋",
+   "鈴",
+   "仕上がる",
+   "イコール",
+   "整備",
+   "揃える",
+   "揃う",
+   "釣り合う",
+   "針金",
+   "課程",
+   "過程"
+  ],
+  "selection": "Batch 69 selected 30 word cards from the frozen source: chunk 22 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,497 remained after Batch 229, and 1,467 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; the only closure dependency recorded, 四角い's on 四角, was already among them, and nothing outside them was added. Seventeen source exclusion entries lie inside the batch; the other 104 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (17 EN link occurrences, 14 targets) in the new cards: 四角→kanji 角, 四角→三角, 四角い→kanji 角, 長所→短所, 鑑賞→kanji 賞, 録音→kanji 録, 銅→kanji 銅, 鉱物→kanji 鉱, 鉢→釜, 鉄砲→kanji 鉄, 鉄橋→kanji 鉄, 鉄橋→kanji 橋, 針金→kanji 針, 課程→kanji 課, 課程→学科, 課程→仮定 and 過程→仮定. 20 written kanji have no RU kanji card: 角 継 鑑 賞 鐘 録 錆 銅 鉱 丼 鉢 鉄 砲 橋 鈴 整 揃 釣 針 課 (EN has cards only for 角, 賞, 録, 銅, 鉱, 鉄, 橋, 針 and 課). Links otherwise follow EN, with four RU-only links to cards in the batch at substantive comparisons: 四角→長方形, 四角い→長方形, 正方形→長方形 and 鐘→鈴.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined items: the 撮る part of consistency F3 (a link at 録音:47) was declined because that line is an orthographic note (録る vs 撮る), not a comparison with 録音; at recheck the reviewer agreed. The reviewers' suggested wordings for correctness C1 and comprehensibility C2, C4, C5, C6 and C8 were adapted into the wordings quoted above: «храмовый колокол» was not used because the RU 鐘 card owns «колокол» and the temple bell, so it would blur the 鈴/鐘 contrast the cards teach; «колокольчик; бубенчик (типичный небольшой)» was not used because the adopted title keeps EN's \"(often globular)\" qualifier instead; «в виде четырёхугольника» is singular for a sliced loaf, whereas «нарезать + shape (instrumental)» is the natural shape-neutral pattern; «(сокращение)» would repeat 略語's gloss word, and «(сокращённо)» matches the published 中学 marker; and 長引く keeps a second gloss that restates its line 16, keeping EN's two-part title. At recheck the correctness reviewer kept no objection to the adopted 鈴 wording, and the comprehensibility reviewer stated that it does not maintain its alternatives for C2, C4, C5, C6 and C8. The comprehensibility reviewer's optional notes (四角い's box shape, the 長男/長女 possessors, 鉄砲 «ружьё», and 整備/過程 phrasing) led to no action, because the reviewer itself classed them as non-defects; its outside-facet title overlaps (継続/続き, 長引く/ずるずる/だらだら, 鉄砲/銃, 仕上がる/できる and 鉱物/鉱石) led to no action, because every pair already has a direct exclusion. The consistency reviewer's optional notes 長女–お嬢さん and 長所–プラス were not required. 揃える:31's agentive gloss «кто-то собрал документы» stays.",
+  "exclusionsAddedBeyondEn": {
+   "丼": [
+    "料理"
+   ],
+   "過程": [
+    "途中"
+   ],
+   "鉢": [
+    "植木"
+   ],
+   "長所": [
+    "武器"
+   ]
+  },
+  "titles": {
+   "イコール": "равно; знак равенства",
+   "丼": "глубокая миска; блюдо из риса с добавками (донбури)",
+   "仕上がる": "быть готовым (о работе, изделии); получиться (о результате)",
+   "四角": "четырёхугольник; четырёхугольная форма",
+   "四角い": "квадратный; прямоугольный",
+   "揃う": "быть в полном составе (комплекте); быть одинаковым",
+   "揃える": "собрать полностью (всё нужное); выровнять (сделать одинаковым)",
+   "整備": "техническое обслуживание; приведение в порядок",
+   "正方形": "квадрат (геометрическая фигура)",
+   "継続": "продолжение (дела, состояния); непрерывность",
+   "課程": "учебная программа; курс обучения",
+   "過程": "процесс; ход развития",
+   "針金": "проволока",
+   "釣り合う": "уравновешиваться; быть соразмерным",
+   "鈴": "колокольчик (часто округлый); бубенчик",
+   "鉄橋": "железный (стальной) мост; железнодорожный мост",
+   "鉄砲": "ружьё; огнестрельное оружие (общее название)",
+   "鉢": "чаша; цветочный горшок",
+   "鉱物": "минерал (природное вещество)",
+   "銅": "медь; бронзовая медаль (сокращённо)",
+   "錆": "ржавчина",
+   "錆びる": "ржаветь; покрываться ржавчиной",
+   "録音": "звукозапись; аудиозапись",
+   "鐘": "колокол",
+   "鑑賞": "восприятие произведений искусства (просмотр, прослушивание)",
+   "長女": "старшая дочь",
+   "長引く": "затягиваться (по времени); долго тянуться",
+   "長所": "достоинство; преимущество",
+   "長方形": "прямоугольник",
+   "長男": "старший сын"
+  }
+ }
+}

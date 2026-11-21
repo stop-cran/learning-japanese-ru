@@ -8,7 +8,25 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch229 thirty words
+## Current published source milestone: batch230 thirty words
+
+Batch230 added 30 Russian word articles. They are chunk 22 of the recomputed general remaining-word queue,
+dependency-closed under quiz_exclusions with nothing added. The batch also added 1 navigation-only link wrap in 1
+existing page: the word card ベル.
+
+The candidate was signed and pushed before review. The blind facet-split review found:
+- one minor correctness finding (鈴), with one optional item (録音);
+- one minor quiz-safety finding (長所 and 武器), with two optional link notes;
+- two moderate and seven minor comprehensibility findings (揃う, 揃える, 鈴, 四角, 継続, 銅, 仕上がる and 長引く).
+
+One signed fix commit addressed them, retitling 鈴, 銅 and 長引く and adding four RU-only links to 長方形 and 鈴; the 撮る
+link was declined. The serial rechecks reported all facets clean.
+
+Progress: **5,019 reviewed-current / 8 runtime-blocked / 3,251 pending of 8,278**; 3,553 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch230-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch229 thirty words
 
 Batch229 added 30 Russian word articles. They are chunk 21 of the recomputed general remaining-word queue,
 dependency-closed under quiz_exclusions with nothing added. The batch also added 3 navigation-only link wraps in 2
@@ -24,7 +42,7 @@ a corpus-wide follow-up. The serial rechecks reported all facets clean.
 
 Progress: **4,989 reviewed-current / 8 runtime-blocked / 3,281 pending of 8,278**; 3,523 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch229-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch229-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch228 thirty words
 
