@@ -1,0 +1,153 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "223-words-batch-62",
+ "publishedBaseline": "85b913449b7dac1efacf8d72578ef94a5a87f04c",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 1380521 and serialized rechecks of the signed fix commit 8de42d0 found no remaining defect. Correctness raised three minor findings and one unverified qualification. アイロン had replaced EN's first example with a prose pattern; シャツにアイロンをかけました。 «Я погладил рубашку.» is restored as the first bullet. アイスクリーム categorically denied that クリーム can name the dessert; it now says that クリーム usually means cream and that the dictionary also records the abbreviated sense «мороженое», although the full アイスクリーム is clearer without a context cue (JMdict 1044480 sense 2, which the new クリーム card teaches). Three titles narrowed their source: もっとも is now «разумный; обоснованный; впрочем» (Gramota обоснованный), まるで «словно; совершенно; совсем не» (JMdict 1216280 sense 3; its affirmative example 前とはまるで違う is now rendered «Совершенно отличается…») and だって «потому что; но; даже; тоже» (JMdict 2643970 sense 2). The qualification U1 found that キャンプ equated the activity with Russian «кемпинг», which the inspected dictionaries define as an equipped camp for motor tourists. Comprehensibility raised the same point. キャンプ is now titled «лагерь на природе; стоять лагерем», and its body limits «кемпинг» to such an equipped site (Kuznetsov and Krysin on Gramota, Ozhegov and Russian Wiktionary кемпинг; JMdict 1042200 sense 1). The broader modern Russian use was not verified, and the card no longer depends on it. Consistency raised no finding. Comprehensibility raised seven minor findings. Besides キャンプ, もっとも's «(о доводе)» and だって's excuse-defining title, they covered the following. だって's second translation asserted a partially completed viewing and is now «Но есть ещё то, что я хочу посмотреть». エネルギー's «запас сил» fitted neither the solar nor the food sense, so the title is «энергия» (JMdict 1029430 senses 1-4). アウト's baseball sense read as the ball leaving the field and イン as the out ball; the body now separates the baseball putout from the tennis line call and pairs セーフ with the putout and イン with the in-field call (JMdict 1014680 senses 1-2; Digital Daijisen on Kotobank). ところが's translation now follows 十分に練習しました and 失敗しました («достаточно потренировался… потерпел неудачу»). The seventh, C1, asked to drop the Latin-script source names from seven loanword notes. It was not adopted, because naming the source word after the source language is the provenance convention of published reviewed cards (for example ゴール), and the reviewer withdrew it at recheck. Because of the new «но», fix 1 added だって's guards against しかし, けれど and けれども; because of the new «совершенно», it added a conservative まるで guard against 完全. Two optional items were adopted: まさに's simplified last nuance sentence and キャプテン's «Типичный контекст». All three reviewers read all 30 cards in full against EN. Russian evidence includes Gramota and Kuznetsov entries (разумный, довод, обоснованный, кемпинг, лагерь, полно, поскольку, впрочем, вплотную, придвинуть, держаться, запас), Ozhegov on gufo.me and Russian Wiktionary кемпинг. The rechecks found no regression. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 55 EN exclusions across 18 lists are retained. Ten of them lie inside the batch: クリーム–アイスクリーム, ところが–だけど, だって–だけど, だって–なぜなら, だが–だけど, だが–ところが, だが–だって, もっとも–だが, くっつく–くっつける and くっつける–くっつく. Twenty direct, one-sided exclusions on 12 new cards (two of them new lists, クラシック and ウイスキー) cover reviewed RU title overlaps and sense neighbours. Required (15), as the consistency reviewer classified them: クラシック–音楽, オーバー–越す, エネルギー–活気, だけど–でも, もしも–もし, まるで–ちっとも, まさに–もうすぐ, そっくり–似る, ウイスキー–酒 and ウイスキー–お酒 (on the ビール and ワイン precedent), やや–少々, そっくり–全体 and, added in the fix, だって–しかし, だって–けれど and だって–けれども (the exact «но» segment). Conservative (5): オーバー–越える, エネルギー–余裕, まさに–すなわち, まあ–あ and, added in the fix, まるで–完全. The author had classed ウイスキー–酒, ウイスキー–お酒, やや–少々 and そっくり–全体 as conservative; the records preserve both classifications. The candidate declared the first 16. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/223-words-batch-62-intake.json",
+  "docs/translation-batches/223-words-batch-62-independent-review-001.md",
+  "docs/translation-batches/223-words-batch-62-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [],
+  "navigationNote": "Restored 7 relative links across the 7 listed Markdown word files at the corresponding EN-linked positions, using EN's href forms: ざっと to きちんと, ふと and 思わず to わざと, テント to キャンプ (held from Batch 61), ワイン to ウイスキー, 万一 to もしも and 流れる to インク. No surrounding prose was changed. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "words/ざっと.md",
+   "words/ふと.md",
+   "words/テント.md",
+   "words/ワイン.md",
+   "words/万一.md",
+   "words/思わず.md",
+   "words/流れる.md"
+  ],
+  "newWords": [
+   "アイスクリーム",
+   "クリーム",
+   "クリスマス",
+   "クラシック",
+   "キャンプ",
+   "キャプテン",
+   "オーバー",
+   "エネルギー",
+   "ウイスキー",
+   "インク",
+   "アルバム",
+   "アウト",
+   "アイロン",
+   "わざと",
+   "やや",
+   "だけど",
+   "ところが",
+   "なぜなら",
+   "だって",
+   "だが",
+   "もっとも",
+   "もしも",
+   "まるで",
+   "まさに",
+   "まさか",
+   "まあ",
+   "きちんと",
+   "そっくり",
+   "くっつく",
+   "くっつける"
+  ],
+  "selection": "Batch 62 selected 30 word cards from the frozen source: chunk 15 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,707 remained after Batch 222). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. Ten source exclusion entries lie inside the batch (クリーム–アイスクリーム, ところが–だけど, だって–だけど and なぜなら, だが–だけど, ところが and だって, もっとも–だが, and くっつく and くっつける, each excluding the other); the other 45 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (6 EN link occurrences, 6 targets) in the new cards: オーバー→オーバーコート, インク→インキ, インク→墨, ところが→ところで, まあ→えっと and きちんと→ちゃんと. All 30 new cards are written in kana; くっつく and くっつける keep EN's links to the existing kanji card 付, so no kanji label is left plain. Links otherwise follow EN, with six RU-only links to existing cards at a substantive comparison: クリーム→アイスクリーム, エネルギー→活気, まさに→ちょうど, まさに→もうすぐ, まあ→あ and くっつける→結婚. ところで and ちゃんと are planned for Batch 63; the links to them from ところが and きちんと are held for that batch.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: なぜなら's example as two Russian sentences (comprehensibility; RU follows EN's one-sentence translation, the Japanese already shows なぜなら sentence-initially, and the reviewer accepted this at recheck), もしも's «а если» (comprehensibility; an ordinary Russian opener for an emphatic supposition that distinguishes もしも from もし «если»; the reviewer kept it optional), アイロン's EN closing sentence on iron supplements and ore (consistency; it answers the English polysemy of \"iron\", which Russian «утюг» lacks, and the reviewer withdrew it) and an きちんと–丁寧 guard (consistency; no title overlap, and the reviewer withdrew it). The restoration of アイロン's first example, also a consistency optional item, was adopted through correctness C1. Comprehensibility C1, which would have dropped the Latin-script source names from seven loanword notes, was not adopted, and the reviewer withdrew it at recheck. The published 最も card calls 尤も «часто записываемое», while JMdict 1535810 and this batch's もっとも card call it rare; it lies outside this batch's diff and is recorded for follow-up. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "そっくり": [
+    "似る",
+    "全体"
+   ],
+   "だけど": [
+    "でも"
+   ],
+   "だって": [
+    "しかし",
+    "けれど",
+    "けれども"
+   ],
+   "まあ": [
+    "あ"
+   ],
+   "まさに": [
+    "もうすぐ",
+    "すなわち"
+   ],
+   "まるで": [
+    "ちっとも",
+    "完全"
+   ],
+   "もしも": [
+    "もし"
+   ],
+   "やや": [
+    "少々"
+   ],
+   "ウイスキー": [
+    "酒",
+    "お酒"
+   ],
+   "エネルギー": [
+    "活気",
+    "余裕"
+   ],
+   "オーバー": [
+    "越す",
+    "越える"
+   ],
+   "クラシック": [
+    "音楽"
+   ]
+  },
+  "titles": {
+   "きちんと": "как следует; аккуратно",
+   "くっつく": "прилипать; держаться вплотную (к кому-либо)",
+   "くっつける": "приклеивать; придвигать вплотную",
+   "そっくり": "точь-в-точь похожий; целиком",
+   "だが": "тем не менее; однако",
+   "だけど": "но (в разговорной речи)",
+   "だって": "потому что; но; даже; тоже",
+   "ところが": "однако (вопреки ожиданию)",
+   "なぜなら": "потому что; поскольку",
+   "まあ": "пожалуй; полно (успокаивая); ах!",
+   "まさか": "не может быть!; неужели",
+   "まさに": "именно; поистине; вот-вот",
+   "まるで": "словно; совершенно; совсем не",
+   "もしも": "а если; допустим",
+   "もっとも": "разумный; обоснованный; впрочем",
+   "やや": "слегка; в некоторой степени",
+   "わざと": "нарочно; намеренно",
+   "アイスクリーム": "мороженое",
+   "アイロン": "утюг",
+   "アウト": "аут (в спорте); недопустимо",
+   "アルバム": "альбом",
+   "インク": "чернила",
+   "ウイスキー": "виски",
+   "エネルギー": "энергия",
+   "オーバー": "превышение (предела); преувеличенный; пальто",
+   "キャプテン": "капитан (команды)",
+   "キャンプ": "лагерь на природе; стоять лагерем",
+   "クラシック": "классическая музыка; классический",
+   "クリスマス": "Рождество",
+   "クリーム": "сливки; крем (кондитерский, косметический)"
+  }
+ }
+}
