@@ -1,6 +1,71 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch236 thirty words (general word queue)
+## Current published source milestone: batch237 thirty words (general word queue)
+
+Batch237 adds 30 Russian word articles: おじゃまします ごめんください お待ちどおさま お待たせしました ごめん すまない 詫びる 評論
+診断 診る 訳す 言葉遣い 言付ける 言い付ける 解説 応ずる 回答 解答 溶ける 解散 占う 観測 アイデア アイディア 観念 親類 親指 覗く 見送る
+慰める. They are chunk 29 of 72 of the general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN
+words. Their dependency closure is exactly the 30 requested words, so every EN quiz_exclusions target resolves to an
+existing RU word or a word in the batch; 19 of the 171 EN entries lie inside the batch.
+
+Navigation-only link wraps restore 9 links at EN link positions in 7 existing pages: the kanji cards 付 (to 言い付ける), 占
+(three links to 占う) and 言 (to 言い付ける) and the word cards 応じる (to 応ずる), 解ける (to 溶ける), 説明 (to 解説) and 集合
+(to 解散). The new cards keep EN's links to existing cards; their links to the word cards 悔やむ and 敬語 and the kanji
+cards 訳, 溶 and 測 stay plain until those targets are adapted.
+
+The batch covers:
+- apologies and visiting formulas: excusing the intrusion on entering (おじゃまします), asking to come in (ごめんください),
+  apologizing for or thanking someone for waiting (お待ちどおさま and お待たせしました), a casual sorry or a refusal (ごめん),
+  apology or apologetic gratitude (すまない) and making an apology (詫びる);
+- critique, diagnosis and translation: a critique or critical essay (評論), a diagnosis (診断), to examine medically (診る)
+  and to translate (訳す);
+- speech and messages: wording or manner of speaking (言葉遣い), to send word or entrust something for delivery (言付ける),
+  to tell someone to do something or tell on someone (言い付ける) and an explanation or commentary (解説);
+- responses and answers: to respond, comply or accept (応ずる), a reply or response (回答) and an answer or solution
+  (解答);
+- melting and dispersal: to melt or dissolve (溶ける) and dispersal, disbandment or dissolution (解散);
+- prediction and observation: to tell fortunes or predict (占う) and observation or prediction (観測);
+- ideas: an idea (アイデア and アイディア) and an idea or resignation to a situation (観念);
+- kin and thumb: a relative (親類) and the thumb or big toe (親指);
+- looking and seeing off: to peek or show partly (覗く) and to see off, let pass or postpone (見送る);
+- comfort: to comfort or console (慰める).
+
+All 171 EN exclusions are retained in EN order. Twelve direct guards on 10 new cards cover reviewed RU sense
+neighbours: 親類–親戚 and 見送る–省く and 飛ばす are required; 解散–終了 and 閉会, 観測–読み, 回答–応対, 慰める–落ち着く,
+すまない–悪い, おじゃまします–すまない, 言付ける–頼む and 言い付ける–頼む are conservative and harmless.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: no finding;
+- consistency: three low-severity missing quiz guards, すまない–悪い, おじゃまします–すまない and 言付ける and 言い付ける–頼む;
+- comprehensibility: five findings: the «подглядывать» gloss in the 覗く title, the «я вхожу» gloss in the おじゃまします
+  title, the «нет уж, увольте» segment of the ごめん title, which was declined as an established Russian refusal formula,
+  and example translations in 言い付ける and 親類; and five optional notes, two of them adopted.
+
+Two signed fix commits addressed them:
+- two titles changed: 覗く «заглядывать; выглядывать (показываться частично)» and おじゃまします «простите за беспокойство
+  (входя к кому-либо)»;
+- example translations were rewritten in 言い付ける, 言付ける and 親類, and prose was reworded in 覗く, おじゃまします, 応ずる
+  and, in the second fix, ごめんください, whose comparison still quoted the removed おじゃまします wording;
+- four exclusions were added (すまない–悪い, おじゃまします–すまない, 言付ける–頼む and 言い付ける–頼む), no link changed, and
+  several suggested wordings were adapted rather than adopted.
+
+The serial rechecks reported correctness, consistency, quiz safety, comprehensibility and scoped coverage clean, with no
+regression; the declined points were withdrawn. The published 見る gloss of 覗く, «заглядывать, подглядывать», is outside
+the batch and stays on the follow-up list.
+
+Links follow EN, with one RU-only link: 言付ける to 言い付ける.
+
+Qualified progress is **5,229 reviewed-current / 8 reviewed runtime-blocked / 3,041 pending of 8,278**,
+with 3,763 words, 718 kanji and 718 strokes. See the [intake](translation-batches/237-words-batch-76-intake.json),
+[independent review](translation-batches/237-words-batch-76-independent-review-001.md),
+[recheck](translation-batches/237-words-batch-76-recheck-001.md),
+[qualified source record](translation-batches/237-words-batch-76-reviewed-source.json) and
+[final validation](translation-batches/237-words-batch-76-final-validation-001.json).
+
+## Previous published source milestone: batch236 thirty words (general word queue)
 
 Batch236 adds 30 Russian word articles: 貝 講師 有難い 恐縮 謙虚 謙遜 謎謎 話し合い 争う 論ずる 請う 調節 調整 胡椒 調味料
 課税 誓う 話し中 言い出す 話しかける ぎっしり 圧縮 縮小 削る 削除 省略 縮める 縮れる 縮む 詰まる. They are chunk 28 of 72 of the
