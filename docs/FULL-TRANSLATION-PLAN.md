@@ -1,6 +1,69 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch228 thirty words (general word queue)
+## Current published source milestone: batch229 thirty words (general word queue)
+
+Batch229 adds 30 Russian word articles: 学会 集会 集合 障子 間隔 隙間 隔てる 随筆 険しい 期限 限度 属する 附属 差し支え 妨げる
+締め切り 締め切る 終了 ストップ 防止 警備 防犯 関西 関東 関わる 間接 開通 開会 開放 閉会. They are chunk 21 of
+72 of the general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is
+exactly the 30 requested words, so every EN quiz_exclusions target resolves to an existing RU word or a word in the batch;
+18 of the 174 EN entries lie inside the batch.
+
+Navigation-only link wraps restore 3 links at EN link positions in 2 existing pages: the kanji card 了 (two links to 終了)
+and the word card 感覚 (to 間隔). The new cards keep EN's links to existing cards; their links to the kanji cards 筆, 防 and
+接 and to the word cards 学科, 解散, 埋める, スタート and 解放 stay plain until those targets are adapted.
+
+The batch covers:
+- gatherings: an academic society or conference (学会), a meeting or rally (集会) and a gathering or mathematical set (集合);
+- gaps and separation: spacing or an interval (間隔), a gap or crevice (隙間), to separate or have between (隔てる) and a
+  shoji paper sliding door (障子);
+- limits and deadlines: a deadline or time limit (期限), a limit (限度), a deadline or closing (締め切り) and to close up or
+  close applications (締め切る);
+- belonging: to belong to (属する) and attachment or affiliation (附属);
+- hindrance: a hindrance (差し支え) and to hinder (妨げる);
+- ending: ending or termination (終了), a stop or halt (ストップ) and closing a meeting or event (閉会);
+- prevention and security: prevention (防止), guarding or security (警備) and crime prevention (防犯);
+- regions: the Kansai region (関西) and the Kanto region (関東);
+- opening: opening of a route or service connection (開通), opening of a meeting (開会) and opening or open access (開放);
+- other words: a personal essay (随筆), steep, rugged or stern (険しい), to be involved or concern (関わる) and indirectness
+  (間接).
+
+All 174 EN exclusions are retained in EN order. Nine direct guards on 6 new cards cover reviewed RU sense neighbours:
+締め切り–締め切る and 関わる–関連 are required in practice; 険しい–困難, 険しい–大変, 終了–卒業, 開通–繋ぐ and 締め切り–期間 are
+conservative with a real basis; 障子–雨戸 and 関わる–扱う are conservative and harmless. The consistency reviewer agreed with
+these classifications, and 締め切り–期間 was added for its finding.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: one minor finding: 締め切り's physical sense named the door or window itself and dropped EN's notice
+  context; three optional items: a 社会 link in 学会, 締め切り's provenance wording and 防止's double negative;
+- consistency: one minor quiz-safety finding, 締め切り's «срок сдачи» against 期間 «срок; период»; three optional notes:
+  社会 and 開始 links, two shared-word pairs needing no guard and the 障子–雨戸 guard;
+- comprehensibility: five moderate and three minor findings: 障子's «заменил бумагу на сёдзи», agentive translations in
+  開通, an intransitive translation in 締め切る, 防犯's «защититься от преступников», 期限's title «срок действия»,
+  関わる's «участвую», 隔てる's title «стоять между» and 締め切り's provenance note; optional notes on 終了, ストップ, 防止,
+  集会, 随筆 and 間接.
+
+One signed fix commit addressed them:
+- two titles changed: 期限 «крайний срок; отведённый срок» and 隔てる «разделять (собой); отгораживать»;
+- example translations were rewritten in 障子, 開通, 締め切る, 防犯, 関わる, 終了 and ストップ, and 締め切り and 防止 were
+  reworded;
+- 締め切り excludes 期間, and 学会 links 社会;
+- 締め切り's provenance note, the 開始 link, dropping 障子–雨戸 and the 集会, 随筆 and 間接 notes were declined; the provenance
+  note is deferred to a corpus-wide follow-up.
+
+The serial rechecks reported all facets clean, with no regression.
+Links follow EN, with two RU-only links to existing cards at a substantive comparison: 開会–閉会 and 学会–社会.
+
+Qualified progress is **4,989 reviewed-current / 8 reviewed runtime-blocked / 3,281 pending of 8,278**,
+with 3,523 words, 718 kanji and 718 strokes. See the [intake](translation-batches/229-words-batch-68-intake.json),
+[independent review](translation-batches/229-words-batch-68-independent-review-001.md),
+[recheck](translation-batches/229-words-batch-68-recheck-001.md),
+[qualified source record](translation-batches/229-words-batch-68-reviewed-source.json) and
+[final validation](translation-batches/229-words-batch-68-final-validation-001.json).
+
+## Previous published source milestone: batch228 thirty words (general word queue)
 
 Batch228 adds 30 Russian word articles: スケジュール 寸法 広さ 面積 インタビュー 面接 面倒くさい しーん 静まる 青白い 青少年
 鈍い 蛍光灯 電球 直流 組み合わせ 交流 合同 合流 電流 電波 乾電池 電池 電柱 電力 採点 点数 零点 雑巾 打ち合わせ. They are chunk 20 of

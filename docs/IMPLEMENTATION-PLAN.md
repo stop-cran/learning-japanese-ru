@@ -8,7 +8,25 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch228 thirty words
+## Current published source milestone: batch229 thirty words
+
+Batch229 added 30 Russian word articles. They are chunk 21 of the recomputed general remaining-word queue,
+dependency-closed under quiz_exclusions with nothing added. The batch also added 3 navigation-only link wraps in 2
+existing pages: the kanji card 了 and the word card 感覚.
+
+The candidate was signed and pushed before review. The blind facet-split review found:
+- one minor correctness and scoped-coverage finding (締め切り), with three optional items (学会, 締め切り and 防止);
+- one minor quiz-safety finding (締め切り and 期間), with three optional notes;
+- five moderate and three minor comprehensibility findings (障子, 開通, 締め切る, 防犯, 期限, 関わる, 隔てる and 締め切り).
+
+One signed fix commit addressed them, retitling 期限 and 隔てる; the provenance-wording finding was declined and deferred to
+a corpus-wide follow-up. The serial rechecks reported all facets clean.
+
+Progress: **4,989 reviewed-current / 8 runtime-blocked / 3,281 pending of 8,278**; 3,523 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch229-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch228 thirty words
 
 Batch228 added 30 Russian word articles. They are chunk 20 of the recomputed general remaining-word queue,
 dependency-closed under quiz_exclusions with nothing added. The batch also added 10 navigation-only link wraps in 10
@@ -25,7 +43,7 @@ fix 1's sentence on Nの広さ did not parse. The serial rechecks reported all f
 
 Progress: **4,959 reviewed-current / 8 runtime-blocked / 3,311 pending of 8,278**; 3,493 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch228-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch228-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch227 thirty words
 

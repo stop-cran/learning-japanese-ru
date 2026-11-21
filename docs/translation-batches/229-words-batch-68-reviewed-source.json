@@ -1,0 +1,137 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "229-words-batch-68",
+ "publishedBaseline": "5c318874d589b0383e8c1f7bffa0373a39c991aa",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate af5541a and serialized rechecks of the signed fix commit ffe4626 found no remaining defect. Before the candidate the coordinator removed the author-added sentence «Это канго — слово, построенное на онных чтениях кандзи.» from 20 cards (学会 期限 終了 警備 閉会 開会 開放 開通 間接 間隔 関東 関西 防止 防犯 附属 限度 随筆 障子 集会 集合), because EN keeps kango only in front matter; kept 属する:25's qualified kango framing, which renders EN's own remark on the reading ぞく; and removed the author's reverse exclusion 締め切る→締め切り, because the app applies exclusions symmetrically. Correctness raised one finding. F1: 締め切り:27 glossed the physical sense as the door or window itself and dropped EN's notice-context qualification (JMdict 1594590 sense 2 on Jisho; Digital Daijisen しめ‐きり); it now reads «Отдельное физическое значение — закрывание двери или окна; в этом значении пишут и 閉め切り, с [閉](../kanji/閉.md). Переводы «закрыто» и «входа нет» подходят только к надписи на табличке и зависят от контекста: физически закрытый проход может объяснять табличку о закрытом входе, а приём заявок тоже может быть закрыт к сроку. Само по себе 締め切り не означает любой запрет входа.» Consistency raised one quiz-safety finding. F1: 締め切り's title segment «срок сдачи» made 期間 «срок; период» a defensible answer with no direct pair; 締め切り now excludes 期間. Comprehensibility raised eight findings. F1: 障子's «— Я заменил бумагу на сёдзи.» could be read as replacing the paper with a shoji; it now reads «— Я переклеил бумагу на сёдзи.» F2: 開通's examples were agentive for an intransitive verb; they now read «— Телефонная линия заработала.» and «— Дорога, которая была перекрыта, снова открылась для движения.» F3: 締め切る's «— Приём заявок на участие закончится завтра.» was intransitive for a transitive verb; it now reads «— Завтра мы закроем приём заявок на участие.» F4: 防犯's «Чтобы защититься от преступников» turned crime prevention into self-defence; it now reads «— Чтобы предотвратить преступления, я на ночь всегда запираю дверь.» F5: 期限's lead gloss «срок действия» named a validity period while the examples are deadlines; the title is now «крайний срок; отведённый срок» (EN \"deadline; term; time limit\"). F6: 関わる's «— Я участвую в новом проекте.» used the verb the card assigns to 参加; it now reads «— Я вовлечён в новый проект.» F7: 隔てる's title «отгораживать; стоять между» added standing and read as intransitive; the title is now «разделять (собой); отгораживать» (EN \"separate; have between\"). F8, 締め切り's «написание из исходного списка», was declined (see below). At recheck of fix 1 the comprehensibility reviewer judged F1–F4 and F6 resolved, F5 and F7 resolved by the adapted titles, and accepted the declined F8 as withdrawn for this batch (deferred to the corpus-wide provenance follow-up). It found no regression in the adopted 終了, ストップ and 防止 optionals or in the correctness rewrite of 締め切り:27, accepted the declined 集会, 随筆 and 間接 glosses without pressing them, and reported no new finding. Four optional items were adopted: the correctness reviewer's link in 学会:33, now «…как [社会](社会.md)（しゃかい）.» (an RU-only link); 防止:31, raised by the correctness and comprehensibility reviewers, now «…, поэтому эти слова нельзя считать совсем не связанными.»; 終了 «— На этом я заканчиваю объяснение.» for 説明を終了します; and ストップ «— Механизм внезапно остановился.» for 機械. The correctness and comprehensibility reviewers read all 30 cards in full against EN; the consistency reviewer read all 30 cards in full and compared their front matter and link sets with EN by script. Evidence includes JMdict entries through the Jisho API for all 30 words, Digital Daijisen headings on Weblio (集会, 集合, 障子, 随筆, 険しい, 属する, 附属, 締め切り, 締め切る, 終了, 差し支え, ストップ and チェック), Japandict entries (険しい, 峻しい, 隨筆 and 距てる), Kuznetsov entries (хмурый, очерк and эссе), Efremova труднопроходимый, Russian Wiktionary entries (сёдзи, отгораживать, состоять, прилагать, недопущение, косвенность, опосредованность, настежь, митинг, съезд and общество), Russian-language Japanese lessons for ваго, канго, гайрайго and «онные чтения», and a Japan encyclopedia entry for Кансай; at recheck the correctness reviewer inspected Jisho API entries for 張り替える, 機械, 開通, 隔てる and 期限. The rechecks found no regression. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 174 EN exclusions across 27 lists are retained in EN order; 関西, 関東 and 間接 have none. Eighteen lie inside the batch: 集会–学会, 集合–集会 and 学会, 隙間–間隔, 限度–期限, 附属–属する, 妨げる–差し支え, 締め切り–期限, 終了–締め切り and 締め切る, ストップ–終了, 防止–妨げる and ストップ, 防犯–防止 and 警備, 開放–開会 and 開通, and 閉会–終了; the other 156 target existing RU cards. Nine direct, one-sided exclusions on six new cards (no new list) cover reviewed RU title overlaps. Eight were added at the candidate, and the consistency reviewer kept all eight: 締め切り–締め切る (both titles contain «приём (заявок)») and 関わる–関連 (関連 «связь; отношение к теме»), which it called required in practice; 険しい–困難 and 険しい–大変 (the shared «трудный» of the figurative difficult-road sense), 終了–卒業 (卒業 «окончание учёбы») and 開通–繋ぐ (繋ぐ «соединять; подключать»), conservative with a real basis; and 障子–雨戸 (雨戸 «наружная раздвижная защитная ставня») and 関わる–扱う (扱う «иметь дело (с чем-либо); обращаться (с людьми, вещами)»), conservative with necessity not established but harmless. The ninth, 締め切り–期間, was added by fix 1 for the consistency finding. The author had declared 締め切り–締め切る in both cards; the coordinator removed the reverse declaration before the candidate. After the fix the title screen found no lead for 期限's new title; the only exact title segment that a fixed title shares with another card is «разделять» of 隔てる and 分ける «разделять; раздавать (по частям)», which 隔てる's EN exclusion of 分ける already guards; the consistency reviewer confirmed this at recheck. Every RU addition is appended at the end of its list; nothing is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/229-words-batch-68-intake.json",
+  "docs/translation-batches/229-words-batch-68-independent-review-001.md",
+  "docs/translation-batches/229-words-batch-68-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "妨",
+   "属",
+   "接",
+   "筆",
+   "締",
+   "防",
+   "附",
+   "随",
+   "隔",
+   "隙",
+   "障"
+  ],
+  "navigationNote": "Restored 3 relative links across the 2 listed Markdown files at the corresponding EN-linked positions, using EN's href forms (../words/X.md in the kanji card, X.md in the word card): kanji 了 to 終了 twice (lines 28 and 33, the リョウ reading-table row and the list of common words) and 感覚 to 間隔 (line 42). No surrounding prose was changed. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/了.md",
+   "words/感覚.md"
+  ],
+  "newWords": [
+   "学会",
+   "集会",
+   "集合",
+   "障子",
+   "間隔",
+   "隙間",
+   "隔てる",
+   "随筆",
+   "険しい",
+   "期限",
+   "限度",
+   "属する",
+   "附属",
+   "差し支え",
+   "妨げる",
+   "締め切り",
+   "締め切る",
+   "終了",
+   "ストップ",
+   "防止",
+   "警備",
+   "防犯",
+   "関西",
+   "関東",
+   "関わる",
+   "間接",
+   "開通",
+   "開会",
+   "開放",
+   "閉会"
+  ],
+  "selection": "Batch 68 selected 30 word cards from the frozen source: chunk 21 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,527 remained after Batch 228, and 1,497 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing outside them was added. Eighteen source exclusion entries lie inside the batch; the other 156 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (9 EN link occurrences, 8 targets) in the new cards: 学会→学科, 集合→解散, 隙間→埋める, ストップ→スタート, 開放→解放, 随筆→kanji 筆, 防止→kanji 防, 防犯→kanji 防 and 間接→kanji 接. 11 written kanji have no RU kanji card: 妨 属 接 筆 締 防 附 随 隔 隙 障 (EN has cards only for 接, 筆 and 防). Links otherwise follow EN, with two RU-only links to existing cards at substantive comparisons: 開会→閉会 and 学会→社会.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined items: comprehensibility F8 (締め切り:16 «написание из исходного списка» as an editorial note) was declined for this batch because it renders EN's \"the spelling in the source list\", and the same provenance phrase occurs in published RU cards, so changing one card would make the corpus inconsistent; it is deferred to the corpus-wide provenance-convention follow-up (Issue #7 queue). At recheck the reviewer accepted the decline and withdrew F8 for this batch; the correctness reviewer's matching optional item stays optional. The comprehensibility reviewer's optional glosses 集会 «митинг», 随筆 «очерк» and 間接 «опосредованность» were declined because each body explains the term and no learner-blocking gap was demonstrated; the reviewer accepted this at recheck. The consistency reviewer's optional link to 開始 in 終了 was declined because it is EN's own antonym line, left plain in EN; its optional O3 (dropping 障子–雨戸) was declined because the guard is harmless and keeping it avoids churn; its O2 (隔てる–間, 差し支え–困る and 困難) needed no guard, and the 隔てる retitle removed the shared «между». The comprehensibility reviewer's outside-facet notes (閉会 omits 開会; 期限 omits 締め切り) and the consistency reviewer's recheck note on 期限 and 締め切り led to no change: 開会 and 閉会 are a taught antonym pair, and 締め切り–期限 is an EN exclusion that the app applies in both directions. The reviewers' suggested wordings for correctness F1 and comprehensibility F5 and F7 were adapted into the wordings quoted above: the correctness reviewer's closed-place extension is not in EN and was not added, «установленный срок» would duplicate 定期's title segment, and «иметь между собой» is unidiomatic.",
+  "exclusionsAddedBeyondEn": {
+   "終了": [
+    "卒業"
+   ],
+   "締め切り": [
+    "締め切る",
+    "期間"
+   ],
+   "開通": [
+    "繋ぐ"
+   ],
+   "関わる": [
+    "関連",
+    "扱う"
+   ],
+   "険しい": [
+    "困難",
+    "大変"
+   ],
+   "障子": [
+    "雨戸"
+   ]
+  },
+  "titles": {
+   "ストップ": "стоп; остановка (работы, движения)",
+   "妨げる": "мешать; препятствовать",
+   "学会": "научное общество; научная конференция",
+   "属する": "принадлежать; состоять (в группе)",
+   "差し支え": "затруднение; помеха (делу)",
+   "期限": "крайний срок; отведённый срок",
+   "終了": "окончание (мероприятия, процесса)",
+   "締め切り": "срок сдачи; окончание приёма (заявок)",
+   "締め切る": "плотно закрывать; прекращать приём (заявок)",
+   "警備": "охрана; служба охраны",
+   "閉会": "закрытие собрания (мероприятия)",
+   "開会": "открытие собрания (заседания)",
+   "開放": "открытый доступ; открывание настежь",
+   "開通": "открытие движения; подключение (линии связи)",
+   "間接": "косвенность; опосредованность",
+   "間隔": "интервал; расстояние (между предметами)",
+   "関わる": "быть вовлечённым; иметь отношение (к чему-либо)",
+   "関東": "регион Канто",
+   "関西": "регион Кансай",
+   "防止": "недопущение; предотвращение (аварий, повторения)",
+   "防犯": "профилактика преступлений; защита от преступлений",
+   "附属": "состоящий при (учреждении); прилагаемый (к изделию)",
+   "限度": "допустимый предел",
+   "険しい": "крутой и труднопроходимый; хмурый (о выражении лица)",
+   "随筆": "эссе; очерк",
+   "隔てる": "разделять (собой); отгораживать",
+   "隙間": "щель; зазор",
+   "障子": "сёдзи (бумажная раздвижная перегородка)",
+   "集会": "собрание (с общей целью); митинг",
+   "集合": "сбор (в назначенном месте); множество (в математике)"
+  }
+ }
+}
