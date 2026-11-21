@@ -1,0 +1,142 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "233-words-batch-72",
+ "publishedBaseline": "05160ca1d07f96bc8c7baa2f1fa05509fdce6573",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 5218a9a and serialized rechecks of the signed fix commit 1d78dd8 found no remaining defect. Before the candidate the coordinator's only content edits were three `quiz_exclusions` appends (成立→教育, 成立→納得 and 通用→過ぎる) after the title screen; there were no held links. Its adjudication records: \"`type`, `tags`, `level`, `kanji`, `id` and `reading` of all 30 cards equal EN; every EN exclusion is retained in EN order (checked field by field against frozen EN).\" \"RU-added exclusions (10), each one-directional; the targets do not declare them back. From the lane (7, all judged conservative by the author): 速達→郵送 (postal sending), 時速→高速 and 速力→高速 (stem «скорост-», speed neighbours), 通路→通過 (shared noun «проход»), 出勤→就職 («выход на работу» can be read as starting a job), 通用→納得 («быть принятым … (о доводах)» vs «принятие (доводов)»), 成立→契約 (the body teaches 契約が成立する). Kept: each is harmless and the 通用/成立 ones now share 納得 with the coordinator guard. Added by the coordinator after the title screen (3), each an exact Russian title segment once parentheticals are stripped: 成立→教育 (成立 «…; образование (организации)» ~ 教育 «образование; обучение»; EN \"formation; conclusion; validity\" vs \"education\"), 成立→納得 (成立 «…; принятие (закона)» ~ 納得 «убеждённость; принятие (доводов)»; EN \"acceptance; being convinced\"), 通用→過ぎる (通用 «…; проходить (о доводах, отговорках)» ~ 過ぎる «проходить; миновать»; EN \"be accepted; be valid\" vs \"pass; go beyond\"). Appended at the end of the existing list; EN entries and order unchanged. Final lane screen: 0 unguarded exact, 52 guarded.\" \"RU-only links: none (link parity clean over the 30 cards and 3 navigation files).\" \"Lane check after the B232 fix: none of the 34 changed lane paths quotes a B232 passage or title changed by fix 97a39cf (方面, 道順, 遡る, 部品, 超過, 角度, 作製, 原料, 過剰, 逸れる, 遊園地, or their old wording); B233 titles are screened against the fixed B232 titles at candidate time.\" Correctness raised one finding. F1: 成立's title and H1 «заключение (договора, сделки); принятие (закона); образование (организации)» dropped the argument-validity meaning, one of EN's three title senses (\"formation; conclusion; validity\"), which the card's opening definition teaches and its second main example (この議論は成立しない «Этот довод несостоятелен») shows; JMdict 1375880 sense 3 is \"being valid (of a theory, argument, etc.)\", and Russian Wiktionary несостоятельный sense 4 means lacking substantiation or persuasiveness. The title and H1 are now «образование (организации); заключение (договора, сделки); состоятельность (довода)», in EN order; to keep the label short, «принятие (закона)» left the title, and the body still teaches enacting a law. Its optional note on the missing spaces after links in さわやか was adopted with comprehensibility C10. Consistency raised no finding; its optional notes O1–O5 covered 透明 left unlinked in 透き通る as in EN, the さわやか spacing, the redundant `（はっきり）` after the はっきり link in 透き通る and 澄む, the classification of the ten RU-added exclusions and the declined pairs. All ten exclusions stay. Comprehensibility raised eleven minor findings. C1: 送料:44–45 «Защита теста от общих слов о цене и расходах не утверждает, …» was opaque app-test meta; the sentence now reads «То, что викторина не предлагает рядом с 送料 общие слова о цене и расходах, не означает, что эти денежные слова взаимозаменяемы в любом счёте или предложении.», reworded rather than deleted. C3: 出勤:19 «Завтра я выхожу на работу к девяти.» read «к» as a deadline and «выхожу» as leaving home; it now reads «Завтра я приступаю к работе в девять.» C4: 通り掛かる:21 and :45 dropped the chance element; both now say «случайно проходил мимо». C5: すれ違う:20 «В коридоре я прошёл мимо учителя.» showed one person passing; it now reads «В коридоре мы с учителем прошли мимо друг друга.», adapted: the proposed «разошёлся» was not used. C6: 効力:24–25 and :42 pointed to 効果's quiz glosses «действенность» and «эффективность»; they now say «имеется в виду сила действия средства, а не юридическая сила» and «а сила действия не означает успеха», while line 29 keeps «действенность», the published gloss of kanji/効. C7: 清い:16 and :20 used 透明's lead «прозрачный»; they now read «чистый, незамутнённый» and «С гор стекает чистая, незамутнённая вода.» C8: 逆さ's bare «наоборот» also means \"on the contrary\"; the title and H1 are now «вверх ногами; задом наперёд», adapted: the proposed «в обратную сторону» was not used. C10: the links in さわやか:31 and :35–36 now have spaces after them. C11: 通路's «проход для людей» read as pedestrian-only against line 16; the title and H1 are now «проход (между рядами, сиденьями); проход или проезд», adapted: the proposed «путь для прохода» was not used. C2 (通貨:42's quiz remark) and C9 (さわやか:21 «Он») were declined for EN parity. At recheck of fix 1 (1d78dd8) all three reviewers ran serially, read-only, with no generator run.\nCorrectness (gpt-6.1-sol) judged F1 (成立) and the optional さわやか link spacing resolved and found every rewrite at least as accurate in its context (逆さ «задом наперёд», 通路 «проход или проезд», 出勤 «приступаю к работе в девять», すれ違う, 通り掛かる «случайно», 効力 and 清い «сила действия»/«незамутнённый», 送料, and the removed readings in 澄む and 透き通る); it reported no regression: correctness CLEAN, scoped coverage CLEAN.\nConsistency (claude-sonnet-5.5) confirmed title = H1 for 成立, 逆さ and 通路, found no new unguarded title overlap (the new 成立 segment «состоятельность (довода)» shares only a stem with お金持ち, 金持ち and 破産; 通路 «проезд» meets 通行, which is EN-guarded), matched the manifest hashes of the 12 changed cards, resolved O2 and O3 (the same reading pattern in four published cards is out of scope), recorded O4 as needing no action and kept O1 and O5 optional: consistency, quiz safety and scoped integration CLEAN, no new finding.\nComprehensibility (grok-4.7) judged C1, C3-C8, C10 and C11 resolved (C5, C8 and C11 in the adapted wording; it accepted keeping 効力:29 «действенность» as the kanji/効 gloss), withdrew C2 (通貨, EN parity and the 大事:40 precedent) and C9 (さわやか «Он», EN \"He\"), found no regression in the 成立 title or the 透き通る and 澄む edits and kept the optionals optional: comprehensibility CLEAN, scoped coverage CLEAN.\nNo actionable finding remains; no second fix is needed. Fix 1 changed no Japanese example sentence, sourced reading, link target, quiz exclusion, navigation file or kanji card; besides the spacing in さわやか it removed only the redundant kana reading after the はっきり link in 透き通る and 澄む. All three reviewers read all 30 cards in full against EN; the consistency reviewer also checked front matter, links, exclusions, the intake's paths and hashes and the manifest hashes of the changed files. Evidence includes the JMdict-backed Jisho API entries for all 30 headwords and the Jisho 逆さま search page, whose Notes mark 逆様 as a rarely used kanji form; Digital Daijisen on Weblio (成立, 通用, 紙幣, 通貨, 通帳 and 透き通る); the Jisho kanji entries 幣, 妥, 帳 and 透; Gramota's Kuznetsov entries сберегательный, циркуляция, разминуться, купюра, валюта, оборот, высвободить, явка and пересылка; Russian Wiktionary несостоятельный; the Samoylov maritime-dictionary entry «Скорость хода корабля» on academic.ru; and the Почта России «Посылка Стандарт» page for «Стоимость пересылки». At recheck the correctness reviewer freshly checked the JMdict-backed entries for 逆さ, 通路, 出勤, 通り掛かる, 清い and 効力. The rechecks found no regression. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 165 EN exclusions across 29 lists are retained in EN order; 通帳 has none. Twenty-two lie inside the batch: 速力–時速, 通貨–紙幣, 成立–効力, 妥当–成立, 循環–回転, 通用–効力, 成立, 妥当, 循環 and 通貨, 通勤–出勤, 通り掛かる–すれ違う, 透き通る–さわやか and 清い, 澄む–透き通る, 清い and さわやか, 透明–透き通る, 澄む and 清い, 逆さ–逆さま, and 逃がす–解放; the other 143 target existing RU cards. Ten direct, one-sided exclusions on seven new cards (no new list) cover reviewed RU title overlaps. All ten were declared at the candidate, and fix 1 added and removed none. Seven came from the authoring lane: 速達–郵送 (郵送 «отправка по почте»), 時速–高速 and 速力–高速 (高速 «высокая скорость; скоростная автомагистраль»), 通路–通過 (shared «проход» with 通過 «проход через; прохождение этапа»), 出勤–就職 (就職 «трудоустройство; поступление на работу»), 通用–納得 (納得 «убеждённость; принятие (доводов)») and 成立–契約 (契約 «договор; контракт»; the body teaches 契約が成立する). The coordinator added three after its title screen found exact shared segments once parentheticals are stripped: 成立–教育 (the candidate 成立's «образование (организации)» with 教育 «образование; обучение»), 成立–納得 (its «принятие (закона)» with 納得's «принятие (доводов)») and 通用–過ぎる (通用's «проходить (о доводах, отговорках)» with 過ぎる «проходить; миновать»). The consistency reviewer classed 通路–通過, 成立–教育, 通用–過ぎる, 時速–高速 and 速力–高速 as required or justified by shared wording, 速達–郵送, 成立–契約, 成立–納得 and 通用–納得 as conservative and harmless, and 出勤–就職 as the weakest (no shared title wording; harmless but arguably unnecessary); all ten stay, 出勤–就職 for the author's reason that «выход на работу» can be read as starting a job. After fix 1, 成立's title is «образование (организации); заключение (договора, сделки); состоятельность (довода)»; its exact shared segments are guarded: «образование» with 教育 by the RU exclusion and «заключение» with 結論 «заключение; итоговый вывод» by EN. 成立–納得 no longer rests on an exact segment and stays as a conservative guard for «состоятельность (довода)» near «принятие (доводов)». The consistency reviewer confirmed at recheck that «состоятельность» shares only a stem with お金持ち and 金持ち «состоятельный человек» and 破産 «банкротство; несостоятельность», that 逆さ's «задом наперёд» meets no other title, and that 通路's «проезд» meets 通行 «движение; проезд», which 通路 excludes in EN. Every RU addition is appended at the end of its list; nothing is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/233-words-batch-72-intake.json",
+  "docs/translation-batches/233-words-batch-72-independent-review-001.md",
+  "docs/translation-batches/233-words-batch-72-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "幣",
+   "貨",
+   "訳",
+   "妥",
+   "循",
+   "環",
+   "帳",
+   "這",
+   "清",
+   "透",
+   "澄",
+   "逆"
+  ],
+  "navigationNote": "Restored 3 relative links in the 3 listed Markdown files at the corresponding EN-linked positions, using EN's href forms (../words/X.md in the kanji card and the article, X.md in the word card): 効力 in kanji 効 (line 41, matching EN line 41, in the word list), 解放 in word 開放 (line 29, matching EN line 31, in prose) and 時速 in the article numbers-and-counters (line 715, matching EN line 676; the second 時速 mention, at line 717, stays plain as at EN line 678). No surrounding prose was changed. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "articles/numbers-and-counters.md",
+   "kanji/効.md",
+   "words/開放.md"
+  ],
+  "newWords": [
+   "速達",
+   "時速",
+   "速力",
+   "通路",
+   "紙幣",
+   "通貨",
+   "通訳",
+   "通知",
+   "効力",
+   "成立",
+   "妥当",
+   "回転",
+   "循環",
+   "通用",
+   "通帳",
+   "出勤",
+   "通勤",
+   "すれ違う",
+   "通り掛かる",
+   "這う",
+   "さわやか",
+   "清い",
+   "透き通る",
+   "澄む",
+   "透明",
+   "逆さま",
+   "逆さ",
+   "解放",
+   "逃がす",
+   "送料"
+  ],
+  "selection": "Batch 72 selected 30 word cards from the frozen source: chunk 25 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,407 remained after Batch 232, and 1,377 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing outside them was added. Twenty-two source exclusion entries lie inside the batch; the other 143 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (6 EN link occurrences, 4 targets) in the new cards: 通貨→kanji 貨, 通訳→kanji 訳, 清い→kanji 清, 澄む→kanji 清, 逆さま→kanji 逆 and 逆さ→kanji 逆. 12 written kanji have no RU kanji card: 幣 貨 訳 妥 循 環 帳 這 清 透 澄 逆 (EN has cards only for 貨, 訳, 清 and 逆). Links otherwise follow EN; there are no RU-only links.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined or partially adopted items: the comprehensibility reviewer's C1 (送料:44–45) was adopted partially: the sentence was reworded, not deleted, because EN keeps an equivalent quiz sentence and published 大事:40 keeps a parallel translated quiz remark; the defect was the opaque «Защита теста», which no longer appears. Its C2 (通貨:42) was declined: EN line 45 itself says the labels are not \"mutually exclusive quiz answers\", the RU sentence translates it, matching the 大事:40 precedent, and the homophone contrast with 通過 is unaffected. Its wording «разошёлся» for C5 (すれ違う:20) was not used because it is ambiguous in Russian (also \"parted, separated\"). Its line-29 change for C6 (効力) was declined: «действенность» there is the published gloss of kanji/効 («эффективность; действенность»), which a kanji-combination section must reflect. Its wording «в обратную сторону» for C8 (逆さ) was not used because it implies motion and meets 逆 «обратный»; EN \"reversed\" and JMdict \"back to front\" are orientations, and the body already uses «задом наперёд». Its C9 (さわやか:21 «Он») was declined: EN adds \"He\", a subjectless past-tense Russian sentence reads as a fragment in an isolated example, and the added subject does not change the Japanese point (the voice quality). Its wording «путь для прохода» for C11 (通路) was not used because it keeps the people-only reading. At recheck the comprehensibility reviewer withdrew C2 and C9 and did not maintain deleting the 送料 sentence, changing 効力:29, «разошёлся», «в обратную сторону» or «путь для прохода». Its optional notes (通用's verbal title, 澄む's state reading, the 有効 and 知らせ overlaps, 紙幣 and 札, 成立 and 教育, 解放されて, 透き通る's lead and さわやか «в комнату») led to no action, because the reviewer classed them as acceptable. The consistency reviewer's O1 (透明 unlinked in 透き通る) led to no action, because EN also leaves it unlinked and the RU rules do not require new links beyond EN parity; it stayed optional at recheck. Its O3 (the redundant `（はっきり）` after the kana-only link) was accepted for 透き通る and 澄む only; the same pattern in the published cards トランプ, 宝石, 実は and 寧ろ is outside this batch and is recorded for the Issue #7 follow-up list, not edited here. Its O4 (the exclusion classes) and O5 (the declined pairs, judged acceptable) led to no action, and its O2 (さわやか spacing) was resolved with comprehensibility C10.",
+  "exclusionsAddedBeyondEn": {
+   "出勤": [
+    "就職"
+   ],
+   "成立": [
+    "契約",
+    "教育",
+    "納得"
+   ],
+   "時速": [
+    "高速"
+   ],
+   "通用": [
+    "納得",
+    "過ぎる"
+   ],
+   "通路": [
+    "通過"
+   ],
+   "速力": [
+    "高速"
+   ],
+   "速達": [
+    "郵送"
+   ]
+  },
+  "titles": {
+   "さわやか": "освежающий; ясный и приятный (о голосе, манере)",
+   "すれ違う": "разминуться; разойтись (идя навстречу)",
+   "出勤": "выход на работу; явка на работу",
+   "効力": "сила действия; юридическая сила (закона, договора)",
+   "回転": "вращение (вокруг оси); оборот (смена клиентов)",
+   "妥当": "оправданный; приемлемый (по существу)",
+   "循環": "циркуляция; круговорот",
+   "成立": "образование (организации); заключение (договора, сделки); состоятельность (довода)",
+   "時速": "скорость в час (км/ч и т. п.)",
+   "清い": "чистый, незамутнённый (о воде); незапятнанный (о душе)",
+   "澄む": "становиться прозрачным (о воде, воздухе); звучать чисто (о голосе)",
+   "紙幣": "купюры; бумажные деньги (в целом)",
+   "解放": "освобождение (от плена, бремени); высвобождение (памяти)",
+   "送料": "стоимость пересылки; плата за доставку",
+   "逃がす": "дать уйти; упустить",
+   "逆さ": "вверх ногами; задом наперёд",
+   "逆さま": "перевёрнутый; в обратном порядке",
+   "透き通る": "просвечивать; быть прозрачным насквозь; звучать звонко (о голосе)",
+   "透明": "прозрачный; видимый насквозь",
+   "這う": "ползти; ползать; стелиться (о растениях)",
+   "通り掛かる": "случайно проходить (проезжать) мимо",
+   "通勤": "поездки на работу; дорога на работу",
+   "通帳": "сберегательная книжка; банковская книжка",
+   "通用": "быть принятым (в какой-либо среде); проходить (о доводах, отговорках)",
+   "通知": "извещение; оповещение (в том числе на телефоне)",
+   "通訳": "устный перевод; устный переводчик",
+   "通貨": "валюта; денежная единица (страны)",
+   "通路": "проход (между рядами, сиденьями); проход или проезд",
+   "速力": "скорость хода (судна, машины и т. п.)",
+   "速達": "срочная доставка (почты); срочное почтовое отправление"
+  }
+ }
+}

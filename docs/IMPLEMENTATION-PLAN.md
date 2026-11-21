@@ -8,7 +8,25 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch232 thirty words
+## Current published source milestone: batch233 thirty words
+
+Batch233 added 30 Russian word articles. They are chunk 25 of the recomputed general remaining-word queue,
+dependency-closed under quiz_exclusions with nothing added. The batch also added 3 navigation-only link wraps in 3
+existing pages: the kanji card 効, the word card 開放 and the numbers-and-counters article.
+
+The candidate was signed and pushed before review. The blind facet-split review found:
+- one minor correctness (scoped-coverage) finding (成立);
+- no consistency or quiz-safety finding, with five optional notes;
+- eleven minor comprehensibility findings (送料, 通貨, 出勤, 通り掛かる, すれ違う, 効力, 清い, 逆さ, さわやか and 通路).
+
+One signed fix commit addressed them, retitling 成立, 逆さ and 通路 and changing no exclusion; 通貨's quiz remark and さわやか's
+subject were kept for EN parity. The serial rechecks reported all facets clean.
+
+Progress: **5,109 reviewed-current / 8 runtime-blocked / 3,161 pending of 8,278**; 3,643 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch233-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch232 thirty words
 
 Batch232 added 30 Russian word articles. They are chunk 24 of the recomputed general remaining-word queue,
 dependency-closed under quiz_exclusions with nothing added. The batch also added 6 navigation-only link wraps in 3
@@ -24,7 +42,7 @@ One signed fix commit addressed them, retitling 角度, 方面, 道順, 遡る, 
 
 Progress: **5,079 reviewed-current / 8 runtime-blocked / 3,191 pending of 8,278**; 3,613 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch232-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch232-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch231 thirty words
 
