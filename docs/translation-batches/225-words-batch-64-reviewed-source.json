@@ -1,0 +1,171 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "225-words-batch-64",
+ "publishedBaseline": "b45dcc6152cfb9acb06b8ac84c8fae5209f6fc34",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 56996a0 and serialized rechecks of the signed fix commit 830487d found no remaining defect. Correctness raised one finding. C1: ぐっすり's «Прошлой ночью я смог крепко выспаться» added the \"slept enough\" result of «выспаться», which 眠れました does not state (EN \"I was able to sleep soundly last night\"; JMdict 1004060 sense 1; Kuznetsov выспаться); the example now reads «Прошлой ночью мне удалось крепко поспать». Its optional item O1 was adopted: いつまでも's ungrammatical «после стольких-то времени» became «всё ещё, спустя столько времени» (EN \"still, after all this time\"). Consistency raised no finding and recommended one guard: ごめんなさい contrasts the verb 謝る, and すみません already excludes it, so ごめんなさい now also excludes 謝る. Comprehensibility raised four findings. C1: お目に掛かる's «Увидимся завтра» was a casual, reciprocal goodbye, against the card's rule that the phrase is a humble, speaker-side meeting (JMdict sense 1). The example now reads «Завтра я с вами встречусь» rather than the suggested «Завтра буду иметь честь вас видеть»: the title already carries «иметь честь встретиться», and the humility is in the Japanese verb. C2 asked to drop «наилучшие пожелания» from おめでとう's title as a letter-closing formula. The title is kept, mirroring EN \"congratulations; best wishes\" and JMdict 1270700 sense 1; a note now says that the gloss is a wish on a happy occasion and that おめでとう is not a letter-closing formula like «С наилучшими пожеланиями». C3: いわゆる's first example used «так называемый», which the card warns is often dismissive; it now reads «Это то, что называют энергоэффективным домом», matching EN \"what is called\". C4: ごめんなさい's unglossed «Канго-элемент» and the English-audience remark «не заимствование из английского» became «Элемент ごめん китайского происхождения (канго) соединён с исконным японским окончанием なさい…», consistent with お in this batch. At recheck the comprehensibility reviewer judged C1, C3 and C4 resolved and C2 partially resolved: it no longer asks for a title change, and its residual concern, that a bare «наилучшие пожелания» is odd to say aloud, is now qualified by the note and remains optional; it also withdrew its optional suggestion of a reverse すみません–ごめんなさい exclusion. One further comprehensibility optional item was adopted: 鳴らす's «питчер» is now glossed «(подающий в бейсболе)». The correctness and comprehensibility reviewers read all 30 cards in full against EN; the consistency reviewer compared EN prose line by line for eight cards and checked the other 22 by front matter, exclusions and links. Russian evidence includes Gramota and Kuznetsov entries (беспробудный, урчать, гудеть, реветь, выспаться, очень, вероятность, можно, крепкий, полоскание, подножие, тесный, аппетит) and Russian Wiktionary (миленький, умилительный, изматывать, как назло, так называемый). The rechecks found no regression. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 35 EN exclusions across 19 lists are retained; none lies inside the batch. Twenty-five direct, one-sided exclusions on 15 new cards (seven of them new lists: こんにちは, こんなに, おめでとう, うなる, いらっしゃい, いただきます and あいにく) cover reviewed RU title overlaps and sense neighbours. Required (17), the entries the consistency reviewer judged justified without marking them conservative: こんなに–そんなに, それほど and あんなに, きつい–狭い and 急激, おめでとう–お祝い and 祝う, うなる–吠える, いけない–不可 and 禁止, ありがとう–感謝, 鳴らす–掛ける, ごめんなさい–申し訳, いただきます–ありがとう, あんまり–別に, あっ–しまった and あいにく–残念. Conservative (8): こんにちは–あいさつ, いらっしゃい–あいさつ and 寄る, いただきます–いただく, おめでとう–希望 and 祝い, あらゆる–様々 and, added in the fix on the reviewer's low-severity suggestion, ごめんなさい–謝る. The author had classed six of the required entries as conservative and おめでとう–祝い as required; the records preserve both classifications. The candidate declared the first 24. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/225-words-batch-64-intake.json",
+  "docs/translation-batches/225-words-batch-64-independent-review-001.md",
+  "docs/translation-batches/225-words-batch-64-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "麓"
+  ],
+  "navigationNote": "Restored 11 relative links across the 10 listed Markdown word files at the corresponding EN-linked positions, using EN's href forms: あまり to あんまり, うとうと and すやすや (first occurrence only) to ぐっすり, だめ to いけない, 感謝 to ありがとう, 方々 to あちこち, 祝う to おめでとう, and, applied by the coordinator in the primary checkout rather than copied from the authoring worktree, すみません to ごめんなさい and ありがとう (both held from Batch 63), 申し訳 to ごめんなさい and ぶかぶか to きつい. No surrounding prose was changed. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "words/あまり.md",
+   "words/うとうと.md",
+   "words/すみません.md",
+   "words/すやすや.md",
+   "words/だめ.md",
+   "words/ぶかぶか.md",
+   "words/感謝.md",
+   "words/方々.md",
+   "words/申し訳.md",
+   "words/祝う.md"
+  ],
+  "newWords": [
+   "ごめんなさい",
+   "こんにちは",
+   "こんなに",
+   "これら",
+   "ぐっすり",
+   "きつい",
+   "かわいらしい",
+   "かもしれない",
+   "お目に掛かる",
+   "お互い",
+   "おめでとう",
+   "おまえ",
+   "おそらく",
+   "お",
+   "うなる",
+   "うがい",
+   "いわゆる",
+   "いらっしゃい",
+   "いつまでも",
+   "いただきます",
+   "いけない",
+   "あんまり",
+   "あんなに",
+   "ありがとう",
+   "あらゆる",
+   "あっ",
+   "あちこち",
+   "あいにく",
+   "麓",
+   "鳴らす"
+  ],
+  "selection": "Batch 64 selected 30 word cards from the frozen source: chunk 17 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,647 remained after Batch 224). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing was added. No source exclusion entry lies inside the batch; all 35 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (3 EN link occurrences, 3 targets) in the new cards: ぐっすり→articles japanese-onomatopoeia and onomatopoeia-sound-patterns (not yet adapted), and うがい→kanji 漱. 1 written kanji has no RU kanji card: 麓 (EN has no card for it either). Links otherwise follow EN, with one RU-only link to an existing card at a substantive comparison: ごめんなさい→申し訳.",
+  "wordOnlyImageOmissions": [
+   "ぐっすり"
+  ]
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items: glossing «годан» (お目に掛かる, うなる, 鳴らす) and «онные чтения» (こんにちは) at first use (correctness O2; ごめんなさい's «канго» was glossed under comprehensibility C4). Corpus practice is mixed: at the fix commit «годан» appears in 326 word, kanji and article files, mostly bare but glossed in passing on some word cards (伸ばす, 似合う, 受け取る), and 547 of the 718 kanji cards label reading-table rows «онное»; a corpus-wide convention is an owner-level question. A ごめんなさい–許す guard was not added (consistency, low confidence): the titles share no segment and the card does not contrast 許す; the reviewer also judged あっ–まあ to need no action. The comprehensibility reviewer withdrew at recheck its suggestion of a reverse すみません–ごめんなさい exclusion, which the symmetric declaration already covers. Four further comprehensibility observations needed no change: いただきます's H1 differs from its title as in EN; あいにく's «как назло» is an attested adverse-coincidence idiom (verified by the correctness reviewer); あんまり's «не очень-то» shades the body's «не очень»; and きつい's title does not name 狭い or 急激, which its exclusions guard. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "あいにく": [
+    "残念"
+   ],
+   "あっ": [
+    "しまった"
+   ],
+   "あらゆる": [
+    "様々"
+   ],
+   "ありがとう": [
+    "感謝"
+   ],
+   "あんまり": [
+    "別に"
+   ],
+   "いけない": [
+    "不可",
+    "禁止"
+   ],
+   "いただきます": [
+    "いただく",
+    "ありがとう"
+   ],
+   "いらっしゃい": [
+    "あいさつ",
+    "寄る"
+   ],
+   "うなる": [
+    "吠える"
+   ],
+   "おめでとう": [
+    "お祝い",
+    "祝い",
+    "祝う",
+    "希望"
+   ],
+   "きつい": [
+    "狭い",
+    "急激"
+   ],
+   "こんなに": [
+    "そんなに",
+    "それほど",
+    "あんなに"
+   ],
+   "こんにちは": [
+    "あいさつ"
+   ],
+   "ごめんなさい": [
+    "申し訳",
+    "謝る"
+   ],
+   "鳴らす": [
+    "掛ける"
+   ]
+  },
+  "titles": {
+   "あいにく": "к сожалению; некстати",
+   "あちこち": "тут и там; в разных местах",
+   "あっ": "ой!; ох!",
+   "あらゆる": "любой; всякого рода",
+   "ありがとう": "спасибо; благодарю",
+   "あんなに": "вон настолько; вон сколько",
+   "あんまり": "не очень-то (с отрицанием); чересчур",
+   "いけない": "нехорошо, неприемлемо; запрещено",
+   "いただきます": "с благодарностью приступаю к еде (перед едой)",
+   "いつまでも": "бесконечно долго; навсегда",
+   "いらっしゃい": "добро пожаловать; заходите",
+   "いわゆる": "так называемый; что называется",
+   "うがい": "полоскание горла или рта",
+   "うなる": "стонать; глухо рычать; урчать (о моторе)",
+   "お": "почтительная или вежливая приставка",
+   "おそらく": "скорее всего; по всей вероятности",
+   "おまえ": "ты (очень фамильярно, порой грубо)",
+   "おめでとう": "поздравляю!; наилучшие пожелания",
+   "お互い": "взаимно; друг с другом",
+   "お目に掛かる": "иметь честь встретиться; встречаться (скромно)",
+   "かもしれない": "может быть; не исключено",
+   "かわいらしい": "миленький; умилительный",
+   "きつい": "тесный, тугой; изматывающий; резкий",
+   "ぐっすり": "глубоко, беспробудно спать",
+   "これら": "эти",
+   "こんなに": "вот настолько; вот столько",
+   "こんにちは": "здравствуйте; добрый день",
+   "ごめんなさい": "простите меня; прошу прощения",
+   "鳴らす": "звонить (в звонок); заставлять звучать",
+   "麓": "подножие (горы)"
+  }
+ }
+}
