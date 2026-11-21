@@ -1,6 +1,68 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch224 thirty words (general word queue)
+## Current published source milestone: batch225 thirty words (general word queue)
+
+Batch225 adds 30 Russian word articles: あいにく あちこち あっ あらゆる ありがとう あんなに あんまり いけない いただきます
+いつまでも いらっしゃい いわゆる うがい うなる お おそらく おまえ おめでとう お互い お目に掛かる かもしれない かわいらしい
+きつい ぐっすり これら こんなに こんにちは ごめんなさい 鳴らす 麓. They are chunk 17 of 72 of the general remaining-word queue,
+recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is exactly the 30 requested words, so
+every EN quiz_exclusions target resolves to an existing RU word; no entry lies inside the batch.
+
+Navigation-only link wraps restore 11 links at EN link positions in 10 existing word pages. They include すみません's links
+to ごめんなさい and ありがとう, held since Batch224. お, お互い, お目に掛かる and 鳴らす keep EN's links to the existing kanji
+cards 御, 互, 目, 掛 and 鳴. 麓 has no kanji card in RU or EN; うがい's link to the kanji card 漱 and ぐっすり's links to two
+onomatopoeia articles stay plain until those targets are adapted.
+
+The batch covers:
+- greetings and set phrases: hello (こんにちは), thank you (ありがとう), sorry (ごめんなさい), congratulations (おめでとう),
+  welcome (いらっしゃい), the phrase before eating (いただきます) and oh! (あっ);
+- degree, extent and reference: this much (こんなに), that much (あんなに), not very or too much (あんまり), every kind of
+  (あらゆる), these (これら), forever (いつまでも), here and there (あちこち) and so-called (いわゆる);
+- likelihood and judgement: probably (おそらく), maybe (かもしれない), unfortunately (あいにく) and must not or no good
+  (いけない);
+- descriptions and manner: tight or exhausting (きつい), sweet or lovely (かわいらしい), soundly asleep (ぐっすり) and mutually
+  (お互い);
+- address and politeness: you, very familiar (おまえ), the polite prefix (お) and to meet, humbly (お目に掛かる);
+- verbs and nouns: to groan or growl (うなる), to ring (鳴らす), gargling (うがい) and the foot of a mountain (麓).
+
+All 35 EN exclusions are retained. Twenty-five direct guards on 15 new cards cover the reviewed RU title overlaps and
+sense neighbours:
+- required: こんなに–そんなに, こんなに–それほど, こんなに–あんなに, きつい–狭い, きつい–急激, おめでとう–お祝い,
+  おめでとう–祝う, うなる–吠える, いけない–不可, いけない–禁止, ありがとう–感謝, 鳴らす–掛ける, ごめんなさい–申し訳,
+  いただきます–ありがとう, あんまり–別に, あっ–しまった and あいにく–残念;
+- conservative, as the consistency reviewer marked them: こんにちは–あいさつ, いらっしゃい–あいさつ, いらっしゃい–寄る,
+  いただきます–いただく, おめでとう–希望, おめでとう–祝い, あらゆる–様々 and, added in the fix, ごめんなさい–謝る.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: one minor finding, ぐっすり's «выспаться», which adds a sufficiency the Japanese does not state; two optional
+  items: いつまでも's ungrammatical «после стольких-то времени», and glossing «канго», «онные чтения» and «годан»;
+- consistency: no finding; one optional guard between ごめんなさい and 謝る, which the card contrasts;
+- comprehensibility: one moderate and three minor findings: お目に掛かる's casual «Увидимся завтра», おめでとう's title gloss
+  «наилучшие пожелания» as a possible letter closing, いわゆる's example with the often dismissive «так называемый», and
+  ごめんなさい's unglossed «Канго-элемент».
+
+One signed fix commit addressed them:
+- ぐっすり now says «мне удалось крепко поспать», いつまでも «всё ещё, спустя столько времени», お目に掛かる «Завтра я с вами
+  встречусь», いわゆる «Это то, что называют…», and ごめんなさい glosses канго as «китайского происхождения»; 鳴らす glosses
+  «питчер»;
+- おめでとう keeps its title, which follows EN and JMdict, and gains a note that it is not a letter-closing formula;
+- ごめんなさい gains a conservative guard against 謝る;
+- glossing «годан» and «онные чтения» was left as an owner-level corpus convention.
+
+The serial rechecks reported all facets clean; the おめでとう finding is partially resolved with only an optional residual.
+Links follow EN, with one RU-only link to an existing card at a substantive comparison: ごめんなさい–申し訳.
+
+Qualified progress is **4,869 reviewed-current / 8 reviewed runtime-blocked / 3,401 pending of 8,278**,
+with 3,403 words, 718 kanji and 718 strokes. See the [intake](translation-batches/225-words-batch-64-intake.json),
+[independent review](translation-batches/225-words-batch-64-independent-review-001.md),
+[recheck](translation-batches/225-words-batch-64-recheck-001.md),
+[qualified source record](translation-batches/225-words-batch-64-reviewed-source.json) and
+[final validation](translation-batches/225-words-batch-64-final-validation-001.json).
+
+## Previous published source milestone: batch224 thirty words (general word queue)
 
 Batch224 adds 30 Russian word articles: さて しかも しきりに しまった しゃべる すてき すみません ずっと せい そこで そのうち そのまま
 それぞれ それでも それと ただ たった たっぷり たまたま たまらない ちゃんと できれば ところで とにかく とんでもない どうしても どこか
