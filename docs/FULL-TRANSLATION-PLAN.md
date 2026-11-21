@@ -1,6 +1,69 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch231 thirty words (general word queue)
+## Current published source milestone: batch232 thirty words (general word queue)
+
+Batch232 adds 30 Russian word articles: 部首 原料 成分 部品 郡 裏返す お帰り 返る 遡る 遠足 対策 方角 方針 地帯 角度 方面
+道順 過失 過半数 余る 超過 過剰 遊園地 逸れる 統一 連合 作製 作成 製作 造船. They are chunk 24 of 72 of the general
+remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is exactly the 30
+requested words, so every EN quiz_exclusions target resolves to an existing RU word or a word in the batch; 23 of the 177
+EN entries lie inside the batch.
+
+Navigation-only link wraps restore 6 links at EN link positions in 3 existing pages: the kanji card 余 (three times to 余る),
+the kanji card 帯 (twice to 地帯) and the word card 余分 (to 余る). The new cards keep EN's links to existing cards; their
+links to the kanji cards 裏, 角, 針, 順, 超 and 造, to the word cards 資料, いってらっしゃい, 娯楽 and 制作 and to the
+かえる article stay plain until those targets are adapted.
+
+The batch covers:
+- parts and materials: a kanji radical (部首), raw materials (原料), a component or ingredient (成分) and parts or
+  components (部品);
+- areas and groups: a county or district (郡), a zone or belt (地帯), unification (統一) and a union or coalition (連合);
+- turning and returning: to turn over or inside out (裏返す), welcome home (お帰り), to return or turn over (返る) and to go
+  upstream or trace back (遡る);
+- directions and routes: a direction or compass point (方角), a direction, area or field (方面), an angle or viewpoint
+  (角度), a route or directions (道順) and to veer off or digress (逸れる);
+- plans: countermeasures (対策) and a policy or course of action (方針);
+- excess and error: an error or negligence (過失), a majority (過半数), to be left over (余る), exceeding a limit (超過) and
+  too much (過剰);
+- making: manufacture or production (作製 and 製作), drawing up a document (作成) and shipbuilding (造船);
+- outings: a school outing (遠足) and an amusement park (遊園地).
+
+All 177 EN exclusions are retained in EN order. Eight direct guards on 6 new cards cover reviewed RU sense neighbours:
+製作–作製 and 余る–残る are required; 余る–余分, 角度–角, 方針–線, 方面–球 and 作成–建設 are conservative and harmless;
+方面–針路 was added with the fix. The consistency reviewer agreed with the candidate classifications.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: two minor findings: 角度's title restricted angular magnitude to degrees, and 遊園地 said a public park is
+  never an amusement park;
+- consistency: no finding; optional notes on 部首 and 鍵 «ключ», 方面 «в сторону», お帰り's plain 帰る and the pre-existing
+  gloss in the kanji card 余;
+- comprehensibility: twelve minor findings: phrase-like or narrowing titles in 角度, 方面, 道順, 遡る, 部品 and 超過,
+  example translations in 作製, 原料, 成分, 過剰 and 逸れる, and 超過's provenance sentence; optional notes on 角度, 過失,
+  方角, 遠足, 道順, 原料, 方針, 過半数 and 作製.
+
+One signed fix commit addressed them:
+- six titles changed: 角度 «величина угла; ракурс (точка обзора)», 方面 «направление (к месту); сфера, область
+  (деятельности)», 道順 «маршрут (по улицам); как пройти (куда-либо)», 遡る «подниматься вверх по течению; обращаться к
+  прошлому», 部品 «деталь (механизма, устройства); комплектующие» and 超過 «превышение (лимита, нормы)»;
+- example translations were rewritten in 作製, 原料, 過剰 and 逸れる, and notes in 逸れる and 遊園地 were reworded;
+- 方面 excludes 針路;
+- 成分's «состав» and 超過's provenance sentence were kept for EN parity, 角度's «точка зрения» was declined, and several
+  suggested wordings were adapted rather than adopted.
+
+The serial rechecks reported all facets clean, with no regression.
+Links follow EN, with six RU-only links at a substantive comparison: 郡–町, 郡–村, 郡–市, 地帯–帯, 余る–残る and
+余る–足りる.
+
+Qualified progress is **5,079 reviewed-current / 8 reviewed runtime-blocked / 3,191 pending of 8,278**,
+with 3,613 words, 718 kanji and 718 strokes. See the [intake](translation-batches/232-words-batch-71-intake.json),
+[independent review](translation-batches/232-words-batch-71-independent-review-001.md),
+[recheck](translation-batches/232-words-batch-71-recheck-001.md),
+[qualified source record](translation-batches/232-words-batch-71-reviewed-source.json) and
+[final validation](translation-batches/232-words-batch-71-final-validation-001.json).
+
+## Previous published source milestone: batch231 thirty words (general word queue)
 
 Batch231 adds 30 Russian word articles: コース 針路 釜 釘 金魚 重量 アクセント 重点 重役 引力 重力 重体 重なる 重ねる 重たい
 下品 だらしない みじめ みっともない 醜い 酸性 酸っぱい 酢 酒場 給与 配る 汲む 酌む 都心 郵送. They are chunk 23 of 72 of the

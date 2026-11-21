@@ -1,0 +1,139 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "232-words-batch-71",
+ "publishedBaseline": "5dfe16c671ca962fb6f24882309b0f4e66c20756",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 56da736 and serialized rechecks of the signed fix commit 97a39cf found no remaining defect. Before the candidate the coordinator's only content edits were three `quiz_exclusions` appends (方針→線, 方面→球 and 作成→建設) after the title screen; there were no held links. Its adjudication records: \"`type`, `tags`, `level`, `kanji`, `id` and `reading` of all 30 cards equal EN; every EN exclusion is retained in EN order.\" \"RU-added exclusions (7), each one-directional; the targets do not declare them back. From the lane (4): 製作→作製 (titles share «изготовление»), 余る→残る (残る «оставаться» is a prefix of «оставаться лишним»), 角度→角 (角 «угол»), 余る→余分 (余分 «излишек; лишний»). Added by the coordinator after the title screen (3), each an exact Russian title segment shared with an existing card: 方針→線 (方針 «курс действий; линия (организации, руководства)» ~ 線 «линия; провод»; EN \"policy; course of action\"), 方面→球 (方面 «…; сфера, область (деятельности)» ~ 球 «сфера; мяч», a Russian homonym — field vs. geometric sphere; EN \"direction; area; field\"), 作成→建設 (作成 «составление (документа, плана); создание (файла, учётной записи)» ~ 建設 «строительство; создание»; EN \"drawing up; document creation\"). Each is conservative: the RU titles are faithful, and the shared bare segment could make the other card's title look answerable; appended at the end of the existing list, EN entries and order unchanged. Final screen: 0 unguarded exact.\" \"RU-only links (6), each at a substantive comparison that EN makes in plain text (B214/B230 lesson): 郡:18→町, 村, 市 (EN \"towns and villages … a city is not a subdivision of a 郡\"); 地帯:40→帯 (replaces EN's English \"belt\" remark with a contrast to standalone 帯); 余る:33→残る and 余る:34→足りる (EN synonym/antonym section). Accepted.\" \"Lane check after the B231 fix (a1887ba): done. A scan of the 33 lane files for the twelve fix-1 words and their old wordings finds only 超過:21 (the Japanese example 重量超過で追加料金がかかりました。, no link and no quoted B231 title); no B232 draft quotes a B231 title or passage changed by fix 1, so no B232 edit is needed.\" Correctness raised two findings. C1: 角度's title and H1 «величина угла (в градусах); ракурс (точка обзора)» restricted the angle to degrees, whereas Digital Daijisen 角度 sense 1 lists ラジアン・度・分・秒 and the Seisenban definition on Kotobank contrasts radians with practical degrees, minutes and seconds; the title and H1 are now «величина угла; ракурс (точка обзора)». C2: 遊園地:31–32 said that a public park «это не парк аттракционов», whereas Digital Daijisen 公園 sense 1 includes publicly provided 遊園地 and EN says a park \"can be a place to relax or play without being an amusement park\"; the lines now read «[公園](公園.md)（こうえん）— общественный парк: там можно отдыхать или играть, но он не обязательно является парком аттракционов.» Consistency raised no finding and classified the seven RU-added exclusions of the candidate: 製作→作製 and 余る→残る REQUIRED; 余る→余分, 角度→角, 方針→線, 方面→球 and 作成→建設 CONSERVATIVE. All seven stay. Comprehensibility raised twelve findings. C1 duplicated correctness C1. C2: 方面's lead gloss «в сторону (какого-либо места)» was a prepositional phrase rather than a noun answer; the title and H1 are now «направление (к месту); сфера, область (деятельности)», adapted: «сфера» is kept, because 球 is already excluded and the card's example reads «Он активно работает в сфере музыки.» The new lead meets 針路 «курс (судна, самолёта); направление движения», so 方面 now also excludes 針路 (`quiz_exclusions: [方向, 方角, 方, 地方, 地域, 地区, 地帯, 区域, 辺, 分野, 場, 面, 角度, 郡, 道, 畑, 球, 針路]`). C3: 道順's lead gloss «как пройти (куда-либо)» was a clause; the title and H1 now follow EN order, «маршрут (по улицам); как пройти (куда-либо)», and the proposed «объяснение пути» was declined. C4: 遡る's parenthetical «(вести отсчёт назад)» read as counting backwards; it is dropped, giving «подниматься вверх по течению; обращаться к прошлому», and the proposed «восходить к прошлому» was declined. C5: 作製:20 «Мы готовим чертёж новой детали.» used 作る's gloss «готовить»; it now reads «Мы изготавливаем чертёж новой детали.» C6: 原料:20 «Эту бумагу делают из древесины.» dropped the raw-material role; it now reads «Сырьём для этой бумаги служит древесина.» C8: 部品's «запчасть» means a spare part; the title and H1 are now «деталь (механизма, устройства); комплектующие». C9: 超過's «перерасход» covers only spending; the title and H1 are now «превышение (лимита, нормы)». C11: 過剰:19 «Чрезмерное беспокойство вредно для здоровья.» was stronger than 体によくありません; it now reads «Чрезмерное беспокойство не идёт на пользу здоровью.» C12: 逸れる added flight; line 16 now reads «逸れる значит отклоняться от курса, проходить мимо цели или уходить от темы разговора.» and line 19 «Мяч прошёл мимо мишени.» C7 (成分's «состав продукта» and a proposed 構成 contrast) and C10 (超過's provenance line) were declined for EN parity. At recheck of fix 1 (97a39cf) all three reviewers ran serially, read-only, with no generator run.\nCorrectness (gpt-6.1-sol) judged C1 (角度) and C2 (遊園地) resolved and found every comprehensibility-driven rewrite at least as accurate as the wording it had accepted (方面, 道順, 遡る, 部品 «комплектующие», 超過 without «перерасход», 作製, 原料, 過剰, 逸れる); it reported no regression or unresolved disagreement: correctness CLEAN, scoped coverage CLEAN.\nConsistency (claude-sonnet-5.5) confirmed title = H1 for the six retitled cards, found only guarded title overlaps (方面–方向/方角, 道順–コース, 超過–オーバー), judged the RU-added 方面→針路 guard justified, resolved O2 (superseded by the 方面 title) and kept O1, O3 and O4 optional with no action: consistency, quiz safety and scoped integration CLEAN, no new finding. Its count of 5,074 manifest `files` entries matches the regenerated manifest; the 5,079 figure in the fix record counts all manifest entries (5,074 files, 3 images, 2 scenes).\nComprehensibility (grok-4.7) judged C1, C2, C5, C6, C8, C9, C11 and C12 resolved (C2, C6, C8 and C11 in the adapted wording), accepted the partial adoptions for C3 (道順; it withdrew «объяснение пути») and C4 (遡る; it accepted not using «восходить к прошлому»), withdrew C7 (成分, EN parity) and C10 (超過 provenance line, a corpus-wide matter), kept the declined 角度 «точка зрения» optional declined and found no regression: comprehensibility CLEAN, scoped coverage CLEAN.\nNo actionable finding remains; no second fix is needed. Fix 1 changed no Japanese example sentence, link, sourced reading, navigation file or kanji card. All three reviewers read all 30 cards in full against EN; the consistency reviewer also compared front matter, links and exclusions with EN by script. Evidence includes the Jisho/JMdict entries for the 30 words, whose cited primary entry IDs the correctness reviewer matched to the Jisho pages' JMdict edit links; Jisho 超過 (JMdict 1429410), 連合 (rare 聯合) and 越える; Digital Daijisen on Weblio (角度, 公園, 部分品, 成分 and 湯桶読み) and Daijisen entries for 郡, 方角, 返る and 造船; the Seisenban 角度 definition and the Nipponica 遠足 section on Kotobank; Gramota's Kuznetsov entries сырьё, комплектующие, перерасход, ракурс and запчасти; Russian Wiktionary радикал, оплошность, судостроение, верфь and пособие; Ozhegov's перерасход on gufo.me; and the academic.ru article «Уезды Японии». The rechecks found no regression. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 177 EN exclusions across 27 lists are retained in EN order; 部首, 余る and 遊園地 have none. Twenty-three lie inside the batch: 成分–原料, 部品–成分, 返る–裏返す and お帰り, 遡る–返る, 方角–方針, 方針–方角 and 対策, 地帯–郡, 方面–方角, 地帯, 角度 and 郡, 道順–方角 and 方面, 超過–余る, 過剰–超過 and 余る, 連合–統一, 作成–作製, 製作–作成, and 造船–製作 and 作製; the other 154 target existing RU cards. Eight direct, one-sided exclusions on six new cards (one new list, 余る) cover reviewed RU title overlaps. Seven were added at the candidate, and the consistency reviewer kept all seven: 製作–作製 and 余る–残る, classed REQUIRED (製作 «производство (мебели, фильмов); изготовление (вещей)» and 作製 «изготовление (модели, образца, чертежа)» share «изготовление»; 残る «оставаться» is the whole prefix of 余る «оставаться лишним; быть сверх нужного»), and 余る–余分 (余分 «излишек; лишний»), 角度–角 (角 «угол»), 方針–線 (shared «линия» with 線 «линия; провод»), 方面–球 (shared «сфера» with 球 «сфера; мяч») and 作成–建設 (shared «создание» with 建設 «строительство; создание»), classed CONSERVATIVE; the last three were added by the coordinator after its title screen found those exact shared segments. Fix 1 added one: 方面–針路, once 方面's lead became «направление (к месту)» (針路 «курс (судна, самолёта); направление движения» is a noun direction sense). After the fix the only exact title segments that a fixed title shares with another card are guarded: 方面's «направление» with 方向 «направление; курс» and 方角 «сторона света; направление (по сторонам света)», its «область» with 分野 «область (знаний, деятельности)» and its «сфера» with 球, 道順's «маршрут» with コース «маршрут; курс (обучения)», and 超過's «превышение» with オーバー «превышение (предела); преувеличенный; пальто»; all but 球 are guarded by EN exclusions of 方面, 道順 and 超過, and 球 by the RU exclusion. 角度, 遡る and 部品 have no exact hit; the consistency reviewer confirmed the new-segment hits at recheck. Every RU addition is appended at the end of its list; nothing is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/232-words-batch-71-intake.json",
+  "docs/translation-batches/232-words-batch-71-independent-review-001.md",
+  "docs/translation-batches/232-words-batch-71-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "郡",
+   "裏",
+   "遡",
+   "策",
+   "角",
+   "針",
+   "順",
+   "超",
+   "剰",
+   "逸",
+   "統",
+   "製",
+   "造"
+  ],
+  "navigationNote": "Restored 6 relative links in the 3 listed Markdown files at the corresponding EN-linked positions, using EN's href forms (../words/X.md in kanji cards, X.md in the word card): 余る three times in kanji 余 (lines 21, 37 and 50, matching EN lines 21, 31 and 36; the second is in the あま.る kun-reading table row), 地帯 twice in kanji 帯 (lines 28 and 39, matching EN lines 28 and 39; the first is in the タイ on-reading table row, where 包帯 stays plain because it has no RU card, although EN links it), and 余る in word 余分 (line 28, matching EN line 33; the later 余計 mention on that line stays plain). No surrounding prose was changed. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/余.md",
+   "kanji/帯.md",
+   "words/余分.md"
+  ],
+  "newWords": [
+   "部首",
+   "原料",
+   "成分",
+   "部品",
+   "郡",
+   "裏返す",
+   "お帰り",
+   "返る",
+   "遡る",
+   "遠足",
+   "対策",
+   "方角",
+   "方針",
+   "地帯",
+   "角度",
+   "方面",
+   "道順",
+   "過失",
+   "過半数",
+   "余る",
+   "超過",
+   "過剰",
+   "遊園地",
+   "逸れる",
+   "統一",
+   "連合",
+   "作製",
+   "作成",
+   "製作",
+   "造船"
+  ],
+  "selection": "Batch 71 selected 30 word cards from the frozen source: chunk 24 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,437 remained after Batch 231, and 1,407 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; the one closure dependency recorded, 方針's on 方角, was already among them; nothing outside them was added. Twenty-three source exclusion entries lie inside the batch; the other 154 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (12 EN link occurrences, 11 targets) in the new cards: 原料→資料, 裏返す→kanji 裏, お帰り→いってらっしゃい, 返る→the article kaeru-change-replace-and-return, 方角→kanji 角, 方針→kanji 針, 角度→kanji 角, 道順→kanji 順, 超過→kanji 超, 遊園地→娯楽, 製作→制作 and 造船→kanji 造. 13 written kanji have no RU kanji card: 郡 裏 遡 策 角 針 順 超 剰 逸 統 製 造 (EN has cards only for 裏, 角, 針, 順, 超 and 造). Links otherwise follow EN, with six RU-only links at substantive comparisons: 郡→町, 郡→村, 郡→市, 地帯→帯, 余る→残る and 余る→足りる.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined items: the comprehensibility reviewer's C3 wording «объяснение пути» for 道順 was declined because 道順 is the route itself (Daijirin 目的地へ行く道の順序), explaining is done by 教える and 説明する in both examples, and «как пройти» is the idiomatic Russian for EN \"directions\"; the title was reordered instead. Its C4 wording «восходить к прошлому» for 遡る was declined because «восходить к» needs a concrete origin («восходит к эпохе Эдо» is kept in the example) and the stem would meet 昇る «восходить (о солнце)»; only the unclear parenthetical was dropped. C7 (成分:20, 31–36) was declined: EN itself renders the example \"I investigated the food's composition\", JMdict 成分 includes \"composition\", 構成 is already EN-guarded and EN adds no 構成 contrast, so the card keeps EN parity. C10 (超過:48, cited as :49) was declined: the sentence translates EN's own \"Level provenance\" line, the only EN word card with one, and RU instructions allow provenance in learner files; the corpus-wide provenance convention is recorded as a follow-up. Its optional 角度 «точка зрения» was declined because it would be an exact segment of 見解 «точка зрения; позиция», and Ozhegov sense 3 supports «ракурс» as viewpoint. At recheck the comprehensibility reviewer withdrew C7, C10 and «объяснение пути», accepted not using «восходить к прошлому» and kept «точка зрения» declined. Its other optional notes (過失 order, 方角, 遠足, 道順:19 «туда», 原料:21, 方針:19, 過半数:9 and 作製:19) led to no action, because the reviewer classed them as acceptable. The consistency reviewer's O1 (部首 «ключ иероглифа (для поиска в словаре); радикал» and 鍵 «ключ») was declined because the segments differ and the qualifier makes 部首 unambiguous, and EN has no guard; it is recorded for a possible owner decision. Its O3 (お帰り:28 mentions 帰る plain) led to no action because EN is also plain and the mention is incidental, and its O4 (the bare gloss «оставаться; быть в избытке» at kanji/余.md:21) because it is outside this batch's navigation-only scope and the 余る→残る guard covers the quiz risk. Its O2 (方面 «в сторону» against あちら/そちら) was superseded by the 方面 retitle and resolved at recheck.",
+  "exclusionsAddedBeyondEn": {
+   "余る": [
+    "残る",
+    "余分"
+   ],
+   "作成": [
+    "建設"
+   ],
+   "方針": [
+    "線"
+   ],
+   "方面": [
+    "球",
+    "針路"
+   ],
+   "製作": [
+    "作製"
+   ],
+   "角度": [
+    "角"
+   ]
+  },
+  "titles": {
+   "お帰り": "с возвращением (приветствие вернувшемуся); возвращение (уважительно)",
+   "余る": "оставаться лишним; быть сверх нужного",
+   "作成": "составление (документа, плана); создание (файла, учётной записи)",
+   "作製": "изготовление (модели, образца, чертежа)",
+   "原料": "сырьё; исходный материал (для производства)",
+   "地帯": "зона (местность с общей особенностью)",
+   "対策": "меры (против чего-либо); стратегия (решения проблемы)",
+   "成分": "компонент; составная часть (вещества, смеси)",
+   "方角": "сторона света; направление (по сторонам света)",
+   "方針": "курс действий; линия (организации, руководства)",
+   "方面": "направление (к месту); сфера, область (деятельности)",
+   "統一": "объединение в одно целое; приведение к единообразию",
+   "裏返す": "переворачивать (на другую сторону); выворачивать наизнанку",
+   "製作": "производство (мебели, фильмов); изготовление (вещей)",
+   "角度": "величина угла; ракурс (точка обзора)",
+   "超過": "превышение (лимита, нормы)",
+   "返る": "возвращаться (к владельцу, в прежнее состояние); переворачиваться",
+   "造船": "судостроение",
+   "連合": "союз (организаций, государств); коалиция; ассоциация (в психологии)",
+   "逸れる": "отклоняться в сторону (от пути, цели); уходить от темы",
+   "遊園地": "парк аттракционов",
+   "過剰": "избыток; чрезмерный",
+   "過半数": "больше половины (голосов, членов)",
+   "過失": "оплошность; вина по небрежности",
+   "道順": "маршрут (по улицам); как пройти (куда-либо)",
+   "遠足": "школьная экскурсия (на один день); выезд классом",
+   "遡る": "подниматься вверх по течению; обращаться к прошлому",
+   "郡": "уезд (в японском адресе)",
+   "部品": "деталь (механизма, устройства); комплектующие",
+   "部首": "ключ иероглифа (для поиска в словаре); радикал"
+  }
+ }
+}
