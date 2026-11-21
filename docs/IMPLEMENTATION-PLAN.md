@@ -8,7 +8,27 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch220 thirty words
+## Current published source milestone: batch221 thirty words
+
+Batch221 added 30 Russian word articles. They are chunk 13 of the recomputed general remaining-word queue,
+dependency-closed under quiz_exclusions with nothing added. The batch also added 8 navigation-only link wraps in 7
+existing word pages and the numbers-and-counters article, including ワイン's held link to ビール.
+
+The candidate was signed and pushed before review. The blind facet-split review found:
+- no correctness defect, with three exact Russian labels left UNVERIFIED (ドライブ «автопрогулка», バン «сеть с добавленной
+  стоимостью», ボール «бол»);
+- one consistency finding (パイプ's missing guards against 関係, 連絡 and 仲);
+- six comprehensibility findings (ド's «совершенный», ボール's «бол»/«страйк», ママ's «по-домашнему», バン's «добавленная
+  стоимость», ビデオ's «VHS» and トンネル's «выехали»).
+
+One signed fix commit addressed them and replaced the three unverified labels.
+The serial rechecks reported all facets clean.
+
+Progress: **4,749 reviewed-current / 8 runtime-blocked / 3,521 pending of 8,278**; 3,283 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch221-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch220 thirty words
 
 Batch220 added 30 Russian word articles. They are chunk 12 of the recomputed general remaining-word queue,
 dependency-closed under quiz_exclusions with nothing added. The batch also added 19 navigation-only link wraps in 16
@@ -25,7 +45,7 @@ The serial rechecks reported all facets clean.
 
 Progress: **4,719 reviewed-current / 8 runtime-blocked / 3,551 pending of 8,278**; 3,253 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch220-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch220-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch219 thirty words
 
