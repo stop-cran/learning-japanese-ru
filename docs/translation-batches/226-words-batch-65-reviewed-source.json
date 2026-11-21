@@ -1,0 +1,148 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "226-words-batch-65",
+ "publishedBaseline": "2df70e04d517e89422bfdfef07334cf85fb3005f",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate bebdf80 and serialized rechecks of the signed fix commit 199a694 found no remaining defect. Correctness raised five findings. C1: 騒がしい's «шумливый» and 騒々しい's «галдящий» narrowed general noisiness to a noise-making agent or to people shouting together (Kuznetsov шумливый and галдеть; JMdict 1403000 and 1596440 senses 1–2; Digital Daijisen 騒騒しい, which includes noisy rooms and nonhuman sounds); the titles now read «шумный; неспокойный (о времени)» and «шумный; беспокойный (об обстановке)». C2: 挙げる's «приводить (пример); перечислять» and 驚かす's «удивлять; поражать» dropped the EN title senses \"raise\" and \"frighten\" (JMdict 2864818 senses 9 and 1; 1238650 sense 1); they now read «поднимать (руку); приводить (пример)» and «удивлять; пугать». C3: 裁縫's «рукоделие» also admits knitting and other crafts (Digital Daijisen 裁縫; JMdict 1296200; Kuznetsov рукоделие); the title is now «кройка и шитьё», and the definition «裁縫 — кройка и шитьё: ткань раскраивают и сшивают из неё одежду и другие вещи.» adds the cutting step. C4: 騒々しい defined канго as «словам китайского происхождения», asserting an origin that the next sentence disclaimed (the Seisenban note on Kotobank records competing derivations); it now reads «В этой коллекции слово условно отнесено к канго (словам, построенным на онных чтениях):» and «Это учебная классификация, а не утверждение об установленном историческом происхождении». C5: 強化's RU-only contrast now gives the reading 固める（かためる） (JMdict 1266570). Consistency raised no finding; its optional note that 刺す's «Это не просто ещё один способ сказать, что её кусает насекомое.» reads awkwardly was adopted as «Это отдельное употребление, а не тот же «укус» насекомого.» Comprehensibility raised nine findings. C1: 高層's lead «многоэтажный» conflicted with the body's «высотное здание» (Digital Daijisen 高層); the title is now «высотный; верхние слои атмосферы», and the definition says «к высотному зданию». C2: 飾り's «орнамент» is a repeating pattern in Russian (Gramota орнамент); the title and definition now say «украшение». C3: 騒々しい's «галдящий» is gone, but the lead is «шумный» (see correctness C1), not the suggested «крикливый», which would narrow the word to voices; the shared «шумный» with うるさい is guarded. C4: 高等's «высокого порядка» became «высокого уровня», matching the body's «высокий разряд, ступень или уровень», rather than the suggested «высокого разряда». C5: 高級's «элитный» became «класса люкс», matching the body. C6–C9 removed English glosses and authoring jargon from learner prose: 飽くまで's JMdict gloss \"after all\" (now «Ограничительное значение не делает あくまで автоматической заменой やはり»), 飽くまで's «из исходного списка» (now «в заголовке карточки»), 挿す's \"graft\" (now «Это не обязательно прививка, то есть соединение ветки с другим растением.») and 餅's «вариант только для поиска в закреплённом словаре» (now «餠 — редкий вариант написания, его не нужно учить.»). At recheck the comprehensibility reviewer judged C1–C9 resolved, accepting the alternative wordings for C3, C4 and C7 and no longer maintaining its «крикливый» preference for 騒々しい; it agreed to withdraw Q1, did not maintain its declined 一流 suggestion, and left 馴れる and «атэдзи» as optional items, not elevated. Two further comprehensibility optional items were adopted: 刺す's «поисковый вариант» for 螫す became «встречается редко», and 高層's example now says «воздушных течений на большой высоте». All three reviewers read all 30 cards in full against EN. Evidence includes JMdict entries through Jisho and the public XML, Digital Daijisen and Seisenban entries on Weblio and Kotobank, Gramota and Kuznetsov entries (шумливый, галдеть, рукоделие, орнамент, приручиться, удивить, привить, кусать) and Ozhegov and MAS entries (галдеть, элитный). The rechecks found no regression. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 157 EN exclusions across 28 lists are retained in EN order. Twenty-two lie inside the batch: 高級–一流, 高度–高等, 高級 and 一流, 高等–高度, 高級 and 一流, 拡充–拡張, 拡張–拡充, 固まる–片付く, 強化–拡充 and 固まる, 増大–拡張, 拡充 and 激増, 高める–挙げる, 強化 and 増大, 驚かす–おどかす, 騒々しい–騒がしい and 刺す–挿す and 裁縫. Seven direct, one-sided exclusions on six new cards (no new list) cover reviewed RU title overlaps and sense neighbours. Required (0). Conservative (7): the four candidate entries, which the consistency reviewer marked conservative: 激増–急激 (the titles share «резк-»), 驚かす–驚く («удивлять/удивляться» differ only in voice), 飢饉–飢える (shared stem «голод») and 高める–上がる (shared «повыш-»; the intransitive counterpart of the EN-guarded 上げる); and three added in the fix with the retitles: 挙げる–立てる (shared «поднимать»), 挙げる–上がる (the transitive/intransitive pair on «подни-», as for 高める) and 高層–高度 (shared «высот-»). The fix commit describes these three as conservative guards; at recheck the consistency reviewer confirmed that they are well-formed and that no unguarded exact title overlap remains, but did not restate a required/conservative split. The author had also classed the four candidate entries as conservative. On 挙げる and 高める, 上がる is inserted after EN's first entry 上げる; nothing is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/226-words-batch-65-intake.json",
+  "docs/translation-batches/226-words-batch-65-independent-review-001.md",
+  "docs/translation-batches/226-words-batch-65-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "充",
+   "層",
+   "張",
+   "拡",
+   "挙",
+   "挿",
+   "激",
+   "片",
+   "級",
+   "縫",
+   "裁",
+   "飢",
+   "飽",
+   "飾",
+   "餅",
+   "養",
+   "饉",
+   "香",
+   "馴",
+   "騒",
+   "驚"
+  ],
+  "navigationNote": "Restored 8 relative links across the 5 listed Markdown files at the corresponding EN-linked positions, using EN's href forms (../words/X.md in kanji cards, X.md in word cards): kanji 刺 to 刺す (three occurrences), kanji 固 to 固まる, kanji 塩 to 食塩 (two occurrences), アクセサリー to 飾り and 片付ける to 片付く. No surrounding prose was changed. Kanji 刺's EN links to 刺さる stay plain because RU has no 刺さる card, and 塩's other 食塩 mention stays plain, as in EN. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/刺.md",
+   "kanji/固.md",
+   "kanji/塩.md",
+   "words/アクセサリー.md",
+   "words/片付ける.md"
+  ],
+  "newWords": [
+   "一流",
+   "高級",
+   "高度",
+   "高等",
+   "高層",
+   "挙げる",
+   "拡充",
+   "拡張",
+   "片付く",
+   "固まる",
+   "強化",
+   "激増",
+   "増大",
+   "高める",
+   "おどかす",
+   "驚かす",
+   "騒がしい",
+   "騒々しい",
+   "馴れる",
+   "香水",
+   "養分",
+   "餅",
+   "飾り",
+   "飽くまで",
+   "飢饉",
+   "飢える",
+   "食塩",
+   "挿す",
+   "裁縫",
+   "刺す"
+  ],
+  "selection": "Batch 65 selected 30 word cards from the frozen source: chunk 18 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,617 remained after Batch 225, and 1,587 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing outside them was added (高等 is also reached from 高度 and 拡張 from 拡充, both requested). Twenty-two source exclusion entries lie inside the batch; the other 135 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (7 EN link occurrences, 7 targets) in the new cards: 高層→kanji 層, 挙げる→揚げる, 片付く→kanji 片, 増大→増減, 香水→kanji 香, 挿す→生け花 and 刺す→刺さる. 21 written kanji have no RU kanji card: 充 層 張 拡 挙 挿 激 片 級 縫 裁 飢 飽 飾 餅 養 饉 香 馴 騒 驚 (EN has cards only for 層, 片 and 香). Links otherwise follow EN, with one RU-only link to an existing card at a substantive comparison: 強化→固まる.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items (comprehensibility): 一流's «один из лучших» was kept rather than led by «ведущий», which would collide exactly with アナウンサー «диктор; ведущий»; the nuance section rejects race placement, not membership among the best, and the correctness reviewer established no defect in «один из лучших». The reviewer did not maintain the suggestion at recheck. 馴れる's «приручаться» was kept: the second gloss «становиться ручным» and the body make the animal the subject, and the correctness reviewer found it supported (Kuznetsov приручиться sense 1). 騒々しい's «атэдзи» is not glossed: it is the deck's established term. Both remain optional, not elevated, at recheck. The comprehensibility reviewer's outside-facet Q1, a reverse ビル–高層 exclusion, was withdrawn with its agreement: Android applies declarations symmetrically, and after C1 the titles share no stem. The consistency reviewer's optional recheck of 激増's «резк-» against the previous batch needed no change: the only «резк-» titles are きつい, ぎらぎら, 屑, 急に, 急激 and 激増, and 激増–急激 is guarded; the reviewer closed it at recheck. The correctness reviewer's optional items for 飾り («декоративный элемент» instead of «орнамент») and 高等 («высокого уровня») were resolved by comprehensibility C2 and C4, which it confirmed at recheck. No reviewer finding remains open.",
+  "exclusionsAddedBeyondEn": {
+   "挙げる": [
+    "上がる",
+    "立てる"
+   ],
+   "激増": [
+    "急激"
+   ],
+   "飢饉": [
+    "飢える"
+   ],
+   "驚かす": [
+    "驚く"
+   ],
+   "高める": [
+    "上がる"
+   ],
+   "高層": [
+    "高度"
+   ]
+  },
+  "titles": {
+   "おどかす": "запугивать; пугать",
+   "一流": "первоклассный; один из лучших",
+   "刺す": "колоть; вонзать; жалить",
+   "固まる": "затвердевать; застывать",
+   "増大": "возрастание (объёма, масштаба)",
+   "強化": "усиление; укрепление",
+   "拡充": "наращивание (служб, оснащения)",
+   "拡張": "расширение масштаба; расширение функций",
+   "挙げる": "поднимать (руку); приводить (пример)",
+   "挿す": "вставлять; сажать черенок",
+   "激増": "резкий рост; скачок (числа)",
+   "片付く": "приходить в порядок; улаживаться",
+   "裁縫": "кройка и шитьё",
+   "食塩": "поваренная соль",
+   "飢える": "голодать; жаждать (чего-либо)",
+   "飢饉": "голод (бедствие); острая нехватка",
+   "飽くまで": "упорно, до конца; сугубо",
+   "飾り": "украшение",
+   "餅": "моти (лепёшка из клейкого риса)",
+   "養分": "питательные вещества",
+   "香水": "духи; парфюм",
+   "馴れる": "приручаться; становиться ручным",
+   "騒々しい": "шумный; беспокойный (об обстановке)",
+   "騒がしい": "шумный; неспокойный (о времени)",
+   "驚かす": "удивлять; пугать",
+   "高める": "повышать (уровень); усиливать",
+   "高層": "высотный; верхние слои атмосферы",
+   "高度": "высота; передовой уровень",
+   "高等": "высшей ступени; высокого уровня",
+   "高級": "высокого класса; класса люкс"
+  }
+ }
+}

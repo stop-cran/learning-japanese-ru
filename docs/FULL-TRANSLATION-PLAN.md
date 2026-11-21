@@ -1,6 +1,70 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch225 thirty words (general word queue)
+## Current published source milestone: batch226 thirty words (general word queue)
+
+Batch226 adds 30 Russian word articles: おどかす 一流 刺す 固まる 増大 強化 拡充 拡張 挙げる 挿す 激増 片付く 裁縫 食塩
+飢える 飢饉 飽くまで 飾り 餅 養分 香水 馴れる 騒々しい 騒がしい 驚かす 高める 高層 高度 高等 高級. They are chunk 18 of 72 of the
+general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is exactly
+the 30 requested words, so every EN quiz_exclusions target resolves to an existing RU word or a word in the batch; 22 of
+the 157 EN entries lie inside the batch.
+
+Navigation-only link wraps restore 8 links at EN link positions in 5 existing pages: the kanji cards 刺 (three links to
+刺す), 固 (to 固まる) and 塩 (two links to 食塩), and the word cards アクセサリー (to 飾り) and 片付ける (to 片付く).
+The new cards keep EN's links to existing kanji cards; their links to the kanji cards 層, 片 and 香 and to the word cards 揚げる, 増減, 生け花 and 刺さる stay plain until those targets are
+adapted.
+
+The batch covers:
+- rank and level: first-rate (一流), high-grade (高級), altitude or advanced level (高度), high grade (高等) and high-rise
+  (高層);
+- raising, expanding and increasing: to raise or cite (挙げる), expansion (拡充, 拡張), strengthening (強化), a sharp increase
+  (激増), enlargement (増大) and to heighten (高める);
+- settling and hardening: to be tidied or settled (片付く) and to harden (固まる);
+- startle and noise: to threaten or startle (おどかす), to surprise or frighten (驚かす), noisy (騒がしい) and noisy or
+  unsettled (騒々しい);
+- food, scent and need: perfume (香水), nutrients (養分), mochi (餅), table salt (食塩), famine (飢饉) and to starve
+  (飢える);
+- other words: to become tame (馴れる), decoration (飾り), persistently or purely (飽くまで), to insert (挿す), sewing
+  (裁縫) and to pierce or sting (刺す).
+
+All 157 EN exclusions are retained in EN order. Seven direct guards on 6 new cards cover the reviewed RU title overlaps
+and sense neighbours:
+- required: none;
+- conservative: 激増–急激, 驚かす–驚く, 飢饉–飢える and 高める–上がる, as the consistency reviewer marked them, and, added
+  in the fix with the retitles, 挙げる–上がる, 挙げる–立てる and 高層–高度.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: five minor correctness and scoped-coverage findings: the noise titles «шумливый» (騒がしい) and
+  «галдящий» (騒々しい), titles of 挙げる and 驚かす that dropped "raise" and "frighten", 裁縫's overbroad «рукоделие», 騒々しい's канго definition by Chinese origin,
+  and the missing reading of 固める on 強化; two optional items, 飾り's «орнамент» and 高等's «высокого порядка»;
+- consistency: no finding; two optional items: a «резк-» check of 激増 against the previous batch, and 刺す's awkward
+  sentence on insect bites;
+- comprehensibility: three moderate and six minor findings: 高層's «многоэтажный», 飾り's «орнамент», 騒々しい's
+  «галдящий», 高等's «высокого порядка», 高級's «элитный», English glosses in 飽くまで and 挿す, 飽くまで's «из исходного
+  списка» and 餅's search-only jargon; one outside-facet note on a reverse ビル–高層 exclusion.
+
+One signed fix commit addressed them:
+- nine titles changed: 騒がしい «шумный; неспокойный (о времени)», 騒々しい «шумный; беспокойный (об обстановке)», 挙げる
+  «поднимать (руку); приводить (пример)», 驚かす «удивлять; пугать», 裁縫 «кройка и шитьё», 高層 «высотный; верхние слои
+  атмосферы», 飾り «украшение», 高等 «высшей ступени; высокого уровня» and 高級 «высокого класса; класса люкс»;
+- 騒々しい's канго note became a collection-local classification, 強化 gained 固める（かためる）, and the English glosses and
+  authoring jargon in 飽くまで, 挿す, 餅 and 刺す were replaced with Russian wording;
+- three conservative guards were added with the retitles; no reverse ビル–高層 exclusion was added, and 一流's
+  «один из лучших» and 馴れる's «приручаться» were kept.
+
+The serial rechecks reported all facets clean, with no regression.
+Links follow EN, with one RU-only link to an existing card at a substantive comparison: 強化–固まる.
+
+Qualified progress is **4,899 reviewed-current / 8 reviewed runtime-blocked / 3,371 pending of 8,278**,
+with 3,433 words, 718 kanji and 718 strokes. See the [intake](translation-batches/226-words-batch-65-intake.json),
+[independent review](translation-batches/226-words-batch-65-independent-review-001.md),
+[recheck](translation-batches/226-words-batch-65-recheck-001.md),
+[qualified source record](translation-batches/226-words-batch-65-reviewed-source.json) and
+[final validation](translation-batches/226-words-batch-65-final-validation-001.json).
+
+## Previous published source milestone: batch225 thirty words (general word queue)
 
 Batch225 adds 30 Russian word articles: あいにく あちこち あっ あらゆる ありがとう あんなに あんまり いけない いただきます
 いつまでも いらっしゃい いわゆる うがい うなる お おそらく おまえ おめでとう お互い お目に掛かる かもしれない かわいらしい
