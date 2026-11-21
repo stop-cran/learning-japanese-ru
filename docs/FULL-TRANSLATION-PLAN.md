@@ -1,6 +1,71 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch223 thirty words (general word queue)
+## Current published source milestone: batch224 thirty words (general word queue)
+
+Batch224 adds 30 Russian word articles: さて しかも しきりに しまった しゃべる すてき すみません ずっと せい そこで そのうち そのまま
+それぞれ それでも それと ただ たった たっぷり たまたま たまらない ちゃんと できれば ところで とにかく とんでもない どうしても どこか
+どんなに なにも ぴったり. They are chunk 16 of 72 of the general remaining-word queue, recomputed after Batch207 from 2,157
+remaining EN words. Their dependency closure is exactly the 30 requested words, so every EN quiz_exclusions target
+resolves to an existing RU word or a batch word (two entries lie inside the batch: しかも–それでも and たった–ただ).
+
+Navigation-only link wraps restore 16 links at EN link positions in 15 existing word pages. They include きちんと's link to
+ちゃんと and ところが's link to ところで, held since Batch223. All 30 new cards are written in kana; たまたま keeps EN's link to
+the existing kanji card 偶 in its spelling note.
+
+The batch covers:
+- connectives and discourse markers: well then (さて), moreover (しかも), so or thereupon (そこで), nevertheless (それでも), and
+  also (それと), by the way or even if (ところで) and anyway (とにかく);
+- time, frequency and chance: repeatedly (しきりに), the whole time or much more (ずっと), before long or among those (そのうち)
+  and by chance (たまたま);
+- quantity, manner and degree: as it is (そのまま), each or respectively (それぞれ), free of charge or merely (ただ), only
+  (たった), plenty (たっぷり), properly (ちゃんと), no matter what (どうしても), somewhere or in some way (どこか), how much or
+  no matter how (どんなに), nothing at all (なにも) and exactly or perfectly fitting (ぴったり);
+- expressions: oops (しまった), excuse me or sorry (すみません), if possible (できれば) and outrageous or no trouble at all
+  (とんでもない);
+- descriptions and causes: lovely (すてき), unbearable or irresistible (たまらない) and the fault for an adverse result (せい);
+- a verb: to chat (しゃべる).
+
+All 53 EN exclusions are retained. Thirty-seven direct guards on 22 new cards cover the reviewed RU title overlaps and
+sense neighbours, as the consistency reviewer classified them:
+- required: どうしても–なかなか, どうしても–絶対, とんでもない–いえ, とにかく–何とか, そのまま–まま, すみません–申し訳,
+  すみません–どうも, すみません–謝る, しゃべる–ぺらぺら, しゃべる–べらべら, しゃべる–おしゃべり, しかも–更に, すてき–見事,
+  すてき–かわいい, ずっと–年中, せい–悪い, ただ–だけ, ただ–ばかり, たった–だけ, できれば–なるべく, どこか–どこ and どこか–辺り;
+- conservative: さて–ところで, しきりに–しばしば, せい–原因, それでも–しかし, それでも–でも, それと–それから, ただ–サービス,
+  たっぷり–十分, たまたま–たまに, とんでもない–ひどい, とんでもない–凄い, どうしても–ぜひ, どうしても–必ず, なにも–別に and,
+  added in the fix, どんなに–どう.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: no finding; two optional items: とにかく's «Не говоря уже о цене» can be read additively, and ちゃんと's note
+  said that «идеально, безупречно» overstates the meaning, where EN says only that it can;
+- consistency: no finding; one minor recommendation, a guard between どんなに and どう, whose titles share «как»;
+- comprehensibility: three moderate and two minor findings: とにかく's additive reading, たっぷり's «побольше воды» and
+  «уйма времени», それぞれ's mid-sentence «соответственно», たまらない's title being narrower than the cannot-contain use,
+  and せい's «Категория канго…» sentence as author-facing.
+
+One signed fix commit addressed them:
+- とにかく now says «Если оставить цену в стороне», たっぷり uses «вдоволь» in both examples, それぞれ places
+  «соответственно» at the end of the sentence, ちゃんと says the translation «может преувеличивать», and たった says
+  «можно добраться»;
+- どんなに gains a conservative guard against どう;
+- the たまらない and せい findings were not adopted, because both passages follow EN and the cards explain the rest; the
+  reviewer withdrew both at recheck, and also withdrew its alternative それぞれ title «каждому своё».
+
+The serial rechecks reported all facets clean; the それぞれ finding is partially resolved with no actionable defect left.
+Links follow EN, with nine RU-only links to existing cards at a substantive comparison: どんなに–どう, できれば–可能,
+できれば–必ず, それと–それとも, それでも–まだ, そのまま–まま, すみません–済む, しゃべる–黙る and しまった–しまう. すみません's EN
+links to ごめんなさい and ありがとう stay plain until those words land (planned for Batch225).
+
+Qualified progress is **4,839 reviewed-current / 8 reviewed runtime-blocked / 3,431 pending of 8,278**,
+with 3,373 words, 718 kanji and 718 strokes. See the [intake](translation-batches/224-words-batch-63-intake.json),
+[independent review](translation-batches/224-words-batch-63-independent-review-001.md),
+[recheck](translation-batches/224-words-batch-63-recheck-001.md),
+[qualified source record](translation-batches/224-words-batch-63-reviewed-source.json) and
+[final validation](translation-batches/224-words-batch-63-final-validation-001.json).
+
+## Previous published source milestone: batch223 thirty words (general word queue)
 
 Batch223 adds 30 Russian word articles: アイスクリーム クリーム クリスマス クラシック キャンプ キャプテン オーバー エネルギー
 ウイスキー インク アルバム アウト アイロン わざと やや だけど ところが なぜなら だって だが もっとも もしも まるで まさに まさか まあ
