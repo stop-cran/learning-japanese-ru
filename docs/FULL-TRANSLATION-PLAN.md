@@ -1,6 +1,72 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch221 thirty words (general word queue)
+## Current published source milestone: batch222 thirty words (general word queue)
+
+Batch222 adds 30 Russian word articles: カード トランプ トラック デート デモ テント チーム チーズ チャンス ダンス ダイヤ タオル
+タイプライター ソファー センター セット スープ スター スタンド スタイル スケート スキー スイッチ ジーンズ ジュース ジェット機
+サービス ゲーム グループ グランド. They are chunk 14 of 72 of the general remaining-word queue, recomputed after Batch207 from
+2,157 remaining EN words. Their dependency closure is exactly the 30 requested words, so every EN quiz_exclusions target
+resolves to an existing RU word or a batch word (トランプ–カード lies inside the batch).
+
+Navigation-only link wraps restore 7 links at EN link positions in 7 existing word pages. ベンチ's link to ソファー, held
+since Batch221, is among them. ジェット機 keeps its link to the existing kanji card 機; the other new cards are written in kana,
+so no kanji label is left plain.
+
+The batch covers:
+- cards and games: a card or milk curd (カード), playing cards (トランプ), a game (ゲーム), a set (セット) and a group
+  (グループ);
+- food and drink: cheese (チーズ), soup (スープ) and juice, which is also a sports deuce (ジュース);
+- transport: a truck or running track (トラック), a jet plane (ジェット機), and a diamond or train timetable (ダイヤ);
+- people and events: a date (デート), a demonstration or demo (デモ), a team (チーム), a chance (チャンス), dance (ダンス),
+  a star (スター), service (サービス) and a centre (センター);
+- objects and clothing: a tent (テント), a towel (タオル), a typewriter (タイプライター), a sofa (ソファー), a stand or lamp
+  (スタンド), a switch (スイッチ) and jeans (ジーンズ);
+- sports and descriptions: skating (スケート), skiing (スキー), style or figure (スタイル) and grand (グランド).
+
+All 18 EN exclusions are retained. Twenty-five direct guards on 18 new cards cover the reviewed RU title overlaps and
+sense neighbours, as the consistency reviewer classified them:
+- required: カード–地図, トラック–車, チーム–命令, チャンス–望み, ダンス–踊り, ダイヤ–宝石, ダイヤ–玉, ダイヤ–予定, スター–有名,
+  スタンド–電灯, ジーンズ–ズボン, ジュース–飲み物, ジェット機–飛行機, ゲーム–遊び, グループ–クラス, グランド–大きい, グランド–大きな
+  and, added in the fix, スタンド–ガソリンスタンド;
+- conservative to required, added in the fix: トラック–自動車;
+- conservative: タイプライター–機械, センター–選手, スタンド–受付, サービス–無料 and, added in the fix, デート–日付 and
+  スタンド–明かり.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: four minor findings: カード gave the Russian «карточка» the Japanese dough-scraper sense and restricted «карта»
+  with an unsupported «только»; ダイヤ («бриллиант»), スター (people-only «звезда») and スタンド («настольная лампа») narrowed
+  their source headwords; ソファー left its ベンチ comparison unlinked;
+- consistency: four minor quiz-safety under-guards (トラック–自動車, デート–日付, スタンド–ガソリンスタンド and スタンド–明かり)
+  and the same ベンチ link;
+- comprehensibility: two minor findings: カード's «сырный сгусток» and ジュース's bare adverb «ровно» as a score name.
+
+Two signed fix commits addressed them:
+- カード's body attributes the dough scraper to Japanese カード and chooses «карта» by context; its curd sense is now
+  «молочный сгусток»;
+- ダイヤ is titled «алмаз; бриллиант; график движения поездов», スター «звезда; знаменитость» and スタンド «трибуна; подставка,
+  стойка; настольная или напольная лампа»;
+- ソファー links ベンチ, and the four guards were added;
+- fix 1 retitled ジュース «равный счёт», which the correctness recheck found also covers 15:15; fix 2 titles it «счёт «ровно»
+  (в теннисе и др.)» and defines the tie one point short of winning, in tennis 40:40 and later ties, and withdrew fix 1's
+  temporary 等しい guard;
+- the optional スープ verb note and トラック's «ехать на грузовике» were adopted.
+
+The serial rechecks reported all facets clean. Links follow EN, with eight RU-only links to existing cards at a substantive
+comparison or mention: カード–地図, チャンス–望み, ダンス–踊り, ソファー–いす, ソファー–ベンチ, スタンド–ガソリンスタンド, スタンド–台
+and ジーンズ–履く. テント's EN link to キャンプ stays plain until キャンプ lands (planned for Batch223), and サービス's to ただ until
+ただ lands (planned for Batch224).
+
+Qualified progress is **4,779 reviewed-current / 8 reviewed runtime-blocked / 3,491 pending of 8,278**,
+with 3,313 words, 718 kanji and 718 strokes. See the [intake](translation-batches/222-words-batch-61-intake.json),
+[independent review](translation-batches/222-words-batch-61-independent-review-001.md),
+[recheck](translation-batches/222-words-batch-61-recheck-001.md),
+[qualified source record](translation-batches/222-words-batch-61-reviewed-source.json) and
+[final validation](translation-batches/222-words-batch-61-final-validation-001.json).
+
+## Previous published source milestone: batch221 thirty words (general word queue)
 
 Batch221 adds 30 Russian word articles: ミルク ミス ママ マスター マイク ボール ホーム ペンキ ベンチ ベルト プロ ブレーキ ピクニック
 ビール ビデオ パーセント パスポート パイロット パイプ バン バッグ バイオリン ハンサム ハイキング ドレス ドラマ ドライブ ド トンネル
