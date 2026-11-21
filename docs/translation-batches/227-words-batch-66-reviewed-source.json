@@ -1,0 +1,146 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "227-words-batch-66",
+ "publishedBaseline": "7732568ec57a0daa799f081fa4e0968a5c525903",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 5cf2313 and serialized rechecks of the signed fix commit 4052317 found no remaining defect. Correctness raised three findings. C1: 飛び込む's contrast said that 入る means «входить» «в более широком смысле, без порыва или прыжка», excluding manners that EN only says 入る does not require (\"without requiring a rush or leap\"; Digital Daijisen 入る and 飛び込む on Weblio); it now reads «[入る](入る.md)（はいる）значит «входить» в более широком смысле и не требует порыва или прыжка.» C2: 突っ込む's «Основные значения — «ринуться, врезаться во что-то» и «углубиться во что-то»; остальные употребления полезно узнавать при чтении.» ranked senses without source support (JMdict 1456940 senses 1–6; Digital Daijisen 突っ込む, which includes putting a hand in a pocket); the sentence is deleted, and the preceding sentence already separates the constructions. C3: 区切る defined канго as «словам китайского происхождения», although EN groups this mixed form under kango only in the app and the next sentence disclaims a historical claim (Digital Daijisen 漢語 includes words created in Japan); it now reads «В этой коллекции такая смешанная форма с онным началом условно отнесена к канго:», the deck wording adopted in Batch 226, and keeps the disclaimer. Consistency raised two quiz-safety findings, which the reviewer classed conservative: F1, 境界's «разделительная линия» beside 線 «линия; провод», and F2, 雑音's «помехи (в сигнале)» beside じゃま «помеха; вмешательство»; 境界 now excludes 線, and 雑音 excludes じゃま. Comprehensibility raised six findings. C1: 突く's «пихать» also means stuffing something in (Ozhegov and Gramota пихать; JMdict 1456890 senses 1–3) and is unused in the body; the title is now «тыкать; ткнуть; делать выпад», avoiding «колоть» and «толкать», the titles of 刺す and 押す. C2: コレクション's learner text relied on the English words collection and correction; it now reads «Это заимствование из английского, записанное катаканой; иероглифического сочетания здесь нет. Запоминайте написание コレクション целиком.» and «В Digital Daijisen есть отдельная статья コレクション со значением «исправление ошибки». Это другое заимствование, которое совпало с этим словом по написанию, а **не** ещё одно значение в цитируемой статье JMdict о коллекции.» This was partially accepted: the source language is still named, as on the published RU loanword cards, and the footer keeps the Daijisen headings collection and correction as provenance. C3: 頼もしい's example «Она надёжный друг» used «надёжный», the title word of 確実 and 堅い (JMdict 1548380); it now reads «— Она друг, на которого можно положиться: помогает мне, когда я в беде.» C4: 頼もしい's note that the dictionary marks 頼母しい as appearing only in searches was dictionary-internal; it was partially accepted, keeping the spelling fact but explaining it: «Пишите 頼もしい. Написание 頼母しい словарь сохраняет лишь для поиска, а не как обычную запись, поэтому учить его как равноправный вариант не нужно.» C5: 頂点's «апогей» is unexplained, and its first Russian sense is astronomical (Gramota апогей; JMdict 1430240); the title is now «пик; высшая точка; вершина (угла)». C6: 響き's «звук отлично резонирует» overstated いい; the translation now reads «— В этом зале звук хорошо резонирует.» At recheck the comprehensibility reviewer judged C1–C3, C5 and C6 resolved and C4 partially resolved but no longer actionable (the remaining «для поиска» wording in the 頼母しい spelling note is optional polish); it did not maintain its 雑音 «пересуды» optional item, and the declined title-mark suggestions for 区切る, 突っ込む, 区域, 頭脳 and 順序 remain optional, not elevated. Two optional items were adopted: 時間割's example now says «Я проверил расписание уроков на завтра.» for 確認しました, and 集金's note says «не значит получать оплату по счетам или собирать взносы». The correctness and comprehensibility reviewers read all 30 cards in full against EN; the consistency reviewer read all 30 cards in full, compared their front matter, links and line counts with EN by script and read EN prose in full for 突く. Evidence includes JMdict entries through Jisho and the official JMdict XML, Digital Daijisen entries on Weblio (入る, 飛び込む, 突っ込む, 漢語, 区切る, コレクション, 頭脳, 領収, 時間割, 響き and 受取), Gramota and Kuznetsov entries (расписка, апогей, тёплый, порядок and пихать), Ozhegov пихать, Russian Wiktionary (мозговой центр, фуросики and выпад) and the Russian Wikipedia article Ламповый звук. The rechecks found no regression. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 169 EN exclusions across 27 lists are retained in EN order; 風船, 顕微鏡 and 領事 have none. Sixteen lie inside the batch: 突っ込む–突く and 突き当たる, 飛び込む–突っ込む, 区域–境界, 区分–区切る and 区域, 項目–区分, 題名–項目, 集金–コレクション, 領収–受け取り and 集金, 順々–順序, 響き–雑音 and 感想, and 響く–響き and 伝わる; the other 153 target existing RU cards. Nine direct, one-sided exclusions on eight new cards (no new list) cover reviewed RU title overlaps and sense neighbours. Required (1): 順序–決まり (shared «порядок»; 決まり «правило; установленный порядок» already excludes 順 and 順番), which the author added at the candidate as conservative and the consistency reviewer classed as required. Conservative (8): 境界–線 («разделительная линия» and «линия») and 雑音–じゃま («помехи» and «помеха»), the consistency reviewer's findings F1 and F2, which it marked conservative; 突く–突き当たる («тыкать» and «натыкаться»), 頼もしい–信頼 («внушающий доверие» and «доверие»), 頼もしい–堅い (堅い «твёрдый; надёжный»), 預かる–保存 («хранение») and 頭脳–中心 (the figurative «мозговой центр» and «центр»), from the consistency reviewer's optional notes; and 頂点–最高 («высшая точка» and «наивысший»), added with the 頂点 retitle. At recheck the consistency reviewer confirmed that the entries are well-formed, that every target exists, that the RU-added total is 9 and that the new 突く and 頂点 title segments occur on no other card. Every RU addition is appended at the end of its list; nothing is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/227-words-batch-66-intake.json",
+  "docs/translation-batches/227-words-batch-66-independent-review-001.md",
+  "docs/translation-batches/227-words-batch-66-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "呂",
+   "境",
+   "序",
+   "微",
+   "敷",
+   "脳",
+   "鏡",
+   "響",
+   "項",
+   "順",
+   "預",
+   "領",
+   "顕"
+  ],
+  "navigationNote": "Restored 12 relative links across the 5 listed Markdown files at the corresponding EN-linked positions, using EN's href forms (../words/X.md in kanji cards, X.md in word cards): kanji 区 to 区域, 区切る and 区分 (two occurrences each, in the reading table and the word list), kanji 域 to 区域 (three occurrences), 句読点 to 区切る, 意見 to 感想 and 預ける to 預かる. No surrounding prose was changed. Kanji 域's prose mention of 地域 stays plain, as in EN. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/区.md",
+   "kanji/域.md",
+   "words/句読点.md",
+   "words/意見.md",
+   "words/預ける.md"
+  ],
+  "newWords": [
+   "突く",
+   "突き当たる",
+   "突っ込む",
+   "飛び込む",
+   "風船",
+   "風呂敷",
+   "顕微鏡",
+   "区切る",
+   "境界",
+   "区域",
+   "区分",
+   "項目",
+   "題名",
+   "頼もしい",
+   "頭脳",
+   "受け取り",
+   "コレクション",
+   "集金",
+   "領収",
+   "領事",
+   "預かる",
+   "順序",
+   "順々",
+   "頂点",
+   "雑音",
+   "感想",
+   "響き",
+   "伝わる",
+   "響く",
+   "時間割"
+  ],
+  "selection": "Batch 66 selected 30 word cards from the frozen source: chunk 19 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,587 remained after Batch 226, and 1,557 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing outside them was added. Sixteen source exclusion entries lie inside the batch; the other 153 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (12 EN link occurrences, 10 targets) in the new cards: 突く→点く, 突き当たる→突き当たり, 風船→膨らます and 膨らむ, 境界→kanji 境, 頭脳→kanji 脳, 領収→kanji 領, 領事→kanji 領, 預かる→kanji 預, 順序→kanji 順, 順々→kanji 順 and 感想→乾燥. 13 written kanji have no RU kanji card: 呂 境 序 微 敷 脳 鏡 響 項 順 預 領 顕 (EN has cards only for 境, 脳, 順, 預 and 領). Links otherwise follow EN, with one RU-only link to an existing card at a substantive comparison: 突っ込む→引き出す, limited to the physical reverse action.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined optional items (correctness): the fuller titles for 時間割 («расписание; расписание занятий») and 響き (adding «впечатление от звучания») were not adopted; the bodies keep the broader timetable and impression senses, and 響き already excludes 印象, 感じ and 感想. At recheck the reviewer kept both optional, not blocking. The consistency reviewer's optional 突っ込む–挿す guard was declined: «засовывать» and «вставлять» share no title segment or stem, and the overlap mirrors EN's \"thrust into\" and \"insert\", which EN did not guard; the reviewer agreed at recheck. The comprehensibility reviewer's optional notes on 区切る «размечать», 突っ込む «вникать» (a «(перен.)» mark), 区域 «территория», 頭脳 «мозговой центр» and 順序 led to no change, because the bodies qualify those glosses, and its suggested rewording of 雑音's second example was declined: the line renders EN \"without being distracted by the chatter and criticism around me\" faithfully, and 批判 is already excluded. At recheck the reviewer did not maintain the 雑音 item, and the title-mark notes remain optional, not elevated. The correctness reviewer's suggested wordings for C1 and C3 and the comprehensibility reviewer's for C3 were replaced by the alternatives quoted above, and C2 and C4 were partially accepted as described.",
+  "exclusionsAddedBeyondEn": {
+   "境界": [
+    "線"
+   ],
+   "突く": [
+    "突き当たる"
+   ],
+   "雑音": [
+    "じゃま"
+   ],
+   "頂点": [
+    "最高"
+   ],
+   "順序": [
+    "決まり"
+   ],
+   "預かる": [
+    "保存"
+   ],
+   "頭脳": [
+    "中心"
+   ],
+   "頼もしい": [
+    "信頼",
+    "堅い"
+   ]
+  },
+  "titles": {
+   "コレクション": "коллекция; коллекционирование",
+   "伝わる": "передаваться (о звуке, вести); переходить из поколения в поколение",
+   "区分": "деление; классификация",
+   "区切る": "размечать; делить на части; расставлять паузы",
+   "区域": "зона; территория",
+   "受け取り": "получение; расписка (в получении)",
+   "境界": "граница (между областями); разделительная линия",
+   "感想": "впечатления (от пережитого); личная реакция",
+   "時間割": "расписание уроков",
+   "突き当たる": "натыкаться (на); выходить к концу улицы",
+   "突く": "тыкать; ткнуть; делать выпад",
+   "突っ込む": "засовывать; врезаться; вникать",
+   "集金": "сбор денег (платежей)",
+   "雑音": "посторонний шум; помехи (в сигнале)",
+   "響き": "звучание; отзвук; резонанс",
+   "響く": "раздаваться; отдаваться эхом; сказываться (на)",
+   "頂点": "пик; высшая точка; вершина (угла)",
+   "項目": "пункт; графа; рубрика",
+   "順々": "по очереди; поочерёдно",
+   "順序": "порядок следования; процедура",
+   "預かる": "брать на хранение; присматривать (за чужим)",
+   "領事": "консул",
+   "領収": "получение денег (оплаты)",
+   "頭脳": "мозги; разум; мозговой центр",
+   "頼もしい": "внушающий доверие; обнадёживающий; многообещающий",
+   "題名": "название (произведения); заголовок",
+   "顕微鏡": "микроскоп",
+   "風呂敷": "фуросики; платок для заворачивания",
+   "風船": "воздушный шарик",
+   "飛び込む": "нырять; прыгать (в воду); врываться"
+  }
+ }
+}
