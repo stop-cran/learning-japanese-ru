@@ -1,6 +1,74 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch237 thirty words (general word queue)
+## Current published source milestone: batch238 thirty words (general word queue)
+
+Batch238 adds 30 Russian word articles: なぐる ぶつける 攻める 見舞う 御覧 改める 改正 改造 見直す 個体 サンプル 実例 標本 見本
+見慣れる 見学 索引 見出し 見下ろす 看板 見かけ あらすじ おおよそ 概論 要旨 要領 西暦 襖 複数 書き取り. They are chunk 30 of 72 of
+the general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is
+exactly the 30 requested words, so every EN quiz_exclusions target resolves to an existing RU word or a word in the batch;
+33 of the 229 EN entries lie inside the batch.
+
+Navigation-only link wraps restore 3 links at EN link positions in 3 existing pages: the kanji card 個 (to 個体) and the
+word cards 書く (to 書き取り) and 責める (to 攻める). The new cards keep EN's links to existing cards; their links to the word
+cards ぶつかる, 改めて, 能率, 生年月日 and 単数 and the kanji cards 改, 造, 板, 領 and 複 stay plain until those targets are
+adapted.
+
+The batch covers:
+- hitting and attacking: to hit or punch (なぐる), to hit against, throw at or vent on (ぶつける), to attack, take on or act
+  boldly (攻める) and to visit in sympathy or strike (見舞う);
+- looking: a look or "try it" (御覧), to look again, review or think better of someone (見直す), to look down from above or
+  look down on (見下ろす), to become used to seeing (見慣れる), a study visit or observation (見学) and outward appearance
+  (見かけ);
+- revising: to revise, reform or inspect (改める), a revision or amendment (改正) and remodeling, modification or
+  reorganization (改造);
+- samples and examples: an individual organism or specimen (個体), a sample or specimen (サンプル), an actual example or
+  real case (実例), a specimen, sample or example (標本) and a sample or model (見本);
+- headings, indexes and signboards: an index in a book (索引), a heading, headline or index (見出し) and a signboard or a
+  shop's reputation (看板);
+- summaries and gists: an outline or plot summary (あらすじ), approximately or an outline (おおよそ), a general outline or
+  introduction (概論), the gist, main points or abstract (要旨) and the gist or knack (要領);
+- other: Common Era year numbering (西暦), an opaque Japanese sliding panel (襖), multiple or plural (複数) and dictation or
+  written copying (書き取り).
+
+All 229 EN exclusions are retained in EN order. Eleven direct guards on 8 new cards cover reviewed RU title overlaps:
+改める–調べる, 要旨–実, あらすじ–内容 and 要領–実 are required; 個体–身体, 要領–技術, 要旨–圧縮, 見学–出席, 標本–代表, サンプル–型 and
+あらすじ–筋 are conservative and harmless.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: two findings, the «видимость» segment of the 見かけ title and an unsupported register claim in 改める, and
+  two optional notes;
+- consistency: two missing quiz guards, あらすじ–内容 and 要領–実, existing cards named but not linked in サンプル, 個体 and
+  おおよそ, and two optional title points, the «подпись (к фото)» segment of the 見出し title and the missing «экземпляр» in
+  個体;
+- comprehensibility: nine findings, the 御覧 and 見かけ titles, example translations in 改める, 見慣れる and あらすじ, and
+  prose in 見本, 見下ろす, 複数 and 見学.
+
+One signed fix commit addressed them:
+- four titles changed: 見かけ «внешний облик (в отличие от сути)», 見出し «заголовок (статьи, раздела); заглавное слово
+  (словарной статьи); указатель», 個体 «особь; отдельный организм; экземпляр» and 御覧 «взгляд (уважительно о чужом);
+  посмотри; попробуй (сделать)»;
+- example translations were rewritten in 改める, 見慣れる and あらすじ, and prose was reworded in 改める, 見本, 見下ろす, 複数
+  and 見学;
+- nine exclusions were added and the two RU-added 見出し guards (サイン and 署名) were removed with the «подпись (к фото)»
+  segment, four RU-only links were added, and several suggested wordings were adapted rather than adopted.
+
+The serial rechecks reported correctness, consistency, quiz safety, comprehensibility and scoped coverage clean, with no
+regression; the declined points were withdrawn or not maintained. Whether metadata remarks like the one in 見本 should be
+dropped corpus-wide stays on the follow-up list.
+
+Links follow EN, with four RU-only links: サンプル to 見本 and 標本, 個体 to 集団 and おおよそ to 正確.
+
+Qualified progress is **5,259 reviewed-current / 8 reviewed runtime-blocked / 3,011 pending of 8,278**,
+with 3,793 words, 718 kanji and 718 strokes. See the [intake](translation-batches/238-words-batch-77-intake.json),
+[independent review](translation-batches/238-words-batch-77-independent-review-001.md),
+[recheck](translation-batches/238-words-batch-77-recheck-001.md),
+[qualified source record](translation-batches/238-words-batch-77-reviewed-source.json) and
+[final validation](translation-batches/238-words-batch-77-final-validation-001.json).
+
+## Previous published source milestone: batch237 thirty words (general word queue)
 
 Batch237 adds 30 Russian word articles: おじゃまします ごめんください お待ちどおさま お待たせしました ごめん すまない 詫びる 評論
 診断 診る 訳す 言葉遣い 言付ける 言い付ける 解説 応ずる 回答 解答 溶ける 解散 占う 観測 アイデア アイディア 観念 親類 親指 覗く 見送る
