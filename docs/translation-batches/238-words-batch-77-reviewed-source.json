@@ -1,0 +1,147 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "238-words-batch-77",
+ "publishedBaseline": "a0af1d45b7f0152bfb00b849a6559b94f4870019",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 4f48fb3 and serialized rechecks of the signed fix commit f664ac5 found no remaining defect. Before the candidate the coordinator made one content edit, to words/看板.md (title, H1 and exclusions): the title «вывеска; доброе имя, гордость (заведения, фирмы)» became «вывеска; репутация (заведения, фирмы)», matching EN \"signboard; shop's reputation\" and JMdict 1213990 sense 3, because «доброе имя» contradicted the card's closing line «Ни одно из этих значений не гарантирует, что у заведения хорошая репутация» and the body nowhere supports «гордость»; the RU-added 誇り exclusion was removed, putting the list back at EN parity. Its adjudication records: \"Titles compared with EN one by one (`b238_titles.py`); one coordinator title edit (看板, above). Every EN `quiz_exclusions` entry is retained in EN order; metadata other than title/exclusions matches EN for all 30 cards.\" \"RU-added exclusions after edit 1: 4 pairs, all required for exact segments: 改める→調べる («проверять»), 見出し→サイン and 見出し→署名 («подпись»), 要旨→実 («суть»).\" It records that `navonly.py` reports 3 files, 3 links added, 0 problems; that `link_parity.py` over the 33 paths reports \"checked 33\" with no LOST or unexplained EXTRA link; that the lane title screen over the 30 words found no unguarded exact-segment overlap; that the stem-only leads 見学 ~ 伺う/通う/お見舞い, 改める ~ 改正, 見直す ~ 改める/改正/調べる, 索引 ~ 見出し, 書き取り ~ 写す and the different-sense leads 西暦 ~ 西洋, 襖 ~ 雨戸, 見かけ ~ 見える/違う, 要領 ~ 技術/説明, 要旨 ~ 考え/論文, 見出し ~ 記事/単語/言葉 and 見舞う ~ 診る were decided without a guard; that 看板's adapted サイン remark («не переводите им вывеску») and 見出し «подпись (к фото)» for the caption sense were handed to the reviewers as unverified Russian usage; and that 見舞う (which excludes and links 慰める) and 見学 (which excludes 観測) depend on Batch 237 titles, which are unchanged at f664ac5 (慰める «утешать (в горе, неудаче); успокаивать (душу, сердце)»; 観測 «наблюдения и измерения (погоды, небесных тел); прогнозная оценка (развития событий)»). The candidate screen on the published Batch 237 tree (b238-cand-screen.txt) found no unguarded exact segment; the exact shared segments are guarded (ぶつける–打つ «ударять», 見舞う–訪ねる «навещать», 改める–直す «исправлять», 改める–確かめる and 改める–調べる «проверять», 改める–見直す «пересматривать», 見本–型 «образец», 見出し–サイン and 見出し–署名 «подпись», 見出し–題名 «заголовок», 看板–評判 «репутация», おおよそ–およそ, くらい and 程度 «примерно», おおよそ–大体 «в целом», and 要旨–内容 and 要旨–実 «суть»). Correctness raised two findings. F1: 見かけ's title and H1 «видимость; внешний облик (в отличие от сути)» led with «видимость», whose first Russian sense is visibility, not the outward appearance of JMdict 1604420; they now read «внешний облик (в отличие от сути)», which also resolves comprehensibility C238-5. F2: 改める:44 called the further dictionary uses «более книжные»; JMdict 1200750 sense 4 \"to do properly; to do formally\" carries no bookish tag, so :44–45 now read «Словарь отмечает и другие употребления — «делать как положено, соблюдая формальности», — кроме приведённых здесь примеров.» and the citation adds «другие употребления — значение 4». Its optional note on 見下ろす:39–41 was adopted (see C238-7) and its optional note on ぶつける «швырять» was declined. Consistency raised five low to medium findings: Q1–Q3 (quiz safety), C1 (consistency) and T1 (title coverage). Q1: あらすじ «краткое содержание (фильма, книги, плана); краткий пересказ» and 内容 «содержание; суть» share «содержание» in the RU titles; あらすじ now has `quiz_exclusions: [内容, 筋]`. Q2: 要領 «суть дела (в объяснении); …» shares «суть» with 実 «плод; суть», which 要旨 already guards; 実 is now appended to 要領's list. Q3: 見出し's RU-introduced title segment «подпись (к фото)» was the only reason for the RU-added サイン and 署名 guards; the title and H1 now read «заголовок (статьи, раздела); заглавное слово (словарной статьи); указатель» and both guards are removed, restoring the EN list [題, 題名, 項目, 索引, 説明]; the body's «название или подпись» (:16, EN \"title or caption\") is unchanged. C1: サンプル:32 compared 見本 and 標本 in plain text although both RU cards exist; they are now `[見本](見本.md)（みほん）` and `[標本](標本.md)（ひょうほん）`, and the weaker cases were adopted as 個体:36 `[集団](集団.md)（しゅうだん）` and おおよそ:35 `[正確](正確.md)に（せいかくに）` (precedent きちんと:29), while a 個体→種 link was declined because RU words/種.md is たね «семя». T1: 個体's title dropped EN \"specimen\"; the title and H1 now read «особь; отдельный организм; экземпляр». Seven conservative displayed-label pairs from the reviewer's optional list were adopted: 個体–身体, 要領–技術, 要旨–圧縮, 見学–出席, 標本–代表, サンプル–型 and あらすじ–筋. Comprehensibility raised nine findings. C238-1: 改める:21 «Я хочу избавиться от вредных привычек.» stated removal rather than reform; it now reads «Я хочу исправить свои плохие привычки.» C238-2: 見慣れる:19 «Это привычный, хорошо знакомый пейзаж.» added knowing, which the card contrasts with 知る and 親しい; it now reads «Это привычный глазу пейзаж.» (adapted from the proposed «привычный на вид»). C238-3: 御覧's title did not cover the «Смотри, радуга!» use taught at :20; the title and H1 now read «взгляд (уважительно о чужом); посмотри; попробуй (сделать)», with the honorific qualifier kept on «взгляд» only. C238-4: あらすじ:20 «Перескажите, пожалуйста, вкратце содержание этого романа.» was a retelling command; it now reads «Расскажите, пожалуйста, краткое содержание этого романа.», keeping «краткое содержание» (the card's own title term) rather than the proposed «сюжет», which is 筋's title. C238-5 was resolved by F1; «кажущийся вид» was not added because EN has a single gloss and :17 already teaches the use. C238-6: 見本:27 «В метаданных по принятому в проекте правилу такие слова отмечены как исконные.» now reads «В метаданных оно отнесено к `wago` по исконному первому элементу, как принято в этом репозитории.», following the published 王様:24 pattern; deletion was declined because EN keeps the remark and published RU cards carry the same kind of note. C238-7: 見下ろす:39–41 rejected an English \"overlook\" sense that Russian never suggests; the passage now reads «Не настаивайте, что «смотреть свысока» на человека обязательно описывает его положение в пространстве: презрительное значение тоже отмечено в словаре.» C238-8: 複数:39 now ends at «окончания множественного числа.» without «как в английском». C238-9: 見学:25 «и для N2 это не отдельное задание» now reads «Это не обязательно значит уйти с урока; отдельно уровню N2 это употребление не присвоено.», following the published 削る:25 pattern. Its optional notes led to no change: ぶつける «швырнул» was declined, and 見舞う:28, 見かけ:17, サンプル:27, 書き取り:18 and 索引's lack of exclusions needed no action. At recheck of fix 1 (f664ac5) all three reviewers ran serially, read-only, with no generator run; each recheck covered the full diff 4f48fb3..f664ac5.\nCorrectness (gpt-6.1-sol) judged F1 (見かけ:4/:12: the misleading standalone «видимость» gloss removed, the outward-appearance and apparent-size teaching kept) and F2 (改める:44–47: proper/formal action restored, the register claim removed, JMdict 1200750 sense 4 cited) resolved and the adopted 見下ろす optional resolved (the English-dependent room/error contrast removed, the physical-view examples and contempt caution kept); it left the ぶつける optional not adopted («швырять» supported by \"fling/hurl\"). It found the other changes accurate: 御覧 «посмотри» covering JMdict 1270760 senses 1–3 with only the looking noun qualified as respectful, 個体 «экземпляр» (Kuznetsov, sense 2), 見出し keeping the heading, headword and index senses with the caption sense still in the body, the revised translations in 改める:21, 見慣れる:19 and あらすじ:20 at least as accurate as before, 見本:27 accurate about its own front matter, and 見学:25 and 複数 keeping EN's notes; no regression: correctness CLEAN, scoped coverage CLEAN.\nConsistency (claude-sonnet-5.5) judged Q1 (あらすじ→内容), Q2 (要領→実), Q3 (見出し: the «подпись (к фото)» segment and the サイン/署名 guards removed, the exclusion list back to EN's), C1 (サンプル→見本/標本 links, plus 個体→集団 and おおよそ→正確) and T1 (個体 «экземпляр») resolved, the adopted optional guards present and appended after the EN lists, and the declined 個体→種 link and the 見学 title-proportion point withdrawn; on all 16 changed cards it confirmed title = H1, the EN exclusion list as an exact prefix in EN order, no broken relative link and no leftover removed wording in the tree, found no unguarded exact-segment overlap for the four new titles (its own script over the RU word titles, not a rerun of the coordinator's screen), tools/validate.py 0 errors and manifest.json equal to an in-memory rebuild: consistency CLEAN, quiz safety CLEAN, cross-file integration CLEAN.\nComprehensibility (grok-4.7) judged C238-1 to C238-5 and C238-7 to C238-9 resolved (not maintaining its alternative wordings for C238-2 to C238-5 and C238-9), C238-6 partially resolved with the deletion not maintained (the residual metadata remark is corpus-wide), withdrew the ぶつける optional, did not reopen the other optionals and found no regression: comprehensibility CLEAN, scoped coverage CLEAN.\nNo actionable finding remains; no second fix is needed. Fix 1 changed no Japanese example sentence, sourced reading, navigation file or kanji card; it added the four RU-only links サンプル→見本 and 標本, 個体→集団 and おおよそ→正確. The correctness and comprehensibility reviewers read all 30 cards in full against EN; the consistency reviewer read all 30 RU cards and the three navigation diffs in full, read the EN originals of 見出し, 個体, 見学, 看板, あらすじ, 御覧, 西暦 and parts of 見下ろす and 見舞う in full and compared the others mechanically, checked every EN link targeting the 30 words, checked the intake path list, compared the manifest with an in-memory rebuild and ran `tools/validate.py` (0 errors). Evidence includes the full JMdict entries for all 30 words from the publisher's JMdict_e archive; Digital Daijisen (改める, ふすま); the dictionaries on gramota.ru, including Kuznetsov (among others видимость, подпись, особь, сноровка, муляж, сорвать, швырять and экземпляр); Wiktionary (пробник); and the Jisho API renderings of JMdict used by the comprehensibility reviewer. The rechecks found no regression. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 229 EN exclusions across 27 lists are retained in EN order; 索引, あらすじ and 複数 have none in EN. Thirty-three lie inside the batch: ぶつける–なぐる, 見舞う–なぐる, ぶつける and 攻める, 改正–改める and 改造, 改造–改める and 改正, 見直す–御覧, 改める and 改正, サンプル–個体, 実例–サンプル, 標本–サンプル, 実例 and 個体, 見本–サンプル, 標本, 実例 and 個体, 見出し–索引, 見下ろす–御覧, 見かけ–看板, おおよそ–あらすじ, 概論–あらすじ and おおよそ, 要旨–あらすじ, おおよそ and 概論, and 要領–要旨, あらすじ, おおよそ and 概論; the other 196 target existing RU cards. Eleven direct, one-sided exclusions on eight new cards cover reviewed RU title overlaps, all appended at the end of their lists, あらすじ's on a new quiz_exclusions line. At the candidate there were four on three cards, all classed by the coordinator as required for exact segments: 改める–調べる (調べる «исследовать; проверять», sharing «проверять»), 見出し–サイン and 署名 (サイン «автограф; подпись; сигнал» and 署名 «подпись; подписание», sharing «подпись») and 要旨–実 (実 «плод; суть», sharing «суть»); the authoring lane's 看板–誇り was removed by the coordinator with the 看板 retitle. Fix 1 added nine and removed two: あらすじ–内容 (consistency Q1; 内容 «содержание; суть») and 要領–実 (Q2), and the seven conservative displayed-label pairs 個体–身体 (身体 «тело (человека); организм»), 要領–技術 (技術 «техника; технология; умение»), 要旨–圧縮 (圧縮 «сжатие (воздуха, файлов); сжатое изложение (текста)»), 見学–出席 (出席 «присутствие»), 標本–代表 (代表 «представитель; характерный образец»), サンプル–型 (型 «форма; тип; образец») and あらすじ–筋 (筋 «сухожилие; полоса; сюжет»); it removed 見出し–サイン and 見出し–署名 with the «подпись (к фото)» title segment (Q3). The consistency reviewer classed 改める–調べる and あらすじ–内容 as required, 見出し–サイン and 署名 as conservative while the title kept «подпись», 要旨–実 as conservative but to be kept if Q2 was applied, and the seven adopted pairs as conservative at most; it found no over-guard and at recheck judged あらすじ–筋 defensible. After fix 1 the post-fix title screen of the four retitled cards (見かけ, 見出し, 個体 and 御覧; b238-postfix-screen.txt) found no unguarded exact segment: the one exact shared segment, 見出し–題名 «заголовок», is guarded by the EN pair; «посмотри» and «экземпляр» occur in no other RU title, 見かけ «внешний облик» meets only 様子 «положение дел; облик» (guarded by the EN pair), and the remaining unguarded leads are qualifier/stopword stems. The consistency recheck, by its own script over the RU word titles rather than a rerun of the coordinator's screen, also found no unguarded exact-segment overlap for the four new titles. Every RU addition is appended at the end of its list; the only removals are 見出し's two RU-added guards, and no EN entry is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/238-words-batch-77-intake.json",
+  "docs/translation-batches/238-words-batch-77-independent-review-001.md",
+  "docs/translation-batches/238-words-batch-77-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "改",
+   "攻",
+   "旨",
+   "暦",
+   "板",
+   "概",
+   "標",
+   "看",
+   "索",
+   "複",
+   "襖",
+   "覧",
+   "造",
+   "領"
+  ],
+  "navigationNote": "Restored 3 relative links in the 3 listed Markdown files at the corresponding EN-linked positions, using EN's href forms (../words/X.md in the kanji card, X.md in the word cards): 個体 in kanji 個 (line 36, matching EN line 36, in the word list), 書き取り in word 書く (line 22, matching EN line 21, in prose) and 攻める in word 責める (line 35, matching EN line 35, in prose). Each is the only mention of its target in the file. No surrounding prose was changed. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/個.md",
+   "words/書く.md",
+   "words/責める.md"
+  ],
+  "newWords": [
+   "なぐる",
+   "ぶつける",
+   "攻める",
+   "見舞う",
+   "御覧",
+   "改める",
+   "改正",
+   "改造",
+   "見直す",
+   "個体",
+   "サンプル",
+   "実例",
+   "標本",
+   "見本",
+   "見慣れる",
+   "見学",
+   "索引",
+   "見出し",
+   "見下ろす",
+   "看板",
+   "見かけ",
+   "あらすじ",
+   "おおよそ",
+   "概論",
+   "要旨",
+   "要領",
+   "西暦",
+   "襖",
+   "複数",
+   "書き取り"
+  ],
+  "selection": "Batch 77 selected 30 word cards from the frozen source: chunk 30 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,257 remained after Batch 237, and 1,227 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing outside them was added. Thirty-three source exclusion entries lie inside the batch; the other 196 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (12 EN link occurrences, 10 targets) in the new cards: ぶつける→words/ぶつかる, 改める→kanji 改 and words/改めて, 改正→kanji 改, 改造→kanji 改 and kanji 造, 看板→kanji 板, 要領→kanji 領 and words/能率, 西暦→words/生年月日, and 複数→kanji 複 and words/単数. 14 written kanji have no RU kanji card: 改 攻 旨 暦 板 概 標 看 索 複 襖 覧 造 領 (EN has cards only for 改, 板, 複, 造 and 領). Links otherwise follow EN. Fix 1 added four RU-only links to existing cards that the frozen EN cards name in plain text: サンプル:32 → 見本 and 標本, 個体:36 → 集団 and おおよそ:35 → 正確. A 個体 → 種 link was declined because RU words/種.md is the different word たね.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined, partially adopted, adapted or no-action items: consistency Q3 was adopted in the title only; the suggested body rewording «подпись-заголовок (например, к фото)» was not adopted, because :16 «название или подпись» renders EN \"title or caption\". The 個体→種 link proposed with C1 was declined: RU words/種.md is the different word たね «семя», so the link would mislead; the consistency reviewer withdrew it at recheck. The 見学:4 title-proportion optional was declined: the qualifier names the PE-observation use taught at :23–25, and 出席 is now excluded; withdrawn at recheck. Comprehensibility C238-2, C238-3 and C238-9 were adopted with adapted wording («привычный глазу» rather than «привычный на вид»; the honorific qualifier kept on «взгляд» only rather than «посмотри (уважительно или по-простому)»; the published 削る:25 pattern rather than «и на этом уровне это не отдельное задание»), and the reviewer did not maintain its alternatives at recheck. C238-4 was partially adopted: «Расскажите» replaces «Перескажите», but «краткое содержание» is kept rather than «кратко сюжет», because «сюжет» is the title of 筋 (now excluded); resolved at recheck. C238-5 was resolved by correctness F1 without adding «кажущийся вид»: EN has the single gloss \"outward appearance\", and the body already teaches 見かけの as «видимый, кажущийся». C238-6 was partially adopted: the vague rule claim in 見本:27 now follows the 王様:24 pattern, but deletion was declined because EN keeps the metadata remark and published RU cards (王様:24, 景色:38, 気付く:50) carry the same kind of note; the reviewer judged it partially resolved and did not maintain the deletion, since the residual «метаданные» and `wago` remarks are corpus-wide. Whether such remarks should be dropped corpus-wide is on the project's follow-up list. The ぶつける «швырять»/«швырнул» optional notes (correctness and comprehensibility) were declined: JMdict 2742080 sense 2 includes \"fling; hurl\", and «швырять» keeps the hitting throw distinct from the excluded 投げる «бросать»; correctness left it not adopted and comprehensibility withdrew it at recheck. The comprehensibility observations on 見舞う:28, 見かけ:17, サンプル:27 and 書き取り:18 raised no defect and led to no action. 索引 declares no exclusions, as in EN: the 見出し–索引 pair is declared on the 見出し side, and exclusions are symmetric pair declarations; the comprehensibility recheck kept this outside its facets.",
+  "exclusionsAddedBeyondEn": {
+   "あらすじ": [
+    "内容",
+    "筋"
+   ],
+   "サンプル": [
+    "型"
+   ],
+   "個体": [
+    "身体"
+   ],
+   "改める": [
+    "調べる"
+   ],
+   "標本": [
+    "代表"
+   ],
+   "要旨": [
+    "実",
+    "圧縮"
+   ],
+   "要領": [
+    "実",
+    "技術"
+   ],
+   "見学": [
+    "出席"
+   ]
+  },
+  "titles": {
+   "あらすじ": "краткое содержание (фильма, книги, плана); краткий пересказ",
+   "おおよそ": "примерно, в целом; общие очертания (дела, рассказа)",
+   "なぐる": "бить с силой (кулаком, палкой); наносить удар",
+   "ぶつける": "ударять (обо что-либо); швырять (во что-либо); срывать (злость) на ком-либо",
+   "サンプル": "пробный образец, пробник; образец для анализа; муляж (блюда на витрине)",
+   "個体": "особь; отдельный организм; экземпляр",
+   "実例": "реальный пример; действительный случай",
+   "御覧": "взгляд (уважительно о чужом); посмотри; попробуй (сделать)",
+   "改める": "пересматривать (текст, правила); исправлять (привычки); проверять (билеты, документы)",
+   "改正": "пересмотр (закона, правил); внесение поправок",
+   "改造": "переделка, переоборудование (машины, здания); реорганизация (кабинета министров)",
+   "攻める": "атаковать (противника, ворота); браться (за трудное дело); действовать смело",
+   "書き取り": "диктант; переписывание (текста, кандзи)",
+   "概論": "общий обзор (науки, предмета); введение (в дисциплину)",
+   "標本": "экспонат коллекции, препарат; выборка (в статистике); показательный пример",
+   "看板": "вывеска; репутация (заведения, фирмы)",
+   "索引": "предметный указатель (в книге)",
+   "複数": "несколько (более одного); множественное число",
+   "襖": "фусума (непрозрачная раздвижная перегородка)",
+   "西暦": "летоисчисление нашей эры; год по западному календарю",
+   "要旨": "основная мысль, суть (доклада, статьи); краткое изложение; аннотация (научной работы)",
+   "要領": "суть дела (в объяснении); сноровка, умение взяться за дело",
+   "見かけ": "внешний облик (в отличие от сути)",
+   "見下ろす": "смотреть сверху вниз (с высоты); смотреть свысока (на кого-либо)",
+   "見出し": "заголовок (статьи, раздела); заглавное слово (словарной статьи); указатель",
+   "見学": "ознакомительное посещение (завода, музея); присутствие без участия (на уроке физкультуры)",
+   "見慣れる": "привыкать видеть (что-либо); становиться привычным на вид",
+   "見本": "образец (товара, ткани); пример для подражания",
+   "見直す": "перепроверять, пересматривать (ответ, план); менять мнение к лучшему (о ком-либо)",
+   "見舞う": "навещать (больного, пострадавшего); обрушиваться (о бедствии, ударе)"
+  }
+ }
+}
