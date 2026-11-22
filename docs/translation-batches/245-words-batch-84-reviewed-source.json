@@ -1,0 +1,130 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "245-words-batch-84",
+ "publishedBaseline": "8e25ff3c9e80dfbb1120677d04bfb6eaa0699ff1",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 004903d and serialized rechecks of the signed fix commit 1dc38a8 found no remaining defect. The 32 lane files (30 new cards and the navigation files 休日 and 突き当たる) were copied from the authoring worktree; the coordinator's candidate script then applied one link held from Batch 243, words/編集.md:33 [社説](社説.md), because 編集 is a Batch 243 card. Before the candidate the coordinator read all 30 cards in full against frozen EN and compared the non-title metadata mechanically (\"all match except two RU-added exclusions 社説→論文 and 社会科学→自然科学, accepted on the B224 precedent: the bodies contrast exactly these words and the RU titles share «статья»/«науки» stems\"). Its link audit accepted one LOST link, 税関→習慣, because EN's English-homonym note (\"customs\" versus \"habits\") was dropped: Russian «таможня» has no \"habits\" sense; and one RU-only link, 祭日→祝日 (\"body compares the two directly; the RU content-structure rule permits links at substantive comparisons — accepted, flagged for consistency review\"). It made four edits: 架空's title and H1 «вымышленный; подвесной (о проводах, канатах)» instead of «…(натянутый в воздухе)»; 祭る's title and H1 «помещать в святилище; поклоняться (божеству)» instead of «обожествлять; поклоняться (божеству)» (EN \"enshrine\"); 標識 «…а не история происхождения этих кандзи.» instead of «…знаков.»; and 空っぽ «Свободное время для записи обычно называют 空き, а не описывают как ёмкость без содержимого.», repairing a broken construction. It kept the おやすみ title for blind review \"as a title-fit question, not a known defect\", accepted the dropped English-only notes (移転 \"demise\", 社説 \"leader\", 磁石 drawing compass, 社会科学's singular/plural note replaced by a Russian plural note), and recorded the gramota.ru checks of 神様 «Бог»/«бог», 秤 «весы» and 標識 «знак» as rate-limited (HTTP 429) and unverified, not defects. Lane validation: \"manifest 5,469 files; validate 0 errors; 124 tests OK; budget OK; link parity: only the two links above; navonly 2 files / 2 links / 0 problems; diff --check clean; no BOM/CR/missing EOL.\" The candidate script byte-compared the copies, applied the held link (one line changed in words/編集.md) and regenerated the manifest (5,469 entries); its stopping checks (validate, unit tests, budget, `git diff --check` and the navigation-only check over the three files) passed. For this record the 33 committed content blobs at 004903d and at 1dc38a8 were checked: none has a BOM or CR, and every file ends with a newline; link parity at 1dc38a8 shows LOST only 税関→習慣 and EXTRA only the two reviewed RU-only links; the candidate title screen (b245-cand-screen.txt, 312 lines) has no exact-segment line and differs from the lane screen only in three stem-only lines whose comparison titles (広々, 職人, 編集) were retitled by earlier published fixes. Correctness raised one low finding (correctness NEEDS FIX; scoped coverage NEEDS FIX): F01, おやすみ's «отход ко сну (уважительно)» narrowed JMdict 1612680 sense 2 \"sleep; rest\" (sonkeigo) to bedtime and omitted EN's \"rest\"; the title and H1 now mirror EN \"day off; rest; good night\" as «выходной; отдых; спокойной ночи», which also answers comprehensibility C245-03, and 佚 «отдых; непринуждённость» is appended to おやすみ's exclusions. Its optional on 祭る:20–21 was adopted with C245-01. Consistency raised one low finding (consistency CLEAN; quiz safety NEEDS FIX; scoped coverage / cross-file integration CLEAN): F1, 童話 «…история для детей» did not guard 歴史 «история»; 歴史 is appended. Its optional F2 (社説→評論, «критическая статья») and its optional removal of the RU-added 社会科学→自然科学 (\"unjustified … harmless\") were both taken, so 社会科学 returns to EN [科学]. Comprehensibility raised fifteen findings (comprehensibility NEEDS FIX; scoped coverage NEEDS FIX for 祭る and 秤). C245-01 (high): 祭る's «почитают/почитаем» blurred it with 敬う; the meaning line now reads «помещать в святилище, обожествлять», the examples «Это святилище посвящено богу моря.» and «На домашнем алтаре помещено божество для поклонения.», and a new line contrasts [敬う](敬う.md)（うやまう） as an attitude. C245-02: 秤:34 «…но от этого не становятся 秤.» C245-03: おやすみ's title, via F01. C245-04: おやすみ:30 «Само заголовочное слово записано каной, без кандзи.» C245-05: 符号 «условное обозначение; код; знак числа» (shortened; コード is guarded). C245-06 and C245-07: 空っぽ «пустой; полый», «Коробка внутри была пустой.», and the bottle sentence deleted. C245-08: 先祖 «предки рода; родоначальник» and 祖先 «предок; предшествующие поколения». C245-09: 敬う «уважать; чтить». C245-10: 標識:45 «языковой показатель» (например, показатель грамматической роли). C245-11 and C245-12: 架空:35 «Словарь приводит…» and 磁石:40 ending at «…о магните и компасе.» C245-13: 立ち止まる «останавливаться на ходу; делать паузу». C245-14 (partial): 空想 «мечтание; фантазия; воображаемая картина». C245-15: «Мы» removed in 移転:20, 確率:19 and 祖先:21. All accepted changes are in the one signed fix commit 1dc38a8 (\"Batch 245 fix 1: apply blind-review dispositions\"). B245 had one signed fix commit after the blind reviews: fix 1 (1dc38a8) applied the dispositions of all three reviews (18 word cards + manifest.json; no navigation-only file changed after the candidate). Each reviewer rechecked the fix diff 004903d..1dc38a8 once, serially (correctness, then consistency, then comprehensibility), read-only, with no generator run; the rechecks were written as separate reports (b245-recheck-{correctness,consistency,comprehensibility}.md).\nCorrectness (gpt-6.1-sol) at 1dc38a8 judged F01 resolved by the alternative wording (おやすみ «выходной; отдых; спокойной ночи» restores EN's rest sense without restricting it to bedtime; JMdict 1612680 senses 1–3) and the 祭る:20–21 optional resolved as an implemented improvement (JMdict 1295250 senses 1–2; Daijisen 祭る sense 2). It checked every changed passage of the 18 files: 祭る «обожествлять» and the 敬う contrast (Daijisen 敬う includes 神仏を敬う), 符号 (JMdict 1497710), 空想 «мечтание» (JMdict 1245730; Kuznetsov «мечтание»), 敬う «уважать; чтить» (JMdict 1250700), 立ち止まる «делать паузу» (JMdict 1551350), 標識:45 (JMdict 1488700 sense 2), the subjectless 移転/確率/祖先 translations (with the caution that «Бережём» still encodes first person plural and must not be described as number-neutral), 先祖/祖先, 空っぽ (noting that the deleted bottle sentence is in EN and so not strictly English-only, but that the emptiness-versus-availability boundary survives at :16,19,29,33), the editorial wording of おやすみ:30, 架空:35, 磁石:40 and 秤:34, and the exclusion changes (no EN exclusion lost). All 37 Japanese example/kana pairs in the 18 changed cards match the parent and frozen EN. Final: correctness CLEAN; scoped coverage CLEAN; no new finding. Its stated limits: a delta recheck, not an exhaustive corpus, comprehensibility, quiz-pool or native-speaker audit; no validator, generator, app or media tests run.\nConsistency (claude-sonnet-5.5) at 1dc38a8 ran validate.py (0 errors) and judged F1 (童話 +歴史), the optional F2 (社説 +評論) and the 社会科学→自然科学 removal (now EN [科学]) resolved; the other optionals unchanged and acceptable. It screened the 11 new or changed titles against all 4,003 RU word titles (exact segments in code; stems by hand) and found no unguarded overlap; it judged the 佚 guard on おやすみ justified and sufficient (shared «отдых»; RU-introduced, appended after the EN entries) and the RU-only 祭る→[敬う](敬う.md) link acceptable (target exists; reading and gloss match; 敬う already a direct guard); changed body text conflicts with no sibling card; all 18 changed hashes match the manifest, whose diff is 18 file entries + contentVersion. Final: consistency CLEAN; quiz safety CLEAN; manifest/validation CLEAN; no findings. Its stated limits: the stem screen used keyword patterns it chose, not an exhaustive semantic check; EN prose not re-compared line by line; reverse-direction guards not required and not checked.\nComprehensibility (grok-4.7 requested) at 1dc38a8 reported \"Comprehensibility: PASS. Scoped coverage: PASS. No remaining finding.\" and judged the earlier coverage exceptions 祭る and 秤 fixed. It reconciled C245-01, -02, -04, -06 to -09, -11 to -13 and -15 as resolved, C245-03 (おやすみ), -05 (符号) and -10 (標識) as resolved by other remedies, and C245-14 (空想) as partially resolved with the leftover «воображаемая картина» accepted, not a defect. It found no regression in 祭る's new meaning line, examples and 敬う contrast, or in the subjectless translations. Optional, not findings: unchanged 祭る:16 «почитаемое божество» and :33 «почитание» still use the attitude word; 祖先's meaning line says «поколения рода» before widening to 人類. Its stated limits: did not re-read the 12 unchanged batch cards or re-run the title screen or link parity; dictionary tags not re-opened; model not verifiable from the session.\nNo actionable finding remains; no second fix is needed. Fix 1 changed no Japanese example sentence, sourced reading, kanji card, navigation file or EN exclusion; it changed 18 word cards (35 lines added and 34 removed), retitled eight cards, added four exclusions, removed the RU-added 自然科学 entry and added one reviewed RU-only link. All three reviewers read all 30 cards in full against their EN originals and the three navigation diffs; the consistency reviewer also checked the intake's path list and payload hashes and the manifest entries, and ran `tools/validate.py` (0 errors) at the candidate and at the recheck, removing the untracked Python bytecode cache it created at the candidate. The correctness reviewer ran no validator; the comprehensibility reviewer ran the title screen and link parity as leads at the candidate and no validator. No reviewer ran a generator. Evidence includes the official JMdict XML and KANJIDIC2, Digital Daijisen via weblio, Kuznetsov via gramota.ru and ru.wiktionary; the consistency reviewer relied on its knowledge and the cards' cited senses rather than fresh lookups. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, recheck reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 93 EN exclusions across 26 lists are retained in EN order (EN has no list on 税関, 秤, 私立 or 磁石). Nine lie inside the batch: 符号–標識, 空想–架空, 空中–架空, 祭日–おやすみ, 祭る–お参り and 敬う, 祝日–祭日 and おやすみ, and 祖先–先祖; the other 84 target existing RU cards. Four direct, one-sided exclusions on three new cards cover reviewed RU title overlaps, all appended at the end of their lists. One was present at the candidate, accepted by the coordinator: 社説–論文 (論文 «научная статья; диссертация»; the consistency reviewer: \"conservative … It is harmless and may stay\"). Fix 1 added three: 童話–歴史 (歴史 «история»; consistency F1), 社説–評論 (評論 «критический анализ (произведений, событий); критическая статья»; the optional F2) and おやすみ–佚 (佚 «отдых; непринуждённость»; needed once おやすみ's title gained «отдых»; the consistency recheck: \"justified and sufficient\", \"conservative, with a real lexical basis\"). Fix 1 removed the candidate's RU-added 社会科学–自然科学 (自然科学 «естественные науки»), which the consistency reviewer classed as \"unjustified (guards a contrast the article itself teaches; shared «науки» only)\"; the titles are disambiguated by their modifiers. The candidate title screen (b245-cand-screen.txt; 312 lines) has 31 OK lines for guarded pairs and 281 unguarded stem-only lines, and no exact-segment line. A saved rerun at 1dc38a8 over the 30 batch words (b245-postfix-screen.txt; 287 lines) has 37 OK lines and 250 unguarded stem-only lines; its five exact-segment lines are all guarded: 符号–コード «код», 空っぽ–からから «пустой», おやすみ–休み «выходной» and «отдых», おやすみ–休日 «выходной», and おやすみ–佚 «отдых». The consistency recheck's exact-segment screen of the 11 new or changed titles against all 4,003 RU word titles found no unguarded overlap. Every RU addition is appended at the end of its list, and no EN entry is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/245-words-batch-84-intake.json",
+  "docs/translation-batches/245-words-batch-84-independent-review-001.md",
+  "docs/translation-batches/245-words-batch-84-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "敬",
+   "架",
+   "標",
+   "率",
+   "磁",
+   "祝",
+   "祭",
+   "秤",
+   "移",
+   "税",
+   "童",
+   "競",
+   "符",
+   "鉄"
+  ],
+  "navigationNote": "Restored 3 relative links in the 3 listed Markdown files at the corresponding EN-linked positions, using EN's href form (X.md): おやすみ in word 休日 (line 26, matching EN line 27, written [お休み](おやすみ.md) as in EN, with the gloss «выходной; отдых» unchanged), 突き当たり in word 突き当たる (line 30, matching EN line 35; the verb forms on lines 20–22 and 24 are different strings and stay plain, as in EN) and 社説 in word 編集 (line 33, matching EN line 34). Each file mentions its target only on the linked line. The 休日 and 突き当たる files were copied from the authoring worktree; the 編集 link was held from Batch 243, whose reviewed record left 編集→社説 plain because 社説 did not exist yet, and was applied by the coordinator's candidate script as a one-line change. No surrounding prose was changed, and no navigation file changed after the candidate. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "words/休日.md",
+   "words/突き当たる.md",
+   "words/編集.md"
+  ],
+  "newWords": [
+   "標識",
+   "符号",
+   "競馬",
+   "童話",
+   "立ち止まる",
+   "窓口",
+   "突き当たり",
+   "架空",
+   "空想",
+   "空中",
+   "空っぽ",
+   "税関",
+   "移転",
+   "秤",
+   "私鉄",
+   "私立",
+   "おやすみ",
+   "祭日",
+   "お参り",
+   "敬う",
+   "祭る",
+   "神話",
+   "神様",
+   "祝日",
+   "先祖",
+   "祖先",
+   "社説",
+   "社会科学",
+   "磁石",
+   "確率"
+  ],
+  "selection": "Batch 84 selected 30 word cards from the frozen source: chunk 37 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,047 remained after Batch 244, and 1,017 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing outside them was added. Nine source exclusion entries lie inside the batch; the other 84 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (13 EN link occurrences, 11 targets) in the new cards: 符号→kanji 符, 競馬→kanji 競, 童話→kanji 童, 税関→kanji 税, 移転→kanji 移, 私鉄→kanji 鉄, 私立→words/国立, 祭日→kanji 祭, 敬う→kanji 敬, 祭る→kanji 祭, 祝日→kanji 祝, 先祖→words/子孫 and 祖先→words/子孫. 14 written kanji have no RU kanji card: 敬 架 標 率 磁 祝 祭 秤 移 税 童 競 符 鉄 (EN has cards only for 敬, 祝, 祭, 移, 税, 童, 競, 符 and 鉄). One EN link to an existing card is deliberately dropped: 税関 omits EN's sentence 'English \"customs\" here does not mean [習慣](習慣.md), habits or customs.' (EN line 35), an English-homonym warning with no Russian counterpart, so the RU card has no mention to link. Links otherwise follow EN, with two reviewed RU-only links to existing cards at substantive comparisons where EN has plain text: 祭日:29 → words/祝日 («[祝日](祝日.md)（しゅくじつ）тоже называет торжественный день или национальный праздник.»; present at the candidate) and 祭る:36 → words/敬う («[敬う](敬う.md)（うやまう）— «уважать, чтить» человека или божество; это отношение, а не помещение божества в святилище.»; added by fix 1, comprehensibility C245-01). All 5 EN links between batch cards are kept.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined, modified or no-action items: correctness F01 was resolved by an alternative wording («выходной; отдых; спокойной ночи» instead of the proposed «выходной день (вежливо); сон или отдых (уважительно); спокойной ночи»), which the reviewer accepted (\"Exact wording from my proposed remedy is unnecessary\"). Comprehensibility C245-03 and C245-05 were resolved by other remedies (the F01 title; 符号 «условное обозначение; код; знак числа» instead of «кодовое обозначение; знак числа», with コード already guarded), C245-10 with a reworded gloss, and C245-14 partially: «грёзы» became «мечтание», while «воображаемая картина» stays for EN parity (\"imagined vision\"); the reviewer accepted the leftover as not a defect. The correctness recheck noted that the deleted 空っぽ bottle sentence is in EN and so not strictly English-only, contrary to the disposition's rationale, but that its emptiness-versus-availability boundary survives at :16,19,29,33, and that «Бережём» still encodes first person plural. Consistency's other optionals needed no action: 上京/移転 and 祭日/祭 guards not required, no exclusions for 税関, 秤, 私立 or 磁石, tag parity with EN, and the dropped 習慣 link, since the RU 税関 has no mention to link. The comprehensibility optionals (祝日's two segments, 祭日:25, 社説 «передовица», 童話, 私立, 窓口, 私鉄) and its recheck optionals (祭る's remaining «почитаемое божество» and «почитание», lines 17 and 34 of the final file; 祖先's «поколения рода» before 人類) needed no change and remain non-blocking. No follow-up was posted as part of this batch.",
+  "exclusionsAddedBeyondEn": {
+   "おやすみ": [
+    "佚"
+   ],
+   "社説": [
+    "論文",
+    "評論"
+   ],
+   "童話": [
+    "歴史"
+   ]
+  },
+  "titles": {
+   "おやすみ": "выходной; отдых; спокойной ночи",
+   "お参り": "посещение храма или могилы; поклонение",
+   "先祖": "предки рода; родоначальник",
+   "敬う": "уважать; чтить",
+   "架空": "вымышленный; подвесной (о проводах, канатах)",
+   "標識": "опознавательный знак; указательный знак",
+   "確率": "вероятность",
+   "磁石": "магнит; компас",
+   "社会科学": "общественные науки",
+   "社説": "передовица; редакционная статья",
+   "祖先": "предок; предшествующие поколения",
+   "祝日": "государственный праздник; общенациональный праздник",
+   "神様": "почитаемое божество; непревзойдённый мастер",
+   "神話": "миф; мифология",
+   "祭る": "помещать в святилище; поклоняться (божеству)",
+   "祭日": "день празднества (обряда); национальный праздник",
+   "私立": "частное учреждение (особенно школа)",
+   "私鉄": "частная железная дорога",
+   "秤": "весы",
+   "移転": "переезд (учреждения); передача права собственности",
+   "税関": "таможня; таможенная служба",
+   "空っぽ": "пустой; полый",
+   "空中": "пространство над землёй; в воздухе",
+   "空想": "мечтание; фантазия; воображаемая картина",
+   "突き当たり": "конец улицы или коридора",
+   "窓口": "окошко обслуживания; контактное лицо или служба",
+   "立ち止まる": "останавливаться на ходу; делать паузу",
+   "童話": "сказка; история для детей",
+   "競馬": "конные скачки",
+   "符号": "условное обозначение; код; знак числа"
+  }
+ }
+}
