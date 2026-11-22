@@ -1,6 +1,71 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch238 thirty words (general word queue)
+## Current published source milestone: batch239 thirty words (general word queue)
+
+Batch239 adds 30 Russian word articles: 清書 複写 裏口 裂く 被せる カバー 表紙 衣食住 街角 行列 儀式 行事 血液 血圧 蝋燭 コック
+蛇口 蚊 虹 思い付く 蘇る 薬缶 薬指 薬局 薬品 薄暗い 薄める 蕎麦 栓 蓋. They are chunk 31 of 72 of the general remaining-word
+queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is exactly the 30 requested words,
+so every EN quiz_exclusions target resolves to an existing RU word or a word in the batch; 10 of the 71 EN entries lie
+inside the batch.
+
+Navigation-only link wraps restore 13 links at EN link positions in 9 existing pages: the kanji cards 圧 (to 血圧), 局 and
+薬 (three each to 薬局) and the word cards 側 (to 蕎麦), 虫, 蛍 and 蝶 (to 蚊), 蛇 (to 蛇口) and 被る (to 被せる). The new cards
+keep EN's links to existing cards; their links to the word cards 下書き, 着せる, 液体, 気圧, 夜間 and うどん and the kanji cards
+清, 複, 裏, 被, 衣, 角, 血, 液, 蛇, 蚊, 缶, 薄 and 麦 stay plain until those targets are adapted.
+
+The batch covers:
+- copying: a fair copy or rewriting neatly (清書) and copying or reproduction (複写);
+- covering and closing: to cover or put on someone's head (被せる), a cover, covering or making up for a shortfall (カバー),
+  a book cover or binding (表紙), a lid or cap (蓋) and a stopper, plug or tap valve (栓);
+- taps: a cook or a tap valve (コック) and a faucet or tap (蛇口);
+- tearing: to tear apart or split open (裂く);
+- streets and entrances: a rear entrance or back door (裏口) and a street corner (街角);
+- daily life: food, clothing and shelter (衣食住);
+- queues and ceremonies: a queue, procession or matrix (行列), a ceremony, rite or ritual (儀式) and an organized event or
+  function (行事);
+- blood: blood (血液) and blood pressure (血圧);
+- the mind: to hit upon an idea or recall (思い付く) and to revive, be restored or come back to memory (蘇る);
+- 薬 words: a kettle (薬缶), the ring finger (薬指), a pharmacy (薬局) and medicines or chemical agents (薬品);
+- thinness: dim or poorly lit (薄暗い) and to dilute or tone down (薄める);
+- other: a candle (蝋燭), a mosquito (蚊), a rainbow (虹) and buckwheat or soba noodles (蕎麦).
+
+All 71 EN exclusions are retained in EN order. Thirteen direct guards on 10 new cards cover reviewed RU title overlaps:
+行列–番, 行列–順番, 血液–血, 衣食住–服 and 栓–渋滞 are required for exact segments; 清書–書き取り, 被せる–履く, 蛇口–水道, 蘇る–浮かぶ,
+衣食住–衣服, 衣食住–住宅, 薬品–農薬 and 裂く–びりびり are conservative and harmless (the consistency reviewer classed
+清書–書き取り and 蘇る–浮かぶ as required, and 裂く–びりびり as conservative-to-required).
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: two findings, the narrowed recall segment of the 思い付く title and the lost ておく in a 被せる example
+  translation, and one optional note on author-facing wording in コック;
+- consistency: one missing quiz guard, 裂く–びりびり, and one optional note on the "no kanji card yet" statements in 蓋 and
+  蝋燭;
+- comprehensibility: eleven findings, on the 思い付く, 複写 and 裂く titles (the last with its cut-open gloss), the
+  example translations in 血圧, 蓋 and 街角, and the prose in コック, 蛇口, 蕎麦, カバー and 被せる.
+
+One signed fix commit addressed them:
+- two titles changed: 思い付く «придумывать; вспоминать» and 複写 «копирование; воспроизведение»;
+- example translations were rewritten in 被せる, 血圧, 蓋, 街角, 虹, 衣食住 and 薄める, and prose was reworded in コック, 蛇口,
+  蕎麦, カバー, 血圧, 被せる and 裂く;
+- one exclusion (裂く–びりびり) was added and none removed, no link was added or removed, and several suggested wordings
+  were adapted rather than adopted.
+
+The serial rechecks reported correctness, consistency, quiz safety, comprehensibility and scoped coverage clean, with no
+regression; the declined points were withdrawn or not maintained. Whether metadata remarks like the one in 蛇口 should be
+dropped corpus-wide, and the refresh of "no kanji card yet" statements, stay on the follow-up list.
+
+Links follow EN, with three RU-only links: カバー to 表紙, コック to 蛇口 and 栓 to 渋滞.
+
+Qualified progress is **5,289 reviewed-current / 8 reviewed runtime-blocked / 2,981 pending of 8,278**,
+with 3,823 words, 718 kanji and 718 strokes. See the [intake](translation-batches/239-words-batch-78-intake.json),
+[independent review](translation-batches/239-words-batch-78-independent-review-001.md),
+[recheck](translation-batches/239-words-batch-78-recheck-001.md),
+[qualified source record](translation-batches/239-words-batch-78-reviewed-source.json) and
+[final validation](translation-batches/239-words-batch-78-final-validation-001.json).
+
+## Previous published source milestone: batch238 thirty words (general word queue)
 
 Batch238 adds 30 Russian word articles: なぐる ぶつける 攻める 見舞う 御覧 改める 改正 改造 見直す 個体 サンプル 実例 標本 見本
 見慣れる 見学 索引 見出し 見下ろす 看板 見かけ あらすじ おおよそ 概論 要旨 要領 西暦 襖 複数 書き取り. They are chunk 30 of 72 of

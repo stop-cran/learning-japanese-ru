@@ -1,0 +1,168 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "239-words-batch-78",
+ "publishedBaseline": "52d5c9c93d2a9cd6847ce846bae0f1db2a245496",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 39b6bd1 and serialized rechecks of the signed fix commit 8cc7216 found no remaining defect. Before the candidate the coordinator made two content edits and no title edit. Edit 1, words/思い付く.md:20: the example translation «Мне не приходит хорошая идея.» \"lacks «в голову» and is not grammatical Russian\"; it became «Хорошая идея в голову не приходит.», which \"keeps the idea as subject, matching the card's が remark; EN \"I can't think of a good idea.\"\". Edit 2, words/栓.md:40: \"the list of Russian renderings omitted «кран», which the title and example 2 use; now «пробка», «затычка», «кран» или «вентиль».\" Its adjudication records: \"Titles compared with EN one by one (`b239_titles.py`): no coordinator title edit. Every EN `quiz_exclusions` entry is retained in EN order; RU additions are appended.\" It records 12 RU-added exclusions on 9 cards: required 行列→番 and 順番 («очередь»), 血液→血 («кровь»), 衣食住→服 («одежда») and 栓→渋滞 («пробка»), and conservative 清書→書き取り, 被せる→履く, 蛇口→水道, 蘇る→浮かぶ, 衣食住→衣服 and 住宅, and 薬品→農薬. It records that `navonly.py` reports 9 files, 13 links added, 0 problems; that `link_parity.py` over the 39 paths found the RU-only links カバー:43 → 表紙 (EN:35 makes the same book-cover comparison in plain text), コック → 蛇口 (EN plain-text comparison) and 栓 → 渋滞 (in the RU-added traffic-jam sentence), with the pre-existing extras 局 → 郵便局 and 側 → 近く/隣 identical at the base 4f48fb3; that the lane title screen over the 30 words found every exact-segment overlap guarded; that the stem-only leads (among them 清書/表紙 «переп», 裂く «части», 衣食住 «одежд» and «жильё», 行列 «очере», 蘇る «восст»/«памят», 薬品 «средс» and 薄める «впеча»/«возде») were decided without a guard; that the author's deviations were accepted (裂く's title without «разлучать», 栓's RU-added sentence that 栓 is not a traffic «пробка», the コック → 蛇口 link, and English-dependent remarks adapted or dropped in 清書, 儀式, コック, 薬指, 薬品 and 衣食住); that 被せる «надевать (на голову другому)», 思い付く's recall qualifier, 蓋 «крышка» alone, 行事 «мероприятие» alone, 蓋:20's agentive translation and 儀式's «служба» paragraph were left to the blind review; that «служба», «вспарывать», «додумываться», «затычка», «химикаты» and «полутёмный» were handed to the reviewers as unverified Russian usage; and that 清書 (RU-added) and 複写 (EN) exclude the Batch 238 card 書き取り, whose title «диктант; переписывание (текста, кандзи)» is identical at 4f48fb3 and at the published 52d5c9c (Batch 238's fix f664ac5 did not change words/書き取り.md). The candidate screen on the published Batch 238 tree (b239-cand-screen.txt; 28 OK lines for guarded pairs and 115 stem-only lines) found no unguarded exact segment; the exact shared segments are guarded (被せる–着る «надевать», 衣食住–服 «одежда», 行列–列, 番 and 順番 «очередь», 儀式–式 «церемония», 血液–血 «кровь», コック–栓 «вентиль», 思い付く–思い出す «вспоминать» and 栓–渋滞 «пробка»). Correctness raised two findings. C1: 思い付く's title and H1 «придумывать, додумываться; вспоминать (о мысли, пришедшей на ум)» restricted the recall segment to a previously occurring thought, against Digital Daijisen sense 2 (急用を思い付く) and JMdict 1589330 sense 2 \"to remember; to recall\"; merged with comprehensibility C7, which showed that bare «додумываться» can mean speculating beyond what was said and that the title was too long for an option, they now read «придумывать; вспоминать», a two-segment rendering of EN \"hit upon an idea; recall\"; the body keeps «додуматься до идеи», and the exact segment «вспоминать», 思い出す's whole title, is guarded by this card's existing exclusion. C2: 被せる:20 «Я накрыл еду крышкой.» lost the leaving-in-place sense of ておく (Daijisen 置く sense 12㋑; EN \"I left a lid over the food\"); it now reads «Я накрыл еду крышкой и оставил её накрытой.» Its optional note on コック:44 (author-facing source-row wording; JMdict 1050310 versus 2862559) was adopted with comprehensibility C1. Consistency raised one low finding, Q1: 裂く «раздирать на части; вспарывать» and びりびり «рвать в клочья; дребезжать; покалывание (током)» share the tearing sense and were unguarded; びりびり is now appended to 裂く's list. It classed 清書→書き取り and 蘇る→浮かぶ as required rather than conservative; both pairs are present. Its optional note on the \"no kanji card yet\" statements at 蓋:24 and 蝋燭:29 was declined. Comprehensibility raised eleven findings. C1: コック:44 «Исходная строка объединяет значения двух записей» and «нидерландской записи kok» were author-facing; line 44 is removed, the Dutch origin now reads «слову, пришедшему из нидерландского kok», and the former lines 47–48 (now 46–47) read «У слова-оборудования, пришедшего из английского, есть и другие значения; здесь учат только «повар» и «кран, вентиль».» C2: 蛇口:27 «Это смешанное слово, начинающееся с онного чтения, отнесено к категории `kango` по правилам репозитория.» now reads «В метаданных оно отнесено к `kango` по онному первому элементу, как принято в этом репозитории.», following the published 王様:24 pattern; deletion was declined, as for Batch 238's C238-6, because EN keeps the remark and published RU cards carry the same note (王様:24, 景色:38, 見本:27). C3: 蕎麦:30–31 «Категория `jukujikun` здесь фиксирует именно такое чтение всего слова. Она не делает…» now reads «В метаданных оно отнесено к `jukujikun` — так обозначают чтение, присвоенное всему слову целиком. Это не делает гречиху тем же растением, что пшеница.», explaining the term instead of deleting it (precedent 時計:25). C4: カバー:40's warning about the English word's meanings is kept but made self-contained: «Это заимствование не переняло всех значений исходного английского слова.» C5: 血圧:17, 19 and 20 now say «кровяное давление», so the examples no longer show 圧力's whole title «давление». C6: 蓋:20 «Не могу открыть крышку бутылки.» became «Крышка бутылки не открывается.», keeping the lid as the subject of intransitive 開きません. C7 was merged with correctness C1; its proposed «мысль приходит на ум» was declined because it would drop the recall sense. C8: 複写's title and H1 «копирование; дубликат» now read «копирование; воспроизведение» (JMdict 1501390), since ordinary Russian «дубликат» is a replacement copy. C9: 被せる:30 now glosses the causative inline: «каузатива — формы «заставить или позволить сделать» — от любого глагола на る» (precedent お待たせしました:25). C10: 街角:18 now says «…на следующем углу улицы.», as EN \"street corner\", away from 角's title «угол». C11: the 裂く title change was declined, because «вспарывать» renders JMdict 1207730 sense 2 \"to cut open (esp. the abdomen)\", which EN \"split open\" carries; line 42 «Общее значение «вспарывать» не отменяет…» mistranslated EN \"the shared cutting-open sense\" and now reads «Общее для обоих написаний значение «разрезать, вспарывать» не отменяет этих ограничений.» Its optional notes on 虹:20 («В небе перекинулась большая радуга.»), 衣食住:19 («…которым трудно обеспечить себя одеждой, едой и жильём.») and 薄める:21 («белой краски» instead of «белил») were adopted; those on 衣食住:17, 薬品:40–41 and 蕎麦:47 were declined, and 表紙 needed no change. At recheck of fix 1 (8cc7216) all three reviewers ran serially, read-only, with no generator run; each recheck covered the full diff 39b6bd1..8cc7216.\nCorrectness (gpt-6.1-sol) judged C1 (思い付く:4,12: «придумывать; вспоминать» covers JMdict 1589330 senses 1–2 and EN's idea/recall pair; the body keeps «додуматься до идеи» and the memory distinction) and C2 (被せる:20: leaving the food covered, ておく, preserved) resolved and the adopted コック optional resolved (source-row wording removed; the Dutch cook / English equipment distinction and the selected senses kept). It found the other changes accurate: 複写 «копирование; воспроизведение» matching JMdict 1501390, 蓋:20 keeping the lid as subject of intransitive 開きません, 裂く:42 identifying sense 2 as the shared one (JMdict 1207730) with the added exclusion keeping the prior list, 蛇口:27 and 蕎麦:30 describing their own metadata accurately, カバー:40 keeping the source warning without a new lexical restriction, 血圧, 街角, 虹, 衣食住 and 薄める at least as accurate as before, and 被せる's causative gloss correct; Japanese body strings unchanged on all 14 cards; no regression: correctness CLEAN, scoped coverage CLEAN. It also corrected the coordinator's record: its initial scoped-coverage verdict was NEEDS FIX for C2, not CLEAN as the dispositions first summarized; the coordinator corrected b239-dispositions.md accordingly.\nConsistency (claude-sonnet-5.5) judged Q1 (裂く: `quiz_exclusions` now `[破る, 割る, 切る, 離す, 分ける, びりびり]`, EN order kept) resolved, kept the declined 蓋:24 / 蝋燭:29 optional as optional with no action, and noted the reclassification of 清書→書き取り and 蘇る→浮かぶ; it confirmed the changed set (manifest.json + 14 word cards), front matter changed only in 裂く, 思い付く and 複写, title = H1 on all 14 cards, manifest hashes matching the 14 cards, the 思い付く segment «вспоминать» guarded against 思い出す and no other title containing «воспроизвед», no leftover removed wording, and the 蛇口/蕎麦 metadata notes consistent with 王様:24, 見本:27 and 時計:25; tools/validate.py 0 errors: consistency CLEAN, quiz safety CLEAN, cross-file integration CLEAN. Its stated limit: the wording-only edits (カバー, コック, 蓋, 薄める, 虹, 血圧, 街角, 衣食住, 被せる) were checked for structure and links, not re-read in full for translation accuracy.\nComprehensibility (grok-4.7) judged C1 to C11 resolved (accepting the partial dispositions of C2, C3, C4, C7 and C11 and not maintaining its deletion or title proposals), the applied optionals 虹:20, 衣食住:19 and 薄める:21 resolved, withdrew the optionals 衣食住:17, 薬品:40–41 and 蕎麦:47, kept 表紙 without a finding and found no regression and no new title collision outside an existing exclusion: comprehensibility CLEAN, scoped coverage CLEAN. Its stated limits: unchanged cards were not reread in full, and the sense split behind «вспарывать» was not re-audited.\nAfter the rechecks the coordinator also corrected the post-fix count in b239-dispositions.md: the RU-added exclusions are 13 pairs on 10 cards (the candidate's 12 pairs on 9 cards plus 裂く→びりびり), not \"14 pairs\" as first written and carried into the three recheck briefs; no recheck relied on that figure.\nNo actionable finding remains; no second fix is needed. Fix 1 changed no Japanese example sentence, sourced reading, navigation file or kanji card, and added or removed no link; the three RU-only links present at the candidate (カバー:43 → 表紙, コック:39 → 蛇口 and 栓:44 → 渋滞) are unchanged. All three reviewers read all 30 cards in full against their EN originals; the consistency reviewer also read the nine navigation diffs in full, checked the intake's 39 payload paths and hashes and ran `tools/validate.py` (0 errors). One of its commands, `build_manifest.py --help`, ran the generator, which rewrote manifest.json; git status was clean afterwards, so the committed manifest was reproduced byte-identically, and the reviewer removed the untracked Python bytecode cache it had created. The correctness reviewer also ran the validator (0 errors). Evidence includes the full current JMdict entries for all 30 words (rechecked against the publisher's JMdict_e archive), kanjidic2, Digital Daijisen (思い付く, 置く), the pinned community N2 vocabulary list, and the JapanDict renderings of JMdict used by the comprehensibility reviewer. The rechecks found no regression. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 71 EN exclusions across 23 lists are retained in EN order; 衣食住, 血液, 蝋燭, コック, 虹, 薬局 and 蕎麦 have none in EN. Ten lie inside the batch: 複写–清書, カバー–被せる, 表紙–カバー, 行事–儀式, 蛇口–コック, 蘇る–思い付く, 栓–蛇口 and コック, and 蓋–カバー and 栓; the other 61 target existing RU cards. Thirteen direct, one-sided exclusions on ten new cards cover reviewed RU title overlaps, all appended at the end of their lists, 衣食住's and 血液's on new quiz_exclusions lines. At the candidate there were twelve on nine cards, from the authoring lane as adjudicated by the coordinator: required 行列–番 and 順番 (番 «номер (по порядку); очередь», 順番 «очередь; порядок», sharing «очередь»), 血液–血 (血 «кровь»), 衣食住–服 (服 «одежда») and 栓–渋滞 (渋滞 «пробка (на дороге); застой»), and conservative 清書–書き取り (書き取り «диктант; переписывание (текста, кандзи)»), 被せる–履く (履く «надевать обувь или одежду ниже пояса»), 蛇口–水道 (水道 «водопровод; водопроводная вода»), 蘇る–浮かぶ (浮かぶ «всплывать; приходить в голову»), 衣食住–衣服 (衣服 «одежда в целом») and 住宅 (住宅 «жильё; жилой дом»), and 薬品–農薬 (農薬 «пестициды (средства защиты растений и регуляторы роста)»). Fix 1 added one and removed none: 裂く–びりびり (consistency Q1; びりびり «рвать в клочья; дребезжать; покалывание (током)»). The consistency reviewer classed 清書–書き取り, 衣食住–服, 行列–番 and 順番, 血液–血, 蘇る–浮かぶ and 栓–渋滞 as required, 被せる–履く, 衣食住–衣服 and 住宅, 蛇口–水道 and 薬品–農薬 as conservative, and 裂く–びりびり as conservative-to-required; it found no over-guard. After fix 1 the post-fix title screen of the two retitled cards (思い付く and 複写; b239-postfix-screen.txt) prints three OK lines and three stem-only lines: the one exact shared segment, 思い付く–思い出す «вспоминать», is guarded by the EN pair on 思い付く; 複写's «копир» stem hits on コピー and 写す are guarded by EN pairs; and the unguarded «воспр» stem hits on 受け取る, 感覚 and 鑑賞 are, in the dispositions' reading, a different word («восприятие»). The consistency recheck found that no other RU title contains «воспроизвед» and that «вспоминать» occurs in no other title than 思い出す's. Every RU addition is appended at the end of its list, and no EN entry is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/239-words-batch-78-intake.json",
+  "docs/translation-batches/239-words-batch-78-independent-review-001.md",
+  "docs/translation-batches/239-words-batch-78-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "儀",
+   "栓",
+   "液",
+   "清",
+   "燭",
+   "缶",
+   "蓋",
+   "蕎",
+   "薄",
+   "蘇",
+   "虹",
+   "蚊",
+   "蛇",
+   "蝋",
+   "血",
+   "街",
+   "衣",
+   "被",
+   "裂",
+   "裏",
+   "複",
+   "角",
+   "麦"
+  ],
+  "navigationNote": "Restored 13 relative links in the 9 listed Markdown files at the corresponding EN-linked positions, using EN's href forms (../words/X.md in the kanji cards, X.md in the word cards): 血圧 in kanji 圧 (line 45, matching EN line 45, in the word list); 薬局 in kanji 局 (lines 22, 33 and 39, matching EN lines 21, 31 and 37) and in kanji 薬 (lines 22, 33 and 37, matching the same EN lines); 蕎麦 in word 側 (line 41, matching EN line 30, as [そば](蕎麦.md)); 蚊 in words 虫 (line 36, matching EN line 27), 蛍 (line 37, matching EN line 30) and 蝶 (line 39, matching EN line 32); 蛇口 in word 蛇 (line 28, matching EN line 28); and 被せる in word 被る (line 36, matching EN line 30). Mentions that EN leaves plain stay plain: 薬局 at kanji 局 line 45 (EN 43) and kanji 薬 line 43 (EN 43), and 薬品 at kanji 薬 lines 33 and 39. No surrounding prose was changed. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/圧.md",
+   "kanji/局.md",
+   "kanji/薬.md",
+   "words/側.md",
+   "words/虫.md",
+   "words/蛇.md",
+   "words/蛍.md",
+   "words/蝶.md",
+   "words/被る.md"
+  ],
+  "newWords": [
+   "清書",
+   "複写",
+   "裏口",
+   "裂く",
+   "被せる",
+   "カバー",
+   "表紙",
+   "衣食住",
+   "街角",
+   "行列",
+   "儀式",
+   "行事",
+   "血液",
+   "血圧",
+   "蝋燭",
+   "コック",
+   "蛇口",
+   "蚊",
+   "虹",
+   "思い付く",
+   "蘇る",
+   "薬缶",
+   "薬指",
+   "薬局",
+   "薬品",
+   "薄暗い",
+   "薄める",
+   "蕎麦",
+   "栓",
+   "蓋"
+  ],
+  "selection": "Batch 78 selected 30 word cards from the frozen source: chunk 31 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,227 remained after Batch 238, and 1,197 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing outside them was added. Ten source exclusion entries lie inside the batch; the other 61 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (21 EN link occurrences, 19 targets) in the new cards: 清書→kanji 清 and words/下書き, 複写→kanji 複, 裏口→kanji 裏, 被せる→kanji 被 and words/着せる, 衣食住→kanji 衣, 街角→kanji 角, 血液→kanji 血, kanji 液 and words/液体, 血圧→kanji 血 and words/気圧, 蛇口→kanji 蛇, 蚊→kanji 蚊, 薬缶→kanji 缶 and words/夜間, 薄暗い→kanji 薄, 薄める→kanji 薄, and 蕎麦→kanji 麦 and words/うどん. 23 written kanji have no RU kanji card: 儀 栓 液 清 燭 缶 蓋 蕎 薄 蘇 虹 蚊 蛇 蝋 血 街 衣 被 裂 裏 複 角 麦 (EN has cards for 液, 清, 缶, 薄, 蚊, 蛇, 血, 衣, 被, 裏, 複, 角 and 麦). Links otherwise follow EN. Three RU-only links, all present at the candidate and unchanged by fix 1, point to existing cards that the frozen EN cards name in plain text or not at all: カバー:43 → 表紙 (EN :35 makes the comparison in plain text), コック:39 → 蛇口 (EN plain-text comparison) and 栓:44 → 渋滞 (in the RU-added sentence that 栓 is not a traffic «пробка»).",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined, partially adopted, adapted or no-action items: comprehensibility C2 was partially adopted: deleting 蛇口:27's metadata remark was declined, for consistency with Batch 238's C238-6, because EN keeps it and published RU cards carry the same note (王様:24, 景色:38, 見本:27); the vague «по правилам репозитория» was replaced with the 王様 pattern, and the reviewer did not maintain the deletion at recheck. Whether such remarks should be dropped corpus-wide is on the project's follow-up list. C3 was partially adopted: 蕎麦:30's `jukujikun` term is explained rather than deleted (precedent 時計:25); deletion not maintained. C4 was partially adopted: カバー:40's source warning is kept but no longer needs knowledge of English polysemy; deletion not maintained. C7 was merged with correctness C1; «мысль приходит на ум» was declined because it would drop the recall sense established from Daijisen sense 2 and JMdict 1589330 sense 2 and carried by EN \"recall\"; not maintained. C11 was partially adopted: the title change to «раздирать на части; разрывать» was declined because «вспарывать» renders JMdict 1207730 sense 2 and the proposal would repeat the first segment and drop that sense; line 42 was corrected; not maintained. The consistency optional on 蓋:24 and 蝋燭:29 (\"no kanji card yet\") was declined: both mirror EN and are true at this snapshot, and a corpus-wide refresh of such statements is a later navigation task; it stays optional with no action at recheck. The comprehensibility optionals on 衣食住:17 (it maps the title order to the kanji order), 薬品:40–41 (it explains the plural title the learner sees, as EN :39 does) and 蕎麦:47 (it mirrors EN :47, and published RU keeps such scope notes, 削る:25 and 見学:25) were declined and withdrawn at recheck; 表紙 needed no change.",
+  "exclusionsAddedBeyondEn": {
+   "栓": [
+    "渋滞"
+   ],
+   "清書": [
+    "書き取り"
+   ],
+   "薬品": [
+    "農薬"
+   ],
+   "蘇る": [
+    "浮かぶ"
+   ],
+   "蛇口": [
+    "水道"
+   ],
+   "血液": [
+    "血"
+   ],
+   "行列": [
+    "番",
+    "順番"
+   ],
+   "衣食住": [
+    "服",
+    "衣服",
+    "住宅"
+   ],
+   "被せる": [
+    "履く"
+   ],
+   "裂く": [
+    "びりびり"
+   ]
+  },
+  "titles": {
+   "カバー": "чехол, покрытие; восполнение (нехватки, отсутствия)",
+   "コック": "повар; кран, вентиль (на трубе)",
+   "儀式": "церемония; обряд, ритуал",
+   "思い付く": "придумывать; вспоминать",
+   "栓": "пробка, затычка; запорный кран, вентиль",
+   "清書": "чистовик; переписывание начисто",
+   "蓋": "крышка",
+   "蕎麦": "гречиха; гречневая лапша соба",
+   "薄める": "разбавлять; смягчать (впечатление, воздействие)",
+   "薄暗い": "полутёмный; тускло освещённый",
+   "薬品": "лекарственные средства; химикаты",
+   "薬局": "аптека",
+   "薬指": "безымянный палец",
+   "薬缶": "чайник (для кипячения воды)",
+   "蘇る": "оживать, возрождаться; восстанавливаться; всплывать в памяти",
+   "虹": "радуга",
+   "蚊": "комар",
+   "蛇口": "водопроводный кран",
+   "蝋燭": "свеча",
+   "血圧": "кровяное давление",
+   "血液": "кровь (особенно в медицине и биологии)",
+   "行事": "мероприятие",
+   "行列": "очередь; шествие, процессия; матрица (в математике)",
+   "街角": "угол улицы",
+   "衣食住": "одежда, еда и жильё",
+   "表紙": "обложка; переплёт",
+   "被せる": "накрывать; надевать (на голову другому)",
+   "裂く": "раздирать на части; вспарывать",
+   "裏口": "чёрный ход; задний вход",
+   "複写": "копирование; воспроизведение"
+  }
+ }
+}
