@@ -8,7 +8,26 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch240 thirty words
+## Current published source milestone: batch241 thirty words
+
+Batch241 added 30 Russian word articles. They are chunk 33 of the recomputed general remaining-word queue,
+dependency-closed under quiz_exclusions with nothing added. The batch also restored 4 navigation-only links in 4
+existing pages: the kanji card 着 and the word cards あわてる, 広告 and 早速 (the last held from Batch240).
+
+The candidate was signed and pushed before review. The blind facet-split review found:
+- three correctness findings, two of them also scoped-coverage findings (うんと and 広める);
+- no consistency, quiz-safety or cross-file integration finding;
+- twelve comprehensibility findings.
+
+One signed fix commit addressed them, retitling うんと, 広める, 余計, 一段, ばからしい, 大層, 格別, あわただしい and 予備 and
+rewording examples and prose in ten cards in total, with no exclusion or link change; one comprehensibility finding was
+declined and withdrawn at recheck. The serial rechecks reported all facets clean.
+
+Progress: **5,349 reviewed-current / 8 runtime-blocked / 2,921 pending of 8,278**; 3,883 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch241-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch240 thirty words
 
 Batch240 added 30 Russian word articles. They are chunk 32 of the recomputed general remaining-word queue,
 dependency-closed under quiz_exclusions with nothing added. The batch also added 6 navigation-only link wraps in 4
@@ -24,7 +43,7 @@ sixteen cards in total, adding one exclusion and restoring one link. The serial 
 
 Progress: **5,319 reviewed-current / 8 runtime-blocked / 2,951 pending of 8,278**; 3,853 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch240-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch240-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch239 thirty words
 

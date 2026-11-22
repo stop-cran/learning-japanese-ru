@@ -1,0 +1,157 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "241-words-batch-80",
+ "publishedBaseline": "144cb258d859b75936bd36d52e74f9e705f5d730",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 5e43b26 and serialized rechecks of the signed fix commit 9cf1600 found no remaining defect. Before the candidate the coordinator made one content edit, to words/自習.md (title and heading): «самостоятельные занятия; самоподготовка» → «самостоятельные занятия». Its adjudication records: \"Kuznetsov (БТС, gramota.ru) defines «самоподготовка» as «Самостоятельные занятия, самостоятельная подготовка к чему-л. (обычно в армии или военных учебных заведениях)»; EN has the single gloss \"self-study\", which the first segment already renders.\" The coordinator's candidate script also applied the link held from Batch 240, words/早速.md:31 → さっさと, after that batch's publication. The adjudication records: \"Titles compared with EN one by one (`b241_titles.py`). Every EN `quiz_exclusions` entry is retained in EN order; RU additions are appended.\" It records 16 RU-added exclusions on 11 cards: required あわただしい→騒ぎ («сумат»), 一段→段 («ступень»/«ступенька») and 予備→余裕 («запас»); conservative 自然科学→自然 («естеств»), 自治→管理 («управл»), やたら→余る («сверх»), 一段→だいぶ («заметн»), うんと→もっと/一層/更に («больше»), なんとも→別に/あんまり («(с отрицанием)»), 展開→流れ («событий»), 宣伝→進める («продвиг») and 広める→発展/流行 («расшир»/«распростр»); \"Accepted as harmless direct pairs, consistent with earlier batches.\" It records that `navonly.py` reports 3 files, 3 links added, 0 problems on the lane, and 4 files, 4 links, 0 problems at the candidate with the held link; that `link_parity.py` over the 33 lane paths found \"only 一段 EXTRA 段 (RU-only link, below). No LOST.\"; that the RU-only link at 一段:32–33, «Отдельное слово [段](段.md)（だん）«ступенька; ярус» называет саму ступень; 一段 считает одну такую единицу или служит наречием степени.», was accepted as \"Accurate, and it explains the added 一段→段 exclusion (RU «одна ступень» vs «ступенька» is closer than EN \"one level\" vs \"step\")\"; that the lane title screen over the 30 words found no exact-segment overlap, with 43 guarded and 190 unguarded stem-only lines reviewed and the leads (among them さっさと–ぐずぐず «мешка», 至急–速達 «срочн», 余計–必要, 自習–授業/教室 «занят», the 着替え «одежда» family and 特殊–別に «особ») decided without guards; that the author's deviations were accepted (English-dependent notes rewritten in 甚だしい, 傑作, 大層, 自衛 and 自然科学; うんと's second segment narrowed to «намного (при сравнении)»; ばからしい folding EN \"foolish\" into «нелепый; смехотворный»); that «изрядно» and «раздутый (о словах)» (大層), «несуразный» (めちゃくちゃ), «смехотворный» (ばからしい), «уморительная нелепость» (傑作), «средоточие» (臍), «ещё заметнее» (一段), «отработка навыков» (稽古), «особого рода» (特殊) and the conservative guards were left to the blind review; that this wording \"was not entry-checked by the coordinator (only «самоподготовка» was checked)\"; and that さっさと and 至急 exclude and link the Batch 240 card 早速 and 広める excludes 散らす. Its candidate-time recheck on the published Batch 240 tree (main 144cb25) records \"titles of 早速 and 散らす unchanged\"; the note there that the Batch 240 fix \"changed only 早速:21's example translation\" omits that the same fix 3544d75 also changed 散らす:21's example translation, and neither title changed. The candidate screen on that tree (b241-cand-screen.txt; 43 OK lines for guarded pairs and 191 stem-only lines) found no unguarded exact segment; the one new stem lead, 稽古 «отработка навыков» ~ 芸能 «… освоенные искусства и навыки» (stem «навык»), was judged \"the practice activity vs the arts/skills themselves\" with no guard added. Correctness raised three findings, each medium with high confidence. C1 (correctness and scoped coverage): うんと's title «в большом количестве; намного (при сравнении)» lacked the noncomparative high-degree sense taught at line 16; the title and H1 now read «много; очень; намного (при сравнении)» (Digital Daijisen sense 2 via kotobank; Jisho sense 1). C2 (correctness and scoped coverage): 広める's «расширять (знания)» restricted broadening to knowledge; the title and H1 now read «распространять; расширять» (Digital Daijisen sense 1 via weblio; Jisho sense 2). C3: 余計's «сильнее прежнего» made the adverb's comparison necessarily temporal; the title and H1 now read «сверх необходимого; ненужный; ещё больше» (Digital Daijisen adverb section via weblio; Jisho sense 3), and line 18's body gloss reads «ещё больше», «ещё сильнее». Its optional notes were 一段's wording (accepted via comprehensibility C1), an explanation of итидан at first use (declined) and the implementation remarks at 特殊:29, やたら:30 and 広める:32 (広める:32 accepted via comprehensibility C12; the other two declined). Consistency raised no finding (consistency, navigation-only restorations, quiz safety and intake record CLEAN; \"Findings: none actionable.\"); it classed あわただしい→騒ぎ, 自然科学→自然, 自治→管理, うんと→もっと, なんとも→別に/あんまり, 一段→だいぶ, 展開→流れ, 宣伝→進める and 広める→発展/流行 as conservative, うんと→一層/更に and やたら→余る as conservative-weak, and 一段→段 and 予備→余裕 as required, and found \"No entry is unjustified\". Its optional notes were five low-confidence extra guards (格別–別に, いきなり–意外, でたらめ–くだらない, 余計–贅沢, 臨時–追加; declined), the RU-only 一段 → 段 link (confirmed, no action) and 展開's inline-code formatting (acceptable). Comprehensibility raised twelve findings. C1: 一段's «ещё заметнее» taught noticeability rather than further degree; the title and H1 now read «в ещё большей степени; одна ступень», line 17 «ещё больше», «в ещё большей степени», and the example «После дождя стало ещё холоднее.» C2 (modified): ばからしい's title and H1 now read «нелепый; глупый; смехотворный», keeping all three EN senses, and the example «Верить таким слухам глупо.» C3 (modified): 余計's title follows correctness C3 rather than the proposed «тем более» (\"a discourse connective in Russian\"), and the example restores てしまう without «совсем»: «Я невольно сказал то, чего не нужно было говорить.» C4 is correctness C2. C5: 大層's title and H1 now read «в большой степени; внушительный; преувеличенный», and the example «Я получил внушительный подарок.». C6 is correctness C1. C7: なんとも:22 «Меня это вовсе не волнует» was declined (\"renders 何とも思いません idiomatically and matches EN \"I do not care about that at all\"\"; the proposed «Я об этом вовсе так не думаю» \"means \"I do not think so at all\", which mistranslates it\"), with the disagreement preserved for recheck. C8 (modified wording): 宣伝:20–21 now read «Сотрудники магазина рекламируют новый товар.» and «Я попросил друга прорекламировать школьный фестиваль.» C9: 格別's title and H1 now read «необычайный; в особенности», and line 16 adds «необычайное». C10: あわただしい's title and H1 now read «суматошный; спешный», line 16 «спешную деятельность» and the example «я спешно готовлюсь.» C11 (modified): 予備's title and H1 now read «резерв; запасная вещь; предварительная подготовка», keeping EN \"spare\" while dropping the definition-style parenthetical and untaught «силы». C12 (low): 広める:32 «Она не добавляет 弘 в метаданные основной записи этой карточки.» was deleted; 弘める stays on line 31. At recheck of fix 1 (9cf1600) all three reviewers ran serially, read-only, with no generator run; each recheck covered the full diff 5e43b26..9cf1600 (10 word cards + manifest.json).\nCorrectness (gpt-6.1-sol) judged C1 (うんと: the non-comparative degree sense restored), C2 (広める: broadening no longer limited to knowledge) and C3 (余計: the non-temporal comparison «ещё больше» restored) resolved, and found every other rewrite at least as accurate as before: 一段's degree/step title and colder example, ばからしい keeping absurd/foolish/ridiculous with the improved rumour example, 予備 keeping reserve/spare/preparation, 格別 keeping exceptional/especially, あわただしい keeping hurried activity rather than mere urgency, 大層 keeping degree/grand/exaggerated with «получил» accurately rendering humble いただく, 宣伝's staff/publicize renderings (the perfective infinitive describes the requested action), and 余計's «невольно» as a legitimate unintended-result reading of てしまう (weblio しまう 6b, いただく 4, 何とも 3; gramota.ru «спешный»). On the declined comprehensibility C7 it judged «Меня это вовсе не волнует» accurate (\"not care at all\") and the proposed rendering wrong (\"I do not think so\" adds disagreement). Optionals: 一段 wording and 広める metadata prose resolved (the deletion loses no Japanese fact; 弘める remains); the итидан explanation and 特殊/やたら prose remain optional. Correctness CLEAN, scoped coverage CLEAN. Its stated limits: no generator/test run, no repository edits, no draft-pool audit; its earlier limits remain.\nConsistency (claude-sonnet-5.5) confirmed title = H1 on all nine retitled cards (一段, うんと, 広める, 余計, ばからしい, 大層, 格別, あわただしい, 予備), front matter otherwise unchanged and quiz_exclusions untouched, tools/validate.py 0 errors and an in-memory manifest rebuild equal to the committed manifest.json; its exact-segment screen of the nine new titles against all RU word titles found zero unguarded shared segments (the dispositions' 11 hits: うんと, 余計, ばからしい–馬鹿, 大層–オーバー); it judged the stem-level near-hits acceptable (あわただしい «спешный» vs 急行 «спешно направляться» and そそっかしい «поспешный»: different senses; 予備 «запасная вещь» vs 非常口 «запасный выход»: no shared segment; 余計 and 一段 vs 一層/更に: guarded) and found no remaining quotation of any old title wording elsewhere in the tree. It judged its five extra-guard optionals withdrawn/optional (格別's «необычайный» widens the gap from 別に further), the 一段 → 段 link resolved (kept, correct), and the missing-kanji coverage gaps and 展開 formatting unchanged/optional: consistency CLEAN, quiz safety CLEAN, cross-file integration CLEAN, no new findings. Its stated limits: near-hit judgments are its own from the Russian titles; dictionary senses not re-fetched; translation accuracy and the なんとも:22 disagreement are outside its facets.\nComprehensibility (grok-4.7) judged C1–C6 and C8–C12 resolved (not maintaining its proposals to use «ещё больше» for 一段, to drop «смехотворный» from ばからしい, «тем более» for 余計 or to drop «запасная вещь» from 予備; accepting «прорекламировать» and «сотрудники магазина» for 宣伝) and withdrew C7 (なんとも思わない means \"not care\"; «не волнует» matches EN; «так не думаю» would mean disagreement; the nuance section still ties negation to 思わない). It did not maintain its optionals (やたら/特殊 match EN and published cards; 自習 and 傑作:23 are attribution; 傑作:20 matches EN; 臨時 would collide with 追加; 臍 «средоточие» avoids «центр»; 稽古 «кэндо» needs no gloss) and found no regression: comprehensibility CLEAN, scoped coverage CLEAN. Its stated limits: dictionaries not re-opened; title screen not re-run; no native-speaker claim.\nNo actionable finding remains; no second fix is needed. Fix 1 changed no Japanese example sentence, sourced reading, navigation file, kanji card, quiz exclusion or link. All three reviewers read all 30 cards in full against their EN originals; the consistency reviewer also read the four navigation diffs, checked the intake's path list and hashes, rebuilt the manifest in memory (equal to the committed file) and ran `tools/validate.py` (0 errors) at the candidate and at the recheck, removing the untracked Python bytecode cache each time. The correctness reviewer ran no validator or generator; the comprehensibility recheck records that no generator was run. Evidence includes the actual JMdict entries for all 30 IDs and Jisho word objects, KANJIDIC2, the pinned N2 source list, Digital Daijisen via kotobank and weblio, Kuznetsov via gramota.ru and ru.wiktionary; the consistency reviewer cited JMdict-style senses from its knowledge, and the comprehensibility reviewer did not re-open JMdict or Digital Daijisen. The rechecks found no regression. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 297 EN exclusions across 30 lists are retained in EN order. Twenty-nine lie inside the batch: あわただしい–いきなり, さっさと–あわただしい, 至急–さっさと, 自習–稽古, 特殊–格別, ばからしい–傑作, 大層–うんと, なんとも–うんと and 大層, めちゃくちゃ–でたらめ, ばからしい, 甚だしい, なんとも, 大層 and うんと, やたら–でたらめ, 甚だしい and めちゃくちゃ, 予備–着替え, いよいよ–一段, 余計–やたら, 甚だしい, 一段, 予備 and いよいよ, 臨時–特殊 and 余計, and 広める–宣伝 and 展開; the other 268 target existing RU cards. Sixteen direct, one-sided exclusions on eleven new cards cover reviewed RU title overlaps, all appended at the end of their lists and all present at the candidate, from the authoring lane as adjudicated by the coordinator: required あわただしい–騒ぎ (騒ぎ «переполох; суматоха»), 一段–段 (段 «ступенька; ярус; дан») and 予備–余裕 (余裕 «запас (времени, денег, сил); невозмутимость»); conservative 自然科学–自然 (自然 «природа; естественный»), 自治–管理 (管理 «управление; контроль»), やたら–余る (余る «оставаться лишним; быть сверх нужного»), 一段–だいぶ (だいぶ «значительно; заметно»), うんと–もっと, 一層 and 更に (もっと «больше; ещё», 一層 «ещё сильнее; ещё больше», 更に «ещё больше; вдобавок»), なんとも–別に and あんまり (別に «не особо (с отрицанием); отдельно», あんまり «не очень-то (с отрицанием); чересчур»), 展開–流れ (流れ «течение; поток; ход (событий)»), 宣伝–進める (進める «продвигать; вести дело вперёд») and 広める–発展 and 流行 (発展 «развитие; расширение», 流行 «мода; массовое распространение»). Fix 1 added and removed none. The consistency reviewer classed 一段–段 and 予備–余裕 as required, あわただしい–騒ぎ as conservative (the coordinator classed it as required), うんと–一層/更に and やたら–余る as conservative-weak and the others as conservative; it found \"No entry is unjustified\" and \"None needs removal\", noting that \"A reader who prefers the narrowest lists could drop うんと → 一層/更な and やたら → 余る as weakest.\" The dispositions' post-fix screen reads \"Exact-segment overlaps of the 10 changed titles against the RU primary plus the B242/B243 draft pool: 11, all already guarded (うんと×7, 余計×2, ばからしい–馬鹿, 大層–オーバー)\"; after the rechecks the coordinator corrected \"the 10 changed titles\" to \"the 9 changed titles\" (宣伝 changed only its example translations), and a rerun on the nine retitled words against the RU primary at 9cf1600 (b241-postfix-screen.txt; 39 OK lines for guarded pairs and 124 stem-only lines) finds the same 11 exact-segment overlaps, all guarded: うんと with たくさん, 多い («много»), とても, どうも, 実に, 極 and 非常に («очень»); 余計 with 一層 and 更に («ещё больше»); ばからしい–馬鹿 («глупый»); and 大層–オーバー («преувеличенный»). The consistency recheck's exact-segment screen of the nine new titles against all RU word titles found every shared segment guarded on at least one side (\"zero unguarded\"), judged the stem-level near-hits acceptable (あわただしい «спешный» vs 急行 «спешно направляться» and そそっかしい «поспешный»; 予備 «запасная вещь» vs 非常口 «запасный выход»; 余計 and 一段 vs 一層/更に, guarded) and found no remaining quotation of any old title wording. Every RU addition is appended at the end of its list, and no EN entry is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/241-words-batch-80-intake.json",
+  "docs/translation-batches/241-words-batch-80-independent-review-001.md",
+  "docs/translation-batches/241-words-batch-80-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "傑",
+   "宣",
+   "展",
+   "層",
+   "替",
+   "殊",
+   "甚",
+   "稽",
+   "臍",
+   "臨",
+   "至",
+   "衛"
+  ],
+  "navigationNote": "Restored 4 relative links in the 4 listed Markdown files at the corresponding EN-linked positions, using EN's href forms (../words/X.md in the kanji card, X.md in the word cards): 着替え in kanji 着 (line 53, matching EN line 45, in the word list), あわただしい in word あわてる (line 39, matching EN line 39), 宣伝 in word 広告 (line 28, matching EN line 33) and さっさと in word 早速 (line 31, matching EN line 28). Each is the only mention of its target in that file. The 早速 → さっさと link was held from Batch 240 and applied by the coordinator's candidate script after that publication; the other three were copied from the authoring worktree. No surrounding prose was changed. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/着.md",
+   "words/あわてる.md",
+   "words/広告.md",
+   "words/早速.md"
+  ],
+  "newWords": [
+   "いきなり",
+   "あわただしい",
+   "さっさと",
+   "至急",
+   "自衛",
+   "稽古",
+   "自習",
+   "自然科学",
+   "自治",
+   "格別",
+   "特殊",
+   "でたらめ",
+   "甚だしい",
+   "傑作",
+   "ばからしい",
+   "うんと",
+   "大層",
+   "なんとも",
+   "めちゃくちゃ",
+   "やたら",
+   "一段",
+   "着替え",
+   "予備",
+   "いよいよ",
+   "余計",
+   "臨時",
+   "臍",
+   "展開",
+   "宣伝",
+   "広める"
+  ],
+  "selection": "Batch 80 selected 30 word cards from the frozen source: chunk 33 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,167 remained after Batch 240, and 1,137 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing outside them was added. Twenty-nine source exclusion entries lie inside the batch; the other 268 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (4 EN link occurrences, 4 targets) in the new cards: 大層→kanji 層, なんとも→words/なんとなく, 着替え→kanji 替 and 広める→words/広げる. 12 written kanji have no RU kanji card: 傑 宣 展 層 替 殊 甚 稽 臍 臨 至 衛 (EN has cards only for 層 and 替). Links otherwise follow EN, with one RU-only link, present at the candidate and unchanged by fix 1: 一段:32 → words/段 («Отдельное слово [段](段.md)（だん）«ступенька; ярус» называет саму ступень; …»), beside EN's kept kanji link to 段 at 一段:28.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined, modified or no-action items: the correctness optional to explain итидан at first use was declined (\"collection-standard term (docs glossary/methodology), used across published cards; a glossary pass is a tracked corpus-wide follow-up\") and remains optional at recheck. The implementation-oriented remarks at 特殊:29 and やたら:30 (correctness optional and comprehensibility optional) were declined: \"both are faithful to EN (EN 特殊/やたら carry the same remarks) and match 16 published RU cards with «метаданные»/«список кандзи пуст» sentences; a corpus-wide decision is recorded as a follow-up rather than diverging card-by-card\"; optional at the correctness recheck and not maintained at the comprehensibility recheck. Consistency's five extra guards (格別–別に, いきなり–意外, でたらめ–くだらない, 余計–贅沢, 臨時–追加) were declined (\"reviewer marked low confidence; displayed labels do not share a segment and the senses are distinct\"); withdrawn/optional at recheck. Its 一段 → 段 note needed no action (\"confirmed correct\"; resolved at recheck), and the missing kanji cards needed none. Comprehensibility C2, C3, C8 and C11 were accepted in modified form: ばからしい keeps «смехотворный» (\"keeps all three EN senses (\"absurd; foolish; ridiculous\")\"), 余計 takes «ещё больше» rather than «тем более», 宣伝 uses «прорекламировать» (\"the standard perfective\") instead of the proposed «порекламировать», and 予備 keeps «запасная вещь»; the reviewer did not maintain its original proposals. Comprehensibility C7 (なんとも:22) was declined with the disagreement preserved for recheck; the comprehensibility reviewer withdrew it at recheck (\"なんとも思わない means \"not care\"; «не волнует» matches EN\"), and the correctness reviewer independently judged «Меня это вовсе не волнует» accurate and the proposed rendering wrong. The comprehensibility optionals were declined: 自習:41 (\"source attribution is the collection's convention\"), 傑作:20 «один из» and :23 «Дайдзисэн» (\"match EN\"), 臨時:4 «дополнительный» (\"unguarded segment collision with 追加\") and 臍:4 «средоточие» (\"apt for 物事の中心 and avoids 中心/中央 «центр»\"); 稽古:20 «кэндо» needed no action; none was maintained at recheck. Follow-ups recorded in the dispositions: a corpus-wide glossary pass for итидан and a corpus-wide decision on the «метаданные»/«список кандзи пуст» sentences. The dispositions also record that \"B242's 広げる (draft) already excludes 広める\"; that card is a lane draft, not published content, and 広める's EN link to 広げる stays plain until it exists.",
+  "exclusionsAddedBeyondEn": {
+   "あわただしい": [
+    "騒ぎ"
+   ],
+   "うんと": [
+    "もっと",
+    "一層",
+    "更に"
+   ],
+   "なんとも": [
+    "別に",
+    "あんまり"
+   ],
+   "やたら": [
+    "余る"
+   ],
+   "一段": [
+    "段",
+    "だいぶ"
+   ],
+   "予備": [
+    "余裕"
+   ],
+   "宣伝": [
+    "進める"
+   ],
+   "展開": [
+    "流れ"
+   ],
+   "広める": [
+    "発展",
+    "流行"
+   ],
+   "自治": [
+    "管理"
+   ],
+   "自然科学": [
+    "自然"
+   ]
+  },
+  "titles": {
+   "あわただしい": "суматошный; спешный",
+   "いきなり": "без предупреждения; с ходу",
+   "いよいよ": "наконец-то; всё сильнее",
+   "うんと": "много; очень; намного (при сравнении)",
+   "さっさと": "не мешкая; без колебаний",
+   "でたらめ": "чепуха; как попало",
+   "なんとも": "до чего же; вовсе не (с отрицанием)",
+   "ばからしい": "нелепый; глупый; смехотворный",
+   "めちゃくちゃ": "несуразный; вверх дном; безумно",
+   "やたら": "без разбору; сверх меры",
+   "一段": "в ещё большей степени; одна ступень",
+   "予備": "резерв; запасная вещь; предварительная подготовка",
+   "余計": "сверх необходимого; ненужный; ещё больше",
+   "傑作": "шедевр; уморительная нелепость",
+   "大層": "в большой степени; внушительный; преувеличенный",
+   "宣伝": "продвижение; рекламирование; пропаганда",
+   "展開": "развёртывание; поворот событий",
+   "広める": "распространять; расширять",
+   "格別": "необычайный; в особенности",
+   "特殊": "особого рода; специальный",
+   "甚だしい": "крайний (о степени); непомерный",
+   "着替え": "переодевание; сменная одежда",
+   "稽古": "отработка навыков; репетиция",
+   "臍": "пупок; средоточие",
+   "臨時": "временный; внеплановый",
+   "自治": "самоуправление; автономия",
+   "自然科学": "естественные науки",
+   "自習": "самостоятельные занятия",
+   "自衛": "самооборона; самозащита",
+   "至急": "срочно; как можно скорее"
+  }
+ }
+}

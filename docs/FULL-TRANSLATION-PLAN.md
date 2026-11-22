@@ -1,6 +1,70 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch240 thirty words (general word queue)
+## Current published source milestone: batch241 thirty words (general word queue)
+
+Batch241 adds 30 Russian word articles: いきなり あわただしい さっさと 至急 自衛 稽古 自習 自然科学 自治 格別 特殊 でたらめ
+甚だしい 傑作 ばからしい うんと 大層 なんとも めちゃくちゃ やたら 一段 着替え 予備 いよいよ 余計 臨時 臍 展開 宣伝 広める. They
+are chunk 33 of 72 of the general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their
+dependency closure is exactly the 30 requested words, so every EN quiz_exclusions target resolves to an existing RU word or
+a word in the batch; 29 of the 297 EN entries lie inside the batch.
+
+Navigation-only link restorations add 4 links at EN link positions in 4 existing pages: the kanji card 着 (to 着替え) and
+the word cards あわてる (to あわただしい), 広告 (to 宣伝) and 早速 (to さっさと, held from Batch240). The new cards keep EN's
+links to existing cards; their links to the word cards なんとなく and 広げる and the kanji cards 層 and 替 stay plain until
+those targets are adapted.
+
+The batch covers:
+- haste: suddenly or without warning (いきなり), hectic or hurried (あわただしい), quickly and without hesitation (さっさと)
+  and urgent (至急);
+- 自 compounds: self-defense (自衛), self-study (自習), natural science (自然科学) and self-government or autonomy (自治);
+- special: exceptional or especially (格別) and special or particular in kind (特殊);
+- degree and absurdity: nonsense or haphazard (でたらめ), extreme (甚だしい), a masterpiece or hilarious absurdity (傑作),
+  absurd or foolish (ばからしい), a lot or very much (うんと), very, grand or exaggerated (大層), really or not at all
+  (なんとも), absurd, messy or incredibly (めちゃくちゃ), indiscriminately or excessively (やたら), even more or one level
+  (一段), at last or increasingly (いよいよ) and extra, unnecessary or all the more (余計);
+- other: practice or training (稽古), changing clothes or spare clothes (着替え), a reserve, spare or preliminary
+  preparation (予備), temporary or extra (臨時), the navel or a central point (臍), unfolding or development (展開),
+  publicity or advertising (宣伝) and to disseminate or broaden (広める).
+
+All 297 EN exclusions are retained in EN order. Sixteen direct guards on 11 new cards cover reviewed RU title overlaps:
+あわただしい–騒ぎ, 一段–段 and 予備–余裕 are required for shared segments or stems; the other thirteen are conservative and
+harmless (the consistency reviewer classed 一段–段 and 予備–余裕 as required, あわただしい–騒ぎ as conservative and the others
+as conservative or conservative-weak, and found none unjustified). The fix added and removed none.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: three findings, the うんと, 広める and 余計 titles, the first two also scoped-coverage findings;
+- consistency: no findings, and optional notes on five low-confidence extra guards, the RU-only 一段 link to 段 and 展開's
+  inline code;
+- comprehensibility: twelve findings, among them the 一段, ばからしい, 余計, 広める, 大層, うんと, 格別, あわただしい and 予備
+  titles, example translations in 余計, 大層, なんとも and 宣伝, and a metadata remark in 広める.
+
+One signed fix commit addressed them:
+- nine titles changed: うんと «много; очень; намного (при сравнении)», 広める «распространять; расширять», 余計 «сверх
+  необходимого; ненужный; ещё больше», 一段 «в ещё большей степени; одна ступень», ばからしい «нелепый; глупый;
+  смехотворный», 大層 «в большой степени; внушительный; преувеличенный», 格別 «необычайный; в особенности», あわただしい
+  «суматошный; спешный» and 予備 «резерв; запасная вещь; предварительная подготовка»;
+- example translations were rewritten in 余計, 一段, ばからしい, 大層, 宣伝 and あわただしい, prose was reworded in 余計, 一段, 格別
+  and あわただしい, and one sentence was deleted from 広める;
+- no exclusion or link was added or removed, several suggested wordings were adapted rather than adopted, and the なんとも
+  example finding was declined with the disagreement preserved for recheck.
+
+The serial rechecks reported correctness, consistency, quiz safety, comprehensibility and scoped coverage clean, with no
+regression; the なんとも finding was withdrawn and the declined points were withdrawn or not maintained. A corpus-wide
+glossary pass for итидан and a corpus-wide decision on card-metadata sentences stay on the follow-up list.
+
+Links follow EN, with one RU-only link in the new cards: 一段 links the existing word card 段 to separate the standalone word.
+
+Qualified progress is **5,349 reviewed-current / 8 reviewed runtime-blocked / 2,921 pending of 8,278**,
+with 3,883 words, 718 kanji and 718 strokes. See the [intake](translation-batches/241-words-batch-80-intake.json),
+[independent review](translation-batches/241-words-batch-80-independent-review-001.md),
+[recheck](translation-batches/241-words-batch-80-recheck-001.md),
+[qualified source record](translation-batches/241-words-batch-80-reviewed-source.json) and
+[final validation](translation-batches/241-words-batch-80-final-validation-001.json).
+
+## Previous published source milestone: batch240 thirty words (general word queue)
 
 Batch240 adds 30 Russian word articles: 蒸発 気体 蒸す 蒸気 湿度 湿気 蒸し暑い 散らかる 散らかす 散る 散らす 撒く 蒔く 葬式 著す
 落第 落とし物 下駄 草履 茂る 英文 英和 若々しい 教養 芸能 花火 花嫁 芯 艶 早速. They are chunk 32 of 72 of the general
