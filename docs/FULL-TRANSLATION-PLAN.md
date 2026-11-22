@@ -1,6 +1,70 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch246 thirty words (general word queue)
+## Current published source milestone: batch247 thirty words (general word queue)
+
+Batch247 adds 30 Russian word articles: 着せる 着々 真空 倣う 真似る 真っ黒 真っ白 真っ青 しょうがない 真っ暗 正面 先頭
+はじめに 真っ先 官庁 県庁 看病 相撲 相互 直通 垂直 直角 直線 以降 以後 たちまち 直後 直径 直前 目覚まし. They are chunk 39
+of 72 of the general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency
+closure is exactly the 30 requested words, so every EN quiz_exclusions target resolves to an existing RU word or a word
+in the batch; 12 of the 156 EN entries lie inside the batch.
+
+Navigation-only link restorations add 5 links at EN link positions in 3 existing pages: the kanji card 着 (two links to
+着せる) and the word cards 被せる (to 着せる) and 頭 (two links to 先頭). No link was held from an earlier batch. The new
+cards keep EN's links to existing cards; their links to the word cards 住まい, 水平, 曲線, 一斉 and 円周 and the kanji
+cards 庁, 県, 角 and 線 stay plain until those targets are adapted.
+
+The batch covers:
+- dressing and steady progress: dress someone or put clothes on them (着せる) and steadily, step by step (着々);
+- emptiness and imitation: a vacuum (真空), follow an example or take something as a model (倣う) and imitate (真似る);
+- utter colours and states: completely black, tanned or black with dirt (真っ黒), snow-white or blank (真っ白), bright
+  blue or deathly pale (真っ青), pitch-dark or hopeless (真っ暗) and it can't be helped, hopeless or unbearably
+  (しょうがない);
+- the front and the beginning: the front side or facade (正面), the head of a line, the front part or the lead (先頭),
+  to begin with or an introduction in a book (はじめに) and first of all or ahead of everyone (真っ先);
+- offices and care: a government office or the authorities (官庁), a prefectural government (県庁) and nursing a sick
+  person (看病);
+- sumo and mutuality: sumo wrestling (相撲) and mutual or reciprocal (相互);
+- straight lines and directness: a direct connection or through service (直通), vertical or perpendicular (垂直), a right
+  angle (直角), a straight line (直線) and a diameter (直径);
+- time relations: from a given point on (以降), thereafter (以後), in an instant or suddenly (たちまち), immediately after
+  (直後) and immediately or right before (直前);
+- waking: an alarm clock or waking up (目覚まし).
+
+All 156 EN exclusions are retained in EN order. Five direct guards on 4 new cards cover reviewed RU overlaps; all came
+from authoring and were accepted by the coordinator: 官庁–機関, たちまち–瞬間, 直前–直に, 直前–直接 and 直線–直通. The fix
+added or removed no guard.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: a correctness finding in 看病, whose example translation named a specific kind of leave, and a
+  scoped-coverage finding in たちまち, whose title dropped "suddenly";
+- consistency: consistency, quiz safety and cross-file integration clean, with optional notes;
+- comprehensibility: findings in 真空, 直前, 直後, 目覚まし, 真っ白, 先頭, しょうがない, 倣う, はじめに and 垂直, mostly
+  remarks that relied on English-side reasoning or unseen source details and titles that were long or hard to use;
+  scoped coverage clean.
+
+One signed fix commit addressed them in 12 new word cards:
+- it retitled たちまち «в мгновение ока; внезапно», 直前 «непосредственно перед; прямо перед», 先頭 «начало ряда;
+  передняя часть; место во главе» and しょうがない «ничего не поделаешь; безнадёжный; невыносимо»;
+- it reworded the example translations in 看病, たちまち, 真空, しょうがない and 直通;
+- it rewrote remarks in 真空, 直前, 直後, 目覚まし, 倣う, はじめに and 垂直;
+- the 真っ白 retitle was declined, and no exclusion or link changed.
+
+The serial rechecks reported comprehensibility, scoped coverage, correctness, consistency, quiz safety and cross-file
+integration clean, with no new finding.
+
+Links follow EN; the batch has no RU-only link.
+
+Qualified progress is **5,529 reviewed-current / 8 reviewed runtime-blocked / 2,741 pending of 8,278**,
+with 4,063 words, 718 kanji and 718 strokes. See the [intake](translation-batches/247-words-batch-86-intake.json),
+[independent review](translation-batches/247-words-batch-86-independent-review-001.md),
+[recheck](translation-batches/247-words-batch-86-recheck-001.md),
+[qualified source record](translation-batches/247-words-batch-86-reviewed-source.json) and
+[final validation](translation-batches/247-words-batch-86-final-validation-001.json).
+
+## Previous published source milestone: batch246 thirty words (general word queue)
 
 Batch246 adds 30 Russian word articles: 湯飲み 入れ物 容器 椀 碗 包装 くるむ 巻く 破片 千切る 崩れる 崩す 砕く 砕ける
 潰れる 破く 破れる 短編 短期 短所 研修 知人 知り合い 目印 矢印 対立 矛盾 瞳 睨む 碁. They are chunk 38 of 72 of the

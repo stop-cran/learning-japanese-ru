@@ -1,0 +1,128 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "247-words-batch-86",
+ "publishedBaseline": "3af630833603ef75954524faad0bf021486f58be",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 83b2640 and serialized rechecks of the signed fix commit 9c5a6a4 found no remaining defect. The 33 lane files (30 new cards and the navigation files kanji/着, words/被せる and words/頭) were copied from the authoring worktree; no link was held from an earlier batch. Before the candidate the coordinator read all 30 cards in full against frozen EN and compared the non-title metadata mechanically (\"all match except four cards carrying the five RU-added exclusions below\"). Its link audit found \"no lost or extra links\", left nine EN targets that are not yet published plain and recorded \"RU-only links: none.\" It merged seven RU-only blank-line paragraph splits in 着々, 真空, 真っ暗, 直線, 直後 and 直前 (\"the drafts split single EN paragraphs; the published corpus keeps EN paragraph structure; paragraph parity now matches EN for all 30\") and reworded 直後's «Это отдельно подтверждённое признание: …» to «Это значение подтверждено отдельным источником: …» (\"calque of EN \"separately sourced recognition\"; «признание» does not read as dictionary recognition of a sense\"); fix 1 later replaced that sentence with «Это значение взято из Daijisen: в записи JMdict, указанной ниже, есть только значение «сразу после».» (comprehensibility F4). It accepted the other passages as drafted, including the five RU-added exclusions and the RU-side adaptations of 真似る (the note on Russian подражать with the dative against Japanese を), 倣う (the English \"imitate + を\" remark adapted to «перенимать что-либо»; fix 1 later rewrote it, F10), 真空 (Russian «пустой» in place of English \"empty\"; fix 1 later reworded the closing sentence of that note, F1) and はじめに (the English \"introduction\" ambiguity reworded; fix 1 later deleted that sentence, F11), and recorded подражать governance and «прямая линия» as a phone-line name under \"Unverified Russian (not defects)\". Lane validation: \"manifest 5,529 files; validate 0 errors; 124 tests OK; budget OK (localZipBytes 8,006,764); link parity clean (33 files); navonly 3 files / 5 links / 0 problems; diff --check clean; no BOM/CR/missing EOL; paragraph parity with EN for all 30.\" The candidate script then applied two exact-once follow-up edits carried from Batch 245's fix 1 (1dc38a8), which had retitled the published card 空っぽ from «совсем пустой; полый» to «пустой; полый»: words/真っ白.md «（からっぽ）, «совсем пустой», » → «（からっぽ）, «пустой», » and words/真空.md «значит «совсем пустой, полый».» → «значит «пустой, полый».». It byte-compared the other 31 copies with the lane, verified the two edited files as the lane copy plus that edit, and regenerated the manifest (5,529 entries: 5,524 files, 3 images and 2 scenes); its stopping checks (validate, unit tests, budget, `git diff --check` and the navigation-only check over the three files) passed. Fix 1 did not touch either edited line (line 29 in both files). For this record the 33 committed content blobs at 83b2640 and at 9c5a6a4 were checked: none has a BOM or CR, and every file ends with a newline; link parity at 9c5a6a4 shows no LOST and no EXTRA link; the candidate title screen (b247-cand-screen.txt, 357 lines) differs from the lane screen (b247-screen.txt, 357 lines) in one stem-only line: the 倣う~純粋 line (stem «приме») appears in both with different 純粋 titles (the lane held a pre-publication copy; the published title after the Batch 244 fix 149b7d7 is «чистый (без примесей); неподдельный»). No exact-segment line differs. Correctness raised two low findings (correctness NEEDS FIX for 看病, C1; scoped coverage NEEDS FIX for たちまち, S1). C1: 看病:19 «Я взял отгул для ухода за больным отцом.» introduced a specific kind of leave (Kuznetsov: days off granted for overtime) into generic 仕事を休みました; it now reads «Я не пошёл на работу, чтобы ухаживать за больным отцом.» S1: たちまち's title «в мгновение ока; моментально» lost EN's \"suddenly\" (JMdict 1288480 sense 2); the title and H1 are now «в мгновение ока; внезапно», and the example on line 19 reads «Небо вдруг потемнело.» Its optional note on the unseen «исходный список» in 直前:34 and 目覚まし:16 was handled with comprehensibility F2 and F5. Consistency raised no finding (consistency CLEAN; quiz safety CLEAN; integration/manifest CLEAN) and five optional notes: たちまち's missing \"suddenly\" (resolved by S1); 真空:18 «сосуда» against 容器's title «контейнер; тара», adopted as «Мы создали вакуум внутри контейнера.»; 相互's adjectival title (declined); the source-list wording in 直前 and 目覚まし (handled with F2 and F5); and the 直線→直通 over-guard (kept). Comprehensibility raised twelve findings (comprehensibility NEEDS FIX; scoped coverage CLEAN): eight medium (F1–F4, F6–F8, F10) and four low (F5, F9, F11, F12). F1: 真空:33 «эти расширения не превращают любое русское «пустой» в 真空» was a calque; it now reads «Daijisen фиксирует и переносное значение — пустоту или бездействие. Но это не значит, что любое русское «пустой» можно перевести как 真空.» F2 and F5: 直前:34 and 目覚まし:16 named a source list the learner cannot see; they now read «В исходном списке слов указано временное значение; пространственное приведено здесь дополнительно.» and «目覚し (так слово записано в исходном списке слов) и 目ざまし — записи того же слова めざまし.» F3: 直前's title «непосредственно перед (по времени); прямо перед (в пространстве)» was a definition; the title and H1 are now «непосредственно перед; прямо перед». F4: 直後:32 made the spatial sense look unofficial (see above). F6 (真っ白's title) was declined. F7: 先頭's title «начало ряда (очереди); передняя позиция; место во главе» was too long; the title and H1 are now «начало ряда; передняя часть; место во главе». F8: しょうがない:21 «Ну и безнадёжный же ты человек.» added «ты»; it now reads «Ну и безнадёжный же человек.» F9: しょうがない's title segment «до невозможности» needs a host word; the title and H1 are now «ничего не поделаешь; безнадёжный; невыносимо». F10: 倣う:21 rejected the gloss «перенимать что-либо», which the card never gives; it now reads «По-русски говорят «брать что-либо за образец» с винительным падежом, но при 倣う образец отмечается に, а не を.» F11: はじめに:21 «Ни тот, ни другой не означает представления одного человека другому.» warned against an English-only confusion and is deleted. F12: 垂直:33 rejected the gloss «стоящий прямо на странице», which the card never shows; it now reads «Не переводите каждое 垂直 словом «вертикальный»: две наклонные линии тоже могут быть перпендикулярны друг другу.» Its optional note on 直通's example was adopted: «Это прямой номер ответственного сотрудника.» instead of «Это номер прямой связи с ответственным сотрудником.» All accepted changes are in the one signed fix commit 9c5a6a4 (\"Batch 247 fix 1: apply blind-review dispositions\"). B247 had one signed fix commit after the blind reviews: fix 1 (9c5a6a4) applied the dispositions of all three reviews (12 new word cards — 看病, たちまち, 真空, 直前, 直後, 目覚まし, 先頭, しょうがない, 倣う, はじめに, 垂直, 直通 — + manifest.json; no navigation-only file changed, so navigation stays at 3 files / 5 links). Each reviewer rechecked the fix diff 83b2640..9c5a6a4 once, serially (comprehensibility, then correctness, then consistency; the initial reviews ran correctness, then consistency, then comprehensibility), read-only, with no generator run; the rechecks were written as separate reports (b247-recheck-{correctness,consistency,comprehensibility}.md).\nComprehensibility (grok-4.7) at 9c5a6a4 reported \"Verdicts: comprehensibility CLEAN; scoped coverage CLEAN.\" It reconciled F1 (真空:33 names a figurative sense and says not every «пустой» is 真空), F2 (直前:34 «приведено здесь дополнительно»; the spatial example is on line 33), F3 (直前:4 and 12 «непосредственно перед; прямо перед»), F4 (直後:32 names Daijisen and the JMdict entry below), F5 (目覚まし:16; the list note is only a parenthesis), F7 (先頭:4 and 12 «начало ряда; передняя часть; место во главе»; «очереди» is gone; «передняя часть» is not 正面's «передняя сторона», and 先頭 excludes 正面), F8 (しょうがない:21 «Ну и безнадёжный же человек.»), F9 (しょうがない:4 and 12 «невыносимо»; line 20 keeps the idiom «до невозможности»; たまらない stays excluded), F10 (倣う:21 uses the card's own «брать за образец» and states に, not を), F11 (はじめに:21; the English-only warning is deleted) and F12 (垂直:33) as resolved, and withdrew F6 (真っ白:4 unchanged; it reports that line 16 already glosses «незаполненный» and line 18 teaches the mind use: \"The declined title was not a gloss.\"). It checked the four retitles against body and examples (たちまち:4/12/19 «внезапно» / «вдруг», with speed kept in line 17 and the first example and 突然 excluded; 直前; 先頭; しょうがない) and reported no lost teaching point and no new unclear remark. Optional notes: 看病 («Я не пошёл на работу…»), 真空 («контейнера») and 直通 («прямой номер») resolved — the report cites them as 看病:18, 真空:16 and 直通:18, while the lines the fix changed are 看病:19, 真空:18 and 直通:19; the 徐々に link (still plain text at たちまち:29; EN parity), 相互:18, the 着せる title and 正面:33 declined with no defect; the exclusion notes withdrawn (the guarded pairs are already excluded, including both ways for 以降/以後). New findings: none. Its stated limits: dictionaries not re-opened; title screen not re-run; manifest excluded from the diff.\nCorrectness (gpt-6.1-sol) at 9c5a6a4 reported \"Correctness: CLEAN. Scoped coverage: CLEAN.\" It judged C1 resolved (看病:19 «Я не пошёл на работу, чтобы ухаживать за больным отцом.»; Daijisen 休む sense 4 欠席・欠勤する; 看病 remains patient care) and S1 resolved (たちまち:4,12 «в мгновение ока; внезапно»; :19 «Небо вдруг потемнело.»; JMdict senses 1 and 2 support both title segments), and its optional source-list notes on 直前:34 and 目覚まし:16 partially resolved and still optional (outside its facets). It checked every changed passage, including the changes made for other reviewers' findings: the four retitles (直前:16,33 keeps the temporal/spatial distinction; 先頭:16,33 bounds «передняя часть» to an ordered group or leading position; しょうがない:20,23,35 supply construction and register for «невыносимо»), 真空:18 «контейнера» (faithful to 容器) and :33 (Daijisen sense 2, not an invented JMdict sense), 直後:32 (Daijisen sense 2 物のすぐうしろ; the JMdict entry has only \"immediately following\"), 直前:34, 倣う:21 (Daijisen 前例に倣う; JMdict intransitive godan; it does not ban を elsewhere in a sentence), 垂直:33 (JMdict senses 1–2; Daijisen senses 2–3), はじめに:21 (only an English-dependent warning removed), しょうがない:21, 直通:19 and 看病:19. Its exact Git comparisons found all 26 Japanese example/kana prefixes, all 84 literal Markdown links/citations, dictionary footers/IDs/sense numbers, non-title front matter, classifications, readings and existing quiz guards unchanged, the only new Japanese characters being 倣う and に in 倣う:21; `git diff --check` passed. New findings: none. Sources it reports actually reopened: the Jisho/JMdict API for all twelve words; Digital Daijisen via weblio.jp for 真空, 直後, 直前, 垂直, 直通, 休む and 倣う; the pinned yomitan-jlpt-vocab n2.csv (IDs 1431330 and 1535340); no network request failed. Its stated limits: a delta recheck carrying forward the original 30-card review, not a new full-batch audit; no fresh kanjiapi, Bunpro, Russian-dictionary or native-speaker check; manifest, unrelated cards, exhaustive title collisions and comprehension beyond the optional notes not re-audited; CLEAN does not certify exhaustive or native correctness.\nConsistency (claude-sonnet-5.5) at 9c5a6a4 reported consistency, quiz safety and integration/manifest CLEAN. It reconciled its optional notes 1 (たちまち «внезапно»), 2 (真空 «контейнера») and 4 (the 直前 and 目覚まし source-list wording) as resolved, left 3 (相互 adjectival title) unresolved as optional polish and 5 (直線→直通 over-guard) optional and unchanged. For the retitles it found: たちまち «внезапно» shared with 急に and 突然, both excluded from たちまち, with 急 and 瞬間 also guarded and びっくり a stem-only, non-defensible neighbour; 直前 sharing no exact segment (前, 直に, 直接 guarded); 先頭 sharing no exact segment (先端, 正面, 前, 初め, 最初 guarded; 始まり, 始め, 開始, 出発 and はじめに unguarded but «начало» in time versus «начало ряда»); しょうがない «невыносимо» overlapping only by stem with たまらない, which is guarded. H1 equals the title on all 12 changed cards; a repo-wide grep found no other card quoting the old titles or changed sentences (kanji/頭.md L20, L32, L40 and words/頭.md L33, L48 quote 先頭 consistently with the new title); front matter except the title, link lists and quiz_exclusions are identical between 83b2640 and 9c5a6a4; manifest.json differs from the candidate only in contentVersion and the 12 changed entries, with all 5524 hashes matching the working tree. New findings: none required; one new optional note — 直前 and 先頭 are not guarded against each other («прямо перед» vs «передняя часть»), which the reviewer calls a low-risk note, since 直前 is time-led and «прямо перед» is not a fair gloss of 先頭. Its stated limits: Russian quality not judged; validate.py not re-run this round; the quiz-overlap scan is heuristic (segments and 5-letter stems).\nThe coordinator took no action on the new optional 直前/先頭 note, for the reviewer's own reason (not a defensible answer). No actionable finding remains; no second fix is needed. Fix 1 changed no Japanese example sentence, sourced reading, kanji card, navigation file, exclusion or link target; it changed twelve new word files (20 lines added and 20 removed) and the manifest. It retitled たちまち, 直前, 先頭 and しょうがない; 真っ白's title is unchanged. All three reviewers read all 30 new cards in full. The correctness and comprehensibility reviewers compared each with its full EN original; the consistency reviewer compared all 30 with EN programmatically (front matter, section structure, links, quiz_exclusions, footers) and read the EN bodies line by line for 14 of them. The consistency reviewer also read the three navigation diffs in full, checked the intake's path list and payload hashes and all 5,524 manifest file hashes, and ran `tools/validate.py` (0 errors) at the candidate; the correctness reviewer ran the validator read-only at the candidate (0 errors); the comprehensibility reviewer glanced at the navigation link edits and ran no validator. The consistency reviewer's validator run created an untracked Python bytecode cache under tools, which that reviewer deleted itself; all three initial reports and all three recheck reports record a clean status. No reviewer ran a generator. Evidence includes the Jisho/JMdict API, Digital Daijisen via Weblio, the pinned n2.csv, kanjiapi.dev, Kotobank, Bunpro, Kuznetsov via gufo.me, ru.wiktionary and ru.wikipedia. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, recheck reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 156 EN exclusions across 28 lists are retained in EN order (EN has no list on 相撲 or 直径). 12 lie inside the batch: 真似る–倣う, 真っ青–真っ白, 真っ暗–真っ黒 and しょうがない, 先頭–正面, 真っ先–先頭 and はじめに, 県庁–官庁, 直角–垂直, 以後–以降, and 直後–以後 and たちまち; the other 144 target existing RU cards. Five direct, one-sided exclusions on four new cards cover reviewed RU title overlaps, all present at the candidate and appended at the end of their lists: 官庁–機関 (機関 «учреждение; двигатель; система»), 直線–直通 (直通 «прямая связь; беспересадочное сообщение»), たちまち–瞬間 (瞬間 «мгновение; момент»), 直前–直に (直に «непосредственно; лично») and 直前–直接 (直接 «напрямую; непосредственный»). The coordinator accepted them as \"all conservative, direct pairs on new cards only\": \"直前→直に and 直前→直接 (shared «непосредствен-» from the RU wording; B219 precedent), たちまち→瞬間 («мгновение»; EN already guards 一瞬), 官庁→機関 (shared «учреждение»), 直線→直通 (Russian «прямая линия» also names a direct phone line)\". The consistency reviewer classed 官庁→機関 as \"warranted\", たちまち→瞬間 as \"warranted, conservative\", 直前→直に and 直前→直接 as \"conservative\" and 直線→直通 as \"weakest; only shared word is «прямая», nouns differ (линия vs связь). Harmless over-guarding.\"; the dispositions keep 直線→直通 (\"Harmless; it also guards the 直通–直線 pair raised by the comprehensibility reviewer\"), and the consistency recheck left that note \"OPTIONAL, unchanged (harmless)\". Fix 1 added and removed no exclusion. The candidate title screen (b247-cand-screen.txt; 357 lines) has 40 OK lines for guarded pairs and 317 !! lines and no exact-segment line. A saved rerun at 9c5a6a4 over the 30 batch words (b247-postfix-screen.txt; 311 lines) has 42 OK lines and 269 !! lines; its only exact-segment lines are たちまち–急に and たちまち–突然 «внезапно», guarded by たちまち's EN entries 急に and 突然, and its differences from the candidate screen (67 lines added and 113 removed in all) come from the four title changes (先頭, 直前, たちまち and しょうがない, including pair lines from はじめに and 以後 that compare with 先頭's or 直前's title). The consistency recheck found no exact segment shared by 直前, 先頭 or しょうがない with any other title and raised one new optional note, that 直前 and 先頭 are not guarded against each other; the coordinator took no action, for the reviewer's own reason that «прямо перед» is not a fair gloss of 先頭. Every RU addition is appended at the end of its list, and no EN entry is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/247-words-batch-86-intake.json",
+  "docs/translation-batches/247-words-batch-86-independent-review-001.md",
+  "docs/translation-batches/247-words-batch-86-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "倣",
+   "垂",
+   "庁",
+   "径",
+   "撲",
+   "看",
+   "県",
+   "線",
+   "角"
+  ],
+  "navigationNote": "Restored 5 relative links in the 3 listed Markdown files at the corresponding EN-linked positions, using EN's href form (../words/X.md in kanji files, X.md in word files): kanji 着 to 着せる (line 38, the き.せる reading row, matching EN line 34, and line 52, the word list, matching EN line 44); word 被せる to 着せる (line 46, matching EN line 36); and word 頭 to 先頭 (lines 33 and 48, matching EN lines 28 and 40). kanji 着 also mentions 着せる in plain text at lines 62–63, a pre-existing RU sentence with no EN link counterpart that this batch does not change; the two word files mention their targets only on the linked lines. All three files were copied from the authoring worktree; no link was held from an earlier batch, and no surrounding prose changed at the candidate; no navigation file changed after the candidate. words/頭.md:33 and kanji/頭.md (lines 20, 32 and 40) quote 先頭 as «передняя часть; начало ряда» or similar, which remains consistent with 先頭's final title «начало ряда; передняя часть; место во главе». Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/着.md",
+   "words/被せる.md",
+   "words/頭.md"
+  ],
+  "newWords": [
+   "着せる",
+   "着々",
+   "真空",
+   "倣う",
+   "真似る",
+   "真っ黒",
+   "真っ白",
+   "真っ青",
+   "しょうがない",
+   "真っ暗",
+   "正面",
+   "先頭",
+   "はじめに",
+   "真っ先",
+   "官庁",
+   "県庁",
+   "看病",
+   "相撲",
+   "相互",
+   "直通",
+   "垂直",
+   "直角",
+   "直線",
+   "以降",
+   "以後",
+   "たちまち",
+   "直後",
+   "直径",
+   "直前",
+   "目覚まし"
+  ],
+  "selection": "Batch 86 selected 30 word cards from the frozen source: chunk 39 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 987 remained after Batch 246, and 957 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing outside them was added. Twelve source exclusion entries lie inside the batch; the other 144 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (10 EN link occurrences, 9 targets) in the new cards: 官庁→kanji 庁, 県庁→kanji 県 and kanji 庁, 相撲→words/住まい, 垂直→words/水平, 直角→kanji 角, 直線→kanji 線 and words/曲線, たちまち→words/一斉 and 直径→words/円周. 9 written kanji have no RU kanji card: 倣 垂 庁 径 撲 看 県 線 角 (EN has cards only for 庁, 県, 線 and 角). Links otherwise follow EN. All 14 EN links between batch cards are kept.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined, modified or no-action items: correctness C1 was accepted with the reviewer's suggested sentence, and S1 was accepted. Comprehensibility F1 was accepted with modification (\"The opening sentence is kept.\"); F2 and F5 were accepted with modification because \"The source-list reference is a deck convention (49 occurrences in published RU words/kanji; 82 \"source list\" mentions in EN), so it is kept but made readable\", which also answers the correctness optional and consistency optional 4; the correctness recheck judged that optional \"PARTIALLY RESOLVED, still OPTIONAL/outside facets\". F4 was accepted with modification: \"The source qualification is kept (EN \"separately sourced recognition\") but names the sources instead of \"the pinned principal entry\".\" F7 was accepted with modification: the title \"keeps all three EN senses (\"head of a line; front; lead\") in shorter form; «передняя часть» matches the 頭 kanji and word cards' gloss of 先頭\", and the dispositions call the reviewer's claim of an unexcluded «передняя» overlap with 正面 incorrect: \"先頭 already excludes 正面 and 前, and 正面 «передняя сторона; фасад» shares no exact segment.\" F10 was accepted with modification (rewrite, not delete): \"The EN warning (\"English 'imitate something' does not justify mechanically using を\") is an L1-interference rule that applies to Russian too, because the card's own title «брать за образец» takes an accusative object; the rewrite states the rule plainly.\" F12 was accepted with modification (\"The following sentence on local horizontal is kept.\"). F3, F8, F9 and F11 were accepted. F6 (真っ白's title) was declined: \"«незаполненный» renders JMdict/EN \"blank\"; line 16 explains blank paper and a blank mind\", and \"The suggested «ни записи, ни мысли» is not a gloss\"; the comprehensibility recheck withdrew F6 (\"The declined title was not a gloss.\"). Of the comprehensibility optionals, 真空 «сосуда» (also consistency optional 2) and 直通's example were accepted and 看病 «отгул» was handled as correctness C1; the 徐々に link in たちまち was declined (\"EN leaves 徐々に unlinked; kept for link parity\"), as were 相互:18 «на взаимной основе», the 着せる title and the 正面:33 まとも lead-in (\"Correct Russian and faithful to EN; no learning defect shown.\"), and the missing-exclusion notes needed no action (\"以後 already excludes 以降 and Android applies exclusions in both directions; 直線→直通 guards 直通–直線; 相撲 and 直径 have no exclusions in EN and no overlapping titles were shown.\"); the comprehensibility recheck recorded the declined optionals as having no defect and withdrew the exclusion notes. Consistency optional 3 (相互's adjectival title) was declined (\"«взаимный; обоюдный» follows EN \"mutual; reciprocal\"; the body teaches 相互の and 相互に\") and left \"UNRESOLVED, left as optional polish\" at recheck; optional 5 (直線→直通) was kept and left \"OPTIONAL, unchanged (harmless)\"; optional 1 was resolved by S1. The consistency recheck's new optional 直前/先頭 guard was not adopted. The dispositions note that the published 事情:18 uses the same word «отгул» but is outside this batch's scope; no follow-up is recorded as part of this batch.",
+  "exclusionsAddedBeyondEn": {
+   "たちまち": [
+    "瞬間"
+   ],
+   "官庁": [
+    "機関"
+   ],
+   "直前": [
+    "直に",
+    "直接"
+   ],
+   "直線": [
+    "直通"
+   ]
+  },
+  "titles": {
+   "しょうがない": "ничего не поделаешь; безнадёжный; невыносимо",
+   "たちまち": "в мгновение ока; внезапно",
+   "はじめに": "для начала; вступление (в книге)",
+   "以後": "впоследствии; с того времени",
+   "以降": "начиная с указанного момента; и позже",
+   "倣う": "следовать примеру; брать за образец",
+   "先頭": "начало ряда; передняя часть; место во главе",
+   "垂直": "вертикальный; перпендикулярный",
+   "官庁": "государственное учреждение; органы власти",
+   "正面": "передняя сторона; фасад",
+   "目覚まし": "будильник; пробуждение",
+   "直前": "непосредственно перед; прямо перед",
+   "直径": "диаметр",
+   "直後": "сразу после",
+   "直線": "прямая линия",
+   "直角": "прямой угол; под прямым углом",
+   "直通": "прямая связь; беспересадочное сообщение",
+   "相互": "взаимный; обоюдный",
+   "相撲": "борьба сумо",
+   "看病": "уход за больным",
+   "県庁": "администрация префектуры",
+   "真っ先": "в первую очередь; впереди всех",
+   "真っ暗": "непроглядно тёмный; беспросветный",
+   "真っ白": "белоснежный; незаполненный",
+   "真っ青": "ярко-синий; мертвенно-бледный",
+   "真っ黒": "совершенно чёрный; загорелый дочерна; чёрный от грязи",
+   "真似る": "подражать; имитировать",
+   "真空": "вакуум",
+   "着々": "неуклонно; шаг за шагом",
+   "着せる": "одевать кого-либо; надевать одежду на кого-либо"
+  }
+ }
+}
