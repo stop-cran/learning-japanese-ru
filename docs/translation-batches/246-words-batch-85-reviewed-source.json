@@ -1,0 +1,135 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "246-words-batch-85",
+ "publishedBaseline": "1608f454b9fb2e4bd67726867c1ce268b7280c5b",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 008ef28 and serialized rechecks of the signed fix commit c1767c6 found no remaining defect. The 39 lane files (30 new cards and the navigation files kanji/包, kanji/印, kanji/巻, kanji/短, words/撒く, words/矛, words/蒔く, words/転がす and words/長所) were copied from the authoring worktree; no link was held from an earlier batch. Before the candidate the coordinator read all 30 cards in full against frozen EN and compared the non-title metadata mechanically (\"all match except one RU-added exclusion 破く→破る, required: EN gives both cards the identical title \"tear; rip\", which the app deduplicates, while the distinct RU titles «порвать; разорвать» / «рвать; разрывать» are aspect partners a learner could not reject\"). Its link audit accepted three RU-only links, 湯飲み:34→ちゃわん, 短所:37→長所 and 知り合い:34→知人 (\"each at a substantive comparison in the body (B214 precedent; RU content-structure rule permits links at substantive comparisons) — accepted, flagged for consistency review\"), and left eight EN targets that are not yet published plain. It restored 21 blank-line paragraph breaks in twelve cards (巻く, 椀, 碗, 崩れる, 崩す, 砕く, 砕ける, 潰れる, 破く, 破れる, 矢印 and 矛盾; \"the drafts merged EN paragraphs; the published corpus keeps EN paragraph structure (3,406 of 3,913 RU cards); paragraph parity now matches EN for all 30\"), appended to 碗 the EN citation line that \"was lost in drafting\" («Счётное слово для порций: [Digital Daijisen через Weblio: 杯](https://www.weblio.jp/content/杯), именно заголовок はい как счётного слова.»), and reworded two sentences: 包装 «Из этих сравнений не следует, что любой свёрток или любое заполнение ёмкости — это 包装.» instead of an \"ungrammatical calque\", and 対立 «…может означать взгляд наблюдателя, который сравнивает предметы, не борющиеся и не сопротивляющиеся друг другу.», because «со стороны предметов» \"read as the objects doing the comparing\". It accepted the other passages as drafted, including 破く's candidate title «порвать; разорвать» (later changed by fix 1), 潰れる «быть раздавленным» with the RU note that it is an ordinary intransitive verb, and the identical 知人/知り合い titles «знакомый» without an exclusion, as in EN; accepted the dropped English-only notes (入れ物 English \"case\", 碁 English verb \"go\", 瞳 English \"pupil\" = student); and recorded «вместилище» (入れ物) as bookish and «минус» (短所) as colloquial under \"Unverified Russian register (not defects)\". Lane validation: \"manifest 5,499 files; validate 0 errors; 124 tests OK; budget OK; link parity: only the three RU-only links above (plus two pre-existing kanji/短 extras already in HEAD); navonly 9 files / 21 links / 0 problems; diff --check clean; no BOM/CR/missing EOL; paragraph parity with EN for all 30.\" The candidate script byte-compared the 39 copies and regenerated the manifest (5,499 entries); its stopping checks (validate, unit tests, budget, `git diff --check` and the navigation-only check over the nine files) passed. For this record the 39 committed content blobs at 008ef28 and at c1767c6 were checked: none has a BOM or CR, and every file ends with a newline; link parity at c1767c6 shows no LOST link and EXTRA only the three reviewed RU-only links and the two kanji/短 links to kanji/知 and words/短い, which already exist at the published baseline; the candidate title screen (b246-cand-screen.txt, 223 lines) differs from the lane screen (224 lines) in three stem-only lines: the 短編~編集 line appears in both with different 編集 titles (the lane held a pre-publication copy; the published title after the Batch 243 fix 6aa1bca adds «составление сборника»), and the lane-only 短所~符号 line (stem «минус») disappears because Batch 245's fix 1 changed 符号's title to «условное обозначение; код; знак числа». No exact-segment line differs. Correctness raised no finding in its facets (correctness CLEAN; scoped coverage CLEAN for all 30 articles and the changed navigation hunks) and one outside-facet quiz observation, Q1 (medium learning impact, high confidence): 湯飲み «чайная чашка» had no direct exclusion against ちゃわん «миска для риса», although JMdict 1597530 sense 1 includes \"tea cup\" and 湯飲み's own synonym line teaches that ちゃわん can name a tea bowl; ちゃわん is appended to 湯飲み's exclusions. Consistency raised no defect (coverage/links/navigation, duplicates and conflicts, distractors/quiz_exclusions, tags and metadata, manifest/generated files and formatting/footers CLEAN; app-side title deduplication unverified); it classed 破く→破る as required, offered the optional O1 (a 知人→知り合い exclusion) and noted as information (O2) that the RU-only links resolve. Comprehensibility raised five medium findings (comprehensibility NEEDS FIX for 短所, 破く, 破片 and 睨む; scoped coverage NEEDS FIX for 短編 only). C1: 短所's definition, example and comparison used 欠点's quiz title «недостаток; слабая сторона» instead of its own title; the body now uses «отрицательная сторона» / «минус» («— Мой минус в том, что я легко теряюсь.»; «**Nの短所** — «минусы N», «отрицательные стороны N».»), the 欠点 comparison glosses 欠点 with its own title «недостаток; слабая сторона», line 41 opens «短所 не обязательно означает…», and the navigation-only file 長所:31 now quotes 短所's title: «[短所](短所.md)（たんしょ）— «отрицательная сторона; минус» — прямая противоположность.» C2: 破く's perfective title read as the completed form of 破る; the title and H1 are now «рвать; разрывать (бумагу, ткань)» and the opening line «破く значит рвать или разрывать что-либо, например бумагу или ткань.» C3: 破片's «щепка» suggested wood chips; the title and H1 are «осколок; обломок», and the body reads «破片 — осколок или обломок: кусок разбитого стекла или керамики, деревянная щепка или другая часть, оставшаяся после того, как что-то разбилось или сломалось.» C4: 睨む's passive example was rendered with 疑う's quiz verb «подозревает»; it now reads «— За ним с подозрением следит полиция.» C5 (scoped coverage): 短編's first example dropped the shortness; it reads «— Перед сном я прочитал один короткий рассказ.», and 短編小説 is glossed «короткий рассказ». All accepted changes are in the one signed fix commit c1767c6 (\"Batch 246 fix 1: apply review dispositions\"). B246 had one signed fix commit after the blind reviews: fix 1 (c1767c6) applied the dispositions of all three reviews (6 new word cards + the navigation-only file 長所, whose line 31 now quotes 短所's title, + manifest.json; navigation stays at 9 files / 21 links). Each reviewer rechecked the fix diff 008ef28..c1767c6 once, serially (comprehensibility, then correctness, then consistency), read-only, with no generator run; the rechecks were written as separate reports (b246-recheck-{correctness,consistency,comprehensibility}.md).\nComprehensibility (grok-4.7 requested) at c1767c6 reported \"Comprehensibility: CLEAN. Scoped coverage: CLEAN.\" It reconciled C1 (短所 now uses «отрицательная сторона» / «минус» throughout; 長所:31 quotes 短所's title; dropping «а не имя любого изъяна» does not restore the collision), C2 (破く imperfective «рвать; разрывать (бумагу, ткань)»), C3 (破片 «осколок; обломок»; «щепка» scoped to wood in the body), C4 (睨む:22 «За ним с подозрением следит полиция.» no longer uses 疑う's «подозревает») and C5 (短編 «один короткий рассказ»; 短編小説 «короткий рассказ») as resolved, and found no regression in the changed passages; 湯飲み:9 changes only quiz_exclusions. Optional, not findings: the declined optionals (潰れる title, 椀/碗 counter gloss, 矢印/くるむ navigation sentences, glossary terms) teach no wrong meaning; «вместилище» and «конфронтация» stay acceptable. Its stated limits: a recheck of the fix, not a fresh read of all 30 cards; manifest.json not reviewed as prose; no generators run; model not verifiable from the session.\nCorrectness (gpt-6.1-sol) at c1767c6 judged Q1 resolved (湯飲み:9 `quiz_exclusions: [カップ, ちゃわん]`; JMdict 1597530 sense 1 \"rice bowl; tea cup; teacup\" and 1612130 \"teacup\"; a real direct overlap, not inferred through カップ) and checked every changed passage: 短所/長所:31 (JMdict 1418760/1430030), 破く (JMdict 1983750; Daijisen やぶく; past examples correctly keep «порвал»/«разорвал»; 破く–破る exclusion still justified), 破片 (JMdict 1471420; splinter coverage kept in the body), 睨む:22 (police remain the agent; JMdict 1569880 sense 4; Daijisen にらむ sense 4) and 短編:19,22 (JMdict 1597300). All seven cards' Japanese examples and kana readings equal frozen EN; no example, reading, citation, link, classification or existing guard was removed. Final: correctness CLEAN; scoped coverage CLEAN; no new finding. Optional: the title-aspect suggestion partially resolved (破く resolved; unchanged 破れる optional); first-use term definitions, contributor-oriented sentences and a colloquial «минус» annotation remain optional. Its Gramota recheck request returned HTTP 429, so no new successful Gramota access is claimed. Its stated limits: a delta recheck, not a corpus-wide quiz audit, native-speaker assessment or client/manifest acceptance; no generators, repository writes or full validator/unit-test reruns.\nConsistency (claude-sonnet-5.5) at c1767c6 ran validate.py (0 errors) and reported coverage/links/navigation, duplicates, distractors/quiz_exclusions, tags/metadata, manifest and formatting/H1-title agreement CLEAN, with app-side title deduplication still UNVERIFIED. It left O1 (知人/知り合い identical title, EN parity) unresolved and optional, withdrew O2 as informational, and judged the 破く→破る exclusion still required. It found 破く's new title shares both stems with 破る but is guarded (破く excludes 破る; 破れる excludes both), no other title shares 破片's «осколок»/«обломок», 短所's unchanged title overlaps only 不 by stem, the 湯飲み→ちゃわん exclusion conservative and defensible (appended after EN カップ; not required), 長所:31 changed only in its quoted gloss (link and brackets intact; 9 files / 21 links), and all 7 changed manifest entries match the committed files (diff = contentVersion + those 7 lines). Optional: O1; a reciprocal ちゃわん→湯飲み entry is not required. Its stated limits: model identity not stated; app title deduplication not verified; linguistic correctness outside its facet.\nNo actionable finding remains; no second fix is needed. Fix 1 changed no Japanese example sentence, sourced reading, kanji card, EN exclusion or link target; it changed seven word files (20 lines added and 20 removed): six new cards and the navigation-only file 長所, whose line 31 changed only in the quoted gloss while its link and brackets are unchanged. It retitled 破く and 破片 and added one exclusion (湯飲み→ちゃわん). All three reviewers read all 30 cards in full against their EN originals. The consistency reviewer also read the nine navigation diffs in full, checked the intake's path list and payload hashes and the manifest entries, and ran `tools/validate.py` (0 errors) at the candidate and at the recheck; the correctness reviewer read every changed navigation hunk and ran the validator read-only at the candidate (0 errors); the comprehensibility reviewer read the navigation link edits and ran no validator. The comprehensibility review recorded an untracked Python bytecode cache under tools at its start, which it neither inspected nor deleted; the coordinator removed it before fix 1, and all three recheck reports record an empty status. No reviewer ran a generator. Evidence includes the official JMdict XML and KANJIDIC2, the pinned n2.csv, Digital Daijisen via Weblio, the Russian JMdict entry at JapanDict, Kuznetsov and Babenko via gramota.ru, the Jisho API and Ozhegov. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, recheck reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 212 EN exclusions across 29 lists are retained in EN order (EN has no list on 碁). 31 lie inside the batch: くるむ–巻く, 包装–くるむ, 容器–入れ物 and 包装, 椀–碗, 湯飲み, 容器 and 入れ物, 碗–椀, 湯飲み, 容器 and 入れ物, 崩す–崩れる, 砕く–砕ける, 崩す and 崩れる, 砕ける–砕く, 崩す and 崩れる, 潰れる–砕ける and 崩れる, 破く–破れる and 千切る, 破れる–破く, 千切る, 崩れる, 潰れる, 砕ける and 崩す, 矢印–目印, and 矛盾–対立; the other 181 target existing RU cards. Two direct, one-sided exclusions on two new cards cover reviewed RU title overlaps, both appended at the end of their lists. One was present at the candidate: 破く–破る (破る «рвать; разрывать»), which the coordinator accepted as required (\"EN gives both cards the identical title \"tear; rip\", which the app deduplicates, while the distinct RU titles «порвать; разорвать» / «рвать; разрывать» are aspect partners a learner could not reject\") and the consistency reviewer classed as \"required\"; after fix 1 gave 破く the title «рвать; разрывать (бумагу, ткань)», the consistency recheck judged it \"RESOLVED/still required\". Fix 1 added 湯飲み–ちゃわん (ちゃわん «миска для риса»; correctness Q1), which the consistency recheck classed as \"conservative, defensible … Not required\". 知人 and 知り合い keep the identical title «знакомый» without an exclusion, as in EN; the consistency reviewer's optional O1 was declined because Android's word quiz already rejects a distractor whose title equals the target's or an already chosen option's title, which the consistency reviews recorded as unverified. The candidate title screen (b246-cand-screen.txt; 223 lines) has 36 OK lines for guarded pairs and 187 !! lines; its four exact-segment lines are 椀–ボール «миска», 椀–碗 «миска» and «счётное слово для порций в мисках» and 碗–ボール «миска», all guarded by the batch cards' own lists, and 知り合い–知人 «знакомый», unguarded; every other line is stem-only. A saved rerun at c1767c6 over the 30 batch words (b246-postfix-screen.txt; 232 lines) has 38 OK lines and 194 !! lines; it adds the exact-segment line 破く–破る «рвать» and «разрывать», guarded by 破く→破る, and its other differences from the candidate screen (11 lines added and 2 removed in all) come from the 破く title change. Every RU addition is appended at the end of its list, and no EN entry is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/246-words-batch-85-intake.json",
+  "docs/translation-batches/246-words-batch-85-independent-review-001.md",
+  "docs/translation-batches/246-words-batch-85-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "修",
+   "器",
+   "崩",
+   "椀",
+   "湯",
+   "潰",
+   "片",
+   "盾",
+   "睨",
+   "瞳",
+   "矛",
+   "矢",
+   "砕",
+   "碁",
+   "碗",
+   "編",
+   "装"
+  ],
+  "navigationNote": "Restored 21 relative links in the 9 listed Markdown files at the corresponding EN-linked positions, using EN's href form (../words/X.md in kanji files, X.md in word files): kanji 包 to 包装 (lines 30 and 39) and to くるむ (line 32, written [包む](../words/くるむ.md) as in EN); kanji 印 to 矢印 (lines 32, 39 and 46) and 目印 (line 38); kanji 巻 to 巻く (lines 30 and 36); kanji 短 to 短所, 短期 and 短編 in the タン row (line 35, matching EN line 28) and in the word list (lines 42, 43 and 44, matching EN lines 35, 36 and 37); word 撒く to 巻く (line 38, matching EN line 32); word 矛 to 矛盾 (lines 25 and 32); word 蒔く to 巻く (line 35, matching EN line 31); word 転がす to 巻く (line 44, matching EN line 37); and word 長所 to 短所 (line 31, matching EN line 33). Other mentions that EN leaves plain stay plain: くるむ in kanji 包 (lines 20 and 46), 巻く in kanji 巻 (line 20), 短所 in kanji 短 (lines 29 and 51, EN lines 22 and 41) and the 長所 example sentence (line 20, EN line 21); the other files mention their targets only on the linked lines. kanji 短's RU-only links to kanji 知 and words 短い predate this batch and are unchanged. All nine files were copied from the authoring worktree; no link was held from an earlier batch, and no surrounding prose changed at the candidate. Fix 1 (comprehensibility C1) later changed only the quoted gloss on 長所:31 from «недостаток, слабая сторона» to «отрицательная сторона; минус», 短所's title, keeping the link and brackets; navigation totals remain 9 files and 21 links. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/包.md",
+   "kanji/印.md",
+   "kanji/巻.md",
+   "kanji/短.md",
+   "words/撒く.md",
+   "words/矛.md",
+   "words/蒔く.md",
+   "words/転がす.md",
+   "words/長所.md"
+  ],
+  "newWords": [
+   "湯飲み",
+   "入れ物",
+   "巻く",
+   "くるむ",
+   "包装",
+   "容器",
+   "椀",
+   "碗",
+   "碁",
+   "破片",
+   "千切る",
+   "崩れる",
+   "崩す",
+   "砕く",
+   "砕ける",
+   "潰れる",
+   "破く",
+   "破れる",
+   "研修",
+   "短編",
+   "短期",
+   "短所",
+   "知人",
+   "知り合い",
+   "目印",
+   "矢印",
+   "対立",
+   "矛盾",
+   "瞳",
+   "睨む"
+  ],
+  "selection": "Batch 85 selected 30 word cards from the frozen source: chunk 38 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,017 remained after Batch 245, and 987 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing outside them was added. 碗 enters the closure through 椀, 砕ける through 砕く and 破れる through 破く, and each is itself in the requested set. Thirty-one source exclusion entries lie inside the batch; the other 181 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (8 EN link occurrences, 8 targets) in the new cards: 湯飲み→kanji 湯, 包装→kanji 装, 破片→kanji 片, 潰れる→words/潰す, 短編→kanji 編, 目印→words/名所, 対立→words/対照 and 矛盾→kanji 矛. 17 written kanji have no RU kanji card: 修 器 崩 椀 湯 潰 片 盾 睨 瞳 矛 矢 砕 碁 碗 編 装 (EN has cards only for 湯, 片, 矛, 編 and 装). Links otherwise follow EN, with three reviewed RU-only links to existing cards at substantive comparisons where EN has plain text, all present at the candidate: 湯飲み:34 → words/ちゃわん («[ちゃわん](ちゃわん.md)（茶碗）может называть чайную чашу или, в повседневной речи, миску для риса; значение подсказывает окружающее выражение.»), 短所:37 → words/長所 («[長所](長所.md)（ちょうしょ）, «сильная сторона, достоинство», — прямая противоположность.») and 知り合い:34 → words/知人 («[知人](知人.md)（ちじん）тоже значит «знакомый», «человек, которого знаешь».»). All 18 EN links between batch cards are kept.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined, modified or no-action items: correctness Q1 was accepted verbatim. Comprehensibility C1 was accepted with modification: «а не имя любого изъяна» was not adopted because it \"would add a distinction not made by EN or JMdict 1418760\"; the comprehensibility recheck judged that dropping it \"does not restore the collision\". C3 was accepted with modification: the body keeps EN's \"splinter\" coverage but scopes it to wood. C4 was accepted with modification: the suggested «под подозрительным наблюдением» was not used \"because «подозрительный» would describe the watching as suspicious-looking\". C2 and C5 were accepted. The correctness optional to make 破く and 破れる imperfective was adopted for 破く (C2) and declined for 破れる («порваться; протереться; сорваться» \"is clearer than imperfective «рваться; срываться», which also mean \"be eager\" / \"break loose\"\"); the correctness recheck recorded \"PARTIALLY RESOLVED: 破く RESOLVED; unchanged 破れる OPTIONAL\". Its other optionals (first-use definitions of годан/итидан/окуригана, trimming contributor-oriented sentences, a colloquial «минус» annotation) remain optional. Consistency O1 (a 知人→知り合い exclusion) was declined for EN parity because Android's word quiz already rejects a distractor whose title equals the target's title (kanji-cards-android origin/main Words.kt:180,185,188); the consistency recheck left it \"UNRESOLVED, still optional\", and its optional reciprocal ちゃわん→湯飲み entry is not required. O2 needed no action and was withdrawn at recheck as informational. The comprehensibility optionals (潰れる title, the 椀/碗 counter gloss, 矢印:28 and くるむ:31, «вместилище» and «конфронтация») needed no change and remain non-blocking. No follow-up was posted as part of this batch.",
+  "exclusionsAddedBeyondEn": {
+   "湯飲み": [
+    "ちゃわん"
+   ],
+   "破く": [
+    "破る"
+   ]
+  },
+  "titles": {
+   "くるむ": "укутывать; обёртывать",
+   "入れ物": "ёмкость; вместилище",
+   "包装": "упаковка; обёртка",
+   "千切る": "отрывать; рвать на кусочки",
+   "容器": "контейнер; тара",
+   "対立": "противостояние; конфронтация",
+   "崩す": "разрушать; сносить; разменивать (купюру)",
+   "崩れる": "разваливаться; осыпаться; терять форму",
+   "巻く": "наматывать; обвивать; сворачивать в рулон",
+   "椀": "миска, чаще деревянная; счётное слово для порций в мисках",
+   "湯飲み": "чайная чашка",
+   "潰れる": "быть раздавленным; сминаться; разоряться",
+   "目印": "опознавательная метка; заметный ориентир",
+   "睨む": "сердито смотреть; не спускать глаз (с кого-либо)",
+   "瞳": "зрачок; глаза",
+   "矛盾": "противоречие; несогласованность",
+   "矢印": "символ-стрелка",
+   "知り合い": "знакомый",
+   "知人": "знакомый",
+   "短所": "отрицательная сторона; минус",
+   "短期": "краткосрочный период; короткий срок",
+   "短編": "короткий рассказ; короткометражный фильм",
+   "研修": "стажировка; профессиональное обучение",
+   "砕く": "дробить; крошить; разбивать вдребезги",
+   "砕ける": "разбиваться вдребезги; крошиться; становиться непринуждённым",
+   "破く": "рвать; разрывать (бумагу, ткань)",
+   "破れる": "порваться; протереться; сорваться (о переговорах)",
+   "破片": "осколок; обломок",
+   "碁": "игра го",
+   "碗": "миска, чаще керамическая; счётное слово для порций в мисках"
+  }
+ }
+}

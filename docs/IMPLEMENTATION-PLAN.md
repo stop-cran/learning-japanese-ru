@@ -8,7 +8,27 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch245 thirty words
+## Current published source milestone: batch246 thirty words
+
+Batch246 added 30 Russian word articles. They are chunk 38 of the recomputed general remaining-word queue,
+dependency-closed under quiz_exclusions with nothing added. The batch also restored 21 navigation-only links in 9
+existing pages: the kanji cards 包, 印, 巻 and 短 and the word cards 撒く, 矛, 蒔く, 転がす and 長所.
+
+The candidate was signed and pushed before review. The blind facet-split review found:
+- no correctness or scoped-coverage finding, with one outside-facet quiz observation (a missing guard on 湯飲み);
+- no consistency, quiz-safety or cross-file integration finding;
+- four comprehensibility findings (短所, 破く, 破片 and 睨む) and a scoped-coverage exception for 短編.
+
+One signed fix commit addressed them in 6 new word cards and the navigation-only card 長所, retitling 破く and 破片,
+rewording 短所's body, the 長所 link gloss and the 睨む and 短編 examples, and adding one guard; no link changed. The
+serial rechecks found no remaining finding: comprehensibility, scoped coverage, correctness, consistency and quiz
+safety clean.
+
+Progress: **5,499 reviewed-current / 8 runtime-blocked / 2,771 pending of 8,278**; 4,033 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch246-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch245 thirty words
 
 Batch245 added 30 Russian word articles. They are chunk 37 of the recomputed general remaining-word queue,
 dependency-closed under quiz_exclusions with nothing added. The batch also restored 3 navigation-only links in 3
@@ -26,7 +46,7 @@ clean, and comprehensibility and scoped coverage PASS.
 
 Progress: **5,469 reviewed-current / 8 runtime-blocked / 2,801 pending of 8,278**; 4,003 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch245-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch245-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch244 thirty words
 

@@ -1,6 +1,72 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch245 thirty words (general word queue)
+## Current published source milestone: batch246 thirty words (general word queue)
+
+Batch246 adds 30 Russian word articles: 湯飲み 入れ物 容器 椀 碗 包装 くるむ 巻く 破片 千切る 崩れる 崩す 砕く 砕ける
+潰れる 破く 破れる 短編 短期 短所 研修 知人 知り合い 目印 矢印 対立 矛盾 瞳 睨む 碁. They are chunk 38 of 72 of the
+general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is exactly
+the 30 requested words (碗, 砕ける and 破れる enter it through 椀, 砕く and 破く and are themselves requested), so every EN
+quiz_exclusions target resolves to an existing RU word or a word in the batch; 31 of the 212 EN entries lie inside the
+batch.
+
+Navigation-only link restorations add 21 links at EN link positions in 9 existing pages: the kanji cards 包 (to 包装 and
+くるむ), 印 (to 矢印 and 目印), 巻 (to 巻く) and 短 (to 短所, 短期 and 短編) and the word cards 撒く, 蒔く and 転がす (to
+巻く), 矛 (to 矛盾) and 長所 (to 短所). No link was held from an earlier batch. The new cards keep EN's links to existing
+cards; their links to the word cards 潰す, 名所 and 対照 and the kanji cards 湯, 装, 片, 編 and 矛 stay plain until those
+targets are adapted.
+
+The batch covers:
+- vessels and wrapping: a teacup (湯飲み), a container or receptacle (入れ物, 容器), a bowl, more often wooden (椀) or
+  ceramic (碗), packaging or wrapping (包装), wrap up (くるむ) and wind, coil or roll up (巻く);
+- breaking and tearing: a shard or fragment (破片), tear off or into pieces (千切る), fall apart or lose shape (崩れる),
+  pull down or break a banknote (崩す), crush or smash (砕く), be smashed, crumble or become relaxed (砕ける), be crushed
+  or go bankrupt (潰れる), tear paper or cloth (破く) and be torn or worn through, or fall through (破れる);
+- shortness and training: a short story or short film (短編), a short term (短期), a drawback or minus (短所) and
+  professional training or an internship (研修);
+- people: an acquaintance (知人, 知り合い);
+- marks and conflict: an identifying mark or landmark (目印), an arrow symbol (矢印), confrontation (対立) and
+  contradiction or inconsistency (矛盾);
+- eyes and the game of go: the pupil or eyes (瞳), glare at or keep an eye on someone (睨む) and the game of go (碁).
+
+All 212 EN exclusions are retained in EN order. Two direct guards on 2 new cards cover reviewed RU overlaps: one from
+authoring, 破く–破る, accepted by the coordinator (the consistency reviewer classed it as required); the fix
+added 湯飲み–ちゃわん. 知人 and 知り合い keep the identical title «знакомый» without a guard, as in EN; Android's word quiz
+rejects distractors whose title equals the target's.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: no finding in its facets, with one outside-facet quiz observation, the missing 湯飲み–ちゃわん guard;
+- consistency: consistency, links, navigation, quiz safety and cross-file integration clean, with an optional
+  知人–知り合い guard;
+- comprehensibility: five findings: 短所's body and the 長所 link using 欠点's title, the perfective 破く title, «щепка»
+  in 破片's title and 睨む's example using 疑う's verb; scoped coverage needed a fix for 短編, whose example dropped
+  shortness.
+
+One signed fix commit addressed them in 6 new word cards and the navigation-only card 長所:
+- it retitled 破く «рвать; разрывать (бумагу, ткань)» and 破片 «осколок; обломок», keeping wood splinters in the body;
+- it rewrote 短所's body around its title «отрицательная сторона; минус», glossed 欠点 with its own title and updated the
+  quoted gloss in 長所's link to 短所;
+- it reworded the 睨む and 短編 examples and the 短編小説 gloss;
+- it added the 湯飲み–ちゃわん guard;
+- the 知人–知り合い guard was declined for EN parity and the client's exact-title deduplication.
+
+The serial rechecks reported comprehensibility, scoped coverage, correctness, consistency, quiz safety and manifest
+validation clean, with no new finding; the client's title deduplication remained unverified by the reviewers. The new
+破く title shares both segments with 破る, which the batch card's own exclusion guards.
+
+Links follow EN, with three reviewed RU-only links at substantive comparisons (湯飲み→ちゃわん, 短所→長所 and
+知り合い→知人).
+
+Qualified progress is **5,499 reviewed-current / 8 reviewed runtime-blocked / 2,771 pending of 8,278**,
+with 4,033 words, 718 kanji and 718 strokes. See the [intake](translation-batches/246-words-batch-85-intake.json),
+[independent review](translation-batches/246-words-batch-85-independent-review-001.md),
+[recheck](translation-batches/246-words-batch-85-recheck-001.md),
+[qualified source record](translation-batches/246-words-batch-85-reviewed-source.json) and
+[final validation](translation-batches/246-words-batch-85-final-validation-001.json).
+
+## Previous published source milestone: batch245 thirty words (general word queue)
 
 Batch245 adds 30 Russian word articles: 標識 符号 競馬 童話 立ち止まる 窓口 突き当たり 架空 空想 空中 空っぽ 税関 移転 秤
 私鉄 私立 おやすみ 祭日 お参り 敬う 祭る 神話 神様 祝日 先祖 祖先 社説 社会科学 磁石 確率. They are chunk 37 of 72 of the
