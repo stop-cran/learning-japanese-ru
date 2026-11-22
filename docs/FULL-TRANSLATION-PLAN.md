@@ -1,6 +1,77 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch242 thirty words (general word queue)
+## Current published source milestone: batch243 thirty words (general word queue)
+
+Batch243 adds 30 Russian word articles: 群れ 美容 羊毛 缶詰 接続 繋げる 繋がる 繋がり 縫う 縛る 緯度 のろい 下降 傾く 斜め
+なだらか 緩い 編む 編集 編物 線路 総理大臣 続々 くれぐれも 再三 始終 絶えず 絵の具 統計 絨毯. They are chunk 35 of
+72 of the general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure
+is exactly the 30 requested words, so every EN quiz_exclusions target resolves to an existing RU word or a word in the
+batch; 15 of the 169 EN entries lie inside the batch.
+
+Navigation-only link restorations add 12 links at EN link positions in 10 existing pages: the kanji cards 傾 (to 傾く,
+twice), 再 (to 再三, twice) and 物 (to 編物) and the word cards ぞくぞく (to 続々), ペンキ (to 絵の具), 井戸 and 赤道 (to
+緯度), 繋ぐ (to 接続), 缶 (to 缶詰) and 首相 (to 総理大臣). The fix also linked 繋がる in the restored line of 繋ぐ as a
+reviewed RU-only link. The new cards keep EN's links to existing cards; their links to the word cards 毛皮, 火口, 片寄る
+and 社説 and the kanji cards 群, 毛, 缶, 詰, 接, 鈍, 編, 線, 総 and 臣 stay plain until those targets are adapted.
+
+The batch covers:
+- groups and materials: a flock, herd or crowd (群れ), sheep's wool (羊毛), canned food or being shut in (缶詰), a carpet
+  or rug (絨毯) and paints for drawing (絵の具);
+- connection: a connection or link-up of flights and trains (接続), connect or link together (繋げる), be connected or
+  lead to something (繋がる) and an interconnection or ties with people (繋がり);
+- sewing, binding and knitting: sew or thread one's way through (縫う), tie up or restrict (縛る), knit, braid or compile
+  (編む), editing, compilation or film and video montage (編集) and knitting or a knitted item (編物);
+- slopes and pace: a descent or lowering (下降), tilt, decline or lean towards a view (傾く), diagonal or slanting (斜め), gently
+  sloping or smooth (なだらか), not tight, lax or gently sloping (緩い) and sluggish or slow-witted (のろい);
+- places and public life: latitude (緯度), railway track (線路), the prime minister as head of government (総理大臣),
+  statistics or gathering statistical data (統計) and beauty care or beautification (美容);
+- frequency and continuity: one after another (続々), earnestly or again and again (くれぐれも), again and again (再三),
+  from beginning to end or all the time (始終) and continuously or without stopping (絶えず).
+
+All 169 EN exclusions are retained in EN order. Twelve direct guards on 9 new cards cover reviewed RU title overlaps:
+nine from authoring, 群れ–混雑, 缶詰–滞在, 繋がり–パイプ and 付き合い, 編物–製品, 総理大臣–政府, くれぐれも–要求,
+始終–飽くまで and 絶えず–継続, which the coordinator classed as conservative (the consistency reviewer classed 群れ–混雑,
+繋がり–パイプ and 付き合い as required, くれぐれも–要求 as required or conservative, 総理大臣–政府 as unjustified but
+harmless and the others as conservative); the fix added 繋がり–交際, 編集–修正 and 編集–作成.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: three findings, example translations in 編物 and 絵の具 and the ぬるい spelling note in 緩い, and three
+  scoped-coverage findings on the 緩い, 編集 and くれぐれも titles;
+- consistency: consistency and cross-file integration clean; two missing quiz guards, 繋がり–交際 and 編集–修正, and
+  optional notes on 下降–下げる, 編集–作成 and the RU-only links;
+- comprehensibility: ten findings, among them the のろい, 繋がり, 絨毯 and 美容 titles, example translations in 線路,
+  絵の具 and 編物, prose in 傾く and なだらか and two plain mentions of existing cards; scoped coverage clean.
+
+One signed fix commit addressed them:
+- six titles changed: のろい «вялый; туго соображающий», 絨毯 «ковёр; коврик», 美容 «уход за внешностью; наведение
+  красоты», 緩い «нетугой, слабо затянутый; нестрогий; некрутой (о склоне)», 編集 «редактирование; составление
+  сборника; монтаж (фильма, видео)» and くれぐれも «настоятельно; снова и снова»;
+- example translations were rewritten in 編物, 絵の具, のろい and 線路, and prose was reworded in 緩い, のろい, 傾く, 美容
+  and なだらか;
+- three guards were added, 繋がり–交際, 編集–修正 and 編集–作成, and two reviewed RU-only links, 繋がる→切れる and
+  繋ぐ→繋がる;
+- the 繋がり title was kept: the comprehensibility reviewer maintained that finding at recheck and withdrew it after a
+  follow-up showing that its proposed title would duplicate 仲's; the optional 下降–下げる guard and the removal of
+  総理大臣–政府 were declined and withdrawn at recheck.
+
+The serial rechecks reported correctness, scoped coverage, consistency, quiz safety and cross-file integration clean, with
+no regression, and comprehensibility clean after the follow-up. The new くれぐれも segment «снова и снова» equals 再三's,
+a pair already excluded in both directions by 再三's EN exclusion.
+
+Links follow EN, with four reviewed RU-only links at substantive comparisons: 編む→編集, 編物→縫う, 繋がる→切れる and
+繋ぐ→繋がる.
+
+Qualified progress is **5,409 reviewed-current / 8 reviewed runtime-blocked / 2,861 pending of 8,278**,
+with 3,943 words, 718 kanji and 718 strokes. See the [intake](translation-batches/243-words-batch-82-intake.json),
+[independent review](translation-batches/243-words-batch-82-independent-review-001.md),
+[recheck](translation-batches/243-words-batch-82-recheck-001.md),
+[qualified source record](translation-batches/243-words-batch-82-reviewed-source.json) and
+[final validation](translation-batches/243-words-batch-82-final-validation-001.json).
+
+## Previous published source milestone: batch242 thirty words (general word queue)
 
 Batch242 adds 30 Russian word articles: 押さえる 敷く 広げる 膨らむ 膨らます 広々 膨大 おかけください 腰掛ける 腰掛け 脱線
 学力 学術 実力 生き生き 活躍 功績 実績 性能 能率 背負う 育児 肯定 肘 肌着 職人 耕す 習字 羨む 羨ましい. They are chunk 34 of

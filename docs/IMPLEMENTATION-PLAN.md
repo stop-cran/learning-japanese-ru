@@ -8,7 +8,28 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch242 thirty words
+## Current published source milestone: batch243 thirty words
+
+Batch243 added 30 Russian word articles. They are chunk 35 of the recomputed general remaining-word queue,
+dependency-closed under quiz_exclusions with nothing added. The batch also restored 12 navigation-only links in 10
+existing pages: the kanji cards 傾, 再 and 物 and the word cards ぞくぞく, ペンキ, 井戸, 赤道, 繋ぐ, 缶 and 首相.
+
+The candidate was signed and pushed before review. The blind facet-split review found:
+- three correctness findings (編物, 絵の具 and 緩い) and three scoped-coverage findings (the 緩い, 編集 and くれぐれも
+  titles);
+- two quiz-safety findings (missing guards on 繋がり and 編集) and no consistency or cross-file integration finding;
+- ten comprehensibility findings.
+
+One signed fix commit addressed them in 13 new word cards and the navigation-only file 繋ぐ, retitling のろい, 絨毯,
+美容, 緩い, 編集 and くれぐれも, rewording examples and prose, adding three guards and adding two reviewed RU-only links,
+one of them in 繋ぐ. The 繋がり title was kept; that finding was withdrawn after a follow-up recheck. The serial rechecks
+reported all facets clean.
+
+Progress: **5,409 reviewed-current / 8 runtime-blocked / 2,861 pending of 8,278**; 3,943 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch243-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch242 thirty words
 
 Batch242 added 30 Russian word articles. They are chunk 34 of the recomputed general remaining-word queue,
 dependency-closed under quiz_exclusions with nothing added. The batch also restored 7 navigation-only links in 5
@@ -26,7 +47,7 @@ facets clean.
 
 Progress: **5,379 reviewed-current / 8 runtime-blocked / 2,891 pending of 8,278**; 3,913 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch242-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch242-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch241 thirty words
 

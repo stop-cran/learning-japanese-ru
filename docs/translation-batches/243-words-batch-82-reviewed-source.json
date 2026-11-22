@@ -1,0 +1,162 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "243-words-batch-82",
+ "publishedBaseline": "c5e702d13aac04c7e2a4645c299f80886df79df9",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 73cef33 and serialized rechecks of the signed fix commit 6aa1bca found no remaining defect. Before the candidate the coordinator made no content edit (\"No coordinator text edits were needed; the lane is adopted as authored.\"); the 40 lane files were copied unchanged from the authoring worktree, and no link was held from an earlier batch. The adjudication records: \"Titles compared with EN one by one (`b243_cmp.py`). Every EN `quiz_exclusions` entry is retained in EN order; RU additions are appended.\" It records 9 RU-added exclusions on 8 cards, \"all conservative, none required\": 群れ→混雑, 缶詰→滞在, 繋がり→パイプ/付き合い, 編物→製品, 総理大臣→政府, くれぐれも→要求, 始終→飽くまで and 絶えず→継続; \"Accepted as harmless direct pairs, consistent with earlier batches.\" It records that `navonly.py` reports 10 files, 12 links added, 0 problems on the lane; that a scan of every RU file outside the batch finds 0 EN links to the 30 words that the RU file lacks; that `link_parity.py` found no LOST link and two RU-only EXTRA links, words/編む.md:34 → 編集 and words/編物.md:34 → 縫う, \"both accepted under the B214 rule (EN mentions the word as plain text in a substantive comparison and the card exists in this batch)\"; that no B243 card links to a Batch 241 or Batch 242 word, so the candidate depends only on published content, with the title screen rerun on the published Batch 242 tree before the candidate commit; that the title screen (b243-screen.txt, 205 lines) found one exact segment hit, 繋がり/パイプ «связи», guarded, and that \"The remaining 204 lines are stem-only (29 guarded OK, 175 unguarded)\", reviewed with the author's declined-pairs list (spot checks on generic stems «поезд», «прави», «друго», «перес», «начал», «рисов», «данны» and the qualifier-only hits 傾く/緩い~坂/急 «(о склоне)» and 編集~映画/ビデオ «(фильма, видео)»); that 再三~また «снова и снова» / «снова; также» was declined as a guard (EN shares the overlap unguarded) and 総理大臣~大臣 stays unguarded (首相 is guarded from EN); that Kuznetsov (gramota.ru) «туго»: «Т. схватывать, понимать что-л.» supports «туго соображающий» (のろい); that the author's deviations were accepted (美容 «косметические процедуры»; 繋げる «подсоединять»; Russian notes replacing English-dependent remarks in 線路 («путь»), 絵の具 («краска») and 編集 («редакционный»); dropped English-only notes in 統計 (\"scattering\") and 編物 (\"web\")); and that 緩い's «слабо затянутый», 総理大臣's parenthesis form, the naturalness of «пребывание взаперти», «связывать воедино», «сковывать (свободу)» and «сбор статистических данных», and the conservative guards were left to the blind review. The coordinator's candidate script copied the 40 lane files into the primary checkout on the published Batch 242 tree, regenerated the manifest (5,409 entries); its stopping checks (validate, unit tests, budget, `git diff --check` and the navigation-only check) passed. For this record the 40 committed content blobs at 73cef33 and at 6aa1bca were checked: none has a BOM or CR, and every file ends with a newline; link parity at 6aa1bca shows no LOST link and only the reviewed RU-only links; the rerun title screen (b243-cand-screen.txt) is identical to the lane screen. Correctness raised six medium findings (correctness NEEDS FIX: C01, C02, C06; scoped coverage NEEDS FIX: C03, C04, C05). C01: 編物:20 «Я неделю довязывал своё вязанье» did not assert the completion reported by 仕上げました (Digital Daijisen 仕上げる sense 1); the example now reads «За неделю я закончил своё вязание.» C02: 絵の具:20 «Я взял немного красной краски» asserted taking rather than using (使いました); it now reads «Я использовал немного красной краски.» C03: 緩い's title and opening omitted the loose-fit sense (Digital Daijisen ゆるい sense 1, くつがゆるい); the title and H1 now read «нетугой, слабо затянутый; нестрогий; некрутой (о склоне)», and the opening says «затянуто не туго, сидит свободно (например, обувь или одежда)»; «свободный» stays out of the title because 暇's title uses it. C04: 編集's title dropped EN \"compilation\" (JMdict 1603240); it now reads «редактирование; составление сборника; монтаж (фильма, видео)». C05: くれぐれも's title dropped EN \"repeatedly\" (JMdict 1269140 sense 2); it now reads «настоятельно; снова и снова». C06: 緩い:50–51 attached the 緩い spelling of ぬるい to the temperature gloss (JMdict 1183300 and Digital Daijisen ぬるい put 「緩い」とも書く under sense 2 only); the passage now reads «Отдельное слово ぬるい в значениях «нестрогий» и «медлительный» тоже можно записать как 緩い; его значение «тепловатый» к ゆるい не относится.», with the Daijisen ぬるい entry cited on the usage line. The correctness reviewer recorded 絨毯's search-only 絨氈, 接続's «стыковка поездов» and the term «онные чтения» as UNVERIFIED, not as defects. Consistency raised two low findings (consistency CLEAN; quiz safety NEEDS FIX; cross-file integration CLEAN): F1, 繋がり did not guard 交際 «социальные контакты; романтические отношения»; F2, 編集 did not guard 修正 «исправление; правка»; both were accepted verbatim, with its optional 作成 guard. Comprehensibility raised ten findings (comprehensibility NEEDS FIX; scoped coverage CLEAN). C1: のろい «неповоротливый» taught clumsiness and example 2 used 遅い's «медленно»; the title and H1 now read «вялый; туго соображающий», the examples «Эта машина движется вяло.» and «У него замедленная реакция.», and the 遅い contrast drops «неповоротливость». C2: 傾く:43–44 kept an English-only \"decline\" weaken/refuse contrast; it now reads «В примере с компанией речь об упадке дел, а не об отказе: отказ передаёт [断る](断る.md)（ことわる）.» C3: 繋がり's «связи» shares a segment with パイプ; declined (guarded by パイプ, 関係 and 付き合い), and withdrawn by the reviewer after a follow-up. C4: 絨毯 «ковровая дорожка» promoted a subtype; the title now reads «ковёр; коврик». C5: 美容 «косметические процедуры» narrowed the everyday sense and the figure warning had no target; the title now reads «уход за внешностью; наведение красоты», the figure sentence is deleted and the landscape sentence reads «Красивый пейзаж сам по себе не относится к 美容.» C6: 線路:20 used 鉄道's «железная дорога»; it now reads «Я живу рядом с железнодорожными путями.» C7: なだらか:42–43 rejected a gloss the card never shows; it now reads «Не считайте, что каждый なだらかな путь безопасен или не требует усилий.» C8 and C9 duplicated correctness C02 and C01. C10: two substantive comparisons left existing cards plain; fix 1 links [切れる](切れる.md)（きれる） at 繋がる:40 and [繋がる](繋がる.md)（つながる） at 繋ぐ:35. All accepted changes are in the one signed fix commit 6aa1bca (\"Batch 243: apply review fixes\"). At recheck of fix 1 (6aa1bca) all three reviewers ran serially, read-only, with no generator run; each recheck covered the full diff 73cef33..6aa1bca (14 word cards, of which words/繋ぐ.md is a navigation-only file, + manifest.json). Comprehensibility then received one narrow follow-up on the same snapshot about its maintained C3 only.\nCorrectness (gpt-6.1-sol) judged C01 (編物: «закончил своё вязание» reports the completion), C02 (絵の具: «использовал»), C03 (緩い: «нетугой» with the loose-fit sentence; Kuznetsov тугой sense 3), C04 (編集: compilation restored), C05 (くれぐれも: repetition restored) and C06 (緩い: the ぬるい spelling limited to Daijisen ぬるい sense 2, covering leniency and slow movement) resolved, with no maintained disagreement. It found no regression: のろい's sluggish movement/reaction (JMdict 2838553; Kuznetsov вялый sense 2), 美容's beautification title (JMdict 1486670), 絨毯's rug title, 線路's physical tracks, the simplified 傾く/なだらか warnings and the new substantive links keep their teaching points; metadata, Japanese examples/readings and new link/exclusion targets verified across all 14 cards. Optionals: the 美容/傾く cautions resolved; absent-kanji references and reading-term introductions remain optional. Correctness CLEAN, scoped coverage CLEAN. Its stated limits: validator 0 errors and diff --check clean; earlier unverified search-only 絨氈, railway wording and terminology limits remain; unchanged claims and automatic quiz uniqueness are not newly certified.\nConsistency (claude-sonnet-5.5) judged F1 (繋がり→交際) and F2 (編集→修正, with the optional 作成 guard) resolved and withdrew its declined optionals 下降→下げる (noun vs verb) and 総理大臣→政府 removal (harmless conservative guard). It judged all four reviewed RU-only links acceptable (編む→編集 and 編物→縫う from the candidate; 繋がる→切れる and 繋ぐ→繋がる from the fix: substantive contrasts, targets exist, `[word](word.md)（reading）` form) and the navigation totals of 10 files / 13 links consistent. Its whole-segment screen of the six changed titles (のろい, 絨毯, 美容, 緩い, 編集, くれぐれも) against all RU word titles found one shared segment, くれぐれも «снова и снова» = 再三, already guarded; 編集 «составление сборника» vs 作成 «составление (документа, плана)» differs and is guarded. On the 15 changed files: no BOM/CR, H1 matches the title, all relative links resolve, diff --check clean, validate.py 0 errors, an in-memory manifest rebuild equals the committed manifest.json; body-only edits touch no front matter or links beyond those listed. Consistency CLEAN, quiz safety CLEAN, cross-file integration CLEAN. Its stated limits: the linguistic accuracy of the new Russian wording and the ぬるい/緩い Daijisen claim were not independently verified; the title screen is whole-segment, not semantic beyond its manual reading.\nComprehensibility (grok-4.7) judged C1 (のろい, not maintaining its example-2 point), C2 (傾く), C4 (絨毯), C5 (美容, no maintained disagreement), C6 (線路), C7 (なだらか), C8, C9 (編物, no maintained disagreement) and C10 (both links present) resolved, with scoped coverage CLEAN, but maintained C3 (medium; 繋がり title «связи» vs パイプ), withdrew «узы» and proposed «взаимосвязь; взаимоотношения»; verdict comprehensibility NEEDS FIX. In checked-but-not-filed notes it read the くれぐれも «снова и снова» lead segment as copying 再三's and called the missing reverse exclusion a quiz note outside its facet (the pair is guarded in both directions by 再三's EN quiz_exclusions entry くれぐれも; content-format.md: a declared pair is excluded in both directions); it judged 編集's «составление сборника» and 緩い's «нетугой, слабо затянутый» with the clothes sentence adequate. Its stated limits: validate and the title screen not re-run; model not verifiable.\nC3 follow-up (same snapshot 6aa1bca; brief b243-recheck2-msg-comprehensibility.txt): the coordinator kept the decline because the proposal would duplicate 仲's whole segment «взаимоотношения (между людьми)» and contradict 繋がり:34, which reserves personal relationships for 仲. The reviewer withdrew C3 in its \"Recheck addendum (C3)\": no everyday gloss of EN \"relationship\" avoids a whole segment of 関係, 連絡, 付き合い, 交際 or パイプ without overstating the sense; «связи (с людьми)» is a different whole segment from パイプ's «связи, канал общения между людьми» and matches example 1; quiz safety is unchanged; comprehensibility CLEAN on 6aa1bca.\nNo actionable finding remains; no second fix is needed. Fix 1 changed no Japanese example sentence, sourced reading, kanji card or EN exclusion; it changed 14 word cards (35 lines replaced), one of them the navigation file words/繋ぐ.md, where only the RU-only 繋がる link was added, and added three RU exclusions. All three reviewers read all 30 cards in full against their EN originals; the correctness and comprehensibility reviewers also read the ten navigation changes as changed-line coverage, and the consistency reviewer read the ten navigation diffs in full, checked the intake's path list, rebuilt the manifest in memory (equal to the committed file) and ran `tools/validate.py` (0 errors) at the candidate and at the recheck, removing the untracked Python bytecode cache it created. The correctness reviewer ran `tools/validate.py` (0 errors) at the candidate and at the recheck; the comprehensibility reviewer ran no validator. No reviewer ran a generator. Evidence includes the actual Jisho/JMdict entries, Digital Daijisen via weblio, Kuznetsov via gramota.ru and ru.wiktionary; the consistency reviewer relied on its knowledge of JMdict/Daijisen senses rather than fresh lookups, and the comprehensibility reviewer found JMdictDB password-gated. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 169 EN exclusions across 28 lists are retained in EN order (EN has no list on 緯度 or 絨毯). Fifteen lie inside the batch: 繋げる–接続, 繋がる–繋げる and 接続, 繋がり–接続, 傾く–下降, 斜め–傾く, なだらか–斜め, 緩い–のろい and なだらか, 編集–編む, 編物–編む, 再三–くれぐれも, 始終–再三 and くれぐれも, and 絶えず–始終; the other 154 target existing RU cards. Twelve direct, one-sided exclusions on nine new cards cover reviewed RU title overlaps, all appended at the end of their lists. Nine were present at the candidate, from the authoring lane as adjudicated by the coordinator (\"all conservative, none required\"): 群れ–混雑 (混雑 «давка; скопление людей»), 缶詰–滞在 (滞在 «временное пребывание»), 繋がり–パイプ and 付き合い (パイプ «труба; трубка; связи, канал общения между людьми», 付き合い «общение; отношения с людьми»), 編物–製品 (製品 «изделие; продукция»), 総理大臣–政府 (政府 «правительство»), くれぐれも–要求 (要求 «требование; настойчивая просьба»), 始終–飽くまで (飽くまで «упорно, до конца; сугубо») and 絶えず–継続 (継続 «продолжение (дела, состояния); непрерывность»). The consistency reviewer classed 群れ–混雑 and 繋がり–付き合い as required by parity, 繋がり–パイプ as required, くれぐれも–要求 as \"REQUIRED/CONSERVATIVE (real title overlap)\", 缶詰–滞在, 編物–製品, 始終–飽くまで and 絶えず–継続 as conservative and 総理大臣–政府 as \"UNJUSTIFIED (harmless, over-restrictive; no fix required; optional removal)\"; the coordinator kept it («правительство» sits inside «глава правительства»), and the reviewer withdrew the optional removal at recheck. Fix 1 added three, 繋がり–交際 (交際 «социальные контакты; романтические отношения»; consistency F1), 編集–修正 (修正 «исправление; правка»; F2) and 編集–作成 (作成 «составление (документа, плана)»; the reviewer's optional guard, needed once 編集 gained «составление сборника»), and removed none. The new くれぐれも segment «снова и снова» equals 再三's first segment; 再三's EN list contains くれぐれも, so the pair is excluded in both directions. 再三~また «снова и снова» / «снова; также» and 総理大臣~大臣 stay unguarded, as in EN. The candidate title screen (b243-cand-screen.txt, identical to the lane screen; 205 lines) has 30 OK lines for guarded pairs and 175 unguarded stem-only lines; its one exact-segment line, 繋がり–パイプ «связи», is guarded. A saved rerun at 6aa1bca over the seven words whose title or exclusions changed (b243-postfix-screen.txt; 48 lines) finds two exact-segment hits, くれぐれも–再三 «снова и снова» and 繋がり–パイプ «связи», both guarded, 7 further guarded stem leads and 39 unguarded stem-only leads; the consistency recheck's whole-segment screen of the six retitled words found only the guarded くれぐれも–再三 segment. Every RU addition is appended at the end of its list, and no EN entry is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/243-words-batch-82-intake.json",
+  "docs/translation-batches/243-words-batch-82-independent-review-001.md",
+  "docs/translation-batches/243-words-batch-82-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "接",
+   "斜",
+   "毛",
+   "毯",
+   "絨",
+   "統",
+   "総",
+   "線",
+   "編",
+   "緩",
+   "緯",
+   "縛",
+   "縫",
+   "繋",
+   "缶",
+   "羊",
+   "群",
+   "臣",
+   "詰"
+  ],
+  "navigationNote": "Restored 12 relative links in the 10 listed Markdown files at the corresponding EN-linked positions, using EN's href forms (../words/X.md in the kanji cards, X.md in the word cards): 傾く in kanji 傾 (lines 31 and 40, matching EN lines 31 and 40: the かたむ.く reading-table row and the word list), 再三 in kanji 再 (lines 30 and 38, matching EN lines 30 and 38: the サイ reading-table row and the word list), 編物 in kanji 物 (line 40, matching EN line 38, in the word list), 続々 in word ぞくぞく (line 26, matching EN line 28), 絵の具 in word ペンキ (line 28, matching EN line 36), 緯度 in word 井戸 (line 39, matching EN line 39), 接続 in word 繋ぐ (line 35, matching EN line 29), 缶詰 in word 缶 (line 35, matching EN line 33), 緯度 in word 赤道 (line 33, matching EN line 33) and 総理大臣 in word 首相 (line 33, matching EN line 33, inside 内閣総理大臣 with 内閣 left outside the link, as in EN). Kanji 傾 mentions 傾く again in plain text at lines 20 and 33, kanji 再 leaves 再度 plain in the same row, and word ペンキ mentions 絵の具 plain at line 32, a RU-only paragraph with no EN counterpart, all matching unlinked EN text; the other files mention their targets only on the linked lines. All ten files were copied from the authoring worktree; no link was held from an earlier batch. No surrounding prose was changed. Fix 1 (comprehensibility C10) added one reviewed RU-only link in the same sentence of words/繋ぐ.md:35, [繋がる](繋がる.md), where EN has plain text; navigation totals at the fix are 10 files and 13 links (12 EN-position restorations and 1 reviewed RU-only link), and no other navigation file changed after the candidate. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/傾.md",
+   "kanji/再.md",
+   "kanji/物.md",
+   "words/ぞくぞく.md",
+   "words/ペンキ.md",
+   "words/井戸.md",
+   "words/繋ぐ.md",
+   "words/缶.md",
+   "words/赤道.md",
+   "words/首相.md"
+  ],
+  "newWords": [
+   "群れ",
+   "美容",
+   "羊毛",
+   "缶詰",
+   "接続",
+   "繋げる",
+   "繋がる",
+   "繋がり",
+   "縫う",
+   "縛る",
+   "緯度",
+   "のろい",
+   "下降",
+   "傾く",
+   "斜め",
+   "なだらか",
+   "緩い",
+   "編む",
+   "編集",
+   "編物",
+   "線路",
+   "総理大臣",
+   "続々",
+   "くれぐれも",
+   "再三",
+   "始終",
+   "絶えず",
+   "絵の具",
+   "統計",
+   "絨毯"
+  ],
+  "selection": "Batch 82 selected 30 word cards from the frozen source: chunk 35 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,107 remained after Batch 242, and 1,077 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing outside them was added. Fifteen source exclusion entries lie inside the batch; the other 154 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (16 EN link occurrences, 14 targets) in the new cards: 群れ→kanji 群, 羊毛→kanji 毛 and words/毛皮, 缶詰→kanji 缶 and 詰, 接続→kanji 接, のろい→kanji 鈍, 下降→words/火口, 傾く→words/片寄る, 編む→kanji 編, 編集→kanji 編 and words/社説, 編物→kanji 編, 線路→kanji 線, and 総理大臣→kanji 総 and 臣. 19 written kanji have no RU kanji card: 接 斜 毛 毯 絨 統 総 線 編 緩 緯 縛 縫 繋 缶 羊 群 臣 詰 (EN has cards only for 接, 毛, 総, 線, 編, 缶, 群, 臣 and 詰). Links otherwise follow EN, with four reviewed RU-only links to existing cards at substantive comparisons where EN has plain text: two present at the candidate, 編む:34 → words/編集 («[編集](編集.md)（へんしゅう）относится к редактированию или составлению; …») and 編物:34 → words/縫う («[縫う](縫う.md)（ぬう）«шить» — соединение стежками, а не тот же процесс.»), and two added by fix 1 (comprehensibility C10), 繋がる:40 → words/切れる («[切れる](切れる.md)（きれる）, «обрываться, прерываться», противопоставляется установленной связи:») and words/繋ぐ.md:35 → words/繋がる («[繋がる](繋がる.md)（つながる）— непереходный глагол:»). All 13 EN links between batch cards are kept.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined, modified or no-action items: correctness C01, C03 and C06 were accepted with reworded remedies; C03 keeps «свободный» out of 緩い's title because 暇's title uses it, and the reviewer judged C03 resolved with «нетугой» (Kuznetsov тугой sense 3). The correctness optionals on 美容's figure warning and 傾く's contrast were fixed under comprehensibility C5 and C2; absent-kanji references stay plain text (repository convention) and reading terminology is unchanged; both remain optional. Its UNVERIFIED items (絨毯's search-only 絨氈, 接続's «стыковка поездов», the term «онные чтения») are unchanged and not established defects. Consistency's optional 下降→下げる guard was declined (noun «снижение; понижение» vs verb «опускать; снижать»; EN does not pair them) and its optional removal of 総理大臣→政府 was declined (harmless); the reviewer withdrew both at recheck. Comprehensibility C1 was accepted with example 2 reworded («У него замедленная реакция.» instead of «Реакция у него вялая.») and C5 with the landscape sentence reworded. C3 (繋がり «связи» vs パイプ) was declined because パイプ, 関係 and 付き合い are already guarded and «узы» is bookish; the recheck maintained it with «взаимосвязь; взаимоотношения», and after a narrow follow-up (仲's whole segment «взаимоотношения (между людьми)»; 繋がり:34 reserves personal relationships for 仲) the reviewer withdrew it. The comprehensibility optionals (縫う «покрепче», 繋がり «нашего района», 絨毯 «Мы постелили», ぞくぞく:26 «один за другим», 始終:45 «устаревшими», the «в этой коллекции нет» notes, 缶詰 «засел», «стыковка (рейсов, поездов)») needed no change and remain non-blocking; ぞくぞく:26 is a navigation-only gloss left as published. No follow-up was posted as part of this batch.",
+  "exclusionsAddedBeyondEn": {
+   "くれぐれも": [
+    "要求"
+   ],
+   "始終": [
+    "飽くまで"
+   ],
+   "絶えず": [
+    "継続"
+   ],
+   "総理大臣": [
+    "政府"
+   ],
+   "編物": [
+    "製品"
+   ],
+   "編集": [
+    "修正",
+    "作成"
+   ],
+   "繋がり": [
+    "パイプ",
+    "付き合い",
+    "交際"
+   ],
+   "缶詰": [
+    "滞在"
+   ],
+   "群れ": [
+    "混雑"
+   ]
+  },
+  "titles": {
+   "くれぐれも": "настоятельно; снова и снова",
+   "なだらか": "пологий; плавный",
+   "のろい": "вялый; туго соображающий",
+   "下降": "снижение; понижение",
+   "傾く": "наклоняться; клониться (к закату, упадку); склоняться (к мнению)",
+   "再三": "снова и снова; раз за разом",
+   "始終": "от начала до конца; беспрестанно",
+   "接続": "соединение; стыковка (рейсов, поездов)",
+   "斜め": "наискосок; косой",
+   "絨毯": "ковёр; коврик",
+   "統計": "статистика; сбор статистических данных",
+   "絵の具": "краски для рисования",
+   "絶えず": "непрерывно; не переставая",
+   "続々": "друг за другом; чередой",
+   "総理大臣": "глава правительства (премьер-министр)",
+   "線路": "рельсовый путь; железнодорожные пути",
+   "編む": "вязать; плести; составлять сборник",
+   "編物": "вязание; вязаное изделие",
+   "編集": "редактирование; составление сборника; монтаж (фильма, видео)",
+   "緩い": "нетугой, слабо затянутый; нестрогий; некрутой (о склоне)",
+   "緯度": "широта (географическая)",
+   "縛る": "обвязывать (верёвкой); сковывать (свободу)",
+   "縫う": "шить; пробираться (сквозь толпу)",
+   "繋がり": "взаимосвязь; связи (с людьми)",
+   "繋がる": "соединяться; быть связанным; вести к чему-либо",
+   "繋げる": "подсоединять; связывать воедино",
+   "缶詰": "консервы; пребывание взаперти",
+   "羊毛": "овечья шерсть",
+   "美容": "уход за внешностью; наведение красоты",
+   "群れ": "стая; стадо; толпа"
+  }
+ }
+}
