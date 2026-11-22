@@ -1,0 +1,131 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "240-words-batch-79",
+ "publishedBaseline": "bbc2be2cdb84a3330a2c422a426765313041194a",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate d0d977c and serialized rechecks of the signed fix commit 3544d75 found no remaining defect. Before the candidate the coordinator made no content edit and no title edit (\"Coordinator edits: none.\"). Its adjudication records: \"Titles compared with EN one by one (`b240_titles.py`): no coordinator title edit. Every EN `quiz_exclusions` entry is retained in EN order; RU additions are appended.\" It records 3 RU-added exclusions on 2 cards: required 散る→はらはら, and conservative 散る→跳ねる («разлет…», no exact segment) and 若々しい→さわやか (shared qualifier «(о голосе, манере[ах])» and «свеж»). It records that `navonly.py` reports 4 files, 6 links added, 0 problems; that `link_parity.py` over the 34 paths found 蒸す LOST べたべた, where \"EN:47–49 is the English \"sticky/close\" homonym paragraph (with AHD citations) that the brief directs to drop as English-only; the guard list is kept unchanged\", and kanji/花 EXTRA 北, 花瓶, 花見, \"identical at the base `39b6bd1`, not added by B240\", with \"No RU-only links\"; that the lane title screen over the 30 words found one exact-segment overlap, 花嫁–嫁 «невеста», guarded by EN; that 364 stem-only lines were reviewed and the leads (among them 湿度 «влажн»/«возду»/«показ», 蒸す «готов»/«прогр»/«погод», 撒く «погон»/«уходи», 著す «автор» (著者 guarded), 落第 «экзам», 若々しい «свежи» (新鮮), 教養 «культ»/«круго», 芸能 «искус»/«испол»/«досто», 散る/散らす «рассе»/«раски» and 蒸発 «челов»/«исчез» (消える guarded)) were declined without guards; that the author's deviations were accepted (花火 mirrors EN's older format with no example list, no Dictionary line and no exclusions; English-only notes dropped or adapted in 蒸す/蒸し暑い (\"sticky/close\", guards kept), 下駄 \"clog\", 茂る \"luxurious\", 落第 \"make the grade\", 蒸気 \"vapour\" and 英和's language-order remark; 芸能 \"accomplishments\" and 艶 \"glaze\" kept once in parentheses with a Russian gloss); that 芸能's second title segment «освоенное искусство (как достоинство человека)», 若々しい's qualifier «(о голосе, манерах)» and the さわやか guard, the 散る→跳ねる guard, 下駄 «на подставках», 散らす:21 «Я раскидываю рубленый зелёный лук поверх салата» and 花火's «ручные бенгальские огни» / «маленькие бенгальские огни» were left to the blind review; that «дзори» was recorded as unverified Russian usage (\"no Lopatin entry; Polivanov transliteration, consistent in title and body\"; gramota.ru HTTP 429; «гэта» confirmed in Lopatin); and that 葬式 excludes and links the Batch 239 card 儀式, whose title «церемония; обряд, ритуал» is identical at the scratch base 39b6bd1 and at the published bbc2be2 (Batch 239's fix 8cc7216 did not change words/儀式.md). The candidate screen on the published Batch 239 tree (b240-cand-screen.txt; 39 OK lines for guarded pairs and 363 stem-only lines) found no unguarded exact segment; the one exact shared segment, 花嫁–嫁 «невеста», is guarded by the EN pair on 花嫁. Correctness raised four findings. C1 (moderate): 落第:20 «Я провалил экзамен и заново выучил материал.» asserted successful mastery (Kuznetsov «Уча, запомнить, усвоить»), whereas もう一度勉強し直しました and EN \"studied the material again\" state only renewed study; it now reads «Я провалил экзамен и заново прошёл материал.» C2 (low): 茂る:28 «滋る помечено как устаревшее» is stronger than JMdict 1533740, which marks 滋る as a rarely used kanji form; it now reads «滋る помечено как редко используемое написание, и в этих примерах ему подражать не нужно.» The claim is inherited from EN 茂る:25: \"EN not changed (frozen source); recorded as a corrected inherited claim.\" C3 (low; scoped coverage): dropping EN 蒸す's English-only \"sticky/close\" discussion also dropped EN :48's link to the existing RU card べたべた; a Russian sentence now follows the non-interchangeability line at 蒸す:43: «[べたべた](べたべた.md) описывает липкость или привычку льнуть к кому-то, а не саму душную влажную погоду.» C4 (low): 艶:45 attributed \"glaze\" to the dictionary, but JMdict 1177680 sense 1 is gloss/luster/shine/sheen/polish and \"glaze\" is a KANJIDIC2 character gloss; the framing is inherited from EN 艶:45, and the line was deleted under comprehensibility C6, which \"supersedes correctness C4's replacement\". Its optional notes (first-use explanations of годан/итидан/окуригана/дзюкудзикун, 散らす:21 «посыпаю», 花火:25 «заряды») were deferred to the comprehensibility verdict. Consistency raised no finding (consistency, quiz safety and scoped coverage / cross-file integration CLEAN); it classed 散る→はらはら as required and 散る→跳ねる and 若々しい→さわやか as conservative, found \"No over-guarding\", and judged the candidate-time 蒸す→べたべた loss not a defect because \"no RU sentence remains for it to sit in\". Of its optional notes, O1 (six English-label guards on 蒸す and 蒸し暑い without in-card rationale; 蒸す→べたべた could be re-linked) was \"partly covered by C3\", O2 (撒く «уходить от погони» reads intransitive) was declined but addressed by comprehensibility C17's title change, and O3 (extra guards 気体→物質 and 落とし物→物) was declined. Comprehensibility raised twenty-one findings. C1: 湿気:18's «из исходного списка» had no learner referent; it now reads «Карточка учит оба чтения: しっけ и しっき.» C2: 蒸す:41–42's quiz-metadata sentence was removed; «При этом слова не взаимозаменяемы во всех конструкциях.» remains, followed by correctness C3's べたべた sentence. C3: 蒸す's title and H1 «готовить на пару, прогревать паром; быть душно и влажно (о погоде)» now read «готовить на пару; быть душно и влажно (о погоде)», with the towel sense kept in the body. C4: 芸能:40's English «accomplishments» sentence was deleted. C5: 芸能's title and H1 «исполнительские искусства; освоенное искусство (как достоинство человека)» now read «исполнительские искусства; освоенные искусства и навыки», removing «достоинство», which overlapped 長所. C6 was split: 艶:45 was deleted; the line 31 sentence «Отдельной карточки кандзи 艶 в нынешней коллекции нет.» was declined. C7 (moderate, not high): 著す's title and H1 «быть автором (книги, труда); издавать своё сочинение» now read «писать (книгу, труд); издавать своё сочинение» (imperfective, the RU verb-title convention; 書く already excluded), and its examples read «Она написала книгу об истории Японии.» and «Этот учёный написал много книг.» C8 (partial): 教養:21 now reads «Она — образованный, культурный человек.», keeping «культурный». C9: 教養:19 now reads «Я хочу с помощью чтения углубить свою образованность.» (深める = deepen). C10: 若々しい's title and H1 «моложавый; юношески свежий (о голосе, манерах)» now read «моложавый; полный молодости (о голосе, манерах)», and the example «Мама говорит голосом, полным молодости.»; a precautionary 若々しい→ぴんぴん exclusion was added after the post-fix screen. C11 (partial): 散らす:21 now reads «Я посыпаю салат рубленым зелёным луком.»; the title «раскидывать; рассеивать» was kept. C12: 花火:21 now reads «Это не дзюкудзикун (особое чтение всего слова целиком):»; the «рэндаку» part was declined. C13 (partial): 花火 now glosses 手持ち花火 as «фейерверки, которые держат в руке» (lines 15 and 30) and 線香花火 as «тонкий бенгальский огонь из бумажного жгутика с порохом» (Daijisen 線香花火 1, via weblio); the title «фейерверк» was kept. C14: 芯's title and H1 «сердцевина; фитиль» now read «сердцевина; грифель; фитиль». C15: 早速:21 now reads «Спасибо за скорый ответ.», away from 速い «быстрый». C16: 落とし物:20 now says «на полицейском посту», matching 交番 «полицейский пост». C17: 撒く's title and H1 «рассыпать, разбрызгивать; уходить от погони» now read «рассыпать, разбрызгивать; ускользать от кого-либо», and line 18's redundant « — уходить от погони» was removed; this \"also addresses consistency O2\". C18 (花嫁:19) was declined. C19: 草履:21 now reads «Я надела дзори и вышла в сад.», consistent with «выбрала» on line 20. C20: 茂る:20 now reads «Когда наступает лето, листва на деревьях густеет.» C21 (окуригана) was declined, with RU glossary entries for окуригана, рэндаку and дзюкудзикун recorded as a follow-up. At recheck of fix 1 (3544d75) all three reviewers ran serially, read-only, with no generator run; each recheck covered the full diff d0d977c..3544d75 (16 word cards + manifest.json).\nCorrectness (gpt-6.1-sol) judged C1 (落第:20: «заново прошёл материал» reports renewed study, not successful mastery; Russian «пройти», educational sense, ru.wiktionary), C2 (茂る:28: 滋る described as a rarely used spelling, matching JMdict 1533740) and C3 (蒸す:43: the べたべた contrast and link to the existing card restored accurately) resolved, and C4 resolved by deletion (艶:44–45 keep the surface-quality / coating distinction without introducing a material sense). It found the other changes at least as accurate as the previously acceptable wording: 蒸す's title keeps the food and weather senses with the towel sense in the body, 芸能 covers performance and acquired arts/skills, 著す's title and past examples keep the writing and publication senses, 若々しい keeps young-looking / youthful voice qualities, 芯 adds the valid pencil-lead sense, 撒く keeps escaping a pursuer or companion, 花火 now defines handheld fireworks and the paper-twist/powder form of 線香花火 (Daijisen via weblio: 芸能 1–2, 線香花火 1, 手持ち花火), and 教養, 散らす, 早速, 落とし物, 草履, 茂る and 湿気 keep their senses; no regression: correctness CLEAN, scoped coverage CLEAN. Optionals: the 散らす wording resolved; term explanations partially resolved (花火 glosses дзюкудзикун; годан/итидан/окуригана remain optional); 花火 «заряды» remains optional, not a defect. Its stated limits: a focused fix recheck, not a new native-reader or quiz audit; current dictionaries, not historical captures.\nConsistency (claude-sonnet-5.5) confirmed the changed set (16 word cards + manifest.json), manifest hashes matching all 16 changed cards, title = H1 on 蒸す, 芸能, 著す, 若々しい, 芯 and 撒く, 若々しい `quiz_exclusions` = [若い, 幼い, さわやか, ぴんぴん] (EN order kept, RU additions appended) guarding «полный молодости» against ぴんぴん «полный сил; бодрый», «грифель», «ускользать» and «исполнительские» occurring only in their own cards, 芸能 «навыки» vs マスター/上達/訓練 unguarded as before (low risk, optional), 著す «писать» vs 書く already excluded, no leftover removed wording («прогревать паром», «освоенное искусство», «быть автором», «юношески свежий», «уходить от погони», the removed 花火 «бенгальские» wording), 落とし物 «полицейский пост» matching 交番, and tools/validate.py 0 errors. It judged O2 resolved, O1 partially resolved (べたべた contrast and link added, the quiz prose removed, six English-label guards kept; optional, no defect) and O3 withdrawn/optional: consistency CLEAN, quiz safety CLEAN, scoped cross-file integration CLEAN. Its stated limit: dictionary senses from memory.\nComprehensibility (grok-4.7) judged C1 to C17, C19 and C20 resolved (accepting the modified or partial dispositions of C1, C3, C5, C7, C8, C11, C12, C13, C15 and C17 and not maintaining its deletion, title-length, perfective-title, severity or rewording proposals), withdrew C18 (花嫁: the contrast is already at 花嫁:33–34, :39 and 嫁:28, and the Japanese sentences differ) and C21 (окуригана: corpus term; a glossary follow-up is the right place), and found no regression (落第 «прошёл материал» is renewed study, not passing; the 滋る wording is plain; the べたべた sentence matches that card's title): comprehensibility CLEAN, scoped coverage CLEAN. Its stated limit: dictionaries not re-fetched.\nNo actionable finding remains; no second fix is needed. Fix 1 changed no Japanese example sentence, sourced reading, navigation file or kanji card; it added one link, 蒸す:43 → べたべた, restoring the EN link to an existing card that the candidate had lost with the dropped English-label paragraph, and removed none. All three reviewers read all 30 cards in full against their EN originals; the consistency reviewer also read the four navigation diffs in full, checked the intake's 34 payload paths, recomputed the 34 manifest hashes (0 mismatches) and ran `tools/validate.py` (0 errors) at the candidate and at the recheck, removing the untracked Python bytecode cache at the recheck. The correctness reviewer ran no validator or generator; the comprehensibility reviewer ran `word_title_screen.py` as a lead only and no generator. Evidence includes the current JMdict XML entries for all 29 cited main-word IDs and Jisho entries for all 30 words, KANJIDIC2, kanjiapi, Digital Daijisen via weblio (勉強, し直す; at the recheck 芸能, 線香花火 and 手持ち花火), Kuznetsov via gramota.ru, ru.wiktionary and the official 著す spelling PDF; the consistency reviewer cited dictionary senses from memory, and the comprehensibility reviewer relied on the cards' own JMdict citations. The rechecks found no regression. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 132 EN exclusions across 28 lists are retained in EN order; 湿度 and 花火 have none in EN. Twenty lie inside the batch: 蒸気–気体 and 蒸す, 湿気–湿度 and 蒸す, 蒸し暑い–蒸す, 湿気 and 湿度, 散らかす–散らかる, 散る–散らかす and 散らかる, 散らす–散る and 散らかす, 撒く–散らす, 散る and 散らかす, 蒔く–撒く, 散らす and 散る, 草履–下駄, and 芸能–教養; the other 112 target existing RU cards. Four direct, one-sided exclusions on two new cards cover reviewed RU title overlaps, all appended at the end of their lists. At the candidate there were three on two cards, from the authoring lane as adjudicated by the coordinator: required 散る–はらはら (はらはら «замирать от тревоги; плавно опадать», sharing the stem «опада»), and conservative 散る–跳ねる (跳ねる «подпрыгивать; разлетаться брызгами (о воде, масле)») and 若々しい–さわやか (さわやか «освежающий; ясный и приятный (о голосе, манере)»). Fix 1 added one and removed none: 若々しい–ぴんぴん (comprehensibility C10, precautionary after the post-fix screen; ぴんぴん «полный сил; бодрый»). The consistency reviewer classed 散る–はらはら as required and 散る–跳ねる and 若々しい–さわやか as conservative; it found no over-guarding, and at recheck confirmed 若々しい's list [若い, 幼い, さわやか, ぴんぴん], \"so «полный молодости» is guarded\". After fix 1 the post-fix title screen of the six retitled cards (蒸す, 芸能, 著す, 若々しい, 芯 and 撒く; b240-postfix-screen.txt) prints 13 OK lines and 61 stem-only lines: the one exact shared segment, 著す–書く «писать», is guarded by the EN pair on 著す; 若々しい's «полны» stem hit on ぴんぴん is guarded by the fix-1 addition; and the 61 unguarded stem-only hits (蒸す «готов»/«погод»/«влажн», 芸能 «навык»/«искус»/«испол», 著す «писат»/«сочин», 若々しい «голос»/«полны») are, in the dispositions' reading, \"all different meanings or parts of speech\", with \"no guard added beyond 若々しい→ぴんぴん\". The consistency recheck found that «грифель», «ускользать» and «исполнительские» occur only in their own cards, that 著す «писать» = 書く is already excluded, and that 芸能 «навыки» vs マスター/上達/訓練 stays unguarded (\"low risk, optional\"). Every RU addition is appended at the end of its list, and no EN entry is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/240-words-batch-79-intake.json",
+  "docs/translation-batches/240-words-batch-79-independent-review-001.md",
+  "docs/translation-batches/240-words-batch-79-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "嫁",
+   "履",
+   "撒",
+   "暑",
+   "湿",
+   "第",
+   "艶",
+   "芯",
+   "芸",
+   "茂",
+   "著",
+   "葬",
+   "蒔",
+   "蒸",
+   "養",
+   "駄"
+  ],
+  "navigationNote": "Restored 6 relative links in the 4 listed Markdown files at the corresponding EN-linked positions, using EN's href forms (../words/X.md in the kanji card, X.md in the word cards): 花火 in kanji 花 (lines 40 and 52, matching EN lines 30 and 35, in the はな reading row and the word list) and in word 花 (line 28, matching EN line 19); 落とし物 in word 忘れ物 (line 36, matching EN line 26's first mention); and 草履 and 下駄 in word 足袋 (line 35, matching EN line 39). Mentions that EN leaves plain stay plain: 花火 at kanji 花 line 22 (EN 22) and 落とし物 at word 忘れ物 line 38 (EN 26's second mention). No surrounding prose was changed. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/花.md",
+   "words/忘れ物.md",
+   "words/花.md",
+   "words/足袋.md"
+  ],
+  "newWords": [
+   "蒸発",
+   "気体",
+   "蒸す",
+   "蒸気",
+   "湿度",
+   "湿気",
+   "蒸し暑い",
+   "散らかる",
+   "散らかす",
+   "散る",
+   "散らす",
+   "撒く",
+   "蒔く",
+   "葬式",
+   "著す",
+   "落第",
+   "落とし物",
+   "下駄",
+   "草履",
+   "茂る",
+   "英文",
+   "英和",
+   "若々しい",
+   "教養",
+   "芸能",
+   "花火",
+   "花嫁",
+   "芯",
+   "艶",
+   "早速"
+  ],
+  "selection": "Batch 79 selected 30 word cards from the frozen source: chunk 32 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,197 remained after Batch 239, and 1,167 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing outside them was added. Twenty source exclusion entries lie inside the batch; the other 112 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (14 EN link occurrences, 9 targets) in the new cards: 蒸発→kanji 蒸, 気体→words/液体, 蒸す→kanji 蒸, 蒸気→kanji 蒸, 湿度→kanji 湿, 湿気→kanji 湿 and words/乾燥, 蒸し暑い→kanji 蒸, 撒く→words/巻く, 蒔く→words/巻く, 著す→kanji 著, 茂る→words/枯れる, 芸能→kanji 芸 and 早速→words/さっさと. 16 written kanji have no RU kanji card: 嫁 履 撒 暑 湿 第 艶 芯 芸 茂 著 葬 蒔 蒸 養 駄 (EN has cards for 湿, 芸, 著 and 蒸). Links otherwise follow EN; there is no RU-only link. At the candidate 蒸す lacked EN :48's link to the existing card べたべた, which sat in the English-only \"sticky/close\" paragraph the adaptation dropped; fix 1 (correctness C3) restored it in a new Russian contrast sentence at 蒸す:43.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined, partially adopted, adapted or no-action items: the correctness optionals (first-use explanations of годан/итидан/окуригана/дзюкудзикун, 散らす:21 «посыпаю», 花火:25 «заряды») were \"Deferred to the comprehensibility reviewer's verdict\"; at recheck the 散らす wording was resolved, the term explanations partially resolved (花火 glosses дзюкудзикун; годан/итидан/окуригана remain optional) and 花火 «заряды» remains optional, not a defect. Consistency O1 was optional and \"partly covered by C3\": 蒸す gained the べたべた contrast sentence; \"EN 蒸し暑い:43–51 has no べたべた link, so no link is owed there; the remaining guards protect English labels only and stay as EN requires\"; partially resolved at recheck, optional, no defect. Consistency O2 was declined in the dispositions (\"The title gives the sense (shaking off pursuers); «отрываться от погони» is equally intransitive, and the body example 追っ手をまく shows the transitive frame\"), but comprehensibility C17's accepted title change «…; ускользать от кого-либо» \"also addresses consistency O2\", and the consistency recheck judged O2 resolved. Consistency O3 (気体→物質, 落とし物→物) was declined: \"The «вещество» overlap is inherited from EN (気体 \"gas; gaseous substance\" / 物質 \"substance; matter\", unguarded in EN); 物 «вещь; предмет» is a hypernym, not the meaning of 落とし物, and the specific title is the unambiguous answer in both directions\"; withdrawn or optional at recheck. Its stated limit, that 花火 has no quiz_exclusions and no dictionary footer, mirrors EN's older format. Comprehensibility C6 was split: 艶:45 was deleted, and 艶:31 «Отдельной карточки кандзи 艶 в нынешней коллекции нет.» was declined (\"inherited, true, explains the missing link (cf. 句読点:32)\"); not maintained. C8 was partial: the dash was added and «культурный» kept (\"correct Russian for 教養のある人\"); not maintained. C11 was partial: the example was changed and the title «раскидывать; рассеивать» kept (\"faithful to \"scatter\"; the deliberateness note covers the concern; a change would ripple to 撒く/散る and B242\"); not maintained. C12's «рэндаку» part was declined (\"already explained inline and established in 9 corpus files\"); not maintained. C13 was partial: 手持ち花火 and 線香花火 were glossed and the title «фейерверк» kept (EN \"fireworks\"); not maintained. C18 was declined (\"The parallel with 嫁:19 is inherited from EN; the contrast is stated at 33–34 and 39, and the Japanese sentences differ (花嫁 vs お嫁さん)\") and withdrawn at recheck. C21 was declined (\"Established corpus term (325 RU files) and used by EN\") and withdrawn at recheck; the follow-up is RU glossary entries for окуригана, рэндаку and дзюкудзикун. The dispositions also record that the B241/B242 lane copies of 蒸す, 芸能, 著す, 若々しい, 芯 and 撒く predate this fix: \"B241 must be based on published B240, and B242 adjudication must re-check quotes of these titles.\"",
+  "exclusionsAddedBeyondEn": {
+   "散る": [
+    "はらはら",
+    "跳ねる"
+   ],
+   "若々しい": [
+    "さわやか",
+    "ぴんぴん"
+   ]
+  },
+  "titles": {
+   "下駄": "гэта (японские деревянные сандалии на подставках)",
+   "撒く": "рассыпать, разбрызгивать; ускользать от кого-либо",
+   "教養": "образованность; культурный кругозор",
+   "散らかす": "разбрасывать где попало; устраивать беспорядок",
+   "散らかる": "быть в беспорядке; лежать разбросанным",
+   "散らす": "раскидывать; рассеивать",
+   "散る": "опадать (о цветах, листьях); разлетаться, рассеиваться",
+   "早速": "без промедления; не откладывая",
+   "気体": "газообразное вещество",
+   "湿度": "влажность воздуха (как показатель)",
+   "湿気": "влага, сырость (в воздухе, в предметах)",
+   "艶": "глянец; блеск (поверхности)",
+   "芯": "сердцевина; грифель; фитиль",
+   "花嫁": "невеста (в день свадьбы); новобрачная",
+   "花火": "фейерверк",
+   "芸能": "исполнительские искусства; освоенные искусства и навыки",
+   "若々しい": "моложавый; полный молодости (о голосе, манерах)",
+   "英和": "англо-японский (о словаре); англо-японский словарь",
+   "英文": "английский текст; предложение на английском языке",
+   "茂る": "густо разрастаться; покрываться густой листвой",
+   "草履": "дзори (японские сандалии с плоской подошвой)",
+   "落とし物": "потерянная или обронённая вещь",
+   "落第": "провал на экзамене; несоответствие нужному уровню",
+   "著す": "писать (книгу, труд); издавать своё сочинение",
+   "葬式": "похороны",
+   "蒔く": "сеять (семена)",
+   "蒸し暑い": "жаркий и влажный; душный (о погоде)",
+   "蒸す": "готовить на пару; быть душно и влажно (о погоде)",
+   "蒸気": "пар",
+   "蒸発": "испарение; бесследное исчезновение (человека)"
+  }
+ }
+}

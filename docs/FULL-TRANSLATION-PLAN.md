@@ -1,6 +1,71 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch239 thirty words (general word queue)
+## Current published source milestone: batch240 thirty words (general word queue)
+
+Batch240 adds 30 Russian word articles: 蒸発 気体 蒸す 蒸気 湿度 湿気 蒸し暑い 散らかる 散らかす 散る 散らす 撒く 蒔く 葬式 著す
+落第 落とし物 下駄 草履 茂る 英文 英和 若々しい 教養 芸能 花火 花嫁 芯 艶 早速. They are chunk 32 of 72 of the general
+remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is exactly the 30
+requested words, so every EN quiz_exclusions target resolves to an existing RU word or a word in the batch; 20 of the 132
+EN entries lie inside the batch.
+
+Navigation-only link wraps restore 6 links at EN link positions in 4 existing pages: the kanji card 花 (two to 花火) and
+the word cards 花 (to 花火), 忘れ物 (to 落とし物) and 足袋 (to 草履 and 下駄). The new cards keep EN's links to existing cards;
+their links to the word cards 液体, 乾燥, 巻く, 枯れる and さっさと and the kanji cards 蒸, 湿, 著 and 芸 stay plain until
+those targets are adapted.
+
+The batch covers:
+- steam and humidity: evaporation or vanishing without a trace (蒸発), a gas (気体), to steam or be hot and humid (蒸す),
+  steam (蒸気), humidity as a measure (湿度), moisture or damp (湿気) and hot and humid weather (蒸し暑い);
+- scattering: to be in disorder (散らかる), to make a mess (散らかす), to fall or scatter (散る), to scatter or disperse
+  (散らす), to sprinkle or give someone the slip (撒く) and to sow seeds (蒔く);
+- 落 words: failing an exam or falling short of a standard (落第) and a lost or dropped item (落とし物);
+- footwear: geta (下駄) and zori (草履);
+- English: English text (英文) and English-Japanese, as of a dictionary (英和);
+- culture: education and cultural breadth (教養) and the performing arts or cultivated skills (芸能);
+- 花 words: fireworks (花火) and a bride (花嫁);
+- other: a funeral (葬式), to write or publish a work (著す), to grow thick (茂る), youthful (若々しい), a core, pencil lead
+  or wick (芯), gloss or sheen (艶) and without delay (早速).
+
+All 132 EN exclusions are retained in EN order. Four direct guards on 2 new cards cover reviewed RU title overlaps:
+散る–はらはら is required for a shared stem; 散る–跳ねる, 若々しい–さわやか and 若々しい–ぴんぴん are conservative and harmless
+(the consistency reviewer classed 散る–はらはら as required and the other two candidate guards as conservative; 若々しい–ぴんぴん
+was added by the fix).
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: three findings, an added sense of mastery in a 落第 example translation and two claims inherited from EN
+  (滋る as obsolete in 茂る and "glaze" as a dictionary gloss in 艶), and one scoped-coverage finding, the べたべた link
+  lost with 蒸す's English-only paragraph;
+- consistency: no findings, and three optional notes on English-label guards in 蒸す and 蒸し暑い, the 撒く title and two
+  conservative guard suggestions;
+- comprehensibility: twenty-one findings, among them the 蒸す, 芸能, 著す, 若々しい, 芯 and 撒く titles, card-set and
+  English-gloss remarks in 湿気, 蒸す, 芸能 and 艶, and example translations in 教養, 散らす, 花火, 早速, 落とし物, 草履 and 茂る.
+
+One signed fix commit addressed them:
+- six titles changed: 蒸す «готовить на пару; быть душно и влажно (о погоде)», 芸能 «исполнительские искусства; освоенные
+  искусства и навыки», 著す «писать (книгу, труд); издавать своё сочинение», 若々しい «моложавый; полный молодости (о голосе,
+  манерах)», 芯 «сердцевина; грифель; фитиль» and 撒く «рассыпать, разбрызгивать; ускользать от кого-либо»;
+- example translations were rewritten in 落第, 著す, 教養, 若々しい, 散らす, 早速, 落とし物, 草履 and 茂る, prose was reworded in
+  茂る, 蒸す, 湿気, 撒く and 花火, and one sentence each was deleted from 艶 and 芸能;
+- one exclusion (若々しい–ぴんぴん) was added and none removed, one link (蒸す to べたべた) was restored and none removed, and
+  several suggested wordings were adapted rather than adopted.
+
+The serial rechecks reported correctness, consistency, quiz safety, comprehensibility and scoped coverage clean, with no
+regression; the declined points were withdrawn or not maintained. RU glossary entries for окуригана, рэндаку and
+дзюкудзикун stay on the follow-up list.
+
+Links follow EN; there is no RU-only link in the new cards.
+
+Qualified progress is **5,319 reviewed-current / 8 reviewed runtime-blocked / 2,951 pending of 8,278**,
+with 3,853 words, 718 kanji and 718 strokes. See the [intake](translation-batches/240-words-batch-79-intake.json),
+[independent review](translation-batches/240-words-batch-79-independent-review-001.md),
+[recheck](translation-batches/240-words-batch-79-recheck-001.md),
+[qualified source record](translation-batches/240-words-batch-79-reviewed-source.json) and
+[final validation](translation-batches/240-words-batch-79-final-validation-001.json).
+
+## Previous published source milestone: batch239 thirty words (general word queue)
 
 Batch239 adds 30 Russian word articles: 清書 複写 裏口 裂く 被せる カバー 表紙 衣食住 街角 行列 儀式 行事 血液 血圧 蝋燭 コック
 蛇口 蚊 虹 思い付く 蘇る 薬缶 薬指 薬局 薬品 薄暗い 薄める 蕎麦 栓 蓋. They are chunk 31 of 72 of the general remaining-word
