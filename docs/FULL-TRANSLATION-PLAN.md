@@ -1,6 +1,75 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch244 thirty words (general word queue)
+## Current published source milestone: batch245 thirty words (general word queue)
+
+Batch245 adds 30 Russian word articles: 標識 符号 競馬 童話 立ち止まる 窓口 突き当たり 架空 空想 空中 空っぽ 税関 移転 秤
+私鉄 私立 おやすみ 祭日 お参り 敬う 祭る 神話 神様 祝日 先祖 祖先 社説 社会科学 磁石 確率. They are chunk 37 of 72 of the
+general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is exactly
+the 30 requested words, so every EN quiz_exclusions target resolves to an existing RU word or a word in the batch; 9 of
+the 93 EN entries lie inside the batch.
+
+Navigation-only link restorations add 3 links at EN link positions in 3 existing word cards: 休日 (to おやすみ),
+突き当たる (to 突き当たり) and 編集 (to 社説). The 編集 link was held from Batch243, whose card was published before 社説
+existed, and was applied with this batch. The new cards keep EN's links to existing cards; their links to the word cards
+国立 and 子孫 and the kanji cards 符, 競, 童, 税, 移, 鉄, 祭, 敬 and 祝 stay plain until those targets are adapted. 税関
+omits EN's English-dependent note that "customs" does not mean habits, together with its link to 習慣.
+
+The batch covers:
+- signs: an identifying or direction sign (標識) and a symbol, code or the sign of a number (符号);
+- places and movement: stop while walking or pause (立ち止まる), the end of a street or corridor (突き当たり), a service
+  window or contact point (窓口), customs (税関), relocation or transfer of ownership (移転), a private railway (私鉄) and
+  a private institution, especially a school (私立);
+- sky and emptiness: fictional or overhead (架空), daydream, fantasy or an imagined picture (空想), the space above the
+  ground or in the air (空中) and empty or hollow (空っぽ);
+- religion and holidays: a day off, rest or good night (おやすみ), a festival day or national holiday (祭日), a public
+  holiday (祝日), a visit to a temple or grave (お参り), respect or revere (敬う), enshrine or worship (祭る), myth or
+  mythology (神話) and a revered deity or a peerless master (神様);
+- ancestry: the ancestors of a family or its founder (先祖) and an ancestor or preceding generations (祖先);
+- media, science and measurement: a fairy tale (童話), horse racing (競馬), an editorial (社説), the social sciences
+  (社会科学), a magnet or compass (磁石), probability (確率) and scales (秤).
+
+All 93 EN exclusions are retained in EN order. Four direct guards on 3 new cards cover reviewed RU title overlaps: one
+from authoring, 社説–論文, accepted by the coordinator (the consistency reviewer classed it as conservative); the fix
+added 童話–歴史, 社説–評論 and おやすみ–佚. A 社会科学–自然科学 guard from authoring was removed by the fix, restoring EN
+parity; the reviewer noted that it guarded a contrast the article itself teaches and that the titles share only «науки».
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: one finding, the おやすみ title narrowing the respectful "sleep; rest" sense to going to bed, which also made
+  scoped coverage need a fix;
+- consistency: consistency, links, navigation and cross-file integration clean; one missing quiz guard (童話–歴史), with
+  an optional 社説–評論 guard and the optional removal of 社会科学–自然科学;
+- comprehensibility: fifteen findings, among them 祭る examples that blurred it with 敬う (high), the titles of おやすみ,
+  符号, 空っぽ, 祖先, 先祖, 敬う, 立ち止まる and 空想, word order in 秤, editorial remarks in おやすみ, 架空 and 磁石, a
+  空っぽ sentence warning against a confusion invited by English, the linguistic sense in 標識 and added «Мы»
+  subjects in 移転, 確率 and 祖先; scoped coverage needed fixes for 祭る and 秤.
+
+One signed fix commit addressed them in 18 new word cards:
+- it retitled おやすみ «выходной; отдых; спокойной ночи», 符号, 空っぽ, 祖先, 先祖, 敬う «уважать; чтить», 立ち止まる and
+  空想;
+- it rewrote 祭る's meaning line and examples around enshrining and added one reviewed RU-only link, 祭る→敬う;
+- it reworded or removed prose in 秤, おやすみ, 架空, 磁石, 空っぽ and 標識 and dropped the added «Мы» subjects;
+- it added the three guards above and removed 社会科学–自然科学;
+- the 空想 finding was adopted partially, keeping «воображаемая картина» for EN parity, and accepted at recheck.
+
+The serial rechecks reported correctness, scoped coverage, consistency, quiz safety and manifest validation clean; the
+comprehensibility recheck reported "Comprehensibility: PASS. Scoped coverage: PASS. No remaining finding." The new
+おやすみ segments overlap 休み, 休日 and 佚, and the new 符号 and 空っぽ segments overlap コード and からから; all five
+pairs are guarded by the batch cards' own exclusions.
+
+Links follow EN, with two reviewed RU-only links at substantive comparisons (祭日→祝日 and 祭る→敬う) and one EN link
+dropped with its English-dependent passage (税関→習慣).
+
+Qualified progress is **5,469 reviewed-current / 8 reviewed runtime-blocked / 2,801 pending of 8,278**,
+with 4,003 words, 718 kanji and 718 strokes. See the [intake](translation-batches/245-words-batch-84-intake.json),
+[independent review](translation-batches/245-words-batch-84-independent-review-001.md),
+[recheck](translation-batches/245-words-batch-84-recheck-001.md),
+[qualified source record](translation-batches/245-words-batch-84-reviewed-source.json) and
+[final validation](translation-batches/245-words-batch-84-final-validation-001.json).
+
+## Previous published source milestone: batch244 thirty words (general word queue)
 
 Batch244 adds 30 Russian word articles: 絞る 経度 組み立てる 終点 紺 紫 性質 素質 素直 素人 純粋 おめでたい 純情 系統
 糊 水滴 粒 算盤 算数 箒 等分 書留 執筆 筆記 作者 筆者 そのほか そのうえ 第一 気配. They are chunk 36 of 72 of the
