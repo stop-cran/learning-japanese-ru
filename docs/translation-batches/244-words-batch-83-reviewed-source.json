@@ -1,0 +1,152 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "244-words-batch-83",
+ "publishedBaseline": "0f2c03c681ff90e2fac796417f986ecdf0ee898e",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate c215974 and serialized rechecks of the signed fix commits 149b7d7, fd4ae41, c4ba4be and 85a96a2 found no remaining defect. After authoring and before the candidate commit, the coordinator made ten content edits, recorded under \"Edits applied by the coordinator\"; the other 24 lane files were copied unchanged from the authoring worktree, and no link was held from an earlier batch. The edits are: 純粋 \"title/H1 «беспримесный; неподдельный; без примесей» → «чистый; неподдельный; без примесей»\" (\"«беспримесный» duplicated «без примесей» and is rare; «чистый» = EN \"pure\"; exact-segment hits きれい/清潔/清い are all direct exclusions of 純粋\"); 紫 \"«воробейник краснокорневой» → «воробейник (лат. Lithospermum erythrorhizon)»\" (\"genus name Воробейник = Lithospermum verified (ru.wikipedia genus list); the species vernacular was not verifiable\"); 経度 \"«Долгота этой точки — сто сорок градусов восточной долготы.» → «Эта точка находится на ста сорока градусах восточной долготы.»\" (\"avoids repeating «долгота»; matches EN rendering\"); 水滴 \"restored the number note (Japanese noun has no obligatory number ending, unlike Russian; «капля»/«капли» from context)\" (\"EN note dropped though it applies equally to Russian; the two examples use капли/капля\"); 算数 \"«по начальной математике» → «по математике» (example)\" (\"natural name of the school subject; the title keeps the sense distinction\"); 執筆 \"«работа над ним как автора» → «то есть авторская работа над ним»\" (\"grammar polish\"); 作者 \"examples → «Кто автор этого романа?», «Мы не знаем, кто написал эту картину.»\" (\"natural translations (title remains «создатель произведения»)\"); そのうえ \"«Притом ещё и ветер усилился.» → «Вдобавок ещё и ветер усилился.»\" (\"«притом» is unnatural for an added event\"); 第一 \"«Первая по счёту причина» → «Первая причина»\" (\"natural translation\"); and 気配 \"«В комнате не чувствуется ничьего присутствия.»; «Я чувствую, что собирается дождь.»\" (\"natural renderings of \"no sign of anyone\", \"sense signs of rain\"\"). Two of these edits were changed again by fix 1: 純粋's title and H1 now read «чистый (без примесей); неподдельный» (comprehensibility C15), and 紫:21 now reads «Та же словарная запись фиксирует и растение воробейник краснокорневой, которое обычно пишут» (comprehensibility C12, taking up the correctness optional; Plantarium item 23077 identifies Lithospermum erythrorhizon as воробейник краснокорневой). The adjudication records: \"all 30 new cards read in full against frozen EN 6af98cb (Russian prose, examples, title/H1, links); non-title metadata compared mechanically with EN (all match; EN exclusion order kept; three RU-added exclusions 性質→性能, 書留→速達, 作者→著者 accepted). Link audit: no EN link whose target exists in the lane is missing, and no RU-only links. Nav edits 作家:36, 性:35, 性格:32, 重点:29 accepted.\" It accepted as drafted 素直 «покладистый; искренний» (\"«послушный» would exactly collide with 利口\"), おめでたい «радостный (о событии); простоватый», 系統 «взаимосвязанная система; родословная линия» and 気配 «смутный признак; намёк; настроение рынка» (\"avoid exact «система»/«признак» collisions; exclusions mirror EN\"), the 素人 jukujikun phrasing (\"matches published 時計\") and the \"unlinked article mention in 作者\" (\"follows published 作家/武士\"); it recorded that \"Kanji links to 純/滴/粒/算/筆 omitted because RU kanji cards are not published yet (restore with kanji)\", \"Validation after edits (lane): manifest 5,439 files; validate 0 errors; 124 tests OK; budget OK.\" and \"Title screen 純粋: 3 exact «чистый» hits, all guarded; stem hits «приме» (пример) are false positives.\" The coordinator's candidate script copied the 34 lane files from the scratch commit fe1dfd3 into the primary checkout on the published Batch 243 content, after checking that the four navigation files were unchanged between the scratch base and the candidate's parent and that none of the 30 cards existed there; it byte-compared the copies, regenerated the manifest (5,439 entries) and passed its stopping checks (validate, unit tests, budget, `git diff --check` and the navigation-only check on the four files). For this record the 34 committed content blobs at c215974 and at 85a96a2 were checked: none has a BOM or CR, and every file ends with a newline; link parity at 85a96a2 shows no LOST link and only the reviewed RU-only そのうえ → 上 link. The candidate title screen (b244-cand-screen.txt, 303 lines) differs from the lane screen (b244-screen.txt, 302 lines) in three stem-only lines: an added 純粋~実力 «приме» line, and おめでたい~広々 and そのうえ~余計, where the published titles of 広々 (Batch 242 fix 872649e) and 余計 (Batch 241 fix 9cf1600) differ from the lane's pre-publication copies; no exact-segment line differs. Correctness (correctness UNVERIFIED solely for the Russian \"common root\" assertion in words/そのうえ.md:48; scoped coverage CLEAN for all 30) found no established defect; it withdrew an interim 絞る:19 point (procedural ます rendered as a Russian imperative). The unverifiable claim «Как в русском «сверх того» и «сверху» связаны общим корнем, но значат разное, смотрите на конструкцию, чтобы отличить добавление от физического положения.» was removed; after the correctness recheck (R1, fix fd4ae41) そのうえ:48–49 reads «Чтобы отличить добавление от физического положения, смотрите на конструкцию и контекст: связка そのうえ вводит новый факт, а в примере с коробкой その上に указывает место.» Consistency (consistency, format, links, navigation CLEAN; intake JSON and manifest CLEAN on its checks; quiz safety NEEDS FIX) raised F1 (required: 組み立てる did not guard 集める and 拾う, which share «собирать») and four conservative findings, F2 素直→おとなしい, F3 終点→停留所, F4 等分→区分 and F5 気配→機嫌; all were accepted verbatim (集まる not added: intransitive «собираться»). Comprehensibility (comprehensibility NEEDS FIX; scoped coverage CLEAN) raised C1 to C19. Accepted: C1, 性質:47–48 now «его внутренние свойства. Имущество, которым владеют, — это [財産](財産.md), а не 性質.»; C2, 素人 drops the app-category sentence («отмечает しろうと как особое чтение всего слова: запоминайте 素人 целиком,»); C4 with fix 3, 素質:48–50 «Русские слова «характер» и «качества» соответствуют разным японским словам: [人物](人物.md) и [カラー](カラー.md) тоже связаны с человеком или его особенностями, но не могут свободно заменять 素質 в предложении.»; C5, 素直:34–35 «Чтение соединяет онное ス с исконным なお. Это смешанное чтение, а не два обычных онных чтения.»; C8, the 系統 study-list sentence deleted; C10, 作者:38–39 «Чем 作者 отличается от 作家 и как различаются окончания 者 и 家, объясняется в статье об окончаниях профессий и ролей.»; C11, 紺:19 «Эта униформа тёмно-синяя.»; C12, 紫:21 as above; C13, 純情:19 «Пожалуйста, не подшучивайте над её невинностью.»; C14, 純粋:19 «Я спросил из неподдельного любопытства.»; C15, the 純粋 title above; and C18, the reviewed RU-only link そのうえ:42 «Для физического положения [上](上.md) противопоставлено [下](下.md)（した）.» Partial: C3, 算盤:32–33 explains the visible label («Метка `jukujikun` (чтение, присвоенное всему слову) отмечает здесь эту стратегию заучивания целого слова; это не утверждение об историческом происхождении слова.»); C6, 素直:20 «У него покладистый характер, и он умеет прислушиваться к советам.»; C16, 書留→チェック added in fix 1 and, after the comprehensibility recheck, 書留's title and H1 «заказное отправление; письменная отметка» → «заказное отправление; письменная запись» and :21 «значение письменной записи» in fix 4, which removed チェック; and C17, そのうえ keeps «сверх того; притом» and guards 余計. Declined: C7 (系統 title), C9 (算数:18) and C19 (筆記 title). Fix 1 is \"Batch 244: apply review fixes\" (149b7d7); fix 2 \"Batch 244: narrow the そのうえ construction note (correctness recheck R1)\" (fd4ae41); fix 3 \"Batch 244: qualify the 素質 substitution note (correctness recheck option)\" (c4ba4be); fix 4 \"Batch 244: render 書留 \"written record\" as «письменная запись» (comprehensibility recheck C16)\" (85a96a2). B244 had four signed fix commits after the blind reviews: fix 1 (149b7d7) applied the dispositions of all three reviews (17 word cards + manifest.json); fixes 2 (fd4ae41, words/そのうえ.md:48–49) and 3 (c4ba4be, the optional 素質:50 qualification) answered the correctness recheck of fix 1; fix 4 (85a96a2, words/書留.md) answered comprehensibility C16, maintained at its recheck of c4ba4be. All rechecks ran serially, read-only, with no generator run. Correctness rechecked fix 1 (diff c215974..149b7d7) and then, in a \"Recheck addendum (R1)\", fixes 2–4; consistency and comprehensibility each rechecked fixes 1–3 together (cumulative diff c215974..c4ba4be) and then fix 4 alone in an addendum on 85a96a2. No navigation-only file changed after the candidate.\nCorrectness (gpt-6.1-sol) at 149b7d7 judged the removal of the UNVERIFIED そのうえ root claim resolved but raised R1 (medium; そのうえ:49 «その上に при глаголе указывает место» overgeneralizes, since その上に with a verbal predicate can also add a fact; Saito dictionary example 彼に払うべき金を払ったその上に礼をした), kept the interim 絞る C1 withdrawn and the recipe label optional, judged the 紫 species name and the 性質, 素人, 素直 and 系統 machinery suggestions resolved, 算盤 partially resolved (annotation remains optional polish), and suggested optionally restoring EN's qualified \"not freely interchangeable\" on 素質. It found the changed passages of 純粋 (JMdict 1341930), 紺 (Daijisen 制服 sense 1), 純情 (Daijisen からかう sense 1), 紫, 素直, 性質, 素人, 算盤 and 作者, the new そのうえ→上 link and the new guards acceptable, with Japanese example strings unchanged. Verdict at that step: correctness NEEDS FIX (R1); scoped coverage CLEAN. Its stated limits: validator 0 errors and diff --check clean; prior botanical evidence reused after a 504 refresh; APK/automatic quiz pools not audited.\nConsistency (claude-sonnet-5.5) at c4ba4be judged F1 (組み立てる +集める, 拾う; the optional 集まる not added), F2 (素直 +おとなしい), F3 (終点 +停留所), F4 (等分 +区分) and F5 (気配 +機嫌) resolved, accepted the kept candidate guards 作者→著者, 性質→性能 and 書留→速達, judged its 素質 optional resolved and accepted the declines of 算数:18, the EN-inherited format points and the 筆者/私 and 第一/主要 guards. Regression checks: fixes 2–3 touch only そのうえ, 素質 and manifest.json; 純粋's title and H1 match, and the exact segment «чистый» is shared only with excluded きれい, 清潔 and 清い (other hits stem-only, different senses); 書留→チェック (shared stem «отмет») and そのうえ→余計 (shared stem «сверх») sound; the そのうえ→上 link is a reviewed RU-only link on a new card, so navigation stays at 4 files / 4 links; no orphaned removed wording; manifest changes limited to hashes and contentVersion. Consistency, format, links and navigation CLEAN; quiz safety CLEAN. Its stated limits: manifest hashes not recomputed independently (a scripted whole-tree pass hung and was abandoned); two pre-existing out-of-scope items (strokes CRLF hashing, two scenes outside the manifest). It noted that later lane drafts still carry the pre-fix 純粋 title and need the sync.\nComprehensibility (grok-4.7) at c4ba4be judged C1, C2, C5, C8, C10–C15 and C18 resolved, C4 resolved with fix 3's qualified contrast, C3 and C6 partially resolved without maintaining a further change, C17 resolved (余計 now excluded; no title change maintained), and accepted the declines of C7, C9 and C19; it found no regression at そのうえ:48–49. It maintained C16 at low severity: the チェック exclusion fixed the stem collision, but «письменная отметка» still read as a mark or grade rather than EN \"written record\". Verdicts at that step: comprehensibility NEEDS FIX (C16, low); scoped coverage CLEAN. Its stated limits: validate.py and the title screen not re-run; quiz-hint source not in the checkout; model name not verifiable.\nFix 4 (85a96a2) accepted C16: 書留's title and H1 «заказное отправление; письменная отметка» → «заказное отправление; письменная запись», RU:21 «значение письменной отметки» → «значение письменной записи», and removal of the RU-added チェック exclusion whose only basis was the dropped «отмет» stem (the 筆記 pair stays guarded by EN 筆記's own exclusion of 書留).\nCorrectness addendum (R1) on 85a96a2 (brief b244-recheck2-msg-correctness.txt): R1 resolved (そのうえ:48–49 now limits the spatial reading to the box example; «и контекст» is faithful to EN's contextual warning); the optional 素質:50 point resolved («не могут свободно заменять» restores EN's \"freely interchangeable\"); 書留's new title and record sentence retain both EN senses (JMdict 1589960 sense 2: \"(putting on) record\", \"writing down\", \"noting down\", \"registry\"), and removing チェック establishes no correctness problem. Final: correctness CLEAN; scoped coverage CLEAN. Its stated limits: validator 0 errors, diff --check clean; no exhaustive APK/automatic quiz-pool audit; remaining annotation polish optional.\nConsistency addendum (fix 4) on 85a96a2 (brief b244-recheck3-msg-consistency.txt): the diff touches only words/書留.md and manifest.json (contentVersion and the 書留 hash); title and H1 match; the only whole-segment overlap, «запись» with 記録, is guarded by the EN exclusion 記録; 筆記 declares 書留 in its own exclusions; メモ is guarded; other «запис» hits are parenthetical or different senses; «заказное отправление» is not bare «отправление» (出発/発車 stem-only; 速達 guarded); nothing new in the b245–b251 lane titles; removing チェック is safe and the list is the EN set plus 速達. Consistency, format, links and navigation CLEAN; quiz safety CLEAN. Its stated limits: manifest hash not recomputed, validate.py not re-run on this HEAD, lanes screened by title grep only.\nComprehensibility addendum (C16) on 85a96a2 (brief b244-recheck3-msg-comprehensibility.txt): C16 resolved — the title, H1 and meaning sentence now say «письменная запись», which renders EN \"written record\" and no longer reads as a mark or grade; «письменная» blocks an audio-recording reading; course enrolment stays distinguished by the existing 登録 note («записи на курс»); dropping チェック is right because that guard covered only the removed «отмет» stem; 記録 «запись (сведений)» remains in the card's exclusions and 筆記 still excludes 書留; no comprehension regression. Final: comprehensibility CLEAN; scoped coverage CLEAN. Its stated limits: title screen not re-run; model name not verifiable.\nNo actionable finding remains; no fifth fix is needed. The four fixes changed no Japanese example sentence, sourced reading, kanji card, navigation-only file or EN exclusion; together they changed 17 word cards (31 lines added and 33 removed) and the manifest, retitled 純粋 and 書留, added seven RU exclusions (one more, 書留→チェック, was added by fix 1 and removed by fix 4) and one reviewed RU-only link. All three reviewers read all 30 cards in full against their EN originals; the consistency reviewer also read the four navigation diffs in full and found that the intake path list equals the words diff (34 paths) and that every candidateRawSha256 matches the file; the comprehensibility reviewer did not read the four link-only edits as full articles. The correctness reviewer ran `tools/validate.py` (0 errors) at the candidate and at both recheck steps; the consistency reviewer ran it at the candidate and at c4ba4be; the comprehensibility reviewer ran no validator. No reviewer reports running a generator. Evidence includes the actual JMdict XML and KANJIDIC2, Daijisen via Weblio, Kotobank, Kanjipedia, Gramota, Ushakov, ru.wiktionary and Plantarium; the comprehensibility reviewer found JMdictDB password-gated and used the public jisho.org JMdict display; the consistency reviewer did not recompute the manifest hashes. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 174 EN exclusions across 25 lists are retained in EN order (EN has no list on 経度, 紫, 素人, 水滴 or 箒). Nine lie inside the batch: 素質–性質, 純情–純粋 and おめでたい, 粒–水滴, 筆記–書留 and 執筆, 筆者–作者, そのうえ–そのほか and 第一–そのうえ; the other 165 target existing RU cards. Ten direct, one-sided exclusions on nine new cards cover reviewed RU title overlaps, all appended at the end of their lists. Three were present at the candidate, from the authoring lane as accepted by the coordinator: 性質–性能 (性能 «рабочие характеристики; технические возможности»), 書留–速達 (速達 «срочная доставка (почты); срочное почтовое отправление») and 作者–著者 (著者 «автор (книги, труда)»). The consistency reviewer classed 作者–著者 as \"justified\", 性質–性能 as \"conservative. The basis is weak (nature vs performance) but harmless.\" and 書留–速達 as \"conservative, bordering on unjustified. The only basis is the shared noun «отправление». Harmless; keep or drop at the author's discretion.\"; all three were kept. Fix 1 added seven that remain: 組み立てる–集める and 拾う (集める «собирать; коллекционировать», 拾う «подбирать; собирать»; consistency F1, required), 素直–おとなしい (おとなしい «тихий; смирный; послушный»; F2), 終点–停留所 (停留所 «остановка (автобуса, трамвая)»; F3), 等分–区分 (区分 «деление; классификация»; F4), 気配–機嫌 (機嫌 «расположение духа; настроение»; F5) and そのうえ–余計 (余計 «сверх необходимого; ненужный; ещё больше»; comprehensibility C17). Fix 1 also added 書留–チェック (チェック «проверка; отметка»; comprehensibility C16, for the shared stem «отмет»); fix 4 retitled 書留 «заказное отправление; письменная запись» and removed it, so 速達 is the only RU addition on 書留. The new 書留 segment «запись» is guarded: 記録 «запись (сведений); рекорд» and メモ are EN exclusions of 書留, and 筆記 «записывание; конспектирование» declares 書留 in its EN list, which excludes the pair in both directions. The coordinator declined guards for 筆者~私 and 第一~主要 (no shared segment or stem; 第一 already guards 重要, 大事 and 大切). The candidate title screen (b244-cand-screen.txt; 303 lines) has 28 OK lines for guarded pairs and 275 unguarded stem-only lines; its only exact-segment lines, 純粋 «чистый» with きれい, 清い and 清潔, are guarded. A saved rerun at 149b7d7 over 純粋 (b244-postfix-screen.txt; 21 lines) finds the same three guarded exact-segment hits and 18 stem-only leads; a saved rerun at 85a96a2 over 書留 (b244-fix4-screen.txt; 29 lines) finds no exact-segment hit, 4 guarded stem leads (メモ, 筆記, 記録 and 速達) and 25 unguarded stem-only leads. Every RU addition is appended at the end of its list, and no EN entry is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/244-words-batch-83-intake.json",
+  "docs/translation-batches/244-words-batch-83-independent-review-001.md",
+  "docs/translation-batches/244-words-batch-83-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "執",
+   "滴",
+   "盤",
+   "第",
+   "筆",
+   "箒",
+   "算",
+   "粋",
+   "粒",
+   "糊",
+   "系",
+   "純",
+   "素",
+   "紫",
+   "紺",
+   "絞",
+   "統"
+  ],
+  "navigationNote": "Restored 4 relative links in the 4 listed Markdown files at the corresponding EN-linked positions, using EN's href forms (X.md in the word cards): 作者 in word 作家 (line 36, matching EN line 32), 性質 in word 性 (line 35, matching EN line 28), 性質 in word 性格 (line 32, matching EN line 30) and 終点 in word 重点 (line 29, matching EN line 27). Word 作家 mentions 作者 again in plain text at line 51, matching unlinked EN text at line 45; the other files mention their targets only on the linked lines. All four files were copied from the authoring worktree; no link was held from an earlier batch. No surrounding prose was changed, and no navigation file changed after the candidate; navigation totals at 85a96a2 are 4 files and 4 links. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "words/作家.md",
+   "words/性.md",
+   "words/性格.md",
+   "words/重点.md"
+  ],
+  "newWords": [
+   "絞る",
+   "経度",
+   "組み立てる",
+   "終点",
+   "紺",
+   "紫",
+   "性質",
+   "素質",
+   "素直",
+   "素人",
+   "純粋",
+   "おめでたい",
+   "純情",
+   "系統",
+   "糊",
+   "水滴",
+   "粒",
+   "算盤",
+   "算数",
+   "箒",
+   "等分",
+   "書留",
+   "執筆",
+   "筆記",
+   "作者",
+   "筆者",
+   "そのほか",
+   "そのうえ",
+   "第一",
+   "気配"
+  ],
+  "selection": "Batch 83 selected 30 word cards from the frozen source: chunk 36 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,077 remained after Batch 243, and 1,047 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing outside them was added. Nine source exclusion entries lie inside the batch; the other 165 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (11 EN link occurrences, 7 targets) in the new cards: 純粋→kanji 純, 純情→kanji 純, 水滴→kanji 滴, 粒→kanji 粒, 算盤→kanji 算, 算数→kanji 算, 箒→words/掃く and words/ブラシ, and 執筆, 筆記 and 筆者→kanji 筆. EN 作者:39 also links the article occupation-and-role-endings, which RU does not have; RU keeps an unlinked mention of it. 17 written kanji have no RU kanji card: 執 滴 盤 第 筆 箒 算 粋 粒 糊 系 純 素 紫 紺 絞 統 (EN has cards only for 滴, 筆, 算, 粒 and 純). Links otherwise follow EN, with one reviewed RU-only link to an existing card at a substantive comparison where EN has plain text, added by fix 1 (comprehensibility C18): words/そのうえ.md:42 → words/上 («Для физического положения [上](上.md) противопоставлено [下](下.md)（した）.»). All 8 EN links between batch cards are kept.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined, modified or no-action items: the correctness reviewer's optional replacement wording for the removed そのうえ root claim was not used because it \"still leans on a Russian word pair\"; its optional 絞る:19 «В рецепте:» label was declined (\"the cooking context is clear\"), and it kept the label optional at recheck; its 算盤 annotation remark needed no action (partially resolved, \"polish only\"). Consistency's optional EN-inherited format points (算数 tags/URL, 紫 `colors`, kana spacing in 作者/算数) were declined as \"byte-faithful to EN metadata or EN example formatting\", its optional 算数:18 point under comprehensibility C9, and its optional 筆者/私 and 第一/主要 guards for lack of a shared segment or stem; the reviewer accepted these at recheck. Comprehensibility C3 was partial because the quiz hint shows the `type` label (kanji-cards-android `WordQuizScreen.kt:150` filters only wago/kango/gairaigo); C6 was partial because «внимательно слушает» \"would turn よく聞く into attentiveness while listening\"; C17 kept the title and added 余計. C7 (系統 «родословная линия») was declined: a bare «система» \"would be an exact segment of guarded 機関\" and «линия происхождения» \"adds unguarded stem overlaps (出身, 原産, 産地 «происхожд-»)\". C9 (算数:18 «по математике») was declined: \"EN has the same pairing\" and «по арифметике» \"would sound dated\". C19 (筆記 «конспектирование») was declined: «ведение записей» \"suggests record-keeping\". At its recheck the comprehensibility reviewer did not maintain C3, C6, C7, C9, C17 or C19, and maintained only C16, which fix 4 then accepted. The comprehensibility optionals (第一 «Да и вообще», 粒 «лежит», supplied pronouns, «электропоезда», the dropped English-only warnings) needed no change. No follow-up was posted as part of this batch.",
+  "exclusionsAddedBeyondEn": {
+   "そのうえ": [
+    "余計"
+   ],
+   "作者": [
+    "著者"
+   ],
+   "性質": [
+    "性能"
+   ],
+   "書留": [
+    "速達"
+   ],
+   "気配": [
+    "機嫌"
+   ],
+   "等分": [
+    "区分"
+   ],
+   "素直": [
+    "おとなしい"
+   ],
+   "終点": [
+    "停留所"
+   ],
+   "組み立てる": [
+    "集める",
+    "拾う"
+   ]
+  },
+  "titles": {
+   "おめでたい": "радостный (о событии); простоватый",
+   "そのうえ": "сверх того; притом",
+   "そのほか": "прочее; помимо этого; и так далее",
+   "作者": "создатель произведения",
+   "執筆": "написание (книги, статьи); работа над текстом",
+   "性質": "натура; присущие свойства",
+   "書留": "заказное отправление; письменная запись",
+   "気配": "смутный признак; намёк; настроение рынка",
+   "水滴": "капля воды",
+   "第一": "первый по счёту; важнейший; превыше всего",
+   "筆者": "автор текста; пишущий эти строки",
+   "筆記": "записывание; конспектирование",
+   "等分": "деление на равные части",
+   "箒": "метла; веник",
+   "算数": "арифметика; начальная математика",
+   "算盤": "счёты",
+   "粒": "крупинка; бусинка; капля",
+   "糊": "клей; крахмал (для белья)",
+   "系統": "взаимосвязанная система; родословная линия",
+   "純情": "невинность; чистосердечие; наивность",
+   "純粋": "чистый (без примесей); неподдельный",
+   "素人": "любитель; непрофессионал; неспециалист",
+   "素直": "покладистый; искренний",
+   "素質": "задатки; природные качества",
+   "紫": "фиолетовый цвет; лиловый цвет",
+   "紺": "тёмно-синий цвет",
+   "終点": "конечный пункт; конечная остановка",
+   "組み立てる": "собирать из деталей; выстраивать (рассказ, фразу)",
+   "経度": "долгота (географическая)",
+   "絞る": "выжимать; отжимать (ткань); сужать (выбор)"
+  }
+ }
+}

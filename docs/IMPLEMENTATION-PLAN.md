@@ -8,7 +8,28 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch243 thirty words
+## Current published source milestone: batch244 thirty words
+
+Batch244 added 30 Russian word articles. They are chunk 36 of the recomputed general remaining-word queue,
+dependency-closed under quiz_exclusions with nothing added. The batch also restored 4 navigation-only links in 4
+existing word cards: 作家, 性, 性格 and 重点.
+
+The candidate was signed and pushed before review. The blind facet-split review found:
+- no correctness finding, one unverified claim (the そのうえ root claim) and no scoped-coverage finding;
+- five quiz-safety findings (missing guards on 組み立てる, 素直, 終点, 等分 and 気配) and no consistency or cross-file
+  integration finding;
+- nineteen comprehensibility findings.
+
+Four signed fix commits addressed them in 17 new word cards, retitling 純粋 and 書留, rewording examples and prose,
+adding seven guards and adding one reviewed RU-only link; no navigation file changed. The later fixes followed a
+correctness recheck finding on そのうえ, an optional 素質 qualification and the maintained 書留 title finding. The serial
+rechecks reported all facets clean.
+
+Progress: **5,439 reviewed-current / 8 runtime-blocked / 2,831 pending of 8,278**; 3,973 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch244-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch243 thirty words
 
 Batch243 added 30 Russian word articles. They are chunk 35 of the recomputed general remaining-word queue,
 dependency-closed under quiz_exclusions with nothing added. The batch also restored 12 navigation-only links in 10
@@ -27,7 +48,7 @@ reported all facets clean.
 
 Progress: **5,409 reviewed-current / 8 runtime-blocked / 2,861 pending of 8,278**; 3,943 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch243-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch243-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch242 thirty words
 

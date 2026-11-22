@@ -1,6 +1,74 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch243 thirty words (general word queue)
+## Current published source milestone: batch244 thirty words (general word queue)
+
+Batch244 adds 30 Russian word articles: 絞る 経度 組み立てる 終点 紺 紫 性質 素質 素直 素人 純粋 おめでたい 純情 系統
+糊 水滴 粒 算盤 算数 箒 等分 書留 執筆 筆記 作者 筆者 そのほか そのうえ 第一 気配. They are chunk 36 of 72 of the
+general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is exactly
+the 30 requested words, so every EN quiz_exclusions target resolves to an existing RU word or a word in the batch; 9 of
+the 174 EN entries lie inside the batch.
+
+Navigation-only link restorations add 4 links at EN link positions in 4 existing word cards: 作家 (to 作者), 性 and
+性格 (to 性質) and 重点 (to 終点). The new cards keep EN's links to existing cards; their links to the word cards 掃く
+and ブラシ and the kanji cards 純, 滴, 粒, 算 and 筆 stay plain until those targets are adapted, and 作者's link to the
+article on occupation and role endings stays an unlinked mention.
+
+The batch covers:
+- textiles and colour: wring, squeeze or narrow down (絞る), navy or deep blue (紺), purple or violet (紫) and adhesive
+  paste or clothing starch (糊);
+- character and nature: nature or inherent properties (性質), aptitude or innate qualities (素質), obedient or frank
+  (素直), an amateur or layperson (素人), pure, genuine or unmixed (純粋), innocence or pure-heartedness (純情) and
+  auspicious or naive (おめでたい);
+- systems and places: longitude (経度), a system or lineage (系統), a terminus or final stop (終点) and assemble or put
+  together (組み立てる);
+- small things and counting: a water droplet (水滴), a grain, bead or drop (粒), an abacus (算盤), arithmetic or
+  elementary mathematics (算数), division into equal parts (等分) and a broom (箒);
+- writing: registered mail or a written record (書留), writing or authoring (執筆), writing down or taking notes (筆記),
+  the creator of a work (作者) and the writer of a text (筆者);
+- discourse and signs: the rest or besides that (そのほか), moreover or on top of that (そのうえ), first, foremost or above
+  all (第一) and a sign, hint or market tone (気配).
+
+All 174 EN exclusions are retained in EN order. Ten direct guards on 9 new cards cover reviewed RU title overlaps:
+three from authoring, 性質–性能, 書留–速達 and 作者–著者, accepted by the coordinator (the consistency reviewer classed
+作者–著者 as justified and the other two as conservative); the first fix added 組み立てる–集める and 拾う, 素直–おとなしい,
+終点–停留所, 等分–区分, 気配–機嫌 and そのうえ–余計. A 書留–チェック guard added by the first fix was removed by the
+fourth after 書留's title change.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: no finding; the Russian "common root" claim in そのうえ left unverified, and scoped coverage clean;
+- consistency: consistency, links, navigation and cross-file integration clean; five missing quiz guards, one required
+  (組み立てる–集める and 拾う) and four conservative (素直–おとなしい, 終点–停留所, 等分–区分 and 気配–機嫌);
+- comprehensibility: nineteen findings, among them the 純粋 and 書留 titles, example translations in 紺, 純情, 純粋 and
+  素直, prose in 性質, 素質, 素人, 素直, 算盤, 系統, 作者 and 紫, the そのうえ–余計 title overlap and a plain mention of 上; scoped
+  coverage clean.
+
+Four signed fix commits addressed them:
+- the first retitled 純粋 «чистый (без примесей); неподдельный», rewrote example translations in 純粋, 純情, 紺 and 素直,
+  replaced the root claim in そのうえ, reworded or removed prose in 性質, 素人, 素直, 算盤, 素質, 系統, 作者 and 紫, added
+  eight guards (the seven above and 書留–チェック) and one reviewed RU-only link, そのうえ→上;
+- the second narrowed the new そのうえ contrast, which the correctness recheck found overgeneralized;
+- the third restored EN's qualified "not freely interchangeable" in 素質;
+- the fourth retitled 書留 «заказное отправление; письменная запись», after the comprehensibility recheck maintained
+  that finding at low severity, and removed the 書留–チェック guard;
+- the 系統, 算数 and 筆記 titles or wording were kept, with reasons recorded and accepted at recheck.
+
+The serial rechecks, in three rounds, reported correctness, scoped coverage, consistency, quiz safety and cross-file
+integration clean, and comprehensibility clean after the fourth fix. The new 書留 segment «запись» overlaps 記録, a pair
+already guarded by 書留's EN exclusion.
+
+Links follow EN, with one reviewed RU-only link at a substantive comparison: そのうえ→上.
+
+Qualified progress is **5,439 reviewed-current / 8 reviewed runtime-blocked / 2,831 pending of 8,278**,
+with 3,973 words, 718 kanji and 718 strokes. See the [intake](translation-batches/244-words-batch-83-intake.json),
+[independent review](translation-batches/244-words-batch-83-independent-review-001.md),
+[recheck](translation-batches/244-words-batch-83-recheck-001.md),
+[qualified source record](translation-batches/244-words-batch-83-reviewed-source.json) and
+[final validation](translation-batches/244-words-batch-83-final-validation-001.json).
+
+## Previous published source milestone: batch243 thirty words (general word queue)
 
 Batch243 adds 30 Russian word articles: 群れ 美容 羊毛 缶詰 接続 繋げる 繋がる 繋がり 縫う 縛る 緯度 のろい 下降 傾く 斜め
 なだらか 緩い 編む 編集 編物 線路 総理大臣 続々 くれぐれも 再三 始終 絶えず 絵の具 統計 絨毯. They are chunk 35 of
