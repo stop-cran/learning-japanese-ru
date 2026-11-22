@@ -1,0 +1,144 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "242-words-batch-81",
+ "publishedBaseline": "10e6ae41abadd21c4181bacc8286807ea8e7ce2a",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 8cada6d and serialized rechecks of the signed fix commits 872649e, 66e49ae and 5e64cd7 found no remaining defect. Before the candidate the coordinator made no content edit; the 34 lane files were copied unchanged from the authoring worktree. The coordinator's candidate script applied the link held from Batch 241, words/広める.md:35 → 広げる, after that batch's publication. The adjudication records: \"Titles compared with EN one by one (`b242_cmp.py`). Every EN `quiz_exclusions` entry is retained in EN order; RU additions are appended.\" It records 7 RU-added exclusions on 6 cards: required 能率→効果 («эффект»/«эффективность»); conservative 活躍→役割/役 («роль»), 育児→育てる («воспит»), 肯定→主張 («утвержд»), 職人→名人 («мастер») and 習字→清書 («чисто-»); \"Accepted as harmless direct pairs, consistent with earlier batches.\" It records that `navonly.py` reports 4 files, 6 links added, 0 problems on the lane, and 5 files, 7 links, 0 problems at the candidate with the held link; that `link_parity.py` found \"only kanji/生.md EXTRA 牛. That RU-only similar-sign link is already published (8ef0597, identical on origin/main), so it is not a B242 change. No LOST.\"; that the restored navigation links keep pre-existing published prose (\"only the bracket and href are added\"), with the published glosses (児 «уход за ребёнком; воспитание», 生 «живо, энергично; с живостью») differing slightly from the new titles, \"as EN also differs from its own titles\"; that the lane title screen found 3 segment hits, all おかけください «присаживайтесь, пожалуйста» against ください, どうぞ and 頂戴 on «пожалуйста», which \"arise only because the screen splits on commas; under the app/title «;» convention the whole title is one segment and «присаживайтесь» decides it\", with EN guarding none of these pairs (\"Open question 1 decided: no guard.\"); that the remaining stem-only lines were reviewed with the author's declined-pairs list (spot checks 習字–ぴかぴか/澄む «чисто» and 耕す–薄める «возде», both declined); that 学力 keeps «уровень знаний; учебная подготовка» (\"Open question 2 decided\"; Kuznetsov (БТС, gramota.ru) «подготовка» sense 2: «Определённый запас каких-л. знаний, приобретённых в процессе обучения, занятий», avoiding «способности», which would collide with 知能 «умственные способности»); that «чистописание» (習字) and «усаживаться» (腰掛ける) were dictionary-checked by the coordinator and «раздольный» and «ремесленник» by the author; that the author's deviations were accepted (Russian sense notes replacing the English \"scholarship\"/\"science\" notes in 学力 and 学術, \"cultivate\" in 耕す and \"I envy\"/\"jealous\" in 羨ましい; 職人's RU-only note on the pejorative figurative «ремесленник»; 能率 «выработка», avoiding 生産 «производ-»; 実績 «послужной список», avoiding 経験 «опыт»; 敷く's Weblio footer and «развернуть сеть охраны»); and that «раздольный» (広々), «утвердительное суждение» (肯定), «предмет для сидения» (腰掛け), «силовое воздействие» (実力), «необъятный» (膨大), «закреплять за собой» (押さえる) and the conservative guards were left to the blind review. Its candidate-time checks on the published Batch 241 tree (main 10e6ae4) record that the held link landed on words/広める.md line 35 (\"the «:36» above was the lane-time estimate; EN line 36\"); manifest 5,379 files; validate 0 errors; unit tests, budget, `git diff --check` and the byte scan clean; link parity over the 35 paths with only the adjudicated kanji/生.md EXTRA 牛; navigation-only check 5 files, 7 links, 0 problems; and a rerun title screen (b242-cand-screen.txt; 35 OK lines for guarded pairs and 248 stem-only lines) with exactly the 3 adjudicated おかけください «пожалуйста» segment hits. 広げる «раскладывать; делать шире; разворачивать» has no segment or stem hit against the Batch 241 fixed title 広める «распространять; расширять», and 広げる already excludes 広める. No B242 path quotes a title retitled by the Batch 241 fix 9cf1600 or the Batch 240 fix 3544d75; the only mentions are quiz_exclusions entries and the 広げる:39 contrast, which agrees with the new 広める title. Correctness raised three findings. F1 (P2): 耕す:43–44 claimed «Русское «возделывать» может употребляться и переносно, например о развитии способностей.», transferring the English \"cultivate\" polysemy to a Russian verb whose inspected standard dictionary senses are agricultural (Kuznetsov ВОЗДЕЛАТЬ senses 1–2; Ozhegov/Shvedova); accepted with reworded remedy, the passage now reads «Не считайте, что любое переносное «взращивание» — способностей или отношений — можно передать через 耕す.» F2 (P2, high confidence): 功績:44–45 «功績 не имеет отношения к передаче денег.» categorically excluded any connection with giving money, whereas EN only excludes treating 功績 as a generic instruction to donate (JMdict 1275070 sense 1; a 1920 Cabinet record recognizing meritorious donations); the sentence now ends «功績 называет заслугу или ценимый результат, а не само действие передачи денег.» F3 (P3, evidence contract): 職人's RU-only note on the Russian connotation of «ремесленник» cited only JMdict and Daijisen; 職人:51 now cites ru.wiktionary «ремесленник», sense 2 (перен., неодобр.). Its optional 背負う:21 suggestion (livelihood/support rather than «взвалил на себя») established no defect; the example was nevertheless rewritten under comprehensibility C11. It recorded the pinned \"rare/search-only\" labels for 布く/藉く (敷く:35) and 展げる (広げる:31–32) as UNVERIFIED (raw JMdict annotations unavailable), not as defects; correctness was otherwise CLEAN and scoped coverage CLEAN. Consistency raised no actionable finding (consistency, navigation-only restorations, quiz safety and cross-file integration CLEAN); it classed 能率→効果 as required, 活躍→役/役割 as required given the current RU title, 育児→育てる, 肯定→主張 and 職人→名人 as conservative and 習字→清書 as conservative leaning unjustified (\"Harmless over-guard; may stay or go (nonblocking)\"), and agreed with every pair the author declined. Its optional notes were P1 (活躍 «заметная роль» narrower than EN; \"I do not ask for a change\"), O1 (広める:35 mentions 広げる before its title senses, \"Same as EN\"), O2 (脱線's 戻る plain, as in EN) and O3 (職人's RU-only paragraph, \"accurate and helpful\"). Comprehensibility raised nineteen findings (comprehensibility NEEDS FIX; scoped coverage CLEAN). C1: 広々 «раздольный; дающий ощущение простора» did not fit a room and read as a definition; accepted in modified form, the title and H1 now read «просторно; раздольно», line 22 «В этом парке просторно.» and line 47 «не просторно». C2: 膨大 «необъятный» and «в переводе» at :36; partially accepted, the title is kept and :36–37 now read «Русские слова вроде «обширный» могут подойти к обоим, но японские слова не взаимозаменяемы без ограничений.» C3: おかけください's comma; withdrawn by the coordinator (standard formula; title segments split on «;»). C4: 学力:31 and 学術:31 «учёность»; accepted, both now explain that 奨学金 names the money for a student. C5: 羨ましい:22 «завидная история» and the partner sentence; partially accepted, the example now reads «Этому действительно можно позавидовать.» and the partner sentence stays. C6: 耕す's N2-coverage paragraph and test-guard note; partially accepted, the N2-coverage paragraph is deleted and the test-guard ids stay. C7: 肘's «метаданные» remark; withdrawn and deferred to the corpus-wide «метаданные» follow-up. C8: 職人 «мастер ручного труда» and «Он ремесленник по коже»; accepted in modified form, the title and H1 now read «ремесленник; мастер ремесла» and line 20 «Он мастер по изделиям из кожи.» C9 (腰掛け) and C10 (腰掛ける) titles; withdrawn. C11: 背負う:21 dropped ている; accepted in modified form, the example now reads «Он несёт на своих плечах заботу о жизни семьи.» C12: 実績 «послужной список»; partially accepted, the title is kept and lines 17–18 now read «результаты в работе, бизнесе или другой деятельности, в том числе послужной список человека». C13 (活躍), C14 (膨らます), C15 (能率) and C16 (押さえる) were withdrawn. C17: 生き生き «с живостью»; accepted in modified form, the title and H1 now read «полный жизни; оживлённо; ярко», the examples «Дети оживлённо играют.» and «Этот роман ярко описывает мой родной край.», and the navigation-only gloss at kanji/生.md:47 changed from «живо, энергично; с живостью» to «живо; ярко; энергично» (EN 46 \"lively; vividly; energetically\"), with its link, target and line unchanged. C18: 膨らむ «увеличиваться в объёме» did not cover 期待が膨らむ; accepted, the title and H1 now read «надуваться; нарастать». C19: 実力 «силовое воздействие» and :37's rejection of a gloss the card never shows; accepted in modified form, the title and H1 now read «реальные способности; применение силы» and fix 1 deleted the «эффективность» sentence at :37 and rewrote the 腕 contrast («Во втором значении речь о принуждении, в том числе вооружённом, а не о руках или мастерстве — их называет [腕](腕.md).»). Fix 2 (66e49ae) added the one-sided exclusion 生き生き→明るい: the new «ярко» and «полный жизни» overlap 明るい «светлый; яркий; жизнерадостный» in meaning. The correctness recheck of 66e49ae raised R1 (P3, scoped coverage): fix 1's deletion lost EN 実力:39's boundary that the \"efficiency\" gloss belongs to the competence sense, not to a universal measure of process efficiency (JMdict 1321530 sense 1; Daijisen senses 1–2). Fix 3 (5e64cd7) restored it at 実力:37 with the source named: «Перевод efficiency («эффективность») в англоязычном словаре JMdict относится к значению компетентности и не делает 実力 универсальным обозначением эффективности процесса.» The reviewer's wording is kept for the boundary; the source clause is the coordinator's. Rechecks ran serially and read-only, with no generator run. Correctness rechecked fixes 1–2 together (diff 8cada6d..66e49ae: 13 word cards, kanji/生.md:47 and manifest.json), raised R1, and then rechecked fix 3 alone (66e49ae..5e64cd7: words/実力.md:37 and manifest.json). Consistency and comprehensibility each rechecked the full diff 8cada6d..5e64cd7 once.\nCorrectness (gpt-6.1-sol), recheck of 66e49ae: F1 (耕す: the hedged figurative-cultivation warning no longer claims a Russian sense of «возделывать» and keeps EN's \"not every use\" boundary), F2 (功績: merit/result distinguished from the act of donating without excluding meritorious donations) and F3 (職人:51 now cites ru.wiktionary «ремесленник» sense 2, re-read and confirmed) resolved. The optional 背負う:21 point is partially addressed. Every other rewrite was judged at least as accurate as before (広々, 膨大, 学力/学術, 羨ましい, the deleted 耕す N2 paragraph, 職人, 実績, 生き生き with kanji/生.md:47, 膨らむ, 実力). It raised R1 (scoped coverage, 実力:37): fix 1 had dropped EN:39's boundary that the \"efficiency\" gloss belongs to the competence sense, not to the efficiency of a process (evidence: JMdict 1321530 sense 1 via jisho.org; Daijisen senses 1–2 via weblio). It rated confidence high and learning impact limited; correctness stayed CLEAN for the rechecked changes, but scoped coverage was NEEDS FIX.\nCorrectness, recheck of 5e64cd7: R1 resolved. The restored sentence preserves the boundary, and its source clause (JMdict 1321530 sense 1 lists \"efficiency\" with actual ability/competency) is accurate; no regression. Final verdicts: correctness CLEAN, scoped coverage CLEAN; F1–F3 remain resolved and 背負う remains optional. Its stated limits: the inherited 布く/藉く and 展げる spelling labels remain UNVERIFIED; no expanded quiz or native-speaker audit; validator not rerun for the one-sentence fix.\nConsistency (claude-sonnet-5.5), recheck of 5e64cd7: title = H1 for 広々, 職人, 生き生き, 膨らむ and 実力; validate.py 0 errors; an in-memory manifest rebuild equals the committed manifest.json; the old titles are absent from words/kanji/articles/grammar/counters, except «силовое воздействие», which survives only as the body gloss of 実力行使 at 実力:23 (intentional). The fix-2 exclusion 生き生き→明るい is well formed and justified (明るい «светлый; яркий; жизнерадостный» overlaps «ярко» and «полный жизни»). Stem near-hits are guarded (広々–広い, 職人–名人, 生き生き–ぴんぴん/活気/賑やか/明るい, 膨らむ–膨らます, 実力–能力) or need no guard (陽気, 真っ赤, 神様, 工場, 用/適用/体力/軍隊/武器). kanji/生.md:47 «живо; ярко; энергично» matches the new title. Optionals: P1 (活躍) and O2 (脱線/戻る plain text) withdrawn, O1 (広める:35) optional and unchanged, O3 (職人 RU-only paragraph) resolved. Verdicts: consistency, navigation restorations, quiz safety and cross-file integration all CLEAN. Its stated limits: the semantic screen is a judgment, not exhaustive; JMdict not consulted online; the B246 draft-lane title scan was cut short (UNVERIFIED); the B243–B245 lane hits were only those lanes' pre-fix copies of B242 cards.\nComprehensibility (grok-4.7), recheck of 5e64cd7: C4, C6, C8, C11 and C17–C19 resolved (C19 including fix 3: «применение силы» stands and :37 now shows «эффективность» limited to competence); C1, C5 and C12 partial and not reopened; C2, C3, C7, C9–C10 and C13–C16 withdrawn. The correctness edits (功績:45, 職人, 耕す) add no regression. Verdicts: comprehensibility CLEAN, scoped coverage CLEAN; its optional notes are unchanged and non-blocking. Its stated limits: 布く/藉く not re-audited; title screen not re-run; model not verifiable by the reviewer itself.\nNo actionable finding remains; no fourth fix is needed. No fix changed a Japanese example sentence, sourced reading, link, kanji card front matter or EN exclusion; fix 1 changed one navigation-file gloss line (kanji/生.md:47, above), fix 2 added one RU exclusion and fix 3 one sentence. All three reviewers read all 30 cards in full against their EN originals; the correctness reviewer also inspected the five navigation changes, and the consistency reviewer read the five navigation diffs, checked the intake's path list, rebuilt the manifest in memory (equal to the committed file) and ran `tools/validate.py` (0 errors) at the candidate and at the recheck, removing the untracked Python bytecode cache. The correctness reviewer ran `tools/validate.py` (0 errors) at the candidate and at the 66e49ae recheck and did not rerun it for the one-sentence fix 3; the comprehensibility reviewer ran no validator. No reviewer ran a generator. Evidence includes the actual Jisho/JMdict entries for all 30 cards, the pinned N2 source list, Digital Daijisen via kotobank and weblio, Kuznetsov via gramota.ru, Ozhegov/Shvedova and ru.wiktionary; the consistency reviewer did not consult JMdict online. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 165 EN exclusions across 27 lists are retained in EN order (EN has no list on 育児, 肘 or 羨む). Nineteen lie inside the batch: 敷く–押さえる, 広げる–敷く, 膨らむ–広げる, 膨らます–膨らむ and 広げる, 膨大–膨らむ, 膨らます and 広々, 腰掛ける–おかけください, 学力–学術, 学術–学力, 実力–学力, 活躍–生き生き, 功績–活躍, 実績–功績, 性能–実力 and 実績, 能率–性能, and 羨ましい–羨む; the other 146 target existing RU cards. Eight direct, one-sided exclusions on seven new cards cover reviewed RU title overlaps, all appended at the end of their lists. Seven were present at the candidate, from the authoring lane as adjudicated by the coordinator: required 能率–効果 (効果 «эффект; действенность»); conservative 活躍–役割 and 役 (役割 «роль; круг обязанностей», 役 «роль; обязанность»), 育児–育てる (育てる «растить; воспитывать»), 肯定–主張 (主張 «утверждение; настаивание на своём»), 職人–名人 (名人 «мастер своего дела») and 習字–清書 (清書 «чистовик; переписывание начисто»). The consistency reviewer classed 能率–効果 as required, 活躍–役/役割 as required given the current RU title, 育児–育てる, 肯定–主張 and 職人–名人 as conservative and 習字–清書 as conservative leaning unjustified (\"Harmless over-guard; may stay or go (nonblocking)\"; \"Over-guarding is limited to that one entry.\"); the coordinator kept it (\"one-sided declarations are harmless and the pair would otherwise be judged only by stem\"). Fix 2 added one, 生き生き–明るい (明るい «светлый; яркий; жизнерадостный»), and removed none; fixes 1 and 3 changed no exclusion. おかけください «присаживайтесь, пожалуйста» shares the comma-separated segment «пожалуйста» with ください, どうぞ and 頂戴; the coordinator decided no guard because title segments split on «;», so the whole title is one segment, and EN guards none of these pairs; the consistency reviewer agreed (\"no guard needed. 座る (EN guard) is the real confusable and it is guarded\"). Before fix 2 the coordinator screened the five retitled words (広々, 職人, 生き生き, 膨らむ, 実力) for exact segments and stem leads and found no exact-segment hit. A saved rerun at 66e49ae against the RU primary (b242-postfix-screen.txt; 59 lines) finds no exact-segment hit, 7 already guarded stem leads (広々–広い, 職人–名人, 生き生き–ぴんぴん, 活気 and 賑やか, 膨らむ–膨らます, 実力–能力) and 52 unguarded stem-only leads, left to the consistency recheck. That recheck judged the near-hits guarded (adding 生き生き–明るい) or needing no guard (陽気, 真っ赤, 神様, 工場, 用/適用/体力/軍隊/武器) and found the old titles absent except «силовое воздействие» as the intentional body gloss of 実力行使 at 実力:23. Every RU addition is appended at the end of its list, and no EN entry is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/242-words-batch-81-intake.json",
+  "docs/translation-batches/242-words-batch-81-independent-review-001.md",
+  "docs/translation-batches/242-words-batch-81-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "功",
+   "敷",
+   "率",
+   "線",
+   "績",
+   "羨",
+   "耕",
+   "肌",
+   "肘",
+   "肯",
+   "脱",
+   "腰",
+   "膨",
+   "躍"
+  ],
+  "navigationNote": "Restored 7 relative links in the 5 listed Markdown files at the corresponding EN-linked positions, using EN's href forms (../words/X.md in the kanji cards, X.md in the word cards): 育児 in kanji 児 (lines 20 and 42, matching EN lines 20 and 42; the second in the word list), 生き生き in kanji 生 (line 47, matching EN line 46, in the word list), 能率 in word 要領 (line 36, matching EN line 38), 膨らます and 膨らむ in word 風船 (line 21, matching EN lines 21–22, which RU reflows to one line) and 広げる in word 広める (line 35, matching EN line 36). The 広める file mentions 広げる again in plain text at line 37, as EN does at line 38; the other files mention their targets only on the linked lines. The 広める → 広げる link was held from Batch 241 and applied by the coordinator's candidate script after that publication; the other four files were copied from the authoring worktree. No surrounding prose was changed at the candidate. Fix 1 (comprehensibility C17) changed the prose gloss after the kanji/生.md:47 link from «живо, энергично; с живостью» to «живо; ярко; энергично», aligning it with the new 生き生き title and EN's three glosses; the link, its target and its line are unchanged, and no other navigation file changed after the candidate. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/児.md",
+   "kanji/生.md",
+   "words/広める.md",
+   "words/要領.md",
+   "words/風船.md"
+  ],
+  "newWords": [
+   "押さえる",
+   "敷く",
+   "広げる",
+   "膨らむ",
+   "膨らます",
+   "広々",
+   "膨大",
+   "おかけください",
+   "腰掛ける",
+   "腰掛け",
+   "脱線",
+   "学力",
+   "学術",
+   "実力",
+   "生き生き",
+   "活躍",
+   "功績",
+   "実績",
+   "性能",
+   "能率",
+   "背負う",
+   "育児",
+   "肯定",
+   "肘",
+   "肌着",
+   "職人",
+   "耕す",
+   "習字",
+   "羨む",
+   "羨ましい"
+  ],
+  "selection": "Batch 81 selected 30 word cards from the frozen source: chunk 34 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 1,137 remained after Batch 241, and 1,107 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing outside them was added. 学術 enters the closure through 学力 and is itself in the requested set. Nineteen source exclusion entries lie inside the batch; the other 146 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (16 EN link occurrences, 13 targets) in the new cards: 敷く→words/敷地, 腰掛ける→kanji 腰, 腰掛け→kanji 腰, 脱線→kanji 線, 活躍→words/活力, 功績→kanji 績, 実績→kanji 績, 育児→words/児童, 肯定→kanji 肯, 肘→words/手首, 肌着→kanji 肌, 職人→words/工員, 耕す→kanji 耕, 羨む→words/憎む and words/恨む, and 羨ましい→words/恨む. 14 written kanji have no RU kanji card: 功 敷 率 線 績 羨 耕 肌 肘 肯 脱 腰 膨 躍 (EN has cards only for 線, 績, 耕, 肌, 肯 and 腰). Links otherwise follow EN; there is no RU-only link. No fix added, removed or retargeted a link (the 職人:51 Wiktionary URL is an external citation).",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined, modified or no-action items: the correctness optional on 背負う:21 established no defect; fix 1 rewrote that example under comprehensibility C11, and the correctness recheck kept the point OPTIONAL, partially addressed (\"livelihood/support could still be explicit\"). The UNVERIFIED 布く/藉く and 展げる labels are inherited from EN wording and unchanged. Consistency F1's classification needed no change (習字–清書 kept); P1 (活躍) was held for comprehensibility and withdrawn as a consistency matter at recheck; O1 (広める:35, \"EN is identical and 広げる's body covers the sense\") needed no change and stays optional; O2 (脱線/戻る plain text, as in EN) needed no change and was withdrawn at recheck; O3 (職人's RU-only paragraph) was kept, cited per correctness F3, and resolved at recheck. Comprehensibility C1, C8, C11, C17 and C19 were accepted in modified form and C2, C5, C6 and C12 partially. C2 keeps the title «необъятный»: the dispositions reasoned that «необъятный» renders \"vast\" and that the proposed «непомерный» is an exact title segment of another card, naming 極端; at recheck the reviewer withdrew the title point, agreeing that the collision is real but noting that «непомерный» is a segment of 甚だしい «крайний (о степени); непомерный», not of 極端. C5 keeps the partner sentence (EN teaches it, and «ревновать» also has an envy sense, «ревновать к чужим успехам»); the reviewer withdrew that point. C6 keeps the test-guard ids at 耕す:49 (house convention), accepted at recheck as a footer convention. C12 keeps 実績's title (a person's track record is a real sense). C1 keeps «раздольно» beside «просторно»; the reviewer did not accept that it fits a room but required no further edit. C3 (おかけください), C9 (腰掛け), C10 (腰掛ける), C13 (活躍 «заметная роль», guarded by 役割/役), C14 (膨らます «раздувать»), C15 (能率 «выработка», output per unit of time) and C16 (押さえる:48, EN-faithful cross-reference) were withdrawn by the coordinator with reasons and withdrawn by the reviewer at recheck. C7 (肘's «метаданные» remark) was withdrawn and deferred to the corpus-wide «метаданные» follow-up (EN-faithful; about 110 published RU cards use it). The comprehensibility optionals (肯定 «утвердительное суждение», 膨らます:49, Мы/свой, 広げる segments, 育児 «уход», 習字 vs 書道, 功績 «вклад») needed no change and remain non-blocking. Follow-ups recorded in the dispositions: the contributor-provenance N2-coverage paragraph that EN also carries in 竹, and the deferred corpus-wide «метаданные» decision; no follow-up was posted as part of this batch.",
+  "exclusionsAddedBeyondEn": {
+   "活躍": [
+    "役割",
+    "役"
+   ],
+   "生き生き": [
+    "明るい"
+   ],
+   "習字": [
+    "清書"
+   ],
+   "職人": [
+    "名人"
+   ],
+   "肯定": [
+    "主張"
+   ],
+   "育児": [
+    "育てる"
+   ],
+   "能率": [
+    "効果"
+   ]
+  },
+  "titles": {
+   "おかけください": "присаживайтесь, пожалуйста",
+   "功績": "заслуга; достижение",
+   "学力": "уровень знаний; учебная подготовка",
+   "学術": "научная деятельность; академические исследования",
+   "実力": "реальные способности; применение силы",
+   "実績": "фактические результаты; послужной список",
+   "広々": "просторно; раздольно",
+   "広げる": "раскладывать; делать шире; разворачивать",
+   "性能": "рабочие характеристики; технические возможности",
+   "押さえる": "придерживать; закреплять за собой; уяснять (суть)",
+   "敷く": "расстилать; подстилать",
+   "活躍": "успешная деятельность; заметная роль",
+   "生き生き": "полный жизни; оживлённо; ярко",
+   "羨ましい": "завидный; завидно (кому-либо)",
+   "羨む": "завидовать",
+   "習字": "чистописание; каллиграфия",
+   "耕す": "пахать; возделывать (землю)",
+   "職人": "ремесленник; мастер ремесла",
+   "肌着": "нательное бельё",
+   "肘": "локоть",
+   "肯定": "признание верным; утвердительное суждение",
+   "育児": "уход за ребёнком; воспитание детей",
+   "背負う": "нести на спине; взваливать на себя",
+   "能率": "эффективность (работы); выработка",
+   "脱線": "сход с рельсов; отступление от темы",
+   "腰掛け": "предмет для сидения; скамья",
+   "腰掛ける": "присаживаться; усаживаться",
+   "膨らます": "надувать; раздувать",
+   "膨らむ": "надуваться; нарастать",
+   "膨大": "необъятный; обширный (по объёму, количеству)"
+  }
+ }
+}

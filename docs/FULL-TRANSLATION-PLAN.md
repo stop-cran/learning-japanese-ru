@@ -1,6 +1,73 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch241 thirty words (general word queue)
+## Current published source milestone: batch242 thirty words (general word queue)
+
+Batch242 adds 30 Russian word articles: 押さえる 敷く 広げる 膨らむ 膨らます 広々 膨大 おかけください 腰掛ける 腰掛け 脱線
+学力 学術 実力 生き生き 活躍 功績 実績 性能 能率 背負う 育児 肯定 肘 肌着 職人 耕す 習字 羨む 羨ましい. They are chunk 34 of
+72 of the general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure
+is exactly the 30 requested words, so every EN quiz_exclusions target resolves to an existing RU word or a word in the
+batch; 19 of the 165 EN entries lie inside the batch.
+
+Navigation-only link restorations add 7 links at EN link positions in 5 existing pages: the kanji cards 児 (to 育児,
+twice) and 生 (to 生き生き) and the word cards 要領 (to 能率), 風船 (to 膨らます and 膨らむ) and 広める (to 広げる, held
+from Batch241). The new cards keep EN's links to existing cards; their links to the word cards 敷地, 活力, 児童, 手首,
+工員, 憎む and 恨む and the kanji cards 腰, 線, 績, 肯, 肌 and 耕 stay plain until those targets are adapted.
+
+The batch covers:
+- spreading and size: lay out or spread underneath (敷く), spread out, widen or unfold (広げる), swell or expand (膨らむ),
+  inflate (膨らます), spacious (広々) and huge or vast (膨大);
+- holding: hold down, secure or grasp (押さえる);
+- sitting: please have a seat (おかけください), sit down (腰掛ける) and a seat or bench (腰掛け);
+- digression: derailment or digression (脱線);
+- study, ability and achievement: academic ability (学力), scholarship or academic pursuits (学術), real ability or force
+  (実力), lively or vividly (生き生き), energetic activity or active contribution (活躍), achievement or meritorious
+  contribution (功績), actual results or track record (実績), performance or capability (性能) and efficiency or work rate
+  (能率);
+- body, care and clothing: carry on one's back or bear a burden (背負う), childcare (育児), the elbow (肘) and
+  next-to-skin underclothes (肌着);
+- craft and work: a craftsperson or artisan (職人), till or plough (耕す) and penmanship or calligraphy (習字);
+- attitudes: affirmation (肯定), envy (羨む) and envious or enviable (羨ましい).
+
+All 165 EN exclusions are retained in EN order. Eight direct guards on 7 new cards cover reviewed RU title overlaps:
+能率–効果 is required for a shared stem; 活躍–役割 and 役, 育児–育てる, 肯定–主張, 職人–名人 and 習字–清書 are conservative
+and harmless (the consistency reviewer classed 能率–効果 and, given the RU title, 活躍–役割/役 as required, 習字–清書 as
+conservative leaning unjustified and the others as conservative); the second fix added 生き生き–明るい after a retitle.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: three findings, the figurative «возделывать» claim in 耕す, the categorical money exclusion in 功績 and a
+  missing Russian citation in 職人; scoped coverage clean;
+- consistency: no findings, and optional notes on 活躍's narrower title, 広める's early mention of 広げる, 脱線's plain
+  戻る and 職人's RU-only paragraph;
+- comprehensibility: nineteen findings, among them the 広々, 職人, 生き生き, 膨らむ, 実力 and 実績 titles, example
+  translations in 広々, 羨ましい, 職人, 背負う and 生き生き, and prose in 耕す, 膨大, 学力, 学術 and 実力.
+
+Three signed fix commits addressed them:
+- five titles changed: 広々 «просторно; раздольно», 職人 «ремесленник; мастер ремесла», 生き生き «полный жизни;
+  оживлённо; ярко», 膨らむ «надуваться; нарастать» and 実力 «реальные способности; применение силы»;
+- example translations were rewritten in 広々, 生き生き, 羨ましい, 職人 and 背負う, prose was reworded in 耕す, 功績, 職人,
+  広々, 膨大, 学力, 学術, 実績 and 実力, and the gloss after the 生き生き link in the kanji card 生 was aligned;
+- the second fix added the guard 生き生き–明るい, and the third restored 実力's boundary between competence and process
+  efficiency after the correctness recheck found it lost;
+- no link was added or removed, several suggested wordings were adapted rather than adopted, and the other
+  comprehensibility findings were partially adopted or withdrawn with reasons.
+
+The serial rechecks reported correctness, consistency, quiz safety, comprehensibility and scoped coverage clean, with no
+regression; the declined points were withdrawn or left optional. A corpus-wide decision on card-metadata sentences stays
+on the follow-up list.
+
+Links follow EN; the new cards have no RU-only link.
+
+Qualified progress is **5,379 reviewed-current / 8 reviewed runtime-blocked / 2,891 pending of 8,278**,
+with 3,913 words, 718 kanji and 718 strokes. See the [intake](translation-batches/242-words-batch-81-intake.json),
+[independent review](translation-batches/242-words-batch-81-independent-review-001.md),
+[recheck](translation-batches/242-words-batch-81-recheck-001.md),
+[qualified source record](translation-batches/242-words-batch-81-reviewed-source.json) and
+[final validation](translation-batches/242-words-batch-81-final-validation-001.json).
+
+## Previous published source milestone: batch241 thirty words (general word queue)
 
 Batch241 adds 30 Russian word articles: いきなり あわただしい さっさと 至急 自衛 稽古 自習 自然科学 自治 格別 特殊 でたらめ
 甚だしい 傑作 ばからしい うんと 大層 なんとも めちゃくちゃ やたら 一段 着替え 予備 いよいよ 余計 臨時 臍 展開 宣伝 広める. They
