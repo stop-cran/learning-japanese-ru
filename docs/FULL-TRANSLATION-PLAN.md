@@ -1,6 +1,54 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch252 thirty words (general word queue)
+## Current published source milestone: batch253 thirty words (general word queue)
+
+Batch253 adds 30 Russian word articles from frozen EN `6af98cb`. This is chunk 45 of the 72-batch
+remaining-word queue: 807 words remained after B252 and 777 remain after B253. The planner first reached
+溶く through 溶かす's exclusion, but 溶く was also requested: the final closure is exactly the 30 requested words.
+
+| Topic | New words and distinctions |
+| --- | --- |
+| Theatre, work and relationships | 演劇: dramatic art or a production, not the building; 漁師: a fisherman; 付き合う: associate with someone, keep someone company or date. |
+| Water and heat | 滝: waterfall; 溶岩: lava; 湧く: water wells up or an idea arises; 温泉: a hot spring or hot-spring resort; 水蒸気: water vapour, contrasted with 湯気, the steam seen rising from something hot. |
+| Climate and moisture | 温帯: temperate zone; 温室: greenhouse; 湿る: become damp or lose vigour; 渇く: be thirsty or crave something. |
+| Mixing | 混合: mixing or a mixture; 混ぜる: mix or stir something; 混じる and 混ざる: be mixed in or mingle, with 混ざる also used for joining in. |
+| Dissolving | 溶かす: melt or dissolve something; 溶く: mix into liquid or beat eggs; 溶け込む: dissolve into something or blend into a group or surroundings. |
+| Scores, sales and capacity | 満点: full marks or a perfect result; 売り切れる: sell out; 売り切れ: sold out or out of stock; 満員: full to capacity. |
+| Measurement and cleaning | 測量: surveying or measurement; 測定: measuring; クリーニング: cleaning or laundry service; 清掃: cleaning, including indoors and outdoors. |
+| Time and change | 深夜: late at night; 深まる: deepen or intensify, of a season as well as a relationship or feeling. |
+
+The candidate restored one EN-position link on each of nine existing cards: 乾 and 乾く → 渇く; 劇 and 芝居 → 演劇;
+帯 and 熱帯 → 温帯; 泉 → 温泉; 濡らす → 湿る; 零点 → 満点. The fix also aligned the linked gloss in `kanji/劇.md`
+with the new 演劇 title. The 30 word cards retain all 19 in-batch link occurrences. They leave 23 EN links plain
+where 14 RU targets do not exist: the kanji 岩 掃 泉 混 清 温 測 湯 湿 溶 漁 蒸 量 and the word 噴火.
+渇, 湧 and 滝 have no kanji card in either edition. No EN article href was omitted; no RU-only link was added.
+
+All 150 EN exclusions in 26 lists are retained in order; 25 entries point within the batch. At both candidate
+and fix, 14 directed RU additions follow the EN lists on ten cards. The fix changes no exclusion. Its four
+exact title-segment overlaps are already guarded: 測定→測量, 深まる→増す, 清掃→掃除 and 混ざる→加わる.
+The screen tests strings, not which Russian senses a learner could reasonably choose.
+
+The original reviewers worked serially on correctness/coverage, consistency/quiz safety and comprehensibility/coverage.
+The first review found a transitivity error in the 沸く comparison and a missing late-night qualification in 深夜.
+The consistency review passed with conservative guards and non-blocking notes; the comprehension review raised
+13 findings. One signed fix retitled eight words and revised examples and notes across 14 new cards, plus the 劇
+gloss. It removed a warning in 測量 that depended on English *survey* and a reference to an unseen heading in 湯気;
+the Japanese measurement distinction and the reading ゆげ remain.
+
+The same reviewers rechecked the fix in the same order. Correctness and scoped coverage were CLEAN on the changed
+material. Consistency was CLEAN and quiz safety CLEAN for the new overlaps; that reviewer examined diff context,
+not 14 complete cards, and did not verify dictionary necessity of the 14 RU-only guards. Comprehensibility was CLEAN:
+C4 was withdrawn, C8 partially resolved (the list hedge in 湧く remains, not reopened), and the other findings
+resolved. No new actionable item or second fix. These are source-content findings, not app or release clearance.
+
+Qualified progress: **5,709 reviewed-current / 8 reviewed runtime-blocked / 2,561 pending of 8,278**;
+4,243 words, 718 kanji and 718 strokes. The manifest's 5,709 entries comprise 5,704 files, 3 images and 2 scenes.
+The [intake](translation-batches/253-words-batch-92-intake.json), [independent review](translation-batches/253-words-batch-92-independent-review-001.md),
+[recheck](translation-batches/253-words-batch-92-recheck-001.md), [source record](translation-batches/253-words-batch-92-reviewed-source.json)
+and [validation receipt](translation-batches/253-words-batch-92-final-validation-001.json) describe the reviewed tree;
+verification of publication on `main` is a separate step.
+
+## Previous published source milestone: batch252 thirty words (general word queue)
 
 Batch252 adds 30 Russian word articles: 停車 停電 断水 停止 不通 無沙汰 無数 地味 各地 一通り 平凡 無地 為替 為す 点く
 点々 炭鉱 災難 灰色 オイル 灯油 灯台 火口 火傷 濡らす 濃度 濁る 潰す 潜る 漢和. They are chunk 44 of 72 of the

@@ -1,0 +1,162 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "253-words-batch-92",
+ "publishedBaseline": "6efe3ec4f81c0fb39b6478cbfd15d46199db1fc7",
+ "qualifiedVerdicts": {
+  "content": "B253 qualified source content: frozen EN 6af98cb717755690a9ca793e5454a96ebd7a8f9f, published RU baseline 6efe3ec4f81c0fb39b6478cbfd15d46199db1fc7, publication-record parent 7126ab8be4bf9ea8358b57a02e673fef007278f4, original branch full-ru-253-words-92, blind candidate bbe4e485115525a1f4bd661960486449dbe4570b (tree a46d590fde1002c23b72346587efb6c17d0ea7c7), one reviewed fix c972b6793d49df2da0e4b62ba2636114e53a0f62 (tree f8fd357abbd293ba268e17ef378117682e04fd92). All 39 content blobs match the local-only scratch commit c9212638ef7ee4fe60adcd1a677f5829e888b032 at the candidate; the nine navigation bases at scratch parent e21a513f272f4a0ba4cceb74279063c48a51ec5d match the published content. Thirty absent word paths were added; no held link, candidate-time file merge, or merge of scratch ancestry. Manifest and intake bring the candidate diff to 41 paths against its parent. Only the 30 new word records increase reviewed-current: expected 5,709 reviewed-current / 8 reviewed runtime-blocked / 2,561 pending of 8,278 (4,243 words, 718 kanji, 718 strokes); these are source-progress counts, not runtime acceptance. The coordinator recorded reading the 30 complete lane cards against frozen EN and the nine navigation edits. It changed one sentence in 清掃 from «вывоз мусора; широкую службу очистки или нет — определяет контекст.» to «вывоз мусора; идёт ли речь о более широкой службе очистки, определяет контекст.» The latter is also the final wording. The coordinator accepted the author's change of 混ぜる's last title glosses to avoid near-duplication with 統一; it did not retitle the cards in its own text edit.\n\nThe author's EN-title table is a summary, not a verbatim source for two entries: it gives 演劇 as `theater; drama` and 溶かす as `melt; dissolve`; the pinned EN `title` fields are `theatre; drama` and `melt or dissolve something` respectively. This is a records distinction, not a new finding against the RU cards.\n\nThe guard criterion was “keep where titles share a lexeme or are near-synonyms with overlapping sense; drop antonyms, topical-only pairs, shared-component pairs, pairs the titles already disambiguate, and redundant reciprocals (the app applies exclusions in both directions).” Six draft entries were dropped: 溶け込む→溶かす (duplicate reciprocal), 溶け込む→慣れる (topical), 湿る→濡らす (transitivity contrast), 水蒸気→蒸発 (substance/process), 清掃→雑巾 (object/action) and 混ぜる→加える (adding/mixing). Fourteen remained; see the actual lists below.\n\nThe coordinator recorded checking the art/building uses of «театр» in Russian Wiktionary, keeping the hiragana on-reading notation for 測定/測量, the 湯気 external-heading remark and plain mentions where EN used no link. Its statement “Russian lexis judged natural, not dictionary-checked: «отсыревать», «сникать», «бить ключом», «топографическая съёмка»” describes this lane adjudication, not the later correctness review. The initial author report's unsuccessful dictionary check was not itself confirmation. Fix 1 subsequently removed the 湯気 heading sentence, retitled 測量 and changed the kanji/劇 gloss; it did not remove «бить ключом».\n\nLane checks are not candidate or fix checks. The adjudication records “manifest 5,709 files (version ff8ca0411d861cff); validate 0 errors; unittest OK; budget OK (5,726 entries; localZipBytes 8,287,991)” and 39 paths with no LOST/EXTRA, nine navigation links and zero unguarded exact overlaps. The signed candidate manifest has 5,709 **entries** (5,704 `files`, three images, two scenes), version `5f4fb4d0fef20eaa`. The candidate title screen has 325 lines: 32 guarded `OK`, 293 `!!`, zero exact segments. Its `!!` lines are stem leads, not findings. The initial and final lane screens each have 327 lines (32/295), identical to each other and also without exact segments. The lane-only lines are 溶け込む~物騒 and 湧く~発想; 満員~一通り displays a different neighbour title. These two lane outputs are not evidence of the committed fix.\n\nInitial blind verdicts and limits: Correctness NEEDS FIX for 湧く:50 (C1); scoped coverage NEEDS FIX for 深夜:21 (C2). Consistency PASS with two Low and two Info notes; quiz safety PASS, with conservative guards noted; necessity UNVERIFIED. Comprehensibility NEEDS FIX; its scoped coverage NEEDS FIX. All three read the 30 new cards at the candidate; correctness compared all 30 complete RU/EN originals and the nine navigation changes, consistency read the 30 RU cards and nine diffs and did mechanical EN comparisons, and comprehensibility compared 30 RU/EN originals but excluded the navigation files, intake and manifest. The correctness reviewer reported primary JMdict, KANJIDIC2, selected Digital Daijisen and Russian dictionary evidence; it did not run a validator or a full quiz audit. Consistency ran validate.py (0 errors) and checked 39 hashes, not a manifest rebuild or dictionary lookup. Comprehensibility checked comparison titles and used parity/title screening within its word-card scope.\n\nEight `title`/H1 pairs changed; the other six changed word cards have body edits only. Everything in this table is quoted from the two pinned snapshots, not reconstructed from a suggested replacement.\n\n| New word card | Candidate title | Fix 1 title |\n|---|---|---|\n| 水蒸気 | водяной пар; горячий пар | водяной пар |\n| 演劇 | театральное искусство; драматическое искусство | театральное искусство; драматическая постановка |\n| 測量 | топографическая съёмка; обмер (местности, построек) | съёмка местности; измерение |\n| 深まる | углубляться; крепнуть (о чувстве, связи) | углубляться; усиливаться |\n| 溶け込む | полностью растворяться (в жидкости); вливаться (в коллектив, обстановку) | растворяться в чём-либо; вливаться (в коллектив, обстановку) |\n| 湧く | бить ключом; хлынуть; зарождаться (о чувстве, мысли) | бить ключом; хлестать наружу; зарождаться (о чувстве, мысли) |\n| 清掃 | очистка; уборка территории | очистка; уборка (помещений, улиц) |\n| 混ざる | перемешиваться; оказываться среди (других); принимать участие (в игре) | перемешиваться; оказываться среди (других); присоединяться (к другим) |\n\n**Rewritten example translations.** Japanese sentences and kana readings are unchanged. The EN column gives the corresponding translation in the frozen EN card, not a third proposed Russian gloss.\n\n| Card:line | Frozen EN | Candidate | Fix 1 |\n|---|---|---|---|\n| 溶け込む:20 | The sugar dissolved into the water. | Сахар полностью растворился в воде. | Сахар растворился в воде. |\n| 売り切れる:20 | The popular bread sold out during the morning. | Популярный хлеб распродали ещё утром. | Популярный хлеб был распродан ещё утром. |\n| 売り切れる:21 | Let's buy tickets before they sell out. | Давайте купим билеты, пока их не распродали. | Давайте купим билеты, пока они не разошлись. |\n| 湧く:21 | A good idea came to me. | Мне пришла в голову хорошая мысль. | У меня родилась хорошая мысль. |\n| 混じる:18 | There were small stones mixed into the sand. | В песке попадались мелкие камешки. | К песку примешались мелкие камешки. |\n| 深夜:21 | A late-night phone call woke me up. | Меня разбудил ночной телефонный звонок. | Меня разбудил телефонный звонок глубокой ночью. |\n\n**Other edits, including both deletions:**\n\n- `湧く:50`: `Значения «кипеть, нагревать» относятся к 沸く, даже если в каком-то списке` → `Значения «кипеть» и «нагреваться» относятся к 沸く, даже если в каком-то списке`. Lines 51–52 still warn about the list. The voice error, not the whole hedge, was removed.\n- `深夜:23`: `深夜の + существительное даёт «ночной, поздненочной», как во втором примере.` → `深夜の + существительное можно передать словом «ночной» или оборотом «глубокой ночью», как во втором примере.` The context permits multiple renderings; the example uses the latter.\n- `混ぜる:38`: `частицей -ся` → `постфиксом -ся` in the Russian explanation of the transition from «смешивать» to «смешиваться». The contrast of Japanese verbs, particles and argument roles remains. EN :38 uses the English verb “mix” for the comparison.\n- `湿る:43`: the JMdict link/ID and both senses remain; `значение 2 дополняет значение «сырость» из исходного списка слов.` → `значение 2 дополняет физическое значение «сырость».` This changes a source-list reference, not the link.\n- Deleted candidate `測量:42` in full: `測量 не значит просто «осмотреться».` Frozen EN :42 is `測量 does not simply mean \"look around.\"` This is an English-dependent disambiguation of “survey”, not the rule about Japanese measurement. The practical spatial-information explanation, the 調査 comparison and the warning against restricting the word to land remain. Keeping one such deletion distinct from a lost source rule follows the narrow B251 precedent.\n- Deleted candidate `湯気:44` in full: `Эта карточка учит слову ゆげ, а не постороннему заголовку с чтением ゆけ.` Frozen EN :44 is `This card teaches ゆげ, not an unrelated heading read ゆけ.` Unlike 測量, this deletion is about an unseen **dictionary heading**, not English polysemy. The ゆげ reading, voicing and visible-droplet/蒸気 discussion remain. Neither deletion removed an href or a footer citation.\n- `kanji/劇.md:36`, candidate: `- [演劇](../words/演劇.md)（えんげき）— театр; драматическое искусство`; fix: `- [演劇](../words/演劇.md)（えんげき）— театральное искусство; драматическая постановка`. The candidate had restored the existing EN link; the fix changes **only the list gloss**, not the target, reading or number of links. `words/芝居.md:37` keeps `[演劇](演劇.md)（えんげき）тоже называет театр, драматическое искусство.` That prose comparison is not an unchanged duplicate of the full candidate title.\n\nThe fix diff has 16 paths: 14 of the 30 new word cards, this one of the nine existing navigation files, and `manifest.json`. Content-only diff: 27 insertions / 29 deletions; with manifest: 43 / 45. Manifest `contentVersion` changed from `5f4fb4d0fef20eaa` to `2501311c849efeb7`; only the corresponding 15 content hashes changed. Both manifests contain 5,709 entries (5,704 `files`, three images, two scenes). The fix changed no non-title front matter, links, exclusions or Japanese examples. None of the eight full superseded title strings occurs in the fixed tree's tracked `.md`, `.json` or `.txt` files. This is a snapshot-specific literal check, not a ban on those words elsewhere.\n\nThree narrow precedents explain the accounting, not the verdicts. B250 counted 特長 once when reached through 特色 despite also being requested; the corresponding B253 case is 溶く through 溶かす. B246 counted a changed gloss beside the restored link in `長所:31` without counting a new link; B243 left a contextual navigation gloss at `ぞくぞく:26` unchanged. B253 distinguishes the revised `劇:36` list gloss from the unchanged `芝居:37` comparison. B251 recorded one English-dependent line removed at `射す:39`; here that category fits `測量:42` only, not the external dictionary-heading line at `湯気:44`.\n\nCoordinator's recheck outcome:\nB253 had one signed fix, c972b6793d49df2da0e4b62ba2636114e53a0f62, on the signed blind candidate bbe4e485115525a1f4bd661960486449dbe4570b. It changes 14 new word cards, the gloss alongside the restored 演劇 link at kanji/劇.md:36, and manifest.json (15 hashes and contentVersion). Eight titles changed. No link or quiz_exclusions field changed in the fix. The original reviewers each rechecked this single diff once, serially in the same order as the initial reviews: correctness, consistency, comprehensibility. They returned separate reports. All three completed before restart, including the original comprehensibility reviewer; no replacement review, second fix or addendum.\n\nDelivery provenance (coordinator's session events, 2026-11-23 UTC): the three recheck briefs were sent inline in full, not by file pointer. b253-recheck-msg-correctness.txt was saved at 19:04:29Z before the 19:04:53Z send. The consistency and comprehensibility messages were sent at 19:10:22Z and 19:15:10Z respectively; b253-recheck-msg-consistency.txt and b253-recheck-msg-comprehensibility.txt were extracted verbatim from those events later. The coordinator verified the runtime model identities in read_agent results; that evidence is distinct from what a reviewer could verify for itself.\n\nCorrectness — gpt-6.1-sol, f8dfbe0c-bd07-49ff-b12d-6bb92e7a61e5. “Verdicts: Correctness CLEAN; scoped coverage CLEAN on HEAD. C1/C2 resolved; no new actionable defect established. CLEAN is bounded to this recheck, not exhaustive certification of the repository.” The reviewer reports full RU/frozen EN reads of the 14 changed words and kanji/劇.md, every changed passage, the original correctness report, dispositions and manifest delta; fresh JMdict/KANJIDIC2 and targeted dictionary checks. C1 RESOLVED (湧く:50 now correctly assigns intransitive «нагреваться» to 沸く); C2 RESOLVED (深夜:21,23 restores the late-night qualification). Both optional notes RESOLVED (imperfective «хлестать наружу» and «постфиксом -ся»). The two deletions lose no Japanese teaching point; the examples, eight titles, link gloss and changed hashes passed its regression checks. No new or unresolved finding. Live rather than historical dictionaries; fresh Gramota requests returned 429. No generator, validator, app or full quiz audit; unchanged declined items not reopened.\n\nConsistency/quiz safety — claude-sonnet-5.5, 99dd73a9-bf30-4991-870c-6ced97d29aca. “Consistency on HEAD: CLEAN.” “Quiz safety on HEAD: CLEAN for the new overlaps. Necessity of the 14 RU-only guards stays UNVERIFIED, as in the original report (no live dictionary was consulted).” It read the full fix diff, dispositions and coordinator screen, not the 14 full cards. It additionally inspected 測量:37–end and 湯気:39–end and mechanically checked front matter, H1/title correspondence, superseded titles, hashes and guards. F1 RESOLVED; F2 WITHDRAWN (温帯→適度 retained); F3 RESOLVED; F4's 湧く note OPTIONAL/informational and 清掃 RESOLVED. Already-declared direct guards cover the four new segment matches: 測定→測量, 深まる→増す, 清掃→掃除, 混ざる→加わる. Stem-only leads sampled, not exhaustively adjudicated. validate.py reported zero errors. No dictionary or manifest generator run; no linguistic-correctness certification. No new finding.\n\nComprehensibility — grok-4.7, 20c8cfac-fabd-488d-9861-f1b1f56f9bfd. “Verdicts: comprehensibility CLEAN.” It reports reading all 14 changed words, unchanged クリーニング and kanji/劇.md in full, checking eight comparison titles/exclusions and the guarded overlaps. C1–C3, C5–C7 and C9–C13 resolved; C4 withdrawn (the laundry-service and loanword explanations stand); C8 partially resolved: literal «бить ключом» is anchored, the idea example and 沸く glosses changed, the list hedge remains meta but was not reopened. The 深夜:23 pointer was noted as loose, not filed. “Findings: none”. No separate final comprehensibility-reviewer scoped-coverage verdict. Other unchanged cards and rare-spelling tags not reread; manifest considered as hashes only.\n\nNo new actionable item remained after the one recheck round. C8's partial status and the unverified necessity of the conservative guards are retained, not upgraded to complete resolution or blanket quiz clearance.\n\nNo fresh editorial or dictionary review by the records worker. The unchanged-card evidence rests on the initial reports. Qualified findings on one facet do not certify another, unseen feedback paths, app/device compatibility, media, ordinary activation, native-speaker judgment or learner outcomes.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 150 EN direct entries remain as ordered prefixes to the lists in RU on both signed snapshots. Twenty-six nonempty EN lists; EN has none on 漁師, 滝, 温帯 or 温室. Twenty-five internal EN entries: 溶かす→溶く; 溶く→溶かす, 混合; 溶け込む→溶く, 混合; 売り切れ→売り切れる; 満員→売り切れ, 売り切れる; 湯気→水蒸気; 測定→測量; 清掃→クリーニング; 混ぜる→混合, 溶く, 溶け込む; 混じる→混ぜる, 混合, 付き合う, 溶く, 溶け込む; 混ざる→混じる, 混ぜる, 混合, 付き合う, 溶く, 溶け込む. The other 125 EN entries point to existing RU cards. On ten words the 14 RU entries appended beyond EN are: 演劇→公演, 芸術, 芸能; 溶かす→溶け込む; 溶け込む→加わる; 売り切れる→特売; 売り切れ→特売; 満員→あふれる, 大勢; 湯気→もくもく; 温帯→適度; 付き合う→会う, お目に掛かる; 深夜→徹夜. Arity 3,1,1,1,1,2,1,1,2,1 gives 14 (164 total), as in the historical “Kept (14)” and both consistency reports. The restart handoff's '15' is the miscount. The six draft guards pruned at adjudication were 溶け込む→溶かす and 慣れる, 湿る→濡らす, 水蒸気→蒸発, 清掃→雑巾 and 混ぜる→加える. No exclusion changed in the fix. All 14 were classed conservative; no independently established necessity. F2 温帯→適度 was withdrawn: Russian uses «умеренный» for both “temperate” and “moderate”; keeping the guard does not assert the senses are synonymous. One-sided declarations apply in both directions, not transitively (frozen EN docs/content-format.md:162–165). The new cards retain all 19 internal EN hrefs, distinct from these guards: 溶かす→溶く; 溶く→溶かす, 混合; 溶け込む→混合; 売り切れる→売り切れ; 売り切れ→売り切れる; 湯気→水蒸気; 測量→測定; 測定→測量; 混ぜる→混ざる, 混じる, 混合, 溶く; 混じる→混ざる, 混ぜる, 付き合う; 混ざる→混じる, 混ぜる, 混合.\n\n| Input | Scope | Lines | `OK` | `!!` | Exact segments |\n|---|---|---:|---:|---:|---|\n| Both saved all-word authoring-lane screens | 30 words on the scratch lane | 327 each | 32 | 295 | 0 |\n| Signed candidate | 30 words | 325 | 32 | 293 | 0 |\n| Fix-time changed-title screen in dispositions | Eight retitled words | 88 | 17 | 71 | 4, all guarded |\n| Signed fix | All 30 words | 296 | 36 | 260 | 4, all guarded |\n\nThe new exact segments and the **declaring** cards are: 測定→測量 «измерение», 深まる→増す «усиливаться», 清掃→掃除 «уборка», 混ざる→加わる «присоединяться». Parentheticals are stripped for the comparison. All four declarations already existed in EN; they are not four new RU exclusions. One declaration suffices for a direct symmetric pair, not for a transitive group. The fix changes the displayed wording on existing hit lines as well as the hits themselves: 117 distinct candidate output lines disappear and 88 appear, including retitled renderings. Remaining `!!` are stem-only; consistency sampled those lines rather than independently validating every possible distractor. It checked the coordinator's screen, not a fresh complete linguistic review."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/253-words-batch-92-intake.json",
+  "docs/translation-batches/253-words-batch-92-independent-review-001.md",
+  "docs/translation-batches/253-words-batch-92-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "岩",
+   "掃",
+   "泉",
+   "混",
+   "清",
+   "渇",
+   "温",
+   "測",
+   "湧",
+   "湯",
+   "湿",
+   "溶",
+   "滝",
+   "漁",
+   "蒸",
+   "量"
+  ],
+  "navigationNote": "Nine restored hrefs in nine existing Markdown files at corresponding EN positions: kanji/乾.md:52 → ../words/渇く.md (EN :50); kanji/劇.md:36 → ../words/演劇.md (EN :36); kanji/帯.md:37 → ../words/温帯.md (EN :37); words/乾く.md:29 → 渇く.md (EN :24); words/泉.md:25 → 温泉.md (EN :25); words/濡らす.md:39 → 湿る.md (EN :41); words/熱帯.md:28 → 温帯.md (EN :28); words/芝居.md:37 → 演劇.md (EN :35); words/零点.md:37 → 満点.md (EN :38). Only link wrapping changed at the candidate. Other plain mentions remain plain as in EN, including words/乾く.md:43 喉が渇く (EN :32); kanji/乾.md:52 also mentions distinct 喉が乾く, and words/熱帯.md:28 retains linked 暑い and plain 寒帯. No merge at candidate construction. Fix 1 changed only the list gloss alongside the restored link at kanji/劇.md:36: - [演劇](../words/演劇.md)（えんげき）— театр; драматическое искусство → - [演劇](../words/演劇.md)（えんげき）— театральное искусство; драматическая постановка. Reading and href unchanged; words/芝居.md:37 retains its contextual gloss. Counts remain nine links, not ten; the historical navigation-only path list does not imply that 劇 stayed link-only after fix 1. No held or RU-only navigation link.",
+  "navigationOnlyEdits": [
+   "kanji/乾.md",
+   "kanji/劇.md",
+   "kanji/帯.md",
+   "words/乾く.md",
+   "words/泉.md",
+   "words/濡らす.md",
+   "words/熱帯.md",
+   "words/芝居.md",
+   "words/零点.md"
+  ],
+  "newWords": [
+   "演劇",
+   "漁師",
+   "滝",
+   "溶岩",
+   "混合",
+   "溶かす",
+   "溶く",
+   "溶け込む",
+   "満点",
+   "売り切れる",
+   "売り切れ",
+   "満員",
+   "湿る",
+   "水蒸気",
+   "湯気",
+   "湧く",
+   "測量",
+   "測定",
+   "温泉",
+   "温帯",
+   "温室",
+   "渇く",
+   "クリーニング",
+   "清掃",
+   "混ぜる",
+   "付き合う",
+   "混じる",
+   "混ざる",
+   "深夜",
+   "深まる"
+  ],
+  "selection": "Batch 92 selected 30 word cards from frozen EN: chunk 45 of the 72-batch dependency-closed queue of the general remaining-word pool (2,157 after Batch 207; 807 after Batch 252; 777 after this batch). Its closure under source quiz-exclusion edges is the requested set of 30. The traversal records closureAdded {\"溶く\":\"溶かす\"}: 溶く enters through 溶かす and is itself already requested. No outside word, deferred guard or held path. Of 150 source exclusions, 25 are internal and 125 point to existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain plain: 23 EN href occurrences to 14 distinct paths in the new cards: 漁師→kanji/漁.md; 溶岩→kanji/溶.md, kanji/岩.md, words/噴火.md; 混合→kanji/混.md; 溶かす→kanji/溶.md; 溶く→kanji/溶.md; 溶け込む→kanji/溶.md; 湿る→kanji/湿.md; 水蒸気→kanji/蒸.md; 湯気→kanji/湯.md; 測量→kanji/測.md, kanji/量.md; 測定→kanji/測.md; 温泉→kanji/温.md, kanji/泉.md; 温帯→kanji/温.md; 温室→kanji/温.md; 清掃→kanji/清.md, kanji/掃.md; 混ぜる→kanji/混.md; 混じる→kanji/混.md; 混ざる→kanji/混.md. Separate check: no ../articles/ href in any of the 30 EN originals. Compare resolved paths: a basename-only difference hides missing kanji/岩.md and kanji/泉.md alongside retained words/岩.md and words/泉.md; the words do not replace the kanji hrefs. Sixteen written kanji have no RU kanji card; the thirteen in the actual missing hrefs have EN kanji cards, while 渇, 湧 and 滝 have none in either edition. The initial consistency report groups the latter three with EN hrefs left plain in RU; the pinned hrefs do not support that grouping. No new or pre-existing RU-only href or loss to an existing target in any of the 39 paths at either content snapshot. No fix-time href was removed, redirected or added.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Fix-time dispositions and the original reviewers' own recheck statuses (initial severities retained):\n\n| Original item | Recheck status | What the reviewer accepted, retained or declined |\n|---|---|---|\n| Correctness C1 (Medium), 湧く | **RESOLVED** | :50 now assigns intransitive «нагреваться» to 沸く; JMdict 1606680 sense 1. |\n| Correctness C2 (Low; scoped coverage), 深夜 | **RESOLVED** | :21 restores lateness; :23 permits attributive/adverbial renderings without redefining 深夜 as generic 夜. JMdict 1362810. |\n| Correctness optional: 湧く aspect | **RESOLVED** | Imperfective «хлестать наружу» retains the outflow sense. |\n| Correctness optional: 混ぜる morphology | **RESOLVED** | «постфиксом -ся» clarifies the bound element without changing the Japanese rule. |\n| Consistency F1 (Low), 溶け込む | **RESOLVED** | No «полностью» in title or sugar example; remaining title length called cosmetic. |\n| Consistency F2 (Low), 温帯→適度 | **WITHDRAWN** | Decline stands: zone and degree differ, but Russian «умеренный» covers “temperate” and “moderate”. The reviewer calls keeping it harmless, not necessary. |\n| Consistency F3 (Info), 水蒸気 | **RESOLVED** | Single label «водяной пар», not «горячий пар». |\n| Consistency F4 (Info), 湧く and 清掃 | **OPTIONAL**, informational (湧く); **RESOLVED** (清掃) | No missing-kanji note restored; written metadata correct. 清掃 now covers indoor/outdoor cleanup, keeps «очистка» first. |\n| Comprehensibility C1 (high), 水蒸気 | **resolved** | Title no longer teaches the visible cloud in place of gas; 湯気 contrast remains. |\n| C2 (medium), 演劇 | **resolved** | Performance now represented in title. Suggested «спектакль» example rewrites declined, not reopened; examples natural, 芝居/公演 guarded. |\n| C3 (medium), 測量 | **resolved** | «съёмка местности; измерение» restores general measurement in EN order; deletion leaves a coherent explanation; 測定 carries the guard. |\n| C4 (medium), クリーニング | **withdrawn** | Re-read unchanged: first gloss already «чистка», opening gives химчистка, :24 prevents a dry-cleaning-only sense; Latin `cleaning` glossed as the etymon in the same sentence. |\n| C5 (medium), 深まる | **resolved** | Season and feeling covered; accepted the unchanged autumn idiom on the strength of the following explanation. 増す guard already exists. |\n| C6 (medium), 溶け込む | **resolved** | Title and sugar example no longer imply completeness; concrete social parenthetical retained. |\n| C7 (medium), 売り切れる | **resolved** | Goods are grammatical subjects in both examples; Russian passive does not classify Japanese 売り切れる as a passive of 売る. |\n| C8 (medium), 湧く | **partially resolved** | Literal «бить ключом» kept and anchored; imperfective «хлестать наружу», idea example and intransitive 沸く glosses accepted. “The «каком-то списке» hedge stays meta but no longer misstates the voice; not re-opened.” No remaining actionable finding filed. |\n| C9 (medium), 混じる | **resolved** | Stones are subject of «примешались»; a little bookish but shows mixing. |\n| C10 (low), 清掃 | **resolved** | Indoors/streets covered. 掃除 guard covers «уборка». |\n| C11 (low), 混ざる | **resolved** | Joining not restricted to a game; 加わる guarded. |\n| C12 (low), 湯気 | **resolved** | Invisible ゆけ heading removed; no dangling sentence, ゆげ still taught. |\n| C13 (low), 湿る | **resolved** | Sense 2 retains its relationship to physical dampness without mentioning an unseen list. |\n\nComprehensibility's optional notes on 漁師, 滝, 混ぜる, 深夜, 温泉, 猟師, 溶く and unavailable targets were not additional required changes. It noted the loose pointer at 深夜:23 without filing a new item. Consistency's original optional in-batch and external overlap notes were not new exclusion requests. For C8 the partial status stands; lack of an actionable finding is not full adoption of the suggestion. There was no second fix or re-review of the whole fixed corpus.",
+  "exclusionsAddedBeyondEn": {
+   "付き合う": [
+    "会う",
+    "お目に掛かる"
+   ],
+   "売り切れ": [
+    "特売"
+   ],
+   "売り切れる": [
+    "特売"
+   ],
+   "深夜": [
+    "徹夜"
+   ],
+   "温帯": [
+    "適度"
+   ],
+   "湯気": [
+    "もくもく"
+   ],
+   "満員": [
+    "あふれる",
+    "大勢"
+   ],
+   "溶かす": [
+    "溶け込む"
+   ],
+   "溶け込む": [
+    "加わる"
+   ],
+   "演劇": [
+    "公演",
+    "芸術",
+    "芸能"
+   ]
+  },
+  "titles": {
+   "クリーニング": "чистка; услуги прачечной",
+   "付き合う": "общаться; составлять компанию; встречаться как пара",
+   "売り切れ": "распродано; нет в наличии",
+   "売り切れる": "быть распроданным",
+   "水蒸気": "водяной пар",
+   "深まる": "углубляться; усиливаться",
+   "深夜": "поздняя ночь; поздно ночью",
+   "混ざる": "перемешиваться; оказываться среди (других); присоединяться (к другим)",
+   "混じる": "смешиваться; примешиваться; быть среди (других людей)",
+   "混ぜる": "смешивать; перемешивать; помешивать",
+   "混合": "смешивание; смесь",
+   "清掃": "очистка; уборка (помещений, улиц)",
+   "渇く": "испытывать жажду; остро нуждаться (в чём-либо)",
+   "温室": "теплица; оранжерея",
+   "温帯": "умеренный пояс",
+   "温泉": "горячий источник; курорт с горячими источниками",
+   "測定": "измерение; проведение измерений",
+   "測量": "съёмка местности; измерение",
+   "湧く": "бить ключом; хлестать наружу; зарождаться (о чувстве, мысли)",
+   "湯気": "клубы пара (над горячим)",
+   "湿る": "отсыревать; сникать (о настроении, игре)",
+   "満員": "полный людей; все места заняты",
+   "満点": "высший балл; безупречный результат",
+   "溶かす": "плавить; растворять",
+   "溶く": "размешивать в жидкости; взбалтывать (яйца)",
+   "溶け込む": "растворяться в чём-либо; вливаться (в коллектив, обстановку)",
+   "溶岩": "лава",
+   "滝": "водопад",
+   "漁師": "рыбак",
+   "演劇": "театральное искусство; драматическая постановка"
+  }
+ }
+}
