@@ -1,6 +1,72 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch250 thirty words (general word queue)
+## Current published source milestone: batch251 thirty words (general word queue)
+
+Batch251 adds 30 Russian word articles: 物差し 物凄い 牧畜 牧場 片道 片寄る 片仮名 父母 爪 焦がす 焦げる あぶる 暖める
+加熱 焚く 燃やす 暖まる 熱する 熟語 照らす 射す 照る 煙突 煙い 煎る 煉瓦 焦点 無限 怠る 休業. They are chunk 43 of 72 of the
+general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is
+exactly the 30 requested words, so every EN quiz_exclusions target resolves to an existing RU word or a word in the
+batch; 21 of the 123 EN entries lie inside the batch.
+
+Navigation-only link restorations add 4 links at EN link positions in 4 existing pages: the word cards 傾く (to 片寄る),
+光る (to 照らす), 往復 (to 片道) and 炊く (to 焚く). The RU-only link already present in 光る (to 輝く) predates this
+batch and is unchanged. No link was held from an earlier batch. The new cards keep EN's links to existing cards and
+all 19 EN links between batch cards; their links to the kanji cards 畜, 片, 温, 燃 and 照 and the word cards 仮名, 冷ます,
+商店 and 無数 stay plain until those targets are adapted.
+
+The batch covers:
+- measuring and farming: a ruler or yardstick (物差し), livestock farming (牧畜) and a livestock farm or pasture (牧場);
+- intensity: tremendous or frightful (物凄い);
+- one side: a one-way trip or ticket (片道), shift to one side or be biased (片寄る) and katakana (片仮名);
+- family and body: father and mother, or parents (父母), and a fingernail or claw (爪);
+- fire, heat and cooking: scorch or char (焦がす), get scorched (焦げる), toast or warm over a fire (あぶる), warm or heat
+  up (暖める), heating or applying heat (加熱), burn fuel or tend a fire (焚く), burn something or kindle a feeling
+  (燃やす), get warm (暖まる), heat up or get worked up (熱する) and roast without oil or parch (煎る);
+- light: illuminate or shine on (照らす), shine in, of light (射す) and shine or be sunny (照る);
+- smoke and building: a chimney or smokestack (煙突), smoky (煙い) and a brick (煉瓦);
+- abstract terms: a kanji compound or idiom (熟語), a focal point or centre of attention (焦点), infinity or limitless
+  (無限), neglect or fail to do (怠る) and a temporary closure or suspension of business (休業).
+
+All 123 EN exclusions are retained in EN order. Fourteen direct guards on 11 new cards cover reviewed RU overlaps, each
+appended at the end of its list. Twelve came from authoring and were kept by the coordinator; the fix removed four
+authoring guards between antonyms or contrasts with no shared title wording (片道–往復, 片寄る–公平, 休業–営業 and
+暖まる–暖房) and added two for new title overlaps (照る–快晴 and 片寄る–ずれる).
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: a correctness finding on 焚く's «растапливать (печь, ванну)», which applied a Russian stove-lighting verb
+  to heating bathwater, with scoped coverage clean and optional register notes;
+- consistency: consistency, links, metadata and manifest/intake integration clean; low or optional quiz-safety notes on
+  four authoring guards judged unnecessary or inconsistent, two optional guards (片寄る–片道 and 照る–快晴), the 参考
+  gloss in 照らす and 照る's title;
+- comprehensibility: findings in 片寄る, 焦がす, あぶる, 加熱, 焚く, 燃やす, 射す, 照る, 煙突 and 煎る, mostly titles that
+  narrowed a sense or read like a definition, remarks that relied on English or an unseen source list, and Russian
+  transitivity comparisons that did not hold.
+
+One signed fix commit addressed them in 14 new word cards:
+- it retitled 焚く «жечь топливо; разводить и поддерживать огонь», 加熱 «нагревание; подведение тепла», 煎る «обжаривать
+  без масла; подсушивать на огне», 片寄る «смещаться в одну сторону; быть предвзятым» and 照る «светить (о солнце, луне);
+  быть солнечным (о погоде)»;
+- it reworded prose in 焚く, 焦がす, 燃やす, あぶる, 煙突 and 照らす and deleted a sentence in 射す that explained the English
+  gloss "strike";
+- it removed the four authoring guards and added the two new guards above.
+
+The optional 片寄る–片道 guard and an incense title for 焚く were declined; the reviewers accepted these declines at
+recheck. The serial rechecks reported comprehensibility, scoped coverage, correctness, consistency and quiz safety clean,
+with no new finding.
+
+Links follow EN, except the plain links to absent targets above.
+
+Qualified progress is **5,649 reviewed-current / 8 reviewed runtime-blocked / 2,621 pending of 8,278**,
+with 4,183 words, 718 kanji and 718 strokes. See the [intake](translation-batches/251-words-batch-90-intake.json),
+[independent review](translation-batches/251-words-batch-90-independent-review-001.md),
+[recheck](translation-batches/251-words-batch-90-recheck-001.md),
+[qualified source record](translation-batches/251-words-batch-90-reviewed-source.json) and
+[final validation](translation-batches/251-words-batch-90-final-validation-001.json).
+
+## Previous published source milestone: batch250 thirty words (general word queue)
 
 Batch250 adds 30 Russian word articles: 生る 生ずる 生け花 生える 甘やかす 瓶詰 瓦 オルガン 楽器 琴 学部 学科 理科 現に
 王女 率直 献立 独り言 特色 特長 指定 特定 特売 怪しい 危うい 物騒 物語る 倉庫 物置 定規. They are chunk 42 of 72 of the
