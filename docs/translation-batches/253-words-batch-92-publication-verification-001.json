@@ -1,0 +1,124 @@
+{
+ "schemaVersion": 1,
+ "batchId": "253-words-batch-92",
+ "recordedAt": "2026-11-23T20:17:48Z",
+ "repository": "stop-cran/learning-japanese-ru",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "6efe3ec4f81c0fb39b6478cbfd15d46199db1fc7",
+ "candidateCommit": "1c6dde7",
+ "qualifiedAcceptanceCommit": "a5d04d2989c2fd7d6fb73cd3c1dcf4dd39599979",
+ "publishedCommit": "9ea35cf017da9e6ec4d458e8fb614420813b41e0",
+ "publishedTree": "746466f0eaf2eb1f3bafbdf2713fe65c480f6186",
+ "contentVersion": "2501311c849efeb7",
+ "integration": {
+  "method": "pull request merge commit",
+  "pullRequestCreated": true,
+  "pullRequest": 137,
+  "pullRequestUrl": "https://github.com/stop-cran/learning-japanese-ru/pull/137",
+  "branch": "full-ru-253-words-92",
+  "branchRef": "a5d04d2989c2fd7d6fb73cd3c1dcf4dd39599979",
+  "mainRef": "9ea35cf017da9e6ec4d458e8fb614420813b41e0",
+  "mergeParents": [
+   "6efe3ec4f81c0fb39b6478cbfd15d46199db1fc7",
+   "a5d04d2989c2fd7d6fb73cd3c1dcf4dd39599979"
+  ],
+  "branchAndMainTreeMatch": true
+ },
+ "githubIdentity": {
+  "authenticatedOwner": "stop-cran",
+  "author": "stop-cran",
+  "committer": "stop-cran (branch commits); web-flow (merge commit)",
+  "commitSignatureVerified": true,
+  "signatureReason": "valid",
+  "ownerCredentialMatchedVerifiedOwnerToken": true
+ },
+ "exactMainCi": {
+  "workflow": "Validate Russian content",
+  "runId": 45257063169,
+  "headSha": "9ea35cf017da9e6ec4d458e8fb614420813b41e0",
+  "status": "completed",
+  "conclusion": "success",
+  "url": "https://github.com/stop-cran/learning-japanese-ru/actions/runs/45257063169"
+ },
+ "publicArchives": {
+  "privateReceipt": "253-words-batch-92-public-archives-001.json",
+  "privateReceiptRawSha256": "4f45bfcb4079ec22c36c42fe23f0d0d136bf80928148e7c2798c9dacf28e3312",
+  "actualDownloadsWereLocallyRehashed": true,
+  "exactGitArchiveRegularFiles": 5717,
+  "mergeAndBranchHeadExportsIdentical": true,
+  "commitAndMainPublicDownloadsRawEqual": false,
+  "rawInequalityCause": "commit and main archives use different single root directory names; contents compared after stripping that root",
+  "tarGzPaxGlobalCommentCommit": "9ea35cf017da9e6ec4d458e8fb614420813b41e0",
+  "runtimeManifestRebuiltFromCommitZipEqualsShipped": true,
+  "runtimeManifestObjects": 5709,
+  "contentVersion": "2501311c849efeb7",
+  "archives": {
+   "commitZip": {
+    "bytes": 8974007,
+    "rawSha256": "b788058d3c86e693a7db23e147086bec1603e1f45eae35e80f759e74eb8ff5d4",
+    "rootDirectory": "learning-japanese-ru-9ea35cf017da9e6ec4d458e8fb614420813b41e0",
+    "privateArtifact": "ru-253-commitZip-001.bin",
+    "pathAndBytesMatchExactGitArchive": true
+   },
+   "mainZip": {
+    "bytes": 8561735,
+    "rawSha256": "416af19665a4c88ebf009056e1fc393f4e07f25007f2f3f4c3d9c919a05d9756",
+    "rootDirectory": "learning-japanese-ru-main",
+    "privateArtifact": "ru-253-mainZip-001.bin",
+    "pathAndBytesMatchExactGitArchive": true
+   },
+   "commitTarGz": {
+    "bytes": 4564910,
+    "rawSha256": "4025b150542aaa3784a7fa5a1903ce2cb0b1ae05e82e57cf0593638e82e1c800",
+    "rootDirectory": "learning-japanese-ru-9ea35cf017da9e6ec4d458e8fb614420813b41e0",
+    "privateArtifact": "ru-253-commitTarGz-001.bin",
+    "pathAndBytesMatchExactGitArchive": true
+   },
+   "mainTarGz": {
+    "bytes": 4564070,
+    "rawSha256": "b9ce5f1ae5953f327b6ea72466af517f32c2243375f04f56760d201be8d0988c",
+    "rootDirectory": "learning-japanese-ru-main",
+    "privateArtifact": "ru-253-mainTarGz-001.bin",
+    "pathAndBytesMatchExactGitArchive": true
+   }
+  },
+  "limits": "Independent computer downloads only; not evidence of bytes fetched by the app or of any device, media, activation or release check."
+ },
+ "protectedRefs": {
+  "ru-pilot-a": {
+   "expected": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+   "observedAfterPublication": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+   "unchanged": true
+  },
+  "ru-pilot-b": {
+   "expected": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+   "observedAfterPublication": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+   "unchanged": true
+  }
+ },
+ "qualifiedProgress": {
+  "frozenInventory": 8278,
+  "reviewedCurrent": 5709,
+  "excludedReviewedRuntimeBlocked": 8,
+  "pending": 2561,
+  "words": 4243,
+  "kanji": 718,
+  "strokes": 718,
+  "checkpointAuthority": null,
+  "checkpointReady": false
+ },
+ "evidence": {
+  "intake": "docs/translation-batches/253-words-batch-92-intake.json",
+  "review": "docs/translation-batches/253-words-batch-92-independent-review-001.md",
+  "recheck": "docs/translation-batches/253-words-batch-92-recheck-001.md",
+  "finalValidation": "docs/translation-batches/253-words-batch-92-final-validation-001.json",
+  "qualifiedSourceRecord": "docs/translation-batches/253-words-batch-92-reviewed-source.json"
+ },
+ "remainingQualification": {
+  "ordinaryQuizNegativeFallbackSafety": "30 word titles and their direct exclusions (150 retained EN + 14 RU-added conservative guards = 164 entries) judged safe by one bounded independent review and recheck against the current RU title pool; the necessity of the conservative guards remains UNVERIFIED and is not upgraded to blanket quiz clearance; not exhaustive, no transitive closure inferred.",
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false,
+  "continueRequired": true
+ }
+}
