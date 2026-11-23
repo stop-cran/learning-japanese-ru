@@ -1,6 +1,74 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch248 thirty words (general word queue)
+## Current published source milestone: batch249 thirty words (general word queue)
+
+Batch249 adds 30 Russian word articles: 発売 スタート 発つ 畳む 住居 住まい 番地 略す 留守番 留まる あてはめる 応用 申請
+申し訳ない 田植え 実用 当番 公務 役目 用途 用語 原産 産地 生長 厚かましい ずうずうしい 生意気 生年月日 人命 生存. They are
+chunk 41 of 72 of the general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their
+dependency closure is exactly the 30 requested words, so every EN quiz_exclusions target resolves to an existing RU word
+or a word in the batch; 15 of the 222 EN entries lie inside the batch.
+
+Navigation-only link restorations add 10 links at EN link positions in 10 existing pages: the kanji card 厚 (to
+厚かましい) and the word cards みっともない (to 厚かましい), ゴール and ストップ (each to スタート), 成長 (to 生長), 止まる
+(to 留まる), 相撲 (to 住まい), 苗代 (to 田植え), and 西暦 and 誕生日 (each to 生年月日). No link was held from an earlier
+batch. The new cards keep EN's links to existing cards; their links to the word cards 特売, 建つ and あてはまる and the
+kanji cards 畳, 略, 訳 and 植 stay plain until those targets are adapted.
+
+The batch covers:
+- departures and starts: a release for sale (発売), a start or starting point (スタート) and depart or set off (発つ);
+- homes: fold or close a business (畳む), a dwelling or residence (住居 and 住まい), a lot number or address (番地) and
+  house-sitting or a house-sitter (留守番);
+- limits: abbreviate or omit (略す) and remain, stay or be limited to (留まる);
+- applying and using: apply a rule or fit into (あてはめる), practical application (応用), an application or formal
+  request (申請), practical use or utility (実用), a use or intended purpose (用途) and a term, terminology or wording
+  (用語);
+- duties: a turn on duty or the person on duty (当番), official public duties (公務) and a duty, role or function
+  (役目);
+- origins and growth: rice-seedling planting (田植え), native origin (原産), a producing area or place of origin (産地)
+  and plant growth (生長);
+- manners: I'm sorry or inexcusable (申し訳ない), brazen or shameless (厚かましい), impudent or shameless (ずうずうしい)
+  and cheeky or impertinent (生意気);
+- life: a full date of birth (生年月日), human life (人命) and survival or being alive (生存).
+
+All 222 EN exclusions are retained in EN order. Four direct guards on 4 new cards cover reviewed RU overlaps: two came
+from authoring and were accepted by the coordinator (住まい–住居 and 用途–応用), and the fix added two (略す–減らす and
+申し訳ない–詫びる).
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: correctness and scoped coverage clean, with no finding;
+- consistency: consistency, links, metadata and manifest/intake integration clean; quiz-safety findings on two undeclared
+  title overlaps, 略す–減らす and 申し訳ない–詫びる;
+- comprehensibility: findings in 応用, あてはめる, 申請, 役目, 申し訳ない, 発つ, 実用, 原産, 留まる and 住まい, mostly
+  comparisons that depend on English "apply", "application", "function" or "sorry" and reject senses the Russian
+  glosses never show, a title whose «отбывать» suggested serving a sentence, a body that reused another card's quiz
+  title and two calqued example translations; a scoped-coverage finding in 発つ only.
+
+One signed fix commit addressed them in 12 new word cards:
+- it retitled 発つ «уезжать; отправляться в путь»;
+- it reworded the example translations in 留まる and 住まい;
+- it rewrote or deleted remarks in 応用, あてはめる, 申請, 役目, 申し訳ない, 発つ, 実用, 原産 and 田植え;
+- it added the two guards above;
+- it removed four links together with their English-dependent sentences (応用 → 申し込む, あてはめる → 申し込む,
+  申請 → 適用 and 役目 → 行事); the EN exclusions on those pairs are retained.
+
+One finding, on 役目's explanation of collection tags, was declined for EN parity; the reviewer withdrew it at recheck.
+The serial rechecks reported comprehensibility, scoped coverage, correctness, consistency and quiz safety clean, with no
+new finding.
+
+Links follow EN except one reviewed RU-only link, 畳む → 広げる, at an antonym comparison where EN has plain text, and
+the four removed links above.
+
+Qualified progress is **5,589 reviewed-current / 8 reviewed runtime-blocked / 2,681 pending of 8,278**,
+with 4,123 words, 718 kanji and 718 strokes. See the [intake](translation-batches/249-words-batch-88-intake.json),
+[independent review](translation-batches/249-words-batch-88-independent-review-001.md),
+[recheck](translation-batches/249-words-batch-88-recheck-001.md),
+[qualified source record](translation-batches/249-words-batch-88-reviewed-source.json) and
+[final validation](translation-batches/249-words-batch-88-final-validation-001.json).
+
+## Previous published source milestone: batch248 thirty words (general word queue)
 
 Batch248 adds 30 Russian word articles: 派手 目立つ 中身 目次 狙う 狙い 目指す あたりまえ 標準 思い込む 仮定 推定 目安
 目上 盛る 盗難 盆地 盆 皮膚 案外 思いがけない 皮肉 的確 百科事典 白髪 登場 発電 発揮 発想 発射. They are chunk 40 of 72
