@@ -8,6 +8,18 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+## Reviewed source milestone: batch254 thirty words
+
+Word batch 93 adds 30 dependency-closed word cards and restores 15 links in ten existing files. The same three
+reviewers who read signed candidate `559309ba` independently rechecked `dfdfeebc` in sequence. The fixes include
+five word titles, two added direct quiz pairs, removal of one RU-only pair and the example-reading delimiters.
+All 122 source exclusions are retained. See the
+[full milestone](FULL-TRANSLATION-PLAN.md#reviewed-source-milestone-batch254-thirty-words-general-word-queue)
+for qualified verdicts and the difference between source acceptance and release.
+
+Source progress: **5,739 reviewed-current / 8 runtime-blocked / 2,531 pending of 8,278**; 4,273 words,
+718 kanji and 718 strokes, with 747 frozen-source words remaining. This does not claim publication on `main`.
+
 ## Current published source milestone: batch253 thirty words
 
 Batch253 adds 30 Russian word articles, chunk 45 of the general word queue. 溶く, reached through 溶かす, was

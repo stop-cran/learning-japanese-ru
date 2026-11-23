@@ -1,5 +1,33 @@
 # Full Russian translation: execution after the two pilots
 
+## Reviewed source milestone: batch254 thirty words (general word queue)
+
+Batch254 adds 30 Russian word articles from frozen EN `6af98cb`, chunk 46 of the 72-batch general word queue.
+The requested set is closed under the source exclusions: no additional word, deferred guard or held path.
+The new cards cover water and cooling (淡水, 冷める, 涼む, 液体, 海洋, 海水浴, 流域), public services and use
+(消防署, 消耗, 消毒, 消化, 洗剤), clothing and shops (寝間着, 浴衣, おしゃれ, 洒落, 商店, ショップ, 洋品店),
+energy and attitudes (くたびれる, 消極的, 活力, 油断), and 流行る, 活字, 注す, 原理, 法則, 泊める and 治す.
+
+Fifteen links were restored at EN positions in ten existing files: four kanji files (則, 商, 域, 巻) and six word
+files (せっけん, 断水, 気体, 活躍, 焦点, 血液). The prior 断水→停電 link remains. No media or unrelated card
+was brought in to complete these links.
+
+Three original reviewers read the same signed candidate serially. The [review record](translation-batches/254-words-batch-93-independent-review-001.md)
+separates their actual evidence and the coordinator's decisions. The signed fix `dfdfeebc` revised five titles,
+distinguished disease prevalence from severity and treatment goals from achieved cures, and restored literal
+source formatting in 59 of the 61 Japanese sentence/reading pairs. All 122 inherited exclusion entries remain
+in EN order. The six RU additions include the direct ショップ–売り場 guard; a store's sales area is not a synonym
+for every shop. The host/guest 泊める–泊まる pair was removed. There is no transitive exclusion policy.
+
+The three original reviewers rechecked the fix in sequence. Correctness and source coverage, the changed quiz choices and integration, and Russian comprehensibility and scoped coverage were CLEAN in their assigned bounds. All initial findings were resolved; the two comprehension findings overlap the correctness review. No device, learner or release verdict follows.
+
+Qualified source progress: **5,739 reviewed-current / 8 reviewed runtime-blocked / 2,531 pending of 8,278**;
+4,273 words, 718 kanji, 718 strokes. The pending word queue falls from 777 to **747**. Manifest `7b3d067ef940470a`
+has 5,734 files, three images and two scene catalogs. See the [intake](translation-batches/254-words-batch-93-intake.json),
+[rechecks](translation-batches/254-words-batch-93-recheck-001.md), [source record](translation-batches/254-words-batch-93-reviewed-source.json)
+and [final validation](translation-batches/254-words-batch-93-final-validation-001.json). Publication verification,
+media/package, device checks and ordinary RU activation are separate; none is granted by this milestone.
+
 ## Current published source milestone: batch253 thirty words (general word queue)
 
 Batch253 adds 30 Russian word articles from frozen EN `6af98cb`. This is chunk 45 of the 72-batch
@@ -4125,8 +4153,16 @@ media, release, ordinary activation and full-translation approval are not implie
 
 ## Continuation plan after the November 2026 takeover
 
-The streamlined loop below follows the written rules in `.github/copilot-instructions.md`, which do not fix
-a reviewer count:
+The numbered loop below records the **original takeover procedure**. Its one-reviewer
+step is not the review procedure for the current new-word batches. As the
+[B253 review record](translation-batches/253-words-batch-92-independent-review-001.md)
+shows, those batches use three independent reviewers **in sequence**, not three
+simultaneous reviewers. They receive the same signed candidate, complete card pairs
+and source access, without author rationale or one another's findings. Their assignments
+are correctness, consistency and quiz safety, and Russian comprehensibility; report
+scoped coverage separately. The coordinator verifies the actual distinct model families
+and records what each reviewer read. This does not impose a reviewer count on an edit
+to an existing card or change the frozen EN translation source.
 
 1. Draft one dependency-closed batch from frozen EN `6af98cb`, using held drafts only as starting material.
 2. Screen kanji closure, exact title overlaps and 5-letter stem overlaps against the whole RU pool, and EN↔RU
