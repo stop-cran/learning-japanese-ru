@@ -1,0 +1,78 @@
+{
+ "schemaVersion": 1,
+ "batchId": "253-words-batch-92",
+ "recordedAt": "2026-11-23T20:24:36Z",
+ "state": "receipt-clarification-not-review-or-approval",
+ "clarifies": {
+  "path": "docs/translation-batches/253-words-batch-92-publication-verification-001.json",
+  "commit": "7313f9f46f146900df19682a45dfe25a8b27f4d1",
+  "rawSha256": "46bfeb25b8ba6c956e9a282dc8ab9bdb928a829e47d787169a1315f7a42413e2",
+  "field": "candidateCommit",
+  "value": "1c6dde7",
+  "meaning": "The final-validation input: signed records commit 1c6dde79e71386025c09621f51dd54bb4a359371, recorded as candidateHead in docs/translation-batches/253-words-batch-92-final-validation-001.json. It is not the blind-review candidate and not the reviewed fix. The B250-B252 publication receipts use the same field with the same meaning (their final-validation candidateHead records commits). The original receipt is preserved unchanged."
+ },
+ "reviewedSnapshots": [
+  {
+   "role": "blindReviewCandidate",
+   "commit": "bbe4e485115525a1f4bd661960486449dbe4570b",
+   "tree": "a46d590fde1002c23b72346587efb6c17d0ea7c7",
+   "parent": "7126ab8be4bf9ea8358b57a02e673fef007278f4",
+   "reviewedBy": "The three initial blind reviews in serial order: correctness, consistency, comprehensibility. Each report's own scope and limits apply, including the consistency review's diff-only read.",
+   "evidence": [
+    "docs/translation-batches/253-words-batch-92-review-correctness-001.md",
+    "docs/translation-batches/253-words-batch-92-review-consistency-001.md",
+    "docs/translation-batches/253-words-batch-92-review-comprehensibility-001.md",
+    "docs/translation-batches/253-words-batch-92-independent-review-001.md"
+   ]
+  },
+  {
+   "role": "reviewedFix",
+   "commit": "c972b6793d49df2da0e4b62ba2636114e53a0f62",
+   "tree": "f8fd357abbd293ba268e17ef378117682e04fd92",
+   "parent": "bbe4e485115525a1f4bd661960486449dbe4570b",
+   "deltaFromCandidate": "16 modified paths: 14 word cards, kanji/劇.md and manifest.json; no path added or deleted.",
+   "reviewedBy": "The three rechecks by the same original reviewers, serially in the same order. Each recheck's own scope and per-finding statuses apply.",
+   "evidence": [
+    "docs/translation-batches/253-words-batch-92-recheck-001.md",
+    "docs/translation-batches/253-words-batch-92-reviewed-source.json"
+   ]
+  }
+ ],
+ "laterNonReviewedCommits": [
+  {
+   "role": "finalValidationInput",
+   "commit": "1c6dde79e71386025c09621f51dd54bb4a359371",
+   "tree": "7542d3cbd42f73b20b684fb0b7073cc7e7fbf8fa",
+   "parent": "c972b6793d49df2da0e4b62ba2636114e53a0f62",
+   "change": "Review records, ledger/tracking/progress and plan documents; 10 paths, all under docs/."
+  },
+  {
+   "role": "documentationAfterFinalValidation",
+   "commits": [
+    "211e8ed058db67352714d982d9a074ba52c4de0c",
+    "fca62c6916a92804d6b82e6a777659c6b1509d0d"
+   ],
+   "change": "Final-validation receipt, resumption observation and RU instruction text; paths under docs/ and .github/ only."
+  },
+  {
+   "role": "qualifiedAcceptanceCommit",
+   "commit": "a5d04d2989c2fd7d6fb73cd3c1dcf4dd39599979",
+   "tree": "746466f0eaf2eb1f3bafbdf2713fe65c480f6186",
+   "parent": "fca62c6916a92804d6b82e6a777659c6b1509d0d",
+   "change": "RU instruction qualification only (.github/copilot-instructions.md)."
+  },
+  {
+   "role": "publishedCommit",
+   "commit": "9ea35cf017da9e6ec4d458e8fb614420813b41e0",
+   "tree": "746466f0eaf2eb1f3bafbdf2713fe65c480f6186",
+   "parents": [
+    "6efe3ec4f81c0fb39b6478cbfd15d46199db1fc7",
+    "a5d04d2989c2fd7d6fb73cd3c1dcf4dd39599979"
+   ],
+   "change": "Pull request merge commit; tree identical to qualifiedAcceptanceCommit."
+  }
+ ],
+ "runtimeContentIdentity": "From the reviewed fix c972b679 to the published commit 9ea35cf, 13 paths changed, all under docs/ or .github/; both directories are export-ignore in .gitattributes. Every runtime content path, including manifest.json, is byte-identical between the reviewed fix and the published tree.",
+ "verification": "Each commit above was checked locally with git: object type commit, stated tree and parents, and good signature (%G? = G). The path deltas come from git diff --name-only between the stated commits.",
+ "limits": "This record adds no review, verdict, finding status or approval and does not change progress counts. It does not change the original receipt or earlier receipts. Reviewer scopes, limits and the UNVERIFIED necessity of the 14 RU-only exclusion guards remain as recorded in the review evidence. No device, media, activation or release claim."
+}
