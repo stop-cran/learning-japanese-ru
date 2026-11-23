@@ -1,0 +1,144 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "254-words-batch-93",
+ "publishedBaseline": "9ea35cf017da9e6ec4d458e8fb614420813b41e0",
+ "qualifiedVerdicts": {
+  "content": "On signed content fix dfdfeebcc0c54972451bc3d028ccc918ccc99ab7 the original reviewers returned CLEAN for correctness/coverage, quiz safety/integration/EN preservation, and Russian comprehensibility/scoped coverage of the changed material. All 14 correctness findings, the one quiz finding and both overlapping comprehension findings are resolved. Rechecks were not three new complete corpus audits; see the recheck record for actual returned ranges and residual qualifications.",
+  "fallbackAndVoice": "Tag/random fallback choices, voice/reading modes and drawing not cleared.",
+  "quizTitles": "Five titles changed: 流行る, 活力, 治す, 洋品店 and 法則. All 122 inherited direct entries remain in EN order; six RU-only entries follow them (128 total). Four were judged required for the displayed labels, two conservative without established necessity: 涼む→休む and 洋品店→商店. ショップ→売り場 rests on a defensible Russian place-of-sale reading, not an identical dictionary gloss. 泊める→泊まる was removed because lodging provider and guest are different. The three exact segment overlaps are already guarded; this is not proof of exhaustive runtime quiz safety."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/254-words-batch-93-intake.json",
+  "docs/translation-batches/254-words-batch-93-independent-review-001.md",
+  "docs/translation-batches/254-words-batch-93-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "剤",
+   "極",
+   "毒",
+   "油",
+   "泊",
+   "洒",
+   "浴",
+   "液",
+   "涼",
+   "淡",
+   "的",
+   "署",
+   "耗",
+   "衣",
+   "防"
+  ],
+  "navigationNote": "15 link occurrences restored at corresponding EN positions in ten existing articles. No wrapper prose changed. The pre-existing 断水→停電 remains; it is not a B254 addition.",
+  "navigationOnlyEdits": [
+   "kanji/則.md",
+   "kanji/商.md",
+   "kanji/域.md",
+   "kanji/巻.md",
+   "words/せっけん.md",
+   "words/断水.md",
+   "words/気体.md",
+   "words/活躍.md",
+   "words/焦点.md",
+   "words/血液.md"
+  ],
+  "newWords": [
+   "淡水",
+   "冷める",
+   "涼む",
+   "液体",
+   "消防署",
+   "くたびれる",
+   "消耗",
+   "消毒",
+   "消極的",
+   "消化",
+   "海洋",
+   "海水浴",
+   "寝間着",
+   "浴衣",
+   "流行る",
+   "流域",
+   "活字",
+   "活力",
+   "洗剤",
+   "おしゃれ",
+   "洒落",
+   "商店",
+   "ショップ",
+   "洋品店",
+   "注す",
+   "原理",
+   "法則",
+   "泊める",
+   "治す",
+   "油断"
+  ],
+  "selection": "Chunk 46 of the 72-batch general word queue. 777 frozen-source words pending before this batch; 747 after. The closure equals the 30 requested words; no additional or held path or deferred guard.",
+  "unwrappedAbsentTargetsNote": "Twelve EN href occurrences in the new cards have absent RU targets: ten distinct kanji targets (浴 twice) and the word 冷ます. The 15 written kanji without RU cards are not all EN link targets; five in-batch word href occurrences are retained.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Retained «Налейте» for a liquid put in a bottle, the plural shops in the frozen EN example for 活力, «торговая точка» for ショップ, and the contextually explained term «атэдзи». No transitive guard groups, no separate 流行る–広める or speculative sibling-retail pairs; no corpus-wide delimiter migration. See the verbatim reports for scope and nonblocking notes.",
+  "exclusionsAddedBeyondEn": {
+   "ショップ": [
+    "店",
+    "売り場"
+   ],
+   "商店": [
+    "店"
+   ],
+   "油断": [
+    "のんき"
+   ],
+   "洋品店": [
+    "商店"
+   ],
+   "涼む": [
+    "休む"
+   ]
+  },
+  "titles": {
+   "おしゃれ": "стильный; наряжаться",
+   "くたびれる": "утомляться; изнашиваться",
+   "ショップ": "торговая точка",
+   "冷める": "остыть; охладеть (к чему-либо)",
+   "原理": "основополагающий принцип",
+   "商店": "торговое заведение; розничный магазин",
+   "寝間着": "ночная одежда; одежда для сна",
+   "油断": "беспечность; потеря бдительности",
+   "治す": "вылечить; залечить (рану)",
+   "泊める": "приютить на ночь; дать ночлег",
+   "法則": "закономерность; научный закон; правило",
+   "注す": "капать; подливать; доливать",
+   "洋品店": "магазин одежды и аксессуаров западного стиля",
+   "洒落": "остроумная фраза; каламбур",
+   "洗剤": "чистящее средство; средство для мытья и стирки",
+   "活力": "жизненная сила; энергия",
+   "活字": "типографский шрифт; печатный текст",
+   "流域": "речной бассейн; водосборный бассейн",
+   "流行る": "быть в моде; широко распространяться (о болезни); иметь успех (о заведении)",
+   "浴衣": "юката; летнее кимоно",
+   "海水浴": "купание в море",
+   "海洋": "морские просторы; океанские воды",
+   "消化": "пищеварение; усвоение; выполнение (намеченного объёма)",
+   "消極的": "пассивный; безынициативный",
+   "消毒": "дезинфекция; обеззараживание",
+   "消耗": "истощение; израсходование",
+   "消防署": "пожарная часть",
+   "液体": "жидкость",
+   "涼む": "освежаться прохладой; отдыхать в прохладе",
+   "淡水": "пресная вода"
+  }
+ }
+}
