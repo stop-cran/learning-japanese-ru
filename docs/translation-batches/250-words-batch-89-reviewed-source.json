@@ -1,0 +1,173 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "250-words-batch-89",
+ "publishedBaseline": "ed6aa52956367226e86fb3ef125c0d5eb612c766",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate 4a5e70f and serialized rechecks of the signed fix commit 9e339f5 found no remaining defect. The 45 lane files (30 new cards and the navigation files kanji/卒, kanji/危, kanji/定, kanji/規, words/いかがわしい, words/バイオリン, words/ピアノ, words/奇しい, words/女王, words/妖しい, words/学会, words/挿す, words/疑わしい, words/発売 and words/課程) were copied byte-identically from the authoring worktree's local-only scratch commit 819ee18; no link was held from an earlier batch, and no follow-up edit from an earlier fix was applied at the candidate. Before the candidate the coordinator read \"all 30 B250 word cards (`b250-words.txt`) read against frozen EN `6af98cb7` in `b250-adj-read.txt`, plus the 15 navigation files (21 links)\". It edited seven lane cards: titles and H1s of 瓦 («черепица»; \"redundant second segment\"), 倉庫 («склад»; \"redundant second segment («хранилище» would collide with 金庫)\"), 独り言 («разговор с самим собой; монолог»; \"JMdict \"soliloquy; monologue\"; redundant qualifier\"), 生ずる («возникать; порождать; вызывать», with example 1 «возникают проблемы»; \"EN \"arise; produce; cause\" (same as 生じる); «зарождаются проблемы» unidiomatic; 生じる/起こる already excluded\") and 物語る («рассказывать; свидетельствовать (о чём-либо)», with example 1 «рассказал»; \"imperfective-infinitive title convention; «поведать» bookish/perfective; 語る/話す already excluded\"); the オルガン paragraph on the Russian homograph (\"draft claimed the same word \"also means\" these\"); and 王女's quiz_exclusions, dropping the RU-added 王子 (\"no shared segment or meaning overlap (принцесса vs принц is a valid distractor); EN excludes only 女王\"), which therefore never reached the candidate. It accepted the other cards as drafted (\"Unchanged cards judged faithful: 生る 生け花 生える 甘やかす 瓶詰 楽器 琴 学部 学科 理科 現に 率直 献立 特色 特長 指定 特定 特売 怪しい 危うい 物騒 物置 定規 (plus the edited cards' unchanged prose)\"); kept 特定's title «конкретный; выявление (причины, лица)» (\"EN \"specifying\" is taught in the body; adding «указание» would create a new overlap with 示す\"); kept the eighteen RU-added exclusions listed below; adapted the English-specific EN notes (\"生える \"cut teeth\"; 物語る English \"tell\"; オルガン English \"organ\" (now Russian homograph)\"); recorded \"Kanji/article links dropped where the target is absent in RU (甘やかす, 瓶詰, 怪しい); 怪しい's article mention is plain.\"; and accepted the 指定席 gloss «место, указанное в билете». That sentence names the kanji and article links in three cards; the plain EN link targets also include 倉庫→kanji/庫 and the word links 生える→枯れる and 学科→学級 (see the unwrapped-targets note). Fix 1 later changed two coordinator-edited cards again: 独り言's title is now «разговор с самим собой» and its line 17 is rewritten; 生ずる's title is now «возникать; порождать» and its line 16 is rewritten, while the coordinator's example 1 «возникают проблемы» is unchanged. Fix 1 also removed the parenthetical from the 特定 title the coordinator had kept (now «конкретный; выявление»). The coordinator's other edits stand. Lane validation: \"manifest 5,619 files (version dd58847bc3fbf858); validate 0 errors; 124 tests OK; budget OK (5,636 entries; localZipBytes 8,148,460); link parity over 45 files: no LOST; EXTRA only pre-existing RU-only links in already-published nav files (kanji/危 → 急, 危ない; バイオリン → 弾く; 学会 → 社会), present at `c123f7f`; navonly 15 files / 21 links / 0 problems; diff --check clean; no BOM/CR/missing EOL (46 paths).\" The lane manifest version differs from the candidate's because the lane tree also carries its own copies of earlier lane drafts. The candidate script checked that the lane was clean at 819ee18 with parent c123f7f, that HEAD was the Batch 249 publication record with the published baseline as its parent and as origin/main, that the primary tree, including ignored files, was clean, that the fifteen navigation files were unchanged between c123f7f and the published HEAD and that no new word file already existed; it copied the 45 lane files, byte-compared every copy with the lane, regenerated the manifest (5,619 entries: 5,614 files, 3 images and 2 scenes; contentVersion bddfd3e4d9e4aa9d) and checked that the changed path set was exactly the 45 batch paths plus manifest.json; its stopping checks (validate, unit tests, budget, `git diff --check`, the navigation-only check over the fifteen files and the tracking-ledger pre-check) passed. For this record the 45 committed content blobs at 4a5e70f and at 9e339f5 were checked: none has a BOM or CR, and every file ends with a newline; link parity at 9e339f5 (\"checked 45\") shows no LOST link and four EXTRA links, all pre-existing RU-only links in navigation files (kanji/危 → kanji/急 and words/危ない; words/バイオリン → words/弾く; words/学会 → words/社会), which are identical at the published baseline ed6aa52 and at 9e339f5; fix 1 adds, removes or retargets no link, so the candidate has the same result. The candidate title screen (b250-cand-screen.txt, 321 lines: 43 OK and 278 !! lines) has 3 exact-segment lines. Two are OK, each guarded by the batch card's own EN entry: 生ずる–生じる «возникать» and «порождать» (生ずる lists 生じる) and 物語る–語る «рассказывать» (物語る lists 語る). One is !!: 生ずる–呼ぶ «вызывать» (line 12), which the consistency reviewer raised as optional F4 and the comprehensibility reviewer as C1, and which fix 1 removed. b250-screen.txt (321 lines, the lane screen) differs from the candidate screen in one stem-only line, 率直 ~ 直前, which shows the lane's pre-publication 直前 title «непосредственно перед (по времени); прямо перед (в пространстве)» instead of the published «непосредственно перед; прямо перед»; no exact-segment line differs, and its line 12, which the dispositions cite as `b250-screen.txt:12`, is identical to line 12 of b250-cand-screen.txt. b250-screen-out.txt (336 lines) is the author's earlier lane screen and has no exact-segment line. Correctness raised two findings (\"CORRECTNESS NEEDS FIX (F02); SCOPED COVERAGE NEEDS FIX (F01). Counts: Critical/P0 0; High/P1 0; Medium/P2 1; Low/P3 1.\") and no optional note: F01 (Low, P3; scoped coverage), the kana readings at 怪しい:20–21 \"remove source-internal spaces\", and F02 (Medium, P2; correctness), 瓶詰 «розлив», which \"restricts it to pouring liquid\". Consistency reported \"CONSISTENCY: PASS. No High or Medium findings.\" and \"QUIZ SAFETY: PASS. No missing required guard was found.\", with three low guard classifications (F1 特長→長短 \"not needed\"; F2 特長→武器 justified and 特長→節 conservative; F3 楽器→器具 conservative, \"harmless and arguably helpful\"), two optional findings (F4, an optional 呼ぶ guard on 生ずる for the shared «вызывать»; F5, the 献立:32–34 `kango` remark) and optional polish notes on 現に's register and 特定's «выявление». Comprehensibility reported \"Comprehensibility NEEDS FIX. Scoped coverage CLEAN.\" with seven findings: four medium (C1 生ずる «вызывать» shared with 呼ぶ; C2 瓶詰 «розлив» and the title length; C3 独り言's unqualified «монолог»; C4 特定's narrowed «выявление (причины, лица)») and three low (C5 物騒's definition-like title; C6 危うい:22's future «окажется под угрозой»; C7 献立:52's reversed translation remark), plus optional notes on the 瓶詰:31 and 献立:33 `kango` sentences and the 学部:37 English \"faculty\" contrast. F02 and C2 reached the same conclusion independently and were merged into one fix. All accepted changes are in the one signed fix commit 9e339f5 (\"Batch 250 fix 1: apply blind-review dispositions\"): 怪しい:20–21 kana readings 「あの はなしは すこし あやしいです。」 and 「かれが くるかどうか あやしいです。」 (F01); 瓶詰 title and H1 «фасовка в бутылки и банки; в бутылках или банках» (from «розлив по бутылкам и банкам; в бутылках или банках»), line 16 «…фасовку в бутылки или банки…», line 20 «Я разложил джем по банкам.» and line 38 «Фасовка может быть частью…» (F02 and C2); 生ずる title and H1 «возникать; порождать» (from «возникать; порождать; вызывать») and line 16 «生ずる означает порождать что-либо либо возникать, зарождаться.» (C1); 独り言 title and H1 «разговор с самим собой» (from «разговор с самим собой; монолог») and line 17 «Так можно назвать и монолог, если это речь, обращённая к самому себе, а не к слушателям.» (C3, with modification); 特定 title and H1 «конкретный; выявление» (from «конкретный; выявление (причины, лица)»; C4, with modification); 物騒 title and H1 «небезопасный; угрожающий» (from «небезопасный; неблагополучный (об обстановке); угрожающий (о словах)»; C5); 危うい:22 «Если так пойдёт и дальше, будущее компании под угрозой.» (C6); 献立:52 «Какой перевод выбрать, зависит от того, что планируют.» (C7); and the deletion of 学部:37 «Здесь «факультет» — организационная единица, а не весь преподавательский состав.» (comprehensibility optional; adapted from EN 学部:31 \"\"Faculty\" here is an organizational unit, not simply the university's teaching staff.\"), which carried no link. B250 had one signed fix commit after the blind reviews: fix 1 (9e339f5) applied the dispositions of all three reviews (9 word cards — 怪しい, 瓶詰, 生ずる, 独り言, 特定, 物騒, 危うい, 献立, 学部 — + manifest.json; no navigation-only file changed, so navigation stays at 15 files / 21 links). Each reviewer rechecked the fix diff 4a5e70f..9e339f5 once, serially (comprehensibility, then correctness, then consistency; the initial reviews ran correctness, then consistency, then comprehensibility), read-only, with no generator run; the rechecks were written as separate reports (b250-recheck-{correctness,consistency,comprehensibility}.md), and the three recheck briefs are saved as b250-recheck-msg-{comprehensibility,correctness,consistency}.txt (the correctness and consistency briefs were sent inline and saved afterwards, verbatim from the agent history).\nComprehensibility (grok-4.7) at 9e339f5 reported \"Verdicts: Comprehensibility CLEAN. Scoped coverage CLEAN.\" and \"Findings: none.\" It reconciled C1 (生ずる title «возникать; порождать», «вызывать» gone), C2 (瓶詰 «розлив»/«разлил» replaced; the plural «в бутылках или банках» \"a sound tweak\"), C3 (独り言: unqualified «монолог» left the title; the body keeps the soliloquy point), C4 (特定: «(причины, лица)» removed; it agreed «обозначение» would read as a sign), C5 (物騒 «небезопасный; угрожающий»; «неспокойный» correctly avoided), C6 (危うい:22) and C7 (献立:52) as resolved, the optional kango sentences as \"withdrawn — decline stands\" and the optional 学部 faculty sentence as resolved (deleted). It found no regression in the new text of the nine changed cards. Its stated limits: the other 21 batch cards were not re-read; the post-fix title screen was not re-run (neighbour titles read directly); 生じる's own body still says «вызывать», a card outside the diff that no longer shares a quiz answer with 生ずる.\nCorrectness (gpt-6.1-sol) at 9e339f5 reported \"Verdicts: CORRECTNESS CLEAN; SCOPED COVERAGE CLEAN. No actionable defect established; not exhaustive certification.\" and \"Findings: None new or unresolved.\" It reconciled F01 (怪しい:20–21 kana spacing) as RESOLVED and F02 (瓶詰) as \"RESOLVED WITH MODIFIED REMEDY\", accepting «фасовка» instead of its suggested «упаковка» (Gramota defines portioning/packing goods, not only liquids); it had no original optional item, classified its original dictionary-access limits as resolved for the changed claims and its empirical/full-corpus limits as optional/outside the recheck. It read the nine changed cards in full against frozen EN and checked each changed passage, citing JMdict, Digital Daijisen (via weblio.jp), Gramota and kotobank (Gramota search returned 429; direct entries worked). It found all 18 Japanese example sentences and internal kana strings matching EN, non-title metadata and links unchanged, and independently checked the nine manifest SHA-256 values (manifest changes only those hashes and contentVersion). Its stated limits: the recheck is bounded to the fix passages and full-card context; the coordinator's validation and title-screen claims were not independently rerun; no assertion about unrelated declined suggestions; original report preserved unchanged.\nConsistency (claude-sonnet-5.5) at 9e339f5 reported \"Verdicts: CONSISTENCY: CLEAN on HEAD. QUIZ SAFETY: CLEAN on HEAD.\" and \"Findings: none. No new or unresolved actionable items.\" It reconciled F1 (特長→長短) as optional with the decline accepted, F2 and F3 (特長→節, 楽器→器具) as no action, F4 (生ずる ~ 呼ぶ «вызывать») as resolved by C1, F5 (献立 kango remark) as declined and withdrawn, the optional 現に register note as declined (accepted) and the optional 特定 «выявление» note as resolved. It found no exact-segment collision for the changed titles (瓶詰's «фасов» unique; 生ずる's title now equals 生じる's, the only two cards with those segments, which it judged safe because of the exclusion and the あさって/明後日 and やっぱり/やはり precedents; 特定's «конкретный» and «выявление» and 物騒's segments unique), confirmed that every changed H1 ends with its title, that only `title` changed among front-matter fields, that the 学部 deletion leaves no dangling reference, that manifest.json differs only in contentVersion (bddfd3e4d9e4aa9d → 14b5ac2292329014) and the 9 matching hashes, and that the post-fix screen paragraph in the dispositions matches its observation; it called 独り言 line 17 long (\"cosmetic only\"). It gave the manifest as \"unchanged at 5,623 entries\"; the coordinator's count of manifest.json at 9e339f5 is 5,619 entries (5,614 `files` + 3 images + 2 scenes), and the reviewer's tally method is not recorded. Its stated limits: its unique-segment screen used its own parser over the RU word titles; it did not re-read all 30 batch cards beyond the changes; the F1 decline is a judgement call on its side.\nThe coordinator took no further action: no reviewer reported a new finding or an open optional note (the 独り言 line-17 length remark is cosmetic and was not raised as a finding). No actionable finding remains; no second fix is needed. Fix 1 changed no Japanese example sentence, link, exclusion, kanji card, navigation file or non-title front-matter field; apart from restoring EN's internal spaces in 怪しい's two kana readings (F01) it changed Russian text only, in nine new word files (19 lines added and 20 removed), and the manifest. It retitled 瓶詰, 生ずる, 独り言, 特定 and 物騒 and deleted one English-dependent sentence (学部:37). No file at 9e339f5 contains any of the five old titles. All three reviewers read all 30 new cards in full against their EN originals; the consistency reviewer also ran scripted checks (\"front matter against EN, link sets, footers and JMdict numbers, headings, and the intake path list\"). All three read the fifteen navigation diffs; the correctness reviewer reviewed them \"as bounded diffs, not as full-card audits\". The consistency reviewer checked the intake path list (\"it has 45 payload paths. Together with the intake file itself and `manifest.json`, that equals the 47 changed paths exactly. `held` is empty, and it has no learner content.\"), recomputed the manifest in memory (equal to the committed manifest; this created a Python bytecode cache under `tools`, which it deleted) and ran `tools/validate.py` (0 errors) at the candidate; the correctness reviewer records \"No validator, generator, build, app test, or native-speaker acceptance check run.\"; the comprehensibility reviewer records no validator run. At recheck the consistency reviewer ran the validator (0 errors) and removed the bytecode cache it left. All three initial reports and all three recheck reports record a clean status. No reviewer wrote generator output. Evidence includes JMdict (EDRDG JMdict_e and Jisho), KANJIDIC2, Digital Daijisen via Weblio, Kotobank, gramota.ru, supplementary Wiktionary entries and the EN N2 source index. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, recheck reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 117 EN exclusions across 23 lists are retained in EN order (EN has no list on 生る, 生け花, 甘やかす, 瓦, オルガン, 倉庫 or 定規). 10 lie inside the batch: 楽器–オルガン, 琴–楽器, 学科–学部, 理科–学科, 特色–特長, 特長–特色, 特定–指定, 危うい–怪しい, 物騒–危うい and 物置–倉庫; the other 107 target existing RU cards. Eighteen direct, one-sided exclusions on twelve new cards cover reviewed RU title overlaps, each appended after the EN entries of its list (生る has no EN list): 生る–実 and 収穫, 瓶詰–缶詰, 楽器–器具, 学科–学問, 独り言–会話 and 話, 特色–癖, 特長–節, 武器 and 長短, 指定–示す and 定期, 特定–具体, 特売–発売, 危うい–重体, and 物置–押し入れ and 貯蔵. All were present at the candidate, and fix 1 changed none. The coordinator accepted them as \"生る→実, 収穫 («плод(ы)»); 瓶詰→缶詰 («банка» = jar/can); 楽器→器具 («инструмент»); 学科→学問 («дисциплина»); 特色→癖 («особенность»); 特長→武器 (required: «сильная сторона/черта»), 長短, 節 (conservative); 指定→示す, 定期; 特定→具体; 特売→発売 (conservative); 危うい→重体 («угроз-»); 物置→押し入れ (conservative, storage space), 貯蔵 («хранени-»); 独り言→会話, 話 (conservative: shared «разговор»).\" The consistency reviewer classed 生る→実, 収穫, 瓶詰→缶詰, 学科→学問, 特定→具体, 特色→癖, 特長→武器 and 特売→発売 as required, and 独り言→会話, 話, 指定→示す, 定期, 危うい→重体, 物置→押し入れ, 貯蔵, 特長→節, 長短 and 楽器→器具 as plausible or conservative, and found no unjustified guard (\"none that could mislead\"). The two records differ on 特売→発売 (coordinator conservative, reviewer required) and on 特長→長短: the reviewer's low finding F1 called that guard \"not needed\" (\"Optional: drop `長短`. Harmless if kept.\"); the dispositions declined F1 because 長短 «длина; достоинства и недостатки» and 特長 «сильная черта; отличительное достоинство» \"share the «достоин-» stem and the evaluative merit sense\", and the consistency recheck accepted the decline (\"The guard is harmless and conservative.\"). F2 (特長→節) and F3 (楽器→器具) were conservative on both sides and needed no action. The correctness reviewer found that \"every new exclusion names an existing RU card\". Before the candidate the coordinator dropped one further RU-added entry, 王女→王子 (\"no shared segment or meaning overlap (принцесса vs принц is a valid distractor); EN excludes only 女王\"). The candidate title screen (b250-cand-screen.txt; 321 lines) has 43 OK lines for guarded pairs and 278 !! lines; of its 3 exact-segment lines, two are guarded by the batch card's own EN entries (生ずる–生じる «возникать», «порождать» and 物語る–語る «рассказывать»), and one, 生ずる–呼ぶ «вызывать», was unguarded: consistency F4 suggested an optional 呼ぶ guard, comprehensibility C1 asked for «вызывать» to leave the title rather than be hidden by a guard, and fix 1 retitled 生ずる «возникать; порождать», so no guard was added. A saved rerun at 9e339f5 over the 30 batch words (b250-fix-screen.txt; 294 lines) has 42 OK lines and 252 !! lines and two exact-segment lines, both OK (生ずる–生じる, now with identical titles, and 物語る–語る); no unguarded exact-segment line remains. Against the candidate screen it removes 51 lines and adds 24, all from the five retitles: 生ずる 5 removed and 2 added (the 呼ぶ «вызывать» line, and the かわいそう and 有難い lines, disappear; 生じる and 誕生 change wording), 瓶詰 3 and 3 (支店, 瓶 and 缶; title wording only), 独り言 17 and 17 (title wording only), 特定 9 and 2 (only 具体, OK, and 場面 remain), 物騒 16 and 0 (the stems of «неблагополучный», «обстановке» and «словах» disappear), and one 怪しい–生ずる «вызыв» line removed. The consistency recheck found that 瓶詰's «фасов», 独り言's «разговор с самим собой», 特定's «конкретный» and «выявление» and 物騒's «небезопасный» and «угрожающий» segments are unique, and judged the identical 生ずる/生じる titles safe because the pair is excluded and matches the identical-title precedents あさって/明後日 and やっぱり/やはり. Every RU addition is appended at the end of its list, and no EN entry is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/250-words-batch-89-intake.json",
+  "docs/translation-batches/250-words-batch-89-independent-review-001.md",
+  "docs/translation-batches/250-words-batch-89-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "倉",
+   "器",
+   "庫",
+   "怪",
+   "独",
+   "献",
+   "率",
+   "琴",
+   "瓦",
+   "瓶",
+   "甘",
+   "詰",
+   "騒"
+  ],
+  "navigationNote": "Restored 21 relative links in the 15 listed Markdown files at the corresponding EN-linked positions, using EN's href form (../words/X.md in kanji files, X.md in word files): kanji 卒 to 率直 (line 56, matching EN line 52); kanji 危 to 危うい (lines 34 and 44, matching EN lines 33 and 39); kanji 定 to 定規 (lines 35 and 44, matching EN lines 31 and 40); kanji 規 to 定規 (lines 20, 32 and 36, matching EN lines 20, 31 and 35); word いかがわしい to 怪しい (line 31, matching EN line 32); word バイオリン to 楽器 (line 28, matching EN line 28); word ピアノ to 楽器 (line 40, matching EN line 27); word 奇しい to 怪しい (lines 15 and 29, matching EN lines 15 and 35); word 女王 to 王女 (line 31, matching EN line 28); word 妖しい to 怪しい (lines 15 and 28, matching EN lines 16 and 31); word 学会 to 学科 (line 33, matching EN line 33); word 挿す to 生け花 (line 36, matching EN line 36); word 疑わしい to 怪しい (line 31, matching EN line 32); word 発売, a card published in Batch 249, to 特売 (line 29, matching EN line 35); and word 課程 to 学科 (line 29, matching EN line 29). Other mentions stay plain text: 定規 in kanji 規 (line 42, as EN line 41); 怪しい in いかがわしい (line 45, as EN line 41), 奇しい (lines 21, 33, 37 and 39; EN leaves lines 25, 41 and 51 plain), 妖しい (lines 34, 36 and 39, as EN lines 39, 42 and 46) and 疑わしい (lines 37, 39 and 41, as EN lines 38, 40 and 42), including the plain pointer «см. в статье о 怪しい и близких словах» in いかがわしい:45, 奇しい:37, 妖しい:36 and 疑わしい:41, whose EN article target is absent in RU; 王女 in 女王 (line 37, as EN line 32); and 危うい in kanji 危 at line 38, a pre-existing sentence with no EN counterpart. The other files mention their targets only on the linked lines. kanji 危's RU-only links to kanji 急 and words 危ない, バイオリン's RU-only link to 弾く and 学会's RU-only link to 社会 predate this batch and are unchanged (identical at the published baseline ed6aa52 and at 9e339f5; EN has none of them). All fifteen files were copied from the authoring worktree; no link was held from an earlier batch, no surrounding prose changed at the candidate, and no navigation file changed after the candidate; navigation totals remain 15 files and 21 links. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/卒.md",
+   "kanji/危.md",
+   "kanji/定.md",
+   "kanji/規.md",
+   "words/いかがわしい.md",
+   "words/バイオリン.md",
+   "words/ピアノ.md",
+   "words/奇しい.md",
+   "words/女王.md",
+   "words/妖しい.md",
+   "words/学会.md",
+   "words/挿す.md",
+   "words/疑わしい.md",
+   "words/発売.md",
+   "words/課程.md"
+  ],
+  "newWords": [
+   "生る",
+   "生ずる",
+   "生け花",
+   "生える",
+   "甘やかす",
+   "瓶詰",
+   "瓦",
+   "オルガン",
+   "楽器",
+   "琴",
+   "学部",
+   "学科",
+   "理科",
+   "現に",
+   "王女",
+   "率直",
+   "献立",
+   "独り言",
+   "特色",
+   "特長",
+   "指定",
+   "特定",
+   "特売",
+   "怪しい",
+   "危うい",
+   "物騒",
+   "物語る",
+   "倉庫",
+   "物置",
+   "定規"
+  ],
+  "selection": "Batch 89 selected 30 word cards from the frozen source: chunk 42 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 897 remained after Batch 249, and 867 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing outside them was added. 特長 enters the closure through 特色 and is itself in the requested set. Ten source exclusion entries lie inside the batch; the other 107 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (7 EN link occurrences, 7 targets) in the new cards: 生える→words/枯れる, 学科→words/学級, 甘やかす→kanji 甘, 瓶詰→kanji 瓶 and kanji 詰, 怪しい→kanji 怪 and 倉庫→kanji 庫 (瓶詰 keeps its EN links to the existing word cards 詰める, 缶詰, 瓶 and 保存). In addition, 怪しい's EN link to the article ../articles/ayashii-and-related-words.md (EN 怪しい:46), which is absent in RU, is plain text at RU 怪しい:47–48 («…см. в статье о 怪しい и близких словах.»). 13 written kanji have no RU kanji card: 倉 器 庫 怪 独 献 率 琴 瓦 瓶 甘 詰 騒 (EN has cards only for 庫, 怪, 瓶, 甘 and 詰). Links otherwise follow EN: link parity reports no LOST link, the new cards have no RU-only link, and fix 1 added, removed or retargeted no link. All 7 EN links between batch cards are kept.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined, modified or no-action items: correctness F01 was accepted with the reviewer's remedy. Correctness F02 was accepted with modification and merged with comprehensibility C2: the reviewer's «упаковка» was not used because \"published 包装 owns the exact quiz segment «упаковка». No pool title contains «фасов».\"; the correctness recheck reconciled F02 as \"RESOLVED WITH MODIFIED REMEDY\" (\"Accept «фасовка» instead of «упаковка»: it removes the liquid-only restriction.\"). Consistency F1 (特長→長短) was declined (\"so the conservative guard stays; it removes no needed distractor\"); the recheck: \"I accept the decline. The guard is harmless and conservative.\" F2 and F3 (特長→節, 楽器→器具) needed no action (\"reviewer: conservative, no change needed\"); the recheck closed them as \"conservative, kept\". F4 (生ずる ~ 呼ぶ «вызывать») was resolved by C1 with no guard added; the recheck: \"I confirmed that no title now shares the segment with 呼ぶ, and I agree that a guard is unnecessary.\" F5 (the 献立:32–34 `kango` remark) was declined: \"Frozen EN 瓶詰:34 states the same app policy (\"The app groups on-first mixed compounds under `kango`\"), and published RU 派手, 王様, 蛇口 and 見本 use the same sentence.\"; the recheck: \"declined, and I withdraw it\". The optional polish notes on 現に's register and 特定's «выявление» were declined (\"reviewer: not defects\"); at recheck the reviewer accepted the 現に decline and recorded 特定 as \"Resolved\" because the narrowing parenthetical had gone. Comprehensibility C1, C2, C5, C6 and C7 were accepted. C3 was accepted with modification: the title is «разговор с самим собой» because \"«монолог (к себе)» reads awkwardly as a quiz answer\", with line 17 keeping EN's soliloquy point; the recheck: \"I agree «монолог (к себе)» would be a poor quiz answer.\" C4 was accepted with modification: the title is «конкретный; выявление» because \"The suggested «обозначение» is not used: in Russian titles it reads as a sign or notation (published 符号 «условное обозначение», 番号 «номер (для обозначения)»), and «указание» would repeat 指定's leading segment\"; the recheck: \"I agree «обозначение» would read as a sign\". C2's singular «в бутылке или банке» became the plural «в бутылках или банках», which the recheck called \"a sound tweak\". The optional 瓶詰:31 and 献立:33 `kango` sentences were declined (see F5); the recheck: \"withdrawn — decline stands\". The optional 学部:37 deletion was accepted (it \"rejects English \"faculty\" (teaching staff), a reading Russian «факультет» never has (English-only contrast rule)\"); the recheck: \"resolved — deleted\". Recheck qualifications: the comprehensibility recheck noted that \"`生じる`'s own body still says «вызывать»; that card was not in this diff and is no longer a shared quiz answer with `生ずる`.\"; the consistency recheck called 独り言 line 17 \"long (cosmetic only)\" and did not raise it as a finding. No follow-up is recorded as part of this batch.",
+  "exclusionsAddedBeyondEn": {
+   "危うい": [
+    "重体"
+   ],
+   "学科": [
+    "学問"
+   ],
+   "指定": [
+    "示す",
+    "定期"
+   ],
+   "楽器": [
+    "器具"
+   ],
+   "物置": [
+    "押し入れ",
+    "貯蔵"
+   ],
+   "特売": [
+    "発売"
+   ],
+   "特定": [
+    "具体"
+   ],
+   "特色": [
+    "癖"
+   ],
+   "特長": [
+    "節",
+    "武器",
+    "長短"
+   ],
+   "独り言": [
+    "会話",
+    "話"
+   ],
+   "瓶詰": [
+    "缶詰"
+   ],
+   "生る": [
+    "実",
+    "収穫"
+   ]
+  },
+  "titles": {
+   "オルガン": "орган (музыкальный инструмент)",
+   "倉庫": "склад",
+   "危うい": "под угрозой; шаткий (о положении)",
+   "学科": "учебная дисциплина; отделение факультета",
+   "学部": "факультет; бакалавриат",
+   "定規": "линейка",
+   "怪しい": "внушающий подозрения; вызывающий сомнения",
+   "指定": "указание; установление (места, срока)",
+   "楽器": "музыкальный инструмент",
+   "物置": "кладовая; сарай для хранения вещей",
+   "物語る": "рассказывать; свидетельствовать (о чём-либо)",
+   "物騒": "небезопасный; угрожающий",
+   "特売": "продажа со скидкой; распродажа",
+   "特定": "конкретный; выявление",
+   "特色": "отличительная особенность; своеобразие",
+   "特長": "сильная черта; отличительное достоинство",
+   "独り言": "разговор с самим собой",
+   "献立": "меню; подбор блюд",
+   "率直": "откровенный; прямодушный",
+   "王女": "принцесса (дочь короля)",
+   "現に": "в самом деле; как показывают факты",
+   "理科": "естествознание; естественнонаучные предметы",
+   "琴": "кото; японская цитра",
+   "瓦": "черепица",
+   "瓶詰": "фасовка в бутылки и банки; в бутылках или банках",
+   "甘やかす": "баловать; потакать (кому-либо)",
+   "生える": "прорастать; пробиваться (о волосах, зубах)",
+   "生け花": "икебана; японская аранжировка цветов",
+   "生ずる": "возникать; порождать",
+   "生る": "плодоносить; давать плоды"
+  }
+ }
+}

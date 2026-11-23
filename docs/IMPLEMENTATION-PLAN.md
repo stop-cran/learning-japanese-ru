@@ -8,7 +8,28 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch249 thirty words
+## Current published source milestone: batch250 thirty words
+
+Batch250 added 30 Russian word articles. They are chunk 42 of the recomputed general remaining-word queue,
+dependency-closed under quiz_exclusions with nothing added (特長 enters through 特色 and is itself requested). The
+batch also restored 21 navigation-only links in 15 existing pages: the kanji cards 卒, 危, 定 and 規 and the word
+cards いかがわしい, バイオリン, ピアノ, 奇しい, 女王, 妖しい, 学会, 挿す, 疑わしい, 発売 and 課程.
+
+The candidate was signed and pushed before review. The blind facet-split review found:
+- a correctness finding in 瓶詰 and a scoped-coverage finding in 怪しい;
+- low or optional quiz-safety notes on three authoring guards, one optional guard (生ずる–呼ぶ) and one remark; no
+  consistency, navigation or manifest/intake integration finding;
+- comprehensibility findings in 7 cards.
+
+One signed fix commit addressed them in 9 new word cards, retitling five cards, rewording prose in five, restoring
+kana spacing in one and deleting an English-dependent sentence in 学部; no guard or link changed. The serial rechecks
+found no remaining finding: comprehensibility, scoped coverage, correctness, consistency and quiz safety clean.
+
+Progress: **5,619 reviewed-current / 8 runtime-blocked / 2,651 pending of 8,278**; 4,153 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch250-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch249 thirty words
 
 Batch249 added 30 Russian word articles. They are chunk 41 of the recomputed general remaining-word queue,
 dependency-closed under quiz_exclusions with nothing added. The batch also restored 10 navigation-only links in 10
@@ -28,7 +49,7 @@ safety clean.
 
 Progress: **5,589 reviewed-current / 8 runtime-blocked / 2,681 pending of 8,278**; 4,123 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch249-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch249-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch248 thirty words
 

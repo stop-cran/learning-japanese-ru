@@ -1,6 +1,75 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch249 thirty words (general word queue)
+## Current published source milestone: batch250 thirty words (general word queue)
+
+Batch250 adds 30 Russian word articles: 生る 生ずる 生け花 生える 甘やかす 瓶詰 瓦 オルガン 楽器 琴 学部 学科 理科 現に
+王女 率直 献立 独り言 特色 特長 指定 特定 特売 怪しい 危うい 物騒 物語る 倉庫 物置 定規. They are chunk 42 of 72 of the
+general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is
+exactly the 30 requested words (特長 enters the closure through 特色 and is itself in the requested set), so every EN
+quiz_exclusions target resolves to an existing RU word or a word in the batch; 10 of the 117 EN entries lie inside the
+batch.
+
+Navigation-only link restorations add 21 links at EN link positions in 15 existing pages: the kanji cards 卒 (to 率直),
+危 (to 危うい), 定 and 規 (each to 定規) and the word cards いかがわしい, 奇しい, 妖しい and 疑わしい (each to 怪しい),
+バイオリン and ピアノ (each to 楽器), 女王 (to 王女), 学会 and 課程 (each to 学科), 挿す (to 生け花) and 発売 (to 特売).
+The RU-only links already present in kanji 危, バイオリン and 学会 predate this batch and are unchanged. No link was
+held from an earlier batch. The new cards keep EN's links to existing cards; their links to the word cards 枯れる and
+学級 and the kanji cards 甘, 瓶, 詰, 怪 and 庫, and 怪しい's link to an EN article absent in RU, stay plain until those
+targets are adapted.
+
+The batch covers:
+- growth and arising: bear fruit (生る), arise or produce (生ずる) and sprout or grow, of hair or teeth (生える);
+- flowers and upbringing: ikebana or Japanese flower arrangement (生け花) and pamper or spoil someone (甘やかす);
+- containers and roofs: bottling or bottled (瓶詰) and a roof tile (瓦);
+- music: an organ (オルガン), a musical instrument (楽器) and the koto (琴);
+- study: a university faculty or undergraduate division (学部), a school subject or university department (学科) and
+  science subjects (理科);
+- candour and fact: actually or as a matter of fact (現に), frank or candid (率直) and talking to oneself (独り言);
+- royalty and meals: a princess (王女) and a menu or planned dishes (献立);
+- distinctiveness and designation: a distinctive feature (特色), a strong point or merit (特長), designation or
+  specification (指定), specific or identifying (特定) and a special or bargain sale (特売);
+- suspicion and danger: suspicious or doubtful (怪しい), precarious or in danger (危うい) and unsafe or threatening
+  (物騒);
+- telling: recount or indicate (物語る);
+- storage and tools: a warehouse (倉庫), a storeroom or storage shed (物置) and a ruler (定規).
+
+All 117 EN exclusions are retained in EN order. Eighteen direct guards on 12 new cards cover reviewed RU overlaps; all
+came from authoring, were accepted by the coordinator and were appended at the end of their lists, and the fix changed
+none of them.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: a correctness finding on 瓶詰's «розлив», which restricted bottling to liquids, and a scoped-coverage
+  finding on the kana spacing of two readings in 怪しい;
+- consistency: consistency, links, metadata and manifest/intake integration clean; low or optional quiz-safety notes on
+  three authoring guards (特長–長短, 特長–節 and 楽器–器具), an optional 生ずる–呼ぶ guard for the shared «вызывать» and a `kango` remark in 献立;
+- comprehensibility: findings in 生ずる, 瓶詰, 独り言, 特定, 物騒, 危うい and 献立, mostly titles that shared another
+  card's quiz answer, narrowed or overstated a sense, or read like a definition, plus two example or explanation
+  sentences that shifted tense or reversed EN's point.
+
+One signed fix commit addressed them in 9 new word cards:
+- it retitled 瓶詰 «фасовка в бутылки и банки; в бутылках или банках», 生ずる «возникать; порождать», 独り言 «разговор с
+  самим собой», 特定 «конкретный; выявление» and 物騒 «небезопасный; угрожающий»;
+- it reworded prose in 瓶詰, 生ずる, 独り言, 危うい and 献立 and restored EN's kana spacing in 怪しい;
+- it deleted a sentence in 学部 that contrasted English "faculty" with teaching staff.
+
+Removing «вызывать» from 生ずる's title also resolved the optional 呼ぶ guard, so none was added. The guard on 特長–長短
+and the `kango` remarks were kept, the remarks for EN parity; the reviewers accepted these declines at recheck. The
+serial rechecks reported comprehensibility, scoped coverage, correctness, consistency and quiz safety clean, with no new
+finding.
+
+Links follow EN, except the plain links to absent targets above.
+
+Qualified progress is **5,619 reviewed-current / 8 reviewed runtime-blocked / 2,651 pending of 8,278**,
+with 4,153 words, 718 kanji and 718 strokes. See the [intake](translation-batches/250-words-batch-89-intake.json),
+[independent review](translation-batches/250-words-batch-89-independent-review-001.md),
+[recheck](translation-batches/250-words-batch-89-recheck-001.md),
+[qualified source record](translation-batches/250-words-batch-89-reviewed-source.json) and
+[final validation](translation-batches/250-words-batch-89-final-validation-001.json).
+
+## Previous published source milestone: batch249 thirty words (general word queue)
 
 Batch249 adds 30 Russian word articles: 発売 スタート 発つ 畳む 住居 住まい 番地 略す 留守番 留まる あてはめる 応用 申請
 申し訳ない 田植え 実用 当番 公務 役目 用途 用語 原産 産地 生長 厚かましい ずうずうしい 生意気 生年月日 人命 生存. They are
