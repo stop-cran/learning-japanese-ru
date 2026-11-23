@@ -1,0 +1,177 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "252-words-batch-91",
+ "publishedBaseline": "60c7b3cabd633a854c9357dcaf2d6b559a8ee026",
+ "qualifiedVerdicts": {
+  "content": "Blind facet-split reviews of the signed candidate ac62348 and serialized rechecks of the signed fix commit 2a3a0d5 found no remaining defect. Of the 39 lane files (30 new cards and the navigation files kanji/停, kanji/各, words/下降, words/派手, words/潰れる, words/火山, words/無限, words/突く and words/転々), 38 were copied byte-identically from the authoring worktree's local-only scratch commit e21a513, and words/派手.md was three-way merged with `git merge-file` (base: the scratch base 1bf398a's copy; ours: the lane's copy, which links 地味 on line 27; theirs: published main's copy, which carries line 31 as reworded by the published Batch 248 fix c43dd9f); no link was held from an earlier batch. Before the candidate the coordinator read \"all 30 B252 word cards read against frozen EN `6af98cb7` in `b252-adj-read.txt` (plus `b252-cmp.txt` metadata/link diffs), and the 9 navigation files (17 added links per `navonly`; the author report's \"14\" undercounted repeated links in kanji/停.md and kanji/各.md)\". It edited two lane cards: 停止's title and H1 («приостановление; прекращение работы» → «остановка (механизма, процесса); приостановление»; \"EN \"stoppage; suspension\"; «прекращение работы» could read as a person stopping/quitting work (the author had to guard 失業)\"), a 停止 example («Механизм внезапно прекратил работу.» → «Механизм внезапно остановился.»; \"EN \"The machine suddenly stopped\"\"), the added guard 停止→停留所 (\"the new title's bare segment «остановка» equals 停留所's «остановка (автобуса, трамвая)» after parenthetical stripping (title screen)\"), オイル's title and H1 («масло для жарки; моторное масло» → «масло; смазочное масло»; \"EN \"oil; lubricant\"; the draft title narrowed to two products while the body says the word is not restricted (olive, massage oil, kerosene)\") and オイル's source-word sentence («Это заимствование, записанное катаканой» → «Это заимствование из английского oil, записанное катаканой»; \"restores EN's source word\"). It accepted two RU-only links: \"断水 → [停電](停電.md): substantive \"not a power outage\" comparison present in EN as plain text; target in this batch.\" and \"地味 → [派手](派手.md): the dictionary antonym discussed in the card; target is the published-before-B252 B248 draft.\" It pruned the RU-added guards under the criterion \"keep where titles share a lexeme or are near-synonyms with overlapping sense; drop antonyms, topical-only pairs, homophones/shared-component pairs and pairs the titles already disambiguate\" (\"Dropped (26; 21 drafted guards kept, 22 RU-added in total with 停止 → 停留所)\"). It accepted as drafted the plain EN-only links (\"EN-only links left plain where the target is absent in RU: kanji 替 炭 鉱 灰 灯 油 濃; words 淡水 乾かす 湿る.\"), the adapted English-only notes (\"灰色 gray/grey spelling note (12 vs 13 paragraphs); 灯油 \"paraffin\" sentence; 為替 \"draft\" note adapted to «перевод» / «платёжный документ»\") and the Russian lexis \"judged natural, not dictionary-checked: «стоянка», «творить», «злоключение», «крапинки», «однотонный», «несметный», «заурядный», «мутнеть» (open to reviewer comment)\". That plain-link list names the same ten absent targets as a mechanical count of EN `.md` link targets (see the unwrapped-targets note). Fix 1 later changed two items the coordinator had kept: 停車's title, which contained «стоянка» (now «остановка транспортного средства»; «стоянка» no longer occurs anywhere in words/停車.md), and 為替's exclusions, which gained 翻訳. Fix 1 did not touch 停止 or オイル, so the coordinator's edits stand. Lane validation: \"manifest 5,679 files (version c7fde884a8a82b79); validate 0 errors; unittest OK; budget OK (5,696 entries; localZipBytes 8,241,688); link parity over 39 files: no LOST, EXTRA only 地味 → 派手 and 断水 → 停電; navonly 9 files / 17 links / 0 problems; title screen 0 unguarded exact overlaps; diff --check clean; no BOM/CR/missing EOL (40 paths).\" The lane manifest version differs from the candidate's because the lane tree also carries its own copies of earlier lane drafts; the entry count is the same. The candidate script checked that the lane was clean at e21a513 with parent 1bf398a, that HEAD was the Batch 251 publication record with the published baseline as its parent and as origin/main, that the primary tree, including ignored files, was clean, that of the nine navigation files only words/派手.md had changed between 1bf398a and the published HEAD and that no new word file already existed; it copied the 39 lane files, merged words/派手.md, regenerated the manifest (5,679 entries: 5,674 files, 3 images and 2 scenes; contentVersion 42a30cef229b3b48), checked that the changed path set was exactly the 39 batch paths plus manifest.json, byte-compared every copy with the lane (words/派手.md with the saved merged file) and asserted that the published-main-to-merged diff of words/派手.md equals the scratch-base-to-lane diff; its stopping checks (validate, unit tests, budget, `git diff --check`, the navigation-only check over the nine files and the tracking-ledger pre-check) passed. At the candidate words/派手.md therefore changes only line 27 (the plain 地味 becomes [地味](地味.md)); its line 31 differs from the scratch base only by c43dd9f (\"Batch 248 fix 1: apply blind-review dispositions\"). For this record the 39 committed content blobs at ac62348 and at 2a3a0d5 were checked: none has a BOM or CR, and every file ends with a newline; link parity at 2a3a0d5 (\"checked 39\") shows no LOST link and three EXTRA links, the reviewed RU-only words/地味 → words/派手, words/断水 → words/停電 and words/潰す → words/直す; on a temporary export of the candidate tree outside every repository (since deleted) it reported \"checked 39\", no LOST link and EXTRA only the first two, and `git diff ac62348 2a3a0d5` confirms that fix 1 added exactly the 潰す → 直す link and removed or retargeted none. The candidate title screen (b252-cand-screen.txt, 321 lines: 42 OK and 279 !! lines) has four exact-segment lines, all OK (guarded): 停止 ~ ストップ, 停止 ~ 停留所, 一通り ~ そっくり and オイル ~ 油. b252-screen.txt and b252-screen-final.txt (323 lines each: 42 OK and 281 !!), the lane screens, have identical lines; against the candidate screen they show the OK lines 停車 ~ 立ち止まる and 停止 ~ 立ち止まる with the lane's own 立ち止まる title «останавливаться на ходу; приостанавливаться» instead of published «останавливаться на ходу; делать паузу» (the 停止 line also with the stem «приос»), and two more stem-only !! lines, 濃度 ~ 発想 and 漢和 ~ 物騒, which show the lane's own copies of those neighbour titles; no exact-segment line differs. Correctness raised one finding (\"Verdicts: correctness NEEDS FIX (停車, F1; no further actionable defect established in the other 29 cards); scoped coverage CLEAN. Russian comprehensibility and quiz quality were not separately assigned or certified.\"): F1 (LOW; correctness — damaged translation/argument structure), 停車:34, where «停止 может и механизм, который вовсе не транспортное средство.» leaves \"the Japanese noun … in the Russian infinitive/predicate position after “может”\", with the remedy «Остановиться может и механизм, который вовсе не является транспортным средством.»; the report has \"Optional: None.\" Consistency reported structure and front matter, navigation restorations, links, footers and source URLs, EN quiz_exclusions, manifest and intake as PASS, \"RU-added guards: PASS with notes. 22 guards were added; none is unjustified.\", \"Missing guards: one finding (F1).\" and \"Titles: PASS with optional polish (O1–O3).\"; its findings are F1 (Medium, confidence medium), the missing guard 為替 ~ 翻訳 (the 為替 segment «денежный перевод» \"shares the bare word «перевод» with `words/翻訳.md`, whose title is «перевод»\"), and F2 (Low, confidence medium; no action required), unguarded in-batch pairs that share only a topic; a classification of the 22 RU-added guards (three required, the others conservative, \"Unjustified: none.\"); optional notes O1 (無沙汰's verb-phrase segment), O2 (潜る «уходить под воду» \"is stilted\") and O3 (為替 «валютный обмен» narrower than EN, 無地 «однотонный», 点々 mixing an adverb and a plural noun); and pre-existing notes outside the batch. Comprehensibility reported \"Verdicts: Comprehensibility: NEEDS FIX (停車, 為替, 一通り, 火傷, オイル, 潰す). The other 24 new cards have no established comprehensibility defect. Scoped coverage: CLEAN.\", with three medium findings, C1 停車's title «остановка транспорта; стоянка (в пути)» (\"teaches the wrong Russian pair\"), C2 為替's «валютный обмен» (\"not distinguishable from 両替 «обмен валюты; размен купюр»\") and C3 一通り:19 («Я прочитал инструкцию от начала до конца» \"states a stronger, cover-to-cover reading than 一通り\"), and four low findings, C4 一通り's «обыкновенный (в отрицании)» (\"a usage rule, not a gloss\"), C5 火傷:31's «в коллекции» and «метаданные записанного слова», C6 オイル:28's Latin `oil` and C7 潰す:39's plain 直す, an existing card. All accepted changes are in the one signed fix commit 2a3a0d5 (\"Batch 252: fix 1 after blind review\"): 停車 title and H1 «остановка транспортного средства» (from «остановка транспорта; стоянка (в пути)»; C1, with modification); 停車:34 «Так говорят и о механизме, который вовсе не является транспортным средством.» (from «停止 может и механизм, который вовсе не транспортное средство.»; correctness F1, with modification; adapted from EN 停車:31 \"a machine can 停止 without being a vehicle\", after RU line 33 «[停止](停止.md)（ていし）— более широкая остановка или приостановление:»); 為替 title and H1 «денежный перевод; валютные операции» (from «валютный обмен; денежный перевод»; C2, with modification) and its appended exclusion 翻訳 (consistency F1); 一通り title and H1 «целиком, но бегло; полный набор; обыкновенный» (from «целиком, но бегло; полный набор; обыкновенный (в отрицании)»; C4, with modification); 一通り:19 «— Я бегло прочитал всю инструкцию.» (from «— Я прочитал инструкцию от начала до конца.», with the Japanese 説明書を一通り読みました。（せつめいしょをひととおりよみました。） unchanged; C3, with modification; EN 一通り:20 \"I read through the instructions.\"); 火傷:31 «Отдельной карточки для кандзи 傷 пока нет, но этот знак всё равно входит в написание 火傷.» (from «Карточки для кандзи 傷 в коллекции пока нет; он всё равно входит в метаданные записанного слова.»; C5, with modification; adapted from EN 火傷:29 \"傷 has no kanji card in the current collection; it still belongs in the written word's metadata.\"); and 潰す:39 «[直す](直す.md)（なおす）— «чинить» — или 立て直す（たてなおす）— «восстанавливать, поправлять» — могут быть противоположностью в подходящем контексте.» (C7; EN 潰す:41 leaves 直す plain). B252 had one signed fix commit after the blind reviews: fix 1 (2a3a0d5) applied the dispositions of all three reviews (5 word cards — 停車, 為替, 一通り, 火傷, 潰す — + manifest.json; no navigation-only file changed; one RU-only link was added, 潰す:39 → 直す, and no link was removed or retargeted, so navigation stays at 9 files / 17 restored links). Each reviewer rechecked the fix diff ac62348..2a3a0d5 once, serially (comprehensibility, then correctness, then consistency; the initial reviews ran correctness, then consistency, then comprehensibility), read-only, with no generator run; the rechecks were written as separate reports (b252-recheck-{correctness,consistency,comprehensibility}.md). The three recheck briefs are saved as b252-recheck-msg-{comprehensibility,correctness,consistency}.txt, and each reviewer received only a pointer message asking it to read its brief in full. The comprehensibility brief was saved at 15:24:30 UTC and pointed to at 15:24:47; the consistency brief was saved at 15:25:32 and pointed to at 15:33:12, after the correctness recheck report (15:32:13). The correctness brief was edited in the same parallel tool batch that sent its pointer (send started 15:28:55; file written 15:28:59): the edit only shortened the Task line to \"Task: reconcile F1 as\", removing the parenthetical \"(and, if you now disagree with it, your earlier acceptance of «стоянка (в пути)»)\"; the saved file is the edited text, which still asks whether dropping «стоянка (в пути)» is right, and the coordinator's records do not establish whether the reviewer read the file before or after that edit.\nComprehensibility (grok-4.7) at 2a3a0d5 reported \"Verdicts: Comprehensibility: CLEAN. Scoped coverage: CLEAN.\" and \"Findings: none.\" It read the five changed cards in full on HEAD, checked the titles of 停留所, 駐車, 駐車場, 両替 and 直す, and reread オイル.md:28. It reconciled C1 (停車 title; declining «краткая остановка (не парковка)» \"is right\"), C2 (為替 title; \"the modification is better\" than «валютный расчёт»), C3 (一通り:19), C4 (一通り title), C5 (火傷:31; \"Rewording instead of deletion is reasonable\") and C7 (潰す:39 → 直す; \"The link target exists\") as resolved, C6 (オイル:28 Latin `oil`) as \"withdrawn\" (\"The decline is reasonable\"; \"Not refiled\"), and its optional notes as optional and unchanged. It found 停車:34 grammatical and referring to 停止, and no regression. Its stated limits: the 25 unchanged batch cards not reread; title screen and validate.py not rerun (the dispositions' post-fix screen used only as a lead); other reviewers' reports not read.\nCorrectness (gpt-6.1-sol) at 2a3a0d5 reported \"Verdicts: correctness CLEAN; scoped coverage CLEAN on HEAD, within this five-card regression scope plus the prior unchanged review scope.\" and \"Findings: None new or unresolved within the assigned facets. F1 resolved; no scoped-coverage regression established.\" It read the five changed cards in full against frozen EN 6af98cb7, plus its original report, the dispositions, the complete word fix diff, words/直す.md and the manifest diff. It reconciled F1 (停車:33–34) as RESOLVED (\"The coordinator's wording is acceptable; my earlier alternative need not be adopted\"; HIGH confidence) and recorded \"Prior “стоянка” lexical check retained, not withdrawn. Removing it from the title is sound disambiguation, not proof that its general-language train-stop sense was false.\" It checked each changed passage against freshly inspected JMdict entries (停止 1434920, 停車 1434960, 為替 1157330, 一通り 1164910 and, for the 潰す:39 link target, 直す 1599390), the kotobank 為替 entry and the ПДД 1.2 definitions (https://pdd.auto.ru/study/pdd/obschie-polozheniya/punkt-1-2/), found 為替's EN guards the exact ordered prefix [両替, 交換, 換える, 替える, 案] followed by RU 通貨 and the new 翻訳, the 潰す → 直す link resolving, Japanese examples and readings unchanged from the candidate, the manifest diff limited to contentVersion and the five hashes, and validate.py 0 errors. Its stated limits: \"CLEAN is bounded, not exhaustive correctness\"; the 25 unchanged cards and other facets' declined observations not reread; frozen-source identity and commit signatures not independently authenticated; full packaging/app quiz behaviour not recertified.\nConsistency (claude-sonnet-5.5) at 2a3a0d5 reported \"Verdicts: Consistency CLEAN on HEAD. Quiz safety CLEAN on HEAD (no unresolved item).\" and \"Findings: none. No new or unresolved actionable items.\" It read the fix diff (5 cards plus manifest) and the dispositions in full and the changed title/H1 and body lines, and ran its own scripted exact-segment comparison of the 3 new titles against all 4,213 RU word titles. It reconciled F1 (為替 ~ 翻訳 guard) as RESOLVED, agreed with leaving 通訳 and 訳す unguarded, recorded F2 as \"WITHDRAWN as actionable; no change needed\", the guard classification (3 required, 19 conservative, 0 unjustified) as unchanged and still valid, O1, O2 and O3 for 無地/点々 as declined and closed, O3 for 為替 as RESOLVED by C2, and the pre-existing notes (火山:23 bracket, 各.md 各々/各自, 火傷 tag) as still OUT OF SCOPE. It found no exact-segment collision for the three new titles, H1 equal to the title on all three, 潰す:39 → 直す resolving, «стоянка», «(в отрицании)» and «валютный обмен» gone from the cards, and the manifest changing only contentVersion (42a30cef… → 38acaade…) and the 5 hashes, with 5,674 file entries + 3 images + 2 scenes = 5,679, agreeing with the dispositions. Its stated limits: word_title_screen.py and link_parity.py not run (screen agreement rests on its own script and spot checks); comma-level matches judged by hand; dictionary senses not independently looked up; no generator run. Its manifest count agrees with the coordinator's.\nThe coordinator took no further action: no reviewer reported a new finding or an open actionable note. No actionable finding remains; no second fix is needed. Fix 1 changed no Japanese example sentence, kana reading, kanji card, navigation file or front-matter field other than `title` (停車, 為替 and 一通り) and `quiz_exclusions` (為替); it changed Russian text, one exclusion list and one link, in five new word files (11 lines added and 11 removed), and the manifest. It retitled three cards, rewrote three sentences (停車:34, 一通り:19's translation and 火傷:31) and added one RU-only link (潰す:39 → 直す); it removed no exclusion and deleted no sentence. No file at 2a3a0d5 contains any of the three old titles. All three reviewers read all 30 new cards in full against their EN originals and read the nine navigation diffs; the correctness reviewer \"inspected the restored-link runtime diffs\", the consistency reviewer read them in full and the comprehensibility reviewer read the \"Link-only hunks … as diffs only, not as new articles\". The consistency reviewer also compared the cards with EN, checked footers, source URLs, entry IDs and sense numbers, checked the manifest and the intake (\"The 39 payload paths equal 30 cards plus 9 nav files. The hashes match, `held` is empty, and there is no learner content.\") and ran `tools/validate.py` (0 errors), and it triaged the title screen only in part; it recorded that it \"accidentally ran `python tools/build_manifest.py --help`. It executed the generator and printed `manifest.json: 5679 files, version 42a30cef229b3b48`. `git status` stayed empty afterwards, so the manifest is byte-identical and current.\" The correctness reviewer ran `tools/validate.py` read-only (\"0 error(s)\") and records \"No generator was run.\"; the comprehensibility reviewer ran the title screen and link parity and records no validator run. No initial or recheck reviewer reports leaving a Python bytecode cache. At recheck the correctness and consistency reviewers ran the validator (0 errors); the comprehensibility reviewer did not. All three initial reports and all three recheck reports record a clean status. Apart from the consistency reviewer's accidental generator run, which left the tree unchanged, no reviewer ran a generator. Evidence includes JMdict (EDRDG JMdict_e and the Jisho API), KANJIDIC2, Digital Daijisen via Weblio, Kotobank, Japanese Wiktionary, Kuznetsov's dictionary and gramota.ru, the ПДД 1.2 definitions and the policy-pinned N2 vocabulary CSV. Final verdicts: correctness CLEAN; scoped coverage CLEAN; comprehensibility CLEAN; consistency CLEAN; quiz safety CLEAN within reviewed batch scope. Full initial reviewer reports, recheck reports, reconciliation and process notes are attached. No native-speaker, app-import, device, learner, voice, drawing, runtime or ordinary-release acceptance is claimed.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "All 143 EN exclusions across 25 lists are retained in EN order (EN has no list on 停電, 断水, 炭鉱, 灰色 or 灯台). 11 lie inside the batch: 停止–停車, 停電 and 断水, 不通–停止, 無沙汰–不通, 一通り–各地, 平凡–一通り and 地味, 無地–地味 and 平凡, and 灯油–オイル; the other 132 target existing RU cards. At the fix, 23 direct, one-sided exclusions on twelve new cards cover reviewed RU title overlaps, each appended after the EN entries of its list: 停車–停留所, 駐車, 駐車場, 立ち止まる and 終点, 停止–止む and 停留所, 無沙汰–久しぶり and 黙る, 地味–謙遜, 各地–全国, 一通り–おおざっぱ, そっくり, 完全 and セット, 平凡–日常, 為替–通貨 and 翻訳, オイル–バター, 潰す–殺す, 潜る–水中, and 漢和–漢字 and 日中. Twenty-two were present at the candidate: the coordinator kept 21 drafted guards and dropped 26 under its criterion (\"keep where titles share a lexeme or are near-synonyms with overlapping sense; drop antonyms, topical-only pairs, homophones/shared-component pairs and pairs the titles already disambiguate\"), noting \"shared «остановка»/«стоянка»\" for 停車's five, \"marginal: «обыденность» ≈ «заурядный»\" for 平凡→日常 and \"«убивать время»/«убивать»\" for 潰す→殺す, and added 停止→停留所 (\"the new title's bare segment «остановка» equals 停留所's «остановка (автобуса, трамвая)» after parenthetical stripping (title screen)\"). The consistency reviewer classed 停止→停留所 (\"bare «остановка»\"), オイル→バター (\"«масло»; the オイル/油 pair is already guarded\") and 一通り→そっくり (\"segment «целиком»\") as \"Required\" and the other nineteen as \"Conservative (real basis, necessity unestablished; keep)\", with \"Unjustified: none.\"; the dispositions: \"Three guards are required and nineteen are conservative. None is unjustified, so all 22 stay.\" Fix 1 removed none and added one: 為替–翻訳 (翻訳 «перевод»; consistency F1, Medium); the dispositions: \"翻訳's whole title is «перевод», and Russian «перевод» also names a money transfer. A 為替 question could therefore show 翻訳 as a second defensible answer.\" and \"The title stays «денежный перевод» in its first segment under C2, so the guard is still required. 通訳 «устный перевод» and 訳す «переводить (на другой язык)» are qualified as translation and are left unguarded.\" At recheck the consistency reviewer recorded \"F1 (為替 ~ 翻訳 guard): RESOLVED.\" and agreed that 通訳 and 訳す \"may stay unguarded\"; the comprehensibility recheck: \"為替's added 翻訳 guard matches the body's «перевод текста» warning and does not change the teaching.\"; the correctness recheck: \"EN guards remain the exact ordered prefix [両替, 交換, 換える, 替える, 案]; existing RU 通貨 follows, then new 翻訳. 翻訳.md exists.\" Consistency F2 (in-batch topic pairs such as 停電~断水 with no shared title segment) needed no action (\"The pairs share a topic but no title segment, and EN has no guards for them.\"); its recheck: \"WITHDRAWN as actionable; no change needed. The fix adds no new in-batch pair.\" The candidate title screen (b252-cand-screen.txt; 321 lines) has 42 OK lines for guarded pairs and 279 !! lines; its four exact-segment lines (停止 ~ ストップ, 停止 ~ 停留所, 一通り ~ そっくり and オイル ~ 油) are all OK. The coordinator's rerun at 2a3a0d5 over the 30 batch words (b252-fix-screen.txt; 312 lines) has 40 OK lines and 272 !! lines and the same four guarded exact-segment lines, the 一通り one showing the new title. Against the candidate screen it removes 69 lines and adds 60: 一通り loses ten !! lines with the stem «отриц» (あんまり, どうしても, なにも, なんとも, 不, 別に, 否定, 滅多に, 短所 and 論ずる), and 8 !! and 5 OK lines show the new title; 停車 gains six !! lines with the stem «средс» (せっけん, 手段, 暮らし, 薬品, 農薬 and 道具), its OK 駐車場 «стоян» line disappears (the guard stays), and 15 !! and 7 OK lines (停止, ストップ, 停留所, 止まる, 止める, 立ち止まる and 終点) show the new title; 為替 loses four !! «обмен» lines (交流, 取り替える, 議論 and 通信) and its OK 交換 and 換える lines, gains two !! «опера» lines (作業 and 手術), turns 為替 ~ 翻訳 from !! to OK, and 14 !! lines and the OK 両替 and 通貨 lines show the new title. No pair outside these words changes. Every RU addition is appended at the end of its list, and no EN entry is removed or reordered. Android applies each declaration symmetrically, so no reverse declarations were added to baseline cards."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/252-words-batch-91-intake.json",
+  "docs/translation-batches/252-words-batch-91-independent-review-001.md",
+  "docs/translation-batches/252-words-batch-91-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "傷",
+   "凡",
+   "替",
+   "汰",
+   "沙",
+   "油",
+   "潜",
+   "潰",
+   "濁",
+   "濃",
+   "濡",
+   "灯",
+   "灰",
+   "災",
+   "炭",
+   "為",
+   "無",
+   "鉱"
+  ],
+  "navigationNote": "Restored 17 relative links in the 9 listed Markdown files at the corresponding EN-linked positions, using EN's href form (../words/X.md in kanji files, X.md in word files): kanji 停 to 停止 (lines 20, 30 and 37), 停車 (lines 30 and 38) and 停電 (lines 20, 30 and 39), matching the same EN lines; kanji 各 to 各地 (lines 28 and 33, matching EN lines 28 and 33); word 下降 to 火口 (line 40, matching EN line 33); word 派手 to 地味 (line 27, matching EN line 31); word 潰れる to 潰す (line 36, matching EN line 36); word 火山 to 火口 (line 23, matching EN line 25); word 無限 to 無数 (line 33, matching EN line 33); word 突く to 点く (line 42, matching EN line 45); and word 転々 to 点々 (line 37, matching EN line 37). Other mentions of the same targets stay plain, as in EN: 各地 in kanji 各 at lines 20 and 40 (EN 20 and 40), 潰す in 潰れる at line 47 (EN 45), 無数 in 無限 at line 42 (EN 42) and 点々 in 転々 at lines 43 and 44 (EN 43 and 44); on 潰れる:36 and 無限:33 only the leading mention is linked, as in EN. Eight files were copied byte-identically from the authoring worktree; words/派手.md was three-way merged with git merge-file (base: the scratch base 1bf398a's copy; ours: the lane's copy with the line-27 link; theirs: published main's copy, which carries line 31 as reworded by the published Batch 248 fix c43dd9f), and the candidate script asserted that the published-main-to-merged diff equals the scratch-base-to-lane diff, so 派手 changes only on line 27. No link was held from an earlier batch, no surrounding prose changed at the candidate, and no navigation file changed after the candidate; navigation totals remain 9 files and 17 links. No navigation file has an RU-only link. Unavailable word targets remain plain text; no substitute cards were invented.",
+  "navigationOnlyEdits": [
+   "kanji/停.md",
+   "kanji/各.md",
+   "words/下降.md",
+   "words/派手.md",
+   "words/潰れる.md",
+   "words/火山.md",
+   "words/無限.md",
+   "words/突く.md",
+   "words/転々.md"
+  ],
+  "newWords": [
+   "停車",
+   "停電",
+   "断水",
+   "停止",
+   "不通",
+   "無沙汰",
+   "無数",
+   "地味",
+   "各地",
+   "一通り",
+   "平凡",
+   "無地",
+   "為替",
+   "為す",
+   "点く",
+   "点々",
+   "炭鉱",
+   "災難",
+   "灰色",
+   "オイル",
+   "灯油",
+   "灯台",
+   "火口",
+   "火傷",
+   "濡らす",
+   "濃度",
+   "濁る",
+   "潰す",
+   "潜る",
+   "漢和"
+  ],
+  "selection": "Batch 91 selected 30 word cards from the frozen source: chunk 44 of the 72-batch dependency-closed queue of the general remaining-word pool (computed after Batch 207 from 2,157 remaining EN words; 837 remained after Batch 251, and 807 remain after this batch). Its closure under the source quiz-exclusion edges is exactly the 30 requested words; nothing outside them was added. 11 source exclusion entries lie inside the batch; the other 132 EN exclusion entries target existing RU cards.",
+  "unwrappedAbsentTargetsNote": "Absent RU targets remain unwrapped (11 EN link occurrences, 10 targets) in the new cards: 断水→words/淡水; 為替→kanji 替; 炭鉱→kanji 炭 and 鉱; 灰色→kanji 灰; 灯油→kanji 灯 and 油; 灯台→kanji 灯; 濡らす→words/乾かす and words/湿る; and 濃度→kanji 濃. The 30 EN cards have no article link. The coordinator's record names the same ten targets; the author report also listed 直す as absent, although words/直す.md exists. 18 written kanji have no RU kanji card: 傷 凡 替 汰 沙 油 潜 潰 濁 濃 濡 灯 灰 災 炭 為 無 鉱 (EN has cards only for 替, 油, 濃, 灯, 灰, 炭 and 鉱; 傷 has the word card words/傷.md but no kanji card in either edition). Links otherwise follow EN: link parity reports no LOST link, with two reviewed RU-only links at substantive comparisons where EN has plain text, present at the candidate: 断水:32 → words/停電 («[停電](停電.md)（ていでん）— отключение электричества, а не воды.»; EN 断水:35 has the plain text \"停電 (ていでん) is a power outage, not a water outage.\"; a card of this batch) and 地味:38 → words/派手 («[派手](派手.md)（はで）— «броский, яркий» — прямой антоним по словарю.»; EN 地味:33 has the plain text \"派手 (はで), \\\"showy; flashy,\\\" is the dictionary's direct antonym.\"; a card published before this batch), and one reviewed RU-only link to an existing card at a substantive comparison where EN has plain text, added by fix 1 (comprehensibility C7): 潰す:39 → words/直す («[直す](直す.md)（なおす）— «чинить» — или 立て直す（たてなおす）— «восстанавливать, поправлять» — могут быть противоположностью в подходящем контексте.»; EN 潰す:41 has the plain text \"直す (なおす), \\\"repair,\\\" or 立て直す (たてなおす), \\\"rebuild; restore,\\\" can contrast in appropriate contexts.\"); 立て直す stays plain because it has no RU card. Fix 1 removed or retargeted no link. All 8 EN links between batch cards are kept.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined, modified or no-action items: correctness F1 was accepted with modification (\"The reviewer's «Остановиться может и механизм…» is grammatical but no longer refers to 停止, which the previous line introduces.\"); the correctness recheck: \"The coordinator's wording is acceptable; my earlier alternative need not be adopted.\" The correctness reviewer's Russian lexical checks (стоянка, крапинка, однотонный, несметный, заурядный, злоключение, мутнеть, творить) needed no action (\"The reviewer found no contradiction on gramota.ru. «стоянка» is removed from 停車's title for a different reason, under C1.\"); the correctness recheck: \"Prior “стоянка” lexical check retained, not withdrawn. Removing it from the title is sound disambiguation, not proof that its general-language train-stop sense was false.\" Comprehensibility C1 was accepted with modification: «стоянка» is dropped because \"Russian traffic rules (ПДД РФ п. 1.2) define «остановка» as a halt of up to 5 minutes, or longer for boarding or loading. «стоянка» is longer than that, which is 駐車 and 駐車場's parking sense.\", and \"The reviewer's «краткая остановка (не парковка)» is not used. The card body (line 42) says that the word itself does not state how long the stop lasts, and a negated parenthesis is not a usable quiz gloss.\"; the comprehensibility recheck: \"Declining «краткая остановка (не парковка)» is right\". C2 was accepted with modification (\"The reviewer's «валютный расчёт» is not used because it is not an established Russian term.\"; recheck: \"the modification is better\"), as were C3 (\"The reviewer's «в общих чертах прочитал» would lose the \"whole document\" part.\"), C4 (\"«(в отрицании)» is dropped from the title and H1, but the first segment keeps its natural order «целиком, но бегло».\") and C5 (\"Deleting the sentence is declined, consistent with C238-6, C2 of B239 and B241. EN keeps it, and published RU cards carry the same kind of note, so a corpus-wide decision remains a follow-up.\"; recheck: \"Rewording instead of deletion is reasonable\"). C6 (オイル:28 Latin `oil`) was declined: \"The «заимствование из английского X» pattern is used on dozens of published loanword cards (アイスクリーム, オフィス, カバー, カーブ, キャプテン and others). B223 C1 preserved it, and the reviewer rates the impact low.\"; the recheck: \"C6 withdrawn.\" and \"The decline is reasonable\". Consistency O1 (無沙汰) was declined (\"EN's \"neglecting to keep in touch\" is also a verbal gloss inside a noun title, and the body explains the register.\"; recheck: \"declined, and I agree. The EN gloss is also verbal. It stays OPTIONAL and closed.\"), O2 (潜る «уходить под воду» or «нырять») was declined (\"«нырять» also covers jumping into water. That would bring 潜る closer to 飛び込む in a learner's memory, even though the guard keeps the quiz safe. The reviewer marks this as optional.\"; recheck: \"declined, and I accept it. The guard covers 飛び込む anyway. OPTIONAL and closed.\"), and O3 was covered by C2 for 為替 and declined for 無地 and 点々 (\"The 無地 body explains «однотонный», and 点々's adverb plus plural noun mirrors EN \"scattered here and there; dots\".\"; recheck: \"O3 for 為替: RESOLVED by C2.\" and \"O3 for 無地/点々: declined, and I agree; the bodies carry the warnings. OPTIONAL and closed.\"). Consistency F2 and the RU-added guard classification needed no action (see the exclusions note); at recheck the classification is \"unchanged and still valid\". The pre-existing notes (火山:23 bracket, 各.md plain 各々/各自, 火傷 tag) are out of scope (\"They are outside the batch or inherited from EN, and are recorded for a later pass.\"; recheck: \"still OUT OF SCOPE\"). The comprehensibility optional notes (災難 «злоключение», 潰す:30 «в коллекции», 無地:41–42, 点々:41, 炭鉱:39, 為す «творить», the long 潰す and 潜る titles and 灯台:20's plain 目印) needed no change; at recheck each is \"optional, unchanged\". Recheck qualifications: the comprehensibility recheck did not reread the 25 unchanged batch cards or rerun the title screen or validate.py; the correctness recheck \"reread the five changed cards, not the other 25 unchanged cards or every declined observation in other facets\"; the consistency recheck did not run word_title_screen.py or link_parity.py, judged comma-level matches by hand and did not independently look up dictionary senses. The consistency recheck also wrote \"The EN six come first, in EN order\" of 為替's list; frozen EN 為替 has five exclusions, and 通貨 is RU-added, as its initial report and the correctness recheck record. The C5 corpus-wide decision is recorded as a follow-up outside this batch.",
+  "exclusionsAddedBeyondEn": {
+   "オイル": [
+    "バター"
+   ],
+   "一通り": [
+    "おおざっぱ",
+    "そっくり",
+    "完全",
+    "セット"
+   ],
+   "停止": [
+    "止む",
+    "停留所"
+   ],
+   "停車": [
+    "停留所",
+    "駐車",
+    "駐車場",
+    "立ち止まる",
+    "終点"
+   ],
+   "各地": [
+    "全国"
+   ],
+   "地味": [
+    "謙遜"
+   ],
+   "平凡": [
+    "日常"
+   ],
+   "漢和": [
+    "漢字",
+    "日中"
+   ],
+   "潜る": [
+    "水中"
+   ],
+   "潰す": [
+    "殺す"
+   ],
+   "為替": [
+    "通貨",
+    "翻訳"
+   ],
+   "無沙汰": [
+    "久しぶり",
+    "黙る"
+   ]
+  },
+  "titles": {
+   "オイル": "масло; смазочное масло",
+   "一通り": "целиком, но бегло; полный набор; обыкновенный",
+   "不通": "перерыв сообщения; отсутствие связи",
+   "停止": "остановка (механизма, процесса); приостановление",
+   "停車": "остановка транспортного средства",
+   "停電": "отключение электричества; отключение света",
+   "各地": "разные места; все уголки (страны, мира)",
+   "地味": "неброский; скромный на вид",
+   "平凡": "заурядный; ничем не примечательный",
+   "断水": "отключение воды; прекращение подачи воды",
+   "漢和": "словарь кандзи; китайский и японский (языки)",
+   "潜る": "уходить под воду; забираться (под одеяло); уходить в подполье",
+   "潰す": "раздавливать; губить (дело, талант); убивать время",
+   "濁る": "мутнеть; становиться нечистым",
+   "濃度": "концентрация вещества",
+   "濡らす": "мочить; смачивать",
+   "火傷": "ожог",
+   "火口": "кратер; горелка (котла)",
+   "灯台": "маяк",
+   "灯油": "керосин",
+   "灰色": "серый цвет; серый",
+   "災難": "беда; злоключение",
+   "炭鉱": "угольная шахта",
+   "点々": "вразброс; крапинки",
+   "点く": "загораться; включаться (о свете)",
+   "為す": "совершать; творить",
+   "為替": "денежный перевод; валютные операции",
+   "無地": "однотонный; без узора",
+   "無数": "бесчисленный; несметный",
+   "無沙汰": "долгое молчание; давно не давать о себе знать"
+  }
+ }
+}

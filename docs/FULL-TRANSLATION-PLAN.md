@@ -1,6 +1,75 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch251 thirty words (general word queue)
+## Current published source milestone: batch252 thirty words (general word queue)
+
+Batch252 adds 30 Russian word articles: 停車 停電 断水 停止 不通 無沙汰 無数 地味 各地 一通り 平凡 無地 為替 為す 点く
+点々 炭鉱 災難 灰色 オイル 灯油 灯台 火口 火傷 濡らす 濃度 濁る 潰す 潜る 漢和. They are chunk 44 of 72 of the
+general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure is
+exactly the 30 requested words, so every EN quiz_exclusions target resolves to an existing RU word or a word in the
+batch; 11 of the 143 EN entries lie inside the batch.
+
+Navigation-only link restorations add 17 links at EN link positions in 9 existing pages: the kanji cards 停 (to 停止,
+停車 and 停電) and 各 (to 各地) and the word cards 下降 (to 火口), 派手 (to 地味), 潰れる (to 潰す), 火山 (to 火口), 無限
+(to 無数), 突く (to 点く) and 転々 (to 点々). No link was held from an earlier batch. The new cards keep EN's links to
+existing cards and all 8 EN links between batch cards; their links to the kanji cards 替, 炭, 鉱, 灰, 灯, 油 and 濃 and
+the word cards 淡水, 乾かす and 湿る stay plain until those targets are adapted. Three reviewed RU-only links in the new
+cards point to existing cards at comparisons where EN has plain text: 断水 to 停電 and 地味 to 派手, and 潰す to 直す,
+added by the fix.
+
+The batch covers:
+- stopping and outages: a vehicle stopping or halt (停車), a stoppage or suspension (停止), a power outage (停電), a
+  water supply outage (断水) and an interruption of traffic or communication (不通);
+- keeping in touch: a long silence, or neglecting to keep in touch (無沙汰);
+- number, places and extent: countless (無数), various places or all parts (各地) and a once-over, all parts or
+  ordinary (一通り);
+- plainness: plain or unshowy (地味), ordinary or unremarkable (平凡) and plain or patternless (無地);
+- money and action: a money order or currency operations (為替) and do or carry out (為す);
+- light and dots: catch fire or come on, of a light (点く), scattered here and there or dots (点々) and a lighthouse
+  (灯台);
+- fire, fuel and mishaps: a coal mine (炭鉱), calamity or misfortune (災難), gray (灰色), oil or lubricant (オイル),
+  kerosene (灯油), a crater or boiler burner (火口) and a burn injury or scald (火傷);
+- liquids: make wet or moisten (濡らす), concentration (濃度) and become cloudy or impure (濁る);
+- crushing and diving: crush, wreck or waste time (潰す) and dive, get underneath or go underground (潜る);
+- language: a kanji dictionary, or Chinese and Japanese (漢和).
+
+All 143 EN exclusions are retained in EN order. Twenty-three direct guards on 12 new cards cover reviewed RU overlaps,
+each appended at the end of its list. Twenty-one came from authoring and were kept by the coordinator, who also added
+停止–停留所 for a shared bare «остановка» title segment; the fix added 為替–翻訳 for the shared «перевод» and removed
+none.
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: a correctness finding on 停車's comparison with 停止, whose sentence about a non-vehicle mechanism
+  lacked a predicate, with scoped coverage clean and no optional note;
+- consistency: structure, links, metadata and manifest/intake integration clean; a missing guard 為替–翻訳, a low
+  no-action note on in-batch topic pairs and optional title notes on 無沙汰, 潜る, 為替, 無地 and 点々;
+- comprehensibility: findings in 停車, 為替, 一通り, 火傷, オイル and 潰す: a title with a parking sense, a title narrower
+  than the card, a usage rule in a title, an example translation stronger than 一通り, editorial wording about the
+  collection and metadata, an unexplained Latin word and a plain mention of an existing card; scoped coverage clean.
+
+One signed fix commit addressed them in 5 new word cards:
+- it retitled 停車 «остановка транспортного средства», 為替 «денежный перевод; валютные операции» and 一通り «целиком,
+  но бегло; полный набор; обыкновенный»;
+- it repaired the 停止 comparison in 停車, softened 一通り's example translation and made 火傷's remark about its kanji
+  learner-facing;
+- it added the 為替–翻訳 guard and a link from 潰す to the existing card 直す.
+
+The Latin word in オイル and the optional title notes on 無沙汰, 潜る, 無地 and 点々 were declined; the reviewers accepted
+these declines at recheck. The serial rechecks reported comprehensibility, scoped coverage, correctness, consistency and
+quiz safety clean, with no new finding.
+
+Links follow EN, except the plain links to absent targets and the three RU-only links above.
+
+Qualified progress is **5,679 reviewed-current / 8 reviewed runtime-blocked / 2,591 pending of 8,278**,
+with 4,213 words, 718 kanji and 718 strokes. See the [intake](translation-batches/252-words-batch-91-intake.json),
+[independent review](translation-batches/252-words-batch-91-independent-review-001.md),
+[recheck](translation-batches/252-words-batch-91-recheck-001.md),
+[qualified source record](translation-batches/252-words-batch-91-reviewed-source.json) and
+[final validation](translation-batches/252-words-batch-91-final-validation-001.json).
+
+## Previous published source milestone: batch251 thirty words (general word queue)
 
 Batch251 adds 30 Russian word articles: 物差し 物凄い 牧畜 牧場 片道 片寄る 片仮名 父母 爪 焦がす 焦げる あぶる 暖める
 加熱 焚く 燃やす 暖まる 熱する 熟語 照らす 射す 照る 煙突 煙い 煎る 煉瓦 焦点 無限 怠る 休業. They are chunk 43 of 72 of the

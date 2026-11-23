@@ -8,7 +8,27 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch251 thirty words
+## Current published source milestone: batch252 thirty words
+
+Batch252 added 30 Russian word articles. They are chunk 44 of the recomputed general remaining-word queue,
+dependency-closed under quiz_exclusions with nothing added. The batch also restored 17 navigation-only links in 9
+existing pages: the kanji cards 停 and 各 and the word cards 下降, 派手, 潰れる, 火山, 無限, 突く and 転々.
+
+The candidate was signed and pushed before review. The blind facet-split review found:
+- a correctness finding in 停車 and no scoped-coverage finding;
+- a missing quiz guard 為替–翻訳, a low no-action note and optional title notes; no consistency, navigation or
+  manifest/intake integration finding;
+- comprehensibility findings in 6 cards and no scoped-coverage finding.
+
+One signed fix commit addressed them in 5 new word cards, retitling three cards, rewording a sentence in three, adding
+one guard and linking 潰す to the existing card 直す; no guard or link was removed. The serial rechecks found no
+remaining finding: comprehensibility, scoped coverage, correctness, consistency and quiz safety clean.
+
+Progress: **5,679 reviewed-current / 8 runtime-blocked / 2,591 pending of 8,278**; 4,213 words / 718 kanji / 718
+strokes. Details are in
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch252-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch251 thirty words
 
 Batch251 added 30 Russian word articles. They are chunk 43 of the recomputed general remaining-word queue,
 dependency-closed under quiz_exclusions with nothing added. The batch also restored 4 navigation-only links in 4
@@ -26,7 +46,7 @@ found no remaining finding: comprehensibility, scoped coverage, correctness, con
 
 Progress: **5,649 reviewed-current / 8 runtime-blocked / 2,621 pending of 8,278**; 4,183 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch251-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch251-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch250 thirty words
 
