@@ -8,7 +8,22 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
-## Current published source milestone: batch252 thirty words
+## Current published source milestone: batch253 thirty words
+
+Batch253 adds 30 Russian word articles, chunk 45 of the general word queue. 溶く, reached through 溶かす, was
+already requested; closure added no thirty-first word. Nine links were restored on nine existing cards. The fix
+also updated the gloss of the 演劇 link on the 劇 kanji card, without changing its target.
+
+One signed fix following the three blind reviews changed 14 word cards, including eight titles, and the 劇 gloss.
+The original reviewers rechecked it once. Correctness and scoped coverage were CLEAN; consistency was CLEAN,
+and quiz safety CLEAN for the new overlaps, not a necessity verdict on the 14 RU-only guards. Comprehensibility
+was CLEAN with C8 partially resolved and no actionable finding. No new runtime or release authority is implied.
+
+Progress: **5,709 reviewed-current / 8 runtime-blocked / 2,561 pending of 8,278**; 4,243 words / 718 kanji /
+718 strokes; 777 frozen-source words remain. See the
+[full milestone](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch253-thirty-words-general-word-queue).
+
+## Previous published source milestone: batch252 thirty words
 
 Batch252 added 30 Russian word articles. They are chunk 44 of the recomputed general remaining-word queue,
 dependency-closed under quiz_exclusions with nothing added. The batch also restored 17 navigation-only links in 9
@@ -26,7 +41,7 @@ remaining finding: comprehensibility, scoped coverage, correctness, consistency 
 
 Progress: **5,679 reviewed-current / 8 runtime-blocked / 2,591 pending of 8,278**; 4,213 words / 718 kanji / 718
 strokes. Details are in
-[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#current-published-source-milestone-batch252-thirty-words-general-word-queue).
+[FULL-TRANSLATION-PLAN.md](FULL-TRANSLATION-PLAN.md#previous-published-source-milestone-batch252-thirty-words-general-word-queue).
 
 ## Previous published source milestone: batch251 thirty words
 
