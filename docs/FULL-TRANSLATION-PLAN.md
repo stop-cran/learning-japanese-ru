@@ -1,6 +1,68 @@
 # Full Russian translation: execution after the two pilots
 
-## Current published source milestone: batch247 thirty words (general word queue)
+## Current published source milestone: batch248 thirty words (general word queue)
+
+Batch248 adds 30 Russian word articles: 派手 目立つ 中身 目次 狙う 狙い 目指す あたりまえ 標準 思い込む 仮定 推定 目安
+目上 盛る 盗難 盆地 盆 皮膚 案外 思いがけない 皮肉 的確 百科事典 白髪 登場 発電 発揮 発想 発射. They are chunk 40 of 72
+of the general remaining-word queue, recomputed after Batch207 from 2,157 remaining EN words. Their dependency closure
+is exactly the 30 requested words, so every EN quiz_exclusions target resolves to an existing RU word or a word in the
+batch; 14 of the 145 EN entries lie inside the batch.
+
+Navigation-only link restorations add 4 links at EN link positions in 4 existing pages: the kanji card 外 (to 案外) and
+the word cards 目下 (to 目上), 課程 and 過程 (each to 仮定). No link was held from an earlier batch. The new cards keep
+EN's links to existing cards; their links to the word cards 地味 and 平野 and the kanji cards 準, 皮 and 膚 stay plain
+until those targets are adapted.
+
+The batch covers:
+- standing out: flashy or showy (派手) and stand out or be conspicuous (目立つ);
+- contents: contents or substance (中身) and a table of contents (目次);
+- aims: aim at or aim for (狙う), an aim, intention or design (狙い) and strive toward a goal or head for (目指す);
+- norms and assumptions: self-evident or in the order of things (あたりまえ), a standard, norm or average level (標準), be
+  firmly convinced or take for granted (思い込む), an assumption or premise (仮定), an inference or indirect estimate
+  (推定), a rough measure or guideline (目安) and a superior or senior person (目上);
+- heaping and trays: dish up, heap up or embellish (盛る), theft or loss by theft (盗難), a basin surrounded by
+  mountains (盆地) and a tray or the Bon festival (盆);
+- skin and surprises: skin (皮膚), unexpectedly or contrary to expectations (案外), unexpected or unforeseen
+  (思いがけない) and irony, sarcasm or an ironic twist of fate (皮肉);
+- accuracy and reference: accurate or to the point (的確), an encyclopedia (百科事典) and grey hair (白髪);
+- 発 words and appearances: an appearance or entrance on stage (登場), electricity generation (発電), displaying one's
+  abilities in action (発揮), an idea or approach (発想) and firing or launching a projectile (発射).
+
+All 145 EN exclusions are retained in EN order. Ten direct guards on 8 new cards cover reviewed RU overlaps: six came
+from authoring and were accepted by the coordinator (中身–内容, 推定–観測, 推定–読み, 目安–観測, 案外–ところが and
+発揮–現れ), and the fix added four (中身–要旨, 皮膚–革, 登場–誕生 and 発射–飛ばす).
+
+Exclusions are one-sided declarations that Android applies in both directions; the batch changes exclusions only on its new
+cards.
+
+The candidate was signed and pushed before review. The blind facet-split review raised the following:
+- correctness: correctness findings in 目次 and 目立つ, whose example translations asserted a successful find and added
+  "always"; scoped coverage clean;
+- consistency: consistency, quiz safety, navigation and manifest/intake integration clean, with two optional guard
+  notes;
+- comprehensibility: findings in 派手, 目立つ, 中身, 発想, 盛る, 盗難, 盆地, 皮膚, 百科事典, 白髪, 発揮 and 発射, mostly
+  English glosses or unseen source details in learner prose, titles that missed a taught sense, an unexplained term and
+  a register label; scoped coverage clean.
+
+One signed fix commit addressed them in 14 new word cards:
+- it retitled 中身 «содержимое; суть», 発想 «идея; подход (к задаче)» and 皮膚 «кожа; кожный покров»;
+- it reworded the example translations in 目次, 目立つ, 発想 and 盆地;
+- it rewrote or deleted remarks in 派手, 発射, 発揮, 盗難, 白髪, 百科事典, 盛る, 中身 and 皮膚;
+- it added the four guards above; no link changed.
+
+The serial rechecks reported comprehensibility, scoped coverage, correctness, consistency, quiz safety, navigation and
+manifest integration clean, with no new finding.
+
+Links follow EN except one reviewed RU-only link, 狙う → 目指す, at a synonym comparison where EN has plain text.
+
+Qualified progress is **5,559 reviewed-current / 8 reviewed runtime-blocked / 2,711 pending of 8,278**,
+with 4,093 words, 718 kanji and 718 strokes. See the [intake](translation-batches/248-words-batch-87-intake.json),
+[independent review](translation-batches/248-words-batch-87-independent-review-001.md),
+[recheck](translation-batches/248-words-batch-87-recheck-001.md),
+[qualified source record](translation-batches/248-words-batch-87-reviewed-source.json) and
+[final validation](translation-batches/248-words-batch-87-final-validation-001.json).
+
+## Previous published source milestone: batch247 thirty words (general word queue)
 
 Batch247 adds 30 Russian word articles: 着せる 着々 真空 倣う 真似る 真っ黒 真っ白 真っ青 しょうがない 真っ暗 正面 先頭
 はじめに 真っ先 官庁 県庁 看病 相撲 相互 直通 垂直 直角 直線 以降 以後 たちまち 直後 直径 直前 目覚まし. They are chunk 39
