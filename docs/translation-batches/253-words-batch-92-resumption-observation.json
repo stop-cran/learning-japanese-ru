@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-23",
+  "status": "coordinator-observed recovery near-miss; no draft loss occurred",
+  "scope": "B253 review completion and B263 draft preservation across the requested app restart",
+  "observation": "The initial recovery advice assumed unfinished jobs would be lost and should be relaunched. The existing jobs instead completed and saved their outputs. The recovery note was corrected to preserve the dirty B263 lane and reuse the completed original reviewer and author outputs. A restart is not evidence that a job was stopped, lost, or must be rerun.",
+  "changeRationale": "Add one recovery check next to the existing coordinator directions: the pause request was mistaken for evidence of job loss. Reusing the three saved outputs avoided duplicate work and preserved the drafts.",
+  "artifactEvidence": [
+    {
+      "name": "b253-recheck-comprehensibility.md",
+      "rawBytes": 5891,
+      "rawSha256": "9885a69dc03c4d437d93fa2c6ec68d9c758a95de632c56673c26302c30296f22",
+      "lastWriteUtc": "2026-11-23T19:20:33Z",
+      "role": "completed original reviewer's recheck, not a restart replacement"
+    },
+    {
+      "name": "b253-fix-screen.txt",
+      "rawBytes": 57811,
+      "rawSha256": "1f81ac1f8ba3445c31ed3a60ba60aa6dec49de1c82c7fabc8274a71d91c1e729",
+      "lastWriteUtc": "2026-11-23T19:20:37Z",
+      "role": "completed mechanical title screen, not semantic review"
+    },
+    {
+      "name": "b263-author-report.md",
+      "rawBytes": 7137,
+      "rawSha256": "27588e3074b5b520c761cee75f268002d00b92c8a16890827b1b27e67b195c1a",
+      "lastWriteUtc": "2026-11-23T19:30:13Z",
+      "role": "author report accompanying 30 uncommitted drafts and 13 links in 11 navigation files"
+    }
+  ],
+  "b263Base": "54f36554d6699cefadf730ea71e411d635b6a018",
+  "b253ReviewedFix": "c972b6793d49df2da0e4b62ba2636114e53a0f62",
+  "groundedInvariant": "Record requested pause separately from observed worker/process state. Before claiming a quiescent checkpoint or relaunching after restart, inspect exact known jobs, saved outputs, HEAD and dirty paths. Preserve existing drafts and completed reports; reconcile later outputs rather than assuming failure or discarding work.",
+  "enforcement": "coordinator self-check, reviewed in the ordinary documentation handoff; no new runtime gate",
+  "limits": [
+    "File timestamps describe observed local artifacts, not proof of process exit or app shutdown time.",
+    "The original erroneous recovery note was corrected; the observation is an attributed coordinator account, not a claimed preserved verbatim log of that earlier note.",
+    "No claim that all background work survives every restart, or that restart itself stops any job.",
+    "Preserved B263 drafts are not independently reviewed or approved for publication."
+  ],
+  "instructionInventory": {
+    "adoptedSource": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+    "activePaths": [
+      ".github/copilot-instructions.md",
+      ".github/instructions/content-structure.instructions.md",
+      ".github/instructions/listening-authoring.instructions.md",
+      ".github/agents/kanji-accuracy-reviewer.agent.md",
+      ".github/agents/kanji-comprehension-reviewer.agent.md",
+      ".github/agents/content-consistency-reviewer.agent.md"
+    ],
+    "check": "Re-enumerated all .github paths at the adopted frozen source; these six active instruction/agent entries remain. The workflow file and REVIEW.md are separate references, not extra agent entrypoints. Frozen worktree diff against the adopted revision is empty for .github and the inspected normative-reference paths.",
+    "boundary": "No new EN source revision, reviewer-family policy, runtime/media permission or publication gate is adopted by the narrow restart clarification."
+  }
+}
