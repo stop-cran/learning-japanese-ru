@@ -1,5 +1,39 @@
 # Full Russian translation: execution after the two pilots
 
+## Reviewed source milestone: batch255 thirty words (general word queue)
+
+Batch255 adds 30 Russian word articles from frozen EN `6af98cb`, chunk 47 of the 72-batch general word queue.
+The requested set is closed under the source exclusions: no additional word, deferred guard or held path.
+The new cards cover water, air and measures (汁, 水素, 水筒, 水平, 水平線, 水分, 気圧, 正味), farewells and care
+(いってらっしゃい, 元気でね, おだいじに, 気を付ける), public and private life (公共, 公衆, 民間, 欧米), songs and the stage
+(歌謡, 民謡, ステージ), and 毛皮, 比較的, 毎度, 殻, 段階, いちいち, 残らず, 死体, 歯車, 歯磨き and 正門.
+
+Nine links were restored at EN positions in nine existing files: one kanji file (圧) and eight word files
+(お帰り, 地平線, 垂直, 毛糸, 羊毛, 血圧, 西洋, 門). The prior RU-only 毛糸→毛 and 門→ドア/入口 links remain.
+No media or unrelated card was brought in to complete these links.
+
+Before signing, a mechanical source-layout patch restored 59 Japanese sentence/reading layouts; the intake records
+it separately from the authoring hashes. Three reviewers on distinct model families read the same signed candidate
+`8f4707c3` serially. The [review record](translation-batches/255-words-batch-94-independent-review-001.md)
+separates their actual evidence and the coordinator's decisions. The first signed fix `46f7089e` widened 汁 to any
+squeezed or seeping juice, relabelled 毎度 as thanks for continued patronage, corrected agency, institution and
+price explanations and several Russian translations and phrasings, added the required ステージ–演説 guard and removed four RU-only pairs
+whose articles teach the contrast. The correctness recheck then found «похлёбка» too narrow for 汁 and «без наценки»
+too broad for 正味; the second signed fix `c4d64291` uses «суп» and a price not padded for bargaining.
+All 121 inherited exclusion entries remain in EN order, followed by ten RU additions. There is no transitive exclusion policy.
+
+Fresh instances on the original reviewers' models rechecked the fixes in sequence. Correctness and source coverage
+(after the second fix), the changed quiz choices and integration, and Russian comprehensibility of the changed learner text were CLEAN in their assigned
+bounds. All initial and recheck findings were resolved. No device, learner or release verdict follows.
+
+Qualified source progress: **5,769 reviewed-current / 8 reviewed runtime-blocked / 2,501 pending of 8,278**;
+4,303 words, 718 kanji, 718 strokes. The pending word queue falls from 747 to **717**. Manifest `57ea12fc9026d94d`
+has 5,764 files, three images and two scene catalogs. See the [intake](translation-batches/255-words-batch-94-intake.json),
+[rechecks](translation-batches/255-words-batch-94-recheck-001.md), [source record](translation-batches/255-words-batch-94-reviewed-source.json)
+and [final validation](translation-batches/255-words-batch-94-final-validation-001.json). Batch254 is published on
+`main` `bd8dd450`; this milestone is not. Publication verification, media/package, device checks and ordinary RU
+activation are separate; none is granted by this milestone.
+
 ## Reviewed source milestone: batch254 thirty words (general word queue)
 
 Batch254 adds 30 Russian word articles from frozen EN `6af98cb`, chunk 46 of the 72-batch general word queue.

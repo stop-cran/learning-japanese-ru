@@ -8,6 +8,18 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+## Reviewed source milestone: batch255 thirty words
+
+Word batch 94 adds 30 dependency-closed word cards and restores nine links in nine existing files. Three reviewers
+read signed candidate `8f4707c3`; fresh instances on the same models rechecked `46f7089e` and then `c4d64291`
+in sequence. The fixes change two word titles (汁, 毎度), several explanations and phrasings, add one required
+direct quiz pair and remove four RU-only pairs. All 121 source exclusions are retained. See the
+[full milestone](FULL-TRANSLATION-PLAN.md#reviewed-source-milestone-batch255-thirty-words-general-word-queue)
+for qualified verdicts and the difference between source acceptance and release.
+
+Source progress: **5,769 reviewed-current / 8 runtime-blocked / 2,501 pending of 8,278**; 4,303 words,
+718 kanji and 718 strokes, with 717 frozen-source words remaining. This does not claim publication on `main`.
+
 ## Reviewed source milestone: batch254 thirty words
 
 Word batch 93 adds 30 dependency-closed word cards and restores 15 links in ten existing files. The same three

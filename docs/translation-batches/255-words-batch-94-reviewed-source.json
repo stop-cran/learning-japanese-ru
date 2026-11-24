@@ -1,0 +1,154 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "255-words-batch-94",
+ "publishedBaseline": "bd8dd45099922888a55b8e17fd8c6b771dcd1a7a",
+ "qualifiedVerdicts": {
+  "content": "On signed content fix c4d64291556bb0cc4ee7457febb567dea37df433 scoped rechecks returned CLEAN for correctness/coverage (after a second round that applied two new findings, R01 and R02), CLEAN for quiz safety, format/links/navigation/manifest and integration, and CLEAN for Russian comprehensibility and scoped coverage of the changed learner text. All nine correctness, two consistency and four comprehension findings and both correctness-recheck findings are resolved. Rechecks were run by fresh instances on the original reviewers' models, not the original sessions, and were not three new complete corpus audits; see the recheck record for actual returned ranges and residual qualifications.",
+  "fallbackAndVoice": "Tag/random fallback options, voice/reading prompts and drawing not cleared.",
+  "quizTitles": "Two titles changed: 汁 and 毎度. All 121 inherited direct entries remain in EN order; ten RU-only entries follow them (131 total). Five were judged required for the displayed labels and five conservative without established necessity (水平線→横, 元気でね→元気, 民間→私立, 比較的→比較, ステージ→スピーチ). Four candidate-stage RU additions were removed (水平線–地平線, 歯車–車輪, 欧米–欧州, 欧米–ヨーロッパ). Three exact segment overlaps are guarded; the fourth, 毎度–すまない «спасибо», is a comma-split artifact of a connected label. This is not proof of exhaustive runtime quiz safety."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/255-words-batch-94-intake.json",
+  "docs/translation-batches/255-words-batch-94-independent-review-001.md",
+  "docs/translation-batches/255-words-batch-94-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "欧",
+   "殻",
+   "比",
+   "毛",
+   "汁",
+   "的",
+   "皮",
+   "磨",
+   "筒",
+   "素",
+   "線",
+   "衆",
+   "謡",
+   "較",
+   "門",
+   "階"
+  ],
+  "navigationNote": "Nine link occurrences restored at corresponding EN positions in nine existing articles. No wrapper prose changed. The pre-existing RU-only links 毛糸→毛 and 門→ドア/入口 sit on unchanged lines; they are not B255 additions.",
+  "navigationOnlyEdits": [
+   "kanji/圧.md",
+   "words/お帰り.md",
+   "words/地平線.md",
+   "words/垂直.md",
+   "words/毛糸.md",
+   "words/羊毛.md",
+   "words/血圧.md",
+   "words/西洋.md",
+   "words/門.md"
+  ],
+  "newWords": [
+   "汁",
+   "水素",
+   "水筒",
+   "水平",
+   "水平線",
+   "水分",
+   "気圧",
+   "いってらっしゃい",
+   "元気でね",
+   "おだいじに",
+   "気を付ける",
+   "公共",
+   "公衆",
+   "民間",
+   "歌謡",
+   "民謡",
+   "毛皮",
+   "比較的",
+   "毎度",
+   "殻",
+   "ステージ",
+   "段階",
+   "いちいち",
+   "残らず",
+   "死体",
+   "歯車",
+   "歯磨き",
+   "正門",
+   "正味",
+   "欧米"
+  ],
+  "selection": "Chunk 47 of the 72-batch general word queue. 747 frozen-source words pending before this batch; 717 after. The closure equals the 30 requested words; no additional or held path or deferred guard.",
+  "unwrappedAbsentTargetsNote": "Eleven EN href occurrences in the new cards have absent RU targets: ten distinct kanji (欧, 門, 磨, 階, 比, 毛, 皮, 革, 線, 筒) and the word 公式; the nine navigation files keep five more plain occurrences (線, 毛 twice, 血, 門). The 16 written kanji without RU cards are not all EN link targets. ステージ→段階 is a RU-only in-batch link.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": "Declined «эстрада» for ステージ, the 欧米–西 and 元気でね–健康 pairs, the consistency recheck's optional 正味–値 and conservative 毎度–再三 (inherited EN gaps whose necessity was not established), and the comprehension optionals 垂直 «ровный» (unchanged navigation-file wording) and 正門 «не прямой». Future 割と/割合に cards must check direct pairs with 比較的. No transitive guard groups. See the verbatim reports for scope and nonblocking notes.",
+  "exclusionsAddedBeyondEn": {
+   "いってらっしゃい": [
+    "さようなら"
+   ],
+   "ステージ": [
+    "演説",
+    "スピーチ"
+   ],
+   "元気でね": [
+    "さようなら",
+    "元気"
+   ],
+   "公衆": [
+    "観客"
+   ],
+   "正味": [
+    "中身"
+   ],
+   "比較的": [
+    "比較"
+   ],
+   "民間": [
+    "私立"
+   ],
+   "水平線": [
+    "横"
+   ]
+  },
+  "titles": {
+   "いちいち": "по одному; до мелочей",
+   "いってらっしゃい": "счастливо (провожая уходящего)",
+   "おだいじに": "берегите себя; поправляйтесь",
+   "ステージ": "эстрада; выступление на сцене",
+   "元気でね": "всего хорошего; будь здоров (при прощании)",
+   "公共": "общественный; для общего пользования",
+   "公衆": "широкая публика",
+   "欧米": "Европа и Америка; западные страны",
+   "歌謡": "песенное произведение; баллада",
+   "正味": "вес нетто; чистое количество",
+   "正門": "главные ворота",
+   "歯磨き": "зубная паста; чистка зубов",
+   "歯車": "шестерня; зубчатое колесо",
+   "死体": "труп; мёртвое тело",
+   "残らず": "без остатка; без исключения",
+   "段階": "этап; ступень (шкалы)",
+   "殻": "скорлупа; шелуха",
+   "毎度": "каждый раз; спасибо, что снова выбираете нас (клиенту)",
+   "比較的": "сравнительно; относительно",
+   "毛皮": "мех; меховая шкура",
+   "民謡": "народная песня",
+   "民間": "частный сектор; народный (бытующий в народе)",
+   "気を付ける": "быть осторожным; быть внимательным; беречься",
+   "気圧": "атмосферное давление; атмосфера как единица давления",
+   "水分": "содержащаяся влага; содержание воды",
+   "水平": "горизонтальный; без наклона",
+   "水平線": "линия горизонта (над водой); горизонтальная линия",
+   "水筒": "фляга; бутылка для питья (с собой)",
+   "水素": "водород",
+   "汁": "выжатый или выделившийся сок; бульон; суп"
+  }
+ }
+}
