@@ -1,0 +1,1672 @@
+{
+ "authorization": "The user's relayed request to repeat the review as needed. The coordinator assigned explicit routes Claude Opus 5.5 for correctness and Grok 4.7 for Russian comprehensibility to execute that request; this is not a standing model override.",
+ "batchId": "257-words-batch-96",
+ "candidateHead": "bd3cb7293fa63d0b8ad59692524d561e2df91678",
+ "candidateTree": "8b50554614afa6e0e4d5f91895425ced03b43387",
+ "countedFacets": {
+  "Russian comprehensibility": "257-words-batch-96-review-comprehensibility-001.md (actual Grok, grok-4.7)",
+  "consistency": "257-words-batch-96-review-consistency-001.md (actual GPT, gpt-6-astra)",
+  "correctness": "257-words-batch-96-review-correctness-002.md (actual Claude, claude-opus-5.5)"
+ },
+ "distinctActualFamilyCount": 3,
+ "frozenEnglish": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "intakeBaseline": "8ddfa6793f162d6e896a91417d81b77c511df39e",
+ "learnerFixesApplied": false,
+ "ledgerOrProgressUpdated": false,
+ "limits": [
+  "Actual families come from configuration, every tool dispatch, every response and every usage record, not from launch labels.",
+  "The Claude reviewer's context was compacted twice by the same model. Its report says it re-extracted the examples it relied on; complete contiguous returns before compaction document exposure, not retention.",
+  "Coverage uses successful tool result.content returns. A complete contiguous return documents exposure, not comprehension; a null returnedRange is reported as such.",
+  "Reviewer outputs are separate originals. No report, finding or author rationale was shared between them.",
+  "No learner fixes, rechecks, acceptance gates, ledger promotion, publication, pin change or next batch. Not device, media, voice, drawing or activation clearance."
+ ],
+ "publicationOrActivationApproved": false,
+ "publishedPredecessor": "f6b5413d57f17d720301fb9ff8c4130d7e83cfed",
+ "reportsOnlyPredecessor": "f16b4a6ce980e6df1bfda62640c558ee623f3cac",
+ "requiredDistinctFamilyCount": 3,
+ "reviewInputs": {
+  "candidateExport": {
+   "files": 8381,
+   "method": "git ls-tree -r + git cat-file --batch raw blobs; every exported file re-hashed to its Git blob ID"
+  },
+  "commonPacketFiles": 104,
+  "commonPacketInventorySha256": "d6a27d79c3a7ff1a5a6a1bc17375b575372701628f42734d7f3ac24b52d1078d",
+  "note": "The unchanged candidate tree and common packet were exported outside the author worktree and session state so that reviewers could read them without access to author records.",
+  "sameCommonPacketAsRound1": true
+ },
+ "reviews": [
+  {
+   "actualFamily": "Claude",
+   "blindnessAudit": {
+    "flaggedCalls": [],
+    "method": "Tool-call arguments other than the final stdout echo searched for the RU worktree, session state, batch records, ledger, tracking and progress paths."
+   },
+   "candidate": "bd3cb7293fa63d0b8ad59692524d561e2df91678",
+   "compactions": [
+    {
+     "model": "claude-opus-5.5",
+     "outcome": null,
+     "timestamp": "2026-11-24T06:19:09.948Z",
+     "type": "session.compaction_start"
+    },
+    {
+     "model": "claude-opus-5.5",
+     "outcome": "applied",
+     "timestamp": "2026-11-24T06:20:03.654Z",
+     "type": "session.compaction_complete"
+    },
+    {
+     "model": "claude-opus-5.5",
+     "outcome": null,
+     "timestamp": "2026-11-24T06:24:26.174Z",
+     "type": "session.compaction_start"
+    },
+    {
+     "model": "claude-opus-5.5",
+     "outcome": "applied",
+     "timestamp": "2026-11-24T06:25:26.885Z",
+     "type": "session.compaction_complete"
+    }
+   ],
+   "completePrimaryCount": 37,
+   "dispatchPromptUtf8Bytes": 5242,
+   "dispatchPromptUtf8Sha256": "cb4b799a29b5a4a9eed4565ea2b986a1b19b7561c5f10717279e83b14f194eaf",
+   "explicitModelOverride": "claude-opus-5.5",
+   "facet": "correctness",
+   "finalResponseAt": "2026-11-24T06:31:48.056Z",
+   "firstDispatchedModel": "claude-opus-5.5",
+   "firstEventAt": "2026-11-24T06:14:58.537Z",
+   "hashDomains": "Report body hash covers the exact final response UTF-8 string, not stdout wrappers. Logged content hashes cover successful tool result.content UTF-8 strings, not network bytes. Only public report and evidence metadata are exported; no private prompts or reasoning.",
+   "lifecycle": [
+    {
+     "model": "claude-opus-5.5",
+     "multiTurn": null,
+     "timestamp": "2026-11-24T06:14:58.537Z",
+     "type": "subagent.started"
+    },
+    {
+     "model": "claude-opus-5.5",
+     "multiTurn": true,
+     "timestamp": "2026-11-24T06:14:58.791Z",
+     "type": "subagent.configured"
+    },
+    {
+     "model": "claude-opus-5.5",
+     "multiTurn": null,
+     "timestamp": "2026-11-24T06:31:48.788Z",
+     "type": "subagent.completed"
+    }
+   ],
+   "modelChanges": [
+    {
+     "newModel": "claude-opus-5.5",
+     "reasoningEffort": "max",
+     "source": "agent",
+     "timestamp": "2026-11-24T06:14:58.791Z"
+    }
+   ],
+   "modelSelectionSource": "explicit_override",
+   "primaryCount": 37,
+   "primaryPacketCoverage": [
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 85,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:15:25.789Z",
+       "loggedContentUtf8Sha256": "1a407e62b7a327ffbf905d65dbfb789ab3f8ad504935730288a06b508e6e5df8",
+       "tool": "view",
+       "toolCallId": "toolu_01PHcZr1rQSi1RNSA18aPfjH"
+      }
+     ],
+     "packetPath": "下旬.md",
+     "packetRawSha256": "1a407e62b7a327ffbf905d65dbfb789ab3f8ad504935730288a06b508e6e5df8",
+     "returnedRange": [
+      1,
+      85
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 93,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:18:51.718Z",
+       "loggedContentUtf8Sha256": "bdfc4f43f96675eab8b5a90c89b13843f570ace615b1bee8a5d6696dbb804306",
+       "tool": "view",
+       "toolCallId": "toolu_01EThvWeg2kQsi8MPNmakv9D"
+      }
+     ],
+     "packetPath": "光線.md",
+     "packetRawSha256": "bdfc4f43f96675eab8b5a90c89b13843f570ace615b1bee8a5d6696dbb804306",
+     "returnedRange": [
+      1,
+      93
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 97,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:17:31.118Z",
+       "loggedContentUtf8Sha256": "1feddbeed41e76f1086c24a01565763ff3bc00a6f1a114a5e013e4cd26479b9f",
+       "tool": "view",
+       "toolCallId": "toolu_01NY27kxYDEuSFqV6Fe2EwXL"
+      }
+     ],
+     "packetPath": "写る.md",
+     "packetRawSha256": "1feddbeed41e76f1086c24a01565763ff3bc00a6f1a114a5e013e4cd26479b9f",
+     "returnedRange": [
+      1,
+      97
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 80,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:16:29.764Z",
+       "loggedContentUtf8Sha256": "cccab8928c637efcdc7f89b93588cf7371a6e89007e168812154d3b2a712046a",
+       "tool": "view",
+       "toolCallId": "toolu_019hfbJecsiV8QQL2UR7U1eH"
+      },
+      {
+       "completedAt": "2026-11-24T06:22:45.339Z",
+       "loggedContentUtf8Sha256": "cccab8928c637efcdc7f89b93588cf7371a6e89007e168812154d3b2a712046a",
+       "tool": "view",
+       "toolCallId": "toolu_01JAJvcpmq1A8bw11i5i8RGK"
+      }
+     ],
+     "packetPath": "工夫.md",
+     "packetRawSha256": "cccab8928c637efcdc7f89b93588cf7371a6e89007e168812154d3b2a712046a",
+     "returnedRange": [
+      1,
+      80
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 109,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:16:29.426Z",
+       "loggedContentUtf8Sha256": "f77bb3b39ee4db6b7f9f24e25c24f3f27b370bc397602feeca03cb0c4b2ecf74",
+       "tool": "view",
+       "toolCallId": "toolu_019VUULQo7qvkYgc5KV1GNtN"
+      }
+     ],
+     "packetPath": "捩る.md",
+     "packetRawSha256": "f77bb3b39ee4db6b7f9f24e25c24f3f27b370bc397602feeca03cb0c4b2ecf74",
+     "returnedRange": [
+      1,
+      109
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 107,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:16:30.108Z",
+       "loggedContentUtf8Sha256": "3047e246879c42e8b26bf3f92adc6c2afa9538341cfa3ec9ba72e6cbcd243147",
+       "tool": "view",
+       "toolCallId": "toolu_01H1EAP1oB7hkByXkzXs1B52"
+      }
+     ],
+     "packetPath": "捻る.md",
+     "packetRawSha256": "3047e246879c42e8b26bf3f92adc6c2afa9538341cfa3ec9ba72e6cbcd243147",
+     "returnedRange": [
+      1,
+      107
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 95,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:19:34.340Z",
+       "loggedContentUtf8Sha256": "aabcfe62ebafe50a4177e14c1cc4626e5b54c838cb7476d14e8dee4b0df3da6e",
+       "tool": "view",
+       "toolCallId": "toolu_01VvxxJqu1d2bStytpW6Gv8c"
+      }
+     ],
+     "packetPath": "日の出.md",
+     "packetRawSha256": "aabcfe62ebafe50a4177e14c1cc4626e5b54c838cb7476d14e8dee4b0df3da6e",
+     "returnedRange": [
+      1,
+      95
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 105,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:19:08.854Z",
+       "loggedContentUtf8Sha256": "68d1a880f3968e9b6c65386b531f360c58eab01421d8b267b54e4e6266a313dc",
+       "tool": "view",
+       "toolCallId": "toolu_01LaFE2T4EwLy3LMrHwVTvVp"
+      }
+     ],
+     "packetPath": "日差し.md",
+     "packetRawSha256": "68d1a880f3968e9b6c65386b531f360c58eab01421d8b267b54e4e6266a313dc",
+     "returnedRange": [
+      1,
+      105
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 100,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:19:09.536Z",
+       "loggedContentUtf8Sha256": "84504eb5ca0e8eff324472d93ffc9f17bbfa40c00689b5e071014befa232ae74",
+       "tool": "view",
+       "toolCallId": "toolu_012NTSNR5PDNbdL6sMTCP7gS"
+      }
+     ],
+     "packetPath": "日帰り.md",
+     "packetRawSha256": "84504eb5ca0e8eff324472d93ffc9f17bbfa40c00689b5e071014befa232ae74",
+     "returnedRange": [
+      1,
+      100
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 98,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:19:09.202Z",
+       "loggedContentUtf8Sha256": "fc7d66520f623c7ee50b2fcb4f8f5a8b85c3a951fa607a3d8c5493231535cc64",
+       "tool": "view",
+       "toolCallId": "toolu_01Hm8A8jCaBXHfUzso5sLaDk"
+      }
+     ],
+     "packetPath": "日当たり.md",
+     "packetRawSha256": "fc7d66520f623c7ee50b2fcb4f8f5a8b85c3a951fa607a3d8c5493231535cc64",
+     "returnedRange": [
+      1,
+      98
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 98,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:18:35.717Z",
+       "loggedContentUtf8Sha256": "b79cd143e947cd8dcdc48d3ec14775189f9f4d44cb2ecb137cef0a0aa303adcc",
+       "tool": "view",
+       "toolCallId": "toolu_01J5JmAN3ctYHUDMvASsntwF"
+      }
+     ],
+     "packetPath": "日時.md",
+     "packetRawSha256": "b79cd143e947cd8dcdc48d3ec14775189f9f4d44cb2ecb137cef0a0aa303adcc",
+     "returnedRange": [
+      1,
+      98
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 93,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:18:51.381Z",
+       "loggedContentUtf8Sha256": "7827300c02ed5302a4313ec742156f73cb2c63cf8efa29c6c5d5766faf1d2382",
+       "tool": "view",
+       "toolCallId": "toolu_019ckqURtvF6jatpD572ZUSQ"
+      }
+     ],
+     "packetPath": "日用品.md",
+     "packetRawSha256": "7827300c02ed5302a4313ec742156f73cb2c63cf8efa29c6c5d5766faf1d2382",
+     "returnedRange": [
+      1,
+      93
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 102,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:18:51.058Z",
+       "loggedContentUtf8Sha256": "9bc54e5412d1dbffb30ee4c56150245876c50d07f6ba8b1f1d07e0492989d6b4",
+       "tool": "view",
+       "toolCallId": "toolu_01RV2nFEENoF6a4qJzHPobrm"
+      },
+      {
+       "completedAt": "2026-11-24T06:24:30.538Z",
+       "loggedContentUtf8Sha256": "9bc54e5412d1dbffb30ee4c56150245876c50d07f6ba8b1f1d07e0492989d6b4",
+       "tool": "view",
+       "toolCallId": "toolu_019VAmC9gs4RBiy1bo3KQEqF"
+      }
+     ],
+     "packetPath": "日程.md",
+     "packetRawSha256": "9bc54e5412d1dbffb30ee4c56150245876c50d07f6ba8b1f1d07e0492989d6b4",
+     "returnedRange": [
+      1,
+      102
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 94,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:18:35.383Z",
+       "loggedContentUtf8Sha256": "b2b5ffe22507421d2a63fdb90f7d79ad937a0211331568079e1b7fd60b011248",
+       "tool": "view",
+       "toolCallId": "toolu_01QJ4PGwMrTVtJgeZ3uPpKPA"
+      }
+     ],
+     "packetPath": "日課.md",
+     "packetRawSha256": "b2b5ffe22507421d2a63fdb90f7d79ad937a0211331568079e1b7fd60b011248",
+     "returnedRange": [
+      1,
+      94
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 94,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:18:35.044Z",
+       "loggedContentUtf8Sha256": "66b47c0a3db16c063cc46cb40fc526b0ab88180ae86d384af5e1560fb4187918",
+       "tool": "view",
+       "toolCallId": "toolu_01Hos9XUkZ2YjJtudyvWZAG7"
+      }
+     ],
+     "packetPath": "日陰.md",
+     "packetRawSha256": "66b47c0a3db16c063cc46cb40fc526b0ab88180ae86d384af5e1560fb4187918",
+     "returnedRange": [
+      1,
+      94
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 97,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:18:00.502Z",
+       "loggedContentUtf8Sha256": "1ac0a9ce17b9167d6e68c107a646eb527c147cdb040c6c00bb2090823ff008f2",
+       "tool": "view",
+       "toolCallId": "toolu_01BgN6qFbzWmFh6RyAPErbbh"
+      }
+     ],
+     "packetPath": "早口.md",
+     "packetRawSha256": "1ac0a9ce17b9167d6e68c107a646eb527c147cdb040c6c00bb2090823ff008f2",
+     "returnedRange": [
+      1,
+      97
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 89,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:18:00.122Z",
+       "loggedContentUtf8Sha256": "2344f0d0b9c73f805c791479f9e7e81a9660a4d2bcea7d5b8b27b5d0f0f147e1",
+       "tool": "view",
+       "toolCallId": "toolu_01CVdcnZDS862jQQfFasqFSd"
+      },
+      {
+       "completedAt": "2026-11-24T06:20:51.292Z",
+       "loggedContentUtf8Sha256": "2344f0d0b9c73f805c791479f9e7e81a9660a4d2bcea7d5b8b27b5d0f0f147e1",
+       "tool": "view",
+       "toolCallId": "toolu_01Nw28UpQNRtJpxC8vjTZX2U"
+      },
+      {
+       "completedAt": "2026-11-24T06:27:01.474Z",
+       "loggedContentUtf8Sha256": "2344f0d0b9c73f805c791479f9e7e81a9660a4d2bcea7d5b8b27b5d0f0f147e1",
+       "tool": "view",
+       "toolCallId": "toolu_01Fckk1kzS62UWyrzoMvEdmp"
+      }
+     ],
+     "packetPath": "明け方.md",
+     "packetRawSha256": "2344f0d0b9c73f805c791479f9e7e81a9660a4d2bcea7d5b8b27b5d0f0f147e1",
+     "returnedRange": [
+      1,
+      89
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 92,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:17:30.322Z",
+       "loggedContentUtf8Sha256": "68b91f82ca4da5f456bf2cffa95e4ef49b0363e5a9cf176506d4d72cf2d661c8",
+       "tool": "view",
+       "toolCallId": "toolu_01QwcQ5cEPDcWV2wpgFaX2iA"
+      }
+     ],
+     "packetPath": "映す.md",
+     "packetRawSha256": "68b91f82ca4da5f456bf2cffa95e4ef49b0363e5a9cf176506d4d72cf2d661c8",
+     "returnedRange": [
+      1,
+      92
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 102,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:17:59.766Z",
+       "loggedContentUtf8Sha256": "b46cb64ab09966889015792f3e5d8b8fd80ec790f097373d46dad85c1ac8ae0c",
+       "tool": "view",
+       "toolCallId": "toolu_01RcbTXSLswzrG1gm8AQp9yJ"
+      }
+     ],
+     "packetPath": "映る.md",
+     "packetRawSha256": "b46cb64ab09966889015792f3e5d8b8fd80ec790f097373d46dad85c1ac8ae0c",
+     "returnedRange": [
+      1,
+      102
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 102,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:17:30.733Z",
+       "loggedContentUtf8Sha256": "841e2437f6f7a41e5ab21c6a9c7249ad4fee7a6bb1738336a520b0ad62dfe12b",
+       "tool": "view",
+       "toolCallId": "toolu_01PuohARLQLuDrPwPCXbrQ4x"
+      }
+     ],
+     "packetPath": "昼寝.md",
+     "packetRawSha256": "841e2437f6f7a41e5ab21c6a9c7249ad4fee7a6bb1738336a520b0ad62dfe12b",
+     "returnedRange": [
+      1,
+      102
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 102,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:17:04.078Z",
+       "loggedContentUtf8Sha256": "891f64bc748ff578652acd9def4d88fc1b245a0a8d71cb64d188dd983a7a3d08",
+       "tool": "view",
+       "toolCallId": "toolu_017LtRUVqqkARJzPkSM5QAB4"
+      }
+     ],
+     "packetPath": "普及.md",
+     "packetRawSha256": "891f64bc748ff578652acd9def4d88fc1b245a0a8d71cb64d188dd983a7a3d08",
+     "returnedRange": [
+      1,
+      102
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 85,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:17:03.651Z",
+       "loggedContentUtf8Sha256": "6c2bbcb7d8e5432610c67cb32bdc262f9301a3d6d5b3ea354cac8be184aaa4ae",
+       "tool": "view",
+       "toolCallId": "toolu_016HTWusvUoUj31C1braTK68"
+      }
+     ],
+     "packetPath": "曖昧.md",
+     "packetRawSha256": "6c2bbcb7d8e5432610c67cb32bdc262f9301a3d6d5b3ea354cac8be184aaa4ae",
+     "returnedRange": [
+      1,
+      85
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 85,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:17:03.137Z",
+       "loggedContentUtf8Sha256": "cb6a26cccb5f7a0b0372e3da45dc0d0e438941d8cd70c92e8ac767603fdd042e",
+       "tool": "view",
+       "toolCallId": "toolu_01TYE6WFag1qq8WX9yzoy3r6"
+      },
+      {
+       "completedAt": "2026-11-24T06:22:27.570Z",
+       "loggedContentUtf8Sha256": "cb6a26cccb5f7a0b0372e3da45dc0d0e438941d8cd70c92e8ac767603fdd042e",
+       "tool": "view",
+       "toolCallId": "toolu_01TJGgCgB8tpgXDuDMvB4tc8"
+      }
+     ],
+     "packetPath": "曲げる.md",
+     "packetRawSha256": "cb6a26cccb5f7a0b0372e3da45dc0d0e438941d8cd70c92e8ac767603fdd042e",
+     "returnedRange": [
+      1,
+      85
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 77,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:15:46.659Z",
+       "loggedContentUtf8Sha256": "1aa586de573ad73edb7d2c10501447b65db930748a9ac93e3d6d7a0a34ff7f15",
+       "tool": "view",
+       "toolCallId": "toolu_01NrqxsPNCtVYW2Won9ujwy3"
+      }
+     ],
+     "packetPath": "曲線.md",
+     "packetRawSha256": "1aa586de573ad73edb7d2c10501447b65db930748a9ac93e3d6d7a0a34ff7f15",
+     "returnedRange": [
+      1,
+      77
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 101,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:15:45.976Z",
+       "loggedContentUtf8Sha256": "6b5137639e0651d884deb4a21c2566dd191333b70bd1f5b5824988f0b3ddbeae",
+       "tool": "view",
+       "toolCallId": "toolu_01NtsEZPbKu1DoLXnpd1qgkv"
+      }
+     ],
+     "packetPath": "更ける.md",
+     "packetRawSha256": "6b5137639e0651d884deb4a21c2566dd191333b70bd1f5b5824988f0b3ddbeae",
+     "returnedRange": [
+      1,
+      101
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 110,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:15:46.305Z",
+       "loggedContentUtf8Sha256": "7cd299aa32f3c764d0d60710dee6cf3b4cda8f11f37895ac2bcf4f30e89021b9",
+       "tool": "view",
+       "toolCallId": "toolu_01M7rAafKmykVNzGojfctiiB"
+      }
+     ],
+     "packetPath": "書籍.md",
+     "packetRawSha256": "7cd299aa32f3c764d0d60710dee6cf3b4cda8f11f37895ac2bcf4f30e89021b9",
+     "returnedRange": [
+      1,
+      110
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 97,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:15:45.652Z",
+       "loggedContentUtf8Sha256": "a786e749eb18a32d76d0a828fded8e427deddce6137a7e6cb68f563fd42c3735",
+       "tool": "view",
+       "toolCallId": "toolu_01JwPAGqKxymnr6Ym7sTYuKz"
+      }
+     ],
+     "packetPath": "書道.md",
+     "packetRawSha256": "a786e749eb18a32d76d0a828fded8e427deddce6137a7e6cb68f563fd42c3735",
+     "returnedRange": [
+      1,
+      97
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 87,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:15:26.487Z",
+       "loggedContentUtf8Sha256": "e78ceca9eb23ceb2fd8bd9d23d0b16f48b8a9b8e624067254e1cb811a01d3413",
+       "tool": "view",
+       "toolCallId": "toolu_01MBcDQ4yyEaiWMzCj2ZK2gQ"
+      }
+     ],
+     "packetPath": "月末.md",
+     "packetRawSha256": "e78ceca9eb23ceb2fd8bd9d23d0b16f48b8a9b8e624067254e1cb811a01d3413",
+     "returnedRange": [
+      1,
+      87
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 87,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:15:26.122Z",
+       "loggedContentUtf8Sha256": "97e103a777f9f467acb949135a346c66009c647bb73027c3acd4fe16d190ce00",
+       "tool": "view",
+       "toolCallId": "toolu_011p23VtUuNxzpXB3CH74Re5"
+      }
+     ],
+     "packetPath": "月給.md",
+     "packetRawSha256": "97e103a777f9f467acb949135a346c66009c647bb73027c3acd4fe16d190ce00",
+     "returnedRange": [
+      1,
+      87
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 94,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:15:25.451Z",
+       "loggedContentUtf8Sha256": "8c313bee5af0856dde86350223006c733af761563fbba9f92b98e41428bc8a6e",
+       "tool": "view",
+       "toolCallId": "toolu_013nPP444yex7BZLqfH6kCS6"
+      }
+     ],
+     "packetPath": "有料.md",
+     "packetRawSha256": "8c313bee5af0856dde86350223006c733af761563fbba9f92b98e41428bc8a6e",
+     "returnedRange": [
+      1,
+      94
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 75,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:19:34.655Z",
+       "loggedContentUtf8Sha256": "8ba17d39af30448c8cd05b826d18dab7802126f7be3809baa34b97df5e9f77c1",
+       "tool": "view",
+       "toolCallId": "toolu_01JgrZKzqXeaP9hUe7pcGu2C"
+      }
+     ],
+     "packetPath": "汗.md",
+     "packetRawSha256": "8ba17d39af30448c8cd05b826d18dab7802126f7be3809baa34b97df5e9f77c1",
+     "returnedRange": [
+      1,
+      75
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 13,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:19:55.653Z",
+       "loggedContentUtf8Sha256": "1a18fa90e51b2493ddf599b6e5bea61a3ade763ea712d857d5669161b2862707",
+       "tool": "powershell",
+       "toolCallId": "toolu_016KqXfnM1kDaucjPSa97arF"
+      }
+     ],
+     "packetPath": "navigation/kanji__方.md.diff",
+     "packetRawSha256": "35fc732383ebdfa7a5791099c1da5bc22bd5257e1490e4920c81bc811644eaaf",
+     "returnedRange": [
+      1,
+      13
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 13,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:19:55.653Z",
+       "loggedContentUtf8Sha256": "1a18fa90e51b2493ddf599b6e5bea61a3ade763ea712d857d5669161b2862707",
+       "tool": "powershell",
+       "toolCallId": "toolu_016KqXfnM1kDaucjPSa97arF"
+      }
+     ],
+     "packetPath": "navigation/kanji__明.md.diff",
+     "packetRawSha256": "3bc153fe5be19257b74f094bb3e112372f0610934c2972ec0ea9e263b7576a06",
+     "returnedRange": [
+      1,
+      13
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 13,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:19:55.653Z",
+       "loggedContentUtf8Sha256": "1a18fa90e51b2493ddf599b6e5bea61a3ade763ea712d857d5669161b2862707",
+       "tool": "powershell",
+       "toolCallId": "toolu_016KqXfnM1kDaucjPSa97arF"
+      }
+     ],
+     "packetPath": "navigation/words__カーブ.md.diff",
+     "packetRawSha256": "9cc558d62ef5a539ff9351b24dbce8b12702bb4259cb776ddec8c4b1909465c6",
+     "returnedRange": [
+      1,
+      13
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 22,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:19:55.653Z",
+       "loggedContentUtf8Sha256": "1a18fa90e51b2493ddf599b6e5bea61a3ade763ea712d857d5669161b2862707",
+       "tool": "powershell",
+       "toolCallId": "toolu_016KqXfnM1kDaucjPSa97arF"
+      }
+     ],
+     "packetPath": "navigation/words__写す.md.diff",
+     "packetRawSha256": "1e362fbb65f18e01a20079dac0849409947ab0be3950c3c82b76defed1e9b596",
+     "returnedRange": [
+      1,
+      22
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 13,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:19:55.653Z",
+       "loggedContentUtf8Sha256": "1a18fa90e51b2493ddf599b6e5bea61a3ade763ea712d857d5669161b2862707",
+       "tool": "powershell",
+       "toolCallId": "toolu_016KqXfnM1kDaucjPSa97arF"
+      }
+     ],
+     "packetPath": "navigation/words__直線.md.diff",
+     "packetRawSha256": "36c863d0155335976eed1cec4d1a2fb7e11d4c0969b8c73eb700fc9734dbe045",
+     "returnedRange": [
+      1,
+      13
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 12,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:19:34.964Z",
+       "loggedContentUtf8Sha256": "a2eb378672035b11413a246a1cf35ce4bc872659f3c9e3438d5e049bb3545860",
+       "tool": "view",
+       "toolCallId": "toolu_01Q9sVQHyu16BWiQ3r9ZvmoJ"
+      },
+      {
+       "completedAt": "2026-11-24T06:28:08.113Z",
+       "loggedContentUtf8Sha256": "5d174797456c11a75c9bec29360f542cf8d853cd6f37d4ca88178edb8ed099b4",
+       "tool": "powershell",
+       "toolCallId": "toolu_01K8JMzd61V2GpmrpzsQ7Z88"
+      }
+     ],
+     "packetPath": "corrections/汗.md.diff",
+     "packetRawSha256": "a2eb378672035b11413a246a1cf35ce4bc872659f3c9e3438d5e049bb3545860",
+     "returnedRange": [
+      1,
+      12
+     ]
+    }
+   ],
+   "reportBodyUtf8Bytes": 8489,
+   "reportBodyUtf8Sha256": "e9b9f4645cedc612a679973a2b7ef2e2bb3554996b497c3a1846f10d3082c988",
+   "reportPath": "docs/translation-batches/257-words-batch-96-review-correctness-002.md",
+   "requestedRoute": {
+    "agentType": "kanji-accuracy-reviewer",
+    "dispatchedAt": "2026-11-24T06:14:58.157Z",
+    "mode": "background",
+    "model": "claude-opus-5.5"
+   },
+   "responseModels": {
+    "claude-opus-5.5": 59
+   },
+   "reviewerId": "2244d4c0-09a0-4712-8da3-0888a527f859",
+   "slug": "correctness-claude-original",
+   "stdoutToolCalls": [
+    "toolu_01T9hg7dn1qkvrT9eEwkYLfD"
+   ],
+   "toolDispatchModels": {
+    "claude-opus-5.5": 80
+   },
+   "usageRecordModels": {
+    "claude-opus-5.5": 59
+   }
+  },
+  {
+   "actualFamily": "Grok",
+   "blindnessAudit": {
+    "flaggedCalls": [],
+    "method": "Tool-call arguments other than the final stdout echo searched for the RU worktree, session state, batch records, ledger, tracking and progress paths."
+   },
+   "candidate": "bd3cb7293fa63d0b8ad59692524d561e2df91678",
+   "compactions": [],
+   "completePrimaryCount": 37,
+   "dispatchPromptUtf8Bytes": 5658,
+   "dispatchPromptUtf8Sha256": "1124d3de5d9f6634e35a80a8c049967a4af3f183a88b52e8568df94ff20a179c",
+   "explicitModelOverride": "grok-4.7",
+   "facet": "Russian comprehensibility",
+   "finalResponseAt": "2026-11-24T06:41:49.774Z",
+   "firstDispatchedModel": "grok-4.7",
+   "firstEventAt": "2026-11-24T06:32:40.284Z",
+   "hashDomains": "Report body hash covers the exact final response UTF-8 string, not stdout wrappers. Logged content hashes cover successful tool result.content UTF-8 strings, not network bytes. Only public report and evidence metadata are exported; no private prompts or reasoning.",
+   "lifecycle": [
+    {
+     "model": "grok-4.7",
+     "multiTurn": null,
+     "timestamp": "2026-11-24T06:32:40.284Z",
+     "type": "subagent.started"
+    },
+    {
+     "model": "grok-4.7",
+     "multiTurn": true,
+     "timestamp": "2026-11-24T06:32:40.615Z",
+     "type": "subagent.configured"
+    },
+    {
+     "model": "grok-4.7",
+     "multiTurn": null,
+     "timestamp": "2026-11-24T06:41:50.513Z",
+     "type": "subagent.completed"
+    }
+   ],
+   "modelChanges": [
+    {
+     "newModel": "grok-4.7",
+     "reasoningEffort": null,
+     "source": "agent",
+     "timestamp": "2026-11-24T06:32:40.616Z"
+    }
+   ],
+   "modelSelectionSource": "explicit_override",
+   "primaryCount": 37,
+   "primaryPacketCoverage": [
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 85,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:12.021Z",
+       "loggedContentUtf8Sha256": "1a407e62b7a327ffbf905d65dbfb789ab3f8ad504935730288a06b508e6e5df8",
+       "tool": "view",
+       "toolCallId": "call-2b8b6e97-3fd8-47b8-ac19-cd446cb1ece5-4"
+      }
+     ],
+     "packetPath": "下旬.md",
+     "packetRawSha256": "1a407e62b7a327ffbf905d65dbfb789ab3f8ad504935730288a06b508e6e5df8",
+     "returnedRange": [
+      1,
+      85
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 93,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:30.225Z",
+       "loggedContentUtf8Sha256": "bdfc4f43f96675eab8b5a90c89b13843f570ace615b1bee8a5d6696dbb804306",
+       "tool": "view",
+       "toolCallId": "call-8015ae40-c72b-4d19-baed-74ad5590aec2-27"
+      }
+     ],
+     "packetPath": "光線.md",
+     "packetRawSha256": "bdfc4f43f96675eab8b5a90c89b13843f570ace615b1bee8a5d6696dbb804306",
+     "returnedRange": [
+      1,
+      93
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 97,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:22.403Z",
+       "loggedContentUtf8Sha256": "1feddbeed41e76f1086c24a01565763ff3bc00a6f1a114a5e013e4cd26479b9f",
+       "tool": "view",
+       "toolCallId": "call-ff15d488-4cb9-4f09-b066-7fe54fa76c16-18"
+      }
+     ],
+     "packetPath": "写る.md",
+     "packetRawSha256": "1feddbeed41e76f1086c24a01565763ff3bc00a6f1a114a5e013e4cd26479b9f",
+     "returnedRange": [
+      1,
+      97
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 80,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:14.796Z",
+       "loggedContentUtf8Sha256": "cccab8928c637efcdc7f89b93588cf7371a6e89007e168812154d3b2a712046a",
+       "tool": "view",
+       "toolCallId": "call-2b8b6e97-3fd8-47b8-ac19-cd446cb1ece5-11"
+      }
+     ],
+     "packetPath": "工夫.md",
+     "packetRawSha256": "cccab8928c637efcdc7f89b93588cf7371a6e89007e168812154d3b2a712046a",
+     "returnedRange": [
+      1,
+      80
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 109,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:14.336Z",
+       "loggedContentUtf8Sha256": "f77bb3b39ee4db6b7f9f24e25c24f3f27b370bc397602feeca03cb0c4b2ecf74",
+       "tool": "view",
+       "toolCallId": "call-2b8b6e97-3fd8-47b8-ac19-cd446cb1ece5-10"
+      }
+     ],
+     "packetPath": "捩る.md",
+     "packetRawSha256": "f77bb3b39ee4db6b7f9f24e25c24f3f27b370bc397602feeca03cb0c4b2ecf74",
+     "returnedRange": [
+      1,
+      109
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 107,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:20.081Z",
+       "loggedContentUtf8Sha256": "3047e246879c42e8b26bf3f92adc6c2afa9538341cfa3ec9ba72e6cbcd243147",
+       "tool": "view",
+       "toolCallId": "call-ff15d488-4cb9-4f09-b066-7fe54fa76c16-12"
+      }
+     ],
+     "packetPath": "捻る.md",
+     "packetRawSha256": "3047e246879c42e8b26bf3f92adc6c2afa9538341cfa3ec9ba72e6cbcd243147",
+     "returnedRange": [
+      1,
+      107
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 95,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:31.890Z",
+       "loggedContentUtf8Sha256": "aabcfe62ebafe50a4177e14c1cc4626e5b54c838cb7476d14e8dee4b0df3da6e",
+       "tool": "view",
+       "toolCallId": "call-8015ae40-c72b-4d19-baed-74ad5590aec2-31"
+      }
+     ],
+     "packetPath": "日の出.md",
+     "packetRawSha256": "aabcfe62ebafe50a4177e14c1cc4626e5b54c838cb7476d14e8dee4b0df3da6e",
+     "returnedRange": [
+      1,
+      95
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 105,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:30.573Z",
+       "loggedContentUtf8Sha256": "68d1a880f3968e9b6c65386b531f360c58eab01421d8b267b54e4e6266a313dc",
+       "tool": "view",
+       "toolCallId": "call-8015ae40-c72b-4d19-baed-74ad5590aec2-28"
+      }
+     ],
+     "packetPath": "日差し.md",
+     "packetRawSha256": "68d1a880f3968e9b6c65386b531f360c58eab01421d8b267b54e4e6266a313dc",
+     "returnedRange": [
+      1,
+      105
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 100,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:31.434Z",
+       "loggedContentUtf8Sha256": "84504eb5ca0e8eff324472d93ffc9f17bbfa40c00689b5e071014befa232ae74",
+       "tool": "view",
+       "toolCallId": "call-8015ae40-c72b-4d19-baed-74ad5590aec2-30"
+      }
+     ],
+     "packetPath": "日帰り.md",
+     "packetRawSha256": "84504eb5ca0e8eff324472d93ffc9f17bbfa40c00689b5e071014befa232ae74",
+     "returnedRange": [
+      1,
+      100
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 98,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:31.057Z",
+       "loggedContentUtf8Sha256": "fc7d66520f623c7ee50b2fcb4f8f5a8b85c3a951fa607a3d8c5493231535cc64",
+       "tool": "view",
+       "toolCallId": "call-8015ae40-c72b-4d19-baed-74ad5590aec2-29"
+      }
+     ],
+     "packetPath": "日当たり.md",
+     "packetRawSha256": "fc7d66520f623c7ee50b2fcb4f8f5a8b85c3a951fa607a3d8c5493231535cc64",
+     "returnedRange": [
+      1,
+      98
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 98,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:29.081Z",
+       "loggedContentUtf8Sha256": "b79cd143e947cd8dcdc48d3ec14775189f9f4d44cb2ecb137cef0a0aa303adcc",
+       "tool": "view",
+       "toolCallId": "call-8015ae40-c72b-4d19-baed-74ad5590aec2-24"
+      }
+     ],
+     "packetPath": "日時.md",
+     "packetRawSha256": "b79cd143e947cd8dcdc48d3ec14775189f9f4d44cb2ecb137cef0a0aa303adcc",
+     "returnedRange": [
+      1,
+      98
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 93,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:29.850Z",
+       "loggedContentUtf8Sha256": "7827300c02ed5302a4313ec742156f73cb2c63cf8efa29c6c5d5766faf1d2382",
+       "tool": "view",
+       "toolCallId": "call-8015ae40-c72b-4d19-baed-74ad5590aec2-26"
+      }
+     ],
+     "packetPath": "日用品.md",
+     "packetRawSha256": "7827300c02ed5302a4313ec742156f73cb2c63cf8efa29c6c5d5766faf1d2382",
+     "returnedRange": [
+      1,
+      93
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 102,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:29.458Z",
+       "loggedContentUtf8Sha256": "9bc54e5412d1dbffb30ee4c56150245876c50d07f6ba8b1f1d07e0492989d6b4",
+       "tool": "view",
+       "toolCallId": "call-8015ae40-c72b-4d19-baed-74ad5590aec2-25"
+      }
+     ],
+     "packetPath": "日程.md",
+     "packetRawSha256": "9bc54e5412d1dbffb30ee4c56150245876c50d07f6ba8b1f1d07e0492989d6b4",
+     "returnedRange": [
+      1,
+      102
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 94,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:28.693Z",
+       "loggedContentUtf8Sha256": "b2b5ffe22507421d2a63fdb90f7d79ad937a0211331568079e1b7fd60b011248",
+       "tool": "view",
+       "toolCallId": "call-8015ae40-c72b-4d19-baed-74ad5590aec2-23"
+      }
+     ],
+     "packetPath": "日課.md",
+     "packetRawSha256": "b2b5ffe22507421d2a63fdb90f7d79ad937a0211331568079e1b7fd60b011248",
+     "returnedRange": [
+      1,
+      94
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 94,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:28.333Z",
+       "loggedContentUtf8Sha256": "66b47c0a3db16c063cc46cb40fc526b0ab88180ae86d384af5e1560fb4187918",
+       "tool": "view",
+       "toolCallId": "call-8015ae40-c72b-4d19-baed-74ad5590aec2-22"
+      }
+     ],
+     "packetPath": "日陰.md",
+     "packetRawSha256": "66b47c0a3db16c063cc46cb40fc526b0ab88180ae86d384af5e1560fb4187918",
+     "returnedRange": [
+      1,
+      94
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 97,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:23.614Z",
+       "loggedContentUtf8Sha256": "1ac0a9ce17b9167d6e68c107a646eb527c147cdb040c6c00bb2090823ff008f2",
+       "tool": "view",
+       "toolCallId": "call-ff15d488-4cb9-4f09-b066-7fe54fa76c16-21"
+      }
+     ],
+     "packetPath": "早口.md",
+     "packetRawSha256": "1ac0a9ce17b9167d6e68c107a646eb527c147cdb040c6c00bb2090823ff008f2",
+     "returnedRange": [
+      1,
+      97
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 89,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:23.163Z",
+       "loggedContentUtf8Sha256": "2344f0d0b9c73f805c791479f9e7e81a9660a4d2bcea7d5b8b27b5d0f0f147e1",
+       "tool": "view",
+       "toolCallId": "call-ff15d488-4cb9-4f09-b066-7fe54fa76c16-20"
+      }
+     ],
+     "packetPath": "明け方.md",
+     "packetRawSha256": "2344f0d0b9c73f805c791479f9e7e81a9660a4d2bcea7d5b8b27b5d0f0f147e1",
+     "returnedRange": [
+      1,
+      89
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 92,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:22.008Z",
+       "loggedContentUtf8Sha256": "68b91f82ca4da5f456bf2cffa95e4ef49b0363e5a9cf176506d4d72cf2d661c8",
+       "tool": "view",
+       "toolCallId": "call-ff15d488-4cb9-4f09-b066-7fe54fa76c16-17"
+      }
+     ],
+     "packetPath": "映す.md",
+     "packetRawSha256": "68b91f82ca4da5f456bf2cffa95e4ef49b0363e5a9cf176506d4d72cf2d661c8",
+     "returnedRange": [
+      1,
+      92
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 102,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:22.762Z",
+       "loggedContentUtf8Sha256": "b46cb64ab09966889015792f3e5d8b8fd80ec790f097373d46dad85c1ac8ae0c",
+       "tool": "view",
+       "toolCallId": "call-ff15d488-4cb9-4f09-b066-7fe54fa76c16-19"
+      }
+     ],
+     "packetPath": "映る.md",
+     "packetRawSha256": "b46cb64ab09966889015792f3e5d8b8fd80ec790f097373d46dad85c1ac8ae0c",
+     "returnedRange": [
+      1,
+      102
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 102,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:21.621Z",
+       "loggedContentUtf8Sha256": "841e2437f6f7a41e5ab21c6a9c7249ad4fee7a6bb1738336a520b0ad62dfe12b",
+       "tool": "view",
+       "toolCallId": "call-ff15d488-4cb9-4f09-b066-7fe54fa76c16-16"
+      }
+     ],
+     "packetPath": "昼寝.md",
+     "packetRawSha256": "841e2437f6f7a41e5ab21c6a9c7249ad4fee7a6bb1738336a520b0ad62dfe12b",
+     "returnedRange": [
+      1,
+      102
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 102,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:21.190Z",
+       "loggedContentUtf8Sha256": "891f64bc748ff578652acd9def4d88fc1b245a0a8d71cb64d188dd983a7a3d08",
+       "tool": "view",
+       "toolCallId": "call-ff15d488-4cb9-4f09-b066-7fe54fa76c16-15"
+      }
+     ],
+     "packetPath": "普及.md",
+     "packetRawSha256": "891f64bc748ff578652acd9def4d88fc1b245a0a8d71cb64d188dd983a7a3d08",
+     "returnedRange": [
+      1,
+      102
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 85,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:20.823Z",
+       "loggedContentUtf8Sha256": "6c2bbcb7d8e5432610c67cb32bdc262f9301a3d6d5b3ea354cac8be184aaa4ae",
+       "tool": "view",
+       "toolCallId": "call-ff15d488-4cb9-4f09-b066-7fe54fa76c16-14"
+      }
+     ],
+     "packetPath": "曖昧.md",
+     "packetRawSha256": "6c2bbcb7d8e5432610c67cb32bdc262f9301a3d6d5b3ea354cac8be184aaa4ae",
+     "returnedRange": [
+      1,
+      85
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 85,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:20.453Z",
+       "loggedContentUtf8Sha256": "cb6a26cccb5f7a0b0372e3da45dc0d0e438941d8cd70c92e8ac767603fdd042e",
+       "tool": "view",
+       "toolCallId": "call-ff15d488-4cb9-4f09-b066-7fe54fa76c16-13"
+      }
+     ],
+     "packetPath": "曲げる.md",
+     "packetRawSha256": "cb6a26cccb5f7a0b0372e3da45dc0d0e438941d8cd70c92e8ac767603fdd042e",
+     "returnedRange": [
+      1,
+      85
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 77,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:13.935Z",
+       "loggedContentUtf8Sha256": "1aa586de573ad73edb7d2c10501447b65db930748a9ac93e3d6d7a0a34ff7f15",
+       "tool": "view",
+       "toolCallId": "call-2b8b6e97-3fd8-47b8-ac19-cd446cb1ece5-9"
+      }
+     ],
+     "packetPath": "曲線.md",
+     "packetRawSha256": "1aa586de573ad73edb7d2c10501447b65db930748a9ac93e3d6d7a0a34ff7f15",
+     "returnedRange": [
+      1,
+      77
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 101,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:13.526Z",
+       "loggedContentUtf8Sha256": "6b5137639e0651d884deb4a21c2566dd191333b70bd1f5b5824988f0b3ddbeae",
+       "tool": "view",
+       "toolCallId": "call-2b8b6e97-3fd8-47b8-ac19-cd446cb1ece5-8"
+      }
+     ],
+     "packetPath": "更ける.md",
+     "packetRawSha256": "6b5137639e0651d884deb4a21c2566dd191333b70bd1f5b5824988f0b3ddbeae",
+     "returnedRange": [
+      1,
+      101
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 110,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:13.135Z",
+       "loggedContentUtf8Sha256": "7cd299aa32f3c764d0d60710dee6cf3b4cda8f11f37895ac2bcf4f30e89021b9",
+       "tool": "view",
+       "toolCallId": "call-2b8b6e97-3fd8-47b8-ac19-cd446cb1ece5-7"
+      }
+     ],
+     "packetPath": "書籍.md",
+     "packetRawSha256": "7cd299aa32f3c764d0d60710dee6cf3b4cda8f11f37895ac2bcf4f30e89021b9",
+     "returnedRange": [
+      1,
+      110
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 97,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:12.736Z",
+       "loggedContentUtf8Sha256": "a786e749eb18a32d76d0a828fded8e427deddce6137a7e6cb68f563fd42c3735",
+       "tool": "view",
+       "toolCallId": "call-2b8b6e97-3fd8-47b8-ac19-cd446cb1ece5-6"
+      }
+     ],
+     "packetPath": "書道.md",
+     "packetRawSha256": "a786e749eb18a32d76d0a828fded8e427deddce6137a7e6cb68f563fd42c3735",
+     "returnedRange": [
+      1,
+      97
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 87,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:12.367Z",
+       "loggedContentUtf8Sha256": "e78ceca9eb23ceb2fd8bd9d23d0b16f48b8a9b8e624067254e1cb811a01d3413",
+       "tool": "view",
+       "toolCallId": "call-2b8b6e97-3fd8-47b8-ac19-cd446cb1ece5-5"
+      }
+     ],
+     "packetPath": "月末.md",
+     "packetRawSha256": "e78ceca9eb23ceb2fd8bd9d23d0b16f48b8a9b8e624067254e1cb811a01d3413",
+     "returnedRange": [
+      1,
+      87
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 87,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:11.677Z",
+       "loggedContentUtf8Sha256": "97e103a777f9f467acb949135a346c66009c647bb73027c3acd4fe16d190ce00",
+       "tool": "view",
+       "toolCallId": "call-2b8b6e97-3fd8-47b8-ac19-cd446cb1ece5-3"
+      }
+     ],
+     "packetPath": "月給.md",
+     "packetRawSha256": "97e103a777f9f467acb949135a346c66009c647bb73027c3acd4fe16d190ce00",
+     "returnedRange": [
+      1,
+      87
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 94,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:11.322Z",
+       "loggedContentUtf8Sha256": "8c313bee5af0856dde86350223006c733af761563fbba9f92b98e41428bc8a6e",
+       "tool": "view",
+       "toolCallId": "call-2b8b6e97-3fd8-47b8-ac19-cd446cb1ece5-2"
+      }
+     ],
+     "packetPath": "有料.md",
+     "packetRawSha256": "8c313bee5af0856dde86350223006c733af761563fbba9f92b98e41428bc8a6e",
+     "returnedRange": [
+      1,
+      94
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 75,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:37.478Z",
+       "loggedContentUtf8Sha256": "8ba17d39af30448c8cd05b826d18dab7802126f7be3809baa34b97df5e9f77c1",
+       "tool": "view",
+       "toolCallId": "call-510d08e3-2b6c-4dd2-8305-f76c9a6fa7a7-32"
+      }
+     ],
+     "packetPath": "汗.md",
+     "packetRawSha256": "8ba17d39af30448c8cd05b826d18dab7802126f7be3809baa34b97df5e9f77c1",
+     "returnedRange": [
+      1,
+      75
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 13,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:38.237Z",
+       "loggedContentUtf8Sha256": "35fc732383ebdfa7a5791099c1da5bc22bd5257e1490e4920c81bc811644eaaf",
+       "tool": "view",
+       "toolCallId": "call-510d08e3-2b6c-4dd2-8305-f76c9a6fa7a7-33"
+      }
+     ],
+     "packetPath": "navigation/kanji__方.md.diff",
+     "packetRawSha256": "35fc732383ebdfa7a5791099c1da5bc22bd5257e1490e4920c81bc811644eaaf",
+     "returnedRange": [
+      1,
+      13
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 13,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:38.604Z",
+       "loggedContentUtf8Sha256": "3bc153fe5be19257b74f094bb3e112372f0610934c2972ec0ea9e263b7576a06",
+       "tool": "view",
+       "toolCallId": "call-510d08e3-2b6c-4dd2-8305-f76c9a6fa7a7-34"
+      }
+     ],
+     "packetPath": "navigation/kanji__明.md.diff",
+     "packetRawSha256": "3bc153fe5be19257b74f094bb3e112372f0610934c2972ec0ea9e263b7576a06",
+     "returnedRange": [
+      1,
+      13
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 13,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:38.973Z",
+       "loggedContentUtf8Sha256": "9cc558d62ef5a539ff9351b24dbce8b12702bb4259cb776ddec8c4b1909465c6",
+       "tool": "view",
+       "toolCallId": "call-510d08e3-2b6c-4dd2-8305-f76c9a6fa7a7-35"
+      }
+     ],
+     "packetPath": "navigation/words__カーブ.md.diff",
+     "packetRawSha256": "9cc558d62ef5a539ff9351b24dbce8b12702bb4259cb776ddec8c4b1909465c6",
+     "returnedRange": [
+      1,
+      13
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 22,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:39.353Z",
+       "loggedContentUtf8Sha256": "1e362fbb65f18e01a20079dac0849409947ab0be3950c3c82b76defed1e9b596",
+       "tool": "view",
+       "toolCallId": "call-510d08e3-2b6c-4dd2-8305-f76c9a6fa7a7-36"
+      }
+     ],
+     "packetPath": "navigation/words__写す.md.diff",
+     "packetRawSha256": "1e362fbb65f18e01a20079dac0849409947ab0be3950c3c82b76defed1e9b596",
+     "returnedRange": [
+      1,
+      22
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 13,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:39.785Z",
+       "loggedContentUtf8Sha256": "36c863d0155335976eed1cec4d1a2fb7e11d4c0969b8c73eb700fc9734dbe045",
+       "tool": "view",
+       "toolCallId": "call-510d08e3-2b6c-4dd2-8305-f76c9a6fa7a7-37"
+      }
+     ],
+     "packetPath": "navigation/words__直線.md.diff",
+     "packetRawSha256": "36c863d0155335976eed1cec4d1a2fb7e11d4c0969b8c73eb700fc9734dbe045",
+     "returnedRange": [
+      1,
+      13
+     ]
+    },
+    {
+     "completeContiguousReturn": true,
+     "limits": "A contiguous whitespace-normalized return documents exposure, not comprehension. Individual lines found in different results do not prove one complete contiguous read.",
+     "lineCount": 12,
+     "matchedContentReturns": [
+      {
+       "completedAt": "2026-11-24T06:33:37.861Z",
+       "loggedContentUtf8Sha256": "a2eb378672035b11413a246a1cf35ce4bc872659f3c9e3438d5e049bb3545860",
+       "tool": "view",
+       "toolCallId": "call-510d08e3-2b6c-4dd2-8305-f76c9a6fa7a7-38"
+      }
+     ],
+     "packetPath": "corrections/汗.md.diff",
+     "packetRawSha256": "a2eb378672035b11413a246a1cf35ce4bc872659f3c9e3438d5e049bb3545860",
+     "returnedRange": [
+      1,
+      12
+     ]
+    }
+   ],
+   "reportBodyUtf8Bytes": 6745,
+   "reportBodyUtf8Sha256": "93a26c04406179a96b01734e411be36294362a0c8e5a2fd52bf55124d498b3ac",
+   "reportPath": "docs/translation-batches/257-words-batch-96-review-comprehensibility-001.md",
+   "requestedRoute": {
+    "agentType": "kanji-comprehension-reviewer",
+    "dispatchedAt": "2026-11-24T06:32:39.927Z",
+    "mode": "background",
+    "model": "grok-4.7"
+   },
+   "responseModels": {
+    "grok-4.7": 20
+   },
+   "reviewerId": "fbadf36a-13f7-4a66-8047-ecc96e03dee5",
+   "slug": "comprehensibility-grok-original",
+   "stdoutToolCalls": [
+    "call-eefe1234-7a3a-4bd8-aa55-e57d2485311f-71"
+   ],
+   "toolDispatchModels": {
+    "grok-4.7": 73
+   },
+   "usageRecordModels": {
+    "grok-4.7": 20
+   }
+  }
+ ],
+ "schemaVersion": 1,
+ "serialBoundaries": [
+  {
+   "completedAt": "2026-11-24T04:54:58.568Z",
+   "next": "correctness-002 (Claude)",
+   "nextDispatchedAt": "2026-11-24T06:14:58.157Z",
+   "previous": "consistency-001 (GPT)"
+  },
+  {
+   "completedAt": "2026-11-24T06:31:48.788Z",
+   "next": "comprehensibility-001 (Grok)",
+   "nextDispatchedAt": "2026-11-24T06:32:39.927Z",
+   "previous": "correctness-002 (Claude)"
+  }
+ ],
+ "sourceAccepted": false,
+ "status": "three original facets complete on three distinct actual families; findings await adjudication; not source acceptance",
+ "supplementaryReports": {
+  "257-words-batch-96-review-correctness-001.md": "Actual GPT (gpt-6-astra) under a Claude lifecycle label. Retained and adjudicated for its findings; not counted as a separate family."
+ }
+}
