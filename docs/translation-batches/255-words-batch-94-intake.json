@@ -1,0 +1,776 @@
+{
+ "baseline": "650d46660be4ff7c10c5ee8067ae9034f5c36fc1",
+ "batchId": "255-words-batch-94",
+ "candidateRepository": "stop-cran/learning-japanese-ru",
+ "candidateValidation": {
+  "archiveBudget": {
+   "entries": 5786,
+   "files": 5777,
+   "inflatedBytes": 16710634,
+   "listeningTaskMediaBytes": 0,
+   "localZipBytes": 8377480,
+   "retainedBytes": 16692483
+  },
+  "contentVersion": "d0a4ace9c128fa69",
+  "manifestRawSha256": "b67550f24bf08835d047d31d29ca277c2e7fc533db2ee573f550aa1222e1c6a0",
+  "runs": [
+   {
+    "command": [
+     "python",
+     "-X",
+     "utf8",
+     "-B",
+     "tools\\build_manifest.py"
+    ],
+    "completedAt": "2026-11-23T22:29:22.077201+00:00",
+    "exitCode": 0,
+    "mergedOutputRawSha256": "1e1f1a9ed6701eccc0b082fc5bb78fe5fccf03cf777bfb2ef48d97a0feade535",
+    "startedAt": "2026-11-23T22:29:09.072680+00:00",
+    "step": "manifest",
+    "summary": [
+     "manifest.json: 5769 files incl. 3 images, 2 scene catalogs, 0 listening passages, 0 curriculum catalogs, 0 listening tasks, version d0a4ace9c128fa69"
+    ]
+   },
+   {
+    "command": [
+     "python",
+     "-X",
+     "utf8",
+     "-B",
+     "tools\\validate.py"
+    ],
+    "completedAt": "2026-11-23T22:29:45.116455+00:00",
+    "exitCode": 0,
+    "mergedOutputRawSha256": "c87d0897e6616b01474906213df2ff35e9e0eeb5e6e86eaa0367145b271abcc5",
+    "startedAt": "2026-11-23T22:29:22.082161+00:00",
+    "step": "validate",
+    "summary": [
+     "0 error(s)"
+    ]
+   },
+   {
+    "command": [
+     "python",
+     "-X",
+     "utf8",
+     "-B",
+     "-m",
+     "unittest",
+     "discover",
+     "-s",
+     "tools",
+     "-p",
+     "test_*.py"
+    ],
+    "completedAt": "2026-11-23T22:30:41.172383+00:00",
+    "exitCode": 0,
+    "mergedOutputRawSha256": "44a40cd0aec931974900a04622a2dfe43a97dfa79c723ea93c1bdccf83928dd3",
+    "startedAt": "2026-11-23T22:29:45.119555+00:00",
+    "step": "unittest",
+    "summary": [
+     "............................................................................................................................",
+     "----------------------------------------------------------------------",
+     "Ran 124 tests in 55.547s",
+     "",
+     "OK"
+    ]
+   },
+   {
+    "command": [
+     "python",
+     "-X",
+     "utf8",
+     "-B",
+     "tools\\check_content_budget.py"
+    ],
+    "completedAt": "2026-11-23T22:30:48.764799+00:00",
+    "exitCode": 0,
+    "mergedOutputRawSha256": "bdcaff57998ac72435522c2ad87660c60aff5f00a8f8a5b7c5ccf3417662de84",
+    "startedAt": "2026-11-23T22:30:41.173943+00:00",
+    "step": "budget",
+    "summary": [
+     "{'files': 5777, 'entries': 5786, 'retainedBytes': 16692483, 'inflatedBytes': 16710634, 'localZipBytes': 8377480, 'listeningTaskMediaBytes': 0}"
+    ]
+   }
+  ],
+  "scope": "Actual candidate worktree; structural checks only, not independent linguistic review or publication acceptance.",
+  "serialExecution": true,
+  "titleScreen": {
+   "comparedNewWordCount": 30,
+   "heuristicOverlapLineCount": 258,
+   "limits": "Lexical heuristic only; not a semantic audit of guard necessity, sufficiency, or all ordinary meanings.",
+   "unguardedExactSegmentOverlapCount": 0
+  }
+ },
+ "held": [],
+ "notes": [
+  "Recoverable B255 candidate only: 30 new word cards and nine navigation-only link restorations in nine existing files, materialized from exact scratch blobs onto the signed B254 publication-receipt seed. Scratch ancestry and its manifest were not merged or copied.",
+  "Pre-blind source-layout adjustment: 59 Japanese sentence/reading layouts restored on all 30 new words by the supplied source-example-layout patch. Full Japanese sentences/readings and their order match frozen EN; the patch restores parentheses, spacing and source line layout without changing Russian glosses. All nine navigation payloads retain their exact scratch bytes.",
+  "Candidate hashes and Git blob IDs refer to actual post-patch bytes, separately from original scratch hashes. Source raw hashes refer to immutable EN Git blobs; sourceSha256 alone is LF-normalized.",
+  "Frozen docs/content-format.md lines 162-167 specifies symmetric direct exclusions even when only one article declares a pair, with no transitive closure. This supersedes the historical author-note uncertainty about direction; it does not establish that any particular guard is semantically warranted.",
+  "Japanese correctness, Russian comprehensibility, complete semantic coverage and the necessity/sufficiency of inherited or RU-added quiz guards remain unverified for this candidate. No independent reviewer was launched; no earlier author notes or lane validation are treated as a review of these bytes.",
+  "Current ledger, tracking, progress, language metadata, publication pins and main remain untouched. This is not runtime publication or app/old-reader/device/media acceptance. The later RU example-guidance patch is intentionally not included."
+ ],
+ "payloads": [
+  {
+   "candidateGitBlob": "0dffa91dc1ac683e4fb63df81adaa9a25c5471f9",
+   "candidateRawSha256": "819f910d6499dfb9f78235b65f9563d8dc15c45f251c7c1e15c0f6ec35ec9212",
+   "kind": "navigation-only",
+   "path": "kanji/圧.md",
+   "predecessorGitBlob": "5eec6f97879834ed03331b1a99ac80342ca2c728",
+   "predecessorRawSha256": "b7b73d6a8ee984d1bfbe7fbe7a830d74697452570ea1ab70e79c9c361f69318a",
+   "scratchGitBlob": "0dffa91dc1ac683e4fb63df81adaa9a25c5471f9",
+   "scratchRawSha256": "819f910d6499dfb9f78235b65f9563d8dc15c45f251c7c1e15c0f6ec35ec9212",
+   "sourceGitBlob": "43c82351cc4597c2b2f9d2c1a6806ad8798c9965",
+   "sourceRawSha256": "ff58c2888b9f0f5b68505f8c3210352afb82340bc09dc6f3dcc250b6063b49b8",
+   "sourceSha256": "ff58c2888b9f0f5b68505f8c3210352afb82340bc09dc6f3dcc250b6063b49b8"
+  },
+  {
+   "candidateGitBlob": "0f6a6232400ad2ebcc3287840e356691a9fa2146",
+   "candidateRawSha256": "e73495fa8e976a1850a961b321918e9e0771f9b18eaf234480d1fd80054011cb",
+   "kind": "new-word",
+   "path": "words/いちいち.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "c9dacca8552be180ee94f1ee42ca0112aba5513f",
+   "scratchRawSha256": "3feb6471fe5dd7281a40157f14bd408fd7bd18ca7c11381851b68ee1e18526cc",
+   "sourceGitBlob": "112008c4286a3287916169f465551845dd9e1535",
+   "sourceRawSha256": "0d331981d498d69550a732a933a5187a7adad60d174bdaa2bfcb7674f9df656b",
+   "sourceSha256": "0d331981d498d69550a732a933a5187a7adad60d174bdaa2bfcb7674f9df656b"
+  },
+  {
+   "candidateGitBlob": "16d04082946237120a0a5b270f8b486d9342d249",
+   "candidateRawSha256": "a70eb9e8ea71291d6af84c2290c3d60e46d3159a67984b783c0c21bfbfcf6c8d",
+   "kind": "new-word",
+   "path": "words/いってらっしゃい.md",
+   "restoredExampleLayouts": 1,
+   "scratchGitBlob": "047f3a71a5aa0659ea8262b2581563fa7bb3dd68",
+   "scratchRawSha256": "a2d225b3a629d0dc9c7c0f161b3a4a082896582544ca0b12f39eb62dd9e76aaf",
+   "sourceGitBlob": "dc32c5ecdd2931a6e470a7577aa85b5ed60d6150",
+   "sourceRawSha256": "8fa6df2891d5a59a3f849c8add66dff169858fe837f993f1779bacc8cadf2b3b",
+   "sourceSha256": "8fa6df2891d5a59a3f849c8add66dff169858fe837f993f1779bacc8cadf2b3b"
+  },
+  {
+   "candidateGitBlob": "18bcc53097d18c5e59f47478c6b40b86ab508f8a",
+   "candidateRawSha256": "613471bec29df8db655792638178951c5fd0b9b4bd1c1029bcf4a9c7a22a4ffa",
+   "kind": "new-word",
+   "path": "words/おだいじに.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "74628cfeea78789e3990925c44abb0d1bc2519bf",
+   "scratchRawSha256": "c43873a03b94126038869160e7d00e794039018a6ebccf19fbec22d48eaca414",
+   "sourceGitBlob": "91ed521a9bb9c8aeb5440c62e9527df08405bf25",
+   "sourceRawSha256": "17e91f4458764c141c963432f2cb2c469c826a18ec1e8f149bd173040517a515",
+   "sourceSha256": "17e91f4458764c141c963432f2cb2c469c826a18ec1e8f149bd173040517a515"
+  },
+  {
+   "candidateGitBlob": "72d5ae107a84b29e9df670475e8f43c396da3640",
+   "candidateRawSha256": "3a9fdebd77d4b03ed397d4983aa85ebdc43a6be52ea1445c1749c25cc78a265f",
+   "kind": "navigation-only",
+   "path": "words/お帰り.md",
+   "predecessorGitBlob": "37bb8935c22d97cc61caf13183860cc0e08c4661",
+   "predecessorRawSha256": "4f0b459e39f6d98dcb1ce24509bfda52b395ba1f4595c0b40bb7d0194d2cc993",
+   "scratchGitBlob": "72d5ae107a84b29e9df670475e8f43c396da3640",
+   "scratchRawSha256": "3a9fdebd77d4b03ed397d4983aa85ebdc43a6be52ea1445c1749c25cc78a265f",
+   "sourceGitBlob": "a246fad1f6783118cf2b2df20d0b0d199ebcb70d",
+   "sourceRawSha256": "2a075e9cc83f0ece33e1c4b9821b39af62d53c2069ae99530f83a06edb1156eb",
+   "sourceSha256": "2a075e9cc83f0ece33e1c4b9821b39af62d53c2069ae99530f83a06edb1156eb"
+  },
+  {
+   "candidateGitBlob": "f98d5d7d1e02db5fc9cac1609f5b49a538a44dc8",
+   "candidateRawSha256": "36c0872228690395b7f1adc227918f7e92aba56b7c7c1a841c4cf511ac8756e1",
+   "kind": "new-word",
+   "path": "words/ステージ.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "fbb1ce3a6cca3ebf2ffffb65cda044f7efba7713",
+   "scratchRawSha256": "dfcbe12e0f7fd8cf975c552d8d709ffc5dc57d3d7a3cfeec99e3ee8cd2189b42",
+   "sourceGitBlob": "de6ecabc9512180f718000ae89bc5790594dad49",
+   "sourceRawSha256": "9221597bdb339386caf2f2ea05e9995b2a66e147dda503de9162c15991800ce5",
+   "sourceSha256": "9221597bdb339386caf2f2ea05e9995b2a66e147dda503de9162c15991800ce5"
+  },
+  {
+   "candidateGitBlob": "9c37b4ece7a5a4bea2e452a58b1c2d7a37b032b6",
+   "candidateRawSha256": "4028be1e3fa0adc8be6f66a66939f6053bdaba06de57e3606efa86c5bc78a959",
+   "kind": "new-word",
+   "path": "words/元気でね.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "6b15c223d39582fd326b7d36e454bff9256e0553",
+   "scratchRawSha256": "42684c9ab7e0457cdb60db26d671e7a0b6aef935ad538d485c46efd46a768301",
+   "sourceGitBlob": "85b8cfb27853f802f1cf5e8928559bda4b239b24",
+   "sourceRawSha256": "1ea0b8c5895c5c5a2ad8e6f0b305c292f6a023f1a6d5f6a39878d2368ee2593e",
+   "sourceSha256": "1ea0b8c5895c5c5a2ad8e6f0b305c292f6a023f1a6d5f6a39878d2368ee2593e"
+  },
+  {
+   "candidateGitBlob": "30c99f87adee8adafce6a8518548472840d3d1ec",
+   "candidateRawSha256": "3bc5f62c203a9cfc4e839aebfda5a5915e199d22b7be1d8b2d48580c4c6199bd",
+   "kind": "new-word",
+   "path": "words/公共.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "70c0d6039191db8efcc9cf028f2e48f0138ea801",
+   "scratchRawSha256": "1698f14d96743207328f18508a15125b3e5741aebdd83d0e1368a679b19832b1",
+   "sourceGitBlob": "8818550a5f064f49ddeb054bf861414e8f6c7319",
+   "sourceRawSha256": "00f16db73f6262a4777b5f10af5d10683badce92f9ab32b517c685ecf6a2ef02",
+   "sourceSha256": "00f16db73f6262a4777b5f10af5d10683badce92f9ab32b517c685ecf6a2ef02"
+  },
+  {
+   "candidateGitBlob": "f782118c46cfc04fcc794d313eaf315cddb386e0",
+   "candidateRawSha256": "28fb051cdf89546e9433fa0fba6ec4ae8e2d5af3a3c389544af1bafeafc198ea",
+   "kind": "new-word",
+   "path": "words/公衆.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "e4074b37c5a20224fbd3b1616103a6302d1cb7ee",
+   "scratchRawSha256": "d5662065216bb5269f6e42efda39a846f2d49d9b1f376d8aa261afa1b0becb58",
+   "sourceGitBlob": "ad94cabb5906d446654ae6fded8e65cb303c5fc0",
+   "sourceRawSha256": "8af97db71916f3a8bd54f3e1264e2dd867e1c40b6a7268f14615ce6a1c4a4f5d",
+   "sourceSha256": "8af97db71916f3a8bd54f3e1264e2dd867e1c40b6a7268f14615ce6a1c4a4f5d"
+  },
+  {
+   "candidateGitBlob": "ec257cd9721a1c496dbc431b2cea3bca0d6c9dc7",
+   "candidateRawSha256": "95a6c62629bfde4c1798042e5998cc77d4fddc81d953180f08c22cda745c4f10",
+   "kind": "navigation-only",
+   "path": "words/地平線.md",
+   "predecessorGitBlob": "7408aa8e407bed3c047861f76b501e9e55300229",
+   "predecessorRawSha256": "44396ff2a264cdcb8f780423f5a31cc40d6cb0b154ce289f307303e65bc433ae",
+   "scratchGitBlob": "ec257cd9721a1c496dbc431b2cea3bca0d6c9dc7",
+   "scratchRawSha256": "95a6c62629bfde4c1798042e5998cc77d4fddc81d953180f08c22cda745c4f10",
+   "sourceGitBlob": "aa9b22c1e590d44009a97c70414fc5c2ff97d97a",
+   "sourceRawSha256": "835141639c19bcf856864ab3791dffbb7f6a2723d60ca4d3d3a72569306a0897",
+   "sourceSha256": "835141639c19bcf856864ab3791dffbb7f6a2723d60ca4d3d3a72569306a0897"
+  },
+  {
+   "candidateGitBlob": "c9265e2976199e88b35bb9fc9845ef759ca75123",
+   "candidateRawSha256": "0fe08c4f809bf9a89dfeff99483cd02b4c46746612a2fe0262e7d02776f93b66",
+   "kind": "navigation-only",
+   "path": "words/垂直.md",
+   "predecessorGitBlob": "296639606d05db4d7551b839d940237d878318b9",
+   "predecessorRawSha256": "97fceeb1e9ea9acccf961240aa2e552ab059553708c282b385b50a413313738a",
+   "scratchGitBlob": "c9265e2976199e88b35bb9fc9845ef759ca75123",
+   "scratchRawSha256": "0fe08c4f809bf9a89dfeff99483cd02b4c46746612a2fe0262e7d02776f93b66",
+   "sourceGitBlob": "5b20b8bff7fc7051dcf8567e8c0620f21cefb870",
+   "sourceRawSha256": "dbd911cf3cee9fee460753b7f1141024ab5b35ea89fe94ed4ca87aa0ab08329d",
+   "sourceSha256": "dbd911cf3cee9fee460753b7f1141024ab5b35ea89fe94ed4ca87aa0ab08329d"
+  },
+  {
+   "candidateGitBlob": "3a5899a2d19ee2703e23ee95c48799b7bed8bc5b",
+   "candidateRawSha256": "419354ac8466211ab8c44d597fa33c345a5d198bac5d1a8b528267333628b512",
+   "kind": "new-word",
+   "path": "words/欧米.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "d572869706a33b1fe508f54b54877c235b38403b",
+   "scratchRawSha256": "010cda00d5072b573a5ae901469425c5ae663821fbfb8b38322a5ff358b83b68",
+   "sourceGitBlob": "e6ab19363ff33498dfd691e12dbca3e3a5712b29",
+   "sourceRawSha256": "dc5394196ab6f85fecd44414ee3bfc25d331d220f23a91ee112164485acf8d7b",
+   "sourceSha256": "dc5394196ab6f85fecd44414ee3bfc25d331d220f23a91ee112164485acf8d7b"
+  },
+  {
+   "candidateGitBlob": "a506643f93dd5cb16a6d9fe48865a5af683edbe4",
+   "candidateRawSha256": "07a29a04ea7ac33d28c16515d174d671f44a4eeea7add9fc9ea12872957a15a6",
+   "kind": "new-word",
+   "path": "words/歌謡.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "5a78492d440487b4991d3fe27bff1c180bfe76d6",
+   "scratchRawSha256": "4b45c2bf982b00b622ebfa7f174fd40587a889ba675caa911f1e32a271647db8",
+   "sourceGitBlob": "8f7800b936155754dcbe8d51de359991a329acb2",
+   "sourceRawSha256": "9e4c359df23ad10c3cfe47979f680080b513d260f458f9ea739dedd04d62965b",
+   "sourceSha256": "9e4c359df23ad10c3cfe47979f680080b513d260f458f9ea739dedd04d62965b"
+  },
+  {
+   "candidateGitBlob": "0554d5f7996cbd48408b8fe7110332a99107b614",
+   "candidateRawSha256": "3f9ea74dbc10043287e0798573b9a24198be99b84e07636a941dbf028ff322c4",
+   "kind": "new-word",
+   "path": "words/正味.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "09ef58053ab3d710f00e4c0e058e4117694dec10",
+   "scratchRawSha256": "fed31bb2c7f3da3b7900f6debf4fd84c5087f0ab7358ab4fcf13e20d8e72081e",
+   "sourceGitBlob": "8546ce6a88bffd20b29d4656dde96ea5c1ba2976",
+   "sourceRawSha256": "fcf1b2b9ee104f0241abea56abe0e2922ec0f263f936855ef179eb74a67dcd44",
+   "sourceSha256": "fcf1b2b9ee104f0241abea56abe0e2922ec0f263f936855ef179eb74a67dcd44"
+  },
+  {
+   "candidateGitBlob": "91110f208b3bde0554249db90c087b5c98c3e16d",
+   "candidateRawSha256": "e4ba3949a7215db5c7f08fad3e950d75b485c2ddc30f0e4488a41142033a1806",
+   "kind": "new-word",
+   "path": "words/正門.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "61f101ec5398eb7b919d164c0102f653d26ea2cc",
+   "scratchRawSha256": "a4177f601033bf4f1a15610272473b292dd1c320f793fd865e361b84eeb21c6f",
+   "sourceGitBlob": "44de3b815540c64909f81f60f57ecde48985f419",
+   "sourceRawSha256": "3bf1db6b298dcea52c4830f2a1b25b3f9cac005037d2c019e7c348873d4a5e8e",
+   "sourceSha256": "3bf1db6b298dcea52c4830f2a1b25b3f9cac005037d2c019e7c348873d4a5e8e"
+  },
+  {
+   "candidateGitBlob": "7dba0d360bbfa48c7a6c8cbd4d0b38a79728640a",
+   "candidateRawSha256": "51a5a499c2897016a5ad15fea3c9d3c05984d0a20f9963406cf4b0c9803b545a",
+   "kind": "new-word",
+   "path": "words/歯磨き.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "beabafac09c8accffeb6cb68d09ef76051c5f683",
+   "scratchRawSha256": "647749496060e6e26650821626bc378c51a3952fcd06b996e7bb5b33a716ed5e",
+   "sourceGitBlob": "82189d834b5497d4e09a4857d6600b9cb08234a3",
+   "sourceRawSha256": "d483aa0cd13ef358392b8bcd80a007899f48c10cf5414cdeab18f2d95d2bb447",
+   "sourceSha256": "d483aa0cd13ef358392b8bcd80a007899f48c10cf5414cdeab18f2d95d2bb447"
+  },
+  {
+   "candidateGitBlob": "7d201941adefb4179e14d7c9a1a131b6d1df5cf4",
+   "candidateRawSha256": "17caa39adacab1fa2a511ddbedfc16e817035ac979b69ba115f6f9c8a6906300",
+   "kind": "new-word",
+   "path": "words/歯車.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "bd679066386a7fe783fc865773f0028cde220e59",
+   "scratchRawSha256": "b595e0965ad32275743bc0ce4869f227537aa9a754310c29f987522de71196dd",
+   "sourceGitBlob": "581c34ac8d2745b39f663cf982c151c7fd14e5a2",
+   "sourceRawSha256": "b649ae6eeef80daa4432263e7762079c0baf1fa4929ee312d78ad5c4549f9dcb",
+   "sourceSha256": "b649ae6eeef80daa4432263e7762079c0baf1fa4929ee312d78ad5c4549f9dcb"
+  },
+  {
+   "candidateGitBlob": "1bb76bcb3d744f5ef4923f147913949721eddc53",
+   "candidateRawSha256": "a6eb4689f2f7d8aeea8e2c160749c401ea664b7f75a44f74ddc0a32705568cb9",
+   "kind": "new-word",
+   "path": "words/死体.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "81cd3746b504f9ecaa24235c7c0db02d45a124ed",
+   "scratchRawSha256": "7d9e86163cd1730a4dac2288edcebe2bcda54f7d0ab7a1009128cfbae5e32188",
+   "sourceGitBlob": "800c706023e9149497d366ea629987c4b773f48a",
+   "sourceRawSha256": "085bbdffe73ce38934d265dec5afc056f23a2b758db394e65b87ac31c72b8f58",
+   "sourceSha256": "085bbdffe73ce38934d265dec5afc056f23a2b758db394e65b87ac31c72b8f58"
+  },
+  {
+   "candidateGitBlob": "04f0ec5906be0e2dad2a69f2d95296b50056c49e",
+   "candidateRawSha256": "ca444b7699fc474f9a9378e3114ad26468246fbaf0eedcb950755c356aebbd78",
+   "kind": "new-word",
+   "path": "words/残らず.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "21f227ff83b553862e2f88be13845347910161bd",
+   "scratchRawSha256": "4852323f0268395debb19d338de0eaa8d55fab4e5ad8f4e3542fd86c4ab5c3a3",
+   "sourceGitBlob": "4c8ffbe9579193e8fc92898ef37b7c635e99e5f3",
+   "sourceRawSha256": "084010ce757caa15fbe23da186a8a06595f84d22025f2e1b32a0c5e08c4bc118",
+   "sourceSha256": "084010ce757caa15fbe23da186a8a06595f84d22025f2e1b32a0c5e08c4bc118"
+  },
+  {
+   "candidateGitBlob": "5870b8f1e48a41a9d98257c851c6fed164dc85ac",
+   "candidateRawSha256": "bd1bbafcbdf8904292115ec6bd080b40902a40b31c2ebcb6394df954732df17e",
+   "kind": "new-word",
+   "path": "words/段階.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "c15089ab295f2ba1def49a2c371440b30522b361",
+   "scratchRawSha256": "fc90ecf127d2140e11b1e9fbeb82d23e9cf651bdb4faf5169ca814000e2c6a07",
+   "sourceGitBlob": "c283487e6eef28b089c048e44bcf34f618305012",
+   "sourceRawSha256": "66106366e656c743ff426415efca5fde67ab96d6cf73cf0241c94ecd090cea56",
+   "sourceSha256": "66106366e656c743ff426415efca5fde67ab96d6cf73cf0241c94ecd090cea56"
+  },
+  {
+   "candidateGitBlob": "5dec90cb331f39e6f0da49e90c43a09f546f890c",
+   "candidateRawSha256": "1aabd3c529322bfd8fc2978b6ac2c11c6845f4d2e3afcb7916f81b2d635173e0",
+   "kind": "new-word",
+   "path": "words/殻.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "695a903decc5899bcc69a33a47f2e751fc662b46",
+   "scratchRawSha256": "2c9429c24ef1cbe4893c897e249a17e43051d8a433e178f84f9896c48a4ad7c9",
+   "sourceGitBlob": "4d5290c65e8aa878fd5a10c6c4672d5f2c1db12a",
+   "sourceRawSha256": "33b7cc1dde172fc2a1d2e840ec52c16d883df40fe73cb12250706bb3a9822f7b",
+   "sourceSha256": "33b7cc1dde172fc2a1d2e840ec52c16d883df40fe73cb12250706bb3a9822f7b"
+  },
+  {
+   "candidateGitBlob": "7653731e8b9c2a7a74a88564ad03019155bef4d3",
+   "candidateRawSha256": "202dafb21c1ff4b0cc72889c7e0ba47e0545dad9abe918f15f817b503fb29c90",
+   "kind": "new-word",
+   "path": "words/毎度.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "15ae4f58029537fa3867b7b3ba6f8813b229c822",
+   "scratchRawSha256": "cd8a8de356a2124b5ef91aedfd808c0c7f8ebd2043d622e959c907f32c60cd94",
+   "sourceGitBlob": "a673f486411de64124cb59c2775d37fae22d6dbe",
+   "sourceRawSha256": "5c54ac0e967818e7f1f6cd47a792fc8f908f6a90cb5a327742829a275b879ddb",
+   "sourceSha256": "5c54ac0e967818e7f1f6cd47a792fc8f908f6a90cb5a327742829a275b879ddb"
+  },
+  {
+   "candidateGitBlob": "cabe1f8978559492ed78911fd8369853136bed07",
+   "candidateRawSha256": "12551b83e04af560211ba31015e2262b19e95f246d7f4d682d6152aef84f9ee2",
+   "kind": "new-word",
+   "path": "words/比較的.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "f82c7332780371b945bb5fa2e52da4f84d4eeb36",
+   "scratchRawSha256": "f971632f0287c70e944dc544b01da5cb09d617b7df264192ecae73db9ecfa351",
+   "sourceGitBlob": "7efbadb7b8b1e42518458ad3ea60dc2a57b28fd3",
+   "sourceRawSha256": "bc3c9cec159704db413e81f802a35f40f4c88158aec702603b6b004a52d7a65f",
+   "sourceSha256": "bc3c9cec159704db413e81f802a35f40f4c88158aec702603b6b004a52d7a65f"
+  },
+  {
+   "candidateGitBlob": "2f69b1fe40ce925bc00e772de83d860cffef155f",
+   "candidateRawSha256": "82c5b520b7bafcb9c700cde78139f492e496f9da000d692e82a59f29370ef78a",
+   "kind": "new-word",
+   "path": "words/毛皮.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "bc33802075da978b96d956d184c78e8dc9d74e53",
+   "scratchRawSha256": "52d9fd1ff0ea82a1db76a1fd752a57e7f0d02a4d9d28591d1bfd3cc9b971980a",
+   "sourceGitBlob": "6c8616c6b41e2a366020cb0e98654987373ea39e",
+   "sourceRawSha256": "cb0146cd59d2292799fa050b57e82ae9cfc6fd03b4b718ec7215560db43c2ca6",
+   "sourceSha256": "cb0146cd59d2292799fa050b57e82ae9cfc6fd03b4b718ec7215560db43c2ca6"
+  },
+  {
+   "candidateGitBlob": "430a319ef2840314698eaae06e652ffa769c8ed2",
+   "candidateRawSha256": "0e9babd5dc6ac0152b102564abdc1cc6be1b8325c9d75178b4b3616625b5f49d",
+   "kind": "navigation-only",
+   "path": "words/毛糸.md",
+   "predecessorGitBlob": "4088573e3ca1d2153426924a85c5356b9710c645",
+   "predecessorRawSha256": "a60231118b4ec7d272e3c8f40bc383a11a2e4ea76cab9ad219eec81629aa4d60",
+   "scratchGitBlob": "430a319ef2840314698eaae06e652ffa769c8ed2",
+   "scratchRawSha256": "0e9babd5dc6ac0152b102564abdc1cc6be1b8325c9d75178b4b3616625b5f49d",
+   "sourceGitBlob": "56f9a4a276af8c67cbfec503f3f5e2199f702843",
+   "sourceRawSha256": "a93c9b011d6a428b963d048d7bca6d53f2dc8965280f5ddcae185de6fd1c9496",
+   "sourceSha256": "a93c9b011d6a428b963d048d7bca6d53f2dc8965280f5ddcae185de6fd1c9496"
+  },
+  {
+   "candidateGitBlob": "c7be14b490ce9511683faca916ade9b5ea0e7bfc",
+   "candidateRawSha256": "e06878cae58f45c9bfbb496b4400e0ea3f068ecb69a790aca2140a7bf0f37712",
+   "kind": "new-word",
+   "path": "words/民謡.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "2605f083af9d30b78f63b1670296ec91ddea1ba9",
+   "scratchRawSha256": "3c8894e0bb5a410503ede443474ebfa278437e7a737d07f4274cae973471cc1c",
+   "sourceGitBlob": "8b7681936d18611bb87a0c8db093de8dfc6e726f",
+   "sourceRawSha256": "a27056dcafe884ea5efb87ae7540d9d9d3efb6cada96ff8f1b0aab639a4c8798",
+   "sourceSha256": "a27056dcafe884ea5efb87ae7540d9d9d3efb6cada96ff8f1b0aab639a4c8798"
+  },
+  {
+   "candidateGitBlob": "7929af8becd09cac597db26a141220d3d2e83044",
+   "candidateRawSha256": "97365a48a9e875240685c8c688587306ec225b7e3be2f9d482e251870209a727",
+   "kind": "new-word",
+   "path": "words/民間.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "3ee9a024b41a81b885ae6c7eab4ee67b14349939",
+   "scratchRawSha256": "0ee65d84bb033186d3eddefe6d41b03b9899ae4ff477ae6006b35445dc4eb685",
+   "sourceGitBlob": "bf971d853b0f4f66e9b3f59362512211bde1b781",
+   "sourceRawSha256": "5929c50125b7b0ebce76542324c16036583c737e39279f2497372b2ab5c0eae6",
+   "sourceSha256": "5929c50125b7b0ebce76542324c16036583c737e39279f2497372b2ab5c0eae6"
+  },
+  {
+   "candidateGitBlob": "104a89144f691444afa7960eab75787ddffeb129",
+   "candidateRawSha256": "df6bc05ebd00661a298fc6264d6db8629fe8a5a549407c652114bb41d8f76c0b",
+   "kind": "new-word",
+   "path": "words/気を付ける.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "694b59ad6e388fea3352203aa87357ed4752d07e",
+   "scratchRawSha256": "c372613d1cdc22c07362356f00e5f307e1ece85513fa1a7905492f8c0d1ae1fd",
+   "sourceGitBlob": "e89ce1c099e972d0f80daf225fd7390f8e0c71c9",
+   "sourceRawSha256": "46f90beef65be2a525b0d57fe09aa83131363291d3a499a050ac2d749777930f",
+   "sourceSha256": "46f90beef65be2a525b0d57fe09aa83131363291d3a499a050ac2d749777930f"
+  },
+  {
+   "candidateGitBlob": "e1e935263a8fcab200c5ae2d80be28ef64b6b451",
+   "candidateRawSha256": "3d9067208287154dbe1616f2cdd41ae26fe7f616758dd3c0b18bfd80a0fa7457",
+   "kind": "new-word",
+   "path": "words/気圧.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "4c23f56ce1d48a4454e06b4a684adeedb1a22049",
+   "scratchRawSha256": "a1f34e630c7f9aca011145aa3a3ffbe1731e960e41d67c6cb04a71d021c1743b",
+   "sourceGitBlob": "1598d84208656cf0da7b1615e40dd1e1cf07262e",
+   "sourceRawSha256": "8172a2337844f91b1b592dedddbc9f85148497f1183b9f2a25f92ef908106fcd",
+   "sourceSha256": "8172a2337844f91b1b592dedddbc9f85148497f1183b9f2a25f92ef908106fcd"
+  },
+  {
+   "candidateGitBlob": "42daf88c9c4bb19636e7ddf3014c22552a88ef85",
+   "candidateRawSha256": "39ba12a703866e0a2ef3df6d2555fd6917da9666b2c2257d2ecb3fca9e6e08ff",
+   "kind": "new-word",
+   "path": "words/水分.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "f5a08225f7a832cc84d7342a3362eb3cb905a10a",
+   "scratchRawSha256": "60d3a520ac8171bd88da0a407defa14889bd4af6ab4c1cad771fe86a16f8bef2",
+   "sourceGitBlob": "f33e55b8589d7ce1d4adb3ec72dcb303fb1a2efb",
+   "sourceRawSha256": "48237eab73396e55b56a3576c30c15451f031b937c107f55bd278c00f56f9d74",
+   "sourceSha256": "48237eab73396e55b56a3576c30c15451f031b937c107f55bd278c00f56f9d74"
+  },
+  {
+   "candidateGitBlob": "3d69d7616950492571f649d51364971b7e790bfb",
+   "candidateRawSha256": "9be9ded4412dcece22b7cfad722af52db5414e0ecd4abd4c892f8f24d81e2981",
+   "kind": "new-word",
+   "path": "words/水平.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "09c7575daaf3fce1df810f521e961ba94f7c40ae",
+   "scratchRawSha256": "b88c6fd8a1fce1a1eb0021b3c70a70c9d9af9c799391459e11df2e5dd2c35d12",
+   "sourceGitBlob": "432a523cb2d897218a8ceb16f762080aac1114af",
+   "sourceRawSha256": "9d01004755271679cc549a90992b0a5a8538809489cb1bc6c5fca2823fcce5ef",
+   "sourceSha256": "9d01004755271679cc549a90992b0a5a8538809489cb1bc6c5fca2823fcce5ef"
+  },
+  {
+   "candidateGitBlob": "de11deb8a020a526cb7a365694c250d5a605ada0",
+   "candidateRawSha256": "bf458e8ccd67cd1ab36f24907654fd37e1a6a2a13435cd46aa2b7c1bcad13ee9",
+   "kind": "new-word",
+   "path": "words/水平線.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "ddc1ebe9d3cf6539cf99210efc05ae10c0db57ac",
+   "scratchRawSha256": "84e979670e3cd5201f832192ee9a371999075410ebf907ae33f71c06a23b177f",
+   "sourceGitBlob": "e7024470f40b274fddb4a8c3116d0f7568ed0098",
+   "sourceRawSha256": "8c1bdc76b575f574395412050eac5c09a5f43e76b7e4fb694af476bb1cca27e9",
+   "sourceSha256": "8c1bdc76b575f574395412050eac5c09a5f43e76b7e4fb694af476bb1cca27e9"
+  },
+  {
+   "candidateGitBlob": "36c2221ba004b686721345208afc6e69f1c144c4",
+   "candidateRawSha256": "e6154c58a8d8f266ac5057955fce2076648000f9375f0a2863ef7247f76a636b",
+   "kind": "new-word",
+   "path": "words/水筒.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "eafbd6f8b009a3adb0e0af86e1601cf3c29fbe35",
+   "scratchRawSha256": "5c452eb7ae95c1be0f0fc1518a953dca1a919c2f9614215f93cf1f2f427ecaf6",
+   "sourceGitBlob": "65eba89a614eef730d786b52614e694beac81487",
+   "sourceRawSha256": "fb955922bce0d4cacab2bed6da14526ef227601738965971741f8c4b380df09b",
+   "sourceSha256": "fb955922bce0d4cacab2bed6da14526ef227601738965971741f8c4b380df09b"
+  },
+  {
+   "candidateGitBlob": "d60714dfb5f0d234d3d01c10e867552b95863626",
+   "candidateRawSha256": "75f034b6c0be7f9c054b5d40db7df3a0436bda0e30156305762ede3052f68937",
+   "kind": "new-word",
+   "path": "words/水素.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "8cc765426bfd724628d356e087583e2bd12dfeb6",
+   "scratchRawSha256": "b32f669a8f07545d3bfc85e79b1fda213e0b06a7034cbf7f8f35fc9478c247a4",
+   "sourceGitBlob": "8a6ef80272fe4f51b0e723797788449ba26ae7c5",
+   "sourceRawSha256": "4a525b7fa9f74645a98730d69b6db68507cd07b1f4beae501aff8738e176883b",
+   "sourceSha256": "4a525b7fa9f74645a98730d69b6db68507cd07b1f4beae501aff8738e176883b"
+  },
+  {
+   "candidateGitBlob": "15505adaa327f952883ea6cf8f79859283a03704",
+   "candidateRawSha256": "fc1d937b82e1e4f7848c7a49b17a5799633c2f34c6b5305d24fbfd1a582edf92",
+   "kind": "new-word",
+   "path": "words/汁.md",
+   "restoredExampleLayouts": 2,
+   "scratchGitBlob": "641268a1374c4739f988e801f15049f8de60ebcd",
+   "scratchRawSha256": "a19ff3d831d9398921fe1c2bdb2b72f6e4c7959642b2d62d6d56581b47a7e9a1",
+   "sourceGitBlob": "71bf775d6166a5b92f180de9c14af78a464064f2",
+   "sourceRawSha256": "ecf719eb38235782e0208f637c4b83807018d90acabc2c87745a6dfb21b9664a",
+   "sourceSha256": "ecf719eb38235782e0208f637c4b83807018d90acabc2c87745a6dfb21b9664a"
+  },
+  {
+   "candidateGitBlob": "5355a82ff6b571b79df5acd8b1f938da0ac3881c",
+   "candidateRawSha256": "78849c7ea7fef4d97ad5be32a03970d949f2c076ddbb444e148ff7897fcb83f3",
+   "kind": "navigation-only",
+   "path": "words/羊毛.md",
+   "predecessorGitBlob": "fee2b6f372ddc802cb3329267167e85102b33c0c",
+   "predecessorRawSha256": "8b295feedd58f884e44ba926e7e6d673982e38f13bec7e5dea55401178312c85",
+   "scratchGitBlob": "5355a82ff6b571b79df5acd8b1f938da0ac3881c",
+   "scratchRawSha256": "78849c7ea7fef4d97ad5be32a03970d949f2c076ddbb444e148ff7897fcb83f3",
+   "sourceGitBlob": "cca425ff7098e7e9fdc6ea7e2c4c9f6c5b9b0f09",
+   "sourceRawSha256": "b88ad210b1f4e8abb851cee094f239d6bbf852dfd921bf2a22ecbf9c22fde28a",
+   "sourceSha256": "b88ad210b1f4e8abb851cee094f239d6bbf852dfd921bf2a22ecbf9c22fde28a"
+  },
+  {
+   "candidateGitBlob": "3fd523c7e6655c2a6b1882fdfc6cbde111a9762d",
+   "candidateRawSha256": "2abc593d54aa5b4d58d79176c425890d47e3085b2519a0abb856d97672daf1aa",
+   "kind": "navigation-only",
+   "path": "words/血圧.md",
+   "predecessorGitBlob": "c295ac820bb73514d76cc060ec49e13c08ebcf8a",
+   "predecessorRawSha256": "dcc4bbfe4b380d7df1c27d126a9b8083b567157c2f34f190723b7c238237e8af",
+   "scratchGitBlob": "3fd523c7e6655c2a6b1882fdfc6cbde111a9762d",
+   "scratchRawSha256": "2abc593d54aa5b4d58d79176c425890d47e3085b2519a0abb856d97672daf1aa",
+   "sourceGitBlob": "77159571751f063150a31e88184212c0bd20631e",
+   "sourceRawSha256": "35ce86c26610ee2955a664f88fe6f87fa1f415c313103cfbced6a868d6c1719e",
+   "sourceSha256": "35ce86c26610ee2955a664f88fe6f87fa1f415c313103cfbced6a868d6c1719e"
+  },
+  {
+   "candidateGitBlob": "d2052da6f86d6d15ec8afb9b5af39fcb0209211c",
+   "candidateRawSha256": "b9299a9e597e9b76b86d019cedfde00f7c2a2402110cedf03b329b018d6e5b14",
+   "kind": "navigation-only",
+   "path": "words/西洋.md",
+   "predecessorGitBlob": "99e17fc66bd54405d6dfc64ed218a177958c3fda",
+   "predecessorRawSha256": "ac51141c0cdb70798a2ceddaca72ac42c2bd4ed80850d629a43f9e9db4c838d4",
+   "scratchGitBlob": "d2052da6f86d6d15ec8afb9b5af39fcb0209211c",
+   "scratchRawSha256": "b9299a9e597e9b76b86d019cedfde00f7c2a2402110cedf03b329b018d6e5b14",
+   "sourceGitBlob": "f41fcae10277d11273fdc6afeb726be8fca5f596",
+   "sourceRawSha256": "0cf7e380a3e672c0983ac6c958bdc2d40bdd9fbc383b269ba0edccc3180dc0c6",
+   "sourceSha256": "0cf7e380a3e672c0983ac6c958bdc2d40bdd9fbc383b269ba0edccc3180dc0c6"
+  },
+  {
+   "candidateGitBlob": "d06f9077931dfd679eb571e529e5717e3e326c5d",
+   "candidateRawSha256": "c83e6d2a62046afd37bc5d1f67a7aed900ae93cc33451b89aec013e91f1e96ff",
+   "kind": "navigation-only",
+   "path": "words/門.md",
+   "predecessorGitBlob": "74d5f8e0bd5c2b0d40ed892fb19333ded49ea3e7",
+   "predecessorRawSha256": "030839209e2f4fdd5877fc171cf81cf44dc931cee9426c8a2ead9800b325e3b3",
+   "scratchGitBlob": "d06f9077931dfd679eb571e529e5717e3e326c5d",
+   "scratchRawSha256": "c83e6d2a62046afd37bc5d1f67a7aed900ae93cc33451b89aec013e91f1e96ff",
+   "sourceGitBlob": "7dc75360b2785fca84489b429348fb714fd5758a",
+   "sourceRawSha256": "c1d4e9c7396899783a2fc7e80ce9e80b18e826062a5e0c38cac002c14f381cb2",
+   "sourceSha256": "c1d4e9c7396899783a2fc7e80ce9e80b18e826062a5e0c38cac002c14f381cb2"
+  }
+ ],
+ "preblindAdjustment": {
+  "changedNewWordCount": 30,
+  "expectedPayloadsRecordRawSha256": "2d78f5d008a77b509e1f1a9112dd2a2e2a9319a64daa8ac7784171bd9e177b99",
+  "matchedExamplePairCount": 59,
+  "patchRawSha256": "de994422b8ef2fb24c1fc13b3c0e527447bd95ea204ba4de2794ff7c02177d02",
+  "restoredLayoutCount": 59,
+  "unchangedNavigationCount": 9
+ },
+ "publishedPredecessor": "bd8dd45099922888a55b8e17fd8c6b771dcd1a7a",
+ "schemaVersion": 1,
+ "scope": {
+  "navigationFileCount": 9,
+  "navigationLinkCount": 9,
+  "navigationRestorations": {
+   "kanji/圧.md": [
+    "words/気圧.md"
+   ],
+   "words/お帰り.md": [
+    "words/いってらっしゃい.md"
+   ],
+   "words/地平線.md": [
+    "words/水平線.md"
+   ],
+   "words/垂直.md": [
+    "words/水平.md"
+   ],
+   "words/毛糸.md": [
+    "words/毛皮.md"
+   ],
+   "words/羊毛.md": [
+    "words/毛皮.md"
+   ],
+   "words/血圧.md": [
+    "words/気圧.md"
+   ],
+   "words/西洋.md": [
+    "words/欧米.md"
+   ],
+   "words/門.md": [
+    "words/正門.md"
+   ]
+  },
+  "newWordCount": 30,
+  "newWords": [
+   "words/いちいち.md",
+   "words/いってらっしゃい.md",
+   "words/おだいじに.md",
+   "words/ステージ.md",
+   "words/元気でね.md",
+   "words/公共.md",
+   "words/公衆.md",
+   "words/欧米.md",
+   "words/歌謡.md",
+   "words/正味.md",
+   "words/正門.md",
+   "words/歯磨き.md",
+   "words/歯車.md",
+   "words/死体.md",
+   "words/残らず.md",
+   "words/段階.md",
+   "words/殻.md",
+   "words/毎度.md",
+   "words/比較的.md",
+   "words/毛皮.md",
+   "words/民謡.md",
+   "words/民間.md",
+   "words/気を付ける.md",
+   "words/気圧.md",
+   "words/水分.md",
+   "words/水平.md",
+   "words/水平線.md",
+   "words/水筒.md",
+   "words/水素.md",
+   "words/汁.md"
+  ]
+ },
+ "scratchCommit": "747a6fa7644f74719aaaaa8c26d8652074b5f9f9",
+ "scratchParent": "1e7bb647b912c455185af2bc3504438bc1de2265",
+ "scratchTree": "654e1631231403423033037c5877794bfbdb457a",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "sourceRepository": "stop-cran/learning-japanese",
+ "status": "candidate-before-blind-review",
+ "structuralObservations": {
+  "enQuizExclusionEntries": 121,
+  "frozenReferenceRawSha256": {
+   "docs/confusable-words.md": "c29a9fde295a3f05be8f1f7e478ce7a854cb61e8d1f905b249f1e21be2aaac0e",
+   "docs/content-format.md": "271af8dcfceeebaa30174476721e4b8b5e663c54b1c57af2b1fcc77f15356a5c"
+  },
+  "limits": "Automated byte, identity, link and metadata checks, not linguistic review or proof of quiz-label semantic uniqueness.",
+  "lostAvailableSourceLinks": [],
+  "ruAddedQuizExclusions": {
+   "words/いってらっしゃい.md": [
+    "さようなら"
+   ],
+   "words/元気でね.md": [
+    "さようなら",
+    "元気"
+   ],
+   "words/公衆.md": [
+    "観客"
+   ],
+   "words/欧米.md": [
+    "欧州",
+    "ヨーロッパ"
+   ],
+   "words/正味.md": [
+    "中身"
+   ],
+   "words/歯車.md": [
+    "車輪"
+   ],
+   "words/比較的.md": [
+    "比較"
+   ],
+   "words/民間.md": [
+    "私立"
+   ],
+   "words/水平線.md": [
+    "地平線",
+    "横"
+   ]
+  },
+  "ruOnlyLinkTargets": {
+   "words/ステージ.md": [
+    "words/段階.md"
+   ],
+   "words/毛糸.md": [
+    "words/毛.md"
+   ],
+   "words/門.md": [
+    "words/ドア.md",
+    "words/入口.md"
+   ]
+  },
+  "ruQuizExclusionEntries": 133,
+  "unavailableSourceLinkTargets": {
+   "words/地平線.md": [
+    "kanji/線.md"
+   ],
+   "words/欧米.md": [
+    "kanji/欧.md"
+   ],
+   "words/正門.md": [
+    "kanji/門.md"
+   ],
+   "words/歯磨き.md": [
+    "kanji/磨.md"
+   ],
+   "words/段階.md": [
+    "kanji/階.md"
+   ],
+   "words/比較的.md": [
+    "kanji/比.md"
+   ],
+   "words/毛皮.md": [
+    "kanji/毛.md",
+    "kanji/皮.md",
+    "kanji/革.md"
+   ],
+   "words/毛糸.md": [
+    "kanji/毛.md"
+   ],
+   "words/民間.md": [
+    "words/公式.md"
+   ],
+   "words/水平線.md": [
+    "kanji/線.md"
+   ],
+   "words/水筒.md": [
+    "kanji/筒.md"
+   ],
+   "words/羊毛.md": [
+    "kanji/毛.md"
+   ],
+   "words/血圧.md": [
+    "kanji/血.md"
+   ],
+   "words/門.md": [
+    "kanji/門.md"
+   ]
+  },
+  "unchangedMetadata": "All frozen EN front-matter fields and values except title and appended quiz_exclusions; field key sets also match apart from newly declared quiz_exclusions."
+ }
+}

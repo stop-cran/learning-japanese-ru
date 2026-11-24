@@ -1,0 +1,145 @@
+{
+ "schemaVersion": 1,
+ "batchId": "254-words-batch-93",
+ "recordedAt": "2026-11-23T22:20:54Z",
+ "repository": "stop-cran/learning-japanese-ru",
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "publishedBaseline": "9ea35cf017da9e6ec4d458e8fb614420813b41e0",
+ "candidateCommit": "8081cec22f3f94cd8af5c3b075dcc9569e9194d8",
+ "reviewSnapshots": {
+  "blindReviewCandidate": "559309ba0d24b9a8cd90fe1a59776a34a86a66e8",
+  "reviewedContent": "dfdfeebcc0c54972451bc3d028ccc918ccc99ab7",
+  "finalValidationInput": "8081cec22f3f94cd8af5c3b075dcc9569e9194d8"
+ },
+ "qualifiedAcceptanceCommit": "ca9d02db6528ecb901c51316c9ef675b5f49ee9e",
+ "publishedCommit": "bd8dd45099922888a55b8e17fd8c6b771dcd1a7a",
+ "publishedTree": "af067638d8d03885889947b6bbd5310131cc3f51",
+ "contentVersion": "7b3d067ef940470a",
+ "integration": {
+  "method": "pull request merge commit",
+  "pullRequestCreated": true,
+  "pullRequest": 138,
+  "pullRequestUrl": "https://github.com/stop-cran/learning-japanese-ru/pull/138",
+  "branch": "romanko-microsoft-russian-batch-254",
+  "branchRef": "ca9d02db6528ecb901c51316c9ef675b5f49ee9e",
+  "mainRef": "bd8dd45099922888a55b8e17fd8c6b771dcd1a7a",
+  "mergeParents": [
+   "9ea35cf017da9e6ec4d458e8fb614420813b41e0",
+   "ca9d02db6528ecb901c51316c9ef675b5f49ee9e"
+  ],
+  "branchAndMainTreeMatch": true
+ },
+ "githubIdentity": {
+  "authenticatedOwner": "stop-cran",
+  "branchHead": {
+   "author": "stop-cran",
+   "committer": "stop-cran",
+   "reason": "valid",
+   "sha": "ca9d02db6528ecb901c51316c9ef675b5f49ee9e",
+   "verified": true
+  },
+  "mergeCommit": {
+   "author": "stop-cran",
+   "committer": "web-flow",
+   "reason": "valid",
+   "sha": "bd8dd45099922888a55b8e17fd8c6b771dcd1a7a",
+   "verified": true
+  }
+ },
+ "exactMainCi": {
+  "workflow": "Validate Russian content",
+  "workflowPath": ".github/workflows/validate.yml",
+  "event": "push",
+  "branch": "main",
+  "runId": 45278495211,
+  "headSha": "bd8dd45099922888a55b8e17fd8c6b771dcd1a7a",
+  "status": "completed",
+  "conclusion": "success",
+  "url": "https://github.com/stop-cran/learning-japanese-ru/actions/runs/45278495211"
+ },
+ "protectedRefs": {
+  "ru-pilot-a": {
+   "expected": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+   "observedAfterPublication": "544dd15f6a07e53042bdb488b9d7a04da9685313",
+   "unchanged": true
+  },
+  "ru-pilot-b": {
+   "expected": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+   "observedAfterPublication": "4d84c90f7cffa70b5ee1e296595d5cc7ce306f6f",
+   "unchanged": true
+  }
+ },
+ "qualifiedProgress": {
+  "frozenInventory": 8278,
+  "reviewedCurrent": 5739,
+  "excludedReviewedRuntimeBlocked": 8,
+  "pending": 2531,
+  "words": 4273,
+  "kanji": 718,
+  "strokes": 718,
+  "checkpointAuthority": null,
+  "checkpointReady": false
+ },
+ "evidence": {
+  "intake": "docs/translation-batches/254-words-batch-93-intake.json",
+  "review": "docs/translation-batches/254-words-batch-93-independent-review-001.md",
+  "recheck": "docs/translation-batches/254-words-batch-93-recheck-001.md",
+  "finalValidation": "docs/translation-batches/254-words-batch-93-final-validation-001.json",
+  "qualifiedSourceRecord": "docs/translation-batches/254-words-batch-93-reviewed-source.json"
+ },
+ "remainingQualification": {
+  "ordinaryQuizNegativeFallbackSafety": "30 word titles: Five titles changed: 流行る, 活力, 治す, 洋品店 and 法則. All 122 inherited direct entries remain in EN order; six RU-only entries follow them (128 total). Four were judged required for the displayed labels, two conservative without established necessity: 涼む→休む and 洋品店→商店. ショップ→売り場 rests on a defensible Russian place-of-sale reading, not an identical dictionary gloss. 泊める→泊まる was removed because lodging provider and guest are different. The three exact segment overlaps are already guarded; this is not proof of exhaustive runtime quiz safety. Tag/random fallback choices, voice/reading modes and drawing not cleared.",
+  "runtimeAcceptance": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "fullTranslationComplete": false,
+  "continueRequired": true
+ },
+ "publicArchives": {
+  "repository": "stop-cran/learning-japanese-ru",
+  "publishedCommit": "bd8dd45099922888a55b8e17fd8c6b771dcd1a7a",
+  "branchHead": "ca9d02db6528ecb901c51316c9ef675b5f49ee9e",
+  "archives": {
+   "commitZip": {
+    "url": "https://codeload.github.com/stop-cran/learning-japanese-ru/zip/bd8dd45099922888a55b8e17fd8c6b771dcd1a7a",
+    "bytes": 9024044,
+    "rawSha256": "1d66fa2bfc4dfe72b5fa304745e418277b1d7c03b8ad8865cd4c98ea6102e1d9",
+    "rootDirectory": "learning-japanese-ru-bd8dd45099922888a55b8e17fd8c6b771dcd1a7a",
+    "embeddedCommit": "bd8dd45099922888a55b8e17fd8c6b771dcd1a7a",
+    "nonDirectoryEntries": 5747,
+    "pathAndBytesMatchExactGitArchive": true
+   },
+   "mainZip": {
+    "url": "https://codeload.github.com/stop-cran/learning-japanese-ru/zip/refs/heads/main",
+    "bytes": 8609612,
+    "rawSha256": "7dfd250c83c2460beb00426488059f3709dc7742e567ebc9b8c8ee5f41e80c5f",
+    "rootDirectory": "learning-japanese-ru-main",
+    "embeddedCommit": "bd8dd45099922888a55b8e17fd8c6b771dcd1a7a",
+    "nonDirectoryEntries": 5747,
+    "pathAndBytesMatchExactGitArchive": true
+   },
+   "commitTarGz": {
+    "url": "https://codeload.github.com/stop-cran/learning-japanese-ru/tar.gz/bd8dd45099922888a55b8e17fd8c6b771dcd1a7a",
+    "bytes": 4590300,
+    "rawSha256": "7fd8fd9ffec6ee614c78882f767a4e99f6854cada11299515e7cbf3226066939",
+    "rootDirectory": "learning-japanese-ru-bd8dd45099922888a55b8e17fd8c6b771dcd1a7a",
+    "embeddedCommit": "bd8dd45099922888a55b8e17fd8c6b771dcd1a7a",
+    "nonDirectoryEntries": 5747,
+    "pathAndBytesMatchExactGitArchive": true
+   },
+   "mainTarGz": {
+    "url": "https://codeload.github.com/stop-cran/learning-japanese-ru/tar.gz/refs/heads/main",
+    "bytes": 4589429,
+    "rawSha256": "c2ef8e9416ab488331336eb7e52a6311d1533509cea28f380257cfdd41dd3e36",
+    "rootDirectory": "learning-japanese-ru-main",
+    "embeddedCommit": "bd8dd45099922888a55b8e17fd8c6b771dcd1a7a",
+    "nonDirectoryEntries": 5747,
+    "pathAndBytesMatchExactGitArchive": true
+   }
+  },
+  "exportedRegularFiles": 5747,
+  "contentVersion": "7b3d067ef940470a",
+  "payloadObjects": 5739,
+  "rebuiltFromCommitZipEqualsShippedManifest": true,
+  "limits": "Local verification of supplied downloads; does not date the downloads, identify app-fetched bytes, or confer device, media, activation or release approval."
+ }
+}
