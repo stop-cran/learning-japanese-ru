@@ -1,0 +1,145 @@
+{
+ "authority": {
+  "checkpointAuthority": null,
+  "checkpointReady": false,
+  "deviceMediaReleaseOrOrdinaryActivationApproval": false,
+  "qualifiedSourceProgressOnly": true,
+  "runtimeAcceptance": false
+ },
+ "batchId": "256-words-batch-95",
+ "publishedBaseline": "1f3a65a375c8610fc11161c4dfcae642a1955bb4",
+ "qualifiedVerdicts": {
+  "content": "The original correctness and Russian-comprehensibility reviewers and one explicitly identified replacement for the unavailable original GPT consistency reviewer each rechecked the same signed learner fix ce3a9636e75286046db0c050b9a338a704d8f3b3. All 16 changed word diffs were returned to each. All five original correctness, four comprehension and five consistency findings were resolved; no new blocking regression in these scopes. The seven prior navigation edits and 14 unchanged cards retain their blind-candidate bytes. No recheck was a new whole-batch audit; the supplementary GPT correctness findings and their dispositions are recorded separately.",
+  "fallbackAndVoice": "Actual options, fallback, reading/voice and drawing are not cleared.",
+  "quizTitles": "Revised 果たして to mark fulfilled expectation and distinguish its interrogative use. All 85 frozen EN exclusions remain as ordered prefixes. Six RU-only entries follow them (91 total): 末っ子–子, 欄–ページ, 朗らか–楽しい and 東洋–東 address defensible direct label collisions; 果たして–実に and 朗らか–さわやか are conservative. Removed three candidate-stage RU-only pairs. The fix screen found 342 lexical-overlap rows and no unguarded exact segment; neither that screen nor the recheck establishes exhaustive semantic or runtime safety."
+ },
+ "reviewEvidence": [
+  "docs/translation-batches/256-words-batch-95-intake.json",
+  "docs/translation-batches/256-words-batch-95-independent-review-001.md",
+  "docs/translation-batches/256-words-batch-95-recheck-001.md"
+ ],
+ "schemaVersion": 1,
+ "scope": {
+  "kanjiWithoutRuCardsLeftPlain": [
+   "朗",
+   "杉",
+   "枕",
+   "林",
+   "枚",
+   "枯",
+   "桁",
+   "森",
+   "楕",
+   "櫛",
+   "欄",
+   "無",
+   "舎",
+   "造",
+   "鏡"
+  ],
+  "navigationNote": "Seven new links at their EN locations in seven predecessor files; visible wording unchanged.",
+  "navigationOnlyEdits": [
+   "articles/numbers-and-counters.md",
+   "kanji/伸.md",
+   "kanji/欠.md",
+   "words/柳.md",
+   "words/桐.md",
+   "words/生える.md",
+   "words/茂る.md"
+  ],
+  "newWords": [
+   "さすが",
+   "キャンパス",
+   "ナンバー",
+   "山林",
+   "有無",
+   "朗らか",
+   "望遠鏡",
+   "未満",
+   "末っ子",
+   "本来",
+   "本部",
+   "杉",
+   "来日",
+   "東洋",
+   "東西",
+   "枕",
+   "枚数",
+   "果たして",
+   "枯れる",
+   "校庭",
+   "校舎",
+   "桁",
+   "森林",
+   "楕円",
+   "構造",
+   "機関車",
+   "櫛",
+   "欄",
+   "欠伸",
+   "次ぐ"
+  ],
+  "selection": "30-word general queue, closed under source dependencies; no held or additional card.",
+  "unwrappedAbsentTargetsNote": "Among the 30 new cards: six unavailable kanji targets and words ついで and 工事 remain plain. No absent source target was silently counted as newly adopted.",
+  "wordOnlyImageOmissions": []
+ },
+ "sourceCommit": "6af98cb717755690a9ca793e5454a96ebd7a8f9f",
+ "status": "reviewed frozen-source content and source-progress acceptance",
+ "titleDecisions": {
+  "declinedOptional": [
+   "No separate guard for まさに after the 果たして title qualification, or for 以内 with 未満. Existing inherited pairs do not close transitively.",
+   "Necessity of 森林–山 in an ordinary bare quiz was not established. Dictionary evidence for a secondary sense does not establish its frequency.",
+   "The botanical binomial, the conversational interpretation in さすが:41 and the concise 東西 title remain. 東洋 explicitly labels the China-specific Japan sense dated; no further rewording required by the rechecks."
+  ],
+  "exclusionsAddedBeyondEn": {
+   "朗らか": [
+    "さわやか",
+    "楽しい"
+   ],
+   "末っ子": [
+    "子"
+   ],
+   "東洋": [
+    "東"
+   ],
+   "果たして": [
+    "実に"
+   ],
+   "欄": [
+    "ページ"
+   ]
+  },
+  "titles": {
+   "さすが": "как и следовало ожидать; даже такой",
+   "キャンパス": "кампус; территория университета",
+   "ナンバー": "опознавательный номер; номерной знак",
+   "山林": "лесистые горы; лесные угодья",
+   "有無": "наличие или отсутствие; согласие или отказ",
+   "朗らか": "весёлый и открытый; ясный (о небе, дне)",
+   "望遠鏡": "телескоп",
+   "未満": "меньше (не включая границу)",
+   "末っ子": "младший ребёнок в семье",
+   "本来": "изначально; по своей природе; как положено",
+   "本部": "штаб-квартира; головной офис",
+   "杉": "криптомерия (японский кедр)",
+   "来日": "приезд в Японию",
+   "東洋": "страны Востока; восточный мир",
+   "東西": "восток и запад",
+   "枕": "подушка; зачин (рассказа)",
+   "枚数": "количество листов (и других плоских предметов)",
+   "果たして": "как и ожидалось; в самом ли деле (в вопросе)",
+   "枯れる": "засыхать; увядать (о растениях)",
+   "校庭": "школьный двор",
+   "校舎": "здание школы",
+   "桁": "балка; количество разрядов",
+   "森林": "лесной массив",
+   "楕円": "эллипс; овал",
+   "構造": "внутреннее устройство; конструкция",
+   "機関車": "локомотив",
+   "櫛": "расчёска",
+   "欄": "колонка (в газете, журнале); поле для заполнения",
+   "欠伸": "зевок",
+   "次ぐ": "следовать за (кем-либо, чем-либо); занимать следующее место"
+  }
+ }
+}

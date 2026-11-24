@@ -8,6 +8,17 @@ and frequent signed commits, pulls/reconciliation and pushes without confirmatio
 The [current full-scope plan](FULL-TRANSLATION-PLAN.md#subsequent-owner-authorization-sequential-background-authoring)
 records this revised order; earlier blocked observations below remain historical.
 
+## Reviewed source milestone: batch256 thirty words
+
+Word batch 95 adds 30 word cards and restores seven navigation links. Three distinct model families reviewed
+the signed candidate; scoped rechecks at `ce3a9636` covered all 16 changed words. The consistency recheck
+used a replacement reviewer with the original brief and report. The separate counter-validator port did not
+change learner payloads. The [full milestone](FULL-TRANSLATION-PLAN.md#reviewed-source-milestone-batch256-thirty-words-general-word-queue)
+links the reports, dispositions and remaining limits.
+
+Source progress: **5,799 reviewed-current / 8 runtime-blocked / 2,471 pending of 8,278**; 4,333 words,
+718 kanji and 718 strokes. There are 687 pending words. Publication and ordinary RU activation remain separate.
+
 ## Reviewed source milestone: batch255 thirty words
 
 Word batch 94 adds 30 dependency-closed word cards and restores nine links in nine existing files. Three reviewers

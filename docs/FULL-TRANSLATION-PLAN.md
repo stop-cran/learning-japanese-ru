@@ -1,5 +1,33 @@
 # Full Russian translation: execution after the two pilots
 
+## Reviewed source milestone: batch256 thirty words (general word queue)
+
+Word batch 95 adds 30 Russian word articles from frozen EN `6af98cb7`. There are no additional dependency
+cards, held paths or deferred guards. Seven existing mentions now link to 桁, 欠伸, 杉 or 枯れる without changing
+their visible wording. The [intake](translation-batches/256-words-batch-95-intake.json) records the 37 payloads
+and the restoration of 63 Japanese sentence/reading layouts before the candidate was signed.
+
+Three distinct families reviewed `599b9e5b` in sequence: GPT for consistency and quiz safety, Claude for
+correctness and coverage, and Grok for Russian comprehensibility and coverage. An earlier correctness report
+also ran on GPT despite a Claude lifecycle label; its findings are preserved, not counted as a separate family.
+The [review record](translation-batches/256-words-batch-95-independent-review-001.md) gives the actual model
+evidence and dispositions. Signed fix `ce3a9636` changes 16 words, including the two different particle roles
+in the 櫛 examples, the present attributive 本来の目的, and a clearer 果たして answer. All 85 EN exclusions
+remain in order; six direct RU additions follow them. No Japanese example or reading changed.
+
+All three [scoped rechecks](translation-batches/256-words-batch-95-recheck-001.md) found the fix clean
+within their assignments. The original Claude and Grok reviewers returned; a fresh GPT consistency reviewer
+used the original brief and report after the original ID could not be reached. The separate validator port
+`ccf67028` requires the neutral gloss field for Russian v1 counter cards. It changed neither a counter payload
+nor the manifest.
+
+Qualified source progress: **5,799 reviewed-current / 8 reviewed runtime-blocked / 2,471 pending of 8,278**.
+There are 4,333 reviewed words, 718 kanji and 718 strokes; **687 frozen-source words remain**. Manifest
+`5481a3ac3cb1e345` contains 5,794 files, three images and two scene catalogs. See the
+[source record](translation-batches/256-words-batch-95-reviewed-source.json) and
+[final validation](translation-batches/256-words-batch-95-final-validation-001.json). B255 is published
+at `1f3a65a3`; this B256 milestone is source acceptance, not publication, device approval or ordinary RU activation.
+
 ## Reviewed source milestone: batch255 thirty words (general word queue)
 
 Batch255 adds 30 Russian word articles from frozen EN `6af98cb`, chunk 47 of the 72-batch general word queue.
@@ -4224,6 +4252,25 @@ Remaining order (R4, then R5/R6):
 5. Articles, grammar, curriculum and counters alongside the units they support.
 6. Scenes and images.
 7. Listening, as non-runtime drafts under `docs/` only.
+
+**Article queue for step 5.** At published B255 (`1f3a65a3`), 55 of the 57 frozen
+EN articles were absent from the RU manifest. Of those, 45 are companions of 86 pending
+grammar sets. The other pending grammar set and all 116 pending counter sets already have
+a published companion; their exercises are not thereby translated. Track these ten
+articles separately: no grammar or counter set names them as its companion.
+
+| Standalone articles (filenames under `articles/`, without `.md`) | Count |
+|---|---:|
+| `ayashii-and-related-words`, `kaeru-change-replace-and-return`, `occupation-and-role-endings` | 3 |
+| `japanese-onomatopoeia`, `onomatopoeia-body-and-feelings`, `onomatopoeia-eating-and-drinking`, `onomatopoeia-motion-and-sound`, `onomatopoeia-sound-and-movement`, `onomatopoeia-sound-patterns`, `onomatopoeia-texture-and-warmth` | 7 |
+
+At intake, compare the frozen EN article paths with adopted `articles/` rows in the [progress
+ledger](translation-progress.json), not just the `article` values in exercise packages. Preserve
+the intended section when restoring a link: for example, frozen `numbers-and-counters.md`
+lines 245, 305 and 728 refer to **three different sections** of `quantity-ranges-and-frequency.md`
+(lines 337, 480 and 593). Restore links against the actual reviewed Russian headings when
+the target exists, not English slugs copied into Russian prose. These are source-navigation
+checks, not new prerequisite locks or evidence that Android scrolls to a section.
 
 The kanji `quiz_exclusions` validator support (B155), paid media, RU activation and device/IME claims remain
 out of scope until the owner authorizes them.
