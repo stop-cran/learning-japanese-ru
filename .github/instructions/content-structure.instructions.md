@@ -158,7 +158,9 @@ task-пакеты/медиа, инструменты и языковые мет�
   так же 合 пишет あ, а わせる записано каной. Нельзя писать, что 待 «даёт まち», а 合 «даёт あわ». Такая
   формулировка есть в
   [замороженном источнике](https://github.com/stop-cran/learning-japanese/blob/6af98cb717755690a9ca793e5454a96ebd7a8f9f/words/%E5%BE%85%E3%81%A1%E5%90%88%E3%82%8F%E3%81%9B%E3%82%8B.md#L28-L30);
-  в EN она исправлена к
+  в EN её исправил коммит
+  [`e824da99`](https://github.com/stop-cran/learning-japanese/commit/e824da99c8a19479bfede4e6fbe88b1f21a4180b)
+  (24 ноября 2026), исправленные строки 28–30 видны в
   [`c70ee454`](https://github.com/stop-cran/learning-japanese/blob/c70ee4543565a7a9ed175969940a9bf5f27fce43/words/%E5%BE%85%E3%81%A1%E5%90%88%E3%82%8F%E3%81%9B%E3%82%8B.md#L28-L30),
   а правило записано в
   [EN `content-structure`](https://github.com/stop-cran/learning-japanese/blob/c70ee4543565a7a9ed175969940a9bf5f27fce43/.github/instructions/content-structure.instructions.md#L70-L71).
