@@ -31,6 +31,9 @@ description: Read-only reviewer of cross-file format, links, answer pools, depen
 5. **Грамматика:** prompt, accepted answers, правильный ID, все distractors/rationales и answer-side
    explanation относятся к одному сценарию и operation. Русский предответный текст не раскрывает полный
    ответ; context keys отражают реальное различие операций, а не разные ID или существительные.
+   Словарные подсказки проверяйте при скрытых и при показанных вариантах, адреса ссылок между заданиями — на
+   нейтральность к ответу, а `word` у фрагмента — на пример карточки, который сам раскрывает проверяемое
+   отношение; правила — в [разделе о грамматических заданиях](../copilot-instructions.md#грамматические-задания-и-сопутствующие-статьи).
    Для curriculum проверяйте прямые prerequisites, unowned/partial mapping и циклы обоих графов.
 6. **Сцены и media:** catalog/article/manifest map, filename, case, exact hash и принадлежность согласованы;
    описание верно тому, что видно, и не подсказывает ответ. Лицензия/NOTICE и scope approval сохранены;
