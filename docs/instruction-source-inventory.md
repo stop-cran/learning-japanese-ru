@@ -20,6 +20,34 @@
 всех учебных утверждений upstream. Историческая матрица ниже сохраняет исходные даты/состояние
 C2; её сведения о тогда ещё локальных C1-изменениях не описывают текущий опубликованный источник.
 
+## Сверка после EN PR #66 и #67 (2026-11-25)
+
+Сверялись только активные `.github`-входы и места, на которые ссылаются новые RU-правила; проверкой
+всех учебных утверждений upstream это не является. Между замороженным источником
+`6af98cb717755690a9ca793e5454a96ebd7a8f9f` и EN
+[`c70ee4543565a7a9ed175969940a9bf5f27fce43`](https://github.com/stop-cran/learning-japanese/commit/c70ee4543565a7a9ed175969940a9bf5f27fce43)
+(слияние PR #67; слияние PR #66 —
+[`dd057663ae8ed6c89647704655311082a8551a02`](https://github.com/stop-cran/learning-japanese/commit/dd057663ae8ed6c89647704655311082a8551a02))
+набор активных `.github`-входов прежний: шесть файлов (три агента, `copilot-instructions.md` и две
+scoped-инструкции) и workflow `validate.yml`, который инструкцией не является. Пути не добавлялись, не
+удалялись и не переименовывались; три агента не менялись; front matter (`applyTo`) обеих scoped-инструкций
+не затронут.
+
+| Источник EN | Дельта | Решение RU |
+| --- | --- | --- |
+| `.github/copilot-instructions.md` (+111/−5) | Проверка страницы задания в reader: нейтральные ссылки, парные задания, позиционные диаграммы, примеры утечки через подсказки; раздел «Local working trees and publishing»; записи журнала от 2026-11-25 | Адаптировано в [`copilot-instructions.md`](../.github/copilot-instructions.md): разделы о японских объяснениях, о грамматических заданиях, о больших партиях и новый раздел о локальных рабочих деревьях. Записи журнала не переносились: в RU нет журнала, основание каждого правила указано в тексте. |
+| `.github/instructions/content-structure.instructions.md` (+10/−0) | Окуригана в объяснении слов; записи журнала «Example scope» и «Okurigana in compounds» | Окуригана принята в [`content-structure.instructions.md`](../.github/instructions/content-structure.instructions.md); правило про 櫛 в RU уже было; часть про 汗 (汗をかく и 汗を拭く) отдельно не переносилась. |
+| `.github/instructions/listening-authoring.instructions.md` (+5/−0) | Рукописи вне runtime-каталогов; сохранение исходной `visual.role` | Оба правила приняты в [`listening-authoring.instructions.md`](../.github/instructions/listening-authoring.instructions.md). |
+| `.github/workflows/validate.yml` (+1/−1) | `svgpathtools==1.8.0` в `pip install` | Не переносилось: RU-workflow ставит `requirements.txt` (`pyyaml`, `pillow`), а `svgpathtools` в отслеживаемых файлах RU на `f6b5413d` не упоминается (проверено `git grep`). |
+
+В том же диапазоне менялись `README.md`, `REVIEW.md`, `docs/content-format.md`, `docs/jlpt-levels.md`,
+`docs/listening-n5.md` и `docs/listening-tasks.md`. Подробно разобраны `docs/content-format.md` (разделы о
+грамматических заданиях и словарных подсказках) и якоря, на которые ссылаются новые RU-правила; остальные
+изменения не разбирались. Позже EN `main` ушёл вперёд до `74cecafa` (документация передачи N1;
+`.github/copilot-instructions.md` +53/−16 к `c70ee454`): эти изменения не перенесены и подробно не
+просмотрены. Новый русский текст не проходил независимой проверки, как и английский текст, с которого он
+адаптирован.
+
 ## Зафиксированный снимок
 
 Актуальные инструкции английской версии проверены непосредственно в репозитории `stop-cran/learning-japanese` на
